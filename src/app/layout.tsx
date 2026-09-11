@@ -7,6 +7,8 @@ import { SkipLink } from "@/components/layout/SkipLink";
 import { SiteHeader } from "@/components/layout/SiteHeader";
 import { SiteFooterGate } from "@/components/layout/SiteFooterGate";
 import { SiteFooter } from "@/components/layout/SiteFooter";
+import { Analytics } from "@vercel/analytics/next";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 import { AnalyticsScripts } from "@/components/analytics/AnalyticsScripts";
 import { siteConfig } from "@/content/config";
 import "./globals.css";
@@ -85,6 +87,8 @@ export default function RootLayout({
           </CompareTrayProvider>
         </ThemeProvider>
         <AnalyticsScripts />
+        <Analytics />
+        <SpeedInsights />
       </body>
     </html>
   );

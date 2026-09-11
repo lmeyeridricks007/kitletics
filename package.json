@@ -108,7 +108,9 @@
     "search:qa": "vitest run tests/search-discovery.test.ts"
   },
   "dependencies": {
+    "@vercel/analytics": "^2.0.1",
     "@vercel/blob": "^2.8.0",
+    "@vercel/speed-insights": "^2.0.0",
     "clsx": "^2.1.1",
     "lucide-react": "^1.37.0",
     "next": "15.5.24",
