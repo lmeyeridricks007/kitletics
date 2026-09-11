@@ -16,6 +16,7 @@ import {
 import { siteConfig } from "@/content/config";
 
 export const revalidate = 3600;
+export const dynamic = "force-static";
 
 export const metadata: Metadata = {
   title: {

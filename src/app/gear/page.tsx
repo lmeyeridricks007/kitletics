@@ -7,6 +7,9 @@ import {
 } from "@/lib/gear-hub";
 import { GearHubPage } from "@/components/gear-hub/GearHubPage";
 
+
+/** Request-time / heavy catalog pages — skip SSG to keep builds healthy. */
+export const dynamic = "force-dynamic";
 export const metadata: Metadata = {
   title: "Sports Gear & Equipment",
   description:

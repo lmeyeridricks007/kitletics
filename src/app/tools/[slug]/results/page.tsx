@@ -12,6 +12,9 @@ import { getFinderDefinition } from "@/domain/finders/repository";
 import { getRequestRegion } from "@/lib/region/server";
 import { Container } from "@/components/layout/Container";
 
+
+/** Request-time / heavy catalog pages — skip SSG to keep builds healthy. */
+export const dynamic = "force-dynamic";
 interface PageProps {
   params: Promise<{ slug: string }>;
   searchParams: Promise<{

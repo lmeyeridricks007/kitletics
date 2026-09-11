@@ -32,7 +32,7 @@ export function AnalyticsScripts({
     <>
       {enabled && measurementId ? (
         <>
-          <Script id="ga4-consent-stub" strategy="beforeInteractive">
+          <Script id="ga4-consent-stub" strategy="afterInteractive">
             {`
 window.dataLayer = window.dataLayer || [];
 function gtag(){dataLayer.push(arguments);}

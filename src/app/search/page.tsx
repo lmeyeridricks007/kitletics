@@ -4,6 +4,9 @@ import { getSearchPageData } from "@/lib/search/get-search-page-data";
 import { getRequestRegion } from "@/lib/region/server";
 import { siteConfig } from "@/content/config";
 
+
+/** Request-time / heavy catalog pages — skip SSG to keep builds healthy. */
+export const dynamic = "force-dynamic";
 export const metadata: Metadata = {
   title: "Search",
   description: "Search Kitletics products, brands, guides and tools.",

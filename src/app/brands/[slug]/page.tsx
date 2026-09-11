@@ -12,6 +12,9 @@ import {
   itemListJsonLd,
 } from "@/lib/seo/jsonld";
 
+
+/** Request-time / heavy catalog pages — skip SSG to keep builds healthy. */
+export const dynamic = "force-dynamic";
 interface PageProps {
   params: Promise<{ slug: string }>;
 }

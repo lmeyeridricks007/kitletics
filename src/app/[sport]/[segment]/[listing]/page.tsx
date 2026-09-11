@@ -13,6 +13,9 @@ import {
   NOINDEX_FOLLOW,
 } from "@/lib/seo/query-state";
 
+
+/** Request-time / heavy catalog pages — skip SSG to keep builds healthy. */
+export const dynamic = "force-dynamic";
 interface PageProps {
   params: Promise<{ sport: string; segment: string; listing: string }>;
   searchParams: Promise<Record<string, string | string[] | undefined>>;

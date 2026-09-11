@@ -15,6 +15,9 @@ import {
 } from "@/lib/launch/apply-eligibility";
 import { LaunchEligibilityDebug } from "@/components/launch/LaunchEligibilityDebug";
 
+
+/** Request-time / heavy catalog pages — skip SSG to keep builds healthy. */
+export const dynamic = "force-dynamic";
 interface PageProps {
   params: Promise<{ slug: string }>;
 }

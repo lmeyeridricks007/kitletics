@@ -14,6 +14,9 @@ import { getCalculatorDefinition } from "@/domain/calculators/registry";
 import { getToolHref } from "@/lib/tools/href";
 import { isFinderToolSlug } from "@/lib/tools/finder-slugs";
 
+
+/** Request-time / heavy catalog pages — skip SSG to keep builds healthy. */
+export const dynamic = "force-dynamic";
 interface PageProps {
   params: Promise<{ slug: string }>;
   searchParams: Promise<Record<string, string | string[] | undefined>>;

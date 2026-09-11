@@ -8,6 +8,9 @@ import { getToolHref } from "@/lib/tools/href";
 import { FINDER_TOOL_SLUGS, isFinderToolSlug } from "@/lib/tools/finder-slugs";
 import { renderFinderToolPage } from "@/app/tools/[slug]/render-finder";
 
+
+/** Request-time / heavy catalog pages — skip SSG to keep builds healthy. */
+export const dynamic = "force-dynamic";
 interface PageProps {
   params: Promise<{ slug: string }>;
   searchParams: Promise<Record<string, string | string[] | undefined>>;
