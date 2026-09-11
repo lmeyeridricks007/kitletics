@@ -79,7 +79,7 @@ export const reviewsBackfill: Review[] = [
   return path;
 }
 
-function main(): void {
+async function main(): Promise<void> {
   void publishedMeta;
   const dryRun = flag("dry-run");
   const publishedIds: string[] = [];
@@ -113,7 +113,19 @@ function main(): void {
   if (publishedIds.length) {
     const section = runReviewSectionImagesForSlugs(publishedIds, { dryRun });
     if (!section.ok) process.exit(1);
+
+    if (!dryRun) {
+      const { notifyIndexNowAfterPublish } = await import(
+        "./lib/indexnow-after-publish"
+      );
+      await notifyIndexNowAfterPublish(
+        publishedIds.map((slug) => ({ kind: "review" as const, slug })),
+      );
+    }
   }
 }
 
-main();
+main().catch((err) => {
+  console.error(err);
+  process.exit(1);
+});

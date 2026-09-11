@@ -1,11 +1,13 @@
 import { NextResponse } from "next/server";
 import type { NextRequest } from "next/server";
 import { isFinderToolSlug } from "@/lib/tools/finder-slugs";
+import { isValidIndexNowKey } from "@/lib/seo/indexnow/config";
 
 const APEX_HOST = "kitletics.com";
 
 /**
  * - Canonical host: www → apex (308) so Ahrefs/Google don't split equity
+ * - IndexNow `/{key}.txt` → `/indexnow-key.txt`
  * - Finder URL rewrite for SEO-stable /tools/<slug>
  * - /images/* → Vercel Blob when MEDIA_BLOB_BASE_URL is set
  */
@@ -19,6 +21,17 @@ export function middleware(request: NextRequest) {
   }
 
   const { pathname } = request.nextUrl;
+
+  const indexNowKey = process.env.INDEXNOW_KEY?.trim();
+  if (
+    indexNowKey &&
+    isValidIndexNowKey(indexNowKey) &&
+    pathname === `/${indexNowKey}.txt`
+  ) {
+    const url = request.nextUrl.clone();
+    url.pathname = "/indexnow-key.txt";
+    return NextResponse.rewrite(url);
+  }
 
   const blobBase = process.env.MEDIA_BLOB_BASE_URL?.replace(/\/$/, "");
   if (blobBase && pathname.startsWith("/images/")) {
@@ -46,9 +59,11 @@ export function middleware(request: NextRequest) {
 export const config = {
   matcher: [
     /*
-     * Host redirect + existing rewrites. Skip static assets.
+     * Host redirect + IndexNow key file + existing rewrites.
+     * Allow `.txt` through (IndexNow); still skip common static assets.
      */
-    "/((?!_next/static|_next/image|favicon.ico|.*\\..*).*)",
+    "/((?!_next/static|_next/image|favicon.ico|.*\\.(?:js|css|png|jpe?g|gif|webp|avif|ico|woff2?|map)$).*)",
     "/images/:path*",
+    "/indexnow-key.txt",
   ],
 };

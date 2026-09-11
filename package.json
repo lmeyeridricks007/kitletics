@@ -65,6 +65,7 @@
     "reviews:rewrite-voice": "tsx --tsconfig tsconfig.json scripts/rewrite-review-voice.ts",
     "reviews:upgrade-audience": "tsx --tsconfig tsconfig.json scripts/upgrade-review-audience.ts",
     "reviews:publish-fitness": "tsx --tsconfig tsconfig.json scripts/publish-fitness-reviews.ts",
+    "indexnow:notify": "tsx --tsconfig tsconfig.json scripts/indexnow-notify.ts",
     "reviews:backfill": "tsx --tsconfig tsconfig.json scripts/review-catalog-backfill.ts",
     "reviews:maintenance": "tsx --tsconfig tsconfig.json scripts/reviews-maintenance.ts",
     "product:onboard": "tsx --tsconfig tsconfig.json scripts/product-onboard.ts onboard",

@@ -75,7 +75,7 @@ function reviewToTsLiteral(r: Review): string {
   return lines.join("\n");
 }
 
-function main() {
+async function main() {
   const dryRun = flag("dry-run");
   const catalog = buildReviewAgentCatalog();
   const missing = getProducts().filter((p) => {
@@ -176,6 +176,16 @@ function main() {
     );
     process.exit(1);
   }
+
+  const { notifyIndexNowAfterPublish } = await import(
+    "./lib/indexnow-after-publish"
+  );
+  await notifyIndexNowAfterPublish(
+    sectionSlugs.map((slug) => ({ kind: "review" as const, slug })),
+  );
 }
 
-main();
+main().catch((err) => {
+  console.error(err);
+  process.exit(1);
+});
