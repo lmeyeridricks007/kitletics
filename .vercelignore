@@ -1,0 +1,18 @@
+# Product media is too large for Vercel deploy uploads (Hobby 100MB / Pro 1GB).
+# Host via Vercel Blob (or CDN) — see docs/media-hosting.md
+public/images/**
+!public/images/.gitkeep
+!public/images/README.md
+
+# Local / staging artefacts
+tmp/
+data/qa/
+data/media-orphans/
+data/staging/
+data/media-originals/
+.cursor/
+docs/prelaunch/data/rc-*/
+scripts/tmp/
+*.xls
+*.xlsm
+~$*
