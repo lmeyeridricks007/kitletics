@@ -2,16 +2,22 @@ import { NextResponse } from "next/server";
 import type { NextRequest } from "next/server";
 import { isFinderToolSlug } from "@/lib/tools/finder-slugs";
 
+const APEX_HOST = "kitletics.com";
+
 /**
- * Public Finder URLs stay `/tools/<slug>` for SEO and bookmarks.
- * Internally rewrite to `/tools/finder/<slug>` so the Finder client graph
- * never shares a page chunk with Home Gym / Hyrox / calculator catalogs.
- *
- * When MEDIA_BLOB_BASE_URL is set (Vercel Blob), `/images/*` is rewritten to
- * the public Blob store so production can omit the multi‑GB public/images tree.
- * Locally, leave unset and serve from public/images as usual.
+ * - Canonical host: www → apex (308) so Ahrefs/Google don't split equity
+ * - Finder URL rewrite for SEO-stable /tools/<slug>
+ * - /images/* → Vercel Blob when MEDIA_BLOB_BASE_URL is set
  */
 export function middleware(request: NextRequest) {
+  const host = request.headers.get("host")?.split(":")[0]?.toLowerCase();
+  if (host === `www.${APEX_HOST}`) {
+    const url = request.nextUrl.clone();
+    url.hostname = APEX_HOST;
+    url.protocol = "https:";
+    return NextResponse.redirect(url, 308);
+  }
+
   const { pathname } = request.nextUrl;
 
   const blobBase = process.env.MEDIA_BLOB_BASE_URL?.replace(/\/$/, "");
@@ -38,5 +44,11 @@ export function middleware(request: NextRequest) {
 }
 
 export const config = {
-  matcher: ["/tools/:slug", "/images/:path*"],
+  matcher: [
+    /*
+     * Host redirect + existing rewrites. Skip static assets.
+     */
+    "/((?!_next/static|_next/image|favicon.ico|.*\\..*).*)",
+    "/images/:path*",
+  ],
 };

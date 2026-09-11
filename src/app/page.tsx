@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { getHomepageData } from "@/lib/home";
+import { getCachedHomepageData } from "@/lib/performance/cached-hubs";
 import { HomeHero } from "@/components/home/HomeHero";
 import { FinderPanel } from "@/components/home/FinderPanel";
 import { ExploreBySport } from "@/components/home/ExploreBySport";
@@ -14,6 +14,8 @@ import {
   webSiteJsonLd,
 } from "@/lib/seo/jsonld";
 import { siteConfig } from "@/content/config";
+
+export const revalidate = 3600;
 
 export const metadata: Metadata = {
   title: {
@@ -30,8 +32,8 @@ export const metadata: Metadata = {
   },
 };
 
-export default function HomePage() {
-  const data = getHomepageData({ region: "NL" });
+export default async function HomePage() {
+  const data = await getCachedHomepageData();
 
   return (
     <div className="bg-white overflow-x-clip">

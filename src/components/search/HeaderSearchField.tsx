@@ -4,6 +4,7 @@ import { FormEvent, useEffect, useState } from "react";
 import { usePathname, useRouter, useSearchParams } from "next/navigation";
 import { Search, X } from "lucide-react";
 import { cn } from "@/lib/utils";
+import { track } from "@/lib/analytics";
 
 /** Inline header search field — active on /search with query state. */
 export function HeaderSearchField({ className }: { className?: string }) {
@@ -20,6 +21,12 @@ export function HeaderSearchField({ className }: { className?: string }) {
   function submit(event?: FormEvent) {
     event?.preventDefault();
     const q = value.trim().replace(/\s+/g, " ");
+    // Never send free-form query text (PII risk) — length + presence only
+    track("search", {
+      page_type: "search",
+      has_query: q.length > 0,
+      query_length: q.length,
+    });
     router.push(q ? `/search?q=${encodeURIComponent(q)}` : "/search");
   }
 

@@ -1,8 +1,10 @@
 import type { Metadata } from "next";
 import { GuidesHubPage } from "@/components/guides-hub/GuidesHubPage";
-import { getGuidesHubData } from "@/lib/guides/get-guides-hub-data";
+import { getCachedGuidesHubData } from "@/lib/performance/cached-hubs";
 import { siteConfig } from "@/content/config";
 import { getSportBySlug } from "@/repositories";
+
+export const revalidate = 3600;
 
 interface PageProps {
   searchParams: Promise<{ sport?: string; topic?: string; domain?: string }>;
@@ -62,7 +64,7 @@ export async function generateMetadata({
 export default async function GuidesIndexPage({ searchParams }: PageProps) {
   const { sport: sportSlug, topic, domain } = await searchParams;
   const shoesDomain = domain === "shoes";
-  const data = getGuidesHubData({
+  const data = await getCachedGuidesHubData({
     sportSlug: shoesDomain ? undefined : sportSlug,
     domain: shoesDomain ? "shoes" : undefined,
   });

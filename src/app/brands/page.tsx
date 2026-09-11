@@ -1,7 +1,9 @@
 import type { Metadata } from "next";
 import { BrandsHubPage } from "@/components/brands-hub/BrandsHubPage";
-import { getBrandsHubData } from "@/lib/brands/get-brands-hub-data";
+import { getCachedBrandsHubData } from "@/lib/performance/cached-hubs";
 import { siteConfig } from "@/content/config";
+
+export const revalidate = 3600;
 
 interface PageProps {
   searchParams: Promise<{ sport?: string; q?: string; domain?: string }>;
@@ -36,7 +38,7 @@ export async function generateMetadata({
 export default async function BrandsPage({ searchParams }: PageProps) {
   const { sport, q, domain } = await searchParams;
   const shoesDomain = domain === "shoes";
-  const data = getBrandsHubData({
+  const data = await getCachedBrandsHubData({
     sportSlug: shoesDomain ? undefined : sport,
     query: q,
     domain: shoesDomain ? "shoes" : undefined,

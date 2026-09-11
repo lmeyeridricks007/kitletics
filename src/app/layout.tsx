@@ -10,6 +10,8 @@ import { SiteFooter } from "@/components/layout/SiteFooter";
 import { Analytics } from "@vercel/analytics/next";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import { AnalyticsScripts } from "@/components/analytics/AnalyticsScripts";
+import { AnalyticsProvider } from "@/components/analytics/AnalyticsProvider";
+import { getServerAnalyticsConfig } from "@/lib/analytics";
 import { siteConfig } from "@/content/config";
 import "./globals.css";
 
@@ -68,25 +70,38 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  // Do not read cookies()/headers() here — that forces the entire app dynamic
+  // (no CDN cache, multi-second TTFB). Consent defaults are applied in the
+  // client stub (reads kit_analytics_consent when present).
+  const analyticsConfig = getServerAnalyticsConfig();
+
   return (
     <html lang="en" suppressHydrationWarning>
       <body
         className={`${display.variable} ${body.variable} min-h-svh bg-background font-sans text-foreground antialiased`}
       >
         <ThemeProvider>
-          <CompareTrayProvider>
-            <SkipLink />
-            <div className="flex min-h-svh flex-col">
-              <SiteHeader />
-              <main id="main-content" tabIndex={-1} className="flex-1 outline-none scroll-mt-[var(--header-height)]">
-                {children}
-              </main>
-              <SiteFooterGate footer={<SiteFooter />} />
-            </div>
-            <GlobalCompareTray />
-          </CompareTrayProvider>
+          <AnalyticsProvider config={analyticsConfig}>
+            <CompareTrayProvider>
+              <SkipLink />
+              <div className="flex min-h-svh flex-col">
+                <SiteHeader />
+                <main id="main-content" tabIndex={-1} className="flex-1 outline-none scroll-mt-[var(--header-height)]">
+                  {children}
+                </main>
+                <SiteFooterGate footer={<SiteFooter />} />
+              </div>
+              <GlobalCompareTray />
+            </CompareTrayProvider>
+          </AnalyticsProvider>
         </ThemeProvider>
-        <AnalyticsScripts />
+        <AnalyticsScripts
+          enabled={analyticsConfig.enabled}
+          measurementId={analyticsConfig.measurementId}
+          ahrefsEnabled={analyticsConfig.ahrefsEnabled}
+          ahrefsKey={analyticsConfig.ahrefsKey}
+          initialAnalyticsConsent={null}
+        />
         <Analytics />
         <SpeedInsights />
       </body>

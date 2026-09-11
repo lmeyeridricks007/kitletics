@@ -849,6 +849,8 @@ export function getReviewsIndexData(
     brandSlug?: string;
     gender?: ReviewGenderFilter;
     shoeType?: string;
+    /** Cap cards per category on hub pages (keeps HTML/TTFB bounded). */
+    maxPerCategory?: number;
   },
 ) {
   const typeFilter = options?.typeFilter ?? "all";
@@ -944,15 +946,20 @@ export function getReviewsIndexData(
 
   const byCategory = new Map<
     string,
-    { categoryName: string; items: typeof items }
+    { categoryName: string; items: typeof items; totalCount: number }
   >();
   for (const item of items) {
     const key = item.category?.id ?? "other";
     const name = item.category?.name ?? "Other";
     if (!byCategory.has(key)) {
-      byCategory.set(key, { categoryName: name, items: [] });
+      byCategory.set(key, { categoryName: name, items: [], totalCount: 0 });
     }
-    byCategory.get(key)!.items.push(item);
+    const group = byCategory.get(key)!;
+    group.totalCount += 1;
+    const cap = options?.maxPerCategory;
+    if (cap === undefined || group.items.length < cap) {
+      group.items.push(item);
+    }
   }
 
   const brandCounts = new Map<string, { slug: string; name: string; count: number }>();

@@ -4,15 +4,21 @@ import { Container } from "@/components/layout/Container";
 import { Breadcrumbs } from "@/components/layout/Breadcrumbs";
 import { ReviewCard } from "@/components/cards/ContentCards";
 import {
-  getReviewsIndexData,
   type ReviewGenderFilter,
 } from "@/lib/review/get-review-page-data";
+import { getCachedReviewsIndexData } from "@/lib/review/cached-reviews-index";
 import type { ReviewType } from "@/domain/editorial/types";
 import { siteConfig } from "@/content/config";
 import {
   hasNonCanonicalQueryState,
   NOINDEX_FOLLOW,
 } from "@/lib/seo/query-state";
+
+/** ISR — hub HTML is expensive; refresh hourly without blocking every request. */
+export const revalidate = 3600;
+
+/** Default cards shown per category on the unfiltered hub (full list via filters). */
+const HUB_MAX_PER_CATEGORY = 6;
 
 interface PageProps {
   searchParams: Promise<{
@@ -97,7 +103,7 @@ export default async function ReviewsIndexPage({ searchParams }: PageProps) {
   const categorySlug =
     shoesDomain && params.category ? params.category : undefined;
 
-  const data = getReviewsIndexData({
+  const data = await getCachedReviewsIndexData({
     typeFilter,
     sportSlug: shoesDomain ? undefined : params.sport,
     categoryIds: shoesDomain ? [...SHOE_CATEGORY_IDS] : undefined,
@@ -105,6 +111,11 @@ export default async function ReviewsIndexPage({ searchParams }: PageProps) {
     gender,
     shoeType,
     categorySlug,
+    // Unfiltered hub: cap HTML size. Filtered views show the full match set.
+    maxPerCategory:
+      !shoesDomain && typeFilter === "all" && !params.sport
+        ? HUB_MAX_PER_CATEGORY
+        : undefined,
   });
 
   const activeShoeParams = {
@@ -318,9 +329,16 @@ export default async function ReviewsIndexPage({ searchParams }: PageProps) {
       <Container className="py-10 sm:py-14 space-y-14">
         {data.byCategory.map((group) => (
           <section key={group.categoryName}>
-            <h2 className="font-display text-2xl font-semibold">
-              {group.categoryName}
-            </h2>
+            <div className="flex flex-wrap items-end justify-between gap-3">
+              <h2 className="font-display text-2xl font-semibold">
+                {group.categoryName}
+              </h2>
+              {group.totalCount > group.items.length ? (
+                <p className="text-sm text-muted">
+                  Showing {group.items.length} of {group.totalCount}
+                </p>
+              ) : null}
+            </div>
             <div className="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
               {group.items.map((item) => (
                 <ReviewCard

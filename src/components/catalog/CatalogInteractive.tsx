@@ -22,6 +22,7 @@ import { useCompareTray } from "@/components/compare/CompareTrayProvider";
 import type { AudienceFit } from "@/lib/product/audience";
 import { AUDIENCE_LABELS } from "@/lib/product/audience";
 import { useModalFocus } from "@/lib/a11y/use-modal-focus";
+import { track } from "@/lib/analytics";
 
 interface CatalogInteractiveProps {
   basePath: string;
@@ -80,6 +81,15 @@ export function CatalogInteractive({
         type: next.type.filter((t) => !lockedTypes.includes(t)),
         useCase: next.useCase.filter((u) => !lockedUseCases.includes(u)),
       };
+      const filterCount =
+        forUrl.type.length +
+        forUrl.brand.length +
+        forUrl.useCase.length +
+        Object.values(forUrl.specs).reduce((n, v) => n + v.length, 0);
+      track("filter_use", {
+        filter_count: filterCount,
+        filter_key: "facet",
+      });
       // Keep locked eligibility in navigation state by merging back on parse server-side;
       // URL only carries user refinements for listing pages.
       if (lockedTypes.length === 0 && lockedUseCases.length === 0) {
