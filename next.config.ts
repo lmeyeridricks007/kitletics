@@ -47,7 +47,26 @@ const nextConfig: NextConfig = {
         protocol: "https",
         hostname: "**",
       },
+      {
+        protocol: "https",
+        hostname: "*.public.blob.vercel-storage.com",
+      },
+      {
+        protocol: "https",
+        hostname: "*.blob.vercel-storage.com",
+      },
     ],
+  },
+  async rewrites() {
+    const blobBase = process.env.MEDIA_BLOB_BASE_URL?.replace(/\/$/, "");
+    if (!blobBase) return [];
+    // Proxy /images/* → Vercel Blob (middleware does the same at the edge).
+    return [
+      {
+        source: "/images/:path*",
+        destination: `${blobBase}/images/:path*`,
+      },
+    ];
   },
   async headers() {
     return [

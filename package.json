@@ -46,6 +46,7 @@
     "commerce:qa": "tsx --tsconfig tsconfig.json scripts/commerce-qa.ts && vitest run tests/commerce-freshness.test.ts",
     "offers:validate": "tsx --tsconfig tsconfig.json scripts/offers-validate.ts",
     "offers:import-affiliate": "tsx --tsconfig tsconfig.json scripts/import-affiliate-urls.ts",
+    "media:blob-upload": "tsx --tsconfig tsconfig.json scripts/upload-images-to-blob.ts",
     "offers:validate-urls": "tsx --tsconfig tsconfig.json scripts/tmp/prelaunch-22-validate-offers.ts",
     "offers:validate-urls:day1": "tsx --tsconfig tsconfig.json scripts/tmp/prelaunch-79-validate-offers.ts",
     "sitemap:probe:current": "tsx --tsconfig tsconfig.json scripts/tmp/prelaunch-80-sitemap-probe.ts",
@@ -107,6 +108,7 @@
     "search:qa": "vitest run tests/search-discovery.test.ts"
   },
   "dependencies": {
+    "@vercel/blob": "^2.8.0",
     "clsx": "^2.1.1",
     "lucide-react": "^1.37.0",
     "next": "15.5.24",
