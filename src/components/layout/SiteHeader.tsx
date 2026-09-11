@@ -16,7 +16,10 @@ import {
   getGearSetups,
 } from "@/repositories";
 import { GEAR_MENU_FEATURED_SLUGS } from "@/lib/navigation/config";
-import { getRequestRegion } from "@/lib/region/server";
+import type { RegionCode } from "@/domain/shared/types";
+
+/** Default region for static shell — RegionSelector hydrates from cookie client-side. */
+const HEADER_DEFAULT_REGION: RegionCode = "NL";
 
 export async function SiteHeader() {
   const sports = getSports();
@@ -28,7 +31,7 @@ export async function SiteHeader() {
       (GEAR_MENU_FEATURED_SLUGS as readonly string[]).includes(c.slug),
     )
     .filter((c) => getProductsByCategory(c.id).length > 0);
-  const initialRegion = await getRequestRegion();
+  const initialRegion = HEADER_DEFAULT_REGION;
 
   const categoryCounts: Record<string, number> = {};
   for (const cat of featuredCategories) {
