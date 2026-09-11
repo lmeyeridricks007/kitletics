@@ -1,0 +1,27 @@
+{
+  "generatedAt": "2026-09-04T13:49:30.319Z",
+  "totals": {
+    "published": 83,
+    "withAuthenticPrimary": 83,
+    "missing": 0,
+    "broken": 0,
+    "placeholderOnly": 0,
+    "identityMismatches": 0,
+    "coveragePct": 100,
+    "registryEntries": 286
+  },
+  "byCategory": [
+    {
+      "categoryId": "cat-running-shoes",
+      "categoryName": "Running Shoes",
+      "categorySlug": "running-shoes",
+      "published": 83,
+      "withAuthenticPrimary": 83,
+      "missing": 0,
+      "broken": 0,
+      "placeholderOnly": 0,
+      "coveragePct": 100
+    }
+  ],
+  "gaps": []
+}

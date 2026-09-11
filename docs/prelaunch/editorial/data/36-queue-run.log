@@ -1,0 +1,32 @@
+{
+  "items": 1615,
+  "remediationCounts": {
+    "NEEDS_UNIQUE_REWRITE": 539,
+    "NEEDS_INTENT_DIFFERENTIATION": 7,
+    "NEEDS_RESEARCH": 166,
+    "NEEDS_EVIDENCE": 14,
+    "NEEDS_RELATIONSHIP_FIX": 520,
+    "BROKEN": 0,
+    "BLOCKED_INTENTIONALLY": 0,
+    "READY": 369
+  },
+  "byPriority": {
+    "P0": 1087,
+    "P1": 522,
+    "P2": 6
+  },
+  "byType": {
+    "review": 590,
+    "alternatives": 605,
+    "long-form-guide": 1,
+    "brand-hub": 160,
+    "category-decision": 16,
+    "best-guide": 53,
+    "best-guide-use-case": 5,
+    "comparison": 102,
+    "explainer": 67,
+    "gear-setup": 16
+  },
+  "p0NotReady": 785,
+  "p0Ready": 302
+}

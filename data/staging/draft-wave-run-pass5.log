@@ -1,0 +1,24 @@
+Pass5 strict: 20 targets
+… raidlight-responsiv-12 FAIL
+… patagonia-slope-runner-vest FAIL
+… salomon-trailblazer-20 FAIL
+… hydrapak-shape-shift-15 OK 11756 http://www.hydrapak.com/cdn/shop/files/hp_image.png?v=1700089676
+… leki-trail-running-quiver FAIL
+… camelbak-octane-22 FAIL
+… camelbak-quick-grip-chill FAIL
+… nathan-quickdraw-plus-handheld FAIL
+… ultimate-direction-utility-bag FAIL
+… wilson-kaos-rapide-3-0 FAIL
+… new-balance-fresh-foam-x-lav-v2 FAIL
+… nike-zoom-gp-turbo-hc-2 FAIL
+… head-revolt-court-padel FAIL
+… kuikma-ps-560-women FAIL
+… oxdog-hyper-court FAIL
+… varlion-bourne-padel FAIL
+… tecnifibre-wall-shooter FAIL
+… adidas-solecourt-boost-padel FAIL
+… starvie-absolute-padel FAIL
+… nathan-zippered-stash FAIL
+
+PASS5 NEW OK 1 registry+1
+prod-hydrapak-shape-shift-15

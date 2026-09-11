@@ -1,0 +1,1030 @@
+url,type,sport,quality,indexable,ready,publicationState,primaryReason,holdBucket
+/badminton/rackets,category,sport-badminton,no_config,no,no,published,vertical_hub_hold:sport-badminton:disabled,vertical_hold
+/best/adjustable-benches,best,,LAUNCH_READY,no,yes,published,vertical_hold:fitness:selective,vertical_hold
+/best/adjustable-dumbbells,best,,LAUNCH_READY,no,yes,published,vertical_hold:fitness:selective,vertical_hold
+/best/air-bikes,best,,LAUNCH_READY,no,yes,published,vertical_hold:fitness:selective,vertical_hold
+/best/heart-rate-monitors-hyrox,best,,LAUNCH_READY,no,yes,published,vertical_hold:hyrox:disabled,vertical_hold
+/best/home-gym-equipment,best,,LAUNCH_READY,no,yes,published,vertical_hold:fitness:selective,vertical_hold
+/best/hyrox-shoes,best,,LAUNCH_READY,no,yes,published,vertical_hold:hyrox:disabled,vertical_hold
+/best/padel-rackets,best,,LAUNCH_READY,no,yes,published,vertical_hold:padel:disabled,vertical_hold
+/best/power-racks,best,,LAUNCH_READY,no,yes,published,vertical_hold:fitness:selective,vertical_hold
+/best/pull-up-bars,best,,LAUNCH_READY,no,yes,published,vertical_hold:calisthenics:disabled,vertical_hold
+/best/rowing-machines,best,,LAUNCH_READY,no,yes,published,vertical_hold:fitness:selective,vertical_hold
+/best/tennis-rackets,best,,LAUNCH_READY,no,yes,published,vertical_hold:tennis:disabled,vertical_hold
+/best/training-shoes,best,,LAUNCH_READY,no,yes,published,vertical_hold:fitness:selective,vertical_hold
+/best/treadmills-for-home,best,,LAUNCH_READY,no,yes,published,vertical_hold:fitness:selective,vertical_hold
+/best/weight-plates,best,,LAUNCH_READY,no,yes,published,vertical_hold:fitness:selective,vertical_hold
+/brands/100-percent,brand,,HOLD_INSUFFICIENT_DEPTH,no,no,published,brand_hub_insufficient_depth,HOLD_INSUFFICIENT_DEPTH
+/brands/226ers,brand,,HOLD_INSUFFICIENT_DEPTH,no,no,published,brand_hub_insufficient_depth,HOLD_INSUFFICIENT_DEPTH
+/brands/2toms,brand,,HOLD_INSUFFICIENT_DEPTH,no,no,published,brand_hub_insufficient_depth,HOLD_INSUFFICIENT_DEPTH
+/brands/2xu,brand,,HOLD_NO_PRODUCTS,no,no,published,brand_hub_no_products,HOLD_NO_PRODUCTS
+/brands/amazfit,brand,,HOLD_INSUFFICIENT_DEPTH,no,no,published,brand_hub_insufficient_depth,HOLD_INSUFFICIENT_DEPTH
+/brands/atx,brand,,HOLD_INSUFFICIENT_DEPTH,no,no,published,brand_hub_insufficient_depth,HOLD_INSUFFICIENT_DEPTH
+/brands/balega,brand,,HOLD_INSUFFICIENT_DEPTH,no,no,published,brand_hub_insufficient_depth,HOLD_INSUFFICIENT_DEPTH
+/brands/bear-komplex,brand,,HOLD_NO_PRODUCTS,no,no,published,brand_hub_no_products,HOLD_NO_PRODUCTS
+/brands/beats,brand,,HOLD_INSUFFICIENT_DEPTH,no,no,published,brand_hub_insufficient_depth,HOLD_INSUFFICIENT_DEPTH
+/brands/biolite,brand,,HOLD_INSUFFICIENT_DEPTH,no,no,published,brand_hub_insufficient_depth,HOLD_INSUFFICIENT_DEPTH
+/brands/black-crown,brand,,HOLD_INSUFFICIENT_DEPTH,no,no,published,brand_hub_insufficient_depth,HOLD_INSUFFICIENT_DEPTH
+/brands/body-glide,brand,,HOLD_INSUFFICIENT_DEPTH,no,no,published,brand_hub_insufficient_depth,HOLD_INSUFFICIENT_DEPTH
+/brands/bombas,brand,,HOLD_NO_PRODUCTS,no,no,published,brand_hub_no_products,HOLD_NO_PRODUCTS
+/brands/bose,brand,,HOLD_INSUFFICIENT_DEPTH,no,no,published,brand_hub_insufficient_depth,HOLD_INSUFFICIENT_DEPTH
+/brands/bowflex,brand,,HOLD_INSUFFICIENT_DEPTH,no,no,published,brand_hub_insufficient_depth,HOLD_INSUFFICIENT_DEPTH
+/brands/brazyn,brand,,HOLD_INSUFFICIENT_DEPTH,no,no,published,brand_hub_insufficient_depth,HOLD_INSUFFICIENT_DEPTH
+/brands/ciele,brand,,HOLD_INSUFFICIENT_DEPTH,no,no,published,brand_hub_insufficient_depth,HOLD_INSUFFICIENT_DEPTH
+/brands/clif-bar,brand,,HOLD_INSUFFICIENT_DEPTH,no,no,published,brand_hub_insufficient_depth,HOLD_INSUFFICIENT_DEPTH
+/brands/compressport,brand,,HOLD_INSUFFICIENT_DEPTH,no,no,published,brand_hub_insufficient_depth,HOLD_INSUFFICIENT_DEPTH
+/brands/darn-tough,brand,,HOLD_INSUFFICIENT_DEPTH,no,no,published,brand_hub_insufficient_depth,HOLD_INSUFFICIENT_DEPTH
+/brands/decathlon,brand,,HOLD_INSUFFICIENT_DEPTH,no,no,published,brand_hub_insufficient_depth,HOLD_INSUFFICIENT_DEPTH
+/brands/dirty-girl,brand,,HOLD_NO_PRODUCTS,no,no,published,brand_hub_no_products,HOLD_NO_PRODUCTS
+/brands/do-win,brand,,HOLD_INSUFFICIENT_DEPTH,no,no,published,brand_hub_insufficient_depth,HOLD_INSUFFICIENT_DEPTH
+/brands/domyos,brand,,HOLD_NO_PRODUCTS,no,no,published,brand_hub_no_products,HOLD_NO_PRODUCTS
+/brands/drop-shot,brand,,HOLD_INSUFFICIENT_DEPTH,no,no,published,brand_hub_insufficient_depth,HOLD_INSUFFICIENT_DEPTH
+/brands/drymax,brand,,HOLD_INSUFFICIENT_DEPTH,no,no,published,brand_hub_insufficient_depth,HOLD_INSUFFICIENT_DEPTH
+/brands/dunlop,brand,,HOLD_INSUFFICIENT_DEPTH,no,no,published,brand_hub_insufficient_depth,HOLD_INSUFFICIENT_DEPTH
+/brands/enervit,brand,,HOLD_INSUFFICIENT_DEPTH,no,no,published,brand_hub_insufficient_depth,HOLD_INSUFFICIENT_DEPTH
+/brands/feetures,brand,,HOLD_INSUFFICIENT_DEPTH,no,no,published,brand_hub_insufficient_depth,HOLD_INSUFFICIENT_DEPTH
+/brands/fenix,brand,,HOLD_NO_PRODUCTS,no,no,published,brand_hub_no_products,HOLD_NO_PRODUCTS
+/brands/fitletic,brand,,HOLD_INSUFFICIENT_DEPTH,no,no,published,brand_hub_insufficient_depth,HOLD_INSUFFICIENT_DEPTH
+/brands/flipbelt,brand,,HOLD_INSUFFICIENT_DEPTH,no,no,published,brand_hub_insufficient_depth,HOLD_INSUFFICIENT_DEPTH
+/brands/goodr,brand,,HOLD_INSUFFICIENT_DEPTH,no,no,published,brand_hub_insufficient_depth,HOLD_INSUFFICIENT_DEPTH
+/brands/high5,brand,,HOLD_INSUFFICIENT_DEPTH,no,no,published,brand_hub_insufficient_depth,HOLD_INSUFFICIENT_DEPTH
+/brands/hilly,brand,,HOLD_NO_PRODUCTS,no,no,published,brand_hub_no_products,HOLD_NO_PRODUCTS
+/brands/honey-stinger,brand,,HOLD_INSUFFICIENT_DEPTH,no,no,published,brand_hub_insufficient_depth,HOLD_INSUFFICIENT_DEPTH
+/brands/horizon-fitness,brand,,HOLD_INSUFFICIENT_DEPTH,no,no,published,brand_hub_insufficient_depth,HOLD_INSUFFICIENT_DEPTH
+/brands/huawei,brand,,HOLD_NO_PRODUCTS,no,no,published,brand_hub_no_products,HOLD_NO_PRODUCTS
+/brands/huma,brand,,HOLD_INSUFFICIENT_DEPTH,no,no,published,brand_hub_insufficient_depth,HOLD_INSUFFICIENT_DEPTH
+/brands/hydrow,brand,,HOLD_INSUFFICIENT_DEPTH,no,no,published,brand_hub_insufficient_depth,HOLD_INSUFFICIENT_DEPTH
+/brands/injinji,brand,,HOLD_INSUFFICIENT_DEPTH,no,no,published,brand_hub_insufficient_depth,HOLD_INSUFFICIENT_DEPTH
+/brands/jabra,brand,,HOLD_NO_PRODUCTS,no,no,published,brand_hub_no_products,HOLD_NO_PRODUCTS
+/brands/joola,brand,,HOLD_INSUFFICIENT_DEPTH,no,no,published,brand_hub_insufficient_depth,HOLD_INSUFFICIENT_DEPTH
+/brands/k-swiss,brand,,HOLD_INSUFFICIENT_DEPTH,no,no,published,brand_hub_insufficient_depth,HOLD_INSUFFICIENT_DEPTH
+/brands/knog,brand,,HOLD_NO_PRODUCTS,no,no,published,brand_hub_no_products,HOLD_NO_PRODUCTS
+/brands/kuikma,brand,,HOLD_INSUFFICIENT_DEPTH,no,no,published,brand_hub_insufficient_depth,HOLD_INSUFFICIENT_DEPTH
+/brands/ledlenser,brand,,HOLD_INSUFFICIENT_DEPTH,no,no,published,brand_hub_insufficient_depth,HOLD_INSUFFICIENT_DEPTH
+/brands/leki,brand,,HOLD_NO_PRODUCTS,no,no,published,brand_hub_no_products,HOLD_NO_PRODUCTS
+/brands/li-ning,brand,,HOLD_NO_PRODUCTS,no,no,published,brand_hub_no_products,HOLD_NO_PRODUCTS
+/brands/lok,brand,,HOLD_INSUFFICIENT_DEPTH,no,no,published,brand_hub_insufficient_depth,HOLD_INSUFFICIENT_DEPTH
+/brands/lululemon,brand,,HOLD_INSUFFICIENT_DEPTH,no,no,published,brand_hub_insufficient_depth,HOLD_INSUFFICIENT_DEPTH
+/brands/luxilon,brand,,HOLD_INSUFFICIENT_DEPTH,no,no,published,brand_hub_insufficient_depth,HOLD_INSUFFICIENT_DEPTH
+/brands/naak,brand,,HOLD_INSUFFICIENT_DEPTH,no,no,published,brand_hub_insufficient_depth,HOLD_INSUFFICIENT_DEPTH
+/brands/naked,brand,,HOLD_INSUFFICIENT_DEPTH,no,no,published,brand_hub_insufficient_depth,HOLD_INSUFFICIENT_DEPTH
+/brands/neversecond,brand,,HOLD_INSUFFICIENT_DEPTH,no,no,published,brand_hub_insufficient_depth,HOLD_INSUFFICIENT_DEPTH
+/brands/night-runner,brand,,HOLD_NO_PRODUCTS,no,no,published,brand_hub_no_products,HOLD_NO_PRODUCTS
+/brands/nite-ize,brand,,HOLD_NO_PRODUCTS,no,no,published,brand_hub_no_products,HOLD_NO_PRODUCTS
+/brands/nitecore,brand,,HOLD_INSUFFICIENT_DEPTH,no,no,published,brand_hub_insufficient_depth,HOLD_INSUFFICIENT_DEPTH
+/brands/nnormal,brand,,HOLD_INSUFFICIENT_DEPTH,no,no,published,brand_hub_insufficient_depth,HOLD_INSUFFICIENT_DEPTH
+/brands/nuobell,brand,,HOLD_INSUFFICIENT_DEPTH,no,no,published,brand_hub_insufficient_depth,HOLD_INSUFFICIENT_DEPTH
+/brands/nuun,brand,,HOLD_INSUFFICIENT_DEPTH,no,no,published,brand_hub_insufficient_depth,HOLD_INSUFFICIENT_DEPTH
+/brands/odlo,brand,,HOLD_INSUFFICIENT_DEPTH,no,no,published,brand_hub_insufficient_depth,HOLD_INSUFFICIENT_DEPTH
+/brands/oofos,brand,,HOLD_INSUFFICIENT_DEPTH,no,no,published,brand_hub_insufficient_depth,HOLD_INSUFFICIENT_DEPTH
+/brands/opove,brand,,HOLD_NO_PRODUCTS,no,no,published,brand_hub_no_products,HOLD_NO_PRODUCTS
+/brands/outdoor-research,brand,,HOLD_NO_PRODUCTS,no,no,published,brand_hub_no_products,HOLD_NO_PRODUCTS
+/brands/oxdog,brand,,HOLD_INSUFFICIENT_DEPTH,no,no,published,brand_hub_insufficient_depth,HOLD_INSUFFICIENT_DEPTH
+/brands/powerbar,brand,,HOLD_INSUFFICIENT_DEPTH,no,no,published,brand_hub_insufficient_depth,HOLD_INSUFFICIENT_DEPTH
+/brands/prince,brand,,HOLD_INSUFFICIENT_DEPTH,no,no,published,brand_hub_insufficient_depth,HOLD_INSUFFICIENT_DEPTH
+/brands/proviz,brand,,HOLD_INSUFFICIENT_DEPTH,no,no,published,brand_hub_insufficient_depth,HOLD_INSUFFICIENT_DEPTH
+/brands/rabbit,brand,,HOLD_INSUFFICIENT_DEPTH,no,no,published,brand_hub_insufficient_depth,HOLD_INSUFFICIENT_DEPTH
+/brands/rad-roller,brand,,HOLD_NO_PRODUCTS,no,no,published,brand_hub_no_products,HOLD_NO_PRODUCTS
+/brands/raidlight,brand,,HOLD_NO_PRODUCTS,no,no,published,brand_hub_no_products,HOLD_NO_PRODUCTS
+/brands/renpho,brand,,HOLD_NO_PRODUCTS,no,no,published,brand_hub_no_products,HOLD_NO_PRODUCTS
+/brands/road-id,brand,,HOLD_NO_PRODUCTS,no,no,published,brand_hub_no_products,HOLD_NO_PRODUCTS
+/brands/roka,brand,,HOLD_INSUFFICIENT_DEPTH,no,no,published,brand_hub_insufficient_depth,HOLD_INSUFFICIENT_DEPTH
+/brands/royal-padel,brand,,HOLD_INSUFFICIENT_DEPTH,no,no,published,brand_hub_insufficient_depth,HOLD_INSUFFICIENT_DEPTH
+/brands/rudy-project,brand,,HOLD_INSUFFICIENT_DEPTH,no,no,published,brand_hub_insufficient_depth,HOLD_INSUFFICIENT_DEPTH
+/brands/rumbleroller,brand,,HOLD_NO_PRODUCTS,no,no,published,brand_hub_no_products,HOLD_NO_PRODUCTS
+/brands/salming,brand,,HOLD_INSUFFICIENT_DEPTH,no,no,published,brand_hub_insufficient_depth,HOLD_INSUFFICIENT_DEPTH
+/brands/saltstick,brand,,HOLD_INSUFFICIENT_DEPTH,no,no,published,brand_hub_insufficient_depth,HOLD_INSUFFICIENT_DEPTH
+/brands/samsung,brand,,HOLD_INSUFFICIENT_DEPTH,no,no,published,brand_hub_insufficient_depth,HOLD_INSUFFICIENT_DEPTH
+/brands/saxx,brand,,HOLD_NO_PRODUCTS,no,no,published,brand_hub_no_products,HOLD_NO_PRODUCTS
+/brands/schwinn,brand,,HOLD_INSUFFICIENT_DEPTH,no,no,published,brand_hub_insufficient_depth,HOLD_INSUFFICIENT_DEPTH
+/brands/scosche,brand,,HOLD_INSUFFICIENT_DEPTH,no,no,published,brand_hub_insufficient_depth,HOLD_INSUFFICIENT_DEPTH
+/brands/selkirk,brand,,HOLD_INSUFFICIENT_DEPTH,no,no,published,brand_hub_insufficient_depth,HOLD_INSUFFICIENT_DEPTH
+/brands/shes-birdie,brand,,HOLD_NO_PRODUCTS,no,no,published,brand_hub_no_products,HOLD_NO_PRODUCTS
+/brands/silva,brand,,HOLD_INSUFFICIENT_DEPTH,no,no,published,brand_hub_insufficient_depth,HOLD_INSUFFICIENT_DEPTH
+/brands/siux,brand,,HOLD_INSUFFICIENT_DEPTH,no,no,published,brand_hub_insufficient_depth,HOLD_INSUFFICIENT_DEPTH
+/brands/skratch-labs,brand,,HOLD_INSUFFICIENT_DEPTH,no,no,published,brand_hub_insufficient_depth,HOLD_INSUFFICIENT_DEPTH
+/brands/smartwool,brand,,HOLD_INSUFFICIENT_DEPTH,no,no,published,brand_hub_insufficient_depth,HOLD_INSUFFICIENT_DEPTH
+/brands/smith,brand,,HOLD_INSUFFICIENT_DEPTH,no,no,published,brand_hub_insufficient_depth,HOLD_INSUFFICIENT_DEPTH
+/brands/sockwell,brand,,HOLD_NO_PRODUCTS,no,no,published,brand_hub_no_products,HOLD_NO_PRODUCTS
+/brands/sole-fitness,brand,,HOLD_INSUFFICIENT_DEPTH,no,no,published,brand_hub_insufficient_depth,HOLD_INSUFFICIENT_DEPTH
+/brands/solinco,brand,,HOLD_INSUFFICIENT_DEPTH,no,no,published,brand_hub_insufficient_depth,HOLD_INSUFFICIENT_DEPTH
+/brands/sony,brand,,HOLD_NO_PRODUCTS,no,no,published,brand_hub_no_products,HOLD_NO_PRODUCTS
+/brands/soundcore,brand,,HOLD_INSUFFICIENT_DEPTH,no,no,published,brand_hub_insufficient_depth,HOLD_INSUFFICIENT_DEPTH
+/brands/spibelt,brand,,HOLD_INSUFFICIENT_DEPTH,no,no,published,brand_hub_insufficient_depth,HOLD_INSUFFICIENT_DEPTH
+/brands/spring-energy,brand,,HOLD_INSUFFICIENT_DEPTH,no,no,published,brand_hub_insufficient_depth,HOLD_INSUFFICIENT_DEPTH
+/brands/squirrels-nut-butter,brand,,HOLD_INSUFFICIENT_DEPTH,no,no,published,brand_hub_insufficient_depth,HOLD_INSUFFICIENT_DEPTH
+/brands/stance,brand,,HOLD_NO_PRODUCTS,no,no,published,brand_hub_no_products,HOLD_NO_PRODUCTS
+/brands/starvie,brand,,HOLD_INSUFFICIENT_DEPTH,no,no,published,brand_hub_insufficient_depth,HOLD_INSUFFICIENT_DEPTH
+/brands/strength-shop,brand,,HOLD_NO_PRODUCTS,no,no,published,brand_hub_no_products,HOLD_NO_PRODUCTS
+/brands/styrkr,brand,,HOLD_INSUFFICIENT_DEPTH,no,no,published,brand_hub_insufficient_depth,HOLD_INSUFFICIENT_DEPTH
+/brands/swiftwick,brand,,HOLD_INSUFFICIENT_DEPTH,no,no,published,brand_hub_insufficient_depth,HOLD_INSUFFICIENT_DEPTH
+/brands/tailwind,brand,,HOLD_INSUFFICIENT_DEPTH,no,no,published,brand_hub_insufficient_depth,HOLD_INSUFFICIENT_DEPTH
+/brands/tecnifibre-padel,brand,,HOLD_INSUFFICIENT_DEPTH,no,no,published,brand_hub_insufficient_depth,HOLD_INSUFFICIENT_DEPTH
+/brands/the-north-face,brand,,HOLD_NO_PRODUCTS,no,no,published,brand_hub_no_products,HOLD_NO_PRODUCTS
+/brands/the-stick,brand,,HOLD_NO_PRODUCTS,no,no,published,brand_hub_no_products,HOLD_NO_PRODUCTS
+/brands/tifosi,brand,,HOLD_INSUFFICIENT_DEPTH,no,no,published,brand_hub_insufficient_depth,HOLD_INSUFFICIENT_DEPTH
+/brands/timtam,brand,,HOLD_NO_PRODUCTS,no,no,published,brand_hub_no_products,HOLD_NO_PRODUCTS
+/brands/triggerpoint,brand,,HOLD_INSUFFICIENT_DEPTH,no,no,published,brand_hub_insufficient_depth,HOLD_INSUFFICIENT_DEPTH
+/brands/uswe,brand,,HOLD_INSUFFICIENT_DEPTH,no,no,published,brand_hub_insufficient_depth,HOLD_INSUFFICIENT_DEPTH
+/brands/varlion,brand,,HOLD_INSUFFICIENT_DEPTH,no,no,published,brand_hub_insufficient_depth,HOLD_INSUFFICIENT_DEPTH
+/brands/veloforte,brand,,HOLD_INSUFFICIENT_DEPTH,no,no,published,brand_hub_insufficient_depth,HOLD_INSUFFICIENT_DEPTH
+/brands/victor,brand,,HOLD_INSUFFICIENT_DEPTH,no,no,published,brand_hub_insufficient_depth,HOLD_INSUFFICIENT_DEPTH
+/brands/vivobarefoot,brand,,HOLD_INSUFFICIENT_DEPTH,no,no,published,brand_hub_insufficient_depth,HOLD_INSUFFICIENT_DEPTH
+/brands/waterrower,brand,,HOLD_INSUFFICIENT_DEPTH,no,no,published,brand_hub_insufficient_depth,HOLD_INSUFFICIENT_DEPTH
+/brands/woodway,brand,,HOLD_INSUFFICIENT_DEPTH,no,no,published,brand_hub_insufficient_depth,HOLD_INSUFFICIENT_DEPTH
+/brands/wrightsock,brand,,HOLD_INSUFFICIENT_DEPTH,no,no,published,brand_hub_insufficient_depth,HOLD_INSUFFICIENT_DEPTH
+/brands/xebex,brand,,HOLD_INSUFFICIENT_DEPTH,no,no,published,brand_hub_insufficient_depth,HOLD_INSUFFICIENT_DEPTH
+/brands/xero-shoes,brand,,HOLD_INSUFFICIENT_DEPTH,no,no,published,brand_hub_insufficient_depth,HOLD_INSUFFICIENT_DEPTH
+/brands/zeraus,brand,,HOLD_NO_PRODUCTS,no,no,published,brand_hub_no_products,HOLD_NO_PRODUCTS
+/compare/adidas-dropset-3-vs-adidas-the-total,comparison,,MEANINGFUL,no,yes,published,vertical_hold:fitness:selective,vertical_hold
+/compare/adidas-powerlift-5-vs-nike-romaleos-5,comparison,,MEANINGFUL,no,yes,published,vertical_hold:fitness:selective,vertical_hold
+/compare/babolat-pure-aero-2026-vs-yonex-vcore-100-2023,comparison,,MEANINGFUL,no,yes,published,vertical_hold:tennis:disabled,vertical_hold
+/compare/babolat-pure-drive-2025-vs-wilson-clash-100-v2,comparison,,MEANINGFUL,no,yes,published,vertical_hold:tennis:disabled,vertical_hold
+/compare/babolat-technical-viper-2026-vs-wilson-bela-pro-v2-2026,comparison,,MEANINGFUL,no,yes,published,vertical_hold:padel:disabled,vertical_hold
+/compare/bullpadel-vertex-05-vs-hack-04-2026,comparison,,MEANINGFUL,no,yes,published,vertical_hold:padel:disabled,vertical_hold
+/compare/bullpadel-vertex-05-vs-nox-at10-12k-2026,comparison,,MEANINGFUL,no,yes,published,vertical_hold:padel:disabled,vertical_hold
+/compare/concept2-rowerg-vs-hydrow-wave,comparison,,MEANINGFUL,no,yes,published,vertical_hold:fitness:selective,vertical_hold
+/compare/concept2-rowerg-vs-mirafit-magnetic-rower,comparison,,MEANINGFUL,no,yes,published,vertical_hold:fitness:selective,vertical_hold
+/compare/head-coello-pro-2026-vs-siux-diablo-revolution-2026,comparison,,MEANINGFUL,no,yes,published,vertical_hold:padel:disabled,vertical_hold
+/compare/inov8-f-lite-235-v3-vs-reebok-nano-x4,comparison,,MEANINGFUL,no,yes,published,vertical_hold:fitness:selective,vertical_hold
+/compare/nike-free-metcon-6-vs-reebok-nano-x4,comparison,,MEANINGFUL,no,yes,published,vertical_hold:fitness:selective,vertical_hold
+/compare/nike-metcon-9-vs-adidas-dropset-3,comparison,,MEANINGFUL,no,yes,published,vertical_hold:fitness:selective,vertical_hold
+/compare/nike-metcon-9-vs-reebok-nano-x4,comparison,,MEANINGFUL,no,yes,published,vertical_hold:fitness:selective,vertical_hold
+/compare/nike-romaleos-5-vs-adidas-adipower-3,comparison,,MEANINGFUL,no,yes,published,vertical_hold:fitness:selective,vertical_hold
+/compare/nobull-trainer-vs-nike-metcon-9,comparison,,MEANINGFUL,no,yes,published,vertical_hold:fitness:selective,vertical_hold
+/compare/nox-at10-12k-vs-adidas-metalbone-2026,comparison,,MEANINGFUL,no,yes,published,vertical_hold:padel:disabled,vertical_hold
+/compare/nox-at10-genius-18k-2026-vs-babolat-technical-viper-2026,comparison,,MEANINGFUL,no,yes,published,vertical_hold:padel:disabled,vertical_hold
+/compare/nox-at10-genius-18k-2026-vs-bullpadel-vertex-04-2026,comparison,,MEANINGFUL,no,yes,published,vertical_hold:padel:disabled,vertical_hold
+/compare/nuobell-80-vs-powerblock-pro-100,comparison,,MEANINGFUL,no,yes,published,vertical_hold:fitness:selective,vertical_hold
+/compare/puma-fuse-3-vs-ua-tribase-reign-6,comparison,,MEANINGFUL,no,yes,published,vertical_hold:fitness:selective,vertical_hold
+/compare/reebok-nano-x4-vs-tyr-cxt-2,comparison,,MEANINGFUL,no,yes,published,vertical_hold:fitness:selective,vertical_hold
+/compare/rogue-echo-bike-vs-assaultbike-elite,comparison,,MEANINGFUL,no,yes,published,vertical_hold:fitness:selective,vertical_hold
+/compare/rogue-rml-390f-vs-rep-pr-4000,comparison,,MEANINGFUL,no,yes,published,vertical_hold:fitness:selective,vertical_hold
+/compare/sole-f80-vs-horizon-t202,comparison,,MEANINGFUL,no,yes,published,vertical_hold:fitness:selective,vertical_hold
+/compare/tyr-cxt-1-vs-tyr-cxt-2,comparison,,MEANINGFUL,no,yes,published,vertical_hold:fitness:selective,vertical_hold
+/compare/wilson-blade-98-v8-vs-yonex-ezone-98-2024,comparison,,MEANINGFUL,no,yes,published,vertical_hold:tennis:disabled,vertical_hold
+/compare/wilson-blade-98-v9-vs-babolat-pure-drive-gen11,comparison,,MEANINGFUL,no,yes,published,vertical_hold:tennis:disabled,vertical_hold
+/compare/yonex-ezone-100-2025-vs-wilson-clash-100-v3,comparison,,MEANINGFUL,no,yes,published,vertical_hold:tennis:disabled,vertical_hold
+/fitness/adjustable-dumbbells,category,fitness,no_config,no,no,published,vertical_hub_hold:fitness:selective,vertical_hold
+/fitness/air-bikes,category,fitness,no_config,no,no,published,vertical_hub_hold:fitness:selective,vertical_hold
+/fitness/barbells,category,fitness,no_config,no,no,published,vertical_hub_hold:fitness:selective,vertical_hold
+/fitness/functional-fitness,category,fitness,no_config,no,no,published,vertical_hub_hold:fitness:selective,vertical_hold
+/fitness/gym-flooring,category,fitness,no_config,no,no,published,vertical_hub_hold:fitness:selective,vertical_hold
+/fitness/gym-storage,category,fitness,no_config,no,no,published,vertical_hub_hold:fitness:selective,vertical_hold
+/fitness/gymnastic-rings,category,fitness,no_config,no,no,published,vertical_hub_hold:fitness:selective,vertical_hold
+/fitness/kettlebells,category,fitness,no_config,no,no,published,vertical_hub_hold:fitness:selective,vertical_hold
+/fitness/lifting-accessories,category,fitness,no_config,no,no,published,vertical_hub_hold:fitness:selective,vertical_hold
+/fitness/parallettes,category,fitness,no_config,no,no,published,vertical_hub_hold:fitness:selective,vertical_hold
+/fitness/power-racks,category,fitness,no_config,no,no,published,vertical_hub_hold:fitness:selective,vertical_hold
+/fitness/pull-up-bars,category,fitness,no_config,no,no,published,vertical_hub_hold:fitness:selective,vertical_hold
+/fitness/rowing-machines,category,fitness,no_config,no,no,published,vertical_hub_hold:fitness:selective,vertical_hold
+/fitness/ski-ergs,category,fitness,no_config,no,no,published,vertical_hub_hold:fitness:selective,vertical_hold
+/fitness/training-shoes,category,fitness,no_config,no,no,published,vertical_hub_hold:fitness:selective,vertical_hold
+/fitness/treadmills,category,running,no_config,no,no,published,vertical_hub_hold:fitness:selective,vertical_hold
+/fitness/weight-benches,category,fitness,no_config,no,no,published,vertical_hub_hold:fitness:selective,vertical_hold
+/fitness/weight-plates,category,fitness,no_config,no,no,published,vertical_hub_hold:fitness:selective,vertical_hold
+/fitness/weighted-vests,category,fitness,no_config,no,no,published,vertical_hub_hold:fitness:selective,vertical_hold
+/guides/adjustable-vs-fixed-dumbbells,guide,,READY,no,yes,published,vertical_hold:fitness:selective,vertical_hold
+/guides/bumper-plates-vs-iron-plates,guide,,READY,no,yes,published,vertical_hold:fitness:selective,vertical_hold
+/guides/how-much-space-do-you-need-for-a-home-gym,guide,,READY,no,yes,published,vertical_hold:fitness:selective,vertical_hold
+/guides/how-to-build-a-home-gym,guide,,READY,no,yes,published,vertical_hold:fitness:selective,vertical_hold
+/guides/how-to-build-a-hyrox-home-gym,guide,,READY,no,yes,published,vertical_hold:hyrox:disabled,vertical_hold
+/guides/how-to-choose-a-home-treadmill,guide,,READY,no,yes,published,vertical_hold:fitness:selective,vertical_hold
+/guides/how-to-choose-a-hyrox-training-sled,guide,,READY,no,yes,published,vertical_hold:hyrox:disabled,vertical_hold
+/guides/how-to-choose-a-hyrox-watch,guide,,READY,no,yes,published,vertical_hold:hyrox:disabled,vertical_hold
+/guides/how-to-choose-a-padel-racket,guide,,READY,no,yes,published,vertical_hold:padel:disabled,vertical_hold
+/guides/how-to-choose-a-power-rack,guide,,READY,no,yes,published,vertical_hold:fitness:selective,vertical_hold
+/guides/how-to-choose-a-rowing-machine,guide,,READY,no,yes,published,vertical_hold:fitness:selective,vertical_hold
+/guides/how-to-choose-a-tennis-racket,guide,,READY,no,yes,published,vertical_hold:tennis:disabled,vertical_hold
+/guides/how-to-choose-a-weight-bench,guide,,READY,no,yes,published,vertical_hold:fitness:selective,vertical_hold
+/guides/how-to-choose-adjustable-dumbbells,guide,,READY,no,yes,published,vertical_hold:fitness:selective,vertical_hold
+/guides/how-to-choose-hyrox-shoes,guide,,READY,no,yes,published,vertical_hold:hyrox:disabled,vertical_hold
+/guides/how-to-choose-padel-shoes,guide,,READY,no,yes,published,vertical_hold:padel:disabled,vertical_hold
+/guides/how-to-choose-training-shoes,guide,,READY,no,yes,published,vertical_hold:fitness:selective,vertical_hold
+/guides/hyrox-equipment-standards,guide,,READY,no,yes,published,vertical_hold:hyrox:disabled,vertical_hold
+/guides/hyrox-heart-rate-monitor,guide,,READY,no,yes,published,vertical_hold:hyrox:disabled,vertical_hold
+/guides/hyrox-home-training-setup,guide,,READY,no,yes,published,vertical_hold:hyrox:disabled,vertical_hold
+/guides/hyrox-race-day-gear-checklist,guide,,READY,no,yes,published,vertical_hold:hyrox:disabled,vertical_hold
+/guides/hyrox-race-shoes-vs-training-shoes,guide,,READY,no,yes,published,vertical_hold:hyrox:disabled,vertical_hold
+/guides/padel-grips-overgrips-explained,guide,,READY,no,yes,published,vertical_hold:padel:disabled,vertical_hold
+/guides/power-rack-sizing-and-hole-spacing,guide,,READY,no,yes,published,vertical_hold:fitness:selective,vertical_hold
+/guides/pull-up-bar-mounting-guide,guide,,READY,no,yes,published,vertical_hold:calisthenics:disabled,vertical_hold
+/guides/rowerg-vs-skierg-for-hyrox-training,guide,,READY,no,yes,published,vertical_hold:hyrox:disabled,vertical_hold
+/guides/what-gear-do-you-need-for-hyrox,guide,,READY,no,yes,published,vertical_hold:hyrox:disabled,vertical_hold
+/padel/accessories,category,padel,no_config,no,no,published,soft_gated,soft_gated_category
+/padel/bags,category,padel,no_config,no,no,published,soft_gated,soft_gated_category
+/padel/balls,category,padel,no_config,no,no,published,vertical_hub_hold:padel:disabled,vertical_hold
+/padel/clothing,category,padel,no_config,no,no,published,soft_gated,soft_gated_category
+/padel/grips,category,padel,no_config,no,no,published,vertical_hub_hold:padel:disabled,vertical_hold
+/padel/rackets,category,padel,no_config,no,no,published,vertical_hub_hold:padel:disabled,vertical_hold
+/padel/shoes,category,padel,no_config,no,no,published,vertical_hub_hold:padel:disabled,vertical_hold
+/pickleball/paddles,category,sport-pickleball,no_config,no,no,published,vertical_hub_hold:sport-pickleball:disabled,vertical_hold
+/products/100-percent-s3/alternatives,alternatives,running,substantive,no,yes,published,alternatives_category_noindex,alt_category_or_vertical_hold
+/products/226ers-high-energy-gel/alternatives,alternatives,running,thin,no,no,published,need ≥2 distinct alternative types,thin_decision_shape
+/products/2toms-sportshield/alternatives,alternatives,running,thin,no,no,published,need ≥3 alternatives (have 2),thin_decision_shape
+/products/adidas-adipower-weightlifting-2,product,fitness,NEEDS_MINOR_WORK,no,no,published,vertical_hold:fitness:selective,vertical_hold
+/products/adidas-adipower-weightlifting-3,product,fitness,LAUNCH_READY,no,yes,published,vertical_hold:fitness:selective,vertical_hold
+/products/adidas-adizero-evo-sl/alternatives,alternatives,running,thin,no,no,published,need ≥2 distinct alternative types,thin_decision_shape
+/products/adidas-barricade-13,product,tennis,NEEDS_MINOR_WORK,no,no,published,vertical_hold:tennis:disabled,vertical_hold
+/products/adidas-courtjam-control-3,product,tennis,NEEDS_MINOR_WORK,no,no,published,vertical_hold:tennis:disabled,vertical_hold
+/products/adidas-courtquick-padel-women,product,padel,NEEDS_MINOR_WORK,no,no,published,vertical_hold:padel:disabled,vertical_hold
+/products/adidas-courtstabil-padel,product,padel,LAUNCH_READY,no,yes,published,vertical_hold:padel:disabled,vertical_hold
+/products/adidas-courtstabil-padel/alternatives,alternatives,padel,thin,no,no,published,parent_product_hidden,thin_decision_shape
+/products/adidas-crazyquick-boost-padel,product,padel,NEEDS_MINOR_WORK,no,no,published,vertical_hold:padel:disabled,vertical_hold
+/products/adidas-crazyquick-boost-padel-women,product,padel,NEEDS_MINOR_WORK,no,no,published,vertical_hold:padel:disabled,vertical_hold
+/products/adidas-dropset-2,product,fitness,NEEDS_MINOR_WORK,no,no,published,vertical_hold:fitness:selective,vertical_hold
+/products/adidas-dropset-3,product,fitness,LAUNCH_READY,no,yes,published,vertical_hold:fitness:selective,vertical_hold
+/products/adidas-gamecourt-2,product,tennis,NEEDS_MINOR_WORK,no,no,published,vertical_hold:tennis:disabled,vertical_hold
+/products/adidas-metalbone-2026,product,padel,LAUNCH_READY,no,yes,published,vertical_hold:padel:disabled,vertical_hold
+/products/adidas-metalbone-2026/alternatives,alternatives,padel,thin,no,no,published,parent_product_hidden,thin_decision_shape
+/products/adidas-metalbone-hrd-2026,product,padel,LAUNCH_READY,no,yes,published,vertical_hold:padel:disabled,vertical_hold
+/products/adidas-metalbone-hrd-2026/alternatives,alternatives,padel,thin,no,no,published,parent_product_hidden,thin_decision_shape
+/products/adidas-own-the-run-short-men/alternatives,alternatives,running,substantive,no,yes,published,alternatives_category_noindex,alt_category_or_vertical_hold
+/products/adidas-own-the-run-tee-men/alternatives,alternatives,running,substantive,no,yes,published,alternatives_category_noindex,alt_category_or_vertical_hold
+/products/adidas-powerlift-5,product,fitness,LAUNCH_READY,no,yes,published,vertical_hold:fitness:selective,vertical_hold
+/products/adidas-rapidmove-adv,product,fitness,NEEDS_MINOR_WORK,no,no,published,vertical_hold:fitness:selective,vertical_hold
+/products/adidas-solematch-control-2,product,tennis,NEEDS_MINOR_WORK,no,no,published,vertical_hold:tennis:disabled,vertical_hold
+/products/adidas-the-total,product,fitness,LAUNCH_READY,no,yes,published,vertical_hold:fitness:selective,vertical_hold
+/products/altra-escalante-4/alternatives,alternatives,running,thin,no,no,published,need ≥3 alternatives (have 2),thin_decision_shape
+/products/altra-torin-8/alternatives,alternatives,running,thin,no,no,published,need ≥2 distinct alternative types,thin_decision_shape
+/products/amphipod-airflow-lite-belt/alternatives,alternatives,running,substantive,no,yes,published,alternatives_category_noindex,alt_category_or_vertical_hold
+/products/amphipod-hydraform-ergo-lite-handheld/alternatives,alternatives,running,thin,no,no,published,need ≥3 alternatives (have 2),thin_decision_shape
+/products/amphipod-xinglet-optic-beam/alternatives,alternatives,running,thin,no,no,published,need ≥2 distinct alternative types,thin_decision_shape
+/products/amphipod-xinglet/alternatives,alternatives,running,thin,no,no,published,need ≥2 distinct alternative types,thin_decision_shape
+/products/apple-airpods-4/alternatives,alternatives,running,thin,no,no,published,need ≥2 distinct alternative types,thin_decision_shape
+/products/apple-airpods-pro-2/alternatives,alternatives,running,substantive,no,yes,published,alternatives_category_noindex,alt_category_or_vertical_hold
+/products/apple-watch-ultra-2/alternatives,alternatives,running,thin,no,no,published,need ≥3 alternatives (have 2),thin_decision_shape
+/products/asics-core-split-short/alternatives,alternatives,running,thin,no,no,published,need ≥2 distinct alternative types,thin_decision_shape
+/products/asics-game-ff-padel,product,padel,NEEDS_MINOR_WORK,no,no,published,vertical_hold:padel:disabled,vertical_hold
+/products/asics-gel-challenger-15,product,tennis,NEEDS_MINOR_WORK,no,no,published,vertical_hold:tennis:disabled,vertical_hold
+/products/asics-gel-challenger-court,product,padel,LAUNCH_READY,no,yes,published,vertical_hold:padel:disabled,vertical_hold
+/products/asics-gel-challenger-court/alternatives,alternatives,padel,thin,no,no,published,parent_product_hidden,thin_decision_shape
+/products/asics-gel-dedicate-8,product,tennis,NEEDS_MINOR_WORK,no,no,published,vertical_hold:tennis:disabled,vertical_hold
+/products/asics-gel-dedicate-8-padel,product,padel,NEEDS_MINOR_WORK,no,no,published,vertical_hold:padel:disabled,vertical_hold
+/products/asics-gel-quantum-360-8,product,fitness,NEEDS_MINOR_WORK,no,no,published,vertical_hold:fitness:selective,vertical_hold
+/products/asics-gel-resolution-9,product,tennis,NEEDS_MINOR_WORK,no,no,published,vertical_hold:tennis:disabled,vertical_hold
+/products/asics-gel-resolution-9-clay,product,tennis,NEEDS_MINOR_WORK,no,no,published,vertical_hold:tennis:disabled,vertical_hold
+/products/asics-gel-resolution-padel,product,padel,LAUNCH_READY,no,yes,published,vertical_hold:padel:disabled,vertical_hold
+/products/asics-gel-resolution-padel-women,product,padel,NEEDS_MINOR_WORK,no,no,published,vertical_hold:padel:disabled,vertical_hold
+/products/asics-gel-resolution-padel/alternatives,alternatives,padel,thin,no,no,published,parent_product_hidden,thin_decision_shape
+/products/asics-gt-1000-13/alternatives,alternatives,running,thin,no,no,published,need ≥3 alternatives (have 2),thin_decision_shape
+/products/asics-novablast-4/alternatives,alternatives,running,thin,no,no,published,need ≥2 distinct alternative types,thin_decision_shape
+/products/asics-solution-speed-ff-3,product,tennis,NEEDS_MINOR_WORK,no,no,published,vertical_hold:tennis:disabled,vertical_hold
+/products/asics-solution-swift-ff-padel-women,product,padel,NEEDS_MINOR_WORK,no,no,published,vertical_hold:padel:disabled,vertical_hold
+/products/asics-solution-swift-ff2-padel,product,padel,NEEDS_MINOR_WORK,no,no,published,vertical_hold:padel:disabled,vertical_hold
+/products/assaultbike-classic,product,fitness,NEEDS_MINOR_WORK,no,no,published,vertical_hold:fitness:selective,vertical_hold
+/products/assaultbike-elite,product,fitness,LAUNCH_READY,no,yes,published,vertical_hold:fitness:selective,vertical_hold
+/products/assaultrunner-elite/alternatives,alternatives,running,substantive,no,yes,published,alternatives_category_noindex,alt_category_or_vertical_hold
+/products/assaultrunner-pro/alternatives,alternatives,running,substantive,no,yes,published,alternatives_category_noindex,alt_category_or_vertical_hold
+/products/atx-cast-iron-plate-set,product,fitness,NEEDS_MINOR_WORK,no,no,published,vertical_hold:fitness:selective,vertical_hold
+/products/atx-fid-bench,product,fitness,NEEDS_MINOR_WORK,no,no,published,vertical_hold:fitness:selective,vertical_hold
+/products/babolat-counter-viper-2026,product,padel,LAUNCH_READY,no,yes,published,vertical_hold:padel:disabled,vertical_hold
+/products/babolat-counter-viper-2026/alternatives,alternatives,padel,thin,no,no,published,parent_product_hidden,thin_decision_shape
+/products/babolat-jet-mach-3,product,tennis,NEEDS_MINOR_WORK,no,no,published,vertical_hold:tennis:disabled,vertical_hold
+/products/babolat-jet-premura,product,padel,LAUNCH_READY,no,yes,published,vertical_hold:padel:disabled,vertical_hold
+/products/babolat-jet-premura-2,product,padel,NEEDS_MINOR_WORK,no,no,published,vertical_hold:padel:disabled,vertical_hold
+/products/babolat-jet-premura/alternatives,alternatives,padel,thin,no,no,published,parent_product_hidden,thin_decision_shape
+/products/babolat-jet-tere,product,tennis,NEEDS_MINOR_WORK,no,no,published,vertical_hold:tennis:disabled,vertical_hold
+/products/babolat-movea-2,product,padel,NEEDS_MINOR_WORK,no,no,published,vertical_hold:padel:disabled,vertical_hold
+/products/babolat-propulse-fury-3,product,tennis,NEEDS_MINOR_WORK,no,no,published,vertical_hold:tennis:disabled,vertical_hold
+/products/babolat-pure-aero-2023,product,tennis,LAUNCH_READY,no,yes,published,vertical_hold:tennis:disabled,vertical_hold
+/products/babolat-pure-aero-2023/alternatives,alternatives,tennis,thin,no,no,published,parent_product_hidden,thin_decision_shape
+/products/babolat-pure-aero-2026,product,tennis,LAUNCH_READY,no,yes,published,vertical_hold:tennis:disabled,vertical_hold
+/products/babolat-pure-aero-2026/alternatives,alternatives,tennis,thin,no,no,published,parent_product_hidden,thin_decision_shape
+/products/babolat-pure-drive-2025,product,tennis,LAUNCH_READY,no,yes,published,vertical_hold:tennis:disabled,vertical_hold
+/products/babolat-pure-drive-2025/alternatives,alternatives,tennis,thin,no,no,published,parent_product_hidden,thin_decision_shape
+/products/babolat-pure-drive-gen11,product,tennis,LAUNCH_READY,no,yes,published,vertical_hold:tennis:disabled,vertical_hold
+/products/babolat-rpm-blast-1-25,product,tennis,NEEDS_MINOR_WORK,no,no,published,vertical_hold:tennis:disabled,vertical_hold
+/products/babolat-sensa-women,product,padel,NEEDS_MINOR_WORK,no,no,published,vertical_hold:padel:disabled,vertical_hold
+/products/babolat-technical-viper-2026,product,padel,LAUNCH_READY,no,yes,published,vertical_hold:padel:disabled,vertical_hold
+/products/balega-blister-resist/alternatives,alternatives,running,substantive,no,yes,published,alternatives_category_noindex,alt_category_or_vertical_hold
+/products/balega-hidden-comfort/alternatives,alternatives,running,substantive,no,yes,published,alternatives_category_noindex,alt_category_or_vertical_hold
+/products/beats-fit-pro/alternatives,alternatives,running,substantive,no,yes,published,alternatives_category_noindex,alt_category_or_vertical_hold
+/products/biolite-headlamp-800-pro/alternatives,alternatives,running,substantive,no,yes,published,alternatives_category_noindex,alt_category_or_vertical_hold
+/products/black-crown-special-one-soft,product,padel,LAUNCH_READY,no,yes,published,vertical_hold:padel:disabled,vertical_hold
+/products/black-crown-special-one-soft/alternatives,alternatives,padel,thin,no,no,published,parent_product_hidden,thin_decision_shape
+/products/black-diamond-distance-15/alternatives,alternatives,running,substantive,no,yes,published,alternatives_category_noindex,alt_category_or_vertical_hold
+/products/black-diamond-distance-1500/alternatives,alternatives,running,substantive,no,yes,published,alternatives_category_noindex,alt_category_or_vertical_hold
+/products/black-diamond-distance-22/alternatives,alternatives,running,substantive,no,yes,published,alternatives_category_noindex,alt_category_or_vertical_hold
+/products/black-diamond-distance-8/alternatives,alternatives,running,substantive,no,yes,published,alternatives_category_noindex,alt_category_or_vertical_hold
+/products/black-diamond-spot-400-r/alternatives,alternatives,running,thin,no,no,published,need ≥2 distinct alternative types,thin_decision_shape
+/products/blackroll-ball,product,fitness,NEEDS_MINOR_WORK,no,no,published,vertical_hold:fitness:selective,vertical_hold
+/products/blackroll-duoball,product,fitness,NEEDS_MINOR_WORK,no,no,published,vertical_hold:fitness:selective,vertical_hold
+/products/blackroll-med,product,fitness,NEEDS_MINOR_WORK,no,no,published,vertical_hold:fitness:selective,vertical_hold
+/products/blackroll-pro/alternatives,alternatives,running,thin,no,no,published,need ≥3 alternatives (have 1),thin_decision_shape
+/products/blackroll-standard,product,fitness,NEEDS_MINOR_WORK,no,no,published,vertical_hold:fitness:selective,vertical_hold
+/products/body-glide-original/alternatives,alternatives,running,thin,no,no,published,need ≥3 alternatives (have 2),thin_decision_shape
+/products/bose-ultra-open-earbuds/alternatives,alternatives,running,substantive,no,yes,published,alternatives_category_noindex,alt_category_or_vertical_hold
+/products/bowflex-selecttech-1090,product,fitness,NEEDS_MINOR_WORK,no,no,published,vertical_hold:fitness:selective,vertical_hold
+/products/bowflex-selecttech-552,product,fitness,NEEDS_MINOR_WORK,no,no,published,vertical_hold:fitness:selective,vertical_hold
+/products/brazyn-morph/alternatives,alternatives,running,thin,no,no,published,need ≥3 alternatives (have 2),thin_decision_shape
+/products/brooks-canopy-jacket-men/alternatives,alternatives,running,substantive,no,yes,published,alternatives_category_noindex,alt_category_or_vertical_hold
+/products/brooks-chaser-5-women/alternatives,alternatives,running,substantive,no,yes,published,alternatives_category_noindex,alt_category_or_vertical_hold
+/products/brooks-glycerin-21/alternatives,alternatives,running,thin,no,no,published,need ≥3 alternatives (have 1),thin_decision_shape
+/products/brooks-glycerin-gts-22/alternatives,alternatives,running,thin,no,no,published,need ≥3 alternatives (have 2),thin_decision_shape
+/products/brooks-method-tight-women/alternatives,alternatives,running,substantive,no,yes,published,alternatives_category_noindex,alt_category_or_vertical_hold
+/products/brooks-notch-thermal-beanie/alternatives,alternatives,running,thin,no,no,published,need ≥3 alternatives (have 2),thin_decision_shape
+/products/brooks-notch-thermal-men/alternatives,alternatives,running,thin,no,no,published,need ≥3 alternatives (have 1),thin_decision_shape
+/products/brooks-sherpa-7-men/alternatives,alternatives,running,thin,no,no,published,need ≥3 alternatives (have 2),thin_decision_shape
+/products/buff-coolnet-uv,product,running,NEEDS_MINOR_WORK,no,no,published,decisionScore=100,minor_work_held
+/products/buff-coolnet-uv/alternatives,alternatives,running,thin,no,no,published,need ≥3 alternatives (have 2),thin_decision_shape
+/products/buff-merino-lightweight,product,running,NEEDS_MINOR_WORK,no,no,published,decisionScore=100,minor_work_held
+/products/buff-merino-lightweight/alternatives,alternatives,running,thin,no,no,published,need ≥3 alternatives (have 2),thin_decision_shape
+/products/buff-original,product,running,NEEDS_MINOR_WORK,no,no,published,decisionScore=100,minor_work_held
+/products/buff-original/alternatives,alternatives,running,substantive,no,yes,published,parent_product_not_indexable,alt_category_or_vertical_hold
+/products/buff-polar,product,running,NEEDS_MINOR_WORK,no,no,published,decisionScore=100,minor_work_held
+/products/buff-polar/alternatives,alternatives,running,substantive,no,yes,published,parent_product_not_indexable,alt_category_or_vertical_hold
+/products/bullpadel-hack-03,product,padel,LAUNCH_READY,no,yes,published,vertical_hold:padel:disabled,vertical_hold
+/products/bullpadel-hack-03/alternatives,alternatives,padel,thin,no,no,published,parent_product_hidden,thin_decision_shape
+/products/bullpadel-hack-04-2026,product,padel,LAUNCH_READY,no,yes,published,vertical_hold:padel:disabled,vertical_hold
+/products/bullpadel-hack-04-2026/alternatives,alternatives,padel,thin,no,no,published,parent_product_hidden,thin_decision_shape
+/products/bullpadel-hack-hybrid,product,padel,NEEDS_MINOR_WORK,no,no,published,vertical_hold:padel:disabled,vertical_hold
+/products/bullpadel-hybrid-fly,product,padel,NEEDS_MINOR_WORK,no,no,published,vertical_hold:padel:disabled,vertical_hold
+/products/bullpadel-ionic-woman,product,padel,NEEDS_MINOR_WORK,no,no,published,vertical_hold:padel:disabled,vertical_hold
+/products/bullpadel-vertex-04,product,padel,LAUNCH_READY,no,yes,published,vertical_hold:padel:disabled,vertical_hold
+/products/bullpadel-vertex-04/alternatives,alternatives,padel,thin,no,no,published,parent_product_hidden,thin_decision_shape
+/products/bullpadel-vertex-05-2026,product,padel,LAUNCH_READY,no,yes,published,vertical_hold:padel:disabled,vertical_hold
+/products/bullpadel-vertex-05-2026/alternatives,alternatives,padel,thin,no,no,published,parent_product_hidden,thin_decision_shape
+/products/camelbak-apex-pro/alternatives,alternatives,running,thin,no,no,published,need ≥2 distinct alternative types,thin_decision_shape
+/products/camelbak-circuit-run-vest/alternatives,alternatives,running,substantive,no,yes,published,alternatives_category_noindex,alt_category_or_vertical_hold
+/products/camelbak-crux-15/alternatives,alternatives,running,substantive,no,yes,published,alternatives_category_noindex,alt_category_or_vertical_hold
+/products/camelbak-quick-grip-chill/alternatives,alternatives,running,substantive,no,yes,published,alternatives_category_noindex,alt_category_or_vertical_hold
+/products/camelbak-zephyr-pro/alternatives,alternatives,running,substantive,no,yes,published,alternatives_category_noindex,alt_category_or_vertical_hold
+/products/camelbak-zephyr/alternatives,alternatives,running,substantive,no,yes,published,alternatives_category_noindex,alt_category_or_vertical_hold
+/products/cep-calf-sleeves-3/alternatives,alternatives,running,thin,no,no,published,need ≥3 alternatives (have 1),thin_decision_shape
+/products/cep-run-compression-sock-3/alternatives,alternatives,running,thin,no,no,published,need ≥3 alternatives (have 1),thin_decision_shape
+/products/cep-the-run-calf-sleeves/alternatives,alternatives,running,thin,no,no,published,need ≥3 alternatives (have 2),thin_decision_shape
+/products/ciele-gocap-athletics/alternatives,alternatives,running,thin,no,no,published,need ≥3 alternatives (have 2),thin_decision_shape
+/products/clif-bar-original/alternatives,alternatives,running,substantive,no,yes,published,alternatives_category_noindex,alt_category_or_vertical_hold
+/products/clif-bloks-energy-chews/alternatives,alternatives,running,thin,no,no,published,need ≥2 distinct alternative types,thin_decision_shape
+/products/compressport-free-belt-pro/alternatives,alternatives,running,substantive,no,yes,published,alternatives_category_noindex,alt_category_or_vertical_hold
+/products/compressport-ultrun-s-pack/alternatives,alternatives,running,substantive,no,yes,published,alternatives_category_noindex,alt_category_or_vertical_hold
+/products/concept2-bikeerg,product,fitness,NEEDS_MINOR_WORK,no,no,published,vertical_hold:fitness:selective,vertical_hold
+/products/concept2-rowerg,product,fitness,LAUNCH_READY,no,yes,published,vertical_hold:fitness:selective,vertical_hold
+/products/concept2-rowerg-dynamic,product,fitness,NEEDS_MINOR_WORK,no,no,published,vertical_hold:fitness:selective,vertical_hold
+/products/concept2-skierg,product,fitness,NEEDS_MINOR_WORK,no,no,published,vertical_hold:fitness:selective,vertical_hold
+/products/concept2-skierg-floor-stand,product,fitness,NEEDS_MINOR_WORK,no,no,published,vertical_hold:fitness:selective,vertical_hold
+/products/concept2-skierg-with-stand,product,fitness,NEEDS_MINOR_WORK,no,no,published,vertical_hold:fitness:selective,vertical_hold
+/products/coros-apex-2-pro/alternatives,alternatives,running,thin,no,no,published,need ≥3 alternatives (have 2),thin_decision_shape
+/products/craft-active-extreme-x-men/alternatives,alternatives,running,thin,no,no,published,need ≥2 distinct alternative types,thin_decision_shape
+/products/craft-adv-essence-light-wind-men/alternatives,alternatives,running,substantive,no,yes,published,alternatives_category_noindex,alt_category_or_vertical_hold
+/products/craft-adv-essence-light-wind-vest-men/alternatives,alternatives,running,substantive,no,yes,published,alternatives_category_noindex,alt_category_or_vertical_hold
+/products/craft-adv-essence-short/alternatives,alternatives,running,substantive,no,yes,published,alternatives_category_noindex,alt_category_or_vertical_hold
+/products/craft-adv-essence-tight-men/alternatives,alternatives,running,thin,no,no,published,need ≥2 distinct alternative types,thin_decision_shape
+/products/craft-adv-lumen-glove/alternatives,alternatives,running,thin,no,no,published,need ≥3 alternatives (have 2),thin_decision_shape
+/products/darn-tough-run-1-4/alternatives,alternatives,running,substantive,no,yes,published,alternatives_category_noindex,alt_category_or_vertical_hold
+/products/do-win-classic,product,fitness,NEEDS_MINOR_WORK,no,no,published,vertical_hold:fitness:selective,vertical_hold
+/products/drop-shot-canyon-pro-2026,product,padel,LAUNCH_READY,no,yes,published,vertical_hold:padel:disabled,vertical_hold
+/products/drop-shot-canyon-pro-2026/alternatives,alternatives,padel,thin,no,no,published,parent_product_hidden,thin_decision_shape
+/products/drymax-run-lite-mesh/alternatives,alternatives,running,thin,no,no,published,need ≥2 distinct alternative types,thin_decision_shape
+/products/dunlop-cx-200,product,tennis,LAUNCH_READY,no,yes,published,vertical_hold:tennis:disabled,vertical_hold
+/products/dunlop-cx-200/alternatives,alternatives,tennis,thin,no,no,published,parent_product_hidden,thin_decision_shape
+/products/eleiko-kettlebell,product,fitness,NEEDS_MINOR_WORK,no,no,published,vertical_hold:fitness:selective,vertical_hold
+/products/eleiko-performance-weightlifting-bar,product,fitness,NEEDS_MINOR_WORK,no,no,published,vertical_hold:fitness:selective,vertical_hold
+/products/eleiko-sport-bumper-set,product,fitness,NEEDS_MINOR_WORK,no,no,published,vertical_hold:fitness:selective,vertical_hold
+/products/eleiko-sport-collars,product,fitness,NEEDS_MINOR_WORK,no,no,published,vertical_hold:fitness:selective,vertical_hold
+/products/eleiko-xf-bar,product,fitness,NEEDS_MINOR_WORK,no,no,published,vertical_hold:fitness:selective,vertical_hold
+/products/enervit-c2-1-carbo-gel/alternatives,alternatives,running,substantive,no,yes,published,alternatives_category_noindex,alt_category_or_vertical_hold
+/products/feetures-elite-light-cushion/alternatives,alternatives,running,substantive,no,yes,published,alternatives_category_noindex,alt_category_or_vertical_hold
+/products/fitletic-fully-loaded/alternatives,alternatives,running,thin,no,no,published,need ≥2 distinct alternative types,thin_decision_shape
+/products/flipbelt-classic/alternatives,alternatives,running,substantive,no,yes,published,alternatives_category_noindex,alt_category_or_vertical_hold
+/products/garmin-forerunner-255/alternatives,alternatives,running,thin,no,no,published,need ≥3 alternatives (have 2),thin_decision_shape
+/products/garmin-forerunner-265/alternatives,alternatives,running,thin,no,no,published,need ≥2 distinct alternative types,thin_decision_shape
+/products/garmin-forerunner-55/alternatives,alternatives,running,thin,no,no,published,need ≥3 alternatives (have 1),thin_decision_shape
+/products/goodr-circle-gs/alternatives,alternatives,running,substantive,no,yes,published,alternatives_category_noindex,alt_category_or_vertical_hold
+/products/goodr-ogs/alternatives,alternatives,running,substantive,no,yes,published,alternatives_category_noindex,alt_category_or_vertical_hold
+/products/gornation-gymnastic-rings,product,fitness,NEEDS_MINOR_WORK,no,no,published,vertical_hold:fitness:selective,vertical_hold
+/products/gornation-parallettes-pro,product,fitness,NEEDS_MINOR_WORK,no,no,published,vertical_hold:fitness:selective,vertical_hold
+/products/gornation-premium-pull-up-bar,product,fitness,NEEDS_MINOR_WORK,no,no,published,vertical_hold:fitness:selective,vertical_hold
+/products/gravity-fitness-gymnastic-rings,product,fitness,NEEDS_MINOR_WORK,no,no,published,vertical_hold:fitness:selective,vertical_hold
+/products/gravity-fitness-parallettes,product,fitness,NEEDS_MINOR_WORK,no,no,published,vertical_hold:fitness:selective,vertical_hold
+/products/gravity-fitness-pull-up-station,product,fitness,NEEDS_MINOR_WORK,no,no,published,vertical_hold:fitness:selective,vertical_hold
+/products/gravity-fitness-weighted-vest,product,fitness,NEEDS_MINOR_WORK,no,no,published,vertical_hold:fitness:selective,vertical_hold
+/products/gu-energy-chews/alternatives,alternatives,running,substantive,no,yes,published,alternatives_category_noindex,alt_category_or_vertical_hold
+/products/gu-energy-gel/alternatives,alternatives,running,substantive,no,yes,published,alternatives_category_noindex,alt_category_or_vertical_hold
+/products/gu-roctane-gel/alternatives,alternatives,running,substantive,no,yes,published,alternatives_category_noindex,alt_category_or_vertical_hold
+/products/head-coello-pro-2026,product,padel,LAUNCH_READY,no,yes,published,vertical_hold:padel:disabled,vertical_hold
+/products/head-coello-pro-2026/alternatives,alternatives,padel,thin,no,no,published,parent_product_hidden,thin_decision_shape
+/products/head-extreme-motion-2026,product,padel,LAUNCH_READY,no,yes,published,vertical_hold:padel:disabled,vertical_hold
+/products/head-extreme-motion-2026/alternatives,alternatives,padel,thin,no,no,published,parent_product_hidden,thin_decision_shape
+/products/head-extreme-pro-padel-2026,product,padel,LAUNCH_READY,no,yes,published,vertical_hold:padel:disabled,vertical_hold
+/products/head-extreme-pro-padel-2026/alternatives,alternatives,padel,thin,no,no,published,parent_product_hidden,thin_decision_shape
+/products/head-padel-pro-s-balls,product,padel,THIN,no,no,published,vertical_hold:padel:disabled,vertical_hold
+/products/head-radical-mp-2023,product,tennis,NEEDS_MINOR_WORK,no,no,published,vertical_hold:tennis:disabled,vertical_hold
+/products/head-revolt-pro-4-5,product,tennis,NEEDS_MINOR_WORK,no,no,published,vertical_hold:tennis:disabled,vertical_hold
+/products/head-revolt-pro-court,product,padel,NEEDS_MINOR_WORK,no,no,published,vertical_hold:padel:disabled,vertical_hold
+/products/head-speed-mp-2024,product,tennis,LAUNCH_READY,no,yes,published,vertical_hold:tennis:disabled,vertical_hold
+/products/head-speed-mp-2024/alternatives,alternatives,tennis,thin,no,no,published,parent_product_hidden,thin_decision_shape
+/products/head-speed-mp-2026,product,tennis,NEEDS_MINOR_WORK,no,no,published,vertical_hold:tennis:disabled,vertical_hold
+/products/head-sprint-pro-3-5,product,tennis,NEEDS_MINOR_WORK,no,no,published,vertical_hold:tennis:disabled,vertical_hold
+/products/head-sprint-pro-4-padel,product,padel,NEEDS_MINOR_WORK,no,no,published,vertical_hold:padel:disabled,vertical_hold
+/products/high5-energy-gel/alternatives,alternatives,running,substantive,no,yes,published,alternatives_category_noindex,alt_category_or_vertical_hold
+/products/high5-zero/alternatives,alternatives,running,substantive,no,yes,published,alternatives_category_noindex,alt_category_or_vertical_hold
+/products/hoka-bondi-8/alternatives,alternatives,running,thin,no,no,published,need ≥3 alternatives (have 1),thin_decision_shape
+/products/hoka-clifton-9/alternatives,alternatives,running,thin,no,no,published,need ≥2 distinct alternative types,thin_decision_shape
+/products/hoka-clifton-pro/alternatives,alternatives,running,thin,no,no,published,need ≥3 alternatives (have 2),thin_decision_shape
+/products/hoka-gaviota-5/alternatives,alternatives,running,thin,no,no,published,need ≥2 distinct alternative types,thin_decision_shape
+/products/hoka-transport,product,fitness,NEEDS_MINOR_WORK,no,no,published,vertical_hold:fitness:selective,vertical_hold
+/products/honey-stinger-organic-energy-gel/alternatives,alternatives,running,substantive,no,yes,published,alternatives_category_noindex,alt_category_or_vertical_hold
+/products/horizon-t202-treadmill,product,fitness,LAUNCH_READY,no,yes,published,vertical_hold:fitness:selective,vertical_hold
+/products/huma-gel-original/alternatives,alternatives,running,substantive,no,yes,published,alternatives_category_noindex,alt_category_or_vertical_hold
+/products/hydrapak-contour-2l/alternatives,alternatives,running,thin,no,no,published,need ≥3 alternatives (have 2),thin_decision_shape
+/products/hydrapak-skyflask-speed-500/alternatives,alternatives,running,substantive,no,yes,published,alternatives_category_noindex,alt_category_or_vertical_hold
+/products/hydrapak-softflask-250/alternatives,alternatives,running,substantive,no,yes,published,alternatives_category_noindex,alt_category_or_vertical_hold
+/products/hydrapak-softflask-500/alternatives,alternatives,running,substantive,no,yes,published,alternatives_category_noindex,alt_category_or_vertical_hold
+/products/hydrapak-softflask-speed-500/alternatives,alternatives,running,substantive,no,yes,published,alternatives_category_noindex,alt_category_or_vertical_hold
+/products/hydrapak-tube-kit/alternatives,alternatives,running,thin,no,no,published,need ≥3 alternatives (have 1),thin_decision_shape
+/products/hydrow-wave,product,fitness,LAUNCH_READY,no,yes,published,vertical_hold:fitness:selective,vertical_hold
+/products/hyperice-hypervolt-2/alternatives,alternatives,running,thin,no,no,published,need ≥2 distinct alternative types,thin_decision_shape
+/products/hyperice-hypervolt-go-2/alternatives,alternatives,running,thin,no,no,published,need ≥3 alternatives (have 2),thin_decision_shape
+/products/hyperice-normatec-3/alternatives,alternatives,running,thin,no,no,published,need ≥3 alternatives (have 1),thin_decision_shape
+/products/hyperice-normatec-go/alternatives,alternatives,running,thin,no,no,published,need ≥3 alternatives (have 2),thin_decision_shape
+/products/hyperice-vyper-3/alternatives,alternatives,running,thin,no,no,published,need ≥3 alternatives (have 1),thin_decision_shape
+/products/injinji-run-midweight/alternatives,alternatives,running,thin,no,no,published,need ≥2 distinct alternative types,thin_decision_shape
+/products/inov8-f-lite-235-v3,product,fitness,LAUNCH_READY,no,yes,published,vertical_hold:fitness:selective,vertical_hold
+/products/inov8-f-lite-260,product,fitness,NEEDS_MINOR_WORK,no,no,published,vertical_hold:fitness:selective,vertical_hold
+/products/inov8-fastlift-360,product,fitness,NEEDS_MINOR_WORK,no,no,published,vertical_hold:fitness:selective,vertical_hold
+/products/inov8-fastlift-400,product,fitness,NEEDS_MINOR_WORK,no,no,published,vertical_hold:fitness:selective,vertical_hold
+/products/inov8-fastlift-power-g-380,product,fitness,NEEDS_MINOR_WORK,no,no,published,vertical_hold:fitness:selective,vertical_hold
+/products/inov8-trailfly-ultra-g-300-max/alternatives,alternatives,running,thin,no,no,published,need ≥3 alternatives (have 2),thin_decision_shape
+/products/janji-multi-short-men/alternatives,alternatives,running,substantive,no,yes,published,alternatives_category_noindex,alt_category_or_vertical_hold
+/products/janji-pace-short-women/alternatives,alternatives,running,substantive,no,yes,published,alternatives_category_noindex,alt_category_or_vertical_hold
+/products/janji-rainrunner-men/alternatives,alternatives,running,thin,no,no,published,need ≥3 alternatives (have 2),thin_decision_shape
+/products/janji-run-tee-men/alternatives,alternatives,running,substantive,no,yes,published,alternatives_category_noindex,alt_category_or_vertical_hold
+/products/joma-slam-lady,product,padel,NEEDS_MINOR_WORK,no,no,published,vertical_hold:padel:disabled,vertical_hold
+/products/joma-spin-lady,product,padel,NEEDS_MINOR_WORK,no,no,published,vertical_hold:padel:disabled,vertical_hold
+/products/joma-spin-men,product,padel,NEEDS_MINOR_WORK,no,no,published,vertical_hold:padel:disabled,vertical_hold
+/products/joma-t-slam,product,padel,LAUNCH_READY,no,yes,published,vertical_hold:padel:disabled,vertical_hold
+/products/joma-t-slam/alternatives,alternatives,padel,thin,no,no,published,parent_product_hidden,thin_decision_shape
+/products/joola-ben-johns-hyperion-cfs-16,product,sport-pickleball,NEEDS_MINOR_WORK,no,no,published,vertical_hold:sport-pickleball:disabled,vertical_hold
+/products/joola-perseus-16,product,sport-pickleball,NEEDS_MINOR_WORK,no,no,published,vertical_hold:sport-pickleball:disabled,vertical_hold
+/products/julbo-aerolite/alternatives,alternatives,running,substantive,no,yes,published,alternatives_category_noindex,alt_category_or_vertical_hold
+/products/julbo-rush/alternatives,alternatives,running,substantive,no,yes,published,alternatives_category_noindex,alt_category_or_vertical_hold
+/products/julbo-ultimate/alternatives,alternatives,running,substantive,no,yes,published,alternatives_category_noindex,alt_category_or_vertical_hold
+/products/k-swiss-hypercourt-express-2,product,tennis,NEEDS_MINOR_WORK,no,no,published,vertical_hold:tennis:disabled,vertical_hold
+/products/k-swiss-ultrashot-3,product,tennis,NEEDS_MINOR_WORK,no,no,published,vertical_hold:tennis:disabled,vertical_hold
+/products/kiprun-running-belt/alternatives,alternatives,running,thin,no,no,published,need ≥2 distinct alternative types,thin_decision_shape
+/products/kuikma-pr-soft-500,product,padel,LAUNCH_READY,no,yes,published,vertical_hold:padel:disabled,vertical_hold
+/products/kuikma-pr-soft-500/alternatives,alternatives,padel,thin,no,no,published,parent_product_hidden,thin_decision_shape
+/products/kuikma-ps-990,product,padel,NEEDS_MINOR_WORK,no,no,published,vertical_hold:padel:disabled,vertical_hold
+/products/ledlenser-neo9r/alternatives,alternatives,running,substantive,no,yes,published,alternatives_category_noindex,alt_category_or_vertical_hold
+/products/lok-maxx-flow,product,padel,NEEDS_MINOR_WORK,no,no,published,vertical_hold:padel:disabled,vertical_hold
+/products/lok-padel-one,product,padel,NEEDS_MINOR_WORK,no,no,published,vertical_hold:padel:disabled,vertical_hold
+/products/lululemon-strongfeel,product,fitness,NEEDS_MINOR_WORK,no,no,published,vertical_hold:fitness:selective,vertical_hold
+/products/luxilon-alu-power,product,tennis,NEEDS_MINOR_WORK,no,no,published,vertical_hold:tennis:disabled,vertical_hold
+/products/maurten-drink-mix-160/alternatives,alternatives,running,thin,no,no,published,need ≥2 distinct alternative types,thin_decision_shape
+/products/maurten-drink-mix-320/alternatives,alternatives,running,substantive,no,yes,published,alternatives_category_noindex,alt_category_or_vertical_hold
+/products/maurten-gel-100-caf-100/alternatives,alternatives,running,substantive,no,yes,published,alternatives_category_noindex,alt_category_or_vertical_hold
+/products/maurten-gel-100/alternatives,alternatives,running,substantive,no,yes,published,alternatives_category_noindex,alt_category_or_vertical_hold
+/products/maurten-gel-160/alternatives,alternatives,running,substantive,no,yes,published,alternatives_category_noindex,alt_category_or_vertical_hold
+/products/mirafit-air-bike,product,fitness,NEEDS_MINOR_WORK,no,no,published,vertical_hold:fitness:selective,vertical_hold
+/products/mirafit-battle-rope,product,fitness,NEEDS_MINOR_WORK,no,no,published,vertical_hold:fitness:selective,vertical_hold
+/products/mirafit-bumper-plate-set,product,fitness,NEEDS_MINOR_WORK,no,no,published,vertical_hold:fitness:selective,vertical_hold
+/products/mirafit-cast-iron-kettlebell,product,fitness,NEEDS_MINOR_WORK,no,no,published,vertical_hold:fitness:selective,vertical_hold
+/products/mirafit-fid-adjustable-bench,product,fitness,NEEDS_MINOR_WORK,no,no,published,vertical_hold:fitness:selective,vertical_hold
+/products/mirafit-folding-rower,product,fitness,NEEDS_MINOR_WORK,no,no,published,vertical_hold:fitness:selective,vertical_hold
+/products/mirafit-folding-treadmill/alternatives,alternatives,running,substantive,no,yes,published,alternatives_category_noindex,alt_category_or_vertical_hold
+/products/mirafit-gym-mats,product,fitness,NEEDS_MINOR_WORK,no,no,published,vertical_hold:fitness:selective,vertical_hold
+/products/mirafit-m3-power-rack,product,fitness,NEEDS_MINOR_WORK,no,no,published,vertical_hold:fitness:selective,vertical_hold
+/products/mirafit-m4-cage,product,fitness,NEEDS_MINOR_WORK,no,no,published,vertical_hold:fitness:selective,vertical_hold
+/products/mirafit-magnetic-rower,product,fitness,LAUNCH_READY,no,yes,published,vertical_hold:fitness:selective,vertical_hold
+/products/mirafit-olympic-barbell,product,fitness,NEEDS_MINOR_WORK,no,no,published,vertical_hold:fitness:selective,vertical_hold
+/products/mirafit-wall-pull-up-bar,product,fitness,NEEDS_MINOR_WORK,no,no,published,vertical_hold:fitness:selective,vertical_hold
+/products/mirafit-weighted-vest,product,fitness,NEEDS_MINOR_WORK,no,no,published,vertical_hold:fitness:selective,vertical_hold
+/products/mizuno-wave-exceed-tour-5,product,tennis,NEEDS_MINOR_WORK,no,no,published,vertical_hold:tennis:disabled,vertical_hold
+/products/mizuno-wave-rebellion-pro-3/alternatives,alternatives,running,thin,no,no,published,need ≥2 distinct alternative types,thin_decision_shape
+/products/naak-ultra-energy-bar/alternatives,alternatives,running,substantive,no,yes,published,alternatives_category_noindex,alt_category_or_vertical_hold
+/products/naak-ultra-energy-drink-mix/alternatives,alternatives,running,thin,no,no,published,need ≥2 distinct alternative types,thin_decision_shape
+/products/naked-running-band/alternatives,alternatives,running,substantive,no,yes,published,alternatives_category_noindex,alt_category_or_vertical_hold
+/products/nathan-exoshot-2/alternatives,alternatives,running,substantive,no,yes,published,alternatives_category_noindex,alt_category_or_vertical_hold
+/products/nathan-mirage-pak/alternatives,alternatives,running,substantive,no,yes,published,alternatives_category_noindex,alt_category_or_vertical_hold
+/products/nathan-peak-hydration-waist-pack/alternatives,alternatives,running,substantive,no,yes,published,alternatives_category_noindex,alt_category_or_vertical_hold
+/products/nathan-pinnacle-12/alternatives,alternatives,running,substantive,no,yes,published,alternatives_category_noindex,alt_category_or_vertical_hold
+/products/nathan-softflask-18oz/alternatives,alternatives,running,thin,no,no,published,need ≥2 distinct alternative types,thin_decision_shape
+/products/nathan-speeddraw-plus-insulated-18oz/alternatives,alternatives,running,substantive,no,yes,published,alternatives_category_noindex,alt_category_or_vertical_hold
+/products/nathan-streak-reflective-vest/alternatives,alternatives,running,substantive,no,yes,published,alternatives_category_noindex,alt_category_or_vertical_hold
+/products/nathan-vaporair-2/alternatives,alternatives,running,substantive,no,yes,published,alternatives_category_noindex,alt_category_or_vertical_hold
+/products/nathan-vaporair-4/alternatives,alternatives,running,substantive,no,yes,published,alternatives_category_noindex,alt_category_or_vertical_hold
+/products/nathan-zippered-stash/alternatives,alternatives,running,thin,no,no,published,need ≥3 alternatives (have 1),thin_decision_shape
+/products/nathan-zipster-lite/alternatives,alternatives,running,substantive,no,yes,published,alternatives_category_noindex,alt_category_or_vertical_hold
+/products/nb-minimus-tr,product,fitness,NEEDS_MINOR_WORK,no,no,published,vertical_hold:fitness:selective,vertical_hold
+/products/nb-rc-essential-short-men/alternatives,alternatives,running,substantive,no,yes,published,alternatives_category_noindex,alt_category_or_vertical_hold
+/products/neversecond-c30-gel/alternatives,alternatives,running,substantive,no,yes,published,alternatives_category_noindex,alt_category_or_vertical_hold
+/products/neversecond-c30-sports-drink/alternatives,alternatives,running,substantive,no,yes,published,alternatives_category_noindex,alt_category_or_vertical_hold
+/products/new-balance-996-v5,product,tennis,NEEDS_MINOR_WORK,no,no,published,vertical_hold:tennis:disabled,vertical_hold
+/products/new-balance-fresh-foam-x-1080-v13/alternatives,alternatives,running,thin,no,no,published,need ≥3 alternatives (have 1),thin_decision_shape
+/products/new-balance-fuelcell-rebel-v4,product,running,NEEDS_MINOR_WORK,no,no,published,decisionScore=70,minor_work_held
+/products/new-balance-fuelcell-rebel-v4/alternatives,alternatives,running,thin,no,no,published,need ≥3 alternatives (have 2),thin_decision_shape
+/products/new-balance-fuelcell-rebel-v5/alternatives,alternatives,running,thin,no,no,published,need ≥3 alternatives (have 2),thin_decision_shape
+/products/new-balance-fuelcell-supercomp-elite-v4/alternatives,alternatives,running,thin,no,no,published,need ≥2 distinct alternative types,thin_decision_shape
+/products/new-balance-fuelcell-supercomp-trainer-v3/alternatives,alternatives,running,thin,no,no,published,need ≥3 alternatives (have 2),thin_decision_shape
+/products/nike-aerobill-cap/alternatives,alternatives,running,substantive,no,yes,published,alternatives_category_noindex,alt_category_or_vertical_hold
+/products/nike-aeroswift-singlet-men/alternatives,alternatives,running,thin,no,no,published,need ≥3 alternatives (have 1),thin_decision_shape
+/products/nike-court-air-zoom-vapor-cage-4,product,tennis,NEEDS_MINOR_WORK,no,no,published,vertical_hold:tennis:disabled,vertical_hold
+/products/nike-court-lite-4,product,tennis,NEEDS_MINOR_WORK,no,no,published,vertical_hold:tennis:disabled,vertical_hold
+/products/nike-court-vapor-pro-3,product,tennis,NEEDS_MINOR_WORK,no,no,published,vertical_hold:tennis:disabled,vertical_hold
+/products/nike-dri-fit-miler-men/alternatives,alternatives,running,substantive,no,yes,published,alternatives_category_noindex,alt_category_or_vertical_hold
+/products/nike-dri-fit-miler-women/alternatives,alternatives,running,thin,no,no,published,need ≥3 alternatives (have 2),thin_decision_shape
+/products/nike-dri-fit-stride-short/alternatives,alternatives,running,substantive,no,yes,published,alternatives_category_noindex,alt_category_or_vertical_hold
+/products/nike-fast-tight-men/alternatives,alternatives,running,substantive,no,yes,published,alternatives_category_noindex,alt_category_or_vertical_hold
+/products/nike-free-metcon-6,product,fitness,LAUNCH_READY,no,yes,published,vertical_hold:fitness:selective,vertical_hold
+/products/nike-impossibly-light-men/alternatives,alternatives,running,substantive,no,yes,published,alternatives_category_noindex,alt_category_or_vertical_hold
+/products/nike-invincible-3/alternatives,alternatives,running,thin,no,no,published,need ≥3 alternatives (have 2),thin_decision_shape
+/products/nike-metcon-8,product,fitness,NEEDS_MINOR_WORK,no,no,published,vertical_hold:fitness:selective,vertical_hold
+/products/nike-metcon-9,product,fitness,LAUNCH_READY,no,yes,published,vertical_hold:fitness:selective,vertical_hold
+/products/nike-react-infinity-run-4/alternatives,alternatives,running,thin,no,no,published,need ≥3 alternatives (have 2),thin_decision_shape
+/products/nike-romaleos-4,product,fitness,NEEDS_MINOR_WORK,no,no,published,vertical_hold:fitness:selective,vertical_hold
+/products/nike-romaleos-5,product,fitness,LAUNCH_READY,no,yes,published,vertical_hold:fitness:selective,vertical_hold
+/products/nike-savaleos,product,fitness,NEEDS_MINOR_WORK,no,no,published,vertical_hold:fitness:selective,vertical_hold
+/products/nike-structure-26/alternatives,alternatives,running,thin,no,no,published,need ≥3 alternatives (have 2),thin_decision_shape
+/products/nike-structure-plus/alternatives,alternatives,running,thin,no,no,published,need ≥3 alternatives (have 2),thin_decision_shape
+/products/nike-therma-fit-glove/alternatives,alternatives,running,thin,no,no,published,need ≥3 alternatives (have 2),thin_decision_shape
+/products/nitecore-nu43/alternatives,alternatives,running,substantive,no,yes,published,alternatives_category_noindex,alt_category_or_vertical_hold
+/products/nnormal-race-vest/alternatives,alternatives,running,substantive,no,yes,published,alternatives_category_noindex,alt_category_or_vertical_hold
+/products/nobull-outwork,product,fitness,NEEDS_MINOR_WORK,no,no,published,vertical_hold:fitness:selective,vertical_hold
+/products/nobull-trainer,product,fitness,LAUNCH_READY,no,yes,published,vertical_hold:fitness:selective,vertical_hold
+/products/nobull-trainer-plus,product,fitness,NEEDS_MINOR_WORK,no,no,published,vertical_hold:fitness:selective,vertical_hold
+/products/nox-at10-genius-12k-alum-xtrem-2026,product,padel,LAUNCH_READY,no,yes,published,vertical_hold:padel:disabled,vertical_hold
+/products/nox-at10-genius-12k-alum-xtrem-2026/alternatives,alternatives,padel,thin,no,no,published,parent_product_hidden,thin_decision_shape
+/products/nox-at10-genius-18k-2026,product,padel,LAUNCH_READY,no,yes,published,vertical_hold:padel:disabled,vertical_hold
+/products/nox-at10-genius-18k-2026/alternatives,alternatives,padel,thin,no,no,published,parent_product_hidden,thin_decision_shape
+/products/nox-at10-lux,product,padel,NEEDS_MINOR_WORK,no,no,published,vertical_hold:padel:disabled,vertical_hold
+/products/nox-at10-pro,product,padel,NEEDS_MINOR_WORK,no,no,published,vertical_hold:padel:disabled,vertical_hold
+/products/nox-ml10-hexa,product,padel,NEEDS_MINOR_WORK,no,no,published,vertical_hold:padel:disabled,vertical_hold
+/products/nox-ml10-pro-cup-2026,product,padel,LAUNCH_READY,no,yes,published,vertical_hold:padel:disabled,vertical_hold
+/products/nox-ml10-pro-cup-2026/alternatives,alternatives,padel,thin,no,no,published,parent_product_hidden,thin_decision_shape
+/products/nuobell-50,product,fitness,NEEDS_MINOR_WORK,no,no,published,vertical_hold:fitness:selective,vertical_hold
+/products/nuobell-80,product,fitness,LAUNCH_READY,no,yes,published,vertical_hold:fitness:selective,vertical_hold
+/products/nuun-sport/alternatives,alternatives,running,substantive,no,yes,published,alternatives_category_noindex,alt_category_or_vertical_hold
+/products/oakley-encoder/alternatives,alternatives,running,substantive,no,yes,published,alternatives_category_noindex,alt_category_or_vertical_hold
+/products/oakley-flak-2-0-xl/alternatives,alternatives,running,substantive,no,yes,published,alternatives_category_noindex,alt_category_or_vertical_hold
+/products/oakley-kato/alternatives,alternatives,running,substantive,no,yes,published,alternatives_category_noindex,alt_category_or_vertical_hold
+/products/oakley-radar-ev-path/alternatives,alternatives,running,substantive,no,yes,published,alternatives_category_noindex,alt_category_or_vertical_hold
+/products/oakley-sutro-lite/alternatives,alternatives,running,substantive,no,yes,published,alternatives_category_noindex,alt_category_or_vertical_hold
+/products/odlo-active-warm-eco-bottom-men/alternatives,alternatives,running,thin,no,no,published,need ≥3 alternatives (have 2),thin_decision_shape
+/products/odlo-active-warm-eco-men/alternatives,alternatives,running,substantive,no,yes,published,alternatives_category_noindex,alt_category_or_vertical_hold
+/products/on-cloudsurfer-next/alternatives,alternatives,running,thin,no,no,published,need ≥3 alternatives (have 2),thin_decision_shape
+/products/on-performance-short-men/alternatives,alternatives,running,substantive,no,yes,published,alternatives_category_noindex,alt_category_or_vertical_hold
+/products/on-performance-tight-women/alternatives,alternatives,running,substantive,no,yes,published,alternatives_category_noindex,alt_category_or_vertical_hold
+/products/on-ultra-vest-pro/alternatives,alternatives,running,substantive,no,yes,published,alternatives_category_noindex,alt_category_or_vertical_hold
+/products/on-weather-jacket-men/alternatives,alternatives,running,substantive,no,yes,published,alternatives_category_noindex,alt_category_or_vertical_hold
+/products/oofos-oolala/alternatives,alternatives,running,thin,no,no,published,need ≥3 alternatives (have 1),thin_decision_shape
+/products/oofos-ooriginal/alternatives,alternatives,running,thin,no,no,published,need ≥3 alternatives (have 1),thin_decision_shape
+/products/osprey-duro-15/alternatives,alternatives,running,substantive,no,yes,published,alternatives_category_noindex,alt_category_or_vertical_hold
+/products/osprey-duro-6/alternatives,alternatives,running,substantive,no,yes,published,alternatives_category_noindex,alt_category_or_vertical_hold
+/products/osprey-duro-lt/alternatives,alternatives,running,substantive,no,yes,published,alternatives_category_noindex,alt_category_or_vertical_hold
+/products/osprey-dyna-6/alternatives,alternatives,running,substantive,no,yes,published,alternatives_category_noindex,alt_category_or_vertical_hold
+/products/osprey-dyna-lt/alternatives,alternatives,running,thin,no,no,published,need ≥2 distinct alternative types,thin_decision_shape
+/products/osprey-hydraulics-lt-15/alternatives,alternatives,running,thin,no,no,published,need ≥3 alternatives (have 1),thin_decision_shape
+/products/osprey-talon-velocity-20/alternatives,alternatives,running,substantive,no,yes,published,alternatives_category_noindex,alt_category_or_vertical_hold
+/products/osprey-talon-velocity-30/alternatives,alternatives,running,substantive,no,yes,published,alternatives_category_noindex,alt_category_or_vertical_hold
+/products/osprey-tempest-velocity-20/alternatives,alternatives,running,substantive,no,yes,published,alternatives_category_noindex,alt_category_or_vertical_hold
+/products/oxdog-hyper-court,product,padel,NEEDS_MINOR_WORK,no,no,published,vertical_hold:padel:disabled,vertical_hold
+/products/oxdog-sense-pro,product,padel,LAUNCH_READY,no,yes,published,vertical_hold:padel:disabled,vertical_hold
+/products/oxdog-sense-pro/alternatives,alternatives,padel,thin,no,no,published,parent_product_hidden,thin_decision_shape
+/products/patagonia-capilene-cool-daily-men/alternatives,alternatives,running,substantive,no,yes,published,alternatives_category_noindex,alt_category_or_vertical_hold
+/products/patagonia-capilene-midweight-zip-men/alternatives,alternatives,running,thin,no,no,published,need ≥2 distinct alternative types,thin_decision_shape
+/products/patagonia-capilene-thermal-crew-men/alternatives,alternatives,running,thin,no,no,published,need ≥2 distinct alternative types,thin_decision_shape
+/products/patagonia-endless-run-tight-women/alternatives,alternatives,running,thin,no,no,published,need ≥3 alternatives (have 2),thin_decision_shape
+/products/patagonia-houdini-men/alternatives,alternatives,running,substantive,no,yes,published,alternatives_category_noindex,alt_category_or_vertical_hold
+/products/patagonia-nano-puff-vest-men/alternatives,alternatives,running,thin,no,no,published,need ≥3 alternatives (have 2),thin_decision_shape
+/products/patagonia-strider-pro-men/alternatives,alternatives,running,substantive,no,yes,published,alternatives_category_noindex,alt_category_or_vertical_hold
+/products/patagonia-trailfarer-short-women/alternatives,alternatives,running,thin,no,no,published,need ≥3 alternatives (have 2),thin_decision_shape
+/products/petzl-actik-core/alternatives,alternatives,running,thin,no,no,published,need ≥3 alternatives (have 1),thin_decision_shape
+/products/petzl-nao-rl/alternatives,alternatives,running,substantive,no,yes,published,alternatives_category_noindex,alt_category_or_vertical_hold
+/products/petzl-swift-rl/alternatives,alternatives,running,substantive,no,yes,published,alternatives_category_noindex,alt_category_or_vertical_hold
+/products/polar-pacer-pro/alternatives,alternatives,running,thin,no,no,published,need ≥2 distinct alternative types,thin_decision_shape
+/products/powerbar-energize/alternatives,alternatives,running,substantive,no,yes,published,alternatives_category_noindex,alt_category_or_vertical_hold
+/products/powerblock-elite-exp-90,product,fitness,NEEDS_MINOR_WORK,no,no,published,vertical_hold:fitness:selective,vertical_hold
+/products/powerblock-pro-series-100,product,fitness,LAUNCH_READY,no,yes,published,vertical_hold:fitness:selective,vertical_hold
+/products/powerblock-pro-series-50,product,fitness,NEEDS_MINOR_WORK,no,no,published,vertical_hold:fitness:selective,vertical_hold
+/products/precision-pf30-drink-mix/alternatives,alternatives,running,substantive,no,yes,published,alternatives_category_noindex,alt_category_or_vertical_hold
+/products/precision-pf30-gel/alternatives,alternatives,running,substantive,no,yes,published,alternatives_category_noindex,alt_category_or_vertical_hold
+/products/precision-ph1500/alternatives,alternatives,running,substantive,no,yes,published,alternatives_category_noindex,alt_category_or_vertical_hold
+/products/prince-t22,product,tennis,NEEDS_MINOR_WORK,no,no,published,vertical_hold:tennis:disabled,vertical_hold
+/products/prince-textreme-tour-100p,product,tennis,LAUNCH_READY,no,yes,published,vertical_hold:tennis:disabled,vertical_hold
+/products/prince-textreme-tour-100p/alternatives,alternatives,tennis,thin,no,no,published,parent_product_hidden,thin_decision_shape
+/products/proviz-reflect360-running-vest/alternatives,alternatives,running,thin,no,no,published,need ≥2 distinct alternative types,thin_decision_shape
+/products/pullup-and-dip-doorway-bar,product,fitness,NEEDS_MINOR_WORK,no,no,published,vertical_hold:fitness:selective,vertical_hold
+/products/pullup-and-dip-parallettes,product,fitness,NEEDS_MINOR_WORK,no,no,published,vertical_hold:fitness:selective,vertical_hold
+/products/pullup-and-dip-wall-bar,product,fitness,NEEDS_MINOR_WORK,no,no,published,vertical_hold:fitness:selective,vertical_hold
+/products/puma-deviate-nitro-3/alternatives,alternatives,running,thin,no,no,published,need ≥3 alternatives (have 2),thin_decision_shape
+/products/puma-fuse-3,product,fitness,LAUNCH_READY,no,yes,published,vertical_hold:fitness:selective,vertical_hold
+/products/puma-fuse-fasted,product,fitness,NEEDS_MINOR_WORK,no,no,published,vertical_hold:fitness:selective,vertical_hold
+/products/puma-magnify-nitro-2/alternatives,alternatives,running,thin,no,no,published,need ≥2 distinct alternative types,thin_decision_shape
+/products/rabbit-fuel-n-fly-men/alternatives,alternatives,running,substantive,no,yes,published,alternatives_category_noindex,alt_category_or_vertical_hold
+/products/reebok-legacy-lifter-iii,product,fitness,NEEDS_MINOR_WORK,no,no,published,vertical_hold:fitness:selective,vertical_hold
+/products/reebok-lifter-pr-iii,product,fitness,NEEDS_MINOR_WORK,no,no,published,vertical_hold:fitness:selective,vertical_hold
+/products/reebok-nano-court,product,fitness,NEEDS_MINOR_WORK,no,no,published,vertical_hold:fitness:selective,vertical_hold
+/products/reebok-nano-x3,product,fitness,NEEDS_MINOR_WORK,no,no,published,vertical_hold:fitness:selective,vertical_hold
+/products/reebok-nano-x4,product,fitness,LAUNCH_READY,no,yes,published,vertical_hold:fitness:selective,vertical_hold
+/products/rep-ab-5000-zero-gap,product,fitness,NEEDS_MINOR_WORK,no,no,published,vertical_hold:fitness:selective,vertical_hold
+/products/rep-ab-5200,product,fitness,NEEDS_MINOR_WORK,no,no,published,vertical_hold:fitness:selective,vertical_hold
+/products/rep-apollo-athlon-rack,product,fitness,NEEDS_MINOR_WORK,no,no,published,vertical_hold:fitness:selective,vertical_hold
+/products/rep-black-bumper-plate-set,product,fitness,NEEDS_MINOR_WORK,no,no,published,vertical_hold:fitness:selective,vertical_hold
+/products/rep-bumper-plate-storage,product,fitness,NEEDS_MINOR_WORK,no,no,published,vertical_hold:fitness:selective,vertical_hold
+/products/rep-colorado-bar,product,fitness,NEEDS_MINOR_WORK,no,no,published,vertical_hold:fitness:selective,vertical_hold
+/products/rep-fb-5000-flat-bench,product,fitness,NEEDS_MINOR_WORK,no,no,published,vertical_hold:fitness:selective,vertical_hold
+/products/rep-fitness-kettlebell,product,fitness,NEEDS_MINOR_WORK,no,no,published,vertical_hold:fitness:selective,vertical_hold
+/products/rep-pr-4000,product,fitness,LAUNCH_READY,no,yes,published,vertical_hold:fitness:selective,vertical_hold
+/products/rep-pr-5000,product,fitness,NEEDS_MINOR_WORK,no,no,published,vertical_hold:fitness:selective,vertical_hold
+/products/rep-quickdraw-adjustable-dumbbells,product,fitness,NEEDS_MINOR_WORK,no,no,published,vertical_hold:fitness:selective,vertical_hold
+/products/rep-slam-ball,product,fitness,NEEDS_MINOR_WORK,no,no,published,vertical_hold:fitness:selective,vertical_hold
+/products/rogue-adjustable-bench-3-0,product,fitness,NEEDS_MINOR_WORK,no,no,published,vertical_hold:fitness:selective,vertical_hold
+/products/rogue-dog-sled,product,fitness,NEEDS_MINOR_WORK,no,no,published,vertical_hold:fitness:selective,vertical_hold
+/products/rogue-echo-bike,product,fitness,LAUNCH_READY,no,yes,published,vertical_hold:fitness:selective,vertical_hold
+/products/rogue-echo-bumper-plate-set,product,fitness,NEEDS_MINOR_WORK,no,no,published,vertical_hold:fitness:selective,vertical_hold
+/products/rogue-echo-kettlebell,product,fitness,NEEDS_MINOR_WORK,no,no,published,vertical_hold:fitness:selective,vertical_hold
+/products/rogue-flat-utility-bench,product,fitness,NEEDS_MINOR_WORK,no,no,published,vertical_hold:fitness:selective,vertical_hold
+/products/rogue-flogging-horse-stall-mat-note,product,fitness,NEEDS_MINOR_WORK,no,no,published,vertical_hold:fitness:selective,vertical_hold
+/products/rogue-kettlebell,product,fitness,NEEDS_MINOR_WORK,no,no,published,vertical_hold:fitness:selective,vertical_hold
+/products/rogue-monster-lite-pull-up-bar,product,fitness,NEEDS_MINOR_WORK,no,no,published,vertical_hold:fitness:selective,vertical_hold
+/products/rogue-ohio-bar,product,fitness,NEEDS_MINOR_WORK,no,no,published,vertical_hold:fitness:selective,vertical_hold
+/products/rogue-ohio-power-bar,product,fitness,NEEDS_MINOR_WORK,no,no,published,vertical_hold:fitness:selective,vertical_hold
+/products/rogue-plate-carrier-vest,product,fitness,NEEDS_MINOR_WORK,no,no,published,vertical_hold:fitness:selective,vertical_hold
+/products/rogue-plate-tree,product,fitness,NEEDS_MINOR_WORK,no,no,published,vertical_hold:fitness:selective,vertical_hold
+/products/rogue-rm-4-monster-rack,product,fitness,NEEDS_MINOR_WORK,no,no,published,vertical_hold:fitness:selective,vertical_hold
+/products/rogue-rml-390f,product,fitness,LAUNCH_READY,no,yes,published,vertical_hold:fitness:selective,vertical_hold
+/products/rogue-sandbag,product,fitness,NEEDS_MINOR_WORK,no,no,published,vertical_hold:fitness:selective,vertical_hold
+/products/rogue-sm-2c-monster-lite,product,fitness,NEEDS_MINOR_WORK,no,no,published,vertical_hold:fitness:selective,vertical_hold
+/products/rogue-wall-ball,product,fitness,NEEDS_MINOR_WORK,no,no,published,vertical_hold:fitness:selective,vertical_hold
+/products/rogue-wrist-wraps,product,fitness,NEEDS_MINOR_WORK,no,no,published,vertical_hold:fitness:selective,vertical_hold
+/products/roka-phantom-air/alternatives,alternatives,running,substantive,no,yes,published,alternatives_category_noindex,alt_category_or_vertical_hold
+/products/royal-padel-m27-poly-2026,product,padel,LAUNCH_READY,no,yes,published,vertical_hold:padel:disabled,vertical_hold
+/products/royal-padel-m27-poly-2026/alternatives,alternatives,padel,thin,no,no,published,parent_product_hidden,thin_decision_shape
+/products/rudy-project-cutline/alternatives,alternatives,running,substantive,no,yes,published,alternatives_category_noindex,alt_category_or_vertical_hold
+/products/salming-race-9,product,fitness,NEEDS_MINOR_WORK,no,no,published,vertical_hold:fitness:selective,vertical_hold
+/products/salming-rebel,product,fitness,NEEDS_MINOR_WORK,no,no,published,vertical_hold:fitness:selective,vertical_hold
+/products/salomon-adv-skin-12/alternatives,alternatives,running,substantive,no,yes,published,alternatives_category_noindex,alt_category_or_vertical_hold
+/products/salomon-adv-skin-5/alternatives,alternatives,running,substantive,no,yes,published,alternatives_category_noindex,alt_category_or_vertical_hold
+/products/salomon-bonatti-wp-men/alternatives,alternatives,running,thin,no,no,published,need switch/trade-off decision shape on ≥2 alts,thin_decision_shape
+/products/salomon-bonatti-wp-women/alternatives,alternatives,running,thin,no,no,published,need ≥3 alternatives (have 1),thin_decision_shape
+/products/salomon-custom-quiver/alternatives,alternatives,running,thin,no,no,published,need ≥2 distinct alternative types,thin_decision_shape
+/products/salomon-pulsar-trail-2/alternatives,alternatives,running,thin,no,no,published,need ≥3 alternatives (have 2),thin_decision_shape
+/products/salomon-pulse-belt/alternatives,alternatives,running,substantive,no,yes,published,alternatives_category_noindex,alt_category_or_vertical_hold
+/products/salomon-soft-flask-500/alternatives,alternatives,running,substantive,no,yes,published,alternatives_category_noindex,alt_category_or_vertical_hold
+/products/salomon-soft-flask-speed-500/alternatives,alternatives,running,thin,no,no,published,need ≥2 distinct alternative types,thin_decision_shape
+/products/salomon-soft-reservoir-15/alternatives,alternatives,running,thin,no,no,published,need ≥3 alternatives (have 2),thin_decision_shape
+/products/salomon-xa-15/alternatives,alternatives,running,substantive,no,yes,published,alternatives_category_noindex,alt_category_or_vertical_hold
+/products/saltstick-caps/alternatives,alternatives,running,substantive,no,yes,published,alternatives_category_noindex,alt_category_or_vertical_hold
+/products/saltstick-fastchews/alternatives,alternatives,running,substantive,no,yes,published,alternatives_category_noindex,alt_category_or_vertical_hold
+/products/saucony-xodus-ultra-3/alternatives,alternatives,running,thin,no,no,published,need ≥3 alternatives (have 2),thin_decision_shape
+/products/schwinn-airdyne-ad8,product,fitness,NEEDS_MINOR_WORK,no,no,published,vertical_hold:fitness:selective,vertical_hold
+/products/scosche-rhythm-plus-2/alternatives,alternatives,running,thin,no,no,published,need ≥2 distinct alternative types,thin_decision_shape
+/products/scosche-rhythm24/alternatives,alternatives,running,thin,no,no,published,need ≥2 distinct alternative types,thin_decision_shape
+/products/selkirk-ampsed-epic,product,sport-pickleball,NEEDS_MINOR_WORK,no,no,published,vertical_hold:sport-pickleball:disabled,vertical_hold
+/products/shokz-opendots-one/alternatives,alternatives,running,substantive,no,yes,published,alternatives_category_noindex,alt_category_or_vertical_hold
+/products/shokz-openfit-2/alternatives,alternatives,running,substantive,no,yes,published,alternatives_category_noindex,alt_category_or_vertical_hold
+/products/shokz-openrun-pro-2/alternatives,alternatives,running,substantive,no,yes,published,alternatives_category_noindex,alt_category_or_vertical_hold
+/products/shokz-openrun/alternatives,alternatives,running,substantive,no,yes,published,alternatives_category_noindex,alt_category_or_vertical_hold
+/products/silva-trail-runner-free-2/alternatives,alternatives,running,thin,no,no,published,need ≥3 alternatives (have 2),thin_decision_shape
+/products/sis-beta-fuel-drink/alternatives,alternatives,running,substantive,no,yes,published,alternatives_category_noindex,alt_category_or_vertical_hold
+/products/sis-beta-fuel-gel/alternatives,alternatives,running,substantive,no,yes,published,alternatives_category_noindex,alt_category_or_vertical_hold
+/products/sis-go-isotonic-gel/alternatives,alternatives,running,substantive,no,yes,published,alternatives_category_noindex,alt_category_or_vertical_hold
+/products/siux-diablo-revolution-2026,product,padel,LAUNCH_READY,no,yes,published,vertical_hold:padel:disabled,vertical_hold
+/products/skierg2-wall-mount,product,fitness,NEEDS_MINOR_WORK,no,no,published,vertical_hold:fitness:selective,vertical_hold
+/products/skratch-sport-energy-chews/alternatives,alternatives,running,substantive,no,yes,published,alternatives_category_noindex,alt_category_or_vertical_hold
+/products/skratch-sport-hydration-mix/alternatives,alternatives,running,substantive,no,yes,published,alternatives_category_noindex,alt_category_or_vertical_hold
+/products/smartwool-run-targeted-cushion/alternatives,alternatives,running,thin,no,no,published,need ≥3 alternatives (have 2),thin_decision_shape
+/products/smartwool-thermal-merino-glove/alternatives,alternatives,running,thin,no,no,published,need ≥3 alternatives (have 2),thin_decision_shape
+/products/smith-attack-mag/alternatives,alternatives,running,substantive,no,yes,published,alternatives_category_noindex,alt_category_or_vertical_hold
+/products/smith-shift-mag/alternatives,alternatives,running,substantive,no,yes,published,alternatives_category_noindex,alt_category_or_vertical_hold
+/products/sole-f80-treadmill,product,fitness,LAUNCH_READY,no,yes,published,vertical_hold:fitness:selective,vertical_hold
+/products/sole-f80-treadmill/alternatives,alternatives,fitness,substantive,no,yes,published,parent_product_hidden,alt_category_or_vertical_hold
+/products/solinco-hyper-g,product,tennis,NEEDS_MINOR_WORK,no,no,published,vertical_hold:tennis:disabled,vertical_hold
+/products/soundcore-aerofit-2/alternatives,alternatives,running,substantive,no,yes,published,alternatives_category_noindex,alt_category_or_vertical_hold
+/products/soundcore-sport-x20/alternatives,alternatives,running,thin,no,no,published,need ≥2 distinct alternative types,thin_decision_shape
+/products/spibelt-original/alternatives,alternatives,running,substantive,no,yes,published,alternatives_category_noindex,alt_category_or_vertical_hold
+/products/spring-energy-awesome-sauce/alternatives,alternatives,running,substantive,no,yes,published,alternatives_category_noindex,alt_category_or_vertical_hold
+/products/squirrels-nut-butter/alternatives,alternatives,running,thin,no,no,published,need ≥3 alternatives (have 2),thin_decision_shape
+/products/starvie-basalto-osiris-2026,product,padel,NEEDS_MINOR_WORK,no,no,published,vertical_hold:padel:disabled,vertical_hold
+/products/starvie-titania-kepler-2026,product,padel,LAUNCH_READY,no,yes,published,vertical_hold:padel:disabled,vertical_hold
+/products/starvie-titania-kepler-2026/alternatives,alternatives,padel,thin,no,no,published,parent_product_hidden,thin_decision_shape
+/products/styrkr-gel30/alternatives,alternatives,running,thin,no,no,published,need ≥2 distinct alternative types,thin_decision_shape
+/products/styrkr-mix90/alternatives,alternatives,running,substantive,no,yes,published,alternatives_category_noindex,alt_category_or_vertical_hold
+/products/suunto-race-s/alternatives,alternatives,running,thin,no,no,published,need ≥3 alternatives (have 2),thin_decision_shape
+/products/suunto-wing/alternatives,alternatives,running,substantive,no,yes,published,alternatives_category_noindex,alt_category_or_vertical_hold
+/products/swiftwick-aspire-four/alternatives,alternatives,running,substantive,no,yes,published,alternatives_category_noindex,alt_category_or_vertical_hold
+/products/tailwind-endurance-fuel/alternatives,alternatives,running,thin,no,no,published,need ≥2 distinct alternative types,thin_decision_shape
+/products/tecnifibre-black-code-1-28,product,tennis,NEEDS_MINOR_WORK,no,no,published,vertical_hold:tennis:disabled,vertical_hold
+/products/tecnifibre-tf40-305,product,tennis,LAUNCH_READY,no,yes,published,vertical_hold:tennis:disabled,vertical_hold
+/products/tecnifibre-tf40-305/alternatives,alternatives,tennis,thin,no,no,published,parent_product_hidden,thin_decision_shape
+/products/tecnifibre-tfight-300s-2025,product,tennis,NEEDS_MINOR_WORK,no,no,published,vertical_hold:tennis:disabled,vertical_hold
+/products/tecnifibre-wall-breaker-365,product,padel,NEEDS_MINOR_WORK,no,no,published,vertical_hold:padel:disabled,vertical_hold
+/products/tecnifibre-wall-shooter,product,padel,NEEDS_MINOR_WORK,no,no,published,vertical_hold:padel:disabled,vertical_hold
+/products/tecnifibre-x-one-biphase,product,tennis,NEEDS_MINOR_WORK,no,no,published,vertical_hold:tennis:disabled,vertical_hold
+/products/therabody-theragun-mini-2/alternatives,alternatives,running,thin,no,no,published,need ≥3 alternatives (have 2),thin_decision_shape
+/products/therabody-theragun-prime/alternatives,alternatives,running,thin,no,no,published,need ≥2 distinct alternative types,thin_decision_shape
+/products/therabody-theragun-pro/alternatives,alternatives,running,thin,no,no,published,need ≥3 alternatives (have 2),thin_decision_shape
+/products/tifosi-rail/alternatives,alternatives,running,substantive,no,yes,published,alternatives_category_noindex,alt_category_or_vertical_hold
+/products/tifosi-vogel/alternatives,alternatives,running,substantive,no,yes,published,alternatives_category_noindex,alt_category_or_vertical_hold
+/products/topo-athletic-phantom-3/alternatives,alternatives,running,thin,no,no,published,need ≥2 distinct alternative types,thin_decision_shape
+/products/topo-athletic-specter-2/alternatives,alternatives,running,thin,no,no,published,need ≥3 alternatives (have 2),thin_decision_shape
+/products/tracksmith-brighton-ls-men/alternatives,alternatives,running,thin,no,no,published,need ≥3 alternatives (have 2),thin_decision_shape
+/products/tracksmith-session-short-men/alternatives,alternatives,running,substantive,no,yes,published,alternatives_category_noindex,alt_category_or_vertical_hold
+/products/tracksmith-session-short-women/alternatives,alternatives,running,thin,no,no,published,need ≥2 distinct alternative types,thin_decision_shape
+/products/tracksmith-turnover-tight-women/alternatives,alternatives,running,substantive,no,yes,published,alternatives_category_noindex,alt_category_or_vertical_hold
+/products/tracksmith-twilight-half-men/alternatives,alternatives,running,substantive,no,yes,published,alternatives_category_noindex,alt_category_or_vertical_hold
+/products/tracksmith-van-cortlandt-tee-men/alternatives,alternatives,running,thin,no,no,published,need ≥2 distinct alternative types,thin_decision_shape
+/products/triggerpoint-grid-travel/alternatives,alternatives,running,thin,no,no,published,need ≥3 alternatives (have 1),thin_decision_shape
+/products/triggerpoint-grid-x/alternatives,alternatives,running,thin,no,no,published,need ≥3 alternatives (have 1),thin_decision_shape
+/products/tyr-cxt-1,product,fitness,LAUNCH_READY,no,yes,published,vertical_hold:fitness:selective,vertical_hold
+/products/tyr-cxt-2,product,fitness,LAUNCH_READY,no,yes,published,vertical_hold:fitness:selective,vertical_hold
+/products/tyr-cxt1-trainer,product,fitness,NEEDS_MINOR_WORK,no,no,published,vertical_hold:fitness:selective,vertical_hold
+/products/ua-charged-commit-4,product,fitness,NEEDS_MINOR_WORK,no,no,published,vertical_hold:fitness:selective,vertical_hold
+/products/ua-project-rock-bsr-4,product,fitness,NEEDS_MINOR_WORK,no,no,published,vertical_hold:fitness:selective,vertical_hold
+/products/ua-reign-lifter,product,fitness,NEEDS_MINOR_WORK,no,no,published,vertical_hold:fitness:selective,vertical_hold
+/products/ua-tribase-reign-6,product,fitness,LAUNCH_READY,no,yes,published,vertical_hold:fitness:selective,vertical_hold
+/products/ultimate-direction-adventure-vest/alternatives,alternatives,running,substantive,no,yes,published,alternatives_category_noindex,alt_category_or_vertical_hold
+/products/ultimate-direction-body-bottle-500/alternatives,alternatives,running,thin,no,no,published,need ≥2 distinct alternative types,thin_decision_shape
+/products/ultimate-direction-fastpack-20/alternatives,alternatives,running,substantive,no,yes,published,alternatives_category_noindex,alt_category_or_vertical_hold
+/products/ultimate-direction-fastpack-30/alternatives,alternatives,running,substantive,no,yes,published,alternatives_category_noindex,alt_category_or_vertical_hold
+/products/ultimate-direction-fastpack-her-20/alternatives,alternatives,running,substantive,no,yes,published,alternatives_category_noindex,alt_category_or_vertical_hold
+/products/ultimate-direction-race-belt/alternatives,alternatives,running,substantive,no,yes,published,alternatives_category_noindex,alt_category_or_vertical_hold
+/products/ultimate-direction-race-vest-6/alternatives,alternatives,running,substantive,no,yes,published,alternatives_category_noindex,alt_category_or_vertical_hold
+/products/ultimate-direction-ultra-belt/alternatives,alternatives,running,substantive,no,yes,published,alternatives_category_noindex,alt_category_or_vertical_hold
+/products/ultimate-direction-utility-bag/alternatives,alternatives,running,substantive,no,yes,published,alternatives_category_noindex,alt_category_or_vertical_hold
+/products/ultraspire-alpha-6/alternatives,alternatives,running,substantive,no,yes,published,alternatives_category_noindex,alt_category_or_vertical_hold
+/products/ultraspire-fitted-race-belt-2/alternatives,alternatives,running,substantive,no,yes,published,alternatives_category_noindex,alt_category_or_vertical_hold
+/products/ultraspire-spry-5/alternatives,alternatives,running,substantive,no,yes,published,alternatives_category_noindex,alt_category_or_vertical_hold
+/products/uswe-pace-8/alternatives,alternatives,running,substantive,no,yes,published,alternatives_category_noindex,alt_category_or_vertical_hold
+/products/varlion-bourne-padel,product,padel,NEEDS_MINOR_WORK,no,no,published,vertical_hold:padel:disabled,vertical_hold
+/products/varlion-lw-carbon-difusor-2026,product,padel,LAUNCH_READY,no,yes,published,vertical_hold:padel:disabled,vertical_hold
+/products/varlion-lw-carbon-difusor-2026/alternatives,alternatives,padel,thin,no,no,published,parent_product_hidden,thin_decision_shape
+/products/veloforte-energy-bar/alternatives,alternatives,running,substantive,no,yes,published,alternatives_category_noindex,alt_category_or_vertical_hold
+/products/veloforte-energy-chews/alternatives,alternatives,running,substantive,no,yes,published,alternatives_category_noindex,alt_category_or_vertical_hold
+/products/victor-thruster-k-falcon,product,sport-badminton,NEEDS_MINOR_WORK,no,no,published,vertical_hold:sport-badminton:disabled,vertical_hold
+/products/vivobarefoot-primus-lite-iii,product,fitness,NEEDS_MINOR_WORK,no,no,published,vertical_hold:fitness:selective,vertical_hold
+/products/wahoo-tickr/alternatives,alternatives,running,thin,no,no,published,need ≥2 distinct alternative types,thin_decision_shape
+/products/waterrower-a1,product,fitness,NEEDS_MINOR_WORK,no,no,published,vertical_hold:fitness:selective,vertical_hold
+/products/wilson-bela-pro-padel,product,padel,NEEDS_MINOR_WORK,no,no,published,vertical_hold:padel:disabled,vertical_hold
+/products/wilson-bela-pro-v2-2026,product,padel,NEEDS_MINOR_WORK,no,no,published,vertical_hold:padel:disabled,vertical_hold
+/products/wilson-bela-pro-v2-2026/alternatives,alternatives,padel,thin,no,no,published,parent_product_hidden,thin_decision_shape
+/products/wilson-blade-100-v9,product,tennis,NEEDS_MINOR_WORK,no,no,published,vertical_hold:tennis:disabled,vertical_hold
+/products/wilson-blade-98-v8,product,tennis,LAUNCH_READY,no,yes,published,vertical_hold:tennis:disabled,vertical_hold
+/products/wilson-blade-98-v8/alternatives,alternatives,tennis,thin,no,no,published,parent_product_hidden,thin_decision_shape
+/products/wilson-blade-98-v9,product,tennis,LAUNCH_READY,no,yes,published,vertical_hold:tennis:disabled,vertical_hold
+/products/wilson-blade-98-v9/alternatives,alternatives,tennis,thin,no,no,published,parent_product_hidden,thin_decision_shape
+/products/wilson-blade-pro-v2-padel-2026,product,padel,NEEDS_MINOR_WORK,no,no,published,vertical_hold:padel:disabled,vertical_hold
+/products/wilson-clash-100-v2,product,tennis,LAUNCH_READY,no,yes,published,vertical_hold:tennis:disabled,vertical_hold
+/products/wilson-clash-100-v2/alternatives,alternatives,tennis,thin,no,no,published,parent_product_hidden,thin_decision_shape
+/products/wilson-clash-100-v3,product,tennis,LAUNCH_READY,no,yes,published,vertical_hold:tennis:disabled,vertical_hold
+/products/wilson-clash-100-v3/alternatives,alternatives,tennis,thin,no,no,published,parent_product_hidden,thin_decision_shape
+/products/wilson-nxt,product,tennis,NEEDS_MINOR_WORK,no,no,published,vertical_hold:tennis:disabled,vertical_hold
+/products/wilson-padel-overgrip-pack,product,padel,THIN,no,no,published,vertical_hold:padel:disabled,vertical_hold
+/products/wilson-rush-pro-4-0,product,tennis,NEEDS_MINOR_WORK,no,no,published,vertical_hold:tennis:disabled,vertical_hold
+/products/wilson-rush-pro-5-0,product,tennis,NEEDS_MINOR_WORK,no,no,published,vertical_hold:tennis:disabled,vertical_hold
+/products/wilson-rush-pro-5-padel,product,padel,NEEDS_MINOR_WORK,no,no,published,vertical_hold:padel:disabled,vertical_hold
+/products/wilson-rush-pro-ace,product,tennis,NEEDS_MINOR_WORK,no,no,published,vertical_hold:tennis:disabled,vertical_hold
+/products/woodway-curve-trainer,product,fitness,NEEDS_MINOR_WORK,no,no,published,vertical_hold:fitness:selective,vertical_hold
+/products/wrightsock-coolmesh-ii/alternatives,alternatives,running,thin,no,no,published,need ≥2 distinct alternative types,thin_decision_shape
+/products/xebex-ski-erg,product,fitness,NEEDS_MINOR_WORK,no,no,published,vertical_hold:fitness:selective,vertical_hold
+/products/xero-prio,product,fitness,NEEDS_MINOR_WORK,no,no,published,vertical_hold:fitness:selective,vertical_hold
+/products/yonex-arcsaber-11-pro,product,sport-badminton,NEEDS_MINOR_WORK,no,no,published,vertical_hold:sport-badminton:disabled,vertical_hold
+/products/yonex-astrox-88d-pro,product,sport-badminton,NEEDS_MINOR_WORK,no,no,published,vertical_hold:sport-badminton:disabled,vertical_hold
+/products/yonex-astrox-99-pro,product,sport-badminton,NEEDS_MINOR_WORK,no,no,published,vertical_hold:sport-badminton:disabled,vertical_hold
+/products/yonex-ezone-100-2025,product,tennis,LAUNCH_READY,no,yes,published,vertical_hold:tennis:disabled,vertical_hold
+/products/yonex-ezone-100-2025/alternatives,alternatives,tennis,thin,no,no,published,parent_product_hidden,thin_decision_shape
+/products/yonex-ezone-98-2024,product,tennis,LAUNCH_READY,no,yes,published,vertical_hold:tennis:disabled,vertical_hold
+/products/yonex-ezone-98-2024/alternatives,alternatives,tennis,thin,no,no,published,parent_product_hidden,thin_decision_shape
+/products/yonex-nanoflare-800-pro,product,sport-badminton,NEEDS_MINOR_WORK,no,no,published,vertical_hold:sport-badminton:disabled,vertical_hold
+/products/yonex-power-cushion-eclipsion-5,product,tennis,NEEDS_MINOR_WORK,no,no,published,vertical_hold:tennis:disabled,vertical_hold
+/products/yonex-power-cushion-sonicage-3,product,tennis,NEEDS_MINOR_WORK,no,no,published,vertical_hold:tennis:disabled,vertical_hold
+/products/yonex-vcore-100-2023,product,tennis,LAUNCH_READY,no,yes,published,vertical_hold:tennis:disabled,vertical_hold
+/products/yonex-vcore-98-2026,product,tennis,LAUNCH_READY,no,yes,published,vertical_hold:tennis:disabled,vertical_hold
+/products/yonex-vcore-98-2026/alternatives,alternatives,tennis,thin,no,no,published,parent_product_hidden,thin_decision_shape
+/reviews/adidas-adipower-weightlifting-2,review,,LAUNCH_READY,no,yes,published,vertical_hold:fitness:selective,vertical_hold
+/reviews/adidas-adipower-weightlifting-3,review,,LAUNCH_READY,no,yes,published,vertical_hold:fitness:selective,vertical_hold
+/reviews/adidas-barricade-13,review,,LAUNCH_READY,no,yes,published,vertical_hold:tennis:disabled,vertical_hold
+/reviews/adidas-courtjam-control-3,review,,LAUNCH_READY,no,yes,published,vertical_hold:tennis:disabled,vertical_hold
+/reviews/adidas-courtquick-padel-women,review,,LAUNCH_READY,no,yes,published,vertical_hold:padel:disabled,vertical_hold
+/reviews/adidas-courtstabil-padel,review,,LAUNCH_READY,no,yes,published,vertical_hold:padel:disabled,vertical_hold
+/reviews/adidas-crazyquick-boost-padel,review,,LAUNCH_READY,no,yes,published,vertical_hold:padel:disabled,vertical_hold
+/reviews/adidas-crazyquick-boost-padel-women,review,,LAUNCH_READY,no,yes,published,vertical_hold:padel:disabled,vertical_hold
+/reviews/adidas-dropset-2,review,,LAUNCH_READY,no,yes,published,vertical_hold:fitness:selective,vertical_hold
+/reviews/adidas-dropset-3,review,,LAUNCH_READY,no,yes,published,vertical_hold:fitness:selective,vertical_hold
+/reviews/adidas-metalbone-2026,review,,LAUNCH_READY,no,yes,published,vertical_hold:padel:disabled,vertical_hold
+/reviews/adidas-metalbone-hrd-2026,review,,LAUNCH_READY,no,yes,published,vertical_hold:padel:disabled,vertical_hold
+/reviews/adidas-powerlift-5,review,,LAUNCH_READY,no,yes,published,vertical_hold:fitness:selective,vertical_hold
+/reviews/adidas-rapidmove-adv,review,,LAUNCH_READY,no,yes,published,vertical_hold:fitness:selective,vertical_hold
+/reviews/adidas-solematch-control-2,review,,LAUNCH_READY,no,yes,published,vertical_hold:tennis:disabled,vertical_hold
+/reviews/adidas-the-total,review,,LAUNCH_READY,no,yes,published,vertical_hold:fitness:selective,vertical_hold
+/reviews/asics-game-ff-padel,review,,LAUNCH_READY,no,yes,published,vertical_hold:padel:disabled,vertical_hold
+/reviews/asics-gel-challenger-15,review,,LAUNCH_READY,no,yes,published,vertical_hold:tennis:disabled,vertical_hold
+/reviews/asics-gel-challenger-court,review,,LAUNCH_READY,no,yes,published,vertical_hold:padel:disabled,vertical_hold
+/reviews/asics-gel-dedicate-8,review,,LAUNCH_READY,no,yes,published,vertical_hold:tennis:disabled,vertical_hold
+/reviews/asics-gel-dedicate-8-padel,review,,LAUNCH_READY,no,yes,published,vertical_hold:padel:disabled,vertical_hold
+/reviews/asics-gel-quantum-360-8,review,,LAUNCH_READY,no,yes,published,vertical_hold:fitness:selective,vertical_hold
+/reviews/asics-gel-resolution-9,review,,LAUNCH_READY,no,yes,published,vertical_hold:tennis:disabled,vertical_hold
+/reviews/asics-gel-resolution-9-clay,review,,LAUNCH_READY,no,yes,published,vertical_hold:tennis:disabled,vertical_hold
+/reviews/asics-gel-resolution-padel,review,,LAUNCH_READY,no,yes,published,vertical_hold:padel:disabled,vertical_hold
+/reviews/asics-solution-speed-ff-3,review,,LAUNCH_READY,no,yes,published,vertical_hold:tennis:disabled,vertical_hold
+/reviews/asics-solution-swift-ff2-padel,review,,LAUNCH_READY,no,yes,published,vertical_hold:padel:disabled,vertical_hold
+/reviews/assaultbike-classic,review,,LAUNCH_READY,no,yes,published,vertical_hold:fitness:selective,vertical_hold
+/reviews/assaultbike-elite,review,,LAUNCH_READY,no,yes,published,vertical_hold:fitness:selective,vertical_hold
+/reviews/atx-cast-iron-plate-set,review,,LAUNCH_READY,no,yes,published,vertical_hold:fitness:selective,vertical_hold
+/reviews/atx-fid-bench,review,,LAUNCH_READY,no,yes,published,vertical_hold:fitness:selective,vertical_hold
+/reviews/babolat-counter-viper-2026,review,,LAUNCH_READY,no,yes,published,vertical_hold:padel:disabled,vertical_hold
+/reviews/babolat-jet-mach-3,review,,LAUNCH_READY,no,yes,published,vertical_hold:tennis:disabled,vertical_hold
+/reviews/babolat-jet-premura,review,,LAUNCH_READY,no,yes,published,vertical_hold:padel:disabled,vertical_hold
+/reviews/babolat-movea-2,review,,LAUNCH_READY,no,yes,published,vertical_hold:padel:disabled,vertical_hold
+/reviews/babolat-pure-aero-2023,review,,LAUNCH_READY,no,yes,published,vertical_hold:tennis:disabled,vertical_hold
+/reviews/babolat-pure-aero-2026,review,,LAUNCH_READY,no,yes,published,vertical_hold:tennis:disabled,vertical_hold
+/reviews/babolat-pure-drive-2025,review,,LAUNCH_READY,no,yes,published,vertical_hold:tennis:disabled,vertical_hold
+/reviews/babolat-pure-drive-gen11,review,,LAUNCH_READY,no,yes,published,vertical_hold:tennis:disabled,vertical_hold
+/reviews/babolat-sensa-women,review,,LAUNCH_READY,no,yes,published,vertical_hold:padel:disabled,vertical_hold
+/reviews/babolat-technical-viper-2026,review,,LAUNCH_READY,no,yes,published,vertical_hold:padel:disabled,vertical_hold
+/reviews/black-crown-special-one-soft,review,,LAUNCH_READY,no,yes,published,vertical_hold:padel:disabled,vertical_hold
+/reviews/blackroll-ball,review,,LAUNCH_READY,no,yes,published,vertical_hold:fitness:selective,vertical_hold
+/reviews/blackroll-duoball,review,,LAUNCH_READY,no,yes,published,vertical_hold:fitness:selective,vertical_hold
+/reviews/blackroll-med,review,,LAUNCH_READY,no,yes,published,vertical_hold:fitness:selective,vertical_hold
+/reviews/blackroll-standard,review,,LAUNCH_READY,no,yes,published,vertical_hold:fitness:selective,vertical_hold
+/reviews/bowflex-selecttech-1090,review,,LAUNCH_READY,no,yes,published,vertical_hold:fitness:selective,vertical_hold
+/reviews/bowflex-selecttech-552,review,,LAUNCH_READY,no,yes,published,vertical_hold:fitness:selective,vertical_hold
+/reviews/bullpadel-hack-03,review,,LAUNCH_READY,no,yes,published,vertical_hold:padel:disabled,vertical_hold
+/reviews/bullpadel-hack-04-2026,review,,LAUNCH_READY,no,yes,published,vertical_hold:padel:disabled,vertical_hold
+/reviews/bullpadel-hybrid-fly,review,,LAUNCH_READY,no,yes,published,vertical_hold:padel:disabled,vertical_hold
+/reviews/bullpadel-ionic-woman,review,,LAUNCH_READY,no,yes,published,vertical_hold:padel:disabled,vertical_hold
+/reviews/bullpadel-vertex-04,review,,LAUNCH_READY,no,yes,published,vertical_hold:padel:disabled,vertical_hold
+/reviews/bullpadel-vertex-05-2026,review,,LAUNCH_READY,no,yes,published,vertical_hold:padel:disabled,vertical_hold
+/reviews/concept2-bikeerg,review,,LAUNCH_READY,no,yes,published,vertical_hold:fitness:selective,vertical_hold
+/reviews/concept2-rowerg,review,,LAUNCH_READY,no,yes,published,vertical_hold:fitness:selective,vertical_hold
+/reviews/concept2-rowerg-dynamic,review,,LAUNCH_READY,no,yes,published,vertical_hold:fitness:selective,vertical_hold
+/reviews/concept2-skierg,review,,LAUNCH_READY,no,yes,published,vertical_hold:fitness:selective,vertical_hold
+/reviews/concept2-skierg-floor-stand,review,,LAUNCH_READY,no,yes,published,vertical_hold:fitness:selective,vertical_hold
+/reviews/concept2-skierg-with-stand,review,,LAUNCH_READY,no,yes,published,vertical_hold:fitness:selective,vertical_hold
+/reviews/do-win-classic,review,,LAUNCH_READY,no,yes,published,vertical_hold:fitness:selective,vertical_hold
+/reviews/drop-shot-canyon-pro-2026,review,,LAUNCH_READY,no,yes,published,vertical_hold:padel:disabled,vertical_hold
+/reviews/dunlop-cx-200,review,,LAUNCH_READY,no,yes,published,vertical_hold:tennis:disabled,vertical_hold
+/reviews/eleiko-kettlebell,review,,LAUNCH_READY,no,yes,published,vertical_hold:fitness:selective,vertical_hold
+/reviews/eleiko-performance-weightlifting-bar,review,,LAUNCH_READY,no,yes,published,vertical_hold:fitness:selective,vertical_hold
+/reviews/eleiko-sport-bumper-set,review,,LAUNCH_READY,no,yes,published,vertical_hold:fitness:selective,vertical_hold
+/reviews/eleiko-sport-collars,review,,LAUNCH_READY,no,yes,published,vertical_hold:fitness:selective,vertical_hold
+/reviews/eleiko-xf-bar,review,,LAUNCH_READY,no,yes,published,vertical_hold:fitness:selective,vertical_hold
+/reviews/gornation-gymnastic-rings,review,,LAUNCH_READY,no,yes,published,vertical_hold:fitness:selective,vertical_hold
+/reviews/gornation-parallettes-pro,review,,LAUNCH_READY,no,yes,published,vertical_hold:fitness:selective,vertical_hold
+/reviews/gornation-premium-pull-up-bar,review,,LAUNCH_READY,no,yes,published,vertical_hold:fitness:selective,vertical_hold
+/reviews/gravity-fitness-gymnastic-rings,review,,LAUNCH_READY,no,yes,published,vertical_hold:fitness:selective,vertical_hold
+/reviews/gravity-fitness-parallettes,review,,LAUNCH_READY,no,yes,published,vertical_hold:fitness:selective,vertical_hold
+/reviews/gravity-fitness-pull-up-station,review,,LAUNCH_READY,no,yes,published,vertical_hold:fitness:selective,vertical_hold
+/reviews/gravity-fitness-weighted-vest,review,,LAUNCH_READY,no,yes,published,vertical_hold:fitness:selective,vertical_hold
+/reviews/head-coello-pro-2026,review,,LAUNCH_READY,no,yes,published,vertical_hold:padel:disabled,vertical_hold
+/reviews/head-extreme-motion-2026,review,,LAUNCH_READY,no,yes,published,vertical_hold:padel:disabled,vertical_hold
+/reviews/head-extreme-pro-padel-2026,review,,LAUNCH_READY,no,yes,published,vertical_hold:padel:disabled,vertical_hold
+/reviews/head-padel-pro-s-balls,review,,LAUNCH_READY,no,yes,published,vertical_hold:padel:disabled,vertical_hold
+/reviews/head-radical-mp-2023,review,,LAUNCH_READY,no,yes,published,vertical_hold:tennis:disabled,vertical_hold
+/reviews/head-revolt-pro-court,review,,LAUNCH_READY,no,yes,published,vertical_hold:padel:disabled,vertical_hold
+/reviews/head-speed-mp-2024,review,,LAUNCH_READY,no,yes,published,vertical_hold:tennis:disabled,vertical_hold
+/reviews/head-speed-mp-2026,review,,LAUNCH_READY,no,yes,published,vertical_hold:tennis:disabled,vertical_hold
+/reviews/head-sprint-pro-4-padel,review,,LAUNCH_READY,no,yes,published,vertical_hold:padel:disabled,vertical_hold
+/reviews/hoka-transport,review,,LAUNCH_READY,no,yes,published,vertical_hold:fitness:selective,vertical_hold
+/reviews/horizon-t202-treadmill,review,,LAUNCH_READY,no,yes,published,vertical_hold:fitness:selective,vertical_hold
+/reviews/hydrow-wave,review,,LAUNCH_READY,no,yes,published,vertical_hold:fitness:selective,vertical_hold
+/reviews/inov8-f-lite-235-v3,review,,LAUNCH_READY,no,yes,published,vertical_hold:fitness:selective,vertical_hold
+/reviews/inov8-f-lite-260,review,,LAUNCH_READY,no,yes,published,vertical_hold:fitness:selective,vertical_hold
+/reviews/inov8-fastlift-360,review,,LAUNCH_READY,no,yes,published,vertical_hold:fitness:selective,vertical_hold
+/reviews/inov8-fastlift-400,review,,LAUNCH_READY,no,yes,published,vertical_hold:fitness:selective,vertical_hold
+/reviews/inov8-fastlift-power-g-380,review,,LAUNCH_READY,no,yes,published,vertical_hold:fitness:selective,vertical_hold
+/reviews/joma-slam-lady,review,,LAUNCH_READY,no,yes,published,vertical_hold:padel:disabled,vertical_hold
+/reviews/joma-spin-men,review,,LAUNCH_READY,no,yes,published,vertical_hold:padel:disabled,vertical_hold
+/reviews/joma-t-slam,review,,LAUNCH_READY,no,yes,published,vertical_hold:padel:disabled,vertical_hold
+/reviews/k-swiss-hypercourt-express-2,review,,LAUNCH_READY,no,yes,published,vertical_hold:tennis:disabled,vertical_hold
+/reviews/k-swiss-ultrashot-3,review,,LAUNCH_READY,no,yes,published,vertical_hold:tennis:disabled,vertical_hold
+/reviews/kuikma-pr-soft-500,review,,LAUNCH_READY,no,yes,published,vertical_hold:padel:disabled,vertical_hold
+/reviews/kuikma-ps-990,review,,LAUNCH_READY,no,yes,published,vertical_hold:padel:disabled,vertical_hold
+/reviews/lok-maxx-flow,review,,LAUNCH_READY,no,yes,published,vertical_hold:padel:disabled,vertical_hold
+/reviews/lululemon-strongfeel,review,,LAUNCH_READY,no,yes,published,vertical_hold:fitness:selective,vertical_hold
+/reviews/mirafit-air-bike,review,,LAUNCH_READY,no,yes,published,vertical_hold:fitness:selective,vertical_hold
+/reviews/mirafit-battle-rope,review,,LAUNCH_READY,no,yes,published,vertical_hold:fitness:selective,vertical_hold
+/reviews/mirafit-bumper-plate-set,review,,LAUNCH_READY,no,yes,published,vertical_hold:fitness:selective,vertical_hold
+/reviews/mirafit-cast-iron-kettlebell,review,,LAUNCH_READY,no,yes,published,vertical_hold:fitness:selective,vertical_hold
+/reviews/mirafit-fid-adjustable-bench,review,,LAUNCH_READY,no,yes,published,vertical_hold:fitness:selective,vertical_hold
+/reviews/mirafit-folding-rower,review,,LAUNCH_READY,no,yes,published,vertical_hold:fitness:selective,vertical_hold
+/reviews/mirafit-gym-mats,review,,LAUNCH_READY,no,yes,published,vertical_hold:fitness:selective,vertical_hold
+/reviews/mirafit-m3-power-rack,review,,LAUNCH_READY,no,yes,published,vertical_hold:fitness:selective,vertical_hold
+/reviews/mirafit-m4-cage,review,,LAUNCH_READY,no,yes,published,vertical_hold:fitness:selective,vertical_hold
+/reviews/mirafit-magnetic-rower,review,,LAUNCH_READY,no,yes,published,vertical_hold:fitness:selective,vertical_hold
+/reviews/mirafit-olympic-barbell,review,,LAUNCH_READY,no,yes,published,vertical_hold:fitness:selective,vertical_hold
+/reviews/mirafit-wall-pull-up-bar,review,,LAUNCH_READY,no,yes,published,vertical_hold:fitness:selective,vertical_hold
+/reviews/mirafit-weighted-vest,review,,LAUNCH_READY,no,yes,published,vertical_hold:fitness:selective,vertical_hold
+/reviews/nb-minimus-tr,review,,LAUNCH_READY,no,yes,published,vertical_hold:fitness:selective,vertical_hold
+/reviews/nike-court-vapor-pro-3,review,,LAUNCH_READY,no,yes,published,vertical_hold:tennis:disabled,vertical_hold
+/reviews/nike-free-metcon-6,review,,LAUNCH_READY,no,yes,published,vertical_hold:fitness:selective,vertical_hold
+/reviews/nike-metcon-8,review,,LAUNCH_READY,no,yes,published,vertical_hold:fitness:selective,vertical_hold
+/reviews/nike-metcon-9,review,,LAUNCH_READY,no,yes,published,vertical_hold:fitness:selective,vertical_hold
+/reviews/nike-romaleos-4,review,,LAUNCH_READY,no,yes,published,vertical_hold:fitness:selective,vertical_hold
+/reviews/nike-romaleos-5,review,,LAUNCH_READY,no,yes,published,vertical_hold:fitness:selective,vertical_hold
+/reviews/nike-savaleos,review,,LAUNCH_READY,no,yes,published,vertical_hold:fitness:selective,vertical_hold
+/reviews/nobull-outwork,review,,LAUNCH_READY,no,yes,published,vertical_hold:fitness:selective,vertical_hold
+/reviews/nobull-trainer,review,,LAUNCH_READY,no,yes,published,vertical_hold:fitness:selective,vertical_hold
+/reviews/nobull-trainer-plus,review,,LAUNCH_READY,no,yes,published,vertical_hold:fitness:selective,vertical_hold
+/reviews/nox-at10-genius-12k-alum-xtrem-2026,review,,LAUNCH_READY,no,yes,published,vertical_hold:padel:disabled,vertical_hold
+/reviews/nox-at10-genius-18k-2026,review,,LAUNCH_READY,no,yes,published,vertical_hold:padel:disabled,vertical_hold
+/reviews/nox-at10-lux,review,,LAUNCH_READY,no,yes,published,vertical_hold:padel:disabled,vertical_hold
+/reviews/nox-ml10-hexa,review,,LAUNCH_READY,no,yes,published,vertical_hold:padel:disabled,vertical_hold
+/reviews/nox-ml10-pro-cup-2026,review,,LAUNCH_READY,no,yes,published,vertical_hold:padel:disabled,vertical_hold
+/reviews/nuobell-50,review,,LAUNCH_READY,no,yes,published,vertical_hold:fitness:selective,vertical_hold
+/reviews/nuobell-80,review,,LAUNCH_READY,no,yes,published,vertical_hold:fitness:selective,vertical_hold
+/reviews/oxdog-sense-pro,review,,LAUNCH_READY,no,yes,published,vertical_hold:padel:disabled,vertical_hold
+/reviews/powerblock-elite-exp-90,review,,LAUNCH_READY,no,yes,published,vertical_hold:fitness:selective,vertical_hold
+/reviews/powerblock-pro-series-100,review,,LAUNCH_READY,no,yes,published,vertical_hold:fitness:selective,vertical_hold
+/reviews/powerblock-pro-series-50,review,,LAUNCH_READY,no,yes,published,vertical_hold:fitness:selective,vertical_hold
+/reviews/prince-textreme-tour-100p,review,,LAUNCH_READY,no,yes,published,vertical_hold:tennis:disabled,vertical_hold
+/reviews/pullup-and-dip-doorway-bar,review,,LAUNCH_READY,no,yes,published,vertical_hold:fitness:selective,vertical_hold
+/reviews/pullup-and-dip-parallettes,review,,LAUNCH_READY,no,yes,published,vertical_hold:fitness:selective,vertical_hold
+/reviews/pullup-and-dip-wall-bar,review,,LAUNCH_READY,no,yes,published,vertical_hold:fitness:selective,vertical_hold
+/reviews/puma-fuse-3,review,,LAUNCH_READY,no,yes,published,vertical_hold:fitness:selective,vertical_hold
+/reviews/puma-fuse-fasted,review,,LAUNCH_READY,no,yes,published,vertical_hold:fitness:selective,vertical_hold
+/reviews/reebok-legacy-lifter-iii,review,,LAUNCH_READY,no,yes,published,vertical_hold:fitness:selective,vertical_hold
+/reviews/reebok-lifter-pr-iii,review,,LAUNCH_READY,no,yes,published,vertical_hold:fitness:selective,vertical_hold
+/reviews/reebok-nano-court,review,,LAUNCH_READY,no,yes,published,vertical_hold:fitness:selective,vertical_hold
+/reviews/reebok-nano-x3,review,,LAUNCH_READY,no,yes,published,vertical_hold:fitness:selective,vertical_hold
+/reviews/reebok-nano-x4,review,,LAUNCH_READY,no,yes,published,vertical_hold:fitness:selective,vertical_hold
+/reviews/rep-ab-5000-zero-gap,review,,LAUNCH_READY,no,yes,published,vertical_hold:fitness:selective,vertical_hold
+/reviews/rep-ab-5200,review,,LAUNCH_READY,no,yes,published,vertical_hold:fitness:selective,vertical_hold
+/reviews/rep-apollo-athlon-rack,review,,LAUNCH_READY,no,yes,published,vertical_hold:fitness:selective,vertical_hold
+/reviews/rep-black-bumper-plate-set,review,,LAUNCH_READY,no,yes,published,vertical_hold:fitness:selective,vertical_hold
+/reviews/rep-bumper-plate-storage,review,,LAUNCH_READY,no,yes,published,vertical_hold:fitness:selective,vertical_hold
+/reviews/rep-colorado-bar,review,,LAUNCH_READY,no,yes,published,vertical_hold:fitness:selective,vertical_hold
+/reviews/rep-fb-5000-flat-bench,review,,LAUNCH_READY,no,yes,published,vertical_hold:fitness:selective,vertical_hold
+/reviews/rep-fitness-kettlebell,review,,LAUNCH_READY,no,yes,published,vertical_hold:fitness:selective,vertical_hold
+/reviews/rep-pr-4000,review,,LAUNCH_READY,no,yes,published,vertical_hold:fitness:selective,vertical_hold
+/reviews/rep-pr-5000,review,,LAUNCH_READY,no,yes,published,vertical_hold:fitness:selective,vertical_hold
+/reviews/rep-quickdraw-adjustable-dumbbells,review,,LAUNCH_READY,no,yes,published,vertical_hold:fitness:selective,vertical_hold
+/reviews/rep-slam-ball,review,,LAUNCH_READY,no,yes,published,vertical_hold:fitness:selective,vertical_hold
+/reviews/rogue-adjustable-bench-3-0,review,,LAUNCH_READY,no,yes,published,vertical_hold:fitness:selective,vertical_hold
+/reviews/rogue-dog-sled,review,,LAUNCH_READY,no,yes,published,vertical_hold:fitness:selective,vertical_hold
+/reviews/rogue-echo-bike,review,,LAUNCH_READY,no,yes,published,vertical_hold:fitness:selective,vertical_hold
+/reviews/rogue-echo-bumper-plate-set,review,,LAUNCH_READY,no,yes,published,vertical_hold:fitness:selective,vertical_hold
+/reviews/rogue-echo-kettlebell,review,,LAUNCH_READY,no,yes,published,vertical_hold:fitness:selective,vertical_hold
+/reviews/rogue-flat-utility-bench,review,,LAUNCH_READY,no,yes,published,vertical_hold:fitness:selective,vertical_hold
+/reviews/rogue-flogging-horse-stall-mat-note,review,,LAUNCH_READY,no,yes,published,vertical_hold:fitness:selective,vertical_hold
+/reviews/rogue-kettlebell,review,,LAUNCH_READY,no,yes,published,vertical_hold:fitness:selective,vertical_hold
+/reviews/rogue-monster-lite-pull-up-bar,review,,LAUNCH_READY,no,yes,published,vertical_hold:fitness:selective,vertical_hold
+/reviews/rogue-ohio-bar,review,,LAUNCH_READY,no,yes,published,vertical_hold:fitness:selective,vertical_hold
+/reviews/rogue-ohio-power-bar,review,,LAUNCH_READY,no,yes,published,vertical_hold:fitness:selective,vertical_hold
+/reviews/rogue-plate-carrier-vest,review,,LAUNCH_READY,no,yes,published,vertical_hold:fitness:selective,vertical_hold
+/reviews/rogue-plate-tree,review,,LAUNCH_READY,no,yes,published,vertical_hold:fitness:selective,vertical_hold
+/reviews/rogue-rm-4-monster-rack,review,,LAUNCH_READY,no,yes,published,vertical_hold:fitness:selective,vertical_hold
+/reviews/rogue-rml-390f,review,,LAUNCH_READY,no,yes,published,vertical_hold:fitness:selective,vertical_hold
+/reviews/rogue-sandbag,review,,LAUNCH_READY,no,yes,published,vertical_hold:fitness:selective,vertical_hold
+/reviews/rogue-sm-2c-monster-lite,review,,LAUNCH_READY,no,yes,published,vertical_hold:fitness:selective,vertical_hold
+/reviews/rogue-wall-ball,review,,LAUNCH_READY,no,yes,published,vertical_hold:fitness:selective,vertical_hold
+/reviews/rogue-wrist-wraps,review,,LAUNCH_READY,no,yes,published,vertical_hold:fitness:selective,vertical_hold
+/reviews/royal-padel-m27-poly-2026,review,,LAUNCH_READY,no,yes,published,vertical_hold:padel:disabled,vertical_hold
+/reviews/salming-race-9,review,,LAUNCH_READY,no,yes,published,vertical_hold:fitness:selective,vertical_hold
+/reviews/salming-rebel,review,,LAUNCH_READY,no,yes,published,vertical_hold:fitness:selective,vertical_hold
+/reviews/schwinn-airdyne-ad8,review,,LAUNCH_READY,no,yes,published,vertical_hold:fitness:selective,vertical_hold
+/reviews/siux-diablo-revolution-2026,review,,LAUNCH_READY,no,yes,published,vertical_hold:padel:disabled,vertical_hold
+/reviews/skierg2-wall-mount,review,,LAUNCH_READY,no,yes,published,vertical_hold:fitness:selective,vertical_hold
+/reviews/sole-f80-treadmill,review,,LAUNCH_READY,no,yes,published,vertical_hold:fitness:selective,vertical_hold
+/reviews/starvie-basalto-osiris-2026,review,,LAUNCH_READY,no,yes,published,vertical_hold:padel:disabled,vertical_hold
+/reviews/starvie-titania-kepler-2026,review,,LAUNCH_READY,no,yes,published,vertical_hold:padel:disabled,vertical_hold
+/reviews/tecnifibre-tf40-305,review,,LAUNCH_READY,no,yes,published,vertical_hold:tennis:disabled,vertical_hold
+/reviews/tecnifibre-tfight-300s-2025,review,,LAUNCH_READY,no,yes,published,vertical_hold:tennis:disabled,vertical_hold
+/reviews/tecnifibre-wall-breaker-365,review,,LAUNCH_READY,no,yes,published,vertical_hold:padel:disabled,vertical_hold
+/reviews/tyr-cxt-1,review,,LAUNCH_READY,no,yes,published,vertical_hold:fitness:selective,vertical_hold
+/reviews/tyr-cxt-2,review,,LAUNCH_READY,no,yes,published,vertical_hold:fitness:selective,vertical_hold
+/reviews/tyr-cxt1-trainer,review,,LAUNCH_READY,no,yes,published,vertical_hold:fitness:selective,vertical_hold
+/reviews/ua-charged-commit-4,review,,LAUNCH_READY,no,yes,published,vertical_hold:fitness:selective,vertical_hold
+/reviews/ua-project-rock-bsr-4,review,,LAUNCH_READY,no,yes,published,vertical_hold:fitness:selective,vertical_hold
+/reviews/ua-reign-lifter,review,,LAUNCH_READY,no,yes,published,vertical_hold:fitness:selective,vertical_hold
+/reviews/ua-tribase-reign-6,review,,LAUNCH_READY,no,yes,published,vertical_hold:fitness:selective,vertical_hold
+/reviews/varlion-lw-carbon-difusor-2026,review,,LAUNCH_READY,no,yes,published,vertical_hold:padel:disabled,vertical_hold
+/reviews/vivobarefoot-primus-lite-iii,review,,LAUNCH_READY,no,yes,published,vertical_hold:fitness:selective,vertical_hold
+/reviews/waterrower-a1,review,,LAUNCH_READY,no,yes,published,vertical_hold:fitness:selective,vertical_hold
+/reviews/wilson-bela-pro-v2-2026,review,,LAUNCH_READY,no,yes,published,vertical_hold:padel:disabled,vertical_hold
+/reviews/wilson-blade-100-v9,review,,LAUNCH_READY,no,yes,published,vertical_hold:tennis:disabled,vertical_hold
+/reviews/wilson-blade-98-v8,review,,LAUNCH_READY,no,yes,published,vertical_hold:tennis:disabled,vertical_hold
+/reviews/wilson-blade-98-v9,review,,LAUNCH_READY,no,yes,published,vertical_hold:tennis:disabled,vertical_hold
+/reviews/wilson-blade-pro-v2-padel-2026,review,,LAUNCH_READY,no,yes,published,vertical_hold:padel:disabled,vertical_hold
+/reviews/wilson-clash-100-v2,review,,LAUNCH_READY,no,yes,published,vertical_hold:tennis:disabled,vertical_hold
+/reviews/wilson-clash-100-v3,review,,LAUNCH_READY,no,yes,published,vertical_hold:tennis:disabled,vertical_hold
+/reviews/wilson-padel-overgrip-pack,review,,LAUNCH_READY,no,yes,published,vertical_hold:padel:disabled,vertical_hold
+/reviews/wilson-rush-pro-4-0,review,,LAUNCH_READY,no,yes,published,vertical_hold:tennis:disabled,vertical_hold
+/reviews/wilson-rush-pro-5-padel,review,,LAUNCH_READY,no,yes,published,vertical_hold:padel:disabled,vertical_hold
+/reviews/wilson-rush-pro-ace,review,,LAUNCH_READY,no,yes,published,vertical_hold:tennis:disabled,vertical_hold
+/reviews/woodway-curve-trainer,review,,LAUNCH_READY,no,yes,published,vertical_hold:fitness:selective,vertical_hold
+/reviews/xebex-ski-erg,review,,LAUNCH_READY,no,yes,published,vertical_hold:fitness:selective,vertical_hold
+/reviews/xero-prio,review,,LAUNCH_READY,no,yes,published,vertical_hold:fitness:selective,vertical_hold
+/reviews/yonex-ezone-100-2025,review,,LAUNCH_READY,no,yes,published,vertical_hold:tennis:disabled,vertical_hold
+/reviews/yonex-ezone-98-2024,review,,LAUNCH_READY,no,yes,published,vertical_hold:tennis:disabled,vertical_hold
+/reviews/yonex-vcore-100-2023,review,,LAUNCH_READY,no,yes,published,vertical_hold:tennis:disabled,vertical_hold
+/reviews/yonex-vcore-98-2026,review,,LAUNCH_READY,no,yes,published,vertical_hold:tennis:disabled,vertical_hold
+/squash/rackets,category,sport-squash,no_config,no,no,published,soft_gated,soft_gated_category
+/tennis/rackets,category,tennis,no_config,no,no,published,vertical_hub_hold:tennis:disabled,vertical_hold
+/tennis/shoes,category,tennis,no_config,no,no,published,vertical_hub_hold:tennis:disabled,vertical_hold
+/tennis/strings,category,tennis,no_config,no,no,published,vertical_hub_hold:tennis:disabled,vertical_hold
+/tools/adjustable-dumbbell-finder,tool,fitness,available,no,yes,published,vertical_hold:fitness:selective,vertical_hold
+/tools/home-gym-builder,tool,fitness,available,no,yes,published,vertical_hold:fitness:selective,vertical_hold
+/tools/hyrox-race-kit-builder,tool,fitness,available,no,yes,published,vertical_hold:fitness:selective,vertical_hold
+/tools/hyrox-race-time-calculator,tool,fitness,available,no,yes,published,vertical_hold:fitness:selective,vertical_hold
+/tools/hyrox-shoe-finder,tool,fitness,available,no,yes,published,vertical_hold:fitness:selective,vertical_hold
+/tools/one-rep-max-calculator,tool,fitness,available,no,yes,published,vertical_hold:fitness:selective,vertical_hold
+/tools/padel-racket-finder,tool,padel,available,no,yes,published,vertical_hold:padel:disabled,vertical_hold
+/tools/plate-calculator,tool,fitness,available,no,yes,published,vertical_hold:fitness:selective,vertical_hold
+/tools/power-rack-finder,tool,fitness,available,no,yes,published,vertical_hold:fitness:selective,vertical_hold
+/tools/pull-up-bar-finder,tool,fitness,available,no,yes,published,vertical_hold:fitness:selective,vertical_hold
+/tools/tennis-racket-finder,tool,tennis,available,no,yes,published,vertical_hold:tennis:disabled,vertical_hold
+/tools/training-shoe-finder,tool,fitness,available,no,yes,published,vertical_hold:fitness:selective,vertical_hold
+/tools/treadmill-finder,tool,fitness,available,no,yes,published,vertical_hold:fitness:selective,vertical_hold

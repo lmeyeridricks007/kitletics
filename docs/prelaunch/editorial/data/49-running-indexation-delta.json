@@ -1,0 +1,88 @@
+{
+  "generatedAt": "2026-09-09T21:29:38.251Z",
+  "uniquenessHoldCount": {
+    "before": 472,
+    "after": 383
+  },
+  "alternativesHoldCount": {
+    "before": 15,
+    "after": 0
+  },
+  "byType": {
+    "review": {
+      "runningReady": {
+        "before": 96,
+        "after": 169
+      },
+      "runningIndexable": {
+        "before": 96,
+        "after": 169,
+        "delta": 73
+      },
+      "runningReadyNotIndexable": {
+        "before": 0,
+        "after": 0
+      }
+    },
+    "best": {
+      "runningReady": {
+        "before": 44,
+        "after": 44
+      },
+      "runningIndexable": {
+        "before": 44,
+        "after": 44,
+        "delta": 0
+      },
+      "runningReadyNotIndexable": {
+        "before": 0,
+        "after": 0
+      }
+    },
+    "guide": {
+      "runningReady": {
+        "before": 35,
+        "after": 35
+      },
+      "runningIndexable": {
+        "before": 35,
+        "after": 35,
+        "delta": 0
+      },
+      "runningReadyNotIndexable": {
+        "before": 0,
+        "after": 0
+      }
+    },
+    "comparison": {
+      "runningReady": {
+        "before": 65,
+        "after": 65
+      },
+      "runningIndexable": {
+        "before": 65,
+        "after": 65,
+        "delta": 0
+      },
+      "runningReadyNotIndexable": {
+        "before": 0,
+        "after": 0
+      }
+    },
+    "alternatives": {
+      "runningReady": {
+        "before": 77,
+        "after": 92
+      },
+      "runningIndexable": {
+        "before": 77,
+        "after": 92,
+        "delta": 15
+      },
+      "runningReadyNotIndexable": {
+        "before": 0,
+        "after": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,40 @@
+
+> kitletics@0.1.0 test
+> vitest run
+
+(!) Your Vite config uses features that are unsupported by `configLoader: 'native'`, which is planned to become the default in a future major version of Vite:
+  - ESM syntax in a file loaded as CommonJS (vitest.config.ts:1:1). Use a `.mjs` extension or set `"type": "module"` in the closest package.json
+Set `VITE_CONFIG_NATIVE_IGNORE_WARNING=true` to suppress this warning.
+
+ RUN  v4.1.11 /Users/LMeyeridricks/Documents/coding/kitletics
+
+ ❯ tests/best-hub-images.test.ts (3 tests | 1 failed) 990ms
+     × max-cushion and stability no longer share photography 418ms
+
+⎯⎯⎯⎯⎯⎯⎯ Failed Tests 1 ⎯⎯⎯⎯⎯⎯⎯
+
+ FAIL  tests/best-hub-images.test.ts > Best hub guide images > max-cushion and stability no longer share photography
+AssertionError: max-cushion must be INDEXABLE for hub: expected undefined to be truthy
+
+- Expected:
+true
+
++ Received:
+undefined
+
+ ❯ tests/best-hub-images.test.ts:41:58
+     39|     const max = guides.find((g) => g.slug === "max-cushion-running-sho…
+     40|     const stability = guides.find((g) => g.slug === "stability-running…
+     41|     expect(max, "max-cushion must be INDEXABLE for hub").toBeTruthy();
+       |                                                          ^
+     42|     expect(stability, "stability must be INDEXABLE for hub").toBeTruth…
+     43|     const a = resolveBestGuideImage(max!);
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/1]⎯
+
+
+ Test Files  1 failed | 48 passed (49)
+      Tests  1 failed | 522 passed (523)
+   Start at  18:28:44
+   Duration  35.86s (transform 29.02s, setup 0ms, import 74.35s, tests 148.02s, environment 4ms)
+

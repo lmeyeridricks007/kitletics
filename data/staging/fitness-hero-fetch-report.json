@@ -1,0 +1,536 @@
+{
+  "fetched": [
+    {
+      "productId": "prod-concept2-rowerg",
+      "slug": "concept2-rowerg",
+      "src": "/images/fitness/products/concept2-rowerg-hero.jpg",
+      "sourceUrl": "https://www.concept2.com/ergs/rowerg",
+      "source": "Concept2 CMS (RowErg Standard packshot)",
+      "licence": "manufacturer-marketing",
+      "remote": "https://cms.concept2.com/sites/default/files/styles/max_2048/public/2024-02/RowERG_Standard_FlyFrontAngle_Gator_1920px.png?itok=vdsr5YUv",
+      "bytes": 31044
+    },
+    {
+      "productId": "prod-concept2-bikeerg",
+      "slug": "concept2-bikeerg",
+      "src": "/images/fitness/products/concept2-bikeerg-hero.jpg",
+      "sourceUrl": "https://www.concept2.com/ergs/bikeerg",
+      "source": "Concept2 CMS (BikeErg packshot)",
+      "licence": "manufacturer-marketing",
+      "remote": "https://cms.concept2.com/sites/default/files/styles/max_2048/public/2024-02/BIKE_ERG_BLACK_F3Q_1_1920px.png?itok=NcPMMxn1",
+      "bytes": 54147
+    },
+    {
+      "productId": "prod-concept2-skierg",
+      "slug": "concept2-skierg",
+      "src": "/images/fitness/products/concept2-skierg-hero.jpg",
+      "sourceUrl": "https://www.concept2.com/ergs/skierg",
+      "source": "Concept2 CMS (SkiErg front packshot)",
+      "licence": "manufacturer-marketing",
+      "remote": "https://cms.concept2.com/sites/default/files/styles/max_2048/public/2026-04/SkiErg-Front.png?itok=45qOoT4Y",
+      "bytes": 20654
+    },
+    {
+      "productId": "prod-concept2-skierg-stand",
+      "slug": "concept2-skierg-floor-stand",
+      "src": "/images/fitness/products/concept2-skierg-floor-stand-hero.jpg",
+      "sourceUrl": "https://www.concept2.com/ergs/skierg",
+      "source": "Concept2 CMS (SkiErg Floor Stand)",
+      "licence": "manufacturer-marketing",
+      "remote": "https://cms.concept2.com/sites/default/files/styles/max_2048/public/2024-04/2372-skierg-floor-stand.jpg?itok=LKrmILRx",
+      "bytes": 16278
+    },
+    {
+      "productId": "prod-concept2-skierg-pm5-bundle",
+      "slug": "concept2-skierg-with-stand",
+      "src": "/images/fitness/products/concept2-skierg-with-stand-hero.jpg",
+      "sourceUrl": "https://www.concept2.com/ergs/skierg",
+      "source": "Concept2 CMS (SkiErg + Floor Stand)",
+      "licence": "manufacturer-marketing",
+      "remote": "https://cms.concept2.com/sites/default/files/styles/max_2048/public/2026-04/SkiErg-W-Stand-Front.png?itok=WFpl3uLi",
+      "bytes": 24266
+    },
+    {
+      "productId": "prod-concept2-rowerg-dynamic",
+      "slug": "concept2-rowerg-dynamic",
+      "src": "/images/fitness/products/concept2-rowerg-dynamic-hero.jpg",
+      "sourceUrl": "https://www.concept2.com/ergs/dynamic-rowerg",
+      "source": "Concept2 CMS (Dynamic RowErg packshot)",
+      "licence": "manufacturer-marketing",
+      "remote": "https://cms.concept2.com/sites/default/files/styles/max_2048/public/2024-02/Dynamic%20Three-Quarter%20Shot.png?itok=hSCxODk0",
+      "bytes": 45721
+    },
+    {
+      "productId": "prod-rogue-ohio",
+      "slug": "rogue-ohio-bar",
+      "src": "/images/fitness/products/rogue-ohio-bar-hero.jpg",
+      "sourceUrl": "https://www.roguefitness.com/the-ohio-bar-black-zinc",
+      "source": "Rogue Fitness CDN (Ohio Bar)",
+      "licence": "manufacturer-marketing",
+      "remote": "https://assets.roguefitness.com/f_auto,q_auto,c_limit,w_1600,b_rgb:ffffff/v1/catalog/Weightlifting%20Bars%20and%20Plates/Barbells/Mens%2020KG%20Barbells/RA0539-BLBR/2023%20Update/RA2889-BLBR-H_NEW_tzv9q0.png",
+      "bytes": 34680
+    },
+    {
+      "productId": "prod-rogue-ohio-power",
+      "slug": "rogue-ohio-power-bar",
+      "src": "/images/fitness/products/rogue-ohio-power-bar-hero.jpg",
+      "sourceUrl": "https://www.roguefitness.com/rogue-ohio-power-bar",
+      "source": "Rogue Fitness CDN (Ohio Power Bar)",
+      "licence": "manufacturer-marketing",
+      "remote": "https://assets.roguefitness.com/f_auto,q_auto,c_limit,w_1600,b_rgb:ffffff/v1/catalog/Weightlifting%20Bars%20and%20Plates/Barbells/Mens%2020KG%20Barbells/RA0586-BLBR/2024%20Update/RA2895-BLBR-H_ua63b3.png",
+      "bytes": 36912
+    },
+    {
+      "productId": "prod-rogue-echo-bike",
+      "slug": "rogue-echo-bike",
+      "src": "/images/fitness/products/rogue-echo-bike-hero.jpg",
+      "sourceUrl": "https://www.roguefitness.com/rogue-echo-bike",
+      "source": "Rogue Fitness CDN (Echo Bike)",
+      "licence": "manufacturer-marketing",
+      "remote": "https://assets.roguefitness.com/f_auto,q_auto,c_limit,w_1600,b_rgb:ffffff/v1/catalog/Conditioning/Endurance%20/Bikes/ECHOBIKE/ECHOBIKE-H_t5871p.png",
+      "bytes": 44558
+    },
+    {
+      "productId": "prod-rogue-dog-sled",
+      "slug": "rogue-dog-sled",
+      "src": "/images/fitness/products/rogue-dog-sled-hero.jpg",
+      "sourceUrl": "https://www.roguefitness.com/rogue-echo-dog-sled",
+      "source": "Rogue Fitness CDN (Echo Dog Sled)",
+      "licence": "manufacturer-marketing",
+      "remote": "https://assets.roguefitness.com/f_auto,q_auto,c_limit,w_1600,b_rgb:ffffff/v1/catalog/Strength%20Equipment/Strength%20Training/Sleds/ECHODOGSLED/ECHODOGSLED-H_ocmz7v.png",
+      "bytes": 107488
+    },
+    {
+      "productId": "prod-rogue-sandbag",
+      "slug": "rogue-sandbag",
+      "src": "/images/fitness/products/rogue-sandbag-hero.jpg",
+      "sourceUrl": "https://www.roguefitness.com/rogue-strongman-sandbags",
+      "source": "Rogue Fitness CDN (Strongman Sandbags)",
+      "licence": "manufacturer-marketing",
+      "remote": "https://assets.roguefitness.com/f_auto,q_auto,c_limit,w_1600,b_rgb:ffffff/v1/catalog/Strongman/Sandbags%20and%20Stone%20Molds/Strongman%20Sandbags/RA1160/RA1160-H_V1_ypsmf5.jpg",
+      "bytes": 70754
+    },
+    {
+      "productId": "prod-rogue-wall-ball",
+      "slug": "rogue-wall-ball",
+      "src": "/images/fitness/products/rogue-wall-ball-hero.jpg",
+      "sourceUrl": "https://www.roguefitness.com/rogue-medicine-balls",
+      "source": "Rogue Fitness CDN (Medicine / Wall Ball)",
+      "licence": "manufacturer-marketing",
+      "remote": "https://assets.roguefitness.com/f_auto,q_auto,c_limit,w_1600,b_rgb:ffffff/v1/catalog/Conditioning/Strength%20Equipment/Medicine%20Balls/ROGUEMB/ROGUEMB-h_c6n9tu.png",
+      "bytes": 100697
+    },
+    {
+      "productId": "prod-rogue-kettlebell",
+      "slug": "rogue-kettlebell",
+      "src": "/images/fitness/products/rogue-kettlebell-hero.jpg",
+      "sourceUrl": "https://www.roguefitness.com/rogue-kettlebells",
+      "source": "Rogue Fitness CDN (Ductile Iron Kettlebell)",
+      "licence": "manufacturer-marketing",
+      "remote": "https://assets.roguefitness.com/f_auto,q_auto,c_limit,w_1600,b_rgb:ffffff/v1/catalog/Conditioning/Strength%20Equipment/Kettlebells/IP0670/IP0670-H_j6gkfw.png",
+      "bytes": 65334
+    },
+    {
+      "productId": "prod-rogue-wrist-wraps",
+      "slug": "rogue-wrist-wraps",
+      "src": "/images/fitness/products/rogue-wrist-wraps-hero.jpg",
+      "sourceUrl": "https://www.roguefitness.com/rogue-wrist-wraps",
+      "source": "Rogue Fitness CDN (Wrist Wraps)",
+      "licence": "manufacturer-marketing",
+      "remote": "https://assets.roguefitness.com/f_auto,q_auto,c_limit,w_1600,b_rgb:ffffff/v1/catalog/Straps%20Wraps%20and%20Support%20/Straps%20and%20Wraps/Wrist%20Wraps/PS000W/PS0015-H_ckrksu.png",
+      "bytes": 55482
+    },
+    {
+      "productId": "prod-rogue-storage",
+      "slug": "rogue-plate-tree",
+      "src": "/images/fitness/products/rogue-plate-tree-hero.jpg",
+      "sourceUrl": "https://www.roguefitness.com/rogue-vertical-plate-tree-2-0",
+      "source": "Rogue Fitness CDN (Vertical Plate Tree 2.0)",
+      "licence": "manufacturer-marketing",
+      "remote": "https://assets.roguefitness.com/f_auto,q_auto,c_limit,w_1600,b_rgb:ffffff/v1/catalog/Weightlifting%20Bars%20and%20Plates/Storage/Plate%20Storage/RF0644/RF0644-H_depvyi.png",
+      "bytes": 94317
+    },
+    {
+      "productId": "prod-rogue-weighted-vest",
+      "slug": "rogue-plate-carrier-vest",
+      "src": "/images/fitness/products/rogue-plate-carrier-vest-hero.jpg",
+      "sourceUrl": "https://www.roguefitness.com/rogue-plate-carrier",
+      "source": "Rogue Fitness CDN (Plate Carrier)",
+      "licence": "manufacturer-marketing",
+      "remote": "https://assets.roguefitness.com/f_auto,q_auto,c_limit,w_1600,b_rgb:ffffff/v1/catalog/Bodyweight%20and%20Gymnastics/Bodyweight%20/Weighted%20Vests/PLATE-CARRIER/PLATE-CARRIER-H_ndcko4.png",
+      "bytes": 111461
+    },
+    {
+      "productId": "prod-eleiko-performance",
+      "slug": "eleiko-performance-weightlifting-bar",
+      "src": "/images/fitness/products/eleiko-performance-weightlifting-bar-hero.jpg",
+      "sourceUrl": "https://eleiko.com/en/equipment/bars/hybridbars/3085911-eleiko-performance-bar-20-kg",
+      "source": "Eleiko media CDN (Performance Weightlifting Bar 20 kg, art. 3070100)",
+      "licence": "manufacturer-marketing",
+      "remote": "https://media.eleiko.com/images/upload/4x5/3070100_10.jpg",
+      "bytes": 13818
+    },
+    {
+      "productId": "prod-eleiko-xf",
+      "slug": "eleiko-xf-bar",
+      "src": "/images/fitness/products/eleiko-xf-bar-hero.jpg",
+      "sourceUrl": "https://media.eleiko.com/admin/download-product-sheet.aspx?articlecode=3085116&language=en-us&view=true",
+      "source": "Eleiko media CDN (XF Bar 20 kg, art. 3085116)",
+      "licence": "manufacturer-marketing",
+      "remote": "https://media.eleiko.com/images/upload/4x5/3085116_10.jpg",
+      "bytes": 13689
+    },
+    {
+      "productId": "prod-eleiko-kb",
+      "slug": "eleiko-kettlebell",
+      "src": "/images/fitness/products/eleiko-kettlebell-hero.jpg",
+      "sourceUrl": "https://media.eleiko.com/admin/download-product-sheet.aspx?articlecode=3085433&language=en-us&view=true",
+      "source": "Eleiko media CDN (Competition Kettlebell representative, art. 3085433)",
+      "licence": "manufacturer-marketing",
+      "remote": "https://media.eleiko.com/images/upload/4x5/3085433_10.jpg",
+      "bytes": 31987
+    },
+    {
+      "productId": "prod-eleiko-collars",
+      "slug": "eleiko-sport-collars",
+      "src": "/images/fitness/products/eleiko-sport-collars-hero.jpg",
+      "sourceUrl": "https://eleiko.com/en/equipment/collars/3085487-eleiko-oppen-barbell-collars-pair",
+      "source": "Eleiko media CDN (Öppen Barbell Collars — current training/sport collar, art. 3085487)",
+      "licence": "manufacturer-marketing",
+      "remote": "https://media.eleiko.com/images/upload/4x5/3085487_10.jpg",
+      "bytes": 34851
+    },
+    {
+      "productId": "prod-mirafit-air-bike",
+      "slug": "mirafit-air-bike",
+      "src": "/images/fitness/products/mirafit-air-bike-hero.jpg",
+      "sourceUrl": "https://mirafit.co.uk/mirafit-air-bike.html",
+      "source": "Mirafit imagely CDN (Air Bike packshot)",
+      "licence": "manufacturer-marketing",
+      "remote": "https://imagely.mirafit.co.uk/media/catalog/product/M/i/Mirafit-Air-Bike_1.jpg",
+      "bytes": 95147
+    },
+    {
+      "productId": "prod-assault-classic",
+      "slug": "assaultbike-classic",
+      "src": "/images/fitness/products/assaultbike-classic-hero.jpg",
+      "sourceUrl": "https://www.assaultfitness.com/bikes/assault-bike-classic/",
+      "source": "Assault Fitness authorized retailer CDN (CA) / manufacturer site",
+      "licence": "retailer-authorized",
+      "remote": "https://cdn.shopify.com/s/files/1/0552/2096/1473/products/AssaultBikeClassicAngledshot.png?v=1628794823",
+      "bytes": 89228
+    },
+    {
+      "productId": "prod-assault-elite",
+      "slug": "assaultbike-elite",
+      "src": "/images/fitness/products/assaultbike-elite-hero.jpg",
+      "sourceUrl": "https://www.assaultfitness.com/bikes/assault-bike-elite/",
+      "source": "Assault Fitness authorized retailer CDN (CA) / manufacturer site",
+      "licence": "retailer-authorized",
+      "remote": "https://cdn.shopify.com/s/files/1/0552/2096/1473/products/AssaultBikeEliteAngled2Shot.png?v=1628794823",
+      "bytes": 89211
+    },
+    {
+      "productId": "prod-assault-runner",
+      "slug": "assaultrunner-pro",
+      "src": "/images/fitness/products/assaultrunner-pro-hero.jpg",
+      "sourceUrl": "https://www.assaultfitness.com/treadmills/assault-runner-pro/",
+      "source": "Assault Fitness authorized retailer CDN (CA) / manufacturer site",
+      "licence": "retailer-authorized",
+      "remote": "https://cdn.shopify.com/s/files/1/0552/2096/1473/products/AssaultRunnerProAngledShot.png?v=1628794823",
+      "bytes": 45119
+    },
+    {
+      "productId": "prod-assault-runner-elite",
+      "slug": "assaultrunner-elite",
+      "src": "/images/fitness/products/assaultrunner-elite-hero.jpg",
+      "sourceUrl": "https://www.assaultfitness.com/treadmills/assault-runner-elite/",
+      "source": "Assault Fitness authorized retailer CDN (CA) / manufacturer site",
+      "licence": "retailer-authorized",
+      "remote": "https://cdn.shopify.com/s/files/1/0552/2096/1473/products/AssaultRunnerEliteAngledLeftSideShot.png?v=1628794823",
+      "bytes": 62562
+    },
+    {
+      "productId": "prod-rep-kettlebell",
+      "slug": "rep-fitness-kettlebell",
+      "src": "/images/fitness/products/rep-fitness-kettlebell-hero.jpg",
+      "sourceUrl": "https://repfitness.com/products/kettlebells-kg",
+      "source": "REP Fitness Shopify CDN (Kettlebell)",
+      "licence": "manufacturer-marketing",
+      "remote": "https://cdn.shopify.com/s/files/1/0574/1215/7598/t/16/assets/acf.Shopify-KB-3002-16-1120.jpg?v=1657830906",
+      "bytes": 87340
+    },
+    {
+      "productId": "prod-rep-slam-ball",
+      "slug": "rep-slam-ball",
+      "src": "/images/fitness/products/rep-slam-ball-hero.jpg",
+      "sourceUrl": "https://repfitness.com/products/slam-balls",
+      "source": "REP Fitness Shopify CDN (Slam Ball)",
+      "licence": "manufacturer-marketing",
+      "remote": "https://cdn.shopify.com/s/files/1/0574/1215/7598/t/16/assets/acf.SB-3000-Main2.png?v=1636052798",
+      "bytes": 38654
+    },
+    {
+      "productId": "prod-rep-colorado",
+      "slug": "rep-colorado-bar",
+      "src": "/images/fitness/products/rep-colorado-bar-hero.jpg",
+      "sourceUrl": "https://repfitness.com/products/colorado-bar-20kg",
+      "source": "REP Fitness Shopify CDN (Colorado Bar 20kg)",
+      "licence": "manufacturer-marketing",
+      "remote": "https://cdn.shopify.com/s/files/1/0574/1215/7598/products/ColoradoBar-20KG-HardChrome-thumbnail.jpg?v=1685637768",
+      "bytes": 24597
+    },
+    {
+      "productId": "prod-pullup-dip-doorway",
+      "slug": "pullup-and-dip-doorway-bar",
+      "src": "/images/fitness/products/pullup-and-dip-doorway-bar-hero.jpg",
+      "sourceUrl": "https://www.pullup-dip.com/products/doorway-pull-up-bar",
+      "source": "PULLUP & DIP Shopify CDN",
+      "licence": "manufacturer-marketing",
+      "remote": "https://www.pullup-dip.com/cdn/shop/files/doorway-pullup-bar-new-1.jpg?v=1769607488",
+      "bytes": 48188
+    },
+    {
+      "productId": "prod-pullup-dip-wall",
+      "slug": "pullup-and-dip-wall-bar",
+      "src": "/images/fitness/products/pullup-and-dip-wall-bar-hero.jpg",
+      "sourceUrl": "https://www.pullup-dip.com/products/wall-mounted-pull-up-bar",
+      "source": "PULLUP & DIP Shopify CDN",
+      "licence": "manufacturer-marketing",
+      "remote": "https://www.pullup-dip.com/cdn/shop/files/wall-pullup-bar-mat-1.jpg?v=1769607890",
+      "bytes": 34984
+    },
+    {
+      "productId": "prod-pullup-dip-parallettes",
+      "slug": "pullup-and-dip-parallettes",
+      "src": "/images/fitness/products/pullup-and-dip-parallettes-hero.jpg",
+      "sourceUrl": "https://www.pullup-dip.com/products/fitness-parallettes",
+      "source": "PULLUP & DIP Shopify CDN (Fitness Parallettes)",
+      "licence": "manufacturer-marketing",
+      "remote": "https://www.pullup-dip.com/cdn/shop/files/fitness-parallettes-1.jpg",
+      "bytes": 93856
+    },
+    {
+      "productId": "prod-sole-f80",
+      "slug": "sole-f80-treadmill",
+      "src": "/images/fitness/products/sole-f80-treadmill-hero.jpg",
+      "sourceUrl": "https://www.soletreadmills.com/products/sole-f80-treadmill",
+      "source": "SOLE Fitness Shopify CDN (F80)",
+      "licence": "manufacturer-marketing",
+      "remote": "https://cdn.shopify.com/s/files/1/0768/0950/3023/files/SOLE-F80-20260318-15943_a6350b09-2c23-4191-bc95-18e2e82e950f.png?v=1782144249",
+      "bytes": 28033
+    },
+    {
+      "productId": "prod-woodway-curve",
+      "slug": "woodway-curve-trainer",
+      "src": "/images/fitness/products/woodway-curve-trainer-hero.jpg",
+      "sourceUrl": "https://www.woodway.com/treadmills/curve-trainer/",
+      "source": "Woodway manufacturer media (Curve Trainer)",
+      "licence": "manufacturer-marketing",
+      "remote": "https://www.woodway.com/wp-content/uploads/2024/02/curve-trainer-thumbnail@2x.png",
+      "bytes": 97339
+    },
+    {
+      "productId": "prod-blackroll-standard",
+      "slug": "blackroll-standard",
+      "src": "/images/fitness/products/blackroll-standard-hero.jpg",
+      "sourceUrl": "https://blackroll.com/eu/en/products/blackroll-standard",
+      "source": "BLACKROLL CDN (STANDARD foam roller)",
+      "licence": "manufacturer-marketing",
+      "remote": "https://cldn.cdn-blackroll.com/image/upload/f_auto,q_85,g_center,c_fill,w_2228/oneworld-prod/assets/product-images/blackroll-standard/default/4114353_blackroll-standard-angle-1.png?v=1780951319"
+    },
+    {
+      "productId": "prod-blackroll-med",
+      "slug": "blackroll-med",
+      "src": "/images/fitness/products/blackroll-med-hero.jpg",
+      "sourceUrl": "https://blackroll.com/eu/en/products/blackroll-med",
+      "source": "BLACKROLL CDN (MED foam roller)",
+      "licence": "manufacturer-marketing",
+      "remote": "https://cldn.cdn-blackroll.com/image/upload/f_auto,q_85,g_center,c_fill,w_2228/oneworld-prod/assets/product-images/blackroll-med/default/4116935_blackroll-med-angle-1.png?v=1780951308"
+    },
+    {
+      "productId": "prod-blackroll-ball",
+      "slug": "blackroll-ball",
+      "src": "/images/fitness/products/blackroll-ball-hero.jpg",
+      "sourceUrl": "https://blackroll.com/eu/en/products/blackroll-ball-08",
+      "source": "BLACKROLL CDN (BALL 08)",
+      "licence": "manufacturer-marketing",
+      "remote": "https://cldn.cdn-blackroll.com/image/upload/f_auto,q_85,g_center,c_fill,w_2228/oneworld-prod/assets/product-images/blackroll-ball-08/default/4117196_blackroll-ball-08-angle-1.png?v=1780951313"
+    },
+    {
+      "productId": "prod-blackroll-duoball",
+      "slug": "blackroll-duoball",
+      "src": "/images/fitness/products/blackroll-duoball-hero.jpg",
+      "sourceUrl": "https://blackroll.com/eu/en/products/blackroll-duoball-12",
+      "source": "BLACKROLL CDN (DUOBALL 12)",
+      "licence": "manufacturer-marketing",
+      "remote": "https://cldn.cdn-blackroll.com/image/upload/f_auto,q_85,g_center,c_fill,w_2228/oneworld-prod/assets/product-images/blackroll-duoball-12/default/4117317_blackroll-duoball-12-angle-1.png?v=1780951297"
+    },
+    {
+      "productId": "prod-horizon-t202",
+      "slug": "horizon-t202-treadmill",
+      "src": "/images/fitness/products/horizon-t202-treadmill-hero.jpg",
+      "sourceUrl": "https://www.horizonfitness.com/products/t202-treadmill",
+      "source": "Horizon Fitness Shopify CDN (T202)",
+      "licence": "manufacturer-marketing",
+      "remote": "https://cdn.shopify.com/s/files/1/0930/5558/2483/files/T202_Hero_grey.jpg?v=1761179193"
+    },
+    {
+      "productId": "prod-gravity-rings",
+      "slug": "gravity-fitness-gymnastic-rings",
+      "src": "/images/fitness/products/gravity-fitness-gymnastic-rings-hero.jpg",
+      "sourceUrl": "https://gravity.fitness/products/gravity-fitness-wooden-gymnastic-rings",
+      "source": "Gravity Fitness Shopify CDN (Wooden Gymnastic Rings)",
+      "licence": "manufacturer-marketing",
+      "remote": "https://cdn.shopify.com/s/files/1/0276/0635/1961/files/GymnasticRings.webp?v=1786539912"
+    },
+    {
+      "productId": "prod-gravity-parallettes",
+      "slug": "gravity-fitness-parallettes",
+      "src": "/images/fitness/products/gravity-fitness-parallettes-hero.jpg",
+      "sourceUrl": "https://gravity.fitness/products/gravity-fitness-medium-pro-parallettes-3-0-38mm-bars",
+      "source": "Gravity Fitness Shopify CDN (Medium Pro Parallettes)",
+      "licence": "manufacturer-marketing",
+      "remote": "https://cdn.shopify.com/s/files/1/0276/0635/1961/files/001-GravityFintess-MediumProHybridParallettes_a5595d0a-81b3-4bab-b001-3db54b6b5ba5.webp?v=1774525058"
+    },
+    {
+      "productId": "prod-gravity-pullup-station",
+      "slug": "gravity-fitness-pull-up-station",
+      "src": "/images/fitness/products/gravity-fitness-pull-up-station-hero.jpg",
+      "sourceUrl": "https://gravity.fitness/products/gravity-fitness-portable-bodyweight-pull-up-rack",
+      "source": "Gravity Fitness Shopify CDN (Portable Pull-Up Rack / station)",
+      "licence": "manufacturer-marketing",
+      "remote": "https://cdn.shopify.com/s/files/1/0276/0635/1961/files/PortablePullUpRack.webp?v=1786539915"
+    },
+    {
+      "productId": "prod-gravity-weighted-vest",
+      "slug": "gravity-fitness-weighted-vest",
+      "src": "/images/fitness/products/gravity-fitness-weighted-vest-hero.jpg",
+      "sourceUrl": "https://gravity.fitness/products/gravity-fitness-20kg-weighted-vest",
+      "source": "Gravity Fitness Shopify CDN (Weighted Vest)",
+      "licence": "manufacturer-marketing",
+      "remote": "https://cdn.shopify.com/s/files/1/0276/0635/1961/files/WeightVest.webp?v=1786539909"
+    },
+    {
+      "productId": "prod-xebex-skierg",
+      "slug": "xebex-ski-erg",
+      "src": "/images/fitness/products/xebex-ski-erg-hero.jpg",
+      "sourceUrl": "https://xebexfitness.com/product/aski-bundle/",
+      "source": "Xebex Fitness media (Ski Trainer / ASKI)",
+      "licence": "manufacturer-marketing",
+      "remote": "https://xebexfitness.com/wp-content/uploads/aski_01-1.jpg"
+    },
+    {
+      "productId": "prod-skierg2-wall",
+      "slug": "skierg2-wall-mount",
+      "src": "/images/fitness/products/skierg2-wall-mount-hero.jpg",
+      "sourceUrl": "https://xebexfitness.com/product/apski-bundle/",
+      "source": "Xebex Fitness media (APSKI wall ski trainer)",
+      "licence": "manufacturer-marketing",
+      "remote": "https://xebexfitness.com/wp-content/uploads/APSKI-200-BA_FS-3-2.jpg"
+    },
+    {
+      "productId": "prod-gornation-rings",
+      "slug": "gornation-gymnastic-rings",
+      "src": "/images/fitness/products/gornation-gymnastic-rings-hero.jpg",
+      "sourceUrl": "https://www.gornation.com/products/workout-rings-set",
+      "source": "GORNATION Shopify CDN (Workout Rings Set)",
+      "licence": "manufacturer-marketing",
+      "remote": "https://cdn.shopify.com/s/files/1/2513/1876/files/workout-rings-gornation.jpg?v=1767376685"
+    },
+    {
+      "productId": "prod-gornation-parallettes-pro",
+      "slug": "gornation-parallettes-pro",
+      "src": "/images/fitness/products/gornation-parallettes-pro-hero.jpg",
+      "sourceUrl": "https://www.gornation.com/products/premium-parallettes-pro",
+      "source": "GORNATION Shopify CDN (Premium Parallettes Pro)",
+      "licence": "manufacturer-marketing",
+      "remote": "https://cdn.shopify.com/s/files/1/2513/1876/files/parallettes-pro-calisthenics-product-photo.jpg?v=1689932536"
+    },
+    {
+      "productId": "prod-gornation-premium-bar",
+      "slug": "gornation-premium-pull-up-bar",
+      "src": "/images/fitness/products/gornation-premium-pull-up-bar-hero.jpg",
+      "sourceUrl": "https://www.gornation.com/products/premium-pull-up-station",
+      "source": "GORNATION Shopify CDN (Premium Pull Up Station)",
+      "licence": "manufacturer-marketing",
+      "remote": "https://cdn.shopify.com/s/files/1/2513/1876/files/pull-up-station-1.jpg?v=1783346031"
+    },
+    {
+      "productId": "prod-rep-storage",
+      "src": "/images/fitness/products/rep-bumper-plate-storage-hero.jpg",
+      "sourceUrl": "https://repfitness.com/products/bar-and-weight-plate-tree",
+      "source": "REP Fitness Shopify CDN (Bar & Weight Plate Tree)",
+      "licence": "manufacturer-marketing",
+      "slug": "rep-bumper-plate-storage",
+      "remote": "https://cdn.shopify.com/s/files/1/0574/1215/7598/products/Shopify-Bar-Plate-Tree-Thumbnail.jpg?v=1668272228"
+    }
+  ],
+  "skipped": [
+    {
+      "slug": "rogue-echo-kettlebell",
+      "reason": "Echo Kettlebell product page not found on Rogue CDN (likely discontinued)"
+    },
+    {
+      "slug": "rogue-monster-lite-pull-up-bar",
+      "reason": "Monster Lite pull-up bar SKU page 404 / not verified"
+    },
+    {
+      "slug": "rogue-flogging-horse-stall-mat-note",
+      "reason": "Horse stall mats discontinued / no verified Rogue packshot"
+    },
+    {
+      "slug": "mirafit-battle-rope",
+      "reason": "Mirafit site bot-blocked; CDN path for battle rope not verified (placeholder logo returned)"
+    },
+    {
+      "slug": "mirafit-cast-iron-kettlebell",
+      "reason": "Mirafit CDN path not verified (placeholder logo for guessed filenames)"
+    },
+    {
+      "slug": "mirafit-folding-rower",
+      "reason": "Mirafit CDN path not verified"
+    },
+    {
+      "slug": "mirafit-folding-treadmill",
+      "reason": "Mirafit CDN path not verified"
+    },
+    {
+      "slug": "mirafit-gym-mats",
+      "reason": "Mirafit CDN path not verified"
+    },
+    {
+      "slug": "mirafit-magnetic-rower",
+      "reason": "Mirafit CDN path not verified"
+    },
+    {
+      "slug": "mirafit-olympic-barbell",
+      "reason": "Mirafit CDN path not verified"
+    },
+    {
+      "slug": "mirafit-wall-pull-up-bar",
+      "reason": "Mirafit CDN path not verified"
+    },
+    {
+      "slug": "mirafit-weighted-vest",
+      "reason": "Mirafit CDN path not verified"
+    },
+    {
+      "slug": "hydrow-wave",
+      "reason": "Hydrow rate-limited / page not fetched"
+    },
+    {
+      "slug": "schwinn-airdyne-ad8",
+      "reason": "Schwinn AD8 product page URL not resolved"
+    },
+    {
+      "slug": "waterrower-a1",
+      "reason": "WaterRower site blocked (403)"
+    }
+  ],
+  "counts": {
+    "fetched": 48,
+    "skipped": 15,
+    "totalList": 63
+  }
+}

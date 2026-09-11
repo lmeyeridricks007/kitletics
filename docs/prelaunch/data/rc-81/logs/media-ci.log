@@ -1,0 +1,15 @@
+
+> kitletics@0.1.0 media:ci
+> tsx --tsconfig tsconfig.json scripts/catalog-media-agent.ts --mode=audit --identity --fail
+
+ReferenceError: getPrimaryProductMedia is not defined
+    at <anonymous> (/Users/LMeyeridricks/Documents/coding/kitletics/scripts/lib/catalog-media-audit.ts:263:21)
+    at Array.map (<anonymous>)
+    at runCatalogMediaAudit (/Users/LMeyeridricks/Documents/coding/kitletics/scripts/lib/catalog-media-audit.ts:262:6)
+    at main (/Users/LMeyeridricks/Documents/coding/kitletics/scripts/catalog-media-agent.ts:147:24)
+    at path (/Users/LMeyeridricks/Documents/coding/kitletics/scripts/catalog-media-agent.ts:207:1)
+    at Object.<anonymous> (/Users/LMeyeridricks/Documents/coding/kitletics/scripts/catalog-media-agent.ts:210:2)
+    at Module._compile (node:internal/modules/cjs/loader:1829:14)
+    at Object.transformer (/Users/LMeyeridricks/Documents/coding/kitletics/node_modules/tsx/dist/register-OY9cqBEN.cjs:9:3619)
+    at Module.load (node:internal/modules/cjs/loader:1552:32)
+    at Module._load (node:internal/modules/cjs/loader:1354:12)

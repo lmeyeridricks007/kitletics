@@ -1,0 +1,29 @@
+{
+  "generatedAt": "2026-09-09T19:02:28.486Z",
+  "dryRun": false,
+  "reviewsAssessed": 590,
+  "findings": 613,
+  "byClass": {
+    "SUPPORTED": 334,
+    "REASONABLE_EDITORIAL_JUDGMENT": 553,
+    "NEEDS_SOURCE": 40,
+    "UNSUPPORTED": 14,
+    "CONTRADICTORY": 6
+  },
+  "byKind": {
+    "fit": 544,
+    "performance": 9,
+    "nutrition": 36,
+    "health_safety": 1,
+    "weight": 10,
+    "first_hand": 13
+  },
+  "reviewsChanged": 9,
+  "fixedFindings": 16,
+  "firstHandFixed": 10,
+  "residualUnsupportedFirstHandMentions": 0,
+  "unsupported": 14,
+  "contradictory": 6,
+  "needsSource": 40
+}
+Wrote /Users/LMeyeridricks/Documents/coding/kitletics/docs/prelaunch/editorial/02-REVIEW-EVIDENCE-INTEGRITY.md

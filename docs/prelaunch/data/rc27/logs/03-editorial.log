@@ -1,0 +1,33 @@
+Evaluating reviews...
+Evaluating best guides...
+Evaluating buying guides...
+Wrote /Users/LMeyeridricks/Documents/coding/kitletics/docs/prelaunch/03-editorial-quality.md
+Wrote /Users/LMeyeridricks/Documents/coding/kitletics/docs/prelaunch/data/03-editorial-quality.json
+{
+  "reviews": {
+    "LAUNCH_READY": 585,
+    "NEEDS_MINOR_WORK": 0,
+    "THIN": 0,
+    "DUPLICATIVE": 0,
+    "BLOCKED": 5
+  },
+  "firstHandBlockers": 0,
+  "best": {
+    "LAUNCH_READY": 44,
+    "NEEDS_MINOR_WORK": 3,
+    "THIN": 11,
+    "BLOCKED": 0
+  },
+  "guides": {
+    "COMPLETE": 68,
+    "THIN": 0,
+    "NEEDS_RESEARCH": 0,
+    "STALE": 0,
+    "BLOCKED": 0
+  },
+  "comparisons": {
+    "total": 102,
+    "meaningful": 102,
+    "combinatorial": false
+  }
+}

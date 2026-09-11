@@ -1,0 +1,83 @@
+{
+  "simulate": [
+    {
+      "kind": "product",
+      "INDEXABLE": 359,
+      "PUBLIC_NOINDEX": 8,
+      "HIDDEN_404": 256
+    },
+    {
+      "kind": "review",
+      "INDEXABLE": 169,
+      "PUBLIC_NOINDEX": 0,
+      "HIDDEN_404": 416
+    },
+    {
+      "kind": "best-guide",
+      "INDEXABLE": 44,
+      "PUBLIC_NOINDEX": 0,
+      "HIDDEN_404": 14
+    },
+    {
+      "kind": "buying-guide",
+      "INDEXABLE": 35,
+      "PUBLIC_NOINDEX": 6,
+      "HIDDEN_404": 27
+    },
+    {
+      "kind": "comparison",
+      "INDEXABLE": 65,
+      "PUBLIC_NOINDEX": 0,
+      "HIDDEN_404": 29
+    },
+    {
+      "kind": "setup",
+      "INDEXABLE": 5,
+      "PUBLIC_NOINDEX": 0,
+      "HIDDEN_404": 11
+    },
+    {
+      "kind": "tool",
+      "INDEXABLE": 12,
+      "PUBLIC_NOINDEX": 0,
+      "HIDDEN_404": 13
+    },
+    {
+      "kind": "sport",
+      "INDEXABLE": 1,
+      "PUBLIC_NOINDEX": 8,
+      "HIDDEN_404": 1
+    },
+    {
+      "kind": "brand",
+      "INDEXABLE": 56,
+      "PUBLIC_NOINDEX": 13,
+      "HIDDEN_404": 122
+    }
+  ],
+  "sitemapEntries": 883,
+  "sitemapByPrefix": {
+    "home": 1,
+    "gear": 1,
+    "brands": 57,
+    "best": 45,
+    "compare": 66,
+    "reviews": 170,
+    "guides": 36,
+    "tools": 12,
+    "setups": 6,
+    "about": 1,
+    "methodology": 1,
+    "how-we-review": 1,
+    "editorial-policy": 1,
+    "evidence-policy": 1,
+    "scoring-methodology": 1,
+    "authors": 2,
+    "affiliate-disclosure": 1,
+    "contact": 1,
+    "privacy": 1,
+    "terms": 1,
+    "running": 26,
+    "products": 451
+  }
+}

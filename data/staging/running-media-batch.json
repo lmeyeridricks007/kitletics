@@ -1,0 +1,334 @@
+[
+  {
+    "id": "prod-superblast-2",
+    "slug": "superblast-2",
+    "q": "asics superblast 2",
+    "ok": false
+  },
+  {
+    "id": "prod-novablast-5",
+    "slug": "novablast-5",
+    "ok": true,
+    "src": "/images/running/products/novablast-5-hero.jpg",
+    "sourceUrl": "https://images.asics.com/is/image/asics/1011B974_001_SR_RT_GLB?$sfcc-product$&wid=800&hei=800",
+    "licence": "manufacturer-marketing",
+    "source": "Manufacturer product CDN",
+    "width": 1000,
+    "height": 1000
+  },
+  {
+    "id": "prod-nimbus-27",
+    "slug": "nimbus-27",
+    "ok": true,
+    "src": "/images/running/products/nimbus-27-hero.jpg",
+    "sourceUrl": "https://images.asics.com/is/image/asics/1011B872_001_SR_RT_GLB?$sfcc-product$&wid=800&hei=800",
+    "licence": "manufacturer-marketing",
+    "source": "Manufacturer product CDN",
+    "width": 1000,
+    "height": 1000
+  },
+  {
+    "id": "prod-cumulus-27",
+    "slug": "cumulus-27",
+    "ok": true,
+    "src": "/images/running/products/cumulus-27-hero.jpg",
+    "sourceUrl": "https://images.asics.com/is/image/asics/1011B870_001_SR_RT_GLB?$sfcc-product$&wid=800&hei=800",
+    "licence": "manufacturer-marketing",
+    "source": "Manufacturer product CDN",
+    "width": 1000,
+    "height": 1000
+  },
+  {
+    "id": "prod-metaspeed-sky-paris",
+    "slug": "metaspeed-sky-paris",
+    "q": "asics metaspeed sky",
+    "ok": false
+  },
+  {
+    "id": "prod-gt-2000-14",
+    "slug": "gt-2000-14",
+    "q": "asics gt-2000 14",
+    "ok": false
+  },
+  {
+    "id": "prod-pegasus-41",
+    "slug": "pegasus-41",
+    "q": "nike pegasus 41",
+    "ok": false
+  },
+  {
+    "id": "prod-vomero-18",
+    "slug": "vomero-18",
+    "q": "nike vomero 18",
+    "ok": false
+  },
+  {
+    "id": "prod-invincible-3",
+    "slug": "invincible-3",
+    "q": "nike invincible run 3",
+    "ok": false
+  },
+  {
+    "id": "prod-alphafly-3",
+    "slug": "alphafly-3",
+    "q": "nike alphafly 3",
+    "ok": false
+  },
+  {
+    "id": "prod-structure-26",
+    "slug": "structure-26",
+    "q": "nike structure 26",
+    "ok": false
+  },
+  {
+    "id": "prod-structure-plus",
+    "slug": "structure-plus",
+    "q": "nike structure plus",
+    "ok": false
+  },
+  {
+    "id": "prod-ghost-16",
+    "slug": "ghost-16",
+    "q": "brooks ghost 16",
+    "ok": false
+  },
+  {
+    "id": "prod-glycerin-22",
+    "slug": "glycerin-22",
+    "q": "brooks glycerin 22",
+    "ok": false
+  },
+  {
+    "id": "prod-glycerin-21",
+    "slug": "glycerin-21",
+    "q": "brooks glycerin 21",
+    "ok": false
+  },
+  {
+    "id": "prod-adrenaline-gts-25",
+    "slug": "adrenaline-gts-25",
+    "q": "brooks adrenaline gts 25",
+    "ok": false
+  },
+  {
+    "id": "prod-hyperion-max-2",
+    "slug": "hyperion-max-2",
+    "q": "brooks hyperion max 2",
+    "ok": false
+  },
+  {
+    "id": "prod-clifton-9",
+    "slug": "clifton-9",
+    "q": "hoka clifton 9",
+    "ok": false
+  },
+  {
+    "id": "prod-bondi-8",
+    "slug": "bondi-8",
+    "q": "hoka bondi 8",
+    "ok": false
+  },
+  {
+    "id": "prod-mach-6",
+    "slug": "mach-6",
+    "q": "hoka mach 6",
+    "ok": false
+  },
+  {
+    "id": "prod-clifton-pro",
+    "slug": "clifton-pro",
+    "q": "hoka clifton pro",
+    "ok": false
+  },
+  {
+    "id": "prod-endorphin-speed-4",
+    "slug": "endorphin-speed-4",
+    "q": "saucony endorphin speed 4",
+    "ok": false
+  },
+  {
+    "id": "prod-endorphin-pro-4",
+    "slug": "endorphin-pro-4",
+    "q": "saucony endorphin pro 4",
+    "ok": false
+  },
+  {
+    "id": "prod-endorphin-pro-3",
+    "slug": "endorphin-pro-3",
+    "q": "saucony endorphin pro 3",
+    "ok": false
+  },
+  {
+    "id": "prod-ride-18",
+    "slug": "ride-18",
+    "q": "saucony ride 18",
+    "ok": false
+  },
+  {
+    "id": "prod-triumph-22",
+    "slug": "triumph-22",
+    "q": "saucony triumph 22",
+    "ok": false
+  },
+  {
+    "id": "prod-peregrine-15",
+    "slug": "peregrine-15",
+    "q": "saucony peregrine 15",
+    "ok": false
+  },
+  {
+    "id": "prod-1080-v14",
+    "slug": "1080-v14",
+    "q": "new balance 1080 v14",
+    "ok": false
+  },
+  {
+    "id": "prod-1080-v13",
+    "slug": "1080-v13",
+    "q": "new balance 1080 v13",
+    "ok": false
+  },
+  {
+    "id": "prod-rebel-v5",
+    "slug": "rebel-v5",
+    "q": "new balance rebel v5",
+    "ok": false
+  },
+  {
+    "id": "prod-rebel-4",
+    "slug": "rebel-4",
+    "q": "new balance rebel v4",
+    "ok": false
+  },
+  {
+    "id": "prod-sc-elite-v4",
+    "slug": "sc-elite-v4",
+    "q": "new balance fuelcell elite v4",
+    "ok": false
+  },
+  {
+    "id": "prod-sc-trainer-v3",
+    "slug": "sc-trainer-v3",
+    "q": "new balance fuelcell trainer v3",
+    "ok": false
+  },
+  {
+    "id": "prod-boston-12",
+    "slug": "boston-12",
+    "q": "adidas boston 12",
+    "ok": false
+  },
+  {
+    "id": "prod-adios-pro-4",
+    "slug": "adios-pro-4",
+    "q": "adidas adios pro 4",
+    "ok": false
+  },
+  {
+    "id": "prod-adizero-evo-sl",
+    "slug": "adizero-evo-sl",
+    "q": "adidas adizero evo sl",
+    "ok": false
+  },
+  {
+    "id": "prod-cloudmonster-2",
+    "slug": "cloudmonster-2",
+    "q": "on cloudmonster 2",
+    "ok": false
+  },
+  {
+    "id": "prod-cloudsurfer-next",
+    "slug": "cloudsurfer-next",
+    "q": "on cloudsurfer next",
+    "ok": false
+  },
+  {
+    "id": "prod-torin-8",
+    "slug": "torin-8",
+    "q": "altra torin 8",
+    "ok": false
+  },
+  {
+    "id": "prod-escalante-4",
+    "slug": "escalante-4",
+    "q": "altra escalante 4",
+    "ok": false
+  },
+  {
+    "id": "prod-lone-peak-8",
+    "slug": "lone-peak-8",
+    "q": "altra lone peak 8",
+    "ok": false
+  },
+  {
+    "id": "prod-aero-glide-2",
+    "slug": "aero-glide-2",
+    "q": "salomon aero glide 2",
+    "ok": false
+  },
+  {
+    "id": "prod-sense-ride-5",
+    "slug": "sense-ride-5",
+    "q": "salomon sense ride 5",
+    "ok": false
+  },
+  {
+    "id": "prod-pulsar-trail-2",
+    "slug": "pulsar-trail-2",
+    "q": "salomon pulsar trail 2",
+    "ok": false
+  },
+  {
+    "id": "prod-deviate-nitro-3",
+    "slug": "deviate-nitro-3",
+    "q": "puma deviate nitro 3",
+    "ok": false
+  },
+  {
+    "id": "prod-magnify-nitro-2",
+    "slug": "magnify-nitro-2",
+    "q": "puma magnify nitro 2",
+    "ok": false
+  },
+  {
+    "id": "prod-wave-rider-28",
+    "slug": "wave-rider-28",
+    "q": "mizuno wave rider 28",
+    "ok": false
+  },
+  {
+    "id": "prod-wave-rebellion-pro-3",
+    "slug": "wave-rebellion-pro-3",
+    "q": "mizuno wave rebellion pro 3",
+    "ok": false
+  },
+  {
+    "id": "prod-specter-2",
+    "slug": "specter-2",
+    "q": "topo athletic specter 2",
+    "ok": false
+  },
+  {
+    "id": "prod-phantom-3",
+    "slug": "phantom-3",
+    "q": "topo athletic phantom 3",
+    "ok": false
+  },
+  {
+    "id": "prod-trailfly-ultra-g-300-max",
+    "slug": "trailfly-ultra-g-300-max",
+    "q": "inov8 trailfly ultra",
+    "ok": false
+  },
+  {
+    "id": "prod-novablast-4",
+    "slug": "novablast-4",
+    "ok": true,
+    "src": "/images/running/products/novablast-4-hero.jpg",
+    "sourceUrl": "https://images.asics.com/is/image/asics/1011B593_001_SR_RT_GLB?$sfcc-product$&wid=800&hei=800",
+    "licence": "manufacturer-marketing",
+    "source": "Manufacturer product CDN",
+    "width": 1000,
+    "height": 1000
+  }
+]

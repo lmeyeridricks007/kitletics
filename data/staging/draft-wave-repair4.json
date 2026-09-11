@@ -1,0 +1,34 @@
+{
+  "ok": [
+    {
+      "id": "prod-stance-run-crew",
+      "src": "/images/running/accessories/stance-run-crew-hero.jpg",
+      "remote": "https://www.stance.com/cdn/shop/files/about-performance_hero_fd893da8-8df7-4ae2-a7f7-43e8a9c8ad01.jpg?v=1769593374",
+      "bytes": 70677
+    },
+    {
+      "id": "prod-outdoor-research-ferrosi-gaiters",
+      "src": "/images/running/accessories/outdoor-research-ferrosi-gaiters-hero.png",
+      "remote": "http://www.outdoorresearch.com/cdn/shop/files/f26_socialsharingimage_2500x1000_cd1294f0-d203-4352-bd56-97394b4b07da.png?v=1786573434",
+      "bytes": 4326789
+    },
+    {
+      "id": "prod-oofos-oocandoo",
+      "src": "/images/running/accessories/oofos-oocandoo-hero.webp",
+      "remote": "http://www.oofos.com/cdn/shop/files/OOFOS_1200x630_54916cfd-ec75-4dcf-9238-5f4d97a33bb3.webp?v=1786712203&width=1200",
+      "bytes": 22817
+    },
+    {
+      "id": "prod-renpho-r3",
+      "src": "/images/running/accessories/renpho-r3-hero.png",
+      "remote": "http://renpho.com/cdn/shop/files/Watermark_Slogan_-_White_1200x628_32c46670-7078-4580-b32a-b21bfcc49dcd.png?v=1736224913",
+      "bytes": 50041
+    }
+  ],
+  "fail": [
+    "prod-hilly-marathon-fresh",
+    "prod-sockwell-compression-light",
+    "prod-compressport-armforce",
+    "prod-road-id-wrist"
+  ]
+}

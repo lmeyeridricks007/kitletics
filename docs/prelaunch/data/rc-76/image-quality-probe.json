@@ -1,0 +1,383 @@
+{
+  "generatedAt": "2026-09-10T17:14:02.125Z",
+  "base": "http://127.0.0.1:3010",
+  "optimizer": {
+    "65": {
+      "status": 200,
+      "type": "image/png",
+      "bytes": 20191
+    },
+    "70": {
+      "status": 200,
+      "type": "image/png",
+      "bytes": 21508
+    },
+    "75": {
+      "status": 200,
+      "type": "image/png",
+      "bytes": 22349
+    },
+    "80": {
+      "status": 400,
+      "type": "",
+      "bytes": 44
+    },
+    "100": {
+      "status": 400,
+      "type": "",
+      "bytes": 45
+    }
+  },
+  "routes": [
+    {
+      "path": "/running/shoes",
+      "label": "product cards",
+      "status": 200,
+      "htmlBytes": 367264,
+      "nextImageCount": 577,
+      "qCounts": {
+        "65": 102,
+        "70": 475
+      },
+      "sampleStatuses": [
+        {
+          "q": "70",
+          "status": 200,
+          "bytes": 2072
+        },
+        {
+          "q": "70",
+          "status": 200,
+          "bytes": 2877
+        },
+        {
+          "q": "70",
+          "status": 200,
+          "bytes": 4185
+        },
+        {
+          "q": "70",
+          "status": 200,
+          "bytes": 5933
+        },
+        {
+          "q": "70",
+          "status": 200,
+          "bytes": 7953
+        },
+        {
+          "q": "70",
+          "status": 200,
+          "bytes": 22274
+        }
+      ],
+      "broken": 0
+    },
+    {
+      "path": "/products/nike-vomero-18",
+      "label": "PDP hero",
+      "status": 200,
+      "htmlBytes": 252860,
+      "nextImageCount": 123,
+      "qCounts": {
+        "65": 51,
+        "70": 39,
+        "75": 33
+      },
+      "sampleStatuses": [
+        {
+          "q": "75",
+          "status": 200,
+          "bytes": 58492
+        },
+        {
+          "q": "75",
+          "status": 200,
+          "bytes": 79204
+        },
+        {
+          "q": "75",
+          "status": 200,
+          "bytes": 96894
+        },
+        {
+          "q": "75",
+          "status": 200,
+          "bytes": 162011
+        },
+        {
+          "q": "75",
+          "status": 200,
+          "bytes": 203560
+        },
+        {
+          "q": "75",
+          "status": 200,
+          "bytes": 518256
+        }
+      ],
+      "broken": 0
+    },
+    {
+      "path": "/reviews/nike-vomero-18",
+      "label": "Review",
+      "status": 200,
+      "htmlBytes": 356771,
+      "nextImageCount": 342,
+      "qCounts": {
+        "75": 342
+      },
+      "sampleStatuses": [
+        {
+          "q": "75",
+          "status": 200,
+          "bytes": 10022
+        },
+        {
+          "q": "75",
+          "status": 200,
+          "bytes": 15188
+        },
+        {
+          "q": "75",
+          "status": 200,
+          "bytes": 22081
+        },
+        {
+          "q": "75",
+          "status": 200,
+          "bytes": 61208
+        },
+        {
+          "q": "75",
+          "status": 200,
+          "bytes": 82202
+        },
+        {
+          "q": "75",
+          "status": 200,
+          "bytes": 97789
+        }
+      ],
+      "broken": 0
+    },
+    {
+      "path": "/best/running-shoes",
+      "label": "Best",
+      "status": 200,
+      "htmlBytes": 558528,
+      "nextImageCount": 550,
+      "qCounts": {
+        "75": 550
+      },
+      "sampleStatuses": [
+        {
+          "q": "75",
+          "status": 200,
+          "bytes": 97111
+        },
+        {
+          "q": "75",
+          "status": 200,
+          "bytes": 133658
+        },
+        {
+          "q": "75",
+          "status": 200,
+          "bytes": 161408
+        },
+        {
+          "q": "75",
+          "status": 200,
+          "bytes": 271467
+        },
+        {
+          "q": "75",
+          "status": 200,
+          "bytes": 350727
+        },
+        {
+          "q": "75",
+          "status": 200,
+          "bytes": 568610
+        }
+      ],
+      "broken": 0
+    },
+    {
+      "path": "/guides/how-to-choose-running-shoes",
+      "label": "Guide",
+      "status": 200,
+      "htmlBytes": 432891,
+      "nextImageCount": 315,
+      "qCounts": {
+        "75": 315
+      },
+      "sampleStatuses": [
+        {
+          "q": "75",
+          "status": 200,
+          "bytes": 24047
+        },
+        {
+          "q": "75",
+          "status": 200,
+          "bytes": 33417
+        },
+        {
+          "q": "75",
+          "status": 200,
+          "bytes": 97111
+        },
+        {
+          "q": "75",
+          "status": 200,
+          "bytes": 133658
+        },
+        {
+          "q": "75",
+          "status": 200,
+          "bytes": 161408
+        },
+        {
+          "q": "75",
+          "status": 200,
+          "bytes": 271467
+        }
+      ],
+      "broken": 0
+    },
+    {
+      "path": "/brands/nike",
+      "label": "Brand",
+      "status": 200,
+      "htmlBytes": 293246,
+      "nextImageCount": 537,
+      "qCounts": {
+        "65": 459,
+        "70": 65,
+        "75": 13
+      },
+      "sampleStatuses": [
+        {
+          "q": "75",
+          "status": 200,
+          "bytes": 17117
+        },
+        {
+          "q": "75",
+          "status": 200,
+          "bytes": 22744
+        },
+        {
+          "q": "75",
+          "status": 200,
+          "bytes": 27371
+        },
+        {
+          "q": "75",
+          "status": 200,
+          "bytes": 44504
+        },
+        {
+          "q": "75",
+          "status": 200,
+          "bytes": 54072
+        },
+        {
+          "q": "75",
+          "status": 200,
+          "bytes": 118960
+        }
+      ],
+      "broken": 0
+    },
+    {
+      "path": "/compare/asics-novablast-6-vs-brooks-ghost-18",
+      "label": "Compare",
+      "status": 200,
+      "htmlBytes": 246447,
+      "nextImageCount": 316,
+      "qCounts": {
+        "65": 136,
+        "75": 180
+      },
+      "sampleStatuses": [
+        {
+          "q": "75",
+          "status": 200,
+          "bytes": 15188
+        },
+        {
+          "q": "75",
+          "status": 200,
+          "bytes": 22081
+        },
+        {
+          "q": "75",
+          "status": 200,
+          "bytes": 61208
+        },
+        {
+          "q": "75",
+          "status": 200,
+          "bytes": 82202
+        },
+        {
+          "q": "75",
+          "status": 200,
+          "bytes": 97789
+        },
+        {
+          "q": "75",
+          "status": 200,
+          "bytes": 155468
+        }
+      ],
+      "broken": 0
+    },
+    {
+      "path": "/tools/running-shoe-finder",
+      "label": "Finder",
+      "status": 200,
+      "htmlBytes": 122109,
+      "nextImageCount": 67,
+      "qCounts": {
+        "75": 67
+      },
+      "sampleStatuses": [
+        {
+          "q": "75",
+          "status": 200,
+          "bytes": 738
+        },
+        {
+          "q": "75",
+          "status": 200,
+          "bytes": 894
+        },
+        {
+          "q": "75",
+          "status": 200,
+          "bytes": 1003
+        },
+        {
+          "q": "75",
+          "status": 200,
+          "bytes": 1343
+        },
+        {
+          "q": "75",
+          "status": 200,
+          "bytes": 1886
+        },
+        {
+          "q": "75",
+          "status": 200,
+          "bytes": 2429
+        }
+      ],
+      "broken": 0
+    }
+  ]
+}

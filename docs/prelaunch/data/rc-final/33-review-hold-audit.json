@@ -1,0 +1,980 @@
+{
+  "measuredAt": "2026-09-09T07:31:24.852Z",
+  "totals": {
+    "publishedReviews": 585,
+    "byQuality": {
+      "LAUNCH_READY": 46,
+      "DUPLICATIVE": 539
+    },
+    "byDisposition": {
+      "INDEXABLE": 43,
+      "HIDDEN_404": 542
+    },
+    "duplicative": 539,
+    "indexable": 43
+  },
+  "leaks": {
+    "duplicativeInSitemap": [],
+    "duplicativeIndexable": [],
+    "duplicativePromotable": [],
+    "duplicativePublicNoindex": [],
+    "pdpFullReviewCta": [],
+    "reviewsIndexIncludesHeld": [],
+    "bestGuideReviewLinks": [],
+    "searchHitsHeld": []
+  },
+  "leakCount": 0,
+  "queueTop50": [
+    {
+      "slug": "ultimate-direction-fastpack-20",
+      "productSlug": "ultimate-direction-fastpack-20",
+      "brand": "Ultimate Direction",
+      "categoryId": "cat-packs-vests",
+      "quality": "DUPLICATIVE",
+      "disposition": "HIDDEN_404",
+      "score": 99,
+      "reasons": [
+        "running",
+        "best-guide",
+        "comparison",
+        "DUPLICATIVE"
+      ],
+      "inBest": true,
+      "inComparison": true,
+      "running": true,
+      "recommendationScore": 88
+    },
+    {
+      "slug": "osprey-talon-velocity-20",
+      "productSlug": "osprey-talon-velocity-20",
+      "brand": "Osprey",
+      "categoryId": "cat-packs-vests",
+      "quality": "DUPLICATIVE",
+      "disposition": "HIDDEN_404",
+      "score": 99,
+      "reasons": [
+        "running",
+        "best-guide",
+        "comparison",
+        "DUPLICATIVE"
+      ],
+      "inBest": true,
+      "inComparison": true,
+      "running": true,
+      "recommendationScore": 86
+    },
+    {
+      "slug": "black-diamond-distance-22",
+      "productSlug": "black-diamond-distance-22",
+      "brand": "Black Diamond",
+      "categoryId": "cat-packs-vests",
+      "quality": "DUPLICATIVE",
+      "disposition": "HIDDEN_404",
+      "score": 99,
+      "reasons": [
+        "running",
+        "best-guide",
+        "comparison",
+        "DUPLICATIVE"
+      ],
+      "inBest": true,
+      "inComparison": true,
+      "running": true,
+      "recommendationScore": 86
+    },
+    {
+      "slug": "salomon-xa-15",
+      "productSlug": "salomon-xa-15",
+      "brand": "Salomon",
+      "categoryId": "cat-packs-vests",
+      "quality": "DUPLICATIVE",
+      "disposition": "HIDDEN_404",
+      "score": 99,
+      "reasons": [
+        "running",
+        "best-guide",
+        "comparison",
+        "DUPLICATIVE"
+      ],
+      "inBest": true,
+      "inComparison": true,
+      "running": true,
+      "recommendationScore": 85
+    },
+    {
+      "slug": "petzl-nao-rl",
+      "productSlug": "petzl-nao-rl",
+      "brand": "Petzl",
+      "categoryId": "cat-running-lights",
+      "quality": "DUPLICATIVE",
+      "disposition": "HIDDEN_404",
+      "score": 99,
+      "reasons": [
+        "running",
+        "best-guide",
+        "comparison",
+        "DUPLICATIVE"
+      ],
+      "inBest": true,
+      "inComparison": true,
+      "running": true,
+      "recommendationScore": 91
+    },
+    {
+      "slug": "biolite-headlamp-800-pro",
+      "productSlug": "biolite-headlamp-800-pro",
+      "brand": "BioLite",
+      "categoryId": "cat-running-lights",
+      "quality": "DUPLICATIVE",
+      "disposition": "HIDDEN_404",
+      "score": 99,
+      "reasons": [
+        "running",
+        "best-guide",
+        "comparison",
+        "DUPLICATIVE"
+      ],
+      "inBest": true,
+      "inComparison": true,
+      "running": true,
+      "recommendationScore": 85
+    },
+    {
+      "slug": "proviz-reflect360-running-vest",
+      "productSlug": "proviz-reflect360-running-vest",
+      "brand": "Proviz",
+      "categoryId": "cat-safety",
+      "quality": "DUPLICATIVE",
+      "disposition": "HIDDEN_404",
+      "score": 99,
+      "reasons": [
+        "running",
+        "best-guide",
+        "comparison",
+        "DUPLICATIVE"
+      ],
+      "inBest": true,
+      "inComparison": true,
+      "running": true,
+      "recommendationScore": 86
+    },
+    {
+      "slug": "patagonia-houdini-men",
+      "productSlug": "patagonia-houdini-men",
+      "brand": "Patagonia",
+      "categoryId": "cat-running-clothing",
+      "quality": "DUPLICATIVE",
+      "disposition": "HIDDEN_404",
+      "score": 99,
+      "reasons": [
+        "running",
+        "best-guide",
+        "comparison",
+        "DUPLICATIVE"
+      ],
+      "inBest": true,
+      "inComparison": true,
+      "running": true,
+      "recommendationScore": 91
+    },
+    {
+      "slug": "salomon-bonatti-wp-men",
+      "productSlug": "salomon-bonatti-wp-men",
+      "brand": "Salomon",
+      "categoryId": "cat-running-clothing",
+      "quality": "DUPLICATIVE",
+      "disposition": "HIDDEN_404",
+      "score": 99,
+      "reasons": [
+        "running",
+        "best-guide",
+        "comparison",
+        "DUPLICATIVE"
+      ],
+      "inBest": true,
+      "inComparison": true,
+      "running": true,
+      "recommendationScore": 90
+    },
+    {
+      "slug": "rabbit-fuel-n-fly-men",
+      "productSlug": "rabbit-fuel-n-fly-men",
+      "brand": "Rabbit",
+      "categoryId": "cat-running-clothing",
+      "quality": "DUPLICATIVE",
+      "disposition": "HIDDEN_404",
+      "score": 99,
+      "reasons": [
+        "running",
+        "best-guide",
+        "comparison",
+        "DUPLICATIVE"
+      ],
+      "inBest": true,
+      "inComparison": true,
+      "running": true,
+      "recommendationScore": 89
+    },
+    {
+      "slug": "maurten-drink-mix-320",
+      "productSlug": "maurten-drink-mix-320",
+      "brand": "Maurten",
+      "categoryId": "cat-nutrition",
+      "quality": "DUPLICATIVE",
+      "disposition": "HIDDEN_404",
+      "score": 99,
+      "reasons": [
+        "running",
+        "best-guide",
+        "comparison",
+        "DUPLICATIVE"
+      ],
+      "inBest": true,
+      "inComparison": true,
+      "running": true,
+      "recommendationScore": 92
+    },
+    {
+      "slug": "maurten-gel-100",
+      "productSlug": "maurten-gel-100",
+      "brand": "Maurten",
+      "categoryId": "cat-nutrition",
+      "quality": "DUPLICATIVE",
+      "disposition": "HIDDEN_404",
+      "score": 99,
+      "reasons": [
+        "running",
+        "best-guide",
+        "comparison",
+        "DUPLICATIVE"
+      ],
+      "inBest": true,
+      "inComparison": true,
+      "running": true,
+      "recommendationScore": 90
+    },
+    {
+      "slug": "precision-pf30-gel",
+      "productSlug": "precision-pf30-gel",
+      "brand": "Precision Fuel & Hydration",
+      "categoryId": "cat-nutrition",
+      "quality": "DUPLICATIVE",
+      "disposition": "HIDDEN_404",
+      "score": 99,
+      "reasons": [
+        "running",
+        "best-guide",
+        "comparison",
+        "DUPLICATIVE"
+      ],
+      "inBest": true,
+      "inComparison": true,
+      "running": true,
+      "recommendationScore": 90
+    },
+    {
+      "slug": "neversecond-c30-gel",
+      "productSlug": "neversecond-c30-gel",
+      "brand": "Neversecond",
+      "categoryId": "cat-nutrition",
+      "quality": "DUPLICATIVE",
+      "disposition": "HIDDEN_404",
+      "score": 99,
+      "reasons": [
+        "running",
+        "best-guide",
+        "comparison",
+        "DUPLICATIVE"
+      ],
+      "inBest": true,
+      "inComparison": true,
+      "running": true,
+      "recommendationScore": 89
+    },
+    {
+      "slug": "sis-beta-fuel-gel",
+      "productSlug": "sis-beta-fuel-gel",
+      "brand": "Science in Sport",
+      "categoryId": "cat-nutrition",
+      "quality": "DUPLICATIVE",
+      "disposition": "HIDDEN_404",
+      "score": 99,
+      "reasons": [
+        "running",
+        "best-guide",
+        "comparison",
+        "DUPLICATIVE"
+      ],
+      "inBest": true,
+      "inComparison": true,
+      "running": true,
+      "recommendationScore": 88
+    },
+    {
+      "slug": "oakley-radar-ev-path",
+      "productSlug": "oakley-radar-ev-path",
+      "brand": "Oakley",
+      "categoryId": "cat-sunglasses",
+      "quality": "DUPLICATIVE",
+      "disposition": "HIDDEN_404",
+      "score": 99,
+      "reasons": [
+        "running",
+        "best-guide",
+        "comparison",
+        "DUPLICATIVE"
+      ],
+      "inBest": true,
+      "inComparison": true,
+      "running": true,
+      "recommendationScore": 90
+    },
+    {
+      "slug": "smith-shift-mag",
+      "productSlug": "smith-shift-mag",
+      "brand": "Smith",
+      "categoryId": "cat-sunglasses",
+      "quality": "DUPLICATIVE",
+      "disposition": "HIDDEN_404",
+      "score": 99,
+      "reasons": [
+        "running",
+        "best-guide",
+        "comparison",
+        "DUPLICATIVE"
+      ],
+      "inBest": true,
+      "inComparison": true,
+      "running": true,
+      "recommendationScore": 89
+    },
+    {
+      "slug": "julbo-ultimate",
+      "productSlug": "julbo-ultimate",
+      "brand": "Julbo",
+      "categoryId": "cat-sunglasses",
+      "quality": "DUPLICATIVE",
+      "disposition": "HIDDEN_404",
+      "score": 99,
+      "reasons": [
+        "running",
+        "best-guide",
+        "comparison",
+        "DUPLICATIVE"
+      ],
+      "inBest": true,
+      "inComparison": true,
+      "running": true,
+      "recommendationScore": 90
+    },
+    {
+      "slug": "tailwind-endurance-fuel",
+      "productSlug": "tailwind-endurance-fuel",
+      "brand": "Tailwind",
+      "categoryId": "cat-nutrition",
+      "quality": "DUPLICATIVE",
+      "disposition": "HIDDEN_404",
+      "score": 99,
+      "reasons": [
+        "running",
+        "best-guide",
+        "comparison",
+        "DUPLICATIVE"
+      ],
+      "inBest": true,
+      "inComparison": true,
+      "running": true,
+      "recommendationScore": 86
+    },
+    {
+      "slug": "brooks-canopy-jacket-men",
+      "productSlug": "brooks-canopy-jacket-men",
+      "brand": "Brooks",
+      "categoryId": "cat-running-clothing",
+      "quality": "DUPLICATIVE",
+      "disposition": "HIDDEN_404",
+      "score": 99,
+      "reasons": [
+        "running",
+        "best-guide",
+        "comparison",
+        "DUPLICATIVE"
+      ],
+      "inBest": true,
+      "inComparison": true,
+      "running": true,
+      "recommendationScore": 85
+    },
+    {
+      "slug": "janji-rainrunner-men",
+      "productSlug": "janji-rainrunner-men",
+      "brand": "Janji",
+      "categoryId": "cat-running-clothing",
+      "quality": "DUPLICATIVE",
+      "disposition": "HIDDEN_404",
+      "score": 99,
+      "reasons": [
+        "running",
+        "best-guide",
+        "comparison",
+        "DUPLICATIVE"
+      ],
+      "inBest": true,
+      "inComparison": true,
+      "running": true,
+      "recommendationScore": 86
+    },
+    {
+      "slug": "patagonia-capilene-cool-daily-men",
+      "productSlug": "patagonia-capilene-cool-daily-men",
+      "brand": "Patagonia",
+      "categoryId": "cat-running-clothing",
+      "quality": "DUPLICATIVE",
+      "disposition": "HIDDEN_404",
+      "score": 99,
+      "reasons": [
+        "running",
+        "best-guide",
+        "comparison",
+        "DUPLICATIVE"
+      ],
+      "inBest": true,
+      "inComparison": true,
+      "running": true,
+      "recommendationScore": 86
+    },
+    {
+      "slug": "oakley-encoder",
+      "productSlug": "oakley-encoder",
+      "brand": "Oakley",
+      "categoryId": "cat-sunglasses",
+      "quality": "DUPLICATIVE",
+      "disposition": "HIDDEN_404",
+      "score": 99,
+      "reasons": [
+        "running",
+        "best-guide",
+        "comparison",
+        "DUPLICATIVE"
+      ],
+      "inBest": true,
+      "inComparison": true,
+      "running": true,
+      "recommendationScore": 85
+    },
+    {
+      "slug": "asics-gel-nimbus-27",
+      "productSlug": "asics-gel-nimbus-27",
+      "brand": "ASICS",
+      "categoryId": "cat-running-shoes",
+      "quality": "DUPLICATIVE",
+      "disposition": "HIDDEN_404",
+      "score": 99,
+      "reasons": [
+        "running",
+        "best-guide",
+        "comparison",
+        "DUPLICATIVE"
+      ],
+      "inBest": true,
+      "inComparison": true,
+      "running": true,
+      "recommendationScore": 86
+    },
+    {
+      "slug": "coros-pace-pro",
+      "productSlug": "coros-pace-pro",
+      "brand": "COROS",
+      "categoryId": "cat-gps-watches",
+      "quality": "DUPLICATIVE",
+      "disposition": "HIDDEN_404",
+      "score": 99,
+      "reasons": [
+        "running",
+        "best-guide",
+        "comparison",
+        "DUPLICATIVE"
+      ],
+      "inBest": true,
+      "inComparison": true,
+      "running": true,
+      "recommendationScore": 89
+    },
+    {
+      "slug": "flipbelt-classic",
+      "productSlug": "flipbelt-classic",
+      "brand": "FlipBelt",
+      "categoryId": "cat-running-belts",
+      "quality": "DUPLICATIVE",
+      "disposition": "HIDDEN_404",
+      "score": 99,
+      "reasons": [
+        "running",
+        "best-guide",
+        "comparison",
+        "DUPLICATIVE"
+      ],
+      "inBest": true,
+      "inComparison": true,
+      "running": true,
+      "recommendationScore": 85
+    },
+    {
+      "slug": "hydrapak-softflask-speed-500",
+      "productSlug": "hydrapak-softflask-speed-500",
+      "brand": "HydraPak",
+      "categoryId": "cat-hydration",
+      "quality": "DUPLICATIVE",
+      "disposition": "HIDDEN_404",
+      "score": 99,
+      "reasons": [
+        "running",
+        "best-guide",
+        "comparison",
+        "DUPLICATIVE"
+      ],
+      "inBest": true,
+      "inComparison": true,
+      "running": true,
+      "recommendationScore": 88
+    },
+    {
+      "slug": "naked-running-band",
+      "productSlug": "naked-running-band",
+      "brand": "Naked",
+      "categoryId": "cat-running-belts",
+      "quality": "DUPLICATIVE",
+      "disposition": "HIDDEN_404",
+      "score": 99,
+      "reasons": [
+        "running",
+        "best-guide",
+        "comparison",
+        "DUPLICATIVE"
+      ],
+      "inBest": true,
+      "inComparison": true,
+      "running": true,
+      "recommendationScore": 88
+    },
+    {
+      "slug": "nathan-vaporair-4",
+      "productSlug": "nathan-vaporair-4",
+      "brand": "Nathan",
+      "categoryId": "cat-packs-vests",
+      "quality": "DUPLICATIVE",
+      "disposition": "HIDDEN_404",
+      "score": 99,
+      "reasons": [
+        "running",
+        "best-guide",
+        "comparison",
+        "DUPLICATIVE"
+      ],
+      "inBest": true,
+      "inComparison": true,
+      "running": true,
+      "recommendationScore": 88
+    },
+    {
+      "slug": "petzl-swift-rl",
+      "productSlug": "petzl-swift-rl",
+      "brand": "Petzl",
+      "categoryId": "cat-running-lights",
+      "quality": "DUPLICATIVE",
+      "disposition": "HIDDEN_404",
+      "score": 99,
+      "reasons": [
+        "running",
+        "best-guide",
+        "comparison",
+        "DUPLICATIVE"
+      ],
+      "inBest": true,
+      "inComparison": true,
+      "running": true,
+      "recommendationScore": 87
+    },
+    {
+      "slug": "salomon-adv-skin-12",
+      "productSlug": "salomon-adv-skin-12",
+      "brand": "Salomon",
+      "categoryId": "cat-packs-vests",
+      "quality": "DUPLICATIVE",
+      "disposition": "HIDDEN_404",
+      "score": 99,
+      "reasons": [
+        "running",
+        "best-guide",
+        "comparison",
+        "DUPLICATIVE"
+      ],
+      "inBest": true,
+      "inComparison": true,
+      "running": true,
+      "recommendationScore": 90
+    },
+    {
+      "slug": "salomon-adv-skin-5",
+      "productSlug": "salomon-adv-skin-5",
+      "brand": "Salomon",
+      "categoryId": "cat-packs-vests",
+      "quality": "DUPLICATIVE",
+      "disposition": "HIDDEN_404",
+      "score": 99,
+      "reasons": [
+        "running",
+        "best-guide",
+        "comparison",
+        "DUPLICATIVE"
+      ],
+      "inBest": true,
+      "inComparison": true,
+      "running": true,
+      "recommendationScore": 90
+    },
+    {
+      "slug": "shokz-openrun-pro-2",
+      "productSlug": "shokz-openrun-pro-2",
+      "brand": "Shokz",
+      "categoryId": "cat-headphones",
+      "quality": "DUPLICATIVE",
+      "disposition": "HIDDEN_404",
+      "score": 99,
+      "reasons": [
+        "running",
+        "best-guide",
+        "comparison",
+        "DUPLICATIVE"
+      ],
+      "inBest": true,
+      "inComparison": true,
+      "running": true,
+      "recommendationScore": 88
+    },
+    {
+      "slug": "ultimate-direction-race-vest-6",
+      "productSlug": "ultimate-direction-race-vest-6",
+      "brand": "Ultimate Direction",
+      "categoryId": "cat-packs-vests",
+      "quality": "DUPLICATIVE",
+      "disposition": "HIDDEN_404",
+      "score": 99,
+      "reasons": [
+        "running",
+        "best-guide",
+        "comparison",
+        "DUPLICATIVE"
+      ],
+      "inBest": true,
+      "inComparison": true,
+      "running": true,
+      "recommendationScore": 89
+    },
+    {
+      "slug": "wahoo-trackr",
+      "productSlug": "wahoo-trackr",
+      "brand": "Wahoo",
+      "categoryId": "cat-hrm",
+      "quality": "DUPLICATIVE",
+      "disposition": "HIDDEN_404",
+      "score": 99,
+      "reasons": [
+        "running",
+        "best-guide",
+        "comparison",
+        "DUPLICATIVE"
+      ],
+      "inBest": true,
+      "inComparison": true,
+      "running": true,
+      "recommendationScore": 86
+    },
+    {
+      "slug": "janji-multi-short-men",
+      "productSlug": "janji-multi-short-men",
+      "brand": "Janji",
+      "categoryId": "cat-running-clothing",
+      "quality": "DUPLICATIVE",
+      "disposition": "HIDDEN_404",
+      "score": 99,
+      "reasons": [
+        "running",
+        "best-guide",
+        "comparison",
+        "DUPLICATIVE"
+      ],
+      "inBest": true,
+      "inComparison": true,
+      "running": true,
+      "recommendationScore": 88
+    },
+    {
+      "slug": "janji-pace-short-women",
+      "productSlug": "janji-pace-short-women",
+      "brand": "Janji",
+      "categoryId": "cat-running-clothing",
+      "quality": "DUPLICATIVE",
+      "disposition": "HIDDEN_404",
+      "score": 99,
+      "reasons": [
+        "running",
+        "best-guide",
+        "comparison",
+        "DUPLICATIVE"
+      ],
+      "inBest": true,
+      "inComparison": true,
+      "running": true,
+      "recommendationScore": 87
+    },
+    {
+      "slug": "darn-tough-run-1-4",
+      "productSlug": "darn-tough-run-1-4",
+      "brand": "Darn Tough",
+      "categoryId": "cat-running-socks",
+      "quality": "DUPLICATIVE",
+      "disposition": "HIDDEN_404",
+      "score": 99,
+      "reasons": [
+        "running",
+        "best-guide",
+        "comparison",
+        "DUPLICATIVE"
+      ],
+      "inBest": true,
+      "inComparison": true,
+      "running": true,
+      "recommendationScore": 88
+    },
+    {
+      "slug": "osprey-duro-15",
+      "productSlug": "osprey-duro-15",
+      "brand": "Osprey",
+      "categoryId": "cat-packs-vests",
+      "quality": "DUPLICATIVE",
+      "disposition": "HIDDEN_404",
+      "score": 98,
+      "reasons": [
+        "running",
+        "best-guide",
+        "comparison",
+        "DUPLICATIVE"
+      ],
+      "inBest": true,
+      "inComparison": true,
+      "running": true,
+      "recommendationScore": 83
+    },
+    {
+      "slug": "petzl-actik-core",
+      "productSlug": "petzl-actik-core",
+      "brand": "Petzl",
+      "categoryId": "cat-running-lights",
+      "quality": "DUPLICATIVE",
+      "disposition": "HIDDEN_404",
+      "score": 98,
+      "reasons": [
+        "running",
+        "best-guide",
+        "comparison",
+        "DUPLICATIVE"
+      ],
+      "inBest": true,
+      "inComparison": true,
+      "running": true,
+      "recommendationScore": 84
+    },
+    {
+      "slug": "triggerpoint-grid-x",
+      "productSlug": "triggerpoint-grid-x",
+      "brand": "TriggerPoint",
+      "categoryId": "cat-recovery-gear",
+      "quality": "DUPLICATIVE",
+      "disposition": "HIDDEN_404",
+      "score": 98,
+      "reasons": [
+        "running",
+        "best-guide",
+        "comparison",
+        "DUPLICATIVE"
+      ],
+      "inBest": true,
+      "inComparison": true,
+      "running": true,
+      "recommendationScore": 82
+    },
+    {
+      "slug": "sis-go-isotonic-gel",
+      "productSlug": "sis-go-isotonic-gel",
+      "brand": "Science in Sport",
+      "categoryId": "cat-nutrition",
+      "quality": "DUPLICATIVE",
+      "disposition": "HIDDEN_404",
+      "score": 98,
+      "reasons": [
+        "running",
+        "best-guide",
+        "comparison",
+        "DUPLICATIVE"
+      ],
+      "inBest": true,
+      "inComparison": true,
+      "running": true,
+      "recommendationScore": 82
+    },
+    {
+      "slug": "clif-bloks-energy-chews",
+      "productSlug": "clif-bloks-energy-chews",
+      "brand": "Clif Bar",
+      "categoryId": "cat-nutrition",
+      "quality": "DUPLICATIVE",
+      "disposition": "HIDDEN_404",
+      "score": 98,
+      "reasons": [
+        "running",
+        "best-guide",
+        "comparison",
+        "DUPLICATIVE"
+      ],
+      "inBest": true,
+      "inComparison": true,
+      "running": true,
+      "recommendationScore": 84
+    },
+    {
+      "slug": "nuun-sport",
+      "productSlug": "nuun-sport",
+      "brand": "Nuun",
+      "categoryId": "cat-nutrition",
+      "quality": "DUPLICATIVE",
+      "disposition": "HIDDEN_404",
+      "score": 98,
+      "reasons": [
+        "running",
+        "best-guide",
+        "comparison",
+        "DUPLICATIVE"
+      ],
+      "inBest": true,
+      "inComparison": true,
+      "running": true,
+      "recommendationScore": 82
+    },
+    {
+      "slug": "patagonia-strider-pro-men",
+      "productSlug": "patagonia-strider-pro-men",
+      "brand": "Patagonia",
+      "categoryId": "cat-running-clothing",
+      "quality": "DUPLICATIVE",
+      "disposition": "HIDDEN_404",
+      "score": 98,
+      "reasons": [
+        "running",
+        "best-guide",
+        "comparison",
+        "DUPLICATIVE"
+      ],
+      "inBest": true,
+      "inComparison": true,
+      "running": true,
+      "recommendationScore": 84
+    },
+    {
+      "slug": "tracksmith-twilight-half-men",
+      "productSlug": "tracksmith-twilight-half-men",
+      "brand": "Tracksmith",
+      "categoryId": "cat-running-clothing",
+      "quality": "DUPLICATIVE",
+      "disposition": "HIDDEN_404",
+      "score": 98,
+      "reasons": [
+        "running",
+        "best-guide",
+        "comparison",
+        "DUPLICATIVE"
+      ],
+      "inBest": true,
+      "inComparison": true,
+      "running": true,
+      "recommendationScore": 84
+    },
+    {
+      "slug": "nike-fast-tight-men",
+      "productSlug": "nike-fast-tight-men",
+      "brand": "Nike",
+      "categoryId": "cat-running-clothing",
+      "quality": "DUPLICATIVE",
+      "disposition": "HIDDEN_404",
+      "score": 98,
+      "reasons": [
+        "running",
+        "best-guide",
+        "comparison",
+        "DUPLICATIVE"
+      ],
+      "inBest": true,
+      "inComparison": true,
+      "running": true,
+      "recommendationScore": 83
+    },
+    {
+      "slug": "apple-airpods-pro-2",
+      "productSlug": "apple-airpods-pro-2",
+      "brand": "Apple",
+      "categoryId": "cat-headphones",
+      "quality": "DUPLICATIVE",
+      "disposition": "HIDDEN_404",
+      "score": 98,
+      "reasons": [
+        "running",
+        "best-guide",
+        "comparison",
+        "DUPLICATIVE"
+      ],
+      "inBest": true,
+      "inComparison": true,
+      "running": true,
+      "recommendationScore": 82
+    },
+    {
+      "slug": "black-diamond-spot-400-r",
+      "productSlug": "black-diamond-spot-400-r",
+      "brand": "Black Diamond",
+      "categoryId": "cat-running-lights",
+      "quality": "DUPLICATIVE",
+      "disposition": "HIDDEN_404",
+      "score": 98,
+      "reasons": [
+        "running",
+        "best-guide",
+        "comparison",
+        "DUPLICATIVE"
+      ],
+      "inBest": true,
+      "inComparison": true,
+      "running": true,
+      "recommendationScore": 81
+    },
+    {
+      "slug": "bose-ultra-open-earbuds",
+      "productSlug": "bose-ultra-open-earbuds",
+      "brand": "Bose",
+      "categoryId": "cat-headphones",
+      "quality": "DUPLICATIVE",
+      "disposition": "HIDDEN_404",
+      "score": 98,
+      "reasons": [
+        "running",
+        "best-guide",
+        "comparison",
+        "DUPLICATIVE"
+      ],
+      "inBest": true,
+      "inComparison": true,
+      "running": true,
+      "recommendationScore": 79
+    }
+  ],
+  "queueTotal": 539
+}

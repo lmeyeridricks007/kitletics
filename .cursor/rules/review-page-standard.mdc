@@ -1,0 +1,75 @@
+---
+description: Kitletics product review page standard — Vomero 18 is the template. Voice, Buy/Skip, images, links, Amazon CTAs.
+alwaysApply: true
+---
+
+# Product review page standard (template: Nike Vomero 18)
+
+Reference implementation: `/reviews/nike-vomero-18` · seeds in `src/content/reviews-wave1.ts` (`review-vomero-18`).
+
+When writing, rewriting, enriching, or auditing **any** product review, match this bar.
+
+## 1. Voice
+
+- Expert buying-guide editor — personal, specific, honest.
+- Not a research paper, SEO listicle, hangtag listing, or “how to read this page” meta.
+- Name peers, sessions, foams, widths, surfaces. Prefer “I'd shortlist / I'd pause / I'd rotate…”.
+- Disclose once in testing context — never repeat “we didn’t test this” in every section.
+- Detector: `src/lib/review/review-voice.ts` · agent: `agents/product-review/voice.md` · skill: `.cursor/skills/review-writer/SKILL.md`.
+
+## 2. Buy if / Skip if
+
+- **≥2–3 lines each**, full decision sentences (who + need + why this product / why not).
+- Not telegram labels (“Trail runners”, “Tempo day athletes”).
+- Name peers or fit constraints when useful.
+- Glance “Best for” uses stacked bullets (shortened); comparison-table “Best for” stays punchy (`product.strengths[0]`).
+- Enricher: `src/lib/review/audience-signals.ts` (page-time upgrade for thin signals).
+
+## 3. Section depth
+
+Every major shoe section (fit, cushioning, ride, stability, upper, grip, durability) needs real buyer insight — not one-line listings. Same bar for watches / racket / fitness with category criteria.
+
+## 4. Section images
+
+See `.cursor/rules/review-section-images.mdc`.
+
+- **Required:** every major section on the page has its own product image when a hero exists.
+- Product-only · one `src` per section · generate unique variants from the hero when missing · omit rather than duplicate or wrong brand.
+- Path: `public/images/<sport>/products/<slug>/sections/<topic>.png` (`watches` for GPS/HRM)
+- Resolver: `src/lib/review/resolve-section-visuals.ts`
+- **Agent must generate missing section files before calling a review done.**
+
+## 5. Internal linking
+
+Plain review copy must link catalog mentions:
+
+- Brand names → `/brands/<slug>`
+- Other products → `/products/<slug>` (prefer page alternatives/peers for short aliases)
+
+Use `LinkifiedText` / `segmentCatalogMentions` — do not leave bare “Brooks” / “Pegasus” in body copy when those entities exist in catalog.
+
+## 6. Amazon / buy CTAs
+
+Where an Amazon (or regional Amazon) offer exists, surface it in multiple places:
+
+- Hero / score panel
+- Mid-article strip
+- Verdict card (primary)
+- Where-to-buy list (“View on Amazon”)
+- Footer under offers
+
+Helpers: `src/lib/review/amazon-offer.ts`, `ReviewAmazonCta`. Affiliate disclosure stays near offers. Never invent prices in prose.
+
+## 7. Scores / gauges
+
+Metric “why” blurbs are product-specific — not “Excellent for this product’s intended role” templates (`metric-editorials.ts`).
+
+## Definition of done (any review)
+
+- [ ] Clear bottom line / verdict for a real use case
+- [ ] Buy if / Skip if detailed (≥2–3 each)
+- [ ] No `isReportOrJunkVoice` on enriched bodies
+- [ ] Unique product section images for every major section — generated from hero if missing; no hero stamp; no other brands
+- [ ] Brand/product mentions link internally
+- [ ] Amazon/buy CTAs present when offers exist
+- [ ] Would still make sense read aloud to a friend in a shop

@@ -1,0 +1,4462 @@
+{
+  "generatedAt": "2026-09-10T19:11:49.675Z",
+  "products": 631,
+  "indexable": 375,
+  "runningIndexable": 375,
+  "relationshipsApproved": 2728,
+  "scores": {
+    "productAlternative": {
+      "STRONG": 1425,
+      "VALID": 322,
+      "WEAK": 149,
+      "INVALID": 0
+    },
+    "productComparison": {
+      "STRONG": 74,
+      "VALID": 10,
+      "WEAK": 10,
+      "INVALID": 0
+    },
+    "productBest": {
+      "STRONG": 360,
+      "VALID": 0,
+      "WEAK": 5,
+      "INVALID": 0
+    },
+    "productGuide": {
+      "STRONG": 58,
+      "VALID": 190,
+      "WEAK": 32,
+      "INVALID": 0
+    },
+    "reviewAlternative": {
+      "STRONG": 1206,
+      "VALID": 475,
+      "WEAK": 275,
+      "INVALID": 0
+    },
+    "bestComparison": {
+      "STRONG": 63,
+      "VALID": 9,
+      "WEAK": 7,
+      "INVALID": 0
+    }
+  },
+  "runningIndexableAlts": {
+    "invalid": 0,
+    "weak": 12
+  },
+  "productAlternativeInvalid": [],
+  "productAlternativeWeak": [
+    {
+      "source": "saucony-endorphin-speed-4",
+      "target": "puma-deviate-nitro-3",
+      "type": "direct-competitor",
+      "cls": "WEAK",
+      "reasons": [
+        "same role, unrelated previous-gen"
+      ],
+      "runningIndexable": true
+    },
+    {
+      "source": "new-balance-fuelcell-rebel-v4",
+      "target": "hoka-mach-6",
+      "type": "direct-competitor",
+      "cls": "WEAK",
+      "reasons": [
+        "same role, unrelated previous-gen"
+      ],
+      "runningIndexable": true
+    },
+    {
+      "source": "saucony-endorphin-pro-3",
+      "target": "adidas-adizero-adios-pro-4",
+      "type": "direct-competitor",
+      "cls": "WEAK",
+      "reasons": [
+        "same role, unrelated previous-gen"
+      ],
+      "runningIndexable": true
+    },
+    {
+      "source": "wahoo-tickr",
+      "target": "polar-h9",
+      "type": "better-value",
+      "cls": "WEAK",
+      "reasons": [
+        "unrelated previous-generation"
+      ],
+      "runningIndexable": true
+    },
+    {
+      "source": "wahoo-tickr-x",
+      "target": "polar-h10",
+      "type": "direct-competitor",
+      "cls": "WEAK",
+      "reasons": [
+        "unrelated previous-generation"
+      ],
+      "runningIndexable": true
+    },
+    {
+      "source": "garmin-epix-pro-gen-2",
+      "target": "coros-apex-4",
+      "type": "lighter-alternative",
+      "cls": "WEAK",
+      "reasons": [
+        "unrelated previous-generation"
+      ],
+      "runningIndexable": true
+    },
+    {
+      "source": "naak-ultra-energy-bar",
+      "target": "clif-bloks-energy-chews",
+      "type": "better-value",
+      "cls": "WEAK",
+      "reasons": [
+        "nutrition form bar vs chew"
+      ],
+      "runningIndexable": true
+    },
+    {
+      "source": "powerbar-energize",
+      "target": "clif-bloks-energy-chews",
+      "type": "trail-alternative",
+      "cls": "WEAK",
+      "reasons": [
+        "nutrition form bar vs chew"
+      ],
+      "runningIndexable": true
+    },
+    {
+      "source": "nuun-sport",
+      "target": "saltstick-fastchews",
+      "type": "race-focused-alternative",
+      "cls": "WEAK",
+      "reasons": [
+        "nutrition form drink vs chew"
+      ],
+      "runningIndexable": true
+    },
+    {
+      "source": "nathan-vaporair-2",
+      "target": "ultimate-direction-adventure-vest",
+      "type": "direct-competitor",
+      "cls": "WEAK",
+      "reasons": [
+        "unrelated previous-generation"
+      ],
+      "runningIndexable": true
+    },
+    {
+      "source": "camelbak-zephyr",
+      "target": "ultimate-direction-adventure-vest",
+      "type": "direct-competitor",
+      "cls": "WEAK",
+      "reasons": [
+        "unrelated previous-generation"
+      ],
+      "runningIndexable": true
+    },
+    {
+      "source": "camelbak-zephyr",
+      "target": "salomon-adv-skin-12",
+      "type": "direct-competitor",
+      "cls": "WEAK",
+      "reasons": [
+        "unrelated previous-generation"
+      ],
+      "runningIndexable": true
+    },
+    {
+      "source": "bullpadel-vertex-04",
+      "target": "head-coello-pro-2026",
+      "type": "better-value",
+      "cls": "WEAK",
+      "reasons": [
+        "unrelated previous-generation"
+      ],
+      "runningIndexable": false
+    },
+    {
+      "source": "babolat-technical-viper-2026",
+      "target": "nox-at10-genius-18k-2026",
+      "type": "better-value",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ],
+      "runningIndexable": false
+    },
+    {
+      "source": "adidas-courtstabil-padel",
+      "target": "asics-gel-challenger-court",
+      "type": "better-value",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ],
+      "runningIndexable": false
+    },
+    {
+      "source": "adidas-courtstabil-padel",
+      "target": "babolat-movea-2",
+      "type": "direct-competitor",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ],
+      "runningIndexable": false
+    },
+    {
+      "source": "adidas-courtstabil-padel",
+      "target": "asics-gel-resolution-padel",
+      "type": "direct-competitor",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ],
+      "runningIndexable": false
+    },
+    {
+      "source": "wilson-bela-pro-v2-2026",
+      "target": "nox-at10-genius-18k-2026",
+      "type": "better-value",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ],
+      "runningIndexable": false
+    },
+    {
+      "source": "starvie-titania-kepler-2026",
+      "target": "adidas-metalbone-hrd-2026",
+      "type": "direct-competitor",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ],
+      "runningIndexable": false
+    },
+    {
+      "source": "adidas-metalbone-hrd-2026",
+      "target": "bullpadel-hack-03",
+      "type": "better-value",
+      "cls": "WEAK",
+      "reasons": [
+        "unrelated previous-generation"
+      ],
+      "runningIndexable": false
+    },
+    {
+      "source": "varlion-lw-carbon-difusor-2026",
+      "target": "bullpadel-vertex-04",
+      "type": "direct-competitor",
+      "cls": "WEAK",
+      "reasons": [
+        "unrelated previous-generation"
+      ],
+      "runningIndexable": false
+    },
+    {
+      "source": "bullpadel-hack-03",
+      "target": "adidas-metalbone-hrd-2026",
+      "type": "direct-competitor",
+      "cls": "WEAK",
+      "reasons": [
+        "unrelated previous-generation"
+      ],
+      "runningIndexable": false
+    },
+    {
+      "source": "asics-gel-resolution-padel",
+      "target": "joma-t-slam",
+      "type": "better-value",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ],
+      "runningIndexable": false
+    },
+    {
+      "source": "asics-gel-resolution-padel",
+      "target": "adidas-courtstabil-padel",
+      "type": "direct-competitor",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ],
+      "runningIndexable": false
+    },
+    {
+      "source": "asics-gel-resolution-padel",
+      "target": "asics-gel-resolution-padel-women",
+      "type": "direct-competitor",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ],
+      "runningIndexable": false
+    },
+    {
+      "source": "asics-gel-challenger-court",
+      "target": "head-revolt-pro-court",
+      "type": "better-value",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ],
+      "runningIndexable": false
+    },
+    {
+      "source": "asics-gel-challenger-court",
+      "target": "adidas-courtstabil-padel",
+      "type": "direct-competitor",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ],
+      "runningIndexable": false
+    },
+    {
+      "source": "asics-gel-challenger-court",
+      "target": "asics-gel-resolution-padel",
+      "type": "direct-competitor",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ],
+      "runningIndexable": false
+    },
+    {
+      "source": "babolat-jet-premura",
+      "target": "head-revolt-pro-court",
+      "type": "better-value",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ],
+      "runningIndexable": false
+    },
+    {
+      "source": "babolat-jet-premura",
+      "target": "adidas-courtstabil-padel",
+      "type": "similar",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ],
+      "runningIndexable": false
+    },
+    {
+      "source": "babolat-jet-premura",
+      "target": "asics-gel-resolution-padel",
+      "type": "direct-competitor",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ],
+      "runningIndexable": false
+    },
+    {
+      "source": "joma-t-slam",
+      "target": "adidas-courtstabil-padel",
+      "type": "similar",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ],
+      "runningIndexable": false
+    },
+    {
+      "source": "joma-t-slam",
+      "target": "head-revolt-pro-court",
+      "type": "better-value",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ],
+      "runningIndexable": false
+    },
+    {
+      "source": "joma-t-slam",
+      "target": "asics-gel-resolution-padel",
+      "type": "direct-competitor",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ],
+      "runningIndexable": false
+    },
+    {
+      "source": "head-revolt-pro-court",
+      "target": "joma-t-slam",
+      "type": "direct-competitor",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ],
+      "runningIndexable": false
+    },
+    {
+      "source": "head-revolt-pro-court",
+      "target": "adidas-courtstabil-padel",
+      "type": "similar",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ],
+      "runningIndexable": false
+    },
+    {
+      "source": "head-revolt-pro-court",
+      "target": "asics-gel-resolution-padel",
+      "type": "direct-competitor",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ],
+      "runningIndexable": false
+    },
+    {
+      "source": "adidas-crazyquick-boost-padel",
+      "target": "asics-gel-resolution-padel",
+      "type": "similar",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ],
+      "runningIndexable": false
+    },
+    {
+      "source": "adidas-crazyquick-boost-padel",
+      "target": "nox-at10-lux",
+      "type": "direct-competitor",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ],
+      "runningIndexable": false
+    },
+    {
+      "source": "adidas-crazyquick-boost-padel",
+      "target": "asics-gel-resolution-padel-women",
+      "type": "better-value",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ],
+      "runningIndexable": false
+    },
+    {
+      "source": "adidas-courtquick-padel-women",
+      "target": "joma-slam-lady",
+      "type": "better-value",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ],
+      "runningIndexable": false
+    },
+    {
+      "source": "adidas-courtquick-padel-women",
+      "target": "bullpadel-ionic-woman",
+      "type": "similar",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ],
+      "runningIndexable": false
+    },
+    {
+      "source": "adidas-courtquick-padel-women",
+      "target": "asics-gel-resolution-padel",
+      "type": "direct-competitor",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ],
+      "runningIndexable": false
+    },
+    {
+      "source": "adidas-crazyquick-boost-padel-women",
+      "target": "asics-solution-swift-ff2-padel",
+      "type": "similar",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ],
+      "runningIndexable": false
+    },
+    {
+      "source": "adidas-crazyquick-boost-padel-women",
+      "target": "bullpadel-ionic-woman",
+      "type": "better-value",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ],
+      "runningIndexable": false
+    },
+    {
+      "source": "adidas-crazyquick-boost-padel-women",
+      "target": "asics-gel-resolution-padel",
+      "type": "direct-competitor",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ],
+      "runningIndexable": false
+    },
+    {
+      "source": "asics-gel-dedicate-8-padel",
+      "target": "joma-t-slam",
+      "type": "better-value",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ],
+      "runningIndexable": false
+    },
+    {
+      "source": "asics-gel-dedicate-8-padel",
+      "target": "adidas-courtstabil-padel",
+      "type": "similar",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ],
+      "runningIndexable": false
+    },
+    {
+      "source": "asics-gel-dedicate-8-padel",
+      "target": "asics-gel-resolution-padel",
+      "type": "direct-competitor",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ],
+      "runningIndexable": false
+    },
+    {
+      "source": "asics-game-ff-padel",
+      "target": "babolat-jet-premura",
+      "type": "similar",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ],
+      "runningIndexable": false
+    },
+    {
+      "source": "asics-game-ff-padel",
+      "target": "head-sprint-pro-4-padel",
+      "type": "better-value",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ],
+      "runningIndexable": false
+    },
+    {
+      "source": "asics-game-ff-padel",
+      "target": "asics-gel-resolution-padel",
+      "type": "direct-competitor",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ],
+      "runningIndexable": false
+    },
+    {
+      "source": "asics-solution-swift-ff2-padel",
+      "target": "babolat-jet-premura",
+      "type": "similar",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ],
+      "runningIndexable": false
+    },
+    {
+      "source": "asics-solution-swift-ff2-padel",
+      "target": "wilson-rush-pro-5-padel",
+      "type": "better-value",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ],
+      "runningIndexable": false
+    },
+    {
+      "source": "asics-solution-swift-ff2-padel",
+      "target": "asics-gel-resolution-padel",
+      "type": "direct-competitor",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ],
+      "runningIndexable": false
+    },
+    {
+      "source": "bullpadel-hybrid-fly",
+      "target": "joma-spin-men",
+      "type": "better-value",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ],
+      "runningIndexable": false
+    },
+    {
+      "source": "bullpadel-hybrid-fly",
+      "target": "babolat-movea-2",
+      "type": "similar",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ],
+      "runningIndexable": false
+    },
+    {
+      "source": "bullpadel-hybrid-fly",
+      "target": "asics-gel-resolution-padel",
+      "type": "direct-competitor",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ],
+      "runningIndexable": false
+    },
+    {
+      "source": "bullpadel-ionic-woman",
+      "target": "adidas-courtquick-padel-women",
+      "type": "similar",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ],
+      "runningIndexable": false
+    },
+    {
+      "source": "bullpadel-ionic-woman",
+      "target": "adidas-crazyquick-boost-padel-women",
+      "type": "direct-competitor",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ],
+      "runningIndexable": false
+    },
+    {
+      "source": "bullpadel-ionic-woman",
+      "target": "asics-gel-resolution-padel",
+      "type": "direct-competitor",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ],
+      "runningIndexable": false
+    },
+    {
+      "source": "nox-at10-lux",
+      "target": "asics-gel-resolution-padel",
+      "type": "similar",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ],
+      "runningIndexable": false
+    },
+    {
+      "source": "nox-at10-lux",
+      "target": "babolat-jet-premura",
+      "type": "better-value",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ],
+      "runningIndexable": false
+    },
+    {
+      "source": "nox-at10-lux",
+      "target": "asics-gel-resolution-padel-women",
+      "type": "direct-competitor",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ],
+      "runningIndexable": false
+    },
+    {
+      "source": "nox-ml10-hexa",
+      "target": "bullpadel-hybrid-fly",
+      "type": "better-value",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ],
+      "runningIndexable": false
+    },
+    {
+      "source": "nox-ml10-hexa",
+      "target": "adidas-courtstabil-padel",
+      "type": "similar",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ],
+      "runningIndexable": false
+    },
+    {
+      "source": "nox-ml10-hexa",
+      "target": "asics-gel-resolution-padel",
+      "type": "direct-competitor",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ],
+      "runningIndexable": false
+    },
+    {
+      "source": "babolat-movea-2",
+      "target": "head-revolt-pro-court",
+      "type": "similar",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ],
+      "runningIndexable": false
+    },
+    {
+      "source": "babolat-movea-2",
+      "target": "asics-gel-challenger-court",
+      "type": "better-value",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ],
+      "runningIndexable": false
+    },
+    {
+      "source": "babolat-movea-2",
+      "target": "asics-gel-resolution-padel",
+      "type": "direct-competitor",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ],
+      "runningIndexable": false
+    },
+    {
+      "source": "babolat-sensa-women",
+      "target": "bullpadel-ionic-woman",
+      "type": "better-value",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ],
+      "runningIndexable": false
+    },
+    {
+      "source": "babolat-sensa-women",
+      "target": "adidas-crazyquick-boost-padel-women",
+      "type": "similar",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ],
+      "runningIndexable": false
+    },
+    {
+      "source": "babolat-sensa-women",
+      "target": "asics-gel-resolution-padel",
+      "type": "direct-competitor",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ],
+      "runningIndexable": false
+    },
+    {
+      "source": "joma-slam-lady",
+      "target": "adidas-courtquick-padel-women",
+      "type": "direct-competitor",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ],
+      "runningIndexable": false
+    },
+    {
+      "source": "joma-slam-lady",
+      "target": "bullpadel-ionic-woman",
+      "type": "similar",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ],
+      "runningIndexable": false
+    },
+    {
+      "source": "joma-slam-lady",
+      "target": "asics-gel-resolution-padel",
+      "type": "direct-competitor",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ],
+      "runningIndexable": false
+    },
+    {
+      "source": "joma-spin-men",
+      "target": "asics-game-ff-padel",
+      "type": "better-value",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ],
+      "runningIndexable": false
+    },
+    {
+      "source": "joma-spin-men",
+      "target": "bullpadel-hybrid-fly",
+      "type": "direct-competitor",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ],
+      "runningIndexable": false
+    },
+    {
+      "source": "joma-spin-men",
+      "target": "asics-gel-resolution-padel",
+      "type": "direct-competitor",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ],
+      "runningIndexable": false
+    },
+    {
+      "source": "head-sprint-pro-4-padel",
+      "target": "wilson-rush-pro-5-padel",
+      "type": "better-value",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ],
+      "runningIndexable": false
+    },
+    {
+      "source": "head-sprint-pro-4-padel",
+      "target": "babolat-jet-premura",
+      "type": "similar",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ],
+      "runningIndexable": false
+    },
+    {
+      "source": "head-sprint-pro-4-padel",
+      "target": "asics-gel-resolution-padel",
+      "type": "direct-competitor",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ],
+      "runningIndexable": false
+    },
+    {
+      "source": "wilson-rush-pro-5-padel",
+      "target": "babolat-jet-premura",
+      "type": "better-value",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ],
+      "runningIndexable": false
+    },
+    {
+      "source": "wilson-rush-pro-5-padel",
+      "target": "nox-at10-lux",
+      "type": "similar",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ],
+      "runningIndexable": false
+    },
+    {
+      "source": "wilson-rush-pro-5-padel",
+      "target": "asics-gel-resolution-padel",
+      "type": "direct-competitor",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ],
+      "runningIndexable": false
+    },
+    {
+      "source": "kuikma-ps-990",
+      "target": "asics-gel-dedicate-8-padel",
+      "type": "better-value",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ],
+      "runningIndexable": false
+    },
+    {
+      "source": "kuikma-ps-990",
+      "target": "babolat-movea-2",
+      "type": "similar",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ],
+      "runningIndexable": false
+    },
+    {
+      "source": "kuikma-ps-990",
+      "target": "asics-gel-resolution-padel",
+      "type": "direct-competitor",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ],
+      "runningIndexable": false
+    },
+    {
+      "source": "oxdog-hyper-court",
+      "target": "head-sprint-pro-4-padel",
+      "type": "better-value",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ],
+      "runningIndexable": false
+    },
+    {
+      "source": "oxdog-hyper-court",
+      "target": "asics-solution-swift-ff2-padel",
+      "type": "similar",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ],
+      "runningIndexable": false
+    },
+    {
+      "source": "oxdog-hyper-court",
+      "target": "asics-gel-resolution-padel",
+      "type": "direct-competitor",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ],
+      "runningIndexable": false
+    },
+    {
+      "source": "asics-gel-resolution-padel-women",
+      "target": "bullpadel-ionic-woman",
+      "type": "better-value",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ],
+      "runningIndexable": false
+    },
+    {
+      "source": "asics-gel-resolution-padel-women",
+      "target": "babolat-sensa-women",
+      "type": "similar",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ],
+      "runningIndexable": false
+    },
+    {
+      "source": "asics-gel-resolution-padel-women",
+      "target": "asics-gel-resolution-padel",
+      "type": "direct-competitor",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ],
+      "runningIndexable": false
+    },
+    {
+      "source": "asics-solution-swift-ff-padel-women",
+      "target": "head-sprint-pro-4-padel",
+      "type": "similar",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ],
+      "runningIndexable": false
+    },
+    {
+      "source": "asics-solution-swift-ff-padel-women",
+      "target": "joma-slam-lady",
+      "type": "better-value",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ],
+      "runningIndexable": false
+    },
+    {
+      "source": "asics-solution-swift-ff-padel-women",
+      "target": "asics-gel-resolution-padel",
+      "type": "direct-competitor",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ],
+      "runningIndexable": false
+    },
+    {
+      "source": "wilson-bela-pro-padel",
+      "target": "asics-gel-resolution-padel",
+      "type": "similar",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ],
+      "runningIndexable": false
+    },
+    {
+      "source": "wilson-bela-pro-padel",
+      "target": "adidas-crazyquick-boost-padel",
+      "type": "direct-competitor",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ],
+      "runningIndexable": false
+    },
+    {
+      "source": "wilson-bela-pro-padel",
+      "target": "asics-gel-resolution-padel-women",
+      "type": "better-value",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ],
+      "runningIndexable": false
+    },
+    {
+      "source": "joma-spin-lady",
+      "target": "babolat-sensa-women",
+      "type": "better-value",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ],
+      "runningIndexable": false
+    },
+    {
+      "source": "joma-spin-lady",
+      "target": "asics-solution-swift-ff-padel-women",
+      "type": "similar",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ],
+      "runningIndexable": false
+    },
+    {
+      "source": "joma-spin-lady",
+      "target": "asics-gel-resolution-padel",
+      "type": "direct-competitor",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ],
+      "runningIndexable": false
+    },
+    {
+      "source": "bullpadel-hack-hybrid",
+      "target": "asics-gel-resolution-padel",
+      "type": "similar",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ],
+      "runningIndexable": false
+    },
+    {
+      "source": "bullpadel-hack-hybrid",
+      "target": "asics-gel-resolution-padel-women",
+      "type": "better-value",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ],
+      "runningIndexable": false
+    },
+    {
+      "source": "bullpadel-hack-hybrid",
+      "target": "babolat-jet-premura",
+      "type": "direct-competitor",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ],
+      "runningIndexable": false
+    },
+    {
+      "source": "nox-at10-pro",
+      "target": "wilson-bela-pro-padel",
+      "type": "similar",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ],
+      "runningIndexable": false
+    },
+    {
+      "source": "nox-at10-pro",
+      "target": "bullpadel-hack-hybrid",
+      "type": "better-value",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ],
+      "runningIndexable": false
+    },
+    {
+      "source": "nox-at10-pro",
+      "target": "asics-gel-resolution-padel",
+      "type": "direct-competitor",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ],
+      "runningIndexable": false
+    },
+    {
+      "source": "babolat-jet-premura-2",
+      "target": "asics-solution-swift-ff2-padel",
+      "type": "similar",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ],
+      "runningIndexable": false
+    },
+    {
+      "source": "babolat-jet-premura-2",
+      "target": "oxdog-hyper-court",
+      "type": "better-value",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ],
+      "runningIndexable": false
+    },
+    {
+      "source": "babolat-jet-premura-2",
+      "target": "asics-gel-resolution-padel",
+      "type": "direct-competitor",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ],
+      "runningIndexable": false
+    },
+    {
+      "source": "tecnifibre-wall-shooter",
+      "target": "kuikma-ps-990",
+      "type": "better-value",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ],
+      "runningIndexable": false
+    },
+    {
+      "source": "tecnifibre-wall-shooter",
+      "target": "joma-t-slam",
+      "type": "similar",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ],
+      "runningIndexable": false
+    },
+    {
+      "source": "tecnifibre-wall-shooter",
+      "target": "asics-gel-resolution-padel",
+      "type": "direct-competitor",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ],
+      "runningIndexable": false
+    },
+    {
+      "source": "varlion-bourne-padel",
+      "target": "nox-ml10-hexa",
+      "type": "better-value",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ],
+      "runningIndexable": false
+    },
+    {
+      "source": "varlion-bourne-padel",
+      "target": "bullpadel-hybrid-fly",
+      "type": "similar",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ],
+      "runningIndexable": false
+    },
+    {
+      "source": "varlion-bourne-padel",
+      "target": "asics-gel-resolution-padel",
+      "type": "direct-competitor",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ],
+      "runningIndexable": false
+    },
+    {
+      "source": "lok-padel-one",
+      "target": "asics-gel-dedicate-8-padel",
+      "type": "better-value",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ],
+      "runningIndexable": false
+    },
+    {
+      "source": "lok-padel-one",
+      "target": "asics-gel-resolution-padel",
+      "type": "premium-alternative",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ],
+      "runningIndexable": false
+    },
+    {
+      "source": "lok-padel-one",
+      "target": "asics-gel-resolution-padel-women",
+      "type": "direct-competitor",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ],
+      "runningIndexable": false
+    },
+    {
+      "source": "babolat-pure-aero-2023",
+      "target": "yonex-vcore-100-2023",
+      "type": "direct-competitor",
+      "cls": "WEAK",
+      "reasons": [
+        "unrelated previous-generation"
+      ],
+      "runningIndexable": false
+    },
+    {
+      "source": "wilson-blade-98-v8",
+      "target": "tecnifibre-tf40-305",
+      "type": "direct-competitor",
+      "cls": "WEAK",
+      "reasons": [
+        "unrelated previous-generation"
+      ],
+      "runningIndexable": false
+    },
+    {
+      "source": "head-radical-mp-2023",
+      "target": "wilson-blade-98-v8",
+      "type": "direct-competitor",
+      "cls": "WEAK",
+      "reasons": [
+        "unrelated previous-generation"
+      ],
+      "runningIndexable": false
+    },
+    {
+      "source": "yonex-vcore-100-2023",
+      "target": "babolat-pure-drive-2025",
+      "type": "better-value",
+      "cls": "WEAK",
+      "reasons": [
+        "unrelated previous-generation"
+      ],
+      "runningIndexable": false
+    },
+    {
+      "source": "wilson-rush-pro-4-0",
+      "target": "asics-gel-resolution-9",
+      "type": "similar",
+      "cls": "WEAK",
+      "reasons": [
+        "unrelated previous-generation"
+      ],
+      "runningIndexable": false
+    },
+    {
+      "source": "wilson-rush-pro-4-0",
+      "target": "adidas-barricade-13",
+      "type": "direct-competitor",
+      "cls": "WEAK",
+      "reasons": [
+        "unrelated previous-generation"
+      ],
+      "runningIndexable": false
+    },
+    {
+      "source": "babolat-rpm-blast-1-25",
+      "target": "luxilon-alu-power",
+      "type": "similar",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ],
+      "runningIndexable": false
+    },
+    {
+      "source": "babolat-rpm-blast-1-25",
+      "target": "wilson-nxt",
+      "type": "direct-competitor",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ],
+      "runningIndexable": false
+    },
+    {
+      "source": "tecnifibre-black-code-1-28",
+      "target": "babolat-rpm-blast-1-25",
+      "type": "direct-competitor",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ],
+      "runningIndexable": false
+    },
+    {
+      "source": "babolat-pure-drive-gen11",
+      "target": "wilson-blade-98-v9",
+      "type": "direct-competitor",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ],
+      "runningIndexable": false
+    },
+    {
+      "source": "luxilon-alu-power",
+      "target": "babolat-rpm-blast-1-25",
+      "type": "direct-competitor",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ],
+      "runningIndexable": false
+    },
+    {
+      "source": "wilson-nxt",
+      "target": "luxilon-alu-power",
+      "type": "similar",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ],
+      "runningIndexable": false
+    },
+    {
+      "source": "wilson-nxt",
+      "target": "babolat-rpm-blast-1-25",
+      "type": "direct-competitor",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ],
+      "runningIndexable": false
+    },
+    {
+      "source": "tecnifibre-x-one-biphase",
+      "target": "luxilon-alu-power",
+      "type": "similar",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ],
+      "runningIndexable": false
+    },
+    {
+      "source": "tecnifibre-x-one-biphase",
+      "target": "babolat-rpm-blast-1-25",
+      "type": "direct-competitor",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ],
+      "runningIndexable": false
+    },
+    {
+      "source": "asics-gel-resolution-9-clay",
+      "target": "asics-gel-challenger-15",
+      "type": "better-value",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ],
+      "runningIndexable": false
+    },
+    {
+      "source": "rogue-ohio-power-bar",
+      "target": "eleiko-performance-weightlifting-bar",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ],
+      "runningIndexable": false
+    },
+    {
+      "source": "mirafit-olympic-barbell",
+      "target": "eleiko-performance-weightlifting-bar",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ],
+      "runningIndexable": false
+    },
+    {
+      "source": "mirafit-cast-iron-kettlebell",
+      "target": "rogue-echo-kettlebell",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ],
+      "runningIndexable": false
+    },
+    {
+      "source": "eleiko-sport-collars",
+      "target": "blackroll-standard",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ],
+      "runningIndexable": false
+    },
+    {
+      "source": "eleiko-sport-collars",
+      "target": "blackroll-ball",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ],
+      "runningIndexable": false
+    },
+    {
+      "source": "rogue-wrist-wraps",
+      "target": "blackroll-standard",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ],
+      "runningIndexable": false
+    },
+    {
+      "source": "rogue-wrist-wraps",
+      "target": "blackroll-ball",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ],
+      "runningIndexable": false
+    },
+    {
+      "source": "nike-metcon-8",
+      "target": "adidas-dropset-3",
+      "cls": "WEAK",
+      "reasons": [
+        "unrelated previous-generation"
+      ],
+      "runningIndexable": false
+    },
+    {
+      "source": "reebok-nano-x3",
+      "target": "reebok-nano-x4",
+      "cls": "WEAK",
+      "reasons": [
+        "unrelated previous-generation"
+      ],
+      "runningIndexable": false
+    },
+    {
+      "source": "reebok-nano-x3",
+      "target": "nike-metcon-9",
+      "cls": "WEAK",
+      "reasons": [
+        "unrelated previous-generation"
+      ],
+      "runningIndexable": false
+    },
+    {
+      "source": "nike-romaleos-4",
+      "target": "adidas-adipower-weightlifting-3",
+      "cls": "WEAK",
+      "reasons": [
+        "unrelated previous-generation"
+      ],
+      "runningIndexable": false
+    },
+    {
+      "source": "adidas-dropset-2",
+      "target": "adidas-the-total",
+      "cls": "WEAK",
+      "reasons": [
+        "unrelated previous-generation"
+      ],
+      "runningIndexable": false
+    }
+  ],
+  "comparisonInvalid": [],
+  "comparisonWeak": [
+    {
+      "slug": "saucony-endorphin-speed-5-vs-adidas-adizero-boston-12",
+      "a": "saucony-endorphin-speed-5",
+      "b": "adidas-adizero-boston-12",
+      "cls": "WEAK",
+      "reasons": [
+        "unlikely fork road-race vs road-daily"
+      ]
+    },
+    {
+      "slug": "garmin-hrm-pro-plus-vs-polar-h10",
+      "a": "garmin-hrm-pro-plus",
+      "b": "polar-h10",
+      "cls": "WEAK",
+      "reasons": [
+        "same category but distant jobs"
+      ]
+    },
+    {
+      "slug": "salomon-adv-skin-12-vs-nathan-vaporair-2",
+      "a": "salomon-adv-skin-12",
+      "b": "nathan-vaporair-2",
+      "cls": "WEAK",
+      "reasons": [
+        "same category but distant jobs"
+      ]
+    },
+    {
+      "slug": "coros-pace-4-vs-garmin-forerunner-165",
+      "a": "coros-pace-4",
+      "b": "garmin-forerunner-165",
+      "cls": "WEAK",
+      "reasons": [
+        "same category but distant jobs"
+      ]
+    },
+    {
+      "slug": "asics-novablast-5-vs-asics-gel-nimbus-27",
+      "a": "asics-novablast-5",
+      "b": "asics-gel-nimbus-27",
+      "cls": "WEAK",
+      "reasons": [
+        "same category but distant jobs"
+      ]
+    },
+    {
+      "slug": "nox-at10-genius-18k-2026-vs-bullpadel-vertex-04-2026",
+      "a": "nox-at10-genius-18k-2026",
+      "b": "bullpadel-vertex-04",
+      "cls": "WEAK",
+      "reasons": [
+        "same category but distant jobs"
+      ]
+    },
+    {
+      "slug": "nox-at10-genius-18k-2026-vs-babolat-technical-viper-2026",
+      "a": "nox-at10-genius-18k-2026",
+      "b": "babolat-technical-viper-2026",
+      "cls": "WEAK",
+      "reasons": [
+        "same category but distant jobs"
+      ]
+    },
+    {
+      "slug": "wilson-blade-98-v8-vs-yonex-ezone-98-2024",
+      "a": "wilson-blade-98-v8",
+      "b": "yonex-ezone-98-2024",
+      "cls": "WEAK",
+      "reasons": [
+        "same category but distant jobs"
+      ]
+    },
+    {
+      "slug": "wilson-blade-98-v9-vs-babolat-pure-drive-gen11",
+      "a": "wilson-blade-98-v9",
+      "b": "babolat-pure-drive-gen11",
+      "cls": "WEAK",
+      "reasons": [
+        "same category but distant jobs"
+      ]
+    },
+    {
+      "slug": "nike-metcon-9-vs-adidas-dropset-3",
+      "a": "nike-metcon-9",
+      "b": "adidas-dropset-3",
+      "cls": "WEAK",
+      "reasons": [
+        "same category but distant jobs"
+      ]
+    }
+  ],
+  "bestInvalid": [],
+  "bestWeak": [
+    {
+      "guide": "marathon-shoes",
+      "product": "hoka-clifton-10",
+      "cls": "WEAK",
+      "reasons": [
+        "road-max-cushion in race Best"
+      ]
+    },
+    {
+      "guide": "marathon-shoes",
+      "product": "asics-novablast-6",
+      "cls": "WEAK",
+      "reasons": [
+        "road-max-cushion in race Best"
+      ]
+    },
+    {
+      "guide": "marathon-shoes",
+      "product": "asics-superblast-2",
+      "cls": "WEAK",
+      "reasons": [
+        "road-max-cushion in race Best"
+      ]
+    },
+    {
+      "guide": "stability-running-shoes",
+      "product": "brooks-ghost-18",
+      "cls": "WEAK",
+      "reasons": [
+        "road-daily in stability Best"
+      ]
+    },
+    {
+      "guide": "stability-running-shoes",
+      "product": "hoka-clifton-10",
+      "cls": "WEAK",
+      "reasons": [
+        "road-max-cushion in stability Best"
+      ]
+    }
+  ],
+  "guideInvalid": [],
+  "guideWeak": [
+    {
+      "guide": "how-to-choose-running-hydration-vest",
+      "product": "salomon-soft-flask-500",
+      "cls": "WEAK",
+      "reasons": [
+        "related product off-category"
+      ]
+    },
+    {
+      "guide": "hydration-vest-vs-running-belt",
+      "product": "flipbelt-classic",
+      "cls": "WEAK",
+      "reasons": [
+        "related product off-category"
+      ]
+    },
+    {
+      "guide": "hydration-vest-vs-running-belt",
+      "product": "spibelt-original",
+      "cls": "WEAK",
+      "reasons": [
+        "related product off-category"
+      ]
+    },
+    {
+      "guide": "how-to-carry-fuel-on-long-runs",
+      "product": "salomon-adv-skin-12",
+      "cls": "WEAK",
+      "reasons": [
+        "related product off-category"
+      ]
+    },
+    {
+      "guide": "how-to-carry-fuel-on-long-runs",
+      "product": "flipbelt-classic",
+      "cls": "WEAK",
+      "reasons": [
+        "related product off-category"
+      ]
+    },
+    {
+      "guide": "how-to-carry-fuel-on-long-runs",
+      "product": "spibelt-original",
+      "cls": "WEAK",
+      "reasons": [
+        "related product off-category"
+      ]
+    },
+    {
+      "guide": "how-to-carry-fuel-on-long-runs",
+      "product": "ultimate-direction-race-belt",
+      "cls": "WEAK",
+      "reasons": [
+        "related product off-category"
+      ]
+    },
+    {
+      "guide": "foam-rolling-for-runners",
+      "product": "blackroll-standard",
+      "cls": "WEAK",
+      "reasons": [
+        "related product off-category"
+      ]
+    },
+    {
+      "guide": "foam-rolling-for-runners",
+      "product": "blackroll-ball",
+      "cls": "WEAK",
+      "reasons": [
+        "related product off-category"
+      ]
+    },
+    {
+      "guide": "recovery-tools-what-evidence-shows",
+      "product": "blackroll-standard",
+      "cls": "WEAK",
+      "reasons": [
+        "related product off-category"
+      ]
+    },
+    {
+      "guide": "optical-wrist-hr-vs-chest-strap",
+      "product": "garmin-forerunner-970",
+      "cls": "WEAK",
+      "reasons": [
+        "related product off-category"
+      ]
+    },
+    {
+      "guide": "soft-flasks-vs-bladders-explained",
+      "product": "salomon-adv-skin-12",
+      "cls": "WEAK",
+      "reasons": [
+        "related product off-category"
+      ]
+    },
+    {
+      "guide": "hydration-for-marathon-training",
+      "product": "flipbelt-classic",
+      "cls": "WEAK",
+      "reasons": [
+        "related product off-category"
+      ]
+    },
+    {
+      "guide": "hydration-for-marathon-training",
+      "product": "salomon-adv-skin-12",
+      "cls": "WEAK",
+      "reasons": [
+        "related product off-category"
+      ]
+    },
+    {
+      "guide": "hot-weather-running-apparel",
+      "product": "feetures-elite-light-cushion",
+      "cls": "WEAK",
+      "reasons": [
+        "related product off-category"
+      ]
+    },
+    {
+      "guide": "hot-weather-running-apparel",
+      "product": "flipbelt-classic",
+      "cls": "WEAK",
+      "reasons": [
+        "related product off-category"
+      ]
+    },
+    {
+      "guide": "first-marathon-gear-checklist",
+      "product": "garmin-forerunner-165",
+      "cls": "WEAK",
+      "reasons": [
+        "related product off-category"
+      ]
+    },
+    {
+      "guide": "first-marathon-gear-checklist",
+      "product": "flipbelt-classic",
+      "cls": "WEAK",
+      "reasons": [
+        "related product off-category"
+      ]
+    },
+    {
+      "guide": "trail-race-kit-essentials",
+      "product": "salomon-adv-skin-12",
+      "cls": "WEAK",
+      "reasons": [
+        "related product off-category"
+      ]
+    },
+    {
+      "guide": "trail-race-kit-essentials",
+      "product": "petzl-swift-rl",
+      "cls": "WEAK",
+      "reasons": [
+        "related product off-category"
+      ]
+    },
+    {
+      "guide": "trail-race-kit-essentials",
+      "product": "saucony-peregrine-15",
+      "cls": "WEAK",
+      "reasons": [
+        "related product off-category"
+      ]
+    },
+    {
+      "guide": "beginner-running-gear-stack",
+      "product": "garmin-forerunner-165",
+      "cls": "WEAK",
+      "reasons": [
+        "related product off-category"
+      ]
+    },
+    {
+      "guide": "beginner-running-gear-stack",
+      "product": "spibelt-original",
+      "cls": "WEAK",
+      "reasons": [
+        "related product off-category"
+      ]
+    },
+    {
+      "guide": "how-to-build-a-home-gym",
+      "product": "nuobell-80",
+      "cls": "WEAK",
+      "reasons": [
+        "related product off-category"
+      ]
+    },
+    {
+      "guide": "how-to-build-a-home-gym",
+      "product": "rep-ab-5000-zero-gap",
+      "cls": "WEAK",
+      "reasons": [
+        "related product off-category"
+      ]
+    },
+    {
+      "guide": "hyrox-home-training-setup",
+      "product": "concept2-skierg",
+      "cls": "WEAK",
+      "reasons": [
+        "related product off-category"
+      ]
+    },
+    {
+      "guide": "hyrox-home-training-setup",
+      "product": "rogue-echo-bike",
+      "cls": "WEAK",
+      "reasons": [
+        "related product off-category"
+      ]
+    },
+    {
+      "guide": "hyrox-home-training-setup",
+      "product": "tyr-cxt-2",
+      "cls": "WEAK",
+      "reasons": [
+        "related product off-category"
+      ]
+    },
+    {
+      "guide": "hyrox-race-shoes-vs-training-shoes",
+      "product": "adidas-adizero-boston-12",
+      "cls": "WEAK",
+      "reasons": [
+        "related product off-category"
+      ]
+    },
+    {
+      "guide": "rowerg-vs-skierg-for-hyrox-training",
+      "product": "concept2-skierg",
+      "cls": "WEAK",
+      "reasons": [
+        "related product off-category"
+      ]
+    },
+    {
+      "guide": "hyrox-heart-rate-monitor",
+      "product": "garmin-hrm-pro-plus",
+      "cls": "WEAK",
+      "reasons": [
+        "related product off-category"
+      ]
+    },
+    {
+      "guide": "hyrox-heart-rate-monitor",
+      "product": "polar-h10",
+      "cls": "WEAK",
+      "reasons": [
+        "related product off-category"
+      ]
+    }
+  ],
+  "reviewInvalid": [],
+  "reviewWeak": [
+    {
+      "review": "apple-watch-ultra-2",
+      "source": "apple-watch-ultra-2",
+      "target": "garmin-forerunner-970",
+      "cls": "WEAK",
+      "reasons": [
+        "unrelated previous-generation"
+      ]
+    },
+    {
+      "review": "apple-watch-ultra-2",
+      "source": "apple-watch-ultra-2",
+      "target": "coros-pace-pro",
+      "cls": "WEAK",
+      "reasons": [
+        "unrelated previous-generation"
+      ]
+    },
+    {
+      "review": "coros-apex-2-pro",
+      "source": "coros-apex-2-pro",
+      "target": "suunto-race",
+      "cls": "WEAK",
+      "reasons": [
+        "unrelated previous-generation"
+      ]
+    },
+    {
+      "review": "coros-apex-2-pro",
+      "source": "coros-apex-2-pro",
+      "target": "garmin-forerunner-970",
+      "cls": "WEAK",
+      "reasons": [
+        "unrelated previous-generation"
+      ]
+    },
+    {
+      "review": "coros-apex-2-pro",
+      "source": "coros-apex-2-pro",
+      "target": "coros-pace-pro",
+      "cls": "WEAK",
+      "reasons": [
+        "unrelated previous-generation"
+      ]
+    },
+    {
+      "review": "coros-pace-pro",
+      "source": "coros-pace-pro",
+      "target": "coros-apex-2-pro",
+      "cls": "WEAK",
+      "reasons": [
+        "unrelated previous-generation"
+      ]
+    },
+    {
+      "review": "garmin-forerunner-165",
+      "source": "garmin-forerunner-165",
+      "target": "garmin-forerunner-570",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ]
+    },
+    {
+      "review": "garmin-forerunner-255",
+      "source": "garmin-forerunner-255",
+      "target": "garmin-forerunner-965",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ]
+    },
+    {
+      "review": "garmin-forerunner-265",
+      "source": "garmin-forerunner-265",
+      "target": "coros-pace-pro",
+      "cls": "WEAK",
+      "reasons": [
+        "unrelated previous-generation"
+      ]
+    },
+    {
+      "review": "garmin-forerunner-55",
+      "source": "garmin-forerunner-55",
+      "target": "garmin-forerunner-965",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ]
+    },
+    {
+      "review": "garmin-forerunner-965",
+      "source": "garmin-forerunner-965",
+      "target": "coros-pace-3",
+      "cls": "WEAK",
+      "reasons": [
+        "unrelated previous-generation"
+      ]
+    },
+    {
+      "review": "garmin-forerunner-965",
+      "source": "garmin-forerunner-965",
+      "target": "garmin-forerunner-255",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ]
+    },
+    {
+      "review": "suunto-race",
+      "source": "suunto-race",
+      "target": "coros-apex-2-pro",
+      "cls": "WEAK",
+      "reasons": [
+        "unrelated previous-generation"
+      ]
+    },
+    {
+      "review": "coros-heart-rate-monitor",
+      "source": "coros-heart-rate-monitor",
+      "target": "polar-h10",
+      "cls": "WEAK",
+      "reasons": [
+        "HRM form arm vs chest"
+      ]
+    },
+    {
+      "review": "garmin-hrm-pro-plus",
+      "source": "garmin-hrm-pro-plus",
+      "target": "polar-h10",
+      "cls": "WEAK",
+      "reasons": [
+        "unrelated previous-generation"
+      ]
+    },
+    {
+      "review": "polar-h9",
+      "source": "polar-h9",
+      "target": "wahoo-tickr",
+      "cls": "WEAK",
+      "reasons": [
+        "unrelated previous-generation"
+      ]
+    },
+    {
+      "review": "wahoo-tickr",
+      "source": "wahoo-tickr",
+      "target": "polar-h10",
+      "cls": "WEAK",
+      "reasons": [
+        "unrelated previous-generation"
+      ]
+    },
+    {
+      "review": "wahoo-tickr",
+      "source": "wahoo-tickr",
+      "target": "polar-h9",
+      "cls": "WEAK",
+      "reasons": [
+        "unrelated previous-generation"
+      ]
+    },
+    {
+      "review": "wahoo-tickr-fit",
+      "source": "wahoo-tickr-fit",
+      "target": "coros-heart-rate-monitor",
+      "cls": "WEAK",
+      "reasons": [
+        "HRM form chest vs arm"
+      ]
+    },
+    {
+      "review": "wahoo-tickr-fit",
+      "source": "wahoo-tickr-fit",
+      "target": "polar-verity-sense",
+      "cls": "WEAK",
+      "reasons": [
+        "HRM form chest vs arm"
+      ]
+    },
+    {
+      "review": "wahoo-tickr-fit",
+      "source": "wahoo-tickr-fit",
+      "target": "scosche-rhythm24",
+      "cls": "WEAK",
+      "reasons": [
+        "HRM form chest vs arm"
+      ]
+    },
+    {
+      "review": "wahoo-tickr-x",
+      "source": "wahoo-tickr-x",
+      "target": "garmin-hrm-600",
+      "cls": "WEAK",
+      "reasons": [
+        "unrelated previous-generation"
+      ]
+    },
+    {
+      "review": "wahoo-tickr-x",
+      "source": "wahoo-tickr-x",
+      "target": "polar-h10",
+      "cls": "WEAK",
+      "reasons": [
+        "unrelated previous-generation"
+      ]
+    },
+    {
+      "review": "camelbak-circuit-run-vest",
+      "source": "camelbak-circuit-run-vest",
+      "target": "camelbak-zephyr",
+      "cls": "WEAK",
+      "reasons": [
+        "unrelated previous-generation"
+      ]
+    },
+    {
+      "review": "camelbak-zephyr",
+      "source": "camelbak-zephyr",
+      "target": "ultimate-direction-adventure-vest",
+      "cls": "WEAK",
+      "reasons": [
+        "unrelated previous-generation"
+      ]
+    },
+    {
+      "review": "camelbak-zephyr",
+      "source": "camelbak-zephyr",
+      "target": "osprey-duro-6",
+      "cls": "WEAK",
+      "reasons": [
+        "unrelated previous-generation"
+      ]
+    },
+    {
+      "review": "ultimate-direction-adventure-vest",
+      "source": "ultimate-direction-adventure-vest",
+      "target": "camelbak-zephyr",
+      "cls": "WEAK",
+      "reasons": [
+        "unrelated previous-generation"
+      ]
+    },
+    {
+      "review": "ultimate-direction-adventure-vest",
+      "source": "ultimate-direction-adventure-vest",
+      "target": "nathan-vaporair-2",
+      "cls": "WEAK",
+      "reasons": [
+        "unrelated previous-generation"
+      ]
+    },
+    {
+      "review": "asics-core-split-short",
+      "source": "asics-core-split-short",
+      "target": "craft-adv-essence-short",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ]
+    },
+    {
+      "review": "craft-adv-essence-short",
+      "source": "craft-adv-essence-short",
+      "target": "asics-core-split-short",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ]
+    },
+    {
+      "review": "rabbit-fuel-n-fly-men",
+      "source": "rabbit-fuel-n-fly-men",
+      "target": "asics-core-split-short",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ]
+    },
+    {
+      "review": "goodr-ogs",
+      "source": "goodr-ogs",
+      "target": "julbo-aerolite",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ]
+    },
+    {
+      "review": "julbo-aerolite",
+      "source": "julbo-aerolite",
+      "target": "goodr-ogs",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ]
+    },
+    {
+      "review": "gu-roctane-gel",
+      "source": "gu-roctane-gel",
+      "target": "saltstick-caps",
+      "cls": "WEAK",
+      "reasons": [
+        "nutrition form gel vs drink"
+      ]
+    },
+    {
+      "review": "nuun-sport",
+      "source": "nuun-sport",
+      "target": "saltstick-fastchews",
+      "cls": "WEAK",
+      "reasons": [
+        "nutrition form drink vs chew"
+      ]
+    },
+    {
+      "review": "nuun-sport",
+      "source": "nuun-sport",
+      "target": "gu-energy-gel",
+      "cls": "WEAK",
+      "reasons": [
+        "nutrition form drink vs gel"
+      ]
+    },
+    {
+      "review": "powerbar-energize",
+      "source": "powerbar-energize",
+      "target": "clif-bloks-energy-chews",
+      "cls": "WEAK",
+      "reasons": [
+        "nutrition form bar vs chew"
+      ]
+    },
+    {
+      "review": "powerbar-energize",
+      "source": "powerbar-energize",
+      "target": "veloforte-energy-chews",
+      "cls": "WEAK",
+      "reasons": [
+        "nutrition form bar vs chew"
+      ]
+    },
+    {
+      "review": "saltstick-caps",
+      "source": "saltstick-caps",
+      "target": "gu-roctane-gel",
+      "cls": "WEAK",
+      "reasons": [
+        "nutrition form drink vs gel"
+      ]
+    },
+    {
+      "review": "styrkr-mix90",
+      "source": "styrkr-mix90",
+      "target": "maurten-gel-160",
+      "cls": "WEAK",
+      "reasons": [
+        "nutrition form drink vs gel"
+      ]
+    },
+    {
+      "review": "adidas-adipower-weightlifting-2",
+      "source": "adidas-adipower-weightlifting-2",
+      "target": "nike-metcon-9",
+      "cls": "WEAK",
+      "reasons": [
+        "unrelated previous-generation"
+      ]
+    },
+    {
+      "review": "adidas-adipower-weightlifting-2",
+      "source": "adidas-adipower-weightlifting-2",
+      "target": "reebok-nano-x4",
+      "cls": "WEAK",
+      "reasons": [
+        "unrelated previous-generation"
+      ]
+    },
+    {
+      "review": "adidas-adipower-weightlifting-3",
+      "source": "adidas-adipower-weightlifting-3",
+      "target": "nike-metcon-9",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ]
+    },
+    {
+      "review": "adidas-adipower-weightlifting-3",
+      "source": "adidas-adipower-weightlifting-3",
+      "target": "reebok-nano-x4",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ]
+    },
+    {
+      "review": "adidas-adipower-weightlifting-3",
+      "source": "adidas-adipower-weightlifting-3",
+      "target": "nobull-trainer",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ]
+    },
+    {
+      "review": "adidas-barricade-13",
+      "source": "adidas-barricade-13",
+      "target": "wilson-rush-pro-4-0",
+      "cls": "WEAK",
+      "reasons": [
+        "unrelated previous-generation"
+      ]
+    },
+    {
+      "review": "adidas-courtquick-padel-women",
+      "source": "adidas-courtquick-padel-women",
+      "target": "joma-slam-lady",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ]
+    },
+    {
+      "review": "adidas-courtquick-padel-women",
+      "source": "adidas-courtquick-padel-women",
+      "target": "bullpadel-ionic-woman",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ]
+    },
+    {
+      "review": "adidas-courtquick-padel-women",
+      "source": "adidas-courtquick-padel-women",
+      "target": "adidas-crazyquick-boost-padel-women",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ]
+    },
+    {
+      "review": "adidas-courtquick-padel-women",
+      "source": "adidas-courtquick-padel-women",
+      "target": "babolat-sensa-women",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ]
+    },
+    {
+      "review": "adidas-courtstabil-padel",
+      "source": "adidas-courtstabil-padel",
+      "target": "asics-gel-challenger-court",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ]
+    },
+    {
+      "review": "adidas-courtstabil-padel",
+      "source": "adidas-courtstabil-padel",
+      "target": "babolat-movea-2",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ]
+    },
+    {
+      "review": "adidas-courtstabil-padel",
+      "source": "adidas-courtstabil-padel",
+      "target": "adidas-crazyquick-boost-padel",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ]
+    },
+    {
+      "review": "adidas-courtstabil-padel",
+      "source": "adidas-courtstabil-padel",
+      "target": "joma-t-slam",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ]
+    },
+    {
+      "review": "adidas-courtstabil-padel",
+      "source": "adidas-courtstabil-padel",
+      "target": "asics-gel-dedicate-8-padel",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ]
+    },
+    {
+      "review": "adidas-crazyquick-boost-padel",
+      "source": "adidas-crazyquick-boost-padel",
+      "target": "asics-gel-resolution-padel",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ]
+    },
+    {
+      "review": "adidas-crazyquick-boost-padel",
+      "source": "adidas-crazyquick-boost-padel",
+      "target": "nox-at10-lux",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ]
+    },
+    {
+      "review": "adidas-crazyquick-boost-padel",
+      "source": "adidas-crazyquick-boost-padel",
+      "target": "adidas-courtstabil-padel",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ]
+    },
+    {
+      "review": "adidas-crazyquick-boost-padel",
+      "source": "adidas-crazyquick-boost-padel",
+      "target": "babolat-jet-premura",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ]
+    },
+    {
+      "review": "adidas-crazyquick-boost-padel-women",
+      "source": "adidas-crazyquick-boost-padel-women",
+      "target": "asics-solution-swift-ff2-padel",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ]
+    },
+    {
+      "review": "adidas-crazyquick-boost-padel-women",
+      "source": "adidas-crazyquick-boost-padel-women",
+      "target": "bullpadel-ionic-woman",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ]
+    },
+    {
+      "review": "adidas-crazyquick-boost-padel-women",
+      "source": "adidas-crazyquick-boost-padel-women",
+      "target": "adidas-courtquick-padel-women",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ]
+    },
+    {
+      "review": "adidas-crazyquick-boost-padel-women",
+      "source": "adidas-crazyquick-boost-padel-women",
+      "target": "babolat-sensa-women",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ]
+    },
+    {
+      "review": "adidas-dropset-2",
+      "source": "adidas-dropset-2",
+      "target": "adidas-the-total",
+      "cls": "WEAK",
+      "reasons": [
+        "unrelated previous-generation"
+      ]
+    },
+    {
+      "review": "adidas-dropset-2",
+      "source": "adidas-dropset-2",
+      "target": "nike-metcon-9",
+      "cls": "WEAK",
+      "reasons": [
+        "unrelated previous-generation"
+      ]
+    },
+    {
+      "review": "adidas-dropset-2",
+      "source": "adidas-dropset-2",
+      "target": "reebok-nano-x4",
+      "cls": "WEAK",
+      "reasons": [
+        "unrelated previous-generation"
+      ]
+    },
+    {
+      "review": "adidas-dropset-3",
+      "source": "adidas-dropset-3",
+      "target": "tyr-cxt-1",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ]
+    },
+    {
+      "review": "adidas-dropset-3",
+      "source": "adidas-dropset-3",
+      "target": "nike-metcon-9",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ]
+    },
+    {
+      "review": "adidas-dropset-3",
+      "source": "adidas-dropset-3",
+      "target": "reebok-nano-x4",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ]
+    },
+    {
+      "review": "adidas-dropset-3",
+      "source": "adidas-dropset-3",
+      "target": "nobull-trainer",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ]
+    },
+    {
+      "review": "adidas-metalbone-hrd-2026",
+      "source": "adidas-metalbone-hrd-2026",
+      "target": "bullpadel-hack-03",
+      "cls": "WEAK",
+      "reasons": [
+        "unrelated previous-generation"
+      ]
+    },
+    {
+      "review": "adidas-powerlift-5",
+      "source": "adidas-powerlift-5",
+      "target": "nike-metcon-9",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ]
+    },
+    {
+      "review": "adidas-powerlift-5",
+      "source": "adidas-powerlift-5",
+      "target": "reebok-nano-x4",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ]
+    },
+    {
+      "review": "adidas-the-total",
+      "source": "adidas-the-total",
+      "target": "nike-metcon-9",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ]
+    },
+    {
+      "review": "adidas-the-total",
+      "source": "adidas-the-total",
+      "target": "reebok-nano-x4",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ]
+    },
+    {
+      "review": "asics-game-ff-padel",
+      "source": "asics-game-ff-padel",
+      "target": "babolat-jet-premura",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ]
+    },
+    {
+      "review": "asics-game-ff-padel",
+      "source": "asics-game-ff-padel",
+      "target": "head-sprint-pro-4-padel",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ]
+    },
+    {
+      "review": "asics-game-ff-padel",
+      "source": "asics-game-ff-padel",
+      "target": "asics-gel-resolution-padel",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ]
+    },
+    {
+      "review": "asics-game-ff-padel",
+      "source": "asics-game-ff-padel",
+      "target": "asics-gel-dedicate-8-padel",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ]
+    },
+    {
+      "review": "asics-gel-challenger-15",
+      "source": "asics-gel-challenger-15",
+      "target": "wilson-rush-pro-4-0",
+      "cls": "WEAK",
+      "reasons": [
+        "unrelated previous-generation"
+      ]
+    },
+    {
+      "review": "asics-gel-challenger-court",
+      "source": "asics-gel-challenger-court",
+      "target": "head-revolt-pro-court",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ]
+    },
+    {
+      "review": "asics-gel-challenger-court",
+      "source": "asics-gel-challenger-court",
+      "target": "adidas-courtstabil-padel",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ]
+    },
+    {
+      "review": "asics-gel-challenger-court",
+      "source": "asics-gel-challenger-court",
+      "target": "asics-gel-resolution-padel",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ]
+    },
+    {
+      "review": "asics-gel-challenger-court",
+      "source": "asics-gel-challenger-court",
+      "target": "joma-t-slam",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ]
+    },
+    {
+      "review": "asics-gel-dedicate-8-padel",
+      "source": "asics-gel-dedicate-8-padel",
+      "target": "joma-t-slam",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ]
+    },
+    {
+      "review": "asics-gel-dedicate-8-padel",
+      "source": "asics-gel-dedicate-8-padel",
+      "target": "adidas-courtstabil-padel",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ]
+    },
+    {
+      "review": "asics-gel-dedicate-8-padel",
+      "source": "asics-gel-dedicate-8-padel",
+      "target": "asics-gel-challenger-court",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ]
+    },
+    {
+      "review": "asics-gel-dedicate-8-padel",
+      "source": "asics-gel-dedicate-8-padel",
+      "target": "asics-game-ff-padel",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ]
+    },
+    {
+      "review": "asics-gel-resolution-9",
+      "source": "asics-gel-resolution-9",
+      "target": "wilson-rush-pro-4-0",
+      "cls": "WEAK",
+      "reasons": [
+        "unrelated previous-generation"
+      ]
+    },
+    {
+      "review": "asics-gel-resolution-9-clay",
+      "source": "asics-gel-resolution-9-clay",
+      "target": "asics-gel-challenger-15",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ]
+    },
+    {
+      "review": "asics-gel-resolution-9-clay",
+      "source": "asics-gel-resolution-9-clay",
+      "target": "asics-gel-resolution-9",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ]
+    },
+    {
+      "review": "asics-gel-resolution-padel",
+      "source": "asics-gel-resolution-padel",
+      "target": "joma-t-slam",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ]
+    },
+    {
+      "review": "asics-gel-resolution-padel",
+      "source": "asics-gel-resolution-padel",
+      "target": "adidas-courtstabil-padel",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ]
+    },
+    {
+      "review": "asics-gel-resolution-padel",
+      "source": "asics-gel-resolution-padel",
+      "target": "asics-gel-challenger-court",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ]
+    },
+    {
+      "review": "asics-gel-resolution-padel",
+      "source": "asics-gel-resolution-padel",
+      "target": "babolat-jet-premura",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ]
+    },
+    {
+      "review": "asics-solution-swift-ff2-padel",
+      "source": "asics-solution-swift-ff2-padel",
+      "target": "babolat-jet-premura",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ]
+    },
+    {
+      "review": "asics-solution-swift-ff2-padel",
+      "source": "asics-solution-swift-ff2-padel",
+      "target": "wilson-rush-pro-5-padel",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ]
+    },
+    {
+      "review": "asics-solution-swift-ff2-padel",
+      "source": "asics-solution-swift-ff2-padel",
+      "target": "asics-gel-resolution-padel",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ]
+    },
+    {
+      "review": "asics-solution-swift-ff2-padel",
+      "source": "asics-solution-swift-ff2-padel",
+      "target": "asics-game-ff-padel",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ]
+    },
+    {
+      "review": "atx-cast-iron-plate-set",
+      "source": "atx-cast-iron-plate-set",
+      "target": "rogue-echo-bumper-plate-set",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ]
+    },
+    {
+      "review": "babolat-jet-premura",
+      "source": "babolat-jet-premura",
+      "target": "head-revolt-pro-court",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ]
+    },
+    {
+      "review": "babolat-jet-premura",
+      "source": "babolat-jet-premura",
+      "target": "adidas-courtstabil-padel",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ]
+    },
+    {
+      "review": "babolat-jet-premura",
+      "source": "babolat-jet-premura",
+      "target": "asics-gel-resolution-padel",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ]
+    },
+    {
+      "review": "babolat-jet-premura",
+      "source": "babolat-jet-premura",
+      "target": "joma-t-slam",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ]
+    },
+    {
+      "review": "babolat-movea-2",
+      "source": "babolat-movea-2",
+      "target": "head-revolt-pro-court",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ]
+    },
+    {
+      "review": "babolat-movea-2",
+      "source": "babolat-movea-2",
+      "target": "asics-gel-challenger-court",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ]
+    },
+    {
+      "review": "babolat-movea-2",
+      "source": "babolat-movea-2",
+      "target": "babolat-jet-premura",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ]
+    },
+    {
+      "review": "babolat-movea-2",
+      "source": "babolat-movea-2",
+      "target": "joma-spin-men",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ]
+    },
+    {
+      "review": "babolat-pure-aero-2023",
+      "source": "babolat-pure-aero-2023",
+      "target": "yonex-vcore-100-2023",
+      "cls": "WEAK",
+      "reasons": [
+        "unrelated previous-generation"
+      ]
+    },
+    {
+      "review": "babolat-pure-drive-2025",
+      "source": "babolat-pure-drive-2025",
+      "target": "yonex-ezone-98-2024",
+      "cls": "WEAK",
+      "reasons": [
+        "unrelated previous-generation"
+      ]
+    },
+    {
+      "review": "babolat-pure-drive-gen11",
+      "source": "babolat-pure-drive-gen11",
+      "target": "wilson-blade-98-v9",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ]
+    },
+    {
+      "review": "babolat-sensa-women",
+      "source": "babolat-sensa-women",
+      "target": "bullpadel-ionic-woman",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ]
+    },
+    {
+      "review": "babolat-sensa-women",
+      "source": "babolat-sensa-women",
+      "target": "adidas-crazyquick-boost-padel-women",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ]
+    },
+    {
+      "review": "babolat-sensa-women",
+      "source": "babolat-sensa-women",
+      "target": "adidas-courtquick-padel-women",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ]
+    },
+    {
+      "review": "babolat-sensa-women",
+      "source": "babolat-sensa-women",
+      "target": "joma-slam-lady",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ]
+    },
+    {
+      "review": "babolat-technical-viper-2026",
+      "source": "babolat-technical-viper-2026",
+      "target": "nox-at10-genius-18k-2026",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ]
+    },
+    {
+      "review": "bullpadel-hack-03",
+      "source": "bullpadel-hack-03",
+      "target": "adidas-metalbone-hrd-2026",
+      "cls": "WEAK",
+      "reasons": [
+        "unrelated previous-generation"
+      ]
+    },
+    {
+      "review": "bullpadel-hybrid-fly",
+      "source": "bullpadel-hybrid-fly",
+      "target": "joma-spin-men",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ]
+    },
+    {
+      "review": "bullpadel-hybrid-fly",
+      "source": "bullpadel-hybrid-fly",
+      "target": "babolat-movea-2",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ]
+    },
+    {
+      "review": "bullpadel-hybrid-fly",
+      "source": "bullpadel-hybrid-fly",
+      "target": "nox-at10-lux",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ]
+    },
+    {
+      "review": "bullpadel-hybrid-fly",
+      "source": "bullpadel-hybrid-fly",
+      "target": "bullpadel-ionic-woman",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ]
+    },
+    {
+      "review": "bullpadel-ionic-woman",
+      "source": "bullpadel-ionic-woman",
+      "target": "adidas-courtquick-padel-women",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ]
+    },
+    {
+      "review": "bullpadel-ionic-woman",
+      "source": "bullpadel-ionic-woman",
+      "target": "adidas-crazyquick-boost-padel-women",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ]
+    },
+    {
+      "review": "bullpadel-ionic-woman",
+      "source": "bullpadel-ionic-woman",
+      "target": "babolat-sensa-women",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ]
+    },
+    {
+      "review": "bullpadel-ionic-woman",
+      "source": "bullpadel-ionic-woman",
+      "target": "joma-slam-lady",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ]
+    },
+    {
+      "review": "bullpadel-vertex-04",
+      "source": "bullpadel-vertex-04",
+      "target": "head-coello-pro-2026",
+      "cls": "WEAK",
+      "reasons": [
+        "unrelated previous-generation"
+      ]
+    },
+    {
+      "review": "bullpadel-vertex-04",
+      "source": "bullpadel-vertex-04",
+      "target": "nox-at10-genius-18k-2026",
+      "cls": "WEAK",
+      "reasons": [
+        "unrelated previous-generation"
+      ]
+    },
+    {
+      "review": "do-win-classic",
+      "source": "do-win-classic",
+      "target": "nike-metcon-9",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ]
+    },
+    {
+      "review": "do-win-classic",
+      "source": "do-win-classic",
+      "target": "reebok-nano-x4",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ]
+    },
+    {
+      "review": "eleiko-kettlebell",
+      "source": "eleiko-kettlebell",
+      "target": "mirafit-cast-iron-kettlebell",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ]
+    },
+    {
+      "review": "eleiko-performance-weightlifting-bar",
+      "source": "eleiko-performance-weightlifting-bar",
+      "target": "rogue-ohio-power-bar",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ]
+    },
+    {
+      "review": "eleiko-sport-collars",
+      "source": "eleiko-sport-collars",
+      "target": "blackroll-standard",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ]
+    },
+    {
+      "review": "eleiko-sport-collars",
+      "source": "eleiko-sport-collars",
+      "target": "blackroll-med",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ]
+    },
+    {
+      "review": "eleiko-sport-collars",
+      "source": "eleiko-sport-collars",
+      "target": "blackroll-ball",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ]
+    },
+    {
+      "review": "head-coello-pro-2026",
+      "source": "head-coello-pro-2026",
+      "target": "bullpadel-vertex-04",
+      "cls": "WEAK",
+      "reasons": [
+        "unrelated previous-generation"
+      ]
+    },
+    {
+      "review": "head-coello-pro-2026",
+      "source": "head-coello-pro-2026",
+      "target": "wilson-bela-pro-v2-2026",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ]
+    },
+    {
+      "review": "head-radical-mp-2023",
+      "source": "head-radical-mp-2023",
+      "target": "wilson-blade-98-v8",
+      "cls": "WEAK",
+      "reasons": [
+        "unrelated previous-generation"
+      ]
+    },
+    {
+      "review": "head-radical-mp-2023",
+      "source": "head-radical-mp-2023",
+      "target": "head-speed-mp-2024",
+      "cls": "WEAK",
+      "reasons": [
+        "unrelated previous-generation"
+      ]
+    },
+    {
+      "review": "head-revolt-pro-court",
+      "source": "head-revolt-pro-court",
+      "target": "joma-t-slam",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ]
+    },
+    {
+      "review": "head-revolt-pro-court",
+      "source": "head-revolt-pro-court",
+      "target": "adidas-courtstabil-padel",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ]
+    },
+    {
+      "review": "head-revolt-pro-court",
+      "source": "head-revolt-pro-court",
+      "target": "asics-gel-resolution-padel",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ]
+    },
+    {
+      "review": "head-revolt-pro-court",
+      "source": "head-revolt-pro-court",
+      "target": "babolat-jet-premura",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ]
+    },
+    {
+      "review": "head-speed-mp-2024",
+      "source": "head-speed-mp-2024",
+      "target": "head-radical-mp-2023",
+      "cls": "WEAK",
+      "reasons": [
+        "unrelated previous-generation"
+      ]
+    },
+    {
+      "review": "head-sprint-pro-4-padel",
+      "source": "head-sprint-pro-4-padel",
+      "target": "wilson-rush-pro-5-padel",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ]
+    },
+    {
+      "review": "head-sprint-pro-4-padel",
+      "source": "head-sprint-pro-4-padel",
+      "target": "babolat-jet-premura",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ]
+    },
+    {
+      "review": "head-sprint-pro-4-padel",
+      "source": "head-sprint-pro-4-padel",
+      "target": "head-revolt-pro-court",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ]
+    },
+    {
+      "review": "head-sprint-pro-4-padel",
+      "source": "head-sprint-pro-4-padel",
+      "target": "asics-game-ff-padel",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ]
+    },
+    {
+      "review": "inov8-fastlift-360",
+      "source": "inov8-fastlift-360",
+      "target": "nobull-outwork",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ]
+    },
+    {
+      "review": "inov8-fastlift-360",
+      "source": "inov8-fastlift-360",
+      "target": "tyr-cxt-2",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ]
+    },
+    {
+      "review": "inov8-fastlift-360",
+      "source": "inov8-fastlift-360",
+      "target": "nike-metcon-9",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ]
+    },
+    {
+      "review": "inov8-fastlift-360",
+      "source": "inov8-fastlift-360",
+      "target": "reebok-nano-x4",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ]
+    },
+    {
+      "review": "inov8-fastlift-360",
+      "source": "inov8-fastlift-360",
+      "target": "nobull-trainer",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ]
+    },
+    {
+      "review": "inov8-fastlift-400",
+      "source": "inov8-fastlift-400",
+      "target": "nike-metcon-9",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ]
+    },
+    {
+      "review": "inov8-fastlift-400",
+      "source": "inov8-fastlift-400",
+      "target": "reebok-nano-x4",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ]
+    },
+    {
+      "review": "inov8-fastlift-power-g-380",
+      "source": "inov8-fastlift-power-g-380",
+      "target": "nike-metcon-9",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ]
+    },
+    {
+      "review": "inov8-fastlift-power-g-380",
+      "source": "inov8-fastlift-power-g-380",
+      "target": "reebok-nano-x4",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ]
+    },
+    {
+      "review": "joma-slam-lady",
+      "source": "joma-slam-lady",
+      "target": "adidas-courtquick-padel-women",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ]
+    },
+    {
+      "review": "joma-slam-lady",
+      "source": "joma-slam-lady",
+      "target": "bullpadel-ionic-woman",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ]
+    },
+    {
+      "review": "joma-slam-lady",
+      "source": "joma-slam-lady",
+      "target": "joma-t-slam",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ]
+    },
+    {
+      "review": "joma-slam-lady",
+      "source": "joma-slam-lady",
+      "target": "babolat-sensa-women",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ]
+    },
+    {
+      "review": "joma-spin-men",
+      "source": "joma-spin-men",
+      "target": "asics-game-ff-padel",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ]
+    },
+    {
+      "review": "joma-spin-men",
+      "source": "joma-spin-men",
+      "target": "bullpadel-hybrid-fly",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ]
+    },
+    {
+      "review": "joma-spin-men",
+      "source": "joma-spin-men",
+      "target": "joma-t-slam",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ]
+    },
+    {
+      "review": "joma-spin-men",
+      "source": "joma-spin-men",
+      "target": "babolat-movea-2",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ]
+    },
+    {
+      "review": "joma-t-slam",
+      "source": "joma-t-slam",
+      "target": "adidas-courtstabil-padel",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ]
+    },
+    {
+      "review": "joma-t-slam",
+      "source": "joma-t-slam",
+      "target": "head-revolt-pro-court",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ]
+    },
+    {
+      "review": "joma-t-slam",
+      "source": "joma-t-slam",
+      "target": "babolat-jet-premura",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ]
+    },
+    {
+      "review": "joma-t-slam",
+      "source": "joma-t-slam",
+      "target": "asics-gel-challenger-court",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ]
+    },
+    {
+      "review": "kuikma-ps-990",
+      "source": "kuikma-ps-990",
+      "target": "asics-gel-dedicate-8-padel",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ]
+    },
+    {
+      "review": "kuikma-ps-990",
+      "source": "kuikma-ps-990",
+      "target": "babolat-movea-2",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ]
+    },
+    {
+      "review": "kuikma-ps-990",
+      "source": "kuikma-ps-990",
+      "target": "joma-t-slam",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ]
+    },
+    {
+      "review": "kuikma-ps-990",
+      "source": "kuikma-ps-990",
+      "target": "adidas-courtstabil-padel",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ]
+    },
+    {
+      "review": "lululemon-strongfeel",
+      "source": "lululemon-strongfeel",
+      "target": "adidas-dropset-3",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ]
+    },
+    {
+      "review": "mirafit-olympic-barbell",
+      "source": "mirafit-olympic-barbell",
+      "target": "eleiko-xf-bar",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ]
+    },
+    {
+      "review": "mirafit-olympic-barbell",
+      "source": "mirafit-olympic-barbell",
+      "target": "rogue-ohio-power-bar",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ]
+    },
+    {
+      "review": "nike-metcon-8",
+      "source": "nike-metcon-8",
+      "target": "adidas-dropset-3",
+      "cls": "WEAK",
+      "reasons": [
+        "unrelated previous-generation"
+      ]
+    },
+    {
+      "review": "nike-metcon-8",
+      "source": "nike-metcon-8",
+      "target": "reebok-nano-x4",
+      "cls": "WEAK",
+      "reasons": [
+        "unrelated previous-generation"
+      ]
+    },
+    {
+      "review": "nike-romaleos-4",
+      "source": "nike-romaleos-4",
+      "target": "adidas-adipower-weightlifting-3",
+      "cls": "WEAK",
+      "reasons": [
+        "unrelated previous-generation"
+      ]
+    },
+    {
+      "review": "nike-romaleos-4",
+      "source": "nike-romaleos-4",
+      "target": "nike-metcon-9",
+      "cls": "WEAK",
+      "reasons": [
+        "unrelated previous-generation"
+      ]
+    },
+    {
+      "review": "nike-romaleos-4",
+      "source": "nike-romaleos-4",
+      "target": "reebok-nano-x4",
+      "cls": "WEAK",
+      "reasons": [
+        "unrelated previous-generation"
+      ]
+    },
+    {
+      "review": "nike-romaleos-5",
+      "source": "nike-romaleos-5",
+      "target": "nike-metcon-9",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ]
+    },
+    {
+      "review": "nike-romaleos-5",
+      "source": "nike-romaleos-5",
+      "target": "reebok-nano-x4",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ]
+    },
+    {
+      "review": "nike-romaleos-5",
+      "source": "nike-romaleos-5",
+      "target": "nobull-trainer",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ]
+    },
+    {
+      "review": "nike-savaleos",
+      "source": "nike-savaleos",
+      "target": "nike-metcon-9",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ]
+    },
+    {
+      "review": "nike-savaleos",
+      "source": "nike-savaleos",
+      "target": "reebok-nano-x4",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ]
+    },
+    {
+      "review": "nobull-outwork",
+      "source": "nobull-outwork",
+      "target": "reebok-legacy-lifter-iii",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ]
+    },
+    {
+      "review": "nobull-outwork",
+      "source": "nobull-outwork",
+      "target": "inov8-fastlift-360",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ]
+    },
+    {
+      "review": "nox-at10-genius-18k-2026",
+      "source": "nox-at10-genius-18k-2026",
+      "target": "babolat-technical-viper-2026",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ]
+    },
+    {
+      "review": "nox-at10-lux",
+      "source": "nox-at10-lux",
+      "target": "asics-gel-resolution-padel",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ]
+    },
+    {
+      "review": "nox-at10-lux",
+      "source": "nox-at10-lux",
+      "target": "babolat-jet-premura",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ]
+    },
+    {
+      "review": "nox-at10-lux",
+      "source": "nox-at10-lux",
+      "target": "nox-ml10-hexa",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ]
+    },
+    {
+      "review": "nox-at10-lux",
+      "source": "nox-at10-lux",
+      "target": "bullpadel-hybrid-fly",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ]
+    },
+    {
+      "review": "nox-ml10-hexa",
+      "source": "nox-ml10-hexa",
+      "target": "bullpadel-hybrid-fly",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ]
+    },
+    {
+      "review": "nox-ml10-hexa",
+      "source": "nox-ml10-hexa",
+      "target": "adidas-courtstabil-padel",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ]
+    },
+    {
+      "review": "nox-ml10-hexa",
+      "source": "nox-ml10-hexa",
+      "target": "nox-at10-lux",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ]
+    },
+    {
+      "review": "nox-ml10-hexa",
+      "source": "nox-ml10-hexa",
+      "target": "joma-t-slam",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ]
+    },
+    {
+      "review": "prince-textreme-tour-100p",
+      "source": "prince-textreme-tour-100p",
+      "target": "wilson-blade-98-v8",
+      "cls": "WEAK",
+      "reasons": [
+        "unrelated previous-generation"
+      ]
+    },
+    {
+      "review": "reebok-legacy-lifter-iii",
+      "source": "reebok-legacy-lifter-iii",
+      "target": "nobull-outwork",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ]
+    },
+    {
+      "review": "reebok-legacy-lifter-iii",
+      "source": "reebok-legacy-lifter-iii",
+      "target": "nike-metcon-9",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ]
+    },
+    {
+      "review": "reebok-legacy-lifter-iii",
+      "source": "reebok-legacy-lifter-iii",
+      "target": "reebok-nano-x4",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ]
+    },
+    {
+      "review": "reebok-legacy-lifter-iii",
+      "source": "reebok-legacy-lifter-iii",
+      "target": "nobull-trainer",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ]
+    },
+    {
+      "review": "reebok-lifter-pr-iii",
+      "source": "reebok-lifter-pr-iii",
+      "target": "nike-metcon-9",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ]
+    },
+    {
+      "review": "reebok-lifter-pr-iii",
+      "source": "reebok-lifter-pr-iii",
+      "target": "reebok-nano-x4",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ]
+    },
+    {
+      "review": "reebok-nano-x3",
+      "source": "reebok-nano-x3",
+      "target": "reebok-nano-x4",
+      "cls": "WEAK",
+      "reasons": [
+        "unrelated previous-generation"
+      ]
+    },
+    {
+      "review": "reebok-nano-x3",
+      "source": "reebok-nano-x3",
+      "target": "nike-metcon-9",
+      "cls": "WEAK",
+      "reasons": [
+        "unrelated previous-generation"
+      ]
+    },
+    {
+      "review": "rep-colorado-bar",
+      "source": "rep-colorado-bar",
+      "target": "rogue-ohio-power-bar",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ]
+    },
+    {
+      "review": "rep-fb-5000-flat-bench",
+      "source": "rep-fb-5000-flat-bench",
+      "target": "mirafit-fid-adjustable-bench",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ]
+    },
+    {
+      "review": "rep-slam-ball",
+      "source": "rep-slam-ball",
+      "target": "rogue-dog-sled",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ]
+    },
+    {
+      "review": "rogue-dog-sled",
+      "source": "rogue-dog-sled",
+      "target": "rep-slam-ball",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ]
+    },
+    {
+      "review": "rogue-echo-kettlebell",
+      "source": "rogue-echo-kettlebell",
+      "target": "mirafit-cast-iron-kettlebell",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ]
+    },
+    {
+      "review": "rogue-ohio-power-bar",
+      "source": "rogue-ohio-power-bar",
+      "target": "rep-colorado-bar",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ]
+    },
+    {
+      "review": "rogue-wrist-wraps",
+      "source": "rogue-wrist-wraps",
+      "target": "blackroll-standard",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ]
+    },
+    {
+      "review": "rogue-wrist-wraps",
+      "source": "rogue-wrist-wraps",
+      "target": "blackroll-med",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ]
+    },
+    {
+      "review": "rogue-wrist-wraps",
+      "source": "rogue-wrist-wraps",
+      "target": "blackroll-ball",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ]
+    },
+    {
+      "review": "siux-diablo-revolution-2026",
+      "source": "siux-diablo-revolution-2026",
+      "target": "bullpadel-vertex-04",
+      "cls": "WEAK",
+      "reasons": [
+        "unrelated previous-generation"
+      ]
+    },
+    {
+      "review": "starvie-basalto-osiris-2026",
+      "source": "starvie-basalto-osiris-2026",
+      "target": "starvie-titania-kepler-2026",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ]
+    },
+    {
+      "review": "starvie-titania-kepler-2026",
+      "source": "starvie-titania-kepler-2026",
+      "target": "adidas-metalbone-hrd-2026",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ]
+    },
+    {
+      "review": "tecnifibre-tf40-305",
+      "source": "tecnifibre-tf40-305",
+      "target": "wilson-blade-98-v8",
+      "cls": "WEAK",
+      "reasons": [
+        "unrelated previous-generation"
+      ]
+    },
+    {
+      "review": "tyr-cxt-1",
+      "source": "tyr-cxt-1",
+      "target": "adidas-dropset-3",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ]
+    },
+    {
+      "review": "tyr-cxt-2",
+      "source": "tyr-cxt-2",
+      "target": "inov8-fastlift-360",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ]
+    },
+    {
+      "review": "ua-reign-lifter",
+      "source": "ua-reign-lifter",
+      "target": "nike-metcon-9",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ]
+    },
+    {
+      "review": "ua-reign-lifter",
+      "source": "ua-reign-lifter",
+      "target": "reebok-nano-x4",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ]
+    },
+    {
+      "review": "varlion-lw-carbon-difusor-2026",
+      "source": "varlion-lw-carbon-difusor-2026",
+      "target": "bullpadel-vertex-04",
+      "cls": "WEAK",
+      "reasons": [
+        "unrelated previous-generation"
+      ]
+    },
+    {
+      "review": "wilson-blade-98-v8",
+      "source": "wilson-blade-98-v8",
+      "target": "tecnifibre-tf40-305",
+      "cls": "WEAK",
+      "reasons": [
+        "unrelated previous-generation"
+      ]
+    },
+    {
+      "review": "wilson-blade-98-v8",
+      "source": "wilson-blade-98-v8",
+      "target": "yonex-ezone-98-2024",
+      "cls": "WEAK",
+      "reasons": [
+        "unrelated previous-generation"
+      ]
+    },
+    {
+      "review": "wilson-blade-pro-v2-padel-2026",
+      "source": "wilson-blade-pro-v2-padel-2026",
+      "target": "wilson-bela-pro-v2-2026",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ]
+    },
+    {
+      "review": "wilson-rush-pro-4-0",
+      "source": "wilson-rush-pro-4-0",
+      "target": "asics-gel-resolution-9",
+      "cls": "WEAK",
+      "reasons": [
+        "unrelated previous-generation"
+      ]
+    },
+    {
+      "review": "wilson-rush-pro-4-0",
+      "source": "wilson-rush-pro-4-0",
+      "target": "nike-court-vapor-pro-3",
+      "cls": "WEAK",
+      "reasons": [
+        "unrelated previous-generation"
+      ]
+    },
+    {
+      "review": "wilson-rush-pro-5-padel",
+      "source": "wilson-rush-pro-5-padel",
+      "target": "babolat-jet-premura",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ]
+    },
+    {
+      "review": "wilson-rush-pro-5-padel",
+      "source": "wilson-rush-pro-5-padel",
+      "target": "nox-at10-lux",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ]
+    },
+    {
+      "review": "wilson-rush-pro-5-padel",
+      "source": "wilson-rush-pro-5-padel",
+      "target": "asics-gel-resolution-padel",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ]
+    },
+    {
+      "review": "wilson-rush-pro-5-padel",
+      "source": "wilson-rush-pro-5-padel",
+      "target": "head-sprint-pro-4-padel",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ]
+    },
+    {
+      "review": "yonex-ezone-98-2024",
+      "source": "yonex-ezone-98-2024",
+      "target": "wilson-blade-98-v8",
+      "cls": "WEAK",
+      "reasons": [
+        "unrelated previous-generation"
+      ]
+    },
+    {
+      "review": "yonex-vcore-100-2023",
+      "source": "yonex-vcore-100-2023",
+      "target": "babolat-pure-drive-2025",
+      "cls": "WEAK",
+      "reasons": [
+        "unrelated previous-generation"
+      ]
+    },
+    {
+      "review": "yonex-vcore-100-2023",
+      "source": "yonex-vcore-100-2023",
+      "target": "babolat-pure-aero-2023",
+      "cls": "WEAK",
+      "reasons": [
+        "unrelated previous-generation"
+      ]
+    },
+    {
+      "review": "drop-shot-canyon-pro-2026",
+      "source": "drop-shot-canyon-pro-2026",
+      "target": "bullpadel-vertex-04",
+      "cls": "WEAK",
+      "reasons": [
+        "unrelated previous-generation"
+      ]
+    },
+    {
+      "review": "nathan-vaporair-2",
+      "source": "nathan-vaporair-2",
+      "target": "osprey-duro-6",
+      "cls": "WEAK",
+      "reasons": [
+        "unrelated previous-generation"
+      ]
+    },
+    {
+      "review": "nathan-vaporair-2",
+      "source": "nathan-vaporair-2",
+      "target": "ultimate-direction-adventure-vest",
+      "cls": "WEAK",
+      "reasons": [
+        "unrelated previous-generation"
+      ]
+    },
+    {
+      "review": "osprey-duro-6",
+      "source": "osprey-duro-6",
+      "target": "nathan-vaporair-2",
+      "cls": "WEAK",
+      "reasons": [
+        "unrelated previous-generation"
+      ]
+    },
+    {
+      "review": "osprey-duro-6",
+      "source": "osprey-duro-6",
+      "target": "camelbak-zephyr",
+      "cls": "WEAK",
+      "reasons": [
+        "unrelated previous-generation"
+      ]
+    },
+    {
+      "review": "scosche-rhythm24",
+      "source": "scosche-rhythm24",
+      "target": "wahoo-tickr-fit",
+      "cls": "WEAK",
+      "reasons": [
+        "HRM form arm vs chest"
+      ]
+    },
+    {
+      "review": "scosche-rhythm-plus-2",
+      "source": "scosche-rhythm-plus-2",
+      "target": "wahoo-tickr-fit",
+      "cls": "WEAK",
+      "reasons": [
+        "HRM form arm vs chest"
+      ]
+    },
+    {
+      "review": "scosche-rhythm-plus-2",
+      "source": "scosche-rhythm-plus-2",
+      "target": "polar-h10",
+      "cls": "WEAK",
+      "reasons": [
+        "HRM form arm vs chest"
+      ]
+    },
+    {
+      "review": "garmin-forerunner-970",
+      "source": "garmin-forerunner-970",
+      "target": "coros-apex-2-pro",
+      "cls": "WEAK",
+      "reasons": [
+        "unrelated previous-generation"
+      ]
+    },
+    {
+      "review": "saltstick-fastchews",
+      "source": "saltstick-fastchews",
+      "target": "nuun-sport",
+      "cls": "WEAK",
+      "reasons": [
+        "nutrition form chew vs drink"
+      ]
+    },
+    {
+      "review": "226ers-high-energy-gel",
+      "source": "226ers-high-energy-gel",
+      "target": "styrkr-mix90",
+      "cls": "WEAK",
+      "reasons": [
+        "nutrition form gel vs drink"
+      ]
+    },
+    {
+      "review": "clif-bar-original",
+      "source": "clif-bar-original",
+      "target": "veloforte-energy-chews",
+      "cls": "WEAK",
+      "reasons": [
+        "nutrition form bar vs chew"
+      ]
+    },
+    {
+      "review": "maurten-gel-160",
+      "source": "maurten-gel-160",
+      "target": "styrkr-mix90",
+      "cls": "WEAK",
+      "reasons": [
+        "nutrition form gel vs drink"
+      ]
+    },
+    {
+      "review": "naak-ultra-energy-bar",
+      "source": "naak-ultra-energy-bar",
+      "target": "clif-bloks-energy-chews",
+      "cls": "WEAK",
+      "reasons": [
+        "nutrition form bar vs chew"
+      ]
+    },
+    {
+      "review": "naak-ultra-energy-bar",
+      "source": "naak-ultra-energy-bar",
+      "target": "veloforte-energy-chews",
+      "cls": "WEAK",
+      "reasons": [
+        "nutrition form bar vs chew"
+      ]
+    },
+    {
+      "review": "nathan-zippered-stash",
+      "source": "nathan-zippered-stash",
+      "target": "nathan-vaporair-2",
+      "cls": "WEAK",
+      "reasons": [
+        "unrelated previous-generation"
+      ]
+    },
+    {
+      "review": "polar-verity-sense",
+      "source": "polar-verity-sense",
+      "target": "polar-h10",
+      "cls": "WEAK",
+      "reasons": [
+        "HRM form arm vs chest"
+      ]
+    },
+    {
+      "review": "polar-verity-sense",
+      "source": "polar-verity-sense",
+      "target": "wahoo-tickr-fit",
+      "cls": "WEAK",
+      "reasons": [
+        "HRM form arm vs chest"
+      ]
+    },
+    {
+      "review": "coros-pace-3",
+      "source": "coros-pace-3",
+      "target": "garmin-forerunner-965",
+      "cls": "WEAK",
+      "reasons": [
+        "unrelated previous-generation"
+      ]
+    },
+    {
+      "review": "coros-pace-3",
+      "source": "coros-pace-3",
+      "target": "garmin-forerunner-165",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ]
+    },
+    {
+      "review": "coros-pace-3",
+      "source": "coros-pace-3",
+      "target": "garmin-forerunner-265",
+      "cls": "WEAK",
+      "reasons": [
+        "unrelated previous-generation"
+      ]
+    },
+    {
+      "review": "garmin-forerunner-265s",
+      "source": "garmin-forerunner-265s",
+      "target": "coros-pace-4",
+      "cls": "WEAK",
+      "reasons": [
+        "unrelated previous-generation"
+      ]
+    },
+    {
+      "review": "garmin-epix-pro-gen-2",
+      "source": "garmin-epix-pro-gen-2",
+      "target": "garmin-fenix-8",
+      "cls": "WEAK",
+      "reasons": [
+        "unrelated previous-generation"
+      ]
+    },
+    {
+      "review": "garmin-epix-pro-gen-2",
+      "source": "garmin-epix-pro-gen-2",
+      "target": "suunto-vertical-2",
+      "cls": "WEAK",
+      "reasons": [
+        "unrelated previous-generation"
+      ]
+    },
+    {
+      "review": "garmin-epix-pro-gen-2",
+      "source": "garmin-epix-pro-gen-2",
+      "target": "coros-apex-4",
+      "cls": "WEAK",
+      "reasons": [
+        "unrelated previous-generation"
+      ]
+    },
+    {
+      "review": "garmin-epix-pro-gen-2",
+      "source": "garmin-epix-pro-gen-2",
+      "target": "garmin-forerunner-970",
+      "cls": "WEAK",
+      "reasons": [
+        "unrelated previous-generation"
+      ]
+    },
+    {
+      "review": "garmin-epix-pro-gen-2",
+      "source": "garmin-epix-pro-gen-2",
+      "target": "garmin-enduro-3",
+      "cls": "WEAK",
+      "reasons": [
+        "unrelated previous-generation"
+      ]
+    },
+    {
+      "review": "coros-pace-4",
+      "source": "coros-pace-4",
+      "target": "garmin-forerunner-265s",
+      "cls": "WEAK",
+      "reasons": [
+        "unrelated previous-generation"
+      ]
+    },
+    {
+      "review": "coros-pace-4",
+      "source": "coros-pace-4",
+      "target": "garmin-forerunner-165",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ]
+    },
+    {
+      "review": "apple-watch-series-10",
+      "source": "apple-watch-series-10",
+      "target": "coros-pace-4",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ]
+    },
+    {
+      "review": "camelbak-zephyr-pro",
+      "source": "camelbak-zephyr-pro",
+      "target": "camelbak-zephyr",
+      "cls": "WEAK",
+      "reasons": [
+        "unrelated previous-generation"
+      ]
+    },
+    {
+      "review": "garmin-hrm-fit",
+      "source": "garmin-hrm-fit",
+      "target": "polar-verity-sense",
+      "cls": "WEAK",
+      "reasons": [
+        "HRM form chest vs arm"
+      ]
+    },
+    {
+      "review": "garmin-hrm-fit",
+      "source": "garmin-hrm-fit",
+      "target": "coros-heart-rate-monitor",
+      "cls": "WEAK",
+      "reasons": [
+        "HRM form chest vs arm"
+      ]
+    },
+    {
+      "review": "head-speed-mp-2026",
+      "source": "head-speed-mp-2026",
+      "target": "head-radical-mp-2023",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ]
+    },
+    {
+      "review": "mirafit-cast-iron-kettlebell",
+      "source": "mirafit-cast-iron-kettlebell",
+      "target": "rogue-echo-kettlebell",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ]
+    },
+    {
+      "review": "mirafit-fid-adjustable-bench",
+      "source": "mirafit-fid-adjustable-bench",
+      "target": "rep-fb-5000-flat-bench",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ]
+    },
+    {
+      "review": "nike-court-vapor-pro-3",
+      "source": "nike-court-vapor-pro-3",
+      "target": "wilson-rush-pro-4-0",
+      "cls": "WEAK",
+      "reasons": [
+        "unrelated previous-generation"
+      ]
+    },
+    {
+      "review": "polar-h10",
+      "source": "polar-h10",
+      "target": "polar-verity-sense",
+      "cls": "WEAK",
+      "reasons": [
+        "HRM form chest vs arm"
+      ]
+    },
+    {
+      "review": "garmin-hrm-600",
+      "source": "garmin-hrm-600",
+      "target": "wahoo-tickr-x",
+      "cls": "WEAK",
+      "reasons": [
+        "unrelated previous-generation"
+      ]
+    },
+    {
+      "review": "wilson-bela-pro-v2-2026",
+      "source": "wilson-bela-pro-v2-2026",
+      "target": "nox-at10-genius-18k-2026",
+      "cls": "WEAK",
+      "reasons": [
+        "same category, no use-case overlap"
+      ]
+    }
+  ],
+  "bestComparisonInvalid": [],
+  "bestComparisonWeak": [
+    {
+      "guide": "running-shoes",
+      "cmp": "asics-novablast-6-vs-asics-gel-nimbus-27",
+      "cls": "WEAK",
+      "reasons": [
+        "comparison includes only one Best pick"
+      ]
+    },
+    {
+      "guide": "running-shoes",
+      "cmp": "asics-gel-kayano-32-vs-brooks-adrenaline-gts-25",
+      "cls": "WEAK",
+      "reasons": [
+        "comparison includes only one Best pick"
+      ]
+    },
+    {
+      "guide": "running-shoes",
+      "cmp": "nike-vaporfly-4-vs-nike-alphafly-3",
+      "cls": "WEAK",
+      "reasons": [
+        "comparison includes only one Best pick"
+      ]
+    },
+    {
+      "guide": "daily-trainers",
+      "cmp": "asics-novablast-6-vs-asics-gel-nimbus-27",
+      "cls": "WEAK",
+      "reasons": [
+        "comparison includes only one Best pick"
+      ]
+    },
+    {
+      "guide": "marathon-shoes",
+      "cmp": "saucony-endorphin-speed-5-vs-adidas-adizero-boston-12",
+      "cls": "WEAK",
+      "reasons": [
+        "comparison includes only one Best pick"
+      ]
+    },
+    {
+      "guide": "running-watches",
+      "cmp": "garmin-forerunner-970-vs-coros-pace-pro",
+      "cls": "WEAK",
+      "reasons": [
+        "comparison includes only one Best pick"
+      ]
+    },
+    {
+      "guide": "heart-rate-monitors-running",
+      "cmp": "coros-hrm-vs-polar-verity-sense",
+      "cls": "WEAK",
+      "reasons": [
+        "comparison includes only one Best pick"
+      ]
+    }
+  ]
+}

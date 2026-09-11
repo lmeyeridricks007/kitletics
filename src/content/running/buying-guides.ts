@@ -1,0 +1,1361 @@
+import type { BuyingGuide } from "@/domain/editorial/types";
+import { publishedMeta } from "@/content/config";
+
+const pub = publishedMeta();
+
+/**
+ * Running buying & technical guides — decision education, not ranked Best lists.
+ * Product IDs for related products only; specs render from catalog.
+ */
+export const runningBuyingGuides: BuyingGuide[] = [
+  {
+    id: "guide-choose-shoes",
+    slug: "how-to-choose-running-shoes",
+    title: "How to Choose Running Shoes",
+    subtitle: "A step-by-step decision framework",
+    shortDescription:
+      "Terrain, training type, cushion, stability, fit and budget — without marketing noise.",
+    sportId: "sport-running",
+    categoryId: "cat-running-shoes",
+    relatedProductIds: [
+      "prod-novablast-6",
+      "prod-ghost-18",
+      "prod-pegasus-42",
+      "prod-kayano-32",
+      "prod-vaporfly-4",
+      "prod-pegasus-41",
+      "prod-clifton-9",
+      "prod-adizero-boston-13",
+      "prod-guide-18",
+      "prod-cascadia-18",
+    ],
+    relatedUseCaseIds: [
+      "uc-beginners",
+      "uc-daily-training",
+      "uc-overpronators",
+      "uc-trail-training",
+    ],
+    quickAnswer:
+      "1) Terrain 2) What the shoe must do 3) Cushion/stability 4) Fit & width 5) Compare key specs 6) Add specialised features only when they serve your goal. There is no single correct shoe for everyone.",
+    sections: [
+      {
+        id: "s-start",
+        heading: "Start with terrain",
+        body: "Road, trail and track pull different outsole, protection and geometry priorities. Do not buy a road daily for technical trail or a trail shoe for pure road racing.",
+      },
+      {
+        id: "s-job",
+        heading: "Decide what the shoe needs to do",
+        body: "Easy miles, long runs, workouts and race day are different jobs. One versatile daily can cover most weeks; tempo and race shoes are tools, not defaults.",
+      },
+      {
+        id: "s-cushion",
+        heading: "Choose appropriate cushioning",
+        body: "Stack height is not the same as softeness. Match cushion amount and ride character to mileage and preference — see Running Shoe Cushioning Explained.",
+      },
+      {
+        id: "s-stability",
+        heading: "Stability when needed",
+        body: "Stability designs range from geometry to guidance systems. Kitletics does not diagnose overpronation — use fit and professional assessment when unsure.",
+      },
+      {
+        id: "s-drop",
+        heading: "Drop, stack and weight",
+        body: "Drop is geometry, not quality. Large drop changes can irritate calves/Achilles — transition gradually. Weight matters more for race tools than easy dailies.",
+      },
+      {
+        id: "s-plate",
+        heading: "Plates only when useful",
+        body: "Nylon plates often suit workouts; carbon plates are typically race-day tools. Material alone does not guarantee a faster race.",
+      },
+      {
+        id: "s-fit",
+        heading: "Fit and width",
+        body: "Length, width and lockdown beat foam marketing. Prefer official width options when you need wide or narrow lasts.",
+      },
+      {
+        id: "s-budget",
+        heading: "Budget",
+        body: "Value is performance relative to typical street price. Current regional prices update from Offers — never treat a guide’s prose as a fixed price.",
+      },
+      {
+        id: "s-mistakes",
+        heading: "Common mistakes",
+        body: "Buying race shoes for easy miles, ignoring width, jumping drop dramatically, or treating affiliate “best of” lists as personalised advice.",
+      },
+      {
+        id: "s-next",
+        heading: "What to do next",
+        body: "Use the Running Shoe Finder for a personalised shortlist, Best Running Shoes for curated awards, and the Shoe Rotation Planner if you are adding a second or third pair.",
+      },
+    ],
+    faqIds: ["faq-drop-1", "faq-shoes-fit", "faq-shoes-replace", "faq-shoes-pairs"],
+    authorId: "author-kitletics-editorial",
+    relatedBestGuideIds: [
+      "best-running-shoes",
+      "best-daily-trainers",
+      "best-running-shoes-beginners",
+    ],
+    relatedToolSlugs: ["running-shoe-finder", "shoe-rotation-planner"],
+    seoTitle: "How to Choose Running Shoes | Kitletics",
+    seoDescription:
+      "A practical decision framework for choosing running shoes — terrain, use case, cushion, stability, fit and budget.",
+    ...pub,
+  },
+  {
+    id: "guide-drop",
+    slug: "running-shoe-drop",
+    title: "Running Shoe Drop Explained",
+    subtitle: "Heel-to-toe drop as geometry — not a quality score",
+    shortDescription:
+      "What heel-to-toe drop means, how Kitletics buckets it, and what to consider when changing drop.",
+    sportId: "sport-running",
+    categoryId: "cat-running-shoes",
+    relatedProductIds: [
+      "prod-novablast-6",
+      "prod-clifton-10",
+      "prod-ghost-18",
+      "prod-escalante-4",
+    ],
+    relatedUseCaseIds: [],
+    quickAnswer:
+      "Drop is heel stack minus forefoot stack in millimetres. It changes shoe geometry; it does not rank which shoe is better.",
+    sections: [
+      {
+        id: "s1",
+        heading: "What drop measures",
+        body: "Drop is heel stack minus forefoot stack (mm). Two shoes can share a drop and feel very different because of stack, foam and rocker.",
+      },
+      {
+        id: "s2",
+        heading: "Kitletics buckets (internal)",
+        body: "When we group drop for Finders and education we typically treat zero (~0 mm), low (~1–4 mm), medium (~5–8 mm) and high (~9+ mm) as convenient buckets — not universal industry law. Always check the Product’s measured drop.",
+      },
+      {
+        id: "s3",
+        heading: "What to consider",
+        body: "Large jump changes can irritate calves and Achilles for some runners. Transition gradually when moving between very different drops. Preference and history matter more than dogma.",
+      },
+      {
+        id: "s4",
+        heading: "What drop does not tell you",
+        body: "Drop alone does not determine injury risk, speed or “natural” form. Pair drop with cushion, stability and fit decisions.",
+      },
+    ],
+    faqIds: ["faq-drop-1", "faq-drop-2", "faq-drop-3", "faq-drop-4", "faq-drop-5"],
+    authorId: "author-kitletics-editorial",
+    relatedBestGuideIds: ["best-running-shoes"],
+    relatedToolSlugs: ["running-shoe-finder"],
+    seoTitle: "Running Shoe Drop Explained | Kitletics",
+    seoDescription:
+      "What heel-to-toe drop means, how Kitletics groups it, and how to think about changing drop.",
+    ...pub,
+  },
+  {
+    id: "guide-cushioning",
+    slug: "running-shoe-cushioning",
+    title: "Running Shoe Cushioning Explained",
+    subtitle: "Stack, softness, ride and energy return are different ideas",
+    shortDescription:
+      "Why stack height is not the same as softeness — and how Kitletics classifies cushion.",
+    sportId: "sport-running",
+    categoryId: "cat-running-shoes",
+    relatedProductIds: [
+      "prod-bondi-9",
+      "prod-novablast-6",
+      "prod-clifton-10",
+      "prod-vaporfly-4",
+      "prod-ultraboost-5",
+      "prod-cloudsurfer-2",
+      "prod-paradigm-7",
+      "prod-glycerin-gts-22",
+    ],
+    relatedUseCaseIds: ["uc-comfort", "uc-long-runs", "uc-easy-runs"],
+    quickAnswer:
+      "Stack is how much material is underfoot. Softness is how that material compresses. Energy return and ride character are separate. Prefer structured cushionLevel over marketing adjectives.",
+    sections: [
+      {
+        id: "s1",
+        heading: "Stack ≠ softness",
+        body: "A taller stack can feel firm or soft depending on foam chemistry and geometry. Always separate amount of material from cushion feel.",
+      },
+      {
+        id: "s2",
+        heading: "Ride character",
+        body: "Smooth, rockered, responsive and protective rides can all exist at similar stacks. Use Product ride classifications and Recommendation contexts.",
+      },
+      {
+        id: "s3",
+        heading: "Energy return",
+        body: "High energy return can feel lively without being soft. Race foams often prioritise rebound over plush recovery feel.",
+      },
+      {
+        id: "s4",
+        heading: "How Kitletics uses cushionLevel",
+        body: "Products use controlled enums (minimal → maximum). Best Max Cushion and Finder filters rely on these — not free-text “super soft” claims.",
+      },
+    ],
+    faqIds: [
+      "faq-cushion-1",
+      "faq-cushion-2",
+      "faq-cushion-3",
+      "faq-cushion-4",
+      "faq-cushion-5",
+    ],
+    authorId: "author-kitletics-editorial",
+    relatedBestGuideIds: [
+      "best-max-cushion-running-shoes",
+      "best-running-shoes-long-runs",
+    ],
+    relatedToolSlugs: ["running-shoe-finder"],
+    seoTitle: "Running Shoe Cushioning Explained | Kitletics",
+    seoDescription:
+      "Stack height vs softness vs energy return — how to read running shoe cushioning.",
+    ...pub,
+  },
+  {
+    id: "guide-stability",
+    slug: "stability-shoes-explained",
+    title: "Stability Running Shoes Explained",
+    subtitle: "Modern support approaches — without diagnosing gait",
+    shortDescription:
+      "How modern stability shoes create a more guided, secure ride, how they differ from neutral shoes, and what to consider when deciding whether one belongs in your rotation.",
+    sportId: "sport-running",
+    categoryId: "cat-running-shoes",
+    relatedProductIds: [
+      "prod-kayano-32",
+      "prod-adrenaline-gts-25",
+      "prod-gt-2000-14",
+      "prod-structure-plus",
+      "prod-guide-18",
+      "prod-arahi-7",
+      "prod-gaviota-5",
+      "prod-glycerin-gts-22",
+      "prod-gt-1000-13",
+      "prod-860-v14",
+      "prod-react-infinity-4",
+    ],
+    relatedUseCaseIds: ["uc-overpronators", "uc-injury-conscious", "uc-daily-training"],
+    quickAnswer:
+      "Stability shoes create a more guided or secure platform than typical neutral trainers. Modern designs often use geometry, sidewalls and guidance systems — not only aggressive medial posts. More stability is not automatically better. Kitletics does not diagnose gait or prescribe medical footwear.",
+    sections: [
+      {
+        id: "s1",
+        heading: "What is a stability running shoe?",
+        body: "A stability running shoe is built to create a more guided or secure platform than a typical neutral trainer. Brands achieve that through geometry, midsole shaping, sidewalls, guidance structures, heel design, or denser medial materials — often in combination. The category exists because some runners prefer a more controlled feel underfoot. A stability label does not mean the shoe fixes gait, prevents injury, or is required for a particular foot shape.",
+      },
+      {
+        id: "s2",
+        heading: "Stability vs neutral",
+        body: "Neutral shoes prioritise a freer platform with minimal dedicated guidance. Stability shoes add design elements intended to make the ride feel more controlled. Neither is universally better. Many runners are comfortable in neutral shoes; others prefer a guided platform. Always read the actual geometry and support approach rather than relying on the category name alone.",
+      },
+      {
+        id: "s3",
+        heading: "How stability shoes work",
+        body: "Modern stability is usually a system: wider platforms, sidewalls, guidance rails, medial structures, heel geometry and rocker shaping. Soft foam is not automatically unstable; firm foam is not automatically stable. Geometry often determines how secure a soft shoe feels.",
+      },
+      {
+        id: "s4",
+        heading: "Traditional vs modern approaches",
+        body: "Traditional stability often meant a visible medial post. Many current models emphasise broad bases, sidewalls, rockers and guidance systems that feel less intrusive. Do not assume every new shoe abandoned posts — compare the specific model.",
+      },
+      {
+        id: "s5",
+        heading: "How much stability?",
+        body: "Stability is a spectrum from subtle guidance to clearly support-focused platforms. More is not automatically better. Kitletics catalog values (neutral, mild-stability, stability) describe design intent — not a clinical grading of your gait.",
+      },
+      {
+        id: "s6",
+        heading: "Cushioning, fit and width",
+        body: "Cushioning and stability are separate dimensions. Official width options describe upper volume — not the same as a wide midsole platform. Start with length, width and lockdown, then evaluate how the platform feels.",
+      },
+      {
+        id: "s7",
+        heading: "How to choose",
+        body: "Fit first. Decide whether you prefer a freer or more guided platform. Match cushioning and session type. Compare midsole approach, widths and trade-offs. Use the Running Shoe Finder for a structured shortlist — it is not a medical gait exam. For curated awards, see Best Stability Running Shoes.",
+      },
+      {
+        id: "s8",
+        heading: "Common mistakes",
+        body: "Choosing only from the word stability, ignoring fit, assuming more support is always better, treating marketing as a diagnosis, ignoring cushioning/ride, buying on Kitletics Score alone, or forcing a heavy guided shoe into every speed session.",
+      },
+    ],
+    faqIds: [
+      "faq-stability-1",
+      "faq-stability-2",
+      "faq-stability-3",
+      "faq-stability-4",
+      "faq-stability-5",
+      "faq-stability-6",
+      "faq-stability-7",
+      "faq-stability-8",
+    ],
+    authorId: "author-kitletics-editorial",
+    relatedBestGuideIds: ["best-stability-running-shoes", "best-daily-trainers"],
+    relatedToolSlugs: ["running-shoe-finder"],
+    seoTitle: "Stability Running Shoes Explained | Kitletics",
+    seoDescription:
+      "What stability running shoes are, how they differ from neutral shoes, how modern guidance works, and how to choose — without medical diagnosis claims.",
+    ...pub,
+  },
+  {
+    id: "guide-plates",
+    slug: "carbon-vs-nylon-plates",
+    title: "Carbon vs Nylon Plates",
+    subtitle: "Race tools vs workout platforms",
+    shortDescription:
+      "What plates do, carbon vs nylon/composite trade-offs, and race legality considerations.",
+    sportId: "sport-running",
+    categoryId: "cat-running-shoes",
+    relatedProductIds: [
+      "prod-endorphin-speed-5",
+      "prod-vaporfly-4",
+      "prod-boston-12",
+      "prod-adizero-boston-13",
+      "prod-endorphin-speed-4",
+      "prod-endorphin-pro-3",
+      "prod-cloudmonster-hyper",
+      "prod-alphafly-3",
+    ],
+    relatedUseCaseIds: ["uc-tempo-runs", "uc-marathon", "uc-pb"],
+    quickAnswer:
+      "Nylon plates often suit workouts; carbon plates are typically stiffer race-day tools. Material alone does not make a shoe universally faster.",
+    sections: [
+      {
+        id: "s1",
+        heading: "What plates are for",
+        body: "Plates influence bending stiffness and how the shoe returns energy through the gait cycle. They interact with foam and geometry — they are not magic inserts.",
+      },
+      {
+        id: "s2",
+        heading: "Nylon and composite plates",
+        body: "Often more flexible and friendly for workouts and everyday speed sessions (for example Endorphin Speed).",
+      },
+      {
+        id: "s3",
+        heading: "Carbon plates",
+        body: "Typically stiffer race-day platforms. Choose based on session type, fit and comfort — not hype alone.",
+      },
+      {
+        id: "s4",
+        heading: "Race legality",
+        body: "Check current competition stack and plate rules for your event. Product.raceLegal flags help, but always verify event regulations.",
+      },
+    ],
+    faqIds: [
+      "faq-shoes-carbon",
+      "faq-plates-1",
+      "faq-plates-2",
+      "faq-plates-3",
+      "faq-plates-4",
+      "faq-plates-5",
+    ],
+    authorId: "author-kitletics-editorial",
+    relatedBestGuideIds: [
+      "best-carbon-plated-running-shoes",
+      "best-tempo-running-shoes",
+      "best-race-shoes",
+    ],
+    relatedToolSlugs: ["running-shoe-finder"],
+    seoTitle: "Carbon vs Nylon Plates in Running Shoes | Kitletics",
+    seoDescription:
+      "Carbon vs nylon plates — race tools vs tempo trainers, trade-offs and legality.",
+    ...pub,
+  },
+  {
+    id: "guide-daily-trainer",
+    slug: "what-is-a-daily-trainer",
+    title: "What Is a Daily Trainer?",
+    subtitle: "How Kitletics defines daily trainers vs tempo, race and max cushion",
+    shortDescription:
+      "Taxonomy education for daily trainers and how they differ from specialised shoes.",
+    sportId: "sport-running",
+    categoryId: "cat-running-shoes",
+    relatedProductIds: [
+      "prod-novablast-6",
+      "prod-ghost-18",
+      "prod-pegasus-42",
+      "prod-pegasus-41",
+      "prod-novablast-4",
+      "prod-clifton-9",
+      "prod-cloudsurfer-2",
+      "prod-ultraboost-5",
+      "prod-experience-flow",
+    ],
+    relatedUseCaseIds: ["uc-daily-training", "uc-easy-runs"],
+    quickAnswer:
+      "A daily trainer is built to absorb most easy and steady road miles. Tempo shoes favour workouts; race shoes favour race day; max-cushion shoes favour protective easy/recovery miles.",
+    sections: [
+      {
+        id: "s1",
+        heading: "Daily trainer",
+        body: "Versatile road shoes for the bulk of weekly kilometres — durable enough for volume, comfortable enough for easy days.",
+      },
+      {
+        id: "s2",
+        heading: "Vs tempo",
+        body: "Tempo/super trainers bias responsiveness and often plates for workouts. They can double as dailies for some runners but are not required for easy miles.",
+      },
+      {
+        id: "s3",
+        heading: "Vs race",
+        body: "Race shoes prioritise race geometry and energy return. They are poor default easy-mile shoes for most runners.",
+      },
+      {
+        id: "s4",
+        heading: "Vs max cushion",
+        body: "Max-cushion shoes overlap with dailies but bias stack/protection. Some runners use them as dailies; others reserve them for easy/long only.",
+      },
+    ],
+    faqIds: [
+      "faq-daily-1",
+      "faq-daily-2",
+      "faq-daily-3",
+      "faq-daily-4",
+      "faq-daily-5",
+    ],
+    authorId: "author-kitletics-editorial",
+    relatedBestGuideIds: ["best-daily-trainers", "best-running-shoes"],
+    relatedToolSlugs: ["running-shoe-finder", "shoe-rotation-planner"],
+    seoTitle: "What Is a Daily Trainer? | Kitletics",
+    seoDescription:
+      "How Kitletics defines daily trainers versus tempo, race and max-cushion shoes.",
+    ...pub,
+  },
+  {
+    id: "guide-shoe-rotation",
+    slug: "running-shoe-rotation",
+    title: "Running Shoe Rotation Explained",
+    subtitle: "Roles, examples and when one shoe is enough",
+    shortDescription:
+      "What a shoe rotation is, example 1–3 shoe structures, and how the Shoe Rotation Planner personalises coverage.",
+    sportId: "sport-running",
+    categoryId: "cat-running-shoes",
+    relatedProductIds: [
+      "prod-novablast-6",
+      "prod-endorphin-speed-5",
+      "prod-vaporfly-4",
+      "prod-bondi-9",
+    ],
+    relatedUseCaseIds: [
+      "uc-daily-training",
+      "uc-tempo-runs",
+      "uc-long-runs",
+      "uc-marathon",
+    ],
+    quickAnswer:
+      "A rotation assigns shoes to roles (daily, long, tempo, race). One versatile shoe can be enough. Multiple shoes help when roles conflict — not because every runner “needs” a closet full of pairs.",
+    sections: [
+      {
+        id: "s1",
+        heading: "What is a shoe rotation?",
+        body: "It is a deliberate set of shoes covering different training roles so you avoid forcing one shoe to do conflicting jobs.",
+      },
+      {
+        id: "s2",
+        heading: "Do you need one?",
+        body: "No. Many runners thrive on a single versatile daily. Add shoes when workouts, races or trail create clear coverage gaps.",
+      },
+      {
+        id: "s3",
+        heading: "Example structures",
+        body: "1 shoe: versatile daily. 2 shoes: daily/long + fast/race. 3 shoes: daily + easy/long + tempo/race. These are examples — the Planner calculates your coverage.",
+      },
+      {
+        id: "s4",
+        heading: "Avoid unnecessary overlap",
+        body: "Two nearly identical dailies rarely improve coverage. Prefer complements that fill weak roles — see rotation-complement relationships and the Planner.",
+      },
+    ],
+    faqIds: [
+      "faq-shoes-pairs",
+      "faq-rotation-1",
+      "faq-rotation-2",
+      "faq-rotation-3",
+      "faq-rotation-4",
+      "faq-rotation-5",
+    ],
+    authorId: "author-kitletics-editorial",
+    relatedBestGuideIds: [
+      "best-daily-trainers",
+      "best-tempo-running-shoes",
+      "best-race-shoes",
+    ],
+    relatedToolSlugs: ["shoe-rotation-planner", "running-shoe-finder"],
+    seoTitle: "Running Shoe Rotation Explained | Kitletics",
+    seoDescription:
+      "What a shoe rotation is, example structures, and when one shoe is enough — with the Shoe Rotation Planner.",
+    ...pub,
+  },
+  {
+    id: "guide-terminology",
+    slug: "running-shoe-terminology",
+    title: "Running Shoe Terminology",
+    subtitle: "Stack, drop, midsole, plate, rocker and more",
+    shortDescription:
+      "A concise glossary of running shoe terms used across Kitletics Finders and guides.",
+    sportId: "sport-running",
+    categoryId: "cat-running-shoes",
+    relatedProductIds: ["prod-novablast-6", "prod-vaporfly-4"],
+    relatedUseCaseIds: [],
+    quickAnswer:
+      "Learn the vocabulary once — then let Product specs and Finders use consistent definitions instead of marketing synonyms.",
+    sections: [
+      {
+        id: "s1",
+        heading: "Stack height",
+        body: "Amount of material under heel and/or forefoot, usually in millimetres.",
+      },
+      {
+        id: "s2",
+        heading: "Heel-to-toe drop",
+        body: "Heel stack minus forefoot stack. Geometry trait — see the drop guide.",
+      },
+      {
+        id: "s3",
+        heading: "Midsole, outsole, upper",
+        body: "Midsole = cushioning platform. Outsole = ground contact rubber. Upper = fit and lockdown structure.",
+      },
+      {
+        id: "s4",
+        heading: "Rocker, plate, stability, energy return",
+        body: "Rocker influences transition. Plates influence bending stiffness. Stability classifications describe support approach. Energy return describes rebound character.",
+      },
+    ],
+    faqIds: [
+      "faq-term-1",
+      "faq-term-2",
+      "faq-term-3",
+      "faq-term-4",
+      "faq-drop-1",
+      "faq-cushion-1",
+    ],
+    authorId: "author-kitletics-editorial",
+    relatedBestGuideIds: ["best-running-shoes"],
+    relatedToolSlugs: ["running-shoe-finder"],
+    seoTitle: "Running Shoe Terminology | Kitletics",
+    seoDescription:
+      "Running shoe glossary — stack, drop, midsole, plate, rocker, stability and energy return.",
+    ...pub,
+  },
+  {
+    id: "guide-road-vs-trail",
+    slug: "road-vs-trail-running-shoes",
+    title: "Road vs Trail Running Shoes",
+    subtitle: "Outsole, protection and geometry differences",
+    shortDescription:
+      "Why road and trail shoes are not interchangeable — grip, protection and intended terrain.",
+    sportId: "sport-running",
+    categoryId: "cat-running-shoes",
+    relatedProductIds: [
+      "prod-novablast-6",
+      "prod-speedgoat-6",
+      "prod-peregrine-15",
+      "prod-cascadia-18",
+      "prod-trabuco-13",
+      "prod-hierro-v9",
+      "prod-pegasus-trail-5",
+      "prod-terrex-agravic-3",
+      "prod-xodus-ultra-3",
+      "prod-terraventure-4",
+      "prod-ultra-glide-2",
+      "prod-genesis-salomon",
+    ],
+    relatedUseCaseIds: ["uc-trail-training", "uc-daily-training"],
+    quickAnswer:
+      "Trail shoes prioritise grip and protection on uneven terrain. Road shoes prioritise smoother rides and road durability. Mixed “road-to-trail” shoes exist but compromise both extremes.",
+    sections: [
+      {
+        id: "s1",
+        heading: "Outsole and grip",
+        body: "Trail lugs bite into dirt and mud; road outsoles favour smoother surfaces and abrasion patterns.",
+      },
+      {
+        id: "s2",
+        heading: "Protection and upper",
+        body: "Trail shoes often add rock plates, toe protection and more durable uppers for debris.",
+      },
+      {
+        id: "s3",
+        heading: "Geometry",
+        body: "Stack and rocker still matter, but trail geometry must work with uneven landings.",
+      },
+    ],
+    faqIds: [
+      "faq-trail-1",
+      "faq-road-trail-1",
+      "faq-road-trail-2",
+      "faq-road-trail-3",
+      "faq-road-trail-4",
+    ],
+    authorId: "author-kitletics-editorial",
+    relatedBestGuideIds: ["best-trail-running-shoes", "best-running-shoes"],
+    relatedToolSlugs: ["running-shoe-finder"],
+    seoTitle: "Road vs Trail Running Shoes | Kitletics",
+    seoDescription:
+      "Key differences between road and trail running shoes — grip, protection and geometry.",
+    ...pub,
+  },
+  {
+    id: "guide-choose-watch",
+    slug: "how-to-choose-running-watch",
+    title: "How to Choose a Running Watch",
+    subtitle: "GPS, battery, maps, metrics and ecosystem",
+    shortDescription:
+      "Decision framework for GPS running watches — without turning into an electronics encyclopedia.",
+    sportId: "sport-running",
+    categoryId: "cat-gps-watches",
+    relatedProductIds: [
+      "prod-forerunner-970",
+      "prod-coros-pace-pro",
+      "prod-forerunner-165",
+    ],
+    relatedUseCaseIds: ["uc-beginners", "uc-long-runs", "uc-trail-training"],
+    quickAnswer:
+      "Prioritise GPS needs, battery for your longest efforts, then maps/training metrics. Ecosystem lock-in matters once you invest in sensors and history.",
+    sections: [
+      {
+        id: "s1",
+        heading: "GPS and multi-band",
+        body: "Multi-band GNSS can improve tracking in difficult environments with battery trade-offs. See Multi-Band GPS Explained.",
+      },
+      {
+        id: "s2",
+        heading: "Battery",
+        body: "Compare smartwatch and GPS modes separately. Ultra and trail days expose weak GPS endurance quickly.",
+      },
+      {
+        id: "s3",
+        heading: "Maps, music, metrics",
+        body: "Only pay for maps, music and advanced training metrics you will use. Beginners often need less than flagship watches offer.",
+      },
+      {
+        id: "s4",
+        heading: "Size, display, ecosystem",
+        body: "Wrist size and display type affect comfort. Garmin, COROS, Polar and Apple ecosystems differ in sensors and software.",
+      },
+    ],
+    faqIds: [
+      "faq-watch-1",
+      "faq-watch-2",
+      "faq-watch-choose-1",
+      "faq-watch-choose-2",
+      "faq-watch-choose-3",
+      "faq-watch-choose-4",
+      "faq-watch-choose-5",
+    ],
+    authorId: "author-kitletics-editorial",
+    relatedBestGuideIds: ["best-running-watches"],
+    relatedToolSlugs: ["fitness-watch-finder"],
+    seoTitle: "How to Choose a Running Watch | Kitletics",
+    seoDescription:
+      "How to choose a GPS running watch — battery, maps, multi-band GPS, metrics and ecosystem.",
+    ...pub,
+  },
+  {
+    id: "guide-multiband-gps",
+    slug: "multi-band-gps-running-watches",
+    title: "Multi-Band GPS for Running Watches",
+    subtitle: "Accuracy vs battery trade-offs",
+    shortDescription:
+      "What multi-band GNSS means for runners — without an electronics deep dive.",
+    sportId: "sport-running",
+    categoryId: "cat-gps-watches",
+    relatedProductIds: ["prod-forerunner-970", "prod-coros-pace-pro"],
+    relatedUseCaseIds: ["uc-trail-training", "uc-long-runs"],
+    quickAnswer:
+      "Multi-band GNSS can improve tracking in cities, forests and mountains. It usually costs battery. Use it when your routes need it — not by default for every easy jog.",
+    sections: [
+      {
+        id: "s1",
+        heading: "Standard vs multi-band",
+        body: "Multi-band receivers use multiple frequency bands to reduce multipath errors in tough signal environments.",
+      },
+      {
+        id: "s2",
+        heading: "When it matters",
+        body: "Dense cities, tree cover and steep terrain benefit most. Flat open roads often look fine on single-band modes.",
+      },
+      {
+        id: "s3",
+        heading: "Battery trade-offs",
+        body: "Expect shorter GPS runtime in multi-band modes. Check Product batteryGps specs and manufacturer mode tables.",
+      },
+    ],
+    faqIds: ["faq-watch-2"],
+    authorId: "author-kitletics-editorial",
+    relatedBestGuideIds: ["best-running-watches"],
+    relatedToolSlugs: ["fitness-watch-finder"],
+    seoTitle: "Multi-Band GPS Running Watches Explained | Kitletics",
+    seoDescription:
+      "Multi-band GPS for runners — accuracy benefits and battery trade-offs.",
+    ...pub,
+  },
+  {
+    id: "guide-choose-hrm",
+    slug: "how-to-choose-heart-rate-monitor",
+    title: "How to Choose a Heart Rate Monitor",
+    subtitle: "Chest strap vs optical arm vs watch optical",
+    shortDescription:
+      "Connectivity, placement and training use cases for running HR monitors.",
+    sportId: "sport-running",
+    categoryId: "cat-hrm",
+    relatedProductIds: [
+      "prod-hrm-pro-plus",
+      "prod-polar-h10",
+      "prod-polar-verity-sense",
+    ],
+    relatedUseCaseIds: ["uc-intervals", "uc-tempo-runs"],
+    quickAnswer:
+      "Chest straps remain the default for structured intervals. Arm optical is an alternative when straps are uncomfortable. Watch optical is convenient but more variable during hard efforts.",
+    sections: [
+      {
+        id: "s1",
+        heading: "Chest strap",
+        body: "Typically strongest for interval accuracy and dual ANT+/Bluetooth broadcasting to watches and apps.",
+      },
+      {
+        id: "s2",
+        heading: "Optical arm sensor",
+        body: "Useful when you want dedicated optical HR off-wrist without a chest strap.",
+      },
+      {
+        id: "s3",
+        heading: "Watch optical",
+        body: "Fine for many easy runs; often less trusted for hard intervals by athletes who compare against straps.",
+      },
+      {
+        id: "s4",
+        heading: "Connectivity",
+        body: "Confirm ANT+ and Bluetooth needs for your watch and indoor equipment.",
+      },
+    ],
+    faqIds: ["faq-hrm-1"],
+    authorId: "author-kitletics-editorial",
+    relatedBestGuideIds: ["best-heart-rate-monitors-running"],
+    relatedToolSlugs: [],
+    seoTitle: "How to Choose a Heart Rate Monitor | Kitletics",
+    seoDescription:
+      "Chest strap vs optical arm vs watch HR — how to choose for running.",
+    ...pub,
+  },
+  {
+    id: "guide-choose-hydration-vest",
+    slug: "how-to-choose-running-hydration-vest",
+    title: "How to Choose a Running Hydration Vest",
+    subtitle: "Capacity, fit, flasks and race requirements",
+    shortDescription:
+      "Decision framework for hydration vests — capacity, fit and carry strategy.",
+    sportId: "sport-running",
+    categoryId: "cat-packs-vests",
+    relatedProductIds: [
+      "prod-adv-skin-12",
+      "prod-nathan-vaporair-2",
+      "prod-soft-flask-500",
+      "prod-camelbak-zephyr-pro",
+      "prod-osprey-duro-15",
+      "prod-ud-fastpack-20",
+      "prod-osprey-dyna-lt",
+      "prod-black-diamond-distance-15",
+      "prod-salomon-xa-15",
+    ],
+    relatedUseCaseIds: ["uc-trail-training", "uc-ultra", "uc-long-runs"],
+    quickAnswer:
+      "Match capacity to distance and aid availability, prioritise bounce-free fit, then flask vs reservoir preference and pocket layout.",
+    sections: [
+      {
+        id: "s1",
+        heading: "Capacity",
+        body: "Short road long runs may need a belt; trail and ultra often need vest capacity. Read Product capacity specs rather than marketing “all-day” claims.",
+      },
+      {
+        id: "s2",
+        heading: "Flasks vs reservoirs",
+        body: "Soft flasks are common for race vests; reservoirs suit longer adventure days. Check compatible-with relationships for flasks.",
+      },
+      {
+        id: "s3",
+        heading: "Fit and pockets",
+        body: "Bounce control and easy-access pockets matter as much as litre ratings. Pole attachments matter for mountain races.",
+      },
+    ],
+    faqIds: ["faq-vest-1"],
+    authorId: "author-kitletics-editorial",
+    relatedBestGuideIds: ["best-running-hydration-vests"],
+    relatedToolSlugs: [],
+    seoTitle: "How to Choose a Running Hydration Vest | Kitletics",
+    seoDescription:
+      "How to choose a running hydration vest — capacity, fit, flasks and race needs.",
+    ...pub,
+  },
+  {
+    id: "guide-vest-vs-belt",
+    slug: "hydration-vest-vs-running-belt",
+    title: "Hydration Vest vs Running Belt",
+    subtitle: "When minimal carry is enough — and when it is not",
+    shortDescription:
+      "Conceptual guide comparing product types — not a specific Product vs Product comparison.",
+    sportId: "sport-running",
+    categoryId: "cat-packs-vests",
+    relatedProductIds: [
+      "prod-adv-skin-12",
+      "prod-flipbelt-classic",
+      "prod-spibelt-original",
+    ],
+    relatedUseCaseIds: ["uc-long-runs", "uc-trail-training", "uc-half"],
+    quickAnswer:
+      "Use a belt for phone/gels and small flasks on road. Use a vest when water volume, layers or trail logistics exceed belt capacity.",
+    sections: [
+      {
+        id: "s1",
+        heading: "Belt strengths",
+        body: "Minimal bounce for phone and gels; race-day friendly when aid stations are frequent.",
+      },
+      {
+        id: "s2",
+        heading: "Vest strengths",
+        body: "Higher capacity, better for trail, poles and mandatory kit lists.",
+      },
+    ],
+    faqIds: ["faq-vest-1"],
+    authorId: "author-kitletics-editorial",
+    relatedBestGuideIds: ["best-running-belts", "best-running-hydration-vests"],
+    relatedToolSlugs: [],
+    seoTitle: "Hydration Vest vs Running Belt | Kitletics",
+    seoDescription:
+      "When to choose a hydration vest vs a running belt for long runs and trail.",
+    ...pub,
+  },
+  {
+    id: "guide-choose-headlamp",
+    slug: "how-to-choose-running-headlamp",
+    title: "How to Choose a Running Headlamp",
+    subtitle: "Brightness, beam, runtime and weight",
+    shortDescription:
+      "Decision framework for running headlamps used on dark roads and trails.",
+    sportId: "sport-running",
+    categoryId: "cat-running-lights",
+    relatedProductIds: [
+      "prod-petzl-swift-rl",
+      "prod-bd-spot-400-r",
+      "prod-silva-trail-runner-free",
+    ],
+    relatedUseCaseIds: ["uc-trail-training"],
+    quickAnswer:
+      "Prioritise usable beam and runtime for your longest dark effort, then weight and weather resistance.",
+    sections: [
+      {
+        id: "s1",
+        heading: "Brightness and beam",
+        body: "Lumens are a starting point; beam pattern and reactive modes matter for trail vs road.",
+      },
+      {
+        id: "s2",
+        heading: "Runtime and battery",
+        body: "Check manufacturer runtime at the brightness you will actually use — not only max mode.",
+      },
+      {
+        id: "s3",
+        heading: "Weight and weather",
+        body: "Running-specific lamps favour low bounce and weather sealing for winter training.",
+      },
+    ],
+    faqIds: [],
+    authorId: "author-kitletics-editorial",
+    relatedBestGuideIds: ["best-running-headlamps"],
+    relatedToolSlugs: [],
+    seoTitle: "How to Choose a Running Headlamp | Kitletics",
+    seoDescription:
+      "How to choose a running headlamp — brightness, runtime, weight and weather resistance.",
+    ...pub,
+  },
+  {
+    id: "guide-headphones-types",
+    slug: "open-ear-vs-in-ear-running-headphones",
+    title: "Open-Ear vs In-Ear Running Headphones",
+    subtitle: "Awareness trade-offs for outdoor training",
+    shortDescription:
+      "Open-ear and bone conduction vs sealed in-ears — with careful outdoor safety wording.",
+    sportId: "sport-running",
+    categoryId: "cat-headphones",
+    relatedProductIds: [
+      "prod-shokz-openrun-pro-2",
+      "prod-bose-ultra-open",
+      "prod-airpods-pro-2",
+      "prod-shokz-opendots-one",
+      "prod-soundcore-aerofit-2",
+      "prod-beats-fit-pro",
+      "prod-soundcore-sport-x20",
+      "prod-apple-airpods-4",
+    ],
+    relatedUseCaseIds: ["uc-daily-training"],
+    quickAnswer:
+      "Open designs generally leave more awareness of surroundings. No headphone type makes outdoor running inherently safe — manage volume and traffic deliberately.",
+    sections: [
+      {
+        id: "s1",
+        heading: "Open-ear and bone conduction",
+        body: "Designed to keep ear canals freer. Useful on shared paths when you want more environmental sound.",
+      },
+      {
+        id: "s2",
+        heading: "In-ear / ANC",
+        body: "Better isolation and often richer audio — use cautiously outdoors, especially with noise cancellation.",
+      },
+    ],
+    faqIds: ["faq-headphones-1"],
+    authorId: "author-kitletics-editorial",
+    relatedBestGuideIds: ["best-running-headphones"],
+    relatedToolSlugs: [],
+    seoTitle: "Open-Ear vs In-Ear Running Headphones | Kitletics",
+    seoDescription:
+      "Open-ear vs in-ear headphones for running — awareness trade-offs without false safety claims.",
+    ...pub,
+  },
+  {
+    id: "guide-running-gels-explained",
+    slug: "running-gels-explained",
+    title: "Running Gels Explained",
+    subtitle: "Format, carbs per serve and when gels fit your race plan",
+    shortDescription:
+      "How energy gels differ by texture, carb dose and caffeine options — product decision education, not medical advice.",
+    sportId: "sport-running",
+    categoryId: "cat-nutrition",
+    relatedProductIds: [
+      "prod-maurten-gel-100",
+      "prod-maurten-gel-100-caf",
+      "prod-sis-go-isotonic-gel",
+      "prod-sis-beta-fuel-gel",
+      "prod-precision-pf30-gel",
+      "prod-neversecond-c30-gel",
+      "prod-gu-energy-gel",
+      "prod-gu-roctane-gel",
+      "prod-spring-awesome-sauce",
+      "prod-huma-gel-original",
+    ],
+    relatedUseCaseIds: [
+      "uc-long-runs",
+      "uc-marathon",
+      "uc-easy-carry-fuel",
+      "uc-high-carb-fueling",
+    ],
+    quickAnswer:
+      "Pick gels by carbs per packet, texture you can stomach late in a race, caffeine preference (read the label mg), and how easily they fit your belt or vest — then practise the same products in training.",
+    sections: [
+      {
+        id: "s1",
+        heading: "What a gel is for",
+        body: "Gels are single-serve carbohydrate packets designed for easy pocket carry on long runs and races. They sit alongside drink mixes and chews — not above them. Match format to how you prefer to take fuel while moving, not to a brand story.",
+      },
+      {
+        id: "s2",
+        heading: "Carbs per serve and spacing",
+        body: "Endurance sports-nutrition guidance commonly discusses carbohydrate targets in g/hour ranges for longer efforts — individual tolerance varies; practice in training; this is not medical advice. Compare published carbs per serving on the label, then decide how many packets you need across your planned effort length.",
+      },
+      {
+        id: "s3",
+        heading: "Texture and fluid",
+        body: "Some gels are thicker and want water nearby; isotonic-style options are designed to go down with less chase fluid. Texture alternatives (e.g. fruit puree–style packets) exist if classic syrup gels do not sit well. Trial texture on long runs before race day.",
+      },
+      {
+        id: "s4",
+        heading: "Caffeine variants",
+        body: "Caffeinated gels are a preference and timing choice — read the label milligrams and practise when you take them in training. This is product selection guidance, not medical dosing for any condition.",
+      },
+    ],
+    faqIds: [],
+    authorId: "author-kitletics-editorial",
+    relatedBestGuideIds: ["best-running-race-fuel"],
+    relatedToolSlugs: [],
+    seoTitle: "Running Gels Explained | Kitletics",
+    seoDescription:
+      "Running gels explained — carbs per serve, texture, caffeine labels and carry. Sports product education, not medical advice.",
+    ...pub,
+  },
+  {
+    id: "guide-carry-fuel-long-runs",
+    slug: "how-to-carry-fuel-on-long-runs",
+    title: "How to Carry Fuel on Long Runs",
+    subtitle: "Belts, vests and pocket plans that keep gels accessible",
+    shortDescription:
+      "Match fuel volume to carry system — belt vs vest vs shorts pockets — so gels and bottles stay bounce-free and reachable.",
+    sportId: "sport-running",
+    categoryId: "cat-nutrition",
+    relatedProductIds: [
+      "prod-maurten-gel-100",
+      "prod-sis-go-isotonic-gel",
+      "prod-clif-bloks",
+      "prod-gu-chews",
+      "prod-adv-skin-12",
+      "prod-flipbelt-classic",
+      "prod-spibelt-original",
+      "prod-ud-race-belt",
+    ],
+    relatedUseCaseIds: [
+      "uc-long-runs",
+      "uc-marathon",
+      "uc-ultra",
+      "uc-easy-carry-fuel",
+    ],
+    quickAnswer:
+      "Short road longs with few gels often work in a belt or shorts pockets; more bottles, layers or trail logistics usually need a vest. Rehearse access under fatigue — not only at the start.",
+    sections: [
+      {
+        id: "s1",
+        heading: "Count packets and bottles first",
+        body: "Decide how many gel/chew serves and how much fluid you want between aid or home refills, then choose carry capacity. Buying a vest first and stuffing random fuel later usually creates bounce and access problems.",
+      },
+      {
+        id: "s2",
+        heading: "Belt and pouch carry",
+        body: "Running belts and race pouches suit phone, keys and a handful of gels when aid stations or a bottle are enough for fluid. Soft-flask waist packs bridge the gap when you want bottle volume without a full vest.",
+      },
+      {
+        id: "s3",
+        heading: "Vest carry for longer days",
+        body: "Hydration vests win when soft-flask volume, spare layers or mandatory kit exceed belt capacity. Front pockets should keep the next gel reachable without stopping — test that on a weekend long run.",
+      },
+      {
+        id: "s4",
+        heading: "Practice the race layout",
+        body: "Use the same pocket map you plan for race day. Endurance sports-nutrition guidance commonly discusses carbohydrate targets in g/hour ranges for longer efforts — individual tolerance varies; practice in training; this is not medical advice.",
+      },
+    ],
+    faqIds: [],
+    authorId: "author-kitletics-editorial",
+    relatedBestGuideIds: [
+      "best-running-race-fuel",
+      "best-running-hydration-vests",
+      "best-running-belts",
+    ],
+    relatedToolSlugs: ["running-hydration-finder"],
+    seoTitle: "How to Carry Fuel on Long Runs | Kitletics",
+    seoDescription:
+      "How to carry gels and bottles on long runs — belt vs vest, pocket access and race rehearsal.",
+    ...pub,
+  },
+  {
+    id: "guide-gel-vs-drink-vs-chews",
+    slug: "gel-vs-drink-mix-vs-chews",
+    title: "Gel vs Drink Mix vs Chews",
+    subtitle: "Pick the fuel format that matches your stomach and carry plan",
+    shortDescription:
+      "Practical differences between gels, bottle drink mixes and chewables — when to mix formats on long efforts.",
+    sportId: "sport-running",
+    categoryId: "cat-nutrition",
+    relatedProductIds: [
+      "prod-maurten-gel-100",
+      "prod-maurten-drink-mix-320",
+      "prod-tailwind-endurance",
+      "prod-sis-beta-fuel-drink",
+      "prod-clif-bloks",
+      "prod-gu-chews",
+      "prod-skratch-chews",
+      "prod-precision-pf30-gel",
+      "prod-neversecond-c30-drink",
+    ],
+    relatedUseCaseIds: [
+      "uc-long-runs",
+      "uc-marathon",
+      "uc-high-carb-fueling",
+      "uc-drink-based-fueling",
+      "uc-easy-carry-fuel",
+    ],
+    quickAnswer:
+      "Gels win for pocketable single serves; drink mixes win when most carbs ride in the bottle; chews win when you want something to bite between gels. Many marathon and ultra plans combine formats after training trials.",
+    sections: [
+      {
+        id: "s1",
+        heading: "Gels — pocket carbs",
+        body: "Best when you want discrete packets timed to kilometres or miles. Easy to stash in a belt; you still need a fluid plan so thicker textures do not sit sticky in the mouth.",
+      },
+      {
+        id: "s2",
+        heading: "Drink mixes — bottle fueling",
+        body: "Carb drink mixes (and higher-dose options like Drink Mix 320–class products) suit runners who prefer sipping fuel from soft flasks or bottles. Useful when chewing mid-effort is hard, or when you want carbs and fluid in one habit.",
+      },
+      {
+        id: "s3",
+        heading: "Chews — biteable variety",
+        body: "Chews and bloks add texture variety and portion control (break a strip into pieces). They take more chewing time than gels — practise at race pace, not only on easy runs.",
+      },
+      {
+        id: "s4",
+        heading: "Mixing formats",
+        body: "Combining bottle carbs with pocket gels/chews is common on longer races. Endurance sports-nutrition guidance commonly discusses carbohydrate targets in g/hour ranges for longer efforts — individual tolerance varies; practice in training; this is not medical advice.",
+      },
+    ],
+    faqIds: [],
+    authorId: "author-kitletics-editorial",
+    relatedBestGuideIds: ["best-running-race-fuel"],
+    relatedToolSlugs: [],
+    seoTitle: "Gel vs Drink Mix vs Chews | Kitletics",
+    seoDescription:
+      "Compare running gels, drink mixes and chews — format, carry and when to combine. Not medical advice.",
+    ...pub,
+  },
+  {
+    id: "guide-caffeine-running-fuel",
+    slug: "caffeine-in-running-fuel-explained",
+    title: "Caffeine in Running Fuel Explained",
+    subtitle: "Label milligrams, timing practice and when to stay caffeine-free",
+    shortDescription:
+      "How caffeinated gels and drinks differ as product choices — preference and label mg, not medical dosing.",
+    sportId: "sport-running",
+    categoryId: "cat-nutrition",
+    relatedProductIds: [
+      "prod-maurten-gel-100-caf",
+      "prod-gu-roctane-gel",
+      "prod-sis-beta-fuel-gel",
+      "prod-maurten-gel-100",
+      "prod-precision-pf30-gel",
+      "prod-nuun-sport",
+    ],
+    relatedUseCaseIds: [
+      "uc-caffeinated-fuel",
+      "uc-non-caffeinated-fuel",
+      "uc-marathon",
+      "uc-long-runs",
+    ],
+    quickAnswer:
+      "Treat caffeine as an optional product attribute: compare label mg, decide whether you want it late in a race, and rehearse the same products in training. Choose non-caffeinated fuel when you prefer to avoid stimulants or already take caffeine elsewhere.",
+    sections: [
+      {
+        id: "s1",
+        heading: "Read the label milligrams",
+        body: "Caffeinated race fuels list milligrams per serving. Compare products on that label number and how many servings you plan — do not invent a medical dose. Preference and stomach tolerance matter more than marketing “boost” language.",
+      },
+      {
+        id: "s2",
+        heading: "Timing practice in training",
+        body: "If you like caffeine late in a marathon or long run, practise the same gel or drink at similar effort and clock time in training. Race day should not be the first time you stack caffeinated packets.",
+      },
+      {
+        id: "s3",
+        heading: "When non-caffeinated is the better default",
+        body: "Many runners keep most carbs caffeine-free and only add a caffeinated option selectively — or skip caffeine in fuel entirely if they already drink coffee/tea or prefer to avoid stimulants while racing.",
+      },
+      {
+        id: "s4",
+        heading: "Not medical advice",
+        body: "This guide is sports product decision education. Caffeine discussion here covers preference, timing practice and label mg — not medical dosing for any condition. Endurance sports-nutrition guidance commonly discusses carbohydrate targets in g/hour ranges for longer efforts — individual tolerance varies; practice in training; this is not medical advice.",
+      },
+    ],
+    faqIds: [],
+    authorId: "author-kitletics-editorial",
+    relatedBestGuideIds: ["best-running-race-fuel"],
+    relatedToolSlugs: [],
+    seoTitle: "Caffeine in Running Fuel Explained | Kitletics",
+    seoDescription:
+      "Caffeine in running gels and drinks — label mg, timing practice and caffeine-free options. Not medical advice.",
+    ...pub,
+  },
+  {
+    id: "guide-massage-guns-explained",
+    slug: "massage-guns-explained",
+    title: "Massage Guns Explained",
+    subtitle: "Percussion tools for practical soft-tissue comfort — not medical treatment",
+    shortDescription:
+      "How massage guns differ by size, power and portability — what they are for, what brands claim, and what Kitletics will not establish.",
+    sportId: "sport-running",
+    categoryId: "cat-recovery-gear",
+    relatedProductIds: [
+      "prod-theragun-mini",
+      "prod-hypervolt-go-2",
+      "prod-theragun-prime",
+      "prod-theragun-pro",
+      "prod-hypervolt-2",
+    ],
+    relatedUseCaseIds: [
+      "uc-post-run-recovery",
+      "uc-travel-recovery",
+      "uc-home-recovery",
+      "uc-high-mileage",
+    ],
+    quickAnswer:
+      "Choose a massage gun for how you actually use soft-tissue tools: travel mini vs mid-size home device vs value pick. Treat manufacturer recovery claims as marketing; Kitletics ranks practical use, comfort preference, portability and value — not injury healing or circulation outcomes.",
+    sections: [
+      {
+        id: "s1",
+        heading: "What a massage gun is for",
+        body: "Percussion massagers are handheld tools for targeted soft-tissue work runners often use before or after sessions for comfort preference. They sit beside rollers and sticks as optional adjuncts to rest, sleep and training load management — not as medical care, diagnosis or treatment.",
+      },
+      {
+        id: "s2",
+        heading: "Size, amplitude and power classes",
+        body: "Mini/travel guns prioritise packability and short sessions; mid-size models (Prime-class) balance stall force and battery for home use; flagship Pro-class units add amplitude and attachment ecosystems at a higher price. More advertised force does not mean a better buy for every runner — match class to where you will actually use the device.",
+      },
+      {
+        id: "s3",
+        heading: "Manufacturer claims vs Kitletics assessment",
+        body: "Brands often market recovery, performance or wellness benefits. Kitletics will not establish that massage guns prevent or heal injury, improve circulation, speed recovery or remove lactic acid. We assess practical soft-tissue comfort routines, noise/portability trade-offs, build and value relative to typical street pricing.",
+      },
+      {
+        id: "s4",
+        heading: "Noise, attachments and battery",
+        body: "Quieter motors matter in shared housing; attachment sets matter if you want different contact shapes for calves vs quads. Battery claims are manufacturer figures — treat them as guidance for session length, not a clinical promise. Prefer models you will keep charged and use consistently over unused premium kit.",
+      },
+      {
+        id: "s5",
+        heading: "When to pause or skip",
+        body: "Skip aggressive percussion on acute injury, unexplained pain or areas a clinician has told you to avoid. Prefer lighter pressure and shorter sessions when you are new to the tool. Intake of recovery tools is practice comfort preference — seek professional care when symptoms need medical assessment.",
+      },
+      {
+        id: "s6",
+        heading: "What to do next",
+        body: "This page is the hardware filter (size, amplitude, noise, packability). When to Use a Massage Gun covers session timing; Foam Rolling for Runners is the floor-tool alternative; Recovery Tools: What Evidence Shows is the claim policy. Next: Best Running Recovery Gear, then compare travel minis (Theragun Mini vs Hypervolt Go 2) or home mid-size (Prime vs Pro).",
+      },
+    ],
+    faqIds: [],
+    authorId: "author-kitletics-editorial",
+    relatedBestGuideIds: ["best-running-recovery-gear"],
+    relatedToolSlugs: ["running-recovery-finder"],
+    relatedGuideIds: [
+      "guide-density-when-to-use-a-massage-gun",
+      "guide-foam-rolling-runners",
+      "guide-recovery-tools-evidence",
+    ],
+    seoTitle: "Massage Guns Explained | Kitletics",
+    seoDescription:
+      "Massage guns for runners — size, portability and value. Practical soft-tissue tools; not medical treatment or recovery outcome claims.",
+    ...pub,
+  },
+  {
+    id: "guide-foam-rolling-runners",
+    slug: "foam-rolling-for-runners",
+    title: "Foam Rolling for Runners",
+    subtitle: "Density, texture and when a roller fits your routine",
+    shortDescription:
+      "How foam rollers and related tools differ for practical soft-tissue work — comfort preference, not injury treatment.",
+    sportId: "sport-running",
+    categoryId: "cat-recovery-gear",
+    relatedProductIds: [
+      "prod-triggerpoint-grid-x",
+      "prod-blackroll-standard",
+      "prod-brazyn-morph",
+      "prod-blackroll-ball",
+      "prod-blackroll-pro",
+    ],
+    relatedUseCaseIds: [
+      "uc-post-run-recovery",
+      "uc-home-recovery",
+      "uc-daily-training",
+      "uc-beginners",
+    ],
+    quickAnswer:
+      "Pick roller density and surface for how firm you like soft-tissue work at home — smooth/standard for approachable sessions, firmer or textured when you prefer more intensity. Technique and consistency matter more than brand marketing; rollers do not treat injuries or guarantee recovery outcomes.",
+    sections: [
+      {
+        id: "s1",
+        heading: "What foam rolling is for",
+        body: "Foam rollers are bodyweight tools for self-applied soft-tissue pressure many runners use around training for comfort and mobility preference. They are adjuncts to sensible training habits — not medical devices that heal injury, improve circulation or remove lactic acid.",
+      },
+      {
+        id: "s2",
+        heading: "Density and surface texture",
+        body: "Softer or standard-density rollers (BLACKROLL Standard-class) suit beginners and broader muscle areas; firmer GRID X-density options raise intensity. Collapsible tubes (Brazyn Morph-class) trade bulk for packability. Massage balls cover smaller spots the long roller misses. Preference-driven — not a clinical upgrade.",
+      },
+      {
+        id: "s3",
+        heading: "Rollers vs balls vs sticks",
+        body: "Full-length rollers cover larger areas; massage balls target smaller spots (feet, glutes); sticks/rods let you apply pressure while seated without floor space. Many runners keep one roller plus a ball — buy for the surfaces you will actually use.",
+      },
+      {
+        id: "s4",
+        heading: "Practical session habits",
+        body: "Short, controlled passes on major running muscles (calves, quads, glutes, hip area) after or between sessions are common practice patterns. Pain that sharp-stops you, or acute injury sites, are reasons to stop and seek appropriate care — not to push harder with a denser roller.",
+      },
+      {
+        id: "s5",
+        heading: "Manufacturer claims vs Kitletics",
+        body: "Product copy may imply recovery or performance benefits. Kitletics assesses practical use, comfort preference, durability and value. We will not establish injury prevention/healing, circulation improvement, faster recovery or lactic-acid clearance from rolling.",
+      },
+      {
+        id: "s6",
+        heading: "What to do next",
+        body: "This page is the floor-tool filter (density, texture, balls vs sticks). Massage Guns Explained is percussion hardware; Recovery Tools: What Evidence Shows is the claim policy. Next: Best Running Recovery Gear, then a Standard-class roller for home floors or GRID X if you already like firmer pressure.",
+      },
+    ],
+    faqIds: [],
+    authorId: "author-kitletics-editorial",
+    relatedBestGuideIds: ["best-running-recovery-gear"],
+    relatedToolSlugs: ["running-recovery-finder"],
+    relatedGuideIds: [
+      "guide-massage-guns-explained",
+      "guide-recovery-tools-evidence",
+      "guide-density-when-to-use-a-massage-gun",
+    ],
+    seoTitle: "Foam Rolling for Runners | Kitletics",
+    seoDescription:
+      "Foam rolling for runners — density, texture, balls and sticks. Practical soft-tissue comfort; not medical treatment.",
+    ...pub,
+  },
+  {
+    id: "guide-recovery-tools-evidence",
+    slug: "recovery-tools-what-evidence-shows",
+    title: "Recovery Tools: What Evidence Shows (and Doesn't)",
+    subtitle: "Claim-safe framing for guns, rollers, boots and sandals",
+    shortDescription:
+      "How Kitletics separates manufacturer marketing from what we will and will not establish about running recovery tools.",
+    sportId: "sport-running",
+    categoryId: "cat-recovery-gear",
+    relatedProductIds: [
+      "prod-theragun-mini",
+      "prod-triggerpoint-grid-x",
+      "prod-normatec-go",
+      "prod-normatec-3",
+      "prod-oofos-ooriginal",
+      "prod-cep-calf-sleeves",
+      "prod-blackroll-standard",
+    ],
+    relatedUseCaseIds: [
+      "uc-post-run-recovery",
+      "uc-home-recovery",
+      "uc-travel-recovery",
+      "uc-comfort",
+    ],
+    quickAnswer:
+      "Recovery tools are optional adjuncts for soft-tissue comfort, footwear comfort after hard days and portable routines — not medical treatment. Manufacturer claims often outrun what independent evidence clearly establishes; Kitletics ranks practical use, comfort, portability, honesty about evidence limits and value.",
+    sections: [
+      {
+        id: "s1",
+        heading: "Adjuncts, not medical care",
+        body: "Massage guns, rollers, compression boots, recovery sandals and sleeves can fit a runner’s comfort routine. Intake of recovery tools is practice comfort preference. They do not replace rest, load management, sleep or clinical care when you need it.",
+      },
+      {
+        id: "s2",
+        heading: "What Kitletics will not claim",
+        body: "We never claim these products prevent or heal injury, improve circulation, speed recovery or remove lactic acid. Where research is mixed, limited or brand-sponsored, we say so rather than upgrading marketing language into editorial fact.",
+      },
+      {
+        id: "s3",
+        heading: "What we do assess",
+        body: "Practical soft-tissue use (can you apply useful pressure where you want), comfort preference (how sessions feel), portability (travel minis vs home boots), build/noise/battery where relevant, and value versus typical street price. Compare tools on those axes — not on unverified physiological promises.",
+      },
+      {
+        id: "s4",
+        heading: "How to read manufacturer language",
+        body: "Treat recovery, performance and wellness claims as manufacturer marketing unless independent evidence is clear and we cite it. Specs (amplitude, battery hours, density, boot zones) are useful product facts; outcome slogans are not automatic Kitletics conclusions.",
+      },
+      {
+        id: "s5",
+        heading: "Buying with honest expectations",
+        body: "This page is the claim-policy layer — not a hardware shortlist. Massage Guns Explained is size/power/portability; Foam Rolling for Runners is density and shape; When to Use a Massage Gun is session timing. Buy the tool you will actually use: a Mini-class gun for race travel, a Standard/GRID-X roller for home floors, Normatec Go when full boots are too bulky, OOFOS slides for post-run walking comfort. Next: Best Running Recovery Gear.",
+      },
+    ],
+    faqIds: [],
+    authorId: "author-kitletics-editorial",
+    relatedBestGuideIds: ["best-running-recovery-gear", "best-max-cushion-running-shoes"],
+    relatedToolSlugs: ["running-recovery-finder"],
+    relatedGuideIds: [
+      "guide-massage-guns-explained",
+      "guide-foam-rolling-runners",
+      "guide-density-when-to-use-a-massage-gun",
+      "guide-density-recovery-sandals-for-runners",
+    ],
+    seoTitle: "Recovery Tools: What Evidence Shows | Kitletics",
+    seoDescription:
+      "Running recovery tools — claim-safe framing. Adjuncts for comfort, not medical treatment or unverified recovery outcomes.",
+    ...pub,
+  },
+];

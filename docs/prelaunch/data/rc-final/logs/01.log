@@ -1,0 +1,23 @@
+Wrote /Users/LMeyeridricks/Documents/coding/kitletics/docs/prelaunch/01-catalog-inventory.md
+Wrote /Users/LMeyeridricks/Documents/coding/kitletics/docs/prelaunch/data/01-catalog-inventory.json
+{
+  "totals": {
+    "sports": 21,
+    "disciplines": 59,
+    "activities": 0,
+    "categories": 47,
+    "subcategories": 82,
+    "brands": 191,
+    "productFamilies": 308,
+    "products": 717,
+    "productVariants": 325,
+    "useCases": 80,
+    "offers": 1271,
+    "retailers": 11,
+    "reviews": 590
+  },
+  "runningProducts": 438,
+  "runningShoes": 84,
+  "productionExposed": 623,
+  "urlIndexable": 623
+}

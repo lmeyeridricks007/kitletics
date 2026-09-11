@@ -1,0 +1,457 @@
+{
+  "base": "http://127.0.0.1:3010",
+  "measuredAt": "2026-09-09T06:46:31.630Z",
+  "budgets": {
+    "totalBytes": 2621440,
+    "preferBytes": 1572864
+  },
+  "before": {
+    "/running/shoes/daily-trainers": {
+      "totalKB": 6478,
+      "imgKB": 6198,
+      "note": "RC perf-summary.json"
+    }
+  },
+  "after": {
+    "/running/shoes/daily-trainers": {
+      "path": "/running/shoes/daily-trainers",
+      "total": 1246686,
+      "img": 102405,
+      "js": 511243,
+      "totalKB": 1217,
+      "imgKB": 100,
+      "jsKB": 499,
+      "fcp": 896,
+      "ttfb": 667,
+      "cls": 0,
+      "nextImageCount": 31,
+      "rawImageCount": 0,
+      "topImages": [
+        {
+          "url": "http://127.0.0.1:3010/_next/image?url=%2Fimages%2Frunning%2Fcategory%2Fuse-daily.jpg&w=828&q=75",
+          "size": 54832,
+          "type": "image",
+          "isImage": true,
+          "viaNextImage": true
+        },
+        {
+          "url": "http://127.0.0.1:3010/_next/image?url=%2Fimages%2Frunning%2Fproducts%2Fghost-16-hero.png&w=200&q=70",
+          "size": 2820,
+          "type": "image",
+          "isImage": true,
+          "viaNextImage": true
+        },
+        {
+          "url": "http://127.0.0.1:3010/_next/image?url=%2Fimages%2Frunning%2Fproducts%2Fnimbus-27-hero.jpg&w=200&q=70",
+          "size": 2757,
+          "type": "image",
+          "isImage": true,
+          "viaNextImage": true
+        },
+        {
+          "url": "http://127.0.0.1:3010/_next/image?url=%2Fimages%2Frunning%2Fproducts%2Fghost-18-hero.png&w=200&q=70",
+          "size": 2445,
+          "type": "image",
+          "isImage": true,
+          "viaNextImage": true
+        },
+        {
+          "url": "http://127.0.0.1:3010/_next/image?url=%2Fimages%2Frunning%2Fproducts%2Fnovablast-5-hero.jpg&w=200&q=70",
+          "size": 1962,
+          "type": "image",
+          "isImage": true,
+          "viaNextImage": true
+        },
+        {
+          "url": "http://127.0.0.1:3010/_next/image?url=%2Fimages%2Frunning%2Fproducts%2Fsaucony-guide-18-hero.jpg&w=200&q=70",
+          "size": 1885,
+          "type": "image",
+          "isImage": true,
+          "viaNextImage": true
+        },
+        {
+          "url": "http://127.0.0.1:3010/_next/image?url=%2Fimages%2Frunning%2Fproducts%2F1080-v14-hero.jpg&w=200&q=70",
+          "size": 1855,
+          "type": "image",
+          "isImage": true,
+          "viaNextImage": true
+        },
+        {
+          "url": "http://127.0.0.1:3010/_next/image?url=%2Fimages%2Frunning%2Fproducts%2Fbrooks-glycerin-gts-22-hero.jpg&w=200&q=70",
+          "size": 1852,
+          "type": "image",
+          "isImage": true,
+          "viaNextImage": true
+        },
+        {
+          "url": "http://127.0.0.1:3010/_next/image?url=%2Fimages%2Frunning%2Fproducts%2Fhoka-gaviota-5-hero.jpg&w=200&q=70",
+          "size": 1846,
+          "type": "image",
+          "isImage": true,
+          "viaNextImage": true
+        },
+        {
+          "url": "http://127.0.0.1:3010/_next/image?url=%2Fimages%2Frunning%2Fproducts%2Fboston-12-hero.jpg&w=200&q=70",
+          "size": 1843,
+          "type": "image",
+          "isImage": true,
+          "viaNextImage": true
+        }
+      ],
+      "underBudget": true,
+      "underPrefer": true
+    },
+    "/running/shoes": {
+      "path": "/running/shoes",
+      "total": 1339077,
+      "img": 82937,
+      "js": 523653,
+      "totalKB": 1308,
+      "imgKB": 81,
+      "jsKB": 511,
+      "fcp": 908,
+      "ttfb": 830,
+      "cls": 0,
+      "nextImageCount": 35,
+      "rawImageCount": 0,
+      "topImages": [
+        {
+          "url": "http://127.0.0.1:3010/_next/image?url=%2Fimages%2Frunning%2Fcategory%2Fuse-daily.jpg&w=320&q=70",
+          "size": 8588,
+          "type": "image",
+          "isImage": true,
+          "viaNextImage": true
+        },
+        {
+          "url": "http://127.0.0.1:3010/_next/image?url=%2Fimages%2Frunning%2Fcategory%2Fuse-trail.jpg&w=320&q=70",
+          "size": 6266,
+          "type": "image",
+          "isImage": true,
+          "viaNextImage": true
+        },
+        {
+          "url": "http://127.0.0.1:3010/_next/image?url=%2Fimages%2Frunning%2Fcategory%2Fuse-race.jpg&w=320&q=70",
+          "size": 6130,
+          "type": "image",
+          "isImage": true,
+          "viaNextImage": true
+        },
+        {
+          "url": "http://127.0.0.1:3010/_next/image?url=%2Fimages%2Frunning%2Fcategory%2Fuse-tempo.jpg&w=320&q=70",
+          "size": 5432,
+          "type": "image",
+          "isImage": true,
+          "viaNextImage": true
+        },
+        {
+          "url": "http://127.0.0.1:3010/_next/image?url=%2Fimages%2Frunning%2Fproducts%2Fghost-18-hero.png&w=320&q=70",
+          "size": 3848,
+          "type": "image",
+          "isImage": true,
+          "viaNextImage": true
+        },
+        {
+          "url": "http://127.0.0.1:3010/_next/image?url=%2Fimages%2Frunning%2Fcategory%2Fuse-long.jpg&w=320&q=70",
+          "size": 3689,
+          "type": "image",
+          "isImage": true,
+          "viaNextImage": true
+        },
+        {
+          "url": "http://127.0.0.1:3010/_next/image?url=%2Fimages%2Frunning%2Fproducts%2Fclifton-10-hero.jpg&w=320&q=70",
+          "size": 3058,
+          "type": "image",
+          "isImage": true,
+          "viaNextImage": true
+        },
+        {
+          "url": "http://127.0.0.1:3010/_next/image?url=%2Fimages%2Frunning%2Fproducts%2Fnovablast-6-hero.jpg&w=320&q=70",
+          "size": 2766,
+          "type": "image",
+          "isImage": true,
+          "viaNextImage": true
+        },
+        {
+          "url": "http://127.0.0.1:3010/_next/image?url=%2Fimages%2Frunning%2Fproducts%2Fbondi-9-hero.jpg&w=320&q=70",
+          "size": 2397,
+          "type": "image",
+          "isImage": true,
+          "viaNextImage": true
+        },
+        {
+          "url": "http://127.0.0.1:3010/_next/image?url=%2Fimages%2Frunning%2Fcategory%2Fuse-recovery.jpg&w=320&q=70",
+          "size": 2397,
+          "type": "image",
+          "isImage": true,
+          "viaNextImage": true
+        }
+      ],
+      "underBudget": true,
+      "underPrefer": true
+    },
+    "/running/shoes/trail": {
+      "path": "/running/shoes/trail",
+      "total": 1136571,
+      "img": 53181,
+      "js": 511243,
+      "totalKB": 1110,
+      "imgKB": 52,
+      "jsKB": 499,
+      "fcp": 700,
+      "ttfb": 645,
+      "cls": 0,
+      "nextImageCount": 19,
+      "rawImageCount": 0,
+      "topImages": [
+        {
+          "url": "http://127.0.0.1:3010/_next/image?url=%2Fimages%2Frunning%2Fcategory%2Fhero-trail.jpg&w=828&q=75",
+          "size": 25964,
+          "type": "image",
+          "isImage": true,
+          "viaNextImage": true
+        },
+        {
+          "url": "http://127.0.0.1:3010/_next/image?url=%2Fimages%2Frunning%2Fproducts%2Fperegrine-15-hero.jpg&w=200&q=70",
+          "size": 1942,
+          "type": "image",
+          "isImage": true,
+          "viaNextImage": true
+        },
+        {
+          "url": "http://127.0.0.1:3010/_next/image?url=%2Fimages%2Frunning%2Fproducts%2Fbrooks-cascadia-18-hero.jpg&w=200&q=70",
+          "size": 1899,
+          "type": "image",
+          "isImage": true,
+          "viaNextImage": true
+        },
+        {
+          "url": "http://127.0.0.1:3010/_next/image?url=%2Fimages%2Frunning%2Fproducts%2Fsaucony-xodus-ultra-3-hero.jpg&w=200&q=70",
+          "size": 1839,
+          "type": "image",
+          "isImage": true,
+          "viaNextImage": true
+        },
+        {
+          "url": "http://127.0.0.1:3010/_next/image?url=%2Fimages%2Frunning%2Fproducts%2Fpulsar-trail-2-hero.jpg&w=200&q=70",
+          "size": 1824,
+          "type": "image",
+          "isImage": true,
+          "viaNextImage": true
+        },
+        {
+          "url": "http://127.0.0.1:3010/_next/image?url=%2Fimages%2Frunning%2Fproducts%2Ftrailfly-ultra-g-300-max-hero.jpg&w=200&q=70",
+          "size": 1821,
+          "type": "image",
+          "isImage": true,
+          "viaNextImage": true
+        },
+        {
+          "url": "http://127.0.0.1:3010/_next/image?url=%2Fimages%2Frunning%2Fproducts%2Fsalomon-genesis-hero.jpg&w=200&q=70",
+          "size": 1757,
+          "type": "image",
+          "isImage": true,
+          "viaNextImage": true
+        },
+        {
+          "url": "http://127.0.0.1:3010/_next/image?url=%2Fimages%2Frunning%2Fproducts%2Flone-peak-8-hero.jpg&w=200&q=70",
+          "size": 1753,
+          "type": "image",
+          "isImage": true,
+          "viaNextImage": true
+        },
+        {
+          "url": "http://127.0.0.1:3010/_next/image?url=%2Fimages%2Frunning%2Fproducts%2Ftopo-athletic-terraventure-5-hero.jpg&w=200&q=70",
+          "size": 1736,
+          "type": "image",
+          "isImage": true,
+          "viaNextImage": true
+        },
+        {
+          "url": "http://127.0.0.1:3010/_next/image?url=%2Fimages%2Frunning%2Fproducts%2Fnew-balance-fresh-foam-x-hierro-v9-hero.jpg&w=200&q=70",
+          "size": 1734,
+          "type": "image",
+          "isImage": true,
+          "viaNextImage": true
+        }
+      ],
+      "underBudget": true,
+      "underPrefer": true
+    },
+    "/running/shoes/stability": {
+      "path": "/running/shoes/stability",
+      "total": 1113937,
+      "img": 39607,
+      "js": 511243,
+      "totalKB": 1088,
+      "imgKB": 39,
+      "jsKB": 499,
+      "fcp": 716,
+      "ttfb": 658,
+      "cls": 0,
+      "nextImageCount": 17,
+      "rawImageCount": 0,
+      "topImages": [
+        {
+          "url": "http://127.0.0.1:3010/_next/image?url=%2Fimages%2Frunning%2Fcategory%2Fhero-stability.jpg&w=828&q=75",
+          "size": 15520,
+          "type": "image",
+          "isImage": true,
+          "viaNextImage": true
+        },
+        {
+          "url": "http://127.0.0.1:3010/_next/image?url=%2Fimages%2Frunning%2Fproducts%2Fsaucony-guide-18-hero.jpg&w=200&q=70",
+          "size": 1885,
+          "type": "image",
+          "isImage": true,
+          "viaNextImage": true
+        },
+        {
+          "url": "http://127.0.0.1:3010/_next/image?url=%2Fimages%2Frunning%2Fproducts%2Fbrooks-glycerin-gts-22-hero.jpg&w=200&q=70",
+          "size": 1852,
+          "type": "image",
+          "isImage": true,
+          "viaNextImage": true
+        },
+        {
+          "url": "http://127.0.0.1:3010/_next/image?url=%2Fimages%2Frunning%2Fproducts%2Fhoka-gaviota-5-hero.jpg&w=200&q=70",
+          "size": 1846,
+          "type": "image",
+          "isImage": true,
+          "viaNextImage": true
+        },
+        {
+          "url": "http://127.0.0.1:3010/_next/image?url=%2Fimages%2Frunning%2Fproducts%2Fhoka-arahi-7-hero.jpg&w=200&q=70",
+          "size": 1821,
+          "type": "image",
+          "isImage": true,
+          "viaNextImage": true
+        },
+        {
+          "url": "http://127.0.0.1:3010/_next/image?url=%2Fimages%2Frunning%2Fproducts%2Fstructure-plus-hero.jpg&w=200&q=70",
+          "size": 1797,
+          "type": "image",
+          "isImage": true,
+          "viaNextImage": true
+        },
+        {
+          "url": "http://127.0.0.1:3010/_next/image?url=%2Fimages%2Frunning%2Fproducts%2Fnew-balance-fresh-foam-x-860-v14-hero.jpg&w=200&q=70",
+          "size": 1778,
+          "type": "image",
+          "isImage": true,
+          "viaNextImage": true
+        },
+        {
+          "url": "http://127.0.0.1:3010/_next/image?url=%2Fimages%2Frunning%2Fproducts%2Fkayano-32-hero.jpg&w=200&q=70",
+          "size": 1755,
+          "type": "image",
+          "isImage": true,
+          "viaNextImage": true
+        },
+        {
+          "url": "http://127.0.0.1:3010/_next/image?url=%2Fimages%2Frunning%2Fproducts%2Faltra-paradigm-7-hero.jpg&w=200&q=70",
+          "size": 1742,
+          "type": "image",
+          "isImage": true,
+          "viaNextImage": true
+        },
+        {
+          "url": "http://127.0.0.1:3010/_next/image?url=%2Fimages%2Frunning%2Fproducts%2Fasics-gt-1000-13-hero.jpg&w=200&q=70",
+          "size": 1697,
+          "type": "image",
+          "isImage": true,
+          "viaNextImage": true
+        }
+      ],
+      "underBudget": true,
+      "underPrefer": true
+    },
+    "/running/shoes/race": {
+      "path": "/running/shoes/race",
+      "total": 1135467,
+      "img": 56631,
+      "js": 511243,
+      "totalKB": 1109,
+      "imgKB": 55,
+      "jsKB": 499,
+      "fcp": 708,
+      "ttfb": 653,
+      "cls": 0,
+      "nextImageCount": 18,
+      "rawImageCount": 0,
+      "topImages": [
+        {
+          "url": "http://127.0.0.1:3010/_next/image?url=%2Fimages%2Frunning%2Fcategory%2Fhero-race.jpg&w=828&q=75",
+          "size": 33893,
+          "type": "image",
+          "isImage": true,
+          "viaNextImage": true
+        },
+        {
+          "url": "http://127.0.0.1:3010/_next/image?url=%2Fimages%2Frunning%2Fproducts%2Fendorphin-pro-3-hero.jpg&w=200&q=70",
+          "size": 1910,
+          "type": "image",
+          "isImage": true,
+          "viaNextImage": true
+        },
+        {
+          "url": "http://127.0.0.1:3010/_next/image?url=%2Fimages%2Frunning%2Fproducts%2Fspecter-2-hero.jpg&w=200&q=70",
+          "size": 1848,
+          "type": "image",
+          "isImage": true,
+          "viaNextImage": true
+        },
+        {
+          "url": "http://127.0.0.1:3010/_next/image?url=%2Fimages%2Frunning%2Fproducts%2Fmetaspeed-sky-paris-hero.jpg&w=200&q=70",
+          "size": 1818,
+          "type": "image",
+          "isImage": true,
+          "viaNextImage": true
+        },
+        {
+          "url": "http://127.0.0.1:3010/_next/image?url=%2Fimages%2Frunning%2Fproducts%2Fendorphin-speed-4-hero.jpg&w=200&q=70",
+          "size": 1808,
+          "type": "image",
+          "isImage": true,
+          "viaNextImage": true
+        },
+        {
+          "url": "http://127.0.0.1:3010/_next/image?url=%2Fimages%2Frunning%2Fproducts%2Fdeviate-nitro-3-hero.jpg&w=200&q=70",
+          "size": 1779,
+          "type": "image",
+          "isImage": true,
+          "viaNextImage": true
+        },
+        {
+          "url": "http://127.0.0.1:3010/_next/image?url=%2Fimages%2Frunning%2Fproducts%2Fsc-elite-v4-hero.jpg&w=200&q=70",
+          "size": 1674,
+          "type": "image",
+          "isImage": true,
+          "viaNextImage": true
+        },
+        {
+          "url": "http://127.0.0.1:3010/_next/image?url=%2Fimages%2Frunning%2Fproducts%2Fwave-rebellion-pro-3-hero.jpg&w=200&q=70",
+          "size": 1664,
+          "type": "image",
+          "isImage": true,
+          "viaNextImage": true
+        },
+        {
+          "url": "http://127.0.0.1:3010/_next/image?url=%2Fimages%2Frunning%2Fproducts%2Fendorphin-pro-4-hero.jpg&w=200&q=70",
+          "size": 1649,
+          "type": "image",
+          "isImage": true,
+          "viaNextImage": true
+        },
+        {
+          "url": "http://127.0.0.1:3010/_next/image?url=%2Fimages%2Frunning%2Fproducts%2Fadios-pro-4-hero.jpg&w=200&q=70",
+          "size": 1603,
+          "type": "image",
+          "isImage": true,
+          "viaNextImage": true
+        }
+      ],
+      "underBudget": true,
+      "underPrefer": true
+    }
+  }
+}

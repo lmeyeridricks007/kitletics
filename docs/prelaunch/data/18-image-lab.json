@@ -1,0 +1,272 @@
+{
+  "asOf": "2026-09-06T19:24:24.433Z",
+  "base": "http://127.0.0.1:3010",
+  "results": [
+    {
+      "path": "/",
+      "totalBytes": 1273464,
+      "totalMB": 1.21,
+      "imageBytes": 137568,
+      "imageMB": 0.13,
+      "imageCount": 26,
+      "nextImageCount": 26,
+      "rawImageCount": 0,
+      "topImages": [
+        {
+          "kb": 43,
+          "viaNextImage": true,
+          "url": "/_next/image?url=%2Fimages%2Fhome%2Fhero-gear-composite.png&w=1920&q=75"
+        },
+        {
+          "kb": 8,
+          "viaNextImage": true,
+          "url": "/_next/image?url=%2Fimages%2Fpadel%2Fproducts%2Fnox-at10-12k-2026-hero.png&w=256&q=75"
+        },
+        {
+          "kb": 8,
+          "viaNextImage": true,
+          "url": "/_next/image?url=%2Fimages%2Fpadel%2Fproducts%2Fbullpadel-hack-04-hero.png&w=256&q=75"
+        },
+        {
+          "kb": 8,
+          "viaNextImage": true,
+          "url": "/_next/image?url=%2Fimages%2Fpadel%2Fproducts%2Fbabolat-counter-viper-hero.png&w=256&q=75"
+        },
+        {
+          "kb": 6,
+          "viaNextImage": true,
+          "url": "/_next/image?url=%2Fimages%2Fpadel%2Fproducts%2Fsiux-diablo-hero.png&w=256&q=75"
+        },
+        {
+          "kb": 5,
+          "viaNextImage": true,
+          "url": "/_next/image?url=%2Fimages%2Fpadel%2Fproducts%2Fbullpadel-vertex-05-hero.png&w=256&q=75"
+        },
+        {
+          "kb": 4,
+          "viaNextImage": true,
+          "url": "/_next/image?url=%2Fimages%2Fwatches%2Fproducts%2Fcoros-pace-4-hero.png&w=256&q=75"
+        },
+        {
+          "kb": 4,
+          "viaNextImage": true,
+          "url": "/_next/image?url=%2Fimages%2Ffitness%2Fproducts%2Fpowerblock-pro-100-hero.jpg&w=256&q=75"
+        }
+      ],
+      "budget": {
+        "totalBytes": 1572864,
+        "imageBytes": 921600
+      },
+      "withinBudget": true
+    },
+    {
+      "path": "/running",
+      "totalBytes": 1524159,
+      "totalMB": 1.45,
+      "imageBytes": 266230,
+      "imageMB": 0.25,
+      "imageCount": 28,
+      "nextImageCount": 28,
+      "rawImageCount": 0,
+      "topImages": [
+        {
+          "kb": 148,
+          "viaNextImage": true,
+          "url": "/_next/image?url=%2Fimages%2Fbrands%2Fheroes%2Frunning-urban.jpg&w=1920&q=75"
+        },
+        {
+          "kb": 9,
+          "viaNextImage": true,
+          "url": "/_next/image?url=%2Fimages%2Fpacks%2Fproducts%2Fnathan-vaporair-4-hero.jpg&w=320&q=75"
+        },
+        {
+          "kb": 6,
+          "viaNextImage": true,
+          "url": "/_next/image?url=%2Fimages%2Fpacks%2Fproducts%2Fultimate-direction-race-vest-6-hero.jpg&w=320&q=75"
+        },
+        {
+          "kb": 6,
+          "viaNextImage": true,
+          "url": "/_next/image?url=%2Fimages%2Fpacks%2Fproducts%2Fsalomon-adv-skin-12-hero.jpg&w=320&q=75"
+        },
+        {
+          "kb": 5,
+          "viaNextImage": true,
+          "url": "/_next/image?url=%2Fimages%2Fhrm%2Fproducts%2Fwahoo-trackr-hero.jpg&w=320&q=75"
+        },
+        {
+          "kb": 5,
+          "viaNextImage": true,
+          "url": "/_next/image?url=%2Fimages%2Fpacks%2Fproducts%2Fsalomon-adv-skin-5-hero.jpg&w=320&q=75"
+        },
+        {
+          "kb": 5,
+          "viaNextImage": true,
+          "url": "/_next/image?url=%2Fimages%2Fhrm%2Fproducts%2Fcoros-heart-rate-monitor-hero.png&w=320&q=75"
+        },
+        {
+          "kb": 5,
+          "viaNextImage": true,
+          "url": "/_next/image?url=%2Fimages%2Fwatches%2Fproducts%2Fcoros-pace-4-hero.png&w=320&q=75"
+        }
+      ],
+      "budget": {
+        "totalBytes": 2621440,
+        "imageBytes": 2097152
+      },
+      "withinBudget": true
+    },
+    {
+      "path": "/running/shoes",
+      "totalBytes": 1340777,
+      "totalMB": 1.28,
+      "imageBytes": 89891,
+      "imageMB": 0.09,
+      "imageCount": 24,
+      "nextImageCount": 24,
+      "rawImageCount": 0,
+      "topImages": [
+        {
+          "kb": 8,
+          "viaNextImage": true,
+          "url": "/_next/image?url=%2Fimages%2Frunning%2Fcategory%2Fuse-daily.jpg&w=320&q=70"
+        },
+        {
+          "kb": 6,
+          "viaNextImage": true,
+          "url": "/_next/image?url=%2Fimages%2Frunning%2Fcategory%2Fuse-trail.jpg&w=320&q=70"
+        },
+        {
+          "kb": 6,
+          "viaNextImage": true,
+          "url": "/_next/image?url=%2Fimages%2Frunning%2Fcategory%2Fuse-race.jpg&w=320&q=70"
+        },
+        {
+          "kb": 5,
+          "viaNextImage": true,
+          "url": "/_next/image?url=%2Fimages%2Frunning%2Fcategory%2Fuse-tempo.jpg&w=320&q=70"
+        },
+        {
+          "kb": 4,
+          "viaNextImage": true,
+          "url": "/_next/image?url=%2Fimages%2Frunning%2Fproducts%2Fbrooks-cascadia-18-hero.jpg&w=320&q=70"
+        },
+        {
+          "kb": 4,
+          "viaNextImage": true,
+          "url": "/_next/image?url=%2Fimages%2Frunning%2Fproducts%2Fghost-18-hero.png&w=320&q=70"
+        },
+        {
+          "kb": 4,
+          "viaNextImage": true,
+          "url": "/_next/image?url=%2Fimages%2Frunning%2Fproducts%2Fhoka-arahi-7-hero.jpg&w=320&q=70"
+        },
+        {
+          "kb": 4,
+          "viaNextImage": true,
+          "url": "/_next/image?url=%2Fimages%2Frunning%2Fproducts%2Fboston-12-hero.jpg&w=320&q=70"
+        }
+      ],
+      "budget": {
+        "totalBytes": 2621440,
+        "imageBytes": 2097152
+      },
+      "withinBudget": true
+    },
+    {
+      "path": "/brands/nike",
+      "totalBytes": 1124060,
+      "totalMB": 1.07,
+      "imageBytes": 32199,
+      "imageMB": 0.03,
+      "imageCount": 27,
+      "nextImageCount": 26,
+      "rawImageCount": 1,
+      "topImages": [
+        {
+          "kb": 7,
+          "viaNextImage": true,
+          "url": "/_next/image?url=%2Fimages%2Frunning%2Fproducts%2Fvaporfly-4-hero.jpg&w=640&q=75"
+        },
+        {
+          "kb": 4,
+          "viaNextImage": true,
+          "url": "/_next/image?url=%2Fimages%2Frunning%2Fproducts%2Fstructure-plus-hero.jpg&w=320&q=70"
+        },
+        {
+          "kb": 3,
+          "viaNextImage": true,
+          "url": "/_next/image?url=%2Fimages%2Frunning%2Fproducts%2Falphafly-3-hero.png&w=320&q=70"
+        },
+        {
+          "kb": 2,
+          "viaNextImage": true,
+          "url": "/_next/image?url=%2Fimages%2Frunning%2Fproducts%2Fvaporfly-4-hero.jpg&w=320&q=70"
+        },
+        {
+          "kb": 2,
+          "viaNextImage": true,
+          "url": "/_next/image?url=%2Fimages%2Frunning%2Fproducts%2Fvomero-18-hero.png&w=320&q=70"
+        },
+        {
+          "kb": 2,
+          "viaNextImage": true,
+          "url": "/_next/image?url=%2Fimages%2Frunning%2Fproducts%2Fpegasus-42-hero.jpg&w=320&q=70"
+        },
+        {
+          "kb": 1,
+          "viaNextImage": false,
+          "url": "/images/brands/nike-logo.svg"
+        },
+        {
+          "kb": 1,
+          "viaNextImage": true,
+          "url": "/_next/image?url=%2Fimages%2Fhome%2Fguide-how-to-choose.jpg&w=96&q=65"
+        }
+      ],
+      "budget": {
+        "totalBytes": 2621440,
+        "imageBytes": 2097152
+      },
+      "withinBudget": true
+    },
+    {
+      "path": "/products/nike-vomero-18",
+      "totalBytes": 1143600,
+      "totalMB": 1.09,
+      "imageBytes": 12477,
+      "imageMB": 0.01,
+      "imageCount": 4,
+      "nextImageCount": 4,
+      "rawImageCount": 0,
+      "topImages": [
+        {
+          "kb": 7,
+          "viaNextImage": true,
+          "url": "/_next/image?url=%2Fimages%2Frunning%2Fproducts%2Fvomero-18-hero.png&w=640&q=75"
+        },
+        {
+          "kb": 3,
+          "viaNextImage": true,
+          "url": "/_next/image?url=%2Fimages%2Frunning%2Fproducts%2Fclifton-10-hero.jpg&w=320&q=70"
+        },
+        {
+          "kb": 2,
+          "viaNextImage": true,
+          "url": "/_next/image?url=%2Fimages%2Frunning%2Fproducts%2Fpegasus-42-hero.jpg&w=320&q=70"
+        },
+        {
+          "kb": 0,
+          "viaNextImage": true,
+          "url": "/_next/image?url=%2Fimages%2Frunning%2Fproducts%2Finvincible-3-hero.png&w=64&q=65"
+        }
+      ],
+      "budget": {
+        "totalBytes": 2621440,
+        "imageBytes": 2097152
+      },
+      "withinBudget": true
+    }
+  ],
+  "failures": []
+}

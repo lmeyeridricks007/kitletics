@@ -1,0 +1,31 @@
+{
+  "measuredAt": "2026-09-10T09:30:12.644Z",
+  "base": "http://127.0.0.1:3010",
+  "n": 1106,
+  "byStatus": {
+    "200": 1106
+  },
+  "counts": {
+    "not200": 0,
+    "redirects": 0,
+    "notFound": 0,
+    "serverErr": 0,
+    "noindex": 0,
+    "facetLeak": 0,
+    "draftPathLeak": 0,
+    "draftFutureEntities": 0
+  },
+  "gates": {
+    "zero404": true,
+    "zero5xx": true,
+    "zeroNoindex": true,
+    "zeroRedirects": true,
+    "zeroDraftsFuture": true,
+    "zeroFacetLeak": true
+  },
+  "not200": [],
+  "noindex": [],
+  "facetLeak": [],
+  "draftPathLeak": [],
+  "draftIssues": []
+}

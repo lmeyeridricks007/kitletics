@@ -1,0 +1,1378 @@
+{
+  "generatedAt": "2026-09-09T19:12:55.842Z",
+  "totals": {
+    "total": 58,
+    "LAUNCH_READY": 58
+  },
+  "targetMet": true,
+  "blocked": [],
+  "fixedFromNonReady": [
+    "heart-rate-monitors-hyrox",
+    "home-gym-equipment",
+    "hyrox-shoes",
+    "padel-rackets",
+    "tennis-rackets",
+    "adjustable-benches",
+    "adjustable-dumbbells",
+    "air-bikes",
+    "power-racks",
+    "pull-up-bars",
+    "rowing-machines",
+    "training-shoes",
+    "treadmills-for-home",
+    "weight-plates"
+  ],
+  "criticalCannibalization": [
+    {
+      "a": "running-shoes-long-runs",
+      "b": "running-shoes-heavy-runners",
+      "shared": [
+        "prod-bondi-9",
+        "prod-nimbus-27",
+        "prod-kayano-32"
+      ],
+      "recOverlap": 0.43
+    },
+    {
+      "a": "race-shoes",
+      "b": "carbon-plated-running-shoes",
+      "shared": [
+        "prod-vaporfly-4",
+        "prod-alphafly-3",
+        "prod-endorphin-pro-4",
+        "prod-metaspeed-sky-paris",
+        "prod-adios-pro-4"
+      ],
+      "recOverlap": 0.71
+    },
+    {
+      "a": "running-watches-beginners",
+      "b": "running-watches-budget",
+      "shared": [
+        "prod-forerunner-165",
+        "prod-suunto-run",
+        "prod-coros-pace-4",
+        "prod-amazfit-active-2"
+      ],
+      "recOverlap": 0.8
+    },
+    {
+      "a": "running-hydration-vests",
+      "b": "hydration-vests-trail",
+      "shared": [
+        "prod-adv-skin-12",
+        "prod-salomon-adv-skin-5",
+        "prod-ud-race-vest-6"
+      ],
+      "recOverlap": 0.75
+    },
+    {
+      "a": "hyrox-shoes",
+      "b": "training-shoes",
+      "shared": [
+        "prod-reebok-nano-x4",
+        "prod-nike-metcon-9"
+      ],
+      "recOverlap": 0.22
+    }
+  ],
+  "guides": [
+    {
+      "slug": "running-shoes",
+      "title": "Best Running Shoes 2026",
+      "sportId": "sport-running",
+      "categoryId": "cat-running-shoes",
+      "quality": "LAUNCH_READY",
+      "reasons": [
+        "contextualDepth=high"
+      ],
+      "recCount": 9,
+      "evidenceIds": [
+        "ev-catalog-editorial",
+        "ev-novablast-6-mfr",
+        "ev-boston-editorial"
+      ],
+      "productIds": [
+        "prod-novablast-6",
+        "prod-ghost-18",
+        "prod-pegasus-42",
+        "prod-clifton-10",
+        "prod-bondi-9",
+        "prod-endorphin-speed-5",
+        "prod-vaporfly-4",
+        "prod-kayano-32",
+        "prod-speedgoat-6"
+      ]
+    },
+    {
+      "slug": "daily-trainers",
+      "title": "Best Daily Trainers",
+      "sportId": "sport-running",
+      "categoryId": "cat-running-shoes",
+      "quality": "LAUNCH_READY",
+      "reasons": [
+        "contextualDepth=high"
+      ],
+      "recCount": 9,
+      "evidenceIds": [
+        "ev-catalog-editorial"
+      ],
+      "productIds": [
+        "prod-novablast-6",
+        "prod-ghost-18",
+        "prod-pegasus-42",
+        "prod-clifton-10",
+        "prod-cumulus-27",
+        "prod-ride-18",
+        "prod-glycerin-22",
+        "prod-vomero-18",
+        "prod-superblast-2"
+      ]
+    },
+    {
+      "slug": "running-shoes-long-runs",
+      "title": "Best Running Shoes for Long Runs",
+      "sportId": "sport-running",
+      "categoryId": "cat-running-shoes",
+      "quality": "LAUNCH_READY",
+      "reasons": [
+        "contextualDepth=high"
+      ],
+      "recCount": 7,
+      "evidenceIds": [
+        "ev-catalog-editorial"
+      ],
+      "productIds": [
+        "prod-clifton-10",
+        "prod-novablast-6",
+        "prod-bondi-9",
+        "prod-nimbus-27",
+        "prod-superblast-2",
+        "prod-kayano-32",
+        "prod-glycerin-22"
+      ]
+    },
+    {
+      "slug": "max-cushion-running-shoes",
+      "title": "Best Max Cushion Running Shoes",
+      "sportId": "sport-running",
+      "categoryId": "cat-running-shoes",
+      "quality": "LAUNCH_READY",
+      "reasons": [
+        "contextualDepth=high"
+      ],
+      "recCount": 8,
+      "evidenceIds": [
+        "ev-catalog-editorial"
+      ],
+      "productIds": [
+        "prod-bondi-9",
+        "prod-nimbus-27",
+        "prod-clifton-10",
+        "prod-vomero-18",
+        "prod-glycerin-22",
+        "prod-1080-v14",
+        "prod-triumph-22",
+        "prod-cloudmonster-2"
+      ]
+    },
+    {
+      "slug": "tempo-running-shoes",
+      "title": "Best Tempo Running Shoes",
+      "sportId": "sport-running",
+      "categoryId": "cat-running-shoes",
+      "quality": "LAUNCH_READY",
+      "reasons": [
+        "contextualDepth=high"
+      ],
+      "recCount": 8,
+      "evidenceIds": [
+        "ev-catalog-editorial"
+      ],
+      "productIds": [
+        "prod-endorphin-speed-5",
+        "prod-boston-12",
+        "prod-mach-6",
+        "prod-rebel-v5",
+        "prod-hyperion-max-2",
+        "prod-adizero-evo-sl",
+        "prod-sc-trainer-v3",
+        "prod-novablast-6"
+      ]
+    },
+    {
+      "slug": "race-shoes",
+      "title": "Best Race Running Shoes",
+      "sportId": "sport-running",
+      "categoryId": "cat-running-shoes",
+      "quality": "LAUNCH_READY",
+      "reasons": [
+        "contextualDepth=high"
+      ],
+      "recCount": 7,
+      "evidenceIds": [
+        "ev-catalog-editorial"
+      ],
+      "productIds": [
+        "prod-vaporfly-4",
+        "prod-alphafly-3",
+        "prod-endorphin-pro-4",
+        "prod-metaspeed-sky-paris",
+        "prod-adios-pro-4",
+        "prod-endorphin-speed-5",
+        "prod-sc-trainer-v3"
+      ]
+    },
+    {
+      "slug": "carbon-plated-running-shoes",
+      "title": "Best Carbon-Plated Running Shoes",
+      "sportId": "sport-running",
+      "categoryId": "cat-running-shoes",
+      "quality": "LAUNCH_READY",
+      "reasons": [
+        "contextualDepth=high"
+      ],
+      "recCount": 7,
+      "evidenceIds": [
+        "ev-catalog-editorial"
+      ],
+      "productIds": [
+        "prod-vaporfly-4",
+        "prod-alphafly-3",
+        "prod-endorphin-pro-4",
+        "prod-metaspeed-sky-paris",
+        "prod-adios-pro-4",
+        "prod-sc-elite-v4",
+        "prod-deviate-nitro-3"
+      ]
+    },
+    {
+      "slug": "marathon-shoes",
+      "title": "Best Marathon Running Shoes",
+      "sportId": "sport-running",
+      "categoryId": "cat-running-shoes",
+      "quality": "LAUNCH_READY",
+      "reasons": [
+        "contextualDepth=high"
+      ],
+      "recCount": 8,
+      "evidenceIds": [
+        "ev-catalog-editorial"
+      ],
+      "productIds": [
+        "prod-vaporfly-4",
+        "prod-endorphin-speed-5",
+        "prod-clifton-10",
+        "prod-novablast-6",
+        "prod-alphafly-3",
+        "prod-adios-pro-4",
+        "prod-superblast-2",
+        "prod-sc-trainer-v3"
+      ]
+    },
+    {
+      "slug": "stability-running-shoes",
+      "title": "Best Stability Running Shoes",
+      "sportId": "sport-running",
+      "categoryId": "cat-running-shoes",
+      "quality": "LAUNCH_READY",
+      "reasons": [
+        "contextualDepth=high"
+      ],
+      "recCount": 7,
+      "evidenceIds": [
+        "ev-catalog-editorial"
+      ],
+      "productIds": [
+        "prod-kayano-32",
+        "prod-adrenaline-gts-25",
+        "prod-gt-2000-14",
+        "prod-structure-plus",
+        "prod-structure-26",
+        "prod-ghost-18",
+        "prod-clifton-10"
+      ]
+    },
+    {
+      "slug": "trail-running-shoes",
+      "title": "Best Trail Running Shoes",
+      "sportId": "sport-running",
+      "categoryId": "cat-running-shoes",
+      "quality": "LAUNCH_READY",
+      "reasons": [
+        "contextualDepth=high"
+      ],
+      "recCount": 7,
+      "evidenceIds": [
+        "ev-catalog-editorial"
+      ],
+      "productIds": [
+        "prod-speedgoat-6",
+        "prod-peregrine-15",
+        "prod-lone-peak-8",
+        "prod-sense-ride-5",
+        "prod-pulsar-trail-2",
+        "prod-trailfly-ultra-g-300-max",
+        "prod-torin-8"
+      ]
+    },
+    {
+      "slug": "running-shoes-heavy-runners",
+      "title": "Best Running Shoes for Heavier Runners",
+      "sportId": "sport-running",
+      "categoryId": "cat-running-shoes",
+      "quality": "LAUNCH_READY",
+      "reasons": [
+        "contextualDepth=high"
+      ],
+      "recCount": 8,
+      "evidenceIds": [
+        "ev-catalog-editorial"
+      ],
+      "productIds": [
+        "prod-nimbus-27",
+        "prod-bondi-9",
+        "prod-kayano-32",
+        "prod-gaviota-5",
+        "prod-adrenaline-gts-25",
+        "prod-structure-plus",
+        "prod-clifton-pro",
+        "prod-1080-v14"
+      ]
+    },
+    {
+      "slug": "running-shoes-beginners",
+      "title": "Best Running Shoes for Beginners",
+      "sportId": "sport-running",
+      "categoryId": "cat-running-shoes",
+      "quality": "LAUNCH_READY",
+      "reasons": [
+        "contextualDepth=high"
+      ],
+      "recCount": 8,
+      "evidenceIds": [
+        "ev-catalog-editorial"
+      ],
+      "productIds": [
+        "prod-ghost-18",
+        "prod-pegasus-42",
+        "prod-novablast-6",
+        "prod-ride-18",
+        "prod-cumulus-27",
+        "prod-clifton-10",
+        "prod-adrenaline-gts-25",
+        "prod-wave-rider-28"
+      ]
+    },
+    {
+      "slug": "running-shoes-wide-feet",
+      "title": "Best Running Shoes for Wide Feet",
+      "sportId": "sport-running",
+      "categoryId": "cat-running-shoes",
+      "quality": "LAUNCH_READY",
+      "reasons": [
+        "contextualDepth=high"
+      ],
+      "recCount": 8,
+      "evidenceIds": [
+        "ev-catalog-editorial"
+      ],
+      "productIds": [
+        "prod-ghost-18",
+        "prod-nimbus-27",
+        "prod-adrenaline-gts-25",
+        "prod-glycerin-22",
+        "prod-1080-v14",
+        "prod-kayano-32",
+        "prod-torin-8",
+        "prod-cumulus-27"
+      ]
+    },
+    {
+      "slug": "running-watches",
+      "title": "Best Running Watches 2026",
+      "sportId": "sport-running",
+      "categoryId": "cat-gps-watches",
+      "quality": "LAUNCH_READY",
+      "reasons": [
+        "contextualDepth=high"
+      ],
+      "recCount": 6,
+      "evidenceIds": [
+        "ev-catalog-editorial",
+        "ev-fr970-mfr"
+      ],
+      "productIds": [
+        "prod-forerunner-970",
+        "prod-fenix-8",
+        "prod-coros-apex-4",
+        "prod-coros-pace-4",
+        "prod-apple-watch-ultra-3",
+        "prod-forerunner-165"
+      ]
+    },
+    {
+      "slug": "running-watches-beginners",
+      "title": "Best Running Watches for Beginners 2026",
+      "sportId": "sport-running",
+      "categoryId": "cat-gps-watches",
+      "quality": "LAUNCH_READY",
+      "reasons": [
+        "contextualDepth=high"
+      ],
+      "recCount": 5,
+      "evidenceIds": [
+        "ev-catalog-editorial",
+        "ev-catalog-mfr"
+      ],
+      "productIds": [
+        "prod-forerunner-165",
+        "prod-suunto-run",
+        "prod-coros-pace-4",
+        "prod-amazfit-active-2",
+        "prod-vivoactive-6"
+      ]
+    },
+    {
+      "slug": "running-watches-marathon",
+      "title": "Best Running Watches for Marathon Training 2026",
+      "sportId": "sport-running",
+      "categoryId": "cat-gps-watches",
+      "quality": "LAUNCH_READY",
+      "reasons": [
+        "contextualDepth=high"
+      ],
+      "recCount": 5,
+      "evidenceIds": [
+        "ev-catalog-editorial",
+        "ev-fr970-mfr"
+      ],
+      "productIds": [
+        "prod-forerunner-970",
+        "prod-coros-pace-4",
+        "prod-forerunner-570",
+        "prod-coros-pace-pro",
+        "prod-apple-watch-ultra-3"
+      ]
+    },
+    {
+      "slug": "running-watches-trail",
+      "title": "Best Trail Running Watches 2026",
+      "sportId": "sport-running",
+      "categoryId": "cat-gps-watches",
+      "quality": "LAUNCH_READY",
+      "reasons": [
+        "contextualDepth=high"
+      ],
+      "recCount": 5,
+      "evidenceIds": [
+        "ev-catalog-editorial"
+      ],
+      "productIds": [
+        "prod-coros-apex-4",
+        "prod-fenix-8",
+        "prod-suunto-vertical-2",
+        "prod-polar-grit-x2",
+        "prod-instinct-3"
+      ]
+    },
+    {
+      "slug": "running-watches-ultra",
+      "title": "Best Ultra Running Watches 2026",
+      "sportId": "sport-running",
+      "categoryId": "cat-gps-watches",
+      "quality": "LAUNCH_READY",
+      "reasons": [
+        "contextualDepth=high"
+      ],
+      "recCount": 5,
+      "evidenceIds": [
+        "ev-catalog-editorial"
+      ],
+      "productIds": [
+        "prod-enduro-3",
+        "prod-coros-vertix-2s",
+        "prod-coros-apex-4",
+        "prod-suunto-vertical-2",
+        "prod-fenix-8"
+      ]
+    },
+    {
+      "slug": "running-watches-budget",
+      "title": "Best Budget Running Watches 2026",
+      "sportId": "sport-running",
+      "categoryId": "cat-gps-watches",
+      "quality": "LAUNCH_READY",
+      "reasons": [
+        "contextualDepth=high"
+      ],
+      "recCount": 5,
+      "evidenceIds": [
+        "ev-catalog-editorial"
+      ],
+      "productIds": [
+        "prod-coros-pace-4",
+        "prod-suunto-run",
+        "prod-forerunner-165",
+        "prod-amazfit-active-2",
+        "prod-forerunner-265s"
+      ]
+    },
+    {
+      "slug": "running-watches-music",
+      "title": "Best Running Watches with Music 2026",
+      "sportId": "sport-running",
+      "categoryId": "cat-gps-watches",
+      "quality": "LAUNCH_READY",
+      "reasons": [
+        "contextualDepth=high"
+      ],
+      "recCount": 6,
+      "evidenceIds": [
+        "ev-catalog-editorial"
+      ],
+      "productIds": [
+        "prod-forerunner-970",
+        "prod-fenix-8",
+        "prod-forerunner-570",
+        "prod-apple-watch-ultra-3",
+        "prod-vivoactive-6",
+        "prod-enduro-3"
+      ]
+    },
+    {
+      "slug": "running-watches-small-wrists",
+      "title": "Best Running Watches for Small Wrists 2026",
+      "sportId": "sport-running",
+      "categoryId": "cat-gps-watches",
+      "quality": "LAUNCH_READY",
+      "reasons": [
+        "contextualDepth=high"
+      ],
+      "recCount": 5,
+      "evidenceIds": [
+        "ev-catalog-editorial"
+      ],
+      "productIds": [
+        "prod-coros-pace-4",
+        "prod-forerunner-265s",
+        "prod-forerunner-165",
+        "prod-vivoactive-6",
+        "prod-suunto-run"
+      ]
+    },
+    {
+      "slug": "heart-rate-monitors-running",
+      "title": "Best Heart Rate Monitors for Running 2026",
+      "sportId": "sport-running",
+      "categoryId": "cat-hrm",
+      "quality": "LAUNCH_READY",
+      "reasons": [
+        "contextualDepth=high"
+      ],
+      "recCount": 5,
+      "evidenceIds": [
+        "ev-catalog-editorial",
+        "ev-hrm-mfr"
+      ],
+      "productIds": [
+        "prod-polar-h10",
+        "prod-hrm-600",
+        "prod-coros-hrm",
+        "prod-wahoo-trackr",
+        "prod-polar-h9"
+      ]
+    },
+    {
+      "slug": "heart-rate-monitors-chest-straps",
+      "title": "Best Chest Strap Heart Rate Monitors 2026",
+      "sportId": "sport-running",
+      "categoryId": "cat-hrm",
+      "quality": "LAUNCH_READY",
+      "reasons": [
+        "contextualDepth=high"
+      ],
+      "recCount": 5,
+      "evidenceIds": [
+        "ev-catalog-editorial"
+      ],
+      "productIds": [
+        "prod-polar-h10",
+        "prod-hrm-600",
+        "prod-wahoo-trackr",
+        "prod-polar-h9",
+        "prod-garmin-hrm-200"
+      ]
+    },
+    {
+      "slug": "heart-rate-monitors-intervals",
+      "title": "Best HR Monitors for Interval Training 2026",
+      "sportId": "sport-running",
+      "categoryId": "cat-hrm",
+      "quality": "LAUNCH_READY",
+      "reasons": [
+        "contextualDepth=high"
+      ],
+      "recCount": 4,
+      "evidenceIds": [
+        "ev-catalog-editorial"
+      ],
+      "productIds": [
+        "prod-polar-h10",
+        "prod-hrm-600",
+        "prod-wahoo-trackr",
+        "prod-polar-verity-sense"
+      ]
+    },
+    {
+      "slug": "heart-rate-monitors-hyrox",
+      "title": "Best HR Monitors for HYROX 2026",
+      "sportId": "sport-hyrox",
+      "categoryId": "cat-hrm",
+      "quality": "LAUNCH_READY",
+      "reasons": [
+        "contextualDepth=high"
+      ],
+      "recCount": 4,
+      "evidenceIds": [
+        "ev-catalog-editorial"
+      ],
+      "productIds": [
+        "prod-wahoo-trackr",
+        "prod-polar-h10",
+        "prod-wahoo-tickr-fit",
+        "prod-coros-hrm"
+      ]
+    },
+    {
+      "slug": "running-hydration-vests",
+      "title": "Best Running Hydration Vests",
+      "sportId": "sport-running",
+      "categoryId": "cat-packs-vests",
+      "quality": "LAUNCH_READY",
+      "reasons": [
+        "contextualDepth=high"
+      ],
+      "recCount": 5,
+      "evidenceIds": [
+        "ev-catalog-editorial"
+      ],
+      "productIds": [
+        "prod-adv-skin-12",
+        "prod-salomon-adv-skin-5",
+        "prod-ud-race-vest-6",
+        "prod-nathan-vaporair-4",
+        "prod-osprey-duro-6"
+      ]
+    },
+    {
+      "slug": "running-belts",
+      "title": "Best Running Belts",
+      "sportId": "sport-running",
+      "categoryId": "cat-running-belts",
+      "quality": "LAUNCH_READY",
+      "reasons": [
+        "contextualDepth=high"
+      ],
+      "recCount": 5,
+      "evidenceIds": [
+        "ev-catalog-editorial"
+      ],
+      "productIds": [
+        "prod-flipbelt-classic",
+        "prod-naked-running-band",
+        "prod-spibelt-original",
+        "prod-nathan-peak",
+        "prod-ud-race-belt"
+      ]
+    },
+    {
+      "slug": "running-packs",
+      "title": "Best Running Packs & Fastpacking Packs 2026",
+      "sportId": "sport-running",
+      "categoryId": "cat-packs-vests",
+      "quality": "LAUNCH_READY",
+      "reasons": [
+        "contextualDepth=high"
+      ],
+      "recCount": 9,
+      "evidenceIds": [
+        "ev-catalog-editorial"
+      ],
+      "productIds": [
+        "prod-ud-fastpack-20",
+        "prod-ud-fastpack-30",
+        "prod-osprey-talon-velocity-20",
+        "prod-osprey-talon-velocity-30",
+        "prod-black-diamond-distance-22",
+        "prod-salomon-xa-15",
+        "prod-osprey-duro-15",
+        "prod-on-ultra-vest-pro",
+        "prod-adv-skin-12"
+      ]
+    },
+    {
+      "slug": "hydration-vests-trail",
+      "title": "Best Hydration Vests for Trail Running",
+      "sportId": "sport-running",
+      "categoryId": "cat-packs-vests",
+      "quality": "LAUNCH_READY",
+      "reasons": [
+        "contextualDepth=high"
+      ],
+      "recCount": 4,
+      "evidenceIds": [
+        "ev-catalog-editorial"
+      ],
+      "productIds": [
+        "prod-salomon-adv-skin-5",
+        "prod-ud-race-vest-6",
+        "prod-black-diamond-distance-8",
+        "prod-adv-skin-12"
+      ]
+    },
+    {
+      "slug": "hydration-vests-ultra",
+      "title": "Best Hydration Vests for Ultras",
+      "sportId": "sport-running",
+      "categoryId": "cat-packs-vests",
+      "quality": "LAUNCH_READY",
+      "reasons": [
+        "contextualDepth=high"
+      ],
+      "recCount": 4,
+      "evidenceIds": [
+        "ev-catalog-editorial"
+      ],
+      "productIds": [
+        "prod-adv-skin-12",
+        "prod-nathan-pinnacle-12",
+        "prod-osprey-duro-15",
+        "prod-salomon-adv-skin-5"
+      ]
+    },
+    {
+      "slug": "handheld-running-bottles",
+      "title": "Best Handheld Running Bottles",
+      "sportId": "sport-running",
+      "categoryId": "cat-hydration",
+      "quality": "LAUNCH_READY",
+      "reasons": [
+        "contextualDepth=high"
+      ],
+      "recCount": 4,
+      "evidenceIds": [
+        "ev-catalog-editorial"
+      ],
+      "productIds": [
+        "prod-hydrapak-skyflask-speed-500",
+        "prod-nathan-exoshot",
+        "prod-nathan-speeddraw-insulated",
+        "prod-hydrapak-softflask-speed-500"
+      ]
+    },
+    {
+      "slug": "hydration-marathon-training",
+      "title": "Best Hydration for Marathon Training",
+      "sportId": "sport-running",
+      "categoryId": "cat-packs-vests",
+      "quality": "LAUNCH_READY",
+      "reasons": [
+        "contextualDepth=high"
+      ],
+      "recCount": 4,
+      "evidenceIds": [
+        "ev-catalog-editorial"
+      ],
+      "productIds": [
+        "prod-osprey-duro-lt",
+        "prod-nathan-vaporair-4",
+        "prod-flipbelt-classic",
+        "prod-hydrapak-skyflask-speed-500"
+      ]
+    },
+    {
+      "slug": "running-headphones",
+      "title": "Best Running Headphones",
+      "sportId": "sport-running",
+      "categoryId": "cat-headphones",
+      "quality": "LAUNCH_READY",
+      "reasons": [
+        "contextualDepth=high"
+      ],
+      "recCount": 11,
+      "evidenceIds": [
+        "ev-catalog-editorial"
+      ],
+      "productIds": [
+        "prod-shokz-openrun-pro-2",
+        "prod-shokz-openrun",
+        "prod-suunto-wing",
+        "prod-shokz-openfit-2",
+        "prod-bose-ultra-open",
+        "prod-soundcore-sport-x20",
+        "prod-airpods-pro-2",
+        "prod-shokz-opendots-one",
+        "prod-soundcore-aerofit-2",
+        "prod-beats-fit-pro",
+        "prod-apple-airpods-4"
+      ]
+    },
+    {
+      "slug": "running-socks",
+      "title": "Best Running Socks 2026",
+      "sportId": "sport-running",
+      "categoryId": "cat-running-socks",
+      "quality": "LAUNCH_READY",
+      "reasons": [
+        "contextualDepth=high"
+      ],
+      "recCount": 8,
+      "evidenceIds": [
+        "ev-catalog-editorial"
+      ],
+      "productIds": [
+        "prod-feetures-elite-light-cushion",
+        "prod-darn-tough-run-1-4",
+        "prod-balega-blister-resist",
+        "prod-smartwool-run-targeted-cushion",
+        "prod-injinji-run-midweight",
+        "prod-cep-run-compression-sock",
+        "prod-balega-hidden-comfort",
+        "prod-swiftwick-aspire-four"
+      ]
+    },
+    {
+      "slug": "running-shorts",
+      "title": "Best Running Shorts 2026",
+      "sportId": "sport-running",
+      "categoryId": "cat-running-clothing",
+      "quality": "LAUNCH_READY",
+      "reasons": [
+        "contextualDepth=high"
+      ],
+      "recCount": 6,
+      "evidenceIds": [
+        "ev-catalog-editorial"
+      ],
+      "productIds": [
+        "prod-janji-multi-short-men",
+        "prod-janji-pace-short-women",
+        "prod-patagonia-strider-pro-men",
+        "prod-rabbit-fuel-n-fly-men",
+        "prod-brooks-sherpa-7-men",
+        "prod-patagonia-houdini-men"
+      ]
+    },
+    {
+      "slug": "running-jackets",
+      "title": "Best Running Jackets 2026",
+      "sportId": "sport-running",
+      "categoryId": "cat-running-clothing",
+      "quality": "LAUNCH_READY",
+      "reasons": [
+        "contextualDepth=high"
+      ],
+      "recCount": 5,
+      "evidenceIds": [
+        "ev-catalog-editorial"
+      ],
+      "productIds": [
+        "prod-patagonia-houdini-men",
+        "prod-brooks-canopy-jacket-unisex",
+        "prod-nike-impossibly-light-men",
+        "prod-on-weather-jacket-men",
+        "prod-craft-adv-essence-light-wind-men"
+      ]
+    },
+    {
+      "slug": "running-rain-jackets",
+      "title": "Best Running Rain Jackets 2026",
+      "sportId": "sport-running",
+      "categoryId": "cat-running-clothing",
+      "quality": "LAUNCH_READY",
+      "reasons": [
+        "contextualDepth=high"
+      ],
+      "recCount": 4,
+      "evidenceIds": [
+        "ev-catalog-editorial"
+      ],
+      "productIds": [
+        "prod-salomon-bonatti-wp-men",
+        "prod-janji-rainrunner-unisex",
+        "prod-salomon-bonatti-wp-women",
+        "prod-patagonia-houdini-men"
+      ]
+    },
+    {
+      "slug": "running-tights",
+      "title": "Best Running Tights 2026",
+      "sportId": "sport-running",
+      "categoryId": "cat-running-clothing",
+      "quality": "LAUNCH_READY",
+      "reasons": [
+        "contextualDepth=high"
+      ],
+      "recCount": 5,
+      "evidenceIds": [
+        "ev-catalog-editorial"
+      ],
+      "productIds": [
+        "prod-nike-fast-tight-men",
+        "prod-tracksmith-twilight-half-men",
+        "prod-brooks-method-tight-women",
+        "prod-patagonia-endless-run-tight-women",
+        "prod-patagonia-houdini-men"
+      ]
+    },
+    {
+      "slug": "running-gear-winter",
+      "title": "Best Winter Running Gear 2026",
+      "sportId": "sport-running",
+      "categoryId": "cat-running-clothing",
+      "quality": "LAUNCH_READY",
+      "reasons": [
+        "contextualDepth=high"
+      ],
+      "recCount": 6,
+      "evidenceIds": [
+        "ev-catalog-editorial"
+      ],
+      "productIds": [
+        "prod-patagonia-capilene-midweight-zip-men",
+        "prod-brooks-notch-thermal-men",
+        "prod-craft-adv-lumen-glove",
+        "prod-odlo-active-warm-eco-men",
+        "prod-patagonia-nano-puff-vest-men",
+        "prod-patagonia-houdini-men"
+      ]
+    },
+    {
+      "slug": "running-clothing-hot-weather",
+      "title": "Best Hot-Weather Running Clothing 2026",
+      "sportId": "sport-running",
+      "categoryId": "cat-running-clothing",
+      "quality": "LAUNCH_READY",
+      "reasons": [
+        "contextualDepth=high"
+      ],
+      "recCount": 6,
+      "evidenceIds": [
+        "ev-catalog-editorial"
+      ],
+      "productIds": [
+        "prod-nike-dri-fit-miler-men",
+        "prod-patagonia-capilene-cool-daily-men",
+        "prod-nike-aeroswift-singlet-men",
+        "prod-janji-pace-short-women",
+        "prod-janji-multi-short-men",
+        "prod-ciele-gocap-athletics"
+      ]
+    },
+    {
+      "slug": "running-headlamps",
+      "title": "Best Running Headlamps",
+      "sportId": "sport-running",
+      "categoryId": "cat-running-lights",
+      "quality": "LAUNCH_READY",
+      "reasons": [
+        "contextualDepth=high"
+      ],
+      "recCount": 9,
+      "evidenceIds": [
+        "ev-catalog-editorial"
+      ],
+      "productIds": [
+        "prod-petzl-swift-rl",
+        "prod-petzl-nao-rl",
+        "prod-petzl-actik-core",
+        "prod-bd-spot-400-r",
+        "prod-ledlenser-neo9r",
+        "prod-biolite-headlamp-800",
+        "prod-bd-distance-1500",
+        "prod-nitecore-nu43",
+        "prod-silva-trail-runner-free"
+      ]
+    },
+    {
+      "slug": "running-sunglasses",
+      "title": "Best Running Sunglasses 2026",
+      "sportId": "sport-running",
+      "categoryId": "cat-sunglasses",
+      "quality": "LAUNCH_READY",
+      "reasons": [
+        "contextualDepth=high"
+      ],
+      "recCount": 10,
+      "evidenceIds": [
+        "ev-catalog-editorial"
+      ],
+      "productIds": [
+        "prod-oakley-encoder",
+        "prod-oakley-radar-ev-path",
+        "prod-oakley-kato",
+        "prod-smith-shift-mag",
+        "prod-julbo-ultimate",
+        "prod-julbo-aerolite",
+        "prod-roka-phantom-air",
+        "prod-tifosi-rail",
+        "prod-goodr-ogs",
+        "prod-100-s3"
+      ]
+    },
+    {
+      "slug": "running-safety-visibility",
+      "title": "Best Running Safety & Visibility Gear 2026",
+      "sportId": "sport-running",
+      "categoryId": "cat-safety",
+      "quality": "LAUNCH_READY",
+      "reasons": [
+        "contextualDepth=high"
+      ],
+      "recCount": 6,
+      "evidenceIds": [
+        "ev-catalog-editorial"
+      ],
+      "productIds": [
+        "prod-nathan-reflective-vest",
+        "prod-proviz-reflect360-vest",
+        "prod-amphipod-xinglet",
+        "prod-nathan-lightbender",
+        "prod-amphipod-xinglet-optic-beam",
+        "prod-amphipod-vizlet"
+      ]
+    },
+    {
+      "slug": "running-race-fuel",
+      "title": "Best Running Race Fuel 2026",
+      "sportId": "sport-running",
+      "categoryId": "cat-nutrition",
+      "quality": "LAUNCH_READY",
+      "reasons": [
+        "contextualDepth=high"
+      ],
+      "recCount": 11,
+      "evidenceIds": [
+        "ev-catalog-editorial"
+      ],
+      "productIds": [
+        "prod-maurten-gel-100",
+        "prod-sis-go-isotonic-gel",
+        "prod-sis-beta-fuel-gel",
+        "prod-precision-pf30-gel",
+        "prod-neversecond-c30-gel",
+        "prod-maurten-drink-mix-320",
+        "prod-tailwind-endurance",
+        "prod-clif-bloks",
+        "prod-spring-awesome-sauce",
+        "prod-skratch-sport-hydration",
+        "prod-nuun-sport"
+      ]
+    },
+    {
+      "slug": "running-recovery-gear",
+      "title": "Best Running Recovery Gear 2026",
+      "sportId": "sport-running",
+      "categoryId": "cat-recovery-gear",
+      "quality": "LAUNCH_READY",
+      "reasons": [
+        "contextualDepth=high"
+      ],
+      "recCount": 10,
+      "evidenceIds": [
+        "ev-catalog-editorial"
+      ],
+      "productIds": [
+        "prod-theragun-mini",
+        "prod-theragun-prime",
+        "prod-normatec-go",
+        "prod-oofos-ooriginal",
+        "prod-cep-calf-sleeves",
+        "prod-hypervolt-go-2",
+        "prod-hypervolt-2",
+        "prod-theragun-pro",
+        "prod-triggerpoint-grid-x",
+        "prod-brazyn-morph"
+      ]
+    },
+    {
+      "slug": "padel-rackets",
+      "title": "Best Padel Rackets",
+      "sportId": "sport-padel",
+      "categoryId": "cat-padel-rackets",
+      "quality": "LAUNCH_READY",
+      "reasons": [
+        "contextualDepth=high"
+      ],
+      "recCount": 7,
+      "evidenceIds": [
+        "ev-catalog-editorial"
+      ],
+      "productIds": [
+        "prod-bullpadel-vertex-05",
+        "prod-nox-at10-12k-2026",
+        "prod-siux-diablo",
+        "prod-babolat-counter-viper",
+        "prod-bullpadel-hack-04",
+        "prod-head-coello-pro",
+        "prod-adidas-metalbone-hrd"
+      ]
+    },
+    {
+      "slug": "tennis-rackets",
+      "title": "Best Tennis Rackets",
+      "sportId": "sport-tennis",
+      "categoryId": "cat-tennis-rackets",
+      "quality": "LAUNCH_READY",
+      "reasons": [
+        "contextualDepth=high"
+      ],
+      "recCount": 6,
+      "evidenceIds": [
+        "ev-catalog-editorial"
+      ],
+      "productIds": [
+        "prod-yonex-ezone-100-2025",
+        "prod-wilson-blade-98-v9",
+        "prod-babolat-pure-drive-gen11",
+        "prod-babolat-pure-aero-2026",
+        "prod-wilson-clash-100-v3",
+        "prod-head-speed-mp-2026"
+      ]
+    },
+    {
+      "slug": "adjustable-dumbbells",
+      "title": "Best Adjustable Dumbbells",
+      "sportId": "sport-training",
+      "categoryId": "cat-adjustable-dumbbells",
+      "quality": "LAUNCH_READY",
+      "reasons": [
+        "contextualDepth=high"
+      ],
+      "recCount": 5,
+      "evidenceIds": [
+        "ev-catalog-editorial"
+      ],
+      "productIds": [
+        "prod-nuobell-80",
+        "prod-powerblock-pro-100",
+        "prod-bowflex-552",
+        "prod-bowflex-1090",
+        "prod-rep-adjustable-db"
+      ]
+    },
+    {
+      "slug": "power-racks",
+      "title": "Best Power Racks",
+      "sportId": "sport-training",
+      "categoryId": "cat-power-racks",
+      "quality": "LAUNCH_READY",
+      "reasons": [
+        "contextualDepth=high"
+      ],
+      "recCount": 5,
+      "evidenceIds": [
+        "ev-catalog-editorial"
+      ],
+      "productIds": [
+        "prod-rep-pr-4000",
+        "prod-rogue-rml-390f",
+        "prod-mirafit-m3",
+        "prod-rogue-sm-2c",
+        "prod-rep-apollo"
+      ]
+    },
+    {
+      "slug": "training-shoes",
+      "title": "Best Training Shoes",
+      "sportId": "sport-training",
+      "categoryId": "cat-training-shoes",
+      "quality": "LAUNCH_READY",
+      "reasons": [
+        "contextualDepth=high"
+      ],
+      "recCount": 9,
+      "evidenceIds": [
+        "ev-catalog-editorial"
+      ],
+      "productIds": [
+        "prod-nike-metcon-9",
+        "prod-reebok-nano-x4",
+        "prod-adidas-dropset-3",
+        "prod-inov8-flite-235-v3",
+        "prod-nobull-trainer",
+        "prod-ua-tribase-reign-6",
+        "prod-nike-free-metcon-6",
+        "prod-puma-fuse-3",
+        "prod-nike-romaleos-5"
+      ]
+    },
+    {
+      "slug": "hyrox-shoes",
+      "title": "Best HYROX Shoes",
+      "sportId": "sport-hyrox",
+      "categoryId": "cat-training-shoes",
+      "quality": "LAUNCH_READY",
+      "reasons": [
+        "contextualDepth=high"
+      ],
+      "recCount": 9,
+      "evidenceIds": [
+        "ev-catalog-editorial"
+      ],
+      "productIds": [
+        "prod-tyr-cxt-2",
+        "prod-nobull-outwork",
+        "prod-reebok-nano-x4",
+        "prod-nike-metcon-9",
+        "prod-tyr-cxt-1",
+        "prod-salming-race-9",
+        "prod-nobull-trainer-plus",
+        "prod-puma-fuse-fasted",
+        "prod-salming-rebel"
+      ]
+    },
+    {
+      "slug": "rowing-machines",
+      "title": "Best Rowing Machines",
+      "sportId": "sport-training",
+      "categoryId": "cat-rowing-machines",
+      "quality": "LAUNCH_READY",
+      "reasons": [
+        "contextualDepth=high"
+      ],
+      "recCount": 4,
+      "evidenceIds": [
+        "ev-catalog-editorial"
+      ],
+      "productIds": [
+        "prod-concept2-rowerg",
+        "prod-mirafit-rower",
+        "prod-mirafit-folding-rower",
+        "prod-concept2-rowerg-dynamic"
+      ]
+    },
+    {
+      "slug": "pull-up-bars",
+      "title": "Best Pull-Up Bars",
+      "sportId": "sport-calisthenics",
+      "categoryId": "cat-pull-up-bars",
+      "quality": "LAUNCH_READY",
+      "reasons": [
+        "contextualDepth=high"
+      ],
+      "recCount": 5,
+      "evidenceIds": [
+        "ev-catalog-editorial"
+      ],
+      "productIds": [
+        "prod-pullup-dip-wall",
+        "prod-pullup-dip-doorway",
+        "prod-gravity-pullup-station",
+        "prod-gornation-premium-bar",
+        "prod-rogue-pullup-bar"
+      ]
+    },
+    {
+      "slug": "home-gym-equipment",
+      "title": "Best Home Gym Equipment",
+      "sportId": "sport-training",
+      "categoryId": "cat-power-racks",
+      "quality": "LAUNCH_READY",
+      "reasons": [
+        "contextualDepth=high"
+      ],
+      "recCount": 5,
+      "evidenceIds": [
+        "ev-catalog-editorial"
+      ],
+      "productIds": [
+        "prod-rep-pr-4000",
+        "prod-nuobell-80",
+        "prod-rep-ab-5000",
+        "prod-rogue-ohio",
+        "prod-concept2-rowerg"
+      ]
+    },
+    {
+      "slug": "adjustable-benches",
+      "title": "Best Adjustable Benches",
+      "sportId": "sport-training",
+      "categoryId": "cat-weight-benches",
+      "quality": "LAUNCH_READY",
+      "reasons": [
+        "contextualDepth=high"
+      ],
+      "recCount": 3,
+      "evidenceIds": [
+        "ev-catalog-editorial"
+      ],
+      "productIds": [
+        "prod-rep-ab-5200",
+        "prod-rogue-adjustable-bench-3",
+        "prod-atx-fid-bench"
+      ]
+    },
+    {
+      "slug": "air-bikes",
+      "title": "Best Air Bikes",
+      "sportId": "sport-training",
+      "categoryId": "cat-air-bikes",
+      "quality": "LAUNCH_READY",
+      "reasons": [
+        "contextualDepth=high"
+      ],
+      "recCount": 4,
+      "evidenceIds": [
+        "ev-catalog-editorial"
+      ],
+      "productIds": [
+        "prod-rogue-echo-bike",
+        "prod-concept2-bikeerg",
+        "prod-assault-elite",
+        "prod-mirafit-air-bike"
+      ]
+    },
+    {
+      "slug": "treadmills-for-home",
+      "title": "Best Treadmills for Home",
+      "sportId": "sport-training",
+      "categoryId": "cat-treadmills",
+      "quality": "LAUNCH_READY",
+      "reasons": [
+        "contextualDepth=high"
+      ],
+      "recCount": 4,
+      "evidenceIds": [
+        "ev-catalog-editorial"
+      ],
+      "productIds": [
+        "prod-sole-f80",
+        "prod-horizon-t202",
+        "prod-assault-runner",
+        "prod-mirafit-treadmill"
+      ]
+    },
+    {
+      "slug": "weight-plates",
+      "title": "Best Weight Plates",
+      "sportId": "sport-training",
+      "categoryId": "cat-weight-plates",
+      "quality": "LAUNCH_READY",
+      "reasons": [
+        "contextualDepth=high"
+      ],
+      "recCount": 4,
+      "evidenceIds": [
+        "ev-catalog-editorial"
+      ],
+      "productIds": [
+        "prod-eleiko-sport-bumper",
+        "prod-rogue-echo-bumper",
+        "prod-mirafit-bumper-set",
+        "prod-atx-cast-iron-set"
+      ]
+    }
+  ]
+}

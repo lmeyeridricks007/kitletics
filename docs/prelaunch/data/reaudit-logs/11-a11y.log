@@ -1,0 +1,84 @@
+Checking /
+Checking /running
+Checking /running/shoes
+Checking /products/nike-vomero-18
+Checking /reviews/nike-vomero-18
+Checking /best/running-shoes
+Checking /guides/how-to-choose-running-shoes
+Checking /brands/nike
+Checking /compare
+Checking /tools/running-shoe-finder
+Checking /search?q=vomero
+{
+  "overflowRoutes": [],
+  "routesWithSeriousCritical": 0,
+  "totalSeriousCritical": 0,
+  "sample": [
+    {
+      "path": "/",
+      "overflow": false,
+      "serious": 0,
+      "ids": []
+    },
+    {
+      "path": "/running",
+      "overflow": false,
+      "serious": 0,
+      "ids": []
+    },
+    {
+      "path": "/running/shoes",
+      "overflow": false,
+      "serious": 0,
+      "ids": []
+    },
+    {
+      "path": "/products/nike-vomero-18",
+      "overflow": false,
+      "serious": 0,
+      "ids": []
+    },
+    {
+      "path": "/reviews/nike-vomero-18",
+      "overflow": false,
+      "serious": 0,
+      "ids": []
+    },
+    {
+      "path": "/best/running-shoes",
+      "overflow": false,
+      "serious": 0,
+      "ids": []
+    },
+    {
+      "path": "/guides/how-to-choose-running-shoes",
+      "overflow": false,
+      "serious": 0,
+      "ids": []
+    },
+    {
+      "path": "/brands/nike",
+      "overflow": false,
+      "serious": 0,
+      "ids": []
+    },
+    {
+      "path": "/compare",
+      "overflow": false,
+      "serious": 0,
+      "ids": []
+    },
+    {
+      "path": "/tools/running-shoe-finder",
+      "overflow": false,
+      "serious": 0,
+      "ids": []
+    },
+    {
+      "path": "/search?q=vomero",
+      "overflow": false,
+      "serious": 0,
+      "ids": []
+    }
+  ]
+}

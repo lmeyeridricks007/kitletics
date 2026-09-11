@@ -1,0 +1,218 @@
+{
+  "generatedAt": "2026-09-10T08:04:10.987Z",
+  "totals": {
+    "brands": 191,
+    "pageBuilt": 69,
+    "indexableGate": 69,
+    "launchIndexable": 69,
+    "gatePageAligned": 191,
+    "boilerBlurb": 0,
+    "emptyWhy": 0,
+    "withGuides": 49,
+    "withComparisons": 51,
+    "withBest": 60,
+    "withHowLinesDiffer": 69,
+    "withGeneration": 69,
+    "heldThinWithProducts": 91,
+    "byUniquenessClass": {
+      "GENUINELY_UNIQUE": 42,
+      "TEMPLATE_SIMILAR_ACCEPTABLE": 27
+    },
+    "needsDiff": 0,
+    "duplicative": 0
+  },
+  "heldThinSample": [
+    {
+      "slug": "samsung",
+      "products": 1
+    },
+    {
+      "slug": "amazfit",
+      "products": 2
+    },
+    {
+      "slug": "scosche",
+      "products": 2
+    },
+    {
+      "slug": "flipbelt",
+      "products": 1
+    },
+    {
+      "slug": "spibelt",
+      "products": 1
+    },
+    {
+      "slug": "uswe",
+      "products": 1
+    },
+    {
+      "slug": "compressport",
+      "products": 2
+    },
+    {
+      "slug": "nnormal",
+      "products": 1
+    },
+    {
+      "slug": "naked",
+      "products": 1
+    },
+    {
+      "slug": "decathlon",
+      "products": 1
+    },
+    {
+      "slug": "rabbit",
+      "products": 1
+    },
+    {
+      "slug": "odlo",
+      "products": 2
+    },
+    {
+      "slug": "ciele",
+      "products": 1
+    },
+    {
+      "slug": "smartwool",
+      "products": 2
+    },
+    {
+      "slug": "darn-tough",
+      "products": 1
+    },
+    {
+      "slug": "bose",
+      "products": 1
+    },
+    {
+      "slug": "goodr",
+      "products": 2
+    },
+    {
+      "slug": "silva",
+      "products": 1
+    },
+    {
+      "slug": "feetures",
+      "products": 1
+    },
+    {
+      "slug": "balega",
+      "products": 2
+    },
+    {
+      "slug": "injinji",
+      "products": 1
+    },
+    {
+      "slug": "swiftwick",
+      "products": 1
+    },
+    {
+      "slug": "drymax",
+      "products": 1
+    },
+    {
+      "slug": "wrightsock",
+      "products": 1
+    },
+    {
+      "slug": "fitletic",
+      "products": 1
+    }
+  ],
+  "worstPeers": [
+    {
+      "slug": "nox",
+      "peer": "adidas-padel",
+      "sim": 0.595,
+      "class": "TEMPLATE_SIMILAR_ACCEPTABLE"
+    },
+    {
+      "slug": "adidas-padel",
+      "peer": "nox",
+      "sim": 0.595,
+      "class": "TEMPLATE_SIMILAR_ACCEPTABLE"
+    },
+    {
+      "slug": "altra",
+      "peer": "topo-athletic",
+      "sim": 0.564,
+      "class": "TEMPLATE_SIMILAR_ACCEPTABLE"
+    },
+    {
+      "slug": "topo-athletic",
+      "peer": "altra",
+      "sim": 0.564,
+      "class": "TEMPLATE_SIMILAR_ACCEPTABLE"
+    },
+    {
+      "slug": "saucony",
+      "peer": "hoka",
+      "sim": 0.555,
+      "class": "TEMPLATE_SIMILAR_ACCEPTABLE"
+    },
+    {
+      "slug": "hoka",
+      "peer": "saucony",
+      "sim": 0.555,
+      "class": "TEMPLATE_SIMILAR_ACCEPTABLE"
+    },
+    {
+      "slug": "babolat",
+      "peer": "yonex",
+      "sim": 0.547,
+      "class": "TEMPLATE_SIMILAR_ACCEPTABLE"
+    },
+    {
+      "slug": "yonex",
+      "peer": "babolat",
+      "sim": 0.547,
+      "class": "TEMPLATE_SIMILAR_ACCEPTABLE"
+    },
+    {
+      "slug": "head",
+      "peer": "adidas-padel",
+      "sim": 0.542,
+      "class": "TEMPLATE_SIMILAR_ACCEPTABLE"
+    },
+    {
+      "slug": "cep",
+      "peer": "topo-athletic",
+      "sim": 0.541,
+      "class": "TEMPLATE_SIMILAR_ACCEPTABLE"
+    },
+    {
+      "slug": "new-balance",
+      "peer": "hoka",
+      "sim": 0.534,
+      "class": "TEMPLATE_SIMILAR_ACCEPTABLE"
+    },
+    {
+      "slug": "bullpadel",
+      "peer": "wilson",
+      "sim": 0.533,
+      "class": "TEMPLATE_SIMILAR_ACCEPTABLE"
+    },
+    {
+      "slug": "wilson",
+      "peer": "bullpadel",
+      "sim": 0.533,
+      "class": "TEMPLATE_SIMILAR_ACCEPTABLE"
+    },
+    {
+      "slug": "science-in-sport",
+      "peer": "gu-energy",
+      "sim": 0.524,
+      "class": "TEMPLATE_SIMILAR_ACCEPTABLE"
+    },
+    {
+      "slug": "gu-energy",
+      "peer": "science-in-sport",
+      "sim": 0.524,
+      "class": "TEMPLATE_SIMILAR_ACCEPTABLE"
+    }
+  ]
+}

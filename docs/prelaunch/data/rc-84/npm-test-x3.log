@@ -1,0 +1,15 @@
+=== RUN 1 START 08:09:00 ===
+=== RUN 1 EXIT:0 08:15:47 ===
+12: Test Files  61 passed (61)
+13:      Tests  625 passed (625)
+15:   Duration  404.47s (transform 129.61s, setup 59.80s, import 967.11s, tests 648.66s, environment 4ms)
+=== RUN 2 START 08:15:47 ===
+=== RUN 2 EXIT:0 08:21:22 ===
+12: Test Files  61 passed (61)
+13:      Tests  625 passed (625)
+15:   Duration  331.41s (transform 105.36s, setup 54.32s, import 737.46s, tests 478.85s, environment 5ms)
+=== RUN 3 START 08:21:22 ===
+=== RUN 3 EXIT:0 08:26:38 ===
+12: Test Files  61 passed (61)
+13:      Tests  625 passed (625)
+15:   Duration  314.31s (transform 88.76s, setup 53.31s, import 675.07s, tests 419.26s, environment 4ms)

@@ -1,0 +1,7696 @@
+{
+  "generatedAt": "2026-09-10T13:15:15.828Z",
+  "totals": {
+    "brands": 190,
+    "rawBrands": 190,
+    "ready": 70,
+    "insufficient": 90,
+    "noProducts": 30,
+    "otherHeld": 0
+  },
+  "readySlugs": [
+    "asics",
+    "nike",
+    "adidas",
+    "saucony",
+    "new-balance",
+    "hoka",
+    "brooks",
+    "garmin",
+    "coros",
+    "salomon",
+    "puma",
+    "on",
+    "mizuno",
+    "altra",
+    "topo-athletic",
+    "inov-8",
+    "polar",
+    "suunto",
+    "apple",
+    "wahoo",
+    "nathan",
+    "ultimate-direction",
+    "camelbak",
+    "osprey",
+    "hydrapak",
+    "patagonia",
+    "ultraspire",
+    "nnormal",
+    "tracksmith",
+    "janji",
+    "shokz",
+    "oakley",
+    "julbo",
+    "petzl",
+    "black-diamond",
+    "cep",
+    "buff",
+    "craft",
+    "therabody",
+    "hyperice",
+    "amphipod",
+    "maurten",
+    "science-in-sport",
+    "gu-energy",
+    "precision-fuel-hydration",
+    "nox",
+    "bullpadel",
+    "adidas-padel",
+    "head",
+    "wilson",
+    "babolat",
+    "joma",
+    "yonex",
+    "tecnifibre",
+    "asics-racket",
+    "rogue",
+    "rep-fitness",
+    "powerblock",
+    "concept2",
+    "assault-fitness",
+    "mirafit",
+    "eleiko",
+    "gornation",
+    "gravity-fitness",
+    "reebok",
+    "nobull",
+    "tyr",
+    "blackroll",
+    "pullup-and-dip",
+    "under-armour"
+  ],
+  "insufficient": [
+    {
+      "slug": "samsung",
+      "name": "Samsung",
+      "id": "brand-samsung",
+      "source": "running",
+      "holdClass": "HOLD_INSUFFICIENT_DEPTH",
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "liveProducts": 1,
+      "allVisibleDev": 1,
+      "rawCount": 1,
+      "draftOrGated": [],
+      "archived": [],
+      "current": 1,
+      "categories": [
+        "gps-watches"
+      ],
+      "sports": [
+        "sport-running",
+        "sport-cycling",
+        "sport-swimming",
+        "sport-training"
+      ],
+      "draftSports": [
+        "sport-running",
+        "sport-cycling",
+        "sport-swimming",
+        "sport-training"
+      ],
+      "families": [
+        "Galaxy Watch"
+      ],
+      "strengths": 1,
+      "reviews": 1,
+      "comparisons": 0,
+      "best": [],
+      "guides": 0,
+      "runningLive": 1,
+      "runningShoes": 0,
+      "gpsWatches": 1,
+      "products": [
+        {
+          "slug": "samsung-galaxy-watch-ultra",
+          "name": "Galaxy Watch Ultra",
+          "category": "gps-watches",
+          "sports": [
+            "sport-running",
+            "sport-cycling",
+            "sport-swimming",
+            "sport-training"
+          ],
+          "lifecycle": "current",
+          "strengths": 3,
+          "status": "published"
+        }
+      ],
+      "depthWouldPassIf3": true
+    },
+    {
+      "slug": "amazfit",
+      "name": "Amazfit",
+      "id": "brand-amazfit",
+      "source": "running",
+      "holdClass": "HOLD_INSUFFICIENT_DEPTH",
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "liveProducts": 2,
+      "allVisibleDev": 2,
+      "rawCount": 2,
+      "draftOrGated": [],
+      "archived": [],
+      "current": 2,
+      "categories": [
+        "gps-watches"
+      ],
+      "sports": [
+        "sport-running",
+        "sport-cycling",
+        "sport-training"
+      ],
+      "draftSports": [
+        "sport-running",
+        "sport-cycling",
+        "sport-training"
+      ],
+      "families": [
+        "T-Rex",
+        "Active"
+      ],
+      "strengths": 2,
+      "reviews": 2,
+      "comparisons": 0,
+      "best": [
+        "running-watches-beginners",
+        "running-watches-budget"
+      ],
+      "guides": 0,
+      "runningLive": 2,
+      "runningShoes": 0,
+      "gpsWatches": 2,
+      "products": [
+        {
+          "slug": "amazfit-t-rex-3-pro",
+          "name": "T-Rex 3 Pro",
+          "category": "gps-watches",
+          "sports": [
+            "sport-running",
+            "sport-cycling"
+          ],
+          "lifecycle": "current",
+          "strengths": 3,
+          "status": "published"
+        },
+        {
+          "slug": "amazfit-active-2",
+          "name": "Active 2",
+          "category": "gps-watches",
+          "sports": [
+            "sport-running",
+            "sport-training"
+          ],
+          "lifecycle": "current",
+          "strengths": 3,
+          "status": "published"
+        }
+      ],
+      "depthWouldPassIf3": true
+    },
+    {
+      "slug": "scosche",
+      "name": "Scosche",
+      "id": "brand-scosche",
+      "source": "running",
+      "holdClass": "HOLD_INSUFFICIENT_DEPTH",
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "liveProducts": 2,
+      "allVisibleDev": 2,
+      "rawCount": 2,
+      "draftOrGated": [],
+      "archived": [],
+      "current": 2,
+      "categories": [
+        "heart-rate-monitors"
+      ],
+      "sports": [
+        "sport-running",
+        "sport-training",
+        "sport-hyrox"
+      ],
+      "draftSports": [
+        "sport-running",
+        "sport-training",
+        "sport-hyrox"
+      ],
+      "families": [
+        "Rhythm"
+      ],
+      "strengths": 2,
+      "reviews": 2,
+      "comparisons": 0,
+      "best": [],
+      "guides": 0,
+      "runningLive": 2,
+      "runningShoes": 0,
+      "gpsWatches": 0,
+      "products": [
+        {
+          "slug": "scosche-rhythm-plus-2",
+          "name": "Rhythm+ 2.0",
+          "category": "heart-rate-monitors",
+          "sports": [
+            "sport-running",
+            "sport-training",
+            "sport-hyrox"
+          ],
+          "lifecycle": "current",
+          "strengths": 4,
+          "status": "published"
+        },
+        {
+          "slug": "scosche-rhythm24",
+          "name": "Rhythm24",
+          "category": "heart-rate-monitors",
+          "sports": [
+            "sport-running",
+            "sport-training"
+          ],
+          "lifecycle": "current",
+          "strengths": 2,
+          "status": "published"
+        }
+      ],
+      "depthWouldPassIf3": true
+    },
+    {
+      "slug": "flipbelt",
+      "name": "FlipBelt",
+      "id": "brand-flipbelt",
+      "source": "running",
+      "holdClass": "HOLD_INSUFFICIENT_DEPTH",
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "liveProducts": 1,
+      "allVisibleDev": 2,
+      "rawCount": 2,
+      "draftOrGated": [
+        {
+          "slug": "flipbelt-zipper-reflective",
+          "name": "Zipper Reflective",
+          "status": "draft",
+          "categoryId": "cat-safety",
+          "sports": [
+            "sport-running"
+          ],
+          "lifecycle": "current"
+        }
+      ],
+      "archived": [],
+      "current": 1,
+      "categories": [
+        "running-belts"
+      ],
+      "sports": [
+        "sport-running"
+      ],
+      "draftSports": [
+        "sport-running"
+      ],
+      "families": [
+        "FlipBelt Reflective"
+      ],
+      "strengths": 1,
+      "reviews": 1,
+      "comparisons": 1,
+      "best": [
+        "running-belts",
+        "hydration-marathon-training"
+      ],
+      "guides": 6,
+      "runningLive": 1,
+      "runningShoes": 0,
+      "gpsWatches": 0,
+      "products": [
+        {
+          "slug": "flipbelt-classic",
+          "name": "Classic",
+          "category": "running-belts",
+          "sports": [
+            "sport-running"
+          ],
+          "lifecycle": "current",
+          "strengths": 2,
+          "status": "published"
+        }
+      ],
+      "depthWouldPassIf3": true
+    },
+    {
+      "slug": "spibelt",
+      "name": "SPIbelt",
+      "id": "brand-spibelt",
+      "source": "running",
+      "holdClass": "HOLD_INSUFFICIENT_DEPTH",
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "liveProducts": 1,
+      "allVisibleDev": 1,
+      "rawCount": 1,
+      "draftOrGated": [],
+      "archived": [],
+      "current": 1,
+      "categories": [
+        "running-belts"
+      ],
+      "sports": [
+        "sport-running"
+      ],
+      "draftSports": [
+        "sport-running"
+      ],
+      "families": [],
+      "strengths": 1,
+      "reviews": 1,
+      "comparisons": 0,
+      "best": [
+        "running-belts"
+      ],
+      "guides": 4,
+      "runningLive": 1,
+      "runningShoes": 0,
+      "gpsWatches": 0,
+      "products": [
+        {
+          "slug": "spibelt-original",
+          "name": "Original",
+          "category": "running-belts",
+          "sports": [
+            "sport-running"
+          ],
+          "lifecycle": "current",
+          "strengths": 2,
+          "status": "published"
+        }
+      ],
+      "depthWouldPassIf3": true
+    },
+    {
+      "slug": "uswe",
+      "name": "USWE",
+      "id": "brand-uswe",
+      "source": "running",
+      "holdClass": "HOLD_INSUFFICIENT_DEPTH",
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "liveProducts": 1,
+      "allVisibleDev": 1,
+      "rawCount": 1,
+      "draftOrGated": [],
+      "archived": [],
+      "current": 1,
+      "categories": [
+        "running-packs-vests"
+      ],
+      "sports": [
+        "sport-running"
+      ],
+      "draftSports": [
+        "sport-running"
+      ],
+      "families": [
+        "Pace"
+      ],
+      "strengths": 1,
+      "reviews": 1,
+      "comparisons": 0,
+      "best": [],
+      "guides": 0,
+      "runningLive": 1,
+      "runningShoes": 0,
+      "gpsWatches": 0,
+      "products": [
+        {
+          "slug": "uswe-pace-8",
+          "name": "Pace 8",
+          "category": "running-packs-vests",
+          "sports": [
+            "sport-running"
+          ],
+          "lifecycle": "current",
+          "strengths": 3,
+          "status": "published"
+        }
+      ],
+      "depthWouldPassIf3": true
+    },
+    {
+      "slug": "compressport",
+      "name": "Compressport",
+      "id": "brand-compressport",
+      "source": "running",
+      "holdClass": "HOLD_INSUFFICIENT_DEPTH",
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "liveProducts": 2,
+      "allVisibleDev": 4,
+      "rawCount": 4,
+      "draftOrGated": [
+        {
+          "slug": "compressport-r2",
+          "name": "R2",
+          "status": "draft",
+          "categoryId": "cat-recovery-gear",
+          "sports": [
+            "sport-running",
+            "sport-recovery"
+          ],
+          "lifecycle": "current"
+        },
+        {
+          "slug": "compressport-armforce",
+          "name": "ArmForce Ultralight",
+          "status": "draft",
+          "categoryId": "cat-accessories",
+          "sports": [
+            "sport-running"
+          ],
+          "lifecycle": "current"
+        }
+      ],
+      "archived": [],
+      "current": 2,
+      "categories": [
+        "running-packs-vests",
+        "running-belts"
+      ],
+      "sports": [
+        "sport-running"
+      ],
+      "draftSports": [
+        "sport-running",
+        "sport-recovery"
+      ],
+      "families": [
+        "Free Belt",
+        "Ultrun",
+        "R2"
+      ],
+      "strengths": 2,
+      "reviews": 2,
+      "comparisons": 0,
+      "best": [],
+      "guides": 0,
+      "runningLive": 2,
+      "runningShoes": 0,
+      "gpsWatches": 0,
+      "products": [
+        {
+          "slug": "compressport-ultrun-s-pack",
+          "name": "Ultrun S Pack",
+          "category": "running-packs-vests",
+          "sports": [
+            "sport-running"
+          ],
+          "lifecycle": "current",
+          "strengths": 3,
+          "status": "published"
+        },
+        {
+          "slug": "compressport-free-belt-pro",
+          "name": "Free Belt Pro",
+          "category": "running-belts",
+          "sports": [
+            "sport-running"
+          ],
+          "lifecycle": "current",
+          "strengths": 3,
+          "status": "published"
+        }
+      ],
+      "depthWouldPassIf3": true
+    },
+    {
+      "slug": "naked",
+      "name": "Naked",
+      "id": "brand-naked",
+      "source": "running",
+      "holdClass": "HOLD_INSUFFICIENT_DEPTH",
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "liveProducts": 1,
+      "allVisibleDev": 1,
+      "rawCount": 1,
+      "draftOrGated": [],
+      "archived": [],
+      "current": 1,
+      "categories": [
+        "running-belts"
+      ],
+      "sports": [
+        "sport-running"
+      ],
+      "draftSports": [
+        "sport-running"
+      ],
+      "families": [
+        "Running Band"
+      ],
+      "strengths": 1,
+      "reviews": 1,
+      "comparisons": 1,
+      "best": [
+        "running-belts"
+      ],
+      "guides": 0,
+      "runningLive": 1,
+      "runningShoes": 0,
+      "gpsWatches": 0,
+      "products": [
+        {
+          "slug": "naked-running-band",
+          "name": "Running Band",
+          "category": "running-belts",
+          "sports": [
+            "sport-running"
+          ],
+          "lifecycle": "current",
+          "strengths": 3,
+          "status": "published"
+        }
+      ],
+      "depthWouldPassIf3": true
+    },
+    {
+      "slug": "decathlon",
+      "name": "Decathlon",
+      "id": "brand-decathlon",
+      "source": "running",
+      "holdClass": "HOLD_INSUFFICIENT_DEPTH",
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "liveProducts": 1,
+      "allVisibleDev": 2,
+      "rawCount": 2,
+      "draftOrGated": [
+        {
+          "slug": "kiprun-trail-10",
+          "name": "Trail 10",
+          "status": "draft",
+          "categoryId": "cat-packs-vests",
+          "sports": [
+            "sport-running"
+          ],
+          "lifecycle": "current"
+        }
+      ],
+      "archived": [],
+      "current": 1,
+      "categories": [
+        "running-belts"
+      ],
+      "sports": [
+        "sport-running"
+      ],
+      "draftSports": [
+        "sport-running"
+      ],
+      "families": [
+        "Kiprun Trail",
+        "Running Belt"
+      ],
+      "strengths": 1,
+      "reviews": 1,
+      "comparisons": 0,
+      "best": [],
+      "guides": 0,
+      "runningLive": 1,
+      "runningShoes": 0,
+      "gpsWatches": 0,
+      "products": [
+        {
+          "slug": "kiprun-running-belt",
+          "name": "Running Belt",
+          "category": "running-belts",
+          "sports": [
+            "sport-running"
+          ],
+          "lifecycle": "current",
+          "strengths": 3,
+          "status": "published"
+        }
+      ],
+      "depthWouldPassIf3": true
+    },
+    {
+      "slug": "rabbit",
+      "name": "Rabbit",
+      "id": "brand-rabbit",
+      "source": "running",
+      "holdClass": "HOLD_INSUFFICIENT_DEPTH",
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "liveProducts": 1,
+      "allVisibleDev": 1,
+      "rawCount": 1,
+      "draftOrGated": [],
+      "archived": [],
+      "current": 1,
+      "categories": [
+        "running-clothing"
+      ],
+      "sports": [
+        "sport-running"
+      ],
+      "draftSports": [
+        "sport-running"
+      ],
+      "families": [
+        "Fuel n' Fly"
+      ],
+      "strengths": 1,
+      "reviews": 1,
+      "comparisons": 1,
+      "best": [
+        "running-shorts"
+      ],
+      "guides": 0,
+      "runningLive": 1,
+      "runningShoes": 0,
+      "gpsWatches": 0,
+      "products": [
+        {
+          "slug": "rabbit-fuel-n-fly-men",
+          "name": "Fuel n' Fly 5\"",
+          "category": "running-clothing",
+          "sports": [
+            "sport-running"
+          ],
+          "lifecycle": "current",
+          "strengths": 2,
+          "status": "published"
+        }
+      ],
+      "depthWouldPassIf3": true
+    },
+    {
+      "slug": "odlo",
+      "name": "Odlo",
+      "id": "brand-odlo",
+      "source": "running",
+      "holdClass": "HOLD_INSUFFICIENT_DEPTH",
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "liveProducts": 2,
+      "allVisibleDev": 2,
+      "rawCount": 2,
+      "draftOrGated": [],
+      "archived": [],
+      "current": 2,
+      "categories": [
+        "running-clothing"
+      ],
+      "sports": [
+        "sport-running"
+      ],
+      "draftSports": [
+        "sport-running"
+      ],
+      "families": [
+        "Active Warm Eco"
+      ],
+      "strengths": 2,
+      "reviews": 2,
+      "comparisons": 0,
+      "best": [
+        "running-gear-winter"
+      ],
+      "guides": 0,
+      "runningLive": 2,
+      "runningShoes": 0,
+      "gpsWatches": 0,
+      "products": [
+        {
+          "slug": "odlo-active-warm-eco-men",
+          "name": "Active Warm Eco LS",
+          "category": "running-clothing",
+          "sports": [
+            "sport-running"
+          ],
+          "lifecycle": "current",
+          "strengths": 2,
+          "status": "published"
+        },
+        {
+          "slug": "odlo-active-warm-eco-bottom-men",
+          "name": "Active Warm Eco Bottom",
+          "category": "running-clothing",
+          "sports": [
+            "sport-running"
+          ],
+          "lifecycle": "current",
+          "strengths": 2,
+          "status": "published"
+        }
+      ],
+      "depthWouldPassIf3": true
+    },
+    {
+      "slug": "ciele",
+      "name": "Ciele",
+      "id": "brand-ciele",
+      "source": "running",
+      "holdClass": "HOLD_INSUFFICIENT_DEPTH",
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "liveProducts": 1,
+      "allVisibleDev": 1,
+      "rawCount": 1,
+      "draftOrGated": [],
+      "archived": [],
+      "current": 1,
+      "categories": [
+        "running-clothing"
+      ],
+      "sports": [
+        "sport-running"
+      ],
+      "draftSports": [
+        "sport-running"
+      ],
+      "families": [
+        "GOCap"
+      ],
+      "strengths": 1,
+      "reviews": 1,
+      "comparisons": 0,
+      "best": [
+        "running-clothing-hot-weather"
+      ],
+      "guides": 0,
+      "runningLive": 1,
+      "runningShoes": 0,
+      "gpsWatches": 0,
+      "products": [
+        {
+          "slug": "ciele-gocap-athletics",
+          "name": "GOCap Athletics",
+          "category": "running-clothing",
+          "sports": [
+            "sport-running"
+          ],
+          "lifecycle": "current",
+          "strengths": 2,
+          "status": "published"
+        }
+      ],
+      "depthWouldPassIf3": true
+    },
+    {
+      "slug": "smartwool",
+      "name": "Smartwool",
+      "id": "brand-smartwool",
+      "source": "running",
+      "holdClass": "HOLD_INSUFFICIENT_DEPTH",
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "liveProducts": 2,
+      "allVisibleDev": 2,
+      "rawCount": 2,
+      "draftOrGated": [],
+      "archived": [],
+      "current": 2,
+      "categories": [
+        "running-clothing",
+        "running-socks"
+      ],
+      "sports": [
+        "sport-running"
+      ],
+      "draftSports": [
+        "sport-running"
+      ],
+      "families": [
+        "Run Targeted Cushion",
+        "Thermal Merino"
+      ],
+      "strengths": 2,
+      "reviews": 2,
+      "comparisons": 0,
+      "best": [
+        "running-socks"
+      ],
+      "guides": 0,
+      "runningLive": 2,
+      "runningShoes": 0,
+      "gpsWatches": 0,
+      "products": [
+        {
+          "slug": "smartwool-thermal-merino-glove",
+          "name": "Thermal Merino Glove",
+          "category": "running-clothing",
+          "sports": [
+            "sport-running"
+          ],
+          "lifecycle": "current",
+          "strengths": 2,
+          "status": "published"
+        },
+        {
+          "slug": "smartwool-run-targeted-cushion",
+          "name": "Run Targeted Cushion Crew",
+          "category": "running-socks",
+          "sports": [
+            "sport-running"
+          ],
+          "lifecycle": "current",
+          "strengths": 2,
+          "status": "published"
+        }
+      ],
+      "depthWouldPassIf3": true
+    },
+    {
+      "slug": "darn-tough",
+      "name": "Darn Tough",
+      "id": "brand-darn-tough",
+      "source": "running",
+      "holdClass": "HOLD_INSUFFICIENT_DEPTH",
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "liveProducts": 1,
+      "allVisibleDev": 1,
+      "rawCount": 1,
+      "draftOrGated": [],
+      "archived": [],
+      "current": 1,
+      "categories": [
+        "running-socks"
+      ],
+      "sports": [
+        "sport-running"
+      ],
+      "draftSports": [
+        "sport-running"
+      ],
+      "families": [
+        "Run"
+      ],
+      "strengths": 1,
+      "reviews": 1,
+      "comparisons": 1,
+      "best": [
+        "running-socks"
+      ],
+      "guides": 0,
+      "runningLive": 1,
+      "runningShoes": 0,
+      "gpsWatches": 0,
+      "products": [
+        {
+          "slug": "darn-tough-run-1-4",
+          "name": "Run 1/4 Ultra-Lightweight",
+          "category": "running-socks",
+          "sports": [
+            "sport-running"
+          ],
+          "lifecycle": "current",
+          "strengths": 2,
+          "status": "published"
+        }
+      ],
+      "depthWouldPassIf3": true
+    },
+    {
+      "slug": "bose",
+      "name": "Bose",
+      "id": "brand-bose",
+      "source": "running",
+      "holdClass": "HOLD_INSUFFICIENT_DEPTH",
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "liveProducts": 1,
+      "allVisibleDev": 1,
+      "rawCount": 1,
+      "draftOrGated": [],
+      "archived": [],
+      "current": 1,
+      "categories": [
+        "headphones"
+      ],
+      "sports": [
+        "sport-running",
+        "sport-training"
+      ],
+      "draftSports": [
+        "sport-running",
+        "sport-training"
+      ],
+      "families": [
+        "Ultra Open"
+      ],
+      "strengths": 1,
+      "reviews": 1,
+      "comparisons": 1,
+      "best": [
+        "running-headphones"
+      ],
+      "guides": 1,
+      "runningLive": 1,
+      "runningShoes": 0,
+      "gpsWatches": 0,
+      "products": [
+        {
+          "slug": "bose-ultra-open-earbuds",
+          "name": "Ultra Open Earbuds",
+          "category": "headphones",
+          "sports": [
+            "sport-running",
+            "sport-training"
+          ],
+          "lifecycle": "current",
+          "strengths": 3,
+          "status": "published"
+        }
+      ],
+      "depthWouldPassIf3": true
+    },
+    {
+      "slug": "goodr",
+      "name": "goodr",
+      "id": "brand-goodr",
+      "source": "running",
+      "holdClass": "HOLD_INSUFFICIENT_DEPTH",
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "liveProducts": 2,
+      "allVisibleDev": 2,
+      "rawCount": 2,
+      "draftOrGated": [],
+      "archived": [],
+      "current": 2,
+      "categories": [
+        "sunglasses"
+      ],
+      "sports": [
+        "sport-running"
+      ],
+      "draftSports": [
+        "sport-running"
+      ],
+      "families": [
+        "Circle Gs"
+      ],
+      "strengths": 2,
+      "reviews": 2,
+      "comparisons": 0,
+      "best": [
+        "running-sunglasses"
+      ],
+      "guides": 0,
+      "runningLive": 2,
+      "runningShoes": 0,
+      "gpsWatches": 0,
+      "products": [
+        {
+          "slug": "goodr-circle-gs",
+          "name": "Circle Gs",
+          "category": "sunglasses",
+          "sports": [
+            "sport-running"
+          ],
+          "lifecycle": "current",
+          "strengths": 3,
+          "status": "published"
+        },
+        {
+          "slug": "goodr-ogs",
+          "name": "OGs",
+          "category": "sunglasses",
+          "sports": [
+            "sport-running"
+          ],
+          "lifecycle": "current",
+          "strengths": 2,
+          "status": "published"
+        }
+      ],
+      "depthWouldPassIf3": true
+    },
+    {
+      "slug": "silva",
+      "name": "Silva",
+      "id": "brand-silva",
+      "source": "running",
+      "holdClass": "HOLD_INSUFFICIENT_DEPTH",
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "liveProducts": 1,
+      "allVisibleDev": 2,
+      "rawCount": 2,
+      "draftOrGated": [
+        {
+          "slug": "silva-smini",
+          "name": "Smini",
+          "status": "draft",
+          "categoryId": "cat-running-lights",
+          "sports": [
+            "sport-running"
+          ],
+          "lifecycle": "current"
+        }
+      ],
+      "archived": [],
+      "current": 1,
+      "categories": [
+        "running-lights"
+      ],
+      "sports": [
+        "sport-running"
+      ],
+      "draftSports": [
+        "sport-running"
+      ],
+      "families": [
+        "Trail Runner Free",
+        "Smini"
+      ],
+      "strengths": 1,
+      "reviews": 1,
+      "comparisons": 0,
+      "best": [
+        "running-headlamps"
+      ],
+      "guides": 1,
+      "runningLive": 1,
+      "runningShoes": 0,
+      "gpsWatches": 0,
+      "products": [
+        {
+          "slug": "silva-trail-runner-free-2",
+          "name": "Trail Runner Free 2",
+          "category": "running-lights",
+          "sports": [
+            "sport-running"
+          ],
+          "lifecycle": "current",
+          "strengths": 2,
+          "status": "published"
+        }
+      ],
+      "depthWouldPassIf3": true
+    },
+    {
+      "slug": "feetures",
+      "name": "Feetures",
+      "id": "brand-feetures",
+      "source": "running",
+      "holdClass": "HOLD_INSUFFICIENT_DEPTH",
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "liveProducts": 1,
+      "allVisibleDev": 1,
+      "rawCount": 1,
+      "draftOrGated": [],
+      "archived": [],
+      "current": 1,
+      "categories": [
+        "running-socks"
+      ],
+      "sports": [
+        "sport-running"
+      ],
+      "draftSports": [
+        "sport-running"
+      ],
+      "families": [],
+      "strengths": 1,
+      "reviews": 1,
+      "comparisons": 1,
+      "best": [
+        "running-socks"
+      ],
+      "guides": 2,
+      "runningLive": 1,
+      "runningShoes": 0,
+      "gpsWatches": 0,
+      "products": [
+        {
+          "slug": "feetures-elite-light-cushion",
+          "name": "Elite Light Cushion",
+          "category": "running-socks",
+          "sports": [
+            "sport-running"
+          ],
+          "lifecycle": "current",
+          "strengths": 2,
+          "status": "published"
+        }
+      ],
+      "depthWouldPassIf3": true
+    },
+    {
+      "slug": "balega",
+      "name": "Balega",
+      "id": "brand-balega",
+      "source": "running",
+      "holdClass": "HOLD_INSUFFICIENT_DEPTH",
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "liveProducts": 2,
+      "allVisibleDev": 2,
+      "rawCount": 2,
+      "draftOrGated": [],
+      "archived": [],
+      "current": 2,
+      "categories": [
+        "running-socks"
+      ],
+      "sports": [
+        "sport-running"
+      ],
+      "draftSports": [
+        "sport-running"
+      ],
+      "families": [
+        "Blister Resist",
+        "Hidden Comfort"
+      ],
+      "strengths": 2,
+      "reviews": 2,
+      "comparisons": 0,
+      "best": [
+        "running-socks"
+      ],
+      "guides": 1,
+      "runningLive": 2,
+      "runningShoes": 0,
+      "gpsWatches": 0,
+      "products": [
+        {
+          "slug": "balega-blister-resist",
+          "name": "Blister Resist Quarter",
+          "category": "running-socks",
+          "sports": [
+            "sport-running"
+          ],
+          "lifecycle": "current",
+          "strengths": 2,
+          "status": "published"
+        },
+        {
+          "slug": "balega-hidden-comfort",
+          "name": "Hidden Comfort",
+          "category": "running-socks",
+          "sports": [
+            "sport-running"
+          ],
+          "lifecycle": "current",
+          "strengths": 3,
+          "status": "published"
+        }
+      ],
+      "depthWouldPassIf3": true
+    },
+    {
+      "slug": "injinji",
+      "name": "Injinji",
+      "id": "brand-injinji",
+      "source": "running",
+      "holdClass": "HOLD_INSUFFICIENT_DEPTH",
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "liveProducts": 1,
+      "allVisibleDev": 1,
+      "rawCount": 1,
+      "draftOrGated": [],
+      "archived": [],
+      "current": 1,
+      "categories": [
+        "running-socks"
+      ],
+      "sports": [
+        "sport-running"
+      ],
+      "draftSports": [
+        "sport-running"
+      ],
+      "families": [],
+      "strengths": 1,
+      "reviews": 1,
+      "comparisons": 0,
+      "best": [
+        "running-socks"
+      ],
+      "guides": 1,
+      "runningLive": 1,
+      "runningShoes": 0,
+      "gpsWatches": 0,
+      "products": [
+        {
+          "slug": "injinji-run-midweight",
+          "name": "Run Midweight",
+          "category": "running-socks",
+          "sports": [
+            "sport-running"
+          ],
+          "lifecycle": "current",
+          "strengths": 2,
+          "status": "published"
+        }
+      ],
+      "depthWouldPassIf3": true
+    },
+    {
+      "slug": "swiftwick",
+      "name": "Swiftwick",
+      "id": "brand-swiftwick",
+      "source": "running",
+      "holdClass": "HOLD_INSUFFICIENT_DEPTH",
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "liveProducts": 1,
+      "allVisibleDev": 1,
+      "rawCount": 1,
+      "draftOrGated": [],
+      "archived": [],
+      "current": 1,
+      "categories": [
+        "running-socks"
+      ],
+      "sports": [
+        "sport-running"
+      ],
+      "draftSports": [
+        "sport-running"
+      ],
+      "families": [
+        "Aspire"
+      ],
+      "strengths": 1,
+      "reviews": 1,
+      "comparisons": 0,
+      "best": [
+        "running-socks"
+      ],
+      "guides": 0,
+      "runningLive": 1,
+      "runningShoes": 0,
+      "gpsWatches": 0,
+      "products": [
+        {
+          "slug": "swiftwick-aspire-four",
+          "name": "Aspire Four",
+          "category": "running-socks",
+          "sports": [
+            "sport-running"
+          ],
+          "lifecycle": "current",
+          "strengths": 3,
+          "status": "published"
+        }
+      ],
+      "depthWouldPassIf3": true
+    },
+    {
+      "slug": "drymax",
+      "name": "Drymax",
+      "id": "brand-drymax",
+      "source": "running",
+      "holdClass": "HOLD_INSUFFICIENT_DEPTH",
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "liveProducts": 1,
+      "allVisibleDev": 1,
+      "rawCount": 1,
+      "draftOrGated": [],
+      "archived": [],
+      "current": 1,
+      "categories": [
+        "running-socks"
+      ],
+      "sports": [
+        "sport-running"
+      ],
+      "draftSports": [
+        "sport-running"
+      ],
+      "families": [
+        "Run"
+      ],
+      "strengths": 1,
+      "reviews": 1,
+      "comparisons": 0,
+      "best": [],
+      "guides": 0,
+      "runningLive": 1,
+      "runningShoes": 0,
+      "gpsWatches": 0,
+      "products": [
+        {
+          "slug": "drymax-run-lite-mesh",
+          "name": "Run Lite-Mesh",
+          "category": "running-socks",
+          "sports": [
+            "sport-running"
+          ],
+          "lifecycle": "current",
+          "strengths": 3,
+          "status": "published"
+        }
+      ],
+      "depthWouldPassIf3": true
+    },
+    {
+      "slug": "wrightsock",
+      "name": "Wrightsock",
+      "id": "brand-wrightsock",
+      "source": "running",
+      "holdClass": "HOLD_INSUFFICIENT_DEPTH",
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "liveProducts": 1,
+      "allVisibleDev": 1,
+      "rawCount": 1,
+      "draftOrGated": [],
+      "archived": [],
+      "current": 1,
+      "categories": [
+        "running-socks"
+      ],
+      "sports": [
+        "sport-running"
+      ],
+      "draftSports": [
+        "sport-running"
+      ],
+      "families": [
+        "Coolmesh"
+      ],
+      "strengths": 1,
+      "reviews": 1,
+      "comparisons": 0,
+      "best": [],
+      "guides": 0,
+      "runningLive": 1,
+      "runningShoes": 0,
+      "gpsWatches": 0,
+      "products": [
+        {
+          "slug": "wrightsock-coolmesh-ii",
+          "name": "Coolmesh II",
+          "category": "running-socks",
+          "sports": [
+            "sport-running"
+          ],
+          "lifecycle": "current",
+          "strengths": 3,
+          "status": "published"
+        }
+      ],
+      "depthWouldPassIf3": true
+    },
+    {
+      "slug": "fitletic",
+      "name": "Fitletic",
+      "id": "brand-fitletic",
+      "source": "running",
+      "holdClass": "HOLD_INSUFFICIENT_DEPTH",
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "liveProducts": 1,
+      "allVisibleDev": 1,
+      "rawCount": 1,
+      "draftOrGated": [],
+      "archived": [],
+      "current": 1,
+      "categories": [
+        "running-belts"
+      ],
+      "sports": [
+        "sport-running"
+      ],
+      "draftSports": [
+        "sport-running"
+      ],
+      "families": [
+        "Fully Loaded"
+      ],
+      "strengths": 1,
+      "reviews": 1,
+      "comparisons": 0,
+      "best": [],
+      "guides": 0,
+      "runningLive": 1,
+      "runningShoes": 0,
+      "gpsWatches": 0,
+      "products": [
+        {
+          "slug": "fitletic-fully-loaded",
+          "name": "Fully Loaded",
+          "category": "running-belts",
+          "sports": [
+            "sport-running"
+          ],
+          "lifecycle": "current",
+          "strengths": 3,
+          "status": "published"
+        }
+      ],
+      "depthWouldPassIf3": true
+    },
+    {
+      "slug": "triggerpoint",
+      "name": "TriggerPoint",
+      "id": "brand-triggerpoint",
+      "source": "running",
+      "holdClass": "HOLD_INSUFFICIENT_DEPTH",
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "liveProducts": 2,
+      "allVisibleDev": 6,
+      "rawCount": 6,
+      "draftOrGated": [
+        {
+          "slug": "triggerpoint-mb1",
+          "name": "MB1",
+          "status": "draft",
+          "categoryId": "cat-recovery-gear",
+          "sports": [
+            "sport-running",
+            "sport-recovery",
+            "sport-training"
+          ],
+          "lifecycle": "current"
+        },
+        {
+          "slug": "triggerpoint-mbx",
+          "name": "MBX",
+          "status": "draft",
+          "categoryId": "cat-recovery-gear",
+          "sports": [
+            "sport-running",
+            "sport-recovery",
+            "sport-training"
+          ],
+          "lifecycle": "current"
+        },
+        {
+          "slug": "triggerpoint-stp",
+          "name": "STP",
+          "status": "draft",
+          "categoryId": "cat-recovery-gear",
+          "sports": [
+            "sport-running",
+            "sport-recovery",
+            "sport-training"
+          ],
+          "lifecycle": "current"
+        },
+        {
+          "slug": "triggerpoint-grid-foam-roller",
+          "name": "GRID Foam Roller",
+          "status": "draft",
+          "categoryId": "cat-recovery-gear",
+          "sports": [
+            "sport-running",
+            "sport-recovery",
+            "sport-training"
+          ],
+          "lifecycle": "current"
+        }
+      ],
+      "archived": [],
+      "current": 2,
+      "categories": [
+        "recovery"
+      ],
+      "sports": [
+        "sport-running",
+        "sport-recovery",
+        "sport-training"
+      ],
+      "draftSports": [
+        "sport-running",
+        "sport-recovery",
+        "sport-training"
+      ],
+      "families": [
+        "GRID",
+        "MB",
+        "STP"
+      ],
+      "strengths": 2,
+      "reviews": 2,
+      "comparisons": 0,
+      "best": [
+        "running-recovery-gear"
+      ],
+      "guides": 2,
+      "runningLive": 2,
+      "runningShoes": 0,
+      "gpsWatches": 0,
+      "products": [
+        {
+          "slug": "triggerpoint-grid-x",
+          "name": "GRID X",
+          "category": "recovery",
+          "sports": [
+            "sport-running",
+            "sport-recovery",
+            "sport-training"
+          ],
+          "lifecycle": "current",
+          "strengths": 3,
+          "status": "published"
+        },
+        {
+          "slug": "triggerpoint-grid-travel",
+          "name": "GRID Travel",
+          "category": "recovery",
+          "sports": [
+            "sport-running",
+            "sport-recovery",
+            "sport-training"
+          ],
+          "lifecycle": "current",
+          "strengths": 3,
+          "status": "published"
+        }
+      ],
+      "depthWouldPassIf3": true
+    },
+    {
+      "slug": "oofos",
+      "name": "OOFOS",
+      "id": "brand-oofos",
+      "source": "running",
+      "holdClass": "HOLD_INSUFFICIENT_DEPTH",
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "liveProducts": 2,
+      "allVisibleDev": 3,
+      "rawCount": 3,
+      "draftOrGated": [
+        {
+          "slug": "oofos-oocandoo",
+          "name": "OOcandoo",
+          "status": "draft",
+          "categoryId": "cat-recovery-gear",
+          "sports": [
+            "sport-running",
+            "sport-recovery"
+          ],
+          "lifecycle": "current"
+        }
+      ],
+      "archived": [],
+      "current": 2,
+      "categories": [
+        "recovery"
+      ],
+      "sports": [
+        "sport-running",
+        "sport-recovery"
+      ],
+      "draftSports": [
+        "sport-running",
+        "sport-recovery"
+      ],
+      "families": [
+        "OOFOS"
+      ],
+      "strengths": 2,
+      "reviews": 2,
+      "comparisons": 0,
+      "best": [
+        "running-recovery-gear"
+      ],
+      "guides": 3,
+      "runningLive": 2,
+      "runningShoes": 0,
+      "gpsWatches": 0,
+      "products": [
+        {
+          "slug": "oofos-oolala",
+          "name": "OOlala",
+          "category": "recovery",
+          "sports": [
+            "sport-running",
+            "sport-recovery"
+          ],
+          "lifecycle": "current",
+          "strengths": 3,
+          "status": "published"
+        },
+        {
+          "slug": "oofos-ooriginal",
+          "name": "OOriginal",
+          "category": "recovery",
+          "sports": [
+            "sport-running",
+            "sport-recovery"
+          ],
+          "lifecycle": "current",
+          "strengths": 2,
+          "status": "published"
+        }
+      ],
+      "depthWouldPassIf3": true
+    },
+    {
+      "slug": "body-glide",
+      "name": "Body Glide",
+      "id": "brand-body-glide",
+      "source": "running",
+      "holdClass": "HOLD_INSUFFICIENT_DEPTH",
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "liveProducts": 1,
+      "allVisibleDev": 1,
+      "rawCount": 1,
+      "draftOrGated": [],
+      "archived": [],
+      "current": 1,
+      "categories": [
+        "accessories"
+      ],
+      "sports": [
+        "sport-running",
+        "sport-training"
+      ],
+      "draftSports": [
+        "sport-running",
+        "sport-training"
+      ],
+      "families": [],
+      "strengths": 1,
+      "reviews": 1,
+      "comparisons": 0,
+      "best": [
+        "running-anti-chafe"
+      ],
+      "guides": 1,
+      "runningLive": 1,
+      "runningShoes": 0,
+      "gpsWatches": 0,
+      "products": [
+        {
+          "slug": "body-glide-original",
+          "name": "Original Anti-Chafe Balm",
+          "category": "accessories",
+          "sports": [
+            "sport-running",
+            "sport-training"
+          ],
+          "lifecycle": "current",
+          "strengths": 2,
+          "status": "published"
+        }
+      ],
+      "depthWouldPassIf3": true
+    },
+    {
+      "slug": "beats",
+      "name": "Beats",
+      "id": "brand-beats",
+      "source": "running",
+      "holdClass": "HOLD_INSUFFICIENT_DEPTH",
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "liveProducts": 1,
+      "allVisibleDev": 2,
+      "rawCount": 2,
+      "draftOrGated": [
+        {
+          "slug": "beats-powerbeats-pro-2",
+          "name": "Powerbeats Pro 2",
+          "status": "draft",
+          "categoryId": "cat-headphones",
+          "sports": [
+            "sport-running",
+            "sport-training"
+          ],
+          "lifecycle": "current"
+        }
+      ],
+      "archived": [],
+      "current": 1,
+      "categories": [
+        "headphones"
+      ],
+      "sports": [
+        "sport-running",
+        "sport-training"
+      ],
+      "draftSports": [
+        "sport-running",
+        "sport-training"
+      ],
+      "families": [
+        "Powerbeats"
+      ],
+      "strengths": 1,
+      "reviews": 1,
+      "comparisons": 0,
+      "best": [
+        "running-headphones"
+      ],
+      "guides": 1,
+      "runningLive": 1,
+      "runningShoes": 0,
+      "gpsWatches": 0,
+      "products": [
+        {
+          "slug": "beats-fit-pro",
+          "name": "Fit Pro",
+          "category": "headphones",
+          "sports": [
+            "sport-running",
+            "sport-training"
+          ],
+          "lifecycle": "current",
+          "strengths": 3,
+          "status": "published"
+        }
+      ],
+      "depthWouldPassIf3": true
+    },
+    {
+      "slug": "soundcore",
+      "name": "soundcore",
+      "id": "brand-soundcore",
+      "source": "running",
+      "holdClass": "HOLD_INSUFFICIENT_DEPTH",
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "liveProducts": 2,
+      "allVisibleDev": 2,
+      "rawCount": 2,
+      "draftOrGated": [],
+      "archived": [],
+      "current": 2,
+      "categories": [
+        "headphones"
+      ],
+      "sports": [
+        "sport-running",
+        "sport-training",
+        "sport-hyrox"
+      ],
+      "draftSports": [
+        "sport-running",
+        "sport-training",
+        "sport-hyrox"
+      ],
+      "families": [
+        "AeroFit",
+        "Sport"
+      ],
+      "strengths": 2,
+      "reviews": 2,
+      "comparisons": 0,
+      "best": [
+        "running-headphones"
+      ],
+      "guides": 1,
+      "runningLive": 2,
+      "runningShoes": 0,
+      "gpsWatches": 0,
+      "products": [
+        {
+          "slug": "soundcore-aerofit-2",
+          "name": "AeroFit 2",
+          "category": "headphones",
+          "sports": [
+            "sport-running",
+            "sport-training"
+          ],
+          "lifecycle": "current",
+          "strengths": 3,
+          "status": "published"
+        },
+        {
+          "slug": "soundcore-sport-x20",
+          "name": "Sport X20",
+          "category": "headphones",
+          "sports": [
+            "sport-running",
+            "sport-training",
+            "sport-hyrox"
+          ],
+          "lifecycle": "current",
+          "strengths": 3,
+          "status": "published"
+        }
+      ],
+      "depthWouldPassIf3": true
+    },
+    {
+      "slug": "smith",
+      "name": "Smith",
+      "id": "brand-smith",
+      "source": "running",
+      "holdClass": "HOLD_INSUFFICIENT_DEPTH",
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "liveProducts": 2,
+      "allVisibleDev": 2,
+      "rawCount": 2,
+      "draftOrGated": [],
+      "archived": [],
+      "current": 2,
+      "categories": [
+        "sunglasses"
+      ],
+      "sports": [
+        "sport-running",
+        "sport-cycling"
+      ],
+      "draftSports": [
+        "sport-running",
+        "sport-cycling"
+      ],
+      "families": [
+        "Shift MAG",
+        "Attack MAG"
+      ],
+      "strengths": 2,
+      "reviews": 2,
+      "comparisons": 1,
+      "best": [
+        "running-sunglasses"
+      ],
+      "guides": 0,
+      "runningLive": 2,
+      "runningShoes": 0,
+      "gpsWatches": 0,
+      "products": [
+        {
+          "slug": "smith-shift-mag",
+          "name": "Shift MAG",
+          "category": "sunglasses",
+          "sports": [
+            "sport-running",
+            "sport-cycling"
+          ],
+          "lifecycle": "current",
+          "strengths": 3,
+          "status": "published"
+        },
+        {
+          "slug": "smith-attack-mag",
+          "name": "Attack MAG",
+          "category": "sunglasses",
+          "sports": [
+            "sport-running",
+            "sport-cycling"
+          ],
+          "lifecycle": "current",
+          "strengths": 3,
+          "status": "published"
+        }
+      ],
+      "depthWouldPassIf3": true
+    },
+    {
+      "slug": "rudy-project",
+      "name": "Rudy Project",
+      "id": "brand-rudy-project",
+      "source": "running",
+      "holdClass": "HOLD_INSUFFICIENT_DEPTH",
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "liveProducts": 1,
+      "allVisibleDev": 1,
+      "rawCount": 1,
+      "draftOrGated": [],
+      "archived": [],
+      "current": 1,
+      "categories": [
+        "sunglasses"
+      ],
+      "sports": [
+        "sport-running",
+        "sport-cycling"
+      ],
+      "draftSports": [
+        "sport-running",
+        "sport-cycling"
+      ],
+      "families": [
+        "Cutline"
+      ],
+      "strengths": 1,
+      "reviews": 1,
+      "comparisons": 0,
+      "best": [],
+      "guides": 0,
+      "runningLive": 1,
+      "runningShoes": 0,
+      "gpsWatches": 0,
+      "products": [
+        {
+          "slug": "rudy-project-cutline",
+          "name": "Cutline",
+          "category": "sunglasses",
+          "sports": [
+            "sport-running",
+            "sport-cycling"
+          ],
+          "lifecycle": "current",
+          "strengths": 3,
+          "status": "published"
+        }
+      ],
+      "depthWouldPassIf3": true
+    },
+    {
+      "slug": "tifosi",
+      "name": "Tifosi",
+      "id": "brand-tifosi",
+      "source": "running",
+      "holdClass": "HOLD_INSUFFICIENT_DEPTH",
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "liveProducts": 2,
+      "allVisibleDev": 2,
+      "rawCount": 2,
+      "draftOrGated": [],
+      "archived": [],
+      "current": 2,
+      "categories": [
+        "sunglasses"
+      ],
+      "sports": [
+        "sport-running",
+        "sport-cycling"
+      ],
+      "draftSports": [
+        "sport-running",
+        "sport-cycling"
+      ],
+      "families": [
+        "Rail",
+        "Vogel"
+      ],
+      "strengths": 2,
+      "reviews": 2,
+      "comparisons": 0,
+      "best": [
+        "running-sunglasses"
+      ],
+      "guides": 0,
+      "runningLive": 2,
+      "runningShoes": 0,
+      "gpsWatches": 0,
+      "products": [
+        {
+          "slug": "tifosi-rail",
+          "name": "Rail",
+          "category": "sunglasses",
+          "sports": [
+            "sport-running",
+            "sport-cycling"
+          ],
+          "lifecycle": "current",
+          "strengths": 3,
+          "status": "published"
+        },
+        {
+          "slug": "tifosi-vogel",
+          "name": "Vogel",
+          "category": "sunglasses",
+          "sports": [
+            "sport-running"
+          ],
+          "lifecycle": "current",
+          "strengths": 3,
+          "status": "published"
+        }
+      ],
+      "depthWouldPassIf3": true
+    },
+    {
+      "slug": "100-percent",
+      "name": "100%",
+      "id": "brand-100percent",
+      "source": "running",
+      "holdClass": "HOLD_INSUFFICIENT_DEPTH",
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "liveProducts": 1,
+      "allVisibleDev": 1,
+      "rawCount": 1,
+      "draftOrGated": [],
+      "archived": [],
+      "current": 1,
+      "categories": [
+        "sunglasses"
+      ],
+      "sports": [
+        "sport-running",
+        "sport-cycling"
+      ],
+      "draftSports": [
+        "sport-running",
+        "sport-cycling"
+      ],
+      "families": [
+        "S3"
+      ],
+      "strengths": 1,
+      "reviews": 1,
+      "comparisons": 0,
+      "best": [
+        "running-sunglasses"
+      ],
+      "guides": 0,
+      "runningLive": 1,
+      "runningShoes": 0,
+      "gpsWatches": 0,
+      "products": [
+        {
+          "slug": "100-percent-s3",
+          "name": "S3",
+          "category": "sunglasses",
+          "sports": [
+            "sport-running",
+            "sport-cycling"
+          ],
+          "lifecycle": "current",
+          "strengths": 3,
+          "status": "published"
+        }
+      ],
+      "depthWouldPassIf3": true
+    },
+    {
+      "slug": "roka",
+      "name": "ROKA",
+      "id": "brand-roka",
+      "source": "running",
+      "holdClass": "HOLD_INSUFFICIENT_DEPTH",
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "liveProducts": 1,
+      "allVisibleDev": 1,
+      "rawCount": 1,
+      "draftOrGated": [],
+      "archived": [],
+      "current": 1,
+      "categories": [
+        "sunglasses"
+      ],
+      "sports": [
+        "sport-running",
+        "sport-cycling"
+      ],
+      "draftSports": [
+        "sport-running",
+        "sport-cycling"
+      ],
+      "families": [
+        "Phantom Air"
+      ],
+      "strengths": 1,
+      "reviews": 1,
+      "comparisons": 0,
+      "best": [
+        "running-sunglasses"
+      ],
+      "guides": 0,
+      "runningLive": 1,
+      "runningShoes": 0,
+      "gpsWatches": 0,
+      "products": [
+        {
+          "slug": "roka-phantom-air",
+          "name": "Phantom Air",
+          "category": "sunglasses",
+          "sports": [
+            "sport-running",
+            "sport-cycling"
+          ],
+          "lifecycle": "current",
+          "strengths": 3,
+          "status": "published"
+        }
+      ],
+      "depthWouldPassIf3": true
+    },
+    {
+      "slug": "ledlenser",
+      "name": "Ledlenser",
+      "id": "brand-ledlenser",
+      "source": "running",
+      "holdClass": "HOLD_INSUFFICIENT_DEPTH",
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "liveProducts": 1,
+      "allVisibleDev": 2,
+      "rawCount": 2,
+      "draftOrGated": [
+        {
+          "slug": "ledlenser-neo5r",
+          "name": "NEO5R",
+          "status": "draft",
+          "categoryId": "cat-running-lights",
+          "sports": [
+            "sport-running"
+          ],
+          "lifecycle": "current"
+        }
+      ],
+      "archived": [],
+      "current": 1,
+      "categories": [
+        "running-lights"
+      ],
+      "sports": [
+        "sport-running"
+      ],
+      "draftSports": [
+        "sport-running"
+      ],
+      "families": [
+        "NEO"
+      ],
+      "strengths": 1,
+      "reviews": 1,
+      "comparisons": 0,
+      "best": [
+        "running-headlamps"
+      ],
+      "guides": 0,
+      "runningLive": 1,
+      "runningShoes": 0,
+      "gpsWatches": 0,
+      "products": [
+        {
+          "slug": "ledlenser-neo9r",
+          "name": "NEO9R",
+          "category": "running-lights",
+          "sports": [
+            "sport-running"
+          ],
+          "lifecycle": "current",
+          "strengths": 3,
+          "status": "published"
+        }
+      ],
+      "depthWouldPassIf3": true
+    },
+    {
+      "slug": "biolite",
+      "name": "BioLite",
+      "id": "brand-biolite",
+      "source": "running",
+      "holdClass": "HOLD_INSUFFICIENT_DEPTH",
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "liveProducts": 1,
+      "allVisibleDev": 2,
+      "rawCount": 2,
+      "draftOrGated": [
+        {
+          "slug": "biolite-headlamp-425",
+          "name": "HeadLamp 425",
+          "status": "draft",
+          "categoryId": "cat-running-lights",
+          "sports": [
+            "sport-running"
+          ],
+          "lifecycle": "current"
+        }
+      ],
+      "archived": [],
+      "current": 1,
+      "categories": [
+        "running-lights"
+      ],
+      "sports": [
+        "sport-running"
+      ],
+      "draftSports": [
+        "sport-running"
+      ],
+      "families": [
+        "HeadLamp"
+      ],
+      "strengths": 1,
+      "reviews": 1,
+      "comparisons": 1,
+      "best": [
+        "running-headlamps"
+      ],
+      "guides": 0,
+      "runningLive": 1,
+      "runningShoes": 0,
+      "gpsWatches": 0,
+      "products": [
+        {
+          "slug": "biolite-headlamp-800-pro",
+          "name": "HeadLamp 800 Pro",
+          "category": "running-lights",
+          "sports": [
+            "sport-running"
+          ],
+          "lifecycle": "current",
+          "strengths": 3,
+          "status": "published"
+        }
+      ],
+      "depthWouldPassIf3": true
+    },
+    {
+      "slug": "nitecore",
+      "name": "NITECORE",
+      "id": "brand-nitecore",
+      "source": "running",
+      "holdClass": "HOLD_INSUFFICIENT_DEPTH",
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "liveProducts": 1,
+      "allVisibleDev": 2,
+      "rawCount": 2,
+      "draftOrGated": [
+        {
+          "slug": "nitecore-nu25-ul",
+          "name": "NU25 UL",
+          "status": "draft",
+          "categoryId": "cat-running-lights",
+          "sports": [
+            "sport-running"
+          ],
+          "lifecycle": "current"
+        }
+      ],
+      "archived": [],
+      "current": 1,
+      "categories": [
+        "running-lights"
+      ],
+      "sports": [
+        "sport-running"
+      ],
+      "draftSports": [
+        "sport-running"
+      ],
+      "families": [
+        "NU"
+      ],
+      "strengths": 1,
+      "reviews": 1,
+      "comparisons": 0,
+      "best": [
+        "running-headlamps"
+      ],
+      "guides": 0,
+      "runningLive": 1,
+      "runningShoes": 0,
+      "gpsWatches": 0,
+      "products": [
+        {
+          "slug": "nitecore-nu43",
+          "name": "NU43",
+          "category": "running-lights",
+          "sports": [
+            "sport-running"
+          ],
+          "lifecycle": "current",
+          "strengths": 3,
+          "status": "published"
+        }
+      ],
+      "depthWouldPassIf3": true
+    },
+    {
+      "slug": "proviz",
+      "name": "Proviz",
+      "id": "brand-proviz",
+      "source": "running",
+      "holdClass": "HOLD_INSUFFICIENT_DEPTH",
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "liveProducts": 1,
+      "allVisibleDev": 1,
+      "rawCount": 1,
+      "draftOrGated": [],
+      "archived": [],
+      "current": 1,
+      "categories": [
+        "safety-gear"
+      ],
+      "sports": [
+        "sport-running"
+      ],
+      "draftSports": [
+        "sport-running"
+      ],
+      "families": [
+        "Reflect360"
+      ],
+      "strengths": 1,
+      "reviews": 1,
+      "comparisons": 1,
+      "best": [
+        "running-safety-visibility"
+      ],
+      "guides": 0,
+      "runningLive": 1,
+      "runningShoes": 0,
+      "gpsWatches": 0,
+      "products": [
+        {
+          "slug": "proviz-reflect360-running-vest",
+          "name": "Reflect360 Running Vest",
+          "category": "safety-gear",
+          "sports": [
+            "sport-running"
+          ],
+          "lifecycle": "current",
+          "strengths": 3,
+          "status": "published"
+        }
+      ],
+      "depthWouldPassIf3": true
+    },
+    {
+      "slug": "tailwind",
+      "name": "Tailwind",
+      "id": "brand-tailwind",
+      "source": "running",
+      "holdClass": "HOLD_INSUFFICIENT_DEPTH",
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "liveProducts": 1,
+      "allVisibleDev": 1,
+      "rawCount": 1,
+      "draftOrGated": [],
+      "archived": [],
+      "current": 1,
+      "categories": [
+        "nutrition-fuel"
+      ],
+      "sports": [
+        "sport-running",
+        "sport-cycling"
+      ],
+      "draftSports": [
+        "sport-running",
+        "sport-cycling"
+      ],
+      "families": [
+        "Tailwind Endurance Fuel"
+      ],
+      "strengths": 1,
+      "reviews": 1,
+      "comparisons": 1,
+      "best": [
+        "running-race-fuel"
+      ],
+      "guides": 1,
+      "runningLive": 1,
+      "runningShoes": 0,
+      "gpsWatches": 0,
+      "products": [
+        {
+          "slug": "tailwind-endurance-fuel",
+          "name": "Endurance Fuel",
+          "category": "nutrition-fuel",
+          "sports": [
+            "sport-running",
+            "sport-cycling"
+          ],
+          "lifecycle": "current",
+          "strengths": 3,
+          "status": "published"
+        }
+      ],
+      "depthWouldPassIf3": true
+    },
+    {
+      "slug": "skratch-labs",
+      "name": "Skratch Labs",
+      "id": "brand-skratch",
+      "source": "running",
+      "holdClass": "HOLD_INSUFFICIENT_DEPTH",
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "liveProducts": 2,
+      "allVisibleDev": 2,
+      "rawCount": 2,
+      "draftOrGated": [],
+      "archived": [],
+      "current": 2,
+      "categories": [
+        "nutrition-fuel"
+      ],
+      "sports": [
+        "sport-running",
+        "sport-cycling"
+      ],
+      "draftSports": [
+        "sport-running",
+        "sport-cycling"
+      ],
+      "families": [
+        "Skratch Energy Chews",
+        "Skratch Sport Hydration"
+      ],
+      "strengths": 2,
+      "reviews": 2,
+      "comparisons": 0,
+      "best": [
+        "running-race-fuel"
+      ],
+      "guides": 1,
+      "runningLive": 2,
+      "runningShoes": 0,
+      "gpsWatches": 0,
+      "products": [
+        {
+          "slug": "skratch-sport-energy-chews",
+          "name": "Sport Energy Chews",
+          "category": "nutrition-fuel",
+          "sports": [
+            "sport-running",
+            "sport-cycling"
+          ],
+          "lifecycle": "current",
+          "strengths": 3,
+          "status": "published"
+        },
+        {
+          "slug": "skratch-sport-hydration-mix",
+          "name": "Sport Hydration Drink Mix",
+          "category": "nutrition-fuel",
+          "sports": [
+            "sport-running",
+            "sport-cycling"
+          ],
+          "lifecycle": "current",
+          "strengths": 3,
+          "status": "published"
+        }
+      ],
+      "depthWouldPassIf3": true
+    },
+    {
+      "slug": "clif-bar",
+      "name": "Clif Bar",
+      "id": "brand-clif",
+      "source": "running",
+      "holdClass": "HOLD_INSUFFICIENT_DEPTH",
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "liveProducts": 2,
+      "allVisibleDev": 2,
+      "rawCount": 2,
+      "draftOrGated": [],
+      "archived": [],
+      "current": 2,
+      "categories": [
+        "nutrition-fuel"
+      ],
+      "sports": [
+        "sport-running",
+        "sport-cycling"
+      ],
+      "draftSports": [
+        "sport-running",
+        "sport-cycling"
+      ],
+      "families": [
+        "CLIF BLOKS",
+        "CLIF Bar"
+      ],
+      "strengths": 2,
+      "reviews": 2,
+      "comparisons": 1,
+      "best": [
+        "running-race-fuel"
+      ],
+      "guides": 2,
+      "runningLive": 2,
+      "runningShoes": 0,
+      "gpsWatches": 0,
+      "products": [
+        {
+          "slug": "clif-bloks-energy-chews",
+          "name": "Bloks Energy Chews",
+          "category": "nutrition-fuel",
+          "sports": [
+            "sport-running",
+            "sport-cycling"
+          ],
+          "lifecycle": "current",
+          "strengths": 3,
+          "status": "published"
+        },
+        {
+          "slug": "clif-bar-original",
+          "name": "Clif Bar",
+          "category": "nutrition-fuel",
+          "sports": [
+            "sport-running",
+            "sport-cycling"
+          ],
+          "lifecycle": "current",
+          "strengths": 3,
+          "status": "published"
+        }
+      ],
+      "depthWouldPassIf3": true
+    },
+    {
+      "slug": "honey-stinger",
+      "name": "Honey Stinger",
+      "id": "brand-honey-stinger",
+      "source": "running",
+      "holdClass": "HOLD_INSUFFICIENT_DEPTH",
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "liveProducts": 1,
+      "allVisibleDev": 1,
+      "rawCount": 1,
+      "draftOrGated": [],
+      "archived": [],
+      "current": 1,
+      "categories": [
+        "nutrition-fuel"
+      ],
+      "sports": [
+        "sport-running",
+        "sport-cycling"
+      ],
+      "draftSports": [
+        "sport-running",
+        "sport-cycling"
+      ],
+      "families": [
+        "Honey Stinger Gel"
+      ],
+      "strengths": 1,
+      "reviews": 1,
+      "comparisons": 0,
+      "best": [],
+      "guides": 0,
+      "runningLive": 1,
+      "runningShoes": 0,
+      "gpsWatches": 0,
+      "products": [
+        {
+          "slug": "honey-stinger-organic-energy-gel",
+          "name": "Organic Energy Gel",
+          "category": "nutrition-fuel",
+          "sports": [
+            "sport-running",
+            "sport-cycling"
+          ],
+          "lifecycle": "current",
+          "strengths": 3,
+          "status": "published"
+        }
+      ],
+      "depthWouldPassIf3": true
+    },
+    {
+      "slug": "spring-energy",
+      "name": "Spring Energy",
+      "id": "brand-spring-energy",
+      "source": "running",
+      "holdClass": "HOLD_INSUFFICIENT_DEPTH",
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "liveProducts": 1,
+      "allVisibleDev": 1,
+      "rawCount": 1,
+      "draftOrGated": [],
+      "archived": [],
+      "current": 1,
+      "categories": [
+        "nutrition-fuel"
+      ],
+      "sports": [
+        "sport-running"
+      ],
+      "draftSports": [
+        "sport-running"
+      ],
+      "families": [
+        "Spring Energy Gels"
+      ],
+      "strengths": 1,
+      "reviews": 1,
+      "comparisons": 0,
+      "best": [
+        "running-race-fuel"
+      ],
+      "guides": 1,
+      "runningLive": 1,
+      "runningShoes": 0,
+      "gpsWatches": 0,
+      "products": [
+        {
+          "slug": "spring-energy-awesome-sauce",
+          "name": "Awesome Sauce",
+          "category": "nutrition-fuel",
+          "sports": [
+            "sport-running"
+          ],
+          "lifecycle": "current",
+          "strengths": 3,
+          "status": "published"
+        }
+      ],
+      "depthWouldPassIf3": true
+    },
+    {
+      "slug": "neversecond",
+      "name": "Neversecond",
+      "id": "brand-neversecond",
+      "source": "running",
+      "holdClass": "HOLD_INSUFFICIENT_DEPTH",
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "liveProducts": 2,
+      "allVisibleDev": 2,
+      "rawCount": 2,
+      "draftOrGated": [],
+      "archived": [],
+      "current": 2,
+      "categories": [
+        "nutrition-fuel"
+      ],
+      "sports": [
+        "sport-running",
+        "sport-cycling"
+      ],
+      "draftSports": [
+        "sport-running",
+        "sport-cycling"
+      ],
+      "families": [
+        "Neversecond C30"
+      ],
+      "strengths": 2,
+      "reviews": 2,
+      "comparisons": 1,
+      "best": [
+        "running-race-fuel"
+      ],
+      "guides": 2,
+      "runningLive": 2,
+      "runningShoes": 0,
+      "gpsWatches": 0,
+      "products": [
+        {
+          "slug": "neversecond-c30-gel",
+          "name": "C30 Gel",
+          "category": "nutrition-fuel",
+          "sports": [
+            "sport-running",
+            "sport-cycling"
+          ],
+          "lifecycle": "current",
+          "strengths": 3,
+          "status": "published"
+        },
+        {
+          "slug": "neversecond-c30-sports-drink",
+          "name": "C30 Sports Drink",
+          "category": "nutrition-fuel",
+          "sports": [
+            "sport-running",
+            "sport-cycling"
+          ],
+          "lifecycle": "current",
+          "strengths": 3,
+          "status": "published"
+        }
+      ],
+      "depthWouldPassIf3": true
+    },
+    {
+      "slug": "high5",
+      "name": "High5",
+      "id": "brand-high5",
+      "source": "running",
+      "holdClass": "HOLD_INSUFFICIENT_DEPTH",
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "liveProducts": 2,
+      "allVisibleDev": 2,
+      "rawCount": 2,
+      "draftOrGated": [],
+      "archived": [],
+      "current": 2,
+      "categories": [
+        "nutrition-fuel"
+      ],
+      "sports": [
+        "sport-running",
+        "sport-cycling"
+      ],
+      "draftSports": [
+        "sport-running",
+        "sport-cycling"
+      ],
+      "families": [
+        "High5 ZERO",
+        "High5 Energy Gel"
+      ],
+      "strengths": 2,
+      "reviews": 2,
+      "comparisons": 0,
+      "best": [],
+      "guides": 0,
+      "runningLive": 2,
+      "runningShoes": 0,
+      "gpsWatches": 0,
+      "products": [
+        {
+          "slug": "high5-zero",
+          "name": "ZERO",
+          "category": "nutrition-fuel",
+          "sports": [
+            "sport-running",
+            "sport-cycling"
+          ],
+          "lifecycle": "current",
+          "strengths": 3,
+          "status": "published"
+        },
+        {
+          "slug": "high5-energy-gel",
+          "name": "Energy Gel",
+          "category": "nutrition-fuel",
+          "sports": [
+            "sport-running",
+            "sport-cycling"
+          ],
+          "lifecycle": "current",
+          "strengths": 3,
+          "status": "published"
+        }
+      ],
+      "depthWouldPassIf3": true
+    },
+    {
+      "slug": "nuun",
+      "name": "Nuun",
+      "id": "brand-nuun",
+      "source": "running",
+      "holdClass": "HOLD_INSUFFICIENT_DEPTH",
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "liveProducts": 1,
+      "allVisibleDev": 1,
+      "rawCount": 1,
+      "draftOrGated": [],
+      "archived": [],
+      "current": 1,
+      "categories": [
+        "nutrition-fuel"
+      ],
+      "sports": [
+        "sport-running",
+        "sport-cycling"
+      ],
+      "draftSports": [
+        "sport-running",
+        "sport-cycling"
+      ],
+      "families": [
+        "Nuun Sport"
+      ],
+      "strengths": 1,
+      "reviews": 1,
+      "comparisons": 1,
+      "best": [
+        "running-race-fuel"
+      ],
+      "guides": 1,
+      "runningLive": 1,
+      "runningShoes": 0,
+      "gpsWatches": 0,
+      "products": [
+        {
+          "slug": "nuun-sport",
+          "name": "Sport",
+          "category": "nutrition-fuel",
+          "sports": [
+            "sport-running",
+            "sport-cycling"
+          ],
+          "lifecycle": "current",
+          "strengths": 3,
+          "status": "published"
+        }
+      ],
+      "depthWouldPassIf3": true
+    },
+    {
+      "slug": "saltstick",
+      "name": "SaltStick",
+      "id": "brand-saltstick",
+      "source": "running",
+      "holdClass": "HOLD_INSUFFICIENT_DEPTH",
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "liveProducts": 2,
+      "allVisibleDev": 2,
+      "rawCount": 2,
+      "draftOrGated": [],
+      "archived": [],
+      "current": 2,
+      "categories": [
+        "nutrition-fuel"
+      ],
+      "sports": [
+        "sport-running",
+        "sport-cycling"
+      ],
+      "draftSports": [
+        "sport-running",
+        "sport-cycling"
+      ],
+      "families": [
+        "SaltStick Fastchews",
+        "SaltStick Caps"
+      ],
+      "strengths": 2,
+      "reviews": 2,
+      "comparisons": 0,
+      "best": [],
+      "guides": 0,
+      "runningLive": 2,
+      "runningShoes": 0,
+      "gpsWatches": 0,
+      "products": [
+        {
+          "slug": "saltstick-fastchews",
+          "name": "Fastchews",
+          "category": "nutrition-fuel",
+          "sports": [
+            "sport-running",
+            "sport-cycling"
+          ],
+          "lifecycle": "current",
+          "strengths": 3,
+          "status": "published"
+        },
+        {
+          "slug": "saltstick-caps",
+          "name": "Caps",
+          "category": "nutrition-fuel",
+          "sports": [
+            "sport-running",
+            "sport-cycling"
+          ],
+          "lifecycle": "current",
+          "strengths": 3,
+          "status": "published"
+        }
+      ],
+      "depthWouldPassIf3": true
+    },
+    {
+      "slug": "powerbar",
+      "name": "PowerBar",
+      "id": "brand-powerbar",
+      "source": "running",
+      "holdClass": "HOLD_INSUFFICIENT_DEPTH",
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "liveProducts": 1,
+      "allVisibleDev": 1,
+      "rawCount": 1,
+      "draftOrGated": [],
+      "archived": [],
+      "current": 1,
+      "categories": [
+        "nutrition-fuel"
+      ],
+      "sports": [
+        "sport-running",
+        "sport-cycling"
+      ],
+      "draftSports": [
+        "sport-running",
+        "sport-cycling"
+      ],
+      "families": [
+        "PowerBar Energize"
+      ],
+      "strengths": 1,
+      "reviews": 1,
+      "comparisons": 0,
+      "best": [],
+      "guides": 0,
+      "runningLive": 1,
+      "runningShoes": 0,
+      "gpsWatches": 0,
+      "products": [
+        {
+          "slug": "powerbar-energize",
+          "name": "Energize",
+          "category": "nutrition-fuel",
+          "sports": [
+            "sport-running",
+            "sport-cycling"
+          ],
+          "lifecycle": "current",
+          "strengths": 3,
+          "status": "published"
+        }
+      ],
+      "depthWouldPassIf3": true
+    },
+    {
+      "slug": "enervit",
+      "name": "Enervit",
+      "id": "brand-enervit",
+      "source": "running",
+      "holdClass": "HOLD_INSUFFICIENT_DEPTH",
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "liveProducts": 1,
+      "allVisibleDev": 1,
+      "rawCount": 1,
+      "draftOrGated": [],
+      "archived": [],
+      "current": 1,
+      "categories": [
+        "nutrition-fuel"
+      ],
+      "sports": [
+        "sport-running",
+        "sport-cycling"
+      ],
+      "draftSports": [
+        "sport-running",
+        "sport-cycling"
+      ],
+      "families": [
+        "Enervit Carbo Gel"
+      ],
+      "strengths": 1,
+      "reviews": 1,
+      "comparisons": 0,
+      "best": [],
+      "guides": 0,
+      "runningLive": 1,
+      "runningShoes": 0,
+      "gpsWatches": 0,
+      "products": [
+        {
+          "slug": "enervit-c2-1-carbo-gel",
+          "name": "C2:1 Carbo Gel",
+          "category": "nutrition-fuel",
+          "sports": [
+            "sport-running",
+            "sport-cycling"
+          ],
+          "lifecycle": "current",
+          "strengths": 2,
+          "status": "published"
+        }
+      ],
+      "depthWouldPassIf3": true
+    },
+    {
+      "slug": "226ers",
+      "name": "226ERS",
+      "id": "brand-226ers",
+      "source": "running",
+      "holdClass": "HOLD_INSUFFICIENT_DEPTH",
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "liveProducts": 1,
+      "allVisibleDev": 1,
+      "rawCount": 1,
+      "draftOrGated": [],
+      "archived": [],
+      "current": 1,
+      "categories": [
+        "nutrition-fuel"
+      ],
+      "sports": [
+        "sport-running",
+        "sport-cycling"
+      ],
+      "draftSports": [
+        "sport-running",
+        "sport-cycling"
+      ],
+      "families": [
+        "226ERS High Energy Gel"
+      ],
+      "strengths": 1,
+      "reviews": 1,
+      "comparisons": 0,
+      "best": [],
+      "guides": 0,
+      "runningLive": 1,
+      "runningShoes": 0,
+      "gpsWatches": 0,
+      "products": [
+        {
+          "slug": "226ers-high-energy-gel",
+          "name": "High Energy Gel",
+          "category": "nutrition-fuel",
+          "sports": [
+            "sport-running",
+            "sport-cycling"
+          ],
+          "lifecycle": "current",
+          "strengths": 2,
+          "status": "published"
+        }
+      ],
+      "depthWouldPassIf3": true
+    },
+    {
+      "slug": "huma",
+      "name": "Hüma",
+      "id": "brand-huma",
+      "source": "running",
+      "holdClass": "HOLD_INSUFFICIENT_DEPTH",
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "liveProducts": 1,
+      "allVisibleDev": 1,
+      "rawCount": 1,
+      "draftOrGated": [],
+      "archived": [],
+      "current": 1,
+      "categories": [
+        "nutrition-fuel"
+      ],
+      "sports": [
+        "sport-running",
+        "sport-cycling"
+      ],
+      "draftSports": [
+        "sport-running",
+        "sport-cycling"
+      ],
+      "families": [
+        "Hüma Gel"
+      ],
+      "strengths": 1,
+      "reviews": 1,
+      "comparisons": 0,
+      "best": [],
+      "guides": 1,
+      "runningLive": 1,
+      "runningShoes": 0,
+      "gpsWatches": 0,
+      "products": [
+        {
+          "slug": "huma-gel-original",
+          "name": "Original Gel",
+          "category": "nutrition-fuel",
+          "sports": [
+            "sport-running",
+            "sport-cycling"
+          ],
+          "lifecycle": "current",
+          "strengths": 3,
+          "status": "published"
+        }
+      ],
+      "depthWouldPassIf3": true
+    },
+    {
+      "slug": "naak",
+      "name": "Näak",
+      "id": "brand-naak",
+      "source": "running",
+      "holdClass": "HOLD_INSUFFICIENT_DEPTH",
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "liveProducts": 2,
+      "allVisibleDev": 2,
+      "rawCount": 2,
+      "draftOrGated": [],
+      "archived": [],
+      "current": 2,
+      "categories": [
+        "nutrition-fuel"
+      ],
+      "sports": [
+        "sport-running"
+      ],
+      "draftSports": [
+        "sport-running"
+      ],
+      "families": [
+        "Näak Ultra Energy",
+        "Näak Ultra Energy Drink"
+      ],
+      "strengths": 2,
+      "reviews": 2,
+      "comparisons": 0,
+      "best": [],
+      "guides": 0,
+      "runningLive": 2,
+      "runningShoes": 0,
+      "gpsWatches": 0,
+      "products": [
+        {
+          "slug": "naak-ultra-energy-bar",
+          "name": "Ultra Energy Bar",
+          "category": "nutrition-fuel",
+          "sports": [
+            "sport-running"
+          ],
+          "lifecycle": "current",
+          "strengths": 3,
+          "status": "published"
+        },
+        {
+          "slug": "naak-ultra-energy-drink-mix",
+          "name": "Ultra Energy Drink Mix",
+          "category": "nutrition-fuel",
+          "sports": [
+            "sport-running"
+          ],
+          "lifecycle": "current",
+          "strengths": 2,
+          "status": "published"
+        }
+      ],
+      "depthWouldPassIf3": true
+    },
+    {
+      "slug": "styrkr",
+      "name": "STYRKR",
+      "id": "brand-styrkr",
+      "source": "running",
+      "holdClass": "HOLD_INSUFFICIENT_DEPTH",
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "liveProducts": 2,
+      "allVisibleDev": 2,
+      "rawCount": 2,
+      "draftOrGated": [],
+      "archived": [],
+      "current": 2,
+      "categories": [
+        "nutrition-fuel"
+      ],
+      "sports": [
+        "sport-running",
+        "sport-cycling"
+      ],
+      "draftSports": [
+        "sport-running",
+        "sport-cycling"
+      ],
+      "families": [
+        "STYRKR MIX",
+        "STYRKR GEL"
+      ],
+      "strengths": 2,
+      "reviews": 2,
+      "comparisons": 0,
+      "best": [],
+      "guides": 0,
+      "runningLive": 2,
+      "runningShoes": 0,
+      "gpsWatches": 0,
+      "products": [
+        {
+          "slug": "styrkr-mix90",
+          "name": "MIX90",
+          "category": "nutrition-fuel",
+          "sports": [
+            "sport-running",
+            "sport-cycling"
+          ],
+          "lifecycle": "current",
+          "strengths": 3,
+          "status": "published"
+        },
+        {
+          "slug": "styrkr-gel30",
+          "name": "GEL30",
+          "category": "nutrition-fuel",
+          "sports": [
+            "sport-running",
+            "sport-cycling"
+          ],
+          "lifecycle": "current",
+          "strengths": 2,
+          "status": "published"
+        }
+      ],
+      "depthWouldPassIf3": true
+    },
+    {
+      "slug": "veloforte",
+      "name": "Veloforte",
+      "id": "brand-veloforte",
+      "source": "running",
+      "holdClass": "HOLD_INSUFFICIENT_DEPTH",
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "liveProducts": 2,
+      "allVisibleDev": 2,
+      "rawCount": 2,
+      "draftOrGated": [],
+      "archived": [],
+      "current": 2,
+      "categories": [
+        "nutrition-fuel"
+      ],
+      "sports": [
+        "sport-running",
+        "sport-cycling"
+      ],
+      "draftSports": [
+        "sport-running",
+        "sport-cycling"
+      ],
+      "families": [
+        "Veloforte Chews",
+        "Veloforte Energy Bar"
+      ],
+      "strengths": 2,
+      "reviews": 2,
+      "comparisons": 0,
+      "best": [],
+      "guides": 0,
+      "runningLive": 2,
+      "runningShoes": 0,
+      "gpsWatches": 0,
+      "products": [
+        {
+          "slug": "veloforte-energy-chews",
+          "name": "Energy Chews",
+          "category": "nutrition-fuel",
+          "sports": [
+            "sport-running",
+            "sport-cycling"
+          ],
+          "lifecycle": "current",
+          "strengths": 3,
+          "status": "published"
+        },
+        {
+          "slug": "veloforte-energy-bar",
+          "name": "Energy Bar",
+          "category": "nutrition-fuel",
+          "sports": [
+            "sport-running",
+            "sport-cycling"
+          ],
+          "lifecycle": "current",
+          "strengths": 2,
+          "status": "published"
+        }
+      ],
+      "depthWouldPassIf3": true
+    },
+    {
+      "slug": "brazyn",
+      "name": "Brazyn",
+      "id": "brand-brazyn",
+      "source": "running",
+      "holdClass": "HOLD_INSUFFICIENT_DEPTH",
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "liveProducts": 1,
+      "allVisibleDev": 1,
+      "rawCount": 1,
+      "draftOrGated": [],
+      "archived": [],
+      "current": 1,
+      "categories": [
+        "recovery"
+      ],
+      "sports": [
+        "sport-running",
+        "sport-recovery",
+        "sport-training"
+      ],
+      "draftSports": [
+        "sport-running",
+        "sport-recovery",
+        "sport-training"
+      ],
+      "families": [
+        "Morph"
+      ],
+      "strengths": 1,
+      "reviews": 1,
+      "comparisons": 0,
+      "best": [
+        "running-recovery-gear"
+      ],
+      "guides": 1,
+      "runningLive": 1,
+      "runningShoes": 0,
+      "gpsWatches": 0,
+      "products": [
+        {
+          "slug": "brazyn-morph",
+          "name": "Morph",
+          "category": "recovery",
+          "sports": [
+            "sport-running",
+            "sport-recovery",
+            "sport-training"
+          ],
+          "lifecycle": "current",
+          "strengths": 3,
+          "status": "published"
+        }
+      ],
+      "depthWouldPassIf3": true
+    },
+    {
+      "slug": "squirrels-nut-butter",
+      "name": "Squirrel's Nut Butter",
+      "id": "brand-squirrels-nut-butter",
+      "source": "running",
+      "holdClass": "HOLD_INSUFFICIENT_DEPTH",
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "liveProducts": 1,
+      "allVisibleDev": 1,
+      "rawCount": 1,
+      "draftOrGated": [],
+      "archived": [],
+      "current": 1,
+      "categories": [
+        "accessories"
+      ],
+      "sports": [
+        "sport-running",
+        "sport-training"
+      ],
+      "draftSports": [
+        "sport-running",
+        "sport-training"
+      ],
+      "families": [],
+      "strengths": 1,
+      "reviews": 1,
+      "comparisons": 0,
+      "best": [
+        "running-anti-chafe"
+      ],
+      "guides": 1,
+      "runningLive": 1,
+      "runningShoes": 0,
+      "gpsWatches": 0,
+      "products": [
+        {
+          "slug": "squirrels-nut-butter",
+          "name": "Original Anti-Chafe",
+          "category": "accessories",
+          "sports": [
+            "sport-running",
+            "sport-training"
+          ],
+          "lifecycle": "current",
+          "strengths": 3,
+          "status": "published"
+        }
+      ],
+      "depthWouldPassIf3": true
+    },
+    {
+      "slug": "2toms",
+      "name": "2Toms",
+      "id": "brand-2toms",
+      "source": "running",
+      "holdClass": "HOLD_INSUFFICIENT_DEPTH",
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "liveProducts": 1,
+      "allVisibleDev": 1,
+      "rawCount": 1,
+      "draftOrGated": [],
+      "archived": [],
+      "current": 1,
+      "categories": [
+        "accessories"
+      ],
+      "sports": [
+        "sport-running",
+        "sport-training"
+      ],
+      "draftSports": [
+        "sport-running",
+        "sport-training"
+      ],
+      "families": [],
+      "strengths": 1,
+      "reviews": 1,
+      "comparisons": 0,
+      "best": [
+        "running-anti-chafe"
+      ],
+      "guides": 1,
+      "runningLive": 1,
+      "runningShoes": 0,
+      "gpsWatches": 0,
+      "products": [
+        {
+          "slug": "2toms-sportshield",
+          "name": "SportShield",
+          "category": "accessories",
+          "sports": [
+            "sport-running",
+            "sport-training"
+          ],
+          "lifecycle": "current",
+          "strengths": 3,
+          "status": "published"
+        }
+      ],
+      "depthWouldPassIf3": true
+    },
+    {
+      "slug": "siux",
+      "name": "Siux",
+      "id": "brand-siux",
+      "source": "padel",
+      "holdClass": "HOLD_INSUFFICIENT_DEPTH",
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "liveProducts": 1,
+      "allVisibleDev": 3,
+      "rawCount": 3,
+      "draftOrGated": [
+        {
+          "slug": "siux-diablo-pro-padel",
+          "name": "Diablo Pro",
+          "status": "draft",
+          "categoryId": "cat-padel-shoes",
+          "sports": [
+            "sport-padel",
+            "sport-tennis"
+          ],
+          "lifecycle": "current"
+        },
+        {
+          "slug": "siux-comodo-woman",
+          "name": "Comodo Woman",
+          "status": "draft",
+          "categoryId": "cat-padel-shoes",
+          "sports": [
+            "sport-padel",
+            "sport-tennis"
+          ],
+          "lifecycle": "current"
+        }
+      ],
+      "archived": [],
+      "current": 1,
+      "categories": [
+        "padel-rackets"
+      ],
+      "sports": [
+        "sport-padel"
+      ],
+      "draftSports": [
+        "sport-padel",
+        "sport-tennis"
+      ],
+      "families": [],
+      "strengths": 1,
+      "reviews": 1,
+      "comparisons": 1,
+      "best": [
+        "padel-rackets"
+      ],
+      "guides": 0,
+      "runningLive": 0,
+      "runningShoes": 0,
+      "gpsWatches": 0,
+      "products": [
+        {
+          "slug": "siux-diablo-revolution-2026",
+          "name": "Diablo Pro 2026",
+          "category": "padel-rackets",
+          "sports": [
+            "sport-padel"
+          ],
+          "lifecycle": "current",
+          "strengths": 3,
+          "status": "published"
+        }
+      ],
+      "depthWouldPassIf3": true
+    },
+    {
+      "slug": "starvie",
+      "name": "StarVie",
+      "id": "brand-starvie",
+      "source": "padel",
+      "holdClass": "HOLD_INSUFFICIENT_DEPTH",
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "liveProducts": 2,
+      "allVisibleDev": 3,
+      "rawCount": 3,
+      "draftOrGated": [
+        {
+          "slug": "starvie-absolute-padel",
+          "name": "Absolute Padel",
+          "status": "draft",
+          "categoryId": "cat-padel-shoes",
+          "sports": [
+            "sport-padel",
+            "sport-tennis"
+          ],
+          "lifecycle": "current"
+        }
+      ],
+      "archived": [],
+      "current": 2,
+      "categories": [
+        "padel-rackets"
+      ],
+      "sports": [
+        "sport-padel"
+      ],
+      "draftSports": [
+        "sport-padel",
+        "sport-tennis"
+      ],
+      "families": [],
+      "strengths": 2,
+      "reviews": 2,
+      "comparisons": 0,
+      "best": [],
+      "guides": 0,
+      "runningLive": 0,
+      "runningShoes": 0,
+      "gpsWatches": 0,
+      "products": [
+        {
+          "slug": "starvie-titania-kepler-2026",
+          "name": "Titania Kepler 2026",
+          "category": "padel-rackets",
+          "sports": [
+            "sport-padel"
+          ],
+          "lifecycle": "current",
+          "strengths": 2,
+          "status": "published"
+        },
+        {
+          "slug": "starvie-basalto-osiris-2026",
+          "name": "Basalto Osiris 2026",
+          "category": "padel-rackets",
+          "sports": [
+            "sport-padel"
+          ],
+          "lifecycle": "current",
+          "strengths": 2,
+          "status": "published"
+        }
+      ],
+      "depthWouldPassIf3": true
+    },
+    {
+      "slug": "kuikma",
+      "name": "Kuikma",
+      "id": "brand-kuikma",
+      "source": "padel",
+      "holdClass": "HOLD_INSUFFICIENT_DEPTH",
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "liveProducts": 2,
+      "allVisibleDev": 3,
+      "rawCount": 3,
+      "draftOrGated": [
+        {
+          "slug": "kuikma-ps-560-women",
+          "name": "PS 560 Women",
+          "status": "draft",
+          "categoryId": "cat-padel-shoes",
+          "sports": [
+            "sport-padel",
+            "sport-tennis"
+          ],
+          "lifecycle": "current"
+        }
+      ],
+      "archived": [],
+      "current": 2,
+      "categories": [
+        "padel-rackets",
+        "padel-shoes"
+      ],
+      "sports": [
+        "sport-padel",
+        "sport-tennis"
+      ],
+      "draftSports": [
+        "sport-padel",
+        "sport-tennis"
+      ],
+      "families": [],
+      "strengths": 2,
+      "reviews": 2,
+      "comparisons": 0,
+      "best": [],
+      "guides": 0,
+      "runningLive": 0,
+      "runningShoes": 0,
+      "gpsWatches": 0,
+      "products": [
+        {
+          "slug": "kuikma-pr-soft-500",
+          "name": "PR Soft 500",
+          "category": "padel-rackets",
+          "sports": [
+            "sport-padel"
+          ],
+          "lifecycle": "current",
+          "strengths": 2,
+          "status": "published"
+        },
+        {
+          "slug": "kuikma-ps-990",
+          "name": "PS 990",
+          "category": "padel-shoes",
+          "sports": [
+            "sport-padel",
+            "sport-tennis"
+          ],
+          "lifecycle": "current",
+          "strengths": 3,
+          "status": "published"
+        }
+      ],
+      "depthWouldPassIf3": true
+    },
+    {
+      "slug": "drop-shot",
+      "name": "Drop Shot",
+      "id": "brand-drop-shot",
+      "source": "padel",
+      "holdClass": "HOLD_INSUFFICIENT_DEPTH",
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "liveProducts": 1,
+      "allVisibleDev": 1,
+      "rawCount": 1,
+      "draftOrGated": [],
+      "archived": [],
+      "current": 1,
+      "categories": [
+        "padel-rackets"
+      ],
+      "sports": [
+        "sport-padel"
+      ],
+      "draftSports": [
+        "sport-padel"
+      ],
+      "families": [],
+      "strengths": 1,
+      "reviews": 1,
+      "comparisons": 0,
+      "best": [],
+      "guides": 0,
+      "runningLive": 0,
+      "runningShoes": 0,
+      "gpsWatches": 0,
+      "products": [
+        {
+          "slug": "drop-shot-canyon-pro-2026",
+          "name": "Canyon Pro 2026",
+          "category": "padel-rackets",
+          "sports": [
+            "sport-padel"
+          ],
+          "lifecycle": "current",
+          "strengths": 2,
+          "status": "published"
+        }
+      ],
+      "depthWouldPassIf3": true
+    },
+    {
+      "slug": "varlion",
+      "name": "Varlion",
+      "id": "brand-varlion",
+      "source": "padel",
+      "holdClass": "HOLD_INSUFFICIENT_DEPTH",
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "liveProducts": 2,
+      "allVisibleDev": 2,
+      "rawCount": 2,
+      "draftOrGated": [],
+      "archived": [],
+      "current": 2,
+      "categories": [
+        "padel-rackets",
+        "padel-shoes"
+      ],
+      "sports": [
+        "sport-padel",
+        "sport-tennis"
+      ],
+      "draftSports": [
+        "sport-padel",
+        "sport-tennis"
+      ],
+      "families": [],
+      "strengths": 2,
+      "reviews": 1,
+      "comparisons": 0,
+      "best": [],
+      "guides": 0,
+      "runningLive": 0,
+      "runningShoes": 0,
+      "gpsWatches": 0,
+      "products": [
+        {
+          "slug": "varlion-lw-carbon-difusor-2026",
+          "name": "LW Carbon Difusor 2026",
+          "category": "padel-rackets",
+          "sports": [
+            "sport-padel"
+          ],
+          "lifecycle": "current",
+          "strengths": 2,
+          "status": "published"
+        },
+        {
+          "slug": "varlion-bourne-padel",
+          "name": "Bourne Padel",
+          "category": "padel-shoes",
+          "sports": [
+            "sport-padel",
+            "sport-tennis"
+          ],
+          "lifecycle": "current",
+          "strengths": 3,
+          "status": "published"
+        }
+      ],
+      "depthWouldPassIf3": true
+    },
+    {
+      "slug": "oxdog",
+      "name": "Oxdog",
+      "id": "brand-oxdog",
+      "source": "padel",
+      "holdClass": "HOLD_INSUFFICIENT_DEPTH",
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "liveProducts": 2,
+      "allVisibleDev": 2,
+      "rawCount": 2,
+      "draftOrGated": [],
+      "archived": [],
+      "current": 2,
+      "categories": [
+        "padel-rackets",
+        "padel-shoes"
+      ],
+      "sports": [
+        "sport-padel",
+        "sport-tennis"
+      ],
+      "draftSports": [
+        "sport-padel",
+        "sport-tennis"
+      ],
+      "families": [],
+      "strengths": 2,
+      "reviews": 1,
+      "comparisons": 0,
+      "best": [],
+      "guides": 0,
+      "runningLive": 0,
+      "runningShoes": 0,
+      "gpsWatches": 0,
+      "products": [
+        {
+          "slug": "oxdog-sense-pro",
+          "name": "Sense Pro",
+          "category": "padel-rackets",
+          "sports": [
+            "sport-padel"
+          ],
+          "lifecycle": "current",
+          "strengths": 3,
+          "status": "published"
+        },
+        {
+          "slug": "oxdog-hyper-court",
+          "name": "Hyper Court",
+          "category": "padel-shoes",
+          "sports": [
+            "sport-padel",
+            "sport-tennis"
+          ],
+          "lifecycle": "current",
+          "strengths": 3,
+          "status": "published"
+        }
+      ],
+      "depthWouldPassIf3": true
+    },
+    {
+      "slug": "royal-padel",
+      "name": "Royal Padel",
+      "id": "brand-royal-padel",
+      "source": "padel",
+      "holdClass": "HOLD_INSUFFICIENT_DEPTH",
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "liveProducts": 1,
+      "allVisibleDev": 1,
+      "rawCount": 1,
+      "draftOrGated": [],
+      "archived": [],
+      "current": 1,
+      "categories": [
+        "padel-rackets"
+      ],
+      "sports": [
+        "sport-padel"
+      ],
+      "draftSports": [
+        "sport-padel"
+      ],
+      "families": [],
+      "strengths": 1,
+      "reviews": 1,
+      "comparisons": 0,
+      "best": [],
+      "guides": 0,
+      "runningLive": 0,
+      "runningShoes": 0,
+      "gpsWatches": 0,
+      "products": [
+        {
+          "slug": "royal-padel-m27-poly-2026",
+          "name": "M27 Poly 2026",
+          "category": "padel-rackets",
+          "sports": [
+            "sport-padel"
+          ],
+          "lifecycle": "current",
+          "strengths": 3,
+          "status": "published"
+        }
+      ],
+      "depthWouldPassIf3": true
+    },
+    {
+      "slug": "black-crown",
+      "name": "Black Crown",
+      "id": "brand-black-crown",
+      "source": "padel",
+      "holdClass": "HOLD_INSUFFICIENT_DEPTH",
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "liveProducts": 1,
+      "allVisibleDev": 1,
+      "rawCount": 1,
+      "draftOrGated": [],
+      "archived": [],
+      "current": 1,
+      "categories": [
+        "padel-rackets"
+      ],
+      "sports": [
+        "sport-padel"
+      ],
+      "draftSports": [
+        "sport-padel"
+      ],
+      "families": [],
+      "strengths": 1,
+      "reviews": 1,
+      "comparisons": 0,
+      "best": [],
+      "guides": 0,
+      "runningLive": 0,
+      "runningShoes": 0,
+      "gpsWatches": 0,
+      "products": [
+        {
+          "slug": "black-crown-special-one-soft",
+          "name": "Special One Soft",
+          "category": "padel-rackets",
+          "sports": [
+            "sport-padel"
+          ],
+          "lifecycle": "current",
+          "strengths": 3,
+          "status": "published"
+        }
+      ],
+      "depthWouldPassIf3": true
+    },
+    {
+      "slug": "tecnifibre-padel",
+      "name": "Tecnifibre Padel",
+      "id": "brand-tecnifibre-padel",
+      "source": "padel",
+      "holdClass": "HOLD_INSUFFICIENT_DEPTH",
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "liveProducts": 2,
+      "allVisibleDev": 2,
+      "rawCount": 2,
+      "draftOrGated": [],
+      "archived": [],
+      "current": 2,
+      "categories": [
+        "padel-rackets",
+        "padel-shoes"
+      ],
+      "sports": [
+        "sport-padel",
+        "sport-tennis"
+      ],
+      "draftSports": [
+        "sport-padel",
+        "sport-tennis"
+      ],
+      "families": [],
+      "strengths": 2,
+      "reviews": 1,
+      "comparisons": 0,
+      "best": [],
+      "guides": 0,
+      "runningLive": 0,
+      "runningShoes": 0,
+      "gpsWatches": 0,
+      "products": [
+        {
+          "slug": "tecnifibre-wall-breaker-365",
+          "name": "Wall Breaker 365",
+          "category": "padel-rackets",
+          "sports": [
+            "sport-padel"
+          ],
+          "lifecycle": "current",
+          "strengths": 3,
+          "status": "published"
+        },
+        {
+          "slug": "tecnifibre-wall-shooter",
+          "name": "Wall Shooter",
+          "category": "padel-shoes",
+          "sports": [
+            "sport-padel",
+            "sport-tennis"
+          ],
+          "lifecycle": "current",
+          "strengths": 3,
+          "status": "published"
+        }
+      ],
+      "depthWouldPassIf3": true
+    },
+    {
+      "slug": "lok",
+      "name": "Lok",
+      "id": "brand-lok",
+      "source": "padel",
+      "holdClass": "HOLD_INSUFFICIENT_DEPTH",
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "liveProducts": 2,
+      "allVisibleDev": 2,
+      "rawCount": 2,
+      "draftOrGated": [],
+      "archived": [],
+      "current": 2,
+      "categories": [
+        "padel-rackets",
+        "padel-shoes"
+      ],
+      "sports": [
+        "sport-padel",
+        "sport-tennis"
+      ],
+      "draftSports": [
+        "sport-padel",
+        "sport-tennis"
+      ],
+      "families": [],
+      "strengths": 2,
+      "reviews": 1,
+      "comparisons": 0,
+      "best": [],
+      "guides": 0,
+      "runningLive": 0,
+      "runningShoes": 0,
+      "gpsWatches": 0,
+      "products": [
+        {
+          "slug": "lok-maxx-flow",
+          "name": "Maxx Flow",
+          "category": "padel-rackets",
+          "sports": [
+            "sport-padel"
+          ],
+          "lifecycle": "current",
+          "strengths": 3,
+          "status": "published"
+        },
+        {
+          "slug": "lok-padel-one",
+          "name": "Padel One",
+          "category": "padel-shoes",
+          "sports": [
+            "sport-padel",
+            "sport-tennis"
+          ],
+          "lifecycle": "current",
+          "strengths": 3,
+          "status": "published"
+        }
+      ],
+      "depthWouldPassIf3": true
+    },
+    {
+      "slug": "dunlop",
+      "name": "Dunlop",
+      "id": "brand-dunlop-racket",
+      "source": "racket",
+      "holdClass": "HOLD_INSUFFICIENT_DEPTH",
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "liveProducts": 1,
+      "allVisibleDev": 3,
+      "rawCount": 3,
+      "draftOrGated": [
+        {
+          "slug": "dunlop-sonic-core-revelation-pro",
+          "name": "Sonic Core Revelation Pro",
+          "status": "draft",
+          "categoryId": "cat-squash-rackets",
+          "sports": [
+            "sport-squash"
+          ],
+          "lifecycle": "current"
+        },
+        {
+          "slug": "dunlop-cx-tour-squash",
+          "name": "CX Tour Squash",
+          "status": "draft",
+          "categoryId": "cat-squash-rackets",
+          "sports": [
+            "sport-squash"
+          ],
+          "lifecycle": "current"
+        }
+      ],
+      "archived": [],
+      "current": 1,
+      "categories": [
+        "tennis-rackets"
+      ],
+      "sports": [
+        "sport-tennis"
+      ],
+      "draftSports": [
+        "sport-tennis",
+        "sport-squash"
+      ],
+      "families": [],
+      "strengths": 1,
+      "reviews": 1,
+      "comparisons": 0,
+      "best": [],
+      "guides": 0,
+      "runningLive": 0,
+      "runningShoes": 0,
+      "gpsWatches": 0,
+      "products": [
+        {
+          "slug": "dunlop-cx-200",
+          "name": "CX 200",
+          "category": "tennis-rackets",
+          "sports": [
+            "sport-tennis"
+          ],
+          "lifecycle": "current",
+          "strengths": 2,
+          "status": "published"
+        }
+      ],
+      "depthWouldPassIf3": true
+    },
+    {
+      "slug": "prince",
+      "name": "Prince",
+      "id": "brand-prince",
+      "source": "racket",
+      "holdClass": "HOLD_INSUFFICIENT_DEPTH",
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "liveProducts": 2,
+      "allVisibleDev": 2,
+      "rawCount": 2,
+      "draftOrGated": [],
+      "archived": [],
+      "current": 2,
+      "categories": [
+        "tennis-rackets",
+        "tennis-shoes"
+      ],
+      "sports": [
+        "sport-tennis",
+        "sport-padel"
+      ],
+      "draftSports": [
+        "sport-tennis",
+        "sport-padel"
+      ],
+      "families": [],
+      "strengths": 2,
+      "reviews": 1,
+      "comparisons": 0,
+      "best": [],
+      "guides": 0,
+      "runningLive": 0,
+      "runningShoes": 0,
+      "gpsWatches": 0,
+      "products": [
+        {
+          "slug": "prince-textreme-tour-100p",
+          "name": "Textreme Tour 100P",
+          "category": "tennis-rackets",
+          "sports": [
+            "sport-tennis"
+          ],
+          "lifecycle": "current",
+          "strengths": 2,
+          "status": "published"
+        },
+        {
+          "slug": "prince-t22",
+          "name": "T22",
+          "category": "tennis-shoes",
+          "sports": [
+            "sport-tennis",
+            "sport-padel"
+          ],
+          "lifecycle": "current",
+          "strengths": 2,
+          "status": "published"
+        }
+      ],
+      "depthWouldPassIf3": true
+    },
+    {
+      "slug": "selkirk",
+      "name": "Selkirk",
+      "id": "brand-selkirk",
+      "source": "racket",
+      "holdClass": "HOLD_INSUFFICIENT_DEPTH",
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "liveProducts": 1,
+      "allVisibleDev": 2,
+      "rawCount": 2,
+      "draftOrGated": [
+        {
+          "slug": "selkirk-vanguard-power-air",
+          "name": "Vanguard Power Air Invikta",
+          "status": "draft",
+          "categoryId": "cat-pickleball-paddles",
+          "sports": [
+            "sport-pickleball"
+          ],
+          "lifecycle": "current"
+        }
+      ],
+      "archived": [],
+      "current": 1,
+      "categories": [
+        "pickleball-paddles"
+      ],
+      "sports": [
+        "sport-pickleball"
+      ],
+      "draftSports": [
+        "sport-pickleball"
+      ],
+      "families": [],
+      "strengths": 1,
+      "reviews": 0,
+      "comparisons": 0,
+      "best": [],
+      "guides": 0,
+      "runningLive": 0,
+      "runningShoes": 0,
+      "gpsWatches": 0,
+      "products": [
+        {
+          "slug": "selkirk-ampsed-epic",
+          "name": "Amped Epic",
+          "category": "pickleball-paddles",
+          "sports": [
+            "sport-pickleball"
+          ],
+          "lifecycle": "current",
+          "strengths": 2,
+          "status": "published"
+        }
+      ],
+      "depthWouldPassIf3": true
+    },
+    {
+      "slug": "joola",
+      "name": "JOOLA",
+      "id": "brand-joola",
+      "source": "racket",
+      "holdClass": "HOLD_INSUFFICIENT_DEPTH",
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "liveProducts": 2,
+      "allVisibleDev": 2,
+      "rawCount": 2,
+      "draftOrGated": [],
+      "archived": [],
+      "current": 2,
+      "categories": [
+        "pickleball-paddles"
+      ],
+      "sports": [
+        "sport-pickleball"
+      ],
+      "draftSports": [
+        "sport-pickleball"
+      ],
+      "families": [],
+      "strengths": 2,
+      "reviews": 0,
+      "comparisons": 0,
+      "best": [],
+      "guides": 0,
+      "runningLive": 0,
+      "runningShoes": 0,
+      "gpsWatches": 0,
+      "products": [
+        {
+          "slug": "joola-ben-johns-hyperion-cfs-16",
+          "name": "Ben Johns Hyperion CFS 16",
+          "category": "pickleball-paddles",
+          "sports": [
+            "sport-pickleball"
+          ],
+          "lifecycle": "current",
+          "strengths": 2,
+          "status": "published"
+        },
+        {
+          "slug": "joola-perseus-16",
+          "name": "Perseus 16",
+          "category": "pickleball-paddles",
+          "sports": [
+            "sport-pickleball"
+          ],
+          "lifecycle": "current",
+          "strengths": 2,
+          "status": "published"
+        }
+      ],
+      "depthWouldPassIf3": true
+    },
+    {
+      "slug": "victor",
+      "name": "Victor",
+      "id": "brand-victor",
+      "source": "racket",
+      "holdClass": "HOLD_INSUFFICIENT_DEPTH",
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "liveProducts": 1,
+      "allVisibleDev": 1,
+      "rawCount": 1,
+      "draftOrGated": [],
+      "archived": [],
+      "current": 1,
+      "categories": [
+        "badminton-rackets"
+      ],
+      "sports": [
+        "sport-badminton"
+      ],
+      "draftSports": [
+        "sport-badminton"
+      ],
+      "families": [],
+      "strengths": 1,
+      "reviews": 0,
+      "comparisons": 0,
+      "best": [],
+      "guides": 0,
+      "runningLive": 0,
+      "runningShoes": 0,
+      "gpsWatches": 0,
+      "products": [
+        {
+          "slug": "victor-thruster-k-falcon",
+          "name": "Thruster K Falcon",
+          "category": "badminton-rackets",
+          "sports": [
+            "sport-badminton"
+          ],
+          "lifecycle": "current",
+          "strengths": 2,
+          "status": "published"
+        }
+      ],
+      "depthWouldPassIf3": true
+    },
+    {
+      "slug": "luxilon",
+      "name": "Luxilon",
+      "id": "brand-luxilon",
+      "source": "racket",
+      "holdClass": "HOLD_INSUFFICIENT_DEPTH",
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "liveProducts": 1,
+      "allVisibleDev": 1,
+      "rawCount": 1,
+      "draftOrGated": [],
+      "archived": [],
+      "current": 1,
+      "categories": [
+        "tennis-strings"
+      ],
+      "sports": [
+        "sport-tennis"
+      ],
+      "draftSports": [
+        "sport-tennis"
+      ],
+      "families": [],
+      "strengths": 1,
+      "reviews": 0,
+      "comparisons": 0,
+      "best": [],
+      "guides": 0,
+      "runningLive": 0,
+      "runningShoes": 0,
+      "gpsWatches": 0,
+      "products": [
+        {
+          "slug": "luxilon-alu-power",
+          "name": "ALU Power",
+          "category": "tennis-strings",
+          "sports": [
+            "sport-tennis"
+          ],
+          "lifecycle": "current",
+          "strengths": 3,
+          "status": "published"
+        }
+      ],
+      "depthWouldPassIf3": true
+    },
+    {
+      "slug": "solinco",
+      "name": "Solinco",
+      "id": "brand-solinco",
+      "source": "racket",
+      "holdClass": "HOLD_INSUFFICIENT_DEPTH",
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "liveProducts": 1,
+      "allVisibleDev": 1,
+      "rawCount": 1,
+      "draftOrGated": [],
+      "archived": [],
+      "current": 1,
+      "categories": [
+        "tennis-strings"
+      ],
+      "sports": [
+        "sport-tennis"
+      ],
+      "draftSports": [
+        "sport-tennis"
+      ],
+      "families": [],
+      "strengths": 1,
+      "reviews": 0,
+      "comparisons": 0,
+      "best": [],
+      "guides": 0,
+      "runningLive": 0,
+      "runningShoes": 0,
+      "gpsWatches": 0,
+      "products": [
+        {
+          "slug": "solinco-hyper-g",
+          "name": "Hyper-G",
+          "category": "tennis-strings",
+          "sports": [
+            "sport-tennis"
+          ],
+          "lifecycle": "current",
+          "strengths": 3,
+          "status": "published"
+        }
+      ],
+      "depthWouldPassIf3": true
+    },
+    {
+      "slug": "k-swiss",
+      "name": "K-Swiss",
+      "id": "brand-k-swiss",
+      "source": "racket",
+      "holdClass": "HOLD_INSUFFICIENT_DEPTH",
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "liveProducts": 2,
+      "allVisibleDev": 2,
+      "rawCount": 2,
+      "draftOrGated": [],
+      "archived": [],
+      "current": 2,
+      "categories": [
+        "tennis-shoes"
+      ],
+      "sports": [
+        "sport-tennis",
+        "sport-padel"
+      ],
+      "draftSports": [
+        "sport-tennis",
+        "sport-padel"
+      ],
+      "families": [],
+      "strengths": 2,
+      "reviews": 2,
+      "comparisons": 0,
+      "best": [],
+      "guides": 0,
+      "runningLive": 0,
+      "runningShoes": 0,
+      "gpsWatches": 0,
+      "products": [
+        {
+          "slug": "k-swiss-hypercourt-express-2",
+          "name": "Hypercourt Express 2",
+          "category": "tennis-shoes",
+          "sports": [
+            "sport-tennis",
+            "sport-padel"
+          ],
+          "lifecycle": "current",
+          "strengths": 3,
+          "status": "published"
+        },
+        {
+          "slug": "k-swiss-ultrashot-3",
+          "name": "Ultrashot 3",
+          "category": "tennis-shoes",
+          "sports": [
+            "sport-tennis",
+            "sport-padel"
+          ],
+          "lifecycle": "current",
+          "strengths": 3,
+          "status": "published"
+        }
+      ],
+      "depthWouldPassIf3": true
+    },
+    {
+      "slug": "nuobell",
+      "name": "NÜOBELL",
+      "id": "brand-nuobell",
+      "source": "fitness",
+      "holdClass": "HOLD_INSUFFICIENT_DEPTH",
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "liveProducts": 2,
+      "allVisibleDev": 2,
+      "rawCount": 2,
+      "draftOrGated": [],
+      "archived": [],
+      "current": 2,
+      "categories": [
+        "adjustable-dumbbells"
+      ],
+      "sports": [
+        "sport-training"
+      ],
+      "draftSports": [
+        "sport-training"
+      ],
+      "families": [],
+      "strengths": 2,
+      "reviews": 2,
+      "comparisons": 1,
+      "best": [
+        "adjustable-dumbbells",
+        "home-gym-equipment"
+      ],
+      "guides": 4,
+      "runningLive": 0,
+      "runningShoes": 0,
+      "gpsWatches": 0,
+      "products": [
+        {
+          "slug": "nuobell-80",
+          "name": "NÜOBELL 80",
+          "category": "adjustable-dumbbells",
+          "sports": [
+            "sport-training"
+          ],
+          "lifecycle": "current",
+          "strengths": 2,
+          "status": "published"
+        },
+        {
+          "slug": "nuobell-50",
+          "name": "NÜOBELL 50",
+          "category": "adjustable-dumbbells",
+          "sports": [
+            "sport-training"
+          ],
+          "lifecycle": "current",
+          "strengths": 2,
+          "status": "published"
+        }
+      ],
+      "depthWouldPassIf3": true
+    },
+    {
+      "slug": "bowflex",
+      "name": "Bowflex",
+      "id": "brand-bowflex",
+      "source": "fitness",
+      "holdClass": "HOLD_INSUFFICIENT_DEPTH",
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "liveProducts": 2,
+      "allVisibleDev": 2,
+      "rawCount": 2,
+      "draftOrGated": [],
+      "archived": [],
+      "current": 2,
+      "categories": [
+        "adjustable-dumbbells"
+      ],
+      "sports": [
+        "sport-training"
+      ],
+      "draftSports": [
+        "sport-training"
+      ],
+      "families": [],
+      "strengths": 2,
+      "reviews": 2,
+      "comparisons": 0,
+      "best": [
+        "adjustable-dumbbells"
+      ],
+      "guides": 1,
+      "runningLive": 0,
+      "runningShoes": 0,
+      "gpsWatches": 0,
+      "products": [
+        {
+          "slug": "bowflex-selecttech-552",
+          "name": "SelectTech 552",
+          "category": "adjustable-dumbbells",
+          "sports": [
+            "sport-training"
+          ],
+          "lifecycle": "current",
+          "strengths": 2,
+          "status": "published"
+        },
+        {
+          "slug": "bowflex-selecttech-1090",
+          "name": "SelectTech 1090",
+          "category": "adjustable-dumbbells",
+          "sports": [
+            "sport-training"
+          ],
+          "lifecycle": "current",
+          "strengths": 2,
+          "status": "published"
+        }
+      ],
+      "depthWouldPassIf3": true
+    },
+    {
+      "slug": "atx",
+      "name": "ATX",
+      "id": "brand-atx",
+      "source": "fitness",
+      "holdClass": "HOLD_INSUFFICIENT_DEPTH",
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "liveProducts": 2,
+      "allVisibleDev": 2,
+      "rawCount": 2,
+      "draftOrGated": [],
+      "archived": [],
+      "current": 2,
+      "categories": [
+        "weight-plates",
+        "weight-benches"
+      ],
+      "sports": [
+        "sport-training"
+      ],
+      "draftSports": [
+        "sport-training"
+      ],
+      "families": [],
+      "strengths": 2,
+      "reviews": 2,
+      "comparisons": 0,
+      "best": [
+        "weight-plates",
+        "adjustable-benches"
+      ],
+      "guides": 2,
+      "runningLive": 0,
+      "runningShoes": 0,
+      "gpsWatches": 0,
+      "products": [
+        {
+          "slug": "atx-cast-iron-plate-set",
+          "name": "Cast Iron Plate Set",
+          "category": "weight-plates",
+          "sports": [
+            "sport-training"
+          ],
+          "lifecycle": "current",
+          "strengths": 2,
+          "status": "published"
+        },
+        {
+          "slug": "atx-fid-bench",
+          "name": "FID Bench",
+          "category": "weight-benches",
+          "sports": [
+            "sport-training"
+          ],
+          "lifecycle": "current",
+          "strengths": 2,
+          "status": "published"
+        }
+      ],
+      "depthWouldPassIf3": true
+    },
+    {
+      "slug": "hydrow",
+      "name": "Hydrow",
+      "id": "brand-hydrow",
+      "source": "fitness",
+      "holdClass": "HOLD_INSUFFICIENT_DEPTH",
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "liveProducts": 1,
+      "allVisibleDev": 1,
+      "rawCount": 1,
+      "draftOrGated": [],
+      "archived": [],
+      "current": 1,
+      "categories": [
+        "rowing-machines"
+      ],
+      "sports": [
+        "sport-training",
+        "sport-hyrox"
+      ],
+      "draftSports": [
+        "sport-training",
+        "sport-hyrox"
+      ],
+      "families": [],
+      "strengths": 1,
+      "reviews": 1,
+      "comparisons": 1,
+      "best": [],
+      "guides": 1,
+      "runningLive": 0,
+      "runningShoes": 0,
+      "gpsWatches": 0,
+      "products": [
+        {
+          "slug": "hydrow-wave",
+          "name": "Wave",
+          "category": "rowing-machines",
+          "sports": [
+            "sport-training",
+            "sport-hyrox"
+          ],
+          "lifecycle": "current",
+          "strengths": 2,
+          "status": "published"
+        }
+      ],
+      "depthWouldPassIf3": true
+    },
+    {
+      "slug": "sole-fitness",
+      "name": "Sole Fitness",
+      "id": "brand-sole",
+      "source": "fitness",
+      "holdClass": "HOLD_INSUFFICIENT_DEPTH",
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "liveProducts": 1,
+      "allVisibleDev": 1,
+      "rawCount": 1,
+      "draftOrGated": [],
+      "archived": [],
+      "current": 1,
+      "categories": [
+        "treadmills"
+      ],
+      "sports": [
+        "sport-training",
+        "sport-hyrox"
+      ],
+      "draftSports": [
+        "sport-training",
+        "sport-hyrox"
+      ],
+      "families": [],
+      "strengths": 1,
+      "reviews": 1,
+      "comparisons": 1,
+      "best": [
+        "treadmills-for-home"
+      ],
+      "guides": 1,
+      "runningLive": 0,
+      "runningShoes": 0,
+      "gpsWatches": 0,
+      "products": [
+        {
+          "slug": "sole-f80-treadmill",
+          "name": "F80 Treadmill",
+          "category": "treadmills",
+          "sports": [
+            "sport-training",
+            "sport-hyrox"
+          ],
+          "lifecycle": "current",
+          "strengths": 2,
+          "status": "published"
+        }
+      ],
+      "depthWouldPassIf3": true
+    },
+    {
+      "slug": "horizon-fitness",
+      "name": "Horizon Fitness",
+      "id": "brand-horizon",
+      "source": "fitness",
+      "holdClass": "HOLD_INSUFFICIENT_DEPTH",
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "liveProducts": 1,
+      "allVisibleDev": 1,
+      "rawCount": 1,
+      "draftOrGated": [],
+      "archived": [],
+      "current": 1,
+      "categories": [
+        "treadmills"
+      ],
+      "sports": [
+        "sport-training",
+        "sport-hyrox"
+      ],
+      "draftSports": [
+        "sport-training",
+        "sport-hyrox"
+      ],
+      "families": [],
+      "strengths": 1,
+      "reviews": 1,
+      "comparisons": 1,
+      "best": [
+        "treadmills-for-home"
+      ],
+      "guides": 1,
+      "runningLive": 0,
+      "runningShoes": 0,
+      "gpsWatches": 0,
+      "products": [
+        {
+          "slug": "horizon-t202-treadmill",
+          "name": "T202 Treadmill",
+          "category": "treadmills",
+          "sports": [
+            "sport-training",
+            "sport-hyrox"
+          ],
+          "lifecycle": "current",
+          "strengths": 2,
+          "status": "published"
+        }
+      ],
+      "depthWouldPassIf3": true
+    },
+    {
+      "slug": "woodway",
+      "name": "Woodway",
+      "id": "brand-woodway",
+      "source": "fitness",
+      "holdClass": "HOLD_INSUFFICIENT_DEPTH",
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "liveProducts": 1,
+      "allVisibleDev": 1,
+      "rawCount": 1,
+      "draftOrGated": [],
+      "archived": [],
+      "current": 1,
+      "categories": [
+        "treadmills"
+      ],
+      "sports": [
+        "sport-training",
+        "sport-hyrox"
+      ],
+      "draftSports": [
+        "sport-training",
+        "sport-hyrox"
+      ],
+      "families": [],
+      "strengths": 1,
+      "reviews": 1,
+      "comparisons": 0,
+      "best": [],
+      "guides": 0,
+      "runningLive": 0,
+      "runningShoes": 0,
+      "gpsWatches": 0,
+      "products": [
+        {
+          "slug": "woodway-curve-trainer",
+          "name": "Curve Trainer",
+          "category": "treadmills",
+          "sports": [
+            "sport-training",
+            "sport-hyrox"
+          ],
+          "lifecycle": "current",
+          "strengths": 2,
+          "status": "published"
+        }
+      ],
+      "depthWouldPassIf3": true
+    },
+    {
+      "slug": "waterrower",
+      "name": "WaterRower",
+      "id": "brand-waterrower",
+      "source": "fitness",
+      "holdClass": "HOLD_INSUFFICIENT_DEPTH",
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "liveProducts": 1,
+      "allVisibleDev": 1,
+      "rawCount": 1,
+      "draftOrGated": [],
+      "archived": [],
+      "current": 1,
+      "categories": [
+        "rowing-machines"
+      ],
+      "sports": [
+        "sport-training",
+        "sport-hyrox"
+      ],
+      "draftSports": [
+        "sport-training",
+        "sport-hyrox"
+      ],
+      "families": [],
+      "strengths": 1,
+      "reviews": 1,
+      "comparisons": 0,
+      "best": [],
+      "guides": 1,
+      "runningLive": 0,
+      "runningShoes": 0,
+      "gpsWatches": 0,
+      "products": [
+        {
+          "slug": "waterrower-a1",
+          "name": "A1 Home",
+          "category": "rowing-machines",
+          "sports": [
+            "sport-training",
+            "sport-hyrox"
+          ],
+          "lifecycle": "current",
+          "strengths": 2,
+          "status": "published"
+        }
+      ],
+      "depthWouldPassIf3": true
+    },
+    {
+      "slug": "schwinn",
+      "name": "Schwinn",
+      "id": "brand-schwinn",
+      "source": "fitness",
+      "holdClass": "HOLD_INSUFFICIENT_DEPTH",
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "liveProducts": 1,
+      "allVisibleDev": 1,
+      "rawCount": 1,
+      "draftOrGated": [],
+      "archived": [],
+      "current": 1,
+      "categories": [
+        "air-bikes"
+      ],
+      "sports": [
+        "sport-training",
+        "sport-hyrox"
+      ],
+      "draftSports": [
+        "sport-training",
+        "sport-hyrox"
+      ],
+      "families": [],
+      "strengths": 1,
+      "reviews": 1,
+      "comparisons": 0,
+      "best": [],
+      "guides": 0,
+      "runningLive": 0,
+      "runningShoes": 0,
+      "gpsWatches": 0,
+      "products": [
+        {
+          "slug": "schwinn-airdyne-ad8",
+          "name": "Airdyne AD8",
+          "category": "air-bikes",
+          "sports": [
+            "sport-training",
+            "sport-hyrox"
+          ],
+          "lifecycle": "current",
+          "strengths": 2,
+          "status": "published"
+        }
+      ],
+      "depthWouldPassIf3": true
+    },
+    {
+      "slug": "xebex",
+      "name": "Xebex Fitness",
+      "id": "brand-xebex",
+      "source": "fitness",
+      "holdClass": "HOLD_INSUFFICIENT_DEPTH",
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "liveProducts": 2,
+      "allVisibleDev": 2,
+      "rawCount": 2,
+      "draftOrGated": [],
+      "archived": [],
+      "current": 2,
+      "categories": [
+        "ski-ergs"
+      ],
+      "sports": [
+        "sport-training",
+        "sport-hyrox"
+      ],
+      "draftSports": [
+        "sport-training",
+        "sport-hyrox"
+      ],
+      "families": [],
+      "strengths": 2,
+      "reviews": 2,
+      "comparisons": 0,
+      "best": [],
+      "guides": 0,
+      "runningLive": 0,
+      "runningShoes": 0,
+      "gpsWatches": 0,
+      "products": [
+        {
+          "slug": "xebex-ski-erg",
+          "name": "Ski Erg",
+          "category": "ski-ergs",
+          "sports": [
+            "sport-training",
+            "sport-hyrox"
+          ],
+          "lifecycle": "current",
+          "strengths": 2,
+          "status": "published"
+        },
+        {
+          "slug": "skierg2-wall-mount",
+          "name": "SkiErg2 Wall",
+          "category": "ski-ergs",
+          "sports": [
+            "sport-training",
+            "sport-hyrox"
+          ],
+          "lifecycle": "current",
+          "strengths": 2,
+          "status": "published"
+        }
+      ],
+      "depthWouldPassIf3": true
+    },
+    {
+      "slug": "lululemon",
+      "name": "lululemon",
+      "id": "brand-lululemon",
+      "source": "fitness",
+      "holdClass": "HOLD_INSUFFICIENT_DEPTH",
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "liveProducts": 1,
+      "allVisibleDev": 6,
+      "rawCount": 6,
+      "draftOrGated": [
+        {
+          "slug": "lululemon-pace-breaker-men",
+          "name": "Pace Breaker Lined Short",
+          "status": "draft",
+          "categoryId": "cat-running-clothing",
+          "sports": [
+            "sport-running"
+          ],
+          "lifecycle": "current"
+        },
+        {
+          "slug": "lululemon-hotty-hot-women",
+          "name": "Hotty Hot High-Rise Short",
+          "status": "draft",
+          "categoryId": "cat-running-clothing",
+          "sports": [
+            "sport-running"
+          ],
+          "lifecycle": "current"
+        },
+        {
+          "slug": "lululemon-fast-and-free-women",
+          "name": "Fast and Free High-Rise Tight",
+          "status": "draft",
+          "categoryId": "cat-running-clothing",
+          "sports": [
+            "sport-running"
+          ],
+          "lifecycle": "current"
+        },
+        {
+          "slug": "lululemon-always-in-motion-men",
+          "name": "Always In Motion Boxer",
+          "status": "draft",
+          "categoryId": "cat-running-clothing",
+          "sports": [
+            "sport-running"
+          ],
+          "lifecycle": "current"
+        },
+        {
+          "slug": "lululemon-energy-bra",
+          "name": "Energy Bra",
+          "status": "draft",
+          "categoryId": "cat-running-clothing",
+          "sports": [
+            "sport-running"
+          ],
+          "lifecycle": "current"
+        }
+      ],
+      "archived": [],
+      "current": 1,
+      "categories": [
+        "training-shoes"
+      ],
+      "sports": [
+        "sport-training"
+      ],
+      "draftSports": [
+        "sport-running",
+        "sport-training"
+      ],
+      "families": [
+        "Always In Motion",
+        "Energy",
+        "Fast and Free",
+        "Hotty Hot",
+        "Pace Breaker"
+      ],
+      "strengths": 1,
+      "reviews": 1,
+      "comparisons": 0,
+      "best": [],
+      "guides": 0,
+      "runningLive": 0,
+      "runningShoes": 0,
+      "gpsWatches": 0,
+      "products": [
+        {
+          "slug": "lululemon-strongfeel",
+          "name": "Strongfeel",
+          "category": "training-shoes",
+          "sports": [
+            "sport-training"
+          ],
+          "lifecycle": "current",
+          "strengths": 2,
+          "status": "published"
+        }
+      ],
+      "depthWouldPassIf3": true
+    },
+    {
+      "slug": "xero-shoes",
+      "name": "Xero Shoes",
+      "id": "brand-xero",
+      "source": "fitness",
+      "holdClass": "HOLD_INSUFFICIENT_DEPTH",
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "liveProducts": 1,
+      "allVisibleDev": 1,
+      "rawCount": 1,
+      "draftOrGated": [],
+      "archived": [],
+      "current": 1,
+      "categories": [
+        "training-shoes"
+      ],
+      "sports": [
+        "sport-training"
+      ],
+      "draftSports": [
+        "sport-training"
+      ],
+      "families": [],
+      "strengths": 1,
+      "reviews": 1,
+      "comparisons": 0,
+      "best": [],
+      "guides": 0,
+      "runningLive": 0,
+      "runningShoes": 0,
+      "gpsWatches": 0,
+      "products": [
+        {
+          "slug": "xero-prio",
+          "name": "Prio",
+          "category": "training-shoes",
+          "sports": [
+            "sport-training"
+          ],
+          "lifecycle": "current",
+          "strengths": 2,
+          "status": "published"
+        }
+      ],
+      "depthWouldPassIf3": true
+    },
+    {
+      "slug": "vivobarefoot",
+      "name": "Vivobarefoot",
+      "id": "brand-vivobarefoot",
+      "source": "fitness",
+      "holdClass": "HOLD_INSUFFICIENT_DEPTH",
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "liveProducts": 1,
+      "allVisibleDev": 1,
+      "rawCount": 1,
+      "draftOrGated": [],
+      "archived": [],
+      "current": 1,
+      "categories": [
+        "training-shoes"
+      ],
+      "sports": [
+        "sport-training"
+      ],
+      "draftSports": [
+        "sport-training"
+      ],
+      "families": [],
+      "strengths": 1,
+      "reviews": 1,
+      "comparisons": 0,
+      "best": [],
+      "guides": 0,
+      "runningLive": 0,
+      "runningShoes": 0,
+      "gpsWatches": 0,
+      "products": [
+        {
+          "slug": "vivobarefoot-primus-lite-iii",
+          "name": "Primus Lite III",
+          "category": "training-shoes",
+          "sports": [
+            "sport-training"
+          ],
+          "lifecycle": "current",
+          "strengths": 2,
+          "status": "published"
+        }
+      ],
+      "depthWouldPassIf3": true
+    },
+    {
+      "slug": "salming",
+      "name": "Salming",
+      "id": "brand-salming",
+      "source": "fitness",
+      "holdClass": "HOLD_INSUFFICIENT_DEPTH",
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "liveProducts": 2,
+      "allVisibleDev": 2,
+      "rawCount": 2,
+      "draftOrGated": [],
+      "archived": [],
+      "current": 2,
+      "categories": [
+        "training-shoes"
+      ],
+      "sports": [
+        "sport-training",
+        "sport-hyrox"
+      ],
+      "draftSports": [
+        "sport-training",
+        "sport-hyrox"
+      ],
+      "families": [],
+      "strengths": 2,
+      "reviews": 2,
+      "comparisons": 0,
+      "best": [
+        "hyrox-shoes"
+      ],
+      "guides": 0,
+      "runningLive": 0,
+      "runningShoes": 0,
+      "gpsWatches": 0,
+      "products": [
+        {
+          "slug": "salming-race-9",
+          "name": "Race 9",
+          "category": "training-shoes",
+          "sports": [
+            "sport-training",
+            "sport-hyrox"
+          ],
+          "lifecycle": "current",
+          "strengths": 2,
+          "status": "published"
+        },
+        {
+          "slug": "salming-rebel",
+          "name": "Rebel",
+          "category": "training-shoes",
+          "sports": [
+            "sport-training",
+            "sport-hyrox"
+          ],
+          "lifecycle": "current",
+          "strengths": 2,
+          "status": "published"
+        }
+      ],
+      "depthWouldPassIf3": true
+    },
+    {
+      "slug": "do-win",
+      "name": "Do-Win",
+      "id": "brand-do-win",
+      "source": "fitness",
+      "holdClass": "HOLD_INSUFFICIENT_DEPTH",
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "liveProducts": 1,
+      "allVisibleDev": 1,
+      "rawCount": 1,
+      "draftOrGated": [],
+      "archived": [],
+      "current": 1,
+      "categories": [
+        "training-shoes"
+      ],
+      "sports": [
+        "sport-training"
+      ],
+      "draftSports": [
+        "sport-training"
+      ],
+      "families": [],
+      "strengths": 1,
+      "reviews": 1,
+      "comparisons": 0,
+      "best": [],
+      "guides": 0,
+      "runningLive": 0,
+      "runningShoes": 0,
+      "gpsWatches": 0,
+      "products": [
+        {
+          "slug": "do-win-classic",
+          "name": "Classic",
+          "category": "training-shoes",
+          "sports": [
+            "sport-training"
+          ],
+          "lifecycle": "current",
+          "strengths": 2,
+          "status": "published"
+        }
+      ],
+      "depthWouldPassIf3": true
+    }
+  ],
+  "noProducts": [
+    {
+      "slug": "raidlight",
+      "name": "RaidLight",
+      "id": "brand-raidlight",
+      "source": "running",
+      "holdClass": "HOLD_NO_PRODUCTS",
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "liveProducts": 0,
+      "allVisibleDev": 1,
+      "rawCount": 1,
+      "draftOrGated": [
+        {
+          "slug": "raidlight-responsiv-12",
+          "name": "Responsiv 12",
+          "status": "draft",
+          "categoryId": "cat-packs-vests",
+          "sports": [
+            "sport-running"
+          ],
+          "lifecycle": "current"
+        }
+      ],
+      "archived": [],
+      "current": 0,
+      "categories": [],
+      "sports": [],
+      "draftSports": [
+        "sport-running"
+      ],
+      "families": [
+        "Responsiv"
+      ],
+      "strengths": 0,
+      "reviews": 0,
+      "comparisons": 0,
+      "best": [],
+      "guides": 0,
+      "runningLive": 0,
+      "runningShoes": 0,
+      "gpsWatches": 0,
+      "products": [],
+      "depthWouldPassIf3": true
+    },
+    {
+      "slug": "the-north-face",
+      "name": "The North Face",
+      "id": "brand-the-north-face",
+      "source": "running",
+      "holdClass": "HOLD_NO_PRODUCTS",
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "liveProducts": 0,
+      "allVisibleDev": 1,
+      "rawCount": 1,
+      "draftOrGated": [
+        {
+          "slug": "tnf-flight-series-jacket-men",
+          "name": "Flight Series Rain Shell",
+          "status": "draft",
+          "categoryId": "cat-running-clothing",
+          "sports": [
+            "sport-running"
+          ],
+          "lifecycle": "current"
+        }
+      ],
+      "archived": [],
+      "current": 0,
+      "categories": [],
+      "sports": [],
+      "draftSports": [
+        "sport-running"
+      ],
+      "families": [
+        "Flight"
+      ],
+      "strengths": 0,
+      "reviews": 0,
+      "comparisons": 0,
+      "best": [],
+      "guides": 0,
+      "runningLive": 0,
+      "runningShoes": 0,
+      "gpsWatches": 0,
+      "products": [],
+      "depthWouldPassIf3": true
+    },
+    {
+      "slug": "stance",
+      "name": "Stance",
+      "id": "brand-stance",
+      "source": "running",
+      "holdClass": "HOLD_NO_PRODUCTS",
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "liveProducts": 0,
+      "allVisibleDev": 1,
+      "rawCount": 1,
+      "draftOrGated": [
+        {
+          "slug": "stance-run-crew",
+          "name": "Run Crew",
+          "status": "draft",
+          "categoryId": "cat-running-socks",
+          "sports": [
+            "sport-running"
+          ],
+          "lifecycle": "current"
+        }
+      ],
+      "archived": [],
+      "current": 0,
+      "categories": [],
+      "sports": [],
+      "draftSports": [
+        "sport-running"
+      ],
+      "families": [
+        "Run Crew"
+      ],
+      "strengths": 0,
+      "reviews": 0,
+      "comparisons": 0,
+      "best": [],
+      "guides": 0,
+      "runningLive": 0,
+      "runningShoes": 0,
+      "gpsWatches": 0,
+      "products": [],
+      "depthWouldPassIf3": true
+    },
+    {
+      "slug": "saxx",
+      "name": "SAXX",
+      "id": "brand-saxx",
+      "source": "running",
+      "holdClass": "HOLD_NO_PRODUCTS",
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "liveProducts": 0,
+      "allVisibleDev": 1,
+      "rawCount": 1,
+      "draftOrGated": [
+        {
+          "slug": "saxx-kinetic-hd-men",
+          "name": "Kinetic HD Boxer Brief",
+          "status": "draft",
+          "categoryId": "cat-running-clothing",
+          "sports": [
+            "sport-running"
+          ],
+          "lifecycle": "current"
+        }
+      ],
+      "archived": [],
+      "current": 0,
+      "categories": [],
+      "sports": [],
+      "draftSports": [
+        "sport-running"
+      ],
+      "families": [
+        "Kinetic"
+      ],
+      "strengths": 0,
+      "reviews": 0,
+      "comparisons": 0,
+      "best": [],
+      "guides": 0,
+      "runningLive": 0,
+      "runningShoes": 0,
+      "gpsWatches": 0,
+      "products": [],
+      "depthWouldPassIf3": true
+    },
+    {
+      "slug": "leki",
+      "name": "LEKI",
+      "id": "brand-leki",
+      "source": "running",
+      "holdClass": "HOLD_NO_PRODUCTS",
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "liveProducts": 0,
+      "allVisibleDev": 1,
+      "rawCount": 1,
+      "draftOrGated": [
+        {
+          "slug": "leki-trail-running-quiver",
+          "name": "Trail Running Quiver",
+          "status": "draft",
+          "categoryId": "cat-packs-vests",
+          "sports": [
+            "sport-running"
+          ],
+          "lifecycle": "current"
+        }
+      ],
+      "archived": [],
+      "current": 0,
+      "categories": [],
+      "sports": [],
+      "draftSports": [
+        "sport-running"
+      ],
+      "families": [
+        "Trail Running Quiver"
+      ],
+      "strengths": 0,
+      "reviews": 0,
+      "comparisons": 0,
+      "best": [],
+      "guides": 0,
+      "runningLive": 0,
+      "runningShoes": 0,
+      "gpsWatches": 0,
+      "products": [],
+      "depthWouldPassIf3": true
+    },
+    {
+      "slug": "bombas",
+      "name": "Bombas",
+      "id": "brand-bombas",
+      "source": "running",
+      "holdClass": "HOLD_NO_PRODUCTS",
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "liveProducts": 0,
+      "allVisibleDev": 1,
+      "rawCount": 1,
+      "draftOrGated": [
+        {
+          "slug": "bombas-performance-running-quarter",
+          "name": "Performance Running Quarter",
+          "status": "draft",
+          "categoryId": "cat-running-socks",
+          "sports": [
+            "sport-running"
+          ],
+          "lifecycle": "current"
+        }
+      ],
+      "archived": [],
+      "current": 0,
+      "categories": [],
+      "sports": [],
+      "draftSports": [
+        "sport-running"
+      ],
+      "families": [
+        "Performance Running"
+      ],
+      "strengths": 0,
+      "reviews": 0,
+      "comparisons": 0,
+      "best": [],
+      "guides": 0,
+      "runningLive": 0,
+      "runningShoes": 0,
+      "gpsWatches": 0,
+      "products": [],
+      "depthWouldPassIf3": true
+    },
+    {
+      "slug": "hilly",
+      "name": "Hilly",
+      "id": "brand-hilly",
+      "source": "running",
+      "holdClass": "HOLD_NO_PRODUCTS",
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "liveProducts": 0,
+      "allVisibleDev": 1,
+      "rawCount": 1,
+      "draftOrGated": [
+        {
+          "slug": "hilly-marathon-fresh",
+          "name": "Marathon Fresh",
+          "status": "draft",
+          "categoryId": "cat-running-socks",
+          "sports": [
+            "sport-running"
+          ],
+          "lifecycle": "current"
+        }
+      ],
+      "archived": [],
+      "current": 0,
+      "categories": [],
+      "sports": [],
+      "draftSports": [
+        "sport-running"
+      ],
+      "families": [
+        "Marathon Fresh"
+      ],
+      "strengths": 0,
+      "reviews": 0,
+      "comparisons": 0,
+      "best": [],
+      "guides": 0,
+      "runningLive": 0,
+      "runningShoes": 0,
+      "gpsWatches": 0,
+      "products": [],
+      "depthWouldPassIf3": true
+    },
+    {
+      "slug": "sockwell",
+      "name": "Sockwell",
+      "id": "brand-sockwell",
+      "source": "running",
+      "holdClass": "HOLD_NO_PRODUCTS",
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "liveProducts": 0,
+      "allVisibleDev": 1,
+      "rawCount": 1,
+      "draftOrGated": [
+        {
+          "slug": "sockwell-compression-light-cushion",
+          "name": "Compression Light Cushion",
+          "status": "draft",
+          "categoryId": "cat-running-socks",
+          "sports": [
+            "sport-running"
+          ],
+          "lifecycle": "current"
+        }
+      ],
+      "archived": [],
+      "current": 0,
+      "categories": [],
+      "sports": [],
+      "draftSports": [
+        "sport-running"
+      ],
+      "families": [
+        "Compression"
+      ],
+      "strengths": 0,
+      "reviews": 0,
+      "comparisons": 0,
+      "best": [],
+      "guides": 0,
+      "runningLive": 0,
+      "runningShoes": 0,
+      "gpsWatches": 0,
+      "products": [],
+      "depthWouldPassIf3": true
+    },
+    {
+      "slug": "nite-ize",
+      "name": "Nite Ize",
+      "id": "brand-nite-ize",
+      "source": "running",
+      "holdClass": "HOLD_NO_PRODUCTS",
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "liveProducts": 0,
+      "allVisibleDev": 1,
+      "rawCount": 1,
+      "draftOrGated": [
+        {
+          "slug": "nite-ize-radiant-rechargeable-clip-light",
+          "name": "Radiant Rechargeable Clip Light",
+          "status": "draft",
+          "categoryId": "cat-safety",
+          "sports": [
+            "sport-running",
+            "sport-cycling"
+          ],
+          "lifecycle": "current"
+        }
+      ],
+      "archived": [],
+      "current": 0,
+      "categories": [],
+      "sports": [],
+      "draftSports": [
+        "sport-running",
+        "sport-cycling"
+      ],
+      "families": [],
+      "strengths": 0,
+      "reviews": 0,
+      "comparisons": 0,
+      "best": [],
+      "guides": 0,
+      "runningLive": 0,
+      "runningShoes": 0,
+      "gpsWatches": 0,
+      "products": [],
+      "depthWouldPassIf3": true
+    },
+    {
+      "slug": "jabra",
+      "name": "Jabra",
+      "id": "brand-jabra",
+      "source": "running",
+      "holdClass": "HOLD_NO_PRODUCTS",
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "liveProducts": 0,
+      "allVisibleDev": 2,
+      "rawCount": 2,
+      "draftOrGated": [
+        {
+          "slug": "jabra-elite-8-active",
+          "name": "Elite 8 Active",
+          "status": "draft",
+          "categoryId": "cat-headphones",
+          "sports": [
+            "sport-running",
+            "sport-training",
+            "sport-hyrox"
+          ],
+          "lifecycle": "current"
+        },
+        {
+          "slug": "jabra-elite-10",
+          "name": "Elite 10",
+          "status": "draft",
+          "categoryId": "cat-headphones",
+          "sports": [
+            "sport-running",
+            "sport-training"
+          ],
+          "lifecycle": "current"
+        }
+      ],
+      "archived": [],
+      "current": 0,
+      "categories": [],
+      "sports": [],
+      "draftSports": [
+        "sport-running",
+        "sport-training",
+        "sport-hyrox"
+      ],
+      "families": [
+        "Elite"
+      ],
+      "strengths": 0,
+      "reviews": 0,
+      "comparisons": 0,
+      "best": [],
+      "guides": 0,
+      "runningLive": 0,
+      "runningShoes": 0,
+      "gpsWatches": 0,
+      "products": [],
+      "depthWouldPassIf3": true
+    },
+    {
+      "slug": "sony",
+      "name": "Sony",
+      "id": "brand-sony",
+      "source": "running",
+      "holdClass": "HOLD_NO_PRODUCTS",
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "liveProducts": 0,
+      "allVisibleDev": 2,
+      "rawCount": 2,
+      "draftOrGated": [
+        {
+          "slug": "sony-linkbuds-open",
+          "name": "LinkBuds Open",
+          "status": "draft",
+          "categoryId": "cat-headphones",
+          "sports": [
+            "sport-running",
+            "sport-training"
+          ],
+          "lifecycle": "current"
+        },
+        {
+          "slug": "sony-linkbuds-fit",
+          "name": "LinkBuds Fit",
+          "status": "draft",
+          "categoryId": "cat-headphones",
+          "sports": [
+            "sport-running",
+            "sport-training"
+          ],
+          "lifecycle": "current"
+        }
+      ],
+      "archived": [],
+      "current": 0,
+      "categories": [],
+      "sports": [],
+      "draftSports": [
+        "sport-running",
+        "sport-training"
+      ],
+      "families": [
+        "LinkBuds"
+      ],
+      "strengths": 0,
+      "reviews": 0,
+      "comparisons": 0,
+      "best": [],
+      "guides": 0,
+      "runningLive": 0,
+      "runningShoes": 0,
+      "gpsWatches": 0,
+      "products": [],
+      "depthWouldPassIf3": true
+    },
+    {
+      "slug": "huawei",
+      "name": "HUAWEI",
+      "id": "brand-huawei",
+      "source": "running",
+      "holdClass": "HOLD_NO_PRODUCTS",
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "liveProducts": 0,
+      "allVisibleDev": 1,
+      "rawCount": 1,
+      "draftOrGated": [
+        {
+          "slug": "huawei-freeclip",
+          "name": "FreeClip 2",
+          "status": "draft",
+          "categoryId": "cat-headphones",
+          "sports": [
+            "sport-running",
+            "sport-training"
+          ],
+          "lifecycle": "current"
+        }
+      ],
+      "archived": [],
+      "current": 0,
+      "categories": [],
+      "sports": [],
+      "draftSports": [
+        "sport-running",
+        "sport-training"
+      ],
+      "families": [],
+      "strengths": 0,
+      "reviews": 0,
+      "comparisons": 0,
+      "best": [],
+      "guides": 0,
+      "runningLive": 0,
+      "runningShoes": 0,
+      "gpsWatches": 0,
+      "products": [],
+      "depthWouldPassIf3": true
+    },
+    {
+      "slug": "fenix",
+      "name": "Fenix",
+      "id": "brand-fenix",
+      "source": "running",
+      "holdClass": "HOLD_NO_PRODUCTS",
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "liveProducts": 0,
+      "allVisibleDev": 1,
+      "rawCount": 1,
+      "draftOrGated": [
+        {
+          "slug": "fenix-hm65r-t",
+          "name": "HM65R-T",
+          "status": "draft",
+          "categoryId": "cat-running-lights",
+          "sports": [
+            "sport-running"
+          ],
+          "lifecycle": "current"
+        }
+      ],
+      "archived": [],
+      "current": 0,
+      "categories": [],
+      "sports": [],
+      "draftSports": [
+        "sport-running"
+      ],
+      "families": [
+        "HM65R"
+      ],
+      "strengths": 0,
+      "reviews": 0,
+      "comparisons": 0,
+      "best": [],
+      "guides": 0,
+      "runningLive": 0,
+      "runningShoes": 0,
+      "gpsWatches": 0,
+      "products": [],
+      "depthWouldPassIf3": true
+    },
+    {
+      "slug": "knog",
+      "name": "Knog",
+      "id": "brand-knog",
+      "source": "running",
+      "holdClass": "HOLD_NO_PRODUCTS",
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "liveProducts": 0,
+      "allVisibleDev": 2,
+      "rawCount": 2,
+      "draftOrGated": [
+        {
+          "slug": "knog-frog-v3",
+          "name": "Frog V3",
+          "status": "draft",
+          "categoryId": "cat-safety",
+          "sports": [
+            "sport-running",
+            "sport-cycling"
+          ],
+          "lifecycle": "current"
+        },
+        {
+          "slug": "knog-cobber-mid",
+          "name": "Cobber Mid",
+          "status": "draft",
+          "categoryId": "cat-safety",
+          "sports": [
+            "sport-running",
+            "sport-cycling"
+          ],
+          "lifecycle": "current"
+        }
+      ],
+      "archived": [],
+      "current": 0,
+      "categories": [],
+      "sports": [],
+      "draftSports": [
+        "sport-running",
+        "sport-cycling"
+      ],
+      "families": [
+        "Frog",
+        "Cobber"
+      ],
+      "strengths": 0,
+      "reviews": 0,
+      "comparisons": 0,
+      "best": [],
+      "guides": 0,
+      "runningLive": 0,
+      "runningShoes": 0,
+      "gpsWatches": 0,
+      "products": [],
+      "depthWouldPassIf3": true
+    },
+    {
+      "slug": "night-runner",
+      "name": "Night Runner",
+      "id": "brand-nightrunner",
+      "source": "running",
+      "holdClass": "HOLD_NO_PRODUCTS",
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "liveProducts": 0,
+      "allVisibleDev": 1,
+      "rawCount": 1,
+      "draftOrGated": [
+        {
+          "slug": "night-runner-270",
+          "name": "Night Runner 270",
+          "status": "draft",
+          "categoryId": "cat-safety",
+          "sports": [
+            "sport-running"
+          ],
+          "lifecycle": "current"
+        }
+      ],
+      "archived": [],
+      "current": 0,
+      "categories": [],
+      "sports": [],
+      "draftSports": [
+        "sport-running"
+      ],
+      "families": [
+        "Night Runner 270"
+      ],
+      "strengths": 0,
+      "reviews": 0,
+      "comparisons": 0,
+      "best": [],
+      "guides": 0,
+      "runningLive": 0,
+      "runningShoes": 0,
+      "gpsWatches": 0,
+      "products": [],
+      "depthWouldPassIf3": true
+    },
+    {
+      "slug": "shes-birdie",
+      "name": "She's Birdie",
+      "id": "brand-shes-birdie",
+      "source": "running",
+      "holdClass": "HOLD_NO_PRODUCTS",
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "liveProducts": 0,
+      "allVisibleDev": 1,
+      "rawCount": 1,
+      "draftOrGated": [
+        {
+          "slug": "shes-birdie-personal-alarm",
+          "name": "Birdie 3.0",
+          "status": "draft",
+          "categoryId": "cat-safety",
+          "sports": [
+            "sport-running"
+          ],
+          "lifecycle": "current"
+        }
+      ],
+      "archived": [],
+      "current": 0,
+      "categories": [],
+      "sports": [],
+      "draftSports": [
+        "sport-running"
+      ],
+      "families": [
+        "Birdie"
+      ],
+      "strengths": 0,
+      "reviews": 0,
+      "comparisons": 0,
+      "best": [],
+      "guides": 0,
+      "runningLive": 0,
+      "runningShoes": 0,
+      "gpsWatches": 0,
+      "products": [],
+      "depthWouldPassIf3": true
+    },
+    {
+      "slug": "road-id",
+      "name": "Road ID",
+      "id": "brand-road-id",
+      "source": "running",
+      "holdClass": "HOLD_NO_PRODUCTS",
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "liveProducts": 0,
+      "allVisibleDev": 1,
+      "rawCount": 1,
+      "draftOrGated": [
+        {
+          "slug": "road-id-wrist-id",
+          "name": "Wrist ID",
+          "status": "draft",
+          "categoryId": "cat-safety",
+          "sports": [
+            "sport-running"
+          ],
+          "lifecycle": "current"
+        }
+      ],
+      "archived": [],
+      "current": 0,
+      "categories": [],
+      "sports": [],
+      "draftSports": [
+        "sport-running"
+      ],
+      "families": [
+        "Wrist ID"
+      ],
+      "strengths": 0,
+      "reviews": 0,
+      "comparisons": 0,
+      "best": [],
+      "guides": 0,
+      "runningLive": 0,
+      "runningShoes": 0,
+      "gpsWatches": 0,
+      "products": [],
+      "depthWouldPassIf3": true
+    },
+    {
+      "slug": "renpho",
+      "name": "RENPHO",
+      "id": "brand-renpho",
+      "source": "running",
+      "holdClass": "HOLD_NO_PRODUCTS",
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "liveProducts": 0,
+      "allVisibleDev": 1,
+      "rawCount": 1,
+      "draftOrGated": [
+        {
+          "slug": "renpho-r3",
+          "name": "R3",
+          "status": "draft",
+          "categoryId": "cat-recovery-gear",
+          "sports": [
+            "sport-running",
+            "sport-recovery",
+            "sport-training"
+          ],
+          "lifecycle": "current"
+        }
+      ],
+      "archived": [],
+      "current": 0,
+      "categories": [],
+      "sports": [],
+      "draftSports": [
+        "sport-running",
+        "sport-recovery",
+        "sport-training"
+      ],
+      "families": [
+        "R3"
+      ],
+      "strengths": 0,
+      "reviews": 0,
+      "comparisons": 0,
+      "best": [],
+      "guides": 0,
+      "runningLive": 0,
+      "runningShoes": 0,
+      "gpsWatches": 0,
+      "products": [],
+      "depthWouldPassIf3": true
+    },
+    {
+      "slug": "opove",
+      "name": "OPOVE",
+      "id": "brand-opove",
+      "source": "running",
+      "holdClass": "HOLD_NO_PRODUCTS",
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "liveProducts": 0,
+      "allVisibleDev": 1,
+      "rawCount": 1,
+      "draftOrGated": [
+        {
+          "slug": "opove-m3-pro",
+          "name": "M3 Pro",
+          "status": "draft",
+          "categoryId": "cat-recovery-gear",
+          "sports": [
+            "sport-running",
+            "sport-recovery",
+            "sport-training"
+          ],
+          "lifecycle": "current"
+        }
+      ],
+      "archived": [],
+      "current": 0,
+      "categories": [],
+      "sports": [],
+      "draftSports": [
+        "sport-running",
+        "sport-recovery",
+        "sport-training"
+      ],
+      "families": [
+        "M3"
+      ],
+      "strengths": 0,
+      "reviews": 0,
+      "comparisons": 0,
+      "best": [],
+      "guides": 0,
+      "runningLive": 0,
+      "runningShoes": 0,
+      "gpsWatches": 0,
+      "products": [],
+      "depthWouldPassIf3": true
+    },
+    {
+      "slug": "rad-roller",
+      "name": "RAD Roller",
+      "id": "brand-rad",
+      "source": "running",
+      "holdClass": "HOLD_NO_PRODUCTS",
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "liveProducts": 0,
+      "allVisibleDev": 1,
+      "rawCount": 1,
+      "draftOrGated": [
+        {
+          "slug": "rad-atom",
+          "name": "Atom",
+          "status": "draft",
+          "categoryId": "cat-recovery-gear",
+          "sports": [
+            "sport-running",
+            "sport-recovery",
+            "sport-training"
+          ],
+          "lifecycle": "current"
+        }
+      ],
+      "archived": [],
+      "current": 0,
+      "categories": [],
+      "sports": [],
+      "draftSports": [
+        "sport-running",
+        "sport-recovery",
+        "sport-training"
+      ],
+      "families": [
+        "Atom"
+      ],
+      "strengths": 0,
+      "reviews": 0,
+      "comparisons": 0,
+      "best": [],
+      "guides": 0,
+      "runningLive": 0,
+      "runningShoes": 0,
+      "gpsWatches": 0,
+      "products": [],
+      "depthWouldPassIf3": true
+    },
+    {
+      "slug": "rumbleroller",
+      "name": "RumbleRoller",
+      "id": "brand-rumbleroller",
+      "source": "running",
+      "holdClass": "HOLD_NO_PRODUCTS",
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "liveProducts": 0,
+      "allVisibleDev": 1,
+      "rawCount": 1,
+      "draftOrGated": [
+        {
+          "slug": "rumbleroller-original",
+          "name": "RumbleRoller",
+          "status": "draft",
+          "categoryId": "cat-recovery-gear",
+          "sports": [
+            "sport-running",
+            "sport-recovery",
+            "sport-training"
+          ],
+          "lifecycle": "current"
+        }
+      ],
+      "archived": [],
+      "current": 0,
+      "categories": [],
+      "sports": [],
+      "draftSports": [
+        "sport-running",
+        "sport-recovery",
+        "sport-training"
+      ],
+      "families": [
+        "RumbleRoller"
+      ],
+      "strengths": 0,
+      "reviews": 0,
+      "comparisons": 0,
+      "best": [],
+      "guides": 0,
+      "runningLive": 0,
+      "runningShoes": 0,
+      "gpsWatches": 0,
+      "products": [],
+      "depthWouldPassIf3": true
+    },
+    {
+      "slug": "the-stick",
+      "name": "The Stick",
+      "id": "brand-the-stick",
+      "source": "running",
+      "holdClass": "HOLD_NO_PRODUCTS",
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "liveProducts": 0,
+      "allVisibleDev": 1,
+      "rawCount": 1,
+      "draftOrGated": [
+        {
+          "slug": "the-stick",
+          "name": "The Stick",
+          "status": "draft",
+          "categoryId": "cat-recovery-gear",
+          "sports": [
+            "sport-running",
+            "sport-recovery",
+            "sport-training"
+          ],
+          "lifecycle": "current"
+        }
+      ],
+      "archived": [],
+      "current": 0,
+      "categories": [],
+      "sports": [],
+      "draftSports": [
+        "sport-running",
+        "sport-recovery",
+        "sport-training"
+      ],
+      "families": [
+        "The Stick"
+      ],
+      "strengths": 0,
+      "reviews": 0,
+      "comparisons": 0,
+      "best": [],
+      "guides": 0,
+      "runningLive": 0,
+      "runningShoes": 0,
+      "gpsWatches": 0,
+      "products": [],
+      "depthWouldPassIf3": true
+    },
+    {
+      "slug": "2xu",
+      "name": "2XU",
+      "id": "brand-2xu",
+      "source": "running",
+      "holdClass": "HOLD_NO_PRODUCTS",
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "liveProducts": 0,
+      "allVisibleDev": 1,
+      "rawCount": 1,
+      "draftOrGated": [
+        {
+          "slug": "2xu-refresh-recovery-tights",
+          "name": "Refresh Recovery Tights",
+          "status": "draft",
+          "categoryId": "cat-recovery-gear",
+          "sports": [
+            "sport-running",
+            "sport-recovery"
+          ],
+          "lifecycle": "current"
+        }
+      ],
+      "archived": [],
+      "current": 0,
+      "categories": [],
+      "sports": [],
+      "draftSports": [
+        "sport-running",
+        "sport-recovery"
+      ],
+      "families": [
+        "Refresh Recovery"
+      ],
+      "strengths": 0,
+      "reviews": 0,
+      "comparisons": 0,
+      "best": [],
+      "guides": 0,
+      "runningLive": 0,
+      "runningShoes": 0,
+      "gpsWatches": 0,
+      "products": [],
+      "depthWouldPassIf3": true
+    },
+    {
+      "slug": "timtam",
+      "name": "TimTam",
+      "id": "brand-timtam",
+      "source": "running",
+      "holdClass": "HOLD_NO_PRODUCTS",
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "liveProducts": 0,
+      "allVisibleDev": 1,
+      "rawCount": 1,
+      "draftOrGated": [
+        {
+          "slug": "timtam-power-massager-v3-7",
+          "name": "Power Massager V3.7",
+          "status": "draft",
+          "categoryId": "cat-recovery-gear",
+          "sports": [
+            "sport-running",
+            "sport-recovery",
+            "sport-training"
+          ],
+          "lifecycle": "current"
+        }
+      ],
+      "archived": [],
+      "current": 0,
+      "categories": [],
+      "sports": [],
+      "draftSports": [
+        "sport-running",
+        "sport-recovery",
+        "sport-training"
+      ],
+      "families": [
+        "Power Massager"
+      ],
+      "strengths": 0,
+      "reviews": 0,
+      "comparisons": 0,
+      "best": [],
+      "guides": 0,
+      "runningLive": 0,
+      "runningShoes": 0,
+      "gpsWatches": 0,
+      "products": [],
+      "depthWouldPassIf3": true
+    },
+    {
+      "slug": "dirty-girl",
+      "name": "Dirty Girl",
+      "id": "brand-dirty-girl",
+      "source": "running",
+      "holdClass": "HOLD_NO_PRODUCTS",
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "liveProducts": 0,
+      "allVisibleDev": 1,
+      "rawCount": 1,
+      "draftOrGated": [
+        {
+          "slug": "dirty-girl-gaiters",
+          "name": "Gaiters",
+          "status": "draft",
+          "categoryId": "cat-accessories",
+          "sports": [
+            "sport-running"
+          ],
+          "lifecycle": "current"
+        }
+      ],
+      "archived": [],
+      "current": 0,
+      "categories": [],
+      "sports": [],
+      "draftSports": [
+        "sport-running"
+      ],
+      "families": [],
+      "strengths": 0,
+      "reviews": 0,
+      "comparisons": 0,
+      "best": [],
+      "guides": 0,
+      "runningLive": 0,
+      "runningShoes": 0,
+      "gpsWatches": 0,
+      "products": [],
+      "depthWouldPassIf3": true
+    },
+    {
+      "slug": "outdoor-research",
+      "name": "Outdoor Research",
+      "id": "brand-outdoor-research",
+      "source": "running",
+      "holdClass": "HOLD_NO_PRODUCTS",
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "liveProducts": 0,
+      "allVisibleDev": 1,
+      "rawCount": 1,
+      "draftOrGated": [
+        {
+          "slug": "outdoor-research-ferrosi-gaiters",
+          "name": "Ferrosi Thru Gaiters",
+          "status": "draft",
+          "categoryId": "cat-accessories",
+          "sports": [
+            "sport-running"
+          ],
+          "lifecycle": "current"
+        }
+      ],
+      "archived": [],
+      "current": 0,
+      "categories": [],
+      "sports": [],
+      "draftSports": [
+        "sport-running"
+      ],
+      "families": [],
+      "strengths": 0,
+      "reviews": 0,
+      "comparisons": 0,
+      "best": [],
+      "guides": 0,
+      "runningLive": 0,
+      "runningShoes": 0,
+      "gpsWatches": 0,
+      "products": [],
+      "depthWouldPassIf3": true
+    },
+    {
+      "slug": "li-ning",
+      "name": "Li-Ning",
+      "id": "brand-li-ning",
+      "source": "racket",
+      "holdClass": "HOLD_NO_PRODUCTS",
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "liveProducts": 0,
+      "allVisibleDev": 1,
+      "rawCount": 1,
+      "draftOrGated": [
+        {
+          "slug": "li-ning-aeronaut-9000-c",
+          "name": "Aeronaut 9000 C",
+          "status": "draft",
+          "categoryId": "cat-badminton-rackets",
+          "sports": [
+            "sport-badminton"
+          ],
+          "lifecycle": "current"
+        }
+      ],
+      "archived": [],
+      "current": 0,
+      "categories": [],
+      "sports": [],
+      "draftSports": [
+        "sport-badminton"
+      ],
+      "families": [],
+      "strengths": 0,
+      "reviews": 0,
+      "comparisons": 0,
+      "best": [],
+      "guides": 0,
+      "runningLive": 0,
+      "runningShoes": 0,
+      "gpsWatches": 0,
+      "products": [],
+      "depthWouldPassIf3": true
+    },
+    {
+      "slug": "bear-komplex",
+      "name": "Bear KompleX",
+      "id": "brand-bear-komplex",
+      "source": "fitness",
+      "holdClass": "HOLD_NO_PRODUCTS",
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "liveProducts": 0,
+      "allVisibleDev": 1,
+      "rawCount": 1,
+      "draftOrGated": [
+        {
+          "slug": "bear-komplex-valor",
+          "name": "Valor",
+          "status": "review",
+          "categoryId": "cat-training-shoes",
+          "sports": [
+            "sport-training",
+            "sport-hyrox"
+          ],
+          "lifecycle": "current"
+        }
+      ],
+      "archived": [],
+      "current": 0,
+      "categories": [],
+      "sports": [],
+      "draftSports": [
+        "sport-training",
+        "sport-hyrox"
+      ],
+      "families": [],
+      "strengths": 0,
+      "reviews": 0,
+      "comparisons": 0,
+      "best": [],
+      "guides": 0,
+      "runningLive": 0,
+      "runningShoes": 0,
+      "gpsWatches": 0,
+      "products": [],
+      "depthWouldPassIf3": true
+    },
+    {
+      "slug": "domyos",
+      "name": "Domyos",
+      "id": "brand-domyos",
+      "source": "fitness",
+      "holdClass": "HOLD_NO_PRODUCTS",
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "liveProducts": 0,
+      "allVisibleDev": 1,
+      "rawCount": 1,
+      "draftOrGated": [
+        {
+          "slug": "domyos-mid-500",
+          "name": "Mid 500",
+          "status": "review",
+          "categoryId": "cat-training-shoes",
+          "sports": [
+            "sport-training"
+          ],
+          "lifecycle": "current"
+        }
+      ],
+      "archived": [],
+      "current": 0,
+      "categories": [],
+      "sports": [],
+      "draftSports": [
+        "sport-training"
+      ],
+      "families": [],
+      "strengths": 0,
+      "reviews": 0,
+      "comparisons": 0,
+      "best": [],
+      "guides": 0,
+      "runningLive": 0,
+      "runningShoes": 0,
+      "gpsWatches": 0,
+      "products": [],
+      "depthWouldPassIf3": true
+    },
+    {
+      "slug": "zeraus",
+      "name": "Zeraus",
+      "id": "brand-zeraus",
+      "source": "fitness",
+      "holdClass": "HOLD_NO_PRODUCTS",
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "liveProducts": 0,
+      "allVisibleDev": 1,
+      "rawCount": 1,
+      "draftOrGated": [
+        {
+          "slug": "zeraus-classic",
+          "name": "Classic",
+          "status": "review",
+          "categoryId": "cat-training-shoes",
+          "sports": [
+            "sport-training"
+          ],
+          "lifecycle": "current"
+        }
+      ],
+      "archived": [],
+      "current": 0,
+      "categories": [],
+      "sports": [],
+      "draftSports": [
+        "sport-training"
+      ],
+      "families": [],
+      "strengths": 0,
+      "reviews": 0,
+      "comparisons": 0,
+      "best": [],
+      "guides": 0,
+      "runningLive": 0,
+      "runningShoes": 0,
+      "gpsWatches": 0,
+      "products": [],
+      "depthWouldPassIf3": true
+    }
+  ],
+  "runningHeld": [
+    {
+      "slug": "samsung",
+      "products": 1,
+      "cats": [
+        "gps-watches"
+      ],
+      "runningShoes": 0,
+      "gps": 1,
+      "names": [
+        "Galaxy Watch Ultra"
+      ],
+      "drafts": []
+    },
+    {
+      "slug": "amazfit",
+      "products": 2,
+      "cats": [
+        "gps-watches"
+      ],
+      "runningShoes": 0,
+      "gps": 2,
+      "names": [
+        "T-Rex 3 Pro",
+        "Active 2"
+      ],
+      "drafts": []
+    },
+    {
+      "slug": "scosche",
+      "products": 2,
+      "cats": [
+        "heart-rate-monitors"
+      ],
+      "runningShoes": 0,
+      "gps": 0,
+      "names": [
+        "Rhythm+ 2.0",
+        "Rhythm24"
+      ],
+      "drafts": []
+    },
+    {
+      "slug": "flipbelt",
+      "products": 1,
+      "cats": [
+        "running-belts"
+      ],
+      "runningShoes": 0,
+      "gps": 0,
+      "names": [
+        "Classic"
+      ],
+      "drafts": [
+        {
+          "slug": "flipbelt-zipper-reflective",
+          "name": "Zipper Reflective",
+          "status": "draft",
+          "categoryId": "cat-safety",
+          "sports": [
+            "sport-running"
+          ],
+          "lifecycle": "current"
+        }
+      ]
+    },
+    {
+      "slug": "spibelt",
+      "products": 1,
+      "cats": [
+        "running-belts"
+      ],
+      "runningShoes": 0,
+      "gps": 0,
+      "names": [
+        "Original"
+      ],
+      "drafts": []
+    },
+    {
+      "slug": "uswe",
+      "products": 1,
+      "cats": [
+        "running-packs-vests"
+      ],
+      "runningShoes": 0,
+      "gps": 0,
+      "names": [
+        "Pace 8"
+      ],
+      "drafts": []
+    },
+    {
+      "slug": "compressport",
+      "products": 2,
+      "cats": [
+        "running-packs-vests",
+        "running-belts"
+      ],
+      "runningShoes": 0,
+      "gps": 0,
+      "names": [
+        "Ultrun S Pack",
+        "Free Belt Pro"
+      ],
+      "drafts": [
+        {
+          "slug": "compressport-r2",
+          "name": "R2",
+          "status": "draft",
+          "categoryId": "cat-recovery-gear",
+          "sports": [
+            "sport-running",
+            "sport-recovery"
+          ],
+          "lifecycle": "current"
+        },
+        {
+          "slug": "compressport-armforce",
+          "name": "ArmForce Ultralight",
+          "status": "draft",
+          "categoryId": "cat-accessories",
+          "sports": [
+            "sport-running"
+          ],
+          "lifecycle": "current"
+        }
+      ]
+    },
+    {
+      "slug": "naked",
+      "products": 1,
+      "cats": [
+        "running-belts"
+      ],
+      "runningShoes": 0,
+      "gps": 0,
+      "names": [
+        "Running Band"
+      ],
+      "drafts": []
+    },
+    {
+      "slug": "decathlon",
+      "products": 1,
+      "cats": [
+        "running-belts"
+      ],
+      "runningShoes": 0,
+      "gps": 0,
+      "names": [
+        "Running Belt"
+      ],
+      "drafts": [
+        {
+          "slug": "kiprun-trail-10",
+          "name": "Trail 10",
+          "status": "draft",
+          "categoryId": "cat-packs-vests",
+          "sports": [
+            "sport-running"
+          ],
+          "lifecycle": "current"
+        }
+      ]
+    },
+    {
+      "slug": "rabbit",
+      "products": 1,
+      "cats": [
+        "running-clothing"
+      ],
+      "runningShoes": 0,
+      "gps": 0,
+      "names": [
+        "Fuel n' Fly 5\""
+      ],
+      "drafts": []
+    },
+    {
+      "slug": "odlo",
+      "products": 2,
+      "cats": [
+        "running-clothing"
+      ],
+      "runningShoes": 0,
+      "gps": 0,
+      "names": [
+        "Active Warm Eco LS",
+        "Active Warm Eco Bottom"
+      ],
+      "drafts": []
+    },
+    {
+      "slug": "ciele",
+      "products": 1,
+      "cats": [
+        "running-clothing"
+      ],
+      "runningShoes": 0,
+      "gps": 0,
+      "names": [
+        "GOCap Athletics"
+      ],
+      "drafts": []
+    },
+    {
+      "slug": "smartwool",
+      "products": 2,
+      "cats": [
+        "running-clothing",
+        "running-socks"
+      ],
+      "runningShoes": 0,
+      "gps": 0,
+      "names": [
+        "Thermal Merino Glove",
+        "Run Targeted Cushion Crew"
+      ],
+      "drafts": []
+    },
+    {
+      "slug": "darn-tough",
+      "products": 1,
+      "cats": [
+        "running-socks"
+      ],
+      "runningShoes": 0,
+      "gps": 0,
+      "names": [
+        "Run 1/4 Ultra-Lightweight"
+      ],
+      "drafts": []
+    },
+    {
+      "slug": "bose",
+      "products": 1,
+      "cats": [
+        "headphones"
+      ],
+      "runningShoes": 0,
+      "gps": 0,
+      "names": [
+        "Ultra Open Earbuds"
+      ],
+      "drafts": []
+    },
+    {
+      "slug": "goodr",
+      "products": 2,
+      "cats": [
+        "sunglasses"
+      ],
+      "runningShoes": 0,
+      "gps": 0,
+      "names": [
+        "Circle Gs",
+        "OGs"
+      ],
+      "drafts": []
+    },
+    {
+      "slug": "silva",
+      "products": 1,
+      "cats": [
+        "running-lights"
+      ],
+      "runningShoes": 0,
+      "gps": 0,
+      "names": [
+        "Trail Runner Free 2"
+      ],
+      "drafts": [
+        {
+          "slug": "silva-smini",
+          "name": "Smini",
+          "status": "draft",
+          "categoryId": "cat-running-lights",
+          "sports": [
+            "sport-running"
+          ],
+          "lifecycle": "current"
+        }
+      ]
+    },
+    {
+      "slug": "feetures",
+      "products": 1,
+      "cats": [
+        "running-socks"
+      ],
+      "runningShoes": 0,
+      "gps": 0,
+      "names": [
+        "Elite Light Cushion"
+      ],
+      "drafts": []
+    },
+    {
+      "slug": "balega",
+      "products": 2,
+      "cats": [
+        "running-socks"
+      ],
+      "runningShoes": 0,
+      "gps": 0,
+      "names": [
+        "Blister Resist Quarter",
+        "Hidden Comfort"
+      ],
+      "drafts": []
+    },
+    {
+      "slug": "injinji",
+      "products": 1,
+      "cats": [
+        "running-socks"
+      ],
+      "runningShoes": 0,
+      "gps": 0,
+      "names": [
+        "Run Midweight"
+      ],
+      "drafts": []
+    },
+    {
+      "slug": "swiftwick",
+      "products": 1,
+      "cats": [
+        "running-socks"
+      ],
+      "runningShoes": 0,
+      "gps": 0,
+      "names": [
+        "Aspire Four"
+      ],
+      "drafts": []
+    },
+    {
+      "slug": "drymax",
+      "products": 1,
+      "cats": [
+        "running-socks"
+      ],
+      "runningShoes": 0,
+      "gps": 0,
+      "names": [
+        "Run Lite-Mesh"
+      ],
+      "drafts": []
+    },
+    {
+      "slug": "wrightsock",
+      "products": 1,
+      "cats": [
+        "running-socks"
+      ],
+      "runningShoes": 0,
+      "gps": 0,
+      "names": [
+        "Coolmesh II"
+      ],
+      "drafts": []
+    },
+    {
+      "slug": "fitletic",
+      "products": 1,
+      "cats": [
+        "running-belts"
+      ],
+      "runningShoes": 0,
+      "gps": 0,
+      "names": [
+        "Fully Loaded"
+      ],
+      "drafts": []
+    },
+    {
+      "slug": "triggerpoint",
+      "products": 2,
+      "cats": [
+        "recovery"
+      ],
+      "runningShoes": 0,
+      "gps": 0,
+      "names": [
+        "GRID X",
+        "GRID Travel"
+      ],
+      "drafts": [
+        {
+          "slug": "triggerpoint-mb1",
+          "name": "MB1",
+          "status": "draft",
+          "categoryId": "cat-recovery-gear",
+          "sports": [
+            "sport-running",
+            "sport-recovery",
+            "sport-training"
+          ],
+          "lifecycle": "current"
+        },
+        {
+          "slug": "triggerpoint-mbx",
+          "name": "MBX",
+          "status": "draft",
+          "categoryId": "cat-recovery-gear",
+          "sports": [
+            "sport-running",
+            "sport-recovery",
+            "sport-training"
+          ],
+          "lifecycle": "current"
+        },
+        {
+          "slug": "triggerpoint-stp",
+          "name": "STP",
+          "status": "draft",
+          "categoryId": "cat-recovery-gear",
+          "sports": [
+            "sport-running",
+            "sport-recovery",
+            "sport-training"
+          ],
+          "lifecycle": "current"
+        },
+        {
+          "slug": "triggerpoint-grid-foam-roller",
+          "name": "GRID Foam Roller",
+          "status": "draft",
+          "categoryId": "cat-recovery-gear",
+          "sports": [
+            "sport-running",
+            "sport-recovery",
+            "sport-training"
+          ],
+          "lifecycle": "current"
+        }
+      ]
+    },
+    {
+      "slug": "oofos",
+      "products": 2,
+      "cats": [
+        "recovery"
+      ],
+      "runningShoes": 0,
+      "gps": 0,
+      "names": [
+        "OOlala",
+        "OOriginal"
+      ],
+      "drafts": [
+        {
+          "slug": "oofos-oocandoo",
+          "name": "OOcandoo",
+          "status": "draft",
+          "categoryId": "cat-recovery-gear",
+          "sports": [
+            "sport-running",
+            "sport-recovery"
+          ],
+          "lifecycle": "current"
+        }
+      ]
+    },
+    {
+      "slug": "body-glide",
+      "products": 1,
+      "cats": [
+        "accessories"
+      ],
+      "runningShoes": 0,
+      "gps": 0,
+      "names": [
+        "Original Anti-Chafe Balm"
+      ],
+      "drafts": []
+    },
+    {
+      "slug": "beats",
+      "products": 1,
+      "cats": [
+        "headphones"
+      ],
+      "runningShoes": 0,
+      "gps": 0,
+      "names": [
+        "Fit Pro"
+      ],
+      "drafts": [
+        {
+          "slug": "beats-powerbeats-pro-2",
+          "name": "Powerbeats Pro 2",
+          "status": "draft",
+          "categoryId": "cat-headphones",
+          "sports": [
+            "sport-running",
+            "sport-training"
+          ],
+          "lifecycle": "current"
+        }
+      ]
+    },
+    {
+      "slug": "soundcore",
+      "products": 2,
+      "cats": [
+        "headphones"
+      ],
+      "runningShoes": 0,
+      "gps": 0,
+      "names": [
+        "AeroFit 2",
+        "Sport X20"
+      ],
+      "drafts": []
+    },
+    {
+      "slug": "smith",
+      "products": 2,
+      "cats": [
+        "sunglasses"
+      ],
+      "runningShoes": 0,
+      "gps": 0,
+      "names": [
+        "Shift MAG",
+        "Attack MAG"
+      ],
+      "drafts": []
+    },
+    {
+      "slug": "rudy-project",
+      "products": 1,
+      "cats": [
+        "sunglasses"
+      ],
+      "runningShoes": 0,
+      "gps": 0,
+      "names": [
+        "Cutline"
+      ],
+      "drafts": []
+    },
+    {
+      "slug": "tifosi",
+      "products": 2,
+      "cats": [
+        "sunglasses"
+      ],
+      "runningShoes": 0,
+      "gps": 0,
+      "names": [
+        "Rail",
+        "Vogel"
+      ],
+      "drafts": []
+    },
+    {
+      "slug": "100-percent",
+      "products": 1,
+      "cats": [
+        "sunglasses"
+      ],
+      "runningShoes": 0,
+      "gps": 0,
+      "names": [
+        "S3"
+      ],
+      "drafts": []
+    },
+    {
+      "slug": "roka",
+      "products": 1,
+      "cats": [
+        "sunglasses"
+      ],
+      "runningShoes": 0,
+      "gps": 0,
+      "names": [
+        "Phantom Air"
+      ],
+      "drafts": []
+    },
+    {
+      "slug": "ledlenser",
+      "products": 1,
+      "cats": [
+        "running-lights"
+      ],
+      "runningShoes": 0,
+      "gps": 0,
+      "names": [
+        "NEO9R"
+      ],
+      "drafts": [
+        {
+          "slug": "ledlenser-neo5r",
+          "name": "NEO5R",
+          "status": "draft",
+          "categoryId": "cat-running-lights",
+          "sports": [
+            "sport-running"
+          ],
+          "lifecycle": "current"
+        }
+      ]
+    },
+    {
+      "slug": "biolite",
+      "products": 1,
+      "cats": [
+        "running-lights"
+      ],
+      "runningShoes": 0,
+      "gps": 0,
+      "names": [
+        "HeadLamp 800 Pro"
+      ],
+      "drafts": [
+        {
+          "slug": "biolite-headlamp-425",
+          "name": "HeadLamp 425",
+          "status": "draft",
+          "categoryId": "cat-running-lights",
+          "sports": [
+            "sport-running"
+          ],
+          "lifecycle": "current"
+        }
+      ]
+    },
+    {
+      "slug": "nitecore",
+      "products": 1,
+      "cats": [
+        "running-lights"
+      ],
+      "runningShoes": 0,
+      "gps": 0,
+      "names": [
+        "NU43"
+      ],
+      "drafts": [
+        {
+          "slug": "nitecore-nu25-ul",
+          "name": "NU25 UL",
+          "status": "draft",
+          "categoryId": "cat-running-lights",
+          "sports": [
+            "sport-running"
+          ],
+          "lifecycle": "current"
+        }
+      ]
+    },
+    {
+      "slug": "proviz",
+      "products": 1,
+      "cats": [
+        "safety-gear"
+      ],
+      "runningShoes": 0,
+      "gps": 0,
+      "names": [
+        "Reflect360 Running Vest"
+      ],
+      "drafts": []
+    },
+    {
+      "slug": "tailwind",
+      "products": 1,
+      "cats": [
+        "nutrition-fuel"
+      ],
+      "runningShoes": 0,
+      "gps": 0,
+      "names": [
+        "Endurance Fuel"
+      ],
+      "drafts": []
+    },
+    {
+      "slug": "skratch-labs",
+      "products": 2,
+      "cats": [
+        "nutrition-fuel"
+      ],
+      "runningShoes": 0,
+      "gps": 0,
+      "names": [
+        "Sport Energy Chews",
+        "Sport Hydration Drink Mix"
+      ],
+      "drafts": []
+    },
+    {
+      "slug": "clif-bar",
+      "products": 2,
+      "cats": [
+        "nutrition-fuel"
+      ],
+      "runningShoes": 0,
+      "gps": 0,
+      "names": [
+        "Bloks Energy Chews",
+        "Clif Bar"
+      ],
+      "drafts": []
+    },
+    {
+      "slug": "honey-stinger",
+      "products": 1,
+      "cats": [
+        "nutrition-fuel"
+      ],
+      "runningShoes": 0,
+      "gps": 0,
+      "names": [
+        "Organic Energy Gel"
+      ],
+      "drafts": []
+    },
+    {
+      "slug": "spring-energy",
+      "products": 1,
+      "cats": [
+        "nutrition-fuel"
+      ],
+      "runningShoes": 0,
+      "gps": 0,
+      "names": [
+        "Awesome Sauce"
+      ],
+      "drafts": []
+    },
+    {
+      "slug": "neversecond",
+      "products": 2,
+      "cats": [
+        "nutrition-fuel"
+      ],
+      "runningShoes": 0,
+      "gps": 0,
+      "names": [
+        "C30 Gel",
+        "C30 Sports Drink"
+      ],
+      "drafts": []
+    },
+    {
+      "slug": "high5",
+      "products": 2,
+      "cats": [
+        "nutrition-fuel"
+      ],
+      "runningShoes": 0,
+      "gps": 0,
+      "names": [
+        "ZERO",
+        "Energy Gel"
+      ],
+      "drafts": []
+    },
+    {
+      "slug": "nuun",
+      "products": 1,
+      "cats": [
+        "nutrition-fuel"
+      ],
+      "runningShoes": 0,
+      "gps": 0,
+      "names": [
+        "Sport"
+      ],
+      "drafts": []
+    },
+    {
+      "slug": "saltstick",
+      "products": 2,
+      "cats": [
+        "nutrition-fuel"
+      ],
+      "runningShoes": 0,
+      "gps": 0,
+      "names": [
+        "Fastchews",
+        "Caps"
+      ],
+      "drafts": []
+    },
+    {
+      "slug": "powerbar",
+      "products": 1,
+      "cats": [
+        "nutrition-fuel"
+      ],
+      "runningShoes": 0,
+      "gps": 0,
+      "names": [
+        "Energize"
+      ],
+      "drafts": []
+    },
+    {
+      "slug": "enervit",
+      "products": 1,
+      "cats": [
+        "nutrition-fuel"
+      ],
+      "runningShoes": 0,
+      "gps": 0,
+      "names": [
+        "C2:1 Carbo Gel"
+      ],
+      "drafts": []
+    },
+    {
+      "slug": "226ers",
+      "products": 1,
+      "cats": [
+        "nutrition-fuel"
+      ],
+      "runningShoes": 0,
+      "gps": 0,
+      "names": [
+        "High Energy Gel"
+      ],
+      "drafts": []
+    },
+    {
+      "slug": "huma",
+      "products": 1,
+      "cats": [
+        "nutrition-fuel"
+      ],
+      "runningShoes": 0,
+      "gps": 0,
+      "names": [
+        "Original Gel"
+      ],
+      "drafts": []
+    },
+    {
+      "slug": "naak",
+      "products": 2,
+      "cats": [
+        "nutrition-fuel"
+      ],
+      "runningShoes": 0,
+      "gps": 0,
+      "names": [
+        "Ultra Energy Bar",
+        "Ultra Energy Drink Mix"
+      ],
+      "drafts": []
+    },
+    {
+      "slug": "styrkr",
+      "products": 2,
+      "cats": [
+        "nutrition-fuel"
+      ],
+      "runningShoes": 0,
+      "gps": 0,
+      "names": [
+        "MIX90",
+        "GEL30"
+      ],
+      "drafts": []
+    },
+    {
+      "slug": "veloforte",
+      "products": 2,
+      "cats": [
+        "nutrition-fuel"
+      ],
+      "runningShoes": 0,
+      "gps": 0,
+      "names": [
+        "Energy Chews",
+        "Energy Bar"
+      ],
+      "drafts": []
+    },
+    {
+      "slug": "brazyn",
+      "products": 1,
+      "cats": [
+        "recovery"
+      ],
+      "runningShoes": 0,
+      "gps": 0,
+      "names": [
+        "Morph"
+      ],
+      "drafts": []
+    },
+    {
+      "slug": "squirrels-nut-butter",
+      "products": 1,
+      "cats": [
+        "accessories"
+      ],
+      "runningShoes": 0,
+      "gps": 0,
+      "names": [
+        "Original Anti-Chafe"
+      ],
+      "drafts": []
+    },
+    {
+      "slug": "2toms",
+      "products": 1,
+      "cats": [
+        "accessories"
+      ],
+      "runningShoes": 0,
+      "gps": 0,
+      "names": [
+        "SportShield"
+      ],
+      "drafts": []
+    }
+  ]
+}

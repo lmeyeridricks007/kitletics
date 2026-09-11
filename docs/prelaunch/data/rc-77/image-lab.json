@@ -1,0 +1,332 @@
+{
+  "asOf": "2026-09-10T17:40:29.273Z",
+  "base": "http://127.0.0.1:3010",
+  "results": [
+    {
+      "path": "/",
+      "totalBytes": 1204912,
+      "totalMB": 1.15,
+      "imageBytes": 133918,
+      "imageMB": 0.13,
+      "imageCount": 28,
+      "nextImageCount": 28,
+      "rawImageCount": 0,
+      "brokenImages": 0,
+      "topImages": [
+        {
+          "kb": 43,
+          "viaNextImage": true,
+          "status": 200,
+          "url": "/_next/image?url=%2Fimages%2Fhome%2Fhero-gear-composite.png&w=1920&q=75"
+        },
+        {
+          "kb": 19,
+          "viaNextImage": true,
+          "status": 200,
+          "url": "/_next/image?url=%2Fimages%2Fhome%2Fguide-how-to-choose.jpg&w=750&q=75"
+        },
+        {
+          "kb": 6,
+          "viaNextImage": true,
+          "status": 200,
+          "url": "/_next/image?url=%2Fimages%2Fheadphones%2Fproducts%2Fsuunto-wing-hero.png&w=256&q=75"
+        },
+        {
+          "kb": 5,
+          "viaNextImage": true,
+          "status": 200,
+          "url": "/_next/image?url=%2Fimages%2Fheadphones%2Fproducts%2Fshokz-openfit-2-hero.png&w=256&q=75"
+        },
+        {
+          "kb": 4,
+          "viaNextImage": true,
+          "status": 200,
+          "url": "/_next/image?url=%2Fimages%2Fheadphones%2Fproducts%2Fshokz-openrun-pro-2-hero.png&w=256&q=75"
+        },
+        {
+          "kb": 4,
+          "viaNextImage": true,
+          "status": 200,
+          "url": "/_next/image?url=%2Fimages%2Fheadphones%2Fproducts%2Fshokz-openrun-hero.png&w=256&q=75"
+        },
+        {
+          "kb": 4,
+          "viaNextImage": true,
+          "status": 200,
+          "url": "/_next/image?url=%2Fimages%2Fwatches%2Fproducts%2Fcoros-pace-4-hero.png&w=256&q=75"
+        },
+        {
+          "kb": 4,
+          "viaNextImage": true,
+          "status": 200,
+          "url": "/_next/image?url=%2Fimages%2Fwatches%2Fproducts%2Fcoros-apex-4-hero.png&w=256&q=75"
+        }
+      ],
+      "budget": {
+        "totalBytes": 1572864,
+        "imageBytes": 921600
+      },
+      "withinBudget": true
+    },
+    {
+      "path": "/running/shoes",
+      "totalBytes": 1303879,
+      "totalMB": 1.24,
+      "imageBytes": 71547,
+      "imageMB": 0.07,
+      "imageCount": 26,
+      "nextImageCount": 26,
+      "rawImageCount": 0,
+      "brokenImages": 0,
+      "topImages": [
+        {
+          "kb": 8,
+          "viaNextImage": true,
+          "status": 200,
+          "url": "/_next/image?url=%2Fimages%2Frunning%2Fcategory%2Fuse-daily.jpg&w=320&q=70"
+        },
+        {
+          "kb": 6,
+          "viaNextImage": true,
+          "status": 200,
+          "url": "/_next/image?url=%2Fimages%2Frunning%2Fcategory%2Fuse-trail.jpg&w=320&q=70"
+        },
+        {
+          "kb": 6,
+          "viaNextImage": true,
+          "status": 200,
+          "url": "/_next/image?url=%2Fimages%2Frunning%2Fcategory%2Fuse-race.jpg&w=320&q=70"
+        },
+        {
+          "kb": 5,
+          "viaNextImage": true,
+          "status": 200,
+          "url": "/_next/image?url=%2Fimages%2Frunning%2Fcategory%2Fuse-tempo.jpg&w=320&q=70"
+        },
+        {
+          "kb": 4,
+          "viaNextImage": true,
+          "status": 200,
+          "url": "/_next/image?url=%2Fimages%2Frunning%2Fproducts%2Fghost-18-hero.png&w=320&q=70"
+        },
+        {
+          "kb": 4,
+          "viaNextImage": true,
+          "status": 200,
+          "url": "/_next/image?url=%2Fimages%2Frunning%2Fcategory%2Fuse-long.jpg&w=320&q=70"
+        },
+        {
+          "kb": 3,
+          "viaNextImage": true,
+          "status": 200,
+          "url": "/_next/image?url=%2Fimages%2Frunning%2Fproducts%2Fclifton-10-hero.jpg&w=320&q=70"
+        },
+        {
+          "kb": 3,
+          "viaNextImage": true,
+          "status": 200,
+          "url": "/_next/image?url=%2Fimages%2Frunning%2Fproducts%2Fnovablast-6-hero.jpg&w=320&q=70"
+        }
+      ],
+      "budget": {
+        "totalBytes": 2621440,
+        "imageBytes": 2097152
+      },
+      "withinBudget": true
+    },
+    {
+      "path": "/brands/nike",
+      "totalBytes": 1142307,
+      "totalMB": 1.09,
+      "imageBytes": 33048,
+      "imageMB": 0.03,
+      "imageCount": 28,
+      "nextImageCount": 27,
+      "rawImageCount": 1,
+      "brokenImages": 0,
+      "topImages": [
+        {
+          "kb": 7,
+          "viaNextImage": true,
+          "status": 200,
+          "url": "/_next/image?url=%2Fimages%2Frunning%2Fproducts%2Fvaporfly-4-hero.jpg&w=640&q=75"
+        },
+        {
+          "kb": 4,
+          "viaNextImage": true,
+          "status": 200,
+          "url": "/_next/image?url=%2Fimages%2Frunning%2Fproducts%2Fstructure-plus-hero.jpg&w=320&q=70"
+        },
+        {
+          "kb": 3,
+          "viaNextImage": true,
+          "status": 200,
+          "url": "/_next/image?url=%2Fimages%2Frunning%2Fproducts%2Falphafly-3-hero.png&w=320&q=70"
+        },
+        {
+          "kb": 2,
+          "viaNextImage": true,
+          "status": 200,
+          "url": "/_next/image?url=%2Fimages%2Frunning%2Fproducts%2Fvaporfly-4-hero.jpg&w=320&q=70"
+        },
+        {
+          "kb": 2,
+          "viaNextImage": true,
+          "status": 200,
+          "url": "/_next/image?url=%2Fimages%2Frunning%2Fproducts%2Fvomero-18-hero.png&w=320&q=70"
+        },
+        {
+          "kb": 2,
+          "viaNextImage": true,
+          "status": 200,
+          "url": "/_next/image?url=%2Fimages%2Frunning%2Fproducts%2Fpegasus-42-hero.jpg&w=320&q=70"
+        },
+        {
+          "kb": 1,
+          "viaNextImage": false,
+          "status": 200,
+          "url": "/images/brands/nike-logo.svg"
+        },
+        {
+          "kb": 1,
+          "viaNextImage": true,
+          "status": 200,
+          "url": "/_next/image?url=%2Fimages%2Frunning%2Fguides%2Fdaily-vs-long.jpg&w=96&q=65"
+        }
+      ],
+      "budget": {
+        "totalBytes": 2621440,
+        "imageBytes": 2097152
+      },
+      "withinBudget": true
+    },
+    {
+      "path": "/products/nike-vomero-18",
+      "totalBytes": 1102631,
+      "totalMB": 1.05,
+      "imageBytes": 9372,
+      "imageMB": 0.01,
+      "imageCount": 2,
+      "nextImageCount": 2,
+      "rawImageCount": 0,
+      "brokenImages": 0,
+      "topImages": [
+        {
+          "kb": 7,
+          "viaNextImage": true,
+          "status": 200,
+          "url": "/_next/image?url=%2Fimages%2Frunning%2Fproducts%2Fvomero-18-hero.png&w=640&q=75"
+        },
+        {
+          "kb": 2,
+          "viaNextImage": true,
+          "status": 200,
+          "url": "/_next/image?url=%2Fimages%2Frunning%2Fproducts%2Fbondi-9-hero.jpg&w=320&q=70"
+        }
+      ],
+      "budget": {
+        "totalBytes": 2621440,
+        "imageBytes": 2097152
+      },
+      "withinBudget": true
+    },
+    {
+      "path": "/products/brooks-glycerin-22",
+      "totalBytes": 1165014,
+      "totalMB": 1.11,
+      "imageBytes": 13244,
+      "imageMB": 0.01,
+      "imageCount": 4,
+      "nextImageCount": 4,
+      "rawImageCount": 0,
+      "brokenImages": 0,
+      "topImages": [
+        {
+          "kb": 8,
+          "viaNextImage": true,
+          "status": 200,
+          "url": "/_next/image?url=%2Fimages%2Frunning%2Fproducts%2Fglycerin-22-hero.jpg&w=640&q=75"
+        },
+        {
+          "kb": 2,
+          "viaNextImage": true,
+          "status": 200,
+          "url": "/_next/image?url=%2Fimages%2Frunning%2Fproducts%2Fbondi-9-hero.jpg&w=320&q=70"
+        },
+        {
+          "kb": 2,
+          "viaNextImage": true,
+          "status": 200,
+          "url": "/_next/image?url=%2Fimages%2Frunning%2Fproducts%2Fvomero-18-hero.png&w=320&q=70"
+        },
+        {
+          "kb": 0,
+          "viaNextImage": true,
+          "status": 200,
+          "url": "/_next/image?url=%2Fimages%2Frunning%2Fproducts%2Fvomero-18-hero.png&w=64&q=65"
+        }
+      ],
+      "budget": {
+        "totalBytes": 2621440,
+        "imageBytes": 2097152
+      },
+      "withinBudget": true
+    },
+    {
+      "path": "/products/on-ultra-vest-pro",
+      "totalBytes": 1126738,
+      "totalMB": 1.07,
+      "imageBytes": 9524,
+      "imageMB": 0.01,
+      "imageCount": 6,
+      "nextImageCount": 6,
+      "rawImageCount": 0,
+      "brokenImages": 0,
+      "topImages": [
+        {
+          "kb": 7,
+          "viaNextImage": true,
+          "status": 200,
+          "url": "/_next/image?url=%2Fimages%2Fpacks%2Fproducts%2Fon-ultra-vest-pro-hero.jpg&w=640&q=75"
+        },
+        {
+          "kb": 1,
+          "viaNextImage": true,
+          "status": 200,
+          "url": "/_next/image?url=%2Fimages%2Fpacks%2Fproducts%2Fon-ultra-vest-pro%2Fgallery%2Frear-3.jpg&w=72&q=65"
+        },
+        {
+          "kb": 1,
+          "viaNextImage": true,
+          "status": 200,
+          "url": "/_next/image?url=%2Fimages%2Fpacks%2Fproducts%2Fon-ultra-vest-pro%2Fgallery%2Fdetail-2.jpg&w=72&q=65"
+        },
+        {
+          "kb": 0,
+          "viaNextImage": true,
+          "status": 200,
+          "url": "/_next/image?url=%2Fimages%2Fpacks%2Fproducts%2Fon-ultra-vest-pro-hero.jpg&w=72&q=65"
+        },
+        {
+          "kb": 0,
+          "viaNextImage": true,
+          "status": 200,
+          "url": "/_next/image?url=%2Fimages%2Fpacks%2Fproducts%2Fon-ultra-vest-pro%2Fgallery%2Fside-1.jpg&w=72&q=65"
+        },
+        {
+          "kb": 0,
+          "viaNextImage": true,
+          "status": 200,
+          "url": "/_next/image?url=%2Fimages%2Fpacks%2Fproducts%2Fon-ultra-vest-pro%2Fgallery%2Ftop-4.webp&w=72&q=65"
+        }
+      ],
+      "budget": {
+        "totalBytes": 2621440,
+        "imageBytes": 2097152
+      },
+      "withinBudget": true
+    }
+  ],
+  "failures": [],
+  "broken": []
+}

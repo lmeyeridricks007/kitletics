@@ -1,0 +1,87 @@
+[
+  {
+    "id": "prod-raidlight-responsiv-12",
+    "ok": false
+  },
+  {
+    "id": "prod-patagonia-slope-runner",
+    "ok": false
+  },
+  {
+    "id": "prod-salomon-trailblazer-20",
+    "ok": false
+  },
+  {
+    "id": "prod-hydrapak-shape-shift-15",
+    "slug": "hydrapak-shape-shift-15",
+    "ok": true,
+    "src": "/images/hydration/products/hydrapak-shape-shift-15-hero.png",
+    "sourceUrl": "https://www.hydrapak.com/search?q=shape-shift",
+    "source": "Manufacturer CDN (HydraPak)",
+    "remote": "http://www.hydrapak.com/cdn/shop/files/hp_image.png?v=1700089676"
+  },
+  {
+    "id": "prod-leki-trail-running-quiver",
+    "ok": false
+  },
+  {
+    "id": "prod-camelbak-octane-22",
+    "ok": false
+  },
+  {
+    "id": "prod-camelbak-quick-grip-chill",
+    "ok": false
+  },
+  {
+    "id": "prod-nathan-quickdraw-plus",
+    "ok": false
+  },
+  {
+    "id": "prod-ud-utility-bag",
+    "ok": false
+  },
+  {
+    "id": "prod-wilson-kaos-rapide-30",
+    "ok": false
+  },
+  {
+    "id": "prod-nb-lav-v2",
+    "ok": false
+  },
+  {
+    "id": "prod-nike-zoom-gp-turbo-2",
+    "ok": false
+  },
+  {
+    "id": "prod-head-revolt-court",
+    "ok": false
+  },
+  {
+    "id": "prod-kuikma-ps-560-women",
+    "ok": false
+  },
+  {
+    "id": "prod-oxdog-hyper-court",
+    "ok": false
+  },
+  {
+    "id": "prod-varlion-bourne-padel-shoe",
+    "ok": false
+  },
+  {
+    "id": "prod-tecnifibre-t-fight-padel",
+    "ok": false
+  },
+  {
+    "id": "prod-adidas-solecourt-boost-padel",
+    "ok": false
+  },
+  {
+    "id": "prod-starvie-absolute-padel",
+    "ok": false
+  },
+  {
+    "id": "prod-nathan-zippered-stash",
+    "ok": false
+  }
+]

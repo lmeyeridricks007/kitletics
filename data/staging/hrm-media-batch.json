@@ -1,0 +1,103 @@
+[
+  {
+    "id": "prod-garmin-hrm-200",
+    "slug": "garmin-hrm-200",
+    "ok": true,
+    "src": "/images/hrm/products/garmin-hrm-200-hero.jpg",
+    "bytes": 21359,
+    "sourceUrl": "https://www.garmin.com/en-US/p/1530957/",
+    "licence": "manufacturer-marketing",
+    "source": "Manufacturer / authorized product photography",
+    "attribution": "\u00a9 Brand \u2014 official / authorized product photography",
+    "width": 1000,
+    "height": 1000
+  },
+  {
+    "id": "prod-garmin-hrm-fit",
+    "slug": "garmin-hrm-fit",
+    "ok": true,
+    "src": "/images/hrm/products/garmin-hrm-fit-hero.jpg",
+    "bytes": 15970,
+    "sourceUrl": "https://www.garmin.com/en-US/p/1132094/",
+    "licence": "manufacturer-marketing",
+    "source": "Manufacturer / authorized product photography",
+    "attribution": "\u00a9 Brand \u2014 official / authorized product photography",
+    "width": 1000,
+    "height": 1000
+  },
+  {
+    "id": "prod-polar-h9",
+    "slug": "polar-h9",
+    "ok": true,
+    "src": "/images/hrm/products/polar-h9-hero.png",
+    "bytes": 185076,
+    "sourceUrl": "https://www.polar.com/en/sensors/h9-heart-rate-sensor",
+    "licence": "manufacturer-marketing",
+    "source": "Manufacturer / authorized product photography",
+    "attribution": "\u00a9 Brand \u2014 official / authorized product photography",
+    "width": 1000,
+    "height": 1000
+  },
+  {
+    "id": "prod-wahoo-trackr",
+    "slug": "wahoo-trackr",
+    "ok": true,
+    "src": "/images/hrm/products/wahoo-trackr-hero.jpg",
+    "bytes": 225035,
+    "sourceUrl": "https://eu.wahoofitness.com/devices/running/heart-rate-monitors/trackr-heart-rate-buy",
+    "licence": "manufacturer-marketing",
+    "source": "Manufacturer / authorized product photography",
+    "attribution": "\u00a9 Brand \u2014 official / authorized product photography",
+    "width": 1000,
+    "height": 1000
+  },
+  {
+    "id": "prod-wahoo-tickr-fit",
+    "slug": "wahoo-tickr-fit",
+    "ok": true,
+    "src": "/images/hrm/products/wahoo-tickr-fit-hero.jpg",
+    "bytes": 36006,
+    "sourceUrl": "https://eu.wahoofitness.com/devices/running/heart-rate-monitors/tickr-fit-optical-heart-rate-monitor",
+    "licence": "manufacturer-marketing",
+    "source": "Manufacturer official product catalog",
+    "attribution": "\u00a9 Brand \u2014 official / authorized product photography",
+    "width": 1000,
+    "height": 1000,
+    "remoteUrl": "https://eu.wahoofitness.com/media/catalog/product/cache/1923967fdc0d9001a5cca9507ecb23ba/t/i/tickr-fit-heart-rate-monitor-1.jpg"
+  },
+  {
+    "id": "prod-scosche-rhythm-plus-2",
+    "slug": "scosche-rhythm-plus-2",
+    "pages": [
+      "https://www.scosche.com/rhythm-plus-2-0-optical-heart-rate-armband-monitor",
+      "https://www.amazon.com/dp/B07V5J8J7R"
+    ],
+    "ok": false
+  },
+  {
+    "id": "prod-scosche-rhythm24",
+    "slug": "scosche-rhythm24",
+    "ok": true,
+    "src": "/images/hrm/products/scosche-rhythm24-hero.jpg",
+    "bytes": 230320,
+    "sourceUrl": "https://www.scosche.com/rhythm24-waterproof-armband-heart-rate-monitor",
+    "licence": "manufacturer-marketing",
+    "source": "Manufacturer / authorized product photography",
+    "attribution": "\u00a9 Brand \u2014 official / authorized product photography",
+    "width": 1000,
+    "height": 1000
+  },
+  {
+    "id": "prod-suunto-smart-hr-belt",
+    "slug": "suunto-smart-heart-rate-belt",
+    "ok": true,
+    "src": "/images/hrm/products/suunto-smart-heart-rate-belt-hero.png",
+    "bytes": 119659,
+    "sourceUrl": "https://www.suunto.com/en-gb/Products/Heart-Rate-Belts/Suunto-Smart-Heart-Rate-Belt/",
+    "licence": "manufacturer-marketing",
+    "source": "Manufacturer / authorized product photography",
+    "attribution": "\u00a9 Brand \u2014 official / authorized product photography",
+    "width": 1000,
+    "height": 1000
+  }
+]

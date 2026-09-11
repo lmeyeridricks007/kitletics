@@ -1,0 +1,1927 @@
+[
+  {
+    "slug": "garmin-forerunner-255",
+    "id": "prod-forerunner-255",
+    "categoryId": "cat-gps-watches",
+    "have": 2,
+    "existing": [
+      "garmin-forerunner-965",
+      "coros-pace-3"
+    ],
+    "pick": [
+      "garmin-vivoactive-6 (uc=3 sub=0)",
+      "suunto-run (uc=3 sub=0)",
+      "garmin-forerunner-265 (uc=2 sub=1)"
+    ],
+    "pickIds": [
+      "prod-vivoactive-6"
+    ]
+  },
+  {
+    "slug": "nike-invincible-3",
+    "id": "prod-invincible-3",
+    "categoryId": "cat-running-shoes",
+    "have": 2,
+    "existing": [
+      "nike-vomero-18",
+      "hoka-bondi-9"
+    ],
+    "pick": [
+      "asics-gel-nimbus-27 (uc=4 sub=3)",
+      "brooks-glycerin-22 (uc=4 sub=2)",
+      "asics-novablast-6 (uc=3 sub=2)"
+    ],
+    "pickIds": [
+      "prod-nimbus-27"
+    ]
+  },
+  {
+    "slug": "nike-structure-26",
+    "id": "prod-structure-26",
+    "categoryId": "cat-running-shoes",
+    "have": 2,
+    "existing": [
+      "asics-gt-2000-14",
+      "brooks-adrenaline-gts-25"
+    ],
+    "pick": [
+      "asics-gel-kayano-32 (uc=4 sub=2)",
+      "nike-structure-plus (uc=3 sub=2)",
+      "nike-pegasus-42 (uc=3 sub=1)"
+    ],
+    "pickIds": [
+      "prod-kayano-32"
+    ]
+  },
+  {
+    "slug": "nike-structure-plus",
+    "id": "prod-structure-plus",
+    "categoryId": "cat-running-shoes",
+    "have": 2,
+    "existing": [
+      "asics-gel-kayano-32",
+      "brooks-adrenaline-gts-25"
+    ],
+    "pick": [
+      "asics-gt-2000-14 (uc=3 sub=2)",
+      "nike-structure-26 (uc=3 sub=2)",
+      "asics-novablast-6 (uc=3 sub=1)"
+    ],
+    "pickIds": [
+      "prod-gt-2000-14"
+    ]
+  },
+  {
+    "slug": "brooks-glycerin-21",
+    "id": "prod-glycerin-21",
+    "categoryId": "cat-running-shoes",
+    "have": 1,
+    "existing": [
+      "brooks-glycerin-22"
+    ],
+    "pick": [
+      "asics-novablast-6 (uc=3 sub=2)",
+      "asics-novablast-5 (uc=3 sub=2)",
+      "hoka-clifton-10 (uc=3 sub=2)"
+    ],
+    "pickIds": [
+      "prod-novablast-6",
+      "prod-novablast-5"
+    ]
+  },
+  {
+    "slug": "hoka-bondi-8",
+    "id": "prod-bondi-8",
+    "categoryId": "cat-running-shoes",
+    "have": 1,
+    "existing": [
+      "hoka-bondi-9"
+    ],
+    "pick": [
+      "asics-gel-nimbus-27 (uc=3 sub=2)",
+      "nike-vomero-18 (uc=3 sub=2)",
+      "brooks-glycerin-22 (uc=3 sub=2)"
+    ],
+    "pickIds": [
+      "prod-nimbus-27",
+      "prod-vomero-18"
+    ]
+  },
+  {
+    "slug": "hoka-clifton-pro",
+    "id": "prod-clifton-pro",
+    "categoryId": "cat-running-shoes",
+    "have": 2,
+    "existing": [
+      "hoka-clifton-10",
+      "hoka-bondi-9"
+    ],
+    "pick": [
+      "asics-novablast-6 (uc=4 sub=3)",
+      "hoka-clifton-9 (uc=4 sub=3)",
+      "nike-vomero-18 (uc=4 sub=3)"
+    ],
+    "pickIds": [
+      "prod-novablast-6"
+    ]
+  },
+  {
+    "slug": "new-balance-fresh-foam-x-1080-v13",
+    "id": "prod-1080-v13",
+    "categoryId": "cat-running-shoes",
+    "have": 1,
+    "existing": [
+      "new-balance-fresh-foam-x-1080-v14"
+    ],
+    "pick": [
+      "brooks-ghost-18 (uc=3 sub=2)",
+      "topo-athletic-phantom-3 (uc=3 sub=2)",
+      "asics-novablast-6 (uc=2 sub=2)"
+    ],
+    "pickIds": [
+      "prod-ghost-18",
+      "prod-phantom-3"
+    ]
+  },
+  {
+    "slug": "new-balance-fuelcell-rebel-v5",
+    "id": "prod-rebel-v5",
+    "categoryId": "cat-running-shoes",
+    "have": 2,
+    "existing": [
+      "hoka-mach-6",
+      "saucony-endorphin-speed-5"
+    ],
+    "pick": [
+      "adidas-adizero-evo-sl (uc=4 sub=3)",
+      "adidas-adizero-boston-12 (uc=3 sub=3)",
+      "new-balance-fuelcell-rebel-v4 (uc=3 sub=3)"
+    ],
+    "pickIds": [
+      "prod-adizero-evo-sl"
+    ]
+  },
+  {
+    "slug": "new-balance-fuelcell-supercomp-trainer-v3",
+    "id": "prod-sc-trainer-v3",
+    "categoryId": "cat-running-shoes",
+    "have": 2,
+    "existing": [
+      "asics-superblast-2",
+      "brooks-hyperion-max-2"
+    ],
+    "pick": [
+      "puma-deviate-nitro-3 (uc=4 sub=3)",
+      "saucony-endorphin-speed-5 (uc=4 sub=2)",
+      "saucony-endorphin-speed-4 (uc=4 sub=2)"
+    ],
+    "pickIds": [
+      "prod-deviate-nitro-3"
+    ]
+  },
+  {
+    "slug": "on-cloudsurfer-next",
+    "id": "prod-cloudsurfer-next",
+    "categoryId": "cat-running-shoes",
+    "have": 2,
+    "existing": [
+      "brooks-ghost-18",
+      "hoka-clifton-10"
+    ],
+    "pick": [
+      "nike-vomero-18 (uc=4 sub=3)",
+      "puma-magnify-nitro-2 (uc=4 sub=3)",
+      "asics-novablast-6 (uc=3 sub=3)"
+    ],
+    "pickIds": [
+      "prod-vomero-18"
+    ]
+  },
+  {
+    "slug": "altra-escalante-4",
+    "id": "prod-escalante-4",
+    "categoryId": "cat-running-shoes",
+    "have": 2,
+    "existing": [
+      "altra-torin-8",
+      "topo-athletic-phantom-3"
+    ],
+    "pick": [
+      "new-balance-fresh-foam-x-1080-v14 (uc=4 sub=2)",
+      "asics-novablast-6 (uc=3 sub=2)",
+      "asics-novablast-5 (uc=3 sub=2)"
+    ],
+    "pickIds": [
+      "prod-1080-v14"
+    ]
+  },
+  {
+    "slug": "salomon-pulsar-trail-2",
+    "id": "prod-pulsar-trail-2",
+    "categoryId": "cat-running-shoes",
+    "have": 2,
+    "existing": [
+      "saucony-peregrine-15",
+      "hoka-speedgoat-6"
+    ],
+    "pick": [
+      "inov8-trailfly-ultra-g-300-max (uc=3 sub=1)",
+      "asics-superblast-2 (uc=2 sub=1)",
+      "saucony-endorphin-speed-5 (uc=2 sub=1)"
+    ],
+    "pickIds": [
+      "prod-trailfly-ultra-g-300-max"
+    ]
+  },
+  {
+    "slug": "topo-athletic-specter-2",
+    "id": "prod-specter-2",
+    "categoryId": "cat-running-shoes",
+    "have": 2,
+    "existing": [
+      "hoka-mach-6",
+      "adidas-adizero-evo-sl"
+    ],
+    "pick": [
+      "mizuno-wave-rebellion-pro-3 (uc=4 sub=2)",
+      "saucony-endorphin-speed-5 (uc=3 sub=3)",
+      "saucony-endorphin-speed-4 (uc=3 sub=3)"
+    ],
+    "pickIds": [
+      "prod-wave-rebellion-pro-3"
+    ]
+  },
+  {
+    "slug": "puma-deviate-nitro-3",
+    "id": "prod-deviate-nitro-3",
+    "categoryId": "cat-running-shoes",
+    "have": 2,
+    "existing": [
+      "saucony-endorphin-speed-5",
+      "brooks-hyperion-max-2"
+    ],
+    "pick": [
+      "saucony-endorphin-speed-4 (uc=5 sub=3)",
+      "new-balance-fuelcell-supercomp-trainer-v3 (uc=4 sub=3)",
+      "asics-superblast-2 (uc=4 sub=2)"
+    ],
+    "pickIds": [
+      "prod-endorphin-speed-4"
+    ]
+  },
+  {
+    "slug": "inov8-trailfly-ultra-g-300-max",
+    "id": "prod-trailfly-ultra-g-300-max",
+    "categoryId": "cat-running-shoes",
+    "have": 2,
+    "existing": [
+      "hoka-speedgoat-6",
+      "altra-lone-peak-8"
+    ],
+    "pick": [
+      "asics-gel-trabuco-13 (uc=3 sub=2)",
+      "saucony-xodus-ultra-3 (uc=3 sub=2)",
+      "saucony-peregrine-15 (uc=3 sub=1)"
+    ],
+    "pickIds": [
+      "prod-trabuco-13"
+    ]
+  },
+  {
+    "slug": "saucony-xodus-ultra-3",
+    "id": "prod-xodus-ultra-3",
+    "categoryId": "cat-running-shoes",
+    "have": 2,
+    "existing": [
+      "asics-gel-trabuco-13",
+      "brooks-cascadia-18"
+    ],
+    "pick": [
+      "hoka-speedgoat-6 (uc=3 sub=2)",
+      "inov8-trailfly-ultra-g-300-max (uc=3 sub=2)",
+      "saucony-peregrine-15 (uc=3 sub=1)"
+    ],
+    "pickIds": [
+      "prod-speedgoat-6"
+    ]
+  },
+  {
+    "slug": "asics-gt-1000-13",
+    "id": "prod-gt-1000-13",
+    "categoryId": "cat-running-shoes",
+    "have": 2,
+    "existing": [
+      "saucony-guide-18",
+      "new-balance-fresh-foam-x-860-v14"
+    ],
+    "pick": [
+      "nike-react-infinity-run-4 (uc=3 sub=2)",
+      "hoka-arahi-7 (uc=2 sub=2)",
+      "altra-experience-flow (uc=2 sub=1)"
+    ],
+    "pickIds": [
+      "prod-react-infinity-4"
+    ]
+  },
+  {
+    "slug": "brooks-glycerin-gts-22",
+    "id": "prod-glycerin-gts-22",
+    "categoryId": "cat-running-shoes",
+    "have": 2,
+    "existing": [
+      "asics-gel-kayano-32",
+      "hoka-gaviota-5"
+    ],
+    "pick": [
+      "asics-novablast-6 (uc=2 sub=2)",
+      "asics-novablast-5 (uc=2 sub=2)",
+      "hoka-clifton-10 (uc=2 sub=2)"
+    ],
+    "pickIds": [
+      "prod-novablast-6"
+    ]
+  },
+  {
+    "slug": "nike-react-infinity-run-4",
+    "id": "prod-react-infinity-4",
+    "categoryId": "cat-running-shoes",
+    "have": 2,
+    "existing": [
+      "hoka-arahi-7",
+      "saucony-guide-18"
+    ],
+    "pick": [
+      "asics-gt-1000-13 (uc=3 sub=2)",
+      "new-balance-fresh-foam-x-860-v14 (uc=2 sub=2)",
+      "altra-experience-flow (uc=2 sub=1)"
+    ],
+    "pickIds": [
+      "prod-gt-1000-13"
+    ]
+  },
+  {
+    "slug": "garmin-forerunner-55",
+    "id": "prod-forerunner-55",
+    "categoryId": "cat-gps-watches",
+    "have": 1,
+    "existing": [
+      "garmin-forerunner-165"
+    ],
+    "pick": [
+      "suunto-run (uc=3 sub=1)",
+      "polar-pacer (uc=3 sub=1)",
+      "amazfit-active-2 (uc=3 sub=1)"
+    ],
+    "pickIds": [
+      "prod-suunto-run",
+      "prod-polar-pacer"
+    ]
+  },
+  {
+    "slug": "coros-apex-2-pro",
+    "id": "prod-coros-apex-2-pro",
+    "categoryId": "cat-gps-watches",
+    "have": 2,
+    "existing": [
+      "garmin-forerunner-970",
+      "suunto-race"
+    ],
+    "pick": [
+      "garmin-fenix-8 (uc=4 sub=1)",
+      "coros-apex-4 (uc=4 sub=1)",
+      "coros-vertix-2s (uc=4 sub=1)"
+    ],
+    "pickIds": [
+      "prod-fenix-8"
+    ]
+  },
+  {
+    "slug": "suunto-race-s",
+    "id": "prod-suunto-race-s",
+    "categoryId": "cat-gps-watches",
+    "have": 2,
+    "existing": [
+      "coros-pace-pro",
+      "garmin-forerunner-570"
+    ],
+    "pick": [
+      "polar-grit-x2 (uc=3 sub=0)",
+      "coros-pace-4 (uc=2 sub=1)",
+      "garmin-forerunner-265s (uc=2 sub=1)"
+    ],
+    "pickIds": [
+      "prod-polar-grit-x2"
+    ]
+  },
+  {
+    "slug": "apple-watch-ultra-2",
+    "id": "prod-apple-watch-ultra-2",
+    "categoryId": "cat-gps-watches",
+    "have": 2,
+    "existing": [
+      "garmin-forerunner-970",
+      "coros-pace-pro"
+    ],
+    "pick": [
+      "apple-watch-ultra-3 (uc=4 sub=1)",
+      "samsung-galaxy-watch-ultra (uc=3 sub=1)",
+      "garmin-forerunner-570 (uc=3 sub=0)"
+    ],
+    "pickIds": [
+      "prod-apple-watch-ultra-3"
+    ]
+  },
+  {
+    "slug": "osprey-hydraulics-lt-15",
+    "id": "prod-osprey-hydraulics-15",
+    "categoryId": "cat-hydration",
+    "have": 1,
+    "existing": [
+      "camelbak-crux-15",
+      null
+    ],
+    "pick": [
+      "hydrapak-contour-2l (uc=3 sub=1)",
+      "salomon-soft-reservoir-15 (uc=3 sub=1)",
+      "hydrapak-softflask-speed-500 (uc=3 sub=0)"
+    ],
+    "pickIds": [
+      "prod-hydrapak-contour-2l",
+      "prod-salomon-soft-reservoir-15"
+    ]
+  },
+  {
+    "slug": "hydrapak-tube-kit",
+    "id": "prod-hydrapak-tube-kit",
+    "categoryId": "cat-hydration",
+    "have": 1,
+    "existing": [
+      "hydrapak-softflask-speed-500",
+      null
+    ],
+    "pick": [
+      "salomon-soft-flask-speed-500 (uc=3 sub=1)",
+      "ultimate-direction-body-bottle-500 (uc=3 sub=1)",
+      "nathan-softflask-18oz (uc=3 sub=1)"
+    ],
+    "pickIds": [
+      "prod-salomon-soft-flask-speed-500",
+      "prod-ud-body-bottle-500"
+    ]
+  },
+  {
+    "slug": "amphipod-hydraform-ergo-lite-handheld",
+    "id": "prod-amphipod-hydraform-handheld",
+    "categoryId": "cat-hydration",
+    "have": 2,
+    "existing": [
+      "camelbak-quick-grip-chill",
+      "hydrapak-skyflask-speed-500",
+      null
+    ],
+    "pick": [
+      "nathan-speeddraw-plus-insulated-18oz (uc=4 sub=1)",
+      "nathan-exoshot-2 (uc=2 sub=1)",
+      "hydrapak-softflask-speed-500 (uc=2 sub=0)"
+    ],
+    "pickIds": [
+      "prod-nathan-speeddraw-insulated"
+    ]
+  },
+  {
+    "slug": "hydrapak-contour-2l",
+    "id": "prod-hydrapak-contour-2l",
+    "categoryId": "cat-hydration",
+    "have": 2,
+    "existing": [
+      "camelbak-crux-15",
+      "salomon-soft-reservoir-15",
+      null
+    ],
+    "pick": [
+      "osprey-hydraulics-lt-15 (uc=3 sub=1)",
+      "hydrapak-softflask-speed-500 (uc=3 sub=0)",
+      "salomon-soft-flask-speed-500 (uc=3 sub=0)"
+    ],
+    "pickIds": [
+      "prod-osprey-hydraulics-15"
+    ]
+  },
+  {
+    "slug": "salomon-soft-reservoir-15",
+    "id": "prod-salomon-soft-reservoir-15",
+    "categoryId": "cat-hydration",
+    "have": 2,
+    "existing": [
+      "hydrapak-contour-2l",
+      "camelbak-crux-15",
+      null
+    ],
+    "pick": [
+      "osprey-hydraulics-lt-15 (uc=3 sub=1)",
+      "hydrapak-softflask-speed-500 (uc=3 sub=0)",
+      "salomon-soft-flask-speed-500 (uc=3 sub=0)"
+    ],
+    "pickIds": [
+      "prod-osprey-hydraulics-15"
+    ]
+  },
+  {
+    "slug": "nathan-zippered-stash",
+    "id": "prod-nathan-zippered-stash",
+    "categoryId": "cat-packs-vests",
+    "have": 1,
+    "existing": [
+      "ultimate-direction-utility-bag",
+      null,
+      "nathan-mirage-pak"
+    ],
+    "pick": [
+      "salomon-adv-skin-5 (uc=4 sub=0)",
+      "ultimate-direction-race-vest-6 (uc=4 sub=0)",
+      "nathan-vaporair-4 (uc=4 sub=0)"
+    ],
+    "pickIds": [
+      "prod-salomon-adv-skin-5",
+      "prod-ud-race-vest-6"
+    ]
+  },
+  {
+    "slug": "petzl-actik-core",
+    "id": "prod-petzl-actik-core",
+    "categoryId": "cat-running-lights",
+    "have": 1,
+    "existing": [
+      "black-diamond-spot-400-r",
+      null,
+      null,
+      null
+    ],
+    "pick": [
+      "petzl-nao-rl (uc=4 sub=1)",
+      "black-diamond-distance-1500 (uc=4 sub=1)",
+      "ledlenser-neo9r (uc=4 sub=1)"
+    ],
+    "pickIds": [
+      "prod-petzl-nao-rl",
+      "prod-bd-distance-1500"
+    ]
+  },
+  {
+    "slug": "therabody-theragun-pro",
+    "id": "prod-theragun-pro",
+    "categoryId": "cat-recovery-gear",
+    "have": 2,
+    "existing": [
+      "therabody-theragun-prime",
+      "hyperice-hypervolt-2",
+      null
+    ],
+    "pick": [
+      "hyperice-normatec-3 (uc=4 sub=0)",
+      "blackroll-pro (uc=4 sub=0)",
+      "hyperice-vyper-3 (uc=4 sub=0)"
+    ],
+    "pickIds": [
+      "prod-normatec-3"
+    ]
+  },
+  {
+    "slug": "triggerpoint-grid-x",
+    "id": "prod-triggerpoint-grid-x",
+    "categoryId": "cat-recovery-gear",
+    "have": 1,
+    "existing": [
+      "blackroll-pro",
+      null,
+      null
+    ],
+    "pick": [
+      "therabody-theragun-prime (uc=4 sub=0)",
+      "brazyn-morph (uc=3 sub=1)",
+      "hyperice-hypervolt-2 (uc=3 sub=0)"
+    ],
+    "pickIds": [
+      "prod-theragun-prime",
+      "prod-brazyn-morph"
+    ]
+  },
+  {
+    "slug": "triggerpoint-grid-travel",
+    "id": "prod-triggerpoint-grid-travel",
+    "categoryId": "cat-recovery-gear",
+    "have": 1,
+    "existing": [
+      "brazyn-morph",
+      null,
+      null
+    ],
+    "pick": [
+      "blackroll-pro (uc=3 sub=1)",
+      "therabody-theragun-prime (uc=3 sub=0)",
+      "hyperice-hypervolt-2 (uc=3 sub=0)"
+    ],
+    "pickIds": [
+      "prod-blackroll-pro",
+      "prod-theragun-prime"
+    ]
+  },
+  {
+    "slug": "brazyn-morph",
+    "id": "prod-brazyn-morph",
+    "categoryId": "cat-recovery-gear",
+    "have": 2,
+    "existing": [
+      "triggerpoint-grid-travel",
+      "hyperice-vyper-3",
+      null,
+      null
+    ],
+    "pick": [
+      "hyperice-normatec-go (uc=4 sub=0)",
+      "triggerpoint-grid-x (uc=3 sub=1)",
+      "blackroll-pro (uc=3 sub=1)"
+    ],
+    "pickIds": [
+      "prod-normatec-go"
+    ]
+  },
+  {
+    "slug": "blackroll-pro",
+    "id": "prod-blackroll-pro",
+    "categoryId": "cat-recovery-gear",
+    "have": 1,
+    "existing": [
+      "triggerpoint-grid-x",
+      null,
+      null
+    ],
+    "pick": [
+      "therabody-theragun-prime (uc=4 sub=0)",
+      "hyperice-hypervolt-2 (uc=4 sub=0)",
+      "therabody-theragun-pro (uc=4 sub=0)"
+    ],
+    "pickIds": [
+      "prod-theragun-prime",
+      "prod-hypervolt-2"
+    ]
+  },
+  {
+    "slug": "hyperice-normatec-3",
+    "id": "prod-normatec-3",
+    "categoryId": "cat-recovery-gear",
+    "have": 1,
+    "existing": [
+      "hyperice-normatec-go",
+      null
+    ],
+    "pick": [
+      "therabody-theragun-prime (uc=4 sub=0)",
+      "hyperice-hypervolt-2 (uc=4 sub=0)",
+      "therabody-theragun-pro (uc=4 sub=0)"
+    ],
+    "pickIds": [
+      "prod-theragun-prime",
+      "prod-hypervolt-2"
+    ]
+  },
+  {
+    "slug": "hyperice-normatec-go",
+    "id": "prod-normatec-go",
+    "categoryId": "cat-recovery-gear",
+    "have": 2,
+    "existing": [
+      "hyperice-normatec-3",
+      "cep-the-run-calf-sleeves",
+      null
+    ],
+    "pick": [
+      "brazyn-morph (uc=4 sub=0)",
+      "therabody-theragun-prime (uc=3 sub=0)",
+      "hyperice-hypervolt-2 (uc=3 sub=0)"
+    ],
+    "pickIds": [
+      "prod-brazyn-morph"
+    ]
+  },
+  {
+    "slug": "oofos-oolala",
+    "id": "prod-oofos-oolala",
+    "categoryId": "cat-recovery-gear",
+    "have": 1,
+    "existing": [
+      "oofos-ooriginal",
+      null,
+      null
+    ],
+    "pick": [
+      "therabody-theragun-prime (uc=4 sub=0)",
+      "therabody-theragun-mini-2 (uc=4 sub=0)",
+      "hyperice-hypervolt-2 (uc=3 sub=0)"
+    ],
+    "pickIds": [
+      "prod-theragun-prime",
+      "prod-theragun-mini"
+    ]
+  },
+  {
+    "slug": "cep-the-run-calf-sleeves",
+    "id": "prod-cep-the-run-calf",
+    "categoryId": "cat-recovery-gear",
+    "have": 2,
+    "existing": [
+      "hyperice-normatec-go",
+      "cep-calf-sleeves-3",
+      null,
+      null
+    ],
+    "pick": [
+      "therabody-theragun-mini-2 (uc=4 sub=0)",
+      "therabody-theragun-prime (uc=3 sub=0)",
+      "hyperice-hypervolt-2 (uc=3 sub=0)"
+    ],
+    "pickIds": [
+      "prod-theragun-mini"
+    ]
+  },
+  {
+    "slug": "hyperice-vyper-3",
+    "id": "prod-hyperice-vyper-3",
+    "categoryId": "cat-recovery-gear",
+    "have": 1,
+    "existing": [
+      "brazyn-morph",
+      null,
+      null
+    ],
+    "pick": [
+      "therabody-theragun-prime (uc=4 sub=0)",
+      "hyperice-hypervolt-2 (uc=4 sub=0)",
+      "therabody-theragun-pro (uc=4 sub=0)"
+    ],
+    "pickIds": [
+      "prod-theragun-prime",
+      "prod-hypervolt-2"
+    ]
+  },
+  {
+    "slug": "patagonia-trailfarer-short-women",
+    "id": "prod-patagonia-trailfarer-short-women",
+    "categoryId": "cat-running-clothing",
+    "have": 2,
+    "existing": [
+      "janji-pace-short-women",
+      "brooks-chaser-5-women",
+      null
+    ],
+    "pick": [
+      "patagonia-endless-run-tight-women (uc=4 sub=0)",
+      "salomon-bonatti-wp-women (uc=3 sub=0)",
+      "ciele-gocap-athletics (uc=3 sub=0)"
+    ],
+    "pickIds": [
+      "prod-patagonia-endless-run-tight-women"
+    ]
+  },
+  {
+    "slug": "brooks-sherpa-7-men",
+    "id": "prod-brooks-sherpa-7-men",
+    "categoryId": "cat-running-clothing",
+    "have": 2,
+    "existing": [
+      "janji-multi-short-men",
+      "rabbit-fuel-n-fly-men",
+      null
+    ],
+    "pick": [
+      "nike-aerobill-cap (uc=5 sub=0)",
+      "ciele-gocap-athletics (uc=4 sub=0)",
+      "janji-run-tee-men (uc=4 sub=0)"
+    ],
+    "pickIds": [
+      "prod-nike-aerobill-cap"
+    ]
+  },
+  {
+    "slug": "patagonia-endless-run-tight-women",
+    "id": "prod-patagonia-endless-run-tight-women",
+    "categoryId": "cat-running-clothing",
+    "have": 2,
+    "existing": [
+      "tracksmith-turnover-tight-women",
+      "brooks-method-tight-women",
+      null
+    ],
+    "pick": [
+      "patagonia-trailfarer-short-women (uc=4 sub=0)",
+      "salomon-bonatti-wp-women (uc=3 sub=0)",
+      "ciele-gocap-athletics (uc=3 sub=0)"
+    ],
+    "pickIds": [
+      "prod-patagonia-trailfarer-short-women"
+    ]
+  },
+  {
+    "slug": "brooks-notch-thermal-men",
+    "id": "prod-brooks-notch-thermal-men",
+    "categoryId": "cat-running-clothing",
+    "have": 1,
+    "existing": [
+      "patagonia-nano-puff-vest-men",
+      null,
+      null
+    ],
+    "pick": [
+      "craft-adv-essence-light-wind-men (uc=4 sub=1)",
+      "smartwool-thermal-merino-glove (uc=4 sub=0)",
+      "brooks-notch-thermal-beanie (uc=4 sub=0)"
+    ],
+    "pickIds": [
+      "prod-craft-adv-essence-light-wind-men",
+      "prod-smartwool-thermal-merino-glove"
+    ]
+  },
+  {
+    "slug": "salomon-bonatti-wp-women",
+    "id": "prod-salomon-bonatti-wp-women",
+    "categoryId": "cat-running-clothing",
+    "have": 1,
+    "existing": [
+      "janji-rainrunner-men",
+      null,
+      null
+    ],
+    "pick": [
+      "ciele-gocap-athletics (uc=3 sub=0)",
+      "patagonia-trailfarer-short-women (uc=3 sub=0)",
+      "patagonia-endless-run-tight-women (uc=3 sub=0)"
+    ],
+    "pickIds": [
+      "prod-ciele-gocap-athletics",
+      "prod-patagonia-trailfarer-short-women"
+    ]
+  },
+  {
+    "slug": "janji-rainrunner-men",
+    "id": "prod-janji-rainrunner-unisex",
+    "categoryId": "cat-running-clothing",
+    "have": 2,
+    "existing": [
+      "salomon-bonatti-wp-men",
+      "salomon-bonatti-wp-women",
+      null,
+      null
+    ],
+    "pick": [
+      "ciele-gocap-athletics (uc=4 sub=0)",
+      "patagonia-strider-pro-men (uc=4 sub=0)",
+      "brooks-sherpa-7-men (uc=3 sub=0)"
+    ],
+    "pickIds": [
+      "prod-ciele-gocap-athletics"
+    ]
+  },
+  {
+    "slug": "nike-dri-fit-miler-women",
+    "id": "prod-nike-dri-fit-miler-women",
+    "categoryId": "cat-running-clothing",
+    "have": 2,
+    "existing": [
+      "janji-run-tee-men",
+      "patagonia-capilene-cool-daily-men",
+      null
+    ],
+    "pick": [
+      "nike-swoosh-medium-support (uc=4 sub=0)",
+      "brooks-chaser-5-women (uc=3 sub=0)",
+      "brooks-method-tight-women (uc=3 sub=0)"
+    ],
+    "pickIds": [
+      "prod-nike-swoosh-medium-support"
+    ]
+  },
+  {
+    "slug": "nike-aeroswift-singlet-men",
+    "id": "prod-nike-aeroswift-singlet-men",
+    "categoryId": "cat-running-clothing",
+    "have": 1,
+    "existing": [
+      "asics-core-split-short",
+      null,
+      null
+    ],
+    "pick": [
+      "nike-fast-tight-men (uc=4 sub=0)",
+      "nike-impossibly-light-men (uc=4 sub=0)",
+      "rabbit-fuel-n-fly-men (uc=3 sub=0)"
+    ],
+    "pickIds": [
+      "prod-nike-fast-tight-men",
+      "prod-nike-impossibly-light-men"
+    ]
+  },
+  {
+    "slug": "tracksmith-brighton-ls-men",
+    "id": "prod-tracksmith-brighton-ls-men",
+    "categoryId": "cat-running-clothing",
+    "have": 2,
+    "existing": [
+      "patagonia-capilene-thermal-crew-men",
+      "odlo-active-warm-eco-men",
+      null
+    ],
+    "pick": [
+      "brooks-canopy-jacket-men (uc=4 sub=0)",
+      "on-weather-jacket-men (uc=4 sub=0)",
+      "brooks-sherpa-7-men (uc=3 sub=0)"
+    ],
+    "pickIds": [
+      "prod-brooks-canopy-jacket-unisex"
+    ]
+  },
+  {
+    "slug": "odlo-active-warm-eco-bottom-men",
+    "id": "prod-odlo-active-warm-eco-bottom-men",
+    "categoryId": "cat-running-clothing",
+    "have": 2,
+    "existing": [
+      "craft-adv-essence-tight-men",
+      "nike-fast-tight-men"
+    ],
+    "pick": [
+      "brooks-notch-thermal-men (uc=4 sub=0)",
+      "patagonia-nano-puff-vest-men (uc=4 sub=0)",
+      "smartwool-thermal-merino-glove (uc=4 sub=0)"
+    ],
+    "pickIds": [
+      "prod-brooks-notch-thermal-men"
+    ]
+  },
+  {
+    "slug": "patagonia-nano-puff-vest-men",
+    "id": "prod-patagonia-nano-puff-vest-men",
+    "categoryId": "cat-running-clothing",
+    "have": 2,
+    "existing": [
+      "brooks-notch-thermal-men",
+      "craft-adv-essence-light-wind-vest-men",
+      null
+    ],
+    "pick": [
+      "smartwool-thermal-merino-glove (uc=4 sub=0)",
+      "brooks-notch-thermal-beanie (uc=4 sub=0)",
+      "craft-adv-lumen-glove (uc=4 sub=0)"
+    ],
+    "pickIds": [
+      "prod-smartwool-thermal-merino-glove"
+    ]
+  },
+  {
+    "slug": "ciele-gocap-athletics",
+    "id": "prod-ciele-gocap-athletics",
+    "categoryId": "cat-running-clothing",
+    "have": 2,
+    "existing": [
+      "nike-aerobill-cap",
+      "brooks-notch-thermal-beanie"
+    ],
+    "pick": [
+      "brooks-sherpa-7-men (uc=4 sub=0)",
+      "rabbit-fuel-n-fly-men (uc=4 sub=0)",
+      "janji-multi-short-men (uc=4 sub=0)"
+    ],
+    "pickIds": [
+      "prod-brooks-sherpa-7-men"
+    ]
+  },
+  {
+    "slug": "brooks-notch-thermal-beanie",
+    "id": "prod-brooks-notch-thermal-beanie",
+    "categoryId": "cat-running-clothing",
+    "have": 2,
+    "existing": [
+      "ciele-gocap-athletics",
+      "nike-aerobill-cap"
+    ],
+    "pick": [
+      "brooks-method-tight-women (uc=4 sub=0)",
+      "brooks-notch-thermal-men (uc=4 sub=0)",
+      "patagonia-nano-puff-vest-men (uc=4 sub=0)"
+    ],
+    "pickIds": [
+      "prod-brooks-method-tight-women"
+    ]
+  },
+  {
+    "slug": "smartwool-thermal-merino-glove",
+    "id": "prod-smartwool-thermal-merino-glove",
+    "categoryId": "cat-running-clothing",
+    "have": 2,
+    "existing": [
+      "nike-therma-fit-glove",
+      "craft-adv-lumen-glove"
+    ],
+    "pick": [
+      "brooks-method-tight-women (uc=4 sub=0)",
+      "brooks-notch-thermal-men (uc=4 sub=0)",
+      "patagonia-nano-puff-vest-men (uc=4 sub=0)"
+    ],
+    "pickIds": [
+      "prod-brooks-method-tight-women"
+    ]
+  },
+  {
+    "slug": "nike-therma-fit-glove",
+    "id": "prod-nike-therma-fit-glove",
+    "categoryId": "cat-running-clothing",
+    "have": 2,
+    "existing": [
+      "smartwool-thermal-merino-glove",
+      "craft-adv-lumen-glove"
+    ],
+    "pick": [
+      "brooks-method-tight-women (uc=4 sub=0)",
+      "brooks-notch-thermal-men (uc=4 sub=0)",
+      "patagonia-nano-puff-vest-men (uc=4 sub=0)"
+    ],
+    "pickIds": [
+      "prod-brooks-method-tight-women"
+    ]
+  },
+  {
+    "slug": "craft-adv-lumen-glove",
+    "id": "prod-craft-adv-lumen-glove",
+    "categoryId": "cat-running-clothing",
+    "have": 2,
+    "existing": [
+      "smartwool-thermal-merino-glove",
+      "nike-therma-fit-glove"
+    ],
+    "pick": [
+      "brooks-method-tight-women (uc=4 sub=0)",
+      "brooks-notch-thermal-men (uc=4 sub=0)",
+      "patagonia-nano-puff-vest-men (uc=4 sub=0)"
+    ],
+    "pickIds": [
+      "prod-brooks-method-tight-women"
+    ]
+  },
+  {
+    "slug": "smartwool-run-targeted-cushion",
+    "id": "prod-smartwool-run-targeted-cushion",
+    "categoryId": "cat-running-socks",
+    "have": 2,
+    "existing": [
+      "darn-tough-run-1-4",
+      "injinji-run-midweight",
+      null
+    ],
+    "pick": [
+      "drymax-run-lite-mesh (uc=5 sub=0)",
+      "wrightsock-coolmesh-ii (uc=5 sub=0)",
+      "swiftwick-aspire-four (uc=4 sub=0)"
+    ],
+    "pickIds": [
+      "prod-drymax-run-lite-mesh"
+    ]
+  },
+  {
+    "slug": "cep-run-compression-sock-3",
+    "id": "prod-cep-run-compression-sock",
+    "categoryId": "cat-running-socks",
+    "have": 1,
+    "existing": [
+      "feetures-elite-light-cushion"
+    ],
+    "pick": [
+      "darn-tough-run-1-4 (uc=3 sub=0)",
+      "smartwool-run-targeted-cushion (uc=3 sub=0)",
+      "swiftwick-aspire-four (uc=3 sub=0)"
+    ],
+    "pickIds": [
+      "prod-darn-tough-run-1-4",
+      "prod-smartwool-run-targeted-cushion"
+    ]
+  },
+  {
+    "slug": "silva-trail-runner-free-2",
+    "id": "prod-silva-trail-runner-free",
+    "categoryId": "cat-running-lights",
+    "have": 2,
+    "existing": [
+      "petzl-swift-rl",
+      "black-diamond-spot-400-r"
+    ],
+    "pick": [
+      "ledlenser-neo9r (uc=4 sub=2)",
+      "petzl-nao-rl (uc=4 sub=1)",
+      "black-diamond-distance-1500 (uc=4 sub=1)"
+    ],
+    "pickIds": [
+      "prod-ledlenser-neo9r"
+    ]
+  },
+  {
+    "slug": "therabody-theragun-mini-2",
+    "id": "prod-theragun-mini",
+    "categoryId": "cat-recovery-gear",
+    "have": 2,
+    "existing": [
+      "therabody-theragun-prime",
+      "hyperice-hypervolt-go-2"
+    ],
+    "pick": [
+      "oofos-ooriginal (uc=4 sub=0)",
+      "oofos-oolala (uc=4 sub=0)",
+      "cep-the-run-calf-sleeves (uc=4 sub=0)"
+    ],
+    "pickIds": [
+      "prod-oofos-ooriginal"
+    ]
+  },
+  {
+    "slug": "hyperice-hypervolt-go-2",
+    "id": "prod-hypervolt-go-2",
+    "categoryId": "cat-recovery-gear",
+    "have": 2,
+    "existing": [
+      "hyperice-hypervolt-2",
+      "therabody-theragun-mini-2"
+    ],
+    "pick": [
+      "therabody-theragun-prime (uc=3 sub=1)",
+      "triggerpoint-grid-x (uc=3 sub=0)",
+      "brazyn-morph (uc=3 sub=0)"
+    ],
+    "pickIds": [
+      "prod-theragun-prime"
+    ]
+  },
+  {
+    "slug": "oofos-ooriginal",
+    "id": "prod-oofos-ooriginal",
+    "categoryId": "cat-recovery-gear",
+    "have": 1,
+    "existing": [
+      "oofos-oolala",
+      null
+    ],
+    "pick": [
+      "therabody-theragun-prime (uc=4 sub=0)",
+      "therabody-theragun-mini-2 (uc=4 sub=0)",
+      "hyperice-hypervolt-2 (uc=3 sub=0)"
+    ],
+    "pickIds": [
+      "prod-theragun-prime",
+      "prod-theragun-mini"
+    ]
+  },
+  {
+    "slug": "cep-calf-sleeves-3",
+    "id": "prod-cep-calf-sleeves",
+    "categoryId": "cat-recovery-gear",
+    "have": 1,
+    "existing": [
+      "cep-the-run-calf-sleeves",
+      "cep-run-compression-sock-3"
+    ],
+    "pick": [
+      "therabody-theragun-prime (uc=2 sub=0)",
+      "hyperice-hypervolt-2 (uc=2 sub=0)",
+      "therabody-theragun-pro (uc=2 sub=0)"
+    ],
+    "pickIds": [
+      "prod-theragun-prime",
+      "prod-hypervolt-2"
+    ]
+  },
+  {
+    "slug": "body-glide-original",
+    "id": "prod-body-glide-original",
+    "categoryId": "cat-accessories",
+    "have": 2,
+    "existing": [
+      "squirrels-nut-butter",
+      "2toms-sportshield"
+    ],
+    "pick": [],
+    "pickIds": []
+  },
+  {
+    "slug": "squirrels-nut-butter",
+    "id": "prod-squirrels-nut-butter",
+    "categoryId": "cat-accessories",
+    "have": 2,
+    "existing": [
+      "body-glide-original",
+      "2toms-sportshield"
+    ],
+    "pick": [],
+    "pickIds": []
+  },
+  {
+    "slug": "2toms-sportshield",
+    "id": "prod-2toms-sportshield",
+    "categoryId": "cat-accessories",
+    "have": 2,
+    "existing": [
+      "body-glide-original",
+      "squirrels-nut-butter"
+    ],
+    "pick": [],
+    "pickIds": []
+  },
+  {
+    "slug": "nox-at10-genius-18k-2026",
+    "id": "prod-nox-at10-18k-2026",
+    "categoryId": "cat-padel-rackets",
+    "have": 1,
+    "existing": [
+      "nox-at10-genius-12k-alum-xtrem-2026",
+      "babolat-technical-viper-2026"
+    ],
+    "pick": [
+      "royal-padel-m27-poly-2026 (uc=2 sub=0)",
+      "oxdog-sense-pro (uc=2 sub=0)",
+      "head-coello-pro-2026 (uc=2 sub=0)"
+    ],
+    "pickIds": [
+      "prod-royal-padel-rp-m27-2026",
+      "prod-oxdog-sense-pro-2026"
+    ]
+  },
+  {
+    "slug": "bullpadel-vertex-04",
+    "id": "prod-bullpadel-vertex-04",
+    "categoryId": "cat-padel-rackets",
+    "have": 1,
+    "existing": [
+      "bullpadel-vertex-05-2026",
+      "head-coello-pro-2026"
+    ],
+    "pick": [
+      "nox-at10-genius-12k-alum-xtrem-2026 (uc=2 sub=0)",
+      "adidas-metalbone-2026 (uc=2 sub=0)",
+      "babolat-counter-viper-2026 (uc=2 sub=0)"
+    ],
+    "pickIds": [
+      "prod-nox-at10-12k-2026",
+      "prod-adidas-metalbone-3-3-2026"
+    ]
+  },
+  {
+    "slug": "head-coello-pro-2026",
+    "id": "prod-head-coello-pro",
+    "categoryId": "cat-padel-rackets",
+    "have": 1,
+    "existing": [
+      "babolat-technical-viper-2026",
+      "bullpadel-vertex-04"
+    ],
+    "pick": [
+      "royal-padel-m27-poly-2026 (uc=3 sub=0)",
+      "nox-at10-genius-18k-2026 (uc=2 sub=0)",
+      "nox-ml10-pro-cup-2026 (uc=2 sub=0)"
+    ],
+    "pickIds": [
+      "prod-royal-padel-rp-m27-2026",
+      "prod-nox-at10-18k-2026"
+    ]
+  },
+  {
+    "slug": "adidas-courtstabil-padel",
+    "id": "prod-adidas-courtstabil",
+    "categoryId": "cat-padel-shoes",
+    "have": 1,
+    "existing": [
+      "joma-t-slam",
+      "asics-gel-challenger-court",
+      "babolat-movea-2"
+    ],
+    "pick": [
+      "asics-gel-resolution-padel (uc=0 sub=0)",
+      "asics-gel-resolution-padel-women (uc=0 sub=0)",
+      "babolat-jet-premura (uc=0 sub=0)"
+    ],
+    "pickIds": [
+      "prod-asics-gel-resolution-padel",
+      "prod-asics-gel-resolution-padel-w"
+    ]
+  },
+  {
+    "slug": "wilson-bela-pro-v2-2026",
+    "id": "prod-wilson-bela-pro",
+    "categoryId": "cat-padel-rackets",
+    "have": 1,
+    "existing": [
+      "wilson-blade-pro-v2-padel-2026",
+      "nox-at10-genius-18k-2026"
+    ],
+    "pick": [
+      "bullpadel-vertex-05-2026 (uc=1 sub=0)",
+      "nox-at10-genius-12k-alum-xtrem-2026 (uc=1 sub=0)",
+      "bullpadel-vertex-04 (uc=1 sub=0)"
+    ],
+    "pickIds": [
+      "prod-bullpadel-vertex-05",
+      "prod-nox-at10-12k-2026"
+    ]
+  },
+  {
+    "slug": "starvie-titania-kepler-2026",
+    "id": "prod-starvie-titania-kepler",
+    "categoryId": "cat-padel-rackets",
+    "have": 1,
+    "existing": [
+      "starvie-basalto-osiris-2026",
+      "adidas-metalbone-hrd-2026"
+    ],
+    "pick": [
+      "nox-at10-genius-18k-2026 (uc=1 sub=0)",
+      "bullpadel-vertex-05-2026 (uc=1 sub=0)",
+      "nox-at10-genius-12k-alum-xtrem-2026 (uc=1 sub=0)"
+    ],
+    "pickIds": [
+      "prod-nox-at10-18k-2026",
+      "prod-bullpadel-vertex-05"
+    ]
+  },
+  {
+    "slug": "adidas-metalbone-hrd-2026",
+    "id": "prod-adidas-metalbone-hrd",
+    "categoryId": "cat-padel-rackets",
+    "have": 1,
+    "existing": [
+      "adidas-metalbone-2026",
+      "bullpadel-hack-03"
+    ],
+    "pick": [
+      "bullpadel-vertex-05-2026 (uc=1 sub=0)",
+      "nox-at10-genius-12k-alum-xtrem-2026 (uc=1 sub=0)",
+      "bullpadel-vertex-04 (uc=1 sub=0)"
+    ],
+    "pickIds": [
+      "prod-bullpadel-vertex-05",
+      "prod-nox-at10-12k-2026"
+    ]
+  },
+  {
+    "slug": "kuikma-pr-soft-500",
+    "id": "prod-kuikma-pr-soft-500",
+    "categoryId": "cat-padel-rackets",
+    "have": 1,
+    "existing": [
+      "black-crown-special-one-soft",
+      "siux-diablo-revolution-2026"
+    ],
+    "pick": [
+      "nox-ml10-pro-cup-2026 (uc=2 sub=0)",
+      "royal-padel-m27-poly-2026 (uc=2 sub=0)",
+      "head-coello-pro-2026 (uc=2 sub=0)"
+    ],
+    "pickIds": [
+      "prod-nox-ml10-pro-cup",
+      "prod-royal-padel-rp-m27-2026"
+    ]
+  },
+  {
+    "slug": "drop-shot-canyon-pro-2026",
+    "id": "prod-drop-shot-canyon-pro",
+    "categoryId": "cat-padel-rackets",
+    "have": 1,
+    "existing": [
+      "tecnifibre-wall-breaker-365",
+      "starvie-titania-kepler-2026"
+    ],
+    "pick": [
+      "nox-at10-genius-18k-2026 (uc=2 sub=0)",
+      "royal-padel-m27-poly-2026 (uc=2 sub=0)",
+      "oxdog-sense-pro (uc=2 sub=0)"
+    ],
+    "pickIds": [
+      "prod-nox-at10-18k-2026",
+      "prod-royal-padel-rp-m27-2026"
+    ]
+  },
+  {
+    "slug": "varlion-lw-carbon-difusor-2026",
+    "id": "prod-varlion-lw-carbon-difusor",
+    "categoryId": "cat-padel-rackets",
+    "have": 1,
+    "existing": [
+      "nox-ml10-pro-cup-2026",
+      "bullpadel-vertex-04"
+    ],
+    "pick": [
+      "nox-at10-genius-18k-2026 (uc=1 sub=0)",
+      "siux-diablo-revolution-2026 (uc=1 sub=0)",
+      "royal-padel-m27-poly-2026 (uc=1 sub=0)"
+    ],
+    "pickIds": [
+      "prod-nox-at10-18k-2026",
+      "prod-siux-diablo"
+    ]
+  },
+  {
+    "slug": "nox-ml10-pro-cup-2026",
+    "id": "prod-nox-ml10-pro-cup",
+    "categoryId": "cat-padel-rackets",
+    "have": 1,
+    "existing": [
+      "siux-diablo-revolution-2026",
+      "varlion-lw-carbon-difusor-2026"
+    ],
+    "pick": [
+      "royal-padel-m27-poly-2026 (uc=2 sub=0)",
+      "head-coello-pro-2026 (uc=2 sub=0)",
+      "kuikma-pr-soft-500 (uc=2 sub=0)"
+    ],
+    "pickIds": [
+      "prod-royal-padel-rp-m27-2026",
+      "prod-head-coello-pro"
+    ]
+  },
+  {
+    "slug": "bullpadel-hack-03",
+    "id": "prod-bullpadel-hack-03",
+    "categoryId": "cat-padel-rackets",
+    "have": 1,
+    "existing": [
+      "bullpadel-hack-04-2026",
+      "adidas-metalbone-hrd-2026"
+    ],
+    "pick": [
+      "bullpadel-vertex-05-2026 (uc=1 sub=0)",
+      "nox-at10-genius-12k-alum-xtrem-2026 (uc=1 sub=0)",
+      "bullpadel-vertex-04 (uc=1 sub=0)"
+    ],
+    "pickIds": [
+      "prod-bullpadel-vertex-05",
+      "prod-nox-at10-12k-2026"
+    ]
+  },
+  {
+    "slug": "babolat-counter-viper-2026",
+    "id": "prod-babolat-counter-viper",
+    "categoryId": "cat-padel-rackets",
+    "have": 1,
+    "existing": [
+      "babolat-technical-viper-2026",
+      "nox-at10-genius-18k-2026"
+    ],
+    "pick": [
+      "bullpadel-vertex-05-2026 (uc=2 sub=0)",
+      "nox-at10-genius-12k-alum-xtrem-2026 (uc=2 sub=0)",
+      "bullpadel-vertex-04 (uc=2 sub=0)"
+    ],
+    "pickIds": [
+      "prod-bullpadel-vertex-05",
+      "prod-nox-at10-12k-2026"
+    ]
+  },
+  {
+    "slug": "head-extreme-pro-padel-2026",
+    "id": "prod-head-extreme-pro-padel",
+    "categoryId": "cat-padel-rackets",
+    "have": 1,
+    "existing": [
+      "head-extreme-motion-2026",
+      "wilson-blade-pro-v2-padel-2026"
+    ],
+    "pick": [
+      "bullpadel-vertex-05-2026 (uc=2 sub=0)",
+      "nox-at10-genius-12k-alum-xtrem-2026 (uc=2 sub=0)",
+      "bullpadel-vertex-04 (uc=2 sub=0)"
+    ],
+    "pickIds": [
+      "prod-bullpadel-vertex-05",
+      "prod-nox-at10-12k-2026"
+    ]
+  },
+  {
+    "slug": "bullpadel-hack-04-2026",
+    "id": "prod-bullpadel-hack-04",
+    "categoryId": "cat-padel-rackets",
+    "have": 2,
+    "existing": [
+      "bullpadel-hack-03",
+      "bullpadel-vertex-05-2026",
+      "adidas-metalbone-2026",
+      "adidas-metalbone-hrd-2026"
+    ],
+    "pick": [
+      "nox-at10-genius-12k-alum-xtrem-2026 (uc=1 sub=0)",
+      "bullpadel-vertex-04 (uc=1 sub=0)",
+      "babolat-technical-viper-2026 (uc=1 sub=0)"
+    ],
+    "pickIds": [
+      "prod-nox-at10-12k-2026"
+    ]
+  },
+  {
+    "slug": "adidas-metalbone-2026",
+    "id": "prod-adidas-metalbone-3-3-2026",
+    "categoryId": "cat-padel-rackets",
+    "have": 1,
+    "existing": [
+      "nox-at10-genius-12k-alum-xtrem-2026",
+      "bullpadel-vertex-05-2026"
+    ],
+    "pick": [
+      "bullpadel-vertex-04 (uc=2 sub=0)",
+      "babolat-counter-viper-2026 (uc=2 sub=0)",
+      "tecnifibre-wall-breaker-365 (uc=2 sub=0)"
+    ],
+    "pickIds": [
+      "prod-bullpadel-vertex-04",
+      "prod-babolat-counter-viper"
+    ]
+  },
+  {
+    "slug": "head-extreme-motion-2026",
+    "id": "prod-head-extreme-motion-2026",
+    "categoryId": "cat-padel-rackets",
+    "have": 1,
+    "existing": [
+      "black-crown-special-one-soft",
+      "wilson-blade-pro-v2-padel-2026",
+      "varlion-lw-carbon-difusor-2026"
+    ],
+    "pick": [
+      "nox-at10-genius-18k-2026 (uc=2 sub=0)",
+      "royal-padel-m27-poly-2026 (uc=2 sub=0)",
+      "oxdog-sense-pro (uc=2 sub=0)"
+    ],
+    "pickIds": [
+      "prod-nox-at10-18k-2026",
+      "prod-royal-padel-rp-m27-2026"
+    ]
+  },
+  {
+    "slug": "oxdog-sense-pro",
+    "id": "prod-oxdog-sense-pro-2026",
+    "categoryId": "cat-padel-rackets",
+    "have": 1,
+    "existing": [
+      "nox-ml10-pro-cup-2026",
+      "siux-diablo-revolution-2026"
+    ],
+    "pick": [
+      "nox-at10-genius-18k-2026 (uc=2 sub=0)",
+      "royal-padel-m27-poly-2026 (uc=2 sub=0)",
+      "head-coello-pro-2026 (uc=2 sub=0)"
+    ],
+    "pickIds": [
+      "prod-nox-at10-18k-2026",
+      "prod-royal-padel-rp-m27-2026"
+    ]
+  },
+  {
+    "slug": "royal-padel-m27-poly-2026",
+    "id": "prod-royal-padel-rp-m27-2026",
+    "categoryId": "cat-padel-rackets",
+    "have": 2,
+    "existing": [
+      "lok-maxx-flow",
+      "oxdog-sense-pro",
+      "varlion-lw-carbon-difusor-2026",
+      "kuikma-pr-soft-500"
+    ],
+    "pick": [
+      "head-coello-pro-2026 (uc=3 sub=0)",
+      "nox-at10-genius-18k-2026 (uc=2 sub=0)",
+      "nox-ml10-pro-cup-2026 (uc=2 sub=0)"
+    ],
+    "pickIds": [
+      "prod-head-coello-pro"
+    ]
+  },
+  {
+    "slug": "black-crown-special-one-soft",
+    "id": "prod-black-crown-special-one-soft",
+    "categoryId": "cat-padel-rackets",
+    "have": 1,
+    "existing": [
+      "lok-maxx-flow",
+      "siux-diablo-revolution-2026",
+      "head-coello-pro-2026"
+    ],
+    "pick": [
+      "nox-ml10-pro-cup-2026 (uc=2 sub=0)",
+      "royal-padel-m27-poly-2026 (uc=2 sub=0)",
+      "kuikma-pr-soft-500 (uc=2 sub=0)"
+    ],
+    "pickIds": [
+      "prod-nox-ml10-pro-cup",
+      "prod-royal-padel-rp-m27-2026"
+    ]
+  },
+  {
+    "slug": "asics-gel-resolution-padel",
+    "id": "prod-asics-gel-resolution-padel",
+    "categoryId": "cat-padel-shoes",
+    "have": 1,
+    "existing": [
+      "asics-gel-challenger-court",
+      "joma-t-slam",
+      "adidas-courtstabil-padel"
+    ],
+    "pick": [
+      "asics-gel-resolution-padel-women (uc=0 sub=0)",
+      "babolat-jet-premura (uc=0 sub=0)",
+      "adidas-crazyquick-boost-padel (uc=0 sub=0)"
+    ],
+    "pickIds": [
+      "prod-asics-gel-resolution-padel-w",
+      "prod-babolat-jet-premura"
+    ]
+  },
+  {
+    "slug": "asics-gel-challenger-court",
+    "id": "prod-asics-gel-challenger-court",
+    "categoryId": "cat-padel-shoes",
+    "have": 1,
+    "existing": [
+      "asics-gel-resolution-padel",
+      "head-revolt-pro-court",
+      "adidas-courtstabil-padel"
+    ],
+    "pick": [
+      "asics-gel-resolution-padel-women (uc=0 sub=0)",
+      "babolat-jet-premura (uc=0 sub=0)",
+      "adidas-crazyquick-boost-padel (uc=0 sub=0)"
+    ],
+    "pickIds": [
+      "prod-asics-gel-resolution-padel-w",
+      "prod-babolat-jet-premura"
+    ]
+  },
+  {
+    "slug": "babolat-jet-premura",
+    "id": "prod-babolat-jet-premura",
+    "categoryId": "cat-padel-shoes",
+    "have": 1,
+    "existing": [
+      "joma-t-slam",
+      "head-revolt-pro-court",
+      "adidas-courtstabil-padel"
+    ],
+    "pick": [
+      "asics-gel-resolution-padel (uc=0 sub=0)",
+      "asics-gel-resolution-padel-women (uc=0 sub=0)",
+      "adidas-crazyquick-boost-padel (uc=0 sub=0)"
+    ],
+    "pickIds": [
+      "prod-asics-gel-resolution-padel",
+      "prod-asics-gel-resolution-padel-w"
+    ]
+  },
+  {
+    "slug": "joma-t-slam",
+    "id": "prod-joma-t-slam",
+    "categoryId": "cat-padel-shoes",
+    "have": 1,
+    "existing": [
+      "babolat-jet-premura",
+      "adidas-courtstabil-padel",
+      "head-revolt-pro-court"
+    ],
+    "pick": [
+      "asics-gel-resolution-padel (uc=0 sub=0)",
+      "asics-gel-resolution-padel-women (uc=0 sub=0)",
+      "adidas-crazyquick-boost-padel (uc=0 sub=0)"
+    ],
+    "pickIds": [
+      "prod-asics-gel-resolution-padel",
+      "prod-asics-gel-resolution-padel-w"
+    ]
+  },
+  {
+    "slug": "babolat-pure-drive-2025",
+    "id": "prod-babolat-pure-drive-2025",
+    "categoryId": "cat-tennis-rackets",
+    "have": 1,
+    "existing": [
+      "babolat-pure-drive-gen11",
+      "yonex-ezone-98-2024"
+    ],
+    "pick": [
+      "yonex-ezone-100-2025 (uc=2 sub=0)",
+      "head-speed-mp-2026 (uc=2 sub=0)",
+      "head-speed-mp-2024 (uc=2 sub=0)"
+    ],
+    "pickIds": [
+      "prod-yonex-ezone-100-2025",
+      "prod-head-speed-mp-2026"
+    ]
+  },
+  {
+    "slug": "babolat-pure-aero-2023",
+    "id": "prod-babolat-pure-aero-2023",
+    "categoryId": "cat-tennis-rackets",
+    "have": 1,
+    "existing": [
+      "babolat-pure-aero-2026",
+      "yonex-vcore-100-2023"
+    ],
+    "pick": [
+      "yonex-ezone-100-2025 (uc=1 sub=0)",
+      "yonex-ezone-98-2024 (uc=1 sub=0)",
+      "babolat-pure-drive-gen11 (uc=1 sub=0)"
+    ],
+    "pickIds": [
+      "prod-yonex-ezone-100-2025",
+      "prod-yonex-ezone-98-2024"
+    ]
+  },
+  {
+    "slug": "wilson-clash-100-v2",
+    "id": "prod-wilson-clash-100-v2",
+    "categoryId": "cat-tennis-rackets",
+    "have": 1,
+    "existing": [
+      "wilson-clash-100-v3",
+      "head-speed-mp-2024"
+    ],
+    "pick": [
+      "yonex-ezone-100-2025 (uc=2 sub=0)",
+      "babolat-pure-drive-2025 (uc=2 sub=0)",
+      "head-speed-mp-2026 (uc=2 sub=0)"
+    ],
+    "pickIds": [
+      "prod-yonex-ezone-100-2025",
+      "prod-babolat-pure-drive-2025"
+    ]
+  },
+  {
+    "slug": "wilson-blade-98-v8",
+    "id": "prod-wilson-blade-98-v8",
+    "categoryId": "cat-tennis-rackets",
+    "have": 1,
+    "existing": [
+      "wilson-blade-98-v9",
+      "tecnifibre-tf40-305"
+    ],
+    "pick": [
+      "yonex-ezone-98-2024 (uc=1 sub=0)",
+      "yonex-vcore-98-2026 (uc=1 sub=0)",
+      "wilson-blade-100-v9 (uc=1 sub=0)"
+    ],
+    "pickIds": [
+      "prod-yonex-ezone-98-2024",
+      "prod-yonex-vcore-98-2026"
+    ]
+  },
+  {
+    "slug": "head-speed-mp-2024",
+    "id": "prod-head-speed-mp-2024",
+    "categoryId": "cat-tennis-rackets",
+    "have": 1,
+    "existing": [
+      "head-speed-mp-2026",
+      "wilson-clash-100-v2"
+    ],
+    "pick": [
+      "yonex-ezone-100-2025 (uc=2 sub=0)",
+      "babolat-pure-drive-2025 (uc=2 sub=0)",
+      "yonex-ezone-98-2024 (uc=1 sub=0)"
+    ],
+    "pickIds": [
+      "prod-yonex-ezone-100-2025",
+      "prod-babolat-pure-drive-2025"
+    ]
+  },
+  {
+    "slug": "yonex-ezone-98-2024",
+    "id": "prod-yonex-ezone-98-2024",
+    "categoryId": "cat-tennis-rackets",
+    "have": 1,
+    "existing": [
+      "wilson-blade-98-v9",
+      "tecnifibre-tf40-305"
+    ],
+    "pick": [
+      "prince-textreme-tour-100p (uc=2 sub=0)",
+      "yonex-ezone-100-2025 (uc=1 sub=0)",
+      "babolat-pure-drive-gen11 (uc=1 sub=0)"
+    ],
+    "pickIds": [
+      "prod-prince-textreme-tour-100p",
+      "prod-yonex-ezone-100-2025"
+    ]
+  },
+  {
+    "slug": "tecnifibre-tf40-305",
+    "id": "prod-tecnifibre-tf40-305",
+    "categoryId": "cat-tennis-rackets",
+    "have": 1,
+    "existing": [
+      "wilson-blade-98-v9",
+      "dunlop-cx-200"
+    ],
+    "pick": [
+      "yonex-ezone-98-2024 (uc=1 sub=0)",
+      "wilson-blade-98-v8 (uc=1 sub=0)",
+      "yonex-vcore-98-2026 (uc=1 sub=0)"
+    ],
+    "pickIds": [
+      "prod-yonex-ezone-98-2024",
+      "prod-wilson-blade-98-v8"
+    ]
+  },
+  {
+    "slug": "dunlop-cx-200",
+    "id": "prod-dunlop-cx-200",
+    "categoryId": "cat-tennis-rackets",
+    "have": 1,
+    "existing": [
+      "head-radical-mp-2023",
+      "prince-textreme-tour-100p"
+    ],
+    "pick": [
+      "wilson-blade-100-v9 (uc=2 sub=0)",
+      "wilson-blade-98-v9 (uc=1 sub=0)",
+      "yonex-ezone-100-2025 (uc=1 sub=0)"
+    ],
+    "pickIds": [
+      "prod-wilson-blade-100-v9",
+      "prod-wilson-blade-98-v9"
+    ]
+  },
+  {
+    "slug": "prince-textreme-tour-100p",
+    "id": "prod-prince-textreme-tour-100p",
+    "categoryId": "cat-tennis-rackets",
+    "have": 1,
+    "existing": [
+      "wilson-clash-100-v3",
+      "dunlop-cx-200"
+    ],
+    "pick": [
+      "yonex-ezone-98-2024 (uc=2 sub=0)",
+      "wilson-blade-98-v9 (uc=1 sub=0)",
+      "yonex-ezone-100-2025 (uc=1 sub=0)"
+    ],
+    "pickIds": [
+      "prod-yonex-ezone-98-2024",
+      "prod-wilson-blade-98-v9"
+    ]
+  },
+  {
+    "slug": "wilson-clash-100-v3",
+    "id": "prod-wilson-clash-100-v3",
+    "categoryId": "cat-tennis-rackets",
+    "have": 1,
+    "existing": [
+      "wilson-clash-100-v2",
+      "yonex-ezone-100-2025",
+      "head-speed-mp-2026"
+    ],
+    "pick": [
+      "wilson-blade-100-v9 (uc=2 sub=0)",
+      "babolat-pure-drive-gen11 (uc=1 sub=0)",
+      "babolat-pure-drive-2025 (uc=1 sub=0)"
+    ],
+    "pickIds": [
+      "prod-wilson-blade-100-v9",
+      "prod-babolat-pure-drive-gen11"
+    ]
+  },
+  {
+    "slug": "babolat-pure-aero-2026",
+    "id": "prod-babolat-pure-aero-2026",
+    "categoryId": "cat-tennis-rackets",
+    "have": 2,
+    "existing": [
+      "yonex-vcore-100-2023",
+      "yonex-vcore-98-2026"
+    ],
+    "pick": [
+      "babolat-pure-aero-2023 (uc=2 sub=0)",
+      "yonex-ezone-100-2025 (uc=1 sub=0)",
+      "yonex-ezone-98-2024 (uc=1 sub=0)"
+    ],
+    "pickIds": [
+      "prod-babolat-pure-aero-2023"
+    ]
+  },
+  {
+    "slug": "yonex-vcore-98-2026",
+    "id": "prod-yonex-vcore-98-2026",
+    "categoryId": "cat-tennis-rackets",
+    "have": 1,
+    "existing": [
+      "babolat-pure-aero-2026",
+      "wilson-blade-98-v9"
+    ],
+    "pick": [
+      "head-radical-mp-2023 (uc=2 sub=0)",
+      "yonex-ezone-98-2024 (uc=1 sub=0)",
+      "wilson-blade-98-v8 (uc=1 sub=0)"
+    ],
+    "pickIds": [
+      "prod-head-radical-mp-2023",
+      "prod-yonex-ezone-98-2024"
+    ]
+  }
+]

@@ -1,0 +1,116 @@
+Curated: 5 | Scrape: 50
+… oakley-radar-ev-path OK 357198
+… oakley-sutro-lite OK 350407
+… oakley-kato OK 50142
+… smith-shift-mag OK 20528
+… maurten-gel-100 OK 208768
+… oakley-encoder OK 143903
+… oakley-flak-2-0-xl FAIL no-image
+… goodr-ogs OK 5164
+… goodr-circle-gs OK 163211
+… julbo-ultimate OK 351140
+… julbo-aerolite OK 25635
+… julbo-rush OK 25635
+… smith-attack-mag OK 142412
+… tifosi-rail OK 61640
+… tifosi-vogel OK 34356
+… roka-phantom-air OK 124016
+… rudy-project-cutline OK 20495
+… 100-percent-s3 FAIL no-image
+… maurten-gel-100-caf-100 OK 8474
+… maurten-gel-160 OK 8474
+… maurten-drink-mix-160 OK 8474
+… maurten-drink-mix-320 OK 8474
+… sis-go-isotonic-gel OK 24037
+… sis-beta-fuel-gel OK 19139
+… sis-beta-fuel-drink OK 29316
+… gu-energy-gel OK 189407
+… gu-roctane-gel OK 1171957
+… gu-energy-chews OK 189407
+… clif-bloks-energy-chews FAIL no-image
+… clif-bar-original FAIL no-image
+… skratch-sport-hydration-mix OK 208029
+… skratch-sport-energy-chews OK 114311
+… tailwind-endurance-fuel OK 92690
+… nuun-sport OK 51074
+… honey-stinger-organic-energy-gel OK 371436
+… saltstick-caps OK 7980
+… saltstick-fastchews OK 7980
+… precision-pf30-gel OK 750322
+… precision-pf30-drink-mix OK 92512
+… precision-ph1500 OK 277271
+… huma-gel-original OK 87375
+… spring-energy-awesome-sauce FAIL no-image
+… naak-ultra-energy-bar OK 633405
+… naak-ultra-energy-drink-mix OK 633405
+… neversecond-c30-gel OK 76972
+… neversecond-c30-sports-drink OK 76972
+… high5-energy-gel OK 235683
+… high5-zero OK 9130
+… styrkr-gel30 OK 66352
+… styrkr-mix90 OK 66352
+… veloforte-energy-bar OK 1349942
+… veloforte-energy-chews OK 1349942
+… 226ers-high-energy-gel OK 53201
+… enervit-c2-1-carbo-gel OK 5816
+… powerbar-energize FAIL no-image
+
+OK 49 / FAIL 6
+Registry added: 1
+OK ids:
+prod-oakley-radar-ev-path
+prod-oakley-sutro-lite
+prod-oakley-kato
+prod-smith-shift-mag
+prod-maurten-gel-100
+prod-oakley-encoder
+prod-goodr-ogs
+prod-goodr-circle-gs
+prod-julbo-ultimate
+prod-julbo-aerolite
+prod-julbo-rush
+prod-smith-attack-mag
+prod-tifosi-rail
+prod-tifosi-vogel
+prod-roka-phantom-air
+prod-rudy-cutline
+prod-maurten-gel-100-caf
+prod-maurten-gel-160
+prod-maurten-drink-mix-160
+prod-maurten-drink-mix-320
+prod-sis-go-isotonic-gel
+prod-sis-beta-fuel-gel
+prod-sis-beta-fuel-drink
+prod-gu-energy-gel
+prod-gu-roctane-gel
+prod-gu-chews
+prod-skratch-sport-hydration
+prod-skratch-chews
+prod-tailwind-endurance
+prod-nuun-sport
+prod-honey-stinger-gel
+prod-saltstick-caps
+prod-saltstick-fastchews
+prod-precision-pf30-gel
+prod-precision-pf30-drink
+prod-precision-ph1500
+prod-huma-gel-original
+prod-naak-ultra-energy-bar
+prod-naak-ultra-energy-drink
+prod-neversecond-c30-gel
+prod-neversecond-c30-drink
+prod-high5-energy-gel
+prod-high5-zero
+prod-styrkr-gel30
+prod-styrkr-mix90
+prod-veloforte-bar
+prod-veloforte-chews
+prod-226ers-high-energy-gel
+prod-enervit-carbo-gel
+FAIL ids:
+prod-oakley-flak-2xl
+prod-100-s3
+prod-clif-bloks
+prod-clif-bar-original
+prod-spring-awesome-sauce
+prod-powerbar-energize

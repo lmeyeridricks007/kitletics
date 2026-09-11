@@ -1,0 +1,27 @@
+[
+  {
+    "productId": "prod-shokz-openrun",
+    "ok": true,
+    "src": "/images/headphones/products/shokz-openrun-hero.png",
+    "sourceUrl": "https://shokz.com/products/openrun",
+    "bytes": 875809,
+    "licence": "manufacturer-marketing",
+    "attribution": "\u00a9 Shokz \u2014 manufacturer product photography",
+    "source": "Manufacturer product photography"
+  },
+  {
+    "productId": "prod-shokz-openfit-2",
+    "ok": false,
+    "err": "HTTP Error 404: Not Found"
+  },
+  {
+    "productId": "prod-suunto-wing",
+    "ok": true,
+    "src": "/images/headphones/products/suunto-wing-hero.png",
+    "sourceUrl": "https://www.suunto.com/en-us/Products/headphones/Suunto-Wing/",
+    "bytes": 469024,
+    "licence": "manufacturer-marketing",
+    "attribution": "\u00a9 Suunto \u2014 manufacturer product photography",
+    "source": "Manufacturer product photography"
+  }
+]

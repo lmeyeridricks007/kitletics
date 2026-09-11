@@ -1,0 +1,13 @@
+[eval]:6
+const paths = sitemapFn().map((e) => {
+              ^
+
+TypeError: sitemapFn is not a function
+    at [eval]:6:15
+    at ModuleJob.run (node:internal/modules/esm/module_job:430:25)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:246:26)
+    at async ModuleLoader.executeModuleJob (node:internal/modules/esm/loader:243:20)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:101:5)
+
+Node.js v25.8.1

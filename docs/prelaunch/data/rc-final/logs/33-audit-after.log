@@ -1,0 +1,78 @@
+{
+  "totals": {
+    "publishedReviews": 585,
+    "byQuality": {
+      "LAUNCH_READY": 46,
+      "DUPLICATIVE": 539
+    },
+    "byDisposition": {
+      "INDEXABLE": 43,
+      "HIDDEN_404": 542
+    },
+    "duplicative": 539,
+    "indexable": 43
+  },
+  "leakCount": 0,
+  "leaks": {
+    "sitemap": 0,
+    "indexable": 0,
+    "promotable": 0,
+    "publicNoindex": 0,
+    "pdpCta": 0,
+    "reviewsIndex": 0,
+    "bestLinks": 0,
+    "search": 0
+  },
+  "queueTop5": [
+    {
+      "slug": "ultimate-direction-fastpack-20",
+      "score": 99,
+      "reasons": [
+        "running",
+        "best-guide",
+        "comparison",
+        "DUPLICATIVE"
+      ]
+    },
+    {
+      "slug": "osprey-talon-velocity-20",
+      "score": 99,
+      "reasons": [
+        "running",
+        "best-guide",
+        "comparison",
+        "DUPLICATIVE"
+      ]
+    },
+    {
+      "slug": "black-diamond-distance-22",
+      "score": 99,
+      "reasons": [
+        "running",
+        "best-guide",
+        "comparison",
+        "DUPLICATIVE"
+      ]
+    },
+    {
+      "slug": "salomon-xa-15",
+      "score": 99,
+      "reasons": [
+        "running",
+        "best-guide",
+        "comparison",
+        "DUPLICATIVE"
+      ]
+    },
+    {
+      "slug": "petzl-nao-rl",
+      "score": 99,
+      "reasons": [
+        "running",
+        "best-guide",
+        "comparison",
+        "DUPLICATIVE"
+      ]
+    }
+  ]
+}

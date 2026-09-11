@@ -1,0 +1,141 @@
+measure /
+measure /running
+measure /running/shoes
+measure /running/shoes/daily-trainers
+measure /products/nike-vomero-18
+measure /reviews/nike-vomero-18
+measure /best/running-shoes
+measure /guides/how-to-choose-running-shoes
+measure /brands/nike
+measure /compare
+measure /tools/running-shoe-finder
+measure /search?q=vomero
+{
+  "routes": [
+    {
+      "id": "home",
+      "status": 200,
+      "totalMb": 1.15,
+      "imageMb": 0.13,
+      "withinBudget": true,
+      "noindex": false,
+      "axeSeriousCritical": 0,
+      "axeIncomplete": 1
+    },
+    {
+      "id": "running",
+      "status": 200,
+      "totalMb": 1.44,
+      "imageMb": 0.25,
+      "withinBudget": true,
+      "noindex": false,
+      "axeSeriousCritical": 0,
+      "axeIncomplete": 2
+    },
+    {
+      "id": "shoes",
+      "status": 200,
+      "totalMb": 1.25,
+      "imageMb": 0.07,
+      "withinBudget": true,
+      "noindex": false,
+      "axeSeriousCritical": 0,
+      "axeIncomplete": 2
+    },
+    {
+      "id": "daily-trainers",
+      "status": 200,
+      "totalMb": 1.18,
+      "imageMb": 0.1,
+      "withinBudget": true,
+      "noindex": false,
+      "axeSeriousCritical": 0,
+      "axeIncomplete": 1
+    },
+    {
+      "id": "pdp",
+      "status": 200,
+      "totalMb": 1.11,
+      "imageMb": 0.06,
+      "withinBudget": true,
+      "noindex": false,
+      "axeSeriousCritical": 0,
+      "axeIncomplete": 0
+    },
+    {
+      "id": "review",
+      "status": 200,
+      "totalMb": 1.19,
+      "imageMb": 0.06,
+      "withinBudget": true,
+      "noindex": false,
+      "axeSeriousCritical": 0,
+      "axeIncomplete": 1
+    },
+    {
+      "id": "best",
+      "status": 200,
+      "totalMb": 1.48,
+      "imageMb": 0.15,
+      "withinBudget": true,
+      "noindex": false,
+      "axeSeriousCritical": 0,
+      "axeIncomplete": 1
+    },
+    {
+      "id": "guide",
+      "status": 200,
+      "totalMb": 1.35,
+      "imageMb": 0.13,
+      "withinBudget": true,
+      "noindex": false,
+      "axeSeriousCritical": 0,
+      "axeIncomplete": 2
+    },
+    {
+      "id": "brand",
+      "status": 200,
+      "totalMb": 1.09,
+      "imageMb": 0.03,
+      "withinBudget": true,
+      "noindex": false,
+      "axeSeriousCritical": 0,
+      "axeIncomplete": 0
+    },
+    {
+      "id": "compare",
+      "status": 200,
+      "totalMb": 1.67,
+      "imageMb": 0.01,
+      "withinBudget": true,
+      "noindex": false,
+      "axeSeriousCritical": 0,
+      "axeIncomplete": 0
+    },
+    {
+      "id": "finder",
+      "status": 200,
+      "totalMb": 0.71,
+      "imageMb": 0,
+      "withinBudget": true,
+      "noindex": false,
+      "axeSeriousCritical": 0,
+      "axeIncomplete": 1
+    },
+    {
+      "id": "search",
+      "status": 200,
+      "totalMb": 1.69,
+      "imageMb": 0.8,
+      "withinBudget": true,
+      "noindex": true,
+      "axeSeriousCritical": 0,
+      "axeIncomplete": 0
+    }
+  ],
+  "gates": {
+    "allWithinBudget": true,
+    "zeroAxeSeriousCritical": true
+  }
+}
+P0_EXIT:0

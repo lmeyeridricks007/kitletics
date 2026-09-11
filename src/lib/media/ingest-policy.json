@@ -1,0 +1,26 @@
+{
+  "heroMaxEdgePx": 2000,
+  "galleryMaxEdgePx": 1600,
+  "sectionMaxEdgePx": 1600,
+  "warnBytes": 1048576,
+  "errorBytes": 5242880,
+  "errorMaxEdgePx": 4000,
+  "jpegQuality": 88,
+  "flattenBackground": "#ffffff",
+  "forbiddenPathSubstrings": [
+    "/qa/",
+    ".bak",
+    ".old",
+    ".tmp",
+    ".orig",
+    "WRONG-",
+    ".WRONG"
+  ],
+  "forbiddenBasenamePatterns": [
+    "^qa-",
+    "\\.bak$",
+    "\\.old$",
+    "\\.tmp$",
+    "WRONG-"
+  ]
+}

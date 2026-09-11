@@ -1,0 +1,142 @@
+[
+  {
+    "id": "prod-oakley-flak-2xl",
+    "ok": true,
+    "bytes": 316815
+  },
+  {
+    "id": "prod-maurten-gel-100-caf",
+    "ok": true,
+    "bytes": 17802,
+    "handle": "gel-100-caf-100-box-of-48",
+    "hash": "efcf018b09e2"
+  },
+  {
+    "id": "prod-maurten-gel-160",
+    "ok": true,
+    "bytes": 18599,
+    "handle": "gel-160-box-of-12",
+    "hash": "7eb504c2014c"
+  },
+  {
+    "id": "prod-maurten-drink-mix-160",
+    "ok": true,
+    "bytes": 30058,
+    "handle": "drink-mix-160",
+    "hash": "970767c18556"
+  },
+  {
+    "id": "prod-maurten-drink-mix-320",
+    "ok": true,
+    "bytes": 34914,
+    "handle": "drink-mix-320",
+    "hash": "3ace376f0fd1"
+  },
+  {
+    "id": "prod-gu-chews",
+    "ok": true,
+    "bytes": 571923,
+    "handle": "energy-chews-for-runners-cyclists-triathletes",
+    "hash": "118e2f2a20af"
+  },
+  {
+    "id": "prod-gu-energy-gel",
+    "ok": true,
+    "bytes": 628564,
+    "handle": "energy-gel",
+    "hash": "c3f50352b17a"
+  },
+  {
+    "id": "prod-saltstick-caps",
+    "ok": false,
+    "error": "no-match"
+  },
+  {
+    "id": "prod-saltstick-fastchews",
+    "ok": false,
+    "error": "no-match"
+  },
+  {
+    "id": "prod-naak-ultra-energy-bar",
+    "ok": false,
+    "error": "no-match"
+  },
+  {
+    "id": "prod-naak-ultra-energy-drink",
+    "ok": true,
+    "bytes": 65681,
+    "handle": "boost-drink-mix-60-pomegranate-berries-bag",
+    "hash": "92988f4aa92b"
+  },
+  {
+    "id": "prod-neversecond-c30-gel",
+    "ok": true,
+    "bytes": 41384,
+    "handle": "c30-energy-gel-discovery-pack",
+    "hash": "93d5c841c24b"
+  },
+  {
+    "id": "prod-neversecond-c30-drink",
+    "ok": true,
+    "bytes": 42773,
+    "handle": "c30-sports-drink-640g",
+    "hash": "05d58b430446"
+  },
+  {
+    "id": "prod-styrkr-gel30",
+    "ok": true,
+    "bytes": 76409,
+    "handle": "gel30-6-pack",
+    "hash": "6381230f8292"
+  },
+  {
+    "id": "prod-styrkr-mix90",
+    "ok": false,
+    "error": "no-match"
+  },
+  {
+    "id": "prod-veloforte-bar",
+    "ok": true,
+    "bytes": 101303,
+    "handle": "forza-energy-bar",
+    "hash": "cb1d814660c9"
+  },
+  {
+    "id": "prod-veloforte-chews",
+    "ok": true,
+    "bytes": 174192,
+    "handle": "nero-energy-chews",
+    "hash": "1c789bee78fe"
+  },
+  {
+    "id": "prod-julbo-aerolite",
+    "ok": true,
+    "bytes": 16534,
+    "handle": "aerolite-sunglasses-parts",
+    "hash": "4bb67acf3f9e"
+  },
+  {
+    "id": "prod-julbo-rush",
+    "ok": false,
+    "error": "no-match"
+  },
+  {
+    "id": "prod-goodr-ogs",
+    "ok": true,
+    "bytes": 279318,
+    "handle": "go-big-orange",
+    "hash": "cf7621e5101b"
+  },
+  {
+    "id": "prod-100-s3",
+    "ok": true,
+    "bytes": 37229,
+    "handle": "s3-replacement-lens-hiper-blue-multilayer-mirror-1",
+    "hash": "7cff4d6e7a50"
+  },
+  {
+    "id": "prod-spring-awesome-sauce",
+    "ok": false,
+    "error": "no-spring"
+  }
+]

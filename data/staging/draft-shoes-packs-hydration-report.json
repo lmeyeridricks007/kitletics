@@ -1,0 +1,302 @@
+[
+  {
+    "id": "prod-camelbak-zephyr-pro",
+    "slug": "camelbak-zephyr-pro",
+    "ok": false,
+    "categorySlug": "running-packs-vests"
+  },
+  {
+    "id": "prod-osprey-dyna-lt",
+    "slug": "osprey-dyna-lt",
+    "ok": false,
+    "categorySlug": "running-packs-vests"
+  },
+  {
+    "id": "prod-osprey-duro-15",
+    "slug": "osprey-duro-15",
+    "ok": false,
+    "categorySlug": "running-packs-vests"
+  },
+  {
+    "id": "prod-patagonia-slope-runner",
+    "slug": "patagonia-slope-runner-vest",
+    "ok": false,
+    "categorySlug": "running-packs-vests"
+  },
+  {
+    "id": "prod-compressport-ultrun-s-pack",
+    "slug": "compressport-ultrun-s-pack",
+    "ok": false,
+    "categorySlug": "running-packs-vests"
+  },
+  {
+    "id": "prod-raidlight-responsiv-12",
+    "slug": "raidlight-responsiv-12",
+    "ok": false,
+    "categorySlug": "running-packs-vests"
+  },
+  {
+    "id": "prod-compressport-free-belt-pro",
+    "slug": "compressport-free-belt-pro",
+    "ok": false,
+    "categorySlug": "running-belts"
+  },
+  {
+    "id": "prod-osprey-hydraulics-15",
+    "slug": "osprey-hydraulics-lt-15",
+    "ok": false,
+    "categorySlug": "hydration"
+  },
+  {
+    "id": "prod-hydrapak-shape-shift-15",
+    "slug": "hydrapak-shape-shift-15",
+    "ok": false,
+    "categorySlug": "hydration"
+  },
+  {
+    "id": "prod-hydrapak-tube-kit",
+    "slug": "hydrapak-tube-kit",
+    "ok": false,
+    "categorySlug": "hydration"
+  },
+  {
+    "id": "prod-salomon-soft-flask-speed-500",
+    "slug": "salomon-soft-flask-speed-500",
+    "ok": false,
+    "categorySlug": "hydration"
+  },
+  {
+    "id": "prod-ud-body-bottle-500",
+    "slug": "ultimate-direction-body-bottle-500",
+    "ok": false,
+    "categorySlug": "hydration"
+  },
+  {
+    "id": "prod-nathan-softflask-18oz",
+    "slug": "nathan-softflask-18oz",
+    "ok": false,
+    "categorySlug": "hydration"
+  },
+  {
+    "id": "prod-amphipod-hydraform-handheld",
+    "slug": "amphipod-hydraform-ergo-lite-handheld",
+    "ok": false,
+    "categorySlug": "hydration"
+  },
+  {
+    "id": "prod-nathan-quickdraw-plus",
+    "slug": "nathan-quickdraw-plus-handheld",
+    "ok": false,
+    "categorySlug": "hydration"
+  },
+  {
+    "id": "prod-camelbak-quick-grip-chill",
+    "slug": "camelbak-quick-grip-chill",
+    "ok": false,
+    "categorySlug": "hydration"
+  },
+  {
+    "id": "prod-hydrapak-contour-2l",
+    "slug": "hydrapak-contour-2l",
+    "ok": false,
+    "categorySlug": "hydration"
+  },
+  {
+    "id": "prod-salomon-soft-reservoir-15",
+    "slug": "salomon-soft-reservoir-15",
+    "ok": false,
+    "categorySlug": "hydration"
+  },
+  {
+    "id": "prod-amphipod-airflow-lite-belt",
+    "slug": "amphipod-airflow-lite-belt",
+    "ok": false,
+    "categorySlug": "running-belts"
+  },
+  {
+    "id": "prod-fitletic-fully-loaded",
+    "slug": "fitletic-fully-loaded",
+    "ok": false,
+    "categorySlug": "running-belts"
+  },
+  {
+    "id": "prod-nathan-zipster-lite",
+    "slug": "nathan-zipster-lite",
+    "ok": false,
+    "categorySlug": "running-belts"
+  },
+  {
+    "id": "prod-kiprun-running-belt",
+    "slug": "kiprun-running-belt",
+    "ok": false,
+    "categorySlug": "running-belts"
+  },
+  {
+    "id": "prod-osprey-talon-velocity-20",
+    "slug": "osprey-talon-velocity-20",
+    "ok": false,
+    "categorySlug": "running-packs-vests"
+  },
+  {
+    "id": "prod-osprey-tempest-velocity-20",
+    "slug": "osprey-tempest-velocity-20",
+    "ok": false,
+    "categorySlug": "running-packs-vests"
+  },
+  {
+    "id": "prod-osprey-talon-velocity-30",
+    "slug": "osprey-talon-velocity-30",
+    "ok": false,
+    "categorySlug": "running-packs-vests"
+  },
+  {
+    "id": "prod-black-diamond-distance-15",
+    "slug": "black-diamond-distance-15",
+    "ok": false,
+    "categorySlug": "running-packs-vests"
+  },
+  {
+    "id": "prod-black-diamond-distance-22",
+    "slug": "black-diamond-distance-22",
+    "ok": false,
+    "categorySlug": "running-packs-vests"
+  },
+  {
+    "id": "prod-salomon-xa-15",
+    "slug": "salomon-xa-15",
+    "ok": false,
+    "categorySlug": "running-packs-vests"
+  },
+  {
+    "id": "prod-camelbak-octane-22",
+    "slug": "camelbak-octane-22",
+    "ok": false,
+    "categorySlug": "running-packs-vests"
+  },
+  {
+    "id": "prod-salomon-trailblazer-20",
+    "slug": "salomon-trailblazer-20",
+    "ok": false,
+    "categorySlug": "running-packs-vests"
+  },
+  {
+    "id": "prod-salomon-custom-quiver",
+    "slug": "salomon-custom-quiver",
+    "ok": false,
+    "categorySlug": "running-packs-vests"
+  },
+  {
+    "id": "prod-leki-trail-running-quiver",
+    "slug": "leki-trail-running-quiver",
+    "ok": false,
+    "categorySlug": "running-packs-vests"
+  },
+  {
+    "id": "prod-ud-utility-bag",
+    "slug": "ultimate-direction-utility-bag",
+    "ok": false,
+    "categorySlug": "running-packs-vests"
+  },
+  {
+    "id": "prod-salomon-soft-flask-stash",
+    "slug": "salomon-soft-flask-stash",
+    "ok": false,
+    "categorySlug": "running-packs-vests"
+  },
+  {
+    "id": "prod-nathan-zippered-stash",
+    "slug": "nathan-zippered-stash",
+    "ok": false,
+    "categorySlug": "running-packs-vests"
+  },
+  {
+    "id": "prod-starvie-absolute-padel",
+    "slug": "starvie-absolute-padel",
+    "ok": false,
+    "categorySlug": "padel-shoes"
+  },
+  {
+    "id": "prod-kuikma-ps-560-women",
+    "slug": "kuikma-ps-560-women",
+    "ok": false,
+    "categorySlug": "padel-shoes"
+  },
+  {
+    "id": "prod-oxdog-hyper-court",
+    "slug": "oxdog-hyper-court",
+    "ok": false,
+    "categorySlug": "padel-shoes"
+  },
+  {
+    "id": "prod-adidas-solecourt-boost-padel",
+    "slug": "adidas-solecourt-boost-padel",
+    "ok": false,
+    "categorySlug": "padel-shoes"
+  },
+  {
+    "id": "prod-head-revolt-court",
+    "slug": "head-revolt-court-padel",
+    "ok": false,
+    "categorySlug": "padel-shoes"
+  },
+  {
+    "id": "prod-tecnifibre-t-fight-padel",
+    "slug": "tecnifibre-wall-shooter",
+    "ok": false,
+    "categorySlug": "padel-shoes"
+  },
+  {
+    "id": "prod-varlion-bourne-padel-shoe",
+    "slug": "varlion-bourne-padel",
+    "ok": false,
+    "categorySlug": "padel-shoes"
+  },
+  {
+    "id": "prod-babolat-jet-tere",
+    "slug": "babolat-jet-tere",
+    "ok": false,
+    "categorySlug": "tennis-shoes"
+  },
+  {
+    "id": "prod-nike-zoom-gp-turbo-2",
+    "slug": "nike-zoom-gp-turbo-hc-2",
+    "ok": false,
+    "categorySlug": "tennis-shoes"
+  },
+  {
+    "id": "prod-wilson-kaos-rapide-30",
+    "slug": "wilson-kaos-rapide-3-0",
+    "ok": false,
+    "categorySlug": "tennis-shoes"
+  },
+  {
+    "id": "prod-head-revolt-pro-45",
+    "slug": "head-revolt-pro-4-5",
+    "ok": false,
+    "categorySlug": "tennis-shoes"
+  },
+  {
+    "id": "prod-head-sprint-pro-35",
+    "slug": "head-sprint-pro-3-5",
+    "ok": false,
+    "categorySlug": "tennis-shoes"
+  },
+  {
+    "id": "prod-nb-lav-v2",
+    "slug": "new-balance-fresh-foam-x-lav-v2",
+    "ok": false,
+    "categorySlug": "tennis-shoes"
+  },
+  {
+    "id": "prod-yonex-sonicage-3",
+    "slug": "yonex-power-cushion-sonicage-3",
+    "ok": false,
+    "categorySlug": "tennis-shoes"
+  },
+  {
+    "id": "prod-mizuno-wave-exceed-tour-5",
+    "slug": "mizuno-wave-exceed-tour-5",
+    "ok": false,
+    "categorySlug": "tennis-shoes"
+  }
+]

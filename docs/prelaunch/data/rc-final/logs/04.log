@@ -1,0 +1,24 @@
+Collecting sitemap + URL universe...
+Fetching 275 URLs from http://127.0.0.1:3010...
+Fetched 275 pages
+BFS crawl depth from homepage...
+Wrote /Users/LMeyeridricks/Documents/coding/kitletics/docs/prelaunch/04-seo-indexation.md
+Wrote /Users/LMeyeridricks/Documents/coding/kitletics/docs/prelaunch/data/04-seo-indexation.json
+{
+  "sitemap": 664,
+  "crawled": 275,
+  "classes": {
+    "404": 0,
+    "INDEXABLE": 0,
+    "NOINDEX": 0,
+    "CANONICALIZED": 0,
+    "REDIRECT": 0,
+    "DRAFT_FUTURE_PROTECTED": 0,
+    "ACCIDENTALLY_EXPOSED": 0,
+    "UNKNOWN": 275
+  },
+  "orphans": 663,
+  "filterIndexable": 0,
+  "accidentalExposure": 0
+}
+04_EXIT:0

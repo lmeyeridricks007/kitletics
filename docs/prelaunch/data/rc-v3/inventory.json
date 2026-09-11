@@ -1,0 +1,379 @@
+{
+  "auditClock": "2026-09-11T09:00:00.000Z",
+  "sitemap": {
+    "urls": 1167,
+    "lastmodPresent": 42,
+    "lastmodMissing": 1125
+  },
+  "products": {
+    "total": 631,
+    "ready": 513,
+    "indexable": 375,
+    "quality": {
+      "LAUNCH_READY": 513,
+      "THIN": 2,
+      "NEEDS_MINOR_WORK": 116
+    },
+    "qualityRunning": {
+      "LAUNCH_READY": 375
+    },
+    "qualityHeldVertical": {
+      "LAUNCH_READY": 138,
+      "THIN": 2,
+      "NEEDS_MINOR_WORK": 116
+    },
+    "heldVerticalApprox": 256,
+    "nmwRunning": [],
+    "thinRunning": [],
+    "blockedRunning": [],
+    "incompleteRunning": [],
+    "authenticPrimary": 631,
+    "missingAuthentic": [],
+    "missingAuthenticCount": 0,
+    "galleryRegistryKeys": 43,
+    "galleryOnIndexable": 43,
+    "indexableProducts": 375,
+    "galleryDepthIndexable": {
+      "0": 332,
+      "1": 5,
+      "2+": 38
+    },
+    "draftOnlyCount": 93,
+    "draftByStatus": {
+      "published": 631,
+      "draft": 89,
+      "review": 4
+    }
+  },
+  "reviews": {
+    "total": 591,
+    "editorialReady": 591,
+    "indexable": 373,
+    "quality": {
+      "LAUNCH_READY": 591
+    },
+    "qualityIndexable": {
+      "LAUNCH_READY": 373
+    },
+    "workState": {
+      "READY": 591
+    },
+    "uniquenessHolds": 0,
+    "blockedEvidence": [],
+    "junkVoice": 0,
+    "junkSlugs": [],
+    "uniquenessIndexable": {
+      "TEMPLATE_SIMILAR_ACCEPTABLE": 278,
+      "GENUINELY_UNIQUE": 93,
+      "NEEDS_DIFFERENTIATION": 2
+    },
+    "maxPeerJaccardIndexable": 0.7516778523489933,
+    "maxPeerPair": "osprey-duro-6 ~ osprey-dyna-6"
+  },
+  "best": {
+    "total": 59,
+    "ready": 59,
+    "indexable": 45,
+    "quality": {
+      "LAUNCH_READY": 59
+    },
+    "workState": {
+      "READY": 59
+    },
+    "thinIndexable": 0,
+    "intentHoldPaths": [],
+    "held": [
+      {
+        "slug": "heart-rate-monitors-hyrox",
+        "quality": "LAUNCH_READY",
+        "sport": ""
+      },
+      {
+        "slug": "padel-rackets",
+        "quality": "LAUNCH_READY",
+        "sport": ""
+      },
+      {
+        "slug": "tennis-rackets",
+        "quality": "LAUNCH_READY",
+        "sport": ""
+      },
+      {
+        "slug": "adjustable-dumbbells",
+        "quality": "LAUNCH_READY",
+        "sport": ""
+      },
+      {
+        "slug": "power-racks",
+        "quality": "LAUNCH_READY",
+        "sport": ""
+      },
+      {
+        "slug": "training-shoes",
+        "quality": "LAUNCH_READY",
+        "sport": ""
+      },
+      {
+        "slug": "hyrox-shoes",
+        "quality": "LAUNCH_READY",
+        "sport": ""
+      },
+      {
+        "slug": "rowing-machines",
+        "quality": "LAUNCH_READY",
+        "sport": ""
+      },
+      {
+        "slug": "pull-up-bars",
+        "quality": "LAUNCH_READY",
+        "sport": ""
+      },
+      {
+        "slug": "home-gym-equipment",
+        "quality": "LAUNCH_READY",
+        "sport": ""
+      },
+      {
+        "slug": "adjustable-benches",
+        "quality": "LAUNCH_READY",
+        "sport": ""
+      },
+      {
+        "slug": "air-bikes",
+        "quality": "LAUNCH_READY",
+        "sport": ""
+      },
+      {
+        "slug": "treadmills-for-home",
+        "quality": "LAUNCH_READY",
+        "sport": ""
+      },
+      {
+        "slug": "weight-plates",
+        "quality": "LAUNCH_READY",
+        "sport": ""
+      }
+    ]
+  },
+  "guides": {
+    "total": 69,
+    "ready": 69,
+    "indexable": 42,
+    "assessorStatus": {
+      "complete": 69
+    },
+    "workState": {
+      "READY": 69
+    },
+    "notComplete": []
+  },
+  "comparisons": {
+    "total": 94,
+    "ready": 94,
+    "indexable": 65,
+    "quality": {
+      "MEANINGFUL": 94
+    },
+    "workState": {
+      "READY": 94
+    },
+    "indexableBroken": 0,
+    "listedBrokenPeerSlugs": [
+      "lululemon-hotty-hot-vs-janji-pace-short",
+      "brooks-dare-crossback-vs-lululemon-energy-bra",
+      "jabra-elite-8-active-vs-beats-powerbeats-pro-2",
+      "knog-frog-v3-vs-nite-ize-radiant-clip",
+      "theragun-prime-vs-renpho-r3",
+      "triggerpoint-grid-vs-grid-x",
+      "triggerpoint-grid-vs-rumbleroller",
+      "oofos-ooriginal-vs-hoka-ora-recovery-slide"
+    ],
+    "listedBrokenInPublished": [],
+    "thin": [],
+    "needsDiff": []
+  },
+  "alternatives": {
+    "pagesWithGraph": 487,
+    "ready": 465,
+    "indexable": 130,
+    "holdClass": {
+      "READY": 465,
+      "HOLD_INSUFFICIENT_ALTERNATIVE_MARKET": 21,
+      "HOLD_DUPLICATE_INTENT": 1
+    },
+    "unexplained": [],
+    "marketHolds": [
+      "hydrapak-tube-kit",
+      "salomon-custom-quiver",
+      "nathan-zippered-stash",
+      "brooks-notch-thermal-men",
+      "salomon-bonatti-wp-women",
+      "tracksmith-brighton-ls-men",
+      "odlo-active-warm-eco-bottom-men",
+      "patagonia-nano-puff-vest-men",
+      "ciele-gocap-athletics",
+      "nike-aerobill-cap",
+      "smartwool-thermal-merino-glove",
+      "nike-therma-fit-glove",
+      "craft-adv-lumen-glove",
+      "cep-run-compression-sock-3",
+      "body-glide-original",
+      "squirrels-nut-butter",
+      "2toms-sportshield",
+      "assaultrunner-pro",
+      "mirafit-folding-treadmill",
+      "assaultrunner-elite",
+      "sole-f80-treadmill"
+    ],
+    "dupIntentHolds": [
+      "nike-dri-fit-miler-women"
+    ],
+    "uniquenessHolds": []
+  },
+  "brands": {
+    "total": 190,
+    "ready": 73,
+    "indexable": 73,
+    "class": {
+      "READY": 73,
+      "HOLD_INSUFFICIENT_DEPTH": 87,
+      "HOLD_NO_PRODUCTS": 30
+    },
+    "uniquenessHolds": []
+  },
+  "categories": {
+    "total": 47,
+    "indexable": 15,
+    "editorialConfigs": 14,
+    "editorialReady": 14,
+    "holds": {
+      "vertical_hold": 28,
+      "soft_gated": 4
+    },
+    "emptyShells": [
+      "/padel/bags",
+      "/padel/accessories",
+      "/squash/rackets",
+      "/padel/clothing"
+    ],
+    "future": [
+      "/padel/rackets",
+      "/tennis/rackets",
+      "/fitness/training-shoes",
+      "/padel/shoes",
+      "/tennis/shoes",
+      "/fitness/adjustable-dumbbells",
+      "/tennis/strings",
+      "/fitness/power-racks",
+      "/padel/balls",
+      "/pickleball/paddles",
+      "/fitness/weight-benches",
+      "/padel/grips",
+      "/badminton/rackets",
+      "/fitness/barbells",
+      "/fitness/weight-plates",
+      "/fitness/kettlebells",
+      "/fitness/rowing-machines",
+      "/fitness/air-bikes",
+      "/fitness/treadmills",
+      "/fitness/ski-ergs",
+      "/fitness/pull-up-bars",
+      "/fitness/parallettes",
+      "/fitness/gymnastic-rings",
+      "/fitness/weighted-vests",
+      "/fitness/functional-fitness",
+      "/fitness/gym-flooring",
+      "/fitness/gym-storage",
+      "/fitness/lifting-accessories"
+    ]
+  },
+  "tools": {
+    "total": 25,
+    "ready": 25,
+    "indexable": 12,
+    "held": 13
+  },
+  "commerce": {
+    "offerRows": 1301,
+    "byRegion": {
+      "NL": 746,
+      "UK": 278,
+      "US": 3,
+      "DE": 274
+    },
+    "coveragePolicy": {
+      "NL": "primary",
+      "DE": "partial",
+      "UK": "partial",
+      "US": "limited",
+      "FR": "none",
+      "BE": "none",
+      "ZA": "none"
+    },
+    "regions": [
+      "NL",
+      "DE",
+      "FR",
+      "BE",
+      "UK",
+      "US",
+      "ZA"
+    ],
+    "validationOverlay": 433,
+    "validationStates": {
+      "none": 868,
+      "VALID": 48,
+      "LIKELY_VALID": 375,
+      "UNKNOWN": 10
+    },
+    "overlayCheckedFrom": "2026-09-09T22:03:09.115Z",
+    "overlayCheckedTo": "2026-09-10T18:17:10.048Z"
+  },
+  "graphAfter70": {
+    "products": 631,
+    "indexable": 375,
+    "scores": {
+      "productAlternative": {
+        "STRONG": 1425,
+        "VALID": 322,
+        "WEAK": 149,
+        "INVALID": 0
+      },
+      "productComparison": {
+        "STRONG": 74,
+        "VALID": 10,
+        "WEAK": 10,
+        "INVALID": 0
+      },
+      "productBest": {
+        "STRONG": 360,
+        "VALID": 0,
+        "WEAK": 5,
+        "INVALID": 0
+      },
+      "productGuide": {
+        "STRONG": 58,
+        "VALID": 190,
+        "WEAK": 32,
+        "INVALID": 0
+      },
+      "reviewAlternative": {
+        "STRONG": 1206,
+        "VALID": 475,
+        "WEAK": 275,
+        "INVALID": 0
+      },
+      "bestComparison": {
+        "STRONG": 63,
+        "VALID": 9,
+        "WEAK": 7,
+        "INVALID": 0
+      }
+    },
+    "runningIndexableAlts": {
+      "invalid": 0,
+      "weak": 12
+    }
+  },
+  "editorialIntentHoldPaths": 0
+}

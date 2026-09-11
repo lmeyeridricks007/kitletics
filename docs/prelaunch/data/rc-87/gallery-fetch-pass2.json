@@ -1,0 +1,158 @@
+{
+  "deepened": [
+    {
+      "slug": "garmin-forerunner-970",
+      "galleryAfter": 4,
+      "usages": [
+        "side",
+        "detail",
+        "rear",
+        "top"
+      ],
+      "provenance": [
+        {
+          "usageType": "side",
+          "sourceUrl": "https://res.garmin.com/en/products/010-02969-00/g/74281-D-2.jpg",
+          "licence": "manufacturer-marketing",
+          "source": "Manufacturer official product catalog (Garmin)"
+        },
+        {
+          "usageType": "detail",
+          "sourceUrl": "https://res.garmin.com/en/products/010-02969-00/g/74281-D-3.jpg",
+          "licence": "manufacturer-marketing",
+          "source": "Manufacturer official product catalog (Garmin)"
+        },
+        {
+          "usageType": "rear",
+          "sourceUrl": "https://res.garmin.com/en/products/010-02969-00/g/74281-D-4.jpg",
+          "licence": "manufacturer-marketing",
+          "source": "Manufacturer official product catalog (Garmin)"
+        },
+        {
+          "usageType": "top",
+          "sourceUrl": "https://res.garmin.com/en/products/010-02969-00/g/74281-D-5.jpg",
+          "licence": "manufacturer-marketing",
+          "source": "Manufacturer official product catalog (Garmin)"
+        }
+      ]
+    },
+    {
+      "slug": "garmin-enduro-3",
+      "galleryAfter": 4,
+      "usages": [
+        "side",
+        "detail",
+        "rear",
+        "top"
+      ],
+      "provenance": [
+        {
+          "usageType": "side",
+          "sourceUrl": "https://res.garmin.com/en/products/010-02751-00/g/67233-2-D.jpg",
+          "licence": "manufacturer-marketing",
+          "source": "Manufacturer official product catalog (Garmin)"
+        },
+        {
+          "usageType": "detail",
+          "sourceUrl": "https://res.garmin.com/en/products/010-02751-00/g/67233-3-D.jpg",
+          "licence": "manufacturer-marketing",
+          "source": "Manufacturer official product catalog (Garmin)"
+        },
+        {
+          "usageType": "rear",
+          "sourceUrl": "https://res.garmin.com/en/products/010-02751-00/g/67233-4-D.jpg",
+          "licence": "manufacturer-marketing",
+          "source": "Manufacturer official product catalog (Garmin)"
+        },
+        {
+          "usageType": "top",
+          "sourceUrl": "https://res.garmin.com/en/products/010-02751-00/g/67233-5-D.jpg",
+          "licence": "manufacturer-marketing",
+          "source": "Manufacturer official product catalog (Garmin)"
+        }
+      ]
+    },
+    {
+      "slug": "new-balance-fresh-foam-x-1080-v14",
+      "galleryAfter": 4,
+      "usages": [
+        "side",
+        "outsole",
+        "rear",
+        "detail"
+      ],
+      "provenance": [
+        {
+          "usageType": "side",
+          "sourceUrl": "https://nb.scene7.com/is/image/NB/m1080b14_nb_03_i?$pdpflexf22x$&wid=1200&hei=1200",
+          "licence": "manufacturer-marketing",
+          "source": "Manufacturer product CDN (New Balance Scene7)"
+        },
+        {
+          "usageType": "outsole",
+          "sourceUrl": "https://nb.scene7.com/is/image/NB/m1080b14_nb_04_i?$pdpflexf22x$&wid=1200&hei=1200",
+          "licence": "manufacturer-marketing",
+          "source": "Manufacturer product CDN (New Balance Scene7)"
+        },
+        {
+          "usageType": "rear",
+          "sourceUrl": "https://nb.scene7.com/is/image/NB/m1080b14_nb_05_i?$pdpflexf22x$&wid=1200&hei=1200",
+          "licence": "manufacturer-marketing",
+          "source": "Manufacturer product CDN (New Balance Scene7)"
+        },
+        {
+          "usageType": "detail",
+          "sourceUrl": "https://nb.scene7.com/is/image/NB/m1080b14_nb_06_i?$pdpflexf22x$&wid=1200&hei=1200",
+          "licence": "manufacturer-marketing",
+          "source": "Manufacturer product CDN (New Balance Scene7)"
+        }
+      ]
+    },
+    {
+      "slug": "new-balance-fuelcell-supercomp-trainer-v3",
+      "galleryAfter": 4,
+      "usages": [
+        "side",
+        "detail",
+        "rear",
+        "outsole"
+      ],
+      "provenance": [
+        {
+          "usageType": "side",
+          "sourceUrl": "https://img.runningwarehouse.com/watermark/rs.php?path=N3SCTM5-2.jpg&nw=1200",
+          "licence": "retailer-authorized",
+          "source": "Authorized retailer product photography (Running Warehouse)"
+        },
+        {
+          "usageType": "detail",
+          "sourceUrl": "https://img.runningwarehouse.com/watermark/rs.php?path=N3SCTM5-3.jpg&nw=1200",
+          "licence": "retailer-authorized",
+          "source": "Authorized retailer product photography (Running Warehouse)"
+        },
+        {
+          "usageType": "rear",
+          "sourceUrl": "https://img.runningwarehouse.com/watermark/rs.php?path=N3SCTM5-4.jpg&nw=1200",
+          "licence": "retailer-authorized",
+          "source": "Authorized retailer product photography (Running Warehouse)"
+        },
+        {
+          "usageType": "outsole",
+          "sourceUrl": "https://img.runningwarehouse.com/watermark/rs.php?path=N3SCTM5-5.jpg&nw=1200",
+          "licence": "retailer-authorized",
+          "source": "Authorized retailer product photography (Running Warehouse)"
+        }
+      ]
+    }
+  ],
+  "failed": [
+    {
+      "slug": "garmin-hrm-600",
+      "reason": "empty"
+    },
+    {
+      "slug": "asics-superblast-2",
+      "reason": "empty"
+    }
+  ]
+}

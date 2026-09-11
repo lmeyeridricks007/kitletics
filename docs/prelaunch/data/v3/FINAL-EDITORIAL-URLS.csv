@@ -1,0 +1,1213 @@
+path,type,sport,status,ready,indexable,quality,uniqueness,notes
+/reviews/adidas-adizero-adios-pro-4,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/adidas-adizero-boston-12,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/adidas-adizero-boston-13,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/adidas-adizero-evo-sl,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/adidas-terrex-agravic-3,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/adidas-ultraboost-5,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/altra-escalante-4,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/altra-experience-flow,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/altra-lone-peak-8,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/altra-paradigm-7,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/altra-torin-8,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/asics-gel-cumulus-27,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/asics-gel-nimbus-27,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/asics-gel-trabuco-13,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/asics-gt-1000-13,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/asics-gt-2000-14,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/asics-metaspeed-sky-paris,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/asics-novablast-4,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/asics-novablast-6,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/brooks-ghost-16,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/brooks-glycerin-21,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/brooks-hyperion-max-2,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/hoka-arahi-7,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/hoka-bondi-8,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/hoka-clifton-9,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/hoka-clifton-pro,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/hoka-gaviota-5,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/hoka-mach-6,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/inov8-trailfly-ultra-g-300-max,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/mizuno-wave-rebellion-pro-3,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/mizuno-wave-rider-28,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/new-balance-fresh-foam-x-1080-v13,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/new-balance-fresh-foam-x-1080-v14,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/new-balance-fresh-foam-x-hierro-v9,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/new-balance-fuelcell-rebel-v5,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/new-balance-fuelcell-supercomp-elite-v4,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/new-balance-fuelcell-supercomp-trainer-v3,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/nike-invincible-3,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/nike-pegasus-41,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/nike-pegasus-trail-5,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/nike-react-infinity-run-4,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/nike-structure-26,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/nike-structure-plus,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/on-cloudmonster-2,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/on-cloudsurfer-2,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/on-cloudsurfer-next,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/puma-deviate-nitro-3,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/puma-magnify-nitro-2,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/salomon-aero-glide-2,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/salomon-genesis,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/salomon-pulsar-trail-2,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/salomon-sense-ride-5,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/salomon-ultra-glide-2,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/saucony-endorphin-pro-3,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/saucony-endorphin-pro-4,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/saucony-guide-18,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/saucony-peregrine-15,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/saucony-ride-18,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/saucony-triumph-22,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/saucony-xodus-ultra-3,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/topo-athletic-phantom-3,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/topo-athletic-specter-2,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/topo-athletic-terraventure-5,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/apple-watch-ultra-2,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/coros-apex-2-pro,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/coros-pace-pro,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/garmin-forerunner-165,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/garmin-forerunner-255,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/garmin-forerunner-265,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/garmin-forerunner-55,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/garmin-forerunner-570,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/garmin-forerunner-965,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/polar-pacer-pro,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/suunto-race,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/suunto-race-s,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/coros-heart-rate-monitor,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/garmin-hrm-pro-plus,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/polar-h9,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/suunto-smart-heart-rate-belt,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/wahoo-tickr,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/wahoo-tickr-fit,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/wahoo-tickr-x,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/wahoo-trackr,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/black-diamond-distance-22,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/black-diamond-distance-8,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/camelbak-apex-pro,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/camelbak-circuit-run-vest,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/camelbak-zephyr,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/nnormal-race-vest,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/on-ultra-vest-pro,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/osprey-duro-lt,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/osprey-dyna-lt,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/salomon-adv-skin-12,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/ultimate-direction-adventure-vest,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/ultimate-direction-fastpack-30,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/ultimate-direction-race-vest-6,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/ultraspire-alpha-6,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/balega-blister-resist,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/balega-hidden-comfort,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/darn-tough-run-1-4,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/drymax-run-lite-mesh,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/feetures-elite-light-cushion,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/wrightsock-coolmesh-ii,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/adidas-own-the-run-short-men,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/adidas-own-the-run-tee-men,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/asics-core-split-short,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/brooks-notch-thermal-beanie,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/brooks-notch-thermal-men,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/brooks-sherpa-7-men,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/buff-coolnet-uv,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/buff-merino-lightweight,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/buff-original,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/ciele-gocap-athletics,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/craft-active-extreme-x-men,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/craft-adv-essence-short,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/craft-adv-lumen-glove,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/janji-multi-short-men,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/janji-pace-short-women,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/janji-rainrunner-men,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/janji-run-tee-men,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/nike-aerobill-cap,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/nike-aeroswift-singlet-men,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/nike-dri-fit-miler-men,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/nike-dri-fit-miler-women,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/nike-dri-fit-stride-short,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/nike-fast-tight-men,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/nike-swoosh-medium-support,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/odlo-active-warm-eco-men,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/on-performance-short-men,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/on-performance-tight-women,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/on-weather-jacket-men,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/patagonia-capilene-cool-daily-men,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/patagonia-capilene-midweight-zip-men,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/patagonia-endless-run-tight-women,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/patagonia-trailfarer-short-women,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/rabbit-fuel-n-fly-men,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/salomon-bonatti-wp-men,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/salomon-bonatti-wp-women,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/smartwool-thermal-merino-glove,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/tracksmith-brighton-ls-men,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/tracksmith-session-short-men,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/tracksmith-session-short-women,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/tracksmith-turnover-tight-women,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/tracksmith-van-cortlandt-tee-men,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/goodr-circle-gs,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/goodr-ogs,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/julbo-aerolite,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/julbo-rush,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/oakley-encoder,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/oakley-flak-2-0-xl,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/oakley-radar-ev-path,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/oakley-sutro-lite,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/smith-shift-mag,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/tifosi-rail,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/tifosi-vogel,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/enervit-c2-1-carbo-gel,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/gu-energy-chews,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/gu-roctane-gel,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/high5-energy-gel,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/huma-gel-original,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/neversecond-c30-gel,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/nuun-sport,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/powerbar-energize,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/precision-ph1500,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/saltstick-caps,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/skratch-sport-energy-chews,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/spring-energy-awesome-sauce,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/styrkr-gel30,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/styrkr-mix90,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/tailwind-endurance-fuel,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/veloforte-energy-chews,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/proviz-reflect360-running-vest,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/adidas-adipower-weightlifting-2,review,fitness,READY,yes,no,LAUNCH_READY,OK,
+/reviews/adidas-adipower-weightlifting-3,review,fitness,READY,yes,no,LAUNCH_READY,OK,
+/reviews/adidas-barricade-13,review,tennis,READY,yes,no,LAUNCH_READY,OK,
+/reviews/adidas-courtjam-control-3,review,tennis,READY,yes,no,LAUNCH_READY,OK,
+/reviews/adidas-courtquick-padel-women,review,padel,READY,yes,no,LAUNCH_READY,OK,
+/reviews/adidas-courtstabil-padel,review,padel,READY,yes,no,LAUNCH_READY,OK,
+/reviews/adidas-crazyquick-boost-padel,review,padel,READY,yes,no,LAUNCH_READY,OK,
+/reviews/adidas-crazyquick-boost-padel-women,review,padel,READY,yes,no,LAUNCH_READY,OK,
+/reviews/adidas-dropset-2,review,fitness,READY,yes,no,LAUNCH_READY,OK,
+/reviews/adidas-dropset-3,review,fitness,READY,yes,no,LAUNCH_READY,OK,
+/reviews/adidas-metalbone-2026,review,padel,READY,yes,no,LAUNCH_READY,OK,
+/reviews/adidas-metalbone-hrd-2026,review,padel,READY,yes,no,LAUNCH_READY,OK,
+/reviews/adidas-powerlift-5,review,fitness,READY,yes,no,LAUNCH_READY,OK,
+/reviews/adidas-rapidmove-adv,review,fitness,READY,yes,no,LAUNCH_READY,OK,
+/reviews/adidas-solematch-control-2,review,tennis,READY,yes,no,LAUNCH_READY,OK,
+/reviews/adidas-the-total,review,fitness,READY,yes,no,LAUNCH_READY,OK,
+/reviews/asics-game-ff-padel,review,padel,READY,yes,no,LAUNCH_READY,OK,
+/reviews/asics-gel-challenger-15,review,tennis,READY,yes,no,LAUNCH_READY,OK,
+/reviews/asics-gel-challenger-court,review,padel,READY,yes,no,LAUNCH_READY,OK,
+/reviews/asics-gel-dedicate-8,review,tennis,READY,yes,no,LAUNCH_READY,OK,
+/reviews/asics-gel-dedicate-8-padel,review,padel,READY,yes,no,LAUNCH_READY,OK,
+/reviews/asics-gel-quantum-360-8,review,fitness,READY,yes,no,LAUNCH_READY,OK,
+/reviews/asics-gel-resolution-9,review,tennis,READY,yes,no,LAUNCH_READY,OK,
+/reviews/asics-gel-resolution-9-clay,review,tennis,READY,yes,no,LAUNCH_READY,OK,
+/reviews/asics-gel-resolution-padel,review,padel,READY,yes,no,LAUNCH_READY,OK,
+/reviews/asics-solution-speed-ff-3,review,tennis,READY,yes,no,LAUNCH_READY,OK,
+/reviews/asics-solution-swift-ff2-padel,review,padel,READY,yes,no,LAUNCH_READY,OK,
+/reviews/assaultbike-classic,review,fitness,READY,yes,no,LAUNCH_READY,OK,
+/reviews/assaultbike-elite,review,fitness,READY,yes,no,LAUNCH_READY,OK,
+/reviews/assaultrunner-elite,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/atx-cast-iron-plate-set,review,fitness,READY,yes,no,LAUNCH_READY,OK,
+/reviews/atx-fid-bench,review,fitness,READY,yes,no,LAUNCH_READY,OK,
+/reviews/babolat-counter-viper-2026,review,padel,READY,yes,no,LAUNCH_READY,OK,
+/reviews/babolat-jet-mach-3,review,tennis,READY,yes,no,LAUNCH_READY,OK,
+/reviews/babolat-jet-premura,review,padel,READY,yes,no,LAUNCH_READY,OK,
+/reviews/babolat-movea-2,review,padel,READY,yes,no,LAUNCH_READY,OK,
+/reviews/babolat-pure-aero-2023,review,tennis,READY,yes,no,LAUNCH_READY,OK,
+/reviews/babolat-pure-aero-2026,review,tennis,READY,yes,no,LAUNCH_READY,OK,
+/reviews/babolat-pure-drive-2025,review,tennis,READY,yes,no,LAUNCH_READY,OK,
+/reviews/babolat-pure-drive-gen11,review,tennis,READY,yes,no,LAUNCH_READY,OK,
+/reviews/babolat-sensa-women,review,padel,READY,yes,no,LAUNCH_READY,OK,
+/reviews/babolat-technical-viper-2026,review,padel,READY,yes,no,LAUNCH_READY,OK,
+/reviews/blackroll-ball,review,fitness,READY,yes,no,LAUNCH_READY,OK,
+/reviews/blackroll-duoball,review,fitness,READY,yes,no,LAUNCH_READY,OK,
+/reviews/blackroll-med,review,fitness,READY,yes,no,LAUNCH_READY,OK,
+/reviews/blackroll-standard,review,fitness,READY,yes,no,LAUNCH_READY,OK,
+/reviews/bowflex-selecttech-1090,review,fitness,READY,yes,no,LAUNCH_READY,OK,
+/reviews/bullpadel-hack-03,review,padel,READY,yes,no,LAUNCH_READY,OK,
+/reviews/bullpadel-hack-04-2026,review,padel,READY,yes,no,LAUNCH_READY,OK,
+/reviews/bullpadel-hybrid-fly,review,padel,READY,yes,no,LAUNCH_READY,OK,
+/reviews/bullpadel-ionic-woman,review,padel,READY,yes,no,LAUNCH_READY,OK,
+/reviews/bullpadel-vertex-04,review,padel,READY,yes,no,LAUNCH_READY,OK,
+/reviews/bullpadel-vertex-05-2026,review,padel,READY,yes,no,LAUNCH_READY,OK,
+/reviews/camelbak-quick-grip-chill,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/cep-calf-sleeves-3,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/compressport-free-belt-pro,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/concept2-bikeerg,review,fitness,READY,yes,no,LAUNCH_READY,OK,
+/reviews/concept2-rowerg,review,fitness,READY,yes,no,LAUNCH_READY,OK,
+/reviews/concept2-rowerg-dynamic,review,fitness,READY,yes,no,LAUNCH_READY,OK,
+/reviews/concept2-skierg,review,fitness,READY,yes,no,LAUNCH_READY,OK,
+/reviews/concept2-skierg-floor-stand,review,fitness,READY,yes,no,LAUNCH_READY,OK,
+/reviews/concept2-skierg-with-stand,review,fitness,READY,yes,no,LAUNCH_READY,OK,
+/reviews/do-win-classic,review,fitness,READY,yes,no,LAUNCH_READY,OK,
+/reviews/dunlop-cx-200,review,tennis,READY,yes,no,LAUNCH_READY,OK,
+/reviews/eleiko-kettlebell,review,fitness,READY,yes,no,LAUNCH_READY,OK,
+/reviews/eleiko-performance-weightlifting-bar,review,fitness,READY,yes,no,LAUNCH_READY,OK,
+/reviews/eleiko-sport-bumper-set,review,fitness,READY,yes,no,LAUNCH_READY,OK,
+/reviews/eleiko-sport-collars,review,fitness,READY,yes,no,LAUNCH_READY,OK,
+/reviews/eleiko-xf-bar,review,fitness,READY,yes,no,LAUNCH_READY,OK,
+/reviews/fitletic-fully-loaded,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/gornation-premium-pull-up-bar,review,fitness,READY,yes,no,LAUNCH_READY,OK,
+/reviews/gravity-fitness-parallettes,review,fitness,READY,yes,no,LAUNCH_READY,OK,
+/reviews/gravity-fitness-weighted-vest,review,fitness,READY,yes,no,LAUNCH_READY,OK,
+/reviews/head-coello-pro-2026,review,padel,READY,yes,no,LAUNCH_READY,OK,
+/reviews/head-radical-mp-2023,review,tennis,READY,yes,no,LAUNCH_READY,OK,
+/reviews/head-revolt-pro-court,review,padel,READY,yes,no,LAUNCH_READY,OK,
+/reviews/head-speed-mp-2024,review,tennis,READY,yes,no,LAUNCH_READY,OK,
+/reviews/head-sprint-pro-4-padel,review,padel,READY,yes,no,LAUNCH_READY,OK,
+/reviews/hoka-transport,review,fitness,READY,yes,no,LAUNCH_READY,OK,
+/reviews/horizon-t202-treadmill,review,fitness,READY,yes,no,LAUNCH_READY,OK,
+/reviews/hydrapak-contour-2l,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/hydrapak-skyflask-speed-500,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/hydrapak-softflask-500,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/hydrapak-tube-kit,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/hydrow-wave,review,fitness,READY,yes,no,LAUNCH_READY,OK,
+/reviews/hyperice-hypervolt-go-2,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/inov8-f-lite-235-v3,review,fitness,READY,yes,no,LAUNCH_READY,OK,
+/reviews/inov8-f-lite-260,review,fitness,READY,yes,no,LAUNCH_READY,OK,
+/reviews/inov8-fastlift-360,review,fitness,READY,yes,no,LAUNCH_READY,OK,
+/reviews/inov8-fastlift-400,review,fitness,READY,yes,no,LAUNCH_READY,OK,
+/reviews/inov8-fastlift-power-g-380,review,fitness,READY,yes,no,LAUNCH_READY,OK,
+/reviews/joma-slam-lady,review,padel,READY,yes,no,LAUNCH_READY,OK,
+/reviews/joma-spin-men,review,padel,READY,yes,no,LAUNCH_READY,OK,
+/reviews/joma-t-slam,review,padel,READY,yes,no,LAUNCH_READY,OK,
+/reviews/k-swiss-hypercourt-express-2,review,tennis,READY,yes,no,LAUNCH_READY,OK,
+/reviews/k-swiss-ultrashot-3,review,tennis,READY,yes,no,LAUNCH_READY,OK,
+/reviews/kuikma-pr-soft-500,review,padel,READY,yes,no,LAUNCH_READY,OK,
+/reviews/kuikma-ps-990,review,padel,READY,yes,no,LAUNCH_READY,OK,
+/reviews/lok-maxx-flow,review,padel,READY,yes,no,LAUNCH_READY,OK,
+/reviews/lululemon-strongfeel,review,fitness,READY,yes,no,LAUNCH_READY,OK,
+/reviews/mirafit-air-bike,review,fitness,READY,yes,no,LAUNCH_READY,OK,
+/reviews/mirafit-battle-rope,review,fitness,READY,yes,no,LAUNCH_READY,OK,
+/reviews/mirafit-folding-rower,review,fitness,READY,yes,no,LAUNCH_READY,OK,
+/reviews/mirafit-folding-treadmill,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/mirafit-m3-power-rack,review,fitness,READY,yes,no,LAUNCH_READY,OK,
+/reviews/mirafit-m4-cage,review,fitness,READY,yes,no,LAUNCH_READY,OK,
+/reviews/mirafit-magnetic-rower,review,fitness,READY,yes,no,LAUNCH_READY,OK,
+/reviews/mirafit-olympic-barbell,review,fitness,READY,yes,no,LAUNCH_READY,OK,
+/reviews/mirafit-weighted-vest,review,fitness,READY,yes,no,LAUNCH_READY,OK,
+/reviews/naked-running-band,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/nathan-exoshot-2,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/nathan-mirage-pak,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/nathan-softflask-18oz,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/nathan-zipster-lite,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/nb-minimus-tr,review,fitness,READY,yes,no,LAUNCH_READY,OK,
+/reviews/nike-free-metcon-6,review,fitness,READY,yes,no,LAUNCH_READY,OK,
+/reviews/nike-metcon-8,review,fitness,READY,yes,no,LAUNCH_READY,OK,
+/reviews/nike-metcon-9,review,fitness,READY,yes,no,LAUNCH_READY,OK,
+/reviews/nike-romaleos-4,review,fitness,READY,yes,no,LAUNCH_READY,OK,
+/reviews/nike-romaleos-5,review,fitness,READY,yes,no,LAUNCH_READY,OK,
+/reviews/nike-savaleos,review,fitness,READY,yes,no,LAUNCH_READY,OK,
+/reviews/nobull-outwork,review,fitness,READY,yes,no,LAUNCH_READY,OK,
+/reviews/nobull-trainer,review,fitness,READY,yes,no,LAUNCH_READY,OK,
+/reviews/nobull-trainer-plus,review,fitness,READY,yes,no,LAUNCH_READY,OK,
+/reviews/nox-at10-genius-12k-alum-xtrem-2026,review,padel,READY,yes,no,LAUNCH_READY,OK,
+/reviews/nox-at10-genius-18k-2026,review,padel,READY,yes,no,LAUNCH_READY,OK,
+/reviews/nox-at10-lux,review,padel,READY,yes,no,LAUNCH_READY,OK,
+/reviews/nox-ml10-hexa,review,padel,READY,yes,no,LAUNCH_READY,OK,
+/reviews/nox-ml10-pro-cup-2026,review,padel,READY,yes,no,LAUNCH_READY,OK,
+/reviews/nuobell-50,review,fitness,READY,yes,no,LAUNCH_READY,OK,
+/reviews/nuobell-80,review,fitness,READY,yes,no,LAUNCH_READY,OK,
+/reviews/oofos-oolala,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/oofos-ooriginal,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/osprey-hydraulics-lt-15,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/powerblock-elite-exp-90,review,fitness,READY,yes,no,LAUNCH_READY,OK,
+/reviews/powerblock-pro-series-100,review,fitness,READY,yes,no,LAUNCH_READY,OK,
+/reviews/powerblock-pro-series-50,review,fitness,READY,yes,no,LAUNCH_READY,OK,
+/reviews/prince-textreme-tour-100p,review,tennis,READY,yes,no,LAUNCH_READY,OK,
+/reviews/pullup-and-dip-parallettes,review,fitness,READY,yes,no,LAUNCH_READY,OK,
+/reviews/pullup-and-dip-wall-bar,review,fitness,READY,yes,no,LAUNCH_READY,OK,
+/reviews/puma-fuse-3,review,fitness,READY,yes,no,LAUNCH_READY,OK,
+/reviews/puma-fuse-fasted,review,fitness,READY,yes,no,LAUNCH_READY,OK,
+/reviews/reebok-legacy-lifter-iii,review,fitness,READY,yes,no,LAUNCH_READY,OK,
+/reviews/reebok-lifter-pr-iii,review,fitness,READY,yes,no,LAUNCH_READY,OK,
+/reviews/reebok-nano-court,review,fitness,READY,yes,no,LAUNCH_READY,OK,
+/reviews/reebok-nano-x3,review,fitness,READY,yes,no,LAUNCH_READY,OK,
+/reviews/reebok-nano-x4,review,fitness,READY,yes,no,LAUNCH_READY,OK,
+/reviews/rep-ab-5000-zero-gap,review,fitness,READY,yes,no,LAUNCH_READY,OK,
+/reviews/rep-ab-5200,review,fitness,READY,yes,no,LAUNCH_READY,OK,
+/reviews/rep-black-bumper-plate-set,review,fitness,READY,yes,no,LAUNCH_READY,OK,
+/reviews/rep-colorado-bar,review,fitness,READY,yes,no,LAUNCH_READY,OK,
+/reviews/rep-fb-5000-flat-bench,review,fitness,READY,yes,no,LAUNCH_READY,OK,
+/reviews/rep-pr-4000,review,fitness,READY,yes,no,LAUNCH_READY,OK,
+/reviews/rep-pr-5000,review,fitness,READY,yes,no,LAUNCH_READY,OK,
+/reviews/rep-slam-ball,review,fitness,READY,yes,no,LAUNCH_READY,OK,
+/reviews/rogue-adjustable-bench-3-0,review,fitness,READY,yes,no,LAUNCH_READY,OK,
+/reviews/rogue-dog-sled,review,fitness,READY,yes,no,LAUNCH_READY,OK,
+/reviews/rogue-echo-bike,review,fitness,READY,yes,no,LAUNCH_READY,OK,
+/reviews/rogue-echo-bumper-plate-set,review,fitness,READY,yes,no,LAUNCH_READY,OK,
+/reviews/rogue-echo-kettlebell,review,fitness,READY,yes,no,LAUNCH_READY,OK,
+/reviews/rogue-flat-utility-bench,review,fitness,READY,yes,no,LAUNCH_READY,OK,
+/reviews/rogue-kettlebell,review,fitness,READY,yes,no,LAUNCH_READY,OK,
+/reviews/rogue-monster-lite-pull-up-bar,review,fitness,READY,yes,no,LAUNCH_READY,OK,
+/reviews/rogue-ohio-bar,review,fitness,READY,yes,no,LAUNCH_READY,OK,
+/reviews/rogue-ohio-power-bar,review,fitness,READY,yes,no,LAUNCH_READY,OK,
+/reviews/rogue-plate-carrier-vest,review,fitness,READY,yes,no,LAUNCH_READY,OK,
+/reviews/rogue-sandbag,review,fitness,READY,yes,no,LAUNCH_READY,OK,
+/reviews/rogue-wall-ball,review,fitness,READY,yes,no,LAUNCH_READY,OK,
+/reviews/rogue-wrist-wraps,review,fitness,READY,yes,no,LAUNCH_READY,OK,
+/reviews/royal-padel-m27-poly-2026,review,padel,READY,yes,no,LAUNCH_READY,OK,
+/reviews/salming-rebel,review,fitness,READY,yes,no,LAUNCH_READY,OK,
+/reviews/salomon-pulse-belt,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/salomon-soft-flask-500,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/salomon-soft-flask-speed-500,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/salomon-soft-reservoir-15,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/schwinn-airdyne-ad8,review,fitness,READY,yes,no,LAUNCH_READY,OK,
+/reviews/siux-diablo-revolution-2026,review,padel,READY,yes,no,LAUNCH_READY,OK,
+/reviews/skierg2-wall-mount,review,fitness,READY,yes,no,LAUNCH_READY,OK,
+/reviews/sole-f80-treadmill,review,fitness,READY,yes,no,LAUNCH_READY,OK,
+/reviews/spibelt-original,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/starvie-basalto-osiris-2026,review,padel,READY,yes,no,LAUNCH_READY,OK,
+/reviews/starvie-titania-kepler-2026,review,padel,READY,yes,no,LAUNCH_READY,OK,
+/reviews/tecnifibre-tf40-305,review,tennis,READY,yes,no,LAUNCH_READY,OK,
+/reviews/tecnifibre-tfight-300s-2025,review,tennis,READY,yes,no,LAUNCH_READY,OK,
+/reviews/tecnifibre-wall-breaker-365,review,padel,READY,yes,no,LAUNCH_READY,OK,
+/reviews/therabody-theragun-mini-2,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/tyr-cxt-1,review,fitness,READY,yes,no,LAUNCH_READY,OK,
+/reviews/tyr-cxt-2,review,fitness,READY,yes,no,LAUNCH_READY,OK,
+/reviews/tyr-cxt1-trainer,review,fitness,READY,yes,no,LAUNCH_READY,OK,
+/reviews/ua-charged-commit-4,review,fitness,READY,yes,no,LAUNCH_READY,OK,
+/reviews/ua-project-rock-bsr-4,review,fitness,READY,yes,no,LAUNCH_READY,OK,
+/reviews/ua-reign-lifter,review,fitness,READY,yes,no,LAUNCH_READY,OK,
+/reviews/ua-tribase-reign-6,review,fitness,READY,yes,no,LAUNCH_READY,OK,
+/reviews/ultimate-direction-body-bottle-500,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/varlion-lw-carbon-difusor-2026,review,padel,READY,yes,no,LAUNCH_READY,OK,
+/reviews/waterrower-a1,review,fitness,READY,yes,no,LAUNCH_READY,OK,
+/reviews/wilson-blade-100-v9,review,tennis,READY,yes,no,LAUNCH_READY,OK,
+/reviews/wilson-blade-98-v8,review,tennis,READY,yes,no,LAUNCH_READY,OK,
+/reviews/wilson-blade-98-v9,review,tennis,READY,yes,no,LAUNCH_READY,OK,
+/reviews/wilson-blade-pro-v2-padel-2026,review,padel,READY,yes,no,LAUNCH_READY,OK,
+/reviews/wilson-clash-100-v2,review,tennis,READY,yes,no,LAUNCH_READY,OK,
+/reviews/wilson-clash-100-v3,review,tennis,READY,yes,no,LAUNCH_READY,OK,
+/reviews/wilson-rush-pro-4-0,review,tennis,READY,yes,no,LAUNCH_READY,OK,
+/reviews/wilson-rush-pro-5-padel,review,padel,READY,yes,no,LAUNCH_READY,OK,
+/reviews/wilson-rush-pro-ace,review,tennis,READY,yes,no,LAUNCH_READY,OK,
+/reviews/xebex-ski-erg,review,fitness,READY,yes,no,LAUNCH_READY,OK,
+/reviews/xero-prio,review,fitness,READY,yes,no,LAUNCH_READY,OK,
+/reviews/yonex-ezone-100-2025,review,tennis,READY,yes,no,LAUNCH_READY,OK,
+/reviews/yonex-ezone-98-2024,review,tennis,READY,yes,no,LAUNCH_READY,OK,
+/reviews/yonex-vcore-100-2023,review,tennis,READY,yes,no,LAUNCH_READY,OK,
+/reviews/yonex-vcore-98-2026,review,tennis,READY,yes,no,LAUNCH_READY,OK,
+/reviews/bowflex-selecttech-552,review,fitness,READY,yes,no,LAUNCH_READY,OK,
+/reviews/rep-apollo-athlon-rack,review,fitness,READY,yes,no,LAUNCH_READY,OK,
+/reviews/rep-quickdraw-adjustable-dumbbells,review,fitness,READY,yes,no,LAUNCH_READY,OK,
+/reviews/rogue-sm-2c-monster-lite,review,fitness,READY,yes,no,LAUNCH_READY,OK,
+/reviews/drop-shot-canyon-pro-2026,review,padel,READY,yes,no,LAUNCH_READY,OK,
+/reviews/head-extreme-motion-2026,review,padel,READY,yes,no,LAUNCH_READY,OK,
+/reviews/head-extreme-pro-padel-2026,review,padel,READY,yes,no,LAUNCH_READY,OK,
+/reviews/black-diamond-spot-400-r,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/blackroll-pro,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/brooks-canopy-jacket-men,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/brooks-chaser-5-women,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/brooks-glycerin-gts-22,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/brooks-method-tight-women,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/craft-adv-essence-light-wind-men,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/craft-adv-essence-light-wind-vest-men,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/hyperice-vyper-3,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/maurten-drink-mix-160,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/maurten-drink-mix-320,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/nathan-vaporair-2,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/osprey-duro-6,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/precision-pf30-drink-mix,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/scosche-rhythm24,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/shokz-openrun-pro-2,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/silva-trail-runner-free-2,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/sis-beta-fuel-drink,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/sis-beta-fuel-gel,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/suunto-wing,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/tracksmith-twilight-half-men,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/scosche-rhythm-plus-2,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/garmin-forerunner-970,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/cep-run-compression-sock-3,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/ledlenser-neo9r,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/nitecore-nu43,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/oakley-kato,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/rudy-project-cutline,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/saltstick-fastchews,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/uswe-pace-8,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/veloforte-energy-bar,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/100-percent-s3,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/226ers-high-energy-gel,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/amphipod-vizlet-led,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/amphipod-xinglet,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/amphipod-xinglet-optic-beam,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/apple-airpods-4,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/apple-airpods-pro-2,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/assaultrunner-pro,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/beats-fit-pro,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/black-diamond-distance-15,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/brazyn-morph,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/brooks-cascadia-18,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/buff-polar,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/camelbak-crux-15,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/cep-the-run-calf-sleeves,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/clif-bar-original,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/compressport-ultrun-s-pack,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/craft-adv-essence-tight-men,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/flipbelt-classic,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/garmin-hrm-200,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/gu-energy-gel,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/high5-zero,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/honey-stinger-organic-energy-gel,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/hydrapak-softflask-250,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/hydrapak-softflask-speed-500,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/hyperice-normatec-3,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/hyperice-normatec-go,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/kiprun-running-belt,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/maurten-gel-100,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/maurten-gel-100-caf-100,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/maurten-gel-160,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/naak-ultra-energy-bar,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/naak-ultra-energy-drink-mix,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/nathan-lightbender-rx,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/nathan-peak-hydration-waist-pack,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/nathan-pinnacle-12,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/nathan-speeddraw-plus-insulated-18oz,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/nathan-vaporair-4,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/nathan-zippered-stash,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/nb-rc-essential-short-men,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/neversecond-c30-sports-drink,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/new-balance-fresh-foam-x-860-v14,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/new-balance-fuelcell-rebel-v4,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/nike-impossibly-light-men,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/nike-therma-fit-glove,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/odlo-active-warm-eco-bottom-men,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/on-cloudmonster-hyper,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/osprey-dyna-6,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/osprey-talon-velocity-20,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/patagonia-capilene-thermal-crew-men,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/patagonia-houdini-men,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/patagonia-nano-puff-vest-men,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/patagonia-strider-pro-men,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/polar-vantage-v3,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/precision-pf30-gel,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/roka-phantom-air,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/salomon-adv-skin-5,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/salomon-custom-quiver,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/salomon-xa-15,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/saucony-endorphin-speed-4,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/shokz-opendots-one,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/shokz-openfit-2,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/shokz-openrun,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/sis-go-isotonic-gel,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/skratch-sport-hydration-mix,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/smith-attack-mag,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/soundcore-aerofit-2,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/swiftwick-aspire-four,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/therabody-theragun-prime,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/therabody-theragun-pro,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/triggerpoint-grid-travel,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/triggerpoint-grid-x,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/ultimate-direction-fastpack-20,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/ultimate-direction-fastpack-her-20,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/ultimate-direction-race-belt,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/ultimate-direction-utility-bag,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/polar-verity-sense,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/asics-novablast-5,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/nike-pegasus-42,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/coros-pace-3,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/brooks-adrenaline-gts-25,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/garmin-enduro-3,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/garmin-instinct-3,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/brooks-ghost-18,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/hoka-clifton-10,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/brooks-glycerin-22,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/asics-superblast-2,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/nike-vomero-18,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/saucony-endorphin-speed-5,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/nike-vaporfly-4,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/asics-gel-kayano-32,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/hoka-bondi-9,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/hoka-speedgoat-6,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/nike-alphafly-3,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/garmin-vivoactive-6,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/garmin-forerunner-265s,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/garmin-epix-pro-gen-2,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/coros-pace-4,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/coros-vertix-2s,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/suunto-vertical-2,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/suunto-run,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/polar-grit-x2,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/polar-pacer,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/apple-watch-series-10,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/samsung-galaxy-watch-ultra,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/amazfit-t-rex-3-pro,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/amazfit-active-2,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/2toms-sportshield,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/amphipod-airflow-lite-belt,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/amphipod-hydraform-ergo-lite-handheld,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/biolite-headlamp-800-pro,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/black-crown-special-one-soft,review,padel,READY,yes,no,LAUNCH_READY,OK,
+/reviews/black-diamond-distance-1500,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/body-glide-original,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/bose-ultra-open-earbuds,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/camelbak-zephyr-pro,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/clif-bloks-energy-chews,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/garmin-hrm-fit,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/gornation-gymnastic-rings,review,fitness,READY,yes,no,LAUNCH_READY,OK,
+/reviews/gornation-parallettes-pro,review,fitness,READY,yes,no,LAUNCH_READY,OK,
+/reviews/gravity-fitness-gymnastic-rings,review,fitness,READY,yes,no,LAUNCH_READY,OK,
+/reviews/gravity-fitness-pull-up-station,review,fitness,READY,yes,no,LAUNCH_READY,OK,
+/reviews/head-speed-mp-2026,review,tennis,READY,yes,no,LAUNCH_READY,OK,
+/reviews/hyperice-hypervolt-2,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/injinji-run-midweight,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/julbo-ultimate,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/mirafit-bumper-plate-set,review,fitness,READY,yes,no,LAUNCH_READY,OK,
+/reviews/mirafit-cast-iron-kettlebell,review,fitness,READY,yes,no,LAUNCH_READY,OK,
+/reviews/mirafit-fid-adjustable-bench,review,fitness,READY,yes,no,LAUNCH_READY,OK,
+/reviews/mirafit-gym-mats,review,fitness,READY,yes,no,LAUNCH_READY,OK,
+/reviews/mirafit-wall-pull-up-bar,review,fitness,READY,yes,no,LAUNCH_READY,OK,
+/reviews/nathan-streak-reflective-vest,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/nike-court-vapor-pro-3,review,tennis,READY,yes,no,LAUNCH_READY,OK,
+/reviews/osprey-duro-15,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/osprey-talon-velocity-30,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/osprey-tempest-velocity-20,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/oxdog-sense-pro,review,padel,READY,yes,no,LAUNCH_READY,OK,
+/reviews/petzl-actik-core,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/petzl-nao-rl,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/petzl-swift-rl,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/pullup-and-dip-doorway-bar,review,fitness,READY,yes,no,LAUNCH_READY,OK,
+/reviews/rep-bumper-plate-storage,review,fitness,READY,yes,no,LAUNCH_READY,OK,
+/reviews/rep-fitness-kettlebell,review,fitness,READY,yes,no,LAUNCH_READY,OK,
+/reviews/rogue-flogging-horse-stall-mat-note,review,fitness,READY,yes,no,LAUNCH_READY,OK,
+/reviews/rogue-plate-tree,review,fitness,READY,yes,no,LAUNCH_READY,OK,
+/reviews/rogue-rm-4-monster-rack,review,fitness,READY,yes,no,LAUNCH_READY,OK,
+/reviews/rogue-rml-390f,review,fitness,READY,yes,no,LAUNCH_READY,OK,
+/reviews/salming-race-9,review,fitness,READY,yes,no,LAUNCH_READY,OK,
+/reviews/smartwool-run-targeted-cushion,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/soundcore-sport-x20,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/squirrels-nut-butter,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/ultimate-direction-ultra-belt,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/ultraspire-fitted-race-belt-2,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/ultraspire-spry-5,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/vivobarefoot-primus-lite-iii,review,fitness,READY,yes,no,LAUNCH_READY,OK,
+/reviews/woodway-curve-trainer,review,fitness,READY,yes,no,LAUNCH_READY,OK,
+/reviews/polar-h10,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/garmin-hrm-600,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/garmin-fenix-8,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/coros-apex-4,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/apple-watch-ultra-3,review,running,READY,yes,yes,LAUNCH_READY,OK,
+/reviews/head-padel-pro-s-balls,review,padel,READY,yes,no,LAUNCH_READY,OK,
+/reviews/wilson-bela-pro-v2-2026,review,padel,READY,yes,no,LAUNCH_READY,OK,
+/reviews/wilson-padel-overgrip-pack,review,padel,READY,yes,no,LAUNCH_READY,OK,
+/best/running-shoes,best,running,READY,yes,yes,LAUNCH_READY,OK,contextualDepth=high
+/best/daily-trainers,best,running,READY,yes,yes,LAUNCH_READY,OK,contextualDepth=high
+/best/running-shoes-long-runs,best,running,READY,yes,yes,LAUNCH_READY,OK,contextualDepth=high
+/best/max-cushion-running-shoes,best,running,READY,yes,yes,LAUNCH_READY,OK,contextualDepth=high
+/best/tempo-running-shoes,best,running,READY,yes,yes,LAUNCH_READY,OK,contextualDepth=high
+/best/race-shoes,best,running,READY,yes,yes,LAUNCH_READY,OK,contextualDepth=high
+/best/carbon-plated-running-shoes,best,running,READY,yes,yes,LAUNCH_READY,OK,contextualDepth=high
+/best/marathon-shoes,best,running,READY,yes,yes,LAUNCH_READY,OK,contextualDepth=high
+/best/stability-running-shoes,best,running,READY,yes,yes,LAUNCH_READY,OK,contextualDepth=high
+/best/trail-running-shoes,best,running,READY,yes,yes,LAUNCH_READY,OK,contextualDepth=high
+/best/running-shoes-heavy-runners,best,running,READY,yes,yes,LAUNCH_READY,OK,contextualDepth=high
+/best/running-shoes-beginners,best,running,READY,yes,yes,LAUNCH_READY,OK,contextualDepth=high
+/best/running-shoes-wide-feet,best,running,READY,yes,yes,LAUNCH_READY,OK,contextualDepth=high
+/best/running-watches,best,running,READY,yes,yes,LAUNCH_READY,OK,contextualDepth=high
+/best/running-watches-beginners,best,running,READY,yes,yes,LAUNCH_READY,OK,contextualDepth=high
+/best/running-watches-marathon,best,running,READY,yes,yes,LAUNCH_READY,OK,contextualDepth=high
+/best/running-watches-trail,best,running,READY,yes,yes,LAUNCH_READY,OK,contextualDepth=high
+/best/running-watches-ultra,best,running,READY,yes,yes,LAUNCH_READY,OK,contextualDepth=high
+/best/running-watches-budget,best,running,READY,yes,yes,LAUNCH_READY,OK,contextualDepth=high
+/best/running-watches-music,best,running,READY,yes,yes,LAUNCH_READY,OK,contextualDepth=high
+/best/running-watches-small-wrists,best,running,READY,yes,yes,LAUNCH_READY,OK,contextualDepth=high
+/best/heart-rate-monitors-running,best,running,READY,yes,yes,LAUNCH_READY,OK,contextualDepth=high
+/best/heart-rate-monitors-chest-straps,best,running,READY,yes,yes,LAUNCH_READY,OK,contextualDepth=high
+/best/heart-rate-monitors-intervals,best,running,READY,yes,yes,LAUNCH_READY,OK,contextualDepth=high
+/best/heart-rate-monitors-hyrox,best,hyrox,READY,yes,no,LAUNCH_READY,OK,contextualDepth=high
+/best/running-hydration-vests,best,running,READY,yes,yes,LAUNCH_READY,OK,contextualDepth=high
+/best/running-belts,best,running,READY,yes,yes,LAUNCH_READY,OK,contextualDepth=high
+/best/running-packs,best,running,READY,yes,yes,LAUNCH_READY,OK,contextualDepth=high
+/best/hydration-vests-trail,best,running,READY,yes,yes,LAUNCH_READY,OK,contextualDepth=high
+/best/hydration-vests-ultra,best,running,READY,yes,yes,LAUNCH_READY,OK,contextualDepth=high
+/best/handheld-running-bottles,best,running,READY,yes,yes,LAUNCH_READY,OK,contextualDepth=high
+/best/hydration-marathon-training,best,running,READY,yes,yes,LAUNCH_READY,OK,contextualDepth=high
+/best/running-headphones,best,running,READY,yes,yes,LAUNCH_READY,OK,contextualDepth=high
+/best/running-socks,best,running,READY,yes,yes,LAUNCH_READY,OK,contextualDepth=high
+/best/running-shorts,best,running,READY,yes,yes,LAUNCH_READY,OK,contextualDepth=high
+/best/running-jackets,best,running,READY,yes,yes,LAUNCH_READY,OK,contextualDepth=high
+/best/running-rain-jackets,best,running,READY,yes,yes,LAUNCH_READY,OK,contextualDepth=high
+/best/running-tights,best,running,READY,yes,yes,LAUNCH_READY,OK,contextualDepth=high
+/best/running-gear-winter,best,running,READY,yes,yes,LAUNCH_READY,OK,contextualDepth=high
+/best/running-clothing-hot-weather,best,running,READY,yes,yes,LAUNCH_READY,OK,contextualDepth=high
+/best/running-headlamps,best,running,READY,yes,yes,LAUNCH_READY,OK,contextualDepth=high
+/best/running-sunglasses,best,running,READY,yes,yes,LAUNCH_READY,OK,contextualDepth=high
+/best/running-safety-visibility,best,running,READY,yes,yes,LAUNCH_READY,OK,contextualDepth=high
+/best/running-race-fuel,best,running,READY,yes,yes,LAUNCH_READY,OK,contextualDepth=high
+/best/running-recovery-gear,best,running,READY,yes,yes,LAUNCH_READY,OK,contextualDepth=high
+/best/running-anti-chafe,best,running,READY,yes,yes,LAUNCH_READY,OK,contextualDepth=high
+/best/padel-rackets,best,padel,READY,yes,no,LAUNCH_READY,OK,contextualDepth=high
+/best/tennis-rackets,best,tennis,READY,yes,no,LAUNCH_READY,OK,contextualDepth=high
+/best/adjustable-dumbbells,best,fitness,READY,yes,no,LAUNCH_READY,OK,contextualDepth=high
+/best/power-racks,best,fitness,READY,yes,no,LAUNCH_READY,OK,contextualDepth=high
+/best/training-shoes,best,fitness,READY,yes,no,LAUNCH_READY,OK,contextualDepth=high
+/best/hyrox-shoes,best,hyrox,READY,yes,no,LAUNCH_READY,OK,contextualDepth=high
+/best/rowing-machines,best,fitness,READY,yes,no,LAUNCH_READY,OK,contextualDepth=high
+/best/pull-up-bars,best,calisthenics,READY,yes,no,LAUNCH_READY,OK,contextualDepth=high
+/best/home-gym-equipment,best,fitness,READY,yes,no,LAUNCH_READY,OK,contextualDepth=high
+/best/adjustable-benches,best,fitness,READY,yes,no,LAUNCH_READY,OK,contextualDepth=high
+/best/air-bikes,best,fitness,READY,yes,no,LAUNCH_READY,OK,contextualDepth=high
+/best/treadmills-for-home,best,fitness,READY,yes,no,LAUNCH_READY,OK,contextualDepth=high
+/best/weight-plates,best,fitness,READY,yes,no,LAUNCH_READY,OK,contextualDepth=high
+/guides/how-to-choose-running-shoes,guide,running,READY,yes,yes,complete,OK,decision=high
+/guides/running-shoe-drop,guide,running,READY,yes,yes,complete,OK,decision=high
+/guides/running-shoe-cushioning,guide,running,READY,yes,yes,complete,OK,decision=high
+/guides/stability-shoes-explained,guide,running,READY,yes,yes,complete,OK,decision=high
+/guides/carbon-vs-nylon-plates,guide,running,READY,yes,yes,complete,OK,decision=high
+/guides/what-is-a-daily-trainer,guide,running,READY,yes,yes,complete,OK,decision=high
+/guides/running-shoe-rotation,guide,running,READY,yes,yes,complete,OK,decision=high
+/guides/running-shoe-terminology,guide,running,READY,yes,yes,complete,OK,decision=high
+/guides/road-vs-trail-running-shoes,guide,running,READY,yes,yes,complete,OK,decision=high
+/guides/how-to-choose-running-watch,guide,running,READY,yes,yes,complete,OK,decision=high
+/guides/multi-band-gps-running-watches,guide,running,READY,yes,yes,complete,OK,decision=high
+/guides/how-to-choose-heart-rate-monitor,guide,running,READY,yes,yes,complete,OK,decision=high
+/guides/how-to-choose-running-hydration-vest,guide,running,READY,yes,yes,complete,OK,decision=high
+/guides/hydration-vest-vs-running-belt,guide,running,READY,yes,yes,complete,OK,decision=high
+/guides/how-to-choose-running-headlamp,guide,running,READY,yes,yes,complete,OK,decision=high
+/guides/open-ear-vs-in-ear-running-headphones,guide,running,READY,yes,yes,complete,OK,decision=high
+/guides/running-gels-explained,guide,running,READY,yes,yes,complete,OK,decision=high
+/guides/how-to-carry-fuel-on-long-runs,guide,running,READY,yes,yes,complete,OK,decision=high
+/guides/gel-vs-drink-mix-vs-chews,guide,running,READY,yes,yes,complete,OK,decision=high
+/guides/caffeine-in-running-fuel-explained,guide,running,READY,yes,yes,complete,OK,decision=high
+/guides/massage-guns-explained,guide,running,READY,yes,yes,complete,OK,decision=high
+/guides/foam-rolling-for-runners,guide,running,READY,yes,yes,complete,OK,decision=high
+/guides/recovery-tools-what-evidence-shows,guide,running,READY,yes,yes,complete,OK,decision=high
+/guides/optical-wrist-hr-vs-chest-strap,guide,running,READY,yes,yes,complete,OK,decision=high
+/guides/running-watch-battery-life-explained,guide,running,READY,yes,yes,complete,OK,decision=high
+/guides/maps-navigation-running-watches,guide,running,READY,yes,yes,complete,OK,decision=high
+/guides/beginner-vs-advanced-running-watch,guide,running,READY,yes,yes,complete,OK,decision=high
+/guides/soft-flasks-vs-bladders-explained,guide,running,READY,yes,yes,complete,OK,decision=high
+/guides/how-to-choose-running-belt,guide,running,READY,yes,yes,complete,OK,decision=high
+/guides/handheld-bottles-for-running,guide,running,READY,yes,yes,complete,OK,decision=high
+/guides/hydration-for-marathon-training,guide,running,READY,yes,yes,complete,OK,decision=high
+/guides/how-to-choose-running-socks,guide,running,READY,yes,yes,complete,OK,decision=high
+/guides/running-jackets-explained,guide,running,READY,yes,yes,complete,OK,decision=high
+/guides/hot-weather-running-apparel,guide,running,READY,yes,yes,complete,OK,decision=high
+/guides/winter-layering-for-runners,guide,running,READY,yes,yes,complete,OK,decision=high
+/guides/shoe-jobs-by-session-type,guide,running,READY,yes,yes,complete,OK,decision=high
+/guides/first-marathon-gear-checklist,guide,running,READY,yes,yes,complete,OK,decision=high
+/guides/trail-race-kit-essentials,guide,running,READY,yes,yes,complete,OK,decision=high
+/guides/beginner-running-gear-stack,guide,running,READY,yes,yes,complete,OK,decision=high
+/guides/when-to-use-a-massage-gun,guide,running,READY,yes,yes,complete,OK,decision=high
+/guides/recovery-sandals-for-runners,guide,running,READY,yes,yes,complete,OK,decision=high
+/guides/anti-chafe-for-runners,guide,running,READY,yes,yes,complete,OK,decision=high
+/guides/how-to-choose-a-padel-racket,guide,padel,READY,yes,no,complete,OK,decision=high
+/guides/how-to-choose-padel-shoes,guide,padel,READY,yes,no,complete,OK,decision=high
+/guides/padel-grips-overgrips-explained,guide,padel,READY,yes,no,complete,OK,decision=high
+/guides/how-to-choose-a-tennis-racket,guide,tennis,READY,yes,no,complete,OK,decision=high
+/guides/how-to-build-a-home-gym,guide,fitness,READY,yes,no,complete,OK,decision=high
+/guides/how-to-choose-training-shoes,guide,fitness,READY,yes,no,complete,OK,decision=high
+/guides/adjustable-vs-fixed-dumbbells,guide,fitness,READY,yes,no,complete,OK,decision=high
+/guides/hyrox-home-training-setup,guide,hyrox,READY,yes,no,complete,OK,decision=high
+/guides/pull-up-bar-mounting-guide,guide,calisthenics,READY,yes,no,complete,OK,decision=high
+/guides/power-rack-sizing-and-hole-spacing,guide,fitness,READY,yes,no,complete,OK,decision=high
+/guides/how-to-choose-a-power-rack,guide,fitness,READY,yes,no,complete,OK,decision=high
+/guides/how-to-choose-a-weight-bench,guide,fitness,READY,yes,no,complete,OK,decision=high
+/guides/how-to-choose-adjustable-dumbbells,guide,fitness,READY,yes,no,complete,OK,decision=high
+/guides/how-to-choose-a-home-treadmill,guide,fitness,READY,yes,no,complete,OK,decision=high
+/guides/how-to-choose-a-rowing-machine,guide,fitness,READY,yes,no,complete,OK,decision=high
+/guides/how-much-space-do-you-need-for-a-home-gym,guide,fitness,READY,yes,no,complete,OK,decision=high
+/guides/bumper-plates-vs-iron-plates,guide,fitness,READY,yes,no,complete,OK,decision=high
+/guides/how-to-choose-hyrox-shoes,guide,hyrox,READY,yes,no,complete,OK,decision=high
+/guides/hyrox-race-shoes-vs-training-shoes,guide,hyrox,READY,yes,no,complete,OK,decision=high
+/guides/rowerg-vs-skierg-for-hyrox-training,guide,hyrox,READY,yes,no,complete,OK,decision=high
+/guides/how-to-choose-a-hyrox-training-sled,guide,hyrox,READY,yes,no,complete,OK,decision=high
+/guides/hyrox-equipment-standards,guide,hyrox,READY,yes,no,complete,OK,decision=high
+/guides/hyrox-race-day-gear-checklist,guide,hyrox,READY,yes,no,complete,OK,decision=high
+/guides/hyrox-heart-rate-monitor,guide,hyrox,READY,yes,no,complete,OK,decision=high
+/guides/what-gear-do-you-need-for-hyrox,guide,hyrox,READY,yes,no,complete,OK,decision=high
+/guides/how-to-build-a-hyrox-home-gym,guide,hyrox,READY,yes,no,complete,OK,decision=high
+/guides/how-to-choose-a-hyrox-watch,guide,hyrox,READY,yes,no,complete,OK,decision=high
+/compare/asics-novablast-6-vs-asics-gel-nimbus-27,comparison,running,READY,yes,yes,MEANINGFUL,OK,
+/compare/asics-novablast-6-vs-asics-novablast-5,comparison,running,READY,yes,yes,MEANINGFUL,OK,
+/compare/asics-novablast-6-vs-brooks-ghost-18,comparison,running,READY,yes,yes,MEANINGFUL,OK,
+/compare/brooks-ghost-18-vs-nike-pegasus-42,comparison,running,READY,yes,yes,MEANINGFUL,OK,
+/compare/asics-novablast-6-vs-hoka-clifton-10,comparison,running,READY,yes,yes,MEANINGFUL,OK,
+/compare/saucony-endorphin-speed-5-vs-adidas-adizero-boston-12,comparison,running,READY,yes,yes,MEANINGFUL,OK,
+/compare/nike-vaporfly-4-vs-nike-alphafly-3,comparison,running,READY,yes,yes,MEANINGFUL,OK,
+/compare/asics-gel-kayano-32-vs-brooks-adrenaline-gts-25,comparison,running,READY,yes,yes,MEANINGFUL,OK,
+/compare/hoka-speedgoat-6-vs-saucony-peregrine-15,comparison,running,READY,yes,yes,MEANINGFUL,OK,
+/compare/garmin-forerunner-970-vs-coros-pace-pro,comparison,running,READY,yes,yes,MEANINGFUL,OK,
+/compare/garmin-forerunner-970-vs-garmin-forerunner-965,comparison,running,READY,yes,yes,MEANINGFUL,OK,
+/compare/garmin-hrm-pro-plus-vs-polar-h10,comparison,running,READY,yes,yes,MEANINGFUL,OK,
+/compare/salomon-adv-skin-12-vs-nathan-vaporair-2,comparison,running,READY,yes,yes,MEANINGFUL,OK,
+/compare/garmin-fenix-8-vs-garmin-forerunner-970,comparison,running,READY,yes,yes,MEANINGFUL,OK,
+/compare/coros-apex-4-vs-garmin-fenix-8,comparison,running,READY,yes,yes,MEANINGFUL,OK,
+/compare/coros-pace-4-vs-garmin-forerunner-165,comparison,running,READY,yes,yes,MEANINGFUL,OK,
+/compare/apple-watch-ultra-3-vs-apple-watch-ultra-2,comparison,running,READY,yes,yes,MEANINGFUL,OK,
+/compare/polar-grit-x2-vs-garmin-fenix-8,comparison,running,READY,yes,yes,MEANINGFUL,OK,
+/compare/suunto-vertical-2-vs-garmin-enduro-3,comparison,running,READY,yes,yes,MEANINGFUL,OK,
+/compare/coros-pace-pro-vs-coros-pace-4,comparison,running,READY,yes,yes,MEANINGFUL,OK,
+/compare/garmin-vivoactive-6-vs-garmin-forerunner-165,comparison,running,READY,yes,yes,MEANINGFUL,OK,
+/compare/garmin-hrm-600-vs-polar-h10,comparison,running,READY,yes,yes,MEANINGFUL,OK,
+/compare/polar-h10-vs-polar-h9,comparison,running,READY,yes,yes,MEANINGFUL,OK,
+/compare/wahoo-trackr-vs-polar-h10,comparison,running,READY,yes,yes,MEANINGFUL,OK,
+/compare/coros-hrm-vs-polar-verity-sense,comparison,running,READY,yes,yes,MEANINGFUL,OK,
+/compare/garmin-hrm-600-vs-hrm-pro-plus,comparison,running,READY,yes,yes,MEANINGFUL,OK,
+/compare/salomon-adv-skin-12-vs-salomon-adv-skin-5,comparison,running,READY,yes,yes,MEANINGFUL,OK,
+/compare/salomon-adv-skin-12-vs-ultimate-direction-race-vest-6,comparison,running,READY,yes,yes,MEANINGFUL,OK,
+/compare/nathan-vaporair-4-vs-salomon-adv-skin-5,comparison,running,READY,yes,yes,MEANINGFUL,OK,
+/compare/osprey-duro-6-vs-osprey-dyna-6,comparison,running,READY,yes,yes,MEANINGFUL,OK,
+/compare/osprey-duro-lt-vs-ultimate-direction-race-vest-6,comparison,running,READY,yes,yes,MEANINGFUL,OK,
+/compare/flipbelt-classic-vs-naked-running-band,comparison,running,READY,yes,yes,MEANINGFUL,OK,
+/compare/hydrapak-softflask-speed-500-vs-hydrapak-skyflask-speed-500,comparison,running,READY,yes,yes,MEANINGFUL,OK,
+/compare/nathan-peak-vs-ultimate-direction-race-belt,comparison,running,READY,yes,yes,MEANINGFUL,OK,
+/compare/camelbak-zephyr-pro-vs-camelbak-apex-pro,comparison,running,READY,yes,yes,MEANINGFUL,OK,
+/compare/tracksmith-session-short-vs-janji-multi-short,comparison,running,READY,yes,yes,MEANINGFUL,OK,
+/compare/patagonia-strider-pro-vs-rabbit-fuel-n-fly,comparison,running,READY,yes,yes,MEANINGFUL,OK,
+/compare/patagonia-houdini-vs-brooks-canopy,comparison,running,READY,yes,yes,MEANINGFUL,OK,
+/compare/salomon-bonatti-vs-janji-rainrunner,comparison,running,READY,yes,yes,MEANINGFUL,OK,
+/compare/tracksmith-twilight-half-vs-nike-fast-tight,comparison,running,READY,yes,yes,MEANINGFUL,OK,
+/compare/nike-miler-vs-patagonia-capilene-cool,comparison,running,READY,yes,yes,MEANINGFUL,OK,
+/compare/feetures-elite-vs-darn-tough-run,comparison,running,READY,yes,yes,MEANINGFUL,OK,
+/compare/ultimate-direction-fastpack-20-vs-salomon-adv-skin-12,comparison,running,READY,yes,yes,MEANINGFUL,OK,
+/compare/ultimate-direction-fastpack-20-vs-osprey-talon-velocity-20,comparison,running,READY,yes,yes,MEANINGFUL,OK,
+/compare/black-diamond-distance-22-vs-ultimate-direction-fastpack-20,comparison,running,READY,yes,yes,MEANINGFUL,OK,
+/compare/salomon-xa-15-vs-osprey-duro-15,comparison,running,READY,yes,yes,MEANINGFUL,OK,
+/compare/shokz-openrun-pro-2-vs-bose-ultra-open,comparison,running,READY,yes,yes,MEANINGFUL,OK,
+/compare/shokz-openrun-pro-2-vs-airpods-pro-2,comparison,running,READY,yes,yes,MEANINGFUL,OK,
+/compare/oakley-encoder-vs-oakley-radar-ev-path,comparison,running,READY,yes,yes,MEANINGFUL,OK,
+/compare/julbo-ultimate-vs-smith-shift-mag,comparison,running,READY,yes,yes,MEANINGFUL,OK,
+/compare/petzl-swift-rl-vs-petzl-nao-rl,comparison,running,READY,yes,yes,MEANINGFUL,OK,
+/compare/petzl-swift-rl-vs-biolite-headlamp-800,comparison,running,READY,yes,yes,MEANINGFUL,OK,
+/compare/black-diamond-spot-400-r-vs-petzl-actik-core,comparison,running,READY,yes,yes,MEANINGFUL,OK,
+/compare/nathan-streak-vs-proviz-reflect360,comparison,running,READY,yes,yes,MEANINGFUL,OK,
+/compare/maurten-gel-100-vs-sis-go-isotonic-gel,comparison,running,READY,yes,yes,MEANINGFUL,OK,
+/compare/maurten-gel-100-vs-precision-pf30-gel,comparison,running,READY,yes,yes,MEANINGFUL,OK,
+/compare/maurten-drink-mix-320-vs-tailwind-endurance,comparison,running,READY,yes,yes,MEANINGFUL,OK,
+/compare/sis-beta-fuel-gel-vs-neversecond-c30-gel,comparison,running,READY,yes,yes,MEANINGFUL,OK,
+/compare/clif-bloks-vs-gu-chews,comparison,running,READY,yes,yes,MEANINGFUL,OK,
+/compare/nuun-sport-vs-precision-ph1500,comparison,running,READY,yes,yes,MEANINGFUL,OK,
+/compare/theragun-mini-vs-hypervolt-go-2,comparison,running,READY,yes,yes,MEANINGFUL,OK,
+/compare/normatec-3-vs-normatec-go,comparison,running,READY,yes,yes,MEANINGFUL,OK,
+/compare/asics-novablast-5-vs-asics-gel-nimbus-27,comparison,running,READY,yes,yes,MEANINGFUL,OK,
+/compare/asics-novablast-5-vs-brooks-ghost-16,comparison,running,READY,yes,yes,MEANINGFUL,OK,
+/compare/asics-novablast-4-vs-asics-novablast-5,comparison,running,READY,yes,yes,MEANINGFUL,OK,
+/compare/nox-at10-genius-18k-2026-vs-bullpadel-vertex-04-2026,comparison,padel,READY,yes,no,MEANINGFUL,OK,
+/compare/babolat-technical-viper-2026-vs-wilson-bela-pro-v2-2026,comparison,padel,READY,yes,no,MEANINGFUL,OK,
+/compare/head-coello-pro-2026-vs-siux-diablo-revolution-2026,comparison,padel,READY,yes,no,MEANINGFUL,OK,
+/compare/nox-at10-genius-18k-2026-vs-babolat-technical-viper-2026,comparison,padel,READY,yes,no,MEANINGFUL,OK,
+/compare/bullpadel-vertex-05-vs-hack-04-2026,comparison,padel,READY,yes,no,MEANINGFUL,OK,
+/compare/nox-at10-12k-vs-adidas-metalbone-2026,comparison,padel,READY,yes,no,MEANINGFUL,OK,
+/compare/bullpadel-vertex-05-vs-nox-at10-12k-2026,comparison,padel,READY,yes,no,MEANINGFUL,OK,
+/compare/babolat-pure-drive-2025-vs-wilson-clash-100-v2,comparison,tennis,READY,yes,no,MEANINGFUL,OK,
+/compare/wilson-blade-98-v8-vs-yonex-ezone-98-2024,comparison,tennis,READY,yes,no,MEANINGFUL,OK,
+/compare/wilson-blade-98-v9-vs-babolat-pure-drive-gen11,comparison,tennis,READY,yes,no,MEANINGFUL,OK,
+/compare/yonex-ezone-100-2025-vs-wilson-clash-100-v3,comparison,tennis,READY,yes,no,MEANINGFUL,OK,
+/compare/babolat-pure-aero-2026-vs-yonex-vcore-100-2023,comparison,tennis,READY,yes,no,MEANINGFUL,OK,
+/compare/nuobell-80-vs-powerblock-pro-100,comparison,fitness,READY,yes,no,MEANINGFUL,OK,
+/compare/rogue-rml-390f-vs-rep-pr-4000,comparison,fitness,READY,yes,no,MEANINGFUL,OK,
+/compare/nike-metcon-9-vs-reebok-nano-x4,comparison,fitness,READY,yes,no,MEANINGFUL,OK,
+/compare/nike-metcon-9-vs-adidas-dropset-3,comparison,fitness,READY,yes,no,MEANINGFUL,OK,
+/compare/reebok-nano-x4-vs-tyr-cxt-2,comparison,fitness,READY,yes,no,MEANINGFUL,OK,
+/compare/nobull-trainer-vs-nike-metcon-9,comparison,fitness,READY,yes,no,MEANINGFUL,OK,
+/compare/inov8-f-lite-235-v3-vs-reebok-nano-x4,comparison,fitness,READY,yes,no,MEANINGFUL,OK,
+/compare/nike-romaleos-5-vs-adidas-adipower-3,comparison,fitness,READY,yes,no,MEANINGFUL,NEEDS_DIFF,
+/compare/adidas-powerlift-5-vs-nike-romaleos-5,comparison,fitness,READY,yes,no,MEANINGFUL,NEEDS_DIFF,
+/compare/nike-free-metcon-6-vs-reebok-nano-x4,comparison,fitness,READY,yes,no,MEANINGFUL,OK,
+/compare/adidas-dropset-3-vs-adidas-the-total,comparison,fitness,READY,yes,no,MEANINGFUL,OK,
+/compare/puma-fuse-3-vs-ua-tribase-reign-6,comparison,fitness,READY,yes,no,MEANINGFUL,OK,
+/compare/tyr-cxt-1-vs-tyr-cxt-2,comparison,fitness,READY,yes,no,MEANINGFUL,OK,
+/compare/concept2-rowerg-vs-mirafit-magnetic-rower,comparison,fitness,READY,yes,no,MEANINGFUL,OK,
+/compare/rogue-echo-bike-vs-assaultbike-elite,comparison,fitness,READY,yes,no,MEANINGFUL,OK,
+/compare/sole-f80-vs-horizon-t202,comparison,fitness,READY,yes,no,MEANINGFUL,OK,
+/compare/concept2-rowerg-vs-hydrow-wave,comparison,fitness,READY,yes,no,MEANINGFUL,OK,
+/products/asics-novablast-5/alternatives,alternatives,running,READY,yes,yes,substantive,OK,
+/products/asics-novablast-4/alternatives,alternatives,running,NEEDS_RELATIONSHIP_FIX,no,no,thin,OK,need ≥2 distinct alternative types
+/products/asics-gel-nimbus-27/alternatives,alternatives,running,READY,yes,yes,substantive,OK,
+/products/nike-pegasus-41/alternatives,alternatives,running,READY,yes,yes,substantive,OK,
+/products/brooks-ghost-16/alternatives,alternatives,running,READY,yes,yes,substantive,OK,
+/products/hoka-clifton-9/alternatives,alternatives,running,NEEDS_RELATIONSHIP_FIX,no,no,thin,OK,need ≥2 distinct alternative types
+/products/saucony-endorphin-speed-4/alternatives,alternatives,running,READY,yes,yes,substantive,OK,
+/products/new-balance-fuelcell-rebel-v4/alternatives,alternatives,running,NEEDS_RELATIONSHIP_FIX,no,no,thin,OK,need ≥3 alternatives (have 2)|need meaningful unique reasons on ≥3 alts
+/products/adidas-adizero-boston-12/alternatives,alternatives,running,READY,yes,yes,substantive,OK,
+/products/garmin-forerunner-965/alternatives,alternatives,running,READY,yes,yes,substantive,OK,
+/products/garmin-forerunner-255/alternatives,alternatives,running,NEEDS_RELATIONSHIP_FIX,no,no,thin,OK,need ≥3 alternatives (have 2)|need ≥2 distinct alternative types
+/products/coros-pace-3/alternatives,alternatives,running,READY,yes,yes,substantive,OK,
+/products/garmin-hrm-pro-plus/alternatives,alternatives,running,READY,yes,yes,substantive,OK,
+/products/salomon-adv-skin-12/alternatives,alternatives,running,READY,yes,no,substantive,OK,
+/products/asics-novablast-6/alternatives,alternatives,running,READY,yes,yes,substantive,OK,
+/products/asics-superblast-2/alternatives,alternatives,running,READY,yes,yes,substantive,OK,
+/products/asics-gel-kayano-32/alternatives,alternatives,running,READY,yes,yes,substantive,OK,
+/products/asics-gel-cumulus-27/alternatives,alternatives,running,READY,yes,yes,substantive,OK,
+/products/asics-metaspeed-sky-paris/alternatives,alternatives,running,READY,yes,yes,substantive,OK,
+/products/asics-gt-2000-14/alternatives,alternatives,running,READY,yes,yes,substantive,OK,
+/products/nike-pegasus-42/alternatives,alternatives,running,READY,yes,yes,substantive,OK,
+/products/nike-vomero-18/alternatives,alternatives,running,READY,yes,yes,substantive,OK,
+/products/nike-invincible-3/alternatives,alternatives,running,NEEDS_RELATIONSHIP_FIX,no,no,thin,OK,need ≥3 alternatives (have 2)|need ≥2 distinct alternative types
+/products/nike-vaporfly-4/alternatives,alternatives,running,READY,yes,yes,substantive,OK,
+/products/nike-alphafly-3/alternatives,alternatives,running,READY,yes,yes,substantive,OK,
+/products/nike-structure-26/alternatives,alternatives,running,NEEDS_RELATIONSHIP_FIX,no,no,thin,OK,need ≥3 alternatives (have 2)|need meaningful unique reasons on ≥3 alts
+/products/nike-structure-plus/alternatives,alternatives,running,NEEDS_RELATIONSHIP_FIX,no,no,thin,OK,need ≥3 alternatives (have 2)|need meaningful unique reasons on ≥3 alts
+/products/brooks-ghost-18/alternatives,alternatives,running,READY,yes,yes,substantive,OK,
+/products/brooks-glycerin-22/alternatives,alternatives,running,READY,yes,yes,substantive,OK,
+/products/brooks-glycerin-21/alternatives,alternatives,running,NEEDS_RELATIONSHIP_FIX,no,no,thin,OK,need ≥3 alternatives (have 1)|need ≥2 distinct alternative types
+/products/brooks-adrenaline-gts-25/alternatives,alternatives,running,READY,yes,yes,substantive,OK,
+/products/brooks-hyperion-max-2/alternatives,alternatives,running,READY,yes,yes,substantive,OK,
+/products/hoka-clifton-10/alternatives,alternatives,running,READY,yes,yes,substantive,OK,
+/products/hoka-bondi-9/alternatives,alternatives,running,READY,yes,yes,substantive,OK,
+/products/hoka-bondi-8/alternatives,alternatives,running,NEEDS_RELATIONSHIP_FIX,no,no,thin,OK,need ≥3 alternatives (have 1)|need ≥2 distinct alternative types
+/products/hoka-mach-6/alternatives,alternatives,running,READY,yes,yes,substantive,OK,
+/products/hoka-speedgoat-6/alternatives,alternatives,running,READY,yes,yes,substantive,OK,
+/products/hoka-clifton-pro/alternatives,alternatives,running,NEEDS_RELATIONSHIP_FIX,no,no,thin,OK,need ≥3 alternatives (have 2)|need ≥2 distinct alternative types
+/products/saucony-endorphin-speed-5/alternatives,alternatives,running,READY,yes,yes,substantive,OK,
+/products/saucony-endorphin-pro-4/alternatives,alternatives,running,READY,yes,yes,substantive,OK,
+/products/saucony-endorphin-pro-3/alternatives,alternatives,running,READY,yes,yes,substantive,OK,
+/products/saucony-ride-18/alternatives,alternatives,running,READY,yes,yes,substantive,OK,
+/products/saucony-triumph-22/alternatives,alternatives,running,READY,yes,yes,substantive,OK,
+/products/saucony-peregrine-15/alternatives,alternatives,running,READY,yes,yes,substantive,OK,
+/products/new-balance-fresh-foam-x-1080-v14/alternatives,alternatives,running,READY,yes,yes,substantive,OK,
+/products/new-balance-fresh-foam-x-1080-v13/alternatives,alternatives,running,NEEDS_RELATIONSHIP_FIX,no,no,thin,OK,need ≥3 alternatives (have 1)|need ≥2 distinct alternative types
+/products/new-balance-fuelcell-supercomp-elite-v4/alternatives,alternatives,running,NEEDS_RELATIONSHIP_FIX,no,no,thin,OK,need ≥2 distinct alternative types
+/products/new-balance-fuelcell-rebel-v5/alternatives,alternatives,running,NEEDS_RELATIONSHIP_FIX,no,no,thin,OK,need ≥3 alternatives (have 2)|need meaningful unique reasons on ≥3 alts
+/products/new-balance-fuelcell-supercomp-trainer-v3/alternatives,alternatives,running,NEEDS_RELATIONSHIP_FIX,no,no,thin,OK,need ≥3 alternatives (have 2)|need ≥2 distinct alternative types
+/products/adidas-adizero-evo-sl/alternatives,alternatives,running,NEEDS_RELATIONSHIP_FIX,no,no,thin,OK,need ≥2 distinct alternative types
+/products/adidas-adizero-adios-pro-4/alternatives,alternatives,running,READY,yes,yes,substantive,OK,
+/products/on-cloudmonster-2/alternatives,alternatives,running,READY,yes,yes,substantive,OK,
+/products/on-cloudsurfer-next/alternatives,alternatives,running,NEEDS_RELATIONSHIP_FIX,no,no,thin,OK,need ≥3 alternatives (have 2)|need meaningful unique reasons on ≥3 alts
+/products/altra-torin-8/alternatives,alternatives,running,NEEDS_RELATIONSHIP_FIX,no,no,thin,OK,need ≥2 distinct alternative types
+/products/altra-escalante-4/alternatives,alternatives,running,NEEDS_RELATIONSHIP_FIX,no,no,thin,OK,need ≥3 alternatives (have 2)|need ≥2 distinct alternative types
+/products/altra-lone-peak-8/alternatives,alternatives,running,READY,yes,yes,substantive,OK,
+/products/salomon-aero-glide-2/alternatives,alternatives,running,READY,yes,yes,substantive,OK,
+/products/salomon-sense-ride-5/alternatives,alternatives,running,READY,yes,yes,substantive,OK,
+/products/salomon-pulsar-trail-2/alternatives,alternatives,running,NEEDS_RELATIONSHIP_FIX,no,no,thin,OK,need ≥3 alternatives (have 2)|need meaningful unique reasons on ≥3 alts
+/products/topo-athletic-specter-2/alternatives,alternatives,running,NEEDS_RELATIONSHIP_FIX,no,no,thin,OK,need ≥3 alternatives (have 2)|need meaningful unique reasons on ≥3 alts
+/products/topo-athletic-phantom-3/alternatives,alternatives,running,NEEDS_RELATIONSHIP_FIX,no,no,thin,OK,need ≥2 distinct alternative types
+/products/puma-deviate-nitro-3/alternatives,alternatives,running,NEEDS_RELATIONSHIP_FIX,no,no,thin,OK,need ≥3 alternatives (have 2)|need ≥2 distinct alternative types
+/products/puma-magnify-nitro-2/alternatives,alternatives,running,NEEDS_RELATIONSHIP_FIX,no,no,thin,OK,need ≥2 distinct alternative types
+/products/mizuno-wave-rider-28/alternatives,alternatives,running,READY,yes,yes,substantive,OK,
+/products/mizuno-wave-rebellion-pro-3/alternatives,alternatives,running,NEEDS_RELATIONSHIP_FIX,no,no,thin,OK,need ≥2 distinct alternative types
+/products/inov8-trailfly-ultra-g-300-max/alternatives,alternatives,running,NEEDS_RELATIONSHIP_FIX,no,no,thin,OK,need ≥3 alternatives (have 2)|need ≥2 distinct alternative types
+/products/brooks-cascadia-18/alternatives,alternatives,running,READY,yes,yes,substantive,OK,
+/products/nike-pegasus-trail-5/alternatives,alternatives,running,READY,yes,yes,substantive,OK,
+/products/asics-gel-trabuco-13/alternatives,alternatives,running,READY,yes,yes,substantive,OK,
+/products/saucony-xodus-ultra-3/alternatives,alternatives,running,NEEDS_RELATIONSHIP_FIX,no,no,thin,OK,need ≥3 alternatives (have 2)|need ≥2 distinct alternative types
+/products/new-balance-fresh-foam-x-hierro-v9/alternatives,alternatives,running,READY,yes,yes,substantive,OK,
+/products/adidas-terrex-agravic-3/alternatives,alternatives,running,READY,yes,yes,substantive,OK,
+/products/salomon-ultra-glide-2/alternatives,alternatives,running,READY,yes,yes,substantive,OK,
+/products/topo-athletic-terraventure-5/alternatives,alternatives,running,READY,yes,yes,substantive,OK,
+/products/saucony-guide-18/alternatives,alternatives,running,READY,yes,yes,substantive,OK,
+/products/hoka-arahi-7/alternatives,alternatives,running,READY,yes,yes,substantive,OK,
+/products/hoka-gaviota-5/alternatives,alternatives,running,NEEDS_RELATIONSHIP_FIX,no,no,thin,OK,need ≥2 distinct alternative types
+/products/new-balance-fresh-foam-x-860-v14/alternatives,alternatives,running,READY,yes,yes,substantive,OK,
+/products/asics-gt-1000-13/alternatives,alternatives,running,NEEDS_RELATIONSHIP_FIX,no,no,thin,OK,need ≥3 alternatives (have 2)|need ≥2 distinct alternative types
+/products/brooks-glycerin-gts-22/alternatives,alternatives,running,NEEDS_RELATIONSHIP_FIX,no,no,thin,OK,need ≥3 alternatives (have 2)|need ≥2 distinct alternative types
+/products/nike-react-infinity-run-4/alternatives,alternatives,running,NEEDS_RELATIONSHIP_FIX,no,no,thin,OK,need ≥3 alternatives (have 2)|need ≥2 distinct alternative types
+/products/altra-paradigm-7/alternatives,alternatives,running,READY,yes,yes,substantive,OK,
+/products/altra-experience-flow/alternatives,alternatives,running,READY,yes,yes,substantive,OK,
+/products/adidas-adizero-boston-13/alternatives,alternatives,running,READY,yes,yes,substantive,OK,
+/products/adidas-ultraboost-5/alternatives,alternatives,running,READY,yes,yes,substantive,OK,
+/products/on-cloudsurfer-2/alternatives,alternatives,running,READY,yes,yes,substantive,OK,
+/products/on-cloudmonster-hyper/alternatives,alternatives,running,READY,yes,yes,substantive,OK,
+/products/salomon-genesis/alternatives,alternatives,running,READY,yes,yes,substantive,OK,
+/products/garmin-forerunner-970/alternatives,alternatives,running,READY,yes,yes,substantive,OK,
+/products/garmin-forerunner-570/alternatives,alternatives,running,READY,yes,yes,substantive,OK,
+/products/garmin-forerunner-265/alternatives,alternatives,running,NEEDS_RELATIONSHIP_FIX,no,no,thin,OK,need ≥2 distinct alternative types
+/products/garmin-forerunner-165/alternatives,alternatives,running,READY,yes,yes,substantive,OK,
+/products/garmin-forerunner-55/alternatives,alternatives,running,NEEDS_RELATIONSHIP_FIX,no,no,thin,OK,need ≥3 alternatives (have 1)|need ≥2 distinct alternative types
+/products/coros-pace-pro/alternatives,alternatives,running,READY,yes,yes,substantive,OK,
+/products/coros-apex-2-pro/alternatives,alternatives,running,NEEDS_RELATIONSHIP_FIX,no,no,thin,OK,need ≥3 alternatives (have 2)|need meaningful unique reasons on ≥3 alts
+/products/polar-vantage-v3/alternatives,alternatives,running,READY,yes,yes,substantive,OK,
+/products/polar-pacer-pro/alternatives,alternatives,running,NEEDS_RELATIONSHIP_FIX,no,no,thin,OK,need ≥2 distinct alternative types
+/products/suunto-race/alternatives,alternatives,running,READY,yes,yes,substantive,OK,
+/products/suunto-race-s/alternatives,alternatives,running,NEEDS_RELATIONSHIP_FIX,no,no,thin,OK,need ≥3 alternatives (have 2)|need ≥2 distinct alternative types
+/products/apple-watch-ultra-2/alternatives,alternatives,running,NEEDS_RELATIONSHIP_FIX,no,no,thin,OK,need ≥3 alternatives (have 2)|need ≥2 distinct alternative types
+/products/garmin-hrm-600/alternatives,alternatives,running,READY,yes,yes,substantive,OK,
+/products/polar-h10/alternatives,alternatives,running,READY,yes,yes,substantive,OK,
+/products/polar-verity-sense/alternatives,alternatives,running,READY,yes,yes,substantive,OK,
+/products/wahoo-tickr/alternatives,alternatives,running,NEEDS_RELATIONSHIP_FIX,no,no,thin,OK,need ≥2 distinct alternative types
+/products/wahoo-tickr-x/alternatives,alternatives,running,READY,yes,yes,substantive,OK,
+/products/coros-heart-rate-monitor/alternatives,alternatives,running,READY,yes,yes,substantive,OK,
+/products/garmin-fenix-8/alternatives,alternatives,running,READY,yes,yes,substantive,OK,
+/products/garmin-enduro-3/alternatives,alternatives,running,READY,yes,yes,substantive,OK,
+/products/garmin-instinct-3/alternatives,alternatives,running,READY,yes,yes,substantive,OK,
+/products/garmin-vivoactive-6/alternatives,alternatives,running,READY,yes,yes,substantive,OK,
+/products/garmin-forerunner-265s/alternatives,alternatives,running,READY,yes,yes,substantive,OK,
+/products/garmin-epix-pro-gen-2/alternatives,alternatives,running,READY,yes,yes,substantive,OK,
+/products/coros-apex-4/alternatives,alternatives,running,READY,yes,yes,substantive,OK,
+/products/coros-pace-4/alternatives,alternatives,running,READY,yes,yes,substantive,OK,
+/products/coros-vertix-2s/alternatives,alternatives,running,READY,yes,yes,substantive,OK,
+/products/suunto-vertical-2/alternatives,alternatives,running,READY,yes,yes,substantive,OK,
+/products/suunto-run/alternatives,alternatives,running,READY,yes,yes,substantive,OK,
+/products/polar-grit-x2/alternatives,alternatives,running,READY,yes,yes,substantive,OK,
+/products/polar-pacer/alternatives,alternatives,running,READY,yes,yes,substantive,OK,
+/products/apple-watch-ultra-3/alternatives,alternatives,running,READY,yes,yes,substantive,OK,
+/products/apple-watch-series-10/alternatives,alternatives,running,READY,yes,yes,substantive,OK,
+/products/samsung-galaxy-watch-ultra/alternatives,alternatives,running,READY,yes,yes,substantive,OK,
+/products/amazfit-t-rex-3-pro/alternatives,alternatives,running,READY,yes,yes,substantive,OK,
+/products/amazfit-active-2/alternatives,alternatives,running,READY,yes,yes,substantive,OK,
+/products/garmin-hrm-200/alternatives,alternatives,running,READY,yes,yes,substantive,OK,
+/products/garmin-hrm-fit/alternatives,alternatives,running,READY,yes,yes,substantive,OK,
+/products/polar-h9/alternatives,alternatives,running,READY,yes,yes,substantive,OK,
+/products/wahoo-trackr/alternatives,alternatives,running,READY,yes,yes,substantive,OK,
+/products/wahoo-tickr-fit/alternatives,alternatives,running,READY,yes,yes,substantive,OK,
+/products/scosche-rhythm-plus-2/alternatives,alternatives,running,NEEDS_RELATIONSHIP_FIX,no,no,thin,OK,need ≥2 distinct alternative types
+/products/scosche-rhythm24/alternatives,alternatives,running,NEEDS_RELATIONSHIP_FIX,no,no,thin,OK,need ≥2 distinct alternative types
+/products/suunto-smart-heart-rate-belt/alternatives,alternatives,running,READY,yes,yes,substantive,OK,
+/products/salomon-adv-skin-5/alternatives,alternatives,running,READY,yes,no,substantive,NEEDS_DIFF,
+/products/nathan-vaporair-4/alternatives,alternatives,running,READY,yes,no,substantive,NEEDS_DIFF,
+/products/nathan-pinnacle-12/alternatives,alternatives,running,READY,yes,no,substantive,OK,
+/products/ultimate-direction-race-vest-6/alternatives,alternatives,running,READY,yes,no,substantive,OK,
+/products/camelbak-zephyr-pro/alternatives,alternatives,running,READY,yes,no,substantive,OK,
+/products/camelbak-circuit-run-vest/alternatives,alternatives,running,READY,yes,no,substantive,OK,
+/products/camelbak-apex-pro/alternatives,alternatives,running,NEEDS_RELATIONSHIP_FIX,no,no,thin,OK,need ≥2 distinct alternative types
+/products/osprey-duro-lt/alternatives,alternatives,running,READY,yes,no,substantive,NEEDS_DIFF,
+/products/osprey-dyna-lt/alternatives,alternatives,running,NEEDS_RELATIONSHIP_FIX,no,no,thin,OK,need ≥2 distinct alternative types
+/products/osprey-duro-15/alternatives,alternatives,running,READY,yes,no,substantive,OK,
+/products/uswe-pace-8/alternatives,alternatives,running,READY,yes,no,substantive,NEEDS_DIFF,
+/products/ultraspire-alpha-6/alternatives,alternatives,running,READY,yes,no,substantive,OK,
+/products/ultraspire-spry-5/alternatives,alternatives,running,READY,yes,no,substantive,OK,
+/products/compressport-ultrun-s-pack/alternatives,alternatives,running,READY,yes,no,substantive,NEEDS_DIFF,
+/products/nnormal-race-vest/alternatives,alternatives,running,READY,yes,no,substantive,NEEDS_DIFF,
+/products/on-ultra-vest-pro/alternatives,alternatives,running,READY,yes,no,substantive,OK,
+/products/black-diamond-distance-8/alternatives,alternatives,running,READY,yes,no,substantive,OK,
+/products/nathan-peak-hydration-waist-pack/alternatives,alternatives,running,READY,yes,no,substantive,OK,
+/products/ultimate-direction-race-belt/alternatives,alternatives,running,READY,yes,no,substantive,OK,
+/products/ultimate-direction-ultra-belt/alternatives,alternatives,running,READY,yes,no,substantive,OK,
+/products/naked-running-band/alternatives,alternatives,running,READY,yes,no,substantive,OK,
+/products/ultraspire-fitted-race-belt-2/alternatives,alternatives,running,READY,yes,no,substantive,OK,
+/products/compressport-free-belt-pro/alternatives,alternatives,running,READY,yes,no,substantive,OK,
+/products/salomon-pulse-belt/alternatives,alternatives,running,READY,yes,no,substantive,OK,
+/products/hydrapak-softflask-speed-500/alternatives,alternatives,running,READY,yes,no,substantive,NEEDS_DIFF,
+/products/hydrapak-skyflask-speed-500/alternatives,alternatives,running,READY,yes,no,substantive,OK,
+/products/nathan-speeddraw-plus-insulated-18oz/alternatives,alternatives,running,READY,yes,no,substantive,OK,
+/products/camelbak-crux-15/alternatives,alternatives,running,READY,yes,no,substantive,OK,
+/products/osprey-hydraulics-lt-15/alternatives,alternatives,running,NEEDS_RELATIONSHIP_FIX,no,no,thin,OK,need ≥3 alternatives (have 1)|need ≥2 distinct alternative types
+/products/hydrapak-softflask-250/alternatives,alternatives,running,READY,yes,no,substantive,OK,
+/products/hydrapak-tube-kit/alternatives,alternatives,running,NEEDS_RELATIONSHIP_FIX,no,no,thin,OK,need ≥3 alternatives (have 1)|need ≥2 distinct alternative types
+/products/salomon-soft-flask-speed-500/alternatives,alternatives,running,NEEDS_RELATIONSHIP_FIX,no,no,thin,OK,need ≥2 distinct alternative types
+/products/ultimate-direction-body-bottle-500/alternatives,alternatives,running,NEEDS_RELATIONSHIP_FIX,no,no,thin,OK,need ≥2 distinct alternative types
+/products/nathan-softflask-18oz/alternatives,alternatives,running,NEEDS_RELATIONSHIP_FIX,no,no,thin,OK,need ≥2 distinct alternative types
+/products/amphipod-hydraform-ergo-lite-handheld/alternatives,alternatives,running,NEEDS_RELATIONSHIP_FIX,no,no,thin,OK,need ≥3 alternatives (have 2)|need meaningful unique reasons on ≥3 alts
+/products/camelbak-quick-grip-chill/alternatives,alternatives,running,READY,yes,no,substantive,OK,
+/products/hydrapak-contour-2l/alternatives,alternatives,running,NEEDS_RELATIONSHIP_FIX,no,no,thin,OK,need ≥3 alternatives (have 2)|need ≥2 distinct alternative types
+/products/salomon-soft-reservoir-15/alternatives,alternatives,running,NEEDS_RELATIONSHIP_FIX,no,no,thin,OK,need ≥3 alternatives (have 2)|need ≥2 distinct alternative types
+/products/swiftwick-aspire-four/alternatives,alternatives,running,READY,yes,no,substantive,OK,
+/products/drymax-run-lite-mesh/alternatives,alternatives,running,NEEDS_RELATIONSHIP_FIX,no,no,thin,OK,need ≥2 distinct alternative types
+/products/wrightsock-coolmesh-ii/alternatives,alternatives,running,NEEDS_RELATIONSHIP_FIX,no,no,thin,OK,need ≥2 distinct alternative types
+/products/amphipod-airflow-lite-belt/alternatives,alternatives,running,READY,yes,no,substantive,OK,
+/products/fitletic-fully-loaded/alternatives,alternatives,running,NEEDS_RELATIONSHIP_FIX,no,no,thin,OK,need ≥2 distinct alternative types
+/products/nathan-zipster-lite/alternatives,alternatives,running,READY,yes,no,substantive,OK,
+/products/kiprun-running-belt/alternatives,alternatives,running,NEEDS_RELATIONSHIP_FIX,no,no,thin,OK,need ≥2 distinct alternative types
+/products/ultimate-direction-fastpack-20/alternatives,alternatives,running,READY,yes,no,substantive,OK,
+/products/ultimate-direction-fastpack-her-20/alternatives,alternatives,running,READY,yes,no,substantive,OK,
+/products/ultimate-direction-fastpack-30/alternatives,alternatives,running,READY,yes,no,substantive,OK,
+/products/osprey-talon-velocity-20/alternatives,alternatives,running,READY,yes,no,substantive,OK,
+/products/osprey-tempest-velocity-20/alternatives,alternatives,running,READY,yes,no,substantive,OK,
+/products/osprey-talon-velocity-30/alternatives,alternatives,running,READY,yes,no,substantive,OK,
+/products/black-diamond-distance-15/alternatives,alternatives,running,READY,yes,no,substantive,OK,
+/products/black-diamond-distance-22/alternatives,alternatives,running,READY,yes,no,substantive,OK,
+/products/salomon-xa-15/alternatives,alternatives,running,READY,yes,no,substantive,OK,
+/products/salomon-custom-quiver/alternatives,alternatives,running,NEEDS_RELATIONSHIP_FIX,no,no,thin,OK,need ≥2 distinct alternative types
+/products/ultimate-direction-utility-bag/alternatives,alternatives,running,READY,yes,no,substantive,OK,
+/products/nathan-zippered-stash/alternatives,alternatives,running,NEEDS_RELATIONSHIP_FIX,no,no,thin,OK,need ≥3 alternatives (have 1)|need ≥2 distinct alternative types
+/products/shokz-openrun/alternatives,alternatives,running,READY,yes,no,substantive,OK,
+/products/shokz-openfit-2/alternatives,alternatives,running,READY,yes,no,substantive,OK,
+/products/shokz-opendots-one/alternatives,alternatives,running,READY,yes,no,substantive,OK,
+/products/beats-fit-pro/alternatives,alternatives,running,READY,yes,no,substantive,OK,
+/products/soundcore-aerofit-2/alternatives,alternatives,running,READY,yes,no,substantive,OK,
+/products/soundcore-sport-x20/alternatives,alternatives,running,NEEDS_RELATIONSHIP_FIX,no,no,thin,OK,need ≥2 distinct alternative types
+/products/suunto-wing/alternatives,alternatives,running,READY,yes,no,substantive,OK,
+/products/apple-airpods-4/alternatives,alternatives,running,NEEDS_RELATIONSHIP_FIX,no,no,thin,OK,need ≥2 distinct alternative types
+/products/oakley-radar-ev-path/alternatives,alternatives,running,READY,yes,no,substantive,NEEDS_DIFF,
+/products/oakley-sutro-lite/alternatives,alternatives,running,READY,yes,no,substantive,NEEDS_DIFF,
+/products/oakley-kato/alternatives,alternatives,running,READY,yes,no,substantive,OK,
+/products/oakley-flak-2-0-xl/alternatives,alternatives,running,READY,yes,no,substantive,OK,
+/products/smith-shift-mag/alternatives,alternatives,running,READY,yes,no,substantive,OK,
+/products/smith-attack-mag/alternatives,alternatives,running,READY,yes,no,substantive,NEEDS_DIFF,
+/products/julbo-ultimate/alternatives,alternatives,running,READY,yes,no,substantive,NEEDS_DIFF,
+/products/julbo-rush/alternatives,alternatives,running,READY,yes,no,substantive,OK,
+/products/rudy-project-cutline/alternatives,alternatives,running,READY,yes,no,substantive,OK,
+/products/100-percent-s3/alternatives,alternatives,running,READY,yes,no,substantive,OK,
+/products/roka-phantom-air/alternatives,alternatives,running,READY,yes,no,substantive,OK,
+/products/tifosi-rail/alternatives,alternatives,running,READY,yes,no,substantive,NEEDS_DIFF,
+/products/tifosi-vogel/alternatives,alternatives,running,READY,yes,no,substantive,NEEDS_DIFF,
+/products/goodr-circle-gs/alternatives,alternatives,running,READY,yes,no,substantive,NEEDS_DIFF,
+/products/petzl-nao-rl/alternatives,alternatives,running,READY,yes,no,substantive,OK,
+/products/petzl-actik-core/alternatives,alternatives,running,NEEDS_RELATIONSHIP_FIX,no,no,thin,OK,need ≥3 alternatives (have 1)|need ≥2 distinct alternative types
+/products/black-diamond-distance-1500/alternatives,alternatives,running,READY,yes,no,substantive,OK,
+/products/ledlenser-neo9r/alternatives,alternatives,running,READY,yes,no,substantive,NEEDS_DIFF,
+/products/biolite-headlamp-800-pro/alternatives,alternatives,running,READY,yes,no,substantive,NEEDS_DIFF,
+/products/nitecore-nu43/alternatives,alternatives,running,READY,yes,no,substantive,OK,
+/products/amphipod-xinglet/alternatives,alternatives,running,NEEDS_RELATIONSHIP_FIX,no,no,thin,OK,need ≥2 distinct alternative types
+/products/amphipod-xinglet-optic-beam/alternatives,alternatives,running,NEEDS_RELATIONSHIP_FIX,no,no,thin,OK,need ≥2 distinct alternative types
+/products/proviz-reflect360-running-vest/alternatives,alternatives,running,NEEDS_RELATIONSHIP_FIX,no,no,thin,OK,need ≥2 distinct alternative types
+/products/maurten-gel-100/alternatives,alternatives,running,READY,yes,no,substantive,OK,
+/products/maurten-gel-100-caf-100/alternatives,alternatives,running,READY,yes,no,substantive,OK,
+/products/maurten-gel-160/alternatives,alternatives,running,READY,yes,no,substantive,OK,
+/products/sis-go-isotonic-gel/alternatives,alternatives,running,READY,yes,no,substantive,OK,
+/products/sis-beta-fuel-gel/alternatives,alternatives,running,READY,yes,no,substantive,NEEDS_DIFF,
+/products/gu-energy-gel/alternatives,alternatives,running,READY,yes,no,substantive,OK,
+/products/gu-roctane-gel/alternatives,alternatives,running,READY,yes,no,substantive,OK,
+/products/precision-pf30-gel/alternatives,alternatives,running,READY,yes,no,substantive,NEEDS_DIFF,
+/products/neversecond-c30-gel/alternatives,alternatives,running,READY,yes,no,substantive,NEEDS_DIFF,
+/products/spring-energy-awesome-sauce/alternatives,alternatives,running,READY,yes,no,substantive,OK,
+/products/huma-gel-original/alternatives,alternatives,running,READY,yes,no,substantive,OK,
+/products/honey-stinger-organic-energy-gel/alternatives,alternatives,running,READY,yes,no,substantive,OK,
+/products/clif-bloks-energy-chews/alternatives,alternatives,running,NEEDS_RELATIONSHIP_FIX,no,no,thin,OK,need ≥2 distinct alternative types
+/products/gu-energy-chews/alternatives,alternatives,running,READY,yes,no,substantive,OK,
+/products/skratch-sport-energy-chews/alternatives,alternatives,running,READY,yes,no,substantive,OK,
+/products/veloforte-energy-chews/alternatives,alternatives,running,READY,yes,no,substantive,OK,
+/products/saltstick-fastchews/alternatives,alternatives,running,READY,yes,no,substantive,OK,
+/products/clif-bar-original/alternatives,alternatives,running,READY,yes,no,substantive,NEEDS_DIFF,
+/products/naak-ultra-energy-bar/alternatives,alternatives,running,READY,yes,no,substantive,NEEDS_DIFF,
+/products/powerbar-energize/alternatives,alternatives,running,READY,yes,no,substantive,NEEDS_DIFF,
+/products/maurten-drink-mix-160/alternatives,alternatives,running,NEEDS_RELATIONSHIP_FIX,no,no,thin,OK,need ≥2 distinct alternative types
+/products/maurten-drink-mix-320/alternatives,alternatives,running,READY,yes,no,substantive,OK,
+/products/sis-beta-fuel-drink/alternatives,alternatives,running,READY,yes,no,substantive,OK,
+/products/tailwind-endurance-fuel/alternatives,alternatives,running,NEEDS_RELATIONSHIP_FIX,no,no,thin,OK,need ≥2 distinct alternative types
+/products/precision-pf30-drink-mix/alternatives,alternatives,running,READY,yes,no,substantive,NEEDS_DIFF,
+/products/neversecond-c30-sports-drink/alternatives,alternatives,running,READY,yes,no,substantive,NEEDS_DIFF,
+/products/styrkr-mix90/alternatives,alternatives,running,READY,yes,no,substantive,OK,
+/products/skratch-sport-hydration-mix/alternatives,alternatives,running,READY,yes,no,substantive,OK,
+/products/precision-ph1500/alternatives,alternatives,running,READY,yes,no,substantive,OK,
+/products/nuun-sport/alternatives,alternatives,running,READY,yes,no,substantive,OK,
+/products/high5-zero/alternatives,alternatives,running,READY,yes,no,substantive,OK,
+/products/saltstick-caps/alternatives,alternatives,running,READY,yes,no,substantive,OK,
+/products/high5-energy-gel/alternatives,alternatives,running,READY,yes,no,substantive,OK,
+/products/226ers-high-energy-gel/alternatives,alternatives,running,NEEDS_RELATIONSHIP_FIX,no,no,thin,OK,need ≥2 distinct alternative types
+/products/enervit-c2-1-carbo-gel/alternatives,alternatives,running,READY,yes,no,substantive,OK,
+/products/styrkr-gel30/alternatives,alternatives,running,NEEDS_RELATIONSHIP_FIX,no,no,thin,OK,need ≥2 distinct alternative types
+/products/naak-ultra-energy-drink-mix/alternatives,alternatives,running,NEEDS_RELATIONSHIP_FIX,no,no,thin,OK,need ≥2 distinct alternative types
+/products/veloforte-energy-bar/alternatives,alternatives,running,READY,yes,no,substantive,OK,
+/products/therabody-theragun-prime/alternatives,alternatives,running,NEEDS_RELATIONSHIP_FIX,no,no,thin,OK,need ≥2 distinct alternative types
+/products/therabody-theragun-pro/alternatives,alternatives,running,NEEDS_RELATIONSHIP_FIX,no,no,thin,OK,need ≥3 alternatives (have 2)|need ≥2 distinct alternative types
+/products/hyperice-hypervolt-2/alternatives,alternatives,running,NEEDS_RELATIONSHIP_FIX,no,no,thin,OK,need ≥2 distinct alternative types
+/products/triggerpoint-grid-x/alternatives,alternatives,running,NEEDS_RELATIONSHIP_FIX,no,no,thin,OK,need ≥3 alternatives (have 1)|need ≥2 distinct alternative types
+/products/triggerpoint-grid-travel/alternatives,alternatives,running,NEEDS_RELATIONSHIP_FIX,no,no,thin,OK,need ≥3 alternatives (have 1)|need ≥2 distinct alternative types
+/products/brazyn-morph/alternatives,alternatives,running,NEEDS_RELATIONSHIP_FIX,no,no,thin,OK,need ≥3 alternatives (have 2)|need meaningful unique reasons on ≥3 alts
+/products/blackroll-pro/alternatives,alternatives,running,NEEDS_RELATIONSHIP_FIX,no,no,thin,OK,need ≥3 alternatives (have 1)|need ≥2 distinct alternative types
+/products/hyperice-normatec-3/alternatives,alternatives,running,NEEDS_RELATIONSHIP_FIX,no,no,thin,OK,need ≥3 alternatives (have 1)|need ≥2 distinct alternative types
+/products/hyperice-normatec-go/alternatives,alternatives,running,NEEDS_RELATIONSHIP_FIX,no,no,thin,OK,need ≥3 alternatives (have 2)|need meaningful unique reasons on ≥3 alts
+/products/oofos-oolala/alternatives,alternatives,running,NEEDS_RELATIONSHIP_FIX,no,no,thin,OK,need ≥3 alternatives (have 1)|need ≥2 distinct alternative types
+/products/cep-the-run-calf-sleeves/alternatives,alternatives,running,NEEDS_RELATIONSHIP_FIX,no,no,thin,OK,need ≥3 alternatives (have 2)|need meaningful unique reasons on ≥3 alts
+/products/hyperice-vyper-3/alternatives,alternatives,running,NEEDS_RELATIONSHIP_FIX,no,no,thin,OK,need ≥3 alternatives (have 1)|need ≥2 distinct alternative types
+/products/tracksmith-session-short-men/alternatives,alternatives,running,READY,yes,no,substantive,OK,
+/products/tracksmith-session-short-women/alternatives,alternatives,running,NEEDS_RELATIONSHIP_FIX,no,no,thin,OK,need ≥2 distinct alternative types
+/products/janji-multi-short-men/alternatives,alternatives,running,READY,yes,no,substantive,OK,
+/products/janji-pace-short-women/alternatives,alternatives,running,READY,yes,no,substantive,OK,
+/products/patagonia-strider-pro-men/alternatives,alternatives,running,READY,yes,no,substantive,OK,
+/products/patagonia-trailfarer-short-women/alternatives,alternatives,running,NEEDS_RELATIONSHIP_FIX,no,no,thin,OK,need ≥3 alternatives (have 2)|need ≥2 distinct alternative types
+/products/rabbit-fuel-n-fly-men/alternatives,alternatives,running,READY,yes,no,substantive,OK,
+/products/brooks-sherpa-7-men/alternatives,alternatives,running,NEEDS_RELATIONSHIP_FIX,no,no,thin,OK,need ≥3 alternatives (have 2)|need ≥2 distinct alternative types
+/products/brooks-chaser-5-women/alternatives,alternatives,running,READY,yes,no,substantive,OK,
+/products/nb-rc-essential-short-men/alternatives,alternatives,running,READY,yes,no,substantive,OK,
+/products/adidas-own-the-run-short-men/alternatives,alternatives,running,READY,yes,no,substantive,OK,
+/products/on-performance-short-men/alternatives,alternatives,running,READY,yes,no,substantive,OK,
+/products/tracksmith-twilight-half-men/alternatives,alternatives,running,READY,yes,no,substantive,OK,
+/products/tracksmith-turnover-tight-women/alternatives,alternatives,running,READY,yes,no,substantive,OK,
+/products/brooks-method-tight-women/alternatives,alternatives,running,READY,yes,no,substantive,OK,
+/products/nike-fast-tight-men/alternatives,alternatives,running,READY,yes,no,substantive,OK,
+/products/on-performance-tight-women/alternatives,alternatives,running,READY,yes,no,substantive,OK,
+/products/craft-adv-essence-tight-men/alternatives,alternatives,running,NEEDS_RELATIONSHIP_FIX,no,no,thin,OK,need ≥2 distinct alternative types
+/products/patagonia-endless-run-tight-women/alternatives,alternatives,running,NEEDS_RELATIONSHIP_FIX,no,no,thin,OK,need ≥3 alternatives (have 2)|need ≥2 distinct alternative types
+/products/brooks-canopy-jacket-men/alternatives,alternatives,running,READY,yes,no,substantive,OK,
+/products/brooks-notch-thermal-men/alternatives,alternatives,running,NEEDS_RELATIONSHIP_FIX,no,no,thin,OK,need ≥3 alternatives (have 1)|need ≥2 distinct alternative types
+/products/patagonia-houdini-men/alternatives,alternatives,running,READY,yes,no,substantive,OK,
+/products/nike-impossibly-light-men/alternatives,alternatives,running,READY,yes,no,substantive,OK,
+/products/on-weather-jacket-men/alternatives,alternatives,running,READY,yes,no,substantive,OK,
+/products/craft-adv-essence-light-wind-men/alternatives,alternatives,running,READY,yes,no,substantive,OK,
+/products/salomon-bonatti-wp-men/alternatives,alternatives,running,NEEDS_RELATIONSHIP_FIX,no,no,thin,OK,need switch/trade-off decision shape on ≥2 alts
+/products/salomon-bonatti-wp-women/alternatives,alternatives,running,NEEDS_RELATIONSHIP_FIX,no,no,thin,OK,need ≥3 alternatives (have 1)|need ≥2 distinct alternative types
+/products/janji-rainrunner-men/alternatives,alternatives,running,NEEDS_RELATIONSHIP_FIX,no,no,thin,OK,need ≥3 alternatives (have 2)|need ≥2 distinct alternative types
+/products/nike-dri-fit-miler-men/alternatives,alternatives,running,READY,yes,no,substantive,NEEDS_DIFF,
+/products/nike-dri-fit-miler-women/alternatives,alternatives,running,NEEDS_RELATIONSHIP_FIX,no,no,thin,OK,need ≥3 alternatives (have 2)|need meaningful unique reasons on ≥3 alts
+/products/tracksmith-van-cortlandt-tee-men/alternatives,alternatives,running,NEEDS_RELATIONSHIP_FIX,no,no,thin,OK,need ≥2 distinct alternative types
+/products/janji-run-tee-men/alternatives,alternatives,running,READY,yes,no,substantive,NEEDS_DIFF,
+/products/patagonia-capilene-cool-daily-men/alternatives,alternatives,running,READY,yes,no,substantive,NEEDS_DIFF,
+/products/adidas-own-the-run-tee-men/alternatives,alternatives,running,READY,yes,no,substantive,OK,
+/products/nike-aeroswift-singlet-men/alternatives,alternatives,running,NEEDS_RELATIONSHIP_FIX,no,no,thin,OK,need ≥3 alternatives (have 1)|need ≥2 distinct alternative types
+/products/tracksmith-brighton-ls-men/alternatives,alternatives,running,NEEDS_RELATIONSHIP_FIX,no,no,thin,OK,need ≥3 alternatives (have 2)|need ≥2 distinct alternative types
+/products/patagonia-capilene-thermal-crew-men/alternatives,alternatives,running,NEEDS_RELATIONSHIP_FIX,no,no,thin,OK,need ≥2 distinct alternative types
+/products/odlo-active-warm-eco-men/alternatives,alternatives,running,READY,yes,no,substantive,OK,
+/products/patagonia-capilene-midweight-zip-men/alternatives,alternatives,running,NEEDS_RELATIONSHIP_FIX,no,no,thin,OK,need ≥2 distinct alternative types
+/products/odlo-active-warm-eco-bottom-men/alternatives,alternatives,running,NEEDS_RELATIONSHIP_FIX,no,no,thin,OK,need ≥3 alternatives (have 2)|need ≥2 distinct alternative types
+/products/craft-active-extreme-x-men/alternatives,alternatives,running,NEEDS_RELATIONSHIP_FIX,no,no,thin,OK,need ≥2 distinct alternative types
+/products/patagonia-nano-puff-vest-men/alternatives,alternatives,running,NEEDS_RELATIONSHIP_FIX,no,no,thin,OK,need ≥3 alternatives (have 2)|need meaningful unique reasons on ≥3 alts
+/products/craft-adv-essence-light-wind-vest-men/alternatives,alternatives,running,READY,yes,no,substantive,OK,
+/products/ciele-gocap-athletics/alternatives,alternatives,running,NEEDS_RELATIONSHIP_FIX,no,no,thin,OK,need ≥3 alternatives (have 2)|need ≥2 distinct alternative types
+/products/brooks-notch-thermal-beanie/alternatives,alternatives,running,NEEDS_RELATIONSHIP_FIX,no,no,thin,OK,need ≥3 alternatives (have 2)|need ≥2 distinct alternative types
+/products/nike-aerobill-cap/alternatives,alternatives,running,READY,yes,no,substantive,OK,
+/products/smartwool-thermal-merino-glove/alternatives,alternatives,running,NEEDS_RELATIONSHIP_FIX,no,no,thin,OK,need ≥3 alternatives (have 2)|need ≥2 distinct alternative types
+/products/nike-therma-fit-glove/alternatives,alternatives,running,NEEDS_RELATIONSHIP_FIX,no,no,thin,OK,need ≥3 alternatives (have 2)|need ≥2 distinct alternative types
+/products/craft-adv-lumen-glove/alternatives,alternatives,running,NEEDS_RELATIONSHIP_FIX,no,no,thin,OK,need ≥3 alternatives (have 2)|need ≥2 distinct alternative types
+/products/darn-tough-run-1-4/alternatives,alternatives,running,READY,yes,no,substantive,OK,
+/products/smartwool-run-targeted-cushion/alternatives,alternatives,running,NEEDS_RELATIONSHIP_FIX,no,no,thin,OK,need ≥3 alternatives (have 2)|need ≥2 distinct alternative types
+/products/balega-blister-resist/alternatives,alternatives,running,READY,yes,no,substantive,OK,
+/products/nathan-vaporair-2/alternatives,alternatives,running,READY,yes,no,substantive,OK,
+/products/ultimate-direction-adventure-vest/alternatives,alternatives,running,READY,yes,no,substantive,OK,
+/products/camelbak-zephyr/alternatives,alternatives,running,READY,yes,no,substantive,OK,
+/products/osprey-duro-6/alternatives,alternatives,running,READY,yes,no,substantive,OK,
+/products/osprey-dyna-6/alternatives,alternatives,running,READY,yes,no,substantive,OK,
+/products/flipbelt-classic/alternatives,alternatives,running,READY,yes,no,substantive,OK,
+/products/nathan-mirage-pak/alternatives,alternatives,running,READY,yes,no,substantive,OK,
+/products/spibelt-original/alternatives,alternatives,running,READY,yes,no,substantive,OK,
+/products/nathan-exoshot-2/alternatives,alternatives,running,READY,yes,no,substantive,OK,
+/products/salomon-soft-flask-500/alternatives,alternatives,running,READY,yes,no,substantive,NEEDS_DIFF,
+/products/hydrapak-softflask-500/alternatives,alternatives,running,READY,yes,no,substantive,OK,
+/products/asics-core-split-short/alternatives,alternatives,running,NEEDS_RELATIONSHIP_FIX,no,no,thin,OK,need ≥2 distinct alternative types
+/products/nike-dri-fit-stride-short/alternatives,alternatives,running,READY,yes,no,substantive,OK,
+/products/craft-adv-essence-short/alternatives,alternatives,running,READY,yes,no,substantive,OK,
+/products/feetures-elite-light-cushion/alternatives,alternatives,running,READY,yes,no,substantive,OK,
+/products/balega-hidden-comfort/alternatives,alternatives,running,READY,yes,no,substantive,OK,
+/products/injinji-run-midweight/alternatives,alternatives,running,NEEDS_RELATIONSHIP_FIX,no,no,thin,OK,need ≥2 distinct alternative types
+/products/cep-run-compression-sock-3/alternatives,alternatives,running,NEEDS_RELATIONSHIP_FIX,no,no,thin,OK,need ≥3 alternatives (have 1)|need ≥2 distinct alternative types
+/products/shokz-openrun-pro-2/alternatives,alternatives,running,READY,yes,no,substantive,OK,
+/products/apple-airpods-pro-2/alternatives,alternatives,running,READY,yes,no,substantive,OK,
+/products/bose-ultra-open-earbuds/alternatives,alternatives,running,READY,yes,no,substantive,OK,
+/products/oakley-encoder/alternatives,alternatives,running,READY,yes,no,substantive,NEEDS_DIFF,
+/products/goodr-ogs/alternatives,alternatives,running,READY,yes,no,substantive,OK,
+/products/julbo-aerolite/alternatives,alternatives,running,READY,yes,no,substantive,OK,
+/products/petzl-swift-rl/alternatives,alternatives,running,READY,yes,no,substantive,NEEDS_DIFF,
+/products/black-diamond-spot-400-r/alternatives,alternatives,running,NEEDS_RELATIONSHIP_FIX,no,no,thin,OK,need ≥2 distinct alternative types
+/products/silva-trail-runner-free-2/alternatives,alternatives,running,NEEDS_RELATIONSHIP_FIX,no,no,thin,OK,need ≥3 alternatives (have 2)|need ≥2 distinct alternative types
+/products/nathan-streak-reflective-vest/alternatives,alternatives,running,READY,yes,no,substantive,OK,
+/products/therabody-theragun-mini-2/alternatives,alternatives,running,NEEDS_RELATIONSHIP_FIX,no,no,thin,OK,need ≥3 alternatives (have 2)|need ≥2 distinct alternative types
+/products/hyperice-hypervolt-go-2/alternatives,alternatives,running,NEEDS_RELATIONSHIP_FIX,no,no,thin,OK,need ≥3 alternatives (have 2)|need ≥2 distinct alternative types
+/products/oofos-ooriginal/alternatives,alternatives,running,NEEDS_RELATIONSHIP_FIX,no,no,thin,OK,need ≥3 alternatives (have 1)|need ≥2 distinct alternative types
+/products/buff-original/alternatives,alternatives,running,READY,yes,no,substantive,OK,
+/products/cep-calf-sleeves-3/alternatives,alternatives,running,NEEDS_RELATIONSHIP_FIX,no,no,thin,OK,need ≥3 alternatives (have 1)|need ≥2 distinct alternative types
+/products/body-glide-original/alternatives,alternatives,running,NEEDS_RELATIONSHIP_FIX,no,no,thin,OK,need ≥3 alternatives (have 2)|need ≥2 distinct alternative types
+/products/buff-coolnet-uv/alternatives,alternatives,running,NEEDS_RELATIONSHIP_FIX,no,no,thin,OK,need ≥3 alternatives (have 2)|need ≥2 distinct alternative types
+/products/buff-merino-lightweight/alternatives,alternatives,running,NEEDS_RELATIONSHIP_FIX,no,no,thin,OK,need ≥3 alternatives (have 2)|need meaningful unique reasons on ≥3 alts
+/products/buff-polar/alternatives,alternatives,running,READY,yes,no,substantive,OK,
+/products/squirrels-nut-butter/alternatives,alternatives,running,NEEDS_RELATIONSHIP_FIX,no,no,thin,OK,need ≥3 alternatives (have 2)|need ≥2 distinct alternative types
+/products/2toms-sportshield/alternatives,alternatives,running,NEEDS_RELATIONSHIP_FIX,no,no,thin,OK,need ≥3 alternatives (have 2)|need ≥2 distinct alternative types
+/products/nox-at10-genius-18k-2026/alternatives,alternatives,padel,NEEDS_RELATIONSHIP_FIX,no,no,thin,OK,need ≥3 alternatives (have 1)|need ≥2 distinct alternative types
+/products/bullpadel-vertex-04/alternatives,alternatives,padel,NEEDS_RELATIONSHIP_FIX,no,no,thin,OK,need ≥3 alternatives (have 1)|need ≥2 distinct alternative types
+/products/head-coello-pro-2026/alternatives,alternatives,padel,NEEDS_RELATIONSHIP_FIX,no,no,thin,OK,need ≥3 alternatives (have 1)|need ≥2 distinct alternative types
+/products/adidas-courtstabil-padel/alternatives,alternatives,padel,NEEDS_RELATIONSHIP_FIX,no,no,thin,OK,need ≥3 alternatives (have 1)|need ≥2 distinct alternative types
+/products/wilson-bela-pro-v2-2026/alternatives,alternatives,padel,NEEDS_RELATIONSHIP_FIX,no,no,thin,OK,need ≥3 alternatives (have 1)|need ≥2 distinct alternative types
+/products/starvie-titania-kepler-2026/alternatives,alternatives,padel,NEEDS_RELATIONSHIP_FIX,no,no,thin,OK,need ≥3 alternatives (have 1)|need ≥2 distinct alternative types
+/products/adidas-metalbone-hrd-2026/alternatives,alternatives,padel,NEEDS_RELATIONSHIP_FIX,no,no,thin,OK,need ≥3 alternatives (have 1)|need ≥2 distinct alternative types
+/products/kuikma-pr-soft-500/alternatives,alternatives,padel,NEEDS_RELATIONSHIP_FIX,no,no,thin,OK,need ≥3 alternatives (have 1)|need ≥2 distinct alternative types
+/products/drop-shot-canyon-pro-2026/alternatives,alternatives,padel,NEEDS_RELATIONSHIP_FIX,no,no,thin,OK,need ≥3 alternatives (have 1)|need ≥2 distinct alternative types
+/products/varlion-lw-carbon-difusor-2026/alternatives,alternatives,padel,NEEDS_RELATIONSHIP_FIX,no,no,thin,OK,need ≥3 alternatives (have 1)|need ≥2 distinct alternative types
+/products/nox-ml10-pro-cup-2026/alternatives,alternatives,padel,NEEDS_RELATIONSHIP_FIX,no,no,thin,OK,need ≥3 alternatives (have 1)|need ≥2 distinct alternative types
+/products/bullpadel-hack-03/alternatives,alternatives,padel,NEEDS_RELATIONSHIP_FIX,no,no,thin,OK,need ≥3 alternatives (have 1)|need ≥2 distinct alternative types
+/products/babolat-counter-viper-2026/alternatives,alternatives,padel,NEEDS_RELATIONSHIP_FIX,no,no,thin,OK,need ≥3 alternatives (have 1)|need ≥2 distinct alternative types
+/products/head-extreme-pro-padel-2026/alternatives,alternatives,padel,NEEDS_RELATIONSHIP_FIX,no,no,thin,OK,need ≥3 alternatives (have 1)|need ≥2 distinct alternative types
+/products/bullpadel-vertex-05-2026/alternatives,alternatives,padel,NEEDS_RELATIONSHIP_FIX,no,no,thin,OK,need switch/trade-off decision shape on ≥2 alts
+/products/bullpadel-hack-04-2026/alternatives,alternatives,padel,NEEDS_RELATIONSHIP_FIX,no,no,thin,OK,need ≥3 alternatives (have 2)|need meaningful unique reasons on ≥3 alts
+/products/nox-at10-genius-12k-alum-xtrem-2026/alternatives,alternatives,padel,NEEDS_RELATIONSHIP_FIX,no,no,thin,OK,need switch/trade-off decision shape on ≥2 alts
+/products/adidas-metalbone-2026/alternatives,alternatives,padel,NEEDS_RELATIONSHIP_FIX,no,no,thin,OK,need ≥3 alternatives (have 1)|need ≥2 distinct alternative types
+/products/head-extreme-motion-2026/alternatives,alternatives,padel,NEEDS_RELATIONSHIP_FIX,no,no,thin,OK,need ≥3 alternatives (have 1)|need ≥2 distinct alternative types
+/products/oxdog-sense-pro/alternatives,alternatives,padel,NEEDS_RELATIONSHIP_FIX,no,no,thin,OK,need ≥3 alternatives (have 1)|need ≥2 distinct alternative types
+/products/royal-padel-m27-poly-2026/alternatives,alternatives,padel,NEEDS_RELATIONSHIP_FIX,no,no,thin,OK,need ≥3 alternatives (have 2)|need meaningful unique reasons on ≥3 alts
+/products/black-crown-special-one-soft/alternatives,alternatives,padel,NEEDS_RELATIONSHIP_FIX,no,no,thin,OK,need ≥3 alternatives (have 1)|need ≥2 distinct alternative types
+/products/asics-gel-resolution-padel/alternatives,alternatives,padel,NEEDS_RELATIONSHIP_FIX,no,no,thin,OK,need ≥3 alternatives (have 1)|need ≥2 distinct alternative types
+/products/asics-gel-challenger-court/alternatives,alternatives,padel,NEEDS_RELATIONSHIP_FIX,no,no,thin,OK,need ≥3 alternatives (have 1)|need ≥2 distinct alternative types
+/products/babolat-jet-premura/alternatives,alternatives,padel,NEEDS_RELATIONSHIP_FIX,no,no,thin,OK,need ≥3 alternatives (have 1)|need ≥2 distinct alternative types
+/products/joma-t-slam/alternatives,alternatives,padel,NEEDS_RELATIONSHIP_FIX,no,no,thin,OK,need ≥3 alternatives (have 1)|need ≥2 distinct alternative types
+/products/babolat-pure-drive-2025/alternatives,alternatives,tennis,NEEDS_RELATIONSHIP_FIX,no,no,thin,OK,need ≥3 alternatives (have 1)|need ≥2 distinct alternative types
+/products/babolat-pure-aero-2023/alternatives,alternatives,tennis,NEEDS_RELATIONSHIP_FIX,no,no,thin,OK,need ≥3 alternatives (have 1)|need ≥2 distinct alternative types
+/products/wilson-clash-100-v2/alternatives,alternatives,tennis,NEEDS_RELATIONSHIP_FIX,no,no,thin,OK,need ≥3 alternatives (have 1)|need ≥2 distinct alternative types
+/products/wilson-blade-98-v8/alternatives,alternatives,tennis,NEEDS_RELATIONSHIP_FIX,no,no,thin,OK,need ≥3 alternatives (have 1)|need ≥2 distinct alternative types
+/products/head-speed-mp-2024/alternatives,alternatives,tennis,NEEDS_RELATIONSHIP_FIX,no,no,thin,OK,need ≥3 alternatives (have 1)|need ≥2 distinct alternative types
+/products/yonex-ezone-98-2024/alternatives,alternatives,tennis,NEEDS_RELATIONSHIP_FIX,no,no,thin,OK,need ≥3 alternatives (have 1)|need ≥2 distinct alternative types
+/products/tecnifibre-tf40-305/alternatives,alternatives,tennis,NEEDS_RELATIONSHIP_FIX,no,no,thin,OK,need ≥3 alternatives (have 1)|need ≥2 distinct alternative types
+/products/dunlop-cx-200/alternatives,alternatives,tennis,NEEDS_RELATIONSHIP_FIX,no,no,thin,OK,need ≥3 alternatives (have 1)|need ≥2 distinct alternative types
+/products/prince-textreme-tour-100p/alternatives,alternatives,tennis,NEEDS_RELATIONSHIP_FIX,no,no,thin,OK,need ≥3 alternatives (have 1)|need ≥2 distinct alternative types
+/products/wilson-blade-98-v9/alternatives,alternatives,tennis,NEEDS_RELATIONSHIP_FIX,no,no,thin,OK,need switch/trade-off decision shape on ≥2 alts
+/products/wilson-clash-100-v3/alternatives,alternatives,tennis,NEEDS_RELATIONSHIP_FIX,no,no,thin,OK,need ≥3 alternatives (have 1)|need ≥2 distinct alternative types
+/products/babolat-pure-aero-2026/alternatives,alternatives,tennis,NEEDS_RELATIONSHIP_FIX,no,no,thin,OK,need ≥3 alternatives (have 2)|need meaningful unique reasons on ≥3 alts
+/products/yonex-ezone-100-2025/alternatives,alternatives,tennis,NEEDS_RELATIONSHIP_FIX,no,no,thin,OK,need switch/trade-off decision shape on ≥2 alts
+/products/yonex-vcore-98-2026/alternatives,alternatives,tennis,NEEDS_RELATIONSHIP_FIX,no,no,thin,OK,need ≥3 alternatives (have 1)|need ≥2 distinct alternative types
+/products/assaultrunner-pro/alternatives,alternatives,running,READY,yes,no,substantive,OK,
+/products/mirafit-folding-treadmill/alternatives,alternatives,running,READY,yes,no,substantive,OK,
+/products/assaultrunner-elite/alternatives,alternatives,running,READY,yes,no,substantive,OK,
+/products/sole-f80-treadmill/alternatives,alternatives,fitness,READY,yes,no,substantive,OK,

@@ -1,0 +1,30 @@
+[
+  {
+    "id": "prod-adidas-own-the-run-short-men",
+    "slug": "adidas-own-the-run-short-men",
+    "ok": true,
+    "src": "/images/clothing/products/adidas-own-the-run-short-men-hero.jpg",
+    "sourceUrl": "https://www.sportsshoes.com/product/adi17671/adidas-own-the-run-5-inch-shorts---ss25",
+    "source": "Authorized retailer product photography (SportsShoes)",
+    "licence": "retailer-authorized",
+    "attribution": "\u00a9 Brand \u2014 via SportsShoes",
+    "imageUrl": "https://cdn11.bigcommerce.com/s-21x65e8kfn/images/stencil/original/products/78156/415926/ADI17671_1000_1__37642.1743600008.jpg",
+    "width": 1000,
+    "height": 1000,
+    "msg": "ok 79663 72b7b01e"
+  },
+  {
+    "id": "prod-nike-stride-short",
+    "slug": "nike-dri-fit-stride-short",
+    "ok": true,
+    "src": "/images/clothing/products/nike-dri-fit-stride-short-hero.jpg",
+    "sourceUrl": "https://www.sportsshoes.com/product/nik20753/nike-dri-fit-stride-5%22-brief-lined-running-shorts---fa25",
+    "source": "Authorized retailer product photography (SportsShoes)",
+    "licence": "retailer-authorized",
+    "attribution": "\u00a9 Brand \u2014 via SportsShoes",
+    "imageUrl": "https://cdn11.bigcommerce.com/s-21x65e8kfn/images/stencil/original/products/50425/205997/NIK20753_1000_1__12210.1688491341.jpg",
+    "width": 1000,
+    "height": 1000,
+    "msg": "ok 104097 99dc9eb6"
+  }
+]

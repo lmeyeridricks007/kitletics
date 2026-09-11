@@ -1,0 +1,1912 @@
+/**
+ * Editorial Completion 45 — GearSetup scenario enrichment.
+ * Deep-merges kit-level + per-item fields by setup.id / productId.
+ * Does not create new setup entities.
+ */
+
+import type { GearSetup, GearSetupItem } from "@/domain/editorial/types";
+
+type ItemPatch = Partial<Omit<GearSetupItem, "productId">>;
+
+type SetupPatch = Partial<
+  Omit<GearSetup, "id" | "slug" | "items" | "sportId" | "useCaseIds">
+> & {
+  itemPatches?: Record<string, ItemPatch>;
+};
+
+const PATCHES: Record<string, SetupPatch> = {
+  "setup-first-marathon": {
+    scenario:
+      "16–20 week first marathon build: most weeks are easy/long miles, with a few controlled faster sessions once volume is stable. Kit prioritises a forgiving daily shoe, GPS for pacing, and an optional tempo shoe you only need when workouts demand it.",
+    goalLabel: "First marathon training",
+    experienceLevel: "First-time marathoners",
+    eyebrow: "GEAR KIT",
+    setupType: "editorial",
+    whyTitle: "Why this first-marathon kit?",
+    whyReasons: [
+      "Daily trainer absorbs the bulk of marathon mileage so race plates stay for race day.",
+      "Mid-tier Garmin covers long-run pacing and training load without flagship spend.",
+      "Tempo shoe stays optional until race-pace sessions actually appear in the plan.",
+      "Chest strap is a precision add-on — skip it if wrist HR is trustworthy on easy days.",
+    ],
+    summaryFocus: [
+      {
+        title: "Mileage first",
+        detail: "Soft daily shoe + watch carry the training block",
+      },
+      {
+        title: "Race speed later",
+        detail: "Add the tempo shoe when workouts earn it",
+      },
+    ],
+    compatibilityNotes: [
+      "Keep plated/tempo shoes for workouts and race rehearsals — not every easy run.",
+      "HRM Pro Plus pairs over ANT+/Bluetooth with Forerunner 570; enable HR source in the activity.",
+      "Sock + shoe combo should be locked before the longest long runs, not race week.",
+    ],
+    checklist: [
+      "Daily trainer broken in before peak long-run weeks",
+      "At least one 28–32 km long run in the race-week sock/shoe pairing",
+      "Watch charged and auto-lap / pace alerts tested",
+      "If using the tempo shoe: two workouts in it before race rehearsals",
+      "Optional HR strap paired and worn on one key session",
+    ],
+    budgetTiers: [
+      {
+        label: "Training core",
+        note: "NovaBlast 6 + Forerunner 570 + socks covers the bulk of first-marathon volume.",
+      },
+      {
+        label: "Add workout shoe",
+        note: "Endorphin Speed 5 when tempo / marathon-pace sessions need a faster ride.",
+      },
+    ],
+    itemPatches: {
+      "prod-novablast-6": {
+        importance: "required",
+        roleLabel: "DAILY TRAINER",
+        rationale:
+          "Primary shoe for easy and long runs across a first marathon block — soft enough for high mileage without forcing a plate every day.",
+        strengths: [
+          "Forgiving daily ride for high volume",
+          "Keeps race shoes for race day",
+          "Catalog long-run fit for first marathoners",
+        ],
+        whyNeeded:
+          "Most of a first marathon plan is easy/long miles; the daily shoe is the real workhorse.",
+        systemRole: "Absorbs training volume so tempo/race shoes stay fresh.",
+        tradeOffs:
+          "Not a race-day plate shoe — expect to add a faster option for workouts or race day.",
+        canOmit: "Do not omit — this is the core training shoe.",
+        cheaperAlternative: "Ghost 18 if you want a more traditional daily feel at similar role.",
+        upgradePath: "Move key long runs into a dedicated max-cushion shoe once volume climbs.",
+        alternativeProductIds: ["prod-ghost-18", "prod-pegasus-42"],
+      },
+      "prod-endorphin-speed-5": {
+        importance: "recommended",
+        roleLabel: "TEMPO SHOE",
+        rationale:
+          "Faster session shoe for marathon-pace and tempo work once weekly volume is stable.",
+        strengths: [
+          "Responsive nylon-plate ride",
+          "Bridges daily trainer and race shoe",
+          "Optional until workouts demand it",
+        ],
+        whyNeeded:
+          "First marathoners often need one faster shoe for quality sessions without buying a full race stack early.",
+        systemRole: "Handles tempo / MP workouts; optional race-day shoe for some runners.",
+        tradeOffs: "Extra spend and break-in; overkill if the plan is almost all easy miles.",
+        canOmit: "Omit until race-pace sessions appear; keep NovaBlast as the only shoe early.",
+        cheaperAlternative: "Use the daily trainer for early MP efforts if budget is tight.",
+        upgradePath: "Vaporfly / Adios Pro lane for race day once you know you want a plate.",
+        alternativeProductIds: ["prod-vaporfly-4"],
+      },
+      "prod-forerunner-570": {
+        importance: "required",
+        roleLabel: "GPS WATCH",
+        rationale:
+          "Training GPS for long-run pacing, weekly load, and race rehearsals without flagship cost.",
+        strengths: [
+          "Reliable GPS for long runs",
+          "Training features mid-tier Garmin buyers need",
+          "Works with optional HRM Pro Plus",
+        ],
+        whyNeeded: "First marathoners need honest pace and distance feedback on long runs.",
+        systemRole: "Pacing and session logging for the whole build.",
+        tradeOffs: "Fewer maps/premium sensors than Forerunner 970 — enough for road marathon training.",
+        canOmit: "Only if you already trust another GPS watch for long runs.",
+        cheaperAlternative: "Forerunner 165 if you only need simple GPS.",
+        upgradePath: "Forerunner 970 when you want maps and deeper race tools.",
+        compatibilityNotes: "Pairs with HRM Pro Plus for chest HR on key sessions.",
+        alternativeProductIds: ["prod-forerunner-165", "prod-forerunner-970"],
+      },
+      "prod-hrm-pro-plus": {
+        importance: "optional",
+        roleLabel: "HR STRAP",
+        rationale:
+          "Chest HR when wrist optical drifts on intervals, cold starts, or treadmill sessions.",
+        strengths: [
+          "More stable HR on key workouts",
+          "Native Garmin pairing",
+          "Skip if wrist HR is trusted",
+        ],
+        whyNeeded: "Useful when heart-rate targets matter more than easy-run effort feel.",
+        systemRole: "Precision HR input for the Forerunner on hard days.",
+        tradeOffs: "Another strap to wet, charge, and remember — optional for many first-timers.",
+        canOmit: "Omit if easy-run RPE and wrist HR are already consistent.",
+        cheaperAlternative: "Rely on wrist optical until a workout proves it unreliable.",
+        upgradePath: "Keep this strap; upgrade the watch first if you need more features.",
+        compatibilityNotes:
+          "Pair HRM Pro Plus to Forerunner 570 before the session; select the strap as HR source.",
+      },
+      "prod-feetures-elite-light-cushion": {
+        importance: "recommended",
+        roleLabel: "SOCKS",
+        rationale:
+          "Anatomical light-cushion sock for blister control on long training days and race rehearsals.",
+        strengths: [
+          "Light cushion for long runs",
+          "Left/right anatomical fit",
+          "Same sock on race day reduces surprises",
+        ],
+        whyNeeded: "Cotton gym socks are a common first-marathon blister source.",
+        systemRole: "Blister control layer under the daily and race shoes.",
+        tradeOffs: "Buy a few pairs — one race sock is not a rotation.",
+        canOmit: "Only if you already have a proven race sock.",
+        cheaperAlternative: "Balega Hidden Comfort if you prefer a different cushion profile.",
+        upgradePath: "Add a recovery compression sock post-long-run — not required in this kit.",
+        alternativeProductIds: ["prod-balega-hidden-comfort"],
+      },
+    },
+  },
+
+  "setup-marathon-race-day": {
+    scenario:
+      "Road marathon morning: plated race shoes you’ve already raced or workout-tested, GPS with pace alerts, light apparel and socks you’ve worn on a long run, plus optional belt/strap/sunglasses for your weather and fuel plan.",
+    goalLabel: "Marathon race-day performance",
+    experienceLevel: "All marathon runners",
+    eyebrow: "GEAR KIT",
+    setupType: "editorial",
+    whyTitle: "Why a complete race-day kit?",
+    whyReasons: [
+      "Race shoe, watch, apparel and socks are locked as one tested system — not last-minute swaps.",
+      "Optional belt and chest strap cover fuel and HR without forcing them on every runner.",
+      "Sunglasses stay weather-dependent so low-light starts are not over-kitted.",
+      "Peers stay in the same marathon race lane when feet, budget or brand preference differ.",
+    ],
+    summaryFocus: [
+      {
+        title: "Tested race stack",
+        detail: "Shoes, socks and apparel already worn together",
+      },
+      {
+        title: "Pace + fuel",
+        detail: "Watch and belt cover splits and gels",
+      },
+    ],
+    compatibilityNotes: [
+      "Race shoes + race socks must be the same pairing used on a long workout.",
+      "HRM Pro Plus pairs with Forerunner 970 over ANT+/Bluetooth — enable strap HR before the gun.",
+      "SpiBelt sits over race shorts; confirm gel count does not bounce on a shakeout.",
+      "Goodr OGs can stay in the bag for dawn / heavy cloud starts.",
+    ],
+    checklist: [
+      "Race shoes broken in on shorter races or hard workouts",
+      "Race apparel and socks tested on a long run",
+      "Nutrition plan rehearsed (gels in the belt you will wear)",
+      "Weather layers and sunglasses decision made the night before",
+      "Watch charged; pace alerts or lap strategy set",
+      "Race number / bib attachment ready",
+    ],
+    itemPatches: {
+      "prod-vaporfly-4": {
+        importance: "required",
+        roleLabel: "RACE SHOES",
+        rationale:
+          "Lightweight plated race shoe for road marathon day when you’ve already confirmed fit on shorter efforts.",
+        strengths: [
+          "Light plated marathon ride",
+          "Strong road-race use-case fit",
+          "Current generation in catalog",
+        ],
+        whyNeeded: "Race day is where the plate earns its keep after training in daily shoes.",
+        systemRole: "Primary propulsion footwear for the marathon.",
+        tradeOffs: "Less forgiving than a daily trainer — only race what you’ve already worn hard.",
+        canOmit: "Do not omit on race morning; swap peers only if already broken in.",
+        cheaperAlternative: "Adios Pro 4 when you want a different plate feel at similar role.",
+        upgradePath: "Alphafly 3 if you prefer more stack and have confirmed race fit.",
+        alternativeProductIds: ["prod-alphafly-3", "prod-adios-pro-4"],
+      },
+      "prod-forerunner-970": {
+        importance: "required",
+        roleLabel: "GPS WATCH",
+        rationale:
+          "Flagship race GPS for splits, pacing tools and battery that covers a full marathon day.",
+        strengths: [
+          "Race pacing and lap tools",
+          "Long battery for marathon day",
+          "Maps when courses need them",
+        ],
+        whyNeeded: "Race-day pacing mistakes are expensive; the watch is the guardrail.",
+        systemRole: "Pace, distance and split control from gun to finish.",
+        tradeOffs: "Flagship cost — Forerunner 570 is enough if you already race with it.",
+        canOmit: "Only if another race-proven GPS is already on your wrist.",
+        cheaperAlternative: "Forerunner 570 for the same race role at mid-tier spend.",
+        upgradePath: "Stay on 970; add chest HR rather than another watch.",
+        compatibilityNotes: "Use with HRM Pro Plus when wrist HR is unreliable in the pack.",
+        alternativeProductIds: ["prod-forerunner-570", "prod-coros-pace-pro"],
+      },
+      "prod-goodr-ogs": {
+        importance: "recommended",
+        roleLabel: "SUNGLASSES",
+        rationale:
+          "Light no-slip shades for bright road marathons; leave them off when light is poor.",
+        strengths: [
+          "Secure running fit",
+          "Light enough for race effort",
+          "Easy to skip in low light",
+        ],
+        whyNeeded: "Glare and wind on open courses can steal focus in the middle miles.",
+        systemRole: "Eye comfort and glare control on bright race days.",
+        tradeOffs: "Another item to manage at the start line.",
+        canOmit:
+          "Omit for dawn starts, heavy cloud, rain, or indoor stadium starts — low light is a valid skip.",
+        cheaperAlternative: "Any light running shade you already trust on long runs.",
+        upgradePath: "Oakley Encoder or Julbo Aerolite if you want premium optics.",
+        alternativeProductIds: ["prod-julbo-aerolite", "prod-oakley-encoder"],
+      },
+      "prod-asics-race-short": {
+        importance: "required",
+        roleLabel: "RACE APPAREL",
+        rationale:
+          "Light split short for warm-weather marathon effort — only race what you’ve long-run tested.",
+        strengths: [
+          "Split race cut",
+          "Breathable fabric for race effort",
+          "Pocket/belt friendly with SpiBelt",
+        ],
+        whyNeeded: "Race apparel chafe shows up after 25 km, not in the shop.",
+        systemRole: "Body layer that must coexist with belt, bib and gels.",
+        tradeOffs: "Warm-weather bias — add tights/layers for cold starts outside this kit.",
+        canOmit: "Swap only to another long-run-proven short.",
+        cheaperAlternative: "Craft ADV Essence Short for a simpler race short.",
+        upgradePath: "Nike Stride Short if you prefer that cut and pocket layout.",
+        alternativeProductIds: ["prod-nike-stride-short", "prod-craft-adv-essence-short"],
+      },
+      "prod-feetures-elite-light-cushion": {
+        importance: "required",
+        roleLabel: "SOCKS",
+        rationale:
+          "Anatomical race sock aimed at blister control with your broken-in race shoes.",
+        strengths: [
+          "Light cushion for race distance",
+          "Anatomical left/right fit",
+          "Pairs with Vaporfly on race day",
+        ],
+        whyNeeded: "Sock changes on race morning are a classic blister setup.",
+        systemRole: "Interface between foot and race shoe for the full distance.",
+        tradeOffs: "Bring a spare pair in the drop bag if weather turns wet.",
+        canOmit: "Do not omit unless replacing with another race-proven sock.",
+        cheaperAlternative: "Balega Hidden Comfort if that is your locked race sock.",
+        upgradePath: "Same sock brand in a higher cushion if you blister on the forefoot.",
+        alternativeProductIds: ["prod-balega-hidden-comfort"],
+      },
+      "prod-spibelt-original": {
+        importance: "recommended",
+        roleLabel: "RACE BELT",
+        rationale:
+          "Minimal belt for gels and small race essentials you’ve already fuelled with in training.",
+        strengths: [
+          "Low-bounce gel carry",
+          "Keeps hands free",
+          "Optional if shorts pockets hold your fuel",
+        ],
+        whyNeeded: "Most marathon fuel plans need more gels than short pockets hold cleanly.",
+        systemRole: "Fuel and small essentials carry over race apparel.",
+        tradeOffs: "Slight bounce if overstuffed — rehearse gel count.",
+        canOmit: "Omit if race shorts pockets already carry your full gel plan.",
+        cheaperAlternative: "FlipBelt Classic if you prefer a wider soft belt.",
+        upgradePath: "Nathan Mirage when you want a different soft-flask-capable race belt.",
+        alternativeProductIds: ["prod-flipbelt-classic", "prod-nathan-mirage"],
+      },
+      "prod-hrm-pro-plus": {
+        importance: "optional",
+        roleLabel: "HR STRAP",
+        rationale:
+          "Chest strap when you race by heart rate or distrust wrist optical in a crowded field.",
+        strengths: [
+          "Chest HR when wrist drifts",
+          "Pairs cleanly with Garmin race watches",
+          "Skip if you pace by feel/watch pace only",
+        ],
+        whyNeeded: "Useful for HR-capped marathon strategies; optional for pure pace racers.",
+        systemRole: "Optional HR precision for Forerunner 970 on race day.",
+        tradeOffs: "Strap comfort over 42 km — only race what you’ve worn long.",
+        canOmit: "Omit if race plan is pace/feel only and wrist HR is unused.",
+        cheaperAlternative: "Skip the strap and race off pace alerts.",
+        upgradePath: "Keep the strap; no upgrade needed for race day.",
+        compatibilityNotes:
+          "Pair HRM Pro Plus with Forerunner 970 before the start; confirm HR source is the strap.",
+      },
+    },
+  },
+
+  "setup-beginner": {
+    scenario:
+      "First 8–12 weeks of consistent running: 2–4 easy sessions a week toward a first 5K. One forgiving daily shoe and proper socks matter more than plates, belts or flagship watches.",
+    goalLabel: "Start running consistently",
+    experienceLevel: "Beginners",
+    eyebrow: "STARTER KIT",
+    setupType: "editorial",
+    whyTitle: "Why this beginner kit?",
+    whyReasons: [
+      "Ghost 18 covers easy miles without pushing race-plate spend before consistency exists.",
+      "Running socks prevent the blister cycle that stops new runners mid-block.",
+      "Entry Garmin is optional — phone GPS is enough until you care about paced workouts.",
+      "Belt stays optional so phone-carry preference does not bloat the starter spend.",
+    ],
+    summaryFocus: [
+      {
+        title: "Shoe + socks first",
+        detail: "Consistency gear before race toys",
+      },
+      {
+        title: "Watch when useful",
+        detail: "Add GPS once you want structured pace",
+      },
+    ],
+    compatibilityNotes: [
+      "Fit the Ghost with the same sock you will train in — do not switch sock brands mid-block.",
+      "FlipBelt is for phone carry; skip if shorts pockets already hold the phone securely.",
+      "Forerunner 165 is additive — not required to finish a first 5K.",
+    ],
+    checklist: [
+      "Shoes fitted with dedicated running socks",
+      "Two easy weeks before adding speedwork fantasies",
+      "Phone or watch charged for outdoor routes",
+      "One spare sock pair in rotation",
+      "Skip race plates until you have a race date and consistent base",
+    ],
+    budgetTiers: [
+      {
+        label: "Essentials",
+        note: "Ghost 18 + Feetures socks — enough to start consistent easy running.",
+      },
+      {
+        label: "Add tracking",
+        note: "Forerunner 165 when you want on-wrist pace without pulling a phone every run.",
+      },
+    ],
+    itemPatches: {
+      "prod-ghost-18": {
+        importance: "required",
+        roleLabel: "DAILY TRAINER",
+        rationale:
+          "Forgiving daily trainer to build the habit — comfort and durability over race tech.",
+        strengths: [
+          "Comfortable everyday ride",
+          "Broad fit for new runners",
+          "Avoids early race-plate spend",
+        ],
+        whyNeeded: "A dedicated running shoe is the one upgrade that changes how easy miles feel.",
+        systemRole: "Only required footwear for the starter block.",
+        tradeOffs: "Not a race shoe — add a faster option later if you chase PBs.",
+        canOmit: "Do not omit.",
+        cheaperAlternative: "Sale previous-gen daily trainers in the same fit family.",
+        upgradePath: "Add a second daily or tempo shoe once weekly volume is consistent.",
+        alternativeProductIds: ["prod-pegasus-42", "prod-novablast-6"],
+      },
+      "prod-feetures-elite-light-cushion": {
+        importance: "required",
+        roleLabel: "SOCKS",
+        rationale: "Dedicated running sock so cotton gym socks do not end the first longish run.",
+        strengths: [
+          "Running-specific fit",
+          "Light cushion for new mileage",
+          "Pairs with Ghost from day one",
+        ],
+        whyNeeded: "Blisters are the fastest way to break a new habit.",
+        systemRole: "Foot comfort layer under the daily trainer.",
+        tradeOffs: "Buy multiples — one pair is not enough for a week of runs.",
+        canOmit: "Only if you already own a proven running sock.",
+        cheaperAlternative: "Balega Hidden Comfort as a peer sock.",
+        upgradePath: "Stay on light cushion until long runs demand more.",
+        alternativeProductIds: ["prod-balega-hidden-comfort"],
+      },
+      "prod-forerunner-165": {
+        importance: "recommended",
+        roleLabel: "GPS WATCH",
+        rationale:
+          "Entry GPS when phone tracking feels clumsy and you want simple paced runs.",
+        strengths: [
+          "Simple GPS tracking",
+          "Lower cost than flagship watches",
+          "Optional early on",
+        ],
+        whyNeeded: "Useful once you care about pace/distance without carrying a phone.",
+        systemRole: "Optional training feedback for easy runs and first 5K.",
+        tradeOffs: "Another charge cycle — phone GPS is fine for pure habit building.",
+        canOmit: "Omit for the first month if motivation > metrics.",
+        cheaperAlternative: "Phone GPS apps until you know you want a watch.",
+        upgradePath: "Forerunner 570 when training features matter more.",
+        alternativeProductIds: ["prod-forerunner-570"],
+      },
+      "prod-flipbelt-classic": {
+        importance: "optional",
+        roleLabel: "BELT",
+        rationale: "Soft belt for phone and key carry on solo outdoor runs.",
+        strengths: [
+          "Hands-free phone carry",
+          "Skip if pockets work",
+          "Useful on solo routes",
+        ],
+        whyNeeded: "Only when pockets bounce or you want the phone off-hand.",
+        systemRole: "Optional carry for phone/keys — not a race fuel system.",
+        tradeOffs: "Extra layer around the waist for short easy runs.",
+        canOmit: "Omit if shorts pockets already secure the phone.",
+        cheaperAlternative: "Armband or pocket-first shorts.",
+        upgradePath: "SpiBelt later if you move into gel-based race fuel.",
+        alternativeProductIds: ["prod-spibelt-original"],
+      },
+    },
+  },
+
+  "setup-half-marathon": {
+    scenario:
+      "10–14 week half-marathon block: weekday easy miles in a daily trainer, one faster session shoe for tempos/race day, and GPS to keep long-run and race pacing honest.",
+    goalLabel: "Half marathon training",
+    experienceLevel: "Intermediate",
+    eyebrow: "GEAR KIT",
+    setupType: "editorial",
+    whyTitle: "Why this half-marathon kit?",
+    whyReasons: [
+      "Pegasus covers the weekly easy and long volume without overcomplicating rotation.",
+      "Endorphin Speed handles tempos and is a realistic race-day shoe for many half runners.",
+      "Forerunner 570 gives mid-tier pacing tools for long runs and race day.",
+      "Three roles stay lean — no forced belt/vest stack for a road half.",
+    ],
+    summaryFocus: [
+      {
+        title: "Daily + faster",
+        detail: "Two-shoe rotation for a half block",
+      },
+      {
+        title: "Pacing covered",
+        detail: "GPS for long runs and race day",
+      },
+    ],
+    compatibilityNotes: [
+      "Keep Endorphin Speed for workouts and race day; do not burn it on every easy run.",
+      "Lock sock choice with both shoes before the peak long run.",
+      "Race with the same watch settings you used on long-run rehearsals.",
+    ],
+    checklist: [
+      "Daily trainer healthy for peak weekly mileage",
+      "At least two workouts in the tempo/race shoe",
+      "Long-run pace alerts tested on the watch",
+      "Race-day sock and shoe pairing confirmed",
+      "Fuel plan for race day rehearsed on a long run",
+    ],
+    itemPatches: {
+      "prod-pegasus-42": {
+        importance: "required",
+        roleLabel: "DAILY TRAINER",
+        rationale:
+          "Versatile daily trainer for the easy and long days that dominate a half block.",
+        strengths: [
+          "Versatile daily miles",
+          "Handles most half training weeks",
+          "Pairs cleanly with a faster second shoe",
+        ],
+        whyNeeded: "Half training is still mostly easy volume — the daily shoe does that job.",
+        systemRole: "Primary training footwear for the block.",
+        tradeOffs: "Not as soft as max-cushion dailies; not as snappy as a tempo shoe.",
+        canOmit: "Do not omit.",
+        cheaperAlternative: "Ghost 18 for a softer traditional daily.",
+        upgradePath: "NovaBlast 6 if you want more daily bounce for higher volume.",
+        alternativeProductIds: ["prod-ghost-18", "prod-novablast-6"],
+      },
+      "prod-endorphin-speed-5": {
+        importance: "recommended",
+        roleLabel: "TEMPO SHOE",
+        rationale:
+          "Faster option for workouts and a common race-day shoe for half marathoners.",
+        strengths: [
+          "Responsive tempo ride",
+          "Viable half race-day shoe",
+          "Optional if budget is tight",
+        ],
+        whyNeeded: "Quality sessions and race day benefit from a lighter, snappier ride.",
+        systemRole: "Workout and race-day footwear alongside the daily trainer.",
+        tradeOffs: "Second shoe cost — skip early if all sessions are easy.",
+        canOmit: "Omit until tempos appear; race the daily only if already proven.",
+        cheaperAlternative: "Race the Pegasus if budget allows only one shoe.",
+        upgradePath: "Vaporfly lane for half PB attempts once fit is confirmed.",
+        alternativeProductIds: ["prod-vaporfly-4"],
+      },
+      "prod-forerunner-570": {
+        importance: "required",
+        roleLabel: "GPS WATCH",
+        rationale:
+          "GPS for long-run pacing through the half build and race-day splits.",
+        strengths: [
+          "Training and race pacing",
+          "Solid mid-tier Garmin option",
+          "Covers key half sessions",
+        ],
+        whyNeeded: "Half pacing errors often start on unsupervised long runs.",
+        systemRole: "Pacing and session control for training and race day.",
+        tradeOffs: "Mid-tier feature set — enough for road halves without flagship maps spend.",
+        canOmit: "Only if you already race with another trusted GPS.",
+        cheaperAlternative: "Forerunner 165 for simpler pacing needs.",
+        upgradePath: "Forerunner 970 for deeper race tools.",
+        alternativeProductIds: ["prod-forerunner-165", "prod-forerunner-970"],
+      },
+    },
+  },
+
+  "setup-trail-starter": {
+    scenario:
+      "First season of local trail loops and unsupported 10–20 km days: trail shoe with real grip, ADV Skin vest for water/layers, soft flasks that fit the vest pockets, optional GPS and headlamp when dark or navigation matter.",
+    goalLabel: "Trail running starter",
+    experienceLevel: "Beginner to intermediate trail",
+    eyebrow: "STARTER KIT",
+    setupType: "editorial",
+    whyTitle: "Why this trail starter kit?",
+    whyReasons: [
+      "Speedgoat grip and cushion cover mixed terrain before you specialise in ultra kit.",
+      "ADV Skin 12 carries water and layers when aid stations do not exist.",
+      "Soft flasks are sized for the vest — hydration only works if pockets and flasks match.",
+      "Watch and headlamp stay condition-dependent so daytime park loops stay lean.",
+    ],
+    summaryFocus: [
+      {
+        title: "Shoe + vest first",
+        detail: "Grip and carry before ultra gadgets",
+      },
+      {
+        title: "Flasks that fit",
+        detail: "Soft flasks matched to ADV Skin pockets",
+      },
+    ],
+    compatibilityNotes: [
+      "Soft Flask 500 must seat in ADV Skin 12 front pockets — check pocket height before buying third-party flasks.",
+      "Do not assume road soft flasks or bottles fit Salomon ADV Skin sleeves.",
+      "Headlamp straps over the vest; test bounce on a night shakeout.",
+      "COROS Pace Pro is optional for marked daytime loops.",
+    ],
+    checklist: [
+      "Trail shoes tested on similar terrain before a long unsupported day",
+      "Vest loaded with flasks, soft flasks filled, and a shakeout run completed",
+      "Layer + phone/key placement rehearsed in vest pockets",
+      "Headlamp batteries charged if dark start/finish is possible",
+      "Route GPS or map plan confirmed when trails are unmarked",
+    ],
+    itemPatches: {
+      "prod-speedgoat-6": {
+        importance: "required",
+        roleLabel: "TRAIL SHOES",
+        rationale:
+          "Aggressive trail shoe for mixed terrain starters who need grip and cushion on first trail blocks.",
+        strengths: [
+          "Trail grip for mixed terrain",
+          "Cushion for longer trail days",
+          "Core footwear role",
+        ],
+        whyNeeded: "Road shoes on wet roots/rock are the wrong risk profile for trail starts.",
+        systemRole: "Primary trail footwear for the starter season.",
+        tradeOffs: "Luggy outsole is slower on pure road approaches.",
+        canOmit: "Do not omit on real trail days.",
+        cheaperAlternative: "Prior-gen Speedgoat on sale if fit matches.",
+        upgradePath: "More specialised rock-plate or race trail shoes once terrain demands it.",
+      },
+      "prod-adv-skin-12": {
+        importance: "required",
+        roleLabel: "HYDRATION VEST",
+        rationale:
+          "Vest for water, soft flasks, layers and fuel on unsupported trail days.",
+        strengths: [
+          "Hands-free hydration",
+          "Storage for layers and fuel",
+          "Designed around soft-flask front pockets",
+        ],
+        whyNeeded: "Trail loops often lack reliable water stops.",
+        systemRole: "Carry system that soft flasks and layers plug into.",
+        tradeOffs: "Fit is personal — size the vest carefully; bounce ruins long days.",
+        canOmit: "Omit only for short, fully supported park loops.",
+        cheaperAlternative: "UD Adventure Vest if you prefer that carry pattern.",
+        upgradePath: "Larger ADV Skin or race vest when volume grows.",
+        compatibilityNotes:
+          "Front pockets are built for Salomon-style soft flasks (e.g. Soft Flask 500) — verify flask diameter/height.",
+        alternativeProductIds: ["prod-ud-adventure-vest"],
+      },
+      "prod-soft-flask-500": {
+        importance: "recommended",
+        roleLabel: "FLASKS",
+        rationale:
+          "Soft flasks that seat in ADV Skin front pockets for on-trail sipping.",
+        strengths: [
+          "Compatible with ADV Skin pocket geometry",
+          "Easy on-trail access",
+          "Optional if the vest already ships with fitting flasks",
+        ],
+        whyNeeded: "A vest without fitting flasks is just a backpack.",
+        systemRole: "Hydration vessels matched to the vest carry system.",
+        tradeOffs: "Buy the size your vest pockets specify — random flasks often do not seat.",
+        canOmit: "Omit if ADV Skin purchase already includes correctly sized soft flasks.",
+        cheaperAlternative: "Nathan soft flask peers only if pocket fit is confirmed.",
+        upgradePath: "Insulated flasks for hot long days once the vest fit is locked.",
+        compatibilityNotes:
+          "Confirm Soft Flask 500 seats fully in ADV Skin 12 front sleeves; do not force mismatched bottles.",
+        alternativeProductIds: ["prod-nathan-softflask-18oz"],
+      },
+      "prod-coros-pace-pro": {
+        importance: "recommended",
+        roleLabel: "GPS WATCH",
+        rationale:
+          "Long-battery GPS with navigation tools for trail days that leave marked loops.",
+        strengths: [
+          "Long battery for trail",
+          "Navigation tools",
+          "Optional on short marked routes",
+        ],
+        whyNeeded: "Useful when routes fork and phone battery is not the plan.",
+        systemRole: "Navigation and duration tracking for trail sessions.",
+        tradeOffs: "Extra spend for runners who only do marked daytime park trails.",
+        canOmit: "Omit for short, well-marked daytime loops.",
+        cheaperAlternative: "COROS Pace 3/4 if you need less navigation depth.",
+        upgradePath: "Stay on Pace Pro until ultra days demand more battery accessories.",
+        alternativeProductIds: ["prod-coros-pace-3", "prod-coros-pace-4"],
+      },
+      "prod-petzl-swift-rl": {
+        importance: "optional",
+        roleLabel: "HEADLAMP",
+        rationale:
+          "Headlamp when dark starts, finishes or forest canopy make a light mandatory.",
+        strengths: [
+          "Dark-condition safety",
+          "Skip for daytime-only trails",
+          "Condition-dependent",
+        ],
+        whyNeeded: "Trail timing slips; darkness without a lamp ends the day.",
+        systemRole: "Lighting for low-light trail movement.",
+        tradeOffs: "Weight and charge management for daytime-only runners.",
+        canOmit: "Omit for reliable daytime-only routes.",
+        cheaperAlternative: "Petzl Actik Core for simpler lighting needs.",
+        upgradePath: "Nao RL when you want reactive lighting for technical night trails.",
+        alternativeProductIds: ["prod-petzl-actik-core", "prod-petzl-nao-rl"],
+      },
+    },
+  },
+
+  "setup-padel-starter": {
+    scenario:
+      "First 2–3 months on court: club nights and social matches. One current racket, proper padel shoes, a can of balls and fresh overgrips — enough to play without borrowing mismatched kit every session.",
+    goalLabel: "Start playing padel regularly",
+    experienceLevel: "Beginners",
+    eyebrow: "STARTER KIT",
+    setupType: "editorial",
+    whyTitle: "Why this padel starter kit?",
+    whyReasons: [
+      "A dedicated padel racket beats a borrowed tennis frame for sweet-spot forgiveness on glass.",
+      "Courtstabil outsole and lateral support match padel movement better than running shoes.",
+      "Fresh balls keep rallies honest while you learn timing.",
+      "Overgrips fix tack and thickness without buying a new racket.",
+    ],
+    summaryFocus: [
+      {
+        title: "Racket + shoes",
+        detail: "Court-ready essentials for club nights",
+      },
+      {
+        title: "Balls + grips",
+        detail: "Consumables that keep sessions playable",
+      },
+    ],
+    compatibilityNotes: [
+      "Wear padel shoes on court — running shoes lack the lateral outsole pattern padel needs.",
+      "Refresh overgrips before the base grip gets polished and slippery.",
+      "Balls age fast in heat; open a new can when bounce dies mid-session.",
+    ],
+    checklist: [
+      "Racket grip thickness comfortable after an overgrip",
+      "Shoes broken in on a short session before match night",
+      "One unopened ball can in the bag",
+      "Spare overgrip in the side pocket",
+      "Optional thermo bag later when you carry shoes + extras",
+    ],
+    itemPatches: {
+      "prod-head-coello-pro": {
+        importance: "required",
+        roleLabel: "PADEL RACKET",
+        rationale:
+          "Current Head frame that stays playable for new players without forcing an ultra-soft beginner toy.",
+        strengths: [
+          "Forgiving enough for new players",
+          "Current generation shape/feel",
+          "Core of the starter kit",
+        ],
+        whyNeeded: "You need one racket that is actually yours across club nights.",
+        systemRole: "Primary striking tool for learning padel.",
+        tradeOffs: "Not the softest beginner bat — still more usable than random loaner frames.",
+        canOmit: "Do not omit.",
+        cheaperAlternative: "Prior-gen Head/Wilson beginner frames on sale if budget is tight.",
+        upgradePath: "Move to a more control- or power-biased racket once level stabilises.",
+      },
+      "prod-adidas-courtstabil": {
+        importance: "required",
+        roleLabel: "PADEL SHOES",
+        rationale:
+          "Padel court shoe with outsole and lateral support for glass-and-turf movement.",
+        strengths: [
+          "Court-specific outsole",
+          "Lateral support for padel cuts",
+          "Safer than running shoes on court",
+        ],
+        whyNeeded: "Padel footwork is lateral; running shoes are the wrong tool.",
+        systemRole: "Court footwear for every session.",
+        tradeOffs: "Court rubber wears on abrasive surfaces — expect replacement sooner than road shoes.",
+        canOmit: "Do not omit for regular play.",
+        cheaperAlternative: "Other padel court shoes in catalog when Courtstabil is unavailable.",
+        upgradePath: "Higher-end padel shoes once weekly frequency climbs.",
+      },
+      "prod-head-padel-pro-s": {
+        importance: "required",
+        roleLabel: "PADEL BALLS",
+        rationale:
+          "Pressurized padel balls for training and social match bounce.",
+        strengths: [
+          "Proper padel bounce",
+          "Training/competition can format",
+          "Essential consumable",
+        ],
+        whyNeeded: "Dead balls make learning timing impossible.",
+        systemRole: "Match/training ball supply.",
+        tradeOffs: "Consumable — budget for replacements.",
+        canOmit: "Only if the club always supplies fresh cans.",
+        cheaperAlternative: "Club house balls when quality is acceptable.",
+        upgradePath: "Keep Pro S as the standard can; buy volume when you play more.",
+      },
+      "prod-wilson-overgrip": {
+        importance: "recommended",
+        roleLabel: "OVERGRIPS",
+        rationale:
+          "Tack and diameter refresh every few sessions so the base grip stays clean.",
+        strengths: [
+          "Quick tack refresh",
+          "Fine-tunes grip thickness",
+          "Cheap insurance against slips",
+        ],
+        whyNeeded: "Sweaty polished grips cause mishits long before the racket is ‘done’.",
+        systemRole: "Grip surface consumable on the racket.",
+        tradeOffs: "Must be replaced regularly — not a one-time buy.",
+        canOmit: "Omit only if you prefer replacing the base grip instead.",
+        cheaperAlternative: "Any quality overgrip you can replace often.",
+        upgradePath: "Stay on overgrips; change brand only for tack preference.",
+        compatibilityNotes: "Apply over the base grip; replace when tack dies — do not stack endlessly.",
+      },
+    },
+  },
+
+  "setup-tennis-starter": {
+    scenario:
+      "Returning to tennis or starting lessons: a forgiving 100 sq in frame, stable clay/hard-court shoes, and a spin-friendly poly string job so the racket is actually playable out of the bag.",
+    goalLabel: "Return to / start tennis",
+    experienceLevel: "Beginners to intermediates",
+    eyebrow: "STARTER KIT",
+    setupType: "editorial",
+    whyTitle: "Why this tennis starter kit?",
+    whyReasons: [
+      "Clash 100’s flexible beam helps newer players find the ball without a stiff control frame.",
+      "Gel-Resolution stability matches lesson and match footwork better than running shoes.",
+      "RPM Blast gives spin-friendly polyester response once tensioned for the Clash.",
+      "Three pieces cover strike, move and string — no bag bloat for the first block of lessons.",
+    ],
+    summaryFocus: [
+      {
+        title: "Frame that forgives",
+        detail: "Clash 100 for lesson and social play",
+      },
+      {
+        title: "Shoes + string",
+        detail: "Court movement and a spin-ready stringbed",
+      },
+    ],
+    compatibilityNotes: [
+      "String RPM Blast at a beginner-friendly tension for Clash 100 — ask the stringer for a setup for flexible 100 sq in frames.",
+      "Do not play tennis in running shoes on hard courts long-term.",
+      "Restring before the poly goes lifeless — dead poly hurts the arm more than a softer multi.",
+    ],
+    checklist: [
+      "Racket strung before first lesson (do not hit with shipping string if dead)",
+      "Shoes fitted for your court surface (hard vs clay variants)",
+      "Grip size confirmed — overgrip if between sizes",
+      "Spare set of strings or restring booked after ~8–12 weeks of play",
+    ],
+    itemPatches: {
+      "prod-wilson-clash-100-v2": {
+        importance: "required",
+        roleLabel: "TENNIS RACKET",
+        rationale:
+          "Forgiving 100 sq in Clash frame for lessons and social play without a harsh control stick.",
+        strengths: [
+          "Flexible, arm-friendlier feel",
+          "Generous sweet spot for starters",
+          "Pairs with RPM Blast string jobs",
+        ],
+        whyNeeded: "A dedicated tennis racket is the centre of every session.",
+        systemRole: "Primary frame; stringbed completes the playable system.",
+        tradeOffs: "Less ‘pro control’ feel than dense blade frames — intentional for starters.",
+        canOmit: "Do not omit.",
+        cheaperAlternative: "Clash 100 v3 if that is the available generation.",
+        upgradePath: "More control- or power-biased frames once level and preference are clear.",
+        compatibilityNotes: "String with RPM Blast (or similar poly) at a tension suited to Clash’s flex.",
+        alternativeProductIds: ["prod-wilson-clash-100-v3"],
+      },
+      "prod-asics-gel-resolution-9": {
+        importance: "required",
+        roleLabel: "TENNIS SHOES",
+        rationale:
+          "Stable tennis shoe for hard-court lesson and match movement.",
+        strengths: [
+          "Lateral stability for tennis",
+          "Court outsole durability",
+          "Trusted lesson/match shoe",
+        ],
+        whyNeeded: "Tennis cuts punish running shoes and ankles.",
+        systemRole: "Court footwear for every hit.",
+        tradeOffs: "Pick clay-specific outsoles if you play mostly clay.",
+        canOmit: "Do not omit for regular play.",
+        cheaperAlternative: "Prior-gen Resolution on sale in the same fit.",
+        upgradePath: "Clay-specific Resolution variant when surface demands it.",
+        alternativeProductIds: ["prod-asics-gel-resolution-9-clay"],
+      },
+      "prod-babolat-rpm-blast": {
+        importance: "required",
+        roleLabel: "TENNIS STRING",
+        rationale:
+          "Spin-friendly polyester to make the Clash playable for modern topspin rally balls.",
+        strengths: [
+          "Spin-oriented poly profile",
+          "Common stringer setup",
+          "Completes the racket system",
+        ],
+        whyNeeded: "A frame without a fresh string job is half a racket.",
+        systemRole: "Stringbed matched to the Clash for starter spin and control.",
+        tradeOffs: "Poly goes dead — plan resrings; softer multi if arm comfort dominates.",
+        canOmit: "Do not omit — restring rather than skip.",
+        cheaperAlternative: "Club house poly at a tension your stringer recommends.",
+        upgradePath: "Hybrid setups later once you know tension preference.",
+        compatibilityNotes:
+          "Tension for Clash 100’s flexible beam — avoid copying stiff-frame tension recipes blindly.",
+      },
+    },
+  },
+
+  "setup-beginner-home-gym": {
+    scenario:
+      "First strength block at home with space for a bench: learn squats, hinges, presses and rows with adjustable dumbbells on mats, then progress loads before thinking about a full rack.",
+    goalLabel: "Start strength training at home",
+    experienceLevel: "Beginners",
+    eyebrow: "HOME GYM",
+    setupType: "editorial",
+    whyTitle: "Why this beginner home gym?",
+    whyReasons: [
+      "Bowflex 552 covers a wide load range without buying a full dumbbell tree.",
+      "FID bench unlocks incline/flat pressing and seated work the floor cannot.",
+      "Flooring protects finishes and gives a defined training patch.",
+      "Recovery roller stays optional so the kit remains strength-first.",
+    ],
+    summaryFocus: [
+      {
+        title: "Bells + bench",
+        detail: "Full-body strength without a rack yet",
+      },
+      {
+        title: "Mats first",
+        detail: "Protect floors before loading up",
+      },
+    ],
+    compatibilityNotes: [
+      "Place the FID bench fully on Mirafit mats — legs should not bridge onto bare floor.",
+      "Bowflex dials need clearance beside the bench; measure room width before delivery.",
+      "This is not a barbell garage — keep loads dumbbell-appropriate.",
+    ],
+    checklist: [
+      "Flooring down before first loaded session",
+      "Bench lock pins understood for incline/flat",
+      "Dumbbell dials tested through the range you will use",
+      "Clear walkway around bench for get-ups",
+      "Optional roller only after training consistency exists",
+    ],
+    itemPatches: {
+      "prod-bowflex-552": {
+        importance: "required",
+        roleLabel: "ADJUSTABLE DUMBBELLS",
+        rationale:
+          "Selector dumbbells that replace a rack of fixed bells for beginner progressive overload.",
+        strengths: [
+          "Wide load range in one pair",
+          "Space-efficient vs fixed sets",
+          "Core strength tool of this kit",
+        ],
+        whyNeeded: "Progression dies when you only own two fixed weights.",
+        systemRole: "Primary loading tool for presses, rows, squats and hinges.",
+        tradeOffs: "Dial mechanisms are slower than fixed bells between drop sets.",
+        canOmit: "Do not omit.",
+        cheaperAlternative: "Nuobell 50 if you prefer a different adjustable format.",
+        upgradePath: "Fixed bells or a barbell setup once loads outgrow adjustable dials.",
+      },
+      "prod-mirafit-fid-bench": {
+        importance: "required",
+        roleLabel: "BENCH",
+        rationale:
+          "Adjustable FID bench for flat/incline pressing and seated work with the Bowflex pair.",
+        strengths: [
+          "Incline and flat positions",
+          "Pairs with adjustable bells",
+          "Defines a real strength station",
+        ],
+        whyNeeded: "Floor-only pressing limits what a beginner can learn well.",
+        systemRole: "Supported pressing and seated strength positions.",
+        tradeOffs: "Needs floor footprint — not apartment-micro.",
+        canOmit: "Omit only if space forces floor-only work (see apartment kit).",
+        cheaperAlternative: "ATX FID bench as a peer adjustable bench.",
+        upgradePath: "Rep AB-5000 when you move into a rack-based garage.",
+        compatibilityNotes: "Sit fully on Mirafit flooring tiles; confirm incline clears wall/door.",
+      },
+      "prod-mirafit-flooring": {
+        importance: "required",
+        roleLabel: "FLOORING",
+        rationale:
+          "Protective training surface under bells and bench so home floors survive drops and scoots.",
+        strengths: [
+          "Floor protection",
+          "Defined training patch",
+          "Required before loading up",
+        ],
+        whyNeeded: "Dumbbells and bench feet mark and dent unprotected floors.",
+        systemRole: "Protective base layer for the whole station.",
+        tradeOffs: "Tiles need enough area for bench + spotter walkway.",
+        canOmit: "Do not omit on finished floors.",
+        cheaperAlternative: "Thicker puzzle mats if Mirafit tiles are unavailable.",
+        upgradePath: "Rogue-style horse stall / rubber when you add barbells later.",
+      },
+      "prod-blackroll-standard": {
+        importance: "optional",
+        roleLabel: "RECOVERY",
+        rationale:
+          "Optional foam roller for soft-tissue work after sessions — not required to start lifting.",
+        strengths: [
+          "Simple recovery tool",
+          "Optional until consistency exists",
+          "Small storage footprint",
+        ],
+        whyNeeded: "Nice-to-have for post-session mobility — not a strength prerequisite.",
+        systemRole: "Optional recovery add-on beside the strength station.",
+        tradeOffs: "Easy to buy early and ignore.",
+        canOmit: "Omit until you are training 3+ days a week.",
+        cheaperAlternative: "A basic roller or ball until you know you will use it.",
+        upgradePath: "Blackroll Pro / balls when recovery becomes a habit.",
+      },
+    },
+  },
+
+  "setup-garage-strength": {
+    scenario:
+      "Dedicated garage bay for barbell strength: squat, bench, hinge and Olympic lifts with a rack, FID bench, Olympic bar, bumper plates and flooring that can take drops.",
+    goalLabel: "Full garage barbell strength",
+    experienceLevel: "Intermediate to advanced",
+    eyebrow: "GARAGE GYM",
+    setupType: "editorial",
+    whyTitle: "Why this garage strength stack?",
+    whyReasons: [
+      "PR-4000 rack is the safety and attachment hub for barbell work.",
+      "Ohio bar + bumper plates make deadlifts and Olympic variations garage-realistic.",
+      "AB-5000 bench pairs with the rack for supported pressing.",
+      "Rogue flooring protects the slab and neighbours from repeated drops.",
+    ],
+    summaryFocus: [
+      {
+        title: "Rack + bar system",
+        detail: "Olympic-length bar inside a power rack footprint",
+      },
+      {
+        title: "Drop-ready floor",
+        detail: "Bumpers and rubber before max pulls",
+      },
+    ],
+    compatibilityNotes: [
+      "Olympic bar (~2.2 m) needs clear lateral space beyond the rack uprights — measure bay width before delivery.",
+      "Bumper plates assume standard Olympic diameter (~450 mm); confirm rack j-cup and storage pin spacing.",
+      "Flooring must cover the drop zone under the bar path, not only the rack footprint.",
+      "AB-5000 should centre in the rack for bench press safety pins / spotter arms.",
+    ],
+    checklist: [
+      "Bay width cleared for full Olympic bar sleeves",
+      "Flooring installed under rack and pull/drop zone",
+      "Rack bolted or weighted per manufacturer guidance",
+      "Bar spins and collar fit checked with bumpers",
+      "Bench height and rack safeties set before first heavy bench",
+    ],
+    budgetTiers: [
+      {
+        label: "Barbell platform",
+        note: "Rack + bar + bumpers + flooring — the non-negotiable garage core.",
+      },
+      {
+        label: "Add bench",
+        note: "AB-5000 when pressing volume needs a dedicated adjustable bench in the rack.",
+      },
+    ],
+    itemPatches: {
+      "prod-rep-pr-4000": {
+        importance: "required",
+        roleLabel: "POWER RACK",
+        rationale:
+          "Full power rack for squats, bench and pulls with safeties in a garage bay.",
+        strengths: [
+          "Safety pins / spotter capability",
+          "Attachment-ready uprights",
+          "Centre of the garage system",
+        ],
+        whyNeeded: "Heavy barbell work needs a rack, not open-floor hope.",
+        systemRole: "Structural hub for bar path, bench and attachments.",
+        tradeOffs: "Footprint and height — confirm garage door/ceiling clearance.",
+        canOmit: "Do not omit for this scenario.",
+        cheaperAlternative: "A simpler squat stand only if you accept fewer safety options.",
+        upgradePath: "Add attachments (lat, monopost) once the core lifts are habitual.",
+        compatibilityNotes:
+          "Confirm upright spacing and j-cup height range work with Ohio bar and AB-5000 bench.",
+      },
+      "prod-rep-ab-5000": {
+        importance: "required",
+        roleLabel: "ADJUSTABLE BENCH",
+        rationale:
+          "Heavy adjustable bench that centres in the PR-4000 for flat/incline pressing.",
+        strengths: [
+          "Stable FID positions",
+          "Rack-compatible footprint",
+          "Pressing station with safeties",
+        ],
+        whyNeeded: "Garage pressing needs a bench that does not skate under load.",
+        systemRole: "Supported press positions inside the rack.",
+        tradeOffs: "Larger than apartment benches — measure storage when not in use.",
+        canOmit: "Omit only if you already own a rack-compatible FID bench.",
+        cheaperAlternative: "Mirafit FID for lighter pressing before upgrading.",
+        upgradePath: "Specialty competition bench later if you specialise in powerlifting.",
+        compatibilityNotes: "Centre in PR-4000; set safeties just under chest height for bench.",
+      },
+      "prod-rogue-ohio": {
+        importance: "required",
+        roleLabel: "BARBELL",
+        rationale:
+          "Olympic-length multipurpose bar for squats, presses, pulls and Olympic variations.",
+        strengths: [
+          "Standard Olympic length/sleeves",
+          "Multipurpose garage bar",
+          "Pairs with bumper plates",
+        ],
+        whyNeeded: "The bar is the interface between plates and every lift.",
+        systemRole: "Loading tool across the rack system.",
+        tradeOffs: "Not a dedicated powerlifting or WL specialist bar — versatile by design.",
+        canOmit: "Do not omit.",
+        cheaperAlternative: "Rogue Ohio Power if you only care about strength lifts.",
+        upgradePath: "Specialty bars (power, WL) once goals narrow.",
+        compatibilityNotes:
+          "Needs ~2.2 m clear width; sleeves fit standard Olympic bumpers (50 mm).",
+        alternativeProductIds: ["prod-rogue-ohio-power"],
+      },
+      "prod-rep-bumper-black": {
+        importance: "required",
+        roleLabel: "BUMPER PLATES",
+        rationale:
+          "Bumper plates for garage drops and Olympic-diameter loading on the Ohio bar.",
+        strengths: [
+          "Drop-friendly bumper compound",
+          "Olympic diameter for consistent bar height",
+          "Pairs with rubber flooring",
+        ],
+        whyNeeded: "Iron-only plates punish garage floors and limit drop training.",
+        systemRole: "Load increments on the Olympic bar.",
+        tradeOffs: "Thicker than iron — sleeve space limits total load before change plates.",
+        canOmit: "Do not omit if you plan to drop or learn Olympic lifts.",
+        cheaperAlternative: "Rogue Echo bumpers if Rep stock is unavailable.",
+        upgradePath: "Add kilo change plates for finer jumps.",
+        compatibilityNotes:
+          "Standard bumper diameter (~450 mm) and 50 mm centre bore for Olympic bars; drop only onto flooring.",
+        alternativeProductIds: ["prod-rogue-echo-bumper"],
+      },
+      "prod-rogue-flooring": {
+        importance: "required",
+        roleLabel: "FLOORING",
+        rationale:
+          "Dense rubber flooring to protect the slab and quiet bumper drops in a garage bay.",
+        strengths: [
+          "Drop-zone protection",
+          "Quieter than bare concrete",
+          "Completes rack/bar/bumper system",
+        ],
+        whyNeeded: "Bumpers on bare concrete crack floors and annoy neighbours.",
+        systemRole: "Protective base under rack and bar path.",
+        tradeOffs: "Cost and coverage area — do not under-tile the pull zone.",
+        canOmit: "Do not omit before bumper drops.",
+        cheaperAlternative: "Horse-stall mats cut to the drop zone if budget forces it.",
+        upgradePath: "Thicker platforms under the pull area for frequent max deadlifts.",
+        compatibilityNotes:
+          "Cover rack footprint plus full bar drop path; bumpers land on rubber, not slab edges.",
+      },
+    },
+  },
+
+  "setup-apartment-gym": {
+    scenario:
+      "Strength and pull-up work in a flat with noise and footprint limits: compact adjustable bells, doorway bar, mats and a small recovery ball — no bumper drops, no rack.",
+    goalLabel: "Quiet apartment strength",
+    experienceLevel: "Beginners to intermediates",
+    eyebrow: "APARTMENT KIT",
+    setupType: "editorial",
+    whyTitle: "Why this apartment fitness setup?",
+    whyReasons: [
+      "Nuobell 50 keeps loads progressive without a dumbbell rack footprint.",
+      "Doorway pull-up bar adds vertical pulling without wall drilling in many rentals.",
+      "Mats define a quiet training patch and protect finishes.",
+      "Recovery ball stays small enough for drawers — optional until you use it.",
+    ],
+    summaryFocus: [
+      {
+        title: "Quiet loading",
+        detail: "Adjustable bells instead of bumper drops",
+      },
+      {
+        title: "Doorway pulls",
+        detail: "Vertical work without a rack",
+      },
+    ],
+    compatibilityNotes: [
+      "Confirm doorway bar fit and landlord rules before loading chin-ups.",
+      "Nuobells stay on mats — no dropping adjustable bells.",
+      "This kit is intentionally not a HYROX erg stack or garage rack.",
+    ],
+    checklist: [
+      "Door frame measured for the pull-up bar",
+      "Mats covering the bell landing zone",
+      "Quiet hours plan for neighbours",
+      "Storage spot for bells so the room returns to living space",
+    ],
+    itemPatches: {
+      "prod-nuobell-50": {
+        importance: "required",
+        roleLabel: "ADJUSTABLE DUMBBELLS",
+        rationale:
+          "Compact adjustable bells for apartment progressive strength without fixed-bell storage.",
+        strengths: [
+          "Compact adjustable format",
+          "Quiet vs barbell drops",
+          "Core loading tool",
+        ],
+        whyNeeded: "Apartments cannot host a full dumbbell tree or bumper platform.",
+        systemRole: "Primary resistance for floor and standing strength work.",
+        tradeOffs: "Load ceiling lower than a garage barbell — plan progression honestly.",
+        canOmit: "Do not omit.",
+        cheaperAlternative: "Bowflex 552 if you prefer dial selectors and have slightly more space.",
+        upgradePath: "Move to beginner/garage kits when you get space for a bench or rack.",
+      },
+      "prod-pullup-dip-doorway": {
+        importance: "required",
+        roleLabel: "PULL-UP BAR",
+        rationale:
+          "Doorway pull-up/dip bar for vertical pulling without installing a wall mount.",
+        strengths: [
+          "Rental-friendlier install",
+          "Adds pull-ups to dumbbell work",
+          "Compact when stored",
+        ],
+        whyNeeded: "Pulling strength is hard to cover with dumbbells alone in a tiny space.",
+        systemRole: "Vertical pull station paired with Nuobell pressing/hinging.",
+        tradeOffs: "Door-frame dependent — not every frame is suitable.",
+        canOmit: "Omit only if you have gym access for pulls.",
+        cheaperAlternative: "Gym rings on a verified beam if doorways are unsuitable.",
+        upgradePath: "Wall-mounted pull-up/dip when you can drill and want permanence.",
+        compatibilityNotes: "Verify door thickness/trim; never load a cracked or hollow unsuitable frame.",
+      },
+      "prod-mirafit-flooring": {
+        importance: "required",
+        roleLabel: "MATS",
+        rationale:
+          "Mats to protect apartment floors and keep bells quiet on setup/teardown.",
+        strengths: [
+          "Floor protection",
+          "Quieter training patch",
+          "Defines the workout zone",
+        ],
+        whyNeeded: "Finished apartment floors do not forgive metal and rubber scuffs.",
+        systemRole: "Protective base for bells and bodyweight work.",
+        tradeOffs: "Storage when guests visit — plan stackable tiles.",
+        canOmit: "Do not omit on finished floors.",
+        cheaperAlternative: "Thicker yoga/exercise mats layered for short sessions.",
+        upgradePath: "Denser rubber if you later add a bench in a larger room.",
+      },
+      "prod-blackroll-ball": {
+        importance: "optional",
+        roleLabel: "RECOVERY",
+        rationale:
+          "Small mobility ball for targeted soft tissue — optional and easy to store.",
+        strengths: [
+          "Tiny storage footprint",
+          "Targeted recovery",
+          "Optional add-on",
+        ],
+        whyNeeded: "Helpful for hips/feet after sessions — not required to train.",
+        systemRole: "Optional recovery tool beside the strength kit.",
+        tradeOffs: "Easy to ignore — buy only if you will use it.",
+        canOmit: "Omit freely.",
+        cheaperAlternative: "A basic lacrosse ball.",
+        upgradePath: "Full foam roller when space allows.",
+      },
+    },
+  },
+
+  "setup-hyrox-home": {
+    scenario:
+      "Serious home HYROX conditioning with space and budget for a full erg triad: RowErg, SkiErg, Echo Bike plus race shoes — wall ball optional when you already have somewhere to throw.",
+    goalLabel: "Full home HYROX erg stack",
+    experienceLevel: "Intermediate HYROX athletes",
+    eyebrow: "HYROX HOME",
+    setupType: "editorial",
+    whyTitle: "Why this HYROX home conditioning kit?",
+    whyReasons: [
+      "Row + Ski + Echo covers the three erg stations most athletes need to practise at race pace.",
+      "TYR CXT 2 keeps race footwear consistent between home ergs and competition.",
+      "Wall ball stays optional until you have a clear throw wall and floor protection.",
+      "This is the full-stack home station — not the leaner rower-first training kit.",
+    ],
+    summaryFocus: [
+      {
+        title: "Full erg triad",
+        detail: "Row, Ski and fan bike under one roof",
+      },
+      {
+        title: "Race shoes ready",
+        detail: "Same footwear language as race day",
+      },
+    ],
+    compatibilityNotes: [
+      "Concept2 machines need ceiling height for SkiErg and floor length for RowErg — measure before buying both.",
+      "Echo Bike needs lateral clearance for the fan and a mat for sweat/noise.",
+      "Distinct from hyrox-home-training: that kit is capability-based (rower-first); this is the full erg stack.",
+    ],
+    checklist: [
+      "Ceiling height confirmed for SkiErg",
+      "RowErg footprint taped on the floor",
+      "Echo Bike clearance for fan arc",
+      "Race shoes broken in on mixed run + station sessions",
+      "Wall ball only after throw target and floor protection exist",
+    ],
+    itemPatches: {
+      "prod-concept2-rowerg": {
+        importance: "required",
+        roleLabel: "ROWER",
+        rationale:
+          "Race-familiar RowErg for HYROX row station practice with transferable splits.",
+        strengths: [
+          "Standardised PM metrics",
+          "HYROX/club familiarity",
+          "Core erg of the stack",
+        ],
+        whyNeeded: "Row is a scored station — home practice should match gym language.",
+        systemRole: "Primary row conditioning tool in the triad.",
+        tradeOffs: "Air noise and length — not apartment-stealth.",
+        canOmit: "Do not omit in this full-stack scenario.",
+        cheaperAlternative: "See hyrox-home-training if you can only fund one erg first.",
+        upgradePath: "Keep RowErg; add Ski/Echo rather than replacing the rower.",
+      },
+      "prod-concept2-skierg": {
+        importance: "required",
+        roleLabel: "SKIERG",
+        rationale:
+          "SkiErg for the ski station with the same PM ecosystem as the RowErg.",
+        strengths: [
+          "Station-specific ski practice",
+          "PM ecosystem continuity",
+          "Pairs with RowErg training language",
+        ],
+        whyNeeded: "Ski fitness does not fully transfer from rowing alone.",
+        systemRole: "Second erg in the home triad.",
+        tradeOffs: "Wall/ceiling mount considerations — confirm install path.",
+        canOmit: "Only if you already have gym SkiErg access several times a week.",
+        cheaperAlternative: "SkiErg PM5 bundle options when you need a freestanding path.",
+        upgradePath: "Add floor stand / PM5 bundle if wall mounting is impossible.",
+        compatibilityNotes: "Plan wall vs freestanding mount before delivery; height matters.",
+      },
+      "prod-rogue-echo-bike": {
+        importance: "required",
+        roleLabel: "AIR BIKE",
+        rationale:
+          "Fan bike for HYROX-style bike station and brutal interval conditioning at home.",
+        strengths: [
+          "Hard self-regulating intervals",
+          "Completes the erg triad",
+          "Race-relevant bike stimulus",
+        ],
+        whyNeeded: "Fan-bike legs are a different demand than row/ski alone.",
+        systemRole: "Third erg for bike and mixed intervals.",
+        tradeOffs: "Loud fan — garage/basement preferred over thin-walled flats.",
+        canOmit: "Omit only with regular gym Echo/Assault access.",
+        cheaperAlternative: "Gym day for bike if home noise is a hard limit.",
+        upgradePath: "Stay on Echo; add sled/wall-ball hardware next.",
+      },
+      "prod-tyr-cxt-2": {
+        importance: "required",
+        roleLabel: "HYROX SHOES",
+        rationale:
+          "Race-capable HYROX shoe for home erg days and competition so footwear stays consistent.",
+        strengths: [
+          "Station + run compromise",
+          "Race-day continuity",
+          "Ties conditioning to competition",
+        ],
+        whyNeeded: "Practising in unrelated trainers then racing in CXT is a needless variable.",
+        systemRole: "Footwear across home conditioning and race day.",
+        tradeOffs: "Not a pure road racer — expect compromise on long pure runs.",
+        canOmit: "Do not omit if this is your race shoe.",
+        cheaperAlternative: "Reebok Nano X4 for training if CXT is race-only.",
+        upgradePath: "Backup trainer (NOBULL) for muddy stations if you race often.",
+      },
+      "prod-rogue-wall-ball": {
+        importance: "optional",
+        roleLabel: "WALL BALL",
+        rationale:
+          "Optional wall ball when you have a clear target wall and floor protection.",
+        strengths: [
+          "Station-specific practice",
+          "Optional until space allows",
+          "Pairs with erg conditioning",
+        ],
+        whyNeeded: "Wall-ball volume is hard to fake with other tools forever.",
+        systemRole: "Optional station implement beside the erg triad.",
+        tradeOffs: "Needs wall target and neighbour-friendly hours.",
+        canOmit: "Omit until throw space exists — use gym wall balls meanwhile.",
+        cheaperAlternative: "Gym access for wall-ball sessions.",
+        upgradePath: "Add a marked target and denser floor patch when frequency rises.",
+      },
+    },
+  },
+
+  "setup-calisthenics-home": {
+    scenario:
+      "Bodyweight strength progression at home: wall bar for pulls, rings for rows/dips/muscle-up path, parallettes for push and L-sit work, weighted vest only when unweighted reps are solid.",
+    goalLabel: "Progressive home calisthenics",
+    experienceLevel: "Beginner to intermediate",
+    eyebrow: "CALISTHENICS",
+    setupType: "editorial",
+    whyTitle: "Why this calisthenics home setup?",
+    whyReasons: [
+      "Wall bar gives a stable pull station for hangs and pull-up progressions.",
+      "Rings add scalable pushing/pulling angles the bar alone cannot.",
+      "Parallettes cover handstand, L-sit and push variations with wrist-friendlier positions.",
+      "Weighted vest stays optional until bodyweight volume is earned.",
+    ],
+    summaryFocus: [
+      {
+        title: "Bar + rings",
+        detail: "Pull and push progressions covered",
+      },
+      {
+        title: "Vest later",
+        detail: "Load only after clean unweighted reps",
+      },
+    ],
+    compatibilityNotes: [
+      "Wall bar needs solid mounting into structure — not decorative drywall alone.",
+      "Ring straps need a verified beam/bar; check clearance for dips and swings.",
+      "Parallettes need flat flooring; pair with a mat on hard floors.",
+    ],
+    checklist: [
+      "Mounting surface verified for the wall bar",
+      "Ring height set for rows and dips",
+      "Parallettes stable on a non-slip surface",
+      "Vest only after pull-up/dip baselines are consistent",
+    ],
+    itemPatches: {
+      "prod-pullup-dip-wall": {
+        importance: "required",
+        roleLabel: "PULL-UP BAR",
+        rationale:
+          "Wall-mounted pull-up/dip station for stable vertical pulling progressions.",
+        strengths: [
+          "Stable mounted pulls",
+          "Dip capability on many units",
+          "Foundation of the setup",
+        ],
+        whyNeeded: "Doorway bars are fine early; wall mounts unlock serious progression.",
+        systemRole: "Primary pull (and often dip) structure.",
+        tradeOffs: "Requires drilling and structural confidence.",
+        canOmit: "Do not omit in this wall-based scenario.",
+        cheaperAlternative: "Doorway bar only if mounting is impossible (see apartment kit).",
+        upgradePath: "Add rings to the same structure for more skill work.",
+        compatibilityNotes: "Mount into studs/solid structure; confirm load rating.",
+      },
+      "prod-gornation-rings": {
+        importance: "required",
+        roleLabel: "RINGS",
+        rationale:
+          "Gymnastic rings for rows, support holds, dips and muscle-up progressions.",
+        strengths: [
+          "Scalable ring angles",
+          "Skill pathway beyond the bar",
+          "Core calisthenics tool",
+        ],
+        whyNeeded: "Fixed bar work alone limits scapular and support strength variety.",
+        systemRole: "Variable push/pull skill tool hanging from a verified anchor.",
+        tradeOffs: "Needs overhead clearance and a trustworthy mount point.",
+        canOmit: "Omit only if you already train rings at a gym daily.",
+        cheaperAlternative: "Basic wooden rings with rated straps.",
+        upgradePath: "Numbered straps / dual mounts for faster setup.",
+        compatibilityNotes: "Hang from the wall bar or a rated beam — never from an unrated fixture.",
+      },
+      "prod-gornation-parallettes-pro": {
+        importance: "required",
+        roleLabel: "PARALLETTES",
+        rationale:
+          "Parallettes for push-ups, L-sits, handstand work and wrist-friendlier floor skills.",
+        strengths: [
+          "Elevated push positions",
+          "L-sit / HS skill surface",
+          "Complements rings and bar",
+        ],
+        whyNeeded: "Floor palms limit skill progress for many athletes.",
+        systemRole: "Floor skill and push station.",
+        tradeOffs: "Need flat, non-slip placement.",
+        canOmit: "Omit only if rings already cover all push progressions you need.",
+        cheaperAlternative: "Push-up handles as a temporary stand-in.",
+        upgradePath: "Taller parallettes when handstand work becomes central.",
+      },
+      "prod-gravity-weighted-vest": {
+        importance: "optional",
+        roleLabel: "WEIGHTED VEST",
+        rationale:
+          "Optional external load for pull-ups, dips and walks after unweighted reps are solid.",
+        strengths: [
+          "Progressive overload for bodyweight moves",
+          "Optional until earned",
+          "Simple loading path",
+        ],
+        whyNeeded: "Once reps are easy, a vest beats endless volume for strength.",
+        systemRole: "Optional load layer over bar/rings/parallettes work.",
+        tradeOffs: "Easy to buy early and compromise form — wait.",
+        canOmit: "Omit until you own clean unweighted pull-up/dip baselines.",
+        cheaperAlternative: "A backpack with plates as a temporary load.",
+        upgradePath: "Heavier vest or belt loading when 10 kg feels light.",
+      },
+    },
+  },
+
+  "setup-hyrox-race-kit": {
+    scenario:
+      "HYROX race morning: primary race shoes you have already station-tested, a recommended backup trainer for wet/muddy stations or mid-race swaps, and optional mobility for the warm-up area.",
+    goalLabel: "HYROX race day",
+    experienceLevel: "Racing athletes",
+    eyebrow: "RACE KIT",
+    setupType: "editorial",
+    whyTitle: "Why this HYROX race-day kit?",
+    whyReasons: [
+      "TYR CXT 2 as required race footwear keeps station and run feel consistent.",
+      "NOBULL backup as recommended cover for wet stations or emergency swaps — not optional-only.",
+      "Mobility ball stays optional so the bag stays race-light.",
+      "Bring the Garmin you already train with — pacing lives on the wrist you trust.",
+    ],
+    summaryFocus: [
+      {
+        title: "Race shoe locked",
+        detail: "CXT 2 as the required race pair",
+      },
+      {
+        title: "Backup ready",
+        detail: "Recommended second trainer in the bag",
+      },
+    ],
+    compatibilityNotes: [
+      "Race and backup shoes should both be broken in on mixed run + station sessions.",
+      "Socks stay consistent across both pairs.",
+      "Watch pairing is assumed from your training Garmin — not duplicated in this minimal kit.",
+    ],
+    checklist: [
+      "Race shoes worn on at least one simulation",
+      "Backup shoes packed and laced",
+      "Socks and lace plan confirmed",
+      "Watch charged with race pace fields",
+      "Optional mobility ball only if you warm up with it already",
+    ],
+    itemPatches: {
+      "prod-tyr-cxt-2": {
+        importance: "required",
+        roleLabel: "RACE SHOES",
+        rationale:
+          "Required HYROX race shoe for the run and stations — already proven in training.",
+        strengths: [
+          "Race-specific compromise sole",
+          "Required race footwear",
+          "Consistent with home/gym simulations",
+        ],
+        whyNeeded: "Race day is not the time to debut an untested trainer.",
+        systemRole: "Primary race footwear.",
+        tradeOffs: "Compromise shoe — not max road racing stack.",
+        canOmit: "Do not omit.",
+        cheaperAlternative: "Nano X4 only if that is already your race pair.",
+        upgradePath: "Keep CXT as race; use NOBULL as the recommended backup.",
+      },
+      "prod-nobull-trainer": {
+        importance: "recommended",
+        roleLabel: "BACKUP / STATION SHOES",
+        rationale:
+          "Recommended second pair for wet stations, grip changes or emergency mid-race swaps.",
+        strengths: [
+          "Stable station trainer",
+          "Recommended race-bag insurance",
+          "Different outsole feel when floors turn slick",
+        ],
+        whyNeeded:
+          "HYROX floors get wet and chalky — a second pair is race insurance, not luxury.",
+        systemRole: "Recommended backup footwear beside the primary race shoe.",
+        tradeOffs: "Extra bag weight — still worth it versus optional-only status for publish completeness.",
+        canOmit: "Only if venue rules ban swaps and you accept single-pair risk.",
+        cheaperAlternative: "Any already-broken-in functional trainer as backup.",
+        upgradePath: "NOBULL Trainer Plus if you want a higher stack backup.",
+        alternativeProductIds: ["prod-nobull-trainer-plus"],
+      },
+      "prod-blackroll-ball": {
+        importance: "optional",
+        roleLabel: "PRE-RACE MOBILITY",
+        rationale:
+          "Optional warm-up ball if that is already part of your race-morning routine.",
+        strengths: [
+          "Small bag add-on",
+          "Familiar warm-up tool",
+          "Truly optional",
+        ],
+        whyNeeded: "Only if you already mobilise with it — do not invent a new race ritual.",
+        systemRole: "Optional warm-up accessory.",
+        tradeOffs: "Bag clutter for athletes who warm up with movement only.",
+        canOmit: "Omit freely.",
+        cheaperAlternative: "Skip and use dynamic warm-ups.",
+        upgradePath: "Full roller at home — not needed race morning.",
+      },
+    },
+  },
+
+  "setup-first-hyrox": {
+    scenario:
+      "Signing up for a first HYROX: buy race-capable training shoes first, add a recommended GPS watch for pacing across runs and stations, and treat chest HR as optional. Station machines live at a gym — this is not a full erg purchase.",
+    goalLabel: "First HYROX entry",
+    experienceLevel: "HYROX beginners",
+    eyebrow: "FIRST HYROX",
+    setupType: "editorial",
+    whyTitle: "Why this first HYROX setup?",
+    whyReasons: [
+      "Nano X4 covers training and race compromise without forcing a full erg stack at home.",
+      "Forerunner 965 as recommended GPS keeps run/station pacing honest on race day.",
+      "HR strap stays optional until you race or train by heart rate.",
+      "Equipment access matters more than owning SkiErg + Echo on day one.",
+    ],
+    summaryFocus: [
+      {
+        title: "Shoes first",
+        detail: "Required race-capable trainers",
+      },
+      {
+        title: "Watch recommended",
+        detail: "Pacing across the eight stations",
+      },
+    ],
+    compatibilityNotes: [
+      "Train in the Nano before race day — do not debut them on the start line.",
+      "Forerunner 965 pairs with HRM Pro Plus if you later want chest HR.",
+      "Book gym access for sled/erg stations rather than buying a full home triad yet.",
+    ],
+    checklist: [
+      "Shoes broken in on mixed run + strength sessions",
+      "At least one simulation wearing race kit",
+      "Watch charged with simple pace/HR fields",
+      "Gym or class access confirmed for station practice",
+      "Optional HR strap paired only if you will use it",
+    ],
+    itemPatches: {
+      "prod-reebok-nano-x4": {
+        importance: "required",
+        roleLabel: "TRAINING / RACE SHOES",
+        rationale:
+          "Required training and race-capable shoe for a first HYROX without buying specialty race footwear yet.",
+        strengths: [
+          "Stable for stations",
+          "Runnable enough for the race",
+          "Required first purchase",
+        ],
+        whyNeeded: "Footwear is the one product you must own; ergs can be rented via gym access.",
+        systemRole: "Primary training and first-race shoe.",
+        tradeOffs: "Not as race-specific as CXT — upgrade later if you chase times.",
+        canOmit: "Do not omit.",
+        cheaperAlternative: "Prior-gen Nano if fit matches and condition is good.",
+        upgradePath: "TYR CXT 2 when you want a more race-specific pair.",
+        alternativeProductIds: ["prod-tyr-cxt-2", "prod-reebok-nano-x3"],
+      },
+      "prod-forerunner-965": {
+        importance: "recommended",
+        roleLabel: "GPS WATCH",
+        rationale:
+          "Recommended race/training watch for pacing the run segments and logging station blocks.",
+        strengths: [
+          "Strong training + race feature set",
+          "Recommended for first race pacing",
+          "Works with optional HRM Pro Plus",
+        ],
+        whyNeeded:
+          "First HYROX athletes often blow up on early runs — wrist pacing is the guardrail.",
+        systemRole: "Recommended pacing and session logging tool.",
+        tradeOffs: "Costly if you already own a capable GPS — use what you trust.",
+        canOmit: "Omit only if another GPS watch is already race-proven on your wrist.",
+        cheaperAlternative: "Forerunner 570 / 165 if budget is tighter.",
+        upgradePath: "Add HRM Pro Plus before buying another watch.",
+        compatibilityNotes: "Pairs with HRM Pro Plus over ANT+/Bluetooth when chest HR is desired.",
+        alternativeProductIds: ["prod-forerunner-570", "prod-forerunner-970"],
+      },
+      "prod-hrm-pro-plus": {
+        importance: "optional",
+        roleLabel: "HR MONITOR",
+        rationale:
+          "Optional chest strap when wrist optical drifts across sweaty station work.",
+        strengths: [
+          "More stable HR under sweat",
+          "Optional for first race",
+          "Pairs with Garmin watches",
+        ],
+        whyNeeded: "Useful if your plan uses HR caps; skip if you pace by feel/watch pace.",
+        systemRole: "Optional HR precision for the recommended Forerunner.",
+        tradeOffs: "Another strap to manage on an already busy race morning.",
+        canOmit: "Omit for most first HYROX athletes.",
+        cheaperAlternative: "Trust wrist HR until it fails a key session.",
+        upgradePath: "Keep the strap when you move to more HR-guided blocks.",
+        compatibilityNotes: "Pair to Forerunner 965 and select strap as HR source before the gun.",
+      },
+    },
+  },
+
+  "setup-budget-home-gym": {
+    scenario:
+      "Strength on a tight budget and tiny footprint: adjustable bells, doorway pull-ups and mats first. Bench is optional later — this is intentionally leaner than the beginner home gym with Bowflex + FID bench.",
+    goalLabel: "Minimal-budget home strength",
+    experienceLevel: "Beginners",
+    eyebrow: "BUDGET KIT",
+    setupType: "editorial",
+    whyTitle: "Why this budget home gym?",
+    whyReasons: [
+      "Nuobell + doorway bar covers push, hinge and pull without a bench tax.",
+      "Mats protect floors so you can train in a living room.",
+      "Optional ATX bench is the upgrade path — not the entry ticket.",
+      "Distinct from beginner-home-gym: that kit assumes bench space from day one.",
+    ],
+    summaryFocus: [
+      {
+        title: "Lean essentials",
+        detail: "Bells, pull-up bar and mats",
+      },
+      {
+        title: "Bench later",
+        detail: "Optional FID when space and budget grow",
+      },
+    ],
+    compatibilityNotes: [
+      "Doorway bar fit and landlord rules before loading chin-ups.",
+      "No bumper drops — this is quiet adjustable-bell training.",
+      "When you add the ATX bench, place it fully on Mirafit mats.",
+    ],
+    checklist: [
+      "Mats down before first session",
+      "Door frame checked for the pull-up bar",
+      "Nuobell storage planned so the room stays liveable",
+      "Bench purchase only after 4–6 consistent weeks",
+    ],
+    budgetTiers: [
+      {
+        label: "Floor essentials",
+        note: "Nuobell 50 + doorway bar + mats — start training without a bench.",
+      },
+      {
+        label: "Add bench",
+        note: "ATX FID when pressing progress needs incline/flat support.",
+      },
+    ],
+    itemPatches: {
+      "prod-nuobell-50": {
+        importance: "required",
+        roleLabel: "ADJUSTABLE DUMBBELLS",
+        rationale:
+          "Budget-friendly adjustable loading that replaces a set of fixed dumbbells in a small room.",
+        strengths: [
+          "Space-efficient loading",
+          "Progressive without a full set",
+          "Core of the lean kit",
+        ],
+        whyNeeded: "You need progressive load more than you need a bench on week one.",
+        systemRole: "Primary resistance for floor strength work.",
+        tradeOffs: "Lower ceiling than garage barbells — plan long-term honestly.",
+        canOmit: "Do not omit.",
+        cheaperAlternative: "Fixed bells only if you already own a useful range.",
+        upgradePath: "Beginner home gym (Bowflex + FID) when space opens up.",
+      },
+      "prod-pullup-dip-doorway": {
+        importance: "required",
+        roleLabel: "PULL-UP BAR",
+        rationale:
+          "Doorway pull-ups so the budget kit still covers vertical pulling.",
+        strengths: [
+          "Cheap vertical pull access",
+          "No wall drilling in many setups",
+          "Balances Nuobell pressing",
+        ],
+        whyNeeded: "Without pulls, a dumbbell-only kit skews push-heavy.",
+        systemRole: "Vertical pull station for the lean kit.",
+        tradeOffs: "Door-frame limits — verify before max sets.",
+        canOmit: "Omit only with regular gym pull access.",
+        cheaperAlternative: "Gym pull-up days if the doorway is unsuitable.",
+        upgradePath: "Wall-mounted bar when you can install permanently.",
+      },
+      "prod-mirafit-flooring": {
+        importance: "required",
+        roleLabel: "FLOORING",
+        rationale:
+          "Protective mats so budget training does not destroy rental floors.",
+        strengths: [
+          "Floor protection",
+          "Defines the training patch",
+          "Required on finished floors",
+        ],
+        whyNeeded: "Replacing flooring costs more than mats.",
+        systemRole: "Protective base for bells and optional bench.",
+        tradeOffs: "Coverage area still matters — do not under-buy tiles.",
+        canOmit: "Do not omit on finished floors.",
+        cheaperAlternative: "Layered dense exercise mats as a temporary patch.",
+        upgradePath: "Keep mats when you add the optional bench.",
+      },
+      "prod-atx-fid-bench": {
+        importance: "optional",
+        roleLabel: "BENCH",
+        rationale:
+          "Optional FID bench once budget and space allow incline/flat pressing.",
+        strengths: [
+          "Unlocks better pressing angles",
+          "Optional upgrade path",
+          "Cheaper entry than full garage benches",
+        ],
+        whyNeeded: "Useful when floor presses stop being enough — not required to start.",
+        systemRole: "Optional supported press station on the mat patch.",
+        tradeOffs: "Footprint and spend — contradicts the lean start if bought day one.",
+        canOmit: "Omit until training is consistent and space is clear.",
+        cheaperAlternative: "Floor presses and hip thrusts longer.",
+        upgradePath: "Mirafit/Rep benches when the home gym grows toward beginner/garage kits.",
+        compatibilityNotes: "Place fully on Mirafit flooring; confirm incline clearance.",
+      },
+    },
+  },
+
+  "setup-hyrox-home-training": {
+    scenario:
+      "Capability-based HYROX practice at home when you cannot fund the full erg triad: prioritise RowErg and race shoes, add freestanding SkiErg when wall mounting is impossible, and wall ball only when throw space exists. Sled stays at the gym.",
+    goalLabel: "Capability-based HYROX home training",
+    experienceLevel: "Intermediate",
+    eyebrow: "HYROX TRAINING",
+    setupType: "editorial",
+    whyTitle: "Why this HYROX home training setup?",
+    whyReasons: [
+      "RowErg first buys the most transferable station practice per euro.",
+      "SkiErg PM5 bundle stays optional for athletes without a wall-mount path.",
+      "CXT shoes keep home sessions race-relevant.",
+      "Distinct from hyrox-home conditioning: that kit assumes Row + Ski + Echo together.",
+    ],
+    summaryFocus: [
+      {
+        title: "Rower-first",
+        detail: "One erg that transfers to race scores",
+      },
+      {
+        title: "Add when ready",
+        detail: "Ski and wall ball follow space, not FOMO",
+      },
+    ],
+    compatibilityNotes: [
+      "SkiErg PM5 bundle is the no-wall path — confirm ceiling height either way.",
+      "Wall ball needs a target and floor protection; otherwise keep it at the gym.",
+      "Sled/farmer stations are still gym/class problems in this kit.",
+    ],
+    checklist: [
+      "RowErg footprint confirmed",
+      "Race shoes used on rower + run bricks",
+      "Ski purchase only after mount/stand decision",
+      "Wall ball only with a clear throw wall",
+      "Gym day booked for sled practice",
+    ],
+    itemPatches: {
+      "prod-concept2-rowerg": {
+        importance: "required",
+        roleLabel: "ROWER",
+        rationale:
+          "Required first erg for HYROX home training — transferable splits and race familiarity.",
+        strengths: [
+          "Best first erg purchase",
+          "Standardised metrics",
+          "Core of the capability-based kit",
+        ],
+        whyNeeded: "If you only buy one machine, make it the rower.",
+        systemRole: "Primary home station practice tool.",
+        tradeOffs: "Noise and length — still the right first buy vs Echo/Ski together.",
+        canOmit: "Do not omit in this scenario.",
+        cheaperAlternative: "Gym rower access only if home footprint is impossible.",
+        upgradePath: "Add SkiErg bundle next; full triad lives in hyrox-home conditioning.",
+      },
+      "prod-concept2-skierg-pm5-bundle": {
+        importance: "optional",
+        roleLabel: "SKIERG (NO WALL)",
+        rationale:
+          "Optional freestanding SkiErg path when you cannot wall-mount but still want ski practice.",
+        strengths: [
+          "No-wall ski option",
+          "PM5 continuity with RowErg",
+          "Optional until space justifies it",
+        ],
+        whyNeeded: "Ski is race-real; wall mounting is not always possible.",
+        systemRole: "Optional second erg when the rower is already owned.",
+        tradeOffs: "Still needs ceiling height and floor space.",
+        canOmit: "Omit while gym SkiErg access is regular.",
+        cheaperAlternative: "Gym ski sessions until home space opens.",
+        upgradePath: "Move toward the full hyrox-home triad including Echo Bike.",
+        compatibilityNotes: "Confirm freestanding footprint and ceiling clearance before ordering.",
+      },
+      "prod-tyr-cxt-2": {
+        importance: "required",
+        roleLabel: "HYROX SHOES",
+        rationale:
+          "Race shoes for home bricks so footwear matches competition.",
+        strengths: [
+          "Race continuity",
+          "Station + run compromise",
+          "Required in this training kit",
+        ],
+        whyNeeded: "Home erg work in unrelated shoes wastes race specificity.",
+        systemRole: "Footwear for home conditioning and race day.",
+        tradeOffs: "Compromise sole for pure road volume.",
+        canOmit: "Do not omit if this is your race pair.",
+        cheaperAlternative: "Nano X4 for training if CXT is reserved for races.",
+        upgradePath: "Backup trainer for wet race stations.",
+      },
+      "prod-rogue-wall-ball": {
+        importance: "optional",
+        roleLabel: "WALL BALL",
+        rationale:
+          "Optional wall ball when home throw space and floor protection exist.",
+        strengths: [
+          "Station practice at home",
+          "Optional until space allows",
+          "Pairs with rower bricks",
+        ],
+        whyNeeded: "Useful volume tool — not worth damaging walls for.",
+        systemRole: "Optional station implement beside the rower-first stack.",
+        tradeOffs: "Noise and wall wear — neighbour and landlord sensitive.",
+        canOmit: "Omit and keep wall balls at the gym.",
+        cheaperAlternative: "Gym wall-ball intervals.",
+        upgradePath: "Marked target height and denser mats when frequency rises.",
+      },
+    },
+  },
+};
+
+export function applyGearSetupP45Enrichment(setup: GearSetup): GearSetup {
+  const patch = PATCHES[setup.id];
+  if (!patch) return setup;
+  const itemPatches = patch.itemPatches ?? {};
+  const items = setup.items.map((item) => {
+    const ip = itemPatches[item.productId];
+    return ip ? { ...item, ...ip } : item;
+  });
+  const { itemPatches: _, ...rest } = patch;
+  return { ...setup, ...rest, items };
+}

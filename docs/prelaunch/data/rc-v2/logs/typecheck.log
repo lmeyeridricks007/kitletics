@@ -1,0 +1,12 @@
+
+> kitletics@0.1.0 typecheck
+> tsc --noEmit
+
+src/content/best-guides-p2-cannibalization.ts(135,5): error TS2322: Type '"editors-choice"' is not assignable to type 'AwardType | undefined'.
+src/content/best-guides-p2-cannibalization.ts(255,5): error TS2322: Type '"best-durable"' is not assignable to type 'AwardType | undefined'.
+src/content/best-guides-p2-cannibalization.ts(295,5): error TS2322: Type '"best-fit"' is not assignable to type 'AwardType | undefined'.
+src/content/best-guides-p2-cannibalization.ts(529,7): error TS2322: Type '(BestGuideRecommendation | { productId: string; awardType: "best-marathon"; summary: string; whyRecommended: string; rationale: string; whyItFits: string[]; tradeoffs: string[]; ... 17 more ...; considerInsteadProductIds?: string[] | undefined; })[]' is not assignable to type 'BestGuideRecommendation[]'.
+  Type 'BestGuideRecommendation | { productId: string; awardType: "best-marathon"; summary: string; whyRecommended: string; rationale: string; whyItFits: string[]; tradeoffs: string[]; ... 17 more ...; considerInsteadProductIds?: string[] | undefined; }' is not assignable to type 'BestGuideRecommendation'.
+    Type '{ productId: string; awardType: "best-marathon"; summary: string; whyRecommended: string; rationale: string; whyItFits: string[]; tradeoffs: string[]; bestForProfiles: string[]; whoShouldAvoid: string[]; ... 15 more ...; considerInsteadProductIds?: EntityId[]; }' is not assignable to type 'BestGuideRecommendation'.
+      Types of property 'awardType' are incompatible.
+        Type '"best-marathon"' is not assignable to type 'AwardType | undefined'.

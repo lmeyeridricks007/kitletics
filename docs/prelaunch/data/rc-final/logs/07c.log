@@ -1,0 +1,12 @@
+Connecting to http://127.0.0.1:3010
+Server not healthy [TypeError: fetch failed] {
+  [cause]: Error: connect ECONNREFUSED 127.0.0.1:3010
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1705:16) {
+    errno: -61,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '127.0.0.1',
+    port: 3010
+  }
+}
+07_EXIT:1

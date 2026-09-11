@@ -1,0 +1,32 @@
+[
+  {
+    "id": "prod-craft-active-extreme-x-men",
+    "slug": "craft-active-extreme-x-men",
+    "ok": true,
+    "src": "/images/clothing/products/craft-active-extreme-x-men-hero.jpg",
+    "sourceUrl": "https://www.craftsportswear.com/global/active-extreme-x-wind-ls-m-men-black-granite-1909692-999985",
+    "source": "Manufacturer (Craft)",
+    "licence": "manufacturer-marketing",
+    "attribution": "\u00a9 Brand \u2014 via Craft",
+    "imageUrl": "https://craftsportswear.centracdn.net/client/dynamic/images/887_b2b49c323e-1909692-999985_active-extreme-x-wind-ls-m_closeup1-thumb.jpg",
+    "width": 1000,
+    "height": 1000,
+    "msg": "ok 14478 848c01a8",
+    "title": "active extreme x wind ls m | black | craft sportswear"
+  },
+  {
+    "id": "prod-patagonia-capilene-midweight-zip-men",
+    "slug": "patagonia-capilene-midweight-zip-men",
+    "ok": true,
+    "src": "/images/clothing/products/patagonia-capilene-midweight-zip-men-hero.jpg",
+    "sourceUrl": "https://www.patagonia.com.au/products/mens-capilene-midweight-zip-neck-44448-cibn",
+    "source": "Authorized retailer (Patagonia AU)",
+    "licence": "retailer-authorized",
+    "attribution": "\u00a9 Brand \u2014 via Patagonia AU",
+    "imageUrl": "http://www.patagonia.com.au/cdn/shop/files/44448_CIBN.png?v=1787725089",
+    "width": 1000,
+    "height": 1000,
+    "msg": "ok 223525 65115374",
+    "title": "men&#39;s capilene\u00ae midweight zip-neck - patagonia australia"
+  }
+]

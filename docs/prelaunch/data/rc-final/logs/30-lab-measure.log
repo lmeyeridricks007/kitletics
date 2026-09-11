@@ -1,0 +1,25 @@
+{
+  "empty": {
+    "totalKB": 1741,
+    "imgKB": 7,
+    "jsKB": 558,
+    "fcp": 504,
+    "ttfb": 233,
+    "cls": 0,
+    "underBudget": true,
+    "underEmptyPrefer": false,
+    "nextImageCount": 12,
+    "rawImageCount": 0
+  },
+  "selected": {
+    "totalKB": 1854,
+    "imgKB": 9,
+    "underBudget": true
+  },
+  "emptyMobile": {
+    "totalKB": 1740,
+    "imgKB": 6,
+    "underBudget": true
+  },
+  "out": "/Users/LMeyeridricks/Documents/coding/kitletics/docs/prelaunch/data/rc-final/30-compare-perf.json"
+}

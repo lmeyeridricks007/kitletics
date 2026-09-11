@@ -1,0 +1,14 @@
+{
+  "generatedAt": "2026-09-04T12:00:00.000Z",
+  "policy": "Manual ledger only. Never invent domain authority (DA/DR), spam scores, or outreach counts. Append only verified earned links.",
+  "links": [],
+  "schema": {
+    "date": "ISO-8601 acquisition/discovery date",
+    "source": "Linking domain or publication name",
+    "sourceUrl": "URL of the linking page",
+    "targetUrl": "Kitletics URL that received the link",
+    "anchor": "Visible anchor text when known",
+    "notes": "Optional context — never store fabricated authority metrics"
+  },
+  "instructions": "Leave links[] empty until a link is verified by visiting the source page. Do not import guessed Moz/Ahrefs DA values."
+}

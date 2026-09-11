@@ -1,0 +1,73 @@
+{
+  "generatedAt": "2026-09-10T09:12:00.233Z",
+  "method": "axe-core + playwright",
+  "baseUrl": "http://127.0.0.1:3010",
+  "tooling": "npm run site:a11y-baseline",
+  "scope": [
+    "header",
+    "search",
+    "filters",
+    "compare",
+    "finder"
+  ],
+  "notes": "Lab axe crawl (wcag2a/aa + 2.1). Complements tests/a11y-smoke.test.ts source contracts. Manual keyboard QA still required.",
+  "surfaces": [
+    {
+      "id": "header",
+      "label": "Header / primary nav",
+      "path": "/",
+      "url": "http://127.0.0.1:3010/",
+      "status": "measured",
+      "violations": [],
+      "passes": 32,
+      "incomplete": 2
+    },
+    {
+      "id": "search",
+      "label": "Search",
+      "path": "/search?q=vomero",
+      "url": "http://127.0.0.1:3010/search?q=vomero",
+      "status": "measured",
+      "violations": [],
+      "passes": 27,
+      "incomplete": 2
+    },
+    {
+      "id": "filters",
+      "label": "Search filters",
+      "path": "/search?q=running+shoes",
+      "url": "http://127.0.0.1:3010/search?q=running+shoes",
+      "status": "measured",
+      "violations": [],
+      "passes": 27,
+      "incomplete": 2
+    },
+    {
+      "id": "compare",
+      "label": "Compare builder",
+      "path": "/compare",
+      "url": "http://127.0.0.1:3010/compare",
+      "status": "measured",
+      "violations": [],
+      "passes": 28,
+      "incomplete": 2
+    },
+    {
+      "id": "finder",
+      "label": "Running shoe finder",
+      "path": "/tools/running-shoe-finder",
+      "url": "http://127.0.0.1:3010/tools/running-shoe-finder",
+      "status": "measured",
+      "violations": [],
+      "passes": 29,
+      "incomplete": 2
+    }
+  ],
+  "summary": {
+    "measured": 5,
+    "failed": 0,
+    "totalViolations": 0,
+    "seriousOrCritical": 0
+  },
+  "status": "measured"
+}

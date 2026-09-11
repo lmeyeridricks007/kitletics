@@ -1,0 +1,26 @@
+Audit 06 — media / offers / evidence / trust (read-only)...
+Running catalog media audit (identity default)...
+Running shoes-only identity audit...
+Measuring image technical quality...
+Analyzing offers...
+Sampling offer URLs for reachability...
+Scanning trust phrases...
+Wrote docs/prelaunch/06-media-offers-trust.md
+Wrote docs/prelaunch/data/06-media-offers-trust.json
+{
+  "mediaAuthenticCoveragePct": 100,
+  "mediaGaps": 0,
+  "runningShoeMediaIssues": 0,
+  "duplicateHeroGroups": 0,
+  "productsZeroOffers": 0,
+  "staleOffers": 0,
+  "regionsWithOffers": 4,
+  "evidenceProductCoveragePct": 96.3,
+  "evidenceReviewCoveragePct": 100,
+  "authorsCount": 1,
+  "visibleFirstHandReviews": 0,
+  "fakeRatingBlocker": false,
+  "trustPhraseHits": 0,
+  "commercialSuspicious": 3,
+  "missingTrustRoutes": []
+}

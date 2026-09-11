@@ -1,0 +1,351 @@
+{
+  "generatedAt": "2026-09-10T08:25:55.479Z",
+  "comparisons": {
+    "totalPublished": 94,
+    "ready": 94,
+    "indexable": 65,
+    "notReady": [],
+    "byUniquenessClass": {
+      "GENUINELY_UNIQUE": 83,
+      "TEMPLATE_SIMILAR_ACCEPTABLE": 11
+    },
+    "needsDiff": 0,
+    "duplicative": 0,
+    "needsDiffRows": [],
+    "duplicativeRows": [],
+    "genericVerdicts": [],
+    "weakPairSpecific": [
+      "saucony-endorphin-speed-5-vs-adidas-adizero-boston-12",
+      "nike-vaporfly-4-vs-nike-alphafly-3",
+      "asics-gel-kayano-32-vs-brooks-adrenaline-gts-25",
+      "garmin-forerunner-970-vs-garmin-forerunner-965",
+      "apple-watch-ultra-3-vs-apple-watch-ultra-2",
+      "tracksmith-session-short-vs-janji-multi-short",
+      "patagonia-houdini-vs-brooks-canopy",
+      "salomon-bonatti-vs-janji-rainrunner",
+      "nathan-streak-vs-proviz-reflect360",
+      "clif-bloks-vs-gu-chews",
+      "bullpadel-vertex-05-vs-nox-at10-12k-2026"
+    ],
+    "duplicateCanonicalPairs": [],
+    "reverseConflicts": 0,
+    "brokenPeerHolds": [
+      {
+        "slug": "lululemon-hotty-hot-vs-janji-pace-short",
+        "comparisonStatus": "draft",
+        "noindex": true,
+        "stillPublished": false,
+        "bothPublished": false,
+        "peers": [
+          {
+            "id": "prod-lululemon-hotty-hot-women",
+            "published": false,
+            "status": "draft",
+            "slug": "lululemon-hotty-hot-women"
+          },
+          {
+            "id": "prod-janji-pace-short-women",
+            "published": true,
+            "status": "published",
+            "slug": "janji-pace-short-women"
+          }
+        ]
+      },
+      {
+        "slug": "brooks-dare-crossback-vs-lululemon-energy-bra",
+        "comparisonStatus": "draft",
+        "noindex": true,
+        "stillPublished": false,
+        "bothPublished": false,
+        "peers": [
+          {
+            "id": "prod-brooks-dare-crossback",
+            "published": false,
+            "status": "draft",
+            "slug": "brooks-dare-crossback"
+          },
+          {
+            "id": "prod-lululemon-energy-bra",
+            "published": false,
+            "status": "draft",
+            "slug": "lululemon-energy-bra"
+          }
+        ]
+      },
+      {
+        "slug": "jabra-elite-8-active-vs-beats-powerbeats-pro-2",
+        "comparisonStatus": "draft",
+        "noindex": true,
+        "stillPublished": false,
+        "bothPublished": false,
+        "peers": [
+          {
+            "id": "prod-jabra-elite-8-active",
+            "published": false,
+            "status": "draft",
+            "slug": "jabra-elite-8-active"
+          },
+          {
+            "id": "prod-beats-powerbeats-pro-2",
+            "published": false,
+            "status": "draft",
+            "slug": "beats-powerbeats-pro-2"
+          }
+        ]
+      },
+      {
+        "slug": "knog-frog-v3-vs-nite-ize-radiant-clip",
+        "comparisonStatus": "draft",
+        "noindex": true,
+        "stillPublished": false,
+        "bothPublished": false,
+        "peers": [
+          {
+            "id": "prod-knog-frog-v3",
+            "published": false,
+            "status": "draft",
+            "slug": "knog-frog-v3"
+          },
+          {
+            "id": "prod-nite-ize-radiant-clip",
+            "published": false,
+            "status": "draft",
+            "slug": "nite-ize-radiant-rechargeable-clip-light"
+          }
+        ]
+      },
+      {
+        "slug": "theragun-prime-vs-renpho-r3",
+        "comparisonStatus": "draft",
+        "noindex": true,
+        "stillPublished": false,
+        "bothPublished": false,
+        "peers": [
+          {
+            "id": "prod-theragun-prime",
+            "published": true,
+            "status": "published",
+            "slug": "therabody-theragun-prime"
+          },
+          {
+            "id": "prod-renpho-r3",
+            "published": false,
+            "status": "draft",
+            "slug": "renpho-r3"
+          }
+        ]
+      },
+      {
+        "slug": "triggerpoint-grid-vs-grid-x",
+        "comparisonStatus": "draft",
+        "noindex": true,
+        "stillPublished": false,
+        "bothPublished": false,
+        "peers": [
+          {
+            "id": "prod-triggerpoint-grid",
+            "published": false,
+            "status": "draft",
+            "slug": "triggerpoint-grid-foam-roller"
+          },
+          {
+            "id": "prod-triggerpoint-grid-x",
+            "published": true,
+            "status": "published",
+            "slug": "triggerpoint-grid-x"
+          }
+        ]
+      },
+      {
+        "slug": "triggerpoint-grid-vs-rumbleroller",
+        "comparisonStatus": "draft",
+        "noindex": true,
+        "stillPublished": false,
+        "bothPublished": false,
+        "peers": [
+          {
+            "id": "prod-triggerpoint-grid",
+            "published": false,
+            "status": "draft",
+            "slug": "triggerpoint-grid-foam-roller"
+          },
+          {
+            "id": "prod-rumbleroller-original",
+            "published": false,
+            "status": "draft",
+            "slug": "rumbleroller-original"
+          }
+        ]
+      },
+      {
+        "slug": "oofos-ooriginal-vs-hoka-ora-recovery-slide",
+        "comparisonStatus": "draft",
+        "noindex": true,
+        "stillPublished": false,
+        "bothPublished": false,
+        "peers": [
+          {
+            "id": "prod-oofos-ooriginal",
+            "published": true,
+            "status": "published",
+            "slug": "oofos-ooriginal"
+          },
+          {
+            "id": "prod-hoka-ora-recovery-slide",
+            "published": false,
+            "status": "draft",
+            "slug": "hoka-ora-recovery-slide"
+          }
+        ]
+      }
+    ],
+    "brokenStillPublished": [],
+    "liftCandidates": [],
+    "liveMissingProducts": [],
+    "sitemap404": []
+  },
+  "alternatives": {
+    "publishedProducts": 623,
+    "pagesWithAlts": 407,
+    "ready": 248,
+    "indexable": 92,
+    "notReadyButCounted": 0,
+    "syncTemplateHits": 0,
+    "uniquenessHolds": 0,
+    "byUniquenessClass": {
+      "TEMPLATE_SIMILAR_ACCEPTABLE": 81,
+      "GENUINELY_UNIQUE": 11
+    },
+    "needsDiff": 0,
+    "duplicative": 0,
+    "needsDiffRows": [],
+    "duplicativeRows": [],
+    "indexableNotReady": [],
+    "indexableNoDecision": [],
+    "genericRepeat": [],
+    "brokenAltTargets": 0,
+    "sitemap404": [],
+    "worstPeers": [
+      {
+        "slug": "garmin-forerunner-570",
+        "peer": "coros-pace-pro",
+        "sim": 0.709,
+        "uniqueness": "TEMPLATE_SIMILAR_ACCEPTABLE"
+      },
+      {
+        "slug": "coros-pace-pro",
+        "peer": "garmin-forerunner-570",
+        "sim": 0.709,
+        "uniqueness": "TEMPLATE_SIMILAR_ACCEPTABLE"
+      },
+      {
+        "slug": "coros-apex-4",
+        "peer": "suunto-vertical-2",
+        "sim": 0.705,
+        "uniqueness": "TEMPLATE_SIMILAR_ACCEPTABLE"
+      },
+      {
+        "slug": "suunto-vertical-2",
+        "peer": "coros-apex-4",
+        "sim": 0.705,
+        "uniqueness": "TEMPLATE_SIMILAR_ACCEPTABLE"
+      },
+      {
+        "slug": "garmin-enduro-3",
+        "peer": "suunto-vertical-2",
+        "sim": 0.691,
+        "uniqueness": "TEMPLATE_SIMILAR_ACCEPTABLE"
+      },
+      {
+        "slug": "salomon-sense-ride-5",
+        "peer": "brooks-cascadia-18",
+        "sim": 0.679,
+        "uniqueness": "TEMPLATE_SIMILAR_ACCEPTABLE"
+      },
+      {
+        "slug": "brooks-cascadia-18",
+        "peer": "salomon-sense-ride-5",
+        "sim": 0.679,
+        "uniqueness": "TEMPLATE_SIMILAR_ACCEPTABLE"
+      },
+      {
+        "slug": "polar-verity-sense",
+        "peer": "coros-heart-rate-monitor",
+        "sim": 0.675,
+        "uniqueness": "TEMPLATE_SIMILAR_ACCEPTABLE"
+      },
+      {
+        "slug": "coros-heart-rate-monitor",
+        "peer": "polar-verity-sense",
+        "sim": 0.675,
+        "uniqueness": "TEMPLATE_SIMILAR_ACCEPTABLE"
+      },
+      {
+        "slug": "garmin-fenix-8",
+        "peer": "suunto-vertical-2",
+        "sim": 0.661,
+        "uniqueness": "TEMPLATE_SIMILAR_ACCEPTABLE"
+      },
+      {
+        "slug": "polar-h10",
+        "peer": "garmin-hrm-200",
+        "sim": 0.65,
+        "uniqueness": "TEMPLATE_SIMILAR_ACCEPTABLE"
+      },
+      {
+        "slug": "garmin-hrm-200",
+        "peer": "polar-h10",
+        "sim": 0.65,
+        "uniqueness": "TEMPLATE_SIMILAR_ACCEPTABLE"
+      },
+      {
+        "slug": "wahoo-tickr-fit",
+        "peer": "polar-verity-sense",
+        "sim": 0.644,
+        "uniqueness": "TEMPLATE_SIMILAR_ACCEPTABLE"
+      },
+      {
+        "slug": "wahoo-trackr",
+        "peer": "polar-h10",
+        "sim": 0.64,
+        "uniqueness": "TEMPLATE_SIMILAR_ACCEPTABLE"
+      },
+      {
+        "slug": "suunto-run",
+        "peer": "polar-pacer",
+        "sim": 0.639,
+        "uniqueness": "TEMPLATE_SIMILAR_ACCEPTABLE"
+      },
+      {
+        "slug": "polar-pacer",
+        "peer": "suunto-run",
+        "sim": 0.639,
+        "uniqueness": "TEMPLATE_SIMILAR_ACCEPTABLE"
+      },
+      {
+        "slug": "altra-lone-peak-8",
+        "peer": "brooks-cascadia-18",
+        "sim": 0.638,
+        "uniqueness": "TEMPLATE_SIMILAR_ACCEPTABLE"
+      },
+      {
+        "slug": "asics-gt-2000-14",
+        "peer": "brooks-adrenaline-gts-25",
+        "sim": 0.631,
+        "uniqueness": "TEMPLATE_SIMILAR_ACCEPTABLE"
+      },
+      {
+        "slug": "brooks-adrenaline-gts-25",
+        "peer": "asics-gt-2000-14",
+        "sim": 0.631,
+        "uniqueness": "TEMPLATE_SIMILAR_ACCEPTABLE"
+      },
+      {
+        "slug": "garmin-vivoactive-6",
+        "peer": "coros-pace-4",
+        "sim": 0.628,
+        "uniqueness": "TEMPLATE_SIMILAR_ACCEPTABLE"
+      }
+    ]
+  }
+}

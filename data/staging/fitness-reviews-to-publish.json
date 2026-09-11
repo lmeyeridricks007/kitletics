@@ -1,0 +1,632 @@
+[
+  {
+    "reviewId": "review-assault-classic",
+    "reviewSlug": "assaultbike-classic",
+    "productId": "prod-assault-classic",
+    "productSlug": "assaultbike-classic",
+    "name": "AssaultBike Classic",
+    "brand": "Assault Fitness",
+    "brandId": "brand-assault",
+    "categoryId": "cat-air-bikes"
+  },
+  {
+    "reviewId": "review-assault-elite",
+    "reviewSlug": "assaultbike-elite",
+    "productId": "prod-assault-elite",
+    "productSlug": "assaultbike-elite",
+    "name": "AssaultBike Elite",
+    "brand": "Assault Fitness",
+    "brandId": "brand-assault",
+    "categoryId": "cat-air-bikes"
+  },
+  {
+    "reviewId": "review-assault-runner-elite",
+    "reviewSlug": "assaultrunner-elite",
+    "productId": "prod-assault-runner-elite",
+    "productSlug": "assaultrunner-elite",
+    "name": "AssaultRunner Elite",
+    "brand": "Assault Fitness",
+    "brandId": "brand-assault",
+    "categoryId": "cat-treadmills"
+  },
+  {
+    "reviewId": "review-assault-runner",
+    "reviewSlug": "assaultrunner-pro",
+    "productId": "prod-assault-runner",
+    "productSlug": "assaultrunner-pro",
+    "name": "AssaultRunner Pro",
+    "brand": "Assault Fitness",
+    "brandId": "brand-assault",
+    "categoryId": "cat-treadmills"
+  },
+  {
+    "reviewId": "review-blackroll-ball",
+    "reviewSlug": "blackroll-ball",
+    "productId": "prod-blackroll-ball",
+    "productSlug": "blackroll-ball",
+    "name": "BLACKROLL BALL",
+    "brand": "BLACKROLL",
+    "brandId": "brand-blackroll",
+    "categoryId": "cat-lifting-accessories"
+  },
+  {
+    "reviewId": "review-blackroll-duoball",
+    "reviewSlug": "blackroll-duoball",
+    "productId": "prod-blackroll-duoball",
+    "productSlug": "blackroll-duoball",
+    "name": "BLACKROLL DUOBALL",
+    "brand": "BLACKROLL",
+    "brandId": "brand-blackroll",
+    "categoryId": "cat-lifting-accessories"
+  },
+  {
+    "reviewId": "review-blackroll-med",
+    "reviewSlug": "blackroll-med",
+    "productId": "prod-blackroll-med",
+    "productSlug": "blackroll-med",
+    "name": "BLACKROLL MED",
+    "brand": "BLACKROLL",
+    "brandId": "brand-blackroll",
+    "categoryId": "cat-lifting-accessories"
+  },
+  {
+    "reviewId": "review-blackroll-standard",
+    "reviewSlug": "blackroll-standard",
+    "productId": "prod-blackroll-standard",
+    "productSlug": "blackroll-standard",
+    "name": "BLACKROLL STANDARD",
+    "brand": "BLACKROLL",
+    "brandId": "brand-blackroll",
+    "categoryId": "cat-lifting-accessories"
+  },
+  {
+    "reviewId": "review-concept2-bikeerg",
+    "reviewSlug": "concept2-bikeerg",
+    "productId": "prod-concept2-bikeerg",
+    "productSlug": "concept2-bikeerg",
+    "name": "BikeErg",
+    "brand": "Concept2",
+    "brandId": "brand-concept2",
+    "categoryId": "cat-air-bikes"
+  },
+  {
+    "reviewId": "review-concept2-rowerg",
+    "reviewSlug": "concept2-rowerg",
+    "productId": "prod-concept2-rowerg",
+    "productSlug": "concept2-rowerg",
+    "name": "RowErg",
+    "brand": "Concept2",
+    "brandId": "brand-concept2",
+    "categoryId": "cat-rowing-machines"
+  },
+  {
+    "reviewId": "review-concept2-rowerg-dynamic",
+    "reviewSlug": "concept2-rowerg-dynamic",
+    "productId": "prod-concept2-rowerg-dynamic",
+    "productSlug": "concept2-rowerg-dynamic",
+    "name": "RowErg Dynamic",
+    "brand": "Concept2",
+    "brandId": "brand-concept2",
+    "categoryId": "cat-rowing-machines"
+  },
+  {
+    "reviewId": "review-concept2-skierg",
+    "reviewSlug": "concept2-skierg",
+    "productId": "prod-concept2-skierg",
+    "productSlug": "concept2-skierg",
+    "name": "SkiErg",
+    "brand": "Concept2",
+    "brandId": "brand-concept2",
+    "categoryId": "cat-ski-ergs"
+  },
+  {
+    "reviewId": "review-concept2-skierg-stand",
+    "reviewSlug": "concept2-skierg-floor-stand",
+    "productId": "prod-concept2-skierg-stand",
+    "productSlug": "concept2-skierg-floor-stand",
+    "name": "SkiErg Floor Stand",
+    "brand": "Concept2",
+    "brandId": "brand-concept2",
+    "categoryId": "cat-ski-ergs"
+  },
+  {
+    "reviewId": "review-concept2-skierg-pm5-bundle",
+    "reviewSlug": "concept2-skierg-with-stand",
+    "productId": "prod-concept2-skierg-pm5-bundle",
+    "productSlug": "concept2-skierg-with-stand",
+    "name": "SkiErg + Floor Stand",
+    "brand": "Concept2",
+    "brandId": "brand-concept2",
+    "categoryId": "cat-ski-ergs"
+  },
+  {
+    "reviewId": "review-eleiko-kb",
+    "reviewSlug": "eleiko-kettlebell",
+    "productId": "prod-eleiko-kb",
+    "productSlug": "eleiko-kettlebell",
+    "name": "Kettlebell",
+    "brand": "Eleiko",
+    "brandId": "brand-eleiko",
+    "categoryId": "cat-kettlebells"
+  },
+  {
+    "reviewId": "review-eleiko-performance",
+    "reviewSlug": "eleiko-performance-weightlifting-bar",
+    "productId": "prod-eleiko-performance",
+    "productSlug": "eleiko-performance-weightlifting-bar",
+    "name": "Performance Weightlifting Bar",
+    "brand": "Eleiko",
+    "brandId": "brand-eleiko",
+    "categoryId": "cat-barbells"
+  },
+  {
+    "reviewId": "review-eleiko-collars",
+    "reviewSlug": "eleiko-sport-collars",
+    "productId": "prod-eleiko-collars",
+    "productSlug": "eleiko-sport-collars",
+    "name": "Sport Collars",
+    "brand": "Eleiko",
+    "brandId": "brand-eleiko",
+    "categoryId": "cat-lifting-accessories"
+  },
+  {
+    "reviewId": "review-eleiko-xf",
+    "reviewSlug": "eleiko-xf-bar",
+    "productId": "prod-eleiko-xf",
+    "productSlug": "eleiko-xf-bar",
+    "name": "XF Bar",
+    "brand": "Eleiko",
+    "brandId": "brand-eleiko",
+    "categoryId": "cat-barbells"
+  },
+  {
+    "reviewId": "review-gornation-rings",
+    "reviewSlug": "gornation-gymnastic-rings",
+    "productId": "prod-gornation-rings",
+    "productSlug": "gornation-gymnastic-rings",
+    "name": "Gymnastic Rings",
+    "brand": "GORNATION",
+    "brandId": "brand-gornation",
+    "categoryId": "cat-gymnastic-rings"
+  },
+  {
+    "reviewId": "review-gornation-parallettes-pro",
+    "reviewSlug": "gornation-parallettes-pro",
+    "productId": "prod-gornation-parallettes-pro",
+    "productSlug": "gornation-parallettes-pro",
+    "name": "Parallettes Pro",
+    "brand": "GORNATION",
+    "brandId": "brand-gornation",
+    "categoryId": "cat-parallettes"
+  },
+  {
+    "reviewId": "review-gornation-premium-bar",
+    "reviewSlug": "gornation-premium-pull-up-bar",
+    "productId": "prod-gornation-premium-bar",
+    "productSlug": "gornation-premium-pull-up-bar",
+    "name": "Premium Pull-Up Bar",
+    "brand": "GORNATION",
+    "brandId": "brand-gornation",
+    "categoryId": "cat-pull-up-bars"
+  },
+  {
+    "reviewId": "review-gravity-rings",
+    "reviewSlug": "gravity-fitness-gymnastic-rings",
+    "productId": "prod-gravity-rings",
+    "productSlug": "gravity-fitness-gymnastic-rings",
+    "name": "Gymnastic Rings",
+    "brand": "Gravity Fitness",
+    "brandId": "brand-gravity-fitness",
+    "categoryId": "cat-gymnastic-rings"
+  },
+  {
+    "reviewId": "review-gravity-parallettes",
+    "reviewSlug": "gravity-fitness-parallettes",
+    "productId": "prod-gravity-parallettes",
+    "productSlug": "gravity-fitness-parallettes",
+    "name": "Parallettes",
+    "brand": "Gravity Fitness",
+    "brandId": "brand-gravity-fitness",
+    "categoryId": "cat-parallettes"
+  },
+  {
+    "reviewId": "review-gravity-pullup-station",
+    "reviewSlug": "gravity-fitness-pull-up-station",
+    "productId": "prod-gravity-pullup-station",
+    "productSlug": "gravity-fitness-pull-up-station",
+    "name": "Pull-Up Station",
+    "brand": "Gravity Fitness",
+    "brandId": "brand-gravity-fitness",
+    "categoryId": "cat-pull-up-bars"
+  },
+  {
+    "reviewId": "review-gravity-weighted-vest",
+    "reviewSlug": "gravity-fitness-weighted-vest",
+    "productId": "prod-gravity-weighted-vest",
+    "productSlug": "gravity-fitness-weighted-vest",
+    "name": "Weighted Vest",
+    "brand": "Gravity Fitness",
+    "brandId": "brand-gravity-fitness",
+    "categoryId": "cat-weighted-vests"
+  },
+  {
+    "reviewId": "review-horizon-t202",
+    "reviewSlug": "horizon-t202-treadmill",
+    "productId": "prod-horizon-t202",
+    "productSlug": "horizon-t202-treadmill",
+    "name": "T202 Treadmill",
+    "brand": "Horizon Fitness",
+    "brandId": "brand-horizon",
+    "categoryId": "cat-treadmills"
+  },
+  {
+    "reviewId": "review-hydrow-wave",
+    "reviewSlug": "hydrow-wave",
+    "productId": "prod-hydrow-wave",
+    "productSlug": "hydrow-wave",
+    "name": "Wave",
+    "brand": "Hydrow",
+    "brandId": "brand-hydrow",
+    "categoryId": "cat-rowing-machines"
+  },
+  {
+    "reviewId": "review-mirafit-air-bike",
+    "reviewSlug": "mirafit-air-bike",
+    "productId": "prod-mirafit-air-bike",
+    "productSlug": "mirafit-air-bike",
+    "name": "Air Bike",
+    "brand": "Mirafit",
+    "brandId": "brand-mirafit",
+    "categoryId": "cat-air-bikes"
+  },
+  {
+    "reviewId": "review-mirafit-battle-rope",
+    "reviewSlug": "mirafit-battle-rope",
+    "productId": "prod-mirafit-battle-rope",
+    "productSlug": "mirafit-battle-rope",
+    "name": "Battle Rope",
+    "brand": "Mirafit",
+    "brandId": "brand-mirafit",
+    "categoryId": "cat-functional-fitness"
+  },
+  {
+    "reviewId": "review-mirafit-kb",
+    "reviewSlug": "mirafit-cast-iron-kettlebell",
+    "productId": "prod-mirafit-kb",
+    "productSlug": "mirafit-cast-iron-kettlebell",
+    "name": "Cast Iron Kettlebell",
+    "brand": "Mirafit",
+    "brandId": "brand-mirafit",
+    "categoryId": "cat-kettlebells"
+  },
+  {
+    "reviewId": "review-mirafit-folding-rower",
+    "reviewSlug": "mirafit-folding-rower",
+    "productId": "prod-mirafit-folding-rower",
+    "productSlug": "mirafit-folding-rower",
+    "name": "Folding Rower",
+    "brand": "Mirafit",
+    "brandId": "brand-mirafit",
+    "categoryId": "cat-rowing-machines"
+  },
+  {
+    "reviewId": "review-mirafit-treadmill",
+    "reviewSlug": "mirafit-folding-treadmill",
+    "productId": "prod-mirafit-treadmill",
+    "productSlug": "mirafit-folding-treadmill",
+    "name": "Folding Treadmill",
+    "brand": "Mirafit",
+    "brandId": "brand-mirafit",
+    "categoryId": "cat-treadmills"
+  },
+  {
+    "reviewId": "review-mirafit-flooring",
+    "reviewSlug": "mirafit-gym-mats",
+    "productId": "prod-mirafit-flooring",
+    "productSlug": "mirafit-gym-mats",
+    "name": "Gym Mats",
+    "brand": "Mirafit",
+    "brandId": "brand-mirafit",
+    "categoryId": "cat-gym-flooring"
+  },
+  {
+    "reviewId": "review-mirafit-rower",
+    "reviewSlug": "mirafit-magnetic-rower",
+    "productId": "prod-mirafit-rower",
+    "productSlug": "mirafit-magnetic-rower",
+    "name": "Magnetic Rower",
+    "brand": "Mirafit",
+    "brandId": "brand-mirafit",
+    "categoryId": "cat-rowing-machines"
+  },
+  {
+    "reviewId": "review-mirafit-olympic-bar",
+    "reviewSlug": "mirafit-olympic-barbell",
+    "productId": "prod-mirafit-olympic-bar",
+    "productSlug": "mirafit-olympic-barbell",
+    "name": "Olympic Barbell",
+    "brand": "Mirafit",
+    "brandId": "brand-mirafit",
+    "categoryId": "cat-barbells"
+  },
+  {
+    "reviewId": "review-mirafit-pullup",
+    "reviewSlug": "mirafit-wall-pull-up-bar",
+    "productId": "prod-mirafit-pullup",
+    "productSlug": "mirafit-wall-pull-up-bar",
+    "name": "Wall Pull-Up Bar",
+    "brand": "Mirafit",
+    "brandId": "brand-mirafit",
+    "categoryId": "cat-pull-up-bars"
+  },
+  {
+    "reviewId": "review-mirafit-vest",
+    "reviewSlug": "mirafit-weighted-vest",
+    "productId": "prod-mirafit-vest",
+    "productSlug": "mirafit-weighted-vest",
+    "name": "Weighted Vest",
+    "brand": "Mirafit",
+    "brandId": "brand-mirafit",
+    "categoryId": "cat-weighted-vests"
+  },
+  {
+    "reviewId": "review-pullup-dip-doorway",
+    "reviewSlug": "pullup-and-dip-doorway-bar",
+    "productId": "prod-pullup-dip-doorway",
+    "productSlug": "pullup-and-dip-doorway-bar",
+    "name": "Doorway Pull-Up Bar",
+    "brand": "PULLUP & DIP",
+    "brandId": "brand-pullup-dip",
+    "categoryId": "cat-pull-up-bars"
+  },
+  {
+    "reviewId": "review-pullup-dip-parallettes",
+    "reviewSlug": "pullup-and-dip-parallettes",
+    "productId": "prod-pullup-dip-parallettes",
+    "productSlug": "pullup-and-dip-parallettes",
+    "name": "Parallettes",
+    "brand": "PULLUP & DIP",
+    "brandId": "brand-pullup-dip",
+    "categoryId": "cat-parallettes"
+  },
+  {
+    "reviewId": "review-pullup-dip-wall",
+    "reviewSlug": "pullup-and-dip-wall-bar",
+    "productId": "prod-pullup-dip-wall",
+    "productSlug": "pullup-and-dip-wall-bar",
+    "name": "Wall-Mounted Pull-Up Bar",
+    "brand": "PULLUP & DIP",
+    "brandId": "brand-pullup-dip",
+    "categoryId": "cat-pull-up-bars"
+  },
+  {
+    "reviewId": "review-rep-storage",
+    "reviewSlug": "rep-bumper-plate-storage",
+    "productId": "prod-rep-storage",
+    "productSlug": "rep-bumper-plate-storage",
+    "name": "Plate Storage Tree",
+    "brand": "REP Fitness",
+    "brandId": "brand-rep",
+    "categoryId": "cat-gym-storage"
+  },
+  {
+    "reviewId": "review-rep-colorado",
+    "reviewSlug": "rep-colorado-bar",
+    "productId": "prod-rep-colorado",
+    "productSlug": "rep-colorado-bar",
+    "name": "Colorado Bar",
+    "brand": "REP Fitness",
+    "brandId": "brand-rep",
+    "categoryId": "cat-barbells"
+  },
+  {
+    "reviewId": "review-rep-kettlebell",
+    "reviewSlug": "rep-fitness-kettlebell",
+    "productId": "prod-rep-kettlebell",
+    "productSlug": "rep-fitness-kettlebell",
+    "name": "Kettlebell",
+    "brand": "REP Fitness",
+    "brandId": "brand-rep",
+    "categoryId": "cat-kettlebells"
+  },
+  {
+    "reviewId": "review-rep-slam-ball",
+    "reviewSlug": "rep-slam-ball",
+    "productId": "prod-rep-slam-ball",
+    "productSlug": "rep-slam-ball",
+    "name": "Slam Ball",
+    "brand": "REP Fitness",
+    "brandId": "brand-rep",
+    "categoryId": "cat-functional-fitness"
+  },
+  {
+    "reviewId": "review-rogue-dog-sled",
+    "reviewSlug": "rogue-dog-sled",
+    "productId": "prod-rogue-dog-sled",
+    "productSlug": "rogue-dog-sled",
+    "name": "Dog Sled",
+    "brand": "Rogue",
+    "brandId": "brand-rogue",
+    "categoryId": "cat-functional-fitness"
+  },
+  {
+    "reviewId": "review-rogue-echo-bike",
+    "reviewSlug": "rogue-echo-bike",
+    "productId": "prod-rogue-echo-bike",
+    "productSlug": "rogue-echo-bike",
+    "name": "Echo Bike",
+    "brand": "Rogue",
+    "brandId": "brand-rogue",
+    "categoryId": "cat-air-bikes"
+  },
+  {
+    "reviewId": "review-rogue-echo-kb",
+    "reviewSlug": "rogue-echo-kettlebell",
+    "productId": "prod-rogue-echo-kb",
+    "productSlug": "rogue-echo-kettlebell",
+    "name": "Echo Kettlebell",
+    "brand": "Rogue",
+    "brandId": "brand-rogue",
+    "categoryId": "cat-kettlebells"
+  },
+  {
+    "reviewId": "review-rogue-flooring",
+    "reviewSlug": "rogue-flogging-horse-stall-mat-note",
+    "productId": "prod-rogue-flooring",
+    "productSlug": "rogue-flogging-horse-stall-mat-note",
+    "name": "Gym Flooring Mats",
+    "brand": "Rogue",
+    "brandId": "brand-rogue",
+    "categoryId": "cat-gym-flooring"
+  },
+  {
+    "reviewId": "review-rogue-kettlebell",
+    "reviewSlug": "rogue-kettlebell",
+    "productId": "prod-rogue-kettlebell",
+    "productSlug": "rogue-kettlebell",
+    "name": "Kettlebell",
+    "brand": "Rogue",
+    "brandId": "brand-rogue",
+    "categoryId": "cat-kettlebells"
+  },
+  {
+    "reviewId": "review-rogue-pullup-bar",
+    "reviewSlug": "rogue-monster-lite-pull-up-bar",
+    "productId": "prod-rogue-pullup-bar",
+    "productSlug": "rogue-monster-lite-pull-up-bar",
+    "name": "Monster Lite Pull-Up Bar",
+    "brand": "Rogue",
+    "brandId": "brand-rogue",
+    "categoryId": "cat-pull-up-bars"
+  },
+  {
+    "reviewId": "review-rogue-ohio",
+    "reviewSlug": "rogue-ohio-bar",
+    "productId": "prod-rogue-ohio",
+    "productSlug": "rogue-ohio-bar",
+    "name": "Ohio Bar",
+    "brand": "Rogue",
+    "brandId": "brand-rogue",
+    "categoryId": "cat-barbells"
+  },
+  {
+    "reviewId": "review-rogue-ohio-power",
+    "reviewSlug": "rogue-ohio-power-bar",
+    "productId": "prod-rogue-ohio-power",
+    "productSlug": "rogue-ohio-power-bar",
+    "name": "Ohio Power Bar",
+    "brand": "Rogue",
+    "brandId": "brand-rogue",
+    "categoryId": "cat-barbells"
+  },
+  {
+    "reviewId": "review-rogue-weighted-vest",
+    "reviewSlug": "rogue-plate-carrier-vest",
+    "productId": "prod-rogue-weighted-vest",
+    "productSlug": "rogue-plate-carrier-vest",
+    "name": "Plate Carrier / Weighted Vest",
+    "brand": "Rogue",
+    "brandId": "brand-rogue",
+    "categoryId": "cat-weighted-vests"
+  },
+  {
+    "reviewId": "review-rogue-storage",
+    "reviewSlug": "rogue-plate-tree",
+    "productId": "prod-rogue-storage",
+    "productSlug": "rogue-plate-tree",
+    "name": "Plate Tree",
+    "brand": "Rogue",
+    "brandId": "brand-rogue",
+    "categoryId": "cat-gym-storage"
+  },
+  {
+    "reviewId": "review-rogue-sandbag",
+    "reviewSlug": "rogue-sandbag",
+    "productId": "prod-rogue-sandbag",
+    "productSlug": "rogue-sandbag",
+    "name": "Sandbag",
+    "brand": "Rogue",
+    "brandId": "brand-rogue",
+    "categoryId": "cat-functional-fitness"
+  },
+  {
+    "reviewId": "review-rogue-wall-ball",
+    "reviewSlug": "rogue-wall-ball",
+    "productId": "prod-rogue-wall-ball",
+    "productSlug": "rogue-wall-ball",
+    "name": "Wall Ball",
+    "brand": "Rogue",
+    "brandId": "brand-rogue",
+    "categoryId": "cat-functional-fitness"
+  },
+  {
+    "reviewId": "review-rogue-wrist-wraps",
+    "reviewSlug": "rogue-wrist-wraps",
+    "productId": "prod-rogue-wrist-wraps",
+    "productSlug": "rogue-wrist-wraps",
+    "name": "Wrist Wraps",
+    "brand": "Rogue",
+    "brandId": "brand-rogue",
+    "categoryId": "cat-lifting-accessories"
+  },
+  {
+    "reviewId": "review-schwinn-airdyne-ad8",
+    "reviewSlug": "schwinn-airdyne-ad8",
+    "productId": "prod-schwinn-airdyne-ad8",
+    "productSlug": "schwinn-airdyne-ad8",
+    "name": "Airdyne AD8",
+    "brand": "Schwinn",
+    "brandId": "brand-schwinn",
+    "categoryId": "cat-air-bikes"
+  },
+  {
+    "reviewId": "review-skierg2-wall",
+    "reviewSlug": "skierg2-wall-mount",
+    "productId": "prod-skierg2-wall",
+    "productSlug": "skierg2-wall-mount",
+    "name": "SkiErg2 Wall",
+    "brand": "Xebex Fitness",
+    "brandId": "brand-xebex",
+    "categoryId": "cat-ski-ergs"
+  },
+  {
+    "reviewId": "review-sole-f80",
+    "reviewSlug": "sole-f80-treadmill",
+    "productId": "prod-sole-f80",
+    "productSlug": "sole-f80-treadmill",
+    "name": "F80 Treadmill",
+    "brand": "Sole Fitness",
+    "brandId": "brand-sole",
+    "categoryId": "cat-treadmills"
+  },
+  {
+    "reviewId": "review-waterrower-a1",
+    "reviewSlug": "waterrower-a1",
+    "productId": "prod-waterrower-a1",
+    "productSlug": "waterrower-a1",
+    "name": "A1 Home",
+    "brand": "WaterRower",
+    "brandId": "brand-waterrower",
+    "categoryId": "cat-rowing-machines"
+  },
+  {
+    "reviewId": "review-woodway-curve",
+    "reviewSlug": "woodway-curve-trainer",
+    "productId": "prod-woodway-curve",
+    "productSlug": "woodway-curve-trainer",
+    "name": "Curve Trainer",
+    "brand": "Woodway",
+    "brandId": "brand-woodway",
+    "categoryId": "cat-treadmills"
+  },
+  {
+    "reviewId": "review-xebex-skierg",
+    "reviewSlug": "xebex-ski-erg",
+    "productId": "prod-xebex-skierg",
+    "productSlug": "xebex-ski-erg",
+    "name": "Ski Erg",
+    "brand": "Xebex Fitness",
+    "brandId": "brand-xebex",
+    "categoryId": "cat-ski-ergs"
+  }
+]

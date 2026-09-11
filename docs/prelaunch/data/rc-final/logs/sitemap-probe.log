@@ -1,0 +1,195 @@
+progress 0/664
+progress 120/664
+progress 240/664
+progress 360/664
+progress 480/664
+progress 600/664
+{
+  "n": 664,
+  "byStatus": {
+    "0": 664
+  },
+  "non200Count": 664,
+  "sample": [
+    {
+      "path": "/",
+      "status": 0,
+      "location": null,
+      "error": "TypeError: fetch failed"
+    },
+    {
+      "path": "/gear",
+      "status": 0,
+      "location": null,
+      "error": "TypeError: fetch failed"
+    },
+    {
+      "path": "/brands",
+      "status": 0,
+      "location": null,
+      "error": "TypeError: fetch failed"
+    },
+    {
+      "path": "/best",
+      "status": 0,
+      "location": null,
+      "error": "TypeError: fetch failed"
+    },
+    {
+      "path": "/compare",
+      "status": 0,
+      "location": null,
+      "error": "TypeError: fetch failed"
+    },
+    {
+      "path": "/reviews",
+      "status": 0,
+      "location": null,
+      "error": "TypeError: fetch failed"
+    },
+    {
+      "path": "/guides",
+      "status": 0,
+      "location": null,
+      "error": "TypeError: fetch failed"
+    },
+    {
+      "path": "/tools",
+      "status": 0,
+      "location": null,
+      "error": "TypeError: fetch failed"
+    },
+    {
+      "path": "/setups",
+      "status": 0,
+      "location": null,
+      "error": "TypeError: fetch failed"
+    },
+    {
+      "path": "/about",
+      "status": 0,
+      "location": null,
+      "error": "TypeError: fetch failed"
+    },
+    {
+      "path": "/methodology",
+      "status": 0,
+      "location": null,
+      "error": "TypeError: fetch failed"
+    },
+    {
+      "path": "/how-we-review",
+      "status": 0,
+      "location": null,
+      "error": "TypeError: fetch failed"
+    },
+    {
+      "path": "/editorial-policy",
+      "status": 0,
+      "location": null,
+      "error": "TypeError: fetch failed"
+    },
+    {
+      "path": "/evidence-policy",
+      "status": 0,
+      "location": null,
+      "error": "TypeError: fetch failed"
+    },
+    {
+      "path": "/scoring-methodology",
+      "status": 0,
+      "location": null,
+      "error": "TypeError: fetch failed"
+    },
+    {
+      "path": "/authors",
+      "status": 0,
+      "location": null,
+      "error": "TypeError: fetch failed"
+    },
+    {
+      "path": "/affiliate-disclosure",
+      "status": 0,
+      "location": null,
+      "error": "TypeError: fetch failed"
+    },
+    {
+      "path": "/contact",
+      "status": 0,
+      "location": null,
+      "error": "TypeError: fetch failed"
+    },
+    {
+      "path": "/privacy",
+      "status": 0,
+      "location": null,
+      "error": "TypeError: fetch failed"
+    },
+    {
+      "path": "/terms",
+      "status": 0,
+      "location": null,
+      "error": "TypeError: fetch failed"
+    },
+    {
+      "path": "/running",
+      "status": 0,
+      "location": null,
+      "error": "TypeError: fetch failed"
+    },
+    {
+      "path": "/running/road",
+      "status": 0,
+      "location": null,
+      "error": "TypeError: fetch failed"
+    },
+    {
+      "path": "/running/trail",
+      "status": 0,
+      "location": null,
+      "error": "TypeError: fetch failed"
+    },
+    {
+      "path": "/running/track",
+      "status": 0,
+      "location": null,
+      "error": "TypeError: fetch failed"
+    },
+    {
+      "path": "/running/treadmill",
+      "status": 0,
+      "location": null,
+      "error": "TypeError: fetch failed"
+    },
+    {
+      "path": "/running/racing",
+      "status": 0,
+      "location": null,
+      "error": "TypeError: fetch failed"
+    },
+    {
+      "path": "/running/ultra",
+      "status": 0,
+      "location": null,
+      "error": "TypeError: fetch failed"
+    },
+    {
+      "path": "/running/shoes",
+      "status": 0,
+      "location": null,
+      "error": "TypeError: fetch failed"
+    },
+    {
+      "path": "/running/watches",
+      "status": 0,
+      "location": null,
+      "error": "TypeError: fetch failed"
+    },
+    {
+      "path": "/running/heart-rate-monitors",
+      "status": 0,
+      "location": null,
+      "error": "TypeError: fetch failed"
+    }
+  ]
+}

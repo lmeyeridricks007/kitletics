@@ -1,0 +1,80 @@
+{
+  "generatedAt": "2026-09-05T09:52:22.956Z",
+  "mode": "content",
+  "dryRun": false,
+  "launchStatus": "READY",
+  "diagnosticScore": 100,
+  "routeCount": 1397,
+  "issues": [
+    {
+      "id": "CONTENT-001",
+      "severity": "INFO",
+      "area": "review",
+      "status": "resolved",
+      "evidence": "0 reviews have thin source Buy/Skip",
+      "whyItMatters": "Source seeds should match Vomero-standard decision lines",
+      "recommendedFix": "Keep using npm run reviews:upgrade-audience -- --write after backfills",
+      "canAutoFix": false,
+      "owner": "Editorial"
+    },
+    {
+      "id": "CONTENT-002",
+      "severity": "INFO",
+      "area": "review",
+      "status": "resolved",
+      "evidence": "0 reviews match junk/report voice on source fields",
+      "whyItMatters": "Buying-guide voice is the review standard",
+      "recommendedFix": "Keep using npm run reviews:rewrite-voice -- --write after backfills",
+      "canAutoFix": false,
+      "owner": "Editorial"
+    },
+    {
+      "id": "CONTENT-003",
+      "severity": "INFO",
+      "area": "review",
+      "status": "resolved",
+      "evidence": "Review coverage 397/397 products (100%); missing 0",
+      "whyItMatters": "Commercial pages convert better with honest Reviews",
+      "recommendedFix": "npm run reviews:agent -- --mode=audit --missing",
+      "canAutoFix": false,
+      "owner": "Editorial",
+      "effort": "L",
+      "impact": "Medium"
+    },
+    {
+      "id": "CONTENT-004",
+      "severity": "INFO",
+      "area": "content",
+      "status": "resolved",
+      "evidence": "Guides 68 · Reviews 397 · Best 58 · Products 397",
+      "whyItMatters": "Corpus size baseline for growth",
+      "recommendedFix": "Track coverage over time in site-quality reports",
+      "canAutoFix": false,
+      "owner": "Content"
+    },
+    {
+      "id": "VARIANT-ok",
+      "severity": "INFO",
+      "area": "product",
+      "status": "resolved",
+      "evidence": "Variant UX coverage OK — 79/83 dual Men+Women shoes; search/compare/best/review/brand surfaces wired",
+      "whyItMatters": "Baseline for regression detection on next audit",
+      "recommendedFix": "No action",
+      "canAutoFix": false,
+      "owner": "Engineering"
+    }
+  ],
+  "counts": {
+    "BLOCKER": 0,
+    "HIGH": 0,
+    "MEDIUM": 0,
+    "LOW": 0,
+    "INFO": 0
+  },
+  "sections": {
+    "build": "Not run inside agent — execute `npm run build` for compile verification."
+  },
+  "autoFixes": [],
+  "nextActions": [],
+  "remainingManual": []
+}

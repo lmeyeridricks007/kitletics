@@ -1,0 +1,275 @@
+{
+  "generatedAt": "2026-09-06T05:30:41.295Z",
+  "okCount": 13,
+  "failCount": 16,
+  "registry": {
+    "added": 13,
+    "updated": 0
+  },
+  "ok": [
+    {
+      "id": "prod-craft-adv-essence-tight-men",
+      "slug": "craft-adv-essence-tight-men",
+      "ok": true,
+      "src": "/images/clothing/products/craft-adv-essence-tight-men-hero.jpg",
+      "sourceUrl": "https://www.craftsportswear.com/global/adv-essence-wind-tights-m-men-blaze-1909606-396000",
+      "source": "Manufacturer product photography (Craft Sportswear CDN)",
+      "licence": "manufacturer-marketing",
+      "attribution": "© Craft — manufacturer product photography",
+      "imageUrl": "https://craftsportswear.centracdn.net/client/dynamic/images/852_a9b183319b-1909606-349000-1-full.jpg",
+      "width": 750,
+      "height": 1000,
+      "bytes": 43004
+    },
+    {
+      "id": "prod-odlo-active-warm-eco-men",
+      "slug": "odlo-active-warm-eco-men",
+      "ok": true,
+      "src": "/images/clothing/products/odlo-active-warm-eco-men-hero.jpg",
+      "sourceUrl": "https://www.odlo.com/us-en/p/active-warm-base-layer-top-159102.html",
+      "source": "Manufacturer product photography (Odlo / Scayle CDN)",
+      "licence": "manufacturer-marketing",
+      "attribution": "© Odlo — manufacturer product photography",
+      "imageUrl": "https://mrsg-live.cdn.scayle.cloud/images/810d166334e06a02312d91b0f95ba2ca.jpeg",
+      "width": 692,
+      "height": 1000,
+      "bytes": 38457
+    },
+    {
+      "id": "prod-odlo-active-warm-eco-bottom-men",
+      "slug": "odlo-active-warm-eco-bottom-men",
+      "ok": true,
+      "src": "/images/clothing/products/odlo-active-warm-eco-bottom-men-hero.jpg",
+      "sourceUrl": "https://www.odlo.com/us-en/p/active-warm-base-layer-bottoms-159122.html",
+      "source": "Manufacturer product photography (Odlo / Scayle CDN)",
+      "licence": "manufacturer-marketing",
+      "attribution": "© Odlo — manufacturer product photography",
+      "imageUrl": "https://mrsg-live.cdn.scayle.cloud/images/fcdf5fabc1bb452739f9c0fce36f3f9b.jpeg",
+      "width": 692,
+      "height": 1000,
+      "bytes": 38210
+    },
+    {
+      "id": "prod-janji-run-tee-men",
+      "slug": "janji-run-tee-men",
+      "ok": true,
+      "src": "/images/clothing/products/janji-run-tee-men-hero.jpg",
+      "sourceUrl": "https://www.janji.com/products/ms-run-all-day-tee",
+      "source": "Manufacturer product photography (Janji)",
+      "licence": "manufacturer-marketing",
+      "attribution": "© Janji — manufacturer product photography",
+      "imageUrl": "https://janji.com/cdn/shop/files/JANJI-MT19B-TURBO_CHOOK_CARBON-01.jpg?crop=center&height=1200&v=1772044726&width=1200",
+      "width": 1000,
+      "height": 1000,
+      "bytes": 98347
+    },
+    {
+      "id": "prod-brooks-method-tight-women",
+      "slug": "brooks-method-tight-women",
+      "ok": true,
+      "src": "/images/clothing/products/brooks-method-tight-women-hero.jpg",
+      "sourceUrl": "https://www.brooksrunning.com/en_gb/womens/running-leggings/method-7%2F8-tight/221524.html",
+      "source": "Manufacturer product photography (Brooks Running)",
+      "licence": "manufacturer-marketing",
+      "attribution": "© Brooks Running — manufacturer product photography",
+      "imageUrl": "https://www.brooksrunning.com/on/demandware.static/-/Sites-brooks-master-catalog/default/dwba0bdf38/original/221524/221524-001-lf-method-crop-womens-running-tight.png",
+      "width": 1000,
+      "height": 1000,
+      "bytes": 17643
+    },
+    {
+      "id": "prod-brooks-notch-thermal-beanie",
+      "slug": "brooks-notch-thermal-beanie",
+      "ok": true,
+      "src": "/images/clothing/products/brooks-notch-thermal-beanie-hero.jpg",
+      "sourceUrl": "https://www.brooksrunning.com/en_us/featured/accessories/notch-thermal-beanie-2.0/280540.html",
+      "source": "Manufacturer product photography (Brooks Running)",
+      "licence": "manufacturer-marketing",
+      "attribution": "© Brooks Running — manufacturer product photography",
+      "imageUrl": "https://www.brooksrunning.com/on/demandware.static/-/Sites-brooks-master-catalog/default/dw98b19ec7/original/280540/280540-001-lf-notch-thermal-unisex-beanie-2.png",
+      "width": 1000,
+      "height": 1000,
+      "bytes": 34794
+    },
+    {
+      "id": "prod-nike-fast-tight-men",
+      "slug": "nike-fast-tight-men",
+      "ok": true,
+      "src": "/images/clothing/products/nike-fast-tight-men-hero.jpg",
+      "sourceUrl": "https://www.nike.com/t/fast-mens-dri-fit-brief-lined-running-1-2-length-tights-TkBgpW/FN3371-010",
+      "source": "Manufacturer product photography (Nike)",
+      "licence": "manufacturer-marketing",
+      "attribution": "© Nike — manufacturer product photography",
+      "imageUrl": "https://static.nike.com/a/images/t_default/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/6ca02930-39b1-4254-88cb-adba53a1b0ff/M+NK+DF+FAST+BF+HALF+TIGHT.png",
+      "width": 320,
+      "height": 400,
+      "bytes": 11220
+    },
+    {
+      "id": "prod-nike-aerobill-cap",
+      "slug": "nike-aerobill-cap",
+      "ok": true,
+      "src": "/images/clothing/products/nike-aerobill-cap-hero.jpg",
+      "sourceUrl": "https://www.nike.com/t/dri-fit-club-unstructured-featherlight-cap-b0cNxd/FB5682-010",
+      "source": "Manufacturer product photography (Nike Dri-FIT Club Cap)",
+      "licence": "manufacturer-marketing",
+      "attribution": "© Nike — manufacturer product photography",
+      "imageUrl": "https://static.nike.com/a/images/t_default/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/1e73c461-d429-4631-bcce-cf9bba2670a1/U+NK+DF+CLUB+CAP+U+AB+FL+P.png",
+      "width": 320,
+      "height": 400,
+      "bytes": 6716
+    },
+    {
+      "id": "prod-nike-dri-fit-miler-women",
+      "slug": "nike-dri-fit-miler-women",
+      "ok": true,
+      "src": "/images/clothing/products/nike-dri-fit-miler-women-hero.jpg",
+      "sourceUrl": "https://www.nike.com/t/miler-womens-running-tank-jJr9Hl/AJ8102-010",
+      "source": "Manufacturer product photography (Nike Miler)",
+      "licence": "manufacturer-marketing",
+      "attribution": "© Nike — manufacturer product photography",
+      "imageUrl": "https://static.nike.com/a/images/t_default/xhhhzy2lmqjydpncnbyg/W+NK+MILER+TANK.png",
+      "width": 320,
+      "height": 400,
+      "bytes": 11382
+    },
+    {
+      "id": "prod-nike-therma-fit-glove",
+      "slug": "nike-therma-fit-glove",
+      "ok": true,
+      "src": "/images/clothing/products/nike-therma-fit-glove-hero.jpg",
+      "sourceUrl": "https://www.sportsshoes.com/products/search?q=nike%20therma-fit%20pacer%20gloves",
+      "source": "Authorized retailer product photography (SportsShoes)",
+      "licence": "retailer-authorized",
+      "attribution": "© SportsShoes — product photography",
+      "imageUrl": "https://cdn.sportsshoes.com/product/N/NIK24883/NIK24883_1000_1.jpg",
+      "width": 1000,
+      "height": 1000,
+      "bytes": 76258
+    },
+    {
+      "id": "prod-asics-race-short",
+      "slug": "asics-core-split-short",
+      "ok": true,
+      "src": "/images/clothing/products/asics-core-split-short-hero.jpg",
+      "sourceUrl": "https://www.sportsshoes.com/products/search?q=asics%20core%20split%20short",
+      "source": "Authorized retailer product photography (SportsShoes)",
+      "licence": "retailer-authorized",
+      "attribution": "© SportsShoes — product photography",
+      "imageUrl": "https://cdn.sportsshoes.com/product/A/ASI16839/ASI16839_1000_1.jpg",
+      "width": 1000,
+      "height": 1000,
+      "bytes": 54629
+    },
+    {
+      "id": "prod-nb-rc-essential-short-men",
+      "slug": "nb-rc-essential-short-men",
+      "ok": true,
+      "src": "/images/clothing/products/nb-rc-essential-short-men-hero.jpg",
+      "sourceUrl": "https://www.sportsshoes.com/products/search?q=new%20balance%20rc%20essential%205%20inch",
+      "source": "Authorized retailer product photography (SportsShoes)",
+      "licence": "retailer-authorized",
+      "attribution": "© SportsShoes — product photography",
+      "imageUrl": "https://cdn.sportsshoes.com/product/N/NEW696856/NEW696856_1000_1.jpg",
+      "width": 1000,
+      "height": 1000,
+      "bytes": 42863
+    },
+    {
+      "id": "prod-on-performance-tight-women",
+      "slug": "on-performance-tight-women",
+      "ok": true,
+      "src": "/images/clothing/products/on-performance-tight-women-hero.jpg",
+      "sourceUrl": "https://www.sportsshoes.com/products/search?q=on%20performance%207%2F8%20tights",
+      "source": "Authorized retailer product photography (SportsShoes)",
+      "licence": "retailer-authorized",
+      "attribution": "© SportsShoes — product photography",
+      "imageUrl": "https://cdn.sportsshoes.com/product/O/ONR829/ONR829_1000_1.jpg",
+      "width": 1000,
+      "height": 1000,
+      "bytes": 49688
+    }
+  ],
+  "fail": [
+    {
+      "id": "prod-lululemon-pace-breaker-men",
+      "slug": "lululemon-pace-breaker-men",
+      "reason": "lululemon.com / CDN blocked or placeholder; no verified packshot URL"
+    },
+    {
+      "id": "prod-lululemon-hotty-hot-women",
+      "slug": "lululemon-hotty-hot-women",
+      "reason": "lululemon.com / CDN blocked or placeholder; no verified packshot URL"
+    },
+    {
+      "id": "prod-lululemon-fast-and-free-women",
+      "slug": "lululemon-fast-and-free-women",
+      "reason": "lululemon.com / CDN blocked or placeholder; no verified packshot URL"
+    },
+    {
+      "id": "prod-lululemon-energy-bra",
+      "slug": "lululemon-energy-bra",
+      "reason": "lululemon.com / CDN blocked or placeholder; no verified packshot URL"
+    },
+    {
+      "id": "prod-lululemon-always-in-motion-men",
+      "slug": "lululemon-always-in-motion-men",
+      "reason": "lululemon.com / CDN blocked or placeholder; no verified packshot URL"
+    },
+    {
+      "id": "prod-nike-impossibly-light-men",
+      "slug": "nike-impossibly-light-men",
+      "reason": "Impossibly Light jacket not found on Nike/SportsShoes; no verified packshot"
+    },
+    {
+      "id": "prod-nike-element-ls-men",
+      "slug": "nike-element-ls-men",
+      "reason": "Element / Therma LS not found as current Nike running SKU; no verified packshot"
+    },
+    {
+      "id": "prod-tnf-flight-series-jacket-men",
+      "slug": "tnf-flight-series-jacket-men",
+      "reason": "TNF Flight Series page 403 / not found on SportsShoes; no verified packshot"
+    },
+    {
+      "id": "prod-tracksmith-harrier-singlet-men",
+      "slug": "tracksmith-harrier-singlet-men",
+      "reason": "Harrier Singlet discontinued (Harrier Tee/LS only); refusing substitute singlet"
+    },
+    {
+      "id": "prod-tracksmith-brighton-bra",
+      "slug": "tracksmith-brighton-bra",
+      "reason": "Brighton Bra product page not found on Tracksmith; no verified packshot"
+    },
+    {
+      "id": "prod-saxx-kinetic-hd-men",
+      "slug": "saxx-kinetic-hd-men",
+      "reason": "Kinetic HD discontinued; only Kinetic Light-Compression Mesh available (wrong SKU)"
+    },
+    {
+      "id": "prod-brooks-dare-crossback",
+      "slug": "brooks-dare-crossback",
+      "reason": "Dare Crossback discontinued; only Scoopback/Racerback found (wrong SKU)"
+    },
+    {
+      "id": "prod-brooks-ghost-short-sleeve",
+      "slug": "brooks-ghost-short-sleeve",
+      "reason": "Ghost Short Sleeve apparel not found on Brooks/SportsShoes; no verified packshot"
+    },
+    {
+      "id": "prod-brooks-lsd-thermal-vest-men",
+      "slug": "brooks-lsd-thermal-vest-men",
+      "reason": "LSD Thermal Vest not found on Brooks/SportsShoes; no verified packshot"
+    },
+    {
+      "id": "prod-brooks-cascadia-jacket",
+      "slug": "brooks-cascadia-jacket",
+      "reason": "Cascadia Jacket not found (Canopy/High Point only); refusing substitute"
+    },
+    {
+      "id": "prod-asics-race-singlet-men",
+      "slug": "asics-race-singlet-men",
+      "reason": "ASICS Race Singlet not found on manufacturer/retailer CDNs; no verified packshot"
+    }
+  ]
+}

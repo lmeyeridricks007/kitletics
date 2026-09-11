@@ -1,0 +1,126 @@
+{
+  "generatedAt": "2026-09-10T17:20:41.756Z",
+  "note": "Binaries in this folder are gitignored. Canonical originals remain at sourceUrl.",
+  "files": [
+    {
+      "productId": "prod-on-ultra-vest-pro",
+      "usage": "gallery-side",
+      "publicSrcBefore": "/images/packs/products/on-ultra-vest-pro/gallery/side-1.png",
+      "originalArchive": "/data/media-originals/images/packs/products/on-ultra-vest-pro/gallery/side-1.png",
+      "sourceUrl": "https://images.ctfassets.net/hnk2vsx53n6l/4i4taGom3YOHVS9TDolp3N/7da61b1d15b5bb1104fbf6c50ea5dcc7/ee4989fd85f8dad51150bad1c6b02037bffe9613.png",
+      "source": "On Contentful CDN",
+      "licence": "manufacturer-marketing",
+      "original": {
+        "format": "png",
+        "width": 4000,
+        "height": 4000,
+        "hasAlpha": true,
+        "bytes": 8751188,
+        "sha256": "952a9ee7a7487341c4d385728baffcaff31ded18f9b9e3e611ad1ed66b338a8c"
+      },
+      "action": "web-master",
+      "publicSrcAfter": "/images/packs/products/on-ultra-vest-pro/gallery/side-1.jpg",
+      "webMaster": {
+        "format": "jpeg",
+        "width": 1600,
+        "height": 1600,
+        "bytes": 124976
+      }
+    },
+    {
+      "productId": "prod-on-ultra-vest-pro",
+      "usage": "gallery-detail",
+      "publicSrcBefore": "/images/packs/products/on-ultra-vest-pro/gallery/detail-2.png",
+      "originalArchive": "/data/media-originals/images/packs/products/on-ultra-vest-pro/gallery/detail-2.png",
+      "sourceUrl": "https://images.ctfassets.net/hnk2vsx53n6l/1j2LrTWIoYCXc4sn95ztnt/a9aca11345125edb25ed5165e2e33dc2/1a4ae98322ce7b72cc4e08ae922c8c7b04d5ee11.png",
+      "source": "On Contentful CDN",
+      "licence": "manufacturer-marketing",
+      "original": {
+        "format": "png",
+        "width": 4000,
+        "height": 4000,
+        "hasAlpha": true,
+        "bytes": 12772609,
+        "sha256": "cc24eb3ee2ee703e5978803750712a204e7f74542344b274e6a0bfe59d6e9bd7"
+      },
+      "action": "web-master",
+      "publicSrcAfter": "/images/packs/products/on-ultra-vest-pro/gallery/detail-2.jpg",
+      "webMaster": {
+        "format": "jpeg",
+        "width": 1600,
+        "height": 1600,
+        "bytes": 176037
+      }
+    },
+    {
+      "productId": "prod-on-ultra-vest-pro",
+      "usage": "gallery-rear",
+      "publicSrcBefore": "/images/packs/products/on-ultra-vest-pro/gallery/rear-3.png",
+      "originalArchive": "/data/media-originals/images/packs/products/on-ultra-vest-pro/gallery/rear-3.png",
+      "sourceUrl": "https://images.ctfassets.net/hnk2vsx53n6l/2uStRCM6XiOLioXxyG9PA8/d7d1f354ef39c8247ca01c55dc688caf/8cc78e8f1d0e4620c8a813e004d33086898fb3a9.png",
+      "source": "On Contentful CDN",
+      "licence": "manufacturer-marketing",
+      "original": {
+        "format": "png",
+        "width": 4000,
+        "height": 4000,
+        "hasAlpha": true,
+        "bytes": 15390062,
+        "sha256": "995ba2d79a41b53578bff9f248b8e8667d1f93a38e7b176dadd9e7f9911239f9"
+      },
+      "action": "web-master",
+      "publicSrcAfter": "/images/packs/products/on-ultra-vest-pro/gallery/rear-3.jpg",
+      "webMaster": {
+        "format": "jpeg",
+        "width": 1600,
+        "height": 1600,
+        "bytes": 267906
+      }
+    },
+    {
+      "productId": "prod-on-ultra-vest-pro",
+      "usage": "unused-duplicate-of-side",
+      "publicSrcBefore": "/images/packs/products/on-ultra-vest-pro-hero.png",
+      "originalArchive": "/data/media-originals/images/packs/products/on-ultra-vest-pro-hero.png",
+      "sourceUrl": "https://www.on.com/en-us/products/ultra-vest-pro-u-2uf3013/unisex",
+      "source": "On Contentful CDN (unregistered PNG leftover; registered hero is JPEG)",
+      "licence": "manufacturer-marketing",
+      "original": {
+        "format": "png",
+        "width": 4000,
+        "height": 4000,
+        "hasAlpha": true,
+        "bytes": 8751188,
+        "sha256": "952a9ee7a7487341c4d385728baffcaff31ded18f9b9e3e611ad1ed66b338a8c"
+      },
+      "action": "archived-and-removed-from-public",
+      "publicSrcAfter": "/images/packs/products/on-ultra-vest-pro-hero.jpg",
+      "note": "Registered hero is already JPEG; PNG was an unused 8.3MB duplicate."
+    },
+    {
+      "productId": "prod-glycerin-22",
+      "usage": "hero",
+      "publicSrcBefore": "/images/running/products/glycerin-22-hero.png",
+      "originalArchive": "/data/media-originals/images/running/products/glycerin-22-hero.png",
+      "sourceUrl": "https://cdn.runrepeat.com/storage/gallery/product_content/40658/brooks-glycerin-22-22723204-main.jpg",
+      "source": "Independent lab product photography (RunRepeat)",
+      "licence": "retailer-authorized",
+      "original": {
+        "format": "png",
+        "width": 3000,
+        "height": 2000,
+        "hasAlpha": false,
+        "bytes": 5447640,
+        "sha256": "11ffdd0726b99e6f74c1732e82f829e327a2c43d36907b161bd8ff3397e99eff"
+      },
+      "action": "web-master",
+      "publicSrcAfter": "/images/running/products/glycerin-22-hero.jpg",
+      "webMaster": {
+        "format": "jpeg",
+        "width": 2000,
+        "height": 1333,
+        "bytes": 221635
+      }
+    }
+  ]
+}

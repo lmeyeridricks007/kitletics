@@ -1,0 +1,1247 @@
+{
+  "ok": [
+    {
+      "productId": "prod-adidas-adipower-3",
+      "src": "/images/training/products/adidas-adipower-weightlifting-3-hero.jpg",
+      "sourceUrl": "https://www.budoonline.co.uk/products/adidas-adipower-iii-weightlifting-shoes-mens-powerlifting-gym-trainers-black-3",
+      "source": "scraped CDN",
+      "licence": "retailer-authorized",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1000,
+      "height": 1000
+    },
+    {
+      "productId": "prod-adidas-dropset-3",
+      "src": "/images/training/products/adidas-dropset-3-hero.jpg",
+      "sourceUrl": "https://runrepeat.com/adidas-dropset-3",
+      "source": "RunRepeat product primary",
+      "licence": "retailer-authorized",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1000,
+      "height": 1000
+    },
+    {
+      "productId": "prod-adidas-metalbone-3-3-2026",
+      "src": "/images/padel/products/adidas-metalbone-2026-hero.jpg",
+      "sourceUrl": "https://www.paddlepro.com/padel/paddles/adidas/",
+      "source": "PaddlePro BigCommerce CDN",
+      "licence": "retailer-authorized",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1000,
+      "height": 1000
+    },
+    {
+      "productId": "prod-adidas-metalbone-hrd",
+      "src": "/images/padel/products/adidas-metalbone-hrd-hero.png",
+      "sourceUrl": "https://padelusa.com/products/adidas-metalbone-hrd-3-4-padel-racket?variant=45436926394531&_pos=1&_sid=7ad0155cb&_ss=r",
+      "source": "Shopify CDN",
+      "licence": "retailer-authorized",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1000,
+      "height": 1000
+    },
+    {
+      "productId": "prod-adv-skin-12",
+      "src": "/images/packs/products/salomon-adv-skin-12-hero.jpg",
+      "sourceUrl": "https://www.runningwarehouse.com/Salomon_Adv_Skin_12_Set_Pack_Black/descpage-SADV129.html",
+      "source": "Running Warehouse CDN",
+      "licence": "retailer-authorized",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1000,
+      "height": 1000
+    },
+    {
+      "productId": "prod-asics-gel-challenger-court",
+      "src": "/images/fitness/products/asics-gel-challenger-court-hero.jpg",
+      "sourceUrl": "https://www.zonadepadel.es/asics/14103-zapatillas-asics-gel-challenger-15-padel-white-guava-2026.html",
+      "source": "Zona de Padel",
+      "licence": "retailer-authorized",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1000,
+      "height": 1000
+    },
+    {
+      "productId": "prod-asics-gel-resolution-padel",
+      "src": "/images/padel/products/asics-gel-resolution-padel-hero.jpg",
+      "sourceUrl": "https://www.zonadepadel.es/asics/15276-zapatillas-asics-gel-resolution-x-clay-blue-fade-gunmetal-2026.html",
+      "source": "scraped CDN",
+      "licence": "retailer-authorized",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1000,
+      "height": 1000
+    },
+    {
+      "productId": "prod-atx-cast-iron-set",
+      "src": "/images/fitness/products/atx-cast-iron-plate-set-hero.jpg",
+      "sourceUrl": "https://www.fitnessrocker.at/de-de/products/atx-hantelscheiben-3-grip-guss-50-mm",
+      "source": "Fitnessrocker Shopify CDN (ATX 3-Grip cast iron 50 mm)",
+      "licence": "retailer-authorized",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1000,
+      "height": 1000
+    },
+    {
+      "productId": "prod-atx-fid-bench",
+      "src": "/images/fitness/products/atx-fid-bench-hero.jpg",
+      "sourceUrl": "https://www.fitnessrocker.at/de-de/products/verstellbare-hantelbank-fid-102",
+      "source": "Fitnessrocker Shopify CDN (ATX FID-102)",
+      "licence": "retailer-authorized",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1000,
+      "height": 1000
+    },
+    {
+      "productId": "prod-babolat-counter-viper",
+      "src": "/images/padel/products/babolat-counter-viper-hero.png",
+      "sourceUrl": "https://padelusa.com/products/babolat-counter-viper-2-6-padel-racket?variant=46771956842659&_pos=1&_sid=22d254b3e&_ss=r",
+      "source": "Shopify CDN",
+      "licence": "retailer-authorized",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1000,
+      "height": 1000
+    },
+    {
+      "productId": "prod-babolat-jet-premura",
+      "src": "/images/fitness/products/babolat-jet-premura-hero.jpg",
+      "sourceUrl": "https://www.zonadepadel.es/babolat/15856-zapatillas-babolat-jet-premura-2-men-cream-orange-2026.html",
+      "source": "scraped CDN",
+      "licence": "retailer-authorized",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1000,
+      "height": 1000
+    },
+    {
+      "productId": "prod-babolat-pure-aero-2023",
+      "src": "/images/tennis/products/babolat-pure-aero-2023-hero.jpg",
+      "sourceUrl": "https://www.tennis-warehouse.com/",
+      "source": "Tennis Warehouse CDN",
+      "licence": "retailer-authorized",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1000,
+      "height": 1000
+    },
+    {
+      "productId": "prod-babolat-pure-aero-2026",
+      "src": "/images/tennis/products/babolat-pure-aero-2026-hero.jpg",
+      "sourceUrl": "https://www.tennis-warehouse.com/descpage-BPAR26.html",
+      "source": "Tennis Warehouse CDN",
+      "licence": "retailer-authorized",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1000,
+      "height": 1000
+    },
+    {
+      "productId": "prod-babolat-pure-drive-2025",
+      "src": "/images/tennis/products/babolat-pure-drive-2025-hero.jpg",
+      "sourceUrl": "https://www.tennis-warehouse.com/descpage-BPD25R.html",
+      "source": "Tennis Warehouse CDN",
+      "licence": "retailer-authorized",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1000,
+      "height": 1000
+    },
+    {
+      "productId": "prod-babolat-pure-drive-gen11",
+      "src": "/images/tennis/products/babolat-pure-drive-gen11-hero.jpg",
+      "sourceUrl": "https://www.tennis-warehouse.com/",
+      "source": "Tennis Warehouse CDN",
+      "licence": "retailer-authorized",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1000,
+      "height": 1000
+    },
+    {
+      "productId": "prod-babolat-technical-viper",
+      "src": "/images/padel/products/babolat-technical-viper-hero.png",
+      "sourceUrl": "https://padelusa.com/products/babolat-technical-viper-3-0-padel-racket?variant=46771757383843&_pos=1&_sid=cf28e5b12&_ss=r",
+      "source": "Shopify CDN",
+      "licence": "retailer-authorized",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1000,
+      "height": 1000
+    },
+    {
+      "productId": "prod-black-crown-special-one-soft",
+      "src": "/images/padel/products/black-crown-special-one-soft-hero.jpg",
+      "sourceUrl": "https://www.zonadepadel.com/black-crown/8073-black-crown-special-soft-2023.html",
+      "source": "Zona de Padel CDN (Black Crown Special Soft 2023 — closest commercial Special Soft line packshot)",
+      "licence": "retailer-authorized",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1000,
+      "height": 1000
+    },
+    {
+      "productId": "prod-bowflex-1090",
+      "src": "/images/fitness/products/bowflex-1090-hero.jpg",
+      "sourceUrl": "https://www.bowflex.com/products/bowflex-results-series-1090-selecttech-dumbbells",
+      "source": "product CDN",
+      "licence": "retailer-authorized",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1000,
+      "height": 1000
+    },
+    {
+      "productId": "prod-bowflex-552",
+      "src": "/images/fitness/products/bowflex-selecttech-552-hero.jpg",
+      "sourceUrl": "https://www.bowflex.com/selecttech/552/100131.html",
+      "source": "Bowflex Shopify CDN",
+      "licence": "manufacturer-marketing",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1000,
+      "height": 1000
+    },
+    {
+      "productId": "prod-bullpadel-hack-03",
+      "src": "/images/padel/products/bullpadel-hack-03-hero.jpg",
+      "sourceUrl": "https://www.zonadepadel.es/bullpadel/9043-bullpadel-hack-03-2024.html",
+      "source": "scraped CDN",
+      "licence": "retailer-authorized",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1000,
+      "height": 1000
+    },
+    {
+      "productId": "prod-bullpadel-hack-04",
+      "src": "/images/padel/products/bullpadel-hack-04-hero.png",
+      "sourceUrl": "https://padelusa.com/products/bullpadel-hack-04-2025-padel-racket?variant=45287101595811&_pos=1&_sid=79e474490&_ss=r",
+      "source": "Shopify CDN",
+      "licence": "retailer-authorized",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1000,
+      "height": 1000
+    },
+    {
+      "productId": "prod-bullpadel-vertex-04",
+      "src": "/images/padel/products/bullpadel-vertex-04-hero.png",
+      "sourceUrl": "https://padelusa.com/products/bullpadel-vertex-04-2025-juan-tello-padel-racket",
+      "source": "Shopify CDN",
+      "licence": "retailer-authorized",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1000,
+      "height": 1000
+    },
+    {
+      "productId": "prod-bullpadel-vertex-05",
+      "src": "/images/padel/products/bullpadel-vertex-05-hero.png",
+      "sourceUrl": "https://padelusa.com/products/bullpadel-vertex-05-2026-padel-racket?variant=46513503142051&_pos=1&_sid=14e60950a&_ss=r",
+      "source": "Shopify CDN",
+      "licence": "retailer-authorized",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1000,
+      "height": 1000
+    },
+    {
+      "productId": "prod-camelbak-zephyr",
+      "src": "/images/packs/products/camelbak-zephyr-hero.jpg",
+      "sourceUrl": "https://www.amazon.com/CamelBak-Zephyr-Limited-Hydration-Bladder/dp/B09QKKS461",
+      "source": "Amazon m.media-amazon.com (CamelBak Zephyr Limited Edition packshot)",
+      "licence": "retailer-authorized",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1000,
+      "height": 1000
+    },
+    {
+      "productId": "prod-clifton-pro",
+      "src": "/images/running/products/clifton-pro-hero.jpg",
+      "sourceUrl": "https://nz.hoka.com/products/clifton-pro-1176510-bkcs-bkcs",
+      "source": "Manufacturer official product catalog (HOKA)",
+      "licence": "manufacturer-marketing",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1000,
+      "height": 1000
+    },
+    {
+      "productId": "prod-coros-apex-2-pro",
+      "src": "/images/watches/products/coros-apex-2-pro-hero.png",
+      "sourceUrl": "https://www.coros.com/apex2pro",
+      "source": "COROS Shopify CDN",
+      "licence": "manufacturer-marketing",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1000,
+      "height": 1000
+    },
+    {
+      "productId": "prod-coros-hrm",
+      "src": "/images/hrm/products/coros-heart-rate-monitor-hero.png",
+      "sourceUrl": "https://www.coros.com/heart-rate-monitor",
+      "source": "COROS Shopify CDN",
+      "licence": "manufacturer-marketing",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1000,
+      "height": 1000
+    },
+    {
+      "productId": "prod-coros-pace-3",
+      "src": "/images/watches/products/coros-pace-3-hero.jpg",
+      "sourceUrl": "https://coros.com/pace3",
+      "source": "Authorized retailer product photography (Further Faster / COROS)",
+      "licence": "retailer-authorized",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1000,
+      "height": 1000
+    },
+    {
+      "productId": "prod-coros-pace-pro",
+      "src": "/images/watches/products/coros-pace-pro-hero.png",
+      "sourceUrl": "https://www.coros.com/pacepro",
+      "source": "COROS Shopify CDN",
+      "licence": "manufacturer-marketing",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1000,
+      "height": 1000
+    },
+    {
+      "productId": "prod-drop-shot-canyon-pro",
+      "src": "/images/padel/products/drop-shot-canyon-pro-hero.jpg",
+      "sourceUrl": "https://www.zonadepadel.es/drop-shot/14427-drop-shot-canyon-pro-confort-20-2026.html",
+      "source": "scraped CDN",
+      "licence": "retailer-authorized",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1000,
+      "height": 1000
+    },
+    {
+      "productId": "prod-dunlop-cx-200",
+      "src": "/images/tennis/products/dunlop-cx-200-hero.jpg",
+      "sourceUrl": "https://www.tennis-warehouse.com/descpage-DCX2S.html",
+      "source": "Tennis Warehouse CDN",
+      "licence": "retailer-authorized",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1000,
+      "height": 1000
+    },
+    {
+      "productId": "prod-eleiko-sport-bumper",
+      "src": "/images/fitness/products/eleiko-sport-bumper-set-hero.jpg",
+      "sourceUrl": "https://eleiko.com/en/equipment/plates/weightlifting/3062910-10-eleiko-sport-training-plate-10-kg-coloured",
+      "source": "Eleiko media CDN (Sport Training Plate 10 kg coloured — set representative)",
+      "licence": "manufacturer-marketing",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1000,
+      "height": 1000
+    },
+    {
+      "productId": "prod-endorphin-pro-3",
+      "src": "/images/running/products/endorphin-pro-3-hero.jpg",
+      "sourceUrl": "https://www.saucony.com/en/endorphin-pro-3/59686W.html",
+      "source": "Manufacturer official product catalog (Saucony)",
+      "licence": "manufacturer-marketing",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1000,
+      "height": 1000
+    },
+    {
+      "productId": "prod-forerunner-165",
+      "src": "/images/watches/products/garmin-forerunner-165-hero.jpg",
+      "sourceUrl": "https://www.garmin.com/",
+      "source": "Manufacturer official product catalog (Garmin)",
+      "licence": "manufacturer-marketing",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1000,
+      "height": 1000
+    },
+    {
+      "productId": "prod-forerunner-255",
+      "src": "/images/watches/products/garmin-forerunner-255-hero.jpg",
+      "sourceUrl": "https://www.garmin.com/",
+      "source": "Garmin res.garmin.com",
+      "licence": "manufacturer-marketing",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1000,
+      "height": 1000
+    },
+    {
+      "productId": "prod-forerunner-265",
+      "src": "/images/watches/products/garmin-forerunner-265-hero.jpg",
+      "sourceUrl": "https://www.garmin.com/",
+      "source": "Manufacturer official product catalog (Garmin)",
+      "licence": "manufacturer-marketing",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1000,
+      "height": 1000
+    },
+    {
+      "productId": "prod-forerunner-55",
+      "src": "/images/watches/products/garmin-forerunner-55-hero.png",
+      "sourceUrl": "https://www.garmin.com.hk/products/wearables/forerunner-55-black/",
+      "source": "Garmin product CDN",
+      "licence": "manufacturer-marketing",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1000,
+      "height": 1000
+    },
+    {
+      "productId": "prod-forerunner-570",
+      "src": "/images/watches/products/garmin-forerunner-570-hero.jpg",
+      "sourceUrl": "https://www.garmin.com/en-US/p/1463821/pn/010-02970-01/",
+      "source": "Manufacturer official product catalog (Garmin)",
+      "licence": "manufacturer-marketing",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1000,
+      "height": 1000
+    },
+    {
+      "productId": "prod-forerunner-965",
+      "src": "/images/watches/products/garmin-forerunner-965-hero.jpg",
+      "sourceUrl": "https://www.garmin.com/en-US/p/886725/pn/010-02809-00/",
+      "source": "Manufacturer official product catalog (Garmin)",
+      "licence": "manufacturer-marketing",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1000,
+      "height": 1000
+    },
+    {
+      "productId": "prod-forerunner-970",
+      "src": "/images/watches/products/garmin-forerunner-970-hero.jpg",
+      "sourceUrl": "https://www.garmin.com/en-US/p/1462801/pn/010-02969-00/",
+      "source": "Manufacturer official product catalog (Garmin)",
+      "licence": "manufacturer-marketing",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1000,
+      "height": 1000
+    },
+    {
+      "productId": "prod-head-coello-pro",
+      "src": "/images/padel/products/head-coello-pro-2026-hero.png",
+      "sourceUrl": "https://www.paddlepro.com/",
+      "source": "PaddlePro BigCommerce CDN",
+      "licence": "retailer-authorized",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1000,
+      "height": 1000
+    },
+    {
+      "productId": "prod-head-extreme-motion-2026",
+      "src": "/images/padel/products/head-extreme-motion-2026-hero.png",
+      "sourceUrl": "https://padelusa.com/products/head-extreme-motion-2025-padel-racket?variant=46182388760739&_pos=1&_sid=51edaeaf4&_ss=r",
+      "source": "Shopify CDN",
+      "licence": "retailer-authorized",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1000,
+      "height": 1000
+    },
+    {
+      "productId": "prod-head-extreme-pro-padel",
+      "src": "/images/padel/products/head-extreme-pro-padel-hero.png",
+      "sourceUrl": "https://padelusa.com/products/head-extreme-pro-2025-padel-racket?variant=46182403309731&_pos=1&_sid=094d05edf&_ss=r",
+      "source": "Shopify CDN",
+      "licence": "retailer-authorized",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1000,
+      "height": 1000
+    },
+    {
+      "productId": "prod-head-padel-pro-s",
+      "src": "/images/padel/products/head-padel-pro-s-hero.jpg",
+      "sourceUrl": "https://www.zonadepadel.es/head-padel/15548-bipack-head-padel-pro-s-valencia.html",
+      "source": "scraped CDN",
+      "licence": "retailer-authorized",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1000,
+      "height": 1000
+    },
+    {
+      "productId": "prod-head-radical-mp-2023",
+      "src": "/images/tennis/products/head-radical-mp-2023-hero.jpg",
+      "sourceUrl": "https://www.tennis-warehouse.com/",
+      "source": "Tennis Warehouse CDN",
+      "licence": "retailer-authorized",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1000,
+      "height": 1000
+    },
+    {
+      "productId": "prod-head-revolt-pro-court",
+      "src": "/images/fitness/products/head-revolt-pro-court-hero.jpg",
+      "sourceUrl": "https://www.zonadepadel.es/head-padel/9520-zapatillas-head-revolt-pro-45-clay-banana-black-2024.html",
+      "source": "scraped CDN",
+      "licence": "retailer-authorized",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1000,
+      "height": 1000
+    },
+    {
+      "productId": "prod-head-speed-mp-2024",
+      "src": "/images/tennis/products/head-speed-mp-2024-hero.jpg",
+      "sourceUrl": "https://www.tennis-warehouse.com/",
+      "source": "Tennis Warehouse CDN",
+      "licence": "retailer-authorized",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1000,
+      "height": 1000
+    },
+    {
+      "productId": "prod-head-speed-mp-2026",
+      "src": "/images/tennis/products/head-speed-mp-2026-hero.jpg",
+      "sourceUrl": "https://www.tennis-warehouse.com/Head_Speed_MP_2026/descpage-HSPMP6.html",
+      "source": "Tennis Warehouse CDN",
+      "licence": "retailer-authorized",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1000,
+      "height": 1000
+    },
+    {
+      "productId": "prod-hrm-600",
+      "src": "/images/hrm/products/garmin-hrm-600-hero.jpg",
+      "sourceUrl": "https://www.garmin.com.hk/products/wearables/hrm-600/",
+      "source": "Garmin product CDN",
+      "licence": "manufacturer-marketing",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1000,
+      "height": 1000
+    },
+    {
+      "productId": "prod-hrm-pro-plus",
+      "src": "/images/hrm/products/garmin-hrm-pro-plus-hero.jpg",
+      "sourceUrl": "https://www.garmin.com/",
+      "source": "Garmin Cloudinary",
+      "licence": "manufacturer-marketing",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1000,
+      "height": 1000
+    },
+    {
+      "productId": "prod-inov8-fastlift-360",
+      "src": "/images/training/products/inov8-fastlift-360-hero.jpg",
+      "sourceUrl": "https://www.againfaster.com/products/inov8-fastlift-360-men",
+      "source": "Again Faster Shopify CDN",
+      "licence": "retailer-authorized",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1000,
+      "height": 1000
+    },
+    {
+      "productId": "prod-inov8-flite-235-v3",
+      "src": "/images/training/products/inov8-f-lite-235-v3-hero.jpg",
+      "sourceUrl": "https://www.sportsshoes.com/product/ino2053/inov8-f-lite-235-v3-training-shoes---aw22",
+      "source": "SportsShoes BigCommerce CDN",
+      "licence": "retailer-authorized",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1000,
+      "height": 1000
+    },
+    {
+      "productId": "prod-joma-t-slam",
+      "src": "/images/fitness/products/joma-t-slam-hero.jpg",
+      "sourceUrl": "https://www.zonadepadel.es/joma/15127-zapatillas-joma-slam-men-2602-white-royal-2026.html",
+      "source": "scraped CDN",
+      "licence": "retailer-authorized",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1000,
+      "height": 1000
+    },
+    {
+      "productId": "prod-kuikma-pr-soft-500",
+      "src": "/images/padel/products/kuikma-pr-soft-500-hero.jpg",
+      "sourceUrl": "https://en.decathlon.com.sa/products/padel-racket-pr-comfort-soft",
+      "source": "Decathlon SA Shopify CDN (Kuikma PR Comfort Soft — current Soft/PR Soft line successor to PR Soft 500)",
+      "licence": "manufacturer-marketing",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1000,
+      "height": 1000
+    },
+    {
+      "productId": "prod-lok-maxx-flow",
+      "src": "/images/padel/products/lok-maxx-flow-hero.jpg",
+      "sourceUrl": "https://www.zonadepadel.es/lok/13686-lok-maxx-flow-gen-2-2026.html",
+      "source": "scraped CDN",
+      "licence": "retailer-authorized",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1000,
+      "height": 1000
+    },
+    {
+      "productId": "prod-mirafit-bumper-set",
+      "src": "/images/fitness/products/mirafit-bumper-plate-set-hero.jpg",
+      "sourceUrl": "https://mirafit.co.uk/",
+      "source": "Mirafit imagely CDN (Black Olympic Rubber Bumper Plates packshot)",
+      "licence": "manufacturer-marketing",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1000,
+      "height": 1000
+    },
+    {
+      "productId": "prod-mirafit-fid-bench",
+      "src": "/images/fitness/products/mirafit-fid-adjustable-bench-hero.jpg",
+      "sourceUrl": "https://mirafit.co.uk/mirafit-m460-adjustable-weight-bench-with-leg-roller-attachment.html",
+      "source": "Mirafit imagely CDN (M460 FID adjustable bench packshot)",
+      "licence": "manufacturer-marketing",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1000,
+      "height": 1000
+    },
+    {
+      "productId": "prod-mirafit-m3",
+      "src": "/images/fitness/products/mirafit-m3-power-rack-hero.jpg",
+      "sourceUrl": "https://mirafit.co.uk/mirafit-m3-power-rack.html",
+      "source": "Mirafit imagely CDN",
+      "licence": "manufacturer-marketing",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1000,
+      "height": 1000
+    },
+    {
+      "productId": "prod-mirafit-m4",
+      "src": "/images/fitness/products/mirafit-m4-cage-hero.jpg",
+      "sourceUrl": "https://mirafit.co.uk/mirafit-m4-power-rack.html",
+      "source": "Mirafit imagely CDN",
+      "licence": "manufacturer-marketing",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1000,
+      "height": 1000
+    },
+    {
+      "productId": "prod-nathan-vaporair-2",
+      "src": "/images/packs/products/nathan-vaporair-2-hero.png",
+      "sourceUrl": "https://www.nathansports.com.au/products/vapor-air-hydration-vest-2-7l-grey-blue",
+      "source": "Nathan Sports AU Webflow CDN (VaporAir 2 / 7L hero)",
+      "licence": "manufacturer-marketing",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1000,
+      "height": 1000
+    },
+    {
+      "productId": "prod-nike-metcon-9",
+      "src": "/images/training/products/nike-metcon-9-hero.jpg",
+      "sourceUrl": "https://runrepeat.com/nike-metcon-9",
+      "source": "RunRepeat product primary",
+      "licence": "retailer-authorized",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1000,
+      "height": 1000
+    },
+    {
+      "productId": "prod-nike-romaleos-5",
+      "src": "/images/training/products/nike-romaleos-5-hero.jpg",
+      "sourceUrl": "https://www.nike.com/t/romaleos-4-weightlifting-shoes-r7zff9/CD3463-001",
+      "source": "Nike static CDN — Romaleos 5 not commercially released; Romaleos 4 packshot used as closest substitute",
+      "licence": "manufacturer-marketing",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1000,
+      "height": 1000
+    },
+    {
+      "productId": "prod-nobull-outwork",
+      "src": "/images/training/products/nobull-outwork-hero.jpg",
+      "sourceUrl": "https://runrepeat.com/nobull-outwork",
+      "source": "RunRepeat product primary",
+      "licence": "retailer-authorized",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1000,
+      "height": 1000
+    },
+    {
+      "productId": "prod-nobull-trainer",
+      "src": "/images/training/products/nobull-trainer-hero.jpg",
+      "sourceUrl": "https://runrepeat.com/nobull-trainer",
+      "source": "RunRepeat product primary",
+      "licence": "retailer-authorized",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1000,
+      "height": 1000
+    },
+    {
+      "productId": "prod-nox-at10-12k-2026",
+      "src": "/images/padel/products/nox-at10-12k-2026-hero.png",
+      "sourceUrl": "https://padelusa.com/products/nox-at10-genius-12k-alum-xtreme-padel-racket?variant=47301729747107&_pos=1&_sid=ac7bdb158&_ss=r",
+      "source": "Shopify CDN",
+      "licence": "retailer-authorized",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1000,
+      "height": 1000
+    },
+    {
+      "productId": "prod-nox-at10-18k-2026",
+      "src": "/images/padel/products/nox-at10-genius-18k-2026-hero.png",
+      "sourceUrl": "https://www.paddlepro.com/nox-at10-genius-18k-2026-by-agustin-tapia-padel-racquet/",
+      "source": "PaddlePro BigCommerce",
+      "licence": "retailer-authorized",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1000,
+      "height": 1000
+    },
+    {
+      "productId": "prod-nox-ml10-pro-cup",
+      "src": "/images/padel/products/nox-ml10-pro-cup-2026-hero.jpg",
+      "sourceUrl": "https://www.zonadepadel.es/nox/13240-nox-ml10-pro-cup-2025.html",
+      "source": "Zona de Padel CDN (ML10 Pro Cup 2025 commercial packshot; Classic series continuity)",
+      "licence": "retailer-authorized",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1000,
+      "height": 1000
+    },
+    {
+      "productId": "prod-nuobell-50",
+      "src": "/images/fitness/products/nuobell-50-hero.jpg",
+      "sourceUrl": "https://nuoathletics.com/products/nuobell-550",
+      "source": "NÜO Athletics Shopify CDN (NÜOBELL 550 / 5–50 lb)",
+      "licence": "manufacturer-marketing",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1000,
+      "height": 1000
+    },
+    {
+      "productId": "prod-nuobell-80",
+      "src": "/images/fitness/products/nuobell-80-hero.jpg",
+      "sourceUrl": "https://www.garagegymreviews.com/nuobell-adjustable-dumbbells-review",
+      "source": "scraped CDN",
+      "licence": "retailer-authorized",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1000,
+      "height": 1000
+    },
+    {
+      "productId": "prod-osprey-duro-6",
+      "src": "/images/packs/products/osprey-duro-6-hero.jpg",
+      "sourceUrl": "https://www.basecampgear.co.uk/2026-duro-6-vest-pack-with-flasks/",
+      "source": "Basecamp Gear BigCommerce CDN",
+      "licence": "retailer-authorized",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1000,
+      "height": 1000
+    },
+    {
+      "productId": "prod-osprey-dyna-6",
+      "src": "/images/packs/products/osprey-dyna-6-hero.jpg",
+      "sourceUrl": "https://www.bergfreunde.eu/osprey-womens-dyna-6-trail-running-backpack-bf-1/",
+      "source": "scraped CDN",
+      "licence": "retailer-authorized",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1000,
+      "height": 1000
+    },
+    {
+      "productId": "prod-oxdog-sense-pro",
+      "src": "/images/padel/products/oxdog-sense-pro-hero.jpg",
+      "sourceUrl": "https://www.oxdog.net/en/articles/2.13.854/sense-pro-classics",
+      "source": "Oxdog CDN37 (Sense Pro Classics)",
+      "licence": "manufacturer-marketing",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1000,
+      "height": 1000
+    },
+    {
+      "productId": "prod-polar-h10",
+      "src": "/images/hrm/products/polar-h10-hero.png",
+      "sourceUrl": "https://www.polar.com/en/sensors/h10-heart-rate-sensor",
+      "source": "Polar CMS CDN",
+      "licence": "manufacturer-marketing",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1000,
+      "height": 1000
+    },
+    {
+      "productId": "prod-polar-pacer-pro",
+      "src": "/images/watches/products/polar-pacer-pro-hero.png",
+      "sourceUrl": "https://www.polar.com/en/pacer-pro",
+      "source": "Polar CMS CDN",
+      "licence": "manufacturer-marketing",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1000,
+      "height": 1000
+    },
+    {
+      "productId": "prod-polar-vantage-v3",
+      "src": "/images/watches/products/polar-vantage-v3-hero.png",
+      "sourceUrl": "https://www.polar.com/en/vantage/v3",
+      "source": "Polar CMS CDN",
+      "licence": "manufacturer-marketing",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1000,
+      "height": 1000
+    },
+    {
+      "productId": "prod-polar-verity-sense",
+      "src": "/images/hrm/products/polar-verity-sense-hero.png",
+      "sourceUrl": "https://www.polar.com/en/products/accessories/polar-verity-sense",
+      "source": "Polar CMS",
+      "licence": "manufacturer-marketing",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1000,
+      "height": 1000
+    },
+    {
+      "productId": "prod-powerblock-elite-90",
+      "src": "/images/fitness/products/powerblock-elite-90-hero.jpg",
+      "sourceUrl": "https://selectfitness.com/products/powerblock-elite-exp-adjustable-dumbbell-set?_pos=1&_sid=510e60ec9&_ss=r",
+      "source": "scraped CDN",
+      "licence": "retailer-authorized",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1000,
+      "height": 1000
+    },
+    {
+      "productId": "prod-powerblock-pro-100",
+      "src": "/images/fitness/products/powerblock-pro-100-hero.jpg",
+      "sourceUrl": "https://selectfitness.com/products/power-block-pro-exp",
+      "source": "product CDN",
+      "licence": "retailer-authorized",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1000,
+      "height": 1000
+    },
+    {
+      "productId": "prod-powerblock-pro-50",
+      "src": "/images/fitness/products/powerblock-pro-50-hero.jpg",
+      "sourceUrl": "https://selectfitness.com/products/power-block-pro-50",
+      "source": "scraped CDN",
+      "licence": "retailer-authorized",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1000,
+      "height": 1000
+    },
+    {
+      "productId": "prod-prince-textreme-tour-100p",
+      "src": "/images/tennis/products/prince-textreme-tour-100p-hero.jpg",
+      "sourceUrl": "https://www.tennis-warehouse.com/descpage-ATR10P.html",
+      "source": "Tennis Warehouse CDN",
+      "licence": "retailer-authorized",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1000,
+      "height": 1000
+    },
+    {
+      "productId": "prod-reebok-legacy-lifter-iii",
+      "src": "/images/training/products/reebok-legacy-lifter-iii-hero.jpg",
+      "sourceUrl": "https://runrepeat.com/reebok-legacy-lifter-iii",
+      "source": "RunRepeat product photography CDN",
+      "licence": "retailer-authorized",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1000,
+      "height": 1000
+    },
+    {
+      "productId": "prod-reebok-nano-x4",
+      "src": "/images/training/products/reebok-nano-x4-hero.jpg",
+      "sourceUrl": "https://runrepeat.com/reebok-nano-x4",
+      "source": "RunRepeat product primary",
+      "licence": "retailer-authorized",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1000,
+      "height": 1000
+    },
+    {
+      "productId": "prod-rep-ab-5000",
+      "src": "/images/fitness/products/rep-ab-5000-zero-gap-hero.jpg",
+      "sourceUrl": "https://www.garagegymreviews.com/equipment/rep-ab-5000-zero-gap-adjustable-bench",
+      "source": "Garage Gym Reviews CDN (AB-5000 discontinued on REP storefront; commercial packshot)",
+      "licence": "retailer-authorized",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1000,
+      "height": 1000
+    },
+    {
+      "productId": "prod-rep-ab-5200",
+      "src": "/images/fitness/products/rep-ab-5200-hero.jpg",
+      "sourceUrl": "https://repfitness.com/products/ab-5200-2-0",
+      "source": "product CDN",
+      "licence": "retailer-authorized",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1000,
+      "height": 1000
+    },
+    {
+      "productId": "prod-rep-adjustable-db",
+      "src": "/images/fitness/products/rep-adjustable-db-hero.jpg",
+      "sourceUrl": "https://repfitness.com/products/rep-x-pepin-fast-series-adjustable-dumbbell?variant=53414520553838",
+      "source": "scraped CDN",
+      "licence": "retailer-authorized",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1000,
+      "height": 1000
+    },
+    {
+      "productId": "prod-rep-apollo",
+      "src": "/images/fitness/products/rep-apollo-hero.jpg",
+      "sourceUrl": "https://repfitness.com/products/apollo-rack-builder",
+      "source": "product CDN",
+      "licence": "retailer-authorized",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1000,
+      "height": 1000
+    },
+    {
+      "productId": "prod-rep-bumper-black",
+      "src": "/images/fitness/products/rep-bumper-black-hero.jpg",
+      "sourceUrl": "https://repfitness.com/products/black-bumper-plate-pairs",
+      "source": "product CDN",
+      "licence": "manufacturer-marketing",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1000,
+      "height": 1000
+    },
+    {
+      "productId": "prod-rep-fb-5000",
+      "src": "/images/fitness/products/rep-fb-5000-hero.jpg",
+      "sourceUrl": "https://repfitness.com/products/fb-5000-competition-flat-bench",
+      "source": "scraped CDN",
+      "licence": "retailer-authorized",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1000,
+      "height": 1000
+    },
+    {
+      "productId": "prod-rep-pr-4000",
+      "src": "/images/fitness/products/rep-pr-4000-hero.jpg",
+      "sourceUrl": "https://repfitness.com/products/pr-4000-rack-builder",
+      "source": "product CDN",
+      "licence": "manufacturer-marketing",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1000,
+      "height": 1000
+    },
+    {
+      "productId": "prod-rep-pr-5000",
+      "src": "/images/fitness/products/rep-pr-5000-hero.jpg",
+      "sourceUrl": "https://repfitness.com/products/pr-5000-rack-builder",
+      "source": "product CDN",
+      "licence": "retailer-authorized",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1000,
+      "height": 1000
+    },
+    {
+      "productId": "prod-rogue-adjustable-bench-3",
+      "src": "/images/fitness/products/rogue-adjustable-bench-3-0-hero.jpg",
+      "sourceUrl": "https://www.roguefitness.com/rogue-adjustable-bench-3-0",
+      "source": "Rogue Fitness CDN",
+      "licence": "manufacturer-marketing",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1000,
+      "height": 1000
+    },
+    {
+      "productId": "prod-rogue-echo-bumper",
+      "src": "/images/fitness/products/rogue-echo-bumper-plate-set-hero.jpg",
+      "sourceUrl": "https://www.roguefitness.com/rogue-echo-bumper-plates-with-white-text",
+      "source": "Rogue Fitness CDN",
+      "licence": "manufacturer-marketing",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1000,
+      "height": 1000
+    },
+    {
+      "productId": "prod-rogue-flat-utility",
+      "src": "/images/fitness/products/rogue-flat-utility-hero.jpg",
+      "sourceUrl": "https://www.roguefitness.com/rogue-flat-utility-bench-2-0",
+      "source": "product CDN",
+      "licence": "retailer-authorized",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1000,
+      "height": 1000
+    },
+    {
+      "productId": "prod-rogue-rm-4",
+      "src": "/images/fitness/products/rogue-rm-4-monster-rack-hero.jpg",
+      "sourceUrl": "https://www.roguefitness.com/rogue-rm-4-bolt-together-monster-rack-2-0",
+      "source": "Rogue Fitness CDN",
+      "licence": "manufacturer-marketing",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1000,
+      "height": 1000
+    },
+    {
+      "productId": "prod-rogue-rml-390f",
+      "src": "/images/fitness/products/rogue-rml-390f-hero.jpg",
+      "sourceUrl": "https://www.roguefitness.com/rml-390f-flat-foot-monster-lite-rack",
+      "source": "Rogue Fitness CDN",
+      "licence": "manufacturer-marketing",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1000,
+      "height": 1000
+    },
+    {
+      "productId": "prod-rogue-sm-2c",
+      "src": "/images/fitness/products/rogue-sm-2c-monster-lite-hero.jpg",
+      "sourceUrl": "https://www.roguefitness.com/rogue-sml-2c-squat-stand",
+      "source": "Rogue Fitness assets CDN (SML-2C Monster Lite)",
+      "licence": "manufacturer-marketing",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1000,
+      "height": 1000
+    },
+    {
+      "productId": "prod-royal-padel-rp-m27-2026",
+      "src": "/images/padel/products/royal-padel-rp-m27-2026-hero.jpg",
+      "sourceUrl": "https://www.zonadepadel.es/royal-padel/15365-royal-padel-m27-ligh-ltd-amarilla-2026.html",
+      "source": "scraped CDN",
+      "licence": "retailer-authorized",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1000,
+      "height": 1000
+    },
+    {
+      "productId": "prod-siux-diablo",
+      "src": "/images/padel/products/siux-diablo-hero.png",
+      "sourceUrl": "https://padelusa.com/products/siux-diablo-pro-2026-night-blue-padel-racket?variant=47330288140451&_pos=1&_sid=84b900650&_ss=r",
+      "source": "Shopify CDN",
+      "licence": "retailer-authorized",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1000,
+      "height": 1000
+    },
+    {
+      "productId": "prod-starvie-basalto-osiris",
+      "src": "/images/padel/products/starvie-basalto-osiris-2026-hero.jpg",
+      "sourceUrl": "https://mypadellife.com/products/starvie-basalto-osiris-2-0-padel-racket",
+      "source": "MyPadelLife Shopify CDN (Basalto Osiris 2.0 packshot — closest verified commercial image)",
+      "licence": "retailer-authorized",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1000,
+      "height": 1000
+    },
+    {
+      "productId": "prod-starvie-titania-kepler",
+      "src": "/images/padel/products/starvie-titania-kepler-hero.jpg",
+      "sourceUrl": "https://www.zonadepadel.es/star-vie/8032-star-vie-titania-kepler-pro-20.html",
+      "source": "scraped CDN",
+      "licence": "retailer-authorized",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1000,
+      "height": 1000
+    },
+    {
+      "productId": "prod-suunto-race",
+      "src": "/images/watches/products/suunto-race-hero.png",
+      "sourceUrl": "https://www.suunto.com/en-us/products/sports-watches/suunto-race/suunto-race-all-black/",
+      "source": "Suunto product CDN",
+      "licence": "manufacturer-marketing",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1000,
+      "height": 1000
+    },
+    {
+      "productId": "prod-suunto-race-s",
+      "src": "/images/watches/products/suunto-race-s-hero.png",
+      "sourceUrl": "https://www.suunto.com/en-us/products/sports-watches/suunto-race-s/suunto-race-s-all-black/",
+      "source": "Suunto product CDN",
+      "licence": "manufacturer-marketing",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1000,
+      "height": 1000
+    },
+    {
+      "productId": "prod-tecnifibre-tf40-305",
+      "src": "/images/tennis/products/tecnifibre-tf40-305-hero.jpg",
+      "sourceUrl": "https://www.tennis-warehouse.com/descpage-TF40R2.html",
+      "source": "Tennis Warehouse CDN",
+      "licence": "retailer-authorized",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1000,
+      "height": 1000
+    },
+    {
+      "productId": "prod-tecnifibre-tfight-300s-2025",
+      "src": "/images/tennis/products/tecnifibre-tfight-300s-2025-hero.jpg",
+      "sourceUrl": "https://www.tennis-warehouse.com/descpage-TF300S.html",
+      "source": "Tennis Warehouse CDN",
+      "licence": "retailer-authorized",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1000,
+      "height": 1000
+    },
+    {
+      "productId": "prod-tecnifibre-wall-breaker-365-2026",
+      "src": "/images/padel/products/tecnifibre-wall-breaker-365-hero.jpg",
+      "sourceUrl": "https://www.greavessports.com/products/wall-breaker-365-padel-racket-black-yellow",
+      "source": "Greaves Sports Shopify CDN",
+      "licence": "retailer-authorized",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1000,
+      "height": 1000
+    },
+    {
+      "productId": "prod-trailfly-ultra-g-300-max",
+      "src": "/images/running/products/trailfly-ultra-g-300-max-hero.jpg",
+      "sourceUrl": "https://www.inov8.com/us/trailfly-ultra-g-300-max-mens-ultra-running-shoes",
+      "source": "Manufacturer official product catalog (Inov-8)",
+      "licence": "manufacturer-marketing",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1000,
+      "height": 1000
+    },
+    {
+      "productId": "prod-tyr-cxt-1",
+      "src": "/images/training/products/tyr-cxt-1-hero.jpg",
+      "sourceUrl": "https://www.roguefitness.com/tyr-cxt-1-turf-trainer-shoes",
+      "source": "scraped CDN",
+      "licence": "retailer-authorized",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1000,
+      "height": 1000
+    },
+    {
+      "productId": "prod-tyr-cxt-2",
+      "src": "/images/training/products/tyr-cxt-2-hero.jpg",
+      "sourceUrl": "https://www.roguefitness.com/tyr-cxt-2-trainer",
+      "source": "scraped CDN",
+      "licence": "retailer-authorized",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1000,
+      "height": 1000
+    },
+    {
+      "productId": "prod-ud-adventure-vest",
+      "src": "/images/packs/products/ultimate-direction-adventure-vest-hero.jpg",
+      "sourceUrl": "https://ultimatedirection.com/adventure-vest-17l/",
+      "source": "Ultimate Direction BigCommerce CDN (Adventure Vest 17L / 5.0)",
+      "licence": "manufacturer-marketing",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1000,
+      "height": 1000
+    },
+    {
+      "productId": "prod-varlion-lw-carbon-difusor",
+      "src": "/images/padel/products/varlion-lw-carbon-difusor-2026-hero.jpg",
+      "sourceUrl": "https://keepadel.com/gb/varlion-padel-rackets/2973-varlion-lw-carbon-ti-difusor-black-padel-racket.html",
+      "source": "Keepadel product CDN (Varlion LW Carbon Ti Difusor)",
+      "licence": "retailer-authorized",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1000,
+      "height": 1000
+    },
+    {
+      "productId": "prod-wahoo-tickr",
+      "src": "/images/hrm/products/wahoo-tickr-hero.jpg",
+      "sourceUrl": "https://www.thebikeaffair.com/products/wahoo-tickr-heart-rate-monitor",
+      "source": "Shopify CDN",
+      "licence": "retailer-authorized",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1000,
+      "height": 1000
+    },
+    {
+      "productId": "prod-wahoo-tickr-x",
+      "src": "/images/hrm/products/wahoo-tickr-x-hero.jpg",
+      "sourceUrl": "https://www.thebikeaffair.com/products/wahoo-tickr-x-heart-rate-monitor",
+      "source": "Shopify CDN",
+      "licence": "retailer-authorized",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1000,
+      "height": 1000
+    },
+    {
+      "productId": "prod-wilson-bela-pro",
+      "src": "/images/padel/products/wilson-bela-pro-hero.png",
+      "sourceUrl": "https://padelusa.com/products/wilson-bela-pro-v3-padel-racket?variant=45923259515043&_pos=1&_sid=2afcc8216&_ss=r",
+      "source": "Shopify CDN",
+      "licence": "retailer-authorized",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1000,
+      "height": 1000
+    },
+    {
+      "productId": "prod-wilson-blade-100-v9",
+      "src": "/images/tennis/products/wilson-blade-100-v9-hero.jpg",
+      "sourceUrl": "https://www.tennis-warehouse.com/descpage-WB1009.html",
+      "source": "Tennis Warehouse CDN",
+      "licence": "retailer-authorized",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1000,
+      "height": 1000
+    },
+    {
+      "productId": "prod-wilson-blade-98-v8",
+      "src": "/images/tennis/products/wilson-blade-98-v8-hero.jpg",
+      "sourceUrl": "https://www.tennis-warehouse.com/",
+      "source": "Tennis Warehouse CDN",
+      "licence": "retailer-authorized",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1000,
+      "height": 1000
+    },
+    {
+      "productId": "prod-wilson-blade-98-v9",
+      "src": "/images/tennis/products/wilson-blade-98-v9-hero.jpg",
+      "sourceUrl": "https://www.tennis-warehouse.com/descpage-WB9816.html",
+      "source": "Tennis Warehouse CDN",
+      "licence": "retailer-authorized",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1000,
+      "height": 1000
+    },
+    {
+      "productId": "prod-wilson-blade-pro-padel",
+      "src": "/images/padel/products/wilson-blade-pro-padel-hero.png",
+      "sourceUrl": "https://padelusa.com/products/wilson-blade-pro-v3-2024-padel-racket?variant=44999173111971&_pos=1&_sid=b81e4f94a&_ss=r",
+      "source": "Shopify CDN",
+      "licence": "retailer-authorized",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1000,
+      "height": 1000
+    },
+    {
+      "productId": "prod-wilson-clash-100-v2",
+      "src": "/images/tennis/products/wilson-clash-100-v2-hero.jpg",
+      "sourceUrl": "https://www.tennis-warehouse.com/",
+      "source": "Tennis Warehouse CDN",
+      "licence": "retailer-authorized",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1000,
+      "height": 1000
+    },
+    {
+      "productId": "prod-wilson-clash-100-v3",
+      "src": "/images/tennis/products/wilson-clash-100-v3-hero.jpg",
+      "sourceUrl": "https://www.tennis-warehouse.com/descpage-CL103V.html",
+      "source": "Tennis Warehouse CDN",
+      "licence": "retailer-authorized",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1000,
+      "height": 1000
+    },
+    {
+      "productId": "prod-wilson-overgrip",
+      "src": "/images/fitness/products/wilson-overgrip-hero.jpg",
+      "sourceUrl": "https://www.zonadepadel.es/wilson-padel/8056-overgrip-wilson-pro-padel-3pk-blanco.html",
+      "source": "scraped CDN",
+      "licence": "retailer-authorized",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1000,
+      "height": 1000
+    },
+    {
+      "productId": "prod-yonex-ezone-100-2025",
+      "src": "/images/tennis/products/yonex-ezone-100-2025-hero.jpg",
+      "sourceUrl": "https://www.tennis-warehouse.com/",
+      "source": "Tennis Warehouse CDN",
+      "licence": "retailer-authorized",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1000,
+      "height": 1000
+    },
+    {
+      "productId": "prod-yonex-ezone-98-2024",
+      "src": "/images/tennis/products/yonex-ezone-98-2024-hero.jpg",
+      "sourceUrl": "https://www.tennis-warehouse.com/descpage-EZ98BB.html",
+      "source": "Tennis Warehouse CDN",
+      "licence": "retailer-authorized",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1000,
+      "height": 1000
+    },
+    {
+      "productId": "prod-yonex-vcore-100-2023",
+      "src": "/images/tennis/products/yonex-vcore-100-2023-hero.jpg",
+      "sourceUrl": "https://www.tennis-warehouse.com/",
+      "source": "Tennis Warehouse CDN",
+      "licence": "retailer-authorized",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1000,
+      "height": 1000
+    },
+    {
+      "productId": "prod-yonex-vcore-98-2026",
+      "src": "/images/tennis/products/yonex-vcore-98-2026-hero.jpg",
+      "sourceUrl": "https://www.tennis-warehouse.com/descpage-VC988G.html",
+      "source": "Tennis Warehouse CDN",
+      "licence": "retailer-authorized",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1000,
+      "height": 1000
+    }
+  ],
+  "fail": [
+    "prod-apple-watch-ultra-2"
+  ]
+}

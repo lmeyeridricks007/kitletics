@@ -1,0 +1,45 @@
+progress 0/1106
+progress 60/1106
+progress 120/1106
+progress 180/1106
+progress 240/1106
+progress 300/1106
+progress 360/1106
+progress 420/1106
+progress 480/1106
+progress 540/1106
+progress 600/1106
+progress 660/1106
+progress 720/1106
+progress 780/1106
+progress 840/1106
+progress 900/1106
+progress 960/1106
+progress 1020/1106
+progress 1080/1106
+{
+  "n": 1106,
+  "byStatus": {
+    "200": 1106
+  },
+  "counts": {
+    "not200": 0,
+    "redirects": 0,
+    "notFound": 0,
+    "serverErr": 0,
+    "noindex": 0,
+    "facetLeak": 0,
+    "draftPathLeak": 0,
+    "draftFutureEntities": 0
+  },
+  "gates": {
+    "zero404": true,
+    "zero5xx": true,
+    "zeroNoindex": true,
+    "zeroRedirects": true,
+    "zeroDraftsFuture": true,
+    "zeroFacetLeak": true
+  },
+  "sampleNot200": []
+}
+EXIT:0

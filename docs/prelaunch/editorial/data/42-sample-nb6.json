@@ -1,0 +1,53 @@
+{
+  "count": 8,
+  "groups": [
+    "more-cushioned",
+    "more-stable",
+    "more-responsive",
+    "more-durable",
+    "better-value",
+    "previous-generation"
+  ],
+  "sample": [
+    {
+      "name": "Clifton 10",
+      "reasonId": "more-cushioned",
+      "summary": "Lightweight max-cushion neutral daily trainer with HOKA’s signature rockered geometry.",
+      "why": [
+        "Clifton leans further into max-cushion meta-rocker plushness",
+        "Better when easy days need more underfoot softness than FF Blast bounce"
+      ],
+      "type": "more-cushioned"
+    },
+    {
+      "name": "GEL-Kayano 32",
+      "reasonId": "more-stable",
+      "summary": "Max-cushion stability shoe with 4D GUIDANCE SYSTEM for controlled daily and long-run miles.",
+      "why": [
+        "Kayano adds a support-focused platform with 4D GUIDANCE SYSTEM versus Novablast’s neutral ride",
+        "Better when daily and long miles need more guidance than a soft neutral trainer"
+      ],
+      "type": "more-stable"
+    },
+    {
+      "name": "Endorphin Speed 5",
+      "reasonId": "more-responsive",
+      "summary": "Nylon-plated tempo shoe for workouts, faster long runs, and accessible race efforts.",
+      "why": [
+        "Endorphin Speed adds a nylon plate and quicker tempo geometry versus Novablast’s soft daily bounce",
+        "Stronger choice when workouts and faster long runs need more snap than FF BLAST MAX"
+      ],
+      "type": "more-responsive"
+    },
+    {
+      "name": "Ghost 18",
+      "reasonId": "more-durable",
+      "summary": "Soft neutral daily trainer with broad width options for beginners and high-mileage road runners.",
+      "why": [
+        "Ghost pairs a protective rubber outsole coverage pattern with a traditional daily upper for high-mileage wear",
+        "Often preferred when longevity under high weekly volume matters more than Novablast bounce"
+      ],
+      "type": "more-durable"
+    }
+  ]
+}

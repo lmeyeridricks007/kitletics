@@ -1,0 +1,32 @@
+[
+  {
+    "productId": "prod-injinji-run-midweight",
+    "ok": true,
+    "src": "/images/running/accessories/injinji-run-midweight-hero.png",
+    "sourceUrl": "https://www.injinji.com/run-midweight-mini-crew.html",
+    "bytes": 100486,
+    "licence": "manufacturer-marketing",
+    "attribution": "\u00a9 Injinji \u2014 manufacturer product photography",
+    "source": "Manufacturer product photography"
+  },
+  {
+    "productId": "prod-smartwool-run-targeted-cushion",
+    "ok": true,
+    "src": "/images/running/accessories/smartwool-run-targeted-cushion-hero.jpg",
+    "sourceUrl": "https://randysshoes.com/products/unisex-smartwool-run-targeted-cushion-crew-light-gray",
+    "bytes": 760860,
+    "licence": "retailer-authorized",
+    "attribution": "\u00a9 Brand \u2014 authorized retailer product photography",
+    "source": "Authorized retailer product photography"
+  },
+  {
+    "productId": "prod-cep-run-compression-sock",
+    "ok": true,
+    "src": "/images/running/accessories/cep-run-compression-sock-3-hero.png",
+    "sourceUrl": "https://www.cepsports.com/en/pro-run-reflective-compression-socks-mid-cut-men.html",
+    "bytes": 449373,
+    "licence": "manufacturer-marketing",
+    "attribution": "\u00a9 CEP \u2014 manufacturer product photography",
+    "source": "Manufacturer product photography"
+  }
+]

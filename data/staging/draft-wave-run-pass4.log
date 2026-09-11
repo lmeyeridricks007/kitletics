@@ -1,0 +1,47 @@
+Pass4: 21 remaining targets…
+… wilson-kaos-rapide-3-0 FAIL
+… new-balance-fresh-foam-x-lav-v2 FAIL
+… nike-zoom-gp-turbo-hc-2 FAIL
+… head-revolt-court-padel FAIL
+… starvie-absolute-padel FAIL
+… oxdog-hyper-court OK 77435
+… kuikma-ps-560-women FAIL
+… varlion-bourne-padel OK 135217
+… tecnifibre-wall-shooter OK 71055
+… adidas-solecourt-boost-padel FAIL
+… raidlight-responsiv-12 FAIL
+… patagonia-slope-runner-vest FAIL
+… camelbak-octane-22 OK 27565
+… salomon-trailblazer-20 FAIL
+… salomon-soft-flask-stash FAIL
+… leki-trail-running-quiver FAIL
+… ultimate-direction-utility-bag OK 22722
+… nathan-zippered-stash OK 33193
+… salomon-soft-reservoir-15 FAIL
+… nathan-quickdraw-plus-handheld FAIL
+… camelbak-quick-grip-chill OK 27565
+
+NEW OK 7  FAIL 14  registry+7
+NEW OK ids:
+prod-oxdog-hyper-court
+prod-varlion-bourne-padel-shoe
+prod-tecnifibre-t-fight-padel
+prod-camelbak-octane-22
+prod-ud-utility-bag
+prod-nathan-zippered-stash
+prod-camelbak-quick-grip-chill
+FAIL ids:
+prod-wilson-kaos-rapide-30
+prod-nb-lav-v2
+prod-nike-zoom-gp-turbo-2
+prod-head-revolt-court
+prod-starvie-absolute-padel
+prod-kuikma-ps-560-women
+prod-adidas-solecourt-boost-padel
+prod-raidlight-responsiv-12
+prod-patagonia-slope-runner
+prod-salomon-trailblazer-20
+prod-salomon-soft-flask-stash
+prod-leki-trail-running-quiver
+prod-salomon-soft-reservoir-15
+prod-nathan-quickdraw-plus

@@ -1,0 +1,45 @@
+{
+  "totals": {
+    "GENUINELY_UNIQUE": 807,
+    "DUPLICATIVE": 521,
+    "NEEDS_DIFFERENTIATION": 25,
+    "TEMPLATE_SIMILAR_ACCEPTABLE": 83
+  },
+  "reviews": {
+    "GENUINELY_UNIQUE": 41,
+    "DUPLICATIVE": 521,
+    "NEEDS_DIFFERENTIATION": 18,
+    "TEMPLATE_SIMILAR_ACCEPTABLE": 5
+  },
+  "products": {
+    "GENUINELY_UNIQUE": 593,
+    "TEMPLATE_SIMILAR_ACCEPTABLE": 30
+  },
+  "bestGuides": {
+    "GENUINELY_UNIQUE": 33,
+    "TEMPLATE_SIMILAR_ACCEPTABLE": 25
+  },
+  "buyingGuides": {
+    "GENUINELY_UNIQUE": 68
+  },
+  "comparisons": {
+    "GENUINELY_UNIQUE": 72,
+    "TEMPLATE_SIMILAR_ACCEPTABLE": 23,
+    "NEEDS_DIFFERENTIATION": 7
+  },
+  "day1ReviewHolds": 539,
+  "duplicativeReviews": 521,
+  "needsDifferentiationReviews": 18
+}
+Wrote /Users/LMeyeridricks/Documents/coding/kitletics/docs/prelaunch/data/25-content-uniqueness.json
+Wrote /Users/LMeyeridricks/Documents/coding/kitletics/src/content/launch/content-uniqueness-holds.ts (539 holds)
+Top review pairs: [
+  '0.971 brooks-glycerin-gts-22 ↔ hoka-gaviota-5',
+  '0.965 salomon-ultra-glide-2 ↔ saucony-xodus-ultra-3',
+  '0.962 asics-gel-trabuco-13 ↔ brooks-cascadia-18',
+  '0.96 asics-gel-trabuco-13 ↔ salomon-ultra-glide-2',
+  '0.958 brooks-cascadia-18 ↔ saucony-xodus-ultra-3',
+  '0.955 brooks-cascadia-18 ↔ salomon-ultra-glide-2',
+  '0.953 asics-gel-trabuco-13 ↔ saucony-xodus-ultra-3',
+  '0.948 asics-gt-2000-14 ↔ nike-structure-26'
+]

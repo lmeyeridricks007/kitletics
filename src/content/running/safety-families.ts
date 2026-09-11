@@ -1,0 +1,108 @@
+import type { ProductFamily } from "@/domain/products/types";
+
+/**
+ * Running Safety / Visibility families for wave 2.
+ * NOT wired into families.ts aggregators yet (parent will wire).
+ * NOTE: Best Safety / Visibility buying guide will be added by parent.
+ */
+export const runningSafetyFamilies: ProductFamily[] = [
+  {
+    id: "fam-amphipod-xinglet",
+    brandId: "brand-amphipod",
+    name: "Xinglet",
+    slug: "amphipod-xinglet",
+    categoryId: "cat-safety",
+    description: "Amphipod cross-body reflective and LED visibility sashes/vests.",
+    productIds: ["prod-amphipod-xinglet", "prod-amphipod-xinglet-optic-beam"],
+  },
+  {
+    id: "fam-amphipod-vizlet",
+    brandId: "brand-amphipod",
+    name: "Vizlet",
+    slug: "amphipod-vizlet",
+    categoryId: "cat-safety",
+    description: "Amphipod magnet-clip LED reflective markers.",
+    productIds: ["prod-amphipod-vizlet"],
+  },
+  {
+    id: "fam-proviz-reflect360",
+    brandId: "brand-proviz",
+    name: "Reflect360",
+    slug: "proviz-reflect360",
+    categoryId: "cat-safety",
+    description: "Proviz high-visibility Reflect360 running apparel.",
+    productIds: ["prod-proviz-reflect360-vest"],
+  },
+  {
+    id: "fam-knog-frog",
+    brandId: "brand-knog",
+    name: "Frog",
+    slug: "knog-frog",
+    categoryId: "cat-safety",
+    description: "Knog Frog silicone-strap clip visibility lights.",
+    productIds: ["prod-knog-frog-v3"],
+  },
+  {
+    id: "fam-knog-cobber",
+    brandId: "brand-knog",
+    name: "Cobber",
+    slug: "knog-cobber",
+    categoryId: "cat-safety",
+    description: "Knog Cobber wide-angle COB wearable/clip lights.",
+    productIds: ["prod-knog-cobber-mid"],
+  },
+  {
+    id: "fam-night-runner-270",
+    brandId: "brand-nightrunner",
+    name: "Night Runner 270",
+    slug: "night-runner-270",
+    categoryId: "cat-safety",
+    description: "Night Runner shoe-mounted LED visibility lights.",
+    productIds: ["prod-nightrunner-270"],
+  },
+  {
+    id: "fam-nathan-lightbender",
+    brandId: "brand-nathan",
+    name: "LightBender",
+    slug: "nathan-lightbender",
+    categoryId: "cat-safety",
+    description: "Nathan LightBender wearable LED armbands.",
+    productIds: ["prod-nathan-lightbender"],
+  },
+  {
+    id: "fam-nathan-lux-strobe",
+    brandId: "brand-nathan",
+    name: "Lux Strobe",
+    slug: "nathan-lux-strobe",
+    categoryId: "cat-safety",
+    description: "Nathan Lux Strobe clip-on RGB safety lights.",
+    productIds: ["prod-nathan-strobe"],
+  },
+  {
+    id: "fam-road-id-wrist",
+    brandId: "brand-road-id",
+    name: "Wrist ID",
+    slug: "road-id-wrist",
+    categoryId: "cat-safety",
+    description: "Road ID wrist identification bands for runners.",
+    productIds: ["prod-road-id-wrist"],
+  },
+  {
+    id: "fam-shes-birdie",
+    brandId: "brand-shes-birdie",
+    name: "Birdie",
+    slug: "shes-birdie",
+    categoryId: "cat-safety",
+    description: "She's Birdie legal personal safety alarms (no weapons).",
+    productIds: ["prod-shes-birdie-alarm"],
+  },
+  {
+    id: "fam-flipbelt-reflective",
+    brandId: "brand-flipbelt",
+    name: "FlipBelt Reflective",
+    slug: "flipbelt-reflective",
+    categoryId: "cat-safety",
+    description: "FlipBelt reflective safety carry belts.",
+    productIds: ["prod-flipbelt-zippered-reflective"],
+  },
+];

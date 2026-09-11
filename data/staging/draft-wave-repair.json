@@ -1,0 +1,34 @@
+{
+  "phase": "repair-curated",
+  "ts": "2026-09-06T05:30:37.549Z",
+  "removedBad": [
+    "prod-camelbak-octane-22",
+    "prod-camelbak-quick-grip-chill",
+    "prod-hydrapak-shape-shift-15",
+    "prod-styrkr-mix90",
+    "prod-kiprun-trail-10"
+  ],
+  "ok": [
+    {
+      "id": "prod-styrkr-mix90",
+      "src": "/images/running/accessories/styrkr-mix90-hero.jpg",
+      "remote": "https://cdn.shopify.com/s/files/1/0551/0388/1250/files/MIX90_1.jpg?v=1760544419"
+    },
+    {
+      "id": "prod-spring-awesome-sauce",
+      "src": "/images/running/accessories/spring-energy-awesome-sauce-hero.png",
+      "remote": "https://cdn.shopify.com/s/files/1/1515/2714/files/spring_awesome_sauce_ss_1200x1200.png?v=1760134582"
+    },
+    {
+      "id": "prod-camelbak-quick-grip-chill",
+      "src": "/images/hydration/products/camelbak-quick-grip-chill-hero.jpg",
+      "remote": "https://img.runningwarehouse.com/watermark/rs.php?path=CAQGC1-BL-1.jpg&nw=1000"
+    },
+    {
+      "id": "prod-salomon-soft-reservoir-15",
+      "src": "/images/hydration/products/salomon-soft-reservoir-15-hero.jpg",
+      "remote": "https://img.runningwarehouse.com/watermark/rs.php?path=SASR152-BL-1.jpg&nw=1000"
+    }
+  ],
+  "fail": []
+}

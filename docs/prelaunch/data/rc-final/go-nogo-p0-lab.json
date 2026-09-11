@@ -1,0 +1,226 @@
+{
+  "measuredAt": "2026-09-09T18:16:10.290Z",
+  "base": "http://127.0.0.1:3010",
+  "budgetBytes": 2621440,
+  "routes": [
+    {
+      "id": "home",
+      "path": "/",
+      "status": 200,
+      "totalBytes": 1273292,
+      "imageBytes": 137568,
+      "jsBytes": 491169,
+      "totalMb": 1.21,
+      "withinBudget": true,
+      "noindex": false,
+      "hasAggregateRating": false,
+      "falseFirstHand": false,
+      "axe": {
+        "violations": 0,
+        "seriousCritical": 0,
+        "seriousCriticalIds": []
+      }
+    },
+    {
+      "id": "running",
+      "path": "/running",
+      "status": 200,
+      "totalBytes": 1524856,
+      "imageBytes": 266230,
+      "jsBytes": 490127,
+      "totalMb": 1.45,
+      "withinBudget": true,
+      "noindex": false,
+      "hasAggregateRating": false,
+      "falseFirstHand": false,
+      "axe": {
+        "violations": 0,
+        "seriousCritical": 0,
+        "seriousCriticalIds": []
+      }
+    },
+    {
+      "id": "shoes",
+      "path": "/running/shoes",
+      "status": 200,
+      "totalBytes": 1327880,
+      "imageBytes": 71547,
+      "jsBytes": 523651,
+      "totalMb": 1.27,
+      "withinBudget": true,
+      "noindex": false,
+      "hasAggregateRating": false,
+      "falseFirstHand": false,
+      "axe": {
+        "violations": 0,
+        "seriousCritical": 0,
+        "seriousCriticalIds": []
+      }
+    },
+    {
+      "id": "daily-trainers",
+      "path": "/running/shoes/daily-trainers",
+      "status": 200,
+      "totalBytes": 1253801,
+      "imageBytes": 108883,
+      "jsBytes": 511241,
+      "totalMb": 1.2,
+      "withinBudget": true,
+      "noindex": false,
+      "hasAggregateRating": false,
+      "falseFirstHand": false,
+      "axe": {
+        "violations": 0,
+        "seriousCritical": 0,
+        "seriousCriticalIds": []
+      }
+    },
+    {
+      "id": "pdp",
+      "path": "/products/nike-vomero-18",
+      "status": 200,
+      "totalBytes": 1197390,
+      "imageBytes": 66846,
+      "jsBytes": 498829,
+      "totalMb": 1.14,
+      "withinBudget": true,
+      "noindex": false,
+      "hasAggregateRating": false,
+      "falseFirstHand": false,
+      "axe": {
+        "violations": 0,
+        "seriousCritical": 0,
+        "seriousCriticalIds": []
+      }
+    },
+    {
+      "id": "best",
+      "path": "/best/running-shoes",
+      "status": 200,
+      "totalBytes": 1501264,
+      "imageBytes": 88961,
+      "jsBytes": 491714,
+      "totalMb": 1.43,
+      "withinBudget": true,
+      "noindex": false,
+      "hasAggregateRating": false,
+      "falseFirstHand": false,
+      "axe": {
+        "violations": 0,
+        "seriousCritical": 0,
+        "seriousCriticalIds": []
+      }
+    },
+    {
+      "id": "guide",
+      "path": "/guides/how-to-choose-running-shoes",
+      "status": 200,
+      "totalBytes": 1363682,
+      "imageBytes": 85351,
+      "jsBytes": 494623,
+      "totalMb": 1.3,
+      "withinBudget": true,
+      "noindex": false,
+      "hasAggregateRating": false,
+      "falseFirstHand": false,
+      "axe": {
+        "violations": 0,
+        "seriousCritical": 0,
+        "seriousCriticalIds": []
+      }
+    },
+    {
+      "id": "compare",
+      "path": "/compare",
+      "status": 200,
+      "totalBytes": 1783200,
+      "imageBytes": 7170,
+      "jsBytes": 571555,
+      "totalMb": 1.7,
+      "withinBudget": true,
+      "noindex": false,
+      "hasAggregateRating": false,
+      "falseFirstHand": false,
+      "axe": {
+        "violations": 0,
+        "seriousCritical": 0,
+        "seriousCriticalIds": []
+      }
+    },
+    {
+      "id": "finder",
+      "path": "/tools/running-shoe-finder",
+      "status": 200,
+      "totalBytes": 1046933,
+      "imageBytes": 25687,
+      "jsBytes": 534279,
+      "totalMb": 1,
+      "withinBudget": true,
+      "noindex": false,
+      "hasAggregateRating": false,
+      "falseFirstHand": false,
+      "axe": {
+        "violations": 0,
+        "seriousCritical": 0,
+        "seriousCriticalIds": []
+      }
+    },
+    {
+      "id": "brand",
+      "path": "/brands/nike",
+      "status": 200,
+      "totalBytes": 1124186,
+      "imageBytes": 32410,
+      "jsBytes": 475862,
+      "totalMb": 1.07,
+      "withinBudget": true,
+      "noindex": false,
+      "hasAggregateRating": false,
+      "falseFirstHand": false,
+      "axe": {
+        "violations": 0,
+        "seriousCritical": 0,
+        "seriousCriticalIds": []
+      }
+    }
+  ],
+  "noindexChecks": [
+    {
+      "path": "/search?q=vomero",
+      "status": 200,
+      "robots": "noindex, follow",
+      "noindex": true
+    },
+    {
+      "path": "/search",
+      "status": 200,
+      "robots": "noindex, follow",
+      "noindex": true
+    },
+    {
+      "path": "/running/shoes?gender=men",
+      "status": 200,
+      "robots": "noindex, follow",
+      "noindex": true
+    },
+    {
+      "path": "/tools/running-shoe-finder",
+      "status": 200,
+      "robots": "",
+      "noindex": false
+    },
+    {
+      "path": "/tools/running-shoe-finder/results",
+      "status": 200,
+      "robots": "noindex, follow",
+      "noindex": true
+    }
+  ],
+  "gates": {
+    "compareWithinBudget": true,
+    "dailyTrainersWithinBudget": true,
+    "axeSeriousCriticalZero": true,
+    "anyAggregateRating": false,
+    "anyFalseFirstHand": false
+  }
+}

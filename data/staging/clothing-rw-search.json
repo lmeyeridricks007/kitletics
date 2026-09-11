@@ -1,0 +1,490 @@
+[
+  {
+    "id": "prod-salomon-bonatti-wp-men",
+    "slug": "salomon-bonatti-wp-men",
+    "query": "Salomon Mens Bonatti Waterproof Jacket",
+    "page": null,
+    "path": null,
+    "all": []
+  },
+  {
+    "id": "prod-salomon-bonatti-wp-women",
+    "slug": "salomon-bonatti-wp-women",
+    "query": "Salomon Womens Bonatti Waterproof Jacket",
+    "page": null,
+    "path": null,
+    "all": []
+  },
+  {
+    "id": "prod-patagonia-nano-puff-vest-men",
+    "slug": "patagonia-nano-puff-vest-men",
+    "query": "Patagonia Mens Nano-Puff Vest",
+    "page": null,
+    "path": null,
+    "all": []
+  },
+  {
+    "id": "prod-patagonia-capilene-cool-daily-men",
+    "slug": "patagonia-capilene-cool-daily-men",
+    "query": "Patagonia Mens Capilene Cool Daily Short Sleeve",
+    "page": null,
+    "path": null,
+    "all": []
+  },
+  {
+    "id": "prod-patagonia-capilene-midweight-zip-men",
+    "slug": "patagonia-capilene-midweight-zip-men",
+    "query": "Patagonia Mens Capilene Midweight Zip-Neck",
+    "page": null,
+    "path": null,
+    "all": []
+  },
+  {
+    "id": "prod-patagonia-capilene-thermal-crew-unisex",
+    "slug": "patagonia-capilene-thermal-crew-men",
+    "query": "Patagonia Mens Capilene Thermal Weight Crew",
+    "page": null,
+    "path": null,
+    "all": []
+  },
+  {
+    "id": "prod-patagonia-endless-run-tight-women",
+    "slug": "patagonia-endless-run-tight-women",
+    "query": "Patagonia Womens Endless Run Tights",
+    "page": null,
+    "path": null,
+    "all": []
+  },
+  {
+    "id": "prod-patagonia-trailfarer-short-women",
+    "slug": "patagonia-trailfarer-short-women",
+    "query": "Patagonia Womens Trailfarer Shorts",
+    "page": null,
+    "path": null,
+    "all": []
+  },
+  {
+    "id": "prod-brooks-cascadia-jacket",
+    "slug": "brooks-cascadia-jacket",
+    "query": "Brooks Cascadia Jacket",
+    "page": null,
+    "path": null,
+    "all": []
+  },
+  {
+    "id": "prod-brooks-sherpa-7-men",
+    "slug": "brooks-sherpa-7-men",
+    "query": "Brooks Mens Sherpa 7 2-in-1 Short",
+    "page": null,
+    "path": null,
+    "all": []
+  },
+  {
+    "id": "prod-brooks-method-tight-women",
+    "slug": "brooks-method-tight-women",
+    "query": "Brooks Womens Method 7/8 Tight",
+    "page": null,
+    "path": null,
+    "all": []
+  },
+  {
+    "id": "prod-brooks-chaser-5-women",
+    "slug": "brooks-chaser-5-women",
+    "query": "Brooks Womens Chaser 5 Short Tight",
+    "page": null,
+    "path": null,
+    "all": []
+  },
+  {
+    "id": "prod-brooks-dare-crossback",
+    "slug": "brooks-dare-crossback",
+    "query": "Brooks Dare Crossback Run Bra",
+    "page": null,
+    "path": null,
+    "all": []
+  },
+  {
+    "id": "prod-brooks-ghost-short-sleeve",
+    "slug": "brooks-ghost-short-sleeve",
+    "query": "Brooks Ghost Short Sleeve",
+    "page": null,
+    "path": null,
+    "all": []
+  },
+  {
+    "id": "prod-brooks-lsd-thermal-vest-men",
+    "slug": "brooks-lsd-thermal-vest-men",
+    "query": "Brooks Mens LSD Thermal Vest",
+    "page": null,
+    "path": null,
+    "all": []
+  },
+  {
+    "id": "prod-brooks-notch-thermal-men",
+    "slug": "brooks-notch-thermal-men",
+    "query": "Brooks Mens Notch Thermal Hoodie",
+    "page": null,
+    "path": null,
+    "all": []
+  },
+  {
+    "id": "prod-brooks-notch-thermal-beanie",
+    "slug": "brooks-notch-thermal-beanie",
+    "query": "Brooks Notch Thermal Beanie",
+    "page": null,
+    "path": null,
+    "all": []
+  },
+  {
+    "id": "prod-on-weather-jacket-men",
+    "slug": "on-weather-jacket-men",
+    "query": "On Mens Weather Jacket",
+    "page": null,
+    "path": null,
+    "all": []
+  },
+  {
+    "id": "prod-on-performance-short-men",
+    "slug": "on-performance-short-men",
+    "query": "On Mens Performance Shorts",
+    "page": null,
+    "path": null,
+    "all": []
+  },
+  {
+    "id": "prod-on-performance-tight-women",
+    "slug": "on-performance-tight-women",
+    "query": "On Womens Performance Tights",
+    "page": null,
+    "path": null,
+    "all": []
+  },
+  {
+    "id": "prod-craft-adv-essence-light-wind-men",
+    "slug": "craft-adv-essence-light-wind-men",
+    "query": "Craft ADV Essence Light Wind Jacket Men",
+    "page": null,
+    "path": null,
+    "all": []
+  },
+  {
+    "id": "prod-craft-adv-essence-light-wind-vest-men",
+    "slug": "craft-adv-essence-light-wind-vest-men",
+    "query": "Craft ADV Essence Light Wind Vest Men",
+    "page": null,
+    "path": null,
+    "all": []
+  },
+  {
+    "id": "prod-craft-adv-essence-short",
+    "slug": "craft-adv-essence-short",
+    "query": "Craft ADV Essence Short",
+    "page": null,
+    "path": null,
+    "all": []
+  },
+  {
+    "id": "prod-craft-adv-essence-tight-men",
+    "slug": "craft-adv-essence-tight-men",
+    "query": "Craft ADV Essence Tights Men",
+    "page": null,
+    "path": null,
+    "all": []
+  },
+  {
+    "id": "prod-craft-active-extreme-x-men",
+    "slug": "craft-active-extreme-x-men",
+    "query": "Craft Active Extreme X Windstop Men",
+    "page": null,
+    "path": null,
+    "all": []
+  },
+  {
+    "id": "prod-craft-adv-lumen-glove",
+    "slug": "craft-adv-lumen-glove",
+    "query": "Craft ADV Lumen Fleece Glove",
+    "page": null,
+    "path": null,
+    "all": []
+  },
+  {
+    "id": "prod-janji-rainrunner-unisex",
+    "slug": "janji-rainrunner-men",
+    "query": "Janji Rainrunner Jacket Men",
+    "page": null,
+    "path": null,
+    "all": []
+  },
+  {
+    "id": "prod-janji-run-tee-men",
+    "slug": "janji-run-tee-men",
+    "query": "Janji AFO Tee Men",
+    "page": null,
+    "path": null,
+    "all": []
+  },
+  {
+    "id": "prod-ciele-gocap-athletics",
+    "slug": "ciele-gocap-athletics",
+    "query": "Ciele GOCap Athletics",
+    "page": null,
+    "path": null,
+    "all": []
+  },
+  {
+    "id": "prod-asics-race-short",
+    "slug": "asics-core-split-short",
+    "query": "ASICS Core Split Short",
+    "page": null,
+    "path": null,
+    "all": []
+  },
+  {
+    "id": "prod-asics-race-singlet-men",
+    "slug": "asics-race-singlet-men",
+    "query": "ASICS Race Singlet Men",
+    "page": null,
+    "path": null,
+    "all": []
+  },
+  {
+    "id": "prod-adidas-own-the-run-short-men",
+    "slug": "adidas-own-the-run-short-men",
+    "query": "adidas Own the Run Short Men",
+    "page": null,
+    "path": null,
+    "all": []
+  },
+  {
+    "id": "prod-adidas-own-the-run-tee-men",
+    "slug": "adidas-own-the-run-tee-men",
+    "query": "adidas Own the Run Tee Men",
+    "page": null,
+    "path": null,
+    "all": []
+  },
+  {
+    "id": "prod-nike-stride-short",
+    "slug": "nike-dri-fit-stride-short",
+    "query": "Nike Dri-FIT Stride Short",
+    "page": null,
+    "path": null,
+    "all": []
+  },
+  {
+    "id": "prod-nike-fast-tight-men",
+    "slug": "nike-fast-tight-men",
+    "query": "Nike Dri-FIT Fast Tights Men",
+    "page": null,
+    "path": null,
+    "all": []
+  },
+  {
+    "id": "prod-nike-impossibly-light-men",
+    "slug": "nike-impossibly-light-men",
+    "query": "Nike Impossibly Light Jacket Men",
+    "page": null,
+    "path": null,
+    "all": []
+  },
+  {
+    "id": "prod-nike-dri-fit-miler-women",
+    "slug": "nike-dri-fit-miler-women",
+    "query": "Nike Dri-FIT Miler Tee Women",
+    "page": null,
+    "path": null,
+    "all": []
+  },
+  {
+    "id": "prod-nike-element-ls-men",
+    "slug": "nike-element-ls-men",
+    "query": "Nike Element Therma Long Sleeve Men",
+    "page": null,
+    "path": null,
+    "all": []
+  },
+  {
+    "id": "prod-nike-aerobill-cap",
+    "slug": "nike-aerobill-cap",
+    "query": "Nike AeroBill Cap",
+    "page": null,
+    "path": null,
+    "all": []
+  },
+  {
+    "id": "prod-nike-swoosh-medium-support",
+    "slug": "nike-swoosh-medium-support",
+    "query": "Nike Swoosh Medium Support Bra",
+    "page": null,
+    "path": null,
+    "all": []
+  },
+  {
+    "id": "prod-nike-therma-fit-glove",
+    "slug": "nike-therma-fit-glove",
+    "query": "Nike Therma-FIT Run Gloves",
+    "page": null,
+    "path": null,
+    "all": []
+  },
+  {
+    "id": "prod-tnf-flight-series-jacket-men",
+    "slug": "tnf-flight-series-jacket-men",
+    "query": "North Face Flight Series Rain Shell Men",
+    "page": null,
+    "path": null,
+    "all": []
+  },
+  {
+    "id": "prod-rabbit-fuel-n-fly-men",
+    "slug": "rabbit-fuel-n-fly-men",
+    "query": "rabbit Fuel n Fly 5 Short",
+    "page": null,
+    "path": null,
+    "all": []
+  },
+  {
+    "id": "prod-nb-rc-essential-short-men",
+    "slug": "nb-rc-essential-short-men",
+    "query": "New Balance RC Essential Short Men",
+    "page": null,
+    "path": null,
+    "all": []
+  },
+  {
+    "id": "prod-lululemon-pace-breaker-men",
+    "slug": "lululemon-pace-breaker-men",
+    "query": "lululemon Pace Breaker Lined Short Men",
+    "page": null,
+    "path": null,
+    "all": []
+  },
+  {
+    "id": "prod-lululemon-hotty-hot-women",
+    "slug": "lululemon-hotty-hot-women",
+    "query": "lululemon Hotty Hot High-Rise Short Women",
+    "page": null,
+    "path": null,
+    "all": []
+  },
+  {
+    "id": "prod-lululemon-fast-and-free-women",
+    "slug": "lululemon-fast-and-free-women",
+    "query": "lululemon Fast and Free High-Rise Tight Women",
+    "page": null,
+    "path": null,
+    "all": []
+  },
+  {
+    "id": "prod-lululemon-energy-bra",
+    "slug": "lululemon-energy-bra",
+    "query": "lululemon Energy Bra",
+    "page": null,
+    "path": null,
+    "all": []
+  },
+  {
+    "id": "prod-lululemon-always-in-motion-men",
+    "slug": "lululemon-always-in-motion-men",
+    "query": "lululemon Always In Motion Boxer Men",
+    "page": null,
+    "path": null,
+    "all": []
+  },
+  {
+    "id": "prod-tracksmith-session-short-men",
+    "slug": "tracksmith-session-short-men",
+    "query": "Tracksmith Session Short Men",
+    "page": null,
+    "path": null,
+    "all": []
+  },
+  {
+    "id": "prod-tracksmith-session-short-women",
+    "slug": "tracksmith-session-short-women",
+    "query": "Tracksmith Session Short Women",
+    "page": null,
+    "path": null,
+    "all": []
+  },
+  {
+    "id": "prod-tracksmith-harrier-singlet-men",
+    "slug": "tracksmith-harrier-singlet-men",
+    "query": "Tracksmith Harrier Singlet Men",
+    "page": null,
+    "path": null,
+    "all": []
+  },
+  {
+    "id": "prod-tracksmith-brighton-ls-men",
+    "slug": "tracksmith-brighton-ls-men",
+    "query": "Tracksmith Brighton Long Sleeve Men",
+    "page": null,
+    "path": null,
+    "all": []
+  },
+  {
+    "id": "prod-tracksmith-brighton-bra",
+    "slug": "tracksmith-brighton-bra",
+    "query": "Tracksmith Brighton Bra",
+    "page": null,
+    "path": null,
+    "all": []
+  },
+  {
+    "id": "prod-tracksmith-turnover-tight-women",
+    "slug": "tracksmith-turnover-tight-women",
+    "query": "Tracksmith Turnover Lined Tight Women",
+    "page": null,
+    "path": null,
+    "all": []
+  },
+  {
+    "id": "prod-tracksmith-twilight-half-men",
+    "slug": "tracksmith-twilight-half-men",
+    "query": "Tracksmith Twilight Half Tights Men",
+    "page": null,
+    "path": null,
+    "all": []
+  },
+  {
+    "id": "prod-tracksmith-van-cortlandt-tee-men",
+    "slug": "tracksmith-van-cortlandt-tee-men",
+    "query": "Tracksmith Van Cortlandt Tee Men",
+    "page": null,
+    "path": null,
+    "all": []
+  },
+  {
+    "id": "prod-saxx-kinetic-hd-men",
+    "slug": "saxx-kinetic-hd-men",
+    "query": "SAXX Kinetic HD Boxer Brief",
+    "page": null,
+    "path": null,
+    "all": []
+  },
+  {
+    "id": "prod-smartwool-thermal-merino-glove",
+    "slug": "smartwool-thermal-merino-glove",
+    "query": "Smartwool Thermal Merino Glove",
+    "page": null,
+    "path": null,
+    "all": []
+  },
+  {
+    "id": "prod-odlo-active-warm-eco-men",
+    "slug": "odlo-active-warm-eco-men",
+    "query": "Odlo Active Warm Eco Long Sleeve Men",
+    "page": null,
+    "path": null,
+    "all": []
+  },
+  {
+    "id": "prod-odlo-active-warm-eco-bottom-men",
+    "slug": "odlo-active-warm-eco-bottom-men",
+    "query": "Odlo Active Warm Eco Bottom Men",
+    "page": null,
+    "path": null,
+    "all": []
+  }
+]

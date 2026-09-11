@@ -1,0 +1,6 @@
+/ total=1.21MB images=0.13MB next=26 raw=0 budget=OK
+/running total=4.31MB images=3.12MB next=28 raw=12 budget=OVER
+/running/shoes total=1.28MB images=0.09MB next=24 raw=7 budget=OK
+/brands/nike total=1.07MB images=0.03MB next=26 raw=1 budget=OK
+/products/nike-vomero-18 total=1.09MB images=0.01MB next=4 raw=0 budget=OK
+Wrote docs/prelaunch/data/18-image-lab.json

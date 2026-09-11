@@ -1,0 +1,45 @@
+{
+  "totals": {
+    "NEEDS_DIFFERENTIATION": 460,
+    "DUPLICATIVE": 69,
+    "GENUINELY_UNIQUE": 806,
+    "TEMPLATE_SIMILAR_ACCEPTABLE": 101
+  },
+  "reviews": {
+    "NEEDS_DIFFERENTIATION": 453,
+    "DUPLICATIVE": 69,
+    "GENUINELY_UNIQUE": 40,
+    "TEMPLATE_SIMILAR_ACCEPTABLE": 23
+  },
+  "products": {
+    "GENUINELY_UNIQUE": 593,
+    "TEMPLATE_SIMILAR_ACCEPTABLE": 30
+  },
+  "bestGuides": {
+    "GENUINELY_UNIQUE": 33,
+    "TEMPLATE_SIMILAR_ACCEPTABLE": 25
+  },
+  "buyingGuides": {
+    "GENUINELY_UNIQUE": 68
+  },
+  "comparisons": {
+    "GENUINELY_UNIQUE": 72,
+    "TEMPLATE_SIMILAR_ACCEPTABLE": 23,
+    "NEEDS_DIFFERENTIATION": 7
+  },
+  "day1ReviewHolds": 415,
+  "duplicativeReviews": 69,
+  "needsDifferentiationReviews": 453
+}
+Wrote /Users/LMeyeridricks/Documents/coding/kitletics/docs/prelaunch/data/25-content-uniqueness.json
+Wrote /Users/LMeyeridricks/Documents/coding/kitletics/src/content/launch/content-uniqueness-holds.ts (415 holds)
+Top review pairs: [
+  '0.822 goodr-ogs ↔ julbo-aerolite',
+  '0.804 oakley-encoder ↔ oakley-radar-ev-path',
+  '0.799 smith-shift-mag ↔ tifosi-vogel',
+  '0.774 oakley-radar-ev-path ↔ roka-phantom-air',
+  '0.752 rudy-project-cutline ↔ tifosi-vogel',
+  '0.746 oakley-kato ↔ oakley-radar-ev-path',
+  '0.746 roka-phantom-air ↔ tifosi-vogel',
+  '0.74 goodr-ogs ↔ oakley-kato'
+]

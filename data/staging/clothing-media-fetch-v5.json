@@ -1,0 +1,79 @@
+[
+  {
+    "id": "prod-patagonia-trailfarer-short-women",
+    "slug": "patagonia-trailfarer-short-women",
+    "ok": true,
+    "msg": "ok 107685 image/jpeg a83605cb",
+    "src": "/images/clothing/products/patagonia-trailfarer-short-women-hero.jpg",
+    "sourceUrl": "https://www.patagonia.co.nz/products/womens-trailfarer-running-shorts-4-57535-blsg",
+    "imageUrl": "http://www.patagonia.co.nz/cdn/shop/files/57535_BLSG.jpg?v=1772707298",
+    "kind": "shopify",
+    "token": "57535",
+    "width": 1000,
+    "height": 1000
+  },
+  {
+    "id": "prod-patagonia-capilene-thermal-crew-unisex",
+    "ok": false
+  },
+  {
+    "id": "prod-patagonia-capilene-midweight-zip-men",
+    "ok": false
+  },
+  {
+    "id": "prod-brooks-sherpa-7-men",
+    "slug": "brooks-sherpa-7-men",
+    "ok": true,
+    "msg": "ok 48635 image/jpeg 6c901db4",
+    "src": "/images/clothing/products/brooks-sherpa-7-men-hero.jpg",
+    "sourceUrl": "https://www.sportsshoes.com/product/bro2588/brooks-sherpa-7%22-2-in-1-running-shorts---aw22",
+    "imageUrl": "https://cdn11.bigcommerce.com/s-21x65e8kfn/images/stencil/original/products/53887/398300/BRO2588_1000_1__04896.1738768672.jpg",
+    "kind": "ss",
+    "token": "sherpa",
+    "width": 1000,
+    "height": 1000
+  },
+  {
+    "id": "prod-craft-adv-essence-light-wind-vest-men",
+    "slug": "craft-adv-essence-light-wind-vest-men",
+    "ok": true,
+    "msg": "ok 15900 image/jpeg c637d0b2",
+    "src": "/images/clothing/products/craft-adv-essence-light-wind-vest-men-hero.jpg",
+    "sourceUrl": "https://www.craftsportswear.com/global/adv-essence-light-wind-vest-m-black-1908814-999000",
+    "imageUrl": "https://craftsportswear.centracdn.net/client/dynamic/images/747_cc72021daa-1908814-851000_essence-light-wind-vest_closeup6-thumb.jpg",
+    "kind": "craft",
+    "token": "1908814",
+    "width": 1000,
+    "height": 1000
+  },
+  {
+    "id": "prod-craft-adv-essence-tight-men",
+    "slug": "craft-adv-essence-tight-men",
+    "ok": true,
+    "msg": "ok 19257 image/jpeg 60e62e10",
+    "src": "/images/clothing/products/craft-adv-essence-tight-men-hero.jpg",
+    "sourceUrl": "https://www.craftsportswear.com/global/adv-essence-wind-tights-m-men-blaze-1909606-396000",
+    "imageUrl": "https://craftsportswear.centracdn.net/client/dynamic/images/852_a9b183319b-1909606-349000-1-thumb.jpg",
+    "kind": "craft",
+    "token": "1909606",
+    "width": 1000,
+    "height": 1000
+  },
+  {
+    "id": "prod-tracksmith-brighton-ls-men",
+    "slug": "tracksmith-brighton-ls-men",
+    "ok": true,
+    "msg": "ok 232821 image/jpeg 07b9d7be",
+    "src": "/images/clothing/products/tracksmith-brighton-ls-men-hero.jpg",
+    "sourceUrl": "https://www.tracksmith.com/products/m-brighton-base-layer-ls",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/1594/4353/files/Fall26-Mens-Brighton-Base-Layer-Navy-Red-On-Model.png?v=1787248983?bg=f8f8f8&fit=fillmax&w=1080&h=1080",
+    "kind": "shopify",
+    "token": "brighton",
+    "width": 1000,
+    "height": 1000
+  },
+  {
+    "id": "prod-janji-run-tee-men",
+    "ok": false
+  }
+]

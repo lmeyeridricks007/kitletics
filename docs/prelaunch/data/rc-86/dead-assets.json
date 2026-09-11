@@ -1,0 +1,611 @@
+{
+  "method": "string refs in src/scripts + product-slug convention for heroes/sections",
+  "files_inspected": 9460,
+  "string_refs": 1141,
+  "convention_referenced": 8398,
+  "unreferenced_count": 142,
+  "unreferenced_bytes": 48596289,
+  "largest": [
+    {
+      "path": "public/images/running/products/nike-vomero-18-upper.png",
+      "url": "/images/running/products/nike-vomero-18-upper.png",
+      "bytes": 2476584,
+      "name": "nike-vomero-18-upper.png"
+    },
+    {
+      "path": "public/images/running/products/nike-vomero-18-fit.png",
+      "url": "/images/running/products/nike-vomero-18-fit.png",
+      "bytes": 2355549,
+      "name": "nike-vomero-18-fit.png"
+    },
+    {
+      "path": "public/images/running/products/nike-vomero-18-cushioning.png",
+      "url": "/images/running/products/nike-vomero-18-cushioning.png",
+      "bytes": 2110929,
+      "name": "nike-vomero-18-cushioning.png"
+    },
+    {
+      "path": "public/images/running/products/nike-vomero-18-strengths.png",
+      "url": "/images/running/products/nike-vomero-18-strengths.png",
+      "bytes": 2005904,
+      "name": "nike-vomero-18-strengths.png"
+    },
+    {
+      "path": "public/images/running/products/nike-vomero-18-stability.png",
+      "url": "/images/running/products/nike-vomero-18-stability.png",
+      "bytes": 1982828,
+      "name": "nike-vomero-18-stability.png"
+    },
+    {
+      "path": "public/images/running/products/nike-vomero-18-tradeoffs.png",
+      "url": "/images/running/products/nike-vomero-18-tradeoffs.png",
+      "bytes": 1936383,
+      "name": "nike-vomero-18-tradeoffs.png"
+    },
+    {
+      "path": "public/images/padel/products/racket-5.png",
+      "url": "/images/padel/products/racket-5.png",
+      "bytes": 1921722,
+      "name": "racket-5.png"
+    },
+    {
+      "path": "public/images/running/products/nike-vomero-18-usecase.png",
+      "url": "/images/running/products/nike-vomero-18-usecase.png",
+      "bytes": 1920547,
+      "name": "nike-vomero-18-usecase.png"
+    },
+    {
+      "path": "public/images/running/products/nike-vomero-18-overview.png",
+      "url": "/images/running/products/nike-vomero-18-overview.png",
+      "bytes": 1919519,
+      "name": "nike-vomero-18-overview.png"
+    },
+    {
+      "path": "public/images/running/products/nike-vomero-18-value.png",
+      "url": "/images/running/products/nike-vomero-18-value.png",
+      "bytes": 1837317,
+      "name": "nike-vomero-18-value.png"
+    },
+    {
+      "path": "public/images/running/products/nike-vomero-18-performance.png",
+      "url": "/images/running/products/nike-vomero-18-performance.png",
+      "bytes": 1824803,
+      "name": "nike-vomero-18-performance.png"
+    },
+    {
+      "path": "public/images/running/products/nike-vomero-18-ride.png",
+      "url": "/images/running/products/nike-vomero-18-ride.png",
+      "bytes": 1773910,
+      "name": "nike-vomero-18-ride.png"
+    },
+    {
+      "path": "public/images/running/products/nike-vomero-18-grip.png",
+      "url": "/images/running/products/nike-vomero-18-grip.png",
+      "bytes": 1715106,
+      "name": "nike-vomero-18-grip.png"
+    },
+    {
+      "path": "public/images/running/products/nike-vomero-18-specs.png",
+      "url": "/images/running/products/nike-vomero-18-specs.png",
+      "bytes": 1684843,
+      "name": "nike-vomero-18-specs.png"
+    },
+    {
+      "path": "public/images/running/products/nike-vomero-18-assessment.png",
+      "url": "/images/running/products/nike-vomero-18-assessment.png",
+      "bytes": 1657313,
+      "name": "nike-vomero-18-assessment.png"
+    },
+    {
+      "path": "public/images/running/products/nike-vomero-18-durability.png",
+      "url": "/images/running/products/nike-vomero-18-durability.png",
+      "bytes": 1655580,
+      "name": "nike-vomero-18-durability.png"
+    },
+    {
+      "path": "public/images/brands/qa/asics-brand-hub-1440.png",
+      "url": "/images/brands/qa/asics-brand-hub-1440.png",
+      "bytes": 1370928,
+      "name": "asics-brand-hub-1440.png"
+    },
+    {
+      "path": "public/images/running/accessories/veloforte-energy-bar-hero.png",
+      "url": "/images/running/accessories/veloforte-energy-bar-hero.png",
+      "bytes": 1349942,
+      "name": "veloforte-energy-bar-hero.png"
+    },
+    {
+      "path": "public/images/running/accessories/veloforte-energy-chews-hero.png",
+      "url": "/images/running/accessories/veloforte-energy-chews-hero.png",
+      "bytes": 1349942,
+      "name": "veloforte-energy-chews-hero.png"
+    },
+    {
+      "path": "public/images/running/products/adrenaline-gts-25-hero.jpg",
+      "url": "/images/running/products/adrenaline-gts-25-hero.jpg",
+      "bytes": 1281812,
+      "name": "adrenaline-gts-25-hero.jpg"
+    },
+    {
+      "path": "public/images/gear/qa/gear-hub-full-1440.png",
+      "url": "/images/gear/qa/gear-hub-full-1440.png",
+      "bytes": 1072532,
+      "name": "gear-hub-full-1440.png"
+    },
+    {
+      "path": "public/images/search/qa/search-running-shoes-mobile-390.png",
+      "url": "/images/search/qa/search-running-shoes-mobile-390.png",
+      "bytes": 1040003,
+      "name": "search-running-shoes-mobile-390.png"
+    },
+    {
+      "path": "public/images/padel/qa-padel-final.png",
+      "url": "/images/padel/qa-padel-final.png",
+      "bytes": 998357,
+      "name": "qa-padel-final.png"
+    },
+    {
+      "path": "public/images/padel/qa-padel-1440-tall.png",
+      "url": "/images/padel/qa-padel-1440-tall.png",
+      "bytes": 847032,
+      "name": "qa-padel-1440-tall.png"
+    },
+    {
+      "path": "public/images/gear/qa/gear-hub-mobile-390.png",
+      "url": "/images/gear/qa/gear-hub-mobile-390.png",
+      "bytes": 695267,
+      "name": "gear-hub-mobile-390.png"
+    },
+    {
+      "path": "public/images/running/accessories/naak-ultra-energy-bar-hero.png",
+      "url": "/images/running/accessories/naak-ultra-energy-bar-hero.png",
+      "bytes": 633405,
+      "name": "naak-ultra-energy-bar-hero.png"
+    },
+    {
+      "path": "public/images/running/accessories/naak-ultra-energy-drink-mix-hero.png",
+      "url": "/images/running/accessories/naak-ultra-energy-drink-mix-hero.png",
+      "bytes": 633405,
+      "name": "naak-ultra-energy-drink-mix-hero.png"
+    },
+    {
+      "path": "public/images/search/qa/search-running-shoes-full-1440.png",
+      "url": "/images/search/qa/search-running-shoes-full-1440.png",
+      "bytes": 606577,
+      "name": "search-running-shoes-full-1440.png"
+    },
+    {
+      "path": "public/images/brands/qa/asics-brand-hub-full-1440.png",
+      "url": "/images/brands/qa/asics-brand-hub-full-1440.png",
+      "bytes": 589501,
+      "name": "asics-brand-hub-full-1440.png"
+    },
+    {
+      "path": "public/images/brands/qa/asics-brand-hub-mobile-390.png",
+      "url": "/images/brands/qa/asics-brand-hub-mobile-390.png",
+      "bytes": 496779,
+      "name": "asics-brand-hub-mobile-390.png"
+    },
+    {
+      "path": "public/images/padel/qa-padel-1440.png",
+      "url": "/images/padel/qa-padel-1440.png",
+      "bytes": 493878,
+      "name": "qa-padel-1440.png"
+    },
+    {
+      "path": "public/images/product/qa/adrenaline-review-1440.png",
+      "url": "/images/product/qa/adrenaline-review-1440.png",
+      "bytes": 403369,
+      "name": "adrenaline-review-1440.png"
+    },
+    {
+      "path": "public/images/gear/qa/gear-hub-viewport-1440.png",
+      "url": "/images/gear/qa/gear-hub-viewport-1440.png",
+      "bytes": 368302,
+      "name": "gear-hub-viewport-1440.png"
+    },
+    {
+      "path": "public/images/running/products/pegasus-42.jpg",
+      "url": "/images/running/products/pegasus-42.jpg",
+      "bytes": 317651,
+      "name": "pegasus-42.jpg"
+    },
+    {
+      "path": "public/images/running/products/vaporfly-4.jpg",
+      "url": "/images/running/products/vaporfly-4.jpg",
+      "bytes": 300604,
+      "name": "vaporfly-4.jpg"
+    },
+    {
+      "path": "public/images/search/qa/search-running-shoes-viewport-1440.png",
+      "url": "/images/search/qa/search-running-shoes-viewport-1440.png",
+      "bytes": 267369,
+      "name": "search-running-shoes-viewport-1440.png"
+    },
+    {
+      "path": "public/images/product/qa/adrenaline-pdp-1440.png",
+      "url": "/images/product/qa/adrenaline-pdp-1440.png",
+      "bytes": 196138,
+      "name": "adrenaline-pdp-1440.png"
+    },
+    {
+      "path": "public/images/brands/qa/asics-brand-hub-viewport-1440.png",
+      "url": "/images/brands/qa/asics-brand-hub-viewport-1440.png",
+      "bytes": 175928,
+      "name": "asics-brand-hub-viewport-1440.png"
+    },
+    {
+      "path": "public/images/running/products/endorphin-speed-5.jpg",
+      "url": "/images/running/products/endorphin-speed-5.jpg",
+      "bytes": 165684,
+      "name": "endorphin-speed-5.jpg"
+    },
+    {
+      "path": "public/images/brands/qa/nike-brand-hub-smoke-1440.png",
+      "url": "/images/brands/qa/nike-brand-hub-smoke-1440.png",
+      "bytes": 152867,
+      "name": "nike-brand-hub-smoke-1440.png"
+    },
+    {
+      "path": "public/images/running/products/clifton-10.jpg",
+      "url": "/images/running/products/clifton-10.jpg",
+      "bytes": 136283,
+      "name": "clifton-10.jpg"
+    },
+    {
+      "path": "public/images/running/products/bondi-9.jpg",
+      "url": "/images/running/products/bondi-9.jpg",
+      "bytes": 127855,
+      "name": "bondi-9.jpg"
+    },
+    {
+      "path": "public/images/brands/qa/garmin-brand-hub-smoke-1440.png",
+      "url": "/images/brands/qa/garmin-brand-hub-smoke-1440.png",
+      "bytes": 123892,
+      "name": "garmin-brand-hub-smoke-1440.png"
+    },
+    {
+      "path": "public/images/brands/qa/rogue-brand-hub-smoke-1440.png",
+      "url": "/images/brands/qa/rogue-brand-hub-smoke-1440.png",
+      "bytes": 121524,
+      "name": "rogue-brand-hub-smoke-1440.png"
+    },
+    {
+      "path": "public/images/running/products/speedgoat-6.jpg",
+      "url": "/images/running/products/speedgoat-6.jpg",
+      "bytes": 113491,
+      "name": "speedgoat-6.jpg"
+    },
+    {
+      "path": "public/images/watches/products/garmin-instinct-3/gallery/lifestyle-4.jpg",
+      "url": "/images/watches/products/garmin-instinct-3/gallery/lifestyle-4.jpg",
+      "bytes": 69243,
+      "name": "lifestyle-4.jpg"
+    },
+    {
+      "path": "public/images/watches/products/garmin-fenix-8/gallery/on-foot-5.jpg",
+      "url": "/images/watches/products/garmin-fenix-8/gallery/on-foot-5.jpg",
+      "bytes": 68774,
+      "name": "on-foot-5.jpg"
+    },
+    {
+      "path": "public/images/watches/products/garmin-instinct-3/gallery/other-6.jpg",
+      "url": "/images/watches/products/garmin-instinct-3/gallery/other-6.jpg",
+      "bytes": 66680,
+      "name": "other-6.jpg"
+    },
+    {
+      "path": "public/images/running/products/novablast-6.jpg",
+      "url": "/images/running/products/novablast-6.jpg",
+      "bytes": 66591,
+      "name": "novablast-6.jpg"
+    },
+    {
+      "path": "public/images/running/accessories/styrkr-gel30-hero.png",
+      "url": "/images/running/accessories/styrkr-gel30-hero.png",
+      "bytes": 66352,
+      "name": "styrkr-gel30-hero.png"
+    },
+    {
+      "path": "public/images/watches/products/garmin-epix-pro-gen-2/gallery/side-1.jpg",
+      "url": "/images/watches/products/garmin-epix-pro-gen-2/gallery/side-1.jpg",
+      "bytes": 65924,
+      "name": "side-1.jpg"
+    },
+    {
+      "path": "public/images/watches/products/garmin-instinct-3/gallery/side-1.jpg",
+      "url": "/images/watches/products/garmin-instinct-3/gallery/side-1.jpg",
+      "bytes": 65331,
+      "name": "side-1.jpg"
+    },
+    {
+      "path": "public/images/watches/products/garmin-instinct-3/gallery/on-foot-5.jpg",
+      "url": "/images/watches/products/garmin-instinct-3/gallery/on-foot-5.jpg",
+      "bytes": 64089,
+      "name": "on-foot-5.jpg"
+    },
+    {
+      "path": "public/images/watches/products/garmin-fenix-8/gallery/lifestyle-4.jpg",
+      "url": "/images/watches/products/garmin-fenix-8/gallery/lifestyle-4.jpg",
+      "bytes": 63431,
+      "name": "lifestyle-4.jpg"
+    },
+    {
+      "path": "public/images/watches/products/garmin-instinct-3/gallery/rear-3.jpg",
+      "url": "/images/watches/products/garmin-instinct-3/gallery/rear-3.jpg",
+      "bytes": 59182,
+      "name": "rear-3.jpg"
+    },
+    {
+      "path": "public/images/running/products/kayano-32.jpg",
+      "url": "/images/running/products/kayano-32.jpg",
+      "bytes": 59116,
+      "name": "kayano-32.jpg"
+    },
+    {
+      "path": "public/images/watches/products/garmin-fenix-8/gallery/other-6.jpg",
+      "url": "/images/watches/products/garmin-fenix-8/gallery/other-6.jpg",
+      "bytes": 54964,
+      "name": "other-6.jpg"
+    },
+    {
+      "path": "public/images/watches/products/garmin-fenix-8/gallery/side-1.jpg",
+      "url": "/images/watches/products/garmin-fenix-8/gallery/side-1.jpg",
+      "bytes": 54893,
+      "name": "side-1.jpg"
+    },
+    {
+      "path": "public/images/watches/products/garmin-vivoactive-6/gallery/other-6.jpg",
+      "url": "/images/watches/products/garmin-vivoactive-6/gallery/other-6.jpg",
+      "bytes": 54565,
+      "name": "other-6.jpg"
+    },
+    {
+      "path": "public/images/watches/products/garmin-forerunner-570/gallery/side-1.jpg",
+      "url": "/images/watches/products/garmin-forerunner-570/gallery/side-1.jpg",
+      "bytes": 52052,
+      "name": "side-1.jpg"
+    },
+    {
+      "path": "public/images/watches/products/garmin-fenix-8/gallery/rear-3.jpg",
+      "url": "/images/watches/products/garmin-fenix-8/gallery/rear-3.jpg",
+      "bytes": 47908,
+      "name": "rear-3.jpg"
+    },
+    {
+      "path": "public/images/watches/products/garmin-vivoactive-6/gallery/lifestyle-4.jpg",
+      "url": "/images/watches/products/garmin-vivoactive-6/gallery/lifestyle-4.jpg",
+      "bytes": 40420,
+      "name": "lifestyle-4.jpg"
+    },
+    {
+      "path": "public/images/watches/products/garmin-vivoactive-6/gallery/side-1.jpg",
+      "url": "/images/watches/products/garmin-vivoactive-6/gallery/side-1.jpg",
+      "bytes": 39183,
+      "name": "side-1.jpg"
+    },
+    {
+      "path": "public/images/watches/products/garmin-vivoactive-6/gallery/on-foot-5.jpg",
+      "url": "/images/watches/products/garmin-vivoactive-6/gallery/on-foot-5.jpg",
+      "bytes": 39153,
+      "name": "on-foot-5.jpg"
+    },
+    {
+      "path": "public/images/watches/products/coros-vertix-2s/gallery/top-4.webp",
+      "url": "/images/watches/products/coros-vertix-2s/gallery/top-4.webp",
+      "bytes": 35990,
+      "name": "top-4.webp"
+    },
+    {
+      "path": "public/images/watches/products/coros-pace-pro/gallery/top-4.webp",
+      "url": "/images/watches/products/coros-pace-pro/gallery/top-4.webp",
+      "bytes": 35990,
+      "name": "top-4.webp"
+    },
+    {
+      "path": "public/images/watches/products/garmin-vivoactive-6/gallery/rear-3.jpg",
+      "url": "/images/watches/products/garmin-vivoactive-6/gallery/rear-3.jpg",
+      "bytes": 34452,
+      "name": "rear-3.jpg"
+    },
+    {
+      "path": "public/images/running/accessories/julbo-aerolite-hero.png",
+      "url": "/images/running/accessories/julbo-aerolite-hero.png",
+      "bytes": 25635,
+      "name": "julbo-aerolite-hero.png"
+    },
+    {
+      "path": "public/images/running/accessories/julbo-rush-hero.png",
+      "url": "/images/running/accessories/julbo-rush-hero.png",
+      "bytes": 25635,
+      "name": "julbo-rush-hero.png"
+    },
+    {
+      "path": "public/images/running/accessories/sis-go-isotonic-gel-hero.png",
+      "url": "/images/running/accessories/sis-go-isotonic-gel-hero.png",
+      "bytes": 24037,
+      "name": "sis-go-isotonic-gel-hero.png"
+    },
+    {
+      "path": "public/images/running/accessories/therabody-theragun-prime-hero.webp",
+      "url": "/images/running/accessories/therabody-theragun-prime-hero.webp",
+      "bytes": 13126,
+      "name": "therabody-theragun-prime-hero.webp"
+    },
+    {
+      "path": "public/images/running/accessories/100-percent-s3-hero.bin",
+      "url": "/images/running/accessories/100-percent-s3-hero.bin",
+      "bytes": 9652,
+      "name": "100-percent-s3-hero.bin"
+    },
+    {
+      "path": "public/images/running/accessories/maurten-gel-160-hero.png",
+      "url": "/images/running/accessories/maurten-gel-160-hero.png",
+      "bytes": 8474,
+      "name": "maurten-gel-160-hero.png"
+    },
+    {
+      "path": "public/images/running/accessories/maurten-drink-mix-160-hero.png",
+      "url": "/images/running/accessories/maurten-drink-mix-160-hero.png",
+      "bytes": 8474,
+      "name": "maurten-drink-mix-160-hero.png"
+    },
+    {
+      "path": "public/images/running/accessories/maurten-drink-mix-320-hero.png",
+      "url": "/images/running/accessories/maurten-drink-mix-320-hero.png",
+      "bytes": 8474,
+      "name": "maurten-drink-mix-320-hero.png"
+    },
+    {
+      "path": "public/images/running/accessories/maurten-gel-100-caf-100-hero.png",
+      "url": "/images/running/accessories/maurten-gel-100-caf-100-hero.png",
+      "bytes": 8474,
+      "name": "maurten-gel-100-caf-100-hero.png"
+    },
+    {
+      "path": "public/images/running/accessories/clif-bar-original-hero.bin",
+      "url": "/images/running/accessories/clif-bar-original-hero.bin",
+      "bytes": 6841,
+      "name": "clif-bar-original-hero.bin"
+    },
+    {
+      "path": "public/images/running/accessories/clif-bloks-energy-chews-hero.bin",
+      "url": "/images/running/accessories/clif-bloks-energy-chews-hero.bin",
+      "bytes": 6841,
+      "name": "clif-bloks-energy-chews-hero.bin"
+    },
+    {
+      "path": "public/images/running/accessories/goodr-ogs-hero.jpg",
+      "url": "/images/running/accessories/goodr-ogs-hero.jpg",
+      "bytes": 5164,
+      "name": "goodr-ogs-hero.jpg"
+    },
+    {
+      "path": "public/images/running/hero-road.svg",
+      "url": "/images/running/hero-road.svg",
+      "bytes": 2227,
+      "name": "hero-road.svg"
+    },
+    {
+      "path": "public/images/running/guides/choose-shoes.svg",
+      "url": "/images/running/guides/choose-shoes.svg",
+      "bytes": 2227,
+      "name": "choose-shoes.svg"
+    },
+    {
+      "path": "public/images/running/guides/cushioning.svg",
+      "url": "/images/running/guides/cushioning.svg",
+      "bytes": 2227,
+      "name": "cushioning.svg"
+    },
+    {
+      "path": "public/images/running/accessories/powerbar-energize-hero.bin",
+      "url": "/images/running/accessories/powerbar-energize-hero.bin",
+      "bytes": 1924,
+      "name": "powerbar-energize-hero.bin"
+    },
+    {
+      "path": "public/images/brands/bose-logo-white.svg",
+      "url": "/images/brands/bose-logo-white.svg",
+      "bytes": 1647,
+      "name": "bose-logo-white.svg"
+    },
+    {
+      "path": "public/images/brands/puma-logo-white.svg",
+      "url": "/images/brands/puma-logo-white.svg",
+      "bytes": 1640,
+      "name": "puma-logo-white.svg"
+    },
+    {
+      "path": "public/images/brands/new-balance-logo-white.svg",
+      "url": "/images/brands/new-balance-logo-white.svg",
+      "bytes": 1121,
+      "name": "new-balance-logo-white.svg"
+    },
+    {
+      "path": "public/images/brands/apple-logo-white.svg",
+      "url": "/images/brands/apple-logo-white.svg",
+      "bytes": 921,
+      "name": "apple-logo-white.svg"
+    },
+    {
+      "path": "public/images/brands/nike-logo-white.svg",
+      "url": "/images/brands/nike-logo-white.svg",
+      "bytes": 667,
+      "name": "nike-logo-white.svg"
+    },
+    {
+      "path": "public/images/brands/adidas-logo-white.svg",
+      "url": "/images/brands/adidas-logo-white.svg",
+      "bytes": 515,
+      "name": "adidas-logo-white.svg"
+    },
+    {
+      "path": "public/images/brands/hoka-logo-white.svg",
+      "url": "/images/brands/hoka-logo-white.svg",
+      "bytes": 350,
+      "name": "hoka-logo-white.svg"
+    },
+    {
+      "path": "public/images/brands/reebok-logo-white.svg",
+      "url": "/images/brands/reebok-logo-white.svg",
+      "bytes": 348,
+      "name": "reebok-logo-white.svg"
+    },
+    {
+      "path": "public/images/brands/tyr-logo-white.svg",
+      "url": "/images/brands/tyr-logo-white.svg",
+      "bytes": 348,
+      "name": "tyr-logo-white.svg"
+    },
+    {
+      "path": "public/images/brands/inov-8-logo.svg",
+      "url": "/images/brands/inov-8-logo.svg",
+      "bytes": 346,
+      "name": "inov-8-logo.svg"
+    },
+    {
+      "path": "public/images/brands/inov-8-logo-white.svg",
+      "url": "/images/brands/inov-8-logo-white.svg",
+      "bytes": 346,
+      "name": "inov-8-logo-white.svg"
+    },
+    {
+      "path": "public/images/brands/lululemon-logo-white.svg",
+      "url": "/images/brands/lululemon-logo-white.svg",
+      "bytes": 346,
+      "name": "lululemon-logo-white.svg"
+    },
+    {
+      "path": "public/images/brands/under-armour-logo-white.svg",
+      "url": "/images/brands/under-armour-logo-white.svg",
+      "bytes": 346,
+      "name": "under-armour-logo-white.svg"
+    },
+    {
+      "path": "public/images/brands/salming-logo-white.svg",
+      "url": "/images/brands/salming-logo-white.svg",
+      "bytes": 346,
+      "name": "salming-logo-white.svg"
+    },
+    {
+      "path": "public/images/brands/nobull-logo-white.svg",
+      "url": "/images/brands/nobull-logo-white.svg",
+      "bytes": 346,
+      "name": "nobull-logo-white.svg"
+    },
+    {
+      "path": "public/images/brands/zeraus-logo-white.svg",
+      "url": "/images/brands/zeraus-logo-white.svg",
+      "bytes": 346,
+      "name": "zeraus-logo-white.svg"
+    },
+    {
+      "path": "public/images/brands/domyos-logo-white.svg",
+      "url": "/images/brands/domyos-logo-white.svg",
+      "bytes": 346,
+      "name": "domyos-logo-white.svg"
+    }
+  ],
+  "note": "Do not delete on filename alone. Section PNGs for known product slugs counted as live via convention."
+}

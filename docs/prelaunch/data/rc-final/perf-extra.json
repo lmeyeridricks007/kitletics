@@ -1,0 +1,54 @@
+[
+  {
+    "path": "/brands/nike",
+    "error": "Error: page.goto: net::ERR_CONNECTION_REFUSED at http://127.0.0.1:3010/brands/nike\nCall log:\n  - navigating to \"http://127.0.0.1:3010/brands/nike\", waiting until \"load\"\n"
+  },
+  {
+    "path": "/compare",
+    "status": 200,
+    "navMs": 11675,
+    "js": 171575,
+    "img": 9185178,
+    "total": 9469687,
+    "fcp": 9356,
+    "jsKB": 168,
+    "imgKB": 8970,
+    "totalKB": 9248
+  },
+  {
+    "path": "/tools/running-shoe-finder",
+    "status": 200,
+    "navMs": 976,
+    "js": 163785,
+    "img": 4637,
+    "total": 287521,
+    "fcp": 420,
+    "jsKB": 160,
+    "imgKB": 5,
+    "totalKB": 281
+  },
+  {
+    "path": "/search",
+    "status": 200,
+    "navMs": 294,
+    "js": 141220,
+    "img": 0,
+    "total": 254154,
+    "fcp": 296,
+    "jsKB": 138,
+    "imgKB": 0,
+    "totalKB": 248
+  },
+  {
+    "path": "/running/watches",
+    "status": 200,
+    "navMs": 966,
+    "js": 159875,
+    "img": 20181,
+    "total": 306636,
+    "fcp": 896,
+    "jsKB": 156,
+    "imgKB": 20,
+    "totalKB": 299
+  }
+]

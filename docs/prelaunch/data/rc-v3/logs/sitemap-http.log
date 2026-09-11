@@ -1,0 +1,73 @@
+
+> kitletics@0.1.0 sitemap:probe:current
+> tsx --tsconfig tsconfig.json scripts/tmp/prelaunch-80-sitemap-probe.ts
+
+inventory {
+  n: 1167,
+  byType: {
+    other: 24,
+    category: 28,
+    comparison: 66,
+    product: 375,
+    alternatives: 130,
+    brand: 73,
+    review: 373,
+    best: 45,
+    guide: 42,
+    tool: 11
+  },
+  entityDeltaVsV3: 66,
+  sitemapChromeVsV3: 37
+}
+progress 0/1167
+progress 150/1167
+progress 300/1167
+progress 450/1167
+progress 600/1167
+progress 750/1167
+progress 900/1167
+progress 1050/1167
+{
+  "n": 1167,
+  "byStatus": {
+    "200": 1167
+  },
+  "byType": {
+    "other": 24,
+    "category": 28,
+    "comparison": 66,
+    "product": 375,
+    "alternatives": 130,
+    "brand": 73,
+    "review": 373,
+    "best": 45,
+    "guide": 42,
+    "tool": 11
+  },
+  "counts": {
+    "not200": 0,
+    "redirects": 0,
+    "notFound": 0,
+    "serverErr": 0,
+    "noindex": 0,
+    "facetLeak": 0,
+    "draftPathLeak": 0,
+    "draftFutureEntities": 0,
+    "canonicalMiss": 0,
+    "nonHtml": 0
+  },
+  "gates": {
+    "zero404": true,
+    "zero5xx": true,
+    "zeroNoindex": true,
+    "zeroRedirects": true,
+    "zeroDraftsFuture": true,
+    "zeroFacetLeak": true,
+    "allSelfCanonical": true,
+    "allHtml": true
+  },
+  "deltaN": 66,
+  "sampleNot200": [],
+  "sampleCanonicalMiss": []
+}
+SITEMAP_EXIT:0

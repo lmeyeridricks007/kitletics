@@ -1,0 +1,18 @@
+{
+  "before": {
+    "files": 9460,
+    "over1": 2807,
+    "over5": 0
+  },
+  "after": {
+    "files": 9427,
+    "over1": 2790,
+    "over5": 0
+  },
+  "public_kb_saved": 38024,
+  "relocated": {
+    "qa_screenshots": 18,
+    "flat_section_orphans": 15
+  },
+  "bytes_relocated_approx": 36538091
+}

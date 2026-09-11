@@ -1,0 +1,455 @@
+{
+  "ts": "2026-09-06T05:37:53.324Z",
+  "scopeCategories": [
+    "recovery",
+    "accessories",
+    "headphones",
+    "running-socks",
+    "safety-gear",
+    "running-lights",
+    "running-packs-vests",
+    "hydration",
+    "nutrition-fuel",
+    "running-belts"
+  ],
+  "before": {
+    "withoutMediaTotal": 66,
+    "byCategory": {
+      "running-packs-vests": {
+        "total": 19,
+        "withMedia": 11,
+        "without": 8
+      },
+      "running-belts": {
+        "total": 5,
+        "withMedia": 5,
+        "without": 0
+      },
+      "hydration": {
+        "total": 11,
+        "withMedia": 7,
+        "without": 4
+      },
+      "running-socks": {
+        "total": 8,
+        "withMedia": 3,
+        "without": 5
+      },
+      "headphones": {
+        "total": 11,
+        "withMedia": 4,
+        "without": 7
+      },
+      "running-lights": {
+        "total": 13,
+        "withMedia": 8,
+        "without": 5
+      },
+      "safety-gear": {
+        "total": 13,
+        "withMedia": 5,
+        "without": 8
+      },
+      "nutrition-fuel": {
+        "total": 2,
+        "withMedia": 0,
+        "without": 2
+      },
+      "recovery": {
+        "total": 27,
+        "withMedia": 10,
+        "without": 17
+      },
+      "accessories": {
+        "total": 12,
+        "withMedia": 2,
+        "without": 10
+      }
+    }
+  },
+  "after": {
+    "withoutMediaTotal": 48,
+    "byCategory": {
+      "running-packs-vests": {
+        "total": 19,
+        "withMedia": 13,
+        "without": 6
+      },
+      "running-belts": {
+        "total": 5,
+        "withMedia": 5,
+        "without": 0
+      },
+      "hydration": {
+        "total": 11,
+        "withMedia": 9,
+        "without": 2
+      },
+      "running-socks": {
+        "total": 8,
+        "withMedia": 4,
+        "without": 4
+      },
+      "headphones": {
+        "total": 11,
+        "withMedia": 6,
+        "without": 5
+      },
+      "running-lights": {
+        "total": 13,
+        "withMedia": 8,
+        "without": 5
+      },
+      "safety-gear": {
+        "total": 13,
+        "withMedia": 5,
+        "without": 8
+      },
+      "nutrition-fuel": {
+        "total": 2,
+        "withMedia": 2,
+        "without": 0
+      },
+      "recovery": {
+        "total": 27,
+        "withMedia": 14,
+        "without": 13
+      },
+      "accessories": {
+        "total": 12,
+        "withMedia": 7,
+        "without": 5
+      }
+    }
+  },
+  "delta": {
+    "withoutMediaReducedBy": 18
+  },
+  "okCount": 18,
+  "failCount": 48,
+  "okIds": [
+    "prod-2toms-sportshield",
+    "prod-blackroll-pro",
+    "prod-brazyn-morph",
+    "prod-buff-coolnet-uv",
+    "prod-buff-merino-lightweight",
+    "prod-buff-original",
+    "prod-camelbak-quick-grip-chill",
+    "prod-cep-calf-sleeves",
+    "prod-cep-the-run-calf",
+    "prod-nathan-zippered-stash",
+    "prod-salomon-soft-reservoir-15",
+    "prod-soundcore-aerofit-2",
+    "prod-soundcore-sport-x20",
+    "prod-spring-awesome-sauce",
+    "prod-squirrels-nut-butter",
+    "prod-styrkr-mix90",
+    "prod-ud-utility-bag",
+    "prod-wrightsock-coolmesh-ii"
+  ],
+  "persistentFailures": [
+    {
+      "id": "prod-patagonia-slope-runner",
+      "slug": "patagonia-slope-runner-vest",
+      "name": "Patagonia Slope Runner Vest",
+      "categorySlug": "running-packs-vests"
+    },
+    {
+      "id": "prod-raidlight-responsiv-12",
+      "slug": "raidlight-responsiv-12",
+      "name": "RaidLight Responsiv 12L",
+      "categorySlug": "running-packs-vests"
+    },
+    {
+      "id": "prod-hydrapak-shape-shift-15",
+      "slug": "hydrapak-shape-shift-15",
+      "name": "HydraPak Shape-Shift 1.5L",
+      "categorySlug": "hydration"
+    },
+    {
+      "id": "prod-nathan-quickdraw-plus",
+      "slug": "nathan-quickdraw-plus-handheld",
+      "name": "Nathan QuickDraw Plus Handheld",
+      "categorySlug": "hydration"
+    },
+    {
+      "id": "prod-bombas-performance-running-quarter",
+      "slug": "bombas-performance-running-quarter",
+      "name": "Bombas Performance Running Quarter",
+      "categorySlug": "running-socks"
+    },
+    {
+      "id": "prod-hilly-marathon-fresh",
+      "slug": "hilly-marathon-fresh",
+      "name": "Hilly Marathon Fresh Socks",
+      "categorySlug": "running-socks"
+    },
+    {
+      "id": "prod-sockwell-compression-light",
+      "slug": "sockwell-compression-light-cushion",
+      "name": "Sockwell Compression Light Cushion",
+      "categorySlug": "running-socks"
+    },
+    {
+      "id": "prod-camelbak-octane-22",
+      "slug": "camelbak-octane-22",
+      "name": "CamelBak Octane 22",
+      "categorySlug": "running-packs-vests"
+    },
+    {
+      "id": "prod-salomon-trailblazer-20",
+      "slug": "salomon-trailblazer-20",
+      "name": "Salomon Trailblazer 20",
+      "categorySlug": "running-packs-vests"
+    },
+    {
+      "id": "prod-leki-trail-running-quiver",
+      "slug": "leki-trail-running-quiver",
+      "name": "LEKI Trail Running Quiver",
+      "categorySlug": "running-packs-vests"
+    },
+    {
+      "id": "prod-salomon-soft-flask-stash",
+      "slug": "salomon-soft-flask-stash",
+      "name": "Salomon Soft Flask Stash / Pocket",
+      "categorySlug": "running-packs-vests"
+    },
+    {
+      "id": "prod-sony-linkbuds-open",
+      "slug": "sony-linkbuds-open",
+      "name": "Sony LinkBuds Open",
+      "categorySlug": "headphones"
+    },
+    {
+      "id": "prod-sony-linkbuds-fit",
+      "slug": "sony-linkbuds-fit",
+      "name": "Sony LinkBuds Fit",
+      "categorySlug": "headphones"
+    },
+    {
+      "id": "prod-jabra-elite-8-active",
+      "slug": "jabra-elite-8-active",
+      "name": "Jabra Elite 8 Active Gen 2",
+      "categorySlug": "headphones"
+    },
+    {
+      "id": "prod-jabra-elite-10",
+      "slug": "jabra-elite-10",
+      "name": "Jabra Elite 10 Gen 2",
+      "categorySlug": "headphones"
+    },
+    {
+      "id": "prod-huawei-freeclip",
+      "slug": "huawei-freeclip",
+      "name": "HUAWEI FreeClip 2",
+      "categorySlug": "headphones"
+    },
+    {
+      "id": "prod-petzl-iko-core",
+      "slug": "petzl-iko-core",
+      "name": "Petzl IKO Core",
+      "categorySlug": "running-lights"
+    },
+    {
+      "id": "prod-bd-storm-500-r",
+      "slug": "black-diamond-storm-500-r",
+      "name": "Black Diamond Storm 500-R",
+      "categorySlug": "running-lights"
+    },
+    {
+      "id": "prod-silva-smini",
+      "slug": "silva-smini",
+      "name": "Silva Smini",
+      "categorySlug": "running-lights"
+    },
+    {
+      "id": "prod-ledlenser-neo5r",
+      "slug": "ledlenser-neo5r",
+      "name": "Ledlenser NEO5R",
+      "categorySlug": "running-lights"
+    },
+    {
+      "id": "prod-nitecore-nu25",
+      "slug": "nitecore-nu25-ul",
+      "name": "NITECORE NU25 UL",
+      "categorySlug": "running-lights"
+    },
+    {
+      "id": "prod-knog-frog-v3",
+      "slug": "knog-frog-v3",
+      "name": "Knog Frog V3 Twin Pack",
+      "categorySlug": "safety-gear"
+    },
+    {
+      "id": "prod-knog-cobber-mid",
+      "slug": "knog-cobber-mid",
+      "name": "Knog Cobber Mid",
+      "categorySlug": "safety-gear"
+    },
+    {
+      "id": "prod-nightrunner-270",
+      "slug": "night-runner-270",
+      "name": "Night Runner 270 Shoe Lights",
+      "categorySlug": "safety-gear"
+    },
+    {
+      "id": "prod-nathan-strobe",
+      "slug": "nathan-lux-strobe-rx",
+      "name": "Nathan Lux Strobe RX",
+      "categorySlug": "safety-gear"
+    },
+    {
+      "id": "prod-road-id-wrist",
+      "slug": "road-id-wrist-id",
+      "name": "Road ID Wrist ID",
+      "categorySlug": "safety-gear"
+    },
+    {
+      "id": "prod-shes-birdie-alarm",
+      "slug": "shes-birdie-personal-alarm",
+      "name": "She's Birdie Personal Safety Alarm",
+      "categorySlug": "safety-gear"
+    },
+    {
+      "id": "prod-flipbelt-zippered-reflective",
+      "slug": "flipbelt-zipper-reflective",
+      "name": "FlipBelt Zipper Reflective",
+      "categorySlug": "safety-gear"
+    },
+    {
+      "id": "prod-renpho-r3",
+      "slug": "renpho-r3",
+      "name": "RENPHO R3 Massage Gun",
+      "categorySlug": "recovery"
+    },
+    {
+      "id": "prod-opove-m3-pro",
+      "slug": "opove-m3-pro",
+      "name": "OPOVE M3 Pro Massage Gun",
+      "categorySlug": "recovery"
+    },
+    {
+      "id": "prod-timtam-power-massager-v3.7",
+      "slug": "timtam-power-massager-v3-7",
+      "name": "TimTam Power Massager V3.7",
+      "categorySlug": "recovery"
+    },
+    {
+      "id": "prod-rumbleroller-original",
+      "slug": "rumbleroller-original",
+      "name": "RumbleRoller Original",
+      "categorySlug": "recovery"
+    },
+    {
+      "id": "prod-triggerpoint-mb1",
+      "slug": "triggerpoint-mb1",
+      "name": "TriggerPoint MB1 Massage Ball",
+      "categorySlug": "recovery"
+    },
+    {
+      "id": "prod-triggerpoint-mbx",
+      "slug": "triggerpoint-mbx",
+      "name": "TriggerPoint MBX Massage Ball",
+      "categorySlug": "recovery"
+    },
+    {
+      "id": "prod-rad-atom",
+      "slug": "rad-atom",
+      "name": "RAD Atom",
+      "categorySlug": "recovery"
+    },
+    {
+      "id": "prod-therabody-recoveryair",
+      "slug": "therabody-recoveryair",
+      "name": "Therabody RecoveryAir",
+      "categorySlug": "recovery"
+    },
+    {
+      "id": "prod-oofos-oocandoo",
+      "slug": "oofos-oocandoo",
+      "name": "OOFOS OOcandoo",
+      "categorySlug": "recovery"
+    },
+    {
+      "id": "prod-compressport-r2",
+      "slug": "compressport-r2",
+      "name": "Compressport R2 Calf Sleeves",
+      "categorySlug": "recovery"
+    },
+    {
+      "id": "prod-2xu-refresh-recovery",
+      "slug": "2xu-refresh-recovery-tights",
+      "name": "2XU Refresh Recovery Tights",
+      "categorySlug": "recovery"
+    },
+    {
+      "id": "prod-the-stick",
+      "slug": "the-stick",
+      "name": "The Stick",
+      "categorySlug": "recovery"
+    },
+    {
+      "id": "prod-triggerpoint-stp",
+      "slug": "triggerpoint-stp",
+      "name": "TriggerPoint STP Massage Stick",
+      "categorySlug": "recovery"
+    },
+    {
+      "id": "prod-stance-run-crew",
+      "slug": "stance-run-crew",
+      "name": "Stance Run Crew",
+      "categorySlug": "running-socks"
+    },
+    {
+      "id": "prod-nite-ize-radiant-clip",
+      "slug": "nite-ize-radiant-rechargeable-clip-light",
+      "name": "Nite Ize Radiant Rechargeable Clip Light",
+      "categorySlug": "safety-gear"
+    },
+    {
+      "id": "prod-compressport-armforce",
+      "slug": "compressport-armforce",
+      "name": "Compressport ArmForce Ultralight Arm Sleeves",
+      "categorySlug": "accessories"
+    },
+    {
+      "id": "prod-amphipod-reflective-armband",
+      "slug": "amphipod-reflective-armband",
+      "name": "Amphipod Reflective Armband",
+      "categorySlug": "accessories"
+    },
+    {
+      "id": "prod-dirty-girl-gaiters",
+      "slug": "dirty-girl-gaiters",
+      "name": "Dirty Girl Gaiters",
+      "categorySlug": "accessories"
+    },
+    {
+      "id": "prod-outdoor-research-ferrosi-gaiters",
+      "slug": "outdoor-research-ferrosi-gaiters",
+      "name": "Outdoor Research Ferrosi Thru Gaiters",
+      "categorySlug": "accessories"
+    },
+    {
+      "id": "prod-amphipod-airflow-armband",
+      "slug": "amphipod-airflow-armband",
+      "name": "Amphipod AirFlow Phone Armband",
+      "categorySlug": "accessories"
+    }
+  ],
+  "notes": [
+    "Removed bad-quality registrations: camelbak-octane-22 (180px logo), hydrapak-shape-shift-15 (OG banner), kiprun-trail-10 (wrong brand Quechua), styrkr-mix90 duplicate of gel30 (re-fetched authentic MIX90), various OG/404/banner false positives.",
+    "Nutrition: spring-awesome-sauce + styrkr-mix90 both registered with authentic packshots.",
+    "Clothing left untouched. Padel/tennis string/shoe misses from pass scripts ignored except incidental."
+  ],
+  "scriptRuns": [
+    "batch-fetch-draft-accessory-media.mjs (OK 19 / FAIL 65 — many already present)",
+    "fetch-hydration-draft-media.mjs (6/20)",
+    "fetch-sunglasses-nutrition-media.mjs (OK 49 / FAIL 6; later repaired spring+styrkr)",
+    "fetch-draft-remaining-pass6.mjs (0 targets)",
+    "fetch-draft-remaining-pass5.mjs (1 new, later quality-scrubbed shape-shift)",
+    "fetch-draft-remaining-pass4.mjs (7 new; 2 quality-scrubbed)",
+    "fetch-draft-shoes-packs-hydration.mjs (mostly already covered / fails)",
+    "manual repair/scrape wave for authentic remotes"
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "asOf": "2026-09-06",
+  "rows": [
+    {
+      "kind": "product",
+      "published": 623,
+      "INDEXABLE": 248,
+      "PUBLIC_NOINDEX": 119,
+      "HIDDEN_404": 256
+    },
+    {
+      "kind": "review",
+      "published": 503,
+      "INDEXABLE": 225,
+      "PUBLIC_NOINDEX": 60,
+      "HIDDEN_404": 218
+    },
+    {
+      "kind": "best-guide",
+      "published": 58,
+      "INDEXABLE": 18,
+      "PUBLIC_NOINDEX": 26,
+      "HIDDEN_404": 14
+    },
+    {
+      "kind": "buying-guide",
+      "published": 68,
+      "INDEXABLE": 41,
+      "PUBLIC_NOINDEX": 0,
+      "HIDDEN_404": 27
+    },
+    {
+      "kind": "comparison",
+      "published": 102,
+      "INDEXABLE": 69,
+      "PUBLIC_NOINDEX": 0,
+      "HIDDEN_404": 33
+    },
+    {
+      "kind": "setup",
+      "published": 16,
+      "INDEXABLE": 5,
+      "PUBLIC_NOINDEX": 0,
+      "HIDDEN_404": 11
+    },
+    {
+      "kind": "tool",
+      "published": 25,
+      "INDEXABLE": 25,
+      "PUBLIC_NOINDEX": 0,
+      "HIDDEN_404": 0
+    },
+    {
+      "kind": "sport",
+      "published": 10,
+      "INDEXABLE": 1,
+      "PUBLIC_NOINDEX": 8,
+      "HIDDEN_404": 1
+    },
+    {
+      "kind": "brand",
+      "published": 191,
+      "INDEXABLE": 103,
+      "PUBLIC_NOINDEX": 0,
+      "HIDDEN_404": 88
+    }
+  ],
+  "totals": {
+    "published": 1596,
+    "INDEXABLE": 735,
+    "PUBLIC_NOINDEX": 213,
+    "HIDDEN_404": 648
+  }
+}

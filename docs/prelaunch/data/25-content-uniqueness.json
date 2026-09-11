@@ -1,0 +1,2720 @@
+{
+  "generatedAt": "2026-09-09T21:28:06.599Z",
+  "summary": {
+    "totals": {
+      "NEEDS_DIFFERENTIATION": 499,
+      "TEMPLATE_SIMILAR_ACCEPTABLE": 117,
+      "DUPLICATIVE": 20,
+      "GENUINELY_UNIQUE": 792
+    },
+    "reviews": {
+      "NEEDS_DIFFERENTIATION": 499,
+      "TEMPLATE_SIMILAR_ACCEPTABLE": 28,
+      "DUPLICATIVE": 20,
+      "GENUINELY_UNIQUE": 38
+    },
+    "products": {
+      "GENUINELY_UNIQUE": 593,
+      "TEMPLATE_SIMILAR_ACCEPTABLE": 30
+    },
+    "bestGuides": {
+      "GENUINELY_UNIQUE": 20,
+      "TEMPLATE_SIMILAR_ACCEPTABLE": 38
+    },
+    "buyingGuides": {
+      "GENUINELY_UNIQUE": 68
+    },
+    "comparisons": {
+      "GENUINELY_UNIQUE": 73,
+      "TEMPLATE_SIMILAR_ACCEPTABLE": 21
+    },
+    "day1ReviewHolds": 383,
+    "duplicativeReviews": 20,
+    "needsDifferentiationReviews": 499
+  },
+  "topReviewPairs": [
+    {
+      "a": "goodr-ogs",
+      "b": "julbo-aerolite",
+      "score": 0.822,
+      "sharedParagraphs": 0
+    },
+    {
+      "a": "oakley-flak-2-0-xl",
+      "b": "tifosi-rail",
+      "score": 0.813,
+      "sharedParagraphs": 0
+    },
+    {
+      "a": "oakley-encoder",
+      "b": "oakley-radar-ev-path",
+      "score": 0.804,
+      "sharedParagraphs": 2
+    },
+    {
+      "a": "smith-shift-mag",
+      "b": "tifosi-vogel",
+      "score": 0.799,
+      "sharedParagraphs": 1
+    },
+    {
+      "a": "julbo-rush",
+      "b": "oakley-sutro-lite",
+      "score": 0.795,
+      "sharedParagraphs": 0
+    },
+    {
+      "a": "oakley-radar-ev-path",
+      "b": "roka-phantom-air",
+      "score": 0.774,
+      "sharedParagraphs": 3
+    },
+    {
+      "a": "smith-attack-mag",
+      "b": "tifosi-rail",
+      "score": 0.768,
+      "sharedParagraphs": 0
+    },
+    {
+      "a": "goodr-circle-gs",
+      "b": "julbo-rush",
+      "score": 0.761,
+      "sharedParagraphs": 0
+    },
+    {
+      "a": "oakley-flak-2-0-xl",
+      "b": "smith-attack-mag",
+      "score": 0.761,
+      "sharedParagraphs": 0
+    },
+    {
+      "a": "goodr-circle-gs",
+      "b": "tifosi-rail",
+      "score": 0.76,
+      "sharedParagraphs": 0
+    },
+    {
+      "a": "rudy-project-cutline",
+      "b": "tifosi-vogel",
+      "score": 0.752,
+      "sharedParagraphs": 0
+    },
+    {
+      "a": "goodr-circle-gs",
+      "b": "oakley-flak-2-0-xl",
+      "score": 0.747,
+      "sharedParagraphs": 2
+    },
+    {
+      "a": "oakley-kato",
+      "b": "oakley-radar-ev-path",
+      "score": 0.746,
+      "sharedParagraphs": 1
+    },
+    {
+      "a": "roka-phantom-air",
+      "b": "tifosi-vogel",
+      "score": 0.746,
+      "sharedParagraphs": 0
+    },
+    {
+      "a": "goodr-ogs",
+      "b": "oakley-kato",
+      "score": 0.74,
+      "sharedParagraphs": 0
+    },
+    {
+      "a": "oakley-encoder",
+      "b": "oakley-kato",
+      "score": 0.739,
+      "sharedParagraphs": 0
+    },
+    {
+      "a": "roka-phantom-air",
+      "b": "smith-shift-mag",
+      "score": 0.738,
+      "sharedParagraphs": 1
+    },
+    {
+      "a": "goodr-ogs",
+      "b": "smith-attack-mag",
+      "score": 0.733,
+      "sharedParagraphs": 0
+    },
+    {
+      "a": "goodr-ogs",
+      "b": "tifosi-rail",
+      "score": 0.733,
+      "sharedParagraphs": 1
+    },
+    {
+      "a": "goodr-circle-gs",
+      "b": "oakley-sutro-lite",
+      "score": 0.732,
+      "sharedParagraphs": 0
+    },
+    {
+      "a": "julbo-rush",
+      "b": "oakley-flak-2-0-xl",
+      "score": 0.731,
+      "sharedParagraphs": 0
+    },
+    {
+      "a": "oakley-encoder",
+      "b": "roka-phantom-air",
+      "score": 0.731,
+      "sharedParagraphs": 1
+    },
+    {
+      "a": "oakley-encoder",
+      "b": "tifosi-vogel",
+      "score": 0.729,
+      "sharedParagraphs": 1
+    },
+    {
+      "a": "oakley-sutro-lite",
+      "b": "smith-shift-mag",
+      "score": 0.727,
+      "sharedParagraphs": 0
+    },
+    {
+      "a": "100-percent-s3",
+      "b": "tifosi-vogel",
+      "score": 0.724,
+      "sharedParagraphs": 1
+    },
+    {
+      "a": "julbo-rush",
+      "b": "tifosi-rail",
+      "score": 0.723,
+      "sharedParagraphs": 2
+    },
+    {
+      "a": "julbo-aerolite",
+      "b": "roka-phantom-air",
+      "score": 0.721,
+      "sharedParagraphs": 1
+    },
+    {
+      "a": "julbo-aerolite",
+      "b": "tifosi-rail",
+      "score": 0.718,
+      "sharedParagraphs": 0
+    },
+    {
+      "a": "goodr-ogs",
+      "b": "oakley-flak-2-0-xl",
+      "score": 0.715,
+      "sharedParagraphs": 0
+    },
+    {
+      "a": "julbo-aerolite",
+      "b": "smith-attack-mag",
+      "score": 0.714,
+      "sharedParagraphs": 0
+    },
+    {
+      "a": "100-percent-s3",
+      "b": "smith-attack-mag",
+      "score": 0.712,
+      "sharedParagraphs": 1
+    },
+    {
+      "a": "oakley-sutro-lite",
+      "b": "tifosi-vogel",
+      "score": 0.708,
+      "sharedParagraphs": 1
+    },
+    {
+      "a": "100-percent-s3",
+      "b": "julbo-ultimate",
+      "score": 0.707,
+      "sharedParagraphs": 1
+    },
+    {
+      "a": "100-percent-s3",
+      "b": "tifosi-rail",
+      "score": 0.707,
+      "sharedParagraphs": 0
+    },
+    {
+      "a": "oakley-encoder",
+      "b": "rudy-project-cutline",
+      "score": 0.706,
+      "sharedParagraphs": 0
+    },
+    {
+      "a": "100-percent-s3",
+      "b": "julbo-aerolite",
+      "score": 0.705,
+      "sharedParagraphs": 0
+    },
+    {
+      "a": "goodr-ogs",
+      "b": "oakley-encoder",
+      "score": 0.704,
+      "sharedParagraphs": 0
+    },
+    {
+      "a": "oakley-radar-ev-path",
+      "b": "rudy-project-cutline",
+      "score": 0.704,
+      "sharedParagraphs": 0
+    },
+    {
+      "a": "oakley-flak-2-0-xl",
+      "b": "oakley-sutro-lite",
+      "score": 0.702,
+      "sharedParagraphs": 0
+    },
+    {
+      "a": "rudy-project-cutline",
+      "b": "smith-shift-mag",
+      "score": 0.702,
+      "sharedParagraphs": 0
+    }
+  ],
+  "topProductPairs": [
+    {
+      "a": "new-balance-fuelcell-rebel-v4",
+      "b": "new-balance-fuelcell-rebel-v5",
+      "score": 0.684,
+      "sharedParagraphs": 0
+    },
+    {
+      "a": "brooks-ghost-16",
+      "b": "brooks-ghost-18",
+      "score": 0.536,
+      "sharedParagraphs": 0
+    },
+    {
+      "a": "hydrapak-softflask-speed-500",
+      "b": "salomon-soft-flask-speed-500",
+      "score": 0.645,
+      "sharedParagraphs": 0
+    },
+    {
+      "a": "oofos-oolala",
+      "b": "oofos-ooriginal",
+      "score": 0.5,
+      "sharedParagraphs": 0
+    },
+    {
+      "a": "wilson-blade-98-v8",
+      "b": "wilson-blade-98-v9",
+      "score": 0.652,
+      "sharedParagraphs": 0
+    },
+    {
+      "a": "babolat-pure-drive-2025",
+      "b": "babolat-pure-drive-gen11",
+      "score": 0.6,
+      "sharedParagraphs": 0
+    },
+    {
+      "a": "wilson-clash-100-v2",
+      "b": "wilson-clash-100-v3",
+      "score": 0.517,
+      "sharedParagraphs": 0
+    },
+    {
+      "a": "wilson-rush-pro-4-0",
+      "b": "wilson-rush-pro-5-0",
+      "score": 0.571,
+      "sharedParagraphs": 0
+    },
+    {
+      "a": "asics-gel-resolution-9",
+      "b": "adidas-barricade-13",
+      "score": 0.5,
+      "sharedParagraphs": 0
+    },
+    {
+      "a": "nike-court-vapor-pro-3",
+      "b": "asics-solution-speed-ff-3",
+      "score": 0.5,
+      "sharedParagraphs": 0
+    },
+    {
+      "a": "inov8-f-lite-235-v3",
+      "b": "inov8-f-lite-260",
+      "score": 0.7,
+      "sharedParagraphs": 0
+    },
+    {
+      "a": "adidas-dropset-3",
+      "b": "adidas-the-total",
+      "score": 0.652,
+      "sharedParagraphs": 0
+    },
+    {
+      "a": "reebok-legacy-lifter-iii",
+      "b": "reebok-lifter-pr-iii",
+      "score": 0.619,
+      "sharedParagraphs": 0
+    },
+    {
+      "a": "nobull-trainer",
+      "b": "nobull-trainer-plus",
+      "score": 0.56,
+      "sharedParagraphs": 0
+    },
+    {
+      "a": "nobull-outwork",
+      "b": "salming-rebel",
+      "score": 0.5,
+      "sharedParagraphs": 0
+    }
+  ],
+  "topBestPairs": [
+    {
+      "a": "race-shoes",
+      "b": "carbon-plated-running-shoes",
+      "score": 0.645,
+      "sharedParagraphs": 0
+    },
+    {
+      "a": "running-watches-trail",
+      "b": "running-watches-ultra",
+      "score": 0.644,
+      "sharedParagraphs": 0
+    },
+    {
+      "a": "running-watches-beginners",
+      "b": "running-watches-budget",
+      "score": 0.639,
+      "sharedParagraphs": 0
+    },
+    {
+      "a": "adjustable-benches",
+      "b": "weight-plates",
+      "score": 0.637,
+      "sharedParagraphs": 0
+    },
+    {
+      "a": "running-watches-budget",
+      "b": "running-watches-small-wrists",
+      "score": 0.626,
+      "sharedParagraphs": 0
+    },
+    {
+      "a": "rowing-machines",
+      "b": "air-bikes",
+      "score": 0.626,
+      "sharedParagraphs": 0
+    },
+    {
+      "a": "training-shoes",
+      "b": "hyrox-shoes",
+      "score": 0.625,
+      "sharedParagraphs": 0
+    },
+    {
+      "a": "rowing-machines",
+      "b": "treadmills-for-home",
+      "score": 0.621,
+      "sharedParagraphs": 0
+    },
+    {
+      "a": "running-watches-beginners",
+      "b": "running-watches-small-wrists",
+      "score": 0.613,
+      "sharedParagraphs": 0
+    },
+    {
+      "a": "air-bikes",
+      "b": "weight-plates",
+      "score": 0.61,
+      "sharedParagraphs": 0
+    },
+    {
+      "a": "air-bikes",
+      "b": "treadmills-for-home",
+      "score": 0.606,
+      "sharedParagraphs": 0
+    },
+    {
+      "a": "power-racks",
+      "b": "adjustable-benches",
+      "score": 0.602,
+      "sharedParagraphs": 0
+    },
+    {
+      "a": "adjustable-benches",
+      "b": "air-bikes",
+      "score": 0.601,
+      "sharedParagraphs": 0
+    },
+    {
+      "a": "home-gym-equipment",
+      "b": "adjustable-benches",
+      "score": 0.6,
+      "sharedParagraphs": 0
+    },
+    {
+      "a": "hydration-vests-trail",
+      "b": "hydration-vests-ultra",
+      "score": 0.593,
+      "sharedParagraphs": 0
+    },
+    {
+      "a": "pull-up-bars",
+      "b": "adjustable-benches",
+      "score": 0.592,
+      "sharedParagraphs": 0
+    },
+    {
+      "a": "treadmills-for-home",
+      "b": "weight-plates",
+      "score": 0.592,
+      "sharedParagraphs": 0
+    },
+    {
+      "a": "power-racks",
+      "b": "weight-plates",
+      "score": 0.591,
+      "sharedParagraphs": 0
+    },
+    {
+      "a": "rowing-machines",
+      "b": "weight-plates",
+      "score": 0.591,
+      "sharedParagraphs": 0
+    },
+    {
+      "a": "adjustable-benches",
+      "b": "treadmills-for-home",
+      "score": 0.59,
+      "sharedParagraphs": 0
+    }
+  ],
+  "topGuidePairs": [],
+  "topComparisonPairs": [
+    {
+      "a": "nike-metcon-9-vs-reebok-nano-x4",
+      "b": "nike-free-metcon-6-vs-reebok-nano-x4",
+      "score": 0.717,
+      "sharedParagraphs": 0
+    },
+    {
+      "a": "reebok-nano-x4-vs-tyr-cxt-2",
+      "b": "nike-free-metcon-6-vs-reebok-nano-x4",
+      "score": 0.692,
+      "sharedParagraphs": 0
+    },
+    {
+      "a": "nike-metcon-9-vs-adidas-dropset-3",
+      "b": "adidas-dropset-3-vs-adidas-the-total",
+      "score": 0.683,
+      "sharedParagraphs": 0
+    },
+    {
+      "a": "nike-metcon-9-vs-reebok-nano-x4",
+      "b": "reebok-nano-x4-vs-tyr-cxt-2",
+      "score": 0.651,
+      "sharedParagraphs": 0
+    },
+    {
+      "a": "nike-metcon-9-vs-reebok-nano-x4",
+      "b": "nobull-trainer-vs-nike-metcon-9",
+      "score": 0.651,
+      "sharedParagraphs": 0
+    },
+    {
+      "a": "nike-metcon-9-vs-adidas-dropset-3",
+      "b": "nobull-trainer-vs-nike-metcon-9",
+      "score": 0.642,
+      "sharedParagraphs": 0
+    },
+    {
+      "a": "nobull-trainer-vs-nike-metcon-9",
+      "b": "adidas-dropset-3-vs-adidas-the-total",
+      "score": 0.642,
+      "sharedParagraphs": 0
+    },
+    {
+      "a": "reebok-nano-x4-vs-tyr-cxt-2",
+      "b": "tyr-cxt-1-vs-tyr-cxt-2",
+      "score": 0.641,
+      "sharedParagraphs": 0
+    },
+    {
+      "a": "reebok-nano-x4-vs-tyr-cxt-2",
+      "b": "inov8-f-lite-235-v3-vs-reebok-nano-x4",
+      "score": 0.64,
+      "sharedParagraphs": 0
+    },
+    {
+      "a": "nike-romaleos-5-vs-adidas-adipower-3",
+      "b": "adidas-powerlift-5-vs-nike-romaleos-5",
+      "score": 0.638,
+      "sharedParagraphs": 0
+    },
+    {
+      "a": "nike-metcon-9-vs-reebok-nano-x4",
+      "b": "nike-metcon-9-vs-adidas-dropset-3",
+      "score": 0.636,
+      "sharedParagraphs": 0
+    },
+    {
+      "a": "nike-metcon-9-vs-adidas-dropset-3",
+      "b": "puma-fuse-3-vs-ua-tribase-reign-6",
+      "score": 0.622,
+      "sharedParagraphs": 0
+    },
+    {
+      "a": "nike-metcon-9-vs-reebok-nano-x4",
+      "b": "inov8-f-lite-235-v3-vs-reebok-nano-x4",
+      "score": 0.619,
+      "sharedParagraphs": 0
+    },
+    {
+      "a": "inov8-f-lite-235-v3-vs-reebok-nano-x4",
+      "b": "nike-free-metcon-6-vs-reebok-nano-x4",
+      "score": 0.615,
+      "sharedParagraphs": 0
+    },
+    {
+      "a": "nike-metcon-9-vs-reebok-nano-x4",
+      "b": "puma-fuse-3-vs-ua-tribase-reign-6",
+      "score": 0.602,
+      "sharedParagraphs": 0
+    },
+    {
+      "a": "babolat-pure-aero-2026-vs-yonex-vcore-100-2023",
+      "b": "tyr-cxt-1-vs-tyr-cxt-2",
+      "score": 0.6,
+      "sharedParagraphs": 0
+    },
+    {
+      "a": "wilson-blade-98-v8-vs-yonex-ezone-98-2024",
+      "b": "babolat-pure-aero-2026-vs-yonex-vcore-100-2023",
+      "score": 0.594,
+      "sharedParagraphs": 0
+    },
+    {
+      "a": "asics-novablast-5-vs-brooks-ghost-16",
+      "b": "wilson-blade-98-v8-vs-yonex-ezone-98-2024",
+      "score": 0.589,
+      "sharedParagraphs": 0
+    },
+    {
+      "a": "nike-metcon-9-vs-reebok-nano-x4",
+      "b": "adidas-dropset-3-vs-adidas-the-total",
+      "score": 0.586,
+      "sharedParagraphs": 0
+    },
+    {
+      "a": "rogue-rml-390f-vs-rep-pr-4000",
+      "b": "adidas-powerlift-5-vs-nike-romaleos-5",
+      "score": 0.585,
+      "sharedParagraphs": 0
+    }
+  ],
+  "clusters": {
+    "reviewsDuplicative": [
+      {
+        "kind": "review",
+        "id": "review-gu-chews",
+        "slug": "gu-energy-chews",
+        "path": "/reviews/gu-energy-chews",
+        "categoryId": "cat-nutrition",
+        "categorySlug": "nutrition-fuel",
+        "launchQuality": "LAUNCH_READY",
+        "class": "DUPLICATIVE",
+        "maxPeerSimilarity": 0.95,
+        "scaffoldHits": 0,
+        "uniqueSignalRatio": 0.024,
+        "reasons": [
+          "repeated_audience_lists"
+        ],
+        "peerSlug": "veloforte-energy-chews"
+      },
+      {
+        "kind": "review",
+        "id": "review-veloforte-chews",
+        "slug": "veloforte-energy-chews",
+        "path": "/reviews/veloforte-energy-chews",
+        "categoryId": "cat-nutrition",
+        "categorySlug": "nutrition-fuel",
+        "launchQuality": "DUPLICATIVE",
+        "class": "DUPLICATIVE",
+        "maxPeerSimilarity": 0.95,
+        "scaffoldHits": 0,
+        "uniqueSignalRatio": 0.018,
+        "reasons": [
+          "repeated_audience_lists"
+        ],
+        "peerSlug": "gu-energy-chews"
+      },
+      {
+        "kind": "review",
+        "id": "review-inov8-flite-260",
+        "slug": "inov8-f-lite-260",
+        "path": "/reviews/inov8-f-lite-260",
+        "categoryId": "cat-training-shoes",
+        "categorySlug": "training-shoes",
+        "launchQuality": "DUPLICATIVE",
+        "class": "DUPLICATIVE",
+        "maxPeerSimilarity": 0.95,
+        "scaffoldHits": 0,
+        "uniqueSignalRatio": 0.022,
+        "reasons": [
+          "repeated_audience_lists"
+        ],
+        "peerSlug": "inov8-f-lite-235-v3"
+      },
+      {
+        "kind": "review",
+        "id": "review-tyr-cxt-1",
+        "slug": "tyr-cxt-1",
+        "path": "/reviews/tyr-cxt-1",
+        "categoryId": "cat-training-shoes",
+        "categorySlug": "training-shoes",
+        "launchQuality": "DUPLICATIVE",
+        "class": "DUPLICATIVE",
+        "maxPeerSimilarity": 0.95,
+        "scaffoldHits": 0,
+        "uniqueSignalRatio": 0.023,
+        "reasons": [
+          "repeated_audience_lists",
+          "high_body_similarity"
+        ],
+        "peerSlug": "tyr-cxt1-trainer"
+      },
+      {
+        "kind": "review",
+        "id": "review-tyr-cxt1-trainer",
+        "slug": "tyr-cxt1-trainer",
+        "path": "/reviews/tyr-cxt1-trainer",
+        "categoryId": "cat-training-shoes",
+        "categorySlug": "training-shoes",
+        "launchQuality": "DUPLICATIVE",
+        "class": "DUPLICATIVE",
+        "maxPeerSimilarity": 0.95,
+        "scaffoldHits": 0,
+        "uniqueSignalRatio": 0.027,
+        "reasons": [
+          "repeated_audience_lists",
+          "high_body_similarity"
+        ],
+        "peerSlug": "tyr-cxt-1"
+      },
+      {
+        "kind": "review",
+        "id": "review-cumulus-27",
+        "slug": "asics-gel-cumulus-27",
+        "path": "/reviews/asics-gel-cumulus-27",
+        "categoryId": "cat-running-shoes",
+        "categorySlug": "running-shoes",
+        "launchQuality": "DUPLICATIVE",
+        "class": "DUPLICATIVE",
+        "maxPeerSimilarity": 0.95,
+        "scaffoldHits": 0,
+        "uniqueSignalRatio": 0.086,
+        "reasons": [
+          "repeated_audience_lists",
+          "high_body_similarity"
+        ],
+        "peerSlug": "asics-gel-nimbus-27"
+      },
+      {
+        "kind": "review",
+        "id": "review-nimbus-27",
+        "slug": "asics-gel-nimbus-27",
+        "path": "/reviews/asics-gel-nimbus-27",
+        "categoryId": "cat-running-shoes",
+        "categorySlug": "running-shoes",
+        "launchQuality": "DUPLICATIVE",
+        "class": "DUPLICATIVE",
+        "maxPeerSimilarity": 0.95,
+        "scaffoldHits": 0,
+        "uniqueSignalRatio": 0.086,
+        "reasons": [
+          "repeated_audience_lists",
+          "high_body_similarity"
+        ],
+        "peerSlug": "new-balance-fuelcell-rebel-v5"
+      },
+      {
+        "kind": "review",
+        "id": "review-rebel-v5",
+        "slug": "new-balance-fuelcell-rebel-v5",
+        "path": "/reviews/new-balance-fuelcell-rebel-v5",
+        "categoryId": "cat-running-shoes",
+        "categorySlug": "running-shoes",
+        "launchQuality": "DUPLICATIVE",
+        "class": "DUPLICATIVE",
+        "maxPeerSimilarity": 0.95,
+        "scaffoldHits": 0,
+        "uniqueSignalRatio": 0.061,
+        "reasons": [
+          "repeated_audience_lists",
+          "high_body_similarity"
+        ],
+        "peerSlug": "asics-gel-nimbus-27"
+      },
+      {
+        "kind": "review",
+        "id": "review-adidas-barricade-13",
+        "slug": "adidas-barricade-13",
+        "path": "/reviews/adidas-barricade-13",
+        "categoryId": "cat-tennis-shoes",
+        "categorySlug": "tennis-shoes",
+        "launchQuality": "DUPLICATIVE",
+        "class": "DUPLICATIVE",
+        "maxPeerSimilarity": 0.95,
+        "scaffoldHits": 0,
+        "uniqueSignalRatio": 0.028,
+        "reasons": [
+          "repeated_audience_lists",
+          "high_body_similarity"
+        ],
+        "peerSlug": "asics-gel-resolution-9"
+      },
+      {
+        "kind": "review",
+        "id": "review-head-coello-pro",
+        "slug": "head-coello-pro-2026",
+        "path": "/reviews/head-coello-pro-2026",
+        "categoryId": "cat-padel-rackets",
+        "categorySlug": "padel-rackets",
+        "launchQuality": "DUPLICATIVE",
+        "class": "DUPLICATIVE",
+        "maxPeerSimilarity": 0.95,
+        "scaffoldHits": 0,
+        "uniqueSignalRatio": 0.027,
+        "reasons": [
+          "repeated_audience_lists",
+          "high_body_similarity"
+        ],
+        "peerSlug": "lok-maxx-flow"
+      },
+      {
+        "kind": "review",
+        "id": "review-lok-maxx-flow",
+        "slug": "lok-maxx-flow",
+        "path": "/reviews/lok-maxx-flow",
+        "categoryId": "cat-padel-rackets",
+        "categorySlug": "padel-rackets",
+        "launchQuality": "DUPLICATIVE",
+        "class": "DUPLICATIVE",
+        "maxPeerSimilarity": 0.95,
+        "scaffoldHits": 0,
+        "uniqueSignalRatio": 0.041,
+        "reasons": [
+          "repeated_audience_lists",
+          "high_body_similarity"
+        ],
+        "peerSlug": "head-coello-pro-2026"
+      },
+      {
+        "kind": "review",
+        "id": "review-tracksmith-session-short-women",
+        "slug": "tracksmith-session-short-women",
+        "path": "/reviews/tracksmith-session-short-women",
+        "categoryId": "cat-running-clothing",
+        "categorySlug": "running-clothing",
+        "launchQuality": "DUPLICATIVE",
+        "class": "DUPLICATIVE",
+        "maxPeerSimilarity": 0.95,
+        "scaffoldHits": 0,
+        "uniqueSignalRatio": 0.013,
+        "reasons": [
+          "repeated_audience_lists",
+          "high_body_similarity"
+        ],
+        "peerSlug": "tracksmith-session-short-men"
+      },
+      {
+        "kind": "review",
+        "id": "review-oofos-oolala",
+        "slug": "oofos-oolala",
+        "path": "/reviews/oofos-oolala",
+        "categoryId": "cat-recovery-gear",
+        "categorySlug": "recovery",
+        "launchQuality": "DUPLICATIVE",
+        "class": "DUPLICATIVE",
+        "maxPeerSimilarity": 0.95,
+        "scaffoldHits": 0,
+        "uniqueSignalRatio": 0.031,
+        "reasons": [
+          "repeated_audience_lists"
+        ],
+        "peerSlug": "oofos-ooriginal"
+      },
+      {
+        "kind": "review",
+        "id": "review-oofos-ooriginal",
+        "slug": "oofos-ooriginal",
+        "path": "/reviews/oofos-ooriginal",
+        "categoryId": "cat-recovery-gear",
+        "categorySlug": "recovery",
+        "launchQuality": "DUPLICATIVE",
+        "class": "DUPLICATIVE",
+        "maxPeerSimilarity": 0.95,
+        "scaffoldHits": 0,
+        "uniqueSignalRatio": 0.029,
+        "reasons": [
+          "repeated_audience_lists"
+        ],
+        "peerSlug": "oofos-oolala"
+      },
+      {
+        "kind": "review",
+        "id": "review-rogue-echo-kb",
+        "slug": "rogue-echo-kettlebell",
+        "path": "/reviews/rogue-echo-kettlebell",
+        "categoryId": "cat-kettlebells",
+        "categorySlug": "kettlebells",
+        "launchQuality": "DUPLICATIVE",
+        "class": "DUPLICATIVE",
+        "maxPeerSimilarity": 0.926,
+        "scaffoldHits": 0,
+        "uniqueSignalRatio": 0.008,
+        "reasons": [
+          "high_body_similarity"
+        ],
+        "peerSlug": "rogue-kettlebell"
+      },
+      {
+        "kind": "review",
+        "id": "review-rogue-kettlebell",
+        "slug": "rogue-kettlebell",
+        "path": "/reviews/rogue-kettlebell",
+        "categoryId": "cat-kettlebells",
+        "categorySlug": "kettlebells",
+        "launchQuality": "DUPLICATIVE",
+        "class": "DUPLICATIVE",
+        "maxPeerSimilarity": 0.926,
+        "scaffoldHits": 0,
+        "uniqueSignalRatio": 0.009,
+        "reasons": [
+          "high_body_similarity"
+        ],
+        "peerSlug": "rogue-echo-kettlebell"
+      },
+      {
+        "kind": "review",
+        "id": "review-bullpadel-hack-03",
+        "slug": "bullpadel-hack-03",
+        "path": "/reviews/bullpadel-hack-03",
+        "categoryId": "cat-padel-rackets",
+        "categorySlug": "padel-rackets",
+        "launchQuality": "DUPLICATIVE",
+        "class": "DUPLICATIVE",
+        "maxPeerSimilarity": 0.913,
+        "scaffoldHits": 0,
+        "uniqueSignalRatio": 0.05,
+        "reasons": [
+          "high_body_similarity"
+        ],
+        "peerSlug": "bullpadel-vertex-04"
+      },
+      {
+        "kind": "review",
+        "id": "review-bullpadel-vertex-04",
+        "slug": "bullpadel-vertex-04",
+        "path": "/reviews/bullpadel-vertex-04",
+        "categoryId": "cat-padel-rackets",
+        "categorySlug": "padel-rackets",
+        "launchQuality": "DUPLICATIVE",
+        "class": "DUPLICATIVE",
+        "maxPeerSimilarity": 0.913,
+        "scaffoldHits": 0,
+        "uniqueSignalRatio": 0.042,
+        "reasons": [
+          "high_body_similarity"
+        ],
+        "peerSlug": "bullpadel-hack-03"
+      },
+      {
+        "kind": "review",
+        "id": "review-rep-colorado",
+        "slug": "rep-colorado-bar",
+        "path": "/reviews/rep-colorado-bar",
+        "categoryId": "cat-barbells",
+        "categorySlug": "barbells",
+        "launchQuality": "DUPLICATIVE",
+        "class": "DUPLICATIVE",
+        "maxPeerSimilarity": 0.904,
+        "scaffoldHits": 0,
+        "uniqueSignalRatio": 0.013,
+        "reasons": [
+          "high_body_similarity"
+        ],
+        "peerSlug": "rogue-ohio-power-bar"
+      },
+      {
+        "kind": "review",
+        "id": "review-rogue-ohio-power",
+        "slug": "rogue-ohio-power-bar",
+        "path": "/reviews/rogue-ohio-power-bar",
+        "categoryId": "cat-barbells",
+        "categorySlug": "barbells",
+        "launchQuality": "DUPLICATIVE",
+        "class": "DUPLICATIVE",
+        "maxPeerSimilarity": 0.904,
+        "scaffoldHits": 0,
+        "uniqueSignalRatio": 0.047,
+        "reasons": [
+          "high_body_similarity"
+        ],
+        "peerSlug": "rep-colorado-bar"
+      }
+    ],
+    "reviewsNeedsDiff": [
+      {
+        "kind": "review",
+        "id": "review-wave-rebellion-pro-3",
+        "slug": "mizuno-wave-rebellion-pro-3",
+        "path": "/reviews/mizuno-wave-rebellion-pro-3",
+        "categoryId": "cat-running-shoes",
+        "categorySlug": "running-shoes",
+        "launchQuality": "DUPLICATIVE",
+        "class": "NEEDS_DIFFERENTIATION",
+        "maxPeerSimilarity": 0.899,
+        "scaffoldHits": 0,
+        "uniqueSignalRatio": 0.109,
+        "reasons": [
+          "high_body_similarity"
+        ],
+        "peerSlug": "saucony-endorphin-pro-4"
+      },
+      {
+        "kind": "review",
+        "id": "review-endorphin-pro-4",
+        "slug": "saucony-endorphin-pro-4",
+        "path": "/reviews/saucony-endorphin-pro-4",
+        "categoryId": "cat-running-shoes",
+        "categorySlug": "running-shoes",
+        "launchQuality": "DUPLICATIVE",
+        "class": "NEEDS_DIFFERENTIATION",
+        "maxPeerSimilarity": 0.899,
+        "scaffoldHits": 0,
+        "uniqueSignalRatio": 0.102,
+        "reasons": [
+          "high_body_similarity"
+        ],
+        "peerSlug": "mizuno-wave-rebellion-pro-3"
+      },
+      {
+        "kind": "review",
+        "id": "review-mirafit-folding-rower",
+        "slug": "mirafit-folding-rower",
+        "path": "/reviews/mirafit-folding-rower",
+        "categoryId": "cat-rowing-machines",
+        "categorySlug": "rowing-machines",
+        "launchQuality": "DUPLICATIVE",
+        "class": "NEEDS_DIFFERENTIATION",
+        "maxPeerSimilarity": 0.897,
+        "scaffoldHits": 0,
+        "uniqueSignalRatio": 0.023,
+        "reasons": [
+          "high_body_similarity"
+        ],
+        "peerSlug": "mirafit-magnetic-rower"
+      },
+      {
+        "kind": "review",
+        "id": "review-mirafit-rower",
+        "slug": "mirafit-magnetic-rower",
+        "path": "/reviews/mirafit-magnetic-rower",
+        "categoryId": "cat-rowing-machines",
+        "categorySlug": "rowing-machines",
+        "launchQuality": "DUPLICATIVE",
+        "class": "NEEDS_DIFFERENTIATION",
+        "maxPeerSimilarity": 0.897,
+        "scaffoldHits": 0,
+        "uniqueSignalRatio": 0.023,
+        "reasons": [
+          "high_body_similarity"
+        ],
+        "peerSlug": "mirafit-folding-rower"
+      },
+      {
+        "kind": "review",
+        "id": "review-hoka-transport",
+        "slug": "hoka-transport",
+        "path": "/reviews/hoka-transport",
+        "categoryId": "cat-training-shoes",
+        "categorySlug": "training-shoes",
+        "launchQuality": "DUPLICATIVE",
+        "class": "NEEDS_DIFFERENTIATION",
+        "maxPeerSimilarity": 0.891,
+        "scaffoldHits": 0,
+        "uniqueSignalRatio": 0.016,
+        "reasons": [
+          "repeated_audience_lists",
+          "high_body_similarity"
+        ],
+        "peerSlug": "asics-gel-quantum-360-8"
+      },
+      {
+        "kind": "review",
+        "id": "review-forerunner-55",
+        "slug": "garmin-forerunner-55",
+        "path": "/reviews/garmin-forerunner-55",
+        "categoryId": "cat-gps-watches",
+        "categorySlug": "gps-watches",
+        "launchQuality": "DUPLICATIVE",
+        "class": "NEEDS_DIFFERENTIATION",
+        "maxPeerSimilarity": 0.891,
+        "scaffoldHits": 0,
+        "uniqueSignalRatio": 0.06,
+        "reasons": [
+          "repeated_audience_lists"
+        ],
+        "peerSlug": "garmin-forerunner-255"
+      },
+      {
+        "kind": "review",
+        "id": "review-assault-elite",
+        "slug": "assaultbike-elite",
+        "path": "/reviews/assaultbike-elite",
+        "categoryId": "cat-air-bikes",
+        "categorySlug": "air-bikes",
+        "launchQuality": "DUPLICATIVE",
+        "class": "NEEDS_DIFFERENTIATION",
+        "maxPeerSimilarity": 0.887,
+        "scaffoldHits": 0,
+        "uniqueSignalRatio": 0.024,
+        "reasons": [
+          "repeated_audience_lists",
+          "high_body_similarity"
+        ],
+        "peerSlug": "rogue-echo-bike"
+      },
+      {
+        "kind": "review",
+        "id": "review-rogue-echo-bike",
+        "slug": "rogue-echo-bike",
+        "path": "/reviews/rogue-echo-bike",
+        "categoryId": "cat-air-bikes",
+        "categorySlug": "air-bikes",
+        "launchQuality": "DUPLICATIVE",
+        "class": "NEEDS_DIFFERENTIATION",
+        "maxPeerSimilarity": 0.887,
+        "scaffoldHits": 0,
+        "uniqueSignalRatio": 0.029,
+        "reasons": [
+          "repeated_audience_lists",
+          "high_body_similarity"
+        ],
+        "peerSlug": "assaultbike-elite"
+      },
+      {
+        "kind": "review",
+        "id": "review-babolat-jet-mach-3",
+        "slug": "babolat-jet-mach-3",
+        "path": "/reviews/babolat-jet-mach-3",
+        "categoryId": "cat-tennis-shoes",
+        "categorySlug": "tennis-shoes",
+        "launchQuality": "DUPLICATIVE",
+        "class": "NEEDS_DIFFERENTIATION",
+        "maxPeerSimilarity": 0.883,
+        "scaffoldHits": 0,
+        "uniqueSignalRatio": 0.024,
+        "reasons": [
+          "high_body_similarity"
+        ],
+        "peerSlug": "wilson-rush-pro-4-0"
+      },
+      {
+        "kind": "review",
+        "id": "review-wilson-rush-pro-4",
+        "slug": "wilson-rush-pro-4-0",
+        "path": "/reviews/wilson-rush-pro-4-0",
+        "categoryId": "cat-tennis-shoes",
+        "categorySlug": "tennis-shoes",
+        "launchQuality": "DUPLICATIVE",
+        "class": "NEEDS_DIFFERENTIATION",
+        "maxPeerSimilarity": 0.883,
+        "scaffoldHits": 0,
+        "uniqueSignalRatio": 0.042,
+        "reasons": [
+          "high_body_similarity"
+        ],
+        "peerSlug": "babolat-jet-mach-3"
+      },
+      {
+        "kind": "review",
+        "id": "review-nike-metcon-9",
+        "slug": "nike-metcon-9",
+        "path": "/reviews/nike-metcon-9",
+        "categoryId": "cat-training-shoes",
+        "categorySlug": "training-shoes",
+        "launchQuality": "DUPLICATIVE",
+        "class": "NEEDS_DIFFERENTIATION",
+        "maxPeerSimilarity": 0.881,
+        "scaffoldHits": 0,
+        "uniqueSignalRatio": 0.043,
+        "reasons": [
+          "high_body_similarity"
+        ],
+        "peerSlug": "ua-tribase-reign-6"
+      },
+      {
+        "kind": "review",
+        "id": "review-ua-tribase-reign-6",
+        "slug": "ua-tribase-reign-6",
+        "path": "/reviews/ua-tribase-reign-6",
+        "categoryId": "cat-training-shoes",
+        "categorySlug": "training-shoes",
+        "launchQuality": "DUPLICATIVE",
+        "class": "NEEDS_DIFFERENTIATION",
+        "maxPeerSimilarity": 0.881,
+        "scaffoldHits": 0,
+        "uniqueSignalRatio": 0.026,
+        "reasons": [
+          "high_body_similarity"
+        ],
+        "peerSlug": "nike-metcon-9"
+      },
+      {
+        "kind": "review",
+        "id": "review-high5-energy-gel",
+        "slug": "high5-energy-gel",
+        "path": "/reviews/high5-energy-gel",
+        "categoryId": "cat-nutrition",
+        "categorySlug": "nutrition-fuel",
+        "launchQuality": "LAUNCH_READY",
+        "class": "NEEDS_DIFFERENTIATION",
+        "maxPeerSimilarity": 0.877,
+        "scaffoldHits": 0,
+        "uniqueSignalRatio": 0.034,
+        "reasons": [
+          "repeated_audience_lists"
+        ],
+        "peerSlug": "226ers-high-energy-gel"
+      },
+      {
+        "kind": "review",
+        "id": "review-babolat-sensa-women",
+        "slug": "babolat-sensa-women",
+        "path": "/reviews/babolat-sensa-women",
+        "categoryId": "cat-padel-shoes",
+        "categorySlug": "padel-shoes",
+        "launchQuality": "DUPLICATIVE",
+        "class": "NEEDS_DIFFERENTIATION",
+        "maxPeerSimilarity": 0.875,
+        "scaffoldHits": 0,
+        "uniqueSignalRatio": 0.012,
+        "reasons": [
+          "high_body_similarity"
+        ],
+        "peerSlug": "head-sprint-pro-4-padel"
+      },
+      {
+        "kind": "review",
+        "id": "review-head-sprint-pro-4-padel",
+        "slug": "head-sprint-pro-4-padel",
+        "path": "/reviews/head-sprint-pro-4-padel",
+        "categoryId": "cat-padel-shoes",
+        "categorySlug": "padel-shoes",
+        "launchQuality": "DUPLICATIVE",
+        "class": "NEEDS_DIFFERENTIATION",
+        "maxPeerSimilarity": 0.875,
+        "scaffoldHits": 0,
+        "uniqueSignalRatio": 0.016,
+        "reasons": [
+          "high_body_similarity"
+        ],
+        "peerSlug": "babolat-sensa-women"
+      },
+      {
+        "kind": "review",
+        "id": "review-kuikma-pr-soft-500",
+        "slug": "kuikma-pr-soft-500",
+        "path": "/reviews/kuikma-pr-soft-500",
+        "categoryId": "cat-padel-rackets",
+        "categorySlug": "padel-rackets",
+        "launchQuality": "DUPLICATIVE",
+        "class": "NEEDS_DIFFERENTIATION",
+        "maxPeerSimilarity": 0.875,
+        "scaffoldHits": 0,
+        "uniqueSignalRatio": 0.023,
+        "reasons": [
+          "high_body_similarity"
+        ],
+        "peerSlug": "wilson-blade-pro-v2-padel-2026"
+      },
+      {
+        "kind": "review",
+        "id": "review-wilson-blade-pro-padel",
+        "slug": "wilson-blade-pro-v2-padel-2026",
+        "path": "/reviews/wilson-blade-pro-v2-padel-2026",
+        "categoryId": "cat-padel-rackets",
+        "categorySlug": "padel-rackets",
+        "launchQuality": "DUPLICATIVE",
+        "class": "NEEDS_DIFFERENTIATION",
+        "maxPeerSimilarity": 0.875,
+        "scaffoldHits": 0,
+        "uniqueSignalRatio": 0.024,
+        "reasons": [
+          "high_body_similarity"
+        ],
+        "peerSlug": "kuikma-pr-soft-500"
+      },
+      {
+        "kind": "review",
+        "id": "review-eleiko-sport-bumper",
+        "slug": "eleiko-sport-bumper-set",
+        "path": "/reviews/eleiko-sport-bumper-set",
+        "categoryId": "cat-weight-plates",
+        "categorySlug": "weight-plates",
+        "launchQuality": "DUPLICATIVE",
+        "class": "NEEDS_DIFFERENTIATION",
+        "maxPeerSimilarity": 0.875,
+        "scaffoldHits": 0,
+        "uniqueSignalRatio": 0.018,
+        "reasons": [
+          "high_body_similarity"
+        ],
+        "peerSlug": "rep-black-bumper-plate-set"
+      },
+      {
+        "kind": "review",
+        "id": "review-rep-bumper-black",
+        "slug": "rep-black-bumper-plate-set",
+        "path": "/reviews/rep-black-bumper-plate-set",
+        "categoryId": "cat-weight-plates",
+        "categorySlug": "weight-plates",
+        "launchQuality": "DUPLICATIVE",
+        "class": "NEEDS_DIFFERENTIATION",
+        "maxPeerSimilarity": 0.875,
+        "scaffoldHits": 0,
+        "uniqueSignalRatio": 0.016,
+        "reasons": [
+          "high_body_similarity"
+        ],
+        "peerSlug": "eleiko-sport-bumper-set"
+      },
+      {
+        "kind": "review",
+        "id": "review-wave-rider-28",
+        "slug": "mizuno-wave-rider-28",
+        "path": "/reviews/mizuno-wave-rider-28",
+        "categoryId": "cat-running-shoes",
+        "categorySlug": "running-shoes",
+        "launchQuality": "DUPLICATIVE",
+        "class": "NEEDS_DIFFERENTIATION",
+        "maxPeerSimilarity": 0.873,
+        "scaffoldHits": 0,
+        "uniqueSignalRatio": 0.089,
+        "reasons": [
+          "high_body_similarity"
+        ],
+        "peerSlug": "on-cloudsurfer-next"
+      },
+      {
+        "kind": "review",
+        "id": "review-cloudsurfer-next",
+        "slug": "on-cloudsurfer-next",
+        "path": "/reviews/on-cloudsurfer-next",
+        "categoryId": "cat-running-shoes",
+        "categorySlug": "running-shoes",
+        "launchQuality": "DUPLICATIVE",
+        "class": "NEEDS_DIFFERENTIATION",
+        "maxPeerSimilarity": 0.873,
+        "scaffoldHits": 0,
+        "uniqueSignalRatio": 0.055,
+        "reasons": [
+          "high_body_similarity"
+        ],
+        "peerSlug": "mizuno-wave-rider-28"
+      },
+      {
+        "kind": "review",
+        "id": "review-adidas-adipower-weightlifting-2",
+        "slug": "adidas-adipower-weightlifting-2",
+        "path": "/reviews/adidas-adipower-weightlifting-2",
+        "categoryId": "cat-training-shoes",
+        "categorySlug": "training-shoes",
+        "launchQuality": "DUPLICATIVE",
+        "class": "NEEDS_DIFFERENTIATION",
+        "maxPeerSimilarity": 0.872,
+        "scaffoldHits": 0,
+        "uniqueSignalRatio": 0.022,
+        "reasons": [
+          "high_body_similarity"
+        ],
+        "peerSlug": "adidas-dropset-3"
+      },
+      {
+        "kind": "review",
+        "id": "review-adidas-dropset-3",
+        "slug": "adidas-dropset-3",
+        "path": "/reviews/adidas-dropset-3",
+        "categoryId": "cat-training-shoes",
+        "categorySlug": "training-shoes",
+        "launchQuality": "DUPLICATIVE",
+        "class": "NEEDS_DIFFERENTIATION",
+        "maxPeerSimilarity": 0.872,
+        "scaffoldHits": 0,
+        "uniqueSignalRatio": 0.023,
+        "reasons": [
+          "high_body_similarity"
+        ],
+        "peerSlug": "adidas-adipower-weightlifting-2"
+      },
+      {
+        "kind": "review",
+        "id": "review-dunlop-cx-200",
+        "slug": "dunlop-cx-200",
+        "path": "/reviews/dunlop-cx-200",
+        "categoryId": "cat-tennis-rackets",
+        "categorySlug": "tennis-rackets",
+        "launchQuality": "DUPLICATIVE",
+        "class": "NEEDS_DIFFERENTIATION",
+        "maxPeerSimilarity": 0.871,
+        "scaffoldHits": 0,
+        "uniqueSignalRatio": 0.04,
+        "reasons": [
+          "high_body_similarity"
+        ],
+        "peerSlug": "wilson-blade-98-v9"
+      },
+      {
+        "kind": "review",
+        "id": "review-wilson-blade-98-v9",
+        "slug": "wilson-blade-98-v9",
+        "path": "/reviews/wilson-blade-98-v9",
+        "categoryId": "cat-tennis-rackets",
+        "categorySlug": "tennis-rackets",
+        "launchQuality": "DUPLICATIVE",
+        "class": "NEEDS_DIFFERENTIATION",
+        "maxPeerSimilarity": 0.871,
+        "scaffoldHits": 0,
+        "uniqueSignalRatio": 0.064,
+        "reasons": [
+          "high_body_similarity"
+        ],
+        "peerSlug": "dunlop-cx-200"
+      },
+      {
+        "kind": "review",
+        "id": "review-head-speed-mp-2024",
+        "slug": "head-speed-mp-2024",
+        "path": "/reviews/head-speed-mp-2024",
+        "categoryId": "cat-tennis-rackets",
+        "categorySlug": "tennis-rackets",
+        "launchQuality": "DUPLICATIVE",
+        "class": "NEEDS_DIFFERENTIATION",
+        "maxPeerSimilarity": 0.868,
+        "scaffoldHits": 0,
+        "uniqueSignalRatio": 0.043,
+        "reasons": [
+          "high_body_similarity"
+        ],
+        "peerSlug": "wilson-clash-100-v2"
+      },
+      {
+        "kind": "review",
+        "id": "review-wilson-blade-98-v8",
+        "slug": "wilson-blade-98-v8",
+        "path": "/reviews/wilson-blade-98-v8",
+        "categoryId": "cat-tennis-rackets",
+        "categorySlug": "tennis-rackets",
+        "launchQuality": "DUPLICATIVE",
+        "class": "NEEDS_DIFFERENTIATION",
+        "maxPeerSimilarity": 0.868,
+        "scaffoldHits": 0,
+        "uniqueSignalRatio": 0.045,
+        "reasons": [
+          "high_body_similarity"
+        ],
+        "peerSlug": "yonex-vcore-98-2026"
+      },
+      {
+        "kind": "review",
+        "id": "review-wilson-clash-100-v2",
+        "slug": "wilson-clash-100-v2",
+        "path": "/reviews/wilson-clash-100-v2",
+        "categoryId": "cat-tennis-rackets",
+        "categorySlug": "tennis-rackets",
+        "launchQuality": "DUPLICATIVE",
+        "class": "NEEDS_DIFFERENTIATION",
+        "maxPeerSimilarity": 0.868,
+        "scaffoldHits": 0,
+        "uniqueSignalRatio": 0.038,
+        "reasons": [
+          "high_body_similarity"
+        ],
+        "peerSlug": "head-speed-mp-2024"
+      },
+      {
+        "kind": "review",
+        "id": "review-yonex-vcore-98-2026",
+        "slug": "yonex-vcore-98-2026",
+        "path": "/reviews/yonex-vcore-98-2026",
+        "categoryId": "cat-tennis-rackets",
+        "categorySlug": "tennis-rackets",
+        "launchQuality": "DUPLICATIVE",
+        "class": "NEEDS_DIFFERENTIATION",
+        "maxPeerSimilarity": 0.868,
+        "scaffoldHits": 0,
+        "uniqueSignalRatio": 0.062,
+        "reasons": [
+          "high_body_similarity"
+        ],
+        "peerSlug": "wilson-blade-98-v8"
+      },
+      {
+        "kind": "review",
+        "id": "review-nike-romaleos-4",
+        "slug": "nike-romaleos-4",
+        "path": "/reviews/nike-romaleos-4",
+        "categoryId": "cat-training-shoes",
+        "categorySlug": "training-shoes",
+        "launchQuality": "DUPLICATIVE",
+        "class": "NEEDS_DIFFERENTIATION",
+        "maxPeerSimilarity": 0.867,
+        "scaffoldHits": 0,
+        "uniqueSignalRatio": 0.085,
+        "reasons": [
+          "high_body_similarity"
+        ],
+        "peerSlug": "reebok-legacy-lifter-iii"
+      },
+      {
+        "kind": "review",
+        "id": "review-reebok-legacy-lifter-iii",
+        "slug": "reebok-legacy-lifter-iii",
+        "path": "/reviews/reebok-legacy-lifter-iii",
+        "categoryId": "cat-training-shoes",
+        "categorySlug": "training-shoes",
+        "launchQuality": "DUPLICATIVE",
+        "class": "NEEDS_DIFFERENTIATION",
+        "maxPeerSimilarity": 0.867,
+        "scaffoldHits": 0,
+        "uniqueSignalRatio": 0.022,
+        "reasons": [
+          "high_body_similarity"
+        ],
+        "peerSlug": "nike-romaleos-4"
+      },
+      {
+        "kind": "review",
+        "id": "review-atx-cast-iron-set",
+        "slug": "atx-cast-iron-plate-set",
+        "path": "/reviews/atx-cast-iron-plate-set",
+        "categoryId": "cat-weight-plates",
+        "categorySlug": "weight-plates",
+        "launchQuality": "DUPLICATIVE",
+        "class": "NEEDS_DIFFERENTIATION",
+        "maxPeerSimilarity": 0.867,
+        "scaffoldHits": 0,
+        "uniqueSignalRatio": 0.043,
+        "reasons": [
+          "high_body_similarity"
+        ],
+        "peerSlug": "rogue-echo-bumper-plate-set"
+      },
+      {
+        "kind": "review",
+        "id": "review-rogue-echo-bumper",
+        "slug": "rogue-echo-bumper-plate-set",
+        "path": "/reviews/rogue-echo-bumper-plate-set",
+        "categoryId": "cat-weight-plates",
+        "categorySlug": "weight-plates",
+        "launchQuality": "DUPLICATIVE",
+        "class": "NEEDS_DIFFERENTIATION",
+        "maxPeerSimilarity": 0.867,
+        "scaffoldHits": 0,
+        "uniqueSignalRatio": 0.024,
+        "reasons": [
+          "high_body_similarity"
+        ],
+        "peerSlug": "atx-cast-iron-plate-set"
+      },
+      {
+        "kind": "review",
+        "id": "review-puma-fuse-3",
+        "slug": "puma-fuse-3",
+        "path": "/reviews/puma-fuse-3",
+        "categoryId": "cat-training-shoes",
+        "categorySlug": "training-shoes",
+        "launchQuality": "DUPLICATIVE",
+        "class": "NEEDS_DIFFERENTIATION",
+        "maxPeerSimilarity": 0.866,
+        "scaffoldHits": 0,
+        "uniqueSignalRatio": 0.028,
+        "reasons": [
+          "high_body_similarity"
+        ],
+        "peerSlug": "tyr-cxt-2"
+      },
+      {
+        "kind": "review",
+        "id": "review-tyr-cxt-2",
+        "slug": "tyr-cxt-2",
+        "path": "/reviews/tyr-cxt-2",
+        "categoryId": "cat-training-shoes",
+        "categorySlug": "training-shoes",
+        "launchQuality": "DUPLICATIVE",
+        "class": "NEEDS_DIFFERENTIATION",
+        "maxPeerSimilarity": 0.866,
+        "scaffoldHits": 0,
+        "uniqueSignalRatio": 0.038,
+        "reasons": [
+          "high_body_similarity"
+        ],
+        "peerSlug": "puma-fuse-3"
+      },
+      {
+        "kind": "review",
+        "id": "review-inov8-fastlift-360",
+        "slug": "inov8-fastlift-360",
+        "path": "/reviews/inov8-fastlift-360",
+        "categoryId": "cat-training-shoes",
+        "categorySlug": "training-shoes",
+        "launchQuality": "DUPLICATIVE",
+        "class": "NEEDS_DIFFERENTIATION",
+        "maxPeerSimilarity": 0.865,
+        "scaffoldHits": 0,
+        "uniqueSignalRatio": 0.015,
+        "reasons": [
+          "high_body_similarity"
+        ],
+        "peerSlug": "nobull-outwork"
+      },
+      {
+        "kind": "review",
+        "id": "review-nobull-outwork",
+        "slug": "nobull-outwork",
+        "path": "/reviews/nobull-outwork",
+        "categoryId": "cat-training-shoes",
+        "categorySlug": "training-shoes",
+        "launchQuality": "DUPLICATIVE",
+        "class": "NEEDS_DIFFERENTIATION",
+        "maxPeerSimilarity": 0.865,
+        "scaffoldHits": 0,
+        "uniqueSignalRatio": 0.037,
+        "reasons": [
+          "high_body_similarity"
+        ],
+        "peerSlug": "inov8-fastlift-360"
+      },
+      {
+        "kind": "review",
+        "id": "review-asics-gel-challenger-15",
+        "slug": "asics-gel-challenger-15",
+        "path": "/reviews/asics-gel-challenger-15",
+        "categoryId": "cat-tennis-shoes",
+        "categorySlug": "tennis-shoes",
+        "launchQuality": "DUPLICATIVE",
+        "class": "NEEDS_DIFFERENTIATION",
+        "maxPeerSimilarity": 0.865,
+        "scaffoldHits": 0,
+        "uniqueSignalRatio": 0.036,
+        "reasons": [
+          "high_body_similarity"
+        ],
+        "peerSlug": "asics-gel-resolution-9"
+      },
+      {
+        "kind": "review",
+        "id": "review-asics-gel-resolution-9",
+        "slug": "asics-gel-resolution-9",
+        "path": "/reviews/asics-gel-resolution-9",
+        "categoryId": "cat-tennis-shoes",
+        "categorySlug": "tennis-shoes",
+        "launchQuality": "DUPLICATIVE",
+        "class": "NEEDS_DIFFERENTIATION",
+        "maxPeerSimilarity": 0.865,
+        "scaffoldHits": 0,
+        "uniqueSignalRatio": 0.034,
+        "reasons": [
+          "high_body_similarity"
+        ],
+        "peerSlug": "asics-gel-challenger-15"
+      },
+      {
+        "kind": "review",
+        "id": "review-forerunner-165",
+        "slug": "garmin-forerunner-165",
+        "path": "/reviews/garmin-forerunner-165",
+        "categoryId": "cat-gps-watches",
+        "categorySlug": "gps-watches",
+        "launchQuality": "DUPLICATIVE",
+        "class": "NEEDS_DIFFERENTIATION",
+        "maxPeerSimilarity": 0.864,
+        "scaffoldHits": 0,
+        "uniqueSignalRatio": 0.07,
+        "reasons": [
+          "high_body_similarity"
+        ],
+        "peerSlug": "suunto-race-s"
+      },
+      {
+        "kind": "review",
+        "id": "review-suunto-race-s",
+        "slug": "suunto-race-s",
+        "path": "/reviews/suunto-race-s",
+        "categoryId": "cat-gps-watches",
+        "categorySlug": "gps-watches",
+        "launchQuality": "DUPLICATIVE",
+        "class": "NEEDS_DIFFERENTIATION",
+        "maxPeerSimilarity": 0.864,
+        "scaffoldHits": 0,
+        "uniqueSignalRatio": 0.032,
+        "reasons": [
+          "high_body_similarity"
+        ],
+        "peerSlug": "garmin-forerunner-165"
+      },
+      {
+        "kind": "review",
+        "id": "review-nike-free-metcon-6",
+        "slug": "nike-free-metcon-6",
+        "path": "/reviews/nike-free-metcon-6",
+        "categoryId": "cat-training-shoes",
+        "categorySlug": "training-shoes",
+        "launchQuality": "DUPLICATIVE",
+        "class": "NEEDS_DIFFERENTIATION",
+        "maxPeerSimilarity": 0.862,
+        "scaffoldHits": 0,
+        "uniqueSignalRatio": 0.036,
+        "reasons": [
+          "high_body_similarity"
+        ],
+        "peerSlug": "nobull-trainer"
+      },
+      {
+        "kind": "review",
+        "id": "review-nobull-trainer",
+        "slug": "nobull-trainer",
+        "path": "/reviews/nobull-trainer",
+        "categoryId": "cat-training-shoes",
+        "categorySlug": "training-shoes",
+        "launchQuality": "DUPLICATIVE",
+        "class": "NEEDS_DIFFERENTIATION",
+        "maxPeerSimilarity": 0.862,
+        "scaffoldHits": 0,
+        "uniqueSignalRatio": 0.016,
+        "reasons": [
+          "high_body_similarity"
+        ],
+        "peerSlug": "nike-free-metcon-6"
+      },
+      {
+        "kind": "review",
+        "id": "review-asics-solution-swift-ff2-padel",
+        "slug": "asics-solution-swift-ff2-padel",
+        "path": "/reviews/asics-solution-swift-ff2-padel",
+        "categoryId": "cat-padel-shoes",
+        "categorySlug": "padel-shoes",
+        "launchQuality": "DUPLICATIVE",
+        "class": "NEEDS_DIFFERENTIATION",
+        "maxPeerSimilarity": 0.862,
+        "scaffoldHits": 0,
+        "uniqueSignalRatio": 0.014,
+        "reasons": [
+          "high_body_similarity"
+        ],
+        "peerSlug": "head-sprint-pro-4-padel"
+      },
+      {
+        "kind": "review",
+        "id": "review-janji-rainrunner-unisex",
+        "slug": "janji-rainrunner-men",
+        "path": "/reviews/janji-rainrunner-men",
+        "categoryId": "cat-running-clothing",
+        "categorySlug": "running-clothing",
+        "launchQuality": "DUPLICATIVE",
+        "class": "NEEDS_DIFFERENTIATION",
+        "maxPeerSimilarity": 0.862,
+        "scaffoldHits": 0,
+        "uniqueSignalRatio": 0.01,
+        "reasons": [
+          "high_body_similarity"
+        ],
+        "peerSlug": "salomon-bonatti-wp-men"
+      },
+      {
+        "kind": "review",
+        "id": "review-salomon-bonatti-wp-men",
+        "slug": "salomon-bonatti-wp-men",
+        "path": "/reviews/salomon-bonatti-wp-men",
+        "categoryId": "cat-running-clothing",
+        "categorySlug": "running-clothing",
+        "launchQuality": "DUPLICATIVE",
+        "class": "NEEDS_DIFFERENTIATION",
+        "maxPeerSimilarity": 0.862,
+        "scaffoldHits": 0,
+        "uniqueSignalRatio": 0.011,
+        "reasons": [
+          "high_body_similarity"
+        ],
+        "peerSlug": "janji-rainrunner-men"
+      },
+      {
+        "kind": "review",
+        "id": "review-adidas-crazyquick-boost-m",
+        "slug": "adidas-crazyquick-boost-padel",
+        "path": "/reviews/adidas-crazyquick-boost-padel",
+        "categoryId": "cat-padel-shoes",
+        "categorySlug": "padel-shoes",
+        "launchQuality": "DUPLICATIVE",
+        "class": "NEEDS_DIFFERENTIATION",
+        "maxPeerSimilarity": 0.861,
+        "scaffoldHits": 0,
+        "uniqueSignalRatio": 0.014,
+        "reasons": [
+          "high_body_similarity"
+        ],
+        "peerSlug": "head-revolt-pro-court"
+      },
+      {
+        "kind": "review",
+        "id": "review-head-revolt-pro-court",
+        "slug": "head-revolt-pro-court",
+        "path": "/reviews/head-revolt-pro-court",
+        "categoryId": "cat-padel-shoes",
+        "categorySlug": "padel-shoes",
+        "launchQuality": "DUPLICATIVE",
+        "class": "NEEDS_DIFFERENTIATION",
+        "maxPeerSimilarity": 0.861,
+        "scaffoldHits": 0,
+        "uniqueSignalRatio": 0.012,
+        "reasons": [
+          "high_body_similarity"
+        ],
+        "peerSlug": "adidas-crazyquick-boost-padel"
+      },
+      {
+        "kind": "review",
+        "id": "review-on-performance-short-men",
+        "slug": "on-performance-short-men",
+        "path": "/reviews/on-performance-short-men",
+        "categoryId": "cat-running-clothing",
+        "categorySlug": "running-clothing",
+        "launchQuality": "DUPLICATIVE",
+        "class": "NEEDS_DIFFERENTIATION",
+        "maxPeerSimilarity": 0.861,
+        "scaffoldHits": 0,
+        "uniqueSignalRatio": 0.009,
+        "reasons": [
+          "high_body_similarity"
+        ],
+        "peerSlug": "tracksmith-session-short-men"
+      },
+      {
+        "kind": "review",
+        "id": "review-tracksmith-session-short-men",
+        "slug": "tracksmith-session-short-men",
+        "path": "/reviews/tracksmith-session-short-men",
+        "categoryId": "cat-running-clothing",
+        "categorySlug": "running-clothing",
+        "launchQuality": "DUPLICATIVE",
+        "class": "NEEDS_DIFFERENTIATION",
+        "maxPeerSimilarity": 0.861,
+        "scaffoldHits": 0,
+        "uniqueSignalRatio": 0.031,
+        "reasons": [
+          "high_body_similarity"
+        ],
+        "peerSlug": "on-performance-short-men"
+      },
+      {
+        "kind": "review",
+        "id": "review-structure-26",
+        "slug": "nike-structure-26",
+        "path": "/reviews/nike-structure-26",
+        "categoryId": "cat-running-shoes",
+        "categorySlug": "running-shoes",
+        "launchQuality": "DUPLICATIVE",
+        "class": "NEEDS_DIFFERENTIATION",
+        "maxPeerSimilarity": 0.86,
+        "scaffoldHits": 0,
+        "uniqueSignalRatio": 0.075,
+        "reasons": [
+          "high_body_similarity"
+        ],
+        "peerSlug": "nike-structure-plus"
+      },
+      {
+        "kind": "review",
+        "id": "review-structure-plus",
+        "slug": "nike-structure-plus",
+        "path": "/reviews/nike-structure-plus",
+        "categoryId": "cat-running-shoes",
+        "categorySlug": "running-shoes",
+        "launchQuality": "DUPLICATIVE",
+        "class": "NEEDS_DIFFERENTIATION",
+        "maxPeerSimilarity": 0.86,
+        "scaffoldHits": 0,
+        "uniqueSignalRatio": 0.092,
+        "reasons": [
+          "high_body_similarity"
+        ],
+        "peerSlug": "nike-structure-26"
+      },
+      {
+        "kind": "review",
+        "id": "review-asics-gel-dedicate-8",
+        "slug": "asics-gel-dedicate-8",
+        "path": "/reviews/asics-gel-dedicate-8",
+        "categoryId": "cat-tennis-shoes",
+        "categorySlug": "tennis-shoes",
+        "launchQuality": "DUPLICATIVE",
+        "class": "NEEDS_DIFFERENTIATION",
+        "maxPeerSimilarity": 0.86,
+        "scaffoldHits": 0,
+        "uniqueSignalRatio": 0.034,
+        "reasons": [
+          "high_body_similarity"
+        ],
+        "peerSlug": "babolat-jet-mach-3"
+      },
+      {
+        "kind": "review",
+        "id": "review-nnormal-race-vest",
+        "slug": "nnormal-race-vest",
+        "path": "/reviews/nnormal-race-vest",
+        "categoryId": "cat-packs-vests",
+        "categorySlug": "running-packs-vests",
+        "launchQuality": "DUPLICATIVE",
+        "class": "NEEDS_DIFFERENTIATION",
+        "maxPeerSimilarity": 0.86,
+        "scaffoldHits": 0,
+        "uniqueSignalRatio": 0.062,
+        "reasons": [
+          "high_body_similarity"
+        ],
+        "peerSlug": "osprey-duro-lt"
+      },
+      {
+        "kind": "review",
+        "id": "review-osprey-duro-lt",
+        "slug": "osprey-duro-lt",
+        "path": "/reviews/osprey-duro-lt",
+        "categoryId": "cat-packs-vests",
+        "categorySlug": "running-packs-vests",
+        "launchQuality": "DUPLICATIVE",
+        "class": "NEEDS_DIFFERENTIATION",
+        "maxPeerSimilarity": 0.86,
+        "scaffoldHits": 0,
+        "uniqueSignalRatio": 0.071,
+        "reasons": [
+          "high_body_similarity"
+        ],
+        "peerSlug": "nnormal-race-vest"
+      },
+      {
+        "kind": "review",
+        "id": "review-lululemon-strongfeel",
+        "slug": "lululemon-strongfeel",
+        "path": "/reviews/lululemon-strongfeel",
+        "categoryId": "cat-training-shoes",
+        "categorySlug": "training-shoes",
+        "launchQuality": "DUPLICATIVE",
+        "class": "NEEDS_DIFFERENTIATION",
+        "maxPeerSimilarity": 0.859,
+        "scaffoldHits": 0,
+        "uniqueSignalRatio": 0.015,
+        "reasons": [
+          "high_body_similarity"
+        ],
+        "peerSlug": "nobull-trainer-plus"
+      },
+      {
+        "kind": "review",
+        "id": "review-nobull-trainer-plus",
+        "slug": "nobull-trainer-plus",
+        "path": "/reviews/nobull-trainer-plus",
+        "categoryId": "cat-training-shoes",
+        "categorySlug": "training-shoes",
+        "launchQuality": "DUPLICATIVE",
+        "class": "NEEDS_DIFFERENTIATION",
+        "maxPeerSimilarity": 0.859,
+        "scaffoldHits": 0,
+        "uniqueSignalRatio": 0.021,
+        "reasons": [
+          "high_body_similarity"
+        ],
+        "peerSlug": "lululemon-strongfeel"
+      },
+      {
+        "kind": "review",
+        "id": "review-adios-pro-4",
+        "slug": "adidas-adizero-adios-pro-4",
+        "path": "/reviews/adidas-adizero-adios-pro-4",
+        "categoryId": "cat-running-shoes",
+        "categorySlug": "running-shoes",
+        "launchQuality": "DUPLICATIVE",
+        "class": "NEEDS_DIFFERENTIATION",
+        "maxPeerSimilarity": 0.859,
+        "scaffoldHits": 0,
+        "uniqueSignalRatio": 0.128,
+        "reasons": [
+          "high_body_similarity"
+        ],
+        "peerSlug": "new-balance-fuelcell-supercomp-elite-v4"
+      },
+      {
+        "kind": "review",
+        "id": "review-sc-elite-v4",
+        "slug": "new-balance-fuelcell-supercomp-elite-v4",
+        "path": "/reviews/new-balance-fuelcell-supercomp-elite-v4",
+        "categoryId": "cat-running-shoes",
+        "categorySlug": "running-shoes",
+        "launchQuality": "DUPLICATIVE",
+        "class": "NEEDS_DIFFERENTIATION",
+        "maxPeerSimilarity": 0.859,
+        "scaffoldHits": 0,
+        "uniqueSignalRatio": 0.103,
+        "reasons": [
+          "high_body_similarity"
+        ],
+        "peerSlug": "adidas-adizero-adios-pro-4"
+      },
+      {
+        "kind": "review",
+        "id": "review-adizero-evo-sl",
+        "slug": "adidas-adizero-evo-sl",
+        "path": "/reviews/adidas-adizero-evo-sl",
+        "categoryId": "cat-running-shoes",
+        "categorySlug": "running-shoes",
+        "launchQuality": "DUPLICATIVE",
+        "class": "NEEDS_DIFFERENTIATION",
+        "maxPeerSimilarity": 0.856,
+        "scaffoldHits": 0,
+        "uniqueSignalRatio": 0.095,
+        "reasons": [
+          "high_body_similarity"
+        ],
+        "peerSlug": "saucony-triumph-22"
+      },
+      {
+        "kind": "review",
+        "id": "review-triumph-22",
+        "slug": "saucony-triumph-22",
+        "path": "/reviews/saucony-triumph-22",
+        "categoryId": "cat-running-shoes",
+        "categorySlug": "running-shoes",
+        "launchQuality": "DUPLICATIVE",
+        "class": "NEEDS_DIFFERENTIATION",
+        "maxPeerSimilarity": 0.856,
+        "scaffoldHits": 0,
+        "uniqueSignalRatio": 0.06,
+        "reasons": [
+          "high_body_similarity"
+        ],
+        "peerSlug": "adidas-adizero-evo-sl"
+      },
+      {
+        "kind": "review",
+        "id": "review-inov8-fastlift-400",
+        "slug": "inov8-fastlift-400",
+        "path": "/reviews/inov8-fastlift-400",
+        "categoryId": "cat-training-shoes",
+        "categorySlug": "training-shoes",
+        "launchQuality": "DUPLICATIVE",
+        "class": "NEEDS_DIFFERENTIATION",
+        "maxPeerSimilarity": 0.855,
+        "scaffoldHits": 0,
+        "uniqueSignalRatio": 0.025,
+        "reasons": [
+          "high_body_similarity"
+        ],
+        "peerSlug": "nike-romaleos-5"
+      },
+      {
+        "kind": "review",
+        "id": "review-nike-romaleos-5",
+        "slug": "nike-romaleos-5",
+        "path": "/reviews/nike-romaleos-5",
+        "categoryId": "cat-training-shoes",
+        "categorySlug": "training-shoes",
+        "launchQuality": "DUPLICATIVE",
+        "class": "NEEDS_DIFFERENTIATION",
+        "maxPeerSimilarity": 0.855,
+        "scaffoldHits": 0,
+        "uniqueSignalRatio": 0.031,
+        "reasons": [
+          "high_body_similarity"
+        ],
+        "peerSlug": "inov8-fastlift-400"
+      },
+      {
+        "kind": "review",
+        "id": "review-asics-gel-dedicate-8-padel",
+        "slug": "asics-gel-dedicate-8-padel",
+        "path": "/reviews/asics-gel-dedicate-8-padel",
+        "categoryId": "cat-padel-shoes",
+        "categorySlug": "padel-shoes",
+        "launchQuality": "DUPLICATIVE",
+        "class": "NEEDS_DIFFERENTIATION",
+        "maxPeerSimilarity": 0.855,
+        "scaffoldHits": 0,
+        "uniqueSignalRatio": 0.012,
+        "reasons": [
+          "high_body_similarity"
+        ],
+        "peerSlug": "asics-gel-resolution-padel"
+      },
+      {
+        "kind": "review",
+        "id": "review-asics-gel-resolution-padel",
+        "slug": "asics-gel-resolution-padel",
+        "path": "/reviews/asics-gel-resolution-padel",
+        "categoryId": "cat-padel-shoes",
+        "categorySlug": "padel-shoes",
+        "launchQuality": "DUPLICATIVE",
+        "class": "NEEDS_DIFFERENTIATION",
+        "maxPeerSimilarity": 0.855,
+        "scaffoldHits": 0,
+        "uniqueSignalRatio": 0.013,
+        "reasons": [
+          "high_body_similarity"
+        ],
+        "peerSlug": "asics-gel-dedicate-8-padel"
+      },
+      {
+        "kind": "review",
+        "id": "review-adidas-metalbone-hrd",
+        "slug": "adidas-metalbone-hrd-2026",
+        "path": "/reviews/adidas-metalbone-hrd-2026",
+        "categoryId": "cat-padel-rackets",
+        "categorySlug": "padel-rackets",
+        "launchQuality": "DUPLICATIVE",
+        "class": "NEEDS_DIFFERENTIATION",
+        "maxPeerSimilarity": 0.855,
+        "scaffoldHits": 0,
+        "uniqueSignalRatio": 0.039,
+        "reasons": [
+          "high_body_similarity"
+        ],
+        "peerSlug": "nox-at10-genius-18k-2026"
+      },
+      {
+        "kind": "review",
+        "id": "review-nox-at10-18k-2026",
+        "slug": "nox-at10-genius-18k-2026",
+        "path": "/reviews/nox-at10-genius-18k-2026",
+        "categoryId": "cat-padel-rackets",
+        "categorySlug": "padel-rackets",
+        "launchQuality": "DUPLICATIVE",
+        "class": "NEEDS_DIFFERENTIATION",
+        "maxPeerSimilarity": 0.855,
+        "scaffoldHits": 0,
+        "uniqueSignalRatio": 0.044,
+        "reasons": [
+          "high_body_similarity"
+        ],
+        "peerSlug": "adidas-metalbone-hrd-2026"
+      },
+      {
+        "kind": "review",
+        "id": "review-1080-v14",
+        "slug": "new-balance-fresh-foam-x-1080-v14",
+        "path": "/reviews/new-balance-fresh-foam-x-1080-v14",
+        "categoryId": "cat-running-shoes",
+        "categorySlug": "running-shoes",
+        "launchQuality": "DUPLICATIVE",
+        "class": "NEEDS_DIFFERENTIATION",
+        "maxPeerSimilarity": 0.853,
+        "scaffoldHits": 0,
+        "uniqueSignalRatio": 0.08,
+        "reasons": [
+          "high_body_similarity"
+        ],
+        "peerSlug": "asics-gel-nimbus-27"
+      },
+      {
+        "kind": "review",
+        "id": "review-experience-flow",
+        "slug": "altra-experience-flow",
+        "path": "/reviews/altra-experience-flow",
+        "categoryId": "cat-running-shoes",
+        "categorySlug": "running-shoes",
+        "launchQuality": "DUPLICATIVE",
+        "class": "NEEDS_DIFFERENTIATION",
+        "maxPeerSimilarity": 0.852,
+        "scaffoldHits": 0,
+        "uniqueSignalRatio": 0.071,
+        "reasons": [
+          "high_body_similarity"
+        ],
+        "peerSlug": "altra-torin-8"
+      },
+      {
+        "kind": "review",
+        "id": "review-torin-8",
+        "slug": "altra-torin-8",
+        "path": "/reviews/altra-torin-8",
+        "categoryId": "cat-running-shoes",
+        "categorySlug": "running-shoes",
+        "launchQuality": "DUPLICATIVE",
+        "class": "NEEDS_DIFFERENTIATION",
+        "maxPeerSimilarity": 0.852,
+        "scaffoldHits": 0,
+        "uniqueSignalRatio": 0.078,
+        "reasons": [
+          "high_body_similarity"
+        ],
+        "peerSlug": "altra-experience-flow"
+      },
+      {
+        "kind": "review",
+        "id": "review-adidas-courtstabil",
+        "slug": "adidas-courtstabil-padel",
+        "path": "/reviews/adidas-courtstabil-padel",
+        "categoryId": "cat-padel-shoes",
+        "categorySlug": "padel-shoes",
+        "launchQuality": "DUPLICATIVE",
+        "class": "NEEDS_DIFFERENTIATION",
+        "maxPeerSimilarity": 0.852,
+        "scaffoldHits": 0,
+        "uniqueSignalRatio": 0.013,
+        "reasons": [
+          "high_body_similarity"
+        ],
+        "peerSlug": "nox-ml10-hexa"
+      },
+      {
+        "kind": "review",
+        "id": "review-nox-ml10-hexa",
+        "slug": "nox-ml10-hexa",
+        "path": "/reviews/nox-ml10-hexa",
+        "categoryId": "cat-padel-shoes",
+        "categorySlug": "padel-shoes",
+        "launchQuality": "DUPLICATIVE",
+        "class": "NEEDS_DIFFERENTIATION",
+        "maxPeerSimilarity": 0.852,
+        "scaffoldHits": 0,
+        "uniqueSignalRatio": 0.013,
+        "reasons": [
+          "high_body_similarity"
+        ],
+        "peerSlug": "adidas-courtstabil-padel"
+      },
+      {
+        "kind": "review",
+        "id": "review-deviate-nitro-3",
+        "slug": "puma-deviate-nitro-3",
+        "path": "/reviews/puma-deviate-nitro-3",
+        "categoryId": "cat-running-shoes",
+        "categorySlug": "running-shoes",
+        "launchQuality": "DUPLICATIVE",
+        "class": "NEEDS_DIFFERENTIATION",
+        "maxPeerSimilarity": 0.851,
+        "scaffoldHits": 0,
+        "uniqueSignalRatio": 0.105,
+        "reasons": [
+          "high_body_similarity"
+        ],
+        "peerSlug": "topo-athletic-specter-2"
+      },
+      {
+        "kind": "review",
+        "id": "review-specter-2",
+        "slug": "topo-athletic-specter-2",
+        "path": "/reviews/topo-athletic-specter-2",
+        "categoryId": "cat-running-shoes",
+        "categorySlug": "running-shoes",
+        "launchQuality": "DUPLICATIVE",
+        "class": "NEEDS_DIFFERENTIATION",
+        "maxPeerSimilarity": 0.851,
+        "scaffoldHits": 0,
+        "uniqueSignalRatio": 0.088,
+        "reasons": [
+          "high_body_similarity"
+        ],
+        "peerSlug": "puma-deviate-nitro-3"
+      },
+      {
+        "kind": "review",
+        "id": "review-rogue-pullup-bar",
+        "slug": "rogue-monster-lite-pull-up-bar",
+        "path": "/reviews/rogue-monster-lite-pull-up-bar",
+        "categoryId": "cat-pull-up-bars",
+        "categorySlug": "pull-up-bars",
+        "launchQuality": "DUPLICATIVE",
+        "class": "NEEDS_DIFFERENTIATION",
+        "maxPeerSimilarity": 0.85,
+        "scaffoldHits": 0,
+        "uniqueSignalRatio": 0.007,
+        "reasons": [
+          "high_body_similarity"
+        ],
+        "peerSlug": "gornation-premium-pull-up-bar"
+      },
+      {
+        "kind": "review",
+        "id": "review-clifton-pro",
+        "slug": "hoka-clifton-pro",
+        "path": "/reviews/hoka-clifton-pro",
+        "categoryId": "cat-running-shoes",
+        "categorySlug": "running-shoes",
+        "launchQuality": "DUPLICATIVE",
+        "class": "NEEDS_DIFFERENTIATION",
+        "maxPeerSimilarity": 0.849,
+        "scaffoldHits": 0,
+        "uniqueSignalRatio": 0.082,
+        "reasons": [
+          "high_body_similarity"
+        ],
+        "peerSlug": "altra-torin-8"
+      },
+      {
+        "kind": "review",
+        "id": "review-sense-ride-5",
+        "slug": "salomon-sense-ride-5",
+        "path": "/reviews/salomon-sense-ride-5",
+        "categoryId": "cat-running-shoes",
+        "categorySlug": "running-shoes",
+        "launchQuality": "DUPLICATIVE",
+        "class": "NEEDS_DIFFERENTIATION",
+        "maxPeerSimilarity": 0.848,
+        "scaffoldHits": 0,
+        "uniqueSignalRatio": 0.073,
+        "reasons": [
+          "high_body_similarity"
+        ],
+        "peerSlug": "saucony-peregrine-15"
+      },
+      {
+        "kind": "review",
+        "id": "review-peregrine-15",
+        "slug": "saucony-peregrine-15",
+        "path": "/reviews/saucony-peregrine-15",
+        "categoryId": "cat-running-shoes",
+        "categorySlug": "running-shoes",
+        "launchQuality": "DUPLICATIVE",
+        "class": "NEEDS_DIFFERENTIATION",
+        "maxPeerSimilarity": 0.848,
+        "scaffoldHits": 0,
+        "uniqueSignalRatio": 0.071,
+        "reasons": [
+          "high_body_similarity"
+        ],
+        "peerSlug": "salomon-sense-ride-5"
+      },
+      {
+        "kind": "review",
+        "id": "review-schwinn-airdyne-ad8",
+        "slug": "schwinn-airdyne-ad8",
+        "path": "/reviews/schwinn-airdyne-ad8",
+        "categoryId": "cat-air-bikes",
+        "categorySlug": "air-bikes",
+        "launchQuality": "DUPLICATIVE",
+        "class": "NEEDS_DIFFERENTIATION",
+        "maxPeerSimilarity": 0.847,
+        "scaffoldHits": 0,
+        "uniqueSignalRatio": 0.023,
+        "reasons": [
+          "high_body_similarity"
+        ],
+        "peerSlug": "assaultbike-elite"
+      },
+      {
+        "kind": "review",
+        "id": "review-concept2-rowerg-dynamic",
+        "slug": "concept2-rowerg-dynamic",
+        "path": "/reviews/concept2-rowerg-dynamic",
+        "categoryId": "cat-rowing-machines",
+        "categorySlug": "rowing-machines",
+        "launchQuality": "DUPLICATIVE",
+        "class": "NEEDS_DIFFERENTIATION",
+        "maxPeerSimilarity": 0.847,
+        "scaffoldHits": 0,
+        "uniqueSignalRatio": 0.013,
+        "reasons": [
+          "high_body_similarity"
+        ],
+        "peerSlug": "mirafit-magnetic-rower"
+      }
+    ],
+    "bestNeedsDiff": [],
+    "guidesNeedsDiff": [],
+    "comparisonsNeedsDiff": []
+  },
+  "holdSlugs": [
+    "adidas-adipower-weightlifting-2",
+    "adidas-adipower-weightlifting-3",
+    "adidas-adizero-adios-pro-4",
+    "adidas-adizero-boston-12",
+    "adidas-adizero-boston-13",
+    "adidas-adizero-evo-sl",
+    "adidas-barricade-13",
+    "adidas-courtjam-control-3",
+    "adidas-courtquick-padel-women",
+    "adidas-courtstabil-padel",
+    "adidas-crazyquick-boost-padel",
+    "adidas-crazyquick-boost-padel-women",
+    "adidas-dropset-2",
+    "adidas-dropset-3",
+    "adidas-metalbone-2026",
+    "adidas-metalbone-hrd-2026",
+    "adidas-own-the-run-short-men",
+    "adidas-own-the-run-tee-men",
+    "adidas-powerlift-5",
+    "adidas-rapidmove-adv",
+    "adidas-solematch-control-2",
+    "adidas-terrex-agravic-3",
+    "adidas-the-total",
+    "adidas-ultraboost-5",
+    "altra-escalante-4",
+    "altra-experience-flow",
+    "altra-lone-peak-8",
+    "altra-paradigm-7",
+    "altra-torin-8",
+    "apple-watch-ultra-2",
+    "asics-core-split-short",
+    "asics-game-ff-padel",
+    "asics-gel-challenger-15",
+    "asics-gel-challenger-court",
+    "asics-gel-cumulus-27",
+    "asics-gel-dedicate-8",
+    "asics-gel-dedicate-8-padel",
+    "asics-gel-nimbus-27",
+    "asics-gel-quantum-360-8",
+    "asics-gel-resolution-9",
+    "asics-gel-resolution-9-clay",
+    "asics-gel-resolution-padel",
+    "asics-gel-trabuco-13",
+    "asics-gt-1000-13",
+    "asics-gt-2000-14",
+    "asics-metaspeed-sky-paris",
+    "asics-novablast-4",
+    "asics-novablast-6",
+    "asics-solution-speed-ff-3",
+    "asics-solution-swift-ff2-padel",
+    "assaultbike-classic",
+    "assaultbike-elite",
+    "assaultrunner-elite",
+    "atx-cast-iron-plate-set",
+    "atx-fid-bench",
+    "babolat-counter-viper-2026",
+    "babolat-jet-mach-3",
+    "babolat-jet-premura",
+    "babolat-movea-2",
+    "babolat-pure-aero-2023",
+    "babolat-pure-aero-2026",
+    "babolat-pure-drive-2025",
+    "babolat-pure-drive-gen11",
+    "babolat-sensa-women",
+    "babolat-technical-viper-2026",
+    "balega-blister-resist",
+    "balega-hidden-comfort",
+    "black-diamond-distance-22",
+    "black-diamond-distance-8",
+    "blackroll-ball",
+    "blackroll-duoball",
+    "blackroll-med",
+    "blackroll-standard",
+    "bowflex-selecttech-1090",
+    "brooks-ghost-16",
+    "brooks-glycerin-21",
+    "brooks-hyperion-max-2",
+    "brooks-notch-thermal-beanie",
+    "brooks-notch-thermal-men",
+    "brooks-sherpa-7-men",
+    "buff-coolnet-uv",
+    "buff-merino-lightweight",
+    "buff-original",
+    "bullpadel-hack-03",
+    "bullpadel-hack-04-2026",
+    "bullpadel-hybrid-fly",
+    "bullpadel-ionic-woman",
+    "bullpadel-vertex-04",
+    "bullpadel-vertex-05-2026",
+    "camelbak-apex-pro",
+    "camelbak-circuit-run-vest",
+    "camelbak-quick-grip-chill",
+    "camelbak-zephyr",
+    "cep-calf-sleeves-3",
+    "ciele-gocap-athletics",
+    "compressport-free-belt-pro",
+    "concept2-bikeerg",
+    "concept2-rowerg",
+    "concept2-rowerg-dynamic",
+    "concept2-skierg",
+    "concept2-skierg-floor-stand",
+    "concept2-skierg-with-stand",
+    "coros-apex-2-pro",
+    "coros-heart-rate-monitor",
+    "coros-pace-pro",
+    "craft-active-extreme-x-men",
+    "craft-adv-essence-short",
+    "craft-adv-lumen-glove",
+    "darn-tough-run-1-4",
+    "do-win-classic",
+    "drymax-run-lite-mesh",
+    "dunlop-cx-200",
+    "eleiko-kettlebell",
+    "eleiko-performance-weightlifting-bar",
+    "eleiko-sport-bumper-set",
+    "eleiko-sport-collars",
+    "eleiko-xf-bar",
+    "enervit-c2-1-carbo-gel",
+    "feetures-elite-light-cushion",
+    "fitletic-fully-loaded",
+    "garmin-forerunner-165",
+    "garmin-forerunner-255",
+    "garmin-forerunner-265",
+    "garmin-forerunner-55",
+    "garmin-forerunner-570",
+    "garmin-forerunner-965",
+    "garmin-hrm-pro-plus",
+    "goodr-circle-gs",
+    "goodr-ogs",
+    "gornation-premium-pull-up-bar",
+    "gravity-fitness-parallettes",
+    "gravity-fitness-weighted-vest",
+    "gu-energy-chews",
+    "gu-roctane-gel",
+    "head-coello-pro-2026",
+    "head-radical-mp-2023",
+    "head-revolt-pro-court",
+    "head-speed-mp-2024",
+    "head-sprint-pro-4-padel",
+    "high5-energy-gel",
+    "hoka-arahi-7",
+    "hoka-bondi-8",
+    "hoka-clifton-9",
+    "hoka-clifton-pro",
+    "hoka-gaviota-5",
+    "hoka-mach-6",
+    "hoka-transport",
+    "horizon-t202-treadmill",
+    "huma-gel-original",
+    "hydrapak-contour-2l",
+    "hydrapak-skyflask-speed-500",
+    "hydrapak-softflask-500",
+    "hydrapak-tube-kit",
+    "hydrow-wave",
+    "hyperice-hypervolt-go-2",
+    "inov8-f-lite-235-v3",
+    "inov8-f-lite-260",
+    "inov8-fastlift-360",
+    "inov8-fastlift-400",
+    "inov8-fastlift-power-g-380",
+    "inov8-trailfly-ultra-g-300-max",
+    "janji-multi-short-men",
+    "janji-pace-short-women",
+    "janji-rainrunner-men",
+    "janji-run-tee-men",
+    "joma-slam-lady",
+    "joma-spin-men",
+    "joma-t-slam",
+    "julbo-aerolite",
+    "julbo-rush",
+    "k-swiss-hypercourt-express-2",
+    "k-swiss-ultrashot-3",
+    "kuikma-pr-soft-500",
+    "kuikma-ps-990",
+    "lok-maxx-flow",
+    "lululemon-strongfeel",
+    "mirafit-air-bike",
+    "mirafit-battle-rope",
+    "mirafit-folding-rower",
+    "mirafit-folding-treadmill",
+    "mirafit-m3-power-rack",
+    "mirafit-m4-cage",
+    "mirafit-magnetic-rower",
+    "mirafit-olympic-barbell",
+    "mirafit-weighted-vest",
+    "mizuno-wave-rebellion-pro-3",
+    "mizuno-wave-rider-28",
+    "naked-running-band",
+    "nathan-exoshot-2",
+    "nathan-mirage-pak",
+    "nathan-softflask-18oz",
+    "nathan-zipster-lite",
+    "nb-minimus-tr",
+    "neversecond-c30-gel",
+    "new-balance-fresh-foam-x-1080-v13",
+    "new-balance-fresh-foam-x-1080-v14",
+    "new-balance-fresh-foam-x-hierro-v9",
+    "new-balance-fuelcell-rebel-v5",
+    "new-balance-fuelcell-supercomp-elite-v4",
+    "new-balance-fuelcell-supercomp-trainer-v3",
+    "nike-aerobill-cap",
+    "nike-aeroswift-singlet-men",
+    "nike-dri-fit-miler-men",
+    "nike-dri-fit-miler-women",
+    "nike-dri-fit-stride-short",
+    "nike-fast-tight-men",
+    "nike-free-metcon-6",
+    "nike-invincible-3",
+    "nike-metcon-8",
+    "nike-metcon-9",
+    "nike-pegasus-41",
+    "nike-pegasus-trail-5",
+    "nike-react-infinity-run-4",
+    "nike-romaleos-4",
+    "nike-romaleos-5",
+    "nike-savaleos",
+    "nike-structure-26",
+    "nike-structure-plus",
+    "nike-swoosh-medium-support",
+    "nnormal-race-vest",
+    "nobull-outwork",
+    "nobull-trainer",
+    "nobull-trainer-plus",
+    "nox-at10-genius-12k-alum-xtrem-2026",
+    "nox-at10-genius-18k-2026",
+    "nox-at10-lux",
+    "nox-ml10-hexa",
+    "nox-ml10-pro-cup-2026",
+    "nuobell-50",
+    "nuobell-80",
+    "nuun-sport",
+    "oakley-encoder",
+    "oakley-flak-2-0-xl",
+    "oakley-radar-ev-path",
+    "oakley-sutro-lite",
+    "odlo-active-warm-eco-men",
+    "on-cloudmonster-2",
+    "on-cloudsurfer-2",
+    "on-cloudsurfer-next",
+    "on-performance-short-men",
+    "on-performance-tight-women",
+    "on-ultra-vest-pro",
+    "on-weather-jacket-men",
+    "oofos-oolala",
+    "oofos-ooriginal",
+    "osprey-duro-lt",
+    "osprey-dyna-lt",
+    "osprey-hydraulics-lt-15",
+    "patagonia-capilene-cool-daily-men",
+    "patagonia-capilene-midweight-zip-men",
+    "patagonia-endless-run-tight-women",
+    "patagonia-trailfarer-short-women",
+    "polar-h9",
+    "polar-pacer-pro",
+    "powerbar-energize",
+    "powerblock-elite-exp-90",
+    "powerblock-pro-series-100",
+    "powerblock-pro-series-50",
+    "precision-ph1500",
+    "prince-textreme-tour-100p",
+    "proviz-reflect360-running-vest",
+    "pullup-and-dip-parallettes",
+    "pullup-and-dip-wall-bar",
+    "puma-deviate-nitro-3",
+    "puma-fuse-3",
+    "puma-fuse-fasted",
+    "puma-magnify-nitro-2",
+    "rabbit-fuel-n-fly-men",
+    "reebok-legacy-lifter-iii",
+    "reebok-lifter-pr-iii",
+    "reebok-nano-court",
+    "reebok-nano-x3",
+    "reebok-nano-x4",
+    "rep-ab-5000-zero-gap",
+    "rep-ab-5200",
+    "rep-black-bumper-plate-set",
+    "rep-colorado-bar",
+    "rep-fb-5000-flat-bench",
+    "rep-pr-4000",
+    "rep-pr-5000",
+    "rep-slam-ball",
+    "rogue-adjustable-bench-3-0",
+    "rogue-dog-sled",
+    "rogue-echo-bike",
+    "rogue-echo-bumper-plate-set",
+    "rogue-echo-kettlebell",
+    "rogue-flat-utility-bench",
+    "rogue-kettlebell",
+    "rogue-monster-lite-pull-up-bar",
+    "rogue-ohio-bar",
+    "rogue-ohio-power-bar",
+    "rogue-plate-carrier-vest",
+    "rogue-sandbag",
+    "rogue-wall-ball",
+    "rogue-wrist-wraps",
+    "royal-padel-m27-poly-2026",
+    "salming-rebel",
+    "salomon-adv-skin-12",
+    "salomon-aero-glide-2",
+    "salomon-bonatti-wp-men",
+    "salomon-bonatti-wp-women",
+    "salomon-genesis",
+    "salomon-pulsar-trail-2",
+    "salomon-pulse-belt",
+    "salomon-sense-ride-5",
+    "salomon-soft-flask-500",
+    "salomon-soft-flask-speed-500",
+    "salomon-soft-reservoir-15",
+    "salomon-ultra-glide-2",
+    "saltstick-caps",
+    "saucony-endorphin-pro-3",
+    "saucony-endorphin-pro-4",
+    "saucony-guide-18",
+    "saucony-peregrine-15",
+    "saucony-ride-18",
+    "saucony-triumph-22",
+    "saucony-xodus-ultra-3",
+    "schwinn-airdyne-ad8",
+    "siux-diablo-revolution-2026",
+    "skierg2-wall-mount",
+    "skratch-sport-energy-chews",
+    "smartwool-thermal-merino-glove",
+    "smith-shift-mag",
+    "sole-f80-treadmill",
+    "spibelt-original",
+    "spring-energy-awesome-sauce",
+    "starvie-basalto-osiris-2026",
+    "starvie-titania-kepler-2026",
+    "styrkr-gel30",
+    "styrkr-mix90",
+    "suunto-race",
+    "suunto-race-s",
+    "suunto-smart-heart-rate-belt",
+    "tailwind-endurance-fuel",
+    "tecnifibre-tf40-305",
+    "tecnifibre-tfight-300s-2025",
+    "tecnifibre-wall-breaker-365",
+    "therabody-theragun-mini-2",
+    "tifosi-rail",
+    "tifosi-vogel",
+    "topo-athletic-phantom-3",
+    "topo-athletic-specter-2",
+    "topo-athletic-terraventure-5",
+    "tracksmith-brighton-ls-men",
+    "tracksmith-session-short-men",
+    "tracksmith-session-short-women",
+    "tracksmith-turnover-tight-women",
+    "tracksmith-van-cortlandt-tee-men",
+    "tyr-cxt-1",
+    "tyr-cxt-2",
+    "tyr-cxt1-trainer",
+    "ua-charged-commit-4",
+    "ua-project-rock-bsr-4",
+    "ua-reign-lifter",
+    "ua-tribase-reign-6",
+    "ultimate-direction-adventure-vest",
+    "ultimate-direction-body-bottle-500",
+    "ultimate-direction-fastpack-30",
+    "ultimate-direction-race-vest-6",
+    "ultraspire-alpha-6",
+    "varlion-lw-carbon-difusor-2026",
+    "veloforte-energy-chews",
+    "wahoo-tickr",
+    "wahoo-tickr-fit",
+    "wahoo-tickr-x",
+    "wahoo-trackr",
+    "waterrower-a1",
+    "wilson-blade-100-v9",
+    "wilson-blade-98-v8",
+    "wilson-blade-98-v9",
+    "wilson-blade-pro-v2-padel-2026",
+    "wilson-clash-100-v2",
+    "wilson-clash-100-v3",
+    "wilson-rush-pro-4-0",
+    "wilson-rush-pro-5-padel",
+    "wilson-rush-pro-ace",
+    "wrightsock-coolmesh-ii",
+    "xebex-ski-erg",
+    "xero-prio",
+    "yonex-ezone-100-2025",
+    "yonex-ezone-98-2024",
+    "yonex-vcore-100-2023",
+    "yonex-vcore-98-2026"
+  ]
+}

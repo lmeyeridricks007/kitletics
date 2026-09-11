@@ -1,0 +1,38 @@
+[
+  {
+    "id": "CONTENT-001",
+    "severity": "INFO",
+    "evidence": "0 reviews have thin source Buy/Skip",
+    "status": "resolved"
+  },
+  {
+    "id": "CONTENT-002",
+    "severity": "INFO",
+    "evidence": "0/15 sampled INDEXABLE enriched reviews match junk/report voice on decision copy",
+    "status": "resolved"
+  },
+  {
+    "id": "CONTENT-002-SOURCE",
+    "severity": "LOW",
+    "evidence": "3 reviews still match junk/report voice on **source** fields (may not render after enrich)",
+    "status": "open"
+  },
+  {
+    "id": "CONTENT-ARTICLE-P0",
+    "severity": "INFO",
+    "evidence": "0/15 sampled INDEXABLE enriched reviews have article-audit P0 findings",
+    "status": "resolved"
+  },
+  {
+    "id": "CONTENT-003",
+    "severity": "INFO",
+    "evidence": "Review coverage 591/631 products (94%); missing 40",
+    "status": "resolved"
+  },
+  {
+    "id": "CONTENT-006",
+    "severity": "INFO",
+    "evidence": "Guides 69 · Reviews 591 · Best 59 · Products 631",
+    "status": "resolved"
+  }
+]

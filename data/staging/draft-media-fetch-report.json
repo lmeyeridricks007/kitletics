@@ -1,0 +1,156 @@
+[
+  {
+    "id": "prod-patagonia-slope-runner",
+    "slug": "patagonia-slope-runner-vest",
+    "ok": false,
+    "error": "no-image",
+    "categorySlug": "running-packs-vests"
+  },
+  {
+    "id": "prod-raidlight-responsiv-12",
+    "slug": "raidlight-responsiv-12",
+    "ok": false,
+    "error": "no-image",
+    "categorySlug": "running-packs-vests"
+  },
+  {
+    "id": "prod-hydrapak-shape-shift-15",
+    "slug": "hydrapak-shape-shift-15",
+    "ok": false,
+    "error": "no-image",
+    "categorySlug": "hydration"
+  },
+  {
+    "id": "prod-nathan-quickdraw-plus",
+    "slug": "nathan-quickdraw-plus-handheld",
+    "ok": false,
+    "error": "no-image",
+    "categorySlug": "hydration"
+  },
+  {
+    "id": "prod-camelbak-quick-grip-chill",
+    "slug": "camelbak-quick-grip-chill",
+    "ok": false,
+    "error": "no-image",
+    "categorySlug": "hydration"
+  },
+  {
+    "id": "prod-salomon-soft-reservoir-15",
+    "slug": "salomon-soft-reservoir-15",
+    "ok": false,
+    "error": "no-image",
+    "categorySlug": "hydration"
+  },
+  {
+    "id": "prod-camelbak-octane-22",
+    "slug": "camelbak-octane-22",
+    "ok": false,
+    "error": "no-image",
+    "categorySlug": "running-packs-vests"
+  },
+  {
+    "id": "prod-salomon-trailblazer-20",
+    "slug": "salomon-trailblazer-20",
+    "ok": false,
+    "error": "no-image",
+    "categorySlug": "running-packs-vests"
+  },
+  {
+    "id": "prod-leki-trail-running-quiver",
+    "slug": "leki-trail-running-quiver",
+    "ok": false,
+    "error": "no-image",
+    "categorySlug": "running-packs-vests"
+  },
+  {
+    "id": "prod-ud-utility-bag",
+    "slug": "ultimate-direction-utility-bag",
+    "ok": false,
+    "error": "no-image",
+    "categorySlug": "running-packs-vests"
+  },
+  {
+    "id": "prod-salomon-soft-flask-stash",
+    "slug": "salomon-soft-flask-stash",
+    "ok": false,
+    "error": "no-image",
+    "categorySlug": "running-packs-vests"
+  },
+  {
+    "id": "prod-nathan-zippered-stash",
+    "slug": "nathan-zippered-stash",
+    "ok": false,
+    "error": "no-image",
+    "categorySlug": "running-packs-vests"
+  },
+  {
+    "id": "prod-starvie-absolute-padel",
+    "slug": "starvie-absolute-padel",
+    "ok": false,
+    "error": "no-image",
+    "categorySlug": "padel-shoes"
+  },
+  {
+    "id": "prod-kuikma-ps-560-women",
+    "slug": "kuikma-ps-560-women",
+    "ok": false,
+    "error": "no-image",
+    "categorySlug": "padel-shoes"
+  },
+  {
+    "id": "prod-oxdog-hyper-court",
+    "slug": "oxdog-hyper-court",
+    "ok": false,
+    "error": "no-image",
+    "categorySlug": "padel-shoes"
+  },
+  {
+    "id": "prod-adidas-solecourt-boost-padel",
+    "slug": "adidas-solecourt-boost-padel",
+    "ok": false,
+    "error": "no-image",
+    "categorySlug": "padel-shoes"
+  },
+  {
+    "id": "prod-head-revolt-court",
+    "slug": "head-revolt-court-padel",
+    "ok": false,
+    "error": "no-image",
+    "categorySlug": "padel-shoes"
+  },
+  {
+    "id": "prod-tecnifibre-t-fight-padel",
+    "slug": "tecnifibre-wall-shooter",
+    "ok": false,
+    "error": "no-image",
+    "categorySlug": "padel-shoes"
+  },
+  {
+    "id": "prod-varlion-bourne-padel-shoe",
+    "slug": "varlion-bourne-padel",
+    "ok": false,
+    "error": "no-image",
+    "categorySlug": "padel-shoes"
+  },
+  {
+    "id": "prod-nike-zoom-gp-turbo-2",
+    "slug": "nike-zoom-gp-turbo-hc-2",
+    "ok": false,
+    "error": "no-image",
+    "categorySlug": "tennis-shoes"
+  },
+  {
+    "id": "prod-wilson-kaos-rapide-30",
+    "slug": "wilson-kaos-rapide-3-0",
+    "ok": false,
+    "error": "no-image",
+    "categorySlug": "tennis-shoes"
+  },
+  {
+    "id": "prod-nb-lav-v2",
+    "slug": "new-balance-fresh-foam-x-lav-v2",
+    "ok": false,
+    "error": "no-image",
+    "categorySlug": "tennis-shoes"
+  }
+]

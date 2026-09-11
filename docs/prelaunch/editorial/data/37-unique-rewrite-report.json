@@ -1,0 +1,4667 @@
+{
+  "summary": {
+    "generatedAt": "2026-09-09T18:56:04.396Z",
+    "dryRun": false,
+    "candidates": 489,
+    "rewrittenThisRun": 486,
+    "mergedTotal": 544,
+    "needsResearch": 3,
+    "byOutcome": {
+      "READY": 486,
+      "NEEDS_RESEARCH": 3
+    },
+    "byCategory": {
+      "cat-running-shoes": {
+        "total": 68,
+        "READY": 68,
+        "NEEDS_RESEARCH": 0,
+        "ERROR": 0
+      },
+      "cat-gps-watches": {
+        "total": 13,
+        "READY": 13,
+        "NEEDS_RESEARCH": 0,
+        "ERROR": 0
+      },
+      "cat-hrm": {
+        "total": 9,
+        "READY": 9,
+        "NEEDS_RESEARCH": 0,
+        "ERROR": 0
+      },
+      "cat-packs-vests": {
+        "total": 33,
+        "READY": 33,
+        "NEEDS_RESEARCH": 0,
+        "ERROR": 0
+      },
+      "cat-running-socks": {
+        "total": 8,
+        "READY": 8,
+        "NEEDS_RESEARCH": 0,
+        "ERROR": 0
+      },
+      "cat-headphones": {
+        "total": 6,
+        "READY": 6,
+        "NEEDS_RESEARCH": 0,
+        "ERROR": 0
+      },
+      "cat-running-clothing": {
+        "total": 57,
+        "READY": 57,
+        "NEEDS_RESEARCH": 0,
+        "ERROR": 0
+      },
+      "cat-sunglasses": {
+        "total": 16,
+        "READY": 16,
+        "NEEDS_RESEARCH": 0,
+        "ERROR": 0
+      },
+      "cat-running-lights": {
+        "total": 4,
+        "READY": 4,
+        "NEEDS_RESEARCH": 0,
+        "ERROR": 0
+      },
+      "cat-nutrition": {
+        "total": 24,
+        "READY": 24,
+        "NEEDS_RESEARCH": 0,
+        "ERROR": 0
+      },
+      "cat-accessories": {
+        "total": 1,
+        "READY": 1,
+        "NEEDS_RESEARCH": 0,
+        "ERROR": 0
+      },
+      "cat-safety": {
+        "total": 2,
+        "READY": 2,
+        "NEEDS_RESEARCH": 0,
+        "ERROR": 0
+      },
+      "cat-training-shoes": {
+        "total": 44,
+        "READY": 44,
+        "NEEDS_RESEARCH": 0,
+        "ERROR": 0
+      },
+      "cat-tennis-shoes": {
+        "total": 14,
+        "READY": 14,
+        "NEEDS_RESEARCH": 0,
+        "ERROR": 0
+      },
+      "cat-padel-shoes": {
+        "total": 23,
+        "READY": 23,
+        "NEEDS_RESEARCH": 0,
+        "ERROR": 0
+      },
+      "cat-padel-rackets": {
+        "total": 27,
+        "READY": 26,
+        "NEEDS_RESEARCH": 1,
+        "ERROR": 0
+      },
+      "cat-hydration": {
+        "total": 14,
+        "READY": 14,
+        "NEEDS_RESEARCH": 0,
+        "ERROR": 0
+      },
+      "cat-air-bikes": {
+        "total": 6,
+        "READY": 6,
+        "NEEDS_RESEARCH": 0,
+        "ERROR": 0
+      },
+      "cat-treadmills": {
+        "total": 6,
+        "READY": 6,
+        "NEEDS_RESEARCH": 0,
+        "ERROR": 0
+      },
+      "cat-weight-plates": {
+        "total": 5,
+        "READY": 5,
+        "NEEDS_RESEARCH": 0,
+        "ERROR": 0
+      },
+      "cat-weight-benches": {
+        "total": 6,
+        "READY": 6,
+        "NEEDS_RESEARCH": 0,
+        "ERROR": 0
+      },
+      "cat-tennis-rackets": {
+        "total": 20,
+        "READY": 20,
+        "NEEDS_RESEARCH": 0,
+        "ERROR": 0
+      },
+      "cat-lifting-accessories": {
+        "total": 6,
+        "READY": 6,
+        "NEEDS_RESEARCH": 0,
+        "ERROR": 0
+      },
+      "cat-recovery-gear": {
+        "total": 14,
+        "READY": 14,
+        "NEEDS_RESEARCH": 0,
+        "ERROR": 0
+      },
+      "cat-adjustable-dumbbells": {
+        "total": 8,
+        "READY": 8,
+        "NEEDS_RESEARCH": 0,
+        "ERROR": 0
+      },
+      "cat-running-belts": {
+        "total": 9,
+        "READY": 9,
+        "NEEDS_RESEARCH": 0,
+        "ERROR": 0
+      },
+      "cat-rowing-machines": {
+        "total": 6,
+        "READY": 6,
+        "NEEDS_RESEARCH": 0,
+        "ERROR": 0
+      },
+      "cat-ski-ergs": {
+        "total": 5,
+        "READY": 5,
+        "NEEDS_RESEARCH": 0,
+        "ERROR": 0
+      },
+      "cat-kettlebells": {
+        "total": 5,
+        "READY": 5,
+        "NEEDS_RESEARCH": 0,
+        "ERROR": 0
+      },
+      "cat-barbells": {
+        "total": 6,
+        "READY": 6,
+        "NEEDS_RESEARCH": 0,
+        "ERROR": 0
+      },
+      "cat-parallettes": {
+        "total": 3,
+        "READY": 3,
+        "NEEDS_RESEARCH": 0,
+        "ERROR": 0
+      },
+      "cat-pull-up-bars": {
+        "total": 5,
+        "READY": 5,
+        "NEEDS_RESEARCH": 0,
+        "ERROR": 0
+      },
+      "cat-weighted-vests": {
+        "total": 3,
+        "READY": 3,
+        "NEEDS_RESEARCH": 0,
+        "ERROR": 0
+      },
+      "cat-padel-balls": {
+        "total": 1,
+        "READY": 0,
+        "NEEDS_RESEARCH": 1,
+        "ERROR": 0
+      },
+      "cat-functional-fitness": {
+        "total": 5,
+        "READY": 5,
+        "NEEDS_RESEARCH": 0,
+        "ERROR": 0
+      },
+      "cat-gym-flooring": {
+        "total": 2,
+        "READY": 2,
+        "NEEDS_RESEARCH": 0,
+        "ERROR": 0
+      },
+      "cat-power-racks": {
+        "total": 4,
+        "READY": 4,
+        "NEEDS_RESEARCH": 0,
+        "ERROR": 0
+      },
+      "cat-padel-grips": {
+        "total": 1,
+        "READY": 0,
+        "NEEDS_RESEARCH": 1,
+        "ERROR": 0
+      }
+    }
+  },
+  "rows": [
+    {
+      "slug": "adidas-adizero-adios-pro-4",
+      "categoryId": "cat-running-shoes",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 13,
+      "words": 3517,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "adidas-adizero-boston-12",
+      "categoryId": "cat-running-shoes",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 13,
+      "words": 3458,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "adidas-adizero-boston-13",
+      "categoryId": "cat-running-shoes",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 13,
+      "words": 3587,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "adidas-adizero-evo-sl",
+      "categoryId": "cat-running-shoes",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 13,
+      "words": 3524,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "adidas-terrex-agravic-3",
+      "categoryId": "cat-running-shoes",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 13,
+      "words": 3576,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "adidas-ultraboost-5",
+      "categoryId": "cat-running-shoes",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 13,
+      "words": 3445,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "altra-escalante-4",
+      "categoryId": "cat-running-shoes",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 13,
+      "words": 3436,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "altra-experience-flow",
+      "categoryId": "cat-running-shoes",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 13,
+      "words": 3537,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "altra-lone-peak-8",
+      "categoryId": "cat-running-shoes",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 13,
+      "words": 3503,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "altra-paradigm-7",
+      "categoryId": "cat-running-shoes",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 13,
+      "words": 3524,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "altra-torin-8",
+      "categoryId": "cat-running-shoes",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 13,
+      "words": 3465,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "asics-gel-cumulus-27",
+      "categoryId": "cat-running-shoes",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 13,
+      "words": 3457,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "asics-gel-nimbus-27",
+      "categoryId": "cat-running-shoes",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 13,
+      "words": 3524,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "asics-gel-trabuco-13",
+      "categoryId": "cat-running-shoes",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 13,
+      "words": 3465,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "asics-gt-1000-13",
+      "categoryId": "cat-running-shoes",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 13,
+      "words": 3499,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "asics-gt-2000-14",
+      "categoryId": "cat-running-shoes",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 13,
+      "words": 3504,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "asics-metaspeed-sky-paris",
+      "categoryId": "cat-running-shoes",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 13,
+      "words": 3497,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "asics-novablast-4",
+      "categoryId": "cat-running-shoes",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 13,
+      "words": 3471,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "asics-novablast-6",
+      "categoryId": "cat-running-shoes",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 13,
+      "words": 3488,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "brooks-cascadia-18",
+      "categoryId": "cat-running-shoes",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 13,
+      "words": 3482,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "brooks-ghost-16",
+      "categoryId": "cat-running-shoes",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 13,
+      "words": 3345,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "brooks-glycerin-21",
+      "categoryId": "cat-running-shoes",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 13,
+      "words": 3486,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "brooks-glycerin-gts-22",
+      "categoryId": "cat-running-shoes",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 13,
+      "words": 3491,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "brooks-hyperion-max-2",
+      "categoryId": "cat-running-shoes",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 13,
+      "words": 3538,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "hoka-arahi-7",
+      "categoryId": "cat-running-shoes",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 13,
+      "words": 3540,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "hoka-bondi-8",
+      "categoryId": "cat-running-shoes",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 13,
+      "words": 3459,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "hoka-clifton-9",
+      "categoryId": "cat-running-shoes",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 13,
+      "words": 3483,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "hoka-clifton-pro",
+      "categoryId": "cat-running-shoes",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 13,
+      "words": 3411,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "hoka-gaviota-5",
+      "categoryId": "cat-running-shoes",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 13,
+      "words": 3542,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "hoka-mach-6",
+      "categoryId": "cat-running-shoes",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 13,
+      "words": 3486,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "inov8-trailfly-ultra-g-300-max",
+      "categoryId": "cat-running-shoes",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 13,
+      "words": 3617,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "mizuno-wave-rebellion-pro-3",
+      "categoryId": "cat-running-shoes",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 13,
+      "words": 3529,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "mizuno-wave-rider-28",
+      "categoryId": "cat-running-shoes",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 13,
+      "words": 3464,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "new-balance-fresh-foam-x-1080-v13",
+      "categoryId": "cat-running-shoes",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 13,
+      "words": 3601,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "new-balance-fresh-foam-x-1080-v14",
+      "categoryId": "cat-running-shoes",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 13,
+      "words": 3673,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "new-balance-fresh-foam-x-hierro-v9",
+      "categoryId": "cat-running-shoes",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 13,
+      "words": 3599,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "new-balance-fuelcell-rebel-v4",
+      "categoryId": "cat-running-shoes",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 13,
+      "words": 3442,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "new-balance-fuelcell-rebel-v5",
+      "categoryId": "cat-running-shoes",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 13,
+      "words": 3546,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "new-balance-fuelcell-supercomp-elite-v4",
+      "categoryId": "cat-running-shoes",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 13,
+      "words": 3526,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "new-balance-fuelcell-supercomp-trainer-v3",
+      "categoryId": "cat-running-shoes",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 13,
+      "words": 3550,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "nike-invincible-3",
+      "categoryId": "cat-running-shoes",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 13,
+      "words": 3404,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "nike-pegasus-41",
+      "categoryId": "cat-running-shoes",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 13,
+      "words": 3470,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "nike-pegasus-trail-5",
+      "categoryId": "cat-running-shoes",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 13,
+      "words": 3529,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "nike-react-infinity-run-4",
+      "categoryId": "cat-running-shoes",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 13,
+      "words": 3546,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "nike-structure-26",
+      "categoryId": "cat-running-shoes",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 13,
+      "words": 3460,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "nike-structure-plus",
+      "categoryId": "cat-running-shoes",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 13,
+      "words": 3565,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "on-cloudmonster-2",
+      "categoryId": "cat-running-shoes",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 13,
+      "words": 3484,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "on-cloudmonster-hyper",
+      "categoryId": "cat-running-shoes",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 13,
+      "words": 3443,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "on-cloudsurfer-2",
+      "categoryId": "cat-running-shoes",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 13,
+      "words": 3444,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "on-cloudsurfer-next",
+      "categoryId": "cat-running-shoes",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 13,
+      "words": 3441,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "puma-deviate-nitro-3",
+      "categoryId": "cat-running-shoes",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 13,
+      "words": 3522,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "puma-magnify-nitro-2",
+      "categoryId": "cat-running-shoes",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 13,
+      "words": 3567,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "salomon-aero-glide-2",
+      "categoryId": "cat-running-shoes",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 13,
+      "words": 3485,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "salomon-genesis",
+      "categoryId": "cat-running-shoes",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 13,
+      "words": 3482,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "salomon-pulsar-trail-2",
+      "categoryId": "cat-running-shoes",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 13,
+      "words": 3516,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "salomon-sense-ride-5",
+      "categoryId": "cat-running-shoes",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 13,
+      "words": 3552,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "salomon-ultra-glide-2",
+      "categoryId": "cat-running-shoes",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 13,
+      "words": 3553,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "saucony-endorphin-pro-3",
+      "categoryId": "cat-running-shoes",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 13,
+      "words": 3545,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "saucony-endorphin-pro-4",
+      "categoryId": "cat-running-shoes",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 13,
+      "words": 3493,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "saucony-endorphin-speed-4",
+      "categoryId": "cat-running-shoes",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 13,
+      "words": 3629,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "saucony-guide-18",
+      "categoryId": "cat-running-shoes",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 13,
+      "words": 3442,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "saucony-peregrine-15",
+      "categoryId": "cat-running-shoes",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 13,
+      "words": 3500,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "saucony-ride-18",
+      "categoryId": "cat-running-shoes",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 13,
+      "words": 3459,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "saucony-triumph-22",
+      "categoryId": "cat-running-shoes",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 13,
+      "words": 3483,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "saucony-xodus-ultra-3",
+      "categoryId": "cat-running-shoes",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 13,
+      "words": 3492,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "topo-athletic-phantom-3",
+      "categoryId": "cat-running-shoes",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 13,
+      "words": 3529,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "topo-athletic-specter-2",
+      "categoryId": "cat-running-shoes",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 13,
+      "words": 3471,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "topo-athletic-terraventure-5",
+      "categoryId": "cat-running-shoes",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 13,
+      "words": 3557,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "apple-watch-ultra-2",
+      "categoryId": "cat-gps-watches",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 9,
+      "words": 2608,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "coros-apex-2-pro",
+      "categoryId": "cat-gps-watches",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 9,
+      "words": 2594,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "coros-pace-pro",
+      "categoryId": "cat-gps-watches",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 9,
+      "words": 2598,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "garmin-forerunner-165",
+      "categoryId": "cat-gps-watches",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 9,
+      "words": 2506,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "garmin-forerunner-255",
+      "categoryId": "cat-gps-watches",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 9,
+      "words": 2419,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "garmin-forerunner-265",
+      "categoryId": "cat-gps-watches",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 9,
+      "words": 2533,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "garmin-forerunner-55",
+      "categoryId": "cat-gps-watches",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 9,
+      "words": 2521,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "garmin-forerunner-570",
+      "categoryId": "cat-gps-watches",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 9,
+      "words": 2548,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "garmin-forerunner-965",
+      "categoryId": "cat-gps-watches",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 9,
+      "words": 2409,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "polar-pacer-pro",
+      "categoryId": "cat-gps-watches",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 9,
+      "words": 2518,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "polar-vantage-v3",
+      "categoryId": "cat-gps-watches",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 9,
+      "words": 2553,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "suunto-race",
+      "categoryId": "cat-gps-watches",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 9,
+      "words": 2513,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "suunto-race-s",
+      "categoryId": "cat-gps-watches",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 9,
+      "words": 2516,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "coros-heart-rate-monitor",
+      "categoryId": "cat-hrm",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 9,
+      "words": 2601,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "garmin-hrm-200",
+      "categoryId": "cat-hrm",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 9,
+      "words": 2652,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "garmin-hrm-pro-plus",
+      "categoryId": "cat-hrm",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 9,
+      "words": 2625,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "polar-h9",
+      "categoryId": "cat-hrm",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 9,
+      "words": 2560,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "suunto-smart-heart-rate-belt",
+      "categoryId": "cat-hrm",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 9,
+      "words": 2606,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "wahoo-tickr",
+      "categoryId": "cat-hrm",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 9,
+      "words": 2473,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "wahoo-tickr-fit",
+      "categoryId": "cat-hrm",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 9,
+      "words": 2689,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "wahoo-tickr-x",
+      "categoryId": "cat-hrm",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 9,
+      "words": 2583,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "wahoo-trackr",
+      "categoryId": "cat-hrm",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 9,
+      "words": 2644,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "black-diamond-distance-15",
+      "categoryId": "cat-packs-vests",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 3000,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "black-diamond-distance-22",
+      "categoryId": "cat-packs-vests",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2999,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "black-diamond-distance-8",
+      "categoryId": "cat-packs-vests",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2854,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "camelbak-apex-pro",
+      "categoryId": "cat-packs-vests",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 3065,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "camelbak-circuit-run-vest",
+      "categoryId": "cat-packs-vests",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2968,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "camelbak-zephyr",
+      "categoryId": "cat-packs-vests",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2765,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "camelbak-zephyr-pro",
+      "categoryId": "cat-packs-vests",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2943,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "compressport-ultrun-s-pack",
+      "categoryId": "cat-packs-vests",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2924,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "nathan-pinnacle-12",
+      "categoryId": "cat-packs-vests",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2939,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "nathan-vaporair-2",
+      "categoryId": "cat-packs-vests",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2858,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "nathan-vaporair-4",
+      "categoryId": "cat-packs-vests",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 3037,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "nnormal-race-vest",
+      "categoryId": "cat-packs-vests",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2913,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "on-ultra-vest-pro",
+      "categoryId": "cat-packs-vests",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2903,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "osprey-duro-15",
+      "categoryId": "cat-packs-vests",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2996,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "osprey-duro-6",
+      "categoryId": "cat-packs-vests",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2765,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "osprey-duro-lt",
+      "categoryId": "cat-packs-vests",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2847,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "osprey-dyna-6",
+      "categoryId": "cat-packs-vests",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2756,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "osprey-dyna-lt",
+      "categoryId": "cat-packs-vests",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2911,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "osprey-talon-velocity-30",
+      "categoryId": "cat-packs-vests",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 3012,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "osprey-tempest-velocity-20",
+      "categoryId": "cat-packs-vests",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 3028,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "salomon-adv-skin-12",
+      "categoryId": "cat-packs-vests",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2865,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "salomon-adv-skin-5",
+      "categoryId": "cat-packs-vests",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 3023,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "salomon-custom-quiver",
+      "categoryId": "cat-packs-vests",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 3071,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "salomon-xa-15",
+      "categoryId": "cat-packs-vests",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2921,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "ultimate-direction-adventure-vest",
+      "categoryId": "cat-packs-vests",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2796,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "ultimate-direction-fastpack-20",
+      "categoryId": "cat-packs-vests",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 3052,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "ultimate-direction-fastpack-30",
+      "categoryId": "cat-packs-vests",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2966,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "ultimate-direction-fastpack-her-20",
+      "categoryId": "cat-packs-vests",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2976,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "ultimate-direction-race-vest-6",
+      "categoryId": "cat-packs-vests",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 3034,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "ultimate-direction-utility-bag",
+      "categoryId": "cat-packs-vests",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2989,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "ultraspire-alpha-6",
+      "categoryId": "cat-packs-vests",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2913,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "ultraspire-spry-5",
+      "categoryId": "cat-packs-vests",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2913,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "uswe-pace-8",
+      "categoryId": "cat-packs-vests",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2933,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "balega-blister-resist",
+      "categoryId": "cat-running-socks",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2818,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "balega-hidden-comfort",
+      "categoryId": "cat-running-socks",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2708,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "cep-run-compression-sock-3",
+      "categoryId": "cat-running-socks",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2729,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "darn-tough-run-1-4",
+      "categoryId": "cat-running-socks",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2796,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "drymax-run-lite-mesh",
+      "categoryId": "cat-running-socks",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2890,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "feetures-elite-light-cushion",
+      "categoryId": "cat-running-socks",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2742,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "swiftwick-aspire-four",
+      "categoryId": "cat-running-socks",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2850,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "wrightsock-coolmesh-ii",
+      "categoryId": "cat-running-socks",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2898,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "apple-airpods-4",
+      "categoryId": "cat-headphones",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2877,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "apple-airpods-pro-2",
+      "categoryId": "cat-headphones",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2785,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "shokz-opendots-one",
+      "categoryId": "cat-headphones",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 3006,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "shokz-openrun-pro-2",
+      "categoryId": "cat-headphones",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2677,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "soundcore-aerofit-2",
+      "categoryId": "cat-headphones",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2883,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "suunto-wing",
+      "categoryId": "cat-headphones",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2839,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "adidas-own-the-run-short-men",
+      "categoryId": "cat-running-clothing",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2863,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "adidas-own-the-run-tee-men",
+      "categoryId": "cat-running-clothing",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2910,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "asics-core-split-short",
+      "categoryId": "cat-running-clothing",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2785,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "brooks-canopy-jacket-men",
+      "categoryId": "cat-running-clothing",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2882,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "brooks-chaser-5-women",
+      "categoryId": "cat-running-clothing",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2877,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "brooks-method-tight-women",
+      "categoryId": "cat-running-clothing",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2832,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "brooks-notch-thermal-beanie",
+      "categoryId": "cat-running-clothing",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2813,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "brooks-notch-thermal-men",
+      "categoryId": "cat-running-clothing",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2969,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "brooks-sherpa-7-men",
+      "categoryId": "cat-running-clothing",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2926,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "buff-coolnet-uv",
+      "categoryId": "cat-running-clothing",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2796,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "buff-merino-lightweight",
+      "categoryId": "cat-running-clothing",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2889,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "buff-original",
+      "categoryId": "cat-running-clothing",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2745,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "buff-polar",
+      "categoryId": "cat-running-clothing",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2803,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "ciele-gocap-athletics",
+      "categoryId": "cat-running-clothing",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2858,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "craft-active-extreme-x-men",
+      "categoryId": "cat-running-clothing",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2953,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "craft-adv-essence-light-wind-men",
+      "categoryId": "cat-running-clothing",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2910,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "craft-adv-essence-light-wind-vest-men",
+      "categoryId": "cat-running-clothing",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 3033,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "craft-adv-essence-short",
+      "categoryId": "cat-running-clothing",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2766,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "craft-adv-essence-tight-men",
+      "categoryId": "cat-running-clothing",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2885,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "craft-adv-lumen-glove",
+      "categoryId": "cat-running-clothing",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2901,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "janji-multi-short-men",
+      "categoryId": "cat-running-clothing",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 3008,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "janji-pace-short-women",
+      "categoryId": "cat-running-clothing",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2956,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "janji-rainrunner-men",
+      "categoryId": "cat-running-clothing",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2880,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "janji-run-tee-men",
+      "categoryId": "cat-running-clothing",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2779,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "nb-rc-essential-short-men",
+      "categoryId": "cat-running-clothing",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2950,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "nike-aerobill-cap",
+      "categoryId": "cat-running-clothing",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2883,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "nike-aeroswift-singlet-men",
+      "categoryId": "cat-running-clothing",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2807,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "nike-dri-fit-miler-men",
+      "categoryId": "cat-running-clothing",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2796,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "nike-dri-fit-miler-women",
+      "categoryId": "cat-running-clothing",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2827,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "nike-dri-fit-stride-short",
+      "categoryId": "cat-running-clothing",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2791,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "nike-fast-tight-men",
+      "categoryId": "cat-running-clothing",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2852,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "nike-impossibly-light-men",
+      "categoryId": "cat-running-clothing",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 3035,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "nike-swoosh-medium-support",
+      "categoryId": "cat-running-clothing",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2937,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "nike-therma-fit-glove",
+      "categoryId": "cat-running-clothing",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2908,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "odlo-active-warm-eco-bottom-men",
+      "categoryId": "cat-running-clothing",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2945,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "odlo-active-warm-eco-men",
+      "categoryId": "cat-running-clothing",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2970,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "on-performance-short-men",
+      "categoryId": "cat-running-clothing",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2828,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "on-performance-tight-women",
+      "categoryId": "cat-running-clothing",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2844,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "on-weather-jacket-men",
+      "categoryId": "cat-running-clothing",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2808,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "patagonia-capilene-cool-daily-men",
+      "categoryId": "cat-running-clothing",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2879,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "patagonia-capilene-midweight-zip-men",
+      "categoryId": "cat-running-clothing",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2812,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "patagonia-capilene-thermal-crew-men",
+      "categoryId": "cat-running-clothing",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2888,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "patagonia-endless-run-tight-women",
+      "categoryId": "cat-running-clothing",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2826,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "patagonia-houdini-men",
+      "categoryId": "cat-running-clothing",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2849,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "patagonia-nano-puff-vest-men",
+      "categoryId": "cat-running-clothing",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2941,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "patagonia-strider-pro-men",
+      "categoryId": "cat-running-clothing",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2939,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "patagonia-trailfarer-short-women",
+      "categoryId": "cat-running-clothing",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2817,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "rabbit-fuel-n-fly-men",
+      "categoryId": "cat-running-clothing",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 3087,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "salomon-bonatti-wp-men",
+      "categoryId": "cat-running-clothing",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2921,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "salomon-bonatti-wp-women",
+      "categoryId": "cat-running-clothing",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2855,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "smartwool-thermal-merino-glove",
+      "categoryId": "cat-running-clothing",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2865,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "tracksmith-brighton-ls-men",
+      "categoryId": "cat-running-clothing",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2926,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "tracksmith-session-short-men",
+      "categoryId": "cat-running-clothing",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2967,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "tracksmith-session-short-women",
+      "categoryId": "cat-running-clothing",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2811,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "tracksmith-turnover-tight-women",
+      "categoryId": "cat-running-clothing",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2844,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "tracksmith-twilight-half-men",
+      "categoryId": "cat-running-clothing",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2923,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "tracksmith-van-cortlandt-tee-men",
+      "categoryId": "cat-running-clothing",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2972,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "100-percent-s3",
+      "categoryId": "cat-sunglasses",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2812,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "goodr-circle-gs",
+      "categoryId": "cat-sunglasses",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2889,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "goodr-ogs",
+      "categoryId": "cat-sunglasses",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2709,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "julbo-aerolite",
+      "categoryId": "cat-sunglasses",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2654,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "julbo-ultimate",
+      "categoryId": "cat-sunglasses",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2760,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "oakley-encoder",
+      "categoryId": "cat-sunglasses",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2608,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "oakley-flak-2-0-xl",
+      "categoryId": "cat-sunglasses",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2932,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "oakley-kato",
+      "categoryId": "cat-sunglasses",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2723,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "oakley-radar-ev-path",
+      "categoryId": "cat-sunglasses",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2877,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "oakley-sutro-lite",
+      "categoryId": "cat-sunglasses",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2871,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "roka-phantom-air",
+      "categoryId": "cat-sunglasses",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2880,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "rudy-project-cutline",
+      "categoryId": "cat-sunglasses",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2914,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "smith-attack-mag",
+      "categoryId": "cat-sunglasses",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2840,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "smith-shift-mag",
+      "categoryId": "cat-sunglasses",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2860,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "tifosi-rail",
+      "categoryId": "cat-sunglasses",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2914,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "tifosi-vogel",
+      "categoryId": "cat-sunglasses",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2764,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "black-diamond-spot-400-r",
+      "categoryId": "cat-running-lights",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2700,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "ledlenser-neo9r",
+      "categoryId": "cat-running-lights",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 3002,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "petzl-actik-core",
+      "categoryId": "cat-running-lights",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2966,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "petzl-swift-rl",
+      "categoryId": "cat-running-lights",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2729,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "226ers-high-energy-gel",
+      "categoryId": "cat-nutrition",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 3135,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "clif-bloks-energy-chews",
+      "categoryId": "cat-nutrition",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 3085,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "enervit-c2-1-carbo-gel",
+      "categoryId": "cat-nutrition",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2987,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "gu-roctane-gel",
+      "categoryId": "cat-nutrition",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 3089,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "huma-gel-original",
+      "categoryId": "cat-nutrition",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2906,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "maurten-drink-mix-160",
+      "categoryId": "cat-nutrition",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2882,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "maurten-drink-mix-320",
+      "categoryId": "cat-nutrition",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2996,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "maurten-gel-100",
+      "categoryId": "cat-nutrition",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2999,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "maurten-gel-100-caf-100",
+      "categoryId": "cat-nutrition",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2975,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "naak-ultra-energy-drink-mix",
+      "categoryId": "cat-nutrition",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2970,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "neversecond-c30-gel",
+      "categoryId": "cat-nutrition",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 3009,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "neversecond-c30-sports-drink",
+      "categoryId": "cat-nutrition",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 3016,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "nuun-sport",
+      "categoryId": "cat-nutrition",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2897,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "powerbar-energize",
+      "categoryId": "cat-nutrition",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2845,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "precision-pf30-drink-mix",
+      "categoryId": "cat-nutrition",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 3042,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "precision-ph1500",
+      "categoryId": "cat-nutrition",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 3043,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "saltstick-caps",
+      "categoryId": "cat-nutrition",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2957,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "sis-beta-fuel-gel",
+      "categoryId": "cat-nutrition",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 3111,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "sis-go-isotonic-gel",
+      "categoryId": "cat-nutrition",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2991,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "skratch-sport-energy-chews",
+      "categoryId": "cat-nutrition",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2919,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "spring-energy-awesome-sauce",
+      "categoryId": "cat-nutrition",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 3085,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "styrkr-gel30",
+      "categoryId": "cat-nutrition",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2889,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "tailwind-endurance-fuel",
+      "categoryId": "cat-nutrition",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2962,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "veloforte-energy-chews",
+      "categoryId": "cat-nutrition",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2905,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "2toms-sportshield",
+      "categoryId": "cat-accessories",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2881,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "nathan-lightbender-rx",
+      "categoryId": "cat-safety",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 3021,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "proviz-reflect360-running-vest",
+      "categoryId": "cat-safety",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2971,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "adidas-adipower-weightlifting-2",
+      "categoryId": "cat-training-shoes",
+      "sport": "other",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2968,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "adidas-adipower-weightlifting-3",
+      "categoryId": "cat-training-shoes",
+      "sport": "other",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2891,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "adidas-barricade-13",
+      "categoryId": "cat-tennis-shoes",
+      "sport": "padel",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2687,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "adidas-courtjam-control-3",
+      "categoryId": "cat-tennis-shoes",
+      "sport": "padel",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2714,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "adidas-courtquick-padel-women",
+      "categoryId": "cat-padel-shoes",
+      "sport": "padel",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2742,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "adidas-courtstabil-padel",
+      "categoryId": "cat-padel-shoes",
+      "sport": "padel",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2680,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "adidas-crazyquick-boost-padel",
+      "categoryId": "cat-padel-shoes",
+      "sport": "padel",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2736,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "adidas-crazyquick-boost-padel-women",
+      "categoryId": "cat-padel-shoes",
+      "sport": "padel",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2787,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "adidas-dropset-2",
+      "categoryId": "cat-training-shoes",
+      "sport": "other",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 3036,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "adidas-dropset-3",
+      "categoryId": "cat-training-shoes",
+      "sport": "other",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2929,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "adidas-metalbone-2026",
+      "categoryId": "cat-padel-rackets",
+      "sport": "padel",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2727,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "adidas-metalbone-hrd-2026",
+      "categoryId": "cat-padel-rackets",
+      "sport": "padel",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2705,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "adidas-powerlift-5",
+      "categoryId": "cat-training-shoes",
+      "sport": "other",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2929,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "adidas-rapidmove-adv",
+      "categoryId": "cat-training-shoes",
+      "sport": "other",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2899,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "adidas-solematch-control-2",
+      "categoryId": "cat-tennis-shoes",
+      "sport": "padel",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2746,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "adidas-the-total",
+      "categoryId": "cat-training-shoes",
+      "sport": "other",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2900,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "amphipod-hydraform-ergo-lite-handheld",
+      "categoryId": "cat-hydration",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 3020,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "asics-game-ff-padel",
+      "categoryId": "cat-padel-shoes",
+      "sport": "padel",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2737,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "asics-gel-challenger-15",
+      "categoryId": "cat-tennis-shoes",
+      "sport": "padel",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2717,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "asics-gel-challenger-court",
+      "categoryId": "cat-padel-shoes",
+      "sport": "padel",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2663,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "asics-gel-dedicate-8",
+      "categoryId": "cat-tennis-shoes",
+      "sport": "padel",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2726,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "asics-gel-dedicate-8-padel",
+      "categoryId": "cat-padel-shoes",
+      "sport": "padel",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2721,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "asics-gel-quantum-360-8",
+      "categoryId": "cat-training-shoes",
+      "sport": "other",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 3023,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "asics-gel-resolution-9",
+      "categoryId": "cat-tennis-shoes",
+      "sport": "tennis",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2702,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "asics-gel-resolution-9-clay",
+      "categoryId": "cat-tennis-shoes",
+      "sport": "padel",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2673,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "asics-gel-resolution-padel",
+      "categoryId": "cat-padel-shoes",
+      "sport": "padel",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2705,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "asics-solution-speed-ff-3",
+      "categoryId": "cat-tennis-shoes",
+      "sport": "padel",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2787,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "asics-solution-swift-ff2-padel",
+      "categoryId": "cat-padel-shoes",
+      "sport": "padel",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2789,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "assaultbike-classic",
+      "categoryId": "cat-air-bikes",
+      "sport": "fitness",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2704,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "assaultbike-elite",
+      "categoryId": "cat-air-bikes",
+      "sport": "fitness",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2678,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "assaultrunner-elite",
+      "categoryId": "cat-treadmills",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2735,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "assaultrunner-pro",
+      "categoryId": "cat-treadmills",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2749,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "atx-cast-iron-plate-set",
+      "categoryId": "cat-weight-plates",
+      "sport": "other",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 3053,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "atx-fid-bench",
+      "categoryId": "cat-weight-benches",
+      "sport": "other",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2710,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "babolat-counter-viper-2026",
+      "categoryId": "cat-padel-rackets",
+      "sport": "padel",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2649,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "babolat-jet-mach-3",
+      "categoryId": "cat-tennis-shoes",
+      "sport": "padel",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2756,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "babolat-jet-premura",
+      "categoryId": "cat-padel-shoes",
+      "sport": "padel",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2707,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "babolat-movea-2",
+      "categoryId": "cat-padel-shoes",
+      "sport": "padel",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2694,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "babolat-pure-aero-2023",
+      "categoryId": "cat-tennis-rackets",
+      "sport": "tennis",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2716,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "babolat-pure-aero-2026",
+      "categoryId": "cat-tennis-rackets",
+      "sport": "tennis",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2782,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "babolat-pure-drive-2025",
+      "categoryId": "cat-tennis-rackets",
+      "sport": "tennis",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2685,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "babolat-pure-drive-gen11",
+      "categoryId": "cat-tennis-rackets",
+      "sport": "tennis",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2795,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "babolat-sensa-women",
+      "categoryId": "cat-padel-shoes",
+      "sport": "padel",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2696,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "babolat-technical-viper-2026",
+      "categoryId": "cat-padel-rackets",
+      "sport": "padel",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2742,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "black-crown-special-one-soft",
+      "categoryId": "cat-padel-rackets",
+      "sport": "padel",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2756,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "blackroll-ball",
+      "categoryId": "cat-lifting-accessories",
+      "sport": "other",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2820,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "blackroll-duoball",
+      "categoryId": "cat-lifting-accessories",
+      "sport": "other",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2871,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "blackroll-med",
+      "categoryId": "cat-lifting-accessories",
+      "sport": "other",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2873,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "blackroll-pro",
+      "categoryId": "cat-recovery-gear",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2899,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "blackroll-standard",
+      "categoryId": "cat-lifting-accessories",
+      "sport": "other",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2866,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "bowflex-selecttech-1090",
+      "categoryId": "cat-adjustable-dumbbells",
+      "sport": "other",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2731,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "bowflex-selecttech-552",
+      "categoryId": "cat-adjustable-dumbbells",
+      "sport": "other",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2733,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "brazyn-morph",
+      "categoryId": "cat-recovery-gear",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2826,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "bullpadel-hack-03",
+      "categoryId": "cat-padel-rackets",
+      "sport": "padel",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2671,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "bullpadel-hack-04-2026",
+      "categoryId": "cat-padel-rackets",
+      "sport": "padel",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2722,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "bullpadel-hybrid-fly",
+      "categoryId": "cat-padel-shoes",
+      "sport": "padel",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2692,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "bullpadel-ionic-woman",
+      "categoryId": "cat-padel-shoes",
+      "sport": "padel",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2687,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "bullpadel-vertex-04",
+      "categoryId": "cat-padel-rackets",
+      "sport": "padel",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2696,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "bullpadel-vertex-05-2026",
+      "categoryId": "cat-padel-rackets",
+      "sport": "padel",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2785,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "camelbak-quick-grip-chill",
+      "categoryId": "cat-hydration",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2932,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "cep-calf-sleeves-3",
+      "categoryId": "cat-recovery-gear",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2867,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "cep-the-run-calf-sleeves",
+      "categoryId": "cat-recovery-gear",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2909,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "compressport-free-belt-pro",
+      "categoryId": "cat-running-belts",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2863,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "concept2-bikeerg",
+      "categoryId": "cat-air-bikes",
+      "sport": "fitness",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2641,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "concept2-rowerg",
+      "categoryId": "cat-rowing-machines",
+      "sport": "fitness",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2812,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "concept2-rowerg-dynamic",
+      "categoryId": "cat-rowing-machines",
+      "sport": "fitness",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2928,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "concept2-skierg",
+      "categoryId": "cat-ski-ergs",
+      "sport": "fitness",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2942,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "concept2-skierg-floor-stand",
+      "categoryId": "cat-ski-ergs",
+      "sport": "fitness",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2930,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "concept2-skierg-with-stand",
+      "categoryId": "cat-ski-ergs",
+      "sport": "fitness",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2880,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "do-win-classic",
+      "categoryId": "cat-training-shoes",
+      "sport": "other",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2922,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "drop-shot-canyon-pro-2026",
+      "categoryId": "cat-padel-rackets",
+      "sport": "padel",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2626,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "dunlop-cx-200",
+      "categoryId": "cat-tennis-rackets",
+      "sport": "tennis",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2652,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "eleiko-kettlebell",
+      "categoryId": "cat-kettlebells",
+      "sport": "fitness",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2757,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "eleiko-performance-weightlifting-bar",
+      "categoryId": "cat-barbells",
+      "sport": "other",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2837,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "eleiko-sport-bumper-set",
+      "categoryId": "cat-weight-plates",
+      "sport": "other",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 3011,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "eleiko-sport-collars",
+      "categoryId": "cat-lifting-accessories",
+      "sport": "other",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2841,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "eleiko-xf-bar",
+      "categoryId": "cat-barbells",
+      "sport": "other",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2874,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "fitletic-fully-loaded",
+      "categoryId": "cat-running-belts",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2883,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "flipbelt-classic",
+      "categoryId": "cat-running-belts",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2704,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "gornation-parallettes-pro",
+      "categoryId": "cat-parallettes",
+      "sport": "other",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2749,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "gornation-premium-pull-up-bar",
+      "categoryId": "cat-pull-up-bars",
+      "sport": "other",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2881,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "gravity-fitness-parallettes",
+      "categoryId": "cat-parallettes",
+      "sport": "other",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2766,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "gravity-fitness-weighted-vest",
+      "categoryId": "cat-weighted-vests",
+      "sport": "fitness",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2689,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "head-coello-pro-2026",
+      "categoryId": "cat-padel-rackets",
+      "sport": "padel",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2683,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "head-extreme-motion-2026",
+      "categoryId": "cat-padel-rackets",
+      "sport": "padel",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2828,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "head-extreme-pro-padel-2026",
+      "categoryId": "cat-padel-rackets",
+      "sport": "padel",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2700,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "head-padel-pro-s-balls",
+      "categoryId": "cat-padel-balls",
+      "sport": "padel",
+      "outcome": "NEEDS_RESEARCH",
+      "gaps": [
+        "not_eligible_question_map"
+      ]
+    },
+    {
+      "slug": "head-radical-mp-2023",
+      "categoryId": "cat-tennis-rackets",
+      "sport": "tennis",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2726,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "head-revolt-pro-court",
+      "categoryId": "cat-padel-shoes",
+      "sport": "padel",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2787,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "head-speed-mp-2024",
+      "categoryId": "cat-tennis-rackets",
+      "sport": "tennis",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2721,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "head-speed-mp-2026",
+      "categoryId": "cat-tennis-rackets",
+      "sport": "tennis",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2725,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "head-sprint-pro-4-padel",
+      "categoryId": "cat-padel-shoes",
+      "sport": "padel",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2836,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "hoka-transport",
+      "categoryId": "cat-training-shoes",
+      "sport": "other",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2965,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "horizon-t202-treadmill",
+      "categoryId": "cat-treadmills",
+      "sport": "fitness",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2668,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "hydrapak-contour-2l",
+      "categoryId": "cat-hydration",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2904,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "hydrapak-skyflask-speed-500",
+      "categoryId": "cat-hydration",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2945,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "hydrapak-softflask-500",
+      "categoryId": "cat-hydration",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2782,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "hydrapak-softflask-speed-500",
+      "categoryId": "cat-hydration",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2999,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "hydrapak-tube-kit",
+      "categoryId": "cat-hydration",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2828,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "hydrow-wave",
+      "categoryId": "cat-rowing-machines",
+      "sport": "fitness",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2783,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "hyperice-hypervolt-2",
+      "categoryId": "cat-recovery-gear",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2921,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "hyperice-hypervolt-go-2",
+      "categoryId": "cat-recovery-gear",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2727,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "hyperice-vyper-3",
+      "categoryId": "cat-recovery-gear",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2948,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "inov8-f-lite-235-v3",
+      "categoryId": "cat-training-shoes",
+      "sport": "fitness",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2984,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "inov8-f-lite-260",
+      "categoryId": "cat-training-shoes",
+      "sport": "fitness",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2950,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "inov8-fastlift-360",
+      "categoryId": "cat-training-shoes",
+      "sport": "other",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2836,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "inov8-fastlift-400",
+      "categoryId": "cat-training-shoes",
+      "sport": "other",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2950,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "inov8-fastlift-power-g-380",
+      "categoryId": "cat-training-shoes",
+      "sport": "other",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2958,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "joma-slam-lady",
+      "categoryId": "cat-padel-shoes",
+      "sport": "padel",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2708,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "joma-spin-men",
+      "categoryId": "cat-padel-shoes",
+      "sport": "padel",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2748,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "joma-t-slam",
+      "categoryId": "cat-padel-shoes",
+      "sport": "padel",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2636,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "k-swiss-hypercourt-express-2",
+      "categoryId": "cat-tennis-shoes",
+      "sport": "padel",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2721,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "k-swiss-ultrashot-3",
+      "categoryId": "cat-tennis-shoes",
+      "sport": "padel",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2633,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "kuikma-pr-soft-500",
+      "categoryId": "cat-padel-rackets",
+      "sport": "padel",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2631,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "kuikma-ps-990",
+      "categoryId": "cat-padel-shoes",
+      "sport": "padel",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2729,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "lok-maxx-flow",
+      "categoryId": "cat-padel-rackets",
+      "sport": "padel",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2745,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "lululemon-strongfeel",
+      "categoryId": "cat-training-shoes",
+      "sport": "other",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2870,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "mirafit-air-bike",
+      "categoryId": "cat-air-bikes",
+      "sport": "fitness",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2670,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "mirafit-battle-rope",
+      "categoryId": "cat-functional-fitness",
+      "sport": "fitness",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2696,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "mirafit-bumper-plate-set",
+      "categoryId": "cat-weight-plates",
+      "sport": "other",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 3000,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "mirafit-cast-iron-kettlebell",
+      "categoryId": "cat-kettlebells",
+      "sport": "fitness",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2843,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "mirafit-folding-rower",
+      "categoryId": "cat-rowing-machines",
+      "sport": "fitness",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2764,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "mirafit-folding-treadmill",
+      "categoryId": "cat-treadmills",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2745,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "mirafit-gym-mats",
+      "categoryId": "cat-gym-flooring",
+      "sport": "other",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2775,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "mirafit-m3-power-rack",
+      "categoryId": "cat-power-racks",
+      "sport": "other",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2790,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "mirafit-m4-cage",
+      "categoryId": "cat-power-racks",
+      "sport": "other",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2806,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "mirafit-magnetic-rower",
+      "categoryId": "cat-rowing-machines",
+      "sport": "fitness",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2846,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "mirafit-olympic-barbell",
+      "categoryId": "cat-barbells",
+      "sport": "other",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2812,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "mirafit-wall-pull-up-bar",
+      "categoryId": "cat-pull-up-bars",
+      "sport": "other",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2858,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "mirafit-weighted-vest",
+      "categoryId": "cat-weighted-vests",
+      "sport": "fitness",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2674,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "naked-running-band",
+      "categoryId": "cat-running-belts",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2808,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "nathan-exoshot-2",
+      "categoryId": "cat-hydration",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2671,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "nathan-mirage-pak",
+      "categoryId": "cat-running-belts",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2716,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "nathan-softflask-18oz",
+      "categoryId": "cat-hydration",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2992,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "nathan-speeddraw-plus-insulated-18oz",
+      "categoryId": "cat-hydration",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2997,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "nathan-zipster-lite",
+      "categoryId": "cat-running-belts",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2895,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "nb-minimus-tr",
+      "categoryId": "cat-training-shoes",
+      "sport": "other",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2919,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "nike-court-vapor-pro-3",
+      "categoryId": "cat-tennis-shoes",
+      "sport": "padel",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2775,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "nike-free-metcon-6",
+      "categoryId": "cat-training-shoes",
+      "sport": "fitness",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2803,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "nike-metcon-8",
+      "categoryId": "cat-training-shoes",
+      "sport": "fitness",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2794,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "nike-metcon-9",
+      "categoryId": "cat-training-shoes",
+      "sport": "fitness",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2937,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "nike-romaleos-4",
+      "categoryId": "cat-training-shoes",
+      "sport": "other",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2971,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "nike-romaleos-5",
+      "categoryId": "cat-training-shoes",
+      "sport": "other",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2920,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "nike-savaleos",
+      "categoryId": "cat-training-shoes",
+      "sport": "other",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2930,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "nobull-outwork",
+      "categoryId": "cat-training-shoes",
+      "sport": "fitness",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2905,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "nobull-trainer",
+      "categoryId": "cat-training-shoes",
+      "sport": "fitness",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2879,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "nobull-trainer-plus",
+      "categoryId": "cat-training-shoes",
+      "sport": "fitness",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2665,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "nox-at10-genius-12k-alum-xtrem-2026",
+      "categoryId": "cat-padel-rackets",
+      "sport": "padel",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2826,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "nox-at10-genius-18k-2026",
+      "categoryId": "cat-padel-rackets",
+      "sport": "padel",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2746,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "nox-at10-lux",
+      "categoryId": "cat-padel-shoes",
+      "sport": "padel",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2703,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "nox-ml10-hexa",
+      "categoryId": "cat-padel-shoes",
+      "sport": "padel",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2702,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "nox-ml10-pro-cup-2026",
+      "categoryId": "cat-padel-rackets",
+      "sport": "padel",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2740,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "nuobell-50",
+      "categoryId": "cat-adjustable-dumbbells",
+      "sport": "other",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2715,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "nuobell-80",
+      "categoryId": "cat-adjustable-dumbbells",
+      "sport": "other",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2707,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "oofos-oolala",
+      "categoryId": "cat-recovery-gear",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2738,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "oofos-ooriginal",
+      "categoryId": "cat-recovery-gear",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2678,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "osprey-hydraulics-lt-15",
+      "categoryId": "cat-hydration",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2903,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "oxdog-sense-pro",
+      "categoryId": "cat-padel-rackets",
+      "sport": "padel",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2726,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "powerblock-elite-exp-90",
+      "categoryId": "cat-adjustable-dumbbells",
+      "sport": "other",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2750,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "powerblock-pro-series-100",
+      "categoryId": "cat-adjustable-dumbbells",
+      "sport": "other",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2672,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "powerblock-pro-series-50",
+      "categoryId": "cat-adjustable-dumbbells",
+      "sport": "other",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2651,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "prince-textreme-tour-100p",
+      "categoryId": "cat-tennis-rackets",
+      "sport": "tennis",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2675,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "pullup-and-dip-doorway-bar",
+      "categoryId": "cat-pull-up-bars",
+      "sport": "other",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2885,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "pullup-and-dip-parallettes",
+      "categoryId": "cat-parallettes",
+      "sport": "other",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2767,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "pullup-and-dip-wall-bar",
+      "categoryId": "cat-pull-up-bars",
+      "sport": "other",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2910,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "puma-fuse-3",
+      "categoryId": "cat-training-shoes",
+      "sport": "fitness",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2656,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "puma-fuse-fasted",
+      "categoryId": "cat-training-shoes",
+      "sport": "fitness",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2948,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "reebok-legacy-lifter-iii",
+      "categoryId": "cat-training-shoes",
+      "sport": "other",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2915,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "reebok-lifter-pr-iii",
+      "categoryId": "cat-training-shoes",
+      "sport": "other",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2944,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "reebok-nano-court",
+      "categoryId": "cat-training-shoes",
+      "sport": "fitness",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2926,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "reebok-nano-x3",
+      "categoryId": "cat-training-shoes",
+      "sport": "fitness",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2801,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "reebok-nano-x4",
+      "categoryId": "cat-training-shoes",
+      "sport": "fitness",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2843,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "rep-ab-5000-zero-gap",
+      "categoryId": "cat-weight-benches",
+      "sport": "other",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2828,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "rep-ab-5200",
+      "categoryId": "cat-weight-benches",
+      "sport": "other",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2690,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "rep-black-bumper-plate-set",
+      "categoryId": "cat-weight-plates",
+      "sport": "other",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2963,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "rep-colorado-bar",
+      "categoryId": "cat-barbells",
+      "sport": "other",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2911,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "rep-fb-5000-flat-bench",
+      "categoryId": "cat-weight-benches",
+      "sport": "other",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2706,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "rep-fitness-kettlebell",
+      "categoryId": "cat-kettlebells",
+      "sport": "fitness",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2856,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "rep-pr-4000",
+      "categoryId": "cat-power-racks",
+      "sport": "other",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2707,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "rep-pr-5000",
+      "categoryId": "cat-power-racks",
+      "sport": "other",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2665,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "rep-quickdraw-adjustable-dumbbells",
+      "categoryId": "cat-adjustable-dumbbells",
+      "sport": "other",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2721,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "rep-slam-ball",
+      "categoryId": "cat-functional-fitness",
+      "sport": "fitness",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2746,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "rogue-adjustable-bench-3-0",
+      "categoryId": "cat-weight-benches",
+      "sport": "other",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2732,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "rogue-dog-sled",
+      "categoryId": "cat-functional-fitness",
+      "sport": "fitness",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2667,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "rogue-echo-bike",
+      "categoryId": "cat-air-bikes",
+      "sport": "fitness",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2685,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "rogue-echo-bumper-plate-set",
+      "categoryId": "cat-weight-plates",
+      "sport": "other",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2962,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "rogue-echo-kettlebell",
+      "categoryId": "cat-kettlebells",
+      "sport": "fitness",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2831,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "rogue-flat-utility-bench",
+      "categoryId": "cat-weight-benches",
+      "sport": "other",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2730,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "rogue-flogging-horse-stall-mat-note",
+      "categoryId": "cat-gym-flooring",
+      "sport": "other",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2891,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "rogue-kettlebell",
+      "categoryId": "cat-kettlebells",
+      "sport": "fitness",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2798,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "rogue-monster-lite-pull-up-bar",
+      "categoryId": "cat-pull-up-bars",
+      "sport": "other",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2932,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "rogue-ohio-bar",
+      "categoryId": "cat-barbells",
+      "sport": "other",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2900,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "rogue-ohio-power-bar",
+      "categoryId": "cat-barbells",
+      "sport": "other",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2936,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "rogue-plate-carrier-vest",
+      "categoryId": "cat-weighted-vests",
+      "sport": "fitness",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2890,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "rogue-sandbag",
+      "categoryId": "cat-functional-fitness",
+      "sport": "fitness",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2655,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "rogue-wall-ball",
+      "categoryId": "cat-functional-fitness",
+      "sport": "fitness",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2689,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "rogue-wrist-wraps",
+      "categoryId": "cat-lifting-accessories",
+      "sport": "other",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2970,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "royal-padel-m27-poly-2026",
+      "categoryId": "cat-padel-rackets",
+      "sport": "padel",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2739,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "salming-race-9",
+      "categoryId": "cat-training-shoes",
+      "sport": "fitness",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 3011,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "salming-rebel",
+      "categoryId": "cat-training-shoes",
+      "sport": "fitness",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2908,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "salomon-pulse-belt",
+      "categoryId": "cat-running-belts",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2929,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "salomon-soft-flask-500",
+      "categoryId": "cat-hydration",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2809,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "salomon-soft-reservoir-15",
+      "categoryId": "cat-hydration",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2980,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "schwinn-airdyne-ad8",
+      "categoryId": "cat-air-bikes",
+      "sport": "fitness",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2704,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "siux-diablo-revolution-2026",
+      "categoryId": "cat-padel-rackets",
+      "sport": "padel",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2675,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "skierg2-wall-mount",
+      "categoryId": "cat-ski-ergs",
+      "sport": "fitness",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2616,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "sole-f80-treadmill",
+      "categoryId": "cat-treadmills",
+      "sport": "fitness",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2639,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "spibelt-original",
+      "categoryId": "cat-running-belts",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2612,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "starvie-basalto-osiris-2026",
+      "categoryId": "cat-padel-rackets",
+      "sport": "padel",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2660,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "starvie-titania-kepler-2026",
+      "categoryId": "cat-padel-rackets",
+      "sport": "padel",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2664,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "tecnifibre-tf40-305",
+      "categoryId": "cat-tennis-rackets",
+      "sport": "tennis",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2673,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "tecnifibre-tfight-300s-2025",
+      "categoryId": "cat-tennis-rackets",
+      "sport": "tennis",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2785,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "tecnifibre-wall-breaker-365",
+      "categoryId": "cat-padel-rackets",
+      "sport": "padel",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2750,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "therabody-theragun-mini-2",
+      "categoryId": "cat-recovery-gear",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2658,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "therabody-theragun-prime",
+      "categoryId": "cat-recovery-gear",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2915,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "therabody-theragun-pro",
+      "categoryId": "cat-recovery-gear",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2904,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "triggerpoint-grid-travel",
+      "categoryId": "cat-recovery-gear",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2963,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "triggerpoint-grid-x",
+      "categoryId": "cat-recovery-gear",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2938,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "tyr-cxt-1",
+      "categoryId": "cat-training-shoes",
+      "sport": "fitness",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2648,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "tyr-cxt-2",
+      "categoryId": "cat-training-shoes",
+      "sport": "fitness",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2858,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "tyr-cxt1-trainer",
+      "categoryId": "cat-training-shoes",
+      "sport": "fitness",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2659,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "ua-charged-commit-4",
+      "categoryId": "cat-training-shoes",
+      "sport": "other",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 3006,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "ua-project-rock-bsr-4",
+      "categoryId": "cat-training-shoes",
+      "sport": "other",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 3041,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "ua-reign-lifter",
+      "categoryId": "cat-training-shoes",
+      "sport": "other",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2967,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "ua-tribase-reign-6",
+      "categoryId": "cat-training-shoes",
+      "sport": "other",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2931,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "ultimate-direction-body-bottle-500",
+      "categoryId": "cat-hydration",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 3138,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "ultraspire-fitted-race-belt-2",
+      "categoryId": "cat-running-belts",
+      "sport": "running",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2941,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "varlion-lw-carbon-difusor-2026",
+      "categoryId": "cat-padel-rackets",
+      "sport": "padel",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2701,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "vivobarefoot-primus-lite-iii",
+      "categoryId": "cat-training-shoes",
+      "sport": "other",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2995,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "waterrower-a1",
+      "categoryId": "cat-rowing-machines",
+      "sport": "fitness",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2831,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "wilson-bela-pro-v2-2026",
+      "categoryId": "cat-padel-rackets",
+      "sport": "padel",
+      "outcome": "NEEDS_RESEARCH",
+      "gaps": [
+        "not_eligible_question_map"
+      ]
+    },
+    {
+      "slug": "wilson-blade-100-v9",
+      "categoryId": "cat-tennis-rackets",
+      "sport": "tennis",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2800,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "wilson-blade-98-v8",
+      "categoryId": "cat-tennis-rackets",
+      "sport": "tennis",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2766,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "wilson-blade-98-v9",
+      "categoryId": "cat-tennis-rackets",
+      "sport": "tennis",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2767,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "wilson-blade-pro-v2-padel-2026",
+      "categoryId": "cat-padel-rackets",
+      "sport": "padel",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2738,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "wilson-clash-100-v2",
+      "categoryId": "cat-tennis-rackets",
+      "sport": "tennis",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2675,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "wilson-clash-100-v3",
+      "categoryId": "cat-tennis-rackets",
+      "sport": "tennis",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2748,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "wilson-padel-overgrip-pack",
+      "categoryId": "cat-padel-grips",
+      "sport": "padel",
+      "outcome": "NEEDS_RESEARCH",
+      "gaps": [
+        "not_eligible_question_map"
+      ]
+    },
+    {
+      "slug": "wilson-rush-pro-4-0",
+      "categoryId": "cat-tennis-shoes",
+      "sport": "tennis",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2719,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "wilson-rush-pro-5-padel",
+      "categoryId": "cat-padel-shoes",
+      "sport": "padel",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2759,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "wilson-rush-pro-ace",
+      "categoryId": "cat-tennis-shoes",
+      "sport": "padel",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2749,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "woodway-curve-trainer",
+      "categoryId": "cat-treadmills",
+      "sport": "fitness",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2638,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "xebex-ski-erg",
+      "categoryId": "cat-ski-ergs",
+      "sport": "fitness",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2822,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "xero-prio",
+      "categoryId": "cat-training-shoes",
+      "sport": "other",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2913,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "yonex-ezone-100-2025",
+      "categoryId": "cat-tennis-rackets",
+      "sport": "tennis",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2777,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "yonex-ezone-98-2024",
+      "categoryId": "cat-tennis-rackets",
+      "sport": "tennis",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2706,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "yonex-vcore-100-2023",
+      "categoryId": "cat-tennis-rackets",
+      "sport": "tennis",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2691,
+      "scaffoldHits": 0
+    },
+    {
+      "slug": "yonex-vcore-98-2026",
+      "categoryId": "cat-tennis-rackets",
+      "sport": "tennis",
+      "outcome": "READY",
+      "sectionCount": 10,
+      "words": 2804,
+      "scaffoldHits": 0
+    }
+  ],
+  "needsResearch": [
+    {
+      "slug": "head-padel-pro-s-balls",
+      "gaps": [
+        "not_eligible_question_map"
+      ]
+    },
+    {
+      "slug": "wilson-bela-pro-v2-2026",
+      "gaps": [
+        "not_eligible_question_map"
+      ]
+    },
+    {
+      "slug": "wilson-padel-overgrip-pack",
+      "gaps": [
+        "not_eligible_question_map"
+      ]
+    }
+  ]
+}

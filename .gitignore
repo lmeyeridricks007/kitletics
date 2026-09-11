@@ -32,6 +32,46 @@ yarn-error.log*
 
 # env files (can opt-in for committing if needed)
 .env*
+!.env.example
+
+# Excel / Office lock files
+~$*
+
+# Local scratch
+/tmp/
+
+# Product media (~7GB) — keep local; host via Vercel deploy/Blob, not GitHub
+/public/images/**
+!/public/images/.gitkeep
+!/public/images/README.md
+
+# Local QA / orphan media archives (not required for runtime)
+/data/qa/
+/data/media-orphans/
+
+# product onboarding staging sessions (keep directory structure)
+/data/staging/onboarding/sessions/
+/data/staging/onboarding/products/
+/data/staging/onboarding/reports/
+/data/staging/onboarding/evidence/
+/data/staging/onboarding/media/
+/data/staging/onboarding/recommendations/
+/data/staging/onboarding/relationships/
+/data/staging/onboarding/offers/
+!/data/staging/onboarding/.gitkeep
+
+# product review agent staging
+/data/staging/reviews/sessions/
+/data/staging/reviews/drafts/
+/data/staging/reviews/reports/
+/data/staging/reviews/checkpoints/
+!/data/staging/reviews/.gitkeep
+!/data/staging/reviews/locks/
+
+# maintenance staging
+/data/staging/maintenance/
+!/data/staging/maintenance/.gitkeep
+/reports/maintenance/*-dry-run.md
 
 # vercel
 .vercel
@@ -39,3 +79,14 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Compiled media OCR helper (built from scripts/lib/vision-ocr.swift)
+scripts/bin/
+
+# Mislabelled hero backups (local OCR fixtures)
+public/images/**/*.WRONG*.bak
+
+# Extreme source masters archived outside the production tree (Fix 77)
+/data/media-originals/**
+!/data/media-originals/README.md
+!/data/media-originals/manifest.json

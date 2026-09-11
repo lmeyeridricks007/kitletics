@@ -1,0 +1,260 @@
+{
+  "generatedAt": "2026-09-10T08:57:58.995Z",
+  "editorialStatus": "READY",
+  "readOnly": true,
+  "afterFixes": "53-58",
+  "reviews": {
+    "total": 585,
+    "READY": 585,
+    "DUPLICATIVE": 0,
+    "NEEDS_DIFF": 0,
+    "NEEDS_RESEARCH": 0,
+    "BLOCKED": 0,
+    "INDEXABLE": 367,
+    "LAUNCH_READY_quality": 585,
+    "NMW_quality": 0,
+    "THIN_quality": 0,
+    "fakeFirstHand": 0,
+    "indexableDuplicative": 0,
+    "indexableNeedsDiff": 0,
+    "uniquenessHold": 0,
+    "blockedEvidence": 0,
+    "missingProduct": 0
+  },
+  "best": {
+    "total": 59,
+    "READY": 59,
+    "LAUNCH_READY": 59,
+    "NMW": 0,
+    "THIN": 0,
+    "BLOCKED": 0,
+    "INDEXABLE": 45,
+    "brokenRecs": 0
+  },
+  "guides": {
+    "total": 69,
+    "READY": 69,
+    "COMPLETE": 69,
+    "uniquenessIssues": 0,
+    "intentConflicts": 0,
+    "INDEXABLE": 42,
+    "unfinished": 0,
+    "brokenProducts": 0
+  },
+  "comparisons": {
+    "total": 94,
+    "READY": 94,
+    "DUPLICATIVE": 0,
+    "NEEDS_DIFF": 2,
+    "brokenRefs": 0,
+    "INDEXABLE": 65,
+    "MEANINGFUL": 94,
+    "THIN": 0,
+    "indexableNeedsDiff": 0,
+    "indexableDuplicative": 0,
+    "indexableBroken": 0
+  },
+  "alternatives": {
+    "total": 405,
+    "READY": 248,
+    "DUPLICATIVE": 0,
+    "NEEDS_DIFF": 30,
+    "INDEXABLE": 92,
+    "thin": 157,
+    "brokenTargets": 0,
+    "indexableDuplicative": 0,
+    "indexableNeedsDiff": 0
+  },
+  "brands": {
+    "total": 191,
+    "READY": 69,
+    "HOLD_INSUFFICIENT_DEPTH": 91,
+    "HOLD_NO_PRODUCTS": 31,
+    "HOLD_DEPTH_GATE": 0,
+    "UNIQUENESS_HOLD": 0
+  },
+  "categoryEditorial": {
+    "total": 14,
+    "READY": 14,
+    "notReady": []
+  },
+  "firstHandUnsupported": 0,
+  "evidenceUnsupportedOnIndexable": 0,
+  "blockedEvidenceReviews": 0,
+  "cannibalization": {
+    "collisions": 148,
+    "unresolvedMaterial": 0,
+    "hardMerges": 0,
+    "intentHolds": 0,
+    "note": "Fix 46 audit + live EDITORIAL_INTENT_HOLD_PATHS"
+  },
+  "editorialOrphans": 0,
+  "orphanSample": [],
+  "topSimilarityClusters": [
+    {
+      "a": "biolite-headlamp-800-pro",
+      "b": "black-diamond-distance-1500",
+      "score": 0.719,
+      "categoryId": "cat-running-lights"
+    },
+    {
+      "a": "suunto-vertical-2",
+      "b": "polar-grit-x2",
+      "score": 0.715,
+      "categoryId": "cat-gps-watches"
+    },
+    {
+      "a": "brooks-chaser-5-women",
+      "b": "brooks-method-tight-women",
+      "score": 0.713,
+      "categoryId": "cat-running-clothing"
+    },
+    {
+      "a": "garmin-vivoactive-6",
+      "b": "polar-pacer",
+      "score": 0.71,
+      "categoryId": "cat-gps-watches"
+    },
+    {
+      "a": "suunto-run",
+      "b": "polar-pacer",
+      "score": 0.709,
+      "categoryId": "cat-gps-watches"
+    },
+    {
+      "a": "rep-bumper-plate-storage",
+      "b": "rogue-plate-tree",
+      "score": 0.707,
+      "categoryId": "cat-gym-storage"
+    },
+    {
+      "a": "hydrapak-softflask-500",
+      "b": "salomon-soft-flask-500",
+      "score": 0.705,
+      "categoryId": "cat-hydration"
+    },
+    {
+      "a": "amazfit-active-2",
+      "b": "polar-pacer",
+      "score": 0.704,
+      "categoryId": "cat-gps-watches"
+    },
+    {
+      "a": "maurten-drink-mix-160",
+      "b": "maurten-drink-mix-320",
+      "score": 0.702,
+      "categoryId": "cat-nutrition"
+    },
+    {
+      "a": "ultimate-direction-ultra-belt",
+      "b": "ultraspire-fitted-race-belt-2",
+      "score": 0.699,
+      "categoryId": "cat-running-belts"
+    },
+    {
+      "a": "mirafit-wall-pull-up-bar",
+      "b": "pullup-and-dip-doorway-bar",
+      "score": 0.699,
+      "categoryId": "cat-pull-up-bars"
+    },
+    {
+      "a": "drop-shot-canyon-pro-2026",
+      "b": "oxdog-sense-pro",
+      "score": 0.692,
+      "categoryId": "cat-padel-rackets"
+    },
+    {
+      "a": "gornation-gymnastic-rings",
+      "b": "gravity-fitness-gymnastic-rings",
+      "score": 0.692,
+      "categoryId": "cat-gymnastic-rings"
+    },
+    {
+      "a": "rogue-rm-4-monster-rack",
+      "b": "rogue-rml-390f",
+      "score": 0.691,
+      "categoryId": "cat-power-racks"
+    },
+    {
+      "a": "shokz-openrun-pro-2",
+      "b": "suunto-wing",
+      "score": 0.691,
+      "categoryId": "cat-headphones"
+    },
+    {
+      "a": "blackroll-pro",
+      "b": "hyperice-vyper-3",
+      "score": 0.689,
+      "categoryId": "cat-recovery-gear"
+    },
+    {
+      "a": "petzl-nao-rl",
+      "b": "petzl-swift-rl",
+      "score": 0.689,
+      "categoryId": "cat-running-lights"
+    },
+    {
+      "a": "nathan-vaporair-2",
+      "b": "osprey-duro-6",
+      "score": 0.684,
+      "categoryId": "cat-packs-vests"
+    },
+    {
+      "a": "hoka-clifton-10",
+      "b": "brooks-glycerin-22",
+      "score": 0.683,
+      "categoryId": "cat-running-shoes"
+    },
+    {
+      "a": "garmin-forerunner-265s",
+      "b": "garmin-vivoactive-6",
+      "score": 0.683,
+      "categoryId": "cat-gps-watches"
+    },
+    {
+      "a": "polar-h10",
+      "b": "garmin-hrm-600",
+      "score": 0.683,
+      "categoryId": "cat-hrm"
+    },
+    {
+      "a": "injinji-run-midweight",
+      "b": "smartwool-run-targeted-cushion",
+      "score": 0.681,
+      "categoryId": "cat-running-socks"
+    },
+    {
+      "a": "oofos-oolala",
+      "b": "oofos-ooriginal",
+      "score": 0.681,
+      "categoryId": "cat-recovery-gear"
+    },
+    {
+      "a": "osprey-talon-velocity-30",
+      "b": "osprey-tempest-velocity-20",
+      "score": 0.68,
+      "categoryId": "cat-packs-vests"
+    },
+    {
+      "a": "coros-apex-4",
+      "b": "apple-watch-ultra-3",
+      "score": 0.679,
+      "categoryId": "cat-gps-watches"
+    }
+  ],
+  "issueCounts": {
+    "critical": 0,
+    "major": 0,
+    "total": 0
+  },
+  "goals": {
+    "duplicativeCompletedReviews": 0,
+    "needsDiffCompletedReviews": 0,
+    "indexableDuplicativeReviews": 0,
+    "indexableNeedsDiffReviews": 0,
+    "thinBest": 0,
+    "unfinishedGuides": 0,
+    "brokenComparisons": 0,
+    "editorialOrphans": 0
+  }
+}

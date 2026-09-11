@@ -1,0 +1,113 @@
+{
+  "auditClock": "2026-09-10T11:30:00.000Z",
+  "sitemapCount": 1106,
+  "scorecard": {
+    "products": {
+      "total": 623,
+      "ready": 430,
+      "indexable": 362,
+      "held": 261,
+      "heldBuckets": {
+        "minor_work_held": 5,
+        "vertical_hold": 256
+      }
+    },
+    "reviews": {
+      "total": 585,
+      "ready": 585,
+      "indexable": 367,
+      "held": 218,
+      "heldBuckets": {
+        "vertical_hold": 218
+      }
+    },
+    "best": {
+      "total": 59,
+      "ready": 59,
+      "indexable": 45,
+      "held": 14,
+      "heldBuckets": {
+        "vertical_hold": 14
+      }
+    },
+    "guides": {
+      "total": 69,
+      "ready": 69,
+      "indexable": 42,
+      "held": 27,
+      "heldBuckets": {
+        "vertical_hold": 27
+      }
+    },
+    "comparisons": {
+      "total": 94,
+      "ready": 94,
+      "indexable": 65,
+      "held": 29,
+      "heldBuckets": {
+        "vertical_hold": 29
+      }
+    },
+    "alternatives": {
+      "total": 405,
+      "ready": 248,
+      "indexable": 92,
+      "held": 313,
+      "heldBuckets": {
+        "thin_decision_shape": 157,
+        "alt_category_or_vertical_hold": 156
+      }
+    },
+    "brands": {
+      "total": 191,
+      "ready": 69,
+      "indexable": 69,
+      "held": 122,
+      "heldBuckets": {
+        "HOLD_INSUFFICIENT_DEPTH": 91,
+        "HOLD_NO_PRODUCTS": 31
+      }
+    },
+    "categories": {
+      "total": 47,
+      "ready": 15,
+      "indexable": 15,
+      "held": 32,
+      "heldBuckets": {
+        "vertical_hold": 28,
+        "soft_gated_category": 4
+      }
+    },
+    "tools": {
+      "total": 25,
+      "ready": 25,
+      "indexable": 12,
+      "held": 13,
+      "heldBuckets": {
+        "vertical_hold": 13
+      }
+    },
+    "categoryEditorial": {
+      "total": 14,
+      "ready": 14,
+      "indexable": 14,
+      "held": 0,
+      "heldBuckets": {}
+    }
+  },
+  "brandClass": {
+    "READY": 69,
+    "HOLD_INSUFFICIENT_DEPTH": 91,
+    "HOLD_NO_PRODUCTS": 31
+  },
+  "gatesLive": {
+    "indexableThinBest": 0,
+    "indexableBrokenCmp": 0,
+    "listedBroken": 0,
+    "listedBrokenInSitemap": [],
+    "facetLeakage": 0,
+    "draftPathLeak": 0,
+    "futureDraftIndexable": 0,
+    "fakeAggregate": 0
+  }
+}

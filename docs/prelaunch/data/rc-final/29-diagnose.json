@@ -1,0 +1,174 @@
+{
+  "slug": "lululemon-hotty-hot-vs-janji-pace-short",
+  "cmpFound": true,
+  "cmpStatus": "published",
+  "productIds": [
+    "prod-lululemon-hotty-hot-women",
+    "prod-janji-pace-short-women"
+  ],
+  "products": [
+    {
+      "id": "prod-lululemon-hotty-hot-women",
+      "foundProd": false,
+      "foundDev": true,
+      "slug": "lululemon-hotty-hot-women",
+      "status": "draft",
+      "categoryId": "cat-running-clothing",
+      "sportIds": [
+        "sport-running"
+      ]
+    },
+    {
+      "id": "prod-janji-pace-short-women",
+      "foundProd": true,
+      "foundDev": true,
+      "slug": "janji-pace-short-women",
+      "status": "published",
+      "categoryId": "cat-running-clothing",
+      "sportIds": [
+        "sport-running"
+      ]
+    }
+  ],
+  "pageData": false,
+  "elig": {
+    "disposition": "INDEXABLE",
+    "quality": "MEANINGFUL",
+    "reasons": [
+      "meaningful_decision_page"
+    ]
+  }
+}
+{
+  "slug": "theragun-prime-vs-renpho-r3",
+  "cmpFound": true,
+  "cmpStatus": "published",
+  "productIds": [
+    "prod-theragun-prime",
+    "prod-renpho-r3"
+  ],
+  "products": [
+    {
+      "id": "prod-theragun-prime",
+      "foundProd": true,
+      "foundDev": true,
+      "slug": "therabody-theragun-prime",
+      "status": "published",
+      "categoryId": "cat-recovery-gear",
+      "sportIds": [
+        "sport-running",
+        "sport-recovery",
+        "sport-training"
+      ]
+    },
+    {
+      "id": "prod-renpho-r3",
+      "foundProd": false,
+      "foundDev": true,
+      "slug": "renpho-r3",
+      "status": "draft",
+      "categoryId": "cat-recovery-gear",
+      "sportIds": [
+        "sport-running",
+        "sport-recovery",
+        "sport-training"
+      ]
+    }
+  ],
+  "pageData": false,
+  "elig": {
+    "disposition": "INDEXABLE",
+    "quality": "MEANINGFUL",
+    "reasons": [
+      "meaningful_decision_page"
+    ]
+  }
+}
+{
+  "slug": "triggerpoint-grid-vs-grid-x",
+  "cmpFound": true,
+  "cmpStatus": "published",
+  "productIds": [
+    "prod-triggerpoint-grid",
+    "prod-triggerpoint-grid-x"
+  ],
+  "products": [
+    {
+      "id": "prod-triggerpoint-grid",
+      "foundProd": false,
+      "foundDev": true,
+      "slug": "triggerpoint-grid-foam-roller",
+      "status": "draft",
+      "categoryId": "cat-recovery-gear",
+      "sportIds": [
+        "sport-running",
+        "sport-recovery",
+        "sport-training"
+      ]
+    },
+    {
+      "id": "prod-triggerpoint-grid-x",
+      "foundProd": true,
+      "foundDev": true,
+      "slug": "triggerpoint-grid-x",
+      "status": "published",
+      "categoryId": "cat-recovery-gear",
+      "sportIds": [
+        "sport-running",
+        "sport-recovery",
+        "sport-training"
+      ]
+    }
+  ],
+  "pageData": false,
+  "elig": {
+    "disposition": "INDEXABLE",
+    "quality": "MEANINGFUL",
+    "reasons": [
+      "meaningful_decision_page"
+    ]
+  }
+}
+{
+  "slug": "oofos-ooriginal-vs-hoka-ora-recovery-slide",
+  "cmpFound": true,
+  "cmpStatus": "published",
+  "productIds": [
+    "prod-oofos-ooriginal",
+    "prod-hoka-ora-recovery-slide"
+  ],
+  "products": [
+    {
+      "id": "prod-oofos-ooriginal",
+      "foundProd": true,
+      "foundDev": true,
+      "slug": "oofos-ooriginal",
+      "status": "published",
+      "categoryId": "cat-recovery-gear",
+      "sportIds": [
+        "sport-running",
+        "sport-recovery"
+      ]
+    },
+    {
+      "id": "prod-hoka-ora-recovery-slide",
+      "foundProd": false,
+      "foundDev": true,
+      "slug": "hoka-ora-recovery-slide",
+      "status": "draft",
+      "categoryId": "cat-recovery-gear",
+      "sportIds": [
+        "sport-running",
+        "sport-recovery"
+      ]
+    }
+  ],
+  "pageData": false,
+  "elig": {
+    "disposition": "INDEXABLE",
+    "quality": "MEANINGFUL",
+    "reasons": [
+      "meaningful_decision_page"
+    ]
+  }
+}

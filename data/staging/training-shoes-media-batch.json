@@ -1,0 +1,336 @@
+{
+  "registry": [
+    {
+      "productId": "prod-asics-gel-quantum-360-8",
+      "src": "/images/training/products/asics-gel-quantum-360-8-hero.jpg",
+      "sourceUrl": "https://www.asics.com/gb/en-gb/gel-quantum-360-8/p/ANA_1011B964-002.html",
+      "source": "Manufacturer official product catalog (ASICS)",
+      "licence": "manufacturer-marketing",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1000,
+      "height": 1000
+    },
+    {
+      "productId": "prod-do-win-classic",
+      "src": "/images/training/products/do-win-classic-hero.png",
+      "sourceUrl": "https://www.roguefitness.com/do-win-classic-lifter",
+      "source": "Authorized retailer (Rogue Fitness)",
+      "licence": "retailer-authorized",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1000,
+      "height": 1000
+    },
+    {
+      "productId": "prod-inov8-f-lite-260",
+      "src": "/images/training/products/inov8-f-lite-260-hero.jpg",
+      "sourceUrl": "https://www.sportsshoes.com/product/ino2160/inov8-f-lite-260-v2-training-shoes---ss23",
+      "source": "SportsShoes authorized retailer CDN",
+      "licence": "retailer-authorized",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1000,
+      "height": 1000
+    },
+    {
+      "productId": "prod-inov8-fastlift-400",
+      "src": "/images/training/products/inov8-fastlift-400-hero.jpg",
+      "sourceUrl": "https://www.sportsshoes.com/product/ino1325/inov8-fastlift-400-boa-women's-weightlifting-shoes",
+      "source": "SportsShoes authorized retailer CDN",
+      "licence": "retailer-authorized",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1000,
+      "height": 1000
+    },
+    {
+      "productId": "prod-inov8-fastlift-power-g-380",
+      "src": "/images/training/products/inov8-fastlift-power-g-380-hero.webp",
+      "sourceUrl": "https://www.sportsshoes.com/product/ino2069/inov8-fastlift-power-g-380-training-shoes---ss25",
+      "source": "SportsShoes authorized retailer CDN",
+      "licence": "retailer-authorized",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1000,
+      "height": 1000
+    },
+    {
+      "productId": "prod-nike-metcon-8",
+      "src": "/images/training/products/nike-metcon-8-hero.jpg",
+      "sourceUrl": "https://www.sportsshoes.com/product/nik21910/nike-metcon-8-training-shoes---sp23",
+      "source": "SportsShoes authorized retailer CDN",
+      "licence": "retailer-authorized",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1000,
+      "height": 1000
+    },
+    {
+      "productId": "prod-puma-fuse-3",
+      "src": "/images/training/products/puma-fuse-3-hero.webp",
+      "sourceUrl": "https://us.puma.com/us/en/pd/fuse-30-mens-training-shoes/378107",
+      "source": "Authorized retailer (Top4Running)",
+      "licence": "retailer-authorized",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1000,
+      "height": 1000
+    },
+    {
+      "productId": "prod-puma-fuse-fasted",
+      "src": "/images/training/products/puma-fuse-fasted-hero.jpg",
+      "sourceUrl": "https://uk.puma.com/uk/en/pd/fuse-fasted-mens-training-shoes/377748",
+      "source": "Manufacturer official product catalog (PUMA)",
+      "licence": "manufacturer-marketing",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1000,
+      "height": 1000
+    },
+    {
+      "productId": "prod-reebok-lifter-pr-iii",
+      "src": "/images/training/products/reebok-lifter-pr-iii-hero.jpg",
+      "sourceUrl": "https://www.sportsshoes.com/product/ree3861/reebok-lifter-pr-ii-training-shoes---aw21",
+      "source": "SportsShoes authorized retailer CDN (Reebok Lifter PR family)",
+      "licence": "retailer-authorized",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1000,
+      "height": 1000
+    },
+    {
+      "productId": "prod-salming-race-9",
+      "src": "/images/training/products/salming-race-9-hero.jpg",
+      "sourceUrl": "https://www.racketline.co.uk/squash-c7/squash-footwear-c68/salming-race-r9-mid-gunmetal-shoes-p1730",
+      "source": "Authorized retailer (Racketline)",
+      "licence": "retailer-authorized",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1000,
+      "height": 1000
+    },
+    {
+      "productId": "prod-ua-charged-commit-4",
+      "src": "/images/training/products/ua-charged-commit-4-hero.jpg",
+      "sourceUrl": "https://www.sportsshoes.com/product/und8709/under-armour-charged-commit-4-training-shoes---aw23",
+      "source": "SportsShoes authorized retailer CDN",
+      "licence": "retailer-authorized",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1000,
+      "height": 1000
+    },
+    {
+      "productId": "prod-ua-project-rock-bsr-4",
+      "src": "/images/training/products/ua-project-rock-bsr-4-hero.jpg",
+      "sourceUrl": "https://www.sportsshoes.com/product/und9028/under-armour-project-rock-bsr-4-training-shoes---ss24",
+      "source": "SportsShoes authorized retailer CDN",
+      "licence": "retailer-authorized",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1000,
+      "height": 1000
+    },
+    {
+      "productId": "prod-ua-reign-lifter",
+      "src": "/images/training/products/ua-reign-lifter-hero.webp",
+      "sourceUrl": "https://www.sportsshoes.com/product/und9203/under-armour-reign-lifter-training-shoes",
+      "source": "SportsShoes authorized retailer CDN",
+      "licence": "retailer-authorized",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1000,
+      "height": 1000
+    },
+    {
+      "productId": "prod-ua-tribase-reign-6",
+      "src": "/images/training/products/ua-tribase-reign-6-hero.jpg",
+      "sourceUrl": "https://www.sportsshoes.com/product/und9029/under-armour-tribase-reign-6-training-shoes---ss24",
+      "source": "SportsShoes authorized retailer CDN",
+      "licence": "retailer-authorized",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1000,
+      "height": 1000
+    },
+    {
+      "productId": "prod-vivobarefoot-primus-lite-iii",
+      "src": "/images/training/products/vivobarefoot-primus-lite-iii-hero.jpg",
+      "sourceUrl": "https://runrepeat.com/vivobarefoot-primus-lite-iii",
+      "source": "RunRepeat product primary (Primus Lite family)",
+      "licence": "retailer-authorized",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1000,
+      "height": 1000
+    },
+    {
+      "productId": "prod-xero-prio",
+      "src": "/images/training/products/xero-prio-hero.jpg",
+      "sourceUrl": "https://runrepeat.com/xero-shoes-prio",
+      "source": "RunRepeat product primary",
+      "licence": "retailer-authorized",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1000,
+      "height": 1000
+    },
+    {
+      "productId": "prod-nobull-trainer-plus",
+      "src": "/images/training/products/nobull-trainer-plus-hero.png",
+      "sourceUrl": "https://www.nobullproject.com/products/black-wild-trainer-plus-mens",
+      "source": "Manufacturer official product catalog (NOBULL Outwork Edge / Trainer+ family)",
+      "licence": "manufacturer-marketing",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1000,
+      "height": 1000
+    },
+    {
+      "productId": "prod-salming-rebel",
+      "src": "/images/training/products/salming-rebel-hero.png",
+      "sourceUrl": "https://www.squashproshop.com/product-details/6062/Salming+Rebel+Mens+Shoe+White",
+      "source": "Authorized retailer (Squash Pro Shop)",
+      "licence": "retailer-authorized",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1000,
+      "height": 1000
+    },
+    {
+      "productId": "prod-tyr-cxt1-trainer",
+      "src": "/images/training/products/tyr-cxt1-trainer-hero.jpg",
+      "sourceUrl": "https://www.roguefitness.com/tyr-cxt-1-turf-trainer-shoes",
+      "source": "Authorized retailer (Rogue Fitness)",
+      "licence": "retailer-authorized",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1000,
+      "height": 1000
+    }
+  ],
+  "report": [
+    {
+      "id": "prod-asics-gel-quantum-360-8",
+      "ok": true,
+      "file": "asics-gel-quantum-360-8-hero.jpg",
+      "bytes": 140786,
+      "remote": "https://images.asics.com/is/image/asics/1011B964_002_SR_RT_GLB?$sfcc-product$&wid=1200&hei=1200"
+    },
+    {
+      "id": "prod-do-win-classic",
+      "ok": true,
+      "file": "do-win-classic-hero.png",
+      "bytes": 86587,
+      "remote": "https://assets.roguefitness.com/f_auto,q_auto,c_limit,w_1600,b_rgb:ffffff/v1/catalog/Shoes/Weightlifting%20Shoes/Do-Win/DWN0005/DWN0005-H_vnry55.png"
+    },
+    {
+      "id": "prod-inov8-f-lite-260",
+      "ok": true,
+      "file": "inov8-f-lite-260-hero.jpg",
+      "bytes": 85806,
+      "remote": "https://cdn11.bigcommerce.com/s-21x65e8kfn/images/stencil/original/products/56452/225654/INO2160_1000_1__57762.1688550605.jpg"
+    },
+    {
+      "id": "prod-inov8-fastlift-400",
+      "ok": true,
+      "file": "inov8-fastlift-400-hero.jpg",
+      "bytes": 78647,
+      "remote": "https://cdn11.bigcommerce.com/s-21x65e8kfn/images/stencil/original/products/4338/16487/INO1325_1000_1__43326.1688067824.jpg"
+    },
+    {
+      "id": "prod-inov8-fastlift-power-g-380",
+      "ok": true,
+      "file": "inov8-fastlift-power-g-380-hero.webp",
+      "bytes": 61392,
+      "remote": "https://cdn11.bigcommerce.com/s-21x65e8kfn/images/stencil/original/products/42078/197583/INO2069_1000_10__91713.1688477479.jpg"
+    },
+    {
+      "id": "prod-lululemon-strongfeel",
+      "try": "https://images.lululemon.com/is/image/lululemon/LW9EM2S_4780_1?wid=1600&hei=1600",
+      "error": "too small"
+    },
+    {
+      "id": "prod-lululemon-strongfeel",
+      "try": "https://images.lululemon.com/is/image/lululemon/LW9EM2S_0001_1?wid=1600&hei=1600",
+      "error": "too small"
+    },
+    {
+      "id": "prod-lululemon-strongfeel",
+      "ok": false
+    },
+    {
+      "id": "prod-nike-metcon-8",
+      "ok": true,
+      "file": "nike-metcon-8-hero.jpg",
+      "bytes": 109999,
+      "remote": "https://cdn11.bigcommerce.com/s-21x65e8kfn/images/stencil/original/products/51966/249312/NIK21910_1000_1__99944.1688590622.jpg"
+    },
+    {
+      "id": "prod-puma-fuse-3",
+      "ok": true,
+      "file": "puma-fuse-3-hero.webp",
+      "bytes": 51482,
+      "remote": "https://i1.t4s.cz/products/378107-02/puma-fuse-3-0-713059-378107-02-960.webp"
+    },
+    {
+      "id": "prod-puma-fuse-fasted",
+      "ok": true,
+      "file": "puma-fuse-fasted-hero.jpg",
+      "bytes": 251640,
+      "remote": "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:F7F7F7,w_2000,c_pad,dpr_1.0/global/377748/01/mod01/fnd/PNA/fmt/png/377748_01_mod01"
+    },
+    {
+      "id": "prod-reebok-lifter-pr-iii",
+      "ok": true,
+      "file": "reebok-lifter-pr-iii-hero.jpg",
+      "bytes": 115967,
+      "remote": "https://cdn11.bigcommerce.com/s-21x65e8kfn/images/stencil/original/products/38069/168521/REE3861_1000_1__44658.1688404599.jpg"
+    },
+    {
+      "id": "prod-salming-race-9",
+      "ok": true,
+      "file": "salming-race-9-hero.jpg",
+      "bytes": 13481,
+      "remote": "https://www.racketline.co.uk/images/salming-race-r9-mid-gunmetal-shoes-p1730-1971_medium.jpg"
+    },
+    {
+      "id": "prod-ua-charged-commit-4",
+      "ok": true,
+      "file": "ua-charged-commit-4-hero.jpg",
+      "bytes": 100975,
+      "remote": "https://cdn11.bigcommerce.com/s-21x65e8kfn/images/stencil/original/products/60394/253775/UND8709_1000_6__32642.1688624623.jpg"
+    },
+    {
+      "id": "prod-ua-project-rock-bsr-4",
+      "ok": true,
+      "file": "ua-project-rock-bsr-4-hero.jpg",
+      "bytes": 87296,
+      "remote": "https://cdn11.bigcommerce.com/s-21x65e8kfn/images/stencil/original/products/65257/312906/UND9028_1000_6__79331.1706789531.jpg"
+    },
+    {
+      "id": "prod-ua-reign-lifter",
+      "ok": true,
+      "file": "ua-reign-lifter-hero.webp",
+      "bytes": 36060,
+      "remote": "https://cdn11.bigcommerce.com/s-21x65e8kfn/images/stencil/original/products/70947/362545/UND9203_1000_6__20243.1725085127.jpg"
+    },
+    {
+      "id": "prod-ua-tribase-reign-6",
+      "ok": true,
+      "file": "ua-tribase-reign-6-hero.jpg",
+      "bytes": 273879,
+      "remote": "https://cdn11.bigcommerce.com/s-21x65e8kfn/images/stencil/original/products/65254/345719/UND9029_1000_1__69115.1720780697.jpg"
+    },
+    {
+      "id": "prod-vivobarefoot-primus-lite-iii",
+      "ok": true,
+      "file": "vivobarefoot-primus-lite-iii-hero.jpg",
+      "bytes": 99426,
+      "remote": "https://cdn.runrepeat.com/storage/gallery/product_primary/40126/vivobarefoot-primus-lite-knit-lab-test-and-review-24149862-1080.jpg"
+    },
+    {
+      "id": "prod-xero-prio",
+      "ok": true,
+      "file": "xero-prio-hero.jpg",
+      "bytes": 99319,
+      "remote": "https://cdn.runrepeat.com/storage/gallery/product_primary/29586/xero-shoes-prio-23058909-1080.jpg"
+    },
+    {
+      "id": "prod-nobull-trainer-plus",
+      "ok": true,
+      "file": "nobull-trainer-plus-hero.png",
+      "bytes": 588340,
+      "remote": "https://nobullproject.com/cdn/shop/files/nobull-footwear-men-s-outwork-edge-impact-1200737541.png"
+    },
+    {
+      "id": "prod-salming-rebel",
+      "ok": true,
+      "file": "salming-rebel-hero.png",
+      "bytes": 40379,
+      "remote": "https://www.squashproshop.com/webfiles/ProductImages/Medium/27202023042059REBEL-WH-DAZZLE.jpg"
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+import type { ProductFamily } from "@/domain/products/types";
+
+/**
+ * Packs & carry families for running wave 2 (fastpacking packs, running
+ * backpacks, pole quivers, accessory pouches).
+ * Distance 15/22 extend existing fam-black-diamond-distance in hydration-families.
+ */
+export const runningPacksCarryFamilies: ProductFamily[] = [
+  {
+    id: "fam-ud-fastpack",
+    brandId: "brand-ultimate-direction",
+    name: "Fastpack",
+    slug: "ud-fastpack",
+    categoryId: "cat-packs-vests",
+    description: "Ultimate Direction vest-harness fastpacking packs.",
+    productIds: [
+      "prod-ud-fastpack-20",
+      "prod-ud-fastpack-her-20",
+      "prod-ud-fastpack-30",
+    ],
+  },
+  {
+    id: "fam-osprey-talon-velocity",
+    brandId: "brand-osprey",
+    name: "Talon Velocity",
+    slug: "talon-velocity",
+    categoryId: "cat-packs-vests",
+    description: "Osprey men's-fit running / fastpacking Velocity packs.",
+    productIds: [
+      "prod-osprey-talon-velocity-20",
+      "prod-osprey-talon-velocity-30",
+    ],
+  },
+  {
+    id: "fam-osprey-tempest-velocity",
+    brandId: "brand-osprey",
+    name: "Tempest Velocity",
+    slug: "tempest-velocity",
+    categoryId: "cat-packs-vests",
+    description: "Osprey women's-fit running / fastpacking Velocity packs.",
+    productIds: ["prod-osprey-tempest-velocity-20"],
+  },
+  {
+    id: "fam-salomon-xa-pack",
+    brandId: "brand-salomon",
+    name: "XA",
+    slug: "salomon-xa-pack",
+    categoryId: "cat-packs-vests",
+    description: "Salomon XA trail running packs.",
+    productIds: ["prod-salomon-xa-15"],
+  },
+  {
+    id: "fam-camelbak-octane",
+    brandId: "brand-camelbak",
+    name: "Octane",
+    slug: "octane",
+    categoryId: "cat-packs-vests",
+    description: "CamelBak Octane running packs.",
+    productIds: ["prod-camelbak-octane-22"],
+  },
+  {
+    id: "fam-salomon-trailblazer",
+    brandId: "brand-salomon",
+    name: "Trailblazer",
+    slug: "salomon-trailblazer",
+    categoryId: "cat-packs-vests",
+    description: "Salomon Trailblazer day / commute running packs.",
+    productIds: ["prod-salomon-trailblazer-20"],
+  },
+  {
+    id: "fam-salomon-custom-quiver",
+    brandId: "brand-salomon",
+    name: "Custom Quiver",
+    slug: "salomon-custom-quiver",
+    categoryId: "cat-packs-vests",
+    description: "Salomon pole quiver accessory for race vests.",
+    productIds: ["prod-salomon-custom-quiver"],
+  },
+  {
+    id: "fam-leki-trail-quiver",
+    brandId: "brand-leki",
+    name: "Trail Running Quiver",
+    slug: "leki-trail-running-quiver",
+    categoryId: "cat-packs-vests",
+    description: "LEKI trail running pole quivers.",
+    productIds: ["prod-leki-trail-running-quiver"],
+  },
+  {
+    id: "fam-ud-utility",
+    brandId: "brand-ultimate-direction",
+    name: "Utility Bag",
+    slug: "ud-utility-bag",
+    categoryId: "cat-packs-vests",
+    description: "Ultimate Direction modular utility pouches.",
+    productIds: ["prod-ud-utility-bag"],
+  },
+  {
+    id: "fam-salomon-soft-flask-stash",
+    brandId: "brand-salomon",
+    name: "Soft Flask Stash",
+    slug: "salomon-soft-flask-stash",
+    categoryId: "cat-packs-vests",
+    description: "Salomon soft-flask stash / pocket accessories.",
+    productIds: ["prod-salomon-soft-flask-stash"],
+  },
+  {
+    id: "fam-nathan-stash",
+    brandId: "brand-nathan",
+    name: "Zippered Stash",
+    slug: "nathan-zippered-stash",
+    categoryId: "cat-packs-vests",
+    description: "Nathan zippered stash pouches for vests and packs.",
+    productIds: ["prod-nathan-zippered-stash"],
+  },
+];

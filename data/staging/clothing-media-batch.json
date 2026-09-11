@@ -1,0 +1,48 @@
+[
+  {
+    "id": "prod-tracksmith-session-short-men",
+    "ok": false
+  },
+  {
+    "id": "prod-tracksmith-session-short-women",
+    "ok": false
+  },
+  {
+    "id": "prod-ciele-gocap-athletics",
+    "ok": false
+  },
+  {
+    "id": "prod-darn-tough-run-1-4",
+    "ok": false
+  },
+  {
+    "id": "prod-smartwool-run-targeted-cushion",
+    "ok": false
+  },
+  {
+    "id": "prod-patagonia-houdini-men",
+    "ok": false
+  },
+  {
+    "id": "prod-balega-hidden-comfort",
+    "slug": "balega-hidden-comfort",
+    "ok": true,
+    "src": "/images/socks/products/balega-hidden-comfort-hero.png",
+    "sourceUrl": "https://www.balega.com/products/hidden-comfort",
+    "source": "Manufacturer product page",
+    "licence": "manufacturer-marketing",
+    "width": 1200,
+    "height": 1200
+  },
+  {
+    "id": "prod-injinji-run-midweight",
+    "slug": "injinji-run-midweight",
+    "ok": true,
+    "src": "/images/socks/products/injinji-run-midweight-hero.jpg",
+    "sourceUrl": "https://www.injinji.com/products/run-lightweight-no-show",
+    "source": "Manufacturer product page",
+    "licence": "manufacturer-marketing",
+    "width": 1200,
+    "height": 1200
+  }
+]

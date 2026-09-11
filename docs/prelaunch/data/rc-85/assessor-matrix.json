@@ -1,0 +1,750 @@
+{
+  "asOf": "2026-09-11T08:40:51.538Z",
+  "contract": {
+    "p0Means": "Article P0 ≡ release BLOCKER on enriched decision copy — not disclosure template wording",
+    "publicationSurface": "enriched decision copy (excludes testingContext / editorialDisclosure)",
+    "sourceSeed": "LOW diagnostic only"
+  },
+  "flagships": [
+    {
+      "slug": "nike-vomero-18",
+      "launchQuality": "LAUNCH_READY",
+      "editorialReady": true,
+      "workState": "READY",
+      "disposition": "INDEXABLE",
+      "indexable": true,
+      "articleScore": 100,
+      "articleGrade": "A",
+      "findings": [
+        {
+          "code": "second-person",
+          "severity": "P2",
+          "releaseSeverity": "MEDIUM",
+          "message": "Little second-person address — may feel impersonal."
+        }
+      ],
+      "p0": [],
+      "enrichedDecisionJunk": false,
+      "sourceSeedJunk": false,
+      "surface": "enriched_page"
+    },
+    {
+      "slug": "asics-novablast-6",
+      "launchQuality": "LAUNCH_READY",
+      "editorialReady": true,
+      "workState": "READY",
+      "disposition": "INDEXABLE",
+      "indexable": true,
+      "articleScore": 99,
+      "articleGrade": "A",
+      "findings": [
+        {
+          "code": "length-long",
+          "severity": "P2",
+          "releaseSeverity": "MEDIUM",
+          "message": "About 9369 words — above the 3,000–5,500 ideal band."
+        },
+        {
+          "code": "second-person",
+          "severity": "P2",
+          "releaseSeverity": "MEDIUM",
+          "message": "Little second-person address — may feel impersonal."
+        }
+      ],
+      "p0": [],
+      "enrichedDecisionJunk": false,
+      "sourceSeedJunk": false,
+      "surface": "enriched_page"
+    },
+    {
+      "slug": "brooks-glycerin-22",
+      "launchQuality": "LAUNCH_READY",
+      "editorialReady": true,
+      "workState": "READY",
+      "disposition": "INDEXABLE",
+      "indexable": true,
+      "articleScore": 99,
+      "articleGrade": "A",
+      "findings": [
+        {
+          "code": "length-long",
+          "severity": "P2",
+          "releaseSeverity": "MEDIUM",
+          "message": "About 18717 words — above the 3,000–5,500 ideal band."
+        },
+        {
+          "code": "second-person",
+          "severity": "P2",
+          "releaseSeverity": "MEDIUM",
+          "message": "Little second-person address — may feel impersonal."
+        }
+      ],
+      "p0": [],
+      "enrichedDecisionJunk": false,
+      "sourceSeedJunk": false,
+      "surface": "enriched_page"
+    },
+    {
+      "slug": "garmin-forerunner-970",
+      "launchQuality": "LAUNCH_READY",
+      "editorialReady": true,
+      "workState": "READY",
+      "disposition": "INDEXABLE",
+      "indexable": true,
+      "articleScore": 99,
+      "articleGrade": "A",
+      "findings": [
+        {
+          "code": "length-long",
+          "severity": "P2",
+          "releaseSeverity": "MEDIUM",
+          "message": "About 7875 words — above the 3,000–5,500 ideal band."
+        },
+        {
+          "code": "second-person",
+          "severity": "P2",
+          "releaseSeverity": "MEDIUM",
+          "message": "Little second-person address — may feel impersonal."
+        }
+      ],
+      "p0": [],
+      "enrichedDecisionJunk": false,
+      "sourceSeedJunk": false,
+      "surface": "enriched_page"
+    },
+    {
+      "slug": "hoka-clifton-10",
+      "launchQuality": "LAUNCH_READY",
+      "editorialReady": true,
+      "workState": "READY",
+      "disposition": "INDEXABLE",
+      "indexable": true,
+      "articleScore": 99,
+      "articleGrade": "A",
+      "findings": [
+        {
+          "code": "length-long",
+          "severity": "P2",
+          "releaseSeverity": "MEDIUM",
+          "message": "About 18926 words — above the 3,000–5,500 ideal band."
+        },
+        {
+          "code": "second-person",
+          "severity": "P2",
+          "releaseSeverity": "MEDIUM",
+          "message": "Little second-person address — may feel impersonal."
+        }
+      ],
+      "p0": [],
+      "enrichedDecisionJunk": false,
+      "sourceSeedJunk": false,
+      "surface": "enriched_page"
+    }
+  ],
+  "randomIndexable": [
+    {
+      "slug": "226ers-high-energy-gel",
+      "launchQuality": "LAUNCH_READY",
+      "editorialReady": true,
+      "workState": "READY",
+      "disposition": "INDEXABLE",
+      "indexable": true,
+      "articleScore": 96,
+      "articleGrade": "A",
+      "findings": [
+        {
+          "code": "section-images",
+          "severity": "P1",
+          "releaseSeverity": "HIGH",
+          "message": "Major review sections lack unique product-only images (or reuse the same src)."
+        },
+        {
+          "code": "length-long",
+          "severity": "P2",
+          "releaseSeverity": "MEDIUM",
+          "message": "About 9644 words — above the 3,000–5,500 ideal band."
+        }
+      ],
+      "p0": [],
+      "enrichedDecisionJunk": false,
+      "sourceSeedJunk": false,
+      "surface": "enriched_page"
+    },
+    {
+      "slug": "blackroll-pro",
+      "launchQuality": "LAUNCH_READY",
+      "editorialReady": true,
+      "workState": "READY",
+      "disposition": "INDEXABLE",
+      "indexable": true,
+      "articleScore": 93,
+      "articleGrade": "A",
+      "findings": [
+        {
+          "code": "section-images",
+          "severity": "P1",
+          "releaseSeverity": "HIGH",
+          "message": "Major review sections lack unique product-only images (or reuse the same src)."
+        },
+        {
+          "code": "length-long",
+          "severity": "P2",
+          "releaseSeverity": "MEDIUM",
+          "message": "About 6002 words — above the 3,000–5,500 ideal band."
+        },
+        {
+          "code": "second-person",
+          "severity": "P2",
+          "releaseSeverity": "MEDIUM",
+          "message": "Little second-person address — may feel impersonal."
+        }
+      ],
+      "p0": [],
+      "enrichedDecisionJunk": false,
+      "sourceSeedJunk": false,
+      "surface": "enriched_page"
+    },
+    {
+      "slug": "brooks-hyperion-max-2",
+      "launchQuality": "LAUNCH_READY",
+      "editorialReady": true,
+      "workState": "READY",
+      "disposition": "INDEXABLE",
+      "indexable": true,
+      "articleScore": 100,
+      "articleGrade": "A",
+      "findings": [
+        {
+          "code": "length-long",
+          "severity": "P2",
+          "releaseSeverity": "MEDIUM",
+          "message": "About 8811 words — above the 3,000–5,500 ideal band."
+        }
+      ],
+      "p0": [],
+      "enrichedDecisionJunk": false,
+      "sourceSeedJunk": false,
+      "surface": "enriched_page"
+    },
+    {
+      "slug": "apple-airpods-4",
+      "launchQuality": "LAUNCH_READY",
+      "editorialReady": true,
+      "workState": "READY",
+      "disposition": "INDEXABLE",
+      "indexable": true,
+      "articleScore": 96,
+      "articleGrade": "A",
+      "findings": [
+        {
+          "code": "section-images",
+          "severity": "P1",
+          "releaseSeverity": "HIGH",
+          "message": "Major review sections lack unique product-only images (or reuse the same src)."
+        },
+        {
+          "code": "length-long",
+          "severity": "P2",
+          "releaseSeverity": "MEDIUM",
+          "message": "About 10550 words — above the 3,000–5,500 ideal band."
+        }
+      ],
+      "p0": [],
+      "enrichedDecisionJunk": false,
+      "sourceSeedJunk": false,
+      "surface": "enriched_page"
+    },
+    {
+      "slug": "saltstick-fastchews",
+      "launchQuality": "LAUNCH_READY",
+      "editorialReady": true,
+      "workState": "READY",
+      "disposition": "INDEXABLE",
+      "indexable": true,
+      "articleScore": 93,
+      "articleGrade": "A",
+      "findings": [
+        {
+          "code": "section-images",
+          "severity": "P1",
+          "releaseSeverity": "HIGH",
+          "message": "Major review sections lack unique product-only images (or reuse the same src)."
+        },
+        {
+          "code": "length-long",
+          "severity": "P2",
+          "releaseSeverity": "MEDIUM",
+          "message": "About 9821 words — above the 3,000–5,500 ideal band."
+        },
+        {
+          "code": "second-person",
+          "severity": "P2",
+          "releaseSeverity": "MEDIUM",
+          "message": "Little second-person address — may feel impersonal."
+        }
+      ],
+      "p0": [],
+      "enrichedDecisionJunk": false,
+      "sourceSeedJunk": false,
+      "surface": "enriched_page"
+    },
+    {
+      "slug": "cep-run-compression-sock-3",
+      "launchQuality": "LAUNCH_READY",
+      "editorialReady": true,
+      "workState": "READY",
+      "disposition": "INDEXABLE",
+      "indexable": true,
+      "articleScore": 100,
+      "articleGrade": "A",
+      "findings": [
+        {
+          "code": "second-person",
+          "severity": "P2",
+          "releaseSeverity": "MEDIUM",
+          "message": "Little second-person address — may feel impersonal."
+        }
+      ],
+      "p0": [],
+      "enrichedDecisionJunk": false,
+      "sourceSeedJunk": false,
+      "surface": "enriched_page"
+    },
+    {
+      "slug": "osprey-dyna-6",
+      "launchQuality": "LAUNCH_READY",
+      "editorialReady": true,
+      "workState": "READY",
+      "disposition": "INDEXABLE",
+      "indexable": true,
+      "articleScore": 99,
+      "articleGrade": "A",
+      "findings": [
+        {
+          "code": "length-long",
+          "severity": "P2",
+          "releaseSeverity": "MEDIUM",
+          "message": "About 11801 words — above the 3,000–5,500 ideal band."
+        },
+        {
+          "code": "second-person",
+          "severity": "P2",
+          "releaseSeverity": "MEDIUM",
+          "message": "Little second-person address — may feel impersonal."
+        }
+      ],
+      "p0": [],
+      "enrichedDecisionJunk": false,
+      "sourceSeedJunk": false,
+      "surface": "enriched_page"
+    },
+    {
+      "slug": "brooks-sherpa-7-men",
+      "launchQuality": "LAUNCH_READY",
+      "editorialReady": true,
+      "workState": "READY",
+      "disposition": "INDEXABLE",
+      "indexable": true,
+      "articleScore": 93,
+      "articleGrade": "A",
+      "findings": [
+        {
+          "code": "section-images",
+          "severity": "P1",
+          "releaseSeverity": "HIGH",
+          "message": "Major review sections lack unique product-only images (or reuse the same src)."
+        },
+        {
+          "code": "length-long",
+          "severity": "P2",
+          "releaseSeverity": "MEDIUM",
+          "message": "About 7048 words — above the 3,000–5,500 ideal band."
+        },
+        {
+          "code": "second-person",
+          "severity": "P2",
+          "releaseSeverity": "MEDIUM",
+          "message": "Little second-person address — may feel impersonal."
+        }
+      ],
+      "p0": [],
+      "enrichedDecisionJunk": false,
+      "sourceSeedJunk": false,
+      "surface": "enriched_page"
+    },
+    {
+      "slug": "ultimate-direction-race-belt",
+      "launchQuality": "LAUNCH_READY",
+      "editorialReady": true,
+      "workState": "READY",
+      "disposition": "INDEXABLE",
+      "indexable": true,
+      "articleScore": 100,
+      "articleGrade": "A",
+      "findings": [
+        {
+          "code": "length-long",
+          "severity": "P2",
+          "releaseSeverity": "MEDIUM",
+          "message": "About 13146 words — above the 3,000–5,500 ideal band."
+        }
+      ],
+      "p0": [],
+      "enrichedDecisionJunk": false,
+      "sourceSeedJunk": false,
+      "surface": "enriched_page"
+    },
+    {
+      "slug": "craft-adv-essence-tight-men",
+      "launchQuality": "LAUNCH_READY",
+      "editorialReady": true,
+      "workState": "READY",
+      "disposition": "INDEXABLE",
+      "indexable": true,
+      "articleScore": 93,
+      "articleGrade": "A",
+      "findings": [
+        {
+          "code": "section-images",
+          "severity": "P1",
+          "releaseSeverity": "HIGH",
+          "message": "Major review sections lack unique product-only images (or reuse the same src)."
+        },
+        {
+          "code": "length-long",
+          "severity": "P2",
+          "releaseSeverity": "MEDIUM",
+          "message": "About 10101 words — above the 3,000–5,500 ideal band."
+        },
+        {
+          "code": "second-person",
+          "severity": "P2",
+          "releaseSeverity": "MEDIUM",
+          "message": "Little second-person address — may feel impersonal."
+        }
+      ],
+      "p0": [],
+      "enrichedDecisionJunk": false,
+      "sourceSeedJunk": false,
+      "surface": "enriched_page"
+    }
+  ],
+  "randomHeld": [
+    {
+      "slug": "head-radical-mp-2023",
+      "launchQuality": "LAUNCH_READY",
+      "editorialReady": true,
+      "workState": "READY",
+      "disposition": "HIDDEN_404",
+      "indexable": false,
+      "articleScore": 99,
+      "articleGrade": "A",
+      "findings": [
+        {
+          "code": "length-ideal",
+          "severity": "P2",
+          "releaseSeverity": "MEDIUM",
+          "message": "About 2867 words — clears the floor but under the 3,000–5,500 ideal band."
+        },
+        {
+          "code": "second-person",
+          "severity": "P2",
+          "releaseSeverity": "MEDIUM",
+          "message": "Little second-person address — may feel impersonal."
+        }
+      ],
+      "p0": [],
+      "enrichedDecisionJunk": false,
+      "sourceSeedJunk": false,
+      "surface": "enriched_page"
+    },
+    {
+      "slug": "babolat-pure-drive-gen11",
+      "launchQuality": "LAUNCH_READY",
+      "editorialReady": true,
+      "workState": "READY",
+      "disposition": "HIDDEN_404",
+      "indexable": false,
+      "articleScore": 100,
+      "articleGrade": "A",
+      "findings": [
+        {
+          "code": "second-person",
+          "severity": "P2",
+          "releaseSeverity": "MEDIUM",
+          "message": "Little second-person address — may feel impersonal."
+        }
+      ],
+      "p0": [],
+      "enrichedDecisionJunk": false,
+      "sourceSeedJunk": false,
+      "surface": "enriched_page"
+    },
+    {
+      "slug": "eleiko-xf-bar",
+      "launchQuality": "LAUNCH_READY",
+      "editorialReady": true,
+      "workState": "READY",
+      "disposition": "HIDDEN_404",
+      "indexable": false,
+      "articleScore": 99,
+      "articleGrade": "A",
+      "findings": [
+        {
+          "code": "length-ideal",
+          "severity": "P2",
+          "releaseSeverity": "MEDIUM",
+          "message": "About 2981 words — clears the floor but under the 3,000–5,500 ideal band."
+        },
+        {
+          "code": "second-person",
+          "severity": "P2",
+          "releaseSeverity": "MEDIUM",
+          "message": "Little second-person address — may feel impersonal."
+        }
+      ],
+      "p0": [],
+      "enrichedDecisionJunk": false,
+      "sourceSeedJunk": false,
+      "surface": "enriched_page"
+    },
+    {
+      "slug": "rep-ab-5000-zero-gap",
+      "launchQuality": "LAUNCH_READY",
+      "editorialReady": true,
+      "workState": "READY",
+      "disposition": "HIDDEN_404",
+      "indexable": false,
+      "articleScore": 99,
+      "articleGrade": "A",
+      "findings": [
+        {
+          "code": "length-ideal",
+          "severity": "P2",
+          "releaseSeverity": "MEDIUM",
+          "message": "About 2906 words — clears the floor but under the 3,000–5,500 ideal band."
+        },
+        {
+          "code": "second-person",
+          "severity": "P2",
+          "releaseSeverity": "MEDIUM",
+          "message": "Little second-person address — may feel impersonal."
+        }
+      ],
+      "p0": [],
+      "enrichedDecisionJunk": false,
+      "sourceSeedJunk": false,
+      "surface": "enriched_page"
+    },
+    {
+      "slug": "head-coello-pro-2026",
+      "launchQuality": "LAUNCH_READY",
+      "editorialReady": true,
+      "workState": "READY",
+      "disposition": "HIDDEN_404",
+      "indexable": false,
+      "articleScore": 100,
+      "articleGrade": "A",
+      "findings": [
+        {
+          "code": "second-person",
+          "severity": "P2",
+          "releaseSeverity": "MEDIUM",
+          "message": "Little second-person address — may feel impersonal."
+        }
+      ],
+      "p0": [],
+      "enrichedDecisionJunk": false,
+      "sourceSeedJunk": false,
+      "surface": "enriched_page"
+    },
+    {
+      "slug": "rogue-plate-carrier-vest",
+      "launchQuality": "LAUNCH_READY",
+      "editorialReady": true,
+      "workState": "READY",
+      "disposition": "HIDDEN_404",
+      "indexable": false,
+      "articleScore": 100,
+      "articleGrade": "A",
+      "findings": [
+        {
+          "code": "second-person",
+          "severity": "P2",
+          "releaseSeverity": "MEDIUM",
+          "message": "Little second-person address — may feel impersonal."
+        }
+      ],
+      "p0": [],
+      "enrichedDecisionJunk": false,
+      "sourceSeedJunk": false,
+      "surface": "enriched_page"
+    },
+    {
+      "slug": "concept2-rowerg",
+      "launchQuality": "LAUNCH_READY",
+      "editorialReady": true,
+      "workState": "READY",
+      "disposition": "HIDDEN_404",
+      "indexable": false,
+      "articleScore": 94,
+      "articleGrade": "A",
+      "findings": [
+        {
+          "code": "length",
+          "severity": "P1",
+          "releaseSeverity": "HIGH",
+          "message": "About 2350 words — under the 2,500-word floor."
+        },
+        {
+          "code": "second-person",
+          "severity": "P2",
+          "releaseSeverity": "MEDIUM",
+          "message": "Little second-person address — may feel impersonal."
+        }
+      ],
+      "p0": [],
+      "enrichedDecisionJunk": false,
+      "sourceSeedJunk": false,
+      "surface": "enriched_page"
+    },
+    {
+      "slug": "powerblock-pro-series-100",
+      "launchQuality": "LAUNCH_READY",
+      "editorialReady": true,
+      "workState": "READY",
+      "disposition": "HIDDEN_404",
+      "indexable": false,
+      "articleScore": 94,
+      "articleGrade": "A",
+      "findings": [
+        {
+          "code": "length",
+          "severity": "P1",
+          "releaseSeverity": "HIGH",
+          "message": "About 2473 words — under the 2,500-word floor."
+        },
+        {
+          "code": "second-person",
+          "severity": "P2",
+          "releaseSeverity": "MEDIUM",
+          "message": "Little second-person address — may feel impersonal."
+        }
+      ],
+      "p0": [],
+      "enrichedDecisionJunk": false,
+      "sourceSeedJunk": false,
+      "surface": "enriched_page"
+    },
+    {
+      "slug": "mirafit-folding-rower",
+      "launchQuality": "LAUNCH_READY",
+      "editorialReady": true,
+      "workState": "READY",
+      "disposition": "HIDDEN_404",
+      "indexable": false,
+      "articleScore": 99,
+      "articleGrade": "A",
+      "findings": [
+        {
+          "code": "length-ideal",
+          "severity": "P2",
+          "releaseSeverity": "MEDIUM",
+          "message": "About 2675 words — clears the floor but under the 3,000–5,500 ideal band."
+        },
+        {
+          "code": "second-person",
+          "severity": "P2",
+          "releaseSeverity": "MEDIUM",
+          "message": "Little second-person address — may feel impersonal."
+        }
+      ],
+      "p0": [],
+      "enrichedDecisionJunk": false,
+      "sourceSeedJunk": false,
+      "surface": "enriched_page"
+    },
+    {
+      "slug": "schwinn-airdyne-ad8",
+      "launchQuality": "LAUNCH_READY",
+      "editorialReady": true,
+      "workState": "READY",
+      "disposition": "HIDDEN_404",
+      "indexable": false,
+      "articleScore": 99,
+      "articleGrade": "A",
+      "findings": [
+        {
+          "code": "length-ideal",
+          "severity": "P2",
+          "releaseSeverity": "MEDIUM",
+          "message": "About 2929 words — clears the floor but under the 3,000–5,500 ideal band."
+        },
+        {
+          "code": "second-person",
+          "severity": "P2",
+          "releaseSeverity": "MEDIUM",
+          "message": "Little second-person address — may feel impersonal."
+        }
+      ],
+      "p0": [],
+      "enrichedDecisionJunk": false,
+      "sourceSeedJunk": false,
+      "surface": "enriched_page"
+    }
+  ],
+  "historicalWeakSourceSeeds": [
+    {
+      "slug": "buff-merino-lightweight",
+      "launchQuality": "LAUNCH_READY",
+      "editorialReady": true,
+      "workState": "READY",
+      "disposition": "INDEXABLE",
+      "indexable": true,
+      "articleScore": 100,
+      "articleGrade": "A",
+      "findings": [],
+      "p0": [],
+      "enrichedDecisionJunk": false,
+      "sourceSeedJunk": true,
+      "surface": "enriched_page"
+    },
+    {
+      "slug": "buff-polar",
+      "launchQuality": "LAUNCH_READY",
+      "editorialReady": true,
+      "workState": "READY",
+      "disposition": "INDEXABLE",
+      "indexable": true,
+      "articleScore": 100,
+      "articleGrade": "A",
+      "findings": [],
+      "p0": [],
+      "enrichedDecisionJunk": false,
+      "sourceSeedJunk": true,
+      "surface": "enriched_page"
+    },
+    {
+      "slug": "new-balance-fuelcell-rebel-v4",
+      "launchQuality": "LAUNCH_READY",
+      "editorialReady": true,
+      "workState": "READY",
+      "disposition": "INDEXABLE",
+      "indexable": true,
+      "articleScore": 100,
+      "articleGrade": "A",
+      "findings": [],
+      "p0": [],
+      "enrichedDecisionJunk": false,
+      "sourceSeedJunk": true,
+      "surface": "enriched_page"
+    }
+  ],
+  "summary": {
+    "flagshipCount": 5,
+    "flagshipsWithArticleP0": [],
+    "randomIndexableWithP0": 0,
+    "randomHeldSampled": 10,
+    "sourceSeedJunkAmongFlagships": 0
+  }
+}

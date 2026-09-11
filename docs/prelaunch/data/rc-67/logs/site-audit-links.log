@@ -1,0 +1,14 @@
+
+> kitletics@0.1.0 site:audit:links
+> tsx --tsconfig tsconfig.json scripts/site-quality-agent.ts --mode=links
+
+SiteQualityAgent · mode=links
+
+Overall: READY
+Open — BLOCKER 0 · HIGH 0 · MEDIUM 0 · LOW 0 · INFO 0
+Routes: 1152
+Auto-fixes proposed/applied: 0
+
+NEXT ACTIONS:
+
+Wrote docs/site-quality-audit.md + docs/site-quality-audit.json

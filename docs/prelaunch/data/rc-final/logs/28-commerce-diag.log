@@ -1,0 +1,131 @@
+(!) Your Vite config uses features that are unsupported by `configLoader: 'native'`, which is planned to become the default in a future major version of Vite:
+  - ESM syntax in a file loaded as CommonJS (vitest.config.ts:1:1). Use a `.mjs` extension or set `"type": "module"` in the closest package.json
+Set `VITE_CONFIG_NATIVE_IGNORE_WARNING=true` to suppress this warning.
+
+ RUN  v4.1.11 /Users/LMeyeridricks/Documents/coding/kitletics
+
+ ❯ tests/commerce-freshness.test.ts (4 tests | 2 failed) 89ms
+     × has displayable NL prices for the majority of covered products 68ms
+     × returns a From-price for hero shoes and watches 4ms
+ ❯ tests/product-page.test.ts (17 tests | 3 failed) 2232ms
+     × assembles Novablast 6 PDP with authentic gallery and published review 159ms
+     × filters regional offers to NL by default 145ms
+     × selects lowest available regional offer 149ms
+ ❯ tests/catalog.test.ts (14 tests | 1 failed) 9561ms
+     × uses regional NL pricing when available 505ms
+
+⎯⎯⎯⎯⎯⎯⎯ Failed Tests 6 ⎯⎯⎯⎯⎯⎯⎯
+
+ FAIL  tests/catalog.test.ts > Running Shoes catalog > uses regional NL pricing when available
+AssertionError: expected undefined to be truthy
+
+- Expected:
+true
+
++ Received:
+undefined
+
+ ❯ tests/catalog.test.ts:228:23
+    226|     );
+    227|     const withPrice = result.products.find((r) => r.price);
+    228|     expect(withPrice).toBeTruthy();
+       |                       ^
+    229|     const nl = getLowestOfferPrice(withPrice!.id, "NL", {
+    230|       isDev: false,
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/6]⎯
+
+ FAIL  tests/commerce-freshness.test.ts > commerce freshness & NL coverage (P0) > has displayable NL prices for the majority of covered products
+AssertionError: expected 0 to be greater than 0
+ ❯ tests/commerce-freshness.test.ts:21:25
+     19|     }
+     20|     expect(covered).toBeGreaterThan(0);
+     21|     expect(displayable).toBeGreaterThan(0);
+       |                         ^
+     22|     expect(displayable / covered).toBeGreaterThanOrEqual(0.95);
+     23|   });
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[2/6]⎯
+
+ FAIL  tests/commerce-freshness.test.ts > commerce freshness & NL coverage (P0) > returns a From-price for hero shoes and watches
+AssertionError: prod-superblast-2: expected undefined to be truthy
+
+- Expected:
+true
+
++ Received:
+undefined
+
+ ❯ tests/commerce-freshness.test.ts:56:25
+     54|     ]) {
+     55|       const price = getLowestOfferPrice(id, "NL");
+     56|       expect(price, id).toBeTruthy();
+       |                         ^
+     57|       expect(price!.price).toBeGreaterThan(0);
+     58|       expect(price!.currency).toBe("EUR");
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[3/6]⎯
+
+ FAIL  tests/product-page.test.ts > Product Detail page data > assembles Novablast 6 PDP with authentic gallery and published review
+AssertionError: expected undefined to be 'EUR' // Object.is equality
+
+- Expected:
+"EUR"
+
++ Received:
+undefined
+
+ ❯ tests/product-page.test.ts:33:41
+     31|     expect(data!.showScore).toBe(true);
+     32|     expect(data!.review?.slug).toBe("asics-novablast-6");
+     33|     expect(data!.lowestPrice?.currency).toBe("EUR");
+       |                                         ^
+     34|   });
+     35|
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[4/6]⎯
+
+ FAIL  tests/product-page.test.ts > Product Detail page data > filters regional offers to NL by default
+AssertionError: expected undefined to be 'EUR' // Object.is equality
+
+- Expected:
+"EUR"
+
++ Received:
+undefined
+
+ ❯ tests/product-page.test.ts:82:41
+     80|     });
+     81|     expect(data!.offers.every((o) => o.offer.region === "NL")).toBe(tr…
+     82|     expect(data!.lowestPrice?.currency).toBe("EUR");
+       |                                         ^
+     83|     expect(data!.offersOtherRegions.every((o) => o.offer.region !== "N…
+     84|       true,
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[5/6]⎯
+
+ FAIL  tests/product-page.test.ts > Product Detail page data > selects lowest available regional offer
+AssertionError: expected undefined to be 130 // Object.is equality
+
+- Expected:
+130
+
++ Received:
+undefined
+
+ ❯ tests/product-page.test.ts:109:38
+    107|     });
+    108|     // Seed: ASICS direct €130 (was/now with originalPrice 150)
+    109|     expect(data!.lowestPrice?.price).toBe(130);
+       |                                      ^
+    110|   });
+    111|
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[6/6]⎯
+
+
+ Test Files  3 failed (3)
+      Tests  6 failed | 29 passed (35)
+   Start at  08:02:50
+   Duration  14.89s (transform 11.70s, setup 0ms, import 14.11s, tests 11.88s, environment 0ms)
+

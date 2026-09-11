@@ -1,0 +1,87 @@
+{
+  "day1": 664,
+  "sitemap": 664,
+  "held": 1154,
+  "bestIndexable": 44,
+  "reviewsIndexable": 43,
+  "issues": [
+    "RC27-THIN-BEST:PASS",
+    "RC27-THIN-REVIEW:PASS",
+    "RC27-THIN-COMP:PASS",
+    "RC27-FAKE-FIRSTHAND:PASS",
+    "RC27-LOCALHOST-CANON:PASS",
+    "RC27-SITEMAP-MIRROR:PASS",
+    "RC27-DRAFTS:PASS",
+    "RC27-FILTERS:PASS",
+    "RC27-VERTICAL-LEAK:PASS",
+    "RC27-ORPHANS-APPROX:WARN"
+  ],
+  "runningCoverage": {
+    "Products": {
+      "total": 367,
+      "qualityReady": 362,
+      "day1Indexable": 251,
+      "held": 116
+    },
+    "Reviews": {
+      "total": 367,
+      "qualityReady": 43,
+      "day1Indexable": 43,
+      "held": 324
+    },
+    "Best": {
+      "total": 44,
+      "qualityReady": 44,
+      "day1Indexable": 44,
+      "held": 0
+    },
+    "Guides": {
+      "total": 41,
+      "qualityReady": 0,
+      "day1Indexable": 34,
+      "held": 7
+    },
+    "Comparisons": {
+      "total": 69,
+      "qualityReady": 69,
+      "day1Indexable": 55,
+      "held": 14
+    },
+    "Brands": {
+      "total": 105,
+      "qualityReady": 67,
+      "day1Indexable": 67,
+      "held": 38
+    },
+    "Categories": {
+      "total": 16,
+      "qualityReady": 12,
+      "day1Indexable": 12,
+      "held": 4
+    },
+    "Subcategories": {
+      "total": 5,
+      "qualityReady": 5,
+      "day1Indexable": 5,
+      "held": 0
+    },
+    "Finders": {
+      "total": 8,
+      "qualityReady": 8,
+      "day1Indexable": 8,
+      "held": 0
+    },
+    "Calculators": {
+      "total": 2,
+      "qualityReady": 2,
+      "day1Indexable": 2,
+      "held": 0
+    },
+    "GearSetups": {
+      "total": 5,
+      "qualityReady": 5,
+      "day1Indexable": 5,
+      "held": 0
+    }
+  }
+}

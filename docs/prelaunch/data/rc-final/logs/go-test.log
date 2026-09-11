@@ -1,0 +1,40 @@
+
+> kitletics@0.1.0 test
+> vitest run
+
+(!) Your Vite config uses features that are unsupported by `configLoader: 'native'`, which is planned to become the default in a future major version of Vite:
+  - ESM syntax in a file loaded as CommonJS (vitest.config.ts:1:1). Use a `.mjs` extension or set `"type": "module"` in the closest package.json
+Set `VITE_CONFIG_NATIVE_IGNORE_WARNING=true` to suppress this warning.
+
+ RUN  v4.1.11 /Users/LMeyeridricks/Documents/coding/kitletics
+
+ ❯ tests/review-page.test.ts (19 tests | 1 failed) 18278ms
+     × reviews index organises by category and filters by type 6728ms
+
+⎯⎯⎯⎯⎯⎯⎯ Failed Tests 1 ⎯⎯⎯⎯⎯⎯⎯
+
+ FAIL  tests/review-page.test.ts > Review page system > reviews index organises by category and filters by type
+AssertionError: expected 43 to be 585 // Object.is equality
+
+- Expected
++ Received
+
+- 585
++ 43
+
+ ❯ tests/review-page.test.ts:142:30
+    140|   it("reviews index organises by category and filters by type", () => {
+    141|     const all = getReviewsIndexData({ typeFilter: "all" });
+    142|     expect(all.items.length).toBe(getReviews().length);
+       |                              ^
+    143|     expect(all.byCategory.length).toBeGreaterThan(0);
+    144|     const research = getReviewsIndexData({ typeFilter: "expert-researc…
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/1]⎯
+
+
+ Test Files  1 failed | 54 passed (55)
+      Tests  1 failed | 576 passed (577)
+   Start at  20:00:01
+   Duration  110.84s (transform 46.22s, setup 0ms, import 126.72s, tests 468.51s, environment 6ms)
+

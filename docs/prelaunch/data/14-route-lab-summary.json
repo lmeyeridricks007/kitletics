@@ -1,0 +1,222 @@
+{
+  "routes": [
+    {
+      "path": "/",
+      "status": 200,
+      "fcp_ms": 352,
+      "ttfb_ms": 162,
+      "total_kb": 405,
+      "js_kb": 145,
+      "img_kb": 98,
+      "cls": 0,
+      "axeSerious": null,
+      "overflow": null
+    },
+    {
+      "path": "/running",
+      "status": 200,
+      "fcp_ms": 392,
+      "ttfb_ms": 175,
+      "total_kb": 3526,
+      "js_kb": 145,
+      "img_kb": 3112,
+      "cls": 0,
+      "axeSerious": null,
+      "overflow": null
+    },
+    {
+      "path": "/running/shoes",
+      "status": 200,
+      "fcp_ms": 1160,
+      "ttfb_ms": 982,
+      "total_kb": 7271,
+      "js_kb": 156,
+      "img_kb": 6970,
+      "cls": 0,
+      "axeSerious": null,
+      "overflow": null
+    },
+    {
+      "path": "/running/shoes/daily-trainers",
+      "status": 404,
+      "fcp_ms": 304,
+      "ttfb_ms": 152,
+      "total_kb": 271,
+      "js_kb": 153,
+      "img_kb": 0,
+      "cls": 0,
+      "axeSerious": null,
+      "overflow": null
+    },
+    {
+      "path": "/products/nike-vomero-18",
+      "status": 200,
+      "fcp_ms": 408,
+      "ttfb_ms": 312,
+      "total_kb": 6975,
+      "js_kb": 148,
+      "img_kb": 6712,
+      "cls": 0,
+      "axeSerious": null,
+      "overflow": null
+    },
+    {
+      "path": "/reviews/nike-vomero-18",
+      "status": 200,
+      "fcp_ms": 1220,
+      "ttfb_ms": 985,
+      "total_kb": 322,
+      "js_kb": 144,
+      "img_kb": 6,
+      "cls": 0,
+      "axeSerious": null,
+      "overflow": null
+    },
+    {
+      "path": "/best/running-shoes",
+      "status": 200,
+      "fcp_ms": 1336,
+      "ttfb_ms": 1217,
+      "total_kb": 310,
+      "js_kb": 146,
+      "img_kb": 26,
+      "cls": 0,
+      "axeSerious": null,
+      "overflow": null
+    },
+    {
+      "path": "/guides/how-to-choose-running-shoes",
+      "status": 200,
+      "fcp_ms": 708,
+      "ttfb_ms": 495,
+      "total_kb": 326,
+      "js_kb": 146,
+      "img_kb": 52,
+      "cls": 0,
+      "axeSerious": null,
+      "overflow": null
+    },
+    {
+      "path": "/brands/nike",
+      "status": 200,
+      "fcp_ms": 3280,
+      "ttfb_ms": 3094,
+      "total_kb": 10906,
+      "js_kb": 135,
+      "img_kb": 10652,
+      "cls": 0,
+      "axeSerious": null,
+      "overflow": null
+    },
+    {
+      "path": "/compare",
+      "status": 200,
+      "fcp_ms": 252,
+      "ttfb_ms": 171,
+      "total_kb": 287,
+      "js_kb": 168,
+      "img_kb": 0,
+      "cls": 0,
+      "axeSerious": null,
+      "overflow": null
+    },
+    {
+      "path": "/tools/running-shoe-finder",
+      "status": 200,
+      "fcp_ms": 408,
+      "ttfb_ms": 321,
+      "total_kb": 992,
+      "js_kb": 866,
+      "img_kb": 3,
+      "cls": 0,
+      "axeSerious": null,
+      "overflow": null
+    },
+    {
+      "path": "/tools/pace-calculator",
+      "status": 404,
+      "fcp_ms": 420,
+      "ttfb_ms": 157,
+      "total_kb": 989,
+      "js_kb": 866,
+      "img_kb": 0,
+      "cls": 0,
+      "axeSerious": null,
+      "overflow": null
+    },
+    {
+      "path": "/search",
+      "status": 200,
+      "fcp_ms": 256,
+      "ttfb_ms": 175,
+      "total_kb": 261,
+      "js_kb": 138,
+      "img_kb": 0,
+      "cls": 0,
+      "axeSerious": null,
+      "overflow": null
+    }
+  ],
+  "responsiveOverflow": [
+    {
+      "path": "/",
+      "vp": "mobile-390",
+      "overflow": null
+    },
+    {
+      "path": "/",
+      "vp": "tablet-768",
+      "overflow": null
+    },
+    {
+      "path": "/running/shoes",
+      "vp": "mobile-390",
+      "overflow": null
+    },
+    {
+      "path": "/running/shoes",
+      "vp": "tablet-768",
+      "overflow": null
+    },
+    {
+      "path": "/products/nike-vomero-18",
+      "vp": "mobile-390",
+      "overflow": null
+    },
+    {
+      "path": "/products/nike-vomero-18",
+      "vp": "tablet-768",
+      "overflow": null
+    },
+    {
+      "path": "/reviews/nike-vomero-18",
+      "vp": "mobile-390",
+      "overflow": null
+    },
+    {
+      "path": "/reviews/nike-vomero-18",
+      "vp": "tablet-768",
+      "overflow": null
+    },
+    {
+      "path": "/compare",
+      "vp": "mobile-390",
+      "overflow": null
+    },
+    {
+      "path": "/compare",
+      "vp": "tablet-768",
+      "overflow": null
+    },
+    {
+      "path": "/search",
+      "vp": "mobile-390",
+      "overflow": null
+    },
+    {
+      "path": "/search",
+      "vp": "tablet-768",
+      "overflow": null
+    }
+  ]
+}

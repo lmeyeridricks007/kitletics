@@ -1,0 +1,266 @@
+{
+  "generatedAt": "2026-09-10T19:19:55.523Z",
+  "mode": "full",
+  "dryRun": true,
+  "launchStatus": "READY WITH ISSUES",
+  "diagnosticScore": 84,
+  "routeCount": 1176,
+  "issues": [
+    {
+      "id": "SEO-001",
+      "severity": "INFO",
+      "area": "crawl",
+      "status": "resolved",
+      "evidence": "Sitemap enumerates 1174 URLs; route inventory 1176",
+      "whyItMatters": "Healthy crawl corpus for discovery",
+      "recommendedFix": "Keep publication gates in sync with sitemap",
+      "canAutoFix": false,
+      "owner": "SEO"
+    },
+    {
+      "id": "SEO-010",
+      "severity": "INFO",
+      "area": "indexation",
+      "status": "resolved",
+      "evidence": "No coming-soon sport hubs in sitemap",
+      "whyItMatters": "Thin placeholders should stay out of the crawl corpus until live",
+      "recommendedFix": "Keep excluding non-live sports from sitemap",
+      "canAutoFix": false,
+      "owner": "SEO"
+    },
+    {
+      "id": "SEO-011",
+      "severity": "INFO",
+      "area": "technical-seo",
+      "status": "resolved",
+      "evidence": "Go-live SEO checklist + env verification hooks documented",
+      "whyItMatters": "Ops can verify GSC/Bing without inventing tokens in code",
+      "recommendedFix": "Keep docs/go-live-seo.md in sync with deploy env",
+      "canAutoFix": false,
+      "owner": "SEO"
+    },
+    {
+      "id": "SEO-012",
+      "severity": "INFO",
+      "area": "technical-seo",
+      "status": "resolved",
+      "evidence": "Default OG image + Twitter card metadata present",
+      "whyItMatters": "Consistent previews when page-level ogImage is absent",
+      "recommendedFix": "Keep /og/default.png current with brand",
+      "canAutoFix": false,
+      "owner": "Engineering"
+    },
+    {
+      "id": "SEO-013",
+      "severity": "INFO",
+      "area": "technical-seo",
+      "status": "resolved",
+      "evidence": "Security headers configured in next.config.ts",
+      "whyItMatters": "Baseline transport and framing protections for production",
+      "recommendedFix": "Tighten CSP iteratively without breaking assets",
+      "canAutoFix": false,
+      "owner": "Engineering"
+    },
+    {
+      "id": "CONTENT-001",
+      "severity": "INFO",
+      "area": "review",
+      "status": "resolved",
+      "evidence": "0 reviews have thin source Buy/Skip",
+      "whyItMatters": "Source seeds should match Vomero-standard decision lines",
+      "recommendedFix": "Keep using npm run reviews:upgrade-audience -- --write after backfills",
+      "canAutoFix": false,
+      "owner": "Editorial"
+    },
+    {
+      "id": "CONTENT-002",
+      "severity": "HIGH",
+      "area": "review",
+      "status": "open",
+      "evidence": "3 reviews still match junk/report voice on source fields",
+      "whyItMatters": "Research-paper voice hurts trust and readability",
+      "recommendedFix": "npm run reviews:rewrite-voice -- --write",
+      "canAutoFix": false,
+      "owner": "Editorial"
+    },
+    {
+      "id": "CONTENT-ARTICLE-P0",
+      "severity": "HIGH",
+      "area": "review",
+      "status": "open",
+      "evidence": "15/15 sampled enriched reviews have P0 article-audit findings",
+      "whyItMatters": "Flagship reviews must meet publishable article quality",
+      "recommendedFix": "npm run reviews:article-audit",
+      "canAutoFix": false,
+      "owner": "Editorial"
+    },
+    {
+      "id": "CONTENT-003",
+      "severity": "INFO",
+      "area": "review",
+      "status": "resolved",
+      "evidence": "Review coverage 591/631 products (94%); missing 40",
+      "whyItMatters": "Commercial pages convert better with honest Reviews",
+      "recommendedFix": "npm run reviews:agent -- --mode=audit --missing",
+      "canAutoFix": false,
+      "owner": "Editorial",
+      "effort": "L",
+      "impact": "Medium"
+    },
+    {
+      "id": "CONTENT-005",
+      "severity": "INFO",
+      "area": "content",
+      "status": "resolved",
+      "evidence": "Guides 69 · Reviews 591 · Best 59 · Products 631",
+      "whyItMatters": "Corpus size baseline for growth",
+      "recommendedFix": "Track coverage over time in site-quality reports",
+      "canAutoFix": false,
+      "owner": "Content"
+    },
+    {
+      "id": "MEDIA-001",
+      "severity": "INFO",
+      "area": "media",
+      "status": "resolved",
+      "evidence": "0/290 flagship-category products missing authentic primary media",
+      "whyItMatters": "Flagship commercial pages need authentic heroes",
+      "recommendedFix": "Keep running bash scripts/fetch-media-gaps.sh after catalog expansions",
+      "canAutoFix": false,
+      "owner": "Editorial"
+    },
+    {
+      "id": "SCHEMA-001",
+      "severity": "INFO",
+      "area": "structured-data",
+      "status": "resolved",
+      "evidence": "JSON-LD builders present; no fabricated AggregateRating pattern detected",
+      "whyItMatters": "Baseline schema hygiene",
+      "recommendedFix": "Validate with Rich Results on representative URLs after deploy",
+      "canAutoFix": false,
+      "owner": "SEO"
+    },
+    {
+      "id": "TRUST-001",
+      "severity": "INFO",
+      "area": "commercial",
+      "status": "resolved",
+      "evidence": "AffiliateDisclosure component present",
+      "whyItMatters": "Disclosure should appear near commercial CTAs",
+      "recommendedFix": "Keep disclosure visible on review/product offer panels",
+      "canAutoFix": false,
+      "owner": "Commercial"
+    },
+    {
+      "id": "BACKLINK-001",
+      "severity": "INFO",
+      "area": "backlinks",
+      "status": "resolved",
+      "evidence": "Linkable tools documented (25 available): running-shoe-finder, fitness-watch-finder, running-pace-calculator, race-time-predictor, shoe-rotation-planner, running-hydration-finder…",
+      "whyItMatters": "Calculators/finders are primary linkable assets",
+      "recommendedFix": "Document in docs/backlink-opportunities.md; strengthen hub links into tools",
+      "canAutoFix": false,
+      "owner": "Commercial"
+    },
+    {
+      "id": "BACKLINK-002",
+      "severity": "MEDIUM",
+      "area": "backlinks",
+      "status": "resolved",
+      "evidence": "Manual known-backlinks ledger present (no fabricated DA metrics)",
+      "whyItMatters": "Cannot claim domain authority without an external source",
+      "recommendedFix": "Track known links manually; do not fabricate DA metrics",
+      "canAutoFix": false,
+      "owner": "Manual research"
+    },
+    {
+      "id": "PERF-002",
+      "severity": "MEDIUM",
+      "area": "cwv",
+      "status": "resolved",
+      "evidence": "Lighthouse / CWV baseline measured for representative routes under data/staging/site-quality/perf-baseline.json",
+      "whyItMatters": "CWV needs measured LCP/CLS/INP on Product/Review/Best/Finder",
+      "recommendedFix": "After production build, run npm run site:perf-baseline and store under data/staging/site-quality/perf-baseline.json",
+      "canAutoFix": false,
+      "owner": "Engineering",
+      "effort": "M",
+      "impact": "High"
+    },
+    {
+      "id": "PERF-003",
+      "severity": "INFO",
+      "area": "performance",
+      "status": "resolved",
+      "evidence": "Budgets documented in docs/performance-standards.md (targets, not guarantees)",
+      "whyItMatters": "Shared performance contract for engineering",
+      "recommendedFix": "Keep budgets updated when CWV thresholds change",
+      "canAutoFix": false,
+      "owner": "Engineering"
+    },
+    {
+      "id": "A11Y-001",
+      "severity": "MEDIUM",
+      "area": "accessibility",
+      "status": "resolved",
+      "evidence": "Axe + Playwright crawl measured for header/search/filters/compare/finder (a11y-baseline.json)",
+      "whyItMatters": "Keyboard/focus/contrast need tooling + manual QA",
+      "recommendedFix": "npm run site:a11y-baseline (server must be running); keep tests/a11y-smoke.test.ts in CI",
+      "canAutoFix": false,
+      "owner": "Engineering",
+      "effort": "M",
+      "impact": "Medium"
+    },
+    {
+      "id": "A11Y-002",
+      "severity": "INFO",
+      "area": "accessibility",
+      "status": "resolved",
+      "evidence": "Root layout sets html lang",
+      "whyItMatters": "Basic document accessibility",
+      "recommendedFix": "Keep lang accurate per locale expansion",
+      "canAutoFix": false,
+      "owner": "Engineering"
+    },
+    {
+      "id": "SEC-001",
+      "severity": "INFO",
+      "area": "security",
+      "status": "resolved",
+      "evidence": "Affiliate redirects use /go/[offerId] with X-Robots-Tag noindex",
+      "whyItMatters": "Open-redirect surface must stay allowlisted",
+      "recommendedFix": "Keep host allowlist checks in commerce affiliates resolver",
+      "canAutoFix": false,
+      "owner": "Engineering"
+    },
+    {
+      "id": "VARIANT-ok",
+      "severity": "INFO",
+      "area": "product",
+      "status": "resolved",
+      "evidence": "Variant UX coverage OK — 81/85 dual Men+Women shoes; search/compare/best/review/brand surfaces wired",
+      "whyItMatters": "Baseline for regression detection on next audit",
+      "recommendedFix": "No action",
+      "canAutoFix": false,
+      "owner": "Engineering"
+    }
+  ],
+  "counts": {
+    "BLOCKER": 0,
+    "HIGH": 2,
+    "MEDIUM": 0,
+    "LOW": 0,
+    "INFO": 0
+  },
+  "sections": {
+    "build": "Not run inside agent — execute `npm run build` for compile verification."
+  },
+  "autoFixes": [],
+  "nextActions": [
+    "CONTENT-002 (HIGH): npm run reviews:rewrite-voice -- --write",
+    "CONTENT-ARTICLE-P0 (HIGH): npm run reviews:article-audit"
+  ],
+  "remainingManual": [
+    "CONTENT-002: npm run reviews:rewrite-voice -- --write",
+    "CONTENT-ARTICLE-P0: npm run reviews:article-audit"
+  ]
+}

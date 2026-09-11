@@ -1,0 +1,6709 @@
+{
+  "generatedAt": "2026-09-10T08:04:20.848Z",
+  "totals": {
+    "brands": 191,
+    "ready": 69,
+    "indexable": 69,
+    "held": 122,
+    "byClass": {
+      "READY": 69,
+      "HOLD_INSUFFICIENT_DEPTH": 91,
+      "HOLD_NO_PRODUCTS": 31
+    }
+  },
+  "ready": [
+    {
+      "slug": "asics",
+      "products": 20,
+      "families": 10,
+      "reviews": 18
+    },
+    {
+      "slug": "nike",
+      "products": 28,
+      "families": 16,
+      "reviews": 26
+    },
+    {
+      "slug": "adidas",
+      "products": 19,
+      "families": 4,
+      "reviews": 18
+    },
+    {
+      "slug": "saucony",
+      "products": 9,
+      "families": 6,
+      "reviews": 9
+    },
+    {
+      "slug": "new-balance",
+      "products": 11,
+      "families": 4,
+      "reviews": 10
+    },
+    {
+      "slug": "hoka",
+      "products": 10,
+      "families": 5,
+      "reviews": 10
+    },
+    {
+      "slug": "brooks",
+      "products": 14,
+      "families": 12,
+      "reviews": 14
+    },
+    {
+      "slug": "garmin",
+      "products": 17,
+      "families": 7,
+      "reviews": 17
+    },
+    {
+      "slug": "coros",
+      "products": 7,
+      "families": 4,
+      "reviews": 7
+    },
+    {
+      "slug": "salomon",
+      "products": 15,
+      "families": 11,
+      "reviews": 15
+    },
+    {
+      "slug": "puma",
+      "products": 4,
+      "families": 2,
+      "reviews": 4
+    },
+    {
+      "slug": "on",
+      "products": 8,
+      "families": 5,
+      "reviews": 8
+    },
+    {
+      "slug": "mizuno",
+      "products": 3,
+      "families": 2,
+      "reviews": 2
+    },
+    {
+      "slug": "altra",
+      "products": 5,
+      "families": 2,
+      "reviews": 5
+    },
+    {
+      "slug": "topo-athletic",
+      "products": 3,
+      "families": 1,
+      "reviews": 3
+    },
+    {
+      "slug": "inov-8",
+      "products": 6,
+      "families": 3,
+      "reviews": 6
+    },
+    {
+      "slug": "polar",
+      "products": 7,
+      "families": 5,
+      "reviews": 7
+    },
+    {
+      "slug": "suunto",
+      "products": 6,
+      "families": 4,
+      "reviews": 6
+    },
+    {
+      "slug": "apple",
+      "products": 5,
+      "families": 3,
+      "reviews": 5
+    },
+    {
+      "slug": "wahoo",
+      "products": 4,
+      "families": 1,
+      "reviews": 4
+    },
+    {
+      "slug": "nathan",
+      "products": 12,
+      "families": 10,
+      "reviews": 12
+    },
+    {
+      "slug": "ultimate-direction",
+      "products": 9,
+      "families": 6,
+      "reviews": 9
+    },
+    {
+      "slug": "camelbak",
+      "products": 6,
+      "families": 6,
+      "reviews": 6
+    },
+    {
+      "slug": "osprey",
+      "products": 9,
+      "families": 5,
+      "reviews": 9
+    },
+    {
+      "slug": "hydrapak",
+      "products": 6,
+      "families": 5,
+      "reviews": 6
+    },
+    {
+      "slug": "patagonia",
+      "products": 8,
+      "families": 9,
+      "reviews": 8
+    },
+    {
+      "slug": "ultraspire",
+      "products": 3,
+      "families": 3,
+      "reviews": 3
+    },
+    {
+      "slug": "tracksmith",
+      "products": 6,
+      "families": 6,
+      "reviews": 6
+    },
+    {
+      "slug": "janji",
+      "products": 4,
+      "families": 4,
+      "reviews": 4
+    },
+    {
+      "slug": "shokz",
+      "products": 4,
+      "families": 2,
+      "reviews": 4
+    },
+    {
+      "slug": "oakley",
+      "products": 5,
+      "families": 4,
+      "reviews": 5
+    },
+    {
+      "slug": "julbo",
+      "products": 3,
+      "families": 2,
+      "reviews": 3
+    },
+    {
+      "slug": "petzl",
+      "products": 3,
+      "families": 4,
+      "reviews": 3
+    },
+    {
+      "slug": "black-diamond",
+      "products": 5,
+      "families": 4,
+      "reviews": 5
+    },
+    {
+      "slug": "cep",
+      "products": 3,
+      "families": 1,
+      "reviews": 3
+    },
+    {
+      "slug": "buff",
+      "products": 4,
+      "families": 1,
+      "reviews": 4
+    },
+    {
+      "slug": "craft",
+      "products": 6,
+      "families": 3,
+      "reviews": 6
+    },
+    {
+      "slug": "therabody",
+      "products": 3,
+      "families": 2,
+      "reviews": 3
+    },
+    {
+      "slug": "hyperice",
+      "products": 5,
+      "families": 3,
+      "reviews": 5
+    },
+    {
+      "slug": "amphipod",
+      "products": 5,
+      "families": 4,
+      "reviews": 5
+    },
+    {
+      "slug": "maurten",
+      "products": 5,
+      "families": 2,
+      "reviews": 5
+    },
+    {
+      "slug": "science-in-sport",
+      "products": 3,
+      "families": 2,
+      "reviews": 3
+    },
+    {
+      "slug": "gu-energy",
+      "products": 3,
+      "families": 3,
+      "reviews": 3
+    },
+    {
+      "slug": "precision-fuel-hydration",
+      "products": 3,
+      "families": 2,
+      "reviews": 3
+    },
+    {
+      "slug": "nox",
+      "products": 6,
+      "families": 1,
+      "reviews": 5
+    },
+    {
+      "slug": "bullpadel",
+      "products": 7,
+      "families": 2,
+      "reviews": 6
+    },
+    {
+      "slug": "adidas-padel",
+      "products": 6,
+      "families": 1,
+      "reviews": 6
+    },
+    {
+      "slug": "head",
+      "products": 11,
+      "families": 1,
+      "reviews": 9
+    },
+    {
+      "slug": "wilson",
+      "products": 14,
+      "families": 2,
+      "reviews": 11
+    },
+    {
+      "slug": "babolat",
+      "products": 14,
+      "families": 3,
+      "reviews": 10
+    },
+    {
+      "slug": "joma",
+      "products": 4,
+      "families": 2,
+      "reviews": 3
+    },
+    {
+      "slug": "yonex",
+      "products": 10,
+      "families": 2,
+      "reviews": 4
+    },
+    {
+      "slug": "tecnifibre",
+      "products": 4,
+      "families": 1,
+      "reviews": 2
+    },
+    {
+      "slug": "asics-racket",
+      "products": 5,
+      "families": 3,
+      "reviews": 5
+    },
+    {
+      "slug": "rogue",
+      "products": 19,
+      "families": 0,
+      "reviews": 19
+    },
+    {
+      "slug": "rep-fitness",
+      "products": 12,
+      "families": 0,
+      "reviews": 12
+    },
+    {
+      "slug": "powerblock",
+      "products": 3,
+      "families": 2,
+      "reviews": 3
+    },
+    {
+      "slug": "concept2",
+      "products": 6,
+      "families": 0,
+      "reviews": 6
+    },
+    {
+      "slug": "assault-fitness",
+      "products": 4,
+      "families": 1,
+      "reviews": 4
+    },
+    {
+      "slug": "mirafit",
+      "products": 14,
+      "families": 1,
+      "reviews": 14
+    },
+    {
+      "slug": "eleiko",
+      "products": 5,
+      "families": 0,
+      "reviews": 5
+    },
+    {
+      "slug": "gornation",
+      "products": 3,
+      "families": 2,
+      "reviews": 3
+    },
+    {
+      "slug": "gravity-fitness",
+      "products": 4,
+      "families": 3,
+      "reviews": 4
+    },
+    {
+      "slug": "reebok",
+      "products": 5,
+      "families": 2,
+      "reviews": 5
+    },
+    {
+      "slug": "nobull",
+      "products": 3,
+      "families": 2,
+      "reviews": 3
+    },
+    {
+      "slug": "tyr",
+      "products": 3,
+      "families": 1,
+      "reviews": 3
+    },
+    {
+      "slug": "blackroll",
+      "products": 5,
+      "families": 1,
+      "reviews": 5
+    },
+    {
+      "slug": "pullup-and-dip",
+      "products": 3,
+      "families": 2,
+      "reviews": 3
+    },
+    {
+      "slug": "under-armour",
+      "products": 4,
+      "families": 2,
+      "reviews": 4
+    }
+  ],
+  "held": [
+    {
+      "slug": "amazfit",
+      "class": "HOLD_INSUFFICIENT_DEPTH",
+      "products": 2,
+      "cats": 1,
+      "families": 2,
+      "familyNames": [
+        "T-Rex",
+        "Active"
+      ],
+      "strengths": 2,
+      "reviews": 2,
+      "comparisons": 0,
+      "best": 2,
+      "guides": 0,
+      "evidence": 2,
+      "uniquenessHold": false,
+      "depthOk": false,
+      "renderable": false,
+      "disposition": "HIDDEN_404",
+      "productsSample": [
+        "T-Rex 3 Pro",
+        "Active 2"
+      ]
+    },
+    {
+      "slug": "scosche",
+      "class": "HOLD_INSUFFICIENT_DEPTH",
+      "products": 2,
+      "cats": 1,
+      "families": 1,
+      "familyNames": [
+        "Rhythm"
+      ],
+      "strengths": 2,
+      "reviews": 2,
+      "comparisons": 0,
+      "best": 0,
+      "guides": 0,
+      "evidence": 2,
+      "uniquenessHold": false,
+      "depthOk": false,
+      "renderable": false,
+      "disposition": "HIDDEN_404",
+      "productsSample": [
+        "Rhythm+ 2.0",
+        "Rhythm24"
+      ]
+    },
+    {
+      "slug": "compressport",
+      "class": "HOLD_INSUFFICIENT_DEPTH",
+      "products": 2,
+      "cats": 2,
+      "families": 3,
+      "familyNames": [
+        "Free Belt",
+        "Ultrun",
+        "R2"
+      ],
+      "strengths": 2,
+      "reviews": 2,
+      "comparisons": 0,
+      "best": 0,
+      "guides": 0,
+      "evidence": 2,
+      "uniquenessHold": false,
+      "depthOk": false,
+      "renderable": false,
+      "disposition": "HIDDEN_404",
+      "productsSample": [
+        "Ultrun S Pack",
+        "Free Belt Pro"
+      ]
+    },
+    {
+      "slug": "odlo",
+      "class": "HOLD_INSUFFICIENT_DEPTH",
+      "products": 2,
+      "cats": 1,
+      "families": 1,
+      "familyNames": [
+        "Active Warm Eco"
+      ],
+      "strengths": 2,
+      "reviews": 2,
+      "comparisons": 0,
+      "best": 1,
+      "guides": 0,
+      "evidence": 2,
+      "uniquenessHold": false,
+      "depthOk": false,
+      "renderable": false,
+      "disposition": "HIDDEN_404",
+      "productsSample": [
+        "Active Warm Eco LS",
+        "Active Warm Eco Bottom"
+      ]
+    },
+    {
+      "slug": "smartwool",
+      "class": "HOLD_INSUFFICIENT_DEPTH",
+      "products": 2,
+      "cats": 2,
+      "families": 2,
+      "familyNames": [
+        "Run Targeted Cushion",
+        "Thermal Merino"
+      ],
+      "strengths": 2,
+      "reviews": 2,
+      "comparisons": 0,
+      "best": 1,
+      "guides": 0,
+      "evidence": 2,
+      "uniquenessHold": false,
+      "depthOk": false,
+      "renderable": false,
+      "disposition": "HIDDEN_404",
+      "productsSample": [
+        "Thermal Merino Glove",
+        "Run Targeted Cushion Crew"
+      ]
+    },
+    {
+      "slug": "goodr",
+      "class": "HOLD_INSUFFICIENT_DEPTH",
+      "products": 2,
+      "cats": 1,
+      "families": 1,
+      "familyNames": [
+        "Circle Gs"
+      ],
+      "strengths": 2,
+      "reviews": 2,
+      "comparisons": 0,
+      "best": 1,
+      "guides": 0,
+      "evidence": 2,
+      "uniquenessHold": false,
+      "depthOk": false,
+      "renderable": false,
+      "disposition": "HIDDEN_404",
+      "productsSample": [
+        "Circle Gs",
+        "OGs"
+      ]
+    },
+    {
+      "slug": "balega",
+      "class": "HOLD_INSUFFICIENT_DEPTH",
+      "products": 2,
+      "cats": 1,
+      "families": 2,
+      "familyNames": [
+        "Blister Resist",
+        "Hidden Comfort"
+      ],
+      "strengths": 2,
+      "reviews": 2,
+      "comparisons": 0,
+      "best": 1,
+      "guides": 1,
+      "evidence": 2,
+      "uniquenessHold": false,
+      "depthOk": false,
+      "renderable": false,
+      "disposition": "HIDDEN_404",
+      "productsSample": [
+        "Blister Resist Quarter",
+        "Hidden Comfort"
+      ]
+    },
+    {
+      "slug": "triggerpoint",
+      "class": "HOLD_INSUFFICIENT_DEPTH",
+      "products": 2,
+      "cats": 1,
+      "families": 3,
+      "familyNames": [
+        "GRID",
+        "MB",
+        "STP"
+      ],
+      "strengths": 2,
+      "reviews": 2,
+      "comparisons": 0,
+      "best": 1,
+      "guides": 2,
+      "evidence": 2,
+      "uniquenessHold": false,
+      "depthOk": false,
+      "renderable": false,
+      "disposition": "HIDDEN_404",
+      "productsSample": [
+        "GRID X",
+        "GRID Travel"
+      ]
+    },
+    {
+      "slug": "oofos",
+      "class": "HOLD_INSUFFICIENT_DEPTH",
+      "products": 2,
+      "cats": 1,
+      "families": 1,
+      "familyNames": [
+        "OOFOS"
+      ],
+      "strengths": 2,
+      "reviews": 2,
+      "comparisons": 0,
+      "best": 1,
+      "guides": 3,
+      "evidence": 2,
+      "uniquenessHold": false,
+      "depthOk": false,
+      "renderable": false,
+      "disposition": "HIDDEN_404",
+      "productsSample": [
+        "OOlala",
+        "OOriginal"
+      ]
+    },
+    {
+      "slug": "soundcore",
+      "class": "HOLD_INSUFFICIENT_DEPTH",
+      "products": 2,
+      "cats": 1,
+      "families": 2,
+      "familyNames": [
+        "AeroFit",
+        "Sport"
+      ],
+      "strengths": 2,
+      "reviews": 2,
+      "comparisons": 0,
+      "best": 1,
+      "guides": 1,
+      "evidence": 2,
+      "uniquenessHold": false,
+      "depthOk": false,
+      "renderable": false,
+      "disposition": "HIDDEN_404",
+      "productsSample": [
+        "AeroFit 2",
+        "Sport X20"
+      ]
+    },
+    {
+      "slug": "smith",
+      "class": "HOLD_INSUFFICIENT_DEPTH",
+      "products": 2,
+      "cats": 1,
+      "families": 2,
+      "familyNames": [
+        "Shift MAG",
+        "Attack MAG"
+      ],
+      "strengths": 2,
+      "reviews": 2,
+      "comparisons": 1,
+      "best": 1,
+      "guides": 0,
+      "evidence": 2,
+      "uniquenessHold": false,
+      "depthOk": false,
+      "renderable": false,
+      "disposition": "HIDDEN_404",
+      "productsSample": [
+        "Shift MAG",
+        "Attack MAG"
+      ]
+    },
+    {
+      "slug": "tifosi",
+      "class": "HOLD_INSUFFICIENT_DEPTH",
+      "products": 2,
+      "cats": 1,
+      "families": 2,
+      "familyNames": [
+        "Rail",
+        "Vogel"
+      ],
+      "strengths": 2,
+      "reviews": 2,
+      "comparisons": 0,
+      "best": 1,
+      "guides": 0,
+      "evidence": 2,
+      "uniquenessHold": false,
+      "depthOk": false,
+      "renderable": false,
+      "disposition": "HIDDEN_404",
+      "productsSample": [
+        "Rail",
+        "Vogel"
+      ]
+    },
+    {
+      "slug": "skratch-labs",
+      "class": "HOLD_INSUFFICIENT_DEPTH",
+      "products": 2,
+      "cats": 1,
+      "families": 2,
+      "familyNames": [
+        "Skratch Energy Chews",
+        "Skratch Sport Hydration"
+      ],
+      "strengths": 2,
+      "reviews": 2,
+      "comparisons": 0,
+      "best": 1,
+      "guides": 1,
+      "evidence": 2,
+      "uniquenessHold": false,
+      "depthOk": false,
+      "renderable": false,
+      "disposition": "HIDDEN_404",
+      "productsSample": [
+        "Sport Energy Chews",
+        "Sport Hydration Drink Mix"
+      ]
+    },
+    {
+      "slug": "clif-bar",
+      "class": "HOLD_INSUFFICIENT_DEPTH",
+      "products": 2,
+      "cats": 1,
+      "families": 2,
+      "familyNames": [
+        "CLIF BLOKS",
+        "CLIF Bar"
+      ],
+      "strengths": 2,
+      "reviews": 2,
+      "comparisons": 1,
+      "best": 1,
+      "guides": 2,
+      "evidence": 2,
+      "uniquenessHold": false,
+      "depthOk": false,
+      "renderable": false,
+      "disposition": "HIDDEN_404",
+      "productsSample": [
+        "Bloks Energy Chews",
+        "Clif Bar"
+      ]
+    },
+    {
+      "slug": "neversecond",
+      "class": "HOLD_INSUFFICIENT_DEPTH",
+      "products": 2,
+      "cats": 1,
+      "families": 1,
+      "familyNames": [
+        "Neversecond C30"
+      ],
+      "strengths": 2,
+      "reviews": 2,
+      "comparisons": 1,
+      "best": 1,
+      "guides": 2,
+      "evidence": 2,
+      "uniquenessHold": false,
+      "depthOk": false,
+      "renderable": false,
+      "disposition": "HIDDEN_404",
+      "productsSample": [
+        "C30 Gel",
+        "C30 Sports Drink"
+      ]
+    },
+    {
+      "slug": "high5",
+      "class": "HOLD_INSUFFICIENT_DEPTH",
+      "products": 2,
+      "cats": 1,
+      "families": 2,
+      "familyNames": [
+        "High5 ZERO",
+        "High5 Energy Gel"
+      ],
+      "strengths": 2,
+      "reviews": 2,
+      "comparisons": 0,
+      "best": 0,
+      "guides": 0,
+      "evidence": 2,
+      "uniquenessHold": false,
+      "depthOk": false,
+      "renderable": false,
+      "disposition": "HIDDEN_404",
+      "productsSample": [
+        "ZERO",
+        "Energy Gel"
+      ]
+    },
+    {
+      "slug": "saltstick",
+      "class": "HOLD_INSUFFICIENT_DEPTH",
+      "products": 2,
+      "cats": 1,
+      "families": 2,
+      "familyNames": [
+        "SaltStick Fastchews",
+        "SaltStick Caps"
+      ],
+      "strengths": 2,
+      "reviews": 2,
+      "comparisons": 0,
+      "best": 0,
+      "guides": 0,
+      "evidence": 2,
+      "uniquenessHold": false,
+      "depthOk": false,
+      "renderable": false,
+      "disposition": "HIDDEN_404",
+      "productsSample": [
+        "Fastchews",
+        "Caps"
+      ]
+    },
+    {
+      "slug": "naak",
+      "class": "HOLD_INSUFFICIENT_DEPTH",
+      "products": 2,
+      "cats": 1,
+      "families": 2,
+      "familyNames": [
+        "Näak Ultra Energy",
+        "Näak Ultra Energy Drink"
+      ],
+      "strengths": 2,
+      "reviews": 2,
+      "comparisons": 0,
+      "best": 0,
+      "guides": 0,
+      "evidence": 2,
+      "uniquenessHold": false,
+      "depthOk": false,
+      "renderable": false,
+      "disposition": "HIDDEN_404",
+      "productsSample": [
+        "Ultra Energy Bar",
+        "Ultra Energy Drink Mix"
+      ]
+    },
+    {
+      "slug": "styrkr",
+      "class": "HOLD_INSUFFICIENT_DEPTH",
+      "products": 2,
+      "cats": 1,
+      "families": 2,
+      "familyNames": [
+        "STYRKR MIX",
+        "STYRKR GEL"
+      ],
+      "strengths": 2,
+      "reviews": 2,
+      "comparisons": 0,
+      "best": 0,
+      "guides": 0,
+      "evidence": 2,
+      "uniquenessHold": false,
+      "depthOk": false,
+      "renderable": false,
+      "disposition": "HIDDEN_404",
+      "productsSample": [
+        "MIX90",
+        "GEL30"
+      ]
+    },
+    {
+      "slug": "veloforte",
+      "class": "HOLD_INSUFFICIENT_DEPTH",
+      "products": 2,
+      "cats": 1,
+      "families": 2,
+      "familyNames": [
+        "Veloforte Chews",
+        "Veloforte Energy Bar"
+      ],
+      "strengths": 2,
+      "reviews": 2,
+      "comparisons": 0,
+      "best": 0,
+      "guides": 0,
+      "evidence": 2,
+      "uniquenessHold": false,
+      "depthOk": false,
+      "renderable": false,
+      "disposition": "HIDDEN_404",
+      "productsSample": [
+        "Energy Chews",
+        "Energy Bar"
+      ]
+    },
+    {
+      "slug": "starvie",
+      "class": "HOLD_INSUFFICIENT_DEPTH",
+      "products": 2,
+      "cats": 1,
+      "families": 0,
+      "familyNames": [],
+      "strengths": 2,
+      "reviews": 2,
+      "comparisons": 0,
+      "best": 0,
+      "guides": 0,
+      "evidence": 1,
+      "uniquenessHold": false,
+      "depthOk": false,
+      "renderable": false,
+      "disposition": "HIDDEN_404",
+      "productsSample": [
+        "Titania Kepler 2026",
+        "Basalto Osiris 2026"
+      ]
+    },
+    {
+      "slug": "kuikma",
+      "class": "HOLD_INSUFFICIENT_DEPTH",
+      "products": 2,
+      "cats": 2,
+      "families": 0,
+      "familyNames": [],
+      "strengths": 2,
+      "reviews": 2,
+      "comparisons": 0,
+      "best": 0,
+      "guides": 0,
+      "evidence": 2,
+      "uniquenessHold": false,
+      "depthOk": false,
+      "renderable": false,
+      "disposition": "HIDDEN_404",
+      "productsSample": [
+        "PR Soft 500",
+        "PS 990"
+      ]
+    },
+    {
+      "slug": "k-swiss",
+      "class": "HOLD_INSUFFICIENT_DEPTH",
+      "products": 2,
+      "cats": 1,
+      "families": 0,
+      "familyNames": [],
+      "strengths": 2,
+      "reviews": 2,
+      "comparisons": 0,
+      "best": 0,
+      "guides": 0,
+      "evidence": 1,
+      "uniquenessHold": false,
+      "depthOk": false,
+      "renderable": false,
+      "disposition": "HIDDEN_404",
+      "productsSample": [
+        "Hypercourt Express 2",
+        "Ultrashot 3"
+      ]
+    },
+    {
+      "slug": "nuobell",
+      "class": "HOLD_INSUFFICIENT_DEPTH",
+      "products": 2,
+      "cats": 1,
+      "families": 0,
+      "familyNames": [],
+      "strengths": 2,
+      "reviews": 2,
+      "comparisons": 1,
+      "best": 2,
+      "guides": 4,
+      "evidence": 1,
+      "uniquenessHold": false,
+      "depthOk": false,
+      "renderable": false,
+      "disposition": "HIDDEN_404",
+      "productsSample": [
+        "NÜOBELL 80",
+        "NÜOBELL 50"
+      ]
+    },
+    {
+      "slug": "bowflex",
+      "class": "HOLD_INSUFFICIENT_DEPTH",
+      "products": 2,
+      "cats": 1,
+      "families": 0,
+      "familyNames": [],
+      "strengths": 2,
+      "reviews": 2,
+      "comparisons": 0,
+      "best": 1,
+      "guides": 1,
+      "evidence": 1,
+      "uniquenessHold": false,
+      "depthOk": false,
+      "renderable": false,
+      "disposition": "HIDDEN_404",
+      "productsSample": [
+        "SelectTech 552",
+        "SelectTech 1090"
+      ]
+    },
+    {
+      "slug": "atx",
+      "class": "HOLD_INSUFFICIENT_DEPTH",
+      "products": 2,
+      "cats": 2,
+      "families": 0,
+      "familyNames": [],
+      "strengths": 2,
+      "reviews": 2,
+      "comparisons": 0,
+      "best": 2,
+      "guides": 2,
+      "evidence": 2,
+      "uniquenessHold": false,
+      "depthOk": false,
+      "renderable": false,
+      "disposition": "HIDDEN_404",
+      "productsSample": [
+        "Cast Iron Plate Set",
+        "FID Bench"
+      ]
+    },
+    {
+      "slug": "xebex",
+      "class": "HOLD_INSUFFICIENT_DEPTH",
+      "products": 2,
+      "cats": 1,
+      "families": 0,
+      "familyNames": [],
+      "strengths": 2,
+      "reviews": 2,
+      "comparisons": 0,
+      "best": 0,
+      "guides": 0,
+      "evidence": 2,
+      "uniquenessHold": false,
+      "depthOk": false,
+      "renderable": false,
+      "disposition": "HIDDEN_404",
+      "productsSample": [
+        "Ski Erg",
+        "SkiErg2 Wall"
+      ]
+    },
+    {
+      "slug": "salming",
+      "class": "HOLD_INSUFFICIENT_DEPTH",
+      "products": 2,
+      "cats": 1,
+      "families": 0,
+      "familyNames": [],
+      "strengths": 2,
+      "reviews": 2,
+      "comparisons": 0,
+      "best": 1,
+      "guides": 0,
+      "evidence": 2,
+      "uniquenessHold": false,
+      "depthOk": false,
+      "renderable": false,
+      "disposition": "HIDDEN_404",
+      "productsSample": [
+        "Race 9",
+        "Rebel"
+      ]
+    },
+    {
+      "slug": "varlion",
+      "class": "HOLD_INSUFFICIENT_DEPTH",
+      "products": 2,
+      "cats": 2,
+      "families": 0,
+      "familyNames": [],
+      "strengths": 2,
+      "reviews": 1,
+      "comparisons": 0,
+      "best": 0,
+      "guides": 0,
+      "evidence": 2,
+      "uniquenessHold": false,
+      "depthOk": false,
+      "renderable": false,
+      "disposition": "HIDDEN_404",
+      "productsSample": [
+        "LW Carbon Difusor 2026",
+        "Bourne Padel"
+      ]
+    },
+    {
+      "slug": "oxdog",
+      "class": "HOLD_INSUFFICIENT_DEPTH",
+      "products": 2,
+      "cats": 2,
+      "families": 0,
+      "familyNames": [],
+      "strengths": 2,
+      "reviews": 1,
+      "comparisons": 0,
+      "best": 0,
+      "guides": 0,
+      "evidence": 2,
+      "uniquenessHold": false,
+      "depthOk": false,
+      "renderable": false,
+      "disposition": "HIDDEN_404",
+      "productsSample": [
+        "Sense Pro",
+        "Hyper Court"
+      ]
+    },
+    {
+      "slug": "tecnifibre-padel",
+      "class": "HOLD_INSUFFICIENT_DEPTH",
+      "products": 2,
+      "cats": 2,
+      "families": 0,
+      "familyNames": [],
+      "strengths": 2,
+      "reviews": 1,
+      "comparisons": 0,
+      "best": 0,
+      "guides": 0,
+      "evidence": 2,
+      "uniquenessHold": false,
+      "depthOk": false,
+      "renderable": false,
+      "disposition": "HIDDEN_404",
+      "productsSample": [
+        "Wall Breaker 365",
+        "Wall Shooter"
+      ]
+    },
+    {
+      "slug": "lok",
+      "class": "HOLD_INSUFFICIENT_DEPTH",
+      "products": 2,
+      "cats": 2,
+      "families": 0,
+      "familyNames": [],
+      "strengths": 2,
+      "reviews": 1,
+      "comparisons": 0,
+      "best": 0,
+      "guides": 0,
+      "evidence": 2,
+      "uniquenessHold": false,
+      "depthOk": false,
+      "renderable": false,
+      "disposition": "HIDDEN_404",
+      "productsSample": [
+        "Maxx Flow",
+        "Padel One"
+      ]
+    },
+    {
+      "slug": "prince",
+      "class": "HOLD_INSUFFICIENT_DEPTH",
+      "products": 2,
+      "cats": 2,
+      "families": 0,
+      "familyNames": [],
+      "strengths": 2,
+      "reviews": 1,
+      "comparisons": 0,
+      "best": 0,
+      "guides": 0,
+      "evidence": 2,
+      "uniquenessHold": false,
+      "depthOk": false,
+      "renderable": false,
+      "disposition": "HIDDEN_404",
+      "productsSample": [
+        "Textreme Tour 100P",
+        "T22"
+      ]
+    },
+    {
+      "slug": "joola",
+      "class": "HOLD_INSUFFICIENT_DEPTH",
+      "products": 2,
+      "cats": 1,
+      "families": 0,
+      "familyNames": [],
+      "strengths": 2,
+      "reviews": 0,
+      "comparisons": 0,
+      "best": 0,
+      "guides": 0,
+      "evidence": 1,
+      "uniquenessHold": false,
+      "depthOk": false,
+      "renderable": false,
+      "disposition": "HIDDEN_404",
+      "productsSample": [
+        "Ben Johns Hyperion CFS 16",
+        "Perseus 16"
+      ]
+    },
+    {
+      "slug": "samsung",
+      "class": "HOLD_INSUFFICIENT_DEPTH",
+      "products": 1,
+      "cats": 1,
+      "families": 1,
+      "familyNames": [
+        "Galaxy Watch"
+      ],
+      "strengths": 1,
+      "reviews": 1,
+      "comparisons": 0,
+      "best": 0,
+      "guides": 0,
+      "evidence": 2,
+      "uniquenessHold": false,
+      "depthOk": false,
+      "renderable": false,
+      "disposition": "HIDDEN_404",
+      "productsSample": [
+        "Galaxy Watch Ultra"
+      ]
+    },
+    {
+      "slug": "flipbelt",
+      "class": "HOLD_INSUFFICIENT_DEPTH",
+      "products": 1,
+      "cats": 1,
+      "families": 1,
+      "familyNames": [
+        "FlipBelt Reflective"
+      ],
+      "strengths": 1,
+      "reviews": 1,
+      "comparisons": 1,
+      "best": 2,
+      "guides": 6,
+      "evidence": 1,
+      "uniquenessHold": false,
+      "depthOk": false,
+      "renderable": false,
+      "disposition": "HIDDEN_404",
+      "productsSample": [
+        "Classic"
+      ]
+    },
+    {
+      "slug": "spibelt",
+      "class": "HOLD_INSUFFICIENT_DEPTH",
+      "products": 1,
+      "cats": 1,
+      "families": 0,
+      "familyNames": [],
+      "strengths": 1,
+      "reviews": 1,
+      "comparisons": 0,
+      "best": 1,
+      "guides": 4,
+      "evidence": 1,
+      "uniquenessHold": false,
+      "depthOk": false,
+      "renderable": false,
+      "disposition": "HIDDEN_404",
+      "productsSample": [
+        "Original"
+      ]
+    },
+    {
+      "slug": "uswe",
+      "class": "HOLD_INSUFFICIENT_DEPTH",
+      "products": 1,
+      "cats": 1,
+      "families": 1,
+      "familyNames": [
+        "Pace"
+      ],
+      "strengths": 1,
+      "reviews": 1,
+      "comparisons": 0,
+      "best": 0,
+      "guides": 0,
+      "evidence": 2,
+      "uniquenessHold": false,
+      "depthOk": false,
+      "renderable": false,
+      "disposition": "HIDDEN_404",
+      "productsSample": [
+        "Pace 8"
+      ]
+    },
+    {
+      "slug": "nnormal",
+      "class": "HOLD_INSUFFICIENT_DEPTH",
+      "products": 1,
+      "cats": 1,
+      "families": 1,
+      "familyNames": [
+        "Race Vest"
+      ],
+      "strengths": 1,
+      "reviews": 1,
+      "comparisons": 0,
+      "best": 0,
+      "guides": 0,
+      "evidence": 2,
+      "uniquenessHold": false,
+      "depthOk": false,
+      "renderable": false,
+      "disposition": "HIDDEN_404",
+      "productsSample": [
+        "Race Vest"
+      ]
+    },
+    {
+      "slug": "naked",
+      "class": "HOLD_INSUFFICIENT_DEPTH",
+      "products": 1,
+      "cats": 1,
+      "families": 1,
+      "familyNames": [
+        "Running Band"
+      ],
+      "strengths": 1,
+      "reviews": 1,
+      "comparisons": 1,
+      "best": 1,
+      "guides": 0,
+      "evidence": 2,
+      "uniquenessHold": false,
+      "depthOk": false,
+      "renderable": false,
+      "disposition": "HIDDEN_404",
+      "productsSample": [
+        "Running Band"
+      ]
+    },
+    {
+      "slug": "decathlon",
+      "class": "HOLD_INSUFFICIENT_DEPTH",
+      "products": 1,
+      "cats": 1,
+      "families": 2,
+      "familyNames": [
+        "Kiprun Trail",
+        "Running Belt"
+      ],
+      "strengths": 1,
+      "reviews": 1,
+      "comparisons": 0,
+      "best": 0,
+      "guides": 0,
+      "evidence": 2,
+      "uniquenessHold": false,
+      "depthOk": false,
+      "renderable": false,
+      "disposition": "HIDDEN_404",
+      "productsSample": [
+        "Running Belt"
+      ]
+    },
+    {
+      "slug": "rabbit",
+      "class": "HOLD_INSUFFICIENT_DEPTH",
+      "products": 1,
+      "cats": 1,
+      "families": 1,
+      "familyNames": [
+        "Fuel n' Fly"
+      ],
+      "strengths": 1,
+      "reviews": 1,
+      "comparisons": 1,
+      "best": 1,
+      "guides": 0,
+      "evidence": 2,
+      "uniquenessHold": false,
+      "depthOk": false,
+      "renderable": false,
+      "disposition": "HIDDEN_404",
+      "productsSample": [
+        "Fuel n' Fly 5\""
+      ]
+    },
+    {
+      "slug": "ciele",
+      "class": "HOLD_INSUFFICIENT_DEPTH",
+      "products": 1,
+      "cats": 1,
+      "families": 1,
+      "familyNames": [
+        "GOCap"
+      ],
+      "strengths": 1,
+      "reviews": 1,
+      "comparisons": 0,
+      "best": 1,
+      "guides": 0,
+      "evidence": 2,
+      "uniquenessHold": false,
+      "depthOk": false,
+      "renderable": false,
+      "disposition": "HIDDEN_404",
+      "productsSample": [
+        "GOCap Athletics"
+      ]
+    },
+    {
+      "slug": "darn-tough",
+      "class": "HOLD_INSUFFICIENT_DEPTH",
+      "products": 1,
+      "cats": 1,
+      "families": 1,
+      "familyNames": [
+        "Run"
+      ],
+      "strengths": 1,
+      "reviews": 1,
+      "comparisons": 1,
+      "best": 1,
+      "guides": 0,
+      "evidence": 2,
+      "uniquenessHold": false,
+      "depthOk": false,
+      "renderable": false,
+      "disposition": "HIDDEN_404",
+      "productsSample": [
+        "Run 1/4 Ultra-Lightweight"
+      ]
+    },
+    {
+      "slug": "bose",
+      "class": "HOLD_INSUFFICIENT_DEPTH",
+      "products": 1,
+      "cats": 1,
+      "families": 1,
+      "familyNames": [
+        "Ultra Open"
+      ],
+      "strengths": 1,
+      "reviews": 1,
+      "comparisons": 1,
+      "best": 1,
+      "guides": 1,
+      "evidence": 1,
+      "uniquenessHold": false,
+      "depthOk": false,
+      "renderable": false,
+      "disposition": "HIDDEN_404",
+      "productsSample": [
+        "Ultra Open Earbuds"
+      ]
+    },
+    {
+      "slug": "silva",
+      "class": "HOLD_INSUFFICIENT_DEPTH",
+      "products": 1,
+      "cats": 1,
+      "families": 2,
+      "familyNames": [
+        "Trail Runner Free",
+        "Smini"
+      ],
+      "strengths": 1,
+      "reviews": 1,
+      "comparisons": 0,
+      "best": 1,
+      "guides": 1,
+      "evidence": 1,
+      "uniquenessHold": false,
+      "depthOk": false,
+      "renderable": false,
+      "disposition": "HIDDEN_404",
+      "productsSample": [
+        "Trail Runner Free 2"
+      ]
+    },
+    {
+      "slug": "feetures",
+      "class": "HOLD_INSUFFICIENT_DEPTH",
+      "products": 1,
+      "cats": 1,
+      "families": 0,
+      "familyNames": [],
+      "strengths": 1,
+      "reviews": 1,
+      "comparisons": 1,
+      "best": 1,
+      "guides": 2,
+      "evidence": 1,
+      "uniquenessHold": false,
+      "depthOk": false,
+      "renderable": false,
+      "disposition": "HIDDEN_404",
+      "productsSample": [
+        "Elite Light Cushion"
+      ]
+    },
+    {
+      "slug": "injinji",
+      "class": "HOLD_INSUFFICIENT_DEPTH",
+      "products": 1,
+      "cats": 1,
+      "families": 0,
+      "familyNames": [],
+      "strengths": 1,
+      "reviews": 1,
+      "comparisons": 0,
+      "best": 1,
+      "guides": 1,
+      "evidence": 1,
+      "uniquenessHold": false,
+      "depthOk": false,
+      "renderable": false,
+      "disposition": "HIDDEN_404",
+      "productsSample": [
+        "Run Midweight"
+      ]
+    },
+    {
+      "slug": "swiftwick",
+      "class": "HOLD_INSUFFICIENT_DEPTH",
+      "products": 1,
+      "cats": 1,
+      "families": 1,
+      "familyNames": [
+        "Aspire"
+      ],
+      "strengths": 1,
+      "reviews": 1,
+      "comparisons": 0,
+      "best": 1,
+      "guides": 0,
+      "evidence": 2,
+      "uniquenessHold": false,
+      "depthOk": false,
+      "renderable": false,
+      "disposition": "HIDDEN_404",
+      "productsSample": [
+        "Aspire Four"
+      ]
+    },
+    {
+      "slug": "drymax",
+      "class": "HOLD_INSUFFICIENT_DEPTH",
+      "products": 1,
+      "cats": 1,
+      "families": 1,
+      "familyNames": [
+        "Run"
+      ],
+      "strengths": 1,
+      "reviews": 1,
+      "comparisons": 0,
+      "best": 0,
+      "guides": 0,
+      "evidence": 2,
+      "uniquenessHold": false,
+      "depthOk": false,
+      "renderable": false,
+      "disposition": "HIDDEN_404",
+      "productsSample": [
+        "Run Lite-Mesh"
+      ]
+    },
+    {
+      "slug": "wrightsock",
+      "class": "HOLD_INSUFFICIENT_DEPTH",
+      "products": 1,
+      "cats": 1,
+      "families": 1,
+      "familyNames": [
+        "Coolmesh"
+      ],
+      "strengths": 1,
+      "reviews": 1,
+      "comparisons": 0,
+      "best": 0,
+      "guides": 0,
+      "evidence": 2,
+      "uniquenessHold": false,
+      "depthOk": false,
+      "renderable": false,
+      "disposition": "HIDDEN_404",
+      "productsSample": [
+        "Coolmesh II"
+      ]
+    },
+    {
+      "slug": "fitletic",
+      "class": "HOLD_INSUFFICIENT_DEPTH",
+      "products": 1,
+      "cats": 1,
+      "families": 1,
+      "familyNames": [
+        "Fully Loaded"
+      ],
+      "strengths": 1,
+      "reviews": 1,
+      "comparisons": 0,
+      "best": 0,
+      "guides": 0,
+      "evidence": 2,
+      "uniquenessHold": false,
+      "depthOk": false,
+      "renderable": false,
+      "disposition": "HIDDEN_404",
+      "productsSample": [
+        "Fully Loaded"
+      ]
+    },
+    {
+      "slug": "body-glide",
+      "class": "HOLD_INSUFFICIENT_DEPTH",
+      "products": 1,
+      "cats": 1,
+      "families": 0,
+      "familyNames": [],
+      "strengths": 1,
+      "reviews": 1,
+      "comparisons": 0,
+      "best": 0,
+      "guides": 0,
+      "evidence": 1,
+      "uniquenessHold": false,
+      "depthOk": false,
+      "renderable": false,
+      "disposition": "HIDDEN_404",
+      "productsSample": [
+        "Original Anti-Chafe Balm"
+      ]
+    },
+    {
+      "slug": "beats",
+      "class": "HOLD_INSUFFICIENT_DEPTH",
+      "products": 1,
+      "cats": 1,
+      "families": 1,
+      "familyNames": [
+        "Powerbeats"
+      ],
+      "strengths": 1,
+      "reviews": 1,
+      "comparisons": 0,
+      "best": 1,
+      "guides": 1,
+      "evidence": 2,
+      "uniquenessHold": false,
+      "depthOk": false,
+      "renderable": false,
+      "disposition": "HIDDEN_404",
+      "productsSample": [
+        "Fit Pro"
+      ]
+    },
+    {
+      "slug": "rudy-project",
+      "class": "HOLD_INSUFFICIENT_DEPTH",
+      "products": 1,
+      "cats": 1,
+      "families": 1,
+      "familyNames": [
+        "Cutline"
+      ],
+      "strengths": 1,
+      "reviews": 1,
+      "comparisons": 0,
+      "best": 0,
+      "guides": 0,
+      "evidence": 2,
+      "uniquenessHold": false,
+      "depthOk": false,
+      "renderable": false,
+      "disposition": "HIDDEN_404",
+      "productsSample": [
+        "Cutline"
+      ]
+    },
+    {
+      "slug": "100-percent",
+      "class": "HOLD_INSUFFICIENT_DEPTH",
+      "products": 1,
+      "cats": 1,
+      "families": 1,
+      "familyNames": [
+        "S3"
+      ],
+      "strengths": 1,
+      "reviews": 1,
+      "comparisons": 0,
+      "best": 1,
+      "guides": 0,
+      "evidence": 2,
+      "uniquenessHold": false,
+      "depthOk": false,
+      "renderable": false,
+      "disposition": "HIDDEN_404",
+      "productsSample": [
+        "S3"
+      ]
+    },
+    {
+      "slug": "roka",
+      "class": "HOLD_INSUFFICIENT_DEPTH",
+      "products": 1,
+      "cats": 1,
+      "families": 1,
+      "familyNames": [
+        "Phantom Air"
+      ],
+      "strengths": 1,
+      "reviews": 1,
+      "comparisons": 0,
+      "best": 1,
+      "guides": 0,
+      "evidence": 2,
+      "uniquenessHold": false,
+      "depthOk": false,
+      "renderable": false,
+      "disposition": "HIDDEN_404",
+      "productsSample": [
+        "Phantom Air"
+      ]
+    },
+    {
+      "slug": "ledlenser",
+      "class": "HOLD_INSUFFICIENT_DEPTH",
+      "products": 1,
+      "cats": 1,
+      "families": 1,
+      "familyNames": [
+        "NEO"
+      ],
+      "strengths": 1,
+      "reviews": 1,
+      "comparisons": 0,
+      "best": 1,
+      "guides": 0,
+      "evidence": 2,
+      "uniquenessHold": false,
+      "depthOk": false,
+      "renderable": false,
+      "disposition": "HIDDEN_404",
+      "productsSample": [
+        "NEO9R"
+      ]
+    },
+    {
+      "slug": "biolite",
+      "class": "HOLD_INSUFFICIENT_DEPTH",
+      "products": 1,
+      "cats": 1,
+      "families": 1,
+      "familyNames": [
+        "HeadLamp"
+      ],
+      "strengths": 1,
+      "reviews": 1,
+      "comparisons": 1,
+      "best": 1,
+      "guides": 0,
+      "evidence": 2,
+      "uniquenessHold": false,
+      "depthOk": false,
+      "renderable": false,
+      "disposition": "HIDDEN_404",
+      "productsSample": [
+        "HeadLamp 800 Pro"
+      ]
+    },
+    {
+      "slug": "nitecore",
+      "class": "HOLD_INSUFFICIENT_DEPTH",
+      "products": 1,
+      "cats": 1,
+      "families": 1,
+      "familyNames": [
+        "NU"
+      ],
+      "strengths": 1,
+      "reviews": 1,
+      "comparisons": 0,
+      "best": 1,
+      "guides": 0,
+      "evidence": 2,
+      "uniquenessHold": false,
+      "depthOk": false,
+      "renderable": false,
+      "disposition": "HIDDEN_404",
+      "productsSample": [
+        "NU43"
+      ]
+    },
+    {
+      "slug": "proviz",
+      "class": "HOLD_INSUFFICIENT_DEPTH",
+      "products": 1,
+      "cats": 1,
+      "families": 1,
+      "familyNames": [
+        "Reflect360"
+      ],
+      "strengths": 1,
+      "reviews": 1,
+      "comparisons": 1,
+      "best": 1,
+      "guides": 0,
+      "evidence": 2,
+      "uniquenessHold": false,
+      "depthOk": false,
+      "renderable": false,
+      "disposition": "HIDDEN_404",
+      "productsSample": [
+        "Reflect360 Running Vest"
+      ]
+    },
+    {
+      "slug": "tailwind",
+      "class": "HOLD_INSUFFICIENT_DEPTH",
+      "products": 1,
+      "cats": 1,
+      "families": 1,
+      "familyNames": [
+        "Tailwind Endurance Fuel"
+      ],
+      "strengths": 1,
+      "reviews": 1,
+      "comparisons": 1,
+      "best": 1,
+      "guides": 1,
+      "evidence": 2,
+      "uniquenessHold": false,
+      "depthOk": false,
+      "renderable": false,
+      "disposition": "HIDDEN_404",
+      "productsSample": [
+        "Endurance Fuel"
+      ]
+    },
+    {
+      "slug": "honey-stinger",
+      "class": "HOLD_INSUFFICIENT_DEPTH",
+      "products": 1,
+      "cats": 1,
+      "families": 1,
+      "familyNames": [
+        "Honey Stinger Gel"
+      ],
+      "strengths": 1,
+      "reviews": 1,
+      "comparisons": 0,
+      "best": 0,
+      "guides": 0,
+      "evidence": 2,
+      "uniquenessHold": false,
+      "depthOk": false,
+      "renderable": false,
+      "disposition": "HIDDEN_404",
+      "productsSample": [
+        "Organic Energy Gel"
+      ]
+    },
+    {
+      "slug": "spring-energy",
+      "class": "HOLD_INSUFFICIENT_DEPTH",
+      "products": 1,
+      "cats": 1,
+      "families": 1,
+      "familyNames": [
+        "Spring Energy Gels"
+      ],
+      "strengths": 1,
+      "reviews": 1,
+      "comparisons": 0,
+      "best": 1,
+      "guides": 1,
+      "evidence": 2,
+      "uniquenessHold": false,
+      "depthOk": false,
+      "renderable": false,
+      "disposition": "HIDDEN_404",
+      "productsSample": [
+        "Awesome Sauce"
+      ]
+    },
+    {
+      "slug": "nuun",
+      "class": "HOLD_INSUFFICIENT_DEPTH",
+      "products": 1,
+      "cats": 1,
+      "families": 1,
+      "familyNames": [
+        "Nuun Sport"
+      ],
+      "strengths": 1,
+      "reviews": 1,
+      "comparisons": 1,
+      "best": 1,
+      "guides": 1,
+      "evidence": 2,
+      "uniquenessHold": false,
+      "depthOk": false,
+      "renderable": false,
+      "disposition": "HIDDEN_404",
+      "productsSample": [
+        "Sport"
+      ]
+    },
+    {
+      "slug": "powerbar",
+      "class": "HOLD_INSUFFICIENT_DEPTH",
+      "products": 1,
+      "cats": 1,
+      "families": 1,
+      "familyNames": [
+        "PowerBar Energize"
+      ],
+      "strengths": 1,
+      "reviews": 1,
+      "comparisons": 0,
+      "best": 0,
+      "guides": 0,
+      "evidence": 2,
+      "uniquenessHold": false,
+      "depthOk": false,
+      "renderable": false,
+      "disposition": "HIDDEN_404",
+      "productsSample": [
+        "Energize"
+      ]
+    },
+    {
+      "slug": "enervit",
+      "class": "HOLD_INSUFFICIENT_DEPTH",
+      "products": 1,
+      "cats": 1,
+      "families": 1,
+      "familyNames": [
+        "Enervit Carbo Gel"
+      ],
+      "strengths": 1,
+      "reviews": 1,
+      "comparisons": 0,
+      "best": 0,
+      "guides": 0,
+      "evidence": 2,
+      "uniquenessHold": false,
+      "depthOk": false,
+      "renderable": false,
+      "disposition": "HIDDEN_404",
+      "productsSample": [
+        "C2:1 Carbo Gel"
+      ]
+    },
+    {
+      "slug": "226ers",
+      "class": "HOLD_INSUFFICIENT_DEPTH",
+      "products": 1,
+      "cats": 1,
+      "families": 1,
+      "familyNames": [
+        "226ERS High Energy Gel"
+      ],
+      "strengths": 1,
+      "reviews": 1,
+      "comparisons": 0,
+      "best": 0,
+      "guides": 0,
+      "evidence": 2,
+      "uniquenessHold": false,
+      "depthOk": false,
+      "renderable": false,
+      "disposition": "HIDDEN_404",
+      "productsSample": [
+        "High Energy Gel"
+      ]
+    },
+    {
+      "slug": "huma",
+      "class": "HOLD_INSUFFICIENT_DEPTH",
+      "products": 1,
+      "cats": 1,
+      "families": 1,
+      "familyNames": [
+        "Hüma Gel"
+      ],
+      "strengths": 1,
+      "reviews": 1,
+      "comparisons": 0,
+      "best": 0,
+      "guides": 1,
+      "evidence": 2,
+      "uniquenessHold": false,
+      "depthOk": false,
+      "renderable": false,
+      "disposition": "HIDDEN_404",
+      "productsSample": [
+        "Original Gel"
+      ]
+    },
+    {
+      "slug": "brazyn",
+      "class": "HOLD_INSUFFICIENT_DEPTH",
+      "products": 1,
+      "cats": 1,
+      "families": 1,
+      "familyNames": [
+        "Morph"
+      ],
+      "strengths": 1,
+      "reviews": 1,
+      "comparisons": 0,
+      "best": 1,
+      "guides": 1,
+      "evidence": 2,
+      "uniquenessHold": false,
+      "depthOk": false,
+      "renderable": false,
+      "disposition": "HIDDEN_404",
+      "productsSample": [
+        "Morph"
+      ]
+    },
+    {
+      "slug": "squirrels-nut-butter",
+      "class": "HOLD_INSUFFICIENT_DEPTH",
+      "products": 1,
+      "cats": 1,
+      "families": 0,
+      "familyNames": [],
+      "strengths": 1,
+      "reviews": 1,
+      "comparisons": 0,
+      "best": 0,
+      "guides": 0,
+      "evidence": 2,
+      "uniquenessHold": false,
+      "depthOk": false,
+      "renderable": false,
+      "disposition": "HIDDEN_404",
+      "productsSample": [
+        "Original Anti-Chafe"
+      ]
+    },
+    {
+      "slug": "2toms",
+      "class": "HOLD_INSUFFICIENT_DEPTH",
+      "products": 1,
+      "cats": 1,
+      "families": 0,
+      "familyNames": [],
+      "strengths": 1,
+      "reviews": 1,
+      "comparisons": 0,
+      "best": 0,
+      "guides": 0,
+      "evidence": 2,
+      "uniquenessHold": false,
+      "depthOk": false,
+      "renderable": false,
+      "disposition": "HIDDEN_404",
+      "productsSample": [
+        "SportShield"
+      ]
+    },
+    {
+      "slug": "siux",
+      "class": "HOLD_INSUFFICIENT_DEPTH",
+      "products": 1,
+      "cats": 1,
+      "families": 0,
+      "familyNames": [],
+      "strengths": 1,
+      "reviews": 1,
+      "comparisons": 1,
+      "best": 1,
+      "guides": 0,
+      "evidence": 0,
+      "uniquenessHold": false,
+      "depthOk": false,
+      "renderable": false,
+      "disposition": "HIDDEN_404",
+      "productsSample": [
+        "Diablo Pro 2026"
+      ]
+    },
+    {
+      "slug": "drop-shot",
+      "class": "HOLD_INSUFFICIENT_DEPTH",
+      "products": 1,
+      "cats": 1,
+      "families": 0,
+      "familyNames": [],
+      "strengths": 1,
+      "reviews": 1,
+      "comparisons": 0,
+      "best": 0,
+      "guides": 0,
+      "evidence": 1,
+      "uniquenessHold": false,
+      "depthOk": false,
+      "renderable": false,
+      "disposition": "HIDDEN_404",
+      "productsSample": [
+        "Canyon Pro 2026"
+      ]
+    },
+    {
+      "slug": "royal-padel",
+      "class": "HOLD_INSUFFICIENT_DEPTH",
+      "products": 1,
+      "cats": 1,
+      "families": 0,
+      "familyNames": [],
+      "strengths": 1,
+      "reviews": 1,
+      "comparisons": 0,
+      "best": 0,
+      "guides": 0,
+      "evidence": 1,
+      "uniquenessHold": false,
+      "depthOk": false,
+      "renderable": false,
+      "disposition": "HIDDEN_404",
+      "productsSample": [
+        "M27 Poly 2026"
+      ]
+    },
+    {
+      "slug": "black-crown",
+      "class": "HOLD_INSUFFICIENT_DEPTH",
+      "products": 1,
+      "cats": 1,
+      "families": 0,
+      "familyNames": [],
+      "strengths": 1,
+      "reviews": 1,
+      "comparisons": 0,
+      "best": 0,
+      "guides": 0,
+      "evidence": 1,
+      "uniquenessHold": false,
+      "depthOk": false,
+      "renderable": false,
+      "disposition": "HIDDEN_404",
+      "productsSample": [
+        "Special One Soft"
+      ]
+    },
+    {
+      "slug": "dunlop",
+      "class": "HOLD_INSUFFICIENT_DEPTH",
+      "products": 1,
+      "cats": 1,
+      "families": 0,
+      "familyNames": [],
+      "strengths": 1,
+      "reviews": 1,
+      "comparisons": 0,
+      "best": 0,
+      "guides": 0,
+      "evidence": 1,
+      "uniquenessHold": false,
+      "depthOk": false,
+      "renderable": false,
+      "disposition": "HIDDEN_404",
+      "productsSample": [
+        "CX 200"
+      ]
+    },
+    {
+      "slug": "hydrow",
+      "class": "HOLD_INSUFFICIENT_DEPTH",
+      "products": 1,
+      "cats": 1,
+      "families": 0,
+      "familyNames": [],
+      "strengths": 1,
+      "reviews": 1,
+      "comparisons": 1,
+      "best": 0,
+      "guides": 1,
+      "evidence": 2,
+      "uniquenessHold": false,
+      "depthOk": false,
+      "renderable": false,
+      "disposition": "HIDDEN_404",
+      "productsSample": [
+        "Wave"
+      ]
+    },
+    {
+      "slug": "sole-fitness",
+      "class": "HOLD_INSUFFICIENT_DEPTH",
+      "products": 1,
+      "cats": 1,
+      "families": 0,
+      "familyNames": [],
+      "strengths": 1,
+      "reviews": 1,
+      "comparisons": 1,
+      "best": 1,
+      "guides": 1,
+      "evidence": 2,
+      "uniquenessHold": false,
+      "depthOk": false,
+      "renderable": false,
+      "disposition": "HIDDEN_404",
+      "productsSample": [
+        "F80 Treadmill"
+      ]
+    },
+    {
+      "slug": "horizon-fitness",
+      "class": "HOLD_INSUFFICIENT_DEPTH",
+      "products": 1,
+      "cats": 1,
+      "families": 0,
+      "familyNames": [],
+      "strengths": 1,
+      "reviews": 1,
+      "comparisons": 1,
+      "best": 1,
+      "guides": 1,
+      "evidence": 2,
+      "uniquenessHold": false,
+      "depthOk": false,
+      "renderable": false,
+      "disposition": "HIDDEN_404",
+      "productsSample": [
+        "T202 Treadmill"
+      ]
+    },
+    {
+      "slug": "woodway",
+      "class": "HOLD_INSUFFICIENT_DEPTH",
+      "products": 1,
+      "cats": 1,
+      "families": 0,
+      "familyNames": [],
+      "strengths": 1,
+      "reviews": 1,
+      "comparisons": 0,
+      "best": 0,
+      "guides": 0,
+      "evidence": 2,
+      "uniquenessHold": false,
+      "depthOk": false,
+      "renderable": false,
+      "disposition": "HIDDEN_404",
+      "productsSample": [
+        "Curve Trainer"
+      ]
+    },
+    {
+      "slug": "waterrower",
+      "class": "HOLD_INSUFFICIENT_DEPTH",
+      "products": 1,
+      "cats": 1,
+      "families": 0,
+      "familyNames": [],
+      "strengths": 1,
+      "reviews": 1,
+      "comparisons": 0,
+      "best": 0,
+      "guides": 1,
+      "evidence": 2,
+      "uniquenessHold": false,
+      "depthOk": false,
+      "renderable": false,
+      "disposition": "HIDDEN_404",
+      "productsSample": [
+        "A1 Home"
+      ]
+    },
+    {
+      "slug": "schwinn",
+      "class": "HOLD_INSUFFICIENT_DEPTH",
+      "products": 1,
+      "cats": 1,
+      "families": 0,
+      "familyNames": [],
+      "strengths": 1,
+      "reviews": 1,
+      "comparisons": 0,
+      "best": 0,
+      "guides": 0,
+      "evidence": 2,
+      "uniquenessHold": false,
+      "depthOk": false,
+      "renderable": false,
+      "disposition": "HIDDEN_404",
+      "productsSample": [
+        "Airdyne AD8"
+      ]
+    },
+    {
+      "slug": "lululemon",
+      "class": "HOLD_INSUFFICIENT_DEPTH",
+      "products": 1,
+      "cats": 1,
+      "families": 5,
+      "familyNames": [
+        "Always In Motion",
+        "Energy",
+        "Fast and Free",
+        "Hotty Hot",
+        "Pace Breaker"
+      ],
+      "strengths": 1,
+      "reviews": 1,
+      "comparisons": 0,
+      "best": 0,
+      "guides": 0,
+      "evidence": 2,
+      "uniquenessHold": false,
+      "depthOk": false,
+      "renderable": false,
+      "disposition": "HIDDEN_404",
+      "productsSample": [
+        "Strongfeel"
+      ]
+    },
+    {
+      "slug": "xero-shoes",
+      "class": "HOLD_INSUFFICIENT_DEPTH",
+      "products": 1,
+      "cats": 1,
+      "families": 0,
+      "familyNames": [],
+      "strengths": 1,
+      "reviews": 1,
+      "comparisons": 0,
+      "best": 0,
+      "guides": 0,
+      "evidence": 2,
+      "uniquenessHold": false,
+      "depthOk": false,
+      "renderable": false,
+      "disposition": "HIDDEN_404",
+      "productsSample": [
+        "Prio"
+      ]
+    },
+    {
+      "slug": "vivobarefoot",
+      "class": "HOLD_INSUFFICIENT_DEPTH",
+      "products": 1,
+      "cats": 1,
+      "families": 0,
+      "familyNames": [],
+      "strengths": 1,
+      "reviews": 1,
+      "comparisons": 0,
+      "best": 0,
+      "guides": 0,
+      "evidence": 2,
+      "uniquenessHold": false,
+      "depthOk": false,
+      "renderable": false,
+      "disposition": "HIDDEN_404",
+      "productsSample": [
+        "Primus Lite III"
+      ]
+    },
+    {
+      "slug": "do-win",
+      "class": "HOLD_INSUFFICIENT_DEPTH",
+      "products": 1,
+      "cats": 1,
+      "families": 0,
+      "familyNames": [],
+      "strengths": 1,
+      "reviews": 1,
+      "comparisons": 0,
+      "best": 0,
+      "guides": 0,
+      "evidence": 2,
+      "uniquenessHold": false,
+      "depthOk": false,
+      "renderable": false,
+      "disposition": "HIDDEN_404",
+      "productsSample": [
+        "Classic"
+      ]
+    },
+    {
+      "slug": "selkirk",
+      "class": "HOLD_INSUFFICIENT_DEPTH",
+      "products": 1,
+      "cats": 1,
+      "families": 0,
+      "familyNames": [],
+      "strengths": 1,
+      "reviews": 0,
+      "comparisons": 0,
+      "best": 0,
+      "guides": 0,
+      "evidence": 1,
+      "uniquenessHold": false,
+      "depthOk": false,
+      "renderable": false,
+      "disposition": "HIDDEN_404",
+      "productsSample": [
+        "Amped Epic"
+      ]
+    },
+    {
+      "slug": "victor",
+      "class": "HOLD_INSUFFICIENT_DEPTH",
+      "products": 1,
+      "cats": 1,
+      "families": 0,
+      "familyNames": [],
+      "strengths": 1,
+      "reviews": 0,
+      "comparisons": 0,
+      "best": 0,
+      "guides": 0,
+      "evidence": 1,
+      "uniquenessHold": false,
+      "depthOk": false,
+      "renderable": false,
+      "disposition": "HIDDEN_404",
+      "productsSample": [
+        "Thruster K Falcon"
+      ]
+    },
+    {
+      "slug": "luxilon",
+      "class": "HOLD_INSUFFICIENT_DEPTH",
+      "products": 1,
+      "cats": 1,
+      "families": 0,
+      "familyNames": [],
+      "strengths": 1,
+      "reviews": 0,
+      "comparisons": 0,
+      "best": 0,
+      "guides": 0,
+      "evidence": 1,
+      "uniquenessHold": false,
+      "depthOk": false,
+      "renderable": false,
+      "disposition": "HIDDEN_404",
+      "productsSample": [
+        "ALU Power"
+      ]
+    },
+    {
+      "slug": "solinco",
+      "class": "HOLD_INSUFFICIENT_DEPTH",
+      "products": 1,
+      "cats": 1,
+      "families": 0,
+      "familyNames": [],
+      "strengths": 1,
+      "reviews": 0,
+      "comparisons": 0,
+      "best": 0,
+      "guides": 0,
+      "evidence": 1,
+      "uniquenessHold": false,
+      "depthOk": false,
+      "renderable": false,
+      "disposition": "HIDDEN_404",
+      "productsSample": [
+        "Hyper-G"
+      ]
+    },
+    {
+      "slug": "raidlight",
+      "class": "HOLD_NO_PRODUCTS",
+      "products": 0,
+      "cats": 0,
+      "families": 1,
+      "familyNames": [
+        "Responsiv"
+      ],
+      "strengths": 0,
+      "reviews": 0,
+      "comparisons": 0,
+      "best": 0,
+      "guides": 0,
+      "evidence": 0,
+      "uniquenessHold": false,
+      "depthOk": false,
+      "renderable": false,
+      "disposition": "HIDDEN_404",
+      "productsSample": []
+    },
+    {
+      "slug": "the-north-face",
+      "class": "HOLD_NO_PRODUCTS",
+      "products": 0,
+      "cats": 0,
+      "families": 1,
+      "familyNames": [
+        "Flight"
+      ],
+      "strengths": 0,
+      "reviews": 0,
+      "comparisons": 0,
+      "best": 0,
+      "guides": 0,
+      "evidence": 0,
+      "uniquenessHold": false,
+      "depthOk": false,
+      "renderable": false,
+      "disposition": "HIDDEN_404",
+      "productsSample": []
+    },
+    {
+      "slug": "stance",
+      "class": "HOLD_NO_PRODUCTS",
+      "products": 0,
+      "cats": 0,
+      "families": 1,
+      "familyNames": [
+        "Run Crew"
+      ],
+      "strengths": 0,
+      "reviews": 0,
+      "comparisons": 0,
+      "best": 0,
+      "guides": 0,
+      "evidence": 0,
+      "uniquenessHold": false,
+      "depthOk": false,
+      "renderable": false,
+      "disposition": "HIDDEN_404",
+      "productsSample": []
+    },
+    {
+      "slug": "saxx",
+      "class": "HOLD_NO_PRODUCTS",
+      "products": 0,
+      "cats": 0,
+      "families": 1,
+      "familyNames": [
+        "Kinetic"
+      ],
+      "strengths": 0,
+      "reviews": 0,
+      "comparisons": 0,
+      "best": 0,
+      "guides": 0,
+      "evidence": 0,
+      "uniquenessHold": false,
+      "depthOk": false,
+      "renderable": false,
+      "disposition": "HIDDEN_404",
+      "productsSample": []
+    },
+    {
+      "slug": "leki",
+      "class": "HOLD_NO_PRODUCTS",
+      "products": 0,
+      "cats": 0,
+      "families": 1,
+      "familyNames": [
+        "Trail Running Quiver"
+      ],
+      "strengths": 0,
+      "reviews": 0,
+      "comparisons": 0,
+      "best": 0,
+      "guides": 0,
+      "evidence": 0,
+      "uniquenessHold": false,
+      "depthOk": false,
+      "renderable": false,
+      "disposition": "HIDDEN_404",
+      "productsSample": []
+    },
+    {
+      "slug": "bombas",
+      "class": "HOLD_NO_PRODUCTS",
+      "products": 0,
+      "cats": 0,
+      "families": 1,
+      "familyNames": [
+        "Performance Running"
+      ],
+      "strengths": 0,
+      "reviews": 0,
+      "comparisons": 0,
+      "best": 0,
+      "guides": 0,
+      "evidence": 0,
+      "uniquenessHold": false,
+      "depthOk": false,
+      "renderable": false,
+      "disposition": "HIDDEN_404",
+      "productsSample": []
+    },
+    {
+      "slug": "hilly",
+      "class": "HOLD_NO_PRODUCTS",
+      "products": 0,
+      "cats": 0,
+      "families": 1,
+      "familyNames": [
+        "Marathon Fresh"
+      ],
+      "strengths": 0,
+      "reviews": 0,
+      "comparisons": 0,
+      "best": 0,
+      "guides": 0,
+      "evidence": 0,
+      "uniquenessHold": false,
+      "depthOk": false,
+      "renderable": false,
+      "disposition": "HIDDEN_404",
+      "productsSample": []
+    },
+    {
+      "slug": "sockwell",
+      "class": "HOLD_NO_PRODUCTS",
+      "products": 0,
+      "cats": 0,
+      "families": 1,
+      "familyNames": [
+        "Compression"
+      ],
+      "strengths": 0,
+      "reviews": 0,
+      "comparisons": 0,
+      "best": 0,
+      "guides": 0,
+      "evidence": 0,
+      "uniquenessHold": false,
+      "depthOk": false,
+      "renderable": false,
+      "disposition": "HIDDEN_404",
+      "productsSample": []
+    },
+    {
+      "slug": "nite-ize",
+      "class": "HOLD_NO_PRODUCTS",
+      "products": 0,
+      "cats": 0,
+      "families": 0,
+      "familyNames": [],
+      "strengths": 0,
+      "reviews": 0,
+      "comparisons": 0,
+      "best": 0,
+      "guides": 0,
+      "evidence": 0,
+      "uniquenessHold": false,
+      "depthOk": false,
+      "renderable": false,
+      "disposition": "HIDDEN_404",
+      "productsSample": []
+    },
+    {
+      "slug": "jabra",
+      "class": "HOLD_NO_PRODUCTS",
+      "products": 0,
+      "cats": 0,
+      "families": 1,
+      "familyNames": [
+        "Elite"
+      ],
+      "strengths": 0,
+      "reviews": 0,
+      "comparisons": 0,
+      "best": 0,
+      "guides": 0,
+      "evidence": 0,
+      "uniquenessHold": false,
+      "depthOk": false,
+      "renderable": false,
+      "disposition": "HIDDEN_404",
+      "productsSample": []
+    },
+    {
+      "slug": "sony",
+      "class": "HOLD_NO_PRODUCTS",
+      "products": 0,
+      "cats": 0,
+      "families": 1,
+      "familyNames": [
+        "LinkBuds"
+      ],
+      "strengths": 0,
+      "reviews": 0,
+      "comparisons": 0,
+      "best": 0,
+      "guides": 0,
+      "evidence": 0,
+      "uniquenessHold": false,
+      "depthOk": false,
+      "renderable": false,
+      "disposition": "HIDDEN_404",
+      "productsSample": []
+    },
+    {
+      "slug": "huawei",
+      "class": "HOLD_NO_PRODUCTS",
+      "products": 0,
+      "cats": 0,
+      "families": 0,
+      "familyNames": [],
+      "strengths": 0,
+      "reviews": 0,
+      "comparisons": 0,
+      "best": 0,
+      "guides": 0,
+      "evidence": 0,
+      "uniquenessHold": false,
+      "depthOk": false,
+      "renderable": false,
+      "disposition": "HIDDEN_404",
+      "productsSample": []
+    },
+    {
+      "slug": "fenix",
+      "class": "HOLD_NO_PRODUCTS",
+      "products": 0,
+      "cats": 0,
+      "families": 1,
+      "familyNames": [
+        "HM65R"
+      ],
+      "strengths": 0,
+      "reviews": 0,
+      "comparisons": 0,
+      "best": 0,
+      "guides": 0,
+      "evidence": 0,
+      "uniquenessHold": false,
+      "depthOk": false,
+      "renderable": false,
+      "disposition": "HIDDEN_404",
+      "productsSample": []
+    },
+    {
+      "slug": "knog",
+      "class": "HOLD_NO_PRODUCTS",
+      "products": 0,
+      "cats": 0,
+      "families": 2,
+      "familyNames": [
+        "Frog",
+        "Cobber"
+      ],
+      "strengths": 0,
+      "reviews": 0,
+      "comparisons": 0,
+      "best": 0,
+      "guides": 0,
+      "evidence": 0,
+      "uniquenessHold": false,
+      "depthOk": false,
+      "renderable": false,
+      "disposition": "HIDDEN_404",
+      "productsSample": []
+    },
+    {
+      "slug": "night-runner",
+      "class": "HOLD_NO_PRODUCTS",
+      "products": 0,
+      "cats": 0,
+      "families": 1,
+      "familyNames": [
+        "Night Runner 270"
+      ],
+      "strengths": 0,
+      "reviews": 0,
+      "comparisons": 0,
+      "best": 0,
+      "guides": 0,
+      "evidence": 0,
+      "uniquenessHold": false,
+      "depthOk": false,
+      "renderable": false,
+      "disposition": "HIDDEN_404",
+      "productsSample": []
+    },
+    {
+      "slug": "shes-birdie",
+      "class": "HOLD_NO_PRODUCTS",
+      "products": 0,
+      "cats": 0,
+      "families": 1,
+      "familyNames": [
+        "Birdie"
+      ],
+      "strengths": 0,
+      "reviews": 0,
+      "comparisons": 0,
+      "best": 0,
+      "guides": 0,
+      "evidence": 0,
+      "uniquenessHold": false,
+      "depthOk": false,
+      "renderable": false,
+      "disposition": "HIDDEN_404",
+      "productsSample": []
+    },
+    {
+      "slug": "road-id",
+      "class": "HOLD_NO_PRODUCTS",
+      "products": 0,
+      "cats": 0,
+      "families": 1,
+      "familyNames": [
+        "Wrist ID"
+      ],
+      "strengths": 0,
+      "reviews": 0,
+      "comparisons": 0,
+      "best": 0,
+      "guides": 0,
+      "evidence": 0,
+      "uniquenessHold": false,
+      "depthOk": false,
+      "renderable": false,
+      "disposition": "HIDDEN_404",
+      "productsSample": []
+    },
+    {
+      "slug": "renpho",
+      "class": "HOLD_NO_PRODUCTS",
+      "products": 0,
+      "cats": 0,
+      "families": 1,
+      "familyNames": [
+        "R3"
+      ],
+      "strengths": 0,
+      "reviews": 0,
+      "comparisons": 0,
+      "best": 0,
+      "guides": 0,
+      "evidence": 0,
+      "uniquenessHold": false,
+      "depthOk": false,
+      "renderable": false,
+      "disposition": "HIDDEN_404",
+      "productsSample": []
+    },
+    {
+      "slug": "opove",
+      "class": "HOLD_NO_PRODUCTS",
+      "products": 0,
+      "cats": 0,
+      "families": 1,
+      "familyNames": [
+        "M3"
+      ],
+      "strengths": 0,
+      "reviews": 0,
+      "comparisons": 0,
+      "best": 0,
+      "guides": 0,
+      "evidence": 0,
+      "uniquenessHold": false,
+      "depthOk": false,
+      "renderable": false,
+      "disposition": "HIDDEN_404",
+      "productsSample": []
+    },
+    {
+      "slug": "rad-roller",
+      "class": "HOLD_NO_PRODUCTS",
+      "products": 0,
+      "cats": 0,
+      "families": 1,
+      "familyNames": [
+        "Atom"
+      ],
+      "strengths": 0,
+      "reviews": 0,
+      "comparisons": 0,
+      "best": 0,
+      "guides": 0,
+      "evidence": 0,
+      "uniquenessHold": false,
+      "depthOk": false,
+      "renderable": false,
+      "disposition": "HIDDEN_404",
+      "productsSample": []
+    },
+    {
+      "slug": "rumbleroller",
+      "class": "HOLD_NO_PRODUCTS",
+      "products": 0,
+      "cats": 0,
+      "families": 1,
+      "familyNames": [
+        "RumbleRoller"
+      ],
+      "strengths": 0,
+      "reviews": 0,
+      "comparisons": 0,
+      "best": 0,
+      "guides": 0,
+      "evidence": 0,
+      "uniquenessHold": false,
+      "depthOk": false,
+      "renderable": false,
+      "disposition": "HIDDEN_404",
+      "productsSample": []
+    },
+    {
+      "slug": "the-stick",
+      "class": "HOLD_NO_PRODUCTS",
+      "products": 0,
+      "cats": 0,
+      "families": 1,
+      "familyNames": [
+        "The Stick"
+      ],
+      "strengths": 0,
+      "reviews": 0,
+      "comparisons": 0,
+      "best": 0,
+      "guides": 0,
+      "evidence": 0,
+      "uniquenessHold": false,
+      "depthOk": false,
+      "renderable": false,
+      "disposition": "HIDDEN_404",
+      "productsSample": []
+    },
+    {
+      "slug": "2xu",
+      "class": "HOLD_NO_PRODUCTS",
+      "products": 0,
+      "cats": 0,
+      "families": 1,
+      "familyNames": [
+        "Refresh Recovery"
+      ],
+      "strengths": 0,
+      "reviews": 0,
+      "comparisons": 0,
+      "best": 0,
+      "guides": 0,
+      "evidence": 0,
+      "uniquenessHold": false,
+      "depthOk": false,
+      "renderable": false,
+      "disposition": "HIDDEN_404",
+      "productsSample": []
+    },
+    {
+      "slug": "timtam",
+      "class": "HOLD_NO_PRODUCTS",
+      "products": 0,
+      "cats": 0,
+      "families": 1,
+      "familyNames": [
+        "Power Massager"
+      ],
+      "strengths": 0,
+      "reviews": 0,
+      "comparisons": 0,
+      "best": 0,
+      "guides": 0,
+      "evidence": 0,
+      "uniquenessHold": false,
+      "depthOk": false,
+      "renderable": false,
+      "disposition": "HIDDEN_404",
+      "productsSample": []
+    },
+    {
+      "slug": "dirty-girl",
+      "class": "HOLD_NO_PRODUCTS",
+      "products": 0,
+      "cats": 0,
+      "families": 0,
+      "familyNames": [],
+      "strengths": 0,
+      "reviews": 0,
+      "comparisons": 0,
+      "best": 0,
+      "guides": 0,
+      "evidence": 0,
+      "uniquenessHold": false,
+      "depthOk": false,
+      "renderable": false,
+      "disposition": "HIDDEN_404",
+      "productsSample": []
+    },
+    {
+      "slug": "outdoor-research",
+      "class": "HOLD_NO_PRODUCTS",
+      "products": 0,
+      "cats": 0,
+      "families": 0,
+      "familyNames": [],
+      "strengths": 0,
+      "reviews": 0,
+      "comparisons": 0,
+      "best": 0,
+      "guides": 0,
+      "evidence": 0,
+      "uniquenessHold": false,
+      "depthOk": false,
+      "renderable": false,
+      "disposition": "HIDDEN_404",
+      "productsSample": []
+    },
+    {
+      "slug": "li-ning",
+      "class": "HOLD_NO_PRODUCTS",
+      "products": 0,
+      "cats": 0,
+      "families": 0,
+      "familyNames": [],
+      "strengths": 0,
+      "reviews": 0,
+      "comparisons": 0,
+      "best": 0,
+      "guides": 0,
+      "evidence": 0,
+      "uniquenessHold": false,
+      "depthOk": false,
+      "renderable": false,
+      "disposition": "HIDDEN_404",
+      "productsSample": []
+    },
+    {
+      "slug": "strength-shop",
+      "class": "HOLD_NO_PRODUCTS",
+      "products": 0,
+      "cats": 0,
+      "families": 0,
+      "familyNames": [],
+      "strengths": 0,
+      "reviews": 0,
+      "comparisons": 0,
+      "best": 0,
+      "guides": 0,
+      "evidence": 0,
+      "uniquenessHold": false,
+      "depthOk": false,
+      "renderable": false,
+      "disposition": "HIDDEN_404",
+      "productsSample": []
+    },
+    {
+      "slug": "bear-komplex",
+      "class": "HOLD_NO_PRODUCTS",
+      "products": 0,
+      "cats": 0,
+      "families": 0,
+      "familyNames": [],
+      "strengths": 0,
+      "reviews": 0,
+      "comparisons": 0,
+      "best": 0,
+      "guides": 0,
+      "evidence": 0,
+      "uniquenessHold": false,
+      "depthOk": false,
+      "renderable": false,
+      "disposition": "HIDDEN_404",
+      "productsSample": []
+    },
+    {
+      "slug": "domyos",
+      "class": "HOLD_NO_PRODUCTS",
+      "products": 0,
+      "cats": 0,
+      "families": 0,
+      "familyNames": [],
+      "strengths": 0,
+      "reviews": 0,
+      "comparisons": 0,
+      "best": 0,
+      "guides": 0,
+      "evidence": 0,
+      "uniquenessHold": false,
+      "depthOk": false,
+      "renderable": false,
+      "disposition": "HIDDEN_404",
+      "productsSample": []
+    },
+    {
+      "slug": "zeraus",
+      "class": "HOLD_NO_PRODUCTS",
+      "products": 0,
+      "cats": 0,
+      "families": 0,
+      "familyNames": [],
+      "strengths": 0,
+      "reviews": 0,
+      "comparisons": 0,
+      "best": 0,
+      "guides": 0,
+      "evidence": 0,
+      "uniquenessHold": false,
+      "depthOk": false,
+      "renderable": false,
+      "disposition": "HIDDEN_404",
+      "productsSample": []
+    }
+  ],
+  "uniquenessHolds": [],
+  "promoteCandidates": [],
+  "depthGateHeld3plus": [],
+  "insufficient": [
+    {
+      "slug": "amazfit",
+      "name": "Amazfit",
+      "id": "brand-amazfit",
+      "products": 2,
+      "categories": 1,
+      "families": 2,
+      "familyNames": [
+        "T-Rex",
+        "Active"
+      ],
+      "strengths": 2,
+      "current": 2,
+      "reviews": 2,
+      "comparisons": 0,
+      "bestAppearances": 2,
+      "guideRefs": 0,
+      "evidence": 2,
+      "depthOk": false,
+      "renderable": false,
+      "uniquenessHold": false,
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "reasons": [
+        "brand_hub_insufficient_depth"
+      ],
+      "holdClass": "HOLD_INSUFFICIENT_DEPTH",
+      "productNames": [
+        "T-Rex 3 Pro",
+        "Active 2"
+      ]
+    },
+    {
+      "slug": "scosche",
+      "name": "Scosche",
+      "id": "brand-scosche",
+      "products": 2,
+      "categories": 1,
+      "families": 1,
+      "familyNames": [
+        "Rhythm"
+      ],
+      "strengths": 2,
+      "current": 2,
+      "reviews": 2,
+      "comparisons": 0,
+      "bestAppearances": 0,
+      "guideRefs": 0,
+      "evidence": 2,
+      "depthOk": false,
+      "renderable": false,
+      "uniquenessHold": false,
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "reasons": [
+        "brand_hub_insufficient_depth"
+      ],
+      "holdClass": "HOLD_INSUFFICIENT_DEPTH",
+      "productNames": [
+        "Rhythm+ 2.0",
+        "Rhythm24"
+      ]
+    },
+    {
+      "slug": "compressport",
+      "name": "Compressport",
+      "id": "brand-compressport",
+      "products": 2,
+      "categories": 2,
+      "families": 3,
+      "familyNames": [
+        "Free Belt",
+        "Ultrun",
+        "R2"
+      ],
+      "strengths": 2,
+      "current": 2,
+      "reviews": 2,
+      "comparisons": 0,
+      "bestAppearances": 0,
+      "guideRefs": 0,
+      "evidence": 2,
+      "depthOk": false,
+      "renderable": false,
+      "uniquenessHold": false,
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "reasons": [
+        "brand_hub_insufficient_depth"
+      ],
+      "holdClass": "HOLD_INSUFFICIENT_DEPTH",
+      "productNames": [
+        "Ultrun S Pack",
+        "Free Belt Pro"
+      ]
+    },
+    {
+      "slug": "odlo",
+      "name": "Odlo",
+      "id": "brand-odlo",
+      "products": 2,
+      "categories": 1,
+      "families": 1,
+      "familyNames": [
+        "Active Warm Eco"
+      ],
+      "strengths": 2,
+      "current": 2,
+      "reviews": 2,
+      "comparisons": 0,
+      "bestAppearances": 1,
+      "guideRefs": 0,
+      "evidence": 2,
+      "depthOk": false,
+      "renderable": false,
+      "uniquenessHold": false,
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "reasons": [
+        "brand_hub_insufficient_depth"
+      ],
+      "holdClass": "HOLD_INSUFFICIENT_DEPTH",
+      "productNames": [
+        "Active Warm Eco LS",
+        "Active Warm Eco Bottom"
+      ]
+    },
+    {
+      "slug": "smartwool",
+      "name": "Smartwool",
+      "id": "brand-smartwool",
+      "products": 2,
+      "categories": 2,
+      "families": 2,
+      "familyNames": [
+        "Run Targeted Cushion",
+        "Thermal Merino"
+      ],
+      "strengths": 2,
+      "current": 2,
+      "reviews": 2,
+      "comparisons": 0,
+      "bestAppearances": 1,
+      "guideRefs": 0,
+      "evidence": 2,
+      "depthOk": false,
+      "renderable": false,
+      "uniquenessHold": false,
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "reasons": [
+        "brand_hub_insufficient_depth"
+      ],
+      "holdClass": "HOLD_INSUFFICIENT_DEPTH",
+      "productNames": [
+        "Thermal Merino Glove",
+        "Run Targeted Cushion Crew"
+      ]
+    },
+    {
+      "slug": "goodr",
+      "name": "goodr",
+      "id": "brand-goodr",
+      "products": 2,
+      "categories": 1,
+      "families": 1,
+      "familyNames": [
+        "Circle Gs"
+      ],
+      "strengths": 2,
+      "current": 2,
+      "reviews": 2,
+      "comparisons": 0,
+      "bestAppearances": 1,
+      "guideRefs": 0,
+      "evidence": 2,
+      "depthOk": false,
+      "renderable": false,
+      "uniquenessHold": false,
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "reasons": [
+        "brand_hub_insufficient_depth"
+      ],
+      "holdClass": "HOLD_INSUFFICIENT_DEPTH",
+      "productNames": [
+        "Circle Gs",
+        "OGs"
+      ]
+    },
+    {
+      "slug": "balega",
+      "name": "Balega",
+      "id": "brand-balega",
+      "products": 2,
+      "categories": 1,
+      "families": 2,
+      "familyNames": [
+        "Blister Resist",
+        "Hidden Comfort"
+      ],
+      "strengths": 2,
+      "current": 2,
+      "reviews": 2,
+      "comparisons": 0,
+      "bestAppearances": 1,
+      "guideRefs": 1,
+      "evidence": 2,
+      "depthOk": false,
+      "renderable": false,
+      "uniquenessHold": false,
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "reasons": [
+        "brand_hub_insufficient_depth"
+      ],
+      "holdClass": "HOLD_INSUFFICIENT_DEPTH",
+      "productNames": [
+        "Blister Resist Quarter",
+        "Hidden Comfort"
+      ]
+    },
+    {
+      "slug": "triggerpoint",
+      "name": "TriggerPoint",
+      "id": "brand-triggerpoint",
+      "products": 2,
+      "categories": 1,
+      "families": 3,
+      "familyNames": [
+        "GRID",
+        "MB",
+        "STP"
+      ],
+      "strengths": 2,
+      "current": 2,
+      "reviews": 2,
+      "comparisons": 0,
+      "bestAppearances": 1,
+      "guideRefs": 2,
+      "evidence": 2,
+      "depthOk": false,
+      "renderable": false,
+      "uniquenessHold": false,
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "reasons": [
+        "brand_hub_insufficient_depth"
+      ],
+      "holdClass": "HOLD_INSUFFICIENT_DEPTH",
+      "productNames": [
+        "GRID X",
+        "GRID Travel"
+      ]
+    },
+    {
+      "slug": "oofos",
+      "name": "OOFOS",
+      "id": "brand-oofos",
+      "products": 2,
+      "categories": 1,
+      "families": 1,
+      "familyNames": [
+        "OOFOS"
+      ],
+      "strengths": 2,
+      "current": 2,
+      "reviews": 2,
+      "comparisons": 0,
+      "bestAppearances": 1,
+      "guideRefs": 3,
+      "evidence": 2,
+      "depthOk": false,
+      "renderable": false,
+      "uniquenessHold": false,
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "reasons": [
+        "brand_hub_insufficient_depth"
+      ],
+      "holdClass": "HOLD_INSUFFICIENT_DEPTH",
+      "productNames": [
+        "OOlala",
+        "OOriginal"
+      ]
+    },
+    {
+      "slug": "soundcore",
+      "name": "soundcore",
+      "id": "brand-soundcore",
+      "products": 2,
+      "categories": 1,
+      "families": 2,
+      "familyNames": [
+        "AeroFit",
+        "Sport"
+      ],
+      "strengths": 2,
+      "current": 2,
+      "reviews": 2,
+      "comparisons": 0,
+      "bestAppearances": 1,
+      "guideRefs": 1,
+      "evidence": 2,
+      "depthOk": false,
+      "renderable": false,
+      "uniquenessHold": false,
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "reasons": [
+        "brand_hub_insufficient_depth"
+      ],
+      "holdClass": "HOLD_INSUFFICIENT_DEPTH",
+      "productNames": [
+        "AeroFit 2",
+        "Sport X20"
+      ]
+    },
+    {
+      "slug": "smith",
+      "name": "Smith",
+      "id": "brand-smith",
+      "products": 2,
+      "categories": 1,
+      "families": 2,
+      "familyNames": [
+        "Shift MAG",
+        "Attack MAG"
+      ],
+      "strengths": 2,
+      "current": 2,
+      "reviews": 2,
+      "comparisons": 1,
+      "bestAppearances": 1,
+      "guideRefs": 0,
+      "evidence": 2,
+      "depthOk": false,
+      "renderable": false,
+      "uniquenessHold": false,
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "reasons": [
+        "brand_hub_insufficient_depth"
+      ],
+      "holdClass": "HOLD_INSUFFICIENT_DEPTH",
+      "productNames": [
+        "Shift MAG",
+        "Attack MAG"
+      ]
+    },
+    {
+      "slug": "tifosi",
+      "name": "Tifosi",
+      "id": "brand-tifosi",
+      "products": 2,
+      "categories": 1,
+      "families": 2,
+      "familyNames": [
+        "Rail",
+        "Vogel"
+      ],
+      "strengths": 2,
+      "current": 2,
+      "reviews": 2,
+      "comparisons": 0,
+      "bestAppearances": 1,
+      "guideRefs": 0,
+      "evidence": 2,
+      "depthOk": false,
+      "renderable": false,
+      "uniquenessHold": false,
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "reasons": [
+        "brand_hub_insufficient_depth"
+      ],
+      "holdClass": "HOLD_INSUFFICIENT_DEPTH",
+      "productNames": [
+        "Rail",
+        "Vogel"
+      ]
+    },
+    {
+      "slug": "skratch-labs",
+      "name": "Skratch Labs",
+      "id": "brand-skratch",
+      "products": 2,
+      "categories": 1,
+      "families": 2,
+      "familyNames": [
+        "Skratch Energy Chews",
+        "Skratch Sport Hydration"
+      ],
+      "strengths": 2,
+      "current": 2,
+      "reviews": 2,
+      "comparisons": 0,
+      "bestAppearances": 1,
+      "guideRefs": 1,
+      "evidence": 2,
+      "depthOk": false,
+      "renderable": false,
+      "uniquenessHold": false,
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "reasons": [
+        "brand_hub_insufficient_depth"
+      ],
+      "holdClass": "HOLD_INSUFFICIENT_DEPTH",
+      "productNames": [
+        "Sport Energy Chews",
+        "Sport Hydration Drink Mix"
+      ]
+    },
+    {
+      "slug": "clif-bar",
+      "name": "Clif Bar",
+      "id": "brand-clif",
+      "products": 2,
+      "categories": 1,
+      "families": 2,
+      "familyNames": [
+        "CLIF BLOKS",
+        "CLIF Bar"
+      ],
+      "strengths": 2,
+      "current": 2,
+      "reviews": 2,
+      "comparisons": 1,
+      "bestAppearances": 1,
+      "guideRefs": 2,
+      "evidence": 2,
+      "depthOk": false,
+      "renderable": false,
+      "uniquenessHold": false,
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "reasons": [
+        "brand_hub_insufficient_depth"
+      ],
+      "holdClass": "HOLD_INSUFFICIENT_DEPTH",
+      "productNames": [
+        "Bloks Energy Chews",
+        "Clif Bar"
+      ]
+    },
+    {
+      "slug": "neversecond",
+      "name": "Neversecond",
+      "id": "brand-neversecond",
+      "products": 2,
+      "categories": 1,
+      "families": 1,
+      "familyNames": [
+        "Neversecond C30"
+      ],
+      "strengths": 2,
+      "current": 2,
+      "reviews": 2,
+      "comparisons": 1,
+      "bestAppearances": 1,
+      "guideRefs": 2,
+      "evidence": 2,
+      "depthOk": false,
+      "renderable": false,
+      "uniquenessHold": false,
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "reasons": [
+        "brand_hub_insufficient_depth"
+      ],
+      "holdClass": "HOLD_INSUFFICIENT_DEPTH",
+      "productNames": [
+        "C30 Gel",
+        "C30 Sports Drink"
+      ]
+    },
+    {
+      "slug": "high5",
+      "name": "High5",
+      "id": "brand-high5",
+      "products": 2,
+      "categories": 1,
+      "families": 2,
+      "familyNames": [
+        "High5 ZERO",
+        "High5 Energy Gel"
+      ],
+      "strengths": 2,
+      "current": 2,
+      "reviews": 2,
+      "comparisons": 0,
+      "bestAppearances": 0,
+      "guideRefs": 0,
+      "evidence": 2,
+      "depthOk": false,
+      "renderable": false,
+      "uniquenessHold": false,
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "reasons": [
+        "brand_hub_insufficient_depth"
+      ],
+      "holdClass": "HOLD_INSUFFICIENT_DEPTH",
+      "productNames": [
+        "ZERO",
+        "Energy Gel"
+      ]
+    },
+    {
+      "slug": "saltstick",
+      "name": "SaltStick",
+      "id": "brand-saltstick",
+      "products": 2,
+      "categories": 1,
+      "families": 2,
+      "familyNames": [
+        "SaltStick Fastchews",
+        "SaltStick Caps"
+      ],
+      "strengths": 2,
+      "current": 2,
+      "reviews": 2,
+      "comparisons": 0,
+      "bestAppearances": 0,
+      "guideRefs": 0,
+      "evidence": 2,
+      "depthOk": false,
+      "renderable": false,
+      "uniquenessHold": false,
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "reasons": [
+        "brand_hub_insufficient_depth"
+      ],
+      "holdClass": "HOLD_INSUFFICIENT_DEPTH",
+      "productNames": [
+        "Fastchews",
+        "Caps"
+      ]
+    },
+    {
+      "slug": "naak",
+      "name": "Näak",
+      "id": "brand-naak",
+      "products": 2,
+      "categories": 1,
+      "families": 2,
+      "familyNames": [
+        "Näak Ultra Energy",
+        "Näak Ultra Energy Drink"
+      ],
+      "strengths": 2,
+      "current": 2,
+      "reviews": 2,
+      "comparisons": 0,
+      "bestAppearances": 0,
+      "guideRefs": 0,
+      "evidence": 2,
+      "depthOk": false,
+      "renderable": false,
+      "uniquenessHold": false,
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "reasons": [
+        "brand_hub_insufficient_depth"
+      ],
+      "holdClass": "HOLD_INSUFFICIENT_DEPTH",
+      "productNames": [
+        "Ultra Energy Bar",
+        "Ultra Energy Drink Mix"
+      ]
+    },
+    {
+      "slug": "styrkr",
+      "name": "STYRKR",
+      "id": "brand-styrkr",
+      "products": 2,
+      "categories": 1,
+      "families": 2,
+      "familyNames": [
+        "STYRKR MIX",
+        "STYRKR GEL"
+      ],
+      "strengths": 2,
+      "current": 2,
+      "reviews": 2,
+      "comparisons": 0,
+      "bestAppearances": 0,
+      "guideRefs": 0,
+      "evidence": 2,
+      "depthOk": false,
+      "renderable": false,
+      "uniquenessHold": false,
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "reasons": [
+        "brand_hub_insufficient_depth"
+      ],
+      "holdClass": "HOLD_INSUFFICIENT_DEPTH",
+      "productNames": [
+        "MIX90",
+        "GEL30"
+      ]
+    },
+    {
+      "slug": "veloforte",
+      "name": "Veloforte",
+      "id": "brand-veloforte",
+      "products": 2,
+      "categories": 1,
+      "families": 2,
+      "familyNames": [
+        "Veloforte Chews",
+        "Veloforte Energy Bar"
+      ],
+      "strengths": 2,
+      "current": 2,
+      "reviews": 2,
+      "comparisons": 0,
+      "bestAppearances": 0,
+      "guideRefs": 0,
+      "evidence": 2,
+      "depthOk": false,
+      "renderable": false,
+      "uniquenessHold": false,
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "reasons": [
+        "brand_hub_insufficient_depth"
+      ],
+      "holdClass": "HOLD_INSUFFICIENT_DEPTH",
+      "productNames": [
+        "Energy Chews",
+        "Energy Bar"
+      ]
+    },
+    {
+      "slug": "starvie",
+      "name": "StarVie",
+      "id": "brand-starvie",
+      "products": 2,
+      "categories": 1,
+      "families": 0,
+      "familyNames": [],
+      "strengths": 2,
+      "current": 2,
+      "reviews": 2,
+      "comparisons": 0,
+      "bestAppearances": 0,
+      "guideRefs": 0,
+      "evidence": 1,
+      "depthOk": false,
+      "renderable": false,
+      "uniquenessHold": false,
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "reasons": [
+        "brand_hub_insufficient_depth"
+      ],
+      "holdClass": "HOLD_INSUFFICIENT_DEPTH",
+      "productNames": [
+        "Titania Kepler 2026",
+        "Basalto Osiris 2026"
+      ]
+    },
+    {
+      "slug": "kuikma",
+      "name": "Kuikma",
+      "id": "brand-kuikma",
+      "products": 2,
+      "categories": 2,
+      "families": 0,
+      "familyNames": [],
+      "strengths": 2,
+      "current": 2,
+      "reviews": 2,
+      "comparisons": 0,
+      "bestAppearances": 0,
+      "guideRefs": 0,
+      "evidence": 2,
+      "depthOk": false,
+      "renderable": false,
+      "uniquenessHold": false,
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "reasons": [
+        "brand_hub_insufficient_depth"
+      ],
+      "holdClass": "HOLD_INSUFFICIENT_DEPTH",
+      "productNames": [
+        "PR Soft 500",
+        "PS 990"
+      ]
+    },
+    {
+      "slug": "k-swiss",
+      "name": "K-Swiss",
+      "id": "brand-k-swiss",
+      "products": 2,
+      "categories": 1,
+      "families": 0,
+      "familyNames": [],
+      "strengths": 2,
+      "current": 2,
+      "reviews": 2,
+      "comparisons": 0,
+      "bestAppearances": 0,
+      "guideRefs": 0,
+      "evidence": 1,
+      "depthOk": false,
+      "renderable": false,
+      "uniquenessHold": false,
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "reasons": [
+        "brand_hub_insufficient_depth"
+      ],
+      "holdClass": "HOLD_INSUFFICIENT_DEPTH",
+      "productNames": [
+        "Hypercourt Express 2",
+        "Ultrashot 3"
+      ]
+    },
+    {
+      "slug": "nuobell",
+      "name": "NÜOBELL",
+      "id": "brand-nuobell",
+      "products": 2,
+      "categories": 1,
+      "families": 0,
+      "familyNames": [],
+      "strengths": 2,
+      "current": 2,
+      "reviews": 2,
+      "comparisons": 1,
+      "bestAppearances": 2,
+      "guideRefs": 4,
+      "evidence": 1,
+      "depthOk": false,
+      "renderable": false,
+      "uniquenessHold": false,
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "reasons": [
+        "brand_hub_insufficient_depth"
+      ],
+      "holdClass": "HOLD_INSUFFICIENT_DEPTH",
+      "productNames": [
+        "NÜOBELL 80",
+        "NÜOBELL 50"
+      ]
+    },
+    {
+      "slug": "bowflex",
+      "name": "Bowflex",
+      "id": "brand-bowflex",
+      "products": 2,
+      "categories": 1,
+      "families": 0,
+      "familyNames": [],
+      "strengths": 2,
+      "current": 2,
+      "reviews": 2,
+      "comparisons": 0,
+      "bestAppearances": 1,
+      "guideRefs": 1,
+      "evidence": 1,
+      "depthOk": false,
+      "renderable": false,
+      "uniquenessHold": false,
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "reasons": [
+        "brand_hub_insufficient_depth"
+      ],
+      "holdClass": "HOLD_INSUFFICIENT_DEPTH",
+      "productNames": [
+        "SelectTech 552",
+        "SelectTech 1090"
+      ]
+    },
+    {
+      "slug": "atx",
+      "name": "ATX",
+      "id": "brand-atx",
+      "products": 2,
+      "categories": 2,
+      "families": 0,
+      "familyNames": [],
+      "strengths": 2,
+      "current": 2,
+      "reviews": 2,
+      "comparisons": 0,
+      "bestAppearances": 2,
+      "guideRefs": 2,
+      "evidence": 2,
+      "depthOk": false,
+      "renderable": false,
+      "uniquenessHold": false,
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "reasons": [
+        "brand_hub_insufficient_depth"
+      ],
+      "holdClass": "HOLD_INSUFFICIENT_DEPTH",
+      "productNames": [
+        "Cast Iron Plate Set",
+        "FID Bench"
+      ]
+    },
+    {
+      "slug": "xebex",
+      "name": "Xebex Fitness",
+      "id": "brand-xebex",
+      "products": 2,
+      "categories": 1,
+      "families": 0,
+      "familyNames": [],
+      "strengths": 2,
+      "current": 2,
+      "reviews": 2,
+      "comparisons": 0,
+      "bestAppearances": 0,
+      "guideRefs": 0,
+      "evidence": 2,
+      "depthOk": false,
+      "renderable": false,
+      "uniquenessHold": false,
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "reasons": [
+        "brand_hub_insufficient_depth"
+      ],
+      "holdClass": "HOLD_INSUFFICIENT_DEPTH",
+      "productNames": [
+        "Ski Erg",
+        "SkiErg2 Wall"
+      ]
+    },
+    {
+      "slug": "salming",
+      "name": "Salming",
+      "id": "brand-salming",
+      "products": 2,
+      "categories": 1,
+      "families": 0,
+      "familyNames": [],
+      "strengths": 2,
+      "current": 2,
+      "reviews": 2,
+      "comparisons": 0,
+      "bestAppearances": 1,
+      "guideRefs": 0,
+      "evidence": 2,
+      "depthOk": false,
+      "renderable": false,
+      "uniquenessHold": false,
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "reasons": [
+        "brand_hub_insufficient_depth"
+      ],
+      "holdClass": "HOLD_INSUFFICIENT_DEPTH",
+      "productNames": [
+        "Race 9",
+        "Rebel"
+      ]
+    },
+    {
+      "slug": "varlion",
+      "name": "Varlion",
+      "id": "brand-varlion",
+      "products": 2,
+      "categories": 2,
+      "families": 0,
+      "familyNames": [],
+      "strengths": 2,
+      "current": 2,
+      "reviews": 1,
+      "comparisons": 0,
+      "bestAppearances": 0,
+      "guideRefs": 0,
+      "evidence": 2,
+      "depthOk": false,
+      "renderable": false,
+      "uniquenessHold": false,
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "reasons": [
+        "brand_hub_insufficient_depth"
+      ],
+      "holdClass": "HOLD_INSUFFICIENT_DEPTH",
+      "productNames": [
+        "LW Carbon Difusor 2026",
+        "Bourne Padel"
+      ]
+    },
+    {
+      "slug": "oxdog",
+      "name": "Oxdog",
+      "id": "brand-oxdog",
+      "products": 2,
+      "categories": 2,
+      "families": 0,
+      "familyNames": [],
+      "strengths": 2,
+      "current": 2,
+      "reviews": 1,
+      "comparisons": 0,
+      "bestAppearances": 0,
+      "guideRefs": 0,
+      "evidence": 2,
+      "depthOk": false,
+      "renderable": false,
+      "uniquenessHold": false,
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "reasons": [
+        "brand_hub_insufficient_depth"
+      ],
+      "holdClass": "HOLD_INSUFFICIENT_DEPTH",
+      "productNames": [
+        "Sense Pro",
+        "Hyper Court"
+      ]
+    },
+    {
+      "slug": "tecnifibre-padel",
+      "name": "Tecnifibre Padel",
+      "id": "brand-tecnifibre-padel",
+      "products": 2,
+      "categories": 2,
+      "families": 0,
+      "familyNames": [],
+      "strengths": 2,
+      "current": 2,
+      "reviews": 1,
+      "comparisons": 0,
+      "bestAppearances": 0,
+      "guideRefs": 0,
+      "evidence": 2,
+      "depthOk": false,
+      "renderable": false,
+      "uniquenessHold": false,
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "reasons": [
+        "brand_hub_insufficient_depth"
+      ],
+      "holdClass": "HOLD_INSUFFICIENT_DEPTH",
+      "productNames": [
+        "Wall Breaker 365",
+        "Wall Shooter"
+      ]
+    },
+    {
+      "slug": "lok",
+      "name": "Lok",
+      "id": "brand-lok",
+      "products": 2,
+      "categories": 2,
+      "families": 0,
+      "familyNames": [],
+      "strengths": 2,
+      "current": 2,
+      "reviews": 1,
+      "comparisons": 0,
+      "bestAppearances": 0,
+      "guideRefs": 0,
+      "evidence": 2,
+      "depthOk": false,
+      "renderable": false,
+      "uniquenessHold": false,
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "reasons": [
+        "brand_hub_insufficient_depth"
+      ],
+      "holdClass": "HOLD_INSUFFICIENT_DEPTH",
+      "productNames": [
+        "Maxx Flow",
+        "Padel One"
+      ]
+    },
+    {
+      "slug": "prince",
+      "name": "Prince",
+      "id": "brand-prince",
+      "products": 2,
+      "categories": 2,
+      "families": 0,
+      "familyNames": [],
+      "strengths": 2,
+      "current": 2,
+      "reviews": 1,
+      "comparisons": 0,
+      "bestAppearances": 0,
+      "guideRefs": 0,
+      "evidence": 2,
+      "depthOk": false,
+      "renderable": false,
+      "uniquenessHold": false,
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "reasons": [
+        "brand_hub_insufficient_depth"
+      ],
+      "holdClass": "HOLD_INSUFFICIENT_DEPTH",
+      "productNames": [
+        "Textreme Tour 100P",
+        "T22"
+      ]
+    },
+    {
+      "slug": "joola",
+      "name": "JOOLA",
+      "id": "brand-joola",
+      "products": 2,
+      "categories": 1,
+      "families": 0,
+      "familyNames": [],
+      "strengths": 2,
+      "current": 2,
+      "reviews": 0,
+      "comparisons": 0,
+      "bestAppearances": 0,
+      "guideRefs": 0,
+      "evidence": 1,
+      "depthOk": false,
+      "renderable": false,
+      "uniquenessHold": false,
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "reasons": [
+        "brand_hub_insufficient_depth"
+      ],
+      "holdClass": "HOLD_INSUFFICIENT_DEPTH",
+      "productNames": [
+        "Ben Johns Hyperion CFS 16",
+        "Perseus 16"
+      ]
+    },
+    {
+      "slug": "samsung",
+      "name": "Samsung",
+      "id": "brand-samsung",
+      "products": 1,
+      "categories": 1,
+      "families": 1,
+      "familyNames": [
+        "Galaxy Watch"
+      ],
+      "strengths": 1,
+      "current": 1,
+      "reviews": 1,
+      "comparisons": 0,
+      "bestAppearances": 0,
+      "guideRefs": 0,
+      "evidence": 2,
+      "depthOk": false,
+      "renderable": false,
+      "uniquenessHold": false,
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "reasons": [
+        "brand_hub_insufficient_depth"
+      ],
+      "holdClass": "HOLD_INSUFFICIENT_DEPTH",
+      "productNames": [
+        "Galaxy Watch Ultra"
+      ]
+    },
+    {
+      "slug": "flipbelt",
+      "name": "FlipBelt",
+      "id": "brand-flipbelt",
+      "products": 1,
+      "categories": 1,
+      "families": 1,
+      "familyNames": [
+        "FlipBelt Reflective"
+      ],
+      "strengths": 1,
+      "current": 1,
+      "reviews": 1,
+      "comparisons": 1,
+      "bestAppearances": 2,
+      "guideRefs": 6,
+      "evidence": 1,
+      "depthOk": false,
+      "renderable": false,
+      "uniquenessHold": false,
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "reasons": [
+        "brand_hub_insufficient_depth"
+      ],
+      "holdClass": "HOLD_INSUFFICIENT_DEPTH",
+      "productNames": [
+        "Classic"
+      ]
+    },
+    {
+      "slug": "spibelt",
+      "name": "SPIbelt",
+      "id": "brand-spibelt",
+      "products": 1,
+      "categories": 1,
+      "families": 0,
+      "familyNames": [],
+      "strengths": 1,
+      "current": 1,
+      "reviews": 1,
+      "comparisons": 0,
+      "bestAppearances": 1,
+      "guideRefs": 4,
+      "evidence": 1,
+      "depthOk": false,
+      "renderable": false,
+      "uniquenessHold": false,
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "reasons": [
+        "brand_hub_insufficient_depth"
+      ],
+      "holdClass": "HOLD_INSUFFICIENT_DEPTH",
+      "productNames": [
+        "Original"
+      ]
+    },
+    {
+      "slug": "uswe",
+      "name": "USWE",
+      "id": "brand-uswe",
+      "products": 1,
+      "categories": 1,
+      "families": 1,
+      "familyNames": [
+        "Pace"
+      ],
+      "strengths": 1,
+      "current": 1,
+      "reviews": 1,
+      "comparisons": 0,
+      "bestAppearances": 0,
+      "guideRefs": 0,
+      "evidence": 2,
+      "depthOk": false,
+      "renderable": false,
+      "uniquenessHold": false,
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "reasons": [
+        "brand_hub_insufficient_depth"
+      ],
+      "holdClass": "HOLD_INSUFFICIENT_DEPTH",
+      "productNames": [
+        "Pace 8"
+      ]
+    },
+    {
+      "slug": "nnormal",
+      "name": "NNormal",
+      "id": "brand-nnormal",
+      "products": 1,
+      "categories": 1,
+      "families": 1,
+      "familyNames": [
+        "Race Vest"
+      ],
+      "strengths": 1,
+      "current": 1,
+      "reviews": 1,
+      "comparisons": 0,
+      "bestAppearances": 0,
+      "guideRefs": 0,
+      "evidence": 2,
+      "depthOk": false,
+      "renderable": false,
+      "uniquenessHold": false,
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "reasons": [
+        "brand_hub_insufficient_depth"
+      ],
+      "holdClass": "HOLD_INSUFFICIENT_DEPTH",
+      "productNames": [
+        "Race Vest"
+      ]
+    },
+    {
+      "slug": "naked",
+      "name": "Naked",
+      "id": "brand-naked",
+      "products": 1,
+      "categories": 1,
+      "families": 1,
+      "familyNames": [
+        "Running Band"
+      ],
+      "strengths": 1,
+      "current": 1,
+      "reviews": 1,
+      "comparisons": 1,
+      "bestAppearances": 1,
+      "guideRefs": 0,
+      "evidence": 2,
+      "depthOk": false,
+      "renderable": false,
+      "uniquenessHold": false,
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "reasons": [
+        "brand_hub_insufficient_depth"
+      ],
+      "holdClass": "HOLD_INSUFFICIENT_DEPTH",
+      "productNames": [
+        "Running Band"
+      ]
+    },
+    {
+      "slug": "decathlon",
+      "name": "Decathlon",
+      "id": "brand-decathlon",
+      "products": 1,
+      "categories": 1,
+      "families": 2,
+      "familyNames": [
+        "Kiprun Trail",
+        "Running Belt"
+      ],
+      "strengths": 1,
+      "current": 1,
+      "reviews": 1,
+      "comparisons": 0,
+      "bestAppearances": 0,
+      "guideRefs": 0,
+      "evidence": 2,
+      "depthOk": false,
+      "renderable": false,
+      "uniquenessHold": false,
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "reasons": [
+        "brand_hub_insufficient_depth"
+      ],
+      "holdClass": "HOLD_INSUFFICIENT_DEPTH",
+      "productNames": [
+        "Running Belt"
+      ]
+    },
+    {
+      "slug": "rabbit",
+      "name": "Rabbit",
+      "id": "brand-rabbit",
+      "products": 1,
+      "categories": 1,
+      "families": 1,
+      "familyNames": [
+        "Fuel n' Fly"
+      ],
+      "strengths": 1,
+      "current": 1,
+      "reviews": 1,
+      "comparisons": 1,
+      "bestAppearances": 1,
+      "guideRefs": 0,
+      "evidence": 2,
+      "depthOk": false,
+      "renderable": false,
+      "uniquenessHold": false,
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "reasons": [
+        "brand_hub_insufficient_depth"
+      ],
+      "holdClass": "HOLD_INSUFFICIENT_DEPTH",
+      "productNames": [
+        "Fuel n' Fly 5\""
+      ]
+    },
+    {
+      "slug": "ciele",
+      "name": "Ciele",
+      "id": "brand-ciele",
+      "products": 1,
+      "categories": 1,
+      "families": 1,
+      "familyNames": [
+        "GOCap"
+      ],
+      "strengths": 1,
+      "current": 1,
+      "reviews": 1,
+      "comparisons": 0,
+      "bestAppearances": 1,
+      "guideRefs": 0,
+      "evidence": 2,
+      "depthOk": false,
+      "renderable": false,
+      "uniquenessHold": false,
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "reasons": [
+        "brand_hub_insufficient_depth"
+      ],
+      "holdClass": "HOLD_INSUFFICIENT_DEPTH",
+      "productNames": [
+        "GOCap Athletics"
+      ]
+    },
+    {
+      "slug": "darn-tough",
+      "name": "Darn Tough",
+      "id": "brand-darn-tough",
+      "products": 1,
+      "categories": 1,
+      "families": 1,
+      "familyNames": [
+        "Run"
+      ],
+      "strengths": 1,
+      "current": 1,
+      "reviews": 1,
+      "comparisons": 1,
+      "bestAppearances": 1,
+      "guideRefs": 0,
+      "evidence": 2,
+      "depthOk": false,
+      "renderable": false,
+      "uniquenessHold": false,
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "reasons": [
+        "brand_hub_insufficient_depth"
+      ],
+      "holdClass": "HOLD_INSUFFICIENT_DEPTH",
+      "productNames": [
+        "Run 1/4 Ultra-Lightweight"
+      ]
+    },
+    {
+      "slug": "bose",
+      "name": "Bose",
+      "id": "brand-bose",
+      "products": 1,
+      "categories": 1,
+      "families": 1,
+      "familyNames": [
+        "Ultra Open"
+      ],
+      "strengths": 1,
+      "current": 1,
+      "reviews": 1,
+      "comparisons": 1,
+      "bestAppearances": 1,
+      "guideRefs": 1,
+      "evidence": 1,
+      "depthOk": false,
+      "renderable": false,
+      "uniquenessHold": false,
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "reasons": [
+        "brand_hub_insufficient_depth"
+      ],
+      "holdClass": "HOLD_INSUFFICIENT_DEPTH",
+      "productNames": [
+        "Ultra Open Earbuds"
+      ]
+    },
+    {
+      "slug": "silva",
+      "name": "Silva",
+      "id": "brand-silva",
+      "products": 1,
+      "categories": 1,
+      "families": 2,
+      "familyNames": [
+        "Trail Runner Free",
+        "Smini"
+      ],
+      "strengths": 1,
+      "current": 1,
+      "reviews": 1,
+      "comparisons": 0,
+      "bestAppearances": 1,
+      "guideRefs": 1,
+      "evidence": 1,
+      "depthOk": false,
+      "renderable": false,
+      "uniquenessHold": false,
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "reasons": [
+        "brand_hub_insufficient_depth"
+      ],
+      "holdClass": "HOLD_INSUFFICIENT_DEPTH",
+      "productNames": [
+        "Trail Runner Free 2"
+      ]
+    },
+    {
+      "slug": "feetures",
+      "name": "Feetures",
+      "id": "brand-feetures",
+      "products": 1,
+      "categories": 1,
+      "families": 0,
+      "familyNames": [],
+      "strengths": 1,
+      "current": 1,
+      "reviews": 1,
+      "comparisons": 1,
+      "bestAppearances": 1,
+      "guideRefs": 2,
+      "evidence": 1,
+      "depthOk": false,
+      "renderable": false,
+      "uniquenessHold": false,
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "reasons": [
+        "brand_hub_insufficient_depth"
+      ],
+      "holdClass": "HOLD_INSUFFICIENT_DEPTH",
+      "productNames": [
+        "Elite Light Cushion"
+      ]
+    },
+    {
+      "slug": "injinji",
+      "name": "Injinji",
+      "id": "brand-injinji",
+      "products": 1,
+      "categories": 1,
+      "families": 0,
+      "familyNames": [],
+      "strengths": 1,
+      "current": 1,
+      "reviews": 1,
+      "comparisons": 0,
+      "bestAppearances": 1,
+      "guideRefs": 1,
+      "evidence": 1,
+      "depthOk": false,
+      "renderable": false,
+      "uniquenessHold": false,
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "reasons": [
+        "brand_hub_insufficient_depth"
+      ],
+      "holdClass": "HOLD_INSUFFICIENT_DEPTH",
+      "productNames": [
+        "Run Midweight"
+      ]
+    },
+    {
+      "slug": "swiftwick",
+      "name": "Swiftwick",
+      "id": "brand-swiftwick",
+      "products": 1,
+      "categories": 1,
+      "families": 1,
+      "familyNames": [
+        "Aspire"
+      ],
+      "strengths": 1,
+      "current": 1,
+      "reviews": 1,
+      "comparisons": 0,
+      "bestAppearances": 1,
+      "guideRefs": 0,
+      "evidence": 2,
+      "depthOk": false,
+      "renderable": false,
+      "uniquenessHold": false,
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "reasons": [
+        "brand_hub_insufficient_depth"
+      ],
+      "holdClass": "HOLD_INSUFFICIENT_DEPTH",
+      "productNames": [
+        "Aspire Four"
+      ]
+    },
+    {
+      "slug": "drymax",
+      "name": "Drymax",
+      "id": "brand-drymax",
+      "products": 1,
+      "categories": 1,
+      "families": 1,
+      "familyNames": [
+        "Run"
+      ],
+      "strengths": 1,
+      "current": 1,
+      "reviews": 1,
+      "comparisons": 0,
+      "bestAppearances": 0,
+      "guideRefs": 0,
+      "evidence": 2,
+      "depthOk": false,
+      "renderable": false,
+      "uniquenessHold": false,
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "reasons": [
+        "brand_hub_insufficient_depth"
+      ],
+      "holdClass": "HOLD_INSUFFICIENT_DEPTH",
+      "productNames": [
+        "Run Lite-Mesh"
+      ]
+    },
+    {
+      "slug": "wrightsock",
+      "name": "Wrightsock",
+      "id": "brand-wrightsock",
+      "products": 1,
+      "categories": 1,
+      "families": 1,
+      "familyNames": [
+        "Coolmesh"
+      ],
+      "strengths": 1,
+      "current": 1,
+      "reviews": 1,
+      "comparisons": 0,
+      "bestAppearances": 0,
+      "guideRefs": 0,
+      "evidence": 2,
+      "depthOk": false,
+      "renderable": false,
+      "uniquenessHold": false,
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "reasons": [
+        "brand_hub_insufficient_depth"
+      ],
+      "holdClass": "HOLD_INSUFFICIENT_DEPTH",
+      "productNames": [
+        "Coolmesh II"
+      ]
+    },
+    {
+      "slug": "fitletic",
+      "name": "Fitletic",
+      "id": "brand-fitletic",
+      "products": 1,
+      "categories": 1,
+      "families": 1,
+      "familyNames": [
+        "Fully Loaded"
+      ],
+      "strengths": 1,
+      "current": 1,
+      "reviews": 1,
+      "comparisons": 0,
+      "bestAppearances": 0,
+      "guideRefs": 0,
+      "evidence": 2,
+      "depthOk": false,
+      "renderable": false,
+      "uniquenessHold": false,
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "reasons": [
+        "brand_hub_insufficient_depth"
+      ],
+      "holdClass": "HOLD_INSUFFICIENT_DEPTH",
+      "productNames": [
+        "Fully Loaded"
+      ]
+    },
+    {
+      "slug": "body-glide",
+      "name": "Body Glide",
+      "id": "brand-body-glide",
+      "products": 1,
+      "categories": 1,
+      "families": 0,
+      "familyNames": [],
+      "strengths": 1,
+      "current": 1,
+      "reviews": 1,
+      "comparisons": 0,
+      "bestAppearances": 0,
+      "guideRefs": 0,
+      "evidence": 1,
+      "depthOk": false,
+      "renderable": false,
+      "uniquenessHold": false,
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "reasons": [
+        "brand_hub_insufficient_depth"
+      ],
+      "holdClass": "HOLD_INSUFFICIENT_DEPTH",
+      "productNames": [
+        "Original Anti-Chafe Balm"
+      ]
+    },
+    {
+      "slug": "beats",
+      "name": "Beats",
+      "id": "brand-beats",
+      "products": 1,
+      "categories": 1,
+      "families": 1,
+      "familyNames": [
+        "Powerbeats"
+      ],
+      "strengths": 1,
+      "current": 1,
+      "reviews": 1,
+      "comparisons": 0,
+      "bestAppearances": 1,
+      "guideRefs": 1,
+      "evidence": 2,
+      "depthOk": false,
+      "renderable": false,
+      "uniquenessHold": false,
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "reasons": [
+        "brand_hub_insufficient_depth"
+      ],
+      "holdClass": "HOLD_INSUFFICIENT_DEPTH",
+      "productNames": [
+        "Fit Pro"
+      ]
+    },
+    {
+      "slug": "rudy-project",
+      "name": "Rudy Project",
+      "id": "brand-rudy-project",
+      "products": 1,
+      "categories": 1,
+      "families": 1,
+      "familyNames": [
+        "Cutline"
+      ],
+      "strengths": 1,
+      "current": 1,
+      "reviews": 1,
+      "comparisons": 0,
+      "bestAppearances": 0,
+      "guideRefs": 0,
+      "evidence": 2,
+      "depthOk": false,
+      "renderable": false,
+      "uniquenessHold": false,
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "reasons": [
+        "brand_hub_insufficient_depth"
+      ],
+      "holdClass": "HOLD_INSUFFICIENT_DEPTH",
+      "productNames": [
+        "Cutline"
+      ]
+    },
+    {
+      "slug": "100-percent",
+      "name": "100%",
+      "id": "brand-100percent",
+      "products": 1,
+      "categories": 1,
+      "families": 1,
+      "familyNames": [
+        "S3"
+      ],
+      "strengths": 1,
+      "current": 1,
+      "reviews": 1,
+      "comparisons": 0,
+      "bestAppearances": 1,
+      "guideRefs": 0,
+      "evidence": 2,
+      "depthOk": false,
+      "renderable": false,
+      "uniquenessHold": false,
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "reasons": [
+        "brand_hub_insufficient_depth"
+      ],
+      "holdClass": "HOLD_INSUFFICIENT_DEPTH",
+      "productNames": [
+        "S3"
+      ]
+    },
+    {
+      "slug": "roka",
+      "name": "ROKA",
+      "id": "brand-roka",
+      "products": 1,
+      "categories": 1,
+      "families": 1,
+      "familyNames": [
+        "Phantom Air"
+      ],
+      "strengths": 1,
+      "current": 1,
+      "reviews": 1,
+      "comparisons": 0,
+      "bestAppearances": 1,
+      "guideRefs": 0,
+      "evidence": 2,
+      "depthOk": false,
+      "renderable": false,
+      "uniquenessHold": false,
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "reasons": [
+        "brand_hub_insufficient_depth"
+      ],
+      "holdClass": "HOLD_INSUFFICIENT_DEPTH",
+      "productNames": [
+        "Phantom Air"
+      ]
+    },
+    {
+      "slug": "ledlenser",
+      "name": "Ledlenser",
+      "id": "brand-ledlenser",
+      "products": 1,
+      "categories": 1,
+      "families": 1,
+      "familyNames": [
+        "NEO"
+      ],
+      "strengths": 1,
+      "current": 1,
+      "reviews": 1,
+      "comparisons": 0,
+      "bestAppearances": 1,
+      "guideRefs": 0,
+      "evidence": 2,
+      "depthOk": false,
+      "renderable": false,
+      "uniquenessHold": false,
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "reasons": [
+        "brand_hub_insufficient_depth"
+      ],
+      "holdClass": "HOLD_INSUFFICIENT_DEPTH",
+      "productNames": [
+        "NEO9R"
+      ]
+    },
+    {
+      "slug": "biolite",
+      "name": "BioLite",
+      "id": "brand-biolite",
+      "products": 1,
+      "categories": 1,
+      "families": 1,
+      "familyNames": [
+        "HeadLamp"
+      ],
+      "strengths": 1,
+      "current": 1,
+      "reviews": 1,
+      "comparisons": 1,
+      "bestAppearances": 1,
+      "guideRefs": 0,
+      "evidence": 2,
+      "depthOk": false,
+      "renderable": false,
+      "uniquenessHold": false,
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "reasons": [
+        "brand_hub_insufficient_depth"
+      ],
+      "holdClass": "HOLD_INSUFFICIENT_DEPTH",
+      "productNames": [
+        "HeadLamp 800 Pro"
+      ]
+    },
+    {
+      "slug": "nitecore",
+      "name": "NITECORE",
+      "id": "brand-nitecore",
+      "products": 1,
+      "categories": 1,
+      "families": 1,
+      "familyNames": [
+        "NU"
+      ],
+      "strengths": 1,
+      "current": 1,
+      "reviews": 1,
+      "comparisons": 0,
+      "bestAppearances": 1,
+      "guideRefs": 0,
+      "evidence": 2,
+      "depthOk": false,
+      "renderable": false,
+      "uniquenessHold": false,
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "reasons": [
+        "brand_hub_insufficient_depth"
+      ],
+      "holdClass": "HOLD_INSUFFICIENT_DEPTH",
+      "productNames": [
+        "NU43"
+      ]
+    },
+    {
+      "slug": "proviz",
+      "name": "Proviz",
+      "id": "brand-proviz",
+      "products": 1,
+      "categories": 1,
+      "families": 1,
+      "familyNames": [
+        "Reflect360"
+      ],
+      "strengths": 1,
+      "current": 1,
+      "reviews": 1,
+      "comparisons": 1,
+      "bestAppearances": 1,
+      "guideRefs": 0,
+      "evidence": 2,
+      "depthOk": false,
+      "renderable": false,
+      "uniquenessHold": false,
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "reasons": [
+        "brand_hub_insufficient_depth"
+      ],
+      "holdClass": "HOLD_INSUFFICIENT_DEPTH",
+      "productNames": [
+        "Reflect360 Running Vest"
+      ]
+    },
+    {
+      "slug": "tailwind",
+      "name": "Tailwind",
+      "id": "brand-tailwind",
+      "products": 1,
+      "categories": 1,
+      "families": 1,
+      "familyNames": [
+        "Tailwind Endurance Fuel"
+      ],
+      "strengths": 1,
+      "current": 1,
+      "reviews": 1,
+      "comparisons": 1,
+      "bestAppearances": 1,
+      "guideRefs": 1,
+      "evidence": 2,
+      "depthOk": false,
+      "renderable": false,
+      "uniquenessHold": false,
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "reasons": [
+        "brand_hub_insufficient_depth"
+      ],
+      "holdClass": "HOLD_INSUFFICIENT_DEPTH",
+      "productNames": [
+        "Endurance Fuel"
+      ]
+    },
+    {
+      "slug": "honey-stinger",
+      "name": "Honey Stinger",
+      "id": "brand-honey-stinger",
+      "products": 1,
+      "categories": 1,
+      "families": 1,
+      "familyNames": [
+        "Honey Stinger Gel"
+      ],
+      "strengths": 1,
+      "current": 1,
+      "reviews": 1,
+      "comparisons": 0,
+      "bestAppearances": 0,
+      "guideRefs": 0,
+      "evidence": 2,
+      "depthOk": false,
+      "renderable": false,
+      "uniquenessHold": false,
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "reasons": [
+        "brand_hub_insufficient_depth"
+      ],
+      "holdClass": "HOLD_INSUFFICIENT_DEPTH",
+      "productNames": [
+        "Organic Energy Gel"
+      ]
+    },
+    {
+      "slug": "spring-energy",
+      "name": "Spring Energy",
+      "id": "brand-spring-energy",
+      "products": 1,
+      "categories": 1,
+      "families": 1,
+      "familyNames": [
+        "Spring Energy Gels"
+      ],
+      "strengths": 1,
+      "current": 1,
+      "reviews": 1,
+      "comparisons": 0,
+      "bestAppearances": 1,
+      "guideRefs": 1,
+      "evidence": 2,
+      "depthOk": false,
+      "renderable": false,
+      "uniquenessHold": false,
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "reasons": [
+        "brand_hub_insufficient_depth"
+      ],
+      "holdClass": "HOLD_INSUFFICIENT_DEPTH",
+      "productNames": [
+        "Awesome Sauce"
+      ]
+    },
+    {
+      "slug": "nuun",
+      "name": "Nuun",
+      "id": "brand-nuun",
+      "products": 1,
+      "categories": 1,
+      "families": 1,
+      "familyNames": [
+        "Nuun Sport"
+      ],
+      "strengths": 1,
+      "current": 1,
+      "reviews": 1,
+      "comparisons": 1,
+      "bestAppearances": 1,
+      "guideRefs": 1,
+      "evidence": 2,
+      "depthOk": false,
+      "renderable": false,
+      "uniquenessHold": false,
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "reasons": [
+        "brand_hub_insufficient_depth"
+      ],
+      "holdClass": "HOLD_INSUFFICIENT_DEPTH",
+      "productNames": [
+        "Sport"
+      ]
+    },
+    {
+      "slug": "powerbar",
+      "name": "PowerBar",
+      "id": "brand-powerbar",
+      "products": 1,
+      "categories": 1,
+      "families": 1,
+      "familyNames": [
+        "PowerBar Energize"
+      ],
+      "strengths": 1,
+      "current": 1,
+      "reviews": 1,
+      "comparisons": 0,
+      "bestAppearances": 0,
+      "guideRefs": 0,
+      "evidence": 2,
+      "depthOk": false,
+      "renderable": false,
+      "uniquenessHold": false,
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "reasons": [
+        "brand_hub_insufficient_depth"
+      ],
+      "holdClass": "HOLD_INSUFFICIENT_DEPTH",
+      "productNames": [
+        "Energize"
+      ]
+    },
+    {
+      "slug": "enervit",
+      "name": "Enervit",
+      "id": "brand-enervit",
+      "products": 1,
+      "categories": 1,
+      "families": 1,
+      "familyNames": [
+        "Enervit Carbo Gel"
+      ],
+      "strengths": 1,
+      "current": 1,
+      "reviews": 1,
+      "comparisons": 0,
+      "bestAppearances": 0,
+      "guideRefs": 0,
+      "evidence": 2,
+      "depthOk": false,
+      "renderable": false,
+      "uniquenessHold": false,
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "reasons": [
+        "brand_hub_insufficient_depth"
+      ],
+      "holdClass": "HOLD_INSUFFICIENT_DEPTH",
+      "productNames": [
+        "C2:1 Carbo Gel"
+      ]
+    },
+    {
+      "slug": "226ers",
+      "name": "226ERS",
+      "id": "brand-226ers",
+      "products": 1,
+      "categories": 1,
+      "families": 1,
+      "familyNames": [
+        "226ERS High Energy Gel"
+      ],
+      "strengths": 1,
+      "current": 1,
+      "reviews": 1,
+      "comparisons": 0,
+      "bestAppearances": 0,
+      "guideRefs": 0,
+      "evidence": 2,
+      "depthOk": false,
+      "renderable": false,
+      "uniquenessHold": false,
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "reasons": [
+        "brand_hub_insufficient_depth"
+      ],
+      "holdClass": "HOLD_INSUFFICIENT_DEPTH",
+      "productNames": [
+        "High Energy Gel"
+      ]
+    },
+    {
+      "slug": "huma",
+      "name": "Hüma",
+      "id": "brand-huma",
+      "products": 1,
+      "categories": 1,
+      "families": 1,
+      "familyNames": [
+        "Hüma Gel"
+      ],
+      "strengths": 1,
+      "current": 1,
+      "reviews": 1,
+      "comparisons": 0,
+      "bestAppearances": 0,
+      "guideRefs": 1,
+      "evidence": 2,
+      "depthOk": false,
+      "renderable": false,
+      "uniquenessHold": false,
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "reasons": [
+        "brand_hub_insufficient_depth"
+      ],
+      "holdClass": "HOLD_INSUFFICIENT_DEPTH",
+      "productNames": [
+        "Original Gel"
+      ]
+    },
+    {
+      "slug": "brazyn",
+      "name": "Brazyn",
+      "id": "brand-brazyn",
+      "products": 1,
+      "categories": 1,
+      "families": 1,
+      "familyNames": [
+        "Morph"
+      ],
+      "strengths": 1,
+      "current": 1,
+      "reviews": 1,
+      "comparisons": 0,
+      "bestAppearances": 1,
+      "guideRefs": 1,
+      "evidence": 2,
+      "depthOk": false,
+      "renderable": false,
+      "uniquenessHold": false,
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "reasons": [
+        "brand_hub_insufficient_depth"
+      ],
+      "holdClass": "HOLD_INSUFFICIENT_DEPTH",
+      "productNames": [
+        "Morph"
+      ]
+    },
+    {
+      "slug": "squirrels-nut-butter",
+      "name": "Squirrel's Nut Butter",
+      "id": "brand-squirrels-nut-butter",
+      "products": 1,
+      "categories": 1,
+      "families": 0,
+      "familyNames": [],
+      "strengths": 1,
+      "current": 1,
+      "reviews": 1,
+      "comparisons": 0,
+      "bestAppearances": 0,
+      "guideRefs": 0,
+      "evidence": 2,
+      "depthOk": false,
+      "renderable": false,
+      "uniquenessHold": false,
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "reasons": [
+        "brand_hub_insufficient_depth"
+      ],
+      "holdClass": "HOLD_INSUFFICIENT_DEPTH",
+      "productNames": [
+        "Original Anti-Chafe"
+      ]
+    },
+    {
+      "slug": "2toms",
+      "name": "2Toms",
+      "id": "brand-2toms",
+      "products": 1,
+      "categories": 1,
+      "families": 0,
+      "familyNames": [],
+      "strengths": 1,
+      "current": 1,
+      "reviews": 1,
+      "comparisons": 0,
+      "bestAppearances": 0,
+      "guideRefs": 0,
+      "evidence": 2,
+      "depthOk": false,
+      "renderable": false,
+      "uniquenessHold": false,
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "reasons": [
+        "brand_hub_insufficient_depth"
+      ],
+      "holdClass": "HOLD_INSUFFICIENT_DEPTH",
+      "productNames": [
+        "SportShield"
+      ]
+    },
+    {
+      "slug": "siux",
+      "name": "Siux",
+      "id": "brand-siux",
+      "products": 1,
+      "categories": 1,
+      "families": 0,
+      "familyNames": [],
+      "strengths": 1,
+      "current": 1,
+      "reviews": 1,
+      "comparisons": 1,
+      "bestAppearances": 1,
+      "guideRefs": 0,
+      "evidence": 0,
+      "depthOk": false,
+      "renderable": false,
+      "uniquenessHold": false,
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "reasons": [
+        "brand_hub_insufficient_depth"
+      ],
+      "holdClass": "HOLD_INSUFFICIENT_DEPTH",
+      "productNames": [
+        "Diablo Pro 2026"
+      ]
+    },
+    {
+      "slug": "drop-shot",
+      "name": "Drop Shot",
+      "id": "brand-drop-shot",
+      "products": 1,
+      "categories": 1,
+      "families": 0,
+      "familyNames": [],
+      "strengths": 1,
+      "current": 1,
+      "reviews": 1,
+      "comparisons": 0,
+      "bestAppearances": 0,
+      "guideRefs": 0,
+      "evidence": 1,
+      "depthOk": false,
+      "renderable": false,
+      "uniquenessHold": false,
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "reasons": [
+        "brand_hub_insufficient_depth"
+      ],
+      "holdClass": "HOLD_INSUFFICIENT_DEPTH",
+      "productNames": [
+        "Canyon Pro 2026"
+      ]
+    },
+    {
+      "slug": "royal-padel",
+      "name": "Royal Padel",
+      "id": "brand-royal-padel",
+      "products": 1,
+      "categories": 1,
+      "families": 0,
+      "familyNames": [],
+      "strengths": 1,
+      "current": 1,
+      "reviews": 1,
+      "comparisons": 0,
+      "bestAppearances": 0,
+      "guideRefs": 0,
+      "evidence": 1,
+      "depthOk": false,
+      "renderable": false,
+      "uniquenessHold": false,
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "reasons": [
+        "brand_hub_insufficient_depth"
+      ],
+      "holdClass": "HOLD_INSUFFICIENT_DEPTH",
+      "productNames": [
+        "M27 Poly 2026"
+      ]
+    },
+    {
+      "slug": "black-crown",
+      "name": "Black Crown",
+      "id": "brand-black-crown",
+      "products": 1,
+      "categories": 1,
+      "families": 0,
+      "familyNames": [],
+      "strengths": 1,
+      "current": 1,
+      "reviews": 1,
+      "comparisons": 0,
+      "bestAppearances": 0,
+      "guideRefs": 0,
+      "evidence": 1,
+      "depthOk": false,
+      "renderable": false,
+      "uniquenessHold": false,
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "reasons": [
+        "brand_hub_insufficient_depth"
+      ],
+      "holdClass": "HOLD_INSUFFICIENT_DEPTH",
+      "productNames": [
+        "Special One Soft"
+      ]
+    },
+    {
+      "slug": "dunlop",
+      "name": "Dunlop",
+      "id": "brand-dunlop-racket",
+      "products": 1,
+      "categories": 1,
+      "families": 0,
+      "familyNames": [],
+      "strengths": 1,
+      "current": 1,
+      "reviews": 1,
+      "comparisons": 0,
+      "bestAppearances": 0,
+      "guideRefs": 0,
+      "evidence": 1,
+      "depthOk": false,
+      "renderable": false,
+      "uniquenessHold": false,
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "reasons": [
+        "brand_hub_insufficient_depth"
+      ],
+      "holdClass": "HOLD_INSUFFICIENT_DEPTH",
+      "productNames": [
+        "CX 200"
+      ]
+    },
+    {
+      "slug": "hydrow",
+      "name": "Hydrow",
+      "id": "brand-hydrow",
+      "products": 1,
+      "categories": 1,
+      "families": 0,
+      "familyNames": [],
+      "strengths": 1,
+      "current": 1,
+      "reviews": 1,
+      "comparisons": 1,
+      "bestAppearances": 0,
+      "guideRefs": 1,
+      "evidence": 2,
+      "depthOk": false,
+      "renderable": false,
+      "uniquenessHold": false,
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "reasons": [
+        "brand_hub_insufficient_depth"
+      ],
+      "holdClass": "HOLD_INSUFFICIENT_DEPTH",
+      "productNames": [
+        "Wave"
+      ]
+    },
+    {
+      "slug": "sole-fitness",
+      "name": "Sole Fitness",
+      "id": "brand-sole",
+      "products": 1,
+      "categories": 1,
+      "families": 0,
+      "familyNames": [],
+      "strengths": 1,
+      "current": 1,
+      "reviews": 1,
+      "comparisons": 1,
+      "bestAppearances": 1,
+      "guideRefs": 1,
+      "evidence": 2,
+      "depthOk": false,
+      "renderable": false,
+      "uniquenessHold": false,
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "reasons": [
+        "brand_hub_insufficient_depth"
+      ],
+      "holdClass": "HOLD_INSUFFICIENT_DEPTH",
+      "productNames": [
+        "F80 Treadmill"
+      ]
+    },
+    {
+      "slug": "horizon-fitness",
+      "name": "Horizon Fitness",
+      "id": "brand-horizon",
+      "products": 1,
+      "categories": 1,
+      "families": 0,
+      "familyNames": [],
+      "strengths": 1,
+      "current": 1,
+      "reviews": 1,
+      "comparisons": 1,
+      "bestAppearances": 1,
+      "guideRefs": 1,
+      "evidence": 2,
+      "depthOk": false,
+      "renderable": false,
+      "uniquenessHold": false,
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "reasons": [
+        "brand_hub_insufficient_depth"
+      ],
+      "holdClass": "HOLD_INSUFFICIENT_DEPTH",
+      "productNames": [
+        "T202 Treadmill"
+      ]
+    },
+    {
+      "slug": "woodway",
+      "name": "Woodway",
+      "id": "brand-woodway",
+      "products": 1,
+      "categories": 1,
+      "families": 0,
+      "familyNames": [],
+      "strengths": 1,
+      "current": 1,
+      "reviews": 1,
+      "comparisons": 0,
+      "bestAppearances": 0,
+      "guideRefs": 0,
+      "evidence": 2,
+      "depthOk": false,
+      "renderable": false,
+      "uniquenessHold": false,
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "reasons": [
+        "brand_hub_insufficient_depth"
+      ],
+      "holdClass": "HOLD_INSUFFICIENT_DEPTH",
+      "productNames": [
+        "Curve Trainer"
+      ]
+    },
+    {
+      "slug": "waterrower",
+      "name": "WaterRower",
+      "id": "brand-waterrower",
+      "products": 1,
+      "categories": 1,
+      "families": 0,
+      "familyNames": [],
+      "strengths": 1,
+      "current": 1,
+      "reviews": 1,
+      "comparisons": 0,
+      "bestAppearances": 0,
+      "guideRefs": 1,
+      "evidence": 2,
+      "depthOk": false,
+      "renderable": false,
+      "uniquenessHold": false,
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "reasons": [
+        "brand_hub_insufficient_depth"
+      ],
+      "holdClass": "HOLD_INSUFFICIENT_DEPTH",
+      "productNames": [
+        "A1 Home"
+      ]
+    },
+    {
+      "slug": "schwinn",
+      "name": "Schwinn",
+      "id": "brand-schwinn",
+      "products": 1,
+      "categories": 1,
+      "families": 0,
+      "familyNames": [],
+      "strengths": 1,
+      "current": 1,
+      "reviews": 1,
+      "comparisons": 0,
+      "bestAppearances": 0,
+      "guideRefs": 0,
+      "evidence": 2,
+      "depthOk": false,
+      "renderable": false,
+      "uniquenessHold": false,
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "reasons": [
+        "brand_hub_insufficient_depth"
+      ],
+      "holdClass": "HOLD_INSUFFICIENT_DEPTH",
+      "productNames": [
+        "Airdyne AD8"
+      ]
+    },
+    {
+      "slug": "lululemon",
+      "name": "lululemon",
+      "id": "brand-lululemon",
+      "products": 1,
+      "categories": 1,
+      "families": 5,
+      "familyNames": [
+        "Always In Motion",
+        "Energy",
+        "Fast and Free",
+        "Hotty Hot",
+        "Pace Breaker"
+      ],
+      "strengths": 1,
+      "current": 1,
+      "reviews": 1,
+      "comparisons": 0,
+      "bestAppearances": 0,
+      "guideRefs": 0,
+      "evidence": 2,
+      "depthOk": false,
+      "renderable": false,
+      "uniquenessHold": false,
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "reasons": [
+        "brand_hub_insufficient_depth"
+      ],
+      "holdClass": "HOLD_INSUFFICIENT_DEPTH",
+      "productNames": [
+        "Strongfeel"
+      ]
+    },
+    {
+      "slug": "xero-shoes",
+      "name": "Xero Shoes",
+      "id": "brand-xero",
+      "products": 1,
+      "categories": 1,
+      "families": 0,
+      "familyNames": [],
+      "strengths": 1,
+      "current": 1,
+      "reviews": 1,
+      "comparisons": 0,
+      "bestAppearances": 0,
+      "guideRefs": 0,
+      "evidence": 2,
+      "depthOk": false,
+      "renderable": false,
+      "uniquenessHold": false,
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "reasons": [
+        "brand_hub_insufficient_depth"
+      ],
+      "holdClass": "HOLD_INSUFFICIENT_DEPTH",
+      "productNames": [
+        "Prio"
+      ]
+    },
+    {
+      "slug": "vivobarefoot",
+      "name": "Vivobarefoot",
+      "id": "brand-vivobarefoot",
+      "products": 1,
+      "categories": 1,
+      "families": 0,
+      "familyNames": [],
+      "strengths": 1,
+      "current": 1,
+      "reviews": 1,
+      "comparisons": 0,
+      "bestAppearances": 0,
+      "guideRefs": 0,
+      "evidence": 2,
+      "depthOk": false,
+      "renderable": false,
+      "uniquenessHold": false,
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "reasons": [
+        "brand_hub_insufficient_depth"
+      ],
+      "holdClass": "HOLD_INSUFFICIENT_DEPTH",
+      "productNames": [
+        "Primus Lite III"
+      ]
+    },
+    {
+      "slug": "do-win",
+      "name": "Do-Win",
+      "id": "brand-do-win",
+      "products": 1,
+      "categories": 1,
+      "families": 0,
+      "familyNames": [],
+      "strengths": 1,
+      "current": 1,
+      "reviews": 1,
+      "comparisons": 0,
+      "bestAppearances": 0,
+      "guideRefs": 0,
+      "evidence": 2,
+      "depthOk": false,
+      "renderable": false,
+      "uniquenessHold": false,
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "reasons": [
+        "brand_hub_insufficient_depth"
+      ],
+      "holdClass": "HOLD_INSUFFICIENT_DEPTH",
+      "productNames": [
+        "Classic"
+      ]
+    },
+    {
+      "slug": "selkirk",
+      "name": "Selkirk",
+      "id": "brand-selkirk",
+      "products": 1,
+      "categories": 1,
+      "families": 0,
+      "familyNames": [],
+      "strengths": 1,
+      "current": 1,
+      "reviews": 0,
+      "comparisons": 0,
+      "bestAppearances": 0,
+      "guideRefs": 0,
+      "evidence": 1,
+      "depthOk": false,
+      "renderable": false,
+      "uniquenessHold": false,
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "reasons": [
+        "brand_hub_insufficient_depth"
+      ],
+      "holdClass": "HOLD_INSUFFICIENT_DEPTH",
+      "productNames": [
+        "Amped Epic"
+      ]
+    },
+    {
+      "slug": "victor",
+      "name": "Victor",
+      "id": "brand-victor",
+      "products": 1,
+      "categories": 1,
+      "families": 0,
+      "familyNames": [],
+      "strengths": 1,
+      "current": 1,
+      "reviews": 0,
+      "comparisons": 0,
+      "bestAppearances": 0,
+      "guideRefs": 0,
+      "evidence": 1,
+      "depthOk": false,
+      "renderable": false,
+      "uniquenessHold": false,
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "reasons": [
+        "brand_hub_insufficient_depth"
+      ],
+      "holdClass": "HOLD_INSUFFICIENT_DEPTH",
+      "productNames": [
+        "Thruster K Falcon"
+      ]
+    },
+    {
+      "slug": "luxilon",
+      "name": "Luxilon",
+      "id": "brand-luxilon",
+      "products": 1,
+      "categories": 1,
+      "families": 0,
+      "familyNames": [],
+      "strengths": 1,
+      "current": 1,
+      "reviews": 0,
+      "comparisons": 0,
+      "bestAppearances": 0,
+      "guideRefs": 0,
+      "evidence": 1,
+      "depthOk": false,
+      "renderable": false,
+      "uniquenessHold": false,
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "reasons": [
+        "brand_hub_insufficient_depth"
+      ],
+      "holdClass": "HOLD_INSUFFICIENT_DEPTH",
+      "productNames": [
+        "ALU Power"
+      ]
+    },
+    {
+      "slug": "solinco",
+      "name": "Solinco",
+      "id": "brand-solinco",
+      "products": 1,
+      "categories": 1,
+      "families": 0,
+      "familyNames": [],
+      "strengths": 1,
+      "current": 1,
+      "reviews": 0,
+      "comparisons": 0,
+      "bestAppearances": 0,
+      "guideRefs": 0,
+      "evidence": 1,
+      "depthOk": false,
+      "renderable": false,
+      "uniquenessHold": false,
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "reasons": [
+        "brand_hub_insufficient_depth"
+      ],
+      "holdClass": "HOLD_INSUFFICIENT_DEPTH",
+      "productNames": [
+        "Hyper-G"
+      ]
+    }
+  ],
+  "noProducts": [
+    {
+      "slug": "raidlight",
+      "name": "RaidLight",
+      "id": "brand-raidlight",
+      "products": 0,
+      "categories": 0,
+      "families": 1,
+      "familyNames": [
+        "Responsiv"
+      ],
+      "strengths": 0,
+      "current": 0,
+      "reviews": 0,
+      "comparisons": 0,
+      "bestAppearances": 0,
+      "guideRefs": 0,
+      "evidence": 0,
+      "depthOk": false,
+      "renderable": false,
+      "uniquenessHold": false,
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "reasons": [
+        "brand_hub_no_products"
+      ],
+      "holdClass": "HOLD_NO_PRODUCTS",
+      "productNames": []
+    },
+    {
+      "slug": "the-north-face",
+      "name": "The North Face",
+      "id": "brand-the-north-face",
+      "products": 0,
+      "categories": 0,
+      "families": 1,
+      "familyNames": [
+        "Flight"
+      ],
+      "strengths": 0,
+      "current": 0,
+      "reviews": 0,
+      "comparisons": 0,
+      "bestAppearances": 0,
+      "guideRefs": 0,
+      "evidence": 0,
+      "depthOk": false,
+      "renderable": false,
+      "uniquenessHold": false,
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "reasons": [
+        "brand_hub_no_products"
+      ],
+      "holdClass": "HOLD_NO_PRODUCTS",
+      "productNames": []
+    },
+    {
+      "slug": "stance",
+      "name": "Stance",
+      "id": "brand-stance",
+      "products": 0,
+      "categories": 0,
+      "families": 1,
+      "familyNames": [
+        "Run Crew"
+      ],
+      "strengths": 0,
+      "current": 0,
+      "reviews": 0,
+      "comparisons": 0,
+      "bestAppearances": 0,
+      "guideRefs": 0,
+      "evidence": 0,
+      "depthOk": false,
+      "renderable": false,
+      "uniquenessHold": false,
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "reasons": [
+        "brand_hub_no_products"
+      ],
+      "holdClass": "HOLD_NO_PRODUCTS",
+      "productNames": []
+    },
+    {
+      "slug": "saxx",
+      "name": "SAXX",
+      "id": "brand-saxx",
+      "products": 0,
+      "categories": 0,
+      "families": 1,
+      "familyNames": [
+        "Kinetic"
+      ],
+      "strengths": 0,
+      "current": 0,
+      "reviews": 0,
+      "comparisons": 0,
+      "bestAppearances": 0,
+      "guideRefs": 0,
+      "evidence": 0,
+      "depthOk": false,
+      "renderable": false,
+      "uniquenessHold": false,
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "reasons": [
+        "brand_hub_no_products"
+      ],
+      "holdClass": "HOLD_NO_PRODUCTS",
+      "productNames": []
+    },
+    {
+      "slug": "leki",
+      "name": "LEKI",
+      "id": "brand-leki",
+      "products": 0,
+      "categories": 0,
+      "families": 1,
+      "familyNames": [
+        "Trail Running Quiver"
+      ],
+      "strengths": 0,
+      "current": 0,
+      "reviews": 0,
+      "comparisons": 0,
+      "bestAppearances": 0,
+      "guideRefs": 0,
+      "evidence": 0,
+      "depthOk": false,
+      "renderable": false,
+      "uniquenessHold": false,
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "reasons": [
+        "brand_hub_no_products"
+      ],
+      "holdClass": "HOLD_NO_PRODUCTS",
+      "productNames": []
+    },
+    {
+      "slug": "bombas",
+      "name": "Bombas",
+      "id": "brand-bombas",
+      "products": 0,
+      "categories": 0,
+      "families": 1,
+      "familyNames": [
+        "Performance Running"
+      ],
+      "strengths": 0,
+      "current": 0,
+      "reviews": 0,
+      "comparisons": 0,
+      "bestAppearances": 0,
+      "guideRefs": 0,
+      "evidence": 0,
+      "depthOk": false,
+      "renderable": false,
+      "uniquenessHold": false,
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "reasons": [
+        "brand_hub_no_products"
+      ],
+      "holdClass": "HOLD_NO_PRODUCTS",
+      "productNames": []
+    },
+    {
+      "slug": "hilly",
+      "name": "Hilly",
+      "id": "brand-hilly",
+      "products": 0,
+      "categories": 0,
+      "families": 1,
+      "familyNames": [
+        "Marathon Fresh"
+      ],
+      "strengths": 0,
+      "current": 0,
+      "reviews": 0,
+      "comparisons": 0,
+      "bestAppearances": 0,
+      "guideRefs": 0,
+      "evidence": 0,
+      "depthOk": false,
+      "renderable": false,
+      "uniquenessHold": false,
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "reasons": [
+        "brand_hub_no_products"
+      ],
+      "holdClass": "HOLD_NO_PRODUCTS",
+      "productNames": []
+    },
+    {
+      "slug": "sockwell",
+      "name": "Sockwell",
+      "id": "brand-sockwell",
+      "products": 0,
+      "categories": 0,
+      "families": 1,
+      "familyNames": [
+        "Compression"
+      ],
+      "strengths": 0,
+      "current": 0,
+      "reviews": 0,
+      "comparisons": 0,
+      "bestAppearances": 0,
+      "guideRefs": 0,
+      "evidence": 0,
+      "depthOk": false,
+      "renderable": false,
+      "uniquenessHold": false,
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "reasons": [
+        "brand_hub_no_products"
+      ],
+      "holdClass": "HOLD_NO_PRODUCTS",
+      "productNames": []
+    },
+    {
+      "slug": "nite-ize",
+      "name": "Nite Ize",
+      "id": "brand-nite-ize",
+      "products": 0,
+      "categories": 0,
+      "families": 0,
+      "familyNames": [],
+      "strengths": 0,
+      "current": 0,
+      "reviews": 0,
+      "comparisons": 0,
+      "bestAppearances": 0,
+      "guideRefs": 0,
+      "evidence": 0,
+      "depthOk": false,
+      "renderable": false,
+      "uniquenessHold": false,
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "reasons": [
+        "brand_hub_no_products"
+      ],
+      "holdClass": "HOLD_NO_PRODUCTS",
+      "productNames": []
+    },
+    {
+      "slug": "jabra",
+      "name": "Jabra",
+      "id": "brand-jabra",
+      "products": 0,
+      "categories": 0,
+      "families": 1,
+      "familyNames": [
+        "Elite"
+      ],
+      "strengths": 0,
+      "current": 0,
+      "reviews": 0,
+      "comparisons": 0,
+      "bestAppearances": 0,
+      "guideRefs": 0,
+      "evidence": 0,
+      "depthOk": false,
+      "renderable": false,
+      "uniquenessHold": false,
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "reasons": [
+        "brand_hub_no_products"
+      ],
+      "holdClass": "HOLD_NO_PRODUCTS",
+      "productNames": []
+    },
+    {
+      "slug": "sony",
+      "name": "Sony",
+      "id": "brand-sony",
+      "products": 0,
+      "categories": 0,
+      "families": 1,
+      "familyNames": [
+        "LinkBuds"
+      ],
+      "strengths": 0,
+      "current": 0,
+      "reviews": 0,
+      "comparisons": 0,
+      "bestAppearances": 0,
+      "guideRefs": 0,
+      "evidence": 0,
+      "depthOk": false,
+      "renderable": false,
+      "uniquenessHold": false,
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "reasons": [
+        "brand_hub_no_products"
+      ],
+      "holdClass": "HOLD_NO_PRODUCTS",
+      "productNames": []
+    },
+    {
+      "slug": "huawei",
+      "name": "HUAWEI",
+      "id": "brand-huawei",
+      "products": 0,
+      "categories": 0,
+      "families": 0,
+      "familyNames": [],
+      "strengths": 0,
+      "current": 0,
+      "reviews": 0,
+      "comparisons": 0,
+      "bestAppearances": 0,
+      "guideRefs": 0,
+      "evidence": 0,
+      "depthOk": false,
+      "renderable": false,
+      "uniquenessHold": false,
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "reasons": [
+        "brand_hub_no_products"
+      ],
+      "holdClass": "HOLD_NO_PRODUCTS",
+      "productNames": []
+    },
+    {
+      "slug": "fenix",
+      "name": "Fenix",
+      "id": "brand-fenix",
+      "products": 0,
+      "categories": 0,
+      "families": 1,
+      "familyNames": [
+        "HM65R"
+      ],
+      "strengths": 0,
+      "current": 0,
+      "reviews": 0,
+      "comparisons": 0,
+      "bestAppearances": 0,
+      "guideRefs": 0,
+      "evidence": 0,
+      "depthOk": false,
+      "renderable": false,
+      "uniquenessHold": false,
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "reasons": [
+        "brand_hub_no_products"
+      ],
+      "holdClass": "HOLD_NO_PRODUCTS",
+      "productNames": []
+    },
+    {
+      "slug": "knog",
+      "name": "Knog",
+      "id": "brand-knog",
+      "products": 0,
+      "categories": 0,
+      "families": 2,
+      "familyNames": [
+        "Frog",
+        "Cobber"
+      ],
+      "strengths": 0,
+      "current": 0,
+      "reviews": 0,
+      "comparisons": 0,
+      "bestAppearances": 0,
+      "guideRefs": 0,
+      "evidence": 0,
+      "depthOk": false,
+      "renderable": false,
+      "uniquenessHold": false,
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "reasons": [
+        "brand_hub_no_products"
+      ],
+      "holdClass": "HOLD_NO_PRODUCTS",
+      "productNames": []
+    },
+    {
+      "slug": "night-runner",
+      "name": "Night Runner",
+      "id": "brand-nightrunner",
+      "products": 0,
+      "categories": 0,
+      "families": 1,
+      "familyNames": [
+        "Night Runner 270"
+      ],
+      "strengths": 0,
+      "current": 0,
+      "reviews": 0,
+      "comparisons": 0,
+      "bestAppearances": 0,
+      "guideRefs": 0,
+      "evidence": 0,
+      "depthOk": false,
+      "renderable": false,
+      "uniquenessHold": false,
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "reasons": [
+        "brand_hub_no_products"
+      ],
+      "holdClass": "HOLD_NO_PRODUCTS",
+      "productNames": []
+    },
+    {
+      "slug": "shes-birdie",
+      "name": "She's Birdie",
+      "id": "brand-shes-birdie",
+      "products": 0,
+      "categories": 0,
+      "families": 1,
+      "familyNames": [
+        "Birdie"
+      ],
+      "strengths": 0,
+      "current": 0,
+      "reviews": 0,
+      "comparisons": 0,
+      "bestAppearances": 0,
+      "guideRefs": 0,
+      "evidence": 0,
+      "depthOk": false,
+      "renderable": false,
+      "uniquenessHold": false,
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "reasons": [
+        "brand_hub_no_products"
+      ],
+      "holdClass": "HOLD_NO_PRODUCTS",
+      "productNames": []
+    },
+    {
+      "slug": "road-id",
+      "name": "Road ID",
+      "id": "brand-road-id",
+      "products": 0,
+      "categories": 0,
+      "families": 1,
+      "familyNames": [
+        "Wrist ID"
+      ],
+      "strengths": 0,
+      "current": 0,
+      "reviews": 0,
+      "comparisons": 0,
+      "bestAppearances": 0,
+      "guideRefs": 0,
+      "evidence": 0,
+      "depthOk": false,
+      "renderable": false,
+      "uniquenessHold": false,
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "reasons": [
+        "brand_hub_no_products"
+      ],
+      "holdClass": "HOLD_NO_PRODUCTS",
+      "productNames": []
+    },
+    {
+      "slug": "renpho",
+      "name": "RENPHO",
+      "id": "brand-renpho",
+      "products": 0,
+      "categories": 0,
+      "families": 1,
+      "familyNames": [
+        "R3"
+      ],
+      "strengths": 0,
+      "current": 0,
+      "reviews": 0,
+      "comparisons": 0,
+      "bestAppearances": 0,
+      "guideRefs": 0,
+      "evidence": 0,
+      "depthOk": false,
+      "renderable": false,
+      "uniquenessHold": false,
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "reasons": [
+        "brand_hub_no_products"
+      ],
+      "holdClass": "HOLD_NO_PRODUCTS",
+      "productNames": []
+    },
+    {
+      "slug": "opove",
+      "name": "OPOVE",
+      "id": "brand-opove",
+      "products": 0,
+      "categories": 0,
+      "families": 1,
+      "familyNames": [
+        "M3"
+      ],
+      "strengths": 0,
+      "current": 0,
+      "reviews": 0,
+      "comparisons": 0,
+      "bestAppearances": 0,
+      "guideRefs": 0,
+      "evidence": 0,
+      "depthOk": false,
+      "renderable": false,
+      "uniquenessHold": false,
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "reasons": [
+        "brand_hub_no_products"
+      ],
+      "holdClass": "HOLD_NO_PRODUCTS",
+      "productNames": []
+    },
+    {
+      "slug": "rad-roller",
+      "name": "RAD Roller",
+      "id": "brand-rad",
+      "products": 0,
+      "categories": 0,
+      "families": 1,
+      "familyNames": [
+        "Atom"
+      ],
+      "strengths": 0,
+      "current": 0,
+      "reviews": 0,
+      "comparisons": 0,
+      "bestAppearances": 0,
+      "guideRefs": 0,
+      "evidence": 0,
+      "depthOk": false,
+      "renderable": false,
+      "uniquenessHold": false,
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "reasons": [
+        "brand_hub_no_products"
+      ],
+      "holdClass": "HOLD_NO_PRODUCTS",
+      "productNames": []
+    },
+    {
+      "slug": "rumbleroller",
+      "name": "RumbleRoller",
+      "id": "brand-rumbleroller",
+      "products": 0,
+      "categories": 0,
+      "families": 1,
+      "familyNames": [
+        "RumbleRoller"
+      ],
+      "strengths": 0,
+      "current": 0,
+      "reviews": 0,
+      "comparisons": 0,
+      "bestAppearances": 0,
+      "guideRefs": 0,
+      "evidence": 0,
+      "depthOk": false,
+      "renderable": false,
+      "uniquenessHold": false,
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "reasons": [
+        "brand_hub_no_products"
+      ],
+      "holdClass": "HOLD_NO_PRODUCTS",
+      "productNames": []
+    },
+    {
+      "slug": "the-stick",
+      "name": "The Stick",
+      "id": "brand-the-stick",
+      "products": 0,
+      "categories": 0,
+      "families": 1,
+      "familyNames": [
+        "The Stick"
+      ],
+      "strengths": 0,
+      "current": 0,
+      "reviews": 0,
+      "comparisons": 0,
+      "bestAppearances": 0,
+      "guideRefs": 0,
+      "evidence": 0,
+      "depthOk": false,
+      "renderable": false,
+      "uniquenessHold": false,
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "reasons": [
+        "brand_hub_no_products"
+      ],
+      "holdClass": "HOLD_NO_PRODUCTS",
+      "productNames": []
+    },
+    {
+      "slug": "2xu",
+      "name": "2XU",
+      "id": "brand-2xu",
+      "products": 0,
+      "categories": 0,
+      "families": 1,
+      "familyNames": [
+        "Refresh Recovery"
+      ],
+      "strengths": 0,
+      "current": 0,
+      "reviews": 0,
+      "comparisons": 0,
+      "bestAppearances": 0,
+      "guideRefs": 0,
+      "evidence": 0,
+      "depthOk": false,
+      "renderable": false,
+      "uniquenessHold": false,
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "reasons": [
+        "brand_hub_no_products"
+      ],
+      "holdClass": "HOLD_NO_PRODUCTS",
+      "productNames": []
+    },
+    {
+      "slug": "timtam",
+      "name": "TimTam",
+      "id": "brand-timtam",
+      "products": 0,
+      "categories": 0,
+      "families": 1,
+      "familyNames": [
+        "Power Massager"
+      ],
+      "strengths": 0,
+      "current": 0,
+      "reviews": 0,
+      "comparisons": 0,
+      "bestAppearances": 0,
+      "guideRefs": 0,
+      "evidence": 0,
+      "depthOk": false,
+      "renderable": false,
+      "uniquenessHold": false,
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "reasons": [
+        "brand_hub_no_products"
+      ],
+      "holdClass": "HOLD_NO_PRODUCTS",
+      "productNames": []
+    },
+    {
+      "slug": "dirty-girl",
+      "name": "Dirty Girl",
+      "id": "brand-dirty-girl",
+      "products": 0,
+      "categories": 0,
+      "families": 0,
+      "familyNames": [],
+      "strengths": 0,
+      "current": 0,
+      "reviews": 0,
+      "comparisons": 0,
+      "bestAppearances": 0,
+      "guideRefs": 0,
+      "evidence": 0,
+      "depthOk": false,
+      "renderable": false,
+      "uniquenessHold": false,
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "reasons": [
+        "brand_hub_no_products"
+      ],
+      "holdClass": "HOLD_NO_PRODUCTS",
+      "productNames": []
+    },
+    {
+      "slug": "outdoor-research",
+      "name": "Outdoor Research",
+      "id": "brand-outdoor-research",
+      "products": 0,
+      "categories": 0,
+      "families": 0,
+      "familyNames": [],
+      "strengths": 0,
+      "current": 0,
+      "reviews": 0,
+      "comparisons": 0,
+      "bestAppearances": 0,
+      "guideRefs": 0,
+      "evidence": 0,
+      "depthOk": false,
+      "renderable": false,
+      "uniquenessHold": false,
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "reasons": [
+        "brand_hub_no_products"
+      ],
+      "holdClass": "HOLD_NO_PRODUCTS",
+      "productNames": []
+    },
+    {
+      "slug": "li-ning",
+      "name": "Li-Ning",
+      "id": "brand-li-ning",
+      "products": 0,
+      "categories": 0,
+      "families": 0,
+      "familyNames": [],
+      "strengths": 0,
+      "current": 0,
+      "reviews": 0,
+      "comparisons": 0,
+      "bestAppearances": 0,
+      "guideRefs": 0,
+      "evidence": 0,
+      "depthOk": false,
+      "renderable": false,
+      "uniquenessHold": false,
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "reasons": [
+        "brand_hub_no_products"
+      ],
+      "holdClass": "HOLD_NO_PRODUCTS",
+      "productNames": []
+    },
+    {
+      "slug": "strength-shop",
+      "name": "Strength Shop",
+      "id": "brand-strength-shop",
+      "products": 0,
+      "categories": 0,
+      "families": 0,
+      "familyNames": [],
+      "strengths": 0,
+      "current": 0,
+      "reviews": 0,
+      "comparisons": 0,
+      "bestAppearances": 0,
+      "guideRefs": 0,
+      "evidence": 0,
+      "depthOk": false,
+      "renderable": false,
+      "uniquenessHold": false,
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "reasons": [
+        "brand_hub_no_products"
+      ],
+      "holdClass": "HOLD_NO_PRODUCTS",
+      "productNames": []
+    },
+    {
+      "slug": "bear-komplex",
+      "name": "Bear KompleX",
+      "id": "brand-bear-komplex",
+      "products": 0,
+      "categories": 0,
+      "families": 0,
+      "familyNames": [],
+      "strengths": 0,
+      "current": 0,
+      "reviews": 0,
+      "comparisons": 0,
+      "bestAppearances": 0,
+      "guideRefs": 0,
+      "evidence": 0,
+      "depthOk": false,
+      "renderable": false,
+      "uniquenessHold": false,
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "reasons": [
+        "brand_hub_no_products"
+      ],
+      "holdClass": "HOLD_NO_PRODUCTS",
+      "productNames": []
+    },
+    {
+      "slug": "domyos",
+      "name": "Domyos",
+      "id": "brand-domyos",
+      "products": 0,
+      "categories": 0,
+      "families": 0,
+      "familyNames": [],
+      "strengths": 0,
+      "current": 0,
+      "reviews": 0,
+      "comparisons": 0,
+      "bestAppearances": 0,
+      "guideRefs": 0,
+      "evidence": 0,
+      "depthOk": false,
+      "renderable": false,
+      "uniquenessHold": false,
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "reasons": [
+        "brand_hub_no_products"
+      ],
+      "holdClass": "HOLD_NO_PRODUCTS",
+      "productNames": []
+    },
+    {
+      "slug": "zeraus",
+      "name": "Zeraus",
+      "id": "brand-zeraus",
+      "products": 0,
+      "categories": 0,
+      "families": 0,
+      "familyNames": [],
+      "strengths": 0,
+      "current": 0,
+      "reviews": 0,
+      "comparisons": 0,
+      "bestAppearances": 0,
+      "guideRefs": 0,
+      "evidence": 0,
+      "depthOk": false,
+      "renderable": false,
+      "uniquenessHold": false,
+      "indexable": false,
+      "disposition": "HIDDEN_404",
+      "reasons": [
+        "brand_hub_no_products"
+      ],
+      "holdClass": "HOLD_NO_PRODUCTS",
+      "productNames": []
+    }
+  ]
+}

@@ -1,0 +1,144 @@
+
+> kitletics@0.1.0 build
+> next build
+
+   ▲ Next.js 15.5.24
+   - Environments: .env.local
+
+   Creating an optimized production build ...
+ ✓ Compiled successfully in 19.9s
+   Linting and checking validity of types ...
+   Collecting page data ...
+   Generating static pages (0/2327) ...
+   Generating static pages (581/2327) 
+   Generating static pages (1163/2327) 
+   Generating static pages (1745/2327) 
+Failed to build /_error: /404 (attempt 1 of 3) because it took more than 60 seconds. Retrying again shortly.
+Failed to build /_error: /500 (attempt 1 of 3) because it took more than 60 seconds. Retrying again shortly.
+Failed to build /robots.txt/route: /robots.txt (attempt 1 of 3) because it took more than 60 seconds. Retrying again shortly.
+Failed to build /manifest.webmanifest/route: /manifest.webmanifest (attempt 1 of 3) because it took more than 60 seconds. Retrying again shortly.
+Failed to build /apple-icon/route: /apple-icon (attempt 1 of 3) because it took more than 60 seconds. Retrying again shortly.
+Failed to build /opengraph-image/route: /opengraph-image (attempt 1 of 3) because it took more than 60 seconds. Retrying again shortly.
+Failed to build /icon/route: /icon (attempt 1 of 3) because it took more than 60 seconds. Retrying again shortly.
+Failed to build /sitemap.xml/route: /sitemap.xml (attempt 1 of 3) because it took more than 60 seconds. Retrying again shortly.
+   Generating static pages (2291/2327) 
+   Generating static pages (2324/2327) 
+ ✓ Generating static pages (2327/2327)
+   Finalizing page optimization ...
+   Collecting build traces ...
+
+Route (app)                                                 Size  First Load JS
+┌ ƒ /                                                    5.78 kB         117 kB
+├ ƒ /_not-found                                            156 B         103 kB
+├ ● /[sport]                                             5.93 kB         118 kB
+├   ├ /running
+├   ├ /fitness
+├   ├ /calisthenics
+├   └ [+6 more paths]
+├ ● /[sport]/[segment]                                   4.84 kB         129 kB
+├   ├ /running/road
+├   ├ /running/trail
+├   ├ /running/track
+├   └ [+53 more paths]
+├ ● /[sport]/[segment]/[listing]                         1.47 kB         126 kB
+├   ├ /running/shoes/daily-trainers
+├   ├ /running/shoes/race
+├   ├ /running/shoes/stability
+├   └ [+2 more paths]
+├ ƒ /about                                                 855 B         107 kB
+├ ƒ /affiliate-disclosure                                  855 B         107 kB
+├ ○ /apple-icon                                            156 B         103 kB
+├ ƒ /authors                                               855 B         107 kB
+├ ● /authors/[slug]                                        197 B         112 kB
+├   └ /authors/kitletics-editorial
+├ ƒ /best                                                  197 B         112 kB
+├ ● /best/[slug]                                         2.81 kB         119 kB
+├   ├ /best/running-shoes
+├   ├ /best/daily-trainers
+├   ├ /best/running-shoes-long-runs
+├   └ [+56 more paths]
+├ ƒ /brands                                              2.02 kB         108 kB
+├ ● /brands/[slug]                                       1.27 kB         113 kB
+├   ├ /brands/asics
+├   ├ /brands/nike
+├   ├ /brands/adidas
+├   └ [+70 more paths]
+├ ƒ /compare                                             18.9 kB         135 kB
+├ ● /compare/[slug]                                      3.01 kB         115 kB
+├   ├ /compare/asics-novablast-6-vs-asics-gel-nimbus-27
+├   ├ /compare/asics-novablast-6-vs-asics-novablast-5
+├   ├ /compare/asics-novablast-6-vs-brooks-ghost-18
+├   └ [+91 more paths]
+├ ƒ /contact                                               827 B         107 kB
+├ ƒ /editorial-policy                                      855 B         107 kB
+├ ƒ /evidence-policy                                       855 B         107 kB
+├ ƒ /finders                                               156 B         103 kB
+├ ƒ /gear                                                3.68 kB         110 kB
+├ ● /gear/[slug]                                           197 B         112 kB
+├   ├ /gear/running-shoes
+├   ├ /gear/padel-rackets
+├   ├ /gear/tennis-rackets
+├   └ [+40 more paths]
+├ ƒ /go/[offerId]                                          156 B         103 kB
+├ ƒ /guides                                                197 B         112 kB
+├ ● /guides/[slug]                                       7.29 kB         119 kB
+├   ├ /guides/how-to-choose-running-shoes
+├   ├ /guides/running-shoe-drop
+├   ├ /guides/running-shoe-cushioning
+├   └ [+66 more paths]
+├ ƒ /how-we-review                                         855 B         107 kB
+├ ○ /icon                                                  156 B         103 kB
+├ ○ /manifest.webmanifest                                  156 B         103 kB
+├ ƒ /methodology                                           855 B         107 kB
+├ ○ /opengraph-image                                       156 B         103 kB
+├ ƒ /preview/products/[slug]                               156 B         103 kB
+├ ƒ /privacy                                               827 B         107 kB
+├ ● /products/[slug]                                     5.13 kB         121 kB
+├   ├ /products/asics-novablast-5
+├   ├ /products/asics-novablast-4
+├   ├ /products/asics-gel-nimbus-27
+├   └ [+628 more paths]
+├ ● /products/[slug]/alternatives                        11.2 kB         123 kB
+├   ├ /products/asics-novablast-5/alternatives
+├   ├ /products/asics-novablast-4/alternatives
+├   ├ /products/asics-gel-nimbus-27/alternatives
+├   └ [+628 more paths]
+├ ƒ /reviews                                               197 B         112 kB
+├ ● /reviews/[slug]                                      4.36 kB         116 kB
+├   ├ /reviews/kiprun-900-race-5
+├   ├ /reviews/kiprun-proteam-10
+├   ├ /reviews/adidas-adizero-adios-pro-4
+├   └ [+588 more paths]
+├ ○ /robots.txt                                            156 B         103 kB
+├ ƒ /running/gear                                          855 B         107 kB
+├ ƒ /scoring-methodology                                   855 B         107 kB
+├ ƒ /search                                              5.19 kB         111 kB
+├ ƒ /setups                                                855 B         107 kB
+├ ● /setups/[slug]                                       4.39 kB         116 kB
+├   ├ /setups/first-marathon-kit
+├   ├ /setups/marathon-race-day-kit
+├   ├ /setups/marathon-race-day
+├   └ [+14 more paths]
+├ ○ /sitemap.xml                                           156 B         103 kB
+├ ƒ /terms                                                 827 B         107 kB
+├ ƒ /tools                                               2.36 kB         114 kB
+├ ƒ /tools/[slug]                                        42.7 kB         167 kB
+├ ƒ /tools/[slug]/results                                1.75 kB         125 kB
+└ ● /tools/finder/[slug]                                 8.17 kB         131 kB
+    ├ /tools/finder/running-shoe-finder
+    ├ /tools/finder/training-shoe-finder
+    ├ /tools/finder/hyrox-shoe-finder
+    └ [+13 more paths]
++ First Load JS shared by all                             103 kB
+  ├ chunks/1255-fc6c00ab2f765339.js                      46.4 kB
+  ├ chunks/4bd1b696-f785427dddbba9fb.js                  54.2 kB
+  └ other shared chunks (total)                          1.97 kB
+
+
+ƒ Middleware                                             34.2 kB
+
+○  (Static)   prerendered as static content
+●  (SSG)      prerendered as static HTML (uses generateStaticParams)
+ƒ  (Dynamic)  server-rendered on demand
+
+BUILD_EXIT:0

@@ -1,0 +1,189 @@
+[
+  {
+    "id": "prod-salomon-adv-skin-5",
+    "slug": "salomon-adv-skin-5",
+    "ok": true,
+    "src": "/images/packs/products/salomon-adv-skin-5-hero.jpg",
+    "sourceUrl": "https://www.runningwarehouse.com/",
+    "source": "Running Warehouse CDN",
+    "licence": "retailer-authorized",
+    "width": 1000,
+    "height": 1000
+  },
+  {
+    "id": "prod-camelbak-circuit",
+    "slug": "camelbak-circuit-run-vest",
+    "ok": true,
+    "src": "/images/packs/products/camelbak-circuit-run-vest-hero.jpg",
+    "sourceUrl": "https://www.runningwarehouse.com/",
+    "source": "Running Warehouse CDN",
+    "licence": "retailer-authorized",
+    "width": 1000,
+    "height": 1000
+  },
+  {
+    "id": "prod-nathan-pinnacle-12",
+    "slug": "nathan-pinnacle-12",
+    "ok": true,
+    "src": "/images/packs/products/nathan-pinnacle-12-hero.jpg",
+    "sourceUrl": "https://www.runningwarehouse.com/",
+    "source": "Running Warehouse CDN",
+    "licence": "retailer-authorized",
+    "width": 1000,
+    "height": 1000
+  },
+  {
+    "id": "prod-nathan-vaporair-4",
+    "slug": "nathan-vaporair-4",
+    "ok": true,
+    "src": "/images/packs/products/nathan-vaporair-4-hero.jpg",
+    "sourceUrl": "https://www.runningwarehouse.com/",
+    "source": "Running Warehouse CDN",
+    "licence": "retailer-authorized",
+    "width": 1000,
+    "height": 1000
+  },
+  {
+    "id": "prod-nnormal-race-vest",
+    "slug": "nnormal-race-vest",
+    "ok": true,
+    "src": "/images/packs/products/nnormal-race-vest-hero.jpg",
+    "sourceUrl": "https://www.runningwarehouse.com/",
+    "source": "Running Warehouse CDN",
+    "licence": "retailer-authorized",
+    "width": 1000,
+    "height": 1000
+  },
+  {
+    "id": "prod-ud-race-vest-6",
+    "slug": "ultimate-direction-race-vest-6",
+    "ok": true,
+    "src": "/images/packs/products/ultimate-direction-race-vest-6-hero.jpg",
+    "sourceUrl": "https://www.runningwarehouse.com/",
+    "source": "Running Warehouse CDN",
+    "licence": "retailer-authorized",
+    "width": 1000,
+    "height": 1000
+  },
+  {
+    "id": "prod-ultraspire-alpha-6",
+    "slug": "ultraspire-alpha-6",
+    "ok": true,
+    "src": "/images/packs/products/ultraspire-alpha-6-hero.jpg",
+    "sourceUrl": "https://www.runningwarehouse.com/",
+    "source": "Running Warehouse CDN",
+    "licence": "retailer-authorized",
+    "width": 1000,
+    "height": 1000
+  },
+  {
+    "id": "prod-ultraspire-spry-5",
+    "slug": "ultraspire-spry-5",
+    "ok": true,
+    "src": "/images/packs/products/ultraspire-spry-5-hero.jpg",
+    "sourceUrl": "https://www.runningwarehouse.com/",
+    "source": "Running Warehouse CDN",
+    "licence": "retailer-authorized",
+    "width": 1000,
+    "height": 1000
+  },
+  {
+    "id": "prod-uswe-pace-8",
+    "slug": "uswe-pace-8",
+    "ok": true,
+    "src": "/images/packs/products/uswe-pace-8-hero.jpg",
+    "sourceUrl": "https://www.runningwarehouse.com/",
+    "source": "Running Warehouse CDN",
+    "licence": "retailer-authorized",
+    "width": 1000,
+    "height": 1000
+  },
+  {
+    "id": "prod-camelbak-apex-pro",
+    "slug": "camelbak-apex-pro",
+    "ok": true,
+    "src": "/images/packs/products/camelbak-apex-pro-hero.jpg",
+    "sourceUrl": "https://www.runningwarehouse.com/",
+    "source": "Running Warehouse CDN",
+    "licence": "retailer-authorized",
+    "width": 1000,
+    "height": 1000
+  },
+  {
+    "id": "prod-ud-race-belt",
+    "slug": "ultimate-direction-race-belt",
+    "ok": true,
+    "src": "/images/packs/products/ultimate-direction-race-belt-hero.jpg",
+    "sourceUrl": "https://www.runningwarehouse.com/",
+    "source": "Running Warehouse CDN",
+    "licence": "retailer-authorized",
+    "width": 1000,
+    "height": 1000
+  },
+  {
+    "id": "prod-hydrapak-softflask-speed-500",
+    "slug": "hydrapak-softflask-speed-500",
+    "ok": true,
+    "src": "/images/hydration/products/hydrapak-softflask-speed-500-hero.jpg",
+    "sourceUrl": "https://www.runningwarehouse.com/",
+    "source": "Running Warehouse CDN",
+    "licence": "retailer-authorized",
+    "width": 1000,
+    "height": 1000
+  },
+  {
+    "id": "prod-hydrapak-softflask-250",
+    "slug": "hydrapak-softflask-250",
+    "ok": true,
+    "src": "/images/hydration/products/hydrapak-softflask-250-hero.jpg",
+    "sourceUrl": "https://www.runningwarehouse.com/",
+    "source": "Running Warehouse CDN",
+    "licence": "retailer-authorized",
+    "width": 1000,
+    "height": 1000
+  },
+  {
+    "id": "prod-salomon-pulse-belt",
+    "slug": "salomon-pulse-belt",
+    "ok": true,
+    "src": "/images/packs/products/salomon-pulse-belt-hero.jpg",
+    "sourceUrl": "https://www.runningwarehouse.com/",
+    "source": "Running Warehouse CDN",
+    "licence": "retailer-authorized",
+    "width": 1000,
+    "height": 1000
+  },
+  {
+    "id": "prod-camelbak-crux-15",
+    "slug": "camelbak-crux-15",
+    "ok": true,
+    "src": "/images/hydration/products/camelbak-crux-15-hero.jpg",
+    "sourceUrl": "https://www.runningwarehouse.com/",
+    "source": "Running Warehouse CDN",
+    "licence": "retailer-authorized",
+    "width": 1000,
+    "height": 1000
+  },
+  {
+    "id": "prod-ultraspire-fitted-race-belt",
+    "slug": "ultraspire-fitted-race-belt-2",
+    "ok": true,
+    "src": "/images/packs/products/ultraspire-fitted-race-belt-2-hero.jpg",
+    "sourceUrl": "https://www.runningwarehouse.com/",
+    "source": "Running Warehouse CDN",
+    "licence": "retailer-authorized",
+    "width": 1000,
+    "height": 1000
+  },
+  {
+    "id": "prod-hydrapak-skyflask-speed-500",
+    "slug": "hydrapak-skyflask-speed-500",
+    "ok": true,
+    "src": "/images/hydration/products/hydrapak-skyflask-speed-500-hero.jpg",
+    "sourceUrl": "https://www.hydrapak.com/products/skyflask%e2%84%a2-speed-500ml-1",
+    "source": "HydraPak manufacturer",
+    "licence": "manufacturer-marketing",
+    "width": 1200,
+    "height": 1200
+  }
+]

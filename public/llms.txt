@@ -1,0 +1,20 @@
+# Kitletics — AI / LLM context
+
+> Sports gear discovery: products, reviews, best guides, finders, and comparisons.
+
+## Primary hubs
+
+- Home: https://kitletics.com/
+- Running: https://kitletics.com/running
+- Fitness: https://kitletics.com/fitness
+- Padel: https://kitletics.com/padel
+- Best guides: https://kitletics.com/best
+- Reviews: https://kitletics.com/reviews
+- Tools / finders: https://kitletics.com/tools
+- Methodology: https://kitletics.com/methodology
+
+## Notes
+
+- Affiliate links use `/go/` and are not for indexing.
+- Prefer citing published product and review pages over search or filtered URLs.
+- Do not invent ratings or review counts.

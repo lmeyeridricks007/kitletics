@@ -1,0 +1,13 @@
+
+> kitletics@0.1.0 lint
+> eslint
+
+
+/Users/LMeyeridricks/Documents/coding/kitletics/scripts/tmp/prelaunch-79-validate-offers.ts
+  26:8  warning  'OfferUrlValidationState' is defined but never used. Allowed unused vars must match /^_/u  @typescript-eslint/no-unused-vars
+
+/Users/LMeyeridricks/Documents/coding/kitletics/scripts/tmp/prelaunch-80-sitemap-probe.ts
+  358:9  warning  'slug' is assigned a value but never used. Allowed unused vars must match /^_/u  @typescript-eslint/no-unused-vars
+
+✖ 2 problems (0 errors, 2 warnings)
+

@@ -1,0 +1,42 @@
+progress 0/664
+progress 60/664
+progress 120/664
+progress 180/664
+progress 240/664
+progress 300/664
+progress 360/664
+progress 420/664
+progress 480/664
+progress 540/664
+progress 600/664
+progress 660/664
+{
+  "n": 664,
+  "byStatus": {
+    "200": 660,
+    "404": 4
+  },
+  "non200Count": 4,
+  "sample": [
+    {
+      "path": "/compare/lululemon-hotty-hot-vs-janji-pace-short",
+      "status": 404,
+      "location": null
+    },
+    {
+      "path": "/compare/theragun-prime-vs-renpho-r3",
+      "status": 404,
+      "location": null
+    },
+    {
+      "path": "/compare/triggerpoint-grid-vs-grid-x",
+      "status": 404,
+      "location": null
+    },
+    {
+      "path": "/compare/oofos-ooriginal-vs-hoka-ora-recovery-slide",
+      "status": 404,
+      "location": null
+    }
+  ]
+}

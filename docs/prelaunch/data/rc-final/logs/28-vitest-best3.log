@@ -1,0 +1,22 @@
+(!) Your Vite config uses features that are unsupported by `configLoader: 'native'`, which is planned to become the default in a future major version of Vite:
+  - ESM syntax in a file loaded as CommonJS (vitest.config.ts:1:1). Use a `.mjs` extension or set `"type": "module"` in the closest package.json
+Set `VITE_CONFIG_NATIVE_IGNORE_WARNING=true` to suppress this warning.
+
+ RUN  v4.1.11 /Users/LMeyeridricks/Documents/coding/kitletics
+
+ ✓ tests/launch-eligibility.test.ts > launch eligibility > indexes Best guides by semantic LAUNCH_READY policy (not a hardcoded count) 16253ms
+ ✓ tests/launch-eligibility.test.ts > launch eligibility > hides thin Best guides in production but allows preview 241ms
+ ✓ tests/launch-eligibility.test.ts > launch eligibility > does not index held-vertical Best guides 251ms
+ ✓ tests/launch-eligibility.test.ts > launch eligibility > does not promote non-indexable products in search predicate 97ms
+ ✓ tests/launch-eligibility.test.ts > launch eligibility > keeps running enabled and fitness/racket held for deep entities 3ms
+ ✓ tests/launch-eligibility.test.ts > launch eligibility > holds thin comparisons from indexation 795ms
+ ✓ tests/launch-eligibility.test.ts > launch eligibility > indexes COMPLETE buying guides only 116ms
+ ✓ tests/launch-eligibility.test.ts > launch eligibility > includes reasons on every disposition 26ms
+ ✓ tests/launch-eligibility.test.ts > launch eligibility > simulates Day-1 counts without hardcoding inventory 11406ms
+ ✓ tests/launch-eligibility.test.ts > launch eligibility > does not index held-vertical tools / finders 34ms
+
+ Test Files  1 passed (1)
+      Tests  10 passed (10)
+   Start at  09:01:52
+   Duration  202.95s (transform 146.30s, setup 0ms, import 170.48s, tests 29.34s, environment 0ms)
+

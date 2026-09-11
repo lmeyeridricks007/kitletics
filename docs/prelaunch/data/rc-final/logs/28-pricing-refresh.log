@@ -1,0 +1,42 @@
+
+> kitletics@0.1.0 pricing:agent
+> tsx --tsconfig tsconfig.json scripts/pricing-agent.ts --mode=refresh --write --region=NL
+
+
+=== Pricing refresh (amazon=on) ===
+
+… price brooks-cascadia-18 → runrepeat USD 140 (NL ~€133)
+… price nike-pegasus-trail-5 → runrepeat USD 150 (NL ~€143)
+… price asics-gel-trabuco-13 → runrepeat USD 140 (NL ~€133)
+… price saucony-xodus-ultra-3 → runrepeat USD 160 (NL ~€152)
+… price new-balance-fresh-foam-x-hierro-v9 → runrepeat USD 155 (NL ~€147)
+… price adidas-terrex-agravic-3 → fallback €150 (manual placeholder — verify)
+… price salomon-ultra-glide-2 → runrepeat USD 150 (NL ~€143)
+… price topo-athletic-terraventure-5 → fallback €150 (manual placeholder — verify)
+… price saucony-guide-18 → runrepeat USD 140 (NL ~€133)
+… price hoka-arahi-7 → runrepeat USD 145 (NL ~€138)
+… price hoka-gaviota-5 → runrepeat USD 175 (NL ~€166)
+… price new-balance-fresh-foam-x-860-v14 → runrepeat USD 140 (NL ~€133)
+… price asics-gt-1000-13 → runrepeat USD 110 (NL ~€105)
+… price brooks-glycerin-gts-22 → runrepeat USD 165 (NL ~€157)
+… price nike-react-infinity-run-4 → fallback €150 (manual placeholder — verify)
+… price altra-paradigm-7 → runrepeat USD 170 (NL ~€162)
+… price altra-experience-flow → runrepeat USD 140 (NL ~€133)
+… price adidas-adizero-boston-13 → runrepeat USD 160 (NL ~€152)
+… price adidas-ultraboost-5 → runrepeat USD 180 (NL ~€171)
+… price on-cloudsurfer-2 → runrepeat USD 160 (NL ~€152)
+… price on-cloudmonster-hyper → runrepeat USD 220 (NL ~€209)
+… price salomon-genesis → runrepeat USD 150 (NL ~€143)
+
+Wrote /Users/LMeyeridricks/Documents/coding/kitletics/src/content/offers-pricing-refresh.ts
+Patched 1271 offers · created 22 new
+Bumped SEED_DATES.verified → 2026-09-09T06:04:57.161Z
+
+=== Pricing Agent ===
+Region: NL
+Displayable: 623/623 (100%)
+Offer coverage: 623/623 (100%)
+Freshness: { fresh: 1293, recent: 0, aging: 0, stale: 0 }
+Gaps: 0
+Wrote /Users/LMeyeridricks/Documents/coding/kitletics/data/staging/catalog-pricing-audit-2026-09-09.json
+Wrote /Users/LMeyeridricks/Documents/coding/kitletics/data/staging/catalog-pricing-audit-2026-09-09.md

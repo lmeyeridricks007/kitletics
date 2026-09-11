@@ -1,0 +1,31 @@
+Evaluating products...
+Evaluated 717 products
+Wrote /Users/LMeyeridricks/Documents/coding/kitletics/docs/prelaunch/02-product-quality.md
+Wrote /Users/LMeyeridricks/Documents/coding/kitletics/docs/prelaunch/data/02-product-quality.json
+{
+  "classifications": {
+    "LAUNCH_READY": 312,
+    "NEEDS_MINOR_WORK": 233,
+    "THIN": 78,
+    "INCOMPLETE": 0,
+    "BLOCKED": 94
+  },
+  "running": {
+    "LAUNCH_READY": 280,
+    "NEEDS_MINOR_WORK": 87,
+    "THIN": 0,
+    "INCOMPLETE": 0,
+    "BLOCKED": 71
+  },
+  "shoes": {
+    "LAUNCH_READY": 83,
+    "NEEDS_MINOR_WORK": 0,
+    "THIN": 0,
+    "INCOMPLETE": 0,
+    "BLOCKED": 1
+  },
+  "shoesNotReady": 1,
+  "templateGroups": 37,
+  "leakage": 45
+}
+=== DONE 02 exit=0 16:15:09 ===

@@ -1,0 +1,5141 @@
+{
+  "meta": {
+    "auditId": "04-seo-indexation",
+    "title": "Kitletics Pre-Launch Audit 04 — SEO, Crawl & Indexation",
+    "generatedAt": "2026-09-06T21:18:37.604Z",
+    "auditClock": "2026-09-06T12:00:00.000Z",
+    "baseUrl": "http://127.0.0.1:3010",
+    "canonicalHost": "https://kitletics.com",
+    "mode": "read-only-forensic",
+    "productionBuildNotes": [
+      "Built with `next build --no-lint` and temporary typescript.ignoreBuildErrors due to pre-existing type errors.",
+      "tsconfig excluded scripts/ from Next typecheck.",
+      "No SEO auto-fixes applied."
+    ]
+  },
+  "robots": {
+    "sourceConfig": {
+      "rules": {
+        "userAgent": "*",
+        "allow": "/",
+        "disallow": [
+          "/go/",
+          "/api/",
+          "/admin/",
+          "/preview/"
+        ]
+      },
+      "sitemap": "https://kitletics.com/sitemap.xml"
+    },
+    "liveBody": "(fetch failed)",
+    "allow": "/",
+    "disallow": [
+      "/go/",
+      "/api/",
+      "/admin/",
+      "/preview/"
+    ],
+    "sitemap": "https://kitletics.com/sitemap.xml",
+    "checks": {
+      "sitewideNoindex": false,
+      "blocksCssJs": false,
+      "blocksGo": false,
+      "blocksApi": false,
+      "blocksPreview": false,
+      "blocksAdmin": false
+    }
+  },
+  "sitemap": {
+    "file": "/sitemap.xml",
+    "entryCount": 664,
+    "byPageType": {
+      "Home": 1,
+      "Sport": 20,
+      "Category": 17,
+      "Subcategory": 5,
+      "Product": 251,
+      "Alternatives": 74,
+      "Brand": 103,
+      "Review": 43,
+      "Author": 1,
+      "Best": 44,
+      "Comparison": 55,
+      "Guide": 34,
+      "Setup": 5,
+      "Finder": 8,
+      "Calculator": 2,
+      "Tool": 1
+    },
+    "containsSearch": false,
+    "containsQueryStrings": [],
+    "containsPreview": false,
+    "lastModifiedSample": [
+      "2026-09-01T08:00:00.000Z",
+      "2026-09-01T08:00:00.000Z",
+      "2026-09-01T08:00:00.000Z",
+      "2026-09-01T08:00:00.000Z",
+      "2026-09-01T08:00:00.000Z"
+    ],
+    "lastModifiedUnique": 3,
+    "usesSeedUpdated": 11,
+    "draftProductInSitemap": [],
+    "draftReviewInSitemap": [],
+    "note": "Sitemap generated via src/app/sitemap.ts using production publication resolver (getProducts/getReviews/etc)."
+  },
+  "urlUniverse": {
+    "sitemapUrls": 664,
+    "crawledUrls": 275,
+    "bfsDiscoveredUrls": 1,
+    "estimatedIndexableFloor": 664,
+    "classificationsOnCrawlSample": {
+      "404": 0,
+      "INDEXABLE": 0,
+      "NOINDEX": 0,
+      "CANONICALIZED": 0,
+      "REDIRECT": 0,
+      "DRAFT_FUTURE_PROTECTED": 0,
+      "ACCIDENTALLY_EXPOSED": 0,
+      "UNKNOWN": 275
+    },
+    "pageTypeCountsInSitemap": {
+      "Home": 1,
+      "Sport": 20,
+      "Category": 17,
+      "Subcategory": 5,
+      "Product": 251,
+      "Alternatives": 74,
+      "Brand": 103,
+      "Review": 43,
+      "Author": 1,
+      "Best": 44,
+      "Comparison": 55,
+      "Guide": 34,
+      "Setup": 5,
+      "Finder": 8,
+      "Calculator": 2,
+      "Tool": 1
+    },
+    "rawProductUrls": 717,
+    "productionProductUrls": 623,
+    "draftOrFutureProductUrls": 94
+  },
+  "crawl": {
+    "fetchedCount": 275,
+    "depthDistribution": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5+": 0,
+      "unreachableFromHomeInCrawl": 663
+    },
+    "orphanSitemapUrls": [
+      "/gear",
+      "/brands",
+      "/best",
+      "/compare",
+      "/reviews",
+      "/guides",
+      "/tools",
+      "/setups",
+      "/about",
+      "/methodology",
+      "/how-we-review",
+      "/editorial-policy",
+      "/evidence-policy",
+      "/scoring-methodology",
+      "/authors",
+      "/affiliate-disclosure",
+      "/contact",
+      "/privacy",
+      "/terms",
+      "/running",
+      "/running/road",
+      "/running/trail",
+      "/running/track",
+      "/running/treadmill",
+      "/running/racing",
+      "/running/ultra",
+      "/running/shoes",
+      "/running/watches",
+      "/running/heart-rate-monitors",
+      "/running/socks",
+      "/running/hydration",
+      "/running/packs",
+      "/running/headphones",
+      "/running/lights",
+      "/running/safety",
+      "/running/belts",
+      "/running/recovery",
+      "/running/shoes/daily-trainers",
+      "/running/shoes/race",
+      "/running/shoes/stability",
+      "/running/shoes/trail",
+      "/running/shoes/heavy-runners",
+      "/products/asics-novablast-5",
+      "/products/asics-novablast-4",
+      "/products/asics-gel-nimbus-27",
+      "/products/nike-pegasus-41",
+      "/products/brooks-ghost-16",
+      "/products/hoka-clifton-9",
+      "/products/saucony-endorphin-speed-4",
+      "/products/adidas-adizero-boston-12",
+      "/products/garmin-forerunner-965",
+      "/products/garmin-forerunner-255",
+      "/products/coros-pace-3",
+      "/products/garmin-hrm-pro-plus",
+      "/products/salomon-adv-skin-12",
+      "/products/asics-novablast-6",
+      "/products/asics-superblast-2",
+      "/products/asics-gel-kayano-32",
+      "/products/asics-gel-cumulus-27",
+      "/products/asics-metaspeed-sky-paris",
+      "/products/asics-gt-2000-14",
+      "/products/nike-pegasus-42",
+      "/products/nike-vomero-18",
+      "/products/nike-invincible-3",
+      "/products/nike-vaporfly-4",
+      "/products/nike-alphafly-3",
+      "/products/nike-structure-26",
+      "/products/nike-structure-plus",
+      "/products/brooks-ghost-18",
+      "/products/brooks-glycerin-22",
+      "/products/brooks-glycerin-21",
+      "/products/brooks-adrenaline-gts-25",
+      "/products/brooks-hyperion-max-2",
+      "/products/hoka-clifton-10",
+      "/products/hoka-bondi-9",
+      "/products/hoka-bondi-8",
+      "/products/hoka-mach-6",
+      "/products/hoka-speedgoat-6",
+      "/products/hoka-clifton-pro",
+      "/products/saucony-endorphin-speed-5",
+      "/products/saucony-endorphin-pro-4",
+      "/products/saucony-endorphin-pro-3",
+      "/products/saucony-ride-18",
+      "/products/saucony-triumph-22",
+      "/products/saucony-peregrine-15",
+      "/products/new-balance-fresh-foam-x-1080-v14",
+      "/products/new-balance-fresh-foam-x-1080-v13",
+      "/products/new-balance-fuelcell-supercomp-elite-v4",
+      "/products/new-balance-fuelcell-rebel-v5",
+      "/products/new-balance-fuelcell-supercomp-trainer-v3",
+      "/products/adidas-adizero-evo-sl",
+      "/products/adidas-adizero-adios-pro-4",
+      "/products/on-cloudmonster-2",
+      "/products/on-cloudsurfer-next",
+      "/products/altra-torin-8",
+      "/products/altra-escalante-4",
+      "/products/altra-lone-peak-8",
+      "/products/salomon-aero-glide-2",
+      "/products/salomon-sense-ride-5",
+      "/products/salomon-pulsar-trail-2"
+    ],
+    "orphanSitemapCount": 663,
+    "bfsNodes": 1,
+    "extraFetches": 0
+  },
+  "canonicals": {
+    "missing": [],
+    "localhost": [],
+    "relative": [],
+    "crossHost": [],
+    "selfCanonical": 0,
+    "crossCanonical": [],
+    "queryState": []
+  },
+  "titles": {
+    "missing": [],
+    "duplicateClusters": [],
+    "genericSuspects": []
+  },
+  "descriptions": {
+    "missing": [],
+    "duplicateClusters": []
+  },
+  "h1": {
+    "missing": [],
+    "multiple": [],
+    "duplicateClusters": []
+  },
+  "structuredData": {
+    "byPageType": {},
+    "problems": [],
+    "problemCount": 0
+  },
+  "filterExplosion": {
+    "samples": [
+      {
+        "path": "/running/shoes?brand=asics",
+        "status": 0,
+        "classification": "UNKNOWN"
+      },
+      {
+        "path": "/running/shoes?gender=men",
+        "status": 0,
+        "classification": "UNKNOWN"
+      },
+      {
+        "path": "/running/shoes?gender=women",
+        "status": 0,
+        "classification": "UNKNOWN"
+      },
+      {
+        "path": "/running/shoes?brand=asics&gender=men",
+        "status": 0,
+        "classification": "UNKNOWN"
+      },
+      {
+        "path": "/running/shoes?cushion=max&stability=neutral",
+        "status": 0,
+        "classification": "UNKNOWN"
+      },
+      {
+        "path": "/running/shoes?sort=price-asc",
+        "status": 0,
+        "classification": "UNKNOWN"
+      },
+      {
+        "path": "/running/shoes?brand=asics&brand=nike&gender=men&cushion=max",
+        "status": 0,
+        "classification": "UNKNOWN"
+      }
+    ],
+    "indexableFilters": [],
+    "noindexFilters": [],
+    "canonicalizedFilters": [],
+    "riskEstimate": {
+      "note": "Category pages with query filters set robots noindex + canonicalize to clean category URL (src/app/[sport]/[segment]/page.tsx).",
+      "theoreticalCombinations": "If filters were indexable: brands × genders × cushion × stability × sort would be large; live samples should be NOINDEX/CANONICALIZED."
+    }
+  },
+  "comparisonExplosion": {
+    "editorialComparisons": 102,
+    "theoreticalShoePairs": 3403,
+    "samples": [
+      {
+        "path": "/compare",
+        "pageType": "Sport",
+        "status": 0,
+        "finalUrl": "/compare",
+        "redirectChain": [],
+        "h1s": [],
+        "jsonLdTypes": [],
+        "jsonLdRaw": [],
+        "internalLinks": [],
+        "problems": [
+          "fetch_error:fetch failed"
+        ],
+        "classification": "UNKNOWN",
+        "inSitemap": true
+      },
+      {
+        "path": "/compare/asics-novablast-5-vs-asics-gel-nimbus-27",
+        "pageType": "Comparison",
+        "status": 0,
+        "finalUrl": "/compare/asics-novablast-5-vs-asics-gel-nimbus-27",
+        "redirectChain": [],
+        "h1s": [],
+        "jsonLdTypes": [],
+        "jsonLdRaw": [],
+        "internalLinks": [],
+        "problems": [
+          "fetch_error:fetch failed"
+        ],
+        "classification": "UNKNOWN",
+        "inSitemap": true
+      },
+      {
+        "path": "/compare/brooks-ghost-18-vs-asics-novablast-6",
+        "pageType": "Comparison",
+        "status": 0,
+        "finalUrl": "/compare/brooks-ghost-18-vs-asics-novablast-6",
+        "redirectChain": [],
+        "h1s": [],
+        "jsonLdTypes": [],
+        "jsonLdRaw": [],
+        "internalLinks": [],
+        "problems": [
+          "fetch_error:fetch failed"
+        ],
+        "classification": "UNKNOWN",
+        "inSitemap": false
+      },
+      {
+        "path": "/compare?products=asics-novablast-6,brooks-ghost-18",
+        "pageType": "Sport",
+        "status": 0,
+        "finalUrl": "/compare?products=asics-novablast-6,brooks-ghost-18",
+        "redirectChain": [],
+        "h1s": [],
+        "jsonLdTypes": [],
+        "jsonLdRaw": [],
+        "internalLinks": [],
+        "problems": [
+          "fetch_error:fetch failed"
+        ],
+        "classification": "UNKNOWN",
+        "inSitemap": true
+      },
+      {
+        "path": "/compare/asics-novablast-6-vs-asics-gel-nimbus-27",
+        "pageType": "Comparison",
+        "status": 0,
+        "finalUrl": "/compare/asics-novablast-6-vs-asics-gel-nimbus-27",
+        "redirectChain": [],
+        "h1s": [],
+        "jsonLdTypes": [],
+        "jsonLdRaw": [],
+        "internalLinks": [],
+        "problems": [
+          "fetch_error:fetch failed"
+        ],
+        "classification": "UNKNOWN",
+        "inSitemap": true
+      },
+      {
+        "path": "/compare/asics-novablast-6-vs-brooks-ghost-18",
+        "pageType": "Comparison",
+        "status": 0,
+        "finalUrl": "/compare/asics-novablast-6-vs-brooks-ghost-18",
+        "redirectChain": [],
+        "h1s": [],
+        "jsonLdTypes": [],
+        "jsonLdRaw": [],
+        "internalLinks": [],
+        "problems": [
+          "fetch_error:fetch failed"
+        ],
+        "classification": "UNKNOWN",
+        "inSitemap": true
+      },
+      {
+        "path": "/compare/asics-novablast-6-vs-hoka-clifton-10",
+        "pageType": "Comparison",
+        "status": 0,
+        "finalUrl": "/compare/asics-novablast-6-vs-hoka-clifton-10",
+        "redirectChain": [],
+        "h1s": [],
+        "jsonLdTypes": [],
+        "jsonLdRaw": [],
+        "internalLinks": [],
+        "problems": [
+          "fetch_error:fetch failed"
+        ],
+        "classification": "UNKNOWN",
+        "inSitemap": true
+      },
+      {
+        "path": "/compare/nike-vaporfly-4-vs-nike-alphafly-3",
+        "pageType": "Comparison",
+        "status": 0,
+        "finalUrl": "/compare/nike-vaporfly-4-vs-nike-alphafly-3",
+        "redirectChain": [],
+        "h1s": [],
+        "jsonLdTypes": [],
+        "jsonLdRaw": [],
+        "internalLinks": [],
+        "problems": [
+          "fetch_error:fetch failed"
+        ],
+        "classification": "UNKNOWN",
+        "inSitemap": true
+      },
+      {
+        "path": "/compare/hoka-speedgoat-6-vs-saucony-peregrine-15",
+        "pageType": "Comparison",
+        "status": 0,
+        "finalUrl": "/compare/hoka-speedgoat-6-vs-saucony-peregrine-15",
+        "redirectChain": [],
+        "h1s": [],
+        "jsonLdTypes": [],
+        "jsonLdRaw": [],
+        "internalLinks": [],
+        "problems": [
+          "fetch_error:fetch failed"
+        ],
+        "classification": "UNKNOWN",
+        "inSitemap": true
+      },
+      {
+        "path": "/compare/garmin-forerunner-970-vs-garmin-forerunner-965",
+        "pageType": "Comparison",
+        "status": 0,
+        "finalUrl": "/compare/garmin-forerunner-970-vs-garmin-forerunner-965",
+        "redirectChain": [],
+        "h1s": [],
+        "jsonLdTypes": [],
+        "jsonLdRaw": [],
+        "internalLinks": [],
+        "problems": [
+          "fetch_error:fetch failed"
+        ],
+        "classification": "UNKNOWN",
+        "inSitemap": true
+      },
+      {
+        "path": "/compare/salomon-adv-skin-12-vs-nathan-vaporair-2",
+        "pageType": "Comparison",
+        "status": 0,
+        "finalUrl": "/compare/salomon-adv-skin-12-vs-nathan-vaporair-2",
+        "redirectChain": [],
+        "h1s": [],
+        "jsonLdTypes": [],
+        "jsonLdRaw": [],
+        "internalLinks": [],
+        "problems": [
+          "fetch_error:fetch failed"
+        ],
+        "classification": "UNKNOWN",
+        "inSitemap": true
+      },
+      {
+        "path": "/compare/coros-apex-4-vs-garmin-fenix-8",
+        "pageType": "Comparison",
+        "status": 0,
+        "finalUrl": "/compare/coros-apex-4-vs-garmin-fenix-8",
+        "redirectChain": [],
+        "h1s": [],
+        "jsonLdTypes": [],
+        "jsonLdRaw": [],
+        "internalLinks": [],
+        "problems": [
+          "fetch_error:fetch failed"
+        ],
+        "classification": "UNKNOWN",
+        "inSitemap": true
+      },
+      {
+        "path": "/compare/apple-watch-ultra-3-vs-apple-watch-ultra-2",
+        "pageType": "Comparison",
+        "status": 0,
+        "finalUrl": "/compare/apple-watch-ultra-3-vs-apple-watch-ultra-2",
+        "redirectChain": [],
+        "h1s": [],
+        "jsonLdTypes": [],
+        "jsonLdRaw": [],
+        "internalLinks": [],
+        "problems": [
+          "fetch_error:fetch failed"
+        ],
+        "classification": "UNKNOWN",
+        "inSitemap": true
+      },
+      {
+        "path": "/compare/suunto-vertical-2-vs-garmin-enduro-3",
+        "pageType": "Comparison",
+        "status": 0,
+        "finalUrl": "/compare/suunto-vertical-2-vs-garmin-enduro-3",
+        "redirectChain": [],
+        "h1s": [],
+        "jsonLdTypes": [],
+        "jsonLdRaw": [],
+        "internalLinks": [],
+        "problems": [
+          "fetch_error:fetch failed"
+        ],
+        "classification": "UNKNOWN",
+        "inSitemap": true
+      },
+      {
+        "path": "/compare/garmin-vivoactive-6-vs-garmin-forerunner-165",
+        "pageType": "Comparison",
+        "status": 0,
+        "finalUrl": "/compare/garmin-vivoactive-6-vs-garmin-forerunner-165",
+        "redirectChain": [],
+        "h1s": [],
+        "jsonLdTypes": [],
+        "jsonLdRaw": [],
+        "internalLinks": [],
+        "problems": [
+          "fetch_error:fetch failed"
+        ],
+        "classification": "UNKNOWN",
+        "inSitemap": true
+      },
+      {
+        "path": "/compare/polar-h10-vs-polar-h9",
+        "pageType": "Comparison",
+        "status": 0,
+        "finalUrl": "/compare/polar-h10-vs-polar-h9",
+        "redirectChain": [],
+        "h1s": [],
+        "jsonLdTypes": [],
+        "jsonLdRaw": [],
+        "internalLinks": [],
+        "problems": [
+          "fetch_error:fetch failed"
+        ],
+        "classification": "UNKNOWN",
+        "inSitemap": true
+      },
+      {
+        "path": "/compare/coros-hrm-vs-polar-verity-sense",
+        "pageType": "Comparison",
+        "status": 0,
+        "finalUrl": "/compare/coros-hrm-vs-polar-verity-sense",
+        "redirectChain": [],
+        "h1s": [],
+        "jsonLdTypes": [],
+        "jsonLdRaw": [],
+        "internalLinks": [],
+        "problems": [
+          "fetch_error:fetch failed"
+        ],
+        "classification": "UNKNOWN",
+        "inSitemap": true
+      },
+      {
+        "path": "/compare/salomon-adv-skin-12-vs-salomon-adv-skin-5",
+        "pageType": "Comparison",
+        "status": 0,
+        "finalUrl": "/compare/salomon-adv-skin-12-vs-salomon-adv-skin-5",
+        "redirectChain": [],
+        "h1s": [],
+        "jsonLdTypes": [],
+        "jsonLdRaw": [],
+        "internalLinks": [],
+        "problems": [
+          "fetch_error:fetch failed"
+        ],
+        "classification": "UNKNOWN",
+        "inSitemap": true
+      },
+      {
+        "path": "/compare/nathan-vaporair-4-vs-salomon-adv-skin-5",
+        "pageType": "Comparison",
+        "status": 0,
+        "finalUrl": "/compare/nathan-vaporair-4-vs-salomon-adv-skin-5",
+        "redirectChain": [],
+        "h1s": [],
+        "jsonLdTypes": [],
+        "jsonLdRaw": [],
+        "internalLinks": [],
+        "problems": [
+          "fetch_error:fetch failed"
+        ],
+        "classification": "UNKNOWN",
+        "inSitemap": true
+      },
+      {
+        "path": "/compare/osprey-duro-lt-vs-ultimate-direction-race-vest-6",
+        "pageType": "Comparison",
+        "status": 0,
+        "finalUrl": "/compare/osprey-duro-lt-vs-ultimate-direction-race-vest-6",
+        "redirectChain": [],
+        "h1s": [],
+        "jsonLdTypes": [],
+        "jsonLdRaw": [],
+        "internalLinks": [],
+        "problems": [
+          "fetch_error:fetch failed"
+        ],
+        "classification": "UNKNOWN",
+        "inSitemap": true
+      },
+      {
+        "path": "/compare/hydrapak-softflask-speed-500-vs-hydrapak-skyflask-speed-500",
+        "pageType": "Comparison",
+        "status": 0,
+        "finalUrl": "/compare/hydrapak-softflask-speed-500-vs-hydrapak-skyflask-speed-500",
+        "redirectChain": [],
+        "h1s": [],
+        "jsonLdTypes": [],
+        "jsonLdRaw": [],
+        "internalLinks": [],
+        "problems": [
+          "fetch_error:fetch failed"
+        ],
+        "classification": "UNKNOWN",
+        "inSitemap": true
+      },
+      {
+        "path": "/compare/camelbak-zephyr-pro-vs-camelbak-apex-pro",
+        "pageType": "Comparison",
+        "status": 0,
+        "finalUrl": "/compare/camelbak-zephyr-pro-vs-camelbak-apex-pro",
+        "redirectChain": [],
+        "h1s": [],
+        "jsonLdTypes": [],
+        "jsonLdRaw": [],
+        "internalLinks": [],
+        "problems": [
+          "fetch_error:fetch failed"
+        ],
+        "classification": "UNKNOWN",
+        "inSitemap": true
+      },
+      {
+        "path": "/compare/feetures-elite-vs-darn-tough-run",
+        "pageType": "Comparison",
+        "status": 0,
+        "finalUrl": "/compare/feetures-elite-vs-darn-tough-run",
+        "redirectChain": [],
+        "h1s": [],
+        "jsonLdTypes": [],
+        "jsonLdRaw": [],
+        "internalLinks": [],
+        "problems": [
+          "fetch_error:fetch failed"
+        ],
+        "classification": "UNKNOWN",
+        "inSitemap": true
+      },
+      {
+        "path": "/compare/ultimate-direction-fastpack-20-vs-osprey-talon-velocity-20",
+        "pageType": "Comparison",
+        "status": 0,
+        "finalUrl": "/compare/ultimate-direction-fastpack-20-vs-osprey-talon-velocity-20",
+        "redirectChain": [],
+        "h1s": [],
+        "jsonLdTypes": [],
+        "jsonLdRaw": [],
+        "internalLinks": [],
+        "problems": [
+          "fetch_error:fetch failed"
+        ],
+        "classification": "UNKNOWN",
+        "inSitemap": true
+      },
+      {
+        "path": "/compare/salomon-xa-15-vs-osprey-duro-15",
+        "pageType": "Comparison",
+        "status": 0,
+        "finalUrl": "/compare/salomon-xa-15-vs-osprey-duro-15",
+        "redirectChain": [],
+        "h1s": [],
+        "jsonLdTypes": [],
+        "jsonLdRaw": [],
+        "internalLinks": [],
+        "problems": [
+          "fetch_error:fetch failed"
+        ],
+        "classification": "UNKNOWN",
+        "inSitemap": true
+      },
+      {
+        "path": "/compare/shokz-openrun-pro-2-vs-airpods-pro-2",
+        "pageType": "Comparison",
+        "status": 0,
+        "finalUrl": "/compare/shokz-openrun-pro-2-vs-airpods-pro-2",
+        "redirectChain": [],
+        "h1s": [],
+        "jsonLdTypes": [],
+        "jsonLdRaw": [],
+        "internalLinks": [],
+        "problems": [
+          "fetch_error:fetch failed"
+        ],
+        "classification": "UNKNOWN",
+        "inSitemap": true
+      },
+      {
+        "path": "/compare/petzl-swift-rl-vs-biolite-headlamp-800",
+        "pageType": "Comparison",
+        "status": 0,
+        "finalUrl": "/compare/petzl-swift-rl-vs-biolite-headlamp-800",
+        "redirectChain": [],
+        "h1s": [],
+        "jsonLdTypes": [],
+        "jsonLdRaw": [],
+        "internalLinks": [],
+        "problems": [
+          "fetch_error:fetch failed"
+        ],
+        "classification": "UNKNOWN",
+        "inSitemap": true
+      },
+      {
+        "path": "/compare/nathan-streak-vs-proviz-reflect360",
+        "pageType": "Comparison",
+        "status": 0,
+        "finalUrl": "/compare/nathan-streak-vs-proviz-reflect360",
+        "redirectChain": [],
+        "h1s": [],
+        "jsonLdTypes": [],
+        "jsonLdRaw": [],
+        "internalLinks": [],
+        "problems": [
+          "fetch_error:fetch failed"
+        ],
+        "classification": "UNKNOWN",
+        "inSitemap": true
+      },
+      {
+        "path": "/compare/theragun-prime-vs-renpho-r3",
+        "pageType": "Comparison",
+        "status": 0,
+        "finalUrl": "/compare/theragun-prime-vs-renpho-r3",
+        "redirectChain": [],
+        "h1s": [],
+        "jsonLdTypes": [],
+        "jsonLdRaw": [],
+        "internalLinks": [],
+        "problems": [
+          "fetch_error:fetch failed"
+        ],
+        "classification": "UNKNOWN",
+        "inSitemap": true
+      }
+    ],
+    "systemCreatesCombinatorialIndexablePages": false,
+    "note": "generateStaticParams uses editorial getComparisons() only; dynamic pairs are noindex."
+  },
+  "menWomen": {
+    "strategy": "Gender is a ProductVariant/audience dimension and catalog filter (?gender=), not separate product URLs.",
+    "filterSamples": [
+      {
+        "path": "/running/shoes?gender=men",
+        "classification": "UNKNOWN"
+      },
+      {
+        "path": "/running/shoes?gender=women",
+        "classification": "UNKNOWN"
+      },
+      {
+        "path": "/running/clothing?gender=men",
+        "classification": "UNKNOWN"
+      }
+    ],
+    "duplicateIndexableProductVariants": false,
+    "note": "Men/Women share /products/{slug}; variants are on-page, not separate indexable URLs."
+  },
+  "httpStatus": {
+    "200": 0,
+    "301": 0,
+    "302": 0,
+    "404": 0,
+    "500": 0,
+    "other": 0,
+    "redirectChains": [],
+    "loops": []
+  },
+  "futureContentTests": {
+    "directUrl": [
+      {
+        "path": "/products/example-unpublished-trainer",
+        "status": 0,
+        "classification": "UNKNOWN",
+        "problems": [
+          "fetch_error:fetch failed"
+        ]
+      },
+      {
+        "path": "/products/patagonia-slope-runner-vest",
+        "status": 0,
+        "classification": "UNKNOWN",
+        "problems": [
+          "fetch_error:fetch failed"
+        ]
+      },
+      {
+        "path": "/products/raidlight-responsiv-12",
+        "status": 0,
+        "classification": "UNKNOWN",
+        "problems": [
+          "fetch_error:fetch failed"
+        ]
+      },
+      {
+        "path": "/products/kiprun-trail-10",
+        "status": 0,
+        "classification": "UNKNOWN",
+        "problems": [
+          "fetch_error:fetch failed"
+        ]
+      },
+      {
+        "path": "/products/hydrapak-shape-shift-15",
+        "status": 0,
+        "classification": "UNKNOWN",
+        "problems": [
+          "fetch_error:fetch failed"
+        ]
+      },
+      {
+        "path": "/products/nathan-quickdraw-plus-handheld",
+        "status": 0,
+        "classification": "UNKNOWN",
+        "problems": [
+          "fetch_error:fetch failed"
+        ]
+      },
+      {
+        "path": "/products/bombas-performance-running-quarter",
+        "status": 0,
+        "classification": "UNKNOWN",
+        "problems": [
+          "fetch_error:fetch failed"
+        ]
+      },
+      {
+        "path": "/products/hilly-marathon-fresh",
+        "status": 0,
+        "classification": "UNKNOWN",
+        "problems": [
+          "fetch_error:fetch failed"
+        ]
+      },
+      {
+        "path": "/reviews/asics-novablast-5-deep-dive",
+        "status": 0,
+        "classification": "UNKNOWN",
+        "problems": [
+          "fetch_error:fetch failed"
+        ]
+      },
+      {
+        "path": "/reviews/bear-komplex-valor",
+        "status": 0,
+        "classification": "UNKNOWN",
+        "problems": [
+          "fetch_error:fetch failed"
+        ]
+      },
+      {
+        "path": "/reviews/domyos-mid-500",
+        "status": 0,
+        "classification": "UNKNOWN",
+        "problems": [
+          "fetch_error:fetch failed"
+        ]
+      },
+      {
+        "path": "/reviews/nobull-trail",
+        "status": 0,
+        "classification": "UNKNOWN",
+        "problems": [
+          "fetch_error:fetch failed"
+        ]
+      },
+      {
+        "path": "/reviews/zeraus-classic",
+        "status": 0,
+        "classification": "UNKNOWN",
+        "problems": [
+          "fetch_error:fetch failed"
+        ]
+      }
+    ],
+    "inSitemap": {
+      "draftProducts": [],
+      "draftReviews": []
+    },
+    "searchPage": {
+      "path": "/search",
+      "pageType": "Search",
+      "status": 0,
+      "finalUrl": "/search",
+      "redirectChain": [],
+      "h1s": [],
+      "jsonLdTypes": [],
+      "jsonLdRaw": [],
+      "internalLinks": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "classification": "UNKNOWN",
+      "inSitemap": false
+    },
+    "preview": {
+      "path": "/preview/products/asics-novablast-6",
+      "pageType": "Preview",
+      "status": 0,
+      "finalUrl": "/preview/products/asics-novablast-6",
+      "redirectChain": [],
+      "h1s": [],
+      "jsonLdTypes": [],
+      "jsonLdRaw": [],
+      "internalLinks": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "classification": "UNKNOWN",
+      "inSitemap": false
+    },
+    "navigationNote": "Draft entities are excluded from getProducts()/getReviews() production resolver — should not appear in nav cards fed by repositories."
+  },
+  "pageTypeSummary": [
+    {
+      "pageType": "Home",
+      "urlsInSitemap": 1,
+      "crawledSample": 1,
+      "indexableSample": 0,
+      "noindexSample": 0,
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "duplicateRisk": "low",
+      "orphanSitemapUrls": 0,
+      "statusNotes": {
+        "UNKNOWN": 1
+      }
+    },
+    {
+      "pageType": "Sport",
+      "urlsInSitemap": 20,
+      "crawledSample": 20,
+      "indexableSample": 0,
+      "noindexSample": 0,
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "duplicateRisk": "low",
+      "orphanSitemapUrls": 20,
+      "statusNotes": {
+        "UNKNOWN": 20
+      }
+    },
+    {
+      "pageType": "Discipline",
+      "urlsInSitemap": 0,
+      "crawledSample": 0,
+      "indexableSample": 0,
+      "noindexSample": 0,
+      "problems": [],
+      "duplicateRisk": "low",
+      "orphanSitemapUrls": 0,
+      "statusNotes": {}
+    },
+    {
+      "pageType": "Category",
+      "urlsInSitemap": 17,
+      "crawledSample": 23,
+      "indexableSample": 0,
+      "noindexSample": 0,
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "duplicateRisk": "low",
+      "orphanSitemapUrls": 17,
+      "statusNotes": {
+        "UNKNOWN": 23
+      }
+    },
+    {
+      "pageType": "Subcategory",
+      "urlsInSitemap": 5,
+      "crawledSample": 5,
+      "indexableSample": 0,
+      "noindexSample": 0,
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "duplicateRisk": "low",
+      "orphanSitemapUrls": 5,
+      "statusNotes": {
+        "UNKNOWN": 5
+      }
+    },
+    {
+      "pageType": "Brand",
+      "urlsInSitemap": 103,
+      "crawledSample": 15,
+      "indexableSample": 0,
+      "noindexSample": 0,
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "duplicateRisk": "low",
+      "orphanSitemapUrls": 103,
+      "statusNotes": {
+        "UNKNOWN": 15
+      }
+    },
+    {
+      "pageType": "Brand+Category",
+      "urlsInSitemap": 0,
+      "crawledSample": 0,
+      "indexableSample": 0,
+      "noindexSample": 0,
+      "problems": [],
+      "duplicateRisk": "low",
+      "orphanSitemapUrls": 0,
+      "statusNotes": {}
+    },
+    {
+      "pageType": "Product",
+      "urlsInSitemap": 251,
+      "crawledSample": 48,
+      "indexableSample": 0,
+      "noindexSample": 0,
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "duplicateRisk": "low",
+      "orphanSitemapUrls": 251,
+      "statusNotes": {
+        "UNKNOWN": 48
+      }
+    },
+    {
+      "pageType": "Review",
+      "urlsInSitemap": 43,
+      "crawledSample": 45,
+      "indexableSample": 0,
+      "noindexSample": 0,
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "duplicateRisk": "low",
+      "orphanSitemapUrls": 43,
+      "statusNotes": {
+        "UNKNOWN": 45
+      }
+    },
+    {
+      "pageType": "Best",
+      "urlsInSitemap": 44,
+      "crawledSample": 25,
+      "indexableSample": 0,
+      "noindexSample": 0,
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "duplicateRisk": "low",
+      "orphanSitemapUrls": 44,
+      "statusNotes": {
+        "UNKNOWN": 25
+      }
+    },
+    {
+      "pageType": "Guide",
+      "urlsInSitemap": 34,
+      "crawledSample": 25,
+      "indexableSample": 0,
+      "noindexSample": 0,
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "duplicateRisk": "low",
+      "orphanSitemapUrls": 34,
+      "statusNotes": {
+        "UNKNOWN": 25
+      }
+    },
+    {
+      "pageType": "Comparison",
+      "urlsInSitemap": 55,
+      "crawledSample": 27,
+      "indexableSample": 0,
+      "noindexSample": 0,
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "duplicateRisk": "low",
+      "orphanSitemapUrls": 55,
+      "statusNotes": {
+        "UNKNOWN": 27
+      }
+    },
+    {
+      "pageType": "Alternatives",
+      "urlsInSitemap": 74,
+      "crawledSample": 15,
+      "indexableSample": 0,
+      "noindexSample": 0,
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "duplicateRisk": "low",
+      "orphanSitemapUrls": 74,
+      "statusNotes": {
+        "UNKNOWN": 15
+      }
+    },
+    {
+      "pageType": "Tool",
+      "urlsInSitemap": 1,
+      "crawledSample": 1,
+      "indexableSample": 0,
+      "noindexSample": 0,
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "duplicateRisk": "low",
+      "orphanSitemapUrls": 1,
+      "statusNotes": {
+        "UNKNOWN": 1
+      }
+    },
+    {
+      "pageType": "Finder",
+      "urlsInSitemap": 8,
+      "crawledSample": 8,
+      "indexableSample": 0,
+      "noindexSample": 0,
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "duplicateRisk": "low",
+      "orphanSitemapUrls": 8,
+      "statusNotes": {
+        "UNKNOWN": 8
+      }
+    },
+    {
+      "pageType": "Finder Result",
+      "urlsInSitemap": 0,
+      "crawledSample": 2,
+      "indexableSample": 0,
+      "noindexSample": 0,
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "duplicateRisk": "low",
+      "orphanSitemapUrls": 0,
+      "statusNotes": {
+        "UNKNOWN": 2
+      }
+    },
+    {
+      "pageType": "Calculator",
+      "urlsInSitemap": 2,
+      "crawledSample": 2,
+      "indexableSample": 0,
+      "noindexSample": 0,
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "duplicateRisk": "low",
+      "orphanSitemapUrls": 2,
+      "statusNotes": {
+        "UNKNOWN": 2
+      }
+    },
+    {
+      "pageType": "Search",
+      "urlsInSitemap": 0,
+      "crawledSample": 2,
+      "indexableSample": 0,
+      "noindexSample": 0,
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "duplicateRisk": "low",
+      "orphanSitemapUrls": 0,
+      "statusNotes": {
+        "UNKNOWN": 2
+      }
+    },
+    {
+      "pageType": "Deals",
+      "urlsInSitemap": 0,
+      "crawledSample": 1,
+      "indexableSample": 0,
+      "noindexSample": 0,
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "duplicateRisk": "low",
+      "orphanSitemapUrls": 0,
+      "statusNotes": {
+        "UNKNOWN": 1
+      }
+    },
+    {
+      "pageType": "Filters",
+      "urlsInSitemap": 0,
+      "crawledSample": 0,
+      "indexableSample": 0,
+      "noindexSample": 0,
+      "problems": [],
+      "duplicateRisk": "low",
+      "orphanSitemapUrls": 0,
+      "statusNotes": {}
+    },
+    {
+      "pageType": "Setup",
+      "urlsInSitemap": 5,
+      "crawledSample": 5,
+      "indexableSample": 0,
+      "noindexSample": 0,
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "duplicateRisk": "low",
+      "orphanSitemapUrls": 5,
+      "statusNotes": {
+        "UNKNOWN": 5
+      }
+    },
+    {
+      "pageType": "Author",
+      "urlsInSitemap": 1,
+      "crawledSample": 1,
+      "indexableSample": 0,
+      "noindexSample": 0,
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "duplicateRisk": "low",
+      "orphanSitemapUrls": 1,
+      "statusNotes": {
+        "UNKNOWN": 1
+      }
+    },
+    {
+      "pageType": "Hub",
+      "urlsInSitemap": 0,
+      "crawledSample": 0,
+      "indexableSample": 0,
+      "noindexSample": 0,
+      "problems": [],
+      "duplicateRisk": "low",
+      "orphanSitemapUrls": 0,
+      "statusNotes": {}
+    }
+  ],
+  "fetchedSample": [
+    {
+      "path": "/",
+      "pageType": "Home",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/running",
+      "pageType": "Sport",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/running/shoes",
+      "pageType": "Category",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/running/road",
+      "pageType": "Category",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/fitness",
+      "pageType": "Sport",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": false,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/padel",
+      "pageType": "Sport",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": false,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/brands",
+      "pageType": "Sport",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/brands/asics",
+      "pageType": "Brand",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/best",
+      "pageType": "Sport",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/guides",
+      "pageType": "Sport",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/reviews",
+      "pageType": "Sport",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/compare",
+      "pageType": "Sport",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/tools",
+      "pageType": "Sport",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/gear",
+      "pageType": "Sport",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/setups",
+      "pageType": "Sport",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/methodology",
+      "pageType": "Sport",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/how-we-review",
+      "pageType": "Sport",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/affiliate-disclosure",
+      "pageType": "Sport",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/robots.txt",
+      "pageType": "Other",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": false,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/sitemap.xml",
+      "pageType": "Other",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": false,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/running/shoes?brand=asics",
+      "pageType": "Category",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/running/shoes?gender=men",
+      "pageType": "Category",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/running/shoes?gender=women",
+      "pageType": "Category",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/running/shoes?brand=asics&gender=men",
+      "pageType": "Category",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/running/shoes?cushion=max&stability=neutral",
+      "pageType": "Category",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/running/shoes?sort=price-asc",
+      "pageType": "Category",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/running/shoes?brand=asics&brand=nike&gender=men&cushion=max",
+      "pageType": "Category",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/compare/asics-novablast-5-vs-asics-gel-nimbus-27",
+      "pageType": "Comparison",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/compare/brooks-ghost-18-vs-asics-novablast-6",
+      "pageType": "Comparison",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": false,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/compare?products=asics-novablast-6,brooks-ghost-18",
+      "pageType": "Sport",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/search",
+      "pageType": "Search",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": false,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/search?q=novablast",
+      "pageType": "Search",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": false,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/deals",
+      "pageType": "Deals",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": false,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/tools/running-shoe-finder/results",
+      "pageType": "Finder Result",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": false,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/tools/running-shoe-finder/results?s=test",
+      "pageType": "Finder Result",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": false,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/preview/products/asics-novablast-6",
+      "pageType": "Preview",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": false,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/go/offer-does-not-exist",
+      "pageType": "API/Go",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": false,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/running/clothing?gender=men",
+      "pageType": "Category",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": false,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/products/example-unpublished-trainer",
+      "pageType": "Product",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": false,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/products/patagonia-slope-runner-vest",
+      "pageType": "Product",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": false,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/products/raidlight-responsiv-12",
+      "pageType": "Product",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": false,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/products/kiprun-trail-10",
+      "pageType": "Product",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": false,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/products/hydrapak-shape-shift-15",
+      "pageType": "Product",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": false,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/products/nathan-quickdraw-plus-handheld",
+      "pageType": "Product",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": false,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/products/bombas-performance-running-quarter",
+      "pageType": "Product",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": false,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/products/hilly-marathon-fresh",
+      "pageType": "Product",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": false,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/reviews/asics-novablast-5-deep-dive",
+      "pageType": "Review",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": false,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/reviews/bear-komplex-valor",
+      "pageType": "Review",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": false,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/reviews/domyos-mid-500",
+      "pageType": "Review",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": false,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/reviews/nobull-trail",
+      "pageType": "Review",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": false,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/reviews/zeraus-classic",
+      "pageType": "Review",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": false,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/about",
+      "pageType": "Sport",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/editorial-policy",
+      "pageType": "Sport",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/evidence-policy",
+      "pageType": "Sport",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/scoring-methodology",
+      "pageType": "Sport",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/authors",
+      "pageType": "Sport",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/running/trail",
+      "pageType": "Category",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/running/track",
+      "pageType": "Category",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/running/treadmill",
+      "pageType": "Category",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/running/racing",
+      "pageType": "Category",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/running/ultra",
+      "pageType": "Category",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/running/watches",
+      "pageType": "Category",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/running/heart-rate-monitors",
+      "pageType": "Category",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/running/socks",
+      "pageType": "Category",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/running/hydration",
+      "pageType": "Category",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/running/packs",
+      "pageType": "Category",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/running/headphones",
+      "pageType": "Category",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/running/lights",
+      "pageType": "Category",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/running/safety",
+      "pageType": "Category",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/running/shoes/daily-trainers",
+      "pageType": "Subcategory",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/running/shoes/race",
+      "pageType": "Subcategory",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/running/shoes/stability",
+      "pageType": "Subcategory",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/running/shoes/trail",
+      "pageType": "Subcategory",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/running/shoes/heavy-runners",
+      "pageType": "Subcategory",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/products/asics-novablast-5",
+      "pageType": "Product",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/products/saucony-endorphin-speed-4",
+      "pageType": "Product",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/products/salomon-adv-skin-12",
+      "pageType": "Product",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/products/asics-gt-2000-14",
+      "pageType": "Product",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/products/nike-structure-26",
+      "pageType": "Product",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/products/brooks-hyperion-max-2",
+      "pageType": "Product",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/products/hoka-clifton-pro",
+      "pageType": "Product",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/products/saucony-peregrine-15",
+      "pageType": "Product",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/products/adidas-adizero-evo-sl",
+      "pageType": "Product",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/products/altra-lone-peak-8",
+      "pageType": "Product",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/products/puma-deviate-nitro-3",
+      "pageType": "Product",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/products/nike-pegasus-trail-5",
+      "pageType": "Product",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/products/topo-athletic-terraventure-5",
+      "pageType": "Product",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/products/brooks-glycerin-gts-22",
+      "pageType": "Product",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/products/on-cloudsurfer-2",
+      "pageType": "Product",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/products/garmin-forerunner-165",
+      "pageType": "Product",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/products/suunto-race",
+      "pageType": "Product",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/products/wahoo-tickr",
+      "pageType": "Product",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/products/garmin-vivoactive-6",
+      "pageType": "Product",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/products/suunto-vertical-2",
+      "pageType": "Product",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/products/samsung-galaxy-watch-ultra",
+      "pageType": "Product",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/products/wahoo-trackr",
+      "pageType": "Product",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/products/nathan-vaporair-4",
+      "pageType": "Product",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/products/osprey-duro-lt",
+      "pageType": "Product",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/products/compressport-ultrun-s-pack",
+      "pageType": "Product",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/products/ultimate-direction-ultra-belt",
+      "pageType": "Product",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/products/hydrapak-skyflask-speed-500",
+      "pageType": "Product",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/products/salomon-soft-flask-speed-500",
+      "pageType": "Product",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/products/salomon-soft-reservoir-15",
+      "pageType": "Product",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/products/nathan-zipster-lite",
+      "pageType": "Product",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/products/osprey-tempest-velocity-20",
+      "pageType": "Product",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/products/ultimate-direction-utility-bag",
+      "pageType": "Product",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/products/soundcore-aerofit-2",
+      "pageType": "Product",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/products/black-diamond-distance-1500",
+      "pageType": "Product",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/products/amphipod-vizlet-led",
+      "pageType": "Product",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/products/triggerpoint-grid-x",
+      "pageType": "Product",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/products/oofos-oolala",
+      "pageType": "Product",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/products/nathan-vaporair-2",
+      "pageType": "Product",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/products/nathan-mirage-pak",
+      "pageType": "Product",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/products/balega-hidden-comfort",
+      "pageType": "Product",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/products/asics-novablast-5/alternatives",
+      "pageType": "Alternatives",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/products/adidas-adizero-boston-12/alternatives",
+      "pageType": "Alternatives",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/products/salomon-adv-skin-12/alternatives",
+      "pageType": "Alternatives",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/products/asics-metaspeed-sky-paris/alternatives",
+      "pageType": "Alternatives",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/products/nike-alphafly-3/alternatives",
+      "pageType": "Alternatives",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/products/hoka-bondi-9/alternatives",
+      "pageType": "Alternatives",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/products/saucony-ride-18/alternatives",
+      "pageType": "Alternatives",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/products/garmin-forerunner-570/alternatives",
+      "pageType": "Alternatives",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/products/polar-verity-sense/alternatives",
+      "pageType": "Alternatives",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/products/garmin-instinct-3/alternatives",
+      "pageType": "Alternatives",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/products/coros-apex-4/alternatives",
+      "pageType": "Alternatives",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/products/suunto-run/alternatives",
+      "pageType": "Alternatives",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/products/apple-watch-series-10/alternatives",
+      "pageType": "Alternatives",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/products/garmin-hrm-200/alternatives",
+      "pageType": "Alternatives",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/products/wahoo-tickr-fit/alternatives",
+      "pageType": "Alternatives",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/brands/brooks",
+      "pageType": "Brand",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/brands/mizuno",
+      "pageType": "Brand",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/brands/apple",
+      "pageType": "Brand",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/brands/camelbak",
+      "pageType": "Brand",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/brands/tracksmith",
+      "pageType": "Brand",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/brands/goodr",
+      "pageType": "Brand",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/brands/buff",
+      "pageType": "Brand",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/brands/soundcore",
+      "pageType": "Brand",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/brands/gu-energy",
+      "pageType": "Brand",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/brands/saltstick",
+      "pageType": "Brand",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/brands/adidas-padel",
+      "pageType": "Brand",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/brands/varlion",
+      "pageType": "Brand",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/brands/tecnifibre",
+      "pageType": "Brand",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/brands/rep-fitness",
+      "pageType": "Brand",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/reviews/saucony-peregrine-15",
+      "pageType": "Review",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/reviews/polar-h10",
+      "pageType": "Review",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/reviews/garmin-hrm-600",
+      "pageType": "Review",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/reviews/polar-verity-sense",
+      "pageType": "Review",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/reviews/scosche-rhythm-plus-2",
+      "pageType": "Review",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/reviews/garmin-fenix-8",
+      "pageType": "Review",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/reviews/coros-apex-4",
+      "pageType": "Review",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/reviews/apple-watch-ultra-3",
+      "pageType": "Review",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/reviews/asics-novablast-6",
+      "pageType": "Review",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/reviews/asics-novablast-5",
+      "pageType": "Review",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/reviews/adidas-adizero-boston-12",
+      "pageType": "Review",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/reviews/brooks-ghost-18",
+      "pageType": "Review",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/reviews/hoka-clifton-10",
+      "pageType": "Review",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/reviews/nike-pegasus-42",
+      "pageType": "Review",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/reviews/brooks-glycerin-22",
+      "pageType": "Review",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/reviews/asics-superblast-2",
+      "pageType": "Review",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/reviews/nike-vomero-18",
+      "pageType": "Review",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/reviews/saucony-endorphin-speed-5",
+      "pageType": "Review",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/reviews/nike-vaporfly-4",
+      "pageType": "Review",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/reviews/asics-gel-kayano-32",
+      "pageType": "Review",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/reviews/hoka-bondi-9",
+      "pageType": "Review",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/reviews/hoka-speedgoat-6",
+      "pageType": "Review",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/reviews/nike-alphafly-3",
+      "pageType": "Review",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/reviews/garmin-forerunner-970",
+      "pageType": "Review",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/reviews/coros-pace-3",
+      "pageType": "Review",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/reviews/brooks-adrenaline-gts-25",
+      "pageType": "Review",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/reviews/garmin-enduro-3",
+      "pageType": "Review",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/reviews/garmin-instinct-3",
+      "pageType": "Review",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/reviews/garmin-vivoactive-6",
+      "pageType": "Review",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/reviews/garmin-forerunner-265s",
+      "pageType": "Review",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/reviews/garmin-epix-pro-gen-2",
+      "pageType": "Review",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/reviews/coros-pace-4",
+      "pageType": "Review",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/reviews/coros-vertix-2s",
+      "pageType": "Review",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/reviews/suunto-vertical-2",
+      "pageType": "Review",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/reviews/suunto-run",
+      "pageType": "Review",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/reviews/polar-grit-x2",
+      "pageType": "Review",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/reviews/polar-pacer",
+      "pageType": "Review",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/reviews/apple-watch-series-10",
+      "pageType": "Review",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/reviews/samsung-galaxy-watch-ultra",
+      "pageType": "Review",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/reviews/amazfit-t-rex-3-pro",
+      "pageType": "Review",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/authors/kitletics-editorial",
+      "pageType": "Author",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/best/running-shoes",
+      "pageType": "Best",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/best/daily-trainers",
+      "pageType": "Best",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/best/running-shoes-long-runs",
+      "pageType": "Best",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/best/max-cushion-running-shoes",
+      "pageType": "Best",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/best/tempo-running-shoes",
+      "pageType": "Best",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/best/race-shoes",
+      "pageType": "Best",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/best/carbon-plated-running-shoes",
+      "pageType": "Best",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/best/marathon-shoes",
+      "pageType": "Best",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/best/stability-running-shoes",
+      "pageType": "Best",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/best/trail-running-shoes",
+      "pageType": "Best",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/best/running-shoes-heavy-runners",
+      "pageType": "Best",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/best/running-shoes-beginners",
+      "pageType": "Best",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/best/running-shoes-wide-feet",
+      "pageType": "Best",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/best/running-watches",
+      "pageType": "Best",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/best/running-watches-beginners",
+      "pageType": "Best",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/best/running-watches-marathon",
+      "pageType": "Best",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/best/running-watches-trail",
+      "pageType": "Best",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/best/running-watches-ultra",
+      "pageType": "Best",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/best/running-watches-budget",
+      "pageType": "Best",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/best/running-watches-music",
+      "pageType": "Best",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/best/running-watches-small-wrists",
+      "pageType": "Best",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/best/heart-rate-monitors-running",
+      "pageType": "Best",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/best/heart-rate-monitors-chest-straps",
+      "pageType": "Best",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/best/heart-rate-monitors-intervals",
+      "pageType": "Best",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/best/running-hydration-vests",
+      "pageType": "Best",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/compare/asics-novablast-6-vs-asics-gel-nimbus-27",
+      "pageType": "Comparison",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/compare/asics-novablast-6-vs-brooks-ghost-18",
+      "pageType": "Comparison",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/compare/asics-novablast-6-vs-hoka-clifton-10",
+      "pageType": "Comparison",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/compare/nike-vaporfly-4-vs-nike-alphafly-3",
+      "pageType": "Comparison",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/compare/hoka-speedgoat-6-vs-saucony-peregrine-15",
+      "pageType": "Comparison",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/compare/garmin-forerunner-970-vs-garmin-forerunner-965",
+      "pageType": "Comparison",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/compare/salomon-adv-skin-12-vs-nathan-vaporair-2",
+      "pageType": "Comparison",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/compare/coros-apex-4-vs-garmin-fenix-8",
+      "pageType": "Comparison",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/compare/apple-watch-ultra-3-vs-apple-watch-ultra-2",
+      "pageType": "Comparison",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/compare/suunto-vertical-2-vs-garmin-enduro-3",
+      "pageType": "Comparison",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/compare/garmin-vivoactive-6-vs-garmin-forerunner-165",
+      "pageType": "Comparison",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/compare/polar-h10-vs-polar-h9",
+      "pageType": "Comparison",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/compare/coros-hrm-vs-polar-verity-sense",
+      "pageType": "Comparison",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/compare/salomon-adv-skin-12-vs-salomon-adv-skin-5",
+      "pageType": "Comparison",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/compare/nathan-vaporair-4-vs-salomon-adv-skin-5",
+      "pageType": "Comparison",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/compare/osprey-duro-lt-vs-ultimate-direction-race-vest-6",
+      "pageType": "Comparison",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/compare/hydrapak-softflask-speed-500-vs-hydrapak-skyflask-speed-500",
+      "pageType": "Comparison",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/compare/camelbak-zephyr-pro-vs-camelbak-apex-pro",
+      "pageType": "Comparison",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/compare/feetures-elite-vs-darn-tough-run",
+      "pageType": "Comparison",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/compare/ultimate-direction-fastpack-20-vs-osprey-talon-velocity-20",
+      "pageType": "Comparison",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/compare/salomon-xa-15-vs-osprey-duro-15",
+      "pageType": "Comparison",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/compare/shokz-openrun-pro-2-vs-airpods-pro-2",
+      "pageType": "Comparison",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/compare/petzl-swift-rl-vs-biolite-headlamp-800",
+      "pageType": "Comparison",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/compare/nathan-streak-vs-proviz-reflect360",
+      "pageType": "Comparison",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/compare/theragun-prime-vs-renpho-r3",
+      "pageType": "Comparison",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/guides/how-to-choose-running-shoes",
+      "pageType": "Guide",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/guides/running-shoe-drop",
+      "pageType": "Guide",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/guides/running-shoe-cushioning",
+      "pageType": "Guide",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/guides/stability-shoes-explained",
+      "pageType": "Guide",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/guides/carbon-vs-nylon-plates",
+      "pageType": "Guide",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/guides/what-is-a-daily-trainer",
+      "pageType": "Guide",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/guides/running-shoe-rotation",
+      "pageType": "Guide",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/guides/running-shoe-terminology",
+      "pageType": "Guide",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/guides/road-vs-trail-running-shoes",
+      "pageType": "Guide",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/guides/how-to-choose-running-watch",
+      "pageType": "Guide",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/guides/multi-band-gps-running-watches",
+      "pageType": "Guide",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/guides/how-to-choose-heart-rate-monitor",
+      "pageType": "Guide",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/guides/how-to-choose-running-hydration-vest",
+      "pageType": "Guide",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/guides/hydration-vest-vs-running-belt",
+      "pageType": "Guide",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/guides/how-to-choose-running-headlamp",
+      "pageType": "Guide",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/guides/open-ear-vs-in-ear-running-headphones",
+      "pageType": "Guide",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/guides/massage-guns-explained",
+      "pageType": "Guide",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/guides/foam-rolling-for-runners",
+      "pageType": "Guide",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/guides/recovery-tools-what-evidence-shows",
+      "pageType": "Guide",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/guides/optical-wrist-hr-vs-chest-strap",
+      "pageType": "Guide",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/guides/running-watch-battery-life-explained",
+      "pageType": "Guide",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/guides/maps-navigation-running-watches",
+      "pageType": "Guide",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/guides/beginner-vs-advanced-running-watch",
+      "pageType": "Guide",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/guides/soft-flasks-vs-bladders-explained",
+      "pageType": "Guide",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/guides/how-to-choose-running-belt",
+      "pageType": "Guide",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/setups/first-marathon-kit",
+      "pageType": "Setup",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/setups/marathon-race-day-kit",
+      "pageType": "Setup",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/setups/beginner-running-setup",
+      "pageType": "Setup",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/setups/half-marathon-kit",
+      "pageType": "Setup",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/setups/trail-running-starter-kit",
+      "pageType": "Setup",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/tools/running-shoe-finder",
+      "pageType": "Finder",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/tools/fitness-watch-finder",
+      "pageType": "Finder",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/tools/running-hydration-finder",
+      "pageType": "Finder",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/tools/running-hrm-finder",
+      "pageType": "Finder",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/tools/running-clothing-finder",
+      "pageType": "Finder",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/tools/running-fuel-finder",
+      "pageType": "Finder",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/tools/running-recovery-finder",
+      "pageType": "Finder",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/tools/running-accessories-finder",
+      "pageType": "Finder",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/tools/running-pace-calculator",
+      "pageType": "Calculator",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/tools/race-time-predictor",
+      "pageType": "Calculator",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    },
+    {
+      "path": "/tools/shoe-rotation-planner",
+      "pageType": "Tool",
+      "status": 0,
+      "classification": "UNKNOWN",
+      "h1s": [],
+      "jsonLdTypes": [],
+      "problems": [
+        "fetch_error:fetch failed"
+      ],
+      "redirectChain": [],
+      "inSitemap": true,
+      "internalLinkCount": 0
+    }
+  ]
+}

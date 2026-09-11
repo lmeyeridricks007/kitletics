@@ -1,0 +1,204 @@
+{
+  "generatedAt": "2026-09-10T18:17:10.058Z",
+  "inventory": {
+    "generatedAt": "2026-09-10T18:16:35.781Z",
+    "offersAll": 1301,
+    "offersActive": 1301,
+    "indexableRunningProducts": 375,
+    "day1RunningActiveOffers": 404,
+    "day1ByRegion": {
+      "NL": 387,
+      "DE": 5,
+      "UK": 9,
+      "US": 3
+    },
+    "overlayRows": 80,
+    "day1AlreadyOverlay": 51,
+    "day1Unvalidated": 353,
+    "inactiveOrExpired": 0
+  },
+  "checked": 404,
+  "byState": {
+    "LIKELY_VALID": 346,
+    "VALID": 48,
+    "UNKNOWN": 10
+  },
+  "byReason": {
+    "method_not_allowed": 327,
+    "dns_or_network": 8,
+    "bot_blocked": 19,
+    "timeout": 2
+  },
+  "byIdentity": {
+    "shallow_url": 398,
+    "match": 5,
+    "unverifiable": 1
+  },
+  "byRegionState": {
+    "NL": {
+      "LIKELY_VALID": 329,
+      "VALID": 48,
+      "UNKNOWN": 10
+    },
+    "DE": {
+      "LIKELY_VALID": 5
+    },
+    "UK": {
+      "LIKELY_VALID": 9
+    },
+    "US": {
+      "LIKELY_VALID": 3
+    }
+  },
+  "invalid": [],
+  "unknown": [
+    {
+      "offerId": "offer-bondi9-nl",
+      "region": "NL",
+      "failureReason": "dns_or_network",
+      "notes": "fetch failed; fetch failed · identity:shallow_url"
+    },
+    {
+      "offerId": "offer-clifton10-nl",
+      "region": "NL",
+      "failureReason": "dns_or_network",
+      "notes": "fetch failed; fetch failed · identity:shallow_url"
+    },
+    {
+      "offerId": "offer-hoka-arahi-7-nl-pricing",
+      "region": "NL",
+      "failureReason": "dns_or_network",
+      "notes": "fetch failed; fetch failed · identity:shallow_url"
+    },
+    {
+      "offerId": "offer-hoka-bondi-8-nl-backfill",
+      "region": "NL",
+      "failureReason": "dns_or_network",
+      "notes": "fetch failed; fetch failed · identity:shallow_url"
+    },
+    {
+      "offerId": "offer-hoka-clifton-pro-nl-backfill",
+      "region": "NL",
+      "failureReason": "dns_or_network",
+      "notes": "fetch failed; fetch failed · identity:shallow_url"
+    },
+    {
+      "offerId": "offer-hoka-gaviota-5-nl-pricing",
+      "region": "NL",
+      "failureReason": "dns_or_network",
+      "notes": "fetch failed; fetch failed · identity:shallow_url"
+    },
+    {
+      "offerId": "offer-hoka-mach-6-nl-backfill",
+      "region": "NL",
+      "failureReason": "dns_or_network",
+      "notes": "fetch failed; fetch failed · identity:shallow_url"
+    },
+    {
+      "offerId": "offer-nb6-nl-rws",
+      "region": "NL",
+      "failureReason": "timeout",
+      "notes": "Request timed out — not treated as dead link · identity:shallow_url"
+    },
+    {
+      "offerId": "offer-speedgoat-nl",
+      "region": "NL",
+      "failureReason": "dns_or_network",
+      "notes": "fetch failed; fetch failed · identity:shallow_url"
+    },
+    {
+      "offerId": "offer-vaporair-nl",
+      "region": "NL",
+      "failureReason": "timeout",
+      "notes": "Request timed out — not treated as dead link · identity:shallow_url"
+    }
+  ],
+  "identityMismatch": [],
+  "goProbe": [
+    {
+      "label": "Amazon NL",
+      "offerId": "offer-pegasus41-nl",
+      "ok": true,
+      "isAffiliate": false,
+      "network": null,
+      "host": "www.amazon.nl",
+      "passthrough": true,
+      "retailerUrlHost": "www.amazon.nl",
+      "destinationIsHttp": true,
+      "inventedTracking": false
+    },
+    {
+      "label": "Amazon DE",
+      "offerId": "offer-nb6-de",
+      "ok": true,
+      "isAffiliate": false,
+      "network": null,
+      "host": "www.amazon.de",
+      "passthrough": true,
+      "retailerUrlHost": "www.amazon.de",
+      "destinationIsHttp": true,
+      "inventedTracking": false
+    },
+    {
+      "label": "Amazon UK",
+      "offerId": "offer-nb5-uk",
+      "ok": true,
+      "isAffiliate": false,
+      "network": null,
+      "host": "www.amazon.co.uk",
+      "passthrough": true,
+      "retailerUrlHost": "www.amazon.co.uk",
+      "destinationIsHttp": true,
+      "inventedTracking": false
+    },
+    {
+      "label": "Decathlon / Awin pending",
+      "offerId": "offer-nb4-nl",
+      "ok": true,
+      "isAffiliate": false,
+      "network": null,
+      "host": "www.decathlon.nl",
+      "passthrough": true,
+      "retailerUrlHost": "www.decathlon.nl",
+      "destinationIsHttp": true,
+      "inventedTracking": false
+    },
+    {
+      "label": "Garmin / Impact pending",
+      "offerId": "offer-fr965-nl",
+      "ok": true,
+      "isAffiliate": false,
+      "network": null,
+      "host": "www.garmin.com",
+      "passthrough": true,
+      "retailerUrlHost": "www.garmin.com",
+      "destinationIsHttp": true,
+      "inventedTracking": false
+    },
+    {
+      "label": "All4Running specialist",
+      "offerId": "offer-vf4-nl-a4r",
+      "ok": true,
+      "isAffiliate": false,
+      "network": null,
+      "host": "www.all4running.nl",
+      "passthrough": true,
+      "retailerUrlHost": "www.all4running.nl",
+      "destinationIsHttp": true,
+      "inventedTracking": false
+    },
+    {
+      "label": "ASICS brand-direct",
+      "offerId": "offer-nb5-nl",
+      "ok": true,
+      "isAffiliate": false,
+      "network": null,
+      "host": "www.asics.com",
+      "passthrough": true,
+      "retailerUrlHost": "www.asics.com",
+      "destinationIsHttp": true,
+      "inventedTracking": false
+    }
+  ],
+  "overlayRowsAfter": 433
+}

@@ -1,0 +1,34 @@
+
+> kitletics@0.1.0 test
+> vitest run
+
+(!) Your Vite config uses features that are unsupported by `configLoader: 'native'`, which is planned to become the default in a future major version of Vite:
+  - ESM syntax in a file loaded as CommonJS (vitest.config.ts:1:1). Use a `.mjs` extension or set `"type": "module"` in the closest package.json
+Set `VITE_CONFIG_NATIVE_IGNORE_WARNING=true` to suppress this warning.
+
+ RUN  v4.1.11 /Users/LMeyeridricks/Documents/coding/kitletics
+
+ ❯ tests/launch-eligibility.test.ts (9 tests | 1 failed) 14458ms
+     × indexes only editorial LAUNCH_READY Best guides (seed, not enrich-inflated) 598ms
+
+⎯⎯⎯⎯⎯⎯⎯ Failed Tests 1 ⎯⎯⎯⎯⎯⎯⎯
+
+ FAIL  tests/launch-eligibility.test.ts > launch eligibility > indexes only editorial LAUNCH_READY Best guides (seed, not enrich-inflated)
+AssertionError: expected 44 to be less than or equal to 12
+ ❯ tests/launch-eligibility.test.ts:37:30
+     35|     expect(indexable.length).toBeGreaterThan(0);
+     36|     // Editorial audit Day-1 bar — do not inflate via normalizeBestGui…
+     37|     expect(indexable.length).toBeLessThanOrEqual(12);
+       |                              ^
+     38|
+     39|     for (const g of indexable) {
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/1]⎯
+
+
+ Test Files  1 failed | 53 passed (54)
+      Tests  1 failed | 553 passed (554)
+   Start at  23:11:25
+   Duration  91.14s (transform 45.08s, setup 0ms, import 96.68s, tests 365.66s, environment 7ms)
+
+TEST_EXIT:1

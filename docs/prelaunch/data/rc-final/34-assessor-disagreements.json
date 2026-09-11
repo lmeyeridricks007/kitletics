@@ -1,0 +1,82 @@
+{
+  "measuredAt": "2026-09-09T07:38:08.108Z",
+  "runningProducts": 367,
+  "note": "vsSnapshot compares live domain assessor to pre-Fix-34 forensic JSON snapshot. Live forensic script now delegates classification to domain SoT.",
+  "domainVsEligibilityMismatches": 0,
+  "domainVsEligibility": [],
+  "historicalSnapshotDisagreements": 5,
+  "byPair": {
+    "LAUNCH_READY vs NEEDS_MINOR_WORK": 5
+  },
+  "disagreements": [
+    {
+      "slug": "new-balance-fuelcell-rebel-v4",
+      "snapshotForensic": "LAUNCH_READY",
+      "snapshotScore": 100,
+      "domain": "NEEDS_MINOR_WORK",
+      "domainScore": 90,
+      "domainReasons": [
+        "decisionScore=90",
+        "missing:whatIsThis"
+      ],
+      "disposition": "PUBLIC_NOINDEX",
+      "softGated": false
+    },
+    {
+      "slug": "buff-original",
+      "snapshotForensic": "LAUNCH_READY",
+      "snapshotScore": 100,
+      "domain": "NEEDS_MINOR_WORK",
+      "domainScore": 100,
+      "domainReasons": [
+        "decisionScore=100",
+        "publish:missing required spec: fit",
+        "soft_gated_category"
+      ],
+      "disposition": "PUBLIC_NOINDEX",
+      "softGated": true
+    },
+    {
+      "slug": "buff-coolnet-uv",
+      "snapshotForensic": "LAUNCH_READY",
+      "snapshotScore": 100,
+      "domain": "NEEDS_MINOR_WORK",
+      "domainScore": 100,
+      "domainReasons": [
+        "decisionScore=100",
+        "publish:missing required spec: fit",
+        "soft_gated_category"
+      ],
+      "disposition": "PUBLIC_NOINDEX",
+      "softGated": true
+    },
+    {
+      "slug": "buff-merino-lightweight",
+      "snapshotForensic": "LAUNCH_READY",
+      "snapshotScore": 100,
+      "domain": "NEEDS_MINOR_WORK",
+      "domainScore": 100,
+      "domainReasons": [
+        "decisionScore=100",
+        "publish:missing required spec: fit",
+        "soft_gated_category"
+      ],
+      "disposition": "PUBLIC_NOINDEX",
+      "softGated": true
+    },
+    {
+      "slug": "buff-polar",
+      "snapshotForensic": "LAUNCH_READY",
+      "snapshotScore": 100,
+      "domain": "NEEDS_MINOR_WORK",
+      "domainScore": 100,
+      "domainReasons": [
+        "decisionScore=100",
+        "publish:missing required spec: fit",
+        "soft_gated_category"
+      ],
+      "disposition": "PUBLIC_NOINDEX",
+      "softGated": true
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "asOf": "2026-09-06T16:50:36.537Z",
+  "sitemapUrlCount": 867,
+  "siteConfigUrl": "https://kitletics.com",
+  "byPageType": {
+    "Alternatives": 74,
+    "Author": 1,
+    "Best": 9,
+    "Brand": 103,
+    "Calculator": 2,
+    "Category": 11,
+    "Comparison": 55,
+    "Finder": 8,
+    "Guide": 34,
+    "Home": 1,
+    "Product": 248,
+    "Review": 285,
+    "Setup": 5,
+    "Sport": 1,
+    "SportDiscipline": 6,
+    "Static": 19,
+    "Subcategory": 4,
+    "Tool": 1
+  },
+  "runningRelatedApprox": 688,
+  "eligibilitySimulation": {
+    "asOf": "2026-09-06",
+    "rows": [
+      {
+        "kind": "product",
+        "published": 623,
+        "INDEXABLE": 248,
+        "PUBLIC_NOINDEX": 119,
+        "HIDDEN_404": 256
+      },
+      {
+        "kind": "review",
+        "published": 503,
+        "INDEXABLE": 285,
+        "PUBLIC_NOINDEX": 0,
+        "HIDDEN_404": 218
+      },
+      {
+        "kind": "best-guide",
+        "published": 58,
+        "INDEXABLE": 9,
+        "PUBLIC_NOINDEX": 30,
+        "HIDDEN_404": 19
+      },
+      {
+        "kind": "buying-guide",
+        "published": 68,
+        "INDEXABLE": 34,
+        "PUBLIC_NOINDEX": 7,
+        "HIDDEN_404": 27
+      },
+      {
+        "kind": "comparison",
+        "published": 102,
+        "INDEXABLE": 55,
+        "PUBLIC_NOINDEX": 14,
+        "HIDDEN_404": 33
+      },
+      {
+        "kind": "setup",
+        "published": 16,
+        "INDEXABLE": 5,
+        "PUBLIC_NOINDEX": 0,
+        "HIDDEN_404": 11
+      },
+      {
+        "kind": "tool",
+        "published": 25,
+        "INDEXABLE": 12,
+        "PUBLIC_NOINDEX": 0,
+        "HIDDEN_404": 13
+      },
+      {
+        "kind": "sport",
+        "published": 10,
+        "INDEXABLE": 1,
+        "PUBLIC_NOINDEX": 8,
+        "HIDDEN_404": 1
+      },
+      {
+        "kind": "brand",
+        "published": 191,
+        "INDEXABLE": 103,
+        "PUBLIC_NOINDEX": 0,
+        "HIDDEN_404": 88
+      }
+    ],
+    "totals": {
+      "published": 1596,
+      "INDEXABLE": 752,
+      "PUBLIC_NOINDEX": 178,
+      "HIDDEN_404": 666
+    }
+  },
+  "gapNote": "Sitemap URL count exceeds entity INDEXABLE totals because sitemap includes static hubs, sport disciplines, categories, use-case listings, and alternatives — entities not all counted in simulateDay1LaunchCounts()."
+}

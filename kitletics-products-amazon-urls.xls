@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <Worksheet ss:Name="Products">
+  <Table>
+<Row><Cell><Data ss:Type="String">id</Data></Cell><Cell><Data ss:Type="String">slug</Data></Cell><Cell><Data ss:Type="String">name</Data></Cell><Cell><Data ss:Type="String">fullName</Data></Cell><Cell><Data ss:Type="String">brand</Data></Cell><Cell><Data ss:Type="String">category</Data></Cell><Cell><Data ss:Type="String">lifecycleStatus</Data></Cell><Cell><Data ss:Type="String">asin</Data></Cell><Cell><Data ss:Type="String">amazonUrl</Data></Cell><Cell><Data ss:Type="String">matchTitle</Data></Cell><Cell><Data ss:Type="String">matchScore</Data></Cell><Cell><Data ss:Type="String">matchStatus</Data></Cell><Cell><Data ss:Type="String">error</Data></Cell></Row>
+<Row><Cell><Data ss:Type="String">prod-adidas-adipower-weightlifting-2</Data></Cell><Cell><Data ss:Type="String">adidas-adipower-weightlifting-2</Data></Cell><Cell><Data ss:Type="String">Adipower Weightlifting 2</Data></Cell><Cell><Data ss:Type="String">adidas Adipower Weightlifting 2</Data></Cell><Cell><Data ss:Type="String">Adidas</Data></Cell><Cell><Data ss:Type="String">Training Shoes</Data></Cell><Cell><Data ss:Type="String">previous-generation</Data></Cell><Cell><Data ss:Type="String"></Data></Cell><Cell><Data ss:Type="String"></Data></Cell><Cell><Data ss:Type="String"></Data></Cell><Cell><Data ss:Type="String"></Data></Cell><Cell><Data ss:Type="String">error</Data></Cell><Cell><Data ss:Type="String">SearchItems 403: {&quot;message&quot;:&quot;Your account does not currently meet the eligibility requirements.&quot;,&quot;reason&quot;:&quot;AssociateNotEligible&quot;,&quot;type&quot;:&quot;AccessDeniedException&quot;}</Data></Cell></Row>
+<Row><Cell><Data ss:Type="String">prod-adidas-adipower-3</Data></Cell><Cell><Data ss:Type="String">adidas-adipower-weightlifting-3</Data></Cell><Cell><Data ss:Type="String">Adipower Weightlifting 3</Data></Cell><Cell><Data ss:Type="String">adidas Adipower Weightlifting 3</Data></Cell><Cell><Data ss:Type="String">Adidas</Data></Cell><Cell><Data ss:Type="String">Training Shoes</Data></Cell><Cell><Data ss:Type="String">current</Data></Cell><Cell><Data ss:Type="String"></Data></Cell><Cell><Data ss:Type="String"></Data></Cell><Cell><Data ss:Type="String"></Data></Cell><Cell><Data ss:Type="String"></Data></Cell><Cell><Data ss:Type="String">error</Data></Cell><Cell><Data ss:Type="String">SearchItems 403: {&quot;message&quot;:&quot;Your account does not currently meet the eligibility requirements.&quot;,&quot;reason&quot;:&quot;AssociateNotEligible&quot;,&quot;type&quot;:&quot;AccessDeniedException&quot;}</Data></Cell></Row>
+  </Table>
+ </Worksheet>
+</Workbook>

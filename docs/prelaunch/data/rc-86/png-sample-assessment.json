@@ -1,0 +1,362 @@
+[
+  {
+    "path": "public/images/fitness/products/powerblock-elite-exp-90/sections/specs.png",
+    "kind": "review_section",
+    "bytes": 1463320,
+    "size": [
+      1000,
+      1000
+    ],
+    "mode": "RGB",
+    "has_alpha": false,
+    "format_hint": "keep_png_if_alpha_else_jpeg_candidate"
+  },
+  {
+    "path": "public/images/fitness/products/powerblock-elite-exp-90/sections/overview.png",
+    "kind": "review_section",
+    "bytes": 1186899,
+    "size": [
+      1000,
+      1000
+    ],
+    "mode": "RGB",
+    "has_alpha": false,
+    "format_hint": "keep_png_if_alpha_else_jpeg_candidate"
+  },
+  {
+    "path": "public/images/fitness/products/powerblock-elite-exp-90/sections/usecase.png",
+    "kind": "review_section",
+    "bytes": 1156084,
+    "size": [
+      1000,
+      1000
+    ],
+    "mode": "RGB",
+    "has_alpha": false,
+    "format_hint": "keep_png_if_alpha_else_jpeg_candidate"
+  },
+  {
+    "path": "public/images/fitness/products/powerblock-elite-exp-90/sections/fit.png",
+    "kind": "review_section",
+    "bytes": 1396127,
+    "size": [
+      1000,
+      1000
+    ],
+    "mode": "RGB",
+    "has_alpha": false,
+    "format_hint": "keep_png_if_alpha_else_jpeg_candidate"
+  },
+  {
+    "path": "public/images/fitness/products/powerblock-elite-exp-90/sections/value.png",
+    "kind": "review_section",
+    "bytes": 1519255,
+    "size": [
+      1000,
+      1000
+    ],
+    "mode": "RGB",
+    "has_alpha": false,
+    "format_hint": "keep_png_if_alpha_else_jpeg_candidate"
+  },
+  {
+    "path": "public/images/fitness/products/powerblock-elite-exp-90/sections/performance.png",
+    "kind": "review_section",
+    "bytes": 1243295,
+    "size": [
+      1000,
+      1000
+    ],
+    "mode": "RGB",
+    "has_alpha": false,
+    "format_hint": "keep_png_if_alpha_else_jpeg_candidate"
+  },
+  {
+    "path": "public/images/fitness/products/mirafit-m3-power-rack/sections/specs.png",
+    "kind": "review_section",
+    "bytes": 1508437,
+    "size": [
+      1000,
+      1000
+    ],
+    "mode": "RGB",
+    "has_alpha": false,
+    "format_hint": "keep_png_if_alpha_else_jpeg_candidate"
+  },
+  {
+    "path": "public/images/fitness/products/mirafit-m3-power-rack/sections/overview.png",
+    "kind": "review_section",
+    "bytes": 1557956,
+    "size": [
+      1000,
+      1000
+    ],
+    "mode": "RGB",
+    "has_alpha": false,
+    "format_hint": "keep_png_if_alpha_else_jpeg_candidate"
+  },
+  {
+    "path": "public/images/fitness/products/mirafit-m3-power-rack/sections/usecase.png",
+    "kind": "review_section",
+    "bytes": 1555432,
+    "size": [
+      1000,
+      1000
+    ],
+    "mode": "RGB",
+    "has_alpha": false,
+    "format_hint": "keep_png_if_alpha_else_jpeg_candidate"
+  },
+  {
+    "path": "public/images/fitness/products/mirafit-m3-power-rack/sections/fit.png",
+    "kind": "review_section",
+    "bytes": 1360893,
+    "size": [
+      1000,
+      1000
+    ],
+    "mode": "RGB",
+    "has_alpha": false,
+    "format_hint": "keep_png_if_alpha_else_jpeg_candidate"
+  },
+  {
+    "path": "public/images/fitness/products/mirafit-m3-power-rack/sections/value.png",
+    "kind": "review_section",
+    "bytes": 1341822,
+    "size": [
+      1000,
+      1000
+    ],
+    "mode": "RGB",
+    "has_alpha": false,
+    "format_hint": "keep_png_if_alpha_else_jpeg_candidate"
+  },
+  {
+    "path": "public/images/fitness/products/mirafit-m3-power-rack/sections/performance.png",
+    "kind": "review_section",
+    "bytes": 1540910,
+    "size": [
+      1000,
+      1000
+    ],
+    "mode": "RGB",
+    "has_alpha": false,
+    "format_hint": "keep_png_if_alpha_else_jpeg_candidate"
+  },
+  {
+    "path": "public/images/fitness/products/mirafit-battle-rope/sections/specs.png",
+    "kind": "review_section",
+    "bytes": 2401714,
+    "size": [
+      1000,
+      1000
+    ],
+    "mode": "RGB",
+    "has_alpha": false,
+    "format_hint": "keep_png_if_alpha_else_jpeg_candidate"
+  },
+  {
+    "path": "public/images/fitness/products/mirafit-battle-rope/sections/durability.png",
+    "kind": "review_section",
+    "bytes": 1278093,
+    "size": [
+      1000,
+      1000
+    ],
+    "mode": "RGB",
+    "has_alpha": false,
+    "format_hint": "keep_png_if_alpha_else_jpeg_candidate"
+  },
+  {
+    "path": "public/images/fitness/products/mirafit-battle-rope/sections/overview.png",
+    "kind": "review_section",
+    "bytes": 2000807,
+    "size": [
+      1000,
+      1000
+    ],
+    "mode": "RGB",
+    "has_alpha": false,
+    "format_hint": "keep_png_if_alpha_else_jpeg_candidate"
+  },
+  {
+    "path": "public/images/fitness/products/mirafit-battle-rope/sections/usecase.png",
+    "kind": "review_section",
+    "bytes": 1970180,
+    "size": [
+      1000,
+      1000
+    ],
+    "mode": "RGB",
+    "has_alpha": false,
+    "format_hint": "keep_png_if_alpha_else_jpeg_candidate"
+  },
+  {
+    "path": "public/images/fitness/products/mirafit-battle-rope/sections/fit.png",
+    "kind": "review_section",
+    "bytes": 2305318,
+    "size": [
+      1000,
+      1000
+    ],
+    "mode": "RGB",
+    "has_alpha": false,
+    "format_hint": "keep_png_if_alpha_else_jpeg_candidate"
+  },
+  {
+    "path": "public/images/fitness/products/mirafit-battle-rope/sections/value.png",
+    "kind": "review_section",
+    "bytes": 2382477,
+    "size": [
+      1000,
+      1000
+    ],
+    "mode": "RGB",
+    "has_alpha": false,
+    "format_hint": "keep_png_if_alpha_else_jpeg_candidate"
+  },
+  {
+    "path": "public/images/fitness/products/mirafit-battle-rope/sections/tradeoffs.png",
+    "kind": "review_section",
+    "bytes": 1249609,
+    "size": [
+      1000,
+      1000
+    ],
+    "mode": "RGB",
+    "has_alpha": false,
+    "format_hint": "keep_png_if_alpha_else_jpeg_candidate"
+  },
+  {
+    "path": "public/images/fitness/products/mirafit-battle-rope/sections/strengths.png",
+    "kind": "review_section",
+    "bytes": 1189561,
+    "size": [
+      1000,
+      1000
+    ],
+    "mode": "RGB",
+    "has_alpha": false,
+    "format_hint": "keep_png_if_alpha_else_jpeg_candidate"
+  },
+  {
+    "path": "public/images/home/hero-gear-composite.png",
+    "kind": "product_hero",
+    "bytes": 2083922,
+    "size": [
+      1536,
+      1024
+    ],
+    "mode": "RGB",
+    "has_alpha": false,
+    "format_hint": "keep_png_if_alpha_else_jpeg_candidate"
+  },
+  {
+    "path": "public/images/padel/hero.jpg",
+    "kind": "product_hero",
+    "bytes": 1974888,
+    "size": [
+      1536,
+      1024
+    ],
+    "mode": "RGB",
+    "has_alpha": false,
+    "format_hint": "keep_png_if_alpha_else_jpeg_candidate"
+  },
+  {
+    "path": "public/images/tennis/products/wilson-rush-pro-ace-hero.jpg",
+    "kind": "product_hero",
+    "bytes": 1135711,
+    "size": [
+      3000,
+      2000
+    ],
+    "mode": "RGB",
+    "has_alpha": false,
+    "format_hint": "keep_png_if_alpha_else_jpeg_candidate"
+  },
+  {
+    "path": "public/images/tennis/products/nike-court-vapor-pro-3-hero.jpg",
+    "kind": "product_hero",
+    "bytes": 1153152,
+    "size": [
+      3000,
+      2000
+    ],
+    "mode": "RGB",
+    "has_alpha": false,
+    "format_hint": "keep_png_if_alpha_else_jpeg_candidate"
+  },
+  {
+    "path": "public/images/tennis/products/adidas-barricade-13-hero.jpg",
+    "kind": "product_hero",
+    "bytes": 1462663,
+    "size": [
+      3000,
+      2000
+    ],
+    "mode": "RGB",
+    "has_alpha": false,
+    "format_hint": "keep_png_if_alpha_else_jpeg_candidate"
+  },
+  {
+    "path": "public/images/tennis/products/k-swiss-ultrashot-3-hero.jpg",
+    "kind": "product_hero",
+    "bytes": 1204158,
+    "size": [
+      3000,
+      2000
+    ],
+    "mode": "RGB",
+    "has_alpha": false,
+    "format_hint": "keep_png_if_alpha_else_jpeg_candidate"
+  },
+  {
+    "path": "public/images/hrm/products/coros-heart-rate-monitor-hero.png",
+    "kind": "product_hero",
+    "bytes": 2535631,
+    "size": [
+      2400,
+      2400
+    ],
+    "mode": "RGBA",
+    "has_alpha": true,
+    "format_hint": "png_ok_transparency"
+  },
+  {
+    "path": "public/images/headphones/products/soundcore-aerofit-2-hero.png",
+    "kind": "product_hero",
+    "bytes": 1133808,
+    "size": [
+      1600,
+      1600
+    ],
+    "mode": "RGBA",
+    "has_alpha": true,
+    "format_hint": "png_ok_transparency"
+  },
+  {
+    "path": "public/images/training/products/reebok-nano-court-hero.jpg",
+    "kind": "product_hero",
+    "bytes": 1144047,
+    "size": [
+      3000,
+      2000
+    ],
+    "mode": "RGB",
+    "has_alpha": false,
+    "format_hint": "keep_png_if_alpha_else_jpeg_candidate"
+  },
+  {
+    "path": "public/images/watches/products/amazfit-active-2-hero.png",
+    "kind": "product_hero",
+    "bytes": 1277945,
+    "size": [
+      1800,
+      1800
+    ],
+    "mode": "RGB",
+    "has_alpha": false,
+    "format_hint": "keep_png_if_alpha_else_jpeg_candidate"
+  }
+]

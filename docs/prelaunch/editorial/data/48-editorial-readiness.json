@@ -1,0 +1,49 @@
+{
+  "generatedAt": "2026-09-09T21:18:57.986Z",
+  "policy": {
+    "editorialReadyRequires": [
+      "quality",
+      "uniqueness",
+      "evidenceSafety",
+      "intentUniqueness",
+      "relationships",
+      "references"
+    ],
+    "readyNeIndexable": true,
+    "noAbsoluteUrlCeilings": true
+  },
+  "byKind": {
+    "review": {
+      "total": 585,
+      "ready": 113,
+      "indexable": 96,
+      "indexableNotReady": 0,
+      "indexableNotReadySample": []
+    },
+    "best-guide": {
+      "total": 58,
+      "ready": 58,
+      "indexable": 44,
+      "indexableNotReady": 0,
+      "indexableNotReadySample": []
+    },
+    "buying-guide": {
+      "total": 68,
+      "ready": 62,
+      "indexable": 35,
+      "indexableNotReady": 0,
+      "indexableNotReadySample": []
+    },
+    "comparison": {
+      "total": 94,
+      "ready": 94,
+      "indexable": 65,
+      "indexableNotReady": 0,
+      "indexableNotReadySample": []
+    }
+  },
+  "invariant": {
+    "indexableSubsetOfReady": true
+  },
+  "products": 623
+}

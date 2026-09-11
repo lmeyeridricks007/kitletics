@@ -1,0 +1,142 @@
+{
+  "generatedAt": "2026-09-06T16:25:26.788Z",
+  "baseUrl": "http://127.0.0.1:3010",
+  "routes": 11,
+  "overflowRoutes": [],
+  "routesWithSeriousCritical": 0,
+  "totalSeriousCritical": 0,
+  "results": [
+    {
+      "path": "/",
+      "status": 200,
+      "overflow390": {
+        "docOverflowX": false,
+        "bodyOverflowX": false,
+        "scrollWidth": 390,
+        "clientWidth": 390
+      },
+      "axeSeriousOrCritical": 0,
+      "violations": []
+    },
+    {
+      "path": "/running",
+      "status": 200,
+      "overflow390": {
+        "docOverflowX": false,
+        "bodyOverflowX": true,
+        "scrollWidth": 452,
+        "clientWidth": 390
+      },
+      "axeSeriousOrCritical": 0,
+      "violations": []
+    },
+    {
+      "path": "/running/shoes",
+      "status": 200,
+      "overflow390": {
+        "docOverflowX": false,
+        "bodyOverflowX": false,
+        "scrollWidth": 390,
+        "clientWidth": 390
+      },
+      "axeSeriousOrCritical": 0,
+      "violations": []
+    },
+    {
+      "path": "/products/nike-vomero-18",
+      "status": 200,
+      "overflow390": {
+        "docOverflowX": false,
+        "bodyOverflowX": false,
+        "scrollWidth": 390,
+        "clientWidth": 390
+      },
+      "axeSeriousOrCritical": 0,
+      "violations": []
+    },
+    {
+      "path": "/reviews/nike-vomero-18",
+      "status": 200,
+      "overflow390": {
+        "docOverflowX": false,
+        "bodyOverflowX": false,
+        "scrollWidth": 390,
+        "clientWidth": 390
+      },
+      "axeSeriousOrCritical": 0,
+      "violations": []
+    },
+    {
+      "path": "/best/running-shoes",
+      "status": 200,
+      "overflow390": {
+        "docOverflowX": false,
+        "bodyOverflowX": false,
+        "scrollWidth": 390,
+        "clientWidth": 390
+      },
+      "axeSeriousOrCritical": 0,
+      "violations": []
+    },
+    {
+      "path": "/guides/how-to-choose-running-shoes",
+      "status": 200,
+      "overflow390": {
+        "docOverflowX": false,
+        "bodyOverflowX": false,
+        "scrollWidth": 390,
+        "clientWidth": 390
+      },
+      "axeSeriousOrCritical": 0,
+      "violations": []
+    },
+    {
+      "path": "/brands/nike",
+      "status": 200,
+      "overflow390": {
+        "docOverflowX": false,
+        "bodyOverflowX": false,
+        "scrollWidth": 390,
+        "clientWidth": 390
+      },
+      "axeSeriousOrCritical": 0,
+      "violations": []
+    },
+    {
+      "path": "/compare",
+      "status": 200,
+      "overflow390": {
+        "docOverflowX": false,
+        "bodyOverflowX": false,
+        "scrollWidth": 390,
+        "clientWidth": 390
+      },
+      "axeSeriousOrCritical": 0,
+      "violations": []
+    },
+    {
+      "path": "/tools/running-shoe-finder",
+      "status": 200,
+      "overflow390": {
+        "docOverflowX": false,
+        "bodyOverflowX": false,
+        "scrollWidth": 390,
+        "clientWidth": 390
+      },
+      "axeSeriousOrCritical": 0,
+      "violations": []
+    },
+    {
+      "path": "/search?q=vomero",
+      "status": 200,
+      "overflow390": {
+        "docOverflowX": false,
+        "bodyOverflowX": false,
+        "scrollWidth": 390,
+        "clientWidth": 390
+      },
+      "axeSeriousOrCritical": 0,
+      "violations": []
+    }
+  ]
+}

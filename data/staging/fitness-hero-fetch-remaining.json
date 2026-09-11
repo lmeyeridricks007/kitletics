@@ -1,0 +1,143 @@
+{
+  "fetched": [
+    {
+      "productId": "prod-hydrow-wave",
+      "slug": "hydrow-wave",
+      "src": "/images/fitness/products/hydrow-wave-hero.jpg",
+      "sourceUrl": "https://www.bestbuy.com/site/hydrow-wave-rowing-machine-black/6508018.p?skuId=6508018",
+      "source": "Best Buy authorized retailer CDN (Hydrow Wave Black packshot)",
+      "licence": "retailer-authorized",
+      "remote": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/dd07541a-15db-4b6f-ab1e-c0c32cccab94.jpg"
+    },
+    {
+      "productId": "prod-mirafit-battle-rope",
+      "slug": "mirafit-battle-rope",
+      "src": "/images/fitness/products/mirafit-battle-rope-hero.jpg",
+      "sourceUrl": "https://mirafit.co.uk/mirafit-38mm-black-orange-battle-rope-9-12-15m.html",
+      "source": "Mirafit imagely CDN (38mm black/orange battle rope packshot)",
+      "licence": "manufacturer-marketing",
+      "remote": "https://imagely.mirafit.co.uk/media/catalog/product/l/e/le-Rope-on-White-Background463853_1.jpg"
+    },
+    {
+      "productId": "prod-mirafit-kb",
+      "slug": "mirafit-cast-iron-kettlebell",
+      "src": "/images/fitness/products/mirafit-cast-iron-kettlebell-hero.jpg",
+      "sourceUrl": "https://mirafit.co.uk/mirafit-cast-iron-kettlebell-choice-of-weight.html",
+      "source": "Mirafit imagely CDN (Cast Iron 24kg kettlebell packshot)",
+      "licence": "manufacturer-marketing",
+      "remote": "https://imagely.mirafit.co.uk/media/catalog/product/M/i/Mirafit-Cast-Iron-24kg-Kettlebell.jpg"
+    },
+    {
+      "productId": "prod-mirafit-folding-rower",
+      "slug": "mirafit-folding-rower",
+      "src": "/images/fitness/products/mirafit-folding-rower-hero.jpg",
+      "sourceUrl": "https://mirafit.co.uk/mirafit-rowing-machine.html",
+      "source": "Mirafit imagely CDN (Rowing Machine upright/storage angle — folding use case)",
+      "licence": "manufacturer-marketing",
+      "remote": "https://imagely.mirafit.co.uk/media/catalog/product/S/t/Storing-Mirafit-Rowing-Machine-Upright.jpg"
+    },
+    {
+      "productId": "prod-mirafit-rower",
+      "slug": "mirafit-magnetic-rower",
+      "src": "/images/fitness/products/mirafit-magnetic-rower-hero.jpg",
+      "sourceUrl": "https://mirafit.co.uk/mirafit-rowing-machine.html",
+      "source": "Mirafit imagely CDN (current Mirafit Rowing Machine packshot; magnetic SKU discontinued)",
+      "licence": "manufacturer-marketing",
+      "remote": "https://imagely.mirafit.co.uk/media/catalog/product/M/i/Mirafit-Rowing-Machine.jpg"
+    },
+    {
+      "productId": "prod-mirafit-flooring",
+      "slug": "mirafit-gym-mats",
+      "src": "/images/fitness/products/mirafit-gym-mats-hero.jpg",
+      "sourceUrl": "https://mirafit.co.uk/mirafit-interlocking-floor-mats.html",
+      "source": "Mirafit imagely CDN (Interlocking Floor Mats set of 4)",
+      "licence": "manufacturer-marketing",
+      "remote": "https://imagely.mirafit.co.uk/media/catalog/product/M/i/Mirafit-Interlocking-Floor-Mats-Set-of-4.jpg"
+    },
+    {
+      "productId": "prod-mirafit-olympic-bar",
+      "slug": "mirafit-olympic-barbell",
+      "src": "/images/fitness/products/mirafit-olympic-barbell-hero.jpg",
+      "sourceUrl": "https://mirafit.co.uk/weights-and-bars.html",
+      "source": "Mirafit imagely CDN (M2 20kg Olympic Barbell — current Olympic bar line)",
+      "licence": "manufacturer-marketing",
+      "remote": "https://imagely.mirafit.co.uk/media/catalog/product/M/i/Mirafit-M2-20kg-Olympic-Barbell.jpg"
+    },
+    {
+      "productId": "prod-mirafit-pullup",
+      "slug": "mirafit-wall-pull-up-bar",
+      "src": "/images/fitness/products/mirafit-wall-pull-up-bar-hero.jpg",
+      "sourceUrl": "https://mirafit.co.uk/mirafit-wall-mounted-pull-up-bar.html",
+      "source": "Mirafit imagely CDN (M3 wall-mounted pull-up bar front packshot)",
+      "licence": "manufacturer-marketing",
+      "remote": "https://imagely.mirafit.co.uk/media/catalog/product/B/l/Black-M3-Mirafit-Wall-Mounted-Pull-Up-Bar-Front.jpg"
+    },
+    {
+      "productId": "prod-mirafit-vest",
+      "slug": "mirafit-weighted-vest",
+      "src": "/images/fitness/products/mirafit-weighted-vest-hero.jpg",
+      "sourceUrl": "https://mirafit.co.uk/mirafit-adjustable-weighted-vest.html",
+      "source": "Mirafit imagely CDN (20kg adjustable weighted vest packshot)",
+      "licence": "manufacturer-marketing",
+      "remote": "https://imagely.mirafit.co.uk/media/catalog/product/2/0/20Kg-Mirafit-Weighted-Vest_1.jpg"
+    },
+    {
+      "productId": "prod-rogue-echo-kb",
+      "slug": "rogue-echo-kettlebell",
+      "src": "/images/fitness/products/rogue-echo-kettlebell-hero.jpg",
+      "sourceUrl": "https://www.roguefitness.com/rogue-competition-kettlebells",
+      "source": "Rogue Fitness CDN (Competition Kettlebell — current competition-window line replacing discontinued Echo KB)",
+      "licence": "manufacturer-marketing",
+      "remote": "https://assets.roguefitness.com/f_auto,q_auto,c_limit,w_1600,b_rgb:ffffff/v1/catalog/Conditioning/Strength%20Equipment/Kettlebells/IP0631/IP0631-H_if6pi3.png"
+    },
+    {
+      "productId": "prod-rogue-flooring",
+      "slug": "rogue-flogging-horse-stall-mat-note",
+      "src": "/images/fitness/products/rogue-flogging-horse-stall-mat-note-hero.jpg",
+      "sourceUrl": "https://www.roguefitness.com/rogue-gym-mat-25-piece-bundle-black",
+      "source": "Rogue Fitness CDN (Gym Mats / stall-mat style flooring)",
+      "licence": "manufacturer-marketing",
+      "remote": "https://assets.roguefitness.com/f_auto,q_auto,c_limit,w_1600,b_rgb:ffffff/v1/catalog/Gear%20and%20Accessories/Gym%20Essentials%20/Flooring%20and%20Rubber/HM0001/HM0001-web1_sacppd.png"
+    },
+    {
+      "productId": "prod-rogue-pullup-bar",
+      "slug": "rogue-monster-lite-pull-up-bar",
+      "src": "/images/fitness/products/rogue-monster-lite-pull-up-bar-hero.jpg",
+      "sourceUrl": "https://www.roguefitness.com/rogue-monster-lite-socket-pull-up-bar",
+      "source": "Rogue Fitness CDN (Monster Lite Socket Pull-Up Bar)",
+      "licence": "manufacturer-marketing",
+      "remote": "https://assets.roguefitness.com/f_auto,q_auto,c_limit,w_1600,b_rgb:ffffff/v1/catalog/Rigs%20and%20Racks/Rig%20and%20Rack%20Accessories/Monster%20Lite%20Accessories/MLSOCKET/MLSOCKET-Black-Smooth-H_f8mqsr.png"
+    },
+    {
+      "productId": "prod-schwinn-airdyne-ad8",
+      "slug": "schwinn-airdyne-ad8",
+      "src": "/images/fitness/products/schwinn-airdyne-ad8-hero.jpg",
+      "sourceUrl": "https://global.schwinnfitness.com/products/schwinn-airdyne-ad8",
+      "source": "Schwinn Global Shopify CDN (Airdyne AD8 packshot)",
+      "licence": "manufacturer-marketing",
+      "remote": "https://cdn.shopify.com/s/files/1/0740/3503/6249/files/Schwinn_Airdyne_AD8_2000x2000_4712f52b-a1b0-4b4e-9dad-524073b5bc52.png?v=1784744341"
+    },
+    {
+      "productId": "prod-waterrower-a1",
+      "slug": "waterrower-a1",
+      "src": "/images/fitness/products/waterrower-a1-hero.jpg",
+      "sourceUrl": "https://www.elitefitness.com.au/products/waterrower-a1-home",
+      "source": "Elite Fitness authorized retailer Shopify CDN (WaterRower A1 Home)",
+      "licence": "retailer-authorized",
+      "remote": "https://cdn.shopify.com/s/files/1/0639/3508/6851/products/Waterrower-A1-Home-1.jpg?v=1650186756"
+    }
+  ],
+  "skipped": [
+    {
+      "slug": "mirafit-folding-treadmill",
+      "productId": "prod-mirafit-treadmill",
+      "reason": "No verified Mirafit folding-treadmill packshot; imagely/mirafit media return logo placeholders; BH Nyman is wrong brand"
+    }
+  ],
+  "counts": {
+    "fetched": 14,
+    "skipped": 1,
+    "total": 15
+  },
+  "generatedAt": "2026-09-05T09:37:00.486Z"
+}

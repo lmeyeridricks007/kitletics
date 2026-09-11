@@ -1,0 +1,532 @@
+{
+  "published": 622,
+  "authentic": 622,
+  "drafts": 91,
+  "remaining": [
+    {
+      "category": "Recovery",
+      "n": 16
+    },
+    {
+      "category": "Running Clothing",
+      "n": 16
+    },
+    {
+      "category": "Safety Gear",
+      "n": 8
+    },
+    {
+      "category": "Running Packs & Vests",
+      "n": 7
+    },
+    {
+      "category": "Running Lights",
+      "n": 7
+    },
+    {
+      "category": "Headphones",
+      "n": 6
+    },
+    {
+      "category": "Accessories",
+      "n": 5
+    },
+    {
+      "category": "Squash Rackets",
+      "n": 5
+    },
+    {
+      "category": "Running Socks",
+      "n": 4
+    },
+    {
+      "category": "Padel Shoes",
+      "n": 4
+    },
+    {
+      "category": "Pickleball Paddles",
+      "n": 3
+    },
+    {
+      "category": "Tennis Shoes",
+      "n": 3
+    },
+    {
+      "category": "Hydration",
+      "n": 2
+    },
+    {
+      "category": "Nutrition & Fuel",
+      "n": 2
+    },
+    {
+      "category": "Running Shoes",
+      "n": 1
+    },
+    {
+      "category": "Padel Bags",
+      "n": 1
+    },
+    {
+      "category": "Badminton Rackets",
+      "n": 1
+    }
+  ],
+  "remainingIds": [
+    {
+      "id": "prod-draft-example",
+      "slug": "example-unpublished-trainer",
+      "categoryId": "cat-running-shoes"
+    },
+    {
+      "id": "prod-patagonia-slope-runner",
+      "slug": "patagonia-slope-runner-vest",
+      "categoryId": "cat-packs-vests"
+    },
+    {
+      "id": "prod-raidlight-responsiv-12",
+      "slug": "raidlight-responsiv-12",
+      "categoryId": "cat-packs-vests"
+    },
+    {
+      "id": "prod-kiprun-trail-10",
+      "slug": "kiprun-trail-10",
+      "categoryId": "cat-packs-vests"
+    },
+    {
+      "id": "prod-hydrapak-shape-shift-15",
+      "slug": "hydrapak-shape-shift-15",
+      "categoryId": "cat-hydration"
+    },
+    {
+      "id": "prod-nathan-quickdraw-plus",
+      "slug": "nathan-quickdraw-plus-handheld",
+      "categoryId": "cat-hydration"
+    },
+    {
+      "id": "prod-bombas-performance-running-quarter",
+      "slug": "bombas-performance-running-quarter",
+      "categoryId": "cat-running-socks"
+    },
+    {
+      "id": "prod-hilly-marathon-fresh",
+      "slug": "hilly-marathon-fresh",
+      "categoryId": "cat-running-socks"
+    },
+    {
+      "id": "prod-sockwell-compression-light",
+      "slug": "sockwell-compression-light-cushion",
+      "categoryId": "cat-running-socks"
+    },
+    {
+      "id": "prod-camelbak-octane-22",
+      "slug": "camelbak-octane-22",
+      "categoryId": "cat-packs-vests"
+    },
+    {
+      "id": "prod-salomon-trailblazer-20",
+      "slug": "salomon-trailblazer-20",
+      "categoryId": "cat-packs-vests"
+    },
+    {
+      "id": "prod-leki-trail-running-quiver",
+      "slug": "leki-trail-running-quiver",
+      "categoryId": "cat-packs-vests"
+    },
+    {
+      "id": "prod-salomon-soft-flask-stash",
+      "slug": "salomon-soft-flask-stash",
+      "categoryId": "cat-packs-vests"
+    },
+    {
+      "id": "prod-sony-linkbuds-open",
+      "slug": "sony-linkbuds-open",
+      "categoryId": "cat-headphones"
+    },
+    {
+      "id": "prod-sony-linkbuds-fit",
+      "slug": "sony-linkbuds-fit",
+      "categoryId": "cat-headphones"
+    },
+    {
+      "id": "prod-jabra-elite-8-active",
+      "slug": "jabra-elite-8-active",
+      "categoryId": "cat-headphones"
+    },
+    {
+      "id": "prod-jabra-elite-10",
+      "slug": "jabra-elite-10",
+      "categoryId": "cat-headphones"
+    },
+    {
+      "id": "prod-beats-powerbeats-pro-2",
+      "slug": "beats-powerbeats-pro-2",
+      "categoryId": "cat-headphones"
+    },
+    {
+      "id": "prod-huawei-freeclip",
+      "slug": "huawei-freeclip",
+      "categoryId": "cat-headphones"
+    },
+    {
+      "id": "prod-petzl-iko-core",
+      "slug": "petzl-iko-core",
+      "categoryId": "cat-running-lights"
+    },
+    {
+      "id": "prod-bd-storm-500-r",
+      "slug": "black-diamond-storm-500-r",
+      "categoryId": "cat-running-lights"
+    },
+    {
+      "id": "prod-silva-smini",
+      "slug": "silva-smini",
+      "categoryId": "cat-running-lights"
+    },
+    {
+      "id": "prod-ledlenser-neo5r",
+      "slug": "ledlenser-neo5r",
+      "categoryId": "cat-running-lights"
+    },
+    {
+      "id": "prod-fenix-hm65r-t",
+      "slug": "fenix-hm65r-t",
+      "categoryId": "cat-running-lights"
+    },
+    {
+      "id": "prod-biolite-headlamp-425",
+      "slug": "biolite-headlamp-425",
+      "categoryId": "cat-running-lights"
+    },
+    {
+      "id": "prod-nitecore-nu25",
+      "slug": "nitecore-nu25-ul",
+      "categoryId": "cat-running-lights"
+    },
+    {
+      "id": "prod-knog-frog-v3",
+      "slug": "knog-frog-v3",
+      "categoryId": "cat-safety"
+    },
+    {
+      "id": "prod-knog-cobber-mid",
+      "slug": "knog-cobber-mid",
+      "categoryId": "cat-safety"
+    },
+    {
+      "id": "prod-nightrunner-270",
+      "slug": "night-runner-270",
+      "categoryId": "cat-safety"
+    },
+    {
+      "id": "prod-nathan-strobe",
+      "slug": "nathan-lux-strobe-rx",
+      "categoryId": "cat-safety"
+    },
+    {
+      "id": "prod-road-id-wrist",
+      "slug": "road-id-wrist-id",
+      "categoryId": "cat-safety"
+    },
+    {
+      "id": "prod-shes-birdie-alarm",
+      "slug": "shes-birdie-personal-alarm",
+      "categoryId": "cat-safety"
+    },
+    {
+      "id": "prod-flipbelt-zippered-reflective",
+      "slug": "flipbelt-zipper-reflective",
+      "categoryId": "cat-safety"
+    },
+    {
+      "id": "prod-saltstick-fastchews",
+      "slug": "saltstick-fastchews",
+      "categoryId": "cat-nutrition"
+    },
+    {
+      "id": "prod-saltstick-caps",
+      "slug": "saltstick-caps",
+      "categoryId": "cat-nutrition"
+    },
+    {
+      "id": "prod-theragun-relief",
+      "slug": "therabody-theragun-relief",
+      "categoryId": "cat-recovery-gear"
+    },
+    {
+      "id": "prod-renpho-r3",
+      "slug": "renpho-r3",
+      "categoryId": "cat-recovery-gear"
+    },
+    {
+      "id": "prod-opove-m3-pro",
+      "slug": "opove-m3-pro",
+      "categoryId": "cat-recovery-gear"
+    },
+    {
+      "id": "prod-timtam-power-massager-v3.7",
+      "slug": "timtam-power-massager-v3-7",
+      "categoryId": "cat-recovery-gear"
+    },
+    {
+      "id": "prod-rumbleroller-original",
+      "slug": "rumbleroller-original",
+      "categoryId": "cat-recovery-gear"
+    },
+    {
+      "id": "prod-triggerpoint-mb1",
+      "slug": "triggerpoint-mb1",
+      "categoryId": "cat-recovery-gear"
+    },
+    {
+      "id": "prod-triggerpoint-mbx",
+      "slug": "triggerpoint-mbx",
+      "categoryId": "cat-recovery-gear"
+    },
+    {
+      "id": "prod-rad-atom",
+      "slug": "rad-atom",
+      "categoryId": "cat-recovery-gear"
+    },
+    {
+      "id": "prod-therabody-recoveryair",
+      "slug": "therabody-recoveryair",
+      "categoryId": "cat-recovery-gear"
+    },
+    {
+      "id": "prod-oofos-oocandoo",
+      "slug": "oofos-oocandoo",
+      "categoryId": "cat-recovery-gear"
+    },
+    {
+      "id": "prod-hoka-ora-recovery-slide",
+      "slug": "hoka-ora-recovery-slide",
+      "categoryId": "cat-recovery-gear"
+    },
+    {
+      "id": "prod-compressport-r2",
+      "slug": "compressport-r2",
+      "categoryId": "cat-recovery-gear"
+    },
+    {
+      "id": "prod-2xu-refresh-recovery",
+      "slug": "2xu-refresh-recovery-tights",
+      "categoryId": "cat-recovery-gear"
+    },
+    {
+      "id": "prod-the-stick",
+      "slug": "the-stick",
+      "categoryId": "cat-recovery-gear"
+    },
+    {
+      "id": "prod-triggerpoint-stp",
+      "slug": "triggerpoint-stp",
+      "categoryId": "cat-recovery-gear"
+    },
+    {
+      "id": "prod-lululemon-pace-breaker-men",
+      "slug": "lululemon-pace-breaker-men",
+      "categoryId": "cat-running-clothing"
+    },
+    {
+      "id": "prod-lululemon-hotty-hot-women",
+      "slug": "lululemon-hotty-hot-women",
+      "categoryId": "cat-running-clothing"
+    },
+    {
+      "id": "prod-lululemon-fast-and-free-women",
+      "slug": "lululemon-fast-and-free-women",
+      "categoryId": "cat-running-clothing"
+    },
+    {
+      "id": "prod-nike-impossibly-light-men",
+      "slug": "nike-impossibly-light-men",
+      "categoryId": "cat-running-clothing"
+    },
+    {
+      "id": "prod-tnf-flight-series-jacket-men",
+      "slug": "tnf-flight-series-jacket-men",
+      "categoryId": "cat-running-clothing"
+    },
+    {
+      "id": "prod-tracksmith-harrier-singlet-men",
+      "slug": "tracksmith-harrier-singlet-men",
+      "categoryId": "cat-running-clothing"
+    },
+    {
+      "id": "prod-asics-race-singlet-men",
+      "slug": "asics-race-singlet-men",
+      "categoryId": "cat-running-clothing"
+    },
+    {
+      "id": "prod-nike-element-ls-men",
+      "slug": "nike-element-ls-men",
+      "categoryId": "cat-running-clothing"
+    },
+    {
+      "id": "prod-brooks-lsd-thermal-vest-men",
+      "slug": "brooks-lsd-thermal-vest-men",
+      "categoryId": "cat-running-clothing"
+    },
+    {
+      "id": "prod-saxx-kinetic-hd-men",
+      "slug": "saxx-kinetic-hd-men",
+      "categoryId": "cat-running-clothing"
+    },
+    {
+      "id": "prod-lululemon-always-in-motion-men",
+      "slug": "lululemon-always-in-motion-men",
+      "categoryId": "cat-running-clothing"
+    },
+    {
+      "id": "prod-brooks-dare-crossback",
+      "slug": "brooks-dare-crossback",
+      "categoryId": "cat-running-clothing"
+    },
+    {
+      "id": "prod-lululemon-energy-bra",
+      "slug": "lululemon-energy-bra",
+      "categoryId": "cat-running-clothing"
+    },
+    {
+      "id": "prod-tracksmith-brighton-bra",
+      "slug": "tracksmith-brighton-bra",
+      "categoryId": "cat-running-clothing"
+    },
+    {
+      "id": "prod-stance-run-crew",
+      "slug": "stance-run-crew",
+      "categoryId": "cat-running-socks"
+    },
+    {
+      "id": "prod-brooks-ghost-short-sleeve",
+      "slug": "brooks-ghost-short-sleeve",
+      "categoryId": "cat-running-clothing"
+    },
+    {
+      "id": "prod-brooks-cascadia-jacket",
+      "slug": "brooks-cascadia-jacket",
+      "categoryId": "cat-running-clothing"
+    },
+    {
+      "id": "prod-nite-ize-radiant-clip",
+      "slug": "nite-ize-radiant-rechargeable-clip-light",
+      "categoryId": "cat-safety"
+    },
+    {
+      "id": "prod-triggerpoint-grid",
+      "slug": "triggerpoint-grid-foam-roller",
+      "categoryId": "cat-recovery-gear"
+    },
+    {
+      "id": "prod-compressport-armforce",
+      "slug": "compressport-armforce",
+      "categoryId": "cat-accessories"
+    },
+    {
+      "id": "prod-amphipod-reflective-armband",
+      "slug": "amphipod-reflective-armband",
+      "categoryId": "cat-accessories"
+    },
+    {
+      "id": "prod-dirty-girl-gaiters",
+      "slug": "dirty-girl-gaiters",
+      "categoryId": "cat-accessories"
+    },
+    {
+      "id": "prod-outdoor-research-ferrosi-gaiters",
+      "slug": "outdoor-research-ferrosi-gaiters",
+      "categoryId": "cat-accessories"
+    },
+    {
+      "id": "prod-amphipod-airflow-armband",
+      "slug": "amphipod-airflow-armband",
+      "categoryId": "cat-accessories"
+    },
+    {
+      "id": "prod-nox-bag-10",
+      "slug": "nox-thermo-bag-10",
+      "categoryId": "cat-padel-bags"
+    },
+    {
+      "id": "prod-starvie-absolute-padel",
+      "slug": "starvie-absolute-padel",
+      "categoryId": "cat-padel-shoes"
+    },
+    {
+      "id": "prod-kuikma-ps-560-women",
+      "slug": "kuikma-ps-560-women",
+      "categoryId": "cat-padel-shoes"
+    },
+    {
+      "id": "prod-adidas-solecourt-boost-padel",
+      "slug": "adidas-solecourt-boost-padel",
+      "categoryId": "cat-padel-shoes"
+    },
+    {
+      "id": "prod-head-revolt-court",
+      "slug": "head-revolt-court-padel",
+      "categoryId": "cat-padel-shoes"
+    },
+    {
+      "id": "prod-selkirk-vanguard-power-air",
+      "slug": "selkirk-vanguard-power-air",
+      "categoryId": "cat-pickleball-paddles"
+    },
+    {
+      "id": "prod-head-extreme-pro-pickleball",
+      "slug": "head-extreme-pro-pickleball",
+      "categoryId": "cat-pickleball-paddles"
+    },
+    {
+      "id": "prod-wilson-blade-elite-pickleball",
+      "slug": "wilson-blade-elite-v2-pickleball",
+      "categoryId": "cat-pickleball-paddles"
+    },
+    {
+      "id": "prod-li-ning-aeronaut-9000",
+      "slug": "li-ning-aeronaut-9000-c",
+      "categoryId": "cat-badminton-rackets"
+    },
+    {
+      "id": "prod-tecnifibre-carboflex-125",
+      "slug": "tecnifibre-carboflex-125-x-top",
+      "categoryId": "cat-squash-rackets"
+    },
+    {
+      "id": "prod-dunlop-sonic-core-revelation",
+      "slug": "dunlop-sonic-core-revelation-pro",
+      "categoryId": "cat-squash-rackets"
+    },
+    {
+      "id": "prod-head-extreme-120-squash",
+      "slug": "head-extreme-120-squash",
+      "categoryId": "cat-squash-rackets"
+    },
+    {
+      "id": "prod-wilson-blade-black-squash",
+      "slug": "wilson-blade-black-squash",
+      "categoryId": "cat-squash-rackets"
+    },
+    {
+      "id": "prod-dunlop-cx-200-squash",
+      "slug": "dunlop-cx-tour-squash",
+      "categoryId": "cat-squash-rackets"
+    },
+    {
+      "id": "prod-nike-zoom-gp-turbo-2",
+      "slug": "nike-zoom-gp-turbo-hc-2",
+      "categoryId": "cat-tennis-shoes"
+    },
+    {
+      "id": "prod-wilson-kaos-rapide-30",
+      "slug": "wilson-kaos-rapide-3-0",
+      "categoryId": "cat-tennis-shoes"
+    },
+    {
+      "id": "prod-nb-lav-v2",
+      "slug": "new-balance-fresh-foam-x-lav-v2",
+      "categoryId": "cat-tennis-shoes"
+    }
+  ]
+}

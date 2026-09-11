@@ -1,0 +1,151 @@
+{
+  "total": 402,
+  "thinBefore": 318,
+  "thinAfter": 0,
+  "samples": [
+    {
+      "slug": "garmin-instinct-3",
+      "beforeBuy": [
+        "You want a tough Garmin for trail abuse without paying Fenix maps prices",
+        "Battery and durability matter more than music, Pay or topo maps",
+        "You're comparing Instinct vs T-Rex and prefer Garmin Connect"
+      ],
+      "afterBuy": [
+        "You want tough fiber-reinforced case and metal-reinforced bezel and will rotate or compare against T-Rex 3 Pro — that is the Instinct 3's main job",
+        "Most of your sessions match excellent stated battery, especially with Solar charging more than a do-everything compromise",
+        "You're building a clear role for the Instinct 3 instead of forcing one product to cover every session"
+      ],
+      "afterAvoid": [
+        "Offline topo maps are required — Apex 4, Enduro or Fenix fit better",
+        "You want AMOLED lifestyle features and payments — Vivoactive/Forerunner lane",
+        "Pure road racing weight is the goal — Pace 4 / Forerunner midrange"
+      ]
+    },
+    {
+      "slug": "garmin-forerunner-265s",
+      "beforeBuy": [
+        "You need a smaller AMOLED Forerunner and find 265S well discounted",
+        "Music and mid training tools matter without 970 maps spend",
+        "Small wrists rule out larger mid/flagship cases"
+      ],
+      "afterBuy": [
+        "You want smaller 42 mm AMOLED fit without losing Forerunner training tools and will rotate or compare against Forerunner 570 — that is the Forerunner 265S's main job",
+        "Most of your sessions match strong clearance value after the 570 launch more than a do-everything compromise",
+        "You're building a clear role for the Forerunner 265S instead of forcing one product to cover every session"
+      ],
+      "afterAvoid": [
+        "You need to avoid superseded by Forerunner 570 / 570S — look at Forerunner 570 or a clearer specialist instead of forcing the Forerunner 265S",
+        "Your must-haves conflict with a Forerunner 265S trade-off: no full offline maps",
+        "Your fit, surface, or support needs sit outside what Garmin built the Forerunner 265S to do"
+      ]
+    },
+    {
+      "slug": "garmin-epix-pro-gen-2",
+      "beforeBuy": [
+        "You find Epix Pro Gen 2 well below Fenix 8 and want AMOLED maps now",
+        "Garmin adventure tools and ECG matter without paying current flagship list",
+        "You're upgrading from maps-less Forerunners and catch clearance stock"
+      ],
+      "afterBuy": [
+        "You find Epix Pro Gen 2 well below Fenix 8 and want AMOLED maps now",
+        "Garmin adventure tools and ECG matter without paying current flagship list",
+        "You're upgrading from maps-less Forerunners and catch clearance stock"
+      ],
+      "afterAvoid": [
+        "You need to avoid replaced by Fenix 8 AMOLED in the lineup — look at Fenix 8 AMOLED 47mm or a clearer specialist instead of forcing the Epix Pro (Gen 2)",
+        "Your must-haves conflict with a Epix Pro (Gen 2) trade-off: multi-band GPS battery shorter than Enduro / Fenix 8",
+        "Your fit, surface, or support needs sit outside what Garmin built the Epix Pro (Gen 2) to do"
+      ]
+    },
+    {
+      "slug": "coros-pace-4",
+      "beforeBuy": [
+        "You want ultralight dual-frequency GPS and long battery under mid-range pricing",
+        "High mileage matters more than maps/music",
+        "You're comparing Pace 4 vs Forerunner 165/570 on value"
+      ],
+      "afterBuy": [
+        "You want just 32 g with nylon band—easy all-day racing weight and will rotate or compare against Pace Pro — that is the Pace 4's main job",
+        "Most of your sessions match 41 hours all-systems / 31 hours dual-frequency GPS claims more than a do-everything compromise",
+        "You're building a clear role for the Pace 4 instead of forcing one product to cover every session"
+      ],
+      "afterAvoid": [
+        "You need no full offline maps (step up to Apex 4 / Pace Pro) — look at Pace Pro or a clearer specialist instead of forcing the Pace 4",
+        "Your must-haves conflict with a Pace 4 trade-off: no music or payments",
+        "Your fit, surface, or support needs sit outside what COROS built the Pace 4 to do"
+      ]
+    },
+    {
+      "slug": "coros-vertix-2s",
+      "beforeBuy": [
+        "You need expedition-class GPS hours with COROS maps",
+        "Rugged metal build matters for alpine abuse",
+        "You're comparing Vertix vs Enduro and prefer COROS"
+      ],
+      "afterBuy": [
+        "You want among the longest GPS battery claims in the adventure class and will rotate or compare against Enduro 3 — that is the Vertix 2S's main job",
+        "Most of your sessions match full-metal rugged case with sapphire glass more than a do-everything compromise",
+        "You're building a clear role for the Vertix 2S instead of forcing one product to cover every session"
+      ],
+      "afterAvoid": [
+        "You need to avoid heavier than Apex 4 / Enduro for pure road racing — look at Enduro 3 or a clearer specialist instead of forcing the Vertix 2S",
+        "Your must-haves conflict with a Vertix 2S trade-off: aging versus newer Apex 4 feature set",
+        "Your fit, surface, or support needs sit outside what COROS built the Vertix 2S to do"
+      ]
+    },
+    {
+      "slug": "suunto-vertical-2",
+      "beforeBuy": [
+        "You want bright outdoor maps and strong multi-band battery without Fenix list price",
+        "Trail navigation tools matter more than music/Pay",
+        "You're comparing Vertical 2 vs Enduro and prefer AMOLED"
+      ],
+      "afterBuy": [
+        "You want bright 1.5″ AMOLED with free offline outdoor maps and will rotate or compare against Fenix 8 AMOLED 47mm — that is the Vertical 2's main job",
+        "Most of your sessions match up to 65 hours in multi-band performance tracking more than a do-everything compromise",
+        "You're building a clear role for the Vertical 2 instead of forcing one product to cover every session"
+      ],
+      "afterAvoid": [
+        "You need to avoid training coaching less deep than Garmin/Polar flagships — look at Fenix 8 AMOLED 47mm or a clearer specialist instead of forcing the Vertical 2",
+        "Your must-haves conflict with a Vertical 2 trade-off: no onboard music storage",
+        "Your fit, surface, or support needs sit outside what Suunto built the Vertical 2 to do"
+      ]
+    },
+    {
+      "slug": "suunto-run",
+      "beforeBuy": [
+        "You want a bright simple dual-band starter without Garmin complexity",
+        "First race distances are the job, not ultras",
+        "You're comparing Suunto Run vs Amazfit Active 2 and want better GPS positioning"
+      ],
+      "afterBuy": [
+        "You want a bright simple dual-band starter without Garmin complexity",
+        "You're shopping primarily for race or workout snap — the Run is aimed at a different session mix than Pace 4",
+        "You're comparing Suunto Run vs Amazfit Active 2 and want better GPS positioning"
+      ],
+      "afterAvoid": [
+        "You need to avoid training battery (~20 h) shorter than COROS Pace class — look at Pace 4 or a clearer specialist instead of forcing the Run",
+        "Your must-haves conflict with a Run trade-off: no maps, music, or deep multisport stack",
+        "Your fit, surface, or support needs sit outside what Suunto built the Run to do"
+      ]
+    },
+    {
+      "slug": "polar-grit-x2",
+      "beforeBuy": [
+        "You want Polar Flow analytics with trail maps in one watch",
+        "Compact outdoor AMOLED matters more than Fenix bulk",
+        "You're comparing Grit X2 vs Fenix 8 and prefer Polar coaching"
+      ],
+      "afterBuy": [
+        "You want polar training/recovery analytics with outdoor maps and will rotate or compare against Fenix 8 AMOLED 47mm — that is the Grit X2's main job",
+        "Most of your sessions match sapphire AMOLED and dual-frequency GPS in a compact chassis more than a do-everything compromise",
+        "You're building a clear role for the Grit X2 instead of forcing one product to cover every session"
+      ],
+      "afterAvoid": [
+        "You need to avoid smartwatch battery (~7 days) shorter than Garmin/COROS peers — look at Fenix 8 AMOLED 47mm or a clearer specialist instead of forcing the Grit X2",
+        "Your must-haves conflict with a Grit X2 trade-off: no music or payments",
+        "Your fit, surface, or support needs sit outside what Polar built the Grit X2 to do"
+      ]
+    }
+  ]
+}

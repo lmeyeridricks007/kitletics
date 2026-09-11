@@ -1,0 +1,355 @@
+{
+  "generatedAt": "2026-09-09T19:38:27.051Z",
+  "totals": {
+    "publishedProducts": 623,
+    "approvedAltEdges": 1685,
+    "syncTemplateReasonHits": 1416,
+    "pagesBuilt": 623,
+    "eligibilityOk": 85,
+    "indexable": 74,
+    "missingWorseSignal": 553,
+    "missingStaySignal": 606,
+    "thinWhyAvgUnder80": 266,
+    "byUniquenessClass": {
+      "TEMPLATE_SIMILAR_ACCEPTABLE": 271,
+      "GENUINELY_UNIQUE": 281,
+      "NEEDS_DIFFERENTIATION": 67,
+      "DUPLICATIVE": 4
+    }
+  },
+  "topDupReasons": [],
+  "worstPeers": [
+    {
+      "slug": "adidas-terrex-agravic-3",
+      "peer": "salomon-genesis",
+      "sim": 0.938,
+      "class": "DUPLICATIVE"
+    },
+    {
+      "slug": "salomon-genesis",
+      "peer": "adidas-terrex-agravic-3",
+      "sim": 0.938,
+      "class": "DUPLICATIVE"
+    },
+    {
+      "slug": "assaultrunner-pro",
+      "peer": "assaultrunner-elite",
+      "sim": 0.902,
+      "class": "DUPLICATIVE"
+    },
+    {
+      "slug": "assaultrunner-elite",
+      "peer": "assaultrunner-pro",
+      "sim": 0.902,
+      "class": "DUPLICATIVE"
+    },
+    {
+      "slug": "brooks-canopy-jacket-men",
+      "peer": "nike-impossibly-light-men",
+      "sim": 0.895,
+      "class": "NEEDS_DIFFERENTIATION"
+    },
+    {
+      "slug": "nike-impossibly-light-men",
+      "peer": "brooks-canopy-jacket-men",
+      "sim": 0.895,
+      "class": "NEEDS_DIFFERENTIATION"
+    },
+    {
+      "slug": "new-balance-fuelcell-rebel-v5",
+      "peer": "adidas-adizero-boston-13",
+      "sim": 0.892,
+      "class": "NEEDS_DIFFERENTIATION"
+    },
+    {
+      "slug": "adidas-adizero-boston-13",
+      "peer": "new-balance-fuelcell-rebel-v5",
+      "sim": 0.892,
+      "class": "NEEDS_DIFFERENTIATION"
+    },
+    {
+      "slug": "salomon-soft-flask-speed-500",
+      "peer": "nathan-softflask-18oz",
+      "sim": 0.887,
+      "class": "NEEDS_DIFFERENTIATION"
+    },
+    {
+      "slug": "nathan-softflask-18oz",
+      "peer": "salomon-soft-flask-speed-500",
+      "sim": 0.887,
+      "class": "NEEDS_DIFFERENTIATION"
+    },
+    {
+      "slug": "mirafit-folding-treadmill",
+      "peer": "assaultrunner-elite",
+      "sim": 0.878,
+      "class": "NEEDS_DIFFERENTIATION"
+    },
+    {
+      "slug": "tracksmith-van-cortlandt-tee-men",
+      "peer": "adidas-own-the-run-tee-men",
+      "sim": 0.871,
+      "class": "NEEDS_DIFFERENTIATION"
+    },
+    {
+      "slug": "adidas-own-the-run-tee-men",
+      "peer": "tracksmith-van-cortlandt-tee-men",
+      "sim": 0.871,
+      "class": "NEEDS_DIFFERENTIATION"
+    },
+    {
+      "slug": "polar-verity-sense",
+      "peer": "coros-heart-rate-monitor",
+      "sim": 0.862,
+      "class": "NEEDS_DIFFERENTIATION"
+    },
+    {
+      "slug": "coros-heart-rate-monitor",
+      "peer": "polar-verity-sense",
+      "sim": 0.862,
+      "class": "NEEDS_DIFFERENTIATION"
+    },
+    {
+      "slug": "sole-f80-treadmill",
+      "peer": "assaultrunner-elite",
+      "sim": 0.857,
+      "class": "NEEDS_DIFFERENTIATION"
+    },
+    {
+      "slug": "on-weather-jacket-men",
+      "peer": "craft-adv-essence-light-wind-men",
+      "sim": 0.806,
+      "class": "NEEDS_DIFFERENTIATION"
+    },
+    {
+      "slug": "craft-adv-essence-light-wind-men",
+      "peer": "on-weather-jacket-men",
+      "sim": 0.806,
+      "class": "NEEDS_DIFFERENTIATION"
+    },
+    {
+      "slug": "compressport-ultrun-s-pack",
+      "peer": "nnormal-race-vest",
+      "sim": 0.805,
+      "class": "NEEDS_DIFFERENTIATION"
+    },
+    {
+      "slug": "nnormal-race-vest",
+      "peer": "compressport-ultrun-s-pack",
+      "sim": 0.805,
+      "class": "NEEDS_DIFFERENTIATION"
+    }
+  ],
+  "sampleThin": [
+    {
+      "slug": "asics-novablast-5",
+      "whyAvgChars": 66,
+      "hasWorse": false,
+      "hasStay": false,
+      "alts": 6
+    },
+    {
+      "slug": "asics-novablast-4",
+      "whyAvgChars": 63,
+      "hasWorse": false,
+      "hasStay": false,
+      "alts": 4
+    },
+    {
+      "slug": "asics-gel-nimbus-27",
+      "whyAvgChars": 81,
+      "hasWorse": false,
+      "hasStay": false,
+      "alts": 7
+    },
+    {
+      "slug": "nike-pegasus-41",
+      "whyAvgChars": 82,
+      "hasWorse": false,
+      "hasStay": false,
+      "alts": 7
+    },
+    {
+      "slug": "brooks-ghost-16",
+      "whyAvgChars": 91,
+      "hasWorse": false,
+      "hasStay": false,
+      "alts": 4
+    },
+    {
+      "slug": "hoka-clifton-9",
+      "whyAvgChars": 89,
+      "hasWorse": false,
+      "hasStay": false,
+      "alts": 3
+    },
+    {
+      "slug": "saucony-endorphin-speed-4",
+      "whyAvgChars": 97,
+      "hasWorse": false,
+      "hasStay": false,
+      "alts": 4
+    },
+    {
+      "slug": "new-balance-fuelcell-rebel-v4",
+      "whyAvgChars": 112,
+      "hasWorse": false,
+      "hasStay": false,
+      "alts": 2
+    },
+    {
+      "slug": "adidas-adizero-boston-12",
+      "whyAvgChars": 101,
+      "hasWorse": false,
+      "hasStay": false,
+      "alts": 3
+    },
+    {
+      "slug": "garmin-forerunner-965",
+      "whyAvgChars": 60,
+      "hasWorse": false,
+      "hasStay": false,
+      "alts": 4
+    },
+    {
+      "slug": "garmin-forerunner-255",
+      "whyAvgChars": 105,
+      "hasWorse": false,
+      "hasStay": false,
+      "alts": 2
+    },
+    {
+      "slug": "coros-pace-3",
+      "whyAvgChars": 77,
+      "hasWorse": false,
+      "hasStay": false,
+      "alts": 5
+    },
+    {
+      "slug": "garmin-hrm-pro-plus",
+      "whyAvgChars": 78,
+      "hasWorse": false,
+      "hasStay": false,
+      "alts": 3
+    },
+    {
+      "slug": "salomon-adv-skin-12",
+      "whyAvgChars": 121,
+      "hasWorse": true,
+      "hasStay": false,
+      "alts": 8
+    },
+    {
+      "slug": "asics-novablast-6",
+      "whyAvgChars": 141,
+      "hasWorse": false,
+      "hasStay": false,
+      "alts": 8
+    },
+    {
+      "slug": "asics-superblast-2",
+      "whyAvgChars": 117,
+      "hasWorse": false,
+      "hasStay": false,
+      "alts": 6
+    },
+    {
+      "slug": "asics-gel-kayano-32",
+      "whyAvgChars": 96,
+      "hasWorse": false,
+      "hasStay": false,
+      "alts": 6
+    },
+    {
+      "slug": "asics-gel-cumulus-27",
+      "whyAvgChars": 117,
+      "hasWorse": false,
+      "hasStay": false,
+      "alts": 5
+    },
+    {
+      "slug": "asics-metaspeed-sky-paris",
+      "whyAvgChars": 120,
+      "hasWorse": false,
+      "hasStay": false,
+      "alts": 4
+    },
+    {
+      "slug": "asics-gt-2000-14",
+      "whyAvgChars": 116,
+      "hasWorse": false,
+      "hasStay": false,
+      "alts": 5
+    },
+    {
+      "slug": "nike-pegasus-42",
+      "whyAvgChars": 77,
+      "hasWorse": false,
+      "hasStay": true,
+      "alts": 8
+    },
+    {
+      "slug": "nike-vomero-18",
+      "whyAvgChars": 113,
+      "hasWorse": false,
+      "hasStay": false,
+      "alts": 3
+    },
+    {
+      "slug": "nike-invincible-3",
+      "whyAvgChars": 108,
+      "hasWorse": false,
+      "hasStay": false,
+      "alts": 2
+    },
+    {
+      "slug": "nike-vaporfly-4",
+      "whyAvgChars": 110,
+      "hasWorse": false,
+      "hasStay": true,
+      "alts": 7
+    },
+    {
+      "slug": "nike-alphafly-3",
+      "whyAvgChars": 80,
+      "hasWorse": false,
+      "hasStay": false,
+      "alts": 4
+    },
+    {
+      "slug": "nike-structure-26",
+      "whyAvgChars": 121,
+      "hasWorse": false,
+      "hasStay": false,
+      "alts": 2
+    },
+    {
+      "slug": "nike-structure-plus",
+      "whyAvgChars": 139,
+      "hasWorse": false,
+      "hasStay": false,
+      "alts": 2
+    },
+    {
+      "slug": "brooks-ghost-18",
+      "whyAvgChars": 72,
+      "hasWorse": false,
+      "hasStay": false,
+      "alts": 8
+    },
+    {
+      "slug": "brooks-glycerin-22",
+      "whyAvgChars": 109,
+      "hasWorse": false,
+      "hasStay": false,
+      "alts": 5
+    },
+    {
+      "slug": "brooks-glycerin-21",
+      "whyAvgChars": 100,
+      "hasWorse": false,
+      "hasStay": false,
+      "alts": 1
+    }
+  ]
+}

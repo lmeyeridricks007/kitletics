@@ -1,0 +1,271 @@
+{
+  "fetched": [
+    {
+      "productId": "prod-babolat-rpm-blast",
+      "slug": "babolat-rpm-blast-1-25",
+      "categorySlug": "tennis-strings",
+      "src": "/images/tennis/products/babolat-rpm-blast-1-25-hero.jpg",
+      "sourceUrl": "https://www.tennis-warehouse.com/Babolat_RPM_Blast_17_125_String/descpage-BRPMB17.html",
+      "source": "Tennis Warehouse CDN (Babolat RPM Blast 17/1.25)",
+      "licence": "retailer-authorized",
+      "remote": "https://img.tennis-warehouse.com/watermark/rs.php?path=BRPMB17-1.jpg&nw=1000",
+      "bytes": 58153
+    },
+    {
+      "productId": "prod-tecnifibre-black-code",
+      "slug": "tecnifibre-black-code-1-28",
+      "categorySlug": "tennis-strings",
+      "src": "/images/tennis/products/tecnifibre-black-code-1-28-hero.jpg",
+      "sourceUrl": "https://www.tennis-warehouse.com/Tecnifibre_Black_Code_16_128_String/descpage-TBC16.html",
+      "source": "Tennis Warehouse CDN (Tecnifibre Black Code 16/1.28)",
+      "licence": "retailer-authorized",
+      "remote": "https://img.tennis-warehouse.com/watermark/rs.php?path=TBC16-1.jpg&nw=1000",
+      "bytes": 53353
+    },
+    {
+      "productId": "prod-luxilon-alu-power",
+      "slug": "luxilon-alu-power",
+      "categorySlug": "tennis-strings",
+      "src": "/images/tennis/products/luxilon-alu-power-hero.jpg",
+      "sourceUrl": "https://www.tennis-warehouse.com/Luxilon_ALU_Power_16L_125_String/descpage-ALUSTR.html",
+      "source": "Tennis Warehouse CDN (Luxilon ALU Power 16L/1.25)",
+      "licence": "retailer-authorized",
+      "remote": "https://img.tennis-warehouse.com/watermark/rs.php?path=ALUSTR-BL-1.jpg&nw=1000",
+      "bytes": 66220
+    },
+    {
+      "productId": "prod-wilson-nxt",
+      "slug": "wilson-nxt",
+      "categorySlug": "tennis-strings",
+      "src": "/images/tennis/products/wilson-nxt-hero.jpg",
+      "sourceUrl": "https://www.tennis-warehouse.com/Wilson_NXT_16_130_String/descpage-NXT16.html",
+      "source": "Tennis Warehouse CDN (Wilson NXT 16/1.30)",
+      "licence": "retailer-authorized",
+      "remote": "https://img.tennis-warehouse.com/watermark/rs.php?path=NXT16-1.jpg&nw=1000",
+      "bytes": 72463
+    },
+    {
+      "productId": "prod-tecnifibre-x-one-biphase",
+      "slug": "tecnifibre-x-one-biphase",
+      "categorySlug": "tennis-strings",
+      "src": "/images/tennis/products/tecnifibre-x-one-biphase-hero.jpg",
+      "sourceUrl": "https://www.tennis-warehouse.com/Tecnifibre_X-One_Biphase_17_124_String/descpage-X117.html",
+      "source": "Tennis Warehouse CDN (Tecnifibre X-One Biphase 17/1.24)",
+      "licence": "retailer-authorized",
+      "remote": "https://img.tennis-warehouse.com/watermark/rs.php?path=X117-1.jpg&nw=1000",
+      "bytes": 56066
+    },
+    {
+      "productId": "prod-solinco-hyper-g",
+      "slug": "solinco-hyper-g",
+      "categorySlug": "tennis-strings",
+      "src": "/images/tennis/products/solinco-hyper-g-hero.jpg",
+      "sourceUrl": "https://www.tennis-warehouse.com/Solinco_Hyper-G_16L_125_String/descpage-SHG16LG.html",
+      "source": "Tennis Warehouse CDN (Solinco Hyper-G 16L/1.25)",
+      "licence": "retailer-authorized",
+      "remote": "https://img.tennis-warehouse.com/watermark/rs.php?path=SHG16LG-GN-1.jpg&nw=1000",
+      "bytes": 118933
+    },
+    {
+      "productId": "prod-joola-ben-johns-hyperion-cfs",
+      "slug": "joola-ben-johns-hyperion-cfs-16",
+      "categorySlug": "pickleball-paddles",
+      "src": "/images/tennis/products/joola-ben-johns-hyperion-cfs-16-hero.jpg",
+      "sourceUrl": "https://www.joola.com/products/ben-johns-hyperion-cfs-16mm-pickleball-paddle",
+      "source": "JOOLA manufacturer Shopify CDN (Hyperion CFS 16)",
+      "licence": "manufacturer-marketing",
+      "remote": "https://cdn.shopify.com/s/files/1/0685/6943/2278/files/Ben-Johns-Hyperion-CFS-16-18502-Web-01.png",
+      "bytes": 34761
+    },
+    {
+      "productId": "prod-joola-perseus-16",
+      "slug": "joola-perseus-16",
+      "categorySlug": "pickleball-paddles",
+      "src": "/images/tennis/products/joola-perseus-16-hero.jpg",
+      "sourceUrl": "https://www.joola.com/products/joola-perseus-iv-16mm-pickleball-paddle-1",
+      "source": "JOOLA manufacturer Shopify CDN (Perseus Pro IV 16mm)",
+      "licence": "manufacturer-marketing",
+      "remote": "https://cdn.shopify.com/s/files/1/0685/6943/2278/files/JOOLA_WBG_2025_ProIV_Perseus-Perseus16mm-01.jpg",
+      "bytes": 24145
+    },
+    {
+      "productId": "prod-selkirk-ampsed-epic",
+      "slug": "selkirk-ampsed-epic",
+      "categorySlug": "pickleball-paddles",
+      "src": "/images/tennis/products/selkirk-ampsed-epic-hero.jpg",
+      "sourceUrl": "https://www.selkirk.com/products/amped-control-epic",
+      "source": "Selkirk manufacturer Shopify CDN (AMPED Control Epic)",
+      "licence": "manufacturer-marketing",
+      "remote": "https://cdn.shopify.com/s/files/1/0152/5763/2822/files/Selkirk-AMPED-Control-Pickleball-Paddle-Epic-LT-blue.png",
+      "bytes": 41846
+    },
+    {
+      "productId": "prod-yonex-astrox-88d-pro",
+      "slug": "yonex-astrox-88d-pro",
+      "categorySlug": "badminton-rackets",
+      "src": "/images/tennis/products/yonex-astrox-88d-pro-hero.jpg",
+      "sourceUrl": "https://www.badmintonwarehouse.com/collections/yonex-astrox-badminton-rackets",
+      "source": "Badminton Warehouse authorized Shopify CDN (Astrox 88D Pro 3rd Gen)",
+      "licence": "retailer-authorized",
+      "remote": "https://cdn.shopify.com/s/files/1/1238/5608/files/3ax88d-p_076-1_02.webp",
+      "bytes": 25476
+    },
+    {
+      "productId": "prod-yonex-nanoflare-800-pro",
+      "slug": "yonex-nanoflare-800-pro",
+      "categorySlug": "badminton-rackets",
+      "src": "/images/tennis/products/yonex-nanoflare-800-pro-hero.jpg",
+      "sourceUrl": "https://www.badmintonwarehouse.com/collections/yonex-nanoflare-badminton-rackets",
+      "source": "Badminton Warehouse authorized Shopify CDN (Nanoflare 800 Pro)",
+      "licence": "retailer-authorized",
+      "remote": "https://cdn.shopify.com/s/files/1/1238/5608/files/Nanoflare_800_Pro_Badminton_Racket_Frame_New.jpg",
+      "bytes": 21905
+    },
+    {
+      "productId": "prod-yonex-astrox-99-pro",
+      "slug": "yonex-astrox-99-pro",
+      "categorySlug": "badminton-rackets",
+      "src": "/images/tennis/products/yonex-astrox-99-pro-hero.jpg",
+      "sourceUrl": "https://www.badmintonwarehouse.com/collections/yonex-astrox-badminton-rackets",
+      "source": "Badminton Warehouse authorized Shopify CDN (Astrox 99 Pro 3rd Gen)",
+      "licence": "retailer-authorized",
+      "remote": "https://cdn.shopify.com/s/files/1/1238/5608/files/astrox_99Pro_2.webp",
+      "bytes": 71896
+    },
+    {
+      "productId": "prod-yonex-arcsaber-11-pro",
+      "slug": "yonex-arcsaber-11-pro",
+      "categorySlug": "badminton-rackets",
+      "src": "/images/tennis/products/yonex-arcsaber-11-pro-hero.jpg",
+      "sourceUrl": "https://www.yonex.com/badminton/racquets/arcsaber/arc11-p",
+      "source": "Yonex manufacturer catalog (ArcSaber 11 Pro)",
+      "licence": "manufacturer-marketing",
+      "remote": "https://www.yonex.com/media/catalog/product/a/r/arc11-p.png",
+      "bytes": 29813
+    },
+    {
+      "productId": "prod-victor-thruster-k-falcon",
+      "slug": "victor-thruster-k-falcon",
+      "categorySlug": "badminton-rackets",
+      "src": "/images/tennis/products/victor-thruster-k-falcon-hero.jpg",
+      "sourceUrl": "https://www.badmintonwarehouse.com/collections/victor-badminton-rackets",
+      "source": "Badminton Warehouse authorized Shopify CDN (Victor TK-F Falcon)",
+      "licence": "retailer-authorized",
+      "remote": "https://cdn.shopify.com/s/files/1/1238/5608/products/Thruster_F_Enhanced_Edition_Badminton_Racket_Frame.jpg",
+      "bytes": 21091
+    }
+  ],
+  "skipped": [
+    {
+      "id": "prod-starvie-absolute-padel",
+      "slug": "starvie-absolute-padel",
+      "categorySlug": "padel-shoes",
+      "reason": "SKU unverified in catalog notes (StarVie partners with ASICS); no manufacturer/authorized packshot found"
+    },
+    {
+      "id": "prod-kuikma-ps-560-women",
+      "slug": "kuikma-ps-560-women",
+      "categorySlug": "padel-shoes",
+      "reason": "Decathlon CDN blocked (403/CF challenge); no alternate authorized packshot"
+    },
+    {
+      "id": "prod-adidas-solecourt-boost-padel",
+      "slug": "adidas-solecourt-boost-padel",
+      "categorySlug": "padel-shoes",
+      "reason": "Discontinued Solecourt Boost; Adidas/TW PDPs 403/404; no verified padel-specific packshot"
+    },
+    {
+      "id": "prod-head-revolt-court",
+      "slug": "head-revolt-court-padel",
+      "categorySlug": "padel-shoes",
+      "reason": "HEAD Revolt Court not on TW padel/tennis catalogs (Revolt Pro/Evo 5.0 only); HEAD.com 429"
+    },
+    {
+      "id": "prod-nike-zoom-gp-turbo-2",
+      "slug": "nike-zoom-gp-turbo-hc-2",
+      "categorySlug": "tennis-shoes",
+      "reason": "GP Turbo HC 2 discontinued on TW (current line is GP Challenge); Nike PDP 404; no verified CDN still serving this SKU"
+    },
+    {
+      "id": "prod-wilson-kaos-rapide-30",
+      "slug": "wilson-kaos-rapide-3-0",
+      "categorySlug": "tennis-shoes",
+      "reason": "Not in current TW Wilson shoe catalog; Wilson.com 403"
+    },
+    {
+      "id": "prod-nb-lav-v2",
+      "slug": "new-balance-fresh-foam-x-lav-v2",
+      "categorySlug": "tennis-shoes",
+      "reason": "Lav v2 not stocked on TW (NB CT Rally 2 under /MSNEWLAV/); nb.scene7 and NB.com 403"
+    },
+    {
+      "id": "prod-draft-example",
+      "slug": "example-unpublished-trainer",
+      "categorySlug": "running-shoes",
+      "reason": "Placeholder draft product (Example Unpublished Trainer) — skip"
+    },
+    {
+      "id": "prod-selkirk-vanguard-power-air",
+      "slug": "selkirk-vanguard-power-air",
+      "categorySlug": "pickleball-paddles",
+      "reason": "Vanguard Power Air Invikta not on Selkirk catalog (only Vanguard Power Air S2 / Amped Pro Air Invikta)"
+    },
+    {
+      "id": "prod-head-extreme-pro-pickleball",
+      "slug": "head-extreme-pro-pickleball",
+      "categorySlug": "pickleball-paddles",
+      "reason": "HEAD.com rate-limited (429); no verified alternate CDN in this pass"
+    },
+    {
+      "id": "prod-wilson-blade-elite-pickleball",
+      "slug": "wilson-blade-elite-v2-pickleball",
+      "categorySlug": "pickleball-paddles",
+      "reason": "Wilson.com 403; no verified alternate CDN in this pass"
+    },
+    {
+      "id": "prod-li-ning-aeronaut-9000",
+      "slug": "li-ning-aeronaut-9000-c",
+      "categorySlug": "badminton-rackets",
+      "reason": "Not found on Badminton Warehouse Li-Ning collection / search"
+    },
+    {
+      "id": "prod-tecnifibre-carboflex-125",
+      "slug": "tecnifibre-carboflex-125-x-top",
+      "categorySlug": "squash-rackets",
+      "reason": "Squash Warehouse unreachable from this environment"
+    },
+    {
+      "id": "prod-dunlop-sonic-core-revelation",
+      "slug": "dunlop-sonic-core-revelation-pro",
+      "categorySlug": "squash-rackets",
+      "reason": "Squash Warehouse unreachable from this environment"
+    },
+    {
+      "id": "prod-head-extreme-120-squash",
+      "slug": "head-extreme-120-squash",
+      "categorySlug": "squash-rackets",
+      "reason": "Squash Warehouse unreachable from this environment"
+    },
+    {
+      "id": "prod-wilson-blade-black-squash",
+      "slug": "wilson-blade-black-squash",
+      "categorySlug": "squash-rackets",
+      "reason": "Squash Warehouse unreachable from this environment"
+    },
+    {
+      "id": "prod-dunlop-cx-200-squash",
+      "slug": "dunlop-cx-tour-squash",
+      "categorySlug": "squash-rackets",
+      "reason": "Squash Warehouse unreachable from this environment"
+    }
+  ],
+  "counts": {
+    "ok": 14,
+    "fail": 17,
+    "attemptedDownloads": 14,
+    "shoeTargets": 8,
+    "shoeOk": 0,
+    "shoeFail": 8,
+    "nicheOk": 14
+  }
+}

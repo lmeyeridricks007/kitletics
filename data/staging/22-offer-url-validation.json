@@ -1,0 +1,2171 @@
+{
+  "generatedAt": "2026-09-09T22:03:13.377Z",
+  "checked": 80,
+  "byState": {
+    "VALID": 21,
+    "LIKELY_VALID": 54,
+    "UNKNOWN": 5
+  },
+  "byReason": {
+    "method_not_allowed": 50,
+    "bot_blocked": 4,
+    "dns_or_network": 5
+  },
+  "invalid": [],
+  "botBlocked": [
+    {
+      "offerId": "offer-balls-nl",
+      "url": "https://www.decathlon.nl/",
+      "state": "LIKELY_VALID",
+      "checkedAt": "2026-09-09T22:03:10.095Z",
+      "httpStatus": 403,
+      "failureReason": "bot_blocked",
+      "notes": "Automated fetch blocked (WAF/bot). Do not hide from CTAs without human confirmation.",
+      "observations": [
+        {
+          "method": "HEAD",
+          "status": 403,
+          "finalUrl": "https://www.decathlon.nl/",
+          "elapsedMs": 62
+        },
+        {
+          "method": "GET",
+          "status": 403,
+          "finalUrl": "https://www.decathlon.nl/",
+          "bodyHint": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\"><meta name=\"robots\" content=\"noindex,nofollow\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><meta http-equiv=\"content-security-policy\" content=\"default-src &#39;none&#39;; script-src &#39;nonce-jxsWiLn48n2zqWRGB4tdzX&#39; &#39;unsafe-eval&#39; https://challenges.cloudflare.com; script-src-attr &#39;none&#39;; style-src &#39;unsafe-inline&#39;; img-src &#39;self&#39; https://challenges.cloudflare.com; connect-src &#39;self&#39; https://challenges.cloudflare.com; frame-src &#39;self&#39; https://challenges.cloudflare.com blob:; child-src &#39;self&#39; https://challenges.cloudflare.",
+          "elapsedMs": 78
+        }
+      ]
+    },
+    {
+      "offerId": "offer-coello-nl",
+      "url": "https://www.decathlon.nl/",
+      "state": "LIKELY_VALID",
+      "checkedAt": "2026-09-09T22:03:09.618Z",
+      "httpStatus": 403,
+      "failureReason": "bot_blocked",
+      "notes": "Automated fetch blocked (WAF/bot). Do not hide from CTAs without human confirmation.",
+      "observations": [
+        {
+          "method": "HEAD",
+          "status": 403,
+          "finalUrl": "https://www.decathlon.nl/",
+          "elapsedMs": 43
+        },
+        {
+          "method": "GET",
+          "status": 403,
+          "finalUrl": "https://www.decathlon.nl/",
+          "bodyHint": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\"><meta name=\"robots\" content=\"noindex,nofollow\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><meta http-equiv=\"content-security-policy\" content=\"default-src &#39;none&#39;; script-src &#39;nonce-1Ri82fiOPxWjCe4WCxc3O8&#39; &#39;unsafe-eval&#39; https://challenges.cloudflare.com; script-src-attr &#39;none&#39;; style-src &#39;unsafe-inline&#39;; img-src &#39;self&#39; https://challenges.cloudflare.com; connect-src &#39;self&#39; https://challenges.cloudflare.com; frame-src &#39;self&#39; https://challenges.cloudflare.com blob:; child-src &#39;self&#39; https://challenges.cloudflare.",
+          "elapsedMs": 52
+        }
+      ]
+    },
+    {
+      "offerId": "offer-nb4-nl",
+      "url": "https://www.decathlon.nl/",
+      "state": "LIKELY_VALID",
+      "checkedAt": "2026-09-09T22:02:19.286Z",
+      "httpStatus": 403,
+      "failureReason": "bot_blocked",
+      "notes": "Automated fetch blocked (WAF/bot). Do not hide from CTAs without human confirmation.",
+      "observations": [
+        {
+          "method": "HEAD",
+          "status": 403,
+          "finalUrl": "https://www.decathlon.nl/",
+          "elapsedMs": 104
+        },
+        {
+          "method": "GET",
+          "status": 403,
+          "finalUrl": "https://www.decathlon.nl/",
+          "bodyHint": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\"><meta name=\"robots\" content=\"noindex,nofollow\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><meta http-equiv=\"content-security-policy\" content=\"default-src &#39;none&#39;; script-src &#39;nonce-fIywNcawgDFG22JNa4pcCm&#39; &#39;unsafe-eval&#39; https://challenges.cloudflare.com; script-src-attr &#39;none&#39;; style-src &#39;unsafe-inline&#39;; img-src &#39;self&#39; https://challenges.cloudflare.com; connect-src &#39;self&#39; https://challenges.cloudflare.com; frame-src &#39;self&#39; https://challenges.cloudflare.com blob:; child-src &#39;self&#39; https://challenges.cloudflare.",
+          "elapsedMs": 84
+        }
+      ]
+    },
+    {
+      "offerId": "offer-nox-at10-nl-2",
+      "url": "https://www.decathlon.nl/",
+      "state": "LIKELY_VALID",
+      "checkedAt": "2026-09-09T22:03:09.214Z",
+      "httpStatus": 403,
+      "failureReason": "bot_blocked",
+      "notes": "Automated fetch blocked (WAF/bot). Do not hide from CTAs without human confirmation.",
+      "observations": [
+        {
+          "method": "HEAD",
+          "status": 403,
+          "finalUrl": "https://www.decathlon.nl/",
+          "elapsedMs": 48
+        },
+        {
+          "method": "GET",
+          "status": 403,
+          "finalUrl": "https://www.decathlon.nl/",
+          "bodyHint": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\"><meta name=\"robots\" content=\"noindex,nofollow\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><meta http-equiv=\"content-security-policy\" content=\"default-src &#39;none&#39;; script-src &#39;nonce-TMgmKUHFRgQYOGMe17yi9I&#39; &#39;unsafe-eval&#39; https://challenges.cloudflare.com; script-src-attr &#39;none&#39;; style-src &#39;unsafe-inline&#39;; img-src &#39;self&#39; https://challenges.cloudflare.com; connect-src &#39;self&#39; https://challenges.cloudflare.com; frame-src &#39;self&#39; https://challenges.cloudflare.com blob:; child-src &#39;self&#39; https://challenges.cloudflare.",
+          "elapsedMs": 51
+        }
+      ]
+    }
+  ],
+  "amazonSoft": [
+    {
+      "offerId": "offer-adidas-metalbone-hrd-2026-de",
+      "url": "https://www.amazon.de/",
+      "state": "LIKELY_VALID",
+      "checkedAt": "2026-09-09T22:03:11.302Z",
+      "httpStatus": 202,
+      "failureReason": "method_not_allowed",
+      "notes": "Amazon rejected HEAD/soft-blocked automation — host is known-good.",
+      "observations": [
+        {
+          "method": "HEAD",
+          "status": 405,
+          "finalUrl": "https://www.amazon.de/",
+          "elapsedMs": 92
+        },
+        {
+          "method": "GET",
+          "status": 202,
+          "finalUrl": "https://www.amazon.de/",
+          "bodyHint": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <title></title>\n    <style>\n        body {\n            font-family: \"Arial\";\n        }\n    </style>\n    <script type=\"text/javascript\">\n    window.awsWafCookieDomainList = [];\n    window.gokuProps = {\n\"key\":\"AQIDAHjcYu/GjX+QlghicBgQ/7bFaQZ+m5FKCMDnO+vTbNg96AEPM1ztUEerBZt4CZN2qxciAAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMar9uPkfjbHRb92e3AgEQgDsLRU95DKkb+45sKqB5Z7fTgHuP+ylSydN69wrcCOT+NZEH4UyRfE+OwXUnZBHvQMnKmaAVOkn5YjH10A==\",\n          \"iv\":\"NC4WbwG5+gAARIHf\",\n          \"context\":\"IocOeiO5iB8YjVt0TC5BGjc7EZEi/DqjpXsdxfOoKmG978i7VEooK48mU3WXJFXfOqHXnGYDAPnRCf2l7aZ1agssCZNHgaGe+CPwzy6i/P2pDzwtNtokRA0ZCm3lLASsVllPnkczG66RJ",
+          "elapsedMs": 35
+        }
+      ]
+    },
+    {
+      "offerId": "offer-adidas-metalbone-hrd-2026-nl",
+      "url": "https://www.amazon.nl/",
+      "state": "LIKELY_VALID",
+      "checkedAt": "2026-09-09T22:03:11.174Z",
+      "httpStatus": 202,
+      "failureReason": "method_not_allowed",
+      "notes": "Amazon rejected HEAD/soft-blocked automation — host is known-good.",
+      "observations": [
+        {
+          "method": "HEAD",
+          "status": 405,
+          "finalUrl": "https://www.amazon.nl/",
+          "elapsedMs": 84
+        },
+        {
+          "method": "GET",
+          "status": 202,
+          "finalUrl": "https://www.amazon.nl/",
+          "bodyHint": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <title></title>\n    <style>\n        body {\n            font-family: \"Arial\";\n        }\n    </style>\n    <script type=\"text/javascript\">\n    window.awsWafCookieDomainList = [];\n    window.gokuProps = {\n\"key\":\"AQIDAHjcYu/GjX+QlghicBgQ/7bFaQZ+m5FKCMDnO+vTbNg96AEPM1ztUEerBZt4CZN2qxciAAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMar9uPkfjbHRb92e3AgEQgDsLRU95DKkb+45sKqB5Z7fTgHuP+ylSydN69wrcCOT+NZEH4UyRfE+OwXUnZBHvQMnKmaAVOkn5YjH10A==\",\n          \"iv\":\"EkQ4KAHSkwAAGUuu\",\n          \"context\":\"v57KfLkyNYFLpt0k/JUF4fdhHY+1wRZJc1Y4RbyQgM9S+1/Grl/GAsMBY9h24z34y7SlPfucIVlwawzRlmgRMEydyxn+200d+EkzePDDAPRJrwqwQBbyL4cMriCwL0NH/ZKKkkax1a2VO",
+          "elapsedMs": 64
+        }
+      ]
+    },
+    {
+      "offerId": "offer-adidas-metalbone-hrd-2026-uk",
+      "url": "https://www.amazon.co.uk/",
+      "state": "LIKELY_VALID",
+      "checkedAt": "2026-09-09T22:03:11.465Z",
+      "httpStatus": 202,
+      "failureReason": "method_not_allowed",
+      "notes": "Amazon rejected HEAD/soft-blocked automation — host is known-good.",
+      "observations": [
+        {
+          "method": "HEAD",
+          "status": 405,
+          "finalUrl": "https://www.amazon.co.uk/",
+          "elapsedMs": 117
+        },
+        {
+          "method": "GET",
+          "status": 202,
+          "finalUrl": "https://www.amazon.co.uk/",
+          "bodyHint": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <title></title>\n    <style>\n        body {\n            font-family: \"Arial\";\n        }\n    </style>\n    <script type=\"text/javascript\">\n    window.awsWafCookieDomainList = [];\n    window.gokuProps = {\n\"key\":\"AQIDAHjcYu/GjX+QlghicBgQ/7bFaQZ+m5FKCMDnO+vTbNg96AEPM1ztUEerBZt4CZN2qxciAAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMar9uPkfjbHRb92e3AgEQgDsLRU95DKkb+45sKqB5Z7fTgHuP+ylSydN69wrcCOT+NZEH4UyRfE+OwXUnZBHvQMnKmaAVOkn5YjH10A==\",\n          \"iv\":\"NC4WRAG2SwAAPRhX\",\n          \"context\":\"YJxqy5M7t8NY/16DJfsqjDTEU6yRMgtL+Szs+o9ebc7zspKGkIrtNdVLmJ+OmjhjWbrXN+//wQUpBw75iZN9Pi2ghNwMA0SwoRMQYLm4zCouPJpJRXRRjgdnrb+OpAkyBI0XeVfGfwaR0",
+          "elapsedMs": 46
+        }
+      ]
+    },
+    {
+      "offerId": "offer-advskin-nl",
+      "url": "https://www.amazon.nl/",
+      "state": "LIKELY_VALID",
+      "checkedAt": "2026-09-09T22:02:21.572Z",
+      "httpStatus": 202,
+      "failureReason": "method_not_allowed",
+      "notes": "Amazon rejected HEAD/soft-blocked automation — host is known-good.",
+      "observations": [
+        {
+          "method": "HEAD",
+          "status": 405,
+          "finalUrl": "https://www.amazon.nl/",
+          "elapsedMs": 99
+        },
+        {
+          "method": "GET",
+          "status": 202,
+          "finalUrl": "https://www.amazon.nl/",
+          "bodyHint": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <title></title>\n    <style>\n        body {\n            font-family: \"Arial\";\n        }\n    </style>\n    <script type=\"text/javascript\">\n    window.awsWafCookieDomainList = [];\n    window.gokuProps = {\n\"key\":\"AQIDAHjcYu/GjX+QlghicBgQ/7bFaQZ+m5FKCMDnO+vTbNg96AEPM1ztUEerBZt4CZN2qxciAAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMar9uPkfjbHRb92e3AgEQgDsLRU95DKkb+45sKqB5Z7fTgHuP+ylSydN69wrcCOT+NZEH4UyRfE+OwXUnZBHvQMnKmaAVOkn5YjH10A==\",\n          \"iv\":\"EkQ4FAHN4wAAGQk6\",\n          \"context\":\"0u0LYaJ9pQwLAzEMNVrw9JQ09xqzUIORLF1RJkBVk6rGSa7z9B5AgX6MBReU8ywxbtPt4XRaxZy3LRg4GYb8CuPfZeD8JJV7hc8WimES0jwuAblCvHq72bsYq5ltyVKEkjLwnKvu7RkLP",
+          "elapsedMs": 44
+        }
+      ]
+    },
+    {
+      "offerId": "offer-alphafly3-nl",
+      "url": "https://www.amazon.nl/",
+      "state": "LIKELY_VALID",
+      "checkedAt": "2026-09-09T22:02:25.582Z",
+      "httpStatus": 202,
+      "failureReason": "method_not_allowed",
+      "notes": "Amazon rejected HEAD/soft-blocked automation — host is known-good.",
+      "observations": [
+        {
+          "method": "HEAD",
+          "status": 405,
+          "finalUrl": "https://www.amazon.nl/",
+          "elapsedMs": 99
+        },
+        {
+          "method": "GET",
+          "status": 202,
+          "finalUrl": "https://www.amazon.nl/",
+          "bodyHint": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <title></title>\n    <style>\n        body {\n            font-family: \"Arial\";\n        }\n    </style>\n    <script type=\"text/javascript\">\n    window.awsWafCookieDomainList = [];\n    window.gokuProps = {\n\"key\":\"AQIDAHjcYu/GjX+QlghicBgQ/7bFaQZ+m5FKCMDnO+vTbNg96AEPM1ztUEerBZt4CZN2qxciAAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMar9uPkfjbHRb92e3AgEQgDsLRU95DKkb+45sKqB5Z7fTgHuP+ylSydN69wrcCOT+NZEH4UyRfE+OwXUnZBHvQMnKmaAVOkn5YjH10A==\",\n          \"iv\":\"EkQ4NwHMmwAAGRWd\",\n          \"context\":\"iXNFGi8RZB0o4DbMwCi+jCy8OCDDn+D/v4nqhTndmtD6YH62GTeIzRbc8hpnKBGGKpYaX1nDugMokQwjr1m7tSaa6qHAx4a6KqspHsWIxUhSvIjaD+dxSX21d7s/S0gAg3jjjS6g+g+4V",
+          "elapsedMs": 65
+        }
+      ]
+    },
+    {
+      "offerId": "offer-bag-nl",
+      "url": "https://www.amazon.nl/",
+      "state": "LIKELY_VALID",
+      "checkedAt": "2026-09-09T22:03:10.419Z",
+      "httpStatus": 202,
+      "failureReason": "method_not_allowed",
+      "notes": "Amazon rejected HEAD/soft-blocked automation — host is known-good.",
+      "observations": [
+        {
+          "method": "HEAD",
+          "status": 405,
+          "finalUrl": "https://www.amazon.nl/",
+          "elapsedMs": 88
+        },
+        {
+          "method": "GET",
+          "status": 202,
+          "finalUrl": "https://www.amazon.nl/",
+          "bodyHint": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <title></title>\n    <style>\n        body {\n            font-family: \"Arial\";\n        }\n    </style>\n    <script type=\"text/javascript\">\n    window.awsWafCookieDomainList = [];\n    window.gokuProps = {\n\"key\":\"AQIDAHjcYu/GjX+QlghicBgQ/7bFaQZ+m5FKCMDnO+vTbNg96AEPM1ztUEerBZt4CZN2qxciAAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMar9uPkfjbHRb92e3AgEQgDsLRU95DKkb+45sKqB5Z7fTgHuP+ylSydN69wrcCOT+NZEH4UyRfE+OwXUnZBHvQMnKmaAVOkn5YjH10A==\",\n          \"iv\":\"EkQ4KgHMtwAABLSG\",\n          \"context\":\"/naDUoNxoEWwtKaGZW10zqlwarGleY1KzyZEcM7LZz+frk9gF6liOysNzPXw1jhd+CmHc4SMg97IYDgp3VmXzPlwMae+Xz+KpA/aPiPUGcgQm7MRGRj9vKVIb1HggnhNRepY6omxAY4Os",
+          "elapsedMs": 52
+        }
+      ]
+    },
+    {
+      "offerId": "offer-bela-nl",
+      "url": "https://www.amazon.nl/",
+      "state": "LIKELY_VALID",
+      "checkedAt": "2026-09-09T22:03:10.554Z",
+      "httpStatus": 202,
+      "failureReason": "method_not_allowed",
+      "notes": "Amazon rejected HEAD/soft-blocked automation — host is known-good.",
+      "observations": [
+        {
+          "method": "HEAD",
+          "status": 405,
+          "finalUrl": "https://www.amazon.nl/",
+          "elapsedMs": 93
+        },
+        {
+          "method": "GET",
+          "status": 202,
+          "finalUrl": "https://www.amazon.nl/",
+          "bodyHint": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <title></title>\n    <style>\n        body {\n            font-family: \"Arial\";\n        }\n    </style>\n    <script type=\"text/javascript\">\n    window.awsWafCookieDomainList = [];\n    window.gokuProps = {\n\"key\":\"AQIDAHjcYu/GjX+QlghicBgQ/7bFaQZ+m5FKCMDnO+vTbNg96AEPM1ztUEerBZt4CZN2qxciAAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMar9uPkfjbHRb92e3AgEQgDsLRU95DKkb+45sKqB5Z7fTgHuP+ylSydN69wrcCOT+NZEH4UyRfE+OwXUnZBHvQMnKmaAVOkn5YjH10A==\",\n          \"iv\":\"EkQ4JgHQRQAAGsPF\",\n          \"context\":\"i6j5RYCvGShjg0d2vDRTEU6knNLmA0qpxF5X8ys6rJg8GDfpHIXWvEdXSD845qwk6vtlW7MDRoSXSSC1IX7SRxirVV8pRVMe0glTusrOuq/CVbZahkAYTB1RSbF01R6oXd90wO815QB5m",
+          "elapsedMs": 41
+        }
+      ]
+    },
+    {
+      "offerId": "offer-boston-de",
+      "url": "https://www.amazon.de/",
+      "state": "LIKELY_VALID",
+      "checkedAt": "2026-09-09T22:02:20.752Z",
+      "httpStatus": 200,
+      "failureReason": "method_not_allowed",
+      "notes": "Amazon rejected HEAD/soft-blocked automation — host is known-good.",
+      "observations": [
+        {
+          "method": "HEAD",
+          "status": 405,
+          "finalUrl": "https://www.amazon.de/",
+          "elapsedMs": 170
+        },
+        {
+          "method": "GET",
+          "status": 200,
+          "finalUrl": "https://www.amazon.de/",
+          "bodyHint": "<!DOCTYPE html><html><head> <meta charset=\"utf-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"> <meta http-equiv=\"refresh\" content=\"5; URL='/?bm-verify=AAQAAAAN_____y3byHAiQyvgppukd5imfka47osm-K80tFIi6kw3wi1YaHPsh7q4nSdS5Vky4T1E7lJ8GxT4xDCeiNQnZovtX6av5PcpxddMg8pAgc4hL0JxR-ervWmsjVvVrFEZzf2PDd0LRN-GMrCugqe3nVfVgLEAkhbBVvAX9wDIn9j6zEAJu32-ZxJ-lI5P_OCKnGzzJkMWPJarkzwMa65DKEpNMRGifnWBTSTG_j7jTNWHybo'\" /><title>&nbsp;</title><script> var i = 1788991340; var j = i + Number(\"2893\" + \"32388\"); </script> </head> <noscript> <iframe style=\"border: none; height: 100%; width: 100%;\" src=\"\"></iframe></noscript><body> <iframe style=\"border: none; width: 100vw; height: 100vh;\" src=\"https://m.media-amazon.com/images/S/sash/6Uh4bsAwUkB3vJb.gif\"> </iframe> <script> ",
+          "elapsedMs": 92
+        }
+      ]
+    },
+    {
+      "offerId": "offer-boston-nl",
+      "url": "https://www.amazon.nl/",
+      "state": "LIKELY_VALID",
+      "checkedAt": "2026-09-09T22:02:20.332Z",
+      "httpStatus": 202,
+      "failureReason": "method_not_allowed",
+      "notes": "Amazon rejected HEAD/soft-blocked automation — host is known-good.",
+      "observations": [
+        {
+          "method": "HEAD",
+          "status": 405,
+          "finalUrl": "https://www.amazon.nl/",
+          "elapsedMs": 122
+        },
+        {
+          "method": "GET",
+          "status": 202,
+          "finalUrl": "https://www.amazon.nl/",
+          "bodyHint": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <title></title>\n    <style>\n        body {\n            font-family: \"Arial\";\n        }\n    </style>\n    <script type=\"text/javascript\">\n    window.awsWafCookieDomainList = [];\n    window.gokuProps = {\n\"key\":\"AQIDAHjcYu/GjX+QlghicBgQ/7bFaQZ+m5FKCMDnO+vTbNg96AEPM1ztUEerBZt4CZN2qxciAAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMar9uPkfjbHRb92e3AgEQgDsLRU95DKkb+45sKqB5Z7fTgHuP+ylSydN69wrcCOT+NZEH4UyRfE+OwXUnZBHvQMnKmaAVOkn5YjH10A==\",\n          \"iv\":\"EkQ4DwHMxAAAGJP5\",\n          \"context\":\"UIBg1Ysyrx9HsSZ2LFDPJeofI/5XZi5jI2k33q4q5XpzEx74zb20HmI0DUs9p9KiRfemxkgJ/qb55sU4270HXo0zjPslIWgmE5syqJe53jd68FTZX2Z5JxGsXlSnvXX1wXb/u4FBfgXbp",
+          "elapsedMs": 54
+        }
+      ]
+    },
+    {
+      "offerId": "offer-boston-uk",
+      "url": "https://www.amazon.co.uk/",
+      "state": "LIKELY_VALID",
+      "checkedAt": "2026-09-09T22:02:20.490Z",
+      "httpStatus": 202,
+      "failureReason": "method_not_allowed",
+      "notes": "Amazon rejected HEAD/soft-blocked automation — host is known-good.",
+      "observations": [
+        {
+          "method": "HEAD",
+          "status": 405,
+          "finalUrl": "https://www.amazon.co.uk/",
+          "elapsedMs": 112
+        },
+        {
+          "method": "GET",
+          "status": 202,
+          "finalUrl": "https://www.amazon.co.uk/",
+          "bodyHint": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <title></title>\n    <style>\n        body {\n            font-family: \"Arial\";\n        }\n    </style>\n    <script type=\"text/javascript\">\n    window.awsWafCookieDomainList = [];\n    window.gokuProps = {\n\"key\":\"AQIDAHjcYu/GjX+QlghicBgQ/7bFaQZ+m5FKCMDnO+vTbNg96AEPM1ztUEerBZt4CZN2qxciAAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMar9uPkfjbHRb92e3AgEQgDsLRU95DKkb+45sKqB5Z7fTgHuP+ylSydN69wrcCOT+NZEH4UyRfE+OwXUnZBHvQMnKmaAVOkn5YjH10A==\",\n          \"iv\":\"NC4WbgG7CwAAR10z\",\n          \"context\":\"25u6knixlmLbVVJich5BgiTrYJyBmiX5z8KxekOT6D/+krLMLs1CyrKwORX/wxHyRaOb6SenE5VrF77TA1rudSDnDHfkeDU/vd8iomKOm26RgKS7C5XVX6izboSnLquqLRUa+GEcJpD39",
+          "elapsedMs": 46
+        }
+      ]
+    },
+    {
+      "offerId": "offer-clifton9-nl",
+      "url": "https://www.amazon.nl/",
+      "state": "LIKELY_VALID",
+      "checkedAt": "2026-09-09T22:02:20.011Z",
+      "httpStatus": 202,
+      "failureReason": "method_not_allowed",
+      "notes": "Amazon rejected HEAD/soft-blocked automation — host is known-good.",
+      "observations": [
+        {
+          "method": "HEAD",
+          "status": 405,
+          "finalUrl": "https://www.amazon.nl/",
+          "elapsedMs": 94
+        },
+        {
+          "method": "GET",
+          "status": 202,
+          "finalUrl": "https://www.amazon.nl/",
+          "bodyHint": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <title></title>\n    <style>\n        body {\n            font-family: \"Arial\";\n        }\n    </style>\n    <script type=\"text/javascript\">\n    window.awsWafCookieDomainList = [];\n    window.gokuProps = {\n\"key\":\"AQIDAHjcYu/GjX+QlghicBgQ/7bFaQZ+m5FKCMDnO+vTbNg96AEPM1ztUEerBZt4CZN2qxciAAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMar9uPkfjbHRb92e3AgEQgDsLRU95DKkb+45sKqB5Z7fTgHuP+ylSydN69wrcCOT+NZEH4UyRfE+OwXUnZBHvQMnKmaAVOkn5YjH10A==\",\n          \"iv\":\"EkQ4DAHMuQAAGdCx\",\n          \"context\":\"YCrZ8/hRCdm7K5R2HGQcxyFuNUPm9RlLRb8WyTJ/Nmu0ma7C3IHlAZlEjksBnq8LlHMZCSOkLS/8b9QdENxLUoPWTag9Qvq3FI0hwKmqfhsYTq3QQ+y+Lp0Adyq56teTjY4UYlxwnPX1P",
+          "elapsedMs": 44
+        }
+      ]
+    },
+    {
+      "offerId": "offer-diablo-nl",
+      "url": "https://www.amazon.nl/",
+      "state": "LIKELY_VALID",
+      "checkedAt": "2026-09-09T22:03:09.764Z",
+      "httpStatus": 202,
+      "failureReason": "method_not_allowed",
+      "notes": "Amazon rejected HEAD/soft-blocked automation — host is known-good.",
+      "observations": [
+        {
+          "method": "HEAD",
+          "status": 405,
+          "finalUrl": "https://www.amazon.nl/",
+          "elapsedMs": 97
+        },
+        {
+          "method": "GET",
+          "status": 202,
+          "finalUrl": "https://www.amazon.nl/",
+          "bodyHint": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <title></title>\n    <style>\n        body {\n            font-family: \"Arial\";\n        }\n    </style>\n    <script type=\"text/javascript\">\n    window.awsWafCookieDomainList = [];\n    window.gokuProps = {\n\"key\":\"AQIDAHjcYu/GjX+QlghicBgQ/7bFaQZ+m5FKCMDnO+vTbNg96AEPM1ztUEerBZt4CZN2qxciAAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMar9uPkfjbHRb92e3AgEQgDsLRU95DKkb+45sKqB5Z7fTgHuP+ylSydN69wrcCOT+NZEH4UyRfE+OwXUnZBHvQMnKmaAVOkn5YjH10A==\",\n          \"iv\":\"EkQ4DgHSkwAABMLM\",\n          \"context\":\"fJNB55sR5bkLqKHkDPMBT4aTUdwO/OAFMsY2nzBtI/W9et5kAnMoom/f5rAcK8AgeAWA3F/G/Tuw+Fa5/y8/gFlWZUxhW5DZb56jSiKG4rvcGQYr9MVQCAc+9kCAatCii/0G/8SjYpuuX",
+          "elapsedMs": 48
+        }
+      ]
+    },
+    {
+      "offerId": "offer-drop-shot-canyon-pro-2026-de",
+      "url": "https://www.amazon.de/",
+      "state": "LIKELY_VALID",
+      "checkedAt": "2026-09-09T22:03:12.252Z",
+      "httpStatus": 202,
+      "failureReason": "method_not_allowed",
+      "notes": "Amazon rejected HEAD/soft-blocked automation — host is known-good.",
+      "observations": [
+        {
+          "method": "HEAD",
+          "status": 405,
+          "finalUrl": "https://www.amazon.de/",
+          "elapsedMs": 121
+        },
+        {
+          "method": "GET",
+          "status": 202,
+          "finalUrl": "https://www.amazon.de/",
+          "bodyHint": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <title></title>\n    <style>\n        body {\n            font-family: \"Arial\";\n        }\n    </style>\n    <script type=\"text/javascript\">\n    window.awsWafCookieDomainList = [];\n    window.gokuProps = {\n\"key\":\"AQIDAHjcYu/GjX+QlghicBgQ/7bFaQZ+m5FKCMDnO+vTbNg96AEPM1ztUEerBZt4CZN2qxciAAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMar9uPkfjbHRb92e3AgEQgDsLRU95DKkb+45sKqB5Z7fTgHuP+ylSydN69wrcCOT+NZEH4UyRfE+OwXUnZBHvQMnKmaAVOkn5YjH10A==\",\n          \"iv\":\"NC4WaAG5uAAAQaU6\",\n          \"context\":\"iXc3Tpw86EV0/uNnIUfsgKYRsoxi5UMyXsFCgQfKmLwo3Pw8kSYdgZGIRnowp6QAzYwEBNVXPuFx0U/94cQkWCnpo+eBmFzksAqzsa4xvOukgZBW9GWf/ShQ/QGeWEuBLs1FLtQlJRyL9",
+          "elapsedMs": 46
+        }
+      ]
+    },
+    {
+      "offerId": "offer-drop-shot-canyon-pro-2026-nl",
+      "url": "https://www.amazon.nl/",
+      "state": "LIKELY_VALID",
+      "checkedAt": "2026-09-09T22:03:12.084Z",
+      "httpStatus": 202,
+      "failureReason": "method_not_allowed",
+      "notes": "Amazon rejected HEAD/soft-blocked automation — host is known-good.",
+      "observations": [
+        {
+          "method": "HEAD",
+          "status": 405,
+          "finalUrl": "https://www.amazon.nl/",
+          "elapsedMs": 102
+        },
+        {
+          "method": "GET",
+          "status": 202,
+          "finalUrl": "https://www.amazon.nl/",
+          "bodyHint": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <title></title>\n    <style>\n        body {\n            font-family: \"Arial\";\n        }\n    </style>\n    <script type=\"text/javascript\">\n    window.awsWafCookieDomainList = [];\n    window.gokuProps = {\n\"key\":\"AQIDAHjcYu/GjX+QlghicBgQ/7bFaQZ+m5FKCMDnO+vTbNg96AEPM1ztUEerBZt4CZN2qxciAAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMar9uPkfjbHRb92e3AgEQgDsLRU95DKkb+45sKqB5Z7fTgHuP+ylSydN69wrcCOT+NZEH4UyRfE+OwXUnZBHvQMnKmaAVOkn5YjH10A==\",\n          \"iv\":\"EkQ4DgHSkwAABMLP\",\n          \"context\":\"PifAlln3WB+f+4pwlV6NCMcosDZiLJi8EAj2FQeKWbryH1cOJ2lWeKh4GfZSSivDXwxGcRECktmZFbZrR2uTokPjTKfgQ3AOk5K+LjtfgSNx527Fblx6abq6PYYcq/VT9CV/eyiEGLbB1",
+          "elapsedMs": 50
+        }
+      ]
+    },
+    {
+      "offerId": "offer-drop-shot-canyon-pro-2026-uk",
+      "url": "https://www.amazon.co.uk/",
+      "state": "LIKELY_VALID",
+      "checkedAt": "2026-09-09T22:03:12.398Z",
+      "httpStatus": 202,
+      "failureReason": "method_not_allowed",
+      "notes": "Amazon rejected HEAD/soft-blocked automation — host is known-good.",
+      "observations": [
+        {
+          "method": "HEAD",
+          "status": 405,
+          "finalUrl": "https://www.amazon.co.uk/",
+          "elapsedMs": 95
+        },
+        {
+          "method": "GET",
+          "status": 202,
+          "finalUrl": "https://www.amazon.co.uk/",
+          "bodyHint": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <title></title>\n    <style>\n        body {\n            font-family: \"Arial\";\n        }\n    </style>\n    <script type=\"text/javascript\">\n    window.awsWafCookieDomainList = [];\n    window.gokuProps = {\n\"key\":\"AQIDAHjcYu/GjX+QlghicBgQ/7bFaQZ+m5FKCMDnO+vTbNg96AEPM1ztUEerBZt4CZN2qxciAAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMar9uPkfjbHRb92e3AgEQgDsLRU95DKkb+45sKqB5Z7fTgHuP+ylSydN69wrcCOT+NZEH4UyRfE+OwXUnZBHvQMnKmaAVOkn5YjH10A==\",\n          \"iv\":\"NC4WawG5zgAAPn4j\",\n          \"context\":\"DBDZ6XTza1vzgZjMR9asb7FjgZllFjFUDFrxzAuYSUZqpH4fsOZ4el6cS4qlZs8IEdGCUATqy80waEi9aalBkhyvpF16Rf7lwQAzcZS2K1bWQRL80K3fsRBinA7V8Vlse3GC/4SToQdcf",
+          "elapsedMs": 51
+        }
+      ]
+    },
+    {
+      "offerId": "offer-fr970-nl-amz",
+      "url": "https://www.amazon.nl/",
+      "state": "LIKELY_VALID",
+      "checkedAt": "2026-09-09T22:02:26.717Z",
+      "httpStatus": 202,
+      "failureReason": "method_not_allowed",
+      "notes": "Amazon rejected HEAD/soft-blocked automation — host is known-good.",
+      "observations": [
+        {
+          "method": "HEAD",
+          "status": 405,
+          "finalUrl": "https://www.amazon.nl/",
+          "elapsedMs": 100
+        },
+        {
+          "method": "GET",
+          "status": 202,
+          "finalUrl": "https://www.amazon.nl/",
+          "bodyHint": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <title></title>\n    <style>\n        body {\n            font-family: \"Arial\";\n        }\n    </style>\n    <script type=\"text/javascript\">\n    window.awsWafCookieDomainList = [];\n    window.gokuProps = {\n\"key\":\"AQIDAHjcYu/GjX+QlghicBgQ/7bFaQZ+m5FKCMDnO+vTbNg96AEPM1ztUEerBZt4CZN2qxciAAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMar9uPkfjbHRb92e3AgEQgDsLRU95DKkb+45sKqB5Z7fTgHuP+ylSydN69wrcCOT+NZEH4UyRfE+OwXUnZBHvQMnKmaAVOkn5YjH10A==\",\n          \"iv\":\"EkQ4DAHMuQAAGdC6\",\n          \"context\":\"vSrv3s/6a1PSlZ94GaGjgXtIZtfb/AUirrlHN+1DcbXqj/GCPEvNfBYk3ohe/iVU4ua2ZU4o2DaVH77Ui/cl4zpBJSYyLeJ8CZTucyEdYFoQmRUOjvHff/zixOkzpWq0VRct6DQ2LV1xz",
+          "elapsedMs": 48
+        }
+      ]
+    },
+    {
+      "offerId": "offer-ghost16-nl",
+      "url": "https://www.amazon.nl/",
+      "state": "LIKELY_VALID",
+      "checkedAt": "2026-09-09T22:02:19.873Z",
+      "httpStatus": 202,
+      "failureReason": "method_not_allowed",
+      "notes": "Amazon rejected HEAD/soft-blocked automation — host is known-good.",
+      "observations": [
+        {
+          "method": "HEAD",
+          "status": 405,
+          "finalUrl": "https://www.amazon.nl/",
+          "elapsedMs": 96
+        },
+        {
+          "method": "GET",
+          "status": 202,
+          "finalUrl": "https://www.amazon.nl/",
+          "bodyHint": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <title></title>\n    <style>\n        body {\n            font-family: \"Arial\";\n        }\n    </style>\n    <script type=\"text/javascript\">\n    window.awsWafCookieDomainList = [];\n    window.gokuProps = {\n\"key\":\"AQIDAHjcYu/GjX+QlghicBgQ/7bFaQZ+m5FKCMDnO+vTbNg96AEPM1ztUEerBZt4CZN2qxciAAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMar9uPkfjbHRb92e3AgEQgDsLRU95DKkb+45sKqB5Z7fTgHuP+ylSydN69wrcCOT+NZEH4UyRfE+OwXUnZBHvQMnKmaAVOkn5YjH10A==\",\n          \"iv\":\"EkQ4EAHPDwAAG9vZ\",\n          \"context\":\"Aw6lJ19DDAZwXv6ur0WQqOj3ooyW3wZAECYYJcVXKh7r2cj4zkdHaBwZw+60EdSHwK6a68HbSaJtbRFVPyg6inqJcHQ72IgWPIV/y49vvMGPDkdvjkkrUbW8YbRTFIPFTE5EdYRETqvWe",
+          "elapsedMs": 54
+        }
+      ]
+    },
+    {
+      "offerId": "offer-ghost18-nl-amz",
+      "url": "https://www.amazon.nl/",
+      "state": "LIKELY_VALID",
+      "checkedAt": "2026-09-09T22:02:23.503Z",
+      "httpStatus": 202,
+      "failureReason": "method_not_allowed",
+      "notes": "Amazon rejected HEAD/soft-blocked automation — host is known-good.",
+      "observations": [
+        {
+          "method": "HEAD",
+          "status": 405,
+          "finalUrl": "https://www.amazon.nl/",
+          "elapsedMs": 105
+        },
+        {
+          "method": "GET",
+          "status": 202,
+          "finalUrl": "https://www.amazon.nl/",
+          "bodyHint": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <title></title>\n    <style>\n        body {\n            font-family: \"Arial\";\n        }\n    </style>\n    <script type=\"text/javascript\">\n    window.awsWafCookieDomainList = [];\n    window.gokuProps = {\n\"key\":\"AQIDAHjcYu/GjX+QlghicBgQ/7bFaQZ+m5FKCMDnO+vTbNg96AEPM1ztUEerBZt4CZN2qxciAAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMar9uPkfjbHRb92e3AgEQgDsLRU95DKkb+45sKqB5Z7fTgHuP+ylSydN69wrcCOT+NZEH4UyRfE+OwXUnZBHvQMnKmaAVOkn5YjH10A==\",\n          \"iv\":\"EkQ4DgHSkwAABMKS\",\n          \"context\":\"UA+3aNsqAc2J20Bo/xT9NHk3JPSB/v0zUODrroIqiMOXJEZu/TMh6R+JeSqMa43N0w1AZvamdxN9uimPaCURDjqb4A754aWyMGr19f2ReOICZW89kAJA/D5vNQNUGP0Qr1Y9W8XTFRlux",
+          "elapsedMs": 44
+        }
+      ]
+    },
+    {
+      "offerId": "offer-ghost18-uk",
+      "url": "https://www.amazon.co.uk/",
+      "state": "LIKELY_VALID",
+      "checkedAt": "2026-09-09T22:02:23.669Z",
+      "httpStatus": 202,
+      "failureReason": "method_not_allowed",
+      "notes": "Amazon rejected HEAD/soft-blocked automation — host is known-good.",
+      "observations": [
+        {
+          "method": "HEAD",
+          "status": 405,
+          "finalUrl": "https://www.amazon.co.uk/",
+          "elapsedMs": 114
+        },
+        {
+          "method": "GET",
+          "status": 202,
+          "finalUrl": "https://www.amazon.co.uk/",
+          "bodyHint": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <title></title>\n    <style>\n        body {\n            font-family: \"Arial\";\n        }\n    </style>\n    <script type=\"text/javascript\">\n    window.awsWafCookieDomainList = [];\n    window.gokuProps = {\n\"key\":\"AQIDAHjcYu/GjX+QlghicBgQ/7bFaQZ+m5FKCMDnO+vTbNg96AEPM1ztUEerBZt4CZN2qxciAAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMar9uPkfjbHRb92e3AgEQgDsLRU95DKkb+45sKqB5Z7fTgHuP+ylSydN69wrcCOT+NZEH4UyRfE+OwXUnZBHvQMnKmaAVOkn5YjH10A==\",\n          \"iv\":\"NC4WYwG57QAASRNA\",\n          \"context\":\"ijuOVU/zdkMrKwt666lFWMkLYutPKMuIYQYRP7R5Dj6MZ1lJ8o3sJovo79oDL7mTfidUVbbVOkU1RMpK3lI3smKj9c9O8cVqCPuNYCBx9W1OEWfbq3scDyEcCsA2eimn08aziIxIjn9NQ",
+          "elapsedMs": 52
+        }
+      ]
+    },
+    {
+      "offerId": "offer-grips-nl",
+      "url": "https://www.amazon.nl/",
+      "state": "LIKELY_VALID",
+      "checkedAt": "2026-09-09T22:03:10.279Z",
+      "httpStatus": 202,
+      "failureReason": "method_not_allowed",
+      "notes": "Amazon rejected HEAD/soft-blocked automation — host is known-good.",
+      "observations": [
+        {
+          "method": "HEAD",
+          "status": 405,
+          "finalUrl": "https://www.amazon.nl/",
+          "elapsedMs": 127
+        },
+        {
+          "method": "GET",
+          "status": 202,
+          "finalUrl": "https://www.amazon.nl/",
+          "bodyHint": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <title></title>\n    <style>\n        body {\n            font-family: \"Arial\";\n        }\n    </style>\n    <script type=\"text/javascript\">\n    window.awsWafCookieDomainList = [];\n    window.gokuProps = {\n\"key\":\"AQIDAHjcYu/GjX+QlghicBgQ/7bFaQZ+m5FKCMDnO+vTbNg96AEPM1ztUEerBZt4CZN2qxciAAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMar9uPkfjbHRb92e3AgEQgDsLRU95DKkb+45sKqB5Z7fTgHuP+ylSydN69wrcCOT+NZEH4UyRfE+OwXUnZBHvQMnKmaAVOkn5YjH10A==\",\n          \"iv\":\"EkQ4FQHN5QAAG9qL\",\n          \"context\":\"XT6LYreThW4wNBlU3yA2kw/vuQq5GXYxNd08sUJqNX2P0q7MgLCsioGfVzcah9p8vMo1uf/UzGjchSR7is3349mBlo3rhzODnBoR3UhqyOwy7R/B8Z8jza49yc+2HHsnAbvAW9uIQ/AfV",
+          "elapsedMs": 56
+        }
+      ]
+    },
+    {
+      "offerId": "offer-h10-nl",
+      "url": "https://www.amazon.nl/",
+      "state": "LIKELY_VALID",
+      "checkedAt": "2026-09-09T22:02:27.261Z",
+      "httpStatus": 202,
+      "failureReason": "method_not_allowed",
+      "notes": "Amazon rejected HEAD/soft-blocked automation — host is known-good.",
+      "observations": [
+        {
+          "method": "HEAD",
+          "status": 405,
+          "finalUrl": "https://www.amazon.nl/",
+          "elapsedMs": 102
+        },
+        {
+          "method": "GET",
+          "status": 202,
+          "finalUrl": "https://www.amazon.nl/",
+          "bodyHint": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <title></title>\n    <style>\n        body {\n            font-family: \"Arial\";\n        }\n    </style>\n    <script type=\"text/javascript\">\n    window.awsWafCookieDomainList = [];\n    window.gokuProps = {\n\"key\":\"AQIDAHjcYu/GjX+QlghicBgQ/7bFaQZ+m5FKCMDnO+vTbNg96AEPM1ztUEerBZt4CZN2qxciAAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMar9uPkfjbHRb92e3AgEQgDsLRU95DKkb+45sKqB5Z7fTgHuP+ylSydN69wrcCOT+NZEH4UyRfE+OwXUnZBHvQMnKmaAVOkn5YjH10A==\",\n          \"iv\":\"EkQ4EQHNxQAAGwpc\",\n          \"context\":\"hTVhUcQ1/d/3ZF0NHDoyNN/coUmpO8qDBYxrG9YYvSk8syTx+9RdeFRXMbprKYGLWTtKQNeNXU3M30wOJ/zPLpyyUmumy7dBRraqRhYU5iRjRjRiQBFDKEHm4W1EdL/1QNUMRmbSOY1xZ",
+          "elapsedMs": 45
+        }
+      ]
+    },
+    {
+      "offerId": "offer-hrm-uk",
+      "url": "https://www.amazon.co.uk/",
+      "state": "LIKELY_VALID",
+      "checkedAt": "2026-09-09T22:02:21.429Z",
+      "httpStatus": 202,
+      "failureReason": "method_not_allowed",
+      "notes": "Amazon rejected HEAD/soft-blocked automation — host is known-good.",
+      "observations": [
+        {
+          "method": "HEAD",
+          "status": 405,
+          "finalUrl": "https://www.amazon.co.uk/",
+          "elapsedMs": 97
+        },
+        {
+          "method": "GET",
+          "status": 202,
+          "finalUrl": "https://www.amazon.co.uk/",
+          "bodyHint": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <title></title>\n    <style>\n        body {\n            font-family: \"Arial\";\n        }\n    </style>\n    <script type=\"text/javascript\">\n    window.awsWafCookieDomainList = [];\n    window.gokuProps = {\n\"key\":\"AQIDAHjcYu/GjX+QlghicBgQ/7bFaQZ+m5FKCMDnO+vTbNg96AEPM1ztUEerBZt4CZN2qxciAAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMar9uPkfjbHRb92e3AgEQgDsLRU95DKkb+45sKqB5Z7fTgHuP+ylSydN69wrcCOT+NZEH4UyRfE+OwXUnZBHvQMnKmaAVOkn5YjH10A==\",\n          \"iv\":\"NC4WYwG57QAASRMw\",\n          \"context\":\"zj9PL8Dm/olE+ghZuOnjR9x7kETs9JH1UMq3FteRzZFzVNv+6atubB2sYG75NQ3fVm2PU7y5cvQxCkwpi+fH85dmKZAxYkNwESH7tAEd6h0OJ+LVH93PT7EKe8/KTKUoyjVXWp2TfbtEE",
+          "elapsedMs": 44
+        }
+      ]
+    },
+    {
+      "offerId": "offer-kuikma-pr-soft-500-de",
+      "url": "https://www.amazon.de/",
+      "state": "LIKELY_VALID",
+      "checkedAt": "2026-09-09T22:03:11.758Z",
+      "httpStatus": 202,
+      "failureReason": "method_not_allowed",
+      "notes": "Amazon rejected HEAD/soft-blocked automation — host is known-good.",
+      "observations": [
+        {
+          "method": "HEAD",
+          "status": 405,
+          "finalUrl": "https://www.amazon.de/",
+          "elapsedMs": 100
+        },
+        {
+          "method": "GET",
+          "status": 202,
+          "finalUrl": "https://www.amazon.de/",
+          "bodyHint": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <title></title>\n    <style>\n        body {\n            font-family: \"Arial\";\n        }\n    </style>\n    <script type=\"text/javascript\">\n    window.awsWafCookieDomainList = [];\n    window.gokuProps = {\n\"key\":\"AQIDAHjcYu/GjX+QlghicBgQ/7bFaQZ+m5FKCMDnO+vTbNg96AEPM1ztUEerBZt4CZN2qxciAAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMar9uPkfjbHRb92e3AgEQgDsLRU95DKkb+45sKqB5Z7fTgHuP+ylSydN69wrcCOT+NZEH4UyRfE+OwXUnZBHvQMnKmaAVOkn5YjH10A==\",\n          \"iv\":\"NC4WcAG2VgAAQhjz\",\n          \"context\":\"uG20V2uMnRchG156CoKg14XZKCmul0pyXcKDS1LgWMaxLbWCsYDbS9Yj+glFpomcqrL8q4wNM2yt7mMRhxzfXARZ+eBnYL+U6YGRqP0bax/6qIQxlbfeqV6/DykFL38pISb3hUPo4LXmX",
+          "elapsedMs": 47
+        }
+      ]
+    },
+    {
+      "offerId": "offer-kuikma-pr-soft-500-nl",
+      "url": "https://www.amazon.nl/",
+      "state": "LIKELY_VALID",
+      "checkedAt": "2026-09-09T22:03:11.611Z",
+      "httpStatus": 202,
+      "failureReason": "method_not_allowed",
+      "notes": "Amazon rejected HEAD/soft-blocked automation — host is known-good.",
+      "observations": [
+        {
+          "method": "HEAD",
+          "status": 405,
+          "finalUrl": "https://www.amazon.nl/",
+          "elapsedMs": 95
+        },
+        {
+          "method": "GET",
+          "status": 202,
+          "finalUrl": "https://www.amazon.nl/",
+          "bodyHint": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <title></title>\n    <style>\n        body {\n            font-family: \"Arial\";\n        }\n    </style>\n    <script type=\"text/javascript\">\n    window.awsWafCookieDomainList = [];\n    window.gokuProps = {\n\"key\":\"AQIDAHjcYu/GjX+QlghicBgQ/7bFaQZ+m5FKCMDnO+vTbNg96AEPM1ztUEerBZt4CZN2qxciAAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMar9uPkfjbHRb92e3AgEQgDsLRU95DKkb+45sKqB5Z7fTgHuP+ylSydN69wrcCOT+NZEH4UyRfE+OwXUnZBHvQMnKmaAVOkn5YjH10A==\",\n          \"iv\":\"EkQ4JQHO+gAAGbFH\",\n          \"context\":\"KCQSfdjw6gKzhgjVx9st42y8vvX5TER4g32fwH82bB7YEoTOKT5RYwKRQHYFi+/ldpG/YHDiij2X+nPjZOZUadcnsu4kB7bJbsnuWTqmacg6M99lZUZYanALquVGcaQxI5eIkvsgtS8Hv",
+          "elapsedMs": 51
+        }
+      ]
+    },
+    {
+      "offerId": "offer-kuikma-pr-soft-500-uk",
+      "url": "https://www.amazon.co.uk/",
+      "state": "LIKELY_VALID",
+      "checkedAt": "2026-09-09T22:03:11.932Z",
+      "httpStatus": 202,
+      "failureReason": "method_not_allowed",
+      "notes": "Amazon rejected HEAD/soft-blocked automation — host is known-good.",
+      "observations": [
+        {
+          "method": "HEAD",
+          "status": 405,
+          "finalUrl": "https://www.amazon.co.uk/",
+          "elapsedMs": 128
+        },
+        {
+          "method": "GET",
+          "status": 202,
+          "finalUrl": "https://www.amazon.co.uk/",
+          "bodyHint": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <title></title>\n    <style>\n        body {\n            font-family: \"Arial\";\n        }\n    </style>\n    <script type=\"text/javascript\">\n    window.awsWafCookieDomainList = [];\n    window.gokuProps = {\n\"key\":\"AQIDAHjcYu/GjX+QlghicBgQ/7bFaQZ+m5FKCMDnO+vTbNg96AEPM1ztUEerBZt4CZN2qxciAAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMar9uPkfjbHRb92e3AgEQgDsLRU95DKkb+45sKqB5Z7fTgHuP+ylSydN69wrcCOT+NZEH4UyRfE+OwXUnZBHvQMnKmaAVOkn5YjH10A==\",\n          \"iv\":\"NC4WaQG6DwAARDpd\",\n          \"context\":\"cYlLPiAq4PUv0dGiFR18Amtq1NWkZSWCuv2Q9jXasSstFHk4NOrnGOWkNzQugUCcuqcaFUeY9KN7J5RHCrBDdsWYuk+SEsQMFpJBdPMHYHhKKIF/eHY8qceTQTVY8fLwhlhFDqwjBtT+6",
+          "elapsedMs": 46
+        }
+      ]
+    },
+    {
+      "offerId": "offer-nb5-uk",
+      "url": "https://www.amazon.co.uk/",
+      "state": "LIKELY_VALID",
+      "checkedAt": "2026-09-09T22:02:18.901Z",
+      "httpStatus": 202,
+      "failureReason": "method_not_allowed",
+      "notes": "Amazon rejected HEAD/soft-blocked automation — host is known-good.",
+      "observations": [
+        {
+          "method": "HEAD",
+          "status": 405,
+          "finalUrl": "https://www.amazon.co.uk/",
+          "elapsedMs": 155
+        },
+        {
+          "method": "GET",
+          "status": 202,
+          "finalUrl": "https://www.amazon.co.uk/",
+          "bodyHint": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <title></title>\n    <style>\n        body {\n            font-family: \"Arial\";\n        }\n    </style>\n    <script type=\"text/javascript\">\n    window.awsWafCookieDomainList = [];\n    window.gokuProps = {\n\"key\":\"AQIDAHjcYu/GjX+QlghicBgQ/7bFaQZ+m5FKCMDnO+vTbNg96AEPM1ztUEerBZt4CZN2qxciAAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMar9uPkfjbHRb92e3AgEQgDsLRU95DKkb+45sKqB5Z7fTgHuP+ylSydN69wrcCOT+NZEH4UyRfE+OwXUnZBHvQMnKmaAVOkn5YjH10A==\",\n          \"iv\":\"NC4WbwG5+gAARICj\",\n          \"context\":\"texndplNvKFpiWDq2rTK/laBw1lNvwyRSIvhvog1vmbMASFKPo6EL+pO98fwEasSz2gpJnchk8xBAP4OkCFVMHBfRrNAXieRl5g+MX57OGd+xTPX3MMl9X0kATEuGzO/M9Rrubv4pNAD1",
+          "elapsedMs": 47
+        }
+      ]
+    },
+    {
+      "offerId": "offer-nb6-de",
+      "url": "https://www.amazon.de/",
+      "state": "LIKELY_VALID",
+      "checkedAt": "2026-09-09T22:02:22.343Z",
+      "httpStatus": 200,
+      "failureReason": "method_not_allowed",
+      "notes": "Amazon rejected HEAD/soft-blocked automation — host is known-good.",
+      "observations": [
+        {
+          "method": "HEAD",
+          "status": 405,
+          "finalUrl": "https://www.amazon.de/",
+          "elapsedMs": 179
+        },
+        {
+          "method": "GET",
+          "status": 200,
+          "finalUrl": "https://www.amazon.de/",
+          "bodyHint": "<!DOCTYPE html><html><head> <meta charset=\"utf-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"> <meta http-equiv=\"refresh\" content=\"5; URL='/?bm-verify=AAQAAAAN_____7hAuuKNTI3egh7gYO32fKBRs7Mp8vIOIvo75uKgF7R5EkuNYFQJnCGg8tvEq_XgkxTGlHkiqzn73dsy_tSyoOPvV44gAUNFlkQ9ny0ncIJ4XMZ5EU7-tJPEG1AaMd9ruJSimTl6RCUSdWrVF20vuIkCweC0yBniNbueEwGc2scEW4twCxwW5Ev2SuG7_dmH8QBx4QtK1dPsbBY3lE9tFKsrvkJOflkWBmuqnNONGOk'\" /><title>&nbsp;</title><script> var i = 1788991342; var j = i + Number(\"2216\" + \"79561\"); </script> </head> <noscript> <iframe style=\"border: none; height: 100%; width: 100%;\" src=\"\"></iframe></noscript><body> <iframe style=\"border: none; width: 100vw; height: 100vh;\" src=\"https://m.media-amazon.com/images/S/sash/6Uh4bsAwUkB3vJb.gif\"> </iframe> <script> ",
+          "elapsedMs": 147
+        }
+      ]
+    },
+    {
+      "offerId": "offer-nb6-nl-amz",
+      "url": "https://www.amazon.nl/",
+      "state": "LIKELY_VALID",
+      "checkedAt": "2026-09-09T22:02:22.016Z",
+      "httpStatus": 202,
+      "failureReason": "method_not_allowed",
+      "notes": "Amazon rejected HEAD/soft-blocked automation — host is known-good.",
+      "observations": [
+        {
+          "method": "HEAD",
+          "status": 405,
+          "finalUrl": "https://www.amazon.nl/",
+          "elapsedMs": 149
+        },
+        {
+          "method": "GET",
+          "status": 202,
+          "finalUrl": "https://www.amazon.nl/",
+          "bodyHint": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <title></title>\n    <style>\n        body {\n            font-family: \"Arial\";\n        }\n    </style>\n    <script type=\"text/javascript\">\n    window.awsWafCookieDomainList = [];\n    window.gokuProps = {\n\"key\":\"AQIDAHjcYu/GjX+QlghicBgQ/7bFaQZ+m5FKCMDnO+vTbNg96AEPM1ztUEerBZt4CZN2qxciAAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMar9uPkfjbHRb92e3AgEQgDsLRU95DKkb+45sKqB5Z7fTgHuP+ylSydN69wrcCOT+NZEH4UyRfE+OwXUnZBHvQMnKmaAVOkn5YjH10A==\",\n          \"iv\":\"EkQ4CwHMtAAABVt3\",\n          \"context\":\"YUy2GGRgkwUI/TX2i94ls7M76CSauGPZPwI3Bg8SfkpcCYuo6nUi3ttrammcU0GivmjfpNew7IkuZp2irvRM5u1am8+jOjjp3huyeUuzFuHJHoG3ehCq48vOkiZFTIu/tEYMmPFAXt+Ux",
+          "elapsedMs": 51
+        }
+      ]
+    },
+    {
+      "offerId": "offer-nb6-uk",
+      "url": "https://www.amazon.co.uk/",
+      "state": "LIKELY_VALID",
+      "checkedAt": "2026-09-09T22:02:22.497Z",
+      "httpStatus": 202,
+      "failureReason": "method_not_allowed",
+      "notes": "Amazon rejected HEAD/soft-blocked automation — host is known-good.",
+      "observations": [
+        {
+          "method": "HEAD",
+          "status": 405,
+          "finalUrl": "https://www.amazon.co.uk/",
+          "elapsedMs": 110
+        },
+        {
+          "method": "GET",
+          "status": 202,
+          "finalUrl": "https://www.amazon.co.uk/",
+          "bodyHint": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <title></title>\n    <style>\n        body {\n            font-family: \"Arial\";\n        }\n    </style>\n    <script type=\"text/javascript\">\n    window.awsWafCookieDomainList = [];\n    window.gokuProps = {\n\"key\":\"AQIDAHjcYu/GjX+QlghicBgQ/7bFaQZ+m5FKCMDnO+vTbNg96AEPM1ztUEerBZt4CZN2qxciAAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMar9uPkfjbHRb92e3AgEQgDsLRU95DKkb+45sKqB5Z7fTgHuP+ylSydN69wrcCOT+NZEH4UyRfE+OwXUnZBHvQMnKmaAVOkn5YjH10A==\",\n          \"iv\":\"NC4WbgG7CwAAR109\",\n          \"context\":\"kxWtNeA5zb7nhcQNTrUa/mEXutfcUbtxlveDJYjLZdYt1l5gF8QaEZWN4YWPth4VdWo/TfMJu1v4ftSTuZbDs9ZykqSW/3/fR90INPNGm9ifp9w8vjmUlpb8MiGKlbRtabPA5PRAIXnL1",
+          "elapsedMs": 44
+        }
+      ]
+    },
+    {
+      "offerId": "offer-nimbus-uk",
+      "url": "https://www.amazon.co.uk/",
+      "state": "LIKELY_VALID",
+      "checkedAt": "2026-09-09T22:02:19.549Z",
+      "httpStatus": 202,
+      "failureReason": "method_not_allowed",
+      "notes": "Amazon rejected HEAD/soft-blocked automation — host is known-good.",
+      "observations": [
+        {
+          "method": "HEAD",
+          "status": 405,
+          "finalUrl": "https://www.amazon.co.uk/",
+          "elapsedMs": 149
+        },
+        {
+          "method": "GET",
+          "status": 202,
+          "finalUrl": "https://www.amazon.co.uk/",
+          "bodyHint": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <title></title>\n    <style>\n        body {\n            font-family: \"Arial\";\n        }\n    </style>\n    <script type=\"text/javascript\">\n    window.awsWafCookieDomainList = [];\n    window.gokuProps = {\n\"key\":\"AQIDAHjcYu/GjX+QlghicBgQ/7bFaQZ+m5FKCMDnO+vTbNg96AEPM1ztUEerBZt4CZN2qxciAAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMar9uPkfjbHRb92e3AgEQgDsLRU95DKkb+45sKqB5Z7fTgHuP+ylSydN69wrcCOT+NZEH4UyRfE+OwXUnZBHvQMnKmaAVOkn5YjH10A==\",\n          \"iv\":\"NC4WYQG53AAAR1kl\",\n          \"context\":\"Om+y34gZQPy4BMw5qA2qbUdybOOW+pSGaiB3+FGsn7L/FjjY5yAQpiAOkoa3VMu2cfi9sblhV3lWy9keIBvVZ835Q98991U00QYvN/3Xq2SogU4BpEcyVOylUEhSmbbU1KGZ8eBUR9ht1",
+          "elapsedMs": 54
+        }
+      ]
+    },
+    {
+      "offerId": "offer-nox-at10-nl",
+      "url": "https://www.amazon.nl/",
+      "state": "LIKELY_VALID",
+      "checkedAt": "2026-09-09T22:03:09.115Z",
+      "httpStatus": 202,
+      "failureReason": "method_not_allowed",
+      "notes": "Amazon rejected HEAD/soft-blocked automation — host is known-good.",
+      "observations": [
+        {
+          "method": "HEAD",
+          "status": 405,
+          "finalUrl": "https://www.amazon.nl/",
+          "elapsedMs": 141
+        },
+        {
+          "method": "GET",
+          "status": 202,
+          "finalUrl": "https://www.amazon.nl/",
+          "bodyHint": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <title></title>\n    <style>\n        body {\n            font-family: \"Arial\";\n        }\n    </style>\n    <script type=\"text/javascript\">\n    window.awsWafCookieDomainList = [];\n    window.gokuProps = {\n\"key\":\"AQIDAHjcYu/GjX+QlghicBgQ/7bFaQZ+m5FKCMDnO+vTbNg96AEPM1ztUEerBZt4CZN2qxciAAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMar9uPkfjbHRb92e3AgEQgDsLRU95DKkb+45sKqB5Z7fTgHuP+ylSydN69wrcCOT+NZEH4UyRfE+OwXUnZBHvQMnKmaAVOkn5YjH10A==\",\n          \"iv\":\"EkQ4MgHN5AAAGF31\",\n          \"context\":\"mxu2xq58wBL9lT09ssw4DHRUwLyxeJbrrV8OKyD9BVY9IEPg2LZAK9GiajwanwnU8DTIMvQxdfk4G62Z8IkKRHyBAVXwDK+dcSSXFZQRAOqKbYJDHF0NO+/I89rfIfhHnw0ofBWWM2txq",
+          "elapsedMs": 57
+        }
+      ]
+    },
+    {
+      "offerId": "offer-nox-ml10-pro-cup-2026-de",
+      "url": "https://www.amazon.de/",
+      "state": "LIKELY_VALID",
+      "checkedAt": "2026-09-09T22:03:13.204Z",
+      "httpStatus": 202,
+      "failureReason": "method_not_allowed",
+      "notes": "Amazon rejected HEAD/soft-blocked automation — host is known-good.",
+      "observations": [
+        {
+          "method": "HEAD",
+          "status": 405,
+          "finalUrl": "https://www.amazon.de/",
+          "elapsedMs": 93
+        },
+        {
+          "method": "GET",
+          "status": 202,
+          "finalUrl": "https://www.amazon.de/",
+          "bodyHint": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <title></title>\n    <style>\n        body {\n            font-family: \"Arial\";\n        }\n    </style>\n    <script type=\"text/javascript\">\n    window.awsWafCookieDomainList = [];\n    window.gokuProps = {\n\"key\":\"AQIDAHjcYu/GjX+QlghicBgQ/7bFaQZ+m5FKCMDnO+vTbNg96AEPM1ztUEerBZt4CZN2qxciAAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMar9uPkfjbHRb92e3AgEQgDsLRU95DKkb+45sKqB5Z7fTgHuP+ylSydN69wrcCOT+NZEH4UyRfE+OwXUnZBHvQMnKmaAVOkn5YjH10A==\",\n          \"iv\":\"NC4WawG5zgAAPn4n\",\n          \"context\":\"6dqYEVsoZTO78bm9pGIdOC3gNM1iM0EC+qEtsoyA2q4NzydplDiUlN+bhwHYqvesv83q7/flqUiAGOe2ibtMW95v/+rqv0AWyIb5YqdapFssBGMvWYGVntrKdJyq6/V9MWHIqQQkh9PFK",
+          "elapsedMs": 52
+        }
+      ]
+    },
+    {
+      "offerId": "offer-nox-ml10-pro-cup-2026-nl",
+      "url": "https://www.amazon.nl/",
+      "state": "LIKELY_VALID",
+      "checkedAt": "2026-09-09T22:03:13.058Z",
+      "httpStatus": 202,
+      "failureReason": "method_not_allowed",
+      "notes": "Amazon rejected HEAD/soft-blocked automation — host is known-good.",
+      "observations": [
+        {
+          "method": "HEAD",
+          "status": 405,
+          "finalUrl": "https://www.amazon.nl/",
+          "elapsedMs": 93
+        },
+        {
+          "method": "GET",
+          "status": 202,
+          "finalUrl": "https://www.amazon.nl/",
+          "bodyHint": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <title></title>\n    <style>\n        body {\n            font-family: \"Arial\";\n        }\n    </style>\n    <script type=\"text/javascript\">\n    window.awsWafCookieDomainList = [];\n    window.gokuProps = {\n\"key\":\"AQIDAHjcYu/GjX+QlghicBgQ/7bFaQZ+m5FKCMDnO+vTbNg96AEPM1ztUEerBZt4CZN2qxciAAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMar9uPkfjbHRb92e3AgEQgDsLRU95DKkb+45sKqB5Z7fTgHuP+ylSydN69wrcCOT+NZEH4UyRfE+OwXUnZBHvQMnKmaAVOkn5YjH10A==\",\n          \"iv\":\"EkQ4KgHMtwAABLSH\",\n          \"context\":\"P1pehPs+PEZ8HNN8TKfJcRawsiIocaV6NiGe0ArR69x1CYCUY4VsGDMuJGMBRfNIj/gn/Gd22+WKYil+dk+HhvYOLG/m25cERxkIFxzffZbSX9/WzkjWblzXYwyisgdgcv5mkIVdhZLCi",
+          "elapsedMs": 52
+        }
+      ]
+    },
+    {
+      "offerId": "offer-nox-ml10-pro-cup-2026-uk",
+      "url": "https://www.amazon.co.uk/",
+      "state": "LIKELY_VALID",
+      "checkedAt": "2026-09-09T22:03:13.367Z",
+      "httpStatus": 202,
+      "failureReason": "method_not_allowed",
+      "notes": "Amazon rejected HEAD/soft-blocked automation — host is known-good.",
+      "observations": [
+        {
+          "method": "HEAD",
+          "status": 405,
+          "finalUrl": "https://www.amazon.co.uk/",
+          "elapsedMs": 118
+        },
+        {
+          "method": "GET",
+          "status": 202,
+          "finalUrl": "https://www.amazon.co.uk/",
+          "bodyHint": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <title></title>\n    <style>\n        body {\n            font-family: \"Arial\";\n        }\n    </style>\n    <script type=\"text/javascript\">\n    window.awsWafCookieDomainList = [];\n    window.gokuProps = {\n\"key\":\"AQIDAHjcYu/GjX+QlghicBgQ/7bFaQZ+m5FKCMDnO+vTbNg96AEPM1ztUEerBZt4CZN2qxciAAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMar9uPkfjbHRb92e3AgEQgDsLRU95DKkb+45sKqB5Z7fTgHuP+ylSydN69wrcCOT+NZEH4UyRfE+OwXUnZBHvQMnKmaAVOkn5YjH10A==\",\n          \"iv\":\"NC4WRgG4/wAAQzCs\",\n          \"context\":\"BMgGYQXdd095EaT+ll3GXyrP72XxLFZpl7zkjIA4AtH+4B6a3MveeRglkS2c7WpGY2D9oJ/4YgI1q11hg3rrK7kNpj4MQnIGxxekmkT1678lE+3YULYv9HBjmVKi8FmXD8BXYKnutX3zs",
+          "elapsedMs": 45
+        }
+      ]
+    },
+    {
+      "offerId": "offer-pace3-nl",
+      "url": "https://www.amazon.nl/",
+      "state": "LIKELY_VALID",
+      "checkedAt": "2026-09-09T22:02:21.160Z",
+      "httpStatus": 202,
+      "failureReason": "method_not_allowed",
+      "notes": "Amazon rejected HEAD/soft-blocked automation — host is known-good.",
+      "observations": [
+        {
+          "method": "HEAD",
+          "status": 405,
+          "finalUrl": "https://www.amazon.nl/",
+          "elapsedMs": 103
+        },
+        {
+          "method": "GET",
+          "status": 202,
+          "finalUrl": "https://www.amazon.nl/",
+          "bodyHint": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <title></title>\n    <style>\n        body {\n            font-family: \"Arial\";\n        }\n    </style>\n    <script type=\"text/javascript\">\n    window.awsWafCookieDomainList = [];\n    window.gokuProps = {\n\"key\":\"AQIDAHjcYu/GjX+QlghicBgQ/7bFaQZ+m5FKCMDnO+vTbNg96AEPM1ztUEerBZt4CZN2qxciAAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMar9uPkfjbHRb92e3AgEQgDsLRU95DKkb+45sKqB5Z7fTgHuP+ylSydN69wrcCOT+NZEH4UyRfE+OwXUnZBHvQMnKmaAVOkn5YjH10A==\",\n          \"iv\":\"EkQ4FQHN5QAAG9oh\",\n          \"context\":\"AyHgcUJg9qXvImWFV3g5Xrg+4DxPd6PTvo4hhx3SE07/VukYF90+cJc0FVZkZKYGzTz1o3kmA0zt4jcPc5wIBXXdGSJE99DkRvucSLNakK9H3IhLixr5zZNHCeF3fds/C20q6L53pyHHO",
+          "elapsedMs": 46
+        }
+      ]
+    },
+    {
+      "offerId": "offer-pacepro-nl",
+      "url": "https://www.amazon.nl/",
+      "state": "LIKELY_VALID",
+      "checkedAt": "2026-09-09T22:02:27.006Z",
+      "httpStatus": 202,
+      "failureReason": "method_not_allowed",
+      "notes": "Amazon rejected HEAD/soft-blocked automation — host is known-good.",
+      "observations": [
+        {
+          "method": "HEAD",
+          "status": 405,
+          "finalUrl": "https://www.amazon.nl/",
+          "elapsedMs": 89
+        },
+        {
+          "method": "GET",
+          "status": 202,
+          "finalUrl": "https://www.amazon.nl/",
+          "bodyHint": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <title></title>\n    <style>\n        body {\n            font-family: \"Arial\";\n        }\n    </style>\n    <script type=\"text/javascript\">\n    window.awsWafCookieDomainList = [];\n    window.gokuProps = {\n\"key\":\"AQIDAHjcYu/GjX+QlghicBgQ/7bFaQZ+m5FKCMDnO+vTbNg96AEPM1ztUEerBZt4CZN2qxciAAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMar9uPkfjbHRb92e3AgEQgDsLRU95DKkb+45sKqB5Z7fTgHuP+ylSydN69wrcCOT+NZEH4UyRfE+OwXUnZBHvQMnKmaAVOkn5YjH10A==\",\n          \"iv\":\"EkQ4NgHMtgAABYFr\",\n          \"context\":\"J42iEi3Sexqwnsb8Fz5yB6myVhcgDPQedrSLVCMfMQVzAvzIULlJKnsz6WanDVBkoew1mHM7JuOgg4FYji8mcfo1H3rr5nuTyCfS7d3KiACZ6q0zdHZLunCFkIswazmdd8kcovk7WQqVo",
+          "elapsedMs": 77
+        }
+      ]
+    },
+    {
+      "offerId": "offer-peg42-nl",
+      "url": "https://www.amazon.nl/",
+      "state": "LIKELY_VALID",
+      "checkedAt": "2026-09-09T22:02:23.986Z",
+      "httpStatus": 202,
+      "failureReason": "method_not_allowed",
+      "notes": "Amazon rejected HEAD/soft-blocked automation — host is known-good.",
+      "observations": [
+        {
+          "method": "HEAD",
+          "status": 405,
+          "finalUrl": "https://www.amazon.nl/",
+          "elapsedMs": 94
+        },
+        {
+          "method": "GET",
+          "status": 202,
+          "finalUrl": "https://www.amazon.nl/",
+          "bodyHint": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <title></title>\n    <style>\n        body {\n            font-family: \"Arial\";\n        }\n    </style>\n    <script type=\"text/javascript\">\n    window.awsWafCookieDomainList = [];\n    window.gokuProps = {\n\"key\":\"AQIDAHjcYu/GjX+QlghicBgQ/7bFaQZ+m5FKCMDnO+vTbNg96AEPM1ztUEerBZt4CZN2qxciAAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMar9uPkfjbHRb92e3AgEQgDsLRU95DKkb+45sKqB5Z7fTgHuP+ylSydN69wrcCOT+NZEH4UyRfE+OwXUnZBHvQMnKmaAVOkn5YjH10A==\",\n          \"iv\":\"EkQ4DAHMuQAAGdC3\",\n          \"context\":\"dlXSmjwa2MkMlTSeqpV5FOa+ncPkyjN095Zm7WHmSORtR0IUi5iZRjbyq/GL+/5u2HOuCVXji/IJ7Z1sGImMF/NFB7GwOS0Fmh3wHcqy9N/9n4cMb6313ZcdNfOVo+6T8hBFfyfUnJJ99",
+          "elapsedMs": 36
+        }
+      ]
+    },
+    {
+      "offerId": "offer-pegasus41-nl",
+      "url": "https://www.amazon.nl/",
+      "state": "LIKELY_VALID",
+      "checkedAt": "2026-09-09T22:02:19.723Z",
+      "httpStatus": 202,
+      "failureReason": "method_not_allowed",
+      "notes": "Amazon rejected HEAD/soft-blocked automation — host is known-good.",
+      "observations": [
+        {
+          "method": "HEAD",
+          "status": 405,
+          "finalUrl": "https://www.amazon.nl/",
+          "elapsedMs": 128
+        },
+        {
+          "method": "GET",
+          "status": 202,
+          "finalUrl": "https://www.amazon.nl/",
+          "bodyHint": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <title></title>\n    <style>\n        body {\n            font-family: \"Arial\";\n        }\n    </style>\n    <script type=\"text/javascript\">\n    window.awsWafCookieDomainList = [];\n    window.gokuProps = {\n\"key\":\"AQIDAHjcYu/GjX+QlghicBgQ/7bFaQZ+m5FKCMDnO+vTbNg96AEPM1ztUEerBZt4CZN2qxciAAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMar9uPkfjbHRb92e3AgEQgDsLRU95DKkb+45sKqB5Z7fTgHuP+ylSydN69wrcCOT+NZEH4UyRfE+OwXUnZBHvQMnKmaAVOkn5YjH10A==\",\n          \"iv\":\"EkQ4EgHNxgAABTmD\",\n          \"context\":\"O1NMYzPdrWrRj/pcpJwIx1LbrTY+08CZ7xNZbGBlUvm3d9rNYInKFZVTpNjZYrvNst0y1eJads1S90gRp2ri+jP9GkNosay0WhmjqVyYk5gdI3Xs3fCtYf8WK5+PMsGi1Qr4HwvFFj3wR",
+          "elapsedMs": 46
+        }
+      ]
+    },
+    {
+      "offerId": "offer-shoes-nl",
+      "url": "https://www.amazon.nl/",
+      "state": "LIKELY_VALID",
+      "checkedAt": "2026-09-09T22:03:09.954Z",
+      "httpStatus": 202,
+      "failureReason": "method_not_allowed",
+      "notes": "Amazon rejected HEAD/soft-blocked automation — host is known-good.",
+      "observations": [
+        {
+          "method": "HEAD",
+          "status": 405,
+          "finalUrl": "https://www.amazon.nl/",
+          "elapsedMs": 118
+        },
+        {
+          "method": "GET",
+          "status": 202,
+          "finalUrl": "https://www.amazon.nl/",
+          "bodyHint": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <title></title>\n    <style>\n        body {\n            font-family: \"Arial\";\n        }\n    </style>\n    <script type=\"text/javascript\">\n    window.awsWafCookieDomainList = [];\n    window.gokuProps = {\n\"key\":\"AQIDAHjcYu/GjX+QlghicBgQ/7bFaQZ+m5FKCMDnO+vTbNg96AEPM1ztUEerBZt4CZN2qxciAAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMar9uPkfjbHRb92e3AgEQgDsLRU95DKkb+45sKqB5Z7fTgHuP+ylSydN69wrcCOT+NZEH4UyRfE+OwXUnZBHvQMnKmaAVOkn5YjH10A==\",\n          \"iv\":\"EkQ4JwHMuAAABUtu\",\n          \"context\":\"XHe5r8ogdvHRk+BrcwmlaoVvvlMoNttgYOebOeTBlGjg6zYijY8iW1zI5EvNNNidWYc1XTp0lxG1qUgbmR7O3mqs0vbLNUdgLcm05Dh77o/Oom4ouHLsyhB/Hre2vurI5v1cmhVeTXSce",
+          "elapsedMs": 72
+        }
+      ]
+    },
+    {
+      "offerId": "offer-speed4-nl",
+      "url": "https://www.amazon.nl/",
+      "state": "LIKELY_VALID",
+      "checkedAt": "2026-09-09T22:02:20.156Z",
+      "httpStatus": 202,
+      "failureReason": "method_not_allowed",
+      "notes": "Amazon rejected HEAD/soft-blocked automation — host is known-good.",
+      "observations": [
+        {
+          "method": "HEAD",
+          "status": 405,
+          "finalUrl": "https://www.amazon.nl/",
+          "elapsedMs": 92
+        },
+        {
+          "method": "GET",
+          "status": 202,
+          "finalUrl": "https://www.amazon.nl/",
+          "bodyHint": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <title></title>\n    <style>\n        body {\n            font-family: \"Arial\";\n        }\n    </style>\n    <script type=\"text/javascript\">\n    window.awsWafCookieDomainList = [];\n    window.gokuProps = {\n\"key\":\"AQIDAHjcYu/GjX+QlghicBgQ/7bFaQZ+m5FKCMDnO+vTbNg96AEPM1ztUEerBZt4CZN2qxciAAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMar9uPkfjbHRb92e3AgEQgDsLRU95DKkb+45sKqB5Z7fTgHuP+ylSydN69wrcCOT+NZEH4UyRfE+OwXUnZBHvQMnKmaAVOkn5YjH10A==\",\n          \"iv\":\"EkQ4EQHNxQAAGwpO\",\n          \"context\":\"aZ5iJcq8lslo+jfS+340YZ7Hq+7C7tr8ZBAmKmmrhxUqXoDqiXxnh3wAUeamKIYNrzrxX5p0+sCajI+uNZZEgiKFDnAIw7VioL3+FBdFqAvKpZYSVLizb4YffkiR9Ijfkg++5AnazHeBi",
+          "elapsedMs": 53
+        }
+      ]
+    },
+    {
+      "offerId": "offer-speed5-nl-amz",
+      "url": "https://www.amazon.nl/",
+      "state": "LIKELY_VALID",
+      "checkedAt": "2026-09-09T22:02:25.170Z",
+      "httpStatus": 202,
+      "failureReason": "method_not_allowed",
+      "notes": "Amazon rejected HEAD/soft-blocked automation — host is known-good.",
+      "observations": [
+        {
+          "method": "HEAD",
+          "status": 405,
+          "finalUrl": "https://www.amazon.nl/",
+          "elapsedMs": 90
+        },
+        {
+          "method": "GET",
+          "status": 202,
+          "finalUrl": "https://www.amazon.nl/",
+          "bodyHint": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <title></title>\n    <style>\n        body {\n            font-family: \"Arial\";\n        }\n    </style>\n    <script type=\"text/javascript\">\n    window.awsWafCookieDomainList = [];\n    window.gokuProps = {\n\"key\":\"AQIDAHjcYu/GjX+QlghicBgQ/7bFaQZ+m5FKCMDnO+vTbNg96AEPM1ztUEerBZt4CZN2qxciAAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMar9uPkfjbHRb92e3AgEQgDsLRU95DKkb+45sKqB5Z7fTgHuP+ylSydN69wrcCOT+NZEH4UyRfE+OwXUnZBHvQMnKmaAVOkn5YjH10A==\",\n          \"iv\":\"EkQ4FAHN4wAAGQk/\",\n          \"context\":\"H92Q+ZeYkncF0v8vvp+AwlnnKC7r1Q60GfFA6kx6/PelyUIev2Y/Ds/nlfQEjqfBrK3fbE6A7jgbWXHd8iLVf0t93EH1bmQlMK1g3j4zN5FEGuSzVefN5wK3fwmUOwUPPXIbL150MIJAQ",
+          "elapsedMs": 52
+        }
+      ]
+    },
+    {
+      "offerId": "offer-starvie-titania-kepler-2026-de",
+      "url": "https://www.amazon.de/",
+      "state": "LIKELY_VALID",
+      "checkedAt": "2026-09-09T22:03:10.846Z",
+      "httpStatus": 202,
+      "failureReason": "method_not_allowed",
+      "notes": "Amazon rejected HEAD/soft-blocked automation — host is known-good.",
+      "observations": [
+        {
+          "method": "HEAD",
+          "status": 405,
+          "finalUrl": "https://www.amazon.de/",
+          "elapsedMs": 114
+        },
+        {
+          "method": "GET",
+          "status": 202,
+          "finalUrl": "https://www.amazon.de/",
+          "bodyHint": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <title></title>\n    <style>\n        body {\n            font-family: \"Arial\";\n        }\n    </style>\n    <script type=\"text/javascript\">\n    window.awsWafCookieDomainList = [];\n    window.gokuProps = {\n\"key\":\"AQIDAHjcYu/GjX+QlghicBgQ/7bFaQZ+m5FKCMDnO+vTbNg96AEPM1ztUEerBZt4CZN2qxciAAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMar9uPkfjbHRb92e3AgEQgDsLRU95DKkb+45sKqB5Z7fTgHuP+ylSydN69wrcCOT+NZEH4UyRfE+OwXUnZBHvQMnKmaAVOkn5YjH10A==\",\n          \"iv\":\"NC4WaQG6DwAARDpT\",\n          \"context\":\"tX1nL2p9UFY7IVpsdSxfQjpqTG8sBs5O4B8fsOnj+bMIvs7h7+IrK6OSRyRpfWiyQL3ePhS1tXbsaLUyqcdS3BiSntWuZHVGM0bSP0/QYoBsAZ9tieUL/kl/KHxOpdrNpAO4eAk5+D1hD",
+          "elapsedMs": 39
+        }
+      ]
+    },
+    {
+      "offerId": "offer-starvie-titania-kepler-2026-nl",
+      "url": "https://www.amazon.nl/",
+      "state": "LIKELY_VALID",
+      "checkedAt": "2026-09-09T22:03:10.692Z",
+      "httpStatus": 202,
+      "failureReason": "method_not_allowed",
+      "notes": "Amazon rejected HEAD/soft-blocked automation — host is known-good.",
+      "observations": [
+        {
+          "method": "HEAD",
+          "status": 405,
+          "finalUrl": "https://www.amazon.nl/",
+          "elapsedMs": 96
+        },
+        {
+          "method": "GET",
+          "status": 202,
+          "finalUrl": "https://www.amazon.nl/",
+          "bodyHint": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <title></title>\n    <style>\n        body {\n            font-family: \"Arial\";\n        }\n    </style>\n    <script type=\"text/javascript\">\n    window.awsWafCookieDomainList = [];\n    window.gokuProps = {\n\"key\":\"AQIDAHjcYu/GjX+QlghicBgQ/7bFaQZ+m5FKCMDnO+vTbNg96AEPM1ztUEerBZt4CZN2qxciAAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMar9uPkfjbHRb92e3AgEQgDsLRU95DKkb+45sKqB5Z7fTgHuP+ylSydN69wrcCOT+NZEH4UyRfE+OwXUnZBHvQMnKmaAVOkn5YjH10A==\",\n          \"iv\":\"EkQ4BQHNAQAAA7/Y\",\n          \"context\":\"6BY94GCowZHb5AxXKBJxb9MIdVIU++sN82xssHQsy6g+FN2gmMLLgn7BJ2LbghiiM+29wE8jOsvoY4xZkgTNOPMOEbAYypdxYvljHyZME+gtGbzsWzfXxOzddlrGgtmcSxiHVAscc2eLd",
+          "elapsedMs": 41
+        }
+      ]
+    },
+    {
+      "offerId": "offer-starvie-titania-kepler-2026-uk",
+      "url": "https://www.amazon.co.uk/",
+      "state": "LIKELY_VALID",
+      "checkedAt": "2026-09-09T22:03:11.026Z",
+      "httpStatus": 202,
+      "failureReason": "method_not_allowed",
+      "notes": "Amazon rejected HEAD/soft-blocked automation — host is known-good.",
+      "observations": [
+        {
+          "method": "HEAD",
+          "status": 405,
+          "finalUrl": "https://www.amazon.co.uk/",
+          "elapsedMs": 126
+        },
+        {
+          "method": "GET",
+          "status": 202,
+          "finalUrl": "https://www.amazon.co.uk/",
+          "bodyHint": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <title></title>\n    <style>\n        body {\n            font-family: \"Arial\";\n        }\n    </style>\n    <script type=\"text/javascript\">\n    window.awsWafCookieDomainList = [];\n    window.gokuProps = {\n\"key\":\"AQIDAHjcYu/GjX+QlghicBgQ/7bFaQZ+m5FKCMDnO+vTbNg96AEPM1ztUEerBZt4CZN2qxciAAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMar9uPkfjbHRb92e3AgEQgDsLRU95DKkb+45sKqB5Z7fTgHuP+ylSydN69wrcCOT+NZEH4UyRfE+OwXUnZBHvQMnKmaAVOkn5YjH10A==\",\n          \"iv\":\"NC4WbgG7CwAAR15V\",\n          \"context\":\"fGSylOArZ98obtfOrnEf9MBM8oRTu7JyGkZUypPIMd0TWD5TEcsvErUaIPe3MzWggcse2rlNfLL/9qYBh9IVpTBK0olsVGyRwKL7P23sikclxpkB7Dk8mIyPQPRg1+35eEOZhgbVVsecI",
+          "elapsedMs": 54
+        }
+      ]
+    },
+    {
+      "offerId": "offer-varlion-lw-carbon-difusor-2026-de",
+      "url": "https://www.amazon.de/",
+      "state": "LIKELY_VALID",
+      "checkedAt": "2026-09-09T22:03:12.703Z",
+      "httpStatus": 202,
+      "failureReason": "method_not_allowed",
+      "notes": "Amazon rejected HEAD/soft-blocked automation — host is known-good.",
+      "observations": [
+        {
+          "method": "HEAD",
+          "status": 405,
+          "finalUrl": "https://www.amazon.de/",
+          "elapsedMs": 105
+        },
+        {
+          "method": "GET",
+          "status": 202,
+          "finalUrl": "https://www.amazon.de/",
+          "bodyHint": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <title></title>\n    <style>\n        body {\n            font-family: \"Arial\";\n        }\n    </style>\n    <script type=\"text/javascript\">\n    window.awsWafCookieDomainList = [];\n    window.gokuProps = {\n\"key\":\"AQIDAHjcYu/GjX+QlghicBgQ/7bFaQZ+m5FKCMDnO+vTbNg96AEPM1ztUEerBZt4CZN2qxciAAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMar9uPkfjbHRb92e3AgEQgDsLRU95DKkb+45sKqB5Z7fTgHuP+ylSydN69wrcCOT+NZEH4UyRfE+OwXUnZBHvQMnKmaAVOkn5YjH10A==\",\n          \"iv\":\"NC4WSwG3GgAARNsh\",\n          \"context\":\"njKNW5B+jXC8rFjwbw0VS0XyyGCkEMpTryW2SULZ8Kkvq8OWPpqnb0b8PCUvWaHSmKfgnJxHt2CoMBs6iSgXEry4cSK5CWi7tNjbkt978kXxdnbanfOwrPrK1H9yRpZcbHYSVWhDP0sED",
+          "elapsedMs": 45
+        }
+      ]
+    },
+    {
+      "offerId": "offer-varlion-lw-carbon-difusor-2026-nl",
+      "url": "https://www.amazon.nl/",
+      "state": "LIKELY_VALID",
+      "checkedAt": "2026-09-09T22:03:12.553Z",
+      "httpStatus": 202,
+      "failureReason": "method_not_allowed",
+      "notes": "Amazon rejected HEAD/soft-blocked automation — host is known-good.",
+      "observations": [
+        {
+          "method": "HEAD",
+          "status": 405,
+          "finalUrl": "https://www.amazon.nl/",
+          "elapsedMs": 100
+        },
+        {
+          "method": "GET",
+          "status": 202,
+          "finalUrl": "https://www.amazon.nl/",
+          "bodyHint": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <title></title>\n    <style>\n        body {\n            font-family: \"Arial\";\n        }\n    </style>\n    <script type=\"text/javascript\">\n    window.awsWafCookieDomainList = [];\n    window.gokuProps = {\n\"key\":\"AQIDAHjcYu/GjX+QlghicBgQ/7bFaQZ+m5FKCMDnO+vTbNg96AEPM1ztUEerBZt4CZN2qxciAAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMar9uPkfjbHRb92e3AgEQgDsLRU95DKkb+45sKqB5Z7fTgHuP+ylSydN69wrcCOT+NZEH4UyRfE+OwXUnZBHvQMnKmaAVOkn5YjH10A==\",\n          \"iv\":\"EkQ4FAHN4wAAGQmD\",\n          \"context\":\"8aV4iY8S6pyUy+2JGmbtCuaY80Lo8JrPWcHLl0m6sOyGzU4H/AgMaOyfsJJ4Kibulgqax71WBJBg71xoLDvYSlMgjiVBBZTtQJyjXJLiFK2i6d3bljteOTgVZatDCh4U8cjyJcVEnbM5B",
+          "elapsedMs": 55
+        }
+      ]
+    },
+    {
+      "offerId": "offer-varlion-lw-carbon-difusor-2026-uk",
+      "url": "https://www.amazon.co.uk/",
+      "state": "LIKELY_VALID",
+      "checkedAt": "2026-09-09T22:03:12.912Z",
+      "httpStatus": 202,
+      "failureReason": "method_not_allowed",
+      "notes": "Amazon rejected HEAD/soft-blocked automation — host is known-good.",
+      "observations": [
+        {
+          "method": "HEAD",
+          "status": 405,
+          "finalUrl": "https://www.amazon.co.uk/",
+          "elapsedMs": 158
+        },
+        {
+          "method": "GET",
+          "status": 202,
+          "finalUrl": "https://www.amazon.co.uk/",
+          "bodyHint": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <title></title>\n    <style>\n        body {\n            font-family: \"Arial\";\n        }\n    </style>\n    <script type=\"text/javascript\">\n    window.awsWafCookieDomainList = [];\n    window.gokuProps = {\n\"key\":\"AQIDAHjcYu/GjX+QlghicBgQ/7bFaQZ+m5FKCMDnO+vTbNg96AEPM1ztUEerBZt4CZN2qxciAAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMar9uPkfjbHRb92e3AgEQgDsLRU95DKkb+45sKqB5Z7fTgHuP+ylSydN69wrcCOT+NZEH4UyRfE+OwXUnZBHvQMnKmaAVOkn5YjH10A==\",\n          \"iv\":\"NC4WSgG2ZQAAP3kM\",\n          \"context\":\"ra1esx1j/ZyG3k/8peflx9ucOdqtTMvjznWwr06uCLVAfYMS1NHaRYjirumga50l5ST0eL/Jmg1mC7MzHThSZidyU6oJ56vFrpqv+KSOH1uPnI2WDrLDyiKSHg0k2B2t/x26yQy4RBj1E",
+          "elapsedMs": 51
+        }
+      ]
+    },
+    {
+      "offerId": "offer-vertex-nl",
+      "url": "https://www.amazon.nl/",
+      "state": "LIKELY_VALID",
+      "checkedAt": "2026-09-09T22:03:09.366Z",
+      "httpStatus": 202,
+      "failureReason": "method_not_allowed",
+      "notes": "Amazon rejected HEAD/soft-blocked automation — host is known-good.",
+      "observations": [
+        {
+          "method": "HEAD",
+          "status": 405,
+          "finalUrl": "https://www.amazon.nl/",
+          "elapsedMs": 99
+        },
+        {
+          "method": "GET",
+          "status": 202,
+          "finalUrl": "https://www.amazon.nl/",
+          "bodyHint": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <title></title>\n    <style>\n        body {\n            font-family: \"Arial\";\n        }\n    </style>\n    <script type=\"text/javascript\">\n    window.awsWafCookieDomainList = [];\n    window.gokuProps = {\n\"key\":\"AQIDAHjcYu/GjX+QlghicBgQ/7bFaQZ+m5FKCMDnO+vTbNg96AEPM1ztUEerBZt4CZN2qxciAAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMar9uPkfjbHRb92e3AgEQgDsLRU95DKkb+45sKqB5Z7fTgHuP+ylSydN69wrcCOT+NZEH4UyRfE+OwXUnZBHvQMnKmaAVOkn5YjH10A==\",\n          \"iv\":\"EkQ4FAHN4wAAGQl/\",\n          \"context\":\"7w6ULaDTlVZk7EmeQ7VxKAwQhhV4YCQJGDFoU132WzcxPX1c/Ko+w5Y21VKzc7JELiSo8KOakmjFDvyhv1dt2ELqPU5YFPjDxNOOQ8SFiCAgqJr/3CBEdSczXRoK+e9hHNSUhf3z+kikK",
+          "elapsedMs": 52
+        }
+      ]
+    },
+    {
+      "offerId": "offer-vf4-nl",
+      "url": "https://www.amazon.nl/",
+      "state": "LIKELY_VALID",
+      "checkedAt": "2026-09-09T22:02:25.315Z",
+      "httpStatus": 202,
+      "failureReason": "method_not_allowed",
+      "notes": "Amazon rejected HEAD/soft-blocked automation — host is known-good.",
+      "observations": [
+        {
+          "method": "HEAD",
+          "status": 405,
+          "finalUrl": "https://www.amazon.nl/",
+          "elapsedMs": 91
+        },
+        {
+          "method": "GET",
+          "status": 202,
+          "finalUrl": "https://www.amazon.nl/",
+          "bodyHint": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <title></title>\n    <style>\n        body {\n            font-family: \"Arial\";\n        }\n    </style>\n    <script type=\"text/javascript\">\n    window.awsWafCookieDomainList = [];\n    window.gokuProps = {\n\"key\":\"AQIDAHjcYu/GjX+QlghicBgQ/7bFaQZ+m5FKCMDnO+vTbNg96AEPM1ztUEerBZt4CZN2qxciAAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMar9uPkfjbHRb92e3AgEQgDsLRU95DKkb+45sKqB5Z7fTgHuP+ylSydN69wrcCOT+NZEH4UyRfE+OwXUnZBHvQMnKmaAVOkn5YjH10A==\",\n          \"iv\":\"EkQ4JwHMuAAABUs2\",\n          \"context\":\"dWm5Bb6LfnDweKpEEjLo2f6AhpO7LJej2r1y8z28K1099YOH5vTYIWn8iIJs9gmeyvI9yY+Pav6lrY6a35yni5/VE9hQyuDNzPDbaRQEF+uRh70lHBvdIDdXJsUdovJLgXHR2ggj6AEv0",
+          "elapsedMs": 53
+        }
+      ]
+    },
+    {
+      "offerId": "offer-viper-nl",
+      "url": "https://www.amazon.nl/",
+      "state": "LIKELY_VALID",
+      "checkedAt": "2026-09-09T22:03:09.523Z",
+      "httpStatus": 202,
+      "failureReason": "method_not_allowed",
+      "notes": "Amazon rejected HEAD/soft-blocked automation — host is known-good.",
+      "observations": [
+        {
+          "method": "HEAD",
+          "status": 405,
+          "finalUrl": "https://www.amazon.nl/",
+          "elapsedMs": 105
+        },
+        {
+          "method": "GET",
+          "status": 202,
+          "finalUrl": "https://www.amazon.nl/",
+          "bodyHint": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <title></title>\n    <style>\n        body {\n            font-family: \"Arial\";\n        }\n    </style>\n    <script type=\"text/javascript\">\n    window.awsWafCookieDomainList = [];\n    window.gokuProps = {\n\"key\":\"AQIDAHjcYu/GjX+QlghicBgQ/7bFaQZ+m5FKCMDnO+vTbNg96AEPM1ztUEerBZt4CZN2qxciAAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMar9uPkfjbHRb92e3AgEQgDsLRU95DKkb+45sKqB5Z7fTgHuP+ylSydN69wrcCOT+NZEH4UyRfE+OwXUnZBHvQMnKmaAVOkn5YjH10A==\",\n          \"iv\":\"EkQ4KgHMtwAABLSE\",\n          \"context\":\"SY5RkuH0WKh9B6Xy8XH3nswzA3UBqjq3QScOC3GUMkGSVV4Y78nlBqdbx8nap73dK8KxhubgUQt9NHI71gOuO1hoaOB+1gTPkRV/YkyUeswfLcDFV97KkFV1TpGzfL4hO1/CNQcbB+JfK",
+          "elapsedMs": 52
+        }
+      ]
+    }
+  ],
+  "sample": [
+    {
+      "offerId": "offer-adidas-metalbone-hrd-2026-de",
+      "url": "https://www.amazon.de/",
+      "state": "LIKELY_VALID",
+      "checkedAt": "2026-09-09T22:03:11.302Z",
+      "httpStatus": 202,
+      "failureReason": "method_not_allowed",
+      "notes": "Amazon rejected HEAD/soft-blocked automation — host is known-good.",
+      "observations": [
+        {
+          "method": "HEAD",
+          "status": 405,
+          "finalUrl": "https://www.amazon.de/",
+          "elapsedMs": 92
+        },
+        {
+          "method": "GET",
+          "status": 202,
+          "finalUrl": "https://www.amazon.de/",
+          "bodyHint": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <title></title>\n    <style>\n        body {\n            font-family: \"Arial\";\n        }\n    </style>\n    <script type=\"text/javascript\">\n    window.awsWafCookieDomainList = [];\n    window.gokuProps = {\n\"key\":\"AQIDAHjcYu/GjX+QlghicBgQ/7bFaQZ+m5FKCMDnO+vTbNg96AEPM1ztUEerBZt4CZN2qxciAAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMar9uPkfjbHRb92e3AgEQgDsLRU95DKkb+45sKqB5Z7fTgHuP+ylSydN69wrcCOT+NZEH4UyRfE+OwXUnZBHvQMnKmaAVOkn5YjH10A==\",\n          \"iv\":\"NC4WbwG5+gAARIHf\",\n          \"context\":\"IocOeiO5iB8YjVt0TC5BGjc7EZEi/DqjpXsdxfOoKmG978i7VEooK48mU3WXJFXfOqHXnGYDAPnRCf2l7aZ1agssCZNHgaGe+CPwzy6i/P2pDzwtNtokRA0ZCm3lLASsVllPnkczG66RJ",
+          "elapsedMs": 35
+        }
+      ]
+    },
+    {
+      "offerId": "offer-adidas-metalbone-hrd-2026-nl",
+      "url": "https://www.amazon.nl/",
+      "state": "LIKELY_VALID",
+      "checkedAt": "2026-09-09T22:03:11.174Z",
+      "httpStatus": 202,
+      "failureReason": "method_not_allowed",
+      "notes": "Amazon rejected HEAD/soft-blocked automation — host is known-good.",
+      "observations": [
+        {
+          "method": "HEAD",
+          "status": 405,
+          "finalUrl": "https://www.amazon.nl/",
+          "elapsedMs": 84
+        },
+        {
+          "method": "GET",
+          "status": 202,
+          "finalUrl": "https://www.amazon.nl/",
+          "bodyHint": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <title></title>\n    <style>\n        body {\n            font-family: \"Arial\";\n        }\n    </style>\n    <script type=\"text/javascript\">\n    window.awsWafCookieDomainList = [];\n    window.gokuProps = {\n\"key\":\"AQIDAHjcYu/GjX+QlghicBgQ/7bFaQZ+m5FKCMDnO+vTbNg96AEPM1ztUEerBZt4CZN2qxciAAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMar9uPkfjbHRb92e3AgEQgDsLRU95DKkb+45sKqB5Z7fTgHuP+ylSydN69wrcCOT+NZEH4UyRfE+OwXUnZBHvQMnKmaAVOkn5YjH10A==\",\n          \"iv\":\"EkQ4KAHSkwAAGUuu\",\n          \"context\":\"v57KfLkyNYFLpt0k/JUF4fdhHY+1wRZJc1Y4RbyQgM9S+1/Grl/GAsMBY9h24z34y7SlPfucIVlwawzRlmgRMEydyxn+200d+EkzePDDAPRJrwqwQBbyL4cMriCwL0NH/ZKKkkax1a2VO",
+          "elapsedMs": 64
+        }
+      ]
+    },
+    {
+      "offerId": "offer-adidas-metalbone-hrd-2026-uk",
+      "url": "https://www.amazon.co.uk/",
+      "state": "LIKELY_VALID",
+      "checkedAt": "2026-09-09T22:03:11.465Z",
+      "httpStatus": 202,
+      "failureReason": "method_not_allowed",
+      "notes": "Amazon rejected HEAD/soft-blocked automation — host is known-good.",
+      "observations": [
+        {
+          "method": "HEAD",
+          "status": 405,
+          "finalUrl": "https://www.amazon.co.uk/",
+          "elapsedMs": 117
+        },
+        {
+          "method": "GET",
+          "status": 202,
+          "finalUrl": "https://www.amazon.co.uk/",
+          "bodyHint": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <title></title>\n    <style>\n        body {\n            font-family: \"Arial\";\n        }\n    </style>\n    <script type=\"text/javascript\">\n    window.awsWafCookieDomainList = [];\n    window.gokuProps = {\n\"key\":\"AQIDAHjcYu/GjX+QlghicBgQ/7bFaQZ+m5FKCMDnO+vTbNg96AEPM1ztUEerBZt4CZN2qxciAAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMar9uPkfjbHRb92e3AgEQgDsLRU95DKkb+45sKqB5Z7fTgHuP+ylSydN69wrcCOT+NZEH4UyRfE+OwXUnZBHvQMnKmaAVOkn5YjH10A==\",\n          \"iv\":\"NC4WRAG2SwAAPRhX\",\n          \"context\":\"YJxqy5M7t8NY/16DJfsqjDTEU6yRMgtL+Szs+o9ebc7zspKGkIrtNdVLmJ+OmjhjWbrXN+//wQUpBw75iZN9Pi2ghNwMA0SwoRMQYLm4zCouPJpJRXRRjgdnrb+OpAkyBI0XeVfGfwaR0",
+          "elapsedMs": 46
+        }
+      ]
+    },
+    {
+      "offerId": "offer-adrenaline-nl",
+      "url": "https://www.brooksrunning.com/",
+      "state": "VALID",
+      "checkedAt": "2026-09-09T22:02:26.128Z",
+      "httpStatus": 200,
+      "redirectUrl": "https://www.brooksrunning.com/en_us",
+      "observations": [
+        {
+          "method": "HEAD",
+          "status": 200,
+          "finalUrl": "https://www.brooksrunning.com/en_us",
+          "elapsedMs": 484
+        }
+      ]
+    },
+    {
+      "offerId": "offer-advskin-nl",
+      "url": "https://www.amazon.nl/",
+      "state": "LIKELY_VALID",
+      "checkedAt": "2026-09-09T22:02:21.572Z",
+      "httpStatus": 202,
+      "failureReason": "method_not_allowed",
+      "notes": "Amazon rejected HEAD/soft-blocked automation — host is known-good.",
+      "observations": [
+        {
+          "method": "HEAD",
+          "status": 405,
+          "finalUrl": "https://www.amazon.nl/",
+          "elapsedMs": 99
+        },
+        {
+          "method": "GET",
+          "status": 202,
+          "finalUrl": "https://www.amazon.nl/",
+          "bodyHint": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <title></title>\n    <style>\n        body {\n            font-family: \"Arial\";\n        }\n    </style>\n    <script type=\"text/javascript\">\n    window.awsWafCookieDomainList = [];\n    window.gokuProps = {\n\"key\":\"AQIDAHjcYu/GjX+QlghicBgQ/7bFaQZ+m5FKCMDnO+vTbNg96AEPM1ztUEerBZt4CZN2qxciAAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMar9uPkfjbHRb92e3AgEQgDsLRU95DKkb+45sKqB5Z7fTgHuP+ylSydN69wrcCOT+NZEH4UyRfE+OwXUnZBHvQMnKmaAVOkn5YjH10A==\",\n          \"iv\":\"EkQ4FAHN4wAAGQk6\",\n          \"context\":\"0u0LYaJ9pQwLAzEMNVrw9JQ09xqzUIORLF1RJkBVk6rGSa7z9B5AgX6MBReU8ywxbtPt4XRaxZy3LRg4GYb8CuPfZeD8JJV7hc8WimES0jwuAblCvHq72bsYq5ltyVKEkjLwnKvu7RkLP",
+          "elapsedMs": 44
+        }
+      ]
+    },
+    {
+      "offerId": "offer-alphafly3-nl",
+      "url": "https://www.amazon.nl/",
+      "state": "LIKELY_VALID",
+      "checkedAt": "2026-09-09T22:02:25.582Z",
+      "httpStatus": 202,
+      "failureReason": "method_not_allowed",
+      "notes": "Amazon rejected HEAD/soft-blocked automation — host is known-good.",
+      "observations": [
+        {
+          "method": "HEAD",
+          "status": 405,
+          "finalUrl": "https://www.amazon.nl/",
+          "elapsedMs": 99
+        },
+        {
+          "method": "GET",
+          "status": 202,
+          "finalUrl": "https://www.amazon.nl/",
+          "bodyHint": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <title></title>\n    <style>\n        body {\n            font-family: \"Arial\";\n        }\n    </style>\n    <script type=\"text/javascript\">\n    window.awsWafCookieDomainList = [];\n    window.gokuProps = {\n\"key\":\"AQIDAHjcYu/GjX+QlghicBgQ/7bFaQZ+m5FKCMDnO+vTbNg96AEPM1ztUEerBZt4CZN2qxciAAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMar9uPkfjbHRb92e3AgEQgDsLRU95DKkb+45sKqB5Z7fTgHuP+ylSydN69wrcCOT+NZEH4UyRfE+OwXUnZBHvQMnKmaAVOkn5YjH10A==\",\n          \"iv\":\"EkQ4NwHMmwAAGRWd\",\n          \"context\":\"iXNFGi8RZB0o4DbMwCi+jCy8OCDDn+D/v4nqhTndmtD6YH62GTeIzRbc8hpnKBGGKpYaX1nDugMokQwjr1m7tSaa6qHAx4a6KqspHsWIxUhSvIjaD+dxSX21d7s/S0gAg3jjjS6g+g+4V",
+          "elapsedMs": 65
+        }
+      ]
+    },
+    {
+      "offerId": "offer-bag-nl",
+      "url": "https://www.amazon.nl/",
+      "state": "LIKELY_VALID",
+      "checkedAt": "2026-09-09T22:03:10.419Z",
+      "httpStatus": 202,
+      "failureReason": "method_not_allowed",
+      "notes": "Amazon rejected HEAD/soft-blocked automation — host is known-good.",
+      "observations": [
+        {
+          "method": "HEAD",
+          "status": 405,
+          "finalUrl": "https://www.amazon.nl/",
+          "elapsedMs": 88
+        },
+        {
+          "method": "GET",
+          "status": 202,
+          "finalUrl": "https://www.amazon.nl/",
+          "bodyHint": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <title></title>\n    <style>\n        body {\n            font-family: \"Arial\";\n        }\n    </style>\n    <script type=\"text/javascript\">\n    window.awsWafCookieDomainList = [];\n    window.gokuProps = {\n\"key\":\"AQIDAHjcYu/GjX+QlghicBgQ/7bFaQZ+m5FKCMDnO+vTbNg96AEPM1ztUEerBZt4CZN2qxciAAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMar9uPkfjbHRb92e3AgEQgDsLRU95DKkb+45sKqB5Z7fTgHuP+ylSydN69wrcCOT+NZEH4UyRfE+OwXUnZBHvQMnKmaAVOkn5YjH10A==\",\n          \"iv\":\"EkQ4KgHMtwAABLSG\",\n          \"context\":\"/naDUoNxoEWwtKaGZW10zqlwarGleY1KzyZEcM7LZz+frk9gF6liOysNzPXw1jhd+CmHc4SMg97IYDgp3VmXzPlwMae+Xz+KpA/aPiPUGcgQm7MRGRj9vKVIb1HggnhNRepY6omxAY4Os",
+          "elapsedMs": 52
+        }
+      ]
+    },
+    {
+      "offerId": "offer-balls-nl",
+      "url": "https://www.decathlon.nl/",
+      "state": "LIKELY_VALID",
+      "checkedAt": "2026-09-09T22:03:10.095Z",
+      "httpStatus": 403,
+      "failureReason": "bot_blocked",
+      "notes": "Automated fetch blocked (WAF/bot). Do not hide from CTAs without human confirmation.",
+      "observations": [
+        {
+          "method": "HEAD",
+          "status": 403,
+          "finalUrl": "https://www.decathlon.nl/",
+          "elapsedMs": 62
+        },
+        {
+          "method": "GET",
+          "status": 403,
+          "finalUrl": "https://www.decathlon.nl/",
+          "bodyHint": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\"><meta name=\"robots\" content=\"noindex,nofollow\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><meta http-equiv=\"content-security-policy\" content=\"default-src &#39;none&#39;; script-src &#39;nonce-jxsWiLn48n2zqWRGB4tdzX&#39; &#39;unsafe-eval&#39; https://challenges.cloudflare.com; script-src-attr &#39;none&#39;; style-src &#39;unsafe-inline&#39;; img-src &#39;self&#39; https://challenges.cloudflare.com; connect-src &#39;self&#39; https://challenges.cloudflare.com; frame-src &#39;self&#39; https://challenges.cloudflare.com blob:; child-src &#39;self&#39; https://challenges.cloudflare.",
+          "elapsedMs": 78
+        }
+      ]
+    },
+    {
+      "offerId": "offer-bela-nl",
+      "url": "https://www.amazon.nl/",
+      "state": "LIKELY_VALID",
+      "checkedAt": "2026-09-09T22:03:10.554Z",
+      "httpStatus": 202,
+      "failureReason": "method_not_allowed",
+      "notes": "Amazon rejected HEAD/soft-blocked automation — host is known-good.",
+      "observations": [
+        {
+          "method": "HEAD",
+          "status": 405,
+          "finalUrl": "https://www.amazon.nl/",
+          "elapsedMs": 93
+        },
+        {
+          "method": "GET",
+          "status": 202,
+          "finalUrl": "https://www.amazon.nl/",
+          "bodyHint": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <title></title>\n    <style>\n        body {\n            font-family: \"Arial\";\n        }\n    </style>\n    <script type=\"text/javascript\">\n    window.awsWafCookieDomainList = [];\n    window.gokuProps = {\n\"key\":\"AQIDAHjcYu/GjX+QlghicBgQ/7bFaQZ+m5FKCMDnO+vTbNg96AEPM1ztUEerBZt4CZN2qxciAAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMar9uPkfjbHRb92e3AgEQgDsLRU95DKkb+45sKqB5Z7fTgHuP+ylSydN69wrcCOT+NZEH4UyRfE+OwXUnZBHvQMnKmaAVOkn5YjH10A==\",\n          \"iv\":\"EkQ4JgHQRQAAGsPF\",\n          \"context\":\"i6j5RYCvGShjg0d2vDRTEU6knNLmA0qpxF5X8ys6rJg8GDfpHIXWvEdXSD845qwk6vtlW7MDRoSXSSC1IX7SRxirVV8pRVMe0glTusrOuq/CVbZahkAYTB1RSbF01R6oXd90wO815QB5m",
+          "elapsedMs": 41
+        }
+      ]
+    },
+    {
+      "offerId": "offer-bondi9-nl",
+      "url": "https://www.hoka.com/",
+      "state": "UNKNOWN",
+      "checkedAt": "2026-09-09T22:02:24.921Z",
+      "failureReason": "dns_or_network",
+      "notes": "fetch failed; fetch failed",
+      "observations": [
+        {
+          "method": "HEAD",
+          "error": "fetch failed",
+          "elapsedMs": 131
+        },
+        {
+          "method": "GET",
+          "error": "fetch failed",
+          "elapsedMs": 178
+        }
+      ]
+    },
+    {
+      "offerId": "offer-boston-de",
+      "url": "https://www.amazon.de/",
+      "state": "LIKELY_VALID",
+      "checkedAt": "2026-09-09T22:02:20.752Z",
+      "httpStatus": 200,
+      "failureReason": "method_not_allowed",
+      "notes": "Amazon rejected HEAD/soft-blocked automation — host is known-good.",
+      "observations": [
+        {
+          "method": "HEAD",
+          "status": 405,
+          "finalUrl": "https://www.amazon.de/",
+          "elapsedMs": 170
+        },
+        {
+          "method": "GET",
+          "status": 200,
+          "finalUrl": "https://www.amazon.de/",
+          "bodyHint": "<!DOCTYPE html><html><head> <meta charset=\"utf-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"> <meta http-equiv=\"refresh\" content=\"5; URL='/?bm-verify=AAQAAAAN_____y3byHAiQyvgppukd5imfka47osm-K80tFIi6kw3wi1YaHPsh7q4nSdS5Vky4T1E7lJ8GxT4xDCeiNQnZovtX6av5PcpxddMg8pAgc4hL0JxR-ervWmsjVvVrFEZzf2PDd0LRN-GMrCugqe3nVfVgLEAkhbBVvAX9wDIn9j6zEAJu32-ZxJ-lI5P_OCKnGzzJkMWPJarkzwMa65DKEpNMRGifnWBTSTG_j7jTNWHybo'\" /><title>&nbsp;</title><script> var i = 1788991340; var j = i + Number(\"2893\" + \"32388\"); </script> </head> <noscript> <iframe style=\"border: none; height: 100%; width: 100%;\" src=\"\"></iframe></noscript><body> <iframe style=\"border: none; width: 100vw; height: 100vh;\" src=\"https://m.media-amazon.com/images/S/sash/6Uh4bsAwUkB3vJb.gif\"> </iframe> <script> ",
+          "elapsedMs": 92
+        }
+      ]
+    },
+    {
+      "offerId": "offer-boston-nl",
+      "url": "https://www.amazon.nl/",
+      "state": "LIKELY_VALID",
+      "checkedAt": "2026-09-09T22:02:20.332Z",
+      "httpStatus": 202,
+      "failureReason": "method_not_allowed",
+      "notes": "Amazon rejected HEAD/soft-blocked automation — host is known-good.",
+      "observations": [
+        {
+          "method": "HEAD",
+          "status": 405,
+          "finalUrl": "https://www.amazon.nl/",
+          "elapsedMs": 122
+        },
+        {
+          "method": "GET",
+          "status": 202,
+          "finalUrl": "https://www.amazon.nl/",
+          "bodyHint": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <title></title>\n    <style>\n        body {\n            font-family: \"Arial\";\n        }\n    </style>\n    <script type=\"text/javascript\">\n    window.awsWafCookieDomainList = [];\n    window.gokuProps = {\n\"key\":\"AQIDAHjcYu/GjX+QlghicBgQ/7bFaQZ+m5FKCMDnO+vTbNg96AEPM1ztUEerBZt4CZN2qxciAAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMar9uPkfjbHRb92e3AgEQgDsLRU95DKkb+45sKqB5Z7fTgHuP+ylSydN69wrcCOT+NZEH4UyRfE+OwXUnZBHvQMnKmaAVOkn5YjH10A==\",\n          \"iv\":\"EkQ4DwHMxAAAGJP5\",\n          \"context\":\"UIBg1Ysyrx9HsSZ2LFDPJeofI/5XZi5jI2k33q4q5XpzEx74zb20HmI0DUs9p9KiRfemxkgJ/qb55sU4270HXo0zjPslIWgmE5syqJe53jd68FTZX2Z5JxGsXlSnvXX1wXb/u4FBfgXbp",
+          "elapsedMs": 54
+        }
+      ]
+    },
+    {
+      "offerId": "offer-boston-uk",
+      "url": "https://www.amazon.co.uk/",
+      "state": "LIKELY_VALID",
+      "checkedAt": "2026-09-09T22:02:20.490Z",
+      "httpStatus": 202,
+      "failureReason": "method_not_allowed",
+      "notes": "Amazon rejected HEAD/soft-blocked automation — host is known-good.",
+      "observations": [
+        {
+          "method": "HEAD",
+          "status": 405,
+          "finalUrl": "https://www.amazon.co.uk/",
+          "elapsedMs": 112
+        },
+        {
+          "method": "GET",
+          "status": 202,
+          "finalUrl": "https://www.amazon.co.uk/",
+          "bodyHint": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <title></title>\n    <style>\n        body {\n            font-family: \"Arial\";\n        }\n    </style>\n    <script type=\"text/javascript\">\n    window.awsWafCookieDomainList = [];\n    window.gokuProps = {\n\"key\":\"AQIDAHjcYu/GjX+QlghicBgQ/7bFaQZ+m5FKCMDnO+vTbNg96AEPM1ztUEerBZt4CZN2qxciAAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMar9uPkfjbHRb92e3AgEQgDsLRU95DKkb+45sKqB5Z7fTgHuP+ylSydN69wrcCOT+NZEH4UyRfE+OwXUnZBHvQMnKmaAVOkn5YjH10A==\",\n          \"iv\":\"NC4WbgG7CwAAR10z\",\n          \"context\":\"25u6knixlmLbVVJich5BgiTrYJyBmiX5z8KxekOT6D/+krLMLs1CyrKwORX/wxHyRaOb6SenE5VrF77TA1rudSDnDHfkeDU/vd8iomKOm26RgKS7C5XVX6izboSnLquqLRUa+GEcJpD39",
+          "elapsedMs": 46
+        }
+      ]
+    },
+    {
+      "offerId": "offer-clifton10-nl",
+      "url": "https://www.hoka.com/",
+      "state": "UNKNOWN",
+      "checkedAt": "2026-09-09T22:02:24.512Z",
+      "failureReason": "dns_or_network",
+      "notes": "fetch failed; fetch failed",
+      "observations": [
+        {
+          "method": "HEAD",
+          "error": "fetch failed",
+          "elapsedMs": 194
+        },
+        {
+          "method": "GET",
+          "error": "fetch failed",
+          "elapsedMs": 187
+        }
+      ]
+    },
+    {
+      "offerId": "offer-clifton10-nl-a4r",
+      "url": "https://www.all4running.nl/",
+      "state": "VALID",
+      "checkedAt": "2026-09-09T22:02:24.612Z",
+      "httpStatus": 200,
+      "redirectUrl": "https://all4running.nl/",
+      "observations": [
+        {
+          "method": "HEAD",
+          "status": 200,
+          "finalUrl": "https://all4running.nl/",
+          "elapsedMs": 99
+        }
+      ]
+    },
+    {
+      "offerId": "offer-clifton9-nl",
+      "url": "https://www.amazon.nl/",
+      "state": "LIKELY_VALID",
+      "checkedAt": "2026-09-09T22:02:20.011Z",
+      "httpStatus": 202,
+      "failureReason": "method_not_allowed",
+      "notes": "Amazon rejected HEAD/soft-blocked automation — host is known-good.",
+      "observations": [
+        {
+          "method": "HEAD",
+          "status": 405,
+          "finalUrl": "https://www.amazon.nl/",
+          "elapsedMs": 94
+        },
+        {
+          "method": "GET",
+          "status": 202,
+          "finalUrl": "https://www.amazon.nl/",
+          "bodyHint": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <title></title>\n    <style>\n        body {\n            font-family: \"Arial\";\n        }\n    </style>\n    <script type=\"text/javascript\">\n    window.awsWafCookieDomainList = [];\n    window.gokuProps = {\n\"key\":\"AQIDAHjcYu/GjX+QlghicBgQ/7bFaQZ+m5FKCMDnO+vTbNg96AEPM1ztUEerBZt4CZN2qxciAAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMar9uPkfjbHRb92e3AgEQgDsLRU95DKkb+45sKqB5Z7fTgHuP+ylSydN69wrcCOT+NZEH4UyRfE+OwXUnZBHvQMnKmaAVOkn5YjH10A==\",\n          \"iv\":\"EkQ4DAHMuQAAGdCx\",\n          \"context\":\"YCrZ8/hRCdm7K5R2HGQcxyFuNUPm9RlLRb8WyTJ/Nmu0ma7C3IHlAZlEjksBnq8LlHMZCSOkLS/8b9QdENxLUoPWTag9Qvq3FI0hwKmqfhsYTq3QQ+y+Lp0Adyq56teTjY4UYlxwnPX1P",
+          "elapsedMs": 44
+        }
+      ]
+    },
+    {
+      "offerId": "offer-coello-nl",
+      "url": "https://www.decathlon.nl/",
+      "state": "LIKELY_VALID",
+      "checkedAt": "2026-09-09T22:03:09.618Z",
+      "httpStatus": 403,
+      "failureReason": "bot_blocked",
+      "notes": "Automated fetch blocked (WAF/bot). Do not hide from CTAs without human confirmation.",
+      "observations": [
+        {
+          "method": "HEAD",
+          "status": 403,
+          "finalUrl": "https://www.decathlon.nl/",
+          "elapsedMs": 43
+        },
+        {
+          "method": "GET",
+          "status": 403,
+          "finalUrl": "https://www.decathlon.nl/",
+          "bodyHint": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\"><meta name=\"robots\" content=\"noindex,nofollow\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><meta http-equiv=\"content-security-policy\" content=\"default-src &#39;none&#39;; script-src &#39;nonce-1Ri82fiOPxWjCe4WCxc3O8&#39; &#39;unsafe-eval&#39; https://challenges.cloudflare.com; script-src-attr &#39;none&#39;; style-src &#39;unsafe-inline&#39;; img-src &#39;self&#39; https://challenges.cloudflare.com; connect-src &#39;self&#39; https://challenges.cloudflare.com; frame-src &#39;self&#39; https://challenges.cloudflare.com blob:; child-src &#39;self&#39; https://challenges.cloudflare.",
+          "elapsedMs": 52
+        }
+      ]
+    },
+    {
+      "offerId": "offer-diablo-nl",
+      "url": "https://www.amazon.nl/",
+      "state": "LIKELY_VALID",
+      "checkedAt": "2026-09-09T22:03:09.764Z",
+      "httpStatus": 202,
+      "failureReason": "method_not_allowed",
+      "notes": "Amazon rejected HEAD/soft-blocked automation — host is known-good.",
+      "observations": [
+        {
+          "method": "HEAD",
+          "status": 405,
+          "finalUrl": "https://www.amazon.nl/",
+          "elapsedMs": 97
+        },
+        {
+          "method": "GET",
+          "status": 202,
+          "finalUrl": "https://www.amazon.nl/",
+          "bodyHint": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <title></title>\n    <style>\n        body {\n            font-family: \"Arial\";\n        }\n    </style>\n    <script type=\"text/javascript\">\n    window.awsWafCookieDomainList = [];\n    window.gokuProps = {\n\"key\":\"AQIDAHjcYu/GjX+QlghicBgQ/7bFaQZ+m5FKCMDnO+vTbNg96AEPM1ztUEerBZt4CZN2qxciAAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMar9uPkfjbHRb92e3AgEQgDsLRU95DKkb+45sKqB5Z7fTgHuP+ylSydN69wrcCOT+NZEH4UyRfE+OwXUnZBHvQMnKmaAVOkn5YjH10A==\",\n          \"iv\":\"EkQ4DgHSkwAABMLM\",\n          \"context\":\"fJNB55sR5bkLqKHkDPMBT4aTUdwO/OAFMsY2nzBtI/W9et5kAnMoom/f5rAcK8AgeAWA3F/G/Tuw+Fa5/y8/gFlWZUxhW5DZb56jSiKG4rvcGQYr9MVQCAc+9kCAatCii/0G/8SjYpuuX",
+          "elapsedMs": 48
+        }
+      ]
+    },
+    {
+      "offerId": "offer-drop-shot-canyon-pro-2026-de",
+      "url": "https://www.amazon.de/",
+      "state": "LIKELY_VALID",
+      "checkedAt": "2026-09-09T22:03:12.252Z",
+      "httpStatus": 202,
+      "failureReason": "method_not_allowed",
+      "notes": "Amazon rejected HEAD/soft-blocked automation — host is known-good.",
+      "observations": [
+        {
+          "method": "HEAD",
+          "status": 405,
+          "finalUrl": "https://www.amazon.de/",
+          "elapsedMs": 121
+        },
+        {
+          "method": "GET",
+          "status": 202,
+          "finalUrl": "https://www.amazon.de/",
+          "bodyHint": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <title></title>\n    <style>\n        body {\n            font-family: \"Arial\";\n        }\n    </style>\n    <script type=\"text/javascript\">\n    window.awsWafCookieDomainList = [];\n    window.gokuProps = {\n\"key\":\"AQIDAHjcYu/GjX+QlghicBgQ/7bFaQZ+m5FKCMDnO+vTbNg96AEPM1ztUEerBZt4CZN2qxciAAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMar9uPkfjbHRb92e3AgEQgDsLRU95DKkb+45sKqB5Z7fTgHuP+ylSydN69wrcCOT+NZEH4UyRfE+OwXUnZBHvQMnKmaAVOkn5YjH10A==\",\n          \"iv\":\"NC4WaAG5uAAAQaU6\",\n          \"context\":\"iXc3Tpw86EV0/uNnIUfsgKYRsoxi5UMyXsFCgQfKmLwo3Pw8kSYdgZGIRnowp6QAzYwEBNVXPuFx0U/94cQkWCnpo+eBmFzksAqzsa4xvOukgZBW9GWf/ShQ/QGeWEuBLs1FLtQlJRyL9",
+          "elapsedMs": 46
+        }
+      ]
+    },
+    {
+      "offerId": "offer-drop-shot-canyon-pro-2026-nl",
+      "url": "https://www.amazon.nl/",
+      "state": "LIKELY_VALID",
+      "checkedAt": "2026-09-09T22:03:12.084Z",
+      "httpStatus": 202,
+      "failureReason": "method_not_allowed",
+      "notes": "Amazon rejected HEAD/soft-blocked automation — host is known-good.",
+      "observations": [
+        {
+          "method": "HEAD",
+          "status": 405,
+          "finalUrl": "https://www.amazon.nl/",
+          "elapsedMs": 102
+        },
+        {
+          "method": "GET",
+          "status": 202,
+          "finalUrl": "https://www.amazon.nl/",
+          "bodyHint": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <title></title>\n    <style>\n        body {\n            font-family: \"Arial\";\n        }\n    </style>\n    <script type=\"text/javascript\">\n    window.awsWafCookieDomainList = [];\n    window.gokuProps = {\n\"key\":\"AQIDAHjcYu/GjX+QlghicBgQ/7bFaQZ+m5FKCMDnO+vTbNg96AEPM1ztUEerBZt4CZN2qxciAAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMar9uPkfjbHRb92e3AgEQgDsLRU95DKkb+45sKqB5Z7fTgHuP+ylSydN69wrcCOT+NZEH4UyRfE+OwXUnZBHvQMnKmaAVOkn5YjH10A==\",\n          \"iv\":\"EkQ4DgHSkwAABMLP\",\n          \"context\":\"PifAlln3WB+f+4pwlV6NCMcosDZiLJi8EAj2FQeKWbryH1cOJ2lWeKh4GfZSSivDXwxGcRECktmZFbZrR2uTokPjTKfgQ3AOk5K+LjtfgSNx527Fblx6abq6PYYcq/VT9CV/eyiEGLbB1",
+          "elapsedMs": 50
+        }
+      ]
+    },
+    {
+      "offerId": "offer-drop-shot-canyon-pro-2026-uk",
+      "url": "https://www.amazon.co.uk/",
+      "state": "LIKELY_VALID",
+      "checkedAt": "2026-09-09T22:03:12.398Z",
+      "httpStatus": 202,
+      "failureReason": "method_not_allowed",
+      "notes": "Amazon rejected HEAD/soft-blocked automation — host is known-good.",
+      "observations": [
+        {
+          "method": "HEAD",
+          "status": 405,
+          "finalUrl": "https://www.amazon.co.uk/",
+          "elapsedMs": 95
+        },
+        {
+          "method": "GET",
+          "status": 202,
+          "finalUrl": "https://www.amazon.co.uk/",
+          "bodyHint": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <title></title>\n    <style>\n        body {\n            font-family: \"Arial\";\n        }\n    </style>\n    <script type=\"text/javascript\">\n    window.awsWafCookieDomainList = [];\n    window.gokuProps = {\n\"key\":\"AQIDAHjcYu/GjX+QlghicBgQ/7bFaQZ+m5FKCMDnO+vTbNg96AEPM1ztUEerBZt4CZN2qxciAAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMar9uPkfjbHRb92e3AgEQgDsLRU95DKkb+45sKqB5Z7fTgHuP+ylSydN69wrcCOT+NZEH4UyRfE+OwXUnZBHvQMnKmaAVOkn5YjH10A==\",\n          \"iv\":\"NC4WawG5zgAAPn4j\",\n          \"context\":\"DBDZ6XTza1vzgZjMR9asb7FjgZllFjFUDFrxzAuYSUZqpH4fsOZ4el6cS4qlZs8IEdGCUATqy80waEi9aalBkhyvpF16Rf7lwQAzcZS2K1bWQRL80K3fsRBinA7V8Vlse3GC/4SToQdcf",
+          "elapsedMs": 51
+        }
+      ]
+    },
+    {
+      "offerId": "offer-fr165-nl",
+      "url": "https://www.garmin.com/",
+      "state": "VALID",
+      "checkedAt": "2026-09-09T22:02:27.114Z",
+      "httpStatus": 200,
+      "redirectUrl": "https://www.garmin.com/nl-NL/",
+      "observations": [
+        {
+          "method": "HEAD",
+          "status": 200,
+          "finalUrl": "https://www.garmin.com/nl-NL/",
+          "elapsedMs": 108
+        }
+      ]
+    },
+    {
+      "offerId": "offer-fr255-nl",
+      "url": "https://www.garmin.com/",
+      "state": "VALID",
+      "checkedAt": "2026-09-09T22:02:21.011Z",
+      "httpStatus": 200,
+      "redirectUrl": "https://www.garmin.com/nl-NL/",
+      "observations": [
+        {
+          "method": "HEAD",
+          "status": 200,
+          "finalUrl": "https://www.garmin.com/nl-NL/",
+          "elapsedMs": 107
+        }
+      ]
+    },
+    {
+      "offerId": "offer-fr570-nl",
+      "url": "https://www.garmin.com/",
+      "state": "VALID",
+      "checkedAt": "2026-09-09T22:02:26.839Z",
+      "httpStatus": 200,
+      "redirectUrl": "https://www.garmin.com/nl-NL/",
+      "observations": [
+        {
+          "method": "HEAD",
+          "status": 200,
+          "finalUrl": "https://www.garmin.com/nl-NL/",
+          "elapsedMs": 122
+        }
+      ]
+    },
+    {
+      "offerId": "offer-fr965-nl",
+      "url": "https://www.garmin.com/",
+      "state": "VALID",
+      "checkedAt": "2026-09-09T22:02:20.904Z",
+      "httpStatus": 200,
+      "redirectUrl": "https://www.garmin.com/nl-NL/",
+      "observations": [
+        {
+          "method": "HEAD",
+          "status": 200,
+          "finalUrl": "https://www.garmin.com/nl-NL/",
+          "elapsedMs": 152
+        }
+      ]
+    },
+    {
+      "offerId": "offer-fr970-nl",
+      "url": "https://www.garmin.com/",
+      "state": "VALID",
+      "checkedAt": "2026-09-09T22:02:26.569Z",
+      "httpStatus": 200,
+      "redirectUrl": "https://www.garmin.com/nl-NL/",
+      "observations": [
+        {
+          "method": "HEAD",
+          "status": 200,
+          "finalUrl": "https://www.garmin.com/nl-NL/",
+          "elapsedMs": 138
+        }
+      ]
+    },
+    {
+      "offerId": "offer-fr970-nl-amz",
+      "url": "https://www.amazon.nl/",
+      "state": "LIKELY_VALID",
+      "checkedAt": "2026-09-09T22:02:26.717Z",
+      "httpStatus": 202,
+      "failureReason": "method_not_allowed",
+      "notes": "Amazon rejected HEAD/soft-blocked automation — host is known-good.",
+      "observations": [
+        {
+          "method": "HEAD",
+          "status": 405,
+          "finalUrl": "https://www.amazon.nl/",
+          "elapsedMs": 100
+        },
+        {
+          "method": "GET",
+          "status": 202,
+          "finalUrl": "https://www.amazon.nl/",
+          "bodyHint": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <title></title>\n    <style>\n        body {\n            font-family: \"Arial\";\n        }\n    </style>\n    <script type=\"text/javascript\">\n    window.awsWafCookieDomainList = [];\n    window.gokuProps = {\n\"key\":\"AQIDAHjcYu/GjX+QlghicBgQ/7bFaQZ+m5FKCMDnO+vTbNg96AEPM1ztUEerBZt4CZN2qxciAAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMar9uPkfjbHRb92e3AgEQgDsLRU95DKkb+45sKqB5Z7fTgHuP+ylSydN69wrcCOT+NZEH4UyRfE+OwXUnZBHvQMnKmaAVOkn5YjH10A==\",\n          \"iv\":\"EkQ4DAHMuQAAGdC6\",\n          \"context\":\"vSrv3s/6a1PSlZ94GaGjgXtIZtfb/AUirrlHN+1DcbXqj/GCPEvNfBYk3ohe/iVU4ua2ZU4o2DaVH77Ui/cl4zpBJSYyLeJ8CZTucyEdYFoQmRUOjvHff/zixOkzpWq0VRct6DQ2LV1xz",
+          "elapsedMs": 48
+        }
+      ]
+    },
+    {
+      "offerId": "offer-ghost16-nl",
+      "url": "https://www.amazon.nl/",
+      "state": "LIKELY_VALID",
+      "checkedAt": "2026-09-09T22:02:19.873Z",
+      "httpStatus": 202,
+      "failureReason": "method_not_allowed",
+      "notes": "Amazon rejected HEAD/soft-blocked automation — host is known-good.",
+      "observations": [
+        {
+          "method": "HEAD",
+          "status": 405,
+          "finalUrl": "https://www.amazon.nl/",
+          "elapsedMs": 96
+        },
+        {
+          "method": "GET",
+          "status": 202,
+          "finalUrl": "https://www.amazon.nl/",
+          "bodyHint": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <title></title>\n    <style>\n        body {\n            font-family: \"Arial\";\n        }\n    </style>\n    <script type=\"text/javascript\">\n    window.awsWafCookieDomainList = [];\n    window.gokuProps = {\n\"key\":\"AQIDAHjcYu/GjX+QlghicBgQ/7bFaQZ+m5FKCMDnO+vTbNg96AEPM1ztUEerBZt4CZN2qxciAAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMar9uPkfjbHRb92e3AgEQgDsLRU95DKkb+45sKqB5Z7fTgHuP+ylSydN69wrcCOT+NZEH4UyRfE+OwXUnZBHvQMnKmaAVOkn5YjH10A==\",\n          \"iv\":\"EkQ4EAHPDwAAG9vZ\",\n          \"context\":\"Aw6lJ19DDAZwXv6ur0WQqOj3ooyW3wZAECYYJcVXKh7r2cj4zkdHaBwZw+60EdSHwK6a68HbSaJtbRFVPyg6inqJcHQ72IgWPIV/y49vvMGPDkdvjkkrUbW8YbRTFIPFTE5EdYRETqvWe",
+          "elapsedMs": 54
+        }
+      ]
+    },
+    {
+      "offerId": "offer-ghost18-nl",
+      "url": "https://www.brooksrunning.com/",
+      "state": "VALID",
+      "checkedAt": "2026-09-09T22:02:23.212Z",
+      "httpStatus": 200,
+      "redirectUrl": "https://www.brooksrunning.com/en_us",
+      "observations": [
+        {
+          "method": "HEAD",
+          "status": 200,
+          "finalUrl": "https://www.brooksrunning.com/en_us",
+          "elapsedMs": 497
+        }
+      ]
+    },
+    {
+      "offerId": "offer-ghost18-nl-a4r",
+      "url": "https://www.all4running.nl/",
+      "state": "VALID",
+      "checkedAt": "2026-09-09T22:02:23.354Z",
+      "httpStatus": 200,
+      "redirectUrl": "https://all4running.nl/",
+      "observations": [
+        {
+          "method": "HEAD",
+          "status": 200,
+          "finalUrl": "https://all4running.nl/",
+          "elapsedMs": 142
+        }
+      ]
+    },
+    {
+      "offerId": "offer-ghost18-nl-amz",
+      "url": "https://www.amazon.nl/",
+      "state": "LIKELY_VALID",
+      "checkedAt": "2026-09-09T22:02:23.503Z",
+      "httpStatus": 202,
+      "failureReason": "method_not_allowed",
+      "notes": "Amazon rejected HEAD/soft-blocked automation — host is known-good.",
+      "observations": [
+        {
+          "method": "HEAD",
+          "status": 405,
+          "finalUrl": "https://www.amazon.nl/",
+          "elapsedMs": 105
+        },
+        {
+          "method": "GET",
+          "status": 202,
+          "finalUrl": "https://www.amazon.nl/",
+          "bodyHint": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <title></title>\n    <style>\n        body {\n            font-family: \"Arial\";\n        }\n    </style>\n    <script type=\"text/javascript\">\n    window.awsWafCookieDomainList = [];\n    window.gokuProps = {\n\"key\":\"AQIDAHjcYu/GjX+QlghicBgQ/7bFaQZ+m5FKCMDnO+vTbNg96AEPM1ztUEerBZt4CZN2qxciAAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMar9uPkfjbHRb92e3AgEQgDsLRU95DKkb+45sKqB5Z7fTgHuP+ylSydN69wrcCOT+NZEH4UyRfE+OwXUnZBHvQMnKmaAVOkn5YjH10A==\",\n          \"iv\":\"EkQ4DgHSkwAABMKS\",\n          \"context\":\"UA+3aNsqAc2J20Bo/xT9NHk3JPSB/v0zUODrroIqiMOXJEZu/TMh6R+JeSqMa43N0w1AZvamdxN9uimPaCURDjqb4A754aWyMGr19f2ReOICZW89kAJA/D5vNQNUGP0Qr1Y9W8XTFRlux",
+          "elapsedMs": 44
+        }
+      ]
+    },
+    {
+      "offerId": "offer-ghost18-uk",
+      "url": "https://www.amazon.co.uk/",
+      "state": "LIKELY_VALID",
+      "checkedAt": "2026-09-09T22:02:23.669Z",
+      "httpStatus": 202,
+      "failureReason": "method_not_allowed",
+      "notes": "Amazon rejected HEAD/soft-blocked automation — host is known-good.",
+      "observations": [
+        {
+          "method": "HEAD",
+          "status": 405,
+          "finalUrl": "https://www.amazon.co.uk/",
+          "elapsedMs": 114
+        },
+        {
+          "method": "GET",
+          "status": 202,
+          "finalUrl": "https://www.amazon.co.uk/",
+          "bodyHint": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <title></title>\n    <style>\n        body {\n            font-family: \"Arial\";\n        }\n    </style>\n    <script type=\"text/javascript\">\n    window.awsWafCookieDomainList = [];\n    window.gokuProps = {\n\"key\":\"AQIDAHjcYu/GjX+QlghicBgQ/7bFaQZ+m5FKCMDnO+vTbNg96AEPM1ztUEerBZt4CZN2qxciAAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMar9uPkfjbHRb92e3AgEQgDsLRU95DKkb+45sKqB5Z7fTgHuP+ylSydN69wrcCOT+NZEH4UyRfE+OwXUnZBHvQMnKmaAVOkn5YjH10A==\",\n          \"iv\":\"NC4WYwG57QAASRNA\",\n          \"context\":\"ijuOVU/zdkMrKwt666lFWMkLYutPKMuIYQYRP7R5Dj6MZ1lJ8o3sJovo79oDL7mTfidUVbbVOkU1RMpK3lI3smKj9c9O8cVqCPuNYCBx9W1OEWfbq3scDyEcCsA2eimn08aziIxIjn9NQ",
+          "elapsedMs": 52
+        }
+      ]
+    },
+    {
+      "offerId": "offer-ghost18-us",
+      "url": "https://www.amazon.com/",
+      "state": "VALID",
+      "checkedAt": "2026-09-09T22:02:23.856Z",
+      "httpStatus": 200,
+      "observations": [
+        {
+          "method": "HEAD",
+          "status": 200,
+          "finalUrl": "https://www.amazon.com/",
+          "elapsedMs": 187
+        }
+      ]
+    },
+    {
+      "offerId": "offer-grips-nl",
+      "url": "https://www.amazon.nl/",
+      "state": "LIKELY_VALID",
+      "checkedAt": "2026-09-09T22:03:10.279Z",
+      "httpStatus": 202,
+      "failureReason": "method_not_allowed",
+      "notes": "Amazon rejected HEAD/soft-blocked automation — host is known-good.",
+      "observations": [
+        {
+          "method": "HEAD",
+          "status": 405,
+          "finalUrl": "https://www.amazon.nl/",
+          "elapsedMs": 127
+        },
+        {
+          "method": "GET",
+          "status": 202,
+          "finalUrl": "https://www.amazon.nl/",
+          "bodyHint": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <title></title>\n    <style>\n        body {\n            font-family: \"Arial\";\n        }\n    </style>\n    <script type=\"text/javascript\">\n    window.awsWafCookieDomainList = [];\n    window.gokuProps = {\n\"key\":\"AQIDAHjcYu/GjX+QlghicBgQ/7bFaQZ+m5FKCMDnO+vTbNg96AEPM1ztUEerBZt4CZN2qxciAAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMar9uPkfjbHRb92e3AgEQgDsLRU95DKkb+45sKqB5Z7fTgHuP+ylSydN69wrcCOT+NZEH4UyRfE+OwXUnZBHvQMnKmaAVOkn5YjH10A==\",\n          \"iv\":\"EkQ4FQHN5QAAG9qL\",\n          \"context\":\"XT6LYreThW4wNBlU3yA2kw/vuQq5GXYxNd08sUJqNX2P0q7MgLCsioGfVzcah9p8vMo1uf/UzGjchSR7is3349mBlo3rhzODnBoR3UhqyOwy7R/B8Z8jza49yc+2HHsnAbvAW9uIQ/AfV",
+          "elapsedMs": 56
+        }
+      ]
+    },
+    {
+      "offerId": "offer-h10-nl",
+      "url": "https://www.amazon.nl/",
+      "state": "LIKELY_VALID",
+      "checkedAt": "2026-09-09T22:02:27.261Z",
+      "httpStatus": 202,
+      "failureReason": "method_not_allowed",
+      "notes": "Amazon rejected HEAD/soft-blocked automation — host is known-good.",
+      "observations": [
+        {
+          "method": "HEAD",
+          "status": 405,
+          "finalUrl": "https://www.amazon.nl/",
+          "elapsedMs": 102
+        },
+        {
+          "method": "GET",
+          "status": 202,
+          "finalUrl": "https://www.amazon.nl/",
+          "bodyHint": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <title></title>\n    <style>\n        body {\n            font-family: \"Arial\";\n        }\n    </style>\n    <script type=\"text/javascript\">\n    window.awsWafCookieDomainList = [];\n    window.gokuProps = {\n\"key\":\"AQIDAHjcYu/GjX+QlghicBgQ/7bFaQZ+m5FKCMDnO+vTbNg96AEPM1ztUEerBZt4CZN2qxciAAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMar9uPkfjbHRb92e3AgEQgDsLRU95DKkb+45sKqB5Z7fTgHuP+ylSydN69wrcCOT+NZEH4UyRfE+OwXUnZBHvQMnKmaAVOkn5YjH10A==\",\n          \"iv\":\"EkQ4EQHNxQAAGwpc\",\n          \"context\":\"hTVhUcQ1/d/3ZF0NHDoyNN/coUmpO8qDBYxrG9YYvSk8syTx+9RdeFRXMbprKYGLWTtKQNeNXU3M30wOJ/zPLpyyUmumy7dBRraqRhYU5iRjRjRiQBFDKEHm4W1EdL/1QNUMRmbSOY1xZ",
+          "elapsedMs": 45
+        }
+      ]
+    },
+    {
+      "offerId": "offer-hrm-nl",
+      "url": "https://www.garmin.com/",
+      "state": "VALID",
+      "checkedAt": "2026-09-09T22:02:21.288Z",
+      "httpStatus": 200,
+      "redirectUrl": "https://www.garmin.com/nl-NL/",
+      "observations": [
+        {
+          "method": "HEAD",
+          "status": 200,
+          "finalUrl": "https://www.garmin.com/nl-NL/",
+          "elapsedMs": 128
+        }
+      ]
+    },
+    {
+      "offerId": "offer-hrm-uk",
+      "url": "https://www.amazon.co.uk/",
+      "state": "LIKELY_VALID",
+      "checkedAt": "2026-09-09T22:02:21.429Z",
+      "httpStatus": 202,
+      "failureReason": "method_not_allowed",
+      "notes": "Amazon rejected HEAD/soft-blocked automation — host is known-good.",
+      "observations": [
+        {
+          "method": "HEAD",
+          "status": 405,
+          "finalUrl": "https://www.amazon.co.uk/",
+          "elapsedMs": 97
+        },
+        {
+          "method": "GET",
+          "status": 202,
+          "finalUrl": "https://www.amazon.co.uk/",
+          "bodyHint": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <title></title>\n    <style>\n        body {\n            font-family: \"Arial\";\n        }\n    </style>\n    <script type=\"text/javascript\">\n    window.awsWafCookieDomainList = [];\n    window.gokuProps = {\n\"key\":\"AQIDAHjcYu/GjX+QlghicBgQ/7bFaQZ+m5FKCMDnO+vTbNg96AEPM1ztUEerBZt4CZN2qxciAAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMar9uPkfjbHRb92e3AgEQgDsLRU95DKkb+45sKqB5Z7fTgHuP+ylSydN69wrcCOT+NZEH4UyRfE+OwXUnZBHvQMnKmaAVOkn5YjH10A==\",\n          \"iv\":\"NC4WYwG57QAASRMw\",\n          \"context\":\"zj9PL8Dm/olE+ghZuOnjR9x7kETs9JH1UMq3FteRzZFzVNv+6atubB2sYG75NQ3fVm2PU7y5cvQxCkwpi+fH85dmKZAxYkNwESH7tAEd6h0OJ+LVH93PT7EKe8/KTKUoyjVXWp2TfbtEE",
+          "elapsedMs": 44
+        }
+      ]
+    },
+    {
+      "offerId": "offer-kayano-nl",
+      "url": "https://www.asics.com/nl/nl-nl/",
+      "state": "VALID",
+      "checkedAt": "2026-09-09T22:02:25.644Z",
+      "httpStatus": 200,
+      "observations": [
+        {
+          "method": "HEAD",
+          "status": 200,
+          "finalUrl": "https://www.asics.com/nl/nl-nl/",
+          "elapsedMs": 61
+        }
+      ]
+    },
+    {
+      "offerId": "offer-kuikma-pr-soft-500-de",
+      "url": "https://www.amazon.de/",
+      "state": "LIKELY_VALID",
+      "checkedAt": "2026-09-09T22:03:11.758Z",
+      "httpStatus": 202,
+      "failureReason": "method_not_allowed",
+      "notes": "Amazon rejected HEAD/soft-blocked automation — host is known-good.",
+      "observations": [
+        {
+          "method": "HEAD",
+          "status": 405,
+          "finalUrl": "https://www.amazon.de/",
+          "elapsedMs": 100
+        },
+        {
+          "method": "GET",
+          "status": 202,
+          "finalUrl": "https://www.amazon.de/",
+          "bodyHint": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <title></title>\n    <style>\n        body {\n            font-family: \"Arial\";\n        }\n    </style>\n    <script type=\"text/javascript\">\n    window.awsWafCookieDomainList = [];\n    window.gokuProps = {\n\"key\":\"AQIDAHjcYu/GjX+QlghicBgQ/7bFaQZ+m5FKCMDnO+vTbNg96AEPM1ztUEerBZt4CZN2qxciAAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMar9uPkfjbHRb92e3AgEQgDsLRU95DKkb+45sKqB5Z7fTgHuP+ylSydN69wrcCOT+NZEH4UyRfE+OwXUnZBHvQMnKmaAVOkn5YjH10A==\",\n          \"iv\":\"NC4WcAG2VgAAQhjz\",\n          \"context\":\"uG20V2uMnRchG156CoKg14XZKCmul0pyXcKDS1LgWMaxLbWCsYDbS9Yj+glFpomcqrL8q4wNM2yt7mMRhxzfXARZ+eBnYL+U6YGRqP0bax/6qIQxlbfeqV6/DykFL38pISb3hUPo4LXmX",
+          "elapsedMs": 47
+        }
+      ]
+    },
+    {
+      "offerId": "offer-kuikma-pr-soft-500-nl",
+      "url": "https://www.amazon.nl/",
+      "state": "LIKELY_VALID",
+      "checkedAt": "2026-09-09T22:03:11.611Z",
+      "httpStatus": 202,
+      "failureReason": "method_not_allowed",
+      "notes": "Amazon rejected HEAD/soft-blocked automation — host is known-good.",
+      "observations": [
+        {
+          "method": "HEAD",
+          "status": 405,
+          "finalUrl": "https://www.amazon.nl/",
+          "elapsedMs": 95
+        },
+        {
+          "method": "GET",
+          "status": 202,
+          "finalUrl": "https://www.amazon.nl/",
+          "bodyHint": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <title></title>\n    <style>\n        body {\n            font-family: \"Arial\";\n        }\n    </style>\n    <script type=\"text/javascript\">\n    window.awsWafCookieDomainList = [];\n    window.gokuProps = {\n\"key\":\"AQIDAHjcYu/GjX+QlghicBgQ/7bFaQZ+m5FKCMDnO+vTbNg96AEPM1ztUEerBZt4CZN2qxciAAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMar9uPkfjbHRb92e3AgEQgDsLRU95DKkb+45sKqB5Z7fTgHuP+ylSydN69wrcCOT+NZEH4UyRfE+OwXUnZBHvQMnKmaAVOkn5YjH10A==\",\n          \"iv\":\"EkQ4JQHO+gAAGbFH\",\n          \"context\":\"KCQSfdjw6gKzhgjVx9st42y8vvX5TER4g32fwH82bB7YEoTOKT5RYwKRQHYFi+/ldpG/YHDiij2X+nPjZOZUadcnsu4kB7bJbsnuWTqmacg6M99lZUZYanALquVGcaQxI5eIkvsgtS8Hv",
+          "elapsedMs": 51
+        }
+      ]
+    }
+  ]
+}

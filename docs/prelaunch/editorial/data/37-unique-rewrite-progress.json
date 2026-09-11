@@ -1,0 +1,242 @@
+{
+  "generatedAt": "2026-09-09T18:56:04.396Z",
+  "dryRun": false,
+  "candidates": 489,
+  "rewrittenThisRun": 486,
+  "mergedTotal": 544,
+  "needsResearch": 3,
+  "byOutcome": {
+    "READY": 486,
+    "NEEDS_RESEARCH": 3
+  },
+  "byCategory": {
+    "cat-running-shoes": {
+      "total": 68,
+      "READY": 68,
+      "NEEDS_RESEARCH": 0,
+      "ERROR": 0
+    },
+    "cat-gps-watches": {
+      "total": 13,
+      "READY": 13,
+      "NEEDS_RESEARCH": 0,
+      "ERROR": 0
+    },
+    "cat-hrm": {
+      "total": 9,
+      "READY": 9,
+      "NEEDS_RESEARCH": 0,
+      "ERROR": 0
+    },
+    "cat-packs-vests": {
+      "total": 33,
+      "READY": 33,
+      "NEEDS_RESEARCH": 0,
+      "ERROR": 0
+    },
+    "cat-running-socks": {
+      "total": 8,
+      "READY": 8,
+      "NEEDS_RESEARCH": 0,
+      "ERROR": 0
+    },
+    "cat-headphones": {
+      "total": 6,
+      "READY": 6,
+      "NEEDS_RESEARCH": 0,
+      "ERROR": 0
+    },
+    "cat-running-clothing": {
+      "total": 57,
+      "READY": 57,
+      "NEEDS_RESEARCH": 0,
+      "ERROR": 0
+    },
+    "cat-sunglasses": {
+      "total": 16,
+      "READY": 16,
+      "NEEDS_RESEARCH": 0,
+      "ERROR": 0
+    },
+    "cat-running-lights": {
+      "total": 4,
+      "READY": 4,
+      "NEEDS_RESEARCH": 0,
+      "ERROR": 0
+    },
+    "cat-nutrition": {
+      "total": 24,
+      "READY": 24,
+      "NEEDS_RESEARCH": 0,
+      "ERROR": 0
+    },
+    "cat-accessories": {
+      "total": 1,
+      "READY": 1,
+      "NEEDS_RESEARCH": 0,
+      "ERROR": 0
+    },
+    "cat-safety": {
+      "total": 2,
+      "READY": 2,
+      "NEEDS_RESEARCH": 0,
+      "ERROR": 0
+    },
+    "cat-training-shoes": {
+      "total": 44,
+      "READY": 44,
+      "NEEDS_RESEARCH": 0,
+      "ERROR": 0
+    },
+    "cat-tennis-shoes": {
+      "total": 14,
+      "READY": 14,
+      "NEEDS_RESEARCH": 0,
+      "ERROR": 0
+    },
+    "cat-padel-shoes": {
+      "total": 23,
+      "READY": 23,
+      "NEEDS_RESEARCH": 0,
+      "ERROR": 0
+    },
+    "cat-padel-rackets": {
+      "total": 27,
+      "READY": 26,
+      "NEEDS_RESEARCH": 1,
+      "ERROR": 0
+    },
+    "cat-hydration": {
+      "total": 14,
+      "READY": 14,
+      "NEEDS_RESEARCH": 0,
+      "ERROR": 0
+    },
+    "cat-air-bikes": {
+      "total": 6,
+      "READY": 6,
+      "NEEDS_RESEARCH": 0,
+      "ERROR": 0
+    },
+    "cat-treadmills": {
+      "total": 6,
+      "READY": 6,
+      "NEEDS_RESEARCH": 0,
+      "ERROR": 0
+    },
+    "cat-weight-plates": {
+      "total": 5,
+      "READY": 5,
+      "NEEDS_RESEARCH": 0,
+      "ERROR": 0
+    },
+    "cat-weight-benches": {
+      "total": 6,
+      "READY": 6,
+      "NEEDS_RESEARCH": 0,
+      "ERROR": 0
+    },
+    "cat-tennis-rackets": {
+      "total": 20,
+      "READY": 20,
+      "NEEDS_RESEARCH": 0,
+      "ERROR": 0
+    },
+    "cat-lifting-accessories": {
+      "total": 6,
+      "READY": 6,
+      "NEEDS_RESEARCH": 0,
+      "ERROR": 0
+    },
+    "cat-recovery-gear": {
+      "total": 14,
+      "READY": 14,
+      "NEEDS_RESEARCH": 0,
+      "ERROR": 0
+    },
+    "cat-adjustable-dumbbells": {
+      "total": 8,
+      "READY": 8,
+      "NEEDS_RESEARCH": 0,
+      "ERROR": 0
+    },
+    "cat-running-belts": {
+      "total": 9,
+      "READY": 9,
+      "NEEDS_RESEARCH": 0,
+      "ERROR": 0
+    },
+    "cat-rowing-machines": {
+      "total": 6,
+      "READY": 6,
+      "NEEDS_RESEARCH": 0,
+      "ERROR": 0
+    },
+    "cat-ski-ergs": {
+      "total": 5,
+      "READY": 5,
+      "NEEDS_RESEARCH": 0,
+      "ERROR": 0
+    },
+    "cat-kettlebells": {
+      "total": 5,
+      "READY": 5,
+      "NEEDS_RESEARCH": 0,
+      "ERROR": 0
+    },
+    "cat-barbells": {
+      "total": 6,
+      "READY": 6,
+      "NEEDS_RESEARCH": 0,
+      "ERROR": 0
+    },
+    "cat-parallettes": {
+      "total": 3,
+      "READY": 3,
+      "NEEDS_RESEARCH": 0,
+      "ERROR": 0
+    },
+    "cat-pull-up-bars": {
+      "total": 5,
+      "READY": 5,
+      "NEEDS_RESEARCH": 0,
+      "ERROR": 0
+    },
+    "cat-weighted-vests": {
+      "total": 3,
+      "READY": 3,
+      "NEEDS_RESEARCH": 0,
+      "ERROR": 0
+    },
+    "cat-padel-balls": {
+      "total": 1,
+      "READY": 0,
+      "NEEDS_RESEARCH": 1,
+      "ERROR": 0
+    },
+    "cat-functional-fitness": {
+      "total": 5,
+      "READY": 5,
+      "NEEDS_RESEARCH": 0,
+      "ERROR": 0
+    },
+    "cat-gym-flooring": {
+      "total": 2,
+      "READY": 2,
+      "NEEDS_RESEARCH": 0,
+      "ERROR": 0
+    },
+    "cat-power-racks": {
+      "total": 4,
+      "READY": 4,
+      "NEEDS_RESEARCH": 0,
+      "ERROR": 0
+    },
+    "cat-padel-grips": {
+      "total": 1,
+      "READY": 0,
+      "NEEDS_RESEARCH": 1,
+      "ERROR": 0
+    }
+  }
+}

@@ -1,0 +1,1055 @@
+{
+  "navRunning": {
+    "found": true,
+    "aria": "Section navigation",
+    "links": [
+      {
+        "t": "Overview",
+        "href": "/running"
+      },
+      {
+        "t": "Shoes",
+        "href": "/running/shoes"
+      },
+      {
+        "t": "Watches",
+        "href": "/running/watches"
+      },
+      {
+        "t": "Heart Rate",
+        "href": "/running/heart-rate-monitors"
+      },
+      {
+        "t": "Hydration",
+        "href": "/running/hydration"
+      },
+      {
+        "t": "Packs",
+        "href": "/running/packs"
+      },
+      {
+        "t": "Clothing",
+        "href": "/running/clothing"
+      },
+      {
+        "t": "All Gear",
+        "href": "/running/gear"
+      },
+      {
+        "t": "Best",
+        "href": "/best?sport=running"
+      },
+      {
+        "t": "Reviews",
+        "href": "/reviews?sport=running"
+      },
+      {
+        "t": "Guides",
+        "href": "/guides?sport=running"
+      },
+      {
+        "t": "Compare",
+        "href": "/compare?sport=running&category=running-shoes"
+      },
+      {
+        "t": "Finders",
+        "href": "/tools?sport=running&type=finder"
+      },
+      {
+        "t": "Tools",
+        "href": "/tools?sport=running"
+      },
+      {
+        "t": "Gear Sets",
+        "href": "/setups?sport=running"
+      },
+      {
+        "t": "Overview",
+        "href": "/running"
+      },
+      {
+        "t": "Shoes",
+        "href": "/running/shoes"
+      },
+      {
+        "t": "Watches",
+        "href": "/running/watches"
+      },
+      {
+        "t": "Heart Rate",
+        "href": "/running/heart-rate-monitors"
+      },
+      {
+        "t": "Hydration",
+        "href": "/running/hydration"
+      },
+      {
+        "t": "Packs",
+        "href": "/running/packs"
+      },
+      {
+        "t": "Clothing",
+        "href": "/running/clothing"
+      },
+      {
+        "t": "All Gear",
+        "href": "/running/gear"
+      },
+      {
+        "t": "More",
+        "href": null
+      }
+    ]
+  },
+  "navShoes": {
+    "found": false,
+    "allSecondaryish": [
+      {
+        "t": "Running Shoes",
+        "href": "/running/shoes"
+      },
+      {
+        "t": "Training Shoes",
+        "href": "/fitness/training-shoes"
+      },
+      {
+        "t": "Best",
+        "href": "/best?domain=shoes"
+      },
+      {
+        "t": "Reviews",
+        "href": "/reviews?domain=shoes"
+      },
+      {
+        "t": "Guides",
+        "href": "/guides?domain=shoes"
+      },
+      {
+        "t": "Compare",
+        "href": "/compare?domain=shoes&category=running-shoes"
+      },
+      {
+        "t": "Finders",
+        "href": "/tools?domain=shoes&type=finder"
+      },
+      {
+        "t": "Brands",
+        "href": "/brands?domain=shoes"
+      },
+      {
+        "t": "Running Shoes",
+        "href": "/running/shoes"
+      },
+      {
+        "t": "Training Shoes",
+        "href": "/fitness/training-shoes"
+      },
+      {
+        "t": "Best",
+        "href": "/best?domain=shoes"
+      },
+      {
+        "t": "Reviews",
+        "href": "/reviews?domain=shoes"
+      },
+      {
+        "t": "Guides",
+        "href": "/guides?domain=shoes"
+      },
+      {
+        "t": "Compare",
+        "href": "/compare?domain=shoes&category=running-shoes"
+      },
+      {
+        "t": "Finders",
+        "href": "/tools?domain=shoes&type=finder"
+      },
+      {
+        "t": "Brands",
+        "href": "/brands?domain=shoes"
+      }
+    ]
+  },
+  "navDomProbe": [
+    {
+      "tag": "NAV",
+      "aria": "Primary",
+      "data": null,
+      "cls": "flex items-center justify-center gap-0.5",
+      "text": "Shoes Racket Sports Running Fitness Outdoors Team Sports More"
+    },
+    {
+      "tag": "NAV",
+      "aria": "Section navigation",
+      "data": null,
+      "cls": "border-b border-border bg-background",
+      "text": "Running ShoesTraining ShoesBestReviewsGuidesCompareFindersBrands Running ShoesTraining ShoesBestReviewsGuidesCompareFindersBrands"
+    },
+    {
+      "tag": "NAV",
+      "aria": "Breadcrumb",
+      "data": null,
+      "cls": "text-[12px] text-muted",
+      "text": "Home ›Running ›Running Shoes"
+    },
+    {
+      "tag": "NAV",
+      "aria": "Shoe types",
+      "data": null,
+      "cls": "flex items-center gap-5 overflow-x-auto pb-0.5 [-ms-overflow-style:none] [scrollbar-width:none] [&::",
+      "text": "Daily TrainersMax CushionTempoRaceCarbon PlateStabilityTrailWide"
+    },
+    {
+      "tag": "NAV",
+      "aria": "Catalog pagination",
+      "data": null,
+      "cls": "mt-8 flex flex-wrap items-center justify-between gap-3 border-t border-border pt-6",
+      "text": "Page 1 of 4 · 83 products Next"
+    }
+  ],
+  "overflow_desktop_/running/watches": [
+    {
+      "tag": "a",
+      "cls": "flex items-center gap-3 rounded-xl border border-border bg-white px-3 py-3 transition-colors hover:border-accent",
+      "right": 1849,
+      "left": 8,
+      "w": 1841,
+      "text": "Suunto4 products",
+      "overflow": "visible"
+    },
+    {
+      "tag": "span",
+      "cls": "flex shrink-0 items-center justify-center rounded-lg p-1.5 size-12",
+      "right": 1849,
+      "left": 8,
+      "w": 1841,
+      "text": "",
+      "overflow": "visible"
+    },
+    {
+      "tag": "img",
+      "cls": "h-auto w-auto object-contain max-h-9 max-w-9",
+      "right": 1849,
+      "left": 8,
+      "w": 1841,
+      "text": "",
+      "overflow": "clip"
+    }
+  ],
+  "overflow_desktop_/compare/asics-novablast-6-vs-brooks-ghost-18": [
+    {
+      "tag": "a",
+      "cls": "flex items-center gap-3 py-3 transition-colors hover:bg-surface-muted/40",
+      "right": 1920,
+      "left": 48,
+      "w": 1872,
+      "text": "Nike Pegasus 41Versatile daily vs bouncy Novablast stack›",
+      "overflow": "visible"
+    },
+    {
+      "tag": "span",
+      "cls": "relative flex size-12 shrink-0 overflow-hidden rounded-[4px] border border-border bg-white",
+      "right": 1920,
+      "left": 48,
+      "w": 1872,
+      "text": "",
+      "overflow": "visible"
+    },
+    {
+      "tag": "img",
+      "cls": "size-full object-contain p-1",
+      "right": 1920,
+      "left": 48,
+      "w": 1872,
+      "text": "",
+      "overflow": "clip"
+    }
+  ],
+  "overflow_desktop_/running/shoes": [],
+  "overflow_desktop_/best/running-shoes": [],
+  "page_/tools/running-shoe-finder": {
+    "title": "Running Shoe Finder: Find the Right Shoes for You | Kitletics · Kitletics",
+    "h1": "Find your perfect running shoes",
+    "mainText": "Your progress Step 1 of 7 1Running basics 2Goals & use 3Cushioning & support 4Fit preferences 5Runner profile 6Budget 7Results Your summary Edit Your answers will appear here as you go. Need help? See our buying guide for context before you decide. Guide to running shoes Step 1 of 7 Running basics Home Tools Running Shoe Finder RUNNING SHOE FINDER Find your perfect running shoes Answer a few quick questions and we'll match you with shoes that fit your running, goals and preferences. Takes ~2 min",
+    "mainHtmlLen": 28630,
+    "bodyBg": "rgba(0, 0, 0, 0)",
+    "imgCount": 3,
+    "errors": []
+  },
+  "page_/compare": {
+    "title": "Compare Sports Gear Side by Side · Kitletics",
+    "h1": "Compare Accessories",
+    "mainText": "Home Compare Accessories Compare Accessories Add up to 4 products to compare side by side. Share comparisonCopy linkClear all Compare options Select products (0/4) product 1 Quick filters Show only differences Sort by Selection order Kitletics Score Price Customize categories & metrics How to use Add 2–4 products to compare Use filters to focus on what matters Click headers to sort Tap any value for more details Category Accessories Adjustable Dumbbells Air Bikes Badminton Rackets Barbells Funct",
+    "mainHtmlLen": 12550,
+    "bodyBg": "rgba(0, 0, 0, 0)",
+    "imgCount": 0,
+    "errors": []
+  },
+  "page_/tools/running-shoe-finder/results": {
+    "title": "Your Running Shoe Finder Matches · Kitletics",
+    "h1": "No results yet",
+    "mainText": "No results yet Complete the finder to see matches. Start the Finder",
+    "mainHtmlLen": 359,
+    "bodyBg": "rgba(0, 0, 0, 0)",
+    "imgCount": 0,
+    "errors": []
+  },
+  "productRelated": {
+    "headings": [
+      "Kitletics Review",
+      "Cons / Trade-offs",
+      "Best for",
+      "Who should buy the Vomero 18?",
+      "Key specs that matter",
+      "Should you buy it?",
+      "Alternatives to consider",
+      "Top alternatives",
+      "Specifications",
+      "Where to buy"
+    ],
+    "allH2": [
+      "Overview",
+      "At a glance",
+      "Pros & cons",
+      "Key technologies",
+      "Kitletics Review",
+      "Pros",
+      "Cons / Trade-offs",
+      "Best for",
+      "Not ideal for",
+      "Who should buy the Vomero 18?",
+      "Who should look elsewhere?",
+      "Performance breakdown",
+      "How it performs",
+      "Key specs that matter",
+      "Should you buy it?",
+      "Alternatives to consider",
+      "Featured in",
+      "How we assessed it",
+      "Top alternatives",
+      "Specifications",
+      "Geometry",
+      "Ride",
+      "Construction",
+      "Use",
+      "Fit",
+      "Other",
+      "Where to buy",
+      "Sources & evidence",
+      "Best Daily Trainers",
+      "Best Max Cushion Running Shoes",
+      "Running Shoe Finder",
+      "Shoe Rotation Planner",
+      "Running Pace Calculator",
+      "Independent & Transparent",
+      "Always Up to Date",
+      "Real Prices",
+      "Find What Fits You"
+    ]
+  },
+  "setup": {
+    "status": 200,
+    "title": "Beginner Running Setup · Kitletics",
+    "h1": "Beginner Running Setup"
+  },
+  "overflow_mobile_/running/watches": [
+    {
+      "tag": "a",
+      "cls": "flex items-center gap-3 rounded-xl border border-border bg-white px-3 py-3 transition-colors hover:border-accent",
+      "right": 1849,
+      "left": 8,
+      "w": 1841,
+      "text": "Suunto4 products",
+      "overflow": "visible"
+    },
+    {
+      "tag": "span",
+      "cls": "flex shrink-0 items-center justify-center rounded-lg p-1.5 size-12",
+      "right": 1849,
+      "left": 8,
+      "w": 1841,
+      "text": "",
+      "overflow": "visible"
+    },
+    {
+      "tag": "img",
+      "cls": "h-auto w-auto object-contain max-h-9 max-w-9",
+      "right": 1849,
+      "left": 8,
+      "w": 1841,
+      "text": "",
+      "overflow": "clip"
+    },
+    {
+      "tag": "a",
+      "cls": "flex items-center gap-3 rounded-xl border border-border bg-white px-3 py-3 transition-colors hover:border-accent",
+      "right": 977,
+      "left": 8,
+      "w": 969,
+      "text": "Polar4 products",
+      "overflow": "visible"
+    },
+    {
+      "tag": "span",
+      "cls": "flex shrink-0 items-center justify-center rounded-lg p-1.5 size-12",
+      "right": 977,
+      "left": 8,
+      "w": 969,
+      "text": "",
+      "overflow": "visible"
+    },
+    {
+      "tag": "img",
+      "cls": "h-auto w-auto object-contain max-h-9 max-w-9",
+      "right": 977,
+      "left": 8,
+      "w": 969,
+      "text": "",
+      "overflow": "clip"
+    },
+    {
+      "tag": "a",
+      "cls": "flex items-center gap-3 rounded-xl border border-border bg-white px-3 py-3 transition-colors hover:border-accent",
+      "right": 822,
+      "left": 8,
+      "w": 814,
+      "text": "Apple3 products",
+      "overflow": "visible"
+    },
+    {
+      "tag": "span",
+      "cls": "flex shrink-0 items-center justify-center rounded-lg p-1.5 size-12",
+      "right": 822,
+      "left": 8,
+      "w": 814,
+      "text": "",
+      "overflow": "visible"
+    },
+    {
+      "tag": "img",
+      "cls": "h-auto w-auto object-contain max-h-9 max-w-9",
+      "right": 822,
+      "left": 8,
+      "w": 814,
+      "text": "",
+      "overflow": "clip"
+    },
+    {
+      "tag": "a",
+      "cls": "flex items-center gap-3 rounded-xl border border-border bg-white px-3 py-3 transition-colors hover:border-accent",
+      "right": 808,
+      "left": 8,
+      "w": 800,
+      "text": "Garmin13 products",
+      "overflow": "visible"
+    },
+    {
+      "tag": "span",
+      "cls": "flex shrink-0 items-center justify-center rounded-lg p-1.5 size-12",
+      "right": 808,
+      "left": 8,
+      "w": 800,
+      "text": "",
+      "overflow": "visible"
+    },
+    {
+      "tag": "img",
+      "cls": "h-auto w-auto object-contain max-h-9 max-w-9",
+      "right": 808,
+      "left": 8,
+      "w": 800,
+      "text": "",
+      "overflow": "clip"
+    }
+  ],
+  "overflow_mobile_/running/shoes": [
+    {
+      "tag": "a",
+      "cls": "absolute top-[8%] left-[2%] z-[1] w-[42%] -rotate-[18deg] sm:left-[4%]",
+      "right": 428,
+      "left": 8,
+      "w": 420,
+      "text": "",
+      "overflow": "visible"
+    },
+    {
+      "tag": "img",
+      "cls": "h-auto w-full object-contain drop-shadow-[0_18px_28px_rgba(11,15,19,0.18)] transition-transform duration-500 hover:scale",
+      "right": 428,
+      "left": 8,
+      "w": 420,
+      "text": "",
+      "overflow": "clip"
+    },
+    {
+      "tag": "a",
+      "cls": "absolute right-[0%] bottom-[4%] z-[2] w-[44%] rotate-[12deg] sm:right-[2%]",
+      "right": 428,
+      "left": 8,
+      "w": 420,
+      "text": "",
+      "overflow": "visible"
+    },
+    {
+      "tag": "img",
+      "cls": "h-auto w-full object-contain drop-shadow-[0_18px_28px_rgba(11,15,19,0.18)] transition-transform duration-500 hover:scale",
+      "right": 428,
+      "left": 8,
+      "w": 420,
+      "text": "",
+      "overflow": "clip"
+    },
+    {
+      "tag": "a",
+      "cls": "absolute top-[12%] left-[28%] z-[3] w-[48%] rotate-[-6deg] sm:left-[30%]",
+      "right": 428,
+      "left": 8,
+      "w": 420,
+      "text": "",
+      "overflow": "visible"
+    },
+    {
+      "tag": "img",
+      "cls": "h-auto w-full object-contain drop-shadow-[0_18px_28px_rgba(11,15,19,0.18)] transition-transform duration-500 hover:scale",
+      "right": 428,
+      "left": 8,
+      "w": 420,
+      "text": "",
+      "overflow": "clip"
+    }
+  ],
+  "overflow_mobile_/running/clothing": [
+    {
+      "tag": "a",
+      "cls": "flex items-center gap-3 rounded-xl border border-border bg-white px-3 py-3 transition-colors hover:border-accent",
+      "right": 1032,
+      "left": 8,
+      "w": 1024,
+      "text": "Brooks6 products",
+      "overflow": "visible"
+    },
+    {
+      "tag": "span",
+      "cls": "flex shrink-0 items-center justify-center rounded-lg p-1.5 size-12",
+      "right": 1032,
+      "left": 8,
+      "w": 1024,
+      "text": "",
+      "overflow": "visible"
+    },
+    {
+      "tag": "img",
+      "cls": "h-auto w-auto object-contain max-h-9 max-w-9",
+      "right": 1032,
+      "left": 8,
+      "w": 1024,
+      "text": "",
+      "overflow": "clip"
+    },
+    {
+      "tag": "a",
+      "cls": "flex items-center gap-3 rounded-xl border border-border bg-white px-3 py-3 transition-colors hover:border-accent",
+      "right": 1008,
+      "left": 8,
+      "w": 1000,
+      "text": "Nike9 products",
+      "overflow": "visible"
+    },
+    {
+      "tag": "span",
+      "cls": "flex shrink-0 items-center justify-center rounded-lg p-1.5 size-12",
+      "right": 1008,
+      "left": 8,
+      "w": 1000,
+      "text": "",
+      "overflow": "visible"
+    },
+    {
+      "tag": "img",
+      "cls": "h-auto w-auto object-contain max-h-9 max-w-9",
+      "right": 1008,
+      "left": 8,
+      "w": 1000,
+      "text": "",
+      "overflow": "clip"
+    },
+    {
+      "tag": "a",
+      "cls": "flex items-center gap-3 rounded-xl border border-border bg-white px-3 py-3 transition-colors hover:border-accent",
+      "right": 733,
+      "left": 8,
+      "w": 725,
+      "text": "Adidas2 products",
+      "overflow": "visible"
+    },
+    {
+      "tag": "span",
+      "cls": "flex shrink-0 items-center justify-center rounded-lg p-1.5 size-12",
+      "right": 733,
+      "left": 8,
+      "w": 725,
+      "text": "",
+      "overflow": "visible"
+    },
+    {
+      "tag": "img",
+      "cls": "h-auto w-auto object-contain max-h-9 max-w-9",
+      "right": 733,
+      "left": 8,
+      "w": 725,
+      "text": "",
+      "overflow": "clip"
+    }
+  ],
+  "overflow_mobile_/compare/asics-novablast-6-vs-brooks-ghost-18": [
+    {
+      "tag": "a",
+      "cls": "flex items-center gap-3 py-3 transition-colors hover:bg-surface-muted/40",
+      "right": 1920,
+      "left": 48,
+      "w": 1872,
+      "text": "Nike Pegasus 41Versatile daily vs bouncy Novablast stack›",
+      "overflow": "visible"
+    },
+    {
+      "tag": "span",
+      "cls": "relative flex size-12 shrink-0 overflow-hidden rounded-[4px] border border-border bg-white",
+      "right": 1920,
+      "left": 48,
+      "w": 1872,
+      "text": "",
+      "overflow": "visible"
+    },
+    {
+      "tag": "img",
+      "cls": "size-full object-contain p-1",
+      "right": 1920,
+      "left": 48,
+      "w": 1872,
+      "text": "",
+      "overflow": "clip"
+    },
+    {
+      "tag": "a",
+      "cls": "flex items-center gap-3 py-3 transition-colors hover:bg-surface-muted/40",
+      "right": 1328,
+      "left": 48,
+      "w": 1280,
+      "text": "Saucony Endorphin Speed 5Endorphin Speed adds a nylon plate ",
+      "overflow": "visible"
+    },
+    {
+      "tag": "span",
+      "cls": "relative flex size-12 shrink-0 overflow-hidden rounded-[4px] border border-border bg-white",
+      "right": 1328,
+      "left": 48,
+      "w": 1280,
+      "text": "",
+      "overflow": "visible"
+    },
+    {
+      "tag": "img",
+      "cls": "size-full object-contain p-1",
+      "right": 1328,
+      "left": 48,
+      "w": 1280,
+      "text": "",
+      "overflow": "clip"
+    },
+    {
+      "tag": "a",
+      "cls": "flex items-center gap-3 py-3 transition-colors hover:bg-surface-muted/40",
+      "right": 1328,
+      "left": 48,
+      "w": 1280,
+      "text": "Saucony Ride 18Shared use-case alternative›",
+      "overflow": "visible"
+    },
+    {
+      "tag": "span",
+      "cls": "relative flex size-12 shrink-0 overflow-hidden rounded-[4px] border border-border bg-white",
+      "right": 1328,
+      "left": 48,
+      "w": 1280,
+      "text": "",
+      "overflow": "visible"
+    },
+    {
+      "tag": "img",
+      "cls": "size-full object-contain p-1",
+      "right": 1328,
+      "left": 48,
+      "w": 1280,
+      "text": "",
+      "overflow": "clip"
+    },
+    {
+      "tag": "a",
+      "cls": "flex items-center gap-3 py-3 transition-colors hover:bg-surface-muted/40",
+      "right": 1248,
+      "left": 48,
+      "w": 1200,
+      "text": "ASICS GEL-Cumulus 27Shared use-case alternative›",
+      "overflow": "visible"
+    },
+    {
+      "tag": "span",
+      "cls": "relative flex size-12 shrink-0 overflow-hidden rounded-[4px] border border-border bg-white",
+      "right": 1248,
+      "left": 48,
+      "w": 1200,
+      "text": "",
+      "overflow": "visible"
+    },
+    {
+      "tag": "img",
+      "cls": "size-full object-contain p-1",
+      "right": 1248,
+      "left": 48,
+      "w": 1200,
+      "text": "",
+      "overflow": "clip"
+    }
+  ],
+  "overflow_mobile_/reviews/nike-vomero-18": [
+    {
+      "tag": "img",
+      "cls": "max-h-[95%] w-auto max-w-full scale-110 object-contain drop-shadow-lg",
+      "right": 568,
+      "left": 8,
+      "w": 560,
+      "text": "",
+      "overflow": "clip"
+    },
+    {
+      "tag": "table",
+      "cls": "w-full min-w-[640px] border-collapse text-left text-sm",
+      "right": 462,
+      "left": 8,
+      "w": 454,
+      "text": "ProductScoreCushioningRideStabilityWeightBest forNikeVomero ",
+      "overflow": "visible"
+    },
+    {
+      "tag": "thead",
+      "cls": "",
+      "right": 460,
+      "left": 10,
+      "w": 450,
+      "text": "ProductScoreCushioningRideStabilityWeightBest for",
+      "overflow": "visible"
+    },
+    {
+      "tag": "tr",
+      "cls": "border-b border-border text-[11px] font-bold tracking-[0.08em] text-subtle uppercase",
+      "right": 460,
+      "left": 10,
+      "w": 450,
+      "text": "ProductScoreCushioningRideStabilityWeightBest for",
+      "overflow": "visible"
+    },
+    {
+      "tag": "th",
+      "cls": "px-3 py-3 font-bold",
+      "right": 460,
+      "left": 391,
+      "w": 69,
+      "text": "Best for",
+      "overflow": "visible"
+    },
+    {
+      "tag": "tbody",
+      "cls": "",
+      "right": 460,
+      "left": 10,
+      "w": 450,
+      "text": "NikeVomero 18This review8.49.28.27.8288 gSoft protective dai",
+      "overflow": "visible"
+    },
+    {
+      "tag": "tr",
+      "cls": "bg-accent-muted/80",
+      "right": 460,
+      "left": 10,
+      "w": 450,
+      "text": "NikeVomero 18This review8.49.28.27.8288 gSoft protective dai",
+      "overflow": "visible"
+    },
+    {
+      "tag": "td",
+      "cls": "px-3 py-3 tabular-nums text-foreground",
+      "right": 460,
+      "left": 391,
+      "w": 69,
+      "text": "Soft protective daily ride",
+      "overflow": "visible"
+    },
+    {
+      "tag": "tr",
+      "cls": "border-b border-border",
+      "right": 460,
+      "left": 10,
+      "w": 450,
+      "text": "BrooksGlycerin 228.39.48.07.8289 gVery plush underfoot",
+      "overflow": "visible"
+    },
+    {
+      "tag": "td",
+      "cls": "px-3 py-3 tabular-nums text-foreground",
+      "right": 460,
+      "left": 391,
+      "w": 69,
+      "text": "Very plush underfoot",
+      "overflow": "visible"
+    },
+    {
+      "tag": "tr",
+      "cls": "border-b border-border",
+      "right": 460,
+      "left": 10,
+      "w": 450,
+      "text": "HOKABondi 98.59.67.87.6307 gMaximum underfoot protection",
+      "overflow": "visible"
+    },
+    {
+      "tag": "td",
+      "cls": "px-3 py-3 tabular-nums text-foreground",
+      "right": 460,
+      "left": 391,
+      "w": 69,
+      "text": "Maximum underfoot protection",
+      "overflow": "visible"
+    }
+  ],
+  "overflow_mobile_/best/running-shoes": [
+    {
+      "tag": "table",
+      "cls": "w-full min-w-[52rem] border-collapse text-left text-[13px]",
+      "right": 702,
+      "left": 8,
+      "w": 694,
+      "text": "Comparison of recommended products in this guideComparison o",
+      "overflow": "visible"
+    },
+    {
+      "tag": "caption",
+      "cls": "sr-only",
+      "right": 702,
+      "left": 8,
+      "w": 694,
+      "text": "Comparison of recommended products in this guide",
+      "overflow": "visible"
+    },
+    {
+      "tag": "caption",
+      "cls": "sr-only",
+      "right": 702,
+      "left": 8,
+      "w": 694,
+      "text": "Comparison of recommended running shoes",
+      "overflow": "visible"
+    },
+    {
+      "tag": "thead",
+      "cls": "",
+      "right": 700,
+      "left": 10,
+      "w": 690,
+      "text": "Running ShoeBest forCushioningRide & EnergyFit & ComfortStab",
+      "overflow": "visible"
+    },
+    {
+      "tag": "tr",
+      "cls": "border-b border-border bg-surface-muted text-foreground",
+      "right": 700,
+      "left": 10,
+      "w": 690,
+      "text": "Running ShoeBest forCushioningRide & EnergyFit & ComfortStab",
+      "overflow": "visible"
+    },
+    {
+      "tag": "th",
+      "cls": "px-3 py-3 text-left text-[11px] font-bold tracking-wide whitespace-nowrap uppercase",
+      "right": 700,
+      "left": 658,
+      "w": 42,
+      "text": "Price",
+      "overflow": "visible"
+    },
+    {
+      "tag": "tbody",
+      "cls": "divide-y divide-border bg-white",
+      "right": 700,
+      "left": 10,
+      "w": 690,
+      "text": "ASICS Novablast 6Runners whose week matches a clear role in ",
+      "overflow": "visible"
+    },
+    {
+      "tag": "tr",
+      "cls": "hover:bg-surface-muted/40",
+      "right": 700,
+      "left": 10,
+      "w": 690,
+      "text": "ASICS Novablast 6Runners whose week matches a clear role in ",
+      "overflow": "visible"
+    },
+    {
+      "tag": "td",
+      "cls": "px-3 py-2.5 whitespace-nowrap text-foreground tabular-nums",
+      "right": 700,
+      "left": 658,
+      "w": 42,
+      "text": "€ 149",
+      "overflow": "visible"
+    },
+    {
+      "tag": "tr",
+      "cls": "hover:bg-surface-muted/40",
+      "right": 700,
+      "left": 10,
+      "w": 690,
+      "text": "Brooks Ghost 18Runners whose week matches a clear role in a ",
+      "overflow": "visible"
+    },
+    {
+      "tag": "td",
+      "cls": "px-3 py-2.5 whitespace-nowrap text-foreground tabular-nums",
+      "right": 700,
+      "left": 658,
+      "w": 42,
+      "text": "€ 144",
+      "overflow": "visible"
+    },
+    {
+      "tag": "tr",
+      "cls": "hover:bg-surface-muted/40",
+      "right": 700,
+      "left": 10,
+      "w": 690,
+      "text": "Nike Pegasus 42Runners whose week matches a clear role in a ",
+      "overflow": "visible"
+    }
+  ],
+  "overflow_mobile_/products/nike-vomero-18/alternatives": [
+    {
+      "tag": "table",
+      "cls": "w-full min-w-[48rem] text-left text-[13px]",
+      "right": 671,
+      "left": 8,
+      "w": 663,
+      "text": "Spec comparison of Nike Vomero 18 and alternativesShoeCushio",
+      "overflow": "visible"
+    },
+    {
+      "tag": "caption",
+      "cls": "sr-only",
+      "right": 671,
+      "left": 8,
+      "w": 663,
+      "text": "Spec comparison of Nike Vomero 18 and alternatives",
+      "overflow": "visible"
+    },
+    {
+      "tag": "thead",
+      "cls": "",
+      "right": 669,
+      "left": 10,
+      "w": 659,
+      "text": "ShoeCushioningResponsivenessStabilityDurabilityWeight (M)Dro",
+      "overflow": "visible"
+    },
+    {
+      "tag": "tr",
+      "cls": "bg-charcoal-950 text-white",
+      "right": 669,
+      "left": 10,
+      "w": 659,
+      "text": "ShoeCushioningResponsivenessStabilityDurabilityWeight (M)Dro",
+      "overflow": "visible"
+    },
+    {
+      "tag": "th",
+      "cls": "px-3 py-3 text-[11px] font-semibold tracking-wide uppercase",
+      "right": 669,
+      "left": 606,
+      "w": 63,
+      "text": "Best for",
+      "overflow": "visible"
+    },
+    {
+      "tag": "tbody",
+      "cls": "",
+      "right": 669,
+      "left": 10,
+      "w": 659,
+      "text": "Vomero 18SourceHighHighNeutralModerate28810Standard8.4Easy R",
+      "overflow": "visible"
+    },
+    {
+      "tag": "tr",
+      "cls": "bg-accent/15 font-medium",
+      "right": 669,
+      "left": 10,
+      "w": 659,
+      "text": "Vomero 18SourceHighHighNeutralModerate28810Standard8.4Easy R",
+      "overflow": "visible"
+    },
+    {
+      "tag": "td",
+      "cls": "px-3 py-2.5",
+      "right": 669,
+      "left": 606,
+      "w": 63,
+      "text": "Easy Runs, Recovery Runs",
+      "overflow": "visible"
+    },
+    {
+      "tag": "tr",
+      "cls": "bg-surface-muted/40",
+      "right": 669,
+      "left": 10,
+      "w": 659,
+      "text": "Bondi 9MaximumModerateMild StabilityModerate3075Standard, Wi",
+      "overflow": "visible"
+    },
+    {
+      "tag": "td",
+      "cls": "px-3 py-2.5",
+      "right": 669,
+      "left": 606,
+      "w": 63,
+      "text": "Recovery Runs, Easy Runs",
+      "overflow": "visible"
+    },
+    {
+      "tag": "tr",
+      "cls": "bg-white",
+      "right": 669,
+      "left": 10,
+      "w": 659,
+      "text": "Glycerin 22MaximumModerateNeutralModerate28910Narrow, Standa",
+      "overflow": "visible"
+    },
+    {
+      "tag": "td",
+      "cls": "px-3 py-2.5",
+      "right": 669,
+      "left": 606,
+      "w": 63,
+      "text": "Comfort, Easy Runs",
+      "overflow": "visible"
+    }
+  ],
+  "overflow_mobile_/brands/nike": [
+    {
+      "tag": "img",
+      "cls": "max-h-[320px] w-auto max-w-[90%] object-contain p-6",
+      "right": 488,
+      "left": 8,
+      "w": 480,
+      "text": "",
+      "overflow": "clip"
+    }
+  ]
+}

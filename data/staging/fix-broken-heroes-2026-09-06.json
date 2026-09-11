@@ -1,0 +1,58 @@
+[
+  {
+    "id": "prod-beats-powerbeats-pro-2",
+    "ok": false,
+    "dest": "public/images/headphones/products/beats-powerbeats-pro-2-hero.jpg",
+    "used": null,
+    "err": "HTTP 404"
+  },
+  {
+    "id": "prod-saltstick-caps",
+    "ok": false,
+    "dest": "public/images/running/accessories/saltstick-caps-hero.jpg",
+    "used": null,
+    "err": "Input buffer has corrupt header: glib: XML parse error: Error domain 1 code 68 on line 2 column 2 of data: StartTag: invalid element name"
+  },
+  {
+    "id": "prod-saltstick-fastchews",
+    "ok": false,
+    "dest": "public/images/running/accessories/saltstick-fastchews-hero.jpg",
+    "used": null,
+    "err": "Input buffer has corrupt header: glib: XML parse error: Error domain 1 code 68 on line 2 column 2 of data: StartTag: invalid element name"
+  },
+  {
+    "id": "prod-hoka-ora-recovery-slide",
+    "ok": false,
+    "dest": "public/images/running/accessories/hoka-ora-recovery-slide-hero.jpg",
+    "used": null,
+    "err": "HTTP 404"
+  },
+  {
+    "id": "prod-theragun-relief",
+    "ok": false,
+    "dest": "public/images/running/accessories/therabody-theragun-relief-hero.jpg",
+    "used": null,
+    "err": "HTTP 404"
+  },
+  {
+    "id": "prod-triggerpoint-grid",
+    "ok": false,
+    "dest": "public/images/running/accessories/triggerpoint-grid-foam-roller-hero.jpg",
+    "used": null,
+    "err": "fetch failed"
+  },
+  {
+    "id": "prod-biolite-headlamp-425",
+    "ok": false,
+    "dest": "public/images/headlamps/products/biolite-headlamp-425-hero.jpg",
+    "used": null,
+    "err": "HTTP 404"
+  },
+  {
+    "id": "prod-fenix-hm65r-t",
+    "ok": false,
+    "dest": "public/images/headlamps/products/fenix-hm65r-t-hero.jpg",
+    "used": null,
+    "err": "HTTP 404"
+  }
+]

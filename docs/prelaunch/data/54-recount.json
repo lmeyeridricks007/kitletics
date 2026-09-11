@@ -1,0 +1,32 @@
+{
+  "total": 585,
+  "READY": 585,
+  "INDEXABLE": 367,
+  "HELD": 218,
+  "DUPLICATIVE_quality": 0,
+  "THIN": 0,
+  "BLOCKED": 0,
+  "LAUNCH_READY": 585,
+  "clusterNeedsDiff": 0,
+  "clusterDuplicative": 0,
+  "indexableNeedsDiff": 0,
+  "indexableDuplicative": 0,
+  "uniquenessHolds": 0,
+  "blockedEvidence": 0,
+  "notReady": [],
+  "verticalHoldReady": 218,
+  "readyByVertical": {
+    "Running": 312,
+    "HYROX": 65,
+    "Fitness": 118,
+    "Padel": 64,
+    "Tennis": 22,
+    "Recovery": 4
+  },
+  "heldByVertical": {
+    "Fitness": 81,
+    "Padel": 64,
+    "Tennis": 22,
+    "HYROX": 51
+  }
+}

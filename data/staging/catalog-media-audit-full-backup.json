@@ -1,0 +1,3553 @@
+{
+  "generatedAt": "2026-09-04T10:52:43.029Z",
+  "totals": {
+    "published": 422,
+    "withAuthenticPrimary": 238,
+    "missing": 184,
+    "broken": 0,
+    "placeholderOnly": 184,
+    "coveragePct": 56,
+    "registryEntries": 241
+  },
+  "byCategory": [
+    {
+      "categoryId": "cat-running-belts",
+      "categoryName": "Running Belts",
+      "categorySlug": "running-belts",
+      "published": 3,
+      "withAuthenticPrimary": 0,
+      "missing": 0,
+      "broken": 0,
+      "placeholderOnly": 3,
+      "coveragePct": 0
+    },
+    {
+      "categoryId": "cat-hydration",
+      "categoryName": "Hydration",
+      "categorySlug": "hydration",
+      "published": 3,
+      "withAuthenticPrimary": 0,
+      "missing": 0,
+      "broken": 0,
+      "placeholderOnly": 3,
+      "coveragePct": 0
+    },
+    {
+      "categoryId": "cat-running-clothing",
+      "categoryName": "Running Clothing",
+      "categorySlug": "running-clothing",
+      "published": 5,
+      "withAuthenticPrimary": 0,
+      "missing": 0,
+      "broken": 0,
+      "placeholderOnly": 5,
+      "coveragePct": 0
+    },
+    {
+      "categoryId": "cat-running-socks",
+      "categoryName": "Running Socks",
+      "categorySlug": "running-socks",
+      "published": 4,
+      "withAuthenticPrimary": 0,
+      "missing": 0,
+      "broken": 0,
+      "placeholderOnly": 4,
+      "coveragePct": 0
+    },
+    {
+      "categoryId": "cat-sunglasses",
+      "categoryName": "Sunglasses",
+      "categorySlug": "sunglasses",
+      "published": 3,
+      "withAuthenticPrimary": 0,
+      "missing": 0,
+      "broken": 0,
+      "placeholderOnly": 3,
+      "coveragePct": 0
+    },
+    {
+      "categoryId": "cat-safety",
+      "categoryName": "Safety Gear",
+      "categorySlug": "safety-gear",
+      "published": 2,
+      "withAuthenticPrimary": 0,
+      "missing": 0,
+      "broken": 0,
+      "placeholderOnly": 2,
+      "coveragePct": 0
+    },
+    {
+      "categoryId": "cat-recovery-gear",
+      "categoryName": "Recovery",
+      "categorySlug": "recovery",
+      "published": 4,
+      "withAuthenticPrimary": 0,
+      "missing": 0,
+      "broken": 0,
+      "placeholderOnly": 4,
+      "coveragePct": 0
+    },
+    {
+      "categoryId": "cat-accessories",
+      "categoryName": "Accessories",
+      "categorySlug": "accessories",
+      "published": 3,
+      "withAuthenticPrimary": 0,
+      "missing": 0,
+      "broken": 0,
+      "placeholderOnly": 3,
+      "coveragePct": 0
+    },
+    {
+      "categoryId": "cat-padel-bags",
+      "categoryName": "Padel Bags",
+      "categorySlug": "padel-bags",
+      "published": 1,
+      "withAuthenticPrimary": 0,
+      "missing": 0,
+      "broken": 0,
+      "placeholderOnly": 1,
+      "coveragePct": 0
+    },
+    {
+      "categoryId": "cat-tennis-shoes",
+      "categoryName": "Tennis Shoes",
+      "categorySlug": "tennis-shoes",
+      "published": 30,
+      "withAuthenticPrimary": 0,
+      "missing": 0,
+      "broken": 0,
+      "placeholderOnly": 30,
+      "coveragePct": 0
+    },
+    {
+      "categoryId": "cat-tennis-strings",
+      "categoryName": "Tennis Strings",
+      "categorySlug": "tennis-strings",
+      "published": 6,
+      "withAuthenticPrimary": 0,
+      "missing": 0,
+      "broken": 0,
+      "placeholderOnly": 6,
+      "coveragePct": 0
+    },
+    {
+      "categoryId": "cat-pickleball-paddles",
+      "categoryName": "Pickleball Paddles",
+      "categorySlug": "pickleball-paddles",
+      "published": 6,
+      "withAuthenticPrimary": 0,
+      "missing": 0,
+      "broken": 0,
+      "placeholderOnly": 6,
+      "coveragePct": 0
+    },
+    {
+      "categoryId": "cat-badminton-rackets",
+      "categoryName": "Badminton Rackets",
+      "categorySlug": "badminton-rackets",
+      "published": 6,
+      "withAuthenticPrimary": 0,
+      "missing": 0,
+      "broken": 0,
+      "placeholderOnly": 6,
+      "coveragePct": 0
+    },
+    {
+      "categoryId": "cat-squash-rackets",
+      "categoryName": "Squash Rackets",
+      "categorySlug": "squash-rackets",
+      "published": 5,
+      "withAuthenticPrimary": 0,
+      "missing": 0,
+      "broken": 0,
+      "placeholderOnly": 5,
+      "coveragePct": 0
+    },
+    {
+      "categoryId": "cat-barbells",
+      "categoryName": "Barbells",
+      "categorySlug": "barbells",
+      "published": 6,
+      "withAuthenticPrimary": 0,
+      "missing": 0,
+      "broken": 0,
+      "placeholderOnly": 6,
+      "coveragePct": 0
+    },
+    {
+      "categoryId": "cat-kettlebells",
+      "categoryName": "Kettlebells",
+      "categorySlug": "kettlebells",
+      "published": 5,
+      "withAuthenticPrimary": 0,
+      "missing": 0,
+      "broken": 0,
+      "placeholderOnly": 5,
+      "coveragePct": 0
+    },
+    {
+      "categoryId": "cat-rowing-machines",
+      "categoryName": "Rowing Machines",
+      "categorySlug": "rowing-machines",
+      "published": 6,
+      "withAuthenticPrimary": 0,
+      "missing": 0,
+      "broken": 0,
+      "placeholderOnly": 6,
+      "coveragePct": 0
+    },
+    {
+      "categoryId": "cat-air-bikes",
+      "categoryName": "Air Bikes",
+      "categorySlug": "air-bikes",
+      "published": 6,
+      "withAuthenticPrimary": 0,
+      "missing": 0,
+      "broken": 0,
+      "placeholderOnly": 6,
+      "coveragePct": 0
+    },
+    {
+      "categoryId": "cat-treadmills",
+      "categoryName": "Treadmills",
+      "categorySlug": "treadmills",
+      "published": 6,
+      "withAuthenticPrimary": 0,
+      "missing": 0,
+      "broken": 0,
+      "placeholderOnly": 6,
+      "coveragePct": 0
+    },
+    {
+      "categoryId": "cat-ski-ergs",
+      "categoryName": "SkiErgs",
+      "categorySlug": "ski-ergs",
+      "published": 5,
+      "withAuthenticPrimary": 0,
+      "missing": 0,
+      "broken": 0,
+      "placeholderOnly": 5,
+      "coveragePct": 0
+    },
+    {
+      "categoryId": "cat-pull-up-bars",
+      "categoryName": "Pull-Up Bars",
+      "categorySlug": "pull-up-bars",
+      "published": 6,
+      "withAuthenticPrimary": 0,
+      "missing": 0,
+      "broken": 0,
+      "placeholderOnly": 6,
+      "coveragePct": 0
+    },
+    {
+      "categoryId": "cat-parallettes",
+      "categoryName": "Parallettes",
+      "categorySlug": "parallettes",
+      "published": 3,
+      "withAuthenticPrimary": 0,
+      "missing": 0,
+      "broken": 0,
+      "placeholderOnly": 3,
+      "coveragePct": 0
+    },
+    {
+      "categoryId": "cat-gymnastic-rings",
+      "categoryName": "Gymnastic Rings",
+      "categorySlug": "gymnastic-rings",
+      "published": 2,
+      "withAuthenticPrimary": 0,
+      "missing": 0,
+      "broken": 0,
+      "placeholderOnly": 2,
+      "coveragePct": 0
+    },
+    {
+      "categoryId": "cat-weighted-vests",
+      "categoryName": "Weighted Vests",
+      "categorySlug": "weighted-vests",
+      "published": 3,
+      "withAuthenticPrimary": 0,
+      "missing": 0,
+      "broken": 0,
+      "placeholderOnly": 3,
+      "coveragePct": 0
+    },
+    {
+      "categoryId": "cat-functional-fitness",
+      "categoryName": "Functional Fitness",
+      "categorySlug": "functional-fitness",
+      "published": 5,
+      "withAuthenticPrimary": 0,
+      "missing": 0,
+      "broken": 0,
+      "placeholderOnly": 5,
+      "coveragePct": 0
+    },
+    {
+      "categoryId": "cat-lifting-accessories",
+      "categoryName": "Lifting Accessories",
+      "categorySlug": "lifting-accessories",
+      "published": 6,
+      "withAuthenticPrimary": 0,
+      "missing": 0,
+      "broken": 0,
+      "placeholderOnly": 6,
+      "coveragePct": 0
+    },
+    {
+      "categoryId": "cat-gym-flooring",
+      "categoryName": "Gym Flooring",
+      "categorySlug": "gym-flooring",
+      "published": 2,
+      "withAuthenticPrimary": 0,
+      "missing": 0,
+      "broken": 0,
+      "placeholderOnly": 2,
+      "coveragePct": 0
+    },
+    {
+      "categoryId": "cat-gym-storage",
+      "categoryName": "Gym Storage",
+      "categorySlug": "gym-storage",
+      "published": 2,
+      "withAuthenticPrimary": 0,
+      "missing": 0,
+      "broken": 0,
+      "placeholderOnly": 2,
+      "coveragePct": 0
+    },
+    {
+      "categoryId": "cat-padel-shoes",
+      "categoryName": "Padel Shoes",
+      "categorySlug": "padel-shoes",
+      "published": 40,
+      "withAuthenticPrimary": 22,
+      "missing": 0,
+      "broken": 0,
+      "placeholderOnly": 18,
+      "coveragePct": 55
+    },
+    {
+      "categoryId": "cat-running-shoes",
+      "categoryName": "Running Shoes",
+      "categorySlug": "running-shoes",
+      "published": 83,
+      "withAuthenticPrimary": 61,
+      "missing": 0,
+      "broken": 0,
+      "placeholderOnly": 22,
+      "coveragePct": 73
+    },
+    {
+      "categoryId": "cat-gps-watches",
+      "categoryName": "GPS Watches",
+      "categorySlug": "gps-watches",
+      "published": 15,
+      "withAuthenticPrimary": 15,
+      "missing": 0,
+      "broken": 0,
+      "placeholderOnly": 0,
+      "coveragePct": 100
+    },
+    {
+      "categoryId": "cat-hrm",
+      "categoryName": "Heart Rate Monitors",
+      "categorySlug": "heart-rate-monitors",
+      "published": 7,
+      "withAuthenticPrimary": 7,
+      "missing": 0,
+      "broken": 0,
+      "placeholderOnly": 0,
+      "coveragePct": 100
+    },
+    {
+      "categoryId": "cat-packs-vests",
+      "categoryName": "Running Packs & Vests",
+      "categorySlug": "running-packs-vests",
+      "published": 6,
+      "withAuthenticPrimary": 6,
+      "missing": 0,
+      "broken": 0,
+      "placeholderOnly": 0,
+      "coveragePct": 100
+    },
+    {
+      "categoryId": "cat-headphones",
+      "categoryName": "Headphones",
+      "categorySlug": "headphones",
+      "published": 3,
+      "withAuthenticPrimary": 3,
+      "missing": 0,
+      "broken": 0,
+      "placeholderOnly": 0,
+      "coveragePct": 100
+    },
+    {
+      "categoryId": "cat-running-lights",
+      "categoryName": "Running Lights",
+      "categorySlug": "running-lights",
+      "published": 3,
+      "withAuthenticPrimary": 3,
+      "missing": 0,
+      "broken": 0,
+      "placeholderOnly": 0,
+      "coveragePct": 100
+    },
+    {
+      "categoryId": "cat-padel-rackets",
+      "categoryName": "Padel Rackets",
+      "categorySlug": "padel-rackets",
+      "published": 27,
+      "withAuthenticPrimary": 27,
+      "missing": 0,
+      "broken": 0,
+      "placeholderOnly": 0,
+      "coveragePct": 100
+    },
+    {
+      "categoryId": "cat-padel-balls",
+      "categoryName": "Padel Balls",
+      "categorySlug": "padel-balls",
+      "published": 1,
+      "withAuthenticPrimary": 1,
+      "missing": 0,
+      "broken": 0,
+      "placeholderOnly": 0,
+      "coveragePct": 100
+    },
+    {
+      "categoryId": "cat-padel-grips",
+      "categoryName": "Grips & Overgrips",
+      "categorySlug": "padel-grips",
+      "published": 1,
+      "withAuthenticPrimary": 1,
+      "missing": 0,
+      "broken": 0,
+      "placeholderOnly": 0,
+      "coveragePct": 100
+    },
+    {
+      "categoryId": "cat-tennis-rackets",
+      "categoryName": "Tennis Rackets",
+      "categorySlug": "tennis-rackets",
+      "published": 20,
+      "withAuthenticPrimary": 20,
+      "missing": 0,
+      "broken": 0,
+      "placeholderOnly": 0,
+      "coveragePct": 100
+    },
+    {
+      "categoryId": "cat-training-shoes",
+      "categoryName": "Training Shoes",
+      "categorySlug": "training-shoes",
+      "published": 44,
+      "withAuthenticPrimary": 44,
+      "missing": 0,
+      "broken": 0,
+      "placeholderOnly": 0,
+      "coveragePct": 100
+    },
+    {
+      "categoryId": "cat-adjustable-dumbbells",
+      "categoryName": "Adjustable Dumbbells",
+      "categorySlug": "adjustable-dumbbells",
+      "published": 8,
+      "withAuthenticPrimary": 8,
+      "missing": 0,
+      "broken": 0,
+      "placeholderOnly": 0,
+      "coveragePct": 100
+    },
+    {
+      "categoryId": "cat-power-racks",
+      "categoryName": "Power Racks",
+      "categorySlug": "power-racks",
+      "published": 8,
+      "withAuthenticPrimary": 8,
+      "missing": 0,
+      "broken": 0,
+      "placeholderOnly": 0,
+      "coveragePct": 100
+    },
+    {
+      "categoryId": "cat-weight-benches",
+      "categoryName": "Weight Benches",
+      "categorySlug": "weight-benches",
+      "published": 7,
+      "withAuthenticPrimary": 7,
+      "missing": 0,
+      "broken": 0,
+      "placeholderOnly": 0,
+      "coveragePct": 100
+    },
+    {
+      "categoryId": "cat-weight-plates",
+      "categoryName": "Weight Plates",
+      "categorySlug": "weight-plates",
+      "published": 5,
+      "withAuthenticPrimary": 5,
+      "missing": 0,
+      "broken": 0,
+      "placeholderOnly": 0,
+      "coveragePct": 100
+    }
+  ],
+  "gaps": [
+    {
+      "productId": "prod-body-glide-original",
+      "slug": "body-glide-original",
+      "fullName": "Body Glide Original Anti-Chafe Balm",
+      "brandId": "brand-body-glide",
+      "brandName": "Body Glide",
+      "categoryId": "cat-accessories",
+      "categoryName": "Accessories",
+      "categorySlug": "accessories",
+      "sportIds": [
+        "sport-running",
+        "sport-training"
+      ],
+      "lifecycleStatus": "current",
+      "reason": "placeholder-only",
+      "rawSrc": "/images/catalog/fallbacks/accessory.svg"
+    },
+    {
+      "productId": "prod-buff-original",
+      "slug": "buff-original",
+      "fullName": "Buff Original Multifunctional Headwear",
+      "brandId": "brand-buff",
+      "brandName": "BUFF",
+      "categoryId": "cat-accessories",
+      "categoryName": "Accessories",
+      "categorySlug": "accessories",
+      "sportIds": [
+        "sport-running"
+      ],
+      "lifecycleStatus": "current",
+      "reason": "placeholder-only",
+      "rawSrc": "/images/catalog/fallbacks/accessory.svg"
+    },
+    {
+      "productId": "prod-cep-calf-sleeves",
+      "slug": "cep-calf-sleeves-3",
+      "fullName": "CEP Calf Sleeves 3.0",
+      "brandId": "brand-cep",
+      "brandName": "CEP",
+      "categoryId": "cat-accessories",
+      "categoryName": "Accessories",
+      "categorySlug": "accessories",
+      "sportIds": [
+        "sport-running"
+      ],
+      "lifecycleStatus": "current",
+      "reason": "placeholder-only",
+      "rawSrc": "/images/catalog/fallbacks/accessory.svg"
+    },
+    {
+      "productId": "prod-assault-classic",
+      "slug": "assaultbike-classic",
+      "fullName": "Assault Fitness AssaultBike Classic",
+      "brandId": "brand-assault",
+      "brandName": "Assault Fitness",
+      "categoryId": "cat-air-bikes",
+      "categoryName": "Air Bikes",
+      "categorySlug": "air-bikes",
+      "sportIds": [
+        "sport-training",
+        "sport-hyrox"
+      ],
+      "lifecycleStatus": "current",
+      "reason": "placeholder-only",
+      "rawSrc": "/images/catalog/fallbacks/accessory.svg"
+    },
+    {
+      "productId": "prod-assault-elite",
+      "slug": "assaultbike-elite",
+      "fullName": "Assault Fitness AssaultBike Elite",
+      "brandId": "brand-assault",
+      "brandName": "Assault Fitness",
+      "categoryId": "cat-air-bikes",
+      "categoryName": "Air Bikes",
+      "categorySlug": "air-bikes",
+      "sportIds": [
+        "sport-training",
+        "sport-hyrox"
+      ],
+      "lifecycleStatus": "current",
+      "reason": "placeholder-only",
+      "rawSrc": "/images/catalog/fallbacks/accessory.svg"
+    },
+    {
+      "productId": "prod-concept2-bikeerg",
+      "slug": "concept2-bikeerg",
+      "fullName": "Concept2 BikeErg",
+      "brandId": "brand-concept2",
+      "brandName": "Concept2",
+      "categoryId": "cat-air-bikes",
+      "categoryName": "Air Bikes",
+      "categorySlug": "air-bikes",
+      "sportIds": [
+        "sport-training",
+        "sport-hyrox"
+      ],
+      "lifecycleStatus": "current",
+      "reason": "placeholder-only",
+      "rawSrc": "/images/catalog/fallbacks/accessory.svg"
+    },
+    {
+      "productId": "prod-mirafit-air-bike",
+      "slug": "mirafit-air-bike",
+      "fullName": "Mirafit Air Bike",
+      "brandId": "brand-mirafit",
+      "brandName": "Mirafit",
+      "categoryId": "cat-air-bikes",
+      "categoryName": "Air Bikes",
+      "categorySlug": "air-bikes",
+      "sportIds": [
+        "sport-training",
+        "sport-hyrox"
+      ],
+      "lifecycleStatus": "current",
+      "reason": "placeholder-only",
+      "rawSrc": "/images/catalog/fallbacks/accessory.svg"
+    },
+    {
+      "productId": "prod-rogue-echo-bike",
+      "slug": "rogue-echo-bike",
+      "fullName": "Rogue Echo Bike",
+      "brandId": "brand-rogue",
+      "brandName": "Rogue",
+      "categoryId": "cat-air-bikes",
+      "categoryName": "Air Bikes",
+      "categorySlug": "air-bikes",
+      "sportIds": [
+        "sport-training",
+        "sport-hyrox"
+      ],
+      "lifecycleStatus": "current",
+      "reason": "placeholder-only",
+      "rawSrc": "/images/catalog/fallbacks/accessory.svg"
+    },
+    {
+      "productId": "prod-schwinn-airdyne-ad8",
+      "slug": "schwinn-airdyne-ad8",
+      "fullName": "Schwinn Airdyne AD8",
+      "brandId": "brand-schwinn",
+      "brandName": "Schwinn",
+      "categoryId": "cat-air-bikes",
+      "categoryName": "Air Bikes",
+      "categorySlug": "air-bikes",
+      "sportIds": [
+        "sport-training",
+        "sport-hyrox"
+      ],
+      "lifecycleStatus": "current",
+      "reason": "placeholder-only",
+      "rawSrc": "/images/catalog/fallbacks/accessory.svg"
+    },
+    {
+      "productId": "prod-li-ning-aeronaut-9000",
+      "slug": "li-ning-aeronaut-9000-c",
+      "fullName": "Li-Ning Aeronaut 9000 C",
+      "brandId": "brand-li-ning",
+      "brandName": "Li-Ning",
+      "categoryId": "cat-badminton-rackets",
+      "categoryName": "Badminton Rackets",
+      "categorySlug": "badminton-rackets",
+      "sportIds": [
+        "sport-badminton"
+      ],
+      "lifecycleStatus": "current",
+      "reason": "placeholder-only",
+      "rawSrc": "/images/catalog/fallbacks/accessory.svg"
+    },
+    {
+      "productId": "prod-victor-thruster-k-falcon",
+      "slug": "victor-thruster-k-falcon",
+      "fullName": "Victor Thruster K Falcon",
+      "brandId": "brand-victor",
+      "brandName": "Victor",
+      "categoryId": "cat-badminton-rackets",
+      "categoryName": "Badminton Rackets",
+      "categorySlug": "badminton-rackets",
+      "sportIds": [
+        "sport-badminton"
+      ],
+      "lifecycleStatus": "current",
+      "reason": "placeholder-only",
+      "rawSrc": "/images/catalog/fallbacks/accessory.svg"
+    },
+    {
+      "productId": "prod-yonex-arcsaber-11-pro",
+      "slug": "yonex-arcsaber-11-pro",
+      "fullName": "Yonex ArcSaber 11 Pro",
+      "brandId": "brand-yonex",
+      "brandName": "Yonex",
+      "categoryId": "cat-badminton-rackets",
+      "categoryName": "Badminton Rackets",
+      "categorySlug": "badminton-rackets",
+      "sportIds": [
+        "sport-badminton"
+      ],
+      "lifecycleStatus": "current",
+      "reason": "placeholder-only",
+      "rawSrc": "/images/catalog/fallbacks/accessory.svg"
+    },
+    {
+      "productId": "prod-yonex-astrox-88d-pro",
+      "slug": "yonex-astrox-88d-pro",
+      "fullName": "Yonex Astrox 88D Pro",
+      "brandId": "brand-yonex",
+      "brandName": "Yonex",
+      "categoryId": "cat-badminton-rackets",
+      "categoryName": "Badminton Rackets",
+      "categorySlug": "badminton-rackets",
+      "sportIds": [
+        "sport-badminton"
+      ],
+      "lifecycleStatus": "current",
+      "reason": "placeholder-only",
+      "rawSrc": "/images/catalog/fallbacks/accessory.svg"
+    },
+    {
+      "productId": "prod-yonex-astrox-99-pro",
+      "slug": "yonex-astrox-99-pro",
+      "fullName": "Yonex Astrox 99 Pro",
+      "brandId": "brand-yonex",
+      "brandName": "Yonex",
+      "categoryId": "cat-badminton-rackets",
+      "categoryName": "Badminton Rackets",
+      "categorySlug": "badminton-rackets",
+      "sportIds": [
+        "sport-badminton"
+      ],
+      "lifecycleStatus": "current",
+      "reason": "placeholder-only",
+      "rawSrc": "/images/catalog/fallbacks/accessory.svg"
+    },
+    {
+      "productId": "prod-yonex-nanoflare-800-pro",
+      "slug": "yonex-nanoflare-800-pro",
+      "fullName": "Yonex Nanoflare 800 Pro",
+      "brandId": "brand-yonex",
+      "brandName": "Yonex",
+      "categoryId": "cat-badminton-rackets",
+      "categoryName": "Badminton Rackets",
+      "categorySlug": "badminton-rackets",
+      "sportIds": [
+        "sport-badminton"
+      ],
+      "lifecycleStatus": "current",
+      "reason": "placeholder-only",
+      "rawSrc": "/images/catalog/fallbacks/accessory.svg"
+    },
+    {
+      "productId": "prod-eleiko-performance",
+      "slug": "eleiko-performance-weightlifting-bar",
+      "fullName": "Eleiko Performance Weightlifting Bar",
+      "brandId": "brand-eleiko",
+      "brandName": "Eleiko",
+      "categoryId": "cat-barbells",
+      "categoryName": "Barbells",
+      "categorySlug": "barbells",
+      "sportIds": [
+        "sport-training"
+      ],
+      "lifecycleStatus": "current",
+      "reason": "placeholder-only",
+      "rawSrc": "/images/catalog/fallbacks/accessory.svg"
+    },
+    {
+      "productId": "prod-eleiko-xf",
+      "slug": "eleiko-xf-bar",
+      "fullName": "Eleiko XF Bar",
+      "brandId": "brand-eleiko",
+      "brandName": "Eleiko",
+      "categoryId": "cat-barbells",
+      "categoryName": "Barbells",
+      "categorySlug": "barbells",
+      "sportIds": [
+        "sport-training"
+      ],
+      "lifecycleStatus": "current",
+      "reason": "placeholder-only",
+      "rawSrc": "/images/catalog/fallbacks/accessory.svg"
+    },
+    {
+      "productId": "prod-mirafit-olympic-bar",
+      "slug": "mirafit-olympic-barbell",
+      "fullName": "Mirafit Olympic Barbell",
+      "brandId": "brand-mirafit",
+      "brandName": "Mirafit",
+      "categoryId": "cat-barbells",
+      "categoryName": "Barbells",
+      "categorySlug": "barbells",
+      "sportIds": [
+        "sport-training"
+      ],
+      "lifecycleStatus": "current",
+      "reason": "placeholder-only",
+      "rawSrc": "/images/catalog/fallbacks/accessory.svg"
+    },
+    {
+      "productId": "prod-rep-colorado",
+      "slug": "rep-colorado-bar",
+      "fullName": "REP Fitness Colorado Bar",
+      "brandId": "brand-rep",
+      "brandName": "REP Fitness",
+      "categoryId": "cat-barbells",
+      "categoryName": "Barbells",
+      "categorySlug": "barbells",
+      "sportIds": [
+        "sport-training"
+      ],
+      "lifecycleStatus": "current",
+      "reason": "placeholder-only",
+      "rawSrc": "/images/catalog/fallbacks/accessory.svg"
+    },
+    {
+      "productId": "prod-rogue-ohio",
+      "slug": "rogue-ohio-bar",
+      "fullName": "Rogue Ohio Bar",
+      "brandId": "brand-rogue",
+      "brandName": "Rogue",
+      "categoryId": "cat-barbells",
+      "categoryName": "Barbells",
+      "categorySlug": "barbells",
+      "sportIds": [
+        "sport-training"
+      ],
+      "lifecycleStatus": "current",
+      "reason": "placeholder-only",
+      "rawSrc": "/images/catalog/fallbacks/accessory.svg"
+    },
+    {
+      "productId": "prod-rogue-ohio-power",
+      "slug": "rogue-ohio-power-bar",
+      "fullName": "Rogue Ohio Power Bar",
+      "brandId": "brand-rogue",
+      "brandName": "Rogue",
+      "categoryId": "cat-barbells",
+      "categoryName": "Barbells",
+      "categorySlug": "barbells",
+      "sportIds": [
+        "sport-training"
+      ],
+      "lifecycleStatus": "current",
+      "reason": "placeholder-only",
+      "rawSrc": "/images/catalog/fallbacks/accessory.svg"
+    },
+    {
+      "productId": "prod-mirafit-battle-rope",
+      "slug": "mirafit-battle-rope",
+      "fullName": "Mirafit Battle Rope",
+      "brandId": "brand-mirafit",
+      "brandName": "Mirafit",
+      "categoryId": "cat-functional-fitness",
+      "categoryName": "Functional Fitness",
+      "categorySlug": "functional-fitness",
+      "sportIds": [
+        "sport-training",
+        "sport-hyrox"
+      ],
+      "lifecycleStatus": "current",
+      "reason": "placeholder-only",
+      "rawSrc": "/images/catalog/fallbacks/accessory.svg"
+    },
+    {
+      "productId": "prod-rep-slam-ball",
+      "slug": "rep-slam-ball",
+      "fullName": "REP Fitness Slam Ball",
+      "brandId": "brand-rep",
+      "brandName": "REP Fitness",
+      "categoryId": "cat-functional-fitness",
+      "categoryName": "Functional Fitness",
+      "categorySlug": "functional-fitness",
+      "sportIds": [
+        "sport-training",
+        "sport-hyrox"
+      ],
+      "lifecycleStatus": "current",
+      "reason": "placeholder-only",
+      "rawSrc": "/images/catalog/fallbacks/accessory.svg"
+    },
+    {
+      "productId": "prod-rogue-dog-sled",
+      "slug": "rogue-dog-sled",
+      "fullName": "Rogue Dog Sled",
+      "brandId": "brand-rogue",
+      "brandName": "Rogue",
+      "categoryId": "cat-functional-fitness",
+      "categoryName": "Functional Fitness",
+      "categorySlug": "functional-fitness",
+      "sportIds": [
+        "sport-training",
+        "sport-hyrox"
+      ],
+      "lifecycleStatus": "current",
+      "reason": "placeholder-only",
+      "rawSrc": "/images/catalog/fallbacks/accessory.svg"
+    },
+    {
+      "productId": "prod-rogue-sandbag",
+      "slug": "rogue-sandbag",
+      "fullName": "Rogue Sandbag",
+      "brandId": "brand-rogue",
+      "brandName": "Rogue",
+      "categoryId": "cat-functional-fitness",
+      "categoryName": "Functional Fitness",
+      "categorySlug": "functional-fitness",
+      "sportIds": [
+        "sport-training",
+        "sport-hyrox"
+      ],
+      "lifecycleStatus": "current",
+      "reason": "placeholder-only",
+      "rawSrc": "/images/catalog/fallbacks/accessory.svg"
+    },
+    {
+      "productId": "prod-rogue-wall-ball",
+      "slug": "rogue-wall-ball",
+      "fullName": "Rogue Wall Ball",
+      "brandId": "brand-rogue",
+      "brandName": "Rogue",
+      "categoryId": "cat-functional-fitness",
+      "categoryName": "Functional Fitness",
+      "categorySlug": "functional-fitness",
+      "sportIds": [
+        "sport-training",
+        "sport-hyrox"
+      ],
+      "lifecycleStatus": "current",
+      "reason": "placeholder-only",
+      "rawSrc": "/images/catalog/fallbacks/accessory.svg"
+    },
+    {
+      "productId": "prod-mirafit-flooring",
+      "slug": "mirafit-gym-mats",
+      "fullName": "Mirafit Gym Mats",
+      "brandId": "brand-mirafit",
+      "brandName": "Mirafit",
+      "categoryId": "cat-gym-flooring",
+      "categoryName": "Gym Flooring",
+      "categorySlug": "gym-flooring",
+      "sportIds": [
+        "sport-training"
+      ],
+      "lifecycleStatus": "current",
+      "reason": "placeholder-only",
+      "rawSrc": "/images/catalog/fallbacks/accessory.svg"
+    },
+    {
+      "productId": "prod-rogue-flooring",
+      "slug": "rogue-flogging-horse-stall-mat-note",
+      "fullName": "Rogue Gym Flooring / Stall Mat Style Flooring",
+      "brandId": "brand-rogue",
+      "brandName": "Rogue",
+      "categoryId": "cat-gym-flooring",
+      "categoryName": "Gym Flooring",
+      "categorySlug": "gym-flooring",
+      "sportIds": [
+        "sport-training"
+      ],
+      "lifecycleStatus": "current",
+      "reason": "placeholder-only",
+      "rawSrc": "/images/catalog/fallbacks/accessory.svg"
+    },
+    {
+      "productId": "prod-rep-storage",
+      "slug": "rep-bumper-plate-storage",
+      "fullName": "REP Fitness Plate Storage Tree",
+      "brandId": "brand-rep",
+      "brandName": "REP Fitness",
+      "categoryId": "cat-gym-storage",
+      "categoryName": "Gym Storage",
+      "categorySlug": "gym-storage",
+      "sportIds": [
+        "sport-training"
+      ],
+      "lifecycleStatus": "current",
+      "reason": "placeholder-only",
+      "rawSrc": "/images/catalog/fallbacks/accessory.svg"
+    },
+    {
+      "productId": "prod-rogue-storage",
+      "slug": "rogue-plate-tree",
+      "fullName": "Rogue Plate Tree",
+      "brandId": "brand-rogue",
+      "brandName": "Rogue",
+      "categoryId": "cat-gym-storage",
+      "categoryName": "Gym Storage",
+      "categorySlug": "gym-storage",
+      "sportIds": [
+        "sport-training"
+      ],
+      "lifecycleStatus": "current",
+      "reason": "placeholder-only",
+      "rawSrc": "/images/catalog/fallbacks/accessory.svg"
+    },
+    {
+      "productId": "prod-gornation-rings",
+      "slug": "gornation-gymnastic-rings",
+      "fullName": "GORNATION Gymnastic Rings",
+      "brandId": "brand-gornation",
+      "brandName": "GORNATION",
+      "categoryId": "cat-gymnastic-rings",
+      "categoryName": "Gymnastic Rings",
+      "categorySlug": "gymnastic-rings",
+      "sportIds": [
+        "sport-training",
+        "sport-calisthenics"
+      ],
+      "lifecycleStatus": "current",
+      "reason": "placeholder-only",
+      "rawSrc": "/images/catalog/fallbacks/accessory.svg"
+    },
+    {
+      "productId": "prod-gravity-rings",
+      "slug": "gravity-fitness-gymnastic-rings",
+      "fullName": "Gravity Fitness Gymnastic Rings",
+      "brandId": "brand-gravity-fitness",
+      "brandName": "Gravity Fitness",
+      "categoryId": "cat-gymnastic-rings",
+      "categoryName": "Gymnastic Rings",
+      "categorySlug": "gymnastic-rings",
+      "sportIds": [
+        "sport-training",
+        "sport-calisthenics"
+      ],
+      "lifecycleStatus": "current",
+      "reason": "placeholder-only",
+      "rawSrc": "/images/catalog/fallbacks/accessory.svg"
+    },
+    {
+      "productId": "prod-hydrapak-softflask-500",
+      "slug": "hydrapak-softflask-500",
+      "fullName": "HydraPak SoftFlask 500 ml",
+      "brandId": "brand-hydrapak",
+      "brandName": "HydraPak",
+      "categoryId": "cat-hydration",
+      "categoryName": "Hydration",
+      "categorySlug": "hydration",
+      "sportIds": [
+        "sport-running"
+      ],
+      "lifecycleStatus": "current",
+      "reason": "placeholder-only",
+      "rawSrc": "/images/catalog/fallbacks/hydration.svg"
+    },
+    {
+      "productId": "prod-nathan-exoshot",
+      "slug": "nathan-exoshot-2",
+      "fullName": "Nathan ExoShot 2",
+      "brandId": "brand-nathan",
+      "brandName": "Nathan",
+      "categoryId": "cat-hydration",
+      "categoryName": "Hydration",
+      "categorySlug": "hydration",
+      "sportIds": [
+        "sport-running"
+      ],
+      "lifecycleStatus": "current",
+      "reason": "placeholder-only",
+      "rawSrc": "/images/catalog/fallbacks/hydration.svg"
+    },
+    {
+      "productId": "prod-soft-flask-500",
+      "slug": "salomon-soft-flask-500",
+      "fullName": "Salomon Soft Flask 500 ml",
+      "brandId": "brand-salomon",
+      "brandName": "Salomon",
+      "categoryId": "cat-hydration",
+      "categoryName": "Hydration",
+      "categorySlug": "hydration",
+      "sportIds": [
+        "sport-running"
+      ],
+      "lifecycleStatus": "current",
+      "reason": "placeholder-only",
+      "rawSrc": "/images/catalog/fallbacks/hydration.svg"
+    },
+    {
+      "productId": "prod-eleiko-kb",
+      "slug": "eleiko-kettlebell",
+      "fullName": "Eleiko Kettlebell",
+      "brandId": "brand-eleiko",
+      "brandName": "Eleiko",
+      "categoryId": "cat-kettlebells",
+      "categoryName": "Kettlebells",
+      "categorySlug": "kettlebells",
+      "sportIds": [
+        "sport-training",
+        "sport-hyrox"
+      ],
+      "lifecycleStatus": "current",
+      "reason": "placeholder-only",
+      "rawSrc": "/images/catalog/fallbacks/accessory.svg"
+    },
+    {
+      "productId": "prod-mirafit-kb",
+      "slug": "mirafit-cast-iron-kettlebell",
+      "fullName": "Mirafit Cast Iron Kettlebell",
+      "brandId": "brand-mirafit",
+      "brandName": "Mirafit",
+      "categoryId": "cat-kettlebells",
+      "categoryName": "Kettlebells",
+      "categorySlug": "kettlebells",
+      "sportIds": [
+        "sport-training",
+        "sport-hyrox"
+      ],
+      "lifecycleStatus": "current",
+      "reason": "placeholder-only",
+      "rawSrc": "/images/catalog/fallbacks/accessory.svg"
+    },
+    {
+      "productId": "prod-rep-kettlebell",
+      "slug": "rep-fitness-kettlebell",
+      "fullName": "REP Fitness Kettlebell",
+      "brandId": "brand-rep",
+      "brandName": "REP Fitness",
+      "categoryId": "cat-kettlebells",
+      "categoryName": "Kettlebells",
+      "categorySlug": "kettlebells",
+      "sportIds": [
+        "sport-training",
+        "sport-hyrox"
+      ],
+      "lifecycleStatus": "current",
+      "reason": "placeholder-only",
+      "rawSrc": "/images/catalog/fallbacks/accessory.svg"
+    },
+    {
+      "productId": "prod-rogue-echo-kb",
+      "slug": "rogue-echo-kettlebell",
+      "fullName": "Rogue Echo Kettlebell",
+      "brandId": "brand-rogue",
+      "brandName": "Rogue",
+      "categoryId": "cat-kettlebells",
+      "categoryName": "Kettlebells",
+      "categorySlug": "kettlebells",
+      "sportIds": [
+        "sport-training",
+        "sport-hyrox"
+      ],
+      "lifecycleStatus": "current",
+      "reason": "placeholder-only",
+      "rawSrc": "/images/catalog/fallbacks/accessory.svg"
+    },
+    {
+      "productId": "prod-rogue-kettlebell",
+      "slug": "rogue-kettlebell",
+      "fullName": "Rogue Kettlebell",
+      "brandId": "brand-rogue",
+      "brandName": "Rogue",
+      "categoryId": "cat-kettlebells",
+      "categoryName": "Kettlebells",
+      "categorySlug": "kettlebells",
+      "sportIds": [
+        "sport-training",
+        "sport-hyrox"
+      ],
+      "lifecycleStatus": "current",
+      "reason": "placeholder-only",
+      "rawSrc": "/images/catalog/fallbacks/accessory.svg"
+    },
+    {
+      "productId": "prod-blackroll-ball",
+      "slug": "blackroll-ball",
+      "fullName": "BLACKROLL BALL",
+      "brandId": "brand-blackroll",
+      "brandName": "BLACKROLL",
+      "categoryId": "cat-lifting-accessories",
+      "categoryName": "Lifting Accessories",
+      "categorySlug": "lifting-accessories",
+      "sportIds": [
+        "sport-training"
+      ],
+      "lifecycleStatus": "current",
+      "reason": "placeholder-only",
+      "rawSrc": "/images/catalog/fallbacks/accessory.svg"
+    },
+    {
+      "productId": "prod-blackroll-duoball",
+      "slug": "blackroll-duoball",
+      "fullName": "BLACKROLL DUOBALL",
+      "brandId": "brand-blackroll",
+      "brandName": "BLACKROLL",
+      "categoryId": "cat-lifting-accessories",
+      "categoryName": "Lifting Accessories",
+      "categorySlug": "lifting-accessories",
+      "sportIds": [
+        "sport-training"
+      ],
+      "lifecycleStatus": "current",
+      "reason": "placeholder-only",
+      "rawSrc": "/images/catalog/fallbacks/accessory.svg"
+    },
+    {
+      "productId": "prod-blackroll-med",
+      "slug": "blackroll-med",
+      "fullName": "BLACKROLL MED Foam Roller",
+      "brandId": "brand-blackroll",
+      "brandName": "BLACKROLL",
+      "categoryId": "cat-lifting-accessories",
+      "categoryName": "Lifting Accessories",
+      "categorySlug": "lifting-accessories",
+      "sportIds": [
+        "sport-training"
+      ],
+      "lifecycleStatus": "current",
+      "reason": "placeholder-only",
+      "rawSrc": "/images/catalog/fallbacks/accessory.svg"
+    },
+    {
+      "productId": "prod-blackroll-standard",
+      "slug": "blackroll-standard",
+      "fullName": "BLACKROLL STANDARD Foam Roller",
+      "brandId": "brand-blackroll",
+      "brandName": "BLACKROLL",
+      "categoryId": "cat-lifting-accessories",
+      "categoryName": "Lifting Accessories",
+      "categorySlug": "lifting-accessories",
+      "sportIds": [
+        "sport-training"
+      ],
+      "lifecycleStatus": "current",
+      "reason": "placeholder-only",
+      "rawSrc": "/images/catalog/fallbacks/accessory.svg"
+    },
+    {
+      "productId": "prod-eleiko-collars",
+      "slug": "eleiko-sport-collars",
+      "fullName": "Eleiko Sport Collars",
+      "brandId": "brand-eleiko",
+      "brandName": "Eleiko",
+      "categoryId": "cat-lifting-accessories",
+      "categoryName": "Lifting Accessories",
+      "categorySlug": "lifting-accessories",
+      "sportIds": [
+        "sport-training"
+      ],
+      "lifecycleStatus": "current",
+      "reason": "placeholder-only",
+      "rawSrc": "/images/catalog/fallbacks/accessory.svg"
+    },
+    {
+      "productId": "prod-rogue-wrist-wraps",
+      "slug": "rogue-wrist-wraps",
+      "fullName": "Rogue Wrist Wraps",
+      "brandId": "brand-rogue",
+      "brandName": "Rogue",
+      "categoryId": "cat-lifting-accessories",
+      "categoryName": "Lifting Accessories",
+      "categorySlug": "lifting-accessories",
+      "sportIds": [
+        "sport-training"
+      ],
+      "lifecycleStatus": "current",
+      "reason": "placeholder-only",
+      "rawSrc": "/images/catalog/fallbacks/accessory.svg"
+    },
+    {
+      "productId": "prod-nox-bag-10",
+      "slug": "nox-thermo-bag-10",
+      "fullName": "Nox Thermo Bag 10",
+      "brandId": "brand-nox",
+      "brandName": "Nox",
+      "categoryId": "cat-padel-bags",
+      "categoryName": "Padel Bags",
+      "categorySlug": "padel-bags",
+      "sportIds": [
+        "sport-padel"
+      ],
+      "lifecycleStatus": "current",
+      "reason": "placeholder-only",
+      "rawSrc": "/images/padel/products/bag.svg"
+    },
+    {
+      "productId": "prod-adidas-solecourt-boost-padel",
+      "slug": "adidas-solecourt-boost-padel",
+      "fullName": "Adidas Solecourt Boost Padel",
+      "brandId": "brand-adidas-padel",
+      "brandName": "Adidas Padel",
+      "categoryId": "cat-padel-shoes",
+      "categoryName": "Padel Shoes",
+      "categorySlug": "padel-shoes",
+      "sportIds": [
+        "sport-padel",
+        "sport-tennis"
+      ],
+      "lifecycleStatus": "current",
+      "reason": "placeholder-only",
+      "rawSrc": "/images/catalog/fallbacks/shoe.svg"
+    },
+    {
+      "productId": "prod-asics-gel-resolution-padel-w",
+      "slug": "asics-gel-resolution-padel-women",
+      "fullName": "ASICS Gel-Resolution Padel Women",
+      "brandId": "brand-asics",
+      "brandName": "ASICS",
+      "categoryId": "cat-padel-shoes",
+      "categoryName": "Padel Shoes",
+      "categorySlug": "padel-shoes",
+      "sportIds": [
+        "sport-padel",
+        "sport-tennis"
+      ],
+      "lifecycleStatus": "current",
+      "reason": "placeholder-only",
+      "rawSrc": "/images/catalog/fallbacks/shoe.svg"
+    },
+    {
+      "productId": "prod-asics-solution-swift-padel-w",
+      "slug": "asics-solution-swift-ff-padel-women",
+      "fullName": "ASICS Solution Swift FF Padel Women",
+      "brandId": "brand-asics",
+      "brandName": "ASICS",
+      "categoryId": "cat-padel-shoes",
+      "categoryName": "Padel Shoes",
+      "categorySlug": "padel-shoes",
+      "sportIds": [
+        "sport-padel",
+        "sport-tennis"
+      ],
+      "lifecycleStatus": "current",
+      "reason": "placeholder-only",
+      "rawSrc": "/images/catalog/fallbacks/shoe.svg"
+    },
+    {
+      "productId": "prod-babolat-jet-premura-2-men",
+      "slug": "babolat-jet-premura-2",
+      "fullName": "Babolat Jet Premura 2",
+      "brandId": "brand-babolat-padel",
+      "brandName": "Babolat",
+      "categoryId": "cat-padel-shoes",
+      "categoryName": "Padel Shoes",
+      "categorySlug": "padel-shoes",
+      "sportIds": [
+        "sport-padel",
+        "sport-tennis"
+      ],
+      "lifecycleStatus": "current",
+      "reason": "placeholder-only",
+      "rawSrc": "/images/catalog/fallbacks/shoe.svg"
+    },
+    {
+      "productId": "prod-bullpadel-hack-hybrid",
+      "slug": "bullpadel-hack-hybrid",
+      "fullName": "Bullpadel Hack Hybrid",
+      "brandId": "brand-bullpadel",
+      "brandName": "Bullpadel",
+      "categoryId": "cat-padel-shoes",
+      "categoryName": "Padel Shoes",
+      "categorySlug": "padel-shoes",
+      "sportIds": [
+        "sport-padel",
+        "sport-tennis"
+      ],
+      "lifecycleStatus": "current",
+      "reason": "placeholder-only",
+      "rawSrc": "/images/catalog/fallbacks/shoe.svg"
+    },
+    {
+      "productId": "prod-head-revolt-court",
+      "slug": "head-revolt-court-padel",
+      "fullName": "HEAD Revolt Court Padel",
+      "brandId": "brand-head-padel",
+      "brandName": "Head",
+      "categoryId": "cat-padel-shoes",
+      "categoryName": "Padel Shoes",
+      "categorySlug": "padel-shoes",
+      "sportIds": [
+        "sport-padel",
+        "sport-tennis"
+      ],
+      "lifecycleStatus": "current",
+      "reason": "placeholder-only",
+      "rawSrc": "/images/catalog/fallbacks/shoe.svg"
+    },
+    {
+      "productId": "prod-joma-spin-lady",
+      "slug": "joma-spin-lady",
+      "fullName": "Joma Spin Lady",
+      "brandId": "brand-joma",
+      "brandName": "Joma",
+      "categoryId": "cat-padel-shoes",
+      "categoryName": "Padel Shoes",
+      "categorySlug": "padel-shoes",
+      "sportIds": [
+        "sport-padel",
+        "sport-tennis"
+      ],
+      "lifecycleStatus": "current",
+      "reason": "placeholder-only",
+      "rawSrc": "/images/catalog/fallbacks/shoe.svg"
+    },
+    {
+      "productId": "prod-kuikma-ps-560-women",
+      "slug": "kuikma-ps-560-women",
+      "fullName": "Kuikma PS 560 Women",
+      "brandId": "brand-kuikma",
+      "brandName": "Kuikma",
+      "categoryId": "cat-padel-shoes",
+      "categoryName": "Padel Shoes",
+      "categorySlug": "padel-shoes",
+      "sportIds": [
+        "sport-padel",
+        "sport-tennis"
+      ],
+      "lifecycleStatus": "current",
+      "reason": "placeholder-only",
+      "rawSrc": "/images/catalog/fallbacks/shoe.svg"
+    },
+    {
+      "productId": "prod-kuikma-ps-990",
+      "slug": "kuikma-ps-990",
+      "fullName": "Kuikma PS 990",
+      "brandId": "brand-kuikma",
+      "brandName": "Kuikma",
+      "categoryId": "cat-padel-shoes",
+      "categoryName": "Padel Shoes",
+      "categorySlug": "padel-shoes",
+      "sportIds": [
+        "sport-padel",
+        "sport-tennis"
+      ],
+      "lifecycleStatus": "current",
+      "reason": "placeholder-only",
+      "rawSrc": "/images/catalog/fallbacks/shoe.svg"
+    },
+    {
+      "productId": "prod-lok-padel-one",
+      "slug": "lok-padel-one",
+      "fullName": "LOK Padel One",
+      "brandId": "brand-lok",
+      "brandName": "Lok",
+      "categoryId": "cat-padel-shoes",
+      "categoryName": "Padel Shoes",
+      "categorySlug": "padel-shoes",
+      "sportIds": [
+        "sport-padel",
+        "sport-tennis"
+      ],
+      "lifecycleStatus": "current",
+      "reason": "placeholder-only",
+      "rawSrc": "/images/catalog/fallbacks/shoe.svg"
+    },
+    {
+      "productId": "prod-nox-at10-pro-shoe",
+      "slug": "nox-at10-pro",
+      "fullName": "Nox AT10 Pro",
+      "brandId": "brand-nox",
+      "brandName": "Nox",
+      "categoryId": "cat-padel-shoes",
+      "categoryName": "Padel Shoes",
+      "categorySlug": "padel-shoes",
+      "sportIds": [
+        "sport-padel",
+        "sport-tennis"
+      ],
+      "lifecycleStatus": "current",
+      "reason": "placeholder-only",
+      "rawSrc": "/images/catalog/fallbacks/shoe.svg"
+    },
+    {
+      "productId": "prod-oxdog-hyper-court",
+      "slug": "oxdog-hyper-court",
+      "fullName": "Oxdog Hyper Court",
+      "brandId": "brand-oxdog",
+      "brandName": "Oxdog",
+      "categoryId": "cat-padel-shoes",
+      "categoryName": "Padel Shoes",
+      "categorySlug": "padel-shoes",
+      "sportIds": [
+        "sport-padel",
+        "sport-tennis"
+      ],
+      "lifecycleStatus": "current",
+      "reason": "placeholder-only",
+      "rawSrc": "/images/catalog/fallbacks/shoe.svg"
+    },
+    {
+      "productId": "prod-siux-comodo-woman",
+      "slug": "siux-comodo-woman",
+      "fullName": "Siux Comodo Woman",
+      "brandId": "brand-siux",
+      "brandName": "Siux",
+      "categoryId": "cat-padel-shoes",
+      "categoryName": "Padel Shoes",
+      "categorySlug": "padel-shoes",
+      "sportIds": [
+        "sport-padel",
+        "sport-tennis"
+      ],
+      "lifecycleStatus": "current",
+      "reason": "placeholder-only",
+      "rawSrc": "/images/catalog/fallbacks/shoe.svg"
+    },
+    {
+      "productId": "prod-siux-diablo-pro",
+      "slug": "siux-diablo-pro-padel",
+      "fullName": "Siux Diablo Pro",
+      "brandId": "brand-siux",
+      "brandName": "Siux",
+      "categoryId": "cat-padel-shoes",
+      "categoryName": "Padel Shoes",
+      "categorySlug": "padel-shoes",
+      "sportIds": [
+        "sport-padel",
+        "sport-tennis"
+      ],
+      "lifecycleStatus": "current",
+      "reason": "placeholder-only",
+      "rawSrc": "/images/catalog/fallbacks/shoe.svg"
+    },
+    {
+      "productId": "prod-starvie-absolute-padel",
+      "slug": "starvie-absolute-padel",
+      "fullName": "StarVie Absolute Padel",
+      "brandId": "brand-starvie",
+      "brandName": "StarVie",
+      "categoryId": "cat-padel-shoes",
+      "categoryName": "Padel Shoes",
+      "categorySlug": "padel-shoes",
+      "sportIds": [
+        "sport-padel",
+        "sport-tennis"
+      ],
+      "lifecycleStatus": "current",
+      "reason": "placeholder-only",
+      "rawSrc": "/images/catalog/fallbacks/shoe.svg"
+    },
+    {
+      "productId": "prod-tecnifibre-t-fight-padel",
+      "slug": "tecnifibre-wall-shooter",
+      "fullName": "Tecnifibre Wall Shooter",
+      "brandId": "brand-tecnifibre-padel",
+      "brandName": "Tecnifibre Padel",
+      "categoryId": "cat-padel-shoes",
+      "categoryName": "Padel Shoes",
+      "categorySlug": "padel-shoes",
+      "sportIds": [
+        "sport-padel",
+        "sport-tennis"
+      ],
+      "lifecycleStatus": "current",
+      "reason": "placeholder-only",
+      "rawSrc": "/images/catalog/fallbacks/shoe.svg"
+    },
+    {
+      "productId": "prod-varlion-bourne-padel-shoe",
+      "slug": "varlion-bourne-padel",
+      "fullName": "Varlion Bourne Padel",
+      "brandId": "brand-varlion",
+      "brandName": "Varlion",
+      "categoryId": "cat-padel-shoes",
+      "categoryName": "Padel Shoes",
+      "categorySlug": "padel-shoes",
+      "sportIds": [
+        "sport-padel",
+        "sport-tennis"
+      ],
+      "lifecycleStatus": "current",
+      "reason": "placeholder-only",
+      "rawSrc": "/images/catalog/fallbacks/shoe.svg"
+    },
+    {
+      "productId": "prod-wilson-bela-pro-padel",
+      "slug": "wilson-bela-pro-padel",
+      "fullName": "Wilson Bela Pro Padel",
+      "brandId": "brand-wilson-padel",
+      "brandName": "Wilson",
+      "categoryId": "cat-padel-shoes",
+      "categoryName": "Padel Shoes",
+      "categorySlug": "padel-shoes",
+      "sportIds": [
+        "sport-padel",
+        "sport-tennis"
+      ],
+      "lifecycleStatus": "current",
+      "reason": "placeholder-only",
+      "rawSrc": "/images/catalog/fallbacks/shoe.svg"
+    },
+    {
+      "productId": "prod-gornation-parallettes-pro",
+      "slug": "gornation-parallettes-pro",
+      "fullName": "GORNATION Parallettes Pro",
+      "brandId": "brand-gornation",
+      "brandName": "GORNATION",
+      "categoryId": "cat-parallettes",
+      "categoryName": "Parallettes",
+      "categorySlug": "parallettes",
+      "sportIds": [
+        "sport-training",
+        "sport-calisthenics"
+      ],
+      "lifecycleStatus": "current",
+      "reason": "placeholder-only",
+      "rawSrc": "/images/catalog/fallbacks/accessory.svg"
+    },
+    {
+      "productId": "prod-gravity-parallettes",
+      "slug": "gravity-fitness-parallettes",
+      "fullName": "Gravity Fitness Parallettes",
+      "brandId": "brand-gravity-fitness",
+      "brandName": "Gravity Fitness",
+      "categoryId": "cat-parallettes",
+      "categoryName": "Parallettes",
+      "categorySlug": "parallettes",
+      "sportIds": [
+        "sport-training",
+        "sport-calisthenics"
+      ],
+      "lifecycleStatus": "current",
+      "reason": "placeholder-only",
+      "rawSrc": "/images/catalog/fallbacks/accessory.svg"
+    },
+    {
+      "productId": "prod-pullup-dip-parallettes",
+      "slug": "pullup-and-dip-parallettes",
+      "fullName": "PULLUP & DIP Parallettes",
+      "brandId": "brand-pullup-dip",
+      "brandName": "PULLUP & DIP",
+      "categoryId": "cat-parallettes",
+      "categoryName": "Parallettes",
+      "categorySlug": "parallettes",
+      "sportIds": [
+        "sport-training",
+        "sport-calisthenics"
+      ],
+      "lifecycleStatus": "current",
+      "reason": "placeholder-only",
+      "rawSrc": "/images/catalog/fallbacks/accessory.svg"
+    },
+    {
+      "productId": "prod-head-extreme-pro-pickleball",
+      "slug": "head-extreme-pro-pickleball",
+      "fullName": "Head Extreme Pro Pickleball",
+      "brandId": "brand-head-padel",
+      "brandName": "Head",
+      "categoryId": "cat-pickleball-paddles",
+      "categoryName": "Pickleball Paddles",
+      "categorySlug": "pickleball-paddles",
+      "sportIds": [
+        "sport-pickleball"
+      ],
+      "lifecycleStatus": "current",
+      "reason": "placeholder-only",
+      "rawSrc": "/images/catalog/fallbacks/accessory.svg"
+    },
+    {
+      "productId": "prod-joola-ben-johns-hyperion-cfs",
+      "slug": "joola-ben-johns-hyperion-cfs-16",
+      "fullName": "JOOLA Ben Johns Hyperion CFS 16",
+      "brandId": "brand-joola",
+      "brandName": "JOOLA",
+      "categoryId": "cat-pickleball-paddles",
+      "categoryName": "Pickleball Paddles",
+      "categorySlug": "pickleball-paddles",
+      "sportIds": [
+        "sport-pickleball"
+      ],
+      "lifecycleStatus": "current",
+      "reason": "placeholder-only",
+      "rawSrc": "/images/catalog/fallbacks/accessory.svg"
+    },
+    {
+      "productId": "prod-joola-perseus-16",
+      "slug": "joola-perseus-16",
+      "fullName": "JOOLA Perseus 16",
+      "brandId": "brand-joola",
+      "brandName": "JOOLA",
+      "categoryId": "cat-pickleball-paddles",
+      "categoryName": "Pickleball Paddles",
+      "categorySlug": "pickleball-paddles",
+      "sportIds": [
+        "sport-pickleball"
+      ],
+      "lifecycleStatus": "current",
+      "reason": "placeholder-only",
+      "rawSrc": "/images/catalog/fallbacks/accessory.svg"
+    },
+    {
+      "productId": "prod-selkirk-ampsed-epic",
+      "slug": "selkirk-ampsed-epic",
+      "fullName": "Selkirk Amped Epic",
+      "brandId": "brand-selkirk",
+      "brandName": "Selkirk",
+      "categoryId": "cat-pickleball-paddles",
+      "categoryName": "Pickleball Paddles",
+      "categorySlug": "pickleball-paddles",
+      "sportIds": [
+        "sport-pickleball"
+      ],
+      "lifecycleStatus": "current",
+      "reason": "placeholder-only",
+      "rawSrc": "/images/catalog/fallbacks/accessory.svg"
+    },
+    {
+      "productId": "prod-selkirk-vanguard-power-air",
+      "slug": "selkirk-vanguard-power-air",
+      "fullName": "Selkirk Vanguard Power Air Invikta",
+      "brandId": "brand-selkirk",
+      "brandName": "Selkirk",
+      "categoryId": "cat-pickleball-paddles",
+      "categoryName": "Pickleball Paddles",
+      "categorySlug": "pickleball-paddles",
+      "sportIds": [
+        "sport-pickleball"
+      ],
+      "lifecycleStatus": "current",
+      "reason": "placeholder-only",
+      "rawSrc": "/images/catalog/fallbacks/accessory.svg"
+    },
+    {
+      "productId": "prod-wilson-blade-elite-pickleball",
+      "slug": "wilson-blade-elite-v2-pickleball",
+      "fullName": "Wilson Blade Elite v2 Pickleball",
+      "brandId": "brand-wilson-padel",
+      "brandName": "Wilson",
+      "categoryId": "cat-pickleball-paddles",
+      "categoryName": "Pickleball Paddles",
+      "categorySlug": "pickleball-paddles",
+      "sportIds": [
+        "sport-pickleball"
+      ],
+      "lifecycleStatus": "current",
+      "reason": "placeholder-only",
+      "rawSrc": "/images/catalog/fallbacks/accessory.svg"
+    },
+    {
+      "productId": "prod-gornation-premium-bar",
+      "slug": "gornation-premium-pull-up-bar",
+      "fullName": "GORNATION Premium Pull-Up Bar",
+      "brandId": "brand-gornation",
+      "brandName": "GORNATION",
+      "categoryId": "cat-pull-up-bars",
+      "categoryName": "Pull-Up Bars",
+      "categorySlug": "pull-up-bars",
+      "sportIds": [
+        "sport-training",
+        "sport-calisthenics"
+      ],
+      "lifecycleStatus": "current",
+      "reason": "placeholder-only",
+      "rawSrc": "/images/catalog/fallbacks/accessory.svg"
+    },
+    {
+      "productId": "prod-gravity-pullup-station",
+      "slug": "gravity-fitness-pull-up-station",
+      "fullName": "Gravity Fitness Free-Standing Pull-Up Station",
+      "brandId": "brand-gravity-fitness",
+      "brandName": "Gravity Fitness",
+      "categoryId": "cat-pull-up-bars",
+      "categoryName": "Pull-Up Bars",
+      "categorySlug": "pull-up-bars",
+      "sportIds": [
+        "sport-training",
+        "sport-calisthenics"
+      ],
+      "lifecycleStatus": "current",
+      "reason": "placeholder-only",
+      "rawSrc": "/images/catalog/fallbacks/accessory.svg"
+    },
+    {
+      "productId": "prod-mirafit-pullup",
+      "slug": "mirafit-wall-pull-up-bar",
+      "fullName": "Mirafit Wall Pull-Up Bar",
+      "brandId": "brand-mirafit",
+      "brandName": "Mirafit",
+      "categoryId": "cat-pull-up-bars",
+      "categoryName": "Pull-Up Bars",
+      "categorySlug": "pull-up-bars",
+      "sportIds": [
+        "sport-training",
+        "sport-calisthenics"
+      ],
+      "lifecycleStatus": "current",
+      "reason": "placeholder-only",
+      "rawSrc": "/images/catalog/fallbacks/accessory.svg"
+    },
+    {
+      "productId": "prod-pullup-dip-doorway",
+      "slug": "pullup-and-dip-doorway-bar",
+      "fullName": "PULLUP & DIP Doorway Pull-Up Bar",
+      "brandId": "brand-pullup-dip",
+      "brandName": "PULLUP & DIP",
+      "categoryId": "cat-pull-up-bars",
+      "categoryName": "Pull-Up Bars",
+      "categorySlug": "pull-up-bars",
+      "sportIds": [
+        "sport-training",
+        "sport-calisthenics"
+      ],
+      "lifecycleStatus": "current",
+      "reason": "placeholder-only",
+      "rawSrc": "/images/catalog/fallbacks/accessory.svg"
+    },
+    {
+      "productId": "prod-pullup-dip-wall",
+      "slug": "pullup-and-dip-wall-bar",
+      "fullName": "PULLUP & DIP Wall-Mounted Pull-Up Bar",
+      "brandId": "brand-pullup-dip",
+      "brandName": "PULLUP & DIP",
+      "categoryId": "cat-pull-up-bars",
+      "categoryName": "Pull-Up Bars",
+      "categorySlug": "pull-up-bars",
+      "sportIds": [
+        "sport-training",
+        "sport-calisthenics"
+      ],
+      "lifecycleStatus": "current",
+      "reason": "placeholder-only",
+      "rawSrc": "/images/catalog/fallbacks/accessory.svg"
+    },
+    {
+      "productId": "prod-rogue-pullup-bar",
+      "slug": "rogue-monster-lite-pull-up-bar",
+      "fullName": "Rogue Monster Lite Pull-Up Bar",
+      "brandId": "brand-rogue",
+      "brandName": "Rogue",
+      "categoryId": "cat-pull-up-bars",
+      "categoryName": "Pull-Up Bars",
+      "categorySlug": "pull-up-bars",
+      "sportIds": [
+        "sport-training",
+        "sport-calisthenics"
+      ],
+      "lifecycleStatus": "current",
+      "reason": "placeholder-only",
+      "rawSrc": "/images/catalog/fallbacks/accessory.svg"
+    },
+    {
+      "productId": "prod-hypervolt-go-2",
+      "slug": "hyperice-hypervolt-go-2",
+      "fullName": "Hyperice Hypervolt Go 2",
+      "brandId": "brand-hyperice",
+      "brandName": "Hyperice",
+      "categoryId": "cat-recovery-gear",
+      "categoryName": "Recovery",
+      "categorySlug": "recovery",
+      "sportIds": [
+        "sport-running",
+        "sport-recovery",
+        "sport-training"
+      ],
+      "lifecycleStatus": "current",
+      "reason": "placeholder-only",
+      "rawSrc": "/images/catalog/fallbacks/accessory.svg"
+    },
+    {
+      "productId": "prod-oofos-ooriginal",
+      "slug": "oofos-ooriginal",
+      "fullName": "OOFOS OOriginal",
+      "brandId": "brand-oofos",
+      "brandName": "OOFOS",
+      "categoryId": "cat-recovery-gear",
+      "categoryName": "Recovery",
+      "categorySlug": "recovery",
+      "sportIds": [
+        "sport-running",
+        "sport-recovery"
+      ],
+      "lifecycleStatus": "current",
+      "reason": "placeholder-only",
+      "rawSrc": "/images/catalog/fallbacks/accessory.svg"
+    },
+    {
+      "productId": "prod-theragun-mini",
+      "slug": "therabody-theragun-mini-2",
+      "fullName": "Therabody Theragun mini",
+      "brandId": "brand-therabody",
+      "brandName": "Therabody",
+      "categoryId": "cat-recovery-gear",
+      "categoryName": "Recovery",
+      "categorySlug": "recovery",
+      "sportIds": [
+        "sport-running",
+        "sport-recovery",
+        "sport-training"
+      ],
+      "lifecycleStatus": "current",
+      "reason": "placeholder-only",
+      "rawSrc": "/images/catalog/fallbacks/accessory.svg"
+    },
+    {
+      "productId": "prod-triggerpoint-grid",
+      "slug": "triggerpoint-grid-foam-roller",
+      "fullName": "TriggerPoint GRID Foam Roller",
+      "brandId": "brand-triggerpoint",
+      "brandName": "TriggerPoint",
+      "categoryId": "cat-recovery-gear",
+      "categoryName": "Recovery",
+      "categorySlug": "recovery",
+      "sportIds": [
+        "sport-running",
+        "sport-recovery",
+        "sport-training"
+      ],
+      "lifecycleStatus": "current",
+      "reason": "placeholder-only",
+      "rawSrc": "/images/catalog/fallbacks/accessory.svg"
+    },
+    {
+      "productId": "prod-concept2-rowerg",
+      "slug": "concept2-rowerg",
+      "fullName": "Concept2 RowErg",
+      "brandId": "brand-concept2",
+      "brandName": "Concept2",
+      "categoryId": "cat-rowing-machines",
+      "categoryName": "Rowing Machines",
+      "categorySlug": "rowing-machines",
+      "sportIds": [
+        "sport-training",
+        "sport-hyrox"
+      ],
+      "lifecycleStatus": "current",
+      "reason": "placeholder-only",
+      "rawSrc": "/images/catalog/fallbacks/accessory.svg"
+    },
+    {
+      "productId": "prod-concept2-rowerg-dynamic",
+      "slug": "concept2-rowerg-dynamic",
+      "fullName": "Concept2 RowErg Dynamic",
+      "brandId": "brand-concept2",
+      "brandName": "Concept2",
+      "categoryId": "cat-rowing-machines",
+      "categoryName": "Rowing Machines",
+      "categorySlug": "rowing-machines",
+      "sportIds": [
+        "sport-training",
+        "sport-hyrox"
+      ],
+      "lifecycleStatus": "current",
+      "reason": "placeholder-only",
+      "rawSrc": "/images/catalog/fallbacks/accessory.svg"
+    },
+    {
+      "productId": "prod-hydrow-wave",
+      "slug": "hydrow-wave",
+      "fullName": "Hydrow Wave",
+      "brandId": "brand-hydrow",
+      "brandName": "Hydrow",
+      "categoryId": "cat-rowing-machines",
+      "categoryName": "Rowing Machines",
+      "categorySlug": "rowing-machines",
+      "sportIds": [
+        "sport-training",
+        "sport-hyrox"
+      ],
+      "lifecycleStatus": "current",
+      "reason": "placeholder-only",
+      "rawSrc": "/images/catalog/fallbacks/accessory.svg"
+    },
+    {
+      "productId": "prod-mirafit-folding-rower",
+      "slug": "mirafit-folding-rower",
+      "fullName": "Mirafit Folding Rower",
+      "brandId": "brand-mirafit",
+      "brandName": "Mirafit",
+      "categoryId": "cat-rowing-machines",
+      "categoryName": "Rowing Machines",
+      "categorySlug": "rowing-machines",
+      "sportIds": [
+        "sport-training",
+        "sport-hyrox"
+      ],
+      "lifecycleStatus": "current",
+      "reason": "placeholder-only",
+      "rawSrc": "/images/catalog/fallbacks/accessory.svg"
+    },
+    {
+      "productId": "prod-mirafit-rower",
+      "slug": "mirafit-magnetic-rower",
+      "fullName": "Mirafit Magnetic Rower",
+      "brandId": "brand-mirafit",
+      "brandName": "Mirafit",
+      "categoryId": "cat-rowing-machines",
+      "categoryName": "Rowing Machines",
+      "categorySlug": "rowing-machines",
+      "sportIds": [
+        "sport-training",
+        "sport-hyrox"
+      ],
+      "lifecycleStatus": "current",
+      "reason": "placeholder-only",
+      "rawSrc": "/images/catalog/fallbacks/accessory.svg"
+    },
+    {
+      "productId": "prod-waterrower-a1",
+      "slug": "waterrower-a1",
+      "fullName": "WaterRower A1 Home",
+      "brandId": "brand-waterrower",
+      "brandName": "WaterRower",
+      "categoryId": "cat-rowing-machines",
+      "categoryName": "Rowing Machines",
+      "categorySlug": "rowing-machines",
+      "sportIds": [
+        "sport-training",
+        "sport-hyrox"
+      ],
+      "lifecycleStatus": "current",
+      "reason": "placeholder-only",
+      "rawSrc": "/images/catalog/fallbacks/accessory.svg"
+    },
+    {
+      "productId": "prod-flipbelt-classic",
+      "slug": "flipbelt-classic",
+      "fullName": "FlipBelt Classic",
+      "brandId": "brand-flipbelt",
+      "brandName": "FlipBelt",
+      "categoryId": "cat-running-belts",
+      "categoryName": "Running Belts",
+      "categorySlug": "running-belts",
+      "sportIds": [
+        "sport-running"
+      ],
+      "lifecycleStatus": "current",
+      "reason": "placeholder-only",
+      "rawSrc": "/images/catalog/fallbacks/hydration.svg"
+    },
+    {
+      "productId": "prod-nathan-mirage",
+      "slug": "nathan-mirage-pak",
+      "fullName": "Nathan Mirage Pak",
+      "brandId": "brand-nathan",
+      "brandName": "Nathan",
+      "categoryId": "cat-running-belts",
+      "categoryName": "Running Belts",
+      "categorySlug": "running-belts",
+      "sportIds": [
+        "sport-running"
+      ],
+      "lifecycleStatus": "current",
+      "reason": "placeholder-only",
+      "rawSrc": "/images/catalog/fallbacks/hydration.svg"
+    },
+    {
+      "productId": "prod-spibelt-original",
+      "slug": "spibelt-original",
+      "fullName": "SPIbelt Original",
+      "brandId": "brand-spibelt",
+      "brandName": "SPIbelt",
+      "categoryId": "cat-running-belts",
+      "categoryName": "Running Belts",
+      "categorySlug": "running-belts",
+      "sportIds": [
+        "sport-running"
+      ],
+      "lifecycleStatus": "current",
+      "reason": "placeholder-only",
+      "rawSrc": "/images/catalog/fallbacks/hydration.svg"
+    },
+    {
+      "productId": "prod-asics-race-short",
+      "slug": "asics-core-split-short",
+      "fullName": "ASICS Core Split Short",
+      "brandId": "brand-asics",
+      "brandName": "ASICS",
+      "categoryId": "cat-running-clothing",
+      "categoryName": "Running Clothing",
+      "categorySlug": "running-clothing",
+      "sportIds": [
+        "sport-running"
+      ],
+      "lifecycleStatus": "current",
+      "reason": "placeholder-only",
+      "rawSrc": "/images/catalog/fallbacks/clothing.svg"
+    },
+    {
+      "productId": "prod-brooks-cascadia-jacket",
+      "slug": "brooks-cascadia-jacket",
+      "fullName": "Brooks Cascadia Jacket",
+      "brandId": "brand-brooks",
+      "brandName": "Brooks",
+      "categoryId": "cat-running-clothing",
+      "categoryName": "Running Clothing",
+      "categorySlug": "running-clothing",
+      "sportIds": [
+        "sport-running"
+      ],
+      "lifecycleStatus": "current",
+      "reason": "placeholder-only",
+      "rawSrc": "/images/catalog/fallbacks/clothing.svg"
+    },
+    {
+      "productId": "prod-brooks-ghost-short-sleeve",
+      "slug": "brooks-ghost-short-sleeve",
+      "fullName": "Brooks Ghost Short Sleeve",
+      "brandId": "brand-brooks",
+      "brandName": "Brooks",
+      "categoryId": "cat-running-clothing",
+      "categoryName": "Running Clothing",
+      "categorySlug": "running-clothing",
+      "sportIds": [
+        "sport-running"
+      ],
+      "lifecycleStatus": "current",
+      "reason": "placeholder-only",
+      "rawSrc": "/images/catalog/fallbacks/clothing.svg"
+    },
+    {
+      "productId": "prod-craft-adv-essence-short",
+      "slug": "craft-adv-essence-short",
+      "fullName": "Craft ADV Essence Short",
+      "brandId": "brand-craft",
+      "brandName": "Craft",
+      "categoryId": "cat-running-clothing",
+      "categoryName": "Running Clothing",
+      "categorySlug": "running-clothing",
+      "sportIds": [
+        "sport-running"
+      ],
+      "lifecycleStatus": "current",
+      "reason": "placeholder-only",
+      "rawSrc": "/images/catalog/fallbacks/clothing.svg"
+    },
+    {
+      "productId": "prod-nike-stride-short",
+      "slug": "nike-dri-fit-stride-short",
+      "fullName": "Nike Dri-FIT Stride Short",
+      "brandId": "brand-nike",
+      "brandName": "Nike",
+      "categoryId": "cat-running-clothing",
+      "categoryName": "Running Clothing",
+      "categorySlug": "running-clothing",
+      "sportIds": [
+        "sport-running"
+      ],
+      "lifecycleStatus": "current",
+      "reason": "placeholder-only",
+      "rawSrc": "/images/catalog/fallbacks/clothing.svg"
+    },
+    {
+      "productId": "prod-adizero-boston-13",
+      "slug": "adidas-adizero-boston-13",
+      "fullName": "Adidas Adizero Boston 13",
+      "brandId": "brand-adidas",
+      "brandName": "Adidas",
+      "categoryId": "cat-running-shoes",
+      "categoryName": "Running Shoes",
+      "categorySlug": "running-shoes",
+      "sportIds": [
+        "sport-running"
+      ],
+      "lifecycleStatus": "current",
+      "reason": "placeholder-only",
+      "rawSrc": "/images/catalog/fallbacks/shoe.svg"
+    },
+    {
+      "productId": "prod-terrex-agravic-3",
+      "slug": "adidas-terrex-agravic-3",
+      "fullName": "Adidas Terrex Agravic 3",
+      "brandId": "brand-adidas",
+      "brandName": "Adidas",
+      "categoryId": "cat-running-shoes",
+      "categoryName": "Running Shoes",
+      "categorySlug": "running-shoes",
+      "sportIds": [
+        "sport-running"
+      ],
+      "lifecycleStatus": "current",
+      "reason": "placeholder-only",
+      "rawSrc": "/images/catalog/fallbacks/shoe.svg"
+    },
+    {
+      "productId": "prod-ultraboost-5",
+      "slug": "adidas-ultraboost-5",
+      "fullName": "Adidas Ultraboost 5",
+      "brandId": "brand-adidas",
+      "brandName": "Adidas",
+      "categoryId": "cat-running-shoes",
+      "categoryName": "Running Shoes",
+      "categorySlug": "running-shoes",
+      "sportIds": [
+        "sport-running"
+      ],
+      "lifecycleStatus": "current",
+      "reason": "placeholder-only",
+      "rawSrc": "/images/catalog/fallbacks/shoe.svg"
+    },
+    {
+      "productId": "prod-experience-flow",
+      "slug": "altra-experience-flow",
+      "fullName": "Altra Experience Flow",
+      "brandId": "brand-altra",
+      "brandName": "Altra",
+      "categoryId": "cat-running-shoes",
+      "categoryName": "Running Shoes",
+      "categorySlug": "running-shoes",
+      "sportIds": [
+        "sport-running"
+      ],
+      "lifecycleStatus": "current",
+      "reason": "placeholder-only",
+      "rawSrc": "/images/catalog/fallbacks/shoe.svg"
+    },
+    {
+      "productId": "prod-paradigm-7",
+      "slug": "altra-paradigm-7",
+      "fullName": "Altra Paradigm 7",
+      "brandId": "brand-altra",
+      "brandName": "Altra",
+      "categoryId": "cat-running-shoes",
+      "categoryName": "Running Shoes",
+      "categorySlug": "running-shoes",
+      "sportIds": [
+        "sport-running"
+      ],
+      "lifecycleStatus": "current",
+      "reason": "placeholder-only",
+      "rawSrc": "/images/catalog/fallbacks/shoe.svg"
+    },
+    {
+      "productId": "prod-trabuco-13",
+      "slug": "asics-gel-trabuco-13",
+      "fullName": "ASICS Gel-Trabuco 13",
+      "brandId": "brand-asics",
+      "brandName": "ASICS",
+      "categoryId": "cat-running-shoes",
+      "categoryName": "Running Shoes",
+      "categorySlug": "running-shoes",
+      "sportIds": [
+        "sport-running"
+      ],
+      "lifecycleStatus": "current",
+      "reason": "placeholder-only",
+      "rawSrc": "/images/catalog/fallbacks/shoe.svg"
+    },
+    {
+      "productId": "prod-gt-1000-13",
+      "slug": "asics-gt-1000-13",
+      "fullName": "ASICS GT-1000 13",
+      "brandId": "brand-asics",
+      "brandName": "ASICS",
+      "categoryId": "cat-running-shoes",
+      "categoryName": "Running Shoes",
+      "categorySlug": "running-shoes",
+      "sportIds": [
+        "sport-running"
+      ],
+      "lifecycleStatus": "current",
+      "reason": "placeholder-only",
+      "rawSrc": "/images/catalog/fallbacks/shoe.svg"
+    },
+    {
+      "productId": "prod-cascadia-18",
+      "slug": "brooks-cascadia-18",
+      "fullName": "Brooks Cascadia 18",
+      "brandId": "brand-brooks",
+      "brandName": "Brooks",
+      "categoryId": "cat-running-shoes",
+      "categoryName": "Running Shoes",
+      "categorySlug": "running-shoes",
+      "sportIds": [
+        "sport-running"
+      ],
+      "lifecycleStatus": "current",
+      "reason": "placeholder-only",
+      "rawSrc": "/images/catalog/fallbacks/shoe.svg"
+    },
+    {
+      "productId": "prod-glycerin-gts-22",
+      "slug": "brooks-glycerin-gts-22",
+      "fullName": "Brooks Glycerin GTS 22",
+      "brandId": "brand-brooks",
+      "brandName": "Brooks",
+      "categoryId": "cat-running-shoes",
+      "categoryName": "Running Shoes",
+      "categorySlug": "running-shoes",
+      "sportIds": [
+        "sport-running"
+      ],
+      "lifecycleStatus": "current",
+      "reason": "placeholder-only",
+      "rawSrc": "/images/catalog/fallbacks/shoe.svg"
+    },
+    {
+      "productId": "prod-arahi-7",
+      "slug": "hoka-arahi-7",
+      "fullName": "HOKA Arahi 7",
+      "brandId": "brand-hoka",
+      "brandName": "HOKA",
+      "categoryId": "cat-running-shoes",
+      "categoryName": "Running Shoes",
+      "categorySlug": "running-shoes",
+      "sportIds": [
+        "sport-running"
+      ],
+      "lifecycleStatus": "current",
+      "reason": "placeholder-only",
+      "rawSrc": "/images/catalog/fallbacks/shoe.svg"
+    },
+    {
+      "productId": "prod-gaviota-5",
+      "slug": "hoka-gaviota-5",
+      "fullName": "HOKA Gaviota 5",
+      "brandId": "brand-hoka",
+      "brandName": "HOKA",
+      "categoryId": "cat-running-shoes",
+      "categoryName": "Running Shoes",
+      "categorySlug": "running-shoes",
+      "sportIds": [
+        "sport-running"
+      ],
+      "lifecycleStatus": "current",
+      "reason": "placeholder-only",
+      "rawSrc": "/images/catalog/fallbacks/shoe.svg"
+    },
+    {
+      "productId": "prod-860-v14",
+      "slug": "new-balance-fresh-foam-x-860-v14",
+      "fullName": "New Balance Fresh Foam X 860 v14",
+      "brandId": "brand-new-balance",
+      "brandName": "New Balance",
+      "categoryId": "cat-running-shoes",
+      "categoryName": "Running Shoes",
+      "categorySlug": "running-shoes",
+      "sportIds": [
+        "sport-running"
+      ],
+      "lifecycleStatus": "current",
+      "reason": "placeholder-only",
+      "rawSrc": "/images/catalog/fallbacks/shoe.svg"
+    },
+    {
+      "productId": "prod-hierro-v9",
+      "slug": "new-balance-fresh-foam-x-hierro-v9",
+      "fullName": "New Balance Fresh Foam X Hierro v9",
+      "brandId": "brand-new-balance",
+      "brandName": "New Balance",
+      "categoryId": "cat-running-shoes",
+      "categoryName": "Running Shoes",
+      "categorySlug": "running-shoes",
+      "sportIds": [
+        "sport-running"
+      ],
+      "lifecycleStatus": "current",
+      "reason": "placeholder-only",
+      "rawSrc": "/images/catalog/fallbacks/shoe.svg"
+    },
+    {
+      "productId": "prod-pegasus-trail-5",
+      "slug": "nike-pegasus-trail-5",
+      "fullName": "Nike Pegasus Trail 5",
+      "brandId": "brand-nike",
+      "brandName": "Nike",
+      "categoryId": "cat-running-shoes",
+      "categoryName": "Running Shoes",
+      "categorySlug": "running-shoes",
+      "sportIds": [
+        "sport-running"
+      ],
+      "lifecycleStatus": "current",
+      "reason": "placeholder-only",
+      "rawSrc": "/images/catalog/fallbacks/shoe.svg"
+    },
+    {
+      "productId": "prod-react-infinity-4",
+      "slug": "nike-react-infinity-run-4",
+      "fullName": "Nike React Infinity Run 4",
+      "brandId": "brand-nike",
+      "brandName": "Nike",
+      "categoryId": "cat-running-shoes",
+      "categoryName": "Running Shoes",
+      "categorySlug": "running-shoes",
+      "sportIds": [
+        "sport-running"
+      ],
+      "lifecycleStatus": "current",
+      "reason": "placeholder-only",
+      "rawSrc": "/images/catalog/fallbacks/shoe.svg"
+    },
+    {
+      "productId": "prod-cloudmonster-hyper",
+      "slug": "on-cloudmonster-hyper",
+      "fullName": "On Cloudmonster Hyper",
+      "brandId": "brand-on",
+      "brandName": "On",
+      "categoryId": "cat-running-shoes",
+      "categoryName": "Running Shoes",
+      "categorySlug": "running-shoes",
+      "sportIds": [
+        "sport-running"
+      ],
+      "lifecycleStatus": "current",
+      "reason": "placeholder-only",
+      "rawSrc": "/images/catalog/fallbacks/shoe.svg"
+    },
+    {
+      "productId": "prod-cloudsurfer-2",
+      "slug": "on-cloudsurfer-2",
+      "fullName": "On Cloudsurfer 2",
+      "brandId": "brand-on",
+      "brandName": "On",
+      "categoryId": "cat-running-shoes",
+      "categoryName": "Running Shoes",
+      "categorySlug": "running-shoes",
+      "sportIds": [
+        "sport-running"
+      ],
+      "lifecycleStatus": "current",
+      "reason": "placeholder-only",
+      "rawSrc": "/images/catalog/fallbacks/shoe.svg"
+    },
+    {
+      "productId": "prod-genesis-salomon",
+      "slug": "salomon-genesis",
+      "fullName": "Salomon Genesis",
+      "brandId": "brand-salomon",
+      "brandName": "Salomon",
+      "categoryId": "cat-running-shoes",
+      "categoryName": "Running Shoes",
+      "categorySlug": "running-shoes",
+      "sportIds": [
+        "sport-running"
+      ],
+      "lifecycleStatus": "current",
+      "reason": "placeholder-only",
+      "rawSrc": "/images/catalog/fallbacks/shoe.svg"
+    },
+    {
+      "productId": "prod-ultra-glide-2",
+      "slug": "salomon-ultra-glide-2",
+      "fullName": "Salomon Ultra Glide 2",
+      "brandId": "brand-salomon",
+      "brandName": "Salomon",
+      "categoryId": "cat-running-shoes",
+      "categoryName": "Running Shoes",
+      "categorySlug": "running-shoes",
+      "sportIds": [
+        "sport-running"
+      ],
+      "lifecycleStatus": "current",
+      "reason": "placeholder-only",
+      "rawSrc": "/images/catalog/fallbacks/shoe.svg"
+    },
+    {
+      "productId": "prod-guide-18",
+      "slug": "saucony-guide-18",
+      "fullName": "Saucony Guide 18",
+      "brandId": "brand-saucony",
+      "brandName": "Saucony",
+      "categoryId": "cat-running-shoes",
+      "categoryName": "Running Shoes",
+      "categorySlug": "running-shoes",
+      "sportIds": [
+        "sport-running"
+      ],
+      "lifecycleStatus": "current",
+      "reason": "placeholder-only",
+      "rawSrc": "/images/catalog/fallbacks/shoe.svg"
+    },
+    {
+      "productId": "prod-xodus-ultra-3",
+      "slug": "saucony-xodus-ultra-3",
+      "fullName": "Saucony Xodus Ultra 3",
+      "brandId": "brand-saucony",
+      "brandName": "Saucony",
+      "categoryId": "cat-running-shoes",
+      "categoryName": "Running Shoes",
+      "categorySlug": "running-shoes",
+      "sportIds": [
+        "sport-running"
+      ],
+      "lifecycleStatus": "current",
+      "reason": "placeholder-only",
+      "rawSrc": "/images/catalog/fallbacks/shoe.svg"
+    },
+    {
+      "productId": "prod-terraventure-4",
+      "slug": "topo-athletic-terraventure-4",
+      "fullName": "Topo Athletic Terraventure 4",
+      "brandId": "brand-topo",
+      "brandName": "Topo Athletic",
+      "categoryId": "cat-running-shoes",
+      "categoryName": "Running Shoes",
+      "categorySlug": "running-shoes",
+      "sportIds": [
+        "sport-running"
+      ],
+      "lifecycleStatus": "current",
+      "reason": "placeholder-only",
+      "rawSrc": "/images/catalog/fallbacks/shoe.svg"
+    },
+    {
+      "productId": "prod-balega-hidden-comfort",
+      "slug": "balega-hidden-comfort",
+      "fullName": "Balega Hidden Comfort",
+      "brandId": "brand-balega",
+      "brandName": "Balega",
+      "categoryId": "cat-running-socks",
+      "categoryName": "Running Socks",
+      "categorySlug": "running-socks",
+      "sportIds": [
+        "sport-running"
+      ],
+      "lifecycleStatus": "current",
+      "reason": "placeholder-only",
+      "rawSrc": "/images/catalog/fallbacks/clothing.svg"
+    },
+    {
+      "productId": "prod-cep-run-compression-sock",
+      "slug": "cep-run-compression-sock-3",
+      "fullName": "CEP Run Compression Sock 3.0",
+      "brandId": "brand-cep",
+      "brandName": "CEP",
+      "categoryId": "cat-running-socks",
+      "categoryName": "Running Socks",
+      "categorySlug": "running-socks",
+      "sportIds": [
+        "sport-running"
+      ],
+      "lifecycleStatus": "current",
+      "reason": "placeholder-only",
+      "rawSrc": "/images/catalog/fallbacks/clothing.svg"
+    },
+    {
+      "productId": "prod-feetures-elite-light-cushion",
+      "slug": "feetures-elite-light-cushion",
+      "fullName": "Feetures Elite Light Cushion",
+      "brandId": "brand-feetures",
+      "brandName": "Feetures",
+      "categoryId": "cat-running-socks",
+      "categoryName": "Running Socks",
+      "categorySlug": "running-socks",
+      "sportIds": [
+        "sport-running"
+      ],
+      "lifecycleStatus": "current",
+      "reason": "placeholder-only",
+      "rawSrc": "/images/catalog/fallbacks/clothing.svg"
+    },
+    {
+      "productId": "prod-injinji-run-midweight",
+      "slug": "injinji-run-midweight",
+      "fullName": "Injinji Run Midweight",
+      "brandId": "brand-injinji",
+      "brandName": "Injinji",
+      "categoryId": "cat-running-socks",
+      "categoryName": "Running Socks",
+      "categorySlug": "running-socks",
+      "sportIds": [
+        "sport-running"
+      ],
+      "lifecycleStatus": "current",
+      "reason": "placeholder-only",
+      "rawSrc": "/images/catalog/fallbacks/clothing.svg"
+    },
+    {
+      "productId": "prod-nathan-reflective-vest",
+      "slug": "nathan-streak-reflective-vest",
+      "fullName": "Nathan Streak Reflective Vest",
+      "brandId": "brand-nathan",
+      "brandName": "Nathan",
+      "categoryId": "cat-safety",
+      "categoryName": "Safety Gear",
+      "categorySlug": "safety-gear",
+      "sportIds": [
+        "sport-running"
+      ],
+      "lifecycleStatus": "current",
+      "reason": "placeholder-only",
+      "rawSrc": "/images/catalog/fallbacks/accessory.svg"
+    },
+    {
+      "productId": "prod-nite-ize-radiant-clip",
+      "slug": "nite-ize-radiant-rechargeable-clip-light",
+      "fullName": "Nite Ize Radiant Rechargeable Clip Light",
+      "brandId": "brand-nite-ize",
+      "brandName": "Nite Ize",
+      "categoryId": "cat-safety",
+      "categoryName": "Safety Gear",
+      "categorySlug": "safety-gear",
+      "sportIds": [
+        "sport-running",
+        "sport-cycling"
+      ],
+      "lifecycleStatus": "current",
+      "reason": "placeholder-only",
+      "rawSrc": "/images/catalog/fallbacks/accessory.svg"
+    },
+    {
+      "productId": "prod-concept2-skierg",
+      "slug": "concept2-skierg",
+      "fullName": "Concept2 SkiErg",
+      "brandId": "brand-concept2",
+      "brandName": "Concept2",
+      "categoryId": "cat-ski-ergs",
+      "categoryName": "SkiErgs",
+      "categorySlug": "ski-ergs",
+      "sportIds": [
+        "sport-training",
+        "sport-hyrox"
+      ],
+      "lifecycleStatus": "current",
+      "reason": "placeholder-only",
+      "rawSrc": "/images/catalog/fallbacks/accessory.svg"
+    },
+    {
+      "productId": "prod-concept2-skierg-stand",
+      "slug": "concept2-skierg-floor-stand",
+      "fullName": "Concept2 SkiErg with Floor Stand",
+      "brandId": "brand-concept2",
+      "brandName": "Concept2",
+      "categoryId": "cat-ski-ergs",
+      "categoryName": "SkiErgs",
+      "categorySlug": "ski-ergs",
+      "sportIds": [
+        "sport-training",
+        "sport-hyrox"
+      ],
+      "lifecycleStatus": "current",
+      "reason": "placeholder-only",
+      "rawSrc": "/images/catalog/fallbacks/accessory.svg"
+    },
+    {
+      "productId": "prod-concept2-skierg-pm5-bundle",
+      "slug": "concept2-skierg-with-stand",
+      "fullName": "Concept2 SkiErg with Floor Stand Bundle",
+      "brandId": "brand-concept2",
+      "brandName": "Concept2",
+      "categoryId": "cat-ski-ergs",
+      "categoryName": "SkiErgs",
+      "categorySlug": "ski-ergs",
+      "sportIds": [
+        "sport-training",
+        "sport-hyrox"
+      ],
+      "lifecycleStatus": "current",
+      "reason": "placeholder-only",
+      "rawSrc": "/images/catalog/fallbacks/accessory.svg"
+    },
+    {
+      "productId": "prod-skierg2-wall",
+      "slug": "skierg2-wall-mount",
+      "fullName": "SkiErg2 Wall-Mount Trainer",
+      "brandId": "brand-xebex",
+      "brandName": "Xebex Fitness",
+      "categoryId": "cat-ski-ergs",
+      "categoryName": "SkiErgs",
+      "categorySlug": "ski-ergs",
+      "sportIds": [
+        "sport-training",
+        "sport-hyrox"
+      ],
+      "lifecycleStatus": "current",
+      "reason": "placeholder-only",
+      "rawSrc": "/images/catalog/fallbacks/accessory.svg"
+    },
+    {
+      "productId": "prod-xebex-skierg",
+      "slug": "xebex-ski-erg",
+      "fullName": "Xebex Ski Erg",
+      "brandId": "brand-xebex",
+      "brandName": "Xebex Fitness",
+      "categoryId": "cat-ski-ergs",
+      "categoryName": "SkiErgs",
+      "categorySlug": "ski-ergs",
+      "sportIds": [
+        "sport-training",
+        "sport-hyrox"
+      ],
+      "lifecycleStatus": "current",
+      "reason": "placeholder-only",
+      "rawSrc": "/images/catalog/fallbacks/accessory.svg"
+    },
+    {
+      "productId": "prod-dunlop-cx-200-squash",
+      "slug": "dunlop-cx-tour-squash",
+      "fullName": "Dunlop CX Tour Squash",
+      "brandId": "brand-dunlop-racket",
+      "brandName": "Dunlop",
+      "categoryId": "cat-squash-rackets",
+      "categoryName": "Squash Rackets",
+      "categorySlug": "squash-rackets",
+      "sportIds": [
+        "sport-squash"
+      ],
+      "lifecycleStatus": "current",
+      "reason": "placeholder-only",
+      "rawSrc": "/images/catalog/fallbacks/accessory.svg"
+    },
+    {
+      "productId": "prod-dunlop-sonic-core-revelation",
+      "slug": "dunlop-sonic-core-revelation-pro",
+      "fullName": "Dunlop Sonic Core Revelation Pro",
+      "brandId": "brand-dunlop-racket",
+      "brandName": "Dunlop",
+      "categoryId": "cat-squash-rackets",
+      "categoryName": "Squash Rackets",
+      "categorySlug": "squash-rackets",
+      "sportIds": [
+        "sport-squash"
+      ],
+      "lifecycleStatus": "current",
+      "reason": "placeholder-only",
+      "rawSrc": "/images/catalog/fallbacks/accessory.svg"
+    },
+    {
+      "productId": "prod-head-extreme-120-squash",
+      "slug": "head-extreme-120-squash",
+      "fullName": "Head Extreme 120 Squash",
+      "brandId": "brand-head-padel",
+      "brandName": "Head",
+      "categoryId": "cat-squash-rackets",
+      "categoryName": "Squash Rackets",
+      "categorySlug": "squash-rackets",
+      "sportIds": [
+        "sport-squash"
+      ],
+      "lifecycleStatus": "current",
+      "reason": "placeholder-only",
+      "rawSrc": "/images/catalog/fallbacks/accessory.svg"
+    },
+    {
+      "productId": "prod-tecnifibre-carboflex-125",
+      "slug": "tecnifibre-carboflex-125-x-top",
+      "fullName": "Tecnifibre Carboflex 125 X-Top",
+      "brandId": "brand-tecnifibre",
+      "brandName": "Tecnifibre",
+      "categoryId": "cat-squash-rackets",
+      "categoryName": "Squash Rackets",
+      "categorySlug": "squash-rackets",
+      "sportIds": [
+        "sport-squash"
+      ],
+      "lifecycleStatus": "current",
+      "reason": "placeholder-only",
+      "rawSrc": "/images/catalog/fallbacks/accessory.svg"
+    },
+    {
+      "productId": "prod-wilson-blade-black-squash",
+      "slug": "wilson-blade-black-squash",
+      "fullName": "Wilson Blade Black Squash",
+      "brandId": "brand-wilson-padel",
+      "brandName": "Wilson",
+      "categoryId": "cat-squash-rackets",
+      "categoryName": "Squash Rackets",
+      "categorySlug": "squash-rackets",
+      "sportIds": [
+        "sport-squash"
+      ],
+      "lifecycleStatus": "current",
+      "reason": "placeholder-only",
+      "rawSrc": "/images/catalog/fallbacks/accessory.svg"
+    },
+    {
+      "productId": "prod-goodr-ogs",
+      "slug": "goodr-ogs",
+      "fullName": "Goodr OGs",
+      "brandId": "brand-goodr",
+      "brandName": "goodr",
+      "categoryId": "cat-sunglasses",
+      "categoryName": "Sunglasses",
+      "categorySlug": "sunglasses",
+      "sportIds": [
+        "sport-running"
+      ],
+      "lifecycleStatus": "current",
+      "reason": "placeholder-only",
+      "rawSrc": "/images/catalog/fallbacks/accessory.svg"
+    },
+    {
+      "productId": "prod-julbo-aerolite",
+      "slug": "julbo-aerolite",
+      "fullName": "Julbo Aerolite",
+      "brandId": "brand-julbo",
+      "brandName": "Julbo",
+      "categoryId": "cat-sunglasses",
+      "categoryName": "Sunglasses",
+      "categorySlug": "sunglasses",
+      "sportIds": [
+        "sport-running"
+      ],
+      "lifecycleStatus": "current",
+      "reason": "placeholder-only",
+      "rawSrc": "/images/catalog/fallbacks/accessory.svg"
+    },
+    {
+      "productId": "prod-oakley-encoder",
+      "slug": "oakley-encoder",
+      "fullName": "Oakley Encoder",
+      "brandId": "brand-oakley",
+      "brandName": "Oakley",
+      "categoryId": "cat-sunglasses",
+      "categoryName": "Sunglasses",
+      "categorySlug": "sunglasses",
+      "sportIds": [
+        "sport-running",
+        "sport-cycling"
+      ],
+      "lifecycleStatus": "current",
+      "reason": "placeholder-only",
+      "rawSrc": "/images/catalog/fallbacks/accessory.svg"
+    },
+    {
+      "productId": "prod-adidas-barricade-13",
+      "slug": "adidas-barricade-13",
+      "fullName": "Adidas Barricade 13",
+      "brandId": "brand-adidas",
+      "brandName": "Adidas",
+      "categoryId": "cat-tennis-shoes",
+      "categoryName": "Tennis Shoes",
+      "categorySlug": "tennis-shoes",
+      "sportIds": [
+        "sport-tennis",
+        "sport-padel"
+      ],
+      "lifecycleStatus": "current",
+      "reason": "placeholder-only",
+      "rawSrc": "/images/catalog/fallbacks/shoe.svg"
+    },
+    {
+      "productId": "prod-adidas-courtjam-control-3",
+      "slug": "adidas-courtjam-control-3",
+      "fullName": "Adidas CourtJam Control 3",
+      "brandId": "brand-adidas",
+      "brandName": "Adidas",
+      "categoryId": "cat-tennis-shoes",
+      "categoryName": "Tennis Shoes",
+      "categorySlug": "tennis-shoes",
+      "sportIds": [
+        "sport-tennis",
+        "sport-padel"
+      ],
+      "lifecycleStatus": "current",
+      "reason": "placeholder-only",
+      "rawSrc": "/images/catalog/fallbacks/shoe.svg"
+    },
+    {
+      "productId": "prod-adidas-gamecourt-2",
+      "slug": "adidas-gamecourt-2",
+      "fullName": "Adidas Gamecourt 2",
+      "brandId": "brand-adidas",
+      "brandName": "Adidas",
+      "categoryId": "cat-tennis-shoes",
+      "categoryName": "Tennis Shoes",
+      "categorySlug": "tennis-shoes",
+      "sportIds": [
+        "sport-tennis",
+        "sport-padel"
+      ],
+      "lifecycleStatus": "current",
+      "reason": "placeholder-only",
+      "rawSrc": "/images/catalog/fallbacks/shoe.svg"
+    },
+    {
+      "productId": "prod-adidas-solematch-control-2",
+      "slug": "adidas-solematch-control-2",
+      "fullName": "Adidas Solematch Control 2",
+      "brandId": "brand-adidas",
+      "brandName": "Adidas",
+      "categoryId": "cat-tennis-shoes",
+      "categoryName": "Tennis Shoes",
+      "categorySlug": "tennis-shoes",
+      "sportIds": [
+        "sport-tennis",
+        "sport-padel"
+      ],
+      "lifecycleStatus": "current",
+      "reason": "placeholder-only",
+      "rawSrc": "/images/catalog/fallbacks/shoe.svg"
+    },
+    {
+      "productId": "prod-asics-gel-challenger-15",
+      "slug": "asics-gel-challenger-15",
+      "fullName": "ASICS Gel-Challenger 15",
+      "brandId": "brand-asics-racket",
+      "brandName": "ASICS Court",
+      "categoryId": "cat-tennis-shoes",
+      "categoryName": "Tennis Shoes",
+      "categorySlug": "tennis-shoes",
+      "sportIds": [
+        "sport-tennis",
+        "sport-padel"
+      ],
+      "lifecycleStatus": "current",
+      "reason": "placeholder-only",
+      "rawSrc": "/images/catalog/fallbacks/shoe.svg"
+    },
+    {
+      "productId": "prod-asics-gel-dedicate-8",
+      "slug": "asics-gel-dedicate-8",
+      "fullName": "ASICS Gel-Dedicate 8",
+      "brandId": "brand-asics-racket",
+      "brandName": "ASICS Court",
+      "categoryId": "cat-tennis-shoes",
+      "categoryName": "Tennis Shoes",
+      "categorySlug": "tennis-shoes",
+      "sportIds": [
+        "sport-tennis",
+        "sport-padel"
+      ],
+      "lifecycleStatus": "current",
+      "reason": "placeholder-only",
+      "rawSrc": "/images/catalog/fallbacks/shoe.svg"
+    },
+    {
+      "productId": "prod-asics-gel-resolution-9",
+      "slug": "asics-gel-resolution-9",
+      "fullName": "ASICS Gel-Resolution 9",
+      "brandId": "brand-asics-racket",
+      "brandName": "ASICS Court",
+      "categoryId": "cat-tennis-shoes",
+      "categoryName": "Tennis Shoes",
+      "categorySlug": "tennis-shoes",
+      "sportIds": [
+        "sport-tennis"
+      ],
+      "lifecycleStatus": "current",
+      "reason": "placeholder-only",
+      "rawSrc": "/images/catalog/fallbacks/shoe.svg"
+    },
+    {
+      "productId": "prod-asics-gel-resolution-9-clay",
+      "slug": "asics-gel-resolution-9-clay",
+      "fullName": "ASICS Gel-Resolution 9 Clay",
+      "brandId": "brand-asics-racket",
+      "brandName": "ASICS Court",
+      "categoryId": "cat-tennis-shoes",
+      "categoryName": "Tennis Shoes",
+      "categorySlug": "tennis-shoes",
+      "sportIds": [
+        "sport-tennis",
+        "sport-padel"
+      ],
+      "lifecycleStatus": "current",
+      "reason": "placeholder-only",
+      "rawSrc": "/images/catalog/fallbacks/shoe.svg"
+    },
+    {
+      "productId": "prod-asics-solution-speed-ff-3",
+      "slug": "asics-solution-speed-ff-3",
+      "fullName": "ASICS Solution Speed FF 3",
+      "brandId": "brand-asics-racket",
+      "brandName": "ASICS Court",
+      "categoryId": "cat-tennis-shoes",
+      "categoryName": "Tennis Shoes",
+      "categorySlug": "tennis-shoes",
+      "sportIds": [
+        "sport-tennis",
+        "sport-padel"
+      ],
+      "lifecycleStatus": "current",
+      "reason": "placeholder-only",
+      "rawSrc": "/images/catalog/fallbacks/shoe.svg"
+    },
+    {
+      "productId": "prod-babolat-jet-mach-3",
+      "slug": "babolat-jet-mach-3",
+      "fullName": "Babolat Jet Mach 3",
+      "brandId": "brand-babolat-padel",
+      "brandName": "Babolat",
+      "categoryId": "cat-tennis-shoes",
+      "categoryName": "Tennis Shoes",
+      "categorySlug": "tennis-shoes",
+      "sportIds": [
+        "sport-tennis",
+        "sport-padel"
+      ],
+      "lifecycleStatus": "current",
+      "reason": "placeholder-only",
+      "rawSrc": "/images/catalog/fallbacks/shoe.svg"
+    },
+    {
+      "productId": "prod-babolat-jet-tere",
+      "slug": "babolat-jet-tere",
+      "fullName": "Babolat Jet Tere",
+      "brandId": "brand-babolat-padel",
+      "brandName": "Babolat",
+      "categoryId": "cat-tennis-shoes",
+      "categoryName": "Tennis Shoes",
+      "categorySlug": "tennis-shoes",
+      "sportIds": [
+        "sport-tennis",
+        "sport-padel"
+      ],
+      "lifecycleStatus": "current",
+      "reason": "placeholder-only",
+      "rawSrc": "/images/catalog/fallbacks/shoe.svg"
+    },
+    {
+      "productId": "prod-babolat-propulse-fury-3",
+      "slug": "babolat-propulse-fury-3",
+      "fullName": "Babolat Propulse Fury 3",
+      "brandId": "brand-babolat-padel",
+      "brandName": "Babolat",
+      "categoryId": "cat-tennis-shoes",
+      "categoryName": "Tennis Shoes",
+      "categorySlug": "tennis-shoes",
+      "sportIds": [
+        "sport-tennis",
+        "sport-padel"
+      ],
+      "lifecycleStatus": "current",
+      "reason": "placeholder-only",
+      "rawSrc": "/images/catalog/fallbacks/shoe.svg"
+    },
+    {
+      "productId": "prod-head-revolt-pro-45",
+      "slug": "head-revolt-pro-4-5",
+      "fullName": "HEAD Revolt Pro 4.5",
+      "brandId": "brand-head-padel",
+      "brandName": "Head",
+      "categoryId": "cat-tennis-shoes",
+      "categoryName": "Tennis Shoes",
+      "categorySlug": "tennis-shoes",
+      "sportIds": [
+        "sport-tennis",
+        "sport-padel"
+      ],
+      "lifecycleStatus": "current",
+      "reason": "placeholder-only",
+      "rawSrc": "/images/catalog/fallbacks/shoe.svg"
+    },
+    {
+      "productId": "prod-head-sprint-pro-35",
+      "slug": "head-sprint-pro-3-5",
+      "fullName": "HEAD Sprint Pro 3.5",
+      "brandId": "brand-head-padel",
+      "brandName": "Head",
+      "categoryId": "cat-tennis-shoes",
+      "categoryName": "Tennis Shoes",
+      "categorySlug": "tennis-shoes",
+      "sportIds": [
+        "sport-tennis",
+        "sport-padel"
+      ],
+      "lifecycleStatus": "current",
+      "reason": "placeholder-only",
+      "rawSrc": "/images/catalog/fallbacks/shoe.svg"
+    },
+    {
+      "productId": "prod-kswiss-hypercourt-express-2",
+      "slug": "k-swiss-hypercourt-express-2",
+      "fullName": "K-Swiss Hypercourt Express 2",
+      "brandId": "brand-k-swiss",
+      "brandName": "K-Swiss",
+      "categoryId": "cat-tennis-shoes",
+      "categoryName": "Tennis Shoes",
+      "categorySlug": "tennis-shoes",
+      "sportIds": [
+        "sport-tennis",
+        "sport-padel"
+      ],
+      "lifecycleStatus": "current",
+      "reason": "placeholder-only",
+      "rawSrc": "/images/catalog/fallbacks/shoe.svg"
+    },
+    {
+      "productId": "prod-kswiss-ultrashot-3",
+      "slug": "k-swiss-ultrashot-3",
+      "fullName": "K-Swiss Ultrashot 3",
+      "brandId": "brand-k-swiss",
+      "brandName": "K-Swiss",
+      "categoryId": "cat-tennis-shoes",
+      "categoryName": "Tennis Shoes",
+      "categorySlug": "tennis-shoes",
+      "sportIds": [
+        "sport-tennis",
+        "sport-padel"
+      ],
+      "lifecycleStatus": "current",
+      "reason": "placeholder-only",
+      "rawSrc": "/images/catalog/fallbacks/shoe.svg"
+    },
+    {
+      "productId": "prod-mizuno-wave-exceed-tour-5",
+      "slug": "mizuno-wave-exceed-tour-5",
+      "fullName": "Mizuno Wave Exceed Tour 5",
+      "brandId": "brand-mizuno",
+      "brandName": "Mizuno",
+      "categoryId": "cat-tennis-shoes",
+      "categoryName": "Tennis Shoes",
+      "categorySlug": "tennis-shoes",
+      "sportIds": [
+        "sport-tennis",
+        "sport-padel"
+      ],
+      "lifecycleStatus": "current",
+      "reason": "placeholder-only",
+      "rawSrc": "/images/catalog/fallbacks/shoe.svg"
+    },
+    {
+      "productId": "prod-nb-996-v5",
+      "slug": "new-balance-996-v5",
+      "fullName": "New Balance 996 v5",
+      "brandId": "brand-new-balance",
+      "brandName": "New Balance",
+      "categoryId": "cat-tennis-shoes",
+      "categoryName": "Tennis Shoes",
+      "categorySlug": "tennis-shoes",
+      "sportIds": [
+        "sport-tennis",
+        "sport-padel"
+      ],
+      "lifecycleStatus": "current",
+      "reason": "placeholder-only",
+      "rawSrc": "/images/catalog/fallbacks/shoe.svg"
+    },
+    {
+      "productId": "prod-nb-lav-v2",
+      "slug": "new-balance-fresh-foam-x-lav-v2",
+      "fullName": "New Balance Fresh Foam X Lav v2",
+      "brandId": "brand-new-balance",
+      "brandName": "New Balance",
+      "categoryId": "cat-tennis-shoes",
+      "categoryName": "Tennis Shoes",
+      "categorySlug": "tennis-shoes",
+      "sportIds": [
+        "sport-tennis",
+        "sport-padel"
+      ],
+      "lifecycleStatus": "current",
+      "reason": "placeholder-only",
+      "rawSrc": "/images/catalog/fallbacks/shoe.svg"
+    },
+    {
+      "productId": "prod-nike-court-vapor-pro-3",
+      "slug": "nike-court-vapor-pro-3",
+      "fullName": "Nike Court Air Zoom Vapor Pro 3",
+      "brandId": "brand-nike",
+      "brandName": "Nike",
+      "categoryId": "cat-tennis-shoes",
+      "categoryName": "Tennis Shoes",
+      "categorySlug": "tennis-shoes",
+      "sportIds": [
+        "sport-tennis",
+        "sport-padel"
+      ],
+      "lifecycleStatus": "current",
+      "reason": "placeholder-only",
+      "rawSrc": "/images/catalog/fallbacks/shoe.svg"
+    },
+    {
+      "productId": "prod-nike-zoom-gp-turbo-2",
+      "slug": "nike-zoom-gp-turbo-hc-2",
+      "fullName": "NikeCourt Air Zoom GP Turbo HC 2",
+      "brandId": "brand-nike",
+      "brandName": "Nike",
+      "categoryId": "cat-tennis-shoes",
+      "categoryName": "Tennis Shoes",
+      "categorySlug": "tennis-shoes",
+      "sportIds": [
+        "sport-tennis",
+        "sport-padel"
+      ],
+      "lifecycleStatus": "current",
+      "reason": "placeholder-only",
+      "rawSrc": "/images/catalog/fallbacks/shoe.svg"
+    },
+    {
+      "productId": "prod-nike-vapor-cage-4",
+      "slug": "nike-court-air-zoom-vapor-cage-4",
+      "fullName": "NikeCourt Air Zoom Vapor Cage 4 Rafa",
+      "brandId": "brand-nike",
+      "brandName": "Nike",
+      "categoryId": "cat-tennis-shoes",
+      "categoryName": "Tennis Shoes",
+      "categorySlug": "tennis-shoes",
+      "sportIds": [
+        "sport-tennis",
+        "sport-padel"
+      ],
+      "lifecycleStatus": "current",
+      "reason": "placeholder-only",
+      "rawSrc": "/images/catalog/fallbacks/shoe.svg"
+    },
+    {
+      "productId": "prod-nike-court-lite-4",
+      "slug": "nike-court-lite-4",
+      "fullName": "NikeCourt Lite 4",
+      "brandId": "brand-nike",
+      "brandName": "Nike",
+      "categoryId": "cat-tennis-shoes",
+      "categoryName": "Tennis Shoes",
+      "categorySlug": "tennis-shoes",
+      "sportIds": [
+        "sport-tennis",
+        "sport-padel"
+      ],
+      "lifecycleStatus": "current",
+      "reason": "placeholder-only",
+      "rawSrc": "/images/catalog/fallbacks/shoe.svg"
+    },
+    {
+      "productId": "prod-prince-t22",
+      "slug": "prince-t22",
+      "fullName": "Prince T22",
+      "brandId": "brand-prince",
+      "brandName": "Prince",
+      "categoryId": "cat-tennis-shoes",
+      "categoryName": "Tennis Shoes",
+      "categorySlug": "tennis-shoes",
+      "sportIds": [
+        "sport-tennis",
+        "sport-padel"
+      ],
+      "lifecycleStatus": "current",
+      "reason": "placeholder-only",
+      "rawSrc": "/images/catalog/fallbacks/shoe.svg"
+    },
+    {
+      "productId": "prod-wilson-kaos-rapide-30",
+      "slug": "wilson-kaos-rapide-3-0",
+      "fullName": "Wilson Kaos Rapide 3.0",
+      "brandId": "brand-wilson-padel",
+      "brandName": "Wilson",
+      "categoryId": "cat-tennis-shoes",
+      "categoryName": "Tennis Shoes",
+      "categorySlug": "tennis-shoes",
+      "sportIds": [
+        "sport-tennis",
+        "sport-padel"
+      ],
+      "lifecycleStatus": "current",
+      "reason": "placeholder-only",
+      "rawSrc": "/images/catalog/fallbacks/shoe.svg"
+    },
+    {
+      "productId": "prod-wilson-rush-pro-4",
+      "slug": "wilson-rush-pro-4-0",
+      "fullName": "Wilson Rush Pro 4.0",
+      "brandId": "brand-wilson-padel",
+      "brandName": "Wilson",
+      "categoryId": "cat-tennis-shoes",
+      "categoryName": "Tennis Shoes",
+      "categorySlug": "tennis-shoes",
+      "sportIds": [
+        "sport-tennis"
+      ],
+      "lifecycleStatus": "previous-generation",
+      "reason": "placeholder-only",
+      "rawSrc": "/images/catalog/fallbacks/shoe.svg"
+    },
+    {
+      "productId": "prod-wilson-rush-pro-5",
+      "slug": "wilson-rush-pro-5-0",
+      "fullName": "Wilson Rush Pro 5.0",
+      "brandId": "brand-wilson-padel",
+      "brandName": "Wilson",
+      "categoryId": "cat-tennis-shoes",
+      "categoryName": "Tennis Shoes",
+      "categorySlug": "tennis-shoes",
+      "sportIds": [
+        "sport-tennis",
+        "sport-padel"
+      ],
+      "lifecycleStatus": "current",
+      "reason": "placeholder-only",
+      "rawSrc": "/images/catalog/fallbacks/shoe.svg"
+    },
+    {
+      "productId": "prod-wilson-rush-pro-ace",
+      "slug": "wilson-rush-pro-ace",
+      "fullName": "Wilson Rush Pro Ace",
+      "brandId": "brand-wilson-padel",
+      "brandName": "Wilson",
+      "categoryId": "cat-tennis-shoes",
+      "categoryName": "Tennis Shoes",
+      "categorySlug": "tennis-shoes",
+      "sportIds": [
+        "sport-tennis",
+        "sport-padel"
+      ],
+      "lifecycleStatus": "current",
+      "reason": "placeholder-only",
+      "rawSrc": "/images/catalog/fallbacks/shoe.svg"
+    },
+    {
+      "productId": "prod-yonex-eclipsion-5",
+      "slug": "yonex-power-cushion-eclipsion-5",
+      "fullName": "Yonex Power Cushion Eclipsion 5",
+      "brandId": "brand-yonex",
+      "brandName": "Yonex",
+      "categoryId": "cat-tennis-shoes",
+      "categoryName": "Tennis Shoes",
+      "categorySlug": "tennis-shoes",
+      "sportIds": [
+        "sport-tennis",
+        "sport-padel"
+      ],
+      "lifecycleStatus": "current",
+      "reason": "placeholder-only",
+      "rawSrc": "/images/catalog/fallbacks/shoe.svg"
+    },
+    {
+      "productId": "prod-yonex-sonicage-3",
+      "slug": "yonex-power-cushion-sonicage-3",
+      "fullName": "Yonex Power Cushion Sonicage 3",
+      "brandId": "brand-yonex",
+      "brandName": "Yonex",
+      "categoryId": "cat-tennis-shoes",
+      "categoryName": "Tennis Shoes",
+      "categorySlug": "tennis-shoes",
+      "sportIds": [
+        "sport-tennis",
+        "sport-padel"
+      ],
+      "lifecycleStatus": "current",
+      "reason": "placeholder-only",
+      "rawSrc": "/images/catalog/fallbacks/shoe.svg"
+    },
+    {
+      "productId": "prod-babolat-rpm-blast",
+      "slug": "babolat-rpm-blast-1-25",
+      "fullName": "Babolat RPM Blast 1.25",
+      "brandId": "brand-babolat-padel",
+      "brandName": "Babolat",
+      "categoryId": "cat-tennis-strings",
+      "categoryName": "Tennis Strings",
+      "categorySlug": "tennis-strings",
+      "sportIds": [
+        "sport-tennis"
+      ],
+      "lifecycleStatus": "current",
+      "reason": "placeholder-only",
+      "rawSrc": "/images/catalog/fallbacks/accessory.svg"
+    },
+    {
+      "productId": "prod-luxilon-alu-power",
+      "slug": "luxilon-alu-power",
+      "fullName": "Luxilon ALU Power",
+      "brandId": "brand-luxilon",
+      "brandName": "Luxilon",
+      "categoryId": "cat-tennis-strings",
+      "categoryName": "Tennis Strings",
+      "categorySlug": "tennis-strings",
+      "sportIds": [
+        "sport-tennis"
+      ],
+      "lifecycleStatus": "current",
+      "reason": "placeholder-only",
+      "rawSrc": "/images/catalog/fallbacks/accessory.svg"
+    },
+    {
+      "productId": "prod-solinco-hyper-g",
+      "slug": "solinco-hyper-g",
+      "fullName": "Solinco Hyper-G",
+      "brandId": "brand-solinco",
+      "brandName": "Solinco",
+      "categoryId": "cat-tennis-strings",
+      "categoryName": "Tennis Strings",
+      "categorySlug": "tennis-strings",
+      "sportIds": [
+        "sport-tennis"
+      ],
+      "lifecycleStatus": "current",
+      "reason": "placeholder-only",
+      "rawSrc": "/images/catalog/fallbacks/accessory.svg"
+    },
+    {
+      "productId": "prod-tecnifibre-black-code",
+      "slug": "tecnifibre-black-code-1-28",
+      "fullName": "Tecnifibre Black Code 1.28",
+      "brandId": "brand-tecnifibre",
+      "brandName": "Tecnifibre",
+      "categoryId": "cat-tennis-strings",
+      "categoryName": "Tennis Strings",
+      "categorySlug": "tennis-strings",
+      "sportIds": [
+        "sport-tennis"
+      ],
+      "lifecycleStatus": "current",
+      "reason": "placeholder-only",
+      "rawSrc": "/images/catalog/fallbacks/accessory.svg"
+    },
+    {
+      "productId": "prod-tecnifibre-x-one-biphase",
+      "slug": "tecnifibre-x-one-biphase",
+      "fullName": "Tecnifibre X-One Biphase",
+      "brandId": "brand-tecnifibre",
+      "brandName": "Tecnifibre",
+      "categoryId": "cat-tennis-strings",
+      "categoryName": "Tennis Strings",
+      "categorySlug": "tennis-strings",
+      "sportIds": [
+        "sport-tennis"
+      ],
+      "lifecycleStatus": "current",
+      "reason": "placeholder-only",
+      "rawSrc": "/images/catalog/fallbacks/accessory.svg"
+    },
+    {
+      "productId": "prod-wilson-nxt",
+      "slug": "wilson-nxt",
+      "fullName": "Wilson NXT",
+      "brandId": "brand-wilson-padel",
+      "brandName": "Wilson",
+      "categoryId": "cat-tennis-strings",
+      "categoryName": "Tennis Strings",
+      "categorySlug": "tennis-strings",
+      "sportIds": [
+        "sport-tennis"
+      ],
+      "lifecycleStatus": "current",
+      "reason": "placeholder-only",
+      "rawSrc": "/images/catalog/fallbacks/accessory.svg"
+    },
+    {
+      "productId": "prod-assault-runner-elite",
+      "slug": "assaultrunner-elite",
+      "fullName": "Assault Fitness AssaultRunner Elite",
+      "brandId": "brand-assault",
+      "brandName": "Assault Fitness",
+      "categoryId": "cat-treadmills",
+      "categoryName": "Treadmills",
+      "categorySlug": "treadmills",
+      "sportIds": [
+        "sport-training",
+        "sport-hyrox",
+        "sport-running"
+      ],
+      "lifecycleStatus": "current",
+      "reason": "placeholder-only",
+      "rawSrc": "/images/catalog/fallbacks/accessory.svg"
+    },
+    {
+      "productId": "prod-assault-runner",
+      "slug": "assaultrunner-pro",
+      "fullName": "Assault Fitness AssaultRunner Pro",
+      "brandId": "brand-assault",
+      "brandName": "Assault Fitness",
+      "categoryId": "cat-treadmills",
+      "categoryName": "Treadmills",
+      "categorySlug": "treadmills",
+      "sportIds": [
+        "sport-training",
+        "sport-hyrox",
+        "sport-running"
+      ],
+      "lifecycleStatus": "current",
+      "reason": "placeholder-only",
+      "rawSrc": "/images/catalog/fallbacks/accessory.svg"
+    },
+    {
+      "productId": "prod-horizon-t202",
+      "slug": "horizon-t202-treadmill",
+      "fullName": "Horizon Fitness T202 Treadmill",
+      "brandId": "brand-horizon",
+      "brandName": "Horizon Fitness",
+      "categoryId": "cat-treadmills",
+      "categoryName": "Treadmills",
+      "categorySlug": "treadmills",
+      "sportIds": [
+        "sport-training",
+        "sport-hyrox"
+      ],
+      "lifecycleStatus": "current",
+      "reason": "placeholder-only",
+      "rawSrc": "/images/catalog/fallbacks/accessory.svg"
+    },
+    {
+      "productId": "prod-mirafit-treadmill",
+      "slug": "mirafit-folding-treadmill",
+      "fullName": "Mirafit Folding Treadmill",
+      "brandId": "brand-mirafit",
+      "brandName": "Mirafit",
+      "categoryId": "cat-treadmills",
+      "categoryName": "Treadmills",
+      "categorySlug": "treadmills",
+      "sportIds": [
+        "sport-training",
+        "sport-hyrox",
+        "sport-running"
+      ],
+      "lifecycleStatus": "current",
+      "reason": "placeholder-only",
+      "rawSrc": "/images/catalog/fallbacks/accessory.svg"
+    },
+    {
+      "productId": "prod-sole-f80",
+      "slug": "sole-f80-treadmill",
+      "fullName": "Sole F80 Treadmill",
+      "brandId": "brand-sole",
+      "brandName": "Sole Fitness",
+      "categoryId": "cat-treadmills",
+      "categoryName": "Treadmills",
+      "categorySlug": "treadmills",
+      "sportIds": [
+        "sport-training",
+        "sport-hyrox"
+      ],
+      "lifecycleStatus": "current",
+      "reason": "placeholder-only",
+      "rawSrc": "/images/catalog/fallbacks/accessory.svg"
+    },
+    {
+      "productId": "prod-woodway-curve",
+      "slug": "woodway-curve-trainer",
+      "fullName": "Woodway Curve Trainer",
+      "brandId": "brand-woodway",
+      "brandName": "Woodway",
+      "categoryId": "cat-treadmills",
+      "categoryName": "Treadmills",
+      "categorySlug": "treadmills",
+      "sportIds": [
+        "sport-training",
+        "sport-hyrox"
+      ],
+      "lifecycleStatus": "current",
+      "reason": "placeholder-only",
+      "rawSrc": "/images/catalog/fallbacks/accessory.svg"
+    },
+    {
+      "productId": "prod-gravity-weighted-vest",
+      "slug": "gravity-fitness-weighted-vest",
+      "fullName": "Gravity Fitness Weighted Vest",
+      "brandId": "brand-gravity-fitness",
+      "brandName": "Gravity Fitness",
+      "categoryId": "cat-weighted-vests",
+      "categoryName": "Weighted Vests",
+      "categorySlug": "weighted-vests",
+      "sportIds": [
+        "sport-training",
+        "sport-hyrox",
+        "sport-calisthenics"
+      ],
+      "lifecycleStatus": "current",
+      "reason": "placeholder-only",
+      "rawSrc": "/images/catalog/fallbacks/accessory.svg"
+    },
+    {
+      "productId": "prod-mirafit-vest",
+      "slug": "mirafit-weighted-vest",
+      "fullName": "Mirafit Weighted Vest",
+      "brandId": "brand-mirafit",
+      "brandName": "Mirafit",
+      "categoryId": "cat-weighted-vests",
+      "categoryName": "Weighted Vests",
+      "categorySlug": "weighted-vests",
+      "sportIds": [
+        "sport-training",
+        "sport-hyrox",
+        "sport-calisthenics"
+      ],
+      "lifecycleStatus": "current",
+      "reason": "placeholder-only",
+      "rawSrc": "/images/catalog/fallbacks/accessory.svg"
+    },
+    {
+      "productId": "prod-rogue-weighted-vest",
+      "slug": "rogue-plate-carrier-vest",
+      "fullName": "Rogue Weighted Vest / Plate Carrier",
+      "brandId": "brand-rogue",
+      "brandName": "Rogue",
+      "categoryId": "cat-weighted-vests",
+      "categoryName": "Weighted Vests",
+      "categorySlug": "weighted-vests",
+      "sportIds": [
+        "sport-training",
+        "sport-hyrox",
+        "sport-calisthenics"
+      ],
+      "lifecycleStatus": "current",
+      "reason": "placeholder-only",
+      "rawSrc": "/images/catalog/fallbacks/accessory.svg"
+    }
+  ]
+}

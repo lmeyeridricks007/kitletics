@@ -1,0 +1,49 @@
+---
+description: Review page images must be unique and of the product under review — never duplicate, never other brands. Generate missing section images for every review.
+alwaysApply: true
+---
+
+# Review section images
+
+## Hard rules
+
+1. **Every major review section gets a unique product image.** Do not leave Key specs / Tracking / Performance / Strengths / Trade-offs / Who it's for / Value / Fit (and shoe equivalents) blank when a hero exists.
+2. **One image → one use per review page.** Never reuse the same `src` on multiple sections of the same review.
+3. **Product only.** Every section image must show **that product** (or a clearly derived view of it). Never stock photos of other brands.
+4. **Section-specific.** Unique angles/crops/lighting/generated variants per topic. Do not stamp the hero on every section (including overview — prefer a dedicated `overview` file).
+5. **If you cannot provide a unique product image for a section, omit the image** — blank is better than a duplicate or a wrong brand.
+6. **Generate when missing (required for publish/refresh).** When the product has a hero but lacks section variants, generate unique section images **from that product hero** (pass the hero as a reference image) and save under:
+
+```text
+public/images/<sport>/products/<product-slug>/sections/<topic>.png
+```
+
+Sport folders: shoes/gear → `running`; GPS watches / HRMs → `watches`; racket → `padel`; fitness → `home`.
+
+### Topics by category
+
+**Shoes:** `overview`, `specs`, `fit`, `cushioning`, `ride`, `stability`, `upper`, `grip`, `durability`, `strengths`, `tradeoffs`, `performance`, `assessment`, `usecase`, `value`
+
+**GPS watches / HRMs:** `overview`, `specs`, `tech`, `performance`, `strengths`, `tradeoffs`, `usecase`, `value`, `fit` (plus `assessment` when that section exists)
+
+Example: `public/images/watches/products/garmin-forerunner-970/sections/tech.png`
+
+7. Resolver: `src/lib/review/resolve-section-visuals.ts` — product reviews prefer these files, then unused gallery extras, **never** recycle the hero across sections, never wrong-brand stock.
+
+Full review page bar: `.cursor/rules/review-page-standard.mdc` · agent: `agents/product-review/page-standard.md` · skill: `.cursor/skills/review-writer/SKILL.md`.
+
+## Agent / skill obligation
+
+On **write, rewrite, refresh, or audit** of any product review:
+
+1. List section topics the page will show.
+2. Check `public/images/<sport>/products/<slug>/sections/` for unique files.
+3. Generate any missing topics from the authentic hero (reference image) before calling the review done.
+4. Verify no `src` appears twice on the enriched page.
+
+## Do not
+
+- Pull random category/lifestyle shots that show a different brand’s shoe/racket/watch
+- Cycle the same hero with different captions and call that “unique”
+- Add decorative stock just to fill layout
+- Ship a watch/shoe review with only a hero and empty section columns

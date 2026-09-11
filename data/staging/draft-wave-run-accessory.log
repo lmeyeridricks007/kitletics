@@ -1,0 +1,90 @@
+OK prod-shokz-opendots-one → /images/headphones/products/shokz-opendots-one-hero.webp
+OK prod-apple-airpods-4 → /images/headphones/products/apple-airpods-4-hero.jpg
+FAIL prod-beats-powerbeats-pro-2 download 2 urls
+OK prod-beats-fit-pro → /images/headphones/products/beats-fit-pro-hero.jpg
+FAIL prod-sony-linkbuds-open no-remotes
+FAIL prod-jabra-elite-8-active download 1 urls
+FAIL prod-jabra-elite-10 no-remotes
+FAIL prod-soundcore-aerofit-2 download 1 urls
+FAIL prod-soundcore-sport-x20 no-remotes
+FAIL prod-huawei-freeclip download 1 urls
+FAIL prod-sony-linkbuds-fit no-remotes
+OK prod-petzl-nao-rl → /images/headlamps/products/petzl-nao-rl-hero.jpg
+OK prod-petzl-actik-core → /images/headlamps/products/petzl-actik-core-hero.jpg
+FAIL prod-petzl-iko-core download 2 urls
+OK prod-bd-distance-1500 → /images/headlamps/products/black-diamond-distance-1500-hero.jpg
+FAIL prod-bd-storm-500-r download 2 urls
+OK prod-biolite-headlamp-800 → /images/headlamps/products/biolite-headlamp-800-pro-hero.png
+FAIL prod-biolite-headlamp-425 download 1 urls
+FAIL prod-ledlenser-neo9r download 1 urls
+FAIL prod-ledlenser-neo5r no-remotes
+FAIL prod-silva-smini download 1 urls
+FAIL prod-fenix-hm65r-t download 1 urls
+FAIL prod-nitecore-nu25 download 1 urls
+FAIL prod-nitecore-nu43 no-remotes
+OK prod-balega-hidden-comfort → /images/running/accessories/balega-hidden-comfort-hero.jpg
+OK prod-swiftwick-aspire-four → /images/running/accessories/swiftwick-aspire-four-hero.jpg
+OK prod-drymax-run-lite-mesh → /images/running/accessories/drymax-run-lite-mesh-hero.jpg
+FAIL prod-bombas-performance-running-quarter download 1 urls
+FAIL prod-stance-run-crew download 2 urls
+FAIL prod-hilly-marathon-fresh download 1 urls
+FAIL prod-sockwell-compression-light download 1 urls
+FAIL prod-wrightsock-coolmesh-ii download 1 urls
+OK prod-theragun-pro → /images/running/accessories/therabody-theragun-pro-hero.png
+OK prod-hypervolt-2 → /images/running/accessories/hyperice-hypervolt-2-hero.png
+OK prod-normatec-3 → /images/running/accessories/hyperice-normatec-3-hero.png
+OK prod-hyperice-vyper-3 → /images/running/accessories/hyperice-vyper-3-hero.png
+OK prod-oofos-oolala → /images/running/accessories/oofos-oolala-hero.jpg
+OK prod-triggerpoint-grid-x → /images/running/accessories/triggerpoint-grid-x-hero.jpg
+FAIL prod-triggerpoint-grid download 1 urls
+FAIL prod-triggerpoint-grid-travel no-remotes
+FAIL prod-theragun-relief download 1 urls
+FAIL prod-therabody-recoveryair download 1 urls
+FAIL prod-hoka-ora-recovery-slide download 3 urls
+FAIL prod-oofos-oocandoo download 1 urls
+FAIL prod-cep-the-run-calf download 1 urls
+FAIL prod-compressport-r2 download 2 urls
+FAIL prod-cep-calf-sleeves download 2 urls
+FAIL prod-2xu-refresh-recovery download 1 urls
+FAIL prod-triggerpoint-mb1 no-remotes
+FAIL prod-triggerpoint-mbx no-remotes
+FAIL prod-triggerpoint-stp no-remotes
+FAIL prod-blackroll-pro download 1 urls
+FAIL prod-brazyn-morph download 1 urls
+FAIL prod-rumbleroller-original no-remotes
+FAIL prod-rad-atom no-remotes
+FAIL prod-renpho-r3 download 1 urls
+FAIL prod-opove-m3-pro no-remotes
+FAIL prod-timtam-power-massager-v3.7 no-remotes
+FAIL prod-the-stick download 1 urls
+OK prod-nathan-lightbender → /images/running/accessories/nathan-lightbender-rx-hero.jpg
+OK prod-proviz-reflect360-vest → /images/running/accessories/proviz-reflect360-running-vest-hero.jpg
+FAIL prod-amphipod-xinglet download 1 urls
+FAIL prod-amphipod-xinglet-optic-beam no-remotes
+FAIL prod-amphipod-vizlet no-remotes
+FAIL prod-knog-frog-v3 download 1 urls
+FAIL prod-knog-cobber-mid no-remotes
+FAIL prod-nathan-strobe download 1 urls
+FAIL prod-road-id-wrist download 1 urls
+FAIL prod-shes-birdie-alarm no-remotes
+FAIL prod-flipbelt-zippered-reflective download 1 urls
+FAIL prod-nightrunner-270 no-remotes
+FAIL prod-nite-ize-radiant-clip no-remotes
+FAIL prod-buff-coolnet-uv download 2 urls
+FAIL prod-buff-original download 2 urls
+FAIL prod-buff-merino-lightweight download 1 urls
+OK prod-buff-polar → /images/running/accessories/buff-polar-hero.jpg
+FAIL prod-body-glide-original download 2 urls
+FAIL prod-squirrels-nut-butter download 1 urls
+FAIL prod-2toms-sportshield no-remotes
+FAIL prod-compressport-armforce download 2 urls
+FAIL prod-amphipod-reflective-armband no-remotes
+FAIL prod-amphipod-airflow-armband no-remotes
+FAIL prod-dirty-girl-gaiters no-remotes
+FAIL prod-outdoor-research-ferrosi-gaiters download 1 urls
+
+=== SUMMARY ===
+OK 19
+FAIL 65
+OK_IDS prod-shokz-opendots-one, prod-apple-airpods-4, prod-beats-fit-pro, prod-petzl-nao-rl, prod-petzl-actik-core, prod-bd-distance-1500, prod-biolite-headlamp-800, prod-balega-hidden-comfort, prod-swiftwick-aspire-four, prod-drymax-run-lite-mesh, prod-theragun-pro, prod-hypervolt-2, prod-normatec-3, prod-hyperice-vyper-3, prod-oofos-oolala, prod-triggerpoint-grid-x, prod-nathan-lightbender, prod-proviz-reflect360-vest, prod-buff-polar
+FAIL_IDS prod-beats-powerbeats-pro-2, prod-sony-linkbuds-open, prod-jabra-elite-8-active, prod-jabra-elite-10, prod-soundcore-aerofit-2, prod-soundcore-sport-x20, prod-huawei-freeclip, prod-sony-linkbuds-fit, prod-petzl-iko-core, prod-bd-storm-500-r, prod-biolite-headlamp-425, prod-ledlenser-neo9r, prod-ledlenser-neo5r, prod-silva-smini, prod-fenix-hm65r-t, prod-nitecore-nu25, prod-nitecore-nu43, prod-bombas-performance-running-quarter, prod-stance-run-crew, prod-hilly-marathon-fresh, prod-sockwell-compression-light, prod-wrightsock-coolmesh-ii, prod-triggerpoint-grid, prod-triggerpoint-grid-travel, prod-theragun-relief, prod-therabody-recoveryair, prod-hoka-ora-recovery-slide, prod-oofos-oocandoo, prod-cep-the-run-calf, prod-compressport-r2, prod-cep-calf-sleeves, prod-2xu-refresh-recovery, prod-triggerpoint-mb1, prod-triggerpoint-mbx, prod-triggerpoint-stp, prod-blackroll-pro, prod-brazyn-morph, prod-rumbleroller-original, prod-rad-atom, prod-renpho-r3, prod-opove-m3-pro, prod-timtam-power-massager-v3.7, prod-the-stick, prod-amphipod-xinglet, prod-amphipod-xinglet-optic-beam, prod-amphipod-vizlet, prod-knog-frog-v3, prod-knog-cobber-mid, prod-nathan-strobe, prod-road-id-wrist, prod-shes-birdie-alarm, prod-flipbelt-zippered-reflective, prod-nightrunner-270, prod-nite-ize-radiant-clip, prod-buff-coolnet-uv, prod-buff-original, prod-buff-merino-lightweight, prod-body-glide-original, prod-squirrels-nut-butter, prod-2toms-sportshield, prod-compressport-armforce, prod-amphipod-reflective-armband, prod-amphipod-airflow-armband, prod-dirty-girl-gaiters, prod-outdoor-research-ferrosi-gaiters

@@ -1,0 +1,62 @@
+[
+  {
+    "productId": "prod-nike-dri-fit-miler-men",
+    "ok": true,
+    "src": "/images/running/accessories/nike-dri-fit-miler-men-hero.jpg",
+    "sourceUrl": "https://www.nike.com/t/miler-mens-dri-fit-short-sleeve-running-top-lgg8JQ/DV9315-345",
+    "bytes": 130697,
+    "licence": "manufacturer-marketing",
+    "attribution": "\u00a9 Nike \u2014 manufacturer product photography",
+    "source": "Nike manufacturer product photography"
+  },
+  {
+    "productId": "prod-darn-tough-run-1-4",
+    "ok": true,
+    "src": "/images/running/accessories/darn-tough-run-1-4-hero.png",
+    "sourceUrl": "https://darntough.com/products/mens-merino-wool-run-quarter-cushioned-ultra-lightweight-running-socks",
+    "bytes": 862375,
+    "licence": "manufacturer-marketing",
+    "attribution": "\u00a9 Brand \u2014 manufacturer product photography",
+    "source": "Manufacturer product photography"
+  },
+  {
+    "productId": "prod-balega-blister-resist",
+    "ok": true,
+    "src": "/images/running/accessories/balega-blister-resist-hero.jpg",
+    "sourceUrl": "https://balega.com/products/blister-resist-quarter",
+    "bytes": 358151,
+    "licence": "manufacturer-marketing",
+    "attribution": "\u00a9 Brand \u2014 manufacturer product photography",
+    "source": "Manufacturer product photography"
+  },
+  {
+    "productId": "prod-janji-pace-short-women",
+    "ok": true,
+    "src": "/images/running/accessories/janji-pace-short-women-hero.jpg",
+    "sourceUrl": "https://janji.com/products/ws-5-pace-short",
+    "bytes": 177437,
+    "licence": "manufacturer-marketing",
+    "attribution": "\u00a9 Brand \u2014 manufacturer product photography",
+    "source": "Manufacturer product photography"
+  },
+  {
+    "productId": "prod-janji-multi-short-men",
+    "ok": true,
+    "src": "/images/running/accessories/janji-multi-short-men-hero.jpg",
+    "sourceUrl": "https://janji.com/products/ms-7-multi-short-2-in-1",
+    "bytes": 283029,
+    "licence": "manufacturer-marketing",
+    "attribution": "\u00a9 Janji \u2014 manufacturer product photography",
+    "source": "Manufacturer product photography"
+  },
+  {
+    "productId": "prod-nike-aeroswift-singlet-men",
+    "ok": true,
+    "src": "/images/running/accessories/nike-aeroswift-singlet-men-hero.jpg",
+    "sourceUrl": "https://www.nike.com/t/aeroswift-mens-dri-fit-adv-running-singlet-ZM7g2N/FN4231-010",
+    "bytes": 180350,
+    "licence": "manufacturer-marketing",
+    "attribution": "\u00a9 Nike \u2014 manufacturer product photography",
+    "source": "Nike manufacturer product photography"
+  }
+]

@@ -1,0 +1,176 @@
+{
+  "routes": [
+    {
+      "path": "/",
+      "err": false,
+      "navMs": 1818,
+      "jsKB": 145,
+      "imgKB": 98,
+      "totalKB": 403,
+      "fcp": 480,
+      "axeSerious": 0
+    },
+    {
+      "path": "/running",
+      "err": false,
+      "navMs": 1364,
+      "jsKB": 145,
+      "imgKB": 112,
+      "totalKB": 527,
+      "fcp": 608,
+      "axeSerious": 0
+    },
+    {
+      "path": "/running/shoes",
+      "err": false,
+      "navMs": 1968,
+      "jsKB": 156,
+      "imgKB": 86,
+      "totalKB": 373,
+      "fcp": 1320,
+      "axeSerious": 0
+    },
+    {
+      "path": "/running/shoes/daily-trainers",
+      "err": false,
+      "navMs": 1546,
+      "jsKB": 153,
+      "imgKB": 6198,
+      "totalKB": 6478,
+      "fcp": 924,
+      "axeSerious": 0
+    },
+    {
+      "path": "/products/nike-vomero-18",
+      "err": false,
+      "navMs": 1506,
+      "jsKB": 148,
+      "imgKB": 0,
+      "totalKB": 271,
+      "fcp": 872,
+      "axeSerious": 0
+    },
+    {
+      "path": "/reviews/nike-vomero-18",
+      "err": false,
+      "navMs": 5352,
+      "jsKB": 144,
+      "imgKB": 6,
+      "totalKB": 314,
+      "fcp": 4456,
+      "axeSerious": 0
+    },
+    {
+      "path": "/best/running-shoes",
+      "err": false,
+      "navMs": 3089,
+      "jsKB": 146,
+      "imgKB": 18,
+      "totalKB": 293,
+      "fcp": 3080,
+      "axeSerious": 0
+    },
+    {
+      "path": "/guides/how-to-choose-running-shoes",
+      "err": false,
+      "navMs": 3606,
+      "jsKB": 146,
+      "imgKB": 49,
+      "totalKB": 319,
+      "fcp": 2072,
+      "axeSerious": 0
+    },
+    {
+      "path": "/brands/nike",
+      "err": true,
+      "navMs": null,
+      "jsKB": 0,
+      "imgKB": 0,
+      "totalKB": 0,
+      "fcp": null,
+      "axeSerious": null
+    },
+    {
+      "path": "/compare",
+      "err": true,
+      "navMs": null,
+      "jsKB": 0,
+      "imgKB": 0,
+      "totalKB": 0,
+      "fcp": null,
+      "axeSerious": null
+    },
+    {
+      "path": "/tools/running-shoe-finder",
+      "err": true,
+      "navMs": null,
+      "jsKB": 0,
+      "imgKB": 0,
+      "totalKB": 0,
+      "fcp": null,
+      "axeSerious": null
+    },
+    {
+      "path": "/tools/running-pace-calculator",
+      "err": true,
+      "navMs": null,
+      "jsKB": 0,
+      "imgKB": 0,
+      "totalKB": 0,
+      "fcp": null,
+      "axeSerious": null
+    },
+    {
+      "path": "/search",
+      "err": true,
+      "navMs": null,
+      "jsKB": 0,
+      "imgKB": 0,
+      "totalKB": 0,
+      "fcp": null,
+      "axeSerious": null
+    }
+  ],
+  "functional": [
+    {
+      "name": "search-page-loads",
+      "ok": false,
+      "error": "page.goto: net::ERR_CONNECTION_REFUSED at http://127.0.0.1:3010/search?q=vomero\nCall log:\n  - navigating to \"http://127.0.0.1:3010/search?q=vomero\", waiting until \"domcontentloaded\"\n"
+    },
+    {
+      "name": "running-shoes-filter-query",
+      "ok": false,
+      "error": "page.goto: net::ERR_CONNECTION_REFUSED at http://127.0.0.1:3010/running/shoes?gender=men\nCall log:\n  - navigating to \"http://127.0.0.1:3010/running/shoes?gender=men\", waiting until \"domcontentloaded\"\n"
+    },
+    {
+      "name": "running-shoes-sort",
+      "ok": false,
+      "error": "page.goto: net::ERR_CONNECTION_REFUSED at http://127.0.0.1:3010/running/shoes?sort=price-asc\nCall log:\n  - navigating to \"http://127.0.0.1:3010/running/shoes?sort=price-asc\", waiting until \"domcontentloaded\"\n"
+    },
+    {
+      "name": "compare-hub",
+      "ok": false,
+      "error": "page.goto: net::ERR_CONNECTION_REFUSED at http://127.0.0.1:3010/compare\nCall log:\n  - navigating to \"http://127.0.0.1:3010/compare\", waiting until \"domcontentloaded\"\n"
+    },
+    {
+      "name": "finder-start",
+      "ok": false,
+      "error": "page.goto: net::ERR_CONNECTION_REFUSED at http://127.0.0.1:3010/tools/running-shoe-finder\nCall log:\n  - navigating to \"http://127.0.0.1:3010/tools/running-shoe-finder\", waiting until \"domcontentloaded\"\n"
+    },
+    {
+      "name": "product-offers-section",
+      "ok": false,
+      "error": "page.goto: net::ERR_CONNECTION_REFUSED at http://127.0.0.1:3010/products/nike-vomero-18\nCall log:\n  - navigating to \"http://127.0.0.1:3010/products/nike-vomero-18\", waiting until \"domcontentloaded\"\n"
+    },
+    {
+      "name": "internal-nav-home-to-running",
+      "ok": false,
+      "error": "page.goto: net::ERR_CONNECTION_REFUSED at http://127.0.0.1:3010/\nCall log:\n  - navigating to \"http://127.0.0.1:3010/\", waiting until \"domcontentloaded\"\n"
+    },
+    {
+      "name": "men-women-on-pdp",
+      "ok": false,
+      "error": "page.goto: net::ERR_CONNECTION_REFUSED at http://127.0.0.1:3010/products/nike-vomero-18\nCall log:\n  - navigating to \"http://127.0.0.1:3010/products/nike-vomero-18\", waiting until \"domcontentloaded\"\n"
+    }
+  ]
+}

@@ -1,0 +1,128 @@
+{
+  "junkSource": [
+    "buff-merino-lightweight",
+    "buff-polar",
+    "new-balance-fuelcell-rebel-v4"
+  ],
+  "flagshipArticle": [
+    {
+      "slug": "nike-vomero-18",
+      "p0": [
+        null
+      ],
+      "p0n": 1,
+      "score": 88
+    },
+    {
+      "slug": "asics-novablast-6",
+      "p0": [
+        null
+      ],
+      "p0n": 1,
+      "score": 85
+    },
+    {
+      "slug": "brooks-glycerin-22",
+      "p0": [
+        null
+      ],
+      "p0n": 1,
+      "score": 85
+    },
+    {
+      "slug": "garmin-forerunner-970",
+      "p0": [
+        null
+      ],
+      "p0n": 1,
+      "score": 85
+    },
+    {
+      "slug": "hoka-clifton-10",
+      "p0": [
+        null
+      ],
+      "p0n": 1,
+      "score": 85
+    }
+  ],
+  "first15": [
+    "kiprun-900-race-5",
+    "kiprun-proteam-10",
+    "adidas-adizero-adios-pro-4",
+    "adidas-adizero-boston-12",
+    "adidas-adizero-boston-13",
+    "adidas-adizero-evo-sl",
+    "adidas-terrex-agravic-3",
+    "adidas-ultraboost-5",
+    "altra-escalante-4",
+    "altra-experience-flow",
+    "altra-lone-peak-8",
+    "altra-paradigm-7",
+    "altra-torin-8",
+    "asics-gel-cumulus-27",
+    "asics-gel-nimbus-27"
+  ],
+  "first15Indexable": [
+    {
+      "slug": "kiprun-900-race-5",
+      "indexable": true
+    },
+    {
+      "slug": "kiprun-proteam-10",
+      "indexable": true
+    },
+    {
+      "slug": "adidas-adizero-adios-pro-4",
+      "indexable": true
+    },
+    {
+      "slug": "adidas-adizero-boston-12",
+      "indexable": true
+    },
+    {
+      "slug": "adidas-adizero-boston-13",
+      "indexable": true
+    },
+    {
+      "slug": "adidas-adizero-evo-sl",
+      "indexable": true
+    },
+    {
+      "slug": "adidas-terrex-agravic-3",
+      "indexable": true
+    },
+    {
+      "slug": "adidas-ultraboost-5",
+      "indexable": true
+    },
+    {
+      "slug": "altra-escalante-4",
+      "indexable": true
+    },
+    {
+      "slug": "altra-experience-flow",
+      "indexable": true
+    },
+    {
+      "slug": "altra-lone-peak-8",
+      "indexable": true
+    },
+    {
+      "slug": "altra-paradigm-7",
+      "indexable": true
+    },
+    {
+      "slug": "altra-torin-8",
+      "indexable": true
+    },
+    {
+      "slug": "asics-gel-cumulus-27",
+      "indexable": true
+    },
+    {
+      "slug": "asics-gel-nimbus-27",
+      "indexable": true
+    }
+  ]
+}

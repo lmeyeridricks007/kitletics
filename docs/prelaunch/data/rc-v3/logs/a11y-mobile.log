@@ -1,0 +1,22 @@
+axe header violations=0 incomplete=1 color-contrast
+axe search violations=0 incomplete=0 
+390 /products/asics-novablast-6 overflow=false leak=0 carousels=6
+390 /products/nike-vomero-18 overflow=false leak=0 carousels=4
+390 /products/brooks-glycerin-22 overflow=false leak=0 carousels=4
+390 product overflow=false leak=0 fixed=4
+390 review overflow=false leak=0 fixed=4
+390 best overflow=false leak=0 fixed=13
+390 guide overflow=false leak=0 fixed=3
+390 finder overflow=false leak=0 fixed=0
+768 product overflow=false leak=0 fixed=4
+768 review overflow=false leak=0 fixed=4
+768 best overflow=false leak=0 fixed=13
+768 guide overflow=false leak=0 fixed=3
+768 finder overflow=false leak=0 fixed=0
+1440 product overflow=false leak=0 fixed=3
+1440 review overflow=false leak=0 fixed=4
+1440 best overflow=false leak=0 fixed=20
+1440 guide overflow=false leak=0 fixed=2
+1440 finder overflow=false leak=0 fixed=0
+wrote /Users/LMeyeridricks/Documents/coding/kitletics/docs/prelaunch/data/rc-v3/probe.json
+A11Y_EXIT:0

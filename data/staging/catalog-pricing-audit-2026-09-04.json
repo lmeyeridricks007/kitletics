@@ -1,0 +1,21 @@
+{
+  "generatedAt": "2026-09-04T18:32:23.642Z",
+  "region": "NL",
+  "totals": {
+    "published": 397,
+    "withOffers": 397,
+    "displayable": 397,
+    "missingOffers": 0,
+    "notDisplayable": 0,
+    "coveragePct": 100,
+    "displayablePct": 100,
+    "offerRows": 1293,
+    "freshness": {
+      "fresh": 1293,
+      "recent": 0,
+      "aging": 0,
+      "stale": 0
+    }
+  },
+  "gaps": []
+}

@@ -1,0 +1,1013 @@
+{
+  "meta": {
+    "auditId": "07-performance-technical",
+    "title": "Kitletics Pre-Launch Audit 07 — Performance, Accessibility & Technical Health",
+    "generatedAt": "2026-09-06T11:27:54.709Z",
+    "mode": "read-only-forensic",
+    "baseUrl": "http://127.0.0.1:3010",
+    "notes": [
+      "No performance optimizations applied during this audit.",
+      "Production build used temporary typescript.ignoreBuildErrors then reverted.",
+      "Lighthouse: mobile lab form factor. INP null in lab — not invented.",
+      "Playwright LCP often null without buffered LCP observer wait — use Lighthouse LCP where present.",
+      "Resource Timing transferSize can under/over-count cache; Lighthouse total-byte-weight preferred for page weight."
+    ]
+  },
+  "evidenceClasses": {
+    "MEASURED": [
+      "lint/typecheck/test/build exit codes and logs",
+      "Lighthouse mobile performance/accessibility on 8 routes",
+      "Playwright desktop Performance API FCP/TTFB/CLS + Resource Timing weights on 13+ routes",
+      "axe-core WCAG2 A/AA violations",
+      "responsive overflow checks at 390/768/1440",
+      "functional probes",
+      "console/page/network errors during lab crawl",
+      "response security headers from next start"
+    ],
+    "STATIC_ANALYSIS": [
+      "next build First Load JS route table",
+      "largest .next/static/chunks file sizes",
+      "client component file count (\"use client\")",
+      "font config in src/app/layout.tsx",
+      "AnalyticsScripts / NEXT_PUBLIC_GA gating",
+      "dangerouslySetInnerHTML usages",
+      "preview route presence",
+      "chunk 918 (~7.8MB) referenced by layout/best/compare/tools — catalog strings present"
+    ],
+    "NOT_MEASURABLE_LOCALLY": [
+      "Field INP / CrUX",
+      "Real-user CLS/LCP on production CDN",
+      "Affiliate network script payload when GA unset",
+      "Penetration testing / full secret scanning of all env stores"
+    ]
+  },
+  "qualityGates": {
+    "lint": {
+      "exitCode": 1,
+      "tail": "  10:3  warning  'SportHubPageData' is defined but never used  @typescript-eslint/no-unused-vars\n\n/Users/LMeyeridricks/Documents/coding/kitletics/src/content/running/best-guides.ts\n  10:7  warning  'watchCriteria' is assigned a value but never used  @typescript-eslint/no-unused-vars\n  12:7  warning  'hrmCriteria' is assigned a value but never used    @typescript-eslint/no-unused-vars\n  40:7  warning  'vestCriteria' is assigned a value but never used   @typescript-eslint/no-unused-vars\n\n/Users/LMeyeridricks/Documents/coding/kitletics/src/domain/builders/home-gym.ts\n  196:7  warning  'ROLE_CATEGORY' is assigned a value but never used  @typescript-eslint/no-unused-vars\n\n/Users/LMeyeridricks/Documents/coding/kitletics/src/domain/site-quality/fix-and-report.ts\n   5:10  warning  'issue' is defined but never used         @typescript-eslint/no-unused-vars\n  24:11  warning  'hit' is assigned a value but never used  @typescript-eslint/no-unused-vars\n\n/Users/LMeyeridricks/Documents/coding/kitletics/src/domain/site-quality/issues.ts\n  22:21  warning  '_drop' is assigned a value but never used  @typescript-eslint/no-unused-vars\n\n/Users/LMeyeridricks/Documents/coding/kitletics/src/lib/catalog/params.ts\n  165:7  error  'useCase' is never reassigned. Use 'const' instead  prefer-const\n\n/Users/LMeyeridricks/Documents/coding/kitletics/src/lib/guides/enrich-explainer-visuals.ts\n  753:24  warning  '_drop' is assigned a value but never used  @typescript-eslint/no-unused-vars\n\n/Users/LMeyeridricks/Documents/coding/kitletics/src/lib/review/review-longform.ts\n   360:37  warning  'key' is defined but never used       @typescript-eslint/no-unused-vars\n  1294:3   warning  '_topic' is defined but never used    @typescript-eslint/no-unused-vars\n  1295:3   warning  '_product' is defined but never used  @typescript-eslint/no-unused-vars\n  1296:3   warning  '_review' is defined but never used   @typescript-eslint/no-unused-vars\n\n/Users/LMeyeridricks/Documents/coding/kitletics/src/lib/setups/get-gear-setup-page-data.ts\n  11:3  warning  'BuyingGuide' is defined but never used  @typescript-eslint/no-unused-vars\n  12:3  warning  'BestGuide' is defined but never used    @typescript-eslint/no-unused-vars\n\n/Users/LMeyeridricks/Documents/coding/kitletics/src/repositories/commerce.ts\n  27:3  warning  'shouldDisplayNumericPrice' is defined but never used  @typescript-eslint/no-unused-vars\n\n✖ 64 problems (9 errors, 55 warnings)\n  2 errors and 0 warnings potentially fixable with the `--fix` option.\n\nEXIT:1",
+      "bytes": 9831,
+      "summary": "9 errors, 55 warnings"
+    },
+    "typecheck": {
+      "exitCode": 2,
+      "tail": "src/lib/best/normalize-best-guide.ts(74,7): error TS2322: Type '\"honorable-mention\"' is not assignable to type 'AwardType | undefined'.\nsrc/lib/guides/enrich-explainer-visuals.test.ts(142,9): error TS2353: Object literal may only specify known properties, and 'items' does not exist in type 'ExplainerMistakesBlock'.\nsrc/lib/guides/explainers/running-density-plans.ts(20,5): error TS2322: Type '\"Comparison\"' is not assignable to type '\"Buying Guide\" | \"Gear Guide\" | \"Explainer\" | undefined'.\nsrc/lib/guides/explainers/running-density-plans.ts(324,5): error TS2322: Type '\"Decision guide\"' is not assignable to type '\"Buying Guide\" | \"Gear Guide\" | \"Explainer\" | undefined'.\nsrc/lib/guides/explainers/running-density-plans.ts(407,5): error TS2322: Type '\"Comparison\"' is not assignable to type '\"Buying Guide\" | \"Gear Guide\" | \"Explainer\" | undefined'.\nsrc/lib/guides/explainers/running-density-plans.ts(670,5): error TS2322: Type '\"Decision guide\"' is not assignable to type '\"Buying Guide\" | \"Gear Guide\" | \"Explainer\" | undefined'.\nsrc/lib/guides/explainers/running-density-plans.ts(923,5): error TS2322: Type '\"Decision guide\"' is not assignable to type '\"Buying Guide\" | \"Gear Guide\" | \"Explainer\" | undefined'.\nsrc/lib/guides/explainers/running-density-plans.ts(1004,5): error TS2322: Type '\"Setup guide\"' is not assignable to type '\"Buying Guide\" | \"Gear Guide\" | \"Explainer\" | undefined'.\nsrc/lib/guides/explainers/running-density-plans.ts(1077,5): error TS2322: Type '\"Decision guide\"' is not assignable to type '\"Buying Guide\" | \"Gear Guide\" | \"Explainer\" | undefined'.\nsrc/lib/guides/explainers/running-density-plans.ts(1168,5): error TS2322: Type '\"Setup guide\"' is not assignable to type '\"Buying Guide\" | \"Gear Guide\" | \"Explainer\" | undefined'.\nsrc/lib/guides/explainers/running-density-plans.ts(1257,5): error TS2322: Type '\"Setup guide\"' is not assignable to type '\"Buying Guide\" | \"Gear Guide\" | \"Explainer\" | undefined'.\nsrc/lib/guides/explainers/running-density-plans.ts(1346,5): error TS2322: Type '\"Setup guide\"' is not assignable to type '\"Buying Guide\" | \"Gear Guide\" | \"Explainer\" | undefined'.\nsrc/lib/guides/explainers/running-density-plans.ts(1437,5): error TS2322: Type '\"Decision guide\"' is not assignable to type '\"Buying Guide\" | \"Gear Guide\" | \"Explainer\" | undefined'.\nsrc/lib/home/get-homepage-data.ts(275,61): error TS18048: 'g' is possibly 'undefined'.\ntests/hero-download.test.ts(33,9): error TS2353: Object literal may only specify known properties, and 'excludeSrc' does not exist in type '{ root?: string | undefined; label?: string | undefined; }'.\ntests/hero-download.test.ts(42,9): error TS2353: Object literal may only specify known properties, and 'excludeSrc' does not exist in type '{ root?: string | undefined; label?: string | undefined; }'.\nEXIT:2",
+      "bytes": 2800,
+      "errorCountApprox": 16
+    },
+    "tests": {
+      "exitCode": 1,
+      "tail": "⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[8/10]⎯\n\n FAIL  tests/search-discovery.test.ts > search discovery page > exposes contextual feature facets for running shoes\nAssertionError: expected undefined to be 'cat-running-shoes' // Object.is equality\n\n- Expected:\n\"cat-running-shoes\"\n\n+ Received:\nundefined\n\n ❯ tests/search-discovery.test.ts:96:37\n     94|       preview: false,\n     95|     });\n     96|     expect(data.dominantCategoryId).toBe(\"cat-running-shoes\");\n       |                                     ^\n     97|     expect(data.featureFacets.some((f) => f.value === \"carbon-plate\"))…\n     98|       true,\n\n⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[9/10]⎯\n\n FAIL  tests/search-discovery.test.ts > search discovery page > filters products by feature without removing guides/tools\nAssertionError: expected 83 to be less than 80\n ❯ tests/search-discovery.test.ts:115:29\n    113|     const products = data.groups.find((g) => g.key === \"product\");\n    114|     expect(products?.total).toBeGreaterThan(0);\n    115|     expect(products!.total).toBeLessThan(80);\n       |                             ^\n    116|     expect(data.groups.some((g) => g.key === \"guide\" || g.key === \"too…\n    117|       true,\n\n⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[10/10]⎯\n\n\n Test Files  9 failed | 38 passed (47)\n      Tests  10 failed | 492 passed (502)\n   Start at  13:11:53\n   Duration  51.73s (transform 51.39s, setup 0ms, import 111.29s, tests 136.19s, environment 7ms)\n\nEXIT:1",
+      "bytes": 14144,
+      "filesFailed": 9,
+      "filesPassed": 38,
+      "testsFailed": 10,
+      "testsPassed": 492
+    },
+    "productionBuild": {
+      "exitCode": 0,
+      "command": "next build --no-lint (typescript.ignoreBuildErrors temporary)",
+      "buildId": "hQGZdtSRJeCXvxnzmMlNc",
+      "note": "Build succeeded with ignoreBuildErrors; typecheck independently fails",
+      "largestFirstLoadJS": [
+        {
+          "route": "/tools/[slug]",
+          "firstLoadJS": "1.15 MB"
+        },
+        {
+          "route": "/compare",
+          "firstLoadJS": "1.12 MB"
+        },
+        {
+          "route": "/best/[slug]",
+          "firstLoadJS": "1.09 MB"
+        },
+        {
+          "route": "/[sport]/[segment]",
+          "firstLoadJS": "154 kB"
+        },
+        {
+          "route": "shared by all",
+          "firstLoadJS": "102 kB"
+        }
+      ],
+      "largestChunkFiles": [
+        {
+          "file": ".next/static/chunks/918-2dac4e39bc6eee25.js",
+          "size": "7.8M",
+          "consumers": [
+            "/layout",
+            "/tools/[slug]",
+            "/best/[slug]",
+            "/compare"
+          ]
+        },
+        {
+          "file": ".next/static/chunks/1219-*.js",
+          "size": "229K"
+        },
+        {
+          "file": ".next/static/chunks/framework-*.js",
+          "size": "178K"
+        }
+      ]
+    }
+  },
+  "routeTable": [
+    {
+      "route": "/",
+      "pageType": "Homepage",
+      "status": 200,
+      "source": {
+        "lighthouseMobile": {
+          "performanceScore": 59,
+          "accessibilityScore": 93,
+          "LCP_ms": 75994,
+          "CLS": 0,
+          "FCP_ms": 1247,
+          "TTFB_ms": 449,
+          "TBT_ms": 446,
+          "SI_ms": 5549,
+          "INP_ms": null,
+          "totalByteWeight": 28829644,
+          "a11yFailures": [
+            {
+              "id": "aria-hidden-focus",
+              "title": "`[aria-hidden=\"true\"]` elements contain focusable descendents",
+              "nodes": 1
+            },
+            {
+              "id": "color-contrast",
+              "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+              "nodes": 15
+            }
+          ]
+        },
+        "playwrightDesktop": {
+          "LCP_ms": null,
+          "CLS": 0,
+          "FCP_ms": 360,
+          "TTFB_ms": 189,
+          "jsBytes": 1148983,
+          "imageBytes": 28483337,
+          "totalBytes": 29752921,
+          "jsKB": 1122,
+          "imageKB": 27816,
+          "totalKB": 29056,
+          "axeViolations": 1,
+          "axeSeriousOrCritical": 1,
+          "h1Count": 1,
+          "overflowX": false,
+          "consoleErrors": 0,
+          "pageErrors": 0,
+          "failedRequests": 18,
+          "responses404": 0,
+          "thirdPartyHosts": []
+        }
+      },
+      "issues": [
+        "LH LCP 75994ms",
+        "LH weight 28154KB",
+        "axe serious/critical 1"
+      ]
+    },
+    {
+      "route": "/running",
+      "pageType": "Running Hub",
+      "status": 200,
+      "source": {
+        "lighthouseMobile": {
+          "performanceScore": 54,
+          "accessibilityScore": 93,
+          "LCP_ms": 5610,
+          "CLS": 0.04608986179537566,
+          "FCP_ms": 1513,
+          "TTFB_ms": 2393,
+          "TBT_ms": 733,
+          "SI_ms": 6943,
+          "INP_ms": null,
+          "totalByteWeight": 20426407,
+          "a11yFailures": [
+            {
+              "id": "aria-hidden-focus",
+              "title": "`[aria-hidden=\"true\"]` elements contain focusable descendents",
+              "nodes": 1
+            },
+            {
+              "id": "color-contrast",
+              "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+              "nodes": 23
+            }
+          ]
+        },
+        "playwrightDesktop": {
+          "LCP_ms": null,
+          "CLS": 0,
+          "FCP_ms": 496,
+          "TTFB_ms": 258,
+          "jsBytes": 1148507,
+          "imageBytes": 19086127,
+          "totalBytes": 20358484,
+          "jsKB": 1122,
+          "imageKB": 18639,
+          "totalKB": 19881,
+          "axeViolations": 1,
+          "axeSeriousOrCritical": 1,
+          "h1Count": 1,
+          "overflowX": false,
+          "consoleErrors": 0,
+          "pageErrors": 0,
+          "failedRequests": 25,
+          "responses404": 0,
+          "thirdPartyHosts": []
+        }
+      },
+      "issues": [
+        "LH LCP 5610ms",
+        "LH weight 19948KB",
+        "axe serious/critical 1"
+      ]
+    },
+    {
+      "route": "/running/shoes",
+      "pageType": "Running Shoes",
+      "status": 200,
+      "source": {
+        "lighthouseMobile": {
+          "performanceScore": 48,
+          "accessibilityScore": 93,
+          "LCP_ms": 56375,
+          "CLS": 0.04608986179537566,
+          "FCP_ms": 1550,
+          "TTFB_ms": 1727,
+          "TBT_ms": 859,
+          "SI_ms": 6284,
+          "INP_ms": null,
+          "totalByteWeight": 48682750,
+          "a11yFailures": [
+            {
+              "id": "aria-hidden-focus",
+              "title": "`[aria-hidden=\"true\"]` elements contain focusable descendents",
+              "nodes": 1
+            },
+            {
+              "id": "color-contrast",
+              "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+              "nodes": 175
+            }
+          ]
+        },
+        "playwrightDesktop": {
+          "LCP_ms": null,
+          "CLS": 0,
+          "FCP_ms": 1256,
+          "TTFB_ms": 793,
+          "jsBytes": 1158985,
+          "imageBytes": 47289431,
+          "totalBytes": 48572263,
+          "jsKB": 1132,
+          "imageKB": 46181,
+          "totalKB": 47434,
+          "axeViolations": 1,
+          "axeSeriousOrCritical": 1,
+          "h1Count": 1,
+          "overflowX": false,
+          "consoleErrors": 0,
+          "pageErrors": 0,
+          "failedRequests": 25,
+          "responses404": 0,
+          "thirdPartyHosts": []
+        }
+      },
+      "issues": [
+        "LH LCP 56375ms",
+        "LH weight 47542KB",
+        "axe serious/critical 1"
+      ]
+    },
+    {
+      "route": "/running/shoes/daily-trainers",
+      "pageType": "Running subcategory",
+      "status": 404,
+      "source": {
+        "lighthouseMobile": null,
+        "playwrightDesktop": {
+          "LCP_ms": null,
+          "CLS": 0,
+          "FCP_ms": 1204,
+          "TTFB_ms": 384,
+          "jsBytes": 1156280,
+          "imageBytes": 0,
+          "totalBytes": 1276831,
+          "jsKB": 1129,
+          "imageKB": 0,
+          "totalKB": 1247,
+          "axeViolations": 0,
+          "axeSeriousOrCritical": 0,
+          "h1Count": 1,
+          "overflowX": false,
+          "consoleErrors": 1,
+          "pageErrors": 0,
+          "failedRequests": 18,
+          "responses404": 1,
+          "thirdPartyHosts": []
+        }
+      },
+      "issues": [
+        "HTTP 404"
+      ]
+    },
+    {
+      "route": "/products/nike-vomero-18",
+      "pageType": "Product Detail",
+      "status": 200,
+      "source": {
+        "lighthouseMobile": {
+          "performanceScore": 76,
+          "accessibilityScore": 90,
+          "LCP_ms": 3825,
+          "CLS": 0,
+          "FCP_ms": 1425,
+          "TTFB_ms": 1307,
+          "TBT_ms": 478,
+          "SI_ms": 2891,
+          "INP_ms": null,
+          "totalByteWeight": 7883159,
+          "a11yFailures": [
+            {
+              "id": "aria-hidden-focus",
+              "title": "`[aria-hidden=\"true\"]` elements contain focusable descendents",
+              "nodes": 1
+            },
+            {
+              "id": "color-contrast",
+              "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+              "nodes": 34
+            },
+            {
+              "id": "link-in-text-block",
+              "title": "Links rely on color to be distinguishable.",
+              "nodes": 1
+            }
+          ]
+        },
+        "playwrightDesktop": {
+          "LCP_ms": null,
+          "CLS": 0,
+          "FCP_ms": 548,
+          "TTFB_ms": 388,
+          "jsBytes": 1151524,
+          "imageBytes": 6550460,
+          "totalBytes": 7820310,
+          "jsKB": 1125,
+          "imageKB": 6397,
+          "totalKB": 7637,
+          "axeViolations": 2,
+          "axeSeriousOrCritical": 2,
+          "h1Count": 1,
+          "overflowX": false,
+          "consoleErrors": 0,
+          "pageErrors": 0,
+          "failedRequests": 13,
+          "responses404": 0,
+          "thirdPartyHosts": []
+        }
+      },
+      "issues": [
+        "LH weight 7698KB",
+        "axe serious/critical 2"
+      ]
+    },
+    {
+      "route": "/reviews/nike-vomero-18",
+      "pageType": "Review",
+      "status": 200,
+      "source": {
+        "lighthouseMobile": {
+          "performanceScore": 72,
+          "accessibilityScore": 89,
+          "LCP_ms": 3589,
+          "CLS": 0,
+          "FCP_ms": 1546,
+          "TTFB_ms": 1757,
+          "TBT_ms": 599,
+          "SI_ms": 4311,
+          "INP_ms": null,
+          "totalByteWeight": 1493229,
+          "a11yFailures": [
+            {
+              "id": "aria-hidden-focus",
+              "title": "`[aria-hidden=\"true\"]` elements contain focusable descendents",
+              "nodes": 1
+            },
+            {
+              "id": "color-contrast",
+              "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+              "nodes": 55
+            },
+            {
+              "id": "link-in-text-block",
+              "title": "Links rely on color to be distinguishable.",
+              "nodes": 1
+            }
+          ]
+        },
+        "playwrightDesktop": {
+          "LCP_ms": null,
+          "CLS": 0,
+          "FCP_ms": 1408,
+          "TTFB_ms": 972,
+          "jsBytes": 1147145,
+          "imageBytes": 10742,
+          "totalBytes": 1388584,
+          "jsKB": 1120,
+          "imageKB": 10,
+          "totalKB": 1356,
+          "axeViolations": 2,
+          "axeSeriousOrCritical": 2,
+          "h1Count": 1,
+          "overflowX": false,
+          "consoleErrors": 0,
+          "pageErrors": 0,
+          "failedRequests": 18,
+          "responses404": 0,
+          "thirdPartyHosts": []
+        }
+      },
+      "issues": [
+        "axe serious/critical 2"
+      ]
+    },
+    {
+      "route": "/best/running-shoes",
+      "pageType": "Best Guide",
+      "status": 200,
+      "source": {
+        "lighthouseMobile": {
+          "performanceScore": 67,
+          "accessibilityScore": 89,
+          "LCP_ms": 3627,
+          "CLS": 0,
+          "FCP_ms": 1718,
+          "TTFB_ms": 2092,
+          "TBT_ms": 906,
+          "SI_ms": 3999,
+          "INP_ms": null,
+          "totalByteWeight": 1484688,
+          "a11yFailures": [
+            {
+              "id": "aria-hidden-focus",
+              "title": "`[aria-hidden=\"true\"]` elements contain focusable descendents",
+              "nodes": 1
+            },
+            {
+              "id": "color-contrast",
+              "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+              "nodes": 47
+            },
+            {
+              "id": "link-in-text-block",
+              "title": "Links rely on color to be distinguishable.",
+              "nodes": 2
+            }
+          ]
+        },
+        "playwrightDesktop": {
+          "LCP_ms": null,
+          "CLS": 0,
+          "FCP_ms": 1600,
+          "TTFB_ms": 1478,
+          "jsBytes": 1149207,
+          "imageBytes": 45218,
+          "totalBytes": 1351560,
+          "jsKB": 1122,
+          "imageKB": 44,
+          "totalKB": 1320,
+          "axeViolations": 2,
+          "axeSeriousOrCritical": 2,
+          "h1Count": 1,
+          "overflowX": false,
+          "consoleErrors": 0,
+          "pageErrors": 0,
+          "failedRequests": 17,
+          "responses404": 0,
+          "thirdPartyHosts": []
+        }
+      },
+      "issues": [
+        "axe serious/critical 2"
+      ]
+    },
+    {
+      "route": "/guides/how-to-choose-running-shoes",
+      "pageType": "Long Guide",
+      "status": 200,
+      "source": {
+        "lighthouseMobile": null,
+        "playwrightDesktop": {
+          "LCP_ms": null,
+          "CLS": 0,
+          "FCP_ms": 888,
+          "TTFB_ms": 747,
+          "jsBytes": 1150037,
+          "imageBytes": 93282,
+          "totalBytes": 1383243,
+          "jsKB": 1123,
+          "imageKB": 91,
+          "totalKB": 1351,
+          "axeViolations": 1,
+          "axeSeriousOrCritical": 1,
+          "h1Count": 1,
+          "overflowX": false,
+          "consoleErrors": 0,
+          "pageErrors": 0,
+          "failedRequests": 14,
+          "responses404": 0,
+          "thirdPartyHosts": []
+        }
+      },
+      "issues": [
+        "axe serious/critical 1"
+      ]
+    },
+    {
+      "route": "/brands/nike",
+      "pageType": "Brand Hub",
+      "status": 200,
+      "source": {
+        "lighthouseMobile": null,
+        "playwrightDesktop": {
+          "LCP_ms": null,
+          "CLS": 0,
+          "FCP_ms": 3688,
+          "TTFB_ms": 3506,
+          "jsBytes": 1144911,
+          "imageBytes": 9119460,
+          "totalBytes": 10385956,
+          "jsKB": 1118,
+          "imageKB": 8906,
+          "totalKB": 10143,
+          "axeViolations": 1,
+          "axeSeriousOrCritical": 1,
+          "h1Count": 1,
+          "overflowX": false,
+          "consoleErrors": 0,
+          "pageErrors": 0,
+          "failedRequests": 20,
+          "responses404": 0,
+          "thirdPartyHosts": []
+        }
+      },
+      "issues": [
+        "axe serious/critical 1"
+      ]
+    },
+    {
+      "route": "/compare",
+      "pageType": "Compare",
+      "status": 200,
+      "source": {
+        "lighthouseMobile": {
+          "performanceScore": 75,
+          "accessibilityScore": 91,
+          "LCP_ms": 3223,
+          "CLS": 0,
+          "FCP_ms": 1524,
+          "TTFB_ms": 338,
+          "TBT_ms": 743,
+          "SI_ms": 1524,
+          "INP_ms": null,
+          "totalByteWeight": 1401516,
+          "a11yFailures": [
+            {
+              "id": "aria-hidden-focus",
+              "title": "`[aria-hidden=\"true\"]` elements contain focusable descendents",
+              "nodes": 1
+            },
+            {
+              "id": "color-contrast",
+              "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+              "nodes": 6
+            }
+          ]
+        },
+        "playwrightDesktop": {
+          "LCP_ms": null,
+          "CLS": 0,
+          "FCP_ms": 252,
+          "TTFB_ms": 180,
+          "jsBytes": 1172579,
+          "imageBytes": 0,
+          "totalBytes": 1293577,
+          "jsKB": 1145,
+          "imageKB": 0,
+          "totalKB": 1263,
+          "axeViolations": 2,
+          "axeSeriousOrCritical": 2,
+          "h1Count": 1,
+          "overflowX": false,
+          "consoleErrors": 0,
+          "pageErrors": 0,
+          "failedRequests": 19,
+          "responses404": 0,
+          "thirdPartyHosts": []
+        }
+      },
+      "issues": [
+        "axe serious/critical 2"
+      ]
+    },
+    {
+      "route": "/tools/running-shoe-finder",
+      "pageType": "Finder",
+      "status": 200,
+      "source": {
+        "lighthouseMobile": null,
+        "playwrightDesktop": {
+          "LCP_ms": null,
+          "CLS": 0,
+          "FCP_ms": 224,
+          "TTFB_ms": 152,
+          "jsBytes": 1208142,
+          "imageBytes": 4370,
+          "totalBytes": 1337328,
+          "jsKB": 1180,
+          "imageKB": 4,
+          "totalKB": 1306,
+          "axeViolations": 1,
+          "axeSeriousOrCritical": 1,
+          "h1Count": 1,
+          "overflowX": false,
+          "consoleErrors": 0,
+          "pageErrors": 0,
+          "failedRequests": 24,
+          "responses404": 0,
+          "thirdPartyHosts": []
+        }
+      },
+      "issues": [
+        "axe serious/critical 1"
+      ]
+    },
+    {
+      "route": "/tools/pace-calculator",
+      "pageType": "Calculator",
+      "status": 404,
+      "source": {
+        "lighthouseMobile": null,
+        "playwrightDesktop": {
+          "LCP_ms": null,
+          "CLS": 0,
+          "FCP_ms": 652,
+          "TTFB_ms": 160,
+          "jsBytes": 1208142,
+          "imageBytes": 0,
+          "totalBytes": 1332172,
+          "jsKB": 1180,
+          "imageKB": 0,
+          "totalKB": 1301,
+          "axeViolations": 1,
+          "axeSeriousOrCritical": 1,
+          "h1Count": 1,
+          "overflowX": false,
+          "consoleErrors": 1,
+          "pageErrors": 0,
+          "failedRequests": 26,
+          "responses404": 1,
+          "thirdPartyHosts": []
+        }
+      },
+      "issues": [
+        "HTTP 404",
+        "axe serious/critical 1"
+      ]
+    },
+    {
+      "route": "/search",
+      "pageType": "Search",
+      "status": 200,
+      "source": {
+        "lighthouseMobile": {
+          "performanceScore": 76,
+          "accessibilityScore": 90,
+          "LCP_ms": 2925,
+          "CLS": 0,
+          "FCP_ms": 1250,
+          "TTFB_ms": 617,
+          "TBT_ms": 785,
+          "SI_ms": 1607,
+          "INP_ms": null,
+          "totalByteWeight": 1294905,
+          "a11yFailures": [
+            {
+              "id": "aria-hidden-focus",
+              "title": "`[aria-hidden=\"true\"]` elements contain focusable descendents",
+              "nodes": 1
+            },
+            {
+              "id": "color-contrast",
+              "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+              "nodes": 6
+            },
+            {
+              "id": "heading-order",
+              "title": "Heading elements are not in a sequentially-descending order",
+              "nodes": 1
+            }
+          ]
+        },
+        "playwrightDesktop": {
+          "LCP_ms": null,
+          "CLS": 0,
+          "FCP_ms": 236,
+          "TTFB_ms": 160,
+          "jsBytes": 1147269,
+          "imageBytes": 0,
+          "totalBytes": 1271332,
+          "jsKB": 1120,
+          "imageKB": 0,
+          "totalKB": 1242,
+          "axeViolations": 1,
+          "axeSeriousOrCritical": 1,
+          "h1Count": 1,
+          "overflowX": false,
+          "consoleErrors": 0,
+          "pageErrors": 0,
+          "failedRequests": 26,
+          "responses404": 0,
+          "thirdPartyHosts": []
+        }
+      },
+      "issues": [
+        "axe serious/critical 1"
+      ]
+    },
+    {
+      "route": "/tools/running-pace-calculator",
+      "pageType": "Calculator",
+      "status": 200,
+      "source": {
+        "lighthouseMobile": null,
+        "playwrightDesktop": {
+          "LCP_ms": null,
+          "CLS": 0,
+          "FCP_ms": 576,
+          "TTFB_ms": 374,
+          "jsBytes": 1208142,
+          "imageBytes": 0,
+          "totalBytes": 1348414,
+          "jsKB": 1180,
+          "imageKB": 0,
+          "totalKB": 1317,
+          "axeViolations": 1,
+          "axeSeriousOrCritical": 1,
+          "h1Count": 1,
+          "overflowX": false
+        }
+      },
+      "issues": [
+        "axe serious/critical 1"
+      ],
+      "note": "Correct calculator slug (pace-calculator 404)"
+    },
+    {
+      "route": "/running/shoes?type=daily-trainers",
+      "pageType": "Running subcategory (query type=)",
+      "status": 200,
+      "source": {
+        "lighthouseMobile": null,
+        "playwrightDesktop": {
+          "LCP_ms": null,
+          "CLS": 0,
+          "FCP_ms": 684,
+          "TTFB_ms": 450,
+          "jsBytes": 1158985,
+          "imageBytes": 33739955,
+          "totalBytes": 35045700,
+          "jsKB": 1132,
+          "imageKB": 32949,
+          "totalKB": 34224,
+          "axeViolations": 1,
+          "axeSeriousOrCritical": 1,
+          "h1Count": 1,
+          "overflowX": false
+        }
+      },
+      "issues": [
+        "axe serious/critical 1"
+      ],
+      "note": "Subcategory via query param; path /running/shoes/daily-trainers is 404"
+    }
+  ],
+  "js": {
+    "clientComponentFiles": 81,
+    "heavyFirstLoadRoutes": [
+      "/tools/[slug]",
+      "/compare",
+      "/best/[slug]"
+    ],
+    "suspectedClientCatalogChunk": {
+      "file": "918-2dac4e39bc6eee25.js",
+      "sizeOnDisk": "7.8M",
+      "evidence": "Contains catalog strings like cat-running; pulled into layout + best + compare + tools"
+    },
+    "playwrightDesktopJsKB_typical": "~1100–1180 KB transfer observed across routes (includes shared + chunk 918)"
+  },
+  "images": {
+    "measured": {
+      "homeLH_totalBytes": 28829644,
+      "runningShoesLH_totalBytes": 48682750,
+      "note": "Listing pages transfer tens of MB of images (LH total-byte-weight)."
+    },
+    "static": {
+      "nextImagePriorityUsages": "present on review/best/finder cards (from prior audit static scan)",
+      "formats": "mostly jpg/png heroes; Next Image optimization path available in prod"
+    }
+  },
+  "fonts": {
+    "families": [
+      "Outfit (display)",
+      "DM Sans (body)"
+    ],
+    "weights": {
+      "Outfit": [
+        "500",
+        "600",
+        "700"
+      ],
+      "DM_Sans": [
+        "400",
+        "500",
+        "600",
+        "700"
+      ]
+    },
+    "loading": "next/font/google with CSS variables --font-display / --font-body",
+    "preload": "handled by next/font (automatic)",
+    "measuredBlocking": "NOT separately instrumented beyond Lighthouse FCP/LCP"
+  },
+  "thirdParty": {
+    "analytics": {
+      "component": "src/components/analytics/AnalyticsScripts.tsx",
+      "behavior": "GA4 loads only when NEXT_PUBLIC_GA_MEASUREMENT_ID set; consent default denied for ad/analytics storage",
+      "observedHostsInLab": []
+    },
+    "affiliateScripts": "No third-party affiliate pixels observed in lab resource hosts; /go redirect server-side",
+    "embeds": "None observed in representative routes"
+  },
+  "accessibility": {
+    "method": "axe-core via Playwright + Lighthouse accessibility category",
+    "commonViolations": {
+      "color-contrast": "serious — accent #c8f542 on white (~1.26:1) across many routes",
+      "aria-hidden-focus": "focusable descendants inside aria-hidden (often mobile drawer/theme)",
+      "link-in-text-block": "links distinguished by color only",
+      "button-name": "at least one unnamed button (responsive sample)",
+      "heading-order": "search page (Lighthouse)"
+    },
+    "structural": {
+      "landmarks": "main/nav/header/footer present on measured pages",
+      "h1": "single h1 on representative routes when 200"
+    }
+  },
+  "responsive": {
+    "viewports": [
+      "390x844",
+      "768x1024",
+      "1440x900"
+    ],
+    "issues": [
+      {
+        "path": "/",
+        "viewport": "mobile-390",
+        "overflowX": true,
+        "status": 200,
+        "axe": 2
+      }
+    ],
+    "notes": [
+      "Homepage horizontal overflow at 390px (docOverflowX=true)",
+      "Other sampled routes no overflow at 390/768",
+      "Men/Women: gender query works on /running/shoes?gender=men; PDP exposes gender-related UI text"
+    ]
+  },
+  "functional": [
+    {
+      "name": "search-page-loads",
+      "ok": true,
+      "detail": {
+        "status": 200,
+        "title": "Search · Kitletics"
+      }
+    },
+    {
+      "name": "running-shoes-filter-query",
+      "ok": true,
+      "detail": {
+        "status": 200,
+        "hasGenderParam": true,
+        "mentionsMenOrFilter": true
+      }
+    },
+    {
+      "name": "running-shoes-sort",
+      "ok": true,
+      "detail": {
+        "status": 200,
+        "url": "http://127.0.0.1:3010/running/shoes?sort=price-asc"
+      }
+    },
+    {
+      "name": "compare-hub",
+      "ok": true,
+      "detail": {
+        "status": 200,
+        "hasBuilderText": true
+      }
+    },
+    {
+      "name": "finder-start",
+      "ok": true,
+      "detail": {
+        "status": 200,
+        "title": "Running Shoe Finder: Find the Right Shoes for You | Kitletics · Kitletics"
+      }
+    },
+    {
+      "name": "product-offers-section",
+      "ok": true,
+      "detail": {
+        "status": 200,
+        "mentionsOfferOrBuy": true
+      }
+    },
+    {
+      "name": "internal-nav-home-to-running",
+      "ok": true,
+      "detail": {
+        "url": "http://127.0.0.1:3010/running"
+      }
+    },
+    {
+      "name": "men-women-on-pdp",
+      "ok": true,
+      "detail": {
+        "hasGenderUI": true
+      }
+    }
+  ],
+  "errors": {
+    "consoleErrorsSample": [
+      {
+        "path": "/running/shoes/daily-trainers",
+        "e": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+      },
+      {
+        "path": "/tools/pace-calculator",
+        "e": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+      }
+    ],
+    "pageErrorsSample": [],
+    "http404Representative": [
+      {
+        "path": "/running/shoes/daily-trainers",
+        "status": 404,
+        "note": "use /running/shoes?type=daily-trainers"
+      },
+      {
+        "path": "/tools/pace-calculator",
+        "status": 404,
+        "note": "use /tools/running-pace-calculator"
+      }
+    ],
+    "hydrationErrorsObserved": 0
+  },
+  "securityPrivacyBasics": {
+    "notPenetrationTest": true,
+    "headersObservedOnHome": [
+      "Strict-Transport-Security: max-age=63072000; includeSubDomains; preload",
+      "X-Content-Type-Options: nosniff",
+      "Referrer-Policy: strict-origin-when-cross-origin",
+      "X-Frame-Options: DENY",
+      "Permissions-Policy: camera=(), microphone=(), geolocation=()"
+    ],
+    "missingHeaders": [
+      "Content-Security-Policy"
+    ],
+    "setCookieOnHome": false,
+    "previewRoute": "/preview/products/[slug] exists (robots disallow /preview/ per prior audit)",
+    "dangerouslySetInnerHTML": [
+      "src/lib/seo/jsonld.tsx (JSON.stringify payload)",
+      "src/app/tools/page.tsx",
+      "src/app/setups/[slug]/page.tsx"
+    ],
+    "publicEnv": [
+      "NEXT_PUBLIC_GA_MEASUREMENT_ID (optional)",
+      "NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION",
+      "NEXT_PUBLIC_BING_SITE_VERIFICATION"
+    ]
+  },
+  "rawArtifacts": {
+    "routeLab": "/tmp/kitletics-audit07/route-lab.json",
+    "lighthouseDir": "/tmp/kitletics-audit07/lighthouse/",
+    "gates": "/tmp/kitletics-audit07/{lint,typecheck,test,build}.txt"
+  }
+}

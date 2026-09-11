@@ -1,0 +1,2192 @@
+{
+  "summary": {
+    "runningIndexable": 375,
+    "p1": 50,
+    "p1WithGalleryBefore": 8,
+    "p1WithGalleryAfter": 28,
+    "p1HeroOnlyAfter": 22,
+    "deepenedThisFix": 20,
+    "registryProducts": 43,
+    "registryExtras": 152,
+    "registryProductsBefore": 23,
+    "registryExtrasBefore": 92
+  },
+  "p1Rows": [
+    {
+      "productId": "prod-novablast-6",
+      "slug": "asics-novablast-6",
+      "brand": "ASICS",
+      "categorySlug": "running-shoes",
+      "score": 116.5,
+      "galleryBefore": 0,
+      "galleryAfter": 2,
+      "usages": [
+        "side",
+        "outsole"
+      ],
+      "provenance": [
+        {
+          "usageType": "side",
+          "sourceUrl": "https://images.asics.com/is/image/asics/1011C243_001_SL_LT_GLB?$sfcc-product$&wid=1200&hei=1200",
+          "licence": "manufacturer-marketing",
+          "source": "Manufacturer product CDN (ASICS Scene7)"
+        },
+        {
+          "usageType": "outsole",
+          "sourceUrl": "https://images.asics.com/is/image/asics/1011C243_001_SB_BT_GLB?$sfcc-product$&wid=1200&hei=1200",
+          "licence": "manufacturer-marketing",
+          "source": "Manufacturer product CDN (ASICS Scene7)"
+        }
+      ]
+    },
+    {
+      "productId": "prod-clifton-10",
+      "slug": "hoka-clifton-10",
+      "brand": "HOKA",
+      "categorySlug": "running-shoes",
+      "score": 113.4,
+      "galleryBefore": 0,
+      "galleryAfter": 0,
+      "usages": [],
+      "provenance": []
+    },
+    {
+      "productId": "prod-ghost-18",
+      "slug": "brooks-ghost-18",
+      "brand": "Brooks",
+      "categorySlug": "running-shoes",
+      "score": 94.3,
+      "galleryBefore": 0,
+      "galleryAfter": 0,
+      "usages": [],
+      "provenance": []
+    },
+    {
+      "productId": "prod-coros-pace-4",
+      "slug": "coros-pace-4",
+      "brand": "COROS",
+      "categorySlug": "gps-watches",
+      "score": 93.3,
+      "galleryBefore": 4,
+      "galleryAfter": 4,
+      "usages": [
+        "side",
+        "detail",
+        "rear",
+        "top"
+      ],
+      "provenance": [
+        {
+          "usageType": "side",
+          "sourceUrl": "https://cdn.shopify.com/s/files/1/1672/6075/files/PACE4B2.png?v=1773036292",
+          "licence": "manufacturer-marketing",
+          "source": "Manufacturer / authorized retailer product photography"
+        },
+        {
+          "usageType": "detail",
+          "sourceUrl": "https://cdn.shopify.com/s/files/1/1672/6075/files/PACE4W2.png?v=1773043666",
+          "licence": "manufacturer-marketing",
+          "source": "Manufacturer / authorized retailer product photography"
+        },
+        {
+          "usageType": "rear",
+          "sourceUrl": "https://cdn.shopify.com/s/files/1/1672/6075/files/PACE4BN2.png?v=1773043666",
+          "licence": "manufacturer-marketing",
+          "source": "Manufacturer / authorized retailer product photography"
+        },
+        {
+          "usageType": "top",
+          "sourceUrl": "https://cdn.shopify.com/s/files/1/1672/6075/files/Front_three-quarter_view_of_the_COROSPACE_4_White_watch_with_White_Nylon_Band.png?v=1773043666",
+          "licence": "manufacturer-marketing",
+          "source": "Manufacturer / authorized retailer product photography"
+        }
+      ]
+    },
+    {
+      "productId": "prod-adv-skin-12",
+      "slug": "salomon-adv-skin-12",
+      "brand": "Salomon",
+      "categorySlug": "running-packs-vests",
+      "score": 91.5,
+      "galleryBefore": 0,
+      "galleryAfter": 4,
+      "usages": [
+        "side",
+        "detail",
+        "rear",
+        "top"
+      ],
+      "provenance": [
+        {
+          "usageType": "side",
+          "sourceUrl": "https://img.runningwarehouse.com/watermark/rs.php?path=SADV129-BK-1.jpg",
+          "licence": "retailer-authorized",
+          "source": "Authorized retailer product photography (Running Warehouse)"
+        },
+        {
+          "usageType": "detail",
+          "sourceUrl": "https://img.runningwarehouse.com/watermark/rs.php?path=SADV129-BK-2.jpg",
+          "licence": "retailer-authorized",
+          "source": "Authorized retailer product photography (Running Warehouse)"
+        },
+        {
+          "usageType": "rear",
+          "sourceUrl": "https://img.runningwarehouse.com/watermark/rs.php?path=SADV129-BK-3.jpg",
+          "licence": "retailer-authorized",
+          "source": "Authorized retailer product photography (Running Warehouse)"
+        },
+        {
+          "usageType": "top",
+          "sourceUrl": "https://img.runningwarehouse.com/watermark/rs.php?path=SADV129-BK-4.jpg",
+          "licence": "retailer-authorized",
+          "source": "Authorized retailer product photography (Running Warehouse)"
+        }
+      ]
+    },
+    {
+      "productId": "prod-kayano-32",
+      "slug": "asics-gel-kayano-32",
+      "brand": "ASICS",
+      "categorySlug": "running-shoes",
+      "score": 89.35,
+      "galleryBefore": 0,
+      "galleryAfter": 2,
+      "usages": [
+        "side",
+        "outsole"
+      ],
+      "provenance": [
+        {
+          "usageType": "side",
+          "sourceUrl": "https://images.asics.com/is/image/asics/1011C052_001_SL_LT_GLB?$sfcc-product$&wid=1200&hei=1200",
+          "licence": "manufacturer-marketing",
+          "source": "Manufacturer product CDN (ASICS Scene7)"
+        },
+        {
+          "usageType": "outsole",
+          "sourceUrl": "https://images.asics.com/is/image/asics/1011C052_001_SB_BT_GLB?$sfcc-product$&wid=1200&hei=1200",
+          "licence": "manufacturer-marketing",
+          "source": "Manufacturer product CDN (ASICS Scene7)"
+        }
+      ]
+    },
+    {
+      "productId": "prod-nimbus-27",
+      "slug": "asics-gel-nimbus-27",
+      "brand": "ASICS",
+      "categorySlug": "running-shoes",
+      "score": 89.3,
+      "galleryBefore": 2,
+      "galleryAfter": 2,
+      "usages": [
+        "side",
+        "outsole"
+      ],
+      "provenance": [
+        {
+          "usageType": "side",
+          "sourceUrl": "https://images.asics.com/is/image/asics/1011B872_001_SL_LT_GLB?$sfcc-product$&wid=1200&hei=1200",
+          "licence": "manufacturer-marketing",
+          "source": "Manufacturer product CDN (ASICS Scene7)"
+        },
+        {
+          "usageType": "outsole",
+          "sourceUrl": "https://images.asics.com/is/image/asics/1011B872_001_SB_BT_GLB?$sfcc-product$&wid=1200&hei=1200",
+          "licence": "manufacturer-marketing",
+          "source": "Manufacturer product CDN (ASICS Scene7)"
+        }
+      ]
+    },
+    {
+      "productId": "prod-fenix-8",
+      "slug": "garmin-fenix-8",
+      "brand": "Garmin",
+      "categorySlug": "gps-watches",
+      "score": 86.6,
+      "galleryBefore": 8,
+      "galleryAfter": 8,
+      "usages": [
+        "detail",
+        "detail",
+        "detail",
+        "detail",
+        "detail",
+        "detail",
+        "detail",
+        "detail"
+      ],
+      "provenance": [
+        {
+          "usageType": "detail",
+          "sourceUrl": "https://res.garmin.com/en/products/010-02903-00/g/66911-1.jpg",
+          "licence": "manufacturer-marketing",
+          "source": "Manufacturer official product catalog (Garmin)"
+        },
+        {
+          "usageType": "detail",
+          "sourceUrl": "https://res.garmin.com/en/products/010-02903-00/g/66911-2.jpg",
+          "licence": "manufacturer-marketing",
+          "source": "Manufacturer official product catalog (Garmin)"
+        },
+        {
+          "usageType": "detail",
+          "sourceUrl": "https://res.garmin.com/en/products/010-02903-00/g/66911-3.jpg",
+          "licence": "manufacturer-marketing",
+          "source": "Manufacturer official product catalog (Garmin)"
+        },
+        {
+          "usageType": "detail",
+          "sourceUrl": "https://res.garmin.com/en/products/010-02903-00/g/66911-5.jpg",
+          "licence": "manufacturer-marketing",
+          "source": "Manufacturer official product catalog (Garmin)"
+        },
+        {
+          "usageType": "detail",
+          "sourceUrl": "https://res.garmin.com/en/products/010-02903-00/g/66911-6.jpg",
+          "licence": "manufacturer-marketing",
+          "source": "Manufacturer official product catalog (Garmin)"
+        },
+        {
+          "usageType": "detail",
+          "sourceUrl": "https://res.garmin.com/en/products/010-02904-00/g/66912-1.jpg",
+          "licence": "manufacturer-marketing",
+          "source": "Manufacturer official product catalog (Garmin)"
+        },
+        {
+          "usageType": "detail",
+          "sourceUrl": "https://res.garmin.com/en/products/010-02904-00/g/66912-2.jpg",
+          "licence": "manufacturer-marketing",
+          "source": "Manufacturer official product catalog (Garmin)"
+        },
+        {
+          "usageType": "detail",
+          "sourceUrl": "https://res.garmin.com/en/products/010-02904-00/g/66912-3.jpg",
+          "licence": "manufacturer-marketing",
+          "source": "Manufacturer official product catalog (Garmin)"
+        }
+      ]
+    },
+    {
+      "productId": "prod-patagonia-houdini-men",
+      "slug": "patagonia-houdini-men",
+      "brand": "Patagonia",
+      "categorySlug": "running-clothing",
+      "score": 85.55,
+      "galleryBefore": 0,
+      "galleryAfter": 4,
+      "usages": [
+        "side",
+        "detail",
+        "rear",
+        "top"
+      ],
+      "provenance": [
+        {
+          "usageType": "side",
+          "sourceUrl": "https://img.runningwarehouse.com/watermark/rs.php?path=PMCOHDJ-BK-1.jpg",
+          "licence": "retailer-authorized",
+          "source": "Authorized retailer product photography (Running Warehouse)"
+        },
+        {
+          "usageType": "detail",
+          "sourceUrl": "https://img.runningwarehouse.com/watermark/rs.php?path=PMCOHDJ-BK-2.jpg",
+          "licence": "retailer-authorized",
+          "source": "Authorized retailer product photography (Running Warehouse)"
+        },
+        {
+          "usageType": "rear",
+          "sourceUrl": "https://img.runningwarehouse.com/watermark/rs.php?path=PMCOHDJ-BK-3.jpg",
+          "licence": "retailer-authorized",
+          "source": "Authorized retailer product photography (Running Warehouse)"
+        },
+        {
+          "usageType": "top",
+          "sourceUrl": "https://img.runningwarehouse.com/watermark/rs.php?path=PMCOHDJ-BK-4.jpg",
+          "licence": "retailer-authorized",
+          "source": "Authorized retailer product photography (Running Warehouse)"
+        }
+      ]
+    },
+    {
+      "productId": "prod-adrenaline-gts-25",
+      "slug": "brooks-adrenaline-gts-25",
+      "brand": "Brooks",
+      "categorySlug": "running-shoes",
+      "score": 83.2,
+      "galleryBefore": 0,
+      "galleryAfter": 4,
+      "usages": [
+        "side",
+        "detail",
+        "rear",
+        "outsole"
+      ],
+      "provenance": [
+        {
+          "usageType": "side",
+          "sourceUrl": "https://cdn11.bigcommerce.com/s-i8lklasqiy/images/stencil/1280x1280/products/180295/229960/Brooks_110454-090-MEN_BlackWhite2__03518.1776954437.jpg",
+          "licence": "retailer-authorized",
+          "source": "Authorized retailer product photography (BigCommerce CDN)"
+        },
+        {
+          "usageType": "detail",
+          "sourceUrl": "https://cdn11.bigcommerce.com/s-i8lklasqiy/images/stencil/1280x1280/products/180295/229960/Brooks_110454-090-MEN_BlackWhite3__03518.1776954437.jpg",
+          "licence": "retailer-authorized",
+          "source": "Authorized retailer product photography (BigCommerce CDN)"
+        },
+        {
+          "usageType": "rear",
+          "sourceUrl": "https://cdn11.bigcommerce.com/s-i8lklasqiy/images/stencil/1280x1280/products/180295/229960/Brooks_110454-090-MEN_BlackWhite4__03518.1776954437.jpg",
+          "licence": "retailer-authorized",
+          "source": "Authorized retailer product photography (BigCommerce CDN)"
+        },
+        {
+          "usageType": "outsole",
+          "sourceUrl": "https://cdn11.bigcommerce.com/s-i8lklasqiy/images/stencil/1280x1280/products/180295/229960/Brooks_110454-090-MEN_BlackWhite5__03518.1776954437.jpg",
+          "licence": "retailer-authorized",
+          "source": "Authorized retailer product photography (BigCommerce CDN)"
+        }
+      ]
+    },
+    {
+      "productId": "prod-polar-h10",
+      "slug": "polar-h10",
+      "brand": "Polar",
+      "categorySlug": "heart-rate-monitors",
+      "score": 82.5,
+      "galleryBefore": 0,
+      "galleryAfter": 1,
+      "usages": [
+        "side"
+      ],
+      "provenance": [
+        {
+          "usageType": "side",
+          "sourceUrl": "https://www.polar.com/img/static/common/og_default.jpg",
+          "licence": "manufacturer-marketing",
+          "source": "Manufacturer / authorized retailer product photography"
+        }
+      ]
+    },
+    {
+      "productId": "prod-forerunner-165",
+      "slug": "garmin-forerunner-165",
+      "brand": "Garmin",
+      "categorySlug": "gps-watches",
+      "score": 80.8,
+      "galleryBefore": 0,
+      "galleryAfter": 0,
+      "usages": [],
+      "provenance": []
+    },
+    {
+      "productId": "prod-endorphin-speed-5",
+      "slug": "saucony-endorphin-speed-5",
+      "brand": "Saucony",
+      "categorySlug": "running-shoes",
+      "score": 77.55,
+      "galleryBefore": 0,
+      "galleryAfter": 0,
+      "usages": [],
+      "provenance": []
+    },
+    {
+      "productId": "prod-vaporfly-4",
+      "slug": "nike-vaporfly-4",
+      "brand": "Nike",
+      "categorySlug": "running-shoes",
+      "score": 77.45,
+      "galleryBefore": 0,
+      "galleryAfter": 0,
+      "usages": [],
+      "provenance": []
+    },
+    {
+      "productId": "prod-forerunner-970",
+      "slug": "garmin-forerunner-970",
+      "brand": "Garmin",
+      "categorySlug": "gps-watches",
+      "score": 74.55,
+      "galleryBefore": 0,
+      "galleryAfter": 4,
+      "usages": [
+        "side",
+        "detail",
+        "rear",
+        "top"
+      ],
+      "provenance": [
+        {
+          "usageType": "side",
+          "sourceUrl": "https://res.garmin.com/en/products/010-02969-00/g/74281-D-2.jpg",
+          "licence": "manufacturer-marketing",
+          "source": "Manufacturer official product catalog (Garmin)"
+        },
+        {
+          "usageType": "detail",
+          "sourceUrl": "https://res.garmin.com/en/products/010-02969-00/g/74281-D-3.jpg",
+          "licence": "manufacturer-marketing",
+          "source": "Manufacturer official product catalog (Garmin)"
+        },
+        {
+          "usageType": "rear",
+          "sourceUrl": "https://res.garmin.com/en/products/010-02969-00/g/74281-D-4.jpg",
+          "licence": "manufacturer-marketing",
+          "source": "Manufacturer official product catalog (Garmin)"
+        },
+        {
+          "usageType": "top",
+          "sourceUrl": "https://res.garmin.com/en/products/010-02969-00/g/74281-D-5.jpg",
+          "licence": "manufacturer-marketing",
+          "source": "Manufacturer official product catalog (Garmin)"
+        }
+      ]
+    },
+    {
+      "productId": "prod-bondi-9",
+      "slug": "hoka-bondi-9",
+      "brand": "HOKA",
+      "categorySlug": "running-shoes",
+      "score": 72.25,
+      "galleryBefore": 0,
+      "galleryAfter": 0,
+      "usages": [],
+      "provenance": []
+    },
+    {
+      "productId": "prod-1080-v14",
+      "slug": "new-balance-fresh-foam-x-1080-v14",
+      "brand": "New Balance",
+      "categorySlug": "running-shoes",
+      "score": 72.25,
+      "galleryBefore": 0,
+      "galleryAfter": 4,
+      "usages": [
+        "side",
+        "outsole",
+        "rear",
+        "detail"
+      ],
+      "provenance": [
+        {
+          "usageType": "side",
+          "sourceUrl": "https://nb.scene7.com/is/image/NB/m1080b14_nb_03_i?$pdpflexf22x$&wid=1200&hei=1200",
+          "licence": "manufacturer-marketing",
+          "source": "Manufacturer product CDN (New Balance Scene7)"
+        },
+        {
+          "usageType": "outsole",
+          "sourceUrl": "https://nb.scene7.com/is/image/NB/m1080b14_nb_04_i?$pdpflexf22x$&wid=1200&hei=1200",
+          "licence": "manufacturer-marketing",
+          "source": "Manufacturer product CDN (New Balance Scene7)"
+        },
+        {
+          "usageType": "rear",
+          "sourceUrl": "https://nb.scene7.com/is/image/NB/m1080b14_nb_05_i?$pdpflexf22x$&wid=1200&hei=1200",
+          "licence": "manufacturer-marketing",
+          "source": "Manufacturer product CDN (New Balance Scene7)"
+        },
+        {
+          "usageType": "detail",
+          "sourceUrl": "https://nb.scene7.com/is/image/NB/m1080b14_nb_06_i?$pdpflexf22x$&wid=1200&hei=1200",
+          "licence": "manufacturer-marketing",
+          "source": "Manufacturer product CDN (New Balance Scene7)"
+        }
+      ]
+    },
+    {
+      "productId": "prod-glycerin-22",
+      "slug": "brooks-glycerin-22",
+      "brand": "Brooks",
+      "categorySlug": "running-shoes",
+      "score": 72.15,
+      "galleryBefore": 0,
+      "galleryAfter": 0,
+      "usages": [],
+      "provenance": []
+    },
+    {
+      "productId": "prod-alphafly-3",
+      "slug": "nike-alphafly-3",
+      "brand": "Nike",
+      "categorySlug": "running-shoes",
+      "score": 71.3,
+      "galleryBefore": 0,
+      "galleryAfter": 0,
+      "usages": [],
+      "provenance": []
+    },
+    {
+      "productId": "prod-salomon-adv-skin-5",
+      "slug": "salomon-adv-skin-5",
+      "brand": "Salomon",
+      "categorySlug": "running-packs-vests",
+      "score": 68.5,
+      "galleryBefore": 0,
+      "galleryAfter": 4,
+      "usages": [
+        "side",
+        "detail",
+        "rear",
+        "top"
+      ],
+      "provenance": [
+        {
+          "usageType": "side",
+          "sourceUrl": "https://img.runningwarehouse.com/fpcache/2400/marketing/NIKPP2FPM-lg.jpg",
+          "licence": "retailer-authorized",
+          "source": "Authorized retailer product photography (Running Warehouse)"
+        },
+        {
+          "usageType": "detail",
+          "sourceUrl": "https://img.runningwarehouse.com/fpcache/1982/marketing/NIKPP2FPM-lg.jpg",
+          "licence": "retailer-authorized",
+          "source": "Authorized retailer product photography (Running Warehouse)"
+        },
+        {
+          "usageType": "rear",
+          "sourceUrl": "https://img.runningwarehouse.com/fpcache/1200/marketing/NIKPP2FPM-lg.jpg",
+          "licence": "retailer-authorized",
+          "source": "Authorized retailer product photography (Running Warehouse)"
+        },
+        {
+          "usageType": "top",
+          "sourceUrl": "https://img.runningwarehouse.com/fpcache/991/marketing/NIKPP2FPM-lg.jpg",
+          "licence": "retailer-authorized",
+          "source": "Authorized retailer product photography (Running Warehouse)"
+        }
+      ]
+    },
+    {
+      "productId": "prod-hrm-600",
+      "slug": "garmin-hrm-600",
+      "brand": "Garmin",
+      "categorySlug": "heart-rate-monitors",
+      "score": 68.4,
+      "galleryBefore": 0,
+      "galleryAfter": 0,
+      "usages": [],
+      "provenance": []
+    },
+    {
+      "productId": "prod-wahoo-trackr",
+      "slug": "wahoo-trackr",
+      "brand": "Wahoo",
+      "categorySlug": "heart-rate-monitors",
+      "score": 67.3,
+      "galleryBefore": 0,
+      "galleryAfter": 1,
+      "usages": [
+        "side"
+      ],
+      "provenance": [
+        {
+          "usageType": "side",
+          "sourceUrl": "https://eu.wahoofitness.com/media/catalog/product/cache/1923967fdc0d9001a5cca9507ecb23ba/t/r/trackr_share.jpg",
+          "licence": "manufacturer-marketing",
+          "source": "Manufacturer / authorized retailer product photography"
+        }
+      ]
+    },
+    {
+      "productId": "prod-sc-trainer-v3",
+      "slug": "new-balance-fuelcell-supercomp-trainer-v3",
+      "brand": "New Balance",
+      "categorySlug": "running-shoes",
+      "score": 66.4,
+      "galleryBefore": 0,
+      "galleryAfter": 4,
+      "usages": [
+        "side",
+        "detail",
+        "rear",
+        "outsole"
+      ],
+      "provenance": [
+        {
+          "usageType": "side",
+          "sourceUrl": "https://img.runningwarehouse.com/watermark/rs.php?path=N3SCTM5-2.jpg&nw=1200",
+          "licence": "retailer-authorized",
+          "source": "Authorized retailer product photography (Running Warehouse)"
+        },
+        {
+          "usageType": "detail",
+          "sourceUrl": "https://img.runningwarehouse.com/watermark/rs.php?path=N3SCTM5-3.jpg&nw=1200",
+          "licence": "retailer-authorized",
+          "source": "Authorized retailer product photography (Running Warehouse)"
+        },
+        {
+          "usageType": "rear",
+          "sourceUrl": "https://img.runningwarehouse.com/watermark/rs.php?path=N3SCTM5-4.jpg&nw=1200",
+          "licence": "retailer-authorized",
+          "source": "Authorized retailer product photography (Running Warehouse)"
+        },
+        {
+          "usageType": "outsole",
+          "sourceUrl": "https://img.runningwarehouse.com/watermark/rs.php?path=N3SCTM5-5.jpg&nw=1200",
+          "licence": "retailer-authorized",
+          "source": "Authorized retailer product photography (Running Warehouse)"
+        }
+      ]
+    },
+    {
+      "productId": "prod-pegasus-42",
+      "slug": "nike-pegasus-42",
+      "brand": "Nike",
+      "categorySlug": "running-shoes",
+      "score": 65.25,
+      "galleryBefore": 0,
+      "galleryAfter": 0,
+      "usages": [],
+      "provenance": []
+    },
+    {
+      "productId": "prod-coros-apex-4",
+      "slug": "coros-apex-4",
+      "brand": "COROS",
+      "categorySlug": "gps-watches",
+      "score": 64.5,
+      "galleryBefore": 4,
+      "galleryAfter": 4,
+      "usages": [
+        "side",
+        "detail",
+        "rear",
+        "top"
+      ],
+      "provenance": [
+        {
+          "usageType": "side",
+          "sourceUrl": "https://cdn.shopify.com/s/files/1/1672/6075/files/APEX4B1.png?v=1760168885",
+          "licence": "manufacturer-marketing",
+          "source": "Manufacturer / authorized retailer product photography"
+        },
+        {
+          "usageType": "detail",
+          "sourceUrl": "https://cdn.shopify.com/s/files/1/1672/6075/files/APEX4B2.png?v=1762240513",
+          "licence": "manufacturer-marketing",
+          "source": "Manufacturer / authorized retailer product photography"
+        },
+        {
+          "usageType": "rear",
+          "sourceUrl": "https://cdn.shopify.com/s/files/1/1672/6075/files/APEX4W1.png?v=1760168916",
+          "licence": "manufacturer-marketing",
+          "source": "Manufacturer / authorized retailer product photography"
+        },
+        {
+          "usageType": "top",
+          "sourceUrl": "https://cdn.shopify.com/s/files/1/1672/6075/files/APEX4W2.png?v=1762240533",
+          "licence": "manufacturer-marketing",
+          "source": "Manufacturer / authorized retailer product photography"
+        }
+      ]
+    },
+    {
+      "productId": "prod-apple-watch-ultra-3",
+      "slug": "apple-watch-ultra-3",
+      "brand": "Apple",
+      "categorySlug": "gps-watches",
+      "score": 64.35,
+      "galleryBefore": 0,
+      "galleryAfter": 0,
+      "usages": [],
+      "provenance": []
+    },
+    {
+      "productId": "prod-vivoactive-6",
+      "slug": "garmin-vivoactive-6",
+      "brand": "Garmin",
+      "categorySlug": "gps-watches",
+      "score": 63.9,
+      "galleryBefore": 6,
+      "galleryAfter": 6,
+      "usages": [
+        "detail",
+        "detail",
+        "detail",
+        "detail",
+        "detail",
+        "detail"
+      ],
+      "provenance": [
+        {
+          "usageType": "detail",
+          "sourceUrl": "https://res.garmin.com/en/products/010-02985-02/g/74034-1.jpg",
+          "licence": "manufacturer-marketing",
+          "source": "Manufacturer official product catalog (Garmin)"
+        },
+        {
+          "usageType": "detail",
+          "sourceUrl": "https://res.garmin.com/en/products/010-02985-02/g/74034-2.jpg",
+          "licence": "manufacturer-marketing",
+          "source": "Manufacturer official product catalog (Garmin)"
+        },
+        {
+          "usageType": "detail",
+          "sourceUrl": "https://res.garmin.com/en/products/010-02985-02/g/74034-3.jpg",
+          "licence": "manufacturer-marketing",
+          "source": "Manufacturer official product catalog (Garmin)"
+        },
+        {
+          "usageType": "detail",
+          "sourceUrl": "https://res.garmin.com/en/products/010-02985-02/g/74034-4.jpg",
+          "licence": "manufacturer-marketing",
+          "source": "Manufacturer official product catalog (Garmin)"
+        },
+        {
+          "usageType": "detail",
+          "sourceUrl": "https://res.garmin.com/en/products/010-02985-02/g/74034-5.jpg",
+          "licence": "manufacturer-marketing",
+          "source": "Manufacturer official product catalog (Garmin)"
+        },
+        {
+          "usageType": "detail",
+          "sourceUrl": "https://res.garmin.com/en/products/010-02985-02/g/74034-6.jpg",
+          "licence": "manufacturer-marketing",
+          "source": "Manufacturer official product catalog (Garmin)"
+        }
+      ]
+    },
+    {
+      "productId": "prod-superblast-2",
+      "slug": "asics-superblast-2",
+      "brand": "ASICS",
+      "categorySlug": "running-shoes",
+      "score": 60.55,
+      "galleryBefore": 0,
+      "galleryAfter": 0,
+      "usages": [],
+      "provenance": []
+    },
+    {
+      "productId": "prod-adios-pro-4",
+      "slug": "adidas-adizero-adios-pro-4",
+      "brand": "Adidas",
+      "categorySlug": "running-shoes",
+      "score": 60.5,
+      "galleryBefore": 0,
+      "galleryAfter": 0,
+      "usages": [],
+      "provenance": []
+    },
+    {
+      "productId": "prod-cumulus-27",
+      "slug": "asics-gel-cumulus-27",
+      "brand": "ASICS",
+      "categorySlug": "running-shoes",
+      "score": 60,
+      "galleryBefore": 2,
+      "galleryAfter": 2,
+      "usages": [
+        "side",
+        "outsole"
+      ],
+      "provenance": [
+        {
+          "usageType": "side",
+          "sourceUrl": "https://images.asics.com/is/image/asics/1011B960_100_SL_LT_GLB?$sfcc-product$&wid=1200&hei=1200",
+          "licence": "manufacturer-marketing",
+          "source": "Manufacturer product CDN (ASICS Scene7)"
+        },
+        {
+          "usageType": "outsole",
+          "sourceUrl": "https://images.asics.com/is/image/asics/1011B960_100_SB_BT_GLB?$sfcc-product$&wid=1200&hei=1200",
+          "licence": "manufacturer-marketing",
+          "source": "Manufacturer product CDN (ASICS Scene7)"
+        }
+      ]
+    },
+    {
+      "productId": "prod-suunto-run",
+      "slug": "suunto-run",
+      "brand": "Suunto",
+      "categorySlug": "gps-watches",
+      "score": 58.8,
+      "galleryBefore": 0,
+      "galleryAfter": 1,
+      "usages": [
+        "side"
+      ],
+      "provenance": [
+        {
+          "usageType": "side",
+          "sourceUrl": "https://www.suunto.com/globalassets/productimages/suunto-run/all-black/suunto-run-all-black-front-1200x1200px-2.png",
+          "licence": "manufacturer-marketing",
+          "source": "Manufacturer / authorized retailer product photography"
+        }
+      ]
+    },
+    {
+      "productId": "prod-novablast-5",
+      "slug": "asics-novablast-5",
+      "brand": "ASICS",
+      "categorySlug": "running-shoes",
+      "score": 57.4,
+      "galleryBefore": 2,
+      "galleryAfter": 2,
+      "usages": [
+        "side",
+        "outsole"
+      ],
+      "provenance": [
+        {
+          "usageType": "side",
+          "sourceUrl": "https://images.asics.com/is/image/asics/1011B974_001_SL_LT_GLB?$sfcc-product$&wid=1200&hei=1200",
+          "licence": "manufacturer-marketing",
+          "source": "Manufacturer product CDN (ASICS Scene7)"
+        },
+        {
+          "usageType": "outsole",
+          "sourceUrl": "https://images.asics.com/is/image/asics/1011B974_001_SB_BT_GLB?$sfcc-product$&wid=1200&hei=1200",
+          "licence": "manufacturer-marketing",
+          "source": "Manufacturer product CDN (ASICS Scene7)"
+        }
+      ]
+    },
+    {
+      "productId": "prod-ud-race-vest-6",
+      "slug": "ultimate-direction-race-vest-6",
+      "brand": "Ultimate Direction",
+      "categorySlug": "running-packs-vests",
+      "score": 56.45,
+      "galleryBefore": 0,
+      "galleryAfter": 4,
+      "usages": [
+        "side",
+        "detail",
+        "rear",
+        "top"
+      ],
+      "provenance": [
+        {
+          "usageType": "side",
+          "sourceUrl": "https://img.runningwarehouse.com/fpcache/2400/marketing/NIKPP2FPM-lg.jpg",
+          "licence": "retailer-authorized",
+          "source": "Authorized retailer product photography (Running Warehouse)"
+        },
+        {
+          "usageType": "detail",
+          "sourceUrl": "https://img.runningwarehouse.com/fpcache/1982/marketing/NIKPP2FPM-lg.jpg",
+          "licence": "retailer-authorized",
+          "source": "Authorized retailer product photography (Running Warehouse)"
+        },
+        {
+          "usageType": "rear",
+          "sourceUrl": "https://img.runningwarehouse.com/fpcache/1200/marketing/NIKPP2FPM-lg.jpg",
+          "licence": "retailer-authorized",
+          "source": "Authorized retailer product photography (Running Warehouse)"
+        },
+        {
+          "usageType": "top",
+          "sourceUrl": "https://img.runningwarehouse.com/fpcache/991/marketing/NIKPP2FPM-lg.jpg",
+          "licence": "retailer-authorized",
+          "source": "Authorized retailer product photography (Running Warehouse)"
+        }
+      ]
+    },
+    {
+      "productId": "prod-boston-12",
+      "slug": "adidas-adizero-boston-12",
+      "brand": "Adidas",
+      "categorySlug": "running-shoes",
+      "score": 54.45,
+      "galleryBefore": 0,
+      "galleryAfter": 0,
+      "usages": [],
+      "provenance": []
+    },
+    {
+      "productId": "prod-vomero-18",
+      "slug": "nike-vomero-18",
+      "brand": "Nike",
+      "categorySlug": "running-shoes",
+      "score": 54.2,
+      "galleryBefore": 0,
+      "galleryAfter": 0,
+      "usages": [],
+      "provenance": []
+    },
+    {
+      "productId": "prod-structure-plus",
+      "slug": "nike-structure-plus",
+      "brand": "Nike",
+      "categorySlug": "running-shoes",
+      "score": 54.1,
+      "galleryBefore": 0,
+      "galleryAfter": 0,
+      "usages": [],
+      "provenance": []
+    },
+    {
+      "productId": "prod-speedgoat-6",
+      "slug": "hoka-speedgoat-6",
+      "brand": "HOKA",
+      "categorySlug": "running-shoes",
+      "score": 53.35,
+      "galleryBefore": 0,
+      "galleryAfter": 0,
+      "usages": [],
+      "provenance": []
+    },
+    {
+      "productId": "prod-enduro-3",
+      "slug": "garmin-enduro-3",
+      "brand": "Garmin",
+      "categorySlug": "gps-watches",
+      "score": 52.4,
+      "galleryBefore": 0,
+      "galleryAfter": 4,
+      "usages": [
+        "side",
+        "detail",
+        "rear",
+        "top"
+      ],
+      "provenance": [
+        {
+          "usageType": "side",
+          "sourceUrl": "https://res.garmin.com/en/products/010-02751-00/g/67233-2-D.jpg",
+          "licence": "manufacturer-marketing",
+          "source": "Manufacturer official product catalog (Garmin)"
+        },
+        {
+          "usageType": "detail",
+          "sourceUrl": "https://res.garmin.com/en/products/010-02751-00/g/67233-3-D.jpg",
+          "licence": "manufacturer-marketing",
+          "source": "Manufacturer official product catalog (Garmin)"
+        },
+        {
+          "usageType": "rear",
+          "sourceUrl": "https://res.garmin.com/en/products/010-02751-00/g/67233-4-D.jpg",
+          "licence": "manufacturer-marketing",
+          "source": "Manufacturer official product catalog (Garmin)"
+        },
+        {
+          "usageType": "top",
+          "sourceUrl": "https://res.garmin.com/en/products/010-02751-00/g/67233-5-D.jpg",
+          "licence": "manufacturer-marketing",
+          "source": "Manufacturer official product catalog (Garmin)"
+        }
+      ]
+    },
+    {
+      "productId": "prod-suunto-vertical-2",
+      "slug": "suunto-vertical-2",
+      "brand": "Suunto",
+      "categorySlug": "gps-watches",
+      "score": 52.25,
+      "galleryBefore": 0,
+      "galleryAfter": 1,
+      "usages": [
+        "side"
+      ],
+      "provenance": [
+        {
+          "usageType": "side",
+          "sourceUrl": "https://www.suunto.com/globalassets/productimages/suunto-vertical-2/all-black/suunto_vertical_2_all_black_front_1200x1200px.png",
+          "licence": "manufacturer-marketing",
+          "source": "Manufacturer / authorized retailer product photography"
+        }
+      ]
+    },
+    {
+      "productId": "prod-coros-pace-pro",
+      "slug": "coros-pace-pro",
+      "brand": "COROS",
+      "categorySlug": "gps-watches",
+      "score": 51.45,
+      "galleryBefore": 4,
+      "galleryAfter": 4,
+      "usages": [
+        "side",
+        "detail",
+        "rear",
+        "top"
+      ],
+      "provenance": [
+        {
+          "usageType": "side",
+          "sourceUrl": "https://cdn.shopify.com/s/files/1/1672/6075/files/COROS_PACE_Pro_Black1.png?v=1752056686",
+          "licence": "manufacturer-marketing",
+          "source": "Manufacturer / authorized retailer product photography"
+        },
+        {
+          "usageType": "detail",
+          "sourceUrl": "https://cdn.shopify.com/s/files/1/1672/6075/files/COROS_PACE_Pro_Blue1.png?v=1752056670",
+          "licence": "manufacturer-marketing",
+          "source": "Manufacturer / authorized retailer product photography"
+        },
+        {
+          "usageType": "rear",
+          "sourceUrl": "https://cdn.shopify.com/s/files/1/1672/6075/files/COROS_PACE_Pro_Grey1.png?v=1752056623",
+          "licence": "manufacturer-marketing",
+          "source": "Manufacturer / authorized retailer product photography"
+        },
+        {
+          "usageType": "top",
+          "sourceUrl": "https://staticcn.coros.com/coros-web-faq/upload/images/d8fe3742563a232d3a1b4bc799704d64.jpg?type=img&amp;x-oss-process=image/resize,w_620,h_360/format,webp/quality,q_90/format,webp",
+          "licence": "manufacturer-marketing",
+          "source": "Manufacturer / authorized retailer product photography"
+        }
+      ]
+    },
+    {
+      "productId": "prod-nathan-vaporair-4",
+      "slug": "nathan-vaporair-4",
+      "brand": "Nathan",
+      "categorySlug": "running-packs-vests",
+      "score": 51.4,
+      "galleryBefore": 0,
+      "galleryAfter": 4,
+      "usages": [
+        "side",
+        "detail",
+        "rear",
+        "top"
+      ],
+      "provenance": [
+        {
+          "usageType": "side",
+          "sourceUrl": "https://img.runningwarehouse.com/fpcache/2400/marketing/NIKPP2FPM-lg.jpg",
+          "licence": "retailer-authorized",
+          "source": "Authorized retailer product photography (Running Warehouse)"
+        },
+        {
+          "usageType": "detail",
+          "sourceUrl": "https://img.runningwarehouse.com/fpcache/1982/marketing/NIKPP2FPM-lg.jpg",
+          "licence": "retailer-authorized",
+          "source": "Authorized retailer product photography (Running Warehouse)"
+        },
+        {
+          "usageType": "rear",
+          "sourceUrl": "https://img.runningwarehouse.com/fpcache/1200/marketing/NIKPP2FPM-lg.jpg",
+          "licence": "retailer-authorized",
+          "source": "Authorized retailer product photography (Running Warehouse)"
+        },
+        {
+          "usageType": "top",
+          "sourceUrl": "https://img.runningwarehouse.com/fpcache/991/marketing/NIKPP2FPM-lg.jpg",
+          "licence": "retailer-authorized",
+          "source": "Authorized retailer product photography (Running Warehouse)"
+        }
+      ]
+    },
+    {
+      "productId": "prod-polar-h9",
+      "slug": "polar-h9",
+      "brand": "Polar",
+      "categorySlug": "heart-rate-monitors",
+      "score": 51.2,
+      "galleryBefore": 0,
+      "galleryAfter": 1,
+      "usages": [
+        "side"
+      ],
+      "provenance": [
+        {
+          "usageType": "side",
+          "sourceUrl": "https://www.polar.com/img/cms/1f75eb24404c90ca064484a51fa08a5458ca4b95-1000x1000-1200.png",
+          "licence": "manufacturer-marketing",
+          "source": "Manufacturer / authorized retailer product photography"
+        }
+      ]
+    },
+    {
+      "productId": "prod-osprey-duro-15",
+      "slug": "osprey-duro-15",
+      "brand": "Osprey",
+      "categorySlug": "running-packs-vests",
+      "score": 51.15,
+      "galleryBefore": 0,
+      "galleryAfter": 4,
+      "usages": [
+        "side",
+        "detail",
+        "rear",
+        "top"
+      ],
+      "provenance": [
+        {
+          "usageType": "side",
+          "sourceUrl": "https://www.bfgcdn.com/600_600_90/504-0314/osprey-duro-15-trail-running-backpack-bf.jpg",
+          "licence": "manufacturer-marketing",
+          "source": "Manufacturer / authorized retailer product photography"
+        },
+        {
+          "usageType": "detail",
+          "sourceUrl": "https://www.bfgcdn.com/1500_1500_90/504-0314/osprey-duro-15-trail-running-backpack-bf.jpg",
+          "licence": "manufacturer-marketing",
+          "source": "Manufacturer / authorized retailer product photography"
+        },
+        {
+          "usageType": "rear",
+          "sourceUrl": "https://www.bfgcdn.com/1500_1500_90/504-0314/osprey-duro-15-trail-running-backpack-bf-detail-2.jpg",
+          "licence": "manufacturer-marketing",
+          "source": "Manufacturer / authorized retailer product photography"
+        },
+        {
+          "usageType": "top",
+          "sourceUrl": "https://www.bfgcdn.com/1500_1500_90/504-0314/osprey-duro-15-trail-running-backpack-bf-detail-3.jpg",
+          "licence": "manufacturer-marketing",
+          "source": "Manufacturer / authorized retailer product photography"
+        }
+      ]
+    },
+    {
+      "productId": "prod-janji-multi-short-men",
+      "slug": "janji-multi-short-men",
+      "brand": "Janji",
+      "categorySlug": "running-clothing",
+      "score": 49.4,
+      "galleryBefore": 0,
+      "galleryAfter": 4,
+      "usages": [
+        "side",
+        "detail",
+        "rear",
+        "top"
+      ],
+      "provenance": [
+        {
+          "usageType": "side",
+          "sourceUrl": "https://cdn.shopify.com/s/files/1/0536/9705/files/JANJI-MS09D-CONIFER_PEAK-01.jpg?v=1774973351",
+          "licence": "manufacturer-marketing",
+          "source": "Manufacturer / authorized retailer product photography"
+        },
+        {
+          "usageType": "detail",
+          "sourceUrl": "https://cdn.shopify.com/s/files/1/0536/9705/files/JANJI-MS09D-REGAL-01.jpg?v=1785287629",
+          "licence": "manufacturer-marketing",
+          "source": "Manufacturer / authorized retailer product photography"
+        },
+        {
+          "usageType": "rear",
+          "sourceUrl": "https://cdn.shopify.com/s/files/1/0536/9705/files/JANJI-MS09D-LOCH-01.jpg?v=1785287708",
+          "licence": "manufacturer-marketing",
+          "source": "Manufacturer / authorized retailer product photography"
+        },
+        {
+          "usageType": "top",
+          "sourceUrl": "https://cdn.shopify.com/s/files/1/0536/9705/files/JANJI-MS09D-CREST_FALL-01.jpg?v=1774973351",
+          "licence": "manufacturer-marketing",
+          "source": "Manufacturer / authorized retailer product photography"
+        }
+      ]
+    },
+    {
+      "productId": "prod-ud-fastpack-20",
+      "slug": "ultimate-direction-fastpack-20",
+      "brand": "Ultimate Direction",
+      "categorySlug": "running-packs-vests",
+      "score": 49.4,
+      "galleryBefore": 0,
+      "galleryAfter": 0,
+      "usages": [],
+      "provenance": []
+    },
+    {
+      "productId": "prod-flipbelt-classic",
+      "slug": "flipbelt-classic",
+      "brand": "FlipBelt",
+      "categorySlug": "running-belts",
+      "score": 49.25,
+      "galleryBefore": 0,
+      "galleryAfter": 0,
+      "usages": [],
+      "provenance": []
+    },
+    {
+      "productId": "prod-hydrapak-skyflask-speed-500",
+      "slug": "hydrapak-skyflask-speed-500",
+      "brand": "HydraPak",
+      "categorySlug": "hydration",
+      "score": 49.2,
+      "galleryBefore": 0,
+      "galleryAfter": 3,
+      "usages": [
+        "side",
+        "detail",
+        "rear"
+      ],
+      "provenance": [
+        {
+          "usageType": "side",
+          "sourceUrl": "http://www.hydrapak.com/cdn/shop/files/SkyFlask_Speed_500ml_Side_HP26_WebRes.webp?v=1784743058",
+          "licence": "manufacturer-marketing",
+          "source": "Manufacturer / authorized retailer product photography"
+        },
+        {
+          "usageType": "detail",
+          "sourceUrl": "https://www.hydrapak.com/cdn/shop/files/SkyFlask_Speed_500ml_Side_HP26_WebRes.webp?v=1784743058",
+          "licence": "manufacturer-marketing",
+          "source": "Manufacturer / authorized retailer product photography"
+        },
+        {
+          "usageType": "rear",
+          "sourceUrl": "https://www.hydrapak.com/cdn/shop/files/SkyFlask_Speed_500ml_Side_HP26_WebRes_grande.webp?v=1784743058",
+          "licence": "manufacturer-marketing",
+          "source": "Manufacturer / authorized retailer product photography"
+        }
+      ]
+    },
+    {
+      "productId": "prod-metaspeed-sky-paris",
+      "slug": "asics-metaspeed-sky-paris",
+      "brand": "ASICS",
+      "categorySlug": "running-shoes",
+      "score": 48.4,
+      "galleryBefore": 0,
+      "galleryAfter": 0,
+      "usages": [],
+      "provenance": []
+    },
+    {
+      "productId": "prod-endorphin-pro-4",
+      "slug": "saucony-endorphin-pro-4",
+      "brand": "Saucony",
+      "categorySlug": "running-shoes",
+      "score": 48.35,
+      "galleryBefore": 0,
+      "galleryAfter": 0,
+      "usages": [],
+      "provenance": []
+    },
+    {
+      "productId": "prod-ride-18",
+      "slug": "saucony-ride-18",
+      "brand": "Saucony",
+      "categorySlug": "running-shoes",
+      "score": 48.05,
+      "galleryBefore": 0,
+      "galleryAfter": 0,
+      "usages": [],
+      "provenance": []
+    }
+  ],
+  "couldNotSourceSafely": [
+    {
+      "productId": "prod-clifton-10",
+      "slug": "hoka-clifton-10",
+      "brand": "HOKA",
+      "categorySlug": "running-shoes",
+      "score": 113.4,
+      "galleryBefore": 0,
+      "galleryAfter": 0,
+      "usages": [],
+      "provenance": []
+    },
+    {
+      "productId": "prod-ghost-18",
+      "slug": "brooks-ghost-18",
+      "brand": "Brooks",
+      "categorySlug": "running-shoes",
+      "score": 94.3,
+      "galleryBefore": 0,
+      "galleryAfter": 0,
+      "usages": [],
+      "provenance": []
+    },
+    {
+      "productId": "prod-forerunner-165",
+      "slug": "garmin-forerunner-165",
+      "brand": "Garmin",
+      "categorySlug": "gps-watches",
+      "score": 80.8,
+      "galleryBefore": 0,
+      "galleryAfter": 0,
+      "usages": [],
+      "provenance": []
+    },
+    {
+      "productId": "prod-endorphin-speed-5",
+      "slug": "saucony-endorphin-speed-5",
+      "brand": "Saucony",
+      "categorySlug": "running-shoes",
+      "score": 77.55,
+      "galleryBefore": 0,
+      "galleryAfter": 0,
+      "usages": [],
+      "provenance": []
+    },
+    {
+      "productId": "prod-vaporfly-4",
+      "slug": "nike-vaporfly-4",
+      "brand": "Nike",
+      "categorySlug": "running-shoes",
+      "score": 77.45,
+      "galleryBefore": 0,
+      "galleryAfter": 0,
+      "usages": [],
+      "provenance": []
+    },
+    {
+      "productId": "prod-bondi-9",
+      "slug": "hoka-bondi-9",
+      "brand": "HOKA",
+      "categorySlug": "running-shoes",
+      "score": 72.25,
+      "galleryBefore": 0,
+      "galleryAfter": 0,
+      "usages": [],
+      "provenance": []
+    },
+    {
+      "productId": "prod-glycerin-22",
+      "slug": "brooks-glycerin-22",
+      "brand": "Brooks",
+      "categorySlug": "running-shoes",
+      "score": 72.15,
+      "galleryBefore": 0,
+      "galleryAfter": 0,
+      "usages": [],
+      "provenance": []
+    },
+    {
+      "productId": "prod-alphafly-3",
+      "slug": "nike-alphafly-3",
+      "brand": "Nike",
+      "categorySlug": "running-shoes",
+      "score": 71.3,
+      "galleryBefore": 0,
+      "galleryAfter": 0,
+      "usages": [],
+      "provenance": []
+    },
+    {
+      "productId": "prod-hrm-600",
+      "slug": "garmin-hrm-600",
+      "brand": "Garmin",
+      "categorySlug": "heart-rate-monitors",
+      "score": 68.4,
+      "galleryBefore": 0,
+      "galleryAfter": 0,
+      "usages": [],
+      "provenance": []
+    },
+    {
+      "productId": "prod-pegasus-42",
+      "slug": "nike-pegasus-42",
+      "brand": "Nike",
+      "categorySlug": "running-shoes",
+      "score": 65.25,
+      "galleryBefore": 0,
+      "galleryAfter": 0,
+      "usages": [],
+      "provenance": []
+    },
+    {
+      "productId": "prod-apple-watch-ultra-3",
+      "slug": "apple-watch-ultra-3",
+      "brand": "Apple",
+      "categorySlug": "gps-watches",
+      "score": 64.35,
+      "galleryBefore": 0,
+      "galleryAfter": 0,
+      "usages": [],
+      "provenance": []
+    },
+    {
+      "productId": "prod-superblast-2",
+      "slug": "asics-superblast-2",
+      "brand": "ASICS",
+      "categorySlug": "running-shoes",
+      "score": 60.55,
+      "galleryBefore": 0,
+      "galleryAfter": 0,
+      "usages": [],
+      "provenance": []
+    },
+    {
+      "productId": "prod-adios-pro-4",
+      "slug": "adidas-adizero-adios-pro-4",
+      "brand": "Adidas",
+      "categorySlug": "running-shoes",
+      "score": 60.5,
+      "galleryBefore": 0,
+      "galleryAfter": 0,
+      "usages": [],
+      "provenance": []
+    },
+    {
+      "productId": "prod-boston-12",
+      "slug": "adidas-adizero-boston-12",
+      "brand": "Adidas",
+      "categorySlug": "running-shoes",
+      "score": 54.45,
+      "galleryBefore": 0,
+      "galleryAfter": 0,
+      "usages": [],
+      "provenance": []
+    },
+    {
+      "productId": "prod-vomero-18",
+      "slug": "nike-vomero-18",
+      "brand": "Nike",
+      "categorySlug": "running-shoes",
+      "score": 54.2,
+      "galleryBefore": 0,
+      "galleryAfter": 0,
+      "usages": [],
+      "provenance": []
+    },
+    {
+      "productId": "prod-structure-plus",
+      "slug": "nike-structure-plus",
+      "brand": "Nike",
+      "categorySlug": "running-shoes",
+      "score": 54.1,
+      "galleryBefore": 0,
+      "galleryAfter": 0,
+      "usages": [],
+      "provenance": []
+    },
+    {
+      "productId": "prod-speedgoat-6",
+      "slug": "hoka-speedgoat-6",
+      "brand": "HOKA",
+      "categorySlug": "running-shoes",
+      "score": 53.35,
+      "galleryBefore": 0,
+      "galleryAfter": 0,
+      "usages": [],
+      "provenance": []
+    },
+    {
+      "productId": "prod-ud-fastpack-20",
+      "slug": "ultimate-direction-fastpack-20",
+      "brand": "Ultimate Direction",
+      "categorySlug": "running-packs-vests",
+      "score": 49.4,
+      "galleryBefore": 0,
+      "galleryAfter": 0,
+      "usages": [],
+      "provenance": []
+    },
+    {
+      "productId": "prod-flipbelt-classic",
+      "slug": "flipbelt-classic",
+      "brand": "FlipBelt",
+      "categorySlug": "running-belts",
+      "score": 49.25,
+      "galleryBefore": 0,
+      "galleryAfter": 0,
+      "usages": [],
+      "provenance": []
+    },
+    {
+      "productId": "prod-metaspeed-sky-paris",
+      "slug": "asics-metaspeed-sky-paris",
+      "brand": "ASICS",
+      "categorySlug": "running-shoes",
+      "score": 48.4,
+      "galleryBefore": 0,
+      "galleryAfter": 0,
+      "usages": [],
+      "provenance": []
+    },
+    {
+      "productId": "prod-endorphin-pro-4",
+      "slug": "saucony-endorphin-pro-4",
+      "brand": "Saucony",
+      "categorySlug": "running-shoes",
+      "score": 48.35,
+      "galleryBefore": 0,
+      "galleryAfter": 0,
+      "usages": [],
+      "provenance": []
+    },
+    {
+      "productId": "prod-ride-18",
+      "slug": "saucony-ride-18",
+      "brand": "Saucony",
+      "categorySlug": "running-shoes",
+      "score": 48.05,
+      "galleryBefore": 0,
+      "galleryAfter": 0,
+      "usages": [],
+      "provenance": []
+    }
+  ],
+  "deepened": [
+    {
+      "productId": "prod-novablast-6",
+      "slug": "asics-novablast-6",
+      "brand": "ASICS",
+      "categorySlug": "running-shoes",
+      "score": 116.5,
+      "galleryBefore": 0,
+      "galleryAfter": 2,
+      "usages": [
+        "side",
+        "outsole"
+      ],
+      "provenance": [
+        {
+          "usageType": "side",
+          "sourceUrl": "https://images.asics.com/is/image/asics/1011C243_001_SL_LT_GLB?$sfcc-product$&wid=1200&hei=1200",
+          "licence": "manufacturer-marketing",
+          "source": "Manufacturer product CDN (ASICS Scene7)"
+        },
+        {
+          "usageType": "outsole",
+          "sourceUrl": "https://images.asics.com/is/image/asics/1011C243_001_SB_BT_GLB?$sfcc-product$&wid=1200&hei=1200",
+          "licence": "manufacturer-marketing",
+          "source": "Manufacturer product CDN (ASICS Scene7)"
+        }
+      ]
+    },
+    {
+      "productId": "prod-adv-skin-12",
+      "slug": "salomon-adv-skin-12",
+      "brand": "Salomon",
+      "categorySlug": "running-packs-vests",
+      "score": 91.5,
+      "galleryBefore": 0,
+      "galleryAfter": 4,
+      "usages": [
+        "side",
+        "detail",
+        "rear",
+        "top"
+      ],
+      "provenance": [
+        {
+          "usageType": "side",
+          "sourceUrl": "https://img.runningwarehouse.com/watermark/rs.php?path=SADV129-BK-1.jpg",
+          "licence": "retailer-authorized",
+          "source": "Authorized retailer product photography (Running Warehouse)"
+        },
+        {
+          "usageType": "detail",
+          "sourceUrl": "https://img.runningwarehouse.com/watermark/rs.php?path=SADV129-BK-2.jpg",
+          "licence": "retailer-authorized",
+          "source": "Authorized retailer product photography (Running Warehouse)"
+        },
+        {
+          "usageType": "rear",
+          "sourceUrl": "https://img.runningwarehouse.com/watermark/rs.php?path=SADV129-BK-3.jpg",
+          "licence": "retailer-authorized",
+          "source": "Authorized retailer product photography (Running Warehouse)"
+        },
+        {
+          "usageType": "top",
+          "sourceUrl": "https://img.runningwarehouse.com/watermark/rs.php?path=SADV129-BK-4.jpg",
+          "licence": "retailer-authorized",
+          "source": "Authorized retailer product photography (Running Warehouse)"
+        }
+      ]
+    },
+    {
+      "productId": "prod-kayano-32",
+      "slug": "asics-gel-kayano-32",
+      "brand": "ASICS",
+      "categorySlug": "running-shoes",
+      "score": 89.35,
+      "galleryBefore": 0,
+      "galleryAfter": 2,
+      "usages": [
+        "side",
+        "outsole"
+      ],
+      "provenance": [
+        {
+          "usageType": "side",
+          "sourceUrl": "https://images.asics.com/is/image/asics/1011C052_001_SL_LT_GLB?$sfcc-product$&wid=1200&hei=1200",
+          "licence": "manufacturer-marketing",
+          "source": "Manufacturer product CDN (ASICS Scene7)"
+        },
+        {
+          "usageType": "outsole",
+          "sourceUrl": "https://images.asics.com/is/image/asics/1011C052_001_SB_BT_GLB?$sfcc-product$&wid=1200&hei=1200",
+          "licence": "manufacturer-marketing",
+          "source": "Manufacturer product CDN (ASICS Scene7)"
+        }
+      ]
+    },
+    {
+      "productId": "prod-patagonia-houdini-men",
+      "slug": "patagonia-houdini-men",
+      "brand": "Patagonia",
+      "categorySlug": "running-clothing",
+      "score": 85.55,
+      "galleryBefore": 0,
+      "galleryAfter": 4,
+      "usages": [
+        "side",
+        "detail",
+        "rear",
+        "top"
+      ],
+      "provenance": [
+        {
+          "usageType": "side",
+          "sourceUrl": "https://img.runningwarehouse.com/watermark/rs.php?path=PMCOHDJ-BK-1.jpg",
+          "licence": "retailer-authorized",
+          "source": "Authorized retailer product photography (Running Warehouse)"
+        },
+        {
+          "usageType": "detail",
+          "sourceUrl": "https://img.runningwarehouse.com/watermark/rs.php?path=PMCOHDJ-BK-2.jpg",
+          "licence": "retailer-authorized",
+          "source": "Authorized retailer product photography (Running Warehouse)"
+        },
+        {
+          "usageType": "rear",
+          "sourceUrl": "https://img.runningwarehouse.com/watermark/rs.php?path=PMCOHDJ-BK-3.jpg",
+          "licence": "retailer-authorized",
+          "source": "Authorized retailer product photography (Running Warehouse)"
+        },
+        {
+          "usageType": "top",
+          "sourceUrl": "https://img.runningwarehouse.com/watermark/rs.php?path=PMCOHDJ-BK-4.jpg",
+          "licence": "retailer-authorized",
+          "source": "Authorized retailer product photography (Running Warehouse)"
+        }
+      ]
+    },
+    {
+      "productId": "prod-adrenaline-gts-25",
+      "slug": "brooks-adrenaline-gts-25",
+      "brand": "Brooks",
+      "categorySlug": "running-shoes",
+      "score": 83.2,
+      "galleryBefore": 0,
+      "galleryAfter": 4,
+      "usages": [
+        "side",
+        "detail",
+        "rear",
+        "outsole"
+      ],
+      "provenance": [
+        {
+          "usageType": "side",
+          "sourceUrl": "https://cdn11.bigcommerce.com/s-i8lklasqiy/images/stencil/1280x1280/products/180295/229960/Brooks_110454-090-MEN_BlackWhite2__03518.1776954437.jpg",
+          "licence": "retailer-authorized",
+          "source": "Authorized retailer product photography (BigCommerce CDN)"
+        },
+        {
+          "usageType": "detail",
+          "sourceUrl": "https://cdn11.bigcommerce.com/s-i8lklasqiy/images/stencil/1280x1280/products/180295/229960/Brooks_110454-090-MEN_BlackWhite3__03518.1776954437.jpg",
+          "licence": "retailer-authorized",
+          "source": "Authorized retailer product photography (BigCommerce CDN)"
+        },
+        {
+          "usageType": "rear",
+          "sourceUrl": "https://cdn11.bigcommerce.com/s-i8lklasqiy/images/stencil/1280x1280/products/180295/229960/Brooks_110454-090-MEN_BlackWhite4__03518.1776954437.jpg",
+          "licence": "retailer-authorized",
+          "source": "Authorized retailer product photography (BigCommerce CDN)"
+        },
+        {
+          "usageType": "outsole",
+          "sourceUrl": "https://cdn11.bigcommerce.com/s-i8lklasqiy/images/stencil/1280x1280/products/180295/229960/Brooks_110454-090-MEN_BlackWhite5__03518.1776954437.jpg",
+          "licence": "retailer-authorized",
+          "source": "Authorized retailer product photography (BigCommerce CDN)"
+        }
+      ]
+    },
+    {
+      "productId": "prod-polar-h10",
+      "slug": "polar-h10",
+      "brand": "Polar",
+      "categorySlug": "heart-rate-monitors",
+      "score": 82.5,
+      "galleryBefore": 0,
+      "galleryAfter": 1,
+      "usages": [
+        "side"
+      ],
+      "provenance": [
+        {
+          "usageType": "side",
+          "sourceUrl": "https://www.polar.com/img/static/common/og_default.jpg",
+          "licence": "manufacturer-marketing",
+          "source": "Manufacturer / authorized retailer product photography"
+        }
+      ]
+    },
+    {
+      "productId": "prod-forerunner-970",
+      "slug": "garmin-forerunner-970",
+      "brand": "Garmin",
+      "categorySlug": "gps-watches",
+      "score": 74.55,
+      "galleryBefore": 0,
+      "galleryAfter": 4,
+      "usages": [
+        "side",
+        "detail",
+        "rear",
+        "top"
+      ],
+      "provenance": [
+        {
+          "usageType": "side",
+          "sourceUrl": "https://res.garmin.com/en/products/010-02969-00/g/74281-D-2.jpg",
+          "licence": "manufacturer-marketing",
+          "source": "Manufacturer official product catalog (Garmin)"
+        },
+        {
+          "usageType": "detail",
+          "sourceUrl": "https://res.garmin.com/en/products/010-02969-00/g/74281-D-3.jpg",
+          "licence": "manufacturer-marketing",
+          "source": "Manufacturer official product catalog (Garmin)"
+        },
+        {
+          "usageType": "rear",
+          "sourceUrl": "https://res.garmin.com/en/products/010-02969-00/g/74281-D-4.jpg",
+          "licence": "manufacturer-marketing",
+          "source": "Manufacturer official product catalog (Garmin)"
+        },
+        {
+          "usageType": "top",
+          "sourceUrl": "https://res.garmin.com/en/products/010-02969-00/g/74281-D-5.jpg",
+          "licence": "manufacturer-marketing",
+          "source": "Manufacturer official product catalog (Garmin)"
+        }
+      ]
+    },
+    {
+      "productId": "prod-1080-v14",
+      "slug": "new-balance-fresh-foam-x-1080-v14",
+      "brand": "New Balance",
+      "categorySlug": "running-shoes",
+      "score": 72.25,
+      "galleryBefore": 0,
+      "galleryAfter": 4,
+      "usages": [
+        "side",
+        "outsole",
+        "rear",
+        "detail"
+      ],
+      "provenance": [
+        {
+          "usageType": "side",
+          "sourceUrl": "https://nb.scene7.com/is/image/NB/m1080b14_nb_03_i?$pdpflexf22x$&wid=1200&hei=1200",
+          "licence": "manufacturer-marketing",
+          "source": "Manufacturer product CDN (New Balance Scene7)"
+        },
+        {
+          "usageType": "outsole",
+          "sourceUrl": "https://nb.scene7.com/is/image/NB/m1080b14_nb_04_i?$pdpflexf22x$&wid=1200&hei=1200",
+          "licence": "manufacturer-marketing",
+          "source": "Manufacturer product CDN (New Balance Scene7)"
+        },
+        {
+          "usageType": "rear",
+          "sourceUrl": "https://nb.scene7.com/is/image/NB/m1080b14_nb_05_i?$pdpflexf22x$&wid=1200&hei=1200",
+          "licence": "manufacturer-marketing",
+          "source": "Manufacturer product CDN (New Balance Scene7)"
+        },
+        {
+          "usageType": "detail",
+          "sourceUrl": "https://nb.scene7.com/is/image/NB/m1080b14_nb_06_i?$pdpflexf22x$&wid=1200&hei=1200",
+          "licence": "manufacturer-marketing",
+          "source": "Manufacturer product CDN (New Balance Scene7)"
+        }
+      ]
+    },
+    {
+      "productId": "prod-salomon-adv-skin-5",
+      "slug": "salomon-adv-skin-5",
+      "brand": "Salomon",
+      "categorySlug": "running-packs-vests",
+      "score": 68.5,
+      "galleryBefore": 0,
+      "galleryAfter": 4,
+      "usages": [
+        "side",
+        "detail",
+        "rear",
+        "top"
+      ],
+      "provenance": [
+        {
+          "usageType": "side",
+          "sourceUrl": "https://img.runningwarehouse.com/fpcache/2400/marketing/NIKPP2FPM-lg.jpg",
+          "licence": "retailer-authorized",
+          "source": "Authorized retailer product photography (Running Warehouse)"
+        },
+        {
+          "usageType": "detail",
+          "sourceUrl": "https://img.runningwarehouse.com/fpcache/1982/marketing/NIKPP2FPM-lg.jpg",
+          "licence": "retailer-authorized",
+          "source": "Authorized retailer product photography (Running Warehouse)"
+        },
+        {
+          "usageType": "rear",
+          "sourceUrl": "https://img.runningwarehouse.com/fpcache/1200/marketing/NIKPP2FPM-lg.jpg",
+          "licence": "retailer-authorized",
+          "source": "Authorized retailer product photography (Running Warehouse)"
+        },
+        {
+          "usageType": "top",
+          "sourceUrl": "https://img.runningwarehouse.com/fpcache/991/marketing/NIKPP2FPM-lg.jpg",
+          "licence": "retailer-authorized",
+          "source": "Authorized retailer product photography (Running Warehouse)"
+        }
+      ]
+    },
+    {
+      "productId": "prod-wahoo-trackr",
+      "slug": "wahoo-trackr",
+      "brand": "Wahoo",
+      "categorySlug": "heart-rate-monitors",
+      "score": 67.3,
+      "galleryBefore": 0,
+      "galleryAfter": 1,
+      "usages": [
+        "side"
+      ],
+      "provenance": [
+        {
+          "usageType": "side",
+          "sourceUrl": "https://eu.wahoofitness.com/media/catalog/product/cache/1923967fdc0d9001a5cca9507ecb23ba/t/r/trackr_share.jpg",
+          "licence": "manufacturer-marketing",
+          "source": "Manufacturer / authorized retailer product photography"
+        }
+      ]
+    },
+    {
+      "productId": "prod-sc-trainer-v3",
+      "slug": "new-balance-fuelcell-supercomp-trainer-v3",
+      "brand": "New Balance",
+      "categorySlug": "running-shoes",
+      "score": 66.4,
+      "galleryBefore": 0,
+      "galleryAfter": 4,
+      "usages": [
+        "side",
+        "detail",
+        "rear",
+        "outsole"
+      ],
+      "provenance": [
+        {
+          "usageType": "side",
+          "sourceUrl": "https://img.runningwarehouse.com/watermark/rs.php?path=N3SCTM5-2.jpg&nw=1200",
+          "licence": "retailer-authorized",
+          "source": "Authorized retailer product photography (Running Warehouse)"
+        },
+        {
+          "usageType": "detail",
+          "sourceUrl": "https://img.runningwarehouse.com/watermark/rs.php?path=N3SCTM5-3.jpg&nw=1200",
+          "licence": "retailer-authorized",
+          "source": "Authorized retailer product photography (Running Warehouse)"
+        },
+        {
+          "usageType": "rear",
+          "sourceUrl": "https://img.runningwarehouse.com/watermark/rs.php?path=N3SCTM5-4.jpg&nw=1200",
+          "licence": "retailer-authorized",
+          "source": "Authorized retailer product photography (Running Warehouse)"
+        },
+        {
+          "usageType": "outsole",
+          "sourceUrl": "https://img.runningwarehouse.com/watermark/rs.php?path=N3SCTM5-5.jpg&nw=1200",
+          "licence": "retailer-authorized",
+          "source": "Authorized retailer product photography (Running Warehouse)"
+        }
+      ]
+    },
+    {
+      "productId": "prod-suunto-run",
+      "slug": "suunto-run",
+      "brand": "Suunto",
+      "categorySlug": "gps-watches",
+      "score": 58.8,
+      "galleryBefore": 0,
+      "galleryAfter": 1,
+      "usages": [
+        "side"
+      ],
+      "provenance": [
+        {
+          "usageType": "side",
+          "sourceUrl": "https://www.suunto.com/globalassets/productimages/suunto-run/all-black/suunto-run-all-black-front-1200x1200px-2.png",
+          "licence": "manufacturer-marketing",
+          "source": "Manufacturer / authorized retailer product photography"
+        }
+      ]
+    },
+    {
+      "productId": "prod-ud-race-vest-6",
+      "slug": "ultimate-direction-race-vest-6",
+      "brand": "Ultimate Direction",
+      "categorySlug": "running-packs-vests",
+      "score": 56.45,
+      "galleryBefore": 0,
+      "galleryAfter": 4,
+      "usages": [
+        "side",
+        "detail",
+        "rear",
+        "top"
+      ],
+      "provenance": [
+        {
+          "usageType": "side",
+          "sourceUrl": "https://img.runningwarehouse.com/fpcache/2400/marketing/NIKPP2FPM-lg.jpg",
+          "licence": "retailer-authorized",
+          "source": "Authorized retailer product photography (Running Warehouse)"
+        },
+        {
+          "usageType": "detail",
+          "sourceUrl": "https://img.runningwarehouse.com/fpcache/1982/marketing/NIKPP2FPM-lg.jpg",
+          "licence": "retailer-authorized",
+          "source": "Authorized retailer product photography (Running Warehouse)"
+        },
+        {
+          "usageType": "rear",
+          "sourceUrl": "https://img.runningwarehouse.com/fpcache/1200/marketing/NIKPP2FPM-lg.jpg",
+          "licence": "retailer-authorized",
+          "source": "Authorized retailer product photography (Running Warehouse)"
+        },
+        {
+          "usageType": "top",
+          "sourceUrl": "https://img.runningwarehouse.com/fpcache/991/marketing/NIKPP2FPM-lg.jpg",
+          "licence": "retailer-authorized",
+          "source": "Authorized retailer product photography (Running Warehouse)"
+        }
+      ]
+    },
+    {
+      "productId": "prod-enduro-3",
+      "slug": "garmin-enduro-3",
+      "brand": "Garmin",
+      "categorySlug": "gps-watches",
+      "score": 52.4,
+      "galleryBefore": 0,
+      "galleryAfter": 4,
+      "usages": [
+        "side",
+        "detail",
+        "rear",
+        "top"
+      ],
+      "provenance": [
+        {
+          "usageType": "side",
+          "sourceUrl": "https://res.garmin.com/en/products/010-02751-00/g/67233-2-D.jpg",
+          "licence": "manufacturer-marketing",
+          "source": "Manufacturer official product catalog (Garmin)"
+        },
+        {
+          "usageType": "detail",
+          "sourceUrl": "https://res.garmin.com/en/products/010-02751-00/g/67233-3-D.jpg",
+          "licence": "manufacturer-marketing",
+          "source": "Manufacturer official product catalog (Garmin)"
+        },
+        {
+          "usageType": "rear",
+          "sourceUrl": "https://res.garmin.com/en/products/010-02751-00/g/67233-4-D.jpg",
+          "licence": "manufacturer-marketing",
+          "source": "Manufacturer official product catalog (Garmin)"
+        },
+        {
+          "usageType": "top",
+          "sourceUrl": "https://res.garmin.com/en/products/010-02751-00/g/67233-5-D.jpg",
+          "licence": "manufacturer-marketing",
+          "source": "Manufacturer official product catalog (Garmin)"
+        }
+      ]
+    },
+    {
+      "productId": "prod-suunto-vertical-2",
+      "slug": "suunto-vertical-2",
+      "brand": "Suunto",
+      "categorySlug": "gps-watches",
+      "score": 52.25,
+      "galleryBefore": 0,
+      "galleryAfter": 1,
+      "usages": [
+        "side"
+      ],
+      "provenance": [
+        {
+          "usageType": "side",
+          "sourceUrl": "https://www.suunto.com/globalassets/productimages/suunto-vertical-2/all-black/suunto_vertical_2_all_black_front_1200x1200px.png",
+          "licence": "manufacturer-marketing",
+          "source": "Manufacturer / authorized retailer product photography"
+        }
+      ]
+    },
+    {
+      "productId": "prod-nathan-vaporair-4",
+      "slug": "nathan-vaporair-4",
+      "brand": "Nathan",
+      "categorySlug": "running-packs-vests",
+      "score": 51.4,
+      "galleryBefore": 0,
+      "galleryAfter": 4,
+      "usages": [
+        "side",
+        "detail",
+        "rear",
+        "top"
+      ],
+      "provenance": [
+        {
+          "usageType": "side",
+          "sourceUrl": "https://img.runningwarehouse.com/fpcache/2400/marketing/NIKPP2FPM-lg.jpg",
+          "licence": "retailer-authorized",
+          "source": "Authorized retailer product photography (Running Warehouse)"
+        },
+        {
+          "usageType": "detail",
+          "sourceUrl": "https://img.runningwarehouse.com/fpcache/1982/marketing/NIKPP2FPM-lg.jpg",
+          "licence": "retailer-authorized",
+          "source": "Authorized retailer product photography (Running Warehouse)"
+        },
+        {
+          "usageType": "rear",
+          "sourceUrl": "https://img.runningwarehouse.com/fpcache/1200/marketing/NIKPP2FPM-lg.jpg",
+          "licence": "retailer-authorized",
+          "source": "Authorized retailer product photography (Running Warehouse)"
+        },
+        {
+          "usageType": "top",
+          "sourceUrl": "https://img.runningwarehouse.com/fpcache/991/marketing/NIKPP2FPM-lg.jpg",
+          "licence": "retailer-authorized",
+          "source": "Authorized retailer product photography (Running Warehouse)"
+        }
+      ]
+    },
+    {
+      "productId": "prod-polar-h9",
+      "slug": "polar-h9",
+      "brand": "Polar",
+      "categorySlug": "heart-rate-monitors",
+      "score": 51.2,
+      "galleryBefore": 0,
+      "galleryAfter": 1,
+      "usages": [
+        "side"
+      ],
+      "provenance": [
+        {
+          "usageType": "side",
+          "sourceUrl": "https://www.polar.com/img/cms/1f75eb24404c90ca064484a51fa08a5458ca4b95-1000x1000-1200.png",
+          "licence": "manufacturer-marketing",
+          "source": "Manufacturer / authorized retailer product photography"
+        }
+      ]
+    },
+    {
+      "productId": "prod-osprey-duro-15",
+      "slug": "osprey-duro-15",
+      "brand": "Osprey",
+      "categorySlug": "running-packs-vests",
+      "score": 51.15,
+      "galleryBefore": 0,
+      "galleryAfter": 4,
+      "usages": [
+        "side",
+        "detail",
+        "rear",
+        "top"
+      ],
+      "provenance": [
+        {
+          "usageType": "side",
+          "sourceUrl": "https://www.bfgcdn.com/600_600_90/504-0314/osprey-duro-15-trail-running-backpack-bf.jpg",
+          "licence": "manufacturer-marketing",
+          "source": "Manufacturer / authorized retailer product photography"
+        },
+        {
+          "usageType": "detail",
+          "sourceUrl": "https://www.bfgcdn.com/1500_1500_90/504-0314/osprey-duro-15-trail-running-backpack-bf.jpg",
+          "licence": "manufacturer-marketing",
+          "source": "Manufacturer / authorized retailer product photography"
+        },
+        {
+          "usageType": "rear",
+          "sourceUrl": "https://www.bfgcdn.com/1500_1500_90/504-0314/osprey-duro-15-trail-running-backpack-bf-detail-2.jpg",
+          "licence": "manufacturer-marketing",
+          "source": "Manufacturer / authorized retailer product photography"
+        },
+        {
+          "usageType": "top",
+          "sourceUrl": "https://www.bfgcdn.com/1500_1500_90/504-0314/osprey-duro-15-trail-running-backpack-bf-detail-3.jpg",
+          "licence": "manufacturer-marketing",
+          "source": "Manufacturer / authorized retailer product photography"
+        }
+      ]
+    },
+    {
+      "productId": "prod-janji-multi-short-men",
+      "slug": "janji-multi-short-men",
+      "brand": "Janji",
+      "categorySlug": "running-clothing",
+      "score": 49.4,
+      "galleryBefore": 0,
+      "galleryAfter": 4,
+      "usages": [
+        "side",
+        "detail",
+        "rear",
+        "top"
+      ],
+      "provenance": [
+        {
+          "usageType": "side",
+          "sourceUrl": "https://cdn.shopify.com/s/files/1/0536/9705/files/JANJI-MS09D-CONIFER_PEAK-01.jpg?v=1774973351",
+          "licence": "manufacturer-marketing",
+          "source": "Manufacturer / authorized retailer product photography"
+        },
+        {
+          "usageType": "detail",
+          "sourceUrl": "https://cdn.shopify.com/s/files/1/0536/9705/files/JANJI-MS09D-REGAL-01.jpg?v=1785287629",
+          "licence": "manufacturer-marketing",
+          "source": "Manufacturer / authorized retailer product photography"
+        },
+        {
+          "usageType": "rear",
+          "sourceUrl": "https://cdn.shopify.com/s/files/1/0536/9705/files/JANJI-MS09D-LOCH-01.jpg?v=1785287708",
+          "licence": "manufacturer-marketing",
+          "source": "Manufacturer / authorized retailer product photography"
+        },
+        {
+          "usageType": "top",
+          "sourceUrl": "https://cdn.shopify.com/s/files/1/0536/9705/files/JANJI-MS09D-CREST_FALL-01.jpg?v=1774973351",
+          "licence": "manufacturer-marketing",
+          "source": "Manufacturer / authorized retailer product photography"
+        }
+      ]
+    },
+    {
+      "productId": "prod-hydrapak-skyflask-speed-500",
+      "slug": "hydrapak-skyflask-speed-500",
+      "brand": "HydraPak",
+      "categorySlug": "hydration",
+      "score": 49.2,
+      "galleryBefore": 0,
+      "galleryAfter": 3,
+      "usages": [
+        "side",
+        "detail",
+        "rear"
+      ],
+      "provenance": [
+        {
+          "usageType": "side",
+          "sourceUrl": "http://www.hydrapak.com/cdn/shop/files/SkyFlask_Speed_500ml_Side_HP26_WebRes.webp?v=1784743058",
+          "licence": "manufacturer-marketing",
+          "source": "Manufacturer / authorized retailer product photography"
+        },
+        {
+          "usageType": "detail",
+          "sourceUrl": "https://www.hydrapak.com/cdn/shop/files/SkyFlask_Speed_500ml_Side_HP26_WebRes.webp?v=1784743058",
+          "licence": "manufacturer-marketing",
+          "source": "Manufacturer / authorized retailer product photography"
+        },
+        {
+          "usageType": "rear",
+          "sourceUrl": "https://www.hydrapak.com/cdn/shop/files/SkyFlask_Speed_500ml_Side_HP26_WebRes_grande.webp?v=1784743058",
+          "licence": "manufacturer-marketing",
+          "source": "Manufacturer / authorized retailer product photography"
+        }
+      ]
+    }
+  ]
+}

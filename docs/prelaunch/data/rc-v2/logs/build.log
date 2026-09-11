@@ -1,0 +1,101 @@
+
+> kitletics@0.1.0 build
+> next build
+
+   ▲ Next.js 15.5.24
+   - Environments: .env.local
+
+   Creating an optimized production build ...
+ ✓ Compiled successfully in 20.9s
+   Linting and checking validity of types ...
+
+Failed to compile.
+
+./src/components/alternatives/SourceProductSummary.tsx
+1:8  Warning: 'Image' is defined but never used.  @typescript-eslint/no-unused-vars
+
+./src/components/builders/HomeGymBuilderClient.tsx
+200:6  Warning: React Hook useEffect has a missing dependency: 'applyShared'. Either include it or remove the dependency array.  react-hooks/exhaustive-deps
+
+./src/components/compare/CompareExperience.tsx
+5:8  Warning: 'Link' is defined but never used.  @typescript-eslint/no-unused-vars
+
+./src/components/compare/ComparisonPage.tsx
+7:10  Warning: 'AddToCompareButton' is defined but never used.  @typescript-eslint/no-unused-vars
+
+./src/components/discovery/sections.tsx
+1:8  Warning: 'Link' is defined but never used.  @typescript-eslint/no-unused-vars
+
+./src/components/finder/FinderFlow.tsx
+5:8  Warning: 'Link' is defined but never used.  @typescript-eslint/no-unused-vars
+18:3  Warning: 'stepIsComplete' is defined but never used.  @typescript-eslint/no-unused-vars
+
+./src/components/search/SearchFilters.tsx
+211:9  Warning: The 'baseOpts' object makes the dependencies of useMemo Hook (at line 388) change on every render. Move it inside the useMemo callback. Alternatively, wrap the initialization of 'baseOpts' in its own useMemo() Hook.  react-hooks/exhaustive-deps
+
+./src/components/sport-hub/SportHubBestStrip.tsx
+11:3  Warning: 'SportHubPageData' is defined but never used.  @typescript-eslint/no-unused-vars
+
+./src/content/gear-setups-p45.ts
+1910:24  Warning: '_' is assigned a value but never used.  @typescript-eslint/no-unused-vars
+
+./src/content/running/best-guides.ts
+10:7  Warning: 'watchCriteria' is assigned a value but never used.  @typescript-eslint/no-unused-vars
+12:7  Warning: 'hrmCriteria' is assigned a value but never used.  @typescript-eslint/no-unused-vars
+40:7  Warning: 'vestCriteria' is assigned a value but never used.  @typescript-eslint/no-unused-vars
+
+./src/content/running/weak-cats-launch-ready.ts
+1068:7  Warning: 'EXISTING_REVIEW_LINKS' is assigned a value but never used.  @typescript-eslint/no-unused-vars
+
+./src/domain/builders/home-gym.ts
+196:7  Warning: 'ROLE_CATEGORY' is assigned a value but never used.  @typescript-eslint/no-unused-vars
+
+./src/domain/review-agent/unique-expert-research.ts
+211:10  Warning: 'researchDisclaimer' is defined but never used.  @typescript-eslint/no-unused-vars
+211:29  Warning: '_seed' is defined but never used.  @typescript-eslint/no-unused-vars
+
+./src/domain/site-quality/fix-and-report.ts
+5:10  Warning: 'issue' is defined but never used.  @typescript-eslint/no-unused-vars
+24:11  Warning: 'hit' is assigned a value but never used.  @typescript-eslint/no-unused-vars
+
+./src/domain/site-quality/issues.ts
+22:21  Warning: '_drop' is assigned a value but never used.  @typescript-eslint/no-unused-vars
+
+./src/lib/brand-hub/brand-hub-editorial.ts
+7:15  Warning: 'ProductCategory' is defined but never used.  @typescript-eslint/no-unused-vars
+
+./src/lib/catalog/assemble.ts
+35:3  Warning: 'isLaunchListable' is defined but never used.  @typescript-eslint/no-unused-vars
+
+./src/lib/comparison/product-index-search.ts
+3:3  Warning: 'CompareCategoryOption' is defined but never used.  @typescript-eslint/no-unused-vars
+
+./src/lib/comparison/product-index.ts
+18:3  Warning: 'findIndexItemsBySlugs' is defined but never used.  @typescript-eslint/no-unused-vars
+
+./src/lib/guides/complete-compact-plan.ts
+276:3  Warning: '_slug' is defined but never used.  @typescript-eslint/no-unused-vars
+302:3  Warning: '_slug' is defined but never used.  @typescript-eslint/no-unused-vars
+
+./src/lib/guides/enrich-explainer-visuals.ts
+753:24  Warning: '_drop' is assigned a value but never used.  @typescript-eslint/no-unused-vars
+
+./src/lib/product/alternative-decision-copy.ts
+265:15  Error: React Hook "useCaseHint" is called in function "buildAlternativeDecisionCopy" that is neither a React function component nor a custom React Hook function. React component names must start with an uppercase letter. React Hook names must start with the word "use".  react-hooks/rules-of-hooks
+266:15  Error: React Hook "useCaseHint" is called in function "buildAlternativeDecisionCopy" that is neither a React function component nor a custom React Hook function. React component names must start with an uppercase letter. React Hook names must start with the word "use".  react-hooks/rules-of-hooks
+371:14  Error: React Hook "useCaseHint" is called in function "buildAlternativesPageIntro" that is neither a React function component nor a custom React Hook function. React component names must start with an uppercase letter. React Hook names must start with the word "use".  react-hooks/rules-of-hooks
+
+./src/lib/review/review-longform.ts
+360:37  Warning: 'key' is defined but never used.  @typescript-eslint/no-unused-vars
+1294:3  Warning: '_topic' is defined but never used.  @typescript-eslint/no-unused-vars
+1295:3  Warning: '_product' is defined but never used.  @typescript-eslint/no-unused-vars
+1296:3  Warning: '_review' is defined but never used.  @typescript-eslint/no-unused-vars
+
+./src/lib/setups/get-gear-setup-page-data.ts
+11:3  Warning: 'BuyingGuide' is defined but never used.  @typescript-eslint/no-unused-vars
+12:3  Warning: 'BestGuide' is defined but never used.  @typescript-eslint/no-unused-vars
+
+./src/repositories/commerce.ts
+27:3  Warning: 'shouldDisplayNumericPrice' is defined but never used.  @typescript-eslint/no-unused-vars
+
+info  - Need to disable some ESLint rules? Learn more here: https://nextjs.org/docs/app/api-reference/config/eslint#disabling-rules

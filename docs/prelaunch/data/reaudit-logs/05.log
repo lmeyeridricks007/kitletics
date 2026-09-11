@@ -1,0 +1,42 @@
+Loading catalog + sitemap...
+Sitemap 850; fetching 851 pages from http://127.0.0.1:3010...
+Home OK status=200
+  fetch 1/851
+  fetch 100/851
+  fetch 200/851
+  fetch 300/851
+  fetch 400/851
+  fetch 500/851
+  fetch 600/851
+  fetch 700/851
+  fetch 800/851
+Wrote docs/prelaunch/05-architecture-internal-links.md
+Wrote docs/prelaunch/data/05-link-graph.json
+{
+  "indexable": 846,
+  "orphans": 15,
+  "runningIndexable": 713,
+  "largestComponent": 713,
+  "hubs": [
+    {
+      "name": "Homepage",
+      "out": 78
+    },
+    {
+      "name": "Running Hub",
+      "out": 109
+    },
+    {
+      "name": "Running Gear Hub",
+      "out": 60
+    },
+    {
+      "name": "Reviews Hub",
+      "out": 536
+    },
+    {
+      "name": "Best Hub",
+      "out": 48
+    }
+  ]
+}

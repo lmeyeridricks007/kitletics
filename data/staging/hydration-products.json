@@ -1,0 +1,187 @@
+[
+  {
+    "id": "prod-salomon-adv-skin-5",
+    "slug": "salomon-adv-skin-5",
+    "categoryId": "cat-packs-vests"
+  },
+  {
+    "id": "prod-nathan-vaporair-4",
+    "slug": "nathan-vaporair-4",
+    "categoryId": "cat-packs-vests"
+  },
+  {
+    "id": "prod-nathan-pinnacle-12",
+    "slug": "nathan-pinnacle-12",
+    "categoryId": "cat-packs-vests"
+  },
+  {
+    "id": "prod-ud-race-vest-6",
+    "slug": "ultimate-direction-race-vest-6",
+    "categoryId": "cat-packs-vests"
+  },
+  {
+    "id": "prod-camelbak-zephyr-pro",
+    "slug": "camelbak-zephyr-pro",
+    "categoryId": "cat-packs-vests"
+  },
+  {
+    "id": "prod-camelbak-circuit",
+    "slug": "camelbak-circuit-run-vest",
+    "categoryId": "cat-packs-vests"
+  },
+  {
+    "id": "prod-camelbak-apex-pro",
+    "slug": "camelbak-apex-pro",
+    "categoryId": "cat-packs-vests"
+  },
+  {
+    "id": "prod-osprey-duro-lt",
+    "slug": "osprey-duro-lt",
+    "categoryId": "cat-packs-vests"
+  },
+  {
+    "id": "prod-osprey-dyna-lt",
+    "slug": "osprey-dyna-lt",
+    "categoryId": "cat-packs-vests"
+  },
+  {
+    "id": "prod-osprey-duro-15",
+    "slug": "osprey-duro-15",
+    "categoryId": "cat-packs-vests"
+  },
+  {
+    "id": "prod-patagonia-slope-runner",
+    "slug": "patagonia-slope-runner-vest",
+    "categoryId": "cat-packs-vests"
+  },
+  {
+    "id": "prod-uswe-pace-8",
+    "slug": "uswe-pace-8",
+    "categoryId": "cat-packs-vests"
+  },
+  {
+    "id": "prod-ultraspire-alpha-6",
+    "slug": "ultraspire-alpha-6",
+    "categoryId": "cat-packs-vests"
+  },
+  {
+    "id": "prod-ultraspire-spry-5",
+    "slug": "ultraspire-spry-5",
+    "categoryId": "cat-packs-vests"
+  },
+  {
+    "id": "prod-compressport-ultrun-s-pack",
+    "slug": "compressport-ultrun-s-pack",
+    "categoryId": "cat-packs-vests"
+  },
+  {
+    "id": "prod-raidlight-responsiv-12",
+    "slug": "raidlight-responsiv-12",
+    "categoryId": "cat-packs-vests"
+  },
+  {
+    "id": "prod-nnormal-race-vest",
+    "slug": "nnormal-race-vest",
+    "categoryId": "cat-packs-vests"
+  },
+  {
+    "id": "prod-on-ultra-vest-pro",
+    "slug": "on-ultra-vest-pro",
+    "categoryId": "cat-packs-vests"
+  },
+  {
+    "id": "prod-black-diamond-distance-8",
+    "slug": "black-diamond-distance-8",
+    "categoryId": "cat-packs-vests"
+  },
+  {
+    "id": "prod-kiprun-trail-10",
+    "slug": "kiprun-trail-10",
+    "categoryId": "cat-packs-vests"
+  },
+  {
+    "id": "prod-nathan-peak",
+    "slug": "nathan-peak-hydration-waist-pack",
+    "categoryId": "cat-running-belts"
+  },
+  {
+    "id": "prod-ud-race-belt",
+    "slug": "ultimate-direction-race-belt",
+    "categoryId": "cat-running-belts"
+  },
+  {
+    "id": "prod-ud-ultra-belt",
+    "slug": "ultimate-direction-ultra-belt",
+    "categoryId": "cat-running-belts"
+  },
+  {
+    "id": "prod-naked-running-band",
+    "slug": "naked-running-band",
+    "categoryId": "cat-running-belts"
+  },
+  {
+    "id": "prod-ultraspire-fitted-race-belt",
+    "slug": "ultraspire-fitted-race-belt-2",
+    "categoryId": "cat-running-belts"
+  },
+  {
+    "id": "prod-compressport-free-belt-pro",
+    "slug": "compressport-free-belt-pro",
+    "categoryId": "cat-running-belts"
+  },
+  {
+    "id": "prod-salomon-pulse-belt",
+    "slug": "salomon-pulse-belt",
+    "categoryId": "cat-running-belts"
+  },
+  {
+    "id": "prod-hydrapak-softflask-speed-500",
+    "slug": "hydrapak-softflask-speed-500",
+    "categoryId": "cat-hydration"
+  },
+  {
+    "id": "prod-hydrapak-skyflask-speed-500",
+    "slug": "hydrapak-skyflask-speed-500",
+    "categoryId": "cat-hydration"
+  },
+  {
+    "id": "prod-nathan-speeddraw-insulated",
+    "slug": "nathan-speeddraw-plus-insulated-18oz",
+    "categoryId": "cat-hydration"
+  },
+  {
+    "id": "prod-camelbak-crux-15",
+    "slug": "camelbak-crux-15",
+    "categoryId": "cat-hydration"
+  },
+  {
+    "id": "prod-osprey-hydraulics-15",
+    "slug": "osprey-hydraulics-lt-15",
+    "categoryId": "cat-hydration"
+  },
+  {
+    "id": "prod-hydrapak-shape-shift-15",
+    "slug": "hydrapak-shape-shift-15",
+    "categoryId": "cat-hydration"
+  },
+  {
+    "id": "prod-hydrapak-softflask-250",
+    "slug": "hydrapak-softflask-250",
+    "categoryId": "cat-hydration"
+  },
+  {
+    "id": "prod-hydrapak-tube-kit",
+    "slug": "hydrapak-tube-kit",
+    "categoryId": "cat-hydration"
+  },
+  {
+    "id": "prod-nathan-exoshot",
+    "slug": "nathan-exoshot-2",
+    "categoryId": "cat-hydration"
+  },
+  {
+    "id": "prod-hydrapak-softflask-500",
+    "slug": "hydrapak-softflask-500",
+    "categoryId": "cat-hydration"
+  }
+]

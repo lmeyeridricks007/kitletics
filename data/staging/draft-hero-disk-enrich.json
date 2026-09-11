@@ -1,0 +1,857 @@
+{
+  "prod-camelbak-zephyr-pro": {
+    "fullName": "CamelBak Zephyr Pro",
+    "brandHomepage": "https://www.camelbak.com",
+    "brandName": "CamelBak"
+  },
+  "prod-osprey-dyna-lt": {
+    "fullName": "Osprey Dyna LT",
+    "brandHomepage": "https://www.osprey.com",
+    "brandName": "Osprey"
+  },
+  "prod-osprey-duro-15": {
+    "fullName": "Osprey Duro 15",
+    "brandHomepage": "https://www.osprey.com",
+    "brandName": "Osprey"
+  },
+  "prod-compressport-ultrun-s-pack": {
+    "fullName": "Compressport Ultrun S Pack",
+    "brandHomepage": "https://www.compressport.com",
+    "brandName": "Compressport"
+  },
+  "prod-kiprun-trail-10": {
+    "fullName": "Kiprun Trail 10L Running Vest",
+    "brandHomepage": "https://www.decathlon.com",
+    "brandName": "Decathlon"
+  },
+  "prod-compressport-free-belt-pro": {
+    "fullName": "Compressport Free Belt Pro",
+    "brandHomepage": "https://www.compressport.com",
+    "brandName": "Compressport"
+  },
+  "prod-osprey-hydraulics-15": {
+    "fullName": "Osprey Hydraulics LT 1.5L Reservoir",
+    "brandHomepage": "https://www.osprey.com",
+    "brandName": "Osprey"
+  },
+  "prod-hydrapak-tube-kit": {
+    "fullName": "HydraPak Tube Kit",
+    "brandHomepage": "https://www.hydrapak.com",
+    "brandName": "HydraPak"
+  },
+  "prod-salomon-soft-flask-speed-500": {
+    "fullName": "Salomon Soft Flask Speed 500",
+    "brandHomepage": "https://www.salomon.com",
+    "brandName": "Salomon"
+  },
+  "prod-ud-body-bottle-500": {
+    "fullName": "Ultimate Direction Body Bottle 500",
+    "brandHomepage": "https://ultimatedirection.com",
+    "brandName": "Ultimate Direction"
+  },
+  "prod-nathan-softflask-18oz": {
+    "fullName": "Nathan SoftFlask 18oz",
+    "brandHomepage": "https://www.nathansports.com",
+    "brandName": "Nathan"
+  },
+  "prod-amphipod-hydraform-handheld": {
+    "fullName": "Amphipod Hydraform Ergo-Lite Handheld",
+    "brandHomepage": "https://www.amphipod.com",
+    "brandName": "Amphipod"
+  },
+  "prod-hydrapak-contour-2l": {
+    "fullName": "HydraPak Contour 2L Soft Reservoir",
+    "brandHomepage": "https://www.hydrapak.com",
+    "brandName": "HydraPak"
+  },
+  "prod-swiftwick-aspire-four": {
+    "fullName": "Swiftwick Aspire Four",
+    "brandHomepage": "https://www.swiftwick.com",
+    "brandName": "Swiftwick"
+  },
+  "prod-drymax-run-lite-mesh": {
+    "fullName": "Drymax Run Lite-Mesh",
+    "brandHomepage": "https://www.drymaxsports.com",
+    "brandName": "Drymax"
+  },
+  "prod-amphipod-airflow-lite-belt": {
+    "fullName": "Amphipod AirFlow Lite Belt",
+    "brandHomepage": "https://www.amphipod.com",
+    "brandName": "Amphipod"
+  },
+  "prod-fitletic-fully-loaded": {
+    "fullName": "Fitletic Fully Loaded Running Belt",
+    "brandHomepage": "https://www.fitletic.com",
+    "brandName": "Fitletic"
+  },
+  "prod-nathan-zipster-lite": {
+    "fullName": "Nathan ZipSter Lite",
+    "brandHomepage": "https://www.nathansports.com",
+    "brandName": "Nathan"
+  },
+  "prod-kiprun-running-belt": {
+    "fullName": "Kiprun Running Belt",
+    "brandHomepage": "https://www.decathlon.com",
+    "brandName": "Decathlon"
+  },
+  "prod-ud-fastpack-20": {
+    "fullName": "Ultimate Direction Fastpack 20",
+    "brandHomepage": "https://ultimatedirection.com",
+    "brandName": "Ultimate Direction"
+  },
+  "prod-ud-fastpack-her-20": {
+    "fullName": "Ultimate Direction FastpackHer 20",
+    "brandHomepage": "https://ultimatedirection.com",
+    "brandName": "Ultimate Direction"
+  },
+  "prod-ud-fastpack-30": {
+    "fullName": "Ultimate Direction Fastpack 30",
+    "brandHomepage": "https://ultimatedirection.com",
+    "brandName": "Ultimate Direction"
+  },
+  "prod-osprey-talon-velocity-20": {
+    "fullName": "Osprey Talon Velocity 20",
+    "brandHomepage": "https://www.osprey.com",
+    "brandName": "Osprey"
+  },
+  "prod-osprey-tempest-velocity-20": {
+    "fullName": "Osprey Tempest Velocity 20",
+    "brandHomepage": "https://www.osprey.com",
+    "brandName": "Osprey"
+  },
+  "prod-osprey-talon-velocity-30": {
+    "fullName": "Osprey Talon Velocity 30",
+    "brandHomepage": "https://www.osprey.com",
+    "brandName": "Osprey"
+  },
+  "prod-black-diamond-distance-15": {
+    "fullName": "Black Diamond Distance 15 Backpack",
+    "brandHomepage": "https://www.blackdiamondequipment.com",
+    "brandName": "Black Diamond"
+  },
+  "prod-black-diamond-distance-22": {
+    "fullName": "Black Diamond Distance 22 Backpack",
+    "brandHomepage": "https://www.blackdiamondequipment.com",
+    "brandName": "Black Diamond"
+  },
+  "prod-salomon-xa-15": {
+    "fullName": "Salomon XA 15",
+    "brandHomepage": "https://www.salomon.com",
+    "brandName": "Salomon"
+  },
+  "prod-salomon-custom-quiver": {
+    "fullName": "Salomon Custom Quiver",
+    "brandHomepage": "https://www.salomon.com",
+    "brandName": "Salomon"
+  },
+  "prod-shokz-opendots-one": {
+    "fullName": "Shokz OpenDots One",
+    "brandHomepage": "https://www.shokz.com",
+    "brandName": "Shokz"
+  },
+  "prod-beats-powerbeats-pro-2": {
+    "fullName": "Beats Powerbeats Pro 2",
+    "brandHomepage": "https://www.beatsbydre.com",
+    "brandName": "Beats"
+  },
+  "prod-beats-fit-pro": {
+    "fullName": "Beats Fit Pro",
+    "brandHomepage": "https://www.beatsbydre.com",
+    "brandName": "Beats"
+  },
+  "prod-apple-airpods-4": {
+    "fullName": "Apple AirPods 4",
+    "brandHomepage": "https://www.apple.com",
+    "brandName": "Apple"
+  },
+  "prod-oakley-radar-ev-path": {
+    "fullName": "Oakley Radar EV Path",
+    "brandHomepage": "https://www.oakley.com",
+    "brandName": "Oakley"
+  },
+  "prod-oakley-sutro-lite": {
+    "fullName": "Oakley Sutro Lite",
+    "brandHomepage": "https://www.oakley.com",
+    "brandName": "Oakley"
+  },
+  "prod-oakley-kato": {
+    "fullName": "Oakley Kato",
+    "brandHomepage": "https://www.oakley.com",
+    "brandName": "Oakley"
+  },
+  "prod-oakley-flak-2xl": {
+    "fullName": "Oakley Flak 2.0 XL",
+    "brandHomepage": "https://www.oakley.com",
+    "brandName": "Oakley"
+  },
+  "prod-smith-shift-mag": {
+    "fullName": "Smith Shift MAG",
+    "brandHomepage": "https://www.smithoptics.com",
+    "brandName": "Smith"
+  },
+  "prod-smith-attack-mag": {
+    "fullName": "Smith Attack MAG",
+    "brandHomepage": "https://www.smithoptics.com",
+    "brandName": "Smith"
+  },
+  "prod-julbo-ultimate": {
+    "fullName": "Julbo Ultimate",
+    "brandHomepage": "https://www.julbo.com",
+    "brandName": "Julbo"
+  },
+  "prod-julbo-rush": {
+    "fullName": "Julbo Rush",
+    "brandHomepage": "https://www.julbo.com",
+    "brandName": "Julbo"
+  },
+  "prod-rudy-cutline": {
+    "fullName": "Rudy Project Cutline",
+    "brandHomepage": "https://www.rudyproject.com",
+    "brandName": "Rudy Project"
+  },
+  "prod-100-s3": {
+    "fullName": "100% S3",
+    "brandHomepage": "https://www.ride100percent.com",
+    "brandName": "100%"
+  },
+  "prod-roka-phantom-air": {
+    "fullName": "ROKA Phantom Air",
+    "brandHomepage": "https://www.roka.com",
+    "brandName": "ROKA"
+  },
+  "prod-tifosi-rail": {
+    "fullName": "Tifosi Rail",
+    "brandHomepage": "https://www.tifosioptics.com",
+    "brandName": "Tifosi"
+  },
+  "prod-tifosi-vogel": {
+    "fullName": "Tifosi Vogel",
+    "brandHomepage": "https://www.tifosioptics.com",
+    "brandName": "Tifosi"
+  },
+  "prod-goodr-circle-gs": {
+    "fullName": "Goodr Circle Gs",
+    "brandHomepage": "https://www.goodr.com",
+    "brandName": "goodr"
+  },
+  "prod-petzl-nao-rl": {
+    "fullName": "Petzl NAO RL",
+    "brandHomepage": "https://www.petzl.com",
+    "brandName": "Petzl"
+  },
+  "prod-petzl-actik-core": {
+    "fullName": "Petzl Actik Core",
+    "brandHomepage": "https://www.petzl.com",
+    "brandName": "Petzl"
+  },
+  "prod-bd-distance-1500": {
+    "fullName": "Black Diamond Distance 1500",
+    "brandHomepage": "https://www.blackdiamondequipment.com",
+    "brandName": "Black Diamond"
+  },
+  "prod-ledlenser-neo9r": {
+    "fullName": "Ledlenser NEO9R",
+    "brandHomepage": "https://www.ledlenser.com",
+    "brandName": "Ledlenser"
+  },
+  "prod-fenix-hm65r-t": {
+    "fullName": "Fenix HM65R-T",
+    "brandHomepage": "https://www.fenixlighting.com",
+    "brandName": "Fenix"
+  },
+  "prod-biolite-headlamp-800": {
+    "fullName": "BioLite HeadLamp 800 Pro",
+    "brandHomepage": "https://www.bioliteenergy.com",
+    "brandName": "BioLite"
+  },
+  "prod-biolite-headlamp-425": {
+    "fullName": "BioLite HeadLamp 425",
+    "brandHomepage": "https://www.bioliteenergy.com",
+    "brandName": "BioLite"
+  },
+  "prod-nitecore-nu43": {
+    "fullName": "NITECORE NU43",
+    "brandHomepage": "https://www.nitecore.com",
+    "brandName": "NITECORE"
+  },
+  "prod-amphipod-xinglet": {
+    "fullName": "Amphipod Xinglet Reflective Sash",
+    "brandHomepage": "https://www.amphipod.com",
+    "brandName": "Amphipod"
+  },
+  "prod-amphipod-xinglet-optic-beam": {
+    "fullName": "Amphipod Xinglet Optic Beam Rechargeable Vest",
+    "brandHomepage": "https://www.amphipod.com",
+    "brandName": "Amphipod"
+  },
+  "prod-amphipod-vizlet": {
+    "fullName": "Amphipod Vizlet LED Reflector",
+    "brandHomepage": "https://www.amphipod.com",
+    "brandName": "Amphipod"
+  },
+  "prod-proviz-reflect360-vest": {
+    "fullName": "Proviz Reflect360 Running Vest",
+    "brandHomepage": "https://www.provizsports.com",
+    "brandName": "Proviz"
+  },
+  "prod-nathan-lightbender": {
+    "fullName": "Nathan LightBender RX Armband Light",
+    "brandHomepage": "https://www.nathansports.com",
+    "brandName": "Nathan"
+  },
+  "prod-maurten-gel-100": {
+    "fullName": "Maurten Gel 100",
+    "brandHomepage": "https://www.maurten.com",
+    "brandName": "Maurten"
+  },
+  "prod-maurten-gel-100-caf": {
+    "fullName": "Maurten Gel 100 Caf 100",
+    "brandHomepage": "https://www.maurten.com",
+    "brandName": "Maurten"
+  },
+  "prod-maurten-gel-160": {
+    "fullName": "Maurten Gel 160",
+    "brandHomepage": "https://www.maurten.com",
+    "brandName": "Maurten"
+  },
+  "prod-sis-go-isotonic-gel": {
+    "fullName": "Science in Sport GO Isotonic Energy Gel",
+    "brandHomepage": "https://www.scienceinsport.com",
+    "brandName": "Science in Sport"
+  },
+  "prod-sis-beta-fuel-gel": {
+    "fullName": "Science in Sport Beta Fuel Dual Source Energy Gel",
+    "brandHomepage": "https://www.scienceinsport.com",
+    "brandName": "Science in Sport"
+  },
+  "prod-gu-energy-gel": {
+    "fullName": "GU Energy Gel",
+    "brandHomepage": "https://guenergy.com",
+    "brandName": "GU Energy"
+  },
+  "prod-gu-roctane-gel": {
+    "fullName": "GU Roctane Energy Gel",
+    "brandHomepage": "https://guenergy.com",
+    "brandName": "GU Energy"
+  },
+  "prod-precision-pf30-gel": {
+    "fullName": "Precision Fuel & Hydration PF 30 Gel",
+    "brandHomepage": "https://www.precisionhydration.com",
+    "brandName": "Precision Fuel & Hydration"
+  },
+  "prod-neversecond-c30-gel": {
+    "fullName": "Neversecond C30 Energy Gel",
+    "brandHomepage": "https://www.never2.com",
+    "brandName": "Neversecond"
+  },
+  "prod-huma-gel-original": {
+    "fullName": "Hüma Original Energy Gel",
+    "brandHomepage": "https://humagel.com",
+    "brandName": "Hüma"
+  },
+  "prod-honey-stinger-gel": {
+    "fullName": "Honey Stinger Organic Energy Gel",
+    "brandHomepage": "https://www.honeystinger.com",
+    "brandName": "Honey Stinger"
+  },
+  "prod-clif-bloks": {
+    "fullName": "CLIF BLOKS Energy Chews",
+    "brandHomepage": "https://www.clifbar.com",
+    "brandName": "Clif Bar"
+  },
+  "prod-gu-chews": {
+    "fullName": "GU Energy Chews",
+    "brandHomepage": "https://guenergy.com",
+    "brandName": "GU Energy"
+  },
+  "prod-skratch-chews": {
+    "fullName": "Skratch Labs Sport Energy Chews",
+    "brandHomepage": "https://www.skratchlabs.com",
+    "brandName": "Skratch Labs"
+  },
+  "prod-veloforte-chews": {
+    "fullName": "Veloforte Energy Chews",
+    "brandHomepage": "https://www.veloforte.cc",
+    "brandName": "Veloforte"
+  },
+  "prod-saltstick-fastchews": {
+    "fullName": "SaltStick Fastchews",
+    "brandHomepage": "https://saltstick.com",
+    "brandName": "SaltStick"
+  },
+  "prod-clif-bar-original": {
+    "fullName": "CLIF Bar Original",
+    "brandHomepage": "https://www.clifbar.com",
+    "brandName": "Clif Bar"
+  },
+  "prod-naak-ultra-energy-bar": {
+    "fullName": "Näak Ultra Energy Bar",
+    "brandHomepage": "https://www.naak.com",
+    "brandName": "Näak"
+  },
+  "prod-powerbar-energize": {
+    "fullName": "PowerBar Energize",
+    "brandHomepage": "https://www.powerbar.com",
+    "brandName": "PowerBar"
+  },
+  "prod-maurten-drink-mix-160": {
+    "fullName": "Maurten Drink Mix 160",
+    "brandHomepage": "https://www.maurten.com",
+    "brandName": "Maurten"
+  },
+  "prod-maurten-drink-mix-320": {
+    "fullName": "Maurten Drink Mix 320",
+    "brandHomepage": "https://www.maurten.com",
+    "brandName": "Maurten"
+  },
+  "prod-sis-beta-fuel-drink": {
+    "fullName": "Science in Sport Beta Fuel Energy Drink Mix",
+    "brandHomepage": "https://www.scienceinsport.com",
+    "brandName": "Science in Sport"
+  },
+  "prod-tailwind-endurance": {
+    "fullName": "Tailwind Endurance Fuel",
+    "brandHomepage": "https://www.tailwindnutrition.com",
+    "brandName": "Tailwind"
+  },
+  "prod-precision-pf30-drink": {
+    "fullName": "Precision Fuel & Hydration PF 30 Drink Mix",
+    "brandHomepage": "https://www.precisionhydration.com",
+    "brandName": "Precision Fuel & Hydration"
+  },
+  "prod-neversecond-c30-drink": {
+    "fullName": "Neversecond C30 Sports Drink",
+    "brandHomepage": "https://www.never2.com",
+    "brandName": "Neversecond"
+  },
+  "prod-skratch-sport-hydration": {
+    "fullName": "Skratch Labs Sport Hydration Drink Mix",
+    "brandHomepage": "https://www.skratchlabs.com",
+    "brandName": "Skratch Labs"
+  },
+  "prod-precision-ph1500": {
+    "fullName": "Precision Fuel & Hydration PH 1500",
+    "brandHomepage": "https://www.precisionhydration.com",
+    "brandName": "Precision Fuel & Hydration"
+  },
+  "prod-nuun-sport": {
+    "fullName": "Nuun Sport Electrolyte Tablets",
+    "brandHomepage": "https://nuunlife.com",
+    "brandName": "Nuun"
+  },
+  "prod-high5-zero": {
+    "fullName": "High5 ZERO Electrolyte Tablets",
+    "brandHomepage": "https://highfive.co.uk",
+    "brandName": "High5"
+  },
+  "prod-saltstick-caps": {
+    "fullName": "SaltStick Caps",
+    "brandHomepage": "https://saltstick.com",
+    "brandName": "SaltStick"
+  },
+  "prod-high5-energy-gel": {
+    "fullName": "High5 Energy Gel",
+    "brandHomepage": "https://highfive.co.uk",
+    "brandName": "High5"
+  },
+  "prod-226ers-high-energy-gel": {
+    "fullName": "226ERS High Energy Gel",
+    "brandHomepage": "https://www.226ers.com",
+    "brandName": "226ERS"
+  },
+  "prod-enervit-carbo-gel": {
+    "fullName": "Enervit C2:1 Carbo Gel",
+    "brandHomepage": "https://www.enervit.com",
+    "brandName": "Enervit"
+  },
+  "prod-styrkr-gel30": {
+    "fullName": "STYRKR GEL30",
+    "brandHomepage": "https://styrkr.com",
+    "brandName": "STYRKR"
+  },
+  "prod-naak-ultra-energy-drink": {
+    "fullName": "Näak Ultra Energy Drink Mix",
+    "brandHomepage": "https://www.naak.com",
+    "brandName": "Näak"
+  },
+  "prod-veloforte-bar": {
+    "fullName": "Veloforte Energy Bar",
+    "brandHomepage": "https://www.veloforte.cc",
+    "brandName": "Veloforte"
+  },
+  "prod-theragun-pro": {
+    "fullName": "Therabody Theragun Pro",
+    "brandHomepage": "https://www.therabody.com",
+    "brandName": "Therabody"
+  },
+  "prod-theragun-relief": {
+    "fullName": "Therabody Theragun Relief",
+    "brandHomepage": "https://www.therabody.com",
+    "brandName": "Therabody"
+  },
+  "prod-hypervolt-2": {
+    "fullName": "Hyperice Hypervolt 2",
+    "brandHomepage": "https://hyperice.com",
+    "brandName": "Hyperice"
+  },
+  "prod-triggerpoint-grid-x": {
+    "fullName": "TriggerPoint GRID X Foam Roller",
+    "brandHomepage": "https://www.triggerpointtherapy.com",
+    "brandName": "TriggerPoint"
+  },
+  "prod-triggerpoint-grid-travel": {
+    "fullName": "TriggerPoint GRID Foam Roller 13\"",
+    "brandHomepage": "https://www.triggerpointtherapy.com",
+    "brandName": "TriggerPoint"
+  },
+  "prod-normatec-3": {
+    "fullName": "Hyperice Normatec 3",
+    "brandHomepage": "https://hyperice.com",
+    "brandName": "Hyperice"
+  },
+  "prod-oofos-oolala": {
+    "fullName": "OOFOS OOlala",
+    "brandHomepage": "https://www.oofos.com",
+    "brandName": "OOFOS"
+  },
+  "prod-hoka-ora-recovery-slide": {
+    "fullName": "HOKA Ora Recovery Slide",
+    "brandHomepage": "https://www.hoka.com",
+    "brandName": "HOKA"
+  },
+  "prod-hyperice-vyper-3": {
+    "fullName": "Hyperice Vyper 3",
+    "brandHomepage": "https://hyperice.com",
+    "brandName": "Hyperice"
+  },
+  "prod-tracksmith-session-short-men": {
+    "fullName": "Tracksmith Session Short (Men)",
+    "brandHomepage": "https://www.tracksmith.com",
+    "brandName": "Tracksmith"
+  },
+  "prod-tracksmith-session-short-women": {
+    "fullName": "Tracksmith Session Short (Women)",
+    "brandHomepage": "https://www.tracksmith.com",
+    "brandName": "Tracksmith"
+  },
+  "prod-patagonia-strider-pro-men": {
+    "fullName": "Patagonia Strider Pro Shorts (Men)",
+    "brandHomepage": "https://www.patagonia.com",
+    "brandName": "Patagonia"
+  },
+  "prod-patagonia-trailfarer-short-women": {
+    "fullName": "Patagonia Trailfarer Shorts (Women)",
+    "brandHomepage": "https://www.patagonia.com",
+    "brandName": "Patagonia"
+  },
+  "prod-rabbit-fuel-n-fly-men": {
+    "fullName": "rabbit Fuel n' Fly 5\" Short (Men)",
+    "brandHomepage": "https://www.runinrabbit.com",
+    "brandName": "Rabbit"
+  },
+  "prod-brooks-sherpa-7-men": {
+    "fullName": "Brooks Sherpa 7\" 2-in-1 Short (Men)",
+    "brandHomepage": "https://www.brooksrunning.com",
+    "brandName": "Brooks"
+  },
+  "prod-brooks-chaser-5-women": {
+    "fullName": "Brooks Chaser 5\" Short Tight (Women)",
+    "brandHomepage": "https://www.brooksrunning.com",
+    "brandName": "Brooks"
+  },
+  "prod-adidas-own-the-run-short-men": {
+    "fullName": "adidas Own the Run Short (Men)",
+    "brandHomepage": "https://www.adidas.com",
+    "brandName": "Adidas"
+  },
+  "prod-on-performance-short-men": {
+    "fullName": "On Performance Shorts / Hybrid (Men)",
+    "brandHomepage": "https://www.on.com",
+    "brandName": "On"
+  },
+  "prod-tracksmith-twilight-half-men": {
+    "fullName": "Tracksmith Twilight Half Tights (Men)",
+    "brandHomepage": "https://www.tracksmith.com",
+    "brandName": "Tracksmith"
+  },
+  "prod-tracksmith-turnover-tight-women": {
+    "fullName": "Tracksmith Turnover Lined Tight (Women)",
+    "brandHomepage": "https://www.tracksmith.com",
+    "brandName": "Tracksmith"
+  },
+  "prod-patagonia-endless-run-tight-women": {
+    "fullName": "Patagonia Endless Run Tights (Women)",
+    "brandHomepage": "https://www.patagonia.com",
+    "brandName": "Patagonia"
+  },
+  "prod-brooks-canopy-jacket-unisex": {
+    "fullName": "Brooks Canopy Jacket (Men)",
+    "brandHomepage": "https://www.brooksrunning.com",
+    "brandName": "Brooks"
+  },
+  "prod-brooks-notch-thermal-men": {
+    "fullName": "Brooks Notch Thermal Hoodie (Men)",
+    "brandHomepage": "https://www.brooksrunning.com",
+    "brandName": "Brooks"
+  },
+  "prod-patagonia-houdini-men": {
+    "fullName": "Patagonia Houdini Jacket (Men)",
+    "brandHomepage": "https://www.patagonia.com",
+    "brandName": "Patagonia"
+  },
+  "prod-on-weather-jacket-men": {
+    "fullName": "On Weather Jacket (Men)",
+    "brandHomepage": "https://www.on.com",
+    "brandName": "On"
+  },
+  "prod-craft-adv-essence-light-wind-men": {
+    "fullName": "Craft ADV Essence Light Wind Jacket (Men)",
+    "brandHomepage": "https://www.craftsportswear.com",
+    "brandName": "Craft"
+  },
+  "prod-salomon-bonatti-wp-men": {
+    "fullName": "Salomon Bonatti Waterproof Jacket (Men)",
+    "brandHomepage": "https://www.salomon.com",
+    "brandName": "Salomon"
+  },
+  "prod-salomon-bonatti-wp-women": {
+    "fullName": "Salomon Bonatti Waterproof Jacket (Women)",
+    "brandHomepage": "https://www.salomon.com",
+    "brandName": "Salomon"
+  },
+  "prod-janji-rainrunner-unisex": {
+    "fullName": "Janji Rainrunner Jacket (Men)",
+    "brandHomepage": "https://www.janji.com",
+    "brandName": "Janji"
+  },
+  "prod-tracksmith-van-cortlandt-tee-men": {
+    "fullName": "Tracksmith Van Cortlandt / Session Tee (Men)",
+    "brandHomepage": "https://www.tracksmith.com",
+    "brandName": "Tracksmith"
+  },
+  "prod-patagonia-capilene-cool-daily-men": {
+    "fullName": "Patagonia Capilene Cool Daily Shirt (Men)",
+    "brandHomepage": "https://www.patagonia.com",
+    "brandName": "Patagonia"
+  },
+  "prod-adidas-own-the-run-tee-men": {
+    "fullName": "adidas Own the Run Tee (Men)",
+    "brandHomepage": "https://www.adidas.com",
+    "brandName": "Adidas"
+  },
+  "prod-tracksmith-brighton-ls-men": {
+    "fullName": "Tracksmith Brighton Long Sleeve (Men)",
+    "brandHomepage": "https://www.tracksmith.com",
+    "brandName": "Tracksmith"
+  },
+  "prod-patagonia-capilene-thermal-crew-unisex": {
+    "fullName": "Patagonia Capilene Thermal Weight Crew (Men)",
+    "brandHomepage": "https://www.patagonia.com",
+    "brandName": "Patagonia"
+  },
+  "prod-patagonia-capilene-midweight-zip-men": {
+    "fullName": "Patagonia Capilene Midweight Zip-Neck (Men)",
+    "brandHomepage": "https://www.patagonia.com",
+    "brandName": "Patagonia"
+  },
+  "prod-craft-active-extreme-x-men": {
+    "fullName": "Craft Active Extreme X Windstop (Men)",
+    "brandHomepage": "https://www.craftsportswear.com",
+    "brandName": "Craft"
+  },
+  "prod-patagonia-nano-puff-vest-men": {
+    "fullName": "Patagonia Nano-Puff Vest (Men)",
+    "brandHomepage": "https://www.patagonia.com",
+    "brandName": "Patagonia"
+  },
+  "prod-craft-adv-essence-light-wind-vest-men": {
+    "fullName": "Craft ADV Essence Light Wind Vest (Men)",
+    "brandHomepage": "https://www.craftsportswear.com",
+    "brandName": "Craft"
+  },
+  "prod-nike-swoosh-medium-support": {
+    "fullName": "Nike Swoosh Medium Support Bra",
+    "brandHomepage": "https://www.nike.com",
+    "brandName": "Nike"
+  },
+  "prod-ciele-gocap-athletics": {
+    "fullName": "Ciele GOCap Athletics",
+    "brandHomepage": "https://www.cieleathletics.com",
+    "brandName": "Ciele"
+  },
+  "prod-smartwool-thermal-merino-glove": {
+    "fullName": "Smartwool Thermal Merino Glove",
+    "brandHomepage": "https://www.smartwool.com",
+    "brandName": "Smartwool"
+  },
+  "prod-craft-adv-lumen-glove": {
+    "fullName": "Craft ADV Lumen Fleece Glove",
+    "brandHomepage": "https://www.craftsportswear.com",
+    "brandName": "Craft"
+  },
+  "prod-hydrapak-softflask-500": {
+    "fullName": "HydraPak SoftFlask 500 ml",
+    "brandHomepage": "https://www.hydrapak.com",
+    "brandName": "HydraPak"
+  },
+  "prod-nike-stride-short": {
+    "fullName": "Nike Dri-FIT Stride Short",
+    "brandHomepage": "https://www.nike.com",
+    "brandName": "Nike"
+  },
+  "prod-craft-adv-essence-short": {
+    "fullName": "Craft ADV Essence Short",
+    "brandHomepage": "https://www.craftsportswear.com",
+    "brandName": "Craft"
+  },
+  "prod-balega-hidden-comfort": {
+    "fullName": "Balega Hidden Comfort",
+    "brandHomepage": "https://www.balega.com",
+    "brandName": "Balega"
+  },
+  "prod-oakley-encoder": {
+    "fullName": "Oakley Encoder",
+    "brandHomepage": "https://www.oakley.com",
+    "brandName": "Oakley"
+  },
+  "prod-goodr-ogs": {
+    "fullName": "Goodr OGs",
+    "brandHomepage": "https://www.goodr.com",
+    "brandName": "goodr"
+  },
+  "prod-julbo-aerolite": {
+    "fullName": "Julbo Aerolite",
+    "brandHomepage": "https://www.julbo.com",
+    "brandName": "Julbo"
+  },
+  "prod-triggerpoint-grid": {
+    "fullName": "TriggerPoint GRID Foam Roller",
+    "brandHomepage": "https://www.triggerpointtherapy.com",
+    "brandName": "TriggerPoint"
+  },
+  "prod-body-glide-original": {
+    "fullName": "Body Glide Original Anti-Chafe Balm",
+    "brandHomepage": "https://www.bodyglide.com",
+    "brandName": "Body Glide"
+  },
+  "prod-buff-polar": {
+    "fullName": "BUFF Polar Multifunctional Neckwear",
+    "brandHomepage": "https://www.buff.com",
+    "brandName": "BUFF"
+  },
+  "prod-siux-diablo-pro": {
+    "fullName": "Siux Diablo Pro",
+    "brandHomepage": "https://www.siuxpadel.com",
+    "brandName": "Siux"
+  },
+  "prod-siux-comodo-woman": {
+    "fullName": "Siux Comodo Woman",
+    "brandHomepage": "https://www.siuxpadel.com",
+    "brandName": "Siux"
+  },
+  "prod-asics-gel-resolution-padel-w": {
+    "fullName": "ASICS Gel-Resolution Padel Women",
+    "brandHomepage": "https://www.asics.com",
+    "brandName": "ASICS"
+  },
+  "prod-asics-solution-swift-padel-w": {
+    "fullName": "ASICS Solution Swift FF Padel Women",
+    "brandHomepage": "https://www.asics.com",
+    "brandName": "ASICS"
+  },
+  "prod-wilson-bela-pro-padel": {
+    "fullName": "Wilson Bela Pro Padel",
+    "brandHomepage": "https://www.wilson.com",
+    "brandName": "Wilson"
+  },
+  "prod-joma-spin-lady": {
+    "fullName": "Joma Spin Lady",
+    "brandHomepage": "https://www.joma-sport.com",
+    "brandName": "Joma"
+  },
+  "prod-bullpadel-hack-hybrid": {
+    "fullName": "Bullpadel Hack Hybrid",
+    "brandHomepage": "https://www.bullpadel.com",
+    "brandName": "Bullpadel"
+  },
+  "prod-nox-at10-pro-shoe": {
+    "fullName": "Nox AT10 Pro",
+    "brandHomepage": "https://www.noxpadel.com",
+    "brandName": "Nox"
+  },
+  "prod-babolat-jet-premura-2-men": {
+    "fullName": "Babolat Jet Premura 2",
+    "brandHomepage": "https://www.babolat.com",
+    "brandName": "Babolat"
+  },
+  "prod-lok-padel-one": {
+    "fullName": "LOK Padel One",
+    "brandHomepage": "https://www.lokpadel.com",
+    "brandName": "Lok"
+  },
+  "prod-babolat-jet-tere": {
+    "fullName": "Babolat Jet Tere",
+    "brandHomepage": "https://www.babolat.com",
+    "brandName": "Babolat"
+  },
+  "prod-wilson-rush-pro-5": {
+    "fullName": "Wilson Rush Pro 5.0",
+    "brandHomepage": "https://www.wilson.com",
+    "brandName": "Wilson"
+  },
+  "prod-nike-court-lite-4": {
+    "fullName": "NikeCourt Lite 4",
+    "brandHomepage": "https://www.nike.com",
+    "brandName": "Nike"
+  },
+  "prod-nike-vapor-cage-4": {
+    "fullName": "NikeCourt Air Zoom Vapor Cage 4 Rafa",
+    "brandHomepage": "https://www.nike.com",
+    "brandName": "Nike"
+  },
+  "prod-adidas-gamecourt-2": {
+    "fullName": "Adidas Gamecourt 2",
+    "brandHomepage": "https://www.adidas.com",
+    "brandName": "Adidas"
+  },
+  "prod-babolat-propulse-fury-3": {
+    "fullName": "Babolat Propulse Fury 3",
+    "brandHomepage": "https://www.babolat.com",
+    "brandName": "Babolat"
+  },
+  "prod-head-revolt-pro-45": {
+    "fullName": "HEAD Revolt Pro 4.5",
+    "brandHomepage": "https://www.head.com",
+    "brandName": "Head"
+  },
+  "prod-head-sprint-pro-35": {
+    "fullName": "HEAD Sprint Pro 3.5",
+    "brandHomepage": "https://www.head.com",
+    "brandName": "Head"
+  },
+  "prod-nb-996-v5": {
+    "fullName": "New Balance 996 v5",
+    "brandHomepage": "https://www.newbalance.com",
+    "brandName": "New Balance"
+  },
+  "prod-yonex-eclipsion-5": {
+    "fullName": "Yonex Power Cushion Eclipsion 5",
+    "brandHomepage": "https://www.yonex.com",
+    "brandName": "Yonex"
+  },
+  "prod-yonex-sonicage-3": {
+    "fullName": "Yonex Power Cushion Sonicage 3",
+    "brandHomepage": "https://www.yonex.com",
+    "brandName": "Yonex"
+  },
+  "prod-mizuno-wave-exceed-tour-5": {
+    "fullName": "Mizuno Wave Exceed Tour 5",
+    "brandHomepage": "https://www.mizuno.com",
+    "brandName": "Mizuno"
+  },
+  "prod-prince-t22": {
+    "fullName": "Prince T22",
+    "brandHomepage": "https://www.princetennis.com",
+    "brandName": "Prince"
+  }
+}

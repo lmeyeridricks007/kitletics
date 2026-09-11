@@ -1,0 +1,17 @@
+/Users/LMeyeridricks/Documents/coding/kitletics/scripts/tmp/prelaunch-33-review-hold-audit.ts:123
+    const results = search(product.name.split(" ")[0] ?? "running", {
+                    ^
+
+TypeError: (0 , import_engine.search) is not a function
+    at sitemapMod (/Users/LMeyeridricks/Documents/coding/kitletics/scripts/tmp/prelaunch-33-review-hold-audit.ts:123:21)
+    at Object.<anonymous> (/Users/LMeyeridricks/Documents/coding/kitletics/scripts/tmp/prelaunch-33-review-hold-audit.ts:267:1)
+    at Module._compile (node:internal/modules/cjs/loader:1829:14)
+    at Object.transformer (/Users/LMeyeridricks/Documents/coding/kitletics/node_modules/tsx/dist/register-OY9cqBEN.cjs:9:3619)
+    at Module.load (node:internal/modules/cjs/loader:1552:32)
+    at Module._load (node:internal/modules/cjs/loader:1354:12)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)
+    at loadCJSModuleWithModuleLoad (node:internal/modules/esm/translators:325:3)
+    at ModuleWrap.<anonymous> (node:internal/modules/esm/translators:230:7)
+    at ModuleJob.run (node:internal/modules/esm/module_job:430:25)
+
+Node.js v25.8.1

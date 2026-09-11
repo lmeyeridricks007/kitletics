@@ -1,0 +1,232 @@
+{
+  "prod-camelbak-octane-22": [
+    {
+      "name": "GU Roctane Energy Gel",
+      "path": "GUR24-BP-1.jpg",
+      "cat": "NUTR"
+    },
+    {
+      "name": "GU Roctane Energy Gel Flavor Mix 24-Pack",
+      "path": "GURFM24-AF-1.jpg",
+      "cat": "NUTR"
+    },
+    {
+      "name": "GU Roctane Energy Gel Flavor Mix 24-Pack",
+      "path": "GURFM24-AF-1.jpg",
+      "cat": "NUTR"
+    },
+    {
+      "name": "GU Roctane Energy Drink Mix",
+      "path": "GRD24-GR-1.jpg",
+      "cat": "NUTR"
+    },
+    {
+      "name": "GU Roctane Protein Recovery Drink Mix 15-Servings",
+      "path": "GRPR15-CH-1.jpg",
+      "cat": "NUTR"
+    },
+    {
+      "name": "GU Roctane Protein Recovery Drink Mix 15-Servings",
+      "path": "GRPR15-CH-1.jpg",
+      "cat": "NUTR"
+    },
+    {
+      "name": "GU Roctane Electrolyte Capsules 50-Serving",
+      "path": "GURCC50-CA-1.jpg",
+      "cat": "NUTR"
+    },
+    {
+      "name": "GU Roctane Electrolyte Capsules 50-Serving",
+      "path": "GURCC50-CA-1.jpg",
+      "cat": "NUTR"
+    },
+    {
+      "name": "GU Roctane Electrolyte Capsules 50-Serving",
+      "path": "GURCC50-CA-1.jpg",
+      "cat": "NUTR"
+    }
+  ],
+  "prod-wrightsock-coolmesh-ii": [
+    {
+      "name": "Wrightsock Double Layer CoolMesh II Quarter Socks",
+      "path": "WDLC2SQ-B2-1.jpg",
+      "cat": "MSOCKTYPE"
+    },
+    {
+      "name": "Wrightsock Double Layer CoolMesh II Quarter Socks",
+      "path": "WDLC2SQ-B2-1.jpg",
+      "cat": "MSOCKTYPE"
+    },
+    {
+      "name": "Wrightsock Double Layer CoolMesh II Quarter Socks",
+      "path": "WDLC2SQ-GY-1.jpg",
+      "cat": "MSOCKTYPE"
+    },
+    {
+      "name": "Wrightsock Double Layer CoolMesh II Quarter Socks",
+      "path": "WDLC2SQ-GY-1.jpg",
+      "cat": "MSOCKTYPE"
+    },
+    {
+      "name": "Wrightsock Double Layer CoolMesh II Quarter Socks",
+      "path": "WDLC2SQ-WH-1.jpg",
+      "cat": "MSOCKTYPE"
+    },
+    {
+      "name": "Wrightsock Double Layer CoolMesh II Quarter Socks",
+      "path": "WDLC2SQ-WH-1.jpg",
+      "cat": "MSOCKTYPE"
+    },
+    {
+      "name": "Wrightsock Run Luxe Single Layer Tab Socks",
+      "path": "WRLSLT-BK-1.jpg",
+      "cat": "MSOCKTYPE"
+    },
+    {
+      "name": "Wrightsock Run Luxe Single Layer Tab Socks",
+      "path": "WRLSLT-BK-1.jpg",
+      "cat": "MSOCKTYPE"
+    },
+    {
+      "name": "Wrightsock Run Luxe Single Layer Tab Socks",
+      "path": "WRLSLT-GY-1.jpg",
+      "cat": "MSOCKTYPE"
+    },
+    {
+      "name": "Wrightsock Run Luxe Single Layer Tab Socks",
+      "path": "WRLSLT-GY-1.jpg",
+      "cat": "MSOCKTYPE"
+    },
+    {
+      "name": "Wrightsock Run Luxe Single Layer Tab Socks",
+      "path": "WRLSLT-WH-1.jpg",
+      "cat": "MSOCKTYPE"
+    },
+    {
+      "name": "Wrightsock Run Luxe Single Layer Tab Socks",
+      "path": "WRLSLT-WH-1.jpg",
+      "cat": "MSOCKTYPE"
+    },
+    {
+      "name": "Wrightsock Double Layer CoolMesh II Low Cut Socks Gy",
+      "path": "WDLC2S1-GY-1.jpg",
+      "cat": "MSOCKTYPE"
+    },
+    {
+      "name": "Wrightsock Double Layer CoolMesh II Low Cut Socks Gy",
+      "path": "WDLC2S1-GY-1.jpg",
+      "cat": "MSOCKTYPE"
+    },
+    {
+      "name": "Wrightsock Double Layer CoolMesh II Quarter Socks",
+      "path": "WDLC2SQ-B2-1.jpg",
+      "cat": "APACC"
+    },
+    {
+      "name": "Wrightsock Double Layer CoolMesh II Quarter Socks",
+      "path": "WDLC2SQ-B2-1.jpg",
+      "cat": "APACC"
+    },
+    {
+      "name": "Wrightsock Double Layer CoolMesh II Quarter Socks",
+      "path": "WDLC2SQ-GY-1.jpg",
+      "cat": "APACC"
+    },
+    {
+      "name": "Wrightsock Double Layer CoolMesh II Quarter Socks",
+      "path": "WDLC2SQ-GY-1.jpg",
+      "cat": "APACC"
+    },
+    {
+      "name": "Wrightsock Double Layer CoolMesh II Quarter Socks",
+      "path": "WDLC2SQ-WH-1.jpg",
+      "cat": "APACC"
+    },
+    {
+      "name": "Wrightsock Double Layer CoolMesh II Quarter Socks",
+      "path": "WDLC2SQ-WH-1.jpg",
+      "cat": "APACC"
+    },
+    {
+      "name": "Wrightsock Run Luxe Single Layer Tab Socks",
+      "path": "WRLSLT-BK-1.jpg",
+      "cat": "APACC"
+    },
+    {
+      "name": "Wrightsock Run Luxe Single Layer Tab Socks",
+      "path": "WRLSLT-BK-1.jpg",
+      "cat": "APACC"
+    },
+    {
+      "name": "Wrightsock Run Luxe Single Layer Tab Socks",
+      "path": "WRLSLT-GY-1.jpg",
+      "cat": "APACC"
+    },
+    {
+      "name": "Wrightsock Run Luxe Single Layer Tab Socks",
+      "path": "WRLSLT-GY-1.jpg",
+      "cat": "APACC"
+    },
+    {
+      "name": "Wrightsock Run Luxe Single Layer Tab Socks",
+      "path": "WRLSLT-WH-1.jpg",
+      "cat": "APACC"
+    },
+    {
+      "name": "Wrightsock Run Luxe Single Layer Tab Socks",
+      "path": "WRLSLT-WH-1.jpg",
+      "cat": "APACC"
+    },
+    {
+      "name": "Wrightsock Double Layer CoolMesh II Low Cut Socks Gy",
+      "path": "WDLC2S1-GY-1.jpg",
+      "cat": "APACC"
+    },
+    {
+      "name": "Wrightsock Double Layer CoolMesh II Low Cut Socks Gy",
+      "path": "WDLC2S1-GY-1.jpg",
+      "cat": "APACC"
+    }
+  ],
+  "prod-leki-trail-running-quiver": [
+    {
+      "name": "LEKI Ultratrail FX.One Carbon Poles",
+      "path": "LKUTFO-MU-1.jpg",
+      "cat": "MISC"
+    },
+    {
+      "name": "LEKI Ultratrail FX.One Superlite Carbon Poles",
+      "path": "LKUTFSL-MU-1.jpg",
+      "cat": "MISC"
+    }
+  ],
+  "prod-2toms-sportshield": [
+    {
+      "name": "2Toms SportShield Roll-On 1.5 oz  Green",
+      "path": "2TOMROLL-1.jpg",
+      "cat": "MISC"
+    }
+  ],
+  "prod-squirrels-nut-butter": [
+    {
+      "name": "Squirrel&apos;s Nut Butter Anti-Chafe Salve 1.7oz Stick",
+      "path": "SNB17S-1.jpg",
+      "cat": "MISC"
+    },
+    {
+      "name": "Squirrel&apos;s Nut Butter Anti-Chafe Salve 1.7oz Stick",
+      "path": "SNB17S-1.jpg",
+      "cat": "MISC"
+    },
+    {
+      "name": "Squirrel&apos;s Nut Butter Anti-Chafe Salve 2.0oz Tin",
+      "path": "SNB20T-1.jpg",
+      "cat": "MISC"
+    },
+    {
+      "name": "Squirrel&apos;s Nut Butter Anti-Chafe Salve 2.0oz Tin",
+      "path": "SNB20T-1.jpg",
+      "cat": "MISC"
+    }
+  ]
+}

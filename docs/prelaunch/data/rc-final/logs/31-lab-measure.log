@@ -1,0 +1,45 @@
+/running/shoes/daily-trainers 1217KB img 100KB OK
+/running/shoes 1308KB img 81KB OK
+/running/shoes/trail 1110KB img 52KB OK
+/running/shoes/stability 1088KB img 39KB OK
+/running/shoes/race 1109KB img 55KB OK
+{
+  "out": "/Users/LMeyeridricks/Documents/coding/kitletics/docs/prelaunch/data/rc-final/31-listing-perf.json",
+  "summary": {
+    "/running/shoes/daily-trainers": {
+      "totalKB": 1217,
+      "imgKB": 100,
+      "underBudget": true,
+      "underPrefer": true,
+      "rawImageCount": 0
+    },
+    "/running/shoes": {
+      "totalKB": 1308,
+      "imgKB": 81,
+      "underBudget": true,
+      "underPrefer": true,
+      "rawImageCount": 0
+    },
+    "/running/shoes/trail": {
+      "totalKB": 1110,
+      "imgKB": 52,
+      "underBudget": true,
+      "underPrefer": true,
+      "rawImageCount": 0
+    },
+    "/running/shoes/stability": {
+      "totalKB": 1088,
+      "imgKB": 39,
+      "underBudget": true,
+      "underPrefer": true,
+      "rawImageCount": 0
+    },
+    "/running/shoes/race": {
+      "totalKB": 1109,
+      "imgKB": 55,
+      "underBudget": true,
+      "underPrefer": true,
+      "rawImageCount": 0
+    }
+  }
+}

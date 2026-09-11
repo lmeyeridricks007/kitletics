@@ -1,0 +1,450 @@
+[
+  {
+    "id": "prod-adidas-adipower-3",
+    "slug": "adidas-adipower-weightlifting-3",
+    "imageUrl": "https://www.budoonline.co.uk/cdn/shop/files/adidas-Mens-Adipower-III-Squat-Shoes-Black-Weightlifting.jpg",
+    "sourceUrl": "https://www.budoonline.co.uk/products/adidas-adipower-iii-weightlifting-shoes-mens-powerlifting-gym-trainers-black-3",
+    "licence": "retailer-authorized",
+    "source": "scraped CDN"
+  },
+  {
+    "id": "prod-adidas-metalbone-hrd",
+    "slug": "adidas-metalbone-hrd",
+    "imageUrl": "https://padelusa.com/cdn/shop/files/Adidas-Metalbone-HRD-3.4-2025-PadelUSA-Store-1.webp",
+    "sourceUrl": "https://padelusa.com/products/adidas-metalbone-hrd-3-4-padel-racket?variant=45436926394531&_pos=1&_sid=7ad0155cb&_ss=r",
+    "licence": "retailer-authorized",
+    "source": "Shopify CDN"
+  },
+  {
+    "id": "prod-adv-skin-12",
+    "slug": "salomon-adv-skin-12",
+    "imageUrl": "https://img.runningwarehouse.com/watermark/rs.php?path=SADV129-BK-1.jpg&nw=847",
+    "sourceUrl": "https://www.runningwarehouse.com/Salomon_Adv_Skin_12_Set_Pack_Black/descpage-SADV129.html",
+    "licence": "retailer-authorized",
+    "source": "Running Warehouse CDN"
+  },
+  {
+    "id": "prod-asics-gel-resolution-padel",
+    "slug": "asics-gel-resolution-padel",
+    "imageUrl": "https://www.zonadepadel.es/32935-zdp_customer/zapatillas-asics-gel-resolution-x-clay-blue-fade-gunmetal-2026.jpg",
+    "sourceUrl": "https://www.zonadepadel.es/asics/15276-zapatillas-asics-gel-resolution-x-clay-blue-fade-gunmetal-2026.html",
+    "licence": "retailer-authorized",
+    "source": "scraped CDN"
+  },
+  {
+    "id": "prod-babolat-counter-viper",
+    "slug": "babolat-counter-viper",
+    "imageUrl": "https://padelusa.com/cdn/shop/files/Babolat-Counter_Viper_2.6_Padel_Racket_PadelUSA_store_1.webp",
+    "sourceUrl": "https://padelusa.com/products/babolat-counter-viper-2-6-padel-racket?variant=46771956842659&_pos=1&_sid=22d254b3e&_ss=r",
+    "licence": "retailer-authorized",
+    "source": "Shopify CDN"
+  },
+  {
+    "id": "prod-babolat-jet-premura",
+    "slug": "babolat-jet-premura",
+    "imageUrl": "https://www.zonadepadel.es/33511-zdp_customer/zapatillas-babolat-jet-premura-2-men-cream-orange-2026.jpg",
+    "sourceUrl": "https://www.zonadepadel.es/babolat/15856-zapatillas-babolat-jet-premura-2-men-cream-orange-2026.html",
+    "licence": "retailer-authorized",
+    "source": "scraped CDN"
+  },
+  {
+    "id": "prod-babolat-pure-aero-2026",
+    "slug": "babolat-pure-aero-2026",
+    "imageUrl": "https://img.tennis-warehouse.com/watermark/rs.php?path=BPAR26-1.jpg&nw=847",
+    "sourceUrl": "https://www.tennis-warehouse.com/descpage-BPAR26.html",
+    "licence": "retailer-authorized",
+    "source": "Tennis Warehouse CDN"
+  },
+  {
+    "id": "prod-babolat-pure-drive-2025",
+    "slug": "babolat-pure-drive-2025",
+    "imageUrl": "https://img.tennis-warehouse.com/watermark/rs.php?path=BPD25R-1.jpg&nw=847",
+    "sourceUrl": "https://www.tennis-warehouse.com/descpage-BPD25R.html",
+    "licence": "retailer-authorized",
+    "source": "Tennis Warehouse CDN"
+  },
+  {
+    "id": "prod-babolat-technical-viper",
+    "slug": "babolat-technical-viper",
+    "imageUrl": "https://padelusa.com/cdn/shop/files/Babolat-Technical_Viper_J_3.0_Padel_Racket_PadelUSA_store_1.webp",
+    "sourceUrl": "https://padelusa.com/products/babolat-technical-viper-3-0-padel-racket?variant=46771757383843&_pos=1&_sid=cf28e5b12&_ss=r",
+    "licence": "retailer-authorized",
+    "source": "Shopify CDN"
+  },
+  {
+    "id": "prod-bowflex-1090",
+    "slug": "bowflex-1090",
+    "imageUrl": "https://www.bowflex.com/cdn/shop/files/results-series-1090-dumbbell-pair-black-blue.jpg",
+    "sourceUrl": "https://www.bowflex.com/products/bowflex-results-series-1090-selecttech-dumbbells",
+    "licence": "retailer-authorized",
+    "source": "product CDN"
+  },
+  {
+    "id": "prod-bullpadel-hack-03",
+    "slug": "bullpadel-hack-03",
+    "imageUrl": "https://www.zonadepadel.es/16515-zdp_customer/bullpadel-hack-03-2024.jpg",
+    "sourceUrl": "https://www.zonadepadel.es/bullpadel/9043-bullpadel-hack-03-2024.html",
+    "licence": "retailer-authorized",
+    "source": "scraped CDN"
+  },
+  {
+    "id": "prod-bullpadel-hack-04",
+    "slug": "bullpadel-hack-04",
+    "imageUrl": "https://padelusa.com/cdn/shop/files/Bullpadel-Hack-04_2025_Padel_Racket_PadelUSA_store_1.webp",
+    "sourceUrl": "https://padelusa.com/products/bullpadel-hack-04-2025-padel-racket?variant=45287101595811&_pos=1&_sid=79e474490&_ss=r",
+    "licence": "retailer-authorized",
+    "source": "Shopify CDN"
+  },
+  {
+    "id": "prod-bullpadel-vertex-04",
+    "slug": "bullpadel-vertex-04",
+    "imageUrl": "https://padelusa.com/cdn/shop/files/Bullpadel-Vertex-04_2025_Padel_Racket_PadelUSA_store_1.webp",
+    "sourceUrl": "https://padelusa.com/products/bullpadel-vertex-04-2025-juan-tello-padel-racket",
+    "licence": "retailer-authorized",
+    "source": "Shopify CDN"
+  },
+  {
+    "id": "prod-bullpadel-vertex-05",
+    "slug": "bullpadel-vertex-05",
+    "imageUrl": "https://padelusa.com/cdn/shop/files/Bullpadel-Vertex_05_2026_Padel_Racket_PadelUSA_store_1.webp",
+    "sourceUrl": "https://padelusa.com/products/bullpadel-vertex-05-2026-padel-racket?variant=46513503142051&_pos=1&_sid=14e60950a&_ss=r",
+    "licence": "retailer-authorized",
+    "source": "Shopify CDN"
+  },
+  {
+    "id": "prod-drop-shot-canyon-pro",
+    "slug": "drop-shot-canyon-pro",
+    "imageUrl": "https://www.zonadepadel.es/31236-zdp_customer/drop-shot-canyon-pro-confort-20-2026.jpg",
+    "sourceUrl": "https://www.zonadepadel.es/drop-shot/14427-drop-shot-canyon-pro-confort-20-2026.html",
+    "licence": "retailer-authorized",
+    "source": "scraped CDN"
+  },
+  {
+    "id": "prod-dunlop-cx-200",
+    "slug": "dunlop-cx-200",
+    "imageUrl": "https://img.tennis-warehouse.com/watermark/rs.php?path=DCX2S-1.jpg&nw=847",
+    "sourceUrl": "https://www.tennis-warehouse.com/descpage-DCX2S.html",
+    "licence": "retailer-authorized",
+    "source": "Tennis Warehouse CDN"
+  },
+  {
+    "id": "prod-head-extreme-motion-2026",
+    "slug": "head-extreme-motion-2026",
+    "imageUrl": "https://padelusa.com/cdn/shop/files/Head-_Extreme_Motion_2025_Padel_Racket_PadelUSA_store_1.webp",
+    "sourceUrl": "https://padelusa.com/products/head-extreme-motion-2025-padel-racket?variant=46182388760739&_pos=1&_sid=51edaeaf4&_ss=r",
+    "licence": "retailer-authorized",
+    "source": "Shopify CDN"
+  },
+  {
+    "id": "prod-head-extreme-pro-padel",
+    "slug": "head-extreme-pro-padel",
+    "imageUrl": "https://padelusa.com/cdn/shop/files/Head-_Extreme_Pro_2025_Padel_Racket_PadelUSA_store_1.webp",
+    "sourceUrl": "https://padelusa.com/products/head-extreme-pro-2025-padel-racket?variant=46182403309731&_pos=1&_sid=094d05edf&_ss=r",
+    "licence": "retailer-authorized",
+    "source": "Shopify CDN"
+  },
+  {
+    "id": "prod-head-padel-pro-s",
+    "slug": "head-padel-pro-s",
+    "imageUrl": "https://www.zonadepadel.es/32722-zdp_customer/bipack-head-padel-pro-s-valencia.jpg",
+    "sourceUrl": "https://www.zonadepadel.es/head-padel/15548-bipack-head-padel-pro-s-valencia.html",
+    "licence": "retailer-authorized",
+    "source": "scraped CDN"
+  },
+  {
+    "id": "prod-head-revolt-pro-court",
+    "slug": "head-revolt-pro-court",
+    "imageUrl": "https://www.zonadepadel.es/17902-zdp_customer/zapatillas-head-revolt-pro-45-clay-banana-black-2024.jpg",
+    "sourceUrl": "https://www.zonadepadel.es/head-padel/9520-zapatillas-head-revolt-pro-45-clay-banana-black-2024.html",
+    "licence": "retailer-authorized",
+    "source": "scraped CDN"
+  },
+  {
+    "id": "prod-joma-t-slam",
+    "slug": "joma-t-slam",
+    "imageUrl": "https://www.zonadepadel.es/31898-zdp_customer/zapatillas-joma-slam-men-2602-white-royal-2026.jpg",
+    "sourceUrl": "https://www.zonadepadel.es/joma/15127-zapatillas-joma-slam-men-2602-white-royal-2026.html",
+    "licence": "retailer-authorized",
+    "source": "scraped CDN"
+  },
+  {
+    "id": "prod-lok-maxx-flow",
+    "slug": "lok-maxx-flow",
+    "imageUrl": "https://www.zonadepadel.es/28137-zdp_customer/lok-maxx-flow-gen-2-2026.jpg",
+    "sourceUrl": "https://www.zonadepadel.es/lok/13686-lok-maxx-flow-gen-2-2026.html",
+    "licence": "retailer-authorized",
+    "source": "scraped CDN"
+  },
+  {
+    "id": "prod-nox-at10-12k-2026",
+    "slug": "nox-at10-12k-2026",
+    "imageUrl": "https://padelusa.com/cdn/shop/files/Nox-AT10_Genius_12k_ALUM_Xtreme_2026_Padel_Racket_PadelUSA_store_1.webp",
+    "sourceUrl": "https://padelusa.com/products/nox-at10-genius-12k-alum-xtreme-padel-racket?variant=47301729747107&_pos=1&_sid=ac7bdb158&_ss=r",
+    "licence": "retailer-authorized",
+    "source": "Shopify CDN"
+  },
+  {
+    "id": "prod-nuobell-80",
+    "slug": "nuobell-80",
+    "imageUrl": "https://i.garagegymreviews.com/354/477/755/0/NUOBELL-Adjustable-Dumbbells-Review-Garage-Gym-Reviews.webp",
+    "sourceUrl": "https://www.garagegymreviews.com/nuobell-adjustable-dumbbells-review",
+    "licence": "retailer-authorized",
+    "source": "scraped CDN"
+  },
+  {
+    "id": "prod-osprey-dyna-6",
+    "slug": "osprey-dyna-6",
+    "imageUrl": "https://www.bfgcdn.com/600_600_90/504-0891-0211/osprey-womens-dyna-6-trail-running-backpack-bf-1.jpg",
+    "sourceUrl": "https://www.bergfreunde.eu/osprey-womens-dyna-6-trail-running-backpack-bf-1/",
+    "licence": "retailer-authorized",
+    "source": "scraped CDN"
+  },
+  {
+    "id": "prod-polar-verity-sense",
+    "slug": "polar-verity-sense",
+    "imageUrl": "https://www.polar.com/img/cms/533757b2f1bebd559e8a86a3585a3fd748562f6b-1500x1501-600.png",
+    "sourceUrl": "https://www.polar.com/en/products/accessories/polar-verity-sense",
+    "licence": "manufacturer-marketing",
+    "source": "Polar CMS"
+  },
+  {
+    "id": "prod-powerblock-elite-90",
+    "slug": "powerblock-elite-90",
+    "imageUrl": "https://selectfitness.com/cdn/shop/files/Powerblock-Elite-EXP-50lb-Adjustable-dumbbells_1_88cfce9f-f0d7-4648-9e6d-9175378f083a_1200x1200.jpg",
+    "sourceUrl": "https://selectfitness.com/products/powerblock-elite-exp-adjustable-dumbbell-set?_pos=1&_sid=510e60ec9&_ss=r",
+    "licence": "retailer-authorized",
+    "source": "scraped CDN"
+  },
+  {
+    "id": "prod-powerblock-pro-100",
+    "slug": "powerblock-pro-100",
+    "imageUrl": "https://selectfitness.com/cdn/shop/files/Powerblock-pro-100-EXP-Adjustable-dumbbells_040d7e9f-0343-4f7e-8e76-9b81d8837ed8_1200x1200.jpg",
+    "sourceUrl": "https://selectfitness.com/products/power-block-pro-exp",
+    "licence": "retailer-authorized",
+    "source": "product CDN"
+  },
+  {
+    "id": "prod-powerblock-pro-50",
+    "slug": "powerblock-pro-50",
+    "imageUrl": "https://selectfitness.com/cdn/shop/files/Powerblock-pro-50-Adjustable-dumbbells_2bcc3351-cb98-4748-91b0-63c1296e4072_1200x1200.jpg",
+    "sourceUrl": "https://selectfitness.com/products/power-block-pro-50",
+    "licence": "retailer-authorized",
+    "source": "scraped CDN"
+  },
+  {
+    "id": "prod-prince-textreme-tour-100p",
+    "slug": "prince-textreme-tour-100p",
+    "imageUrl": "https://img.tennis-warehouse.com/watermark/rs.php?path=ATR10P-1.jpg&nw=847",
+    "sourceUrl": "https://www.tennis-warehouse.com/descpage-ATR10P.html",
+    "licence": "retailer-authorized",
+    "source": "Tennis Warehouse CDN"
+  },
+  {
+    "id": "prod-rep-ab-5200",
+    "slug": "rep-ab-5200",
+    "imageUrl": "https://repfitness.com/cdn/shop/products/AB-5202-MetallicBlack-Thumbnail.jpg",
+    "sourceUrl": "https://repfitness.com/products/ab-5200-2-0",
+    "licence": "retailer-authorized",
+    "source": "product CDN"
+  },
+  {
+    "id": "prod-rep-adjustable-db",
+    "slug": "rep-adjustable-db",
+    "imageUrl": "https://repfitness.com/cdn/shop/files/pepin_-_LB_-_125_-_thumbnail.jpg",
+    "sourceUrl": "https://repfitness.com/products/rep-x-pepin-fast-series-adjustable-dumbbell?variant=53414520553838",
+    "licence": "retailer-authorized",
+    "source": "scraped CDN"
+  },
+  {
+    "id": "prod-rep-apollo",
+    "slug": "rep-apollo",
+    "imageUrl": "https://repfitness.com/cdn/shop/products/HR-5050-Thumbnail.jpg",
+    "sourceUrl": "https://repfitness.com/products/apollo-rack-builder",
+    "licence": "retailer-authorized",
+    "source": "product CDN"
+  },
+  {
+    "id": "prod-rep-bumper-black",
+    "slug": "rep-bumper-black",
+    "imageUrl": "https://repfitness.com/cdn/shop/products/Shopify-BP-1000-45-Thumbnail_663c22df-766d-4ea0-be35-d0b4400488cd.jpg",
+    "sourceUrl": "https://repfitness.com/products/black-bumper-plate-pairs",
+    "licence": "manufacturer-marketing",
+    "source": "product CDN"
+  },
+  {
+    "id": "prod-rep-pr-4000",
+    "slug": "rep-pr-4000",
+    "imageUrl": "https://repfitness.com/cdn/shop/products/PR-4000-Thumbnail.jpg",
+    "sourceUrl": "https://repfitness.com/products/pr-4000-rack-builder",
+    "licence": "manufacturer-marketing",
+    "source": "product CDN"
+  },
+  {
+    "id": "prod-rep-pr-5000",
+    "slug": "rep-pr-5000",
+    "imageUrl": "https://repfitness.com/cdn/shop/products/PR-5000-Thumbnail.jpg",
+    "sourceUrl": "https://repfitness.com/products/pr-5000-rack-builder",
+    "licence": "retailer-authorized",
+    "source": "product CDN"
+  },
+  {
+    "id": "prod-rogue-flat-utility",
+    "slug": "rogue-flat-utility",
+    "imageUrl": "https://assets.roguefitness.com/f_auto,q_auto,c_limit,w_1600,b_rgb:ffffff/v1/catalog/Strength%20Equipment/Strength%20Training/Weight%20Benches/Flat%20Utility%20Benches/RA1362/RA1362-Textured-Pad-H_r6qelt.png",
+    "sourceUrl": "https://www.roguefitness.com/rogue-flat-utility-bench-2-0",
+    "licence": "retailer-authorized",
+    "source": "product CDN"
+  },
+  {
+    "id": "prod-royal-padel-rp-m27-2026",
+    "slug": "royal-padel-rp-m27-2026",
+    "imageUrl": "https://www.zonadepadel.es/32355-zdp_customer/royal-padel-m27-ligh-ltd-amarilla-2026.jpg",
+    "sourceUrl": "https://www.zonadepadel.es/royal-padel/15365-royal-padel-m27-ligh-ltd-amarilla-2026.html",
+    "licence": "retailer-authorized",
+    "source": "scraped CDN"
+  },
+  {
+    "id": "prod-siux-diablo",
+    "slug": "siux-diablo",
+    "imageUrl": "https://padelusa.com/cdn/shop/files/Siux-Diablo_Pro_2026_Night_Blue_Padel_Racket_PadelUSA_store_1.webp",
+    "sourceUrl": "https://padelusa.com/products/siux-diablo-pro-2026-night-blue-padel-racket?variant=47330288140451&_pos=1&_sid=84b900650&_ss=r",
+    "licence": "retailer-authorized",
+    "source": "Shopify CDN"
+  },
+  {
+    "id": "prod-tyr-cxt-1",
+    "slug": "tyr-cxt-1",
+    "imageUrl": "https://assets.roguefitness.com/f_auto,q_auto,c_limit,w_1600,b_rgb:ffffff/v1/catalog/Shoes/TYR/TYR0046/TYR0046-H_gxfbgg.png",
+    "sourceUrl": "https://www.roguefitness.com/tyr-cxt-1-turf-trainer-shoes",
+    "licence": "retailer-authorized",
+    "source": "scraped CDN"
+  },
+  {
+    "id": "prod-tyr-cxt-2",
+    "slug": "tyr-cxt-2",
+    "imageUrl": "https://assets.roguefitness.com/f_auto,q_auto,c_limit,w_1600,b_rgb:ffffff/v1/catalog/Shoes/TYR/TYR0110/TYR0110-H_q8wkol.png",
+    "sourceUrl": "https://www.roguefitness.com/tyr-cxt-2-trainer",
+    "licence": "retailer-authorized",
+    "source": "scraped CDN"
+  },
+  {
+    "id": "prod-wahoo-tickr",
+    "slug": "wahoo-tickr",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0558/5869/2257/files/wahoo-tickr-heart-rate-monitor-the-bike-affair-648082.jpg",
+    "sourceUrl": "https://www.thebikeaffair.com/products/wahoo-tickr-heart-rate-monitor",
+    "licence": "retailer-authorized",
+    "source": "Shopify CDN"
+  },
+  {
+    "id": "prod-wahoo-tickr-x",
+    "slug": "wahoo-tickr-x",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0558/5869/2257/files/wahoo-tickr-x-heart-rate-monitor-the-bike-affair-738641.jpg",
+    "sourceUrl": "https://www.thebikeaffair.com/products/wahoo-tickr-x-heart-rate-monitor",
+    "licence": "retailer-authorized",
+    "source": "Shopify CDN"
+  },
+  {
+    "id": "prod-wilson-bela-pro",
+    "slug": "wilson-bela-pro",
+    "imageUrl": "https://padelusa.com/cdn/shop/files/Wilson-Bela-Pro-V3-Padel_Racket_PadelUSA_store_1.webp",
+    "sourceUrl": "https://padelusa.com/products/wilson-bela-pro-v3-padel-racket?variant=45923259515043&_pos=1&_sid=2afcc8216&_ss=r",
+    "licence": "retailer-authorized",
+    "source": "Shopify CDN"
+  },
+  {
+    "id": "prod-wilson-blade-100-v9",
+    "slug": "wilson-blade-100-v9",
+    "imageUrl": "https://img.tennis-warehouse.com/watermark/rs.php?path=WB1009-1.jpg&nw=847",
+    "sourceUrl": "https://www.tennis-warehouse.com/descpage-WB1009.html",
+    "licence": "retailer-authorized",
+    "source": "Tennis Warehouse CDN"
+  },
+  {
+    "id": "prod-wilson-blade-pro-padel",
+    "slug": "wilson-blade-pro-padel",
+    "imageUrl": "https://padelusa.com/cdn/shop/files/Wilson-Blade_PRO_V3_Padel_Racket_PadelUSA_store_1.webp",
+    "sourceUrl": "https://padelusa.com/products/wilson-blade-pro-v3-2024-padel-racket?variant=44999173111971&_pos=1&_sid=b81e4f94a&_ss=r",
+    "licence": "retailer-authorized",
+    "source": "Shopify CDN"
+  },
+  {
+    "id": "prod-wilson-overgrip",
+    "slug": "wilson-overgrip",
+    "imageUrl": "https://www.zonadepadel.es/13932-zdp_customer/overgrip-wilson-pro-padel-3pk-blanco.jpg",
+    "sourceUrl": "https://www.zonadepadel.es/wilson-padel/8056-overgrip-wilson-pro-padel-3pk-blanco.html",
+    "licence": "retailer-authorized",
+    "source": "scraped CDN"
+  },
+  {
+    "id": "prod-yonex-ezone-98-2024",
+    "slug": "yonex-ezone-98-2024",
+    "imageUrl": "https://img.tennis-warehouse.com/watermark/rs.php?path=EZ98BB-1.jpg&nw=847",
+    "sourceUrl": "https://www.tennis-warehouse.com/descpage-EZ98BB.html",
+    "licence": "retailer-authorized",
+    "source": "Tennis Warehouse CDN"
+  },
+  {
+    "id": "prod-yonex-vcore-98-2026",
+    "slug": "yonex-vcore-98-2026",
+    "imageUrl": "https://img.tennis-warehouse.com/watermark/rs.php?path=VC988G-1.jpg&nw=847",
+    "sourceUrl": "https://www.tennis-warehouse.com/descpage-VC988G.html",
+    "licence": "retailer-authorized",
+    "source": "Tennis Warehouse CDN"
+  },
+  {
+    "id": "prod-rep-fb-5000",
+    "slug": "rep-fb-5000",
+    "imageUrl": "https://repfitness.com/cdn/shop/products/FB-5000-Matte-Thumbnail.jpg",
+    "sourceUrl": "https://repfitness.com/products/fb-5000-competition-flat-bench",
+    "licence": "retailer-authorized",
+    "source": "scraped CDN"
+  },
+  {
+    "id": "prod-starvie-titania-kepler",
+    "slug": "starvie-titania-kepler",
+    "imageUrl": "https://www.zonadepadel.es/13868-zdp_customer/star-vie-titania-kepler-pro-20.jpg",
+    "sourceUrl": "https://www.zonadepadel.es/star-vie/8032-star-vie-titania-kepler-pro-20.html",
+    "licence": "retailer-authorized",
+    "source": "scraped CDN"
+  },
+  {
+    "id": "prod-asics-gel-challenger-court",
+    "slug": "asics-gel-challenger-court",
+    "imageUrl": "https://www.zonadepadel.es/29065-zdp_customer/zapatillas-asics-gel-challenger-15-padel-white-guava-2026.jpg",
+    "sourceUrl": "https://www.zonadepadel.es/asics/14103-zapatillas-asics-gel-challenger-15-padel-white-guava-2026.html",
+    "licence": "retailer-authorized",
+    "source": "Zona de Padel"
+  },
+  {
+    "id": "prod-wilson-clash-100-v3",
+    "slug": "wilson-clash-100-v3",
+    "imageUrl": "https://img.tennis-warehouse.com/watermark/rs.php?path=CL103V-1.jpg&nw=847",
+    "sourceUrl": "https://www.tennis-warehouse.com/descpage-CL103V.html",
+    "licence": "retailer-authorized",
+    "source": "Tennis Warehouse CDN"
+  },
+  {
+    "id": "prod-wilson-blade-98-v9",
+    "slug": "wilson-blade-98-v9",
+    "imageUrl": "https://img.tennis-warehouse.com/watermark/rs.php?path=WB9816-1.jpg&nw=847",
+    "sourceUrl": "https://www.tennis-warehouse.com/descpage-WB9816.html",
+    "licence": "retailer-authorized",
+    "source": "Tennis Warehouse CDN"
+  },
+  {
+    "id": "prod-tecnifibre-tf40-305",
+    "slug": "tecnifibre-tf40-305",
+    "imageUrl": "https://img.tennis-warehouse.com/watermark/rs.php?path=TF40R2-1.jpg&nw=847",
+    "sourceUrl": "https://www.tennis-warehouse.com/descpage-TF40R2.html",
+    "licence": "retailer-authorized",
+    "source": "Tennis Warehouse CDN"
+  },
+  {
+    "id": "prod-tecnifibre-tfight-300s-2025",
+    "slug": "tecnifibre-tfight-300s-2025",
+    "imageUrl": "https://img.tennis-warehouse.com/watermark/rs.php?path=TF300S-1.jpg&nw=847",
+    "sourceUrl": "https://www.tennis-warehouse.com/descpage-TF300S.html",
+    "licence": "retailer-authorized",
+    "source": "Tennis Warehouse CDN"
+  }
+]

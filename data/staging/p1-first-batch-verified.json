@@ -1,0 +1,290 @@
+[
+  {
+    "id": "prod-forerunner-255",
+    "slug": "garmin-forerunner-255",
+    "imageUrl": "https://res.garmin.com/en/products/010-02641-00/g/46794-D-FR255-02.jpg",
+    "sourceUrl": "https://www.garmin.com/",
+    "licence": "manufacturer-marketing",
+    "source": "Garmin res.garmin.com"
+  },
+  {
+    "id": "prod-forerunner-55",
+    "slug": "garmin-forerunner-55",
+    "imageUrl": "https://www.garmin.com.hk/m/hk/g/products/forerunner-55-black-cf-lg.jpg",
+    "sourceUrl": "https://www.garmin.com.hk/products/wearables/forerunner-55-black/",
+    "licence": "manufacturer-marketing",
+    "source": "Garmin product CDN"
+  },
+  {
+    "id": "prod-coros-pace-pro",
+    "slug": "coros-pace-pro",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/1672/6075/files/COROS_PACE_Pro_Black1.png",
+    "sourceUrl": "https://www.coros.com/pacepro",
+    "licence": "manufacturer-marketing",
+    "source": "COROS Shopify CDN"
+  },
+  {
+    "id": "prod-coros-apex-2-pro",
+    "slug": "coros-apex-2-pro",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/1672/6075/products/APEX2ProBlack-1.png?v=1754295316",
+    "sourceUrl": "https://www.coros.com/apex2pro",
+    "licence": "manufacturer-marketing",
+    "source": "COROS Shopify CDN"
+  },
+  {
+    "id": "prod-polar-vantage-v3",
+    "slug": "polar-vantage-v3",
+    "imageUrl": "https://www.polar.com/img/cms/71189b045d38fcd01b3f93c4b8872277ea2ffb5b-4500x4500-600.png",
+    "sourceUrl": "https://www.polar.com/en/vantage/v3",
+    "licence": "manufacturer-marketing",
+    "source": "Polar CMS CDN"
+  },
+  {
+    "id": "prod-polar-pacer-pro",
+    "slug": "polar-pacer-pro",
+    "imageUrl": "https://www.polar.com/img/cms/630d67af27eb08e6d1841d189424c45c93d8e010-4000x4000-600.png",
+    "sourceUrl": "https://www.polar.com/en/pacer-pro",
+    "licence": "manufacturer-marketing",
+    "source": "Polar CMS CDN"
+  },
+  {
+    "id": "prod-suunto-race",
+    "slug": "suunto-race",
+    "imageUrl": "https://www.suunto.com/globalassets/productimages/suunto-race/suunto-race-titanium-charcoal/suuntorace-all-black-front2-1280x1280px-2.png",
+    "sourceUrl": "https://www.suunto.com/en-us/products/sports-watches/suunto-race/suunto-race-all-black/",
+    "licence": "manufacturer-marketing",
+    "source": "Suunto product CDN"
+  },
+  {
+    "id": "prod-suunto-race-s",
+    "slug": "suunto-race-s",
+    "imageUrl": "https://www.suunto.com/globalassets/productimages/suunto-race-s/all-black/suunto_race_s-all_black-ss051013000-front-1280x1280px-2.png",
+    "sourceUrl": "https://www.suunto.com/en-us/products/sports-watches/suunto-race-s/suunto-race-s-all-black/",
+    "licence": "manufacturer-marketing",
+    "source": "Suunto product CDN"
+  },
+  {
+    "id": "prod-apple-watch-ultra-2",
+    "slug": "apple-watch-ultra-2",
+    "imageUrl": "https://www.apple.com/newsroom/images/2023/09/apple-unveils-apple-watch-ultra-2/article/Apple-Watch-Ultra-2-hero-230912_big.jpg.large.jpg",
+    "sourceUrl": "https://www.apple.com/apple-watch-ultra-2/",
+    "licence": "manufacturer-marketing",
+    "source": "Apple CDN"
+  },
+  {
+    "id": "prod-hrm-pro-plus",
+    "slug": "garmin-hrm-pro-plus",
+    "imageUrl": "https://res.garmin.com/it-production/image/upload/v1653315142/Product_Images/en/products/010-13118-00/g/48396-D-1.jpg",
+    "sourceUrl": "https://www.garmin.com/",
+    "licence": "manufacturer-marketing",
+    "source": "Garmin Cloudinary"
+  },
+  {
+    "id": "prod-hrm-600",
+    "slug": "garmin-hrm-600",
+    "imageUrl": "https://www.garmin.com.hk/m/hk/g/products/hrm-600-cf-lg.jpg",
+    "sourceUrl": "https://www.garmin.com.hk/products/wearables/hrm-600/",
+    "licence": "manufacturer-marketing",
+    "source": "Garmin product CDN"
+  },
+  {
+    "id": "prod-polar-h10",
+    "slug": "polar-h10",
+    "imageUrl": "https://www.polar.com/img/cms/0496c9c54f1e296e047c2ccb7c3710a989b550a9-1500x1500-600.png",
+    "sourceUrl": "https://www.polar.com/en/sensors/h10-heart-rate-sensor",
+    "licence": "manufacturer-marketing",
+    "source": "Polar CMS CDN"
+  },
+  {
+    "id": "prod-coros-hrm",
+    "slug": "coros-heart-rate-monitor",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/1672/6075/files/COROSHeartRateMonitor1.png",
+    "sourceUrl": "https://www.coros.com/heart-rate-monitor",
+    "licence": "manufacturer-marketing",
+    "source": "COROS Shopify CDN"
+  },
+  {
+    "id": "prod-osprey-duro-6",
+    "slug": "osprey-duro-6",
+    "imageUrl": "https://cdn11.bigcommerce.com/s-v29r2wl21x/images/stencil/1920w/products/10772/76428/SS26.SandyGrey.1__69289.1769007912.jpg?c=1",
+    "sourceUrl": "https://www.basecampgear.co.uk/2026-duro-6-vest-pack-with-flasks/",
+    "licence": "retailer-authorized",
+    "source": "Basecamp Gear BigCommerce CDN"
+  },
+  {
+    "id": "prod-nike-metcon-9",
+    "slug": "nike-metcon-9",
+    "imageUrl": "https://cdn.runrepeat.com/storage/gallery/product_primary/40112/nike-metcon-9-21212258-main.jpg",
+    "sourceUrl": "https://runrepeat.com/nike-metcon-9",
+    "licence": "retailer-authorized",
+    "source": "RunRepeat product primary"
+  },
+  {
+    "id": "prod-reebok-nano-x4",
+    "slug": "reebok-nano-x4",
+    "imageUrl": "https://cdn.runrepeat.com/storage/gallery/product_primary/40297/reebok-nano-x-4-lab-test-and-review-21472126-720.jpg",
+    "sourceUrl": "https://runrepeat.com/reebok-nano-x4",
+    "licence": "retailer-authorized",
+    "source": "RunRepeat product primary"
+  },
+  {
+    "id": "prod-nobull-trainer",
+    "slug": "nobull-trainer",
+    "imageUrl": "https://cdn.runrepeat.com/storage/gallery/product_primary/38402/nobull-trainer-21237202-main.jpg",
+    "sourceUrl": "https://runrepeat.com/nobull-trainer",
+    "licence": "retailer-authorized",
+    "source": "RunRepeat product primary"
+  },
+  {
+    "id": "prod-adidas-dropset-3",
+    "slug": "adidas-dropset-3",
+    "imageUrl": "https://cdn.runrepeat.com/storage/gallery/product_primary/40409/adidas-dropset-3-lab-test-and-review-21870266-720.jpg",
+    "sourceUrl": "https://runrepeat.com/adidas-dropset-3",
+    "licence": "retailer-authorized",
+    "source": "RunRepeat product primary"
+  },
+  {
+    "id": "prod-nobull-outwork",
+    "slug": "nobull-outwork",
+    "imageUrl": "https://cdn.runrepeat.com/storage/gallery/product_primary/28942/nobull-outwork-lab-test-and-review-24327525-720.jpg",
+    "sourceUrl": "https://runrepeat.com/nobull-outwork",
+    "licence": "retailer-authorized",
+    "source": "RunRepeat product primary"
+  },
+  {
+    "id": "prod-reebok-legacy-lifter-iii",
+    "slug": "reebok-legacy-lifter-iii",
+    "imageUrl": "https://cdn.runrepeat.com/storage/gallery/product_primary/39646/reebok-legacy-lifter-iii-21226088-720.jpg",
+    "sourceUrl": "https://runrepeat.com/reebok-legacy-lifter-iii",
+    "licence": "retailer-authorized",
+    "source": "RunRepeat product photography CDN"
+  },
+  {
+    "id": "prod-nox-at10-18k-2026",
+    "slug": "nox-at10-genius-18k-2026",
+    "imageUrl": "https://cdn11.bigcommerce.com/s-t7feygfjjq/images/stencil/1280w/products/12861/53711/7f0a36319b9fd4d284f098c8731a32d1152ac3bbd0bcd64a6795b2fa54c063c4__32369.1780684131.png?c=1",
+    "sourceUrl": "https://www.paddlepro.com/nox-at10-genius-18k-2026-by-agustin-tapia-padel-racquet/",
+    "licence": "retailer-authorized",
+    "source": "PaddlePro BigCommerce"
+  },
+  {
+    "id": "prod-head-coello-pro",
+    "slug": "head-coello-pro-2026",
+    "imageUrl": "https://cdn11.bigcommerce.com/s-t7feygfjjq/images/stencil/1280w/products/12463/51328/6234d44f3300a0374ccbbaff329059a70d4b0be79905be280dde6756d7023f09__68417.1777483273.png?c=1",
+    "sourceUrl": "https://www.paddlepro.com/",
+    "licence": "retailer-authorized",
+    "source": "PaddlePro BigCommerce CDN"
+  },
+  {
+    "id": "prod-adidas-metalbone-3-3-2026",
+    "slug": "adidas-metalbone-2026",
+    "imageUrl": "https://cdn11.bigcommerce.com/s-t7feygfjjq/images/stencil/1280w/products/12947/54220/8f11d942d62278967250ce488ded066c7d17c6c7f09b458fc0c3dd2865277fd2__89719.1781889669.jpg?c=1",
+    "sourceUrl": "https://www.paddlepro.com/padel/paddles/adidas/",
+    "licence": "retailer-authorized",
+    "source": "PaddlePro BigCommerce CDN"
+  },
+  {
+    "id": "prod-babolat-pure-aero-2023",
+    "slug": "babolat-pure-aero-2023",
+    "imageUrl": "https://img.tennis-warehouse.com/watermark/rs.php?path=BPA-1.jpg&nw=847",
+    "sourceUrl": "https://www.tennis-warehouse.com/",
+    "licence": "retailer-authorized",
+    "source": "Tennis Warehouse CDN"
+  },
+  {
+    "id": "prod-wilson-clash-100-v2",
+    "slug": "wilson-clash-100-v2",
+    "imageUrl": "https://img.tennis-warehouse.com/watermark/rs.php?path=WC100V-1.jpg&nw=847",
+    "sourceUrl": "https://www.tennis-warehouse.com/",
+    "licence": "retailer-authorized",
+    "source": "Tennis Warehouse CDN"
+  },
+  {
+    "id": "prod-wilson-blade-98-v8",
+    "slug": "wilson-blade-98-v8",
+    "imageUrl": "https://img.tennis-warehouse.com/watermark/rs.php?path=WB98V8-1.jpg&nw=847",
+    "sourceUrl": "https://www.tennis-warehouse.com/",
+    "licence": "retailer-authorized",
+    "source": "Tennis Warehouse CDN"
+  },
+  {
+    "id": "prod-head-speed-mp-2024",
+    "slug": "head-speed-mp-2024",
+    "imageUrl": "https://img.tennis-warehouse.com/watermark/rs.php?path=HSPDM-1.jpg&nw=847",
+    "sourceUrl": "https://www.tennis-warehouse.com/",
+    "licence": "retailer-authorized",
+    "source": "Tennis Warehouse CDN"
+  },
+  {
+    "id": "prod-head-radical-mp-2023",
+    "slug": "head-radical-mp-2023",
+    "imageUrl": "https://img.tennis-warehouse.com/watermark/rs.php?path=HRMP-1.jpg&nw=847",
+    "sourceUrl": "https://www.tennis-warehouse.com/",
+    "licence": "retailer-authorized",
+    "source": "Tennis Warehouse CDN"
+  },
+  {
+    "id": "prod-yonex-vcore-100-2023",
+    "slug": "yonex-vcore-100-2023",
+    "imageUrl": "https://img.tennis-warehouse.com/watermark/rs.php?path=YVC100-1.jpg&nw=847",
+    "sourceUrl": "https://www.tennis-warehouse.com/",
+    "licence": "retailer-authorized",
+    "source": "Tennis Warehouse CDN"
+  },
+  {
+    "id": "prod-babolat-pure-drive-gen11",
+    "slug": "babolat-pure-drive-gen11",
+    "imageUrl": "https://img.tennis-warehouse.com/watermark/rs.php?path=BPD11-1.jpg&nw=847",
+    "sourceUrl": "https://www.tennis-warehouse.com/",
+    "licence": "retailer-authorized",
+    "source": "Tennis Warehouse CDN"
+  },
+  {
+    "id": "prod-yonex-ezone-100-2025",
+    "slug": "yonex-ezone-100-2025",
+    "imageUrl": "https://img.tennis-warehouse.com/watermark/rs.php?path=YE100-1.jpg&nw=847",
+    "sourceUrl": "https://www.tennis-warehouse.com/",
+    "licence": "retailer-authorized",
+    "source": "Tennis Warehouse CDN"
+  },
+  {
+    "id": "prod-rogue-rml-390f",
+    "slug": "rogue-rml-390f",
+    "imageUrl": "https://assets.roguefitness.com/f_auto,q_auto,c_limit,w_1600,b_rgb:ffffff/v1/catalog/Rigs%20and%20Racks/Power%20Racks%20/Monster%20Lite%20Racks/XX12047/XX12047-h_r4wtbo_uyzuar.png",
+    "sourceUrl": "https://www.roguefitness.com/rml-390f-flat-foot-monster-lite-rack",
+    "licence": "manufacturer-marketing",
+    "source": "Rogue Fitness CDN"
+  },
+  {
+    "id": "prod-rogue-rm-4",
+    "slug": "rogue-rm-4-monster-rack",
+    "imageUrl": "https://assets.roguefitness.com/f_auto,q_auto,c_limit,w_1600,b_rgb:ffffff/v1/catalog/Rigs%20and%20Racks/Power%20Racks%20/Monster%20Racks/RM-4/RM-4-WEB3_d7onb5.png",
+    "sourceUrl": "https://www.roguefitness.com/rogue-rm-4-bolt-together-monster-rack-2-0",
+    "licence": "manufacturer-marketing",
+    "source": "Rogue Fitness CDN"
+  },
+  {
+    "id": "prod-rogue-adjustable-bench-3",
+    "slug": "rogue-adjustable-bench-3-0",
+    "imageUrl": "https://assets.roguefitness.com/f_auto,q_auto,c_limit,w_1600,b_rgb:ffffff/v1/catalog/Strength%20Equipment/Strength%20Training/Weight%20Benches/Adjustable%20:%20Incline%20Benches/RF0935/RF0935-WEB55_vctq8c.png",
+    "sourceUrl": "https://www.roguefitness.com/rogue-adjustable-bench-3-0",
+    "licence": "manufacturer-marketing",
+    "source": "Rogue Fitness CDN"
+  },
+  {
+    "id": "prod-rogue-echo-bumper",
+    "slug": "rogue-echo-bumper-plate-set",
+    "imageUrl": "https://assets.roguefitness.com/f_auto,q_auto,c_limit,w_1600,b_rgb:ffffff/v1/catalog/Samples/IP0118/IP0118-web3_praz1z.png",
+    "sourceUrl": "https://www.roguefitness.com/rogue-echo-bumper-plates-with-white-text",
+    "licence": "manufacturer-marketing",
+    "source": "Rogue Fitness CDN"
+  },
+  {
+    "id": "prod-bowflex-552",
+    "slug": "bowflex-selecttech-552",
+    "imageUrl": "https://www.bowflex.com/cdn/shop/files/results-series-552-dumbbell-pair-black-orange_jpg.jpg?v=1781824831",
+    "sourceUrl": "https://www.bowflex.com/selecttech/552/100131.html",
+    "licence": "manufacturer-marketing",
+    "source": "Bowflex Shopify CDN"
+  }
+]

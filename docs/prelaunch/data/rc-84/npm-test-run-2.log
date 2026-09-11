@@ -1,0 +1,16 @@
+
+> kitletics@0.1.0 test
+> vitest run
+
+(!) Your Vite config uses features that are unsupported by `configLoader: 'native'`, which is planned to become the default in a future major version of Vite:
+  - ESM syntax in a file loaded as CommonJS (vitest.config.ts:1:1). Use a `.mjs` extension or set `"type": "module"` in the closest package.json
+Set `VITE_CONFIG_NATIVE_IGNORE_WARNING=true` to suppress this warning.
+
+ RUN  v4.1.11 /Users/LMeyeridricks/Documents/coding/kitletics
+
+
+ Test Files  61 passed (61)
+      Tests  625 passed (625)
+   Start at  10:15:51
+   Duration  331.41s (transform 105.36s, setup 54.32s, import 737.46s, tests 478.85s, environment 5ms)
+

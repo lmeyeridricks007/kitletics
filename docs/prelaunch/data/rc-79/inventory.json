@@ -1,0 +1,17 @@
+{
+  "generatedAt": "2026-09-10T18:16:35.781Z",
+  "offersAll": 1301,
+  "offersActive": 1301,
+  "indexableRunningProducts": 375,
+  "day1RunningActiveOffers": 404,
+  "day1ByRegion": {
+    "NL": 387,
+    "DE": 5,
+    "UK": 9,
+    "US": 3
+  },
+  "overlayRows": 80,
+  "day1AlreadyOverlay": 51,
+  "day1Unvalidated": 353,
+  "inactiveOrExpired": 0
+}

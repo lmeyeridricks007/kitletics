@@ -1,0 +1,407 @@
+[
+  {
+    "id": "prod-adidas-gamecourt-2",
+    "slug": "adidas-gamecourt-2",
+    "ok": true,
+    "src": "/images/tennis/products/adidas-gamecourt-2-hero.jpg",
+    "sourceUrl": "https://www.tennis-warehouse.com/adidas_GameCourt_2_BlackWhite_Mens_Shoes/descpageMSADIDAS-AMG2BWH.html",
+    "source": "Tennis Warehouse CDN",
+    "licence": "retailer-authorized",
+    "remote": "https://img.tennis-warehouse.com/watermark/rs.php?path=AMG2BWH-1.jpg&nw=1000",
+    "categorySlug": "tennis-shoes"
+  },
+  {
+    "id": "prod-nike-vapor-cage-4",
+    "slug": "nike-court-air-zoom-vapor-cage-4",
+    "ok": true,
+    "src": "/images/tennis/products/nike-court-air-zoom-vapor-cage-4-hero.jpg",
+    "sourceUrl": "https://www.tennis-warehouse.com/Nike_Air_Zoom_Vapor_Cage_4_Green_Black_Mens_Shoes/descpageMSNIKE-NVC4MGB.html",
+    "source": "Tennis Warehouse CDN",
+    "licence": "retailer-authorized",
+    "remote": "https://img.tennis-warehouse.com/watermark/rs.php?path=NVC4MGB-1.jpg&nw=1000",
+    "categorySlug": "tennis-shoes"
+  },
+  {
+    "id": "prod-wilson-rush-pro-5",
+    "slug": "wilson-rush-pro-5-0",
+    "ok": true,
+    "src": "/images/tennis/products/wilson-rush-pro-5-0-hero.jpg",
+    "sourceUrl": "https://www.tennis-warehouse.com/Wilson_Rush_Pro_5_Black_Infrared_White_Mens_Shoes_/descpageMSWILSON-WMP5BIW.html",
+    "source": "Tennis Warehouse CDN",
+    "licence": "retailer-authorized",
+    "remote": "https://img.tennis-warehouse.com/watermark/rs.php?path=WMP5BIW-1.jpg&nw=1000",
+    "categorySlug": "tennis-shoes"
+  },
+  {
+    "id": "prod-babolat-jet-tere",
+    "slug": "babolat-jet-tere",
+    "ok": false,
+    "src": null,
+    "sourceUrl": "https://www.tennis-warehouse.com/",
+    "source": "Tennis Warehouse CDN",
+    "licence": "retailer-authorized",
+    "remote": null,
+    "categorySlug": "tennis-shoes"
+  },
+  {
+    "id": "prod-babolat-propulse-fury-3",
+    "slug": "babolat-propulse-fury-3",
+    "ok": false,
+    "src": null,
+    "sourceUrl": "https://www.tennis-warehouse.com/",
+    "source": "Tennis Warehouse CDN",
+    "licence": "retailer-authorized",
+    "remote": null,
+    "categorySlug": "tennis-shoes"
+  },
+  {
+    "id": "prod-head-revolt-pro-45",
+    "slug": "head-revolt-pro-4-5",
+    "ok": false,
+    "src": null,
+    "sourceUrl": "https://www.tennis-warehouse.com/",
+    "source": "Tennis Warehouse CDN",
+    "licence": "retailer-authorized",
+    "remote": null,
+    "categorySlug": "tennis-shoes"
+  },
+  {
+    "id": "prod-head-sprint-pro-35",
+    "slug": "head-sprint-pro-3-5",
+    "ok": false,
+    "src": null,
+    "sourceUrl": "https://www.tennis-warehouse.com/",
+    "source": "Tennis Warehouse CDN",
+    "licence": "retailer-authorized",
+    "remote": null,
+    "categorySlug": "tennis-shoes"
+  },
+  {
+    "id": "prod-mizuno-wave-exceed-tour-5",
+    "slug": "mizuno-wave-exceed-tour-5",
+    "ok": false,
+    "src": null,
+    "sourceUrl": "https://www.tennis-warehouse.com/",
+    "source": "Tennis Warehouse CDN",
+    "licence": "retailer-authorized",
+    "remote": null,
+    "categorySlug": "tennis-shoes"
+  },
+  {
+    "id": "prod-nb-996-v5",
+    "slug": "new-balance-996-v5",
+    "ok": true,
+    "src": "/images/tennis/products/new-balance-996-v5-hero.jpg",
+    "sourceUrl": "https://www.tennis-warehouse.com/",
+    "source": "Tennis Warehouse CDN",
+    "licence": "retailer-authorized",
+    "remote": "https://img.tennis-warehouse.com/watermark/rs.php?path=NBV5BYD-1.jpg&nw=1000",
+    "categorySlug": "tennis-shoes"
+  },
+  {
+    "id": "prod-nb-lav-v2",
+    "slug": "new-balance-fresh-foam-x-lav-v2",
+    "ok": false,
+    "src": null,
+    "sourceUrl": "https://www.tennis-warehouse.com/",
+    "source": "Tennis Warehouse CDN",
+    "licence": "retailer-authorized",
+    "remote": null,
+    "categorySlug": "tennis-shoes"
+  },
+  {
+    "id": "prod-nike-court-lite-4",
+    "slug": "nike-court-lite-4",
+    "ok": true,
+    "src": "/images/tennis/products/nike-court-lite-4-hero.jpg",
+    "sourceUrl": "https://www.tennis-warehouse.com/Nike_Court_Lite_4_WhiteBlack_Mens_Shoe/descpageMSNIKE-NMC4WHB.html",
+    "source": "Tennis Warehouse CDN",
+    "licence": "retailer-authorized",
+    "remote": "https://img.tennis-warehouse.com/watermark/rs.php?path=NMC4WHB-1.jpg&nw=1000",
+    "categorySlug": "tennis-shoes"
+  },
+  {
+    "id": "prod-nike-zoom-gp-turbo-2",
+    "slug": "nike-zoom-gp-turbo-hc-2",
+    "ok": false,
+    "src": null,
+    "sourceUrl": "https://www.tennis-warehouse.com/",
+    "source": "Tennis Warehouse CDN",
+    "licence": "retailer-authorized",
+    "remote": null,
+    "categorySlug": "tennis-shoes"
+  },
+  {
+    "id": "prod-prince-t22",
+    "slug": "prince-t22",
+    "ok": true,
+    "src": "/images/tennis/products/prince-t22-hero.jpg",
+    "sourceUrl": "https://www.tennis-warehouse.com/Prince_T225_Black_Yellow_Mens_Shoes/descpage-PT25MBY.html",
+    "source": "Tennis Warehouse CDN",
+    "licence": "retailer-authorized",
+    "remote": "https://img.tennis-warehouse.com/watermark/rs.php?path=PT25MBY-1.jpg&nw=1000",
+    "categorySlug": "tennis-shoes"
+  },
+  {
+    "id": "prod-wilson-kaos-rapide-30",
+    "slug": "wilson-kaos-rapide-3-0",
+    "ok": false,
+    "src": null,
+    "sourceUrl": "https://www.tennis-warehouse.com/",
+    "source": "Tennis Warehouse CDN",
+    "licence": "retailer-authorized",
+    "remote": null,
+    "categorySlug": "tennis-shoes"
+  },
+  {
+    "id": "prod-yonex-eclipsion-5",
+    "slug": "yonex-power-cushion-eclipsion-5",
+    "ok": true,
+    "src": "/images/tennis/products/yonex-power-cushion-eclipsion-5-hero.jpg",
+    "sourceUrl": "https://www.tennis-warehouse.com/Yonex_PC_Eclipsion_5_Blue_White_Mens_Shoes/descpageMSYONEX-YPE5BLW.html",
+    "source": "Tennis Warehouse CDN",
+    "licence": "retailer-authorized",
+    "remote": "https://img.tennis-warehouse.com/watermark/rs.php?path=YPE5BLW-1.jpg&nw=1000",
+    "categorySlug": "tennis-shoes"
+  },
+  {
+    "id": "prod-yonex-sonicage-3",
+    "slug": "yonex-power-cushion-sonicage-3",
+    "ok": false,
+    "src": null,
+    "sourceUrl": "https://www.tennis-warehouse.com/",
+    "source": "Tennis Warehouse CDN",
+    "licence": "retailer-authorized",
+    "remote": null,
+    "categorySlug": "tennis-shoes"
+  },
+  {
+    "id": "prod-camelbak-zephyr-pro",
+    "slug": "camelbak-zephyr-pro",
+    "ok": false,
+    "src": null,
+    "sourceUrl": "https://www.camelbak.com/product/zephyr-pro%2C-34oz%2C-galaxy-blue/CB-2820402000.html",
+    "source": "Manufacturer CDN (CamelBak)",
+    "licence": "retailer-authorized",
+    "remote": null,
+    "categorySlug": "running-packs-vests"
+  },
+  {
+    "id": "prod-ud-fastpack-20",
+    "slug": "ultimate-direction-fastpack-20",
+    "ok": false,
+    "src": null,
+    "sourceUrl": "https://ultimatedirection.com/fastpack-20/",
+    "source": "Manufacturer CDN (Ultimate Direction)",
+    "licence": "retailer-authorized",
+    "remote": null,
+    "categorySlug": "running-packs-vests"
+  },
+  {
+    "id": "prod-ud-fastpack-her-20",
+    "slug": "ultimate-direction-fastpack-her-20",
+    "ok": false,
+    "src": null,
+    "sourceUrl": "https://ultimatedirection.com/fastpackher-20-prior-year/",
+    "source": "Manufacturer CDN (Ultimate Direction)",
+    "licence": "retailer-authorized",
+    "remote": null,
+    "categorySlug": "running-packs-vests"
+  },
+  {
+    "id": "prod-hydrapak-shape-shift-15",
+    "slug": "hydrapak-shape-shift-15",
+    "ok": false,
+    "src": null,
+    "sourceUrl": "https://www.hydrapak.com/",
+    "source": "Manufacturer CDN (HydraPak)",
+    "licence": "retailer-authorized",
+    "remote": null,
+    "categorySlug": "hydration"
+  },
+  {
+    "id": "prod-hydrapak-contour-2l",
+    "slug": "hydrapak-contour-2l",
+    "ok": false,
+    "src": null,
+    "sourceUrl": "https://www.hydrapak.com/",
+    "source": "Manufacturer CDN (HydraPak)",
+    "licence": "retailer-authorized",
+    "remote": null,
+    "categorySlug": "hydration"
+  },
+  {
+    "id": "prod-hydrapak-tube-kit",
+    "slug": "hydrapak-tube-kit",
+    "ok": false,
+    "src": null,
+    "sourceUrl": "https://www.hydrapak.com/",
+    "source": "Manufacturer CDN (HydraPak)",
+    "licence": "retailer-authorized",
+    "remote": null,
+    "categorySlug": "hydration"
+  },
+  {
+    "id": "prod-hydrapak-softflask-500",
+    "slug": "hydrapak-softflask-500",
+    "ok": false,
+    "src": null,
+    "sourceUrl": "https://www.hydrapak.com/",
+    "source": "Manufacturer CDN (HydraPak)",
+    "licence": "retailer-authorized",
+    "remote": null,
+    "categorySlug": "hydration"
+  },
+  {
+    "id": "prod-babolat-jet-premura-2-men",
+    "slug": "babolat-jet-premura-2",
+    "ok": true,
+    "src": "/images/padel/products/babolat-jet-premura-2-hero.jpg",
+    "sourceUrl": "https://www.zonadepadel.es/busca?controller=search&s=Babolat%20Jet%20Premura%202",
+    "source": "Zona de Padel authorized product photography",
+    "licence": "retailer-authorized",
+    "remote": "https://www.zonadepadel.es/22481-large_default/zapatillas-babolat-jet-premura-2-men-black-tomato-red-2025.jpg",
+    "categorySlug": "padel-shoes"
+  },
+  {
+    "id": "prod-bullpadel-hack-hybrid",
+    "slug": "bullpadel-hack-hybrid",
+    "ok": true,
+    "src": "/images/padel/products/bullpadel-hack-hybrid-hero.jpg",
+    "sourceUrl": "https://www.zonadepadel.es/busca?controller=search&s=Bullpadel%20Hack%20Hybrid",
+    "source": "Zona de Padel authorized product photography",
+    "licence": "retailer-authorized",
+    "remote": "https://www.zonadepadel.es/29716-large_default/bullpadel-hack-04-hybrid-cloud-2026.jpg",
+    "categorySlug": "padel-shoes"
+  },
+  {
+    "id": "prod-joma-spin-lady",
+    "slug": "joma-spin-lady",
+    "ok": true,
+    "src": "/images/padel/products/joma-spin-lady-hero.jpg",
+    "sourceUrl": "https://www.zonadepadel.es/busca?controller=search&s=Joma%20Spin%20Lady",
+    "source": "Zona de Padel authorized product photography",
+    "licence": "retailer-authorized",
+    "remote": "https://www.zonadepadel.es/30698-large_default/zapatillas-joma-spin-lady-2612-light-grey-2026.jpg",
+    "categorySlug": "padel-shoes"
+  },
+  {
+    "id": "prod-nox-at10-pro-shoe",
+    "slug": "nox-at10-pro",
+    "ok": true,
+    "src": "/images/padel/products/nox-at10-pro-hero.jpg",
+    "sourceUrl": "https://www.zonadepadel.es/busca?controller=search&s=Nox%20AT10%20Pro",
+    "source": "Zona de Padel authorized product photography",
+    "licence": "retailer-authorized",
+    "remote": "https://www.zonadepadel.es/28014-large_default/nox-at10-pro-cup-soft-by-agustin-tapia-2026.jpg",
+    "categorySlug": "padel-shoes"
+  },
+  {
+    "id": "prod-wilson-bela-pro-padel",
+    "slug": "wilson-bela-pro-padel",
+    "ok": true,
+    "src": "/images/padel/products/wilson-bela-pro-padel-hero.jpg",
+    "sourceUrl": "https://www.zonadepadel.es/busca?controller=search&s=Wilson%20Bela%20Pro",
+    "source": "Zona de Padel authorized product photography",
+    "licence": "retailer-authorized",
+    "remote": "https://www.zonadepadel.es/26909-large_default/wilson-bela-pro-v3-2025.jpg",
+    "categorySlug": "padel-shoes"
+  },
+  {
+    "id": "prod-head-revolt-court",
+    "slug": "head-revolt-court-padel",
+    "ok": false,
+    "categorySlug": "padel-shoes"
+  },
+  {
+    "id": "prod-asics-gel-resolution-padel-w",
+    "slug": "asics-gel-resolution-padel-women",
+    "ok": true,
+    "src": "/images/padel/products/asics-gel-resolution-padel-women-hero.jpg",
+    "sourceUrl": "https://www.zonadepadel.es/busca?controller=search&s=ASICS%20Gel%20Resolution%20Padel",
+    "source": "Zona de Padel authorized product photography",
+    "licence": "retailer-authorized",
+    "remote": "https://www.zonadepadel.es/32569-large_default/zapatillas-asics-gel-resolution-x-padel-jewel-green-energy-orange-2026.jpg",
+    "categorySlug": "padel-shoes"
+  },
+  {
+    "id": "prod-asics-solution-swift-padel-w",
+    "slug": "asics-solution-swift-ff-padel-women",
+    "ok": true,
+    "src": "/images/padel/products/asics-solution-swift-ff-padel-women-hero.jpg",
+    "sourceUrl": "https://www.zonadepadel.es/busca?controller=search&s=ASICS%20Solution%20Swift%20FF%20Padel",
+    "source": "Zona de Padel authorized product photography",
+    "licence": "retailer-authorized",
+    "remote": "https://www.zonadepadel.es/26542-large_default/zapatillas-asics-solution-swift-ff2-padel-orange-glow-cream-2025.jpg",
+    "categorySlug": "padel-shoes"
+  },
+  {
+    "id": "prod-siux-diablo-pro",
+    "slug": "siux-diablo-pro-padel",
+    "ok": true,
+    "src": "/images/padel/products/siux-diablo-pro-padel-hero.jpg",
+    "sourceUrl": "https://www.zonadepadel.es/busca?controller=search&s=Siux%20Diablo%20Pro",
+    "source": "Zona de Padel authorized product photography",
+    "licence": "retailer-authorized",
+    "remote": "https://www.zonadepadel.es/28462-large_default/siux-diablo-pro-royal-blue-2026.jpg",
+    "categorySlug": "padel-shoes"
+  },
+  {
+    "id": "prod-siux-comodo-woman",
+    "slug": "siux-comodo-woman",
+    "ok": true,
+    "src": "/images/padel/products/siux-comodo-woman-hero.jpg",
+    "sourceUrl": "https://www.zonadepadel.es/busca?controller=search&s=Siux%20Comodo%20Woman",
+    "source": "Zona de Padel authorized product photography",
+    "licence": "retailer-authorized",
+    "remote": "https://www.zonadepadel.es/32395-large_default/camiseta-siux-wave-woman-azul-marino.jpg",
+    "categorySlug": "padel-shoes"
+  },
+  {
+    "id": "prod-kuikma-ps-560-women",
+    "slug": "kuikma-ps-560-women",
+    "ok": false,
+    "categorySlug": "padel-shoes"
+  },
+  {
+    "id": "prod-starvie-absolute-padel",
+    "slug": "starvie-absolute-padel",
+    "ok": false,
+    "categorySlug": "padel-shoes"
+  },
+  {
+    "id": "prod-oxdog-hyper-court",
+    "slug": "oxdog-hyper-court",
+    "ok": false,
+    "categorySlug": "padel-shoes"
+  },
+  {
+    "id": "prod-varlion-bourne-padel-shoe",
+    "slug": "varlion-bourne-padel",
+    "ok": false,
+    "categorySlug": "padel-shoes"
+  },
+  {
+    "id": "prod-lok-padel-one",
+    "slug": "lok-padel-one",
+    "ok": true,
+    "src": "/images/padel/products/lok-padel-one-hero.jpg",
+    "sourceUrl": "https://www.zonadepadel.es/busca?controller=search&s=LOK%20Padel%20One",
+    "source": "Zona de Padel authorized product photography",
+    "licence": "retailer-authorized",
+    "remote": "https://www.zonadepadel.es/21217-large_default/camiseta-lok-gen-one-m-negra.jpg",
+    "categorySlug": "padel-shoes"
+  },
+  {
+    "id": "prod-tecnifibre-t-fight-padel",
+    "slug": "tecnifibre-wall-shooter",
+    "ok": false,
+    "categorySlug": "padel-shoes"
+  },
+  {
+    "id": "prod-adidas-solecourt-boost-padel",
+    "slug": "adidas-solecourt-boost-padel",
+    "ok": false,
+    "categorySlug": "padel-shoes"
+  }
+]

@@ -1,0 +1,27 @@
+
+> kitletics@0.1.0 media:ci
+> tsx --tsconfig tsconfig.json scripts/catalog-media-agent.ts --mode=audit --identity --fail
+
+
+=== Catalog Media Agent ===
+Coverage: 100% (631/631)
+P0 gaps (current, no authentic hero): 0
+Broken files: 0
+
+Lowest coverage categories:
+  100%  Running Shoes (85/85)
+  100%  GPS Watches (37/37)
+  100%  Heart Rate Monitors (15/15)
+  100%  Running Packs & Vests (37/37)
+  100%  Running Belts (14/14)
+  100%  Hydration (17/17)
+  100%  Running Socks (10/10)
+  100%  Headphones (11/11)
+
+Sample gaps:
+
+Wrote /Users/LMeyeridricks/Documents/coding/kitletics/data/staging/catalog-media-audit-2026-09-11.json
+Wrote /Users/LMeyeridricks/Documents/coding/kitletics/data/staging/catalog-media-audit-2026-09-11.md
+
+Ingest ERROR masters (>5MB in public/images, excluding /qa/): 0
+MEDIA_EXIT:0

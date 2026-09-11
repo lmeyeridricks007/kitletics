@@ -1,0 +1,736 @@
+{
+  "ts": "2026-09-06T05:24:47.636Z",
+  "after": {
+    "running-packs-vests": {
+      "total": 19,
+      "withMedia": 14,
+      "without": 5,
+      "withoutIds": [
+        "prod-patagonia-slope-runner",
+        "prod-raidlight-responsiv-12",
+        "prod-salomon-trailblazer-20",
+        "prod-leki-trail-running-quiver",
+        "prod-salomon-soft-flask-stash"
+      ]
+    },
+    "running-belts": {
+      "total": 5,
+      "withMedia": 5,
+      "without": 0,
+      "withoutIds": []
+    },
+    "hydration": {
+      "total": 11,
+      "withMedia": 9,
+      "without": 2,
+      "withoutIds": [
+        "prod-nathan-quickdraw-plus",
+        "prod-salomon-soft-reservoir-15"
+      ]
+    },
+    "running-socks": {
+      "total": 8,
+      "withMedia": 3,
+      "without": 5,
+      "withoutIds": [
+        "prod-bombas-performance-running-quarter",
+        "prod-hilly-marathon-fresh",
+        "prod-sockwell-compression-light",
+        "prod-wrightsock-coolmesh-ii",
+        "prod-stance-run-crew"
+      ]
+    },
+    "headphones": {
+      "total": 11,
+      "withMedia": 4,
+      "without": 7,
+      "withoutIds": [
+        "prod-sony-linkbuds-open",
+        "prod-sony-linkbuds-fit",
+        "prod-jabra-elite-8-active",
+        "prod-jabra-elite-10",
+        "prod-soundcore-aerofit-2",
+        "prod-soundcore-sport-x20",
+        "prod-huawei-freeclip"
+      ]
+    },
+    "running-lights": {
+      "total": 13,
+      "withMedia": 8,
+      "without": 5,
+      "withoutIds": [
+        "prod-petzl-iko-core",
+        "prod-bd-storm-500-r",
+        "prod-silva-smini",
+        "prod-ledlenser-neo5r",
+        "prod-nitecore-nu25"
+      ]
+    },
+    "safety-gear": {
+      "total": 13,
+      "withMedia": 5,
+      "without": 8,
+      "withoutIds": [
+        "prod-knog-frog-v3",
+        "prod-knog-cobber-mid",
+        "prod-nightrunner-270",
+        "prod-nathan-strobe",
+        "prod-road-id-wrist",
+        "prod-shes-birdie-alarm",
+        "prod-flipbelt-zippered-reflective",
+        "prod-nite-ize-radiant-clip"
+      ]
+    },
+    "nutrition-fuel": {
+      "total": 2,
+      "withMedia": 1,
+      "without": 1,
+      "withoutIds": [
+        "prod-spring-awesome-sauce"
+      ]
+    },
+    "recovery": {
+      "total": 27,
+      "withMedia": 10,
+      "without": 17,
+      "withoutIds": [
+        "prod-renpho-r3",
+        "prod-opove-m3-pro",
+        "prod-timtam-power-massager-v3.7",
+        "prod-rumbleroller-original",
+        "prod-brazyn-morph",
+        "prod-blackroll-pro",
+        "prod-triggerpoint-mb1",
+        "prod-triggerpoint-mbx",
+        "prod-rad-atom",
+        "prod-therabody-recoveryair",
+        "prod-oofos-oocandoo",
+        "prod-cep-the-run-calf",
+        "prod-compressport-r2",
+        "prod-2xu-refresh-recovery",
+        "prod-the-stick",
+        "prod-triggerpoint-stp",
+        "prod-cep-calf-sleeves"
+      ]
+    },
+    "accessories": {
+      "total": 12,
+      "withMedia": 2,
+      "without": 10,
+      "withoutIds": [
+        "prod-buff-original",
+        "prod-buff-coolnet-uv",
+        "prod-buff-merino-lightweight",
+        "prod-compressport-armforce",
+        "prod-squirrels-nut-butter",
+        "prod-2toms-sportshield",
+        "prod-amphipod-reflective-armband",
+        "prod-dirty-girl-gaiters",
+        "prod-outdoor-research-ferrosi-gaiters",
+        "prod-amphipod-airflow-armband"
+      ]
+    }
+  },
+  "missing": [
+    {
+      "id": "prod-patagonia-slope-runner",
+      "slug": "patagonia-slope-runner-vest",
+      "fullName": "Patagonia Slope Runner Vest",
+      "brandSlug": "patagonia",
+      "brandName": "Patagonia",
+      "brandHomepage": "https://www.patagonia.com",
+      "categoryId": "cat-packs-vests",
+      "categorySlug": "running-packs-vests"
+    },
+    {
+      "id": "prod-raidlight-responsiv-12",
+      "slug": "raidlight-responsiv-12",
+      "fullName": "RaidLight Responsiv 12L",
+      "brandSlug": "raidlight",
+      "brandName": "RaidLight",
+      "brandHomepage": "https://www.raidlight.com",
+      "categoryId": "cat-packs-vests",
+      "categorySlug": "running-packs-vests"
+    },
+    {
+      "id": "prod-nathan-quickdraw-plus",
+      "slug": "nathan-quickdraw-plus-handheld",
+      "fullName": "Nathan QuickDraw Plus Handheld",
+      "brandSlug": "nathan",
+      "brandName": "Nathan",
+      "brandHomepage": "https://www.nathansports.com",
+      "categoryId": "cat-hydration",
+      "categorySlug": "hydration"
+    },
+    {
+      "id": "prod-salomon-soft-reservoir-15",
+      "slug": "salomon-soft-reservoir-15",
+      "fullName": "Salomon Soft Reservoir 1.5L",
+      "brandSlug": "salomon",
+      "brandName": "Salomon",
+      "brandHomepage": "https://www.salomon.com",
+      "categoryId": "cat-hydration",
+      "categorySlug": "hydration"
+    },
+    {
+      "id": "prod-bombas-performance-running-quarter",
+      "slug": "bombas-performance-running-quarter",
+      "fullName": "Bombas Performance Running Quarter",
+      "brandSlug": "bombas",
+      "brandName": "Bombas",
+      "brandHomepage": "https://bombas.com",
+      "categoryId": "cat-running-socks",
+      "categorySlug": "running-socks"
+    },
+    {
+      "id": "prod-hilly-marathon-fresh",
+      "slug": "hilly-marathon-fresh",
+      "fullName": "Hilly Marathon Fresh Socks",
+      "brandSlug": "hilly",
+      "brandName": "Hilly",
+      "brandHomepage": "https://www.hillysocks.com",
+      "categoryId": "cat-running-socks",
+      "categorySlug": "running-socks"
+    },
+    {
+      "id": "prod-sockwell-compression-light",
+      "slug": "sockwell-compression-light-cushion",
+      "fullName": "Sockwell Compression Light Cushion",
+      "brandSlug": "sockwell",
+      "brandName": "Sockwell",
+      "brandHomepage": "https://www.sockwellusa.com",
+      "categoryId": "cat-running-socks",
+      "categorySlug": "running-socks"
+    },
+    {
+      "id": "prod-wrightsock-coolmesh-ii",
+      "slug": "wrightsock-coolmesh-ii",
+      "fullName": "Wrightsock Coolmesh II",
+      "brandSlug": "wrightsock",
+      "brandName": "Wrightsock",
+      "brandHomepage": "https://www.wrightsock.com",
+      "categoryId": "cat-running-socks",
+      "categorySlug": "running-socks"
+    },
+    {
+      "id": "prod-salomon-trailblazer-20",
+      "slug": "salomon-trailblazer-20",
+      "fullName": "Salomon Trailblazer 20",
+      "brandSlug": "salomon",
+      "brandName": "Salomon",
+      "brandHomepage": "https://www.salomon.com",
+      "categoryId": "cat-packs-vests",
+      "categorySlug": "running-packs-vests"
+    },
+    {
+      "id": "prod-leki-trail-running-quiver",
+      "slug": "leki-trail-running-quiver",
+      "fullName": "LEKI Trail Running Quiver",
+      "brandSlug": "leki",
+      "brandName": "LEKI",
+      "brandHomepage": "https://www.leki.com",
+      "categoryId": "cat-packs-vests",
+      "categorySlug": "running-packs-vests"
+    },
+    {
+      "id": "prod-salomon-soft-flask-stash",
+      "slug": "salomon-soft-flask-stash",
+      "fullName": "Salomon Soft Flask Stash / Pocket",
+      "brandSlug": "salomon",
+      "brandName": "Salomon",
+      "brandHomepage": "https://www.salomon.com",
+      "categoryId": "cat-packs-vests",
+      "categorySlug": "running-packs-vests"
+    },
+    {
+      "id": "prod-sony-linkbuds-open",
+      "slug": "sony-linkbuds-open",
+      "fullName": "Sony LinkBuds Open",
+      "brandSlug": "sony",
+      "brandName": "Sony",
+      "brandHomepage": "https://www.sony.com",
+      "categoryId": "cat-headphones",
+      "categorySlug": "headphones"
+    },
+    {
+      "id": "prod-sony-linkbuds-fit",
+      "slug": "sony-linkbuds-fit",
+      "fullName": "Sony LinkBuds Fit",
+      "brandSlug": "sony",
+      "brandName": "Sony",
+      "brandHomepage": "https://www.sony.com",
+      "categoryId": "cat-headphones",
+      "categorySlug": "headphones"
+    },
+    {
+      "id": "prod-jabra-elite-8-active",
+      "slug": "jabra-elite-8-active",
+      "fullName": "Jabra Elite 8 Active Gen 2",
+      "brandSlug": "jabra",
+      "brandName": "Jabra",
+      "brandHomepage": "https://www.jabra.com",
+      "categoryId": "cat-headphones",
+      "categorySlug": "headphones"
+    },
+    {
+      "id": "prod-jabra-elite-10",
+      "slug": "jabra-elite-10",
+      "fullName": "Jabra Elite 10 Gen 2",
+      "brandSlug": "jabra",
+      "brandName": "Jabra",
+      "brandHomepage": "https://www.jabra.com",
+      "categoryId": "cat-headphones",
+      "categorySlug": "headphones"
+    },
+    {
+      "id": "prod-soundcore-aerofit-2",
+      "slug": "soundcore-aerofit-2",
+      "fullName": "soundcore AeroFit 2",
+      "brandSlug": "soundcore",
+      "brandName": "soundcore",
+      "brandHomepage": "https://www.soundcore.com",
+      "categoryId": "cat-headphones",
+      "categorySlug": "headphones"
+    },
+    {
+      "id": "prod-soundcore-sport-x20",
+      "slug": "soundcore-sport-x20",
+      "fullName": "soundcore Sport X20",
+      "brandSlug": "soundcore",
+      "brandName": "soundcore",
+      "brandHomepage": "https://www.soundcore.com",
+      "categoryId": "cat-headphones",
+      "categorySlug": "headphones"
+    },
+    {
+      "id": "prod-huawei-freeclip",
+      "slug": "huawei-freeclip",
+      "fullName": "HUAWEI FreeClip 2",
+      "brandSlug": "huawei",
+      "brandName": "HUAWEI",
+      "brandHomepage": "https://consumer.huawei.com",
+      "categoryId": "cat-headphones",
+      "categorySlug": "headphones"
+    },
+    {
+      "id": "prod-petzl-iko-core",
+      "slug": "petzl-iko-core",
+      "fullName": "Petzl IKO Core",
+      "brandSlug": "petzl",
+      "brandName": "Petzl",
+      "brandHomepage": "https://www.petzl.com",
+      "categoryId": "cat-running-lights",
+      "categorySlug": "running-lights"
+    },
+    {
+      "id": "prod-bd-storm-500-r",
+      "slug": "black-diamond-storm-500-r",
+      "fullName": "Black Diamond Storm 500-R",
+      "brandSlug": "black-diamond",
+      "brandName": "Black Diamond",
+      "brandHomepage": "https://www.blackdiamondequipment.com",
+      "categoryId": "cat-running-lights",
+      "categorySlug": "running-lights"
+    },
+    {
+      "id": "prod-silva-smini",
+      "slug": "silva-smini",
+      "fullName": "Silva Smini",
+      "brandSlug": "silva",
+      "brandName": "Silva",
+      "brandHomepage": "https://silvasweden.com",
+      "categoryId": "cat-running-lights",
+      "categorySlug": "running-lights"
+    },
+    {
+      "id": "prod-ledlenser-neo5r",
+      "slug": "ledlenser-neo5r",
+      "fullName": "Ledlenser NEO5R",
+      "brandSlug": "ledlenser",
+      "brandName": "Ledlenser",
+      "brandHomepage": "https://www.ledlenser.com",
+      "categoryId": "cat-running-lights",
+      "categorySlug": "running-lights"
+    },
+    {
+      "id": "prod-nitecore-nu25",
+      "slug": "nitecore-nu25-ul",
+      "fullName": "NITECORE NU25 UL",
+      "brandSlug": "nitecore",
+      "brandName": "NITECORE",
+      "brandHomepage": "https://www.nitecore.com",
+      "categoryId": "cat-running-lights",
+      "categorySlug": "running-lights"
+    },
+    {
+      "id": "prod-knog-frog-v3",
+      "slug": "knog-frog-v3",
+      "fullName": "Knog Frog V3 Twin Pack",
+      "brandSlug": "knog",
+      "brandName": "Knog",
+      "brandHomepage": "https://www.knog.com",
+      "categoryId": "cat-safety",
+      "categorySlug": "safety-gear"
+    },
+    {
+      "id": "prod-knog-cobber-mid",
+      "slug": "knog-cobber-mid",
+      "fullName": "Knog Cobber Mid",
+      "brandSlug": "knog",
+      "brandName": "Knog",
+      "brandHomepage": "https://www.knog.com",
+      "categoryId": "cat-safety",
+      "categorySlug": "safety-gear"
+    },
+    {
+      "id": "prod-nightrunner-270",
+      "slug": "night-runner-270",
+      "fullName": "Night Runner 270 Shoe Lights",
+      "brandSlug": "night-runner",
+      "brandName": "Night Runner",
+      "brandHomepage": "https://www.nightrunner.com",
+      "categoryId": "cat-safety",
+      "categorySlug": "safety-gear"
+    },
+    {
+      "id": "prod-nathan-strobe",
+      "slug": "nathan-lux-strobe-rx",
+      "fullName": "Nathan Lux Strobe RX",
+      "brandSlug": "nathan",
+      "brandName": "Nathan",
+      "brandHomepage": "https://www.nathansports.com",
+      "categoryId": "cat-safety",
+      "categorySlug": "safety-gear"
+    },
+    {
+      "id": "prod-road-id-wrist",
+      "slug": "road-id-wrist-id",
+      "fullName": "Road ID Wrist ID",
+      "brandSlug": "road-id",
+      "brandName": "Road ID",
+      "brandHomepage": "https://www.roadid.com",
+      "categoryId": "cat-safety",
+      "categorySlug": "safety-gear"
+    },
+    {
+      "id": "prod-shes-birdie-alarm",
+      "slug": "shes-birdie-personal-alarm",
+      "fullName": "She's Birdie Personal Safety Alarm",
+      "brandSlug": "shes-birdie",
+      "brandName": "She's Birdie",
+      "brandHomepage": "https://www.shesbirdie.com",
+      "categoryId": "cat-safety",
+      "categorySlug": "safety-gear"
+    },
+    {
+      "id": "prod-flipbelt-zippered-reflective",
+      "slug": "flipbelt-zipper-reflective",
+      "fullName": "FlipBelt Zipper Reflective",
+      "brandSlug": "flipbelt",
+      "brandName": "FlipBelt",
+      "brandHomepage": "https://flipbelt.com",
+      "categoryId": "cat-safety",
+      "categorySlug": "safety-gear"
+    },
+    {
+      "id": "prod-spring-awesome-sauce",
+      "slug": "spring-energy-awesome-sauce",
+      "fullName": "Spring Energy Awesome Sauce",
+      "brandSlug": "spring-energy",
+      "brandName": "Spring Energy",
+      "brandHomepage": "https://www.springenergy.co",
+      "categoryId": "cat-nutrition",
+      "categorySlug": "nutrition-fuel"
+    },
+    {
+      "id": "prod-renpho-r3",
+      "slug": "renpho-r3",
+      "fullName": "RENPHO R3 Massage Gun",
+      "brandSlug": "renpho",
+      "brandName": "RENPHO",
+      "brandHomepage": "https://renpho.com",
+      "categoryId": "cat-recovery-gear",
+      "categorySlug": "recovery"
+    },
+    {
+      "id": "prod-opove-m3-pro",
+      "slug": "opove-m3-pro",
+      "fullName": "OPOVE M3 Pro Massage Gun",
+      "brandSlug": "opove",
+      "brandName": "OPOVE",
+      "brandHomepage": "https://opove.com",
+      "categoryId": "cat-recovery-gear",
+      "categorySlug": "recovery"
+    },
+    {
+      "id": "prod-timtam-power-massager-v3.7",
+      "slug": "timtam-power-massager-v3-7",
+      "fullName": "TimTam Power Massager V3.7",
+      "brandSlug": "timtam",
+      "brandName": "TimTam",
+      "brandHomepage": "https://timtam.tech",
+      "categoryId": "cat-recovery-gear",
+      "categorySlug": "recovery"
+    },
+    {
+      "id": "prod-rumbleroller-original",
+      "slug": "rumbleroller-original",
+      "fullName": "RumbleRoller Original",
+      "brandSlug": "rumbleroller",
+      "brandName": "RumbleRoller",
+      "brandHomepage": "https://www.rumbleroller.com",
+      "categoryId": "cat-recovery-gear",
+      "categorySlug": "recovery"
+    },
+    {
+      "id": "prod-brazyn-morph",
+      "slug": "brazyn-morph",
+      "fullName": "Brazyn Morph Collapsible Foam Roller",
+      "brandSlug": "brazyn",
+      "brandName": "Brazyn",
+      "brandHomepage": "https://brazynlife.com",
+      "categoryId": "cat-recovery-gear",
+      "categorySlug": "recovery"
+    },
+    {
+      "id": "prod-blackroll-pro",
+      "slug": "blackroll-pro",
+      "fullName": "BLACKROLL PRO Foam Roller",
+      "brandSlug": "blackroll",
+      "brandName": "BLACKROLL",
+      "brandHomepage": "https://blackroll.com",
+      "categoryId": "cat-recovery-gear",
+      "categorySlug": "recovery"
+    },
+    {
+      "id": "prod-triggerpoint-mb1",
+      "slug": "triggerpoint-mb1",
+      "fullName": "TriggerPoint MB1 Massage Ball",
+      "brandSlug": "triggerpoint",
+      "brandName": "TriggerPoint",
+      "brandHomepage": "https://www.triggerpointtherapy.com",
+      "categoryId": "cat-recovery-gear",
+      "categorySlug": "recovery"
+    },
+    {
+      "id": "prod-triggerpoint-mbx",
+      "slug": "triggerpoint-mbx",
+      "fullName": "TriggerPoint MBX Massage Ball",
+      "brandSlug": "triggerpoint",
+      "brandName": "TriggerPoint",
+      "brandHomepage": "https://www.triggerpointtherapy.com",
+      "categoryId": "cat-recovery-gear",
+      "categorySlug": "recovery"
+    },
+    {
+      "id": "prod-rad-atom",
+      "slug": "rad-atom",
+      "fullName": "RAD Atom",
+      "brandSlug": "rad-roller",
+      "brandName": "RAD Roller",
+      "brandHomepage": "https://www.radroller.com",
+      "categoryId": "cat-recovery-gear",
+      "categorySlug": "recovery"
+    },
+    {
+      "id": "prod-therabody-recoveryair",
+      "slug": "therabody-recoveryair",
+      "fullName": "Therabody RecoveryAir",
+      "brandSlug": "therabody",
+      "brandName": "Therabody",
+      "brandHomepage": "https://www.therabody.com",
+      "categoryId": "cat-recovery-gear",
+      "categorySlug": "recovery"
+    },
+    {
+      "id": "prod-oofos-oocandoo",
+      "slug": "oofos-oocandoo",
+      "fullName": "OOFOS OOcandoo",
+      "brandSlug": "oofos",
+      "brandName": "OOFOS",
+      "brandHomepage": "https://www.oofos.com",
+      "categoryId": "cat-recovery-gear",
+      "categorySlug": "recovery"
+    },
+    {
+      "id": "prod-cep-the-run-calf",
+      "slug": "cep-the-run-calf-sleeves",
+      "fullName": "CEP The Run Calf Sleeves",
+      "brandSlug": "cep",
+      "brandName": "CEP",
+      "brandHomepage": "https://www.cepcompression.com",
+      "categoryId": "cat-recovery-gear",
+      "categorySlug": "recovery"
+    },
+    {
+      "id": "prod-compressport-r2",
+      "slug": "compressport-r2",
+      "fullName": "Compressport R2 Calf Sleeves",
+      "brandSlug": "compressport",
+      "brandName": "Compressport",
+      "brandHomepage": "https://www.compressport.com",
+      "categoryId": "cat-recovery-gear",
+      "categorySlug": "recovery"
+    },
+    {
+      "id": "prod-2xu-refresh-recovery",
+      "slug": "2xu-refresh-recovery-tights",
+      "fullName": "2XU Refresh Recovery Tights",
+      "brandSlug": "2xu",
+      "brandName": "2XU",
+      "brandHomepage": "https://www.2xu.com",
+      "categoryId": "cat-recovery-gear",
+      "categorySlug": "recovery"
+    },
+    {
+      "id": "prod-the-stick",
+      "slug": "the-stick",
+      "fullName": "The Stick",
+      "brandSlug": "the-stick",
+      "brandName": "The Stick",
+      "brandHomepage": "https://www.thestick.com",
+      "categoryId": "cat-recovery-gear",
+      "categorySlug": "recovery"
+    },
+    {
+      "id": "prod-triggerpoint-stp",
+      "slug": "triggerpoint-stp",
+      "fullName": "TriggerPoint STP Massage Stick",
+      "brandSlug": "triggerpoint",
+      "brandName": "TriggerPoint",
+      "brandHomepage": "https://www.triggerpointtherapy.com",
+      "categoryId": "cat-recovery-gear",
+      "categorySlug": "recovery"
+    },
+    {
+      "id": "prod-stance-run-crew",
+      "slug": "stance-run-crew",
+      "fullName": "Stance Run Crew",
+      "brandSlug": "stance",
+      "brandName": "Stance",
+      "brandHomepage": "https://www.stance.com",
+      "categoryId": "cat-running-socks",
+      "categorySlug": "running-socks"
+    },
+    {
+      "id": "prod-nite-ize-radiant-clip",
+      "slug": "nite-ize-radiant-rechargeable-clip-light",
+      "fullName": "Nite Ize Radiant Rechargeable Clip Light",
+      "brandSlug": "nite-ize",
+      "brandName": "Nite Ize",
+      "brandHomepage": "https://www.niteize.com",
+      "categoryId": "cat-safety",
+      "categorySlug": "safety-gear"
+    },
+    {
+      "id": "prod-buff-original",
+      "slug": "buff-original",
+      "fullName": "Buff Original Multifunctional Headwear",
+      "brandSlug": "buff",
+      "brandName": "BUFF",
+      "brandHomepage": "https://www.buff.com",
+      "categoryId": "cat-accessories",
+      "categorySlug": "accessories"
+    },
+    {
+      "id": "prod-cep-calf-sleeves",
+      "slug": "cep-calf-sleeves-3",
+      "fullName": "CEP Calf Sleeves 3.0",
+      "brandSlug": "cep",
+      "brandName": "CEP",
+      "brandHomepage": "https://www.cepcompression.com",
+      "categoryId": "cat-recovery-gear",
+      "categorySlug": "recovery"
+    },
+    {
+      "id": "prod-buff-coolnet-uv",
+      "slug": "buff-coolnet-uv",
+      "fullName": "BUFF CoolNet UV+ Multifunctional Neckwear",
+      "brandSlug": "buff",
+      "brandName": "BUFF",
+      "brandHomepage": "https://www.buff.com",
+      "categoryId": "cat-accessories",
+      "categorySlug": "accessories"
+    },
+    {
+      "id": "prod-buff-merino-lightweight",
+      "slug": "buff-merino-lightweight",
+      "fullName": "BUFF Lightweight Merino Wool Multifunctional Neckwear",
+      "brandSlug": "buff",
+      "brandName": "BUFF",
+      "brandHomepage": "https://www.buff.com",
+      "categoryId": "cat-accessories",
+      "categorySlug": "accessories"
+    },
+    {
+      "id": "prod-compressport-armforce",
+      "slug": "compressport-armforce",
+      "fullName": "Compressport ArmForce Ultralight Arm Sleeves",
+      "brandSlug": "compressport",
+      "brandName": "Compressport",
+      "brandHomepage": "https://www.compressport.com",
+      "categoryId": "cat-accessories",
+      "categorySlug": "accessories"
+    },
+    {
+      "id": "prod-squirrels-nut-butter",
+      "slug": "squirrels-nut-butter",
+      "fullName": "Squirrel's Nut Butter Original Anti-Chafe Balm",
+      "brandSlug": "squirrels-nut-butter",
+      "brandName": "Squirrel's Nut Butter",
+      "brandHomepage": "https://sqnutbutter.com",
+      "categoryId": "cat-accessories",
+      "categorySlug": "accessories"
+    },
+    {
+      "id": "prod-2toms-sportshield",
+      "slug": "2toms-sportshield",
+      "fullName": "2Toms SportShield Anti-Chafe Roll-On",
+      "brandSlug": "2toms",
+      "brandName": "2Toms",
+      "brandHomepage": "https://www.2toms.com",
+      "categoryId": "cat-accessories",
+      "categorySlug": "accessories"
+    },
+    {
+      "id": "prod-amphipod-reflective-armband",
+      "slug": "amphipod-reflective-armband",
+      "fullName": "Amphipod Reflective Armband",
+      "brandSlug": "amphipod",
+      "brandName": "Amphipod",
+      "brandHomepage": "https://www.amphipod.com",
+      "categoryId": "cat-accessories",
+      "categorySlug": "accessories"
+    },
+    {
+      "id": "prod-dirty-girl-gaiters",
+      "slug": "dirty-girl-gaiters",
+      "fullName": "Dirty Girl Gaiters",
+      "brandSlug": "dirty-girl",
+      "brandName": "Dirty Girl",
+      "brandHomepage": "https://dirtygirlgaiters.com",
+      "categoryId": "cat-accessories",
+      "categorySlug": "accessories"
+    },
+    {
+      "id": "prod-outdoor-research-ferrosi-gaiters",
+      "slug": "outdoor-research-ferrosi-gaiters",
+      "fullName": "Outdoor Research Ferrosi Thru Gaiters",
+      "brandSlug": "outdoor-research",
+      "brandName": "Outdoor Research",
+      "brandHomepage": "https://www.outdoorresearch.com",
+      "categoryId": "cat-accessories",
+      "categorySlug": "accessories"
+    },
+    {
+      "id": "prod-amphipod-airflow-armband",
+      "slug": "amphipod-airflow-armband",
+      "fullName": "Amphipod AirFlow Phone Armband",
+      "brandSlug": "amphipod",
+      "brandName": "Amphipod",
+      "brandHomepage": "https://www.amphipod.com",
+      "categoryId": "cat-accessories",
+      "categorySlug": "accessories"
+    }
+  ]
+}

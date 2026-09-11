@@ -1,0 +1,1187 @@
+{
+  "generatedAt": "2026-09-10T20:14:11.657Z",
+  "base": "http://127.0.0.1:3010",
+  "axeDump": [
+    {
+      "id": "header",
+      "path": "/",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright",
+          "nodes": [
+            {
+              "html": "<span class=\"block\">FIND THE RIGHT</span>",
+              "target": [
+                "h1 > .block:nth-child(1)"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient",
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "message": "Element's background color could not be determined due to a background gradient",
+                  "data": {
+                    "contrastRatio": 0,
+                    "fontSize": "51.0pt (68px)",
+                    "fontWeight": "bold",
+                    "messageKey": "bgGradient",
+                    "expectedContrastRatio": "3:1"
+                  }
+                }
+              ],
+              "none": []
+            },
+            {
+              "html": "<span class=\"block\">GEAR. <span class=\"text-accent\">PLAY BETTER.</span></span>",
+              "target": [
+                "h1 > .block:nth-child(2)"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient",
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "message": "Element's background color could not be determined due to a background gradient",
+                  "data": {
+                    "contrastRatio": 0,
+                    "fontSize": "51.0pt (68px)",
+                    "fontWeight": "bold",
+                    "messageKey": "bgGradient",
+                    "expectedContrastRatio": "3:1"
+                  }
+                }
+              ],
+              "none": []
+            },
+            {
+              "html": "<span class=\"text-accent\">PLAY BETTER.</span>",
+              "target": [
+                ".block:nth-child(2) > .text-accent"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient",
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "message": "Element's background color could not be determined due to a background gradient",
+                  "data": {
+                    "contrastRatio": 0,
+                    "fontSize": "51.0pt (68px)",
+                    "fontWeight": "bold",
+                    "messageKey": "bgGradient",
+                    "expectedContrastRatio": "3:1"
+                  }
+                }
+              ],
+              "none": []
+            },
+            {
+              "html": "<p class=\"max-w-md text-[15px] leading-relaxed text-white/75\">Unbiased reviews, smart tools and real-time prices across running, racket sports, fitness and more.</p>",
+              "target": [
+                ".text-white\\/75.max-w-md.leading-relaxed"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient",
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "message": "Element's background color could not be determined due to a background gradient",
+                  "data": {
+                    "contrastRatio": 0,
+                    "fontSize": "11.3pt (15px)",
+                    "fontWeight": "normal",
+                    "messageKey": "bgGradient",
+                    "expectedContrastRatio": "4.5:1"
+                  }
+                }
+              ],
+              "none": []
+            },
+            {
+              "html": "<a class=\"inline-flex h-11 items-center justify-center rounded-[4px] border border-white/70 px-5 text-[13px] font-bold tracking-[0.06em] text-white uppercase transition-colors hover:border-white hover:bg-white/5\" href=\"/gear\">BROWSE ALL SPORTS</a>",
+              "target": [
+                ".border-white\\/70"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient",
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "message": "Element's background color could not be determined due to a background gradient",
+                  "data": {
+                    "contrastRatio": 0,
+                    "fontSize": "9.8pt (13px)",
+                    "fontWeight": "bold",
+                    "messageKey": "bgGradient",
+                    "expectedContrastRatio": "4.5:1"
+                  }
+                }
+              ],
+              "none": []
+            },
+            {
+              "html": "<span>Independent methodology · Structured product data · No paid rankings</span>",
+              "target": [
+                ".pt-2.gap-2\\.5.text-white\\/70 > span"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient",
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "message": "Element's background color could not be determined due to a background gradient",
+                  "data": {
+                    "contrastRatio": 0,
+                    "fontSize": "10.5pt (14px)",
+                    "fontWeight": "normal",
+                    "messageKey": "bgGradient",
+                    "expectedContrastRatio": "4.5:1"
+                  }
+                }
+              ],
+              "none": []
+            },
+            {
+              "html": "<p class=\"text-[11px] font-bold tracking-[0.14em] text-accent uppercase\">HOW TO CHOOSE</p>",
+              "target": [
+                ".p-7 > .tracking-\\[0\\.14em\\].text-accent.text-\\[11px\\]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient",
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "message": "Element's background color could not be determined due to a background gradient",
+                  "data": {
+                    "contrastRatio": 0,
+                    "fontSize": "8.3pt (11px)",
+                    "fontWeight": "bold",
+                    "messageKey": "bgGradient",
+                    "expectedContrastRatio": "4.5:1"
+                  }
+                }
+              ],
+              "none": []
+            },
+            {
+              "html": "<h3 class=\"font-display text-[28px] leading-tight font-bold text-white sm:text-[32px]\">How to Choose a Running Watch</h3>",
+              "target": [
+                ".text-\\[28px\\]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient",
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "message": "Element's background color could not be determined due to a background gradient",
+                  "data": {
+                    "contrastRatio": 0,
+                    "fontSize": "24.0pt (32px)",
+                    "fontWeight": "bold",
+                    "messageKey": "bgGradient",
+                    "expectedContrastRatio": "3:1"
+                  }
+                }
+              ],
+              "none": []
+            },
+            {
+              "html": "<p class=\"line-clamp-3 text-sm leading-relaxed text-white/75\">Battery, maps, HR accuracy and when a Forerunner beats a Fenix — or a phone.</p>",
+              "target": [
+                ".line-clamp-3"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient",
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "message": "Element's background color could not be determined due to a background gradient",
+                  "data": {
+                    "contrastRatio": 0,
+                    "fontSize": "10.5pt (14px)",
+                    "fontWeight": "normal",
+                    "messageKey": "bgGradient",
+                    "expectedContrastRatio": "4.5:1"
+                  }
+                }
+              ],
+              "none": []
+            }
+          ]
+        }
+      ],
+      "incompleteCount": 1
+    },
+    {
+      "id": "search",
+      "path": "/search?q=vomero",
+      "violations": [],
+      "incomplete": [],
+      "incompleteCount": 0
+    }
+  ],
+  "overflow": {
+    "/products/asics-novablast-6": {
+      "vw": 390,
+      "vh": 844,
+      "scrollWidth": 390,
+      "overflowX": false,
+      "leakPx": 0,
+      "offenders": [
+        {
+          "tag": "A",
+          "cls": "shrink-0 border-b-2 px-3 py-1.5 text-[13px] font-medium transition-colors border-transparent text-muted hover:text-foreground",
+          "id": "",
+          "left": 344,
+          "right": 424,
+          "width": 81,
+          "overflowX": "visible",
+          "position": "static",
+          "transform": "none"
+        },
+        {
+          "tag": "A",
+          "cls": "shrink-0 border-b-2 px-3 py-1.5 text-[13px] font-medium transition-colors border-transparent text-muted hover:text-foreground",
+          "id": "",
+          "left": 428,
+          "right": 526,
+          "width": 98,
+          "overflowX": "visible",
+          "position": "static",
+          "transform": "none"
+        },
+        {
+          "tag": "A",
+          "cls": "shrink-0 border-b-2 px-3 py-1.5 text-[13px] font-medium transition-colors border-transparent text-muted hover:text-foreground",
+          "id": "",
+          "left": 530,
+          "right": 592,
+          "width": 62,
+          "overflowX": "visible",
+          "position": "static",
+          "transform": "none"
+        },
+        {
+          "tag": "A",
+          "cls": "shrink-0 border-b-2 px-3 py-1.5 text-[13px] font-medium transition-colors border-transparent text-muted hover:text-foreground",
+          "id": "",
+          "left": 596,
+          "right": 676,
+          "width": 80,
+          "overflowX": "visible",
+          "position": "static",
+          "transform": "none"
+        },
+        {
+          "tag": "LI",
+          "cls": "w-[220px] shrink-0 snap-start rounded-xl border border-border bg-white p-4 sm:w-auto",
+          "id": "",
+          "left": 248,
+          "right": 468,
+          "width": 220,
+          "overflowX": "visible",
+          "position": "static",
+          "transform": "none"
+        },
+        {
+          "tag": "A",
+          "cls": "block",
+          "id": "",
+          "left": 265,
+          "right": 451,
+          "width": 186,
+          "overflowX": "visible",
+          "position": "static",
+          "transform": "none"
+        },
+        {
+          "tag": "SPAN",
+          "cls": "relative mx-auto block h-24 w-full",
+          "id": "",
+          "left": 265,
+          "right": 451,
+          "width": 186,
+          "overflowX": "visible",
+          "position": "relative",
+          "transform": "none"
+        },
+        {
+          "tag": "IMG",
+          "cls": "object-contain",
+          "id": "",
+          "left": 265,
+          "right": 451,
+          "width": 186,
+          "overflowX": "clip",
+          "position": "absolute",
+          "transform": "none"
+        },
+        {
+          "tag": "SPAN",
+          "cls": "mt-2 block text-[11px] font-medium tracking-wide text-muted uppercase",
+          "id": "",
+          "left": 265,
+          "right": 451,
+          "width": 186,
+          "overflowX": "visible",
+          "position": "static",
+          "transform": "none"
+        },
+        {
+          "tag": "SPAN",
+          "cls": "block text-[14px] font-semibold text-foreground",
+          "id": "",
+          "left": 265,
+          "right": 451,
+          "width": 186,
+          "overflowX": "visible",
+          "position": "static",
+          "transform": "none"
+        },
+        {
+          "tag": "P",
+          "cls": "mt-2 text-[12px] leading-snug text-muted",
+          "id": "",
+          "left": 265,
+          "right": 451,
+          "width": 186,
+          "overflowX": "visible",
+          "position": "static",
+          "transform": "none"
+        },
+        {
+          "tag": "SPAN",
+          "cls": "font-semibold text-foreground",
+          "id": "",
+          "left": 265,
+          "right": 413,
+          "width": 148,
+          "overflowX": "visible",
+          "position": "static",
+          "transform": "none"
+        },
+        {
+          "tag": "DIV",
+          "cls": "mt-3 flex flex-wrap items-center gap-2",
+          "id": "",
+          "left": 265,
+          "right": 451,
+          "width": 186,
+          "overflowX": "visible",
+          "position": "static",
+          "transform": "none"
+        },
+        {
+          "tag": "SPAN",
+          "cls": "text-[12px] text-muted",
+          "id": "",
+          "left": 365,
+          "right": 428,
+          "width": 62,
+          "overflowX": "visible",
+          "position": "static",
+          "transform": "none"
+        },
+        {
+          "tag": "LI",
+          "cls": "w-[220px] shrink-0 snap-start rounded-xl border border-border bg-white p-4 sm:w-auto",
+          "id": "",
+          "left": 480,
+          "right": 700,
+          "width": 220,
+          "overflowX": "visible",
+          "position": "static",
+          "transform": "none"
+        },
+        {
+          "tag": "A",
+          "cls": "block",
+          "id": "",
+          "left": 497,
+          "right": 683,
+          "width": 186,
+          "overflowX": "visible",
+          "position": "static",
+          "transform": "none"
+        },
+        {
+          "tag": "SPAN",
+          "cls": "relative mx-auto block h-24 w-full",
+          "id": "",
+          "left": 497,
+          "right": 683,
+          "width": 186,
+          "overflowX": "visible",
+          "position": "relative",
+          "transform": "none"
+        },
+        {
+          "tag": "IMG",
+          "cls": "object-contain",
+          "id": "",
+          "left": 497,
+          "right": 683,
+          "width": 186,
+          "overflowX": "clip",
+          "position": "absolute",
+          "transform": "none"
+        }
+      ],
+      "fixed": [
+        {
+          "tag": "DIV",
+          "cls": "sticky top-0 z-40",
+          "id": "",
+          "text": "Unbiased. Data-driven. Expert sport gear",
+          "left": 0,
+          "top": 0,
+          "width": 390,
+          "height": 96,
+          "z": "40"
+        },
+        {
+          "tag": "DIV",
+          "cls": "fixed inset-0 z-50 bg-charcoal-950/50 backdrop-blur-sm transition-opacity lg:hidden pointer-events-none opacity-0",
+          "id": "",
+          "text": "",
+          "left": 0,
+          "top": 0,
+          "width": 390,
+          "height": 844,
+          "z": "50"
+        },
+        {
+          "tag": "ASIDE",
+          "cls": "fixed inset-y-0 left-0 z-50 flex w-[min(100%,20rem)] flex-col bg-surface shadow-lg transition-transform duration-300 lg:",
+          "id": "",
+          "text": "KITLETICSKITLETICS menuSearch Kitletics…",
+          "left": -320,
+          "top": 0,
+          "width": 320,
+          "height": 844,
+          "z": "50"
+        },
+        {
+          "tag": "NAV",
+          "cls": "sticky top-[var(--site-chrome-height)] z-30 border-b border-border bg-white/95 backdrop-blur-sm",
+          "id": "",
+          "text": "OverviewSpecsPerformanceReviewCompareAlt",
+          "left": 0,
+          "top": 1919,
+          "width": 390,
+          "height": 55,
+          "z": "30"
+        }
+      ],
+      "carousels": [
+        {
+          "cls": "grid max-h-[60vh] gap-4 overflow-y-auto sm:grid-cols-2",
+          "clientW": 0,
+          "scrollW": 0,
+          "rectW": 0,
+          "peek": false
+        },
+        {
+          "cls": "flex-1 overflow-y-auto px-3 py-4",
+          "clientW": 320,
+          "scrollW": 320,
+          "rectW": 320,
+          "peek": false
+        },
+        {
+          "cls": "mx-auto flex max-w-[90rem] gap-1 overflow-x-auto px-4 py-2.5 sm:px-6 lg:px-8",
+          "clientW": 390,
+          "scrollW": 692,
+          "rectW": 390,
+          "peek": true
+        },
+        {
+          "cls": "flex w-full min-w-0 max-w-full snap-x snap-mandatory overflow-x-auto overscroll-x-contain pb-1 [scrollbar-width:thin] mt-4 gap-3 sm:grid sm:grid-cols-3 sm:snap-",
+          "clientW": 358,
+          "scrollW": 684,
+          "rectW": 358,
+          "peek": true
+        },
+        {
+          "cls": "flex w-full min-w-0 max-w-full snap-x snap-mandatory overflow-x-auto overscroll-x-contain pb-1 [scrollbar-width:thin] gap-2 sm:grid sm:grid-cols-4 sm:snap-none ",
+          "clientW": 358,
+          "scrollW": 584,
+          "rectW": 358,
+          "peek": true
+        }
+      ],
+      "nChips": []
+    },
+    "/products/nike-vomero-18": {
+      "vw": 390,
+      "vh": 844,
+      "scrollWidth": 390,
+      "overflowX": false,
+      "leakPx": 0,
+      "offenders": [
+        {
+          "tag": "A",
+          "cls": "shrink-0 border-b-2 px-3 py-1.5 text-[13px] font-medium transition-colors border-transparent text-muted hover:text-foreground",
+          "id": "",
+          "left": 322,
+          "right": 419,
+          "width": 98,
+          "overflowX": "visible",
+          "position": "static",
+          "transform": "none"
+        },
+        {
+          "tag": "A",
+          "cls": "shrink-0 border-b-2 px-3 py-1.5 text-[13px] font-medium transition-colors border-transparent text-muted hover:text-foreground",
+          "id": "",
+          "left": 423,
+          "right": 485,
+          "width": 62,
+          "overflowX": "visible",
+          "position": "static",
+          "transform": "none"
+        },
+        {
+          "tag": "A",
+          "cls": "shrink-0 border-b-2 px-3 py-1.5 text-[13px] font-medium transition-colors border-transparent text-muted hover:text-foreground",
+          "id": "",
+          "left": 489,
+          "right": 569,
+          "width": 80,
+          "overflowX": "visible",
+          "position": "static",
+          "transform": "none"
+        },
+        {
+          "tag": "LI",
+          "cls": "w-[220px] shrink-0 snap-start rounded-xl border border-border bg-white p-4 sm:w-auto",
+          "id": "",
+          "left": 248,
+          "right": 468,
+          "width": 220,
+          "overflowX": "visible",
+          "position": "static",
+          "transform": "none"
+        },
+        {
+          "tag": "A",
+          "cls": "block",
+          "id": "",
+          "left": 265,
+          "right": 451,
+          "width": 186,
+          "overflowX": "visible",
+          "position": "static",
+          "transform": "none"
+        },
+        {
+          "tag": "SPAN",
+          "cls": "relative mx-auto block h-24 w-full",
+          "id": "",
+          "left": 265,
+          "right": 451,
+          "width": 186,
+          "overflowX": "visible",
+          "position": "relative",
+          "transform": "none"
+        },
+        {
+          "tag": "IMG",
+          "cls": "object-contain",
+          "id": "",
+          "left": 265,
+          "right": 451,
+          "width": 186,
+          "overflowX": "clip",
+          "position": "absolute",
+          "transform": "none"
+        },
+        {
+          "tag": "SPAN",
+          "cls": "mt-2 block text-[11px] font-medium tracking-wide text-muted uppercase",
+          "id": "",
+          "left": 265,
+          "right": 451,
+          "width": 186,
+          "overflowX": "visible",
+          "position": "static",
+          "transform": "none"
+        },
+        {
+          "tag": "SPAN",
+          "cls": "block text-[14px] font-semibold text-foreground",
+          "id": "",
+          "left": 265,
+          "right": 451,
+          "width": 186,
+          "overflowX": "visible",
+          "position": "static",
+          "transform": "none"
+        },
+        {
+          "tag": "P",
+          "cls": "mt-2 text-[12px] leading-snug text-muted",
+          "id": "",
+          "left": 265,
+          "right": 451,
+          "width": 186,
+          "overflowX": "visible",
+          "position": "static",
+          "transform": "none"
+        },
+        {
+          "tag": "SPAN",
+          "cls": "font-semibold text-foreground",
+          "id": "",
+          "left": 265,
+          "right": 413,
+          "width": 148,
+          "overflowX": "visible",
+          "position": "static",
+          "transform": "none"
+        },
+        {
+          "tag": "DIV",
+          "cls": "mt-3 flex flex-wrap items-center gap-2",
+          "id": "",
+          "left": 265,
+          "right": 451,
+          "width": 186,
+          "overflowX": "visible",
+          "position": "static",
+          "transform": "none"
+        },
+        {
+          "tag": "SPAN",
+          "cls": "text-[12px] text-muted",
+          "id": "",
+          "left": 365,
+          "right": 429,
+          "width": 63,
+          "overflowX": "visible",
+          "position": "static",
+          "transform": "none"
+        },
+        {
+          "tag": "LI",
+          "cls": "w-[220px] shrink-0 snap-start rounded-xl border border-border bg-white p-4 sm:w-auto",
+          "id": "",
+          "left": 480,
+          "right": 700,
+          "width": 220,
+          "overflowX": "visible",
+          "position": "static",
+          "transform": "none"
+        },
+        {
+          "tag": "A",
+          "cls": "block",
+          "id": "",
+          "left": 497,
+          "right": 683,
+          "width": 186,
+          "overflowX": "visible",
+          "position": "static",
+          "transform": "none"
+        },
+        {
+          "tag": "SPAN",
+          "cls": "relative mx-auto block h-24 w-full",
+          "id": "",
+          "left": 497,
+          "right": 683,
+          "width": 186,
+          "overflowX": "visible",
+          "position": "relative",
+          "transform": "none"
+        },
+        {
+          "tag": "IMG",
+          "cls": "object-contain",
+          "id": "",
+          "left": 497,
+          "right": 683,
+          "width": 186,
+          "overflowX": "clip",
+          "position": "absolute",
+          "transform": "none"
+        },
+        {
+          "tag": "SPAN",
+          "cls": "mt-2 block text-[11px] font-medium tracking-wide text-muted uppercase",
+          "id": "",
+          "left": 497,
+          "right": 683,
+          "width": 186,
+          "overflowX": "visible",
+          "position": "static",
+          "transform": "none"
+        }
+      ],
+      "fixed": [
+        {
+          "tag": "DIV",
+          "cls": "sticky top-0 z-40",
+          "id": "",
+          "text": "Unbiased. Data-driven. Expert sport gear",
+          "left": 0,
+          "top": 0,
+          "width": 390,
+          "height": 96,
+          "z": "40"
+        },
+        {
+          "tag": "DIV",
+          "cls": "fixed inset-0 z-50 bg-charcoal-950/50 backdrop-blur-sm transition-opacity lg:hidden pointer-events-none opacity-0",
+          "id": "",
+          "text": "",
+          "left": 0,
+          "top": 0,
+          "width": 390,
+          "height": 844,
+          "z": "50"
+        },
+        {
+          "tag": "ASIDE",
+          "cls": "fixed inset-y-0 left-0 z-50 flex w-[min(100%,20rem)] flex-col bg-surface shadow-lg transition-transform duration-300 lg:",
+          "id": "",
+          "text": "KITLETICSKITLETICS menuSearch Kitletics…",
+          "left": -320,
+          "top": 0,
+          "width": 320,
+          "height": 844,
+          "z": "50"
+        },
+        {
+          "tag": "NAV",
+          "cls": "sticky top-[var(--site-chrome-height)] z-30 border-b border-border bg-white/95 backdrop-blur-sm",
+          "id": "",
+          "text": "OverviewSpecsReviewCompareAlternativesPr",
+          "left": 0,
+          "top": 1587,
+          "width": 390,
+          "height": 55,
+          "z": "30"
+        }
+      ],
+      "carousels": [
+        {
+          "cls": "grid max-h-[60vh] gap-4 overflow-y-auto sm:grid-cols-2",
+          "clientW": 0,
+          "scrollW": 0,
+          "rectW": 0,
+          "peek": false
+        },
+        {
+          "cls": "flex-1 overflow-y-auto px-3 py-4",
+          "clientW": 320,
+          "scrollW": 320,
+          "rectW": 320,
+          "peek": false
+        },
+        {
+          "cls": "mx-auto flex max-w-[90rem] gap-1 overflow-x-auto px-4 py-2.5 sm:px-6 lg:px-8",
+          "clientW": 390,
+          "scrollW": 585,
+          "rectW": 390,
+          "peek": true
+        },
+        {
+          "cls": "flex w-full min-w-0 max-w-full snap-x snap-mandatory overflow-x-auto overscroll-x-contain pb-1 [scrollbar-width:thin] mt-4 gap-3 sm:grid sm:grid-cols-3 sm:snap-",
+          "clientW": 358,
+          "scrollW": 684,
+          "rectW": 358,
+          "peek": true
+        }
+      ],
+      "nChips": []
+    },
+    "/products/brooks-glycerin-22": {
+      "vw": 390,
+      "vh": 844,
+      "scrollWidth": 390,
+      "overflowX": false,
+      "leakPx": 0,
+      "offenders": [
+        {
+          "tag": "A",
+          "cls": "shrink-0 border-b-2 px-3 py-1.5 text-[13px] font-medium transition-colors border-transparent text-muted hover:text-foreground",
+          "id": "",
+          "left": 344,
+          "right": 424,
+          "width": 81,
+          "overflowX": "visible",
+          "position": "static",
+          "transform": "none"
+        },
+        {
+          "tag": "A",
+          "cls": "shrink-0 border-b-2 px-3 py-1.5 text-[13px] font-medium transition-colors border-transparent text-muted hover:text-foreground",
+          "id": "",
+          "left": 428,
+          "right": 526,
+          "width": 98,
+          "overflowX": "visible",
+          "position": "static",
+          "transform": "none"
+        },
+        {
+          "tag": "A",
+          "cls": "shrink-0 border-b-2 px-3 py-1.5 text-[13px] font-medium transition-colors border-transparent text-muted hover:text-foreground",
+          "id": "",
+          "left": 530,
+          "right": 592,
+          "width": 62,
+          "overflowX": "visible",
+          "position": "static",
+          "transform": "none"
+        },
+        {
+          "tag": "A",
+          "cls": "shrink-0 border-b-2 px-3 py-1.5 text-[13px] font-medium transition-colors border-transparent text-muted hover:text-foreground",
+          "id": "",
+          "left": 596,
+          "right": 676,
+          "width": 80,
+          "overflowX": "visible",
+          "position": "static",
+          "transform": "none"
+        },
+        {
+          "tag": "LI",
+          "cls": "w-[220px] shrink-0 snap-start rounded-xl border border-border bg-white p-4 sm:w-auto",
+          "id": "",
+          "left": 248,
+          "right": 468,
+          "width": 220,
+          "overflowX": "visible",
+          "position": "static",
+          "transform": "none"
+        },
+        {
+          "tag": "A",
+          "cls": "block",
+          "id": "",
+          "left": 265,
+          "right": 451,
+          "width": 186,
+          "overflowX": "visible",
+          "position": "static",
+          "transform": "none"
+        },
+        {
+          "tag": "SPAN",
+          "cls": "relative mx-auto block h-24 w-full",
+          "id": "",
+          "left": 265,
+          "right": 451,
+          "width": 186,
+          "overflowX": "visible",
+          "position": "relative",
+          "transform": "none"
+        },
+        {
+          "tag": "IMG",
+          "cls": "object-contain",
+          "id": "",
+          "left": 265,
+          "right": 451,
+          "width": 186,
+          "overflowX": "clip",
+          "position": "absolute",
+          "transform": "none"
+        },
+        {
+          "tag": "SPAN",
+          "cls": "mt-2 block text-[11px] font-medium tracking-wide text-muted uppercase",
+          "id": "",
+          "left": 265,
+          "right": 451,
+          "width": 186,
+          "overflowX": "visible",
+          "position": "static",
+          "transform": "none"
+        },
+        {
+          "tag": "SPAN",
+          "cls": "block text-[14px] font-semibold text-foreground",
+          "id": "",
+          "left": 265,
+          "right": 451,
+          "width": 186,
+          "overflowX": "visible",
+          "position": "static",
+          "transform": "none"
+        },
+        {
+          "tag": "P",
+          "cls": "mt-2 text-[12px] leading-snug text-muted",
+          "id": "",
+          "left": 265,
+          "right": 451,
+          "width": 186,
+          "overflowX": "visible",
+          "position": "static",
+          "transform": "none"
+        },
+        {
+          "tag": "SPAN",
+          "cls": "font-semibold text-foreground",
+          "id": "",
+          "left": 265,
+          "right": 413,
+          "width": 148,
+          "overflowX": "visible",
+          "position": "static",
+          "transform": "none"
+        },
+        {
+          "tag": "DIV",
+          "cls": "mt-3 flex flex-wrap items-center gap-2",
+          "id": "",
+          "left": 265,
+          "right": 451,
+          "width": 186,
+          "overflowX": "visible",
+          "position": "static",
+          "transform": "none"
+        },
+        {
+          "tag": "SPAN",
+          "cls": "text-[12px] text-muted",
+          "id": "",
+          "left": 338,
+          "right": 402,
+          "width": 64,
+          "overflowX": "visible",
+          "position": "static",
+          "transform": "none"
+        },
+        {
+          "tag": "LI",
+          "cls": "w-[220px] shrink-0 snap-start rounded-xl border border-border bg-white p-4 sm:w-auto",
+          "id": "",
+          "left": 480,
+          "right": 700,
+          "width": 220,
+          "overflowX": "visible",
+          "position": "static",
+          "transform": "none"
+        },
+        {
+          "tag": "A",
+          "cls": "block",
+          "id": "",
+          "left": 497,
+          "right": 683,
+          "width": 186,
+          "overflowX": "visible",
+          "position": "static",
+          "transform": "none"
+        },
+        {
+          "tag": "SPAN",
+          "cls": "relative mx-auto block h-24 w-full",
+          "id": "",
+          "left": 497,
+          "right": 683,
+          "width": 186,
+          "overflowX": "visible",
+          "position": "relative",
+          "transform": "none"
+        },
+        {
+          "tag": "IMG",
+          "cls": "object-contain",
+          "id": "",
+          "left": 497,
+          "right": 683,
+          "width": 186,
+          "overflowX": "clip",
+          "position": "absolute",
+          "transform": "none"
+        }
+      ],
+      "fixed": [
+        {
+          "tag": "DIV",
+          "cls": "sticky top-0 z-40",
+          "id": "",
+          "text": "Unbiased. Data-driven. Expert sport gear",
+          "left": 0,
+          "top": 0,
+          "width": 390,
+          "height": 96,
+          "z": "40"
+        },
+        {
+          "tag": "DIV",
+          "cls": "fixed inset-0 z-50 bg-charcoal-950/50 backdrop-blur-sm transition-opacity lg:hidden pointer-events-none opacity-0",
+          "id": "",
+          "text": "",
+          "left": 0,
+          "top": 0,
+          "width": 390,
+          "height": 844,
+          "z": "50"
+        },
+        {
+          "tag": "ASIDE",
+          "cls": "fixed inset-y-0 left-0 z-50 flex w-[min(100%,20rem)] flex-col bg-surface shadow-lg transition-transform duration-300 lg:",
+          "id": "",
+          "text": "KITLETICSKITLETICS menuSearch Kitletics…",
+          "left": -320,
+          "top": 0,
+          "width": 320,
+          "height": 844,
+          "z": "50"
+        },
+        {
+          "tag": "NAV",
+          "cls": "sticky top-[var(--site-chrome-height)] z-30 border-b border-border bg-white/95 backdrop-blur-sm",
+          "id": "",
+          "text": "OverviewSpecsPerformanceReviewCompareAlt",
+          "left": 0,
+          "top": 1669,
+          "width": 390,
+          "height": 55,
+          "z": "30"
+        }
+      ],
+      "carousels": [
+        {
+          "cls": "grid max-h-[60vh] gap-4 overflow-y-auto sm:grid-cols-2",
+          "clientW": 0,
+          "scrollW": 0,
+          "rectW": 0,
+          "peek": false
+        },
+        {
+          "cls": "flex-1 overflow-y-auto px-3 py-4",
+          "clientW": 320,
+          "scrollW": 320,
+          "rectW": 320,
+          "peek": false
+        },
+        {
+          "cls": "mx-auto flex max-w-[90rem] gap-1 overflow-x-auto px-4 py-2.5 sm:px-6 lg:px-8",
+          "clientW": 390,
+          "scrollW": 692,
+          "rectW": 390,
+          "peek": true
+        },
+        {
+          "cls": "flex w-full min-w-0 max-w-full snap-x snap-mandatory overflow-x-auto overscroll-x-contain pb-1 [scrollbar-width:thin] mt-4 gap-3 sm:grid sm:grid-cols-3 sm:snap-",
+          "clientW": 358,
+          "scrollW": 684,
+          "rectW": 358,
+          "peek": true
+        }
+      ],
+      "nChips": []
+    }
+  },
+  "regression": {
+    "product-390": {
+      "path": "/products/asics-novablast-6",
+      "overflowX": false,
+      "leakPx": 0,
+      "scrollWidth": 390,
+      "fixedCount": 4
+    },
+    "review-390": {
+      "path": "/reviews/asics-novablast-6",
+      "overflowX": false,
+      "leakPx": 0,
+      "scrollWidth": 390,
+      "fixedCount": 4
+    },
+    "best-390": {
+      "path": "/best/running-shoes",
+      "overflowX": false,
+      "leakPx": 0,
+      "scrollWidth": 390,
+      "fixedCount": 13
+    },
+    "guide-390": {
+      "path": "/guides/how-to-choose-running-shoes",
+      "overflowX": false,
+      "leakPx": 0,
+      "scrollWidth": 390,
+      "fixedCount": 3
+    },
+    "finder-390": {
+      "path": "/tools/running-shoe-finder",
+      "overflowX": false,
+      "leakPx": 0,
+      "scrollWidth": 390,
+      "fixedCount": 3
+    },
+    "product-768": {
+      "path": "/products/asics-novablast-6",
+      "overflowX": false,
+      "leakPx": 0,
+      "scrollWidth": 768,
+      "fixedCount": 4
+    },
+    "review-768": {
+      "path": "/reviews/asics-novablast-6",
+      "overflowX": false,
+      "leakPx": 0,
+      "scrollWidth": 768,
+      "fixedCount": 4
+    },
+    "best-768": {
+      "path": "/best/running-shoes",
+      "overflowX": false,
+      "leakPx": 0,
+      "scrollWidth": 768,
+      "fixedCount": 13
+    },
+    "guide-768": {
+      "path": "/guides/how-to-choose-running-shoes",
+      "overflowX": false,
+      "leakPx": 0,
+      "scrollWidth": 768,
+      "fixedCount": 3
+    },
+    "finder-768": {
+      "path": "/tools/running-shoe-finder",
+      "overflowX": false,
+      "leakPx": 0,
+      "scrollWidth": 768,
+      "fixedCount": 3
+    },
+    "product-1440": {
+      "path": "/products/asics-novablast-6",
+      "overflowX": false,
+      "leakPx": 0,
+      "scrollWidth": 1440,
+      "fixedCount": 3
+    },
+    "review-1440": {
+      "path": "/reviews/asics-novablast-6",
+      "overflowX": false,
+      "leakPx": 0,
+      "scrollWidth": 1440,
+      "fixedCount": 4
+    },
+    "best-1440": {
+      "path": "/best/running-shoes",
+      "overflowX": false,
+      "leakPx": 0,
+      "scrollWidth": 1440,
+      "fixedCount": 20
+    },
+    "guide-1440": {
+      "path": "/guides/how-to-choose-running-shoes",
+      "overflowX": false,
+      "leakPx": 0,
+      "scrollWidth": 1440,
+      "fixedCount": 2
+    },
+    "finder-1440": {
+      "path": "/tools/running-shoe-finder",
+      "overflowX": false,
+      "leakPx": 0,
+      "scrollWidth": 1440,
+      "fixedCount": 3
+    }
+  }
+}

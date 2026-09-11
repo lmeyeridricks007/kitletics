@@ -1,0 +1,45 @@
+{
+  "totals": {
+    "NEEDS_DIFFERENTIATION": 411,
+    "DUPLICATIVE": 107,
+    "GENUINELY_UNIQUE": 804,
+    "TEMPLATE_SIMILAR_ACCEPTABLE": 114
+  },
+  "reviews": {
+    "NEEDS_DIFFERENTIATION": 404,
+    "DUPLICATIVE": 107,
+    "GENUINELY_UNIQUE": 38,
+    "TEMPLATE_SIMILAR_ACCEPTABLE": 36
+  },
+  "products": {
+    "GENUINELY_UNIQUE": 593,
+    "TEMPLATE_SIMILAR_ACCEPTABLE": 30
+  },
+  "bestGuides": {
+    "GENUINELY_UNIQUE": 33,
+    "TEMPLATE_SIMILAR_ACCEPTABLE": 25
+  },
+  "buyingGuides": {
+    "GENUINELY_UNIQUE": 68
+  },
+  "comparisons": {
+    "GENUINELY_UNIQUE": 72,
+    "TEMPLATE_SIMILAR_ACCEPTABLE": 23,
+    "NEEDS_DIFFERENTIATION": 7
+  },
+  "day1ReviewHolds": 472,
+  "duplicativeReviews": 107,
+  "needsDifferentiationReviews": 404
+}
+Wrote /Users/LMeyeridricks/Documents/coding/kitletics/docs/prelaunch/data/25-content-uniqueness.json
+Wrote /Users/LMeyeridricks/Documents/coding/kitletics/src/content/launch/content-uniqueness-holds.ts (472 holds)
+Top review pairs: [
+  '0.881 nike-metcon-9 ↔ ua-tribase-reign-6',
+  '0.872 adidas-adipower-weightlifting-2 ↔ adidas-dropset-3',
+  '0.867 nike-romaleos-4 ↔ reebok-legacy-lifter-iii',
+  '0.866 puma-fuse-3 ↔ tyr-cxt-2',
+  '0.865 inov8-fastlift-360 ↔ nobull-outwork',
+  '0.862 nike-free-metcon-6 ↔ nobull-trainer',
+  '0.859 lululemon-strongfeel ↔ nobull-trainer-plus',
+  '0.856 lululemon-strongfeel ↔ ua-tribase-reign-6'
+]

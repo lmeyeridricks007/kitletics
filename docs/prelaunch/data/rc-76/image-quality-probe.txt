@@ -1,0 +1,16 @@
+base=http://127.0.0.1:3010
+=== optimizer (vomero-18-hero.png w=384) ===
+q=65 -> 200 image/png 20191B
+q=70 -> 200 image/png 21508B
+q=75 -> 200 image/png 22349B
+q=80 -> 400  44B
+q=100 -> 400  45B
+=== HTML routes ===
+200 product cards  /running/shoes  next/image=577 q={65:102,70:475} sample=q70:200,q70:200,q70:200,q70:200,q70:200,q70:200 broken=0
+200 PDP hero       /products/nike-vomero-18  next/image=123 q={65:51,70:39,75:33} sample=q75:200,q75:200,q75:200,q75:200,q75:200,q75:200 broken=0
+200 Review         /reviews/nike-vomero-18  next/image=342 q={75:342} sample=q75:200,q75:200,q75:200,q75:200,q75:200,q75:200 broken=0
+200 Best           /best/running-shoes  next/image=550 q={75:550} sample=q75:200,q75:200,q75:200,q75:200,q75:200,q75:200 broken=0
+200 Guide          /guides/how-to-choose-running-shoes  next/image=315 q={75:315} sample=q75:200,q75:200,q75:200,q75:200,q75:200,q75:200 broken=0
+200 Brand          /brands/nike  next/image=537 q={65:459,70:65,75:13} sample=q75:200,q75:200,q75:200,q75:200,q75:200,q75:200 broken=0
+200 Compare        /compare/asics-novablast-6-vs-brooks-ghost-18  next/image=316 q={65:136,75:180} sample=q75:200,q75:200,q75:200,q75:200,q75:200,q75:200 broken=0
+200 Finder         /tools/running-shoe-finder  next/image=67 q={75:67} sample=q75:200,q75:200,q75:200,q75:200,q75:200,q75:200 broken=0

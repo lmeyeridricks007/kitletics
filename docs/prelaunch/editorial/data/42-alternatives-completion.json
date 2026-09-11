@@ -1,0 +1,197 @@
+{
+  "generatedAt": "2026-09-09T19:54:24.705Z",
+  "totals": {
+    "publishedProducts": 623,
+    "approvedAltEdges": 1738,
+    "syncTemplateReasonHits": 0,
+    "pagesWithAlternatives": 407,
+    "eligibilityOk": 43,
+    "pageIndexable": 43,
+    "launchIndexable": 43,
+    "substantiveEligible": 43,
+    "decisionComplete": 43,
+    "byUniquenessClass": {
+      "TEMPLATE_SIMILAR_ACCEPTABLE": 43
+    },
+    "needsDiff": 0,
+    "duplicative": 0
+  },
+  "worstPeers": [
+    {
+      "slug": "asics-metaspeed-sky-paris",
+      "peer": "nike-alphafly-3",
+      "sim": 0.719,
+      "class": "TEMPLATE_SIMILAR_ACCEPTABLE"
+    },
+    {
+      "slug": "nike-alphafly-3",
+      "peer": "asics-metaspeed-sky-paris",
+      "sim": 0.719,
+      "class": "TEMPLATE_SIMILAR_ACCEPTABLE"
+    },
+    {
+      "slug": "polar-h10",
+      "peer": "garmin-hrm-200",
+      "sim": 0.718,
+      "class": "TEMPLATE_SIMILAR_ACCEPTABLE"
+    },
+    {
+      "slug": "garmin-hrm-200",
+      "peer": "polar-h10",
+      "sim": 0.718,
+      "class": "TEMPLATE_SIMILAR_ACCEPTABLE"
+    },
+    {
+      "slug": "wahoo-trackr",
+      "peer": "suunto-smart-heart-rate-belt",
+      "sim": 0.693,
+      "class": "TEMPLATE_SIMILAR_ACCEPTABLE"
+    },
+    {
+      "slug": "suunto-smart-heart-rate-belt",
+      "peer": "wahoo-trackr",
+      "sim": 0.693,
+      "class": "TEMPLATE_SIMILAR_ACCEPTABLE"
+    },
+    {
+      "slug": "polar-verity-sense",
+      "peer": "wahoo-tickr-fit",
+      "sim": 0.686,
+      "class": "TEMPLATE_SIMILAR_ACCEPTABLE"
+    },
+    {
+      "slug": "wahoo-tickr-fit",
+      "peer": "polar-verity-sense",
+      "sim": 0.686,
+      "class": "TEMPLATE_SIMILAR_ACCEPTABLE"
+    },
+    {
+      "slug": "wahoo-tickr-x",
+      "peer": "suunto-smart-heart-rate-belt",
+      "sim": 0.669,
+      "class": "TEMPLATE_SIMILAR_ACCEPTABLE"
+    },
+    {
+      "slug": "garmin-hrm-pro-plus",
+      "peer": "garmin-hrm-600",
+      "sim": 0.664,
+      "class": "TEMPLATE_SIMILAR_ACCEPTABLE"
+    },
+    {
+      "slug": "garmin-hrm-600",
+      "peer": "garmin-hrm-pro-plus",
+      "sim": 0.664,
+      "class": "TEMPLATE_SIMILAR_ACCEPTABLE"
+    },
+    {
+      "slug": "nike-vomero-18",
+      "peer": "brooks-glycerin-22",
+      "sim": 0.642,
+      "class": "TEMPLATE_SIMILAR_ACCEPTABLE"
+    },
+    {
+      "slug": "brooks-glycerin-22",
+      "peer": "nike-vomero-18",
+      "sim": 0.642,
+      "class": "TEMPLATE_SIMILAR_ACCEPTABLE"
+    },
+    {
+      "slug": "saucony-triumph-22",
+      "peer": "brooks-glycerin-22",
+      "sim": 0.629,
+      "class": "TEMPLATE_SIMILAR_ACCEPTABLE"
+    },
+    {
+      "slug": "garmin-hrm-fit",
+      "peer": "polar-verity-sense",
+      "sim": 0.626,
+      "class": "TEMPLATE_SIMILAR_ACCEPTABLE"
+    }
+  ],
+  "sampleIndexable": [
+    {
+      "slug": "nike-pegasus-41",
+      "alts": 7,
+      "groups": 2,
+      "class": "TEMPLATE_SIMILAR_ACCEPTABLE",
+      "sim": 0.604
+    },
+    {
+      "slug": "adidas-adizero-boston-12",
+      "alts": 3,
+      "groups": 2,
+      "class": "TEMPLATE_SIMILAR_ACCEPTABLE",
+      "sim": 0.588
+    },
+    {
+      "slug": "garmin-hrm-pro-plus",
+      "alts": 3,
+      "groups": 2,
+      "class": "TEMPLATE_SIMILAR_ACCEPTABLE",
+      "sim": 0.664
+    },
+    {
+      "slug": "asics-novablast-6",
+      "alts": 8,
+      "groups": 7,
+      "class": "TEMPLATE_SIMILAR_ACCEPTABLE",
+      "sim": 0.544
+    },
+    {
+      "slug": "asics-superblast-2",
+      "alts": 6,
+      "groups": 3,
+      "class": "TEMPLATE_SIMILAR_ACCEPTABLE",
+      "sim": 0.556
+    },
+    {
+      "slug": "asics-metaspeed-sky-paris",
+      "alts": 4,
+      "groups": 2,
+      "class": "TEMPLATE_SIMILAR_ACCEPTABLE",
+      "sim": 0.719
+    },
+    {
+      "slug": "nike-pegasus-42",
+      "alts": 8,
+      "groups": 5,
+      "class": "TEMPLATE_SIMILAR_ACCEPTABLE",
+      "sim": 0.604
+    },
+    {
+      "slug": "nike-vomero-18",
+      "alts": 3,
+      "groups": 2,
+      "class": "TEMPLATE_SIMILAR_ACCEPTABLE",
+      "sim": 0.642
+    },
+    {
+      "slug": "nike-vaporfly-4",
+      "alts": 7,
+      "groups": 2,
+      "class": "TEMPLATE_SIMILAR_ACCEPTABLE",
+      "sim": 0.62
+    },
+    {
+      "slug": "nike-alphafly-3",
+      "alts": 4,
+      "groups": 3,
+      "class": "TEMPLATE_SIMILAR_ACCEPTABLE",
+      "sim": 0.719
+    },
+    {
+      "slug": "brooks-ghost-18",
+      "alts": 8,
+      "groups": 6,
+      "class": "TEMPLATE_SIMILAR_ACCEPTABLE",
+      "sim": 0.597
+    },
+    {
+      "slug": "brooks-glycerin-22",
+      "alts": 5,
+      "groups": 3,
+      "class": "TEMPLATE_SIMILAR_ACCEPTABLE",
+      "sim": 0.642
+    }
+  ]
+}

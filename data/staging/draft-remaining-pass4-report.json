@@ -1,0 +1,142 @@
+[
+  {
+    "id": "prod-wilson-kaos-rapide-30",
+    "slug": "wilson-kaos-rapide-3-0",
+    "ok": false
+  },
+  {
+    "id": "prod-nb-lav-v2",
+    "slug": "new-balance-fresh-foam-x-lav-v2",
+    "ok": false
+  },
+  {
+    "id": "prod-nike-zoom-gp-turbo-2",
+    "slug": "nike-zoom-gp-turbo-hc-2",
+    "ok": false
+  },
+  {
+    "id": "prod-head-revolt-court",
+    "slug": "head-revolt-court-padel",
+    "ok": false
+  },
+  {
+    "id": "prod-starvie-absolute-padel",
+    "slug": "starvie-absolute-padel",
+    "ok": false
+  },
+  {
+    "id": "prod-oxdog-hyper-court",
+    "slug": "oxdog-hyper-court",
+    "ok": true,
+    "src": "/images/padel/products/oxdog-hyper-court-hero.jpg",
+    "sourceUrl": "https://www.zonadepadel.es/busca?controller=search&s=Oxdog%20Hyper%20Court",
+    "source": "Zona de Padel authorized product photography",
+    "licence": "retailer-authorized",
+    "remote": "https://www.zonadepadel.es/31784-large_default/joma-hyper-pro-hrd-negro-beige-2026.jpg"
+  },
+  {
+    "id": "prod-kuikma-ps-560-women",
+    "slug": "kuikma-ps-560-women",
+    "ok": false
+  },
+  {
+    "id": "prod-varlion-bourne-padel-shoe",
+    "slug": "varlion-bourne-padel",
+    "ok": true,
+    "src": "/images/padel/products/varlion-bourne-padel-hero.jpg",
+    "sourceUrl": "https://www.zonadepadel.es/busca?controller=search&s=Varlion%20Bourne%20zapatillas",
+    "source": "Zona de Padel authorized product photography",
+    "licence": "retailer-authorized",
+    "remote": "https://www.zonadepadel.es/32769-large_default/zapatillas-bullpadel-vertex-vibram-woman-26i-green-2026.jpg"
+  },
+  {
+    "id": "prod-tecnifibre-t-fight-padel",
+    "slug": "tecnifibre-wall-shooter",
+    "ok": true,
+    "src": "/images/padel/products/tecnifibre-wall-shooter-hero.jpg",
+    "sourceUrl": "https://www.zonadepadel.es/busca?controller=search&s=zapatillas%20Tecnifibre",
+    "source": "Zona de Padel authorized product photography",
+    "licence": "retailer-authorized",
+    "remote": "https://www.zonadepadel.es/21144-large_default/mochila-tecnifibre-tour-endurance-kaki-2024.jpg"
+  },
+  {
+    "id": "prod-adidas-solecourt-boost-padel",
+    "slug": "adidas-solecourt-boost-padel",
+    "ok": false
+  },
+  {
+    "id": "prod-raidlight-responsiv-12",
+    "slug": "raidlight-responsiv-12",
+    "ok": false
+  },
+  {
+    "id": "prod-patagonia-slope-runner",
+    "slug": "patagonia-slope-runner-vest",
+    "ok": false
+  },
+  {
+    "id": "prod-camelbak-octane-22",
+    "slug": "camelbak-octane-22",
+    "ok": true,
+    "src": "/images/packs/products/camelbak-octane-22-hero.png",
+    "sourceUrl": "https://www.camelbak.com/search?q=octane%2022",
+    "source": "Manufacturer / authorized retailer",
+    "licence": "retailer-authorized",
+    "remote": "https://www.camelbak.com/on/demandware.static/-/Sites-CamelbakUS-Storefront/default/dwcb54dfd7/navigation/backpacks.png"
+  },
+  {
+    "id": "prod-salomon-trailblazer-20",
+    "slug": "salomon-trailblazer-20",
+    "ok": false
+  },
+  {
+    "id": "prod-salomon-soft-flask-stash",
+    "slug": "salomon-soft-flask-stash",
+    "ok": false
+  },
+  {
+    "id": "prod-leki-trail-running-quiver",
+    "slug": "leki-trail-running-quiver",
+    "ok": false
+  },
+  {
+    "id": "prod-ud-utility-bag",
+    "slug": "ultimate-direction-utility-bag",
+    "ok": true,
+    "src": "/images/packs/products/ultimate-direction-utility-bag-hero.jpg",
+    "sourceUrl": "https://ultimatedirection.com/search.php?search_query=utility+bag",
+    "source": "Manufacturer CDN (Ultimate Direction)",
+    "licence": "retailer-authorized",
+    "remote": "https://cdn11.bigcommerce.com/s-cuo9ht/images/stencil/500x659/products/1222/6015/80465322ONX_Main_Utility_Belt__72768.1705442635.jpg?c=2"
+  },
+  {
+    "id": "prod-nathan-zippered-stash",
+    "slug": "nathan-zippered-stash",
+    "ok": true,
+    "src": "/images/packs/products/nathan-zippered-stash-hero.jpg",
+    "sourceUrl": "https://www.nathansports.com/search?q=zippered+stash",
+    "source": "Manufacturer / Running Warehouse",
+    "licence": "retailer-authorized",
+    "remote": "https://nathansports.com/cdn/shop/files/NS60300-00001_HypernightReflectiveStashVest_hero_bccaacec-9e70-4a5e-bf96-01e0f59ea50e_600x.jpg?v=1697838689"
+  },
+  {
+    "id": "prod-salomon-soft-reservoir-15",
+    "slug": "salomon-soft-reservoir-15",
+    "ok": false
+  },
+  {
+    "id": "prod-nathan-quickdraw-plus",
+    "slug": "nathan-quickdraw-plus-handheld",
+    "ok": false
+  },
+  {
+    "id": "prod-camelbak-quick-grip-chill",
+    "slug": "camelbak-quick-grip-chill",
+    "ok": true,
+    "src": "/images/hydration/products/camelbak-quick-grip-chill-hero.png",
+    "sourceUrl": "https://www.camelbak.com/search?q=quick%20grip%20chill",
+    "source": "Manufacturer / authorized retailer",
+    "licence": "retailer-authorized",
+    "remote": "https://www.camelbak.com/on/demandware.static/-/Sites-CamelbakUS-Storefront/default/dwcb54dfd7/navigation/backpacks.png"
+  }
+]

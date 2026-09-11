@@ -1,0 +1,58 @@
+{
+  "phase": "after",
+  "generatedAt": "2026-09-09T21:29:14.322Z",
+  "uniquenessHoldCount": 383,
+  "alternativesHoldCount": 0,
+  "byType": {
+    "review": {
+      "runningTotal": 367,
+      "runningReady": 169,
+      "runningIndexable": 169,
+      "runningReadyNotIndexable": 0,
+      "readyNotIndexableReasons": {},
+      "sampleReadyNotIndexable": [],
+      "nonRunningReady": 33,
+      "nonRunningIndexable": 0
+    },
+    "best": {
+      "runningTotal": 44,
+      "runningReady": 44,
+      "runningIndexable": 44,
+      "runningReadyNotIndexable": 0,
+      "readyNotIndexableReasons": {},
+      "sampleReadyNotIndexable": [],
+      "nonRunningReady": 14,
+      "nonRunningIndexable": 0
+    },
+    "guide": {
+      "runningTotal": 41,
+      "runningReady": 35,
+      "runningIndexable": 35,
+      "runningReadyNotIndexable": 0,
+      "readyNotIndexableReasons": {},
+      "sampleReadyNotIndexable": [],
+      "nonRunningReady": 27,
+      "nonRunningIndexable": 0
+    },
+    "comparison": {
+      "runningTotal": 65,
+      "runningReady": 65,
+      "runningIndexable": 65,
+      "runningReadyNotIndexable": 0,
+      "readyNotIndexableReasons": {},
+      "sampleReadyNotIndexable": [],
+      "nonRunningReady": 29,
+      "nonRunningIndexable": 0
+    },
+    "alternatives": {
+      "runningTotal": 131,
+      "runningReady": 92,
+      "runningIndexable": 92,
+      "runningReadyNotIndexable": 0,
+      "readyNotIndexableReasons": {},
+      "sampleReadyNotIndexable": [],
+      "nonRunningReady": 0,
+      "nonRunningIndexable": 0
+    }
+  }
+}

@@ -1,0 +1,308 @@
+
+> kitletics@0.1.0 test
+> vitest run
+
+(!) Your Vite config uses features that are unsupported by `configLoader: 'native'`, which is planned to become the default in a future major version of Vite:
+  - ESM syntax in a file loaded as CommonJS (vitest.config.ts:1:1). Use a `.mjs` extension or set `"type": "module"` in the closest package.json
+Set `VITE_CONFIG_NATIVE_IGNORE_WARNING=true` to suppress this warning.
+
+ RUN  v4.1.11 /Users/LMeyeridricks/Documents/coding/kitletics
+
+ ❯ tests/hyrox.test.ts (15 tests | 2 failed) 111729ms
+     × prioritizes shoe finder for hyrox shoes query 39499ms
+     × does not promote HYROX sport hub while vertical is held 72215ms
+ ❯ tests/seo-indexation.test.ts (8 tests | 2 failed) 170456ms
+     × sitemap brands are a subset of indexable hubs 68924ms
+     × sitemap excludes known duplicate orphan shells 99179ms
+ ❯ tests/brand-hub.test.ts (6 tests | 4 failed) 176773ms
+     × does not invent user reviews or aggregate ratings 34019ms
+     × adapts Garmin without ASICS footwear leakage 35868ms
+     × renders Nike with authentic featured products 47796ms
+     × renders Rogue as non-footwear brand 36712ms
+ ❯ tests/comparison.test.ts (23 tests | 2 failed) 176191ms
+     × excludes broken-peer comparisons from the sitemap 74700ms
+     × sitemap Comparison URLs all assemble page data (200-ready) 96153ms
+ ❯ tests/discovery.test.ts (12 tests | 4 failed) 198697ms
+     × ranks exact product match first 36248ms
+     × excludes unpublished content in production mode 64453ms
+     × resolves synonyms for gps watch 59404ms
+     × resolves trainers to running shoes 38572ms
+ ❯ tests/launch-eligibility.test.ts (12 tests | 1 failed) 95660ms
+     × indexes Best guides by LAUNCH_READY + vertical policy — not an absolute count ceiling 64030ms
+ ❯ tests/best-guide.test.ts (32 tests | 1 failed) 236261ms
+     × new Prompt 16 Running guides resolve 48161ms
+ ❯ tests/padel-hub.test.ts (5 tests | 1 failed) 3274ms
+     × assembles padel hub with real BestGuide products 857ms
+ ❯ tests/search-discovery.test.ts (12 tests | 3 failed) 284986ms
+     × groups running shoes into cross-entity results with real counts 37434ms
+     × does not fabricate popular/trending search volumes 68476ms
+     × prioritizes exact brand matches 65918ms
+
+⎯⎯⎯⎯⎯⎯ Failed Tests 20 ⎯⎯⎯⎯⎯⎯⎯
+
+ FAIL  tests/best-guide.test.ts > Best Guide system > new Prompt 16 Running guides resolve
+Error: Test timed out in 30000ms.
+If this is a long-running test, pass a timeout value as the last argument or configure it globally with "testTimeout".
+ ❯ tests/best-guide.test.ts:147:3
+    145|   });
+    146|
+    147|   it("new Prompt 16 Running guides resolve", () => {
+       |   ^
+    148|     for (const slug of [
+    149|       "running-shoes-long-runs",
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/20]⎯
+
+ FAIL  tests/brand-hub.test.ts > Brand Hub > does not invent user reviews or aggregate ratings
+Error: Test timed out in 30000ms.
+If this is a long-running test, pass a timeout value as the last argument or configure it globally with "testTimeout".
+ ❯ tests/brand-hub.test.ts:26:3
+     24|   });
+     25|
+     26|   it("does not invent user reviews or aggregate ratings", () => {
+       |   ^
+     27|     const data = getBrandHubPageData({ brandSlug: "asics", region: "NL…
+     28|     // Editorial reviews only — no fake verified purchase copy in data…
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[2/20]⎯
+
+ FAIL  tests/brand-hub.test.ts > Brand Hub > adapts Garmin without ASICS footwear leakage
+Error: Test timed out in 30000ms.
+If this is a long-running test, pass a timeout value as the last argument or configure it globally with "testTimeout".
+ ❯ tests/brand-hub.test.ts:35:3
+     33|   });
+     34|
+     35|   it("adapts Garmin without ASICS footwear leakage", () => {
+       |   ^
+     36|     const data = getBrandHubPageData({ brandSlug: "garmin", region: "N…
+     37|     expect(data).toBeTruthy();
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[3/20]⎯
+
+ FAIL  tests/brand-hub.test.ts > Brand Hub > renders Nike with authentic featured products
+Error: Test timed out in 30000ms.
+If this is a long-running test, pass a timeout value as the last argument or configure it globally with "testTimeout".
+ ❯ tests/brand-hub.test.ts:50:3
+     48|   });
+     49|
+     50|   it("renders Nike with authentic featured products", () => {
+       |   ^
+     51|     const data = getBrandHubPageData({ brandSlug: "nike", region: "NL"…
+     52|     expect(data).toBeTruthy();
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[4/20]⎯
+
+ FAIL  tests/brand-hub.test.ts > Brand Hub > renders Rogue as non-footwear brand
+Error: Test timed out in 30000ms.
+If this is a long-running test, pass a timeout value as the last argument or configure it globally with "testTimeout".
+ ❯ tests/brand-hub.test.ts:57:3
+     55|   });
+     56|
+     57|   it("renders Rogue as non-footwear brand", () => {
+       |   ^
+     58|     const data = getBrandHubPageData({ brandSlug: "rogue", region: "NL…
+     59|     expect(data).toBeTruthy();
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[5/20]⎯
+
+ FAIL  tests/comparison.test.ts > Comparison page data > excludes broken-peer comparisons from the sitemap
+Error: Test timed out in 30000ms.
+If this is a long-running test, pass a timeout value as the last argument or configure it globally with "testTimeout".
+ ❯ tests/comparison.test.ts:340:3
+    338|   });
+    339|
+    340|   it("excludes broken-peer comparisons from the sitemap", () => {
+       |   ^
+    341|     const paths = new Set(
+    342|       sitemap().map((e) => e.url.replace(siteConfig.url, "") || "/"),
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[6/20]⎯
+
+ FAIL  tests/comparison.test.ts > Comparison page data > sitemap Comparison URLs all assemble page data (200-ready)
+Error: Test timed out in 30000ms.
+If this is a long-running test, pass a timeout value as the last argument or configure it globally with "testTimeout".
+ ❯ tests/comparison.test.ts:364:3
+    362|   });
+    363|
+    364|   it("sitemap Comparison URLs all assemble page data (200-ready)", () …
+       |   ^
+    365|     const comparePaths = sitemap()
+    366|       .map((e) => e.url.replace(siteConfig.url, "") || "/")
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[7/20]⎯
+
+ FAIL  tests/discovery.test.ts > search > ranks exact product match first
+Error: Test timed out in 30000ms.
+If this is a long-running test, pass a timeout value as the last argument or configure it globally with "testTimeout".
+ ❯ tests/discovery.test.ts:10:3
+      8|
+      9| describe("search", () => {
+     10|   it("ranks exact product match first", () => {
+       |   ^
+     11|     const hits = searchKitletics("ASICS Novablast 5", { isDev: false }…
+     12|     expect(hits.length).toBeGreaterThan(0);
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[8/20]⎯
+
+ FAIL  tests/discovery.test.ts > search > excludes unpublished content in production mode
+Error: Test timed out in 30000ms.
+If this is a long-running test, pass a timeout value as the last argument or configure it globally with "testTimeout".
+ ❯ tests/discovery.test.ts:17:3
+     15|   });
+     16|
+     17|   it("excludes unpublished content in production mode", () => {
+       |   ^
+     18|     const scheduled = reviews.find((r) => r.status === "scheduled");
+     19|     expect(scheduled).toBeTruthy();
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[9/20]⎯
+
+ FAIL  tests/discovery.test.ts > search > resolves synonyms for gps watch
+Error: Test timed out in 30000ms.
+If this is a long-running test, pass a timeout value as the last argument or configure it globally with "testTimeout".
+ ❯ tests/discovery.test.ts:28:3
+     26|   });
+     27|
+     28|   it("resolves synonyms for gps watch", () => {
+       |   ^
+     29|     const expansions = expandQueryWithSynonyms("gps watch");
+     30|     expect(expansions.some((e) => e.includes("running watch"))).toBe(t…
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[10/20]⎯
+
+ FAIL  tests/discovery.test.ts > search > resolves trainers to running shoes
+Error: Test timed out in 30000ms.
+If this is a long-running test, pass a timeout value as the last argument or configure it globally with "testTimeout".
+ ❯ tests/discovery.test.ts:37:3
+     35|   });
+     36|
+     37|   it("resolves trainers to running shoes", () => {
+       |   ^
+     38|     const hits = searchKitletics("trainers", { isDev: false });
+     39|     expect(
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[11/20]⎯
+
+ FAIL  tests/hyrox.test.ts > HYROX search intents > prioritizes shoe finder for hyrox shoes query
+Error: Test timed out in 30000ms.
+If this is a long-running test, pass a timeout value as the last argument or configure it globally with "testTimeout".
+ ❯ tests/hyrox.test.ts:187:3
+    185|
+    186| describe("HYROX search intents", () => {
+    187|   it("prioritizes shoe finder for hyrox shoes query", async () => {
+       |   ^
+    188|     const { searchKitletics } = await import("@/lib/search/engine");
+    189|     const hits = searchKitletics("hyrox shoes", { limit: 10 });
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[12/20]⎯
+
+ FAIL  tests/hyrox.test.ts > HYROX search intents > does not promote HYROX sport hub while vertical is held
+Error: Test timed out in 30000ms.
+If this is a long-running test, pass a timeout value as the last argument or configure it globally with "testTimeout".
+ ❯ tests/hyrox.test.ts:194:3
+    192|   });
+    193|
+    194|   it("does not promote HYROX sport hub while vertical is held", async …
+       |   ^
+    195|     const { searchKitletics } = await import("@/lib/search/engine");
+    196|     const hits = searchKitletics("hyrox", { limit: 20 });
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[13/20]⎯
+
+ FAIL  tests/launch-eligibility.test.ts > launch eligibility > indexes Best guides by LAUNCH_READY + vertical policy — not an absolute count ceiling
+Error: Test timed out in 30000ms.
+If this is a long-running test, pass a timeout value as the last argument or configure it globally with "testTimeout".
+ ❯ tests/launch-eligibility.test.ts:26:3
+     24|
+     25| describe("launch eligibility", () => {
+     26|   it(
+       |   ^
+     27|     "indexes Best guides by LAUNCH_READY + vertical policy — not an ab…
+     28|     () => {
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[14/20]⎯
+
+ FAIL  tests/padel-hub.test.ts > Padel Sport Hub > assembles padel hub with real BestGuide products
+AssertionError: expected 0 to be greater than 0
+ ❯ tests/padel-hub.test.ts:16:44
+     14|     expect(data!.bestSection?.products.length).toBe(5);
+     15|     expect(data!.bestSection?.title).toContain("BEST PADEL RACKETS");
+     16|     expect(data!.comparisons.items.length).toBeGreaterThan(0);
+       |                                            ^
+     17|     expect(data!.guides.items.length).toBe(3);
+     18|     expect(data!.starterKit?.items.length).toBe(4);
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[15/20]⎯
+
+ FAIL  tests/search-discovery.test.ts > search discovery page > groups running shoes into cross-entity results with real counts
+Error: Test timed out in 30000ms.
+If this is a long-running test, pass a timeout value as the last argument or configure it globally with "testTimeout".
+ ❯ tests/search-discovery.test.ts:10:3
+      8|
+      9| describe("search discovery page", () => {
+     10|   it("groups running shoes into cross-entity results with real counts"…
+       |   ^
+     11|     const data = getSearchPageData({
+     12|       query: "running shoes",
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[16/20]⎯
+
+ FAIL  tests/search-discovery.test.ts > search discovery page > does not fabricate popular/trending search volumes
+Error: Test timed out in 30000ms.
+If this is a long-running test, pass a timeout value as the last argument or configure it globally with "testTimeout".
+ ❯ tests/search-discovery.test.ts:33:3
+     31|   });
+     32|
+     33|   it("does not fabricate popular/trending search volumes", () => {
+       |   ^
+     34|     const data = getSearchPageData({ query: "running shoes", region: "…
+     35|     expect(
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[17/20]⎯
+
+ FAIL  tests/search-discovery.test.ts > search discovery page > prioritizes exact brand matches
+Error: Test timed out in 30000ms.
+If this is a long-running test, pass a timeout value as the last argument or configure it globally with "testTimeout".
+ ❯ tests/search-discovery.test.ts:40:3
+     38|   });
+     39|
+     40|   it("prioritizes exact brand matches", () => {
+       |   ^
+     41|     expect(detectSearchIntent("ASICS")).toBe("brand");
+     42|     const hits = searchKitletics("ASICS", { isDev: false, limit: 20 });
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[18/20]⎯
+
+ FAIL  tests/seo-indexation.test.ts > Brand hub sitemap eligibility > sitemap brands are a subset of indexable hubs
+Error: Test timed out in 30000ms.
+If this is a long-running test, pass a timeout value as the last argument or configure it globally with "testTimeout".
+ ❯ tests/seo-indexation.test.ts:39:3
+     37|   });
+     38|
+     39|   it("sitemap brands are a subset of indexable hubs", () => {
+       |   ^
+     40|     const entries = sitemap();
+     41|     const brandUrls = entries
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[19/20]⎯
+
+ FAIL  tests/seo-indexation.test.ts > Category / sport canonical shells > sitemap excludes known duplicate orphan shells
+Error: Test timed out in 30000ms.
+If this is a long-running test, pass a timeout value as the last argument or configure it globally with "testTimeout".
+ ❯ tests/seo-indexation.test.ts:68:3
+     66|   });
+     67|
+     68|   it("sitemap excludes known duplicate orphan shells", () => {
+       |   ^
+     69|     const paths = new Set(
+     70|       sitemap().map((e) => e.url.replace(siteConfig.url, "") || "/"),
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[20/20]⎯
+
+
+ Test Files  9 failed | 45 passed (54)
+      Tests  20 failed | 542 passed (562)
+   Start at  08:21:18
+   Duration  298.70s (transform 66.10s, setup 0ms, import 199.30s, tests 1645.88s, environment 11ms)
+
+TEST_EXIT:1

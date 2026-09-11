@@ -1,0 +1,107 @@
+Fetching 50 draft shoes/packs/hydration targets…
+… camelbak-zephyr-pro FAIL
+… osprey-dyna-lt FAIL
+… osprey-duro-15 FAIL
+… patagonia-slope-runner-vest FAIL
+… compressport-ultrun-s-pack FAIL
+… raidlight-responsiv-12 FAIL
+… compressport-free-belt-pro FAIL
+… osprey-hydraulics-lt-15 FAIL
+… hydrapak-shape-shift-15 FAIL
+… hydrapak-tube-kit FAIL
+… salomon-soft-flask-speed-500 FAIL
+… ultimate-direction-body-bottle-500 FAIL
+… nathan-softflask-18oz FAIL
+… amphipod-hydraform-ergo-lite-handheld FAIL
+… nathan-quickdraw-plus-handheld FAIL
+… camelbak-quick-grip-chill FAIL
+… hydrapak-contour-2l FAIL
+… salomon-soft-reservoir-15 FAIL
+… amphipod-airflow-lite-belt FAIL
+… fitletic-fully-loaded FAIL
+… nathan-zipster-lite FAIL
+… kiprun-running-belt FAIL
+… osprey-talon-velocity-20 FAIL
+… osprey-tempest-velocity-20 FAIL
+… osprey-talon-velocity-30 FAIL
+… black-diamond-distance-15 FAIL
+… black-diamond-distance-22 FAIL
+… salomon-xa-15 FAIL
+… camelbak-octane-22 FAIL
+… salomon-trailblazer-20 FAIL
+… salomon-custom-quiver FAIL
+… leki-trail-running-quiver FAIL
+… ultimate-direction-utility-bag FAIL
+… salomon-soft-flask-stash FAIL
+… nathan-zippered-stash FAIL
+… starvie-absolute-padel FAIL
+… kuikma-ps-560-women FAIL
+… oxdog-hyper-court FAIL
+… adidas-solecourt-boost-padel FAIL
+… head-revolt-court-padel FAIL
+… tecnifibre-wall-shooter FAIL
+… varlion-bourne-padel FAIL
+… babolat-jet-tere FAIL
+… nike-zoom-gp-turbo-hc-2 FAIL
+… wilson-kaos-rapide-3-0 FAIL
+… head-revolt-pro-4-5 FAIL
+… head-sprint-pro-3-5 FAIL
+… new-balance-fresh-foam-x-lav-v2 FAIL
+… yonex-power-cushion-sonicage-3 FAIL
+… mizuno-wave-exceed-tour-5 FAIL
+
+OK 0  FAIL 50  registry+0
+OK ids:
+
+FAIL ids:
+prod-camelbak-zephyr-pro
+prod-osprey-dyna-lt
+prod-osprey-duro-15
+prod-patagonia-slope-runner
+prod-compressport-ultrun-s-pack
+prod-raidlight-responsiv-12
+prod-compressport-free-belt-pro
+prod-osprey-hydraulics-15
+prod-hydrapak-shape-shift-15
+prod-hydrapak-tube-kit
+prod-salomon-soft-flask-speed-500
+prod-ud-body-bottle-500
+prod-nathan-softflask-18oz
+prod-amphipod-hydraform-handheld
+prod-nathan-quickdraw-plus
+prod-camelbak-quick-grip-chill
+prod-hydrapak-contour-2l
+prod-salomon-soft-reservoir-15
+prod-amphipod-airflow-lite-belt
+prod-fitletic-fully-loaded
+prod-nathan-zipster-lite
+prod-kiprun-running-belt
+prod-osprey-talon-velocity-20
+prod-osprey-tempest-velocity-20
+prod-osprey-talon-velocity-30
+prod-black-diamond-distance-15
+prod-black-diamond-distance-22
+prod-salomon-xa-15
+prod-camelbak-octane-22
+prod-salomon-trailblazer-20
+prod-salomon-custom-quiver
+prod-leki-trail-running-quiver
+prod-ud-utility-bag
+prod-salomon-soft-flask-stash
+prod-nathan-zippered-stash
+prod-starvie-absolute-padel
+prod-kuikma-ps-560-women
+prod-oxdog-hyper-court
+prod-adidas-solecourt-boost-padel
+prod-head-revolt-court
+prod-tecnifibre-t-fight-padel
+prod-varlion-bourne-padel-shoe
+prod-babolat-jet-tere
+prod-nike-zoom-gp-turbo-2
+prod-wilson-kaos-rapide-30
+prod-head-revolt-pro-45
+prod-head-sprint-pro-35
+prod-nb-lav-v2
+prod-yonex-sonicage-3
+prod-mizuno-wave-exceed-tour-5
+Report: /Users/LMeyeridricks/Documents/coding/kitletics/data/staging/draft-shoes-packs-hydration-report.json

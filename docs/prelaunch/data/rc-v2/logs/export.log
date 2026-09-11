@@ -1,0 +1,152 @@
+rc-v2: sitemap + entity walk…
+rc-v2: uniqueness / trust GO gates…
+  uniqueness 0/169
+  uniqueness 40/169
+  uniqueness 80/169
+  uniqueness 120/169
+  uniqueness 160/169
+{
+  "auditClock": "2026-09-09T22:00:00.000Z",
+  "verdict": "NO-GO",
+  "hardFails": [
+    "CI_FAILURES",
+    "BROKEN_COMPARISONS"
+  ],
+  "goGates": {
+    "ci": {
+      "lint": 1,
+      "typecheck": 2,
+      "test": 1,
+      "build": 1
+    },
+    "ciFailures": true,
+    "sitemap404s": null,
+    "indexableDuplicativeReviews": 0,
+    "indexableNeedsDiffReviews": 0,
+    "indexableThinBest": 0,
+    "brokenComparisons": 65,
+    "liveBrokenCmp": 65,
+    "editorialOrphans": 0,
+    "unsupportedFirstHand": 0,
+    "fakeAggregateRating": 0,
+    "facetLeakage": 0,
+    "futureDraftLeakage": 0,
+    "uniquenessHeldEstate": 383
+  },
+  "scorecard": {
+    "reviews": {
+      "total": 585,
+      "ready": 202,
+      "indexable": 169,
+      "held": 416
+    },
+    "best": {
+      "total": 58,
+      "ready": 58,
+      "indexable": 44,
+      "held": 14
+    },
+    "guides": {
+      "total": 68,
+      "ready": 62,
+      "indexable": 35,
+      "held": 33
+    },
+    "comparisons": {
+      "total": 94,
+      "ready": 94,
+      "indexable": 65,
+      "held": 29
+    },
+    "alternatives": {
+      "total": 248,
+      "ready": 248,
+      "indexable": 92,
+      "held": 156
+    },
+    "brands": {
+      "total": 191,
+      "ready": 56,
+      "indexable": 56,
+      "held": 135
+    },
+    "categoryEditorial": {
+      "total": 14,
+      "ready": 13,
+      "indexable": 13,
+      "held": 1
+    }
+  },
+  "sitemapCount": 883,
+  "day1Count": 883,
+  "heldCount": 1111,
+  "byType": {
+    "home": {
+      "total": 1,
+      "ready": 1,
+      "indexable": 1,
+      "held": 0
+    },
+    "sport": {
+      "total": 21,
+      "ready": 1,
+      "indexable": 1,
+      "held": 20
+    },
+    "category": {
+      "total": 47,
+      "ready": 13,
+      "indexable": 15,
+      "held": 32
+    },
+    "product": {
+      "total": 623,
+      "ready": 362,
+      "indexable": 359,
+      "held": 264
+    },
+    "alternatives": {
+      "total": 248,
+      "ready": 248,
+      "indexable": 92,
+      "held": 156
+    },
+    "brand": {
+      "total": 191,
+      "ready": 56,
+      "indexable": 56,
+      "held": 135
+    },
+    "review": {
+      "total": 585,
+      "ready": 202,
+      "indexable": 169,
+      "held": 416
+    },
+    "best": {
+      "total": 58,
+      "ready": 58,
+      "indexable": 44,
+      "held": 14
+    },
+    "comparison": {
+      "total": 94,
+      "ready": 94,
+      "indexable": 65,
+      "held": 29
+    },
+    "guide": {
+      "total": 68,
+      "ready": 62,
+      "indexable": 35,
+      "held": 33
+    },
+    "setup": {
+      "total": 16,
+      "ready": 5,
+      "indexable": 5,
+      "held": 11
+    }
+  },
+  "needsDiffIndexableSample": []
+}

@@ -1,0 +1,16 @@
+
+> kitletics@0.1.0 site:audit
+> tsx --tsconfig tsconfig.json scripts/site-quality-agent.ts --mode=full --dry-run
+
+SiteQualityAgent · mode=full · dry-run
+
+Overall: READY WITH ISSUES
+Open — BLOCKER 0 · HIGH 2 · MEDIUM 0 · LOW 0 · INFO 0
+Routes: 1176
+Auto-fixes proposed/applied: 0
+
+NEXT ACTIONS:
+  1. CONTENT-002 (HIGH): npm run reviews:rewrite-voice -- --write
+  2. CONTENT-ARTICLE-P0 (HIGH): npm run reviews:article-audit
+
+Wrote docs/site-quality-audit.md + docs/site-quality-audit.json

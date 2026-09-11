@@ -1,0 +1,228 @@
+import { SEED_DATES } from "@/content/config";
+import type {
+  AffiliateNetworkEntity,
+  AffiliateProgram,
+  RetailerStorefront,
+} from "@/domain/commerce/types";
+
+/**
+ * Affiliate network catalog — adapters exist; programs activate only with credentials.
+ */
+export const affiliateNetworks: AffiliateNetworkEntity[] = [
+  {
+    id: "amazon",
+    name: "Amazon Associates",
+    website: "https://affiliate-program.amazon.com",
+    trackingMethod: "tag",
+    supportedRegions: ["NL", "DE", "UK", "US", "FR"],
+    status: "pending",
+  },
+  {
+    id: "awin",
+    name: "Awin",
+    website: "https://www.awin.com",
+    trackingMethod: "deep-link",
+    supportedRegions: ["NL", "DE", "BE", "FR", "UK"],
+    status: "pending",
+  },
+  {
+    id: "impact",
+    name: "Impact",
+    website: "https://impact.com",
+    trackingMethod: "deep-link",
+    supportedRegions: ["NL", "UK", "US", "DE"],
+    status: "pending",
+  },
+  {
+    id: "direct",
+    name: "Direct Brand Programs",
+    trackingMethod: "direct",
+    supportedRegions: ["NL", "DE", "BE", "FR", "UK", "US", "ZA"],
+    status: "pending",
+  },
+];
+
+const meta = {
+  createdAt: SEED_DATES.created,
+  updatedAt: SEED_DATES.updated,
+  lastVerifiedAt: SEED_DATES.verified,
+};
+
+/**
+ * Regional affiliate programs.
+ * Status is pending until env credentials exist — never fabricate active tags.
+ */
+export const affiliatePrograms: AffiliateProgram[] = [
+  {
+    id: "aff-amazon-nl",
+    retailerId: "ret-amazon-nl",
+    networkId: "amazon",
+    regionIds: ["NL"],
+    status: "pending",
+    deepLinkMode: "provider",
+    trackingIdEnvKey: "AMAZON_ASSOCIATES_TAG_NL",
+    disclosureRequired: true,
+    ...meta,
+  },
+  {
+    id: "aff-amazon-de",
+    retailerId: "ret-amazon-de",
+    networkId: "amazon",
+    regionIds: ["DE"],
+    status: "pending",
+    deepLinkMode: "provider",
+    trackingIdEnvKey: "AMAZON_ASSOCIATES_TAG_DE",
+    disclosureRequired: true,
+    ...meta,
+  },
+  {
+    id: "aff-amazon-uk",
+    retailerId: "ret-amazon-uk",
+    networkId: "amazon",
+    regionIds: ["UK"],
+    status: "pending",
+    deepLinkMode: "provider",
+    trackingIdEnvKey: "AMAZON_ASSOCIATES_TAG_UK",
+    disclosureRequired: true,
+    ...meta,
+  },
+  {
+    id: "aff-amazon-us",
+    retailerId: "ret-amazon-us",
+    networkId: "amazon",
+    regionIds: ["US"],
+    status: "pending",
+    deepLinkMode: "provider",
+    trackingIdEnvKey: "AMAZON_ASSOCIATES_TAG_US",
+    disclosureRequired: true,
+    ...meta,
+  },
+  {
+    id: "aff-decathlon-awin-nl",
+    retailerId: "ret-decathlon",
+    networkId: "awin",
+    regionIds: ["NL", "BE"],
+    status: "pending",
+    deepLinkMode: "template",
+    trackingTemplate:
+      "https://www.awin1.com/cread.php?awinmid=PLACEHOLDER&awinaffid={{id}}&ued={{url}}",
+    trackingIdEnvKey: "AWIN_PUBLISHER_ID",
+    disclosureRequired: true,
+    ...meta,
+  },
+  {
+    id: "aff-garmin-impact",
+    retailerId: "ret-garmin-direct",
+    networkId: "impact",
+    regionIds: ["NL", "UK", "US", "DE"],
+    status: "pending",
+    deepLinkMode: "template",
+    trackingIdEnvKey: "IMPACT_GARMIN_CAMPAIGN",
+    disclosureRequired: true,
+    ...meta,
+  },
+  {
+    id: "aff-asics-direct",
+    retailerId: "ret-asics-direct",
+    networkId: "direct",
+    regionIds: ["NL", "DE", "UK", "US"],
+    status: "inactive",
+    deepLinkMode: "passthrough",
+    disclosureRequired: true,
+    ...meta,
+  },
+  {
+    id: "aff-all4running",
+    retailerId: "ret-all4running",
+    networkId: "awin",
+    regionIds: ["NL", "BE", "DE"],
+    status: "pending",
+    deepLinkMode: "template",
+    trackingIdEnvKey: "AWIN_PUBLISHER_ID",
+    disclosureRequired: true,
+    ...meta,
+  },
+];
+
+export const retailerStorefronts: RetailerStorefront[] = [
+  {
+    id: "sf-amazon-nl",
+    retailerId: "ret-amazon-nl",
+    regionId: "NL",
+    domain: "www.amazon.nl",
+    currency: "EUR",
+    affiliateProgramId: "aff-amazon-nl",
+    status: "active",
+  },
+  {
+    id: "sf-amazon-de",
+    retailerId: "ret-amazon-de",
+    regionId: "DE",
+    domain: "www.amazon.de",
+    currency: "EUR",
+    affiliateProgramId: "aff-amazon-de",
+    status: "active",
+  },
+  {
+    id: "sf-amazon-uk",
+    retailerId: "ret-amazon-uk",
+    regionId: "UK",
+    domain: "www.amazon.co.uk",
+    currency: "GBP",
+    affiliateProgramId: "aff-amazon-uk",
+    status: "active",
+  },
+  {
+    id: "sf-amazon-us",
+    retailerId: "ret-amazon-us",
+    regionId: "US",
+    domain: "www.amazon.com",
+    currency: "USD",
+    affiliateProgramId: "aff-amazon-us",
+    status: "active",
+  },
+  {
+    id: "sf-decathlon-nl",
+    retailerId: "ret-decathlon",
+    regionId: "NL",
+    domain: "www.decathlon.nl",
+    currency: "EUR",
+    affiliateProgramId: "aff-decathlon-awin-nl",
+    status: "active",
+  },
+  {
+    id: "sf-asics-nl",
+    retailerId: "ret-asics-direct",
+    regionId: "NL",
+    domain: "www.asics.com",
+    currency: "EUR",
+    affiliateProgramId: "aff-asics-direct",
+    status: "active",
+  },
+  {
+    id: "sf-garmin-nl",
+    retailerId: "ret-garmin-direct",
+    regionId: "NL",
+    domain: "www.garmin.com",
+    currency: "EUR",
+    affiliateProgramId: "aff-garmin-impact",
+    status: "active",
+  },
+  {
+    id: "sf-all4running-nl",
+    retailerId: "ret-all4running",
+    regionId: "NL",
+    domain: "www.all4running.nl",
+    currency: "EUR",
+    affiliateProgramId: "aff-all4running",
+    status: "active",
+  },
+  {
+    id: "sf-runnersworldshop-nl",
+    retailerId: "ret-runnersworld-nl",
+    regionId: "NL",
+    domain: "www.runnersworldshop.nl",
+    currency: "EUR",
+    status: "active",
+  },
+];

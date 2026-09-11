@@ -1,0 +1,88 @@
+{
+  "ts": "2026-09-06T05:33:53.423Z",
+  "ok": [
+    {
+      "id": "prod-wrightsock-coolmesh-ii",
+      "src": "/images/running/accessories/wrightsock-coolmesh-ii-hero.jpg",
+      "remote": "https://img.runningwarehouse.com/watermark/rs.php?path=WDLC2SQ-B2-1.jpg&nw=1000"
+    },
+    {
+      "id": "prod-2toms-sportshield",
+      "src": "/images/running/accessories/2toms-sportshield-hero.jpg",
+      "remote": "https://img.runningwarehouse.com/watermark/rs.php?path=2TOMROLL-1.jpg&nw=1000"
+    },
+    {
+      "id": "prod-squirrels-nut-butter",
+      "src": "/images/running/accessories/squirrels-nut-butter-hero.jpg",
+      "remote": "https://img.runningwarehouse.com/watermark/rs.php?path=SNB17S-1.jpg&nw=1000"
+    },
+    {
+      "id": "prod-cep-the-run-calf",
+      "src": "/images/running/accessories/cep-the-run-calf-hero.jpg",
+      "remote": "https://img.runningwarehouse.com/watermark/rs.php?path=CPRCS5-BK-1.jpg&nw=1000"
+    },
+    {
+      "id": "prod-cep-calf-sleeves",
+      "src": "/images/running/accessories/cep-calf-sleeves-hero.jpg",
+      "remote": "https://img.runningwarehouse.com/watermark/rs.php?path=CPULC41-BK-1.jpg&nw=1000"
+    },
+    {
+      "id": "prod-buff-original",
+      "src": "/images/running/accessories/buff-original-hero.jpg",
+      "remote": "https://www.buff.com/media/wysiwyg/maintenance/404block_dt_1.jpg"
+    },
+    {
+      "id": "prod-dirty-girl-gaiters",
+      "src": "/images/running/accessories/dirty-girl-gaiters-hero.jpg",
+      "remote": "https://dirtygirlgaiters.com/media/wysiwyg/misc/404oops.jpg"
+    },
+    {
+      "id": "prod-soundcore-aerofit-2",
+      "src": "/images/headphones/products/soundcore-aerofit-2-hero.png",
+      "remote": "https://cdn.shopify.com/s/files/1/0516/3761/6830/files/A3874Z11_Rich_image_TD01_US_V2.png?v=1749635071"
+    },
+    {
+      "id": "prod-blackroll-pro",
+      "src": "/images/running/accessories/blackroll-pro-hero.png",
+      "remote": "https://cldn.cdn-blackroll.com/image/upload/f_auto,q_85,g_center,c_fill,w_2228/oneworld-prod/assets/product-images/blackroll-pro/default/4117498_blackroll-pro-angle-1.png?v=1780951292"
+    },
+    {
+      "id": "prod-nathan-quickdraw-plus",
+      "src": "/images/hydration/products/nathan-quickdraw-plus-handheld-hero.jpg",
+      "remote": "http://cdn.shopify.com/s/files/1/0059/6253/0904/files/NS24_ehouse_metaimg.jpg?v=1710966374"
+    }
+  ],
+  "fail": [
+    {
+      "id": "prod-jabra-elite-8-active",
+      "reason": "download-fail",
+      "remotesTried": []
+    },
+    {
+      "id": "prod-petzl-iko-core",
+      "reason": "download-fail",
+      "remotesTried": []
+    },
+    {
+      "id": "prod-knog-frog-v3",
+      "reason": "download-fail",
+      "remotesTried": [
+        "https://cdn.shopify.com/extensions/019fec44-a981-74e0-9003-7e7f824575b0/giftnote-app-138/assets/flags.png)",
+        "https://cdn.shopify.com/extensions/019fec44-a981-74e0-9003-7e7f824575b0/giftnote-app-138/assets/flags@2x.png)",
+        "https://cdn.shopify.com/extensions/019fec44-a981-74e0-9003-7e7f824575b0/giftnote-app-138/assets/globe.png)",
+        "https://cdn.shopify.com/extensions/019fec44-a981-74e0-9003-7e7f824575b0/giftnote-app-138/assets/globe@2x.png)",
+        "https://www.knog.com/cdn/shop/files/anthracite_50x50.png);"
+      ]
+    },
+    {
+      "id": "prod-bombas-performance-running-quarter",
+      "reason": "download-fail",
+      "remotesTried": []
+    },
+    {
+      "id": "prod-amphipod-airflow-armband",
+      "reason": "download-fail",
+      "remotesTried": []
+    }
+  ]
+}

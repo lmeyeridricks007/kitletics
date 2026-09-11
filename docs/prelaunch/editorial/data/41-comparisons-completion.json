@@ -1,0 +1,258 @@
+{
+  "generatedAt": "2026-09-09T19:34:57.020Z",
+  "totals": {
+    "rawWithDrafts": 102,
+    "published": 94,
+    "meaningful": 94,
+    "indexableEligibility": 51,
+    "byUniquenessClass": {
+      "GENUINELY_UNIQUE": 73,
+      "TEMPLATE_SIMILAR_ACCEPTABLE": 21
+    },
+    "needsDiff": 0,
+    "duplicative": 0,
+    "brokenPeerHolds": 8,
+    "brokenStillPublished": 0,
+    "duplicateCanonicalPairs": 0
+  },
+  "heldBroken": [
+    {
+      "slug": "lululemon-hotty-hot-vs-janji-pace-short",
+      "comparisonStatus": "draft",
+      "noindex": true,
+      "peers": [
+        {
+          "id": "prod-lululemon-hotty-hot-women",
+          "status": "draft",
+          "slug": "lululemon-hotty-hot-women"
+        },
+        {
+          "id": "prod-janji-pace-short-women",
+          "status": "published",
+          "slug": "janji-pace-short-women"
+        }
+      ],
+      "stillInPublished": false
+    },
+    {
+      "slug": "brooks-dare-crossback-vs-lululemon-energy-bra",
+      "comparisonStatus": "draft",
+      "noindex": true,
+      "peers": [
+        {
+          "id": "prod-brooks-dare-crossback",
+          "status": "draft",
+          "slug": "brooks-dare-crossback"
+        },
+        {
+          "id": "prod-lululemon-energy-bra",
+          "status": "draft",
+          "slug": "lululemon-energy-bra"
+        }
+      ],
+      "stillInPublished": false
+    },
+    {
+      "slug": "jabra-elite-8-active-vs-beats-powerbeats-pro-2",
+      "comparisonStatus": "draft",
+      "noindex": true,
+      "peers": [
+        {
+          "id": "prod-jabra-elite-8-active",
+          "status": "draft",
+          "slug": "jabra-elite-8-active"
+        },
+        {
+          "id": "prod-beats-powerbeats-pro-2",
+          "status": "draft",
+          "slug": "beats-powerbeats-pro-2"
+        }
+      ],
+      "stillInPublished": false
+    },
+    {
+      "slug": "knog-frog-v3-vs-nite-ize-radiant-clip",
+      "comparisonStatus": "draft",
+      "noindex": true,
+      "peers": [
+        {
+          "id": "prod-knog-frog-v3",
+          "status": "draft",
+          "slug": "knog-frog-v3"
+        },
+        {
+          "id": "prod-nite-ize-radiant-clip",
+          "status": "draft",
+          "slug": "nite-ize-radiant-rechargeable-clip-light"
+        }
+      ],
+      "stillInPublished": false
+    },
+    {
+      "slug": "theragun-prime-vs-renpho-r3",
+      "comparisonStatus": "draft",
+      "noindex": true,
+      "peers": [
+        {
+          "id": "prod-theragun-prime",
+          "status": "published",
+          "slug": "therabody-theragun-prime"
+        },
+        {
+          "id": "prod-renpho-r3",
+          "status": "draft",
+          "slug": "renpho-r3"
+        }
+      ],
+      "stillInPublished": false
+    },
+    {
+      "slug": "triggerpoint-grid-vs-grid-x",
+      "comparisonStatus": "draft",
+      "noindex": true,
+      "peers": [
+        {
+          "id": "prod-triggerpoint-grid",
+          "status": "draft",
+          "slug": "triggerpoint-grid-foam-roller"
+        },
+        {
+          "id": "prod-triggerpoint-grid-x",
+          "status": "published",
+          "slug": "triggerpoint-grid-x"
+        }
+      ],
+      "stillInPublished": false
+    },
+    {
+      "slug": "triggerpoint-grid-vs-rumbleroller",
+      "comparisonStatus": "draft",
+      "noindex": true,
+      "peers": [
+        {
+          "id": "prod-triggerpoint-grid",
+          "status": "draft",
+          "slug": "triggerpoint-grid-foam-roller"
+        },
+        {
+          "id": "prod-rumbleroller-original",
+          "status": "draft",
+          "slug": "rumbleroller-original"
+        }
+      ],
+      "stillInPublished": false
+    },
+    {
+      "slug": "oofos-ooriginal-vs-hoka-ora-recovery-slide",
+      "comparisonStatus": "draft",
+      "noindex": true,
+      "peers": [
+        {
+          "id": "prod-oofos-ooriginal",
+          "status": "published",
+          "slug": "oofos-ooriginal"
+        },
+        {
+          "id": "prod-hoka-ora-recovery-slide",
+          "status": "draft",
+          "slug": "hoka-ora-recovery-slide"
+        }
+      ],
+      "stillInPublished": false
+    }
+  ],
+  "brokenStillPublished": [],
+  "needsDiffRows": [],
+  "duplicativeRows": [],
+  "formerNeedsDiffTargets": [
+    {
+      "slug": "nox-at10-genius-18k-2026-vs-bullpadel-vertex-04-2026",
+      "status": "published",
+      "class": "GENUINELY_UNIQUE",
+      "maxPeerSimilarity": 0.285,
+      "scaffoldHits": 0,
+      "uniqueSignalRatio": 0.533,
+      "reasons": [],
+      "launchQuality": "MEANINGFUL",
+      "eligibility": "HIDDEN_404",
+      "peerSlug": "nox-at10-genius-18k-2026-vs-babolat-technical-viper-2026"
+    },
+    {
+      "slug": "babolat-technical-viper-2026-vs-wilson-bela-pro-v2-2026",
+      "status": "published",
+      "class": "GENUINELY_UNIQUE",
+      "maxPeerSimilarity": 0.274,
+      "scaffoldHits": 0,
+      "uniqueSignalRatio": 0.54,
+      "reasons": [],
+      "launchQuality": "MEANINGFUL",
+      "eligibility": "HIDDEN_404",
+      "peerSlug": "nox-at10-genius-18k-2026-vs-babolat-technical-viper-2026"
+    },
+    {
+      "slug": "nox-at10-genius-18k-2026-vs-babolat-technical-viper-2026",
+      "status": "published",
+      "class": "GENUINELY_UNIQUE",
+      "maxPeerSimilarity": 0.285,
+      "scaffoldHits": 0,
+      "uniqueSignalRatio": 0.619,
+      "reasons": [],
+      "launchQuality": "MEANINGFUL",
+      "eligibility": "HIDDEN_404",
+      "peerSlug": "nox-at10-genius-18k-2026-vs-bullpadel-vertex-04-2026"
+    },
+    {
+      "slug": "babolat-pure-drive-2025-vs-wilson-clash-100-v2",
+      "status": "published",
+      "class": "GENUINELY_UNIQUE",
+      "maxPeerSimilarity": 0.384,
+      "scaffoldHits": 0,
+      "uniqueSignalRatio": 0.468,
+      "reasons": [],
+      "launchQuality": "MEANINGFUL",
+      "eligibility": "HIDDEN_404",
+      "peerSlug": "yonex-ezone-100-2025-vs-wilson-clash-100-v3"
+    },
+    {
+      "slug": "yonex-ezone-100-2025-vs-wilson-clash-100-v3",
+      "status": "published",
+      "class": "GENUINELY_UNIQUE",
+      "maxPeerSimilarity": 0.384,
+      "scaffoldHits": 0,
+      "uniqueSignalRatio": 0.477,
+      "reasons": [],
+      "launchQuality": "MEANINGFUL",
+      "eligibility": "HIDDEN_404",
+      "peerSlug": "babolat-pure-drive-2025-vs-wilson-clash-100-v2"
+    },
+    {
+      "slug": "concept2-rowerg-vs-mirafit-magnetic-rower",
+      "status": "published",
+      "class": "GENUINELY_UNIQUE",
+      "maxPeerSimilarity": 0.226,
+      "scaffoldHits": 0,
+      "uniqueSignalRatio": 0.549,
+      "reasons": [],
+      "launchQuality": "MEANINGFUL",
+      "eligibility": "HIDDEN_404",
+      "peerSlug": "concept2-rowerg-vs-hydrow-wave"
+    },
+    {
+      "slug": "concept2-rowerg-vs-hydrow-wave",
+      "status": "published",
+      "class": "GENUINELY_UNIQUE",
+      "maxPeerSimilarity": 0.226,
+      "scaffoldHits": 0,
+      "uniqueSignalRatio": 0.514,
+      "reasons": [],
+      "launchQuality": "MEANINGFUL",
+      "eligibility": "HIDDEN_404",
+      "peerSlug": "concept2-rowerg-vs-mirafit-magnetic-rower"
+    }
+  ],
+  "duplicatePairs": [],
+  "reverseSlugCheck": {
+    "reverseOk": 94,
+    "reverseConflicts": 0
+  }
+}

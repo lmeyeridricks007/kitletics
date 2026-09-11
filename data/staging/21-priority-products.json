@@ -1,0 +1,1794 @@
+[
+  {
+    "id": "prod-novablast-5",
+    "slug": "asics-novablast-5",
+    "cat": "running-shoes",
+    "reasons": [
+      "running-shoes",
+      "comparison"
+    ],
+    "sourceUrl": "https://www.asics.com/",
+    "heroSrc": "/images/running/products/novablast-5-hero.jpg"
+  },
+  {
+    "id": "prod-novablast-4",
+    "slug": "asics-novablast-4",
+    "cat": "running-shoes",
+    "reasons": [
+      "running-shoes",
+      "comparison"
+    ],
+    "sourceUrl": "https://www.asics.com/",
+    "heroSrc": "/images/running/products/novablast-4-hero.jpg"
+  },
+  {
+    "id": "prod-nimbus-27",
+    "slug": "asics-gel-nimbus-27",
+    "cat": "running-shoes",
+    "reasons": [
+      "running-shoes",
+      "best-guide",
+      "comparison"
+    ],
+    "sourceUrl": "https://www.asics.com/",
+    "heroSrc": "/images/running/products/nimbus-27-hero.jpg"
+  },
+  {
+    "id": "prod-pegasus-41",
+    "slug": "nike-pegasus-41",
+    "cat": "running-shoes",
+    "reasons": [
+      "running-shoes"
+    ],
+    "sourceUrl": "https://www.asics.com/",
+    "heroSrc": "/images/running/products/pegasus-41-hero.png"
+  },
+  {
+    "id": "prod-ghost-16",
+    "slug": "brooks-ghost-16",
+    "cat": "running-shoes",
+    "reasons": [
+      "running-shoes",
+      "comparison"
+    ],
+    "sourceUrl": "https://www.asics.com/",
+    "heroSrc": "/images/running/products/ghost-16-hero.png"
+  },
+  {
+    "id": "prod-clifton-9",
+    "slug": "hoka-clifton-9",
+    "cat": "running-shoes",
+    "reasons": [
+      "running-shoes"
+    ],
+    "sourceUrl": "https://runrepeat.com/",
+    "heroSrc": "/images/running/products/clifton-9-hero.jpg"
+  },
+  {
+    "id": "prod-endorphin-speed-4",
+    "slug": "saucony-endorphin-speed-4",
+    "cat": "running-shoes",
+    "reasons": [
+      "running-shoes"
+    ],
+    "sourceUrl": "https://runrepeat.com/",
+    "heroSrc": "/images/running/products/endorphin-speed-4-hero.jpg"
+  },
+  {
+    "id": "prod-rebel-4",
+    "slug": "new-balance-fuelcell-rebel-v4",
+    "cat": "running-shoes",
+    "reasons": [
+      "running-shoes"
+    ],
+    "sourceUrl": "https://runrepeat.com/",
+    "heroSrc": "/images/running/products/rebel-4-hero.jpg"
+  },
+  {
+    "id": "prod-boston-12",
+    "slug": "adidas-adizero-boston-12",
+    "cat": "running-shoes",
+    "reasons": [
+      "running-shoes",
+      "best-guide",
+      "comparison"
+    ],
+    "sourceUrl": "https://runrepeat.com/",
+    "heroSrc": "/images/running/products/boston-12-hero.jpg"
+  },
+  {
+    "id": "prod-novablast-6",
+    "slug": "asics-novablast-6",
+    "cat": "running-shoes",
+    "reasons": [
+      "running-shoes",
+      "best-guide",
+      "comparison"
+    ],
+    "sourceUrl": "https://www.asics.com/",
+    "heroSrc": "/images/running/products/novablast-6-hero.jpg"
+  },
+  {
+    "id": "prod-superblast-2",
+    "slug": "asics-superblast-2",
+    "cat": "running-shoes",
+    "reasons": [
+      "running-shoes",
+      "best-guide"
+    ],
+    "sourceUrl": "https://www.asics.com/",
+    "heroSrc": "/images/running/products/superblast-2-hero.jpg"
+  },
+  {
+    "id": "prod-kayano-32",
+    "slug": "asics-gel-kayano-32",
+    "cat": "running-shoes",
+    "reasons": [
+      "running-shoes",
+      "best-guide",
+      "comparison"
+    ],
+    "sourceUrl": "https://www.asics.com/",
+    "heroSrc": "/images/running/products/kayano-32-hero.jpg"
+  },
+  {
+    "id": "prod-cumulus-27",
+    "slug": "asics-gel-cumulus-27",
+    "cat": "running-shoes",
+    "reasons": [
+      "running-shoes",
+      "best-guide"
+    ],
+    "sourceUrl": "https://images.asics.com/is/image/asics/1011B960_100_SR_RT_GLB?wid=1200&hei=1200&fmt=jpg",
+    "heroSrc": "/images/running/products/cumulus-27-hero.jpg"
+  },
+  {
+    "id": "prod-metaspeed-sky-paris",
+    "slug": "asics-metaspeed-sky-paris",
+    "cat": "running-shoes",
+    "reasons": [
+      "running-shoes",
+      "best-guide"
+    ],
+    "sourceUrl": "https://www.asics.com/",
+    "heroSrc": "/images/running/products/metaspeed-sky-paris-hero.jpg"
+  },
+  {
+    "id": "prod-gt-2000-14",
+    "slug": "asics-gt-2000-14",
+    "cat": "running-shoes",
+    "reasons": [
+      "running-shoes",
+      "best-guide"
+    ],
+    "sourceUrl": "https://runrepeat.com/",
+    "heroSrc": "/images/running/products/gt-2000-14-hero.jpg"
+  },
+  {
+    "id": "prod-pegasus-42",
+    "slug": "nike-pegasus-42",
+    "cat": "running-shoes",
+    "reasons": [
+      "running-shoes",
+      "best-guide",
+      "comparison"
+    ],
+    "sourceUrl": "https://www.asics.com/",
+    "heroSrc": "/images/running/products/pegasus-42-hero.jpg"
+  },
+  {
+    "id": "prod-vomero-18",
+    "slug": "nike-vomero-18",
+    "cat": "running-shoes",
+    "reasons": [
+      "running-shoes",
+      "best-guide"
+    ],
+    "sourceUrl": "https://www.asics.com/",
+    "heroSrc": "/images/running/products/vomero-18-hero.png"
+  },
+  {
+    "id": "prod-invincible-3",
+    "slug": "nike-invincible-3",
+    "cat": "running-shoes",
+    "reasons": [
+      "running-shoes"
+    ],
+    "sourceUrl": "https://www.asics.com/",
+    "heroSrc": "/images/running/products/invincible-3-hero.png"
+  },
+  {
+    "id": "prod-vaporfly-4",
+    "slug": "nike-vaporfly-4",
+    "cat": "running-shoes",
+    "reasons": [
+      "running-shoes",
+      "best-guide",
+      "comparison"
+    ],
+    "sourceUrl": "https://www.asics.com/",
+    "heroSrc": "/images/running/products/vaporfly-4-hero.jpg"
+  },
+  {
+    "id": "prod-alphafly-3",
+    "slug": "nike-alphafly-3",
+    "cat": "running-shoes",
+    "reasons": [
+      "running-shoes",
+      "best-guide",
+      "comparison"
+    ],
+    "sourceUrl": "https://www.asics.com/",
+    "heroSrc": "/images/running/products/alphafly-3-hero.png"
+  },
+  {
+    "id": "prod-structure-26",
+    "slug": "nike-structure-26",
+    "cat": "running-shoes",
+    "reasons": [
+      "running-shoes",
+      "best-guide"
+    ],
+    "sourceUrl": "https://www.asics.com/",
+    "heroSrc": "/images/running/products/structure-26-hero.png"
+  },
+  {
+    "id": "prod-structure-plus",
+    "slug": "nike-structure-plus",
+    "cat": "running-shoes",
+    "reasons": [
+      "running-shoes",
+      "best-guide"
+    ],
+    "sourceUrl": "https://runrepeat.com/",
+    "heroSrc": "/images/running/products/structure-plus-hero.jpg"
+  },
+  {
+    "id": "prod-ghost-18",
+    "slug": "brooks-ghost-18",
+    "cat": "running-shoes",
+    "reasons": [
+      "running-shoes",
+      "best-guide",
+      "comparison"
+    ],
+    "sourceUrl": "https://www.asics.com/",
+    "heroSrc": "/images/running/products/ghost-18-hero.png"
+  },
+  {
+    "id": "prod-glycerin-22",
+    "slug": "brooks-glycerin-22",
+    "cat": "running-shoes",
+    "reasons": [
+      "running-shoes",
+      "best-guide"
+    ],
+    "sourceUrl": "https://cdn.runrepeat.com/storage/gallery/product_content/40658/brooks-glycerin-22-22723204-main.jpg",
+    "heroSrc": "/images/running/products/glycerin-22-hero.png"
+  },
+  {
+    "id": "prod-glycerin-21",
+    "slug": "brooks-glycerin-21",
+    "cat": "running-shoes",
+    "reasons": [
+      "running-shoes"
+    ],
+    "sourceUrl": "https://runrepeat.com/",
+    "heroSrc": "/images/running/products/glycerin-21-hero.jpg"
+  },
+  {
+    "id": "prod-adrenaline-gts-25",
+    "slug": "brooks-adrenaline-gts-25",
+    "cat": "running-shoes",
+    "reasons": [
+      "running-shoes",
+      "best-guide",
+      "comparison"
+    ],
+    "sourceUrl": "https://cdn11.bigcommerce.com/s-i8lklasqiy/images/stencil/1280x1280/products/180295/229960/Brooks_110454-090-MEN_BlackWhite1__03518.1776954437.jpg?c=1",
+    "heroSrc": "/images/running/products/adrenaline-gts-25-hero.png"
+  },
+  {
+    "id": "prod-hyperion-max-2",
+    "slug": "brooks-hyperion-max-2",
+    "cat": "running-shoes",
+    "reasons": [
+      "running-shoes",
+      "best-guide"
+    ],
+    "sourceUrl": "https://www.asics.com/",
+    "heroSrc": "/images/running/products/hyperion-max-2-hero.png"
+  },
+  {
+    "id": "prod-clifton-10",
+    "slug": "hoka-clifton-10",
+    "cat": "running-shoes",
+    "reasons": [
+      "running-shoes",
+      "best-guide",
+      "comparison"
+    ],
+    "sourceUrl": "https://www.asics.com/",
+    "heroSrc": "/images/running/products/clifton-10-hero.jpg"
+  },
+  {
+    "id": "prod-bondi-9",
+    "slug": "hoka-bondi-9",
+    "cat": "running-shoes",
+    "reasons": [
+      "running-shoes",
+      "best-guide"
+    ],
+    "sourceUrl": "https://www.asics.com/",
+    "heroSrc": "/images/running/products/bondi-9-hero.jpg"
+  },
+  {
+    "id": "prod-bondi-8",
+    "slug": "hoka-bondi-8",
+    "cat": "running-shoes",
+    "reasons": [
+      "running-shoes"
+    ],
+    "sourceUrl": "https://runrepeat.com/",
+    "heroSrc": "/images/running/products/bondi-8-hero.jpg"
+  },
+  {
+    "id": "prod-mach-6",
+    "slug": "hoka-mach-6",
+    "cat": "running-shoes",
+    "reasons": [
+      "running-shoes",
+      "best-guide"
+    ],
+    "sourceUrl": "https://runrepeat.com/",
+    "heroSrc": "/images/running/products/mach-6-hero.jpg"
+  },
+  {
+    "id": "prod-speedgoat-6",
+    "slug": "hoka-speedgoat-6",
+    "cat": "running-shoes",
+    "reasons": [
+      "running-shoes",
+      "best-guide",
+      "comparison"
+    ],
+    "sourceUrl": "https://www.asics.com/",
+    "heroSrc": "/images/running/products/speedgoat-6-hero.jpg"
+  },
+  {
+    "id": "prod-clifton-pro",
+    "slug": "hoka-clifton-pro",
+    "cat": "running-shoes",
+    "reasons": [
+      "running-shoes"
+    ],
+    "sourceUrl": "https://nz.hoka.com/products/clifton-pro-1176510-bkcs-bkcs",
+    "heroSrc": "/images/running/products/clifton-pro-hero.jpg"
+  },
+  {
+    "id": "prod-endorphin-speed-5",
+    "slug": "saucony-endorphin-speed-5",
+    "cat": "running-shoes",
+    "reasons": [
+      "running-shoes",
+      "best-guide",
+      "comparison"
+    ],
+    "sourceUrl": "https://www.asics.com/",
+    "heroSrc": "/images/running/products/endorphin-speed-5-hero.jpg"
+  },
+  {
+    "id": "prod-endorphin-pro-4",
+    "slug": "saucony-endorphin-pro-4",
+    "cat": "running-shoes",
+    "reasons": [
+      "running-shoes",
+      "best-guide"
+    ],
+    "sourceUrl": "https://www.asics.com/",
+    "heroSrc": "/images/running/products/endorphin-pro-4-hero.jpg"
+  },
+  {
+    "id": "prod-endorphin-pro-3",
+    "slug": "saucony-endorphin-pro-3",
+    "cat": "running-shoes",
+    "reasons": [
+      "running-shoes"
+    ],
+    "sourceUrl": "https://www.saucony.com/en/endorphin-pro-3/59686W.html",
+    "heroSrc": "/images/running/products/endorphin-pro-3-hero.jpg"
+  },
+  {
+    "id": "prod-ride-18",
+    "slug": "saucony-ride-18",
+    "cat": "running-shoes",
+    "reasons": [
+      "running-shoes",
+      "best-guide"
+    ],
+    "sourceUrl": "https://www.asics.com/",
+    "heroSrc": "/images/running/products/ride-18-hero.jpg"
+  },
+  {
+    "id": "prod-triumph-22",
+    "slug": "saucony-triumph-22",
+    "cat": "running-shoes",
+    "reasons": [
+      "running-shoes",
+      "best-guide"
+    ],
+    "sourceUrl": "https://cdn.runrepeat.com/storage/gallery/product_content/40254/saucony-triumph-22-smoke-21682865-main.jpg",
+    "heroSrc": "/images/running/products/triumph-22-hero.jpg"
+  },
+  {
+    "id": "prod-peregrine-15",
+    "slug": "saucony-peregrine-15",
+    "cat": "running-shoes",
+    "reasons": [
+      "running-shoes",
+      "best-guide",
+      "comparison"
+    ],
+    "sourceUrl": "https://runrepeat.com/",
+    "heroSrc": "/images/running/products/peregrine-15-hero.jpg"
+  },
+  {
+    "id": "prod-1080-v14",
+    "slug": "new-balance-fresh-foam-x-1080-v14",
+    "cat": "running-shoes",
+    "reasons": [
+      "running-shoes",
+      "best-guide"
+    ],
+    "sourceUrl": "https://runrepeat.com/",
+    "heroSrc": "/images/running/products/1080-v14-hero.jpg"
+  },
+  {
+    "id": "prod-1080-v13",
+    "slug": "new-balance-fresh-foam-x-1080-v13",
+    "cat": "running-shoes",
+    "reasons": [
+      "running-shoes"
+    ],
+    "sourceUrl": "https://nb.scene7.com/is/image/NB/m1080k13_nb_02_i?$pdpflexf22x$&wid=800&hei=800",
+    "heroSrc": "/images/running/products/1080-v13-hero.jpg"
+  },
+  {
+    "id": "prod-sc-elite-v4",
+    "slug": "new-balance-fuelcell-supercomp-elite-v4",
+    "cat": "running-shoes",
+    "reasons": [
+      "running-shoes"
+    ],
+    "sourceUrl": "https://img.runningwarehouse.com/watermark/rs.php?path=N4SCEM1-1.jpg&nw=1000",
+    "heroSrc": "/images/running/products/sc-elite-v4-hero.jpg"
+  },
+  {
+    "id": "prod-rebel-v5",
+    "slug": "new-balance-fuelcell-rebel-v5",
+    "cat": "running-shoes",
+    "reasons": [
+      "running-shoes",
+      "best-guide"
+    ],
+    "sourceUrl": "https://nb.scene7.com/is/image/NB/mfcxlv5_nb_02_i?$pdpflexf22x$&wid=800&hei=800",
+    "heroSrc": "/images/running/products/rebel-v5-hero.jpg"
+  },
+  {
+    "id": "prod-sc-trainer-v3",
+    "slug": "new-balance-fuelcell-supercomp-trainer-v3",
+    "cat": "running-shoes",
+    "reasons": [
+      "running-shoes",
+      "best-guide"
+    ],
+    "sourceUrl": "https://img.runningwarehouse.com/watermark/rs.php?path=N3SCTM5-1.jpg&nw=1000",
+    "heroSrc": "/images/running/products/sc-trainer-v3-hero.jpg"
+  },
+  {
+    "id": "prod-adizero-evo-sl",
+    "slug": "adidas-adizero-evo-sl",
+    "cat": "running-shoes",
+    "reasons": [
+      "running-shoes",
+      "best-guide"
+    ],
+    "sourceUrl": "https://runrepeat.com/",
+    "heroSrc": "/images/running/products/adizero-evo-sl-hero.jpg"
+  },
+  {
+    "id": "prod-adios-pro-4",
+    "slug": "adidas-adizero-adios-pro-4",
+    "cat": "running-shoes",
+    "reasons": [
+      "running-shoes",
+      "best-guide"
+    ],
+    "sourceUrl": "https://runrepeat.com/",
+    "heroSrc": "/images/running/products/adios-pro-4-hero.jpg"
+  },
+  {
+    "id": "prod-cloudmonster-2",
+    "slug": "on-cloudmonster-2",
+    "cat": "running-shoes",
+    "reasons": [
+      "running-shoes",
+      "best-guide"
+    ],
+    "sourceUrl": "https://runrepeat.com/",
+    "heroSrc": "/images/running/products/cloudmonster-2-hero.jpg"
+  },
+  {
+    "id": "prod-cloudsurfer-next",
+    "slug": "on-cloudsurfer-next",
+    "cat": "running-shoes",
+    "reasons": [
+      "running-shoes"
+    ],
+    "sourceUrl": "https://runrepeat.com/",
+    "heroSrc": "/images/running/products/cloudsurfer-next-hero.jpg"
+  },
+  {
+    "id": "prod-torin-8",
+    "slug": "altra-torin-8",
+    "cat": "running-shoes",
+    "reasons": [
+      "running-shoes",
+      "best-guide"
+    ],
+    "sourceUrl": "https://runrepeat.com/",
+    "heroSrc": "/images/running/products/torin-8-hero.jpg"
+  },
+  {
+    "id": "prod-escalante-4",
+    "slug": "altra-escalante-4",
+    "cat": "running-shoes",
+    "reasons": [
+      "running-shoes"
+    ],
+    "sourceUrl": "https://runrepeat.com/",
+    "heroSrc": "/images/running/products/escalante-4-hero.jpg"
+  },
+  {
+    "id": "prod-lone-peak-8",
+    "slug": "altra-lone-peak-8",
+    "cat": "running-shoes",
+    "reasons": [
+      "running-shoes",
+      "best-guide"
+    ],
+    "sourceUrl": "https://runrepeat.com/",
+    "heroSrc": "/images/running/products/lone-peak-8-hero.jpg"
+  },
+  {
+    "id": "prod-aero-glide-2",
+    "slug": "salomon-aero-glide-2",
+    "cat": "running-shoes",
+    "reasons": [
+      "running-shoes"
+    ],
+    "sourceUrl": "https://runrepeat.com/",
+    "heroSrc": "/images/running/products/aero-glide-2-hero.jpg"
+  },
+  {
+    "id": "prod-sense-ride-5",
+    "slug": "salomon-sense-ride-5",
+    "cat": "running-shoes",
+    "reasons": [
+      "running-shoes",
+      "best-guide"
+    ],
+    "sourceUrl": "https://runrepeat.com/",
+    "heroSrc": "/images/running/products/sense-ride-5-hero.jpg"
+  },
+  {
+    "id": "prod-pulsar-trail-2",
+    "slug": "salomon-pulsar-trail-2",
+    "cat": "running-shoes",
+    "reasons": [
+      "running-shoes",
+      "best-guide"
+    ],
+    "sourceUrl": "https://runrepeat.com/",
+    "heroSrc": "/images/running/products/pulsar-trail-2-hero.jpg"
+  },
+  {
+    "id": "prod-specter-2",
+    "slug": "topo-athletic-specter-2",
+    "cat": "running-shoes",
+    "reasons": [
+      "running-shoes"
+    ],
+    "sourceUrl": "https://runrepeat.com/",
+    "heroSrc": "/images/running/products/specter-2-hero.jpg"
+  },
+  {
+    "id": "prod-phantom-3",
+    "slug": "topo-athletic-phantom-3",
+    "cat": "running-shoes",
+    "reasons": [
+      "running-shoes"
+    ],
+    "sourceUrl": "https://runrepeat.com/",
+    "heroSrc": "/images/running/products/phantom-3-hero.jpg"
+  },
+  {
+    "id": "prod-deviate-nitro-3",
+    "slug": "puma-deviate-nitro-3",
+    "cat": "running-shoes",
+    "reasons": [
+      "running-shoes",
+      "best-guide"
+    ],
+    "sourceUrl": "https://runrepeat.com/",
+    "heroSrc": "/images/running/products/deviate-nitro-3-hero.jpg"
+  },
+  {
+    "id": "prod-magnify-nitro-2",
+    "slug": "puma-magnify-nitro-2",
+    "cat": "running-shoes",
+    "reasons": [
+      "running-shoes"
+    ],
+    "sourceUrl": "https://runrepeat.com/",
+    "heroSrc": "/images/running/products/magnify-nitro-2-hero.jpg"
+  },
+  {
+    "id": "prod-wave-rider-28",
+    "slug": "mizuno-wave-rider-28",
+    "cat": "running-shoes",
+    "reasons": [
+      "running-shoes",
+      "best-guide"
+    ],
+    "sourceUrl": "https://runrepeat.com/",
+    "heroSrc": "/images/running/products/wave-rider-28-hero.jpg"
+  },
+  {
+    "id": "prod-wave-rebellion-pro-3",
+    "slug": "mizuno-wave-rebellion-pro-3",
+    "cat": "running-shoes",
+    "reasons": [
+      "running-shoes"
+    ],
+    "sourceUrl": "https://runrepeat.com/",
+    "heroSrc": "/images/running/products/wave-rebellion-pro-3-hero.jpg"
+  },
+  {
+    "id": "prod-trailfly-ultra-g-300-max",
+    "slug": "inov8-trailfly-ultra-g-300-max",
+    "cat": "running-shoes",
+    "reasons": [
+      "running-shoes",
+      "best-guide"
+    ],
+    "sourceUrl": "https://www.inov8.com/us/trailfly-ultra-g-300-max-mens-ultra-running-shoes",
+    "heroSrc": "/images/running/products/trailfly-ultra-g-300-max-hero.jpg"
+  },
+  {
+    "id": "prod-cascadia-18",
+    "slug": "brooks-cascadia-18",
+    "cat": "running-shoes",
+    "reasons": [
+      "running-shoes"
+    ],
+    "sourceUrl": "https://www.runrepeat.com/brooks-cascadia-18",
+    "heroSrc": "/images/running/products/brooks-cascadia-18-hero.jpg"
+  },
+  {
+    "id": "prod-pegasus-trail-5",
+    "slug": "nike-pegasus-trail-5",
+    "cat": "running-shoes",
+    "reasons": [
+      "running-shoes"
+    ],
+    "sourceUrl": "https://www.runrepeat.com/nike-pegasus-trail-5",
+    "heroSrc": "/images/running/products/nike-pegasus-trail-5-hero.jpg"
+  },
+  {
+    "id": "prod-trabuco-13",
+    "slug": "asics-gel-trabuco-13",
+    "cat": "running-shoes",
+    "reasons": [
+      "running-shoes"
+    ],
+    "sourceUrl": "https://www.runrepeat.com/asics-gel-trabuco-13",
+    "heroSrc": "/images/running/products/asics-gel-trabuco-13-hero.jpg"
+  },
+  {
+    "id": "prod-xodus-ultra-3",
+    "slug": "saucony-xodus-ultra-3",
+    "cat": "running-shoes",
+    "reasons": [
+      "running-shoes"
+    ],
+    "sourceUrl": "https://www.runrepeat.com/saucony-xodus-ultra-3",
+    "heroSrc": "/images/running/products/saucony-xodus-ultra-3-hero.jpg"
+  },
+  {
+    "id": "prod-hierro-v9",
+    "slug": "new-balance-fresh-foam-x-hierro-v9",
+    "cat": "running-shoes",
+    "reasons": [
+      "running-shoes"
+    ],
+    "sourceUrl": "https://www.runrepeat.com/new-balance-fresh-foam-x-hierro-v9",
+    "heroSrc": "/images/running/products/new-balance-fresh-foam-x-hierro-v9-hero.jpg"
+  },
+  {
+    "id": "prod-terrex-agravic-3",
+    "slug": "adidas-terrex-agravic-3",
+    "cat": "running-shoes",
+    "reasons": [
+      "running-shoes"
+    ],
+    "sourceUrl": "https://www.adidas.com/us/terrex-agravic-3-trail-running-shoes/JI0955.html",
+    "heroSrc": "/images/running/products/adidas-terrex-agravic-3-hero.jpg"
+  },
+  {
+    "id": "prod-ultra-glide-2",
+    "slug": "salomon-ultra-glide-2",
+    "cat": "running-shoes",
+    "reasons": [
+      "running-shoes"
+    ],
+    "sourceUrl": "https://www.runrepeat.com/salomon-ultra-glide-2",
+    "heroSrc": "/images/running/products/salomon-ultra-glide-2-hero.jpg"
+  },
+  {
+    "id": "prod-terraventure-4",
+    "slug": "topo-athletic-terraventure-5",
+    "cat": "running-shoes",
+    "reasons": [
+      "running-shoes"
+    ],
+    "sourceUrl": "https://www.runrepeat.com/topo-terraventure-5",
+    "heroSrc": "/images/running/products/topo-athletic-terraventure-5-hero.jpg"
+  },
+  {
+    "id": "prod-guide-18",
+    "slug": "saucony-guide-18",
+    "cat": "running-shoes",
+    "reasons": [
+      "running-shoes"
+    ],
+    "sourceUrl": "https://www.runrepeat.com/saucony-guide-18",
+    "heroSrc": "/images/running/products/saucony-guide-18-hero.jpg"
+  },
+  {
+    "id": "prod-arahi-7",
+    "slug": "hoka-arahi-7",
+    "cat": "running-shoes",
+    "reasons": [
+      "running-shoes"
+    ],
+    "sourceUrl": "https://www.runrepeat.com/hoka-arahi-7",
+    "heroSrc": "/images/running/products/hoka-arahi-7-hero.jpg"
+  },
+  {
+    "id": "prod-gaviota-5",
+    "slug": "hoka-gaviota-5",
+    "cat": "running-shoes",
+    "reasons": [
+      "running-shoes"
+    ],
+    "sourceUrl": "https://www.runrepeat.com/hoka-gaviota-5",
+    "heroSrc": "/images/running/products/hoka-gaviota-5-hero.jpg"
+  },
+  {
+    "id": "prod-860-v14",
+    "slug": "new-balance-fresh-foam-x-860-v14",
+    "cat": "running-shoes",
+    "reasons": [
+      "running-shoes"
+    ],
+    "sourceUrl": "https://www.runrepeat.com/new-balance-fresh-foam-x-860-v14",
+    "heroSrc": "/images/running/products/new-balance-fresh-foam-x-860-v14-hero.jpg"
+  },
+  {
+    "id": "prod-gt-1000-13",
+    "slug": "asics-gt-1000-13",
+    "cat": "running-shoes",
+    "reasons": [
+      "running-shoes"
+    ],
+    "sourceUrl": "https://www.runrepeat.com/asics-gt-1000-13",
+    "heroSrc": "/images/running/products/asics-gt-1000-13-hero.jpg"
+  },
+  {
+    "id": "prod-glycerin-gts-22",
+    "slug": "brooks-glycerin-gts-22",
+    "cat": "running-shoes",
+    "reasons": [
+      "running-shoes"
+    ],
+    "sourceUrl": "https://www.runrepeat.com/brooks-glycerin-gts-22",
+    "heroSrc": "/images/running/products/brooks-glycerin-gts-22-hero.jpg"
+  },
+  {
+    "id": "prod-react-infinity-4",
+    "slug": "nike-react-infinity-run-4",
+    "cat": "running-shoes",
+    "reasons": [
+      "running-shoes"
+    ],
+    "sourceUrl": "https://www.runrepeat.com/nike-infinityrn-4",
+    "heroSrc": "/images/running/products/nike-react-infinity-run-4-hero.jpg"
+  },
+  {
+    "id": "prod-paradigm-7",
+    "slug": "altra-paradigm-7",
+    "cat": "running-shoes",
+    "reasons": [
+      "running-shoes"
+    ],
+    "sourceUrl": "https://www.runrepeat.com/altra-paradigm-7",
+    "heroSrc": "/images/running/products/altra-paradigm-7-hero.jpg"
+  },
+  {
+    "id": "prod-experience-flow",
+    "slug": "altra-experience-flow",
+    "cat": "running-shoes",
+    "reasons": [
+      "running-shoes"
+    ],
+    "sourceUrl": "https://www.runrepeat.com/altra-experience-flow",
+    "heroSrc": "/images/running/products/altra-experience-flow-hero.jpg"
+  },
+  {
+    "id": "prod-adizero-boston-13",
+    "slug": "adidas-adizero-boston-13",
+    "cat": "running-shoes",
+    "reasons": [
+      "running-shoes"
+    ],
+    "sourceUrl": "https://www.runrepeat.com/adidas-adizero-boston-13",
+    "heroSrc": "/images/running/products/adidas-adizero-boston-13-hero.jpg"
+  },
+  {
+    "id": "prod-ultraboost-5",
+    "slug": "adidas-ultraboost-5",
+    "cat": "running-shoes",
+    "reasons": [
+      "running-shoes"
+    ],
+    "sourceUrl": "https://www.runrepeat.com/adidas-ultraboost-5",
+    "heroSrc": "/images/running/products/adidas-ultraboost-5-hero.jpg"
+  },
+  {
+    "id": "prod-cloudsurfer-2",
+    "slug": "on-cloudsurfer-2",
+    "cat": "running-shoes",
+    "reasons": [
+      "running-shoes"
+    ],
+    "sourceUrl": "https://www.runrepeat.com/on-cloudsurfer-2",
+    "heroSrc": "/images/running/products/on-cloudsurfer-2-hero.jpg"
+  },
+  {
+    "id": "prod-cloudmonster-hyper",
+    "slug": "on-cloudmonster-hyper",
+    "cat": "running-shoes",
+    "reasons": [
+      "running-shoes"
+    ],
+    "sourceUrl": "https://www.runrepeat.com/on-cloudmonster-hyper",
+    "heroSrc": "/images/running/products/on-cloudmonster-hyper-hero.jpg"
+  },
+  {
+    "id": "prod-genesis-salomon",
+    "slug": "salomon-genesis",
+    "cat": "running-shoes",
+    "reasons": [
+      "running-shoes"
+    ],
+    "sourceUrl": "https://www.runrepeat.com/salomon-genesis",
+    "heroSrc": "/images/running/products/salomon-genesis-hero.jpg"
+  },
+  {
+    "id": "prod-forerunner-965",
+    "slug": "garmin-forerunner-965",
+    "cat": "gps-watches",
+    "reasons": [
+      "gps-watches",
+      "comparison"
+    ],
+    "sourceUrl": "https://www.garmin.com/en-US/p/886725/pn/010-02809-00/",
+    "heroSrc": "/images/watches/products/garmin-forerunner-965-hero.jpg"
+  },
+  {
+    "id": "prod-forerunner-255",
+    "slug": "garmin-forerunner-255",
+    "cat": "gps-watches",
+    "reasons": [
+      "gps-watches"
+    ],
+    "sourceUrl": "https://www.garmin.com/",
+    "heroSrc": "/images/watches/products/garmin-forerunner-255-hero.jpg"
+  },
+  {
+    "id": "prod-coros-pace-3",
+    "slug": "coros-pace-3",
+    "cat": "gps-watches",
+    "reasons": [
+      "gps-watches"
+    ],
+    "sourceUrl": "https://coros.com/pace3",
+    "heroSrc": "/images/watches/products/coros-pace-3-hero.jpg"
+  },
+  {
+    "id": "prod-forerunner-970",
+    "slug": "garmin-forerunner-970",
+    "cat": "gps-watches",
+    "reasons": [
+      "gps-watches",
+      "best-guide",
+      "comparison"
+    ],
+    "sourceUrl": "https://www.garmin.com/en-US/p/1462801/pn/010-02969-00/",
+    "heroSrc": "/images/watches/products/garmin-forerunner-970-hero.jpg"
+  },
+  {
+    "id": "prod-forerunner-570",
+    "slug": "garmin-forerunner-570",
+    "cat": "gps-watches",
+    "reasons": [
+      "gps-watches",
+      "best-guide"
+    ],
+    "sourceUrl": "https://www.garmin.com/en-US/p/1463821/pn/010-02970-01/",
+    "heroSrc": "/images/watches/products/garmin-forerunner-570-hero.jpg"
+  },
+  {
+    "id": "prod-forerunner-265",
+    "slug": "garmin-forerunner-265",
+    "cat": "gps-watches",
+    "reasons": [
+      "gps-watches"
+    ],
+    "sourceUrl": "https://www.garmin.com/",
+    "heroSrc": "/images/watches/products/garmin-forerunner-265-hero.jpg"
+  },
+  {
+    "id": "prod-forerunner-165",
+    "slug": "garmin-forerunner-165",
+    "cat": "gps-watches",
+    "reasons": [
+      "gps-watches",
+      "best-guide",
+      "comparison"
+    ],
+    "sourceUrl": "https://www.garmin.com/",
+    "heroSrc": "/images/watches/products/garmin-forerunner-165-hero.jpg"
+  },
+  {
+    "id": "prod-forerunner-55",
+    "slug": "garmin-forerunner-55",
+    "cat": "gps-watches",
+    "reasons": [
+      "gps-watches"
+    ],
+    "sourceUrl": "https://www.garmin.com.hk/products/wearables/forerunner-55-black/",
+    "heroSrc": "/images/watches/products/garmin-forerunner-55-hero.png"
+  },
+  {
+    "id": "prod-coros-pace-pro",
+    "slug": "coros-pace-pro",
+    "cat": "gps-watches",
+    "reasons": [
+      "gps-watches",
+      "best-guide",
+      "comparison"
+    ],
+    "sourceUrl": "https://www.coros.com/pacepro",
+    "heroSrc": "/images/watches/products/coros-pace-pro-hero.png"
+  },
+  {
+    "id": "prod-coros-apex-2-pro",
+    "slug": "coros-apex-2-pro",
+    "cat": "gps-watches",
+    "reasons": [
+      "gps-watches"
+    ],
+    "sourceUrl": "https://www.coros.com/apex2pro",
+    "heroSrc": "/images/watches/products/coros-apex-2-pro-hero.png"
+  },
+  {
+    "id": "prod-polar-vantage-v3",
+    "slug": "polar-vantage-v3",
+    "cat": "gps-watches",
+    "reasons": [
+      "gps-watches"
+    ],
+    "sourceUrl": "https://www.polar.com/en/vantage/v3",
+    "heroSrc": "/images/watches/products/polar-vantage-v3-hero.png"
+  },
+  {
+    "id": "prod-polar-pacer-pro",
+    "slug": "polar-pacer-pro",
+    "cat": "gps-watches",
+    "reasons": [
+      "gps-watches"
+    ],
+    "sourceUrl": "https://www.polar.com/en/pacer-pro",
+    "heroSrc": "/images/watches/products/polar-pacer-pro-hero.png"
+  },
+  {
+    "id": "prod-suunto-race",
+    "slug": "suunto-race",
+    "cat": "gps-watches",
+    "reasons": [
+      "gps-watches"
+    ],
+    "sourceUrl": "https://www.suunto.com/en-us/products/sports-watches/suunto-race/suunto-race-all-black/",
+    "heroSrc": "/images/watches/products/suunto-race-hero.png"
+  },
+  {
+    "id": "prod-suunto-race-s",
+    "slug": "suunto-race-s",
+    "cat": "gps-watches",
+    "reasons": [
+      "gps-watches"
+    ],
+    "sourceUrl": "https://www.suunto.com/en-us/products/sports-watches/suunto-race-s/suunto-race-s-all-black/",
+    "heroSrc": "/images/watches/products/suunto-race-s-hero.png"
+  },
+  {
+    "id": "prod-apple-watch-ultra-2",
+    "slug": "apple-watch-ultra-2",
+    "cat": "gps-watches",
+    "reasons": [
+      "gps-watches",
+      "comparison"
+    ],
+    "sourceUrl": "https://www.bestbuy.com/site/apple-watch-ultra-2/6554581.p",
+    "heroSrc": "/images/watches/products/apple-watch-ultra-2-hero.jpg"
+  },
+  {
+    "id": "prod-fenix-8",
+    "slug": "garmin-fenix-8",
+    "cat": "gps-watches",
+    "reasons": [
+      "gps-watches",
+      "best-guide",
+      "comparison"
+    ],
+    "sourceUrl": "https://www.garmin.com/en-US/p/1228429/pn/010-02904-00/",
+    "heroSrc": "/images/watches/products/garmin-fenix-8-hero.jpg"
+  },
+  {
+    "id": "prod-enduro-3",
+    "slug": "garmin-enduro-3",
+    "cat": "gps-watches",
+    "reasons": [
+      "gps-watches",
+      "best-guide",
+      "comparison"
+    ],
+    "sourceUrl": "https://www.garmin.com/en-US/p/851039/pn/010-02751-00/",
+    "heroSrc": "/images/watches/products/garmin-enduro-3-hero.jpg"
+  },
+  {
+    "id": "prod-instinct-3",
+    "slug": "garmin-instinct-3",
+    "cat": "gps-watches",
+    "reasons": [
+      "gps-watches",
+      "best-guide"
+    ],
+    "sourceUrl": "https://www.garmin.com/en-US/p/1462811/pn/010-02935-00/",
+    "heroSrc": "/images/watches/products/garmin-instinct-3-hero.jpg"
+  },
+  {
+    "id": "prod-vivoactive-6",
+    "slug": "garmin-vivoactive-6",
+    "cat": "gps-watches",
+    "reasons": [
+      "gps-watches",
+      "best-guide",
+      "comparison"
+    ],
+    "sourceUrl": "https://www.garmin.com/en-US/p/1555457/pn/010-02985-00/",
+    "heroSrc": "/images/watches/products/garmin-vivoactive-6-hero.jpg"
+  },
+  {
+    "id": "prod-forerunner-265s",
+    "slug": "garmin-forerunner-265s",
+    "cat": "gps-watches",
+    "reasons": [
+      "gps-watches",
+      "best-guide"
+    ],
+    "sourceUrl": "https://www.garmin.com/en-US/p/886689/pn/010-02810-04/",
+    "heroSrc": "/images/watches/products/garmin-forerunner-265s-hero.jpg"
+  },
+  {
+    "id": "prod-garmin-epix-pro-gen2",
+    "slug": "garmin-epix-pro-gen-2",
+    "cat": "gps-watches",
+    "reasons": [
+      "gps-watches"
+    ],
+    "sourceUrl": "https://www.garmin.com/en-US/p/87582/pn/010-02804-00/",
+    "heroSrc": "/images/watches/products/garmin-epix-pro-gen-2-hero.jpg"
+  },
+  {
+    "id": "prod-coros-apex-4",
+    "slug": "coros-apex-4",
+    "cat": "gps-watches",
+    "reasons": [
+      "gps-watches",
+      "best-guide",
+      "comparison"
+    ],
+    "sourceUrl": "https://coros.com/buy/apex4",
+    "heroSrc": "/images/watches/products/coros-apex-4-hero.png"
+  },
+  {
+    "id": "prod-coros-pace-4",
+    "slug": "coros-pace-4",
+    "cat": "gps-watches",
+    "reasons": [
+      "gps-watches",
+      "best-guide",
+      "comparison"
+    ],
+    "sourceUrl": "https://coros.com/buy/pace4",
+    "heroSrc": "/images/watches/products/coros-pace-4-hero.png"
+  },
+  {
+    "id": "prod-coros-vertix-2s",
+    "slug": "coros-vertix-2s",
+    "cat": "gps-watches",
+    "reasons": [
+      "gps-watches",
+      "best-guide"
+    ],
+    "sourceUrl": "https://coros.com/vertix2s",
+    "heroSrc": "/images/watches/products/coros-vertix-2s-hero.png"
+  },
+  {
+    "id": "prod-suunto-vertical-2",
+    "slug": "suunto-vertical-2",
+    "cat": "gps-watches",
+    "reasons": [
+      "gps-watches",
+      "best-guide",
+      "comparison"
+    ],
+    "sourceUrl": "https://www.suunto.com/Products/sports-watches/suunto-vertical-2/",
+    "heroSrc": "/images/watches/products/suunto-vertical-2-hero.png"
+  },
+  {
+    "id": "prod-suunto-run",
+    "slug": "suunto-run",
+    "cat": "gps-watches",
+    "reasons": [
+      "gps-watches",
+      "best-guide"
+    ],
+    "sourceUrl": "https://www.suunto.com/Products/sports-watches/suunto-run/",
+    "heroSrc": "/images/watches/products/suunto-run-hero.png"
+  },
+  {
+    "id": "prod-polar-grit-x2",
+    "slug": "polar-grit-x2",
+    "cat": "gps-watches",
+    "reasons": [
+      "gps-watches",
+      "best-guide",
+      "comparison"
+    ],
+    "sourceUrl": "https://www.polar.com/en/grit-x2",
+    "heroSrc": "/images/watches/products/polar-grit-x2-hero.png"
+  },
+  {
+    "id": "prod-polar-pacer",
+    "slug": "polar-pacer",
+    "cat": "gps-watches",
+    "reasons": [
+      "gps-watches"
+    ],
+    "sourceUrl": "https://www.polar.com/en/pacer",
+    "heroSrc": "/images/watches/products/polar-pacer-hero.png"
+  },
+  {
+    "id": "prod-apple-watch-ultra-3",
+    "slug": "apple-watch-ultra-3",
+    "cat": "gps-watches",
+    "reasons": [
+      "gps-watches",
+      "best-guide",
+      "comparison"
+    ],
+    "sourceUrl": "https://www.apple.com/shop/buy-watch/apple-watch-ultra",
+    "heroSrc": "/images/watches/products/apple-watch-ultra-3-hero.jpg"
+  },
+  {
+    "id": "prod-apple-watch-series-10",
+    "slug": "apple-watch-series-10",
+    "cat": "gps-watches",
+    "reasons": [
+      "gps-watches"
+    ],
+    "sourceUrl": "https://www.apple.com/apple-watch-series-10/",
+    "heroSrc": "/images/watches/products/apple-watch-series-10-hero.jpg"
+  },
+  {
+    "id": "prod-samsung-galaxy-watch-ultra",
+    "slug": "samsung-galaxy-watch-ultra",
+    "cat": "gps-watches",
+    "reasons": [
+      "gps-watches"
+    ],
+    "sourceUrl": "https://www.samsung.com/us/watches/galaxy-watch-ultra-2025/buy/galaxy-watch-ultra-47mm-titanium-gray-sku-sm-l705uza4xaa/",
+    "heroSrc": "/images/watches/products/samsung-galaxy-watch-ultra-hero.png"
+  },
+  {
+    "id": "prod-amazfit-t-rex-3-pro",
+    "slug": "amazfit-t-rex-3-pro",
+    "cat": "gps-watches",
+    "reasons": [
+      "gps-watches"
+    ],
+    "sourceUrl": "https://uk.amazfit.com/products/t-rex-3-pro",
+    "heroSrc": "/images/watches/products/amazfit-t-rex-3-pro-hero.png"
+  },
+  {
+    "id": "prod-amazfit-active-2",
+    "slug": "amazfit-active-2",
+    "cat": "gps-watches",
+    "reasons": [
+      "gps-watches",
+      "best-guide"
+    ],
+    "sourceUrl": "https://uk.amazfit.com/products/amazfit-active-2",
+    "heroSrc": "/images/watches/products/amazfit-active-2-hero.png"
+  },
+  {
+    "id": "prod-hrm-pro-plus",
+    "slug": "garmin-hrm-pro-plus",
+    "cat": "heart-rate-monitors",
+    "reasons": [
+      "hrm",
+      "comparison"
+    ],
+    "sourceUrl": "https://www.garmin.com/",
+    "heroSrc": "/images/hrm/products/garmin-hrm-pro-plus-hero.jpg"
+  },
+  {
+    "id": "prod-hrm-600",
+    "slug": "garmin-hrm-600",
+    "cat": "heart-rate-monitors",
+    "reasons": [
+      "hrm",
+      "best-guide",
+      "comparison"
+    ],
+    "sourceUrl": "https://www.garmin.com.hk/products/wearables/hrm-600/",
+    "heroSrc": "/images/hrm/products/garmin-hrm-600-hero.jpg"
+  },
+  {
+    "id": "prod-polar-h10",
+    "slug": "polar-h10",
+    "cat": "heart-rate-monitors",
+    "reasons": [
+      "hrm",
+      "best-guide",
+      "comparison"
+    ],
+    "sourceUrl": "https://www.polar.com/en/sensors/h10-heart-rate-sensor",
+    "heroSrc": "/images/hrm/products/polar-h10-hero.png"
+  },
+  {
+    "id": "prod-polar-verity-sense",
+    "slug": "polar-verity-sense",
+    "cat": "heart-rate-monitors",
+    "reasons": [
+      "hrm",
+      "best-guide",
+      "comparison"
+    ],
+    "sourceUrl": "https://www.polar.com/en/products/accessories/polar-verity-sense",
+    "heroSrc": "/images/hrm/products/polar-verity-sense-hero.png"
+  },
+  {
+    "id": "prod-wahoo-tickr",
+    "slug": "wahoo-tickr",
+    "cat": "heart-rate-monitors",
+    "reasons": [
+      "hrm"
+    ],
+    "sourceUrl": "https://www.thebikeaffair.com/products/wahoo-tickr-heart-rate-monitor",
+    "heroSrc": "/images/hrm/products/wahoo-tickr-hero.jpg"
+  },
+  {
+    "id": "prod-wahoo-tickr-x",
+    "slug": "wahoo-tickr-x",
+    "cat": "heart-rate-monitors",
+    "reasons": [
+      "hrm"
+    ],
+    "sourceUrl": "https://www.thebikeaffair.com/products/wahoo-tickr-x-heart-rate-monitor",
+    "heroSrc": "/images/hrm/products/wahoo-tickr-x-hero.jpg"
+  },
+  {
+    "id": "prod-coros-hrm",
+    "slug": "coros-heart-rate-monitor",
+    "cat": "heart-rate-monitors",
+    "reasons": [
+      "hrm",
+      "best-guide",
+      "comparison"
+    ],
+    "sourceUrl": "https://www.coros.com/heart-rate-monitor",
+    "heroSrc": "/images/hrm/products/coros-heart-rate-monitor-hero.png"
+  },
+  {
+    "id": "prod-garmin-hrm-200",
+    "slug": "garmin-hrm-200",
+    "cat": "heart-rate-monitors",
+    "reasons": [
+      "hrm",
+      "best-guide"
+    ],
+    "sourceUrl": "https://www.garmin.com/en-US/p/1530957/",
+    "heroSrc": "/images/hrm/products/garmin-hrm-200-hero.jpg"
+  },
+  {
+    "id": "prod-garmin-hrm-fit",
+    "slug": "garmin-hrm-fit",
+    "cat": "heart-rate-monitors",
+    "reasons": [
+      "hrm"
+    ],
+    "sourceUrl": "https://www.garmin.com/en-US/p/1132094/",
+    "heroSrc": "/images/hrm/products/garmin-hrm-fit-hero.jpg"
+  },
+  {
+    "id": "prod-polar-h9",
+    "slug": "polar-h9",
+    "cat": "heart-rate-monitors",
+    "reasons": [
+      "hrm",
+      "best-guide",
+      "comparison"
+    ],
+    "sourceUrl": "https://www.polar.com/en/sensors/h9-heart-rate-sensor",
+    "heroSrc": "/images/hrm/products/polar-h9-hero.png"
+  },
+  {
+    "id": "prod-wahoo-trackr",
+    "slug": "wahoo-trackr",
+    "cat": "heart-rate-monitors",
+    "reasons": [
+      "hrm",
+      "best-guide",
+      "comparison"
+    ],
+    "sourceUrl": "https://eu.wahoofitness.com/devices/running/heart-rate-monitors/trackr-heart-rate-buy",
+    "heroSrc": "/images/hrm/products/wahoo-trackr-hero.jpg"
+  },
+  {
+    "id": "prod-wahoo-tickr-fit",
+    "slug": "wahoo-tickr-fit",
+    "cat": "heart-rate-monitors",
+    "reasons": [
+      "hrm",
+      "best-guide"
+    ],
+    "sourceUrl": "https://eu.wahoofitness.com/devices/running/heart-rate-monitors/tickr-fit-optical-heart-rate-monitor",
+    "heroSrc": "/images/hrm/products/wahoo-tickr-fit-hero.jpg"
+  },
+  {
+    "id": "prod-scosche-rhythm-plus-2",
+    "slug": "scosche-rhythm-plus-2",
+    "cat": "heart-rate-monitors",
+    "reasons": [
+      "hrm"
+    ],
+    "sourceUrl": "https://www.scosche.com/rhythm-plus-2-armband-heart-rate-monitor",
+    "heroSrc": "/images/hrm/products/scosche-rhythm-plus-2-hero.jpg"
+  },
+  {
+    "id": "prod-scosche-rhythm24",
+    "slug": "scosche-rhythm24",
+    "cat": "heart-rate-monitors",
+    "reasons": [
+      "hrm"
+    ],
+    "sourceUrl": "https://www.scosche.com/rhythm24-waterproof-armband-heart-rate-monitor",
+    "heroSrc": "/images/hrm/products/scosche-rhythm24-hero.jpg"
+  },
+  {
+    "id": "prod-suunto-smart-hr-belt",
+    "slug": "suunto-smart-heart-rate-belt",
+    "cat": "heart-rate-monitors",
+    "reasons": [
+      "hrm"
+    ],
+    "sourceUrl": "https://www.suunto.com/en-gb/Products/Heart-Rate-Belts/Suunto-Smart-Heart-Rate-Belt/",
+    "heroSrc": "/images/hrm/products/suunto-smart-heart-rate-belt-hero.png"
+  },
+  {
+    "id": "prod-adv-skin-12",
+    "slug": "salomon-adv-skin-12",
+    "cat": "running-packs-vests",
+    "reasons": [
+      "packs-vests",
+      "best-guide",
+      "comparison"
+    ],
+    "sourceUrl": "https://www.runningwarehouse.com/Salomon_Adv_Skin_12_Set_Pack_Black/descpage-SADV129.html",
+    "heroSrc": "/images/packs/products/salomon-adv-skin-12-hero.jpg"
+  },
+  {
+    "id": "prod-salomon-adv-skin-5",
+    "slug": "salomon-adv-skin-5",
+    "cat": "running-packs-vests",
+    "reasons": [
+      "packs-vests",
+      "best-guide",
+      "comparison"
+    ],
+    "sourceUrl": "https://www.runningwarehouse.com/",
+    "heroSrc": "/images/packs/products/salomon-adv-skin-5-hero.jpg"
+  },
+  {
+    "id": "prod-nathan-vaporair-4",
+    "slug": "nathan-vaporair-4",
+    "cat": "running-packs-vests",
+    "reasons": [
+      "packs-vests",
+      "best-guide",
+      "comparison"
+    ],
+    "sourceUrl": "https://www.runningwarehouse.com/",
+    "heroSrc": "/images/packs/products/nathan-vaporair-4-hero.jpg"
+  },
+  {
+    "id": "prod-nathan-pinnacle-12",
+    "slug": "nathan-pinnacle-12",
+    "cat": "running-packs-vests",
+    "reasons": [
+      "packs-vests",
+      "best-guide"
+    ],
+    "sourceUrl": "https://www.runningwarehouse.com/",
+    "heroSrc": "/images/packs/products/nathan-pinnacle-12-hero.jpg"
+  },
+  {
+    "id": "prod-ud-race-vest-6",
+    "slug": "ultimate-direction-race-vest-6",
+    "cat": "running-packs-vests",
+    "reasons": [
+      "packs-vests",
+      "best-guide",
+      "comparison"
+    ],
+    "sourceUrl": "https://www.runningwarehouse.com/",
+    "heroSrc": "/images/packs/products/ultimate-direction-race-vest-6-hero.jpg"
+  },
+  {
+    "id": "prod-camelbak-zephyr-pro",
+    "slug": "camelbak-zephyr-pro",
+    "cat": "running-packs-vests",
+    "reasons": [
+      "packs-vests",
+      "comparison"
+    ],
+    "sourceUrl": "https://www.camelbak.com/product/zephyr-pro%2C-34oz%2C-galaxy-blue/CB-2820402000.html",
+    "heroSrc": "/images/packs/products/camelbak-zephyr-pro-hero.jpg"
+  },
+  {
+    "id": "prod-camelbak-circuit",
+    "slug": "camelbak-circuit-run-vest",
+    "cat": "running-packs-vests",
+    "reasons": [
+      "packs-vests"
+    ],
+    "sourceUrl": "https://www.runningwarehouse.com/",
+    "heroSrc": "/images/packs/products/camelbak-circuit-run-vest-hero.jpg"
+  },
+  {
+    "id": "prod-camelbak-apex-pro",
+    "slug": "camelbak-apex-pro",
+    "cat": "running-packs-vests",
+    "reasons": [
+      "packs-vests",
+      "comparison"
+    ],
+    "sourceUrl": "https://www.runningwarehouse.com/",
+    "heroSrc": "/images/packs/products/camelbak-apex-pro-hero.jpg"
+  },
+  {
+    "id": "prod-osprey-duro-lt",
+    "slug": "osprey-duro-lt",
+    "cat": "running-packs-vests",
+    "reasons": [
+      "packs-vests",
+      "best-guide",
+      "comparison"
+    ],
+    "sourceUrl": "https://procamper.com.hk/products/osprey-duro-lt-with-soft-flasks",
+    "heroSrc": "/images/packs/products/osprey-duro-lt-hero.jpg"
+  },
+  {
+    "id": "prod-osprey-dyna-lt",
+    "slug": "osprey-dyna-lt",
+    "cat": "running-packs-vests",
+    "reasons": [
+      "packs-vests"
+    ],
+    "sourceUrl": "https://www.osprey.com/dyna-lt-w-flasks",
+    "heroSrc": "/images/packs/products/osprey-dyna-lt-hero.jpg"
+  },
+  {
+    "id": "prod-osprey-duro-15",
+    "slug": "osprey-duro-15",
+    "cat": "running-packs-vests",
+    "reasons": [
+      "packs-vests",
+      "best-guide",
+      "comparison"
+    ],
+    "sourceUrl": "https://www.bergfreunde.eu/osprey-duro-15-trail-running-backpack-bf/",
+    "heroSrc": "/images/packs/products/osprey-duro-15-hero.jpg"
+  },
+  {
+    "id": "prod-uswe-pace-8",
+    "slug": "uswe-pace-8",
+    "cat": "running-packs-vests",
+    "reasons": [
+      "packs-vests"
+    ],
+    "sourceUrl": "https://www.runningwarehouse.com/",
+    "heroSrc": "/images/packs/products/uswe-pace-8-hero.jpg"
+  },
+  {
+    "id": "prod-ultraspire-alpha-6",
+    "slug": "ultraspire-alpha-6",
+    "cat": "running-packs-vests",
+    "reasons": [
+      "packs-vests"
+    ],
+    "sourceUrl": "https://www.runningwarehouse.com/",
+    "heroSrc": "/images/packs/products/ultraspire-alpha-6-hero.jpg"
+  },
+  {
+    "id": "prod-ultraspire-spry-5",
+    "slug": "ultraspire-spry-5",
+    "cat": "running-packs-vests",
+    "reasons": [
+      "packs-vests"
+    ],
+    "sourceUrl": "https://www.runningwarehouse.com/",
+    "heroSrc": "/images/packs/products/ultraspire-spry-5-hero.jpg"
+  },
+  {
+    "id": "prod-compressport-ultrun-s-pack",
+    "slug": "compressport-ultrun-s-pack",
+    "cat": "running-packs-vests",
+    "reasons": [
+      "packs-vests"
+    ],
+    "sourceUrl": "https://www.bergfreunde.eu/compressport-ultrun-s-pack-evo-15-trail-running-backpack/",
+    "heroSrc": "/images/packs/products/compressport-ultrun-s-pack-hero.jpg"
+  },
+  {
+    "id": "prod-nnormal-race-vest",
+    "slug": "nnormal-race-vest",
+    "cat": "running-packs-vests",
+    "reasons": [
+      "packs-vests"
+    ],
+    "sourceUrl": "https://www.runningwarehouse.com/",
+    "heroSrc": "/images/packs/products/nnormal-race-vest-hero.jpg"
+  },
+  {
+    "id": "prod-on-ultra-vest-pro",
+    "slug": "on-ultra-vest-pro",
+    "cat": "running-packs-vests",
+    "reasons": [
+      "packs-vests",
+      "best-guide"
+    ],
+    "sourceUrl": "https://www.on.com/en-us/products/ultra-vest-pro-u-2uf3013/unisex",
+    "heroSrc": "/images/packs/products/on-ultra-vest-pro-hero.jpg"
+  },
+  {
+    "id": "prod-black-diamond-distance-8",
+    "slug": "black-diamond-distance-8",
+    "cat": "running-packs-vests",
+    "reasons": [
+      "packs-vests",
+      "best-guide"
+    ],
+    "sourceUrl": "https://blackdiamondequipment.com/",
+    "heroSrc": "/images/packs/products/black-diamond-distance-8-hero.jpg"
+  },
+  {
+    "id": "prod-ud-fastpack-20",
+    "slug": "ultimate-direction-fastpack-20",
+    "cat": "running-packs-vests",
+    "reasons": [
+      "packs-vests",
+      "best-guide",
+      "comparison"
+    ],
+    "sourceUrl": "https://ultimatedirection.com/fastpack-20/",
+    "heroSrc": "/images/packs/products/ultimate-direction-fastpack-20-hero.jpg"
+  },
+  {
+    "id": "prod-ud-fastpack-her-20",
+    "slug": "ultimate-direction-fastpack-her-20",
+    "cat": "running-packs-vests",
+    "reasons": [
+      "packs-vests"
+    ],
+    "sourceUrl": "https://ultimatedirection.com/fastpackher-20-prior-year/",
+    "heroSrc": "/images/packs/products/ultimate-direction-fastpack-her-20-hero.jpg"
+  },
+  {
+    "id": "prod-ud-fastpack-30",
+    "slug": "ultimate-direction-fastpack-30",
+    "cat": "running-packs-vests",
+    "reasons": [
+      "packs-vests",
+      "best-guide"
+    ],
+    "sourceUrl": "https://ultimatedirection.com",
+    "heroSrc": "/images/packs/products/ultimate-direction-fastpack-30-hero.jpg"
+  },
+  {
+    "id": "prod-osprey-talon-velocity-20",
+    "slug": "osprey-talon-velocity-20",
+    "cat": "running-packs-vests",
+    "reasons": [
+      "packs-vests",
+      "best-guide",
+      "comparison"
+    ],
+    "sourceUrl": "https://www.osprey.com/talontm-velocity-20",
+    "heroSrc": "/images/packs/products/osprey-talon-velocity-20-hero.jpg"
+  },
+  {
+    "id": "prod-osprey-tempest-velocity-20",
+    "slug": "osprey-tempest-velocity-20",
+    "cat": "running-packs-vests",
+    "reasons": [
+      "packs-vests"
+    ],
+    "sourceUrl": "https://www.osprey.com/tempest-velocity-20",
+    "heroSrc": "/images/packs/products/osprey-tempest-velocity-20-hero.jpg"
+  },
+  {
+    "id": "prod-osprey-talon-velocity-30",
+    "slug": "osprey-talon-velocity-30",
+    "cat": "running-packs-vests",
+    "reasons": [
+      "packs-vests",
+      "best-guide"
+    ],
+    "sourceUrl": "https://www.osprey.com/talontm-velocity-30",
+    "heroSrc": "/images/packs/products/osprey-talon-velocity-30-hero.jpg"
+  },
+  {
+    "id": "prod-black-diamond-distance-15",
+    "slug": "black-diamond-distance-15",
+    "cat": "running-packs-vests",
+    "reasons": [
+      "packs-vests"
+    ],
+    "sourceUrl": "https://blackdiamondequipment.com/products/distance-15-backpack",
+    "heroSrc": "/images/packs/products/black-diamond-distance-15-hero.jpg"
+  },
+  {
+    "id": "prod-black-diamond-distance-22",
+    "slug": "black-diamond-distance-22",
+    "cat": "running-packs-vests",
+    "reasons": [
+      "packs-vests",
+      "best-guide",
+      "comparison"
+    ],
+    "sourceUrl": "https://blackdiamondequipment.com/products/distance-22-backpack",
+    "heroSrc": "/images/packs/products/black-diamond-distance-22-hero.jpg"
+  },
+  {
+    "id": "prod-salomon-xa-15",
+    "slug": "salomon-xa-15",
+    "cat": "running-packs-vests",
+    "reasons": [
+      "packs-vests",
+      "best-guide",
+      "comparison"
+    ],
+    "sourceUrl": "https://www.bergfreunde.eu/salomon-xa-15-trail-running-backpack/",
+    "heroSrc": "/images/packs/products/salomon-xa-15-hero.jpg"
+  },
+  {
+    "id": "prod-salomon-custom-quiver",
+    "slug": "salomon-custom-quiver",
+    "cat": "running-packs-vests",
+    "reasons": [
+      "packs-vests"
+    ],
+    "sourceUrl": "https://www.bergfreunde.eu/salomon-custom-quiver/",
+    "heroSrc": "/images/packs/products/salomon-custom-quiver-hero.jpg"
+  },
+  {
+    "id": "prod-ud-utility-bag",
+    "slug": "ultimate-direction-utility-bag",
+    "cat": "running-packs-vests",
+    "reasons": [
+      "packs-vests"
+    ],
+    "sourceUrl": "https://ultimatedirection.com/search.php?search_query=utility+bag",
+    "heroSrc": "/images/packs/products/ultimate-direction-utility-bag-hero.jpg"
+  },
+  {
+    "id": "prod-nathan-zippered-stash",
+    "slug": "nathan-zippered-stash",
+    "cat": "running-packs-vests",
+    "reasons": [
+      "packs-vests"
+    ],
+    "sourceUrl": "https://www.nathansports.com/search?q=zippered+stash",
+    "heroSrc": "/images/packs/products/nathan-zippered-stash-hero.jpg"
+  },
+  {
+    "id": "prod-nathan-vaporair-2",
+    "slug": "nathan-vaporair-2",
+    "cat": "running-packs-vests",
+    "reasons": [
+      "packs-vests",
+      "comparison"
+    ],
+    "sourceUrl": "https://www.nathansports.com.au/products/vapor-air-hydration-vest-2-7l-grey-blue",
+    "heroSrc": "/images/packs/products/nathan-vaporair-2-hero.png"
+  },
+  {
+    "id": "prod-ud-adventure-vest",
+    "slug": "ultimate-direction-adventure-vest",
+    "cat": "running-packs-vests",
+    "reasons": [
+      "packs-vests"
+    ],
+    "sourceUrl": "https://ultimatedirection.com/adventure-vest-17l/",
+    "heroSrc": "/images/packs/products/ultimate-direction-adventure-vest-hero.jpg"
+  },
+  {
+    "id": "prod-camelbak-zephyr",
+    "slug": "camelbak-zephyr",
+    "cat": "running-packs-vests",
+    "reasons": [
+      "packs-vests"
+    ],
+    "sourceUrl": "https://www.amazon.com/CamelBak-Zephyr-Limited-Hydration-Bladder/dp/B09QKKS461",
+    "heroSrc": "/images/packs/products/camelbak-zephyr-hero.jpg"
+  },
+  {
+    "id": "prod-osprey-duro-6",
+    "slug": "osprey-duro-6",
+    "cat": "running-packs-vests",
+    "reasons": [
+      "packs-vests",
+      "best-guide",
+      "comparison"
+    ],
+    "sourceUrl": "https://www.basecampgear.co.uk/2026-duro-6-vest-pack-with-flasks/",
+    "heroSrc": "/images/packs/products/osprey-duro-6-hero.jpg"
+  },
+  {
+    "id": "prod-osprey-dyna-6",
+    "slug": "osprey-dyna-6",
+    "cat": "running-packs-vests",
+    "reasons": [
+      "packs-vests",
+      "comparison"
+    ],
+    "sourceUrl": "https://www.bergfreunde.eu/osprey-womens-dyna-6-trail-running-backpack-bf-1/",
+    "heroSrc": "/images/packs/products/osprey-dyna-6-hero.jpg"
+  }
+]

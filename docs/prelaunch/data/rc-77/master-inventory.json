@@ -1,0 +1,258 @@
+{
+  "generatedAt": "2026-09-10T17:17:21.607Z",
+  "totals": {
+    "allImageFiles": 9435,
+    "over1mb": 2822,
+    "over3mb": 13,
+    "over5mb": 5
+  },
+  "over1mb": {
+    "byExt": {
+      ".png": 2796,
+      ".jpg": 26
+    },
+    "byUsage": {
+      "gallery": 19,
+      "hero": 42,
+      "other": 33,
+      "review-section": 2720,
+      "editorial": 7,
+      "brand": 1
+    },
+    "byFolder": {
+      "packs": 100,
+      "running": 1441,
+      "watches": 81,
+      "home": 217,
+      "padel": 359,
+      "hrm": 11,
+      "fitness": 162,
+      "hydration": 21,
+      "training": 218,
+      "tennis": 209,
+      "brands": 1,
+      "headphones": 1,
+      "gear": 1
+    }
+  },
+  "over5mb": [
+    {
+      "src": "/images/packs/products/on-ultra-vest-pro/gallery/rear-3.png",
+      "bytes": 15390062,
+      "mb": 14.68,
+      "usage": "gallery",
+      "productHint": "on-ultra-vest-pro",
+      "format": "png",
+      "width": 4000,
+      "height": 4000,
+      "hasAlpha": true,
+      "space": "srgb"
+    },
+    {
+      "src": "/images/packs/products/on-ultra-vest-pro/gallery/detail-2.png",
+      "bytes": 12772609,
+      "mb": 12.18,
+      "usage": "gallery",
+      "productHint": "on-ultra-vest-pro",
+      "format": "png",
+      "width": 4000,
+      "height": 4000,
+      "hasAlpha": true,
+      "space": "srgb"
+    },
+    {
+      "src": "/images/packs/products/on-ultra-vest-pro/gallery/side-1.png",
+      "bytes": 8751188,
+      "mb": 8.35,
+      "usage": "gallery",
+      "productHint": "on-ultra-vest-pro",
+      "format": "png",
+      "width": 4000,
+      "height": 4000,
+      "hasAlpha": true,
+      "space": "srgb"
+    },
+    {
+      "src": "/images/packs/products/on-ultra-vest-pro-hero.png",
+      "bytes": 8751188,
+      "mb": 8.35,
+      "usage": "hero",
+      "productHint": "on-ultra-vest-pro-hero.png",
+      "format": "png",
+      "width": 4000,
+      "height": 4000,
+      "hasAlpha": true,
+      "space": "srgb"
+    },
+    {
+      "src": "/images/running/products/glycerin-22-hero.png",
+      "bytes": 5447640,
+      "mb": 5.2,
+      "usage": "hero",
+      "productHint": "glycerin-22-hero.png",
+      "format": "png",
+      "width": 3000,
+      "height": 2000,
+      "hasAlpha": false,
+      "space": "srgb"
+    }
+  ],
+  "over3mb": [
+    {
+      "src": "/images/packs/products/on-ultra-vest-pro/gallery/rear-3.png",
+      "bytes": 15390062,
+      "mb": 14.68,
+      "usage": "gallery",
+      "productHint": "on-ultra-vest-pro",
+      "format": "png",
+      "width": 4000,
+      "height": 4000,
+      "hasAlpha": true,
+      "space": "srgb"
+    },
+    {
+      "src": "/images/packs/products/on-ultra-vest-pro/gallery/detail-2.png",
+      "bytes": 12772609,
+      "mb": 12.18,
+      "usage": "gallery",
+      "productHint": "on-ultra-vest-pro",
+      "format": "png",
+      "width": 4000,
+      "height": 4000,
+      "hasAlpha": true,
+      "space": "srgb"
+    },
+    {
+      "src": "/images/packs/products/on-ultra-vest-pro/gallery/side-1.png",
+      "bytes": 8751188,
+      "mb": 8.35,
+      "usage": "gallery",
+      "productHint": "on-ultra-vest-pro",
+      "format": "png",
+      "width": 4000,
+      "height": 4000,
+      "hasAlpha": true,
+      "space": "srgb"
+    },
+    {
+      "src": "/images/packs/products/on-ultra-vest-pro-hero.png",
+      "bytes": 8751188,
+      "mb": 8.35,
+      "usage": "hero",
+      "productHint": "on-ultra-vest-pro-hero.png",
+      "format": "png",
+      "width": 4000,
+      "height": 4000,
+      "hasAlpha": true,
+      "space": "srgb"
+    },
+    {
+      "src": "/images/running/products/glycerin-22-hero.png",
+      "bytes": 5447640,
+      "mb": 5.2,
+      "usage": "hero",
+      "productHint": "glycerin-22-hero.png",
+      "format": "png",
+      "width": 3000,
+      "height": 2000,
+      "hasAlpha": false,
+      "space": "srgb"
+    },
+    {
+      "src": "/images/watches/products/amazfit-t-rex-3-pro-hero.png",
+      "bytes": 4095885,
+      "mb": 3.91,
+      "usage": "hero",
+      "productHint": "amazfit-t-rex-3-pro-hero.png",
+      "format": "png",
+      "width": 3000,
+      "height": 3000,
+      "hasAlpha": true,
+      "space": "srgb"
+    },
+    {
+      "src": "/images/running/qa/guides-hub-running-1440-full.png",
+      "bytes": 3931038,
+      "mb": 3.75,
+      "usage": "other",
+      "productHint": null,
+      "format": "png",
+      "width": 1440,
+      "height": 11406,
+      "hasAlpha": false,
+      "space": "srgb"
+    },
+    {
+      "src": "/images/running/qa/product-category-shoes-1440.png",
+      "bytes": 3856189,
+      "mb": 3.68,
+      "usage": "other",
+      "productHint": null,
+      "format": "png",
+      "width": 1440,
+      "height": 10476,
+      "hasAlpha": false,
+      "space": "srgb"
+    },
+    {
+      "src": "/images/running/reviews/review-trail-vs-road-surfaces.jpg",
+      "bytes": 3665051,
+      "mb": 3.5,
+      "usage": "review-section",
+      "productHint": null,
+      "format": "png",
+      "width": 1536,
+      "height": 1024,
+      "hasAlpha": false,
+      "space": "srgb"
+    },
+    {
+      "src": "/images/watches/products/coros-apex-2-pro/gallery/rear-3.png",
+      "bytes": 3502053,
+      "mb": 3.34,
+      "usage": "gallery",
+      "productHint": "coros-apex-2-pro",
+      "format": "png",
+      "width": 2400,
+      "height": 2400,
+      "hasAlpha": true,
+      "space": "srgb"
+    },
+    {
+      "src": "/images/watches/products/coros-apex-2-pro/gallery/detail-2.png",
+      "bytes": 3436350,
+      "mb": 3.28,
+      "usage": "gallery",
+      "productHint": "coros-apex-2-pro",
+      "format": "png",
+      "width": 2400,
+      "height": 2400,
+      "hasAlpha": true,
+      "space": "srgb"
+    },
+    {
+      "src": "/images/running/qa/check-glycerin.png",
+      "bytes": 3312198,
+      "mb": 3.16,
+      "usage": "other",
+      "productHint": null,
+      "format": "png",
+      "width": 2500,
+      "height": 2500,
+      "hasAlpha": true,
+      "space": "srgb"
+    },
+    {
+      "src": "/images/running/products/ghost-16-hero.png",
+      "bytes": 3175418,
+      "mb": 3.03,
+      "usage": "hero",
+      "productHint": "ghost-16-hero.png",
+      "format": "png",
+      "width": 2500,
+      "height": 2500,
+      "hasAlpha": true,
+      "space": "srgb"
+    }
+  ]
+}

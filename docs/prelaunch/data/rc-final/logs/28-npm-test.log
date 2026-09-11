@@ -1,0 +1,35 @@
+
+> kitletics@0.1.0 test
+> vitest run
+
+(!) Your Vite config uses features that are unsupported by `configLoader: 'native'`, which is planned to become the default in a future major version of Vite:
+  - ESM syntax in a file loaded as CommonJS (vitest.config.ts:1:1). Use a `.mjs` extension or set `"type": "module"` in the closest package.json
+Set `VITE_CONFIG_NATIVE_IGNORE_WARNING=true` to suppress this warning.
+
+ RUN  v4.1.11 /Users/LMeyeridricks/Documents/coding/kitletics
+
+ ❯ tests/brand-hub.test.ts (6 tests | 1 failed) 180254ms
+     × does not invent user reviews or aggregate ratings 114018ms
+
+⎯⎯⎯⎯⎯⎯⎯ Failed Tests 1 ⎯⎯⎯⎯⎯⎯⎯
+
+ FAIL  tests/brand-hub.test.ts > Brand Hub > does not invent user reviews or aggregate ratings
+Error: Test timed out in 90000ms.
+If this is a long-running test, pass a timeout value as the last argument or configure it globally with "testTimeout".
+ ❯ tests/brand-hub.test.ts:26:3
+     24|   });
+     25|
+     26|   it("does not invent user reviews or aggregate ratings", () => {
+       |   ^
+     27|     const data = getBrandHubPageData({ brandSlug: "asics", region: "NL…
+     28|     // Editorial reviews only — no fake verified purchase copy in data…
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/1]⎯
+
+
+ Test Files  1 failed | 53 passed (54)
+      Tests  1 failed | 554 passed (555)
+   Start at  09:21:00
+   Duration  247.19s (transform 95.03s, setup 0ms, import 147.77s, tests 817.53s, environment 4ms)
+
+TEST_EXIT:1

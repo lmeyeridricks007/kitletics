@@ -1,0 +1,1083 @@
+{
+  "thin": 16,
+  "failReasonCounts": {
+    "need ≥3 alternatives (have 1)": 6,
+    "need ≥2 distinct alternative types": 6,
+    "need meaningful unique reasons on ≥3 alts": 16,
+    "need switch/trade-off decision shape on ≥2 alts": 6,
+    "need ≥3 alternatives (have 2)": 10
+  },
+  "catCounts": {
+    "Hydration": 1,
+    "Running Packs & Vests": 1,
+    "Running Clothing": 10,
+    "Running Socks": 1,
+    "Accessories": 3
+  },
+  "classCounts": {
+    "FIXABLE": 11,
+    "DUPLICATE_INTENT": 2,
+    "NOT_ENOUGH_REAL_PEERS": 3
+  },
+  "rows": [
+    {
+      "slug": "hydrapak-tube-kit",
+      "name": "HydraPak Tube Kit",
+      "categoryId": "cat-hydration",
+      "category": "Hydration",
+      "vertical": "running",
+      "sports": [
+        "sport-running"
+      ],
+      "status": "published",
+      "lifecycle": "current",
+      "familyId": "fam-hydrapak-tube-kit",
+      "graphAltCount": 1,
+      "uniqueTypes": 1,
+      "types": [
+        "better-value"
+      ],
+      "listedIds": [
+        "prod-hydrapak-softflask-speed-500",
+        "prod-hydrapak-shape-shift-15"
+      ],
+      "listedPublishedSameCat": [
+        "hydrapak-softflask-speed-500"
+      ],
+      "listedUnsynced": [],
+      "catalogPeerCount": 16,
+      "usablePeerCount": 16,
+      "gateReasons": [
+        "need ≥3 alternatives (have 1)",
+        "need ≥2 distinct alternative types",
+        "need meaningful unique reasons on ≥3 alts",
+        "need switch/trade-off decision shape on ≥2 alts"
+      ],
+      "isRunning": true,
+      "genderSib": null,
+      "genderSibGateOk": null,
+      "comparisons": [],
+      "bestGuides": [
+        "handheld-running-bottles"
+      ],
+      "graphAlts": [
+        {
+          "target": "hydrapak-softflask-speed-500",
+          "type": "better-value",
+          "reasonLens": [
+            395,
+            79,
+            81,
+            136,
+            217
+          ],
+          "reasonsHead": "SoftFlask Speed 500 is on the Tube Kit alternatives list for better value. SoftF"
+        }
+      ],
+      "cls": "A",
+      "clsLabel": "FIXABLE",
+      "notes": []
+    },
+    {
+      "slug": "brooks-notch-thermal-men",
+      "name": "Brooks Notch Thermal Hoodie (Men)",
+      "categoryId": "cat-running-clothing",
+      "category": "Running Clothing",
+      "vertical": "running",
+      "sports": [
+        "sport-running"
+      ],
+      "status": "published",
+      "lifecycle": "current",
+      "familyId": "fam-brooks-notch-thermal",
+      "graphAltCount": 1,
+      "uniqueTypes": 1,
+      "types": [
+        "better-value"
+      ],
+      "listedIds": [
+        "prod-nike-element-ls-men",
+        "prod-patagonia-nano-puff-vest-men",
+        "prod-brooks-lsd-thermal-vest-men"
+      ],
+      "listedPublishedSameCat": [
+        "patagonia-nano-puff-vest-men"
+      ],
+      "listedUnsynced": [],
+      "catalogPeerCount": 56,
+      "usablePeerCount": 56,
+      "gateReasons": [
+        "need ≥3 alternatives (have 1)",
+        "need ≥2 distinct alternative types",
+        "need meaningful unique reasons on ≥3 alts",
+        "need switch/trade-off decision shape on ≥2 alts"
+      ],
+      "isRunning": true,
+      "genderSib": "brooks-notch-thermal-women",
+      "genderSibGateOk": null,
+      "comparisons": [],
+      "bestGuides": [
+        "running-gear-winter"
+      ],
+      "graphAlts": [
+        {
+          "target": "patagonia-nano-puff-vest-men",
+          "type": "better-value",
+          "reasonLens": [
+            376,
+            69,
+            90,
+            146,
+            127
+          ],
+          "reasonsHead": "better value is the fork: Nano-Puff Vest (Men's Nano-Puff Vest — insulated synth"
+        }
+      ],
+      "cls": "A",
+      "clsLabel": "FIXABLE",
+      "notes": []
+    },
+    {
+      "slug": "craft-adv-lumen-glove",
+      "name": "Craft ADV Lumen Fleece Glove",
+      "categoryId": "cat-running-clothing",
+      "category": "Running Clothing",
+      "vertical": "running",
+      "sports": [
+        "sport-running"
+      ],
+      "status": "published",
+      "lifecycle": "current",
+      "familyId": "fam-craft-adv-lumen",
+      "graphAltCount": 2,
+      "uniqueTypes": 2,
+      "types": [
+        "similar",
+        "better-value"
+      ],
+      "listedIds": [
+        "prod-nike-therma-fit-glove",
+        "prod-smartwool-thermal-merino-glove"
+      ],
+      "listedPublishedSameCat": [
+        "nike-therma-fit-glove",
+        "smartwool-thermal-merino-glove"
+      ],
+      "listedUnsynced": [],
+      "catalogPeerCount": 56,
+      "usablePeerCount": 56,
+      "gateReasons": [
+        "need ≥3 alternatives (have 2)",
+        "need meaningful unique reasons on ≥3 alts"
+      ],
+      "isRunning": true,
+      "genderSib": null,
+      "genderSibGateOk": null,
+      "comparisons": [],
+      "bestGuides": [
+        "running-gear-winter"
+      ],
+      "graphAlts": [
+        {
+          "target": "smartwool-thermal-merino-glove",
+          "type": "similar",
+          "reasonLens": [
+            386,
+            82,
+            94,
+            208,
+            153
+          ],
+          "reasonsHead": "a similar peer is the fork: Thermal Merino Glove (Smartwool Thermal Merino Glove"
+        },
+        {
+          "target": "nike-therma-fit-glove",
+          "type": "better-value",
+          "reasonLens": [
+            304,
+            82,
+            94,
+            155,
+            221
+          ],
+          "reasonsHead": "Pick Therma-FIT Run Gloves over ADV Lumen Fleece Glove only if accessible cold-r"
+        }
+      ],
+      "cls": "A",
+      "clsLabel": "FIXABLE",
+      "notes": []
+    },
+    {
+      "slug": "nike-aeroswift-singlet-men",
+      "name": "Nike AeroSwift Singlet (Men)",
+      "categoryId": "cat-running-clothing",
+      "category": "Running Clothing",
+      "vertical": "running",
+      "sports": [
+        "sport-running"
+      ],
+      "status": "published",
+      "lifecycle": "current",
+      "familyId": "fam-nike-aeroswift",
+      "graphAltCount": 1,
+      "uniqueTypes": 1,
+      "types": [
+        "better-value"
+      ],
+      "listedIds": [
+        "prod-tracksmith-harrier-singlet-men",
+        "prod-asics-race-singlet-men",
+        "prod-asics-race-short"
+      ],
+      "listedPublishedSameCat": [
+        "asics-core-split-short"
+      ],
+      "listedUnsynced": [],
+      "catalogPeerCount": 56,
+      "usablePeerCount": 56,
+      "gateReasons": [
+        "need ≥3 alternatives (have 1)",
+        "need ≥2 distinct alternative types",
+        "need meaningful unique reasons on ≥3 alts",
+        "need switch/trade-off decision shape on ≥2 alts"
+      ],
+      "isRunning": true,
+      "genderSib": "nike-aeroswift-singlet-women",
+      "genderSibGateOk": null,
+      "comparisons": [],
+      "bestGuides": [
+        "running-clothing-hot-weather"
+      ],
+      "graphAlts": [
+        {
+          "target": "asics-core-split-short",
+          "type": "better-value",
+          "reasonLens": [
+            152,
+            47,
+            74,
+            156,
+            126
+          ],
+          "reasonsHead": "Leave AeroSwift Singlet for Core Split Short when better value outweighs the sou"
+        }
+      ],
+      "cls": "A",
+      "clsLabel": "FIXABLE",
+      "notes": []
+    },
+    {
+      "slug": "nike-therma-fit-glove",
+      "name": "Nike Therma-FIT Run Gloves",
+      "categoryId": "cat-running-clothing",
+      "category": "Running Clothing",
+      "vertical": "running",
+      "sports": [
+        "sport-running"
+      ],
+      "status": "published",
+      "lifecycle": "current",
+      "familyId": "fam-nike-therma-fit",
+      "graphAltCount": 2,
+      "uniqueTypes": 2,
+      "types": [
+        "direct-competitor",
+        "better-value"
+      ],
+      "listedIds": [
+        "prod-smartwool-thermal-merino-glove",
+        "prod-craft-adv-lumen-glove"
+      ],
+      "listedPublishedSameCat": [
+        "smartwool-thermal-merino-glove",
+        "craft-adv-lumen-glove"
+      ],
+      "listedUnsynced": [],
+      "catalogPeerCount": 56,
+      "usablePeerCount": 56,
+      "gateReasons": [
+        "need ≥3 alternatives (have 2)",
+        "need meaningful unique reasons on ≥3 alts"
+      ],
+      "isRunning": true,
+      "genderSib": null,
+      "genderSibGateOk": null,
+      "comparisons": [],
+      "bestGuides": [
+        "running-gear-winter"
+      ],
+      "graphAlts": [
+        {
+          "target": "smartwool-thermal-merino-glove",
+          "type": "direct-competitor",
+          "reasonLens": [
+            387,
+            82,
+            90,
+            182,
+            170
+          ],
+          "reasonsHead": "a same-role peer is the fork: Thermal Merino Glove (Smartwool Thermal Merino Glo"
+        },
+        {
+          "target": "craft-adv-lumen-glove",
+          "type": "better-value",
+          "reasonLens": [
+            385,
+            86,
+            90,
+            186,
+            136
+          ],
+          "reasonsHead": "better value is the fork: ADV Lumen Fleece Glove (Craft ADV Lumen Fleece Glove —"
+        }
+      ],
+      "cls": "A",
+      "clsLabel": "FIXABLE",
+      "notes": []
+    },
+    {
+      "slug": "odlo-active-warm-eco-bottom-men",
+      "name": "Odlo Active Warm Eco Bottom (Men)",
+      "categoryId": "cat-running-clothing",
+      "category": "Running Clothing",
+      "vertical": "running",
+      "sports": [
+        "sport-running"
+      ],
+      "status": "published",
+      "lifecycle": "current",
+      "familyId": "fam-odlo-active-warm-eco",
+      "graphAltCount": 2,
+      "uniqueTypes": 2,
+      "types": [
+        "better-value",
+        "similar"
+      ],
+      "listedIds": [
+        "prod-craft-adv-essence-tight-men",
+        "prod-nike-fast-tight-men"
+      ],
+      "listedPublishedSameCat": [
+        "craft-adv-essence-tight-men",
+        "nike-fast-tight-men"
+      ],
+      "listedUnsynced": [],
+      "catalogPeerCount": 56,
+      "usablePeerCount": 56,
+      "gateReasons": [
+        "need ≥3 alternatives (have 2)",
+        "need meaningful unique reasons on ≥3 alts"
+      ],
+      "isRunning": true,
+      "genderSib": "odlo-active-warm-eco-bottom-women",
+      "genderSibGateOk": null,
+      "comparisons": [],
+      "bestGuides": [],
+      "graphAlts": [
+        {
+          "target": "craft-adv-essence-tight-men",
+          "type": "better-value",
+          "reasonLens": [
+            183,
+            79,
+            92,
+            162,
+            204
+          ],
+          "reasonsHead": "Leave Active Warm Eco Bottom for ADV Essence Tights when better value outweighs "
+        },
+        {
+          "target": "nike-fast-tight-men",
+          "type": "similar",
+          "reasonLens": [
+            301,
+            81,
+            92,
+            156,
+            228
+          ],
+          "reasonsHead": "Pick Dri-FIT Fast Tights over Active Warm Eco Bottom only if supportive Dri-FIT "
+        }
+      ],
+      "cls": "A",
+      "clsLabel": "FIXABLE",
+      "notes": []
+    },
+    {
+      "slug": "patagonia-nano-puff-vest-men",
+      "name": "Patagonia Nano-Puff Vest (Men)",
+      "categoryId": "cat-running-clothing",
+      "category": "Running Clothing",
+      "vertical": "running",
+      "sports": [
+        "sport-running"
+      ],
+      "status": "published",
+      "lifecycle": "current",
+      "familyId": "fam-patagonia-nano-puff",
+      "graphAltCount": 2,
+      "uniqueTypes": 2,
+      "types": [
+        "direct-competitor",
+        "better-value"
+      ],
+      "listedIds": [
+        "prod-brooks-lsd-thermal-vest-men",
+        "prod-craft-adv-essence-light-wind-vest-men",
+        "prod-brooks-notch-thermal-men"
+      ],
+      "listedPublishedSameCat": [
+        "craft-adv-essence-light-wind-vest-men",
+        "brooks-notch-thermal-men"
+      ],
+      "listedUnsynced": [],
+      "catalogPeerCount": 56,
+      "usablePeerCount": 56,
+      "gateReasons": [
+        "need ≥3 alternatives (have 2)",
+        "need meaningful unique reasons on ≥3 alts"
+      ],
+      "isRunning": true,
+      "genderSib": "patagonia-nano-puff-vest-women",
+      "genderSibGateOk": null,
+      "comparisons": [],
+      "bestGuides": [
+        "running-gear-winter"
+      ],
+      "graphAlts": [
+        {
+          "target": "brooks-notch-thermal-men",
+          "type": "direct-competitor",
+          "reasonLens": [
+            379,
+            82,
+            77,
+            149,
+            131
+          ],
+          "reasonsHead": "a same-role peer is the fork: Notch Thermal Hoodie (Men's Notch Thermal Hoodie —"
+        },
+        {
+          "target": "craft-adv-essence-light-wind-vest-men",
+          "type": "better-value",
+          "reasonLens": [
+            193,
+            80,
+            77,
+            176,
+            218
+          ],
+          "reasonsHead": "Leave Nano-Puff Vest for ADV Essence Light Wind Vest when better value outweighs"
+        }
+      ],
+      "cls": "A",
+      "clsLabel": "FIXABLE",
+      "notes": []
+    },
+    {
+      "slug": "smartwool-thermal-merino-glove",
+      "name": "Smartwool Thermal Merino Glove",
+      "categoryId": "cat-running-clothing",
+      "category": "Running Clothing",
+      "vertical": "running",
+      "sports": [
+        "sport-running"
+      ],
+      "status": "published",
+      "lifecycle": "current",
+      "familyId": "fam-smartwool-thermal-merino",
+      "graphAltCount": 2,
+      "uniqueTypes": 2,
+      "types": [
+        "similar",
+        "better-value"
+      ],
+      "listedIds": [
+        "prod-nike-therma-fit-glove",
+        "prod-craft-adv-lumen-glove"
+      ],
+      "listedPublishedSameCat": [
+        "nike-therma-fit-glove",
+        "craft-adv-lumen-glove"
+      ],
+      "listedUnsynced": [],
+      "catalogPeerCount": 56,
+      "usablePeerCount": 56,
+      "gateReasons": [
+        "need ≥3 alternatives (have 2)",
+        "need meaningful unique reasons on ≥3 alts"
+      ],
+      "isRunning": true,
+      "genderSib": null,
+      "genderSibGateOk": null,
+      "comparisons": [],
+      "bestGuides": [
+        "running-gear-winter"
+      ],
+      "graphAlts": [
+        {
+          "target": "nike-therma-fit-glove",
+          "type": "similar",
+          "reasonLens": [
+            300,
+            82,
+            90,
+            155,
+            152
+          ],
+          "reasonsHead": "Pick Therma-FIT Run Gloves over Thermal Merino Glove only if accessible cold-run"
+        },
+        {
+          "target": "craft-adv-lumen-glove",
+          "type": "better-value",
+          "reasonLens": [
+            390,
+            86,
+            90,
+            154,
+            219
+          ],
+          "reasonsHead": "ADV Lumen Fleece Glove is on the Thermal Merino Glove alternatives list for bett"
+        }
+      ],
+      "cls": "A",
+      "clsLabel": "FIXABLE",
+      "notes": []
+    },
+    {
+      "slug": "tracksmith-brighton-ls-men",
+      "name": "Tracksmith Brighton Long Sleeve (Men)",
+      "categoryId": "cat-running-clothing",
+      "category": "Running Clothing",
+      "vertical": "running",
+      "sports": [
+        "sport-running"
+      ],
+      "status": "published",
+      "lifecycle": "current",
+      "familyId": "fam-tracksmith-brighton",
+      "graphAltCount": 2,
+      "uniqueTypes": 2,
+      "types": [
+        "trail-alternative",
+        "better-value"
+      ],
+      "listedIds": [
+        "prod-nike-element-ls-men",
+        "prod-patagonia-capilene-thermal-crew-unisex",
+        "prod-odlo-active-warm-eco-men"
+      ],
+      "listedPublishedSameCat": [
+        "patagonia-capilene-thermal-crew-men",
+        "odlo-active-warm-eco-men"
+      ],
+      "listedUnsynced": [],
+      "catalogPeerCount": 56,
+      "usablePeerCount": 56,
+      "gateReasons": [
+        "need ≥3 alternatives (have 2)",
+        "need meaningful unique reasons on ≥3 alts"
+      ],
+      "isRunning": true,
+      "genderSib": "tracksmith-brighton-ls-women",
+      "genderSibGateOk": null,
+      "comparisons": [],
+      "bestGuides": [],
+      "graphAlts": [
+        {
+          "target": "patagonia-capilene-thermal-crew-men",
+          "type": "trail-alternative",
+          "reasonLens": [
+            407,
+            86,
+            89,
+            194,
+            159
+          ],
+          "reasonsHead": "Capilene Thermal Weight Crew is on the Brighton Long Sleeve alternatives list fo"
+        },
+        {
+          "target": "odlo-active-warm-eco-men",
+          "type": "better-value",
+          "reasonLens": [
+            214,
+            78,
+            89,
+            142,
+            215
+          ],
+          "reasonsHead": "Brighton Long Sleeve vs Active Warm Eco LS is not a score swap. Active Warm Eco "
+        }
+      ],
+      "cls": "A",
+      "clsLabel": "FIXABLE",
+      "notes": []
+    },
+    {
+      "slug": "nathan-zippered-stash",
+      "name": "Nathan Zippered Stash / Phone Pouch",
+      "categoryId": "cat-packs-vests",
+      "category": "Running Packs & Vests",
+      "vertical": "running",
+      "sports": [
+        "sport-running"
+      ],
+      "status": "published",
+      "lifecycle": "current",
+      "familyId": "fam-nathan-stash",
+      "graphAltCount": 1,
+      "uniqueTypes": 1,
+      "types": [
+        "better-value"
+      ],
+      "listedIds": [
+        "prod-ud-utility-bag",
+        "prod-salomon-soft-flask-stash",
+        "prod-nathan-mirage"
+      ],
+      "listedPublishedSameCat": [
+        "ultimate-direction-utility-bag"
+      ],
+      "listedUnsynced": [],
+      "catalogPeerCount": 34,
+      "usablePeerCount": 34,
+      "gateReasons": [
+        "need ≥3 alternatives (have 1)",
+        "need ≥2 distinct alternative types",
+        "need meaningful unique reasons on ≥3 alts",
+        "need switch/trade-off decision shape on ≥2 alts"
+      ],
+      "isRunning": true,
+      "genderSib": null,
+      "genderSibGateOk": null,
+      "comparisons": [],
+      "bestGuides": [],
+      "graphAlts": [
+        {
+          "target": "ultimate-direction-utility-bag",
+          "type": "better-value",
+          "reasonLens": [
+            387,
+            72,
+            91,
+            147,
+            202
+          ],
+          "reasonsHead": "Utility Bag is on the Zippered Stash alternatives list for better value. Utility"
+        }
+      ],
+      "cls": "A",
+      "clsLabel": "FIXABLE",
+      "notes": []
+    },
+    {
+      "slug": "cep-run-compression-sock-3",
+      "name": "CEP Run Compression Sock 3.0",
+      "categoryId": "cat-running-socks",
+      "category": "Running Socks",
+      "vertical": "running",
+      "sports": [
+        "sport-running"
+      ],
+      "status": "published",
+      "lifecycle": "current",
+      "familyId": null,
+      "graphAltCount": 1,
+      "uniqueTypes": 1,
+      "types": [
+        "better-value"
+      ],
+      "listedIds": [
+        "prod-feetures-elite-light-cushion"
+      ],
+      "listedPublishedSameCat": [
+        "feetures-elite-light-cushion"
+      ],
+      "listedUnsynced": [],
+      "catalogPeerCount": 9,
+      "usablePeerCount": 9,
+      "gateReasons": [
+        "need ≥3 alternatives (have 1)",
+        "need ≥2 distinct alternative types",
+        "need meaningful unique reasons on ≥3 alts",
+        "need switch/trade-off decision shape on ≥2 alts"
+      ],
+      "isRunning": true,
+      "genderSib": null,
+      "genderSibGateOk": null,
+      "comparisons": [],
+      "bestGuides": [
+        "running-socks"
+      ],
+      "graphAlts": [
+        {
+          "target": "feetures-elite-light-cushion",
+          "type": "better-value",
+          "reasonLens": [
+            181,
+            54,
+            76,
+            158,
+            136
+          ],
+          "reasonsHead": "Leave Run Compression Sock 3.0 for Elite Light Cushion when better value outweig"
+        }
+      ],
+      "cls": "A",
+      "clsLabel": "FIXABLE",
+      "notes": []
+    },
+    {
+      "slug": "2toms-sportshield",
+      "name": "2Toms SportShield Anti-Chafe Roll-On",
+      "categoryId": "cat-accessories",
+      "category": "Accessories",
+      "vertical": "running",
+      "sports": [
+        "sport-running",
+        "sport-training"
+      ],
+      "status": "published",
+      "lifecycle": "current",
+      "familyId": null,
+      "graphAltCount": 2,
+      "uniqueTypes": 2,
+      "types": [
+        "better-value",
+        "similar"
+      ],
+      "listedIds": [
+        "prod-body-glide-original",
+        "prod-squirrels-nut-butter"
+      ],
+      "listedPublishedSameCat": [
+        "body-glide-original",
+        "squirrels-nut-butter"
+      ],
+      "listedUnsynced": [],
+      "catalogPeerCount": 2,
+      "usablePeerCount": 2,
+      "gateReasons": [
+        "need ≥3 alternatives (have 2)",
+        "need meaningful unique reasons on ≥3 alts"
+      ],
+      "isRunning": true,
+      "genderSib": null,
+      "genderSibGateOk": null,
+      "comparisons": [],
+      "bestGuides": [
+        "running-anti-chafe"
+      ],
+      "graphAlts": [
+        {
+          "target": "body-glide-original",
+          "type": "better-value",
+          "reasonLens": [
+            416,
+            66,
+            74,
+            181,
+            195
+          ],
+          "reasonsHead": "better value is the fork: Original Anti-Chafe Balm (Anti-chafe balm stick for sk"
+        },
+        {
+          "target": "squirrels-nut-butter",
+          "type": "similar",
+          "reasonLens": [
+            435,
+            71,
+            74,
+            175,
+            185
+          ],
+          "reasonsHead": "a similar peer is the fork: Original Anti-Chafe (Stick and tin anti-chafe balm p"
+        }
+      ],
+      "cls": "C",
+      "clsLabel": "NOT_ENOUGH_REAL_PEERS",
+      "notes": [
+        "catalog peers 2"
+      ]
+    },
+    {
+      "slug": "body-glide-original",
+      "name": "Body Glide Original Anti-Chafe Balm",
+      "categoryId": "cat-accessories",
+      "category": "Accessories",
+      "vertical": "running",
+      "sports": [
+        "sport-running",
+        "sport-training"
+      ],
+      "status": "published",
+      "lifecycle": "current",
+      "familyId": null,
+      "graphAltCount": 2,
+      "uniqueTypes": 2,
+      "types": [
+        "better-value",
+        "similar"
+      ],
+      "listedIds": [
+        "prod-squirrels-nut-butter",
+        "prod-2toms-sportshield"
+      ],
+      "listedPublishedSameCat": [
+        "squirrels-nut-butter",
+        "2toms-sportshield"
+      ],
+      "listedUnsynced": [],
+      "catalogPeerCount": 2,
+      "usablePeerCount": 2,
+      "gateReasons": [
+        "need ≥3 alternatives (have 2)",
+        "need meaningful unique reasons on ≥3 alts"
+      ],
+      "isRunning": true,
+      "genderSib": null,
+      "genderSibGateOk": null,
+      "comparisons": [],
+      "bestGuides": [
+        "running-anti-chafe"
+      ],
+      "graphAlts": [
+        {
+          "target": "squirrels-nut-butter",
+          "type": "better-value",
+          "reasonLens": [
+            295,
+            71,
+            74,
+            173,
+            136
+          ],
+          "reasonsHead": "Pick Original Anti-Chafe over Original Anti-Chafe Balm only if cult ultra favori"
+        },
+        {
+          "target": "2toms-sportshield",
+          "type": "similar",
+          "reasonLens": [
+            375,
+            66,
+            74,
+            125,
+            201
+          ],
+          "reasonsHead": "SportShield is on the Original Anti-Chafe Balm alternatives list for a similar p"
+        }
+      ],
+      "cls": "C",
+      "clsLabel": "NOT_ENOUGH_REAL_PEERS",
+      "notes": [
+        "catalog peers 2"
+      ]
+    },
+    {
+      "slug": "squirrels-nut-butter",
+      "name": "Squirrel's Nut Butter Original Anti-Chafe Balm",
+      "categoryId": "cat-accessories",
+      "category": "Accessories",
+      "vertical": "running",
+      "sports": [
+        "sport-running",
+        "sport-training"
+      ],
+      "status": "published",
+      "lifecycle": "current",
+      "familyId": null,
+      "graphAltCount": 2,
+      "uniqueTypes": 2,
+      "types": [
+        "direct-competitor",
+        "similar"
+      ],
+      "listedIds": [
+        "prod-body-glide-original",
+        "prod-2toms-sportshield"
+      ],
+      "listedPublishedSameCat": [
+        "body-glide-original",
+        "2toms-sportshield"
+      ],
+      "listedUnsynced": [],
+      "catalogPeerCount": 2,
+      "usablePeerCount": 2,
+      "gateReasons": [
+        "need ≥3 alternatives (have 2)",
+        "need meaningful unique reasons on ≥3 alts"
+      ],
+      "isRunning": true,
+      "genderSib": null,
+      "genderSibGateOk": null,
+      "comparisons": [],
+      "bestGuides": [
+        "running-anti-chafe"
+      ],
+      "graphAlts": [
+        {
+          "target": "body-glide-original",
+          "type": "direct-competitor",
+          "reasonLens": [
+            387,
+            66,
+            79,
+            178,
+            221
+          ],
+          "reasonsHead": "Original Anti-Chafe Balm is on the Original Anti-Chafe alternatives list for a s"
+        },
+        {
+          "target": "2toms-sportshield",
+          "type": "similar",
+          "reasonLens": [
+            264,
+            66,
+            79,
+            135,
+            130
+          ],
+          "reasonsHead": "Pick SportShield over Original Anti-Chafe only if roll-on application for thin, "
+        }
+      ],
+      "cls": "C",
+      "clsLabel": "NOT_ENOUGH_REAL_PEERS",
+      "notes": [
+        "catalog peers 2"
+      ]
+    },
+    {
+      "slug": "nike-dri-fit-miler-women",
+      "name": "Nike Dri-FIT Miler Tee (Women)",
+      "categoryId": "cat-running-clothing",
+      "category": "Running Clothing",
+      "vertical": "running",
+      "sports": [
+        "sport-running"
+      ],
+      "status": "published",
+      "lifecycle": "current",
+      "familyId": "fam-nike-miler",
+      "graphAltCount": 2,
+      "uniqueTypes": 2,
+      "types": [
+        "direct-competitor",
+        "trail-alternative"
+      ],
+      "listedIds": [
+        "prod-brooks-ghost-short-sleeve",
+        "prod-janji-run-tee-men",
+        "prod-patagonia-capilene-cool-daily-men"
+      ],
+      "listedPublishedSameCat": [
+        "janji-run-tee-men",
+        "patagonia-capilene-cool-daily-men"
+      ],
+      "listedUnsynced": [],
+      "catalogPeerCount": 56,
+      "usablePeerCount": 55,
+      "gateReasons": [
+        "need ≥3 alternatives (have 2)",
+        "need meaningful unique reasons on ≥3 alts"
+      ],
+      "isRunning": true,
+      "genderSib": "nike-dri-fit-miler-men",
+      "genderSibGateOk": true,
+      "comparisons": [],
+      "bestGuides": [],
+      "graphAlts": [
+        {
+          "target": "janji-run-tee-men",
+          "type": "direct-competitor",
+          "reasonLens": [
+            255,
+            76,
+            79,
+            198,
+            199
+          ],
+          "reasonsHead": "Pick Run Tee over Dri-FIT Miler only if breathable daily tee with distinctive Ja"
+        },
+        {
+          "target": "patagonia-capilene-cool-daily-men",
+          "type": "trail-alternative",
+          "reasonLens": [
+            178,
+            86,
+            79,
+            208,
+            153
+          ],
+          "reasonsHead": "Leave Dri-FIT Miler for Capilene Cool Daily when trail capability outweighs the "
+        }
+      ],
+      "cls": "D",
+      "clsLabel": "DUPLICATE_INTENT",
+      "notes": [
+        "women SKU of READY men page nike-dri-fit-miler-men"
+      ]
+    },
+    {
+      "slug": "salomon-bonatti-wp-women",
+      "name": "Salomon Bonatti Waterproof Jacket (Women)",
+      "categoryId": "cat-running-clothing",
+      "category": "Running Clothing",
+      "vertical": "running",
+      "sports": [
+        "sport-running"
+      ],
+      "status": "published",
+      "lifecycle": "current",
+      "familyId": "fam-salomon-bonatti",
+      "graphAltCount": 1,
+      "uniqueTypes": 1,
+      "types": [
+        "better-value"
+      ],
+      "listedIds": [
+        "prod-janji-rainrunner-unisex",
+        "prod-tnf-flight-series-jacket-men",
+        "prod-brooks-cascadia-jacket"
+      ],
+      "listedPublishedSameCat": [
+        "janji-rainrunner-men"
+      ],
+      "listedUnsynced": [],
+      "catalogPeerCount": 56,
+      "usablePeerCount": 55,
+      "gateReasons": [
+        "need ≥3 alternatives (have 1)",
+        "need ≥2 distinct alternative types",
+        "need meaningful unique reasons on ≥3 alts",
+        "need switch/trade-off decision shape on ≥2 alts"
+      ],
+      "isRunning": true,
+      "genderSib": "salomon-bonatti-wp-men",
+      "genderSibGateOk": true,
+      "comparisons": [],
+      "bestGuides": [
+        "running-rain-jackets"
+      ],
+      "graphAlts": [
+        {
+          "target": "janji-rainrunner-men",
+          "type": "better-value",
+          "reasonLens": [
+            392,
+            78,
+            91,
+            188,
+            195
+          ],
+          "reasonsHead": "Rainrunner Jacket is on the Bonatti Waterproof Jacket alternatives list for bett"
+        }
+      ],
+      "cls": "D",
+      "clsLabel": "DUPLICATE_INTENT",
+      "notes": [
+        "women SKU of READY men page salomon-bonatti-wp-men"
+      ]
+    }
+  ]
+}

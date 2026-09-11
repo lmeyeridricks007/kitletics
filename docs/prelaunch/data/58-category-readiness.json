@@ -1,0 +1,211 @@
+{
+  "generatedAt": "2026-09-10T08:45:56.072Z",
+  "v2": {
+    "total": 14,
+    "ready": 14,
+    "notReady": []
+  },
+  "runningConfigs": [
+    {
+      "slug": "running-shoes",
+      "n": 83,
+      "edu": 6,
+      "best": 13,
+      "guides": 12,
+      "finder": 3,
+      "picks": 4,
+      "gaps": [],
+      "v2Ready": true
+    },
+    {
+      "slug": "gps-watches",
+      "n": 33,
+      "edu": 3,
+      "best": 8,
+      "guides": 5,
+      "finder": 2,
+      "picks": 0,
+      "gaps": [],
+      "v2Ready": true
+    },
+    {
+      "slug": "heart-rate-monitors",
+      "n": 15,
+      "edu": 3,
+      "best": 3,
+      "guides": 2,
+      "finder": 2,
+      "picks": 0,
+      "gaps": [],
+      "v2Ready": true
+    },
+    {
+      "slug": "running-clothing",
+      "n": 57,
+      "edu": 3,
+      "best": 6,
+      "guides": 3,
+      "finder": 1,
+      "picks": 0,
+      "gaps": [],
+      "v2Ready": true
+    },
+    {
+      "slug": "running-socks",
+      "n": 10,
+      "edu": 3,
+      "best": 1,
+      "guides": 1,
+      "finder": 1,
+      "picks": 0,
+      "gaps": [],
+      "v2Ready": true
+    },
+    {
+      "slug": "hydration",
+      "n": 17,
+      "edu": 3,
+      "best": 1,
+      "guides": 4,
+      "finder": 1,
+      "picks": 0,
+      "gaps": [],
+      "v2Ready": true
+    },
+    {
+      "slug": "running-packs-vests",
+      "n": 35,
+      "edu": 3,
+      "best": 5,
+      "guides": 2,
+      "finder": 1,
+      "picks": 0,
+      "gaps": [],
+      "v2Ready": true
+    },
+    {
+      "slug": "headphones",
+      "n": 11,
+      "edu": 3,
+      "best": 1,
+      "guides": 1,
+      "finder": 0,
+      "picks": 0,
+      "gaps": [],
+      "v2Ready": true
+    },
+    {
+      "slug": "sunglasses",
+      "n": 17,
+      "edu": 3,
+      "best": 1,
+      "guides": 0,
+      "finder": 1,
+      "picks": 0,
+      "gaps": [
+        "no_guide_link"
+      ],
+      "v2Ready": true
+    },
+    {
+      "slug": "running-lights",
+      "n": 9,
+      "edu": 3,
+      "best": 1,
+      "guides": 1,
+      "finder": 0,
+      "picks": 0,
+      "gaps": [
+        "no_guide_link"
+      ],
+      "v2Ready": true
+    },
+    {
+      "slug": "safety-gear",
+      "n": 6,
+      "edu": 3,
+      "best": 1,
+      "guides": 0,
+      "finder": 0,
+      "picks": 0,
+      "gaps": [
+        "thin_6",
+        "no_guide_link"
+      ],
+      "v2Ready": true
+    },
+    {
+      "slug": "running-belts",
+      "n": 14,
+      "edu": 3,
+      "best": 1,
+      "guides": 1,
+      "finder": 1,
+      "picks": 0,
+      "gaps": [],
+      "v2Ready": true
+    },
+    {
+      "slug": "recovery",
+      "n": 16,
+      "edu": 3,
+      "best": 1,
+      "guides": 5,
+      "finder": 0,
+      "picks": 0,
+      "gaps": [],
+      "v2Ready": true
+    },
+    {
+      "slug": "accessories",
+      "n": 3,
+      "edu": 3,
+      "best": 1,
+      "guides": 1,
+      "finder": 1,
+      "picks": 3,
+      "gaps": [
+        "thin_3"
+      ],
+      "v2Ready": true
+    },
+    {
+      "slug": "nutrition-fuel",
+      "n": 38,
+      "edu": 3,
+      "best": 1,
+      "guides": 4,
+      "finder": 1,
+      "picks": 0,
+      "gaps": [],
+      "v2Ready": true
+    }
+  ],
+  "accessories": {
+    "published": [
+      "body-glide-original",
+      "squirrels-nut-butter",
+      "2toms-sportshield"
+    ],
+    "drafts": [
+      "compressport-armforce:draft",
+      "amphipod-reflective-armband:draft",
+      "dirty-girl-gaiters:draft",
+      "outdoor-research-ferrosi-gaiters:draft",
+      "amphipod-airflow-armband:draft"
+    ],
+    "best": {
+      "id": "best-running-anti-chafe",
+      "quality": "LAUNCH_READY",
+      "reasons": [
+        "contextualDepth=high"
+      ]
+    },
+    "guide": {
+      "id": "guide-density-anti-chafe-for-runners",
+      "editorial": "READY",
+      "quality": "complete",
+      "words": 1157
+    }
+  }
+}

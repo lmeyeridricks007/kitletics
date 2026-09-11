@@ -1,0 +1,40 @@
+slug,product,category,disposition,alternativeCount,substantiveCount,reasonGroupsAfter,copyUniqueness,failureReason,inSitemapAfter
+garmin-forerunner-965,"Garmin Forerunner 965",cat-gps-watches,RETAIN_INDEXABLE,7,7,3,true,"retained_after_assessor_fix",true
+garmin-forerunner-255,"Garmin Forerunner 255",cat-gps-watches,RETAIN_INDEXABLE,5,5,2,true,"retained_after_assessor_fix",true
+coros-pace-3,"COROS Pace 3",cat-gps-watches,RETAIN_INDEXABLE,6,6,3,true,"retained_after_assessor_fix",true
+brooks-glycerin-21,"Brooks Glycerin 21",cat-running-shoes,RETAIN_INDEXABLE,3,3,2,true,"retained_after_assessor_fix",true
+brooks-hyperion-max-2,"Brooks Hyperion Max 2",cat-running-shoes,RETAIN_INDEXABLE,3,3,2,true,"retained_after_assessor_fix",true
+hoka-bondi-8,"HOKA Bondi 8",cat-running-shoes,RETAIN_INDEXABLE,3,3,2,true,"retained_after_assessor_fix",true
+saucony-endorphin-pro-3,"Saucony Endorphin Pro 3",cat-running-shoes,REMOVE_FROM_SITEMAP,3,3,1,true,"need ≥2 reason groups on ranked list (have 1)",false
+new-balance-fresh-foam-x-1080-v13,"New Balance Fresh Foam X 1080 v13",cat-running-shoes,RETAIN_INDEXABLE,3,3,2,true,"retained_after_assessor_fix",true
+topo-athletic-specter-2,"Topo Athletic Specter 2",cat-running-shoes,RETAIN_INDEXABLE,3,3,2,true,"retained_after_assessor_fix",true
+nike-pegasus-trail-5,"Nike Pegasus Trail 5",cat-running-shoes,REMOVE_FROM_SITEMAP,2,2,2,true,"need ≥3 substantive decision alts (have 2)",false
+brooks-glycerin-gts-22,"Brooks Glycerin GTS 22",cat-running-shoes,REMOVE_FROM_SITEMAP,3,3,1,true,"need ≥2 reason groups on ranked list (have 1)",false
+salomon-genesis,"Salomon Genesis",cat-running-shoes,REMOVE_FROM_SITEMAP,2,2,2,true,"need ≥3 substantive decision alts (have 2)",false
+nnormal-kjerag-02,"NNormal Kjerag 02",cat-running-shoes,REMOVE_FROM_SITEMAP,2,2,2,true,"need ≥3 substantive decision alts (have 2)",false
+garmin-forerunner-265,"Garmin Forerunner 265",cat-gps-watches,RETAIN_INDEXABLE,4,4,3,true,"retained_after_assessor_fix",true
+garmin-forerunner-165,"Garmin Forerunner 165",cat-gps-watches,RETAIN_INDEXABLE,6,6,2,true,"retained_after_assessor_fix",true
+garmin-forerunner-55,"Garmin Forerunner 55",cat-gps-watches,RETAIN_INDEXABLE,3,3,2,true,"retained_after_assessor_fix",true
+coros-pace-pro,"COROS Pace Pro",cat-gps-watches,RETAIN_INDEXABLE,8,8,3,true,"retained_after_assessor_fix",true
+coros-apex-2-pro,"COROS Apex 2 Pro",cat-gps-watches,RETAIN_INDEXABLE,3,3,2,true,"retained_after_assessor_fix",true
+polar-vantage-v3,"Polar Vantage V3",cat-gps-watches,RETAIN_INDEXABLE,4,4,3,true,"retained_after_assessor_fix",true
+polar-pacer-pro,"Polar Pacer Pro",cat-gps-watches,RETAIN_INDEXABLE,4,4,2,true,"retained_after_assessor_fix",true
+suunto-race,"Suunto Race",cat-gps-watches,RETAIN_INDEXABLE,5,5,2,true,"retained_after_assessor_fix",true
+suunto-race-s,"Suunto Race S",cat-gps-watches,RETAIN_INDEXABLE,3,3,2,true,"retained_after_assessor_fix",true
+apple-watch-ultra-2,"Apple Watch Ultra 2",cat-gps-watches,RETAIN_INDEXABLE,3,3,2,true,"retained_after_assessor_fix",true
+garmin-vivoactive-6,"Garmin Vivoactive 6",cat-gps-watches,RETAIN_INDEXABLE,8,8,3,true,"retained_after_assessor_fix",true
+garmin-forerunner-265s,"Garmin Forerunner 265S",cat-gps-watches,RETAIN_INDEXABLE,4,4,3,true,"retained_after_assessor_fix",true
+garmin-epix-pro-gen-2,"Garmin Epix Pro (Gen 2)",cat-gps-watches,RETAIN_INDEXABLE,4,4,3,true,"retained_after_assessor_fix",true
+coros-apex-4,"COROS Apex 4",cat-gps-watches,RETAIN_INDEXABLE,8,8,3,true,"retained_after_assessor_fix",true
+coros-vertix-2s,"COROS Vertix 2S",cat-gps-watches,RETAIN_INDEXABLE,3,3,3,true,"retained_after_assessor_fix",true
+suunto-vertical-2,"Suunto Vertical 2",cat-gps-watches,RETAIN_INDEXABLE,6,6,3,true,"retained_after_assessor_fix",true
+suunto-run,"Suunto Run",cat-gps-watches,RETAIN_INDEXABLE,7,7,3,true,"retained_after_assessor_fix",true
+polar-grit-x2,"Polar Grit X2",cat-gps-watches,RETAIN_INDEXABLE,6,6,2,true,"retained_after_assessor_fix",true
+polar-pacer,"Polar Pacer",cat-gps-watches,RETAIN_INDEXABLE,4,4,2,true,"retained_after_assessor_fix",true
+apple-watch-series-10,"Apple Watch Series 10",cat-gps-watches,RETAIN_INDEXABLE,3,3,2,true,"retained_after_assessor_fix",true
+amazfit-t-rex-3-pro,"Amazfit T-Rex 3 Pro",cat-gps-watches,REMOVE_FROM_SITEMAP,3,3,1,true,"need ≥2 reason groups on ranked list (have 1)",false
+amazfit-active-2,"Amazfit Active 2",cat-gps-watches,RETAIN_INDEXABLE,3,3,2,true,"retained_after_assessor_fix",true
+amazfit-balance-3,"Amazfit Balance 3",cat-gps-watches,RETAIN_INDEXABLE,3,3,2,true,"retained_after_assessor_fix",true
+amazfit-cheetah-2-pro,"Amazfit Cheetah 2 Pro",cat-gps-watches,RETAIN_INDEXABLE,3,3,2,true,"retained_after_assessor_fix",true
+samsung-galaxy-watch-9,"Samsung Galaxy Watch9",cat-gps-watches,RETAIN_INDEXABLE,4,4,3,true,"retained_after_assessor_fix",true
+polar-h9,"Polar H9",cat-hrm,REMOVE_FROM_SITEMAP,4,4,1,true,"need ≥2 reason groups on ranked list (have 1)",false

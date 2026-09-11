@@ -1,0 +1,17 @@
+
+> kitletics@0.1.0 site:a11y-baseline
+> tsx --tsconfig tsconfig.json scripts/site-a11y-baseline.ts
+
+Scanning header (/) …
+  violations=0 passes=32
+Scanning search (/search?q=vomero) …
+  violations=0 passes=27
+Scanning filters (/search?q=running+shoes) …
+  violations=0 passes=27
+Scanning compare (/compare) …
+  violations=0 passes=28
+Scanning finder (/tools/running-shoe-finder) …
+  violations=0 passes=29
+
+Wrote /Users/LMeyeridricks/Documents/coding/kitletics/data/staging/site-quality/a11y-baseline.json (5/5 measured, 0 violations)
+EXIT:0

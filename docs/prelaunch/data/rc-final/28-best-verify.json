@@ -1,0 +1,182 @@
+{
+  "published": 58,
+  "indexable": 44,
+  "notLrButIdx": [],
+  "thinIdx": [],
+  "byQuality": {
+    "LAUNCH_READY": 44,
+    "NEEDS_MINOR_WORK": 5,
+    "THIN": 9,
+    "BLOCKED": 0
+  },
+  "byDisposition": {
+    "INDEXABLE": 44,
+    "PUBLIC_NOINDEX": 0,
+    "HIDDEN_404": 14
+  },
+  "sitemapBest": 44,
+  "onlySitemap": [],
+  "onlyElig": [],
+  "duplicateIntentKeys": [],
+  "heldVerticalIdx": [],
+  "indexableSlugs": [
+    "carbon-plated-running-shoes",
+    "daily-trainers",
+    "handheld-running-bottles",
+    "heart-rate-monitors-chest-straps",
+    "heart-rate-monitors-intervals",
+    "heart-rate-monitors-running",
+    "hydration-marathon-training",
+    "hydration-vests-trail",
+    "hydration-vests-ultra",
+    "marathon-shoes",
+    "max-cushion-running-shoes",
+    "race-shoes",
+    "running-belts",
+    "running-clothing-hot-weather",
+    "running-gear-winter",
+    "running-headlamps",
+    "running-headphones",
+    "running-hydration-vests",
+    "running-jackets",
+    "running-packs",
+    "running-race-fuel",
+    "running-rain-jackets",
+    "running-recovery-gear",
+    "running-safety-visibility",
+    "running-shoes",
+    "running-shoes-beginners",
+    "running-shoes-heavy-runners",
+    "running-shoes-long-runs",
+    "running-shoes-wide-feet",
+    "running-shorts",
+    "running-socks",
+    "running-sunglasses",
+    "running-tights",
+    "running-watches",
+    "running-watches-beginners",
+    "running-watches-budget",
+    "running-watches-marathon",
+    "running-watches-music",
+    "running-watches-small-wrists",
+    "running-watches-trail",
+    "running-watches-ultra",
+    "stability-running-shoes",
+    "tempo-running-shoes",
+    "trail-running-shoes"
+  ],
+  "nonIndexable": [
+    {
+      "slug": "heart-rate-monitors-hyrox",
+      "assessed": "NEEDS_MINOR_WORK",
+      "disposition": "HIDDEN_404",
+      "reasons": [
+        "vertical_hold:hyrox:disabled"
+      ]
+    },
+    {
+      "slug": "padel-rackets",
+      "assessed": "NEEDS_MINOR_WORK",
+      "disposition": "HIDDEN_404",
+      "reasons": [
+        "vertical_hold:padel:disabled"
+      ]
+    },
+    {
+      "slug": "tennis-rackets",
+      "assessed": "NEEDS_MINOR_WORK",
+      "disposition": "HIDDEN_404",
+      "reasons": [
+        "vertical_hold:tennis:disabled"
+      ]
+    },
+    {
+      "slug": "adjustable-dumbbells",
+      "assessed": "THIN",
+      "disposition": "HIDDEN_404",
+      "reasons": [
+        "vertical_hold:fitness:selective"
+      ]
+    },
+    {
+      "slug": "power-racks",
+      "assessed": "THIN",
+      "disposition": "HIDDEN_404",
+      "reasons": [
+        "vertical_hold:fitness:selective"
+      ]
+    },
+    {
+      "slug": "training-shoes",
+      "assessed": "THIN",
+      "disposition": "HIDDEN_404",
+      "reasons": [
+        "vertical_hold:fitness:selective"
+      ]
+    },
+    {
+      "slug": "hyrox-shoes",
+      "assessed": "NEEDS_MINOR_WORK",
+      "disposition": "HIDDEN_404",
+      "reasons": [
+        "vertical_hold:hyrox:disabled"
+      ]
+    },
+    {
+      "slug": "rowing-machines",
+      "assessed": "THIN",
+      "disposition": "HIDDEN_404",
+      "reasons": [
+        "vertical_hold:fitness:selective"
+      ]
+    },
+    {
+      "slug": "pull-up-bars",
+      "assessed": "THIN",
+      "disposition": "HIDDEN_404",
+      "reasons": [
+        "vertical_hold:calisthenics:disabled"
+      ]
+    },
+    {
+      "slug": "home-gym-equipment",
+      "assessed": "NEEDS_MINOR_WORK",
+      "disposition": "HIDDEN_404",
+      "reasons": [
+        "vertical_hold:fitness:selective"
+      ]
+    },
+    {
+      "slug": "adjustable-benches",
+      "assessed": "THIN",
+      "disposition": "HIDDEN_404",
+      "reasons": [
+        "vertical_hold:fitness:selective"
+      ]
+    },
+    {
+      "slug": "air-bikes",
+      "assessed": "THIN",
+      "disposition": "HIDDEN_404",
+      "reasons": [
+        "vertical_hold:fitness:selective"
+      ]
+    },
+    {
+      "slug": "treadmills-for-home",
+      "assessed": "THIN",
+      "disposition": "HIDDEN_404",
+      "reasons": [
+        "vertical_hold:fitness:selective"
+      ]
+    },
+    {
+      "slug": "weight-plates",
+      "assessed": "THIN",
+      "disposition": "HIDDEN_404",
+      "reasons": [
+        "vertical_hold:fitness:selective"
+      ]
+    }
+  ]
+}

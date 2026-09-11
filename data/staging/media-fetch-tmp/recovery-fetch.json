@@ -1,0 +1,42 @@
+[
+  {
+    "productId": "prod-theragun-prime",
+    "ok": true,
+    "src": "/images/running/accessories/therabody-theragun-prime-hero.webp",
+    "sourceUrl": "https://www.therabody.com/products/theragun-prime-gen-6-massage-gun",
+    "bytes": 13126,
+    "licence": "manufacturer-marketing",
+    "attribution": "\u00a9 Therabody \u2014 manufacturer product photography",
+    "source": "Manufacturer product photography"
+  },
+  {
+    "productId": "prod-renpho-r3",
+    "ok": false,
+    "err": "HTTP Error 404: Not Found"
+  },
+  {
+    "productId": "prod-triggerpoint-grid",
+    "ok": false,
+    "err": "HTTP Error 404: Not Found"
+  },
+  {
+    "productId": "prod-triggerpoint-mb1",
+    "ok": false,
+    "err": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.triggerpoint.com'. (_ssl.c:1082)>"
+  },
+  {
+    "productId": "prod-normatec-go",
+    "ok": true,
+    "src": "/images/running/accessories/hyperice-normatec-go-hero.webp",
+    "sourceUrl": "https://hyperice.com/products/normatec-go",
+    "bytes": 129848,
+    "licence": "manufacturer-marketing",
+    "attribution": "\u00a9 Hyperice \u2014 manufacturer product photography",
+    "source": "Manufacturer product photography"
+  },
+  {
+    "productId": "prod-hypervolt-go-2",
+    "ok": false,
+    "err": "no og"
+  }
+]

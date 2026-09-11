@@ -1,0 +1,199 @@
+
+> kitletics@0.1.0 test
+> vitest run
+
+(!) Your Vite config uses features that are unsupported by `configLoader: 'native'`, which is planned to become the default in a future major version of Vite:
+  - ESM syntax in a file loaded as CommonJS (vitest.config.ts:1:1). Use a `.mjs` extension or set `"type": "module"` in the closest package.json
+Set `VITE_CONFIG_NATIVE_IGNORE_WARNING=true` to suppress this warning.
+
+ RUN  v4.1.11 /Users/LMeyeridricks/Documents/coding/kitletics
+
+ ❯ tests/review-page.test.ts (19 tests | 2 failed) 8741ms
+     × renders expert-research type correctly without Personally Tested 463ms
+     × resolves Novablast 6 Editor's Guide review without first-hand badge 797ms
+ ❯ tests/hyrox.test.ts (15 tests | 1 failed) 9044ms
+     × routes HYROX sport hit to /fitness/hyrox 4119ms
+ ❯ tests/enrich-guide-recommendation.test.ts (5 tests | 1 failed) 2376ms
+     × enriches thin picks across other guides without clinical Recommendation labels 756ms
+ ❯ tests/seo-indexation.test.ts (8 tests | 1 failed) 12198ms
+     × sitemap excludes known duplicate orphan shells 4296ms
+ ❯ tests/best-hub-images.test.ts (3 tests | 2 failed) 344ms
+     × max-cushion and stability no longer share photography 114ms
+     × tempo and heavy-runners no longer share near-identical photography 107ms
+ ❯ tests/best-guide.test.ts (32 tests | 2 failed) 34056ms
+     × published guide count matches index 202ms
+     × running shoes guide has answer-first intro and next review 781ms
+
+⎯⎯⎯⎯⎯⎯⎯ Failed Tests 9 ⎯⎯⎯⎯⎯⎯⎯
+
+ FAIL  tests/best-guide.test.ts > Best Guide system > published guide count matches index
+AssertionError: expected 18 to be 58 // Object.is equality
+
+- Expected
++ Received
+
+- 58
++ 18
+
+ ❯ tests/best-guide.test.ts:171:46
+    169|
+    170|   it("published guide count matches index", () => {
+    171|     expect(getBestIndexData().guides.length).toBe(getBestGuides().leng…
+       |                                              ^
+    172|   });
+    173|
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/9]⎯
+
+ FAIL  tests/best-guide.test.ts > Best Guide system > running shoes guide has answer-first intro and next review
+AssertionError: expected 'Best Running Shoes is a role map for …' to contain 'research and compare'
+
+Expected: "research and compare"
+Received: "Best Running Shoes is a role map for the current road and trail catalog — not a single overall scoreboard. We shortlist shoes that cover distinct jobs: lively daily mileage, forgiving starters, versatile value, protective long runs, max cushion, tempo work, race day, stability guidance, and trail grip. Rankings reflect how well each shoe owns its role against close peers, not who has the highest Kitletics Score or affiliate payout. Use the shortcuts when you already know the job; read the pick cards when you are still choosing between two similar shoes."
+
+ ❯ tests/best-guide.test.ts:256:31
+    254|   it("running shoes guide has answer-first intro and next review", () …
+    255|     const data = getBestGuidePageData("running-shoes");
+    256|     expect(data!.guide.intro).toContain("research and compare");
+       |                               ^
+    257|     expect(data!.guide.intro.toLowerCase()).not.toContain("tested hund…
+    258|     expect(data!.nextReviewLabel).toBeTruthy();
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[2/9]⎯
+
+ FAIL  tests/best-hub-images.test.ts > Best hub guide images > max-cushion and stability no longer share photography
+AssertionError: expected undefined to be truthy
+
+- Expected:
+true
+
++ Received:
+undefined
+
+ ❯ tests/best-hub-images.test.ts:41:30
+     39|     const max = guides.find((g) => g.slug === "max-cushion-running-sho…
+     40|     const stability = guides.find((g) => g.slug === "stability-running…
+     41|     expect(max && stability).toBeTruthy();
+       |                              ^
+     42|     const a = resolveBestGuideImage(max!);
+     43|     const b = resolveBestGuideImage(stability!);
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[3/9]⎯
+
+ FAIL  tests/best-hub-images.test.ts > Best hub guide images > tempo and heavy-runners no longer share near-identical photography
+AssertionError: expected undefined to be truthy
+
+- Expected:
+true
+
++ Received:
+undefined
+
+ ❯ tests/best-hub-images.test.ts:51:28
+     49|     const tempo = guides.find((g) => g.slug === "tempo-running-shoes");
+     50|     const heavy = guides.find((g) => g.slug === "running-shoes-heavy-r…
+     51|     expect(tempo && heavy).toBeTruthy();
+       |                            ^
+     52|     const a = resolveBestGuideImage(tempo!);
+     53|     const b = resolveBestGuideImage(heavy!);
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[4/9]⎯
+
+ FAIL  tests/enrich-guide-recommendation.test.ts > best guide page enrichment > enriches thin picks across other guides without clinical Recommendation labels
+AssertionError: daily-trainers:asics-novablast-6: expected 'ASICS Novablast 6 fits absorbing most…' not to match /\bRecommendation\b/
+
+- Expected:
+/\bRecommendation\b/
+
++ Received:
+"ASICS Novablast 6 fits absorbing most of a road runner's weekly kilometres when highest easy/daily suitability among current flagship neutrals with clear Recommendation coverage. In this guide context it earns the pick for soft energetic ride and strong daily score — the reasons that beat close peers for this specific job. I'd shortlist it when that job shows up most weeks. I'd pause if you mainly need race geometry, heavy stability, or trail grip."
+
+ ❯ tests/enrich-guide-recommendation.test.ts:116:56
+    114|         const why = rec.entry.whyItFits?.join(" ") || rec.whyText || "…
+    115|         expect(why.length, `${slug}:${rec.product.slug}`).toBeGreaterT…
+    116|         expect(why, `${slug}:${rec.product.slug}`).not.toMatch(
+       |                                                        ^
+    117|           /\bRecommendation\b/,
+    118|         );
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[5/9]⎯
+
+ FAIL  tests/hyrox.test.ts > HYROX search intents > routes HYROX sport hit to /fitness/hyrox
+AssertionError: expected undefined to be '/fitness/hyrox' // Object.is equality
+
+- Expected:
+"/fitness/hyrox"
+
++ Received:
+undefined
+
+ ❯ tests/hyrox.test.ts:198:25
+    196|     const hits = searchKitletics("hyrox", { limit: 20 });
+    197|     const sport = hits.find((h) => h.type === "sport" && h.title === "…
+    198|     expect(sport?.href).toBe("/fitness/hyrox");
+       |                         ^
+    199|   });
+    200| });
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[6/9]⎯
+
+ FAIL  tests/review-page.test.ts > Review page system > renders expert-research type correctly without Personally Tested
+AssertionError: expected 'Expert Research Review' to be 'Editor\'s Guide' // Object.is equality
+
+Expected: "Editor's Guide"
+Received: "Expert Research Review"
+
+ ❯ tests/review-page.test.ts:36:34
+     34|     const data = getReviewPageData("asics-novablast-5");
+     35|     expect(data!.review.reviewType).toBe("expert-research");
+     36|     expect(data!.typeMeta.label).toBe("Editor's Guide");
+       |                                  ^
+     37|     expect(data!.hasPersonalTest).toBe(false);
+     38|     expect(data!.typeMeta.shortLabel).not.toMatch(/Personally Tested/i…
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[7/9]⎯
+
+ FAIL  tests/review-page.test.ts > Review page system > resolves Novablast 6 Editor's Guide review without first-hand badge
+AssertionError: expected 'Expert Research Review' to match /Editor'?s Guide/i
+
+- Expected:
+/Editor'?s Guide/i
+
++ Received:
+"Expert Research Review"
+
+ ❯ tests/review-page.test.ts:92:43
+     90|     expect(data!.review.reviewType).toBe("expert-research");
+     91|     expect(data!.visibleReviewType).toBe("expert-research");
+     92|     expect(data!.visibleTypeMeta.eyebrow).toMatch(/Editor'?s Guide/i);
+       |                                           ^
+     93|     expect(data!.hasPersonalTest).toBe(false);
+     94|     expect(data!.showTestingModule).toBe(false);
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[8/9]⎯
+
+ FAIL  tests/seo-indexation.test.ts > Category / sport canonical shells > sitemap excludes known duplicate orphan shells
+AssertionError: expected false to be true // Object.is equality
+
+- Expected
++ Received
+
+- true
++ false
+
+ ❯ tests/seo-indexation.test.ts:77:33
+     75|     expect(paths.has("/search")).toBe(false);
+     76|     expect(paths.has("/running/shoes")).toBe(true);
+     77|     expect(paths.has("/padel")).toBe(true);
+       |                                 ^
+     78|     expect(paths.has("/fitness/hyrox")).toBe(true);
+     79|     expect(paths.has("/hyrox")).toBe(false);
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[9/9]⎯
+
+
+ Test Files  6 failed | 43 passed (49)
+      Tests  9 failed | 514 passed (523)
+   Start at  18:25:27
+   Duration  39.17s (transform 27.03s, setup 0ms, import 73.34s, tests 170.80s, environment 3ms)
+

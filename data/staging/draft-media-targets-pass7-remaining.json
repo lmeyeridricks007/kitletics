@@ -1,0 +1,222 @@
+[
+  {
+    "id": "prod-patagonia-slope-runner",
+    "slug": "patagonia-slope-runner-vest",
+    "fullName": "Patagonia Slope Runner Vest",
+    "brandSlug": "patagonia",
+    "brandName": "Patagonia",
+    "brandHomepage": "https://www.patagonia.com",
+    "categoryId": "cat-packs-vests",
+    "categorySlug": "running-packs-vests"
+  },
+  {
+    "id": "prod-raidlight-responsiv-12",
+    "slug": "raidlight-responsiv-12",
+    "fullName": "RaidLight Responsiv 12L",
+    "brandSlug": "raidlight",
+    "brandName": "RaidLight",
+    "brandHomepage": "https://www.raidlight.com",
+    "categoryId": "cat-packs-vests",
+    "categorySlug": "running-packs-vests"
+  },
+  {
+    "id": "prod-hydrapak-shape-shift-15",
+    "slug": "hydrapak-shape-shift-15",
+    "fullName": "HydraPak Shape-Shift 1.5L",
+    "brandSlug": "hydrapak",
+    "brandName": "HydraPak",
+    "brandHomepage": "https://www.hydrapak.com",
+    "categoryId": "cat-hydration",
+    "categorySlug": "hydration"
+  },
+  {
+    "id": "prod-nathan-quickdraw-plus",
+    "slug": "nathan-quickdraw-plus-handheld",
+    "fullName": "Nathan QuickDraw Plus Handheld",
+    "brandSlug": "nathan",
+    "brandName": "Nathan",
+    "brandHomepage": "https://www.nathansports.com",
+    "categoryId": "cat-hydration",
+    "categorySlug": "hydration"
+  },
+  {
+    "id": "prod-camelbak-quick-grip-chill",
+    "slug": "camelbak-quick-grip-chill",
+    "fullName": "CamelBak Quick Grip Chill Handheld",
+    "brandSlug": "camelbak",
+    "brandName": "CamelBak",
+    "brandHomepage": "https://www.camelbak.com",
+    "categoryId": "cat-hydration",
+    "categorySlug": "hydration"
+  },
+  {
+    "id": "prod-salomon-soft-reservoir-15",
+    "slug": "salomon-soft-reservoir-15",
+    "fullName": "Salomon Soft Reservoir 1.5L",
+    "brandSlug": "salomon",
+    "brandName": "Salomon",
+    "brandHomepage": "https://www.salomon.com",
+    "categoryId": "cat-hydration",
+    "categorySlug": "hydration"
+  },
+  {
+    "id": "prod-camelbak-octane-22",
+    "slug": "camelbak-octane-22",
+    "fullName": "CamelBak Octane 22",
+    "brandSlug": "camelbak",
+    "brandName": "CamelBak",
+    "brandHomepage": "https://www.camelbak.com",
+    "categoryId": "cat-packs-vests",
+    "categorySlug": "running-packs-vests"
+  },
+  {
+    "id": "prod-salomon-trailblazer-20",
+    "slug": "salomon-trailblazer-20",
+    "fullName": "Salomon Trailblazer 20",
+    "brandSlug": "salomon",
+    "brandName": "Salomon",
+    "brandHomepage": "https://www.salomon.com",
+    "categoryId": "cat-packs-vests",
+    "categorySlug": "running-packs-vests"
+  },
+  {
+    "id": "prod-leki-trail-running-quiver",
+    "slug": "leki-trail-running-quiver",
+    "fullName": "LEKI Trail Running Quiver",
+    "brandSlug": "leki",
+    "brandName": "LEKI",
+    "brandHomepage": "https://www.leki.com",
+    "categoryId": "cat-packs-vests",
+    "categorySlug": "running-packs-vests"
+  },
+  {
+    "id": "prod-ud-utility-bag",
+    "slug": "ultimate-direction-utility-bag",
+    "fullName": "Ultimate Direction Utility Bag",
+    "brandSlug": "ultimate-direction",
+    "brandName": "Ultimate Direction",
+    "brandHomepage": "https://ultimatedirection.com",
+    "categoryId": "cat-packs-vests",
+    "categorySlug": "running-packs-vests"
+  },
+  {
+    "id": "prod-salomon-soft-flask-stash",
+    "slug": "salomon-soft-flask-stash",
+    "fullName": "Salomon Soft Flask Stash / Pocket",
+    "brandSlug": "salomon",
+    "brandName": "Salomon",
+    "brandHomepage": "https://www.salomon.com",
+    "categoryId": "cat-packs-vests",
+    "categorySlug": "running-packs-vests"
+  },
+  {
+    "id": "prod-nathan-zippered-stash",
+    "slug": "nathan-zippered-stash",
+    "fullName": "Nathan Zippered Stash / Phone Pouch",
+    "brandSlug": "nathan",
+    "brandName": "Nathan",
+    "brandHomepage": "https://www.nathansports.com",
+    "categoryId": "cat-packs-vests",
+    "categorySlug": "running-packs-vests"
+  },
+  {
+    "id": "prod-starvie-absolute-padel",
+    "slug": "starvie-absolute-padel",
+    "fullName": "StarVie Absolute Padel",
+    "brandSlug": "starvie",
+    "brandName": "StarVie",
+    "brandHomepage": "https://www.starvie.com",
+    "categoryId": "cat-padel-shoes",
+    "categorySlug": "padel-shoes"
+  },
+  {
+    "id": "prod-kuikma-ps-560-women",
+    "slug": "kuikma-ps-560-women",
+    "fullName": "Kuikma PS 560 Women",
+    "brandSlug": "kuikma",
+    "brandName": "Kuikma",
+    "brandHomepage": "https://www.decathlon.nl/",
+    "categoryId": "cat-padel-shoes",
+    "categorySlug": "padel-shoes"
+  },
+  {
+    "id": "prod-oxdog-hyper-court",
+    "slug": "oxdog-hyper-court",
+    "fullName": "Oxdog Hyper Court",
+    "brandSlug": "oxdog",
+    "brandName": "Oxdog",
+    "brandHomepage": "https://oxdogpadel.com",
+    "categoryId": "cat-padel-shoes",
+    "categorySlug": "padel-shoes"
+  },
+  {
+    "id": "prod-adidas-solecourt-boost-padel",
+    "slug": "adidas-solecourt-boost-padel",
+    "fullName": "Adidas Solecourt Boost Padel",
+    "brandSlug": "adidas-padel",
+    "brandName": "Adidas Padel",
+    "brandHomepage": "https://www.adidas.com",
+    "categoryId": "cat-padel-shoes",
+    "categorySlug": "padel-shoes"
+  },
+  {
+    "id": "prod-head-revolt-court",
+    "slug": "head-revolt-court-padel",
+    "fullName": "HEAD Revolt Court Padel",
+    "brandSlug": "head",
+    "brandName": "Head",
+    "brandHomepage": "https://www.head.com",
+    "categoryId": "cat-padel-shoes",
+    "categorySlug": "padel-shoes"
+  },
+  {
+    "id": "prod-tecnifibre-t-fight-padel",
+    "slug": "tecnifibre-wall-shooter",
+    "fullName": "Tecnifibre Wall Shooter",
+    "brandSlug": "tecnifibre-padel",
+    "brandName": "Tecnifibre Padel",
+    "brandHomepage": "https://www.tecnifibre.com",
+    "categoryId": "cat-padel-shoes",
+    "categorySlug": "padel-shoes"
+  },
+  {
+    "id": "prod-varlion-bourne-padel-shoe",
+    "slug": "varlion-bourne-padel",
+    "fullName": "Varlion Bourne Padel",
+    "brandSlug": "varlion",
+    "brandName": "Varlion",
+    "brandHomepage": "https://www.varlion.com",
+    "categoryId": "cat-padel-shoes",
+    "categorySlug": "padel-shoes"
+  },
+  {
+    "id": "prod-nike-zoom-gp-turbo-2",
+    "slug": "nike-zoom-gp-turbo-hc-2",
+    "fullName": "NikeCourt Air Zoom GP Turbo HC 2",
+    "brandSlug": "nike",
+    "brandName": "Nike",
+    "brandHomepage": "https://www.nike.com",
+    "categoryId": "cat-tennis-shoes",
+    "categorySlug": "tennis-shoes"
+  },
+  {
+    "id": "prod-wilson-kaos-rapide-30",
+    "slug": "wilson-kaos-rapide-3-0",
+    "fullName": "Wilson Kaos Rapide 3.0",
+    "brandSlug": "wilson",
+    "brandName": "Wilson",
+    "brandHomepage": "https://www.wilson.com",
+    "categoryId": "cat-tennis-shoes",
+    "categorySlug": "tennis-shoes"
+  },
+  {
+    "id": "prod-nb-lav-v2",
+    "slug": "new-balance-fresh-foam-x-lav-v2",
+    "fullName": "New Balance Fresh Foam X Lav v2",
+    "brandSlug": "new-balance",
+    "brandName": "New Balance",
+    "brandHomepage": "https://www.newbalance.com",
+    "categoryId": "cat-tennis-shoes",
+    "categorySlug": "tennis-shoes"
+  }
+]

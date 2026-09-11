@@ -1,0 +1,252 @@
+{
+  "generatedAt": "2026-09-10T07:05:33.597Z",
+  "editorialStatus": "READY",
+  "readOnly": true,
+  "reviews": {
+    "total": 585,
+    "READY": 202,
+    "DUPLICATIVE": 383,
+    "NEEDS_DIFF": 390,
+    "NEEDS_RESEARCH": 0,
+    "BLOCKED": 0,
+    "INDEXABLE": 169,
+    "LAUNCH_READY_quality": 202,
+    "NMW_quality": 0,
+    "THIN_quality": 0,
+    "fakeFirstHand": 0,
+    "indexableDuplicative": 0,
+    "indexableNeedsDiff": 0,
+    "runningIndexable": 169
+  },
+  "best": {
+    "total": 58,
+    "LAUNCH_READY": 58,
+    "NMW": 0,
+    "THIN": 0,
+    "BLOCKED": 0,
+    "INDEXABLE": 44,
+    "READY_editorial": 58,
+    "runningIndexable": 44,
+    "indexableNmwOrThin": 0
+  },
+  "guides": {
+    "total": 68,
+    "COMPLETE": 68,
+    "unique": 68,
+    "evidenceSafe": 68,
+    "intentConflicts": 0,
+    "INDEXABLE": 35,
+    "READY_editorial": 62,
+    "thinOrResearch": 0
+  },
+  "comparisons": {
+    "total": 94,
+    "unique": 81,
+    "NEEDS_DIFF": 13,
+    "brokenRefs": 0,
+    "INDEXABLE": 65,
+    "MEANINGFUL": 94,
+    "THIN": 0,
+    "READY_editorial": 94
+  },
+  "alternatives": {
+    "totalCandidates": 405,
+    "substantive": 248,
+    "thin": 157,
+    "READY": 248,
+    "INDEXABLE": 92
+  },
+  "brands": {
+    "total": 160,
+    "publishable": 69,
+    "indexable": 56,
+    "shallow": 91
+  },
+  "categories": {
+    "total": 47,
+    "running": 15,
+    "softGated": 5,
+    "withConfig": 15
+  },
+  "setups": {
+    "total": 16,
+    "publishable": 16,
+    "indexable": 5
+  },
+  "firstHandUnsupported": 0,
+  "evidenceUnsupportedOnIndexable": 0,
+  "cannibalization": {
+    "collisions": 148,
+    "unresolvedMaterial": 270,
+    "hardMerges": 0,
+    "note": "from Fix 46 audit"
+  },
+  "editorialOrphans": 0,
+  "orphanSample": [],
+  "topSimilarityClusters": [
+    {
+      "a": "bullpadel-hack-03",
+      "b": "bullpadel-vertex-04",
+      "score": 0.922,
+      "categoryId": "cat-padel-rackets"
+    },
+    {
+      "a": "mizuno-wave-rebellion-pro-3",
+      "b": "saucony-endorphin-pro-4",
+      "score": 0.913,
+      "categoryId": "cat-running-shoes"
+    },
+    {
+      "a": "rogue-echo-kettlebell",
+      "b": "rogue-kettlebell",
+      "score": 0.899,
+      "categoryId": "cat-kettlebells"
+    },
+    {
+      "a": "babolat-jet-mach-3",
+      "b": "wilson-rush-pro-4-0",
+      "score": 0.895,
+      "categoryId": "cat-tennis-shoes"
+    },
+    {
+      "a": "babolat-sensa-women",
+      "b": "head-sprint-pro-4-padel",
+      "score": 0.889,
+      "categoryId": "cat-padel-shoes"
+    },
+    {
+      "a": "dunlop-cx-200",
+      "b": "wilson-blade-98-v9",
+      "score": 0.888,
+      "categoryId": "cat-tennis-rackets"
+    },
+    {
+      "a": "head-speed-mp-2024",
+      "b": "wilson-clash-100-v2",
+      "score": 0.888,
+      "categoryId": "cat-tennis-rackets"
+    },
+    {
+      "a": "asics-gel-challenger-15",
+      "b": "asics-gel-resolution-9",
+      "score": 0.887,
+      "categoryId": "cat-tennis-shoes"
+    },
+    {
+      "a": "garmin-forerunner-165",
+      "b": "suunto-race-s",
+      "score": 0.882,
+      "categoryId": "cat-gps-watches"
+    },
+    {
+      "a": "nike-structure-26",
+      "b": "nike-structure-plus",
+      "score": 0.876,
+      "categoryId": "cat-running-shoes"
+    },
+    {
+      "a": "nike-free-metcon-6",
+      "b": "nobull-trainer",
+      "score": 0.874,
+      "categoryId": "cat-training-shoes"
+    },
+    {
+      "a": "asics-gel-dedicate-8-padel",
+      "b": "asics-gel-resolution-padel",
+      "score": 0.874,
+      "categoryId": "cat-padel-shoes"
+    },
+    {
+      "a": "wilson-blade-98-v8",
+      "b": "yonex-vcore-98-2026",
+      "score": 0.874,
+      "categoryId": "cat-tennis-rackets"
+    },
+    {
+      "a": "rep-colorado-bar",
+      "b": "rogue-ohio-power-bar",
+      "score": 0.873,
+      "categoryId": "cat-barbells"
+    },
+    {
+      "a": "head-coello-pro-2026",
+      "b": "lok-maxx-flow",
+      "score": 0.872,
+      "categoryId": "cat-padel-rackets"
+    },
+    {
+      "a": "assaultbike-elite",
+      "b": "rogue-echo-bike",
+      "score": 0.872,
+      "categoryId": "cat-air-bikes"
+    },
+    {
+      "a": "nnormal-race-vest",
+      "b": "osprey-duro-lt",
+      "score": 0.871,
+      "categoryId": "cat-packs-vests"
+    },
+    {
+      "a": "babolat-movea-2",
+      "b": "babolat-sensa-women",
+      "score": 0.871,
+      "categoryId": "cat-padel-shoes"
+    },
+    {
+      "a": "altra-experience-flow",
+      "b": "altra-torin-8",
+      "score": 0.869,
+      "categoryId": "cat-running-shoes"
+    },
+    {
+      "a": "babolat-counter-viper-2026",
+      "b": "starvie-basalto-osiris-2026",
+      "score": 0.869,
+      "categoryId": "cat-padel-rackets"
+    },
+    {
+      "a": "babolat-technical-viper-2026",
+      "b": "bullpadel-hack-04-2026",
+      "score": 0.868,
+      "categoryId": "cat-padel-rackets"
+    },
+    {
+      "a": "adidas-metalbone-hrd-2026",
+      "b": "starvie-basalto-osiris-2026",
+      "score": 0.866,
+      "categoryId": "cat-padel-rackets"
+    },
+    {
+      "a": "asics-gel-nimbus-27",
+      "b": "new-balance-fresh-foam-x-1080-v14",
+      "score": 0.865,
+      "categoryId": "cat-running-shoes"
+    },
+    {
+      "a": "asics-gel-challenger-court",
+      "b": "asics-gel-dedicate-8-padel",
+      "score": 0.865,
+      "categoryId": "cat-padel-shoes"
+    },
+    {
+      "a": "inov8-fastlift-360",
+      "b": "reebok-nano-x4",
+      "score": 0.863,
+      "categoryId": "cat-training-shoes"
+    }
+  ],
+  "issueCounts": {
+    "critical": 0,
+    "major": 0,
+    "total": 0
+  },
+  "completedCorpusTargets": {
+    "reviewIndexableDuplicative": 0,
+    "reviewIndexableNeedsDiff": 0,
+    "bestIndexableNmwOrThin": 0,
+    "comparisonIndexableBroken": 0,
+    "comparisonIndexableNeedsDiff": 0,
+    "firstHandUnsupported": 0,
+    "orphansIndexable": 0
+  }
+}

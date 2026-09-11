@@ -1,0 +1,107 @@
+{
+  "kuikma": {
+    "error": "HTTP Error 403: Forbidden"
+  },
+  "kuikma_fr": {
+    "error": "HTTP Error 403: Forbidden"
+  },
+  "adidas_solecourt": {
+    "error": "HTTP Error 403: Forbidden"
+  },
+  "zona_solecourt": {
+    "final": "https://www.zonadepadel.es/busqueda?s=solecourt",
+    "imgs": [],
+    "prod_links": [
+      "https://www.zonadepadel.es/16-zapatillas-de-padel",
+      "https://www.zonadepadel.es/93-zapatillas-de-padel-adidas",
+      "https://www.zonadepadel.es/188-zapatillas-lacoste",
+      "https://www.zonadepadel.es/66-zapatillas-de-padel-asics",
+      "https://www.zonadepadel.es/165-zapatillas-mizuno",
+      "https://www.zonadepadel.es/95-zapatillas-babolat",
+      "https://www.zonadepadel.es/176-zapatillas-munich",
+      "https://www.zonadepadel.es/94-zapatillas-bullpadel",
+      "https://www.zonadepadel.es/138-zapatillas-nox",
+      "https://www.zonadepadel.es/79-zapatillas-head",
+      "https://www.zonadepadel.es/190-zapatillas-skechers",
+      "https://www.zonadepadel.es/73-zapatillas-joma",
+      "https://www.zonadepadel.es/78-zapatillas-wilson",
+      "https://www.zonadepadel.es/105-zapatillas-padel-mujer"
+    ],
+    "html_len": 102592
+  },
+  "zona_starvie": {
+    "final": "https://www.zonadepadel.es/busqueda?s=starvie+absolute+zapatillas",
+    "imgs": [],
+    "prod_links": [
+      "https://www.zonadepadel.es/16-zapatillas-de-padel",
+      "https://www.zonadepadel.es/93-zapatillas-de-padel-adidas",
+      "https://www.zonadepadel.es/188-zapatillas-lacoste",
+      "https://www.zonadepadel.es/66-zapatillas-de-padel-asics",
+      "https://www.zonadepadel.es/165-zapatillas-mizuno",
+      "https://www.zonadepadel.es/95-zapatillas-babolat",
+      "https://www.zonadepadel.es/176-zapatillas-munich",
+      "https://www.zonadepadel.es/94-zapatillas-bullpadel",
+      "https://www.zonadepadel.es/138-zapatillas-nox",
+      "https://www.zonadepadel.es/79-zapatillas-head",
+      "https://www.zonadepadel.es/190-zapatillas-skechers",
+      "https://www.zonadepadel.es/73-zapatillas-joma",
+      "https://www.zonadepadel.es/78-zapatillas-wilson",
+      "https://www.zonadepadel.es/105-zapatillas-padel-mujer"
+    ],
+    "html_len": 102982
+  },
+  "zona_revolt": {
+    "final": "https://www.zonadepadel.es/busqueda?s=revolt+court",
+    "imgs": [],
+    "prod_links": [
+      "https://www.zonadepadel.es/16-zapatillas-de-padel",
+      "https://www.zonadepadel.es/93-zapatillas-de-padel-adidas",
+      "https://www.zonadepadel.es/188-zapatillas-lacoste",
+      "https://www.zonadepadel.es/66-zapatillas-de-padel-asics",
+      "https://www.zonadepadel.es/165-zapatillas-mizuno",
+      "https://www.zonadepadel.es/95-zapatillas-babolat",
+      "https://www.zonadepadel.es/176-zapatillas-munich",
+      "https://www.zonadepadel.es/94-zapatillas-bullpadel",
+      "https://www.zonadepadel.es/138-zapatillas-nox",
+      "https://www.zonadepadel.es/79-zapatillas-head",
+      "https://www.zonadepadel.es/190-zapatillas-skechers",
+      "https://www.zonadepadel.es/73-zapatillas-joma",
+      "https://www.zonadepadel.es/78-zapatillas-wilson",
+      "https://www.zonadepadel.es/105-zapatillas-padel-mujer"
+    ],
+    "html_len": 102631
+  },
+  "zona_kuikma": {
+    "final": "https://www.zonadepadel.es/busqueda?s=kuikma+ps+560",
+    "imgs": [],
+    "prod_links": [
+      "https://www.zonadepadel.es/16-zapatillas-de-padel",
+      "https://www.zonadepadel.es/93-zapatillas-de-padel-adidas",
+      "https://www.zonadepadel.es/188-zapatillas-lacoste",
+      "https://www.zonadepadel.es/66-zapatillas-de-padel-asics",
+      "https://www.zonadepadel.es/165-zapatillas-mizuno",
+      "https://www.zonadepadel.es/95-zapatillas-babolat",
+      "https://www.zonadepadel.es/176-zapatillas-munich",
+      "https://www.zonadepadel.es/94-zapatillas-bullpadel",
+      "https://www.zonadepadel.es/138-zapatillas-nox",
+      "https://www.zonadepadel.es/79-zapatillas-head",
+      "https://www.zonadepadel.es/190-zapatillas-skechers",
+      "https://www.zonadepadel.es/73-zapatillas-joma",
+      "https://www.zonadepadel.es/78-zapatillas-wilson",
+      "https://www.zonadepadel.es/105-zapatillas-padel-mujer"
+    ],
+    "html_len": 102644
+  },
+  "starvie": {
+    "final": "https://starvie.com/?s=absolute+shoe",
+    "imgs": [
+      "http://starvie.com/cdn/shop/files/fondo_starvie_3.png?v=1757921562",
+      "https://starvie.com/cdn/shop/files/fondo_starvie_3.png?v=1757921562"
+    ],
+    "prod_links": [],
+    "html_len": 273171
+  },
+  "head": {
+    "error": "HTTP Error 429: Too Many Requests"
+  }
+}

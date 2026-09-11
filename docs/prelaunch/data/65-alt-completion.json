@@ -1,0 +1,31 @@
+{
+  "withGraph": 481,
+  "counts": {
+    "READY": 465,
+    "HOLD_INSUFFICIENT_ALTERNATIVE_MARKET": 15,
+    "HOLD_DUPLICATE_INTENT": 1
+  },
+  "unexplained": [],
+  "holds": {
+    "HOLD_INSUFFICIENT_ALTERNATIVE_MARKET": [
+      "hydrapak-tube-kit cluster=hydration:tube n=1 types=1",
+      "nathan-zippered-stash cluster=packs:stash n=1 types=1",
+      "brooks-notch-thermal-men cluster=clothing:brooks-notch-thermal-men n=1 types=1",
+      "salomon-bonatti-wp-women cluster=clothing:jacket n=1 types=1",
+      "nike-aeroswift-singlet-men cluster=clothing:singlet n=1 types=1",
+      "tracksmith-brighton-ls-men cluster=clothing:ls n=2 types=2",
+      "odlo-active-warm-eco-bottom-men cluster=clothing:base-bottom n=2 types=2",
+      "patagonia-nano-puff-vest-men cluster=clothing:vest n=2 types=2",
+      "smartwool-thermal-merino-glove cluster=clothing:glove n=2 types=2",
+      "nike-therma-fit-glove cluster=clothing:glove n=2 types=2",
+      "craft-adv-lumen-glove cluster=clothing:glove n=2 types=2",
+      "cep-run-compression-sock-3 cluster=socks:compression n=1 types=1",
+      "body-glide-original cluster=accessories:chafe n=2 types=2",
+      "squirrels-nut-butter cluster=accessories:chafe n=2 types=2",
+      "2toms-sportshield cluster=accessories:chafe n=2 types=2"
+    ],
+    "HOLD_DUPLICATE_INTENT": [
+      "nike-dri-fit-miler-women cluster=clothing:tee n=2 types=2"
+    ]
+  }
+}

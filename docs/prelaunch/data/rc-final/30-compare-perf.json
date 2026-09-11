@@ -1,0 +1,301 @@
+{
+  "base": "http://127.0.0.1:3010",
+  "measuredAt": "2026-09-09T06:41:37.093Z",
+  "budgets": {
+    "totalBytes": 2621440,
+    "emptyPreferBytes": 1048576
+  },
+  "before": {
+    "path": "/compare",
+    "totalKB": 9248,
+    "imgKB": 8970,
+    "jsKB": 168,
+    "note": "RC final perf-extra.json"
+  },
+  "after": {
+    "empty": {
+      "path": "/compare",
+      "status": 200,
+      "navMs": 1619,
+      "total": 1783057,
+      "img": 7170,
+      "js": 571461,
+      "totalKB": 1741,
+      "imgKB": 7,
+      "jsKB": 558,
+      "fcp": 504,
+      "ttfb": 233,
+      "cls": 0,
+      "nextImageCount": 12,
+      "rawImageCount": 0,
+      "topImages": [
+        {
+          "url": "http://127.0.0.1:3010/_next/image?url=%2Fimages%2Frunning%2Fproducts%2Fghost-18-hero.png&w=72&q=65",
+          "size": 981,
+          "type": "image",
+          "isImage": true,
+          "viaNextImage": true,
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:3010/_next/image?url=%2Fimages%2Frunning%2Fproducts%2Falphafly-3-hero.png&w=72&q=65",
+          "size": 615,
+          "type": "image",
+          "isImage": true,
+          "viaNextImage": true,
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:3010/_next/image?url=%2Fimages%2Frunning%2Fproducts%2Fnimbus-27-hero.jpg&w=72&q=65",
+          "size": 611,
+          "type": "image",
+          "isImage": true,
+          "viaNextImage": true,
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:3010/_next/image?url=%2Fimages%2Frunning%2Fproducts%2Fnovablast-5-hero.jpg&w=72&q=65",
+          "size": 602,
+          "type": "image",
+          "isImage": true,
+          "viaNextImage": true,
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:3010/_next/image?url=%2Fimages%2Frunning%2Fproducts%2Fboston-12-hero.jpg&w=72&q=65",
+          "size": 569,
+          "type": "image",
+          "isImage": true,
+          "viaNextImage": true,
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:3010/_next/image?url=%2Fimages%2Frunning%2Fproducts%2Fnovablast-6-hero.jpg&w=72&q=65",
+          "size": 561,
+          "type": "image",
+          "isImage": true,
+          "viaNextImage": true,
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:3010/_next/image?url=%2Fimages%2Frunning%2Fproducts%2Fkayano-32-hero.jpg&w=72&q=65",
+          "size": 560,
+          "type": "image",
+          "isImage": true,
+          "viaNextImage": true,
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:3010/_next/image?url=%2Fimages%2Frunning%2Fproducts%2Fvaporfly-4-hero.jpg&w=72&q=65",
+          "size": 557,
+          "type": "image",
+          "isImage": true,
+          "viaNextImage": true,
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:3010/_next/image?url=%2Fimages%2Frunning%2Fproducts%2Fadrenaline-gts-25-hero.png&w=72&q=65",
+          "size": 555,
+          "type": "image",
+          "isImage": true,
+          "viaNextImage": true,
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:3010/_next/image?url=%2Fimages%2Frunning%2Fproducts%2Fendorphin-speed-5-hero.jpg&w=72&q=65",
+          "size": 547,
+          "type": "image",
+          "isImage": true,
+          "viaNextImage": true,
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:3010/_next/image?url=%2Fimages%2Frunning%2Fproducts%2Fpegasus-42-hero.jpg&w=72&q=65",
+          "size": 524,
+          "type": "image",
+          "isImage": true,
+          "viaNextImage": true,
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:3010/_next/image?url=%2Fimages%2Frunning%2Fproducts%2Fclifton-10-hero.jpg&w=72&q=65",
+          "size": 488,
+          "type": "image",
+          "isImage": true,
+          "viaNextImage": true,
+          "status": 200
+        }
+      ],
+      "underBudget": true,
+      "underEmptyPrefer": false
+    },
+    "selected": {
+      "path": "/compare?category=running-shoes&products=asics-novablast-6,asics-gel-nimbus-27",
+      "status": 200,
+      "navMs": 948,
+      "total": 1898040,
+      "img": 9513,
+      "js": 571461,
+      "totalKB": 1854,
+      "imgKB": 9,
+      "jsKB": 558,
+      "fcp": 312,
+      "ttfb": 245,
+      "cls": 0,
+      "nextImageCount": 4,
+      "rawImageCount": 0,
+      "topImages": [
+        {
+          "url": "http://127.0.0.1:3010/_next/image?url=%2Fimages%2Frunning%2Fproducts%2Fnimbus-27-hero.jpg&w=320&q=70",
+          "size": 5575,
+          "type": "image",
+          "isImage": true,
+          "viaNextImage": true,
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:3010/_next/image?url=%2Fimages%2Frunning%2Fproducts%2Fnovablast-6-hero.jpg&w=320&q=70",
+          "size": 2766,
+          "type": "image",
+          "isImage": true,
+          "viaNextImage": true,
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:3010/_next/image?url=%2Fimages%2Frunning%2Fproducts%2Fnimbus-27-hero.jpg&w=72&q=65",
+          "size": 611,
+          "type": "image",
+          "isImage": true,
+          "viaNextImage": true,
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:3010/_next/image?url=%2Fimages%2Frunning%2Fproducts%2Fnovablast-6-hero.jpg&w=72&q=65",
+          "size": 561,
+          "type": "image",
+          "isImage": true,
+          "viaNextImage": true,
+          "status": 200
+        }
+      ],
+      "underBudget": true,
+      "underEmptyPrefer": false
+    },
+    "emptyMobile": {
+      "path": "/compare",
+      "status": 200,
+      "navMs": 905,
+      "total": 1782247,
+      "img": 6470,
+      "js": 571461,
+      "totalKB": 1740,
+      "imgKB": 6,
+      "jsKB": 558,
+      "fcp": 300,
+      "ttfb": 228,
+      "cls": 0,
+      "nextImageCount": 12,
+      "rawImageCount": 0,
+      "topImages": [
+        {
+          "url": "http://127.0.0.1:3010/_next/image?url=%2Fimages%2Frunning%2Fproducts%2Fghost-18-hero.png&w=64&q=65",
+          "size": 918,
+          "type": "image",
+          "isImage": true,
+          "viaNextImage": true,
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:3010/_next/image?url=%2Fimages%2Frunning%2Fproducts%2Fboston-12-hero.jpg&w=64&q=65",
+          "size": 572,
+          "type": "image",
+          "isImage": true,
+          "viaNextImage": true,
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:3010/_next/image?url=%2Fimages%2Frunning%2Fproducts%2Falphafly-3-hero.png&w=64&q=65",
+          "size": 551,
+          "type": "image",
+          "isImage": true,
+          "viaNextImage": true,
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:3010/_next/image?url=%2Fimages%2Frunning%2Fproducts%2Fnovablast-5-hero.jpg&w=64&q=65",
+          "size": 518,
+          "type": "image",
+          "isImage": true,
+          "viaNextImage": true,
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:3010/_next/image?url=%2Fimages%2Frunning%2Fproducts%2Fkayano-32-hero.jpg&w=64&q=65",
+          "size": 514,
+          "type": "image",
+          "isImage": true,
+          "viaNextImage": true,
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:3010/_next/image?url=%2Fimages%2Frunning%2Fproducts%2Fnimbus-27-hero.jpg&w=64&q=65",
+          "size": 512,
+          "type": "image",
+          "isImage": true,
+          "viaNextImage": true,
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:3010/_next/image?url=%2Fimages%2Frunning%2Fproducts%2Fnovablast-6-hero.jpg&w=64&q=65",
+          "size": 505,
+          "type": "image",
+          "isImage": true,
+          "viaNextImage": true,
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:3010/_next/image?url=%2Fimages%2Frunning%2Fproducts%2Fadrenaline-gts-25-hero.png&w=64&q=65",
+          "size": 499,
+          "type": "image",
+          "isImage": true,
+          "viaNextImage": true,
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:3010/_next/image?url=%2Fimages%2Frunning%2Fproducts%2Fvaporfly-4-hero.jpg&w=64&q=65",
+          "size": 494,
+          "type": "image",
+          "isImage": true,
+          "viaNextImage": true,
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:3010/_next/image?url=%2Fimages%2Frunning%2Fproducts%2Fendorphin-speed-5-hero.jpg&w=64&q=65",
+          "size": 488,
+          "type": "image",
+          "isImage": true,
+          "viaNextImage": true,
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:3010/_next/image?url=%2Fimages%2Frunning%2Fproducts%2Fclifton-10-hero.jpg&w=64&q=65",
+          "size": 459,
+          "type": "image",
+          "isImage": true,
+          "viaNextImage": true,
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:3010/_next/image?url=%2Fimages%2Frunning%2Fproducts%2Fpegasus-42-hero.jpg&w=64&q=65",
+          "size": 440,
+          "type": "image",
+          "isImage": true,
+          "viaNextImage": true,
+          "status": 200
+        }
+      ],
+      "underBudget": true,
+      "underEmptyPrefer": false
+    }
+  }
+}

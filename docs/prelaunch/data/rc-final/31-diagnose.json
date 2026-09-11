@@ -1,0 +1,105 @@
+{
+  "total": 24,
+  "pageProducts": 24,
+  "page": 1,
+  "totalPages": 3,
+  "hero": {
+    "src": "/images/running/category/use-daily.jpg",
+    "bytes": 163452
+  },
+  "productDiskMB": 18.41,
+  "productTop": [
+    {
+      "slug": "brooks-ghost-16",
+      "src": "/images/running/products/ghost-16-hero.png",
+      "bytes": 3175418
+    },
+    {
+      "slug": "brooks-ghost-18",
+      "src": "/images/running/products/ghost-18-hero.png",
+      "bytes": 2751396
+    },
+    {
+      "slug": "salomon-genesis",
+      "src": "/images/running/products/salomon-genesis-hero.jpg",
+      "bytes": 1859649
+    },
+    {
+      "slug": "hoka-arahi-7",
+      "src": "/images/running/products/hoka-arahi-7-hero.jpg",
+      "bytes": 1664053
+    },
+    {
+      "slug": "brooks-glycerin-gts-22",
+      "src": "/images/running/products/brooks-glycerin-gts-22-hero.jpg",
+      "bytes": 996760
+    },
+    {
+      "slug": "saucony-guide-18",
+      "src": "/images/running/products/saucony-guide-18-hero.jpg",
+      "bytes": 990975
+    }
+  ],
+  "comps": 4,
+  "compDiskMB": 6.19,
+  "compTop": [
+    {
+      "name": "Ghost 18",
+      "src": "/images/running/products/ghost-18-hero.png",
+      "bytes": 2751396
+    },
+    {
+      "name": "Ghost 18",
+      "src": "/images/running/products/ghost-18-hero.png",
+      "bytes": 2751396
+    },
+    {
+      "name": "Pegasus 42",
+      "src": "/images/running/products/pegasus-42-hero.jpg",
+      "bytes": 317651
+    },
+    {
+      "name": "GEL-Nimbus 27",
+      "src": "/images/running/products/nimbus-27-hero.jpg",
+      "bytes": 102203
+    },
+    {
+      "name": "Novablast 6",
+      "src": "/images/running/products/novablast-6-hero.jpg",
+      "bytes": 66591
+    },
+    {
+      "name": "Novablast 6",
+      "src": "/images/running/products/novablast-6-hero.jpg",
+      "bytes": 66591
+    },
+    {
+      "name": "Novablast 6",
+      "src": "/images/running/products/novablast-6-hero.jpg",
+      "bytes": 66591
+    },
+    {
+      "name": "Novablast 5",
+      "src": "/images/running/products/novablast-5-hero.jpg",
+      "bytes": 66238
+    }
+  ],
+  "guides": [
+    {
+      "title": "What Is a Daily Trainer?",
+      "src": "/images/home/guide-running-shoes.jpg",
+      "bytes": 2791125
+    },
+    {
+      "title": "Running Shoe Rotation Explained",
+      "src": "/images/home/guide-running-shoes.jpg",
+      "bytes": 2791125
+    },
+    {
+      "title": "How to Choose Running Shoes",
+      "src": "/images/home/guide-running-shoes.jpg",
+      "bytes": 2791125
+    }
+  ],
+  "guideDiskMB": 8.37
+}

@@ -1,0 +1,45 @@
+{
+  "totals": {
+    "NEEDS_DIFFERENTIATION": 510,
+    "DUPLICATIVE": 36,
+    "TEMPLATE_SIMILAR_ACCEPTABLE": 88,
+    "GENUINELY_UNIQUE": 804
+  },
+  "reviews": {
+    "NEEDS_DIFFERENTIATION": 503,
+    "DUPLICATIVE": 36,
+    "TEMPLATE_SIMILAR_ACCEPTABLE": 10,
+    "GENUINELY_UNIQUE": 38
+  },
+  "products": {
+    "GENUINELY_UNIQUE": 593,
+    "TEMPLATE_SIMILAR_ACCEPTABLE": 30
+  },
+  "bestGuides": {
+    "GENUINELY_UNIQUE": 33,
+    "TEMPLATE_SIMILAR_ACCEPTABLE": 25
+  },
+  "buyingGuides": {
+    "GENUINELY_UNIQUE": 68
+  },
+  "comparisons": {
+    "GENUINELY_UNIQUE": 72,
+    "TEMPLATE_SIMILAR_ACCEPTABLE": 23,
+    "NEEDS_DIFFERENTIATION": 7
+  },
+  "day1ReviewHolds": 480,
+  "duplicativeReviews": 36,
+  "needsDifferentiationReviews": 503
+}
+Wrote /Users/LMeyeridricks/Documents/coding/kitletics/docs/prelaunch/data/25-content-uniqueness.json
+Wrote /Users/LMeyeridricks/Documents/coding/kitletics/src/content/launch/content-uniqueness-holds.ts (480 holds)
+Top review pairs: [
+  '0.886 goodr-ogs ↔ julbo-aerolite',
+  '0.838 smith-shift-mag ↔ tifosi-vogel',
+  '0.834 julbo-aerolite ↔ oakley-encoder',
+  '0.829 goodr-ogs ↔ oakley-encoder',
+  '0.822 goodr-circle-gs ↔ oakley-kato',
+  '0.818 oakley-sutro-lite ↔ roka-phantom-air',
+  '0.815 oakley-radar-ev-path ↔ oakley-sutro-lite',
+  '0.814 oakley-radar-ev-path ↔ roka-phantom-air'
+]

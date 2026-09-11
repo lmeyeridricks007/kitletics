@@ -1,0 +1,42 @@
+{
+  "generatedAt": "2026-09-06T00:00:00.000Z",
+  "policy": "Manual outreach ledger only. No mass-spam automation, purchased links, fake experts, or invented studies. Append rows as humans work prospects.",
+  "stages": [
+    "prospect",
+    "qualification",
+    "contact",
+    "pitch",
+    "follow-up",
+    "result",
+    "link",
+    "anchor",
+    "targetUrl"
+  ],
+  "rows": [],
+  "schema": {
+    "id": "Stable row id (e.g. outreach-2026-09-nlrun-01)",
+    "prospect": "Organization or person name",
+    "category": "running_publication | sports_publication | running_club | coach | race_organizer | fitness_site | gear_site | sports_data | university | local_nl | other",
+    "prospectUrl": "Homepage or relevant page",
+    "qualification": "Why this prospect fits (audience overlap, citation habits, NL relevance). Pass/fail notes.",
+    "qualified": "boolean — false means stop; do not contact",
+    "contactName": "Optional human name",
+    "contactChannel": "email | form | social_dm | intro | other",
+    "contact": "Address or handle used — never scrape illegally",
+    "pitchDate": "ISO date of first personalized pitch",
+    "pitchAngle": "One-sentence value for them (tool / study / explainer)",
+    "pitchAssetUrl": "Kitletics URL offered",
+    "followUpDate": "ISO date of polite follow-up if any (max 1–2)",
+    "result": "no_reply | declined | interested | linked | other",
+    "link": "Verified linking URL once live (or empty)",
+    "anchor": "Visible anchor text when known",
+    "targetUrl": "Kitletics URL that received the link",
+    "notes": "Human notes — no DA/DR invention"
+  },
+  "instructions": [
+    "Qualify before contact. Skip low-relevance or link-scheme sites.",
+    "Personalize every pitch; never blast identical templates at scale.",
+    "Do not buy links or participate in PBNs / link exchanges.",
+    "When a link is verified, also append to known-backlinks.json."
+  ]
+}

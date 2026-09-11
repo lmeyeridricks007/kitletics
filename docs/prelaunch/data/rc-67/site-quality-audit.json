@@ -1,0 +1,34 @@
+{
+  "generatedAt": "2026-09-10T12:32:29.945Z",
+  "mode": "links",
+  "dryRun": false,
+  "launchStatus": "READY",
+  "diagnosticScore": 100,
+  "routeCount": 1152,
+  "issues": [
+    {
+      "id": "SEO-001",
+      "severity": "INFO",
+      "area": "crawl",
+      "status": "resolved",
+      "evidence": "Sitemap enumerates 1150 URLs; route inventory 1152",
+      "whyItMatters": "Healthy crawl corpus for discovery",
+      "recommendedFix": "Keep publication gates in sync with sitemap",
+      "canAutoFix": false,
+      "owner": "SEO"
+    }
+  ],
+  "counts": {
+    "BLOCKER": 0,
+    "HIGH": 0,
+    "MEDIUM": 0,
+    "LOW": 0,
+    "INFO": 0
+  },
+  "sections": {
+    "build": "Not run inside agent — execute `npm run build` for compile verification."
+  },
+  "autoFixes": [],
+  "nextActions": [],
+  "remainingManual": []
+}

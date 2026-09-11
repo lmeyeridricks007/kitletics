@@ -1,0 +1,93 @@
+{
+  "generatedAt": "2026-09-04T12:03:49.164Z",
+  "method": "lighthouse-cli-mobile",
+  "baseUrl": "http://127.0.0.1:3000",
+  "notes": "Lab Lighthouse (mobile). INP may be null in lab — use CrUX/field for INP. Do not invent scores.",
+  "budgetsDoc": "docs/performance-standards.md",
+  "routes": [
+    {
+      "path": "/",
+      "label": "Home",
+      "lighthouse": {
+        "performanceScore": 62,
+        "LCP_ms": 44512,
+        "CLS": 0,
+        "INP_ms": null,
+        "TBT_ms": 512
+      },
+      "status": "measured",
+      "url": "http://127.0.0.1:3000/"
+    },
+    {
+      "path": "/products/nike-vomero-18",
+      "label": "Product detail",
+      "lighthouse": {
+        "performanceScore": 79,
+        "LCP_ms": 4463,
+        "CLS": 0,
+        "INP_ms": null,
+        "TBT_ms": 264
+      },
+      "status": "measured",
+      "url": "http://127.0.0.1:3000/products/nike-vomero-18"
+    },
+    {
+      "path": "/reviews/nike-vomero-18",
+      "label": "Review",
+      "lighthouse": {
+        "performanceScore": 87,
+        "LCP_ms": 3190,
+        "CLS": 0,
+        "INP_ms": null,
+        "TBT_ms": 289
+      },
+      "status": "measured",
+      "url": "http://127.0.0.1:3000/reviews/nike-vomero-18"
+    },
+    {
+      "path": "/best/running-shoes",
+      "label": "Best guide",
+      "lighthouse": {
+        "performanceScore": 68,
+        "LCP_ms": 7308,
+        "CLS": 0,
+        "INP_ms": null,
+        "TBT_ms": 352
+      },
+      "status": "measured",
+      "url": "http://127.0.0.1:3000/best/running-shoes"
+    },
+    {
+      "path": "/tools/running-shoe-finder",
+      "label": "Finder",
+      "lighthouse": {
+        "performanceScore": 84,
+        "LCP_ms": 3113,
+        "CLS": 0,
+        "INP_ms": null,
+        "TBT_ms": 407
+      },
+      "status": "measured",
+      "url": "http://127.0.0.1:3000/tools/running-shoe-finder"
+    }
+  ],
+  "metrics": {
+    "LCP": {
+      "targetMs": 2500,
+      "measured": 12517.2
+    },
+    "CLS": {
+      "target": 0.1,
+      "measured": 0
+    },
+    "INP": {
+      "targetMs": 200,
+      "measured": null
+    },
+    "TBT": {
+      "targetMs": 200,
+      "measured": 364.8,
+      "note": "Lab proxy when INP unavailable"
+    }
+  }
+}

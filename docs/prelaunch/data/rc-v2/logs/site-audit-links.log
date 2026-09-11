@@ -1,0 +1,24 @@
+
+> kitletics@0.1.0 site:audit:links
+> tsx --tsconfig tsconfig.json scripts/site-quality-agent.ts --mode=links
+
+SiteQualityAgent · mode=links
+
+Overall: READY WITH ISSUES
+Open — BLOCKER 0 · HIGH 40 · MEDIUM 0 · LOW 0 · INFO 0
+Routes: 885
+Auto-fixes proposed/applied: 0
+
+NEXT ACTIONS:
+  1. LINK-001 (HIGH): Ensure review is published and included in sitemap
+  2. LINK-002 (HIGH): Ensure review is published and included in sitemap
+  3. LINK-003 (HIGH): Ensure review is published and included in sitemap
+  4. LINK-004 (HIGH): Ensure review is published and included in sitemap
+  5. LINK-005 (HIGH): Ensure review is published and included in sitemap
+  6. LINK-006 (HIGH): Ensure review is published and included in sitemap
+  7. LINK-007 (HIGH): Ensure review is published and included in sitemap
+  8. LINK-008 (HIGH): Ensure review is published and included in sitemap
+  9. LINK-009 (HIGH): Ensure review is published and included in sitemap
+  10. LINK-010 (HIGH): Ensure review is published and included in sitemap
+
+Wrote docs/site-quality-audit.md + docs/site-quality-audit.json

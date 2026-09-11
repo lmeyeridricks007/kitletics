@@ -1,0 +1,25 @@
+{
+  "ok": [
+    {
+      "id": "prod-buff-original",
+      "src": "/images/running/accessories/buff-original-hero.jpg",
+      "remote": "https://www.buff.com/media/catalog/product/6/a/6ab3eb39df6c5415_117818_999_2025-03-31t15-21-27z.jpg"
+    },
+    {
+      "id": "prod-buff-coolnet-uv",
+      "src": "/images/running/accessories/buff-coolnet-uv-hero.jpg",
+      "remote": "https://www.buff.com/media/catalog/product/f/d/fdf1ae635bfdeaa1_128752_555_2024-11-25t12-17-29z.jpg"
+    },
+    {
+      "id": "prod-buff-merino-lightweight",
+      "src": "/images/running/accessories/buff-merino-lightweight-hero.jpg",
+      "remote": "https://www.buff.com/media/catalog/product/1/1/113013.937.10.00_1.jpg"
+    },
+    {
+      "id": "prod-soundcore-sport-x20",
+      "src": "/images/headphones/products/soundcore-sport-x20-hero.png",
+      "remote": "https://cdn.shopify.com/s/files/1/0516/3761/6830/files/A3968Z11_TD01_V1.png?v=1749635084"
+    }
+  ],
+  "fail": []
+}

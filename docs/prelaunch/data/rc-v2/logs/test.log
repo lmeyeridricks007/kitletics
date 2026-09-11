@@ -1,0 +1,447 @@
+
+> kitletics@0.1.0 test
+> vitest run
+
+(!) Your Vite config uses features that are unsupported by `configLoader: 'native'`, which is planned to become the default in a future major version of Vite:
+  - ESM syntax in a file loaded as CommonJS (vitest.config.ts:1:1). Use a `.mjs` extension or set `"type": "module"` in the closest package.json
+Set `VITE_CONFIG_NATIVE_IGNORE_WARNING=true` to suppress this warning.
+
+ RUN  v4.1.11 /Users/LMeyeridricks/Documents/coding/kitletics
+
+ ❯ tests/review-page.test.ts (19 tests | 1 failed) 15738ms
+     × reviews index organises by category and filters by type 6327ms
+ ❯ tests/launch-eligibility.test.ts (12 tests | 2 failed) 95771ms
+     × indexes Best guides by LAUNCH_READY + vertical policy — not an absolute count ceiling 45727ms
+     × simulates Day-1 counts without hardcoding inventory 47960ms
+ ❯ tests/discovery.test.ts (12 tests | 4 failed) 183674ms
+     × ranks exact product match first 45628ms
+     × excludes unpublished content in production mode 48530ms
+     × resolves synonyms for gps watch 42915ms
+     × resolves trainers to running shoes 46580ms
+ ❯ tests/seo-indexation.test.ts (8 tests | 2 failed) 172236ms
+     × sitemap brands are a subset of indexable hubs 87432ms
+     × sitemap excludes known duplicate orphan shells 83831ms
+ ❯ tests/comparison.test.ts (23 tests | 2 failed) 201329ms
+     × excludes broken-peer comparisons from the sitemap 97277ms
+     × sitemap Comparison URLs all assemble page data (200-ready) 96676ms
+ ❯ tests/hyrox.test.ts (15 tests | 2 failed) 111523ms
+     × prioritizes shoe finder for hyrox shoes query 54138ms
+     × does not promote HYROX sport hub while vertical is held 57365ms
+ ❯ tests/racket.test.ts (13 tests | 1 failed) 50298ms
+     × resolves padel racket aliases 46748ms
+ ❯ tests/use-case-listing.test.ts (6 tests | 1 failed) 68385ms
+     × supports daily-trainers, stability, trail and heavy-runners smoke assemblies 33063ms
+ ❯ tests/product-quality-assessor-consistency.test.ts (3 tests | 2 failed) 64070ms
+     × soft-gated overlay changes disposition only, not quality class inventively 14ms
+     × domain quality matches eligibility quality for all Running products 63772ms
+ ❯ tests/launch-readiness.test.ts (22 tests | 2 failed) 3702ms
+     × holds nutrition as future until category readiness clears soft-gate 5ms
+     × holds clothing, sunglasses, and accessories as future soft-gates 1ms
+ ❯ tests/sitemap-lastmod.test.ts (10 tests | 3 failed) 280187ms
+     × does not mass-stamp SEED_DATES.verified or updated on indexable URLs 96973ms
+     × never emits epoch or future lastmod 92898ms
+     × keeps indexable product URLs in the sitemap (lastmod optional) 90306ms
+ ❯ tests/search-discovery.test.ts (12 tests | 6 failed) 396723ms
+     × groups running shoes into cross-entity results with real counts 42829ms
+     × does not fabricate popular/trending search volumes 42588ms
+     × prioritizes exact brand matches 40974ms
+     × prioritizes tool intent for finder queries 39912ms
+     × does not leak scheduled reviews in production mode 43460ms
+     × does not rank by affiliate commission (no commission field in score path) 74786ms
+
+⎯⎯⎯⎯⎯⎯ Failed Tests 28 ⎯⎯⎯⎯⎯⎯⎯
+
+ FAIL  tests/comparison.test.ts > Comparison page data > excludes broken-peer comparisons from the sitemap
+Error: Test timed out in 30000ms.
+If this is a long-running test, pass a timeout value as the last argument or configure it globally with "testTimeout".
+ ❯ tests/comparison.test.ts:340:3
+    338|   });
+    339|
+    340|   it("excludes broken-peer comparisons from the sitemap", () => {
+       |   ^
+    341|     const paths = new Set(
+    342|       sitemap().map((e) => e.url.replace(siteConfig.url, "") || "/"),
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/28]⎯
+
+ FAIL  tests/comparison.test.ts > Comparison page data > sitemap Comparison URLs all assemble page data (200-ready)
+Error: Test timed out in 30000ms.
+If this is a long-running test, pass a timeout value as the last argument or configure it globally with "testTimeout".
+ ❯ tests/comparison.test.ts:364:3
+    362|   });
+    363|
+    364|   it("sitemap Comparison URLs all assemble page data (200-ready)", () …
+       |   ^
+    365|     const comparePaths = sitemap()
+    366|       .map((e) => e.url.replace(siteConfig.url, "") || "/")
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[2/28]⎯
+
+ FAIL  tests/discovery.test.ts > search > ranks exact product match first
+Error: Test timed out in 30000ms.
+If this is a long-running test, pass a timeout value as the last argument or configure it globally with "testTimeout".
+ ❯ tests/discovery.test.ts:10:3
+      8|
+      9| describe("search", () => {
+     10|   it("ranks exact product match first", () => {
+       |   ^
+     11|     const hits = searchKitletics("ASICS Novablast 5", { isDev: false }…
+     12|     expect(hits.length).toBeGreaterThan(0);
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[3/28]⎯
+
+ FAIL  tests/discovery.test.ts > search > excludes unpublished content in production mode
+Error: Test timed out in 30000ms.
+If this is a long-running test, pass a timeout value as the last argument or configure it globally with "testTimeout".
+ ❯ tests/discovery.test.ts:17:3
+     15|   });
+     16|
+     17|   it("excludes unpublished content in production mode", () => {
+       |   ^
+     18|     const scheduled = reviews.find((r) => r.status === "scheduled");
+     19|     expect(scheduled).toBeTruthy();
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[4/28]⎯
+
+ FAIL  tests/discovery.test.ts > search > resolves synonyms for gps watch
+Error: Test timed out in 30000ms.
+If this is a long-running test, pass a timeout value as the last argument or configure it globally with "testTimeout".
+ ❯ tests/discovery.test.ts:28:3
+     26|   });
+     27|
+     28|   it("resolves synonyms for gps watch", () => {
+       |   ^
+     29|     const expansions = expandQueryWithSynonyms("gps watch");
+     30|     expect(expansions.some((e) => e.includes("running watch"))).toBe(t…
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[5/28]⎯
+
+ FAIL  tests/discovery.test.ts > search > resolves trainers to running shoes
+Error: Test timed out in 30000ms.
+If this is a long-running test, pass a timeout value as the last argument or configure it globally with "testTimeout".
+ ❯ tests/discovery.test.ts:37:3
+     35|   });
+     36|
+     37|   it("resolves trainers to running shoes", () => {
+       |   ^
+     38|     const hits = searchKitletics("trainers", { isDev: false });
+     39|     expect(
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[6/28]⎯
+
+ FAIL  tests/hyrox.test.ts > HYROX search intents > prioritizes shoe finder for hyrox shoes query
+Error: Test timed out in 30000ms.
+If this is a long-running test, pass a timeout value as the last argument or configure it globally with "testTimeout".
+ ❯ tests/hyrox.test.ts:187:3
+    185|
+    186| describe("HYROX search intents", () => {
+    187|   it("prioritizes shoe finder for hyrox shoes query", async () => {
+       |   ^
+    188|     const { searchKitletics } = await import("@/lib/search/engine");
+    189|     const hits = searchKitletics("hyrox shoes", { limit: 10 });
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[7/28]⎯
+
+ FAIL  tests/hyrox.test.ts > HYROX search intents > does not promote HYROX sport hub while vertical is held
+Error: Test timed out in 30000ms.
+If this is a long-running test, pass a timeout value as the last argument or configure it globally with "testTimeout".
+ ❯ tests/hyrox.test.ts:194:3
+    192|   });
+    193|
+    194|   it("does not promote HYROX sport hub while vertical is held", async …
+       |   ^
+    195|     const { searchKitletics } = await import("@/lib/search/engine");
+    196|     const hits = searchKitletics("hyrox", { limit: 20 });
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[8/28]⎯
+
+ FAIL  tests/launch-eligibility.test.ts > launch eligibility > indexes Best guides by LAUNCH_READY + vertical policy — not an absolute count ceiling
+Error: Test timed out in 30000ms.
+If this is a long-running test, pass a timeout value as the last argument or configure it globally with "testTimeout".
+ ❯ tests/launch-eligibility.test.ts:26:3
+     24|
+     25| describe("launch eligibility", () => {
+     26|   it(
+       |   ^
+     27|     "indexes Best guides by LAUNCH_READY + vertical policy — not an ab…
+     28|     () => {
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[9/28]⎯
+
+ FAIL  tests/launch-eligibility.test.ts > launch eligibility > simulates Day-1 counts without hardcoding inventory
+Error: Test timed out in 30000ms.
+If this is a long-running test, pass a timeout value as the last argument or configure it globally with "testTimeout".
+ ❯ tests/launch-eligibility.test.ts:255:3
+    253|   });
+    254|
+    255|   it("simulates Day-1 counts without hardcoding inventory", () => {
+       |   ^
+    256|     const sim = simulateDay1LaunchCounts();
+    257|     expect(sim.rows.length).toBeGreaterThan(5);
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[10/28]⎯
+
+ FAIL  tests/launch-readiness.test.ts > Running launch manifest > holds nutrition as future until category readiness clears soft-gate
+AssertionError: expected 'launch-supporting' to be 'future' // Object.is equality
+
+Expected: "future"
+Received: "launch-supporting"
+
+ ❯ tests/launch-readiness.test.ts:297:31
+    295|       (c) => c.categoryId === "cat-nutrition",
+    296|     );
+    297|     expect(nutrition?.status).toBe("future");
+       |                               ^
+    298|   });
+    299|
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[11/28]⎯
+
+ FAIL  tests/launch-readiness.test.ts > Running launch manifest > holds clothing, sunglasses, and accessories as future soft-gates
+AssertionError: cat-running-clothing: expected 'launch-supporting' to be 'future' // Object.is equality
+
+Expected: "future"
+Received: "launch-supporting"
+
+ ❯ tests/launch-readiness.test.ts:304:31
+    302|     for (const id of held) {
+    303|       const row = runningLaunchManifest.categories.find((c) => c.categ…
+    304|       expect(row?.status, id).toBe("future");
+       |                               ^
+    305|     }
+    306|   });
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[12/28]⎯
+
+ FAIL  tests/product-quality-assessor-consistency.test.ts > product quality assessor consistency (Fix 34) > soft-gated overlay changes disposition only, not quality class inventively
+AssertionError: expected false to be true // Object.is equality
+
+- Expected
++ Received
+
+- true
++ false
+
+ ❯ tests/product-quality-assessor-consistency.test.ts:39:55
+     37|     expect(product).toBeTruthy();
+     38|     const category = getCategoryById(product!.categoryId, PROD);
+     39|     expect(category && isSoftGatedCategory(category)).toBe(true);
+       |                                                       ^
+     40|
+     41|     const assessed = assessProductLaunchQuality(product!, PROD);
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[13/28]⎯
+
+ FAIL  tests/product-quality-assessor-consistency.test.ts > product quality assessor consistency (Fix 34) > domain quality matches eligibility quality for all Running products
+Error: Test timed out in 30000ms.
+If this is a long-running test, pass a timeout value as the last argument or configure it globally with "testTimeout".
+ ❯ tests/product-quality-assessor-consistency.test.ts:54:3
+     52|   });
+     53|
+     54|   it("domain quality matches eligibility quality for all Running produ…
+       |   ^
+     55|     const running = getProducts(PROD).filter((p) =>
+     56|       p.sportIds.includes("sport-running"),
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[14/28]⎯
+
+ FAIL  tests/racket.test.ts > Racket search > resolves padel racket aliases
+Error: Test timed out in 30000ms.
+If this is a long-running test, pass a timeout value as the last argument or configure it globally with "testTimeout".
+ ❯ tests/racket.test.ts:300:3
+    298|
+    299| describe("Racket search", () => {
+    300|   it("resolves padel racket aliases", () => {
+       |   ^
+    301|     const res = searchKitletics("padel racquet");
+    302|     expect(res.length).toBeGreaterThan(0);
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[15/28]⎯
+
+ FAIL  tests/review-page.test.ts > Review page system > reviews index organises by category and filters by type
+AssertionError: expected 169 to be 585 // Object.is equality
+
+- Expected
++ Received
+
+- 585
++ 169
+
+ ❯ tests/review-page.test.ts:142:30
+    140|   it("reviews index organises by category and filters by type", () => {
+    141|     const all = getReviewsIndexData({ typeFilter: "all" });
+    142|     expect(all.items.length).toBe(getReviews().length);
+       |                              ^
+    143|     expect(all.byCategory.length).toBeGreaterThan(0);
+    144|     const research = getReviewsIndexData({ typeFilter: "expert-researc…
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[16/28]⎯
+
+ FAIL  tests/search-discovery.test.ts > search discovery page > groups running shoes into cross-entity results with real counts
+Error: Test timed out in 30000ms.
+If this is a long-running test, pass a timeout value as the last argument or configure it globally with "testTimeout".
+ ❯ tests/search-discovery.test.ts:10:3
+      8|
+      9| describe("search discovery page", () => {
+     10|   it("groups running shoes into cross-entity results with real counts"…
+       |   ^
+     11|     const data = getSearchPageData({
+     12|       query: "running shoes",
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[17/28]⎯
+
+ FAIL  tests/search-discovery.test.ts > search discovery page > does not fabricate popular/trending search volumes
+Error: Test timed out in 30000ms.
+If this is a long-running test, pass a timeout value as the last argument or configure it globally with "testTimeout".
+ ❯ tests/search-discovery.test.ts:33:3
+     31|   });
+     32|
+     33|   it("does not fabricate popular/trending search volumes", () => {
+       |   ^
+     34|     const data = getSearchPageData({ query: "running shoes", region: "…
+     35|     expect(
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[18/28]⎯
+
+ FAIL  tests/search-discovery.test.ts > search discovery page > prioritizes exact brand matches
+Error: Test timed out in 30000ms.
+If this is a long-running test, pass a timeout value as the last argument or configure it globally with "testTimeout".
+ ❯ tests/search-discovery.test.ts:40:3
+     38|   });
+     39|
+     40|   it("prioritizes exact brand matches", () => {
+       |   ^
+     41|     expect(detectSearchIntent("ASICS")).toBe("brand");
+     42|     const hits = searchKitletics("ASICS", { isDev: false, limit: 20 });
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[19/28]⎯
+
+ FAIL  tests/search-discovery.test.ts > search discovery page > prioritizes tool intent for finder queries
+Error: Test timed out in 30000ms.
+If this is a long-running test, pass a timeout value as the last argument or configure it globally with "testTimeout".
+ ❯ tests/search-discovery.test.ts:50:3
+     48|   });
+     49|
+     50|   it("prioritizes tool intent for finder queries", () => {
+       |   ^
+     51|     expect(detectSearchIntent("running shoe finder")).toBe("tool");
+     52|     const hits = searchKitletics("shoe finder", { isDev: false, limit:…
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[20/28]⎯
+
+ FAIL  tests/search-discovery.test.ts > search discovery page > does not leak scheduled reviews in production mode
+Error: Test timed out in 30000ms.
+If this is a long-running test, pass a timeout value as the last argument or configure it globally with "testTimeout".
+ ❯ tests/search-discovery.test.ts:58:3
+     56|   });
+     57|
+     58|   it("does not leak scheduled reviews in production mode", () => {
+       |   ^
+     59|     const scheduled = reviews.find((r) => r.status === "scheduled");
+     60|     expect(scheduled).toBeTruthy();
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[21/28]⎯
+
+ FAIL  tests/search-discovery.test.ts > search discovery page > does not rank by affiliate commission (no commission field in score path)
+Error: Test timed out in 30000ms.
+If this is a long-running test, pass a timeout value as the last argument or configure it globally with "testTimeout".
+ ❯ tests/search-discovery.test.ts:66:3
+     64|   });
+     65|
+     66|   it("does not rank by affiliate commission (no commission field in sc…
+       |   ^
+     67|     const a = searchKitletics("novablast", { isDev: false, limit: 10 }…
+     68|     const b = searchKitletics("novablast", { isDev: false, limit: 10 }…
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[22/28]⎯
+
+ FAIL  tests/seo-indexation.test.ts > Brand hub sitemap eligibility > sitemap brands are a subset of indexable hubs
+Error: Test timed out in 30000ms.
+If this is a long-running test, pass a timeout value as the last argument or configure it globally with "testTimeout".
+ ❯ tests/seo-indexation.test.ts:39:3
+     37|   });
+     38|
+     39|   it("sitemap brands are a subset of indexable hubs", () => {
+       |   ^
+     40|     const entries = sitemap();
+     41|     const brandUrls = entries
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[23/28]⎯
+
+ FAIL  tests/seo-indexation.test.ts > Category / sport canonical shells > sitemap excludes known duplicate orphan shells
+Error: Test timed out in 30000ms.
+If this is a long-running test, pass a timeout value as the last argument or configure it globally with "testTimeout".
+ ❯ tests/seo-indexation.test.ts:68:3
+     66|   });
+     67|
+     68|   it("sitemap excludes known duplicate orphan shells", () => {
+       |   ^
+     69|     const paths = new Set(
+     70|       sitemap().map((e) => e.url.replace(siteConfig.url, "") || "/"),
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[24/28]⎯
+
+ FAIL  tests/sitemap-lastmod.test.ts > sitemap lastmod integrity > does not mass-stamp SEED_DATES.verified or updated on indexable URLs
+AssertionError: expected 147 to be +0 // Object.is equality
+
+- Expected
++ Received
+
+- 0
++ 147
+
+ ❯ tests/sitemap-lastmod.test.ts:83:25
+     81|
+     82|     // Prefer omit over seed-cluster fabrication
+     83|     expect(seedCluster).toBe(0);
+       |                         ^
+     84|     // Until genuine per-entity dates exist, most/all URLs omit lastmod
+     85|     expect(withLastmod).toBeLessThan(entries.length * 0.25);
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[25/28]⎯
+
+ FAIL  tests/sitemap-lastmod.test.ts > sitemap lastmod integrity > never emits epoch or future lastmod
+Error: Test timed out in 30000ms.
+If this is a long-running test, pass a timeout value as the last argument or configure it globally with "testTimeout".
+ ❯ tests/sitemap-lastmod.test.ts:88:3
+     86|   });
+     87|
+     88|   it("never emits epoch or future lastmod", () => {
+       |   ^
+     89|     const now = Date.now() + 24 * 60 * 60 * 1000;
+     90|     for (const e of sitemap()) {
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[26/28]⎯
+
+ FAIL  tests/sitemap-lastmod.test.ts > sitemap lastmod integrity > keeps indexable product URLs in the sitemap (lastmod optional)
+Error: Test timed out in 30000ms.
+If this is a long-running test, pass a timeout value as the last argument or configure it globally with "testTimeout".
+ ❯ tests/sitemap-lastmod.test.ts:98:3
+     96|   });
+     97|
+     98|   it("keeps indexable product URLs in the sitemap (lastmod optional)",…
+       |   ^
+     99|     const paths = sitemap().map(
+    100|       (e) => e.url.replace(siteConfig.url, "") || "/",
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[27/28]⎯
+
+ FAIL  tests/use-case-listing.test.ts > Product use-case listing pages > supports daily-trainers, stability, trail and heavy-runners smoke assemblies
+Error: Test timed out in 30000ms.
+If this is a long-running test, pass a timeout value as the last argument or configure it globally with "testTimeout".
+ ❯ tests/use-case-listing.test.ts:63:3
+     61|   });
+     62|
+     63|   it("supports daily-trainers, stability, trail and heavy-runners smok…
+       |   ^
+     64|     for (const slug of [
+     65|       "daily-trainers",
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[28/28]⎯
+
+
+ Test Files  12 failed | 44 passed (56)
+      Tests  28 failed | 557 passed (585)
+   Start at  23:38:15
+   Duration  407.98s (transform 38.01s, setup 0ms, import 203.97s, tests 1990.76s, environment 4ms)
+

@@ -1,0 +1,93 @@
+{
+  "generatedAt": "2026-09-03T14:59:34.116Z",
+  "totals": {
+    "published": 48,
+    "withAuthenticPrimary": 44,
+    "missing": 4,
+    "broken": 0,
+    "placeholderOnly": 4,
+    "coveragePct": 92,
+    "registryEntries": 241
+  },
+  "byCategory": [
+    {
+      "categoryId": "cat-training-shoes",
+      "categoryName": "Training Shoes",
+      "categorySlug": "training-shoes",
+      "published": 48,
+      "withAuthenticPrimary": 44,
+      "missing": 0,
+      "broken": 0,
+      "placeholderOnly": 4,
+      "coveragePct": 92
+    }
+  ],
+  "gaps": [
+    {
+      "productId": "prod-bear-komplex-valor",
+      "slug": "bear-komplex-valor",
+      "fullName": "Bear KompleX Valor",
+      "brandId": "brand-bear-komplex",
+      "brandName": "Bear KompleX",
+      "categoryId": "cat-training-shoes",
+      "categoryName": "Training Shoes",
+      "categorySlug": "training-shoes",
+      "sportIds": [
+        "sport-training",
+        "sport-hyrox"
+      ],
+      "lifecycleStatus": "current",
+      "reason": "placeholder-only",
+      "rawSrc": "/images/catalog/fallbacks/shoe.svg"
+    },
+    {
+      "productId": "prod-domyos-mid-500",
+      "slug": "domyos-mid-500",
+      "fullName": "Domyos Mid 500",
+      "brandId": "brand-domyos",
+      "brandName": "Domyos",
+      "categoryId": "cat-training-shoes",
+      "categoryName": "Training Shoes",
+      "categorySlug": "training-shoes",
+      "sportIds": [
+        "sport-training"
+      ],
+      "lifecycleStatus": "current",
+      "reason": "placeholder-only",
+      "rawSrc": "/images/catalog/fallbacks/shoe.svg"
+    },
+    {
+      "productId": "prod-nobull-trail",
+      "slug": "nobull-trail",
+      "fullName": "NOBULL Trail",
+      "brandId": "brand-nobull",
+      "brandName": "NOBULL",
+      "categoryId": "cat-training-shoes",
+      "categoryName": "Training Shoes",
+      "categorySlug": "training-shoes",
+      "sportIds": [
+        "sport-training",
+        "sport-hyrox"
+      ],
+      "lifecycleStatus": "current",
+      "reason": "placeholder-only",
+      "rawSrc": "/images/catalog/fallbacks/shoe.svg"
+    },
+    {
+      "productId": "prod-zeraus-classic",
+      "slug": "zeraus-classic",
+      "fullName": "Zeraus Classic Weightlifting Shoe",
+      "brandId": "brand-zeraus",
+      "brandName": "Zeraus",
+      "categoryId": "cat-training-shoes",
+      "categoryName": "Training Shoes",
+      "categorySlug": "training-shoes",
+      "sportIds": [
+        "sport-training"
+      ],
+      "lifecycleStatus": "current",
+      "reason": "placeholder-only",
+      "rawSrc": "/images/catalog/fallbacks/shoe.svg"
+    }
+  ]
+}

@@ -1,0 +1,403 @@
+{
+  "ok": [
+    {
+      "id": "prod-shokz-opendots-one",
+      "src": "/images/headphones/products/shokz-opendots-one-hero.webp",
+      "remote": "https://cdn.shopify.com/s/files/1/0074/1890/4612/files/opendot-black-1.webp?v=1754470812"
+    },
+    {
+      "id": "prod-apple-airpods-4",
+      "src": "/images/headphones/products/apple-airpods-4-hero.jpg",
+      "remote": "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/airpods-4-select-202409_FV1?wid=1200&hei=1200&fmt=jpeg&qlt=90&.v=1724717692997"
+    },
+    {
+      "id": "prod-beats-fit-pro",
+      "src": "/images/headphones/products/beats-fit-pro-hero.jpg",
+      "remote": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MJWP3?wid=1200&hei=1200&fmt=jpeg&qlt=90&.v=1632954306000"
+    },
+    {
+      "id": "prod-petzl-nao-rl",
+      "src": "/images/headlamps/products/petzl-nao-rl-hero.jpg",
+      "remote": "https://img.runningwarehouse.com/watermark/rs.php?path=PNAORL-BK-1.jpg&nw=1000"
+    },
+    {
+      "id": "prod-petzl-actik-core",
+      "src": "/images/headlamps/products/petzl-actik-core-hero.jpg",
+      "remote": "https://img.runningwarehouse.com/watermark/rs.php?path=PACTCR1-BK-1.jpg&nw=1000"
+    },
+    {
+      "id": "prod-bd-distance-1500",
+      "src": "/images/headlamps/products/black-diamond-distance-1500-hero.jpg",
+      "remote": "https://cdn.shopify.com/s/files/1/0906/3602/6135/files/620694_8001_DISTANCE_1500_HEADLAMP_Octane_01_d2b364f0-fa6d-43b0-88ca-077e0d3a78bb.jpg?v=1745428059"
+    },
+    {
+      "id": "prod-biolite-headlamp-800",
+      "src": "/images/headlamps/products/biolite-headlamp-800-pro-hero.png",
+      "remote": "https://cdn.shopify.com/s/files/1/0666/9741/files/headlamp-800-prohpc0201-429270.png?v=1711825680"
+    },
+    {
+      "id": "prod-balega-hidden-comfort",
+      "src": "/images/running/accessories/balega-hidden-comfort-hero.jpg",
+      "remote": "https://cdn.shopify.com/s/files/1/0808/2105/9777/files/BALE_616760_8025-0692_HiddenComfort_NoShowTab_Teal_250722_FA26_MV.jpg?v=1787765526"
+    },
+    {
+      "id": "prod-swiftwick-aspire-four",
+      "src": "/images/running/accessories/swiftwick-aspire-four-hero.jpg",
+      "remote": "https://cdn.shopify.com/s/files/1/2723/1582/files/aspire-quarter-crew-high-circuit-gray-socks-profile-4C00055-800_ee5933e1-175f-47a3-b67b-24a601546051.jpg?v=1766433343"
+    },
+    {
+      "id": "prod-drymax-run-lite-mesh",
+      "src": "/images/running/accessories/drymax-run-lite-mesh-hero.jpg",
+      "remote": "https://img.runningwarehouse.com/watermark/rs.php?path=DRYLMS-BK-1.jpg&nw=1000"
+    },
+    {
+      "id": "prod-theragun-pro",
+      "src": "/images/running/accessories/therabody-theragun-pro-hero.png",
+      "remote": "https://cdn.shopify.com/s/files/1/0671/4097/6867/files/Theragun-Pro-Gen-5-PLP-Thumbnail-1.png?v=1740016136"
+    },
+    {
+      "id": "prod-hypervolt-2",
+      "src": "/images/running/accessories/hyperice-hypervolt-2-hero.png",
+      "remote": "https://cdn.shopify.com/s/files/1/0786/1852/5910/files/Hypervolt21_1abec1b2-f38a-4862-904d-7cc330a9ad61.png?v=1769209317"
+    },
+    {
+      "id": "prod-normatec-3",
+      "src": "/images/running/accessories/hyperice-normatec-3-hero.png",
+      "remote": "https://cdn.shopify.com/s/files/1/0786/1852/5910/files/Normatec3Legs1.png?v=1781803460"
+    },
+    {
+      "id": "prod-hyperice-vyper-3",
+      "src": "/images/running/accessories/hyperice-vyper-3-hero.png",
+      "remote": "https://cdn.shopify.com/s/files/1/0786/1852/5910/files/vyper-3-pdp-1.png?v=1769126521"
+    },
+    {
+      "id": "prod-oofos-oolala",
+      "src": "/images/running/accessories/oofos-oolala-hero.jpg",
+      "remote": "https://cdn.shopify.com/s/files/1/0254/5969/products/1400WH_shot2.jpg?v=1762181938"
+    },
+    {
+      "id": "prod-triggerpoint-grid-x",
+      "src": "/images/running/accessories/triggerpoint-grid-x-hero.jpg",
+      "remote": "https://cdn.shopify.com/s/files/1/0945/0258/4689/files/c73jpe4rwhoqpbnrc8du.jpg?v=1759332049"
+    },
+    {
+      "id": "prod-nathan-lightbender",
+      "src": "/images/running/accessories/nathan-lightbender-rx-hero.jpg",
+      "remote": "https://cdn.shopify.com/s/files/1/0059/6253/0904/files/NS5084-0186_LightBenderRX_hero_3495fa7e-d195-4b38-b5f8-601cb0b0bc5f.jpg?v=1749579924"
+    },
+    {
+      "id": "prod-proviz-reflect360-vest",
+      "src": "/images/running/accessories/proviz-reflect360-running-vest-hero.jpg",
+      "remote": "https://cdn.shopify.com/s/files/1/0740/3225/1191/files/Men_s_Gilet_Front_Blue_LR_e93e6ec6-0187-4f81-becb-746e24a5e2de.jpg?v=1743517221"
+    },
+    {
+      "id": "prod-buff-polar",
+      "src": "/images/running/accessories/buff-polar-hero.jpg",
+      "remote": "https://img.runningwarehouse.com/watermark/rs.php?path=BUFPOL-BK-1.jpg&nw=1000"
+    }
+  ],
+  "fail": [
+    {
+      "id": "prod-beats-powerbeats-pro-2",
+      "reason": "download-failed",
+      "tried": 2
+    },
+    {
+      "id": "prod-sony-linkbuds-open",
+      "reason": "no-remotes"
+    },
+    {
+      "id": "prod-jabra-elite-8-active",
+      "reason": "download-failed",
+      "tried": 1
+    },
+    {
+      "id": "prod-jabra-elite-10",
+      "reason": "no-remotes"
+    },
+    {
+      "id": "prod-soundcore-aerofit-2",
+      "reason": "download-failed",
+      "tried": 1
+    },
+    {
+      "id": "prod-soundcore-sport-x20",
+      "reason": "no-remotes"
+    },
+    {
+      "id": "prod-huawei-freeclip",
+      "reason": "download-failed",
+      "tried": 1
+    },
+    {
+      "id": "prod-sony-linkbuds-fit",
+      "reason": "no-remotes"
+    },
+    {
+      "id": "prod-petzl-iko-core",
+      "reason": "download-failed",
+      "tried": 2
+    },
+    {
+      "id": "prod-bd-storm-500-r",
+      "reason": "download-failed",
+      "tried": 2
+    },
+    {
+      "id": "prod-biolite-headlamp-425",
+      "reason": "download-failed",
+      "tried": 1
+    },
+    {
+      "id": "prod-ledlenser-neo9r",
+      "reason": "download-failed",
+      "tried": 1
+    },
+    {
+      "id": "prod-ledlenser-neo5r",
+      "reason": "no-remotes"
+    },
+    {
+      "id": "prod-silva-smini",
+      "reason": "download-failed",
+      "tried": 1
+    },
+    {
+      "id": "prod-fenix-hm65r-t",
+      "reason": "download-failed",
+      "tried": 1
+    },
+    {
+      "id": "prod-nitecore-nu25",
+      "reason": "download-failed",
+      "tried": 1
+    },
+    {
+      "id": "prod-nitecore-nu43",
+      "reason": "no-remotes"
+    },
+    {
+      "id": "prod-bombas-performance-running-quarter",
+      "reason": "download-failed",
+      "tried": 1
+    },
+    {
+      "id": "prod-stance-run-crew",
+      "reason": "download-failed",
+      "tried": 2
+    },
+    {
+      "id": "prod-hilly-marathon-fresh",
+      "reason": "download-failed",
+      "tried": 1
+    },
+    {
+      "id": "prod-sockwell-compression-light",
+      "reason": "download-failed",
+      "tried": 1
+    },
+    {
+      "id": "prod-wrightsock-coolmesh-ii",
+      "reason": "download-failed",
+      "tried": 1
+    },
+    {
+      "id": "prod-triggerpoint-grid",
+      "reason": "download-failed",
+      "tried": 1
+    },
+    {
+      "id": "prod-triggerpoint-grid-travel",
+      "reason": "no-remotes"
+    },
+    {
+      "id": "prod-theragun-relief",
+      "reason": "download-failed",
+      "tried": 1
+    },
+    {
+      "id": "prod-therabody-recoveryair",
+      "reason": "download-failed",
+      "tried": 1
+    },
+    {
+      "id": "prod-hoka-ora-recovery-slide",
+      "reason": "download-failed",
+      "tried": 3
+    },
+    {
+      "id": "prod-oofos-oocandoo",
+      "reason": "download-failed",
+      "tried": 1
+    },
+    {
+      "id": "prod-cep-the-run-calf",
+      "reason": "download-failed",
+      "tried": 1
+    },
+    {
+      "id": "prod-compressport-r2",
+      "reason": "download-failed",
+      "tried": 2
+    },
+    {
+      "id": "prod-cep-calf-sleeves",
+      "reason": "download-failed",
+      "tried": 2
+    },
+    {
+      "id": "prod-2xu-refresh-recovery",
+      "reason": "download-failed",
+      "tried": 1
+    },
+    {
+      "id": "prod-triggerpoint-mb1",
+      "reason": "no-remotes"
+    },
+    {
+      "id": "prod-triggerpoint-mbx",
+      "reason": "no-remotes"
+    },
+    {
+      "id": "prod-triggerpoint-stp",
+      "reason": "no-remotes"
+    },
+    {
+      "id": "prod-blackroll-pro",
+      "reason": "download-failed",
+      "tried": 1
+    },
+    {
+      "id": "prod-brazyn-morph",
+      "reason": "download-failed",
+      "tried": 1
+    },
+    {
+      "id": "prod-rumbleroller-original",
+      "reason": "no-remotes"
+    },
+    {
+      "id": "prod-rad-atom",
+      "reason": "no-remotes"
+    },
+    {
+      "id": "prod-renpho-r3",
+      "reason": "download-failed",
+      "tried": 1
+    },
+    {
+      "id": "prod-opove-m3-pro",
+      "reason": "no-remotes"
+    },
+    {
+      "id": "prod-timtam-power-massager-v3.7",
+      "reason": "no-remotes"
+    },
+    {
+      "id": "prod-the-stick",
+      "reason": "download-failed",
+      "tried": 1
+    },
+    {
+      "id": "prod-amphipod-xinglet",
+      "reason": "download-failed",
+      "tried": 1
+    },
+    {
+      "id": "prod-amphipod-xinglet-optic-beam",
+      "reason": "no-remotes"
+    },
+    {
+      "id": "prod-amphipod-vizlet",
+      "reason": "no-remotes"
+    },
+    {
+      "id": "prod-knog-frog-v3",
+      "reason": "download-failed",
+      "tried": 1
+    },
+    {
+      "id": "prod-knog-cobber-mid",
+      "reason": "no-remotes"
+    },
+    {
+      "id": "prod-nathan-strobe",
+      "reason": "download-failed",
+      "tried": 1
+    },
+    {
+      "id": "prod-road-id-wrist",
+      "reason": "download-failed",
+      "tried": 1
+    },
+    {
+      "id": "prod-shes-birdie-alarm",
+      "reason": "no-remotes"
+    },
+    {
+      "id": "prod-flipbelt-zippered-reflective",
+      "reason": "download-failed",
+      "tried": 1
+    },
+    {
+      "id": "prod-nightrunner-270",
+      "reason": "no-remotes"
+    },
+    {
+      "id": "prod-nite-ize-radiant-clip",
+      "reason": "no-remotes"
+    },
+    {
+      "id": "prod-buff-coolnet-uv",
+      "reason": "download-failed",
+      "tried": 2
+    },
+    {
+      "id": "prod-buff-original",
+      "reason": "download-failed",
+      "tried": 2
+    },
+    {
+      "id": "prod-buff-merino-lightweight",
+      "reason": "download-failed",
+      "tried": 1
+    },
+    {
+      "id": "prod-body-glide-original",
+      "reason": "download-failed",
+      "tried": 2
+    },
+    {
+      "id": "prod-squirrels-nut-butter",
+      "reason": "download-failed",
+      "tried": 1
+    },
+    {
+      "id": "prod-2toms-sportshield",
+      "reason": "no-remotes"
+    },
+    {
+      "id": "prod-compressport-armforce",
+      "reason": "download-failed",
+      "tried": 2
+    },
+    {
+      "id": "prod-amphipod-reflective-armband",
+      "reason": "no-remotes"
+    },
+    {
+      "id": "prod-amphipod-airflow-armband",
+      "reason": "no-remotes"
+    },
+    {
+      "id": "prod-dirty-girl-gaiters",
+      "reason": "no-remotes"
+    },
+    {
+      "id": "prod-outdoor-research-ferrosi-gaiters",
+      "reason": "download-failed",
+      "tried": 1
+    }
+  ],
+  "at": "2026-09-06T05:16:10.432Z"
+}

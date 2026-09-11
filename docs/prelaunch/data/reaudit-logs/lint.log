@@ -1,0 +1,153 @@
+
+> kitletics@0.1.0 lint
+> eslint
+
+
+/Users/LMeyeridricks/Documents/coding/kitletics/scripts/apply-p1-catalog-media.mjs
+  20:10  warning  'dirFor' is defined but never used  @typescript-eslint/no-unused-vars
+  20:21  warning  'slug' is defined but never used    @typescript-eslint/no-unused-vars
+
+/Users/LMeyeridricks/Documents/coding/kitletics/scripts/batch-fetch-draft-accessory-media.mjs
+  1039:36  warning  'remoteUsed' is defined but never used  @typescript-eslint/no-unused-vars
+
+/Users/LMeyeridricks/Documents/coding/kitletics/scripts/batch-fetch-fitness-hero-media-pass2.mjs
+  8:10  warning  'createHash' is defined but never used  @typescript-eslint/no-unused-vars
+
+/Users/LMeyeridricks/Documents/coding/kitletics/scripts/batch-fetch-hydration-media.mjs
+  7:10  warning  'execFileSync' is defined but never used  @typescript-eslint/no-unused-vars
+
+/Users/LMeyeridricks/Documents/coding/kitletics/scripts/best-guide-coverage-qa.ts
+  242:19  warning  'reason' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+/Users/LMeyeridricks/Documents/coding/kitletics/scripts/catalog-qa.ts
+  132:7  warning  'watches' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+/Users/LMeyeridricks/Documents/coding/kitletics/scripts/fetch-draft-shoes-packs-pass2.mjs
+  300:12  warning  'e' is defined but never used  @typescript-eslint/no-unused-vars
+
+/Users/LMeyeridricks/Documents/coding/kitletics/scripts/lib/catalog-media-audit.ts
+  403:13  warning  'missing' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+/Users/LMeyeridricks/Documents/coding/kitletics/scripts/lib/logo-hero-detect.ts
+  21:3  warning  Unused eslint-disable directive (no problems were reported from '@typescript-eslint/no-require-imports')
+
+/Users/LMeyeridricks/Documents/coding/kitletics/scripts/racket-launch-qa.ts
+  10:10  warning  'offers' is defined but never used  @typescript-eslint/no-unused-vars
+
+/Users/LMeyeridricks/Documents/coding/kitletics/scripts/review-catalog-backfill.ts
+  206:31  warning  'reasons' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+/Users/LMeyeridricks/Documents/coding/kitletics/scripts/running-shoes-media-qa.ts
+  46:5  warning  'placeholder' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+/Users/LMeyeridricks/Documents/coding/kitletics/scripts/site-perf-baseline.ts
+  75:11  warning  'num' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+/Users/LMeyeridricks/Documents/coding/kitletics/scripts/tmp/prelaunch-01-catalog-inventory.ts
+  220:7   warning  'subcategoryById' is assigned a value but never used  @typescript-eslint/no-unused-vars
+  361:11  warning  'offerCount' is assigned a value but never used       @typescript-eslint/no-unused-vars
+
+/Users/LMeyeridricks/Documents/coding/kitletics/scripts/tmp/prelaunch-02-product-quality.ts
+  296:16  warning  'og' is assigned a value but never used           @typescript-eslint/no-unused-vars
+  452:9   warning  'competitors' is assigned a value but never used  @typescript-eslint/no-unused-vars
+  453:9   warning  'rels' is assigned a value but never used         @typescript-eslint/no-unused-vars
+
+/Users/LMeyeridricks/Documents/coding/kitletics/scripts/tmp/prelaunch-03-editorial-quality.ts
+   30:3  warning  'BuyingGuide' is defined but never used         @typescript-eslint/no-unused-vars
+   33:3  warning  'GearSetup' is defined but never used           @typescript-eslint/no-unused-vars
+   57:7  warning  'DEV' is assigned a value but never used        @typescript-eslint/no-unused-vars
+  145:7  warning  'brandName' is assigned a value but never used  @typescript-eslint/no-unused-vars
+  367:9  warning  'brand' is assigned a value but never used      @typescript-eslint/no-unused-vars
+
+/Users/LMeyeridricks/Documents/coding/kitletics/scripts/tmp/prelaunch-04-seo-indexation.ts
+   17:24  warning  'rawBestGuides' is defined but never used             @typescript-eslint/no-unused-vars
+   19:19  warning  'rawBuyingGuides' is defined but never used           @typescript-eslint/no-unused-vars
+   22:34  warning  'getCategories' is defined but never used             @typescript-eslint/no-unused-vars
+   22:49  warning  'getBrands' is defined but never used                 @typescript-eslint/no-unused-vars
+  968:7   warning  'disciplineSlugs' is assigned a value but never used  @typescript-eslint/no-unused-vars
+  969:19  warning  's' is defined but never used                         @typescript-eslint/no-unused-vars
+
+/Users/LMeyeridricks/Documents/coding/kitletics/scripts/tmp/prelaunch-05-architecture-links.ts
+  379:14  warning  'p' is defined but never used               @typescript-eslint/no-unused-vars
+  582:9   warning  'froms' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+/Users/LMeyeridricks/Documents/coding/kitletics/scripts/tmp/prelaunch-06-media-offers-trust.ts
+  572:14  warning  'e' is defined but never used  @typescript-eslint/no-unused-vars
+
+/Users/LMeyeridricks/Documents/coding/kitletics/scripts/tmp/prelaunch-07-route-lab.mjs
+  397:9  warning  'fullViewports' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+/Users/LMeyeridricks/Documents/coding/kitletics/src/components/alternatives/SourceProductSummary.tsx
+  1:8  warning  'Image' is defined but never used  @typescript-eslint/no-unused-vars
+
+/Users/LMeyeridricks/Documents/coding/kitletics/src/components/builders/HomeGymBuilderClient.tsx
+  183:6  warning  React Hook useEffect has a missing dependency: 'applyShared'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+/Users/LMeyeridricks/Documents/coding/kitletics/src/components/compare/CompareExperience.tsx
+  5:8  warning  'Link' is defined but never used  @typescript-eslint/no-unused-vars
+
+/Users/LMeyeridricks/Documents/coding/kitletics/src/components/compare/ComparisonPage.tsx
+  7:10  warning  'AddToCompareButton' is defined but never used  @typescript-eslint/no-unused-vars
+
+/Users/LMeyeridricks/Documents/coding/kitletics/src/components/discovery/sections.tsx
+  1:8  warning  'Link' is defined but never used  @typescript-eslint/no-unused-vars
+
+/Users/LMeyeridricks/Documents/coding/kitletics/src/components/finder/FinderFlow.tsx
+   5:8  warning  'Link' is defined but never used            @typescript-eslint/no-unused-vars
+  18:3  warning  'stepIsComplete' is defined but never used  @typescript-eslint/no-unused-vars
+
+/Users/LMeyeridricks/Documents/coding/kitletics/src/components/search/SearchFilters.tsx
+  211:9  warning  The 'baseOpts' object makes the dependencies of useMemo Hook (at line 388) change on every render. Move it inside the useMemo callback. Alternatively, wrap the initialization of 'baseOpts' in its own useMemo() Hook  react-hooks/exhaustive-deps
+
+/Users/LMeyeridricks/Documents/coding/kitletics/src/components/sport-hub/SportHubBestStrip.tsx
+  11:3  warning  'SportHubPageData' is defined but never used  @typescript-eslint/no-unused-vars
+
+/Users/LMeyeridricks/Documents/coding/kitletics/src/content/running/best-guides.ts
+  10:7  warning  'watchCriteria' is assigned a value but never used  @typescript-eslint/no-unused-vars
+  12:7  warning  'hrmCriteria' is assigned a value but never used    @typescript-eslint/no-unused-vars
+  40:7  warning  'vestCriteria' is assigned a value but never used   @typescript-eslint/no-unused-vars
+
+/Users/LMeyeridricks/Documents/coding/kitletics/src/content/running/weak-cats-launch-ready.ts
+  1068:7  warning  'EXISTING_REVIEW_LINKS' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+/Users/LMeyeridricks/Documents/coding/kitletics/src/domain/builders/home-gym.ts
+  196:7  warning  'ROLE_CATEGORY' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+/Users/LMeyeridricks/Documents/coding/kitletics/src/domain/site-quality/fix-and-report.ts
+   5:10  warning  'issue' is defined but never used         @typescript-eslint/no-unused-vars
+  24:11  warning  'hit' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+/Users/LMeyeridricks/Documents/coding/kitletics/src/domain/site-quality/issues.ts
+  22:21  warning  '_drop' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+/Users/LMeyeridricks/Documents/coding/kitletics/src/lib/catalog/assemble.ts
+  35:3  warning  'isLaunchListable' is defined but never used  @typescript-eslint/no-unused-vars
+
+/Users/LMeyeridricks/Documents/coding/kitletics/src/lib/comparison/product-index-search.ts
+  3:3  warning  'CompareCategoryOption' is defined but never used  @typescript-eslint/no-unused-vars
+
+/Users/LMeyeridricks/Documents/coding/kitletics/src/lib/comparison/product-index.ts
+  18:3  warning  'findIndexItemsBySlugs' is defined but never used  @typescript-eslint/no-unused-vars
+
+/Users/LMeyeridricks/Documents/coding/kitletics/src/lib/guides/enrich-explainer-visuals.ts
+  753:24  warning  '_drop' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+/Users/LMeyeridricks/Documents/coding/kitletics/src/lib/review/review-longform.ts
+   360:37  warning  'key' is defined but never used       @typescript-eslint/no-unused-vars
+  1294:3   warning  '_topic' is defined but never used    @typescript-eslint/no-unused-vars
+  1295:3   warning  '_product' is defined but never used  @typescript-eslint/no-unused-vars
+  1296:3   warning  '_review' is defined but never used   @typescript-eslint/no-unused-vars
+
+/Users/LMeyeridricks/Documents/coding/kitletics/src/lib/setups/get-gear-setup-page-data.ts
+  11:3  warning  'BuyingGuide' is defined but never used  @typescript-eslint/no-unused-vars
+  12:3  warning  'BestGuide' is defined but never used    @typescript-eslint/no-unused-vars
+
+/Users/LMeyeridricks/Documents/coding/kitletics/src/repositories/commerce.ts
+  27:3  warning  'shouldDisplayNumericPrice' is defined but never used  @typescript-eslint/no-unused-vars
+
+/Users/LMeyeridricks/Documents/coding/kitletics/tests/launch-eligibility.test.ts
+  15:3  warning  'getReviews' is defined but never used  @typescript-eslint/no-unused-vars
+
+✖ 63 problems (0 errors, 63 warnings)
+  0 errors and 1 warning potentially fixable with the `--fix` option.
+

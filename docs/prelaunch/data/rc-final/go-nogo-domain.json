@@ -1,0 +1,212 @@
+{
+  "measuredAt": "2026-09-09T18:04:39.062Z",
+  "sitemapCount": 660,
+  "best": {
+    "indexable": 44,
+    "indexableNotLaunchReady": [],
+    "ok": true
+  },
+  "reviews": {
+    "indexable": 43,
+    "indexableDuplicativeOrNeedsDiff": [],
+    "ok": true
+  },
+  "runningProducts": {
+    "total": 367,
+    "launchReady": 362,
+    "indexable": 251,
+    "indexableNotLaunchReady": []
+  },
+  "verticals": [
+    {
+      "slug": "running",
+      "id": "sport-running",
+      "mode": "enabled",
+      "disposition": "INDEXABLE",
+      "indexable": true
+    },
+    {
+      "slug": "fitness",
+      "id": "sport-training",
+      "mode": "selective",
+      "disposition": "PUBLIC_NOINDEX",
+      "indexable": false
+    },
+    {
+      "slug": "hyrox",
+      "id": "sport-hyrox",
+      "mode": "disabled",
+      "disposition": "HIDDEN_404",
+      "indexable": false
+    },
+    {
+      "slug": "calisthenics",
+      "id": "sport-calisthenics",
+      "mode": "disabled",
+      "disposition": "PUBLIC_NOINDEX",
+      "indexable": false
+    },
+    {
+      "slug": "combat",
+      "id": "sport-combat",
+      "mode": "disabled",
+      "disposition": "HIDDEN_404",
+      "indexable": false
+    },
+    {
+      "slug": "racket",
+      "id": "sport-racket",
+      "mode": "disabled",
+      "disposition": "PUBLIC_NOINDEX",
+      "indexable": false
+    },
+    {
+      "slug": "padel",
+      "id": "sport-padel",
+      "mode": "disabled",
+      "disposition": "PUBLIC_NOINDEX",
+      "indexable": false
+    },
+    {
+      "slug": "tennis",
+      "id": "sport-tennis",
+      "mode": "disabled",
+      "disposition": "PUBLIC_NOINDEX",
+      "indexable": false
+    },
+    {
+      "slug": "pickleball",
+      "id": "sport-pickleball",
+      "mode": "disabled",
+      "disposition": "PUBLIC_NOINDEX",
+      "indexable": false
+    },
+    {
+      "slug": "badminton",
+      "id": "sport-badminton",
+      "mode": "disabled",
+      "disposition": "PUBLIC_NOINDEX",
+      "indexable": false
+    },
+    {
+      "slug": "squash",
+      "id": "sport-squash",
+      "mode": "disabled",
+      "disposition": "PUBLIC_NOINDEX",
+      "indexable": false
+    },
+    {
+      "slug": "cycling",
+      "id": "sport-cycling",
+      "mode": "disabled",
+      "disposition": "HIDDEN_404",
+      "indexable": false
+    },
+    {
+      "slug": "swimming",
+      "id": "sport-swimming",
+      "mode": "disabled",
+      "disposition": "HIDDEN_404",
+      "indexable": false
+    },
+    {
+      "slug": "watersports",
+      "id": "sport-watersports",
+      "mode": "disabled",
+      "disposition": "HIDDEN_404",
+      "indexable": false
+    },
+    {
+      "slug": "diving",
+      "id": "sport-diving",
+      "mode": "disabled",
+      "disposition": "HIDDEN_404",
+      "indexable": false
+    },
+    {
+      "slug": "fishing",
+      "id": "sport-fishing",
+      "mode": "disabled",
+      "disposition": "HIDDEN_404",
+      "indexable": false
+    },
+    {
+      "slug": "target",
+      "id": "sport-target",
+      "mode": "disabled",
+      "disposition": "HIDDEN_404",
+      "indexable": false
+    },
+    {
+      "slug": "indoor",
+      "id": "sport-indoor",
+      "mode": "disabled",
+      "disposition": "HIDDEN_404",
+      "indexable": false
+    },
+    {
+      "slug": "winter",
+      "id": "sport-winter",
+      "mode": "disabled",
+      "disposition": "HIDDEN_404",
+      "indexable": false
+    },
+    {
+      "slug": "recovery",
+      "id": "sport-recovery",
+      "mode": "disabled",
+      "disposition": "HIDDEN_404",
+      "indexable": false
+    },
+    {
+      "slug": "recreation",
+      "id": "sport-recreation",
+      "mode": "disabled",
+      "disposition": "HIDDEN_404",
+      "indexable": false
+    }
+  ],
+  "draftOrFutureInSitemap": [],
+  "orphans": {
+    "indexableNotInSitemapCount": 0,
+    "indexableNotInSitemap": [],
+    "sitemapEntityNotIndexableCount": 0,
+    "sitemapEntityNotIndexable": []
+  },
+  "commission": {
+    "fileMentionsCommission": true,
+    "intentionalAbsence": true,
+    "influencesRanking": false
+  },
+  "trustRoutes": [
+    {
+      "path": "/methodology",
+      "present": true
+    },
+    {
+      "path": "/how-we-review",
+      "present": true
+    },
+    {
+      "path": "/editorial-standards",
+      "present": false
+    },
+    {
+      "path": "/affiliate-disclosure",
+      "present": true
+    },
+    {
+      "path": "/about",
+      "present": true
+    },
+    {
+      "path": "/scoring-methodology",
+      "present": true
+    }
+  ],
+  "aggregateRatingFiles": [
+    "src/app/scoring-methodology/page.tsx",
+    "src/domain/site-quality/audits/media-schema.ts",
+    "src/app/editorial-policy/page.tsx"
+  ]
+}

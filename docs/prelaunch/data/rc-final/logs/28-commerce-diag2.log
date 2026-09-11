@@ -1,0 +1,79 @@
+{
+  "raw": 1271,
+  "materialized": 1293,
+  "active": 1293,
+  "urlOk": 1293,
+  "displayable": 1293,
+  "states": {
+    "VALID": 18,
+    "LIKELY_VALID": 37,
+    "UNKNOWN": 5,
+    "undefined": 1233
+  }
+}
+shoes NL displayable 83 / 83
+novablast [
+  {
+    id: 'offer-nb6-nl-asics',
+    region: 'NL',
+    price: 160,
+    currency: 'EUR',
+    state: 'VALID',
+    active: true,
+    displayable: true
+  },
+  {
+    id: 'offer-nb6-nl-a4r',
+    region: 'NL',
+    price: 154,
+    currency: 'EUR',
+    state: 'VALID',
+    active: true,
+    displayable: true
+  },
+  {
+    id: 'offer-nb6-nl-amz',
+    region: 'NL',
+    price: 159,
+    currency: 'EUR',
+    state: 'LIKELY_VALID',
+    active: true,
+    displayable: true
+  },
+  {
+    id: 'offer-nb6-de',
+    region: 'DE',
+    price: 159,
+    currency: 'EUR',
+    state: 'LIKELY_VALID',
+    active: true,
+    displayable: true
+  },
+  {
+    id: 'offer-nb6-uk',
+    region: 'UK',
+    price: 140,
+    currency: 'GBP',
+    state: 'LIKELY_VALID',
+    active: true,
+    displayable: true
+  },
+  {
+    id: 'offer-nb6-us',
+    region: 'US',
+    price: 150,
+    currency: 'USD',
+    state: 'LIKELY_VALID',
+    active: true,
+    displayable: true
+  },
+  {
+    id: 'offer-nb6-nl-rws',
+    region: 'NL',
+    price: 149,
+    currency: 'EUR',
+    state: 'UNKNOWN',
+    active: true,
+    displayable: true
+  }
+]

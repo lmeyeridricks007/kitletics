@@ -1,0 +1,504 @@
+{
+  "base": "http://127.0.0.1:3010",
+  "testedAt": "2026-09-11T09:48:55.872Z",
+  "summary": {
+    "checks": 47,
+    "passed": 47,
+    "failed": 0
+  },
+  "findings": [
+    {
+      "scope": "header",
+      "check": "skip-link first tab",
+      "ok": true,
+      "detail": {
+        "tag": "A",
+        "role": null,
+        "name": "Skip to content",
+        "href": "#main-content",
+        "className": "skip-link",
+        "inDialog": false,
+        "outline": "rgb(200, 245, 66) solid 2px",
+        "outlineWidth": "2px"
+      }
+    },
+    {
+      "scope": "header",
+      "check": "skip-link focus visible",
+      "ok": true,
+      "detail": {
+        "ok": true,
+        "tag": "A",
+        "name": "Skip to content",
+        "outline": "rgb(200, 245, 66) solid 2px",
+        "transform": "none"
+      }
+    },
+    {
+      "scope": "header",
+      "check": "skip-link lands on #main-content",
+      "ok": true,
+      "detail": {
+        "afterSkip": "main-content"
+      }
+    },
+    {
+      "scope": "header",
+      "check": "logo reachable",
+      "ok": true,
+      "detail": {
+        "tag": "A",
+        "role": null,
+        "name": "Kitletics home",
+        "href": "/",
+        "className": "group inline-flex items-center gap-2.5 font-display text-[15px] font-bold tracki",
+        "inDialog": false,
+        "outline": "rgb(200, 245, 66) solid 2px",
+        "outlineWidth": "2px"
+      }
+    },
+    {
+      "scope": "header",
+      "check": "primary nav Running reachable",
+      "ok": true,
+      "detail": {
+        "tag": "A",
+        "role": null,
+        "name": "Running",
+        "href": "/running",
+        "className": "relative inline-flex items-center gap-1 px-3 py-2 text-[13px] font-medium transi",
+        "inDialog": false,
+        "outline": "rgba(255, 255, 255, 0.7) solid 2px",
+        "outlineWidth": "2px"
+      }
+    },
+    {
+      "scope": "header",
+      "check": "mega or next nav after Running",
+      "ok": true,
+      "detail": {
+        "inMega": false
+      }
+    },
+    {
+      "scope": "header",
+      "check": "More menu reachable",
+      "ok": true,
+      "detail": {
+        "tag": "BUTTON",
+        "role": null,
+        "name": "More",
+        "href": null,
+        "className": "inline-flex items-center gap-1 px-3 py-2 text-[13px] font-medium text-white/70 t",
+        "inDialog": false,
+        "outline": "rgba(255, 255, 255, 0.7) solid 2px",
+        "outlineWidth": "2px"
+      }
+    },
+    {
+      "scope": "header",
+      "check": "inline search field reachable",
+      "ok": true,
+      "detail": {
+        "tag": "INPUT",
+        "role": null,
+        "name": "",
+        "href": null,
+        "className": "min-w-0 flex-1 bg-transparent text-sm text-white outline-none placeholder:text-w",
+        "inDialog": false,
+        "outline": "rgb(200, 245, 66) solid 2px",
+        "outlineWidth": "2px"
+      }
+    },
+    {
+      "scope": "search",
+      "check": "⌘K opens overlay",
+      "ok": true,
+      "detail": {}
+    },
+    {
+      "scope": "search",
+      "check": "focus trapped in dialog",
+      "ok": true,
+      "detail": {
+        "insideAtStart": true,
+        "trapped": true,
+        "samples": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ]
+      }
+    },
+    {
+      "scope": "search",
+      "check": "Escape closes",
+      "ok": true,
+      "detail": {}
+    },
+    {
+      "scope": "search",
+      "check": "focus returns to trigger",
+      "ok": true,
+      "detail": {
+        "tag": "INPUT",
+        "role": null,
+        "name": "",
+        "href": null,
+        "className": "min-w-0 flex-1 bg-transparent text-sm text-white outline-none placeholder:text-w",
+        "inDialog": false,
+        "outline": "rgb(200, 245, 66) solid 2px",
+        "outlineWidth": "2px"
+      }
+    },
+    {
+      "scope": "header",
+      "check": "ArrowDown opens Running mega",
+      "ok": true,
+      "detail": {}
+    },
+    {
+      "scope": "header",
+      "check": "Escape closes mega",
+      "ok": true,
+      "detail": {}
+    },
+    {
+      "scope": "mobile-nav",
+      "check": "Open menu reachable",
+      "ok": true,
+      "detail": {}
+    },
+    {
+      "scope": "mobile-nav",
+      "check": "drawer traps focus",
+      "ok": true,
+      "detail": {
+        "insideAtStart": true,
+        "trapped": true,
+        "samples": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ]
+      }
+    },
+    {
+      "scope": "mobile-nav",
+      "check": "Escape restores Open menu",
+      "ok": true,
+      "detail": {
+        "tag": "BUTTON",
+        "role": null,
+        "name": "Open menu",
+        "href": null,
+        "className": "inline-flex size-9 items-center justify-center rounded-md border border-white/15",
+        "inDialog": false,
+        "outline": "rgb(200, 245, 66) solid 2px",
+        "outlineWidth": "2px"
+      }
+    },
+    {
+      "scope": "search",
+      "check": "mobile overlay traps focus",
+      "ok": true,
+      "detail": {
+        "insideAtStart": true,
+        "trapped": true,
+        "samples": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ]
+      }
+    },
+    {
+      "scope": "search",
+      "check": "mobile overlay Escape restores trigger",
+      "ok": true,
+      "detail": {
+        "tag": "BUTTON",
+        "role": null,
+        "name": "Open search overlay",
+        "href": null,
+        "className": "inline-flex size-9 items-center justify-center rounded-md border border-white/15",
+        "inDialog": false,
+        "outline": "rgb(200, 245, 66) solid 2px",
+        "outlineWidth": "2px"
+      }
+    },
+    {
+      "scope": "filters",
+      "check": "Filters button reachable",
+      "ok": true,
+      "detail": {}
+    },
+    {
+      "scope": "filters",
+      "check": "drawer traps focus",
+      "ok": true,
+      "detail": {
+        "insideAtStart": true,
+        "trapped": true,
+        "samples": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ]
+      }
+    },
+    {
+      "scope": "filters",
+      "check": "toggle checkbox with Space",
+      "ok": true,
+      "detail": {}
+    },
+    {
+      "scope": "filters",
+      "check": "Escape restores Filters trigger",
+      "ok": true,
+      "detail": {
+        "tag": "BUTTON",
+        "role": null,
+        "name": "Filters",
+        "href": null,
+        "className": "inline-flex h-10 items-center gap-2 rounded-md border border-border bg-surface p",
+        "inDialog": false,
+        "outline": "rgb(200, 245, 66) solid 2px",
+        "outlineWidth": "2px"
+      }
+    },
+    {
+      "scope": "filters",
+      "check": "Men/Women selector present",
+      "ok": true,
+      "detail": {}
+    },
+    {
+      "scope": "filters",
+      "check": "sort control present",
+      "ok": true,
+      "detail": {}
+    },
+    {
+      "scope": "pdp",
+      "check": "variant/fit radiogroup",
+      "ok": true,
+      "detail": {}
+    },
+    {
+      "scope": "pdp",
+      "check": "fit radios respond to arrows",
+      "ok": true,
+      "detail": {
+        "checked": 1
+      }
+    },
+    {
+      "scope": "pdp",
+      "check": "gallery controls keyboard-reachable",
+      "ok": true,
+      "detail": {
+        "note": "single-image PDP — no extra gallery controls (expected)"
+      }
+    },
+    {
+      "scope": "pdp",
+      "check": "offer links present",
+      "ok": true,
+      "detail": {
+        "amazonish": 0
+      }
+    },
+    {
+      "scope": "pdp",
+      "check": "details/accordion",
+      "ok": true,
+      "detail": {
+        "note": "native details absent on this PDP (no failure)"
+      }
+    },
+    {
+      "scope": "pdp",
+      "check": "compare control present",
+      "ok": true,
+      "detail": {}
+    },
+    {
+      "scope": "pdp",
+      "check": "alternatives/related links",
+      "ok": true,
+      "detail": {
+        "productLinks": 7
+      }
+    },
+    {
+      "scope": "best",
+      "check": "scrollable table region",
+      "ok": true,
+      "detail": {
+        "regions": 1,
+        "tables": 1
+      }
+    },
+    {
+      "scope": "best",
+      "check": "table region focus visible",
+      "ok": true,
+      "detail": {
+        "ok": true,
+        "tag": "DIV",
+        "name": "How the top picks differ",
+        "outline": "rgb(200, 245, 66) solid 2px",
+        "transform": "none"
+      }
+    },
+    {
+      "scope": "best",
+      "check": "jump navigation",
+      "ok": true,
+      "detail": {
+        "count": 32
+      }
+    },
+    {
+      "scope": "best",
+      "check": "Finder CTA",
+      "ok": true,
+      "detail": {}
+    },
+    {
+      "scope": "best",
+      "check": "product links",
+      "ok": true,
+      "detail": {}
+    },
+    {
+      "scope": "guide",
+      "check": "expand/collapse or in-page links",
+      "ok": true,
+      "detail": {}
+    },
+    {
+      "scope": "guide",
+      "check": "Finder CTA",
+      "ok": true,
+      "detail": {}
+    },
+    {
+      "scope": "compare",
+      "check": "product selector combobox",
+      "ok": true,
+      "detail": {}
+    },
+    {
+      "scope": "compare",
+      "check": "selected product / remove",
+      "ok": true,
+      "detail": {}
+    },
+    {
+      "scope": "compare",
+      "check": "remove via keyboard",
+      "ok": true,
+      "detail": {}
+    },
+    {
+      "scope": "compare",
+      "check": "customize dialog trap",
+      "ok": true,
+      "detail": {
+        "insideAtStart": true,
+        "trapped": true,
+        "samples": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ]
+      }
+    },
+    {
+      "scope": "compare",
+      "check": "customize Escape restores trigger",
+      "ok": true,
+      "detail": {
+        "tag": "BUTTON",
+        "role": null,
+        "name": "Customize categories & metrics",
+        "href": null,
+        "className": "inline-flex items-center gap-1.5 text-[13px] font-medium text-link hover:underli",
+        "inDialog": false,
+        "outline": "rgb(200, 245, 66) solid 2px",
+        "outlineWidth": "2px"
+      }
+    },
+    {
+      "scope": "finder",
+      "check": "completed with keyboard",
+      "ok": true,
+      "detail": {
+        "steps": 7,
+        "url": "http://127.0.0.1:3010/tools/running-shoe-finder/results?s=eyJ2IjoidjEiLCJmIjoicnVubmluZy1zaG9lLWZpbmRlciIsInIiOnsic2l6aW5nUmFuZ2UiOiJ3b21lbiIsInRlcnJhaW4iOiJyb2FkIiwicHJpbWFyeVVzZSI6ImRhaWx5LXRyYWluaW5nIiwiZGlzdGFuY2VzIjpbInVuZGVyLTVrIl0sImN1c2hpb25pbmciOiJtaW5pbWFsIiwic3RhYmlsaXR5Ijoibm8iLCJ3aWR0aCI6InN0YW5kYXJkIiwiZXhwZXJpZW5jZSI6ImJlZ2lubmVyIiwiYnVkZ2V0IjoidW5kZXItMTAwIiwicHJpb3JpdGllcyI6WyJjb21mb3J0Il19fQ"
+      }
+    },
+    {
+      "scope": "finder",
+      "check": "product links on results",
+      "ok": true,
+      "detail": {
+        "count": 17
+      }
+    },
+    {
+      "scope": "finder",
+      "check": "Compare on results",
+      "ok": true,
+      "detail": {}
+    }
+  ]
+}

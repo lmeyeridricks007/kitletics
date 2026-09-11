@@ -1,0 +1,171 @@
+{
+  "generatedAt": "2026-09-06",
+  "runningShoesPublishedVisible": 83,
+  "gpsWatches": {
+    "n": 33,
+    "specCoverage": {
+      "displayType": 33,
+      "touchscreen": 33,
+      "multiBandGps": 33,
+      "maps": 33,
+      "music": 33,
+      "battery": 0,
+      "weight": 21
+    }
+  },
+  "genderFit": [
+    [
+      "men,women",
+      79
+    ],
+    [
+      "unisex",
+      4
+    ]
+  ],
+  "audienceVariants": {
+    "men": 79,
+    "women": 79,
+    "unisex": 4
+  },
+  "distributions": {
+    "weight": {
+      "n": 83,
+      "min": 170,
+      "p25": 240,
+      "med": 275,
+      "p75": 292,
+      "max": 315
+    },
+    "drop": {
+      "n": 83,
+      "min": 0,
+      "p25": 6,
+      "med": 8,
+      "p75": 8,
+      "max": 12
+    },
+    "heelStack": {
+      "n": 83,
+      "min": 23,
+      "p25": 34,
+      "med": 37,
+      "p75": 39,
+      "max": 45.5
+    }
+  },
+  "plateMaterial": [
+    [
+      "none",
+      68
+    ],
+    [
+      "nylon",
+      3
+    ],
+    [
+      "composite",
+      2
+    ],
+    [
+      "carbon",
+      10
+    ]
+  ],
+  "cushionLevel": [
+    [
+      "high",
+      39
+    ],
+    [
+      "maximum",
+      19
+    ],
+    [
+      "medium",
+      15
+    ],
+    [
+      "low",
+      1
+    ],
+    [
+      "moderate",
+      9
+    ]
+  ],
+  "terrain": [
+    [
+      "road,treadmill",
+      11
+    ],
+    [
+      "road",
+      55
+    ],
+    [
+      "road,track",
+      2
+    ],
+    [
+      "trail",
+      11
+    ],
+    [
+      "trail,mixed",
+      2
+    ],
+    [
+      "trail,road",
+      1
+    ],
+    [
+      "road,trail",
+      1
+    ]
+  ],
+  "stability": [
+    [
+      "neutral",
+      62
+    ],
+    [
+      "stability",
+      12
+    ],
+    [
+      "mild-stability",
+      9
+    ]
+  ],
+  "offers": {
+    "n": 1293,
+    "byRegion": [
+      [
+        "NL",
+        738
+      ],
+      [
+        "UK",
+        278
+      ],
+      [
+        "US",
+        3
+      ],
+      [
+        "DE",
+        274
+      ]
+    ]
+  },
+  "nlShoeOffers": {
+    "n": 92,
+    "min": 99,
+    "med": 150,
+    "max": 300
+  },
+  "techGuideCount": 42,
+  "guidesTotal": 68,
+  "bestVisible": 58
+}

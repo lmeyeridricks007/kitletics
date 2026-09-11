@@ -1,0 +1,263 @@
+{
+  "measuredAt": "2026-09-11T09:48:09.977Z",
+  "base": "http://127.0.0.1:3010",
+  "budgetBytes": 2621440,
+  "budgetMb": 2.5,
+  "routes": [
+    {
+      "id": "home",
+      "path": "/",
+      "status": 200,
+      "totalBytes": 1209657,
+      "imageBytes": 133918,
+      "jsBytes": 489493,
+      "totalMb": 1.15,
+      "imageMb": 0.13,
+      "withinBudget": true,
+      "noindex": false,
+      "axe": {
+        "violations": 0,
+        "seriousCritical": 0,
+        "seriousCriticalIds": [],
+        "incomplete": 1,
+        "incompleteIds": [
+          "color-contrast"
+        ]
+      }
+    },
+    {
+      "id": "running",
+      "path": "/running",
+      "status": 200,
+      "totalBytes": 1505781,
+      "imageBytes": 266230,
+      "jsBytes": 488498,
+      "totalMb": 1.44,
+      "imageMb": 0.25,
+      "withinBudget": true,
+      "noindex": false,
+      "axe": {
+        "violations": 0,
+        "seriousCritical": 0,
+        "seriousCriticalIds": [],
+        "incomplete": 2,
+        "incompleteIds": [
+          "color-contrast",
+          "link-in-text-block"
+        ]
+      }
+    },
+    {
+      "id": "shoes",
+      "path": "/running/shoes",
+      "status": 200,
+      "totalBytes": 1309289,
+      "imageBytes": 71547,
+      "jsBytes": 523469,
+      "totalMb": 1.25,
+      "imageMb": 0.07,
+      "withinBudget": true,
+      "noindex": false,
+      "axe": {
+        "violations": 0,
+        "seriousCritical": 0,
+        "seriousCriticalIds": [],
+        "incomplete": 2,
+        "incompleteIds": [
+          "aria-prohibited-attr",
+          "color-contrast"
+        ]
+      }
+    },
+    {
+      "id": "daily-trainers",
+      "path": "/running/shoes/daily-trainers",
+      "status": 200,
+      "totalBytes": 1237317,
+      "imageBytes": 108883,
+      "jsBytes": 511056,
+      "totalMb": 1.18,
+      "imageMb": 0.1,
+      "withinBudget": true,
+      "noindex": false,
+      "axe": {
+        "violations": 0,
+        "seriousCritical": 0,
+        "seriousCriticalIds": [],
+        "incomplete": 1,
+        "incompleteIds": [
+          "color-contrast"
+        ]
+      }
+    },
+    {
+      "id": "pdp",
+      "path": "/products/nike-vomero-18",
+      "status": 200,
+      "totalBytes": 1163352,
+      "imageBytes": 64723,
+      "jsBytes": 498838,
+      "totalMb": 1.11,
+      "imageMb": 0.06,
+      "withinBudget": true,
+      "noindex": false,
+      "axe": {
+        "violations": 0,
+        "seriousCritical": 0,
+        "seriousCriticalIds": [],
+        "incomplete": 0,
+        "incompleteIds": []
+      }
+    },
+    {
+      "id": "review",
+      "path": "/reviews/nike-vomero-18",
+      "status": 200,
+      "totalBytes": 1246398,
+      "imageBytes": 60432,
+      "jsBytes": 483185,
+      "totalMb": 1.19,
+      "imageMb": 0.06,
+      "withinBudget": true,
+      "noindex": false,
+      "axe": {
+        "violations": 0,
+        "seriousCritical": 0,
+        "seriousCriticalIds": [],
+        "incomplete": 1,
+        "incompleteIds": [
+          "color-contrast"
+        ]
+      }
+    },
+    {
+      "id": "best",
+      "path": "/best/running-shoes",
+      "status": 200,
+      "totalBytes": 1550026,
+      "imageBytes": 152131,
+      "jsBytes": 491715,
+      "totalMb": 1.48,
+      "imageMb": 0.15,
+      "withinBudget": true,
+      "noindex": false,
+      "axe": {
+        "violations": 0,
+        "seriousCritical": 0,
+        "seriousCriticalIds": [],
+        "incomplete": 1,
+        "incompleteIds": [
+          "color-contrast"
+        ]
+      }
+    },
+    {
+      "id": "guide",
+      "path": "/guides/how-to-choose-running-shoes",
+      "status": 200,
+      "totalBytes": 1411352,
+      "imageBytes": 133619,
+      "jsBytes": 493562,
+      "totalMb": 1.35,
+      "imageMb": 0.13,
+      "withinBudget": true,
+      "noindex": false,
+      "axe": {
+        "violations": 0,
+        "seriousCritical": 0,
+        "seriousCriticalIds": [],
+        "incomplete": 2,
+        "incompleteIds": [
+          "color-contrast",
+          "duplicate-id-aria"
+        ]
+      }
+    },
+    {
+      "id": "brand",
+      "path": "/brands/nike",
+      "status": 200,
+      "totalBytes": 1146865,
+      "imageBytes": 33048,
+      "jsBytes": 474183,
+      "totalMb": 1.09,
+      "imageMb": 0.03,
+      "withinBudget": true,
+      "robots": "index, follow",
+      "noindex": false,
+      "axe": {
+        "violations": 0,
+        "seriousCritical": 0,
+        "seriousCriticalIds": [],
+        "incomplete": 0,
+        "incompleteIds": []
+      }
+    },
+    {
+      "id": "compare",
+      "path": "/compare",
+      "status": 200,
+      "totalBytes": 1755796,
+      "imageBytes": 7170,
+      "jsBytes": 571940,
+      "totalMb": 1.67,
+      "imageMb": 0.01,
+      "withinBudget": true,
+      "noindex": false,
+      "axe": {
+        "violations": 0,
+        "seriousCritical": 0,
+        "seriousCriticalIds": [],
+        "incomplete": 0,
+        "incompleteIds": []
+      }
+    },
+    {
+      "id": "finder",
+      "path": "/tools/running-shoe-finder",
+      "status": 200,
+      "totalBytes": 739494,
+      "imageBytes": 3737,
+      "jsBytes": 536184,
+      "totalMb": 0.71,
+      "imageMb": 0,
+      "withinBudget": true,
+      "noindex": false,
+      "axe": {
+        "violations": 0,
+        "seriousCritical": 0,
+        "seriousCriticalIds": [],
+        "incomplete": 1,
+        "incompleteIds": [
+          "color-contrast"
+        ]
+      }
+    },
+    {
+      "id": "search",
+      "path": "/search?q=vomero",
+      "status": 200,
+      "totalBytes": 1767492,
+      "imageBytes": 841586,
+      "jsBytes": 473378,
+      "totalMb": 1.69,
+      "imageMb": 0.8,
+      "withinBudget": true,
+      "robots": "noindex, follow",
+      "noindex": true,
+      "axe": {
+        "violations": 0,
+        "seriousCritical": 0,
+        "seriousCriticalIds": [],
+        "incomplete": 0,
+        "incompleteIds": []
+      }
+    }
+  ],
+  "gates": {
+    "allWithinBudget": true,
+    "zeroAxeSeriousCritical": true
+  },
+  "overBudget": [],
+  "axeFail": []
+}

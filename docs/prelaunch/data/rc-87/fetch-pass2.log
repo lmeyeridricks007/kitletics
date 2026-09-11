@@ -1,0 +1,10 @@
+deepened garmin-forerunner-970 4 side,detail,rear,top
+deepened garmin-enduro-3 4 side,detail,rear,top
+empty garmin-hrm-600
+deepened new-balance-fresh-foam-x-1080-v14 4 side,outsole,rear,detail
+deepened new-balance-fuelcell-supercomp-trainer-v3 4 side,detail,rear,outsole
+empty asics-superblast-2
+{
+  "deepened": 4,
+  "failed": 2
+}

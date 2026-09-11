@@ -1,0 +1,123 @@
+measure /
+measure /running
+measure /running/shoes
+measure /running/shoes/daily-trainers
+measure /products/nike-vomero-18
+measure /best/running-shoes
+measure /guides/how-to-choose-running-shoes
+measure /compare
+measure /tools/running-shoe-finder
+measure /brands/nike
+{
+  "gates": {
+    "compareWithinBudget": true,
+    "dailyTrainersWithinBudget": true,
+    "axeSeriousCriticalZero": true,
+    "anyAggregateRating": false,
+    "anyFalseFirstHand": false
+  },
+  "totals": [
+    {
+      "id": "home",
+      "mb": 1.21,
+      "okBudget": true,
+      "axeSC": 0,
+      "status": 200
+    },
+    {
+      "id": "running",
+      "mb": 1.45,
+      "okBudget": true,
+      "axeSC": 0,
+      "status": 200
+    },
+    {
+      "id": "shoes",
+      "mb": 1.27,
+      "okBudget": true,
+      "axeSC": 0,
+      "status": 200
+    },
+    {
+      "id": "daily-trainers",
+      "mb": 1.2,
+      "okBudget": true,
+      "axeSC": 0,
+      "status": 200
+    },
+    {
+      "id": "pdp",
+      "mb": 1.14,
+      "okBudget": true,
+      "axeSC": 0,
+      "status": 200
+    },
+    {
+      "id": "best",
+      "mb": 1.43,
+      "okBudget": true,
+      "axeSC": 0,
+      "status": 200
+    },
+    {
+      "id": "guide",
+      "mb": 1.3,
+      "okBudget": true,
+      "axeSC": 0,
+      "status": 200
+    },
+    {
+      "id": "compare",
+      "mb": 1.7,
+      "okBudget": true,
+      "axeSC": 0,
+      "status": 200
+    },
+    {
+      "id": "finder",
+      "mb": 1,
+      "okBudget": true,
+      "axeSC": 0,
+      "status": 200
+    },
+    {
+      "id": "brand",
+      "mb": 1.07,
+      "okBudget": true,
+      "axeSC": 0,
+      "status": 200
+    }
+  ],
+  "noindexChecks": [
+    {
+      "path": "/search?q=vomero",
+      "status": 200,
+      "robots": "noindex, follow",
+      "noindex": true
+    },
+    {
+      "path": "/search",
+      "status": 200,
+      "robots": "noindex, follow",
+      "noindex": true
+    },
+    {
+      "path": "/running/shoes?gender=men",
+      "status": 200,
+      "robots": "noindex, follow",
+      "noindex": true
+    },
+    {
+      "path": "/tools/running-shoe-finder",
+      "status": 200,
+      "robots": "",
+      "noindex": false
+    },
+    {
+      "path": "/tools/running-shoe-finder/results",
+      "status": 200,
+      "robots": "noindex, follow",
+      "noindex": true
+    }
+  ]
+}

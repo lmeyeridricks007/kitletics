@@ -1,0 +1,18 @@
+[
+  {
+    "slug": "head-extreme-motion-2026",
+    "class": "NEEDS_DIFFERENTIATION",
+    "maxPeer": 0.7426326129666012,
+    "peer": "head-extreme-pro-padel-2026",
+    "indexable": false,
+    "categoryId": "cat-padel-rackets"
+  },
+  {
+    "slug": "head-extreme-pro-padel-2026",
+    "class": "NEEDS_DIFFERENTIATION",
+    "maxPeer": 0.7426326129666012,
+    "peer": "head-extreme-motion-2026",
+    "indexable": false,
+    "categoryId": "cat-padel-rackets"
+  }
+]

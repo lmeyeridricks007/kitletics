@@ -1,0 +1,49 @@
+{
+  "generatedAt": "2026-09-10T13:35:59.700Z",
+  "products": 625,
+  "indexable": 369,
+  "runningIndexable": 369,
+  "relationshipsApproved": 2709,
+  "scores": {
+    "productAlternative": {
+      "STRONG": 1421,
+      "VALID": 330,
+      "WEAK": 151,
+      "INVALID": 0
+    },
+    "productComparison": {
+      "STRONG": 74,
+      "VALID": 10,
+      "WEAK": 10,
+      "INVALID": 0
+    },
+    "productBest": {
+      "STRONG": 360,
+      "VALID": 0,
+      "WEAK": 5,
+      "INVALID": 0
+    },
+    "productGuide": {
+      "STRONG": 58,
+      "VALID": 190,
+      "WEAK": 32,
+      "INVALID": 0
+    },
+    "reviewAlternative": {
+      "STRONG": 1197,
+      "VALID": 476,
+      "WEAK": 279,
+      "INVALID": 0
+    },
+    "bestComparison": {
+      "STRONG": 63,
+      "VALID": 9,
+      "WEAK": 7,
+      "INVALID": 0
+    }
+  },
+  "runningIndexableAlts": {
+    "invalid": 0,
+    "weak": 13
+  }
+}

@@ -1,0 +1,541 @@
+{
+  "measuredAt": "2026-09-10T09:11:28.687Z",
+  "base": "http://127.0.0.1:3010",
+  "budgetBytes": 2621440,
+  "budgetMb": 2.5,
+  "routes": [
+    {
+      "id": "home",
+      "path": "/",
+      "status": 200,
+      "totalBytes": 1272978,
+      "imageBytes": 137568,
+      "jsBytes": 491169,
+      "totalMb": 1.21,
+      "imageMb": 0.13,
+      "withinBudget": true,
+      "noindex": false,
+      "axe": {
+        "violations": 0,
+        "seriousCritical": 0,
+        "seriousCriticalIds": [],
+        "seriousCriticalHelp": []
+      },
+      "topImages": [
+        {
+          "url": "http://127.0.0.1:3010/_next/image?url=%2Fimages%2Fhome%2Fhero-gear-composite.png&w=1920&q=75",
+          "size": 44349
+        },
+        {
+          "url": "http://127.0.0.1:3010/_next/image?url=%2Fimages%2Fpadel%2Fproducts%2Fnox-at10-12k-2026-hero.png&w=256&q=75",
+          "size": 8393
+        },
+        {
+          "url": "http://127.0.0.1:3010/_next/image?url=%2Fimages%2Fpadel%2Fproducts%2Fbullpadel-hack-04-hero.png&w=256&q=75",
+          "size": 7964
+        },
+        {
+          "url": "http://127.0.0.1:3010/_next/image?url=%2Fimages%2Fpadel%2Fproducts%2Fbabolat-counter-viper-hero.png&w=256&q=75",
+          "size": 7838
+        },
+        {
+          "url": "http://127.0.0.1:3010/_next/image?url=%2Fimages%2Fpadel%2Fproducts%2Fsiux-diablo-hero.png&w=256&q=75",
+          "size": 5760
+        },
+        {
+          "url": "http://127.0.0.1:3010/_next/image?url=%2Fimages%2Fpadel%2Fproducts%2Fbullpadel-vertex-05-hero.png&w=256&q=75",
+          "size": 4991
+        },
+        {
+          "url": "http://127.0.0.1:3010/_next/image?url=%2Fimages%2Fwatches%2Fproducts%2Fcoros-pace-4-hero.png&w=256&q=75",
+          "size": 4251
+        },
+        {
+          "url": "http://127.0.0.1:3010/_next/image?url=%2Fimages%2Ffitness%2Fproducts%2Fpowerblock-pro-100-hero.jpg&w=256&q=75",
+          "size": 4135
+        }
+      ]
+    },
+    {
+      "id": "running",
+      "path": "/running",
+      "status": 200,
+      "totalBytes": 1524962,
+      "imageBytes": 266230,
+      "jsBytes": 490127,
+      "totalMb": 1.45,
+      "imageMb": 0.25,
+      "withinBudget": true,
+      "noindex": false,
+      "axe": {
+        "violations": 0,
+        "seriousCritical": 0,
+        "seriousCriticalIds": [],
+        "seriousCriticalHelp": []
+      },
+      "topImages": [
+        {
+          "url": "http://127.0.0.1:3010/_next/image?url=%2Fimages%2Fbrands%2Fheroes%2Frunning-urban.jpg&w=1920&q=75",
+          "size": 151160
+        },
+        {
+          "url": "http://127.0.0.1:3010/_next/image?url=%2Fimages%2Fpacks%2Fproducts%2Fnathan-vaporair-4-hero.jpg&w=320&q=75",
+          "size": 9653
+        },
+        {
+          "url": "http://127.0.0.1:3010/_next/image?url=%2Fimages%2Fpacks%2Fproducts%2Fultimate-direction-race-vest-6-hero.jpg&w=320&q=75",
+          "size": 6465
+        },
+        {
+          "url": "http://127.0.0.1:3010/_next/image?url=%2Fimages%2Fpacks%2Fproducts%2Fsalomon-adv-skin-12-hero.jpg&w=320&q=75",
+          "size": 6405
+        },
+        {
+          "url": "http://127.0.0.1:3010/_next/image?url=%2Fimages%2Fhrm%2Fproducts%2Fwahoo-trackr-hero.jpg&w=320&q=75",
+          "size": 5616
+        },
+        {
+          "url": "http://127.0.0.1:3010/_next/image?url=%2Fimages%2Fpacks%2Fproducts%2Fsalomon-adv-skin-5-hero.jpg&w=320&q=75",
+          "size": 5598
+        },
+        {
+          "url": "http://127.0.0.1:3010/_next/image?url=%2Fimages%2Fhrm%2Fproducts%2Fcoros-heart-rate-monitor-hero.png&w=320&q=75",
+          "size": 5529
+        },
+        {
+          "url": "http://127.0.0.1:3010/_next/image?url=%2Fimages%2Fwatches%2Fproducts%2Fcoros-pace-4-hero.png&w=320&q=75",
+          "size": 5379
+        }
+      ]
+    },
+    {
+      "id": "shoes",
+      "path": "/running/shoes",
+      "status": 200,
+      "totalBytes": 1327346,
+      "imageBytes": 71547,
+      "jsBytes": 523651,
+      "totalMb": 1.27,
+      "imageMb": 0.07,
+      "withinBudget": true,
+      "noindex": false,
+      "axe": {
+        "violations": 0,
+        "seriousCritical": 0,
+        "seriousCriticalIds": [],
+        "seriousCriticalHelp": []
+      },
+      "topImages": [
+        {
+          "url": "http://127.0.0.1:3010/_next/image?url=%2Fimages%2Frunning%2Fcategory%2Fuse-daily.jpg&w=320&q=70",
+          "size": 8588
+        },
+        {
+          "url": "http://127.0.0.1:3010/_next/image?url=%2Fimages%2Frunning%2Fcategory%2Fuse-trail.jpg&w=320&q=70",
+          "size": 6266
+        },
+        {
+          "url": "http://127.0.0.1:3010/_next/image?url=%2Fimages%2Frunning%2Fcategory%2Fuse-race.jpg&w=320&q=70",
+          "size": 6130
+        },
+        {
+          "url": "http://127.0.0.1:3010/_next/image?url=%2Fimages%2Frunning%2Fcategory%2Fuse-tempo.jpg&w=320&q=70",
+          "size": 5432
+        },
+        {
+          "url": "http://127.0.0.1:3010/_next/image?url=%2Fimages%2Frunning%2Fproducts%2Fghost-18-hero.png&w=320&q=70",
+          "size": 3848
+        },
+        {
+          "url": "http://127.0.0.1:3010/_next/image?url=%2Fimages%2Frunning%2Fcategory%2Fuse-long.jpg&w=320&q=70",
+          "size": 3689
+        },
+        {
+          "url": "http://127.0.0.1:3010/_next/image?url=%2Fimages%2Frunning%2Fproducts%2Fclifton-10-hero.jpg&w=320&q=70",
+          "size": 3058
+        },
+        {
+          "url": "http://127.0.0.1:3010/_next/image?url=%2Fimages%2Frunning%2Fproducts%2Fnovablast-6-hero.jpg&w=320&q=70",
+          "size": 2766
+        }
+      ]
+    },
+    {
+      "id": "daily-trainers",
+      "path": "/running/shoes/daily-trainers",
+      "status": 200,
+      "totalBytes": 1256569,
+      "imageBytes": 108883,
+      "jsBytes": 511241,
+      "totalMb": 1.2,
+      "imageMb": 0.1,
+      "withinBudget": true,
+      "noindex": false,
+      "axe": {
+        "violations": 0,
+        "seriousCritical": 0,
+        "seriousCriticalIds": [],
+        "seriousCriticalHelp": []
+      },
+      "topImages": [
+        {
+          "url": "http://127.0.0.1:3010/_next/image?url=%2Fimages%2Frunning%2Fcategory%2Fuse-daily.jpg&w=828&q=75",
+          "size": 54832
+        },
+        {
+          "url": "http://127.0.0.1:3010/_next/image?url=%2Fimages%2Frunning%2Fproducts%2Fghost-18-hero.png&w=320&q=70",
+          "size": 3848
+        },
+        {
+          "url": "http://127.0.0.1:3010/_next/image?url=%2Fimages%2Frunning%2Fproducts%2Fclifton-10-hero.jpg&w=320&q=70",
+          "size": 3058
+        },
+        {
+          "url": "http://127.0.0.1:3010/_next/image?url=%2Fimages%2Frunning%2Fproducts%2Fghost-16-hero.png&w=200&q=70",
+          "size": 2820
+        },
+        {
+          "url": "http://127.0.0.1:3010/_next/image?url=%2Fimages%2Frunning%2Fproducts%2Fnovablast-6-hero.jpg&w=320&q=70",
+          "size": 2766
+        },
+        {
+          "url": "http://127.0.0.1:3010/_next/image?url=%2Fimages%2Frunning%2Fproducts%2Fnimbus-27-hero.jpg&w=200&q=70",
+          "size": 2757
+        },
+        {
+          "url": "http://127.0.0.1:3010/_next/image?url=%2Fimages%2Frunning%2Fproducts%2Fpegasus-42-hero.jpg&w=320&q=70",
+          "size": 1981
+        },
+        {
+          "url": "http://127.0.0.1:3010/_next/image?url=%2Fimages%2Frunning%2Fproducts%2Fnovablast-5-hero.jpg&w=200&q=70",
+          "size": 1962
+        }
+      ]
+    },
+    {
+      "id": "pdp",
+      "path": "/products/nike-vomero-18",
+      "status": 200,
+      "totalBytes": 1241005,
+      "imageBytes": 64204,
+      "jsBytes": 498829,
+      "totalMb": 1.18,
+      "imageMb": 0.06,
+      "withinBudget": true,
+      "noindex": false,
+      "axe": {
+        "violations": 0,
+        "seriousCritical": 0,
+        "seriousCriticalIds": [],
+        "seriousCriticalHelp": []
+      },
+      "topImages": [
+        {
+          "url": "http://127.0.0.1:3010/_next/image?url=%2Fimages%2Frunning%2Fcategory%2Fuse-daily.jpg&w=828&q=75",
+          "size": 54832
+        },
+        {
+          "url": "http://127.0.0.1:3010/_next/image?url=%2Fimages%2Frunning%2Fproducts%2Fvomero-18-hero.png&w=640&q=75",
+          "size": 6975
+        },
+        {
+          "url": "http://127.0.0.1:3010/_next/image?url=%2Fimages%2Frunning%2Fproducts%2Fbondi-9-hero.jpg&w=320&q=70",
+          "size": 2397
+        }
+      ]
+    },
+    {
+      "id": "review",
+      "path": "/reviews/nike-vomero-18",
+      "status": 200,
+      "totalBytes": 1271056,
+      "imageBytes": 60432,
+      "jsBytes": 484882,
+      "totalMb": 1.21,
+      "imageMb": 0.06,
+      "withinBudget": true,
+      "noindex": false,
+      "axe": {
+        "violations": 0,
+        "seriousCritical": 0,
+        "seriousCriticalIds": [],
+        "seriousCriticalHelp": []
+      },
+      "topImages": [
+        {
+          "url": "http://127.0.0.1:3010/_next/image?url=%2Fimages%2Fbrands%2Fheroes%2Frunning-urban.jpg&w=640&q=75",
+          "size": 33590
+        },
+        {
+          "url": "http://127.0.0.1:3010/_next/image?url=%2Fimages%2Frunning%2Fproducts%2Fvomero-18-hero.png&w=640&q=75",
+          "size": 6975
+        },
+        {
+          "url": "http://127.0.0.1:3010/_next/image?url=%2Fimages%2Frunning%2Fproducts%2Fnike-vomero-18%2Fsections%2Foverview.png&w=640&q=75",
+          "size": 6800
+        },
+        {
+          "url": "http://127.0.0.1:3010/_next/image?url=%2Fimages%2Frunning%2Fproducts%2Fnike-vomero-18%2Fsections%2Fspecs.png&w=640&q=75",
+          "size": 6737
+        },
+        {
+          "url": "http://127.0.0.1:3010/_next/image?url=%2Fimages%2Frunning%2Fproducts%2Fnike-vomero-18%2Fsections%2Fassessment.png&w=640&q=75",
+          "size": 6330
+        }
+      ]
+    },
+    {
+      "id": "best",
+      "path": "/best/running-shoes",
+      "status": 200,
+      "totalBytes": 1501876,
+      "imageBytes": 88961,
+      "jsBytes": 491766,
+      "totalMb": 1.43,
+      "imageMb": 0.08,
+      "withinBudget": true,
+      "noindex": false,
+      "axe": {
+        "violations": 0,
+        "seriousCritical": 0,
+        "seriousCriticalIds": [],
+        "seriousCriticalHelp": []
+      },
+      "topImages": [
+        {
+          "url": "http://127.0.0.1:3010/_next/image?url=%2Fimages%2Frunning%2Fcategory%2Fuse-daily.jpg&w=828&q=75",
+          "size": 54832
+        },
+        {
+          "url": "http://127.0.0.1:3010/_next/image?url=%2Fimages%2Fhome%2Fguide-running-shoes.jpg&w=750&q=75",
+          "size": 14902
+        },
+        {
+          "url": "http://127.0.0.1:3010/_next/image?url=%2Fimages%2Frunning%2Fproducts%2Fghost-18-hero.png&w=320&q=75",
+          "size": 4381
+        },
+        {
+          "url": "http://127.0.0.1:3010/_next/image?url=%2Fimages%2Frunning%2Fproducts%2Fnovablast-6-hero.jpg&w=320&q=75",
+          "size": 3277
+        },
+        {
+          "url": "http://127.0.0.1:3010/_next/image?url=%2Fimages%2Frunning%2Fproducts%2Fghost-18-hero.png&w=160&q=75",
+          "size": 2055
+        },
+        {
+          "url": "http://127.0.0.1:3010/_next/image?url=%2Fimages%2Frunning%2Fproducts%2Fkayano-32-hero.jpg&w=160&q=75",
+          "size": 1501
+        },
+        {
+          "url": "http://127.0.0.1:3010/_next/image?url=%2Fimages%2Frunning%2Fproducts%2Fclifton-10-hero.jpg&w=160&q=75",
+          "size": 1496
+        },
+        {
+          "url": "http://127.0.0.1:3010/_next/image?url=%2Fimages%2Frunning%2Fproducts%2Fvaporfly-4-hero.jpg&w=160&q=75",
+          "size": 1418
+        }
+      ]
+    },
+    {
+      "id": "guide",
+      "path": "/guides/how-to-choose-running-shoes",
+      "status": 200,
+      "totalBytes": 1378488,
+      "imageBytes": 85351,
+      "jsBytes": 495238,
+      "totalMb": 1.31,
+      "imageMb": 0.08,
+      "withinBudget": true,
+      "noindex": false,
+      "axe": {
+        "violations": 0,
+        "seriousCritical": 0,
+        "seriousCriticalIds": [],
+        "seriousCriticalHelp": []
+      },
+      "topImages": [
+        {
+          "url": "http://127.0.0.1:3010/_next/image?url=%2Fimages%2Frunning%2Fproducts%2Fnovablast-6-hero.jpg&w=828&q=75",
+          "size": 19098
+        },
+        {
+          "url": "http://127.0.0.1:3010/_next/image?url=%2Fimages%2Fhome%2Fguide-running-shoes.jpg&w=750&q=75",
+          "size": 14902
+        },
+        {
+          "url": "http://127.0.0.1:3010/_next/image?url=%2Fimages%2Frunning%2Fguides%2Ftrail-shoe-outsole-compare.jpg&w=750&q=75",
+          "size": 12866
+        },
+        {
+          "url": "http://127.0.0.1:3010/_next/image?url=%2Fimages%2Frunning%2Fguides%2Froad-shoe-outsole-compare.jpg&w=750&q=75",
+          "size": 12771
+        },
+        {
+          "url": "http://127.0.0.1:3010/_next/image?url=%2Fimages%2Fhome%2Fguide-running-shoes.jpg&w=640&q=75",
+          "size": 11194
+        },
+        {
+          "url": "http://127.0.0.1:3010/_next/image?url=%2Fimages%2Frunning%2Fproducts%2Fghost-18-hero.png&w=320&q=75",
+          "size": 4381
+        },
+        {
+          "url": "http://127.0.0.1:3010/_next/image?url=%2Fimages%2Frunning%2Fproducts%2Fnovablast-6-hero.jpg&w=320&q=75",
+          "size": 3277
+        },
+        {
+          "url": "http://127.0.0.1:3010/_next/image?url=%2Fimages%2Frunning%2Fproducts%2Fkayano-32-hero.jpg&w=160&q=75",
+          "size": 1501
+        }
+      ]
+    },
+    {
+      "id": "compare",
+      "path": "/compare",
+      "status": 200,
+      "totalBytes": 1765190,
+      "imageBytes": 7170,
+      "jsBytes": 571555,
+      "totalMb": 1.68,
+      "imageMb": 0.01,
+      "withinBudget": true,
+      "noindex": false,
+      "axe": {
+        "violations": 0,
+        "seriousCritical": 0,
+        "seriousCriticalIds": [],
+        "seriousCriticalHelp": []
+      },
+      "topImages": [
+        {
+          "url": "http://127.0.0.1:3010/_next/image?url=%2Fimages%2Frunning%2Fproducts%2Fghost-18-hero.png&w=72&q=65",
+          "size": 981
+        },
+        {
+          "url": "http://127.0.0.1:3010/_next/image?url=%2Fimages%2Frunning%2Fproducts%2Falphafly-3-hero.png&w=72&q=65",
+          "size": 615
+        },
+        {
+          "url": "http://127.0.0.1:3010/_next/image?url=%2Fimages%2Frunning%2Fproducts%2Fnimbus-27-hero.jpg&w=72&q=65",
+          "size": 611
+        },
+        {
+          "url": "http://127.0.0.1:3010/_next/image?url=%2Fimages%2Frunning%2Fproducts%2Fnovablast-5-hero.jpg&w=72&q=65",
+          "size": 602
+        },
+        {
+          "url": "http://127.0.0.1:3010/_next/image?url=%2Fimages%2Frunning%2Fproducts%2Fboston-12-hero.jpg&w=72&q=65",
+          "size": 569
+        },
+        {
+          "url": "http://127.0.0.1:3010/_next/image?url=%2Fimages%2Frunning%2Fproducts%2Fnovablast-6-hero.jpg&w=72&q=65",
+          "size": 561
+        },
+        {
+          "url": "http://127.0.0.1:3010/_next/image?url=%2Fimages%2Frunning%2Fproducts%2Fkayano-32-hero.jpg&w=72&q=65",
+          "size": 560
+        },
+        {
+          "url": "http://127.0.0.1:3010/_next/image?url=%2Fimages%2Frunning%2Fproducts%2Fvaporfly-4-hero.jpg&w=72&q=65",
+          "size": 557
+        }
+      ]
+    },
+    {
+      "id": "finder",
+      "path": "/tools/running-shoe-finder",
+      "status": 200,
+      "totalBytes": 1047039,
+      "imageBytes": 25687,
+      "jsBytes": 534279,
+      "totalMb": 1,
+      "imageMb": 0.02,
+      "withinBudget": true,
+      "noindex": false,
+      "axe": {
+        "violations": 0,
+        "seriousCritical": 0,
+        "seriousCriticalIds": [],
+        "seriousCriticalHelp": []
+      },
+      "topImages": [
+        {
+          "url": "http://127.0.0.1:3010/_next/image?url=%2Fimages%2Frunning%2Fproducts%2Fnovablast-6-hero.jpg&w=828&q=75",
+          "size": 19098
+        },
+        {
+          "url": "http://127.0.0.1:3010/_next/image?url=%2Fimages%2Frunning%2Fproducts%2Fghost-18-hero.png&w=320&q=75",
+          "size": 4381
+        },
+        {
+          "url": "http://127.0.0.1:3010/_next/image?url=%2Fimages%2Frunning%2Fproducts%2Fnovablast-6-hero.jpg&w=128&q=75",
+          "size": 1133
+        },
+        {
+          "url": "http://127.0.0.1:3010/_next/image?url=%2Fimages%2Frunning%2Fproducts%2Fendorphin-speed-5-hero.jpg&w=128&q=75",
+          "size": 1075
+        }
+      ]
+    },
+    {
+      "id": "brand",
+      "path": "/brands/nike",
+      "status": 200,
+      "totalBytes": 1173389,
+      "imageBytes": 33259,
+      "jsBytes": 475862,
+      "totalMb": 1.12,
+      "imageMb": 0.03,
+      "withinBudget": true,
+      "robots": "index, follow",
+      "noindex": false,
+      "axe": {
+        "violations": 0,
+        "seriousCritical": 0,
+        "seriousCriticalIds": [],
+        "seriousCriticalHelp": []
+      },
+      "topImages": [
+        {
+          "url": "http://127.0.0.1:3010/_next/image?url=%2Fimages%2Frunning%2Fproducts%2Fvaporfly-4-hero.jpg&w=640&q=75",
+          "size": 7227
+        },
+        {
+          "url": "http://127.0.0.1:3010/_next/image?url=%2Fimages%2Frunning%2Fproducts%2Fstructure-plus-hero.jpg&w=320&q=70",
+          "size": 3760
+        },
+        {
+          "url": "http://127.0.0.1:3010/_next/image?url=%2Fimages%2Frunning%2Fproducts%2Falphafly-3-hero.png&w=320&q=70",
+          "size": 2784
+        },
+        {
+          "url": "http://127.0.0.1:3010/_next/image?url=%2Fimages%2Frunning%2Fproducts%2Fvaporfly-4-hero.jpg&w=320&q=70",
+          "size": 2333
+        },
+        {
+          "url": "http://127.0.0.1:3010/_next/image?url=%2Fimages%2Frunning%2Fproducts%2Fvomero-18-hero.png&w=320&q=70",
+          "size": 2306
+        },
+        {
+          "url": "http://127.0.0.1:3010/_next/image?url=%2Fimages%2Frunning%2Fproducts%2Fpegasus-42-hero.jpg&w=320&q=70",
+          "size": 1981
+        },
+        {
+          "url": "http://127.0.0.1:3010/images/brands/nike-logo.svg",
+          "size": 981
+        },
+        {
+          "url": "http://127.0.0.1:3010/_next/image?url=%2Fimages%2Frunning%2Fguides%2Fdaily-vs-long.jpg&w=96&q=65",
+          "size": 849
+        }
+      ]
+    }
+  ],
+  "gates": {
+    "allWithinBudget": true,
+    "zeroAxeSeriousCritical": true,
+    "compareWithinBudget": true,
+    "dailyTrainersWithinBudget": true
+  },
+  "overBudget": [],
+  "axeFail": []
+}

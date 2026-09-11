@@ -1,0 +1,14 @@
+{
+  "base": "http://127.0.0.1:3010",
+  "n": 660,
+  "byStatus": {
+    "200": 660
+  },
+  "non200Count": 0,
+  "noindex200Count": 0,
+  "redirectCount": 0,
+  "non200": [],
+  "noindex200": [],
+  "redirects": [],
+  "ok": true
+}

@@ -1,0 +1,32 @@
+sitemap 1150
+=== NAV not in sitemap ===
+PRIMARY_NAV	Racket Sports	/racket	PUBLIC_NOINDEX	live=live
+PRIMARY_NAV	Fitness	/fitness	PUBLIC_NOINDEX	live=live
+/racket	Padel	/padel	PUBLIC_NOINDEX	live=live
+/racket	Tennis	/tennis	PUBLIC_NOINDEX	live=live
+/racket	Pickleball [Soon]	/pickleball	PUBLIC_NOINDEX	live=live
+/racket	Badminton [Soon]	/badminton	PUBLIC_NOINDEX	live=live
+/racket	Squash [Soon]	/squash	PUBLIC_NOINDEX	live=live
+/racket	Racket sports hub	/racket	PUBLIC_NOINDEX	live=live
+/racket	Racket sports hub →	/racket	PUBLIC_NOINDEX	live=live
+/fitness	Fitness overview	/fitness	PUBLIC_NOINDEX	live=live
+/fitness	Go to Fitness →	/fitness	PUBLIC_NOINDEX	live=live
+
+INDEXABLE reviews missing sitemap 0
+old auditor first 50 not in sitemap 50 { HIDDEN_404: 50 }
+INDEXABLE { reviews: 367, best: 45, guides: 42, cmp: 65 }
+orphans reviews 0 []
+orphans best 0 []
+orphans guides 0 []
+orphans cmp 0 []
+brand hub held puma puma-fuse-3 HIDDEN_404
+brand hub held puma puma-fuse-fasted HIDDEN_404
+brand hub held inov-8 inov8-f-lite-235-v3 HIDDEN_404
+brand hub held inov-8 inov8-f-lite-260 HIDDEN_404
+brand hub held inov-8 inov8-fastlift-360 HIDDEN_404
+brand hub held nox nox-at10-genius-12k-alum-xtrem-2026 HIDDEN_404
+brand hub held nox nox-at10-genius-18k-2026 HIDDEN_404
+brand hub held nox nox-at10-lux HIDDEN_404
+brand hub held nox nox-ml10-hexa HIDDEN_404
+brand hub held bullpadel bullpadel-hack-03 HIDDEN_404
+brand hub held review cards 94

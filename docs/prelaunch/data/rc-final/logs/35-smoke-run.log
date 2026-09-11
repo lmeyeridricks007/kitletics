@@ -1,0 +1,60 @@
+BASE=http://127.0.0.1:3010
+SERVER_PID=33202
+baselineMem={"alive":true,"pid":33202,"rssMb":538.2,"cpuPct":44.2,"etime":"00:14"}
+
+=== profile warm-sequential c=1 rounds=2 ===
+{"profile":"warm-sequential","successRate":100,"p95":5352,"rssMax":942.4,"errors":{},"alive":true}
+
+=== profile moderate-crawler c=4 rounds=3 ===
+{"profile":"moderate-crawler","successRate":100,"p95":10836,"rssMax":932.8,"errors":{},"alive":true}
+
+=== profile busy-crawler c=8 rounds=3 ===
+{"profile":"busy-crawler","successRate":100,"p95":18419,"rssMax":938,"errors":{},"alive":true}
+
+=== profile stress-local c=16 rounds=2 ===
+{"profile":"stress-local","successRate":100,"p95":27450,"rssMax":919.7,"errors":{},"alive":true}
+{
+  "verdict": "STABLE_UNDER_MODERATE_LOAD",
+  "cause": "Production build served representative routes at concurrency 1–16 without process death or connection refused.",
+  "processDied": false,
+  "profiles": [
+    {
+      "name": "warm-sequential",
+      "successRate": 100,
+      "p95": 5352,
+      "rssMax": 942.4,
+      "cpuMax": 147.9,
+      "errors": {},
+      "alive": true
+    },
+    {
+      "name": "moderate-crawler",
+      "successRate": 100,
+      "p95": 10836,
+      "rssMax": 932.8,
+      "cpuMax": 140.7,
+      "errors": {},
+      "alive": true
+    },
+    {
+      "name": "busy-crawler",
+      "successRate": 100,
+      "p95": 18419,
+      "rssMax": 938,
+      "cpuMax": 126.9,
+      "errors": {},
+      "alive": true
+    },
+    {
+      "name": "stress-local",
+      "successRate": 100,
+      "p95": 27450,
+      "rssMax": 919.7,
+      "cpuMax": 141.9,
+      "errors": {},
+      "alive": true
+    }
+  ],
+  "baselineRssMb": 538.2,
+  "postRssMb": 914.3
+}

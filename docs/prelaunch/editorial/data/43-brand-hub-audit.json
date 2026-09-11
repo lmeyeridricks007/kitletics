@@ -1,0 +1,427 @@
+{
+  "generatedAt": "2026-09-09T19:56:46.024Z",
+  "totals": {
+    "brands": 191,
+    "pageBuilt": 103,
+    "indexableGate": 103,
+    "launchIndexable": 103,
+    "boilerBlurb": 103,
+    "emptyWhy": 96,
+    "noFamilies": 31,
+    "noReviews": 1,
+    "noGuides": 101,
+    "thinSummaryUnder80": 95,
+    "hasEditorialConfig": 7,
+    "byUniquenessClass": {
+      "GENUINELY_UNIQUE": 62,
+      "TEMPLATE_SIMILAR_ACCEPTABLE": 39,
+      "DUPLICATIVE": 2
+    },
+    "needsDiff": 0,
+    "duplicative": 2
+  },
+  "thinCandidates": [
+    {
+      "slug": "topo-athletic",
+      "products": 3,
+      "cats": 1,
+      "gate": true
+    },
+    {
+      "slug": "samsung",
+      "products": 1,
+      "cats": 1,
+      "gate": false
+    },
+    {
+      "slug": "amazfit",
+      "products": 2,
+      "cats": 1,
+      "gate": true
+    },
+    {
+      "slug": "wahoo",
+      "products": 4,
+      "cats": 1,
+      "gate": true
+    },
+    {
+      "slug": "scosche",
+      "products": 2,
+      "cats": 1,
+      "gate": true
+    },
+    {
+      "slug": "flipbelt",
+      "products": 1,
+      "cats": 1,
+      "gate": false
+    },
+    {
+      "slug": "spibelt",
+      "products": 1,
+      "cats": 1,
+      "gate": false
+    },
+    {
+      "slug": "uswe",
+      "products": 1,
+      "cats": 1,
+      "gate": false
+    },
+    {
+      "slug": "compressport",
+      "products": 2,
+      "cats": 2,
+      "gate": true
+    },
+    {
+      "slug": "raidlight",
+      "products": 0,
+      "cats": 0,
+      "gate": false
+    },
+    {
+      "slug": "nnormal",
+      "products": 1,
+      "cats": 1,
+      "gate": false
+    },
+    {
+      "slug": "naked",
+      "products": 1,
+      "cats": 1,
+      "gate": false
+    },
+    {
+      "slug": "decathlon",
+      "products": 1,
+      "cats": 1,
+      "gate": false
+    },
+    {
+      "slug": "janji",
+      "products": 4,
+      "cats": 1,
+      "gate": true
+    },
+    {
+      "slug": "rabbit",
+      "products": 1,
+      "cats": 1,
+      "gate": false
+    },
+    {
+      "slug": "the-north-face",
+      "products": 0,
+      "cats": 0,
+      "gate": false
+    },
+    {
+      "slug": "odlo",
+      "products": 2,
+      "cats": 1,
+      "gate": true
+    },
+    {
+      "slug": "ciele",
+      "products": 1,
+      "cats": 1,
+      "gate": false
+    },
+    {
+      "slug": "smartwool",
+      "products": 2,
+      "cats": 2,
+      "gate": true
+    },
+    {
+      "slug": "darn-tough",
+      "products": 1,
+      "cats": 1,
+      "gate": false
+    },
+    {
+      "slug": "stance",
+      "products": 0,
+      "cats": 0,
+      "gate": false
+    },
+    {
+      "slug": "saxx",
+      "products": 0,
+      "cats": 0,
+      "gate": false
+    },
+    {
+      "slug": "leki",
+      "products": 0,
+      "cats": 0,
+      "gate": false
+    },
+    {
+      "slug": "shokz",
+      "products": 4,
+      "cats": 1,
+      "gate": true
+    },
+    {
+      "slug": "bose",
+      "products": 1,
+      "cats": 1,
+      "gate": false
+    },
+    {
+      "slug": "goodr",
+      "products": 2,
+      "cats": 1,
+      "gate": true
+    },
+    {
+      "slug": "julbo",
+      "products": 3,
+      "cats": 1,
+      "gate": true
+    },
+    {
+      "slug": "petzl",
+      "products": 3,
+      "cats": 1,
+      "gate": true
+    },
+    {
+      "slug": "silva",
+      "products": 1,
+      "cats": 1,
+      "gate": false
+    },
+    {
+      "slug": "feetures",
+      "products": 1,
+      "cats": 1,
+      "gate": false
+    },
+    {
+      "slug": "balega",
+      "products": 2,
+      "cats": 1,
+      "gate": true
+    },
+    {
+      "slug": "injinji",
+      "products": 1,
+      "cats": 1,
+      "gate": false
+    },
+    {
+      "slug": "bombas",
+      "products": 0,
+      "cats": 0,
+      "gate": false
+    },
+    {
+      "slug": "swiftwick",
+      "products": 1,
+      "cats": 1,
+      "gate": false
+    },
+    {
+      "slug": "hilly",
+      "products": 0,
+      "cats": 0,
+      "gate": false
+    },
+    {
+      "slug": "drymax",
+      "products": 1,
+      "cats": 1,
+      "gate": false
+    },
+    {
+      "slug": "sockwell",
+      "products": 0,
+      "cats": 0,
+      "gate": false
+    },
+    {
+      "slug": "wrightsock",
+      "products": 1,
+      "cats": 1,
+      "gate": false
+    },
+    {
+      "slug": "fitletic",
+      "products": 1,
+      "cats": 1,
+      "gate": false
+    },
+    {
+      "slug": "buff",
+      "products": 4,
+      "cats": 1,
+      "gate": true
+    }
+  ],
+  "worstPeers": [
+    {
+      "slug": "rep-fitness",
+      "peer": "atx",
+      "sim": 0.929,
+      "class": "DUPLICATIVE",
+      "boiler": true,
+      "why": 0
+    },
+    {
+      "slug": "atx",
+      "peer": "rep-fitness",
+      "sim": 0.929,
+      "class": "DUPLICATIVE",
+      "boiler": true,
+      "why": 0
+    },
+    {
+      "slug": "puma",
+      "peer": "mizuno",
+      "sim": 0.692,
+      "class": "TEMPLATE_SIMILAR_ACCEPTABLE",
+      "boiler": true,
+      "why": 0
+    },
+    {
+      "slug": "mizuno",
+      "peer": "puma",
+      "sim": 0.692,
+      "class": "TEMPLATE_SIMILAR_ACCEPTABLE",
+      "boiler": true,
+      "why": 0
+    },
+    {
+      "slug": "inov-8",
+      "peer": "puma",
+      "sim": 0.692,
+      "class": "TEMPLATE_SIMILAR_ACCEPTABLE",
+      "boiler": true,
+      "why": 0
+    },
+    {
+      "slug": "starvie",
+      "peer": "kuikma",
+      "sim": 0.692,
+      "class": "TEMPLATE_SIMILAR_ACCEPTABLE",
+      "boiler": true,
+      "why": 0
+    },
+    {
+      "slug": "kuikma",
+      "peer": "starvie",
+      "sim": 0.692,
+      "class": "TEMPLATE_SIMILAR_ACCEPTABLE",
+      "boiler": true,
+      "why": 0
+    },
+    {
+      "slug": "varlion",
+      "peer": "starvie",
+      "sim": 0.692,
+      "class": "TEMPLATE_SIMILAR_ACCEPTABLE",
+      "boiler": true,
+      "why": 0
+    },
+    {
+      "slug": "lok",
+      "peer": "kuikma",
+      "sim": 0.688,
+      "class": "TEMPLATE_SIMILAR_ACCEPTABLE",
+      "boiler": true,
+      "why": 0
+    },
+    {
+      "slug": "tyr",
+      "peer": "salming",
+      "sim": 0.688,
+      "class": "TEMPLATE_SIMILAR_ACCEPTABLE",
+      "boiler": true,
+      "why": 0
+    },
+    {
+      "slug": "salming",
+      "peer": "tyr",
+      "sim": 0.688,
+      "class": "TEMPLATE_SIMILAR_ACCEPTABLE",
+      "boiler": true,
+      "why": 0
+    },
+    {
+      "slug": "prince",
+      "peer": "starvie",
+      "sim": 0.667,
+      "class": "TEMPLATE_SIMILAR_ACCEPTABLE",
+      "boiler": true,
+      "why": 0
+    },
+    {
+      "slug": "gornation",
+      "peer": "gravity-fitness",
+      "sim": 0.643,
+      "class": "TEMPLATE_SIMILAR_ACCEPTABLE",
+      "boiler": true,
+      "why": 0
+    },
+    {
+      "slug": "gravity-fitness",
+      "peer": "gornation",
+      "sim": 0.643,
+      "class": "TEMPLATE_SIMILAR_ACCEPTABLE",
+      "boiler": true,
+      "why": 0
+    },
+    {
+      "slug": "nobull",
+      "peer": "puma",
+      "sim": 0.643,
+      "class": "TEMPLATE_SIMILAR_ACCEPTABLE",
+      "boiler": true,
+      "why": 0
+    },
+    {
+      "slug": "buff",
+      "peer": "starvie",
+      "sim": 0.583,
+      "class": "TEMPLATE_SIMILAR_ACCEPTABLE",
+      "boiler": true,
+      "why": 0
+    },
+    {
+      "slug": "joola",
+      "peer": "prince",
+      "sim": 0.571,
+      "class": "TEMPLATE_SIMILAR_ACCEPTABLE",
+      "boiler": true,
+      "why": 0
+    },
+    {
+      "slug": "maurten",
+      "peer": "styrkr",
+      "sim": 0.565,
+      "class": "TEMPLATE_SIMILAR_ACCEPTABLE",
+      "boiler": true,
+      "why": 0
+    },
+    {
+      "slug": "styrkr",
+      "peer": "maurten",
+      "sim": 0.565,
+      "class": "TEMPLATE_SIMILAR_ACCEPTABLE",
+      "boiler": true,
+      "why": 0
+    },
+    {
+      "slug": "cep",
+      "peer": "puma",
+      "sim": 0.563,
+      "class": "TEMPLATE_SIMILAR_ACCEPTABLE",
+      "boiler": true,
+      "why": 0
+    }
+  ]
+}

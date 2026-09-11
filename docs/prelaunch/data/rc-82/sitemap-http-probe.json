@@ -1,0 +1,649 @@
+{
+  "measuredAt": "2026-09-11T07:00:11.744Z",
+  "base": "http://127.0.0.1:3011",
+  "n": 1167,
+  "previousProbeN": 1106,
+  "byStatus": {
+    "200": 1167
+  },
+  "byType": {
+    "other": 24,
+    "category": 28,
+    "comparison": 66,
+    "product": 375,
+    "alternatives": 130,
+    "brand": 73,
+    "review": 373,
+    "best": 45,
+    "guide": 42,
+    "tool": 11
+  },
+  "counts": {
+    "not200": 0,
+    "redirects": 0,
+    "notFound": 0,
+    "serverErr": 0,
+    "noindex": 0,
+    "facetLeak": 0,
+    "draftPathLeak": 0,
+    "draftFutureEntities": 0,
+    "canonicalMiss": 0,
+    "nonHtml": 0
+  },
+  "gates": {
+    "zero404": true,
+    "zero5xx": true,
+    "zeroNoindex": true,
+    "zeroRedirects": true,
+    "zeroDraftsFuture": true,
+    "zeroFacetLeak": true,
+    "allSelfCanonical": true,
+    "allHtml": true
+  },
+  "delta": {
+    "vsV3Day1Entities": 66,
+    "vsFix60Count": 61,
+    "rows": [
+      {
+        "path": "/products/new-balance-fuelcell-rebel-v4",
+        "pageType": "product",
+        "reasonAdded": "Fix 62 — Rebel v4 Running completion",
+        "eligibility": "INDEXABLE",
+        "http": 200,
+        "selfCanonical": true,
+        "noindex": false
+      },
+      {
+        "path": "/products/nnormal-kjerag-02",
+        "pageType": "product",
+        "reasonAdded": "Fix 69 — NNormal Kjerag 02 / Tomir 02 + hub READY",
+        "eligibility": "INDEXABLE",
+        "http": 200,
+        "selfCanonical": true,
+        "noindex": false
+      },
+      {
+        "path": "/products/nnormal-tomir-02",
+        "pageType": "product",
+        "reasonAdded": "Fix 69 — NNormal Kjerag 02 / Tomir 02 + hub READY",
+        "eligibility": "INDEXABLE",
+        "http": 200,
+        "selfCanonical": true,
+        "noindex": false
+      },
+      {
+        "path": "/products/amazfit-balance-3",
+        "pageType": "product",
+        "reasonAdded": "Fix 75 — Amazfit / Samsung / Kiprun catalog gap close",
+        "eligibility": "INDEXABLE",
+        "http": 200,
+        "selfCanonical": true,
+        "noindex": false
+      },
+      {
+        "path": "/products/amazfit-cheetah-2-pro",
+        "pageType": "product",
+        "reasonAdded": "Fix 75 — Amazfit / Samsung / Kiprun catalog gap close",
+        "eligibility": "INDEXABLE",
+        "http": 200,
+        "selfCanonical": true,
+        "noindex": false
+      },
+      {
+        "path": "/products/samsung-galaxy-watch-ultra-2",
+        "pageType": "product",
+        "reasonAdded": "Fix 75 — Amazfit / Samsung / Kiprun catalog gap close",
+        "eligibility": "INDEXABLE",
+        "http": 200,
+        "selfCanonical": true,
+        "noindex": false
+      },
+      {
+        "path": "/products/samsung-galaxy-watch-9",
+        "pageType": "product",
+        "reasonAdded": "Fix 75 — Amazfit / Samsung / Kiprun catalog gap close",
+        "eligibility": "INDEXABLE",
+        "http": 200,
+        "selfCanonical": true,
+        "noindex": false
+      },
+      {
+        "path": "/products/kiprun-900-race-5",
+        "pageType": "product",
+        "reasonAdded": "Fix 75 — Amazfit / Samsung / Kiprun catalog gap close",
+        "eligibility": "INDEXABLE",
+        "http": 200,
+        "selfCanonical": true,
+        "noindex": false
+      },
+      {
+        "path": "/products/kiprun-proteam-10",
+        "pageType": "product",
+        "reasonAdded": "Fix 75 — Amazfit / Samsung / Kiprun catalog gap close",
+        "eligibility": "INDEXABLE",
+        "http": 200,
+        "selfCanonical": true,
+        "noindex": false
+      },
+      {
+        "path": "/products/buff-original",
+        "pageType": "product",
+        "reasonAdded": "Fix 62 — Buff Running SKUs completed",
+        "eligibility": "INDEXABLE",
+        "http": 200,
+        "selfCanonical": true,
+        "noindex": false
+      },
+      {
+        "path": "/products/buff-coolnet-uv",
+        "pageType": "product",
+        "reasonAdded": "Fix 62 — Buff Running SKUs completed",
+        "eligibility": "INDEXABLE",
+        "http": 200,
+        "selfCanonical": true,
+        "noindex": false
+      },
+      {
+        "path": "/products/buff-merino-lightweight",
+        "pageType": "product",
+        "reasonAdded": "Fix 62 — Buff Running SKUs completed",
+        "eligibility": "INDEXABLE",
+        "http": 200,
+        "selfCanonical": true,
+        "noindex": false
+      },
+      {
+        "path": "/products/buff-polar",
+        "pageType": "product",
+        "reasonAdded": "Fix 62 — Buff Running SKUs completed",
+        "eligibility": "INDEXABLE",
+        "http": 200,
+        "selfCanonical": true,
+        "noindex": false
+      },
+      {
+        "path": "/products/asics-novablast-4/alternatives",
+        "pageType": "alternatives",
+        "reasonAdded": "Post-V3 alternatives INDEXABLE (Fix 65 graph / category gate)",
+        "eligibility": "INDEXABLE",
+        "http": 200,
+        "selfCanonical": true,
+        "noindex": false
+      },
+      {
+        "path": "/products/hoka-clifton-9/alternatives",
+        "pageType": "alternatives",
+        "reasonAdded": "Post-V3 alternatives INDEXABLE (Fix 65 graph / category gate)",
+        "eligibility": "INDEXABLE",
+        "http": 200,
+        "selfCanonical": true,
+        "noindex": false
+      },
+      {
+        "path": "/products/new-balance-fuelcell-rebel-v4/alternatives",
+        "pageType": "alternatives",
+        "reasonAdded": "Fix 62 — Rebel v4 Running completion",
+        "eligibility": "INDEXABLE",
+        "http": 200,
+        "selfCanonical": true,
+        "noindex": false
+      },
+      {
+        "path": "/products/garmin-forerunner-255/alternatives",
+        "pageType": "alternatives",
+        "reasonAdded": "Post-V3 alternatives INDEXABLE (Fix 65 graph / category gate)",
+        "eligibility": "INDEXABLE",
+        "http": 200,
+        "selfCanonical": true,
+        "noindex": false
+      },
+      {
+        "path": "/products/nike-invincible-3/alternatives",
+        "pageType": "alternatives",
+        "reasonAdded": "Post-V3 alternatives INDEXABLE (Fix 65 graph / category gate)",
+        "eligibility": "INDEXABLE",
+        "http": 200,
+        "selfCanonical": true,
+        "noindex": false
+      },
+      {
+        "path": "/products/nike-structure-26/alternatives",
+        "pageType": "alternatives",
+        "reasonAdded": "Post-V3 alternatives INDEXABLE (Fix 65 graph / category gate)",
+        "eligibility": "INDEXABLE",
+        "http": 200,
+        "selfCanonical": true,
+        "noindex": false
+      },
+      {
+        "path": "/products/nike-structure-plus/alternatives",
+        "pageType": "alternatives",
+        "reasonAdded": "Post-V3 alternatives INDEXABLE (Fix 65 graph / category gate)",
+        "eligibility": "INDEXABLE",
+        "http": 200,
+        "selfCanonical": true,
+        "noindex": false
+      },
+      {
+        "path": "/products/brooks-glycerin-21/alternatives",
+        "pageType": "alternatives",
+        "reasonAdded": "Post-V3 alternatives INDEXABLE (Fix 65 graph / category gate)",
+        "eligibility": "INDEXABLE",
+        "http": 200,
+        "selfCanonical": true,
+        "noindex": false
+      },
+      {
+        "path": "/products/hoka-bondi-8/alternatives",
+        "pageType": "alternatives",
+        "reasonAdded": "Post-V3 alternatives INDEXABLE (Fix 65 graph / category gate)",
+        "eligibility": "INDEXABLE",
+        "http": 200,
+        "selfCanonical": true,
+        "noindex": false
+      },
+      {
+        "path": "/products/hoka-clifton-pro/alternatives",
+        "pageType": "alternatives",
+        "reasonAdded": "Post-V3 alternatives INDEXABLE (Fix 65 graph / category gate)",
+        "eligibility": "INDEXABLE",
+        "http": 200,
+        "selfCanonical": true,
+        "noindex": false
+      },
+      {
+        "path": "/products/new-balance-fresh-foam-x-1080-v13/alternatives",
+        "pageType": "alternatives",
+        "reasonAdded": "Post-V3 alternatives INDEXABLE (Fix 65 graph / category gate)",
+        "eligibility": "INDEXABLE",
+        "http": 200,
+        "selfCanonical": true,
+        "noindex": false
+      },
+      {
+        "path": "/products/new-balance-fuelcell-supercomp-elite-v4/alternatives",
+        "pageType": "alternatives",
+        "reasonAdded": "Post-V3 alternatives INDEXABLE (Fix 65 graph / category gate)",
+        "eligibility": "INDEXABLE",
+        "http": 200,
+        "selfCanonical": true,
+        "noindex": false
+      },
+      {
+        "path": "/products/new-balance-fuelcell-rebel-v5/alternatives",
+        "pageType": "alternatives",
+        "reasonAdded": "Post-V3 alternatives INDEXABLE (Fix 65 graph / category gate)",
+        "eligibility": "INDEXABLE",
+        "http": 200,
+        "selfCanonical": true,
+        "noindex": false
+      },
+      {
+        "path": "/products/new-balance-fuelcell-supercomp-trainer-v3/alternatives",
+        "pageType": "alternatives",
+        "reasonAdded": "Post-V3 alternatives INDEXABLE (Fix 65 graph / category gate)",
+        "eligibility": "INDEXABLE",
+        "http": 200,
+        "selfCanonical": true,
+        "noindex": false
+      },
+      {
+        "path": "/products/adidas-adizero-evo-sl/alternatives",
+        "pageType": "alternatives",
+        "reasonAdded": "Post-V3 alternatives INDEXABLE (Fix 65 graph / category gate)",
+        "eligibility": "INDEXABLE",
+        "http": 200,
+        "selfCanonical": true,
+        "noindex": false
+      },
+      {
+        "path": "/products/on-cloudsurfer-next/alternatives",
+        "pageType": "alternatives",
+        "reasonAdded": "Post-V3 alternatives INDEXABLE (Fix 65 graph / category gate)",
+        "eligibility": "INDEXABLE",
+        "http": 200,
+        "selfCanonical": true,
+        "noindex": false
+      },
+      {
+        "path": "/products/altra-torin-8/alternatives",
+        "pageType": "alternatives",
+        "reasonAdded": "Post-V3 alternatives INDEXABLE (Fix 65 graph / category gate)",
+        "eligibility": "INDEXABLE",
+        "http": 200,
+        "selfCanonical": true,
+        "noindex": false
+      },
+      {
+        "path": "/products/altra-escalante-4/alternatives",
+        "pageType": "alternatives",
+        "reasonAdded": "Post-V3 alternatives INDEXABLE (Fix 65 graph / category gate)",
+        "eligibility": "INDEXABLE",
+        "http": 200,
+        "selfCanonical": true,
+        "noindex": false
+      },
+      {
+        "path": "/products/salomon-pulsar-trail-2/alternatives",
+        "pageType": "alternatives",
+        "reasonAdded": "Post-V3 alternatives INDEXABLE (Fix 65 graph / category gate)",
+        "eligibility": "INDEXABLE",
+        "http": 200,
+        "selfCanonical": true,
+        "noindex": false
+      },
+      {
+        "path": "/products/topo-athletic-specter-2/alternatives",
+        "pageType": "alternatives",
+        "reasonAdded": "Post-V3 alternatives INDEXABLE (Fix 65 graph / category gate)",
+        "eligibility": "INDEXABLE",
+        "http": 200,
+        "selfCanonical": true,
+        "noindex": false
+      },
+      {
+        "path": "/products/topo-athletic-phantom-3/alternatives",
+        "pageType": "alternatives",
+        "reasonAdded": "Post-V3 alternatives INDEXABLE (Fix 65 graph / category gate)",
+        "eligibility": "INDEXABLE",
+        "http": 200,
+        "selfCanonical": true,
+        "noindex": false
+      },
+      {
+        "path": "/products/puma-deviate-nitro-3/alternatives",
+        "pageType": "alternatives",
+        "reasonAdded": "Post-V3 alternatives INDEXABLE (Fix 65 graph / category gate)",
+        "eligibility": "INDEXABLE",
+        "http": 200,
+        "selfCanonical": true,
+        "noindex": false
+      },
+      {
+        "path": "/products/puma-magnify-nitro-2/alternatives",
+        "pageType": "alternatives",
+        "reasonAdded": "Post-V3 alternatives INDEXABLE (Fix 65 graph / category gate)",
+        "eligibility": "INDEXABLE",
+        "http": 200,
+        "selfCanonical": true,
+        "noindex": false
+      },
+      {
+        "path": "/products/mizuno-wave-rebellion-pro-3/alternatives",
+        "pageType": "alternatives",
+        "reasonAdded": "Post-V3 alternatives INDEXABLE (Fix 65 graph / category gate)",
+        "eligibility": "INDEXABLE",
+        "http": 200,
+        "selfCanonical": true,
+        "noindex": false
+      },
+      {
+        "path": "/products/inov8-trailfly-ultra-g-300-max/alternatives",
+        "pageType": "alternatives",
+        "reasonAdded": "Post-V3 alternatives INDEXABLE (Fix 65 graph / category gate)",
+        "eligibility": "INDEXABLE",
+        "http": 200,
+        "selfCanonical": true,
+        "noindex": false
+      },
+      {
+        "path": "/products/saucony-xodus-ultra-3/alternatives",
+        "pageType": "alternatives",
+        "reasonAdded": "Post-V3 alternatives INDEXABLE (Fix 65 graph / category gate)",
+        "eligibility": "INDEXABLE",
+        "http": 200,
+        "selfCanonical": true,
+        "noindex": false
+      },
+      {
+        "path": "/products/hoka-gaviota-5/alternatives",
+        "pageType": "alternatives",
+        "reasonAdded": "Post-V3 alternatives INDEXABLE (Fix 65 graph / category gate)",
+        "eligibility": "INDEXABLE",
+        "http": 200,
+        "selfCanonical": true,
+        "noindex": false
+      },
+      {
+        "path": "/products/asics-gt-1000-13/alternatives",
+        "pageType": "alternatives",
+        "reasonAdded": "Post-V3 alternatives INDEXABLE (Fix 65 graph / category gate)",
+        "eligibility": "INDEXABLE",
+        "http": 200,
+        "selfCanonical": true,
+        "noindex": false
+      },
+      {
+        "path": "/products/nike-react-infinity-run-4/alternatives",
+        "pageType": "alternatives",
+        "reasonAdded": "Post-V3 alternatives INDEXABLE (Fix 65 graph / category gate)",
+        "eligibility": "INDEXABLE",
+        "http": 200,
+        "selfCanonical": true,
+        "noindex": false
+      },
+      {
+        "path": "/products/nnormal-tomir-02/alternatives",
+        "pageType": "alternatives",
+        "reasonAdded": "Fix 69 — NNormal Kjerag 02 / Tomir 02 + hub READY",
+        "eligibility": "INDEXABLE",
+        "http": 200,
+        "selfCanonical": true,
+        "noindex": false
+      },
+      {
+        "path": "/products/garmin-forerunner-265/alternatives",
+        "pageType": "alternatives",
+        "reasonAdded": "Post-V3 alternatives INDEXABLE (Fix 65 graph / category gate)",
+        "eligibility": "INDEXABLE",
+        "http": 200,
+        "selfCanonical": true,
+        "noindex": false
+      },
+      {
+        "path": "/products/garmin-forerunner-55/alternatives",
+        "pageType": "alternatives",
+        "reasonAdded": "Post-V3 alternatives INDEXABLE (Fix 65 graph / category gate)",
+        "eligibility": "INDEXABLE",
+        "http": 200,
+        "selfCanonical": true,
+        "noindex": false
+      },
+      {
+        "path": "/products/coros-apex-2-pro/alternatives",
+        "pageType": "alternatives",
+        "reasonAdded": "Post-V3 alternatives INDEXABLE (Fix 65 graph / category gate)",
+        "eligibility": "INDEXABLE",
+        "http": 200,
+        "selfCanonical": true,
+        "noindex": false
+      },
+      {
+        "path": "/products/polar-pacer-pro/alternatives",
+        "pageType": "alternatives",
+        "reasonAdded": "Post-V3 alternatives INDEXABLE (Fix 65 graph / category gate)",
+        "eligibility": "INDEXABLE",
+        "http": 200,
+        "selfCanonical": true,
+        "noindex": false
+      },
+      {
+        "path": "/products/suunto-race-s/alternatives",
+        "pageType": "alternatives",
+        "reasonAdded": "Post-V3 alternatives INDEXABLE (Fix 65 graph / category gate)",
+        "eligibility": "INDEXABLE",
+        "http": 200,
+        "selfCanonical": true,
+        "noindex": false
+      },
+      {
+        "path": "/products/apple-watch-ultra-2/alternatives",
+        "pageType": "alternatives",
+        "reasonAdded": "Post-V3 alternatives INDEXABLE (Fix 65 graph / category gate)",
+        "eligibility": "INDEXABLE",
+        "http": 200,
+        "selfCanonical": true,
+        "noindex": false
+      },
+      {
+        "path": "/products/wahoo-tickr/alternatives",
+        "pageType": "alternatives",
+        "reasonAdded": "Post-V3 alternatives INDEXABLE (Fix 65 graph / category gate)",
+        "eligibility": "INDEXABLE",
+        "http": 200,
+        "selfCanonical": true,
+        "noindex": false
+      },
+      {
+        "path": "/products/amazfit-balance-3/alternatives",
+        "pageType": "alternatives",
+        "reasonAdded": "Fix 75 — Amazfit / Samsung / Kiprun catalog gap close",
+        "eligibility": "INDEXABLE",
+        "http": 200,
+        "selfCanonical": true,
+        "noindex": false
+      },
+      {
+        "path": "/products/amazfit-cheetah-2-pro/alternatives",
+        "pageType": "alternatives",
+        "reasonAdded": "Fix 75 — Amazfit / Samsung / Kiprun catalog gap close",
+        "eligibility": "INDEXABLE",
+        "http": 200,
+        "selfCanonical": true,
+        "noindex": false
+      },
+      {
+        "path": "/products/samsung-galaxy-watch-ultra-2/alternatives",
+        "pageType": "alternatives",
+        "reasonAdded": "Fix 75 — Amazfit / Samsung / Kiprun catalog gap close",
+        "eligibility": "INDEXABLE",
+        "http": 200,
+        "selfCanonical": true,
+        "noindex": false
+      },
+      {
+        "path": "/products/samsung-galaxy-watch-9/alternatives",
+        "pageType": "alternatives",
+        "reasonAdded": "Fix 75 — Amazfit / Samsung / Kiprun catalog gap close",
+        "eligibility": "INDEXABLE",
+        "http": 200,
+        "selfCanonical": true,
+        "noindex": false
+      },
+      {
+        "path": "/products/scosche-rhythm-plus-2/alternatives",
+        "pageType": "alternatives",
+        "reasonAdded": "Post-V3 alternatives INDEXABLE (Fix 65 graph / category gate)",
+        "eligibility": "INDEXABLE",
+        "http": 200,
+        "selfCanonical": true,
+        "noindex": false
+      },
+      {
+        "path": "/products/scosche-rhythm24/alternatives",
+        "pageType": "alternatives",
+        "reasonAdded": "Post-V3 alternatives INDEXABLE (Fix 65 graph / category gate)",
+        "eligibility": "INDEXABLE",
+        "http": 200,
+        "selfCanonical": true,
+        "noindex": false
+      },
+      {
+        "path": "/brands/samsung",
+        "pageType": "brand",
+        "reasonAdded": "Fix 75 — Amazfit / Samsung / Kiprun catalog gap close",
+        "eligibility": "INDEXABLE",
+        "http": 200,
+        "selfCanonical": true,
+        "noindex": false
+      },
+      {
+        "path": "/brands/amazfit",
+        "pageType": "brand",
+        "reasonAdded": "Fix 75 — Amazfit / Samsung / Kiprun catalog gap close",
+        "eligibility": "INDEXABLE",
+        "http": 200,
+        "selfCanonical": true,
+        "noindex": false
+      },
+      {
+        "path": "/brands/nnormal",
+        "pageType": "brand",
+        "reasonAdded": "Fix 69 — NNormal Kjerag 02 / Tomir 02 + hub READY",
+        "eligibility": "INDEXABLE",
+        "http": 200,
+        "selfCanonical": true,
+        "noindex": false
+      },
+      {
+        "path": "/brands/decathlon",
+        "pageType": "brand",
+        "reasonAdded": "Fix 75 — Amazfit / Samsung / Kiprun catalog gap close",
+        "eligibility": "INDEXABLE",
+        "http": 200,
+        "selfCanonical": true,
+        "noindex": false
+      },
+      {
+        "path": "/reviews/kiprun-900-race-5",
+        "pageType": "review",
+        "reasonAdded": "Fix 75 — Amazfit / Samsung / Kiprun catalog gap close",
+        "eligibility": "INDEXABLE",
+        "http": 200,
+        "selfCanonical": true,
+        "noindex": false
+      },
+      {
+        "path": "/reviews/kiprun-proteam-10",
+        "pageType": "review",
+        "reasonAdded": "Fix 75 — Amazfit / Samsung / Kiprun catalog gap close",
+        "eligibility": "INDEXABLE",
+        "http": 200,
+        "selfCanonical": true,
+        "noindex": false
+      },
+      {
+        "path": "/reviews/amazfit-balance-3",
+        "pageType": "review",
+        "reasonAdded": "Fix 75 — Amazfit / Samsung / Kiprun catalog gap close",
+        "eligibility": "INDEXABLE",
+        "http": 200,
+        "selfCanonical": true,
+        "noindex": false
+      },
+      {
+        "path": "/reviews/amazfit-cheetah-2-pro",
+        "pageType": "review",
+        "reasonAdded": "Fix 75 — Amazfit / Samsung / Kiprun catalog gap close",
+        "eligibility": "INDEXABLE",
+        "http": 200,
+        "selfCanonical": true,
+        "noindex": false
+      },
+      {
+        "path": "/reviews/samsung-galaxy-watch-ultra-2",
+        "pageType": "review",
+        "reasonAdded": "Fix 75 — Amazfit / Samsung / Kiprun catalog gap close",
+        "eligibility": "INDEXABLE",
+        "http": 200,
+        "selfCanonical": true,
+        "noindex": false
+      },
+      {
+        "path": "/reviews/samsung-galaxy-watch-9",
+        "pageType": "review",
+        "reasonAdded": "Fix 75 — Amazfit / Samsung / Kiprun catalog gap close",
+        "eligibility": "INDEXABLE",
+        "http": 200,
+        "selfCanonical": true,
+        "noindex": false
+      }
+    ]
+  },
+  "not200": [],
+  "noindex": [],
+  "canonicalMiss": [],
+  "facetLeak": [],
+  "draftPathLeak": [],
+  "draftIssues": []
+}

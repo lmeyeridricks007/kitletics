@@ -1,0 +1,110 @@
+measure /
+measure /running
+measure /running/shoes
+measure /running/shoes/daily-trainers
+measure /products/nike-vomero-18
+measure /reviews/nike-vomero-18
+measure /best/running-shoes
+measure /guides/how-to-choose-running-shoes
+measure /compare
+measure /tools/running-shoe-finder
+measure /brands/nike
+{
+  "routes": [
+    {
+      "id": "home",
+      "status": 200,
+      "totalMb": 1.21,
+      "imageMb": 0.13,
+      "withinBudget": true,
+      "axeSeriousCritical": 0
+    },
+    {
+      "id": "running",
+      "status": 200,
+      "totalMb": 1.45,
+      "imageMb": 0.25,
+      "withinBudget": true,
+      "axeSeriousCritical": 0
+    },
+    {
+      "id": "shoes",
+      "status": 200,
+      "totalMb": 1.27,
+      "imageMb": 0.07,
+      "withinBudget": true,
+      "axeSeriousCritical": 0
+    },
+    {
+      "id": "daily-trainers",
+      "status": 200,
+      "totalMb": 1.2,
+      "imageMb": 0.1,
+      "withinBudget": true,
+      "axeSeriousCritical": 0
+    },
+    {
+      "id": "pdp",
+      "status": 200,
+      "totalMb": 1.18,
+      "imageMb": 0.06,
+      "withinBudget": true,
+      "axeSeriousCritical": 0
+    },
+    {
+      "id": "review",
+      "status": 200,
+      "totalMb": 1.21,
+      "imageMb": 0.06,
+      "withinBudget": true,
+      "axeSeriousCritical": 0
+    },
+    {
+      "id": "best",
+      "status": 200,
+      "totalMb": 1.43,
+      "imageMb": 0.08,
+      "withinBudget": true,
+      "axeSeriousCritical": 0
+    },
+    {
+      "id": "guide",
+      "status": 200,
+      "totalMb": 1.31,
+      "imageMb": 0.08,
+      "withinBudget": true,
+      "axeSeriousCritical": 0
+    },
+    {
+      "id": "compare",
+      "status": 200,
+      "totalMb": 1.68,
+      "imageMb": 0.01,
+      "withinBudget": true,
+      "axeSeriousCritical": 0
+    },
+    {
+      "id": "finder",
+      "status": 200,
+      "totalMb": 1,
+      "imageMb": 0.02,
+      "withinBudget": true,
+      "axeSeriousCritical": 0
+    },
+    {
+      "id": "brand",
+      "status": 200,
+      "totalMb": 1.12,
+      "imageMb": 0.03,
+      "withinBudget": true,
+      "axeSeriousCritical": 0
+    }
+  ],
+  "gates": {
+    "allWithinBudget": true,
+    "zeroAxeSeriousCritical": true,
+    "compareWithinBudget": true,
+    "dailyTrainersWithinBudget": true
+  }
+}
+EXIT:0

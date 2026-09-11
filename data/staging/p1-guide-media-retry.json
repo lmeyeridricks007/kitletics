@@ -1,0 +1,59 @@
+[
+  {
+    "id": "prod-nike-impossibly-light-men",
+    "ok": true,
+    "used": "https://static.nike.com/a/images/t_default/116e64df-f09c-460d-8bd5-4ffbfa759e9c/M+NK+IMP+LGHT+WR+JKT.png",
+    "err": null,
+    "dims": {
+      "bytes": 22693,
+      "width": 400,
+      "height": 400
+    }
+  },
+  {
+    "id": "prod-brooks-lsd-thermal-vest-men",
+    "ok": false,
+    "used": null,
+    "err": null,
+    "dims": null
+  },
+  {
+    "id": "prod-tnf-flight-series-jacket-men",
+    "ok": false,
+    "used": null,
+    "err": null,
+    "dims": null
+  },
+  {
+    "id": "prod-lululemon-hotty-hot-women",
+    "ok": false,
+    "used": null,
+    "err": null,
+    "dims": null
+  },
+  {
+    "id": "prod-lululemon-fast-and-free-women",
+    "ok": false,
+    "used": null,
+    "err": null,
+    "dims": null
+  },
+  {
+    "id": "prod-saltstick-caps",
+    "ok": true,
+    "used": "https://cdn.shopify.com/s/files/1/0701/2902/5223/files/SaltStick_ElectrolyteCapsules-NewLook.jpg?v=1750799738",
+    "err": null,
+    "dims": {
+      "bytes": 114837,
+      "width": 918,
+      "height": 923
+    }
+  },
+  {
+    "id": "prod-saltstick-fastchews",
+    "ok": false,
+    "used": null,
+    "err": null,
+    "dims": null
+  }
+]

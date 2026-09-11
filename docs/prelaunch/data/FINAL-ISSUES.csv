@@ -1,0 +1,27 @@
+id,severity,requirement,status,detail
+CI-TEST,BLOCKER,Clean CI tests PASS,FAIL,"npm test EXIT 1 — 1 failed / 554: launch-eligibility.test.ts expects Best INDEXABLE ≤12; measured Day-1 Best INDEXABLE=44"
+CI-LINT,OK,lint PASS,PASS,EXIT 0 (0 errors / 72 warnings)
+CI-TYPECHECK,OK,typecheck PASS,PASS,EXIT 0
+CI-BUILD,OK,build PASS,PASS,EXIT 0; shared First Load JS 103 kB; Finder 130 kB; tools/[slug] 166 kB
+SITEMAP-404,BLOCKER,0 known broken sitemap URLs,FAIL,"4/664 sitemap URLs HTTP 404: /compare/lululemon-hotty-hot-vs-janji-pace-short; /compare/theragun-prime-vs-renpho-r3; /compare/triggerpoint-grid-vs-grid-x; /compare/oofos-ooriginal-vs-hoka-ora-recovery-slide (INDEXABLE eligibility with missing peer product)"
+DRAFT-LEAK,OK,0 accidentally exposed drafts,PASS,SEO futureContentTests drafts not in sitemap; accidentalExposure=0
+FILTER-INDEX,OK,0 indexable arbitrary filters,PASS,filter samples NOINDEX + canonicalize to clean category; Search NOINDEX
+THIN-BEST-INDEX,OK,0 thin Best indexable,PASS,44 Best INDEXABLE all LAUNCH_READY (bestIndexableNotLaunchReady=[])
+THIN-REVIEW-INDEX,OK,0 thin/duplicative Reviews indexable,PASS,43 INDEXABLE; 539 uniqueness holds keep DUPLICATIVE out of index
+THIN-COMP-INDEX,OK,0 thin Comparisons indexable by quality,PASS,MEANINGFUL quality class; broken comps tracked under SITEMAP-404
+FAKE-FIRSTHAND,OK,0 fake first-hand claims,PASS,visibleFirstHandReviews=0; firstHandBlockers=0
+FAKE-AGGREGATE,OK,0 fake AggregateRating,PASS,fakeRatingBlocker=false
+LOCALHOST-CANON,OK,0 localhost canonicals,PASS,siteConfig.url=https://kitletics.com
+VERTICAL-LEAK,OK,held vertical deep pages not in Day-1 index,PASS,padel/tennis/fitness deep content HIDDEN/NOINDEX by strategy
+ORPHANS,OK,0 unexplained indexable orphans,PASS,architecture crawl orphans.count=0
+UNIQUENESS-SCALE,HIGH,Day-1 uniqueness at review scale,PASS_WITH_NOTE,"521 DUPLICATIVE + 18 NEEDS_DIFF reviews held (539); Day-1 index uses uniqueness overlay. Residual: 7 comps NEEDS_DIFF held from uniqueness audit"
+BEST-CEILING,HIGH,Best INDEXABLE count vs editorial ceiling test,FAIL,"44 INDEXABLE Best vs stale CI ≤12 assertion — policy conflict; do not shrink URLs to pass test; do not change test in this audit"
+PERF-COMPARE-IMAGES,HIGH,Category/Brand/PDP transfer budgets,FAIL,"/compare lab ~9.0 MB images / ~9.2 MB total — exceeds 2.5 MB category budget. /running/shoes/daily-trainers ~6.0 MB images. Home/shoes hubs OK (~0.4–0.5 MB)."
+PERF-HUB-FIXED,OK,Prior mega-hub image residual fixed,PASS,"/running/shoes ~373 KB total (was ~7–47 MB baseline); PDP Vomero ~271 KB (was ~6.8–7.6 MB); home ~403 KB (was ~29 MB). Brand Nike HTML OK; lab transfer incomplete due to server drop"
+LASTMOD-MASS,MEDIUM,sitemap lastmod diversity,WARN,"uniqueLastmod=3; 643/664 share 2026-09-04 — mass-identical seed date pattern"
+SOFT-GATES,MEDIUM,soft-gated Running categories,INFO,clothing/sunglasses/accessories/nutrition HOLD by design
+REGIONAL,MEDIUM,regional commerce,INFO,NL primary; BE/FR/ZA empty honest
+LAB-STABILITY,MEDIUM,prod server under load,WARN,"next start dropped under concurrent crawl/probe; gentle probe + sequential arch succeeded. Functional probes failed when server died mid-lab — not proven product UX bugs"
+COMMISSION-RANK,OK,commission cannot influence rankings,PASS,"src/domain/commerce/ranking.ts documents commission intentionally absent; Best/Finder copy asserts neutrality; no executable commission→score path found"
+TRUST-ROUTES,OK,trust pages present,PASS,missingTrustRoutes=[]; 0 first-hand; Expert Research honesty
+SHOES-NON-LR,MEDIUM,every non-LR shoe listed,INFO,"Product audit 02: shoes LAUNCH_READY=83 BLOCKED=1 (draft example). Eligibility export flagged rebel-v4 as non-LR under domain assessor — reconcile assessors; draft remains non-Day-1"

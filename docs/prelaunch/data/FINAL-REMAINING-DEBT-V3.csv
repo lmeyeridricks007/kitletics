@@ -1,0 +1,58 @@
+id,surface,path_or_slug,status_label,severity,n,notes,evidence
+SEO-SITEMAP-NOINDEX,seo,/products/*/alternatives,sitemap_robots_aligned,CLOSED,0,"V2 HIGH closed by Fix 82. Fresh mismatchN=0; sitemap alts 130; pageIndexableTrue 130; HTTP noindex 0.",rc-v3/alt-index-mismatch.json; rc-v3/sitemap-http-probe.json
+MEDIA-CI-CRASH,engineering,scripts/catalog-media-agent.ts,ci_pass,CLOSED,0,"npm run media:ci exit 0. Authentic 631/631. P0 gaps 0. Broken 0. Ingest >5MB 0.",rc-v3/logs/media-ci.log
+ENG-TEST-TIMEOUT,engineering,tests/*sitemap*,test_stable,CLOSED,0,"Fix 84. npm test 62 files / 639 tests / 0 timeouts.",rc-v3/logs/test.log
+ENG-CONSOLE-DEBUG,engineering,calculators/rotation analytics,telemetry_sink,CLOSED,0,"Fix 88. No console.log/debug in src/. Sinks match commerce analytics.",fixes/88-production-code-hygiene.md
+ENG-FINDER-TODO,engineering,running-shoe-finder.ts,roadmap_documented,CLOSED,0,"Fix 88. TODO removed. FUT-FINDER-SCORING in FUTURE_ROADMAP.md.",docs/prelaunch/FUTURE_ROADMAP.md
+MEDIA-WRONG-BAK,media,public/images,no_bak,CLOSED,0,"Fix 86. find *.bak under public/images = 0.",rc-v3/logs/media-hygiene.log
+MEDIA-QA-CLUTTER,media,public/images/**/qa,relocated,CLOSED,0,"Fix 86. No qa dirs / qa-*.png under public/images.",rc-v3/logs/media-hygiene.log
+REV-ARTICLE-AUDITOR,reviews,assessReviewArticle,tools_agree,CLOSED,0,"Fix 85. Flagship article P0=0; CONTENT-ARTICLE-P0 0/15; launch 591/591 READY. P0/HIGH semantics agree.",rc-v3/assessor-matrix.json; rc-v3/content-audit-slice.json
+SEO-SITEMAP-INVARIANT,seo,sitemap,probed,CLOSED,0,"Fresh HTTP 1167/1167 200. Self-canonical all. noindex 0. redirects 0. draft/facet leak 0.",rc-v3/sitemap-http-probe.json
+A11Y-AXE-INCOMPLETE,accessibility,header;hubs,axe_incomplete_classified,CLOSED,0,"Not a violation. Home color-contrast incomplete is axe bgGradient. Search incomplete=0. P0 routes seriousCritical=0.",rc-v3/p0-lab.json; rc-v3/a11y-mobile.json
+UX-NOVABLAST-OVERFLOW,accessibility,/products/asics-novablast-6,mobile_overflow_ok,CLOSED,0,"Fresh 390/768/1440 leak=0 for Novablast/Vomero/Glycerin and product/review/best/guide/finder.",rc-v3/logs/a11y-mobile.log
+P0-TRANSFER-BUDGET,performance,p0 routes,within_budget,CLOSED,0,"12/12 routes under 2.5MB. Max 1.69MB search.",rc-v3/p0-lab.json
+KEYBOARD-QA,accessibility,P0 surfaces,pass,CLOSED,0,"47/47 keyboard checks passed.",rc-v3/keyboard-qa.json
+SITE-AUDIT-FULL,engineering,site:audit full dry-run,READY,CLOSED,0,"BLOCKER 0 HIGH 0 MEDIUM 0 LOW 1 (CONTENT-002-SOURCE only).",rc-v3/site-quality-audit.md
+SITE-AUDIT-LINKS,engineering,site:audit:links dry-run,READY,CLOSED,0,"BLOCKER/HIGH/MEDIUM/LOW 0.",rc-v3/site-quality-audit-links.md
+ALT-UNEXPLAINED,alternatives,classify-alternatives-hold,unexplained_closed,CLOSED,0,"THIN_UNEXPLAINED still 0. Market 21. Dup intent 1.",rc-v3/inventory.json alternatives
+IMG-QUALITIES,engineering,next.config.ts,qualities_allowlisted,CLOSED,0,"images.qualities 65/70/75 still in force.",next.config.ts
+MEDIA-INGEST,media,public/images,extreme_masters,CLOSED,0,"find -size +5M = 0.",rc-v3/logs/media-hygiene.log
+OFFER-OVERLAY-SAMPLE,commerce,OFFER_URL_VALIDATION,overlay_day1_complete,CLOSED,0,"Overlay 433: 48 VALID 375 LIKELY_VALID 10 UNKNOWN 0 INVALID. 868 unvalidated = held vertical.",rc-v3/inventory.json commerce
+MEDIA-MASTERS-1MB,media,public/images,oversized_source_policy,LOW,2790,"2790 files >1MB. >5MB = 0. Do not batch-recompress. Serve via next/image.",rc-v3/logs/media-hygiene.log
+MEDIA-GALLERY-REMAINDER,media,PRODUCT_GALLERY_MEDIA,weak_gallery_depth,LOW,332,"43/375 INDEXABLE have gallery registry extras (was 23). 332 hero-only remain.",rc-v3/inventory.json galleryDepthIndexable
+A11Y-IMG-DISABLE,engineering,src/components/**,eslint_disable,LOW,25,"Documented JUSTIFIED_SUPPRESSION for no-img-element + exhaustive-deps (Fix 88).",fixes/88-production-code-hygiene.md
+REV-DURO-DYNA-MONITOR,reviews,/reviews/osprey-duro-6;/reviews/osprey-dyna-6,NEEDS_DIFF_monitor,LOW,2,"Truncated token-Jaccard 0.752. Uniqueness NEEDS_DIFFERENTIATION 2. Assessor READY. Not a rewrite queue.",rc-v3/inventory.json uniquenessIndexable
+REV-SOURCE-JUNK,reviews,"buff-merino-lightweight;buff-polar;new-balance-fuelcell-rebel-v4",source_seed_voice,LOW,3,"isReportOrJunkVoice on source fields. Enriched decision junkVoice=0. site:audit CONTENT-002-SOURCE LOW.",rc-v3/content-audit-slice.json; live source scan
+HOLD-VERT-PRODUCTS,products,/products/*,vertical_hold,INTENTIONAL_HOLD,256,"Fitness/padel/tennis/hyrox published SKUs. Hub may exist; deep PDP not Day-1 INDEXABLE. 138 still LAUNCH_READY quality.",rc-v3/inventory.json products
+HOLD-VERT-REVIEWS,reviews,/reviews/*,vertical_hold,INTENTIONAL_HOLD,218,"Editorial READY 591/591. Held only because product sport is not Day-1 enabled.",rc-v3/inventory.json reviews
+HOLD-VERT-BEST,best,/best/*,vertical_hold,INTENTIONAL_HOLD,14,"All 14 held Best are LAUNCH_READY. 0 THIN. EDITORIAL_INTENT_HOLD_PATHS empty.",rc-v3/inventory.json best.held
+HOLD-VERT-GUIDES,guides,/guides/*,vertical_hold,INTENTIONAL_HOLD,27,"All 69 guides assessor complete. Non-Running not INDEXABLE.",rc-v3/inventory.json guides
+HOLD-VERT-COMPARISONS,comparisons,/compare/*,vertical_hold,INTENTIONAL_HOLD,29,"Published 94/94 MEANINGFUL. Non-Running pairs wait on vertical.",rc-v3/inventory.json comparisons
+HOLD-VERT-TOOLS,tools,/tools/*,vertical_hold,INTENTIONAL_HOLD,13,"25 tools available; 12 INDEXABLE. Held finders are non-Running.",rc-v3/inventory.json tools
+HOLD-ALT-CATEGORY,alternatives,/products/*/alternatives,alt_category_or_vertical,INTENTIONAL_HOLD,335,"READY pages outside Day-1 INDEXABLE alt set. Eligibility INDEXABLE=130 equals page indexable.",rc-v3/inventory.json alternatives
+HOLD-ALT-MARKET,alternatives,21 clothing/fuel/flask/treadmill slugs,HOLD_INSUFFICIENT_ALTERNATIVE_MARKET,INTENTIONAL_HOLD,21,"Cluster has fewer than 3 published peers. Not padded.",rc-v3/inventory.json alternatives.marketHolds
+HOLD-ALT-DUP,alternatives,nike-dri-fit-miler-women,HOLD_DUPLICATE_INTENT,INTENTIONAL_HOLD,1,"Women Miler tee duplicates men's page intent. Explicit hold.",rc-v3/inventory.json
+HOLD-BRAND-SMALL,brands,/brands/*,HOLD_INSUFFICIENT_DEPTH,INTENTIONAL_HOLD,87,"1-2 published SKUs or depth gate. Not padded.",rc-v3/inventory.json brands.class
+HOLD-BRAND-MEDIA,brands,/brands/*,HOLD_NO_PRODUCTS,INTENTIONAL_HOLD,30,"Zero published products; SKUs draft until licensed hero.",rc-v3/inventory.json brands.class
+HOLD-CAT-VERTICAL,categories,/fitness/*;/padel/*;/tennis/*,vertical_hold,INTENTIONAL_HOLD,28,"Non-Running category shells. Not Day-1 INDEXABLE.",rc-v3/inventory.json categories.future
+HOLD-CAT-SHELLS,categories,"/padel/bags;/padel/accessories;/padel/clothing;/squash/rackets",empty_shell,INTENTIONAL_HOLD,4,"SOFT_GATED_CATEGORY_SLUGS. Explicit empty. Not missing copy.",rc-v3/inventory.json categories.emptyShells
+HOLD-LASTMOD-OMIT,seo,sitemap lastModified,lastmod_omit,INTENTIONAL_HOLD,1125,"1125/1167 sitemap URLs omit lastmod. Fix 32: omit vs seed/verified stamps. 42 genuine stamps remain.",rc-v3/inventory.json sitemap
+HOLD-COMMERCE-PARTIAL,commerce,DE;UK,partial_coverage,INTENTIONAL_HOLD,2,"Switcher shows Limited offers. Not claimed as NL-parity. DE 274 UK 278 rows.",rc-v3/inventory.json commerce
+HOLD-COMMERCE-US,commerce,US,limited_coverage,INTENTIONAL_HOLD,3,"3 offer rows. Switcher: Very limited. UX does not claim US catalog parity.",rc-v3/inventory.json commerce.byRegion
+HOLD-COMMERCE-NONE,commerce,BE;FR;ZA,no_coverage,INTENTIONAL_HOLD,3,"0 offer rows. Empty copy: No verified retailer offers currently available in your region.",rc-v3/inventory.json
+HOLD-CMP-BROKEN-DRAFT,comparisons,COMPARISON_BROKEN_PEER_SLUGS,broken_draft_peers,INTENTIONAL_HOLD,8,"8 slugs with draft/media-gated peers. Not in published 94. Not in sitemap.",rc-v3/inventory.json comparisons.listedBrokenPeerSlugs
+HOLD-GRAPH-WEAK,relationships,decision graph WEAK,WEAK,INTENTIONAL_HOLD,478,"0 INVALID. Remaining WEAK is previous-gen/fuel-form/Best routing. INDEXABLE Running alts WEAK=12.",rc-v3/graph-audit-summary.json
+HOLD-PRODUCT-DRAFTS,products,draft;review status,media_gate,INTENTIONAL_HOLD,93,"89 draft + 4 review in dev catalog. Authentic-hero gate. Not in published 631.",rc-v3/inventory.json products.draftByStatus
+HOLD-SEARCH-NOINDEX,seo,/search,search_noindex,INTENTIONAL_HOLD,1,"/search is noindex and excluded from sitemap. Lab search axe incomplete=0.",rc-v3/p0-lab.json search
+FUT-VERTICAL-FITNESS,categories,/fitness,future_vertical,FUTURE_ROADMAP,1,"Fitness selective with empty indexableKinds. Deep URLs stay held until programme opens.",vertical-strategy.ts
+FUT-VERTICAL-RACKET,categories,/padel;/tennis,future_vertical,FUTURE_ROADMAP,1,"Padel/tennis/hyrox/calisthenics disabled. Do not index deep SKUs.",vertical-strategy.ts
+FUT-PRODUCT-NMW,products,held vertical SKUs,NMW,FUTURE_ROADMAP,116,"116 NMW on padel/pickleball/badminton/fitness/tennis. 0 Running. Become owed when those PDPs are promised.",rc-v3/inventory.json products.qualityHeldVertical
+FUT-PRODUCT-THIN,products,head-padel-pro-s-balls;wilson-padel-overgrip-pack,THIN,FUTURE_ROADMAP,2,"Padel balls/grips. Not INDEXABLE.",rc-v3/inventory.json
+FUT-BRAND-DEPTH,brands,/brands/*,brand_hub_when_catalog,FUTURE_ROADMAP,1,"Promote hubs only with >=3 authentic published products + signals. Do not pad.",canPublishBrandHub
+FUT-GALLERY,media,priority PDPs,gallery_depth,FUTURE_ROADMAP,1,"Legitimate secondary angles beyond current 43 registry products when manufacturer CDNs exist.",rc-v3/inventory.json galleryOnIndexable
+FUT-OFFER-VALIDATE,commerce,held vertical offers,url_validation,FUTURE_ROADMAP,868,"Day-1 Running overlay complete. Remaining 868 padel/fitness/tennis offers. Do not hide UNKNOWN. Do not invent FR/BE/ZA inventory.",rc-v3/inventory.json commerce.validationStates
+FUT-OFFER-REGIONS,commerce,BE;FR;ZA;US,regional_ingest,FUTURE_ROADMAP,1,"Ingest verified local offers only. Do not present NL as local.",Fix 12
+FUT-FINDER-SCORING,tools,/tools/running-shoe-finder,scoring_tune,FUTURE_ROADMAP,1,"Tune finder weights against expert-labeled scenarios. Documented in FUTURE_ROADMAP.md — not production TODO.",docs/prelaunch/FUTURE_ROADMAP.md
+FUT-GRAPH-WEAK-REPLACE,relationships,INDEXABLE Running WEAK alts,WEAK,FUTURE_ROADMAP,12,"Replace WEAK only when a genuine unused STRONG same-job peer exists. Do not maximize edge count.",rc-v3/graph-audit.json runningIndexableAlts
+FUT-NNORMAL-LINE,products,nnormal cadi;kjerag-brut,catalog_gap,FUTURE_ROADMAP,1,"Cadí / Kjerag Brut / apparel not ingested on purpose after Kjerag 02 + Tomir 02.",fixes/69-brand-depth-opportunities.md
+FUT-UNGATE-MEDIA,products,compressport;oofos;lululemon;kiprun-trail-10,media_gate,FUTURE_ROADMAP,1,"Ungate authored SKUs only with licensed heroes. Forbidden to invent photography.",Fix 69 media gate

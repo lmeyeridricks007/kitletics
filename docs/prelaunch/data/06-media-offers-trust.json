@@ -1,0 +1,1975 @@
+{
+  "meta": {
+    "auditId": "06-media-offers-trust",
+    "title": "Kitletics Pre-Launch Audit 06 — Media, Offers, Evidence & Trust",
+    "generatedAt": "2026-09-06T21:19:24.433Z",
+    "auditClock": "2026-09-06T12:00:00.000Z",
+    "mode": "read-only-forensic",
+    "notes": [
+      "Did not replace images, fetch new offers, or modify content.",
+      "Media identity via scripts/lib/catalog-media-audit.ts (shared-hash + OCR defaults).",
+      "Offer URL checks are a HEAD/GET sample only — not a full crawl.",
+      "Commercial independence is code/data-path evidence, not a legal opinion."
+    ],
+    "canonicalHost": "https://kitletics.com",
+    "baseUrlOptional": null
+  },
+  "blockers": {
+    "fakeAggregateRatingInBuilders": false,
+    "fakeAggregateRatingEvidence": [],
+    "liveSchemaAggregateRating": []
+  },
+  "media": {
+    "publishedProducts": 623,
+    "withAuthenticPrimary": 623,
+    "withGalleryExtra": 23,
+    "withLifestyleOrOnFoot": 1,
+    "missingPrimary": 0,
+    "placeholderPrimary": 0,
+    "unknownProvenance": 0,
+    "duplicateImageGroups": 0,
+    "duplicateImageGroupsSample": [],
+    "catalogMediaAuditTotals": {
+      "published": 623,
+      "withAuthenticPrimary": 623,
+      "missing": 0,
+      "broken": 0,
+      "placeholderOnly": 0,
+      "identityMismatches": 0,
+      "coveragePct": 100,
+      "registryEntries": 627
+    },
+    "catalogMediaGaps": [],
+    "byCategory": [
+      {
+        "categoryId": "cat-running-shoes",
+        "categoryName": "Running Shoes",
+        "categorySlug": "running-shoes",
+        "published": 83,
+        "withAuthenticPrimary": 83,
+        "missing": 0,
+        "broken": 0,
+        "placeholderOnly": 0,
+        "coveragePct": 100
+      },
+      {
+        "categoryId": "cat-gps-watches",
+        "categoryName": "GPS Watches",
+        "categorySlug": "gps-watches",
+        "published": 33,
+        "withAuthenticPrimary": 33,
+        "missing": 0,
+        "broken": 0,
+        "placeholderOnly": 0,
+        "coveragePct": 100
+      },
+      {
+        "categoryId": "cat-hrm",
+        "categoryName": "Heart Rate Monitors",
+        "categorySlug": "heart-rate-monitors",
+        "published": 15,
+        "withAuthenticPrimary": 15,
+        "missing": 0,
+        "broken": 0,
+        "placeholderOnly": 0,
+        "coveragePct": 100
+      },
+      {
+        "categoryId": "cat-packs-vests",
+        "categoryName": "Running Packs & Vests",
+        "categorySlug": "running-packs-vests",
+        "published": 35,
+        "withAuthenticPrimary": 35,
+        "missing": 0,
+        "broken": 0,
+        "placeholderOnly": 0,
+        "coveragePct": 100
+      },
+      {
+        "categoryId": "cat-running-belts",
+        "categoryName": "Running Belts",
+        "categorySlug": "running-belts",
+        "published": 14,
+        "withAuthenticPrimary": 14,
+        "missing": 0,
+        "broken": 0,
+        "placeholderOnly": 0,
+        "coveragePct": 100
+      },
+      {
+        "categoryId": "cat-hydration",
+        "categoryName": "Hydration",
+        "categorySlug": "hydration",
+        "published": 17,
+        "withAuthenticPrimary": 17,
+        "missing": 0,
+        "broken": 0,
+        "placeholderOnly": 0,
+        "coveragePct": 100
+      },
+      {
+        "categoryId": "cat-running-socks",
+        "categoryName": "Running Socks",
+        "categorySlug": "running-socks",
+        "published": 10,
+        "withAuthenticPrimary": 10,
+        "missing": 0,
+        "broken": 0,
+        "placeholderOnly": 0,
+        "coveragePct": 100
+      },
+      {
+        "categoryId": "cat-headphones",
+        "categoryName": "Headphones",
+        "categorySlug": "headphones",
+        "published": 11,
+        "withAuthenticPrimary": 11,
+        "missing": 0,
+        "broken": 0,
+        "placeholderOnly": 0,
+        "coveragePct": 100
+      },
+      {
+        "categoryId": "cat-sunglasses",
+        "categoryName": "Sunglasses",
+        "categorySlug": "sunglasses",
+        "published": 17,
+        "withAuthenticPrimary": 17,
+        "missing": 0,
+        "broken": 0,
+        "placeholderOnly": 0,
+        "coveragePct": 100
+      },
+      {
+        "categoryId": "cat-running-lights",
+        "categoryName": "Running Lights",
+        "categorySlug": "running-lights",
+        "published": 9,
+        "withAuthenticPrimary": 9,
+        "missing": 0,
+        "broken": 0,
+        "placeholderOnly": 0,
+        "coveragePct": 100
+      },
+      {
+        "categoryId": "cat-safety",
+        "categoryName": "Safety Gear",
+        "categorySlug": "safety-gear",
+        "published": 6,
+        "withAuthenticPrimary": 6,
+        "missing": 0,
+        "broken": 0,
+        "placeholderOnly": 0,
+        "coveragePct": 100
+      },
+      {
+        "categoryId": "cat-nutrition",
+        "categoryName": "Nutrition & Fuel",
+        "categorySlug": "nutrition-fuel",
+        "published": 38,
+        "withAuthenticPrimary": 38,
+        "missing": 0,
+        "broken": 0,
+        "placeholderOnly": 0,
+        "coveragePct": 100
+      },
+      {
+        "categoryId": "cat-recovery-gear",
+        "categoryName": "Recovery",
+        "categorySlug": "recovery",
+        "published": 16,
+        "withAuthenticPrimary": 16,
+        "missing": 0,
+        "broken": 0,
+        "placeholderOnly": 0,
+        "coveragePct": 100
+      },
+      {
+        "categoryId": "cat-running-clothing",
+        "categoryName": "Running Clothing",
+        "categorySlug": "running-clothing",
+        "published": 57,
+        "withAuthenticPrimary": 57,
+        "missing": 0,
+        "broken": 0,
+        "placeholderOnly": 0,
+        "coveragePct": 100
+      },
+      {
+        "categoryId": "cat-accessories",
+        "categoryName": "Accessories",
+        "categorySlug": "accessories",
+        "published": 3,
+        "withAuthenticPrimary": 3,
+        "missing": 0,
+        "broken": 0,
+        "placeholderOnly": 0,
+        "coveragePct": 100
+      },
+      {
+        "categoryId": "cat-padel-rackets",
+        "categoryName": "Padel Rackets",
+        "categorySlug": "padel-rackets",
+        "published": 27,
+        "withAuthenticPrimary": 27,
+        "missing": 0,
+        "broken": 0,
+        "placeholderOnly": 0,
+        "coveragePct": 100
+      },
+      {
+        "categoryId": "cat-padel-shoes",
+        "categoryName": "Padel Shoes",
+        "categorySlug": "padel-shoes",
+        "published": 34,
+        "withAuthenticPrimary": 34,
+        "missing": 0,
+        "broken": 0,
+        "placeholderOnly": 0,
+        "coveragePct": 100
+      },
+      {
+        "categoryId": "cat-padel-balls",
+        "categoryName": "Padel Balls",
+        "categorySlug": "padel-balls",
+        "published": 1,
+        "withAuthenticPrimary": 1,
+        "missing": 0,
+        "broken": 0,
+        "placeholderOnly": 0,
+        "coveragePct": 100
+      },
+      {
+        "categoryId": "cat-padel-grips",
+        "categoryName": "Grips & Overgrips",
+        "categorySlug": "padel-grips",
+        "published": 1,
+        "withAuthenticPrimary": 1,
+        "missing": 0,
+        "broken": 0,
+        "placeholderOnly": 0,
+        "coveragePct": 100
+      },
+      {
+        "categoryId": "cat-tennis-rackets",
+        "categoryName": "Tennis Rackets",
+        "categorySlug": "tennis-rackets",
+        "published": 20,
+        "withAuthenticPrimary": 20,
+        "missing": 0,
+        "broken": 0,
+        "placeholderOnly": 0,
+        "coveragePct": 100
+      },
+      {
+        "categoryId": "cat-tennis-shoes",
+        "categoryName": "Tennis Shoes",
+        "categorySlug": "tennis-shoes",
+        "published": 27,
+        "withAuthenticPrimary": 27,
+        "missing": 0,
+        "broken": 0,
+        "placeholderOnly": 0,
+        "coveragePct": 100
+      },
+      {
+        "categoryId": "cat-tennis-strings",
+        "categoryName": "Tennis Strings",
+        "categorySlug": "tennis-strings",
+        "published": 6,
+        "withAuthenticPrimary": 6,
+        "missing": 0,
+        "broken": 0,
+        "placeholderOnly": 0,
+        "coveragePct": 100
+      },
+      {
+        "categoryId": "cat-pickleball-paddles",
+        "categoryName": "Pickleball Paddles",
+        "categorySlug": "pickleball-paddles",
+        "published": 3,
+        "withAuthenticPrimary": 3,
+        "missing": 0,
+        "broken": 0,
+        "placeholderOnly": 0,
+        "coveragePct": 100
+      },
+      {
+        "categoryId": "cat-badminton-rackets",
+        "categoryName": "Badminton Rackets",
+        "categorySlug": "badminton-rackets",
+        "published": 5,
+        "withAuthenticPrimary": 5,
+        "missing": 0,
+        "broken": 0,
+        "placeholderOnly": 0,
+        "coveragePct": 100
+      },
+      {
+        "categoryId": "cat-training-shoes",
+        "categoryName": "Training Shoes",
+        "categorySlug": "training-shoes",
+        "published": 44,
+        "withAuthenticPrimary": 44,
+        "missing": 0,
+        "broken": 0,
+        "placeholderOnly": 0,
+        "coveragePct": 100
+      },
+      {
+        "categoryId": "cat-adjustable-dumbbells",
+        "categoryName": "Adjustable Dumbbells",
+        "categorySlug": "adjustable-dumbbells",
+        "published": 8,
+        "withAuthenticPrimary": 8,
+        "missing": 0,
+        "broken": 0,
+        "placeholderOnly": 0,
+        "coveragePct": 100
+      },
+      {
+        "categoryId": "cat-power-racks",
+        "categoryName": "Power Racks",
+        "categorySlug": "power-racks",
+        "published": 8,
+        "withAuthenticPrimary": 8,
+        "missing": 0,
+        "broken": 0,
+        "placeholderOnly": 0,
+        "coveragePct": 100
+      },
+      {
+        "categoryId": "cat-weight-benches",
+        "categoryName": "Weight Benches",
+        "categorySlug": "weight-benches",
+        "published": 7,
+        "withAuthenticPrimary": 7,
+        "missing": 0,
+        "broken": 0,
+        "placeholderOnly": 0,
+        "coveragePct": 100
+      },
+      {
+        "categoryId": "cat-barbells",
+        "categoryName": "Barbells",
+        "categorySlug": "barbells",
+        "published": 6,
+        "withAuthenticPrimary": 6,
+        "missing": 0,
+        "broken": 0,
+        "placeholderOnly": 0,
+        "coveragePct": 100
+      },
+      {
+        "categoryId": "cat-weight-plates",
+        "categoryName": "Weight Plates",
+        "categorySlug": "weight-plates",
+        "published": 5,
+        "withAuthenticPrimary": 5,
+        "missing": 0,
+        "broken": 0,
+        "placeholderOnly": 0,
+        "coveragePct": 100
+      },
+      {
+        "categoryId": "cat-kettlebells",
+        "categoryName": "Kettlebells",
+        "categorySlug": "kettlebells",
+        "published": 5,
+        "withAuthenticPrimary": 5,
+        "missing": 0,
+        "broken": 0,
+        "placeholderOnly": 0,
+        "coveragePct": 100
+      },
+      {
+        "categoryId": "cat-rowing-machines",
+        "categoryName": "Rowing Machines",
+        "categorySlug": "rowing-machines",
+        "published": 6,
+        "withAuthenticPrimary": 6,
+        "missing": 0,
+        "broken": 0,
+        "placeholderOnly": 0,
+        "coveragePct": 100
+      },
+      {
+        "categoryId": "cat-air-bikes",
+        "categoryName": "Air Bikes",
+        "categorySlug": "air-bikes",
+        "published": 6,
+        "withAuthenticPrimary": 6,
+        "missing": 0,
+        "broken": 0,
+        "placeholderOnly": 0,
+        "coveragePct": 100
+      },
+      {
+        "categoryId": "cat-treadmills",
+        "categoryName": "Treadmills",
+        "categorySlug": "treadmills",
+        "published": 6,
+        "withAuthenticPrimary": 6,
+        "missing": 0,
+        "broken": 0,
+        "placeholderOnly": 0,
+        "coveragePct": 100
+      },
+      {
+        "categoryId": "cat-ski-ergs",
+        "categoryName": "SkiErgs",
+        "categorySlug": "ski-ergs",
+        "published": 5,
+        "withAuthenticPrimary": 5,
+        "missing": 0,
+        "broken": 0,
+        "placeholderOnly": 0,
+        "coveragePct": 100
+      },
+      {
+        "categoryId": "cat-pull-up-bars",
+        "categoryName": "Pull-Up Bars",
+        "categorySlug": "pull-up-bars",
+        "published": 6,
+        "withAuthenticPrimary": 6,
+        "missing": 0,
+        "broken": 0,
+        "placeholderOnly": 0,
+        "coveragePct": 100
+      },
+      {
+        "categoryId": "cat-parallettes",
+        "categoryName": "Parallettes",
+        "categorySlug": "parallettes",
+        "published": 3,
+        "withAuthenticPrimary": 3,
+        "missing": 0,
+        "broken": 0,
+        "placeholderOnly": 0,
+        "coveragePct": 100
+      },
+      {
+        "categoryId": "cat-gymnastic-rings",
+        "categoryName": "Gymnastic Rings",
+        "categorySlug": "gymnastic-rings",
+        "published": 2,
+        "withAuthenticPrimary": 2,
+        "missing": 0,
+        "broken": 0,
+        "placeholderOnly": 0,
+        "coveragePct": 100
+      },
+      {
+        "categoryId": "cat-weighted-vests",
+        "categoryName": "Weighted Vests",
+        "categorySlug": "weighted-vests",
+        "published": 3,
+        "withAuthenticPrimary": 3,
+        "missing": 0,
+        "broken": 0,
+        "placeholderOnly": 0,
+        "coveragePct": 100
+      },
+      {
+        "categoryId": "cat-functional-fitness",
+        "categoryName": "Functional Fitness",
+        "categorySlug": "functional-fitness",
+        "published": 5,
+        "withAuthenticPrimary": 5,
+        "missing": 0,
+        "broken": 0,
+        "placeholderOnly": 0,
+        "coveragePct": 100
+      },
+      {
+        "categoryId": "cat-lifting-accessories",
+        "categoryName": "Lifting Accessories",
+        "categorySlug": "lifting-accessories",
+        "published": 6,
+        "withAuthenticPrimary": 6,
+        "missing": 0,
+        "broken": 0,
+        "placeholderOnly": 0,
+        "coveragePct": 100
+      },
+      {
+        "categoryId": "cat-gym-flooring",
+        "categoryName": "Gym Flooring",
+        "categorySlug": "gym-flooring",
+        "published": 2,
+        "withAuthenticPrimary": 2,
+        "missing": 0,
+        "broken": 0,
+        "placeholderOnly": 0,
+        "coveragePct": 100
+      },
+      {
+        "categoryId": "cat-gym-storage",
+        "categoryName": "Gym Storage",
+        "categorySlug": "gym-storage",
+        "published": 2,
+        "withAuthenticPrimary": 2,
+        "missing": 0,
+        "broken": 0,
+        "placeholderOnly": 0,
+        "coveragePct": 100
+      }
+    ],
+    "provenanceDistribution": {
+      "manufacturer-marketing": 234,
+      "retailer-authorized": 389
+    },
+    "licenceDistribution": {
+      "manufacturer-marketing": 234,
+      "retailer-authorized": 389
+    },
+    "runningShoes": {
+      "productCount": 83,
+      "auditTotals": {
+        "published": 83,
+        "withAuthenticPrimary": 83,
+        "missing": 0,
+        "broken": 0,
+        "placeholderOnly": 0,
+        "identityMismatches": 0,
+        "coveragePct": 100,
+        "registryEntries": 627
+      },
+      "gaps": [],
+      "issues": []
+    }
+  },
+  "imageTechnical": {
+    "authenticPrimaryMeasured": 623,
+    "missingWidthHeightOnAsset": 0,
+    "missingAltOnPrimary": 0,
+    "formatCounts": {
+      "webp": 16,
+      "jpeg": 507,
+      "png": 99,
+      "gif": 1
+    },
+    "sizeBuckets": {
+      "lt50kb": 147,
+      "50-200kb": 306,
+      "200-500kb": 68,
+      "gt500kb": 102
+    },
+    "dimIssuesSample": [
+      {
+        "src": "/images/running/accessories/sis-go-isotonic-gel-hero.jpg",
+        "slug": "sis-go-isotonic-gel",
+        "issue": "narrow-width:349"
+      },
+      {
+        "src": "/images/running/accessories/sis-beta-fuel-drink-hero.jpg",
+        "slug": "sis-beta-fuel-drink",
+        "issue": "narrow-width:342"
+      },
+      {
+        "src": "/images/running/accessories/high5-zero-hero.png",
+        "slug": "high5-zero",
+        "issue": "narrow-width:100"
+      },
+      {
+        "src": "/images/running/accessories/injinji-run-midweight-hero.png",
+        "slug": "injinji-run-midweight",
+        "issue": "narrow-width:265"
+      },
+      {
+        "src": "/images/padel/products/asics-solution-swift-ff-padel-women-hero.jpg",
+        "slug": "asics-solution-swift-ff-padel-women",
+        "issue": "narrow-width:320"
+      },
+      {
+        "src": "/images/fitness/products/concept2-skierg-with-stand-hero.jpg",
+        "slug": "concept2-skierg-with-stand",
+        "issue": "narrow-width:375"
+      },
+      {
+        "src": "/images/training/products/nike-free-metcon-6-hero.png",
+        "slug": "nike-free-metcon-6",
+        "issue": "narrow-width:320"
+      },
+      {
+        "src": "/images/training/products/salming-race-9-hero.jpg",
+        "slug": "salming-race-9",
+        "issue": "narrow-width:350"
+      },
+      {
+        "src": "/images/training/products/salming-rebel-hero.jpg",
+        "slug": "salming-rebel",
+        "issue": "narrow-width:240"
+      }
+    ],
+    "samples": [
+      {
+        "slug": "asics-novablast-5",
+        "src": "/images/running/products/novablast-5-hero.jpg",
+        "bytes": 66238,
+        "format": "webp",
+        "width": 800,
+        "height": 800,
+        "metaWidth": 1000,
+        "metaHeight": 1000,
+        "altPresent": true
+      },
+      {
+        "slug": "asics-novablast-4",
+        "src": "/images/running/products/novablast-4-hero.jpg",
+        "bytes": 94506,
+        "format": "jpeg",
+        "width": 800,
+        "height": 800,
+        "metaWidth": 1000,
+        "metaHeight": 1000,
+        "altPresent": true
+      },
+      {
+        "slug": "asics-gel-nimbus-27",
+        "src": "/images/running/products/nimbus-27-hero.jpg",
+        "bytes": 102203,
+        "format": "jpeg",
+        "width": 800,
+        "height": 800,
+        "metaWidth": 1000,
+        "metaHeight": 1000,
+        "altPresent": true
+      },
+      {
+        "slug": "nike-pegasus-41",
+        "src": "/images/running/products/pegasus-41-hero.png",
+        "bytes": 861212,
+        "format": "png",
+        "width": 1872,
+        "height": 2340,
+        "metaWidth": 1000,
+        "metaHeight": 1000,
+        "altPresent": true
+      },
+      {
+        "slug": "brooks-ghost-16",
+        "src": "/images/running/products/ghost-16-hero.png",
+        "bytes": 3175418,
+        "format": "png",
+        "width": 2500,
+        "height": 2500,
+        "metaWidth": 1000,
+        "metaHeight": 1000,
+        "altPresent": true
+      },
+      {
+        "slug": "hoka-clifton-9",
+        "src": "/images/running/products/clifton-9-hero.jpg",
+        "bytes": 47415,
+        "format": "jpeg",
+        "width": 720,
+        "height": 480,
+        "metaWidth": 1000,
+        "metaHeight": 1000,
+        "altPresent": true
+      },
+      {
+        "slug": "saucony-endorphin-speed-4",
+        "src": "/images/running/products/endorphin-speed-4-hero.jpg",
+        "bytes": 52347,
+        "format": "jpeg",
+        "width": 720,
+        "height": 480,
+        "metaWidth": 1000,
+        "metaHeight": 1000,
+        "altPresent": true
+      },
+      {
+        "slug": "new-balance-fuelcell-rebel-v4",
+        "src": "/images/running/products/rebel-4-hero.jpg",
+        "bytes": 47230,
+        "format": "jpeg",
+        "width": 720,
+        "height": 480,
+        "metaWidth": 1000,
+        "metaHeight": 1000,
+        "altPresent": true
+      },
+      {
+        "slug": "adidas-adizero-boston-12",
+        "src": "/images/running/products/boston-12-hero.jpg",
+        "bytes": 46579,
+        "format": "jpeg",
+        "width": 720,
+        "height": 480,
+        "metaWidth": 1000,
+        "metaHeight": 1000,
+        "altPresent": true
+      },
+      {
+        "slug": "garmin-forerunner-965",
+        "src": "/images/watches/products/garmin-forerunner-965-hero.jpg",
+        "bytes": 42851,
+        "format": "jpeg",
+        "width": 600,
+        "height": 600,
+        "metaWidth": 1000,
+        "metaHeight": 1000,
+        "altPresent": true
+      },
+      {
+        "slug": "garmin-forerunner-255",
+        "src": "/images/watches/products/garmin-forerunner-255-hero.jpg",
+        "bytes": 55606,
+        "format": "jpeg",
+        "width": 1600,
+        "height": 455,
+        "metaWidth": 1000,
+        "metaHeight": 1000,
+        "altPresent": true
+      },
+      {
+        "slug": "coros-pace-3",
+        "src": "/images/watches/products/coros-pace-3-hero.jpg",
+        "bytes": 149076,
+        "format": "jpeg",
+        "width": 1200,
+        "height": 1200,
+        "metaWidth": 1000,
+        "metaHeight": 1000,
+        "altPresent": true
+      },
+      {
+        "slug": "garmin-hrm-pro-plus",
+        "src": "/images/hrm/products/garmin-hrm-pro-plus-hero.jpg",
+        "bytes": 250259,
+        "format": "jpeg",
+        "width": 1600,
+        "height": 455,
+        "metaWidth": 1000,
+        "metaHeight": 1000,
+        "altPresent": true
+      },
+      {
+        "slug": "salomon-adv-skin-12",
+        "src": "/images/packs/products/salomon-adv-skin-12-hero.jpg",
+        "bytes": 127108,
+        "format": "jpeg",
+        "width": 847,
+        "height": 1129,
+        "metaWidth": 1000,
+        "metaHeight": 1000,
+        "altPresent": true
+      },
+      {
+        "slug": "asics-novablast-6",
+        "src": "/images/running/products/novablast-6-hero.jpg",
+        "bytes": 66591,
+        "format": "jpeg",
+        "width": 800,
+        "height": 800,
+        "metaWidth": 1000,
+        "metaHeight": 1000,
+        "altPresent": true
+      },
+      {
+        "slug": "asics-superblast-2",
+        "src": "/images/running/products/superblast-2-hero.jpg",
+        "bytes": 66132,
+        "format": "jpeg",
+        "width": 800,
+        "height": 800,
+        "metaWidth": 1000,
+        "metaHeight": 1000,
+        "altPresent": true
+      },
+      {
+        "slug": "asics-gel-kayano-32",
+        "src": "/images/running/products/kayano-32-hero.jpg",
+        "bytes": 59116,
+        "format": "jpeg",
+        "width": 800,
+        "height": 800,
+        "metaWidth": 1000,
+        "metaHeight": 1000,
+        "altPresent": true
+      },
+      {
+        "slug": "asics-gel-cumulus-27",
+        "src": "/images/running/products/cumulus-27-hero.jpg",
+        "bytes": 266344,
+        "format": "jpeg",
+        "width": 1200,
+        "height": 1200,
+        "metaWidth": 1200,
+        "metaHeight": 1200,
+        "altPresent": true
+      },
+      {
+        "slug": "asics-metaspeed-sky-paris",
+        "src": "/images/running/products/metaspeed-sky-paris-hero.jpg",
+        "bytes": 104005,
+        "format": "jpeg",
+        "width": 800,
+        "height": 800,
+        "metaWidth": 1000,
+        "metaHeight": 1000,
+        "altPresent": true
+      },
+      {
+        "slug": "asics-gt-2000-14",
+        "src": "/images/running/products/gt-2000-14-hero.jpg",
+        "bytes": 46580,
+        "format": "jpeg",
+        "width": 720,
+        "height": 480,
+        "metaWidth": 1000,
+        "metaHeight": 1000,
+        "altPresent": true
+      },
+      {
+        "slug": "nike-pegasus-42",
+        "src": "/images/running/products/pegasus-42-hero.jpg",
+        "bytes": 317651,
+        "format": "jpeg",
+        "width": 1872,
+        "height": 2340,
+        "metaWidth": 1000,
+        "metaHeight": 1000,
+        "altPresent": true
+      },
+      {
+        "slug": "nike-vomero-18",
+        "src": "/images/running/products/vomero-18-hero.png",
+        "bytes": 647686,
+        "format": "png",
+        "width": 1872,
+        "height": 2340,
+        "metaWidth": 1000,
+        "metaHeight": 1000,
+        "altPresent": true
+      },
+      {
+        "slug": "nike-invincible-3",
+        "src": "/images/running/products/invincible-3-hero.png",
+        "bytes": 193900,
+        "format": "png",
+        "width": 1872,
+        "height": 1872,
+        "metaWidth": 1000,
+        "metaHeight": 1000,
+        "altPresent": true
+      },
+      {
+        "slug": "nike-vaporfly-4",
+        "src": "/images/running/products/vaporfly-4-hero.jpg",
+        "bytes": 300604,
+        "format": "jpeg",
+        "width": 1872,
+        "height": 2340,
+        "metaWidth": 1000,
+        "metaHeight": 1000,
+        "altPresent": true
+      },
+      {
+        "slug": "nike-alphafly-3",
+        "src": "/images/running/products/alphafly-3-hero.png",
+        "bytes": 1004043,
+        "format": "png",
+        "width": 1872,
+        "height": 2340,
+        "metaWidth": 1000,
+        "metaHeight": 1000,
+        "altPresent": true
+      },
+      {
+        "slug": "nike-structure-26",
+        "src": "/images/running/products/structure-26-hero.png",
+        "bytes": 696876,
+        "format": "png",
+        "width": 1872,
+        "height": 2340,
+        "metaWidth": 1000,
+        "metaHeight": 1000,
+        "altPresent": true
+      },
+      {
+        "slug": "nike-structure-plus",
+        "src": "/images/running/products/structure-plus-hero.jpg",
+        "bytes": 49429,
+        "format": "jpeg",
+        "width": 720,
+        "height": 480,
+        "metaWidth": 1000,
+        "metaHeight": 1000,
+        "altPresent": true
+      },
+      {
+        "slug": "brooks-ghost-18",
+        "src": "/images/running/products/ghost-18-hero.png",
+        "bytes": 2751396,
+        "format": "png",
+        "width": 2500,
+        "height": 2500,
+        "metaWidth": 1000,
+        "metaHeight": 1000,
+        "altPresent": true
+      },
+      {
+        "slug": "brooks-glycerin-22",
+        "src": "/images/running/products/glycerin-22-hero.png",
+        "bytes": 5447640,
+        "format": "png",
+        "width": 3000,
+        "height": 2000,
+        "metaWidth": 3000,
+        "metaHeight": 2000,
+        "altPresent": true
+      },
+      {
+        "slug": "brooks-glycerin-21",
+        "src": "/images/running/products/glycerin-21-hero.jpg",
+        "bytes": 49470,
+        "format": "jpeg",
+        "width": 720,
+        "height": 480,
+        "metaWidth": 1000,
+        "metaHeight": 1000,
+        "altPresent": true
+      }
+    ],
+    "nextImagePriorityUsages": 13,
+    "nextImageSizesUsages": 110,
+    "priorityExamples": [
+      "src/components/cards/ProductCard.tsx:62:            priority={priority}",
+      "src/components/product/ProductMediaGallery.tsx:124:              priority={active === 0}",
+      "src/components/product/ProductMediaGallery.tsx:164:            priority={active === 0}",
+      "src/components/guides-hub/GuideHubCard.tsx:45:            priority={priority}",
+      "src/components/guides-hub/GuideHubCard.tsx:101:          priority={priority}",
+      "src/components/review/ReviewEditorialSections.tsx:67:                          priority={index < 2}",
+      "src/components/finder/FinderFlow.tsx:390:                      priority={i === 0}",
+      "src/components/catalog/running-shoes/ShoesCategoryHero.tsx:177:          priority={priority}",
+      "src/components/finder/FinderResults.tsx:166:                priority={isTop}",
+      "src/components/finder/FinderResults.tsx:456:                      priority={i === 0}",
+      "src/components/catalog/CatalogProductCard.tsx:102:              priority={priority}",
+      "src/components/catalog/CatalogInteractive.tsx:381:                  priority={index < 2}",
+      "src/components/best/BestGuideDetailedPicks.tsx:242:            priority={isTopPick}"
+    ],
+    "sizesExamples": [
+      "src/components/setups/GearSetupHero.tsx:31:            sizes=\"58vw\"",
+      "src/components/setups/GearSetupHero.tsx:120:                sizes=\"100vw\"",
+      "src/components/guides/GuideAnatomySection.tsx:36:            sizes=\"(max-width: 1024px) 100vw, 55vw\"",
+      "src/components/cards/ContentCards.tsx:53:            sizes=\"(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw\"",
+      "src/components/cards/ContentCards.tsx:105:          sizes=\"(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw\"",
+      "src/components/cards/ContentCards.tsx:165:                sizes=\"144px\"",
+      "src/components/cards/ContentCards.tsx:189:                sizes=\"144px\"",
+      "src/components/cards/ContentCards.tsx:246:          sizes=\"(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw\"",
+      "src/components/setups/GearSetupItemList.tsx:77:              sizes=\"120px\"",
+      "src/components/alternatives/AlternativeRecommendationList.tsx:162:              sizes=\"140px\"",
+      "src/components/guides/GuideFactorsSection.tsx:116:                          sizes=\"160px\"",
+      "src/components/product/ProductDetailPage.tsx:683:                              sizes={IMAGE_SIZES.compareRail}",
+      "src/components/product/ProductDetailPage.tsx:736:                                sizes={IMAGE_SIZES.altThumb}",
+      "src/components/guides/GuideHero.tsx:39:            sizes=\"42vw\"",
+      "src/components/guides/GuideHero.tsx:107:                sizes=\"100vw\""
+    ]
+  },
+  "offers": {
+    "activeOffers": 1293,
+    "products": 623,
+    "productsWithOffers": 623,
+    "productsZeroOffers": 0,
+    "productsZeroOffersSample": [],
+    "averageOffersPerProduct": 2.08,
+    "averageOffersPerProductWithOffers": 2.08,
+    "byRegion": {
+      "NL": 738,
+      "UK": 278,
+      "US": 3,
+      "DE": 274
+    },
+    "byRetailer": {
+      "Amazon.nl": 677,
+      "Amazon.co.uk": 278,
+      "Amazon.de": 274,
+      "Garmin Official": 17,
+      "Decathlon": 11,
+      "ASICS Official": 10,
+      "HOKA Official": 8,
+      "Brooks Official": 7,
+      "All4running": 6,
+      "Amazon.com": 3,
+      "Runner's World Shop": 2
+    },
+    "byCategory": {
+      "running-shoes": {
+        "productsWithOffers": 83,
+        "offers": 102
+      },
+      "gps-watches": {
+        "productsWithOffers": 33,
+        "offers": 34
+      },
+      "heart-rate-monitors": {
+        "productsWithOffers": 15,
+        "offers": 16
+      },
+      "running-packs-vests": {
+        "productsWithOffers": 35,
+        "offers": 37
+      },
+      "padel-rackets": {
+        "productsWithOffers": 27,
+        "offers": 72
+      },
+      "padel-shoes": {
+        "productsWithOffers": 34,
+        "offers": 105
+      },
+      "padel-balls": {
+        "productsWithOffers": 1,
+        "offers": 1
+      },
+      "padel-grips": {
+        "productsWithOffers": 1,
+        "offers": 1
+      },
+      "tennis-rackets": {
+        "productsWithOffers": 20,
+        "offers": 60
+      },
+      "tennis-shoes": {
+        "productsWithOffers": 27,
+        "offers": 81
+      },
+      "tennis-strings": {
+        "productsWithOffers": 6,
+        "offers": 18
+      },
+      "pickleball-paddles": {
+        "productsWithOffers": 3,
+        "offers": 9
+      },
+      "badminton-rackets": {
+        "productsWithOffers": 5,
+        "offers": 15
+      },
+      "training-shoes": {
+        "productsWithOffers": 44,
+        "offers": 132
+      },
+      "adjustable-dumbbells": {
+        "productsWithOffers": 8,
+        "offers": 24
+      },
+      "power-racks": {
+        "productsWithOffers": 8,
+        "offers": 24
+      },
+      "weight-benches": {
+        "productsWithOffers": 7,
+        "offers": 21
+      },
+      "barbells": {
+        "productsWithOffers": 6,
+        "offers": 18
+      },
+      "weight-plates": {
+        "productsWithOffers": 5,
+        "offers": 15
+      },
+      "kettlebells": {
+        "productsWithOffers": 5,
+        "offers": 15
+      },
+      "rowing-machines": {
+        "productsWithOffers": 6,
+        "offers": 18
+      },
+      "air-bikes": {
+        "productsWithOffers": 6,
+        "offers": 18
+      },
+      "treadmills": {
+        "productsWithOffers": 6,
+        "offers": 18
+      },
+      "ski-ergs": {
+        "productsWithOffers": 5,
+        "offers": 15
+      },
+      "pull-up-bars": {
+        "productsWithOffers": 6,
+        "offers": 18
+      },
+      "parallettes": {
+        "productsWithOffers": 3,
+        "offers": 9
+      },
+      "gymnastic-rings": {
+        "productsWithOffers": 2,
+        "offers": 6
+      },
+      "weighted-vests": {
+        "productsWithOffers": 3,
+        "offers": 9
+      },
+      "functional-fitness": {
+        "productsWithOffers": 5,
+        "offers": 15
+      },
+      "lifting-accessories": {
+        "productsWithOffers": 6,
+        "offers": 19
+      },
+      "gym-flooring": {
+        "productsWithOffers": 2,
+        "offers": 6
+      },
+      "gym-storage": {
+        "productsWithOffers": 2,
+        "offers": 6
+      },
+      "running-belts": {
+        "productsWithOffers": 14,
+        "offers": 14
+      },
+      "hydration": {
+        "productsWithOffers": 17,
+        "offers": 17
+      },
+      "running-clothing": {
+        "productsWithOffers": 57,
+        "offers": 57
+      },
+      "running-socks": {
+        "productsWithOffers": 10,
+        "offers": 10
+      },
+      "headphones": {
+        "productsWithOffers": 11,
+        "offers": 11
+      },
+      "sunglasses": {
+        "productsWithOffers": 17,
+        "offers": 17
+      },
+      "running-lights": {
+        "productsWithOffers": 9,
+        "offers": 9
+      },
+      "safety-gear": {
+        "productsWithOffers": 6,
+        "offers": 6
+      },
+      "recovery": {
+        "productsWithOffers": 16,
+        "offers": 16
+      },
+      "accessories": {
+        "productsWithOffers": 3,
+        "offers": 3
+      },
+      "nutrition-fuel": {
+        "productsWithOffers": 38,
+        "offers": 38
+      }
+    },
+    "freshness": {
+      "fresh": 0,
+      "recent": 1293,
+      "aging": 0,
+      "stale": 0
+    },
+    "staleCount": 0,
+    "staleSample": [],
+    "variantLinkedOffers": 0,
+    "withAffiliateUrlField": 0,
+    "withoutAffiliateUrlField": 1293,
+    "urlCheckSampleSize": 40,
+    "urlCheckBrokenOrError": 21,
+    "urlCheckSample": [
+      {
+        "id": "offer-nb5-nl",
+        "url": "https://www.asics.com/nl/nl-nl/",
+        "status": 403,
+        "region": "NL"
+      },
+      {
+        "id": "offer-nb5-uk",
+        "url": "https://www.amazon.co.uk/",
+        "status": 200,
+        "region": "UK"
+      },
+      {
+        "id": "offer-nb5-us",
+        "url": "https://www.amazon.com/",
+        "status": 405,
+        "region": "US"
+      },
+      {
+        "id": "offer-nb4-nl",
+        "url": "https://www.decathlon.nl/",
+        "status": 403,
+        "region": "NL"
+      },
+      {
+        "id": "offer-nimbus-nl",
+        "url": "https://www.asics.com/nl/nl-nl/",
+        "status": 403,
+        "region": "NL"
+      },
+      {
+        "id": "offer-nimbus-uk",
+        "url": "https://www.amazon.co.uk/",
+        "status": 200,
+        "region": "UK"
+      },
+      {
+        "id": "offer-pegasus41-nl",
+        "url": "https://www.amazon.nl/",
+        "status": 405,
+        "region": "NL"
+      },
+      {
+        "id": "offer-ghost16-nl",
+        "url": "https://www.amazon.nl/",
+        "status": 405,
+        "region": "NL"
+      },
+      {
+        "id": "offer-clifton9-nl",
+        "url": "https://www.amazon.nl/",
+        "status": 405,
+        "region": "NL"
+      },
+      {
+        "id": "offer-speed4-nl",
+        "url": "https://www.amazon.nl/",
+        "status": 405,
+        "region": "NL"
+      },
+      {
+        "id": "offer-boston-nl",
+        "url": "https://www.amazon.nl/",
+        "status": 200,
+        "region": "NL"
+      },
+      {
+        "id": "offer-boston-uk",
+        "url": "https://www.amazon.co.uk/",
+        "status": 200,
+        "region": "UK"
+      },
+      {
+        "id": "offer-boston-de",
+        "url": "https://www.amazon.de/",
+        "status": 200,
+        "region": "DE"
+      },
+      {
+        "id": "offer-fr965-nl",
+        "url": "https://www.garmin.com/",
+        "status": 200,
+        "region": "NL"
+      },
+      {
+        "id": "offer-fr255-nl",
+        "url": "https://www.garmin.com/",
+        "status": 200,
+        "region": "NL"
+      },
+      {
+        "id": "offer-pace3-nl",
+        "url": "https://www.amazon.nl/",
+        "status": 405,
+        "region": "NL"
+      },
+      {
+        "id": "offer-hrm-nl",
+        "url": "https://www.garmin.com/",
+        "status": 200,
+        "region": "NL"
+      },
+      {
+        "id": "offer-hrm-uk",
+        "url": "https://www.amazon.co.uk/",
+        "status": 200,
+        "region": "UK"
+      },
+      {
+        "id": "offer-advskin-nl",
+        "url": "https://www.amazon.nl/",
+        "status": 405,
+        "region": "NL"
+      },
+      {
+        "id": "offer-nb6-nl-asics",
+        "url": "https://www.asics.com/nl/nl-nl/",
+        "status": 403,
+        "region": "NL"
+      },
+      {
+        "id": "offer-nb6-nl-a4r",
+        "url": "https://www.all4running.nl/",
+        "status": 200,
+        "region": "NL"
+      },
+      {
+        "id": "offer-nb6-nl-amz",
+        "url": "https://www.amazon.nl/",
+        "status": 200,
+        "region": "NL"
+      },
+      {
+        "id": "offer-nb6-de",
+        "url": "https://www.amazon.de/",
+        "status": 200,
+        "region": "DE"
+      },
+      {
+        "id": "offer-nb6-uk",
+        "url": "https://www.amazon.co.uk/",
+        "status": 200,
+        "region": "UK"
+      },
+      {
+        "id": "offer-nb6-us",
+        "url": "https://www.amazon.com/",
+        "status": 405,
+        "region": "US"
+      },
+      {
+        "id": "offer-ghost18-nl",
+        "url": "https://www.brooksrunning.com/",
+        "status": 403,
+        "region": "NL"
+      },
+      {
+        "id": "offer-ghost18-nl-a4r",
+        "url": "https://www.all4running.nl/",
+        "status": 200,
+        "region": "NL"
+      },
+      {
+        "id": "offer-ghost18-nl-amz",
+        "url": "https://www.amazon.nl/",
+        "status": 405,
+        "region": "NL"
+      },
+      {
+        "id": "offer-ghost18-uk",
+        "url": "https://www.amazon.co.uk/",
+        "status": 200,
+        "region": "UK"
+      },
+      {
+        "id": "offer-ghost18-us",
+        "url": "https://www.amazon.com/",
+        "status": 405,
+        "region": "US"
+      },
+      {
+        "id": "offer-peg42-nl",
+        "url": "https://www.amazon.nl/",
+        "status": 405,
+        "region": "NL"
+      },
+      {
+        "id": "offer-peg42-nl-a4r",
+        "url": "https://www.all4running.nl/",
+        "status": 200,
+        "region": "NL"
+      },
+      {
+        "id": "offer-clifton10-nl",
+        "url": "https://www.hoka.com/",
+        "status": "fetch failed",
+        "region": "NL"
+      },
+      {
+        "id": "offer-clifton10-nl-a4r",
+        "url": "https://www.all4running.nl/",
+        "status": 200,
+        "region": "NL"
+      },
+      {
+        "id": "offer-bondi9-nl",
+        "url": "https://www.hoka.com/",
+        "status": "fetch failed",
+        "region": "NL"
+      },
+      {
+        "id": "offer-speed5-nl",
+        "url": "https://www.all4running.nl/",
+        "status": 200,
+        "region": "NL"
+      },
+      {
+        "id": "offer-speed5-nl-amz",
+        "url": "https://www.amazon.nl/",
+        "status": 405,
+        "region": "NL"
+      },
+      {
+        "id": "offer-vf4-nl",
+        "url": "https://www.amazon.nl/",
+        "status": 405,
+        "region": "NL"
+      },
+      {
+        "id": "offer-vf4-nl-a4r",
+        "url": "https://www.all4running.nl/",
+        "status": 200,
+        "region": "NL"
+      },
+      {
+        "id": "offer-alphafly3-nl",
+        "url": "https://www.amazon.nl/",
+        "status": 405,
+        "region": "NL"
+      }
+    ],
+    "regionDisplayability": {
+      "NL": {
+        "published": 623,
+        "withOffers": 623,
+        "displayable": 623,
+        "missingOffers": 0,
+        "notDisplayable": 0,
+        "coveragePct": 100,
+        "displayablePct": 100,
+        "offerRows": 1293,
+        "freshness": {
+          "fresh": 0,
+          "recent": 1293,
+          "aging": 0,
+          "stale": 0
+        },
+        "configured": true
+      },
+      "DE": {
+        "published": 623,
+        "withOffers": 623,
+        "displayable": 252,
+        "missingOffers": 0,
+        "notDisplayable": 371,
+        "coveragePct": 100,
+        "displayablePct": 40,
+        "offerRows": 1293,
+        "freshness": {
+          "fresh": 0,
+          "recent": 1293,
+          "aging": 0,
+          "stale": 0
+        },
+        "configured": true
+      },
+      "FR": {
+        "published": 623,
+        "withOffers": 623,
+        "displayable": 0,
+        "missingOffers": 0,
+        "notDisplayable": 623,
+        "coveragePct": 100,
+        "displayablePct": 0,
+        "offerRows": 1293,
+        "freshness": {
+          "fresh": 0,
+          "recent": 1293,
+          "aging": 0,
+          "stale": 0
+        },
+        "configured": false
+      },
+      "BE": {
+        "published": 623,
+        "withOffers": 623,
+        "displayable": 0,
+        "missingOffers": 0,
+        "notDisplayable": 623,
+        "coveragePct": 100,
+        "displayablePct": 0,
+        "offerRows": 1293,
+        "freshness": {
+          "fresh": 0,
+          "recent": 1293,
+          "aging": 0,
+          "stale": 0
+        },
+        "configured": false
+      },
+      "UK": {
+        "published": 623,
+        "withOffers": 623,
+        "displayable": 256,
+        "missingOffers": 0,
+        "notDisplayable": 367,
+        "coveragePct": 100,
+        "displayablePct": 41,
+        "offerRows": 1293,
+        "freshness": {
+          "fresh": 0,
+          "recent": 1293,
+          "aging": 0,
+          "stale": 0
+        },
+        "configured": true
+      },
+      "US": {
+        "published": 623,
+        "withOffers": 623,
+        "displayable": 3,
+        "missingOffers": 0,
+        "notDisplayable": 620,
+        "coveragePct": 100,
+        "displayablePct": 0,
+        "offerRows": 1293,
+        "freshness": {
+          "fresh": 0,
+          "recent": 1293,
+          "aging": 0,
+          "stale": 0
+        },
+        "configured": true
+      },
+      "ZA": {
+        "published": 623,
+        "withOffers": 623,
+        "displayable": 0,
+        "missingOffers": 0,
+        "notDisplayable": 623,
+        "coveragePct": 100,
+        "displayablePct": 0,
+        "offerRows": 1293,
+        "freshness": {
+          "fresh": 0,
+          "recent": 1293,
+          "aging": 0,
+          "stale": 0
+        },
+        "configured": false
+      }
+    }
+  },
+  "affiliateLinkQuality": {
+    "goRedirectRoutePresent": true,
+    "disclosurePage": {
+      "path": "/affiliate-disclosure",
+      "exists": true,
+      "file": "src/app/affiliate-disclosure/page.tsx",
+      "bytes": 3353,
+      "titleMatch": "Affiliate disclosure",
+      "wordCountApprox": 298,
+      "stubHeuristic": false
+    },
+    "disclosureComponentPresent": true,
+    "offersWithAffiliateUrl": 0,
+    "offersDirectUrlOnly": 1293,
+    "classificationNote": "Most offers store canonical retailer URLs; /go resolver attaches affiliate tags at click time when programs/env are configured. affiliateUrl field is optional.",
+    "affiliateProgramFiles": [
+      "src/content/affiliate-programs.ts",
+      "src/domain/commerce/types.ts",
+      "src/domain/commerce/affiliates.ts",
+      "src/domain/commerce/schemas.ts",
+      "src/domain/commerce/ranking.ts",
+      "src/content/offers.ts"
+    ]
+  },
+  "commercialIndependence": {
+    "scannedFiles": [
+      "src/domain/commerce/ranking.ts",
+      "src/domain/finders/scoring.ts",
+      "src/domain/finders/eligibility.ts",
+      "src/domain/shoe-rotation/engine.ts",
+      "src/domain/shoe-rotation/roles.ts",
+      "src/domain/catalog/featureability.ts",
+      "src/lib/search/engine.ts",
+      "src/lib/search/facets.ts",
+      "src/lib/search/get-search-page-data.ts",
+      "src/lib/search/group-hits.ts",
+      "src/lib/search/intent.ts",
+      "src/lib/search/popular.ts",
+      "src/lib/search/recent-searches.ts",
+      "src/lib/search/search-action.ts",
+      "src/lib/search/synonyms.ts",
+      "src/lib/search/types.ts",
+      "src/lib/best/award-candidates.ts",
+      "src/lib/best/awards.ts",
+      "src/lib/best/category-config.ts",
+      "src/lib/best/enrich-guide-recommendation.ts",
+      "src/lib/best/get-best-guide-page-data.ts",
+      "src/lib/best/guide-context-config.ts",
+      "src/lib/best/guide-coverage-ui.ts",
+      "src/lib/best/guide-coverage.ts",
+      "src/lib/best/guide-recommendation-analyst.ts",
+      "src/lib/best/guide-selection-summary.ts",
+      "src/lib/best/normalize-best-guide.ts",
+      "src/lib/best/resolve-best-guide-image.ts",
+      "src/lib/best/use-case-config.ts"
+    ],
+    "findings": [
+      {
+        "file": "src/domain/shoe-rotation/roles.ts",
+        "kind": "MENTION",
+        "evidence": "133: * Affiliate status, commission, and retailer payout must NEVER affect"
+      },
+      {
+        "file": "src/domain/shoe-rotation/roles.ts",
+        "kind": "MENTION",
+        "evidence": "137:  \"Affiliate commission is never an input to Shoe Rotation ranking.\";"
+      },
+      {
+        "file": "src/lib/tools/get-tools-hub-data.ts",
+        "kind": "MENTION",
+        "evidence": "286:      body: \"We compare structured specifications, recommendation criteria, evidence and current prices to highlight meaningful differences — not affiliate payouts.\","
+      },
+      {
+        "file": "src/domain/shoe-rotation/engine.ts",
+        "kind": "MENTION",
+        "evidence": "11: * AFFILIATE NEUTRALITY: commission never enters scoring."
+      },
+      {
+        "file": "src/domain/site-quality/audits/links-trust-perf.ts",
+        "kind": "MENTION",
+        "evidence": "137:  // Affiliate neutrality: ranking code should not take commission"
+      },
+      {
+        "file": "src/domain/site-quality/audits/links-trust-perf.ts",
+        "kind": "SUSPICIOUS_MIX",
+        "evidence": "141:    if (/commission|payout|cpcBid/i.test(src) && /score\\s*\\+|boost/i.test(src)) {"
+      },
+      {
+        "file": "src/domain/site-quality/audits/links-trust-perf.ts",
+        "kind": "SUSPICIOUS_MIX",
+        "evidence": "144:          evidence: \"Commerce ranking appears to mix commission into scores\","
+      },
+      {
+        "file": "src/domain/site-quality/audits/links-trust-perf.ts",
+        "kind": "SUSPICIOUS_MIX",
+        "evidence": "146:          recommendedFix: \"Remove commission from ranking inputs\","
+      },
+      {
+        "file": "src/domain/commerce/types.ts",
+        "kind": "MENTION",
+        "evidence": "199:  /** Explicitly forbidden — commission must never appear here */"
+      },
+      {
+        "file": "src/domain/commerce/types.ts",
+        "kind": "MENTION",
+        "evidence": "200:  // commissionWeight: never"
+      },
+      {
+        "file": "src/domain/commerce/ranking.ts",
+        "kind": "MENTION",
+        "evidence": "11:/** Default Offer ranking — commission is intentionally absent */"
+      },
+      {
+        "file": "src/domain/commerce/ranking.ts",
+        "kind": "MENTION",
+        "evidence": "101: * NEVER accepts or uses commission / affiliate payout data."
+      },
+      {
+        "file": "src/lib/search/engine.ts",
+        "kind": "MENTION",
+        "evidence": "198:    // Never use recommendationScore or affiliate commission as rank signal"
+      },
+      {
+        "file": "src/domain/freshness/monitoring/scans.ts",
+        "kind": "MENTION",
+        "evidence": "283:/** Affiliate commission must never alter recommendation rankings */"
+      },
+      {
+        "file": "src/domain/finders/eligibility.ts",
+        "kind": "MENTION",
+        "evidence": "18: * AFFILIATE NEUTRALITY: affiliate status / commission / retailer payout"
+      },
+      {
+        "file": "src/domain/finders/scoring.ts",
+        "kind": "MENTION",
+        "evidence": "1276: * Affiliate status, commission rate, and retailer payout must NEVER"
+      },
+      {
+        "file": "src/domain/finders/scoring.ts",
+        "kind": "MENTION",
+        "evidence": "1280:  \"Affiliate commission is never an input to Finder ranking.\";"
+      },
+      {
+        "file": "src/domain/commerce/ranking.ts",
+        "kind": "NEUTRAL_CONFIG",
+        "evidence": "DEFAULT_OFFER_RANKING keys inspected — commission intentionally absent in type comments"
+      },
+      {
+        "file": "src/domain/finders/scoring.ts",
+        "kind": "EXPLICIT_NEUTRALITY",
+        "evidence": "Finder scoring documents affiliate neutrality"
+      }
+    ],
+    "suspiciousCount": 3,
+    "featureabilityMentionsCommission": false,
+    "searchRelatedFiles": [
+      "src/lib/search/get-search-page-data.ts",
+      "src/domain/onboarding/research-config.ts",
+      "src/lib/search/search-action.ts"
+    ],
+    "conclusion": "Suspicious commission/score mixing patterns detected — see findings."
+  },
+  "evidence": {
+    "catalogEvidenceRecords": 28,
+    "byType": {
+      "manufacturer": 10,
+      "editorial-research": 16,
+      "independent-review": 1,
+      "user-feedback": 1
+    },
+    "products": {
+      "label": "products",
+      "total": 623,
+      "withEvidence": 600,
+      "withoutEvidence": 23,
+      "coveragePct": 96.3,
+      "typesReferenced": {
+        "manufacturer": 473,
+        "editorial-research": 514
+      }
+    },
+    "reviews": {
+      "label": "reviews",
+      "total": 585,
+      "withEvidence": 585,
+      "withoutEvidence": 0,
+      "coveragePct": 100,
+      "typesReferenced": {
+        "manufacturer": 411,
+        "editorial-research": 658,
+        "independent-review": 1,
+        "user-feedback": 1
+      }
+    },
+    "bestGuides": {
+      "label": "bestGuides",
+      "total": 58,
+      "withEvidence": 45,
+      "withoutEvidence": 13,
+      "coveragePct": 77.6,
+      "typesReferenced": {
+        "editorial-research": 46,
+        "manufacturer": 5
+      }
+    },
+    "buyingGuides": {
+      "label": "buyingGuides",
+      "total": 68,
+      "withEvidence": 0,
+      "withoutEvidence": 68,
+      "coveragePct": 0,
+      "typesReferenced": {}
+    }
+  },
+  "trustPages": {
+    "pages": {
+      "about": {
+        "path": "/about",
+        "exists": true,
+        "file": "src/app/about/page.tsx",
+        "bytes": 1979,
+        "titleMatch": "About Kitletics",
+        "wordCountApprox": 138,
+        "stubHeuristic": false
+      },
+      "howWeReview": {
+        "path": "/how-we-review",
+        "exists": true,
+        "file": "src/app/how-we-review/page.tsx",
+        "bytes": 3740,
+        "titleMatch": "How we review",
+        "wordCountApprox": 268,
+        "stubHeuristic": false
+      },
+      "methodology": {
+        "path": "/methodology",
+        "exists": true,
+        "file": "src/app/methodology/page.tsx",
+        "bytes": 3685,
+        "titleMatch": "Methodology",
+        "wordCountApprox": 242,
+        "stubHeuristic": false
+      },
+      "affiliateDisclosure": {
+        "path": "/affiliate-disclosure",
+        "exists": true,
+        "file": "src/app/affiliate-disclosure/page.tsx",
+        "bytes": 3353,
+        "titleMatch": "Affiliate disclosure",
+        "wordCountApprox": 298,
+        "stubHeuristic": false
+      },
+      "contact": {
+        "path": "/contact",
+        "exists": true,
+        "file": "src/app/contact/page.tsx",
+        "bytes": 771,
+        "titleMatch": "Contact",
+        "wordCountApprox": 51,
+        "stubHeuristic": true
+      },
+      "privacy": {
+        "path": "/privacy",
+        "exists": true,
+        "file": "src/app/privacy/page.tsx",
+        "bytes": 1223,
+        "titleMatch": "Privacy",
+        "wordCountApprox": 130,
+        "stubHeuristic": false
+      },
+      "terms": {
+        "path": "/terms",
+        "exists": true,
+        "file": "src/app/terms/page.tsx",
+        "bytes": 1265,
+        "titleMatch": "Terms of use",
+        "wordCountApprox": 125,
+        "stubHeuristic": false
+      },
+      "authorsIndex": {
+        "path": "/authors",
+        "exists": true,
+        "file": "src/app/authors/page.tsx",
+        "bytes": 3253,
+        "wordCountApprox": 179,
+        "stubHeuristic": false
+      },
+      "editorialPolicy": {
+        "path": "/editorial-policy",
+        "exists": true,
+        "file": "src/app/editorial-policy/page.tsx",
+        "bytes": 4516,
+        "titleMatch": "Editorial policy",
+        "wordCountApprox": 366,
+        "stubHeuristic": false
+      },
+      "evidencePolicy": {
+        "path": "/evidence-policy",
+        "exists": true,
+        "file": "src/app/evidence-policy/page.tsx",
+        "bytes": 3470,
+        "titleMatch": "Evidence policy",
+        "wordCountApprox": 281,
+        "stubHeuristic": false
+      },
+      "scoringMethodology": {
+        "path": "/scoring-methodology",
+        "exists": true,
+        "file": "src/app/scoring-methodology/page.tsx",
+        "bytes": 3583,
+        "titleMatch": "Scoring methodology",
+        "wordCountApprox": 310,
+        "stubHeuristic": false
+      }
+    },
+    "notes": [
+      "No dedicated /editorial-policy route found — editorial stance may live in about/methodology/how-we-review.",
+      "No dedicated /evidence-policy route found — Evidence types listed on /methodology.",
+      "No dedicated /scoring-methodology route found — scoring described on /methodology and /how-we-review."
+    ]
+  },
+  "authorship": {
+    "authorsDefined": [
+      {
+        "id": "author-kitletics-editorial",
+        "name": "Kitletics Editorial",
+        "slug": "kitletics-editorial",
+        "title": "Editorial desk",
+        "bioLength": 375,
+        "isGenericEditorial": true,
+        "hasPhoto": false,
+        "disclosure": "Attribution is an editorial desk, not a named individual expert. Recommendations are independent of affiliate relationships. Product scores follow documented methodology. Review type defaults to Expert Research unless first-hand evidence is present."
+      }
+    ],
+    "reviewAuthorIds": {
+      "undefined": 585
+    },
+    "reviewsMissingAuthor": 585,
+    "unknownAuthorIds": [
+      "undefined"
+    ]
+  },
+  "firstHandDisclosure": {
+    "declaredFirstHandOrHybrid": 0,
+    "declaredFirstHand": 0,
+    "declaredHybrid": 0,
+    "expertResearch": 585,
+    "visibleFirstHandWithEvidence": 0,
+    "visibleDowngradedMissingEvidence": 0,
+    "samples": []
+  },
+  "userRatings": {
+    "aggregateRatingMentionsInSrc": 10,
+    "mentionsSample": [
+      "src/domain/site-quality/audits/media-schema.ts:154:          recommendedFix: `Implement ${fn} without fabricating AggregateRating`,",
+      "src/domain/site-quality/audits/media-schema.ts:162:  if (/aggregateRating|AggregateRating/i.test(src) && /Math\\.random|fakeRating|placeholderRating/i.test(src)) {",
+      "src/domain/site-quality/audits/media-schema.ts:165:        evidence: \"Suspicious AggregateRating generation in jsonld\",",
+      "src/domain/site-quality/audits/media-schema.ts:167:        recommendedFix: \"Remove fake AggregateRating; only emit real offers/reviews\",",
+      "src/domain/site-quality/audits/media-schema.ts:175:        evidence: \"JSON-LD builders present; no fabricated AggregateRating pattern detected\",",
+      "src/app/scoring-methodology/page.tsx:31:        category-specific criteria. It is not a crowd AggregateRating, not a",
+      "src/app/authors/page.tsx:43:          const reviewCount = getReviewsByAuthor(author.id).length;",
+      "src/app/authors/page.tsx:69:                {reviewCount > 0",
+      "src/app/authors/page.tsx:70:                  ? `${reviewCount} attributed review${reviewCount === 1 ? \"\" : \"s\"}`",
+      "src/app/editorial-policy/page.tsx:99:          We do not fabricate AggregateRating / “user score” counts we do not"
+    ],
+    "reviewJsonLdUsesReviewRatingNotAggregate": true,
+    "productJsonLdOmitsAggregateRating": true,
+    "blocker": false,
+    "liveSamples": []
+  },
+  "publicTrustLanguage": {
+    "hitCount": 0,
+    "byPhrase": [
+      {
+        "phrase": "expert tested",
+        "count": 0
+      },
+      {
+        "phrase": "independently tested",
+        "count": 0
+      },
+      {
+        "phrase": "thousands of runners",
+        "count": 0
+      },
+      {
+        "phrase": "most popular",
+        "count": 0
+      },
+      {
+        "phrase": "#1 rated",
+        "count": 0
+      },
+      {
+        "phrase": "lab tested by us",
+        "count": 0
+      },
+      {
+        "phrase": "we tested every",
+        "count": 0
+      },
+      {
+        "phrase": "scientifically proven",
+        "count": 0
+      }
+    ],
+    "hits": []
+  },
+  "summary": {
+    "mediaAuthenticCoveragePct": 100,
+    "mediaGaps": 0,
+    "runningShoeMediaIssues": 0,
+    "duplicateHeroGroups": 0,
+    "productsZeroOffers": 0,
+    "staleOffers": 0,
+    "regionsWithOffers": 4,
+    "evidenceProductCoveragePct": 96.3,
+    "evidenceReviewCoveragePct": 100,
+    "authorsCount": 1,
+    "visibleFirstHandReviews": 0,
+    "fakeRatingBlocker": false,
+    "trustPhraseHits": 0,
+    "commercialSuspicious": 3,
+    "missingTrustRoutes": []
+  }
+}

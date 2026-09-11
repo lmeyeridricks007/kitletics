@@ -1,0 +1,203 @@
+
+> kitletics@0.1.0 build
+> next build
+
+   ▲ Next.js 15.5.24
+   - Environments: .env.local
+
+   Creating an optimized production build ...
+ ✓ Compiled successfully in 42s
+   Linting and checking validity of types ...
+
+./src/components/alternatives/SourceProductSummary.tsx
+1:8  Warning: 'Image' is defined but never used.  @typescript-eslint/no-unused-vars
+
+./src/components/builders/HomeGymBuilderClient.tsx
+200:6  Warning: React Hook useEffect has a missing dependency: 'applyShared'. Either include it or remove the dependency array.  react-hooks/exhaustive-deps
+
+./src/components/compare/CompareExperience.tsx
+5:8  Warning: 'Link' is defined but never used.  @typescript-eslint/no-unused-vars
+
+./src/components/compare/ComparisonPage.tsx
+7:10  Warning: 'AddToCompareButton' is defined but never used.  @typescript-eslint/no-unused-vars
+
+./src/components/discovery/sections.tsx
+1:8  Warning: 'Link' is defined but never used.  @typescript-eslint/no-unused-vars
+
+./src/components/finder/FinderFlow.tsx
+5:8  Warning: 'Link' is defined but never used.  @typescript-eslint/no-unused-vars
+18:3  Warning: 'stepIsComplete' is defined but never used.  @typescript-eslint/no-unused-vars
+
+./src/components/search/SearchFilters.tsx
+211:9  Warning: The 'baseOpts' object makes the dependencies of useMemo Hook (at line 388) change on every render. Move it inside the useMemo callback. Alternatively, wrap the initialization of 'baseOpts' in its own useMemo() Hook.  react-hooks/exhaustive-deps
+
+./src/components/sport-hub/SportHubBestStrip.tsx
+11:3  Warning: 'SportHubPageData' is defined but never used.  @typescript-eslint/no-unused-vars
+
+./src/content/running/best-guides.ts
+10:7  Warning: 'watchCriteria' is assigned a value but never used.  @typescript-eslint/no-unused-vars
+12:7  Warning: 'hrmCriteria' is assigned a value but never used.  @typescript-eslint/no-unused-vars
+40:7  Warning: 'vestCriteria' is assigned a value but never used.  @typescript-eslint/no-unused-vars
+
+./src/content/running/weak-cats-launch-ready.ts
+1068:7  Warning: 'EXISTING_REVIEW_LINKS' is assigned a value but never used.  @typescript-eslint/no-unused-vars
+
+./src/domain/builders/home-gym.ts
+196:7  Warning: 'ROLE_CATEGORY' is assigned a value but never used.  @typescript-eslint/no-unused-vars
+
+./src/domain/site-quality/fix-and-report.ts
+5:10  Warning: 'issue' is defined but never used.  @typescript-eslint/no-unused-vars
+24:11  Warning: 'hit' is assigned a value but never used.  @typescript-eslint/no-unused-vars
+
+./src/domain/site-quality/issues.ts
+22:21  Warning: '_drop' is assigned a value but never used.  @typescript-eslint/no-unused-vars
+
+./src/lib/catalog/assemble.ts
+35:3  Warning: 'isLaunchListable' is defined but never used.  @typescript-eslint/no-unused-vars
+
+./src/lib/comparison/product-index-search.ts
+3:3  Warning: 'CompareCategoryOption' is defined but never used.  @typescript-eslint/no-unused-vars
+
+./src/lib/comparison/product-index.ts
+18:3  Warning: 'findIndexItemsBySlugs' is defined but never used.  @typescript-eslint/no-unused-vars
+
+./src/lib/guides/enrich-explainer-visuals.ts
+753:24  Warning: '_drop' is assigned a value but never used.  @typescript-eslint/no-unused-vars
+
+./src/lib/review/review-longform.ts
+360:37  Warning: 'key' is defined but never used.  @typescript-eslint/no-unused-vars
+1294:3  Warning: '_topic' is defined but never used.  @typescript-eslint/no-unused-vars
+1295:3  Warning: '_product' is defined but never used.  @typescript-eslint/no-unused-vars
+1296:3  Warning: '_review' is defined but never used.  @typescript-eslint/no-unused-vars
+
+./src/lib/setups/get-gear-setup-page-data.ts
+11:3  Warning: 'BuyingGuide' is defined but never used.  @typescript-eslint/no-unused-vars
+12:3  Warning: 'BestGuide' is defined but never used.  @typescript-eslint/no-unused-vars
+
+./src/repositories/commerce.ts
+27:3  Warning: 'shouldDisplayNumericPrice' is defined but never used.  @typescript-eslint/no-unused-vars
+
+info  - Need to disable some ESLint rules? Learn more here: https://nextjs.org/docs/app/api-reference/config/eslint#disabling-rules
+   Collecting page data ...
+   Generating static pages (0/2341) ...
+   Generating static pages (585/2341) 
+   Generating static pages (1170/2341) 
+   Generating static pages (1755/2341) 
+ ✓ Generating static pages (2341/2341)
+   Finalizing page optimization ...
+   Collecting build traces ...
+
+Route (app)                                                 Size  First Load JS
+┌ ƒ /                                                    5.77 kB         117 kB
+├ ƒ /_not-found                                            156 B         103 kB
+├ ● /[sport]                                              5.9 kB         118 kB
+├   ├ /running
+├   ├ /fitness
+├   ├ /calisthenics
+├   └ [+6 more paths]
+├ ● /[sport]/[segment]                                   4.83 kB         128 kB
+├   ├ /running/road
+├   ├ /running/trail
+├   ├ /running/track
+├   └ [+53 more paths]
+├ ● /[sport]/[segment]/[listing]                         1.47 kB         125 kB
+├   ├ /running/shoes/daily-trainers
+├   ├ /running/shoes/race
+├   ├ /running/shoes/stability
+├   └ [+2 more paths]
+├ ƒ /about                                                 855 B         107 kB
+├ ƒ /affiliate-disclosure                                  855 B         107 kB
+├ ○ /apple-icon                                            156 B         103 kB
+├ ƒ /authors                                               855 B         107 kB
+├ ● /authors/[slug]                                        197 B         112 kB
+├   └ /authors/kitletics-editorial
+├ ƒ /best                                                  197 B         112 kB
+├ ● /best/[slug]                                         2.79 kB         118 kB
+├   ├ /best/running-shoes
+├   ├ /best/daily-trainers
+├   ├ /best/running-shoes-long-runs
+├   └ [+55 more paths]
+├ ƒ /brands                                              2.02 kB         108 kB
+├ ● /brands/[slug]                                       1.27 kB         113 kB
+├   ├ /brands/asics
+├   ├ /brands/nike
+├   ├ /brands/adidas
+├   └ [+100 more paths]
+├ ƒ /compare                                               18 kB         135 kB
+├ ● /compare/[slug]                                      3.01 kB         115 kB
+├   ├ /compare/asics-novablast-6-vs-asics-gel-nimbus-27
+├   ├ /compare/asics-novablast-6-vs-asics-novablast-5
+├   ├ /compare/asics-novablast-6-vs-brooks-ghost-18
+├   └ [+99 more paths]
+├ ƒ /contact                                               827 B         107 kB
+├ ƒ /editorial-policy                                      855 B         107 kB
+├ ƒ /evidence-policy                                       855 B         107 kB
+├ ƒ /finders                                               156 B         103 kB
+├ ƒ /gear                                                   3 kB         109 kB
+├ ● /gear/[slug]                                           197 B         112 kB
+├   ├ /gear/running-shoes
+├   ├ /gear/padel-rackets
+├   ├ /gear/tennis-rackets
+├   └ [+40 more paths]
+├ ƒ /go/[offerId]                                          156 B         103 kB
+├ ƒ /guides                                                197 B         112 kB
+├ ● /guides/[slug]                                       7.24 kB         119 kB
+├   ├ /guides/how-to-choose-running-shoes
+├   ├ /guides/running-shoe-drop
+├   ├ /guides/running-shoe-cushioning
+├   └ [+65 more paths]
+├ ƒ /how-we-review                                         855 B         107 kB
+├ ○ /icon                                                  156 B         103 kB
+├ ○ /manifest.webmanifest                                  156 B         103 kB
+├ ƒ /methodology                                           855 B         107 kB
+├ ○ /opengraph-image                                       156 B         103 kB
+├ ƒ /preview/products/[slug]                               156 B         103 kB
+├ ƒ /privacy                                               827 B         107 kB
+├ ● /products/[slug]                                     5.08 kB         121 kB
+├   ├ /products/asics-novablast-5
+├   ├ /products/asics-novablast-4
+├   ├ /products/asics-gel-nimbus-27
+├   └ [+620 more paths]
+├ ● /products/[slug]/alternatives                          11 kB         123 kB
+├   ├ /products/asics-novablast-5/alternatives
+├   ├ /products/asics-novablast-4/alternatives
+├   ├ /products/asics-gel-nimbus-27/alternatives
+├   └ [+620 more paths]
+├ ƒ /reviews                                               197 B         112 kB
+├ ● /reviews/[slug]                                      4.36 kB         116 kB
+├   ├ /reviews/saucony-peregrine-15
+├   ├ /reviews/polar-h10
+├   ├ /reviews/garmin-hrm-600
+├   └ [+582 more paths]
+├ ○ /robots.txt                                            156 B         103 kB
+├ ƒ /running/gear                                          855 B         107 kB
+├ ƒ /scoring-methodology                                   855 B         107 kB
+├ ƒ /search                                              4.53 kB         111 kB
+├ ƒ /setups                                                855 B         107 kB
+├ ● /setups/[slug]                                       4.39 kB         116 kB
+├   ├ /setups/first-marathon-kit
+├   ├ /setups/marathon-race-day-kit
+├   ├ /setups/marathon-race-day
+├   └ [+14 more paths]
+├ ○ /sitemap.xml                                           156 B         103 kB
+├ ƒ /terms                                                 827 B         107 kB
+├ ƒ /tools                                               1.62 kB         113 kB
+├ ƒ /tools/[slug]                                        42.4 kB         167 kB
+├ ƒ /tools/[slug]/results                                1.75 kB         125 kB
+└ ● /tools/finder/[slug]                                 7.45 kB         130 kB
+    ├ /tools/finder/running-shoe-finder
+    ├ /tools/finder/training-shoe-finder
+    ├ /tools/finder/hyrox-shoe-finder
+    └ [+13 more paths]
++ First Load JS shared by all                             103 kB
+  ├ chunks/1255-fc6c00ab2f765339.js                      46.4 kB
+  ├ chunks/4bd1b696-f785427dddbba9fb.js                  54.2 kB
+  └ other shared chunks (total)                          1.97 kB
+
+
+ƒ Middleware                                             34.2 kB
+
+○  (Static)   prerendered as static content
+●  (SSG)      prerendered as static HTML (uses generateStaticParams)
+ƒ  (Dynamic)  server-rendered on demand
+

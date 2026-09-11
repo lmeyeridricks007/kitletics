@@ -1,0 +1,35 @@
+Connecting to http://127.0.0.1:3010
+measure / desktop
+measure /running desktop
+measure /running/shoes desktop
+measure /running/shoes/daily-trainers desktop
+measure /products/nike-vomero-18 desktop
+measure /reviews/nike-vomero-18 desktop
+measure /best/running-shoes desktop
+measure /guides/how-to-choose-running-shoes desktop
+measure /brands/nike desktop
+measure /compare desktop
+measure /tools/running-shoe-finder desktop
+measure /tools/running-pace-calculator desktop
+measure /search desktop
+responsive / mobile-390
+responsive / tablet-768
+responsive /running/shoes mobile-390
+responsive /running/shoes tablet-768
+responsive /products/nike-vomero-18 mobile-390
+responsive /products/nike-vomero-18 tablet-768
+responsive /reviews/nike-vomero-18 mobile-390
+responsive /reviews/nike-vomero-18 tablet-768
+responsive /compare mobile-390
+responsive /compare tablet-768
+responsive /search mobile-390
+responsive /search tablet-768
+functional probes...
+Wrote /tmp/kitletics-audit07/route-lab.json
+{
+  "routes": 13,
+  "responsive": 12,
+  "functionalOk": 0,
+  "functionalFail": 8
+}
+07_EXIT:0

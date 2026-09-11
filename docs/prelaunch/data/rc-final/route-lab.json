@@ -1,0 +1,3564 @@
+{
+  "generatedAt": "2026-09-06T21:35:40.722Z",
+  "baseUrl": "http://127.0.0.1:3010",
+  "method": "playwright-chromium-lab + axe-core",
+  "notes": [
+    "LCP/CLS from Performance API layout-shift / largest-contentful-paint entries (lab).",
+    "INP not measured in this lab harness — reported as not measurable locally.",
+    "Transfer sizes from Resource Timing (may be 0 for cached/disk-cache entries).",
+    "No optimizations applied."
+  ],
+  "routes": [
+    {
+      "path": "/",
+      "pageType": "Homepage",
+      "viewport": "desktop-1440",
+      "url": "http://127.0.0.1:3010/",
+      "status": 200,
+      "navMs": 1818,
+      "measured": {
+        "fcp": 480,
+        "lcp": null,
+        "cls": 0,
+        "ttfb": 283.7999999523163,
+        "domContentLoaded": 461.7999999523163,
+        "loadEvent": 1155.2000000476837,
+        "jsBytes": 148458,
+        "cssBytes": 43126,
+        "imgBytes": 100719,
+        "fontBytes": 69808,
+        "otherBytes": 50811,
+        "totalBytes": 412922,
+        "resourceCount": 53,
+        "topJs": [
+          {
+            "url": "http://127.0.0.1:3010/_next/static/chunks/4bd1b696-f785427dddbba9fb.js",
+            "bytes": 54665
+          },
+          {
+            "url": "http://127.0.0.1:3010/_next/static/chunks/1255-fc6c00ab2f765339.js",
+            "bytes": 46830
+          },
+          {
+            "url": "http://127.0.0.1:3010/_next/static/chunks/app/layout-f7b3501db7603b92.js",
+            "bytes": 22260
+          },
+          {
+            "url": "http://127.0.0.1:3010/_next/static/chunks/app/page-707a3eeb6e25c423.js",
+            "bytes": 6063
+          },
+          {
+            "url": "http://127.0.0.1:3010/_next/static/chunks/4198-9d00e7477b9d66e0.js",
+            "bytes": 6053
+          },
+          {
+            "url": "http://127.0.0.1:3010/_next/static/chunks/9222-37d04080e9b76a85.js",
+            "bytes": 6013
+          },
+          {
+            "url": "http://127.0.0.1:3010/_next/static/chunks/2619-3c9e02e22d10480a.js",
+            "bytes": 3677
+          },
+          {
+            "url": "http://127.0.0.1:3010/_next/static/chunks/webpack-45386ad46d0b74d8.js",
+            "bytes": 2037
+          },
+          {
+            "url": "http://127.0.0.1:3010/_next/static/chunks/main-app-085fe65bfcf86fb6.js",
+            "bytes": 860
+          }
+        ],
+        "topImages": [
+          {
+            "url": "http://127.0.0.1:3010/_next/image?url=%2Fimages%2Fpadel%2Fproducts%2Fnox-at10-12k-2026-hero.png&w=256&q=75",
+            "bytes": 8693
+          },
+          {
+            "url": "http://127.0.0.1:3010/_next/image?url=%2Fimages%2Fpadel%2Fproducts%2Fbullpadel-hack-04-hero.png&w=256&q=75",
+            "bytes": 8264
+          },
+          {
+            "url": "http://127.0.0.1:3010/_next/image?url=%2Fimages%2Fpadel%2Fproducts%2Fbabolat-counter-viper-hero.png&w=256&q=75",
+            "bytes": 8138
+          },
+          {
+            "url": "http://127.0.0.1:3010/_next/image?url=%2Fimages%2Fpadel%2Fproducts%2Fsiux-diablo-hero.png&w=256&q=75",
+            "bytes": 6060
+          },
+          {
+            "url": "http://127.0.0.1:3010/_next/image?url=%2Fimages%2Fpadel%2Fproducts%2Fbullpadel-vertex-05-hero.png&w=256&q=75",
+            "bytes": 5291
+          },
+          {
+            "url": "http://127.0.0.1:3010/_next/image?url=%2Fimages%2Fwatches%2Fproducts%2Fcoros-pace-4-hero.png&w=256&q=75",
+            "bytes": 4551
+          },
+          {
+            "url": "http://127.0.0.1:3010/_next/image?url=%2Fimages%2Ffitness%2Fproducts%2Fpowerblock-pro-100-hero.jpg&w=256&q=75",
+            "bytes": 4435
+          },
+          {
+            "url": "http://127.0.0.1:3010/_next/image?url=%2Fimages%2Fwatches%2Fproducts%2Fcoros-apex-4-hero.png&w=256&q=75",
+            "bytes": 4104
+          },
+          {
+            "url": "http://127.0.0.1:3010/_next/image?url=%2Fimages%2Fwatches%2Fproducts%2Fgarmin-forerunner-970-hero.jpg&w=256&q=75",
+            "bytes": 3803
+          },
+          {
+            "url": "http://127.0.0.1:3010/_next/image?url=%2Fimages%2Frunning%2Fproducts%2Fghost-18-hero.png&w=256&q=75",
+            "bytes": 3754
+          },
+          {
+            "url": "http://127.0.0.1:3010/_next/image?url=%2Fimages%2Ffitness%2Fproducts%2Frep-adjustable-db-hero.jpg&w=256&q=75",
+            "bytes": 3736
+          },
+          {
+            "url": "http://127.0.0.1:3010/_next/image?url=%2Fimages%2Fwatches%2Fproducts%2Fgarmin-fenix-8-hero.jpg&w=256&q=75",
+            "bytes": 3690
+          }
+        ],
+        "h1s": [
+          "FIND THE RIGHTGEAR. PLAY BETTER."
+        ],
+        "headingCount": 23,
+        "headingOutline": [
+          {
+            "tag": "h1",
+            "text": "FIND THE RIGHTGEAR. PLAY BETTER."
+          },
+          {
+            "tag": "h2",
+            "text": "Find your perfect match"
+          },
+          {
+            "tag": "h2",
+            "text": "Explore by Sport"
+          },
+          {
+            "tag": "h2",
+            "text": "BEST RUNNING SHOES 2026"
+          },
+          {
+            "tag": "h2",
+            "text": "BEST RUNNING WATCHES 2026"
+          },
+          {
+            "tag": "h2",
+            "text": "BEST PADEL RACKETS 2026"
+          },
+          {
+            "tag": "h2",
+            "text": "BEST TRAINING SHOES 2026"
+          },
+          {
+            "tag": "h2",
+            "text": "BEST ADJUSTABLE DUMBBELLS 2026"
+          },
+          {
+            "tag": "h2",
+            "text": "BEST RUNNING HEADPHONES 2026"
+          },
+          {
+            "tag": "h3",
+            "text": "How to Choose a Padel Racket"
+          },
+          {
+            "tag": "h2",
+            "text": "FEATURED COMPARISONS"
+          },
+          {
+            "tag": "h2",
+            "text": "Latest Buying Guides"
+          },
+          {
+            "tag": "h3",
+            "text": "How to Choose a Padel Racket"
+          },
+          {
+            "tag": "h3",
+            "text": "How to Choose a Running Watch"
+          },
+          {
+            "tag": "h3",
+            "text": "How to Build a Home Gym"
+          },
+          {
+            "tag": "h2",
+            "text": "From the Journal"
+          },
+          {
+            "tag": "h3",
+            "text": "How to Choose a Padel Racket"
+          },
+          {
+            "tag": "h3",
+            "text": "How to Choose a Running Watch"
+          },
+          {
+            "tag": "h3",
+            "text": "How to Build a Home Gym"
+          },
+          {
+            "tag": "h3",
+            "text": "Independent & Transparent"
+          },
+          {
+            "tag": "h3",
+            "text": "Always Up to Date"
+          },
+          {
+            "tag": "h3",
+            "text": "Real Prices"
+          },
+          {
+            "tag": "h3",
+            "text": "Find What Fits You"
+          }
+        ],
+        "landmarks": {
+          "main": 1,
+          "nav": 1,
+          "header": 1,
+          "footer": 1,
+          "complementary": 1
+        },
+        "imageCount": 44,
+        "missingAlt": 0,
+        "emptyAltDecorativeOk": 14,
+        "imgsWithoutExplicitWH": 14,
+        "docOverflowX": false,
+        "genderControls": [],
+        "inputCount": 6,
+        "unlabeledInputs": 0,
+        "tables": 0,
+        "dialogs": 1,
+        "priorityImgs": 0,
+        "thirdPartyHosts": [],
+        "title": "Kitletics — Find the right gear for how you train, compete and play."
+      },
+      "axe": {
+        "violations": [],
+        "passes": 31,
+        "incomplete": 2,
+        "violationCount": 0,
+        "seriousOrCritical": 0
+      },
+      "consoleErrors": [],
+      "pageErrors": [],
+      "failedRequests": [
+        {
+          "url": "http://127.0.0.1:3010/guides?_rsc=1p-R_iEY6bj0jY31",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "http://127.0.0.1:3010/contact?_rsc=1p-R_iEY6bj0jY31",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "http://127.0.0.1:3010/compare?_rsc=1p-R_iEY6bj0jY31",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "http://127.0.0.1:3010/tools?type=finder&_rsc=1p-R_iEY6bj0jY31",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "http://127.0.0.1:3010/gear?_rsc=1p-R_iEY6bj0jY31",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "http://127.0.0.1:3010/tools/padel-racket-finder?_rsc=1p-R_iEY6bj0jY31",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "http://127.0.0.1:3010/running?_rsc=1p-R_iEY6bj0jY31",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "http://127.0.0.1:3010/running/trail?_rsc=1p-R_iEY6bj0jY31",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "http://127.0.0.1:3010/running/shoes?_rsc=1p-R_iEY6bj0jY31",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "http://127.0.0.1:3010/fitness?_rsc=1p-R_iEY6bj0jY31",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "http://127.0.0.1:3010/racket?_rsc=1p-R_iEY6bj0jY31",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "http://127.0.0.1:3010/watersports?_rsc=1p-R_iEY6bj0jY31",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "http://127.0.0.1:3010/indoor?_rsc=1p-R_iEY6bj0jY31",
+          "failure": "net::ERR_ABORTED"
+        }
+      ],
+      "responses404": []
+    },
+    {
+      "path": "/running",
+      "pageType": "Running Hub",
+      "viewport": "desktop-1440",
+      "url": "http://127.0.0.1:3010/running",
+      "status": 200,
+      "navMs": 1364,
+      "measured": {
+        "fcp": 608,
+        "lcp": null,
+        "cls": 0,
+        "ttfb": 433.09999990463257,
+        "domContentLoaded": 713.5,
+        "loadEvent": 713.6999998092651,
+        "jsBytes": 148532,
+        "cssBytes": 43126,
+        "imgBytes": 114973,
+        "fontBytes": 69808,
+        "otherBytes": 163090,
+        "totalBytes": 539529,
+        "resourceCount": 64,
+        "topJs": [
+          {
+            "url": "http://127.0.0.1:3010/_next/static/chunks/4bd1b696-f785427dddbba9fb.js",
+            "bytes": 54665
+          },
+          {
+            "url": "http://127.0.0.1:3010/_next/static/chunks/1255-fc6c00ab2f765339.js",
+            "bytes": 46830
+          },
+          {
+            "url": "http://127.0.0.1:3010/_next/static/chunks/app/layout-f7b3501db7603b92.js",
+            "bytes": 22260
+          },
+          {
+            "url": "http://127.0.0.1:3010/_next/static/chunks/app/%5Bsport%5D/page-27d4ebee478e429e.js",
+            "bytes": 6137
+          },
+          {
+            "url": "http://127.0.0.1:3010/_next/static/chunks/4198-9d00e7477b9d66e0.js",
+            "bytes": 6053
+          },
+          {
+            "url": "http://127.0.0.1:3010/_next/static/chunks/9222-37d04080e9b76a85.js",
+            "bytes": 6013
+          },
+          {
+            "url": "http://127.0.0.1:3010/_next/static/chunks/2619-3c9e02e22d10480a.js",
+            "bytes": 3677
+          },
+          {
+            "url": "http://127.0.0.1:3010/_next/static/chunks/webpack-45386ad46d0b74d8.js",
+            "bytes": 2037
+          },
+          {
+            "url": "http://127.0.0.1:3010/_next/static/chunks/main-app-085fe65bfcf86fb6.js",
+            "bytes": 860
+          }
+        ],
+        "topImages": [
+          {
+            "url": "http://127.0.0.1:3010/_next/image?url=%2Fimages%2Fpacks%2Fproducts%2Fnathan-vaporair-4-hero.jpg&w=320&q=75",
+            "bytes": 9953
+          },
+          {
+            "url": "http://127.0.0.1:3010/_next/image?url=%2Fimages%2Fpacks%2Fproducts%2Fultimate-direction-race-vest-6-hero.jpg&w=320&q=75",
+            "bytes": 6765
+          },
+          {
+            "url": "http://127.0.0.1:3010/_next/image?url=%2Fimages%2Fpacks%2Fproducts%2Fsalomon-adv-skin-12-hero.jpg&w=320&q=75",
+            "bytes": 6705
+          },
+          {
+            "url": "http://127.0.0.1:3010/_next/image?url=%2Fimages%2Fhrm%2Fproducts%2Fwahoo-trackr-hero.jpg&w=320&q=75",
+            "bytes": 5916
+          },
+          {
+            "url": "http://127.0.0.1:3010/_next/image?url=%2Fimages%2Fpacks%2Fproducts%2Fsalomon-adv-skin-5-hero.jpg&w=320&q=75",
+            "bytes": 5898
+          },
+          {
+            "url": "http://127.0.0.1:3010/_next/image?url=%2Fimages%2Fhrm%2Fproducts%2Fcoros-heart-rate-monitor-hero.png&w=320&q=75",
+            "bytes": 5829
+          },
+          {
+            "url": "http://127.0.0.1:3010/_next/image?url=%2Fimages%2Fwatches%2Fproducts%2Fcoros-pace-4-hero.png&w=320&q=75",
+            "bytes": 5679
+          },
+          {
+            "url": "http://127.0.0.1:3010/_next/image?url=%2Fimages%2Fwatches%2Fproducts%2Fcoros-apex-4-hero.png&w=320&q=75",
+            "bytes": 5355
+          },
+          {
+            "url": "http://127.0.0.1:3010/_next/image?url=%2Fimages%2Frunning%2Faccessories%2Fjanji-multi-short-men-hero.jpg&w=320&q=75",
+            "bytes": 5215
+          },
+          {
+            "url": "http://127.0.0.1:3010/_next/image?url=%2Fimages%2Fclothing%2Fproducts%2Fpatagonia-capilene-cool-daily-men-hero.jpg&w=320&q=75",
+            "bytes": 5058
+          },
+          {
+            "url": "http://127.0.0.1:3010/_next/image?url=%2Fimages%2Fwatches%2Fproducts%2Fgarmin-forerunner-970-hero.jpg&w=320&q=75",
+            "bytes": 4968
+          },
+          {
+            "url": "http://127.0.0.1:3010/_next/image?url=%2Fimages%2Fwatches%2Fproducts%2Fgarmin-fenix-8-hero.jpg&w=320&q=75",
+            "bytes": 4783
+          }
+        ],
+        "h1s": [
+          "RUNNING GEAR"
+        ],
+        "headingCount": 27,
+        "headingOutline": [
+          {
+            "tag": "h1",
+            "text": "RUNNING GEAR"
+          },
+          {
+            "tag": "h2",
+            "text": "BEST RUNNING SHOES 2026"
+          },
+          {
+            "tag": "h2",
+            "text": "FIND YOUR PERFECT RUNNING SHOES"
+          },
+          {
+            "tag": "h2",
+            "text": "BEST RUNNING WATCHES 2026"
+          },
+          {
+            "tag": "h2",
+            "text": "FIND YOUR PERFECT GPS WATCH"
+          },
+          {
+            "tag": "h2",
+            "text": "BEST HEART RATE MONITORS FOR RUNNING 2026"
+          },
+          {
+            "tag": "h2",
+            "text": "FIND YOUR PERFECT HEART RATE MONITOR"
+          },
+          {
+            "tag": "h2",
+            "text": "BEST RUNNING HYDRATION VESTS 2026"
+          },
+          {
+            "tag": "h2",
+            "text": "FIND YOUR PERFECT HYDRATION SETUP"
+          },
+          {
+            "tag": "h2",
+            "text": "BEST RUNNING APPAREL 2026"
+          },
+          {
+            "tag": "h2",
+            "text": "FIND YOUR PERFECT RUNNING APPAREL"
+          },
+          {
+            "tag": "h2",
+            "text": "BEST RUNNING SOCKS 2026"
+          },
+          {
+            "tag": "h2",
+            "text": "BEST RUNNING HEADPHONES 2026"
+          },
+          {
+            "tag": "h2",
+            "text": "FIND YOUR PERFECT ACCESSORIES"
+          },
+          {
+            "tag": "h2",
+            "text": "BEST RUNNING RECOVERY GEAR 2026"
+          },
+          {
+            "tag": "h2",
+            "text": "FIND YOUR PERFECT RECOVERY TOOLS"
+          },
+          {
+            "tag": "h3",
+            "text": "Expert & Independent"
+          },
+          {
+            "tag": "h3",
+            "text": "Always Up to Date"
+          },
+          {
+            "tag": "h3",
+            "text": "Real Prices"
+          },
+          {
+            "tag": "h3",
+            "text": "Find What Fits You"
+          },
+          {
+            "tag": "h2",
+            "text": "RUNNING BUYING GUIDES"
+          },
+          {
+            "tag": "h3",
+            "text": "How to Choose Running Shoes"
+          },
+          {
+            "tag": "h3",
+            "text": "Running Shoe Drop Explained"
+          },
+          {
+            "tag": "h3",
+            "text": "Running Shoe Cushioning Explained"
+          },
+          {
+            "tag": "h2",
+            "text": "FEATURED COMPARISONS"
+          },
+          {
+            "tag": "h2",
+            "text": "BEGINNER RUNNING SETUP"
+          },
+          {
+            "tag": "h2",
+            "text": "TOP RUNNING BRANDS"
+          }
+        ],
+        "landmarks": {
+          "main": 1,
+          "nav": 3,
+          "header": 1,
+          "footer": 1,
+          "complementary": 8
+        },
+        "imageCount": 61,
+        "missingAlt": 0,
+        "emptyAltDecorativeOk": 12,
+        "imgsWithoutExplicitWH": 16,
+        "docOverflowX": false,
+        "genderControls": [
+          "Men's",
+          "Women's"
+        ],
+        "inputCount": 30,
+        "unlabeledInputs": 0,
+        "tables": 0,
+        "dialogs": 1,
+        "priorityImgs": 0,
+        "thirdPartyHosts": [],
+        "title": "Running Gear, Shoes, Watches & Buying Advice · Kitletics"
+      },
+      "axe": {
+        "violations": [],
+        "passes": 29,
+        "incomplete": 3,
+        "violationCount": 0,
+        "seriousOrCritical": 0
+      },
+      "consoleErrors": [],
+      "pageErrors": [],
+      "failedRequests": [
+        {
+          "url": "http://127.0.0.1:3010/about?_rsc=xVmCzGFj7La6MI2p",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "http://127.0.0.1:3010/guides?_rsc=xVmCzGFj7La6MI2p",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "http://127.0.0.1:3010/contact?_rsc=xVmCzGFj7La6MI2p",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "http://127.0.0.1:3010/compare?_rsc=xVmCzGFj7La6MI2p",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "http://127.0.0.1:3010/?_rsc=xVmCzGFj7La6MI2p",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "http://127.0.0.1:3010/tools/running-shoe-finder?_rsc=xVmCzGFj7La6MI2p",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "http://127.0.0.1:3010/best/running-watches?_rsc=xVmCzGFj7La6MI2p",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "http://127.0.0.1:3010/running/gear?_rsc=xVmCzGFj7La6MI2p",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "http://127.0.0.1:3010/running/heart-rate-monitors?_rsc=xVmCzGFj7La6MI2p",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "http://127.0.0.1:3010/running/shoes?_rsc=xVmCzGFj7La6MI2p",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "http://127.0.0.1:3010/running/clothing?_rsc=xVmCzGFj7La6MI2p",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "http://127.0.0.1:3010/running/packs?_rsc=xVmCzGFj7La6MI2p",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "http://127.0.0.1:3010/running/recovery?_rsc=xVmCzGFj7La6MI2p",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "http://127.0.0.1:3010/running/road?_rsc=xVmCzGFj7La6MI2p",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "http://127.0.0.1:3010/running/trail?_rsc=xVmCzGFj7La6MI2p",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "http://127.0.0.1:3010/running/track?_rsc=xVmCzGFj7La6MI2p",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "http://127.0.0.1:3010/running/treadmill?_rsc=xVmCzGFj7La6MI2p",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "http://127.0.0.1:3010/racket?_rsc=xVmCzGFj7La6MI2p",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "http://127.0.0.1:3010/running/watches?_rsc=xVmCzGFj7La6MI2p",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "http://127.0.0.1:3010/fitness?_rsc=xVmCzGFj7La6MI2p",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "http://127.0.0.1:3010/watersports?_rsc=xVmCzGFj7La6MI2p",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "http://127.0.0.1:3010/indoor?_rsc=xVmCzGFj7La6MI2p",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "http://127.0.0.1:3010/best?sport=running&_rsc=xVmCzGFj7La6MI2p",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "http://127.0.0.1:3010/reviews?sport=running&_rsc=xVmCzGFj7La6MI2p",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "http://127.0.0.1:3010/tools?sport=running&type=finder&_rsc=xVmCzGFj7La6MI2p",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "http://127.0.0.1:3010/setups?sport=running&_rsc=xVmCzGFj7La6MI2p",
+          "failure": "net::ERR_ABORTED"
+        }
+      ],
+      "responses404": []
+    },
+    {
+      "path": "/running/shoes",
+      "pageType": "Running Shoes",
+      "viewport": "desktop-1440",
+      "url": "http://127.0.0.1:3010/running/shoes",
+      "status": 200,
+      "navMs": 1968,
+      "measured": {
+        "fcp": 1320,
+        "lcp": null,
+        "cls": 0,
+        "ttfb": 1193,
+        "domContentLoaded": 1300.7999999523163,
+        "loadEvent": 1330.7000000476837,
+        "jsBytes": 159875,
+        "cssBytes": 43126,
+        "imgBytes": 87630,
+        "fontBytes": 69808,
+        "otherBytes": 21120,
+        "totalBytes": 381559,
+        "resourceCount": 65,
+        "topJs": [
+          {
+            "url": "http://127.0.0.1:3010/_next/static/chunks/4bd1b696-f785427dddbba9fb.js",
+            "bytes": 54665
+          },
+          {
+            "url": "http://127.0.0.1:3010/_next/static/chunks/1255-fc6c00ab2f765339.js",
+            "bytes": 46830
+          },
+          {
+            "url": "http://127.0.0.1:3010/_next/static/chunks/app/layout-f7b3501db7603b92.js",
+            "bytes": 22260
+          },
+          {
+            "url": "http://127.0.0.1:3010/_next/static/chunks/5965-8e5e258bcd923f2e.js",
+            "bytes": 8158
+          },
+          {
+            "url": "http://127.0.0.1:3010/_next/static/chunks/4198-9d00e7477b9d66e0.js",
+            "bytes": 6053
+          },
+          {
+            "url": "http://127.0.0.1:3010/_next/static/chunks/9222-37d04080e9b76a85.js",
+            "bytes": 6013
+          },
+          {
+            "url": "http://127.0.0.1:3010/_next/static/chunks/app/%5Bsport%5D/%5Bsegment%5D/page-9d1bf11229011f13.js",
+            "bytes": 5148
+          },
+          {
+            "url": "http://127.0.0.1:3010/_next/static/chunks/5527-b4fee38b5c85fd7f.js",
+            "bytes": 4174
+          },
+          {
+            "url": "http://127.0.0.1:3010/_next/static/chunks/2619-3c9e02e22d10480a.js",
+            "bytes": 3677
+          },
+          {
+            "url": "http://127.0.0.1:3010/_next/static/chunks/webpack-45386ad46d0b74d8.js",
+            "bytes": 2037
+          },
+          {
+            "url": "http://127.0.0.1:3010/_next/static/chunks/main-app-085fe65bfcf86fb6.js",
+            "bytes": 860
+          }
+        ],
+        "topImages": [
+          {
+            "url": "http://127.0.0.1:3010/_next/image?url=%2Fimages%2Frunning%2Fcategory%2Fuse-daily.jpg&w=320&q=70",
+            "bytes": 8888
+          },
+          {
+            "url": "http://127.0.0.1:3010/_next/image?url=%2Fimages%2Frunning%2Fcategory%2Fuse-trail.jpg&w=320&q=70",
+            "bytes": 6566
+          },
+          {
+            "url": "http://127.0.0.1:3010/_next/image?url=%2Fimages%2Frunning%2Fcategory%2Fuse-race.jpg&w=320&q=70",
+            "bytes": 6430
+          },
+          {
+            "url": "http://127.0.0.1:3010/_next/image?url=%2Fimages%2Frunning%2Fcategory%2Fuse-tempo.jpg&w=320&q=70",
+            "bytes": 5732
+          },
+          {
+            "url": "http://127.0.0.1:3010/_next/image?url=%2Fimages%2Frunning%2Fproducts%2Fbrooks-cascadia-18-hero.jpg&w=320&q=70",
+            "bytes": 4150
+          },
+          {
+            "url": "http://127.0.0.1:3010/_next/image?url=%2Fimages%2Frunning%2Fproducts%2Fghost-18-hero.png&w=320&q=70",
+            "bytes": 4148
+          },
+          {
+            "url": "http://127.0.0.1:3010/_next/image?url=%2Fimages%2Frunning%2Fproducts%2Fhoka-arahi-7-hero.jpg&w=320&q=70",
+            "bytes": 4119
+          },
+          {
+            "url": "http://127.0.0.1:3010/_next/image?url=%2Fimages%2Frunning%2Fproducts%2Fboston-12-hero.jpg&w=320&q=70",
+            "bytes": 4058
+          },
+          {
+            "url": "http://127.0.0.1:3010/_next/image?url=%2Fimages%2Frunning%2Fproducts%2Fendorphin-speed-4-hero.jpg&w=320&q=70",
+            "bytes": 4028
+          },
+          {
+            "url": "http://127.0.0.1:3010/_next/image?url=%2Fimages%2Frunning%2Fproducts%2Fbrooks-glycerin-gts-22-hero.jpg&w=320&q=70",
+            "bytes": 3999
+          },
+          {
+            "url": "http://127.0.0.1:3010/_next/image?url=%2Fimages%2Frunning%2Fcategory%2Fuse-long.jpg&w=320&q=70",
+            "bytes": 3989
+          },
+          {
+            "url": "http://127.0.0.1:3010/_next/image?url=%2Fimages%2Frunning%2Fproducts%2Fnovablast-5-hero.jpg&w=320&q=70",
+            "bytes": 3849
+          }
+        ],
+        "h1s": [
+          "Running Shoes"
+        ],
+        "headingCount": 40,
+        "headingOutline": [
+          {
+            "tag": "h1",
+            "text": "Running Shoes"
+          },
+          {
+            "tag": "h2",
+            "text": "Shop by fit / sizing"
+          },
+          {
+            "tag": "h2",
+            "text": "BEST RUNNING SHOES 2026"
+          },
+          {
+            "tag": "h2",
+            "text": "FIND YOUR PERFECTRUNNING SHOE"
+          },
+          {
+            "tag": "h2",
+            "text": "SHOP BY HOW YOU RUN"
+          },
+          {
+            "tag": "h3",
+            "text": "Daily Training"
+          },
+          {
+            "tag": "h3",
+            "text": "Long Runs"
+          },
+          {
+            "tag": "h3",
+            "text": "Tempo & Intervals"
+          },
+          {
+            "tag": "h3",
+            "text": "Race Day"
+          },
+          {
+            "tag": "h3",
+            "text": "Recovery"
+          },
+          {
+            "tag": "h3",
+            "text": "Trail Running"
+          },
+          {
+            "tag": "h2",
+            "text": "ALL RUNNING SHOES"
+          },
+          {
+            "tag": "h3",
+            "text": "Endorphin Speed 5"
+          },
+          {
+            "tag": "h3",
+            "text": "SUPERBLAST 2"
+          },
+          {
+            "tag": "h3",
+            "text": "Novablast 6"
+          },
+          {
+            "tag": "h3",
+            "text": "Adizero Adios Pro 4"
+          },
+          {
+            "tag": "h3",
+            "text": "Endorphin Speed 4"
+          },
+          {
+            "tag": "h3",
+            "text": "Adizero Boston 12"
+          },
+          {
+            "tag": "h3",
+            "text": "Adizero Evo SL"
+          },
+          {
+            "tag": "h3",
+            "text": "Vaporfly 4"
+          },
+          {
+            "tag": "h3",
+            "text": "Novablast 5"
+          },
+          {
+            "tag": "h3",
+            "text": "Arahi 7"
+          },
+          {
+            "tag": "h3",
+            "text": "Cascadia 18"
+          },
+          {
+            "tag": "h3",
+            "text": "Clifton 10"
+          },
+          {
+            "tag": "h3",
+            "text": "FuelCell SuperComp Trainer v3"
+          },
+          {
+            "tag": "h3",
+            "text": "Glycerin GTS 22"
+          },
+          {
+            "tag": "h3",
+            "text": "METASPEED Sky Paris"
+          },
+          {
+            "tag": "h3",
+            "text": "Adizero Boston 13"
+          },
+          {
+            "tag": "h3",
+            "text": "Clifton 9"
+          },
+          {
+            "tag": "h3",
+            "text": "Endorphin Pro 4"
+          },
+          {
+            "tag": "h3",
+            "text": "Fresh Foam X 860 v14"
+          },
+          {
+            "tag": "h3",
+            "text": "GEL-Kayano 32"
+          },
+          {
+            "tag": "h3",
+            "text": "Gel-Trabuco 13"
+          },
+          {
+            "tag": "h3",
+            "text": "Guide 18"
+          },
+          {
+            "tag": "h3",
+            "text": "Speedgoat 6"
+          },
+          {
+            "tag": "h3",
+            "text": "Alphafly 3"
+          },
+          {
+            "tag": "h2",
+            "text": "How to Choose Running Shoes"
+          },
+          {
+            "tag": "h2",
+            "text": "FEATURED COMPARISONS"
+          },
+          {
+            "tag": "h2",
+            "text": "RUNNING SHOE TOOLS"
+          },
+          {
+            "tag": "h2",
+            "text": "TOP RUNNING SHOE BRANDS"
+          }
+        ],
+        "landmarks": {
+          "main": 1,
+          "nav": 5,
+          "header": 1,
+          "footer": 0,
+          "complementary": 3
+        },
+        "imageCount": 57,
+        "missingAlt": 0,
+        "emptyAltDecorativeOk": 7,
+        "imgsWithoutExplicitWH": 45,
+        "docOverflowX": false,
+        "genderControls": [
+          "Men's running shoesFind models available in men's sizing.Shop men's →",
+          "Women's running shoesFind models available in women's sizing.Shop women's →",
+          "Men's79",
+          "Women's79"
+        ],
+        "inputCount": 124,
+        "unlabeledInputs": 0,
+        "tables": 0,
+        "dialogs": 1,
+        "priorityImgs": 0,
+        "thirdPartyHosts": [],
+        "title": "Running Shoes: Compare Trainers, Race & Trail Shoes · Kitletics"
+      },
+      "axe": {
+        "violations": [],
+        "passes": 30,
+        "incomplete": 3,
+        "violationCount": 0,
+        "seriousOrCritical": 0
+      },
+      "consoleErrors": [],
+      "pageErrors": [],
+      "failedRequests": [
+        {
+          "url": "http://127.0.0.1:3010/running?_rsc=8lrMyj1jKI6jVCv5",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "http://127.0.0.1:3010/tools/running-shoe-finder?_rsc=8lrMyj1jKI6jVCv5",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "http://127.0.0.1:3010/products/brooks-ghost-18?_rsc=8lrMyj1jKI6jVCv5",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "http://127.0.0.1:3010/products/nike-pegasus-42?_rsc=8lrMyj1jKI6jVCv5",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "http://127.0.0.1:3010/products/asics-novablast-6?_rsc=8lrMyj1jKI6jVCv5",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "http://127.0.0.1:3010/best/running-shoes?_rsc=8lrMyj1jKI6jVCv5",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "http://127.0.0.1:3010/products/hoka-clifton-10?_rsc=8lrMyj1jKI6jVCv5",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "http://127.0.0.1:3010/products/hoka-bondi-9?_rsc=8lrMyj1jKI6jVCv5",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "http://127.0.0.1:3010/racket?_rsc=8lrMyj1jKI6jVCv5",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "http://127.0.0.1:3010/fitness?_rsc=8lrMyj1jKI6jVCv5",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "http://127.0.0.1:3010/watersports?_rsc=8lrMyj1jKI6jVCv5",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "http://127.0.0.1:3010/indoor?_rsc=8lrMyj1jKI6jVCv5",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "http://127.0.0.1:3010/reviews?domain=shoes&_rsc=8lrMyj1jKI6jVCv5",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "http://127.0.0.1:3010/fitness/training-shoes?_rsc=8lrMyj1jKI6jVCv5",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "http://127.0.0.1:3010/best?domain=shoes&_rsc=8lrMyj1jKI6jVCv5",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "http://127.0.0.1:3010/tools?domain=shoes&type=finder&_rsc=8lrMyj1jKI6jVCv5",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "http://127.0.0.1:3010/brands?domain=shoes&_rsc=8lrMyj1jKI6jVCv5",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "http://127.0.0.1:3010/running/shoes/daily-trainers?_rsc=8lrMyj1jKI6jVCv5",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "http://127.0.0.1:3010/running/shoes/race?_rsc=8lrMyj1jKI6jVCv5",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "http://127.0.0.1:3010/running/shoes/stability?_rsc=8lrMyj1jKI6jVCv5",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "http://127.0.0.1:3010/running/shoes/trail?_rsc=8lrMyj1jKI6jVCv5",
+          "failure": "net::ERR_ABORTED"
+        }
+      ],
+      "responses404": []
+    },
+    {
+      "path": "/running/shoes/daily-trainers",
+      "pageType": "Running subcategory",
+      "viewport": "desktop-1440",
+      "url": "http://127.0.0.1:3010/running/shoes/daily-trainers",
+      "status": 200,
+      "navMs": 1546,
+      "measured": {
+        "fcp": 924,
+        "lcp": null,
+        "cls": 0,
+        "ttfb": 825,
+        "domContentLoaded": 864.7999999523163,
+        "loadEvent": 937.0999999046326,
+        "jsBytes": 156491,
+        "cssBytes": 43126,
+        "imgBytes": 6347099,
+        "fontBytes": 69808,
+        "otherBytes": 17123,
+        "totalBytes": 6633647,
+        "resourceCount": 70,
+        "topJs": [
+          {
+            "url": "http://127.0.0.1:3010/_next/static/chunks/4bd1b696-f785427dddbba9fb.js",
+            "bytes": 54665
+          },
+          {
+            "url": "http://127.0.0.1:3010/_next/static/chunks/1255-fc6c00ab2f765339.js",
+            "bytes": 46830
+          },
+          {
+            "url": "http://127.0.0.1:3010/_next/static/chunks/app/layout-f7b3501db7603b92.js",
+            "bytes": 22260
+          },
+          {
+            "url": "http://127.0.0.1:3010/_next/static/chunks/5965-8e5e258bcd923f2e.js",
+            "bytes": 8158
+          },
+          {
+            "url": "http://127.0.0.1:3010/_next/static/chunks/4198-9d00e7477b9d66e0.js",
+            "bytes": 6053
+          },
+          {
+            "url": "http://127.0.0.1:3010/_next/static/chunks/9222-37d04080e9b76a85.js",
+            "bytes": 6013
+          },
+          {
+            "url": "http://127.0.0.1:3010/_next/static/chunks/5527-b4fee38b5c85fd7f.js",
+            "bytes": 4174
+          },
+          {
+            "url": "http://127.0.0.1:3010/_next/static/chunks/2619-3c9e02e22d10480a.js",
+            "bytes": 3677
+          },
+          {
+            "url": "http://127.0.0.1:3010/_next/static/chunks/webpack-45386ad46d0b74d8.js",
+            "bytes": 2037
+          },
+          {
+            "url": "http://127.0.0.1:3010/_next/static/chunks/app/%5Bsport%5D/%5Bsegment%5D/%5Blisting%5D/page-c28a87074447d056.js",
+            "bytes": 1764
+          },
+          {
+            "url": "http://127.0.0.1:3010/_next/static/chunks/main-app-085fe65bfcf86fb6.js",
+            "bytes": 860
+          }
+        ],
+        "topImages": [
+          {
+            "url": "http://127.0.0.1:3010/images/home/guide-running-shoes.jpg",
+            "bytes": 2791425
+          },
+          {
+            "url": "http://127.0.0.1:3010/images/running/products/ghost-18-hero.png",
+            "bytes": 2751696
+          },
+          {
+            "url": "http://127.0.0.1:3010/images/running/products/pegasus-42-hero.jpg",
+            "bytes": 317951
+          },
+          {
+            "url": "http://127.0.0.1:3010/images/running/category/use-daily.jpg",
+            "bytes": 163752
+          },
+          {
+            "url": "http://127.0.0.1:3010/images/running/products/nimbus-27-hero.jpg",
+            "bytes": 102503
+          },
+          {
+            "url": "http://127.0.0.1:3010/images/running/products/novablast-6-hero.jpg",
+            "bytes": 66891
+          },
+          {
+            "url": "http://127.0.0.1:3010/images/running/products/novablast-5-hero.jpg",
+            "bytes": 66538
+          },
+          {
+            "url": "http://127.0.0.1:3010/_next/image?url=%2Fimages%2Frunning%2Fproducts%2Fnimbus-27-hero.jpg&w=320&q=70",
+            "bytes": 5875
+          },
+          {
+            "url": "http://127.0.0.1:3010/_next/image?url=%2Fimages%2Frunning%2Fproducts%2Fghost-16-hero.png&w=320&q=70",
+            "bytes": 4872
+          },
+          {
+            "url": "http://127.0.0.1:3010/_next/image?url=%2Fimages%2Frunning%2Fproducts%2Fsaucony-guide-18-hero.jpg&w=320&q=70",
+            "bytes": 4238
+          },
+          {
+            "url": "http://127.0.0.1:3010/_next/image?url=%2Fimages%2Frunning%2Fproducts%2Fclifton-9-hero.jpg&w=320&q=70",
+            "bytes": 4190
+          },
+          {
+            "url": "http://127.0.0.1:3010/_next/image?url=%2Fimages%2Frunning%2Fproducts%2Fghost-18-hero.png&w=320&q=70",
+            "bytes": 4148
+          }
+        ],
+        "h1s": [
+          "Daily Trainers"
+        ],
+        "headingCount": 28,
+        "headingOutline": [
+          {
+            "tag": "h1",
+            "text": "Daily Trainers"
+          },
+          {
+            "tag": "h3",
+            "text": "SUPERBLAST 2"
+          },
+          {
+            "tag": "h3",
+            "text": "Novablast 6"
+          },
+          {
+            "tag": "h3",
+            "text": "Adizero Boston 12"
+          },
+          {
+            "tag": "h3",
+            "text": "Adizero Evo SL"
+          },
+          {
+            "tag": "h3",
+            "text": "Novablast 5"
+          },
+          {
+            "tag": "h3",
+            "text": "Arahi 7"
+          },
+          {
+            "tag": "h3",
+            "text": "Clifton 10"
+          },
+          {
+            "tag": "h3",
+            "text": "Glycerin GTS 22"
+          },
+          {
+            "tag": "h3",
+            "text": "Adizero Boston 13"
+          },
+          {
+            "tag": "h3",
+            "text": "Clifton 9"
+          },
+          {
+            "tag": "h3",
+            "text": "Fresh Foam X 860 v14"
+          },
+          {
+            "tag": "h3",
+            "text": "GEL-Kayano 32"
+          },
+          {
+            "tag": "h3",
+            "text": "Guide 18"
+          },
+          {
+            "tag": "h3",
+            "text": "Cloudsurfer 2"
+          },
+          {
+            "tag": "h3",
+            "text": "Gaviota 5"
+          },
+          {
+            "tag": "h3",
+            "text": "GEL-Nimbus 27"
+          },
+          {
+            "tag": "h3",
+            "text": "Ghost 18"
+          },
+          {
+            "tag": "h3",
+            "text": "Pegasus Trail 5"
+          },
+          {
+            "tag": "h3",
+            "text": "Fresh Foam X 1080 v14"
+          },
+          {
+            "tag": "h3",
+            "text": "Ghost 16"
+          },
+          {
+            "tag": "h3",
+            "text": "Pegasus 42"
+          },
+          {
+            "tag": "h3",
+            "text": "React Infinity Run 4"
+          },
+          {
+            "tag": "h3",
+            "text": "Adrenaline GTS 25"
+          },
+          {
+            "tag": "h3",
+            "text": "Genesis"
+          },
+          {
+            "tag": "h2",
+            "text": "What makes a great daily trainer?"
+          },
+          {
+            "tag": "h2",
+            "text": "FEATURED COMPARISONS"
+          },
+          {
+            "tag": "h2",
+            "text": "DAILY TRAINER TIPS"
+          }
+        ],
+        "landmarks": {
+          "main": 1,
+          "nav": 5,
+          "header": 1,
+          "footer": 0,
+          "complementary": 2
+        },
+        "imageCount": 36,
+        "missingAlt": 0,
+        "emptyAltDecorativeOk": 11,
+        "imgsWithoutExplicitWH": 36,
+        "docOverflowX": false,
+        "genderControls": [],
+        "inputCount": 54,
+        "unlabeledInputs": 0,
+        "tables": 0,
+        "dialogs": 1,
+        "priorityImgs": 0,
+        "thirdPartyHosts": [],
+        "title": "Daily Trainer Running Shoes · Kitletics"
+      },
+      "axe": {
+        "violations": [],
+        "passes": 29,
+        "incomplete": 2,
+        "violationCount": 0,
+        "seriousOrCritical": 0
+      },
+      "consoleErrors": [],
+      "pageErrors": [],
+      "failedRequests": [
+        {
+          "url": "http://127.0.0.1:3010/about?_rsc=2-wGEHzZnFo1tqCk",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "http://127.0.0.1:3010/guides?_rsc=2-wGEHzZnFo1tqCk",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "http://127.0.0.1:3010/contact?_rsc=2-wGEHzZnFo1tqCk",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "http://127.0.0.1:3010/compare?_rsc=2-wGEHzZnFo1tqCk",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "http://127.0.0.1:3010/running?_rsc=2-wGEHzZnFo1tqCk",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "http://127.0.0.1:3010/running/shoes?_rsc=2-wGEHzZnFo1tqCk",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "http://127.0.0.1:3010/products/asics-novablast-6?_rsc=2-wGEHzZnFo1tqCk",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "http://127.0.0.1:3010/products/adidas-adizero-boston-12?_rsc=2-wGEHzZnFo1tqCk",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "http://127.0.0.1:3010/products/asics-superblast-2?_rsc=2-wGEHzZnFo1tqCk",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "http://127.0.0.1:3010/products/adidas-adizero-evo-sl?_rsc=2-wGEHzZnFo1tqCk",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "http://127.0.0.1:3010/products/asics-novablast-5?_rsc=2-wGEHzZnFo1tqCk",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "http://127.0.0.1:3010/products/hoka-arahi-7?_rsc=2-wGEHzZnFo1tqCk",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "http://127.0.0.1:3010/products/hoka-clifton-10?_rsc=2-wGEHzZnFo1tqCk",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "http://127.0.0.1:3010/products/brooks-glycerin-gts-22?_rsc=2-wGEHzZnFo1tqCk",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "http://127.0.0.1:3010/racket?_rsc=2-wGEHzZnFo1tqCk",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "http://127.0.0.1:3010/fitness?_rsc=2-wGEHzZnFo1tqCk",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "http://127.0.0.1:3010/watersports?_rsc=2-wGEHzZnFo1tqCk",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "http://127.0.0.1:3010/indoor?_rsc=2-wGEHzZnFo1tqCk",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "http://127.0.0.1:3010/fitness/training-shoes?_rsc=2-wGEHzZnFo1tqCk",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "http://127.0.0.1:3010/best?domain=shoes&_rsc=2-wGEHzZnFo1tqCk",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "http://127.0.0.1:3010/reviews?domain=shoes&_rsc=2-wGEHzZnFo1tqCk",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "http://127.0.0.1:3010/tools?domain=shoes&type=finder&_rsc=2-wGEHzZnFo1tqCk",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "http://127.0.0.1:3010/brands?domain=shoes&_rsc=2-wGEHzZnFo1tqCk",
+          "failure": "net::ERR_ABORTED"
+        }
+      ],
+      "responses404": []
+    },
+    {
+      "path": "/products/nike-vomero-18",
+      "pageType": "Product Detail",
+      "viewport": "desktop-1440",
+      "url": "http://127.0.0.1:3010/products/nike-vomero-18",
+      "status": 200,
+      "navMs": 1506,
+      "measured": {
+        "fcp": 872,
+        "lcp": null,
+        "cls": 0,
+        "ttfb": 751.5,
+        "domContentLoaded": 861.7000000476837,
+        "loadEvent": 888.2999999523163,
+        "jsBytes": 151903,
+        "cssBytes": 43126,
+        "imgBytes": 0,
+        "fontBytes": 69808,
+        "otherBytes": 12945,
+        "totalBytes": 277782,
+        "resourceCount": 28,
+        "topJs": [
+          {
+            "url": "http://127.0.0.1:3010/_next/static/chunks/4bd1b696-f785427dddbba9fb.js",
+            "bytes": 54665
+          },
+          {
+            "url": "http://127.0.0.1:3010/_next/static/chunks/1255-fc6c00ab2f765339.js",
+            "bytes": 46830
+          },
+          {
+            "url": "http://127.0.0.1:3010/_next/static/chunks/app/layout-f7b3501db7603b92.js",
+            "bytes": 22260
+          },
+          {
+            "url": "http://127.0.0.1:3010/_next/static/chunks/4198-9d00e7477b9d66e0.js",
+            "bytes": 6053
+          },
+          {
+            "url": "http://127.0.0.1:3010/_next/static/chunks/9222-37d04080e9b76a85.js",
+            "bytes": 6013
+          },
+          {
+            "url": "http://127.0.0.1:3010/_next/static/chunks/app/products/%5Bslug%5D/page-ceb4434648a2f745.js",
+            "bytes": 5334
+          },
+          {
+            "url": "http://127.0.0.1:3010/_next/static/chunks/5527-b4fee38b5c85fd7f.js",
+            "bytes": 4174
+          },
+          {
+            "url": "http://127.0.0.1:3010/_next/static/chunks/2619-3c9e02e22d10480a.js",
+            "bytes": 3677
+          },
+          {
+            "url": "http://127.0.0.1:3010/_next/static/chunks/webpack-45386ad46d0b74d8.js",
+            "bytes": 2037
+          },
+          {
+            "url": "http://127.0.0.1:3010/_next/static/chunks/main-app-085fe65bfcf86fb6.js",
+            "bytes": 860
+          }
+        ],
+        "topImages": [],
+        "h1s": [
+          "Vomero 18"
+        ],
+        "headingCount": 43,
+        "headingOutline": [
+          {
+            "tag": "h1",
+            "text": "Vomero 18"
+          },
+          {
+            "tag": "h2",
+            "text": "Overview"
+          },
+          {
+            "tag": "h3",
+            "text": "At a glance"
+          },
+          {
+            "tag": "h2",
+            "text": "Pros & cons"
+          },
+          {
+            "tag": "h2",
+            "text": "Key technologies"
+          },
+          {
+            "tag": "h2",
+            "text": "Kitletics Review"
+          },
+          {
+            "tag": "h3",
+            "text": "Pros"
+          },
+          {
+            "tag": "h3",
+            "text": "Cons / Trade-offs"
+          },
+          {
+            "tag": "h3",
+            "text": "Best for"
+          },
+          {
+            "tag": "h3",
+            "text": "Not ideal for"
+          },
+          {
+            "tag": "h3",
+            "text": "Who should buy the Vomero 18?"
+          },
+          {
+            "tag": "h3",
+            "text": "Who should look elsewhere?"
+          },
+          {
+            "tag": "h3",
+            "text": "Performance breakdown"
+          },
+          {
+            "tag": "h3",
+            "text": "How it performs"
+          },
+          {
+            "tag": "h4",
+            "text": "Fit & Comfort"
+          },
+          {
+            "tag": "h4",
+            "text": "Ride"
+          },
+          {
+            "tag": "h4",
+            "text": "Stability"
+          },
+          {
+            "tag": "h4",
+            "text": "Durability"
+          },
+          {
+            "tag": "h4",
+            "text": "Value"
+          },
+          {
+            "tag": "h3",
+            "text": "Key specs that matter"
+          },
+          {
+            "tag": "h3",
+            "text": "Should you buy it?"
+          },
+          {
+            "tag": "h3",
+            "text": "Alternatives to consider"
+          },
+          {
+            "tag": "h3",
+            "text": "Featured in"
+          },
+          {
+            "tag": "h3",
+            "text": "How we assessed it"
+          },
+          {
+            "tag": "h2",
+            "text": "Top alternatives"
+          },
+          {
+            "tag": "h2",
+            "text": "Specifications"
+          },
+          {
+            "tag": "h3",
+            "text": "Geometry"
+          },
+          {
+            "tag": "h3",
+            "text": "Ride"
+          },
+          {
+            "tag": "h3",
+            "text": "Construction"
+          },
+          {
+            "tag": "h3",
+            "text": "Use"
+          },
+          {
+            "tag": "h3",
+            "text": "Fit"
+          },
+          {
+            "tag": "h3",
+            "text": "Other"
+          },
+          {
+            "tag": "h2",
+            "text": "Where to buy"
+          },
+          {
+            "tag": "h2",
+            "text": "Sources & evidence"
+          },
+          {
+            "tag": "h3",
+            "text": "Best Daily Trainers"
+          },
+          {
+            "tag": "h3",
+            "text": "Best Max Cushion Running Shoes"
+          },
+          {
+            "tag": "h3",
+            "text": "Running Shoe Finder"
+          },
+          {
+            "tag": "h3",
+            "text": "Shoe Rotation Planner"
+          },
+          {
+            "tag": "h3",
+            "text": "Running Pace Calculator"
+          },
+          {
+            "tag": "h3",
+            "text": "Independent & Transparent"
+          }
+        ],
+        "landmarks": {
+          "main": 1,
+          "nav": 3,
+          "header": 1,
+          "footer": 1,
+          "complementary": 2
+        },
+        "imageCount": 9,
+        "missingAlt": 0,
+        "emptyAltDecorativeOk": 3,
+        "imgsWithoutExplicitWH": 9,
+        "docOverflowX": false,
+        "genderControls": [
+          "Men's",
+          "Women's"
+        ],
+        "inputCount": 1,
+        "unlabeledInputs": 0,
+        "tables": 7,
+        "dialogs": 1,
+        "priorityImgs": 0,
+        "thirdPartyHosts": [],
+        "title": "Nike Vomero 18: Specs, Performance & Best Uses · Kitletics"
+      },
+      "axe": {
+        "violations": [],
+        "passes": 32,
+        "incomplete": 2,
+        "violationCount": 0,
+        "seriousOrCritical": 0
+      },
+      "consoleErrors": [],
+      "pageErrors": [],
+      "failedRequests": [
+        {
+          "url": "http://127.0.0.1:3010/about?_rsc=mBaVErF4l4YJ0SxX",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "http://127.0.0.1:3010/guides?_rsc=mBaVErF4l4YJ0SxX",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "http://127.0.0.1:3010/contact?_rsc=mBaVErF4l4YJ0SxX",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "http://127.0.0.1:3010/compare?_rsc=mBaVErF4l4YJ0SxX",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "http://127.0.0.1:3010/?_rsc=mBaVErF4l4YJ0SxX",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "http://127.0.0.1:3010/running?_rsc=mBaVErF4l4YJ0SxX",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "http://127.0.0.1:3010/running/shoes?_rsc=mBaVErF4l4YJ0SxX",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "http://127.0.0.1:3010/brands/nike?_rsc=mBaVErF4l4YJ0SxX",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "http://127.0.0.1:3010/methodology?_rsc=mBaVErF4l4YJ0SxX",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "http://127.0.0.1:3010/racket?_rsc=mBaVErF4l4YJ0SxX",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "http://127.0.0.1:3010/fitness?_rsc=mBaVErF4l4YJ0SxX",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "http://127.0.0.1:3010/watersports?_rsc=mBaVErF4l4YJ0SxX",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "http://127.0.0.1:3010/indoor?_rsc=mBaVErF4l4YJ0SxX",
+          "failure": "net::ERR_ABORTED"
+        }
+      ],
+      "responses404": []
+    },
+    {
+      "path": "/reviews/nike-vomero-18",
+      "pageType": "Review",
+      "viewport": "desktop-1440",
+      "url": "http://127.0.0.1:3010/reviews/nike-vomero-18",
+      "status": 200,
+      "navMs": 5352,
+      "measured": {
+        "fcp": 4456,
+        "lcp": null,
+        "cls": 0,
+        "ttfb": 2469.100000143051,
+        "domContentLoaded": 4911.700000047684,
+        "loadEvent": 4915.400000095367,
+        "jsBytes": 147058,
+        "cssBytes": 43126,
+        "imgBytes": 6630,
+        "fontBytes": 69808,
+        "otherBytes": 55302,
+        "totalBytes": 321924,
+        "resourceCount": 18,
+        "topJs": [
+          {
+            "url": "http://127.0.0.1:3010/_next/static/chunks/4bd1b696-f785427dddbba9fb.js",
+            "bytes": 54665
+          },
+          {
+            "url": "http://127.0.0.1:3010/_next/static/chunks/1255-fc6c00ab2f765339.js",
+            "bytes": 46830
+          },
+          {
+            "url": "http://127.0.0.1:3010/_next/static/chunks/app/layout-f7b3501db7603b92.js",
+            "bytes": 22260
+          },
+          {
+            "url": "http://127.0.0.1:3010/_next/static/chunks/4198-9d00e7477b9d66e0.js",
+            "bytes": 6053
+          },
+          {
+            "url": "http://127.0.0.1:3010/_next/static/chunks/9222-37d04080e9b76a85.js",
+            "bytes": 6013
+          },
+          {
+            "url": "http://127.0.0.1:3010/_next/static/chunks/app/reviews/%5Bslug%5D/page-36aa3bfc9507a06b.js",
+            "bytes": 4663
+          },
+          {
+            "url": "http://127.0.0.1:3010/_next/static/chunks/2619-3c9e02e22d10480a.js",
+            "bytes": 3677
+          },
+          {
+            "url": "http://127.0.0.1:3010/_next/static/chunks/webpack-45386ad46d0b74d8.js",
+            "bytes": 2037
+          },
+          {
+            "url": "http://127.0.0.1:3010/_next/static/chunks/main-app-085fe65bfcf86fb6.js",
+            "bytes": 860
+          }
+        ],
+        "topImages": [
+          {
+            "url": "http://127.0.0.1:3010/_next/image?url=%2Fimages%2Frunning%2Fproducts%2Fnike-vomero-18%2Fsections%2Fassessment.png&w=640&q=75",
+            "bytes": 6630
+          }
+        ],
+        "h1s": [
+          "Nike Vomero 18 Review"
+        ],
+        "headingCount": 30,
+        "headingOutline": [
+          {
+            "tag": "h1",
+            "text": "Nike Vomero 18 Review"
+          },
+          {
+            "tag": "h2",
+            "text": "Review summary"
+          },
+          {
+            "tag": "h3",
+            "text": "Who this review is for"
+          },
+          {
+            "tag": "h3",
+            "text": "Who it's not for"
+          },
+          {
+            "tag": "h3",
+            "text": "Pros"
+          },
+          {
+            "tag": "h3",
+            "text": "Cons"
+          },
+          {
+            "tag": "h2",
+            "text": "How it scores"
+          },
+          {
+            "tag": "h3",
+            "text": "What these scores mean"
+          },
+          {
+            "tag": "h2",
+            "text": "How we wrote this review"
+          },
+          {
+            "tag": "h2",
+            "text": "What it is"
+          },
+          {
+            "tag": "h2",
+            "text": "Key specs"
+          },
+          {
+            "tag": "h2",
+            "text": "Fit & Comfort"
+          },
+          {
+            "tag": "h2",
+            "text": "Cushioning"
+          },
+          {
+            "tag": "h2",
+            "text": "Ride"
+          },
+          {
+            "tag": "h2",
+            "text": "Stability"
+          },
+          {
+            "tag": "h2",
+            "text": "Upper & lockdown"
+          },
+          {
+            "tag": "h2",
+            "text": "Grip & outsole"
+          },
+          {
+            "tag": "h2",
+            "text": "Durability"
+          },
+          {
+            "tag": "h2",
+            "text": "Where it is strongest"
+          },
+          {
+            "tag": "h2",
+            "text": "Trade-offs & limits"
+          },
+          {
+            "tag": "h2",
+            "text": "Who should buy"
+          },
+          {
+            "tag": "h2",
+            "text": "Value"
+          },
+          {
+            "tag": "h2",
+            "text": "How it compares"
+          },
+          {
+            "tag": "h2",
+            "text": "Should you buy the Vomero 18?"
+          },
+          {
+            "tag": "h2",
+            "text": "About this review"
+          },
+          {
+            "tag": "h2",
+            "text": "Where to buy"
+          },
+          {
+            "tag": "h3",
+            "text": "Independent & Transparent"
+          },
+          {
+            "tag": "h3",
+            "text": "Always Up to Date"
+          },
+          {
+            "tag": "h3",
+            "text": "Real Prices"
+          },
+          {
+            "tag": "h3",
+            "text": "Find What Fits You"
+          }
+        ],
+        "landmarks": {
+          "main": 1,
+          "nav": 3,
+          "header": 1,
+          "footer": 1,
+          "complementary": 4
+        },
+        "imageCount": 25,
+        "missingAlt": 0,
+        "emptyAltDecorativeOk": 2,
+        "imgsWithoutExplicitWH": 24,
+        "docOverflowX": false,
+        "genderControls": [],
+        "inputCount": 1,
+        "unlabeledInputs": 0,
+        "tables": 1,
+        "dialogs": 1,
+        "priorityImgs": 0,
+        "thirdPartyHosts": [],
+        "title": "Nike Vomero 18 Review: Performance, Fit & Verdict | Kitletics · Kitletics"
+      },
+      "axe": {
+        "violations": [],
+        "passes": 34,
+        "incomplete": 2,
+        "violationCount": 0,
+        "seriousOrCritical": 0
+      },
+      "consoleErrors": [],
+      "pageErrors": [],
+      "failedRequests": [
+        {
+          "url": "http://127.0.0.1:3010/reviews?_rsc=hwiY8SnQZL38HbM4",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "http://127.0.0.1:3010/authors/kitletics-editorial?_rsc=hwiY8SnQZL38HbM4",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "http://127.0.0.1:3010/products/nike-vomero-18?_rsc=hwiY8SnQZL38HbM4",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "http://127.0.0.1:3010/methodology?_rsc=hwiY8SnQZL38HbM4",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "http://127.0.0.1:3010/products/nobull-trainer?_rsc=hwiY8SnQZL38HbM4",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "http://127.0.0.1:3010/products/nike-pegasus-42?_rsc=hwiY8SnQZL38HbM4",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "http://127.0.0.1:3010/brands/nike?_rsc=hwiY8SnQZL38HbM4",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "http://127.0.0.1:3010/racket?_rsc=hwiY8SnQZL38HbM4",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "http://127.0.0.1:3010/running/shoes?_rsc=hwiY8SnQZL38HbM4",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "http://127.0.0.1:3010/running?_rsc=hwiY8SnQZL38HbM4",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "http://127.0.0.1:3010/fitness?_rsc=hwiY8SnQZL38HbM4",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "http://127.0.0.1:3010/watersports?_rsc=hwiY8SnQZL38HbM4",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "http://127.0.0.1:3010/indoor?_rsc=hwiY8SnQZL38HbM4",
+          "failure": "net::ERR_ABORTED"
+        }
+      ],
+      "responses404": []
+    },
+    {
+      "path": "/best/running-shoes",
+      "pageType": "Best Guide",
+      "viewport": "desktop-1440",
+      "url": "http://127.0.0.1:3010/best/running-shoes",
+      "status": 200,
+      "navMs": 3089,
+      "measured": {
+        "fcp": 3080,
+        "lcp": null,
+        "cls": 0,
+        "ttfb": 2283.9000000953674,
+        "domContentLoaded": 0,
+        "loadEvent": 0,
+        "jsBytes": 149657,
+        "cssBytes": 43126,
+        "imgBytes": 18650,
+        "fontBytes": 69808,
+        "otherBytes": 18779,
+        "totalBytes": 300020,
+        "resourceCount": 25,
+        "topJs": [
+          {
+            "url": "http://127.0.0.1:3010/_next/static/chunks/4bd1b696-f785427dddbba9fb.js",
+            "bytes": 54665
+          },
+          {
+            "url": "http://127.0.0.1:3010/_next/static/chunks/1255-fc6c00ab2f765339.js",
+            "bytes": 46830
+          },
+          {
+            "url": "http://127.0.0.1:3010/_next/static/chunks/app/layout-f7b3501db7603b92.js",
+            "bytes": 22260
+          },
+          {
+            "url": "http://127.0.0.1:3010/_next/static/chunks/4198-9d00e7477b9d66e0.js",
+            "bytes": 6053
+          },
+          {
+            "url": "http://127.0.0.1:3010/_next/static/chunks/9222-37d04080e9b76a85.js",
+            "bytes": 6013
+          },
+          {
+            "url": "http://127.0.0.1:3010/_next/static/chunks/5527-b4fee38b5c85fd7f.js",
+            "bytes": 4174
+          },
+          {
+            "url": "http://127.0.0.1:3010/_next/static/chunks/2619-3c9e02e22d10480a.js",
+            "bytes": 3677
+          },
+          {
+            "url": "http://127.0.0.1:3010/_next/static/chunks/app/best/%5Bslug%5D/page-8fb2ef4d410b2b90.js",
+            "bytes": 3088
+          },
+          {
+            "url": "http://127.0.0.1:3010/_next/static/chunks/webpack-45386ad46d0b74d8.js",
+            "bytes": 2037
+          },
+          {
+            "url": "http://127.0.0.1:3010/_next/static/chunks/main-app-085fe65bfcf86fb6.js",
+            "bytes": 860
+          }
+        ],
+        "topImages": [
+          {
+            "url": "http://127.0.0.1:3010/_next/image?url=%2Fimages%2Frunning%2Fproducts%2Fghost-18-hero.png&w=320&q=75",
+            "bytes": 4681
+          },
+          {
+            "url": "http://127.0.0.1:3010/_next/image?url=%2Fimages%2Frunning%2Fproducts%2Fghost-18-hero.png&w=160&q=75",
+            "bytes": 2355
+          },
+          {
+            "url": "http://127.0.0.1:3010/_next/image?url=%2Fimages%2Frunning%2Fproducts%2Fkayano-32-hero.jpg&w=160&q=75",
+            "bytes": 1801
+          },
+          {
+            "url": "http://127.0.0.1:3010/_next/image?url=%2Fimages%2Frunning%2Fproducts%2Fclifton-10-hero.jpg&w=160&q=75",
+            "bytes": 1796
+          },
+          {
+            "url": "http://127.0.0.1:3010/_next/image?url=%2Fimages%2Frunning%2Fproducts%2Fvaporfly-4-hero.jpg&w=160&q=75",
+            "bytes": 1718
+          },
+          {
+            "url": "http://127.0.0.1:3010/_next/image?url=%2Fimages%2Frunning%2Fproducts%2Fspeedgoat-6-hero.jpg&w=160&q=75",
+            "bytes": 1663
+          },
+          {
+            "url": "http://127.0.0.1:3010/_next/image?url=%2Fimages%2Frunning%2Fproducts%2Fbondi-9-hero.jpg&w=160&q=75",
+            "bytes": 1603
+          },
+          {
+            "url": "http://127.0.0.1:3010/_next/image?url=%2Fimages%2Frunning%2Fproducts%2Fendorphin-speed-5-hero.jpg&w=160&q=75",
+            "bytes": 1583
+          },
+          {
+            "url": "http://127.0.0.1:3010/_next/image?url=%2Fimages%2Frunning%2Fproducts%2Fpegasus-42-hero.jpg&w=160&q=75",
+            "bytes": 1450
+          }
+        ],
+        "h1s": [
+          "Best Running Shoes 2026"
+        ],
+        "headingCount": 37,
+        "headingOutline": [
+          {
+            "tag": "h1",
+            "text": "Best Running Shoes 2026"
+          },
+          {
+            "tag": "h2",
+            "text": "Quick Picks"
+          },
+          {
+            "tag": "h2",
+            "text": "Our quick take"
+          },
+          {
+            "tag": "h2",
+            "text": "What makes a good daily training running shoe?"
+          },
+          {
+            "tag": "h3",
+            "text": "What we look for in a daily training running shoe"
+          },
+          {
+            "tag": "h2",
+            "text": "Recommendations"
+          },
+          {
+            "tag": "h3",
+            "text": "ASICS Novablast 6"
+          },
+          {
+            "tag": "h3",
+            "text": "Brooks Ghost 18"
+          },
+          {
+            "tag": "h3",
+            "text": "Nike Pegasus 42"
+          },
+          {
+            "tag": "h3",
+            "text": "HOKA Clifton 10"
+          },
+          {
+            "tag": "h3",
+            "text": "HOKA Bondi 9"
+          },
+          {
+            "tag": "h3",
+            "text": "Saucony Endorphin Speed 5"
+          },
+          {
+            "tag": "h3",
+            "text": "Nike Vaporfly 4"
+          },
+          {
+            "tag": "h3",
+            "text": "ASICS GEL-Kayano 32"
+          },
+          {
+            "tag": "h3",
+            "text": "HOKA Speedgoat 6"
+          },
+          {
+            "tag": "h2",
+            "text": "How the top picks differ"
+          },
+          {
+            "tag": "h2",
+            "text": "Compare these picks"
+          },
+          {
+            "tag": "h2",
+            "text": "Which daily training Running Shoe should you choose?"
+          },
+          {
+            "tag": "h2",
+            "text": "Raw product specs"
+          },
+          {
+            "tag": "h2",
+            "text": "How we narrowed the field"
+          },
+          {
+            "tag": "h3",
+            "text": "Notable runners-up"
+          },
+          {
+            "tag": "h2",
+            "text": "How we research & score"
+          },
+          {
+            "tag": "h2",
+            "text": "How to choose"
+          },
+          {
+            "tag": "h2",
+            "text": "Find your perfect match"
+          },
+          {
+            "tag": "h3",
+            "text": "Independent & Transparent"
+          },
+          {
+            "tag": "h3",
+            "text": "Always Up to Date"
+          },
+          {
+            "tag": "h3",
+            "text": "Real Prices"
+          },
+          {
+            "tag": "h3",
+            "text": "Find What Fits You"
+          },
+          {
+            "tag": "h2",
+            "text": "More guides"
+          },
+          {
+            "tag": "h3",
+            "text": "Best Daily Trainers"
+          },
+          {
+            "tag": "h3",
+            "text": "Best Running Shoes for Long Runs"
+          },
+          {
+            "tag": "h3",
+            "text": "Best Tempo Running Shoes"
+          },
+          {
+            "tag": "h2",
+            "text": "FAQ"
+          },
+          {
+            "tag": "h3",
+            "text": "How does Kitletics choose best running shoes?"
+          },
+          {
+            "tag": "h3",
+            "text": "What is the best running shoe for everyday training?"
+          },
+          {
+            "tag": "h3",
+            "text": "Do I need different shoes for training and racing?"
+          },
+          {
+            "tag": "h3",
+            "text": "How much should I spend on running shoes?"
+          }
+        ],
+        "landmarks": {
+          "main": 1,
+          "nav": 2,
+          "header": 1,
+          "footer": 1,
+          "complementary": 10
+        },
+        "imageCount": 37,
+        "missingAlt": 0,
+        "emptyAltDecorativeOk": 14,
+        "imgsWithoutExplicitWH": 37,
+        "docOverflowX": false,
+        "genderControls": [],
+        "inputCount": 1,
+        "unlabeledInputs": 0,
+        "tables": 2,
+        "dialogs": 1,
+        "priorityImgs": 0,
+        "thirdPartyHosts": [],
+        "title": "Best Running Shoes 2026: Top Picks by Use Case | Kitletics · Kitletics"
+      },
+      "axe": {
+        "violations": [],
+        "passes": 31,
+        "incomplete": 2,
+        "violationCount": 0,
+        "seriousOrCritical": 0
+      },
+      "consoleErrors": [],
+      "pageErrors": [],
+      "failedRequests": [
+        {
+          "url": "http://127.0.0.1:3010/about?_rsc=32yLCk5pYQSQ_-h-",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "http://127.0.0.1:3010/guides?_rsc=32yLCk5pYQSQ_-h-",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "http://127.0.0.1:3010/products/brooks-ghost-18?_rsc=32yLCk5pYQSQ_-h-",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "http://127.0.0.1:3010/products/nike-pegasus-42?_rsc=32yLCk5pYQSQ_-h-",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "http://127.0.0.1:3010/products/hoka-clifton-10?_rsc=32yLCk5pYQSQ_-h-",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "http://127.0.0.1:3010/best?_rsc=32yLCk5pYQSQ_-h-",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "http://127.0.0.1:3010/products/asics-novablast-6?_rsc=32yLCk5pYQSQ_-h-",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "http://127.0.0.1:3010/products/hoka-bondi-9?_rsc=32yLCk5pYQSQ_-h-",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "http://127.0.0.1:3010/running/shoes?_rsc=32yLCk5pYQSQ_-h-",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "http://127.0.0.1:3010/racket?_rsc=32yLCk5pYQSQ_-h-",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "http://127.0.0.1:3010/running?_rsc=32yLCk5pYQSQ_-h-",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "http://127.0.0.1:3010/fitness?_rsc=32yLCk5pYQSQ_-h-",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "http://127.0.0.1:3010/watersports?_rsc=32yLCk5pYQSQ_-h-",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "http://127.0.0.1:3010/indoor?_rsc=32yLCk5pYQSQ_-h-",
+          "failure": "net::ERR_ABORTED"
+        }
+      ],
+      "responses404": []
+    },
+    {
+      "path": "/guides/how-to-choose-running-shoes",
+      "pageType": "Long Guide",
+      "viewport": "desktop-1440",
+      "url": "http://127.0.0.1:3010/guides/how-to-choose-running-shoes",
+      "status": 200,
+      "navMs": 3606,
+      "measured": {
+        "fcp": 2072,
+        "lcp": null,
+        "cls": 0,
+        "ttfb": 1672.9000000953674,
+        "domContentLoaded": 2077.2999999523163,
+        "loadEvent": 2079.7000000476837,
+        "jsBytes": 149945,
+        "cssBytes": 43126,
+        "imgBytes": 50478,
+        "fontBytes": 69808,
+        "otherBytes": 13202,
+        "totalBytes": 326559,
+        "resourceCount": 35,
+        "topJs": [
+          {
+            "url": "http://127.0.0.1:3010/_next/static/chunks/4bd1b696-f785427dddbba9fb.js",
+            "bytes": 54665
+          },
+          {
+            "url": "http://127.0.0.1:3010/_next/static/chunks/1255-fc6c00ab2f765339.js",
+            "bytes": 46830
+          },
+          {
+            "url": "http://127.0.0.1:3010/_next/static/chunks/app/layout-f7b3501db7603b92.js",
+            "bytes": 22260
+          },
+          {
+            "url": "http://127.0.0.1:3010/_next/static/chunks/app/guides/%5Bslug%5D/page-cf558f17e288408b.js",
+            "bytes": 7550
+          },
+          {
+            "url": "http://127.0.0.1:3010/_next/static/chunks/4198-9d00e7477b9d66e0.js",
+            "bytes": 6053
+          },
+          {
+            "url": "http://127.0.0.1:3010/_next/static/chunks/9222-37d04080e9b76a85.js",
+            "bytes": 6013
+          },
+          {
+            "url": "http://127.0.0.1:3010/_next/static/chunks/2619-3c9e02e22d10480a.js",
+            "bytes": 3677
+          },
+          {
+            "url": "http://127.0.0.1:3010/_next/static/chunks/webpack-45386ad46d0b74d8.js",
+            "bytes": 2037
+          },
+          {
+            "url": "http://127.0.0.1:3010/_next/static/chunks/main-app-085fe65bfcf86fb6.js",
+            "bytes": 860
+          }
+        ],
+        "topImages": [
+          {
+            "url": "http://127.0.0.1:3010/_next/image?url=%2Fimages%2Frunning%2Fproducts%2Fnovablast-6-hero.jpg&w=828&q=75",
+            "bytes": 19398
+          },
+          {
+            "url": "http://127.0.0.1:3010/_next/image?url=%2Fimages%2Frunning%2Fguides%2Ftrail-shoe-outsole-compare.jpg&w=750&q=75",
+            "bytes": 13166
+          },
+          {
+            "url": "http://127.0.0.1:3010/_next/image?url=%2Fimages%2Frunning%2Fguides%2Froad-shoe-outsole-compare.jpg&w=750&q=75",
+            "bytes": 13071
+          },
+          {
+            "url": "http://127.0.0.1:3010/_next/image?url=%2Fimages%2Frunning%2Fproducts%2Fescalante-4-hero.jpg&w=160&q=75",
+            "bytes": 1790
+          },
+          {
+            "url": "http://127.0.0.1:3010/_next/image?url=%2Fimages%2Frunning%2Fproducts%2Fbondi-9-hero.jpg&w=160&q=75",
+            "bytes": 1603
+          },
+          {
+            "url": "http://127.0.0.1:3010/_next/image?url=%2Fimages%2Frunning%2Fproducts%2Fpegasus-42-hero.jpg&w=160&q=75",
+            "bytes": 1450
+          }
+        ],
+        "h1s": [
+          "How to Choose Running Shoes: The Complete Guide"
+        ],
+        "headingCount": 32,
+        "headingOutline": [
+          {
+            "tag": "h1",
+            "text": "How to Choose Running Shoes: The Complete Guide"
+          },
+          {
+            "tag": "h2",
+            "text": "Find your perfect shoes"
+          },
+          {
+            "tag": "h2",
+            "text": "On this page"
+          },
+          {
+            "tag": "h2",
+            "text": "1Know your running needs"
+          },
+          {
+            "tag": "h2",
+            "text": "2Shoe anatomy 101"
+          },
+          {
+            "tag": "h2",
+            "text": "3Key factors explained"
+          },
+          {
+            "tag": "h2",
+            "text": "4What to look for while comparing"
+          },
+          {
+            "tag": "h2",
+            "text": "5Understanding fit"
+          },
+          {
+            "tag": "h2",
+            "text": "6Terrain & conditions"
+          },
+          {
+            "tag": "h2",
+            "text": "7How much should you spend?"
+          },
+          {
+            "tag": "h2",
+            "text": "8Common mistakes to avoid"
+          },
+          {
+            "tag": "h2",
+            "text": "9FAQ"
+          },
+          {
+            "tag": "h2",
+            "text": "Examples: shoes that fit different needs"
+          },
+          {
+            "tag": "h2",
+            "text": "Head-to-head comparisons"
+          },
+          {
+            "tag": "h3",
+            "text": "Novablast 6vsGhost 18"
+          },
+          {
+            "tag": "h3",
+            "text": "Novablast 6vsGEL-Nimbus 27"
+          },
+          {
+            "tag": "h3",
+            "text": "GEL-Kayano 32vsAdrenaline GTS 25"
+          },
+          {
+            "tag": "h3",
+            "text": "Vaporfly 4vsAlphafly 3"
+          },
+          {
+            "tag": "h2",
+            "text": "Find your perfect shoes"
+          },
+          {
+            "tag": "h2",
+            "text": "On this page"
+          },
+          {
+            "tag": "h2",
+            "text": "Need help deciding?"
+          },
+          {
+            "tag": "h2",
+            "text": "Key terms explained"
+          },
+          {
+            "tag": "h2",
+            "text": "Recommended reads"
+          },
+          {
+            "tag": "h2",
+            "text": "Get better gear advice"
+          },
+          {
+            "tag": "h2",
+            "text": "Need help deciding?"
+          },
+          {
+            "tag": "h2",
+            "text": "Key terms explained"
+          },
+          {
+            "tag": "h2",
+            "text": "Recommended reads"
+          },
+          {
+            "tag": "h2",
+            "text": "Get better gear advice"
+          },
+          {
+            "tag": "h3",
+            "text": "Independent & Transparent"
+          },
+          {
+            "tag": "h3",
+            "text": "Always Up to Date"
+          },
+          {
+            "tag": "h3",
+            "text": "Real Prices"
+          },
+          {
+            "tag": "h3",
+            "text": "Find What Fits You"
+          }
+        ],
+        "landmarks": {
+          "main": 1,
+          "nav": 4,
+          "header": 1,
+          "footer": 1,
+          "complementary": 15
+        },
+        "imageCount": 20,
+        "missingAlt": 0,
+        "emptyAltDecorativeOk": 0,
+        "imgsWithoutExplicitWH": 20,
+        "docOverflowX": false,
+        "genderControls": [],
+        "inputCount": 3,
+        "unlabeledInputs": 0,
+        "tables": 0,
+        "dialogs": 1,
+        "priorityImgs": 0,
+        "thirdPartyHosts": [],
+        "title": "How to Choose Running Shoes | Complete Buying Guide · Kitletics"
+      },
+      "axe": {
+        "violations": [],
+        "passes": 34,
+        "incomplete": 3,
+        "violationCount": 0,
+        "seriousOrCritical": 0
+      },
+      "consoleErrors": [
+        "Failed to fetch RSC payload for http://127.0.0.1:3010/running/shoes/daily-trainers. Falling back to browser navigation. TypeError: network error",
+        "Failed to fetch RSC payload for http://127.0.0.1:3010/running/shoes/race. Falling back to browser navigation. TypeError: Failed to fetch\n    at y (http://127.0.0.1:3010/_next/static/chunks/1255-fc6c00ab2f765339.js:1:40385)\n    at async _ (http://127.0.0.1:3010/_next/static/chunks/1255-fc6c00ab2f765339.js:1:39243)\n    at async Object.o [as task] (http://127.0.0.1:3010/_next/static/chunks/1255-fc6c00ab2f765339.js:1:172751)",
+        "Failed to fetch RSC payload for http://127.0.0.1:3010/running/shoes. Falling back to browser navigation. TypeError: network error",
+        "Failed to fetch RSC payload for http://127.0.0.1:3010/best/running-shoes. Falling back to browser navigation. TypeError: Failed to fetch\n    at y (http://127.0.0.1:3010/_next/static/chunks/1255-fc6c00ab2f765339.js:1:40385)\n    at async _ (http://127.0.0.1:3010/_next/static/chunks/1255-fc6c00ab2f765339.js:1:39243)\n    at async Object.o [as task] (http://127.0.0.1:3010/_next/static/chunks/1255-fc6c00ab2f765339.js:1:172751)",
+        "Failed to fetch RSC payload for http://127.0.0.1:3010/tools/running-shoe-finder. Falling back to browser navigation. TypeError: Failed to fetch\n    at y (http://127.0.0.1:3010/_next/static/chunks/1255-fc6c00ab2f765339.js:1:40385)\n    at async _ (http://127.0.0.1:3010/_next/static/chunks/1255-fc6c00ab2f765339.js:1:39243)\n    at async Object.o [as task] (http://127.0.0.1:3010/_next/static/chunks/1255-fc6c00ab2f765339.js:1:172751)",
+        "Failed to fetch RSC payload for http://127.0.0.1:3010/racket. Falling back to browser navigation. TypeError: Failed to fetch\n    at y (http://127.0.0.1:3010/_next/static/chunks/1255-fc6c00ab2f765339.js:1:40385)\n    at async _ (http://127.0.0.1:3010/_next/static/chunks/1255-fc6c00ab2f765339.js:1:39243)\n    at async Object.o [as task] (http://127.0.0.1:3010/_next/static/chunks/1255-fc6c00ab2f765339.js:1:172751)",
+        "Failed to fetch RSC payload for http://127.0.0.1:3010/running. Falling back to browser navigation. TypeError: Failed to fetch\n    at y (http://127.0.0.1:3010/_next/static/chunks/1255-fc6c00ab2f765339.js:1:40385)\n    at async _ (http://127.0.0.1:3010/_next/static/chunks/1255-fc6c00ab2f765339.js:1:39243)\n    at async Object.o [as task] (http://127.0.0.1:3010/_next/static/chunks/1255-fc6c00ab2f765339.js:1:172751)",
+        "Failed to fetch RSC payload for http://127.0.0.1:3010/fitness. Falling back to browser navigation. TypeError: Failed to fetch\n    at y (http://127.0.0.1:3010/_next/static/chunks/1255-fc6c00ab2f765339.js:1:40385)\n    at async _ (http://127.0.0.1:3010/_next/static/chunks/1255-fc6c00ab2f765339.js:1:39243)\n    at async Object.o [as task] (http://127.0.0.1:3010/_next/static/chunks/1255-fc6c00ab2f765339.js:1:172751)",
+        "Failed to fetch RSC payload for http://127.0.0.1:3010/watersports. Falling back to browser navigation. TypeError: Failed to fetch\n    at y (http://127.0.0.1:3010/_next/static/chunks/1255-fc6c00ab2f765339.js:1:40385)\n    at async _ (http://127.0.0.1:3010/_next/static/chunks/1255-fc6c00ab2f765339.js:1:39243)\n    at async Object.o [as task] (http://127.0.0.1:3010/_next/static/chunks/1255-fc6c00ab2f765339.js:1:172751)",
+        "Failed to fetch RSC payload for http://127.0.0.1:3010/indoor. Falling back to browser navigation. TypeError: Failed to fetch\n    at y (http://127.0.0.1:3010/_next/static/chunks/1255-fc6c00ab2f765339.js:1:40385)\n    at async _ (http://127.0.0.1:3010/_next/static/chunks/1255-fc6c00ab2f765339.js:1:39243)\n    at async Object.o [as task] (http://127.0.0.1:3010/_next/static/chunks/1255-fc6c00ab2f765339.js:1:172751)"
+      ],
+      "pageErrors": [],
+      "failedRequests": [
+        {
+          "url": "http://127.0.0.1:3010/about?_rsc=bbpkXOwmDzPi1pgx",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "http://127.0.0.1:3010/guides?_rsc=bbpkXOwmDzPi1pgx",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "http://127.0.0.1:3010/contact?_rsc=bbpkXOwmDzPi1pgx",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "http://127.0.0.1:3010/compare?_rsc=bbpkXOwmDzPi1pgx",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "http://127.0.0.1:3010/?_rsc=bbpkXOwmDzPi1pgx",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "http://127.0.0.1:3010/running/shoes/daily-trainers?_rsc=bbpkXOwmDzPi1pgx",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "http://127.0.0.1:3010/running/shoes/race?_rsc=bbpkXOwmDzPi1pgx",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "http://127.0.0.1:3010/running/shoes?_rsc=bbpkXOwmDzPi1pgx",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "http://127.0.0.1:3010/best/running-shoes?_rsc=bbpkXOwmDzPi1pgx",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "http://127.0.0.1:3010/tools/running-shoe-finder?_rsc=bbpkXOwmDzPi1pgx",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "http://127.0.0.1:3010/racket?_rsc=bbpkXOwmDzPi1pgx",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "http://127.0.0.1:3010/running?_rsc=bbpkXOwmDzPi1pgx",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "http://127.0.0.1:3010/fitness?_rsc=bbpkXOwmDzPi1pgx",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "http://127.0.0.1:3010/watersports?_rsc=bbpkXOwmDzPi1pgx",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "http://127.0.0.1:3010/indoor?_rsc=bbpkXOwmDzPi1pgx",
+          "failure": "net::ERR_ABORTED"
+        }
+      ],
+      "responses404": []
+    },
+    {
+      "path": "/brands/nike",
+      "pageType": "Brand Hub",
+      "viewport": "desktop-1440",
+      "error": "Error: page.goto: net::ERR_CONNECTION_REFUSED at http://127.0.0.1:3010/brands/nike\nCall log:\n  - navigating to \"http://127.0.0.1:3010/brands/nike\", waiting until \"networkidle\"\n",
+      "status": 0
+    },
+    {
+      "path": "/compare",
+      "pageType": "Compare",
+      "viewport": "desktop-1440",
+      "error": "Error: page.goto: net::ERR_CONNECTION_REFUSED at http://127.0.0.1:3010/compare\nCall log:\n  - navigating to \"http://127.0.0.1:3010/compare\", waiting until \"networkidle\"\n",
+      "status": 0
+    },
+    {
+      "path": "/tools/running-shoe-finder",
+      "pageType": "Finder",
+      "viewport": "desktop-1440",
+      "error": "Error: page.goto: net::ERR_CONNECTION_REFUSED at http://127.0.0.1:3010/tools/running-shoe-finder\nCall log:\n  - navigating to \"http://127.0.0.1:3010/tools/running-shoe-finder\", waiting until \"networkidle\"\n",
+      "status": 0
+    },
+    {
+      "path": "/tools/running-pace-calculator",
+      "pageType": "Calculator",
+      "viewport": "desktop-1440",
+      "error": "Error: page.goto: net::ERR_CONNECTION_REFUSED at http://127.0.0.1:3010/tools/running-pace-calculator\nCall log:\n  - navigating to \"http://127.0.0.1:3010/tools/running-pace-calculator\", waiting until \"networkidle\"\n",
+      "status": 0
+    },
+    {
+      "path": "/search",
+      "pageType": "Search",
+      "viewport": "desktop-1440",
+      "error": "Error: page.goto: net::ERR_CONNECTION_REFUSED at http://127.0.0.1:3010/search\nCall log:\n  - navigating to \"http://127.0.0.1:3010/search\", waiting until \"networkidle\"\n",
+      "status": 0
+    }
+  ],
+  "responsive": [
+    {
+      "path": "/",
+      "pageType": "Homepage",
+      "viewport": "mobile-390",
+      "error": "Error: page.goto: net::ERR_CONNECTION_REFUSED at http://127.0.0.1:3010/\nCall log:\n  - navigating to \"http://127.0.0.1:3010/\", waiting until \"networkidle\"\n",
+      "status": 0
+    },
+    {
+      "path": "/",
+      "pageType": "Homepage",
+      "viewport": "tablet-768",
+      "error": "Error: page.goto: net::ERR_CONNECTION_REFUSED at http://127.0.0.1:3010/\nCall log:\n  - navigating to \"http://127.0.0.1:3010/\", waiting until \"networkidle\"\n",
+      "status": 0
+    },
+    {
+      "path": "/running/shoes",
+      "pageType": "Running Shoes",
+      "viewport": "mobile-390",
+      "error": "Error: page.goto: net::ERR_CONNECTION_REFUSED at http://127.0.0.1:3010/running/shoes\nCall log:\n  - navigating to \"http://127.0.0.1:3010/running/shoes\", waiting until \"networkidle\"\n",
+      "status": 0
+    },
+    {
+      "path": "/running/shoes",
+      "pageType": "Running Shoes",
+      "viewport": "tablet-768",
+      "url": "http://127.0.0.1:3010/running/shoes",
+      "status": 200,
+      "navMs": 10085,
+      "measured": {
+        "fcp": 8048,
+        "lcp": null,
+        "cls": 0,
+        "ttfb": 7834.5,
+        "domContentLoaded": 8026.699999809265,
+        "loadEvent": 9417.199999809265,
+        "jsBytes": 159875,
+        "cssBytes": 43126,
+        "imgBytes": 55171,
+        "fontBytes": 69808,
+        "otherBytes": 17612,
+        "totalBytes": 345592,
+        "resourceCount": 55,
+        "topJs": [
+          {
+            "url": "http://127.0.0.1:3010/_next/static/chunks/4bd1b696-f785427dddbba9fb.js",
+            "bytes": 54665
+          },
+          {
+            "url": "http://127.0.0.1:3010/_next/static/chunks/1255-fc6c00ab2f765339.js",
+            "bytes": 46830
+          },
+          {
+            "url": "http://127.0.0.1:3010/_next/static/chunks/app/layout-f7b3501db7603b92.js",
+            "bytes": 22260
+          },
+          {
+            "url": "http://127.0.0.1:3010/_next/static/chunks/5965-8e5e258bcd923f2e.js",
+            "bytes": 8158
+          },
+          {
+            "url": "http://127.0.0.1:3010/_next/static/chunks/4198-9d00e7477b9d66e0.js",
+            "bytes": 6053
+          },
+          {
+            "url": "http://127.0.0.1:3010/_next/static/chunks/9222-37d04080e9b76a85.js",
+            "bytes": 6013
+          },
+          {
+            "url": "http://127.0.0.1:3010/_next/static/chunks/app/%5Bsport%5D/%5Bsegment%5D/page-9d1bf11229011f13.js",
+            "bytes": 5148
+          },
+          {
+            "url": "http://127.0.0.1:3010/_next/static/chunks/5527-b4fee38b5c85fd7f.js",
+            "bytes": 4174
+          },
+          {
+            "url": "http://127.0.0.1:3010/_next/static/chunks/2619-3c9e02e22d10480a.js",
+            "bytes": 3677
+          },
+          {
+            "url": "http://127.0.0.1:3010/_next/static/chunks/webpack-45386ad46d0b74d8.js",
+            "bytes": 2037
+          },
+          {
+            "url": "http://127.0.0.1:3010/_next/static/chunks/main-app-085fe65bfcf86fb6.js",
+            "bytes": 860
+          }
+        ],
+        "topImages": [
+          {
+            "url": "http://127.0.0.1:3010/_next/image?url=%2Fimages%2Frunning%2Fcategory%2Fuse-daily.jpg&w=320&q=70",
+            "bytes": 8888
+          },
+          {
+            "url": "http://127.0.0.1:3010/_next/image?url=%2Fimages%2Frunning%2Fcategory%2Fuse-trail.jpg&w=320&q=70",
+            "bytes": 6566
+          },
+          {
+            "url": "http://127.0.0.1:3010/_next/image?url=%2Fimages%2Frunning%2Fcategory%2Fuse-race.jpg&w=320&q=70",
+            "bytes": 6430
+          },
+          {
+            "url": "http://127.0.0.1:3010/_next/image?url=%2Fimages%2Frunning%2Fcategory%2Fuse-tempo.jpg&w=320&q=70",
+            "bytes": 5732
+          },
+          {
+            "url": "http://127.0.0.1:3010/_next/image?url=%2Fimages%2Frunning%2Fproducts%2Fghost-18-hero.png&w=320&q=70",
+            "bytes": 4148
+          },
+          {
+            "url": "http://127.0.0.1:3010/_next/image?url=%2Fimages%2Frunning%2Fcategory%2Fuse-long.jpg&w=320&q=70",
+            "bytes": 3989
+          },
+          {
+            "url": "http://127.0.0.1:3010/_next/image?url=%2Fimages%2Frunning%2Fproducts%2Fadios-pro-4-hero.jpg&w=256&q=70",
+            "bytes": 2806
+          },
+          {
+            "url": "http://127.0.0.1:3010/_next/image?url=%2Fimages%2Frunning%2Fproducts%2Fghost-18-hero.png&w=200&q=70",
+            "bytes": 2745
+          },
+          {
+            "url": "http://127.0.0.1:3010/_next/image?url=%2Fimages%2Frunning%2Fcategory%2Fuse-recovery.jpg&w=320&q=70",
+            "bytes": 2697
+          },
+          {
+            "url": "http://127.0.0.1:3010/_next/image?url=%2Fimages%2Frunning%2Fproducts%2Fpegasus-42-hero.jpg&w=320&q=70",
+            "bytes": 2281
+          },
+          {
+            "url": "http://127.0.0.1:3010/_next/image?url=%2Fimages%2Frunning%2Fproducts%2Fnovablast-6-hero.jpg&w=256&q=70",
+            "bytes": 2166
+          },
+          {
+            "url": "http://127.0.0.1:3010/_next/image?url=%2Fimages%2Frunning%2Fproducts%2Fclifton-10-hero.jpg&w=200&q=70",
+            "bytes": 1888
+          }
+        ],
+        "h1s": [
+          "Running Shoes"
+        ],
+        "headingCount": 40,
+        "headingOutline": [
+          {
+            "tag": "h1",
+            "text": "Running Shoes"
+          },
+          {
+            "tag": "h2",
+            "text": "Shop by fit / sizing"
+          },
+          {
+            "tag": "h2",
+            "text": "BEST RUNNING SHOES 2026"
+          },
+          {
+            "tag": "h2",
+            "text": "FIND YOUR PERFECTRUNNING SHOE"
+          },
+          {
+            "tag": "h2",
+            "text": "SHOP BY HOW YOU RUN"
+          },
+          {
+            "tag": "h3",
+            "text": "Daily Training"
+          },
+          {
+            "tag": "h3",
+            "text": "Long Runs"
+          },
+          {
+            "tag": "h3",
+            "text": "Tempo & Intervals"
+          },
+          {
+            "tag": "h3",
+            "text": "Race Day"
+          },
+          {
+            "tag": "h3",
+            "text": "Recovery"
+          },
+          {
+            "tag": "h3",
+            "text": "Trail Running"
+          },
+          {
+            "tag": "h2",
+            "text": "ALL RUNNING SHOES"
+          },
+          {
+            "tag": "h3",
+            "text": "Endorphin Speed 5"
+          },
+          {
+            "tag": "h3",
+            "text": "SUPERBLAST 2"
+          },
+          {
+            "tag": "h3",
+            "text": "Novablast 6"
+          },
+          {
+            "tag": "h3",
+            "text": "Adizero Adios Pro 4"
+          },
+          {
+            "tag": "h3",
+            "text": "Endorphin Speed 4"
+          },
+          {
+            "tag": "h3",
+            "text": "Adizero Boston 12"
+          },
+          {
+            "tag": "h3",
+            "text": "Adizero Evo SL"
+          },
+          {
+            "tag": "h3",
+            "text": "Vaporfly 4"
+          },
+          {
+            "tag": "h3",
+            "text": "Novablast 5"
+          },
+          {
+            "tag": "h3",
+            "text": "Arahi 7"
+          },
+          {
+            "tag": "h3",
+            "text": "Cascadia 18"
+          },
+          {
+            "tag": "h3",
+            "text": "Clifton 10"
+          },
+          {
+            "tag": "h3",
+            "text": "FuelCell SuperComp Trainer v3"
+          },
+          {
+            "tag": "h3",
+            "text": "Glycerin GTS 22"
+          },
+          {
+            "tag": "h3",
+            "text": "METASPEED Sky Paris"
+          },
+          {
+            "tag": "h3",
+            "text": "Adizero Boston 13"
+          },
+          {
+            "tag": "h3",
+            "text": "Clifton 9"
+          },
+          {
+            "tag": "h3",
+            "text": "Endorphin Pro 4"
+          },
+          {
+            "tag": "h3",
+            "text": "Fresh Foam X 860 v14"
+          },
+          {
+            "tag": "h3",
+            "text": "GEL-Kayano 32"
+          },
+          {
+            "tag": "h3",
+            "text": "Gel-Trabuco 13"
+          },
+          {
+            "tag": "h3",
+            "text": "Guide 18"
+          },
+          {
+            "tag": "h3",
+            "text": "Speedgoat 6"
+          },
+          {
+            "tag": "h3",
+            "text": "Alphafly 3"
+          },
+          {
+            "tag": "h2",
+            "text": "How to Choose Running Shoes"
+          },
+          {
+            "tag": "h2",
+            "text": "FEATURED COMPARISONS"
+          },
+          {
+            "tag": "h2",
+            "text": "RUNNING SHOE TOOLS"
+          },
+          {
+            "tag": "h2",
+            "text": "TOP RUNNING SHOE BRANDS"
+          }
+        ],
+        "landmarks": {
+          "main": 1,
+          "nav": 5,
+          "header": 1,
+          "footer": 0,
+          "complementary": 3
+        },
+        "imageCount": 57,
+        "missingAlt": 0,
+        "emptyAltDecorativeOk": 7,
+        "imgsWithoutExplicitWH": 45,
+        "docOverflowX": false,
+        "genderControls": [
+          "Men's running shoesFind models available in men's sizing.Shop men's →",
+          "Women's running shoesFind models available in women's sizing.Shop women's →",
+          "Men's79",
+          "Women's79"
+        ],
+        "inputCount": 124,
+        "unlabeledInputs": 0,
+        "tables": 0,
+        "dialogs": 1,
+        "priorityImgs": 0,
+        "thirdPartyHosts": [],
+        "title": "Running Shoes: Compare Trainers, Race & Trail Shoes · Kitletics"
+      },
+      "axe": {
+        "violations": [],
+        "passes": 30,
+        "incomplete": 2,
+        "violationCount": 0,
+        "seriousOrCritical": 0
+      },
+      "consoleErrors": [],
+      "pageErrors": [],
+      "failedRequests": [
+        {
+          "url": "http://127.0.0.1:3010/guides?_rsc=8lrMyj1jKI6jVCv5",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "http://127.0.0.1:3010/about?_rsc=8lrMyj1jKI6jVCv5",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "http://127.0.0.1:3010/contact?_rsc=8lrMyj1jKI6jVCv5",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "http://127.0.0.1:3010/compare?_rsc=8lrMyj1jKI6jVCv5",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "http://127.0.0.1:3010/?_rsc=8lrMyj1jKI6jVCv5",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "http://127.0.0.1:3010/running?_rsc=8lrMyj1jKI6jVCv5",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "http://127.0.0.1:3010/gear?_rsc=8lrMyj1jKI6jVCv5",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "http://127.0.0.1:3010/tools?_rsc=8lrMyj1jKI6jVCv5",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "http://127.0.0.1:3010/brands?_rsc=8lrMyj1jKI6jVCv5",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "http://127.0.0.1:3010/tools/running-shoe-finder?_rsc=8lrMyj1jKI6jVCv5",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "http://127.0.0.1:3010/products/brooks-ghost-18?_rsc=8lrMyj1jKI6jVCv5",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "http://127.0.0.1:3010/products/nike-pegasus-42?_rsc=8lrMyj1jKI6jVCv5",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "http://127.0.0.1:3010/products/asics-novablast-6?_rsc=8lrMyj1jKI6jVCv5",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "http://127.0.0.1:3010/best/running-shoes?_rsc=8lrMyj1jKI6jVCv5",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "http://127.0.0.1:3010/products/hoka-clifton-10?_rsc=8lrMyj1jKI6jVCv5",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "http://127.0.0.1:3010/fitness/training-shoes?_rsc=8lrMyj1jKI6jVCv5",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "http://127.0.0.1:3010/best?domain=shoes&_rsc=8lrMyj1jKI6jVCv5",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "http://127.0.0.1:3010/reviews?domain=shoes&_rsc=8lrMyj1jKI6jVCv5",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "http://127.0.0.1:3010/running/shoes/daily-trainers?_rsc=8lrMyj1jKI6jVCv5",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "http://127.0.0.1:3010/running/shoes/race?_rsc=8lrMyj1jKI6jVCv5",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "http://127.0.0.1:3010/running/shoes/stability?_rsc=8lrMyj1jKI6jVCv5",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "http://127.0.0.1:3010/running/shoes/trail?_rsc=8lrMyj1jKI6jVCv5",
+          "failure": "net::ERR_ABORTED"
+        }
+      ],
+      "responses404": []
+    },
+    {
+      "path": "/products/nike-vomero-18",
+      "pageType": "Product Detail",
+      "viewport": "mobile-390",
+      "url": "http://127.0.0.1:3010/products/nike-vomero-18",
+      "status": 200,
+      "navMs": 1212,
+      "measured": {
+        "fcp": 632,
+        "lcp": null,
+        "cls": 0,
+        "ttfb": 528.5999999046326,
+        "domContentLoaded": 625.9000000953674,
+        "loadEvent": 651.5,
+        "jsBytes": 151903,
+        "cssBytes": 43126,
+        "imgBytes": 0,
+        "fontBytes": 69808,
+        "otherBytes": 11169,
+        "totalBytes": 276006,
+        "resourceCount": 24,
+        "topJs": [
+          {
+            "url": "http://127.0.0.1:3010/_next/static/chunks/4bd1b696-f785427dddbba9fb.js",
+            "bytes": 54665
+          },
+          {
+            "url": "http://127.0.0.1:3010/_next/static/chunks/1255-fc6c00ab2f765339.js",
+            "bytes": 46830
+          },
+          {
+            "url": "http://127.0.0.1:3010/_next/static/chunks/app/layout-f7b3501db7603b92.js",
+            "bytes": 22260
+          },
+          {
+            "url": "http://127.0.0.1:3010/_next/static/chunks/4198-9d00e7477b9d66e0.js",
+            "bytes": 6053
+          },
+          {
+            "url": "http://127.0.0.1:3010/_next/static/chunks/9222-37d04080e9b76a85.js",
+            "bytes": 6013
+          },
+          {
+            "url": "http://127.0.0.1:3010/_next/static/chunks/app/products/%5Bslug%5D/page-ceb4434648a2f745.js",
+            "bytes": 5334
+          },
+          {
+            "url": "http://127.0.0.1:3010/_next/static/chunks/5527-b4fee38b5c85fd7f.js",
+            "bytes": 4174
+          },
+          {
+            "url": "http://127.0.0.1:3010/_next/static/chunks/2619-3c9e02e22d10480a.js",
+            "bytes": 3677
+          },
+          {
+            "url": "http://127.0.0.1:3010/_next/static/chunks/webpack-45386ad46d0b74d8.js",
+            "bytes": 2037
+          },
+          {
+            "url": "http://127.0.0.1:3010/_next/static/chunks/main-app-085fe65bfcf86fb6.js",
+            "bytes": 860
+          }
+        ],
+        "topImages": [],
+        "h1s": [
+          "Vomero 18"
+        ],
+        "headingCount": 43,
+        "headingOutline": [
+          {
+            "tag": "h1",
+            "text": "Vomero 18"
+          },
+          {
+            "tag": "h2",
+            "text": "Overview"
+          },
+          {
+            "tag": "h3",
+            "text": "At a glance"
+          },
+          {
+            "tag": "h2",
+            "text": "Pros & cons"
+          },
+          {
+            "tag": "h2",
+            "text": "Key technologies"
+          },
+          {
+            "tag": "h2",
+            "text": "Kitletics Review"
+          },
+          {
+            "tag": "h3",
+            "text": "Pros"
+          },
+          {
+            "tag": "h3",
+            "text": "Cons / Trade-offs"
+          },
+          {
+            "tag": "h3",
+            "text": "Best for"
+          },
+          {
+            "tag": "h3",
+            "text": "Not ideal for"
+          },
+          {
+            "tag": "h3",
+            "text": "Who should buy the Vomero 18?"
+          },
+          {
+            "tag": "h3",
+            "text": "Who should look elsewhere?"
+          },
+          {
+            "tag": "h3",
+            "text": "Performance breakdown"
+          },
+          {
+            "tag": "h3",
+            "text": "How it performs"
+          },
+          {
+            "tag": "h4",
+            "text": "Fit & Comfort"
+          },
+          {
+            "tag": "h4",
+            "text": "Ride"
+          },
+          {
+            "tag": "h4",
+            "text": "Stability"
+          },
+          {
+            "tag": "h4",
+            "text": "Durability"
+          },
+          {
+            "tag": "h4",
+            "text": "Value"
+          },
+          {
+            "tag": "h3",
+            "text": "Key specs that matter"
+          },
+          {
+            "tag": "h3",
+            "text": "Should you buy it?"
+          },
+          {
+            "tag": "h3",
+            "text": "Alternatives to consider"
+          },
+          {
+            "tag": "h3",
+            "text": "Featured in"
+          },
+          {
+            "tag": "h3",
+            "text": "How we assessed it"
+          },
+          {
+            "tag": "h2",
+            "text": "Top alternatives"
+          },
+          {
+            "tag": "h2",
+            "text": "Specifications"
+          },
+          {
+            "tag": "h3",
+            "text": "Geometry"
+          },
+          {
+            "tag": "h3",
+            "text": "Ride"
+          },
+          {
+            "tag": "h3",
+            "text": "Construction"
+          },
+          {
+            "tag": "h3",
+            "text": "Use"
+          },
+          {
+            "tag": "h3",
+            "text": "Fit"
+          },
+          {
+            "tag": "h3",
+            "text": "Other"
+          },
+          {
+            "tag": "h2",
+            "text": "Where to buy"
+          },
+          {
+            "tag": "h2",
+            "text": "Sources & evidence"
+          },
+          {
+            "tag": "h3",
+            "text": "Best Daily Trainers"
+          },
+          {
+            "tag": "h3",
+            "text": "Best Max Cushion Running Shoes"
+          },
+          {
+            "tag": "h3",
+            "text": "Running Shoe Finder"
+          },
+          {
+            "tag": "h3",
+            "text": "Shoe Rotation Planner"
+          },
+          {
+            "tag": "h3",
+            "text": "Running Pace Calculator"
+          },
+          {
+            "tag": "h3",
+            "text": "Independent & Transparent"
+          }
+        ],
+        "landmarks": {
+          "main": 1,
+          "nav": 3,
+          "header": 1,
+          "footer": 1,
+          "complementary": 2
+        },
+        "imageCount": 9,
+        "missingAlt": 0,
+        "emptyAltDecorativeOk": 3,
+        "imgsWithoutExplicitWH": 9,
+        "docOverflowX": false,
+        "genderControls": [
+          "Men's",
+          "Women's"
+        ],
+        "inputCount": 1,
+        "unlabeledInputs": 0,
+        "tables": 7,
+        "dialogs": 1,
+        "priorityImgs": 0,
+        "thirdPartyHosts": [],
+        "title": "Nike Vomero 18: Specs, Performance & Best Uses · Kitletics"
+      },
+      "axe": {
+        "violations": [],
+        "passes": 30,
+        "incomplete": 1,
+        "violationCount": 0,
+        "seriousOrCritical": 0
+      },
+      "consoleErrors": [],
+      "pageErrors": [],
+      "failedRequests": [
+        {
+          "url": "http://127.0.0.1:3010/compare?_rsc=mBaVErF4l4YJ0SxX",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "http://127.0.0.1:3010/about?_rsc=mBaVErF4l4YJ0SxX",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "http://127.0.0.1:3010/?_rsc=mBaVErF4l4YJ0SxX",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "http://127.0.0.1:3010/running?_rsc=mBaVErF4l4YJ0SxX",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "http://127.0.0.1:3010/gear?_rsc=mBaVErF4l4YJ0SxX",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "http://127.0.0.1:3010/brands?_rsc=mBaVErF4l4YJ0SxX",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "http://127.0.0.1:3010/tools?_rsc=mBaVErF4l4YJ0SxX",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "http://127.0.0.1:3010/running/shoes?_rsc=mBaVErF4l4YJ0SxX",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "http://127.0.0.1:3010/brands/nike?_rsc=mBaVErF4l4YJ0SxX",
+          "failure": "net::ERR_ABORTED"
+        }
+      ],
+      "responses404": []
+    },
+    {
+      "path": "/products/nike-vomero-18",
+      "pageType": "Product Detail",
+      "viewport": "tablet-768",
+      "error": "Error: page.goto: net::ERR_CONNECTION_REFUSED at http://127.0.0.1:3010/products/nike-vomero-18\nCall log:\n  - navigating to \"http://127.0.0.1:3010/products/nike-vomero-18\", waiting until \"networkidle\"\n",
+      "status": 0
+    },
+    {
+      "path": "/reviews/nike-vomero-18",
+      "pageType": "Review",
+      "viewport": "mobile-390",
+      "error": "Error: page.goto: net::ERR_CONNECTION_REFUSED at http://127.0.0.1:3010/reviews/nike-vomero-18\nCall log:\n  - navigating to \"http://127.0.0.1:3010/reviews/nike-vomero-18\", waiting until \"networkidle\"\n",
+      "status": 0
+    },
+    {
+      "path": "/reviews/nike-vomero-18",
+      "pageType": "Review",
+      "viewport": "tablet-768",
+      "error": "Error: page.goto: net::ERR_CONNECTION_REFUSED at http://127.0.0.1:3010/reviews/nike-vomero-18\nCall log:\n  - navigating to \"http://127.0.0.1:3010/reviews/nike-vomero-18\", waiting until \"networkidle\"\n",
+      "status": 0
+    },
+    {
+      "path": "/compare",
+      "pageType": "Compare",
+      "viewport": "mobile-390",
+      "error": "Error: page.goto: net::ERR_CONNECTION_REFUSED at http://127.0.0.1:3010/compare\nCall log:\n  - navigating to \"http://127.0.0.1:3010/compare\", waiting until \"networkidle\"\n",
+      "status": 0
+    },
+    {
+      "path": "/compare",
+      "pageType": "Compare",
+      "viewport": "tablet-768",
+      "error": "Error: page.goto: net::ERR_CONNECTION_REFUSED at http://127.0.0.1:3010/compare\nCall log:\n  - navigating to \"http://127.0.0.1:3010/compare\", waiting until \"networkidle\"\n",
+      "status": 0
+    },
+    {
+      "path": "/search",
+      "pageType": "Search",
+      "viewport": "mobile-390",
+      "error": "Error: page.goto: net::ERR_CONNECTION_REFUSED at http://127.0.0.1:3010/search\nCall log:\n  - navigating to \"http://127.0.0.1:3010/search\", waiting until \"networkidle\"\n",
+      "status": 0
+    },
+    {
+      "path": "/search",
+      "pageType": "Search",
+      "viewport": "tablet-768",
+      "error": "Error: page.goto: net::ERR_CONNECTION_REFUSED at http://127.0.0.1:3010/search\nCall log:\n  - navigating to \"http://127.0.0.1:3010/search\", waiting until \"networkidle\"\n",
+      "status": 0
+    }
+  ],
+  "functional": [
+    {
+      "name": "search-page-loads",
+      "ok": false,
+      "error": "page.goto: net::ERR_CONNECTION_REFUSED at http://127.0.0.1:3010/search?q=vomero\nCall log:\n  - navigating to \"http://127.0.0.1:3010/search?q=vomero\", waiting until \"domcontentloaded\"\n"
+    },
+    {
+      "name": "running-shoes-filter-query",
+      "ok": false,
+      "error": "page.goto: net::ERR_CONNECTION_REFUSED at http://127.0.0.1:3010/running/shoes?gender=men\nCall log:\n  - navigating to \"http://127.0.0.1:3010/running/shoes?gender=men\", waiting until \"domcontentloaded\"\n"
+    },
+    {
+      "name": "running-shoes-sort",
+      "ok": false,
+      "error": "page.goto: net::ERR_CONNECTION_REFUSED at http://127.0.0.1:3010/running/shoes?sort=price-asc\nCall log:\n  - navigating to \"http://127.0.0.1:3010/running/shoes?sort=price-asc\", waiting until \"domcontentloaded\"\n"
+    },
+    {
+      "name": "compare-hub",
+      "ok": false,
+      "error": "page.goto: net::ERR_CONNECTION_REFUSED at http://127.0.0.1:3010/compare\nCall log:\n  - navigating to \"http://127.0.0.1:3010/compare\", waiting until \"domcontentloaded\"\n"
+    },
+    {
+      "name": "finder-start",
+      "ok": false,
+      "error": "page.goto: net::ERR_CONNECTION_REFUSED at http://127.0.0.1:3010/tools/running-shoe-finder\nCall log:\n  - navigating to \"http://127.0.0.1:3010/tools/running-shoe-finder\", waiting until \"domcontentloaded\"\n"
+    },
+    {
+      "name": "product-offers-section",
+      "ok": false,
+      "error": "page.goto: net::ERR_CONNECTION_REFUSED at http://127.0.0.1:3010/products/nike-vomero-18\nCall log:\n  - navigating to \"http://127.0.0.1:3010/products/nike-vomero-18\", waiting until \"domcontentloaded\"\n"
+    },
+    {
+      "name": "internal-nav-home-to-running",
+      "ok": false,
+      "error": "page.goto: net::ERR_CONNECTION_REFUSED at http://127.0.0.1:3010/\nCall log:\n  - navigating to \"http://127.0.0.1:3010/\", waiting until \"domcontentloaded\"\n"
+    },
+    {
+      "name": "men-women-on-pdp",
+      "ok": false,
+      "error": "page.goto: net::ERR_CONNECTION_REFUSED at http://127.0.0.1:3010/products/nike-vomero-18\nCall log:\n  - navigating to \"http://127.0.0.1:3010/products/nike-vomero-18\", waiting until \"domcontentloaded\"\n"
+    }
+  ]
+}

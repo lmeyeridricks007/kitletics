@@ -1,0 +1,2598 @@
+{
+  "products": {
+    "runningTotal": 367,
+    "runningIndexable": 248,
+    "runningLrDomain": 358,
+    "runningLrExcluded": 110,
+    "dispositionByQuality": {
+      "LAUNCH_READY->INDEXABLE": 248,
+      "NEEDS_MINOR_WORK->PUBLIC_NOINDEX": 9,
+      "LAUNCH_READY->PUBLIC_NOINDEX": 110
+    },
+    "excludedRunning": [
+      {
+        "slug": "oakley-radar-ev-path",
+        "disposition": "PUBLIC_NOINDEX",
+        "quality": "LAUNCH_READY",
+        "reasons": "soft_gated_category:sunglasses",
+        "softGated": true,
+        "sports": "sport-running,sport-cycling",
+        "categoryId": "cat-sunglasses"
+      },
+      {
+        "slug": "oakley-sutro-lite",
+        "disposition": "PUBLIC_NOINDEX",
+        "quality": "LAUNCH_READY",
+        "reasons": "soft_gated_category:sunglasses",
+        "softGated": true,
+        "sports": "sport-running,sport-cycling",
+        "categoryId": "cat-sunglasses"
+      },
+      {
+        "slug": "oakley-kato",
+        "disposition": "PUBLIC_NOINDEX",
+        "quality": "LAUNCH_READY",
+        "reasons": "soft_gated_category:sunglasses",
+        "softGated": true,
+        "sports": "sport-running,sport-cycling",
+        "categoryId": "cat-sunglasses"
+      },
+      {
+        "slug": "oakley-flak-2-0-xl",
+        "disposition": "PUBLIC_NOINDEX",
+        "quality": "LAUNCH_READY",
+        "reasons": "soft_gated_category:sunglasses",
+        "softGated": true,
+        "sports": "sport-running,sport-cycling",
+        "categoryId": "cat-sunglasses"
+      },
+      {
+        "slug": "smith-shift-mag",
+        "disposition": "PUBLIC_NOINDEX",
+        "quality": "LAUNCH_READY",
+        "reasons": "soft_gated_category:sunglasses",
+        "softGated": true,
+        "sports": "sport-running,sport-cycling",
+        "categoryId": "cat-sunglasses"
+      },
+      {
+        "slug": "smith-attack-mag",
+        "disposition": "PUBLIC_NOINDEX",
+        "quality": "LAUNCH_READY",
+        "reasons": "soft_gated_category:sunglasses",
+        "softGated": true,
+        "sports": "sport-running,sport-cycling",
+        "categoryId": "cat-sunglasses"
+      },
+      {
+        "slug": "julbo-ultimate",
+        "disposition": "PUBLIC_NOINDEX",
+        "quality": "LAUNCH_READY",
+        "reasons": "soft_gated_category:sunglasses",
+        "softGated": true,
+        "sports": "sport-running",
+        "categoryId": "cat-sunglasses"
+      },
+      {
+        "slug": "julbo-rush",
+        "disposition": "PUBLIC_NOINDEX",
+        "quality": "LAUNCH_READY",
+        "reasons": "soft_gated_category:sunglasses",
+        "softGated": true,
+        "sports": "sport-running",
+        "categoryId": "cat-sunglasses"
+      },
+      {
+        "slug": "rudy-project-cutline",
+        "disposition": "PUBLIC_NOINDEX",
+        "quality": "LAUNCH_READY",
+        "reasons": "soft_gated_category:sunglasses",
+        "softGated": true,
+        "sports": "sport-running,sport-cycling",
+        "categoryId": "cat-sunglasses"
+      },
+      {
+        "slug": "100-percent-s3",
+        "disposition": "PUBLIC_NOINDEX",
+        "quality": "LAUNCH_READY",
+        "reasons": "soft_gated_category:sunglasses",
+        "softGated": true,
+        "sports": "sport-running,sport-cycling",
+        "categoryId": "cat-sunglasses"
+      },
+      {
+        "slug": "roka-phantom-air",
+        "disposition": "PUBLIC_NOINDEX",
+        "quality": "LAUNCH_READY",
+        "reasons": "soft_gated_category:sunglasses",
+        "softGated": true,
+        "sports": "sport-running,sport-cycling",
+        "categoryId": "cat-sunglasses"
+      },
+      {
+        "slug": "tifosi-rail",
+        "disposition": "PUBLIC_NOINDEX",
+        "quality": "LAUNCH_READY",
+        "reasons": "soft_gated_category:sunglasses",
+        "softGated": true,
+        "sports": "sport-running,sport-cycling",
+        "categoryId": "cat-sunglasses"
+      },
+      {
+        "slug": "tifosi-vogel",
+        "disposition": "PUBLIC_NOINDEX",
+        "quality": "LAUNCH_READY",
+        "reasons": "soft_gated_category:sunglasses",
+        "softGated": true,
+        "sports": "sport-running",
+        "categoryId": "cat-sunglasses"
+      },
+      {
+        "slug": "goodr-circle-gs",
+        "disposition": "PUBLIC_NOINDEX",
+        "quality": "LAUNCH_READY",
+        "reasons": "soft_gated_category:sunglasses",
+        "softGated": true,
+        "sports": "sport-running",
+        "categoryId": "cat-sunglasses"
+      },
+      {
+        "slug": "maurten-gel-100",
+        "disposition": "PUBLIC_NOINDEX",
+        "quality": "LAUNCH_READY",
+        "reasons": "soft_gated_category:nutrition-fuel",
+        "softGated": true,
+        "sports": "sport-running,sport-cycling",
+        "categoryId": "cat-nutrition"
+      },
+      {
+        "slug": "maurten-gel-100-caf-100",
+        "disposition": "PUBLIC_NOINDEX",
+        "quality": "LAUNCH_READY",
+        "reasons": "soft_gated_category:nutrition-fuel",
+        "softGated": true,
+        "sports": "sport-running,sport-cycling",
+        "categoryId": "cat-nutrition"
+      },
+      {
+        "slug": "maurten-gel-160",
+        "disposition": "PUBLIC_NOINDEX",
+        "quality": "LAUNCH_READY",
+        "reasons": "soft_gated_category:nutrition-fuel",
+        "softGated": true,
+        "sports": "sport-running,sport-cycling",
+        "categoryId": "cat-nutrition"
+      },
+      {
+        "slug": "sis-go-isotonic-gel",
+        "disposition": "PUBLIC_NOINDEX",
+        "quality": "LAUNCH_READY",
+        "reasons": "soft_gated_category:nutrition-fuel",
+        "softGated": true,
+        "sports": "sport-running,sport-cycling",
+        "categoryId": "cat-nutrition"
+      },
+      {
+        "slug": "sis-beta-fuel-gel",
+        "disposition": "PUBLIC_NOINDEX",
+        "quality": "LAUNCH_READY",
+        "reasons": "soft_gated_category:nutrition-fuel",
+        "softGated": true,
+        "sports": "sport-running,sport-cycling",
+        "categoryId": "cat-nutrition"
+      },
+      {
+        "slug": "gu-energy-gel",
+        "disposition": "PUBLIC_NOINDEX",
+        "quality": "LAUNCH_READY",
+        "reasons": "soft_gated_category:nutrition-fuel",
+        "softGated": true,
+        "sports": "sport-running,sport-cycling",
+        "categoryId": "cat-nutrition"
+      },
+      {
+        "slug": "gu-roctane-gel",
+        "disposition": "PUBLIC_NOINDEX",
+        "quality": "LAUNCH_READY",
+        "reasons": "soft_gated_category:nutrition-fuel",
+        "softGated": true,
+        "sports": "sport-running,sport-cycling",
+        "categoryId": "cat-nutrition"
+      },
+      {
+        "slug": "precision-pf30-gel",
+        "disposition": "PUBLIC_NOINDEX",
+        "quality": "LAUNCH_READY",
+        "reasons": "soft_gated_category:nutrition-fuel",
+        "softGated": true,
+        "sports": "sport-running,sport-cycling",
+        "categoryId": "cat-nutrition"
+      },
+      {
+        "slug": "neversecond-c30-gel",
+        "disposition": "PUBLIC_NOINDEX",
+        "quality": "LAUNCH_READY",
+        "reasons": "soft_gated_category:nutrition-fuel",
+        "softGated": true,
+        "sports": "sport-running,sport-cycling",
+        "categoryId": "cat-nutrition"
+      },
+      {
+        "slug": "spring-energy-awesome-sauce",
+        "disposition": "PUBLIC_NOINDEX",
+        "quality": "LAUNCH_READY",
+        "reasons": "soft_gated_category:nutrition-fuel",
+        "softGated": true,
+        "sports": "sport-running",
+        "categoryId": "cat-nutrition"
+      },
+      {
+        "slug": "huma-gel-original",
+        "disposition": "PUBLIC_NOINDEX",
+        "quality": "LAUNCH_READY",
+        "reasons": "soft_gated_category:nutrition-fuel",
+        "softGated": true,
+        "sports": "sport-running,sport-cycling",
+        "categoryId": "cat-nutrition"
+      },
+      {
+        "slug": "honey-stinger-organic-energy-gel",
+        "disposition": "PUBLIC_NOINDEX",
+        "quality": "LAUNCH_READY",
+        "reasons": "soft_gated_category:nutrition-fuel",
+        "softGated": true,
+        "sports": "sport-running,sport-cycling",
+        "categoryId": "cat-nutrition"
+      },
+      {
+        "slug": "clif-bloks-energy-chews",
+        "disposition": "PUBLIC_NOINDEX",
+        "quality": "LAUNCH_READY",
+        "reasons": "soft_gated_category:nutrition-fuel",
+        "softGated": true,
+        "sports": "sport-running,sport-cycling",
+        "categoryId": "cat-nutrition"
+      },
+      {
+        "slug": "gu-energy-chews",
+        "disposition": "PUBLIC_NOINDEX",
+        "quality": "LAUNCH_READY",
+        "reasons": "soft_gated_category:nutrition-fuel",
+        "softGated": true,
+        "sports": "sport-running,sport-cycling",
+        "categoryId": "cat-nutrition"
+      },
+      {
+        "slug": "skratch-sport-energy-chews",
+        "disposition": "PUBLIC_NOINDEX",
+        "quality": "LAUNCH_READY",
+        "reasons": "soft_gated_category:nutrition-fuel",
+        "softGated": true,
+        "sports": "sport-running,sport-cycling",
+        "categoryId": "cat-nutrition"
+      },
+      {
+        "slug": "veloforte-energy-chews",
+        "disposition": "PUBLIC_NOINDEX",
+        "quality": "LAUNCH_READY",
+        "reasons": "soft_gated_category:nutrition-fuel",
+        "softGated": true,
+        "sports": "sport-running,sport-cycling",
+        "categoryId": "cat-nutrition"
+      },
+      {
+        "slug": "saltstick-fastchews",
+        "disposition": "PUBLIC_NOINDEX",
+        "quality": "LAUNCH_READY",
+        "reasons": "soft_gated_category:nutrition-fuel",
+        "softGated": true,
+        "sports": "sport-running,sport-cycling",
+        "categoryId": "cat-nutrition"
+      },
+      {
+        "slug": "clif-bar-original",
+        "disposition": "PUBLIC_NOINDEX",
+        "quality": "LAUNCH_READY",
+        "reasons": "soft_gated_category:nutrition-fuel",
+        "softGated": true,
+        "sports": "sport-running,sport-cycling",
+        "categoryId": "cat-nutrition"
+      },
+      {
+        "slug": "naak-ultra-energy-bar",
+        "disposition": "PUBLIC_NOINDEX",
+        "quality": "LAUNCH_READY",
+        "reasons": "soft_gated_category:nutrition-fuel",
+        "softGated": true,
+        "sports": "sport-running",
+        "categoryId": "cat-nutrition"
+      },
+      {
+        "slug": "powerbar-energize",
+        "disposition": "PUBLIC_NOINDEX",
+        "quality": "LAUNCH_READY",
+        "reasons": "soft_gated_category:nutrition-fuel",
+        "softGated": true,
+        "sports": "sport-running,sport-cycling",
+        "categoryId": "cat-nutrition"
+      },
+      {
+        "slug": "maurten-drink-mix-160",
+        "disposition": "PUBLIC_NOINDEX",
+        "quality": "LAUNCH_READY",
+        "reasons": "soft_gated_category:nutrition-fuel",
+        "softGated": true,
+        "sports": "sport-running,sport-cycling",
+        "categoryId": "cat-nutrition"
+      },
+      {
+        "slug": "maurten-drink-mix-320",
+        "disposition": "PUBLIC_NOINDEX",
+        "quality": "LAUNCH_READY",
+        "reasons": "soft_gated_category:nutrition-fuel",
+        "softGated": true,
+        "sports": "sport-running,sport-cycling",
+        "categoryId": "cat-nutrition"
+      },
+      {
+        "slug": "sis-beta-fuel-drink",
+        "disposition": "PUBLIC_NOINDEX",
+        "quality": "LAUNCH_READY",
+        "reasons": "soft_gated_category:nutrition-fuel",
+        "softGated": true,
+        "sports": "sport-running,sport-cycling",
+        "categoryId": "cat-nutrition"
+      },
+      {
+        "slug": "tailwind-endurance-fuel",
+        "disposition": "PUBLIC_NOINDEX",
+        "quality": "LAUNCH_READY",
+        "reasons": "soft_gated_category:nutrition-fuel",
+        "softGated": true,
+        "sports": "sport-running,sport-cycling",
+        "categoryId": "cat-nutrition"
+      },
+      {
+        "slug": "precision-pf30-drink-mix",
+        "disposition": "PUBLIC_NOINDEX",
+        "quality": "LAUNCH_READY",
+        "reasons": "soft_gated_category:nutrition-fuel",
+        "softGated": true,
+        "sports": "sport-running,sport-cycling",
+        "categoryId": "cat-nutrition"
+      },
+      {
+        "slug": "neversecond-c30-sports-drink",
+        "disposition": "PUBLIC_NOINDEX",
+        "quality": "LAUNCH_READY",
+        "reasons": "soft_gated_category:nutrition-fuel",
+        "softGated": true,
+        "sports": "sport-running,sport-cycling",
+        "categoryId": "cat-nutrition"
+      },
+      {
+        "slug": "styrkr-mix90",
+        "disposition": "PUBLIC_NOINDEX",
+        "quality": "LAUNCH_READY",
+        "reasons": "soft_gated_category:nutrition-fuel",
+        "softGated": true,
+        "sports": "sport-running,sport-cycling",
+        "categoryId": "cat-nutrition"
+      },
+      {
+        "slug": "skratch-sport-hydration-mix",
+        "disposition": "PUBLIC_NOINDEX",
+        "quality": "LAUNCH_READY",
+        "reasons": "soft_gated_category:nutrition-fuel",
+        "softGated": true,
+        "sports": "sport-running,sport-cycling",
+        "categoryId": "cat-nutrition"
+      },
+      {
+        "slug": "precision-ph1500",
+        "disposition": "PUBLIC_NOINDEX",
+        "quality": "LAUNCH_READY",
+        "reasons": "soft_gated_category:nutrition-fuel",
+        "softGated": true,
+        "sports": "sport-running,sport-cycling",
+        "categoryId": "cat-nutrition"
+      },
+      {
+        "slug": "nuun-sport",
+        "disposition": "PUBLIC_NOINDEX",
+        "quality": "LAUNCH_READY",
+        "reasons": "soft_gated_category:nutrition-fuel",
+        "softGated": true,
+        "sports": "sport-running,sport-cycling",
+        "categoryId": "cat-nutrition"
+      },
+      {
+        "slug": "high5-zero",
+        "disposition": "PUBLIC_NOINDEX",
+        "quality": "LAUNCH_READY",
+        "reasons": "soft_gated_category:nutrition-fuel",
+        "softGated": true,
+        "sports": "sport-running,sport-cycling",
+        "categoryId": "cat-nutrition"
+      },
+      {
+        "slug": "saltstick-caps",
+        "disposition": "PUBLIC_NOINDEX",
+        "quality": "LAUNCH_READY",
+        "reasons": "soft_gated_category:nutrition-fuel",
+        "softGated": true,
+        "sports": "sport-running,sport-cycling",
+        "categoryId": "cat-nutrition"
+      },
+      {
+        "slug": "high5-energy-gel",
+        "disposition": "PUBLIC_NOINDEX",
+        "quality": "LAUNCH_READY",
+        "reasons": "soft_gated_category:nutrition-fuel",
+        "softGated": true,
+        "sports": "sport-running,sport-cycling",
+        "categoryId": "cat-nutrition"
+      },
+      {
+        "slug": "226ers-high-energy-gel",
+        "disposition": "PUBLIC_NOINDEX",
+        "quality": "LAUNCH_READY",
+        "reasons": "soft_gated_category:nutrition-fuel",
+        "softGated": true,
+        "sports": "sport-running,sport-cycling",
+        "categoryId": "cat-nutrition"
+      },
+      {
+        "slug": "enervit-c2-1-carbo-gel",
+        "disposition": "PUBLIC_NOINDEX",
+        "quality": "LAUNCH_READY",
+        "reasons": "soft_gated_category:nutrition-fuel",
+        "softGated": true,
+        "sports": "sport-running,sport-cycling",
+        "categoryId": "cat-nutrition"
+      },
+      {
+        "slug": "styrkr-gel30",
+        "disposition": "PUBLIC_NOINDEX",
+        "quality": "LAUNCH_READY",
+        "reasons": "soft_gated_category:nutrition-fuel",
+        "softGated": true,
+        "sports": "sport-running,sport-cycling",
+        "categoryId": "cat-nutrition"
+      },
+      {
+        "slug": "naak-ultra-energy-drink-mix",
+        "disposition": "PUBLIC_NOINDEX",
+        "quality": "LAUNCH_READY",
+        "reasons": "soft_gated_category:nutrition-fuel",
+        "softGated": true,
+        "sports": "sport-running",
+        "categoryId": "cat-nutrition"
+      },
+      {
+        "slug": "veloforte-energy-bar",
+        "disposition": "PUBLIC_NOINDEX",
+        "quality": "LAUNCH_READY",
+        "reasons": "soft_gated_category:nutrition-fuel",
+        "softGated": true,
+        "sports": "sport-running,sport-cycling",
+        "categoryId": "cat-nutrition"
+      },
+      {
+        "slug": "tracksmith-session-short-men",
+        "disposition": "PUBLIC_NOINDEX",
+        "quality": "LAUNCH_READY",
+        "reasons": "soft_gated_category:running-clothing",
+        "softGated": true,
+        "sports": "sport-running",
+        "categoryId": "cat-running-clothing"
+      },
+      {
+        "slug": "tracksmith-session-short-women",
+        "disposition": "PUBLIC_NOINDEX",
+        "quality": "LAUNCH_READY",
+        "reasons": "soft_gated_category:running-clothing",
+        "softGated": true,
+        "sports": "sport-running",
+        "categoryId": "cat-running-clothing"
+      },
+      {
+        "slug": "janji-multi-short-men",
+        "disposition": "PUBLIC_NOINDEX",
+        "quality": "LAUNCH_READY",
+        "reasons": "soft_gated_category:running-clothing",
+        "softGated": true,
+        "sports": "sport-running",
+        "categoryId": "cat-running-clothing"
+      },
+      {
+        "slug": "janji-pace-short-women",
+        "disposition": "PUBLIC_NOINDEX",
+        "quality": "LAUNCH_READY",
+        "reasons": "soft_gated_category:running-clothing",
+        "softGated": true,
+        "sports": "sport-running",
+        "categoryId": "cat-running-clothing"
+      },
+      {
+        "slug": "patagonia-strider-pro-men",
+        "disposition": "PUBLIC_NOINDEX",
+        "quality": "LAUNCH_READY",
+        "reasons": "soft_gated_category:running-clothing",
+        "softGated": true,
+        "sports": "sport-running",
+        "categoryId": "cat-running-clothing"
+      },
+      {
+        "slug": "patagonia-trailfarer-short-women",
+        "disposition": "PUBLIC_NOINDEX",
+        "quality": "LAUNCH_READY",
+        "reasons": "soft_gated_category:running-clothing",
+        "softGated": true,
+        "sports": "sport-running",
+        "categoryId": "cat-running-clothing"
+      },
+      {
+        "slug": "rabbit-fuel-n-fly-men",
+        "disposition": "PUBLIC_NOINDEX",
+        "quality": "LAUNCH_READY",
+        "reasons": "soft_gated_category:running-clothing",
+        "softGated": true,
+        "sports": "sport-running",
+        "categoryId": "cat-running-clothing"
+      },
+      {
+        "slug": "brooks-sherpa-7-men",
+        "disposition": "PUBLIC_NOINDEX",
+        "quality": "LAUNCH_READY",
+        "reasons": "soft_gated_category:running-clothing",
+        "softGated": true,
+        "sports": "sport-running",
+        "categoryId": "cat-running-clothing"
+      },
+      {
+        "slug": "brooks-chaser-5-women",
+        "disposition": "PUBLIC_NOINDEX",
+        "quality": "LAUNCH_READY",
+        "reasons": "soft_gated_category:running-clothing",
+        "softGated": true,
+        "sports": "sport-running",
+        "categoryId": "cat-running-clothing"
+      },
+      {
+        "slug": "nb-rc-essential-short-men",
+        "disposition": "PUBLIC_NOINDEX",
+        "quality": "LAUNCH_READY",
+        "reasons": "soft_gated_category:running-clothing",
+        "softGated": true,
+        "sports": "sport-running",
+        "categoryId": "cat-running-clothing"
+      },
+      {
+        "slug": "adidas-own-the-run-short-men",
+        "disposition": "PUBLIC_NOINDEX",
+        "quality": "LAUNCH_READY",
+        "reasons": "soft_gated_category:running-clothing",
+        "softGated": true,
+        "sports": "sport-running",
+        "categoryId": "cat-running-clothing"
+      },
+      {
+        "slug": "on-performance-short-men",
+        "disposition": "PUBLIC_NOINDEX",
+        "quality": "LAUNCH_READY",
+        "reasons": "soft_gated_category:running-clothing",
+        "softGated": true,
+        "sports": "sport-running",
+        "categoryId": "cat-running-clothing"
+      },
+      {
+        "slug": "tracksmith-twilight-half-men",
+        "disposition": "PUBLIC_NOINDEX",
+        "quality": "LAUNCH_READY",
+        "reasons": "soft_gated_category:running-clothing",
+        "softGated": true,
+        "sports": "sport-running",
+        "categoryId": "cat-running-clothing"
+      },
+      {
+        "slug": "tracksmith-turnover-tight-women",
+        "disposition": "PUBLIC_NOINDEX",
+        "quality": "LAUNCH_READY",
+        "reasons": "soft_gated_category:running-clothing",
+        "softGated": true,
+        "sports": "sport-running",
+        "categoryId": "cat-running-clothing"
+      },
+      {
+        "slug": "brooks-method-tight-women",
+        "disposition": "PUBLIC_NOINDEX",
+        "quality": "LAUNCH_READY",
+        "reasons": "soft_gated_category:running-clothing",
+        "softGated": true,
+        "sports": "sport-running",
+        "categoryId": "cat-running-clothing"
+      },
+      {
+        "slug": "nike-fast-tight-men",
+        "disposition": "PUBLIC_NOINDEX",
+        "quality": "LAUNCH_READY",
+        "reasons": "soft_gated_category:running-clothing",
+        "softGated": true,
+        "sports": "sport-running",
+        "categoryId": "cat-running-clothing"
+      },
+      {
+        "slug": "on-performance-tight-women",
+        "disposition": "PUBLIC_NOINDEX",
+        "quality": "LAUNCH_READY",
+        "reasons": "soft_gated_category:running-clothing",
+        "softGated": true,
+        "sports": "sport-running",
+        "categoryId": "cat-running-clothing"
+      },
+      {
+        "slug": "craft-adv-essence-tight-men",
+        "disposition": "PUBLIC_NOINDEX",
+        "quality": "LAUNCH_READY",
+        "reasons": "soft_gated_category:running-clothing",
+        "softGated": true,
+        "sports": "sport-running",
+        "categoryId": "cat-running-clothing"
+      },
+      {
+        "slug": "patagonia-endless-run-tight-women",
+        "disposition": "PUBLIC_NOINDEX",
+        "quality": "LAUNCH_READY",
+        "reasons": "soft_gated_category:running-clothing",
+        "softGated": true,
+        "sports": "sport-running",
+        "categoryId": "cat-running-clothing"
+      },
+      {
+        "slug": "brooks-canopy-jacket-men",
+        "disposition": "PUBLIC_NOINDEX",
+        "quality": "LAUNCH_READY",
+        "reasons": "soft_gated_category:running-clothing",
+        "softGated": true,
+        "sports": "sport-running",
+        "categoryId": "cat-running-clothing"
+      },
+      {
+        "slug": "brooks-notch-thermal-men",
+        "disposition": "PUBLIC_NOINDEX",
+        "quality": "LAUNCH_READY",
+        "reasons": "soft_gated_category:running-clothing",
+        "softGated": true,
+        "sports": "sport-running",
+        "categoryId": "cat-running-clothing"
+      },
+      {
+        "slug": "patagonia-houdini-men",
+        "disposition": "PUBLIC_NOINDEX",
+        "quality": "LAUNCH_READY",
+        "reasons": "soft_gated_category:running-clothing",
+        "softGated": true,
+        "sports": "sport-running",
+        "categoryId": "cat-running-clothing"
+      },
+      {
+        "slug": "nike-impossibly-light-men",
+        "disposition": "PUBLIC_NOINDEX",
+        "quality": "LAUNCH_READY",
+        "reasons": "soft_gated_category:running-clothing",
+        "softGated": true,
+        "sports": "sport-running",
+        "categoryId": "cat-running-clothing"
+      },
+      {
+        "slug": "on-weather-jacket-men",
+        "disposition": "PUBLIC_NOINDEX",
+        "quality": "LAUNCH_READY",
+        "reasons": "soft_gated_category:running-clothing",
+        "softGated": true,
+        "sports": "sport-running",
+        "categoryId": "cat-running-clothing"
+      },
+      {
+        "slug": "craft-adv-essence-light-wind-men",
+        "disposition": "PUBLIC_NOINDEX",
+        "quality": "LAUNCH_READY",
+        "reasons": "soft_gated_category:running-clothing",
+        "softGated": true,
+        "sports": "sport-running",
+        "categoryId": "cat-running-clothing"
+      },
+      {
+        "slug": "salomon-bonatti-wp-men",
+        "disposition": "PUBLIC_NOINDEX",
+        "quality": "LAUNCH_READY",
+        "reasons": "soft_gated_category:running-clothing",
+        "softGated": true,
+        "sports": "sport-running",
+        "categoryId": "cat-running-clothing"
+      },
+      {
+        "slug": "salomon-bonatti-wp-women",
+        "disposition": "PUBLIC_NOINDEX",
+        "quality": "LAUNCH_READY",
+        "reasons": "soft_gated_category:running-clothing",
+        "softGated": true,
+        "sports": "sport-running",
+        "categoryId": "cat-running-clothing"
+      },
+      {
+        "slug": "janji-rainrunner-men",
+        "disposition": "PUBLIC_NOINDEX",
+        "quality": "LAUNCH_READY",
+        "reasons": "soft_gated_category:running-clothing",
+        "softGated": true,
+        "sports": "sport-running",
+        "categoryId": "cat-running-clothing"
+      },
+      {
+        "slug": "nike-dri-fit-miler-men",
+        "disposition": "PUBLIC_NOINDEX",
+        "quality": "LAUNCH_READY",
+        "reasons": "soft_gated_category:running-clothing",
+        "softGated": true,
+        "sports": "sport-running",
+        "categoryId": "cat-running-clothing"
+      },
+      {
+        "slug": "nike-dri-fit-miler-women",
+        "disposition": "PUBLIC_NOINDEX",
+        "quality": "LAUNCH_READY",
+        "reasons": "soft_gated_category:running-clothing",
+        "softGated": true,
+        "sports": "sport-running",
+        "categoryId": "cat-running-clothing"
+      },
+      {
+        "slug": "tracksmith-van-cortlandt-tee-men",
+        "disposition": "PUBLIC_NOINDEX",
+        "quality": "LAUNCH_READY",
+        "reasons": "soft_gated_category:running-clothing",
+        "softGated": true,
+        "sports": "sport-running",
+        "categoryId": "cat-running-clothing"
+      },
+      {
+        "slug": "janji-run-tee-men",
+        "disposition": "PUBLIC_NOINDEX",
+        "quality": "LAUNCH_READY",
+        "reasons": "soft_gated_category:running-clothing",
+        "softGated": true,
+        "sports": "sport-running",
+        "categoryId": "cat-running-clothing"
+      },
+      {
+        "slug": "patagonia-capilene-cool-daily-men",
+        "disposition": "PUBLIC_NOINDEX",
+        "quality": "LAUNCH_READY",
+        "reasons": "soft_gated_category:running-clothing",
+        "softGated": true,
+        "sports": "sport-running",
+        "categoryId": "cat-running-clothing"
+      },
+      {
+        "slug": "adidas-own-the-run-tee-men",
+        "disposition": "PUBLIC_NOINDEX",
+        "quality": "LAUNCH_READY",
+        "reasons": "soft_gated_category:running-clothing",
+        "softGated": true,
+        "sports": "sport-running",
+        "categoryId": "cat-running-clothing"
+      },
+      {
+        "slug": "nike-aeroswift-singlet-men",
+        "disposition": "PUBLIC_NOINDEX",
+        "quality": "LAUNCH_READY",
+        "reasons": "soft_gated_category:running-clothing",
+        "softGated": true,
+        "sports": "sport-running",
+        "categoryId": "cat-running-clothing"
+      },
+      {
+        "slug": "tracksmith-brighton-ls-men",
+        "disposition": "PUBLIC_NOINDEX",
+        "quality": "LAUNCH_READY",
+        "reasons": "soft_gated_category:running-clothing",
+        "softGated": true,
+        "sports": "sport-running",
+        "categoryId": "cat-running-clothing"
+      },
+      {
+        "slug": "patagonia-capilene-thermal-crew-men",
+        "disposition": "PUBLIC_NOINDEX",
+        "quality": "LAUNCH_READY",
+        "reasons": "soft_gated_category:running-clothing",
+        "softGated": true,
+        "sports": "sport-running",
+        "categoryId": "cat-running-clothing"
+      },
+      {
+        "slug": "odlo-active-warm-eco-men",
+        "disposition": "PUBLIC_NOINDEX",
+        "quality": "LAUNCH_READY",
+        "reasons": "soft_gated_category:running-clothing",
+        "softGated": true,
+        "sports": "sport-running",
+        "categoryId": "cat-running-clothing"
+      },
+      {
+        "slug": "patagonia-capilene-midweight-zip-men",
+        "disposition": "PUBLIC_NOINDEX",
+        "quality": "LAUNCH_READY",
+        "reasons": "soft_gated_category:running-clothing",
+        "softGated": true,
+        "sports": "sport-running",
+        "categoryId": "cat-running-clothing"
+      },
+      {
+        "slug": "odlo-active-warm-eco-bottom-men",
+        "disposition": "PUBLIC_NOINDEX",
+        "quality": "LAUNCH_READY",
+        "reasons": "soft_gated_category:running-clothing",
+        "softGated": true,
+        "sports": "sport-running",
+        "categoryId": "cat-running-clothing"
+      },
+      {
+        "slug": "craft-active-extreme-x-men",
+        "disposition": "PUBLIC_NOINDEX",
+        "quality": "LAUNCH_READY",
+        "reasons": "soft_gated_category:running-clothing",
+        "softGated": true,
+        "sports": "sport-running",
+        "categoryId": "cat-running-clothing"
+      },
+      {
+        "slug": "patagonia-nano-puff-vest-men",
+        "disposition": "PUBLIC_NOINDEX",
+        "quality": "LAUNCH_READY",
+        "reasons": "soft_gated_category:running-clothing",
+        "softGated": true,
+        "sports": "sport-running",
+        "categoryId": "cat-running-clothing"
+      },
+      {
+        "slug": "craft-adv-essence-light-wind-vest-men",
+        "disposition": "PUBLIC_NOINDEX",
+        "quality": "LAUNCH_READY",
+        "reasons": "soft_gated_category:running-clothing",
+        "softGated": true,
+        "sports": "sport-running",
+        "categoryId": "cat-running-clothing"
+      },
+      {
+        "slug": "ciele-gocap-athletics",
+        "disposition": "PUBLIC_NOINDEX",
+        "quality": "LAUNCH_READY",
+        "reasons": "soft_gated_category:running-clothing",
+        "softGated": true,
+        "sports": "sport-running",
+        "categoryId": "cat-running-clothing"
+      },
+      {
+        "slug": "brooks-notch-thermal-beanie",
+        "disposition": "PUBLIC_NOINDEX",
+        "quality": "LAUNCH_READY",
+        "reasons": "soft_gated_category:running-clothing",
+        "softGated": true,
+        "sports": "sport-running",
+        "categoryId": "cat-running-clothing"
+      },
+      {
+        "slug": "nike-aerobill-cap",
+        "disposition": "PUBLIC_NOINDEX",
+        "quality": "LAUNCH_READY",
+        "reasons": "soft_gated_category:running-clothing",
+        "softGated": true,
+        "sports": "sport-running",
+        "categoryId": "cat-running-clothing"
+      },
+      {
+        "slug": "smartwool-thermal-merino-glove",
+        "disposition": "PUBLIC_NOINDEX",
+        "quality": "LAUNCH_READY",
+        "reasons": "soft_gated_category:running-clothing",
+        "softGated": true,
+        "sports": "sport-running",
+        "categoryId": "cat-running-clothing"
+      },
+      {
+        "slug": "nike-therma-fit-glove",
+        "disposition": "PUBLIC_NOINDEX",
+        "quality": "LAUNCH_READY",
+        "reasons": "soft_gated_category:running-clothing",
+        "softGated": true,
+        "sports": "sport-running",
+        "categoryId": "cat-running-clothing"
+      },
+      {
+        "slug": "craft-adv-lumen-glove",
+        "disposition": "PUBLIC_NOINDEX",
+        "quality": "LAUNCH_READY",
+        "reasons": "soft_gated_category:running-clothing",
+        "softGated": true,
+        "sports": "sport-running",
+        "categoryId": "cat-running-clothing"
+      },
+      {
+        "slug": "asics-core-split-short",
+        "disposition": "PUBLIC_NOINDEX",
+        "quality": "LAUNCH_READY",
+        "reasons": "soft_gated_category:running-clothing",
+        "softGated": true,
+        "sports": "sport-running",
+        "categoryId": "cat-running-clothing"
+      },
+      {
+        "slug": "nike-dri-fit-stride-short",
+        "disposition": "PUBLIC_NOINDEX",
+        "quality": "LAUNCH_READY",
+        "reasons": "soft_gated_category:running-clothing",
+        "softGated": true,
+        "sports": "sport-running",
+        "categoryId": "cat-running-clothing"
+      },
+      {
+        "slug": "craft-adv-essence-short",
+        "disposition": "PUBLIC_NOINDEX",
+        "quality": "LAUNCH_READY",
+        "reasons": "soft_gated_category:running-clothing",
+        "softGated": true,
+        "sports": "sport-running",
+        "categoryId": "cat-running-clothing"
+      },
+      {
+        "slug": "oakley-encoder",
+        "disposition": "PUBLIC_NOINDEX",
+        "quality": "LAUNCH_READY",
+        "reasons": "soft_gated_category:sunglasses",
+        "softGated": true,
+        "sports": "sport-running,sport-cycling",
+        "categoryId": "cat-sunglasses"
+      },
+      {
+        "slug": "goodr-ogs",
+        "disposition": "PUBLIC_NOINDEX",
+        "quality": "LAUNCH_READY",
+        "reasons": "soft_gated_category:sunglasses",
+        "softGated": true,
+        "sports": "sport-running",
+        "categoryId": "cat-sunglasses"
+      },
+      {
+        "slug": "julbo-aerolite",
+        "disposition": "PUBLIC_NOINDEX",
+        "quality": "LAUNCH_READY",
+        "reasons": "soft_gated_category:sunglasses",
+        "softGated": true,
+        "sports": "sport-running",
+        "categoryId": "cat-sunglasses"
+      },
+      {
+        "slug": "body-glide-original",
+        "disposition": "PUBLIC_NOINDEX",
+        "quality": "LAUNCH_READY",
+        "reasons": "soft_gated_category:accessories",
+        "softGated": true,
+        "sports": "sport-running,sport-training",
+        "categoryId": "cat-accessories"
+      },
+      {
+        "slug": "squirrels-nut-butter",
+        "disposition": "PUBLIC_NOINDEX",
+        "quality": "LAUNCH_READY",
+        "reasons": "soft_gated_category:accessories",
+        "softGated": true,
+        "sports": "sport-running,sport-training",
+        "categoryId": "cat-accessories"
+      },
+      {
+        "slug": "2toms-sportshield",
+        "disposition": "PUBLIC_NOINDEX",
+        "quality": "LAUNCH_READY",
+        "reasons": "soft_gated_category:accessories",
+        "softGated": true,
+        "sports": "sport-running,sport-training",
+        "categoryId": "cat-accessories"
+      }
+    ]
+  },
+  "reviews": {
+    "revRun": 285,
+    "revRunIdx": 225,
+    "revRunLr": 225,
+    "revRunLrEx": 0,
+    "dispositionByQuality": {
+      "LAUNCH_READY->INDEXABLE": 225,
+      "THIN->PUBLIC_NOINDEX": 32,
+      "NEEDS_MINOR_WORK->PUBLIC_NOINDEX": 28
+    },
+    "excluded": []
+  },
+  "best": [
+    {
+      "slug": "running-shoes",
+      "sportId": "sport-running",
+      "elig": "INDEXABLE",
+      "quality": "LAUNCH_READY",
+      "reasons": "contextualDepth=high"
+    },
+    {
+      "slug": "daily-trainers",
+      "sportId": "sport-running",
+      "elig": "INDEXABLE",
+      "quality": "LAUNCH_READY",
+      "reasons": "contextualDepth=high"
+    },
+    {
+      "slug": "running-shoes-long-runs",
+      "sportId": "sport-running",
+      "elig": "INDEXABLE",
+      "quality": "LAUNCH_READY",
+      "reasons": "contextualDepth=high"
+    },
+    {
+      "slug": "max-cushion-running-shoes",
+      "sportId": "sport-running",
+      "elig": "PUBLIC_NOINDEX",
+      "quality": "NEEDS_MINOR_WORK",
+      "reasons": "no_evidence_ids|intro_thin|best_guide_not_launch_ready"
+    },
+    {
+      "slug": "tempo-running-shoes",
+      "sportId": "sport-running",
+      "elig": "INDEXABLE",
+      "quality": "LAUNCH_READY",
+      "reasons": "contextualDepth=high|no_evidence_ids_but_methodology_present"
+    },
+    {
+      "slug": "race-shoes",
+      "sportId": "sport-running",
+      "elig": "INDEXABLE",
+      "quality": "LAUNCH_READY",
+      "reasons": "contextualDepth=high|no_evidence_ids_but_methodology_present"
+    },
+    {
+      "slug": "carbon-plated-running-shoes",
+      "sportId": "sport-running",
+      "elig": "PUBLIC_NOINDEX",
+      "quality": "NEEDS_MINOR_WORK",
+      "reasons": "no_evidence_ids|intro_thin|best_guide_not_launch_ready"
+    },
+    {
+      "slug": "marathon-shoes",
+      "sportId": "sport-running",
+      "elig": "INDEXABLE",
+      "quality": "LAUNCH_READY",
+      "reasons": "contextualDepth=high"
+    },
+    {
+      "slug": "stability-running-shoes",
+      "sportId": "sport-running",
+      "elig": "INDEXABLE",
+      "quality": "LAUNCH_READY",
+      "reasons": "contextualDepth=high"
+    },
+    {
+      "slug": "trail-running-shoes",
+      "sportId": "sport-running",
+      "elig": "PUBLIC_NOINDEX",
+      "quality": "NEEDS_MINOR_WORK",
+      "reasons": "no_evidence_ids|intro_thin|best_guide_not_launch_ready"
+    },
+    {
+      "slug": "running-shoes-heavy-runners",
+      "sportId": "sport-running",
+      "elig": "PUBLIC_NOINDEX",
+      "quality": "NEEDS_MINOR_WORK",
+      "reasons": "no_evidence_ids|intro_thin|best_guide_not_launch_ready"
+    },
+    {
+      "slug": "running-shoes-beginners",
+      "sportId": "sport-running",
+      "elig": "INDEXABLE",
+      "quality": "LAUNCH_READY",
+      "reasons": "contextualDepth=high"
+    },
+    {
+      "slug": "running-shoes-wide-feet",
+      "sportId": "sport-running",
+      "elig": "PUBLIC_NOINDEX",
+      "quality": "NEEDS_MINOR_WORK",
+      "reasons": "no_evidence_ids|intro_thin|best_guide_not_launch_ready"
+    },
+    {
+      "slug": "running-watches",
+      "sportId": "sport-running",
+      "elig": "INDEXABLE",
+      "quality": "LAUNCH_READY",
+      "reasons": "contextualDepth=high"
+    },
+    {
+      "slug": "running-watches-beginners",
+      "sportId": "sport-running",
+      "elig": "PUBLIC_NOINDEX",
+      "quality": "NEEDS_MINOR_WORK",
+      "reasons": "intro_thin|best_guide_not_launch_ready"
+    },
+    {
+      "slug": "running-watches-marathon",
+      "sportId": "sport-running",
+      "elig": "PUBLIC_NOINDEX",
+      "quality": "NEEDS_MINOR_WORK",
+      "reasons": "intro_thin|best_guide_not_launch_ready"
+    },
+    {
+      "slug": "running-watches-trail",
+      "sportId": "sport-running",
+      "elig": "PUBLIC_NOINDEX",
+      "quality": "NEEDS_MINOR_WORK",
+      "reasons": "intro_thin|best_guide_not_launch_ready"
+    },
+    {
+      "slug": "running-watches-ultra",
+      "sportId": "sport-running",
+      "elig": "PUBLIC_NOINDEX",
+      "quality": "NEEDS_MINOR_WORK",
+      "reasons": "intro_thin|best_guide_not_launch_ready"
+    },
+    {
+      "slug": "running-watches-budget",
+      "sportId": "sport-running",
+      "elig": "PUBLIC_NOINDEX",
+      "quality": "NEEDS_MINOR_WORK",
+      "reasons": "intro_thin|best_guide_not_launch_ready"
+    },
+    {
+      "slug": "running-watches-music",
+      "sportId": "sport-running",
+      "elig": "PUBLIC_NOINDEX",
+      "quality": "NEEDS_MINOR_WORK",
+      "reasons": "intro_thin|best_guide_not_launch_ready"
+    },
+    {
+      "slug": "running-watches-small-wrists",
+      "sportId": "sport-running",
+      "elig": "PUBLIC_NOINDEX",
+      "quality": "NEEDS_MINOR_WORK",
+      "reasons": "intro_thin|best_guide_not_launch_ready"
+    },
+    {
+      "slug": "heart-rate-monitors-running",
+      "sportId": "sport-running",
+      "elig": "INDEXABLE",
+      "quality": "LAUNCH_READY",
+      "reasons": "contextualDepth=high"
+    },
+    {
+      "slug": "heart-rate-monitors-chest-straps",
+      "sportId": "sport-running",
+      "elig": "PUBLIC_NOINDEX",
+      "quality": "NEEDS_MINOR_WORK",
+      "reasons": "intro_thin|best_guide_not_launch_ready"
+    },
+    {
+      "slug": "heart-rate-monitors-intervals",
+      "sportId": "sport-running",
+      "elig": "PUBLIC_NOINDEX",
+      "quality": "NEEDS_MINOR_WORK",
+      "reasons": "intro_thin|best_guide_not_launch_ready"
+    },
+    {
+      "slug": "heart-rate-monitors-hyrox",
+      "sportId": "sport-hyrox",
+      "elig": "HIDDEN_404",
+      "quality": "NEEDS_MINOR_WORK",
+      "reasons": "vertical_hold"
+    },
+    {
+      "slug": "running-hydration-vests",
+      "sportId": "sport-running",
+      "elig": "INDEXABLE",
+      "quality": "LAUNCH_READY",
+      "reasons": "contextualDepth=high"
+    },
+    {
+      "slug": "running-belts",
+      "sportId": "sport-running",
+      "elig": "PUBLIC_NOINDEX",
+      "quality": "NEEDS_MINOR_WORK",
+      "reasons": "intro_thin|best_guide_not_launch_ready"
+    },
+    {
+      "slug": "running-packs",
+      "sportId": "sport-running",
+      "elig": "INDEXABLE",
+      "quality": "LAUNCH_READY",
+      "reasons": "contextualDepth=high"
+    },
+    {
+      "slug": "hydration-vests-trail",
+      "sportId": "sport-running",
+      "elig": "PUBLIC_NOINDEX",
+      "quality": "NEEDS_MINOR_WORK",
+      "reasons": "intro_thin|best_guide_not_launch_ready"
+    },
+    {
+      "slug": "hydration-vests-ultra",
+      "sportId": "sport-running",
+      "elig": "PUBLIC_NOINDEX",
+      "quality": "NEEDS_MINOR_WORK",
+      "reasons": "intro_thin|best_guide_not_launch_ready"
+    },
+    {
+      "slug": "handheld-running-bottles",
+      "sportId": "sport-running",
+      "elig": "PUBLIC_NOINDEX",
+      "quality": "NEEDS_MINOR_WORK",
+      "reasons": "intro_thin|best_guide_not_launch_ready"
+    },
+    {
+      "slug": "hydration-marathon-training",
+      "sportId": "sport-running",
+      "elig": "PUBLIC_NOINDEX",
+      "quality": "NEEDS_MINOR_WORK",
+      "reasons": "intro_thin|best_guide_not_launch_ready"
+    },
+    {
+      "slug": "running-headphones",
+      "sportId": "sport-running",
+      "elig": "INDEXABLE",
+      "quality": "LAUNCH_READY",
+      "reasons": "contextualDepth=high"
+    },
+    {
+      "slug": "running-socks",
+      "sportId": "sport-running",
+      "elig": "PUBLIC_NOINDEX",
+      "quality": "NEEDS_MINOR_WORK",
+      "reasons": "intro_thin|best_guide_not_launch_ready"
+    },
+    {
+      "slug": "running-shorts",
+      "sportId": "sport-running",
+      "elig": "PUBLIC_NOINDEX",
+      "quality": "NEEDS_MINOR_WORK",
+      "reasons": "intro_thin|best_guide_not_launch_ready"
+    },
+    {
+      "slug": "running-jackets",
+      "sportId": "sport-running",
+      "elig": "PUBLIC_NOINDEX",
+      "quality": "NEEDS_MINOR_WORK",
+      "reasons": "intro_thin|best_guide_not_launch_ready"
+    },
+    {
+      "slug": "running-rain-jackets",
+      "sportId": "sport-running",
+      "elig": "PUBLIC_NOINDEX",
+      "quality": "NEEDS_MINOR_WORK",
+      "reasons": "intro_thin|best_guide_not_launch_ready"
+    },
+    {
+      "slug": "running-tights",
+      "sportId": "sport-running",
+      "elig": "PUBLIC_NOINDEX",
+      "quality": "NEEDS_MINOR_WORK",
+      "reasons": "intro_thin|best_guide_not_launch_ready"
+    },
+    {
+      "slug": "running-gear-winter",
+      "sportId": "sport-running",
+      "elig": "PUBLIC_NOINDEX",
+      "quality": "NEEDS_MINOR_WORK",
+      "reasons": "intro_thin|best_guide_not_launch_ready"
+    },
+    {
+      "slug": "running-clothing-hot-weather",
+      "sportId": "sport-running",
+      "elig": "PUBLIC_NOINDEX",
+      "quality": "NEEDS_MINOR_WORK",
+      "reasons": "intro_thin|best_guide_not_launch_ready"
+    },
+    {
+      "slug": "running-headlamps",
+      "sportId": "sport-running",
+      "elig": "INDEXABLE",
+      "quality": "LAUNCH_READY",
+      "reasons": "contextualDepth=high"
+    },
+    {
+      "slug": "running-sunglasses",
+      "sportId": "sport-running",
+      "elig": "INDEXABLE",
+      "quality": "LAUNCH_READY",
+      "reasons": "contextualDepth=high"
+    },
+    {
+      "slug": "running-safety-visibility",
+      "sportId": "sport-running",
+      "elig": "INDEXABLE",
+      "quality": "LAUNCH_READY",
+      "reasons": "contextualDepth=high"
+    },
+    {
+      "slug": "running-race-fuel",
+      "sportId": "sport-running",
+      "elig": "INDEXABLE",
+      "quality": "LAUNCH_READY",
+      "reasons": "contextualDepth=high"
+    },
+    {
+      "slug": "running-recovery-gear",
+      "sportId": "sport-running",
+      "elig": "INDEXABLE",
+      "quality": "LAUNCH_READY",
+      "reasons": "contextualDepth=high"
+    },
+    {
+      "slug": "padel-rackets",
+      "sportId": "sport-padel",
+      "elig": "HIDDEN_404",
+      "quality": "NEEDS_MINOR_WORK",
+      "reasons": "vertical_hold"
+    },
+    {
+      "slug": "tennis-rackets",
+      "sportId": "sport-tennis",
+      "elig": "HIDDEN_404",
+      "quality": "NEEDS_MINOR_WORK",
+      "reasons": "vertical_hold"
+    },
+    {
+      "slug": "adjustable-dumbbells",
+      "sportId": "sport-training",
+      "elig": "HIDDEN_404",
+      "quality": "THIN",
+      "reasons": "vertical_hold"
+    },
+    {
+      "slug": "power-racks",
+      "sportId": "sport-training",
+      "elig": "HIDDEN_404",
+      "quality": "THIN",
+      "reasons": "vertical_hold"
+    },
+    {
+      "slug": "training-shoes",
+      "sportId": "sport-training",
+      "elig": "HIDDEN_404",
+      "quality": "THIN",
+      "reasons": "vertical_hold"
+    },
+    {
+      "slug": "hyrox-shoes",
+      "sportId": "sport-hyrox",
+      "elig": "HIDDEN_404",
+      "quality": "NEEDS_MINOR_WORK",
+      "reasons": "vertical_hold"
+    },
+    {
+      "slug": "rowing-machines",
+      "sportId": "sport-training",
+      "elig": "HIDDEN_404",
+      "quality": "THIN",
+      "reasons": "vertical_hold"
+    },
+    {
+      "slug": "pull-up-bars",
+      "sportId": "sport-calisthenics",
+      "elig": "HIDDEN_404",
+      "quality": "THIN",
+      "reasons": "vertical_hold"
+    },
+    {
+      "slug": "home-gym-equipment",
+      "sportId": "sport-training",
+      "elig": "HIDDEN_404",
+      "quality": "NEEDS_MINOR_WORK",
+      "reasons": "vertical_hold"
+    },
+    {
+      "slug": "adjustable-benches",
+      "sportId": "sport-training",
+      "elig": "HIDDEN_404",
+      "quality": "THIN",
+      "reasons": "vertical_hold"
+    },
+    {
+      "slug": "air-bikes",
+      "sportId": "sport-training",
+      "elig": "HIDDEN_404",
+      "quality": "THIN",
+      "reasons": "vertical_hold"
+    },
+    {
+      "slug": "treadmills-for-home",
+      "sportId": "sport-training",
+      "elig": "HIDDEN_404",
+      "quality": "THIN",
+      "reasons": "vertical_hold"
+    },
+    {
+      "slug": "weight-plates",
+      "sportId": "sport-training",
+      "elig": "HIDDEN_404",
+      "quality": "THIN",
+      "reasons": "vertical_hold"
+    }
+  ],
+  "runningGuides": [
+    {
+      "slug": "how-to-choose-running-shoes",
+      "elig": "INDEXABLE",
+      "quality": "COMPLETE",
+      "reasons": "thin-faq"
+    },
+    {
+      "slug": "running-shoe-drop",
+      "elig": "INDEXABLE",
+      "quality": "COMPLETE",
+      "reasons": "guide_complete"
+    },
+    {
+      "slug": "running-shoe-cushioning",
+      "elig": "INDEXABLE",
+      "quality": "COMPLETE",
+      "reasons": "guide_complete"
+    },
+    {
+      "slug": "stability-shoes-explained",
+      "elig": "INDEXABLE",
+      "quality": "COMPLETE",
+      "reasons": "guide_complete"
+    },
+    {
+      "slug": "carbon-vs-nylon-plates",
+      "elig": "INDEXABLE",
+      "quality": "COMPLETE",
+      "reasons": "guide_complete"
+    },
+    {
+      "slug": "what-is-a-daily-trainer",
+      "elig": "INDEXABLE",
+      "quality": "COMPLETE",
+      "reasons": "guide_complete"
+    },
+    {
+      "slug": "running-shoe-rotation",
+      "elig": "INDEXABLE",
+      "quality": "COMPLETE",
+      "reasons": "guide_complete"
+    },
+    {
+      "slug": "running-shoe-terminology",
+      "elig": "INDEXABLE",
+      "quality": "COMPLETE",
+      "reasons": "guide_complete"
+    },
+    {
+      "slug": "road-vs-trail-running-shoes",
+      "elig": "INDEXABLE",
+      "quality": "COMPLETE",
+      "reasons": "guide_complete"
+    },
+    {
+      "slug": "how-to-choose-running-watch",
+      "elig": "INDEXABLE",
+      "quality": "COMPLETE",
+      "reasons": "guide_complete"
+    },
+    {
+      "slug": "multi-band-gps-running-watches",
+      "elig": "INDEXABLE",
+      "quality": "COMPLETE",
+      "reasons": "guide_complete"
+    },
+    {
+      "slug": "how-to-choose-heart-rate-monitor",
+      "elig": "INDEXABLE",
+      "quality": "COMPLETE",
+      "reasons": "guide_complete"
+    },
+    {
+      "slug": "how-to-choose-running-hydration-vest",
+      "elig": "INDEXABLE",
+      "quality": "COMPLETE",
+      "reasons": "guide_complete"
+    },
+    {
+      "slug": "hydration-vest-vs-running-belt",
+      "elig": "INDEXABLE",
+      "quality": "COMPLETE",
+      "reasons": "guide_complete"
+    },
+    {
+      "slug": "how-to-choose-running-headlamp",
+      "elig": "INDEXABLE",
+      "quality": "COMPLETE",
+      "reasons": "guide_complete"
+    },
+    {
+      "slug": "open-ear-vs-in-ear-running-headphones",
+      "elig": "INDEXABLE",
+      "quality": "COMPLETE",
+      "reasons": "guide_complete"
+    },
+    {
+      "slug": "running-gels-explained",
+      "elig": "INDEXABLE",
+      "quality": "COMPLETE",
+      "reasons": "guide_complete"
+    },
+    {
+      "slug": "how-to-carry-fuel-on-long-runs",
+      "elig": "INDEXABLE",
+      "quality": "COMPLETE",
+      "reasons": "guide_complete"
+    },
+    {
+      "slug": "gel-vs-drink-mix-vs-chews",
+      "elig": "INDEXABLE",
+      "quality": "COMPLETE",
+      "reasons": "guide_complete"
+    },
+    {
+      "slug": "caffeine-in-running-fuel-explained",
+      "elig": "INDEXABLE",
+      "quality": "COMPLETE",
+      "reasons": "guide_complete"
+    },
+    {
+      "slug": "massage-guns-explained",
+      "elig": "INDEXABLE",
+      "quality": "COMPLETE",
+      "reasons": "guide_complete"
+    },
+    {
+      "slug": "foam-rolling-for-runners",
+      "elig": "INDEXABLE",
+      "quality": "COMPLETE",
+      "reasons": "guide_complete"
+    },
+    {
+      "slug": "recovery-tools-what-evidence-shows",
+      "elig": "INDEXABLE",
+      "quality": "COMPLETE",
+      "reasons": "guide_complete"
+    },
+    {
+      "slug": "optical-wrist-hr-vs-chest-strap",
+      "elig": "INDEXABLE",
+      "quality": "COMPLETE",
+      "reasons": "guide_complete"
+    },
+    {
+      "slug": "running-watch-battery-life-explained",
+      "elig": "INDEXABLE",
+      "quality": "COMPLETE",
+      "reasons": "guide_complete"
+    },
+    {
+      "slug": "maps-navigation-running-watches",
+      "elig": "INDEXABLE",
+      "quality": "COMPLETE",
+      "reasons": "guide_complete"
+    },
+    {
+      "slug": "beginner-vs-advanced-running-watch",
+      "elig": "INDEXABLE",
+      "quality": "COMPLETE",
+      "reasons": "guide_complete"
+    },
+    {
+      "slug": "soft-flasks-vs-bladders-explained",
+      "elig": "INDEXABLE",
+      "quality": "COMPLETE",
+      "reasons": "guide_complete"
+    },
+    {
+      "slug": "how-to-choose-running-belt",
+      "elig": "INDEXABLE",
+      "quality": "COMPLETE",
+      "reasons": "guide_complete"
+    },
+    {
+      "slug": "handheld-bottles-for-running",
+      "elig": "INDEXABLE",
+      "quality": "COMPLETE",
+      "reasons": "guide_complete"
+    },
+    {
+      "slug": "hydration-for-marathon-training",
+      "elig": "INDEXABLE",
+      "quality": "COMPLETE",
+      "reasons": "guide_complete"
+    },
+    {
+      "slug": "how-to-choose-running-socks",
+      "elig": "INDEXABLE",
+      "quality": "COMPLETE",
+      "reasons": "guide_complete"
+    },
+    {
+      "slug": "running-jackets-explained",
+      "elig": "INDEXABLE",
+      "quality": "COMPLETE",
+      "reasons": "guide_complete"
+    },
+    {
+      "slug": "hot-weather-running-apparel",
+      "elig": "INDEXABLE",
+      "quality": "COMPLETE",
+      "reasons": "guide_complete"
+    },
+    {
+      "slug": "winter-layering-for-runners",
+      "elig": "INDEXABLE",
+      "quality": "COMPLETE",
+      "reasons": "guide_complete"
+    },
+    {
+      "slug": "shoe-jobs-by-session-type",
+      "elig": "INDEXABLE",
+      "quality": "COMPLETE",
+      "reasons": "guide_complete"
+    },
+    {
+      "slug": "first-marathon-gear-checklist",
+      "elig": "INDEXABLE",
+      "quality": "COMPLETE",
+      "reasons": "guide_complete"
+    },
+    {
+      "slug": "trail-race-kit-essentials",
+      "elig": "INDEXABLE",
+      "quality": "COMPLETE",
+      "reasons": "guide_complete"
+    },
+    {
+      "slug": "beginner-running-gear-stack",
+      "elig": "INDEXABLE",
+      "quality": "COMPLETE",
+      "reasons": "guide_complete"
+    },
+    {
+      "slug": "when-to-use-a-massage-gun",
+      "elig": "INDEXABLE",
+      "quality": "COMPLETE",
+      "reasons": "guide_complete"
+    },
+    {
+      "slug": "recovery-sandals-for-runners",
+      "elig": "INDEXABLE",
+      "quality": "COMPLETE",
+      "reasons": "guide_complete"
+    }
+  ],
+  "comparisons": {
+    "running": [
+      {
+        "slug": "asics-novablast-6-vs-asics-gel-nimbus-27",
+        "running": true,
+        "elig": "INDEXABLE",
+        "quality": "MEANINGFUL",
+        "reasons": "meaningful_decision_page"
+      },
+      {
+        "slug": "asics-novablast-6-vs-asics-novablast-5",
+        "running": true,
+        "elig": "INDEXABLE",
+        "quality": "MEANINGFUL",
+        "reasons": "meaningful_decision_page"
+      },
+      {
+        "slug": "asics-novablast-6-vs-brooks-ghost-18",
+        "running": true,
+        "elig": "INDEXABLE",
+        "quality": "MEANINGFUL",
+        "reasons": "meaningful_decision_page"
+      },
+      {
+        "slug": "brooks-ghost-18-vs-nike-pegasus-42",
+        "running": true,
+        "elig": "INDEXABLE",
+        "quality": "MEANINGFUL",
+        "reasons": "meaningful_decision_page"
+      },
+      {
+        "slug": "asics-novablast-6-vs-hoka-clifton-10",
+        "running": true,
+        "elig": "INDEXABLE",
+        "quality": "MEANINGFUL",
+        "reasons": "meaningful_decision_page"
+      },
+      {
+        "slug": "saucony-endorphin-speed-5-vs-adidas-adizero-boston-12",
+        "running": true,
+        "elig": "INDEXABLE",
+        "quality": "MEANINGFUL",
+        "reasons": "meaningful_decision_page"
+      },
+      {
+        "slug": "nike-vaporfly-4-vs-nike-alphafly-3",
+        "running": true,
+        "elig": "INDEXABLE",
+        "quality": "MEANINGFUL",
+        "reasons": "meaningful_decision_page"
+      },
+      {
+        "slug": "asics-gel-kayano-32-vs-brooks-adrenaline-gts-25",
+        "running": true,
+        "elig": "INDEXABLE",
+        "quality": "MEANINGFUL",
+        "reasons": "meaningful_decision_page"
+      },
+      {
+        "slug": "hoka-speedgoat-6-vs-saucony-peregrine-15",
+        "running": true,
+        "elig": "INDEXABLE",
+        "quality": "MEANINGFUL",
+        "reasons": "meaningful_decision_page"
+      },
+      {
+        "slug": "garmin-forerunner-970-vs-coros-pace-pro",
+        "running": true,
+        "elig": "INDEXABLE",
+        "quality": "MEANINGFUL",
+        "reasons": "meaningful_decision_page"
+      },
+      {
+        "slug": "garmin-forerunner-970-vs-garmin-forerunner-965",
+        "running": true,
+        "elig": "INDEXABLE",
+        "quality": "MEANINGFUL",
+        "reasons": "meaningful_decision_page"
+      },
+      {
+        "slug": "garmin-hrm-pro-plus-vs-polar-h10",
+        "running": true,
+        "elig": "INDEXABLE",
+        "quality": "MEANINGFUL",
+        "reasons": "meaningful_decision_page"
+      },
+      {
+        "slug": "salomon-adv-skin-12-vs-nathan-vaporair-2",
+        "running": true,
+        "elig": "INDEXABLE",
+        "quality": "MEANINGFUL",
+        "reasons": "meaningful_decision_page"
+      },
+      {
+        "slug": "garmin-fenix-8-vs-garmin-forerunner-970",
+        "running": true,
+        "elig": "INDEXABLE",
+        "quality": "MEANINGFUL",
+        "reasons": "meaningful_decision_page"
+      },
+      {
+        "slug": "coros-apex-4-vs-garmin-fenix-8",
+        "running": true,
+        "elig": "INDEXABLE",
+        "quality": "MEANINGFUL",
+        "reasons": "meaningful_decision_page"
+      },
+      {
+        "slug": "coros-pace-4-vs-garmin-forerunner-165",
+        "running": true,
+        "elig": "INDEXABLE",
+        "quality": "MEANINGFUL",
+        "reasons": "meaningful_decision_page"
+      },
+      {
+        "slug": "apple-watch-ultra-3-vs-apple-watch-ultra-2",
+        "running": true,
+        "elig": "INDEXABLE",
+        "quality": "MEANINGFUL",
+        "reasons": "meaningful_decision_page"
+      },
+      {
+        "slug": "polar-grit-x2-vs-garmin-fenix-8",
+        "running": true,
+        "elig": "INDEXABLE",
+        "quality": "MEANINGFUL",
+        "reasons": "meaningful_decision_page"
+      },
+      {
+        "slug": "suunto-vertical-2-vs-garmin-enduro-3",
+        "running": true,
+        "elig": "INDEXABLE",
+        "quality": "MEANINGFUL",
+        "reasons": "meaningful_decision_page"
+      },
+      {
+        "slug": "coros-pace-pro-vs-coros-pace-4",
+        "running": true,
+        "elig": "INDEXABLE",
+        "quality": "MEANINGFUL",
+        "reasons": "meaningful_decision_page"
+      },
+      {
+        "slug": "garmin-vivoactive-6-vs-garmin-forerunner-165",
+        "running": true,
+        "elig": "INDEXABLE",
+        "quality": "MEANINGFUL",
+        "reasons": "meaningful_decision_page"
+      },
+      {
+        "slug": "garmin-hrm-600-vs-polar-h10",
+        "running": true,
+        "elig": "INDEXABLE",
+        "quality": "MEANINGFUL",
+        "reasons": "meaningful_decision_page"
+      },
+      {
+        "slug": "polar-h10-vs-polar-h9",
+        "running": true,
+        "elig": "INDEXABLE",
+        "quality": "MEANINGFUL",
+        "reasons": "meaningful_decision_page"
+      },
+      {
+        "slug": "wahoo-trackr-vs-polar-h10",
+        "running": true,
+        "elig": "INDEXABLE",
+        "quality": "MEANINGFUL",
+        "reasons": "meaningful_decision_page"
+      },
+      {
+        "slug": "coros-hrm-vs-polar-verity-sense",
+        "running": true,
+        "elig": "INDEXABLE",
+        "quality": "MEANINGFUL",
+        "reasons": "meaningful_decision_page"
+      },
+      {
+        "slug": "garmin-hrm-600-vs-hrm-pro-plus",
+        "running": true,
+        "elig": "INDEXABLE",
+        "quality": "MEANINGFUL",
+        "reasons": "meaningful_decision_page"
+      },
+      {
+        "slug": "salomon-adv-skin-12-vs-salomon-adv-skin-5",
+        "running": true,
+        "elig": "INDEXABLE",
+        "quality": "MEANINGFUL",
+        "reasons": "meaningful_decision_page"
+      },
+      {
+        "slug": "salomon-adv-skin-12-vs-ultimate-direction-race-vest-6",
+        "running": true,
+        "elig": "INDEXABLE",
+        "quality": "MEANINGFUL",
+        "reasons": "meaningful_decision_page"
+      },
+      {
+        "slug": "nathan-vaporair-4-vs-salomon-adv-skin-5",
+        "running": true,
+        "elig": "INDEXABLE",
+        "quality": "MEANINGFUL",
+        "reasons": "meaningful_decision_page"
+      },
+      {
+        "slug": "osprey-duro-6-vs-osprey-dyna-6",
+        "running": true,
+        "elig": "INDEXABLE",
+        "quality": "MEANINGFUL",
+        "reasons": "meaningful_decision_page"
+      },
+      {
+        "slug": "osprey-duro-lt-vs-ultimate-direction-race-vest-6",
+        "running": true,
+        "elig": "INDEXABLE",
+        "quality": "MEANINGFUL",
+        "reasons": "meaningful_decision_page"
+      },
+      {
+        "slug": "flipbelt-classic-vs-naked-running-band",
+        "running": true,
+        "elig": "INDEXABLE",
+        "quality": "MEANINGFUL",
+        "reasons": "meaningful_decision_page"
+      },
+      {
+        "slug": "hydrapak-softflask-speed-500-vs-hydrapak-skyflask-speed-500",
+        "running": true,
+        "elig": "INDEXABLE",
+        "quality": "MEANINGFUL",
+        "reasons": "meaningful_decision_page"
+      },
+      {
+        "slug": "nathan-peak-vs-ultimate-direction-race-belt",
+        "running": true,
+        "elig": "INDEXABLE",
+        "quality": "MEANINGFUL",
+        "reasons": "meaningful_decision_page"
+      },
+      {
+        "slug": "camelbak-zephyr-pro-vs-camelbak-apex-pro",
+        "running": true,
+        "elig": "INDEXABLE",
+        "quality": "MEANINGFUL",
+        "reasons": "meaningful_decision_page"
+      },
+      {
+        "slug": "tracksmith-session-short-vs-janji-multi-short",
+        "running": true,
+        "elig": "INDEXABLE",
+        "quality": "MEANINGFUL",
+        "reasons": "meaningful_decision_page"
+      },
+      {
+        "slug": "patagonia-strider-pro-vs-rabbit-fuel-n-fly",
+        "running": true,
+        "elig": "INDEXABLE",
+        "quality": "MEANINGFUL",
+        "reasons": "meaningful_decision_page"
+      },
+      {
+        "slug": "lululemon-hotty-hot-vs-janji-pace-short",
+        "running": true,
+        "elig": "INDEXABLE",
+        "quality": "MEANINGFUL",
+        "reasons": "meaningful_decision_page"
+      },
+      {
+        "slug": "patagonia-houdini-vs-brooks-canopy",
+        "running": true,
+        "elig": "INDEXABLE",
+        "quality": "MEANINGFUL",
+        "reasons": "meaningful_decision_page"
+      },
+      {
+        "slug": "salomon-bonatti-vs-janji-rainrunner",
+        "running": true,
+        "elig": "INDEXABLE",
+        "quality": "MEANINGFUL",
+        "reasons": "meaningful_decision_page"
+      },
+      {
+        "slug": "tracksmith-twilight-half-vs-nike-fast-tight",
+        "running": true,
+        "elig": "INDEXABLE",
+        "quality": "MEANINGFUL",
+        "reasons": "meaningful_decision_page"
+      },
+      {
+        "slug": "nike-miler-vs-patagonia-capilene-cool",
+        "running": true,
+        "elig": "INDEXABLE",
+        "quality": "MEANINGFUL",
+        "reasons": "meaningful_decision_page"
+      },
+      {
+        "slug": "feetures-elite-vs-darn-tough-run",
+        "running": true,
+        "elig": "INDEXABLE",
+        "quality": "MEANINGFUL",
+        "reasons": "meaningful_decision_page"
+      },
+      {
+        "slug": "ultimate-direction-fastpack-20-vs-salomon-adv-skin-12",
+        "running": true,
+        "elig": "INDEXABLE",
+        "quality": "MEANINGFUL",
+        "reasons": "meaningful_decision_page"
+      },
+      {
+        "slug": "ultimate-direction-fastpack-20-vs-osprey-talon-velocity-20",
+        "running": true,
+        "elig": "INDEXABLE",
+        "quality": "MEANINGFUL",
+        "reasons": "meaningful_decision_page"
+      },
+      {
+        "slug": "black-diamond-distance-22-vs-ultimate-direction-fastpack-20",
+        "running": true,
+        "elig": "INDEXABLE",
+        "quality": "MEANINGFUL",
+        "reasons": "meaningful_decision_page"
+      },
+      {
+        "slug": "salomon-xa-15-vs-osprey-duro-15",
+        "running": true,
+        "elig": "INDEXABLE",
+        "quality": "MEANINGFUL",
+        "reasons": "meaningful_decision_page"
+      },
+      {
+        "slug": "shokz-openrun-pro-2-vs-bose-ultra-open",
+        "running": true,
+        "elig": "INDEXABLE",
+        "quality": "MEANINGFUL",
+        "reasons": "meaningful_decision_page"
+      },
+      {
+        "slug": "shokz-openrun-pro-2-vs-airpods-pro-2",
+        "running": true,
+        "elig": "INDEXABLE",
+        "quality": "MEANINGFUL",
+        "reasons": "meaningful_decision_page"
+      },
+      {
+        "slug": "oakley-encoder-vs-oakley-radar-ev-path",
+        "running": true,
+        "elig": "INDEXABLE",
+        "quality": "MEANINGFUL",
+        "reasons": "meaningful_decision_page"
+      },
+      {
+        "slug": "julbo-ultimate-vs-smith-shift-mag",
+        "running": true,
+        "elig": "INDEXABLE",
+        "quality": "MEANINGFUL",
+        "reasons": "meaningful_decision_page"
+      },
+      {
+        "slug": "petzl-swift-rl-vs-petzl-nao-rl",
+        "running": true,
+        "elig": "INDEXABLE",
+        "quality": "MEANINGFUL",
+        "reasons": "meaningful_decision_page"
+      },
+      {
+        "slug": "petzl-swift-rl-vs-biolite-headlamp-800",
+        "running": true,
+        "elig": "INDEXABLE",
+        "quality": "MEANINGFUL",
+        "reasons": "meaningful_decision_page"
+      },
+      {
+        "slug": "black-diamond-spot-400-r-vs-petzl-actik-core",
+        "running": true,
+        "elig": "INDEXABLE",
+        "quality": "MEANINGFUL",
+        "reasons": "meaningful_decision_page"
+      },
+      {
+        "slug": "nathan-streak-vs-proviz-reflect360",
+        "running": true,
+        "elig": "INDEXABLE",
+        "quality": "MEANINGFUL",
+        "reasons": "meaningful_decision_page"
+      },
+      {
+        "slug": "maurten-gel-100-vs-sis-go-isotonic-gel",
+        "running": true,
+        "elig": "INDEXABLE",
+        "quality": "MEANINGFUL",
+        "reasons": "meaningful_decision_page"
+      },
+      {
+        "slug": "maurten-gel-100-vs-precision-pf30-gel",
+        "running": true,
+        "elig": "INDEXABLE",
+        "quality": "MEANINGFUL",
+        "reasons": "meaningful_decision_page"
+      },
+      {
+        "slug": "maurten-drink-mix-320-vs-tailwind-endurance",
+        "running": true,
+        "elig": "INDEXABLE",
+        "quality": "MEANINGFUL",
+        "reasons": "meaningful_decision_page"
+      },
+      {
+        "slug": "sis-beta-fuel-gel-vs-neversecond-c30-gel",
+        "running": true,
+        "elig": "INDEXABLE",
+        "quality": "MEANINGFUL",
+        "reasons": "meaningful_decision_page"
+      },
+      {
+        "slug": "clif-bloks-vs-gu-chews",
+        "running": true,
+        "elig": "INDEXABLE",
+        "quality": "MEANINGFUL",
+        "reasons": "meaningful_decision_page"
+      },
+      {
+        "slug": "nuun-sport-vs-precision-ph1500",
+        "running": true,
+        "elig": "INDEXABLE",
+        "quality": "MEANINGFUL",
+        "reasons": "meaningful_decision_page"
+      },
+      {
+        "slug": "theragun-mini-vs-hypervolt-go-2",
+        "running": true,
+        "elig": "INDEXABLE",
+        "quality": "MEANINGFUL",
+        "reasons": "meaningful_decision_page"
+      },
+      {
+        "slug": "theragun-prime-vs-renpho-r3",
+        "running": true,
+        "elig": "INDEXABLE",
+        "quality": "MEANINGFUL",
+        "reasons": "meaningful_decision_page"
+      },
+      {
+        "slug": "triggerpoint-grid-vs-grid-x",
+        "running": true,
+        "elig": "INDEXABLE",
+        "quality": "MEANINGFUL",
+        "reasons": "meaningful_decision_page"
+      },
+      {
+        "slug": "normatec-3-vs-normatec-go",
+        "running": true,
+        "elig": "INDEXABLE",
+        "quality": "MEANINGFUL",
+        "reasons": "meaningful_decision_page"
+      },
+      {
+        "slug": "oofos-ooriginal-vs-hoka-ora-recovery-slide",
+        "running": true,
+        "elig": "INDEXABLE",
+        "quality": "MEANINGFUL",
+        "reasons": "meaningful_decision_page"
+      },
+      {
+        "slug": "asics-novablast-5-vs-asics-gel-nimbus-27",
+        "running": true,
+        "elig": "INDEXABLE",
+        "quality": "MEANINGFUL",
+        "reasons": "meaningful_decision_page"
+      },
+      {
+        "slug": "asics-novablast-5-vs-brooks-ghost-16",
+        "running": true,
+        "elig": "INDEXABLE",
+        "quality": "MEANINGFUL",
+        "reasons": "meaningful_decision_page"
+      },
+      {
+        "slug": "asics-novablast-4-vs-asics-novablast-5",
+        "running": true,
+        "elig": "INDEXABLE",
+        "quality": "MEANINGFUL",
+        "reasons": "meaningful_decision_page"
+      }
+    ],
+    "nonRunning": [
+      {
+        "slug": "brooks-dare-crossback-vs-lululemon-energy-bra",
+        "running": false,
+        "elig": "HIDDEN_404",
+        "quality": "BLOCKED",
+        "reasons": "vertical_hold"
+      },
+      {
+        "slug": "jabra-elite-8-active-vs-beats-powerbeats-pro-2",
+        "running": false,
+        "elig": "HIDDEN_404",
+        "quality": "BLOCKED",
+        "reasons": "vertical_hold"
+      },
+      {
+        "slug": "knog-frog-v3-vs-nite-ize-radiant-clip",
+        "running": false,
+        "elig": "HIDDEN_404",
+        "quality": "BLOCKED",
+        "reasons": "vertical_hold"
+      },
+      {
+        "slug": "triggerpoint-grid-vs-rumbleroller",
+        "running": false,
+        "elig": "HIDDEN_404",
+        "quality": "BLOCKED",
+        "reasons": "vertical_hold"
+      },
+      {
+        "slug": "nox-at10-genius-18k-2026-vs-bullpadel-vertex-04-2026",
+        "running": false,
+        "elig": "HIDDEN_404",
+        "quality": "BLOCKED",
+        "reasons": "vertical_hold"
+      },
+      {
+        "slug": "babolat-technical-viper-2026-vs-wilson-bela-pro-v2-2026",
+        "running": false,
+        "elig": "HIDDEN_404",
+        "quality": "BLOCKED",
+        "reasons": "vertical_hold"
+      },
+      {
+        "slug": "head-coello-pro-2026-vs-siux-diablo-revolution-2026",
+        "running": false,
+        "elig": "HIDDEN_404",
+        "quality": "BLOCKED",
+        "reasons": "vertical_hold"
+      },
+      {
+        "slug": "nox-at10-genius-18k-2026-vs-babolat-technical-viper-2026",
+        "running": false,
+        "elig": "HIDDEN_404",
+        "quality": "BLOCKED",
+        "reasons": "vertical_hold"
+      },
+      {
+        "slug": "bullpadel-vertex-05-vs-hack-04-2026",
+        "running": false,
+        "elig": "HIDDEN_404",
+        "quality": "BLOCKED",
+        "reasons": "vertical_hold"
+      },
+      {
+        "slug": "nox-at10-12k-vs-adidas-metalbone-2026",
+        "running": false,
+        "elig": "HIDDEN_404",
+        "quality": "BLOCKED",
+        "reasons": "vertical_hold"
+      },
+      {
+        "slug": "bullpadel-vertex-05-vs-nox-at10-12k-2026",
+        "running": false,
+        "elig": "HIDDEN_404",
+        "quality": "BLOCKED",
+        "reasons": "vertical_hold"
+      },
+      {
+        "slug": "babolat-pure-drive-2025-vs-wilson-clash-100-v2",
+        "running": false,
+        "elig": "HIDDEN_404",
+        "quality": "BLOCKED",
+        "reasons": "vertical_hold"
+      },
+      {
+        "slug": "wilson-blade-98-v8-vs-yonex-ezone-98-2024",
+        "running": false,
+        "elig": "HIDDEN_404",
+        "quality": "BLOCKED",
+        "reasons": "vertical_hold"
+      },
+      {
+        "slug": "wilson-blade-98-v9-vs-babolat-pure-drive-gen11",
+        "running": false,
+        "elig": "HIDDEN_404",
+        "quality": "BLOCKED",
+        "reasons": "vertical_hold"
+      },
+      {
+        "slug": "yonex-ezone-100-2025-vs-wilson-clash-100-v3",
+        "running": false,
+        "elig": "HIDDEN_404",
+        "quality": "BLOCKED",
+        "reasons": "vertical_hold"
+      },
+      {
+        "slug": "babolat-pure-aero-2026-vs-yonex-vcore-100-2023",
+        "running": false,
+        "elig": "HIDDEN_404",
+        "quality": "BLOCKED",
+        "reasons": "vertical_hold"
+      },
+      {
+        "slug": "nuobell-80-vs-powerblock-pro-100",
+        "running": false,
+        "elig": "HIDDEN_404",
+        "quality": "BLOCKED",
+        "reasons": "vertical_hold"
+      },
+      {
+        "slug": "rogue-rml-390f-vs-rep-pr-4000",
+        "running": false,
+        "elig": "HIDDEN_404",
+        "quality": "BLOCKED",
+        "reasons": "vertical_hold"
+      },
+      {
+        "slug": "nike-metcon-9-vs-reebok-nano-x4",
+        "running": false,
+        "elig": "HIDDEN_404",
+        "quality": "BLOCKED",
+        "reasons": "vertical_hold"
+      },
+      {
+        "slug": "nike-metcon-9-vs-adidas-dropset-3",
+        "running": false,
+        "elig": "HIDDEN_404",
+        "quality": "BLOCKED",
+        "reasons": "vertical_hold"
+      },
+      {
+        "slug": "reebok-nano-x4-vs-tyr-cxt-2",
+        "running": false,
+        "elig": "HIDDEN_404",
+        "quality": "BLOCKED",
+        "reasons": "vertical_hold"
+      },
+      {
+        "slug": "nobull-trainer-vs-nike-metcon-9",
+        "running": false,
+        "elig": "HIDDEN_404",
+        "quality": "BLOCKED",
+        "reasons": "vertical_hold"
+      },
+      {
+        "slug": "inov8-f-lite-235-v3-vs-reebok-nano-x4",
+        "running": false,
+        "elig": "HIDDEN_404",
+        "quality": "BLOCKED",
+        "reasons": "vertical_hold"
+      },
+      {
+        "slug": "nike-romaleos-5-vs-adidas-adipower-3",
+        "running": false,
+        "elig": "HIDDEN_404",
+        "quality": "BLOCKED",
+        "reasons": "vertical_hold"
+      },
+      {
+        "slug": "adidas-powerlift-5-vs-nike-romaleos-5",
+        "running": false,
+        "elig": "HIDDEN_404",
+        "quality": "BLOCKED",
+        "reasons": "vertical_hold"
+      },
+      {
+        "slug": "nike-free-metcon-6-vs-reebok-nano-x4",
+        "running": false,
+        "elig": "HIDDEN_404",
+        "quality": "BLOCKED",
+        "reasons": "vertical_hold"
+      },
+      {
+        "slug": "adidas-dropset-3-vs-adidas-the-total",
+        "running": false,
+        "elig": "HIDDEN_404",
+        "quality": "BLOCKED",
+        "reasons": "vertical_hold"
+      },
+      {
+        "slug": "puma-fuse-3-vs-ua-tribase-reign-6",
+        "running": false,
+        "elig": "HIDDEN_404",
+        "quality": "BLOCKED",
+        "reasons": "vertical_hold"
+      },
+      {
+        "slug": "tyr-cxt-1-vs-tyr-cxt-2",
+        "running": false,
+        "elig": "HIDDEN_404",
+        "quality": "BLOCKED",
+        "reasons": "vertical_hold"
+      },
+      {
+        "slug": "concept2-rowerg-vs-mirafit-magnetic-rower",
+        "running": false,
+        "elig": "HIDDEN_404",
+        "quality": "BLOCKED",
+        "reasons": "vertical_hold"
+      },
+      {
+        "slug": "rogue-echo-bike-vs-assaultbike-elite",
+        "running": false,
+        "elig": "HIDDEN_404",
+        "quality": "BLOCKED",
+        "reasons": "vertical_hold"
+      },
+      {
+        "slug": "sole-f80-vs-horizon-t202",
+        "running": false,
+        "elig": "HIDDEN_404",
+        "quality": "BLOCKED",
+        "reasons": "vertical_hold"
+      },
+      {
+        "slug": "concept2-rowerg-vs-hydrow-wave",
+        "running": false,
+        "elig": "HIDDEN_404",
+        "quality": "BLOCKED",
+        "reasons": "vertical_hold"
+      }
+    ]
+  },
+  "tools": [
+    {
+      "slug": "running-shoe-finder",
+      "sportIds": [
+        "sport-running"
+      ],
+      "elig": "INDEXABLE",
+      "reasons": "tool_available"
+    },
+    {
+      "slug": "fitness-watch-finder",
+      "sportIds": [
+        "sport-running",
+        "sport-training"
+      ],
+      "elig": "INDEXABLE",
+      "reasons": "tool_available"
+    },
+    {
+      "slug": "running-pace-calculator",
+      "sportIds": [
+        "sport-running"
+      ],
+      "elig": "INDEXABLE",
+      "reasons": "tool_available"
+    },
+    {
+      "slug": "race-time-predictor",
+      "sportIds": [
+        "sport-running"
+      ],
+      "elig": "INDEXABLE",
+      "reasons": "tool_available"
+    },
+    {
+      "slug": "shoe-rotation-planner",
+      "sportIds": [
+        "sport-running"
+      ],
+      "elig": "INDEXABLE",
+      "reasons": "tool_available"
+    },
+    {
+      "slug": "running-hydration-finder",
+      "sportIds": [
+        "sport-running"
+      ],
+      "elig": "INDEXABLE",
+      "reasons": "tool_available"
+    },
+    {
+      "slug": "running-hrm-finder",
+      "sportIds": [
+        "sport-running"
+      ],
+      "elig": "INDEXABLE",
+      "reasons": "tool_available"
+    },
+    {
+      "slug": "running-clothing-finder",
+      "sportIds": [
+        "sport-running"
+      ],
+      "elig": "INDEXABLE",
+      "reasons": "tool_available"
+    },
+    {
+      "slug": "running-fuel-finder",
+      "sportIds": [
+        "sport-running"
+      ],
+      "elig": "INDEXABLE",
+      "reasons": "tool_available"
+    },
+    {
+      "slug": "running-recovery-finder",
+      "sportIds": [
+        "sport-running"
+      ],
+      "elig": "INDEXABLE",
+      "reasons": "tool_available"
+    },
+    {
+      "slug": "running-accessories-finder",
+      "sportIds": [
+        "sport-running"
+      ],
+      "elig": "INDEXABLE",
+      "reasons": "tool_available"
+    },
+    {
+      "slug": "compare-products",
+      "sportIds": [],
+      "elig": "INDEXABLE",
+      "reasons": "tool_available"
+    },
+    {
+      "slug": "home-gym-builder",
+      "sportIds": [
+        "sport-training"
+      ],
+      "elig": "INDEXABLE",
+      "reasons": "tool_available"
+    },
+    {
+      "slug": "hyrox-shoe-finder",
+      "sportIds": [
+        "sport-training",
+        "sport-hyrox"
+      ],
+      "elig": "INDEXABLE",
+      "reasons": "tool_available"
+    },
+    {
+      "slug": "training-shoe-finder",
+      "sportIds": [
+        "sport-training"
+      ],
+      "elig": "INDEXABLE",
+      "reasons": "tool_available"
+    },
+    {
+      "slug": "adjustable-dumbbell-finder",
+      "sportIds": [
+        "sport-training"
+      ],
+      "elig": "INDEXABLE",
+      "reasons": "tool_available"
+    },
+    {
+      "slug": "power-rack-finder",
+      "sportIds": [
+        "sport-training"
+      ],
+      "elig": "INDEXABLE",
+      "reasons": "tool_available"
+    },
+    {
+      "slug": "pull-up-bar-finder",
+      "sportIds": [
+        "sport-training",
+        "sport-calisthenics"
+      ],
+      "elig": "INDEXABLE",
+      "reasons": "tool_available"
+    },
+    {
+      "slug": "one-rep-max-calculator",
+      "sportIds": [
+        "sport-training"
+      ],
+      "elig": "INDEXABLE",
+      "reasons": "tool_available"
+    },
+    {
+      "slug": "plate-calculator",
+      "sportIds": [
+        "sport-training"
+      ],
+      "elig": "INDEXABLE",
+      "reasons": "tool_available"
+    },
+    {
+      "slug": "treadmill-finder",
+      "sportIds": [
+        "sport-training"
+      ],
+      "elig": "INDEXABLE",
+      "reasons": "tool_available"
+    },
+    {
+      "slug": "hyrox-race-kit-builder",
+      "sportIds": [
+        "sport-hyrox",
+        "sport-training"
+      ],
+      "elig": "INDEXABLE",
+      "reasons": "tool_available"
+    },
+    {
+      "slug": "hyrox-race-time-calculator",
+      "sportIds": [
+        "sport-hyrox",
+        "sport-training"
+      ],
+      "elig": "INDEXABLE",
+      "reasons": "tool_available"
+    },
+    {
+      "slug": "padel-racket-finder",
+      "sportIds": [
+        "sport-padel"
+      ],
+      "elig": "INDEXABLE",
+      "reasons": "tool_available"
+    },
+    {
+      "slug": "tennis-racket-finder",
+      "sportIds": [
+        "sport-tennis"
+      ],
+      "elig": "INDEXABLE",
+      "reasons": "tool_available"
+    }
+  ]
+}

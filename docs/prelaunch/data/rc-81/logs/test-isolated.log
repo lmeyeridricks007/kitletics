@@ -1,0 +1,109 @@
+
+> kitletics@0.1.0 test
+> vitest run
+
+(!) Your Vite config uses features that are unsupported by `configLoader: 'native'`, which is planned to become the default in a future major version of Vite:
+  - ESM syntax in a file loaded as CommonJS (vitest.config.ts:1:1). Use a `.mjs` extension or set `"type": "module"` in the closest package.json
+Set `VITE_CONFIG_NATIVE_IGNORE_WARNING=true` to suppress this warning.
+
+ RUN  v4.1.11 /Users/LMeyeridricks/Documents/coding/kitletics
+
+ ❯ tests/sitemap-lastmod.test.ts (10 tests | 1 failed) 146504ms
+     × does not mass-stamp SEED_DATES.verified or updated on indexable URLs 146420ms
+ ❯ tests/comparison.test.ts (23 tests | 1 failed) 148370ms
+     × excludes broken-peer comparisons from the sitemap 144440ms
+ ❯ tests/seo-indexation.test.ts (8 tests | 1 failed) 148976ms
+     × sitemap brands are a subset of indexable hubs 147867ms
+ ❯ tests/launch-eligibility.test.ts (12 tests | 1 failed) 166378ms
+     × indexes Best guides by LAUNCH_READY + vertical policy — not an absolute count ceiling 141968ms
+ ❯ tests/gear-hub.test.ts (5 tests | 1 failed) 190687ms
+     × assembles cross-sport hub with real published counts 134326ms
+ ❯ tests/product-quality-assessor-consistency.test.ts (3 tests | 1 failed) 247871ms
+     × domain quality matches eligibility quality for all Running products 244905ms
+
+⎯⎯⎯⎯⎯⎯⎯ Failed Tests 6 ⎯⎯⎯⎯⎯⎯⎯
+
+ FAIL  tests/comparison.test.ts > Comparison page data > excludes broken-peer comparisons from the sitemap
+Error: Test timed out in 120000ms.
+If this is a long-running test, pass a timeout value as the last argument or configure it globally with "testTimeout".
+ ❯ tests/comparison.test.ts:340:3
+    338|   });
+    339|
+    340|   it("excludes broken-peer comparisons from the sitemap", () => {
+       |   ^
+    341|     const paths = new Set(
+    342|       sitemap().map((e) => e.url.replace(siteConfig.url, "") || "/"),
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/6]⎯
+
+ FAIL  tests/gear-hub.test.ts > Gear Hub > assembles cross-sport hub with real published counts
+Error: Test timed out in 120000ms.
+If this is a long-running test, pass a timeout value as the last argument or configure it globally with "testTimeout".
+ ❯ tests/gear-hub.test.ts:5:3
+      3|
+      4| describe("Gear Hub", () => {
+      5|   it("assembles cross-sport hub with real published counts", () => {
+       |   ^
+      6|     const data = getGearHubData({ region: "NL" });
+      7|     expect(data.hero.titleLines[0]).toBe("All the gear.");
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[2/6]⎯
+
+ FAIL  tests/launch-eligibility.test.ts > launch eligibility > indexes Best guides by LAUNCH_READY + vertical policy — not an absolute count ceiling
+Error: Test timed out in 120000ms.
+If this is a long-running test, pass a timeout value as the last argument or configure it globally with "testTimeout".
+ ❯ tests/launch-eligibility.test.ts:26:3
+     24|
+     25| describe("launch eligibility", () => {
+     26|   it(
+       |   ^
+     27|     "indexes Best guides by LAUNCH_READY + vertical policy — not an ab…
+     28|     () => {
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[3/6]⎯
+
+ FAIL  tests/product-quality-assessor-consistency.test.ts > product quality assessor consistency (Fix 34) > domain quality matches eligibility quality for all Running products
+Error: Test timed out in 180000ms.
+If this is a long-running test, pass a timeout value as the last argument or configure it globally with "testTimeout".
+ ❯ tests/product-quality-assessor-consistency.test.ts:55:3
+     53|   });
+     54|
+     55|   it("domain quality matches eligibility quality for all Running produ…
+       |   ^
+     56|     const running = getProducts(PROD).filter((p) =>
+     57|       p.sportIds.includes("sport-running"),
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[4/6]⎯
+
+ FAIL  tests/seo-indexation.test.ts > Brand hub sitemap eligibility > sitemap brands are a subset of indexable hubs
+Error: Test timed out in 120000ms.
+If this is a long-running test, pass a timeout value as the last argument or configure it globally with "testTimeout".
+ ❯ tests/seo-indexation.test.ts:39:3
+     37|   });
+     38|
+     39|   it("sitemap brands are a subset of indexable hubs", () => {
+       |   ^
+     40|     const entries = sitemap();
+     41|     const brandUrls = entries
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[5/6]⎯
+
+ FAIL  tests/sitemap-lastmod.test.ts > sitemap lastmod integrity > does not mass-stamp SEED_DATES.verified or updated on indexable URLs
+Error: Test timed out in 120000ms.
+If this is a long-running test, pass a timeout value as the last argument or configure it globally with "testTimeout".
+ ❯ tests/sitemap-lastmod.test.ts:63:3
+     61|
+     62| describe("sitemap lastmod integrity", () => {
+     63|   it("does not mass-stamp SEED_DATES.verified or updated on indexable …
+       |   ^
+     64|     const entries = sitemap();
+     65|     expect(entries.length).toBeGreaterThan(100);
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[6/6]⎯
+
+
+ Test Files  6 failed | 53 passed (59)
+      Tests  6 failed | 603 passed (609)
+   Start at  21:22:35
+   Duration  541.83s (transform 201.70s, setup 0ms, import 1679.41s, tests 1921.63s, environment 9ms)
+

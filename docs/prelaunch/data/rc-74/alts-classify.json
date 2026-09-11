@@ -1,0 +1,15 @@
+{
+  "withGraph": 481,
+  "counts": {
+    "READY": 459,
+    "HOLD_INSUFFICIENT_ALTERNATIVE_MARKET": 21,
+    "HOLD_DUPLICATE_INTENT": 1,
+    "THIN_UNEXPLAINED": 0
+  },
+  "finalFour": {
+    "ciele-gocap-athletics": "HOLD_INSUFFICIENT_ALTERNATIVE_MARKET",
+    "brooks-notch-thermal-beanie": "HOLD_INSUFFICIENT_ALTERNATIVE_MARKET",
+    "horizon-t202-treadmill": "HOLD_INSUFFICIENT_ALTERNATIVE_MARKET",
+    "woodway-curve-trainer": "HOLD_INSUFFICIENT_ALTERNATIVE_MARKET"
+  }
+}

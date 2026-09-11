@@ -1,0 +1,107 @@
+[
+  {
+    "path": "public/images/search/qa/search-running-shoes-mobile-390.png",
+    "bytes": 1040003,
+    "reasons": [
+      "qa_path"
+    ]
+  },
+  {
+    "path": "public/images/search/qa/search-running-shoes-viewport-1440.png",
+    "bytes": 267369,
+    "reasons": [
+      "qa_path"
+    ]
+  },
+  {
+    "path": "public/images/search/qa/search-running-shoes-full-1440.png",
+    "bytes": 606577,
+    "reasons": [
+      "qa_path"
+    ]
+  },
+  {
+    "path": "public/images/product/qa/adrenaline-pdp-1440.png",
+    "bytes": 196138,
+    "reasons": [
+      "qa_path"
+    ]
+  },
+  {
+    "path": "public/images/product/qa/adrenaline-review-1440.png",
+    "bytes": 403369,
+    "reasons": [
+      "qa_path"
+    ]
+  },
+  {
+    "path": "public/images/gear/qa/gear-hub-mobile-390.png",
+    "bytes": 695267,
+    "reasons": [
+      "qa_path"
+    ]
+  },
+  {
+    "path": "public/images/gear/qa/gear-hub-full-1440.png",
+    "bytes": 1072532,
+    "reasons": [
+      "qa_path"
+    ]
+  },
+  {
+    "path": "public/images/gear/qa/gear-hub-viewport-1440.png",
+    "bytes": 368302,
+    "reasons": [
+      "qa_path"
+    ]
+  },
+  {
+    "path": "public/images/brands/qa/asics-brand-hub-mobile-390.png",
+    "bytes": 496779,
+    "reasons": [
+      "qa_path"
+    ]
+  },
+  {
+    "path": "public/images/brands/qa/asics-brand-hub-viewport-1440.png",
+    "bytes": 175928,
+    "reasons": [
+      "qa_path"
+    ]
+  },
+  {
+    "path": "public/images/brands/qa/asics-brand-hub-1440.png",
+    "bytes": 1370928,
+    "reasons": [
+      "qa_path"
+    ]
+  },
+  {
+    "path": "public/images/brands/qa/garmin-brand-hub-smoke-1440.png",
+    "bytes": 123892,
+    "reasons": [
+      "qa_path"
+    ]
+  },
+  {
+    "path": "public/images/brands/qa/asics-brand-hub-full-1440.png",
+    "bytes": 589501,
+    "reasons": [
+      "qa_path"
+    ]
+  },
+  {
+    "path": "public/images/brands/qa/nike-brand-hub-smoke-1440.png",
+    "bytes": 152867,
+    "reasons": [
+      "qa_path"
+    ]
+  },
+  {
+    "path": "public/images/brands/qa/rogue-brand-hub-smoke-1440.png",
+    "bytes": 121524,
+    "reasons": [
+      "qa_path"
+    ]
+  }
+]

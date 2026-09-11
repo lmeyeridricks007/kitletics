@@ -1,0 +1,140 @@
+{
+  "measuredAt": "2026-09-09T07:21:23.713Z",
+  "n": 660,
+  "withLastmod": 0,
+  "withoutLastmod": 660,
+  "uniqueLastmodDays": 0,
+  "topDates": [],
+  "futureCount": 0,
+  "seedCluster": 0,
+  "byPrefix": {
+    "home": {
+      "n": 1,
+      "withLastmod": 0,
+      "without": 1
+    },
+    "gear": {
+      "n": 1,
+      "withLastmod": 0,
+      "without": 1
+    },
+    "brands": {
+      "n": 104,
+      "withLastmod": 0,
+      "without": 104
+    },
+    "best": {
+      "n": 45,
+      "withLastmod": 0,
+      "without": 45
+    },
+    "compare": {
+      "n": 52,
+      "withLastmod": 0,
+      "without": 52
+    },
+    "reviews": {
+      "n": 44,
+      "withLastmod": 0,
+      "without": 44
+    },
+    "guides": {
+      "n": 35,
+      "withLastmod": 0,
+      "without": 35
+    },
+    "tools": {
+      "n": 12,
+      "withLastmod": 0,
+      "without": 12
+    },
+    "setups": {
+      "n": 6,
+      "withLastmod": 0,
+      "without": 6
+    },
+    "about": {
+      "n": 1,
+      "withLastmod": 0,
+      "without": 1
+    },
+    "methodology": {
+      "n": 1,
+      "withLastmod": 0,
+      "without": 1
+    },
+    "how-we-review": {
+      "n": 1,
+      "withLastmod": 0,
+      "without": 1
+    },
+    "editorial-policy": {
+      "n": 1,
+      "withLastmod": 0,
+      "without": 1
+    },
+    "evidence-policy": {
+      "n": 1,
+      "withLastmod": 0,
+      "without": 1
+    },
+    "scoring-methodology": {
+      "n": 1,
+      "withLastmod": 0,
+      "without": 1
+    },
+    "authors": {
+      "n": 2,
+      "withLastmod": 0,
+      "without": 2
+    },
+    "affiliate-disclosure": {
+      "n": 1,
+      "withLastmod": 0,
+      "without": 1
+    },
+    "contact": {
+      "n": 1,
+      "withLastmod": 0,
+      "without": 1
+    },
+    "privacy": {
+      "n": 1,
+      "withLastmod": 0,
+      "without": 1
+    },
+    "terms": {
+      "n": 1,
+      "withLastmod": 0,
+      "without": 1
+    },
+    "running": {
+      "n": 23,
+      "withLastmod": 0,
+      "without": 23
+    },
+    "products": {
+      "n": 251,
+      "withLastmod": 0,
+      "without": 251
+    },
+    "alternatives": {
+      "n": 74,
+      "withLastmod": 0,
+      "without": 74
+    }
+  },
+  "policy": {
+    "omitWhenUnknown": true,
+    "excludeSeedDates": true,
+    "excludeLastVerifiedAt": true,
+    "excludeBuildDeployToday": true
+  },
+  "SEED_DATES": {
+    "created": "2026-01-15T10:00:00.000Z",
+    "updated": "2026-09-01T08:00:00.000Z",
+    "published": "2026-02-01T10:00:00.000Z",
+    "verified": "2026-09-09T06:04:57.161Z",
+    "scheduledFuture": "2027-06-01T10:00:00.000Z"
+  }
+}

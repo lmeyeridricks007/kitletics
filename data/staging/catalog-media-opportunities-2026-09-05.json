@@ -1,0 +1,109 @@
+{
+  "generatedAt": "2026-09-05T10:14:34.440Z",
+  "published": 412,
+  "drafts": 300,
+  "draftWithRegistry": 0,
+  "draftReadyOnDisk": 0,
+  "draftReadyIds": [],
+  "draftNoMediaCount": 300,
+  "draftByCategory": [
+    [
+      "cat-running-clothing",
+      64
+    ],
+    [
+      "cat-nutrition",
+      38
+    ],
+    [
+      "cat-recovery-gear",
+      27
+    ],
+    [
+      "cat-packs-vests",
+      23
+    ],
+    [
+      "cat-sunglasses",
+      17
+    ],
+    [
+      "cat-padel-shoes",
+      17
+    ],
+    [
+      "cat-tennis-shoes",
+      16
+    ],
+    [
+      "cat-running-lights",
+      13
+    ],
+    [
+      "cat-safety",
+      13
+    ],
+    [
+      "cat-hydration",
+      12
+    ],
+    [
+      "cat-accessories",
+      12
+    ],
+    [
+      "cat-headphones",
+      11
+    ],
+    [
+      "cat-running-socks",
+      8
+    ],
+    [
+      "cat-tennis-strings",
+      6
+    ],
+    [
+      "cat-pickleball-paddles",
+      6
+    ],
+    [
+      "cat-badminton-rackets",
+      6
+    ],
+    [
+      "cat-running-belts",
+      5
+    ],
+    [
+      "cat-squash-rackets",
+      5
+    ],
+    [
+      "cat-padel-bags",
+      1
+    ]
+  ],
+  "sharedHeroGroups": 2,
+  "sharedHeroSamples": [
+    {
+      "hash": "09e338871166",
+      "products": [
+        "prod-nathan-mirage → /images/packs/products/nathan-mirage-pak-hero.jpg",
+        "prod-nathan-reflective-vest → /images/packs/products/nathan-streak-reflective-vest-hero.jpg"
+      ]
+    },
+    {
+      "hash": "216dff052333",
+      "products": [
+        "prod-tyr-cxt-1 → /images/training/products/tyr-cxt-1-hero.jpg",
+        "prod-tyr-cxt1-trainer → /images/training/products/tyr-cxt1-trainer-hero.jpg"
+      ]
+    }
+  ],
+  "registryOrphans": 0,
+  "registryOrphanSamples": [],
+  "publishedReviews": 412,
+  "reviewsMissingSectionSets": 0,
+  "missingSectionSamples": []
+}

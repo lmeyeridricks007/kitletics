@@ -1,0 +1,1760 @@
+{
+  "prod-1080-v13": [
+    {
+      "productId": "prod-1080-v13",
+      "src": "/images/running/products/1080-v13/gallery/side-3.jpg",
+      "sourceUrl": "https://nb.scene7.com/is/image/NB/m1080k13_nb_03_i?$pdpflexf22x$&wid=1200&hei=1200",
+      "source": "Manufacturer product CDN (New Balance Scene7)",
+      "licence": "manufacturer-marketing",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1200,
+      "height": 1200,
+      "usageType": "side"
+    },
+    {
+      "productId": "prod-1080-v13",
+      "src": "/images/running/products/1080-v13/gallery/outsole-4.webp",
+      "sourceUrl": "https://nb.scene7.com/is/image/NB/m1080k13_nb_04_i?$pdpflexf22x$&wid=1200&hei=1200",
+      "source": "Manufacturer product CDN (New Balance Scene7)",
+      "licence": "manufacturer-marketing",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1000,
+      "height": 1000,
+      "usageType": "outsole"
+    },
+    {
+      "productId": "prod-1080-v13",
+      "src": "/images/running/products/1080-v13/gallery/rear-5.webp",
+      "sourceUrl": "https://nb.scene7.com/is/image/NB/m1080k13_nb_05_i?$pdpflexf22x$&wid=1200&hei=1200",
+      "source": "Manufacturer product CDN (New Balance Scene7)",
+      "licence": "manufacturer-marketing",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1000,
+      "height": 1000,
+      "usageType": "rear"
+    },
+    {
+      "productId": "prod-1080-v13",
+      "src": "/images/running/products/1080-v13/gallery/detail-6.webp",
+      "sourceUrl": "https://nb.scene7.com/is/image/NB/m1080k13_nb_06_i?$pdpflexf22x$&wid=1200&hei=1200",
+      "source": "Manufacturer product CDN (New Balance Scene7)",
+      "licence": "manufacturer-marketing",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1000,
+      "height": 1000,
+      "usageType": "detail"
+    },
+    {
+      "productId": "prod-1080-v13",
+      "src": "/images/running/products/1080-v13/gallery/top-7.webp",
+      "sourceUrl": "https://nb.scene7.com/is/image/NB/m1080k13_nb_07_i?$pdpflexf22x$&wid=1200&hei=1200",
+      "source": "Manufacturer product CDN (New Balance Scene7)",
+      "licence": "manufacturer-marketing",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1000,
+      "height": 1000,
+      "usageType": "top"
+    }
+  ],
+  "prod-adrenaline-gts-25": [
+    {
+      "productId": "prod-adrenaline-gts-25",
+      "src": "/images/running/products/adrenaline-gts-25/gallery/side.jpg",
+      "sourceUrl": "https://cdn11.bigcommerce.com/s-i8lklasqiy/images/stencil/1280x1280/products/180295/229960/Brooks_110454-090-MEN_BlackWhite2__03518.1776954437.jpg",
+      "source": "Authorized retailer product photography (BigCommerce CDN)",
+      "licence": "retailer-authorized",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1200,
+      "height": 1200,
+      "usageType": "side"
+    },
+    {
+      "productId": "prod-adrenaline-gts-25",
+      "src": "/images/running/products/adrenaline-gts-25/gallery/detail.jpg",
+      "sourceUrl": "https://cdn11.bigcommerce.com/s-i8lklasqiy/images/stencil/1280x1280/products/180295/229960/Brooks_110454-090-MEN_BlackWhite3__03518.1776954437.jpg",
+      "source": "Authorized retailer product photography (BigCommerce CDN)",
+      "licence": "retailer-authorized",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1200,
+      "height": 1200,
+      "usageType": "detail"
+    },
+    {
+      "productId": "prod-adrenaline-gts-25",
+      "src": "/images/running/products/adrenaline-gts-25/gallery/rear.jpg",
+      "sourceUrl": "https://cdn11.bigcommerce.com/s-i8lklasqiy/images/stencil/1280x1280/products/180295/229960/Brooks_110454-090-MEN_BlackWhite4__03518.1776954437.jpg",
+      "source": "Authorized retailer product photography (BigCommerce CDN)",
+      "licence": "retailer-authorized",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1200,
+      "height": 1200,
+      "usageType": "rear"
+    },
+    {
+      "productId": "prod-adrenaline-gts-25",
+      "src": "/images/running/products/adrenaline-gts-25/gallery/outsole.jpg",
+      "sourceUrl": "https://cdn11.bigcommerce.com/s-i8lklasqiy/images/stencil/1280x1280/products/180295/229960/Brooks_110454-090-MEN_BlackWhite5__03518.1776954437.jpg",
+      "source": "Authorized retailer product photography (BigCommerce CDN)",
+      "licence": "retailer-authorized",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1200,
+      "height": 1200,
+      "usageType": "outsole"
+    }
+  ],
+  "prod-adv-skin-12": [
+    {
+      "productId": "prod-adv-skin-12",
+      "src": "/images/packs/products/salomon-adv-skin-12/gallery/side.jpg",
+      "sourceUrl": "https://img.runningwarehouse.com/watermark/rs.php?path=SADV129-BK-1.jpg",
+      "source": "Authorized retailer product photography (Running Warehouse)",
+      "licence": "retailer-authorized",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1200,
+      "height": 1600,
+      "usageType": "side"
+    },
+    {
+      "productId": "prod-adv-skin-12",
+      "src": "/images/packs/products/salomon-adv-skin-12/gallery/detail.jpg",
+      "sourceUrl": "https://img.runningwarehouse.com/watermark/rs.php?path=SADV129-BK-2.jpg",
+      "source": "Authorized retailer product photography (Running Warehouse)",
+      "licence": "retailer-authorized",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1200,
+      "height": 1600,
+      "usageType": "detail"
+    },
+    {
+      "productId": "prod-adv-skin-12",
+      "src": "/images/packs/products/salomon-adv-skin-12/gallery/rear.jpg",
+      "sourceUrl": "https://img.runningwarehouse.com/watermark/rs.php?path=SADV129-BK-3.jpg",
+      "source": "Authorized retailer product photography (Running Warehouse)",
+      "licence": "retailer-authorized",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1200,
+      "height": 1600,
+      "usageType": "rear"
+    },
+    {
+      "productId": "prod-adv-skin-12",
+      "src": "/images/packs/products/salomon-adv-skin-12/gallery/top.jpg",
+      "sourceUrl": "https://img.runningwarehouse.com/watermark/rs.php?path=SADV129-BK-4.jpg",
+      "source": "Authorized retailer product photography (Running Warehouse)",
+      "licence": "retailer-authorized",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1199,
+      "height": 1600,
+      "usageType": "top"
+    }
+  ],
+  "prod-coros-apex-2-pro": [
+    {
+      "productId": "prod-coros-apex-2-pro",
+      "src": "/images/watches/products/coros-apex-2-pro/gallery/side-1.png",
+      "sourceUrl": "https://cdn.shopify.com/s/files/1/1672/6075/products/apex2comparison.png?v=1756282365",
+      "source": "Manufacturer / authorized retailer product photography",
+      "licence": "manufacturer-marketing",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1000,
+      "height": 1000,
+      "usageType": "side"
+    },
+    {
+      "productId": "prod-coros-apex-2-pro",
+      "src": "/images/watches/products/coros-apex-2-pro/gallery/detail-2.png",
+      "sourceUrl": "https://cdn.shopify.com/s/files/1/1672/6075/files/APEX2DustyPink1.png?v=1752226462",
+      "source": "Manufacturer / authorized retailer product photography",
+      "licence": "manufacturer-marketing",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1000,
+      "height": 1000,
+      "usageType": "detail"
+    },
+    {
+      "productId": "prod-coros-apex-2-pro",
+      "src": "/images/watches/products/coros-apex-2-pro/gallery/rear-3.png",
+      "sourceUrl": "https://cdn.shopify.com/s/files/1/1672/6075/products/APEX2Coral-1.png?v=1752226599",
+      "source": "Manufacturer / authorized retailer product photography",
+      "licence": "manufacturer-marketing",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1000,
+      "height": 1000,
+      "usageType": "rear"
+    },
+    {
+      "productId": "prod-coros-apex-2-pro",
+      "src": "/images/watches/products/coros-apex-2-pro/gallery/top-4.png",
+      "sourceUrl": "https://cdn.shopify.com/s/files/1/1672/6075/products/APEX2Grey-1.png?v=1752226605",
+      "source": "Manufacturer / authorized retailer product photography",
+      "licence": "manufacturer-marketing",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1000,
+      "height": 1000,
+      "usageType": "top"
+    }
+  ],
+  "prod-coros-apex-4": [
+    {
+      "productId": "prod-coros-apex-4",
+      "src": "/images/watches/products/coros-apex-4/gallery/side-1.png",
+      "sourceUrl": "https://cdn.shopify.com/s/files/1/1672/6075/files/APEX4B1.png?v=1760168885",
+      "source": "Manufacturer / authorized retailer product photography",
+      "licence": "manufacturer-marketing",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1000,
+      "height": 1000,
+      "usageType": "side"
+    },
+    {
+      "productId": "prod-coros-apex-4",
+      "src": "/images/watches/products/coros-apex-4/gallery/detail-2.png",
+      "sourceUrl": "https://cdn.shopify.com/s/files/1/1672/6075/files/APEX4B2.png?v=1762240513",
+      "source": "Manufacturer / authorized retailer product photography",
+      "licence": "manufacturer-marketing",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1000,
+      "height": 1000,
+      "usageType": "detail"
+    },
+    {
+      "productId": "prod-coros-apex-4",
+      "src": "/images/watches/products/coros-apex-4/gallery/rear-3.png",
+      "sourceUrl": "https://cdn.shopify.com/s/files/1/1672/6075/files/APEX4W1.png?v=1760168916",
+      "source": "Manufacturer / authorized retailer product photography",
+      "licence": "manufacturer-marketing",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1000,
+      "height": 1000,
+      "usageType": "rear"
+    },
+    {
+      "productId": "prod-coros-apex-4",
+      "src": "/images/watches/products/coros-apex-4/gallery/top-4.png",
+      "sourceUrl": "https://cdn.shopify.com/s/files/1/1672/6075/files/APEX4W2.png?v=1762240533",
+      "source": "Manufacturer / authorized retailer product photography",
+      "licence": "manufacturer-marketing",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1000,
+      "height": 1000,
+      "usageType": "top"
+    }
+  ],
+  "prod-coros-hrm": [
+    {
+      "productId": "prod-coros-hrm",
+      "src": "/images/hrm/products/coros-heart-rate-monitor/gallery/side-1.png",
+      "sourceUrl": "https://cdn.shopify.com/s/files/1/1672/6075/files/COROSHeartRateMonitor1.png?v=1752227269",
+      "source": "Manufacturer / authorized retailer product photography",
+      "licence": "manufacturer-marketing",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1000,
+      "height": 1000,
+      "usageType": "side"
+    },
+    {
+      "productId": "prod-coros-hrm",
+      "src": "/images/hrm/products/coros-heart-rate-monitor/gallery/detail-2.png",
+      "sourceUrl": "https://cdn.shopify.com/s/files/1/1672/6075/files/COROSHeartRateMonitorOrange1.1.png?v=1752226903",
+      "source": "Manufacturer / authorized retailer product photography",
+      "licence": "manufacturer-marketing",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1000,
+      "height": 1000,
+      "usageType": "detail"
+    },
+    {
+      "productId": "prod-coros-hrm",
+      "src": "/images/hrm/products/coros-heart-rate-monitor/gallery/rear-3.png",
+      "sourceUrl": "https://cdn.shopify.com/s/files/1/1672/6075/files/COROSHeartRateMonitorGreen1.1.png?v=1752226903",
+      "source": "Manufacturer / authorized retailer product photography",
+      "licence": "manufacturer-marketing",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1000,
+      "height": 1000,
+      "usageType": "rear"
+    },
+    {
+      "productId": "prod-coros-hrm",
+      "src": "/images/hrm/products/coros-heart-rate-monitor/gallery/top-4.png",
+      "sourceUrl": "https://cdn.shopify.com/s/files/1/1672/6075/files/Jakob-hrm-1.png?v=1778577301",
+      "source": "Manufacturer / authorized retailer product photography",
+      "licence": "manufacturer-marketing",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1000,
+      "height": 1000,
+      "usageType": "top"
+    }
+  ],
+  "prod-coros-pace-3": [
+    {
+      "productId": "prod-coros-pace-3",
+      "src": "/images/watches/products/coros-pace-3/gallery/side-1.png",
+      "sourceUrl": "https://cdn.shopify.com/s/files/1/1672/6075/files/PACE3Emerald1.png?v=1756282365",
+      "source": "Manufacturer / authorized retailer product photography",
+      "licence": "manufacturer-marketing",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1000,
+      "height": 1000,
+      "usageType": "side"
+    },
+    {
+      "productId": "prod-coros-pace-3",
+      "src": "/images/watches/products/coros-pace-3/gallery/detail-2.png",
+      "sourceUrl": "https://cdn.shopify.com/s/files/1/1672/6075/files/PACE3Mist1.png?v=1756282365",
+      "source": "Manufacturer / authorized retailer product photography",
+      "licence": "manufacturer-marketing",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1000,
+      "height": 1000,
+      "usageType": "detail"
+    },
+    {
+      "productId": "prod-coros-pace-3",
+      "src": "/images/watches/products/coros-pace-3/gallery/rear-3.png",
+      "sourceUrl": "https://cdn.shopify.com/s/files/1/1672/6075/files/PACE3Violet1.png?v=1756282365",
+      "source": "Manufacturer / authorized retailer product photography",
+      "licence": "manufacturer-marketing",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1000,
+      "height": 1000,
+      "usageType": "rear"
+    },
+    {
+      "productId": "prod-coros-pace-3",
+      "src": "/images/watches/products/coros-pace-3/gallery/top-4.png",
+      "sourceUrl": "https://cdn.shopify.com/s/files/1/1672/6075/files/PACE3BlackwithNylonBand1.png?v=1756282365",
+      "source": "Manufacturer / authorized retailer product photography",
+      "licence": "manufacturer-marketing",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1000,
+      "height": 1000,
+      "usageType": "top"
+    }
+  ],
+  "prod-coros-pace-4": [
+    {
+      "productId": "prod-coros-pace-4",
+      "src": "/images/watches/products/coros-pace-4/gallery/side-1.png",
+      "sourceUrl": "https://cdn.shopify.com/s/files/1/1672/6075/files/PACE4B2.png?v=1773036292",
+      "source": "Manufacturer / authorized retailer product photography",
+      "licence": "manufacturer-marketing",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1000,
+      "height": 1000,
+      "usageType": "side"
+    },
+    {
+      "productId": "prod-coros-pace-4",
+      "src": "/images/watches/products/coros-pace-4/gallery/detail-2.png",
+      "sourceUrl": "https://cdn.shopify.com/s/files/1/1672/6075/files/PACE4W2.png?v=1773043666",
+      "source": "Manufacturer / authorized retailer product photography",
+      "licence": "manufacturer-marketing",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1000,
+      "height": 1000,
+      "usageType": "detail"
+    },
+    {
+      "productId": "prod-coros-pace-4",
+      "src": "/images/watches/products/coros-pace-4/gallery/rear-3.png",
+      "sourceUrl": "https://cdn.shopify.com/s/files/1/1672/6075/files/PACE4BN2.png?v=1773043666",
+      "source": "Manufacturer / authorized retailer product photography",
+      "licence": "manufacturer-marketing",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1000,
+      "height": 1000,
+      "usageType": "rear"
+    },
+    {
+      "productId": "prod-coros-pace-4",
+      "src": "/images/watches/products/coros-pace-4/gallery/top-4.png",
+      "sourceUrl": "https://cdn.shopify.com/s/files/1/1672/6075/files/Front_three-quarter_view_of_the_COROSPACE_4_White_watch_with_White_Nylon_Band.png?v=1773043666",
+      "source": "Manufacturer / authorized retailer product photography",
+      "licence": "manufacturer-marketing",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1000,
+      "height": 1000,
+      "usageType": "top"
+    }
+  ],
+  "prod-coros-pace-pro": [
+    {
+      "productId": "prod-coros-pace-pro",
+      "src": "/images/watches/products/coros-pace-pro/gallery/side-1.png",
+      "sourceUrl": "https://cdn.shopify.com/s/files/1/1672/6075/files/COROS_PACE_Pro_Black1.png?v=1752056686",
+      "source": "Manufacturer / authorized retailer product photography",
+      "licence": "manufacturer-marketing",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1000,
+      "height": 1000,
+      "usageType": "side"
+    },
+    {
+      "productId": "prod-coros-pace-pro",
+      "src": "/images/watches/products/coros-pace-pro/gallery/detail-2.png",
+      "sourceUrl": "https://cdn.shopify.com/s/files/1/1672/6075/files/COROS_PACE_Pro_Blue1.png?v=1752056670",
+      "source": "Manufacturer / authorized retailer product photography",
+      "licence": "manufacturer-marketing",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1000,
+      "height": 1000,
+      "usageType": "detail"
+    },
+    {
+      "productId": "prod-coros-pace-pro",
+      "src": "/images/watches/products/coros-pace-pro/gallery/rear-3.png",
+      "sourceUrl": "https://cdn.shopify.com/s/files/1/1672/6075/files/COROS_PACE_Pro_Grey1.png?v=1752056623",
+      "source": "Manufacturer / authorized retailer product photography",
+      "licence": "manufacturer-marketing",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1000,
+      "height": 1000,
+      "usageType": "rear"
+    },
+    {
+      "productId": "prod-coros-pace-pro",
+      "src": "/images/watches/products/coros-pace-pro/gallery/top-4.jpg",
+      "sourceUrl": "https://staticcn.coros.com/coros-web-faq/upload/images/d8fe3742563a232d3a1b4bc799704d64.jpg?type=img&amp;x-oss-process=image/resize,w_620,h_360/format,webp/quality,q_90/format,webp",
+      "source": "Manufacturer / authorized retailer product photography",
+      "licence": "manufacturer-marketing",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1240,
+      "height": 720,
+      "usageType": "top"
+    }
+  ],
+  "prod-coros-vertix-2s": [
+    {
+      "productId": "prod-coros-vertix-2s",
+      "src": "/images/watches/products/coros-vertix-2s/gallery/side-1.png",
+      "sourceUrl": "https://cdn.shopify.com/s/files/1/1672/6075/files/VERTIX_2S_Earth_Nylon1_928x928_77ea1321-818f-4ccf-8991-7bde9b1e825e.webp?v=1750938628",
+      "source": "Manufacturer / authorized retailer product photography",
+      "licence": "manufacturer-marketing",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1000,
+      "height": 1000,
+      "usageType": "side"
+    },
+    {
+      "productId": "prod-coros-vertix-2s",
+      "src": "/images/watches/products/coros-vertix-2s/gallery/detail-2.png",
+      "sourceUrl": "https://cdn.shopify.com/s/files/1/1672/6075/files/VERTIX_2S_Moon_Nylon1_928x928_6b63a088-835e-474b-bfab-d72ca600b169.webp?v=1750938628",
+      "source": "Manufacturer / authorized retailer product photography",
+      "licence": "manufacturer-marketing",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1000,
+      "height": 1000,
+      "usageType": "detail"
+    },
+    {
+      "productId": "prod-coros-vertix-2s",
+      "src": "/images/watches/products/coros-vertix-2s/gallery/rear-3.png",
+      "sourceUrl": "https://cdn.shopify.com/s/files/1/1672/6075/files/VERTIX_2S_Space.png?v=1750938628",
+      "source": "Manufacturer / authorized retailer product photography",
+      "licence": "manufacturer-marketing",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1000,
+      "height": 1000,
+      "usageType": "rear"
+    },
+    {
+      "productId": "prod-coros-vertix-2s",
+      "src": "/images/watches/products/coros-vertix-2s/gallery/top-4.jpg",
+      "sourceUrl": "https://staticcn.coros.com/coros-web-faq/upload/images/3342925818fc45b0bc3f880daa42731a.jpg",
+      "source": "Manufacturer / authorized retailer product photography",
+      "licence": "manufacturer-marketing",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 2400,
+      "height": 1260,
+      "usageType": "top"
+    }
+  ],
+  "prod-cumulus-27": [
+    {
+      "productId": "prod-cumulus-27",
+      "src": "/images/running/products/cumulus-27/gallery/side.webp",
+      "sourceUrl": "https://images.asics.com/is/image/asics/1011B960_100_SL_LT_GLB?$sfcc-product$&wid=1200&hei=1200",
+      "source": "Manufacturer product CDN (ASICS Scene7)",
+      "licence": "manufacturer-marketing",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1000,
+      "height": 1000,
+      "usageType": "side"
+    },
+    {
+      "productId": "prod-cumulus-27",
+      "src": "/images/running/products/cumulus-27/gallery/outsole.webp",
+      "sourceUrl": "https://images.asics.com/is/image/asics/1011B960_100_SB_BT_GLB?$sfcc-product$&wid=1200&hei=1200",
+      "source": "Manufacturer product CDN (ASICS Scene7)",
+      "licence": "manufacturer-marketing",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1000,
+      "height": 1000,
+      "usageType": "outsole"
+    }
+  ],
+  "prod-fenix-8": [
+    {
+      "productId": "prod-fenix-8",
+      "src": "/images/watches/products/garmin-fenix-8/gallery/detail-1.jpg",
+      "sourceUrl": "https://res.garmin.com/en/products/010-02903-00/g/66911-1.jpg",
+      "source": "Manufacturer official product catalog (Garmin)",
+      "licence": "manufacturer-marketing",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 800,
+      "height": 900,
+      "usageType": "detail"
+    },
+    {
+      "productId": "prod-fenix-8",
+      "src": "/images/watches/products/garmin-fenix-8/gallery/detail-2.jpg",
+      "sourceUrl": "https://res.garmin.com/en/products/010-02903-00/g/66911-2.jpg",
+      "source": "Manufacturer official product catalog (Garmin)",
+      "licence": "manufacturer-marketing",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 800,
+      "height": 900,
+      "usageType": "detail"
+    },
+    {
+      "productId": "prod-fenix-8",
+      "src": "/images/watches/products/garmin-fenix-8/gallery/detail-3.jpg",
+      "sourceUrl": "https://res.garmin.com/en/products/010-02903-00/g/66911-3.jpg",
+      "source": "Manufacturer official product catalog (Garmin)",
+      "licence": "manufacturer-marketing",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 800,
+      "height": 900,
+      "usageType": "detail"
+    },
+    {
+      "productId": "prod-fenix-8",
+      "src": "/images/watches/products/garmin-fenix-8/gallery/detail-4.jpg",
+      "sourceUrl": "https://res.garmin.com/en/products/010-02903-00/g/66911-5.jpg",
+      "source": "Manufacturer official product catalog (Garmin)",
+      "licence": "manufacturer-marketing",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 800,
+      "height": 900,
+      "usageType": "detail"
+    },
+    {
+      "productId": "prod-fenix-8",
+      "src": "/images/watches/products/garmin-fenix-8/gallery/detail-5.jpg",
+      "sourceUrl": "https://res.garmin.com/en/products/010-02903-00/g/66911-6.jpg",
+      "source": "Manufacturer official product catalog (Garmin)",
+      "licence": "manufacturer-marketing",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 800,
+      "height": 900,
+      "usageType": "detail"
+    },
+    {
+      "productId": "prod-fenix-8",
+      "src": "/images/watches/products/garmin-fenix-8/gallery/detail-6.jpg",
+      "sourceUrl": "https://res.garmin.com/en/products/010-02904-00/g/66912-1.jpg",
+      "source": "Manufacturer official product catalog (Garmin)",
+      "licence": "manufacturer-marketing",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 800,
+      "height": 900,
+      "usageType": "detail"
+    },
+    {
+      "productId": "prod-fenix-8",
+      "src": "/images/watches/products/garmin-fenix-8/gallery/detail-7.jpg",
+      "sourceUrl": "https://res.garmin.com/en/products/010-02904-00/g/66912-2.jpg",
+      "source": "Manufacturer official product catalog (Garmin)",
+      "licence": "manufacturer-marketing",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 800,
+      "height": 900,
+      "usageType": "detail"
+    },
+    {
+      "productId": "prod-fenix-8",
+      "src": "/images/watches/products/garmin-fenix-8/gallery/detail-8.jpg",
+      "sourceUrl": "https://res.garmin.com/en/products/010-02904-00/g/66912-3.jpg",
+      "source": "Manufacturer official product catalog (Garmin)",
+      "licence": "manufacturer-marketing",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 800,
+      "height": 900,
+      "usageType": "detail"
+    }
+  ],
+  "prod-forerunner-570": [
+    {
+      "productId": "prod-forerunner-570",
+      "src": "/images/watches/products/garmin-forerunner-570/gallery/detail-1.jpg",
+      "sourceUrl": "https://res.garmin.com/en/products/010-02970-50/g/74205-42.jpg",
+      "source": "Manufacturer official product catalog (Garmin)",
+      "licence": "manufacturer-marketing",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 800,
+      "height": 900,
+      "usageType": "detail"
+    },
+    {
+      "productId": "prod-forerunner-570",
+      "src": "/images/watches/products/garmin-forerunner-570/gallery/detail-2.jpg",
+      "sourceUrl": "https://res.garmin.com/en/products/010-02970-50/g/74205-47.jpg",
+      "source": "Manufacturer official product catalog (Garmin)",
+      "licence": "manufacturer-marketing",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 800,
+      "height": 900,
+      "usageType": "detail"
+    }
+  ],
+  "prod-forerunner-965": [
+    {
+      "productId": "prod-forerunner-965",
+      "src": "/images/watches/products/garmin-forerunner-965/gallery/side-1.jpg",
+      "sourceUrl": "https://res.garmin.com/en/products/010-02809-00/g/rf-lg.jpg",
+      "source": "Manufacturer official product catalog (Garmin)",
+      "licence": "manufacturer-marketing",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 600,
+      "height": 600,
+      "usageType": "side"
+    },
+    {
+      "productId": "prod-forerunner-965",
+      "src": "/images/watches/products/garmin-forerunner-965/gallery/side-2.jpg",
+      "sourceUrl": "https://res.garmin.com/en/products/010-02809-00/g/lf-lg.jpg",
+      "source": "Manufacturer official product catalog (Garmin)",
+      "licence": "manufacturer-marketing",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 600,
+      "height": 600,
+      "usageType": "side"
+    },
+    {
+      "productId": "prod-forerunner-965",
+      "src": "/images/watches/products/garmin-forerunner-965/gallery/detail-3.jpg",
+      "sourceUrl": "https://res.garmin.com/en/products/010-02809-00/g/pd-01-lg.jpg",
+      "source": "Manufacturer official product catalog (Garmin)",
+      "licence": "manufacturer-marketing",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 600,
+      "height": 600,
+      "usageType": "detail"
+    },
+    {
+      "productId": "prod-forerunner-965",
+      "src": "/images/watches/products/garmin-forerunner-965/gallery/detail-4.jpg",
+      "sourceUrl": "https://res.garmin.com/en/products/010-02809-00/g/pd-02-lg.jpg",
+      "source": "Manufacturer official product catalog (Garmin)",
+      "licence": "manufacturer-marketing",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 600,
+      "height": 600,
+      "usageType": "detail"
+    },
+    {
+      "productId": "prod-forerunner-965",
+      "src": "/images/watches/products/garmin-forerunner-965/gallery/detail-5.jpg",
+      "sourceUrl": "https://res.garmin.com/en/products/010-02809-00/g/pd-03-lg.jpg",
+      "source": "Manufacturer official product catalog (Garmin)",
+      "licence": "manufacturer-marketing",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 600,
+      "height": 600,
+      "usageType": "detail"
+    },
+    {
+      "productId": "prod-forerunner-965",
+      "src": "/images/watches/products/garmin-forerunner-965/gallery/detail-6.jpg",
+      "sourceUrl": "https://res.garmin.com/en/products/010-02809-00/g/pd-04-lg.jpg",
+      "source": "Manufacturer official product catalog (Garmin)",
+      "licence": "manufacturer-marketing",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 600,
+      "height": 600,
+      "usageType": "detail"
+    },
+    {
+      "productId": "prod-forerunner-965",
+      "src": "/images/watches/products/garmin-forerunner-965/gallery/detail-7.jpg",
+      "sourceUrl": "https://res.garmin.com/en/products/010-02809-00/g/pd-05-lg.jpg",
+      "source": "Manufacturer official product catalog (Garmin)",
+      "licence": "manufacturer-marketing",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 600,
+      "height": 600,
+      "usageType": "detail"
+    },
+    {
+      "productId": "prod-forerunner-965",
+      "src": "/images/watches/products/garmin-forerunner-965/gallery/on-foot-8.jpg",
+      "sourceUrl": "https://res.garmin.com/en/products/010-02809-00/g/5-DESK-ON-WRIST.jpg",
+      "source": "Manufacturer official product catalog (Garmin)",
+      "licence": "manufacturer-marketing",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 2880,
+      "height": 1600,
+      "usageType": "on-foot"
+    }
+  ],
+  "prod-garmin-epix-pro-gen2": [
+    {
+      "productId": "prod-garmin-epix-pro-gen2",
+      "src": "/images/watches/products/garmin-epix-pro-gen-2/gallery/detail-1.jpg",
+      "sourceUrl": "https://res.garmin.com/en/products/010-02804-20/g/ECG-894039.jpg",
+      "source": "Manufacturer official product catalog (Garmin)",
+      "licence": "manufacturer-marketing",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 800,
+      "height": 900,
+      "usageType": "detail"
+    },
+    {
+      "productId": "prod-garmin-epix-pro-gen2",
+      "src": "/images/watches/products/garmin-epix-pro-gen-2/gallery/detail-2.jpg",
+      "sourceUrl": "https://res.garmin.com/en/products/010-02804-20/g/ECG-884088.jpg",
+      "source": "Manufacturer official product catalog (Garmin)",
+      "licence": "manufacturer-marketing",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 800,
+      "height": 900,
+      "usageType": "detail"
+    }
+  ],
+  "prod-garmin-hrm-200": [
+    {
+      "productId": "prod-garmin-hrm-200",
+      "src": "/images/hrm/products/garmin-hrm-200/gallery/side-1.jpg",
+      "sourceUrl": "https://res.garmin.com/en/products/010-13388-00/g/rf-lg.jpg",
+      "source": "Manufacturer official product catalog (Garmin)",
+      "licence": "manufacturer-marketing",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 600,
+      "height": 600,
+      "usageType": "side"
+    },
+    {
+      "productId": "prod-garmin-hrm-200",
+      "src": "/images/hrm/products/garmin-hrm-200/gallery/side-2.jpg",
+      "sourceUrl": "https://res.garmin.com/en/products/010-13388-00/g/lf-lg.jpg",
+      "source": "Manufacturer official product catalog (Garmin)",
+      "licence": "manufacturer-marketing",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 600,
+      "height": 600,
+      "usageType": "side"
+    }
+  ],
+  "prod-garmin-hrm-fit": [
+    {
+      "productId": "prod-garmin-hrm-fit",
+      "src": "/images/hrm/products/garmin-hrm-fit/gallery/side-1.jpg",
+      "sourceUrl": "https://res.garmin.com/en/products/010-13314-00/g/rf-lg.jpg",
+      "source": "Manufacturer official product catalog (Garmin)",
+      "licence": "manufacturer-marketing",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 600,
+      "height": 600,
+      "usageType": "side"
+    },
+    {
+      "productId": "prod-garmin-hrm-fit",
+      "src": "/images/hrm/products/garmin-hrm-fit/gallery/detail-2.jpg",
+      "sourceUrl": "https://res.garmin.com/en/products/010-13314-00/g/pd-01-lg.jpg",
+      "source": "Manufacturer official product catalog (Garmin)",
+      "licence": "manufacturer-marketing",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 600,
+      "height": 600,
+      "usageType": "detail"
+    },
+    {
+      "productId": "prod-garmin-hrm-fit",
+      "src": "/images/hrm/products/garmin-hrm-fit/gallery/detail-3.jpg",
+      "sourceUrl": "https://res.garmin.com/en/products/010-13314-00/g/pd-02-lg.jpg",
+      "source": "Manufacturer official product catalog (Garmin)",
+      "licence": "manufacturer-marketing",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 600,
+      "height": 600,
+      "usageType": "detail"
+    },
+    {
+      "productId": "prod-garmin-hrm-fit",
+      "src": "/images/hrm/products/garmin-hrm-fit/gallery/detail-4.jpg",
+      "sourceUrl": "https://res.garmin.com/en/products/010-13314-00/g/pd-03-lg.jpg",
+      "source": "Manufacturer official product catalog (Garmin)",
+      "licence": "manufacturer-marketing",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 600,
+      "height": 600,
+      "usageType": "detail"
+    }
+  ],
+  "prod-hydrapak-skyflask-speed-500": [
+    {
+      "productId": "prod-hydrapak-skyflask-speed-500",
+      "src": "/images/hydration/products/hydrapak-skyflask-speed-500/gallery/side.jpg",
+      "sourceUrl": "http://www.hydrapak.com/cdn/shop/files/SkyFlask_Speed_500ml_Side_HP26_WebRes.webp?v=1784743058",
+      "source": "Manufacturer / authorized retailer product photography",
+      "licence": "manufacturer-marketing",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1080,
+      "height": 1080,
+      "usageType": "side"
+    },
+    {
+      "productId": "prod-hydrapak-skyflask-speed-500",
+      "src": "/images/hydration/products/hydrapak-skyflask-speed-500/gallery/detail.jpg",
+      "sourceUrl": "https://www.hydrapak.com/cdn/shop/files/SkyFlask_Speed_500ml_Side_HP26_WebRes.webp?v=1784743058",
+      "source": "Manufacturer / authorized retailer product photography",
+      "licence": "manufacturer-marketing",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1080,
+      "height": 1080,
+      "usageType": "detail"
+    },
+    {
+      "productId": "prod-hydrapak-skyflask-speed-500",
+      "src": "/images/hydration/products/hydrapak-skyflask-speed-500/gallery/rear.jpg",
+      "sourceUrl": "https://www.hydrapak.com/cdn/shop/files/SkyFlask_Speed_500ml_Side_HP26_WebRes_grande.webp?v=1784743058",
+      "source": "Manufacturer / authorized retailer product photography",
+      "licence": "manufacturer-marketing",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 600,
+      "height": 600,
+      "usageType": "rear"
+    }
+  ],
+  "prod-instinct-3": [
+    {
+      "productId": "prod-instinct-3",
+      "src": "/images/watches/products/garmin-instinct-3/gallery/detail-1.jpg",
+      "sourceUrl": "https://res.garmin.com/en/products/010-02935-00/g/67899-1.jpg",
+      "source": "Manufacturer official product catalog (Garmin)",
+      "licence": "manufacturer-marketing",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 800,
+      "height": 900,
+      "usageType": "detail"
+    },
+    {
+      "productId": "prod-instinct-3",
+      "src": "/images/watches/products/garmin-instinct-3/gallery/detail-2.jpg",
+      "sourceUrl": "https://res.garmin.com/en/products/010-02935-00/g/67899-2.jpg",
+      "source": "Manufacturer official product catalog (Garmin)",
+      "licence": "manufacturer-marketing",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 800,
+      "height": 900,
+      "usageType": "detail"
+    },
+    {
+      "productId": "prod-instinct-3",
+      "src": "/images/watches/products/garmin-instinct-3/gallery/detail-3.jpg",
+      "sourceUrl": "https://res.garmin.com/en/products/010-02935-00/g/67899-3.jpg",
+      "source": "Manufacturer official product catalog (Garmin)",
+      "licence": "manufacturer-marketing",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 800,
+      "height": 900,
+      "usageType": "detail"
+    },
+    {
+      "productId": "prod-instinct-3",
+      "src": "/images/watches/products/garmin-instinct-3/gallery/detail-4.jpg",
+      "sourceUrl": "https://res.garmin.com/en/products/010-02935-00/g/67899-4.jpg",
+      "source": "Manufacturer official product catalog (Garmin)",
+      "licence": "manufacturer-marketing",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 800,
+      "height": 900,
+      "usageType": "detail"
+    },
+    {
+      "productId": "prod-instinct-3",
+      "src": "/images/watches/products/garmin-instinct-3/gallery/detail-5.jpg",
+      "sourceUrl": "https://res.garmin.com/en/products/010-02935-00/g/67899-5.jpg",
+      "source": "Manufacturer official product catalog (Garmin)",
+      "licence": "manufacturer-marketing",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 800,
+      "height": 900,
+      "usageType": "detail"
+    },
+    {
+      "productId": "prod-instinct-3",
+      "src": "/images/watches/products/garmin-instinct-3/gallery/detail-6.jpg",
+      "sourceUrl": "https://res.garmin.com/en/products/010-02935-00/g/67899-6.jpg",
+      "source": "Manufacturer official product catalog (Garmin)",
+      "licence": "manufacturer-marketing",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 800,
+      "height": 900,
+      "usageType": "detail"
+    },
+    {
+      "productId": "prod-instinct-3",
+      "src": "/images/watches/products/garmin-instinct-3/gallery/detail-7.jpg",
+      "sourceUrl": "https://res.garmin.com/en/products/010-02933-00/g/67732-1.jpg",
+      "source": "Manufacturer official product catalog (Garmin)",
+      "licence": "manufacturer-marketing",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 800,
+      "height": 900,
+      "usageType": "detail"
+    },
+    {
+      "productId": "prod-instinct-3",
+      "src": "/images/watches/products/garmin-instinct-3/gallery/detail-8.jpg",
+      "sourceUrl": "https://res.garmin.com/en/products/010-02933-00/g/67732-2.jpg",
+      "source": "Manufacturer official product catalog (Garmin)",
+      "licence": "manufacturer-marketing",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 800,
+      "height": 900,
+      "usageType": "detail"
+    }
+  ],
+  "prod-janji-multi-short-men": [
+    {
+      "productId": "prod-janji-multi-short-men",
+      "src": "/images/running/accessories/janji-multi-short-men/gallery/side.jpg",
+      "sourceUrl": "https://cdn.shopify.com/s/files/1/0536/9705/files/JANJI-MS09D-CONIFER_PEAK-01.jpg?v=1774973351",
+      "source": "Manufacturer / authorized retailer product photography",
+      "licence": "manufacturer-marketing",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1185,
+      "height": 1600,
+      "usageType": "side"
+    },
+    {
+      "productId": "prod-janji-multi-short-men",
+      "src": "/images/running/accessories/janji-multi-short-men/gallery/detail.jpg",
+      "sourceUrl": "https://cdn.shopify.com/s/files/1/0536/9705/files/JANJI-MS09D-REGAL-01.jpg?v=1785287629",
+      "source": "Manufacturer / authorized retailer product photography",
+      "licence": "manufacturer-marketing",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1185,
+      "height": 1600,
+      "usageType": "detail"
+    },
+    {
+      "productId": "prod-janji-multi-short-men",
+      "src": "/images/running/accessories/janji-multi-short-men/gallery/rear.jpg",
+      "sourceUrl": "https://cdn.shopify.com/s/files/1/0536/9705/files/JANJI-MS09D-LOCH-01.jpg?v=1785287708",
+      "source": "Manufacturer / authorized retailer product photography",
+      "licence": "manufacturer-marketing",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1185,
+      "height": 1600,
+      "usageType": "rear"
+    },
+    {
+      "productId": "prod-janji-multi-short-men",
+      "src": "/images/running/accessories/janji-multi-short-men/gallery/top.jpg",
+      "sourceUrl": "https://cdn.shopify.com/s/files/1/0536/9705/files/JANJI-MS09D-CREST_FALL-01.jpg?v=1774973351",
+      "source": "Manufacturer / authorized retailer product photography",
+      "licence": "manufacturer-marketing",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1185,
+      "height": 1600,
+      "usageType": "top"
+    }
+  ],
+  "prod-kayano-32": [
+    {
+      "productId": "prod-kayano-32",
+      "src": "/images/running/products/kayano-32/gallery/side.jpg",
+      "sourceUrl": "https://images.asics.com/is/image/asics/1011C052_001_SL_LT_GLB?$sfcc-product$&wid=1200&hei=1200",
+      "source": "Manufacturer product CDN (ASICS Scene7)",
+      "licence": "manufacturer-marketing",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1200,
+      "height": 1200,
+      "usageType": "side"
+    },
+    {
+      "productId": "prod-kayano-32",
+      "src": "/images/running/products/kayano-32/gallery/outsole.webp",
+      "sourceUrl": "https://images.asics.com/is/image/asics/1011C052_001_SB_BT_GLB?$sfcc-product$&wid=1200&hei=1200",
+      "source": "Manufacturer product CDN (ASICS Scene7)",
+      "licence": "manufacturer-marketing",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1200,
+      "height": 1200,
+      "usageType": "outsole"
+    }
+  ],
+  "prod-nathan-vaporair-4": [
+    {
+      "productId": "prod-nathan-vaporair-4",
+      "src": "/images/packs/products/nathan-vaporair-4/gallery/side.jpg",
+      "sourceUrl": "https://img.runningwarehouse.com/fpcache/2400/marketing/NIKPP2FPM-lg.jpg",
+      "source": "Authorized retailer product photography (Running Warehouse)",
+      "licence": "retailer-authorized",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1600,
+      "height": 827,
+      "usageType": "side"
+    },
+    {
+      "productId": "prod-nathan-vaporair-4",
+      "src": "/images/packs/products/nathan-vaporair-4/gallery/detail.jpg",
+      "sourceUrl": "https://img.runningwarehouse.com/fpcache/1982/marketing/NIKPP2FPM-lg.jpg",
+      "source": "Authorized retailer product photography (Running Warehouse)",
+      "licence": "retailer-authorized",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1600,
+      "height": 827,
+      "usageType": "detail"
+    },
+    {
+      "productId": "prod-nathan-vaporair-4",
+      "src": "/images/packs/products/nathan-vaporair-4/gallery/rear.jpg",
+      "sourceUrl": "https://img.runningwarehouse.com/fpcache/1200/marketing/NIKPP2FPM-lg.jpg",
+      "source": "Authorized retailer product photography (Running Warehouse)",
+      "licence": "retailer-authorized",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1200,
+      "height": 620,
+      "usageType": "rear"
+    },
+    {
+      "productId": "prod-nathan-vaporair-4",
+      "src": "/images/packs/products/nathan-vaporair-4/gallery/top.jpg",
+      "sourceUrl": "https://img.runningwarehouse.com/fpcache/991/marketing/NIKPP2FPM-lg.jpg",
+      "source": "Authorized retailer product photography (Running Warehouse)",
+      "licence": "retailer-authorized",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 991,
+      "height": 512,
+      "usageType": "top"
+    }
+  ],
+  "prod-nathan-zippered-stash": [
+    {
+      "productId": "prod-nathan-zippered-stash",
+      "src": "/images/packs/products/nathan-zippered-stash/gallery/side-1.jpg",
+      "sourceUrl": "http://cdn.shopify.com/s/files/1/0059/6253/0904/files/NS24_ehouse_metaimg.jpg?v=1710966374",
+      "source": "Manufacturer / authorized retailer product photography",
+      "licence": "manufacturer-marketing",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1920,
+      "height": 1080,
+      "usageType": "side"
+    },
+    {
+      "productId": "prod-nathan-zippered-stash",
+      "src": "/images/packs/products/nathan-zippered-stash/gallery/detail-2.jpg",
+      "sourceUrl": "https://cdn.shopify.com/s/files/1/0059/6253/0904/files/NS24_ehouse_metaimg.jpg?v=1710966374",
+      "source": "Manufacturer / authorized retailer product photography",
+      "licence": "manufacturer-marketing",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1920,
+      "height": 1080,
+      "usageType": "detail"
+    }
+  ],
+  "prod-nimbus-27": [
+    {
+      "productId": "prod-nimbus-27",
+      "src": "/images/running/products/nimbus-27/gallery/side.jpg",
+      "sourceUrl": "https://images.asics.com/is/image/asics/1011B872_001_SL_LT_GLB?$sfcc-product$&wid=1200&hei=1200",
+      "source": "Manufacturer product CDN (ASICS Scene7)",
+      "licence": "manufacturer-marketing",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1200,
+      "height": 1200,
+      "usageType": "side"
+    },
+    {
+      "productId": "prod-nimbus-27",
+      "src": "/images/running/products/nimbus-27/gallery/outsole.webp",
+      "sourceUrl": "https://images.asics.com/is/image/asics/1011B872_001_SB_BT_GLB?$sfcc-product$&wid=1200&hei=1200",
+      "source": "Manufacturer product CDN (ASICS Scene7)",
+      "licence": "manufacturer-marketing",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1000,
+      "height": 1000,
+      "usageType": "outsole"
+    }
+  ],
+  "prod-novablast-4": [
+    {
+      "productId": "prod-novablast-4",
+      "src": "/images/running/products/novablast-4/gallery/side.jpg",
+      "sourceUrl": "https://images.asics.com/is/image/asics/1011B593_001_SR_LT_GLB?$sfcc-product$&wid=1200&hei=1200",
+      "source": "Manufacturer product CDN (ASICS Scene7)",
+      "licence": "manufacturer-marketing",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1200,
+      "height": 1200,
+      "usageType": "side"
+    },
+    {
+      "productId": "prod-novablast-4",
+      "src": "/images/running/products/novablast-4/gallery/outsole.webp",
+      "sourceUrl": "https://images.asics.com/is/image/asics/1011B593_001_SB_BT_GLB?$sfcc-product$&wid=1200&hei=1200",
+      "source": "Manufacturer product CDN (ASICS Scene7)",
+      "licence": "manufacturer-marketing",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1000,
+      "height": 1000,
+      "usageType": "outsole"
+    }
+  ],
+  "prod-novablast-5": [
+    {
+      "productId": "prod-novablast-5",
+      "src": "/images/running/products/novablast-5/gallery/side.jpg",
+      "sourceUrl": "https://images.asics.com/is/image/asics/1011B974_001_SL_LT_GLB?$sfcc-product$&wid=1200&hei=1200",
+      "source": "Manufacturer product CDN (ASICS Scene7)",
+      "licence": "manufacturer-marketing",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1200,
+      "height": 1200,
+      "usageType": "side"
+    },
+    {
+      "productId": "prod-novablast-5",
+      "src": "/images/running/products/novablast-5/gallery/outsole.webp",
+      "sourceUrl": "https://images.asics.com/is/image/asics/1011B974_001_SB_BT_GLB?$sfcc-product$&wid=1200&hei=1200",
+      "source": "Manufacturer product CDN (ASICS Scene7)",
+      "licence": "manufacturer-marketing",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1000,
+      "height": 1000,
+      "usageType": "outsole"
+    }
+  ],
+  "prod-novablast-6": [
+    {
+      "productId": "prod-novablast-6",
+      "src": "/images/running/products/novablast-6/gallery/side.jpg",
+      "sourceUrl": "https://images.asics.com/is/image/asics/1011C243_001_SL_LT_GLB?$sfcc-product$&wid=1200&hei=1200",
+      "source": "Manufacturer product CDN (ASICS Scene7)",
+      "licence": "manufacturer-marketing",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1200,
+      "height": 1200,
+      "usageType": "side"
+    },
+    {
+      "productId": "prod-novablast-6",
+      "src": "/images/running/products/novablast-6/gallery/outsole.webp",
+      "sourceUrl": "https://images.asics.com/is/image/asics/1011C243_001_SB_BT_GLB?$sfcc-product$&wid=1200&hei=1200",
+      "source": "Manufacturer product CDN (ASICS Scene7)",
+      "licence": "manufacturer-marketing",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1200,
+      "height": 1200,
+      "usageType": "outsole"
+    }
+  ],
+  "prod-on-ultra-vest-pro": [
+    {
+      "productId": "prod-on-ultra-vest-pro",
+      "src": "/images/packs/products/on-ultra-vest-pro/gallery/side-1.jpg",
+      "sourceUrl": "https://images.ctfassets.net/hnk2vsx53n6l/4i4taGom3YOHVS9TDolp3N/7da61b1d15b5bb1104fbf6c50ea5dcc7/ee4989fd85f8dad51150bad1c6b02037bffe9613.png",
+      "source": "Manufacturer / authorized retailer product photography",
+      "licence": "manufacturer-marketing",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1600,
+      "height": 1600,
+      "usageType": "side"
+    },
+    {
+      "productId": "prod-on-ultra-vest-pro",
+      "src": "/images/packs/products/on-ultra-vest-pro/gallery/detail-2.jpg",
+      "sourceUrl": "https://images.ctfassets.net/hnk2vsx53n6l/1j2LrTWIoYCXc4sn95ztnt/a9aca11345125edb25ed5165e2e33dc2/1a4ae98322ce7b72cc4e08ae922c8c7b04d5ee11.png",
+      "source": "Manufacturer / authorized retailer product photography",
+      "licence": "manufacturer-marketing",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1600,
+      "height": 1600,
+      "usageType": "detail"
+    },
+    {
+      "productId": "prod-on-ultra-vest-pro",
+      "src": "/images/packs/products/on-ultra-vest-pro/gallery/rear-3.jpg",
+      "sourceUrl": "https://images.ctfassets.net/hnk2vsx53n6l/2uStRCM6XiOLioXxyG9PA8/d7d1f354ef39c8247ca01c55dc688caf/8cc78e8f1d0e4620c8a813e004d33086898fb3a9.png",
+      "source": "Manufacturer / authorized retailer product photography",
+      "licence": "manufacturer-marketing",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1600,
+      "height": 1600,
+      "usageType": "rear"
+    },
+    {
+      "productId": "prod-on-ultra-vest-pro",
+      "src": "/images/packs/products/on-ultra-vest-pro/gallery/top-4.webp",
+      "sourceUrl": "https://images.ctfassets.net/hnk2vsx53n6l/22uIshvJrjU16hVMfnGjeG/bde525332be61de068d1be0d2305c56e/ecc75460a8c9a9cd755b78da873f277282f1fc0a.jpg?w=1200&h=630&fit=pad&bg=rgb:ffffff&q=85&fm=webp",
+      "source": "Manufacturer / authorized retailer product photography",
+      "licence": "manufacturer-marketing",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1000,
+      "height": 1000,
+      "usageType": "top"
+    }
+  ],
+  "prod-osprey-duro-15": [
+    {
+      "productId": "prod-osprey-duro-15",
+      "src": "/images/packs/products/osprey-duro-15/gallery/side.jpg",
+      "sourceUrl": "https://www.bfgcdn.com/600_600_90/504-0314/osprey-duro-15-trail-running-backpack-bf.jpg",
+      "source": "Manufacturer / authorized retailer product photography",
+      "licence": "manufacturer-marketing",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 600,
+      "height": 600,
+      "usageType": "side"
+    },
+    {
+      "productId": "prod-osprey-duro-15",
+      "src": "/images/packs/products/osprey-duro-15/gallery/detail.jpg",
+      "sourceUrl": "https://www.bfgcdn.com/1500_1500_90/504-0314/osprey-duro-15-trail-running-backpack-bf.jpg",
+      "source": "Manufacturer / authorized retailer product photography",
+      "licence": "manufacturer-marketing",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1500,
+      "height": 1500,
+      "usageType": "detail"
+    },
+    {
+      "productId": "prod-osprey-duro-15",
+      "src": "/images/packs/products/osprey-duro-15/gallery/rear.jpg",
+      "sourceUrl": "https://www.bfgcdn.com/1500_1500_90/504-0314/osprey-duro-15-trail-running-backpack-bf-detail-2.jpg",
+      "source": "Manufacturer / authorized retailer product photography",
+      "licence": "manufacturer-marketing",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1500,
+      "height": 1500,
+      "usageType": "rear"
+    },
+    {
+      "productId": "prod-osprey-duro-15",
+      "src": "/images/packs/products/osprey-duro-15/gallery/top.jpg",
+      "sourceUrl": "https://www.bfgcdn.com/1500_1500_90/504-0314/osprey-duro-15-trail-running-backpack-bf-detail-3.jpg",
+      "source": "Manufacturer / authorized retailer product photography",
+      "licence": "manufacturer-marketing",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1500,
+      "height": 1500,
+      "usageType": "top"
+    }
+  ],
+  "prod-patagonia-houdini-men": [
+    {
+      "productId": "prod-patagonia-houdini-men",
+      "src": "/images/clothing/products/patagonia-houdini-men/gallery/side.jpg",
+      "sourceUrl": "https://img.runningwarehouse.com/watermark/rs.php?path=PMCOHDJ-BK-1.jpg",
+      "source": "Authorized retailer product photography (Running Warehouse)",
+      "licence": "retailer-authorized",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1200,
+      "height": 1600,
+      "usageType": "side"
+    },
+    {
+      "productId": "prod-patagonia-houdini-men",
+      "src": "/images/clothing/products/patagonia-houdini-men/gallery/detail.jpg",
+      "sourceUrl": "https://img.runningwarehouse.com/watermark/rs.php?path=PMCOHDJ-BK-2.jpg",
+      "source": "Authorized retailer product photography (Running Warehouse)",
+      "licence": "retailer-authorized",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1200,
+      "height": 1600,
+      "usageType": "detail"
+    },
+    {
+      "productId": "prod-patagonia-houdini-men",
+      "src": "/images/clothing/products/patagonia-houdini-men/gallery/rear.jpg",
+      "sourceUrl": "https://img.runningwarehouse.com/watermark/rs.php?path=PMCOHDJ-BK-3.jpg",
+      "source": "Authorized retailer product photography (Running Warehouse)",
+      "licence": "retailer-authorized",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1200,
+      "height": 1600,
+      "usageType": "rear"
+    },
+    {
+      "productId": "prod-patagonia-houdini-men",
+      "src": "/images/clothing/products/patagonia-houdini-men/gallery/top.jpg",
+      "sourceUrl": "https://img.runningwarehouse.com/watermark/rs.php?path=PMCOHDJ-BK-4.jpg",
+      "source": "Authorized retailer product photography (Running Warehouse)",
+      "licence": "retailer-authorized",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1200,
+      "height": 1600,
+      "usageType": "top"
+    }
+  ],
+  "prod-polar-h10": [
+    {
+      "productId": "prod-polar-h10",
+      "src": "/images/hrm/products/polar-h10/gallery/side.jpg",
+      "sourceUrl": "https://www.polar.com/img/static/common/og_default.jpg",
+      "source": "Manufacturer / authorized retailer product photography",
+      "licence": "manufacturer-marketing",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1200,
+      "height": 630,
+      "usageType": "side"
+    }
+  ],
+  "prod-polar-h9": [
+    {
+      "productId": "prod-polar-h9",
+      "src": "/images/hrm/products/polar-h9/gallery/side.jpg",
+      "sourceUrl": "https://www.polar.com/img/cms/1f75eb24404c90ca064484a51fa08a5458ca4b95-1000x1000-1200.png",
+      "source": "Manufacturer / authorized retailer product photography",
+      "licence": "manufacturer-marketing",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1200,
+      "height": 1200,
+      "usageType": "side"
+    }
+  ],
+  "prod-rebel-v5": [
+    {
+      "productId": "prod-rebel-v5",
+      "src": "/images/running/products/rebel-v5/gallery/side-3.webp",
+      "sourceUrl": "https://nb.scene7.com/is/image/NB/mfcxlv5_nb_03_i?$pdpflexf22x$&wid=1200&hei=1200",
+      "source": "Manufacturer product CDN (New Balance Scene7)",
+      "licence": "manufacturer-marketing",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1000,
+      "height": 1000,
+      "usageType": "side"
+    },
+    {
+      "productId": "prod-rebel-v5",
+      "src": "/images/running/products/rebel-v5/gallery/outsole-4.webp",
+      "sourceUrl": "https://nb.scene7.com/is/image/NB/mfcxlv5_nb_04_i?$pdpflexf22x$&wid=1200&hei=1200",
+      "source": "Manufacturer product CDN (New Balance Scene7)",
+      "licence": "manufacturer-marketing",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1000,
+      "height": 1000,
+      "usageType": "outsole"
+    },
+    {
+      "productId": "prod-rebel-v5",
+      "src": "/images/running/products/rebel-v5/gallery/rear-5.webp",
+      "sourceUrl": "https://nb.scene7.com/is/image/NB/mfcxlv5_nb_05_i?$pdpflexf22x$&wid=1200&hei=1200",
+      "source": "Manufacturer product CDN (New Balance Scene7)",
+      "licence": "manufacturer-marketing",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1000,
+      "height": 1000,
+      "usageType": "rear"
+    },
+    {
+      "productId": "prod-rebel-v5",
+      "src": "/images/running/products/rebel-v5/gallery/detail-6.webp",
+      "sourceUrl": "https://nb.scene7.com/is/image/NB/mfcxlv5_nb_06_i?$pdpflexf22x$&wid=1200&hei=1200",
+      "source": "Manufacturer product CDN (New Balance Scene7)",
+      "licence": "manufacturer-marketing",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1000,
+      "height": 1000,
+      "usageType": "detail"
+    },
+    {
+      "productId": "prod-rebel-v5",
+      "src": "/images/running/products/rebel-v5/gallery/top-7.webp",
+      "sourceUrl": "https://nb.scene7.com/is/image/NB/mfcxlv5_nb_07_i?$pdpflexf22x$&wid=1200&hei=1200",
+      "source": "Manufacturer product CDN (New Balance Scene7)",
+      "licence": "manufacturer-marketing",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1000,
+      "height": 1000,
+      "usageType": "top"
+    }
+  ],
+  "prod-salomon-adv-skin-5": [
+    {
+      "productId": "prod-salomon-adv-skin-5",
+      "src": "/images/packs/products/salomon-adv-skin-5/gallery/side.jpg",
+      "sourceUrl": "https://img.runningwarehouse.com/fpcache/2400/marketing/NIKPP2FPM-lg.jpg",
+      "source": "Authorized retailer product photography (Running Warehouse)",
+      "licence": "retailer-authorized",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1600,
+      "height": 827,
+      "usageType": "side"
+    },
+    {
+      "productId": "prod-salomon-adv-skin-5",
+      "src": "/images/packs/products/salomon-adv-skin-5/gallery/detail.jpg",
+      "sourceUrl": "https://img.runningwarehouse.com/fpcache/1982/marketing/NIKPP2FPM-lg.jpg",
+      "source": "Authorized retailer product photography (Running Warehouse)",
+      "licence": "retailer-authorized",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1600,
+      "height": 827,
+      "usageType": "detail"
+    },
+    {
+      "productId": "prod-salomon-adv-skin-5",
+      "src": "/images/packs/products/salomon-adv-skin-5/gallery/rear.jpg",
+      "sourceUrl": "https://img.runningwarehouse.com/fpcache/1200/marketing/NIKPP2FPM-lg.jpg",
+      "source": "Authorized retailer product photography (Running Warehouse)",
+      "licence": "retailer-authorized",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1200,
+      "height": 620,
+      "usageType": "rear"
+    },
+    {
+      "productId": "prod-salomon-adv-skin-5",
+      "src": "/images/packs/products/salomon-adv-skin-5/gallery/top.jpg",
+      "sourceUrl": "https://img.runningwarehouse.com/fpcache/991/marketing/NIKPP2FPM-lg.jpg",
+      "source": "Authorized retailer product photography (Running Warehouse)",
+      "licence": "retailer-authorized",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 991,
+      "height": 512,
+      "usageType": "top"
+    }
+  ],
+  "prod-suunto-run": [
+    {
+      "productId": "prod-suunto-run",
+      "src": "/images/watches/products/suunto-run/gallery/side.jpg",
+      "sourceUrl": "https://www.suunto.com/globalassets/productimages/suunto-run/all-black/suunto-run-all-black-front-1200x1200px-2.png",
+      "source": "Manufacturer / authorized retailer product photography",
+      "licence": "manufacturer-marketing",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1280,
+      "height": 1280,
+      "usageType": "side"
+    }
+  ],
+  "prod-suunto-vertical-2": [
+    {
+      "productId": "prod-suunto-vertical-2",
+      "src": "/images/watches/products/suunto-vertical-2/gallery/side.jpg",
+      "sourceUrl": "https://www.suunto.com/globalassets/productimages/suunto-vertical-2/all-black/suunto_vertical_2_all_black_front_1200x1200px.png",
+      "source": "Manufacturer / authorized retailer product photography",
+      "licence": "manufacturer-marketing",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1200,
+      "height": 1200,
+      "usageType": "side"
+    }
+  ],
+  "prod-ud-race-vest-6": [
+    {
+      "productId": "prod-ud-race-vest-6",
+      "src": "/images/packs/products/ultimate-direction-race-vest-6/gallery/side.jpg",
+      "sourceUrl": "https://img.runningwarehouse.com/fpcache/2400/marketing/NIKPP2FPM-lg.jpg",
+      "source": "Authorized retailer product photography (Running Warehouse)",
+      "licence": "retailer-authorized",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1600,
+      "height": 827,
+      "usageType": "side"
+    },
+    {
+      "productId": "prod-ud-race-vest-6",
+      "src": "/images/packs/products/ultimate-direction-race-vest-6/gallery/detail.jpg",
+      "sourceUrl": "https://img.runningwarehouse.com/fpcache/1982/marketing/NIKPP2FPM-lg.jpg",
+      "source": "Authorized retailer product photography (Running Warehouse)",
+      "licence": "retailer-authorized",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1600,
+      "height": 827,
+      "usageType": "detail"
+    },
+    {
+      "productId": "prod-ud-race-vest-6",
+      "src": "/images/packs/products/ultimate-direction-race-vest-6/gallery/rear.jpg",
+      "sourceUrl": "https://img.runningwarehouse.com/fpcache/1200/marketing/NIKPP2FPM-lg.jpg",
+      "source": "Authorized retailer product photography (Running Warehouse)",
+      "licence": "retailer-authorized",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1200,
+      "height": 620,
+      "usageType": "rear"
+    },
+    {
+      "productId": "prod-ud-race-vest-6",
+      "src": "/images/packs/products/ultimate-direction-race-vest-6/gallery/top.jpg",
+      "sourceUrl": "https://img.runningwarehouse.com/fpcache/991/marketing/NIKPP2FPM-lg.jpg",
+      "source": "Authorized retailer product photography (Running Warehouse)",
+      "licence": "retailer-authorized",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 991,
+      "height": 512,
+      "usageType": "top"
+    }
+  ],
+  "prod-vivoactive-6": [
+    {
+      "productId": "prod-vivoactive-6",
+      "src": "/images/watches/products/garmin-vivoactive-6/gallery/detail-1.jpg",
+      "sourceUrl": "https://res.garmin.com/en/products/010-02985-02/g/74034-1.jpg",
+      "source": "Manufacturer official product catalog (Garmin)",
+      "licence": "manufacturer-marketing",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 800,
+      "height": 900,
+      "usageType": "detail"
+    },
+    {
+      "productId": "prod-vivoactive-6",
+      "src": "/images/watches/products/garmin-vivoactive-6/gallery/detail-2.jpg",
+      "sourceUrl": "https://res.garmin.com/en/products/010-02985-02/g/74034-2.jpg",
+      "source": "Manufacturer official product catalog (Garmin)",
+      "licence": "manufacturer-marketing",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 800,
+      "height": 900,
+      "usageType": "detail"
+    },
+    {
+      "productId": "prod-vivoactive-6",
+      "src": "/images/watches/products/garmin-vivoactive-6/gallery/detail-3.jpg",
+      "sourceUrl": "https://res.garmin.com/en/products/010-02985-02/g/74034-3.jpg",
+      "source": "Manufacturer official product catalog (Garmin)",
+      "licence": "manufacturer-marketing",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 800,
+      "height": 900,
+      "usageType": "detail"
+    },
+    {
+      "productId": "prod-vivoactive-6",
+      "src": "/images/watches/products/garmin-vivoactive-6/gallery/detail-4.jpg",
+      "sourceUrl": "https://res.garmin.com/en/products/010-02985-02/g/74034-4.jpg",
+      "source": "Manufacturer official product catalog (Garmin)",
+      "licence": "manufacturer-marketing",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 800,
+      "height": 900,
+      "usageType": "detail"
+    },
+    {
+      "productId": "prod-vivoactive-6",
+      "src": "/images/watches/products/garmin-vivoactive-6/gallery/detail-5.jpg",
+      "sourceUrl": "https://res.garmin.com/en/products/010-02985-02/g/74034-5.jpg",
+      "source": "Manufacturer official product catalog (Garmin)",
+      "licence": "manufacturer-marketing",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 800,
+      "height": 900,
+      "usageType": "detail"
+    },
+    {
+      "productId": "prod-vivoactive-6",
+      "src": "/images/watches/products/garmin-vivoactive-6/gallery/detail-6.jpg",
+      "sourceUrl": "https://res.garmin.com/en/products/010-02985-02/g/74034-6.jpg",
+      "source": "Manufacturer official product catalog (Garmin)",
+      "licence": "manufacturer-marketing",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 800,
+      "height": 900,
+      "usageType": "detail"
+    }
+  ],
+  "prod-wahoo-trackr": [
+    {
+      "productId": "prod-wahoo-trackr",
+      "src": "/images/hrm/products/wahoo-trackr/gallery/side.jpg",
+      "sourceUrl": "https://eu.wahoofitness.com/media/catalog/product/cache/1923967fdc0d9001a5cca9507ecb23ba/t/r/trackr_share.jpg",
+      "source": "Manufacturer / authorized retailer product photography",
+      "licence": "manufacturer-marketing",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1200,
+      "height": 630,
+      "usageType": "side"
+    }
+  ],
+  "prod-forerunner-970": [
+    {
+      "productId": "prod-forerunner-970",
+      "src": "/images/watches/products/garmin-forerunner-970/gallery/side-1.jpg",
+      "sourceUrl": "https://res.garmin.com/en/products/010-02969-00/g/74281-D-2.jpg",
+      "source": "Manufacturer official product catalog (Garmin)",
+      "licence": "manufacturer-marketing",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1600,
+      "height": 900,
+      "usageType": "side"
+    },
+    {
+      "productId": "prod-forerunner-970",
+      "src": "/images/watches/products/garmin-forerunner-970/gallery/detail-2.jpg",
+      "sourceUrl": "https://res.garmin.com/en/products/010-02969-00/g/74281-D-3.jpg",
+      "source": "Manufacturer official product catalog (Garmin)",
+      "licence": "manufacturer-marketing",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1600,
+      "height": 900,
+      "usageType": "detail"
+    },
+    {
+      "productId": "prod-forerunner-970",
+      "src": "/images/watches/products/garmin-forerunner-970/gallery/rear-3.jpg",
+      "sourceUrl": "https://res.garmin.com/en/products/010-02969-00/g/74281-D-4.jpg",
+      "source": "Manufacturer official product catalog (Garmin)",
+      "licence": "manufacturer-marketing",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1600,
+      "height": 901,
+      "usageType": "rear"
+    },
+    {
+      "productId": "prod-forerunner-970",
+      "src": "/images/watches/products/garmin-forerunner-970/gallery/top-4.jpg",
+      "sourceUrl": "https://res.garmin.com/en/products/010-02969-00/g/74281-D-5.jpg",
+      "source": "Manufacturer official product catalog (Garmin)",
+      "licence": "manufacturer-marketing",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1600,
+      "height": 901,
+      "usageType": "top"
+    }
+  ],
+  "prod-enduro-3": [
+    {
+      "productId": "prod-enduro-3",
+      "src": "/images/watches/products/garmin-enduro-3/gallery/side-1.jpg",
+      "sourceUrl": "https://res.garmin.com/en/products/010-02751-00/g/67233-2-D.jpg",
+      "source": "Manufacturer official product catalog (Garmin)",
+      "licence": "manufacturer-marketing",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1600,
+      "height": 580,
+      "usageType": "side"
+    },
+    {
+      "productId": "prod-enduro-3",
+      "src": "/images/watches/products/garmin-enduro-3/gallery/detail-2.jpg",
+      "sourceUrl": "https://res.garmin.com/en/products/010-02751-00/g/67233-3-D.jpg",
+      "source": "Manufacturer official product catalog (Garmin)",
+      "licence": "manufacturer-marketing",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1600,
+      "height": 1320,
+      "usageType": "detail"
+    },
+    {
+      "productId": "prod-enduro-3",
+      "src": "/images/watches/products/garmin-enduro-3/gallery/rear-3.jpg",
+      "sourceUrl": "https://res.garmin.com/en/products/010-02751-00/g/67233-4-D.jpg",
+      "source": "Manufacturer official product catalog (Garmin)",
+      "licence": "manufacturer-marketing",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1600,
+      "height": 1266,
+      "usageType": "rear"
+    },
+    {
+      "productId": "prod-enduro-3",
+      "src": "/images/watches/products/garmin-enduro-3/gallery/top-4.jpg",
+      "sourceUrl": "https://res.garmin.com/en/products/010-02751-00/g/67233-5-D.jpg",
+      "source": "Manufacturer official product catalog (Garmin)",
+      "licence": "manufacturer-marketing",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1600,
+      "height": 1361,
+      "usageType": "top"
+    }
+  ],
+  "prod-1080-v14": [
+    {
+      "productId": "prod-1080-v14",
+      "src": "/images/running/products/1080-v14/gallery/side-3.jpg",
+      "sourceUrl": "https://nb.scene7.com/is/image/NB/m1080b14_nb_03_i?$pdpflexf22x$&wid=1200&hei=1200",
+      "source": "Manufacturer product CDN (New Balance Scene7)",
+      "licence": "manufacturer-marketing",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1200,
+      "height": 1200,
+      "usageType": "side"
+    },
+    {
+      "productId": "prod-1080-v14",
+      "src": "/images/running/products/1080-v14/gallery/outsole-4.jpg",
+      "sourceUrl": "https://nb.scene7.com/is/image/NB/m1080b14_nb_04_i?$pdpflexf22x$&wid=1200&hei=1200",
+      "source": "Manufacturer product CDN (New Balance Scene7)",
+      "licence": "manufacturer-marketing",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1200,
+      "height": 1200,
+      "usageType": "outsole"
+    },
+    {
+      "productId": "prod-1080-v14",
+      "src": "/images/running/products/1080-v14/gallery/rear-5.jpg",
+      "sourceUrl": "https://nb.scene7.com/is/image/NB/m1080b14_nb_05_i?$pdpflexf22x$&wid=1200&hei=1200",
+      "source": "Manufacturer product CDN (New Balance Scene7)",
+      "licence": "manufacturer-marketing",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1200,
+      "height": 1200,
+      "usageType": "rear"
+    },
+    {
+      "productId": "prod-1080-v14",
+      "src": "/images/running/products/1080-v14/gallery/detail-6.jpg",
+      "sourceUrl": "https://nb.scene7.com/is/image/NB/m1080b14_nb_06_i?$pdpflexf22x$&wid=1200&hei=1200",
+      "source": "Manufacturer product CDN (New Balance Scene7)",
+      "licence": "manufacturer-marketing",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1200,
+      "height": 1200,
+      "usageType": "detail"
+    }
+  ],
+  "prod-sc-trainer-v3": [
+    {
+      "productId": "prod-sc-trainer-v3",
+      "src": "/images/running/products/sc-trainer-v3/gallery/side-2.jpg",
+      "sourceUrl": "https://img.runningwarehouse.com/watermark/rs.php?path=N3SCTM5-2.jpg&nw=1200",
+      "source": "Authorized retailer product photography (Running Warehouse)",
+      "licence": "retailer-authorized",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1200,
+      "height": 899,
+      "usageType": "side"
+    },
+    {
+      "productId": "prod-sc-trainer-v3",
+      "src": "/images/running/products/sc-trainer-v3/gallery/detail-3.jpg",
+      "sourceUrl": "https://img.runningwarehouse.com/watermark/rs.php?path=N3SCTM5-3.jpg&nw=1200",
+      "source": "Authorized retailer product photography (Running Warehouse)",
+      "licence": "retailer-authorized",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1200,
+      "height": 900,
+      "usageType": "detail"
+    },
+    {
+      "productId": "prod-sc-trainer-v3",
+      "src": "/images/running/products/sc-trainer-v3/gallery/rear-4.jpg",
+      "sourceUrl": "https://img.runningwarehouse.com/watermark/rs.php?path=N3SCTM5-4.jpg&nw=1200",
+      "source": "Authorized retailer product photography (Running Warehouse)",
+      "licence": "retailer-authorized",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1200,
+      "height": 899,
+      "usageType": "rear"
+    },
+    {
+      "productId": "prod-sc-trainer-v3",
+      "src": "/images/running/products/sc-trainer-v3/gallery/outsole-5.jpg",
+      "sourceUrl": "https://img.runningwarehouse.com/watermark/rs.php?path=N3SCTM5-5.jpg&nw=1200",
+      "source": "Authorized retailer product photography (Running Warehouse)",
+      "licence": "retailer-authorized",
+      "attribution": "© Brand — official / authorized product photography",
+      "width": 1200,
+      "height": 899,
+      "usageType": "outsole"
+    }
+  ]
+}

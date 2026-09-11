@@ -1,0 +1,1141 @@
+{
+  "generatedAt": "2026-09-06T19:57:25.158Z",
+  "productsWithGallery": 23,
+  "totalExtras": 92,
+  "report": [
+    {
+      "id": "prod-novablast-5",
+      "slug": "asics-novablast-5",
+      "ok": true,
+      "count": 2,
+      "usages": [
+        "side",
+        "outsole"
+      ]
+    },
+    {
+      "id": "prod-novablast-4",
+      "slug": "asics-novablast-4",
+      "ok": true,
+      "count": 2,
+      "usages": [
+        "side",
+        "outsole"
+      ]
+    },
+    {
+      "id": "prod-nimbus-27",
+      "slug": "asics-gel-nimbus-27",
+      "ok": true,
+      "count": 2,
+      "usages": [
+        "side",
+        "outsole"
+      ]
+    },
+    {
+      "id": "prod-pegasus-41",
+      "slug": "nike-pegasus-41",
+      "ok": false,
+      "reason": "no-cdn-angles"
+    },
+    {
+      "id": "prod-ghost-16",
+      "slug": "brooks-ghost-16",
+      "ok": false,
+      "reason": "no-cdn-angles"
+    },
+    {
+      "id": "prod-clifton-9",
+      "slug": "hoka-clifton-9",
+      "ok": false,
+      "reason": "no-cdn-angles"
+    },
+    {
+      "id": "prod-endorphin-speed-4",
+      "slug": "saucony-endorphin-speed-4",
+      "ok": false,
+      "reason": "no-cdn-angles"
+    },
+    {
+      "id": "prod-rebel-4",
+      "slug": "new-balance-fuelcell-rebel-v4",
+      "ok": false,
+      "reason": "no-cdn-angles"
+    },
+    {
+      "id": "prod-boston-12",
+      "slug": "adidas-adizero-boston-12",
+      "ok": false,
+      "reason": "no-cdn-angles"
+    },
+    {
+      "id": "prod-novablast-6",
+      "slug": "asics-novablast-6",
+      "ok": false,
+      "reason": "no-cdn-angles"
+    },
+    {
+      "id": "prod-superblast-2",
+      "slug": "asics-superblast-2",
+      "ok": false,
+      "reason": "no-cdn-angles"
+    },
+    {
+      "id": "prod-kayano-32",
+      "slug": "asics-gel-kayano-32",
+      "ok": false,
+      "reason": "no-cdn-angles"
+    },
+    {
+      "id": "prod-cumulus-27",
+      "slug": "asics-gel-cumulus-27",
+      "ok": true,
+      "count": 2,
+      "usages": [
+        "side",
+        "outsole"
+      ]
+    },
+    {
+      "id": "prod-metaspeed-sky-paris",
+      "slug": "asics-metaspeed-sky-paris",
+      "ok": false,
+      "reason": "no-cdn-angles"
+    },
+    {
+      "id": "prod-gt-2000-14",
+      "slug": "asics-gt-2000-14",
+      "ok": false,
+      "reason": "no-cdn-angles"
+    },
+    {
+      "id": "prod-pegasus-42",
+      "slug": "nike-pegasus-42",
+      "ok": false,
+      "reason": "no-cdn-angles"
+    },
+    {
+      "id": "prod-vomero-18",
+      "slug": "nike-vomero-18",
+      "ok": false,
+      "reason": "no-cdn-angles"
+    },
+    {
+      "id": "prod-invincible-3",
+      "slug": "nike-invincible-3",
+      "ok": false,
+      "reason": "no-cdn-angles"
+    },
+    {
+      "id": "prod-vaporfly-4",
+      "slug": "nike-vaporfly-4",
+      "ok": false,
+      "reason": "no-cdn-angles"
+    },
+    {
+      "id": "prod-alphafly-3",
+      "slug": "nike-alphafly-3",
+      "ok": false,
+      "reason": "no-cdn-angles"
+    },
+    {
+      "id": "prod-structure-26",
+      "slug": "nike-structure-26",
+      "ok": false,
+      "reason": "no-cdn-angles"
+    },
+    {
+      "id": "prod-structure-plus",
+      "slug": "nike-structure-plus",
+      "ok": false,
+      "reason": "no-cdn-angles"
+    },
+    {
+      "id": "prod-ghost-18",
+      "slug": "brooks-ghost-18",
+      "ok": false,
+      "reason": "no-cdn-angles"
+    },
+    {
+      "id": "prod-glycerin-22",
+      "slug": "brooks-glycerin-22",
+      "ok": false,
+      "reason": "no-cdn-angles"
+    },
+    {
+      "id": "prod-glycerin-21",
+      "slug": "brooks-glycerin-21",
+      "ok": false,
+      "reason": "no-cdn-angles"
+    },
+    {
+      "id": "prod-adrenaline-gts-25",
+      "slug": "brooks-adrenaline-gts-25",
+      "ok": false,
+      "reason": "no-cdn-angles"
+    },
+    {
+      "id": "prod-hyperion-max-2",
+      "slug": "brooks-hyperion-max-2",
+      "ok": false,
+      "reason": "no-cdn-angles"
+    },
+    {
+      "id": "prod-clifton-10",
+      "slug": "hoka-clifton-10",
+      "ok": false,
+      "reason": "no-cdn-angles"
+    },
+    {
+      "id": "prod-bondi-9",
+      "slug": "hoka-bondi-9",
+      "ok": false,
+      "reason": "no-cdn-angles"
+    },
+    {
+      "id": "prod-bondi-8",
+      "slug": "hoka-bondi-8",
+      "ok": false,
+      "reason": "no-cdn-angles"
+    },
+    {
+      "id": "prod-mach-6",
+      "slug": "hoka-mach-6",
+      "ok": false,
+      "reason": "no-cdn-angles"
+    },
+    {
+      "id": "prod-speedgoat-6",
+      "slug": "hoka-speedgoat-6",
+      "ok": false,
+      "reason": "no-cdn-angles"
+    },
+    {
+      "id": "prod-clifton-pro",
+      "slug": "hoka-clifton-pro",
+      "ok": false,
+      "reason": "no-cdn-angles"
+    },
+    {
+      "id": "prod-endorphin-speed-5",
+      "slug": "saucony-endorphin-speed-5",
+      "ok": false,
+      "reason": "no-cdn-angles"
+    },
+    {
+      "id": "prod-endorphin-pro-4",
+      "slug": "saucony-endorphin-pro-4",
+      "ok": false,
+      "reason": "no-cdn-angles"
+    },
+    {
+      "id": "prod-endorphin-pro-3",
+      "slug": "saucony-endorphin-pro-3",
+      "ok": false,
+      "reason": "no-cdn-angles"
+    },
+    {
+      "id": "prod-ride-18",
+      "slug": "saucony-ride-18",
+      "ok": false,
+      "reason": "no-cdn-angles"
+    },
+    {
+      "id": "prod-triumph-22",
+      "slug": "saucony-triumph-22",
+      "ok": false,
+      "reason": "no-cdn-angles"
+    },
+    {
+      "id": "prod-peregrine-15",
+      "slug": "saucony-peregrine-15",
+      "ok": false,
+      "reason": "no-cdn-angles"
+    },
+    {
+      "id": "prod-1080-v14",
+      "slug": "new-balance-fresh-foam-x-1080-v14",
+      "ok": false,
+      "reason": "no-cdn-angles"
+    },
+    {
+      "id": "prod-1080-v13",
+      "slug": "new-balance-fresh-foam-x-1080-v13",
+      "ok": true,
+      "count": 5,
+      "usages": [
+        "side",
+        "outsole",
+        "rear",
+        "detail",
+        "top"
+      ]
+    },
+    {
+      "id": "prod-sc-elite-v4",
+      "slug": "new-balance-fuelcell-supercomp-elite-v4",
+      "ok": false,
+      "reason": "no-cdn-angles"
+    },
+    {
+      "id": "prod-rebel-v5",
+      "slug": "new-balance-fuelcell-rebel-v5",
+      "ok": true,
+      "count": 5,
+      "usages": [
+        "side",
+        "outsole",
+        "rear",
+        "detail",
+        "top"
+      ]
+    },
+    {
+      "id": "prod-sc-trainer-v3",
+      "slug": "new-balance-fuelcell-supercomp-trainer-v3",
+      "ok": false,
+      "reason": "no-cdn-angles"
+    },
+    {
+      "id": "prod-adizero-evo-sl",
+      "slug": "adidas-adizero-evo-sl",
+      "ok": false,
+      "reason": "no-cdn-angles"
+    },
+    {
+      "id": "prod-adios-pro-4",
+      "slug": "adidas-adizero-adios-pro-4",
+      "ok": false,
+      "reason": "no-cdn-angles"
+    },
+    {
+      "id": "prod-cloudmonster-2",
+      "slug": "on-cloudmonster-2",
+      "ok": false,
+      "reason": "no-cdn-angles"
+    },
+    {
+      "id": "prod-cloudsurfer-next",
+      "slug": "on-cloudsurfer-next",
+      "ok": false,
+      "reason": "no-cdn-angles"
+    },
+    {
+      "id": "prod-torin-8",
+      "slug": "altra-torin-8",
+      "ok": false,
+      "reason": "no-cdn-angles"
+    },
+    {
+      "id": "prod-escalante-4",
+      "slug": "altra-escalante-4",
+      "ok": false,
+      "reason": "no-cdn-angles"
+    },
+    {
+      "id": "prod-lone-peak-8",
+      "slug": "altra-lone-peak-8",
+      "ok": false,
+      "reason": "no-cdn-angles"
+    },
+    {
+      "id": "prod-aero-glide-2",
+      "slug": "salomon-aero-glide-2",
+      "ok": false,
+      "reason": "no-cdn-angles"
+    },
+    {
+      "id": "prod-sense-ride-5",
+      "slug": "salomon-sense-ride-5",
+      "ok": false,
+      "reason": "no-cdn-angles"
+    },
+    {
+      "id": "prod-pulsar-trail-2",
+      "slug": "salomon-pulsar-trail-2",
+      "ok": false,
+      "reason": "no-cdn-angles"
+    },
+    {
+      "id": "prod-specter-2",
+      "slug": "topo-athletic-specter-2",
+      "ok": false,
+      "reason": "no-cdn-angles"
+    },
+    {
+      "id": "prod-phantom-3",
+      "slug": "topo-athletic-phantom-3",
+      "ok": false,
+      "reason": "no-cdn-angles"
+    },
+    {
+      "id": "prod-deviate-nitro-3",
+      "slug": "puma-deviate-nitro-3",
+      "ok": false,
+      "reason": "no-cdn-angles"
+    },
+    {
+      "id": "prod-magnify-nitro-2",
+      "slug": "puma-magnify-nitro-2",
+      "ok": false,
+      "reason": "no-cdn-angles"
+    },
+    {
+      "id": "prod-wave-rider-28",
+      "slug": "mizuno-wave-rider-28",
+      "ok": false,
+      "reason": "no-cdn-angles"
+    },
+    {
+      "id": "prod-wave-rebellion-pro-3",
+      "slug": "mizuno-wave-rebellion-pro-3",
+      "ok": false,
+      "reason": "no-cdn-angles"
+    },
+    {
+      "id": "prod-trailfly-ultra-g-300-max",
+      "slug": "inov8-trailfly-ultra-g-300-max",
+      "ok": false,
+      "reason": "no-cdn-angles"
+    },
+    {
+      "id": "prod-cascadia-18",
+      "slug": "brooks-cascadia-18",
+      "ok": false,
+      "reason": "no-cdn-angles"
+    },
+    {
+      "id": "prod-pegasus-trail-5",
+      "slug": "nike-pegasus-trail-5",
+      "ok": false,
+      "reason": "no-cdn-angles"
+    },
+    {
+      "id": "prod-trabuco-13",
+      "slug": "asics-gel-trabuco-13",
+      "ok": false,
+      "reason": "no-cdn-angles"
+    },
+    {
+      "id": "prod-xodus-ultra-3",
+      "slug": "saucony-xodus-ultra-3",
+      "ok": false,
+      "reason": "no-cdn-angles"
+    },
+    {
+      "id": "prod-hierro-v9",
+      "slug": "new-balance-fresh-foam-x-hierro-v9",
+      "ok": false,
+      "reason": "no-cdn-angles"
+    },
+    {
+      "id": "prod-terrex-agravic-3",
+      "slug": "adidas-terrex-agravic-3",
+      "ok": false,
+      "reason": "no-cdn-angles"
+    },
+    {
+      "id": "prod-ultra-glide-2",
+      "slug": "salomon-ultra-glide-2",
+      "ok": false,
+      "reason": "no-cdn-angles"
+    },
+    {
+      "id": "prod-terraventure-4",
+      "slug": "topo-athletic-terraventure-5",
+      "ok": false,
+      "reason": "no-cdn-angles"
+    },
+    {
+      "id": "prod-guide-18",
+      "slug": "saucony-guide-18",
+      "ok": false,
+      "reason": "no-cdn-angles"
+    },
+    {
+      "id": "prod-arahi-7",
+      "slug": "hoka-arahi-7",
+      "ok": false,
+      "reason": "no-cdn-angles"
+    },
+    {
+      "id": "prod-gaviota-5",
+      "slug": "hoka-gaviota-5",
+      "ok": false,
+      "reason": "no-cdn-angles"
+    },
+    {
+      "id": "prod-860-v14",
+      "slug": "new-balance-fresh-foam-x-860-v14",
+      "ok": false,
+      "reason": "no-cdn-angles"
+    },
+    {
+      "id": "prod-gt-1000-13",
+      "slug": "asics-gt-1000-13",
+      "ok": false,
+      "reason": "no-cdn-angles"
+    },
+    {
+      "id": "prod-glycerin-gts-22",
+      "slug": "brooks-glycerin-gts-22",
+      "ok": false,
+      "reason": "no-cdn-angles"
+    },
+    {
+      "id": "prod-react-infinity-4",
+      "slug": "nike-react-infinity-run-4",
+      "ok": false,
+      "reason": "no-cdn-angles"
+    },
+    {
+      "id": "prod-paradigm-7",
+      "slug": "altra-paradigm-7",
+      "ok": false,
+      "reason": "no-cdn-angles"
+    },
+    {
+      "id": "prod-experience-flow",
+      "slug": "altra-experience-flow",
+      "ok": false,
+      "reason": "no-cdn-angles"
+    },
+    {
+      "id": "prod-adizero-boston-13",
+      "slug": "adidas-adizero-boston-13",
+      "ok": false,
+      "reason": "no-cdn-angles"
+    },
+    {
+      "id": "prod-ultraboost-5",
+      "slug": "adidas-ultraboost-5",
+      "ok": false,
+      "reason": "no-cdn-angles"
+    },
+    {
+      "id": "prod-cloudsurfer-2",
+      "slug": "on-cloudsurfer-2",
+      "ok": false,
+      "reason": "no-cdn-angles"
+    },
+    {
+      "id": "prod-cloudmonster-hyper",
+      "slug": "on-cloudmonster-hyper",
+      "ok": false,
+      "reason": "no-cdn-angles"
+    },
+    {
+      "id": "prod-genesis-salomon",
+      "slug": "salomon-genesis",
+      "ok": false,
+      "reason": "no-cdn-angles"
+    },
+    {
+      "id": "prod-forerunner-965",
+      "slug": "garmin-forerunner-965",
+      "ok": true,
+      "count": 8,
+      "usages": [
+        "side",
+        "side",
+        "detail",
+        "detail",
+        "detail",
+        "detail",
+        "detail",
+        "on-foot"
+      ]
+    },
+    {
+      "id": "prod-forerunner-255",
+      "slug": "garmin-forerunner-255",
+      "ok": false,
+      "reason": "no-cdn-angles"
+    },
+    {
+      "id": "prod-coros-pace-3",
+      "slug": "coros-pace-3",
+      "ok": true,
+      "count": 4,
+      "usages": [
+        "side",
+        "detail",
+        "rear",
+        "top"
+      ]
+    },
+    {
+      "id": "prod-forerunner-970",
+      "slug": "garmin-forerunner-970",
+      "ok": false,
+      "reason": "no-cdn-angles"
+    },
+    {
+      "id": "prod-forerunner-570",
+      "slug": "garmin-forerunner-570",
+      "ok": true,
+      "count": 2,
+      "usages": [
+        "detail",
+        "detail"
+      ]
+    },
+    {
+      "id": "prod-forerunner-265",
+      "slug": "garmin-forerunner-265",
+      "ok": false,
+      "reason": "no-cdn-angles"
+    },
+    {
+      "id": "prod-forerunner-165",
+      "slug": "garmin-forerunner-165",
+      "ok": false,
+      "reason": "no-cdn-angles"
+    },
+    {
+      "id": "prod-forerunner-55",
+      "slug": "garmin-forerunner-55",
+      "ok": false,
+      "reason": "no-cdn-angles"
+    },
+    {
+      "id": "prod-coros-pace-pro",
+      "slug": "coros-pace-pro",
+      "ok": true,
+      "count": 4,
+      "usages": [
+        "side",
+        "detail",
+        "rear",
+        "top"
+      ]
+    },
+    {
+      "id": "prod-coros-apex-2-pro",
+      "slug": "coros-apex-2-pro",
+      "ok": true,
+      "count": 4,
+      "usages": [
+        "side",
+        "detail",
+        "rear",
+        "top"
+      ]
+    },
+    {
+      "id": "prod-polar-vantage-v3",
+      "slug": "polar-vantage-v3",
+      "ok": false,
+      "reason": "no-cdn-angles"
+    },
+    {
+      "id": "prod-polar-pacer-pro",
+      "slug": "polar-pacer-pro",
+      "ok": false,
+      "reason": "no-cdn-angles"
+    },
+    {
+      "id": "prod-suunto-race",
+      "slug": "suunto-race",
+      "ok": false,
+      "reason": "no-cdn-angles"
+    },
+    {
+      "id": "prod-suunto-race-s",
+      "slug": "suunto-race-s",
+      "ok": false,
+      "reason": "no-cdn-angles"
+    },
+    {
+      "id": "prod-apple-watch-ultra-2",
+      "slug": "apple-watch-ultra-2",
+      "ok": false,
+      "reason": "no-cdn-angles"
+    },
+    {
+      "id": "prod-fenix-8",
+      "slug": "garmin-fenix-8",
+      "ok": true,
+      "count": 8,
+      "usages": [
+        "detail",
+        "detail",
+        "detail",
+        "detail",
+        "detail",
+        "detail",
+        "detail",
+        "detail"
+      ]
+    },
+    {
+      "id": "prod-enduro-3",
+      "slug": "garmin-enduro-3",
+      "ok": false,
+      "reason": "no-cdn-angles"
+    },
+    {
+      "id": "prod-instinct-3",
+      "slug": "garmin-instinct-3",
+      "ok": true,
+      "count": 8,
+      "usages": [
+        "detail",
+        "detail",
+        "detail",
+        "detail",
+        "detail",
+        "detail",
+        "detail",
+        "detail"
+      ]
+    },
+    {
+      "id": "prod-vivoactive-6",
+      "slug": "garmin-vivoactive-6",
+      "ok": true,
+      "count": 6,
+      "usages": [
+        "detail",
+        "detail",
+        "detail",
+        "detail",
+        "detail",
+        "detail"
+      ]
+    },
+    {
+      "id": "prod-forerunner-265s",
+      "slug": "garmin-forerunner-265s",
+      "ok": false,
+      "reason": "no-cdn-angles"
+    },
+    {
+      "id": "prod-garmin-epix-pro-gen2",
+      "slug": "garmin-epix-pro-gen-2",
+      "ok": true,
+      "count": 2,
+      "usages": [
+        "detail",
+        "detail"
+      ]
+    },
+    {
+      "id": "prod-coros-apex-4",
+      "slug": "coros-apex-4",
+      "ok": true,
+      "count": 4,
+      "usages": [
+        "side",
+        "detail",
+        "rear",
+        "top"
+      ]
+    },
+    {
+      "id": "prod-coros-pace-4",
+      "slug": "coros-pace-4",
+      "ok": true,
+      "count": 4,
+      "usages": [
+        "side",
+        "detail",
+        "rear",
+        "top"
+      ]
+    },
+    {
+      "id": "prod-coros-vertix-2s",
+      "slug": "coros-vertix-2s",
+      "ok": true,
+      "count": 4,
+      "usages": [
+        "side",
+        "detail",
+        "rear",
+        "top"
+      ]
+    },
+    {
+      "id": "prod-suunto-vertical-2",
+      "slug": "suunto-vertical-2",
+      "ok": false,
+      "reason": "no-cdn-angles"
+    },
+    {
+      "id": "prod-suunto-run",
+      "slug": "suunto-run",
+      "ok": false,
+      "reason": "no-cdn-angles"
+    },
+    {
+      "id": "prod-polar-grit-x2",
+      "slug": "polar-grit-x2",
+      "ok": false,
+      "reason": "no-cdn-angles"
+    },
+    {
+      "id": "prod-polar-pacer",
+      "slug": "polar-pacer",
+      "ok": false,
+      "reason": "no-cdn-angles"
+    },
+    {
+      "id": "prod-apple-watch-ultra-3",
+      "slug": "apple-watch-ultra-3",
+      "ok": false,
+      "reason": "no-cdn-angles"
+    },
+    {
+      "id": "prod-apple-watch-series-10",
+      "slug": "apple-watch-series-10",
+      "ok": false,
+      "reason": "no-cdn-angles"
+    },
+    {
+      "id": "prod-samsung-galaxy-watch-ultra",
+      "slug": "samsung-galaxy-watch-ultra",
+      "ok": false,
+      "reason": "no-cdn-angles"
+    },
+    {
+      "id": "prod-amazfit-t-rex-3-pro",
+      "slug": "amazfit-t-rex-3-pro",
+      "ok": false,
+      "reason": "no-cdn-angles"
+    },
+    {
+      "id": "prod-amazfit-active-2",
+      "slug": "amazfit-active-2",
+      "ok": false,
+      "reason": "no-cdn-angles"
+    },
+    {
+      "id": "prod-hrm-pro-plus",
+      "slug": "garmin-hrm-pro-plus",
+      "ok": false,
+      "reason": "no-cdn-angles"
+    },
+    {
+      "id": "prod-hrm-600",
+      "slug": "garmin-hrm-600",
+      "ok": false,
+      "reason": "no-cdn-angles"
+    },
+    {
+      "id": "prod-polar-h10",
+      "slug": "polar-h10",
+      "ok": false,
+      "reason": "no-cdn-angles"
+    },
+    {
+      "id": "prod-polar-verity-sense",
+      "slug": "polar-verity-sense",
+      "ok": false,
+      "reason": "no-cdn-angles"
+    },
+    {
+      "id": "prod-wahoo-tickr",
+      "slug": "wahoo-tickr",
+      "ok": false,
+      "reason": "no-cdn-angles"
+    },
+    {
+      "id": "prod-wahoo-tickr-x",
+      "slug": "wahoo-tickr-x",
+      "ok": false,
+      "reason": "no-cdn-angles"
+    },
+    {
+      "id": "prod-coros-hrm",
+      "slug": "coros-heart-rate-monitor",
+      "ok": true,
+      "count": 4,
+      "usages": [
+        "side",
+        "detail",
+        "rear",
+        "top"
+      ]
+    },
+    {
+      "id": "prod-garmin-hrm-200",
+      "slug": "garmin-hrm-200",
+      "ok": true,
+      "count": 2,
+      "usages": [
+        "side",
+        "side"
+      ]
+    },
+    {
+      "id": "prod-garmin-hrm-fit",
+      "slug": "garmin-hrm-fit",
+      "ok": true,
+      "count": 4,
+      "usages": [
+        "side",
+        "detail",
+        "detail",
+        "detail"
+      ]
+    },
+    {
+      "id": "prod-polar-h9",
+      "slug": "polar-h9",
+      "ok": false,
+      "reason": "no-cdn-angles"
+    },
+    {
+      "id": "prod-wahoo-trackr",
+      "slug": "wahoo-trackr",
+      "ok": false,
+      "reason": "no-cdn-angles"
+    },
+    {
+      "id": "prod-wahoo-tickr-fit",
+      "slug": "wahoo-tickr-fit",
+      "ok": false,
+      "reason": "no-cdn-angles"
+    },
+    {
+      "id": "prod-scosche-rhythm-plus-2",
+      "slug": "scosche-rhythm-plus-2",
+      "ok": false,
+      "reason": "no-cdn-angles"
+    },
+    {
+      "id": "prod-scosche-rhythm24",
+      "slug": "scosche-rhythm24",
+      "ok": false,
+      "reason": "no-cdn-angles"
+    },
+    {
+      "id": "prod-suunto-smart-hr-belt",
+      "slug": "suunto-smart-heart-rate-belt",
+      "ok": false,
+      "reason": "no-cdn-angles"
+    },
+    {
+      "id": "prod-adv-skin-12",
+      "slug": "salomon-adv-skin-12",
+      "ok": false,
+      "reason": "no-cdn-angles"
+    },
+    {
+      "id": "prod-salomon-adv-skin-5",
+      "slug": "salomon-adv-skin-5",
+      "ok": false,
+      "reason": "no-cdn-angles"
+    },
+    {
+      "id": "prod-nathan-vaporair-4",
+      "slug": "nathan-vaporair-4",
+      "ok": false,
+      "reason": "no-cdn-angles"
+    },
+    {
+      "id": "prod-nathan-pinnacle-12",
+      "slug": "nathan-pinnacle-12",
+      "ok": false,
+      "reason": "no-cdn-angles"
+    },
+    {
+      "id": "prod-ud-race-vest-6",
+      "slug": "ultimate-direction-race-vest-6",
+      "ok": false,
+      "reason": "no-cdn-angles"
+    },
+    {
+      "id": "prod-camelbak-zephyr-pro",
+      "slug": "camelbak-zephyr-pro",
+      "ok": false,
+      "reason": "no-cdn-angles"
+    },
+    {
+      "id": "prod-camelbak-circuit",
+      "slug": "camelbak-circuit-run-vest",
+      "ok": false,
+      "reason": "no-cdn-angles"
+    },
+    {
+      "id": "prod-camelbak-apex-pro",
+      "slug": "camelbak-apex-pro",
+      "ok": false,
+      "reason": "no-cdn-angles"
+    },
+    {
+      "id": "prod-osprey-duro-lt",
+      "slug": "osprey-duro-lt",
+      "ok": false,
+      "reason": "no-cdn-angles"
+    },
+    {
+      "id": "prod-osprey-dyna-lt",
+      "slug": "osprey-dyna-lt",
+      "ok": false,
+      "reason": "no-cdn-angles"
+    },
+    {
+      "id": "prod-osprey-duro-15",
+      "slug": "osprey-duro-15",
+      "ok": false,
+      "reason": "no-cdn-angles"
+    },
+    {
+      "id": "prod-uswe-pace-8",
+      "slug": "uswe-pace-8",
+      "ok": false,
+      "reason": "no-cdn-angles"
+    },
+    {
+      "id": "prod-ultraspire-alpha-6",
+      "slug": "ultraspire-alpha-6",
+      "ok": false,
+      "reason": "no-cdn-angles"
+    },
+    {
+      "id": "prod-ultraspire-spry-5",
+      "slug": "ultraspire-spry-5",
+      "ok": false,
+      "reason": "no-cdn-angles"
+    },
+    {
+      "id": "prod-compressport-ultrun-s-pack",
+      "slug": "compressport-ultrun-s-pack",
+      "ok": false,
+      "reason": "no-cdn-angles"
+    },
+    {
+      "id": "prod-nnormal-race-vest",
+      "slug": "nnormal-race-vest",
+      "ok": false,
+      "reason": "no-cdn-angles"
+    },
+    {
+      "id": "prod-on-ultra-vest-pro",
+      "slug": "on-ultra-vest-pro",
+      "ok": true,
+      "count": 4,
+      "usages": [
+        "side",
+        "detail",
+        "rear",
+        "top"
+      ]
+    },
+    {
+      "id": "prod-black-diamond-distance-8",
+      "slug": "black-diamond-distance-8",
+      "ok": false,
+      "reason": "no-cdn-angles"
+    },
+    {
+      "id": "prod-ud-fastpack-20",
+      "slug": "ultimate-direction-fastpack-20",
+      "ok": false,
+      "reason": "no-cdn-angles"
+    },
+    {
+      "id": "prod-ud-fastpack-her-20",
+      "slug": "ultimate-direction-fastpack-her-20",
+      "ok": false,
+      "reason": "no-cdn-angles"
+    },
+    {
+      "id": "prod-ud-fastpack-30",
+      "slug": "ultimate-direction-fastpack-30",
+      "ok": false,
+      "reason": "no-cdn-angles"
+    },
+    {
+      "id": "prod-osprey-talon-velocity-20",
+      "slug": "osprey-talon-velocity-20",
+      "ok": false,
+      "reason": "no-cdn-angles"
+    },
+    {
+      "id": "prod-osprey-tempest-velocity-20",
+      "slug": "osprey-tempest-velocity-20",
+      "ok": false,
+      "reason": "no-cdn-angles"
+    },
+    {
+      "id": "prod-osprey-talon-velocity-30",
+      "slug": "osprey-talon-velocity-30",
+      "ok": false,
+      "reason": "no-cdn-angles"
+    },
+    {
+      "id": "prod-black-diamond-distance-15",
+      "slug": "black-diamond-distance-15",
+      "ok": false,
+      "reason": "no-cdn-angles"
+    },
+    {
+      "id": "prod-black-diamond-distance-22",
+      "slug": "black-diamond-distance-22",
+      "ok": false,
+      "reason": "no-cdn-angles"
+    },
+    {
+      "id": "prod-salomon-xa-15",
+      "slug": "salomon-xa-15",
+      "ok": false,
+      "reason": "no-cdn-angles"
+    },
+    {
+      "id": "prod-salomon-custom-quiver",
+      "slug": "salomon-custom-quiver",
+      "ok": false,
+      "reason": "no-cdn-angles"
+    },
+    {
+      "id": "prod-ud-utility-bag",
+      "slug": "ultimate-direction-utility-bag",
+      "ok": false,
+      "reason": "no-cdn-angles"
+    },
+    {
+      "id": "prod-nathan-zippered-stash",
+      "slug": "nathan-zippered-stash",
+      "ok": true,
+      "count": 2,
+      "usages": [
+        "side",
+        "detail"
+      ]
+    },
+    {
+      "id": "prod-nathan-vaporair-2",
+      "slug": "nathan-vaporair-2",
+      "ok": false,
+      "reason": "no-cdn-angles"
+    },
+    {
+      "id": "prod-ud-adventure-vest",
+      "slug": "ultimate-direction-adventure-vest",
+      "ok": false,
+      "reason": "no-cdn-angles"
+    },
+    {
+      "id": "prod-camelbak-zephyr",
+      "slug": "camelbak-zephyr",
+      "ok": false,
+      "reason": "no-cdn-angles"
+    },
+    {
+      "id": "prod-osprey-duro-6",
+      "slug": "osprey-duro-6",
+      "ok": false,
+      "reason": "no-cdn-angles"
+    },
+    {
+      "id": "prod-osprey-dyna-6",
+      "slug": "osprey-dyna-6",
+      "ok": false,
+      "reason": "no-cdn-angles"
+    }
+  ]
+}

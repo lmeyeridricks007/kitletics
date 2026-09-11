@@ -1,0 +1,56 @@
+{
+  "generatedAt": "2026-09-11T09:22:47.302Z",
+  "products": 631,
+  "indexable": 375,
+  "runningIndexable": 375,
+  "relationshipsApproved": 2728,
+  "scores": {
+    "productAlternative": {
+      "STRONG": 1425,
+      "VALID": 322,
+      "WEAK": 149,
+      "INVALID": 0
+    },
+    "productComparison": {
+      "STRONG": 74,
+      "VALID": 10,
+      "WEAK": 10,
+      "INVALID": 0
+    },
+    "productBest": {
+      "STRONG": 360,
+      "VALID": 0,
+      "WEAK": 5,
+      "INVALID": 0
+    },
+    "productGuide": {
+      "STRONG": 58,
+      "VALID": 190,
+      "WEAK": 32,
+      "INVALID": 0
+    },
+    "reviewAlternative": {
+      "STRONG": 1206,
+      "VALID": 475,
+      "WEAK": 275,
+      "INVALID": 0
+    },
+    "bestComparison": {
+      "STRONG": 63,
+      "VALID": 9,
+      "WEAK": 7,
+      "INVALID": 0
+    }
+  },
+  "runningIndexableAlts": {
+    "invalid": 0,
+    "weak": 12
+  }
+}
+invalid alts 0 weak alts 149
+cmp invalid 0 weak 10
+best invalid 0 weak 5
+guide invalid 0 weak 32
+review invalid 0 weak 275
+best-cmp invalid 0 weak 7
+GRAPH_EXIT:0

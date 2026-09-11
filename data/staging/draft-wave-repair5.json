@@ -1,0 +1,20 @@
+{
+  "ok": [
+    {
+      "id": "prod-brazyn-morph",
+      "src": "/images/running/accessories/brazyn-morph-hero.jpg",
+      "remote": "https://cdn.shopify.com/s/files/1/1087/6572/products/Alpha-SLATE_Hero.jpg?v=1670519824",
+      "dims": {
+        "w": 2726,
+        "h": 2058
+      }
+    }
+  ],
+  "fail": [
+    "prod-outdoor-research-ferrosi-gaiters",
+    "prod-oofos-oocandoo",
+    "prod-flipbelt-zippered-reflective",
+    "prod-the-stick",
+    "prod-rad-atom"
+  ]
+}

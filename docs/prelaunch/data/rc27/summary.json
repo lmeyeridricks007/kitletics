@@ -1,0 +1,336 @@
+{
+  "asOf": "2026-09-06T20:51:33.385Z",
+  "siteConfigUrl": "https://kitletics.com",
+  "sitemapCount": 664,
+  "day1Count": 664,
+  "heldCount": 1154,
+  "sitemapMirror": {
+    "onlyInSitemap": [],
+    "onlyInDay1": []
+  },
+  "byType": {
+    "Home": 1,
+    "Static": 19,
+    "Sport": 1,
+    "SportDiscipline": 6,
+    "Category": 11,
+    "Subcategory": 5,
+    "Product": 251,
+    "Alternatives": 74,
+    "Brand": 103,
+    "Review": 43,
+    "Author": 1,
+    "Best": 44,
+    "Comparison": 55,
+    "Guide": 34,
+    "Setup": 5,
+    "Finder": 8,
+    "Calculator": 2,
+    "Tool": 1
+  },
+  "eligibilitySimulation": {
+    "asOf": "2026-09-06",
+    "rows": [
+      {
+        "kind": "product",
+        "published": 623,
+        "INDEXABLE": 251,
+        "PUBLIC_NOINDEX": 116,
+        "HIDDEN_404": 256
+      },
+      {
+        "kind": "review",
+        "published": 585,
+        "INDEXABLE": 43,
+        "PUBLIC_NOINDEX": 324,
+        "HIDDEN_404": 218
+      },
+      {
+        "kind": "best-guide",
+        "published": 58,
+        "INDEXABLE": 44,
+        "PUBLIC_NOINDEX": 0,
+        "HIDDEN_404": 14
+      },
+      {
+        "kind": "buying-guide",
+        "published": 68,
+        "INDEXABLE": 34,
+        "PUBLIC_NOINDEX": 7,
+        "HIDDEN_404": 27
+      },
+      {
+        "kind": "comparison",
+        "published": 102,
+        "INDEXABLE": 55,
+        "PUBLIC_NOINDEX": 14,
+        "HIDDEN_404": 33
+      },
+      {
+        "kind": "setup",
+        "published": 16,
+        "INDEXABLE": 5,
+        "PUBLIC_NOINDEX": 0,
+        "HIDDEN_404": 11
+      },
+      {
+        "kind": "tool",
+        "published": 25,
+        "INDEXABLE": 12,
+        "PUBLIC_NOINDEX": 0,
+        "HIDDEN_404": 13
+      },
+      {
+        "kind": "sport",
+        "published": 10,
+        "INDEXABLE": 1,
+        "PUBLIC_NOINDEX": 8,
+        "HIDDEN_404": 1
+      },
+      {
+        "kind": "brand",
+        "published": 191,
+        "INDEXABLE": 103,
+        "PUBLIC_NOINDEX": 0,
+        "HIDDEN_404": 88
+      }
+    ],
+    "totals": {
+      "published": 1678,
+      "INDEXABLE": 548,
+      "PUBLIC_NOINDEX": 469,
+      "HIDDEN_404": 661
+    }
+  },
+  "runningCoverage": {
+    "Products": {
+      "total": 367,
+      "qualityReady": 362,
+      "day1Indexable": 251,
+      "held": 116
+    },
+    "Reviews": {
+      "total": 367,
+      "qualityReady": 43,
+      "day1Indexable": 43,
+      "held": 324
+    },
+    "Best": {
+      "total": 44,
+      "qualityReady": 44,
+      "day1Indexable": 44,
+      "held": 0
+    },
+    "Guides": {
+      "total": 41,
+      "qualityReady": 0,
+      "day1Indexable": 34,
+      "held": 7
+    },
+    "Comparisons": {
+      "total": 69,
+      "qualityReady": 69,
+      "day1Indexable": 55,
+      "held": 14
+    },
+    "Brands": {
+      "total": 105,
+      "qualityReady": 67,
+      "day1Indexable": 67,
+      "held": 38
+    },
+    "Categories": {
+      "total": 16,
+      "qualityReady": 12,
+      "day1Indexable": 12,
+      "held": 4
+    },
+    "Subcategories": {
+      "total": 5,
+      "qualityReady": 5,
+      "day1Indexable": 5,
+      "held": 0
+    },
+    "Finders": {
+      "total": 8,
+      "qualityReady": 8,
+      "day1Indexable": 8,
+      "held": 0
+    },
+    "Calculators": {
+      "total": 2,
+      "qualityReady": 2,
+      "day1Indexable": 2,
+      "held": 0
+    },
+    "GearSetups": {
+      "total": 5,
+      "qualityReady": 5,
+      "day1Indexable": 5,
+      "held": 0
+    }
+  },
+  "cannibalization": [
+    {
+      "key": "asics-novablast-5",
+      "types": "Product+Review+Comparison",
+      "urls": "/products/asics-novablast-5 | /reviews/asics-novablast-5 | /compare/asics-novablast-5-vs-asics-gel-nimbus-27 | /compare/asics-novablast-5-vs-brooks-ghost-16"
+    },
+    {
+      "key": "asics-novablast-6",
+      "types": "Product+Review+Comparison",
+      "urls": "/products/asics-novablast-6 | /reviews/asics-novablast-6 | /compare/asics-novablast-6-vs-asics-gel-nimbus-27 | /compare/asics-novablast-6-vs-asics-novablast-5 | /compare/asics-novablast-6-vs-brooks-ghost-18 | /compare/asics-novablast-6-vs-hoka-clifton-10"
+    },
+    {
+      "key": "asics-gel-kayano-32",
+      "types": "Product+Review+Comparison",
+      "urls": "/products/asics-gel-kayano-32 | /reviews/asics-gel-kayano-32 | /compare/asics-gel-kayano-32-vs-brooks-adrenaline-gts-25"
+    },
+    {
+      "key": "nike-vaporfly-4",
+      "types": "Product+Review+Comparison",
+      "urls": "/products/nike-vaporfly-4 | /reviews/nike-vaporfly-4 | /compare/nike-vaporfly-4-vs-nike-alphafly-3"
+    },
+    {
+      "key": "brooks-ghost-18",
+      "types": "Product+Review+Comparison",
+      "urls": "/products/brooks-ghost-18 | /reviews/brooks-ghost-18 | /compare/brooks-ghost-18-vs-nike-pegasus-42"
+    },
+    {
+      "key": "hoka-speedgoat-6",
+      "types": "Product+Review+Comparison",
+      "urls": "/products/hoka-speedgoat-6 | /reviews/hoka-speedgoat-6 | /compare/hoka-speedgoat-6-vs-saucony-peregrine-15"
+    },
+    {
+      "key": "saucony-endorphin-speed-5",
+      "types": "Product+Review+Comparison",
+      "urls": "/products/saucony-endorphin-speed-5 | /reviews/saucony-endorphin-speed-5 | /compare/saucony-endorphin-speed-5-vs-adidas-adizero-boston-12"
+    },
+    {
+      "key": "garmin-forerunner-970",
+      "types": "Product+Review+Comparison",
+      "urls": "/products/garmin-forerunner-970 | /reviews/garmin-forerunner-970 | /compare/garmin-forerunner-970-vs-coros-pace-pro | /compare/garmin-forerunner-970-vs-garmin-forerunner-965"
+    },
+    {
+      "key": "garmin-hrm-600",
+      "types": "Product+Review+Comparison",
+      "urls": "/products/garmin-hrm-600 | /reviews/garmin-hrm-600 | /compare/garmin-hrm-600-vs-polar-h10 | /compare/garmin-hrm-600-vs-hrm-pro-plus"
+    },
+    {
+      "key": "polar-h10",
+      "types": "Product+Review+Comparison",
+      "urls": "/products/polar-h10 | /reviews/polar-h10 | /compare/polar-h10-vs-polar-h9"
+    },
+    {
+      "key": "garmin-fenix-8",
+      "types": "Product+Review+Comparison",
+      "urls": "/products/garmin-fenix-8 | /reviews/garmin-fenix-8 | /compare/garmin-fenix-8-vs-garmin-forerunner-970"
+    },
+    {
+      "key": "garmin-vivoactive-6",
+      "types": "Product+Review+Comparison",
+      "urls": "/products/garmin-vivoactive-6 | /reviews/garmin-vivoactive-6 | /compare/garmin-vivoactive-6-vs-garmin-forerunner-165"
+    },
+    {
+      "key": "coros-apex-4",
+      "types": "Product+Review+Comparison",
+      "urls": "/products/coros-apex-4 | /reviews/coros-apex-4 | /compare/coros-apex-4-vs-garmin-fenix-8"
+    },
+    {
+      "key": "coros-pace-4",
+      "types": "Product+Review+Comparison",
+      "urls": "/products/coros-pace-4 | /reviews/coros-pace-4 | /compare/coros-pace-4-vs-garmin-forerunner-165"
+    },
+    {
+      "key": "suunto-vertical-2",
+      "types": "Product+Review+Comparison",
+      "urls": "/products/suunto-vertical-2 | /reviews/suunto-vertical-2 | /compare/suunto-vertical-2-vs-garmin-enduro-3"
+    },
+    {
+      "key": "polar-grit-x2",
+      "types": "Product+Review+Comparison",
+      "urls": "/products/polar-grit-x2 | /reviews/polar-grit-x2 | /compare/polar-grit-x2-vs-garmin-fenix-8"
+    },
+    {
+      "key": "apple-watch-ultra-3",
+      "types": "Product+Review+Comparison",
+      "urls": "/products/apple-watch-ultra-3 | /reviews/apple-watch-ultra-3 | /compare/apple-watch-ultra-3-vs-apple-watch-ultra-2"
+    }
+  ],
+  "zeroInboundApproxCount": 239,
+  "issues": [
+    {
+      "id": "RC27-THIN-BEST",
+      "severity": "OK",
+      "requirement": "0 thin Best Guides indexable",
+      "status": "PASS",
+      "detail": "indexable thin Best=0"
+    },
+    {
+      "id": "RC27-THIN-REVIEW",
+      "severity": "OK",
+      "requirement": "0 thin Reviews indexable",
+      "status": "PASS",
+      "detail": "indexable thin/duplicative Review=0; sample="
+    },
+    {
+      "id": "RC27-THIN-COMP",
+      "severity": "OK",
+      "requirement": "0 thin Comparisons indexable",
+      "status": "PASS",
+      "detail": "indexable thin Comparison=0"
+    },
+    {
+      "id": "RC27-FAKE-FIRSTHAND",
+      "severity": "OK",
+      "requirement": "0 fake first-hand claims (indexable)",
+      "status": "PASS",
+      "detail": "BLOCKED for first-hand reasons=0; indexable reviews=43 (policy: Expert Research / honest desk)"
+    },
+    {
+      "id": "RC27-LOCALHOST-CANON",
+      "severity": "OK",
+      "requirement": "0 localhost canonicals",
+      "status": "PASS",
+      "detail": "siteConfig.url=https://kitletics.com"
+    },
+    {
+      "id": "RC27-SITEMAP-MIRROR",
+      "severity": "OK",
+      "requirement": "Day-1 export matches sitemap()",
+      "status": "PASS",
+      "detail": "sitemap=664 day1=664 onlySitemap=0 onlyDay1=0 sampleOnlySitemap= sampleOnlyDay1="
+    },
+    {
+      "id": "RC27-DRAFTS",
+      "severity": "OK",
+      "requirement": "0 accidentally exposed drafts",
+      "status": "PASS",
+      "detail": "drafts_in_day1=0"
+    },
+    {
+      "id": "RC27-FILTERS",
+      "severity": "OK",
+      "requirement": "0 indexable arbitrary filter states",
+      "status": "PASS",
+      "detail": "query_urls_in_sitemap=0"
+    },
+    {
+      "id": "RC27-VERTICAL-LEAK",
+      "severity": "OK",
+      "requirement": "0 held-vertical deep pages leaking",
+      "status": "PASS",
+      "detail": "suspected=0 sample="
+    },
+    {
+      "id": "RC27-ORPHANS-APPROX",
+      "severity": "HIGH",
+      "requirement": "0 unexplained indexable orphans",
+      "status": "WARN",
+      "detail": "approx_zero_inbound=239 (relationship-graph approx only; lab crawl supersedes) sample=/running/road /running/trail /running/track /running/treadmill /running/racing /running/ultra /running/shoes /running/watches /running/heart-rate-monitors /running/socks /running/hydration /running/packs"
+    }
+  ],
+  "reviewsIndexable": 43,
+  "bestIndexable": 44,
+  "comparisonIndexable": 55
+}

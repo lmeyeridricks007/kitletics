@@ -1,0 +1,202 @@
+[
+  {
+    "id": "prod-nathan-vaporair-2",
+    "slug": "nathan-vaporair-2",
+    "imageUrl": "https://cdn.prod.website-files.com/62c52cd7ca9f17e521378ebf/62c7b68ddebd3c276ea737c1_NS4732-60047_VaporAir7L-2_hero.png",
+    "sourceUrl": "https://www.nathansports.com.au/products/vapor-air-hydration-vest-2-7l-grey-blue",
+    "licence": "manufacturer-marketing",
+    "source": "Nathan Sports AU Webflow CDN (VaporAir 2 / 7L hero)"
+  },
+  {
+    "id": "prod-ud-adventure-vest",
+    "slug": "ultimate-direction-adventure-vest",
+    "imageUrl": "https://cdn11.bigcommerce.com/s-cuo9ht/images/stencil/1280x1280/products/3375/8168/y9klvdhnutttglk6txg7__22210.1770680919.jpg?c=2",
+    "sourceUrl": "https://ultimatedirection.com/adventure-vest-17l/",
+    "licence": "manufacturer-marketing",
+    "source": "Ultimate Direction BigCommerce CDN (Adventure Vest 17L / 5.0)"
+  },
+  {
+    "id": "prod-camelbak-zephyr",
+    "slug": "camelbak-zephyr",
+    "imageUrl": "https://m.media-amazon.com/images/I/91uzRpuFkcL._AC_SL1500_.jpg",
+    "sourceUrl": "https://www.amazon.com/CamelBak-Zephyr-Limited-Hydration-Bladder/dp/B09QKKS461",
+    "licence": "retailer-authorized",
+    "source": "Amazon m.media-amazon.com (CamelBak Zephyr Limited Edition packshot)"
+  },
+  {
+    "id": "prod-inov8-flite-235-v3",
+    "slug": "inov8-f-lite-235-v3",
+    "imageUrl": "https://cdn11.bigcommerce.com/s-21x65e8kfn/images/stencil/original/products/42239/196841/INO2053_1000_1__88224.1688476544.jpg",
+    "sourceUrl": "https://www.sportsshoes.com/product/ino2053/inov8-f-lite-235-v3-training-shoes---aw22",
+    "licence": "retailer-authorized",
+    "source": "SportsShoes BigCommerce CDN"
+  },
+  {
+    "id": "prod-inov8-fastlift-360",
+    "slug": "inov8-fastlift-360",
+    "imageUrl": "https://www.againfaster.com/cdn/shop/files/000918bkgu--FASTLIFT-360---BlackGum---Right.jpg?v=1709843170",
+    "sourceUrl": "https://www.againfaster.com/products/inov8-fastlift-360-men",
+    "licence": "retailer-authorized",
+    "source": "Again Faster Shopify CDN"
+  },
+  {
+    "id": "prod-nike-romaleos-5",
+    "slug": "nike-romaleos-5",
+    "imageUrl": "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/db3693cf-fba8-46d2-ae1b-08776ad9c3e2/romaleos-4-weightlifting-shoes.png",
+    "sourceUrl": "https://www.nike.com/t/romaleos-4-weightlifting-shoes-r7zff9/CD3463-001",
+    "licence": "manufacturer-marketing",
+    "source": "Nike static CDN \u2014 Romaleos 5 not commercially released; Romaleos 4 packshot used as closest substitute"
+  },
+  {
+    "id": "prod-kuikma-pr-soft-500",
+    "slug": "kuikma-pr-soft-500",
+    "imageUrl": "https://en.decathlon.com.sa/cdn/shop/files/pic_a4546368-f5a0-4828-9fd2-9a1c27968dbb.jpg?v=1788229394&width=1200",
+    "sourceUrl": "https://en.decathlon.com.sa/products/padel-racket-pr-comfort-soft",
+    "licence": "manufacturer-marketing",
+    "source": "Decathlon SA Shopify CDN (Kuikma PR Comfort Soft \u2014 current Soft/PR Soft line successor to PR Soft 500)"
+  },
+  {
+    "id": "prod-varlion-lw-carbon-difusor",
+    "slug": "varlion-lw-carbon-difusor-2026",
+    "imageUrl": "https://keepadel.com/8985-thickbox_default/varlion-lw-carbon-ti-difusor-black-padel-racket.jpg",
+    "sourceUrl": "https://keepadel.com/gb/varlion-padel-rackets/2973-varlion-lw-carbon-ti-difusor-black-padel-racket.html",
+    "licence": "retailer-authorized",
+    "source": "Keepadel product CDN (Varlion LW Carbon Ti Difusor)"
+  },
+  {
+    "id": "prod-nox-ml10-pro-cup",
+    "slug": "nox-ml10-pro-cup-2026",
+    "imageUrl": "https://www.zonadepadel.es/26477-large_default/nox-ml10-pro-cup-2025.jpg",
+    "sourceUrl": "https://www.zonadepadel.es/nox/13240-nox-ml10-pro-cup-2025.html",
+    "licence": "retailer-authorized",
+    "source": "Zona de Padel CDN (ML10 Pro Cup 2025 commercial packshot; Classic series continuity)"
+  },
+  {
+    "id": "prod-starvie-basalto-osiris",
+    "slug": "starvie-basalto-osiris-2026",
+    "imageUrl": "https://mypadellife.com/cdn/shop/products/basalto_osiris_2.0_starvie.main_2.jpg?v=1671530215",
+    "sourceUrl": "https://mypadellife.com/products/starvie-basalto-osiris-2-0-padel-racket",
+    "licence": "retailer-authorized",
+    "source": "MyPadelLife Shopify CDN (Basalto Osiris 2.0 packshot \u2014 closest verified commercial image)"
+  },
+  {
+    "id": "prod-tecnifibre-wall-breaker-365-2026",
+    "slug": "tecnifibre-wall-breaker-365",
+    "imageUrl": "https://www.greavessports.com/cdn/shop/files/1_77018f1c-c33e-40db-91bc-1e793bf83928.jpg?v=1728485737",
+    "sourceUrl": "https://www.greavessports.com/products/wall-breaker-365-padel-racket-black-yellow",
+    "licence": "retailer-authorized",
+    "source": "Greaves Sports Shopify CDN"
+  },
+  {
+    "id": "prod-oxdog-sense-pro",
+    "slug": "oxdog-sense-pro",
+    "imageUrl": "https://03.cdn37.se/z7d/images/2.5826/sense-pro-classics.jpeg",
+    "sourceUrl": "https://www.oxdog.net/en/articles/2.13.854/sense-pro-classics",
+    "licence": "manufacturer-marketing",
+    "source": "Oxdog CDN37 (Sense Pro Classics)"
+  },
+  {
+    "id": "prod-black-crown-special-one-soft",
+    "slug": "black-crown-special-one-soft",
+    "imageUrl": "https://www.zonadepadel.com/14040-large_default/black-crown-special-soft-2023.jpg",
+    "sourceUrl": "https://www.zonadepadel.com/black-crown/8073-black-crown-special-soft-2023.html",
+    "licence": "retailer-authorized",
+    "source": "Zona de Padel CDN (Black Crown Special Soft 2023 \u2014 closest commercial Special Soft line packshot)"
+  },
+  {
+    "id": "prod-head-speed-mp-2026",
+    "slug": "head-speed-mp-2026",
+    "imageUrl": "https://img.tennis-warehouse.com/watermark/rs.php?path=HSPMP6-1.jpg&nw=847",
+    "sourceUrl": "https://www.tennis-warehouse.com/Head_Speed_MP_2026/descpage-HSPMP6.html",
+    "licence": "retailer-authorized",
+    "source": "Tennis Warehouse CDN"
+  },
+  {
+    "id": "prod-mirafit-m3",
+    "slug": "mirafit-m3-power-rack",
+    "imageUrl": "https://imagely.mirafit.co.uk/media/wysiwyg/ProductFeatureImages/M3-Power-Rack-6.jpg",
+    "sourceUrl": "https://mirafit.co.uk/mirafit-m3-power-rack.html",
+    "licence": "manufacturer-marketing",
+    "source": "Mirafit imagely CDN"
+  },
+  {
+    "id": "prod-mirafit-m4",
+    "slug": "mirafit-m4-cage",
+    "imageUrl": "https://imagely.mirafit.co.uk/media/wysiwyg/ProductFeatureImages/M4-Power-Rack-2.jpg",
+    "sourceUrl": "https://mirafit.co.uk/mirafit-m4-power-rack.html",
+    "licence": "manufacturer-marketing",
+    "source": "Mirafit imagely CDN"
+  },
+  {
+    "id": "prod-rogue-sm-2c",
+    "slug": "rogue-sm-2c-monster-lite",
+    "imageUrl": "https://assets.roguefitness.com/f_auto,q_auto,c_limit,w_1600,b_rgb:ffffff/v1/catalog/Rigs%20and%20Racks/Squat%20Stands/Monster%20Lite%20Squat%20Stands/SML-2C/sml2c_1_6_1_lpvq3n.webp",
+    "sourceUrl": "https://www.roguefitness.com/rogue-sml-2c-squat-stand",
+    "licence": "manufacturer-marketing",
+    "source": "Rogue Fitness assets CDN (SML-2C Monster Lite)"
+  },
+  {
+    "id": "prod-rep-apollo",
+    "slug": "rep-apollo-athlon-rack",
+    "imageUrl": "https://repfitness.com/cdn/shop/products/HR-5050-Thumbnail.jpg",
+    "sourceUrl": "https://repfitness.com/products/apollo-rack-builder",
+    "licence": "manufacturer-marketing",
+    "source": "REP Fitness Shopify CDN (previously verified; reconfirmed)"
+  },
+  {
+    "id": "prod-nuobell-50",
+    "slug": "nuobell-50",
+    "imageUrl": "https://nuoathletics.com/cdn/shop/files/NUOBELL_550_classic_1.webp?v=1747741200",
+    "sourceUrl": "https://nuoathletics.com/products/nuobell-550",
+    "licence": "manufacturer-marketing",
+    "source": "N\u00dcO Athletics Shopify CDN (N\u00dcOBELL 550 / 5\u201350 lb)"
+  },
+  {
+    "id": "prod-rep-ab-5000",
+    "slug": "rep-ab-5000-zero-gap",
+    "imageUrl": "https://i.garagegymreviews.com/404/021/320/3/Rep-Fitness-AB-5000-Adjustable-Bench-Review-Featured-1.webp",
+    "sourceUrl": "https://www.garagegymreviews.com/equipment/rep-ab-5000-zero-gap-adjustable-bench",
+    "licence": "retailer-authorized",
+    "source": "Garage Gym Reviews CDN (AB-5000 discontinued on REP storefront; commercial packshot)"
+  },
+  {
+    "id": "prod-mirafit-fid-bench",
+    "slug": "mirafit-fid-adjustable-bench",
+    "imageUrl": "https://imagely.mirafit.co.uk/media/catalog/product/cache/207e23213cf636ccdef205098cf3c8a3/M/i/Mirafit-M460-FID-Adjustable-Weight-Bench.jpg",
+    "sourceUrl": "https://mirafit.co.uk/mirafit-m460-adjustable-weight-bench-with-leg-roller-attachment.html",
+    "licence": "manufacturer-marketing",
+    "source": "Mirafit imagely CDN (M460 FID adjustable bench packshot)"
+  },
+  {
+    "id": "prod-atx-fid-bench",
+    "slug": "atx-fid-bench",
+    "imageUrl": "https://www.fitnessrocker.at/cdn/shop/files/verstellbare-hantelbank-fid-102_0_582040c1-e503-4ac1-a2d2-cfabba2af44a.webp?v=1722457254&width=1200",
+    "sourceUrl": "https://www.fitnessrocker.at/de-de/products/verstellbare-hantelbank-fid-102",
+    "licence": "retailer-authorized",
+    "source": "Fitnessrocker Shopify CDN (ATX FID-102)"
+  },
+  {
+    "id": "prod-eleiko-sport-bumper",
+    "slug": "eleiko-sport-bumper-set",
+    "imageUrl": "https://media.eleiko.com/images/upload/4x5/3062910-10_10.jpg",
+    "sourceUrl": "https://eleiko.com/en/equipment/plates/weightlifting/3062910-10-eleiko-sport-training-plate-10-kg-coloured",
+    "licence": "manufacturer-marketing",
+    "source": "Eleiko media CDN (Sport Training Plate 10 kg coloured \u2014 set representative)"
+  },
+  {
+    "id": "prod-mirafit-bumper-set",
+    "slug": "mirafit-bumper-plate-set",
+    "imageUrl": "https://imagely.mirafit.co.uk/media/catalog/product/cache/3fba745dcec88e97bfe808bedc471260/M/i/Mirafit-Black-Olympic-Rubber-Bumper-Plates-on-White-Background.jpg",
+    "sourceUrl": "https://mirafit.co.uk/",
+    "licence": "manufacturer-marketing",
+    "source": "Mirafit imagely CDN (Black Olympic Rubber Bumper Plates packshot)"
+  },
+  {
+    "id": "prod-atx-cast-iron-set",
+    "slug": "atx-cast-iron-plate-set",
+    "imageUrl": "https://www.fitnessrocker.at/cdn/shop/files/atx-hantelscheiben-3-grip-guss-50-mm_0.webp?v=1729119911&width=1200",
+    "sourceUrl": "https://www.fitnessrocker.at/de-de/products/atx-hantelscheiben-3-grip-guss-50-mm",
+    "licence": "retailer-authorized",
+    "source": "Fitnessrocker Shopify CDN (ATX 3-Grip cast iron 50 mm)"
+  }
+]

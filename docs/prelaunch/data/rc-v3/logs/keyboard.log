@@ -1,0 +1,51 @@
+PASS  header · skip-link first tab — {"tag":"A","role":null,"name":"Skip to content","href":"#main-content","className":"skip-link","inDialog":false,"outline":"rgb(200, 245, 66) solid 2px","outlineWidth":"2px"}
+PASS  header · skip-link focus visible — {"ok":true,"tag":"A","name":"Skip to content","outline":"rgb(200, 245, 66) solid 2px","transform":"none"}
+PASS  header · skip-link lands on #main-content — {"afterSkip":"main-content"}
+PASS  header · logo reachable — {"tag":"A","role":null,"name":"Kitletics home","href":"/","className":"group inline-flex items-center gap-2.5 font-display text-[15px] font-bold tracki","inDialog":false,"outline":"rgb(200, 245, 66) solid 2px","outlineWidth":"2px"}
+PASS  header · primary nav Running reachable — {"tag":"A","role":null,"name":"Running","href":"/running","className":"relative inline-flex items-center gap-1 px-3 py-2 text-[13px] font-medium transi","inDialog":false,"outline":"rgba(255, 255, 255, 0.7) solid 2px","outlineWidth":"2px"}
+PASS  header · mega or next nav after Running — {"inMega":false}
+PASS  header · More menu reachable — {"tag":"BUTTON","role":null,"name":"More","href":null,"className":"inline-flex items-center gap-1 px-3 py-2 text-[13px] font-medium text-white/70 t","inDialog":false,"outline":"rgba(255, 255, 255, 0.7) solid 2px","outlineWidth":"2px"}
+PASS  header · inline search field reachable — {"tag":"INPUT","role":null,"name":"","href":null,"className":"min-w-0 flex-1 bg-transparent text-sm text-white outline-none placeholder:text-w","inDialog":false,"outline":"rgb(200, 245, 66) solid 2px","outlineWidth":"2px"}
+PASS  search · ⌘K opens overlay — {}
+PASS  search · focus trapped in dialog — {"insideAtStart":true,"trapped":true,"samples":[true,true,true,true,true,true,true,true,true,true,true,true]}
+PASS  search · Escape closes — {}
+PASS  search · focus returns to trigger — {"tag":"INPUT","role":null,"name":"","href":null,"className":"min-w-0 flex-1 bg-transparent text-sm text-white outline-none placeholder:text-w","inDialog":false,"outline":"rgb(200, 245, 66) solid 2px","outlineWidth":"2px"}
+PASS  header · ArrowDown opens Running mega — {}
+PASS  header · Escape closes mega — {}
+PASS  mobile-nav · Open menu reachable — {}
+PASS  mobile-nav · drawer traps focus — {"insideAtStart":true,"trapped":true,"samples":[true,true,true,true,true,true,true,true,true,true,true,true]}
+PASS  mobile-nav · Escape restores Open menu — {"tag":"BUTTON","role":null,"name":"Open menu","href":null,"className":"inline-flex size-9 items-center justify-center rounded-md border border-white/15","inDialog":false,"outline":"rgb(200, 245, 66) solid 2px","outlineWidth":"2px"}
+PASS  search · mobile overlay traps focus — {"insideAtStart":true,"trapped":true,"samples":[true,true,true,true,true,true,true,true,true,true,true,true]}
+PASS  search · mobile overlay Escape restores trigger — {"tag":"BUTTON","role":null,"name":"Open search overlay","href":null,"className":"inline-flex size-9 items-center justify-center rounded-md border border-white/15","inDialog":false,"outline":"rgb(200, 245, 66) solid 2px","outlineWidth":"2px"}
+PASS  filters · Filters button reachable — {}
+PASS  filters · drawer traps focus — {"insideAtStart":true,"trapped":true,"samples":[true,true,true,true,true,true,true,true,true,true,true,true]}
+PASS  filters · toggle checkbox with Space — {}
+PASS  filters · Escape restores Filters trigger — {"tag":"BUTTON","role":null,"name":"Filters","href":null,"className":"inline-flex h-10 items-center gap-2 rounded-md border border-border bg-surface p","inDialog":false,"outline":"rgb(200, 245, 66) solid 2px","outlineWidth":"2px"}
+PASS  filters · Men/Women selector present — {}
+PASS  filters · sort control present — {}
+PASS  pdp · variant/fit radiogroup — {}
+PASS  pdp · fit radios respond to arrows — {"checked":1}
+PASS  pdp · gallery controls keyboard-reachable — {"note":"single-image PDP — no extra gallery controls (expected)"}
+PASS  pdp · offer links present — {"amazonish":0}
+PASS  pdp · details/accordion — {"note":"native details absent on this PDP (no failure)"}
+PASS  pdp · compare control present — {}
+PASS  pdp · alternatives/related links — {"productLinks":7}
+PASS  best · scrollable table region — {"regions":1,"tables":1}
+PASS  best · table region focus visible — {"ok":true,"tag":"DIV","name":"How the top picks differ","outline":"rgb(200, 245, 66) solid 2px","transform":"none"}
+PASS  best · jump navigation — {"count":32}
+PASS  best · Finder CTA — {}
+PASS  best · product links — {}
+PASS  guide · expand/collapse or in-page links — {}
+PASS  guide · Finder CTA — {}
+PASS  compare · product selector combobox — {}
+PASS  compare · selected product / remove — {}
+PASS  compare · remove via keyboard — {}
+PASS  compare · customize dialog trap — {"insideAtStart":true,"trapped":true,"samples":[true,true,true,true,true,true,true,true,true,true,true,true]}
+PASS  compare · customize Escape restores trigger — {"tag":"BUTTON","role":null,"name":"Customize categories & metrics","href":null,"className":"inline-flex items-center gap-1.5 text-[13px] font-medium text-link hover:underli","inDialog":false,"outline":"rgb(200, 245, 66) solid 2px","outlineWidth":"2px"}
+PASS  finder · completed with keyboard — {"steps":7,"url":"http://127.0.0.1:3010/tools/running-shoe-finder/results?s=eyJ2IjoidjEiLCJmIjoicnVubmluZy1zaG9lLWZpbmRlciIsInIiOnsic2l6aW5nUmFuZ2UiOiJ3b21lbiIsInRlcnJhaW4iOiJyb2FkIiwicHJpbWFyeVVzZSI6ImRhaWx5LXRyYWluaW5nIiwiZGlzdGFuY2VzIjpbInVuZGVyLTVrIl0sImN1c2hpb25pbmciOiJtaW5pbWFsIiwic3RhYmlsaXR5Ijoibm8iLCJ3aWR0aCI6InN0YW5kYXJkIiwiZXhwZXJpZW5jZSI6ImJlZ2lubmVyIiwiYnVkZ2V0IjoidW5kZXItMTAwIiwicHJpb3JpdGllcyI6WyJjb21mb3J0Il19fQ"}
+PASS  finder · product links on results — {"count":17}
+PASS  finder · Compare on results — {}
+
+Wrote /Users/LMeyeridricks/Documents/coding/kitletics/docs/prelaunch/data/rc-v3/keyboard-qa.json
+Passed 47/47
+KEY_EXIT:0

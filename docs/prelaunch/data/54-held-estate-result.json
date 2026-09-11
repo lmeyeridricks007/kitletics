@@ -1,0 +1,408 @@
+{
+  "before": {
+    "total": 585,
+    "READY": 585,
+    "INDEXABLE": 367,
+    "HELD": 218,
+    "uniquenessHolds": 0,
+    "clusterNeedsDiff": 4,
+    "clusterDuplicative": 0,
+    "indexableNeedsDiff": 0,
+    "indexableDuplicative": 0,
+    "groups": {
+      "DUPLICATIVE": 0,
+      "NEEDS_DIFF": 0,
+      "NEEDS_RESEARCH": 0,
+      "VERTICAL_HOLD_ONLY": 218,
+      "OTHER": 0
+    }
+  },
+  "rewritten": 387,
+  "blockedEvidence": [],
+  "remainingClusterFail": [
+    {
+      "slug": "asics-gel-resolution-9",
+      "class": "DUPLICATIVE",
+      "maxPeer": 0.86,
+      "peer": "wilson-rush-pro-4-0",
+      "indexable": false,
+      "categoryId": "cat-tennis-shoes"
+    },
+    {
+      "slug": "assaultbike-classic",
+      "class": "NEEDS_DIFFERENTIATION",
+      "maxPeer": 0.7637474541751528,
+      "peer": "rogue-echo-bike",
+      "indexable": false,
+      "categoryId": "cat-air-bikes"
+    },
+    {
+      "slug": "atx-cast-iron-plate-set",
+      "class": "NEEDS_DIFFERENTIATION",
+      "maxPeer": 0.7680851063829788,
+      "peer": "rogue-echo-bumper-plate-set",
+      "indexable": false,
+      "categoryId": "cat-weight-plates"
+    },
+    {
+      "slug": "blackroll-ball",
+      "class": "NEEDS_DIFFERENTIATION",
+      "maxPeer": 0.7905982905982906,
+      "peer": "eleiko-sport-collars",
+      "indexable": false,
+      "categoryId": "cat-lifting-accessories"
+    },
+    {
+      "slug": "blackroll-duoball",
+      "class": "NEEDS_DIFFERENTIATION",
+      "maxPeer": 0.796137339055794,
+      "peer": "blackroll-standard",
+      "indexable": false,
+      "categoryId": "cat-lifting-accessories"
+    },
+    {
+      "slug": "blackroll-med",
+      "class": "NEEDS_DIFFERENTIATION",
+      "maxPeer": 0.7916666666666666,
+      "peer": "blackroll-standard",
+      "indexable": false,
+      "categoryId": "cat-lifting-accessories"
+    },
+    {
+      "slug": "blackroll-standard",
+      "class": "NEEDS_DIFFERENTIATION",
+      "maxPeer": 0.8039647577092511,
+      "peer": "rogue-wrist-wraps",
+      "indexable": false,
+      "categoryId": "cat-lifting-accessories"
+    },
+    {
+      "slug": "concept2-bikeerg",
+      "class": "NEEDS_DIFFERENTIATION",
+      "maxPeer": 0.7671517671517671,
+      "peer": "rogue-echo-bike",
+      "indexable": false,
+      "categoryId": "cat-air-bikes"
+    },
+    {
+      "slug": "concept2-rowerg-dynamic",
+      "class": "NEEDS_DIFFERENTIATION",
+      "maxPeer": 0.7543859649122807,
+      "peer": "hydrow-wave",
+      "indexable": false,
+      "categoryId": "cat-rowing-machines"
+    },
+    {
+      "slug": "eleiko-kettlebell",
+      "class": "NEEDS_DIFFERENTIATION",
+      "maxPeer": 0.7956521739130434,
+      "peer": "rogue-kettlebell",
+      "indexable": false,
+      "categoryId": "cat-kettlebells"
+    },
+    {
+      "slug": "eleiko-performance-weightlifting-bar",
+      "class": "NEEDS_DIFFERENTIATION",
+      "maxPeer": 0.8236559139784946,
+      "peer": "rogue-ohio-bar",
+      "indexable": false,
+      "categoryId": "cat-barbells"
+    },
+    {
+      "slug": "eleiko-sport-bumper-set",
+      "class": "NEEDS_DIFFERENTIATION",
+      "maxPeer": 0.790948275862069,
+      "peer": "rogue-echo-bumper-plate-set",
+      "indexable": false,
+      "categoryId": "cat-weight-plates"
+    },
+    {
+      "slug": "eleiko-sport-collars",
+      "class": "NEEDS_DIFFERENTIATION",
+      "maxPeer": 0.7905982905982906,
+      "peer": "blackroll-ball",
+      "indexable": false,
+      "categoryId": "cat-lifting-accessories"
+    },
+    {
+      "slug": "eleiko-xf-bar",
+      "class": "NEEDS_DIFFERENTIATION",
+      "maxPeer": 0.827433628318584,
+      "peer": "rogue-ohio-power-bar",
+      "indexable": false,
+      "categoryId": "cat-barbells"
+    },
+    {
+      "slug": "gornation-premium-pull-up-bar",
+      "class": "NEEDS_DIFFERENTIATION",
+      "maxPeer": 0.7773109243697479,
+      "peer": "rogue-monster-lite-pull-up-bar",
+      "indexable": false,
+      "categoryId": "cat-pull-up-bars"
+    },
+    {
+      "slug": "gravity-fitness-parallettes",
+      "class": "NEEDS_DIFFERENTIATION",
+      "maxPeer": 0.7515923566878981,
+      "peer": "pullup-and-dip-parallettes",
+      "indexable": false,
+      "categoryId": "cat-parallettes"
+    },
+    {
+      "slug": "gravity-fitness-weighted-vest",
+      "class": "NEEDS_DIFFERENTIATION",
+      "maxPeer": 0.7782515991471215,
+      "peer": "rogue-plate-carrier-vest",
+      "indexable": false,
+      "categoryId": "cat-weighted-vests"
+    },
+    {
+      "slug": "hydrow-wave",
+      "class": "NEEDS_DIFFERENTIATION",
+      "maxPeer": 0.8004640371229699,
+      "peer": "waterrower-a1",
+      "indexable": false,
+      "categoryId": "cat-rowing-machines"
+    },
+    {
+      "slug": "mirafit-air-bike",
+      "class": "NEEDS_DIFFERENTIATION",
+      "maxPeer": 0.8097251585623678,
+      "peer": "schwinn-airdyne-ad8",
+      "indexable": false,
+      "categoryId": "cat-air-bikes"
+    },
+    {
+      "slug": "mirafit-battle-rope",
+      "class": "NEEDS_DIFFERENTIATION",
+      "maxPeer": 0.8236559139784946,
+      "peer": "rogue-sandbag",
+      "indexable": false,
+      "categoryId": "cat-functional-fitness"
+    },
+    {
+      "slug": "mirafit-folding-rower",
+      "class": "NEEDS_DIFFERENTIATION",
+      "maxPeer": 0.7770562770562771,
+      "peer": "mirafit-magnetic-rower",
+      "indexable": false,
+      "categoryId": "cat-rowing-machines"
+    },
+    {
+      "slug": "mirafit-magnetic-rower",
+      "class": "NEEDS_DIFFERENTIATION",
+      "maxPeer": 0.7770562770562771,
+      "peer": "mirafit-folding-rower",
+      "indexable": false,
+      "categoryId": "cat-rowing-machines"
+    },
+    {
+      "slug": "mirafit-olympic-barbell",
+      "class": "NEEDS_DIFFERENTIATION",
+      "maxPeer": 0.7918454935622318,
+      "peer": "rogue-ohio-bar",
+      "indexable": false,
+      "categoryId": "cat-barbells"
+    },
+    {
+      "slug": "mirafit-weighted-vest",
+      "class": "NEEDS_DIFFERENTIATION",
+      "maxPeer": 0.7864693446088795,
+      "peer": "rogue-plate-carrier-vest",
+      "indexable": false,
+      "categoryId": "cat-weighted-vests"
+    },
+    {
+      "slug": "pullup-and-dip-parallettes",
+      "class": "NEEDS_DIFFERENTIATION",
+      "maxPeer": 0.7515923566878981,
+      "peer": "gravity-fitness-parallettes",
+      "indexable": false,
+      "categoryId": "cat-parallettes"
+    },
+    {
+      "slug": "rep-black-bumper-plate-set",
+      "class": "NEEDS_DIFFERENTIATION",
+      "maxPeer": 0.7711864406779662,
+      "peer": "eleiko-sport-bumper-set",
+      "indexable": false,
+      "categoryId": "cat-weight-plates"
+    },
+    {
+      "slug": "rep-colorado-bar",
+      "class": "NEEDS_DIFFERENTIATION",
+      "maxPeer": 0.8100436681222707,
+      "peer": "eleiko-xf-bar",
+      "indexable": false,
+      "categoryId": "cat-barbells"
+    },
+    {
+      "slug": "rep-slam-ball",
+      "class": "NEEDS_DIFFERENTIATION",
+      "maxPeer": 0.8537117903930131,
+      "peer": "rogue-wall-ball",
+      "indexable": false,
+      "categoryId": "cat-functional-fitness"
+    },
+    {
+      "slug": "rogue-dog-sled",
+      "class": "NEEDS_DIFFERENTIATION",
+      "maxPeer": 0.7556935817805382,
+      "peer": "rogue-wall-ball",
+      "indexable": false,
+      "categoryId": "cat-functional-fitness"
+    },
+    {
+      "slug": "rogue-echo-bike",
+      "class": "NEEDS_DIFFERENTIATION",
+      "maxPeer": 0.7671517671517671,
+      "peer": "concept2-bikeerg",
+      "indexable": false,
+      "categoryId": "cat-air-bikes"
+    },
+    {
+      "slug": "rogue-echo-bumper-plate-set",
+      "class": "NEEDS_DIFFERENTIATION",
+      "maxPeer": 0.790948275862069,
+      "peer": "eleiko-sport-bumper-set",
+      "indexable": false,
+      "categoryId": "cat-weight-plates"
+    },
+    {
+      "slug": "rogue-echo-kettlebell",
+      "class": "NEEDS_DIFFERENTIATION",
+      "maxPeer": 0.8419864559819413,
+      "peer": "rogue-kettlebell",
+      "indexable": false,
+      "categoryId": "cat-kettlebells"
+    },
+    {
+      "slug": "rogue-kettlebell",
+      "class": "NEEDS_DIFFERENTIATION",
+      "maxPeer": 0.8419864559819413,
+      "peer": "rogue-echo-kettlebell",
+      "indexable": false,
+      "categoryId": "cat-kettlebells"
+    },
+    {
+      "slug": "rogue-monster-lite-pull-up-bar",
+      "class": "NEEDS_DIFFERENTIATION",
+      "maxPeer": 0.7773109243697479,
+      "peer": "gornation-premium-pull-up-bar",
+      "indexable": false,
+      "categoryId": "cat-pull-up-bars"
+    },
+    {
+      "slug": "rogue-ohio-bar",
+      "class": "NEEDS_DIFFERENTIATION",
+      "maxPeer": 0.8236559139784946,
+      "peer": "eleiko-performance-weightlifting-bar",
+      "indexable": false,
+      "categoryId": "cat-barbells"
+    },
+    {
+      "slug": "rogue-ohio-power-bar",
+      "class": "NEEDS_DIFFERENTIATION",
+      "maxPeer": 0.827433628318584,
+      "peer": "eleiko-xf-bar",
+      "indexable": false,
+      "categoryId": "cat-barbells"
+    },
+    {
+      "slug": "rogue-plate-carrier-vest",
+      "class": "NEEDS_DIFFERENTIATION",
+      "maxPeer": 0.7864693446088795,
+      "peer": "mirafit-weighted-vest",
+      "indexable": false,
+      "categoryId": "cat-weighted-vests"
+    },
+    {
+      "slug": "rogue-sandbag",
+      "class": "NEEDS_DIFFERENTIATION",
+      "maxPeer": 0.8236559139784946,
+      "peer": "mirafit-battle-rope",
+      "indexable": false,
+      "categoryId": "cat-functional-fitness"
+    },
+    {
+      "slug": "rogue-wall-ball",
+      "class": "NEEDS_DIFFERENTIATION",
+      "maxPeer": 0.8537117903930131,
+      "peer": "rep-slam-ball",
+      "indexable": false,
+      "categoryId": "cat-functional-fitness"
+    },
+    {
+      "slug": "rogue-wrist-wraps",
+      "class": "NEEDS_DIFFERENTIATION",
+      "maxPeer": 0.8039647577092511,
+      "peer": "blackroll-standard",
+      "indexable": false,
+      "categoryId": "cat-lifting-accessories"
+    },
+    {
+      "slug": "schwinn-airdyne-ad8",
+      "class": "NEEDS_DIFFERENTIATION",
+      "maxPeer": 0.8097251585623678,
+      "peer": "mirafit-air-bike",
+      "indexable": false,
+      "categoryId": "cat-air-bikes"
+    },
+    {
+      "slug": "waterrower-a1",
+      "class": "NEEDS_DIFFERENTIATION",
+      "maxPeer": 0.8004640371229699,
+      "peer": "hydrow-wave",
+      "indexable": false,
+      "categoryId": "cat-rowing-machines"
+    },
+    {
+      "slug": "wilson-rush-pro-4-0",
+      "class": "DUPLICATIVE",
+      "maxPeer": 0.86,
+      "peer": "asics-gel-resolution-9",
+      "indexable": false,
+      "categoryId": "cat-tennis-shoes"
+    },
+    {
+      "slug": "bowflex-selecttech-552",
+      "class": "NEEDS_DIFFERENTIATION",
+      "maxPeer": 0.7233606557377049,
+      "peer": "rep-quickdraw-adjustable-dumbbells",
+      "indexable": false,
+      "categoryId": "cat-adjustable-dumbbells"
+    },
+    {
+      "slug": "rep-apollo-athlon-rack",
+      "class": "NEEDS_DIFFERENTIATION",
+      "maxPeer": 0.7320675105485233,
+      "peer": "rogue-sm-2c-monster-lite",
+      "indexable": false,
+      "categoryId": "cat-power-racks"
+    },
+    {
+      "slug": "rep-quickdraw-adjustable-dumbbells",
+      "class": "NEEDS_DIFFERENTIATION",
+      "maxPeer": 0.7233606557377049,
+      "peer": "bowflex-selecttech-552",
+      "indexable": false,
+      "categoryId": "cat-adjustable-dumbbells"
+    },
+    {
+      "slug": "rogue-sm-2c-monster-lite",
+      "class": "NEEDS_DIFFERENTIATION",
+      "maxPeer": 0.7320675105485233,
+      "peer": "rep-apollo-athlon-rack",
+      "indexable": false,
+      "categoryId": "cat-power-racks"
+    }
+  ],
+  "after": {
+    "clusterNeedsDiff": 45,
+    "clusterDuplicative": 2,
+    "indexableNeedsDiff": 0,
+    "indexableDuplicative": 0,
+    "uniquenessHolds": 43,
+    "blockedEvidence": 0
+  }
+}
