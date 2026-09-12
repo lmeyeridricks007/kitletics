@@ -168,6 +168,7 @@ export function topicSport(topic: EditorialTopic): "running" | "padel" | "tennis
     case "tennis_rackets":
       return "tennis";
     case "fitness":
+    case "training_shoes":
       return "fitness";
     case "mixed_home":
       return "mixed";
@@ -185,6 +186,7 @@ export function subjectSport(subject: ImageSubject): "running" | "padel" | "tenn
     case "tennis_racket":
       return "tennis";
     case "home_gym":
+    case "training_shoes":
       return "fitness";
     case "mixed_gear":
       return "mixed";
@@ -200,7 +202,7 @@ export function subjectSport(subject: ImageSubject): "running" | "padel" | "tenn
 
 const TOPIC_ALLOWED_SUBJECTS: Record<EditorialTopic, ReadonlySet<ImageSubject>> = {
   running_shoes: new Set(["running_shoes"]),
-  training_shoes: new Set(["training_shoes", "running_shoes"]),
+  training_shoes: new Set(["training_shoes"]),
   gps_watches: new Set(["gps_watch"]),
   hrm: new Set(["hrm"]),
   headphones: new Set(["headphones"]),

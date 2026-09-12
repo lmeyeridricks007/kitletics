@@ -11,6 +11,7 @@ import { getScoreBand } from "@/lib/product/score";
 import { resolveVisibleReviewType } from "@/lib/review/visible-type";
 import { canPublishReview } from "@/lib/review/can-publish";
 import { containsPublicContentCorruption } from "@/lib/review/public-content-corruption";
+import { rewriteUniquenessEraSkipProse } from "@/lib/review/rewrite-uniqueness-era-skip";
 import { resolveDecisionCopyForProduct } from "@/lib/decision-copy";
 import { getAuthorById, getComparisonById, getProductById, getBrandById, getEvidenceForIds, getLowestOfferPrice } from "@/repositories";
 import { getPublicEvidenceCard } from "@/lib/evidence/public-presentation";
@@ -259,9 +260,13 @@ export function getProductReviewSummary(input: {
     score,
     scoreLabel: band.label,
     displayScore: displayScore10(score),
-    verdict: review.verdict || review.bottomLine || review.summary,
-    summary: review.summary,
-    bottomLine: review.bottomLine,
+    verdict: rewriteUniquenessEraSkipProse(
+      review.verdict || review.bottomLine || review.summary,
+    ),
+    summary: rewriteUniquenessEraSkipProse(review.summary),
+    bottomLine: review.bottomLine
+      ? rewriteUniquenessEraSkipProse(review.bottomLine)
+      : review.bottomLine,
     lastReviewed: review.lastVerifiedAt ?? review.updatedAt ?? review.publishedAt,
     methodology:
       review.testingContext?.trim() ||

@@ -9,6 +9,10 @@ import { getReviewAgentCategoryConfig } from "@/domain/review-agent/category-con
 import { getReviewPageCategoryConfig } from "@/lib/review/category-config";
 import { ensureAudienceSignals } from "@/lib/review/audience-signals";
 import { resolveDecisionCopyForProduct } from "@/lib/decision-copy";
+import {
+  skipSentenceFromLimitation,
+  rewriteUniquenessEraSkipProse,
+} from "@/lib/review/rewrite-uniqueness-era-skip";
 import { getReviewCriteriaDefinitions, getProducts } from "@/repositories";
 
 function prettyLabel(key: string): string {
@@ -254,8 +258,10 @@ export function ensureSubstantiveVerdict(
   const current = (review.verdict ?? review.bottomLine ?? "").trim();
   if (wordCount(current) >= 20) {
     return {
-      verdict: review.verdict?.trim() || current,
-      bottomLine: review.bottomLine,
+      verdict: rewriteUniquenessEraSkipProse(review.verdict?.trim() || current),
+      bottomLine: review.bottomLine
+        ? rewriteUniquenessEraSkipProse(review.bottomLine)
+        : review.bottomLine,
     };
   }
 
@@ -272,10 +278,10 @@ export function ensureSubstantiveVerdict(
     ? `I'd shortlist it when you want ${strengths[0].toLowerCase()}.`
     : `I'd shortlist it when this role is most of your week.`;
   const pause = weaknesses[0]
-    ? `I'd pause if ${weaknesses[0].toLowerCase()} would show up often.`
+    ? skipSentenceFromLimitation(weaknesses[0])
     : avoid
-      ? `I'd pause if ${avoid.charAt(0).toLowerCase()}${avoid.slice(1)}`
-      : `I'd pause if you need a different specialty lane.`;
+      ? skipSentenceFromLimitation(avoid)
+      : "Skip it if you need a different specialty.";
 
   const base =
     current ||

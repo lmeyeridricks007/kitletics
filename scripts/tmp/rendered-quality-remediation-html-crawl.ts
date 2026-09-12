@@ -16,13 +16,14 @@ import {
   normalizeSrc,
 } from "@/lib/media/semantic-image/subjects";
 import { inspectPublicContentCorruption } from "@/lib/review/public-content-corruption";
+import { isRawPublicSpecKey } from "@/lib/specs/public-label";
 
 const BASE = (process.env.CRAWL_BASE ?? "http://127.0.0.1:3010").replace(
   /\/$/,
   "",
 );
 const OUT = join(process.cwd(), "docs/prelaunch/data");
-const CONCURRENCY = 2;
+const CONCURRENCY = 8;
 const TIMEOUT_MS = 30000;
 
 const TOKEN_RES: Array<{ name: string; re: RegExp }> = [
@@ -48,8 +49,8 @@ const MACHINE_RES: Array<{ name: string; re: RegExp }> = [
   { name: "headline_trait", re: /as the headline trait/i },
   { name: "whatever_optimizes", re: /whatever .+ optimizes for/i },
   { name: "catalogued_to_deliver", re: /catalogued to deliver/i },
-  { name: "pause_if_not_a", re: /i'd pause if not a /i },
-  { name: "look_elsewhere_if_not_a", re: /look elsewhere if not a /i },
+  { name: "pause_if_not", re: /i['’]d pause if not/i },
+  { name: "look_elsewhere_if_not", re: /look elsewhere if not/i },
   { name: "main_job_matches_week", re: /when its main job matches most of your week/i },
   { name: "rotate_or_compare_against", re: /will rotate or compare against/i },
   { name: "do_everything_compromise", re: /more than a do-everything compromise/i },
@@ -519,6 +520,21 @@ async function main() {
         status: "OPEN",
       });
     }
+    if (isRawPublicSpecKey(vis)) {
+      issues.push({
+        issue_id: "RQ-PENDING",
+        severity: "HIGH",
+        url: `${BASE}${entry.path === "/" ? "" : entry.path}`,
+        path: entry.path,
+        page_type: pageType,
+        issue_class: "CONTENT_SANITY",
+        issue_subclass: "raw_catalog_key",
+        rendered_excerpt: excerpt(vis),
+        image_path: "",
+        root_cause: "Raw camelCase catalog key in visible HTML",
+        status: "OPEN",
+      });
+    }
     for (const fail of uniqueImageFails) {
       const [cls, ...rest] = fail.split(":");
       issues.push({
@@ -556,7 +572,7 @@ async function main() {
 
     done += 1;
     if (done % 100 === 0) {
-      process.stdout.write(
+      process.stderr.write(
         `  crawled ${done}/${inventory.length} (${Date.now() - started}ms)\n`,
       );
     }
@@ -591,6 +607,45 @@ async function main() {
   );
   writeCsv(
     "REMEDIATION-REMAINING-ISSUES.csv",
+    issues as unknown as Record<string, unknown>[],
+    [
+      "issue_id",
+      "severity",
+      "url",
+      "path",
+      "page_type",
+      "issue_class",
+      "issue_subclass",
+      "rendered_excerpt",
+      "image_path",
+      "root_cause",
+      "status",
+    ],
+  );
+
+  writeCsv(
+    "ZERO-DEBT-HTML-CRAWL.csv",
+    rows as unknown as Record<string, unknown>[],
+    [
+      "url",
+      "path",
+      "page_type",
+      "status",
+      "error",
+      "title",
+      "text_len",
+      "token_hits",
+      "has_token",
+      "has_machine",
+      "decision_machine",
+      "decision_broken",
+      "image_fail",
+      "image_count",
+      "excerpt",
+    ],
+  );
+  writeCsv(
+    "FINAL-RENDERED-QUALITY-ZERO-DEBT.csv",
     issues as unknown as Record<string, unknown>[],
     [
       "issue_id",

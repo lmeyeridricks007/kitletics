@@ -24,6 +24,7 @@ import { getUseCaseListingPageData } from "@/lib/use-case-listing";
 import { assembleCategoryPage } from "@/lib/catalog";
 import { resolveGuideImage } from "@/lib/guides/resolve-guide-image";
 import { enrichReviewForPage } from "@/lib/review/enrich-review-for-page";
+import { rewriteUniquenessEraSkipProse } from "@/lib/review/rewrite-uniqueness-era-skip";
 import { resolveDecisionCopyForProduct } from "@/lib/decision-copy";
 import { getPrimaryProductMedia } from "@/lib/product/media";
 import {
@@ -186,6 +187,9 @@ function assembleProduct(url: IndexableUrl, slug: string): VisiblePage | undefin
             testingContext: enriched.testingContext,
             sections: enriched.sections,
           }
+        : undefined,
+      productVerdict: product.verdict
+        ? rewriteUniquenessEraSkipProse(product.verdict)
         : undefined,
       decisionCopy: decision,
     },

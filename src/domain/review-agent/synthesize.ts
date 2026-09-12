@@ -19,6 +19,7 @@ import {
   topicFromSection,
   type LongformTopic,
 } from "@/lib/review/review-longform";
+import { skipSentenceFromLimitation } from "@/lib/review/rewrite-uniqueness-era-skip";
 import { softList } from "@/lib/review/review-voice";
 
 const DEFAULT_REVIEWER = "author-kitletics-editorial";
@@ -91,7 +92,7 @@ function buildShortVerdict(input: {
       ? `I'd shortlist it when you want ${strength.charAt(0).toLowerCase()}${strength.slice(1)}.`
       : null,
     trade
-      ? `I'd pause if ${trade.charAt(0).toLowerCase()}${trade.slice(1)} shows up often in your week.`
+      ? skipSentenceFromLimitation(trade)
       : null,
   ].filter(Boolean);
   return parts.join(" ");
@@ -120,9 +121,7 @@ function buildFullVerdict(input: {
   }
 
   if (product.weaknesses[0]) {
-    parts.push(
-      `Look elsewhere if ${product.weaknesses[0].charAt(0).toLowerCase()}${product.weaknesses[0].slice(1)}.`,
-    );
+    parts.push(skipSentenceFromLimitation(product.weaknesses[0]));
   }
 
   const full = parts.join(" ").replace(/\s+/g, " ").trim();

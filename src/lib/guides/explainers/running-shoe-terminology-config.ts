@@ -85,7 +85,7 @@ const TERMINOLOGY_BLOCKS: ExplainerBlock[] = [
     cards: [
       {
         id: "cushion-level",
-        title: "cushionLevel",
+        title: "Cushioning",
         whatItIs: "Kitletics’ controlled category for cushioning amount: minimal, low, medium, high or maximum.",
         howItChanges: "Helps filter broad protection and stack intent across the catalog.",
         whatYouNotice: "How much cushioning the shoe is built around—not exactly how soft it feels.",
@@ -341,7 +341,7 @@ export const runningShoeTerminologyConfig: LongFormGuideConfig = {
     { id: "stack", term: "Stack height", definition: "Material height between the foot and ground.", icon: "layers" },
     { id: "drop", term: "Heel-to-toe drop", definition: "Difference between heel and forefoot stack.", icon: "ruler" },
     { id: "rocker", term: "Rocker", definition: "Curved sole geometry that encourages a rolling transition.", icon: "gauge" },
-    { id: "cushion-level", term: "cushionLevel", definition: "Controlled category for intended cushioning amount.", icon: "scale" },
+    { id: "cushion-level", term: "Cushioning", definition: "How much cushioning the shoe is built around—not exactly how soft it feels.", icon: "scale" },
     { id: "energy-return", term: "Energy return", definition: "How readily the midsole system rebounds after compression.", icon: "gauge" },
     { id: "stability", term: "Stability", definition: "Designs intended to create a more guided platform.", icon: "shield" },
     { id: "plate", term: "Plate", definition: "A stiffening structure working with foam and geometry.", icon: "layers" },
@@ -366,7 +366,7 @@ export const runningShoeTerminologyConfig: LongFormGuideConfig = {
     layout: "explainer",
     quickAnswerBullets: [
       "Stack is platform height; drop is the difference between heel and forefoot stack.",
-      "cushionLevel describes amount, cushion feel describes compression and energy return describes rebound.",
+      "Cushioning describes amount; cushion feel describes compression; energy return describes rebound.",
       "Neutral and stability describe platform design—not gait diagnoses or medical prescriptions.",
       "A plate works with foam and rocker geometry; it does not automatically make every runner faster.",
       "Last and upper shape determine fit, while platform width describes the midsole footprint.",

@@ -6,6 +6,7 @@
 
 import type { Product } from "@/domain/products/types";
 import { NEW_PRICING_OFFERS } from "@/content/offers-pricing-refresh";
+import { rewriteUniquenessEraSkipProse } from "@/lib/review/rewrite-uniqueness-era-skip";
 
 export type ShoeLaunchPatch = {
   familyId?: string;
@@ -512,7 +513,7 @@ export function applyRunningShoesLaunchReadyEnrichment(
       reviewId: patch.reviewId ?? product.reviewId,
       offerIds: offerIds.length ? offerIds : product.offerIds,
       positioning: patch.positioningLabel,
-      verdict: patch.verdict,
+      verdict: rewriteUniquenessEraSkipProse(patch.verdict),
       seoTitle: patch.seoTitle,
       seoDescription: patch.seoDescription,
       shortDescription: patch.shortDescription ?? product.shortDescription,

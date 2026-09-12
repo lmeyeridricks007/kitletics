@@ -311,7 +311,7 @@ export const roadVsTrailRunningShoesConfig: LongFormGuideConfig = {
     medicalNote:
       "Kitletics explains footwear design and terrain suitability. Road or trail classifications do not prevent injury, diagnose pain or replace medical assessment. Consult a qualified clinician for persistent symptoms or medical footwear needs.",
     methodologyNote:
-      "This comparison uses controlled catalog terrain, grip, cushionLevel, stability, upper, outsole, plate and width fields alongside manufacturer construction details. Product examples and comparison specifications render from the current catalog rather than hardcoded prices.",
+      "This comparison uses catalog terrain, grip, cushioning, stability, upper, outsole, plate and width fields alongside manufacturer construction details. Product examples and comparison specifications render from the current catalog rather than hardcoded prices.",
     blocks: [...ROAD_VS_TRAIL_BLOCKS],
   },
 };

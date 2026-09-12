@@ -377,7 +377,7 @@ function uniqueTopicBody(topic: TopicKey, ctx: Ctx): string {
   const gen = p.generation ? ` Generation ${p.generation} is the current reference.` : "";
 
   const leads: Record<TopicKey, string> = {
-    overview: `${name} is a ${role}. ${desc} I'd shortlist it for ${strengths}. I'd pause when ${compromise} is most of your week — ${peer} is the cleaner starting compare.${gen}`,
+    overview: `${name} is a ${role}. ${desc} I'd shortlist it for ${strengths}. Skip it if ${compromise} is most of your week — ${peer} is the cleaner starting compare.${gen}`,
     specs: specDumpSentence(p),
     fit: `Fit has to work for a ${role}, not as a one-size story. ${widths ? `Width options include ${widths}, which matters if volume is the weekly filter. ` : ""}${desc} If lockdown or volume is the reason you return shoes, try it on or buy somewhere returns are easy rather than hoping the last covers every foot.`,
     cushioning: `Cushioning is why ${name} sits in the ${role} lane — protection for the miles you actually run, not a lab score.${midsole ? ` The midsole story is ${midsole}.` : ""}${feel ? ` Published feel is ${feel}, so easy miles should stay ${feel} rather than dead-flat.` : ""}${heel || fore ? ` Stack is listed at ${[heel && `heel ${heel} mm`, fore && `forefoot ${fore} mm`].filter(Boolean).join(" and ")}; read that as ride height and protection, not a reason to ignore ${compromise}.` : ""}`,

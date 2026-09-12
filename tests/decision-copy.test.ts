@@ -5,6 +5,7 @@ import {
   resolveDecisionCopyForProduct,
   toSituationLabel,
   toDecisionLine,
+  salvageDecisionLine,
   decisionCopyIsIndexable,
 } from "@/lib/decision-copy";
 import { getReviewPageData } from "@/lib/review/get-review-page-data";
@@ -72,6 +73,24 @@ describe("decision-copy transforms", () => {
     expect(
       toDecisionLine("Daily training with a soft, energetic ride.", "buy"),
     ).toMatch(/^You/);
+  });
+
+  it("does not prefix taxonomy fragments with Those looking for not a", () => {
+    expect(salvageDecisionLine("Not a running shoe.", "notIdealFor")).not.toMatch(
+      /looking for not a/i,
+    );
+    expect(salvageDecisionLine("Not a running shoe.", "skipIf")).toMatch(
+      /shoe designed for running/i,
+    );
+    expect(
+      salvageDecisionLine("not a stability shoe", "notIdealFor"),
+    ).not.toMatch(/Runners who People/i);
+    expect(
+      salvageDecisionLine("Not a fully waterproof storm shell.", "notIdealFor"),
+    ).toMatch(/waterproof/i);
+    expect(
+      salvageDecisionLine("Not a fully waterproof storm shell.", "notIdealFor"),
+    ).not.toMatch(/looking for not a/i);
   });
 });
 

@@ -172,7 +172,7 @@ export const runningBuyingGuides: BuyingGuide[] = [
     ],
     relatedUseCaseIds: ["uc-comfort", "uc-long-runs", "uc-easy-runs"],
     quickAnswer:
-      "Stack is how much material is underfoot. Softness is how that material compresses. Energy return and ride character are separate. Prefer structured cushionLevel over marketing adjectives.",
+      "Stack is how much material is underfoot. Softness is how that material compresses. Energy return and ride character are separate. Prefer structured cushioning over marketing adjectives.",
     sections: [
       {
         id: "s1",
@@ -191,7 +191,7 @@ export const runningBuyingGuides: BuyingGuide[] = [
       },
       {
         id: "s4",
-        heading: "How Kitletics uses cushionLevel",
+        heading: "How Kitletics uses cushioning",
         body: "Products use controlled enums (minimal → maximum). Best Max Cushion and Finder filters rely on these — not free-text “super soft” claims.",
       },
     ],

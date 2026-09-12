@@ -16,6 +16,7 @@ import { ALTERNATIVES_P64_UNIQUE_INTROS } from "@/content/alternatives-p64-uniqu
 import { ALTERNATIVES_P65_UNIQUE_INTROS } from "@/content/alternatives-p65-completion";
 import { buildAccessoryAlternativeCopy } from "@/lib/product/alternatives-p64-decision-copy";
 import { containsPublicContentCorruption } from "@/lib/review/public-content-corruption";
+import { formatPublicSpecCue, formatPublicSpecKey } from "@/lib/specs/public-label";
 
 /** Categories where alternatives pages can earn indexation when substantive. */
 export const ALTERNATIVES_INDEXABLE_CATEGORIES = new Set([
@@ -77,10 +78,10 @@ function numSpec(product: Product, key: string): number | undefined {
 
 function specBit(product: Product, key: string): string | undefined {
   const n = numSpec(product, key);
-  if (n != null) return `${key} ${n}`;
+  if (n != null) return formatPublicSpecCue(key, n);
   const v = product.specifications?.[key];
-  if (typeof v === "string" && v.trim()) return `${key} ${v.trim()}`;
-  if (typeof v === "boolean") return v ? `${key} yes` : undefined;
+  if (typeof v === "string" && v.trim()) return formatPublicSpecCue(key, v.trim());
+  if (typeof v === "boolean") return v ? formatPublicSpecKey(key) : undefined;
   return undefined;
 }
 
@@ -125,7 +126,7 @@ function specNote(source: Product, alt: Product): string | undefined {
     const b = numSpec(alt, key);
     if (a != null && b != null && Math.abs(a - b) / Math.max(a, 1) >= 0.08) {
       const dir = b < a ? "lower" : "higher";
-      return `${key} sits ${dir} on ${alt.name} (${b} vs ${a})`;
+      return `${formatPublicSpecKey(key)} sits ${dir} on ${alt.name} (${b} vs ${a})`;
     }
     const as = source.specifications?.[key];
     const bs = alt.specifications?.[key];
@@ -136,7 +137,7 @@ function specNote(source: Product, alt: Product): string | undefined {
       bs.trim() &&
       as.toLowerCase() !== bs.toLowerCase()
     ) {
-      return `${key}: ${alt.name} is “${bs}” vs ${source.name} “${as}”`;
+      return `${formatPublicSpecKey(key)}: ${alt.name} is “${bs}” vs ${source.name} “${as}”`;
     }
   }
   return undefined;

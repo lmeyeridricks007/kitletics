@@ -36,8 +36,8 @@ const MACHINE_RES: RegExp[] = [
 
 const BROKEN_RES: RegExp[] = [
   /you need not a /i,
-  /look elsewhere if not a /i,
-  /i'd pause if not a /i,
+  /look elsewhere if not /i,
+  /i'd pause if not /i,
   /you need not [a-z]/i,
   /\[object Object\]/,
 ];

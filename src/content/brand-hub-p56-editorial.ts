@@ -4,6 +4,7 @@ const GUIDE_SHOES = "/images/home/guide-running-shoes.jpg";
 const GUIDE_GYM = "/images/home/guide-home-gym.jpg";
 const GUIDE_PADEL = "/images/home/guide-how-to-choose.jpg";
 const GUIDE_TENNIS = "/images/home/guide-tennis.jpg";
+const GUIDE_TRAINING = "/images/training/guides/concepts/cross-training-shoe-gym.jpg";
 
 /** Fix 56 — unique Brand Hub editorial for depth-qualified uniqueness holds. */
 export const brandHubP56Configs: Record<string, BrandHubConfig> = {
@@ -27,7 +28,7 @@ export const brandHubP56Configs: Record<string, BrandHubConfig> = {
     guideSlugs: ["how-to-choose-running-shoes", "how-to-choose-training-shoes"],
     guideImageMap: {
       "how-to-choose-running-shoes": GUIDE_SHOES,
-      "how-to-choose-training-shoes": GUIDE_SHOES,
+      "how-to-choose-training-shoes": GUIDE_TRAINING,
     },
   },
   mizuno: {
@@ -77,7 +78,7 @@ export const brandHubP56Configs: Record<string, BrandHubConfig> = {
     guideSlugs: ["how-to-choose-running-shoes", "how-to-choose-training-shoes"],
     guideImageMap: {
       "how-to-choose-running-shoes": GUIDE_SHOES,
-      "how-to-choose-training-shoes": GUIDE_SHOES,
+      "how-to-choose-training-shoes": GUIDE_TRAINING,
     },
   },
   joma: {
@@ -209,7 +210,7 @@ export const brandHubP56Configs: Record<string, BrandHubConfig> = {
       { id: "lift", label: "Legacy Lifter III / Lifter PR III for lifting" },
     ],
     guideSlugs: ["how-to-choose-training-shoes"],
-    guideImageMap: { "how-to-choose-training-shoes": GUIDE_SHOES },
+    guideImageMap: { "how-to-choose-training-shoes": GUIDE_TRAINING },
   },
   nobull: {
     brandSlug: "nobull",
@@ -229,7 +230,7 @@ export const brandHubP56Configs: Record<string, BrandHubConfig> = {
       { id: "out", label: "Outwork as the aggressive training option" },
     ],
     guideSlugs: ["how-to-choose-training-shoes"],
-    guideImageMap: { "how-to-choose-training-shoes": GUIDE_SHOES },
+    guideImageMap: { "how-to-choose-training-shoes": GUIDE_TRAINING },
   },
   tyr: {
     brandSlug: "tyr",
@@ -249,7 +250,7 @@ export const brandHubP56Configs: Record<string, BrandHubConfig> = {
       { id: "trainer", label: "CXT-1 Trainer as the named trainer variant" },
     ],
     guideSlugs: ["how-to-choose-training-shoes"],
-    guideImageMap: { "how-to-choose-training-shoes": GUIDE_SHOES },
+    guideImageMap: { "how-to-choose-training-shoes": GUIDE_TRAINING },
   },
   "pullup-and-dip": {
     brandSlug: "pullup-and-dip",
@@ -289,7 +290,7 @@ export const brandHubP56Configs: Record<string, BrandHubConfig> = {
       { id: "lift", label: "Reign Lifter vs Charged Commit 4 as different jobs" },
     ],
     guideSlugs: ["how-to-choose-training-shoes"],
-    guideImageMap: { "how-to-choose-training-shoes": GUIDE_SHOES },
+    guideImageMap: { "how-to-choose-training-shoes": GUIDE_TRAINING },
   },
   nnormal: {
     brandSlug: "nnormal",

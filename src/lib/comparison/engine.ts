@@ -8,6 +8,7 @@ import {
   getComparisonCategoryConfig,
   type ComparisonCategoryConfig,
 } from "@/lib/comparison/category-config";
+import { formatPublicSpecDisplayLabel } from "@/lib/specs/public-label";
 
 export type SpecDiffState =
   | "same"
@@ -167,7 +168,7 @@ export function buildSpecDiffs(
     const state = classifyState(raws);
     rows.push({
       key,
-      label: def?.label ?? key,
+      label: formatPublicSpecDisplayLabel(key),
       unit: def?.unit,
       valuesByProduct,
       rawByProduct,

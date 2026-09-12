@@ -82,6 +82,7 @@ import {
   resolveDecisionCopyForProduct,
   type CanonicalDecisionCopy,
 } from "@/lib/decision-copy";
+import { formatPublicSpecDisplayLabel } from "@/lib/specs/public-label";
 
 export { REVIEW_TYPE_META, PRODUCT_SOURCE_LABELS };
 
@@ -234,7 +235,7 @@ function formatSpec(
   } else value = String(raw);
   return {
     key,
-    label: def?.label ?? key,
+    label: formatPublicSpecDisplayLabel(key),
     value,
     unit: typeof raw === "number" ? def?.unit : undefined,
     raw: raw as SpecDisplayRow["raw"],

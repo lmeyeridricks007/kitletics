@@ -107,6 +107,7 @@ import { getRecommendationsForProduct } from "@/repositories/recommendations";
 import { getPrimaryProductMedia } from "@/lib/product/media";
 import type { MediaAsset } from "@/domain/shared/types";
 import { formatPrice } from "@/lib/utils";
+import { formatPublicSpecDisplayLabel } from "@/lib/specs/public-label";
 
 function sortOffers(offers: Offer[]): Offer[] {
   const retailersById = new Map<string, Retailer>();
@@ -584,7 +585,7 @@ export function getBestGuidePageData(
         const formatted = formatSpecValue(raw as SpecValue);
         if (formatted === "—") return undefined;
         return {
-          label: def?.label ?? key,
+          label: formatPublicSpecDisplayLabel(key),
           value: def?.unit && typeof raw === "number" ? `${formatted} ${def.unit}` : formatted,
         };
       })
@@ -776,7 +777,7 @@ export function getBestGuidePageData(
       }
       return {
         key,
-        label: def?.label ?? key,
+        label: formatPublicSpecDisplayLabel(key),
         unit: def?.unit,
         values,
       };

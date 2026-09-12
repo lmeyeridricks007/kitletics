@@ -2,6 +2,10 @@ import {
   classifyDecisionLine,
   countDecisionWords,
 } from "@/lib/decision-copy/classify";
+import {
+  rewriteUniquenessEraSkipProse,
+  skipSentenceFromLimitation,
+} from "@/lib/review/rewrite-uniqueness-era-skip";
 
 const YOU_PREFIX =
   /^(you(?:'re| are)? looking for|you(?:'re| are)? primarily looking for|you want|you prefer|you need to avoid|you need|i(?:'d| would) (?:shortlist|pause|skip|rotate)|buy the \S[\s\S]{0,40}? when)\s+/i;
@@ -48,9 +52,24 @@ export function stripYouPrefix(line: string): string {
     .trim();
 }
 
+function skipSentenceToSituation(text: string): string {
+  let t = text.trim().replace(/[.,;:]+$/, "");
+  t = t.replace(/^skip it if you(?:'re| are)? looking for /i, "People looking for ");
+  t = t.replace(/^skip it if you need /i, "People who need ");
+  t = t.replace(/^choose another jacket if you need /i, "People who need ");
+  t = t.replace(/^skip it if /i, "People who need it when ");
+  return t;
+}
+
 function polishSituation(raw: string): string {
   let t = raw.trim().replace(/\.$/, "");
   t = t.replace(/^(a |an )/i, "");
+  if (/^(skip it if|choose another)/i.test(t)) {
+    t = skipSentenceToSituation(t);
+  }
+  if (/^(not|n't)\s+(a |an |for |built for |ideal )/i.test(t)) {
+    t = skipSentenceToSituation(skipSentenceFromLimitation(t));
+  }
   t = t.replace(/^not a stability shoe.*/i, "Runners who need added stability or guidance");
   t = t.replace(/^added stability or guidance$/i, "Runners who need added stability or guidance");
   t = t.replace(
@@ -85,7 +104,7 @@ export function toSituationLabel(
   t = stripYouPrefix(t);
   t = polishSituation(t);
   if (polarity === "skip") {
-    if (/^runners who |^those (looking|who) /i.test(t)) {
+    if (/^runners who |^those (looking|who) |^people (who|looking) |^anyone /i.test(t)) {
       // already a limitation phrase
     } else if (/^need /i.test(t) || /stability|guidance/i.test(t)) {
       t = /^runners who /i.test(t) ? t : `Runners who ${t.replace(/^need /i, "need ")}`;
@@ -130,6 +149,13 @@ export function toDecisionLine(
     t = "You're primarily looking for the lightest race-day option";
   } else if (/^need /i.test(situation)) {
     t = `You ${situation}`;
+  } else if (
+    /^(not|n't)\s+(a |an |for |built for |ideal )/i.test(situation) ||
+    /^(skip it if|choose another)/i.test(situation)
+  ) {
+    t = /^(skip it if|choose another)/i.test(situation)
+      ? situation
+      : skipSentenceFromLimitation(situation);
   } else {
     t = `You prefer ${situation.charAt(0).toLowerCase()}${situation.slice(1)}`;
   }
@@ -151,12 +177,17 @@ export function salvageDecisionLine(
   role: "buyIf" | "skipIf" | "bestFor" | "notIdealFor" | "pro" | "con",
   productName?: string,
 ): string {
-  const polarity = role === "skipIf" || role === "notIdealFor" ? "skip" : "buy";
-  if (role === "pro" || role === "con") return toTraitBullet(line, productName);
-  if (role === "bestFor" || role === "notIdealFor") {
-    return toSituationLabel(line, polarity, productName);
+  let rewritten = rewriteUniquenessEraSkipProse(line);
+  const fragment = rewritten.trim().replace(/[.,;:]+$/g, "");
+  if (/^(not|n't)\s+(a |an |for |built for |ideal )/i.test(fragment)) {
+    rewritten = skipSentenceFromLimitation(fragment);
   }
-  return toDecisionLine(line, polarity, productName);
+  const polarity = role === "skipIf" || role === "notIdealFor" ? "skip" : "buy";
+  if (role === "pro" || role === "con") return toTraitBullet(rewritten, productName);
+  if (role === "bestFor" || role === "notIdealFor") {
+    return toSituationLabel(rewritten, polarity, productName);
+  }
+  return toDecisionLine(rewritten, polarity, productName);
 }
 
 export function isDisplayReady(

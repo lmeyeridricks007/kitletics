@@ -84,7 +84,7 @@ export const faqs: FAQ[] = [
     id: "faq-cushion-1",
     question: "Is a higher stack always softer?",
     answer:
-      "No. Stack height measures material underfoot; softness depends on foam and geometry. Kitletics separates cushionLevel, cushionFeel and energy return on Product specs.",
+      "No. Stack height measures material underfoot; softness depends on foam and geometry. Kitletics separates cushioning, cushion feel and energy return on Product specs.",
     categoryId: "cat-running-shoes",
     sportId: "sport-running",
   },
@@ -441,7 +441,7 @@ export const faqs: FAQ[] = [
     id: "faq-cushion-5",
     question: "How does Kitletics classify cushioning?",
     answer:
-      "Products use structured cushionLevel enums (minimal through maximum) plus related ride attributes. Finders and Best Guides filter on those fields — not free-text “super soft” claims.",
+      "Products use structured cushioning categories (minimal through maximum) plus related ride attributes. Finders and Best Guides filter on those fields — not free-text “super soft” claims.",
     categoryId: "cat-running-shoes",
     sportId: "sport-running",
   },
@@ -597,7 +597,7 @@ export const faqs: FAQ[] = [
     id: "faq-term-4",
     question: "Where should I look up running shoe terms?",
     answer:
-      "Use this terminology guide alongside Product pages — Kitletics maps terms to structured fields (drop, cushionLevel, stability) so Finders and comparisons stay consistent.",
+      "Use this terminology guide alongside Product pages — Kitletics maps terms to structured fields (drop, cushioning, stability) so Finders and comparisons stay consistent.",
     categoryId: "cat-running-shoes",
     sportId: "sport-running",
   },

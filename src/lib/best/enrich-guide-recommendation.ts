@@ -15,6 +15,10 @@ import {
   type GuideContextConfig,
 } from "@/lib/best/guide-context-config";
 import { resolveDecisionCopyForProduct } from "@/lib/decision-copy";
+import {
+  rewriteUniquenessEraSkipProse,
+  sanitizePublicCopyList,
+} from "@/lib/review/rewrite-uniqueness-era-skip";
 
 const MIN_WHY_PARA = 90;
 const MIN_WHY_PARAS = 2;
@@ -222,11 +226,11 @@ function buildWhyItFits(input: {
   // P3 — choose this vs peers / when not
   if (peer && peer2) {
     paras.push(
-      `I'd shortlist ${name} when its role matches your week better than ${peer} or ${peer2}. ${w0 ? `I'd pause if ${softLead(w0)} is a deal-breaker — then jump to the alternative that fixes that first.` : `If another pick on this page matches your constraint more tightly, take that instead — this is a ranked shortlist, not a single universal winner.`}`,
+      `I'd shortlist ${name} when its role matches your week better than ${peer} or ${peer2}. ${w0 ? `Skip it if ${softLead(w0)} is a deal-breaker — then jump to the alternative that fixes that first.` : `If another pick on this page matches your constraint more tightly, take that instead — this is a ranked shortlist, not a single universal winner.`}`,
     );
   } else if (peer) {
     paras.push(
-      `Choose ${name} over ${peer} when ${s0 ? softLead(s0) : "this guide’s main priority"} matters more to you than whatever that alternative optimises for. ${entry.notIdealFor?.[0] ? `Skip it if you are ${softLead(entry.notIdealFor[0])}.` : w0 ? `Skip it if ${softLead(w0)} would frustrate you.` : ""}`.trim(),
+      `Choose ${name} over ${peer} when ${s0 ? softLead(s0) : "this guide’s main priority"} matters more to you than the other option’s strengths. ${entry.notIdealFor?.[0] ? `Skip it if you are ${softLead(entry.notIdealFor[0])}.` : w0 ? `Skip it if ${softLead(w0)} would frustrate you.` : ""}`.trim(),
     );
   } else if (verdict && verdict.length >= 60 && !CLINICAL.test(verdict)) {
     paras.push(verdict.length > 280 ? `${verdict.slice(0, 277).trim()}…` : verdict);
@@ -466,7 +470,18 @@ export function enrichGuideRecommendation(input: {
     };
   }
 
-  return entry;
+  return {
+    ...entry,
+    whyItFits: sanitizePublicCopyList(entry.whyItFits),
+    whyRecommended: entry.whyRecommended
+      ? rewriteUniquenessEraSkipProse(entry.whyRecommended)
+      : entry.whyRecommended,
+    whyItWon: entry.whyItWon
+      ? rewriteUniquenessEraSkipProse(entry.whyItWon)
+      : entry.whyItWon,
+    tradeoffs: sanitizePublicCopyList(entry.tradeoffs),
+    compromises: sanitizePublicCopyList(entry.compromises),
+  };
 }
 
 /** Test helpers */

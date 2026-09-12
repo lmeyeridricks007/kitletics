@@ -40,11 +40,13 @@ function pickCompatible(
 export function resolveSemanticImage(
   input: SemanticImageInput,
 ): SemanticImageResult {
-  const topic = inferEditorialTopic({
-    slug: input.slug,
-    title: input.title,
-    categoryId: input.categoryId,
-  });
+  const topic =
+    input.topicHint ??
+    inferEditorialTopic({
+      slug: input.slug,
+      title: input.title,
+      categoryId: input.categoryId,
+    });
   const placement = input.placement;
   const alt = input.dedicatedAlt || defaultAltFor(topic, input.title);
 

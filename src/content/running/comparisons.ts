@@ -487,7 +487,7 @@ export const runningComparisons: Comparison[] = [
           { productId: "prod-novablast-6", impact: "High" },
           { productId: "prod-clifton-10", impact: "Maximum" },
         ],
-        explanation: "Controlled cushionLevel enums on both products.",
+        explanation: "Controlled cushioning categories on both products.",
         evidenceIds: ["ev-catalog-editorial"],
       },
     ],

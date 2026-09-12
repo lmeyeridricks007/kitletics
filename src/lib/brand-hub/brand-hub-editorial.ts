@@ -96,7 +96,7 @@ function guideSlugsForCategories(categoryIds: string[]): string[] {
     if (!slugs.includes(s)) slugs.push(s);
   };
   for (const id of categoryIds) {
-    if (id === "cat-running-shoes" || id.includes("shoe")) {
+    if (id === "cat-running-shoes") {
       push("how-to-choose-running-shoes");
       push("what-is-a-daily-trainer");
     }

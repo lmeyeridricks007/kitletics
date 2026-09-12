@@ -7,6 +7,7 @@ import {
   enrichTestingContext,
 } from "@/lib/review/enrich-review-content";
 import { enrichReviewSubstance } from "@/lib/review/enrich-review-substance";
+import { sanitizePublicReview } from "@/lib/review/rewrite-uniqueness-era-skip";
 import { resolveReviewSectionVisuals } from "@/lib/review/resolve-section-visuals";
 import { REVIEW_MAX_WORDS, countWords } from "@/lib/review/review-longform";
 
@@ -99,5 +100,5 @@ export function enrichReviewForPage(
     sections,
   };
 
-  return trimEnrichedReview(enriched);
+  return sanitizePublicReview(trimEnrichedReview(enriched));
 }

@@ -7,6 +7,7 @@ import {
   type ProductPageCategoryConfig,
   type SpecGroupId,
 } from "@/lib/product/category-config";
+import { formatPublicSpecDisplayLabel } from "@/lib/specs/public-label";
 import { resolveBreadcrumbs } from "@/lib/navigation/breadcrumbs";
 import {
   getProductBySlug,
@@ -43,6 +44,7 @@ import type {
 import type { Tool } from "@/domain/tools/types";
 import { isOfferStale, isProductDataStale } from "@/lib/product/score";
 import { containsPublicContentCorruption } from "@/lib/review/public-content-corruption";
+import { rewriteUniquenessEraSkipProse } from "@/lib/review/rewrite-uniqueness-era-skip";
 import { resolveDecisionCopyForProduct } from "@/lib/decision-copy";
 import {
   getPrimaryProductMedia,
@@ -210,7 +212,7 @@ function buildSpecRow(
   if (!formatted) return undefined;
   return {
     key,
-    label: def?.label ?? key,
+    label: formatPublicSpecDisplayLabel(key),
     value: formatted,
     unit: typeof raw === "number" ? def?.unit : undefined,
     raw,
@@ -492,7 +494,9 @@ export function getProductPageData(
     faqs,
     breadcrumbs,
     productStale: isProductDataStale(product.lastVerifiedAt),
-    verdict: product.verdict,
+    verdict: product.verdict
+      ? rewriteUniquenessEraSkipProse(product.verdict)
+      : product.verdict,
     galleryImages,
     heroTags,
     quickFacts,

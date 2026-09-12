@@ -102,6 +102,8 @@ export interface SemanticImageInput {
   /** When known, the product this surface is about. */
   productSlug?: string;
   brandSlug?: string;
+  /** Force topic (brand hub cards must match the hub, not the attached guide). */
+  topicHint?: EditorialTopic;
 }
 
 export interface SemanticImageResult {

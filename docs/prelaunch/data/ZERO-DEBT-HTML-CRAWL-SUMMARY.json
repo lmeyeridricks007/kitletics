@@ -1,0 +1,21 @@
+{
+  "generatedAt": "2026-09-12T16:25:01.898546+00:00",
+  "base": "http://127.0.0.1:3020",
+  "sitemapUrls": 1162,
+  "crawled": 1162,
+  "httpNot200": 0,
+  "tokenLeakUrls": 0,
+  "concatenatedTokenUrls": 0,
+  "skuslugSkuidUrls": 0,
+  "htmlMachineCopyUrls": 0,
+  "decisionMachineLikeUrls": 0,
+  "decisionBrokenUrls": 0,
+  "knownFillerUrls": 0,
+  "rawCatalogKeyUrls": 0,
+  "pauseIfNot": 0,
+  "lookElsewhereIfNot": 0,
+  "remainingIssues": 0,
+  "remainingBlocker": 0,
+  "remainingHigh": 0,
+  "notes": "Required-zero detectors on visible HTML (script/style stripped). Known-filler WRONG_SPORT only (guide-running-shoes.jpg on padel/tennis/fitness hubs; padel how-to-choose on non-padel; urban-dusk on watch). Naive related-card filename classification excluded, same as V1 remediation audit. Two residual camelCase keys found on /compare/asics-novablast-6-vs-hoka-clifton-10 and /guides/running-shoe-cushioning were rewritten and recrawled 200 with raw=false after the final build."
+}

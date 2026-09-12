@@ -54,12 +54,12 @@ export const rankedReviewCandidates: RankedReviewCandidate[] = [
       "A bouncier, more energetic daily trainer that feels fast without trying too hard.",
     reviewType: "expert-research",
     bottomLine:
-      "High-cushion neutral daily trainer with FF BLAST MAX and a FF TURBO SQUARED forefoot trampoline pod. I'd shortlist it when you want soft energetic daily ride. I'd pause if not a stability shoe shows up often in your week.",
+      "High-cushion neutral daily trainer with FF BLAST MAX and a FF TURBO SQUARED forefoot trampoline pod. I'd shortlist it when you want a soft, energetic daily ride. Skip it if you need a stability shoe for most of your training.",
     verdict:
       "The ASICS Novablast 6 is a high-cushion neutral daily trainer with FF BLAST MAX and a FF TURBO SQUARED forefoot trampoline pod. I'd shortlist it for a soft, energetic daily ride and the wet-grip update versus Novablast 5. The trade-off is stability — it is not a guidance shoe, and it is not a race-day supershoe. I'd keep it for easy and long road miles; Ghost 18 is the cleaner compare if you wanted a firmer, more conventional daily.",
     score: 90,
     summary:
-      "High-cushion neutral daily trainer with FF BLAST MAX and a FF TURBO SQUARED forefoot trampoline pod. I'd shortlist it when you want soft energetic daily ride. I'd pause if not a stability shoe shows up often in your week.",
+      "High-cushion neutral daily trainer with FF BLAST MAX and a FF TURBO SQUARED forefoot trampoline pod. I'd shortlist it when you want a soft, energetic daily ride. Skip it if you need a stability shoe for most of your training.",
     reviewerId: "author-kitletics-editorial",
     testingContext:
       "We put this guide together from published specs and similar products in the same job. We have not personally tested this product unless the page says we did. Scores are meant to help you decide — affiliate links do not change the verdict.",
@@ -157,10 +157,10 @@ export const rankedReviewCandidates: RankedReviewCandidate[] = [
     subtitle: "A soft, energetic daily trainer for high-mileage road running",
     reviewType: "expert-research",
     verdict:
-      "A versatile, cushioned daily trainer suited to high-volume road training and long runs, but not the best choice for runners wanting an aggressive race-day shoe or technical trail grip. It earns a look for soft energetic ride or good for high easy mileage. Look elsewhere if not a stability shoe.",
+      "A versatile, cushioned daily trainer suited to high-volume road training and long runs, but not the best choice for runners wanting an aggressive race-day shoe or technical trail grip. It earns a look for a soft, energetic ride on high easy mileage. Skip it if you need a stability shoe for most of your training.",
     score: 88,
     summary:
-      "Bouncy neutral daily trainer suited to easy miles and long runs. I'd shortlist it when you want soft energetic ride. I'd pause if not a stability shoe shows up often in your week.",
+      "Bouncy neutral daily trainer suited to easy miles and long runs. I'd shortlist it when you want a soft, energetic ride. Skip it if you need a stability shoe for most of your training.",
     reviewerId: "author-kitletics-editorial",
     testingContext:
       "We put this guide together from published specs and similar products in the same job. We have not personally tested this product unless the page says we did. Scores are meant to help you decide — affiliate links do not change the verdict.",
@@ -269,7 +269,7 @@ export const rankedReviewCandidates: RankedReviewCandidate[] = [
       "The adidas Adizero Boston 12 is a tempo trainer with road-workout snap and HYROX overlap. I'd shortlist it for a responsive tempo ride when that is most of your week. The trade-off is easy-mile softness — it is not a max-cushion recovery shoe, and trail is outside the brief.",
     score: 89,
     summary:
-      "Tempo trainer used for road workouts and often for HYROX training. I'd shortlist it when you want dual Running + HYROX relevance. I'd pause if not a max-cushion easy shoe shows up often in your week.",
+      "Tempo trainer used for road workouts and often for HYROX training. I'd shortlist it when you want dual Running + HYROX relevance. Skip it if you need a max-cushion easy shoe.",
     reviewerId: "author-kitletics-editorial",
     testingContext:
       "We put this guide together from published specs and similar products in the same job. We have not personally tested this product unless the page says we did. Scores are meant to help you decide — affiliate links do not change the verdict.",

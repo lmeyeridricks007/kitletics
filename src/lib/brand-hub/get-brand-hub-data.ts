@@ -23,7 +23,7 @@ import {
   canPublishBrandHub,
   getDefaultBrandHubConfig,
 } from "@/lib/brand-hub/config";
-import { resolveGuideImage } from "@/lib/guides/resolve-guide-image";
+import { resolveSemanticImage, inferEditorialTopic, topicSport } from "@/lib/media/semantic-image";
 import { buildBrandHubEditorial } from "@/lib/brand-hub/brand-hub-editorial";
 import { getCategoryHref } from "@/lib/navigation/category-href";
 import {
@@ -391,9 +391,19 @@ export function getBrandHubPageData(input: {
     if (bestCards.length >= 4) break;
   }
 
+  const hubCategoryId =
+    config.featuredCategoryId ??
+    [...byCat.entries()].sort((a, b) => b[1].length - a[1].length)[0]?.[0];
+  const hubTopic = inferEditorialTopic({
+    categoryId: hubCategoryId,
+    slug: brand.slug,
+    title: brand.name,
+  });
+  const hubSport = topicSport(hubTopic);
+
   const guideSlugList = [
     ...new Set([...(config.guideSlugs ?? []), ...editorial.guideSlugs]),
-  ].slice(0, 3);
+  ].slice(0, 6);
   const guides = guideSlugList
     .map((slug) => getBuyingGuideBySlug(slug, options))
     .filter((g): g is NonNullable<typeof g> => Boolean(g))
@@ -402,14 +412,38 @@ export function getBrandHubPageData(input: {
         getLaunchEligibility({ kind: "buying-guide", entity: g }, options),
       ),
     )
+    .filter((g) => {
+      const guideTopic = inferEditorialTopic({
+        slug: g.slug,
+        title: g.title,
+        categoryId: g.categoryId,
+      });
+      const guideSport = topicSport(guideTopic);
+      if (hubSport === "unknown" || guideSport === "unknown") return true;
+      return hubSport === guideSport;
+    })
     .slice(0, 3)
-    .map((g) => ({
-      id: g.id,
-      title: g.title,
-      description: g.shortDescription ?? g.subtitle ?? "",
-      href: `/guides/${g.slug}`,
-      imageSrc: resolveGuideImage(g).src,
-    }));
+    .map((g) => {
+      const mapped = config.guideImageMap?.[g.slug];
+      const resolved = resolveSemanticImage({
+        pageType: "brand",
+        placement: "card",
+        slug: g.slug,
+        title: g.title,
+        categoryId: hubCategoryId ?? g.categoryId,
+        dedicatedSrc: mapped,
+        dedicatedAlt: g.title,
+        brandSlug: brand.slug,
+        topicHint: hubTopic,
+      });
+      return {
+        id: g.id,
+        title: g.title,
+        description: g.shortDescription ?? g.subtitle ?? "",
+        href: `/guides/${g.slug}`,
+        imageSrc: resolved.src,
+      };
+    });
 
   const currentCount = products.filter(
     (p) => p.lifecycleStatus === "current",

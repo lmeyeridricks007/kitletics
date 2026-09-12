@@ -156,7 +156,7 @@ const DROP_BLOCKS: ExplainerBlock[] = [
         description: "12 mm · smooth traditional daily geometry",
       },
     ],
-    note: "Placement is illustrative and uses catalog drop, rideCharacter, flexibility and cushion fields.",
+    note: "Placement is illustrative and uses catalog drop, ride character, flexibility and cushioning fields.",
   },
   {
     id: "drop-tradeoffs",

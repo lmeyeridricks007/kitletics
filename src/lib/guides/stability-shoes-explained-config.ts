@@ -268,7 +268,7 @@ const STABILITY_BLOCKS: ExplainerBlock[] = [
         description: "High cushion · stability chassis",
       },
     ],
-    note: "Cell placement uses catalog cushionLevel and stability fields. Soft ≠ unstable; firm ≠ stable.",
+    note: "Cell placement uses catalog cushioning and stability fields. Soft ≠ unstable; firm ≠ stable.",
   },
   {
     id: "fit-width",
@@ -686,7 +686,7 @@ export const stabilityShoesExplainedConfig: LongFormGuideConfig = {
     medicalNote:
       "Kitletics explains product design. We do not diagnose overpronation, treat injury, or prescribe medical footwear. Seek qualified clinical advice when you have pain or injury concerns.",
     methodologyNote:
-      "This guide combines manufacturer technical descriptions, catalog specifications (stability, cushionLevel, widths, midsole) and independent specialist coverage. Product examples and comparison values are rendered from live catalog data — not hardcoded prices.",
+      "This guide combines manufacturer technical descriptions, catalog specifications (stability, cushioning, widths, midsole) and independent specialist coverage. Product examples and comparison values are rendered from live catalog data — not hardcoded prices.",
     blocks: [...STABILITY_BLOCKS],
   },
 };

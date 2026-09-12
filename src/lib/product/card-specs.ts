@@ -1,5 +1,6 @@
 import type { Product } from "@/domain/products/types";
 import { getComparisonCategoryConfig } from "@/lib/comparison/category-config";
+import { formatPublicSpecDisplayLabel } from "@/lib/specs/public-label";
 
 /** Category-aware highlight fields for Product cards */
 export function getProductCardSpecHighlights(
@@ -11,12 +12,7 @@ export function getProductCardSpecHighlights(
   for (const key of keys) {
     const raw = product.specifications[key];
     if (raw === undefined || raw === null || raw === "") continue;
-    const label = key
-      .replace(/([A-Z])/g, " $1")
-      .replace(/^./, (c) => c.toUpperCase())
-      .replace("Mm", " (mm)")
-      .replace("Min", " min")
-      .replace("Max", " max");
+    const label = formatPublicSpecDisplayLabel(key);
     const value = Array.isArray(raw) ? raw.join(", ") : String(raw);
     out.push({ label, value });
   }

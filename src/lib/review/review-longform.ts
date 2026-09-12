@@ -1,6 +1,8 @@
 import type { ContentSection, Review } from "@/domain/editorial/types";
 import type { Brand, Product, SpecValue } from "@/domain/products/types";
 import { getSpecificationDefinitions } from "@/repositories";
+import { skipSentenceFromLimitation } from "@/lib/review/rewrite-uniqueness-era-skip";
+import { formatPublicSpecDisplayLabel } from "@/lib/specs/public-label";
 
 /** Reader-facing length target for a full review page (quality over padding). */
 export const REVIEW_MIN_WORDS = 2500;
@@ -332,7 +334,7 @@ function formatSpecLines(product: Product): string[] {
     if (raw === null || raw === undefined) continue;
     if (Array.isArray(raw) && raw.length === 0) continue;
     const def = defs.find((d) => d.key === key);
-    const label = def?.label ?? key;
+    const label = formatPublicSpecDisplayLabel(key);
     let value: string;
     if (typeof raw === "boolean") value = raw ? "Yes" : "No";
     else if (typeof raw === "number")
@@ -515,7 +517,7 @@ export function buildLongformSectionBody(
           ? `I'd shortlist it when you want ${softList(strengths)}.`
           : `Match it to the sessions you'll use it for most weeks.`,
         weaknesses.length
-          ? `I'd pause if ${softList(weaknesses)} would show up often in your week.`
+          ? skipSentenceFromLimitation(softList(weaknesses))
           : undefined,
         buy.length
           ? `The clearest buyer profile: ${buy.slice(0, 3).join("; ")}.`

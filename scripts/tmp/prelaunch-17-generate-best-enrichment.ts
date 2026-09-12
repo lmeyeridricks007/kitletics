@@ -10,6 +10,7 @@ import { bestGuides } from "@/content/best-guides";
 import { getProductById, getProductsByCategory } from "@/repositories/products";
 import type { BestGuide, BestGuideRecommendation } from "@/domain/editorial/types";
 import type { Product } from "@/domain/products/types";
+import { skipSentenceFromLimitation } from "@/lib/review/rewrite-uniqueness-era-skip";
 
 const OUT = resolve("src/content/running/best-guides-p1-launch-ready.ts");
 const EVIDENCE = "ev-catalog-editorial";
@@ -79,7 +80,7 @@ const CONTEXTS: Record<string, Context> = {
     ],
     avoidGeneric: ["Daily-only mileage shoppers", "Runners who want nylon-plate workout shoes (see tempo guide)"],
     methodologyExtra:
-      "Carbon plateMaterial + race Recommendation contexts. Nylon tempo plates belong in Best Tempo Shoes.",
+      "Carbon plates plus race-day context. Nylon tempo plates belong in Best Tempo Shoes.",
   },
   "max-cushion-running-shoes": {
     job: "maximum soft stack for easy, recovery and protective volume days",
@@ -611,7 +612,7 @@ function buildRecPatch(
   const whyItFits = [
     `${name} fits ${ctx.job} when you need ${strengths[0] ?? rec.summary ?? "a clear role winner in this shortlist"} — judged for this guide’s use case, not as a generic “best shoe/watch.”`,
     `In this context it earns the pick for ${(strengths.slice(0, 2).join(" and ") || rec.rationale || "role clarity against close peers").toLowerCase()}.`,
-    `I'd shortlist it when your weeks match that job. I'd pause if ${weaknesses[0] ? weaknesses[0].toLowerCase() : "you need a different specialty than this award covers"}.`,
+    `I'd shortlist it when your weeks match that job. ${skipSentenceFromLimitation(weaknesses[0] ? weaknesses[0] : "you need a different specialty than this award covers")}`,
   ];
 
   const tradeoffs =

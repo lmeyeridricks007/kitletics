@@ -7,6 +7,7 @@
 import type { Product } from "@/domain/products/types";
 import type { Review } from "@/domain/editorial/types";
 import { publishedMeta } from "@/content/config";
+import { skipSentenceFromLimitation, rewriteUniquenessEraSkipProse } from "@/lib/review/rewrite-uniqueness-era-skip";
 import { NEW_PRICING_OFFERS } from "@/content/offers-pricing-refresh";
 
 const pub = publishedMeta();
@@ -70,8 +71,8 @@ function buildReview(seed: ReviewSeed): Review {
     `Your must-haves conflict with a ${seed.name} trade-off: ${seed.cons[0] ?? seed.pause}`,
     `Your fit, carry, or awareness needs sit outside what this product was built to do`,
   ];
-  const bottomLine = `${seed.job}. I'd shortlist it when you want ${seed.shortlist}. I'd pause if ${seed.pause} shows up often in your week.`;
-  const verdict = `${seed.name} is a ${seed.job}. I'd shortlist it for ${seed.shortlist}. The trade-off is ${seed.pause} — look elsewhere if that is most of your week.`;
+  const bottomLine = `${seed.job}. I'd shortlist it when you want ${seed.shortlist}. ${skipSentenceFromLimitation(seed.pause)}`;
+  const verdict = `${seed.name} is a ${seed.job}. I'd shortlist it for ${seed.shortlist}. The trade-off is ${seed.pause.charAt(0).toLowerCase()}${seed.pause.slice(1)}. ${skipSentenceFromLimitation(seed.pause)}`;
 
   return {
     id,
@@ -92,7 +93,7 @@ function buildReview(seed: ReviewSeed): Review {
       {
         id: "sec-overview",
         heading: "What it is",
-        body: `${seed.job}.\n\n${seed.name} is built for a defined role in the category — use that as your first filter.\n\nI'd shortlist it when you want ${seed.shortlist}.\n\nI'd pause if ${seed.pause} would show up often in your week.\n\nBottom line: ${bottomLine}`,
+        body: `${seed.job}.\n\n${seed.name} is built for a defined role in the category — use that as your first filter.\n\nI'd shortlist it when you want ${seed.shortlist}.\n\n${skipSentenceFromLimitation(seed.pause)}\n\nBottom line: ${bottomLine}`,
         evidenceIds: ["ev-catalog-editorial"],
       },
       {
@@ -1199,7 +1200,7 @@ export function applyGearCoreLaunchReadyEnrichment(
       reviewId: patch.reviewId ?? product.reviewId,
       offerIds: offerIds.length ? offerIds : product.offerIds,
       positioning: patch.positioningLabel,
-      verdict: patch.verdict,
+      verdict: rewriteUniquenessEraSkipProse(patch.verdict),
       seoTitle: patch.seoTitle,
       seoDescription: patch.seoDescription,
       shortDescription: patch.shortDescription ?? product.shortDescription,

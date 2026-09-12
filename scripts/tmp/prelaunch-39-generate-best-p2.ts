@@ -9,6 +9,7 @@ import { writeFileSync } from "node:fs";
 import { join } from "node:path";
 import { getBestGuides } from "@/repositories/editorial";
 import { getProductById } from "@/repositories/products";
+import { skipSentenceFromLimitation } from "@/lib/review/rewrite-uniqueness-era-skip";
 
 const TARGETS = [
   "heart-rate-monitors-hyrox",
@@ -269,7 +270,7 @@ function main(): void {
       const whyItFits = [
         `${name} wins in this guide when ${intent.job.split("—")[0]!.trim()} is the weekly constraint and ${strengths[0]!.toLowerCase()} is the trait you will actually use.`,
         `Against peers on this page, it earns the slot for ${strengths.slice(0, 2).map((s) => s.toLowerCase()).join(" and ")} — reasons that matter for this guide's job, not for a generic “best overall” list.`,
-        `I'd shortlist it when most sessions match that brief. I'd pause if ${weaknesses[0]!.toLowerCase()} shows up every week.`,
+        `I'd shortlist it when most sessions match that brief. ${skipSentenceFromLimitation(weaknesses[0]!)}`,
       ];
 
       const tradeoffs = weaknesses.slice(0, 2).map(

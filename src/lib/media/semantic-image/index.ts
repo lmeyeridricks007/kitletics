@@ -13,6 +13,7 @@ export {
   inferEditorialTopic,
   isSemanticallyCompatible,
   normalizeSrc,
+  topicSport,
 } from "./subjects";
 export { resolveSemanticImage } from "./resolve";
 export { classifySemanticPlacement, isIndexableSemanticFail } from "./classify";

@@ -15,6 +15,7 @@ import {
 } from "@/lib/review/review-longform";
 import { isReportOrJunkVoice } from "@/lib/review/review-voice";
 import { isConsumerEditorialReady } from "@/lib/review/consumer-copy-quality";
+import { skipSentenceFromLimitation } from "@/lib/review/rewrite-uniqueness-era-skip";
 
 const THIN_PATTERNS =
   /evaluated from verified specs|where independent wear|Documented compromise:|Catalog strengths relevant|stands out in-catalog for|earns consideration when you specifically want:|Documented ride markers|Catalog fit markers|Verified cushioning context|Upper construction markers|Key tech markers|Traction context|Documented strengths|catalogued with|Published measurements and design markers|primary job \(|Outside that brief|inferred from geometry|research-informed guidance|Kitletics frames performance|Standout catalog points|Contextual factor score|Matched recommendation context|assessed from verified specifications/i;
@@ -440,8 +441,8 @@ export function enrichReviewSummary(
       ? `I'd shortlist it if you want ${soft(strengths)}.`
       : `Match it to the sessions you'll use it for most weeks.`,
     weaknesses.length
-      ? `I'd pause if ${soft(weaknesses)} would show up often in your week.`
-      : `Every shoe in this lane trades something away — the sections below spell out where.`,
+      ? skipSentenceFromLimitation(soft(weaknesses))
+      : `Every shoe in this category trades something away — the sections below spell out where.`,
     review.bottomLine?.trim() ||
       review.verdict?.trim() ||
       `Skim fit, ride and value before you buy on brand name alone.`,

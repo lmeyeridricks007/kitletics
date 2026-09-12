@@ -10,6 +10,7 @@ import { join } from "path";
 import { getProducts, getCategoryById } from "@/repositories";
 import { getComparisons } from "@/repositories/editorial";
 import { readFileSync } from "fs";
+import { skipSentenceFromLimitation } from "@/lib/review/rewrite-uniqueness-era-skip";
 
 const PROD = { isDev: false as const };
 const audit = JSON.parse(
@@ -230,7 +231,7 @@ for (const p of products) {
       reviewId: p.reviewId!,
       familyId: p.familyId,
       positioningLabel: "home treadmill",
-      verdict: `Buy the ${name} when ${softLower(job)}. It earns a look for ${shortlist}. Look elsewhere if ${pause}.`,
+      verdict: `Buy the ${name} when ${softLower(job)}. It earns a look for ${shortlist}. ${skipSentenceFromLimitation(pause)}`,
       seoTitle: `${fullName}: Specs, Who It's For & Alternatives | Kitletics`,
       seoDescription: `${fullName} — who it's for, key specs, trade-offs and alternatives for home treadmill training.`,
       shortDescription:
@@ -272,7 +273,7 @@ for (const p of products) {
     reviewId: hasReview ? p.reviewId! : rid,
     familyId: p.familyId,
     positioningLabel: pos,
-    verdict: `Buy the ${name} when ${softLower(job)}. It earns a look for ${shortlist}. Look elsewhere if ${pause}.`,
+    verdict: `Buy the ${name} when ${softLower(job)}. It earns a look for ${shortlist}. ${skipSentenceFromLimitation(pause)}`,
     seoTitle: `${fullName}: Specs, Who It's For & Alternatives | Kitletics`,
     seoDescription: `${fullName} — who it's for, key specs, trade-offs and alternatives.`,
     shortDescription:
@@ -408,8 +409,8 @@ function buildReview(seed: ReviewSeed): Review {
     \`Your must-haves conflict with a \${seed.name} trade-off: \${seed.cons[0] ?? seed.pause}\`,
     \`Your fit, fueling, or carry needs sit outside what this product was built to do\`,
   ];
-  const bottomLine = \`\${seed.job} I'd shortlist it when you want \${seed.shortlist}. I'd pause if \${seed.pause} shows up often in your week.\`;
-  const verdict = \`Buy the \${seed.name} when its main job matches most of your week — not as a default for every session. It earns a look for \${seed.shortlist}. Look elsewhere if \${seed.pause}.\`;
+  const bottomLine = \`\${seed.job} I'd shortlist it when you want \${seed.shortlist}. \${skipSentenceFromLimitation(seed.pause)}\`;
+  const verdict = \`Buy the \${seed.name} when \${seed.job.charAt(0).toLowerCase()}\${seed.job.slice(1)}. It earns a look for \${seed.shortlist}. \${skipSentenceFromLimitation(seed.pause)}\`;
   const specsBody = seed.specLines.length
     ? seed.specLines.map((l) => \`• \${l}\`).join("\\n")
     : "• See the product specifications panel for verified catalog fields";

@@ -52,7 +52,7 @@ const CUSHIONING_BLOCKS: ExplainerBlock[] = [
   {
     id: "cushion-levels",
     type: "comparison-table",
-    title: "How Kitletics uses cushionLevel",
+    title: "How Kitletics uses cushioning",
     intro: "The controlled enum describes the intended amount of cushioning, not a lab score.",
     columns: ["General signal", "Common role", "Important caveat"],
     rows: [
@@ -466,7 +466,7 @@ export const runningShoeCushioningConfig: LongFormGuideConfig = {
     medicalNote:
       "Kitletics describes footwear construction and ride. Cushioning classifications do not diagnose injury or guarantee prevention, recovery or pain relief. Consult a qualified clinician for persistent pain or medical footwear questions.",
     methodologyNote:
-      "This guide uses controlled catalog fields (cushionLevel, cushionFeel, energyReturn, rideCharacter, stack, stability and plate) alongside manufacturer technical descriptions and independent specialist coverage. Product examples render from live catalog data rather than hardcoded prices.",
+      "This guide uses catalog fields for cushioning, cushion feel, energy return, ride character, stack, stability and plate alongside manufacturer technical descriptions and independent specialist coverage. Product examples render from live catalog data rather than hardcoded prices.",
     blocks: [...CUSHIONING_BLOCKS],
   },
 };

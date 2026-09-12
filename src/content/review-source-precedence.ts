@@ -15,6 +15,7 @@
 import type { Review } from "@/domain/editorial/types";
 import { containsPublicContentCorruption } from "@/lib/review/public-content-corruption";
 import { isUnusablePublicEditorial } from "@/lib/review/consumer-copy-quality";
+import { sanitizePublicReview } from "@/lib/review/rewrite-uniqueness-era-skip";
 
 export const REVIEW_SOURCE_KIND = {
   HANDWRITTEN: "handwritten",
@@ -132,7 +133,7 @@ export function selectWinnerForSlug(
   const winner = clean[0] ?? sorted[0]!;
   const corrupted = isUnusablePublicEditorial(winner.review);
   return {
-    review: winner.review,
+    review: sanitizePublicReview(winner.review),
     source: winner.source,
     corrupted,
     classification: classifyWinner(winner, candidates, corrupted),

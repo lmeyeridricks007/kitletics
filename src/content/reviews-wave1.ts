@@ -235,7 +235,7 @@ export const reviewsWave1: Review[] = [
     verdict:
       "Pick Pegasus 42 for mixed easy/tempo weeks. Choose Vomero for more plush or Vaporfly for race day.",
     summary:
-      "Versatile ReactX daily trainer with a full-length Air Zoom unit for mixed-pace road miles. Here's a practical take on the Nike Pegasus 42 — what it's for, who it suits, and when to pick something else. I'd shortlist it if you want true all-rounder, widely available or durable workhorse. I'd pause if not max cushion or higher drop than many modern trainers would show up often in your week. Pegasus 42 is still the do-most-things Nike road shoe — capable, not the softest or the fastest in the line.",
+      "Versatile ReactX daily trainer with a full-length Air Zoom unit for mixed-pace road miles. Here's a practical take on the Nike Pegasus 42 — what it's for, who it suits, and when to pick something else. I'd shortlist it if you want a true all-rounder that is widely available. Skip it if you need max cushion or a higher drop than many modern trainers. Pegasus 42 is still the do-most-things Nike road shoe — capable, not the softest or the fastest in the line.",
     score: 85,
     ride: "Independent and manufacturer materials place Pegasus as a firmer-than-max-cushion daily that can handle easy miles and some faster work. It will not match Vomero’s plush or Endorphin Speed’s snap, but it covers more of a mixed week than either extreme.",
     fit: "Typically true-to-size with a secure heel and familiar Nike last. Width options are more limited than Brooks Ghost. Sockliner and upper updates vary by colourway — try on when possible.",
@@ -434,7 +434,7 @@ export const reviewsWave1: Review[] = [
     verdict:
       "Strong road racing option in Nike’s plated lineup. Alphafly remains the more aggressive top-end alternative.",
     summary:
-      "Lightweight carbon-plated ZoomX road racer for half and marathon race efforts. Here's a practical take on the Nike Vaporfly 4 — what it's for, who it suits, and when to pick something else. I'd shortlist it if you want proven race platform or lighter / sharper than Alphafly for many. I'd pause if not for easy mileage or limited durability would show up often in your week. Vaporfly 4 is a race-day tool — not a daily trainer. Buy it for goal races, not easy miles.",
+      "Lightweight carbon-plated ZoomX road racer for half and marathon race efforts. Here's a practical take on the Nike Vaporfly 4 — what it's for, who it suits, and when to pick something else. I'd shortlist it if you want a proven race platform or a lighter, sharper option than Alphafly for many. Skip it if most of your week is easy recovery miles. Vaporfly 4 is a race-day tool — not a daily trainer. Buy it for goal races, not easy miles.",
     score: 89,
     ride: "Expect aggressive, propulsive race geometry aimed at 5K–marathon road efforts. Soft dailies and workout shoes remain better for most training volume.",
     fit: "Performance race last — often snug. Many runners size carefully for race day. Not built for wide-foot comfort as a priority.",
