@@ -370,7 +370,7 @@ export function computePlatedVsNonPlated(
       id: "plated-vs-non-plated",
       label: "Plated vs non-plated",
       definition:
-        "Compares mean weight, heel stack, drop, offer price and Kitletics score between product models with plate===true vs plate===false. Unknown plate flags are excluded from both cohorts. Carbon-plated count is reported separately (plateMaterial===carbon).",
+        "Compares mean weight, heel stack, drop, offer price and Kitletics score between plated and non-plated product models. Unknown plate flags are excluded from both cohorts. Carbon-plated count is reported separately.",
       unitOfAnalysis: "product-model-with-metric",
       caveat:
         "Averages omit models missing that metric — sampleSize is per metric, not assumed equal to cohort size.",

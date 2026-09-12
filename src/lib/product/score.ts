@@ -31,7 +31,12 @@ export function getScoreBand(score: number): ScoreBandInfo {
 
 /** Product data older than this many days is considered stale for QA. */
 export const PRODUCT_STALE_DAYS = 180;
-/** Offer lastChecked older than this many days is considered stale. */
+/**
+ * Offer lastChecked older than this many days is considered stale for QA badges.
+ * Numeric From-price eligibility is separate: `FRESHNESS_THRESHOLDS_HOURS` in
+ * `src/domain/commerce/ranking.ts` (fresh ≤24h, recent ≤72h, aging ≤168h).
+ * Do not treat this 14-day badge as the From-price display window.
+ */
 export const OFFER_STALE_DAYS = 14;
 
 function daysBetween(iso: string, now = new Date()): number {

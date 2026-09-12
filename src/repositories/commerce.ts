@@ -104,6 +104,29 @@ function isDisplayableOffer(offer: Offer): boolean {
   );
 }
 
+/**
+ * Seed/manual catalog offers track `SEED_DATES.verified` so fixture
+ * lastChecked cannot silently age out of the 72h From-price window.
+ * Live API / feed offers keep their own lastChecked.
+ */
+function applySeedVerifiedClock(offer: Offer): Offer {
+  const source = offer.source ?? "seed";
+  if (
+    source === "api" ||
+    source === "affiliate-feed" ||
+    source === "merchant-feed"
+  ) {
+    return offer;
+  }
+  const seedMs = Date.parse(SEED_DATES.verified);
+  const checkedMs = Date.parse(offer.lastChecked);
+  if (Number.isNaN(seedMs)) return offer;
+  if (Number.isNaN(checkedMs) || checkedMs < seedMs) {
+    return { ...offer, lastChecked: SEED_DATES.verified };
+  }
+  return offer;
+}
+
 /** Seed Amazon NL offers for products that have amzn.to but no Amazon offer yet. */
 function buildAffiliateOnlyOffers(
   existing: Map<string, Offer>,
@@ -163,15 +186,23 @@ function materializeOffers(): Offer[] {
           region: offer.region,
         }
       : offer;
-    byId.set(offer.id, applyUrlValidation(applyAffiliateUrl(merged)));
+    byId.set(
+      offer.id,
+      applyUrlValidation(applyAffiliateUrl(applySeedVerifiedClock(merged))),
+    );
   }
   for (const offer of NEW_PRICING_OFFERS) {
     if (!byId.has(offer.id)) {
-      byId.set(offer.id, applyUrlValidation(applyAffiliateUrl(offer)));
+      byId.set(
+        offer.id,
+        applyUrlValidation(
+          applyAffiliateUrl(applySeedVerifiedClock(offer)),
+        ),
+      );
     }
   }
   for (const offer of buildAffiliateOnlyOffers(byId)) {
-    byId.set(offer.id, applyUrlValidation(offer));
+    byId.set(offer.id, applyUrlValidation(applySeedVerifiedClock(offer)));
   }
   return [...byId.values()];
 }

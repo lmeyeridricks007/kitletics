@@ -16,8 +16,10 @@ export const SEED_DATES = {
   /**
    * Keep within commercial display window (≤72h = recent).
    * Bump when seed offers would otherwise age out of UI.
+   * Fixture lastChecked for seed/manual offers is lifted to this clock
+   * in materializeOffers — do not widen FRESHNESS_THRESHOLDS_HOURS.
    */
-  verified: "2026-09-09T06:04:57.161Z",
+  verified: "2026-09-12T17:00:00.000Z",
   scheduledFuture: "2027-06-01T10:00:00.000Z",
 } as const;
 

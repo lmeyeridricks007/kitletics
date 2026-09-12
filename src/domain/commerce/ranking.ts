@@ -159,6 +159,40 @@ export function shouldDisplayNumericPrice(offer: Offer, now = new Date()): boole
   return band === "fresh" || band === "recent";
 }
 
+/** Current price plus known shipping — used only to compare eligible From-prices. */
+export function offerEffectivePrice(offer: Offer): number {
+  return offer.price + (offer.shippingCost ?? 0);
+}
+
+/**
+ * From-price: the lowest currently eligible regional offer.
+ *
+ * Eligible means active, not out-of-stock, and fresh/recent
+ * (`shouldDisplayNumericPrice`). Ranking, retailer trust, and affiliate
+ * commission are not used. Callers must already scope offers to one region.
+ */
+export function pickLowestDisplayableOffer(
+  offers: Offer[],
+  now = new Date(),
+  region?: RegionCode,
+): Offer | undefined {
+  const scoped = region ? offers.filter((o) => o.region === region) : offers;
+  let lowest: Offer | undefined;
+  for (const offer of scoped) {
+    if (!shouldDisplayNumericPrice(offer, now)) continue;
+    if (!lowest) {
+      lowest = offer;
+      continue;
+    }
+    const next = offerEffectivePrice(offer);
+    const current = offerEffectivePrice(lowest);
+    if (next < current || (next === current && offer.price < lowest.price)) {
+      lowest = offer;
+    }
+  }
+  return lowest;
+}
+
 export function deriveDiscountPercent(offer: Offer): number | undefined {
   if (offer.originalPrice == null || offer.originalPrice <= offer.price) {
     return undefined;
@@ -180,18 +214,22 @@ export function buildPriceSummary(
   const inStock = regional.filter(
     (o) => o.availability === "in-stock" || o.availability === "low-stock",
   );
-  const displayable = best && shouldDisplayNumericPrice(best) ? best : undefined;
+  const fromOffer = pickLowestDisplayableOffer(regional);
 
   return {
-    lowestPrice: displayable?.price,
+    lowestPrice: fromOffer?.price,
     currency:
-      displayable?.currency ??
+      fromOffer?.currency ??
       regional[0]?.currency ??
       REGION_META[region].currency,
     offerCount: regional.length,
     inStockCount: inStock.length,
-    lastChecked: best?.lastChecked,
-    freshness: best ? getOfferFreshness(best.lastChecked) : undefined,
+    lastChecked: fromOffer?.lastChecked ?? best?.lastChecked,
+    freshness: fromOffer
+      ? getOfferFreshness(fromOffer.lastChecked)
+      : best
+        ? getOfferFreshness(best.lastChecked)
+        : undefined,
     hasAffiliateOffers: regional.some(hasActiveAffiliateProgram),
     bestOfferId: best?.id,
   };

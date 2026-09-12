@@ -21,12 +21,8 @@ import type {
 } from "@/domain/products/types";
 import type { RegionCode } from "@/domain/shared/types";
 import { DEFAULT_REGION } from "@/domain/shared/types";
-import type { Retailer } from "@/domain/commerce/types";
-import {
-  getBestOffer,
-  shouldDisplayNumericPrice,
-} from "@/domain/commerce/ranking";
-import { getOffersForProduct, getRetailerById } from "@/repositories/commerce";
+import { pickLowestDisplayableOffer } from "@/domain/commerce/ranking";
+import { getOffersForProduct } from "@/repositories/commerce";
 import {
   resolveRunningProductImages,
   resolveRunningCatalogImages,
@@ -210,12 +206,7 @@ export function getLowestOfferPrice(
   if (!product) return undefined;
   const r = region ?? DEFAULT_REGION;
   const offers = getOffersForProduct(product.id, r);
-  const retailersById = new Map<string, Retailer>();
-  for (const offer of offers) {
-    const ret = getRetailerById(offer.retailerId);
-    if (ret) retailersById.set(ret.id, ret);
-  }
-  const best = getBestOffer(offers, retailersById);
-  if (!best || !shouldDisplayNumericPrice(best)) return undefined;
-  return { price: best.price, currency: best.currency, offerId: best.id };
+  const lowest = pickLowestDisplayableOffer(offers, new Date(), r);
+  if (!lowest) return undefined;
+  return { price: lowest.price, currency: lowest.currency, offerId: lowest.id };
 }

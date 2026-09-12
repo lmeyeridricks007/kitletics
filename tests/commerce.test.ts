@@ -5,6 +5,7 @@ import {
   shouldDisplayNumericPrice,
   getOfferFreshness,
   DEFAULT_OFFER_RANKING,
+  pickLowestDisplayableOffer,
 } from "@/domain/commerce/ranking";
 import {
   resolveCommercialUrl,
@@ -100,6 +101,23 @@ describe("Offer ranking — no commission influence", () => {
 
   it("DEFAULT_OFFER_RANKING has no commissionWeight key", () => {
     expect("commissionWeight" in DEFAULT_OFFER_RANKING).toBe(false);
+  });
+
+  it("From-price ignores affiliate URLs and still picks the cheaper offer", () => {
+    const offers = [
+      offer({
+        id: "o-aff-140",
+        retailerId: "ret-pricey-aff",
+        price: 140,
+        affiliateUrl: "https://www.affiliate-shop.test/aff?tag=x",
+      }),
+      offer({
+        id: "o-cheap-120",
+        retailerId: "ret-cheap-nofill",
+        price: 120,
+      }),
+    ];
+    expect(pickLowestDisplayableOffer(offers)?.id).toBe("o-cheap-120");
   });
 
   it("seed Novablast 6 NL: cheaper Runner's World Shop beats Amazon when both in-stock", () => {
