@@ -26,7 +26,7 @@ export function GuidesJournalRow({
                   <div className="relative aspect-[4/3] overflow-hidden rounded-lg bg-surface-muted">
                     <Image
                       src={guide.imageSrc}
-                      alt=""
+                      alt={guide.imageAlt}
                       fill
                       sizes="(max-width: 640px) 100vw, 33vw"
                       className="object-cover transition-transform duration-500 group-hover:scale-[1.03]"
@@ -58,7 +58,7 @@ export function GuidesJournalRow({
                     <div className="relative size-[72px] shrink-0 overflow-hidden rounded-md bg-surface-muted">
                       <Image
                         src={item.imageSrc}
-                        alt=""
+                        alt={item.imageAlt}
                         fill
                         sizes="72px"
                         className="object-cover"

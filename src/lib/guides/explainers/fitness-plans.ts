@@ -46,7 +46,7 @@ interface FitnessPlanSeed {
 }
 
 const HOME_GYM_HERO = "/images/home/guide-home-gym.jpg";
-const CHOOSING_HERO = "/images/home/guide-how-to-choose.jpg";
+const CHOOSING_HERO = "/images/home/guide-home-gym.jpg";
 const SHOE_HERO = "/images/home/guide-running-shoes.jpg";
 
 const seeds: FitnessPlanSeed[] = [

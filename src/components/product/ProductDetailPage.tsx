@@ -512,11 +512,7 @@ export function ProductDetailPage({ data }: { data: ProductPageData }) {
                   <div className="flex items-baseline justify-between gap-4 py-2 text-[13px]">
                     <dt className="text-muted">Best for</dt>
                     <dd className="text-right font-medium text-foreground">
-                      {recommendations
-                        .filter((r) => r.recommendation.score >= 85)
-                        .slice(0, 2)
-                        .map((r) => r.label)
-                        .join(", ") || bestFor[0]}
+                      {bestFor[0].replace(/\.$/, "")}
                     </dd>
                   </div>
                 )}

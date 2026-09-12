@@ -1,0 +1,189 @@
+{
+  "generatedAt": "2026-09-11T16:09:40.880Z",
+  "populationSize": 85,
+  "statusCounts": {
+    "VALID": 83,
+    "PARTIAL": 0,
+    "SUSPECT": 2,
+    "INVALID": 0
+  },
+  "fieldCoverage": [
+    {
+      "field": "brand",
+      "present": 85,
+      "valid": 85,
+      "absent": 0,
+      "suspect": 0,
+      "invalid": 0,
+      "coveragePresent": 1,
+      "coverageValid": 1
+    },
+    {
+      "field": "model",
+      "present": 85,
+      "valid": 85,
+      "absent": 0,
+      "suspect": 0,
+      "invalid": 0,
+      "coveragePresent": 1,
+      "coverageValid": 1
+    },
+    {
+      "field": "primaryImage",
+      "present": 85,
+      "valid": 85,
+      "absent": 0,
+      "suspect": 0,
+      "invalid": 0,
+      "coveragePresent": 1,
+      "coverageValid": 1
+    },
+    {
+      "field": "primaryUse",
+      "present": 85,
+      "valid": 85,
+      "absent": 0,
+      "suspect": 0,
+      "invalid": 0,
+      "coveragePresent": 1,
+      "coverageValid": 1
+    },
+    {
+      "field": "gender",
+      "present": 85,
+      "valid": 85,
+      "absent": 0,
+      "suspect": 0,
+      "invalid": 0,
+      "coveragePresent": 1,
+      "coverageValid": 1
+    },
+    {
+      "field": "weight",
+      "present": 85,
+      "valid": 85,
+      "absent": 0,
+      "suspect": 0,
+      "invalid": 0,
+      "coveragePresent": 1,
+      "coverageValid": 1
+    },
+    {
+      "field": "drop",
+      "present": 85,
+      "valid": 83,
+      "absent": 0,
+      "suspect": 2,
+      "invalid": 0,
+      "coveragePresent": 1,
+      "coverageValid": 0.9764705882352941
+    },
+    {
+      "field": "heelStack",
+      "present": 85,
+      "valid": 83,
+      "absent": 0,
+      "suspect": 2,
+      "invalid": 0,
+      "coveragePresent": 1,
+      "coverageValid": 0.9764705882352941
+    },
+    {
+      "field": "forefootStack",
+      "present": 85,
+      "valid": 83,
+      "absent": 0,
+      "suspect": 2,
+      "invalid": 0,
+      "coveragePresent": 1,
+      "coverageValid": 0.9764705882352941
+    },
+    {
+      "field": "price",
+      "present": 85,
+      "valid": 85,
+      "absent": 0,
+      "suspect": 0,
+      "invalid": 0,
+      "coveragePresent": 1,
+      "coverageValid": 1
+    },
+    {
+      "field": "releaseYear",
+      "present": 2,
+      "valid": 2,
+      "absent": 83,
+      "suspect": 0,
+      "invalid": 0,
+      "coveragePresent": 0.023529411764705882,
+      "coverageValid": 0.023529411764705882
+    },
+    {
+      "field": "surface",
+      "present": 74,
+      "valid": 74,
+      "absent": 11,
+      "suspect": 0,
+      "invalid": 0,
+      "coveragePresent": 0.8705882352941177,
+      "coverageValid": 0.8705882352941177
+    },
+    {
+      "field": "plate",
+      "present": 85,
+      "valid": 85,
+      "absent": 0,
+      "suspect": 0,
+      "invalid": 0,
+      "coveragePresent": 1,
+      "coverageValid": 1
+    }
+  ],
+  "validMetricSamples": {
+    "weight": 85,
+    "drop": 83,
+    "heelStack": 83,
+    "forefootStack": 83,
+    "price": 85,
+    "plate": 85
+  },
+  "suspectRecords": [
+    {
+      "slug": "saucony-xodus-ultra-3",
+      "brandSlug": "saucony",
+      "codes": [
+        "drop_stack_soft_mismatch"
+      ]
+    },
+    {
+      "slug": "topo-athletic-terraventure-5",
+      "brandSlug": "topo-athletic",
+      "codes": [
+        "drop_stack_soft_mismatch"
+      ]
+    }
+  ],
+  "invalidRecords": [],
+  "statisticsAffected": [
+    "marketInsights.averageWeightByBrand",
+    "marketInsights.averageOfferPriceByBrand",
+    "marketInsights.lightestDailyTrainers",
+    "marketInsights.highestStackShoes",
+    "marketInsights.lowestDropTrainers",
+    "marketInsights.bestValueUnderPrice (price + valueScore path)",
+    "marketInsights.platedVsNonPlated",
+    "marketInsights.summary averages (weight/drop/stack/price)",
+    "dataExplorer.weightDistribution",
+    "dataExplorer.dropDistribution",
+    "dataExplorer.stackDistribution",
+    "dataExplorer.priceDistribution",
+    "dataExplorer.brandAverage charts",
+    "pageInsights.avgWeightG / avgDropMm / avgHeelStackMm"
+  ],
+  "gate": {
+    "failOnInvalid": true,
+    "invalidCount": 0,
+    "suspectCount": 2,
+    "passed": true
+  }
+}

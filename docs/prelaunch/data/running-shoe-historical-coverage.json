@@ -1,0 +1,317 @@
+{
+  "generatedAt": "2026-09-11T15:33:22.902Z",
+  "populationSize": 85,
+  "fields": [
+    {
+      "field": "release year",
+      "source": "Product.releaseDate → year",
+      "present": 2,
+      "coverage": 0.023529411764705882,
+      "publicTrendReady": false,
+      "notes": "Do not invent from generation label or product name"
+    },
+    {
+      "field": "generation",
+      "source": "Product.generation",
+      "present": 85,
+      "coverage": 1,
+      "publicTrendReady": false,
+      "notes": "Label only — not comparable across brands as a time axis"
+    },
+    {
+      "field": "product family",
+      "source": "Product.familyId",
+      "present": 61,
+      "coverage": 0.7176470588235294,
+      "publicTrendReady": false,
+      "notes": "12 multi-member families; 1 with multiple verified years"
+    },
+    {
+      "field": "launch price",
+      "source": "(none)",
+      "present": 0,
+      "coverage": 0,
+      "publicTrendReady": false,
+      "notes": "No canonical launchPrice — never use offer price"
+    },
+    {
+      "field": "weight",
+      "source": "specifications.weight",
+      "present": 85,
+      "coverage": 1,
+      "publicTrendReady": false,
+      "notes": "Current-model observation; year-trend blocked by release-year gap"
+    },
+    {
+      "field": "heel stack",
+      "source": "specifications.heelStack",
+      "present": 85,
+      "coverage": 1,
+      "publicTrendReady": false,
+      "notes": "Current-model observation; year-trend blocked by release-year gap"
+    },
+    {
+      "field": "forefoot stack",
+      "source": "specifications.forefootStack",
+      "present": 85,
+      "coverage": 1,
+      "publicTrendReady": false,
+      "notes": "Current-model observation; year-trend blocked by release-year gap"
+    },
+    {
+      "field": "drop",
+      "source": "specifications.drop",
+      "present": 85,
+      "coverage": 1,
+      "publicTrendReady": false,
+      "notes": "Current-model observation; year-trend blocked by release-year gap"
+    },
+    {
+      "field": "plate status",
+      "source": "specifications.plate",
+      "present": 85,
+      "coverage": 1,
+      "publicTrendReady": false,
+      "notes": "Current-model observation; year-trend blocked by release-year gap"
+    },
+    {
+      "field": "primary use",
+      "source": "Product.useCaseIds",
+      "present": 85,
+      "coverage": 1,
+      "publicTrendReady": false,
+      "notes": "Taxonomy on current SKUs"
+    }
+  ],
+  "releaseYearDistribution": {
+    "2024": 1,
+    "2026": 1
+  },
+  "families": {
+    "unique": 47,
+    "multiMember": 12,
+    "multiMemberWithMultipleYears": 1
+  },
+  "generationRelationshipsAmongShoes": 0,
+  "readiness": {
+    "evidenceReady": false,
+    "assessedAt": "2026-09-11T15:33:22.902Z",
+    "populationSize": 85,
+    "datedObservationCount": 2,
+    "distinctReleaseYears": 2,
+    "launchPriceObservationCount": 0,
+    "familyMultiYearCount": 1,
+    "generationRelationshipCount": 0,
+    "blockers": [
+      "Release-year coverage 2.4% < 35% of eligible population",
+      "Only 2 distinct release year(s); need ≥5",
+      "Only 2 dated observations with medianWeightG; need ≥60",
+      "Year(s) below n=12: 2024(n=1), 2026(n=1)",
+      "Only 1 brand(s) in dated medianWeightG sample; need ≥5",
+      "Brand concentration >40% in year(s): 2024(100%), 2026(100%)",
+      "Only 2 dated observations with medianHeelStackMm; need ≥60",
+      "Only 1 brand(s) in dated medianHeelStackMm sample; need ≥5",
+      "Only 2 dated observations with medianDropMm; need ≥60",
+      "Only 1 brand(s) in dated medianDropMm sample; need ≥5",
+      "Only 0 distinct release year(s); need ≥5",
+      "Only 0 dated observations with medianLaunchPriceEur; need ≥60",
+      "Only 0 brand(s) in dated medianLaunchPriceEur sample; need ≥5",
+      "No canonical launchPrice/MSRP field — offer prices must not proxy launch price",
+      "Only 2 dated observations with platedShare; need ≥60",
+      "Only 1 brand(s) in dated platedShare sample; need ≥5",
+      "No previous/next-generation product relationships among eligible shoes — family lineage graph is empty"
+    ],
+    "trends": [
+      {
+        "metric": "medianWeightG",
+        "eligible": false,
+        "blockers": [
+          "Release-year coverage 2.4% < 35% of eligible population",
+          "Only 2 distinct release year(s); need ≥5",
+          "Only 2 dated observations with medianWeightG; need ≥60",
+          "Year(s) below n=12: 2024(n=1), 2026(n=1)",
+          "Only 1 brand(s) in dated medianWeightG sample; need ≥5",
+          "Brand concentration >40% in year(s): 2024(100%), 2026(100%)"
+        ],
+        "years": [
+          {
+            "year": 2024,
+            "sampleSize": 1,
+            "coverage": 1,
+            "brandCount": 1,
+            "maxBrandShare": 1,
+            "brands": [
+              {
+                "brandSlug": "asics",
+                "brandName": "ASICS",
+                "count": 1
+              }
+            ]
+          },
+          {
+            "year": 2026,
+            "sampleSize": 1,
+            "coverage": 1,
+            "brandCount": 1,
+            "maxBrandShare": 1,
+            "brands": [
+              {
+                "brandSlug": "asics",
+                "brandName": "ASICS",
+                "count": 1
+              }
+            ]
+          }
+        ],
+        "series": null
+      },
+      {
+        "metric": "medianHeelStackMm",
+        "eligible": false,
+        "blockers": [
+          "Release-year coverage 2.4% < 35% of eligible population",
+          "Only 2 distinct release year(s); need ≥5",
+          "Only 2 dated observations with medianHeelStackMm; need ≥60",
+          "Year(s) below n=12: 2024(n=1), 2026(n=1)",
+          "Only 1 brand(s) in dated medianHeelStackMm sample; need ≥5",
+          "Brand concentration >40% in year(s): 2024(100%), 2026(100%)"
+        ],
+        "years": [
+          {
+            "year": 2024,
+            "sampleSize": 1,
+            "coverage": 1,
+            "brandCount": 1,
+            "maxBrandShare": 1,
+            "brands": [
+              {
+                "brandSlug": "asics",
+                "brandName": "ASICS",
+                "count": 1
+              }
+            ]
+          },
+          {
+            "year": 2026,
+            "sampleSize": 1,
+            "coverage": 1,
+            "brandCount": 1,
+            "maxBrandShare": 1,
+            "brands": [
+              {
+                "brandSlug": "asics",
+                "brandName": "ASICS",
+                "count": 1
+              }
+            ]
+          }
+        ],
+        "series": null
+      },
+      {
+        "metric": "medianDropMm",
+        "eligible": false,
+        "blockers": [
+          "Release-year coverage 2.4% < 35% of eligible population",
+          "Only 2 distinct release year(s); need ≥5",
+          "Only 2 dated observations with medianDropMm; need ≥60",
+          "Year(s) below n=12: 2024(n=1), 2026(n=1)",
+          "Only 1 brand(s) in dated medianDropMm sample; need ≥5",
+          "Brand concentration >40% in year(s): 2024(100%), 2026(100%)"
+        ],
+        "years": [
+          {
+            "year": 2024,
+            "sampleSize": 1,
+            "coverage": 1,
+            "brandCount": 1,
+            "maxBrandShare": 1,
+            "brands": [
+              {
+                "brandSlug": "asics",
+                "brandName": "ASICS",
+                "count": 1
+              }
+            ]
+          },
+          {
+            "year": 2026,
+            "sampleSize": 1,
+            "coverage": 1,
+            "brandCount": 1,
+            "maxBrandShare": 1,
+            "brands": [
+              {
+                "brandSlug": "asics",
+                "brandName": "ASICS",
+                "count": 1
+              }
+            ]
+          }
+        ],
+        "series": null
+      },
+      {
+        "metric": "medianLaunchPriceEur",
+        "eligible": false,
+        "blockers": [
+          "Release-year coverage 2.4% < 35% of eligible population",
+          "Only 0 distinct release year(s); need ≥5",
+          "Only 0 dated observations with medianLaunchPriceEur; need ≥60",
+          "Only 0 brand(s) in dated medianLaunchPriceEur sample; need ≥5",
+          "No canonical launchPrice/MSRP field — offer prices must not proxy launch price"
+        ],
+        "years": [],
+        "series": null
+      },
+      {
+        "metric": "platedShare",
+        "eligible": false,
+        "blockers": [
+          "Release-year coverage 2.4% < 35% of eligible population",
+          "Only 2 distinct release year(s); need ≥5",
+          "Only 2 dated observations with platedShare; need ≥60",
+          "Year(s) below n=12: 2024(n=1), 2026(n=1)",
+          "Only 1 brand(s) in dated platedShare sample; need ≥5",
+          "Brand concentration >40% in year(s): 2024(100%), 2026(100%)"
+        ],
+        "years": [
+          {
+            "year": 2024,
+            "sampleSize": 1,
+            "coverage": 1,
+            "brandCount": 1,
+            "maxBrandShare": 1,
+            "brands": [
+              {
+                "brandSlug": "asics",
+                "brandName": "ASICS",
+                "count": 1
+              }
+            ]
+          },
+          {
+            "year": 2026,
+            "sampleSize": 1,
+            "coverage": 1,
+            "brandCount": 1,
+            "maxBrandShare": 1,
+            "brands": [
+              {
+                "brandSlug": "asics",
+                "brandName": "ASICS",
+                "count": 1
+              }
+            ]
+          }
+        ],
+        "series": null
+      }
+    ],
+    "publicStatus": {
+      "kind": "not-ready",
+      "headline": "Historical market trends are not evidence-ready",
+      "summary": "Kitletics will not publish “how running shoes have changed” charts until release-year coverage, per-year samples, brand diversity, and (for price) launch/MSRP fields meet published thresholds. Current catalog specs describe today’s models — they are not a backfilled history."
+    }
+  }
+}

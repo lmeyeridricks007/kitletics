@@ -22,6 +22,7 @@ export function BuyingGuideDetailPage({ data }: { data: BuyingGuidePageData }) {
     bestGuides,
     tools,
     faqs,
+    shoeDatabaseLink,
   } = data;
 
   return (
@@ -147,6 +148,23 @@ export function BuyingGuideDetailPage({ data }: { data: BuyingGuidePageData }) {
             </p>
             <ButtonLink href={`/tools/${tools[0].slug}`} className="mt-4">
               {tools[0].name}
+            </ButtonLink>
+          </section>
+        )}
+
+        {shoeDatabaseLink && (
+          <section className="mt-14 border border-border bg-[#f5f6f7] p-5 sm:p-6">
+            <p className="text-[11px] font-bold tracking-[0.14em] text-muted uppercase">
+              Specs across the market
+            </p>
+            <h2 className="mt-1 font-display text-xl font-semibold">
+              {shoeDatabaseLink.label}
+            </h2>
+            <p className="mt-2 max-w-2xl text-[14px] leading-relaxed text-muted">
+              {shoeDatabaseLink.description}
+            </p>
+            <ButtonLink href={shoeDatabaseLink.href} className="mt-4" variant="outline">
+              Open {shoeDatabaseLink.label}
             </ButtonLink>
           </section>
         )}

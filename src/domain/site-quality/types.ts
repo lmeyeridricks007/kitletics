@@ -43,7 +43,8 @@ export type IssueArea =
   | "privacy"
   | "redirects"
   | "freshness"
-  | "launch";
+  | "launch"
+  | "rendered-quality";
 
 export type IssueOwner =
   | "Engineering"

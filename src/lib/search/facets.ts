@@ -3,8 +3,13 @@ import type { RegionCode } from "@/domain/shared/types";
 import {
   getOffersForProductInRegion,
   getLowestOfferPrice,
+  getBuyingGuideBySlug,
+  getBestGuideBySlug,
 } from "@/repositories";
 import type { PublishResolverOptions } from "@/lib/publishing/resolver";
+import { resolveGuideImage } from "@/lib/guides/resolve-guide-image";
+import { resolveBestGuideImage } from "@/lib/best/resolve-best-guide-image";
+import { resolveSemanticImage } from "@/lib/media/semantic-image";
 
 export interface SearchFeatureFacet {
   id: string;
@@ -283,68 +288,22 @@ export function productMatchesPrice(
   return true;
 }
 
-/** Editorial guide imagery keyed by slug / title keywords — real assets only. */
-const GUIDE_IMAGE_BY_SLUG: Record<string, string> = {
-  "how-to-choose-running-shoes": "/images/home/guide-how-to-choose.jpg",
-  "what-is-a-daily-trainer": "/images/running/guides/daily-vs-long.jpg",
-  "running-shoe-cushioning": "/images/running/category/use-recovery.jpg",
-  "running-shoe-rotation": "/images/running/category/use-tempo.jpg",
-  "running-shoe-drop": "/images/running/category/use-daily.jpg",
-  "carbon-vs-nylon-plates": "/images/running/category/hero-race.jpg",
-  "carbon-plated-running-shoes": "/images/running/category/hero-race.jpg",
-  "best-carbon-plated-running-shoes": "/images/running/category/hero-race.jpg",
-  "running-shoes": "/images/home/guide-running-shoes.jpg",
-  "best-running-shoes": "/images/home/guide-running-shoes.jpg",
-  "best-running-shoes-2026": "/images/home/guide-running-shoes.jpg",
-  "marathon-shoes": "/images/running/category/use-long.jpg",
-  "best-marathon-shoes": "/images/running/category/use-long.jpg",
-  "best-marathon-running-shoes": "/images/running/category/use-long.jpg",
-  "max-cushion-running-shoes": "/images/running/category/use-recovery.jpg",
-  "best-max-cushion-running-shoes": "/images/running/category/use-recovery.jpg",
-  "race-shoes": "/images/running/category/use-race.jpg",
-  "best-race-shoes": "/images/running/category/use-race.jpg",
-  "best-race-running-shoes": "/images/running/category/use-race.jpg",
-  "best-daily-trainers": "/images/running/category/use-daily.jpg",
-  "best-tempo-running-shoes": "/images/running/category/use-tempo.jpg",
-  "best-trail-running-shoes": "/images/running/category/hero-trail.jpg",
-  "best-stability-running-shoes": "/images/running/category/hero-stability.jpg",
-  "best-beginner-running-shoes": "/images/running/category/use-daily.jpg",
-  "home-gym": "/images/home/guide-home-gym.jpg",
-  tennis: "/images/home/guide-tennis.jpg",
-  padel: "/images/padel/guides/choose-racket.jpg",
-};
-
 export function resolveGuideImageSrc(input: {
   slug: string;
   title: string;
   type?: string;
 }): string {
-  const slug = input.slug.toLowerCase().replace(/^best-/, "");
-  const full = input.slug.toLowerCase();
-  if (GUIDE_IMAGE_BY_SLUG[full]) return GUIDE_IMAGE_BY_SLUG[full]!;
-  if (GUIDE_IMAGE_BY_SLUG[slug]) return GUIDE_IMAGE_BY_SLUG[slug]!;
-  if (GUIDE_IMAGE_BY_SLUG[`best-${slug}`])
-    return GUIDE_IMAGE_BY_SLUG[`best-${slug}`]!;
+  const buying = getBuyingGuideBySlug(input.slug);
+  if (buying) return resolveGuideImage(buying).src;
 
-  const t = `${input.title} ${full}`.toLowerCase();
-  if (/trail/.test(t)) return "/images/running/category/hero-trail.jpg";
-  if (/carbon|plated|super shoe/.test(t))
-    return "/images/running/category/hero-race.jpg";
-  if (/marathon|long/.test(t)) return "/images/running/category/use-long.jpg";
-  if (/max.?cushion|cushion|recovery/.test(t))
-    return "/images/running/category/use-recovery.jpg";
-  if (/tempo|speed/.test(t)) return "/images/running/category/use-tempo.jpg";
-  if (/stability/.test(t)) return "/images/running/category/hero-stability.jpg";
-  if (/race/.test(t)) return "/images/running/category/use-race.jpg";
-  if (/choose|how to|buying/.test(t))
-    return "/images/home/guide-how-to-choose.jpg";
-  if (/daily|trainer/.test(t)) return "/images/running/category/use-daily.jpg";
-  if (/padel/.test(t)) return "/images/padel/guides/choose-racket.jpg";
-  if (/tennis/.test(t)) return "/images/home/guide-tennis.jpg";
-  if (/gym|rack|strength/.test(t)) return "/images/home/guide-home-gym.jpg";
-  if (/running|shoe/.test(t)) return "/images/home/guide-running-shoes.jpg";
+  const best = getBestGuideBySlug(input.slug) ??
+    getBestGuideBySlug(input.slug.replace(/^best-/, ""));
+  if (best) return resolveBestGuideImage(best).src;
 
-  return input.type === "best-guide"
-    ? "/images/home/guide-running-shoes.jpg"
-    : "/images/home/guide-how-to-choose.jpg";
+  return resolveSemanticImage({
+    pageType: "search",
+    placement: "card",
+    slug: input.slug,
+    title: input.title,
+  }).src;
 }

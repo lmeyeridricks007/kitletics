@@ -77,6 +77,11 @@ import type { Offer } from "@/domain/commerce/types";
 import { getPrimaryProductMedia } from "@/lib/product/media";
 import type { MediaAsset } from "@/domain/shared/types";
 import { enrichReviewForPage } from "@/lib/review/enrich-review-for-page";
+import { containsPublicContentCorruption } from "@/lib/review/public-content-corruption";
+import {
+  resolveDecisionCopyForProduct,
+  type CanonicalDecisionCopy,
+} from "@/lib/decision-copy";
 
 export { REVIEW_TYPE_META, PRODUCT_SOURCE_LABELS };
 
@@ -206,6 +211,8 @@ export interface ReviewPageData {
    * Never claims a tested last unless first-hand evidence exists.
    */
   fitSizingDisclosure?: string;
+  /** Canonical Best For / Buy If / Skip If — two registers, one source. */
+  decisionCopy: CanonicalDecisionCopy;
 }
 
 function formatSpec(
@@ -255,6 +262,7 @@ function buildGlanceRows(
   review: Review,
   config: ReviewPageCategoryConfig,
   defs: ReturnType<typeof getSpecificationDefinitions>,
+  bestFor: string[],
 ): GlanceRow[] {
   const rows: GlanceRow[] = [];
   const heel = formatSpec("heelStack", product, defs);
@@ -277,11 +285,11 @@ function buildGlanceRows(
       value: formatGlanceValue(row),
     });
   }
-  if (review.whoShouldBuy[0]) {
+  if (bestFor[0]) {
     rows.push({
       key: "best-for",
       label: "Best for",
-      items: review.whoShouldBuy.slice(0, 3).map(glanceAudienceLine),
+      items: bestFor.slice(0, 3).map(glanceAudienceLine),
     });
   }
   const stability = formatSpec("stability", product, defs);
@@ -447,6 +455,7 @@ export function getReviewPageData(
   const region = options?.region ?? DEFAULT_REGION;
   const review = getReviewBySlug(slug, options);
   if (!review) return undefined;
+  if (containsPublicContentCorruption(review)) return undefined;
 
   const product = getProductById(review.productId, options);
   if (!product) return undefined;
@@ -457,6 +466,7 @@ export function getReviewPageData(
     brand,
     productHero: heroImage,
   });
+  if (containsPublicContentCorruption(enrichedReview)) return undefined;
 
   const author = getAuthorById(
     enrichedReview.reviewerId ?? "author-kitletics-editorial",
@@ -512,7 +522,17 @@ export function getReviewPageData(
   const keySpecs = config.keySpecKeys
     .map((key) => formatSpec(key, product, defs))
     .filter((r): r is SpecDisplayRow => Boolean(r));
-  const glanceRows = buildGlanceRows(product, enrichedReview, config, defs);
+  const decisionCopy = resolveDecisionCopyForProduct({
+    product,
+    review: enrichedReview,
+  });
+  const glanceRows = buildGlanceRows(
+    product,
+    enrichedReview,
+    config,
+    defs,
+    decisionCopy.bestFor,
+  );
 
   const regionalOffers = sortOffers(
     graph?.offers ??
@@ -785,6 +805,7 @@ export function getReviewPageData(
     showTestingModule,
     showResearchModule,
     fitSizingDisclosure,
+    decisionCopy,
   };
 }
 

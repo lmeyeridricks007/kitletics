@@ -27,6 +27,9 @@ import type { Review } from "@/domain/editorial/types";
 import { buildCompareHref } from "@/lib/comparison/selection";
 import { rankLabel } from "@/domain/finders/match-bands";
 import { getPrimaryProductMedia } from "@/lib/product/media";
+import { resolveGuideImage } from "@/lib/guides/resolve-guide-image";
+import { resolveBestGuideImage } from "@/lib/best/resolve-best-guide-image";
+import { toSituationLabel } from "@/lib/decision-copy";
 import {
   getFinderUiConfig,
   type FinderUiConfig,
@@ -36,6 +39,10 @@ import {
   resolveFinderSteps,
   type ResolvedFinderStep,
 } from "@/lib/finder/resolve-steps";
+import {
+  shouldLinkShoeDatabaseFromFinder,
+  SHOE_DATABASE_DISCOVERY_LINK,
+} from "@/lib/running-shoe-database/discovery";
 
 export interface FinderResultProductRow {
   evaluation: FinderRunResult["rankedResults"][number];
@@ -83,6 +90,12 @@ export interface FinderResultsPageData {
   overallConfidencePercent: number;
   summaryRows: { key: string; label: string; value: string; icon?: string }[];
   relatedGuides: FinderRelatedGuideCard[];
+  /** Contextual Shoe Database CTA for running shoe finder only */
+  shoeDatabaseLink?: {
+    label: string;
+    href: string;
+    description: string;
+  };
   steps: ResolvedFinderStep[];
   editHref: string;
   restartHref: string;
@@ -193,8 +206,9 @@ export function getFinderResultsData(input: {
       imageAlt: media?.alt || product.fullName,
       summary:
         product.shortDescription?.trim() ||
-        evaluation.strengths[0] ||
-        `${brand?.name ?? ""} ${product.name}`.trim(),
+        (evaluation.strengths[0]
+          ? toSituationLabel(evaluation.strengths[0], "buy", product.name)
+          : `${brand?.name ?? ""} ${product.name}`.trim()),
       alternatives: alts,
     });
   }
@@ -268,7 +282,7 @@ export function getFinderResultsData(input: {
         description:
           guide.shortDescription?.slice(0, 110) ??
           guide.quickAnswer?.slice(0, 110),
-        imageSrc: g.imageSrc,
+        imageSrc: resolveGuideImage(guide).src,
       });
     } else {
       const guide = getBestGuideBySlug(g.slug, input.options);
@@ -278,7 +292,7 @@ export function getFinderResultsData(input: {
         href: `/best/${guide.slug}`,
         description:
           guide.shortDescription?.slice(0, 110) ?? guide.intro?.slice(0, 110),
-        imageSrc: g.imageSrc,
+        imageSrc: resolveBestGuideImage(guide).src,
       });
     }
   }
@@ -331,6 +345,9 @@ export function getFinderResultsData(input: {
     overallConfidencePercent,
     summaryRows,
     relatedGuides,
+    shoeDatabaseLink: shouldLinkShoeDatabaseFromFinder(definition.slug)
+      ? SHOE_DATABASE_DISCOVERY_LINK
+      : undefined,
     steps,
     editHref: `/tools/${definition.slug}`,
     restartHref: `/tools/${definition.slug}`,

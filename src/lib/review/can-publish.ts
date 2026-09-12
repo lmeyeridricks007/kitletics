@@ -3,6 +3,16 @@ import type { Evidence } from "@/domain/recommendations/types";
 import type { Product } from "@/domain/products/types";
 import type { Author } from "@/domain/editorial/types";
 import { containsInternalTerminology } from "@/domain/review-agent/validate";
+import { containsPublicContentCorruption } from "@/lib/review/public-content-corruption";
+import {
+  assessConsumerCopyQuality,
+  containsMachineTemplateCopy,
+} from "@/lib/review/consumer-copy-quality";
+import {
+  decisionCopyIsIndexable,
+  listHasBlockedClass,
+  resolveDecisionCopyForProduct,
+} from "@/lib/decision-copy";
 
 export type PublishReviewIssue = {
   code: string;
@@ -96,6 +106,8 @@ export function canPublishReview(input: {
     ...(review.pros ?? []),
     ...(review.cons ?? []),
     ...review.sections.map((s) => `${s.heading} ${s.body}`),
+    ...(review.whoShouldBuy ?? []),
+    ...(review.whoShouldAvoid ?? []),
     review.testingContext ?? "",
   ].join("\n");
   if (containsInternalTerminology(publicText)) {
@@ -103,6 +115,50 @@ export function canPublishReview(input: {
       code: "internal-wording",
       message: "Public copy contains internal agent/prompt terminology",
     });
+  }
+  if (containsPublicContentCorruption(review) || containsPublicContentCorruption(publicText)) {
+    issues.push({
+      code: "public-content-corruption",
+      message:
+        "Public copy contains uniqueness stamps or other machine values that must not ship",
+    });
+  }
+  if (containsMachineTemplateCopy(review) || containsMachineTemplateCopy(publicText)) {
+    issues.push({
+      code: "machine-template-copy",
+      message:
+        "Public copy uses uniqueness-era machine templates that must not ship",
+    });
+  }
+  const copyQa = assessConsumerCopyQuality(review);
+  if (copyQa.thinDecision) {
+    issues.push({
+      code: "decision-bullets",
+      message: "Buy if / Skip if bullets are not readable consumer copy",
+    });
+  }
+  if (copyQa.missingAnalysis) {
+    issues.push({
+      code: "product-specific-analysis",
+      message: "Review lacks meaningful product-specific analysis",
+    });
+  }
+  if (product) {
+    const decision = resolveDecisionCopyForProduct({ product, review });
+    if (
+      !decisionCopyIsIndexable(decision) ||
+      listHasBlockedClass([
+        ...decision.bestFor,
+        ...decision.notIdealFor,
+        ...decision.buyIf,
+        ...decision.skipIf,
+      ])
+    ) {
+      issues.push({
+        code: "decision-copy",
+        message: "Indexable decision copy is MACHINE_LIKE or BROKEN",
+      });
+    }
   }
 
   const hasPersonalTest = evidence.some((e) => e.type === "personal-test");

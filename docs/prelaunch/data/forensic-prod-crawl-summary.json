@@ -1,0 +1,22 @@
+{
+  "crawled": 1167,
+  "http_ok": 1164,
+  "errors": 3,
+  "token_urls": 828,
+  "machine_urls": 226,
+  "elapsed_s": 262.5,
+  "token_by_type": {
+    "authors": 1,
+    "brand": 48,
+    "product": 446,
+    "review": 333
+  },
+  "machine_by_type": {
+    "product": 113,
+    "review": 113
+  },
+  "status_counts": {
+    "200": 1164,
+    "0": 3
+  }
+}

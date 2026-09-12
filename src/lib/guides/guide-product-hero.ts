@@ -7,11 +7,13 @@ import { getPrimaryProductMedia } from "@/lib/product/media";
 
 export function firstAuthenticProductImage(
   productIds: string[] | undefined,
+  categoryId?: string,
 ): { src: string; alt: string } | undefined {
   if (!productIds?.length) return undefined;
-  for (const id of productIds.slice(0, 6)) {
+  for (const id of productIds.slice(0, 8)) {
     const product = getProductById(id);
     if (!product) continue;
+    if (categoryId && product.categoryId !== categoryId) continue;
     const media = getPrimaryProductMedia(product);
     if (media?.src) {
       return { src: media.src, alt: media.alt || product.fullName };

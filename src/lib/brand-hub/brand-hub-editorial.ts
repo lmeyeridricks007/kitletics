@@ -373,16 +373,20 @@ export function toFamilyCards(
 
 /** Category ids → default guide image map */
 export const BRAND_HUB_GUIDE_IMAGES: Record<string, string> = {
-  "how-to-choose-running-shoes": "/images/home/guide-how-to-choose.jpg",
+  "how-to-choose-running-shoes": "/images/home/guide-running-shoes.jpg",
   "what-is-a-daily-trainer": "/images/running/guides/daily-vs-long.jpg",
-  "how-to-choose-running-watch": "/images/brands/heroes/urban-dusk.jpg",
-  "how-to-choose-heart-rate-monitor": "/images/brands/heroes/urban-dusk.jpg",
+  "how-to-choose-running-watch":
+    "/images/watches/products/garmin-forerunner-970-hero.jpg",
+  "how-to-choose-heart-rate-monitor":
+    "/images/hrm/products/polar-h10-hero.png",
   "how-to-choose-running-hydration-vest":
-    "/images/running/category/use-recovery.jpg",
-  "how-to-choose-running-headlamp": "/images/running/category/use-recovery.jpg",
-  "how-to-choose-training-shoes": "/images/home/guide-how-to-choose.jpg",
+    "/images/packs/products/salomon-adv-skin-12-hero.jpg",
+  "how-to-choose-running-headlamp":
+    "/images/headlamps/products/petzl-swift-rl-hero.jpg",
+  "how-to-choose-training-shoes":
+    "/images/training/guides/concepts/cross-training-shoe-gym.jpg",
   "how-to-choose-a-padel-racket": "/images/home/guide-how-to-choose.jpg",
-  "how-to-choose-a-tennis-racket": "/images/home/guide-how-to-choose.jpg",
-  "how-to-build-a-home-gym": "/images/home/guide-how-to-choose.jpg",
-  "how-to-choose-a-power-rack": "/images/home/guide-how-to-choose.jpg",
+  "how-to-choose-a-tennis-racket": "/images/home/guide-tennis.jpg",
+  "how-to-build-a-home-gym": "/images/home/guide-home-gym.jpg",
+  "how-to-choose-a-power-rack": "/images/home/guide-home-gym.jpg",
 };

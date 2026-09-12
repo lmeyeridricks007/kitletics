@@ -70,6 +70,7 @@ export {
   filterSpecificPros,
   isGenericPro,
 } from "@/domain/review-agent/validate";
+export { containsPublicContentCorruption } from "@/lib/review/public-content-corruption";
 export {
   canFeatureProduct,
   assessFeatureReadiness,

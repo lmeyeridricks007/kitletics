@@ -90,16 +90,20 @@ function detectShoeRole(product: Product): string {
   ) {
     return "carbon race shoe";
   }
-  if (/tempo|speed.?day|nylon.?plate|uptempo/.test(hay)) return "tempo trainer";
   if (/stabil|gts|guide.?rail|j-frame|support/.test(hay)) {
     return "stability daily trainer";
   }
   if (/max.?cushion|recovery|soft daily|easy mile/.test(hay)) {
     return "max-cushion daily trainer";
   }
-  if (/daily|trainer/.test(hay) || pos.includes("daily")) {
+  if (
+    /daily trainer|daily road|high-cushion neutral daily/.test(hay) ||
+    pos.includes("daily")
+  ) {
     return "daily trainer";
   }
+  if (/tempo|speed.?day|nylon.?plate|uptempo/.test(hay)) return "tempo trainer";
+  if (/daily|trainer/.test(hay)) return "daily trainer";
   if (pos) return pos;
   return "running shoe";
 }

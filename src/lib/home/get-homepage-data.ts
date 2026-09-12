@@ -26,6 +26,7 @@ import type {
   HomepageData,
   HomepageProductCard,
 } from "@/lib/home/types";
+import { resolveGuideImage } from "@/lib/guides/resolve-guide-image";
 
 /** Curated homepage best strips — Day-1 indexable Running only. */
 const BEST_STRIP_SLUGS: { slug: string; eyebrow: string }[] = [
@@ -38,19 +39,16 @@ const BEST_STRIP_SLUGS: { slug: string; eyebrow: string }[] = [
 const FEATURED_GUIDE_CANDIDATES: {
   slug: string;
   description: string;
-  imageSrc: string;
 }[] = [
   {
     slug: "how-to-choose-running-watch",
     description:
       "Battery, maps, HR accuracy and when a Forerunner beats a Fenix — or a phone.",
-    imageSrc: "/images/home/guide-how-to-choose.jpg",
   },
   {
     slug: "how-to-choose-running-shoes",
     description:
       "Everything you need to know about fit, cushion, use case and more.",
-    imageSrc: "/images/home/guide-running-shoes.jpg",
   },
 ];
 
@@ -66,22 +64,6 @@ const LATEST_GUIDE_SLUGS = [
   "how-to-choose-running-watch",
   "how-to-choose-running-shoes",
   "open-ear-vs-in-ear-running-headphones",
-];
-
-const GUIDE_IMAGES: Record<string, string> = {
-  "how-to-choose-running-shoes": "/images/home/guide-running-shoes.jpg",
-  "how-to-choose-running-watch": "/images/home/guide-how-to-choose.jpg",
-  "how-to-choose-a-padel-racket": "/images/home/guide-tennis.jpg",
-  "how-to-build-a-home-gym": "/images/home/guide-home-gym.jpg",
-  "how-to-choose-adjustable-dumbbells": "/images/home/guide-home-gym.jpg",
-  "open-ear-vs-in-ear-running-headphones":
-    "/images/home/guide-how-to-choose.jpg",
-};
-
-const JOURNAL_IMAGES = [
-  "/images/home/guide-tennis.jpg",
-  "/images/home/guide-how-to-choose.jpg",
-  "/images/home/guide-home-gym.jpg",
 ];
 
 function estimateReadingMinutes(sections: { body: string }[]): number {
@@ -324,18 +306,22 @@ export function getHomepageData(input?: {
       return true;
     })
     .slice(0, 3)
-    .map((g) => ({
-      id: g.id,
-      slug: g.slug,
-      title: g.title,
-      href: `/guides/${g.slug}`,
-      updatedLabel: g.updatedAt
-        ? `Updated ${formatVerifiedDate(g.updatedAt)}`
-        : undefined,
-      imageSrc: GUIDE_IMAGES[g.slug] ?? "/images/home/guide-how-to-choose.jpg",
-    }));
+    .map((g) => {
+      const image = resolveGuideImage(g);
+      return {
+        id: g.id,
+        slug: g.slug,
+        title: g.title,
+        href: `/guides/${g.slug}`,
+        updatedLabel: g.updatedAt
+          ? `Updated ${formatVerifiedDate(g.updatedAt)}`
+          : undefined,
+        imageSrc: image.src,
+        imageAlt: image.alt,
+      };
+    });
 
-  const journalItems = latestGuides.map((g, i) => {
+  const journalItems = latestGuides.map((g) => {
     const full = getBuyingGuideBySlug(g.slug, options);
     return {
       id: `journal-${g.id}`,
@@ -349,7 +335,9 @@ export function getHomepageData(input?: {
           })
         : undefined,
       readingTime: `${estimateReadingMinutes(full?.sections ?? [])} min read`,
-      imageSrc: JOURNAL_IMAGES[i] ?? JOURNAL_IMAGES[0]!,
+      // Same topic image as Latest Buying Guides — never a positional filler list
+      imageSrc: g.imageSrc,
+      imageAlt: g.imageAlt,
     };
   });
 
@@ -389,7 +377,7 @@ export function getHomepageData(input?: {
           description: featuredGuideMeta.description,
           href: `/guides/${featuredGuideMeta.guide.slug}`,
           ctaLabel: "READ THE GUIDE",
-          imageSrc: featuredGuideMeta.imageSrc,
+          imageSrc: resolveGuideImage(featuredGuideMeta.guide).src,
         }
       : undefined,
     comparisons: {

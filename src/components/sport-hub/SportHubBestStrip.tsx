@@ -3,9 +3,13 @@
 import Image from "next/image";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
-import { ChevronDown } from "lucide-react";
+import { useState } from "react";
 import { ProductImageFallback } from "@/components/media/ProductImageFallback";
+import { FinderPreviewSelect } from "@/components/finder/FinderPreviewSelect";
 import { formatPrice } from "@/lib/utils";
+import { runningShoeFinderDefinition } from "@/domain/finders/configs/running-shoe-finder";
+import { encodeFinderShareStateBrowser } from "@/domain/finders/share-state";
+import type { FinderResponses } from "@/domain/finders/types";
 import type {
   SportHubFinderPreview,
   SportHubProductCard,
@@ -81,8 +85,35 @@ function ProductCard({ product }: { product: SportHubProductCard }) {
   );
 }
 
+function defaultsFrom(finder: FinderData): Record<string, string> {
+  return Object.fromEntries(finder.fields.map((f) => [f.name, f.value]));
+}
+
 function InlineFinder({ finder }: { finder: FinderData }) {
   const router = useRouter();
+  const [values, setValues] = useState(() => defaultsFrom(finder));
+  const isShoeFinder = finder.ctaHref.includes("running-shoe-finder");
+
+  function hrefForSubmit(): string {
+    if (isShoeFinder) {
+      const responses: FinderResponses = {};
+      for (const [key, value] of Object.entries(values)) {
+        if (value) responses[key] = value;
+      }
+      const encoded = encodeFinderShareStateBrowser(
+        runningShoeFinderDefinition,
+        responses,
+      );
+      const sep = finder.ctaHref.includes("?") ? "&" : "?";
+      return `${finder.ctaHref}${sep}s=${encodeURIComponent(encoded)}`;
+    }
+    const params = new URLSearchParams();
+    for (const [key, value] of Object.entries(values)) {
+      if (value) params.set(key, value);
+    }
+    const qs = params.toString();
+    return qs ? `${finder.ctaHref}?${qs}` : finder.ctaHref;
+  }
 
   return (
     <aside className="rounded-xl bg-[#0e2a2a] p-5 text-white sm:p-6">
@@ -97,33 +128,18 @@ function InlineFinder({ finder }: { finder: FinderData }) {
         className="mt-5 grid grid-cols-2 gap-3"
         onSubmit={(e) => {
           e.preventDefault();
-          const fd = new FormData(e.currentTarget);
-          const params = new URLSearchParams();
-          for (const [key, value] of fd.entries()) {
-            if (typeof value === "string" && value) params.set(key, value);
-          }
-          const qs = params.toString();
-          router.push(qs ? `${finder.ctaHref}?${qs}` : finder.ctaHref);
+          router.push(hrefForSubmit());
         }}
       >
         {finder.fields.map((field) => (
-          <label key={field.name} className="block min-w-0">
-            <span className="mb-1.5 block text-[10px] font-medium tracking-wide text-white/55 uppercase">
-              {field.label}
-            </span>
-            <span className="relative flex h-10 items-center rounded-md border border-white/15 bg-black/25 px-2.5 text-[12px] font-medium text-white">
-              <span className="truncate pr-5">{field.value}</span>
-              <ChevronDown className="pointer-events-none absolute right-2 size-3.5 text-white/50" />
-              <select
-                name={field.name}
-                className="absolute inset-0 cursor-pointer opacity-0"
-                defaultValue={field.value}
-                aria-label={field.label}
-              >
-                <option value={field.value}>{field.value}</option>
-              </select>
-            </span>
-          </label>
+          <FinderPreviewSelect
+            key={field.name}
+            field={field}
+            appearance="dark"
+            onValueChange={(name, value) =>
+              setValues((prev) => ({ ...prev, [name]: value }))
+            }
+          />
         ))}
         <button
           type="submit"

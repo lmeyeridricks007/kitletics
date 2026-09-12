@@ -23,7 +23,6 @@ import {
   getSportById,
   getLowestOfferPrice,
   getComparisonsForProduct,
-  getUseCaseById,
 } from "@/repositories";
 import { getReviewByProduct } from "@/repositories/editorial";
 import { getOffersForProduct } from "@/repositories/commerce";
@@ -36,6 +35,8 @@ import { allSpecificationDefinitions } from "@/content/specs/definitions";
 import { recommendations as allRecommendations } from "@/content/recommendations";
 import { useCases } from "@/content/taxonomy/use-cases";
 import { getPrimaryProductMedia } from "@/lib/product/media";
+import { resolveSemanticImage } from "@/lib/media/semantic-image";
+import { resolveDecisionCopyForProduct } from "@/lib/decision-copy";
 import { getScoreBand } from "@/lib/product/score";
 import {
   getAlternativesPageConfig,
@@ -54,6 +55,7 @@ import {
   evaluateAlternativesContentIndexable,
 } from "@/lib/product/alternatives-quality-signals";
 import { promotableReviewSlug } from "@/domain/launch/get-launch-eligibility";
+import { containsPublicContentCorruption } from "@/lib/review/public-content-corruption";
 import type { MediaAsset } from "@/domain/shared/types";
 
 export interface AlternativeItem {
@@ -190,10 +192,11 @@ function nextReviewFrom(iso?: string): string | undefined {
 }
 
 function bestForLabels(product: Product, limit = 3): string[] {
-  return product.useCaseIds
-    .map((id) => getUseCaseById(id)?.name)
-    .filter((n): n is string => Boolean(n))
-    .slice(0, limit);
+  const review = getReviewByProduct(product.id);
+  return resolveDecisionCopyForProduct({ product, review }).bestFor.slice(
+    0,
+    limit,
+  );
 }
 
 function displayScore(score: number): string {
@@ -605,7 +608,10 @@ function buildAlternativesPageData(
         : undefined,
       offerCount: sourceOffers.length,
       review:
-        sourceReview?.status === "published" ? sourceReview : undefined,
+        sourceReview?.status === "published" &&
+        !containsPublicContentCorruption(sourceReview)
+          ? sourceReview
+          : undefined,
     },
     comparisonRows,
     comparisonSpecRows: matrix?.allSpecs ?? [],
@@ -632,7 +638,14 @@ function buildAlternativesPageData(
       product.lastVerifiedAt ?? product.updatedAt,
     ),
     compareHrefBase: "/compare",
-    heroBackgroundSrc: config.heroImageSrc,
+    heroBackgroundSrc: resolveSemanticImage({
+      pageType: "alternatives",
+      placement: "hero",
+      slug: product.slug,
+      title: product.fullName,
+      categoryId: product.categoryId,
+      dedicatedSrc: config.heroImageSrc,
+    }).src,
   };
 }
 

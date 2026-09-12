@@ -1,0 +1,19 @@
+{
+  "target": "/running/shoes/database",
+  "generatedAt": "2026-09-11T15:43:30.252Z",
+  "totalMatches": 37,
+  "srcSurfaceMatches": 0,
+  "bySurface": {
+    "database-internal": 16,
+    "contextual-nav": 7,
+    "running-hub": 3,
+    "best-guides": 1,
+    "primary-nav-mega-menu": 1,
+    "compare": 1,
+    "category-/running/shoes": 2,
+    "docs": 5,
+    "sitemap": 1
+  },
+  "srcSurfaces": [],
+  "sampleSrcHits": []
+}

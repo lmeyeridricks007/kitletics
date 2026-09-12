@@ -14,6 +14,7 @@ import {
   type LongformTopic,
 } from "@/lib/review/review-longform";
 import { isReportOrJunkVoice } from "@/lib/review/review-voice";
+import { isConsumerEditorialReady } from "@/lib/review/consumer-copy-quality";
 
 const THIN_PATTERNS =
   /evaluated from verified specs|where independent wear|Documented compromise:|Catalog strengths relevant|stands out in-catalog for|earns consideration when you specifically want:|Documented ride markers|Catalog fit markers|Verified cushioning context|Upper construction markers|Key tech markers|Traction context|Documented strengths|catalogued with|Published measurements and design markers|primary job \(|Outside that brief|inferred from geometry|research-informed guidance|Kitletics frames performance|Standout catalog points|Contextual factor score|Matched recommendation context|assessed from verified specifications/i;
@@ -154,9 +155,7 @@ export function enrichReviewSectionBodies(
   product: Product,
   brand?: Brand,
 ): ContentSection[] {
-  // Unique rewrites already carry product-specific depth — only normalize order
-  // and strip meta; never merge buildLongformSectionBody scaffolds back in.
-  if (isUniqueExpertResearchBody(review)) {
+  if (isConsumerEditorialReady(review) || isUniqueExpertResearchBody(review)) {
     return ensureCanonicalSections(review, product).map((section) => ({
       ...section,
       body: finalizeSectionBody(section.body),
@@ -457,28 +456,26 @@ export function enrichTestingContext(
 ): string {
   const existing = review.testingContext?.trim() ?? "";
 
-  // Fix 37 unique rewrites — preserve Expert Research methodology copy as-is.
   if (
     /Kitletics Expert Research Review/i.test(existing) &&
-    /How we assessed it/i.test(existing) &&
+    /skuslug|concatenated|intendedJob|headline trait/i.test(existing)
+  ) {
+    // Uniqueness-era dumps must not be preserved.
+  } else if (
+    existing &&
+    !containsMachineishTesting(existing) &&
     countWords(existing) >= 40
   ) {
     return existing;
   }
 
-  const isTemplate =
-    /has not been personally tested by Kitletics|not personally wear-tested|Kitletics has not personally|Expert Research|editorial research|structured catalog|verified product specifications/i.test(
-      existing,
-    ) || countWords(existing) < 40;
+  return `How we assessed the ${product.fullName}: Expert Research from published manufacturer specifications, the stated role, and similar products in the same job. We have not personally tested this product unless a first-hand section says otherwise. Scores help you decide; affiliate links do not change the verdict.`;
+}
 
-  if (
-    existing &&
-    !isTemplate &&
-    !FORMAL_VOICE.test(existing) &&
-    countWords(existing) >= 80
-  ) {
-    return existing;
-  }
-
-  return `Kitletics Expert Research Review. How we assessed it: published specifications and catalog peer comparisons for the ${product.fullName}'s stated role. This page does not claim personal test sessions unless a first-hand section is explicitly present. Scores help you decide; affiliate links do not change the verdict.`;
+function containsMachineishTesting(text: string): boolean {
+  return (
+    /Kitletics Expert Research Review\. How we assessed it:/i.test(text) ||
+    /catalog pass|concatenated|\btoken\b|skuslug|intendedJob/i.test(text) ||
+    FORMAL_VOICE.test(text)
+  );
 }

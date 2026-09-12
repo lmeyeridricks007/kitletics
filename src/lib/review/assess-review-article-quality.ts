@@ -10,6 +10,7 @@ import type { ReviewPageData } from "@/lib/review/get-review-page-data";
 import { canPublishReview } from "@/lib/review/can-publish";
 import { getEvidenceForIds } from "@/repositories";
 import { isReportOrJunkVoice } from "@/lib/review/review-voice";
+import { isConsumerEditorialReady } from "@/lib/review/consumer-copy-quality";
 import {
   reviewDecisionCopyText,
   type ReviewArticleSeverityLabel,
@@ -113,8 +114,11 @@ export function assessReviewArticle(
       .length >= 2,
     specificCons: (review.cons?.length ?? 0) >= 1,
     scoreBreakdown: (review.scoreBreakdown?.length ?? 0) >= 3,
-    longFormLength: wordCount >= 2500,
-    idealLength: wordCount >= 3000 && wordCount <= 5500,
+    longFormLength:
+      isConsumerEditorialReady(review) || wordCount >= 2500,
+    idealLength:
+      isConsumerEditorialReady(review) ||
+      (wordCount >= 3000 && wordCount <= 5500),
     fitSection:
       !product.categoryId.includes("shoe") ||
       hasTopic(review.sections, /fit|comfort|sizing/i),
@@ -226,7 +230,19 @@ export function assessReviewArticle(
     strengths.push("Transparent criteria scores");
   }
 
-  if (wordCount < 1500) {
+  if (isConsumerEditorialReady(review)) {
+    if (wordCount < 350) {
+      findings.push({
+        code: "length-critical",
+        severity: "P0",
+        message: `Only ~${wordCount} words — too thin for a buying decision.`,
+        recommendation:
+          "Keep a concise verdict, readable Buy/Skip, and product-specific analysis — not uniqueness padding.",
+      });
+    } else {
+      strengths.push("Consumer editorial length with product-specific analysis");
+    }
+  } else if (wordCount < 1500) {
     findings.push({
       code: "length-critical",
       severity: "P0",

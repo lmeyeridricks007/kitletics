@@ -1,0 +1,18 @@
+{
+  "generatedAt": "2026-09-12T11:30:56.281Z",
+  "base": "http://127.0.0.1:3020",
+  "sitemapUrls": 1162,
+  "crawled": 1162,
+  "httpNot200": 0,
+  "tokenLeakUrls": 0,
+  "concatenatedTokenUrls": 0,
+  "skuslugSkuidUrls": 0,
+  "htmlMachineCopyUrls": 41,
+  "decisionMachineLikeUrls": 0,
+  "decisionBrokenUrls": 12,
+  "imageIssueUrls": 992,
+  "blockerUrls": 995,
+  "remainingIssues": 6404,
+  "homepageWatchPadel": false,
+  "homepageWatchSkyline": false
+}

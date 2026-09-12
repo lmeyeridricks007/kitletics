@@ -39,7 +39,12 @@ export interface SportHubConfig {
     title: string;
     description: string;
     ctaLabel: string;
-    fields: { label: string; value: string; name: string }[];
+    fields: {
+      label: string;
+      value: string;
+      name: string;
+      options: Array<{ value: string; label: string }>;
+    }[];
   }[];
   buyingGuideImageMap: Record<string, string>;
   quickActions: {
@@ -72,7 +77,12 @@ export interface SportHubConfig {
     ctaLabel: string;
     footnoteLabel: string;
   };
-  finderFields: { label: string; value: string; name: string }[];
+  finderFields: {
+    label: string;
+    value: string;
+    name: string;
+    options: Array<{ value: string; label: string }>;
+  }[];
   benefits: { title: string; description: string; icon: string }[];
   guidesTitle: string;
   comparisonsTitle: string;
@@ -216,18 +226,48 @@ export const padelSportHubConfig: SportHubConfig = {
     footnoteLabel: "Padel Racket Finder",
   },
   finderFields: [
-    { label: "My Level", value: "Intermediate", name: "level" },
+    {
+      label: "My Level",
+      name: "level",
+      value: "intermediate",
+      options: [
+        { value: "beginner", label: "Beginner" },
+        { value: "intermediate", label: "Intermediate" },
+        { value: "advanced", label: "Advanced" },
+      ],
+    },
     {
       label: "My Play Style",
-      value: "Control & Maneuverability",
       name: "style",
+      value: "control",
+      options: [
+        { value: "control", label: "Control & Maneuverability" },
+        { value: "power", label: "Power" },
+        { value: "all-round", label: "All-round" },
+      ],
     },
     {
       label: "Shape Preference",
-      value: "Round / Teardrop",
       name: "shape",
+      value: "round-teardrop",
+      options: [
+        { value: "round", label: "Round" },
+        { value: "teardrop", label: "Teardrop" },
+        { value: "diamond", label: "Diamond" },
+        { value: "round-teardrop", label: "Round / Teardrop" },
+      ],
     },
-    { label: "Budget", value: "€150 – €250", name: "budget" },
+    {
+      label: "Budget",
+      name: "budget",
+      value: "150-250",
+      options: [
+        { value: "under-150", label: "Under €150" },
+        { value: "150-250", label: "€150 – €250" },
+        { value: "250-400", label: "€250 – €400" },
+        { value: "no-limit", label: "No budget limit" },
+      ],
+    },
   ],
   benefits: [...SHARED_BENEFITS],
   guidesTitle: "PADEL BUYING GUIDES",
@@ -330,10 +370,48 @@ export const runningSportHubConfig: SportHubConfig = {
         "Match GPS watches to training goals, maps, battery, size and ecosystem.",
       ctaLabel: "FIND MY WATCH",
       fields: [
-        { label: "Main Use", value: "Daily training", name: "primaryUse" },
-        { label: "Maps", value: "Yes — maps matter", name: "needsMaps" },
-        { label: "Size", value: "Standard", name: "watchSize" },
-        { label: "Budget", value: "€200 – €400", name: "budget" },
+        {
+          label: "Main Use",
+          name: "primaryUse",
+          value: "daily-training",
+          options: [
+            { value: "daily-training", label: "Daily training" },
+            { value: "racing", label: "Racing" },
+            { value: "trail", label: "Trail" },
+            { value: "multisport", label: "Multisport" },
+          ],
+        },
+        {
+          label: "Maps",
+          name: "needsMaps",
+          value: "yes",
+          options: [
+            { value: "yes", label: "Yes — maps matter" },
+            { value: "nice", label: "Nice to have" },
+            { value: "no", label: "No maps needed" },
+          ],
+        },
+        {
+          label: "Size",
+          name: "watchSize",
+          value: "standard",
+          options: [
+            { value: "compact", label: "Compact" },
+            { value: "standard", label: "Standard" },
+            { value: "large", label: "Large" },
+          ],
+        },
+        {
+          label: "Budget",
+          name: "budget",
+          value: "200-400",
+          options: [
+            { value: "under-200", label: "Under €200" },
+            { value: "200-400", label: "€200 – €400" },
+            { value: "400-plus", label: "€400+" },
+            { value: "no-limit", label: "No budget limit" },
+          ],
+        },
       ],
     },
     {
@@ -343,10 +421,46 @@ export const runningSportHubConfig: SportHubConfig = {
         "Match chest straps and armband optical HRMs to training style and comfort.",
       ctaLabel: "FIND MY HRM",
       fields: [
-        { label: "Main Use", value: "Intervals / track", name: "primaryUse" },
-        { label: "Form", value: "Chest strap", name: "formFactor" },
-        { label: "Dynamics", value: "No — HR is enough", name: "needsDynamics" },
-        { label: "Budget", value: "€50 – €100", name: "budget" },
+        {
+          label: "Main Use",
+          name: "primaryUse",
+          value: "intervals",
+          options: [
+            { value: "easy", label: "Easy / daily" },
+            { value: "intervals", label: "Intervals / track" },
+            { value: "racing", label: "Racing" },
+          ],
+        },
+        {
+          label: "Form",
+          name: "formFactor",
+          value: "chest",
+          options: [
+            { value: "chest", label: "Chest strap" },
+            { value: "armband", label: "Armband" },
+            { value: "either", label: "Either is fine" },
+          ],
+        },
+        {
+          label: "Dynamics",
+          name: "needsDynamics",
+          value: "no",
+          options: [
+            { value: "no", label: "No — HR is enough" },
+            { value: "yes", label: "Yes — running dynamics" },
+          ],
+        },
+        {
+          label: "Budget",
+          name: "budget",
+          value: "50-100",
+          options: [
+            { value: "under-50", label: "Under €50" },
+            { value: "50-100", label: "€50 – €100" },
+            { value: "100-plus", label: "€100+" },
+            { value: "no-limit", label: "No budget limit" },
+          ],
+        },
       ],
     },
     {
@@ -356,10 +470,48 @@ export const runningSportHubConfig: SportHubConfig = {
         "Match vests, belts and flasks to distance, terrain and how much you carry.",
       ctaLabel: "FIND MY HYDRATION",
       fields: [
-        { label: "Distance", value: "Half marathon", name: "primaryUse" },
-        { label: "Terrain", value: "Road", name: "terrain" },
-        { label: "Carry", value: "Storage — vest", name: "carryStyle" },
-        { label: "Budget", value: "€100 – €180", name: "budget" },
+        {
+          label: "Distance",
+          name: "primaryUse",
+          value: "half",
+          options: [
+            { value: "10k", label: "Up to 10K" },
+            { value: "half", label: "Half marathon" },
+            { value: "marathon", label: "Marathon" },
+            { value: "ultra", label: "Ultra" },
+          ],
+        },
+        {
+          label: "Terrain",
+          name: "terrain",
+          value: "road",
+          options: [
+            { value: "road", label: "Road" },
+            { value: "trail", label: "Trail" },
+            { value: "mixed", label: "Mixed" },
+          ],
+        },
+        {
+          label: "Carry",
+          name: "carryStyle",
+          value: "vest",
+          options: [
+            { value: "handheld", label: "Handheld / flask" },
+            { value: "belt", label: "Belt" },
+            { value: "vest", label: "Storage — vest" },
+          ],
+        },
+        {
+          label: "Budget",
+          name: "budget",
+          value: "100-180",
+          options: [
+            { value: "under-100", label: "Under €100" },
+            { value: "100-180", label: "€100 – €180" },
+            { value: "180-plus", label: "€180+" },
+            { value: "no-limit", label: "No budget limit" },
+          ],
+        },
       ],
     },
     {
@@ -369,10 +521,49 @@ export const runningSportHubConfig: SportHubConfig = {
         "Match tops, shorts and socks to training context, fit and comfort.",
       ctaLabel: "FIND MY APPAREL",
       fields: [
-        { label: "Need", value: "Daily training", name: "primaryUse" },
-        { label: "Fit", value: "Unisex / any", name: "sizingRange" },
-        { label: "Priority", value: "Comfort", name: "priorities" },
-        { label: "Budget", value: "€40 – €80", name: "budget" },
+        {
+          label: "Need",
+          name: "primaryUse",
+          value: "daily-training",
+          options: [
+            { value: "daily-training", label: "Daily training" },
+            { value: "racing", label: "Racing" },
+            { value: "cold", label: "Cold weather" },
+            { value: "hot", label: "Hot weather" },
+          ],
+        },
+        {
+          label: "Fit",
+          name: "sizingRange",
+          value: "unisex",
+          options: [
+            { value: "women", label: "Women's" },
+            { value: "men", label: "Men's" },
+            { value: "unisex", label: "Unisex / any" },
+          ],
+        },
+        {
+          label: "Priority",
+          name: "priorities",
+          value: "comfort",
+          options: [
+            { value: "comfort", label: "Comfort" },
+            { value: "speed", label: "Speed / race" },
+            { value: "durability", label: "Durability" },
+            { value: "value", label: "Value" },
+          ],
+        },
+        {
+          label: "Budget",
+          name: "budget",
+          value: "40-80",
+          options: [
+            { value: "under-40", label: "Under €40" },
+            { value: "40-80", label: "€40 – €80" },
+            { value: "80-plus", label: "€80+" },
+            { value: "no-limit", label: "No budget limit" },
+          ],
+        },
       ],
     },
     {
@@ -382,10 +573,48 @@ export const runningSportHubConfig: SportHubConfig = {
         "Match headphones, sunglasses, lights and safety gear to when you run.",
       ctaLabel: "FIND MY ACCESSORIES",
       fields: [
-        { label: "Accessory", value: "Headphones / audio", name: "primaryUse" },
-        { label: "When", value: "Road / daylight", name: "terrain" },
-        { label: "Priority", value: "Comfort / fit", name: "priorities" },
-        { label: "Budget", value: "€50 – €120", name: "budget" },
+        {
+          label: "Accessory",
+          name: "primaryUse",
+          value: "headphones",
+          options: [
+            { value: "headphones", label: "Headphones / audio" },
+            { value: "glasses", label: "Sunglasses" },
+            { value: "lights", label: "Lights / safety" },
+            { value: "other", label: "Other accessories" },
+          ],
+        },
+        {
+          label: "When",
+          name: "terrain",
+          value: "road-day",
+          options: [
+            { value: "road-day", label: "Road / daylight" },
+            { value: "road-night", label: "Road / night" },
+            { value: "trail", label: "Trail" },
+          ],
+        },
+        {
+          label: "Priority",
+          name: "priorities",
+          value: "comfort",
+          options: [
+            { value: "comfort", label: "Comfort / fit" },
+            { value: "performance", label: "Performance" },
+            { value: "value", label: "Value" },
+          ],
+        },
+        {
+          label: "Budget",
+          name: "budget",
+          value: "50-120",
+          options: [
+            { value: "under-50", label: "Under €50" },
+            { value: "50-120", label: "€50 – €120" },
+            { value: "120-plus", label: "€120+" },
+            { value: "no-limit", label: "No budget limit" },
+          ],
+        },
       ],
     },
     {
@@ -395,10 +624,49 @@ export const runningSportHubConfig: SportHubConfig = {
         "Match gels, chews and drink mixes to distance and stomach priorities.",
       ctaLabel: "FIND MY FUEL",
       fields: [
-        { label: "Distance", value: "Marathon", name: "primaryUse" },
-        { label: "Format", value: "Gels", name: "formFactor" },
-        { label: "Priority", value: "Stomach comfort", name: "priorities" },
-        { label: "Budget", value: "€25 – €50", name: "budget" },
+        {
+          label: "Distance",
+          name: "primaryUse",
+          value: "marathon",
+          options: [
+            { value: "10k", label: "Up to 10K" },
+            { value: "half", label: "Half marathon" },
+            { value: "marathon", label: "Marathon" },
+            { value: "ultra", label: "Ultra" },
+          ],
+        },
+        {
+          label: "Format",
+          name: "formFactor",
+          value: "gels",
+          options: [
+            { value: "gels", label: "Gels" },
+            { value: "chews", label: "Chews" },
+            { value: "drink", label: "Drink mix" },
+            { value: "mixed", label: "Mixed formats" },
+          ],
+        },
+        {
+          label: "Priority",
+          name: "priorities",
+          value: "stomach",
+          options: [
+            { value: "stomach", label: "Stomach comfort" },
+            { value: "caffeine", label: "Caffeine options" },
+            { value: "value", label: "Value / pack size" },
+          ],
+        },
+        {
+          label: "Budget",
+          name: "budget",
+          value: "25-50",
+          options: [
+            { value: "under-25", label: "Under €25" },
+            { value: "25-50", label: "€25 – €50" },
+            { value: "50-plus", label: "€50+" },
+            { value: "no-limit", label: "No budget limit" },
+          ],
+        },
       ],
     },
     {
@@ -408,10 +676,48 @@ export const runningSportHubConfig: SportHubConfig = {
         "Match massage, compression and mobility tools to how you bounce back.",
       ctaLabel: "FIND MY RECOVERY",
       fields: [
-        { label: "Need", value: "After long runs", name: "primaryUse" },
-        { label: "Priority", value: "Massage / percussion", name: "priorities" },
-        { label: "Budget", value: "€50 – €120", name: "budget" },
-        { label: "Use", value: "Home recovery", name: "context" },
+        {
+          label: "Need",
+          name: "primaryUse",
+          value: "long-runs",
+          options: [
+            { value: "easy", label: "After easy runs" },
+            { value: "long-runs", label: "After long runs" },
+            { value: "speed", label: "After speed work" },
+            { value: "daily", label: "Daily recovery" },
+          ],
+        },
+        {
+          label: "Priority",
+          name: "priorities",
+          value: "massage",
+          options: [
+            { value: "massage", label: "Massage / percussion" },
+            { value: "compression", label: "Compression" },
+            { value: "mobility", label: "Mobility / stretch" },
+          ],
+        },
+        {
+          label: "Budget",
+          name: "budget",
+          value: "50-120",
+          options: [
+            { value: "under-50", label: "Under €50" },
+            { value: "50-120", label: "€50 – €120" },
+            { value: "120-plus", label: "€120+" },
+            { value: "no-limit", label: "No budget limit" },
+          ],
+        },
+        {
+          label: "Use",
+          name: "context",
+          value: "home",
+          options: [
+            { value: "home", label: "Home recovery" },
+            { value: "travel", label: "Travel / race" },
+            { value: "gym", label: "Gym" },
+          ],
+        },
       ],
     },
   ],
@@ -422,6 +728,13 @@ export const runningSportHubConfig: SportHubConfig = {
       description: "Answer a few questions",
       href: "/tools/running-shoe-finder",
       icon: "search",
+    },
+    {
+      id: "shoe-database",
+      title: "SHOE DATABASE",
+      description: "Specs across the market",
+      href: "/running/shoes/database",
+      icon: "compare",
     },
     {
       id: "watches",
@@ -628,10 +941,55 @@ export const runningSportHubConfig: SportHubConfig = {
     footnoteLabel: "Running Shoe Finder",
   },
   finderFields: [
-    { label: "Terrain", value: "Road", name: "terrain" },
-    { label: "Primary Use", value: "Daily training", name: "use" },
-    { label: "Cushioning", value: "Soft / Max", name: "cushion" },
-    { label: "Budget", value: "€120 – €180", name: "budget" },
+    {
+      label: "Terrain",
+      name: "terrain",
+      value: "road",
+      options: [
+        { value: "road", label: "Road" },
+        { value: "trail", label: "Trail" },
+        { value: "treadmill", label: "Treadmill" },
+        { value: "mixed", label: "Mixed road & trail" },
+        { value: "track", label: "Track" },
+      ],
+    },
+    {
+      label: "Primary Use",
+      name: "primaryUse",
+      value: "daily-training",
+      options: [
+        { value: "daily-training", label: "Daily training" },
+        { value: "easy-runs", label: "Easy runs" },
+        { value: "long-runs", label: "Long runs" },
+        { value: "tempo", label: "Tempo / faster training" },
+        { value: "racing", label: "Racing" },
+        { value: "everything", label: "A bit of everything" },
+      ],
+    },
+    {
+      label: "Cushioning",
+      name: "cushioning",
+      value: "balanced",
+      options: [
+        { value: "minimal", label: "Minimal / ground feel" },
+        { value: "balanced", label: "Balanced" },
+        { value: "cushioned", label: "Cushioned" },
+        { value: "maximum", label: "Maximum cushioning" },
+        { value: "no-preference", label: "No preference" },
+      ],
+    },
+    {
+      label: "Budget",
+      name: "budget",
+      value: "100-150",
+      options: [
+        { value: "under-100", label: "Under €100" },
+        { value: "100-150", label: "€100–€150" },
+        { value: "150-200", label: "€150–€200" },
+        { value: "200-plus", label: "€200+" },
+        { value: "no-limit", label: "No budget limit" },
+      ],
+    },
   ],
   benefits: [...SHARED_BENEFITS],
   guidesTitle: "RUNNING BUYING GUIDES",
@@ -650,6 +1008,7 @@ export const runningSportHubConfig: SportHubConfig = {
   footer: {
     shop: [
       { label: "Running Shoes", href: "/running/shoes" },
+      { label: "Shoe Database", href: "/running/shoes/database" },
       { label: "GPS Watches", href: "/running/watches" },
       { label: "Packs & Vests", href: "/running/packs" },
       { label: "Road running", href: "/running/road" },
@@ -661,6 +1020,7 @@ export const runningSportHubConfig: SportHubConfig = {
       { label: "All Running Gear", href: "/running/gear" },
     ],
     tools: [
+      { label: "Shoe Database", href: "/running/shoes/database" },
       { label: "Running Shoe Finder", href: "/tools/running-shoe-finder" },
       { label: "GPS Watch Finder", href: "/tools/fitness-watch-finder" },
       { label: "Heart Rate Monitor Finder", href: "/tools/running-hrm-finder" },

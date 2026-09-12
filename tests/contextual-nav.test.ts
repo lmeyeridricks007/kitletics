@@ -20,6 +20,7 @@ describe("resolveNavigationContext", () => {
     expect(ctx.visibleItems.map((i) => i.label)).toEqual([
       "Overview",
       "Shoes / Gear",
+      "Shoe Database",
       "Best",
       "Reviews",
       "Guides",
@@ -36,6 +37,19 @@ describe("resolveNavigationContext", () => {
     expect(ctx.secondaryContextKey).toBe("shoes");
     expect(ctx.primaryNavKey).toBe("shoes");
     expect(ctx.activeItemId).toBe("running-shoes");
+  });
+
+  it("activates Database on /running/shoes/database", () => {
+    const ctx = resolveNavigationContext({
+      pathname: "/running/shoes/database",
+    });
+    expect(ctx.showContextualNav).toBe(true);
+    expect(ctx.secondaryContextKey).toBe("shoes");
+    expect(ctx.primaryNavKey).toBe("shoes");
+    expect(ctx.activeItemId).toBe("shoe-database");
+    expect(ctx.visibleItems.some((i) => i.href === "/running/shoes/database")).toBe(
+      true,
+    );
   });
 
   it("activates Best on /best?sport=running", () => {

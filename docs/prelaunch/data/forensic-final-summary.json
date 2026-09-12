@@ -1,0 +1,46 @@
+{
+  "production_sitemap_urls": 1167,
+  "http_200": 1166,
+  "token_leak_urls_production": 829,
+  "machine_copy_urls_production": 226,
+  "image_issue_urls": 142,
+  "unique_urls_with_any_issue": 952,
+  "issue_rows": 10249,
+  "quality_rows": 18628,
+  "image_rows": 10432,
+  "overlay_winner_counts": {
+    "p54_held_finalized_uniqueness_tokens": 387,
+    "p62_genuine_overlay": 5,
+    "p53_indexable_uniqueness_tokens": 136,
+    "unique_rewrite_machine_copy": 49
+  },
+  "overlay_token_reviews": 515,
+  "overlay_machine_reviews": 572,
+  "token_by_type": {
+    "author": 1,
+    "brand": 49,
+    "product": 332,
+    "alternatives": 114,
+    "review": 333
+  },
+  "machine_by_type": {
+    "product": 113,
+    "review": 113
+  },
+  "severity": {
+    "BLOCKER": 9649,
+    "HIGH": 600
+  },
+  "issue_class": {
+    "TOKEN_LEAK": 9564,
+    "MACHINE_DECISION_COPY": 520,
+    "IMAGE_CONTENT_MISMATCH": 160,
+    "IMAGE_REUSE": 5
+  },
+  "guide_how_to_choose_reuse": 114,
+  "guide_tennis_reuse": 1,
+  "urban_dusk_reuse": 92,
+  "running_urban_reuse": 235,
+  "sitemap_review_urls": 373,
+  "sitemap_product_urls": 375
+}

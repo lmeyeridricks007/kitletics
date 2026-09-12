@@ -20,6 +20,7 @@ import type {
 import type { BreadcrumbItem } from "@/components/layout/Breadcrumbs";
 import { formatVerifiedDate } from "@/lib/product/score";
 import { getPrimaryProductMedia } from "@/lib/product/media";
+import { resolveSemanticImage } from "@/lib/media/semantic-image";
 import {
   compareProducts,
   findEditorialComparisonForProducts,
@@ -671,7 +672,14 @@ function assembleFromProducts(input: {
     groupedSpecs,
     generationChange,
     config,
-    heroImageSrc: config.heroImageSrc,
+    heroImageSrc: resolveSemanticImage({
+      pageType: "comparison",
+      placement: "hero",
+      slug: comparison?.slug,
+      title: displayTitle,
+      categoryId,
+      dedicatedSrc: config.heroImageSrc,
+    }).src,
     displayTitle,
     scoreRows,
     useCaseCards,

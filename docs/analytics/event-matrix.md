@@ -19,6 +19,18 @@
 | `compare_complete` | Compare shared | Builder | `source` | Funnel | Share / completion proxy |
 | `search` | Header search submit | Global / search | `has_query`, `query_length` | Site search | Demand themes (no raw query) |
 | `filter_use` | Catalog filter/sort change | Category listings | `filter_key`, `filter_count` | Engagement | Merchandising |
+| `shoe_database_view` | Database page view | `/running/shoes/database` | `page_type=shoe_database` | Funnel | Database landings |
+| `shoe_database_filter` | Facet / chart segment change | Database explorer | `filter_type`, `filter_value`, `result_count` | Funnel | Refinement |
+| `shoe_database_sort` | Sort change | Database explorer | `sort_type`, `result_count` | Funnel | Sort usage |
+| `shoe_database_result_click` | Product link on result card | Database results | `product_slug`, `brand`, `result_position` | Funnel | DB → PDP |
+| `shoe_database_compare_add` | Add to compare from card | Database results | `product_slug`, `brand` | Funnel | DB → compare |
+| `shoe_database_review_click` | Review link on card | Database results | `product_slug` | Funnel | DB → review |
+| `shoe_database_alternatives_click` | Alternatives link | Database results | `product_slug` | Funnel | DB → alternatives |
+| `shoe_database_insight_view` | Insights section in view | Market insights | `insight_type` | Engagement | Insight exposure |
+| `shoe_database_insight_click` | Insight row / view-all | Market insights | `insight_type`, `product_slug?` | Funnel | Insight → next |
+| `shoe_database_share` | Share control | About / cite | `share_channel` | Engagement | Distribution |
+| `shoe_database_citation_copy` | Copy citation | About / cite | — | Engagement | Press usage |
+| `shoe_database_data_download` | Research CSV click | About / cite | `filter_type=research_csv` | Engagement | Research export |
 | `offer_view` | `offer_impression` sink (when fired) | Offer surfaces | `offer_id`, `placement`, `retailer` | Funnel | Offer exposure |
 | `retailer_click` | Click on `/go/[offerId]` link | Any offer CTA | `offer_id`, `placement`, `page_type`, … | Conversion proxy | Affiliate outbound |
 | `email_signup` | — | — | — | — | **Not implemented** (no real signup API) |

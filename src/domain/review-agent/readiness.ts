@@ -8,6 +8,7 @@ import type {
 import { getReviewAgentCategoryConfig } from "@/domain/review-agent/category-config";
 import { classifyEvidence } from "@/domain/review-agent/evidence";
 import { containsInternalTerminology } from "@/domain/review-agent/validate";
+import { containsPublicContentCorruption } from "@/lib/review/public-content-corruption";
 
 const GENERIC_PRO_PATTERNS = [
   /^good quality$/i,
@@ -112,7 +113,9 @@ export function computeReviewReadiness(input: {
     ...(review.cons ?? []),
     ...review.sections.map((s) => s.body),
   ].join("\n");
-  dims.noInternalWording = !containsInternalTerminology(textBlob);
+  dims.noInternalWording =
+    !containsInternalTerminology(textBlob) &&
+    !containsPublicContentCorruption(textBlob);
 
   if (!dims.verdict) blockers.push("Missing substantive short verdict");
   if (!dims.pros) blockers.push("Pros missing or too generic");
@@ -121,7 +124,11 @@ export function computeReviewReadiness(input: {
   if (!dims.sections) blockers.push("Sections lack substantive depth");
   if (!dims.alternatives) warnings.push("No alternatives linked");
   if (!dims.typeCorrect) blockers.push("First-hand type without personal-test evidence");
-  if (!dims.noInternalWording) blockers.push("Internal AI/agent wording in public copy");
+  if (!dims.noInternalWording) {
+    blockers.push(
+      "Internal AI/agent wording or uniqueness-token corruption in public copy",
+    );
+  }
   if (
     review.reviewType === "expert-research" &&
     /personally tested|we tested|hands-on wear/i.test(textBlob) &&

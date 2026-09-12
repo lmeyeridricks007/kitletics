@@ -29,8 +29,8 @@ export const runningShoesCategoryConfig: ProductCategoryPageConfig = {
       href: "/tools/running-shoe-finder",
     },
     secondaryCta: {
-      label: "Compare Shoes",
-      href: "/compare?category=running-shoes",
+      label: "Shoe Database",
+      href: "/running/shoes/database",
     },
   },
   featuredSubcategoryIds: [
@@ -107,6 +107,11 @@ export const runningShoesCategoryConfig: ProductCategoryPageConfig = {
       title: "Fit",
       body: "Length, width and lockdown matter more than stack marketing. Try before high-mileage commitment when you can.",
       href: "/guides/how-to-choose-running-shoes",
+    },
+    {
+      title: "Market specs",
+      body: "Browse weight, drop, stack and plate status across the current catalog in the Shoe Database.",
+      href: "/running/shoes/database",
     },
     {
       title: "Terrain",

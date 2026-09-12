@@ -160,7 +160,7 @@ const BY_GUIDE_ID: Record<string, UseCaseGuideConfig> = {
       "Scores are Kitletics Product scores; this guide additionally weights cushioning, platform stability, durability and fit for higher-load training preferences.",
     methodologyTitle: "How we research & score",
     buyingHelpTitle: "How to choose the right shoe",
-    heroImageSrc: "/images/brands/heroes/running-urban.jpg",
+    heroImageSrc: "/images/running/products/nimbus-27-hero.jpg",
     tableColumns: HEAVY_TABLE_COLUMNS,
     buyingHelpLinks: [
       {

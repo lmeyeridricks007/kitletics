@@ -17,7 +17,10 @@ import {
   type UseCaseCriteriaPoint,
 } from "@/lib/best/use-case-config";
 import { getAwardLabel } from "@/lib/best/awards";
-import { resolveBestGuideImage } from "@/lib/best/resolve-best-guide-image";
+import {
+  resolveBestGuideImage,
+  resolveBestGuideMethodologyImage,
+} from "@/lib/best/resolve-best-guide-image";
 import {
   buildGuideCandidateEvaluations,
   resolveGuideCoverage,
@@ -34,6 +37,12 @@ import { encodeFinderShareState } from "@/domain/finders/share-state";
 import { getFinderDefinition } from "@/domain/finders/repository";
 import type { FinderResponses } from "@/domain/finders/types";
 import { mergeGuideFaqIds } from "@/lib/guides/guide-backfill-faqs";
+import {
+  ensureShoeDatabaseBuyingHelpLink,
+  shouldLinkShoeDatabaseFromBestGuide,
+  shouldLinkShoeDatabaseFromBuyingGuide,
+  SHOE_DATABASE_DISCOVERY_LINK,
+} from "@/lib/running-shoe-database/discovery";
 import {
   CATEGORY_DEFAULT_BUYING_GUIDE_IDS,
   peerGuideIdsFor,
@@ -931,6 +940,9 @@ export function getBestGuidePageData(
   if (buyingHelpLinks.length === 0 && config.buyingHelpLinks.length > 0) {
     buyingHelpLinks = config.buyingHelpLinks;
   }
+  if (shouldLinkShoeDatabaseFromBestGuide(guide.categoryId)) {
+    buyingHelpLinks = ensureShoeDatabaseBuyingHelpLink(buyingHelpLinks);
+  }
 
   const finderThumbnails = quickPicks
     .map((r) => r.media?.src)
@@ -1018,11 +1030,8 @@ export function getBestGuidePageData(
       ? formatVerifiedDate(guide.updatedAt)
       : "",
     breadcrumbs,
-    heroImageSrc:
-      useCaseConfig?.heroImageSrc ??
-      resolveBestGuideImage(guide).src ??
-      config.heroImageSrc,
-    methodologyImageSrc: config.methodologyImageSrc,
+    heroImageSrc: resolveBestGuideImage(guide).src,
+    methodologyImageSrc: resolveBestGuideMethodologyImage(guide),
     quickPicks,
     tableProductRows,
     resolvedTrustPillars,
@@ -1057,6 +1066,12 @@ export interface BuyingGuidePageData {
   tools: Tool[];
   faqs: FAQ[];
   breadcrumbs: { label: string; href?: string }[];
+  /** Contextual Running Shoe Database CTA — shoe guides only */
+  shoeDatabaseLink?: {
+    label: string;
+    href: string;
+    description: string;
+  };
 }
 
 export function getBuyingGuidePageData(
@@ -1169,6 +1184,12 @@ export function getBuyingGuidePageData(
       { label: "Guides", href: "/guides" },
       { label: guide.title },
     ],
+    shoeDatabaseLink: shouldLinkShoeDatabaseFromBuyingGuide({
+      slug: guide.slug,
+      categoryId: guide.categoryId,
+    })
+      ? SHOE_DATABASE_DISCOVERY_LINK
+      : undefined,
   };
 }
 

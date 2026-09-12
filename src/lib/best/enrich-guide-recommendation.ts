@@ -14,6 +14,7 @@ import {
   resolveGuideContextConfig,
   type GuideContextConfig,
 } from "@/lib/best/guide-context-config";
+import { resolveDecisionCopyForProduct } from "@/lib/decision-copy";
 
 const MIN_WHY_PARA = 90;
 const MIN_WHY_PARAS = 2;
@@ -438,6 +439,19 @@ export function enrichGuideRecommendation(input: {
       notIdealFor: buildNotIdeal(product, entry),
     };
   }
+
+  const decision = resolveDecisionCopyForProduct({
+    product,
+    review,
+    bestFor: entry.bestForProfiles,
+    notIdealFor: entry.notIdealFor,
+  });
+  entry = {
+    ...entry,
+    bestForProfiles: decision.bestFor,
+    notIdealFor: decision.notIdealFor,
+    whoShouldAvoid: decision.skipIf,
+  };
 
   // Replace clinical one-liner whyRecommended with a readable summary line
   if (isThinWhyText(entry.whyRecommended)) {

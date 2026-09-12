@@ -7,13 +7,13 @@ import {
 import { assessGuideQuality } from "@/lib/guides/assess-guide-quality";
 import { isReportOrJunkVoice } from "@/lib/review/review-voice";
 import { audienceSignalsAreThin } from "@/lib/review/audience-signals";
-import { getReviewPageData } from "@/lib/review/get-review-page-data";
-import { assessReviewArticle } from "@/lib/review/assess-review-article-quality";
-import { reviewDecisionCopyText } from "@/lib/review/quality-contract";
 import {
   getLaunchEligibility,
   isIndexableEligibility,
 } from "@/domain/launch";
+import { getRunningShoeDatabaseRecords } from "@/lib/running-shoe-database/build-records";
+import { buildRunningShoeDatabaseQualityReport } from "@/lib/running-shoe-database/quality";
+import { containsPublicContentCorruption } from "@/lib/review/public-content-corruption";
 import type { SiteIssue } from "../types";
 import { issue } from "../issues";
 
@@ -76,9 +76,6 @@ export function auditContentQuality(): SiteIssue[] {
   const reviews = getReviews(PROD);
   let thinAudienceSource = 0;
   let junkVoiceSource = 0;
-  let junkVoiceEnriched = 0;
-  let articleP0 = 0;
-  let articleP0Sampled = 0;
 
   for (const r of reviews) {
     if (audienceSignalsAreThin(r)) thinAudienceSource += 1;
@@ -87,33 +84,6 @@ export function auditContentQuality(): SiteIssue[] {
       r.sections.some((s) => isReportOrJunkVoice(s.body))
     ) {
       junkVoiceSource += 1;
-    }
-  }
-
-  // Fix 85: publication voice + article P0 on INDEXABLE enriched pages (prod).
-  const sample: typeof reviews = [];
-  for (const r of reviews) {
-    if (sample.length >= 15) break;
-    if (
-      !isIndexableEligibility(
-        getLaunchEligibility({ kind: "review", entity: r }, PROD),
-      )
-    ) {
-      continue;
-    }
-    sample.push(r);
-  }
-  for (const r of sample) {
-    try {
-      const data = getReviewPageData(r.slug, PROD);
-      if (!data) continue;
-      articleP0Sampled += 1;
-      const decision = reviewDecisionCopyText(data.review);
-      if (isReportOrJunkVoice(decision)) junkVoiceEnriched += 1;
-      const article = assessReviewArticle(data);
-      if (article.findings.some((f) => f.severity === "P0")) articleP0 += 1;
-    } catch {
-      // skip assemble failures
     }
   }
 
@@ -148,35 +118,21 @@ export function auditContentQuality(): SiteIssue[] {
     );
   }
 
-  // CONTENT-002 — enriched decision-copy junk is release-critical; source residue is LOW.
-  if (junkVoiceEnriched > 0) {
-    issues.push(
-      issue("CONTENT", "BLOCKER", "review", {
-        idSuffix: "002",
-        evidence: `${junkVoiceEnriched}/${articleP0Sampled} sampled INDEXABLE enriched reviews match junk/report voice on decision copy`,
-        whyItMatters:
-          "User-visible buying-guide copy must not read like a research report",
-        recommendedFix: "npm run reviews:rewrite-voice -- --write; re-enrich",
-        canAutoFix: false,
-        owner: "Editorial",
-        effort: "M",
-        impact: "Critical",
-      }),
-    );
-  } else {
-    issues.push(
-      issue("CONTENT", "INFO", "review", {
-        idSuffix: "002",
-        evidence: `0/${articleP0Sampled} sampled INDEXABLE enriched reviews match junk/report voice on decision copy`,
-        whyItMatters: "Buying-guide voice is the review standard",
-        recommendedFix:
-          "Keep using npm run reviews:rewrite-voice -- --write after backfills",
-        canAutoFix: false,
-        owner: "Editorial",
-        status: "resolved",
-      }),
-    );
-  }
+  // CONTENT-002 / ARTICLE-P0 — 15-page samples cannot certify the estate.
+  // Full-estate rendered quality is auditRenderedQuality (RENDERED-ESTATE).
+  issues.push(
+    issue("CONTENT", "INFO", "review", {
+      idSuffix: "002",
+      evidence:
+        "Enriched decision-copy / article P0 is gated on ALL indexable URLs by npm run quality:rendered (not a 15-page sample)",
+      whyItMatters:
+        "Sampling 15 reviews previously declared READY while production contained public garbage",
+      recommendedFix: "npm run quality:rendered",
+      canAutoFix: false,
+      owner: "Editorial",
+      status: "resolved",
+    }),
+  );
 
   if (junkVoiceSource > 0) {
     issues.push(
@@ -195,27 +151,59 @@ export function auditContentQuality(): SiteIssue[] {
     );
   }
 
-  // CONTENT-ARTICLE-P0 — article P0 ≡ release BLOCKER on enriched INDEXABLE sample.
-  if (articleP0 > 0) {
+  // CONTENT-ARTICLE-P0 is owned by the rendered-quality estate gate.
+  issues.push(
+    issue("CONTENT", "INFO", "review", {
+      idSuffix: "ARTICLE-P0",
+      evidence:
+        "Article P0 is no longer certified by a 15-page sample — see RENDERED-ESTATE",
+      whyItMatters: "Flagship reviews must meet publishable article quality on every indexable URL",
+      recommendedFix: "npm run quality:rendered",
+      canAutoFix: false,
+      owner: "Editorial",
+      status: "resolved",
+    }),
+  );
+
+  // CONTENT-CORRUPTION — uniqueness stamps / machine values on public review surfaces.
+  const corruptIndexable: string[] = [];
+  for (const r of reviews) {
+    if (
+      !isIndexableEligibility(
+        getLaunchEligibility({ kind: "review", entity: r }, PROD),
+      )
+    ) {
+      continue;
+    }
+    if (containsPublicContentCorruption(r)) {
+      corruptIndexable.push(r.slug);
+    }
+  }
+  if (corruptIndexable.length > 0) {
     issues.push(
       issue("CONTENT", "BLOCKER", "review", {
-        idSuffix: "ARTICLE-P0",
-        evidence: `${articleP0}/${articleP0Sampled} sampled INDEXABLE enriched reviews have article-audit P0 findings`,
+        idSuffix: "CORRUPTION",
+        evidence: `${corruptIndexable.length} INDEXABLE reviews contain uniqueness-token or machine-value corruption (${corruptIndexable.slice(0, 8).join(", ")}${corruptIndexable.length > 8 ? "…" : ""})`,
         whyItMatters:
-          "Article P0 means release-critical enriched-page gaps (verdict, audience, decision-copy voice, first-hand, media, disclosure, length)",
-        recommendedFix: "npm run reviews:article-audit",
+          "Uniqueness stamps (skuslug/skuid/concatenated tokens) must never appear in public or indexable review copy, including PDP review-derived content",
+        recommendedFix:
+          "Restore a clean source via review-source precedence or hold for editorial rewrite — do not regex-strip tokens",
         canAutoFix: false,
         owner: "Editorial",
+        effort: "L",
         impact: "Critical",
       }),
     );
-  } else if (articleP0Sampled > 0) {
+  } else {
     issues.push(
       issue("CONTENT", "INFO", "review", {
-        idSuffix: "ARTICLE-P0",
-        evidence: `0/${articleP0Sampled} sampled INDEXABLE enriched reviews have article-audit P0 findings`,
-        whyItMatters: "Flagship reviews must meet publishable article quality",
-        recommendedFix: "npm run reviews:article-audit",
+        idSuffix: "CORRUPTION",
+        evidence:
+          "0 INDEXABLE reviews contain uniqueness-token or machine-value corruption",
+        whyItMatters:
+          "Public review copy must never ship uniqueness stamps or concatenated spec tokens",
+        recommendedFix:
+          "Keep containsPublicContentCorruption as a publication BLOCKER",
         canAutoFix: false,
         owner: "Editorial",
         status: "resolved",
@@ -271,6 +259,65 @@ export function auditContentQuality(): SiteIssue[] {
       status: "resolved",
     }),
   );
+
+  // Running Shoe Database quality / freshness (same cohort as public page)
+  const shoeReport = buildRunningShoeDatabaseQualityReport(
+    getRunningShoeDatabaseRecords(),
+  );
+  if (shoeReport.statusCounts.INVALID > 0) {
+    issues.push(
+      issue("CONTENT", "HIGH", "content", {
+        idSuffix: "SHOE-DB-INVALID",
+        route: "/running/shoes/database",
+        evidence: `${shoeReport.statusCounts.INVALID}/${shoeReport.populationSize} Running Shoe Database records INVALID (${shoeReport.invalidRecords
+          .slice(0, 5)
+          .map((r) => r.slug)
+          .join(", ")}${shoeReport.invalidRecords.length > 5 ? "…" : ""})`,
+        whyItMatters:
+          "Impossible specs must not ship in the public database or contaminate market statistics",
+        recommendedFix:
+          "npm run shoe-database:qa — fix catalog specs; do not silently coerce",
+        canAutoFix: false,
+        owner: "Editorial",
+        effort: "M",
+        impact: "High",
+      }),
+    );
+  }
+  if (shoeReport.statusCounts.SUSPECT > 0) {
+    issues.push(
+      issue("CONTENT", "MEDIUM", "content", {
+        idSuffix: "SHOE-DB-SUSPECT",
+        route: "/running/shoes/database",
+        evidence: `${shoeReport.statusCounts.SUSPECT}/${shoeReport.populationSize} Running Shoe Database records SUSPECT`,
+        whyItMatters:
+          "Suspect outliers are excluded from stats but still need human review before trust claims",
+        recommendedFix:
+          "npm run shoe-database:qa — review flagged geometry/price/weight",
+        canAutoFix: false,
+        owner: "Editorial",
+        effort: "M",
+        impact: "Medium",
+      }),
+    );
+  }
+  if (
+    shoeReport.statusCounts.INVALID === 0 &&
+    shoeReport.statusCounts.SUSPECT === 0
+  ) {
+    issues.push(
+      issue("CONTENT", "INFO", "content", {
+        idSuffix: "SHOE-DB-OK",
+        route: "/running/shoes/database",
+        evidence: `Running Shoe Database quality: ${shoeReport.populationSize} eligible · VALID ${shoeReport.statusCounts.VALID} · PARTIAL ${shoeReport.statusCounts.PARTIAL} · no SUSPECT/INVALID`,
+        whyItMatters: "Public shoe database stats stay uncontaminated",
+        recommendedFix: "npm run shoe-database:qa",
+        canAutoFix: false,
+        owner: "Editorial",
+        status: "resolved",
+      }),
+    );
+  }
 
   return issues;
 }

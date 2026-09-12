@@ -9,6 +9,9 @@ interface CompareHelpCardsProps {
   shareUrl: string;
   finderHref?: string;
   finderCtaLabel?: string;
+  /** Running shoes: link to Shoe Database */
+  databaseHref?: string;
+  databaseLabel?: string;
 }
 
 export function CompareHelpCards({
@@ -16,6 +19,8 @@ export function CompareHelpCards({
   shareUrl,
   finderHref,
   finderCtaLabel,
+  databaseHref,
+  databaseLabel = "Shoe Database",
 }: CompareHelpCardsProps) {
   const cards = [
     {
@@ -32,7 +37,11 @@ export function CompareHelpCards({
       icon: Compass,
       title: `Why these ${productNounPlural}?`,
       body: "You selected these to compare.",
-      action: (
+      action: databaseHref ? (
+        <Link href={databaseHref} className="font-medium text-link hover:underline">
+          Browse {databaseLabel} →
+        </Link>
+      ) : (
         <Link href="/methodology" className="font-medium text-link hover:underline">
           How comparisons work →
         </Link>

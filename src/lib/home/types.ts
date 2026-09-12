@@ -52,6 +52,7 @@ export interface HomepageGuideCard {
   href: string;
   updatedLabel?: string;
   imageSrc: string;
+  imageAlt: string;
 }
 
 export interface HomepageJournalItem {
@@ -61,6 +62,7 @@ export interface HomepageJournalItem {
   dateLabel?: string;
   readingTime: string;
   imageSrc: string;
+  imageAlt: string;
 }
 
 export interface HomepageData {

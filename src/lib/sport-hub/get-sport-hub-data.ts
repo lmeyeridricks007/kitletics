@@ -18,6 +18,7 @@ import {
 import type { Product } from "@/domain/products/types";
 import { getScoreBand } from "@/lib/product/score";
 import { getPrimaryProductMedia } from "@/lib/product/media";
+import { resolveGuideImage } from "@/lib/guides/resolve-guide-image";
 import {
   getMockupSportHubConfig,
   hasMockupSportHub,
@@ -255,9 +256,7 @@ export function getSportHubData(input: {
         g.sections[0]?.body ??
         "Structured buying advice for choosing the right gear.",
       href: `/guides/${g.slug}`,
-      imageSrc:
-        config.buyingGuideImageMap[g.slug] ??
-        config.hero.imageSrc,
+      imageSrc: resolveGuideImage(g).src,
     }));
 
   const comparisons = getComparisons(options)

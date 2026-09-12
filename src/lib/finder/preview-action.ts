@@ -6,6 +6,7 @@ import { DEFAULT_REGION } from "@/domain/shared/types";
 import { getFinderResultsData } from "@/lib/finder/get-finder-results-data";
 import { getPrimaryProductMedia } from "@/lib/product/media";
 import { getScoreBand } from "@/lib/product/score";
+import { toSituationLabel } from "@/lib/decision-copy";
 
 export interface FinderPreviewMatch {
   productId: string;
@@ -121,7 +122,13 @@ export async function previewFinderMatches(input: {
         scoreLabel:
           typeof score === "number" ? getScoreBand(score).label : undefined,
         matchScore: row.evaluation.matchScore,
-        roleLabel: row.evaluation.strengths[0] ?? row.rankLabel,
+        roleLabel: row.evaluation.strengths[0]
+          ? toSituationLabel(
+              row.evaluation.strengths[0],
+              "buy",
+              row.product.name,
+            )
+          : row.rankLabel,
         imageSrc: media?.src,
         imageAlt: media?.alt,
         href: `/products/${row.product.slug}`,

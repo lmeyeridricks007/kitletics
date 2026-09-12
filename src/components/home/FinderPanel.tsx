@@ -3,7 +3,6 @@
 import { useMemo, useState } from "react";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
-import { ChevronDown } from "lucide-react";
 import { Container } from "@/components/layout/Container";
 import { cn } from "@/lib/utils";
 import type { HomepageData } from "@/lib/home/types";
@@ -11,6 +10,13 @@ import {
   SPORT_NAV_ICONS,
   type SportNavIconId,
 } from "@/components/icons/SportNavIcons";
+import {
+  FinderPreviewSelect,
+  type FinderPreviewField,
+} from "@/components/finder/FinderPreviewSelect";
+import { runningShoeFinderDefinition } from "@/domain/finders/configs/running-shoe-finder";
+import { encodeFinderShareStateBrowser } from "@/domain/finders/share-state";
+import type { FinderResponses } from "@/domain/finders/types";
 
 type FinderTab = "running" | "padel" | "tennis" | "fitness";
 
@@ -27,49 +33,237 @@ const TABS: {
   { id: "fitness", label: "Home Gym", icon: "fitness", live: false },
 ];
 
-const FIELDS: Record<
-  FinderTab,
-  { label: string; value: string }[]
-> = {
-  running: [
-    { label: "My Level", value: "Intermediate" },
-    { label: "Primary Use", value: "Daily Training" },
-    { label: "Cushion Preference", value: "Soft / Balanced" },
-    { label: "Budget", value: "€120 – €180" },
-  ],
-  padel: [
-    { label: "My Level", value: "Intermediate" },
-    { label: "My Play Style", value: "Control & Maneuverability" },
-    { label: "Shape Preference", value: "Round / Teardrop" },
-    { label: "Budget", value: "€150 – €250" },
-  ],
-  tennis: [
-    { label: "My Level", value: "Intermediate" },
-    { label: "My Play Style", value: "All-court" },
-    { label: "Head Size", value: "98 – 100 sq in" },
-    { label: "Budget", value: "€150 – €250" },
-  ],
-  fitness: [
-    { label: "Space", value: "Garage / Spare Room" },
-    { label: "Goals", value: "Strength & Conditioning" },
-    { label: "Ceiling", value: "2.4 m+" },
-    { label: "Budget", value: "€1,000 – €2,500" },
-  ],
-};
+/** Align with Running Shoe Finder question values (share-state prefill). */
+const RUNNING_FIELDS: FinderPreviewField[] = [
+  {
+    label: "My Level",
+    name: "experience",
+    value: "intermediate",
+    options: [
+      { value: "beginner", label: "Beginner" },
+      { value: "intermediate", label: "Intermediate" },
+      { value: "advanced", label: "Advanced" },
+    ],
+  },
+  {
+    label: "Primary Use",
+    name: "primaryUse",
+    value: "daily-training",
+    options: [
+      { value: "daily-training", label: "Daily training" },
+      { value: "easy-runs", label: "Easy runs" },
+      { value: "long-runs", label: "Long runs" },
+      { value: "tempo", label: "Tempo / faster training" },
+      { value: "intervals", label: "Intervals" },
+      { value: "racing", label: "Racing" },
+      { value: "recovery", label: "Recovery runs" },
+      { value: "everything", label: "A bit of everything" },
+    ],
+  },
+  {
+    label: "Cushion Preference",
+    name: "cushioning",
+    value: "balanced",
+    options: [
+      { value: "minimal", label: "Minimal / ground feel" },
+      { value: "balanced", label: "Balanced" },
+      { value: "cushioned", label: "Cushioned" },
+      { value: "maximum", label: "Maximum cushioning" },
+      { value: "no-preference", label: "No preference" },
+    ],
+  },
+  {
+    label: "Budget",
+    name: "budget",
+    value: "100-150",
+    options: [
+      { value: "under-100", label: "Under €100" },
+      { value: "100-150", label: "€100–€150" },
+      { value: "150-200", label: "€150–€200" },
+      { value: "200-plus", label: "€200+" },
+      { value: "no-limit", label: "No budget limit" },
+    ],
+  },
+];
+
+const HELD_FIELDS: Record<Exclude<FinderTab, "running">, FinderPreviewField[]> =
+  {
+    padel: [
+      {
+        label: "My Level",
+        name: "level",
+        value: "intermediate",
+        options: [
+          { value: "beginner", label: "Beginner" },
+          { value: "intermediate", label: "Intermediate" },
+          { value: "advanced", label: "Advanced" },
+        ],
+      },
+      {
+        label: "My Play Style",
+        name: "style",
+        value: "control",
+        options: [
+          { value: "control", label: "Control & Maneuverability" },
+          { value: "power", label: "Power" },
+          { value: "all-round", label: "All-round" },
+        ],
+      },
+      {
+        label: "Shape Preference",
+        name: "shape",
+        value: "round-teardrop",
+        options: [
+          { value: "round", label: "Round" },
+          { value: "teardrop", label: "Teardrop" },
+          { value: "diamond", label: "Diamond" },
+          { value: "round-teardrop", label: "Round / Teardrop" },
+        ],
+      },
+      {
+        label: "Budget",
+        name: "budget",
+        value: "150-250",
+        options: [
+          { value: "under-150", label: "Under €150" },
+          { value: "150-250", label: "€150 – €250" },
+          { value: "250-400", label: "€250 – €400" },
+          { value: "no-limit", label: "No budget limit" },
+        ],
+      },
+    ],
+    tennis: [
+      {
+        label: "My Level",
+        name: "level",
+        value: "intermediate",
+        options: [
+          { value: "beginner", label: "Beginner" },
+          { value: "intermediate", label: "Intermediate" },
+          { value: "advanced", label: "Advanced" },
+        ],
+      },
+      {
+        label: "My Play Style",
+        name: "style",
+        value: "all-court",
+        options: [
+          { value: "baseline", label: "Baseline" },
+          { value: "all-court", label: "All-court" },
+          { value: "serve-volley", label: "Serve & volley" },
+        ],
+      },
+      {
+        label: "Head Size",
+        name: "headSize",
+        value: "98-100",
+        options: [
+          { value: "under-98", label: "Under 98 sq in" },
+          { value: "98-100", label: "98 – 100 sq in" },
+          { value: "100-plus", label: "100+ sq in" },
+        ],
+      },
+      {
+        label: "Budget",
+        name: "budget",
+        value: "150-250",
+        options: [
+          { value: "under-150", label: "Under €150" },
+          { value: "150-250", label: "€150 – €250" },
+          { value: "250-plus", label: "€250+" },
+          { value: "no-limit", label: "No budget limit" },
+        ],
+      },
+    ],
+    fitness: [
+      {
+        label: "Space",
+        name: "space",
+        value: "garage",
+        options: [
+          { value: "apartment", label: "Apartment / small room" },
+          { value: "garage", label: "Garage / Spare Room" },
+          { value: "dedicated", label: "Dedicated gym room" },
+        ],
+      },
+      {
+        label: "Goals",
+        name: "goals",
+        value: "strength",
+        options: [
+          { value: "strength", label: "Strength & Conditioning" },
+          { value: "hypertrophy", label: "Muscle building" },
+          { value: "general", label: "General fitness" },
+        ],
+      },
+      {
+        label: "Ceiling",
+        name: "ceiling",
+        value: "2.4",
+        options: [
+          { value: "under-2.2", label: "Under 2.2 m" },
+          { value: "2.2-2.4", label: "2.2 – 2.4 m" },
+          { value: "2.4", label: "2.4 m+" },
+        ],
+      },
+      {
+        label: "Budget",
+        name: "budget",
+        value: "1000-2500",
+        options: [
+          { value: "under-1000", label: "Under €1,000" },
+          { value: "1000-2500", label: "€1,000 – €2,500" },
+          { value: "2500-plus", label: "€2,500+" },
+          { value: "no-limit", label: "No budget limit" },
+        ],
+      },
+    ],
+  };
+
+function fieldsForTab(tab: FinderTab): FinderPreviewField[] {
+  return tab === "running" ? RUNNING_FIELDS : HELD_FIELDS[tab];
+}
+
+function defaultsFor(fields: FinderPreviewField[]): Record<string, string> {
+  return Object.fromEntries(fields.map((f) => [f.name, f.value]));
+}
 
 export function FinderPanel({ finder }: { finder: HomepageData["finder"] }) {
   const router = useRouter();
   const [tab, setTab] = useState<FinderTab>("running");
-  const fields = FIELDS[tab];
+  const fields = fieldsForTab(tab);
+  const [values, setValues] = useState<Record<string, string>>(() =>
+    defaultsFor(RUNNING_FIELDS),
+  );
   const activeTab = TABS.find((t) => t.id === tab)!;
 
   const cta = useMemo(() => {
     if (tab === "running") {
       return { label: "FIND MY SHOES", href: finder.shoeFinderHref };
     }
-    // Held verticals — do not deep-link into HIDDEN finder URLs
     return { label: "BROWSE TOOLS", href: "/tools" };
   }, [tab, finder]);
+
+  function switchTab(next: FinderTab) {
+    setTab(next);
+    setValues(defaultsFor(fieldsForTab(next)));
+  }
+
+  function buildRunningHref(): string {
+    const responses: FinderResponses = {
+      experience: values.experience,
+      primaryUse: values.primaryUse,
+      cushioning: values.cushioning,
+      budget: values.budget,
+    };
+    const encoded = encodeFinderShareStateBrowser(
+      runningShoeFinderDefinition,
+      responses,
+    );
+    const base = finder.shoeFinderHref;
+    const sep = base.includes("?") ? "&" : "?";
+    return `${base}${sep}s=${encodeURIComponent(encoded)}`;
+  }
 
   return (
     <div className="relative z-10 -mt-14 mb-2">
@@ -93,7 +287,7 @@ export function FinderPanel({ finder }: { finder: HomepageData["finder"] }) {
                   type="button"
                   role="tab"
                   aria-selected={active}
-                  onClick={() => setTab(item.id)}
+                  onClick={() => switchTab(item.id)}
                   className={cn(
                     "relative flex shrink-0 items-center gap-2.5 pb-3 text-sm font-medium transition-colors",
                     active
@@ -132,27 +326,23 @@ export function FinderPanel({ finder }: { finder: HomepageData["finder"] }) {
             className="mt-5 grid gap-3 lg:grid-cols-[repeat(4,minmax(0,1fr))_auto]"
             onSubmit={(e) => {
               e.preventDefault();
+              if (tab === "running" && activeTab.live) {
+                router.push(buildRunningHref());
+                return;
+              }
               router.push(cta.href);
             }}
           >
             {fields.map((field) => (
-              <label key={field.label} className="block min-w-0">
-                <span className="mb-1.5 block text-[11px] font-medium tracking-wide text-muted uppercase">
-                  {field.label}
-                </span>
-                <span className="relative flex h-11 items-center rounded-md border border-border bg-surface px-3 text-sm font-medium text-foreground">
-                  <span className="truncate pr-6">{field.value}</span>
-                  <ChevronDown className="pointer-events-none absolute right-3 size-4 text-subtle" />
-                  <select
-                    className="absolute inset-0 cursor-pointer opacity-0"
-                    defaultValue={field.value}
-                    aria-label={field.label}
-                    disabled={!activeTab.live}
-                  >
-                    <option value={field.value}>{field.value}</option>
-                  </select>
-                </span>
-              </label>
+              <FinderPreviewSelect
+                key={`${tab}-${field.name}`}
+                field={field}
+                appearance="light"
+                disabled={!activeTab.live}
+                onValueChange={(name, value) =>
+                  setValues((prev) => ({ ...prev, [name]: value }))
+                }
+              />
             ))}
             <div className="flex items-end">
               <button

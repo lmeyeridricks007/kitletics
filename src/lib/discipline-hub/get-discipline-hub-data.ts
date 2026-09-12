@@ -15,6 +15,7 @@ import {
 import { getScoreBand } from "@/lib/product/score";
 import { getAwardLabel } from "@/lib/best/awards";
 import { getToolHref } from "@/lib/tools/href";
+import { resolveGuideImage } from "@/lib/guides/resolve-guide-image";
 import {
   getDisciplineHubConfig,
   hasMockupDisciplineHub,
@@ -162,9 +163,7 @@ export function getDisciplineHubData(input: {
       title: g.title,
       description: g.shortDescription ?? g.subtitle ?? "",
       href: `/guides/${g.slug}`,
-      imageSrc:
-        config.buyingGuideImageMap[g.slug] ??
-        "/images/home/guide-how-to-choose.jpg",
+      imageSrc: resolveGuideImage(g).src,
     }));
 
   const productsSection =

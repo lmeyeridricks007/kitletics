@@ -10,6 +10,8 @@ import { getProductPageData } from "@/lib/product/get-product-page-data";
 import { getScoreBand } from "@/lib/product/score";
 import { resolveVisibleReviewType } from "@/lib/review/visible-type";
 import { canPublishReview } from "@/lib/review/can-publish";
+import { containsPublicContentCorruption } from "@/lib/review/public-content-corruption";
+import { resolveDecisionCopyForProduct } from "@/lib/decision-copy";
 import { getAuthorById, getComparisonById, getProductById, getBrandById, getEvidenceForIds, getLowestOfferPrice } from "@/repositories";
 import { getPublicEvidenceCard } from "@/lib/evidence/public-presentation";
 import { getPrimaryProductMedia } from "@/lib/product/media";
@@ -63,6 +65,8 @@ export interface ProductReviewSummaryData {
   cons: string[];
   bestFor: string[];
   notIdealFor: string[];
+  buyIf: string[];
+  skipIf: string[];
   criteria: ScoreBreakdownItem[];
   sections: { id: string; heading: string; body: string }[];
   keySpecs: ProductReviewKeySpec[];
@@ -126,6 +130,7 @@ export function getProductReviewSummary(input: {
       region,
     });
   if (!page?.review) return undefined;
+  if (containsPublicContentCorruption(page.review)) return undefined;
 
   const { product, review, evidence, alternatives, comparisons, bestGuides, buyingGuides } =
     page;
@@ -243,6 +248,8 @@ export function getProductReviewSummary(input: {
   const promoteFullReview = shouldPromotePublicly(reviewElig);
   const presentation = promoteFullReview ? "full-review" : "product-analysis";
 
+  const decision = resolveDecisionCopyForProduct({ product, review });
+
   return {
     productId: product.id,
     productName: product.name,
@@ -263,10 +270,12 @@ export function getProductReviewSummary(input: {
         : visibleType === "expert-research"
           ? "This review combines verified product specifications with independent expert coverage and Kitletics structured comparison data. We have not personally tested this product."
           : "See the full review for testing context."),
-    pros: review.pros,
-    cons: review.cons,
-    bestFor: review.whoShouldBuy,
-    notIdealFor: review.whoShouldAvoid,
+    pros: decision.pros.length ? decision.pros : review.pros,
+    cons: decision.cons.length ? decision.cons : review.cons,
+    bestFor: decision.bestFor,
+    notIdealFor: decision.notIdealFor,
+    buyIf: decision.buyIf,
+    skipIf: decision.skipIf,
     criteria: review.scoreBreakdown,
     sections: review.sections
       .filter((s) => s.body.trim().length >= 40)

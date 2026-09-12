@@ -2,9 +2,16 @@
 
 import Link from "next/link";
 import { useRouter } from "next/navigation";
-import { ChevronDown } from "lucide-react";
+import { useState } from "react";
 import { Container } from "@/components/layout/Container";
+import { FinderPreviewSelect } from "@/components/finder/FinderPreviewSelect";
 import type { SportHubPageData } from "@/lib/sport-hub/types";
+
+function defaultsFrom(
+  finder: SportHubPageData["categoryFinders"][number],
+): Record<string, string> {
+  return Object.fromEntries(finder.fields.map((f) => [f.name, f.value]));
+}
 
 function FinderCard({
   finder,
@@ -12,6 +19,7 @@ function FinderCard({
   finder: SportHubPageData["categoryFinders"][number];
 }) {
   const router = useRouter();
+  const [values, setValues] = useState(() => defaultsFrom(finder));
 
   return (
     <aside className="flex h-full flex-col rounded-xl bg-[#0e2a2a] p-5 text-white sm:p-6">
@@ -26,33 +34,23 @@ function FinderCard({
         className="mt-5 grid flex-1 grid-cols-2 content-start gap-3"
         onSubmit={(e) => {
           e.preventDefault();
-          const fd = new FormData(e.currentTarget);
           const params = new URLSearchParams();
-          for (const [key, value] of fd.entries()) {
-            if (typeof value === "string" && value) params.set(key, value);
+          for (const [key, value] of Object.entries(values)) {
+            if (value) params.set(key, value);
           }
           const qs = params.toString();
           router.push(qs ? `${finder.ctaHref}?${qs}` : finder.ctaHref);
         }}
       >
         {finder.fields.map((field) => (
-          <label key={field.name} className="block min-w-0">
-            <span className="mb-1.5 block text-[10px] font-medium tracking-wide text-white/55 uppercase">
-              {field.label}
-            </span>
-            <span className="relative flex h-10 items-center rounded-md border border-white/15 bg-black/25 px-2.5 text-[12px] font-medium text-white">
-              <span className="truncate pr-5">{field.value}</span>
-              <ChevronDown className="pointer-events-none absolute right-2 size-3.5 text-white/50" />
-              <select
-                name={field.name}
-                className="absolute inset-0 cursor-pointer opacity-0"
-                defaultValue={field.value}
-                aria-label={field.label}
-              >
-                <option value={field.value}>{field.value}</option>
-              </select>
-            </span>
-          </label>
+          <FinderPreviewSelect
+            key={field.name}
+            field={field}
+            appearance="dark"
+            onValueChange={(name, value) =>
+              setValues((prev) => ({ ...prev, [name]: value }))
+            }
+          />
         ))}
         <button
           type="submit"

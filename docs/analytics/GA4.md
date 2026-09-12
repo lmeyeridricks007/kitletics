@@ -87,9 +87,11 @@ Cookie: `kit_analytics_consent=granted|denied` (180 days, `SameSite=Lax`).
 
 Controlled taxonomy (`page_type`):
 
-`home`, `sport_hub`, `discipline_hub`, `category`, `product`, `review`, `best_guide`, `guide`, `comparison`, `alternatives`, `brand`, `finder`, `tool`, `search`, `other`
+`home`, `sport_hub`, `discipline_hub`, `category`, `shoe_database`, `product`, `review`, `best_guide`, `guide`, `comparison`, `alternatives`, `brand`, `finder`, `tool`, `search`, `other`
 
 Optional context (when derivable from the path): `sport`, `discipline`, `category`, `brand`, `product_slug`, `content_slug`.
+
+`/running/shoes/database` → `page_type=shoe_database` and emits `shoe_database_view` on page view (with consent).
 
 ## Event taxonomy
 
@@ -99,7 +101,57 @@ Decision-journey events (typed API):
 
 `view_product`, `view_review`, `view_best_guide`, `view_guide`, `view_comparison`, `finder_start`, `finder_answer`, `finder_complete`, `finder_product_click`, `compare_add`, `compare_remove`, `compare_complete`, `search`, `filter_use`, `offer_view`, `retailer_click`, `email_signup`, `price_alert_signup`
 
+Running Shoe Database:
+
+`shoe_database_view`, `shoe_database_filter`, `shoe_database_sort`, `shoe_database_result_click`, `shoe_database_compare_add`, `shoe_database_review_click`, `shoe_database_alternatives_click`, `shoe_database_insight_view`, `shoe_database_insight_click`, `shoe_database_share`, `shoe_database_citation_copy`, `shoe_database_data_download`
+
 Plus affiliate-safe GA4 ecommerce: `view_item`, `view_item_list`, `select_item`.
+
+Helper: `trackShoeDatabaseEvent()` in `src/lib/running-shoe-database/analytics.ts` (calls `track()` — no extra library).
+
+### Shoe Database parameters (controlled)
+
+| Param | Use |
+|-------|-----|
+| `filter_type` | Facet key (`brand`, `useCase`, `plate`, `chart_segment`, …) |
+| `filter_value` | Controlled slug / bucket id (never free-form search text) |
+| `sort_type` | Database sort id |
+| `result_position` | 1-based index in result list |
+| `product_slug` | Catalog slug |
+| `brand` | Brand slug |
+| `insight_type` | Insight card id / section |
+| `share_channel` | `copy_link` / `linkedin` / `x` / `reddit` |
+| `page_type` | Always `shoe_database` on these events |
+| `has_query` / `query_length` | Search box only (no query string) |
+
+## Funnels (GA4 Explorations)
+
+### Organic → Database → buy path
+
+```text
+Organic landing (page_view, session source/medium)
+  → shoe_database_view          (landed on /running/shoes/database)
+  → shoe_database_filter|sort   (optional refinement)
+  → shoe_database_result_click  (product_slug)
+  → view_product / view_item    (PDP)
+  → shoe_database_review_click OR compare_add / view_comparison
+  → retailer_click              (/go offer CTA)
+```
+
+Build as a GA4 **Funnel exploration** with steps matching those event names. Use `page_type=shoe_database` as an early filter or as step 1 dimension.
+
+### External referral → insight → buy path
+
+```text
+External referral (page_view)
+  → shoe_database_view
+  → shoe_database_insight_view
+  → shoe_database_insight_click   (insight_type, optional product_slug)
+  → view_product (or filtered database → result_click)
+  → retailer_click
+```
+
+Journalists/researchers may also emit `shoe_database_citation_copy`, `shoe_database_share`, `shoe_database_data_download` — useful as engagement side-paths, not purchase funnel steps.
 
 ## Affiliate / retailer tracking
 

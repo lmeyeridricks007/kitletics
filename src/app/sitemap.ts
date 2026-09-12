@@ -85,6 +85,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { path: "/reviews", priority: 0.7, changeFrequency: "weekly" },
     { path: "/guides", priority: 0.7, changeFrequency: "weekly" },
     { path: "/tools", priority: 0.7, changeFrequency: "weekly" },
+    {
+      path: "/running/shoes/database",
+      priority: 0.85,
+      changeFrequency: "weekly",
+    },
     { path: "/setups", priority: 0.6, changeFrequency: "weekly" },
     { path: "/about", priority: 0.3, changeFrequency: "yearly" },
     { path: "/methodology", priority: 0.4, changeFrequency: "yearly" },

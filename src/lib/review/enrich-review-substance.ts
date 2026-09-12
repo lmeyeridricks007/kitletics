@@ -8,6 +8,7 @@ import type { Brand, Product } from "@/domain/products/types";
 import { getReviewAgentCategoryConfig } from "@/domain/review-agent/category-config";
 import { getReviewPageCategoryConfig } from "@/lib/review/category-config";
 import { ensureAudienceSignals } from "@/lib/review/audience-signals";
+import { resolveDecisionCopyForProduct } from "@/lib/decision-copy";
 import { getReviewCriteriaDefinitions, getProducts } from "@/repositories";
 
 function prettyLabel(key: string): string {
@@ -269,7 +270,7 @@ export function ensureSubstantiveVerdict(
 
   const shortlist = strengths[0]
     ? `I'd shortlist it when you want ${strengths[0].toLowerCase()}.`
-    : `I'd shortlist it when its main job matches most of your week.`;
+    : `I'd shortlist it when this role is most of your week.`;
   const pause = weaknesses[0]
     ? `I'd pause if ${weaknesses[0].toLowerCase()} would show up often.`
     : avoid
@@ -341,11 +342,23 @@ export function enrichReviewSubstance(
     whoShouldAvoid: audience.whoShouldAvoid,
   };
   const verdictFields = ensureSubstantiveVerdict(withAudience, product);
-  return {
+  const withSubstance: Review = {
     ...withAudience,
     ...verdictFields,
     scoreBreakdown: ensureReviewScoreBreakdown(withAudience, product),
     cons: ensureReviewCons(withAudience, product),
     alternativeProductIds: ensureReviewAlternativeIds(withAudience, product),
+  };
+  const decision = resolveDecisionCopyForProduct({
+    product,
+    review: withSubstance,
+  });
+  return {
+    ...withSubstance,
+    whoShouldBuy: decision.buyIf.length >= 2 ? decision.buyIf : withSubstance.whoShouldBuy,
+    whoShouldAvoid:
+      decision.skipIf.length >= 2 ? decision.skipIf : withSubstance.whoShouldAvoid,
+    pros: decision.pros.length >= 2 ? decision.pros : withSubstance.pros,
+    cons: decision.cons.length >= 2 ? decision.cons : withSubstance.cons,
   };
 }

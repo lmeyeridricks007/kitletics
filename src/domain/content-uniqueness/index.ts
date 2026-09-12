@@ -3,7 +3,13 @@ export {
   normalizeText,
   scrubEntityNames,
   textSimilarity,
+  editorialSimilarity,
+  uniqueAnalysisRatio,
+  editorialTokens,
+  analysisTokens,
+  isZeroUniquenessToken,
   scaffoldHitCount,
   REVIEW_SCAFFOLD_PHRASES,
+  DOMAIN_GENERIC_TOKENS,
   type UniquenessClass,
 } from "@/domain/content-uniqueness/text";

@@ -42,6 +42,8 @@ import type {
 } from "@/domain/editorial/types";
 import type { Tool } from "@/domain/tools/types";
 import { isOfferStale, isProductDataStale } from "@/lib/product/score";
+import { containsPublicContentCorruption } from "@/lib/review/public-content-corruption";
+import { resolveDecisionCopyForProduct } from "@/lib/decision-copy";
 import {
   getPrimaryProductMedia,
   isAuthenticProductMedia,
@@ -108,6 +110,8 @@ export interface ProductPageData {
   scoreExplainFactors: { label: string; score: number; explanation: string }[];
   bestFor: string[];
   notIdealFor: string[];
+  buyIf: string[];
+  skipIf: string[];
   evidence: Evidence[];
   hasPersonalTest: boolean;
   offers: OfferRow[];
@@ -333,25 +337,18 @@ export function getProductPageData(
     }
   }
 
-  const bestFor = [
-    ...new Set([
-      ...product.strengths,
-      ...recommendations.flatMap((r) => r.recommendation.strengths),
-      ...recommendations
-        .filter((r) => r.recommendation.score >= 85)
-        .map((r) => r.label),
-    ]),
-  ].slice(0, 6);
-
-  const notIdealFor = [
-    ...new Set([
-      ...product.weaknesses,
-      ...recommendations.flatMap((r) => r.recommendation.compromises),
-      ...recommendations
-        .filter((r) => r.recommendation.score < 50)
-        .map((r) => r.label),
-    ]),
-  ].slice(0, 6);
+  const review =
+    graph.review && !containsPublicContentCorruption(graph.review)
+      ? graph.review
+      : undefined;
+  const decisionCopy = resolveDecisionCopyForProduct({
+    product,
+    review,
+  });
+  const bestFor = decisionCopy.bestFor;
+  const notIdealFor = decisionCopy.notIdealFor;
+  const buyIf = decisionCopy.buyIf;
+  const skipIf = decisionCopy.skipIf;
 
   const regionalOffers = sortOffers(graph.offers);
   const offers: OfferRow[] = regionalOffers.map((offer) => ({
@@ -476,6 +473,8 @@ export function getProductPageData(
     scoreExplainFactors: [...factorMap.values()],
     bestFor,
     notIdealFor,
+    buyIf,
+    skipIf,
     evidence: graph.evidence,
     hasPersonalTest: graph.evidence.some((e) => e.type === "personal-test"),
     offers,
@@ -483,7 +482,7 @@ export function getProductPageData(
     lowestPrice,
     region,
     regionLabel: REGION_META[region].label,
-    review: graph.review,
+    review,
     comparisons: graph.comparisons,
     comparisonNames,
     alternatives,
@@ -548,21 +547,13 @@ function buildQuickFacts(
   featuredSpecs: SpecDisplayRow[],
   bestFor: string[],
   category?: ProductCategory,
-  recommendations: UseCaseScoreRow[] = [],
+  _recommendations: UseCaseScoreRow[] = [],
 ): { id: string; label: string; value: string }[] {
   const facts: { id: string; label: string; value: string }[] = [];
   const isShoe = product.categoryId === "cat-running-shoes";
   const isWatch = product.categoryId === "cat-gps-watches";
 
-  // Prefer strong use-case labels (decision language) over strength bullets
-  const useCaseBestFor = recommendations
-    .filter((r) => r.recommendation.score >= 85)
-    .slice(0, 3)
-    .map((r) => r.label);
-  const bestForValue =
-    useCaseBestFor.length > 0
-      ? useCaseBestFor.join(", ")
-      : bestFor.slice(0, 3).join(", ");
+  const bestForValue = bestFor[0] ?? "";
 
   if (bestForValue) {
     facts.push({

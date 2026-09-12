@@ -7,6 +7,11 @@ import type { PublishResolverOptions } from "@/lib/publishing/resolver";
 import { enrichReviewForPage } from "@/lib/review/enrich-review-for-page";
 import { isContentUniquenessReviewHeld } from "@/content/launch/content-uniqueness-holds";
 import { isBlockedEvidenceReview } from "@/content/launch/blocked-evidence-reviews";
+import { assessConsumerCopyQuality } from "@/lib/review/consumer-copy-quality";
+import {
+  decisionCopyIsIndexable,
+  resolveDecisionCopyForProduct,
+} from "@/lib/decision-copy";
 
 export interface ReviewQualityAssessment {
   quality: ReviewLaunchQuality;
@@ -39,6 +44,41 @@ export function assessReviewLaunchQuality(
   const assessedReview = product
     ? enrichReviewForPage(review, product, { brand })
     : review;
+
+  const copyQa = assessConsumerCopyQuality(assessedReview);
+  if (!copyQa.ok) {
+    return {
+      quality: "BLOCKED",
+      reasons: copyQa.reasons,
+      decisionScore: 0,
+      wordCount: words(
+        [
+          assessedReview.summary,
+          assessedReview.verdict,
+          assessedReview.bottomLine,
+          assessedReview.testingContext,
+          ...(assessedReview.sections ?? []).map((s) => s.body),
+        ]
+          .filter(Boolean)
+          .join("\n\n"),
+      ),
+    };
+  }
+
+  if (product) {
+    const decision = resolveDecisionCopyForProduct({
+      product,
+      review: assessedReview,
+    });
+    if (!decisionCopyIsIndexable(decision)) {
+      return {
+        quality: "BLOCKED",
+        reasons: ["MACHINE_LIKE_OR_BROKEN_DECISION_COPY"],
+        decisionScore: 0,
+        wordCount: words(assessedReview.verdict ?? assessedReview.summary ?? ""),
+      };
+    }
+  }
 
   const text = [
     assessedReview.summary,

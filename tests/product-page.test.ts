@@ -26,8 +26,8 @@ describe("Product Detail page data", () => {
     expect(data!.heroTags.length).toBeGreaterThan(0);
     expect(data!.quickFacts.length).toBeGreaterThan(0);
     const bestForFact = data!.quickFacts.find((f) => f.id === "best-for");
-    expect(bestForFact?.value).toMatch(/Daily Training|Easy Runs|Long Runs/);
-    expect(bestForFact?.value).not.toMatch(/Soft energetic/);
+    expect(bestForFact?.value).toMatch(/daily|long run|cushion|trainer|ride/i);
+    expect(bestForFact?.value).not.toMatch(/Daily Training|Easy Runs|Long Runs/);
     expect(data!.showScore).toBe(true);
     expect(data!.review?.slug).toBe("asics-novablast-6");
     expect(data!.lowestPrice?.currency).toBe("EUR");

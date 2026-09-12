@@ -22,6 +22,7 @@ import {
   getVariantsForProduct,
 } from "@/repositories";
 import { canFeatureProduct, getPrimaryProductMedia } from "@/lib/product/media";
+import { toSituationLabel } from "@/lib/decision-copy";
 import { getLaunchEligibility, isLaunchListable } from "@/domain/launch";
 import {
   formatAudienceAvailability,
@@ -387,7 +388,9 @@ export function getCatalogProducts(
         : `${activeAudience === "men" ? "Men's" : "Women's"} sizing`
       : formatAudienceAvailability(audiences);
     const media = getPrimaryProductMedia(product);
-    const bestForRaw = product.strengths[0];
+    const bestForRaw = product.strengths[0]
+      ? toSituationLabel(product.strengths[0], "buy", product.name)
+      : undefined;
 
     return {
       id: product.id,

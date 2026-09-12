@@ -286,7 +286,7 @@ export function ProductReviewSection({
               Buy if
             </p>
             <ul className="mt-3 space-y-2">
-              {data.bestFor.slice(0, 4).map((item) => (
+              {data.buyIf.slice(0, 4).map((item) => (
                 <li
                   key={item}
                   className="flex gap-2 text-[13px] text-foreground"
@@ -306,7 +306,7 @@ export function ProductReviewSection({
               Skip if
             </p>
             <ul className="mt-3 space-y-2">
-              {data.notIdealFor.slice(0, 4).map((item) => (
+              {data.skipIf.slice(0, 4).map((item) => (
                 <li
                   key={item}
                   className="flex gap-2 text-[13px] text-foreground"

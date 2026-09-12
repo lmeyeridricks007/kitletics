@@ -1,6 +1,9 @@
 /**
  * Unique Expert Research synthesis — product-specific review copy that does NOT
  * use shared longform scaffold templates (buildLongformSectionBody / REVIEW_SCAFFOLD_PHRASES).
+ *
+ * Uniqueness stamps are forbidden in public copy: no skuslug/skuid concatenations,
+ * no "{value}{field}{slug}" tokens, and no "concatenated {field} token" sentences.
  */
 
 import type { ContentSection, Review, ScoreBreakdownItem } from "@/domain/editorial/types";
@@ -11,6 +14,11 @@ import {
   type ProductQuestionMap,
 } from "@/domain/review-agent/product-question-map";
 import { REVIEW_SCAFFOLD_PHRASES } from "@/domain/content-uniqueness/text";
+import { containsPublicContentCorruption } from "@/lib/review/public-content-corruption";
+import {
+  assessConsumerCopyQuality,
+  containsMachineTemplateCopy,
+} from "@/lib/review/consumer-copy-quality";
 
 export type UniqueExpertResearchResult =
   | Review
@@ -136,25 +144,6 @@ const SUBSTANTIVE_TOPICS = new Set<TopicKey>([
   "value",
 ]);
 
-function hashSlug(slug: string): number {
-  let h = 2166136261;
-  for (let i = 0; i < slug.length; i++) {
-    h ^= slug.charCodeAt(i);
-    h = Math.imul(h, 16777619);
-  }
-  return h >>> 0;
-}
-
-function rotate<T>(items: T[], seed: number): T[] {
-  if (items.length <= 1) return items;
-  const i = seed % items.length;
-  return [...items.slice(i), ...items.slice(0, i)];
-}
-
-function pick<T>(items: readonly T[], seed: number, salt: number): T {
-  return items[(seed + salt) % items.length]!;
-}
-
 function fmtSpec(v: SpecValue | undefined): string | null {
   if (v == null) return null;
   if (typeof v === "object" && !Array.isArray(v)) {
@@ -223,79 +212,77 @@ function allSpecPairs(product: Product): { key: string; value: string }[] {
   return out;
 }
 
+function readableField(key: string): string {
+  return key
+    .replace(/([A-Z])/g, " $1")
+    .replace(/[-_]/g, " ")
+    .trim()
+    .toLowerCase();
+}
+
+function specOf(product: Product, key: string): string | null {
+  return fmtSpec(product.specifications?.[key]);
+}
+
 function specDumpSentence(product: Product): string {
   const pairs = allSpecPairs(product);
   const name = product.fullName || product.name;
   if (!pairs.length) {
-    return `${product.shortDescription.trim()} That blurb is the buying cue because ${name} does not publish a dense numeric sheet.`;
+    return `${name} does not publish a dense numeric sheet. Judge it from the stated role and the comparison set instead of invented numbers.`;
   }
-  return pairs
-    .map((p) => {
-      const tok = `${p.value}${p.key}`.toLowerCase().replace(/[^a-z0-9]+/g, "");
-      return `${p.value} ${p.key} — ${tok} is the concatenated ${p.key} token for ${name} (${p.value}).`;
-    })
-    .join(" ");
-}
-
-function getUseCaseDump(product: Product): string {
-  const uses = (product.useCaseIds ?? [])
-    .map((id) => id.replace(/^uc-/, "").replace(/-/g, " "))
-    .filter(Boolean);
-  const subs = (product.subcategoryIds ?? [])
-    .map((id) => id.replace(/^sub-/, "").replace(/-/g, " "))
-    .filter(Boolean);
-  const lead = uses[0] ?? subs[0] ?? product.generation ?? product.shortDescription.slice(0, 40);
-  const bits = [
-    uses.length ? uses.join(", ") : "",
-    subs.length ? subs.join(", ") : "",
-    product.generation ? `generation ${product.generation}` : "",
-  ].filter(Boolean);
-  return `${lead} tags on ${product.fullName || product.name}: ${bits.join("; ") || "primary category only"}.`;
-}
-
-function catalogCorpus(product: Product): string[] {
-  const lines: string[] = [
-    product.shortDescription.trim(),
-    ...(product.strengths ?? []).map((s) => s.trim()).filter(Boolean),
-    ...(product.weaknesses ?? []).map((s) => s.trim()).filter(Boolean),
-    specDumpSentence(product),
-    getUseCaseDump(product),
+  const preferred = [
+    "weight",
+    "drop",
+    "heelStack",
+    "forefootStack",
+    "cushionFeel",
+    "cushionLevel",
+    "stability",
+    "midsole",
+    "plate",
+    "plateMaterial",
+    "terrain",
+    "widthOptions",
+    "batteryGps",
+    "batteryLifeHours",
+    "displayType",
+    "weightGrams",
+    "balance",
+    "headSize",
   ];
-  if (product.verdict?.trim()) lines.push(product.verdict.trim());
-  return lines.filter((s) => s.length >= 12);
-}
-
-function joinParagraphs(parts: string[], seed: number): string {
-  const cleaned = parts.map((p) => p.replace(/\s+/g, " ").trim()).filter(Boolean);
-  return rotate(cleaned, seed).join("\n\n");
+  const picked = preferred
+    .map((key) => {
+      const value = specOf(product, key);
+      return value ? `${readableField(key)}: ${value}` : null;
+    })
+    .filter((s): s is string => Boolean(s));
+  const lines = picked.length ? picked : pairs.slice(0, 8).map((p) => `${readableField(p.key)}: ${p.value}`);
+  return `${name} — published figures worth using as filters:\n${lines.map((l) => `• ${l}`).join("\n")}`;
 }
 
 function productOnlyFillers(ctx: Ctx): string[] {
-  const tokens = uniqueTokenList(ctx.product);
-  const trigrams = tokens.map((t, i) => {
-    const a = tokens[(i + 1) % tokens.length] ?? t;
-    const b = tokens[(i + 2) % tokens.length] ?? t;
-    return `${t} ${a} ${b}`;
-  });
+  const name = displayName(ctx);
+  const peer =
+    ctx.map.competitors[0]?.name ?? ctx.alts[0]?.name ?? "a closer specialist";
   const extras = [
-    tokens.join(" "),
-    ...catalogCorpus(ctx.product),
-    ...trigrams,
-    ...ctx.map.decisionSpecs.map(
-      (s) => `${skuStamp(ctx.product)} ${s} gates ${displayName(ctx)}.`,
-    ),
+    `${name} is strongest when ${traitList(ctx.map.strongestTraits, 2)} is what you actually need most weeks.`,
+    `I'd skip ${name} when ${traitList(ctx.map.compromises, 2)} is the usual pattern — ${peer} is the cleaner compare.`,
+    ctx.product.shortDescription.trim(),
+    ...(ctx.product.strengths ?? []).map((s) => s.trim()).filter((s) => s.length > 20),
+    ...(ctx.product.weaknesses ?? []).map((s) => s.trim()).filter((s) => s.length > 20),
   ];
-  return rotate(extras.filter(Boolean), ctx.seed + 11);
+  return extras.filter(
+    (s) => s && s.trim().length > 20 && !containsMachineTemplateCopy(s),
+  );
 }
 
 function expandToMinWords(
   body: string,
   minWords: number,
   extras: string[],
-  seed: number,
 ): string {
   let out = body.trim();
-  const pool = rotate(extras.filter((e) => e && e.trim().length > 20), seed);
+  const pool = extras.filter((e) => e && e.trim().length > 20);
   let i = 0;
   while (countWords(out) < minWords && i < pool.length) {
     const next = pool[i]!.trim();
@@ -317,12 +304,12 @@ function scrubScaffold(text: string): string {
     out = out.replace(re, "");
   }
   out = out.replace(FORBIDDEN_FIRST_HAND, "editorial research notes");
-  out = out.replace(/\s{2,}/g, " ").replace(/\n{3,}/g, "\n\n").trim();
-  // Explicit ban from Fix 37
   out = out.replace(
-    /when its main job matches most of your week/gi,
-    "when the catalog role matches the sessions you actually prioritize",
+    /when its main job matches most of your week(?:\s*[—–-]\s*not as a default for every session)?/gi,
+    "when this role is most of your week",
   );
+  out = out.replace(/\bSKU\b/g, "model");
+  out = out.replace(/\s{2,}/g, " ").replace(/\n{3,}/g, "\n\n").trim();
   return out;
 }
 
@@ -331,7 +318,6 @@ type Ctx = {
   brandName: string;
   map: ProductQuestionMap;
   alts: Product[];
-  seed: number;
   evidenceIds: string[];
 };
 
@@ -341,72 +327,77 @@ function displayName(ctx: Ctx): string {
 
 function traitList(items: string[], max = 3): string {
   const clean = items.map((s) => s.trim()).filter(Boolean).slice(0, max);
-  if (!clean.length) return "its stated catalog strengths";
+  if (!clean.length) return "its stated strengths";
   if (clean.length === 1) return lowerFirst(clean[0]!);
   if (clean.length === 2) return `${lowerFirst(clean[0]!)}, plus ${lowerFirst(clean[1]!)}`;
   return `${lowerFirst(clean[0]!)}, ${lowerFirst(clean[1]!)}, and ${lowerFirst(clean[2]!)}`;
 }
 
-function uniqueTokenList(product: Product): string[] {
-  const slugTok = product.slug.replace(/[^a-z0-9]+/gi, "");
-  const idTok = product.id.replace(/[^a-z0-9]+/gi, "");
-  const tokens: string[] = [`skuslug${slugTok}`, `skuid${idTok}`];
-  if (product.generation) {
-    tokens.push(
-      `gen${product.generation.replace(/[^a-z0-9]+/gi, "")}${slugTok}`,
-    );
+function needBullet(weakness: string | undefined, fallback: string): string {
+  const t = (weakness ?? "").trim().replace(/\.$/, "");
+  if (!t) return `You need ${fallback}.`;
+  if (/^replaced by /i.test(t)) {
+    return `You need the model that replaced this one — ${t.replace(/^replaced by /i, "")}.`;
   }
-  for (const pair of allSpecPairs(product)) {
-    const k = pair.key.toLowerCase().replace(/[^a-z0-9]+/g, "");
-    const v = pair.value.toLowerCase().replace(/[^a-z0-9]+/g, "");
-    if (k.length >= 2 && v.length >= 1) {
-      tokens.push(`${slugTok}${k}${v}`);
-      tokens.push(`${v}${k}${slugTok}`);
-    }
+  if (/stabil|guid|overpronat/i.test(t)) {
+    return "You need added stability or guidance.";
   }
-  for (const s of [
-    ...(product.strengths ?? []),
-    ...(product.weaknesses ?? []),
-  ]) {
-    const t = s.toLowerCase().replace(/[^a-z0-9]+/g, "");
-    if (t.length >= 8) tokens.push(`${slugTok}${t.slice(0, 28)}`);
+  if (/^not ideal (?:on|for) /i.test(t)) {
+    return `You need a shoe that works ${t.replace(/^not ideal /i, "")}.`;
   }
-  for (const id of [
-    ...(product.useCaseIds ?? []),
-    ...(product.subcategoryIds ?? []),
-  ]) {
-    tokens.push(`${slugTok}${id.replace(/[^a-z0-9]+/g, "")}`);
+  if (/^not a /i.test(t) || /^not an /i.test(t)) {
+    return `You need ${t.replace(/^not /i, "")}.`;
   }
-  for (let i = 0; i + 5 < slugTok.length; i += 3) {
-    tokens.push(`${slugTok.slice(i)}${slugTok.slice(0, i + 3)}`);
+  if (/^not /i.test(t)) {
+    return `You need to avoid this when ${lowerFirst(t)}.`;
   }
-  return [...new Set(tokens.filter((t) => t.length >= 6))].slice(0, 24);
-}
-
-function skuStamp(product: Product): string {
-  return uniqueTokenList(product).join(" ");
+  return `You need to avoid ${lowerFirst(t)}.`;
 }
 
 function uniqueTopicBody(topic: TopicKey, ctx: Ctx): string {
   const p = ctx.product;
-  const tokens = uniqueTokenList(p);
-  const rotated = rotate(tokens, ctx.seed + topic.length * 13);
-  const stamp = rotated.join(" ");
-  const topicTok = `${p.slug.replace(/[^a-z0-9]+/gi, "")}${topic}`;
-  const paras = [
-    `${stamp} ${p.shortDescription.trim()}`,
-    ...catalogCorpus(p).map(
-      (line, i) =>
-        `${rotate(tokens, i + topic.length).slice(0, 10).join(" ")} ${line}`,
-    ),
-    `${stamp} ${topic} ${topicTok}`,
-  ];
-  return expandToMinWords(
-    joinParagraphs(paras, ctx.seed + topic.length * 13),
-    220,
-    productOnlyFillers(ctx),
-    ctx.seed + topic.length * 13,
-  );
+  const name = displayName(ctx);
+  const role = ctx.map.intendedJob;
+  const desc = p.shortDescription.trim();
+  const strengths = traitList(ctx.map.strongestTraits, 2);
+  const compromise = traitList(ctx.map.compromises, 2);
+  const peer =
+    ctx.map.competitors[0]?.name ?? ctx.alts[0]?.name ?? "a closer specialist";
+  const weight = specOf(p, "weight");
+  const drop = specOf(p, "drop");
+  const heel = specOf(p, "heelStack");
+  const fore = specOf(p, "forefootStack");
+  const feel = specOf(p, "cushionFeel") ?? specOf(p, "rideCharacter");
+  const stability = specOf(p, "stability");
+  const midsole = specOf(p, "midsole");
+  const terrain = specOf(p, "terrain");
+  const widths = specOf(p, "widthOptions");
+  const battery = specOf(p, "batteryGps") ?? specOf(p, "batteryLifeHours");
+  const display = specOf(p, "displayType");
+  const gen = p.generation ? ` Generation ${p.generation} is the current reference.` : "";
+
+  const leads: Record<TopicKey, string> = {
+    overview: `${name} is a ${role}. ${desc} I'd shortlist it for ${strengths}. I'd pause when ${compromise} is most of your week — ${peer} is the cleaner starting compare.${gen}`,
+    specs: specDumpSentence(p),
+    fit: `Fit has to work for a ${role}, not as a one-size story. ${widths ? `Width options include ${widths}, which matters if volume is the weekly filter. ` : ""}${desc} If lockdown or volume is the reason you return shoes, try it on or buy somewhere returns are easy rather than hoping the last covers every foot.`,
+    cushioning: `Cushioning is why ${name} sits in the ${role} lane — protection for the miles you actually run, not a lab score.${midsole ? ` The midsole story is ${midsole}.` : ""}${feel ? ` Published feel is ${feel}, so easy miles should stay ${feel} rather than dead-flat.` : ""}${heel || fore ? ` Stack is listed at ${[heel && `heel ${heel} mm`, fore && `forefoot ${fore} mm`].filter(Boolean).join(" and ")}; read that as ride height and protection, not a reason to ignore ${compromise}.` : ""}`,
+    ride: `The ride is aimed at ${role} sessions, not a universal score.${feel ? ` It is listed as ${feel}, so the transition should feel like that on easy and steady paces.` : ""} ${drop ? `The ${drop} mm drop is a familiar ${isTrailShoe(ctx.map) ? "trail" : "road"} geometry — useful if you already train in that range, not a reason to switch if you wanted a more aggressive race rocker.` : ""} ${weight ? `At ${weight}, it should feel like a ${role} rather than a race spike.` : ""} I'd keep it when that ride matches most of your week; ${peer} is the better compare if you wanted a different snap or transition.`,
+    stability: stability && /neutral/i.test(stability)
+      ? `${name} is a neutral ${role}. That is a support story, not a medical claim — it will not replace a guidance shoe if you need support most days. ${desc} If you need added stability or guidance, open a dedicated option before stretching this last.`
+      : `Stability should be read as the support story for ${role} miles${stability ? ` (published as ${stability})` : ""}, not a medical claim. ${desc} If you need guidance most days, open a dedicated stability option before stretching this last.`,
+    upper: `Upper and lockdown should be judged for the ${role} you actually run, not for a race-day wrap you will not use. ${desc} If hot spots or volume are the weekly filter, that matters more than a material name on the hangtag.`,
+    grip: `Grip follows the ${terrain ?? role} surface brief. Road rubber is the wrong spend for technical mud; trail lugs are the wrong spend for all-asphalt weeks. ${desc} Compare ${peer} when the surface job does not match.`,
+    durability: `Durability belongs in a ${role} rotation, not a forever one-product plan. ${compromise} is the ownership limit to weigh against ${strengths}. We have not logged a wear diary on this page unless a first-hand section says otherwise.`,
+    tech: `Features should be read as a ${role} tool, not a spec dump.${battery ? ` Battery life is listed at ${battery} — that matters for the longest session you actually do, not as a trophy number.` : ""}${display ? ` The display is ${display}.` : ""} If you need a different sensor or battery story, ${peer} is the closer specialist.`,
+    performance: `Everyday performance is the ${role} brief, not a universal score. ${desc} Keep it when ${strengths} is the week; skip it when ${compromise} is the pattern.`,
+    strengths: `${name} is strongest as a ${role} when ${strengths}. That is the case for keeping it over ${peer} — not a claim that it covers every session.`,
+    tradeoffs: `The honest limit on ${name} is ${compromise}. If that pattern is most of your week, ${peer} is the cleaner starting compare.`,
+    usecase: `Buy ${name} when a ${role} is the actual job and ${strengths} is non-negotiable. Skip it when ${compromise} would hit most sessions, or when ${peer} is simply closer to the week you run.`,
+    value: `Value is whether the ${role} brief is worth the spend versus ${peer}. Pay for ${strengths}; do not pay for a role you will not use.`,
+  };
+
+  const minWords = topic === "specs" ? 40 : 90;
+  return expandToMinWords(leads[topic], minWords, productOnlyFillers(ctx));
 }
 
 function bodyForTopic(topic: TopicKey, ctx: Ctx): string {
@@ -415,18 +406,13 @@ function bodyForTopic(topic: TopicKey, ctx: Ctx): string {
 
 function buildVerdict(ctx: Ctx): string {
   const { product, map } = ctx;
-  const stamp = skuStamp(product);
+  const name = displayName(ctx);
   const strength = map.strongestTraits[0] ?? product.shortDescription;
-  const compromise = map.compromises[0] ?? product.shortDescription;
+  const compromise = map.compromises[0] ?? "a different specialist job";
+  const peer =
+    map.competitors[0]?.name ?? ctx.alts[0]?.name ?? "a closer specialist";
   return scrubScaffold(
-    [
-      stamp,
-      product.shortDescription.trim(),
-      `${strength} is why ${displayName(ctx)} makes the shortlist as a ${map.intendedJob}.`,
-      `${compromise} is why you walk.`,
-    ]
-      .filter(Boolean)
-      .join(" "),
+    `${name} is a ${map.intendedJob}. ${product.shortDescription.trim()} I'd shortlist it for ${lowerFirst(strength)}. The trade-off is ${lowerFirst(compromise)} — ${peer} is the cleaner compare when that is most of your week. It fits buyers who actually need a ${map.intendedJob}, not a one-product rotation.`,
   );
 }
 
@@ -435,22 +421,16 @@ function buildPros(ctx: Ctx): string[] {
   const pros = map.strongestTraits.map((s) => s.trim()).filter((s) => s.length >= 8);
   if (pros.length < 2) {
     pros.push(
-      `${map.intendedJob} role clarity for ${product.name}`,
+      `Clear ${map.intendedJob} role`,
       product.shortDescription.trim().replace(/\.$/, "") ||
-        `Catalog positioning suited to a ${map.intendedJob}`,
+        `Positioned for ${map.intendedJob} sessions`,
     );
   }
   const midsole = fmtSpec(product.specifications.midsole);
   if (midsole && !pros.some((p) => p.toLowerCase().includes(midsole.toLowerCase()))) {
-    pros.push(`Midsole story: ${midsole}`);
+    pros.push(`${midsole} midsole`);
   }
-  const carbs = fmtSpec(product.specifications.carbsPerServing);
-  if (carbs) pros.push(`Labeled ${carbs} g carbohydrate per serving`);
-  const lumens = fmtSpec(product.specifications.lumens);
-  if (lumens) pros.push(`${lumens} lumens-class output for the intended night sessions`);
-  const cap = fmtSpec(product.specifications.capacity);
-  if (cap) pros.push(`Capacity/volume ${cap} matches the ${map.intendedJob} carry job`);
-  return [...new Set(pros)].slice(0, 6);
+  return [...new Set(pros)].slice(0, 5);
 }
 
 function buildCons(ctx: Ctx): string[] {
@@ -459,13 +439,13 @@ function buildCons(ctx: Ctx): string[] {
   if (cons.length < 2) {
     if (isRaceRoadShoe(map)) {
       cons.push(
-        "Not built as a soft easy-mile daily trainer",
-        "Aggressive race intent limits all-week versatility",
+        "Not a soft easy-mile daily trainer",
+        "Race intent limits all-week versatility",
       );
     } else {
       cons.push(
-        `Specialist ${map.intendedJob} — poor as a universal default`,
-        `Role mismatch when your week sits outside ${product.name}'s brief`,
+        `Specialist ${map.intendedJob} — a poor universal default`,
+        `A mismatch when most sessions sit outside ${product.name}'s job`,
       );
     }
   }
@@ -473,111 +453,42 @@ function buildCons(ctx: Ctx): string[] {
 }
 
 function buildWhoShouldBuy(ctx: Ctx): string[] {
-  const { map, product, seed } = ctx;
-  const s0 = map.strongestTraits[0] ?? product.shortDescription;
-  const s1 = map.strongestTraits[1] ?? map.differentiators[0] ?? map.intendedJob;
-  const peer = map.competitors[0]?.name ?? ctx.alts[0]?.name ?? "a generalist peer";
-  const peer2 = map.competitors[1]?.name;
-  const specBit =
-    fmtSpec(product.specifications.midsole) ||
-    fmtSpec(product.specifications.weight) ||
-    fmtSpec(product.specifications.battery) ||
-    fmtSpec(product.specifications.drop) ||
-    map.decisionSpecs[0] ||
-    map.intendedJob;
-
-  const line1 = pick(
-    [
-      `Shortlist ${product.name} when a ${map.intendedJob} is the job and ${lowerFirst(s0)} is what you keep paying for week after week.`,
-      `Buy ${product.name} if ${lowerFirst(s0)} is non-negotiable and you are explicitly shopping a ${map.intendedJob}, not a crossover default.`,
-      `${product.name} fits buyers who already decided the lane is “${map.intendedJob}” and want ${lowerFirst(s0)} as the headline trait.`,
-    ],
-    seed,
-    21,
-  );
-  const line2 = pick(
-    [
-      `Keep ${product.name} over ${peer} when ${lowerFirst(s1)} shows up more often in your plan than whatever ${peer} optimizes for.`,
-      `Compared with ${peer}, ${product.name} is the clearer pick only while ${lowerFirst(s1)} stays higher priority than peer trade-offs.`,
-      `If ${specBit} is part of why the catalog role makes sense, ${product.name} stays ahead of ${peer} for that brief.`,
-    ],
-    seed,
-    22,
-  );
-  const line3 = peer2
-    ? pick(
-        [
-          `After lining ${product.name} up against ${peer2}, you still prefer this ${map.intendedJob} framing for the sessions you protect.`,
-          `You checked ${peer2} and still come back to ${product.name} because ${lowerFirst(s0)} matches your actual week better.`,
-        ],
-        seed,
-        23,
-      )
-    : pick(
-        [
-          `You are not hunting a do-everything tool — you want this exact ${map.intendedJob} brief on ${product.name}.`,
-          `Your cart filter is narrow: ${map.intendedJob} + ${lowerFirst(s0)}, which is what ${product.name} is catalogued to deliver.`,
-        ],
-        seed,
-        24,
-      );
-
+  const { map, product } = ctx;
+  const s0 = map.strongestTraits[0];
+  const feel = specOf(product, "cushionFeel") ?? specOf(product, "rideCharacter");
+  const stability = specOf(product, "stability");
+  const line1 = s0
+    ? `You're looking for ${lowerFirst(s0)}.`
+    : `You're looking for a ${map.intendedJob}.`;
+  const line2 = feel
+    ? `You want a ${feel} ride for ${map.intendedJob} sessions.`
+    : `You want this job without stretching it into another role.`;
+  const line3 =
+    stability && /neutral/i.test(stability)
+      ? `You prefer a neutral ${map.intendedJob}.`
+      : `You prefer this when ${map.intendedJob} is the weekly filter.`;
   return [line1, line2, line3];
 }
 
 function buildWhoShouldAvoid(ctx: Ctx): string[] {
-  const { map, product, seed } = ctx;
-  const c0 = map.compromises[0] ?? `sessions outside a ${map.intendedJob}`;
-  const c1 = map.compromises[1] ?? "needing a different specialty peer";
+  const { map, product } = ctx;
   const peer =
-    map.competitors[0]?.name ?? ctx.alts[0]?.fullName ?? "a closer specialist peer";
-  const s0 = map.strongestTraits[0] ?? product.name;
-
-  const line1 = pick(
-    [
-      `Skip ${product.name} when ${lowerFirst(c0)} is a weekly pattern — ${peer} is the cleaner starting compare.`,
-      `If ${lowerFirst(c0)} would hit most sessions, do not force ${product.name}; open ${peer} first.`,
-      `${product.name} is a weak buy whenever ${lowerFirst(c0)} is normal for you rather than rare.`,
-    ],
-    seed,
-    31,
+    map.competitors[0]?.name ?? ctx.alts[0]?.name ?? "a closer specialist";
+  const cat = product.categoryId ?? "";
+  const line1 = needBullet(
+    map.compromises[0],
+    `a different specialist than a ${map.intendedJob}`,
   );
-  const line2 = pick(
-    [
-      `Choose another tool if avoiding ${lowerFirst(c1)} matters more than gaining ${lowerFirst(s0)}.`,
-      `When ${lowerFirst(c1)} is the deal-breaker, ${product.name}'s upside (${lowerFirst(s0)}) is not enough to justify the brief.`,
-      `Walk if ${lowerFirst(c1)} sits in your must-not-have list even though ${product.name} nails ${lowerFirst(s0)}.`,
-    ],
-    seed,
-    32,
-  );
-  const line3 = isRaceRoadShoe(map)
-    ? pick(
-        [
-          `Easy-volume weeks do not need ${product.name}'s carbon race brief — keep race day separate.`,
-          `${product.name} is the wrong default when soft easy miles are most of the plan.`,
-        ],
-        seed,
-        33,
-      )
+  const line2 = isRaceRoadShoe(map)
+    ? `You're primarily looking for a soft easy-mile daily trainer.`
     : isTrailShoe(map)
-      ? pick(
-          [
-            `Road-only blocks undercut ${product.name}; buy a road daily instead of wishing trail geometry away.`,
-            `If pavement is the real surface, ${product.name}'s trail brief is the wrong spend.`,
-          ],
-          seed,
-          34,
-        )
-      : pick(
-          [
-            `One-tool-for-every-session shoppers will outgrow ${product.name}'s ${map.intendedJob} focus quickly.`,
-            `If you need universal coverage, ${product.name} as a ${map.intendedJob} will feel incomplete beside a broader peer.`,
-          ],
-          seed,
-          35,
-        );
-
+      ? `You're primarily looking for a road daily, not trail geometry.`
+      : /shoe|footwear/i.test(cat)
+        ? `You're primarily looking for the lightest race-day option.`
+        : /watch|hrm/i.test(cat)
+          ? `You prefer a simpler watch when you do not need this feature set.`
+        : `You prefer a different tool when this role is not your week.`;
+  const line3 = `You prefer ${peer} when a ${map.intendedJob} is not the weekly job.`;
   return [line1, line2, line3];
 }
 
@@ -622,15 +533,25 @@ function buildScoreBreakdown(product: Product, map: ProductQuestionMap): ScoreBr
       label,
       score,
       max: 100,
-      note: `${label} viewed through the ${map.intendedJob} brief`,
+      note: `${label} for this ${map.intendedJob}`,
     };
   });
 }
 
 function testingContextCopy(ctx: Ctx): string {
-  const dump = specDumpSentence(ctx.product);
-  const uses = getUseCaseDump(ctx.product);
-  return `Kitletics Expert Research Review. How we assessed it: ${displayName(ctx)} as a ${ctx.map.intendedJob}. ${skuStamp(ctx.product)} ${dump} ${uses} Strengths on file: ${traitList(ctx.map.strongestTraits, 3)}. Limits on file: ${traitList(ctx.map.compromises, 3)}. Linked peers: ${ctx.alts.map((a) => a.name).slice(0, 4).join(", ") || "none linked"}. This page does not claim personal test sessions.`;
+  const name = displayName(ctx);
+  const peers = ctx.alts
+    .map((a) => a.name)
+    .slice(0, 4)
+    .join(", ");
+  const specBits = [
+    specOf(ctx.product, "weight") ? `${specOf(ctx.product, "weight")} weight` : null,
+    specOf(ctx.product, "drop") ? `${specOf(ctx.product, "drop")} mm drop` : null,
+    specOf(ctx.product, "midsole"),
+    specOf(ctx.product, "batteryGps") ?? specOf(ctx.product, "batteryLifeHours"),
+    specOf(ctx.product, "displayType"),
+  ].filter(Boolean);
+  return `How we assessed the ${name}: this is Expert Research. We used manufacturer specifications${specBits.length ? ` (${specBits.slice(0, 3).join(", ")})` : ""}, the published role as a ${ctx.map.intendedJob}, and a comparison set${peers ? ` (${peers})` : ""}. We have not personally tested this product. Feel claims and scores are research-informed, not a wear diary.`;
 }
 
 /**
@@ -672,7 +593,6 @@ export function synthesizeUniqueExpertResearch(
   }
 
   const brandName = opts.brandName?.trim() || "the brand";
-  const seed = hashSlug(product.slug);
   const evidenceIds =
     opts.evidenceIds?.length > 0
       ? [...opts.evidenceIds]
@@ -680,15 +600,15 @@ export function synthesizeUniqueExpertResearch(
         ? [...product.evidenceIds]
         : ["ev-catalog-mfr", "ev-catalog-editorial"];
 
-  const ctx: Ctx = { product, brandName, map, alts, seed, evidenceIds };
-  const blueprint = rotate(blueprintFor(product.categoryId), seed);
+  const ctx: Ctx = { product, brandName, map, alts, evidenceIds };
+  const blueprint = blueprintFor(product.categoryId);
 
   const sections: ContentSection[] = blueprint.map((bp) => {
-    const minWords = SUBSTANTIVE_TOPICS.has(bp.topic) ? 220 : 160;
+    const minWords = bp.topic === "specs" ? 40 : SUBSTANTIVE_TOPICS.has(bp.topic) ? 90 : 70;
     let body = scrubScaffold(bodyForTopic(bp.topic, ctx));
     if (countWords(body) < minWords) {
       body = scrubScaffold(
-        expandToMinWords(body, minWords, productOnlyFillers(ctx), seed + bp.topic.length),
+        expandToMinWords(body, minWords, productOnlyFillers(ctx)),
       );
     }
     return {
@@ -699,16 +619,16 @@ export function synthesizeUniqueExpertResearch(
     };
   });
 
-  // Ensure ≥4 sections clear 220 words for categories that support deep outlines
   const deep = sections
     .map((s, idx) => ({ s, idx, words: countWords(s.body) }))
     .sort((a, b) => b.words - a.words);
-  let need = Math.max(0, 4 - deep.filter((d) => d.words >= 220).length);
+  let need = Math.max(0, 4 - deep.filter((d) => d.words >= 90).length);
   for (const row of deep) {
     if (need <= 0) break;
-    if (row.words >= 220) continue;
+    if (row.words >= 90) continue;
+    if (/spec/i.test(row.s.id) || /spec/i.test(row.s.heading)) continue;
     const expanded = scrubScaffold(
-      expandToMinWords(row.s.body, 220, productOnlyFillers(ctx), seed + row.idx * 3),
+      expandToMinWords(row.s.body, 90, productOnlyFillers(ctx)),
     );
     sections[row.idx] = { ...row.s, body: expanded };
     need--;
@@ -730,8 +650,8 @@ export function synthesizeUniqueExpertResearch(
     title: existing?.title ?? `${displayName(ctx)} Review`,
     subtitle:
       existing?.subtitle ??
-      `${map.intendedJob[0]!.toUpperCase()}${map.intendedJob.slice(1)} — research synthesis`,
-    reviewType: "expert-research",
+      `${displayName(ctx)} — ${map.intendedJob}`,
+    reviewType: existing?.reviewType ?? "expert-research",
     verdict,
     bottomLine: verdict,
     score,
@@ -764,23 +684,50 @@ export function synthesizeUniqueExpertResearch(
     publishedAt: existing?.publishedAt,
     createdAt: existing?.createdAt ?? now,
     updatedAt: now,
-    seoTitle: existing?.seoTitle ?? `${displayName(ctx)}: Specs, Role & Alternatives`,
-    seoDescription:
+    seoTitle: scrubScaffold(
+      existing?.seoTitle ?? `${displayName(ctx)}: Specs, Role & Alternatives`,
+    ),
+    seoDescription: scrubScaffold(
       existing?.seoDescription ??
-      scrubScaffold(
-        `${displayName(ctx)} ${map.intendedJob} research — ${traitList(map.strongestTraits, 2)}; compare ${map.competitors[0]?.name ?? "linked peers"}.`,
-      ).slice(0, 160),
+        `${displayName(ctx)} is a ${map.intendedJob}. ${traitList(map.strongestTraits, 2)}. Compare ${map.competitors[0]?.name ?? "linked peers"}.`,
+    ).slice(0, 160),
   };
 
-  // Final scrub pass on all public strings
+  review.title = scrubScaffold(review.title);
+  if (review.subtitle) review.subtitle = scrubScaffold(review.subtitle);
   review.verdict = scrubScaffold(review.verdict);
   review.bottomLine = scrubScaffold(review.bottomLine ?? review.verdict);
   review.summary = scrubScaffold(review.summary);
-  review.testingContext = scrubScaffold(review.testingContext ?? "");
+  if (review.testingContext) review.testingContext = scrubScaffold(review.testingContext);
+  review.pros = review.pros.map((s) => scrubScaffold(s));
+  review.cons = review.cons.map((s) => scrubScaffold(s));
+  review.whoShouldBuy = review.whoShouldBuy.map((s) => scrubScaffold(s));
+  review.whoShouldAvoid = review.whoShouldAvoid.map((s) => scrubScaffold(s));
   review.sections = review.sections.map((s) => ({
     ...s,
+    heading: scrubScaffold(s.heading),
     body: scrubScaffold(s.body),
   }));
+  if (review.scoreBreakdown) {
+    review.scoreBreakdown = review.scoreBreakdown.map((item) => ({
+      ...item,
+      note: item.note ? scrubScaffold(item.note) : item.note,
+    }));
+  }
+
+  if (containsPublicContentCorruption(review)) {
+    return {
+      status: "NEEDS_RESEARCH",
+      gaps: ["public_content_corruption"],
+    };
+  }
+  const qa = assessConsumerCopyQuality(review);
+  if (!qa.ok) {
+    return {
+      status: "NEEDS_RESEARCH",
+      gaps: qa.reasons.length ? qa.reasons : ["consumer_copy_quality"],
+    };
+  }
 
   return review;
 }

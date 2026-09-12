@@ -23,4 +23,38 @@ describe("homepage data", () => {
       data.comparisons.items.some((c) => !c.slug.includes("novablast")),
     ).toBe(true);
   });
+
+  it("uses topic-correct unique images for latest guides and journal", () => {
+    const data = getHomepageData({ region: "NL" });
+    expect(data.latestGuides.length).toBe(3);
+
+    const bySlug = new Map(data.latestGuides.map((g) => [g.slug, g.imageSrc]));
+    expect(bySlug.get("how-to-choose-running-watch")).toMatch(/watches\//);
+    expect(bySlug.get("how-to-choose-running-shoes")).toMatch(
+      /running\/(products|shoes)|guide-running-shoes/,
+    );
+    expect(bySlug.get("open-ear-vs-in-ear-running-headphones")).toMatch(
+      /headphones\//,
+    );
+
+    const guideSrcs = data.latestGuides.map((g) => g.imageSrc);
+    expect(new Set(guideSrcs).size).toBe(guideSrcs.length);
+
+    for (const g of data.latestGuides) {
+      expect(g.imageSrc).not.toMatch(
+        /guide-how-to-choose|guide-tennis|guide-home-gym/,
+      );
+    }
+
+    // Journal must reuse the same topic image — never a positional filler list
+    expect(data.journalItems.length).toBe(data.latestGuides.length);
+    for (let i = 0; i < data.latestGuides.length; i++) {
+      expect(data.journalItems[i]?.imageSrc).toBe(data.latestGuides[i]?.imageSrc);
+      expect(data.journalItems[i]?.href).toBe(data.latestGuides[i]?.href);
+    }
+
+    expect(data.featuredGuide?.imageSrc).not.toMatch(
+      /guide-how-to-choose|guide-tennis/,
+    );
+  });
 });

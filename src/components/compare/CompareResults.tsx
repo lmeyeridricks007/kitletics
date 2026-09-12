@@ -18,6 +18,7 @@ import {
 } from "@/components/compare/CompareFitSizingBanner";
 import { IMAGE_QUALITY, IMAGE_SIZES } from "@/lib/media/image-delivery";
 import { ScrollableTableRegion } from "@/components/ui/ScrollableTableRegion";
+import { toSituationLabel } from "@/lib/decision-copy";
 
 const SCROLL =
   "scroll-mt-[calc(var(--site-chrome-height,4rem)+3.5rem)]";
@@ -358,8 +359,10 @@ export function CompareResults({
 
     const bestFor: Record<string, string> = {};
     for (const b of orderedProducts) {
-      const names = (b.product.strengths ?? []).slice(0, 3);
-      bestFor[b.product.id] = names.length > 0 ? names.join(", ") : "—";
+    const names = (b.product.strengths ?? [])
+      .slice(0, 2)
+      .map((s) => toSituationLabel(s, "buy", b.product.name).replace(/\.$/, ""));
+    bestFor[b.product.id] = names.length > 0 ? names.join("; ") : "—";
     }
     rows.push({
       key: "best-for",
@@ -1068,6 +1071,12 @@ export function CompareResults({
         shareUrl={shareUrl}
         finderHref={finderHref}
         finderCtaLabel={finderCtaLabel}
+        databaseHref={
+          category?.slug === "running-shoes"
+            ? "/running/shoes/database"
+            : undefined
+        }
+        databaseLabel="Shoe Database"
       />
     </div>
   );

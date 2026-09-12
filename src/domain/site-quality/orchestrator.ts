@@ -12,6 +12,7 @@ import {
   auditSecurityBasics,
 } from "./audits/links-trust-perf";
 import { auditVariantUxCoverage } from "./audits/variant-ux";
+import { auditRenderedQuality } from "./audits/rendered-quality";
 import { applySafeFixes, writeReports } from "./fix-and-report";
 import type {
   LaunchStatus,
@@ -104,6 +105,7 @@ export async function runSiteQualityAgent(
   allBatches.push(auditAccessibilityStatic());
   allBatches.push(auditSecurityBasics());
   allBatches.push(auditVariantUxCoverage());
+  allBatches.push(auditRenderedQuality());
 
   const flat = allBatches.flat();
   if (mode === "audit" || mode === "full" || mode === "fix" || mode === "launch") {
@@ -115,7 +117,7 @@ export async function runSiteQualityAgent(
       }
       if (mode === "performance") return ["performance", "cwv", "media"].includes(i.area);
       if (mode === "content") {
-        return ["content", "guide", "review", "best-guide", "product", "search"].includes(i.area);
+        return ["content", "guide", "review", "best-guide", "product", "search", "rendered-quality"].includes(i.area);
       }
       if (mode === "links") {
         return ["internal-links", "architecture", "redirects", "crawl"].includes(i.area);

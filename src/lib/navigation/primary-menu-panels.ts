@@ -49,6 +49,7 @@ export const PRIMARY_MENU_PANELS: Record<string, Omit<PrimaryMenuPanel, "navHref
         links: [
           { label: "Best running shoes", href: "/best/running-shoes" },
           { label: "Shoe Finder", href: "/tools/running-shoe-finder" },
+          { label: "Shoe Database", href: "/running/shoes/database" },
           { label: "Compare shoes", href: "/compare?domain=shoes&category=running-shoes" },
           {
             label: "How to choose",
@@ -78,8 +79,8 @@ export const PRIMARY_MENU_PANELS: Record<string, Omit<PrimaryMenuPanel, "navHref
       {
         title: "Sports",
         links: [
-          { label: "Padel", href: "/padel" },
-          { label: "Tennis", href: "/tennis" },
+          { label: "Padel", href: "/padel", badge: "Soon" },
+          { label: "Tennis", href: "/tennis", badge: "Soon" },
           { label: "Pickleball", href: "/pickleball", badge: "Soon" },
           { label: "Badminton", href: "/badminton", badge: "Soon" },
           { label: "Squash", href: "/squash", badge: "Soon" },
@@ -88,8 +89,8 @@ export const PRIMARY_MENU_PANELS: Record<string, Omit<PrimaryMenuPanel, "navHref
       {
         title: "Learn",
         links: [
-          { label: "Padel guides", href: "/guides?sport=padel" },
-          { label: "Tennis guides", href: "/guides?sport=tennis" },
+          { label: "Padel guides", href: "/guides?sport=padel", badge: "Soon" },
+          { label: "Tennis guides", href: "/guides?sport=tennis", badge: "Soon" },
           { label: "Racket sports hub", href: "/racket" },
         ],
       },

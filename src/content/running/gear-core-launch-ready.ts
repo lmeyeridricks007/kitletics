@@ -71,7 +71,7 @@ function buildReview(seed: ReviewSeed): Review {
     `Your fit, carry, or awareness needs sit outside what this product was built to do`,
   ];
   const bottomLine = `${seed.job}. I'd shortlist it when you want ${seed.shortlist}. I'd pause if ${seed.pause} shows up often in your week.`;
-  const verdict = `Buy the ${seed.name} when ${seed.job.toLowerCase()} matches most of your week — not as a default for every session. It earns a look for ${seed.shortlist}. Look elsewhere if ${seed.pause}.`;
+  const verdict = `${seed.name} is a ${seed.job}. I'd shortlist it for ${seed.shortlist}. The trade-off is ${seed.pause} — look elsewhere if that is most of your week.`;
 
   return {
     id,
@@ -92,7 +92,7 @@ function buildReview(seed: ReviewSeed): Review {
       {
         id: "sec-overview",
         heading: "What it is",
-        body: `${seed.job}.\n\n${seed.name} is built for a specific job in the category — use that job as your first filter.\n\nI'd shortlist it when you want ${seed.shortlist}.\n\nI'd pause if ${seed.pause} would show up often in your week.\n\nBottom line: ${bottomLine}`,
+        body: `${seed.job}.\n\n${seed.name} is built for a defined role in the category — use that as your first filter.\n\nI'd shortlist it when you want ${seed.shortlist}.\n\nI'd pause if ${seed.pause} would show up often in your week.\n\nBottom line: ${bottomLine}`,
         evidenceIds: ["ev-catalog-editorial"],
       },
       {

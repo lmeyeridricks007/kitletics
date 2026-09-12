@@ -111,28 +111,28 @@ export function ReviewSummaryBlock({
           <div className="mt-8 grid gap-8 sm:grid-cols-2">
             <AudienceList
               title="Who this review is for"
-              items={review.whoShouldBuy}
+              items={data.decisionCopy.bestFor}
               icon={Users}
               iconClass="text-success"
               mentionOptions={mentionOptions}
             />
             <AudienceList
               title="Who it's not for"
-              items={review.whoShouldAvoid}
+              items={data.decisionCopy.notIdealFor}
               icon={UserX}
               iconClass="text-subtle"
               mentionOptions={mentionOptions}
             />
             <AudienceList
               title="Pros"
-              items={review.pros}
+              items={data.decisionCopy.pros.length ? data.decisionCopy.pros : review.pros}
               icon={Check}
               iconClass="text-success"
               mentionOptions={mentionOptions}
             />
             <AudienceList
               title="Cons"
-              items={review.cons}
+              items={data.decisionCopy.cons.length ? data.decisionCopy.cons : review.cons}
               icon={MinusCircle}
               iconClass="text-danger"
               mentionOptions={mentionOptions}

@@ -23,10 +23,8 @@ import {
   canPublishBrandHub,
   getDefaultBrandHubConfig,
 } from "@/lib/brand-hub/config";
-import {
-  buildBrandHubEditorial,
-  BRAND_HUB_GUIDE_IMAGES,
-} from "@/lib/brand-hub/brand-hub-editorial";
+import { resolveGuideImage } from "@/lib/guides/resolve-guide-image";
+import { buildBrandHubEditorial } from "@/lib/brand-hub/brand-hub-editorial";
 import { getCategoryHref } from "@/lib/navigation/category-href";
 import {
   getLaunchEligibility,
@@ -410,10 +408,7 @@ export function getBrandHubPageData(input: {
       title: g.title,
       description: g.shortDescription ?? g.subtitle ?? "",
       href: `/guides/${g.slug}`,
-      imageSrc:
-        config.guideImageMap?.[g.slug] ??
-        BRAND_HUB_GUIDE_IMAGES[g.slug] ??
-        "/images/home/guide-how-to-choose.jpg",
+      imageSrc: resolveGuideImage(g).src,
     }));
 
   const currentCount = products.filter(

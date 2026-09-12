@@ -6,8 +6,8 @@
 import type { Review } from "@/domain/editorial/types";
 import type { Brand, Product } from "@/domain/products/types";
 import { getBrandById, getProductById } from "@/repositories";
+import { classifyDecisionLine, countDecisionWords } from "@/lib/decision-copy";
 
-const MIN_DECISION_LEN = 64;
 const MIN_LINES = 2;
 
 function lowerLead(s: string): string {
@@ -35,18 +35,24 @@ function peerNames(product: Product, review: Review): string[] {
   return names;
 }
 
+function isConsumerDecisionLine(t: string): boolean {
+  const words = t.split(/\s+/).filter(Boolean).length;
+  if (words < 6) return false;
+  return /^(you(?:'re| are)? looking|you want|you prefer|you need|you(?:'re| are)? primarily|i(?:'d| would) (?:shortlist|pause|skip|rotate))/i.test(
+    t,
+  );
+}
+
 function isThinLine(line: string): boolean {
   const t = line.trim();
-  const words = t.split(/\s+/).filter(Boolean).length;
-  const hasClause = /[—–,]| when | if | beside | instead | rather | — /i.test(t);
-  // Short but complete decision sentences (who + why / peer) with a clause marker
-  if (t.length >= 48 && words >= 8 && hasClause) return false;
-  if (t.length < MIN_DECISION_LEN) return true;
-  // Label-like: few words, no clause markers
-  if (t.length < 90 && !hasClause) {
-    if (words <= 8) return true;
+  const cls = classifyDecisionLine(t);
+  if (cls === "MACHINE_LIKE" || cls === "BROKEN" || cls === "CONFUSING") {
+    return true;
   }
-  return false;
+  if (isConsumerDecisionLine(t)) return false;
+  if (cls === "GOOD" || cls === "WORDY") return false;
+  const words = countDecisionWords(t);
+  return words < 5;
 }
 
 function toolNoun(product: Product): string {
@@ -78,13 +84,11 @@ function terrainHint(product: Product): string | undefined {
 
 function buildBuyLines(
   product: Product,
-  brand: Brand | undefined,
+  _brand: Brand | undefined,
   review: Review,
 ): string[] {
-  const brandName = brand?.name ?? "this brand";
   const peers = peerNames(product, review);
   const peer = peers[0];
-  const peer2 = peers[1];
   const strengths = (product.strengths ?? []).map((s) => s.trim()).filter(Boolean);
   const s0 = strengths[0];
   const s1 = strengths[1];
@@ -92,43 +96,29 @@ function buildBuyLines(
   const lines: string[] = [];
 
   if (s0) {
-    lines.push(
-      peer
-        ? `You want ${lowerLead(s0)} and will rotate or compare against ${peer} — that is the ${product.name}'s main job`
-        : `You want ${lowerLead(s0)} as the weekly priority — that is what the ${product.name} is built for`,
-    );
+    lines.push(`You're looking for ${lowerLead(s0)}.`);
+  } else {
+    lines.push(`You're looking for a clear weekly training role.`);
   }
 
   if (s1) {
-    lines.push(
-      `Most of your sessions match ${lowerLead(s1)} more than a do-everything compromise`,
-    );
-  } else if (peer && peer2) {
-    lines.push(
-      `You're choosing among ${peer}, ${peer2}, and similar tools and the ${product.name} fits your week best`,
-    );
+    lines.push(`You want ${lowerLead(s1)}.`);
+  } else if (peer) {
+    lines.push(`You prefer this over ${peer} when that role matches most weeks.`);
   } else {
-    lines.push(
-      `Your week matches what ${brandName} positions the ${product.name} to do — not a adjacent specialty role`,
-    );
+    lines.push(`You want a defined weekly role instead of a universal default.`);
   }
 
   if (terrain === "road") {
     lines.push(
-      `You're shopping a road (or treadmill) tool and can keep trail or race-day jobs in other shoes when needed`,
+      `You prefer a road or treadmill ${toolNoun(product)} and can keep trail jobs elsewhere.`,
     );
   } else if (terrain === "trail") {
-    lines.push(
-      `You need trail-specific grip and protection and are happy keeping pavement miles in a separate road shoe`,
-    );
+    lines.push(`You need trail-specific grip and can keep pavement miles elsewhere.`);
   } else if (terrain === "court") {
-    lines.push(
-      `You need court-specific movement and outsole behaviour rather than a borrowed running or training shoe`,
-    );
-  } else {
-    lines.push(
-      `You're building a clear role for the ${product.name} instead of forcing one product to cover every session`,
-    );
+    lines.push(`You need court-specific movement rather than a borrowed training shoe.`);
+  } else if (peer) {
+    lines.push(`You prefer this when that weekly role is the one you repeat.`);
   }
 
   return uniqueLines(lines).slice(0, 3);
@@ -136,7 +126,7 @@ function buildBuyLines(
 
 function buildAvoidLines(
   product: Product,
-  brand: Brand | undefined,
+  _brand: Brand | undefined,
   review: Review,
 ): string[] {
   const peers = peerNames(product, review);
@@ -145,55 +135,35 @@ function buildAvoidLines(
   const w0 = weaknesses[0];
   const w1 = weaknesses[1];
   const terrain = terrainHint(product);
+  const tool = toolNoun(product);
   const lines: string[] = [];
 
   if (w0) {
-    const replaced = w0.match(/^replaced by (.+)$/i);
-    if (replaced) {
-      lines.push(
-        `You want the current flagship that replaced this model — look at ${replaced[1]} instead of forcing the ${product.name}`,
-      );
+    if (/^replaced by /i.test(w0)) {
+      lines.push(`You need the current model that replaced this one.`);
+    } else if (/stabil|guid/i.test(w0)) {
+      lines.push(`You need added stability or guidance.`);
+    } else if (/race/i.test(w0)) {
+      lines.push(`You're primarily looking for the lightest race-day option.`);
     } else {
-      const need = /^(not |no |isn't |is not )/i.test(w0)
-        ? lowerLead(w0)
-        : `to avoid ${lowerLead(w0)}`;
-      lines.push(
-        peer
-          ? `You need ${need} — look at ${peer} or a clearer specialist instead of forcing the ${product.name}`
-          : `You need ${need} on this purchase — the ${product.name} will fight that priority most weeks`,
-      );
+      lines.push(`You need ${lowerLead(w0)}.`);
     }
   }
 
-  const tool = toolNoun(product);
-
   if (w1) {
-    lines.push(
-      `Your must-haves conflict with a ${product.name} trade-off: ${lowerLead(w1)}`,
-    );
+    lines.push(`You prefer to avoid ${lowerLead(w1)}.`);
   } else if (peer) {
-    lines.push(
-      `You want one ${tool} for every session and pace — the ${product.name} is a defined role; ${peer} or a second ${tool} may cover the gaps better`,
-    );
+    lines.push(`You're primarily looking for a mixed-week default such as ${peer}.`);
   } else {
-    lines.push(
-      `You want one ${tool} for every session and pace — the ${product.name} is a defined role, not a universal tool`,
-    );
+    lines.push(`You're primarily looking for a universal default, not a defined ${tool} role.`);
   }
 
   if (terrain === "road" && tool === "shoe") {
-    lines.push(
-      `You need technical trail grip or a dedicated race plate as the primary job — this platform is aimed elsewhere`,
-    );
+    lines.push(`You're primarily looking for trail grip or a dedicated race plate.`);
   } else if (terrain === "trail" && tool === "shoe") {
-    lines.push(
-      `Your week is mostly smooth pavement connectors — a road daily will usually feel more appropriate`,
-    );
+    lines.push(`You prefer a road daily for mostly smooth pavement.`);
   } else {
-    const brandName = brand?.name ?? "another";
-    lines.push(
-      `Your fit, surface, or support needs sit outside what ${brandName} built the ${product.name} to do`,
-    );
+    lines.push(`You prefer a different tool when this role is not your week.`);
   }
 
   return uniqueLines(lines).slice(0, 3);
@@ -224,29 +194,31 @@ function polishExisting(
     // Expand telegram labels into decision lines
     if (/^trail runners?/i.test(t)) {
       return mode === "avoid"
-        ? `You need aggressive trail grip and protection as the primary job — the ${product.name} is not that tool`
-        : `You want trail-ready grip and protection most weeks — that is what the ${product.name} is built to cover`;
+        ? `You need aggressive trail grip and protection as the primary job.`
+        : `You want trail-ready grip and protection most weeks.`;
     }
     if (/single-shoe|one shoe|do-everything|one watch|one racket/i.test(t)) {
       const tool = toolNoun(product);
       return mode === "avoid"
-        ? `You want one ${tool} for easy, workout, and race days — the ${product.name} is a defined role${peer ? `; keep ${peer} or a second ${tool} for the other jobs` : ""}`
-        : `You're happy giving the ${product.name} a clear weekly role instead of forcing one ${tool} to cover every session`;
+        ? `You want one ${tool} for easy, workout, and race days.`
+        : `You want a clear weekly role instead of one ${tool} for every session.`;
     }
-    if (/stability|overpronat/i.test(t) && t.length < MIN_DECISION_LEN) {
+    if (/stability|overpronat/i.test(t)) {
       return mode === "avoid"
-        ? `You need dedicated stability guidance — the ${product.name} will not replace a true support shoe`
-        : `You want dependable guidance under load — confirm the ${product.name} matches that support brief`;
+        ? `You need dedicated stability guidance.`
+        : `You want dependable guidance under load.`;
     }
-    if (/race|tempo|workout/i.test(t) && t.length < MIN_DECISION_LEN) {
+    if (/race|tempo|workout/i.test(t)) {
       return mode === "avoid"
-        ? `You're shopping primarily for race or workout snap — the ${product.name} is aimed at a different session mix${peer ? ` than ${peer}` : ""}`
-        : `${t.replace(/\.*$/, "")} — that race/workout focus is a good fit for the ${product.name}${peer ? ` beside ${peer}` : ""}`;
+        ? `You're primarily looking for race or workout snap.`
+        : `You want race or workout focus in the weekly mix.`;
     }
-    if (peer && t.length < MIN_DECISION_LEN) {
-      return `${t.replace(/\.*$/, "")} — compare against ${peer} before you commit to the ${product.name}`;
+    if (peer) {
+      return mode === "avoid"
+        ? `You prefer ${peer} when this role is not your week.`
+        : `You prefer this over ${peer} when the weekly role matches.`;
     }
-    return `${t.replace(/\.*$/, "")} — make sure that matches what the ${product.name} is actually for`;
+    return t;
   });
 }
 

@@ -16,7 +16,7 @@ export const peregrine15Review: Review = {
   bottomLine:
     "Aggressive-lug trail trainer for technical singletrack and muddy conditions. I'd shortlist it when you want confident muddy grip. I'd pause if not ideal on long road connectors shows up often in your week.",
   verdict:
-    "Buy the Saucony Peregrine 15 when its main job matches most of your week — not as a default for every session. It earns a look for confident muddy grip or protective rock plate feel without a rigid plate. Look elsewhere if not ideal on long road connectors.",
+    "The Saucony Peregrine 15 is a trail shoe for technical singletrack and mud. I'd shortlist it for confident muddy grip and a protective rock plate without a rigid carbon setup. The trade-off is long road connectors — look elsewhere if pavement is most of your week.",
   score: 83,
   summary:
     "Aggressive-lug trail trainer for technical singletrack and muddy conditions. I'd shortlist it when you want confident muddy grip. I'd pause if not ideal on long road connectors shows up often in your week.",

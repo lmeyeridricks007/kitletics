@@ -110,7 +110,7 @@ function buildFullVerdict(input: {
     parts.push(product.verdict.trim());
   } else {
     parts.push(
-      `Buy the ${product.fullName || `${brand.name} ${product.name}`} when its main job matches most of your week — not as a default for every session.`,
+      `Buy the ${product.fullName || `${brand.name} ${product.name}`} when this role is most of your week.`,
     );
   }
 

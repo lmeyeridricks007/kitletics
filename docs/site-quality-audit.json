@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2026-09-11T09:25:41.587Z",
+  "generatedAt": "2026-09-11T15:46:12.705Z",
   "mode": "links",
   "dryRun": true,
   "launchStatus": "READY",
   "diagnosticScore": 100,
-  "routeCount": 1169,
+  "routeCount": 1170,
   "issues": [
     {
       "id": "SEO-001",
       "severity": "INFO",
       "area": "crawl",
       "status": "resolved",
-      "evidence": "Sitemap enumerates 1167 URLs; route inventory 1169",
+      "evidence": "Sitemap enumerates 1168 URLs; route inventory 1170",
       "whyItMatters": "Healthy crawl corpus for discovery",
       "recommendedFix": "Keep publication gates in sync with sitemap",
       "canAutoFix": false,

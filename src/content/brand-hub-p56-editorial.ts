@@ -1,7 +1,9 @@
 import type { BrandHubConfig } from "@/lib/brand-hub/types";
 
-const GUIDE_SHOES = "/images/home/guide-how-to-choose.jpg";
-const GUIDE_GYM = "/images/home/guide-how-to-choose.jpg";
+const GUIDE_SHOES = "/images/home/guide-running-shoes.jpg";
+const GUIDE_GYM = "/images/home/guide-home-gym.jpg";
+const GUIDE_PADEL = "/images/home/guide-how-to-choose.jpg";
+const GUIDE_TENNIS = "/images/home/guide-tennis.jpg";
 
 /** Fix 56 — unique Brand Hub editorial for depth-qualified uniqueness holds. */
 export const brandHubP56Configs: Record<string, BrandHubConfig> = {
@@ -48,7 +50,7 @@ export const brandHubP56Configs: Record<string, BrandHubConfig> = {
     guideSlugs: ["how-to-choose-running-shoes", "how-to-choose-a-tennis-racket"],
     guideImageMap: {
       "how-to-choose-running-shoes": GUIDE_SHOES,
-      "how-to-choose-a-tennis-racket": GUIDE_SHOES,
+      "how-to-choose-a-tennis-racket": GUIDE_TENNIS,
     },
   },
   "inov-8": {
@@ -96,7 +98,7 @@ export const brandHubP56Configs: Record<string, BrandHubConfig> = {
       { id: "value", label: "EU club-value positioning vs premium court brands" },
     ],
     guideSlugs: ["how-to-choose-a-padel-racket"],
-    guideImageMap: { "how-to-choose-a-padel-racket": GUIDE_SHOES },
+    guideImageMap: { "how-to-choose-a-padel-racket": GUIDE_PADEL },
   },
   "asics-racket": {
     brandSlug: "asics-racket",
@@ -120,7 +122,7 @@ export const brandHubP56Configs: Record<string, BrandHubConfig> = {
       { id: "value", label: "Challenger / Dedicate club options" },
     ],
     guideSlugs: ["how-to-choose-a-tennis-racket"],
-    guideImageMap: { "how-to-choose-a-tennis-racket": GUIDE_SHOES },
+    guideImageMap: { "how-to-choose-a-tennis-racket": GUIDE_TENNIS },
   },
   powerblock: {
     brandSlug: "powerblock",
@@ -339,7 +341,8 @@ export const brandHubP56Configs: Record<string, BrandHubConfig> = {
     ],
     guideSlugs: ["how-to-choose-running-watch"],
     guideImageMap: {
-      "how-to-choose-running-watch": "/images/brands/heroes/urban-dusk.jpg",
+      "how-to-choose-running-watch":
+        "/images/watches/products/garmin-forerunner-970-hero.jpg",
     },
   },
   samsung: {
@@ -361,7 +364,8 @@ export const brandHubP56Configs: Record<string, BrandHubConfig> = {
     ],
     guideSlugs: ["how-to-choose-running-watch"],
     guideImageMap: {
-      "how-to-choose-running-watch": "/images/brands/heroes/urban-dusk.jpg",
+      "how-to-choose-running-watch":
+        "/images/watches/products/garmin-forerunner-970-hero.jpg",
     },
   },
   decathlon: {

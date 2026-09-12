@@ -1,135 +1,64 @@
 # Review backlog
 
-Generated: 2026-09-02T06:39:05.633Z
-Items: 128
+Generated: 2026-09-12T10:34:39.484Z
+Items: 57
 
 | Priority | Product | Category | Status | Reason | Action |
 | --- | --- | --- | --- | --- | --- |
-| P0 | adidas-barricade-13 | tennis-shoes | media-blocked | Product lacks authentic media | Supply authentic product media, then publish Review |
-| P0 | adidas-courtstabil-padel | padel-shoes | media-blocked | Review status is review | Supply authentic product media, then publish Review |
-| P0 | apple-airpods-pro-2 | headphones | media-blocked | Product lacks authentic media | Supply authentic product media, then publish Review |
-| P0 | asics-core-split-short | running-clothing | media-blocked | Product lacks authentic media | Supply authentic product media, then publish Review |
-| P0 | asics-gel-challenger-15 | tennis-shoes | media-blocked | Product lacks authentic media | Supply authentic product media, then publish Review |
-| P0 | asics-gel-resolution-9 | tennis-shoes | media-blocked | Product lacks authentic media | Supply authentic product media, then publish Review |
-| P0 | assaultbike-classic | air-bikes | media-blocked | Product lacks authentic media | Supply authentic product media, then publish Review |
-| P0 | assaultbike-elite | air-bikes | media-blocked | Product lacks authentic media | Supply authentic product media, then publish Review |
-| P0 | assaultrunner-elite | treadmills | media-blocked | Product lacks authentic media | Supply authentic product media, then publish Review |
-| P0 | assaultrunner-pro | treadmills | media-blocked | Product lacks authentic media | Supply authentic product media, then publish Review |
-| P0 | babolat-jet-tere | tennis-shoes | media-blocked | Product lacks authentic media | Supply authentic product media, then publish Review |
-| P0 | babolat-rpm-blast-1-25 | tennis-strings | media-blocked | Product lacks authentic media | Supply authentic product media, then publish Review |
-| P0 | balega-hidden-comfort | running-socks | media-blocked | Product lacks authentic media | Supply authentic product media, then publish Review |
-| P0 | black-diamond-spot-400-r | running-lights | media-blocked | Product lacks authentic media | Supply authentic product media, then publish Review |
-| P0 | blackroll-ball | lifting-accessories | media-blocked | Product lacks authentic media | Supply authentic product media, then publish Review |
-| P0 | blackroll-duoball | lifting-accessories | media-blocked | Product lacks authentic media | Supply authentic product media, then publish Review |
-| P0 | blackroll-med | lifting-accessories | media-blocked | Product lacks authentic media | Supply authentic product media, then publish Review |
-| P0 | blackroll-standard | lifting-accessories | media-blocked | Product lacks authentic media | Supply authentic product media, then publish Review |
-| P0 | body-glide-original | accessories | media-blocked | Product lacks authentic media | Supply authentic product media, then publish Review |
-| P0 | bose-ultra-open-earbuds | headphones | media-blocked | Product lacks authentic media | Supply authentic product media, then publish Review |
-| P0 | brooks-cascadia-jacket | running-clothing | media-blocked | Product lacks authentic media | Supply authentic product media, then publish Review |
-| P0 | buff-original | accessories | media-blocked | Product lacks authentic media | Supply authentic product media, then publish Review |
-| P0 | cep-run-compression-sock-3 | running-socks | media-blocked | Product lacks authentic media | Supply authentic product media, then publish Review |
-| P0 | concept2-bikeerg | air-bikes | media-blocked | Product lacks authentic media | Supply authentic product media, then publish Review |
-| P0 | concept2-rowerg | rowing-machines | media-blocked | Product lacks authentic media | Supply authentic product media, then publish Review |
-| P0 | concept2-rowerg-dynamic | rowing-machines | media-blocked | Product lacks authentic media | Supply authentic product media, then publish Review |
-| P0 | concept2-skierg | ski-ergs | media-blocked | Product lacks authentic media | Supply authentic product media, then publish Review |
-| P0 | concept2-skierg-floor-stand | ski-ergs | media-blocked | Product lacks authentic media | Supply authentic product media, then publish Review |
-| P0 | concept2-skierg-with-stand | ski-ergs | media-blocked | Product lacks authentic media | Supply authentic product media, then publish Review |
-| P0 | dunlop-cx-tour-squash | squash-rackets | media-blocked | Product lacks authentic media | Supply authentic product media, then publish Review |
-| P0 | dunlop-sonic-core-revelation-pro | squash-rackets | media-blocked | Product lacks authentic media | Supply authentic product media, then publish Review |
-| P0 | eleiko-kettlebell | kettlebells | media-blocked | Product lacks authentic media | Supply authentic product media, then publish Review |
-| P0 | eleiko-performance-weightlifting-bar | barbells | media-blocked | Product lacks authentic media | Supply authentic product media, then publish Review |
-| P0 | eleiko-sport-collars | lifting-accessories | media-blocked | Product lacks authentic media | Supply authentic product media, then publish Review |
-| P0 | eleiko-xf-bar | barbells | media-blocked | Product lacks authentic media | Supply authentic product media, then publish Review |
-| P0 | feetures-elite-light-cushion | running-socks | media-blocked | Product lacks authentic media | Supply authentic product media, then publish Review |
-| P0 | flipbelt-classic | running-belts | media-blocked | Product lacks authentic media | Supply authentic product media, then publish Review |
-| P0 | goodr-ogs | sunglasses | media-blocked | Product lacks authentic media | Supply authentic product media, then publish Review |
-| P0 | gornation-gymnastic-rings | gymnastic-rings | media-blocked | Product lacks authentic media | Supply authentic product media, then publish Review |
-| P0 | gornation-parallettes-pro | parallettes | media-blocked | Product lacks authentic media | Supply authentic product media, then publish Review |
-| P0 | gornation-premium-pull-up-bar | pull-up-bars | media-blocked | Product lacks authentic media | Supply authentic product media, then publish Review |
-| P0 | gravity-fitness-gymnastic-rings | gymnastic-rings | media-blocked | Product lacks authentic media | Supply authentic product media, then publish Review |
-| P0 | gravity-fitness-parallettes | parallettes | media-blocked | Product lacks authentic media | Supply authentic product media, then publish Review |
-| P0 | gravity-fitness-pull-up-station | pull-up-bars | media-blocked | Product lacks authentic media | Supply authentic product media, then publish Review |
-| P0 | gravity-fitness-weighted-vest | weighted-vests | media-blocked | Product lacks authentic media | Supply authentic product media, then publish Review |
-| P0 | head-extreme-120-squash | squash-rackets | media-blocked | Product lacks authentic media | Supply authentic product media, then publish Review |
-| P0 | head-extreme-pro-pickleball | pickleball-paddles | media-blocked | Product lacks authentic media | Supply authentic product media, then publish Review |
-| P0 | horizon-t202-treadmill | treadmills | media-blocked | Product lacks authentic media | Supply authentic product media, then publish Review |
-| P0 | hydrapak-softflask-500 | hydration | media-blocked | Product lacks authentic media | Supply authentic product media, then publish Review |
-| P0 | hydrow-wave | rowing-machines | media-blocked | Product lacks authentic media | Supply authentic product media, then publish Review |
-| P0 | injinji-run-midweight | running-socks | media-blocked | Product lacks authentic media | Supply authentic product media, then publish Review |
-| P0 | joola-ben-johns-hyperion-cfs-16 | pickleball-paddles | media-blocked | Product lacks authentic media | Supply authentic product media, then publish Review |
-| P0 | joola-perseus-16 | pickleball-paddles | media-blocked | Product lacks authentic media | Supply authentic product media, then publish Review |
-| P0 | julbo-aerolite | sunglasses | media-blocked | Product lacks authentic media | Supply authentic product media, then publish Review |
-| P0 | li-ning-aeronaut-9000-c | badminton-rackets | media-blocked | Product lacks authentic media | Supply authentic product media, then publish Review |
-| P0 | luxilon-alu-power | tennis-strings | media-blocked | Product lacks authentic media | Supply authentic product media, then publish Review |
-| P0 | mirafit-air-bike | air-bikes | media-blocked | Product lacks authentic media | Supply authentic product media, then publish Review |
-| P0 | mirafit-cast-iron-kettlebell | kettlebells | media-blocked | Product lacks authentic media | Supply authentic product media, then publish Review |
-| P0 | mirafit-folding-rower | rowing-machines | media-blocked | Product lacks authentic media | Supply authentic product media, then publish Review |
-| P0 | mirafit-folding-treadmill | treadmills | media-blocked | Product lacks authentic media | Supply authentic product media, then publish Review |
-| P0 | mirafit-gym-mats | gym-flooring | media-blocked | Product lacks authentic media | Supply authentic product media, then publish Review |
-| P0 | mirafit-magnetic-rower | rowing-machines | media-blocked | Product lacks authentic media | Supply authentic product media, then publish Review |
-| P0 | nathan-exoshot-2 | hydration | media-blocked | Product lacks authentic media | Supply authentic product media, then publish Review |
-| P0 | nathan-mirage-pak | running-belts | media-blocked | Product lacks authentic media | Supply authentic product media, then publish Review |
-| P0 | nike-court-vapor-pro-3 | tennis-shoes | media-blocked | Product lacks authentic media | Supply authentic product media, then publish Review |
-| P0 | nike-dri-fit-stride-short | running-clothing | media-blocked | Product lacks authentic media | Supply authentic product media, then publish Review |
-| P0 | nox-thermo-bag-10 | padel-bags | media-blocked | Review status is review | Supply authentic product media, then publish Review |
-| P0 | oakley-encoder | sunglasses | media-blocked | Product lacks authentic media | Supply authentic product media, then publish Review |
-| P0 | petzl-swift-rl | running-lights | media-blocked | Product lacks authentic media | Supply authentic product media, then publish Review |
-| P0 | pullup-and-dip-doorway-bar | pull-up-bars | media-blocked | Product lacks authentic media | Supply authentic product media, then publish Review |
-| P0 | pullup-and-dip-parallettes | parallettes | media-blocked | Product lacks authentic media | Supply authentic product media, then publish Review |
-| P0 | pullup-and-dip-wall-bar | pull-up-bars | media-blocked | Product lacks authentic media | Supply authentic product media, then publish Review |
-| P0 | rep-bumper-plate-storage | gym-storage | media-blocked | Product lacks authentic media | Supply authentic product media, then publish Review |
-| P0 | rep-colorado-bar | barbells | media-blocked | Product lacks authentic media | Supply authentic product media, then publish Review |
-| P0 | rep-fitness-kettlebell | kettlebells | media-blocked | Product lacks authentic media | Supply authentic product media, then publish Review |
-| P0 | rep-slam-ball | functional-fitness | media-blocked | Product lacks authentic media | Supply authentic product media, then publish Review |
-| P0 | rogue-dog-sled | functional-fitness | media-blocked | Product lacks authentic media | Supply authentic product media, then publish Review |
-| P0 | rogue-echo-bike | air-bikes | media-blocked | Product lacks authentic media | Supply authentic product media, then publish Review |
-| P0 | rogue-echo-kettlebell | kettlebells | media-blocked | Product lacks authentic media | Supply authentic product media, then publish Review |
-| P0 | rogue-flogging-horse-stall-mat-note | gym-flooring | media-blocked | Product lacks authentic media | Supply authentic product media, then publish Review |
-| P0 | rogue-kettlebell | kettlebells | media-blocked | Product lacks authentic media | Supply authentic product media, then publish Review |
-| P0 | rogue-monster-lite-pull-up-bar | pull-up-bars | media-blocked | Product lacks authentic media | Supply authentic product media, then publish Review |
-| P0 | rogue-ohio-bar | barbells | media-blocked | Product lacks authentic media | Supply authentic product media, then publish Review |
-| P0 | rogue-ohio-power-bar | barbells | media-blocked | Product lacks authentic media | Supply authentic product media, then publish Review |
-| P0 | rogue-plate-carrier-vest | weighted-vests | media-blocked | Product lacks authentic media | Supply authentic product media, then publish Review |
-| P0 | rogue-plate-tree | gym-storage | media-blocked | Product lacks authentic media | Supply authentic product media, then publish Review |
-| P0 | rogue-sandbag | functional-fitness | media-blocked | Product lacks authentic media | Supply authentic product media, then publish Review |
-| P0 | rogue-wall-ball | functional-fitness | media-blocked | Product lacks authentic media | Supply authentic product media, then publish Review |
-| P0 | rogue-wrist-wraps | lifting-accessories | media-blocked | Product lacks authentic media | Supply authentic product media, then publish Review |
-| P0 | salomon-soft-flask-500 | hydration | media-blocked | Product lacks authentic media | Supply authentic product media, then publish Review |
-| P0 | schwinn-airdyne-ad8 | air-bikes | media-blocked | Product lacks authentic media | Supply authentic product media, then publish Review |
-| P0 | selkirk-ampsed-epic | pickleball-paddles | media-blocked | Product lacks authentic media | Supply authentic product media, then publish Review |
-| P0 | selkirk-vanguard-power-air | pickleball-paddles | media-blocked | Product lacks authentic media | Supply authentic product media, then publish Review |
-| P0 | shokz-openrun-pro-2 | headphones | media-blocked | Product lacks authentic media | Supply authentic product media, then publish Review |
-| P0 | silva-trail-runner-free-2 | running-lights | media-blocked | Product lacks authentic media | Supply authentic product media, then publish Review |
-| P0 | sole-f80-treadmill | treadmills | media-blocked | Product lacks authentic media | Supply authentic product media, then publish Review |
-| P0 | solinco-hyper-g | tennis-strings | media-blocked | Product lacks authentic media | Supply authentic product media, then publish Review |
-| P0 | spibelt-original | running-belts | media-blocked | Product lacks authentic media | Supply authentic product media, then publish Review |
-| P0 | tecnifibre-black-code-1-28 | tennis-strings | media-blocked | Product lacks authentic media | Supply authentic product media, then publish Review |
-| P0 | tecnifibre-carboflex-125-x-top | squash-rackets | media-blocked | Product lacks authentic media | Supply authentic product media, then publish Review |
-| P0 | tecnifibre-x-one-biphase | tennis-strings | media-blocked | Product lacks authentic media | Supply authentic product media, then publish Review |
-| P0 | therabody-theragun-mini-2 | recovery-gear | media-blocked | Product lacks authentic media | Supply authentic product media, then publish Review |
-| P0 | triggerpoint-grid-foam-roller | recovery-gear | media-blocked | Product lacks authentic media | Supply authentic product media, then publish Review |
-| P0 | victor-thruster-k-falcon | badminton-rackets | media-blocked | Product lacks authentic media | Supply authentic product media, then publish Review |
-| P0 | wilson-blade-black-squash | squash-rackets | media-blocked | Product lacks authentic media | Supply authentic product media, then publish Review |
-| P0 | wilson-blade-elite-v2-pickleball | pickleball-paddles | media-blocked | Product lacks authentic media | Supply authentic product media, then publish Review |
-| P0 | wilson-nxt | tennis-strings | media-blocked | Product lacks authentic media | Supply authentic product media, then publish Review |
-| P0 | wilson-rush-pro-4-0 | tennis-shoes | media-blocked | Product lacks authentic media | Supply authentic product media, then publish Review |
-| P0 | wilson-rush-pro-5-0 | tennis-shoes | media-blocked | Product lacks authentic media | Supply authentic product media, then publish Review |
-| P0 | woodway-curve-trainer | treadmills | media-blocked | Product lacks authentic media | Supply authentic product media, then publish Review |
-| P0 | yonex-arcsaber-11-pro | badminton-rackets | media-blocked | Product lacks authentic media | Supply authentic product media, then publish Review |
-| P0 | yonex-astrox-88d-pro | badminton-rackets | media-blocked | Product lacks authentic media | Supply authentic product media, then publish Review |
-| P0 | yonex-astrox-99-pro | badminton-rackets | media-blocked | Product lacks authentic media | Supply authentic product media, then publish Review |
-| P0 | yonex-nanoflare-800-pro | badminton-rackets | media-blocked | Product lacks authentic media | Supply authentic product media, then publish Review |
-| P2 | brooks-ghost-short-sleeve | running-clothing | media-blocked | Product lacks authentic media | Supply authentic product media, then publish Review |
-| P2 | cep-calf-sleeves-3 | accessories | media-blocked | Product lacks authentic media | Supply authentic product media, then publish Review |
-| P2 | craft-adv-essence-short | running-clothing | media-blocked | Product lacks authentic media | Supply authentic product media, then publish Review |
-| P2 | hyperice-hypervolt-go-2 | recovery-gear | media-blocked | Product lacks authentic media | Supply authentic product media, then publish Review |
-| P2 | mirafit-battle-rope | functional-fitness | media-blocked | Product lacks authentic media | Supply authentic product media, then publish Review |
-| P2 | mirafit-olympic-barbell | barbells | media-blocked | Product lacks authentic media | Supply authentic product media, then publish Review |
-| P2 | mirafit-wall-pull-up-bar | pull-up-bars | media-blocked | Product lacks authentic media | Supply authentic product media, then publish Review |
-| P2 | mirafit-weighted-vest | weighted-vests | media-blocked | Product lacks authentic media | Supply authentic product media, then publish Review |
-| P2 | nathan-streak-reflective-vest | safety | media-blocked | Product lacks authentic media | Supply authentic product media, then publish Review |
-| P2 | nite-ize-radiant-rechargeable-clip-light | safety | media-blocked | Product lacks authentic media | Supply authentic product media, then publish Review |
-| P2 | oofos-ooriginal | recovery-gear | media-blocked | Product lacks authentic media | Supply authentic product media, then publish Review |
-| P2 | skierg2-wall-mount | ski-ergs | media-blocked | Product lacks authentic media | Supply authentic product media, then publish Review |
-| P2 | waterrower-a1 | rowing-machines | media-blocked | Product lacks authentic media | Supply authentic product media, then publish Review |
-| P2 | xebex-ski-erg | ski-ergs | media-blocked | Product lacks authentic media | Supply authentic product media, then publish Review |
+| P0 | asics-gel-resolution-padel-women | padel-shoes | needs-research | No Review entity linked | reviews:agent --mode=full --product=asics-gel-resolution-padel-women |
+| P0 | asics-solution-swift-ff-padel-women | padel-shoes | needs-research | No Review entity linked | reviews:agent --mode=full --product=asics-solution-swift-ff-padel-women |
+| P0 | assaultbike-classic | air-bikes | needs-editorial-review | Pros missing or too generic | reviews:agent --mode=full --product=assaultbike-classic |
+| P0 | atx-cast-iron-plate-set | weight-plates | needs-editorial-review | Pros missing or too generic | reviews:agent --mode=full --product=atx-cast-iron-plate-set |
+| P0 | babolat-jet-premura-2 | padel-shoes | needs-research | No Review entity linked | reviews:agent --mode=full --product=babolat-jet-premura-2 |
+| P0 | babolat-jet-tere | tennis-shoes | needs-research | No Review entity linked | reviews:agent --mode=full --product=babolat-jet-tere |
+| P0 | babolat-propulse-fury-3 | tennis-shoes | needs-research | No Review entity linked | reviews:agent --mode=full --product=babolat-propulse-fury-3 |
+| P0 | babolat-rpm-blast-1-25 | tennis-strings | needs-research | No Review entity linked | reviews:agent --mode=full --product=babolat-rpm-blast-1-25 |
+| P0 | bullpadel-hack-hybrid | padel-shoes | needs-research | No Review entity linked | reviews:agent --mode=full --product=bullpadel-hack-hybrid |
+| P0 | gornation-parallettes-pro | parallettes | needs-editorial-review | Pros missing or too generic | reviews:agent --mode=full --product=gornation-parallettes-pro |
+| P0 | gravity-fitness-parallettes | parallettes | needs-editorial-review | Pros missing or too generic | reviews:agent --mode=full --product=gravity-fitness-parallettes |
+| P0 | gravity-fitness-pull-up-station | pull-up-bars | needs-editorial-review | Pros missing or too generic | reviews:agent --mode=full --product=gravity-fitness-pull-up-station |
+| P0 | head-revolt-pro-4-5 | tennis-shoes | needs-research | No Review entity linked | reviews:agent --mode=full --product=head-revolt-pro-4-5 |
+| P0 | head-sprint-pro-3-5 | tennis-shoes | needs-research | No Review entity linked | reviews:agent --mode=full --product=head-sprint-pro-3-5 |
+| P0 | joma-spin-lady | padel-shoes | needs-research | No Review entity linked | reviews:agent --mode=full --product=joma-spin-lady |
+| P0 | joola-ben-johns-hyperion-cfs-16 | pickleball-paddles | needs-research | No Review entity linked | reviews:agent --mode=full --product=joola-ben-johns-hyperion-cfs-16 |
+| P0 | joola-perseus-16 | pickleball-paddles | needs-research | No Review entity linked | reviews:agent --mode=full --product=joola-perseus-16 |
+| P0 | kuikma-pr-soft-500 | padel-rackets | needs-editorial-review | Pros missing or too generic | reviews:agent --mode=full --product=kuikma-pr-soft-500 |
+| P0 | lok-padel-one | padel-shoes | needs-research | No Review entity linked | reviews:agent --mode=full --product=lok-padel-one |
+| P0 | luxilon-alu-power | tennis-strings | needs-research | No Review entity linked | reviews:agent --mode=full --product=luxilon-alu-power |
+| P0 | mirafit-air-bike | air-bikes | needs-editorial-review | Pros missing or too generic | reviews:agent --mode=full --product=mirafit-air-bike |
+| P0 | mirafit-folding-treadmill | treadmills | needs-editorial-review | Pros missing or too generic | reviews:agent --mode=full --product=mirafit-folding-treadmill |
+| P0 | mizuno-wave-exceed-tour-5 | tennis-shoes | needs-research | No Review entity linked | reviews:agent --mode=full --product=mizuno-wave-exceed-tour-5 |
+| P0 | nathan-streak-reflective-vest | safety | needs-editorial-review | Pros missing or too generic | reviews:agent --mode=full --product=nathan-streak-reflective-vest |
+| P0 | new-balance-996-v5 | tennis-shoes | needs-research | No Review entity linked | reviews:agent --mode=full --product=new-balance-996-v5 |
+| P0 | nike-court-air-zoom-vapor-cage-4 | tennis-shoes | needs-research | No Review entity linked | reviews:agent --mode=full --product=nike-court-air-zoom-vapor-cage-4 |
+| P0 | nike-court-lite-4 | tennis-shoes | needs-research | No Review entity linked | reviews:agent --mode=full --product=nike-court-lite-4 |
+| P0 | nnormal-kjerag-02 | running-shoes | needs-research | No Review entity linked | reviews:agent --mode=full --product=nnormal-kjerag-02 |
+| P0 | nnormal-tomir-02 | running-shoes | needs-research | No Review entity linked | reviews:agent --mode=full --product=nnormal-tomir-02 |
+| P0 | nox-at10-pro | padel-shoes | needs-research | No Review entity linked | reviews:agent --mode=full --product=nox-at10-pro |
+| P0 | oxdog-hyper-court | padel-shoes | needs-research | No Review entity linked | reviews:agent --mode=full --product=oxdog-hyper-court |
+| P0 | prince-t22 | tennis-shoes | needs-research | No Review entity linked | reviews:agent --mode=full --product=prince-t22 |
+| P0 | pullup-and-dip-doorway-bar | pull-up-bars | needs-editorial-review | Pros missing or too generic | reviews:agent --mode=full --product=pullup-and-dip-doorway-bar |
+| P0 | rep-ab-5200 | weight-benches | needs-editorial-review | Pros missing or too generic | reviews:agent --mode=full --product=rep-ab-5200 |
+| P0 | rep-fitness-kettlebell | kettlebells | needs-editorial-review | Pros missing or too generic | reviews:agent --mode=full --product=rep-fitness-kettlebell |
+| P0 | rogue-monster-lite-pull-up-bar | pull-up-bars | needs-editorial-review | Pros missing or too generic | reviews:agent --mode=full --product=rogue-monster-lite-pull-up-bar |
+| P0 | rogue-plate-tree | gym-storage | needs-editorial-review | Pros missing or too generic | reviews:agent --mode=full --product=rogue-plate-tree |
+| P0 | selkirk-ampsed-epic | pickleball-paddles | needs-research | No Review entity linked | reviews:agent --mode=full --product=selkirk-ampsed-epic |
+| P0 | solinco-hyper-g | tennis-strings | needs-research | No Review entity linked | reviews:agent --mode=full --product=solinco-hyper-g |
+| P0 | tecnifibre-black-code-1-28 | tennis-strings | needs-research | No Review entity linked | reviews:agent --mode=full --product=tecnifibre-black-code-1-28 |
+| P0 | tecnifibre-tf40-305 | tennis-rackets | needs-editorial-review | Pros missing or too generic | reviews:agent --mode=full --product=tecnifibre-tf40-305 |
+| P0 | tecnifibre-wall-shooter | padel-shoes | needs-research | No Review entity linked | reviews:agent --mode=full --product=tecnifibre-wall-shooter |
+| P0 | tecnifibre-x-one-biphase | tennis-strings | needs-research | No Review entity linked | reviews:agent --mode=full --product=tecnifibre-x-one-biphase |
+| P0 | varlion-bourne-padel | padel-shoes | needs-research | No Review entity linked | reviews:agent --mode=full --product=varlion-bourne-padel |
+| P0 | victor-thruster-k-falcon | badminton-rackets | needs-research | No Review entity linked | reviews:agent --mode=full --product=victor-thruster-k-falcon |
+| P0 | wilson-bela-pro-padel | padel-shoes | needs-research | No Review entity linked | reviews:agent --mode=full --product=wilson-bela-pro-padel |
+| P0 | wilson-blade-98-v8 | tennis-rackets | needs-editorial-review | Pros missing or too generic | reviews:agent --mode=full --product=wilson-blade-98-v8 |
+| P0 | wilson-nxt | tennis-strings | needs-research | No Review entity linked | reviews:agent --mode=full --product=wilson-nxt |
+| P0 | wilson-rush-pro-5-0 | tennis-shoes | needs-research | No Review entity linked | reviews:agent --mode=full --product=wilson-rush-pro-5-0 |
+| P0 | yonex-arcsaber-11-pro | badminton-rackets | needs-research | No Review entity linked | reviews:agent --mode=full --product=yonex-arcsaber-11-pro |
+| P0 | yonex-astrox-88d-pro | badminton-rackets | needs-research | No Review entity linked | reviews:agent --mode=full --product=yonex-astrox-88d-pro |
+| P0 | yonex-astrox-99-pro | badminton-rackets | needs-research | No Review entity linked | reviews:agent --mode=full --product=yonex-astrox-99-pro |
+| P0 | yonex-nanoflare-800-pro | badminton-rackets | needs-research | No Review entity linked | reviews:agent --mode=full --product=yonex-nanoflare-800-pro |
+| P0 | yonex-power-cushion-eclipsion-5 | tennis-shoes | needs-research | No Review entity linked | reviews:agent --mode=full --product=yonex-power-cushion-eclipsion-5 |
+| P0 | yonex-power-cushion-sonicage-3 | tennis-shoes | needs-research | No Review entity linked | reviews:agent --mode=full --product=yonex-power-cushion-sonicage-3 |
+| P0 | yonex-vcore-100-2023 | tennis-rackets | needs-editorial-review | Pros missing or too generic | reviews:agent --mode=full --product=yonex-vcore-100-2023 |
+| P0 | yonex-vcore-98-2026 | tennis-rackets | needs-editorial-review | Pros missing or too generic | reviews:agent --mode=full --product=yonex-vcore-98-2026 |

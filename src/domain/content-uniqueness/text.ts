@@ -1,7 +1,11 @@
 /**
  * Content uniqueness — normalize, scrub entity names, compare text.
- * Used by prelaunch Fix 25 audit + launch eligibility holds.
+ *
+ * Identifier strings, numbers, SKUs, slugs and spec dumps contribute ZERO
+ * to editorial uniqueness. A review is unique because its analysis is
+ * product-specific. Natural domain language is not penalized.
  */
+import { isIdentifierUniquenessToken } from "@/lib/review/public-content-corruption";
 
 const STOP = new Set([
   "a",
@@ -87,10 +91,114 @@ export function normalizeText(text: string): string {
     .trim();
 }
 
+/**
+ * Natural running/watch/gear vocabulary. Sharing these words is not a
+ * uniqueness failure — every honest shoe review talks about cushion.
+ */
+export const DOMAIN_GENERIC_TOKENS = new Set([
+  "running",
+  "run",
+  "runner",
+  "runners",
+  "shoe",
+  "shoes",
+  "trainer",
+  "trainers",
+  "watch",
+  "watches",
+  "gps",
+  "gear",
+  "cushion",
+  "cushioning",
+  "drop",
+  "stack",
+  "foam",
+  "midsole",
+  "outsole",
+  "upper",
+  "fit",
+  "ride",
+  "stability",
+  "grip",
+  "trail",
+  "road",
+  "daily",
+  "training",
+  "race",
+  "racing",
+  "tempo",
+  "easy",
+  "miles",
+  "kilometres",
+  "kilometers",
+  "long",
+  "short",
+  "soft",
+  "firm",
+  "plush",
+  "responsive",
+  "protective",
+  "light",
+  "lightweight",
+  "heavy",
+  "battery",
+  "display",
+  "heart",
+  "rate",
+  "product",
+  "model",
+  "pair",
+  "session",
+  "sessions",
+  "week",
+  "weekdays",
+  "buy",
+  "skip",
+  "review",
+  "guide",
+  "best",
+  "option",
+  "choice",
+  "feel",
+  "feels",
+  "feelings",
+  "need",
+  "needs",
+  "want",
+  "looking",
+  "primary",
+  "intended",
+]);
+
 export function tokenize(text: string): string[] {
   return normalizeText(text)
     .split(" ")
     .filter((t) => t.length > 1 && !STOP.has(t));
+}
+
+/** True when a token must not count toward uniqueness (SKU/slug/spec dump/number). */
+export function isZeroUniquenessToken(token: string): boolean {
+  if (!token) return false;
+  if (isIdentifierUniquenessToken(token)) return true;
+  if (/^\d+$/.test(token)) return true;
+  if (/^\d+[a-z]{0,4}$/.test(token)) return true; // 255g, 41mm, 8mm
+  if (/^(sku|prod|rev|cat|ev)-[a-z0-9-]+$/i.test(token)) return true;
+  if (/^[a-z]+-[a-z0-9-]{6,}$/.test(token) && /\d/.test(token)) return true; // product slugs
+  return false;
+}
+
+/** Tokens that may count as editorial language (identifiers stripped). */
+export function editorialTokens(text: string): string[] {
+  return tokenize(text).filter((t) => !isZeroUniquenessToken(t));
+}
+
+/**
+ * Product-specific analysis tokens: identifiers AND domain-generic words
+ * removed. Two reviews that only swap SKUs or share "cushion/drop/foam"
+ * language do not look unique or duplicative from those strings alone.
+ */
+export function analysisTokens(text: string): string[] {
+  return editorialTokens(text).filter((t) => !DOMAIN_GENERIC_TOKENS.has(t));
 }
 
 export function shingles(tokens: string[], n = 3): Set<string> {
@@ -130,6 +238,29 @@ export function textSimilarity(a: string, b: string): number {
   const tok = tokenJaccard(a, b);
   const sh = shingleJaccard(a, b, 3);
   return Math.max(tok, sh);
+}
+
+/**
+ * Editorial uniqueness similarity. Identifier dumps score 0; shared
+ * domain vocabulary is not treated as duplication.
+ */
+export function editorialSimilarity(a: string, b: string): number {
+  const ta = analysisTokens(a);
+  const tb = analysisTokens(b);
+  if (ta.length === 0 && tb.length === 0) return 0;
+  const tok = jaccard(new Set(ta), new Set(tb));
+  const sh = jaccard(shingles(ta, 3), shingles(tb, 3));
+  return Math.max(tok, sh);
+}
+
+/**
+ * Share of tokens that are product-specific analysis — never inflated by
+ * SKUs, numbers, or spec concatenations.
+ */
+export function uniqueAnalysisRatio(text: string): number {
+  const editorial = editorialTokens(text);
+  if (!editorial.length) return 0;
+  return analysisTokens(text).length / editorial.length;
 }
 
 export function scaffoldHitCount(text: string): number {

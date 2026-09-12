@@ -35,8 +35,8 @@ export function ReviewVerdictCard({
     bottomLine,
   } = data;
 
-  const buySignals = review.whoShouldBuy.slice(0, 3);
-  const skipSignals = review.whoShouldAvoid.slice(0, 3);
+  const buySignals = data.decisionCopy.buyIf.slice(0, 3);
+  const skipSignals = data.decisionCopy.skipIf.slice(0, 3);
   const topCriteria = heroCriteria.slice(0, 4);
   const verdictCopy = bottomLine?.trim() || review.verdict;
   const amazon = pickAmazonOffer(offers);

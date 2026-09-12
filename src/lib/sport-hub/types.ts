@@ -74,6 +74,15 @@ export interface SportHubBrandItem {
   logo?: string;
 }
 
+export interface SportHubFinderField {
+  label: string;
+  name: string;
+  /** Default selected option value */
+  value: string;
+  /** Selectable choices — required for usable dropdowns */
+  options: Array<{ value: string; label: string }>;
+}
+
 export interface SportHubFinderPreview {
   title: string;
   description: string;
@@ -81,7 +90,7 @@ export interface SportHubFinderPreview {
   ctaHref: string;
   footnoteLabel: string;
   footnoteHref: string;
-  fields: { label: string; value: string; name: string }[];
+  fields: SportHubFinderField[];
 }
 
 export interface SportHubPageData {

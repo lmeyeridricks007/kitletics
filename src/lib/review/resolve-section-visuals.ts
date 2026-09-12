@@ -476,21 +476,22 @@ function familiesForSrc(src: string): CategoryFamily[] {
     return ["racket"];
   }
   if (src.includes("/watches/") || src.includes("best-gps-watches") || src.includes("best-hrm")) {
-    return ["watches", "running"];
+    return ["watches"];
   }
   if (src.includes("guide-home-gym")) {
-    return ["fitness", "general"];
+    return ["fitness"];
   }
   if (
     src.includes("/running/") ||
-    src.includes("guide-running-shoes") ||
-    src.includes("running-urban")
+    src.includes("guide-running-shoes")
   ) {
-    return ["running", "watches", "general"];
+    return ["running"];
   }
-  // Neutral home/brand composites — ok as last resort for most families
-  if (src.includes("hero-gear-composite") || src.includes("urban-dusk")) {
-    return ["running", "watches", "racket", "fitness", "general"];
+  if (src.includes("running-urban") || src.includes("urban-dusk")) {
+    return [];
+  }
+  if (src.includes("hero-gear-composite")) {
+    return ["general"];
   }
   return ["general"];
 }

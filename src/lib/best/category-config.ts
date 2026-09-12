@@ -157,7 +157,7 @@ export const runningShoesBestGuideConfig: BestGuideCategoryConfig = {
   relatedToolSlug: "running-shoe-finder",
   categoryBrowseHref: "/running/shoes",
   heroImageSrc: "/images/home/guide-running-shoes.jpg",
-  methodologyImageSrc: "/images/running/guides/daily-vs-long.jpg",
+  methodologyImageSrc: "/images/home/guide-running-shoes.jpg",
   quickPickLimit: 9,
   productNoun: "Running Shoes",
   finderCtaLabel: "Find my running shoes →",
@@ -187,6 +187,10 @@ export const runningShoesBestGuideConfig: BestGuideCategoryConfig = {
     {
       label: "How to choose running shoes",
       href: "/guides/how-to-choose-running-shoes",
+    },
+    {
+      label: "Shoe Database",
+      href: "/running/shoes/database",
     },
     {
       label: "What is a daily trainer?",
@@ -332,8 +336,8 @@ export const gpsWatchBestGuideConfig: BestGuideCategoryConfig = {
   primaryUseCaseIds: [],
   relatedToolSlug: "fitness-watch-finder",
   categoryBrowseHref: "/running/watches",
-  heroImageSrc: "/images/brands/heroes/urban-dusk.jpg",
-  methodologyImageSrc: "/images/home/guide-how-to-choose.jpg",
+  heroImageSrc: "/images/running/best-hub/best-gps-watches-running.jpg",
+  methodologyImageSrc: "/images/watches/guides/gps-open-sky-running.jpg",
   quickPickLimit: 9,
   productNoun: "GPS Watches",
   finderCtaLabel: "Find my running watch →",

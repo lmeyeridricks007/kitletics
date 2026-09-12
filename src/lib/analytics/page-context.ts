@@ -20,6 +20,7 @@ export function classifyAnalyticsPageType(pathname: string): AnalyticsPageType {
   const path = pathname.split("?")[0] || "/";
   if (path === "/") return "home";
   if (path === "/search") return "search";
+  if (path === "/running/shoes/database") return "shoe_database";
   if (path.startsWith("/products/") && path.endsWith("/alternatives")) {
     return "alternatives";
   }
@@ -83,6 +84,11 @@ export function buildPageContext(
   if (page_type === "tool" && parts[1]) {
     ctx.content_slug = parts[1];
   }
+  if (page_type === "shoe_database") {
+    ctx.sport = "running";
+    ctx.discipline = "shoes";
+    ctx.category = "database";
+  }
   if (
     (page_type === "sport_hub" ||
       page_type === "discipline_hub" ||
@@ -111,6 +117,7 @@ export function viewEventForPageType(
   | "view_best_guide"
   | "view_guide"
   | "view_comparison"
+  | "shoe_database_view"
   | null {
   switch (pageType) {
     case "product":
@@ -123,6 +130,8 @@ export function viewEventForPageType(
       return "view_guide";
     case "comparison":
       return "view_comparison";
+    case "shoe_database":
+      return "shoe_database_view";
     default:
       return null;
   }

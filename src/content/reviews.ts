@@ -8,137 +8,44 @@ import { reviewsUniqueRewrite } from "@/content/reviews-unique-rewrite";
 import { reviewsP53Differentiation } from "@/content/reviews-p53-differentiation";
 import { reviewsP54HeldFinalized } from "@/content/reviews-p54-held-finalized";
 import { reviewsP62FinalRunning } from "@/content/reviews-p62-final-running";
+import { reviewsEditorialRebuild } from "@/content/reviews-editorial-rebuild";
 import { peregrine15Review } from "@/content/running/reviews/peregrine-15";
 import { hrmFlagshipReviews } from "@/content/running/reviews/hrm-flagship";
 import { gpsWatchFlagshipReviews } from "@/content/running/reviews/gps-watch-flagship";
 import { gearCoreLaunchReviews } from "@/content/running/gear-core-launch-ready";
 import { weakCatLaunchReviews } from "@/content/running/weak-cats-launch-ready";
 import { nmwCompletionReviews } from "@/content/running/nmw-completion-launch-ready";
+import {
+  selectWinningReviewDecisions,
+  type RankedReviewCandidate,
+  type ReviewSourceKind,
+} from "@/content/review-source-precedence";
 
 const pub = publishedMeta();
 
-/** Fix 62 genuine Running overlays win over P53 uniqueness tokens and unique rewrites. */
-const P62_SLUGS = new Set(reviewsP62FinalRunning.map((r) => r.slug));
-const P62_PRODUCT_IDS = new Set(reviewsP62FinalRunning.map((r) => r.productId));
+function tag(
+  source: ReviewSourceKind,
+  items: Review[],
+): RankedReviewCandidate[] {
+  return items.map((review) => ({ review, source }));
+}
 
-/** Fix 54 held-estate overlays win over unique rewrites and P53 (no slug overlap). */
-const P54_SLUGS = new Set(
-  reviewsP54HeldFinalized
-    .filter((r) => !P62_SLUGS.has(r.slug))
-    .map((r) => r.slug),
-);
-const P54_PRODUCT_IDS = new Set(
-  reviewsP54HeldFinalized
-    .filter(
-      (r) => !P62_SLUGS.has(r.slug) && !P62_PRODUCT_IDS.has(r.productId),
-    )
-    .map((r) => r.productId),
-);
-
-/** Fix 53 INDEXABLE differentiation overlays win over unique rewrites. */
-const P53_SLUGS = new Set(
-  reviewsP53Differentiation
-    .filter(
-      (r) =>
-        !P54_SLUGS.has(r.slug) &&
-        !P62_SLUGS.has(r.slug) &&
-        !P62_PRODUCT_IDS.has(r.productId),
-    )
-    .map((r) => r.slug),
-);
-const P53_PRODUCT_IDS = new Set(
-  reviewsP53Differentiation
-    .filter(
-      (r) =>
-        !P54_SLUGS.has(r.slug) &&
-        !P54_PRODUCT_IDS.has(r.productId) &&
-        !P62_SLUGS.has(r.slug) &&
-        !P62_PRODUCT_IDS.has(r.productId),
-    )
-    .map((r) => r.productId),
-);
-
-/** Fix 37 unique rewrites win over backfill / wave2 by slug + productId. */
-const UNIQUE_REWRITE_SLUGS = new Set(
-  reviewsUniqueRewrite
-    .filter(
-      (r) =>
-        !P53_SLUGS.has(r.slug) &&
-        !P54_SLUGS.has(r.slug) &&
-        !P62_SLUGS.has(r.slug),
-    )
-    .map((r) => r.slug),
-);
-const UNIQUE_REWRITE_PRODUCT_IDS = new Set(
-  reviewsUniqueRewrite
-    .filter(
-      (r) =>
-        !P53_SLUGS.has(r.slug) &&
-        !P54_SLUGS.has(r.slug) &&
-        !P62_SLUGS.has(r.slug) &&
-        !P53_PRODUCT_IDS.has(r.productId) &&
-        !P54_PRODUCT_IDS.has(r.productId) &&
-        !P62_PRODUCT_IDS.has(r.productId),
-    )
-    .map((r) => r.productId),
-);
-
-const BACKFILL_OVERRIDES = new Set([
-  peregrine15Review.slug,
-  ...hrmFlagshipReviews.map((r) => r.slug),
-  ...gpsWatchFlagshipReviews.map((r) => r.slug),
-  ...gearCoreLaunchReviews.map((r) => r.slug),
-  ...weakCatLaunchReviews.map((r) => r.slug),
-  ...nmwCompletionReviews.map((r) => r.slug),
-  ...UNIQUE_REWRITE_SLUGS,
-  ...P53_SLUGS,
-  ...P54_SLUGS,
-  ...P62_SLUGS,
-]);
-const WATCH_WAVE2_PRODUCT_IDS = new Set(
-  reviewsWatchesWave2
-    .filter((r) => !BACKFILL_OVERRIDES.has(r.slug))
-    .map((r) => r.productId),
-);
-const GEAR_CORE_PRODUCT_IDS = new Set(
-  gearCoreLaunchReviews.map((r) => r.productId),
-);
-const WEAK_CAT_PRODUCT_IDS = new Set(
-  weakCatLaunchReviews.map((r) => r.productId),
-);
-const NMW_COMPLETION_PRODUCT_IDS = new Set(
-  nmwCompletionReviews.map((r) => r.productId),
-);
-
-const reviewsRaw: Review[] = [
-  ...reviewsP75CatalogGaps,
-  ...reviewsP54HeldFinalized.filter((r) => !P62_SLUGS.has(r.slug)),
-  ...reviewsP62FinalRunning,
-  ...reviewsP53Differentiation.filter(
-    (r) => !P54_SLUGS.has(r.slug) && !P62_SLUGS.has(r.slug),
-  ),
-  ...reviewsUniqueRewrite.filter(
-    (r) =>
-      !P53_SLUGS.has(r.slug) &&
-      !P54_SLUGS.has(r.slug) &&
-      !P62_SLUGS.has(r.slug),
-  ),
-  ...(UNIQUE_REWRITE_SLUGS.has(peregrine15Review.slug)
-    ? []
-    : [peregrine15Review]),
-  ...hrmFlagshipReviews.filter(
-    (r) =>
-      !UNIQUE_REWRITE_SLUGS.has(r.slug) &&
-      !P53_SLUGS.has(r.slug) &&
-      !P54_SLUGS.has(r.slug),
-  ),
-  ...gpsWatchFlagshipReviews.filter(
-    (r) =>
-      !UNIQUE_REWRITE_SLUGS.has(r.slug) &&
-      !P53_SLUGS.has(r.slug) &&
-      !P54_SLUGS.has(r.slug),
-  ),
-  {
+/**
+ * All review sources, tagged. Winning public object is selected by
+ * `selectWinningReviewDecisions` — not by array order / first-wins.
+ */
+export const rankedReviewCandidates: RankedReviewCandidate[] = [
+  ...tag("handwritten", reviewsP75CatalogGaps),
+  ...tag("uniqueness_overlay", reviewsP54HeldFinalized),
+  ...tag("genuine_rewrite", reviewsP62FinalRunning),
+  ...tag("editorial_rebuild", reviewsEditorialRebuild),
+  ...tag("uniqueness_overlay", reviewsP53Differentiation),
+  ...tag("generated_research", reviewsUniqueRewrite),
+  ...tag("handwritten", [
+    peregrine15Review,
+    ...hrmFlagshipReviews,
+    ...gpsWatchFlagshipReviews,
+    {
     id: "review-novablast-6",
     slug: "asics-novablast-6",
     productId: "prod-novablast-6",
@@ -149,7 +56,7 @@ const reviewsRaw: Review[] = [
     bottomLine:
       "High-cushion neutral daily trainer with FF BLAST MAX and a FF TURBO SQUARED forefoot trampoline pod. I'd shortlist it when you want soft energetic daily ride. I'd pause if not a stability shoe shows up often in your week.",
     verdict:
-      "Buy the ASICS Novablast 6 when its main job matches most of your week — not as a default for every session. It earns a look for soft energetic daily ride or improved wet grip vs prior Novablast. Look elsewhere if not a stability shoe.",
+      "The ASICS Novablast 6 is a high-cushion neutral daily trainer with FF BLAST MAX and a FF TURBO SQUARED forefoot trampoline pod. I'd shortlist it for a soft, energetic daily ride and the wet-grip update versus Novablast 5. The trade-off is stability — it is not a guidance shoe, and it is not a race-day supershoe. I'd keep it for easy and long road miles; Ghost 18 is the cleaner compare if you wanted a firmer, more conventional daily.",
     score: 90,
     summary:
       "High-cushion neutral daily trainer with FF BLAST MAX and a FF TURBO SQUARED forefoot trampoline pod. I'd shortlist it when you want soft energetic daily ride. I'd pause if not a stability shoe shows up often in your week.",
@@ -204,14 +111,14 @@ const reviewsRaw: Review[] = [
       "No Kitletics personal wear-test yet",
     ],
     whoShouldBuy: [
-      "You want soft energetic daily ride and will rotate or compare against Ghost 18 — that is the Novablast 6's main job",
-      "Most of your sessions match improved wet grip vs prior Novablast more than a do-everything compromise",
-      "You're shopping a road (or treadmill) tool and can keep trail or race-day jobs in other shoes when needed",
+      "You're looking for a soft, energetic daily trainer.",
+      "You want enough cushioning for long runs without a heavy ride.",
+      "You prefer a neutral shoe with a lively rocker.",
     ],
     whoShouldAvoid: [
-      "You need not a stability shoe — look at Ghost 18 or a clearer specialist instead of forcing the Novablast 6",
-      "Your must-haves conflict with a Novablast 6 trade-off: less ideal as a pure race-day racer",
-      "You need technical trail grip or a dedicated race plate as the primary job — this platform is aimed elsewhere",
+      "You need added stability or guidance.",
+      "You're primarily looking for the lightest race-day option.",
+      "You prefer a firm, highly responsive ride.",
     ],
     scoreBreakdown: [
       { key: "cushioning", label: "Cushioning", score: 93, note: "High stack FF BLAST MAX" },
@@ -359,7 +266,7 @@ const reviewsRaw: Review[] = [
     subtitle: "A tempo-capable trainer with Running and HYROX overlap",
     reviewType: "expert-research",
     verdict:
-      "Buy the Adidas Adizero Boston 12 when its main job matches most of your week — not as a default for every session. It earns a look for dual Running + HYROX relevance or responsive tempo ride. Look elsewhere if not a max-cushion easy shoe.",
+      "The adidas Adizero Boston 12 is a tempo trainer with road-workout snap and HYROX overlap. I'd shortlist it for a responsive tempo ride when that is most of your week. The trade-off is easy-mile softness — it is not a max-cushion recovery shoe, and trail is outside the brief.",
     score: 89,
     summary:
       "Tempo trainer used for road workouts and often for HYROX training. I'd shortlist it when you want dual Running + HYROX relevance. I'd pause if not a max-cushion easy shoe shows up often in your week.",
@@ -429,32 +336,17 @@ const reviewsRaw: Review[] = [
     faqIds: [],
     ...scheduledMeta(),
   },
-  ...reviewsWave1.filter((r) => !UNIQUE_REWRITE_SLUGS.has(r.slug)),
-  ...gearCoreLaunchReviews.filter((r) => !UNIQUE_REWRITE_SLUGS.has(r.slug)),
-  ...weakCatLaunchReviews.filter((r) => !UNIQUE_REWRITE_SLUGS.has(r.slug)),
-  ...nmwCompletionReviews.filter((r) => !UNIQUE_REWRITE_SLUGS.has(r.slug)),
-  ...reviewsWatchesWave2.filter((r) => !BACKFILL_OVERRIDES.has(r.slug)),
-  ...reviewsBackfill.filter(
-    (r) =>
-      !BACKFILL_OVERRIDES.has(r.slug) &&
-      !UNIQUE_REWRITE_PRODUCT_IDS.has(r.productId) &&
-      !WATCH_WAVE2_PRODUCT_IDS.has(r.productId) &&
-      !GEAR_CORE_PRODUCT_IDS.has(r.productId) &&
-      !WEAK_CAT_PRODUCT_IDS.has(r.productId) &&
-      !NMW_COMPLETION_PRODUCT_IDS.has(r.productId),
-  ),
+  ]),
+  ...tag("handwritten", reviewsWave1),
+  ...tag("handwritten", gearCoreLaunchReviews),
+  ...tag("handwritten", weakCatLaunchReviews),
+  ...tag("handwritten", nmwCompletionReviews),
+  ...tag("handwritten", reviewsWatchesWave2),
+  ...tag("handwritten", reviewsBackfill),
 ];
 
-/** Prefer first occurrence (unique rewrites are listed first). */
-function dedupeReviewsBySlug(items: Review[]): Review[] {
-  const seen = new Set<string>();
-  const out: Review[] = [];
-  for (const review of items) {
-    if (seen.has(review.slug)) continue;
-    seen.add(review.slug);
-    out.push(review);
-  }
-  return out;
-}
+export const reviewMergeDecisions = selectWinningReviewDecisions(
+  rankedReviewCandidates,
+);
 
-export const reviews: Review[] = dedupeReviewsBySlug(reviewsRaw);
+export const reviews: Review[] = reviewMergeDecisions.map((d) => d.review);

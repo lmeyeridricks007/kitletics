@@ -7,6 +7,7 @@ export const ANALYTICS_PAGE_TYPES = [
   "sport_hub",
   "discipline_hub",
   "category",
+  "shoe_database",
   "product",
   "review",
   "best_guide",
@@ -59,6 +60,19 @@ export const ANALYTICS_EVENTS = [
   "retailer_click",
   "email_signup",
   "price_alert_signup",
+  // Running Shoe Database
+  "shoe_database_view",
+  "shoe_database_filter",
+  "shoe_database_sort",
+  "shoe_database_result_click",
+  "shoe_database_compare_add",
+  "shoe_database_review_click",
+  "shoe_database_alternatives_click",
+  "shoe_database_insight_view",
+  "shoe_database_insight_click",
+  "shoe_database_share",
+  "shoe_database_citation_copy",
+  "shoe_database_data_download",
   // GA4 recommended ecommerce (affiliate-safe subset)
   "view_item",
   "view_item_list",
@@ -118,6 +132,20 @@ export type FilterEventParams = PageContextParams & {
   filter_count?: number;
 };
 
+export type ShoeDatabaseAnalyticsParams = PageContextParams & {
+  filter_type?: string;
+  filter_value?: string;
+  sort_type?: string;
+  result_position?: number;
+  product_slug?: string;
+  brand?: string;
+  insight_type?: string;
+  share_channel?: string;
+  result_count?: number;
+  has_query?: boolean;
+  query_length?: number;
+};
+
 export type AnalyticsEventParams =
   | PageContextParams
   | RetailerClickParams
@@ -125,6 +153,7 @@ export type AnalyticsEventParams =
   | CompareEventParams
   | SearchEventParams
   | FilterEventParams
+  | ShoeDatabaseAnalyticsParams
   | Record<string, string | number | boolean | undefined>;
 
 export type ConsentStatus = "unknown" | "granted" | "denied";

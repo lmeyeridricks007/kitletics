@@ -1,0 +1,141 @@
+{
+  "generatedAt": "2026-09-12T09:10:54.779Z",
+  "forensicBefore": {
+    "LIKELY_CORRECT": 3045,
+    "UNKNOWN": 5223,
+    "WRONG_SPORT": 85,
+    "GENERIC_BUT_RELEVANT": 1421,
+    "WRONG_CONTENT_TYPE": 59,
+    "DUPLICATE_PLACEHOLDER": 16,
+    "CORRECT": 583
+  },
+  "afterAll": {
+    "LIKELY_CORRECT": 90,
+    "GENERIC_BUT_RELEVANT": 98,
+    "UNKNOWN": 7
+  },
+  "afterIndexable": {
+    "LIKELY_CORRECT": 78,
+    "GENERIC_BUT_RELEVANT": 55,
+    "UNKNOWN": 7
+  },
+  "failCountIndexable": 0,
+  "unknownCount": 7,
+  "highReuse": [
+    [
+      "/images/home/guide-running-shoes.jpg",
+      20
+    ],
+    [
+      "/images/home/guide-home-gym.jpg",
+      18
+    ],
+    [
+      "/images/clothing/products/patagonia-capilene-cool-daily-men-hero.jpg",
+      13
+    ],
+    [
+      "/images/packs/products/black-diamond-distance-15-hero.jpg",
+      9
+    ],
+    [
+      "/images/watches/guides/gps-open-sky-running.jpg",
+      8
+    ],
+    [
+      "/images/training/guides/concepts/cross-training-shoe-gym.jpg",
+      7
+    ],
+    [
+      "/images/watches/products/garmin-forerunner-970-hero.jpg",
+      5
+    ],
+    [
+      "/images/running/best-hub/best-hrm-running.jpg",
+      5
+    ],
+    [
+      "/images/running/accessories/therabody-theragun-mini-2-hero.jpg",
+      4
+    ],
+    [
+      "/images/running/products/bondi-9-hero.jpg",
+      3
+    ],
+    [
+      "/images/hrm/products/polar-h10-hero.png",
+      3
+    ],
+    [
+      "/images/packs/products/salomon-adv-skin-12-hero.jpg",
+      3
+    ]
+  ],
+  "fails": [],
+  "placeholders": [],
+  "unknownSample": [
+    {
+      "url": "/guides/how-to-choose-running-socks",
+      "entity": "how-to-choose-running-socks",
+      "placement": "guide_hero",
+      "src": "/images/running/accessories/feetures-elite-light-cushion-hero.jpg",
+      "cls": "UNKNOWN",
+      "reason": "subject not independently verified from filename",
+      "indexable": true
+    },
+    {
+      "url": "/guides/first-marathon-gear-checklist",
+      "entity": "first-marathon-gear-checklist",
+      "placement": "guide_hero",
+      "src": "/images/running/best-hub/best-marathon-running.jpg",
+      "cls": "UNKNOWN",
+      "reason": "subject not independently verified from filename",
+      "indexable": true
+    },
+    {
+      "url": "/guides/recovery-sandals-for-runners",
+      "entity": "recovery-sandals-for-runners",
+      "placement": "guide_hero",
+      "src": "/images/running/accessories/oofos-ooriginal-hero.jpg",
+      "cls": "UNKNOWN",
+      "reason": "subject not independently verified from filename",
+      "indexable": true
+    },
+    {
+      "url": "/guides/anti-chafe-for-runners",
+      "entity": "anti-chafe-for-runners",
+      "placement": "guide_hero",
+      "src": "/images/running/accessories/body-glide-original-hero.png",
+      "cls": "UNKNOWN",
+      "reason": "subject not independently verified from filename",
+      "indexable": true
+    },
+    {
+      "url": "/best/marathon-shoes",
+      "entity": "marathon-shoes",
+      "placement": "best_hero",
+      "src": "/images/running/best-hub/best-marathon-running.jpg",
+      "cls": "UNKNOWN",
+      "reason": "subject not independently verified from filename",
+      "indexable": true
+    },
+    {
+      "url": "/best/running-shoes-beginners",
+      "entity": "running-shoes-beginners",
+      "placement": "best_hero",
+      "src": "/images/running/best-hub/best-beginners-running.jpg",
+      "cls": "UNKNOWN",
+      "reason": "subject not independently verified from filename",
+      "indexable": true
+    },
+    {
+      "url": "/best/running-shoes-wide-feet",
+      "entity": "running-shoes-wide-feet",
+      "placement": "best_hero",
+      "src": "/images/running/best-hub/best-wide-feet-running.jpg",
+      "cls": "UNKNOWN",
+      "reason": "subject not independently verified from filename",
+      "indexable": true
+    }
+  ]
+}

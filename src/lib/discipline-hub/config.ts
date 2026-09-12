@@ -169,7 +169,7 @@ export const roadRunningDisciplineHubConfig: DisciplineHubConfig = {
     "running-shoe-drop",
   ],
   buyingGuideImageMap: {
-    "how-to-choose-running-shoes": "/images/home/guide-how-to-choose.jpg",
+    "how-to-choose-running-shoes": "/images/home/guide-running-shoes.jpg",
     "what-is-a-daily-trainer": "/images/running/guides/daily-vs-long.jpg",
     "running-shoe-cushioning": "/images/running/category/use-recovery.jpg",
     "running-shoe-rotation": "/images/running/category/use-tempo.jpg",

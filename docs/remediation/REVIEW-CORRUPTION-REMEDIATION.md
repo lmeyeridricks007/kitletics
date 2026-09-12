@@ -1,0 +1,629 @@
+# Review corruption remediation
+
+This workstream fixes the **uniqueness-token architecture** only.
+It does **not** declare the overall site fixed.
+
+## Target
+
+**PUBLIC/INDEXABLE CORRUPTED REVIEWS = 0**
+
+## Root cause (confirmed)
+
+`unique-expert-research.ts` uniqueness stamps → P53/P54 JSON →
+`reviews.ts` first-wins merge → Review → PDP / alternatives / brands / author.
+
+The generator no longer emits `skuslug` / `skuid` / concatenated-token
+sentences. Merge order is no longer business logic.
+
+## Counts
+
+| Metric | Count |
+| --- | ---: |
+| Corrupted winning reviews **before** (first-wins) | 535 |
+| Clean reviews restored (A/B; overlay no longer wins) | 535 |
+| Class A (clean handwritten / genuine rewrite wins) | 595 |
+| Class B (clean generated-research alternate wins) | 0 |
+| Reviews requiring rewrite (class C) | 0 |
+| Temporarily held (corrupted winner → HIDDEN_404 / noindex) | 0 |
+| Class D (not currently public: draft/scheduled/archived/noindex) | 1 |
+| Public/indexable corrupted reviews **after** | 0 |
+
+### Winning source mix after precedence
+
+| Source | Winning reviews |
+| --- | ---: |
+| handwritten | 596 |
+
+## Remaining token-bearing source records
+
+These JSON overlays remain on disk as source records. They must not win
+publicly when a clean candidate exists; if they are the only candidate they
+are held, not regex-stripped.
+
+| Source | Records | Token-bearing |
+| --- | ---: | ---: |
+| P54 uniqueness overlay | 390 | 390 |
+| P53 uniqueness overlay | 138 | 130 |
+| unique-rewrite generated research | 544 | 138 |
+
+## Clean reviews restored (A/B)
+
+<details>
+<summary>535 slugs</summary>
+
+- `100-percent-s3`
+- `226ers-high-energy-gel`
+- `2toms-sportshield`
+- `adidas-adipower-weightlifting-2`
+- `adidas-adipower-weightlifting-3`
+- `adidas-adizero-adios-pro-4`
+- `adidas-adizero-boston-12`
+- `adidas-adizero-boston-13`
+- `adidas-adizero-evo-sl`
+- `adidas-barricade-13`
+- `adidas-courtjam-control-3`
+- `adidas-courtquick-padel-women`
+- `adidas-courtstabil-padel`
+- `adidas-crazyquick-boost-padel`
+- `adidas-crazyquick-boost-padel-women`
+- `adidas-dropset-2`
+- `adidas-dropset-3`
+- `adidas-metalbone-2026`
+- `adidas-metalbone-hrd-2026`
+- `adidas-own-the-run-short-men`
+- `adidas-own-the-run-tee-men`
+- `adidas-powerlift-5`
+- `adidas-rapidmove-adv`
+- `adidas-solematch-control-2`
+- `adidas-terrex-agravic-3`
+- `adidas-the-total`
+- `adidas-ultraboost-5`
+- `altra-escalante-4`
+- `altra-experience-flow`
+- `altra-lone-peak-8`
+- `altra-paradigm-7`
+- `altra-torin-8`
+- `amazfit-active-2`
+- `amazfit-t-rex-3-pro`
+- `amphipod-vizlet-led`
+- `amphipod-xinglet`
+- `amphipod-xinglet-optic-beam`
+- `apple-airpods-4`
+- `apple-airpods-pro-2`
+- `apple-watch-series-10`
+- `apple-watch-ultra-2`
+- `asics-core-split-short`
+- `asics-game-ff-padel`
+- `asics-gel-challenger-15`
+- `asics-gel-challenger-court`
+- `asics-gel-cumulus-27`
+- `asics-gel-dedicate-8`
+- `asics-gel-dedicate-8-padel`
+- `asics-gel-kayano-32`
+- `asics-gel-nimbus-27`
+- `asics-gel-quantum-360-8`
+- `asics-gel-resolution-9`
+- `asics-gel-resolution-9-clay`
+- `asics-gel-resolution-padel`
+- `asics-gel-trabuco-13`
+- `asics-gt-1000-13`
+- `asics-gt-2000-14`
+- `asics-metaspeed-sky-paris`
+- `asics-novablast-4`
+- `asics-novablast-5`
+- `asics-novablast-6`
+- `asics-solution-speed-ff-3`
+- `asics-solution-swift-ff2-padel`
+- `asics-superblast-2`
+- `assaultbike-classic`
+- `assaultbike-elite`
+- `assaultrunner-elite`
+- `assaultrunner-pro`
+- `atx-cast-iron-plate-set`
+- `atx-fid-bench`
+- `babolat-counter-viper-2026`
+- `babolat-jet-mach-3`
+- `babolat-jet-premura`
+- `babolat-movea-2`
+- `babolat-pure-aero-2023`
+- `babolat-pure-aero-2026`
+- `babolat-pure-drive-2025`
+- `babolat-pure-drive-gen11`
+- `babolat-sensa-women`
+- `babolat-technical-viper-2026`
+- `balega-blister-resist`
+- `balega-hidden-comfort`
+- `beats-fit-pro`
+- `black-crown-special-one-soft`
+- `black-diamond-distance-15`
+- `black-diamond-distance-22`
+- `black-diamond-distance-8`
+- `blackroll-ball`
+- `blackroll-duoball`
+- `blackroll-med`
+- `blackroll-pro`
+- `blackroll-standard`
+- `bowflex-selecttech-1090`
+- `bowflex-selecttech-552`
+- `brazyn-morph`
+- `brooks-adrenaline-gts-25`
+- `brooks-cascadia-18`
+- `brooks-chaser-5-women`
+- `brooks-ghost-16`
+- `brooks-ghost-18`
+- `brooks-glycerin-21`
+- `brooks-glycerin-22`
+- `brooks-glycerin-gts-22`
+- `brooks-hyperion-max-2`
+- `brooks-method-tight-women`
+- `brooks-notch-thermal-beanie`
+- `brooks-notch-thermal-men`
+- `brooks-sherpa-7-men`
+- `buff-coolnet-uv`
+- `buff-merino-lightweight`
+- `buff-original`
+- `bullpadel-hack-03`
+- `bullpadel-hack-04-2026`
+- `bullpadel-hybrid-fly`
+- `bullpadel-ionic-woman`
+- `bullpadel-vertex-04`
+- `bullpadel-vertex-05-2026`
+- `camelbak-apex-pro`
+- `camelbak-circuit-run-vest`
+- `camelbak-crux-15`
+- `camelbak-quick-grip-chill`
+- `camelbak-zephyr`
+- `cep-calf-sleeves-3`
+- `cep-run-compression-sock-3`
+- `cep-the-run-calf-sleeves`
+- `ciele-gocap-athletics`
+- `clif-bar-original`
+- `clif-bloks-energy-chews`
+- `compressport-free-belt-pro`
+- `compressport-ultrun-s-pack`
+- `concept2-bikeerg`
+- `concept2-rowerg`
+- `concept2-rowerg-dynamic`
+- `concept2-skierg`
+- `concept2-skierg-floor-stand`
+- `concept2-skierg-with-stand`
+- `coros-apex-2-pro`
+- `coros-heart-rate-monitor`
+- `coros-pace-3`
+- `coros-pace-4`
+- `coros-pace-pro`
+- `coros-vertix-2s`
+- `craft-active-extreme-x-men`
+- `craft-adv-essence-light-wind-men`
+- `craft-adv-essence-short`
+- `craft-adv-essence-tight-men`
+- `craft-adv-lumen-glove`
+- `darn-tough-run-1-4`
+- `do-win-classic`
+- `drop-shot-canyon-pro-2026`
+- `drymax-run-lite-mesh`
+- `dunlop-cx-200`
+- `eleiko-kettlebell`
+- `eleiko-performance-weightlifting-bar`
+- `eleiko-sport-bumper-set`
+- `eleiko-sport-collars`
+- `eleiko-xf-bar`
+- `enervit-c2-1-carbo-gel`
+- `feetures-elite-light-cushion`
+- `fitletic-fully-loaded`
+- `flipbelt-classic`
+- `garmin-enduro-3`
+- `garmin-epix-pro-gen-2`
+- `garmin-forerunner-165`
+- `garmin-forerunner-255`
+- `garmin-forerunner-265`
+- `garmin-forerunner-265s`
+- `garmin-forerunner-55`
+- `garmin-forerunner-570`
+- `garmin-forerunner-965`
+- `garmin-forerunner-970`
+- `garmin-hrm-200`
+- `garmin-hrm-pro-plus`
+- `garmin-instinct-3`
+- `garmin-vivoactive-6`
+- `goodr-circle-gs`
+- `goodr-ogs`
+- `gornation-gymnastic-rings`
+- `gornation-parallettes-pro`
+- `gornation-premium-pull-up-bar`
+- `gravity-fitness-gymnastic-rings`
+- `gravity-fitness-parallettes`
+- `gravity-fitness-pull-up-station`
+- `gravity-fitness-weighted-vest`
+- `gu-energy-chews`
+- `gu-energy-gel`
+- `gu-roctane-gel`
+- `head-coello-pro-2026`
+- `head-extreme-motion-2026`
+- `head-extreme-pro-padel-2026`
+- `head-radical-mp-2023`
+- `head-revolt-pro-court`
+- `head-speed-mp-2024`
+- `head-sprint-pro-4-padel`
+- `high5-energy-gel`
+- `high5-zero`
+- `hoka-arahi-7`
+- `hoka-bondi-8`
+- `hoka-clifton-10`
+- `hoka-clifton-9`
+- `hoka-clifton-pro`
+- `hoka-gaviota-5`
+- `hoka-mach-6`
+- `hoka-speedgoat-6`
+- `hoka-transport`
+- `honey-stinger-organic-energy-gel`
+- `horizon-t202-treadmill`
+- `huma-gel-original`
+- `hydrapak-contour-2l`
+- `hydrapak-skyflask-speed-500`
+- `hydrapak-softflask-250`
+- `hydrapak-softflask-500`
+- `hydrapak-softflask-speed-500`
+- `hydrapak-tube-kit`
+- `hydrow-wave`
+- `hyperice-hypervolt-go-2`
+- `hyperice-normatec-3`
+- `hyperice-normatec-go`
+- `hyperice-vyper-3`
+- `inov8-f-lite-235-v3`
+- `inov8-f-lite-260`
+- `inov8-fastlift-360`
+- `inov8-fastlift-400`
+- `inov8-fastlift-power-g-380`
+- `inov8-trailfly-ultra-g-300-max`
+- `janji-multi-short-men`
+- `janji-pace-short-women`
+- `janji-rainrunner-men`
+- `janji-run-tee-men`
+- `joma-slam-lady`
+- `joma-spin-men`
+- `joma-t-slam`
+- `julbo-aerolite`
+- `julbo-rush`
+- `julbo-ultimate`
+- `k-swiss-hypercourt-express-2`
+- `k-swiss-ultrashot-3`
+- `kiprun-running-belt`
+- `kuikma-pr-soft-500`
+- `kuikma-ps-990`
+- `ledlenser-neo9r`
+- `lok-maxx-flow`
+- `lululemon-strongfeel`
+- `maurten-drink-mix-160`
+- `maurten-drink-mix-320`
+- `maurten-gel-100`
+- `maurten-gel-100-caf-100`
+- `maurten-gel-160`
+- `mirafit-air-bike`
+- `mirafit-battle-rope`
+- `mirafit-bumper-plate-set`
+- `mirafit-cast-iron-kettlebell`
+- `mirafit-fid-adjustable-bench`
+- `mirafit-folding-rower`
+- `mirafit-folding-treadmill`
+- `mirafit-m3-power-rack`
+- `mirafit-m4-cage`
+- `mirafit-magnetic-rower`
+- `mirafit-olympic-barbell`
+- `mirafit-weighted-vest`
+- `mizuno-wave-rebellion-pro-3`
+- `mizuno-wave-rider-28`
+- `naak-ultra-energy-bar`
+- `naak-ultra-energy-drink-mix`
+- `naked-running-band`
+- `nathan-exoshot-2`
+- `nathan-lightbender-rx`
+- `nathan-mirage-pak`
+- `nathan-peak-hydration-waist-pack`
+- `nathan-pinnacle-12`
+- `nathan-softflask-18oz`
+- `nathan-speeddraw-plus-insulated-18oz`
+- `nathan-vaporair-2`
+- `nathan-vaporair-4`
+- `nathan-zippered-stash`
+- `nathan-zipster-lite`
+- `nb-minimus-tr`
+- `nb-rc-essential-short-men`
+- `neversecond-c30-gel`
+- `neversecond-c30-sports-drink`
+- `new-balance-fresh-foam-x-1080-v13`
+- `new-balance-fresh-foam-x-1080-v14`
+- `new-balance-fresh-foam-x-860-v14`
+- `new-balance-fresh-foam-x-hierro-v9`
+- `new-balance-fuelcell-rebel-v5`
+- `new-balance-fuelcell-supercomp-elite-v4`
+- `new-balance-fuelcell-supercomp-trainer-v3`
+- `nike-aerobill-cap`
+- `nike-aeroswift-singlet-men`
+- `nike-alphafly-3`
+- `nike-dri-fit-miler-men`
+- `nike-dri-fit-miler-women`
+- `nike-dri-fit-stride-short`
+- `nike-fast-tight-men`
+- `nike-free-metcon-6`
+- `nike-impossibly-light-men`
+- `nike-invincible-3`
+- `nike-metcon-8`
+- `nike-metcon-9`
+- `nike-pegasus-41`
+- `nike-pegasus-42`
+- `nike-pegasus-trail-5`
+- `nike-react-infinity-run-4`
+- `nike-romaleos-4`
+- `nike-romaleos-5`
+- `nike-savaleos`
+- `nike-structure-26`
+- `nike-structure-plus`
+- `nike-swoosh-medium-support`
+- `nike-therma-fit-glove`
+- `nike-vaporfly-4`
+- `nitecore-nu43`
+- `nnormal-race-vest`
+- `nobull-outwork`
+- `nobull-trainer`
+- `nobull-trainer-plus`
+- `nox-at10-genius-12k-alum-xtrem-2026`
+- `nox-at10-genius-18k-2026`
+- `nox-at10-lux`
+- `nox-ml10-hexa`
+- `nox-ml10-pro-cup-2026`
+- `nuobell-50`
+- `nuobell-80`
+- `nuun-sport`
+- `oakley-encoder`
+- `oakley-flak-2-0-xl`
+- `oakley-kato`
+- `oakley-radar-ev-path`
+- `oakley-sutro-lite`
+- `odlo-active-warm-eco-bottom-men`
+- `odlo-active-warm-eco-men`
+- `on-cloudmonster-2`
+- `on-cloudmonster-hyper`
+- `on-cloudsurfer-2`
+- `on-cloudsurfer-next`
+- `on-performance-short-men`
+- `on-performance-tight-women`
+- `on-ultra-vest-pro`
+- `on-weather-jacket-men`
+- `oofos-oolala`
+- `oofos-ooriginal`
+- `osprey-duro-6`
+- `osprey-duro-lt`
+- `osprey-dyna-6`
+- `osprey-dyna-lt`
+- `osprey-hydraulics-lt-15`
+- `osprey-talon-velocity-20`
+- `osprey-talon-velocity-30`
+- `patagonia-capilene-cool-daily-men`
+- `patagonia-capilene-midweight-zip-men`
+- `patagonia-capilene-thermal-crew-men`
+- `patagonia-endless-run-tight-women`
+- `patagonia-houdini-men`
+- `patagonia-nano-puff-vest-men`
+- `patagonia-strider-pro-men`
+- `patagonia-trailfarer-short-women`
+- `petzl-swift-rl`
+- `polar-grit-x2`
+- `polar-h9`
+- `polar-pacer`
+- `polar-pacer-pro`
+- `polar-vantage-v3`
+- `polar-verity-sense`
+- `powerbar-energize`
+- `powerblock-elite-exp-90`
+- `powerblock-pro-series-100`
+- `powerblock-pro-series-50`
+- `precision-pf30-drink-mix`
+- `precision-pf30-gel`
+- `precision-ph1500`
+- `prince-textreme-tour-100p`
+- `proviz-reflect360-running-vest`
+- `pullup-and-dip-parallettes`
+- `pullup-and-dip-wall-bar`
+- `puma-deviate-nitro-3`
+- `puma-fuse-3`
+- `puma-fuse-fasted`
+- `puma-magnify-nitro-2`
+- `rabbit-fuel-n-fly-men`
+- `reebok-legacy-lifter-iii`
+- `reebok-lifter-pr-iii`
+- `reebok-nano-court`
+- `reebok-nano-x3`
+- `reebok-nano-x4`
+- `rep-ab-5000-zero-gap`
+- `rep-ab-5200`
+- `rep-apollo-athlon-rack`
+- `rep-black-bumper-plate-set`
+- `rep-colorado-bar`
+- `rep-fb-5000-flat-bench`
+- `rep-pr-4000`
+- `rep-pr-5000`
+- `rep-quickdraw-adjustable-dumbbells`
+- `rep-slam-ball`
+- `rogue-adjustable-bench-3-0`
+- `rogue-dog-sled`
+- `rogue-echo-bike`
+- `rogue-echo-bumper-plate-set`
+- `rogue-echo-kettlebell`
+- `rogue-flat-utility-bench`
+- `rogue-flogging-horse-stall-mat-note`
+- `rogue-kettlebell`
+- `rogue-monster-lite-pull-up-bar`
+- `rogue-ohio-bar`
+- `rogue-ohio-power-bar`
+- `rogue-plate-carrier-vest`
+- `rogue-sandbag`
+- `rogue-sm-2c-monster-lite`
+- `rogue-wall-ball`
+- `rogue-wrist-wraps`
+- `roka-phantom-air`
+- `royal-padel-m27-poly-2026`
+- `rudy-project-cutline`
+- `salming-rebel`
+- `salomon-adv-skin-12`
+- `salomon-adv-skin-5`
+- `salomon-aero-glide-2`
+- `salomon-bonatti-wp-men`
+- `salomon-bonatti-wp-women`
+- `salomon-custom-quiver`
+- `salomon-genesis`
+- `salomon-pulsar-trail-2`
+- `salomon-pulse-belt`
+- `salomon-sense-ride-5`
+- `salomon-soft-flask-500`
+- `salomon-soft-flask-speed-500`
+- `salomon-soft-reservoir-15`
+- `salomon-ultra-glide-2`
+- `salomon-xa-15`
+- `saltstick-caps`
+- `saltstick-fastchews`
+- `samsung-galaxy-watch-ultra`
+- `saucony-endorphin-pro-3`
+- `saucony-endorphin-pro-4`
+- `saucony-endorphin-speed-4`
+- `saucony-endorphin-speed-5`
+- `saucony-guide-18`
+- `saucony-peregrine-15`
+- `saucony-ride-18`
+- `saucony-triumph-22`
+- `saucony-xodus-ultra-3`
+- `schwinn-airdyne-ad8`
+- `shokz-opendots-one`
+- `shokz-openfit-2`
+- `shokz-openrun`
+- `shokz-openrun-pro-2`
+- `sis-beta-fuel-drink`
+- `sis-beta-fuel-gel`
+- `sis-go-isotonic-gel`
+- `siux-diablo-revolution-2026`
+- `skierg2-wall-mount`
+- `skratch-sport-energy-chews`
+- `skratch-sport-hydration-mix`
+- `smartwool-thermal-merino-glove`
+- `smith-attack-mag`
+- `smith-shift-mag`
+- `sole-f80-treadmill`
+- `soundcore-aerofit-2`
+- `spibelt-original`
+- `spring-energy-awesome-sauce`
+- `starvie-basalto-osiris-2026`
+- `starvie-titania-kepler-2026`
+- `styrkr-gel30`
+- `styrkr-mix90`
+- `suunto-race`
+- `suunto-race-s`
+- `suunto-run`
+- `suunto-smart-heart-rate-belt`
+- `suunto-vertical-2`
+- `suunto-wing`
+- `swiftwick-aspire-four`
+- `tailwind-endurance-fuel`
+- `tecnifibre-tf40-305`
+- `tecnifibre-tfight-300s-2025`
+- `tecnifibre-wall-breaker-365`
+- `therabody-theragun-mini-2`
+- `therabody-theragun-prime`
+- `therabody-theragun-pro`
+- `tifosi-rail`
+- `tifosi-vogel`
+- `topo-athletic-phantom-3`
+- `topo-athletic-specter-2`
+- `topo-athletic-terraventure-5`
+- `tracksmith-brighton-ls-men`
+- `tracksmith-session-short-men`
+- `tracksmith-session-short-women`
+- `tracksmith-turnover-tight-women`
+- `tracksmith-twilight-half-men`
+- `tracksmith-van-cortlandt-tee-men`
+- `triggerpoint-grid-travel`
+- `triggerpoint-grid-x`
+- `tyr-cxt-1`
+- `tyr-cxt-2`
+- `tyr-cxt1-trainer`
+- `ua-charged-commit-4`
+- `ua-project-rock-bsr-4`
+- `ua-reign-lifter`
+- `ua-tribase-reign-6`
+- `ultimate-direction-adventure-vest`
+- `ultimate-direction-body-bottle-500`
+- `ultimate-direction-fastpack-20`
+- `ultimate-direction-fastpack-30`
+- `ultimate-direction-fastpack-her-20`
+- `ultimate-direction-race-belt`
+- `ultimate-direction-race-vest-6`
+- `ultimate-direction-ultra-belt`
+- `ultimate-direction-utility-bag`
+- `ultraspire-alpha-6`
+- `ultraspire-fitted-race-belt-2`
+- `uswe-pace-8`
+- `varlion-lw-carbon-difusor-2026`
+- `veloforte-energy-bar`
+- `veloforte-energy-chews`
+- `wahoo-tickr`
+- `wahoo-tickr-fit`
+- `wahoo-tickr-x`
+- `wahoo-trackr`
+- `waterrower-a1`
+- `wilson-blade-100-v9`
+- `wilson-blade-98-v8`
+- `wilson-blade-98-v9`
+- `wilson-blade-pro-v2-padel-2026`
+- `wilson-clash-100-v2`
+- `wilson-clash-100-v3`
+- `wilson-rush-pro-4-0`
+- `wilson-rush-pro-5-padel`
+- `wilson-rush-pro-ace`
+- `woodway-curve-trainer`
+- `wrightsock-coolmesh-ii`
+- `xebex-ski-erg`
+- `xero-prio`
+- `yonex-ezone-100-2025`
+- `yonex-ezone-98-2024`
+- `yonex-vcore-100-2023`
+- `yonex-vcore-98-2026`
+
+</details>
+
+## Reviews requiring editorial regeneration (class C)
+
+**0 public winners.** Every slug that had a token-bearing overlay also had a
+clean handwritten/curated candidate, so precedence restored that copy rather
+than holding a stamped overlay.
+
+Do not salvage identifier-stuffed overlay JSON by deleting tokens. The P53/P54
+records remain on disk for audit; they must not be re-selected as public copy.
+A future workstream may regenerate overlays from the stamp-free generator if
+those files are reused.
+
+## Temporarily held
+
+Publication policy: `assessReviewLaunchQuality` → `BLOCKED` → `HIDDEN_404`.
+Review pages and PDP review summaries refuse corrupted objects.
+
+No catalog winners are held for corruption after precedence restored clean
+handwritten copy. The gate remains: if a uniqueness overlay were the only
+candidate, it would be `HIDDEN_404`, not regex-stripped.
+
+## Defence in depth
+
+1. Generator: `synthesizeUniqueExpertResearch` no longer stamps public copy;
+   returns `NEEDS_RESEARCH` if corruption is still detected.
+2. Merge: `src/content/review-source-precedence.ts` — handwritten >
+   genuine rewrite > generated research > uniqueness overlay; skip corrupted
+   candidates when a clean one exists.
+3. Detector: `containsPublicContentCorruption` in
+   `src/lib/review/public-content-corruption.ts`.
+4. Publication: corruption is a **BLOCKER** (`PUBLIC_CONTENT_CORRUPTION`),
+   including site-quality `CONTENT-CORRUPTION`.
+5. Consumers: review page, PDP, PDP review summary, and alternatives will not
+   assemble corrupted review copy.
+
+## Out of scope
+
+Image mismatches, machine-like Buy/Skip templates without tokens, and
+full editorial rewrites of class C reviews.

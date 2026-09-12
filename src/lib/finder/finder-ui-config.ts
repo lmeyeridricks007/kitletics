@@ -58,7 +58,7 @@ export const FINDER_UI_BY_SLUG: Record<string, FinderUiConfig> = {
       {
         slug: "how-to-choose-running-shoes",
         type: "buying",
-        imageSrc: "/images/home/guide-how-to-choose.jpg",
+        imageSrc: "/images/home/guide-running-shoes.jpg",
       },
       {
         slug: "daily-trainers",

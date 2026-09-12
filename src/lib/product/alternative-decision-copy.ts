@@ -15,6 +15,7 @@ import { ALTERNATIVES_P57_UNIQUE_INTROS } from "@/content/alternatives-p57-uniqu
 import { ALTERNATIVES_P64_UNIQUE_INTROS } from "@/content/alternatives-p64-uniqueness";
 import { ALTERNATIVES_P65_UNIQUE_INTROS } from "@/content/alternatives-p65-completion";
 import { buildAccessoryAlternativeCopy } from "@/lib/product/alternatives-p64-decision-copy";
+import { containsPublicContentCorruption } from "@/lib/review/public-content-corruption";
 
 /** Categories where alternatives pages can earn indexation when substantive. */
 export const ALTERNATIVES_INDEXABLE_CATEGORIES = new Set([
@@ -104,8 +105,7 @@ function specFingerprint(product: Product): string {
 function usefulVerdict(product: Product): string | undefined {
   const v = product.verdict?.trim();
   if (!v) return undefined;
-  const compact = v.replace(/\s+/g, "");
-  if (/skuslug|skuidprod|heelstack\d+|skuslug/i.test(compact)) return undefined;
+  if (containsPublicContentCorruption(v)) return undefined;
   return clip(v, 100);
 }
 
@@ -372,7 +372,7 @@ export function buildAlternativeDecisionCopy(input: {
   const switchFrames = [
     `Switch to ${tName} when ${seek} is the shopping trigger and ${lowerLead(tStrength)} shows up more weeks than ${lowerLead(sStrength)}.`,
     `Choose ${tName} if your calendar is mostly ${tUc} and ${sName}'s ${sUc} bias is the wrong default.`,
-    `Move to ${tName} when you have already decided ${seek} matters more than protecting ${lowerLead(sStrength)}.`,
+    `Move to ${tName} when ${seek} matters more than protecting ${lowerLead(sStrength)}.`,
     `Move to ${tName} if ${lowerLead(sWeak)} is the reason you opened this page and ${lowerLead(tStrength)} actually fixes it.`,
     `Choose ${tName} when ${tUc} is the week and ${sName} is only winning on habit — not on ${seek}.`,
   ];

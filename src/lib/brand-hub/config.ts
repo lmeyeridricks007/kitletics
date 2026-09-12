@@ -83,7 +83,7 @@ export const asicsBrandHubConfig: BrandHubConfig = {
     "running-shoe-cushioning",
   ],
   guideImageMap: {
-    "how-to-choose-running-shoes": "/images/home/guide-how-to-choose.jpg",
+    "how-to-choose-running-shoes": "/images/home/guide-running-shoes.jpg",
     "what-is-a-daily-trainer": "/images/running/guides/daily-vs-long.jpg",
     "running-shoe-cushioning": "/images/running/category/use-recovery.jpg",
   },
@@ -180,7 +180,7 @@ export const nikeBrandHubConfig: BrandHubConfig = {
   ],
   guideSlugs: ["how-to-choose-running-shoes"],
   guideImageMap: {
-    "how-to-choose-running-shoes": "/images/home/guide-how-to-choose.jpg",
+    "how-to-choose-running-shoes": "/images/home/guide-running-shoes.jpg",
   },
 };
 

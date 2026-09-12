@@ -1,0 +1,15 @@
+{
+  "rows": 26988,
+  "beforeMachine": 560,
+  "beforeBroken": 12,
+  "beforeWordy": 1806,
+  "afterGood": 24084,
+  "allMachineAfter": 0,
+  "allBrokenAfter": 0,
+  "indexableMachine": 0,
+  "indexableBroken": 0,
+  "products": 631,
+  "reviews": 591,
+  "bestGuides": 59,
+  "comparisons": 94
+}

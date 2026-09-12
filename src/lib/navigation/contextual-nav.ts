@@ -80,7 +80,7 @@ export const RUNNING_CONTEXTUAL_NAV: ContextualNavConfig = {
   parentNavKey: "running",
   label: "Running",
   /** Decision surface stays on the primary desktop row */
-  maxVisibleDesktop: 9,
+  maxVisibleDesktop: 10,
   items: [
     {
       id: "overview",
@@ -98,6 +98,13 @@ export const RUNNING_CONTEXTUAL_NAV: ContextualNavConfig = {
         { type: "prefix", value: "/running/gear" },
       ],
       priority: 20,
+    },
+    {
+      id: "shoe-database",
+      label: "Shoe Database",
+      href: "/running/shoes/database",
+      match: { type: "exact", value: "/running/shoes/database" },
+      priority: 22,
     },
     {
       id: "best",
@@ -246,7 +253,7 @@ export const SHOES_CONTEXTUAL_NAV: ContextualNavConfig = {
   contextId: "shoes",
   parentNavKey: "shoes",
   label: "Shoes",
-  maxVisibleDesktop: 8,
+  maxVisibleDesktop: 9,
   items: [
     {
       id: "running-shoes",
@@ -257,6 +264,13 @@ export const SHOES_CONTEXTUAL_NAV: ContextualNavConfig = {
         { type: "prefix", value: "/running/shoes" },
       ],
       priority: 10,
+    },
+    {
+      id: "shoe-database",
+      label: "Shoe Database",
+      href: "/running/shoes/database",
+      match: { type: "exact", value: "/running/shoes/database" },
+      priority: 12,
     },
     {
       id: "training-shoes",

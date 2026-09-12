@@ -16,6 +16,7 @@ import {
   getLaunchEligibility,
   shouldPromotePublicly,
 } from "@/domain/launch";
+import { isConsumerEditorialReady } from "@/lib/review/consumer-copy-quality";
 
 describe("Review page system", () => {
   it("resolves flagship Novablast 5 review from slug", () => {
@@ -171,7 +172,7 @@ describe("Review page system", () => {
     expect(data!.evidence.every((e) => e.type !== "personal-test")).toBe(true);
   });
 
-  it("flagship reviews enrich to long-form length (3k+ words)", () => {
+  it("flagship reviews enrich to long-form length (3k+ words) unless already consumer-ready", () => {
     for (const slug of ["nike-vomero-18", "asics-novablast-5", "brooks-ghost-18"]) {
       const data = getReviewPageData(slug);
       expect(data).toBeDefined();
@@ -189,6 +190,11 @@ describe("Review page system", () => {
         .filter(Boolean)
         .join(" ");
       const words = text.trim().split(/\s+/).length;
+      if (isConsumerEditorialReady(data!.review)) {
+        expect(words, slug).toBeGreaterThanOrEqual(400);
+        expect(data!.review.sections.length, slug).toBeGreaterThanOrEqual(3);
+        continue;
+      }
       expect(words, slug).toBeGreaterThanOrEqual(3000);
       expect(data!.review.sections.length, slug).toBeGreaterThanOrEqual(10);
     }

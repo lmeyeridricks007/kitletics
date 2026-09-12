@@ -684,6 +684,26 @@ export function FinderResultsView({
               </aside>
             )}
 
+            {data.shoeDatabaseLink && (
+              <aside className="border border-border bg-white p-4">
+                <p className="text-[11px] font-bold tracking-[0.14em] text-subtle uppercase">
+                  Specs across the market
+                </p>
+                <p className="mt-2 text-[13px] font-semibold text-foreground">
+                  {data.shoeDatabaseLink.label}
+                </p>
+                <p className="mt-1 text-[12px] leading-relaxed text-muted">
+                  {data.shoeDatabaseLink.description}
+                </p>
+                <Link
+                  href={data.shoeDatabaseLink.href}
+                  className="mt-3 inline-flex text-[12px] font-bold text-link hover:text-link-hover"
+                >
+                  Open {data.shoeDatabaseLink.label} →
+                </Link>
+              </aside>
+            )}
+
             <aside className="border border-accent/40 bg-[#f4ffe0] p-4">
               <p className="text-[11px] font-bold tracking-[0.14em] text-[#0b1220] uppercase">
                 Need more help?
