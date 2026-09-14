@@ -270,18 +270,45 @@ export const padelAlternativesConfig: AlternativesPageConfig = {
       types: ["lighter-alternative", "lighter"],
       title: "More Maneuverable",
       tabLabel: "Maneuverable",
-      badgeLabel: "More Maneuverable",
-      description: "Lighter frames for quick hands at net.",
+      badgeLabel: "Easier Handling",
+      description: "Lighter / hybrid handling for quicker preparation.",
       icon: "feather",
+    },
+    {
+      id: "softer-feel",
+      types: ["more-cushioned"],
+      title: "Softer Feel",
+      tabLabel: "Softer",
+      badgeLabel: "Softer Feel",
+      description: "Softer cores or comfort faces when dense attack packs feel harsh.",
+      icon: "cloud",
+    },
+    {
+      id: "more-forgiving",
+      types: ["beginner-friendly", "similar"],
+      title: "More Forgiving",
+      tabLabel: "Forgiving",
+      badgeLabel: "More Forgiving",
+      description: "Centred sweet spots and SoftEva rounds when mishits dominate.",
+      icon: "shield",
     },
     {
       id: "better-value",
       types: ["better-value", "cheaper-alternative", "cheaper"],
-      title: "Better Value",
+      title: "Lower Price / Value",
       tabLabel: "Value",
       badgeLabel: "Better Value",
       description: "Strong performance without flagship pricing.",
       icon: "tag",
+    },
+    {
+      id: "direct-competitor",
+      types: ["direct-competitor"],
+      title: "Similar Role",
+      tabLabel: "Similar",
+      badgeLabel: "Similar Role",
+      description: "Peers with a different brand or family approach to the same job.",
+      icon: "sparkles",
     },
     {
       id: "previous-generation",
@@ -296,8 +323,115 @@ export const padelAlternativesConfig: AlternativesPageConfig = {
   comparisonColumns: [
     { id: "name", label: "Racket", kind: "name" },
     { id: "shape", label: "Shape", kind: "spec", specKey: "shape" },
-    { id: "weight", label: "Weight", kind: "spec", specKey: "weight" },
+    { id: "weight", label: "Weight", kind: "spec", specKey: "weightMin" },
     { id: "balance", label: "Balance", kind: "spec", specKey: "balance" },
+    { id: "core", label: "Core", kind: "spec", specKey: "core" },
+    { id: "score", label: "Score", kind: "score" },
+    { id: "bestFor", label: "Best for", kind: "bestFor" },
+    { id: "price", label: "From", kind: "price" },
+  ],
+};
+
+const PADEL_SOFT_REASONS: AlternativesReasonConfig[] = [
+  {
+    id: "similar",
+    types: ["similar", "direct-competitor"],
+    title: "Similar Role",
+    tabLabel: "Similar",
+    badgeLabel: "Similar Role",
+    description: "Closest peers when the job stays the same but brand or pack differs.",
+    icon: "sparkles",
+  },
+  {
+    id: "better-value",
+    types: ["better-value", "cheaper-alternative", "cheaper"],
+    title: "Better Value",
+    tabLabel: "Value",
+    badgeLabel: "Better Value",
+    description: "Similar role at a stronger price positioning.",
+    icon: "tag",
+  },
+  {
+    id: "previous-generation",
+    types: ["previous-generation"],
+    title: "Previous Generation",
+    tabLabel: "Previous Gen",
+    badgeLabel: "Previous Generation",
+    description: "Prior model when the core job is unchanged.",
+    icon: "clock",
+  },
+];
+
+/** Soft-goods alts must use padel editorial art — never running-shoe inference. */
+export const padelBallsAlternativesConfig: AlternativesPageConfig = {
+  categoryId: "cat-padel-balls",
+  productNounSingular: "ball can",
+  productNounPlural: "ball cans",
+  heroImageSrc: "/images/padel/hero.jpg",
+  trustIndicators: [...RUNNING_TRUST],
+  reasons: PADEL_SOFT_REASONS,
+  comparisonColumns: [
+    { id: "name", label: "Balls", kind: "name" },
+    { id: "score", label: "Score", kind: "score" },
+    { id: "bestFor", label: "Best for", kind: "bestFor" },
+    { id: "price", label: "From", kind: "price" },
+  ],
+};
+
+export const padelBagsAlternativesConfig: AlternativesPageConfig = {
+  categoryId: "cat-padel-bags",
+  productNounSingular: "bag",
+  productNounPlural: "bags",
+  heroImageSrc: "/images/padel/hero.jpg",
+  trustIndicators: [...RUNNING_TRUST],
+  reasons: PADEL_SOFT_REASONS,
+  comparisonColumns: [
+    { id: "name", label: "Bag", kind: "name" },
+    { id: "score", label: "Score", kind: "score" },
+    { id: "bestFor", label: "Best for", kind: "bestFor" },
+    { id: "price", label: "From", kind: "price" },
+  ],
+};
+
+export const padelGripsAlternativesConfig: AlternativesPageConfig = {
+  categoryId: "cat-padel-grips",
+  productNounSingular: "grip",
+  productNounPlural: "grips",
+  heroImageSrc: "/images/padel/hero.jpg",
+  trustIndicators: [...RUNNING_TRUST],
+  reasons: PADEL_SOFT_REASONS,
+  comparisonColumns: [
+    { id: "name", label: "Grip", kind: "name" },
+    { id: "score", label: "Score", kind: "score" },
+    { id: "bestFor", label: "Best for", kind: "bestFor" },
+    { id: "price", label: "From", kind: "price" },
+  ],
+};
+
+export const padelAccessoriesAlternativesConfig: AlternativesPageConfig = {
+  categoryId: "cat-padel-accessories",
+  productNounSingular: "accessory",
+  productNounPlural: "accessories",
+  heroImageSrc: "/images/padel/hero.jpg",
+  trustIndicators: [...RUNNING_TRUST],
+  reasons: PADEL_SOFT_REASONS,
+  comparisonColumns: [
+    { id: "name", label: "Accessory", kind: "name" },
+    { id: "score", label: "Score", kind: "score" },
+    { id: "bestFor", label: "Best for", kind: "bestFor" },
+    { id: "price", label: "From", kind: "price" },
+  ],
+};
+
+export const padelShoesAlternativesConfig: AlternativesPageConfig = {
+  categoryId: "cat-padel-shoes",
+  productNounSingular: "shoe",
+  productNounPlural: "shoes",
+  heroImageSrc: "/images/padel/hero.jpg",
+  trustIndicators: [...RUNNING_TRUST],
+  reasons: PADEL_SOFT_REASONS,
+  comparisonColumns: [
+    { id: "name", label: "Shoe", kind: "name" },
     { id: "score", label: "Score", kind: "score" },
     { id: "bestFor", label: "Best for", kind: "bestFor" },
     { id: "price", label: "From", kind: "price" },
@@ -590,6 +724,11 @@ const CONFIGS: AlternativesPageConfig[] = [
   runningShoesAlternativesConfig,
   gpsWatchAlternativesConfig,
   padelAlternativesConfig,
+  padelBallsAlternativesConfig,
+  padelBagsAlternativesConfig,
+  padelGripsAlternativesConfig,
+  padelAccessoriesAlternativesConfig,
+  padelShoesAlternativesConfig,
   hrmAlternativesConfig,
   tennisRacketAlternativesConfig,
   clothingAlternativesConfig,

@@ -43,6 +43,11 @@ import {
   shouldLinkShoeDatabaseFromFinder,
   SHOE_DATABASE_DISCOVERY_LINK,
 } from "@/lib/running-shoe-database/discovery";
+import {
+  PADEL_FINDER_ROLE_LABELS,
+  selectPadelFinderRoleRows,
+  type PadelFinderResultRole,
+} from "@/lib/finder/padel-result-roles";
 
 export interface FinderResultProductRow {
   evaluation: FinderRunResult["rankedResults"][number];
@@ -56,6 +61,12 @@ export interface FinderResultProductRow {
   imageAlt?: string;
   summary: string;
   alternatives: { product: Product; brand?: Brand; reason: string }[];
+  /** Flagship presentation role (padel racket finder) */
+  resultRole?: PadelFinderResultRole;
+  resultRoleLabel?: string;
+  /** Short spec chips for explainability */
+  highlightSpecs?: { label: string; value: string }[];
+  compareHref?: string;
 }
 
 export interface FinderRelatedGuideCard {
@@ -138,6 +149,27 @@ function overallQualityFromRun(
   return { overallQuality, overallConfidencePercent };
 }
 
+function padelHighlightSpecs(product: Product): { label: string; value: string }[] {
+  const s = product.specifications;
+  const out: { label: string; value: string }[] = [];
+  if (s.shape != null) out.push({ label: "Shape", value: String(s.shape) });
+  if (s.balance != null) out.push({ label: "Balance", value: String(s.balance) });
+  if (s.weightMin != null || s.weight != null) {
+    const min = s.weightMin ?? s.weight;
+    const max = s.weightMax;
+    out.push({
+      label: "Weight",
+      value:
+        max != null && min != null && max !== min
+          ? `${min}–${max} g`
+          : `${min} g`,
+    });
+  }
+  if (s.core != null) out.push({ label: "Core", value: String(s.core) });
+  else if (s.feel != null) out.push({ label: "Feel", value: String(s.feel) });
+  return out.slice(0, 4);
+}
+
 export function getFinderResultsData(input: {
   finderSlug: string;
   responses: FinderResponses;
@@ -210,11 +242,45 @@ export function getFinderResultsData(input: {
           ? toSituationLabel(evaluation.strengths[0], "buy", product.name)
           : `${brand?.name ?? ""} ${product.name}`.trim()),
       alternatives: alts,
+      highlightSpecs:
+        definition.slug === "padel-racket-finder"
+          ? padelHighlightSpecs(product)
+          : undefined,
     });
   }
 
-  const topResults = rows.slice(0, 3);
-  const otherResults = rows.slice(3, 7);
+  const isPadelFinder = definition.slug === "padel-racket-finder";
+  let topResults: FinderResultProductRow[];
+  let otherResults: FinderResultProductRow[];
+
+  if (isPadelFinder) {
+    const roleRows = selectPadelFinderRoleRows(rows);
+    const bestSlug = roleRows[0]?.product.slug;
+    topResults = roleRows.map((r) => {
+      const peerSlug =
+        r.resultRole === "best-match"
+          ? roleRows[1]?.product.slug
+          : bestSlug;
+      return {
+        ...r,
+        resultRoleLabel: PADEL_FINDER_ROLE_LABELS[r.resultRole],
+        compareHref:
+          category?.slug && peerSlug && peerSlug !== r.product.slug
+            ? buildCompareHref({
+                categorySlug: category.slug,
+                productSlugs: [r.product.slug, peerSlug],
+              })
+            : undefined,
+      };
+    });
+    const usedIds = new Set(topResults.map((r) => r.product.id));
+    otherResults = rows
+      .filter((r) => !usedIds.has(r.product.id))
+      .slice(0, 4);
+  } else {
+    topResults = rows.slice(0, 3);
+    otherResults = rows.slice(3, 7);
+  }
 
   let whyTopBeatSecond: FinderResultsPageData["whyTopBeatSecond"];
   if (rows.length >= 2) {

@@ -394,8 +394,8 @@ export const padelRacketBestGuideConfig: BestGuideCategoryConfig = {
     "balance",
     "core",
     "face",
-    "powerPositioning",
-    "controlPositioning",
+    "feel",
+    "playerLevel",
   ],
   defaultSelectionCriteria: [
     {
@@ -463,6 +463,144 @@ export const padelRacketBestGuideConfig: BestGuideCategoryConfig = {
       source: "spec",
       specKey: "powerPositioning",
     },
+    { key: "score", label: "Score", source: "score" },
+    { key: "price", label: "Price", source: "price" },
+  ],
+};
+
+export const padelShoeBestGuideConfig: BestGuideCategoryConfig = {
+  categoryId: "cat-padel-shoes",
+  comparisonKeys: [
+    "genderFit",
+    "lateralStability",
+    "courtFeel",
+    "cushioning",
+    "surface",
+    "courtOutsole",
+  ],
+  defaultSelectionCriteria: [
+    {
+      key: "surface",
+      label: "Padel-specific outsole",
+      description: "Herringbone or listed padel court rubber — not a running trainer.",
+    },
+    {
+      key: "lateral",
+      label: "Lateral stability",
+      description: "High-lateral court last for glass-court cuts.",
+    },
+    {
+      key: "last",
+      label: "Last / fit",
+      description: "Men’s, women’s, and unisex lasts are different products.",
+    },
+    {
+      key: "cushion",
+      label: "Court cushioning",
+      description: "Plush vs connected court feel.",
+    },
+  ],
+  commonAwardTypes: [
+    "best-overall",
+    "best-value",
+    "best-stability",
+    "best-cushioned",
+    "editors-pick",
+  ],
+  primaryUseCaseIds: [],
+  categoryBrowseHref: "/padel/shoes",
+  heroImageSrc: "/images/padel/guides/choose-shoes.jpg",
+  methodologyImageSrc: "/images/padel/guides/choose-shoes.jpg",
+  quickPickLimit: 9,
+  productNoun: "Padel Shoes",
+  trustPillars: DEFAULT_TRUST_PILLARS,
+  buyingHelpLinks: [],
+  tableColumns: [
+    { key: "bestFor", label: "Best for", source: "bestFor" },
+    { key: "gender", label: "Last", source: "spec", specKey: "genderFit" },
+    {
+      key: "lateral",
+      label: "Lateral",
+      source: "spec",
+      specKey: "lateralStability",
+    },
+    { key: "cushion", label: "Cushioning", source: "spec", specKey: "cushioning" },
+    { key: "feel", label: "Court feel", source: "spec", specKey: "courtFeel" },
+    { key: "score", label: "Score", source: "score" },
+    { key: "price", label: "Price", source: "price" },
+  ],
+};
+
+export const padelGripBestGuideConfig: BestGuideCategoryConfig = {
+  categoryId: "cat-padel-grips",
+  comparisonKeys: ["gripType", "thickness", "tack", "absorption", "perforated"],
+  defaultSelectionCriteria: [
+    {
+      key: "gripType",
+      label: "Overgrip vs replacement",
+      description: "Overgrips wrap over the base. Sleeves are a different job.",
+    },
+    {
+      key: "tack",
+      label: "Tack vs absorption",
+      description: "Thin tack for feel; absorbent wraps when sweat kills tack.",
+    },
+  ],
+  commonAwardTypes: ["best-overall", "editors-pick"],
+  primaryUseCaseIds: [],
+  categoryBrowseHref: "/padel/grips",
+  heroImageSrc: "/images/padel/guides/grips.jpg",
+  methodologyImageSrc: "/images/padel/guides/grips.jpg",
+  quickPickLimit: 6,
+  productNoun: "Padel Overgrips",
+  trustPillars: DEFAULT_TRUST_PILLARS,
+  buyingHelpLinks: [],
+  tableColumns: [
+    { key: "bestFor", label: "Best for", source: "bestFor" },
+    { key: "type", label: "Type", source: "spec", specKey: "gripType" },
+    { key: "thickness", label: "Thickness", source: "spec", specKey: "thickness" },
+    { key: "tack", label: "Tack", source: "spec", specKey: "tack" },
+    { key: "score", label: "Score", source: "score" },
+    { key: "price", label: "Price", source: "price" },
+  ],
+};
+
+export const padelBagBestGuideConfig: BestGuideCategoryConfig = {
+  categoryId: "cat-padel-bags",
+  comparisonKeys: [
+    "form",
+    "capacity",
+    "racketCompartments",
+    "thermalProtection",
+    "shoeCompartment",
+    "wetCompartment",
+  ],
+  defaultSelectionCriteria: [
+    {
+      key: "form",
+      label: "Paletero vs backpack",
+      description: "Club paletero, tournament duffel, or commute backpack.",
+    },
+    {
+      key: "capacity",
+      label: "Capacity",
+      description: "Published litres and racket counts.",
+    },
+  ],
+  commonAwardTypes: ["best-overall", "best-premium", "editors-pick"],
+  primaryUseCaseIds: [],
+  categoryBrowseHref: "/padel/bags",
+  heroImageSrc: "/images/padel/products/nox-at10-team-paletero-hero.jpg",
+  methodologyImageSrc: "/images/padel/products/nox-at10-team-paletero-hero.jpg",
+  quickPickLimit: 6,
+  productNoun: "Padel Bags",
+  trustPillars: DEFAULT_TRUST_PILLARS,
+  buyingHelpLinks: [],
+  tableColumns: [
+    { key: "bestFor", label: "Best for", source: "bestFor" },
+    { key: "form", label: "Form", source: "spec", specKey: "form" },
+    { key: "capacity", label: "Capacity", source: "spec", specKey: "capacity" },
+    { key: "thermo", label: "Thermo", source: "spec", specKey: "thermalProtection" },
     { key: "score", label: "Score", source: "score" },
     { key: "price", label: "Price", source: "price" },
   ],
@@ -556,6 +694,9 @@ const BY_CATEGORY: Record<string, BestGuideCategoryConfig> = {
   [runningShoesBestGuideConfig.categoryId]: runningShoesBestGuideConfig,
   [gpsWatchBestGuideConfig.categoryId]: gpsWatchBestGuideConfig,
   [padelRacketBestGuideConfig.categoryId]: padelRacketBestGuideConfig,
+  [padelShoeBestGuideConfig.categoryId]: padelShoeBestGuideConfig,
+  [padelGripBestGuideConfig.categoryId]: padelGripBestGuideConfig,
+  [padelBagBestGuideConfig.categoryId]: padelBagBestGuideConfig,
   [tennisRacketBestGuideConfig.categoryId]: tennisRacketBestGuideConfig,
 };
 

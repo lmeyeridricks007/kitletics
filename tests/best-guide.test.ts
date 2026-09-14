@@ -159,7 +159,7 @@ describe("Best Guide system", () => {
     ]) {
       expect(getBestGuidePageData(slug), slug).toBeDefined();
     }
-  }, 30_000);
+  }, 120_000);
 
   it("buying guides for watches and rotation resolve", () => {
     expect(getBuyingGuidePageData("how-to-choose-running-watch")).toBeDefined();

@@ -26,6 +26,7 @@ import { assessComparisonLaunchQuality } from "@/domain/launch/assess-comparison
 import { assessGuideQuality } from "@/lib/guides/assess-guide-quality";
 import {
   resolveEntityVerticalPolicy,
+  verticalAllowsIndexation,
   verticalHidesDeepEntities,
   getVerticalSportPolicy,
 } from "@/content/launch/vertical-strategy";
@@ -910,19 +911,30 @@ function eligibilityForSport(
     });
   }
 
-  if (policy.mode === "enabled") {
+  if (
+    policy.mode === "enabled" ||
+    (policy.mode === "selective" &&
+      verticalAllowsIndexation(policy, "sport"))
+  ) {
     return result({
       disposition: "INDEXABLE",
       kind: "sport",
       id: sport.id,
       path,
       quality: "N/A",
-      reasons: [reason("vertical_enabled", policy.slug)],
+      reasons: [
+        reason(
+          policy.mode === "enabled"
+            ? "vertical_enabled"
+            : "selective_sport_enabled",
+          policy.slug,
+        ),
+      ],
       preview,
     });
   }
 
-  // selective / disabled hubs: keep URL but do not index as a deep vertical claim
+  // Selective hubs without sport permission and disabled hubs remain held.
   return result({
     disposition: "PUBLIC_NOINDEX",
     kind: "sport",

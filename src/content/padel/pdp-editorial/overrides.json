@@ -1,0 +1,262 @@
+{
+  "prod-head-padel-pro-s": {
+    "buyIf": [
+      "The court is slow or humid and you want the ball to keep travelling through glass.",
+      "You’re stocking a competition can and specifically want HEAD’s faster Pro S+ personality next to Pro+."
+    ],
+    "skipIf": [
+      "Control players who already find Pro+ lively enough — Pro S+ will feel like more pace, not less.",
+      "You’re only buying the cheapest possible practice cans with no interest in HEAD’s speed split."
+    ],
+    "chooseInstead": "If you want the slower HEAD competition sibling, buy Pro+ instead of forcing Pro S+ onto a fast outdoor court.",
+    "editorialState": "EDITORIAL_READY",
+    "indexableCandidate": true
+  },
+  "prod-head-padel-pro-plus": {
+    "buyIf": [
+      "You want HEAD’s control-leaning competition can for match play.",
+      "You like a ball that sits a fraction longer than Pro S+ when building points."
+    ],
+    "skipIf": [
+      "The club is sticky-slow and you need the livelier Pro S+ personality.",
+      "You’re stocking anonymous bulk practice cans and don’t care about HEAD’s pair."
+    ],
+    "editorialState": "EDITORIAL_READY",
+    "indexableCandidate": true
+  },
+  "prod-head-padel-team": {
+    "editorialState": "EDITORIAL_READY",
+    "indexableCandidate": true
+  },
+  "prod-wilson-padel-premier": {
+    "editorialState": "EDITORIAL_READY",
+    "indexableCandidate": true
+  },
+  "prod-wilson-padel-premier-speed": {
+    "editorialState": "EDITORIAL_READY",
+    "indexableCandidate": true
+  },
+  "prod-bullpadel-premium-pro": {
+    "editorialState": "EDITORIAL_READY",
+    "indexableCandidate": true
+  },
+  "prod-kuikma-pb-speed": {
+    "editorialState": "EDITORIAL_READY",
+    "indexableCandidate": true
+  },
+  "prod-kuikma-pb-control": {
+    "editorialState": "EDITORIAL_READY",
+    "indexableCandidate": true
+  },
+  "prod-adidas-speed-rx": {
+    "editorialState": "EDITORIAL_READY",
+    "indexableCandidate": true
+  },
+  "prod-babolat-court-padel-balls": {
+    "editorialState": "EDITORIAL_READY",
+    "indexableCandidate": true
+  },
+  "prod-bullpadel-vertex-w": {
+    "buyIf": [
+      "You want a women’s Bullpadel court shoe with a Vibram padel plate — not a Vertex racket.",
+      "Lateral court movement matters more than road-foam stack height."
+    ],
+    "skipIf": [
+      "You’re still defaulting to running shoes and refuse court outsoles.",
+      "You need a men’s-last option or a different Bullpadel shoe line entirely."
+    ],
+    "editorialState": "EDITORIAL_READY",
+    "indexableCandidate": true
+  },
+  "prod-adidas-courtstabil": {
+    "editorialState": "EDITORIAL_READY",
+    "indexableCandidate": true
+  },
+  "prod-asics-gel-resolution-padel": {
+    "editorialState": "EDITORIAL_READY",
+    "indexableCandidate": true
+  },
+  "prod-babolat-jet-premura": {
+    "editorialState": "EDITORIAL_READY",
+    "indexableCandidate": true
+  },
+  "prod-joma-t-slam": {
+    "editorialState": "EDITORIAL_READY",
+    "indexableCandidate": true
+  },
+  "prod-nox-at10-team-bag": {
+    "buyIf": [
+      "You want a Nox match bag with thermal racket storage without jumping to XXL luggage.",
+      "You regularly carry two frames plus shoes and prefer a dedicated paletero over a gym duffel."
+    ],
+    "skipIf": [
+      "You only ever bring one racket and hate hauling empty thermo volume.",
+      "You need a true XXL tournament tote — look at AT10 XXL instead."
+    ],
+    "topicBlocks": [
+      {
+        "title": "Capacity and layout",
+        "body": "Nox positions the AT10 Team as a match bag with thermal storage for the frames you actually play — not a warehouse tote."
+      },
+      {
+        "title": "Thermal, shoes, carry",
+        "body": "Use the thermal bay for playing rackets; keep shoes isolated when the bag offers a separate pocket. Backpack straps help if you walk or bike to the club."
+      }
+    ],
+    "editorialState": "EDITORIAL_READY",
+    "indexableCandidate": true
+  },
+  "prod-adidas-protour-padel": {
+    "editorialState": "EDITORIAL_READY",
+    "indexableCandidate": true
+  },
+  "prod-wilson-super-tour-padel": {
+    "editorialState": "EDITORIAL_READY",
+    "indexableCandidate": true
+  },
+  "prod-tecnifibre-tour-endurance-backpack": {
+    "editorialState": "EDITORIAL_READY",
+    "indexableCandidate": true
+  },
+  "prod-nox-at10-xxl-bag": {
+    "editorialState": "EDITORIAL_READY",
+    "indexableCandidate": true
+  },
+  "prod-babolat-rh-pro-padel": {
+    "editorialState": "EDITORIAL_READY",
+    "indexableCandidate": true
+  },
+  "prod-bullpadel-vertex-backpack": {
+    "editorialState": "EDITORIAL_READY",
+    "indexableCandidate": true
+  },
+  "prod-babolat-court-backpack": {
+    "editorialState": "EDITORIAL_READY",
+    "indexableCandidate": true
+  },
+  "prod-head-elite-backpack": {
+    "editorialState": "EDITORIAL_READY",
+    "indexableCandidate": true
+  },
+  "prod-black-crown-spartan": {
+    "editorialState": "EDITORIAL_READY",
+    "indexableCandidate": true
+  },
+  "prod-black-crown-thunder": {
+    "editorialState": "EDITORIAL_READY",
+    "indexableCandidate": true
+  },
+  "prod-black-crown-plus": {
+    "editorialState": "EDITORIAL_READY",
+    "indexableCandidate": true
+  },
+  "prod-bullpadel-bpm26002-hack": {
+    "editorialState": "EDITORIAL_READY",
+    "indexableCandidate": true
+  },
+  "prod-bullpadel-bpp26001-vertex": {
+    "editorialState": "EDITORIAL_READY",
+    "indexableCandidate": true
+  },
+  "prod-bullpadel-bpp26022-xplo": {
+    "editorialState": "EDITORIAL_READY",
+    "indexableCandidate": true
+  },
+  "prod-hesacore-padel": {
+    "buyIf": [
+      "Stock bevels feel skinny or hot after long sessions and you want a shaped replacement grip system.",
+      "You’re ready to change the underlying handle — not just refresh tack with another overgrip."
+    ],
+    "skipIf": [
+      "You only lose surface tack and a multipack overgrip already solves it.",
+      "You expect Hesacore to feel identical to a Wilson Pro overgrip — different job entirely."
+    ],
+    "whyChooseIt": "Choose Hesacore when handle shape and heat build-up are the problem. It is not a substitute for weekly overgrip hygiene.",
+    "editorialState": "EDITORIAL_READY",
+    "indexableCandidate": true
+  },
+  "prod-head-xtreme-soft": {
+    "editorialState": "EDITORIAL_READY",
+    "indexableCandidate": true
+  },
+  "prod-wilson-overgrip": {
+    "editorialState": "EDITORIAL_READY",
+    "indexableCandidate": true
+  },
+  "prod-nox-pro-overgrip": {
+    "editorialState": "EDITORIAL_READY",
+    "indexableCandidate": true
+  },
+  "prod-bullpadel-gb1200": {
+    "editorialState": "EDITORIAL_READY",
+    "indexableCandidate": true
+  },
+  "prod-kuikma-overgrip": {
+    "editorialState": "EDITORIAL_READY",
+    "indexableCandidate": true
+  },
+  "prod-head-hydrosorb": {
+    "editorialState": "EDITORIAL_READY",
+    "indexableCandidate": true
+  },
+  "prod-babolat-syntec-pro": {
+    "editorialState": "EDITORIAL_READY",
+    "indexableCandidate": true
+  },
+  "prod-adidas-padel-overgrip": {
+    "editorialState": "EDITORIAL_READY",
+    "indexableCandidate": true
+  },
+  "prod-adidas-tacky-feeling": {
+    "editorialState": "EDITORIAL_READY",
+    "indexableCandidate": true
+  },
+  "prod-bullpadel-pascal-box": {
+    "buyIf": [
+      "You stretch cans across multiple sessions and notice bounce drop mid-week.",
+      "You’ll actually pump and store the chamber — not leave it in a cupboard."
+    ],
+    "skipIf": [
+      "Every session starts from a fresh can already.",
+      "You’re buying pressurizers as drawer clutter rather than a weekly habit."
+    ],
+    "editorialState": "EDITORIAL_READY",
+    "indexableCandidate": true
+  },
+  "prod-head-x3-pressurizer": {
+    "editorialState": "EDITORIAL_READY",
+    "indexableCandidate": true
+  },
+  "prod-bullpadel-frame-protector": {
+    "editorialState": "EDITORIAL_READY",
+    "indexableCandidate": true
+  },
+  "prod-bullpadel-custom-weight": {
+    "editorialState": "EDITORIAL_READY",
+    "indexableCandidate": true
+  },
+  "prod-nox-frame-protector": {
+    "editorialState": "EDITORIAL_READY",
+    "indexableCandidate": true
+  },
+  "prod-head-x3-pump": {
+    "editorialState": "EDITORIAL_READY",
+    "indexableCandidate": true
+  },
+  "prod-tuboplus-r3play": {
+    "editorialState": "EDITORIAL_READY",
+    "indexableCandidate": true
+  },
+  "prod-alacran-wide-ancha": {
+    "editorialState": "EDITORIAL_READY",
+    "indexableCandidate": true
+  },
+  "prod-bounce-filtertech-padel": {
+    "editorialState": "EDITORIAL_READY",
+    "indexableCandidate": true
+  },
+  "prod-4on-totalgrip-paste": {
+    "editorialState": "EDITORIAL_READY",
+    "indexableCandidate": true
+  }
+}

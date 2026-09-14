@@ -10,6 +10,7 @@ import {
 import { Breadcrumbs } from "@/components/layout/Breadcrumbs";
 import { FinderProgressSidebar } from "@/components/finder/FinderProgressSidebar";
 import { ShareResultsButton } from "@/components/finder/ShareResultsButton";
+import { FinderResultsAnalytics } from "@/components/finder/FinderResultsAnalytics";
 import type { FinderResultsPageData } from "@/lib/finder/get-finder-results-data";
 import { formatPrice, cn } from "@/lib/utils";
 
@@ -134,24 +135,27 @@ function FinderResultCard({
     evaluation.compromises.length > 0
       ? evaluation.compromises.slice(0, 4)
       : [];
+  const roleLabel = row.resultRoleLabel ?? (isTop ? "Best match" : undefined);
 
   return (
     <article
       className={cn(
         "border bg-white p-4 sm:p-5",
-        isTop ? "border-accent/50 bg-[#fbfef0]" : "border-border",
+        isTop || row.resultRole === "best-match"
+          ? "border-accent/50 bg-[#fbfef0]"
+          : "border-border",
       )}
     >
       <div className="grid gap-5 lg:grid-cols-[140px_minmax(0,1.1fr)_minmax(0,1fr)]">
         {/* Left: rank + image */}
         <div className="flex flex-col items-start gap-3">
-          <div className="flex items-center gap-2">
+          <div className="flex flex-wrap items-center gap-2">
             <span className="inline-flex size-8 items-center justify-center rounded-full bg-accent text-sm font-bold text-[#0b1220]">
               {evaluation.rank}
             </span>
-            {isTop && (
+            {roleLabel && (
               <span className="rounded bg-[#eef9c0] px-2 py-0.5 text-[10px] font-bold tracking-wide text-[#0b1220] uppercase">
-                Top match
+                {roleLabel}
               </span>
             )}
           </div>
@@ -197,6 +201,23 @@ function FinderResultCard({
           <p className="mt-3 text-[13px] leading-relaxed text-muted">
             {row.summary}
           </p>
+          {row.highlightSpecs && row.highlightSpecs.length > 0 && (
+            <dl className="mt-3 flex flex-wrap gap-2">
+              {row.highlightSpecs.map((spec) => (
+                <div
+                  key={spec.label}
+                  className="border border-border bg-surface-muted px-2 py-1"
+                >
+                  <dt className="text-[9px] font-bold tracking-wide text-subtle uppercase">
+                    {spec.label}
+                  </dt>
+                  <dd className="text-[12px] font-medium text-foreground capitalize">
+                    {spec.value}
+                  </dd>
+                </div>
+              ))}
+            </dl>
+          )}
           <div className="mt-3 flex flex-wrap items-baseline gap-2 text-[13px]">
             {lowestPrice ? (
               <>
@@ -229,7 +250,46 @@ function FinderResultCard({
             >
               View details
             </Link>
+            {row.review && (
+              <Link
+                href={`/reviews/${row.review.slug}`}
+                className="inline-flex items-center justify-center border border-border bg-white px-4 py-2.5 text-[12px] font-semibold text-foreground hover:border-accent/50"
+              >
+                Review
+              </Link>
+            )}
+            {row.compareHref && (
+              <Link
+                href={row.compareHref}
+                className="inline-flex items-center justify-center border border-border bg-white px-4 py-2.5 text-[12px] font-semibold text-foreground hover:border-accent/50"
+              >
+                Compare
+              </Link>
+            )}
+            <Link
+              href={`/products/${product.slug}/alternatives`}
+              className="inline-flex items-center justify-center border border-border bg-white px-4 py-2.5 text-[12px] font-semibold text-foreground hover:border-accent/50"
+            >
+              Alternatives
+            </Link>
           </div>
+          {row.alternatives.length > 0 && (
+            <p className="mt-3 text-[12px] text-muted">
+              Also consider:{" "}
+              {row.alternatives.map((a, i) => (
+                <span key={a.product.id}>
+                  {i > 0 ? ", " : ""}
+                  <Link
+                    href={`/products/${a.product.slug}`}
+                    className="font-medium text-[#2563eb] hover:underline"
+                  >
+                    {a.brand?.name ? `${a.brand.name} ` : ""}
+                    {a.product.name}
+                  </Link>
+                </span>
+              ))}
+            </p>
+          )}
         </div>
 
         {/* Right: why / compromises / gauge */}
@@ -237,7 +297,7 @@ function FinderResultCard({
           <div className="space-y-4">
             <div>
               <p className="text-[10px] font-bold tracking-[0.14em] text-subtle uppercase">
-                Why it matched you
+                Why it matches
               </p>
               <ul className="mt-2 space-y-1.5">
                 {strengths.map((s, i) => (
@@ -255,7 +315,7 @@ function FinderResultCard({
             </div>
             <div>
               <p className="text-[10px] font-bold tracking-[0.14em] text-subtle uppercase">
-                Potential compromises
+                Trade-offs
               </p>
               {compromises.length > 0 ? (
                 <ul className="mt-2 space-y-1.5">
@@ -274,7 +334,7 @@ function FinderResultCard({
                 </ul>
               ) : (
                 <p className="mt-2 text-[12px] text-muted">
-                  No major compromises identified from the available structured
+                  No major trade-offs identified from the available structured
                   data.
                 </p>
               )}
@@ -297,6 +357,11 @@ function OtherMatchCard({
   const match = Math.round(row.evaluation.matchScore);
   return (
     <article className="flex flex-col border border-border bg-white p-3">
+      {row.resultRoleLabel && (
+        <p className="mb-1 text-[9px] font-bold tracking-wide text-subtle uppercase">
+          {row.resultRoleLabel}
+        </p>
+      )}
       <div className="relative aspect-[4/3] w-full overflow-hidden bg-surface-muted">
         {row.imageSrc ? (
           <Image
@@ -370,6 +435,10 @@ export function FinderResultsView({
 
   return (
     <div className="border-t border-border bg-white">
+      <FinderResultsAnalytics
+        finderId={data.definition.id}
+        resultCount={data.rows.length}
+      />
       <div className="mx-auto grid max-w-[1400px] lg:grid-cols-[250px_minmax(0,1fr)_300px]">
         {/* Left rail */}
         <div className="hidden lg:block">
@@ -474,7 +543,7 @@ export function FinderResultsView({
                   <FinderResultCard
                     key={row.product.id}
                     row={row}
-                    isTop={i === 0}
+                    isTop={i === 0 || row.resultRole === "best-match"}
                   />
                 ))}
               </div>

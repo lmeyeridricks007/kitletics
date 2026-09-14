@@ -1,0 +1,200 @@
+{
+  "asOf": "2026-09-13",
+  "sportId": "sport-padel",
+  "categories": {
+    "rackets": {
+      "categoryId": "cat-padel-rackets",
+      "total": 62,
+      "ready_published": 58,
+      "indexable": 58,
+      "blocked_or_hidden": 4,
+      "with_hero": 58,
+      "with_source": 62,
+      "spec_complete_est": 62
+    },
+    "shoes": {
+      "categoryId": "cat-padel-shoes",
+      "total": 41,
+      "ready_published": 28,
+      "indexable": 28,
+      "blocked_or_hidden": 13,
+      "with_hero": 28,
+      "with_source": 41,
+      "spec_complete_est": 41
+    },
+    "balls": {
+      "categoryId": "cat-padel-balls",
+      "total": 62,
+      "ready_published": 51,
+      "indexable": 51,
+      "blocked_or_hidden": 11,
+      "with_hero": 51,
+      "with_source": 62,
+      "spec_complete_est": 62
+    },
+    "bags": {
+      "categoryId": "cat-padel-bags",
+      "total": 124,
+      "ready_published": 83,
+      "indexable": 83,
+      "blocked_or_hidden": 41,
+      "with_hero": 83,
+      "with_source": 124,
+      "spec_complete_est": 124
+    },
+    "grips": {
+      "categoryId": "cat-padel-grips",
+      "total": 85,
+      "ready_published": 50,
+      "indexable": 50,
+      "blocked_or_hidden": 35,
+      "with_hero": 50,
+      "with_source": 85,
+      "spec_complete_est": 85
+    },
+    "accessories": {
+      "categoryId": "cat-padel-accessories",
+      "total": 84,
+      "ready_published": 46,
+      "indexable": 46,
+      "blocked_or_hidden": 38,
+      "with_hero": 46,
+      "with_source": 84,
+      "spec_complete_est": 84
+    },
+    "clothing": {
+      "categoryId": "cat-padel-clothing",
+      "total": 0,
+      "ready_published": 0,
+      "indexable": 0,
+      "blocked_or_hidden": 0,
+      "with_hero": 0,
+      "with_source": 0,
+      "spec_complete_est": 0
+    }
+  },
+  "brands": {
+    "total_padel_brand_entities": 42,
+    "indexable": 24
+  },
+  "editorial": {
+    "reviews": {
+      "total": 26,
+      "indexable": 26,
+      "blocked": 0
+    },
+    "bestGuides": {
+      "total": 39,
+      "indexable": 26
+    },
+    "buyingGuides": {
+      "total": 26,
+      "indexable": 21
+    },
+    "comparisons": {
+      "total": 21,
+      "indexable": 21
+    },
+    "alternatives_indexable": 83,
+    "research": {
+      "shapes": "published",
+      "weight": "published",
+      "prices": "withheld",
+      "market": "published"
+    }
+  },
+  "commerce_nl": {
+    "products_with_from_price": 93,
+    "products_indexable": 316,
+    "sample": [
+      {
+        "productId": "prod-nox-at10-18k-2026",
+        "slug": "nox-at10-genius-18k-2026",
+        "price": 219.95,
+        "currency": "EUR",
+        "offerId": "offer-nox-at10-nl"
+      },
+      {
+        "productId": "prod-bullpadel-vertex-04",
+        "slug": "bullpadel-vertex-04",
+        "price": 259.95,
+        "currency": "EUR",
+        "offerId": "offer-vertex-nl"
+      },
+      {
+        "productId": "prod-babolat-technical-viper",
+        "slug": "babolat-technical-viper-3-0",
+        "price": 279.95,
+        "currency": "EUR",
+        "offerId": "offer-viper-nl"
+      },
+      {
+        "productId": "prod-head-coello-pro",
+        "slug": "head-coello-pro-2026",
+        "price": 149.95,
+        "currency": "EUR",
+        "offerId": "offer-head-coello-pro-nl-amzn-aff"
+      },
+      {
+        "productId": "prod-siux-diablo",
+        "slug": "siux-diablo-pro-2026",
+        "price": 189.95,
+        "currency": "EUR",
+        "offerId": "offer-diablo-nl"
+      },
+      {
+        "productId": "prod-adidas-courtstabil",
+        "slug": "adidas-courtstabil-padel",
+        "price": 89.95,
+        "currency": "EUR",
+        "offerId": "offer-shoes-nl"
+      },
+      {
+        "productId": "prod-head-padel-pro-s",
+        "slug": "head-padel-pro-s-balls",
+        "price": 5.79,
+        "currency": "EUR",
+        "offerId": "offer-head-pro-s-padelmq-nl"
+      },
+      {
+        "productId": "prod-wilson-overgrip",
+        "slug": "wilson-padel-overgrip-pack",
+        "price": 9.95,
+        "currency": "EUR",
+        "offerId": "offer-grips-nl"
+      },
+      {
+        "productId": "prod-wilson-bela-pro",
+        "slug": "wilson-bela-pro-v3",
+        "price": 249.95,
+        "currency": "EUR",
+        "offerId": "offer-bela-nl"
+      },
+      {
+        "productId": "prod-starvie-titania-kepler",
+        "slug": "starvie-titania-kepler",
+        "price": 229,
+        "currency": "EUR",
+        "offerId": "offer-starvie-titania-kepler-2026-nl"
+      },
+      {
+        "productId": "prod-adidas-metalbone-hrd",
+        "slug": "adidas-metalbone-hrd-2026",
+        "price": 289,
+        "currency": "EUR",
+        "offerId": "offer-adidas-metalbone-hrd-2026-nl"
+      },
+      {
+        "productId": "prod-varlion-lw-carbon-difusor",
+        "slug": "varlion-lw-carbon-difusor",
+        "price": 249,
+        "currency": "EUR",
+        "offerId": "offer-varlion-lw-carbon-difusor-2026-nl"
+      }
+    ]
+  },
+  "diagnostic": {
+    "production_visible_products": 316,
+    "launch_ready_quality_products": 316
+  }
+}

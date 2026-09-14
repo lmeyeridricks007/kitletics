@@ -13,6 +13,7 @@ export type FinderAnalyticsEvent =
   | "finder_result_product_opened"
   | "finder_result_review_opened"
   | "finder_result_compared"
+  | "finder_product_clicked"
   | "finder_offer_clicked"
   | "finder_answers_edited"
   | "finder_restarted";

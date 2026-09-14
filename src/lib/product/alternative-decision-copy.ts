@@ -59,6 +59,14 @@ function clip(s: string, max = 110): string {
   return `${t.slice(0, max - 1).trim()}…`;
 }
 
+function decisionBrief(product: Product, text: string, max: number): string {
+  if (!product.categoryId.includes("padel")) return clip(text, max);
+  const t = text.replace(/\s+/g, " ").trim();
+  if (t.length <= max) return t;
+  const sentenceEnd = t.search(/[.!?](?:\s|$)/);
+  return sentenceEnd >= 30 ? t.slice(0, sentenceEnd + 1) : t;
+}
+
 function hashPair(a: string, b: string): number {
   let h = 0;
   const s = `${a}::${b}`;
@@ -107,7 +115,7 @@ function usefulVerdict(product: Product): string | undefined {
   const v = product.verdict?.trim();
   if (!v) return undefined;
   if (containsPublicContentCorruption(v)) return undefined;
-  return clip(v, 100);
+  return decisionBrief(product, v, 100);
 }
 
 function specNote(source: Product, alt: Product): string | undefined {
@@ -307,8 +315,8 @@ export function buildAlternativeDecisionCopy(input: {
   );
   const sWeak = firstUseful(source.weaknesses, `limits when you need ${seek}`);
   const tWeak = firstUseful(alt.weaknesses, `limits outside ${seek}`);
-  const sDesc = clip(source.shortDescription || sStrength, 90);
-  const tDesc = clip(alt.shortDescription || tStrength, 90);
+  const sDesc = decisionBrief(source, source.shortDescription || sStrength, 90);
+  const tDesc = decisionBrief(alt, alt.shortDescription || tStrength, 90);
   const sUc = getUseCaseHint(source);
   const tUc = getUseCaseHint(alt);
   const spec = specNote(source, alt);
@@ -433,7 +441,7 @@ export function buildAlternativesPageIntro(input: {
     source.weaknesses,
     "a different specialty than the peers below",
   );
-  const desc = clip(source.shortDescription || role, 90);
+  const desc = decisionBrief(source, source.shortDescription || role, 90);
   const uc = getUseCaseHint(source);
   const spec = specFingerprint(source);
   const variant = hashPair(source.id, source.slug) % 4;

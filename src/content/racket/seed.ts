@@ -105,6 +105,78 @@ export const racketUseCases: UseCase[] = [
     description: "Hybrid all-court padel rackets balancing control and power.",
   },
   {
+    id: "uc-padel-intermediate",
+    sportId: sportPadel,
+    group: "general",
+    name: "Padel Intermediate",
+    slug: "padel-intermediate",
+    description:
+      "Club-level rackets for players who already have a swing and want a clearer identity without a full pro-line demand.",
+  },
+  {
+    id: "uc-padel-advanced",
+    sportId: sportPadel,
+    group: "general",
+    name: "Padel Advanced",
+    slug: "padel-advanced",
+    description:
+      "Higher-demand frames for players who generate their own speed and can live with a smaller usable zone.",
+  },
+  {
+    id: "uc-padel-competitive",
+    sportId: sportPadel,
+    group: "general",
+    name: "Padel Competitive",
+    slug: "padel-competitive",
+    description:
+      "Match-oriented rackets manufacturers position for tournament or high-level club play — not a Kitletics ranking.",
+  },
+  {
+    id: "uc-padel-defensive",
+    sportId: sportPadel,
+    group: "general",
+    name: "Padel Defensive",
+    slug: "padel-defensive",
+    description:
+      "Lower-balance, forgiving frames that favour blocking, placement and rally construction over finishing power.",
+  },
+  {
+    id: "uc-padel-arm-comfort",
+    sportId: sportPadel,
+    group: "general",
+    name: "Padel Arm Comfort",
+    slug: "padel-arm-comfort",
+    description:
+      "Softer cores and lighter or Comfort-line frames when arm comfort is the buying constraint. Preference, not medical treatment.",
+  },
+  {
+    id: "uc-padel-easy-power",
+    sportId: sportPadel,
+    group: "general",
+    name: "Padel Easy Power",
+    slug: "padel-easy-power",
+    description:
+      "Frames that help add ball speed without requiring a full diamond-pro swing.",
+  },
+  {
+    id: "uc-padel-maneuverability",
+    sportId: sportPadel,
+    group: "general",
+    name: "Padel Maneuverability",
+    slug: "padel-maneuverability",
+    description:
+      "Light, low-to-medium balance rackets for fast hands at the net.",
+  },
+  {
+    id: "uc-padel-maximum-power",
+    sportId: sportPadel,
+    group: "general",
+    name: "Padel Maximum Power",
+    slug: "padel-maximum-power",
+    description:
+      "High-balance diamond or geometric attackers sold for finishing, not for learning the game.",
+  },
+  {
     id: "uc-tennis-beginner",
     sportId: sportTennis,
     group: "general",

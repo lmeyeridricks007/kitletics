@@ -41,6 +41,48 @@ function topicHay(page: VisiblePage): { slug: string; title: string } {
   };
 }
 
+function isPadelPage(page: VisiblePage): boolean {
+  return /padel/i.test(`${page.path} ${page.entity.slug} ${page.entity.id}`);
+}
+
+/**
+ * Hard padel cross-sport rejects — apply to every image on padel pages,
+ * not only primary heroes (FlipBelt often lands on guide cards).
+ */
+function padelCrossSportIssue(
+  page: VisiblePage,
+  src: string,
+): string | null {
+  if (!isPadelPage(page)) return null;
+
+  if (/flipbelt/i.test(src) || src.includes("/images/running/")) {
+    return "padel_running_image";
+  }
+  if (src === "/images/home/guide-tennis.jpg") {
+    return "tennis_cross_sport";
+  }
+
+  const padelProductOrGuide =
+    page.template === "product" ||
+    page.template === "review" ||
+    page.template === "buying-guide" ||
+    page.template === "best-guide" ||
+    page.path.startsWith("/guides/") ||
+    page.path.startsWith("/best/") ||
+    page.path.startsWith("/products/") ||
+    page.path.startsWith("/reviews/");
+
+  if (
+    padelProductOrGuide &&
+    src.includes("/images/fitness/") &&
+    /hero/i.test(src)
+  ) {
+    return "padel_fitness_namespace_hero";
+  }
+
+  return null;
+}
+
 function wrongProductCard(page: VisiblePage, src: string): boolean {
   if (page.template !== "product" && page.template !== "review") return false;
   if (!/\/products\//.test(src)) return false;
@@ -94,6 +136,25 @@ export function gateImageSemantics(
         slug: topicInput.slug,
         title: `${topicInput.title} ${image.alt ?? ""}`,
       });
+
+      const padelIssue = padelCrossSportIssue(page, src);
+      if (padelIssue) {
+        issues.push({
+          id: `RQ-${String(++n).padStart(5, "0")}`,
+          severity: "BLOCKER",
+          gate: "image-semantics",
+          issueClass: "IMAGE_SEMANTIC",
+          issue: padelIssue,
+          component: image.component,
+          url: page.url,
+          template: page.template,
+          entity: page.entity,
+          rootCause: `Padel page ${page.path} uses cross-sport image ${src}`,
+          excerpt: excerpt(`${image.alt ?? ""} ${src}`),
+        });
+        continue;
+      }
+
       const filler = KNOWN_FILLERS.find((f) => src === f.src);
       if (filler) {
         const allowedByTopic = filler.failUnlessTopic

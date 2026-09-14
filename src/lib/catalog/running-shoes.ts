@@ -15,6 +15,14 @@ import {
   runningSafetyCategoryConfig,
   runningAccessoriesCategoryConfig,
 } from "@/lib/catalog/running-category-configs";
+import {
+  padelRacketsCategoryConfig,
+  padelShoesCategoryConfig,
+  padelBallsCategoryConfig,
+  padelBagsCategoryConfig,
+  padelGripsCategoryConfig,
+  padelAccessoriesCategoryConfig,
+} from "@/lib/catalog/padel-category-configs";
 import { withRunningDecisionEnrichment } from "@/lib/catalog/running-decisions";
 
 export const runningShoesCategoryConfig: ProductCategoryPageConfig = {
@@ -232,6 +240,12 @@ export const CATEGORY_PAGE_CONFIGS: Record<string, ProductCategoryPageConfig> =
     "running:running-lights": runningLightsCategoryConfig,
     "running:safety-gear": runningSafetyCategoryConfig,
     "running:accessories": runningAccessoriesCategoryConfig,
+    "padel:padel-rackets": padelRacketsCategoryConfig,
+    "padel:padel-shoes": padelShoesCategoryConfig,
+    "padel:padel-balls": padelBallsCategoryConfig,
+    "padel:padel-bags": padelBagsCategoryConfig,
+    "padel:padel-grips": padelGripsCategoryConfig,
+    "padel:padel-accessories": padelAccessoriesCategoryConfig,
   };
 
 export function getCategoryPageConfig(
@@ -240,5 +254,8 @@ export function getCategoryPageConfig(
 ): ProductCategoryPageConfig | undefined {
   const base = CATEGORY_PAGE_CONFIGS[`${sportSlug}:${categorySlug}`];
   if (!base) return undefined;
-  return withRunningDecisionEnrichment(base);
+  if (sportSlug === "running") {
+    return withRunningDecisionEnrichment(base);
+  }
+  return base;
 }

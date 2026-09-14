@@ -1,0 +1,8 @@
+category,canonical_products,public_products,indexable_products,blocked_or_hidden,media_with_hero,spec_complete_est,nl_from_price_sport_wide,quality_defects
+RACKETS,62,58,58,4,58,62,93/316,3 confirmed media/identity hits in heuristic (rackets mostly authentic heroes)
+SHOES,41,28,28,13,28,41,93/316,genderFit raw schema on Best/PDP shoe pages; Courtstabil review titled Courtquick; 4 heuristic hits
+BALLS,62,51,51,11,51,62,93/316,~64 confirmed wrong-product/brand heroes (HEAD Pro S placeholder reused)
+BAGS,124,83,83,41,83,124,93/316,~131 confirmed wrong-product/brand heroes (Nox AT10 paletero placeholder reused)
+GRIPS,85,50,50,35,50,85,93/316,~78 confirmed wrong-product/brand heroes (Wilson overgrip placeholder reused)
+ACCESSORIES,84,46,46,38,46,84,93/316,~69 confirmed wrong-product/brand heroes (Bullpadel protector placeholder reused)
+EDITORIAL,,,,,,,,"reviews {'total': 26, 'indexable': 26, 'blocked': 0}; best {'total': 39, 'indexable': 26}; buying {'total': 26, 'indexable': 21}; comparisons {'total': 21, 'indexable': 21}; alts_indexable 83"

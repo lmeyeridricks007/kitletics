@@ -1,0 +1,117 @@
+{
+  "leak": 0,
+  "crossoverShoes": [
+    "prod-asics-gel-challenger-court ASICS Gel-Challenger Court",
+    "prod-head-revolt-pro-court Head Revolt Pro Court",
+    "prod-asics-gel-dedicate-8-padel ASICS Gel-Dedicate 8 Padel",
+    "prod-asics-game-ff-padel ASICS Game FF Padel",
+    "prod-wilson-rush-pro-5-padel Wilson Rush Pro 5 Padel"
+  ],
+  "padelOnlyShoes": 36,
+  "homepageOffers": 126,
+  "invalidHomepage": 126,
+  "cats": {
+    "cat-padel-shoes": {
+      "n": 41,
+      "published": 28,
+      "draft": 13,
+      "authentic": 28,
+      "brands": 15,
+      "brandNames": [
+        "Adidas Padel",
+        "ASICS",
+        "Babolat",
+        "Joma",
+        "Head",
+        "Bullpadel",
+        "Nox",
+        "Wilson",
+        "Siux",
+        "StarVie",
+        "Kuikma",
+        "Oxdog",
+        "Tecnifibre Padel",
+        "Varlion",
+        "Lok"
+      ],
+      "evidence": 41
+    },
+    "cat-padel-balls": {
+      "n": 11,
+      "published": 2,
+      "draft": 9,
+      "authentic": 2,
+      "brands": 6,
+      "brandNames": [
+        "Head",
+        "Kuikma",
+        "Wilson",
+        "Bullpadel",
+        "Adidas Padel",
+        "Babolat"
+      ],
+      "evidence": 11
+    },
+    "cat-padel-bags": {
+      "n": 13,
+      "published": 3,
+      "draft": 10,
+      "authentic": 3,
+      "brands": 9,
+      "brandNames": [
+        "Nox",
+        "Babolat",
+        "Bullpadel",
+        "Tecnifibre Padel",
+        "Adidas Padel",
+        "Head",
+        "Wilson",
+        "Kuikma",
+        "Siux"
+      ],
+      "evidence": 13
+    },
+    "cat-padel-grips": {
+      "n": 10,
+      "published": 2,
+      "draft": 8,
+      "authentic": 2,
+      "brands": 8,
+      "brandNames": [
+        "Wilson",
+        "Bullpadel",
+        "Nox",
+        "Head",
+        "Babolat",
+        "Kuikma",
+        "Hesacore",
+        "Adidas Padel"
+      ],
+      "evidence": 10
+    },
+    "cat-padel-clothing": {
+      "n": 0,
+      "published": 0,
+      "draft": 0,
+      "authentic": 0,
+      "brands": 0,
+      "brandNames": [],
+      "evidence": 0
+    },
+    "cat-padel-accessories": {
+      "n": 9,
+      "published": 0,
+      "draft": 9,
+      "authentic": 0,
+      "brands": 4,
+      "brandNames": [
+        "Bullpadel",
+        "Nox",
+        "Head",
+        "Wilson"
+      ],
+      "evidence": 9
+    }
+  },
+  "secondaryMedia": 6
+}

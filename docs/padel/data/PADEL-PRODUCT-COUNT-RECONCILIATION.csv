@@ -1,0 +1,19 @@
+category,market_discovered,unique_matched_products,multi_row_collapses,canonical_products,lifecycle_current,lifecycle_other,product_families,variants_as_separate_products,pack_color_modeling,publication_ready,public_featured,draft_media_pending,difference_explained
+balls,62,58,4,62,60,2,62,0,packs/colorways are offers or collapsed inventory rows — not separate Products,51,51,11,Market discovered row count equals canonical Product count. Pack/color collapses already applied at inventory disposition (DUPLICATE/NOT_A_DISTINCT_PRODUCT excluded from market count).
+bags,125,122,3,124,124,0,124,0,packs/colorways are offers or collapsed inventory rows — not separate Products,83,83,41,1 market rows collapse onto fewer canonical Products (same architecture / alternate titles). Multi-row collapses: 3. Pack/color collapses already applied at inventory disposition (DUPLICATE/NOT_A_DISTINCT_PRODUCT excluded from market count).
+grips,86,85,1,85,85,0,85,0,packs/colorways are offers or collapsed inventory rows — not separate Products,50,50,35,1 market rows collapse onto fewer canonical Products (same architecture / alternate titles). Multi-row collapses: 1. Pack/color collapses already applied at inventory disposition (DUPLICATE/NOT_A_DISTINCT_PRODUCT excluded from market count).
+accessories,87,83,4,84,84,0,84,0,packs/colorways are offers or collapsed inventory rows — not separate Products,46,46,38,3 market rows collapse onto fewer canonical Products (same architecture / alternate titles). Multi-row collapses: 4. Pack/color collapses already applied at inventory disposition (DUPLICATE/NOT_A_DISTINCT_PRODUCT excluded from market count).
+
+# collapse_detail: category|productId|row_count|inventory_titles
+# balls|prod-babolat-short|2|Babolat Short / Babolat Short
+# balls|prod-drop-shot-tournament-tech|2|Drop Shot Tournament Tech / Drop Shot Tournament Tech
+# balls|prod-dunlop-pro-padel|2|Dunlop Fort Padel / Dunlop Fort Padel
+# balls|prod-ball-rescuer-premium|2|Fila Premium Padel / Volt Premium
+# bags|prod-babolat-rh-pro-padel|2|Babolat RH Pro Padel / RH Pro Padel
+# bags|prod-babolat-court-backpack|2|Court Backpack / Court Backpack Hero / Court S Padel
+# bags|prod-tecnifibre-tour-endurance-backpack|2|Tecnifibre Tour Endurance Padel Backpack / Tour Endurance Backpack
+# grips|prod-nox-pro-overgrip|2|Pro Overgrip / Wilson Pro Overgrip
+# accessories|prod-bullpadel-frame-protector-uni|2|Frame Protector / Frame Protector
+# accessories|prod-nox-wristband|2|NOX Padel Wristband / Wristband
+# accessories|prod-vibora-vibor-a-transparent|2|Transparent Protection Tape / Transparent Protection Tape
+# accessories|prod-wilson-wristband|2|Padel / Tennis Wristband / Wilson Padel Wristband

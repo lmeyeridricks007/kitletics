@@ -8,6 +8,7 @@ import { runningRemainingFaqs } from "@/lib/guides/explainers/running-remaining-
 import { fitnessFaqs } from "@/lib/guides/explainers/fitness-plans";
 import { hyroxFaqs } from "@/lib/guides/explainers/hyrox-plans";
 import { racketFaqs } from "@/lib/guides/explainers/racket-plans";
+import { padelKnowledgeFaqs } from "@/lib/guides/explainers/padel-knowledge-plans";
 import { RUNNING_DENSITY_PLANS } from "@/lib/guides/explainers/running-density-plans";
 import {
   runningFuelRecoveryFaqs,
@@ -21,6 +22,7 @@ import {
   fitnessConfigs,
   hyroxConfigs,
   racketConfigs,
+  padelKnowledgeConfigs,
 } from "@/lib/guides/explainers";
 
 function asFaq(
@@ -50,6 +52,7 @@ export const GUIDE_BACKFILL_FAQS: FAQ[] = [
   ...fitnessFaqs.map(asFaq),
   ...hyroxFaqs.map(asFaq),
   ...racketFaqs.map(asFaq),
+  ...padelKnowledgeFaqs.map(asFaq),
 ];
 
 /** slug → faq ids from backfill batches */
@@ -114,6 +117,7 @@ for (const config of [
   ...fitnessConfigs,
   ...hyroxConfigs,
   ...racketConfigs,
+  ...padelKnowledgeConfigs,
 ]) {
   registerSlugFaqs(config.guideSlug, [
     `faq-${config.guideSlug}-1`,
@@ -138,4 +142,5 @@ export const ALL_BACKFILL_LONG_FORM_CONFIGS = [
   ...fitnessConfigs,
   ...hyroxConfigs,
   ...racketConfigs,
+  ...padelKnowledgeConfigs,
 ];

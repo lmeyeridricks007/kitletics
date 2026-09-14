@@ -3,6 +3,20 @@ import type { Brand, Product, SpecValue } from "@/domain/products/types";
 import { getSpecificationDefinitions } from "@/repositories";
 import { skipSentenceFromLimitation } from "@/lib/review/rewrite-uniqueness-era-skip";
 import { formatPublicSpecDisplayLabel } from "@/lib/specs/public-label";
+import {
+  isPadelGripCategory,
+  isPadelRacketCategory,
+  isPadelShoeCategory,
+  padelTopicFromSection,
+  PADEL_GRIP_BLUEPRINT,
+  PADEL_RACKET_BLUEPRINT,
+  PADEL_SHOE_BLUEPRINT,
+  type PadelLongformTopic,
+} from "@/lib/review/padel-review-outline";
+import {
+  buildPadelLongformSectionBody,
+  extendPadelLongformSectionBody,
+} from "@/lib/review/padel-longform";
 
 /** Reader-facing length target for a full review page (quality over padding). */
 export const REVIEW_MIN_WORDS = 2500;
@@ -19,6 +33,11 @@ export type LongformTopic =
   | "overview"
   | "specs"
   | "strengths"
+  | "weaknesses"
+  | "bestFor"
+  | "notIdeal"
+  | "alternatives"
+  | "comparisons"
   | "tradeoffs"
   | "usecase"
   | "value"
@@ -31,6 +50,23 @@ export type LongformTopic =
   | "durability"
   | "tech"
   | "performance"
+  | "construction"
+  | "shape"
+  | "power"
+  | "control"
+  | "sweetspot"
+  | "maneuverability"
+  | "comfort"
+  | "spin"
+  | "defense"
+  | "net"
+  | "attack"
+  | "serve"
+  | "methodology"
+  | "sources"
+  | "traction"
+  | "courtFeel"
+  | "support"
   | "generic";
 
 type SectionBlueprint = {
@@ -122,22 +158,23 @@ export function countWords(text: string): number {
 }
 
 export function topicFromSection(id: string, heading: string): LongformTopic {
+  const padel = padelTopicFromSection(id, heading);
+  if (padel) return padel as LongformTopic;
   const hay = `${id} ${heading}`.toLowerCase();
-  if (/overview|what it is|intro/.test(hay)) return "overview";
+  if (/overview|what it is|intro|verdict/.test(hay)) return "overview";
   if (/verified|spec|key specs|design &|measurements/.test(hay)) return "specs";
   if (/strength|strongest|best at/.test(hay)) return "strengths";
   if (/trade|limit|weak|avoid|not ideal/.test(hay)) return "tradeoffs";
   if (/use case|who it is|who should|performance by|when to/.test(hay)) return "usecase";
   if (/value|price|position/.test(hay)) return "value";
   if (/upper|mesh|knit/.test(hay)) return "upper";
-  if (/fit|comfort|sizing|lockdown/.test(hay)) return "fit";
+  if (/fit|sizing|lockdown/.test(hay)) return "fit";
   if (/cushion|midsole|foam|stack/.test(hay)) return "cushioning";
-  if (/ride|feel|transition/.test(hay)) return "ride";
+  if (/ride|transition/.test(hay)) return "ride";
   if (/stabil/.test(hay)) return "stability";
-  if (/grip|traction|lug|outsole|tread/.test(hay)) return "grip";
+  if (/grip|lug|outsole|tread/.test(hay)) return "grip";
   if (/durab/.test(hay)) return "durability";
   if (/battery|gps|maps|display|sensor|track/.test(hay)) return "tech";
-  // Keep construction/setup as extras so blueprint "Performance" can still inject
   if (/\bperformance\b|playability|everyday performance/.test(hay))
     return "performance";
   return "generic";
@@ -164,6 +201,15 @@ function isFitnessFamily(categoryId: string): boolean {
 function blueprintForCategory(categoryId: string): SectionBlueprint[] {
   // Watches/HRMs before any shoe match — never inherit Ride / Cushioning.
   if (isWatchFamily(categoryId)) return WATCH_BLUEPRINT;
+  if (isPadelRacketCategory(categoryId)) {
+    return PADEL_RACKET_BLUEPRINT as SectionBlueprint[];
+  }
+  if (isPadelShoeCategory(categoryId)) {
+    return PADEL_SHOE_BLUEPRINT as SectionBlueprint[];
+  }
+  if (isPadelGripCategory(categoryId)) {
+    return PADEL_GRIP_BLUEPRINT as SectionBlueprint[];
+  }
   if (isShoeFamily(categoryId)) return SHOE_BLUEPRINT;
   if (isRacketFamily(categoryId)) return RACKET_BLUEPRINT;
   if (isFitnessFamily(categoryId)) return FITNESS_BLUEPRINT;
@@ -309,6 +355,14 @@ function formatSpecLines(product: Product): string[] {
     "balance",
     "shape",
     "core",
+    "weightMin",
+    "thicknessMm",
+    "face",
+    "manufacturerCoreName",
+    "outsole",
+    "courtOutsole",
+    "lateralStability",
+    "courtFeel",
     "headSize",
     "stringPattern",
     "stiffness",
@@ -409,6 +463,17 @@ export function expandHumanEditorialSeed(
   product: Product,
   review: Review,
 ): string {
+  if (
+    isPadelRacketCategory(product.categoryId) ||
+    isPadelShoeCategory(product.categoryId) ||
+    isPadelGripCategory(product.categoryId)
+  ) {
+    const generated = buildPadelLongformSectionBody(topic, product, review);
+    const cleanPadel = seed.trim();
+    if (!cleanPadel) return generated;
+    if (countWords(cleanPadel) >= 180) return cleanPadel;
+    return [cleanPadel, generated].join("\n\n");
+  }
   const clean = seed.trim();
   if (!clean) {
     return buildLongformSectionBody(topic, product, review);
@@ -490,6 +555,13 @@ export function buildLongformSectionBody(
   review: Review,
   brandName?: string,
 ): string {
+  if (
+    isPadelRacketCategory(product.categoryId) ||
+    isPadelShoeCategory(product.categoryId) ||
+    isPadelGripCategory(product.categoryId)
+  ) {
+    return buildPadelLongformSectionBody(topic as PadelLongformTopic, product, review);
+  }
   const name = product.fullName;
   const brand = brandName?.trim();
   const strengths = strengthsOf(product, review);
@@ -1239,6 +1311,18 @@ export function extendLongformSectionBody(
   brandName?: string,
   pass = 1,
 ): string {
+  if (
+    isPadelRacketCategory(product.categoryId) ||
+    isPadelShoeCategory(product.categoryId) ||
+    isPadelGripCategory(product.categoryId)
+  ) {
+    return extendPadelLongformSectionBody(
+      topic as PadelLongformTopic,
+      product,
+      review,
+      pass,
+    );
+  }
   const name = product.fullName;
   const strengths = strengthsOf(product, review);
   const weaknesses = weaknessesOf(product, review);
@@ -1283,7 +1367,7 @@ export function extendLongformSectionBody(
   }
 
   return joinParas(
-    `If this ${topic} section still feels undecided, compare one peer that wins the same job more cleanly before you stretch the ${name}.`,
+    `If this section still feels undecided, compare one peer that wins the same job more cleanly before you stretch the ${name}.`,
     buy.length
       ? `Only continue if your week looks like: ${buy.slice(0, 2).join("; ")}.`
       : `Only continue if you can point to a recurring session this product must win.`,

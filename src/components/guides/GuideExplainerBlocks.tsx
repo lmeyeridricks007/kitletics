@@ -711,7 +711,7 @@ function ProductExampleCard({
         </h3>
         <p className="mt-2 text-[14px] leading-relaxed text-muted">
           <span className="font-semibold text-foreground">
-            Why it illustrates the category:{" "}
+            Why this example works:{" "}
           </span>
           {example.whyIllustrates}
         </p>

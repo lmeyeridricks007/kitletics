@@ -38,10 +38,10 @@ import { SEED_DATES } from "@/content/config";
 const retailersById = new Map(rawRetailers.map((r) => [r.id, r]));
 
 const AMAZON_HOMEPAGE_URL =
-  /^https:\/\/(www\.)?amazon\.(nl|de|com|co\.uk)\/?$/i;
+  /^https:\/\/(www\.)?amazon\.(nl|de|com|co\.uk|fr)\/?$/i;
 
 const AMAZON_RETAILER_BY_REGION: Record<
-  "NL" | "DE" | "UK" | "US",
+  "NL" | "DE" | "UK" | "US" | "FR",
   { retailerId: string; currency: "EUR" | "GBP" | "USD"; homepage: string }
 > = {
   NL: {
@@ -64,10 +64,53 @@ const AMAZON_RETAILER_BY_REGION: Record<
     currency: "USD",
     homepage: "https://www.amazon.com/",
   },
+  FR: {
+    retailerId: "ret-amazon-fr",
+    currency: "EUR",
+    homepage: "https://www.amazon.fr/",
+  },
 };
 
 function isAmazonRetailerId(retailerId: string): boolean {
   return retailerId.startsWith("ret-amazon");
+}
+
+function isRetailerHomepageUrl(url: string): boolean {
+  try {
+    const u = new URL(url);
+    const path = u.pathname.replace(/\/+$/, "");
+    return path === "" || path === "/";
+  } catch {
+    return false;
+  }
+}
+
+/**
+ * Canonical listing-URL gate (all verticals).
+ * Applied after affiliate shortlink upgrades so homepage seeds that gain a
+ * real listing URL become displayable; remaining homepages stay INVALID.
+ * Overlay validation cannot resurrect a true homepage URL.
+ */
+function enforceProductListingUrls(offer: Offer): Offer {
+  if (isRetailerHomepageUrl(offer.url)) {
+    return {
+      ...offer,
+      urlValidationState: "INVALID",
+      urlValidationFailureReason:
+        "Retailer homepage URL — not a product listing",
+    };
+  }
+  if (
+    offer.urlValidationState === "INVALID" &&
+    offer.urlValidationFailureReason?.includes("homepage")
+  ) {
+    return {
+      ...offer,
+      urlValidationState: undefined,
+      urlValidationFailureReason: undefined,
+    };
+  }
+  return offer;
 }
 
 function applyAffiliateUrl(offer: Offer): Offer {
@@ -79,7 +122,7 @@ function applyAffiliateUrl(offer: Offer): Offer {
     affiliateUrl,
   };
   // Homepage-only seeds → use the short affiliate link as the stored URL too
-  if (AMAZON_HOMEPAGE_URL.test(offer.url)) {
+  if (AMAZON_HOMEPAGE_URL.test(offer.url) || isRetailerHomepageUrl(offer.url)) {
     next.url = affiliateUrl;
   }
   return next;
@@ -174,6 +217,11 @@ function buildAffiliateOnlyOffers(
 /** Seed offers + pricing-agent patches + affiliate URLs + newly discovered offers + URL validation */
 function materializeOffers(): Offer[] {
   const byId = new Map<string, Offer>();
+  const finalize = (offer: Offer): Offer =>
+    enforceProductListingUrls(
+      applyUrlValidation(applyAffiliateUrl(applySeedVerifiedClock(offer))),
+    );
+
   for (const offer of rawOffers) {
     const patch = OFFER_PRICE_PATCHES[offer.id];
     const merged = patch
@@ -186,23 +234,15 @@ function materializeOffers(): Offer[] {
           region: offer.region,
         }
       : offer;
-    byId.set(
-      offer.id,
-      applyUrlValidation(applyAffiliateUrl(applySeedVerifiedClock(merged))),
-    );
+    byId.set(offer.id, finalize(merged));
   }
   for (const offer of NEW_PRICING_OFFERS) {
     if (!byId.has(offer.id)) {
-      byId.set(
-        offer.id,
-        applyUrlValidation(
-          applyAffiliateUrl(applySeedVerifiedClock(offer)),
-        ),
-      );
+      byId.set(offer.id, finalize(offer));
     }
   }
   for (const offer of buildAffiliateOnlyOffers(byId)) {
-    byId.set(offer.id, applyUrlValidation(applySeedVerifiedClock(offer)));
+    byId.set(offer.id, finalize(offer));
   }
   return [...byId.values()];
 }

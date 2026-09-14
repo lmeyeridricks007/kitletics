@@ -1,0 +1,415 @@
+[
+  {
+    "id": "prod-bullpadel-vertex-05-hybrid",
+    "dest": "bullpadel-vertex-05-hybrid-hero.jpg",
+    "page": "https://www.zonadepadel.com/bullpadel/13550-bullpadel-vertex-05-hybrid-2026.html",
+    "status": "READY_REVIEW",
+    "imageUrl": "https://www.zonadepadel.com/27738-zdp_customer/bullpadel-vertex-05-hybrid-2026.jpg",
+    "width": 900,
+    "height": 900,
+    "bytes": 82253
+  },
+  {
+    "id": "prod-bullpadel-vertex-05-w",
+    "dest": "bullpadel-vertex-05-w-hero.jpg",
+    "page": "https://www.zonadepadel.com/bullpadel/13552-bullpadel-vertex-05-woman-2026.html",
+    "status": "READY_REVIEW",
+    "imageUrl": "https://www.zonadepadel.com/27790-zdp_customer/bullpadel-vertex-05-woman-2026.jpg",
+    "width": 900,
+    "height": 900,
+    "bytes": 62261
+  },
+  {
+    "id": "prod-bullpadel-hack-04-hybrid",
+    "dest": "bullpadel-hack-04-hybrid-hero.jpg",
+    "page": "https://www.zonadepadel.es/bullpadel/13554-bullpadel-hack-04-hybrid-2026.html",
+    "status": "READY_REVIEW",
+    "imageUrl": "https://www.zonadepadel.es/27750-zdp_customer/bullpadel-hack-04-hybrid-2026.jpg",
+    "width": 900,
+    "height": 900,
+    "bytes": 76487
+  },
+  {
+    "id": "prod-bullpadel-hack-04-comfort",
+    "dest": "bullpadel-hack-04-comfort-hero.jpg",
+    "page": "https://www.zonadepadel.es/bullpadel/13555-bullpadel-hack-04-comfort-2026.html",
+    "status": "READY_REVIEW",
+    "pageStatus": 200,
+    "candidates": [
+      "https://www.zonadepadel.es/27761-zdp_customer/bullpadel-hack-04-comfort-2026.jpg",
+      "https://www.zonadepadel.es/img/zona-de-padel-logo-1594653705.jpg",
+      "https://www.zonadepadel.es/27761-large_default/bullpadel-hack-04-comfort-2026.jpg",
+      "https://www.zonadepadel.es/27762-large_default/bullpadel-hack-04-comfort-2026.jpg",
+      "https://www.zonadepadel.es/27763-large_default/bullpadel-hack-04-comfort-2026.jpg",
+      "https://www.zonadepadel.es/27761-medium_default/bullpadel-hack-04-comfort-2026.jpg",
+      "https://www.zonadepadel.es/27762-medium_default/bullpadel-hack-04-comfort-2026.jpg",
+      "https://www.zonadepadel.es/27763-medium_default/bullpadel-hack-04-comfort-2026.jpg"
+    ],
+    "imageUrl": "https://www.zonadepadel.es/img/p/es-default-zdp_customer.jpg",
+    "width": 900,
+    "height": 900,
+    "bytes": 33789
+  },
+  {
+    "id": "prod-bullpadel-neuron-02",
+    "dest": "bullpadel-neuron-02-hero.jpg",
+    "page": "https://www.zonadepadel.es/bullpadel/13556-bullpadel-neuron-02-2026.html",
+    "status": "READY_REVIEW",
+    "imageUrl": "https://www.zonadepadel.es/27771-zdp_customer/bullpadel-neuron-02-2026.jpg",
+    "width": 900,
+    "height": 900,
+    "bytes": 81447
+  },
+  {
+    "id": "prod-bullpadel-neuron-02-edge",
+    "dest": "bullpadel-neuron-02-edge-hero.jpg",
+    "page": "https://www.zonadepadel.com/bullpadel/13558-bullpadel-neuron-02-edge-2026.html",
+    "status": "READY_REVIEW",
+    "pageStatus": 200,
+    "candidates": [
+      "https://www.zonadepadel.com/27772-zdp_customer/bullpadel-neuron-02-edge-2026.jpg",
+      "https://www.zonadepadel.com/img/zona-de-padel-com-logo-16286584672.jpg",
+      "https://www.zonadepadel.com/27772-large_default/bullpadel-neuron-02-edge-2026.jpg",
+      "https://www.zonadepadel.com/27773-large_default/bullpadel-neuron-02-edge-2026.jpg",
+      "https://www.zonadepadel.com/27774-large_default/bullpadel-neuron-02-edge-2026.jpg",
+      "https://www.zonadepadel.com/27772-medium_default/bullpadel-neuron-02-edge-2026.jpg",
+      "https://www.zonadepadel.com/27773-medium_default/bullpadel-neuron-02-edge-2026.jpg",
+      "https://www.zonadepadel.com/27774-medium_default/bullpadel-neuron-02-edge-2026.jpg"
+    ],
+    "imageUrl": "https://www.zonadepadel.com/img/p/en-default-zdp_customer.jpg",
+    "width": 900,
+    "height": 900,
+    "bytes": 14139
+  },
+  {
+    "id": "prod-bullpadel-xplo",
+    "dest": "bullpadel-xplo-hero.jpg",
+    "page": "https://www.zonadepadel.com/bullpadel/13559-bullpadel-xplo-2026.html",
+    "status": "COLLISION",
+    "pageStatus": 200,
+    "candidates": [
+      "https://www.zonadepadel.com/27775-zdp_customer/bullpadel-xplo-2026.jpg",
+      "https://www.zonadepadel.com/img/zona-de-padel-com-logo-16286584672.jpg",
+      "https://www.zonadepadel.com/27775-large_default/bullpadel-xplo-2026.jpg",
+      "https://www.zonadepadel.com/27776-large_default/bullpadel-xplo-2026.jpg",
+      "https://www.zonadepadel.com/27777-large_default/bullpadel-xplo-2026.jpg",
+      "https://www.zonadepadel.com/27775-medium_default/bullpadel-xplo-2026.jpg",
+      "https://www.zonadepadel.com/27776-medium_default/bullpadel-xplo-2026.jpg",
+      "https://www.zonadepadel.com/27777-medium_default/bullpadel-xplo-2026.jpg"
+    ],
+    "imageUrl": "https://www.zonadepadel.com/img/p/en-default-zdp_customer.jpg",
+    "uniqueJpegError": "shared-hero hash collision for prod-bullpadel-xplo-jpeg: same bytes as /images/padel/products/_draft-review/bullpadel-neuron-02-edge-hero.jpg",
+    "width": 900,
+    "height": 900,
+    "bytes": 14139
+  },
+  {
+    "id": "prod-bullpadel-xplo-comfort",
+    "dest": "bullpadel-xplo-comfort-hero.jpg",
+    "page": "https://www.zonadepadel.es/bullpadel/13560-bullpadel-xplo-comfort-2026.html",
+    "status": "COLLISION",
+    "pageStatus": 200,
+    "candidates": [
+      "https://www.zonadepadel.es/27779-zdp_customer/bullpadel-xplo-comfort-2026.jpg",
+      "https://www.zonadepadel.es/img/zona-de-padel-logo-1594653705.jpg",
+      "https://www.zonadepadel.es/27779-large_default/bullpadel-xplo-comfort-2026.jpg",
+      "https://www.zonadepadel.es/27778-large_default/bullpadel-xplo-comfort-2026.jpg",
+      "https://www.zonadepadel.es/27780-large_default/bullpadel-xplo-comfort-2026.jpg",
+      "https://www.zonadepadel.es/27779-medium_default/bullpadel-xplo-comfort-2026.jpg",
+      "https://www.zonadepadel.es/27778-medium_default/bullpadel-xplo-comfort-2026.jpg",
+      "https://www.zonadepadel.es/27780-medium_default/bullpadel-xplo-comfort-2026.jpg"
+    ],
+    "imageUrl": "https://www.zonadepadel.es/img/p/es-default-zdp_customer.jpg",
+    "uniqueJpegError": "shared-hero hash collision for prod-bullpadel-xplo-comfort-jpeg: same bytes as /images/padel/products/_draft-review/bullpadel-hack-04-comfort-hero.jpg",
+    "width": 900,
+    "height": 900,
+    "bytes": 33789
+  },
+  {
+    "id": "prod-bullpadel-ionic-light",
+    "dest": "bullpadel-ionic-light-hero.jpg",
+    "page": "https://www.zonadepadel.com/bullpadel/13575-bullpadel-ionic-light-2026.html",
+    "status": "COLLISION",
+    "pageStatus": 200,
+    "candidates": [
+      "https://www.zonadepadel.com/28634-zdp_customer/bullpadel-ionic-light-2026.jpg",
+      "https://www.zonadepadel.com/img/zona-de-padel-com-logo-16286584672.jpg",
+      "https://www.zonadepadel.com/28634-large_default/bullpadel-ionic-light-2026.jpg",
+      "https://www.zonadepadel.com/28635-large_default/bullpadel-ionic-light-2026.jpg",
+      "https://www.zonadepadel.com/28636-large_default/bullpadel-ionic-light-2026.jpg",
+      "https://www.zonadepadel.com/28634-medium_default/bullpadel-ionic-light-2026.jpg",
+      "https://www.zonadepadel.com/28635-medium_default/bullpadel-ionic-light-2026.jpg",
+      "https://www.zonadepadel.com/28636-medium_default/bullpadel-ionic-light-2026.jpg"
+    ],
+    "imageUrl": "https://www.zonadepadel.com/img/p/en-default-zdp_customer.jpg",
+    "uniqueJpegError": "shared-hero hash collision for prod-bullpadel-ionic-light-jpeg: same bytes as /images/padel/products/_draft-review/bullpadel-neuron-02-edge-hero.jpg, /images/padel/products/_draft-review/bullpadel-xplo-hero.jpg",
+    "width": 900,
+    "height": 900,
+    "bytes": 14139
+  },
+  {
+    "id": "prod-bullpadel-vertex-advance",
+    "dest": "bullpadel-vertex-advance-hero.jpg",
+    "page": "https://www.zonadepadel.com/bullpadel/14397-bullpadel-vertex-advance-2026.html",
+    "status": "COLLISION",
+    "pageStatus": 200,
+    "candidates": [
+      "https://www.zonadepadel.com/29910-zdp_customer/bullpadel-vertex-advance-2026.jpg",
+      "https://www.zonadepadel.com/img/zona-de-padel-com-logo-16286584672.jpg",
+      "https://www.zonadepadel.com/29910-large_default/bullpadel-vertex-advance-2026.jpg",
+      "https://www.zonadepadel.com/29911-large_default/bullpadel-vertex-advance-2026.jpg",
+      "https://www.zonadepadel.com/29912-large_default/bullpadel-vertex-advance-2026.jpg",
+      "https://www.zonadepadel.com/29910-medium_default/bullpadel-vertex-advance-2026.jpg",
+      "https://www.zonadepadel.com/29911-medium_default/bullpadel-vertex-advance-2026.jpg",
+      "https://www.zonadepadel.com/29912-medium_default/bullpadel-vertex-advance-2026.jpg"
+    ],
+    "imageUrl": "https://www.zonadepadel.com/img/p/en-default-zdp_customer.jpg",
+    "uniqueJpegError": "shared-hero hash collision for prod-bullpadel-vertex-advance-jpeg: same bytes as /images/padel/products/_draft-review/bullpadel-neuron-02-edge-hero.jpg, /images/padel/products/_draft-review/bullpadel-xplo-hero.jpg, /images/padel/products/_draft-review/bullpadel-ionic-light-hero.jpg",
+    "width": 900,
+    "height": 900,
+    "bytes": 14139
+  },
+  {
+    "id": "prod-bullpadel-indiga-ctr",
+    "dest": "bullpadel-indiga-ctr-hero.jpg",
+    "page": "https://www.padelnuestro.com/int/bullpadel-indiga-ctr-26",
+    "status": "READY_REVIEW",
+    "pageStatus": 200,
+    "candidates": [
+      "https://www.padelnuestro.com/media/wysiwyg/bullpadel/PN_WEB_140X300_HOME_-_2026-09-07T083019.865.png",
+      "https://www.padelnuestro.com/media/catalog/product/1/6/160644-pala-bullpadel-xplo-27-497244-1500x1500-1.jpg?optimize=high&bg-color=255,255,255&fit=bounds&height=220&width=220&canvas=220:220",
+      "https://www.padelnuestro.com/media/catalog/product/1/6/160648-pala-bullpadel-xplo-cmf-27-497245-1500x1500-1.jpg?optimize=high&bg-color=255,255,255&fit=bounds&height=220&width=220&canvas=220:220",
+      "https://www.padelnuestro.com/media/catalog/product/1/6/160632-pala-bullpadel-vertex-05-27-47236-1500x1500-1.jpg?optimize=high&bg-color=255,255,255&fit=bounds&height=220&width=220&canvas=220:220",
+      "https://www.padelnuestro.com/media/catalog/product/1/6/160624-pala-bullpadel-vertex-05-hybrid-27-497237-1500x1500-1.jpg?optimize=high&bg-color=255,255,255&fit=bounds&height=220&width=220&canvas=220:220",
+      "https://www.padelnuestro.com/media/catalog/product/1/6/160650-pala-bullpadel-vertex-05-geo-27-497238-1500x1500-1.jpg?optimize=high&bg-color=255,255,255&fit=bounds&height=220&width=220&canvas=220:220",
+      "https://www.padelnuestro.com/media/catalog/product/1/6/160656-pala-bullpadel-neuron-27-497241-1500x1500-1.jpg?optimize=high&bg-color=255,255,255&fit=bounds&height=220&width=220&canvas=220:220",
+      "https://www.padelnuestro.com/media/catalog/product/1/6/160638-pala-bullpadel-neuron-02-edge-27-497242-1500x1500-1.jpg?optimize=high&bg-color=255,255,255&fit=bounds&height=220&width=220&canvas=220:220"
+    ],
+    "imageUrl": "https://www.padelnuestro.com/media/catalog/product/1/6/160644-pala-bullpadel-xplo-27-497244-1500x1500-1.jpg",
+    "width": 1200,
+    "height": 1200,
+    "bytes": 84290
+  },
+  {
+    "id": "prod-adidas-cross-it-light",
+    "dest": "adidas-cross-it-light-2026-hero.jpg",
+    "page": "https://allforpadel.com/en/padel-rackets/7528-padel-racket-adidas-cross-it-light-2026-martita-ortega-8435739405956.html",
+    "status": "READY_REVIEW",
+    "imageUrl": "https://allforpadel.com/9137/padel-racket-adidas-cross-it-light-2026-martita-ortega.jpg",
+    "width": 900,
+    "height": 900,
+    "bytes": 88969
+  },
+  {
+    "id": "prod-adidas-cross-it-ctrl",
+    "dest": "adidas-cross-it-ctrl-2026-hero.jpg",
+    "page": "https://allforpadel.com/en/padel-rackets/7527-padel-racket-adidas-cross-it-ctrl-2026-8435739405949.html",
+    "status": "READY_REVIEW",
+    "imageUrl": "https://allforpadel.com/9127/padel-racket-adidas-cross-it-ctrl-2026.jpg",
+    "width": 900,
+    "height": 900,
+    "bytes": 88595
+  },
+  {
+    "id": "prod-adidas-arrow-hit-attk",
+    "dest": "adidas-arrow-hit-attk-2026-hero.jpg",
+    "page": "https://allforpadel.com/en/padel-rackets/7523-padel-racket-adidas-arrow-hit-8435739405888.html",
+    "status": "READY_REVIEW",
+    "imageUrl": "https://allforpadel.com/9099/padel-racket-adidas-arrow-hit.jpg",
+    "width": 900,
+    "height": 900,
+    "bytes": 86436
+  },
+  {
+    "id": "prod-adidas-metalbone-3-3-2026",
+    "dest": "adidas-metalbone-3-3-hero.jpg",
+    "page": "https://www.zonadepadel.com/adidas-padel/9362-adidas-metalbone-33.html",
+    "status": "COLLISION",
+    "pageStatus": 200,
+    "candidates": [
+      "https://www.zonadepadel.com/16817-zdp_customer/adidas-metalbone-33.jpg",
+      "https://www.zonadepadel.com/img/zona-de-padel-com-logo-16286584672.jpg",
+      "https://www.zonadepadel.com/16817-large_default/adidas-metalbone-33.jpg",
+      "https://www.zonadepadel.com/16816-large_default/adidas-metalbone-33.jpg",
+      "https://www.zonadepadel.com/28963-home_default/adidas-metalbone-team-2026.jpg",
+      "https://www.zonadepadel.com/28963-zdp_customer/adidas-metalbone-team-2026.jpg",
+      "https://www.zonadepadel.com/28961-home_default/adidas-metalbone-carbon-control-2026.jpg",
+      "https://www.zonadepadel.com/28961-zdp_customer/adidas-metalbone-carbon-control-2026.jpg"
+    ],
+    "imageUrl": "https://www.zonadepadel.com/img/p/en-default-zdp_customer.jpg",
+    "uniqueJpegError": "shared-hero hash collision for prod-adidas-metalbone-3-3-2026-jpeg: same bytes as /images/padel/products/_draft-review/bullpadel-neuron-02-edge-hero.jpg, /images/padel/products/_draft-review/bullpadel-xplo-hero.jpg, /images/padel/products/_draft-review/bullpadel-ionic-light-hero.jpg, /images/padel/products/_draft-review/bullpadel-vertex-advance-hero.jpg",
+    "width": 900,
+    "height": 900,
+    "bytes": 14139
+  },
+  {
+    "id": "prod-head-coello-motion",
+    "dest": "head-coello-motion-hero.jpg",
+    "page": "https://www.padelreference.com/en/padel-rackets/p/head-coello-motion-2026",
+    "status": "READY_REVIEW",
+    "imageUrl": "https://www.padelreference.com/storage/22257/hqrVnnKtQpdmeYFEL64oEnl3VQ1BXt-metaMS5wbmc%3D-.webp",
+    "width": 600,
+    "height": 600,
+    "bytes": 30512
+  },
+  {
+    "id": "prod-head-coello-team",
+    "dest": "head-coello-team-hero.jpg",
+    "page": "https://www.padelreference.com/en/raquettes-de-padel/p/head-coello-team-2026",
+    "status": "COLLISION",
+    "imageUrl": "https://www.padelreference.com/storage/22260/ioncCgSenppyBT8Aiad5rlghmeVVhp-metaMS5wbmc%3D-.webp",
+    "uniqueJpegError": "shared-hero hash collision for prod-head-coello-team-jpeg: same bytes as /images/padel/products/_draft-review/head-coello-motion-hero.jpg",
+    "width": 600,
+    "height": 600,
+    "bytes": 30512
+  },
+  {
+    "id": "prod-head-gravity-pro",
+    "dest": "head-gravity-pro-hero.jpg",
+    "page": "https://www.padelreference.com/en/padel-rackets/p/head-gravity-pro-2024",
+    "status": "READY_REVIEW",
+    "imageUrl": "https://www.padelreference.com/storage/10581/F0VNQM7BvkzP4U8HJ7Sh95sC4uMfCk-metaMjI0MDE0X0dyYXZpdHkgTW90aW9uIDIwMjRfMl8xLnBuZw%3D%3D-.webp",
+    "width": 1200,
+    "height": 1200,
+    "bytes": 74618
+  },
+  {
+    "id": "prod-head-gravity-motion",
+    "dest": "head-gravity-motion-hero.jpg",
+    "page": "https://www.padelreference.com/en/padel-rackets/p/head-gravity-motion-2024",
+    "status": "COLLISION",
+    "imageUrl": "https://www.padelreference.com/storage/10581/F0VNQM7BvkzP4U8HJ7Sh95sC4uMfCk-metaMjI0MDE0X0dyYXZpdHkgTW90aW9uIDIwMjRfMl8xLnBuZw%3D%3D-.webp",
+    "uniqueJpegError": "shared-hero hash collision for prod-head-gravity-motion-jpeg: same bytes as /images/padel/products/_draft-review/head-gravity-pro-hero.jpg",
+    "width": 1200,
+    "height": 1200,
+    "bytes": 74618
+  },
+  {
+    "id": "prod-head-speed-pro",
+    "dest": "head-speed-pro-hero.jpg",
+    "page": "https://www.padelreference.com/en/palas-de-padel/p/head-speed-pro-2025",
+    "status": "READY_REVIEW",
+    "imageUrl": "https://www.padelreference.com/storage/11890/0JX1bs7sym1HisrDW6L936wWMddFIp-metaMjIxMDY1X1NwZWVkIFBybyAyMDI1XzJfMS5wbmc%3D-.webp",
+    "width": 1200,
+    "height": 1200,
+    "bytes": 78152
+  },
+  {
+    "id": "prod-head-one-ultralight",
+    "dest": "head-one-ultralight-hero.jpg",
+    "page": "https://www.padelreference.com/en/padel-rackets/p/head-one-ultralight-white-2025",
+    "status": "BLOCKED",
+    "imageUrl": "https://www.padelreference.com/storage/11299/f2xzQNOHw1SjGkfGdcYPPiMpCXJZOX-metaNjUucG5n-.webp",
+    "error": "too small 9266"
+  },
+  {
+    "id": "prod-babolat-air-viper",
+    "dest": "babolat-air-viper-hero.jpg",
+    "page": "https://www.babolat.com/us/air-viper-2.6/150176.html",
+    "status": "READY_REVIEW",
+    "imageUrl": "https://media.babolat.com/image/upload/v1741095800/Product_Media/2026/Padel/RACQUETS/150176-AIR_VIPER_2.6-100-1-Face.png",
+    "width": 1200,
+    "height": 1200,
+    "bytes": 172693
+  },
+  {
+    "id": "prod-babolat-air-veron",
+    "dest": "babolat-air-veron-hero.jpg",
+    "page": "https://www.babolat.com/us/air-veron-2.6/150180.html",
+    "status": "READY_REVIEW",
+    "imageUrl": "https://media.babolat.com/image/upload/v1738159651/Product_Media/2026/Padel/RACQUETS/150180-AIR_VERON_2.6-100-1-Face.png",
+    "width": 1200,
+    "height": 1200,
+    "bytes": 132640
+  },
+  {
+    "id": "prod-siux-electra",
+    "dest": "siux-electra-pro-2026-hero.jpg",
+    "page": "https://www.zonadepadel.com/siux/13932-siux-electra-pro-fire-red-2026.html",
+    "status": "READY_REVIEW",
+    "imageUrl": "https://www.zonadepadel.com/28483-zdp_customer/siux-electra-pro-fire-red-2026.jpg",
+    "width": 900,
+    "height": 900,
+    "bytes": 57746
+  },
+  {
+    "id": "prod-siux-fenix",
+    "dest": "siux-fenix-pro-2026-hero.jpg",
+    "page": "https://www.zonadepadel.com/siux/13935-siux-fenix-pro-black-2026.html",
+    "status": "READY_REVIEW",
+    "imageUrl": "https://www.zonadepadel.com/28491-zdp_customer/siux-fenix-pro-black-2026.jpg",
+    "width": 900,
+    "height": 900,
+    "bytes": 64789
+  },
+  {
+    "id": "prod-nox-at10-attack-12k-2026",
+    "dest": "nox-at10-genius-attack-12k-2026-hero.jpg",
+    "page": "https://www.zonadepadel.com/nox/13772-nox-at10-luxury-genius-attack-12k-alum-xtrem-2026.html",
+    "status": "READY_REVIEW",
+    "imageUrl": "https://www.zonadepadel.com/27990-zdp_customer/nox-at10-luxury-genius-attack-12k-alum-xtrem-2026.jpg",
+    "width": 900,
+    "height": 900,
+    "bytes": 58716
+  },
+  {
+    "id": "prod-drop-shot-canyon-pro",
+    "dest": "drop-shot-canyon-pro-hero.jpg",
+    "page": "https://www.zonadepadel.com/drop-shot/14427-drop-shot-canyon-pro-confort-20-2026.html",
+    "status": "COLLISION",
+    "pageStatus": 200,
+    "candidates": [
+      "https://www.zonadepadel.com/31236-zdp_customer/drop-shot-canyon-pro-confort-20-2026.jpg",
+      "https://www.zonadepadel.com/img/zona-de-padel-com-logo-16286584672.jpg",
+      "https://www.zonadepadel.com/31236-large_default/drop-shot-canyon-pro-confort-20-2026.jpg",
+      "https://www.zonadepadel.com/31237-large_default/drop-shot-canyon-pro-confort-20-2026.jpg",
+      "https://www.zonadepadel.com/31236-medium_default/drop-shot-canyon-pro-confort-20-2026.jpg",
+      "https://www.zonadepadel.com/31237-medium_default/drop-shot-canyon-pro-confort-20-2026.jpg",
+      "https://www.zonadepadel.com/31236-home_default/drop-shot-canyon-pro-confort-20-2026.jpg",
+      "https://www.zonadepadel.com/31237-home_default/drop-shot-canyon-pro-confort-20-2026.jpg"
+    ],
+    "imageUrl": "https://www.zonadepadel.com/img/p/en-default-zdp_customer.jpg",
+    "uniqueJpegError": "shared-hero hash collision for prod-drop-shot-canyon-pro-jpeg: same bytes as /images/padel/products/_draft-review/bullpadel-neuron-02-edge-hero.jpg, /images/padel/products/_draft-review/bullpadel-xplo-hero.jpg, /images/padel/products/_draft-review/bullpadel-ionic-light-hero.jpg, /images/padel/products/_draft-review/bullpadel-vertex-advance-hero.jpg, /images/padel/products/_draft-review/adidas-metalbone-3-3-hero.jpg",
+    "width": 900,
+    "height": 900,
+    "bytes": 14139
+  },
+  {
+    "id": "prod-kuikma-pr-soft-500",
+    "dest": "kuikma-pr-soft-500-hero.jpg",
+    "page": "https://www.decathlon.nl/search?Ntt=kuikma%20pr%20soft%20500",
+    "status": "BLOCKED",
+    "pageStatus": 403,
+    "error": "page HTTP 403"
+  },
+  {
+    "id": "prod-kuikma-pr-hybrid-carbon",
+    "dest": "kuikma-pr-hybrid-carbon-hero.jpg",
+    "page": "https://www.decathlon.fr/p/raquette-de-padel-kuikma-pr-hybrid-carbon-coki-nieto/341828/m8979558",
+    "status": "BLOCKED",
+    "pageStatus": 403,
+    "error": "page HTTP 403"
+  },
+  {
+    "id": "prod-black-crown-special-one-soft",
+    "dest": "black-crown-special-one-soft-hero.jpg",
+    "page": "https://www.zonadepadel.com/recherche?controller=search&s=special+one+soft",
+    "status": "COLLISION",
+    "pageStatus": 200,
+    "candidates": [
+      "https://www.zonadepadel.com/img/zona-de-padel-com-logo-16286584672.jpg",
+      "https://www.zonadepadel.com/31257-home_default/drop-shot-explorer-soft-woman-2026.jpg",
+      "https://www.zonadepadel.com/31257-zdp_customer/drop-shot-explorer-soft-woman-2026.jpg",
+      "https://www.zonadepadel.com/33955-home_default/t-shirt-endless-one-light-green.jpg",
+      "https://www.zonadepadel.com/33955-zdp_customer/t-shirt-endless-one-light-green.jpg",
+      "https://www.zonadepadel.com/28941-home_default/royal-padel-japan-pro-red-2026.jpg",
+      "https://www.zonadepadel.com/28941-zdp_customer/royal-padel-japan-pro-red-2026.jpg",
+      "https://www.zonadepadel.com/32626-home_default/asics-gel-resolution-x-soft-oat-dark-aubergine-2026-padel-shoes.jpg"
+    ],
+    "imageUrl": "https://www.zonadepadel.com/img/p/en-default-zdp_customer.jpg",
+    "uniqueJpegError": "shared-hero hash collision for prod-black-crown-special-one-soft-jpeg: same bytes as /images/padel/products/_draft-review/bullpadel-neuron-02-edge-hero.jpg, /images/padel/products/_draft-review/bullpadel-xplo-hero.jpg, /images/padel/products/_draft-review/bullpadel-ionic-light-hero.jpg, /images/padel/products/_draft-review/bullpadel-vertex-advance-hero.jpg, /images/padel/products/_draft-review/adidas-metalbone-3-3-hero.jpg, /images/padel/products/_draft-review/drop-shot-canyon-pro-hero.jpg",
+    "width": 900,
+    "height": 900,
+    "bytes": 14139
+  }
+]

@@ -23,6 +23,12 @@ import {
   getLaunchEligibility,
   isIndexableEligibility,
 } from "@/domain/launch";
+import { getPadelRacketDatabasePageData } from "@/lib/padel-racket-database";
+import {
+  PADEL_RESEARCH_STORIES,
+  getPadelResearchPageData,
+} from "@/lib/padel-research";
+import { listPadelCollections } from "@/lib/padel-collections";
 
 /**
  * Sitemap includes ONLY INDEXABLE entities per launch eligibility.
@@ -161,6 +167,36 @@ export default function sitemap(): MetadataRoute.Sitemap {
           cat.publishedAt,
         ),
       );
+    }
+
+    if (sport.slug === "padel") {
+      const database = getPadelRacketDatabasePageData();
+      if (database.total > 0) {
+        push(database.path, {
+          changeFrequency: "weekly",
+          priority: 0.85,
+        });
+      }
+
+      push("/padel/collections", {
+        changeFrequency: "weekly",
+        priority: 0.7,
+      });
+      for (const collection of listPadelCollections()) {
+        push(collection.href, {
+          changeFrequency: "weekly",
+          priority: 0.65,
+        });
+      }
+
+      for (const story of PADEL_RESEARCH_STORIES) {
+        const research = getPadelResearchPageData(story.slug);
+        if (!research?.published) continue;
+        push(research.path, {
+          changeFrequency: "monthly",
+          priority: 0.65,
+        });
+      }
     }
   }
 

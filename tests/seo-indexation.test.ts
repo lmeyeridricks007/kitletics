@@ -13,6 +13,10 @@ import {
   getSitemapEntriesFixture,
   getSitemapPathSetFixture,
 } from "./helpers/sitemap-fixture";
+import {
+  PADEL_RESEARCH_STORIES,
+  getPadelResearchPageData,
+} from "@/lib/padel-research";
 
 describe("SEO query-state indexability", () => {
   it("treats sort-only state as non-canonical", () => {
@@ -75,7 +79,18 @@ describe("Category / sport canonical shells", () => {
     expect(paths.has("/tools/compare-products")).toBe(false);
     expect(paths.has("/search")).toBe(false);
     expect(paths.has("/running/shoes")).toBe(true);
-    expect(paths.has("/padel")).toBe(false);
+    expect(paths.has("/padel")).toBe(true);
+    for (const category of ["rackets", "shoes", "bags", "balls", "grips", "accessories"]) {
+      expect(paths.has(`/padel/${category}`)).toBe(true);
+    }
+    expect(paths.has("/padel/clothing")).toBe(false);
+    expect(paths.has("/padel/rackets/database")).toBe(true);
+    expect(paths.has("/padel/collections")).toBe(true);
+    for (const story of PADEL_RESEARCH_STORIES) {
+      const research = getPadelResearchPageData(story.slug);
+      expect(paths.has(story.path)).toBe(research?.published === true);
+    }
+    expect(paths.has("/tennis")).toBe(false);
     expect(paths.has("/fitness/hyrox")).toBe(false);
     expect(paths.has("/hyrox")).toBe(false);
   });

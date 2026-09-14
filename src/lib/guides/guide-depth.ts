@@ -44,6 +44,14 @@ export const GUIDE_DEPTH_BY_SLUG: Record<string, GuideDepthTier> = {
   "how-to-choose-a-power-rack": "standard",
   "how-to-build-a-home-gym": "standard",
   "how-to-choose-a-padel-racket": "deep",
+  "how-to-choose-padel-shoes": "deep",
+  "beginner-padel-gear-guide": "deep",
+  "complete-padel-gear-checklist": "deep",
+  "padel-racket-shapes-explained": "deep",
+  "round-vs-teardrop-vs-diamond-padel-rackets": "deep",
+  "padel-grips-overgrips-explained": "standard",
+  "how-to-choose-a-padel-bag": "standard",
+  "how-to-choose-padel-balls": "standard",
 };
 
 export const GUIDE_PRIORITY_BY_SLUG: Record<string, GuideEditorialPriority> = {

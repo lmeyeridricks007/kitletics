@@ -83,8 +83,33 @@ const SLUG_IMAGES: Record<string, string> = {
   "handheld-running-bottles":
     "/images/hydration/products/hydrapak-skyflask-speed-500-hero.jpg",
   "padel-rackets": "/images/padel/hero.jpg",
-  "padel-rackets-control": "/images/padel/guides/choose-racket.jpg",
-  "padel-rackets-power": "/images/padel/guides/choose-shoes.jpg",
+  "padel-rackets-beginners": "/images/padel/products/bullpadel-indiga-ctr-hero.jpg",
+  "padel-rackets-intermediate":
+    "/images/padel/products/bullpadel-ionic-light-hero.jpg",
+  "padel-rackets-advanced":
+    "/images/padel/products/bullpadel-vertex-05-hero.png",
+  "padel-rackets-control":
+    "/images/padel/products/nox-ml10-pro-cup-2026-hero.jpg",
+  "padel-rackets-power": "/images/padel/products/bullpadel-hack-04-hero.png",
+  "padel-rackets-all-round":
+    "/images/padel/products/bullpadel-vertex-05-hybrid-hero.jpg",
+  "padel-rackets-lightweight":
+    "/images/padel/products/head-one-ultralight-hero.jpg",
+  "padel-rackets-comfort":
+    "/images/padel/products/kuikma-pr-comfort-soft-hero.jpg",
+  "padel-rackets-maneuverability":
+    "/images/padel/products/babolat-air-viper-hero.jpg",
+  "padel-rackets-women":
+    "/images/padel/products/bullpadel-vertex-05-w-hero.jpg",
+  "padel-shoes": "/images/padel/guides/choose-shoes.jpg",
+  "padel-shoes-men": "/images/padel/products/adidas-courtquick-padel-hero.jpg",
+  "padel-shoes-women":
+    "/images/padel/products/adidas-courtquick-padel-women-hero.jpg",
+  "padel-shoes-stability": "/images/padel/products/joma-t-slam-hero.jpg",
+  "padel-shoes-comfort":
+    "/images/padel/products/adidas-crazyquick-boost-padel-hero.jpg",
+  "padel-overgrips": "/images/padel/guides/grips.jpg",
+  "padel-bags": "/images/padel/products/nox-at10-team-paletero-hero.jpg",
   "tennis-rackets": "/images/home/guide-tennis.jpg",
   "training-shoes":
     "/images/training/guides/concepts/cross-training-shoe-gym.jpg",

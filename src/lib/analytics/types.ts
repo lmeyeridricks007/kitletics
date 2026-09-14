@@ -8,6 +8,7 @@ export const ANALYTICS_PAGE_TYPES = [
   "discipline_hub",
   "category",
   "shoe_database",
+  "racket_database",
   "product",
   "review",
   "best_guide",
@@ -50,16 +51,22 @@ export const ANALYTICS_EVENTS = [
   "finder_start",
   "finder_answer",
   "finder_complete",
+  "finder_result_view",
   "finder_product_click",
+  "finder_offer_click",
+  "compare_start",
   "compare_add",
   "compare_remove",
   "compare_complete",
   "search",
   "filter_use",
+  /** Alias of filter_use for padel/category discovery reporting */
+  "category_filter",
   "offer_view",
   "retailer_click",
   "email_signup",
   "price_alert_signup",
+  "internal_recommendation_click",
   // Running Shoe Database
   "shoe_database_view",
   "shoe_database_filter",
@@ -73,6 +80,17 @@ export const ANALYTICS_EVENTS = [
   "shoe_database_share",
   "shoe_database_citation_copy",
   "shoe_database_data_download",
+  // Padel Racket Database
+  "racket_database_view",
+  "racket_database_filter",
+  /** Alias of racket_database_filter for discovery reporting */
+  "database_filter",
+  "racket_database_sort",
+  "racket_database_result_click",
+  "racket_database_compare_add",
+  "racket_database_review_click",
+  "racket_database_data_download",
+  "racket_database_citation_copy",
   // GA4 recommended ecommerce (affiliate-safe subset)
   "view_item",
   "view_item_list",
@@ -146,6 +164,8 @@ export type ShoeDatabaseAnalyticsParams = PageContextParams & {
   query_length?: number;
 };
 
+export type RacketDatabaseAnalyticsParams = ShoeDatabaseAnalyticsParams;
+
 export type AnalyticsEventParams =
   | PageContextParams
   | RetailerClickParams
@@ -154,6 +174,7 @@ export type AnalyticsEventParams =
   | SearchEventParams
   | FilterEventParams
   | ShoeDatabaseAnalyticsParams
+  | RacketDatabaseAnalyticsParams
   | Record<string, string | number | boolean | undefined>;
 
 export type ConsentStatus = "unknown" | "granted" | "denied";

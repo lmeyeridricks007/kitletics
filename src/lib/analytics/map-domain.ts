@@ -51,6 +51,10 @@ export function handleCompareAnalytics(
     track("compare_add", base);
     return;
   }
+  if (event === "compare_started") {
+    track("compare_start", base);
+    return;
+  }
   if (event === "compare_product_removed") {
     track("compare_remove", base);
     return;
@@ -86,12 +90,24 @@ export function handleFinderAnalytics(
     track("finder_complete", base);
     return;
   }
+  if (event === "finder_result_viewed") {
+    track("finder_result_view", base);
+    return;
+  }
   if (
     event === "finder_result_clicked" ||
-    event === "finder_result_product_opened"
+    event === "finder_result_product_opened" ||
+    event === "finder_product_clicked"
   ) {
     track("finder_product_click", base);
     return;
   }
-  // finder_offer_clicked → retailer_click via central /go click capture only
+  if (event === "finder_offer_clicked") {
+    track("finder_offer_click", {
+      ...base,
+      placement: "finder_result",
+    });
+    return;
+  }
+  // Offer clicks via /go also emit retailer_click with finder_result placement
 }

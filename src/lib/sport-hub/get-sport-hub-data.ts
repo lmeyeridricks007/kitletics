@@ -14,6 +14,7 @@ import {
   getToolBySlug,
   getGearSetupBySlug,
   getProductsByCategory,
+  getReviews,
 } from "@/repositories";
 import type { Product } from "@/domain/products/types";
 import { getScoreBand } from "@/lib/product/score";
@@ -232,6 +233,32 @@ export function getSportHubData(input: {
     })
     .filter((s): s is NonNullable<typeof s> => Boolean(s));
 
+  const reviewItems = getReviews(options)
+    .map((review) => {
+      const product = getProductById(review.productId, options);
+      if (!product || !product.sportIds.includes(sport.id)) return null;
+      if (
+        !shouldPromotePublicly(
+          getLaunchEligibility({ kind: "review", entity: review }, options),
+        )
+      ) {
+        return null;
+      }
+      return {
+        id: review.id,
+        title: review.title,
+        productName: product.fullName,
+        href: `/reviews/${review.slug}`,
+        summary: review.summary,
+        image: productImage(product),
+        updatedAt: review.updatedAt,
+      };
+    })
+    .filter((r): r is NonNullable<typeof r> => Boolean(r))
+    .sort((a, b) => (a.updatedAt < b.updatedAt ? 1 : -1))
+    .slice(0, 4)
+    .map(({ updatedAt: _u, ...card }) => card);
+
   const finderToolRaw = getToolBySlug(config.finderToolSlug, options);
   const finderTool =
     finderToolRaw &&
@@ -425,18 +452,29 @@ export function getSportHubData(input: {
     benefits: config.benefits,
     guides: {
       title: config.guidesTitle,
-      href: "/guides",
+      href: `/guides?sport=${sport.slug}`,
       items: guides,
     },
     comparisons: {
       title: config.comparisonsTitle,
-      href: "/compare",
+      href:
+        sport.slug === "padel"
+          ? "/compare?category=padel-rackets"
+          : "/compare",
       items: comparisons,
     },
+    reviews:
+      reviewItems.length > 0
+        ? {
+            title: `LATEST ${sport.name.toUpperCase()} REVIEWS`,
+            href: `/reviews?sport=${sport.slug}`,
+            items: reviewItems,
+          }
+        : undefined,
     starterKit,
     brands: {
       title: config.brandsTitle,
-      href: "/brands",
+      href: `/brands?sport=${sport.slug}`,
       items: orderedBrands,
     },
     footer: config.footer,

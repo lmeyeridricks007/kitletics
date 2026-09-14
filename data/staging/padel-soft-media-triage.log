@@ -1,0 +1,139 @@
+APPROVED prod-nox-bag-10 99 /images/padel/bags/nox-bag-10-hero.jpg
+REJECT prod-nox-pro-series-bag low_score_24_logo_or_junk
+APPROVED prod-alacran-wide-ancha /images/padel/accessories/alacran-wide-ancha-hero.jpg
+REJECT prod-bounce-bounce-padel-x4 shared-hero_collision
+REJECT prod-bullpadel-pascal-box-switch-3b shared-hero_collision
+REJECT prod-bullpadel-pascal-box-4b low_score_0_logo_or_junk
+REJECT prod-bullpadel-pascal-box-pro shared-hero_collision
+REJECT prod-bullpadel-pascal-box-switch low_score_0_logo_or_junk
+REJECT prod-bullpadel-custom-weight-protector shared-hero_collision
+REJECT prod-head-head-ball-cart shared-hero_collision
+REJECT prod-head-court-basket-70 shared-hero_collision
+REJECT prod-head-ball-basket shared-hero_collision
+REJECT prod-head-protector-tape shared-hero_collision
+REJECT prod-head-headband shared-hero_collision
+REJECT prod-head-head-logo-wristband shared-hero_collision
+REJECT prod-head-performance-headband shared-hero_collision
+REJECT prod-head-head-targets shared-hero_collision
+REJECT prod-head-x4-pump logo_or_banner_url
+APPROVED prod-nox-nox-pickup-tube 99 /images/padel/accessories/nox-nox-pickup-tube-hero.jpg
+REJECT prod-nox-texture-protector shared-hero_collision
+REJECT prod-nox-transparent-protection-tape shared-hero_collision
+REJECT prod-pascal-box-compressor-pro shared-hero_collision
+REJECT prod-shockout-shockout-protector shared-hero_collision
+APPROVED prod-shockout-padel-balls-design 99 /images/padel/accessories/shockout-padel-balls-design-hero.jpg
+REJECT prod-siux-siux-logo-transparent shared-hero_collision
+REJECT prod-tuboplus-boost shared-hero_collision
+REJECT prod-wilson-wilson-protector logo_or_banner_url
+REJECT prod-adidas-multigame-backpack-2026 low_score_9_logo_or_junk
+REJECT prod-adidas-multigame-2026 low_score_9_logo_or_junk
+REJECT prod-adidas-weekend low_score_9_logo_or_junk
+APPROVED prod-babolat-backpack-kids 99 /images/padel/bags/babolat-backpack-kids-hero.jpg
+REJECT prod-babolat-court-backpack-lite reresearch_failed_shared-hero hash collision for prod-babolat-court-backpack-lite: same bytes as /images/padel/grips/babolat-pro-tour-hero
+REJECT prod-bullpadel-neuron-bpp26020 shared-hero_collision
+REJECT prod-bullpadel-pearl-bpp26021 shared-hero_collision
+APPROVED prod-bullpadel-bpm26002-hack /images/padel/bags/bullpadel-bpm26002-hack-hero.jpg
+REJECT prod-bullpadel-bpp26005-ionic shared-hero_collision
+APPROVED prod-bullpadel-bpp26001-vertex /images/padel/bags/bullpadel-bpp26001-vertex-hero.jpg
+REJECT prod-bullpadel-bpm26022-xplo shared-hero_collision
+APPROVED prod-bullpadel-bpp26022-xplo /images/padel/bags/bullpadel-bpp26022-xplo-hero.jpg
+REJECT prod-drop-shot-axion-backpack shared-hero_collision
+REJECT prod-drop-shot-axion shared-hero_collision
+REJECT prod-drop-shot-fenix shared-hero_collision
+REJECT prod-head-tour-team-cb-2026 shared-hero_collision
+REJECT prod-head-pro-x-duffle-l shared-hero_collision
+REJECT prod-head-tour-padel-bag-l shared-hero_collision
+APPROVED prod-head-tour-team-elite 99 /images/padel/bags/head-tour-team-elite-hero.jpg
+APPROVED prod-kuikma-pl-900-elite 99 /images/padel/bags/kuikma-pl-900-elite-hero.jpg
+REJECT prod-kuikma-backpack shared-hero_collision
+REJECT prod-nox-at10-team-backpack low_score_9_logo_or_junk
+REJECT prod-nox-ml10-competition-xl-compact low_score_9_logo_or_junk
+REJECT prod-nox-ml10-team-backpack low_score_9_logo_or_junk
+REJECT prod-nox-ml10-team low_score_9_logo_or_junk
+REJECT prod-nox-at10-competition-xl-compact low_score_9_logo_or_junk
+REJECT prod-nox-pro-series shared-hero_collision
+REJECT prod-nox-street-series low_score_9_logo_or_junk
+REJECT prod-oxdog-x-padel-pro-thermo shared-hero_collision
+REJECT prod-tecnifibre-tour-endurance-ultra shared-hero_collision
+REJECT prod-adidas-serie-tour low_score_9_logo_or_junk
+REJECT prod-babolat-ace logo_or_banner_url
+REJECT prod-bullpadel-fip-next shared-hero_collision
+REJECT prod-bullpadel-next-pro shared-hero_collision
+APPROVED prod-drop-shot-tournament-tech /images/padel/balls/drop-shot-tournament-tech-hero.jpg
+APPROVED prod-dunlop-team 99 /images/padel/balls/dunlop-team-hero.jpg
+REJECT prod-pallap-competition-01 logo_or_banner_url
+APPROVED prod-slazenger-challenge-no-1 99 /images/padel/balls/slazenger-challenge-no-1-hero.jpg
+REJECT prod-adidas-perforated-ac2ba1wh approve_failed_shared-hero hash collision for prod-adidas-perforated-ac2ba1wh: same bytes as /images/padel/grips/adidas-tacky-feeling-h
+REJECT prod-babolat-syntec-team shared-hero_collision
+REJECT prod-bullpadel-gb1201 shared-hero_collision
+REJECT prod-bullpadel-gb1200-hac reresearch_failed_shared-hero hash collision for prod-bullpadel-gb1200-hac: same bytes as /images/padel/grips/bullpadel-comfort-overgrip-h
+REJECT prod-head-hydrosorb-comfort reresearch_failed_shared-hero hash collision for prod-head-hydrosorb-comfort: same bytes as /images/padel/grips/head-hydrosorb-hero.jpg
+REJECT prod-hesacore-gel shared-hero_collision
+REJECT prod-hesacore-tour low_score_0_logo_or_junk
+REJECT prod-hesacore-tour-w shared-hero_collision
+APPROVED prod-hesacore-pink-w 99 /images/padel/grips/hesacore-pink-w-hero.jpg
+REJECT prod-kuikma-overgrip-pro-adherence shared-hero_collision
+REJECT prod-nox-luxury-pro reresearch_failed_shared-hero hash collision for prod-nox-luxury-pro: same bytes as /images/padel/accessories/babolat-babolat-protector-he
+REJECT prod-nox-h-dri logo_or_banner_url
+REJECT prod-shockout-shockout shared-hero_collision
+REJECT prod-starvie-tacky-touch shared-hero_collision
+REJECT prod-tourna-tourna-grip-ii shared-hero_collision
+REJECT prod-tourna-grip-xl shared-hero_collision
+REJECT prod-wilson-pro-overgrip-perforated shared-hero_collision
+REJECT prod-kuikma-insulated-backpack-pro-40-l low_score_0_logo_or_junk
+REJECT prod-dunlop-tour-pro shared-hero_collision
+REJECT prod-dunlop-protection-tape shared-hero_collision
+REJECT prod-joma-vero-virseda-2026 low_score_44
+REJECT prod-babolat-rh-perf-padel shared-hero_collision
+REJECT prod-nox-pro-overgrip-perforated low_score_24_logo_or_junk
+REJECT prod-wilson-profile-padel-overgrip shared-hero_collision
+APPROVED prod-oxdog-no1 99 /images/padel/accessories/oxdog-no1-hero.jpg
+REJECT prod-sane-nitro low_score_9_logo_or_junk
+REJECT prod-sane-spin-premium low_score_9_logo_or_junk
+REJECT prod-sane-feel reresearch_no_safe_hero_best_59
+REJECT prod-sane-pro-elegance reresearch_no_safe_hero_best_59
+REJECT prod-sane-pro-sport reresearch_no_safe_hero_best_59
+REJECT prod-sane-everyday reresearch_no_safe_hero_best_59
+REJECT prod-osaka-pro-tour-duffel shared-hero_collision
+REJECT prod-rs-pro-padel-bag low_score_9_logo_or_junk
+REJECT prod-rs-pro-tour-overgrip low_score_9_logo_or_junk
+REJECT prod-4on-totaldry shared-hero_collision
+REJECT prod-4on-premium-comfort shared-hero_collision
+REJECT prod-shockout-dual-pro shared-hero_collision
+REJECT prod-shockout-shockout-perforated shared-hero_collision
+REJECT prod-tourna-tourna-tac-xl shared-hero_collision
+REJECT prod-tourna-tourna-tuff low_score_32_logo_or_junk
+REJECT prod-sane-core-overgrip low_score_9_logo_or_junk
+STILL_MISSING prod-ball-rescuer-premium 0 
+STILL_MISSING prod-head-x100 89 https://www.padelnuestro.com/media/catalog/product/3/1/31256_presuriza
+STILL_MISSING prod-softee-max-tube 0 
+STILL_MISSING prod-softee-press-pro-x3 89 https://www.padelnuestro.com/media/catalog/product/3/1/31256_presuriza
+APPROVED_MISSING prod-tuboplus-tuboplus-29psi-x3 82 /images/padel/accessories/tuboplus-tuboplus-29psi-x3-hero.jpg
+STILL_MISSING prod-tuboplus-29psi-x3e 59 https://tubo.plus/wp-content/uploads/2026/08/tuboplus.jpg
+STILL_MISSING prod-tuboplus-29psi-x4e 59 https://tubo.plus/wp-content/uploads/2026/08/tuboplus.jpg
+APPROVED_MISSING prod-tuboplus-r3play 89 /images/padel/accessories/tuboplus-r3play-hero.jpg
+STILL_MISSING prod-tuboplus-r3set 59 https://tubo.plus/wp-content/uploads/2026/08/tuboplus.jpg
+APPROVED_MISSING prod-tuboplus-repl4y 89 /images/padel/accessories/tuboplus-repl4y-hero.jpg
+STILL_MISSING prod-tuboplus-tuboplus-x4 shared-hero hash collision for prod-tuboplus-tuboplus-x4: same bytes as /images/padel/accessories/tuboplus-tuboplus-29psi-x3-hero.jpg
+STILL_MISSING prod-tuboplus-tubox3 59 https://tubo.plus/wp-content/uploads/2026/08/tuboplus.jpg
+STILL_MISSING prod-bullpadel-trolley-bpp26011 0 
+STILL_MISSING prod-head-elite-supercombi 0 
+STILL_MISSING prod-kuikma-pbp-elite 0 
+STILL_MISSING prod-varlion-ambassador 0 
+STILL_MISSING prod-varlion-summum-pro 0 
+STILL_MISSING prod-varlion-summum-pro-s 0 
+STILL_MISSING prod-varlion-summum-pro-w 0 
+STILL_MISSING prod-bullpadel-gb-1705 0 
+STILL_MISSING prod-drop-shot-super-dry 0 
+STILL_MISSING prod-head-hydrosorb-family 0 
+STILL_MISSING prod-kuikma-antislip 0 
+STILL_MISSING prod-shockout-100-0062-combo 0 
+STILL_MISSING prod-tecnifibre-pro-contact 0 
+STILL_MISSING prod-yonex-super-grap 0 
+STILL_MISSING prod-dunlop-elite-thermo 0 
+STILL_MISSING prod-bullpadel-gb-1202-fixogrip-pro 0 
+STILL_MISSING prod-bullpadel-gb-1705-sensogrip-pro 0 
+
+Summary { approved: 18, rejected: 91, stillMissing: 26, hold: 0, dry: 0 }
+Wrote /Users/LMeyeridricks/Documents/coding/kitletics/data/staging/padel-soft-media-triage.json
+Registry appends 18

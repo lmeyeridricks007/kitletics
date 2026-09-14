@@ -22,76 +22,6 @@ type RacketSpec = {
 
 const RACKET_SPECS: RacketSpec[] = [
   {
-    slug: "how-to-choose-a-padel-racket",
-    title: "How to Choose a Padel Racket",
-    sportId: "sport-padel",
-    subject: "a padel racket",
-    outcome:
-      "match forgiveness, handling and power to your current level and playing style",
-    factors: [
-      "Player level",
-      "Shape and sweet spot",
-      "Weight and balance",
-      "Core and face feel",
-      "Playing style",
-      "Budget",
-    ],
-    comparison: ["Forgiving control frame", "Power-focused frame"],
-    products: [
-      "prod-bullpadel-vertex-05",
-      "prod-nox-at10-12k-2026",
-      "prod-nox-ml10-pro-cup",
-      "prod-head-coello-pro",
-    ],
-    tool: "padel-racket-finder",
-    bestHref: "/best/padel-rackets",
-    browseHref: "/padel/gear?category=padel-rackets",
-  },
-  {
-    slug: "how-to-choose-padel-shoes",
-    title: "How to Choose Padel Shoes",
-    sportId: "sport-padel",
-    subject: "padel shoes",
-    outcome:
-      "get predictable court grip and lateral support without sacrificing fit",
-    factors: [
-      "Outsole and court surface",
-      "Lateral stability",
-      "Fit and lockdown",
-      "Cushion and durability",
-    ],
-    comparison: ["Stable court shoe", "Lighter speed shoe"],
-    products: [
-      "prod-asics-gel-resolution-padel",
-      "prod-babolat-jet-premura",
-      "prod-joma-t-slam",
-    ],
-    bestHref: "/padel/gear?category=padel-shoes",
-    browseHref: "/padel/gear?category=padel-shoes",
-  },
-  {
-    slug: "padel-grips-overgrips-explained",
-    title: "Padel Grips & Overgrips Explained",
-    sportId: "sport-padel",
-    subject: "padel grips and overgrips",
-    outcome:
-      "set a comfortable handle diameter while maintaining tack and moisture control",
-    factors: [
-      "Base-grip condition",
-      "Handle thickness",
-      "Tack and absorption",
-      "Replacement frequency",
-    ],
-    comparison: ["Replacement grip", "Overgrip"],
-    products: [
-      "prod-wilson-overgrip",
-      "prod-wilson-overgrip",
-      "prod-wilson-overgrip",
-    ],
-    bestHref: "/padel/gear?category=padel-grips",
-    browseHref: "/padel/gear?category=padel-grips",
-  },
-  {
     slug: "how-to-choose-a-tennis-racket",
     title: "How to Choose a Tennis Racket",
     sportId: "sport-tennis",
@@ -125,8 +55,7 @@ function makePlan(spec: RacketSpec): CompactExplainerPlan {
   if (!u) throw new Error(`Missing RACKET_UNIQUE for ${spec.slug}`);
 
   const toolHref = spec.tool ? `/tools/${spec.tool}` : spec.browseHref;
-  const isPadelRacket = spec.slug === "how-to-choose-a-padel-racket";
-  const count = isPadelRacket ? 4 : 3;
+  const count = 3;
   const examples = spec.products.slice(0, count).map((productId, index) => ({
     productId,
     approachLabel: u.exampleLabels[index] ?? `Approach ${index + 1}`,
@@ -139,10 +68,7 @@ function makePlan(spec: RacketSpec): CompactExplainerPlan {
     tradeoff:
       u.exampleTradeoffs[index] ?? "Verify fit and the complete setup.",
   }));
-  const fallbackHero =
-    spec.sportId === "sport-tennis"
-      ? "/images/home/guide-tennis.jpg"
-      : "/images/padel/hero.jpg";
+  const fallbackHero = "/images/home/guide-tennis.jpg";
 
   return {
     slug: spec.slug,
@@ -155,9 +81,8 @@ function makePlan(spec: RacketSpec): CompactExplainerPlan {
       `Player choosing ${spec.subject}`,
     ),
     quickAnswerBullets: u.quickAnswerBullets,
-    methodologyNote: isPadelRacket
-      ? "Needs-research guide: manufacturer specifications and normalized catalog fields establish the comparison, while unverified marketing claims are treated as claims rather than measured performance."
-      : "This guide uses normalized catalog fields and manufacturer specifications to compare roles. Examples illustrate approaches rather than a universal ranking.",
+    methodologyNote:
+      "This guide uses normalized catalog fields and manufacturer specifications to compare roles. Examples illustrate approaches rather than a universal ranking.",
     finder: spec.tool
       ? {
           toolSlug: spec.tool,
@@ -221,18 +146,6 @@ function makePlan(spec: RacketSpec): CompactExplainerPlan {
         tone: "caution",
       },
     ],
-    extraProse: isPadelRacket
-      ? [
-          {
-            id: "research-status",
-            title: "How to use a needs-research guide",
-            paragraphs: [
-              "Use verified dimensions and normalized catalog fields as the foundation. Treat unmeasured sweet-spot and power claims as hypotheses to test.",
-              "Prefer retailers with demo or return options when independent evidence is thin.",
-            ],
-          },
-        ]
-      : undefined,
     decision: {
       title: "Decision steps for this guide",
       steps: u.decisionSteps,

@@ -45,6 +45,7 @@ export type PrimaryNavKey =
 export type SecondaryContextKey =
   | "shoes"
   | "running"
+  | "padel"
   | "racket"
   | "fitness"
   | "outdoors"
@@ -369,6 +370,137 @@ export const SHOES_CONTEXTUAL_NAV: ContextualNavConfig = {
   ],
 };
 
+/** Padel-local context when browsing /padel* — categories + decision surface */
+export const PADEL_CONTEXTUAL_NAV: ContextualNavConfig = {
+  contextId: "padel",
+  parentNavKey: "racket",
+  label: "Padel",
+  /** Categories + decision stay reachable; soft goods overflow into More on desktop */
+  maxVisibleDesktop: 10,
+  items: [
+    {
+      id: "overview",
+      label: "Padel",
+      href: "/padel",
+      match: { type: "exact", value: "/padel" },
+      priority: 10,
+    },
+    {
+      id: "rackets",
+      label: "Rackets",
+      href: "/padel/rackets",
+      match: { type: "prefix", value: "/padel/rackets" },
+      priority: 20,
+    },
+    {
+      id: "shoes",
+      label: "Shoes",
+      href: "/padel/shoes",
+      match: { type: "prefix", value: "/padel/shoes" },
+      priority: 22,
+    },
+    {
+      id: "balls",
+      label: "Balls",
+      href: "/padel/balls",
+      match: { type: "prefix", value: "/padel/balls" },
+      priority: 24,
+    },
+    {
+      id: "bags",
+      label: "Bags",
+      href: "/padel/bags",
+      match: { type: "prefix", value: "/padel/bags" },
+      priority: 26,
+    },
+    {
+      id: "grips",
+      label: "Grips",
+      href: "/padel/grips",
+      match: { type: "prefix", value: "/padel/grips" },
+      priority: 28,
+    },
+    {
+      id: "accessories",
+      label: "Accessories",
+      href: "/padel/accessories",
+      match: { type: "prefix", value: "/padel/accessories" },
+      priority: 30,
+    },
+    {
+      id: "best",
+      label: "Best",
+      href: "/best?sport=padel",
+      match: [
+        { type: "query", param: "sport", value: "padel", pathPrefix: "/best" },
+        { type: "prefix", value: "/best/padel-" },
+      ],
+      priority: 40,
+      requiresContent: "best",
+    },
+    {
+      id: "reviews",
+      label: "Reviews",
+      href: "/reviews?sport=padel",
+      match: [
+        {
+          type: "query",
+          param: "sport",
+          value: "padel",
+          pathPrefix: "/reviews",
+        },
+      ],
+      priority: 45,
+      requiresContent: "reviews",
+    },
+    {
+      id: "compare",
+      label: "Compare",
+      href: "/compare?category=padel-rackets",
+      match: {
+        type: "query",
+        param: "category",
+        value: "padel-rackets",
+        pathPrefix: "/compare",
+      },
+      priority: 50,
+    },
+    {
+      id: "finder",
+      label: "Finder",
+      href: "/tools/padel-racket-finder",
+      match: { type: "prefix", value: "/tools/padel-racket-finder" },
+      priority: 55,
+      requiresContent: "tools",
+    },
+    {
+      id: "guides",
+      label: "Guides",
+      href: "/guides?sport=padel",
+      match: [
+        {
+          type: "query",
+          param: "sport",
+          value: "padel",
+          pathPrefix: "/guides",
+        },
+      ],
+      priority: 60,
+      requiresContent: "guides",
+    },
+    {
+      id: "database",
+      label: "Database",
+      href: "/padel/rackets/database",
+      match: [
+        { type: "exact", value: "/padel/rackets/database" },
+        { type: "prefix", value: "/padel/collections" },
+      ],
+      priority: 65,
+    },
+  ],
+};
+
 export const RACKET_CONTEXTUAL_NAV: ContextualNavConfig = {
   contextId: "racket",
   parentNavKey: "racket",
@@ -686,6 +818,7 @@ export const CONTEXTUAL_NAV_BY_ID: Record<
 > = {
   shoes: SHOES_CONTEXTUAL_NAV,
   running: RUNNING_CONTEXTUAL_NAV,
+  padel: PADEL_CONTEXTUAL_NAV,
   racket: RACKET_CONTEXTUAL_NAV,
   fitness: FITNESS_CONTEXTUAL_NAV,
   outdoors: OUTDOORS_CONTEXTUAL_NAV,
@@ -893,15 +1026,15 @@ function contextFromPathname(
   ) {
     if (sportQ === "running") return "running";
     if (sportQ === "fitness" || sportQ === "hyrox") return "fitness";
-    if (sportQ === "padel" || sportQ === "tennis" || sportQ === "racket")
-      return "racket";
+    if (sportQ === "padel") return "padel";
+    if (sportQ === "tennis" || sportQ === "racket") return "racket";
   }
 
   const categoryQ = getSearchParam(searchParams, "category");
   if (pathname === "/compare" || pathname.startsWith("/compare")) {
     if (categoryQ === "running-shoes") return "shoes";
     if (categoryQ === "padel-rackets" || categoryQ?.includes("padel"))
-      return "racket";
+      return "padel";
     if (categoryQ?.includes("training")) return "fitness";
   }
 
@@ -916,9 +1049,16 @@ function contextFromPathname(
     return "running";
   }
 
+  // Live padel vertical — dedicated decision rail (not umbrella racket sports)
+  if (
+    pathMatchesPrefix(pathname, "/padel") ||
+    pathMatchesPrefix(pathname, "/tools/padel-racket-finder")
+  ) {
+    return "padel";
+  }
+
   if (
     pathMatchesPrefix(pathname, "/racket") ||
-    pathMatchesPrefix(pathname, "/padel") ||
     pathMatchesPrefix(pathname, "/tennis") ||
     pathMatchesPrefix(pathname, "/pickleball") ||
     pathMatchesPrefix(pathname, "/badminton") ||
@@ -1002,15 +1142,12 @@ export function resolveNavigationContext(
   const suppressContextual =
     localNavMode !== "none" || secondaryContextKey === null;
 
-  const primaryNavKey: PrimaryNavKey = secondaryContextKey;
+  const primaryNavKey: PrimaryNavKey =
+    secondaryContextKey === "padel" ? "racket" : secondaryContextKey;
 
   if (suppressContextual || !secondaryContextKey) {
     return {
-      primaryNavKey:
-        secondaryContextKey ??
-        (localNavMode === "product" || localNavMode === "review"
-          ? null
-          : secondaryContextKey),
+      primaryNavKey,
       secondaryContextKey,
       localNavMode,
       showContextualNav: false,

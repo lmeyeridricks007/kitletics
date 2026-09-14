@@ -54,8 +54,16 @@ const BY_CATEGORY: Record<string, Partial<ProductDetailConfig>> = {
     mediaAspect: "tall",
     quickFactPriority: ["best-for", "shape", "weight", "release"],
     heroTagKeys: ["shape", "weight", "balance", "level"],
-    glanceKeys: ["shape", "weight", "balance", "core", "face"],
-    performanceSectionTitle: "Performance scores",
+    glanceKeys: [
+      "shape",
+      "weightMin",
+      "balance",
+      "core",
+      "face",
+      "feel",
+      "playerLevel",
+    ],
+    performanceSectionTitle: "Assessment",
   },
   "cat-power-racks": {
     mediaAspect: "wide",

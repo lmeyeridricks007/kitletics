@@ -1,0 +1,137 @@
+{
+  "generatedAt": "2026-09-13T06:53:45.854Z",
+  "byCategory": {
+    "cat-padel-shoes": {
+      "n": 41,
+      "published": 28,
+      "draft": 13,
+      "authentic": 28,
+      "ids": [
+        "p prod-adidas-courtstabil | Adidas Padel | Adidas Courtquick Padel | specs=genderFit,cushioning,support,outsole,surfaceCompatibility,courtOutsole,tractionPattern,lateralStability,courtFeel,durability,upper | img=/images/padel/products/adidas-courtquick-padel-hero.jpg",
+        "p prod-asics-gel-resolution-padel | ASICS | ASICS Gel-Resolution Padel | specs=cushioning,outsole,support,genderFit,surfaceCompatibility,courtOutsole,tractionPattern,lateralStability,courtFeel,durability,upper | img=/images/padel/products/asics-gel-resolution-padel-hero.jpg",
+        "p prod-asics-gel-challenger-court | ASICS | ASICS Gel-Challenger Court | specs=cushioning,outsole,support,genderFit,surfaceCompatibility,courtOutsole,tractionPattern,lateralStability,courtFeel,durability,upper | img=/images/fitness/products/asics-gel-challenger-court-hero.jpg",
+        "p prod-babolat-jet-premura | Babolat | Babolat Jet Premura | specs=cushioning,outsole,support,genderFit,surfaceCompatibility,courtOutsole,tractionPattern,lateralStability,courtFeel,durability,upper | img=/images/fitness/products/babolat-jet-premura-hero.jpg",
+        "p prod-joma-t-slam | Joma | Joma T.Slam | specs=cushioning,outsole,support,genderFit,surfaceCompatibility,courtOutsole,tractionPattern,lateralStability,courtFeel,durability,upper | img=/images/fitness/products/joma-t-slam-hero.jpg",
+        "p prod-head-revolt-pro-court | Head | Head Revolt Pro Court | specs=cushioning,outsole,support,genderFit,surfaceCompatibility,courtOutsole,tractionPattern,lateralStability,courtFeel,durability,upper | img=/images/fitness/products/head-revolt-pro-court-hero.jpg",
+        "p prod-adidas-crazyquick-boost-m | Adidas Padel | Adidas Crazyquick Boost Padel | specs=genderFit,cushioning,support,outsole,surfaceCompatibility,courtOutsole,tractionPattern,lateralStability,courtFeel,durability,upper | img=/images/padel/products/adidas-crazyquick-boost-padel-hero.jpg",
+        "p prod-adidas-courtquick-w | Adidas Padel | Adidas Courtquick Padel Women | specs=genderFit,cushioning,support,outsole,surfaceCompatibility,courtOutsole,tractionPattern,lateralStability,courtFeel,durability,upper | img=/images/padel/products/adidas-courtquick-padel-women-hero.jpg",
+        "p prod-adidas-crazyquick-boost-w | Adidas Padel | Adidas Crazyquick Boost Padel Women | specs=genderFit,cushioning,support,outsole,surfaceCompatibility,courtOutsole,tractionPattern,lateralStability,courtFeel,durability,upper | img=/images/padel/products/adidas-crazyquick-boost-padel-women-hero.jpg",
+        "p prod-asics-gel-dedicate-8-padel | ASICS | ASICS Gel-Dedicate 8 Padel | specs=genderFit,cushioning,support,outsole,surfaceCompatibility,courtOutsole,tractionPattern,lateralStability,courtFeel,durability,upper | img=/images/padel/products/asics-gel-dedicate-8-padel-hero.jpg",
+        "p prod-asics-game-ff-padel | ASICS | ASICS Game FF Padel | specs=genderFit,cushioning,support,outsole,surfaceCompatibility,courtOutsole,tractionPattern,lateralStability,courtFeel,durability,upper | img=/images/padel/products/asics-game-ff-padel-hero.jpg",
+        "p prod-asics-solution-swift-ff2-padel | ASICS | ASICS Solution Swift FF 2 Padel | specs=genderFit,cushioning,support,outsole,surfaceCompatibility,courtOutsole,tractionPattern,lateralStability,courtFeel,durability,upper | img=/images/padel/products/asics-solution-swift-ff2-padel-hero.jpg",
+        "p prod-bullpadel-hybrid-fly | Bullpadel | Bullpadel Fastgear | specs=genderFit,cushioning,support,outsole,surfaceCompatibility,courtOutsole,tractionPattern,lateralStability,courtFeel,durability,upper | img=/images/padel/products/bullpadel-hybrid-fly-hero.jpg",
+        "p prod-bullpadel-ionic-woman | Bullpadel | Bullpadel Ionic Woman | specs=genderFit,cushioning,support,outsole,surfaceCompatibility,courtOutsole,tractionPattern,lateralStability,courtFeel,durability,upper | img=/images/padel/products/bullpadel-ionic-woman-hero.jpg",
+        "p prod-nox-at10-lux | Nox | Nox AT10 Lux | specs=genderFit,cushioning,support,outsole,surfaceCompatibility,courtOutsole,tractionPattern,lateralStability,courtFeel,durability,upper | img=/images/padel/products/nox-at10-lux-hero.jpg",
+        "p prod-nox-ml10-hexa | Nox | Nox ML10 Hexa | specs=genderFit,cushioning,support,outsole,surfaceCompatibility,courtOutsole,tractionPattern,lateralStability,courtFeel,durability,upper | img=/images/padel/products/nox-ml10-hexa-hero.jpg",
+        "p prod-babolat-movea-2 | Babolat | Babolat Movea 2 | specs=genderFit,cushioning,support,outsole,surfaceCompatibility,courtOutsole,tractionPattern,lateralStability,courtFeel,durability,upper | img=/images/padel/products/babolat-movea-2-hero.jpg",
+        "p prod-babolat-sensa-women | Babolat | Babolat Sensa Women | specs=genderFit,cushioning,support,outsole,surfaceCompatibility,courtOutsole,tractionPattern,lateralStability,courtFeel,durability,upper | img=/images/padel/products/babolat-sensa-women-hero.jpg",
+        "p prod-joma-slam-lady | Joma | Joma Slam Lady | specs=genderFit,cushioning,support,outsole,surfaceCompatibility,courtOutsole,tractionPattern,lateralStability,courtFeel,durability,upper | img=/images/padel/products/joma-slam-lady-hero.jpg",
+        "p prod-joma-spin-men | Joma | Joma Spin Men | specs=genderFit,cushioning,support,outsole,surfaceCompatibility,courtOutsole,tractionPattern,lateralStability,courtFeel,durability,upper | img=/images/padel/products/joma-spin-men-hero.jpg",
+        "p prod-head-sprint-pro-4-padel | Head | Head Sprint Pro 4.0 Padel | specs=genderFit,cushioning,support,outsole,surfaceCompatibility,courtOutsole,tractionPattern,lateralStability,courtFeel,durability,upper | img=/images/padel/products/head-sprint-pro-4-padel-hero.jpg",
+        "p prod-wilson-rush-pro-5-padel | Wilson | Wilson Rush Pro 5 Padel | specs=genderFit,cushioning,support,outsole,surfaceCompatibility,courtOutsole,tractionPattern,lateralStability,courtFeel,durability,upper | img=/images/padel/products/wilson-rush-pro-5-padel-hero.jpg",
+        "d prod-siux-diablo-pro | Siux | Siux Diablo Pro | specs=genderFit,cushioning,support,outsole,surfaceCompatibility,courtOutsole,lateralStability,courtFeel,durability | img=/images/catalog/fallbacks/shoe.svg",
+        "d prod-siux-comodo-woman | Siux | Siux Comodo Woman | specs=genderFit,cushioning,support,outsole,surfaceCompatibility,courtOutsole,lateralStability,courtFeel,durability | img=/images/catalog/fallbacks/shoe.svg",
+        "d prod-starvie-absolute-padel | StarVie | StarVie Absolute Padel | specs=genderFit,cushioning,support,outsole,surfaceCompatibility,courtOutsole,lateralStability,courtFeel,durability | img=/images/catalog/fallbacks/shoe.svg",
+        "p prod-kuikma-ps-990 | Kuikma | Kuikma PS 990 | specs=genderFit,cushioning,support,outsole,surfaceCompatibility,courtOutsole,tractionPattern,lateralStability,courtFeel,durability,upper | img=/images/padel/products/kuikma-ps-990-hero.jpg",
+        "d prod-kuikma-ps-560-women | Kuikma | Kuikma PS 560 Women | specs=genderFit,cushioning,support,outsole,surfaceCompatibility,courtOutsole,lateralStability,courtFeel,durability | img=/images/catalog/fallbacks/shoe.svg",
+        "d prod-oxdog-hyper-court | Oxdog | Oxdog Hyper Court | specs=genderFit,cushioning,support,outsole,surfaceCompatibility,courtOutsole,lateralStability,courtFeel,durability | img=/images/catalog/fallbacks/shoe.svg",
+        "p prod-asics-gel-resolution-padel-w | ASICS | ASICS Gel-Resolution Padel Women | specs=genderFit,cushioning,support,outsole,surfaceCompatibility,courtOutsole,tractionPattern,lateralStability,courtFeel,durability,upper | img=/images/padel/products/asics-gel-resolution-padel-women-hero.jpg",
+        "p prod-asics-solution-swift-padel-w | ASICS | ASICS Solution Swift FF Padel Women | specs=genderFit,cushioning,support,outsole,surfaceCompatibility,courtOutsole,tractionPattern,lateralStability,courtFeel,durability,upper | img=/images/padel/products/asics-solution-swift-ff-padel-women-hero.jpg",
+        "d prod-adidas-solecourt-boost-padel | Adidas Padel | Adidas Solecourt Boost Padel | specs=genderFit,cushioning,support,outsole,surfaceCompatibility,courtOutsole,lateralStability,courtFeel,durability | img=/images/catalog/fallbacks/shoe.svg",
+        "d prod-head-revolt-court | Head | HEAD Revolt Court Padel | specs=genderFit,cushioning,support,outsole,surfaceCompatibility,courtOutsole,lateralStability,courtFeel,durability | img=/images/catalog/fallbacks/shoe.svg",
+        "d prod-wilson-bela-pro-padel | Wilson | Wilson Bela Pro Padel | specs=genderFit,cushioning,support,outsole,surfaceCompatibility,courtOutsole,lateralStability,courtFeel,durability | img=/images/catalog/fallbacks/shoe.svg",
+        "p prod-joma-spin-lady | Joma | Joma Spin Lady | specs=genderFit,cushioning,support,outsole,surfaceCompatibility,courtOutsole,tractionPattern,lateralStability,courtFeel,durability,upper | img=/images/padel/products/joma-spin-lady-hero.jpg",
+        "d prod-bullpadel-hack-hybrid | Bullpadel | Bullpadel Hack Hybrid | specs=genderFit,cushioning,support,outsole,surfaceCompatibility,courtOutsole,lateralStability,courtFeel,durability | img=/images/catalog/fallbacks/shoe.svg",
+        "d prod-nox-at10-pro-shoe | Nox | Nox AT10 Pro | specs=genderFit,cushioning,support,outsole,surfaceCompatibility,courtOutsole,lateralStability,courtFeel,durability | img=/images/catalog/fallbacks/shoe.svg",
+        "p prod-babolat-jet-premura-2-men | Babolat | Babolat Jet Premura 2 | specs=genderFit,cushioning,support,outsole,surfaceCompatibility,courtOutsole,tractionPattern,lateralStability,courtFeel,durability,upper | img=/images/padel/products/babolat-jet-premura-2-hero.jpg",
+        "d prod-tecnifibre-t-fight-padel | Tecnifibre Padel | Tecnifibre Wall Shooter | specs=genderFit,cushioning,support,outsole,surfaceCompatibility,courtOutsole,lateralStability,courtFeel,durability | img=/images/catalog/fallbacks/shoe.svg",
+        "d prod-varlion-bourne-padel-shoe | Varlion | Varlion Bourne Padel | specs=genderFit,cushioning,support,outsole,surfaceCompatibility,courtOutsole,lateralStability,courtFeel,durability | img=/images/catalog/fallbacks/shoe.svg",
+        "d prod-lok-padel-one | Lok | LOK Padel One | specs=genderFit,cushioning,support,outsole,surfaceCompatibility,courtOutsole,lateralStability,courtFeel,durability | img=/images/catalog/fallbacks/shoe.svg",
+        "p prod-bullpadel-vertex-w | Bullpadel | Bullpadel Vertex-W | specs=genderFit,cushioning,support,outsole,surfaceCompatibility,courtOutsole,tractionPattern,lateralStability,courtFeel,durability,upper | img=/images/padel/products/bullpadel-vertex-w-hero.jpg"
+      ]
+    },
+    "cat-padel-balls": {
+      "n": 11,
+      "published": 2,
+      "draft": 9,
+      "authentic": 2,
+      "ids": [
+        "p prod-head-padel-pro-s | Head | HEAD Padel Pro S+ | specs=ballType,use,speed,pressurization,durability,packSize,officialApproval | img=/images/padel/products/head-padel-pro-s-hero.jpg",
+        "d prod-head-padel-pro-plus | Head | HEAD Padel Pro+ | specs=ballType,use,speed,pressurization,durability,packSize,officialApproval | img=/images/padel/products/balls.svg",
+        "d prod-head-padel-team | Head | HEAD Padel Team | specs=ballType,use,speed,pressurization,durability,packSize | img=/images/padel/products/balls.svg",
+        "d prod-head-padel-one | Head | HEAD Padel One | specs=ballType,use,speed,pressurization,durability,packSize | img=/images/padel/products/balls.svg",
+        "p prod-kuikma-pb-speed | Kuikma | Kuikma Padel Speed | specs=ballType,use,speed,pressurization,durability,packSize,officialApproval | img=/images/padel/products/kuikma-pb-speed-hero.jpg",
+        "d prod-kuikma-pb-control | Kuikma | Kuikma PB Control | specs=ballType,use,speed,pressurization,durability,packSize,officialApproval | img=/images/padel/products/balls.svg",
+        "d prod-kuikma-pb-club | Kuikma | Kuikma PB Club | specs=ballType,use,speed,pressurization,durability,packSize | img=/images/padel/products/balls.svg",
+        "d prod-wilson-padel-premier | Wilson | Wilson Padel Premier | specs=ballType,use,speed,pressurization,durability,packSize | img=/images/padel/products/balls.svg",
+        "d prod-bullpadel-premium-gold | Bullpadel | Bullpadel Premium Gold | specs=ballType,use,speed,pressurization,durability,packSize | img=/images/padel/products/balls.svg",
+        "d prod-adidas-aditour-padel | Adidas Padel | Adidas Aditour Padel Balls | specs=ballType,use,speed,pressurization,durability,packSize | img=/images/padel/products/balls.svg",
+        "d prod-babolat-court-padel-balls | Babolat | Babolat Court Padel Balls | specs=ballType,use,speed,pressurization,durability,packSize | img=/images/padel/products/balls.svg"
+      ]
+    },
+    "cat-padel-bags": {
+      "n": 13,
+      "published": 3,
+      "draft": 10,
+      "authentic": 3,
+      "ids": [
+        "d prod-nox-bag-10 | Nox | Nox Thermo Bag 10 | specs=form,capacity,racketCompartments,shoeCompartment,thermalProtection,carryStyle | img=/images/padel/products/bag.svg",
+        "p prod-nox-at10-team-bag | Nox | Nox AT10 Team Paletero | specs=form,capacity,racketCompartments,shoeCompartment,thermalProtection,dimensions,carryStyle | img=/images/padel/products/nox-at10-team-paletero-hero.jpg",
+        "p prod-babolat-rh-pro-padel | Babolat | Babolat RH Pro Padel | specs=form,capacity,racketCompartments,shoeCompartment,thermalProtection,dimensions,carryStyle | img=/images/padel/products/babolat-rh-pro-padel-hero.jpg",
+        "d prod-bullpadel-vertex-backpack | Bullpadel | Bullpadel Vertex Geo Backpack | specs=form,capacity,racketCompartments,shoeCompartment,thermalProtection,dimensions,carryStyle | img=/images/padel/products/bag.svg",
+        "p prod-tecnifibre-tour-endurance-backpack | Tecnifibre Padel | Tecnifibre Tour Endurance Padel Backpack | specs=form,capacity,racketCompartments,shoeCompartment,thermalProtection,carryStyle | img=/images/padel/products/tecnifibre-wall-shooter-hero.jpg",
+        "d prod-babolat-court-backpack | Babolat | Babolat Court Padel Backpack | specs=form,capacity,racketCompartments,shoeCompartment,thermalProtection,carryStyle | img=/images/padel/products/bag.svg",
+        "d prod-adidas-protour-padel | Adidas Padel | Adidas Protour 3.4 Padel Bag | specs=form,capacity,racketCompartments,shoeCompartment,thermalProtection,carryStyle | img=/images/padel/products/bag.svg",
+        "d prod-head-tour-team-padel | Head | HEAD Tour Team Padel Bag | specs=form,capacity,racketCompartments,shoeCompartment,thermalProtection,carryStyle | img=/images/padel/products/bag.svg",
+        "d prod-head-elite-backpack | Head | HEAD Elite Padel Backpack | specs=form,capacity,racketCompartments,shoeCompartment,thermalProtection,carryStyle | img=/images/padel/products/bag.svg",
+        "d prod-wilson-super-tour-padel | Wilson | Wilson Super Tour Padel Bag | specs=form,capacity,racketCompartments,shoeCompartment,thermalProtection,carryStyle | img=/images/padel/products/bag.svg",
+        "d prod-kuikma-paletero | Kuikma | Kuikma Padel Paletero | specs=form,capacity,racketCompartments,shoeCompartment,thermalProtection,carryStyle | img=/images/padel/products/bag.svg",
+        "d prod-nox-pro-series-bag | Nox | Nox Pro Series Padel Bag | specs=form,capacity,racketCompartments,shoeCompartment,thermalProtection,carryStyle | img=/images/padel/products/bag.svg",
+        "d prod-siux-paletero | Siux | Siux Padel Paletero | specs=form,capacity,racketCompartments,shoeCompartment,thermalProtection,carryStyle | img=/images/padel/products/bag.svg"
+      ]
+    },
+    "cat-padel-grips": {
+      "n": 10,
+      "published": 2,
+      "draft": 8,
+      "authentic": 2,
+      "ids": [
+        "p prod-wilson-overgrip | Wilson | Wilson Pro Padel Overgrip 3-Pack | specs=gripType,thickness,tack,absorption,feel,packQuantity | img=/images/fitness/products/wilson-overgrip-hero.jpg",
+        "p prod-bullpadel-gb1200 | Bullpadel | Bullpadel HaC Overgrip 3-Pack | specs=gripType,thickness,tack,absorption,feel,packQuantity | img=/images/padel/products/bullpadel-hac-overgrip-hero.jpg",
+        "d prod-nox-pro-overgrip | Nox | Nox Pro Overgrip | specs=gripType,thickness,tack,absorption,feel,packQuantity | img=/images/padel/products/grips.svg",
+        "d prod-head-xtreme-soft | Head | HEAD Xtreme Soft Overgrip | specs=gripType,thickness,tack,absorption,feel,packQuantity | img=/images/padel/products/grips.svg",
+        "d prod-babolat-pro-response | Babolat | Babolat Pro Response Overgrip | specs=gripType,thickness,tack,absorption,feel,packQuantity | img=/images/padel/products/grips.svg",
+        "d prod-kuikma-overgrip | Kuikma | Kuikma Padel Overgrip | specs=gripType,thickness,tack,absorption,feel,packQuantity | img=/images/padel/products/grips.svg",
+        "d prod-head-hydrosorb | Head | HEAD Hydrosorb Replacement Grip | specs=gripType,thickness,tack,absorption,feel,packQuantity | img=/images/padel/products/grips.svg",
+        "d prod-babolat-syntec-pro | Babolat | Babolat Syntec Pro Replacement Grip | specs=gripType,thickness,tack,absorption,feel,packQuantity | img=/images/padel/products/grips.svg",
+        "d prod-hesacore-padel | Hesacore | Hesacore Padel Grip | specs=gripType,thickness,tack,absorption,feel,packQuantity | img=/images/padel/products/grips.svg",
+        "d prod-adidas-padel-overgrip | Adidas Padel | Adidas Padel Overgrip | specs=gripType,thickness,tack,absorption,feel,packQuantity | img=/images/padel/products/grips.svg"
+      ]
+    },
+    "cat-padel-clothing": {
+      "n": 0,
+      "published": 0,
+      "draft": 0,
+      "authentic": 0,
+      "ids": []
+    },
+    "cat-padel-accessories": {
+      "n": 9,
+      "published": 0,
+      "draft": 9,
+      "authentic": 0,
+      "ids": [
+        "d prod-bullpadel-frame-protector | Bullpadel | Bullpadel Frame Protector 3-Pack | specs=type | img=/images/catalog/fallbacks/accessory.svg",
+        "d prod-nox-frame-protector | Nox | Nox Transparent Frame Protector | specs=type | img=/images/catalog/fallbacks/accessory.svg",
+        "d prod-bullpadel-pascal-box | Bullpadel | Bullpadel Pascal Box 3B | specs=type | img=/images/catalog/fallbacks/accessory.svg",
+        "d prod-head-x3-pressurizer | Head | HEAD X3 Ball Pressurizer | specs=type | img=/images/catalog/fallbacks/accessory.svg",
+        "d prod-head-wristband | Head | HEAD Padel Wristband | specs=type | img=/images/catalog/fallbacks/accessory.svg",
+        "d prod-wilson-wristband | Wilson | Wilson Padel Wristband | specs=type | img=/images/catalog/fallbacks/accessory.svg",
+        "d prod-nox-wristband | Nox | Nox Padel Wristband | specs=type | img=/images/catalog/fallbacks/accessory.svg",
+        "d prod-bullpadel-wristband | Bullpadel | Bullpadel Padel Wristband | specs=type | img=/images/catalog/fallbacks/accessory.svg",
+        "d prod-head-smartsorb | Head | HEAD Smartsorb | specs=type | img=/images/catalog/fallbacks/accessory.svg"
+      ]
+    }
+  },
+  "tennisOrRunningWithPadelSport": []
+}

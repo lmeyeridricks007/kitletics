@@ -33,7 +33,7 @@ export const CATEGORY_SPEC_POLICY: Record<string, CategorySpecPolicy> = {
   "cat-lifting-accessories": "minimal",
 
   // Empty / merchandising-only categories — explicitly non-spec
-  "cat-padel-accessories": "none",
+  "cat-padel-accessories": "minimal",
   "cat-padel-clothing": "none",
 };
 

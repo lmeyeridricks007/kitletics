@@ -28,7 +28,7 @@ export const TOOLS_HUB_ENRICHMENT: Record<string, ToolHubEnrichment> = {
     estimatedTimeMinutes: 2,
     hubImageSrc: "/images/padel/products/racket-1.png",
     shortDescription:
-      "Match padel rackets to level, style and control vs power preference.",
+      "Adaptive padel racket matches with clear reasons — best match plus control, power, comfort and value alternatives.",
     hubSection: "find",
   },
   "home-gym-builder": {

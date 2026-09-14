@@ -16,6 +16,9 @@ import {
 import { isReportOrJunkVoice } from "@/lib/review/review-voice";
 import { isConsumerEditorialReady } from "@/lib/review/consumer-copy-quality";
 import { skipSentenceFromLimitation } from "@/lib/review/rewrite-uniqueness-era-skip";
+import { isPadelReviewCategory } from "@/lib/review/padel-review-outline";
+import { padelTopicBuyerFocus } from "@/lib/review/padel-longform";
+import { formatPublicSpecKey } from "@/lib/specs/public-label";
 
 const THIN_PATTERNS =
   /evaluated from verified specs|where independent wear|Documented compromise:|Catalog strengths relevant|stands out in-catalog for|earns consideration when you specifically want:|Documented ride markers|Catalog fit markers|Verified cushioning context|Upper construction markers|Key tech markers|Traction context|Documented strengths|catalogued with|Published measurements and design markers|primary job \(|Outside that brief|inferred from geometry|research-informed guidance|Kitletics frames performance|Standout catalog points|Contextual factor score|Matched recommendation context|assessed from verified specifications/i;
@@ -69,6 +72,21 @@ const SEED_LED_TOPICS = new Set<LongformTopic>([
   "cushioning",
   "stability",
   "durability",
+  "construction",
+  "shape",
+  "power",
+  "control",
+  "sweetspot",
+  "maneuverability",
+  "comfort",
+  "spin",
+  "defense",
+  "net",
+  "attack",
+  "serve",
+  "traction",
+  "courtFeel",
+  "support",
 ]);
 
 function isKeepableEditorialSeed(body: string, topic: LongformTopic): boolean {
@@ -156,7 +174,10 @@ export function enrichReviewSectionBodies(
   product: Product,
   brand?: Brand,
 ): ContentSection[] {
-  if (isConsumerEditorialReady(review) || isUniqueExpertResearchBody(review)) {
+  if (
+    !isPadelReviewCategory(product.categoryId) &&
+    (isConsumerEditorialReady(review) || isUniqueExpertResearchBody(review))
+  ) {
     return ensureCanonicalSections(review, product).map((section) => ({
       ...section,
       body: finalizeSectionBody(section.body),
@@ -394,17 +415,21 @@ function joinUniqueParas(...chunks: Array<string | undefined>): string {
 
 function deepenCloser(
   topic: LongformTopic,
-  product: { fullName: string },
+  product: { fullName: string; categoryId?: string },
   pass: number,
 ): string {
   const name = product.fullName;
+  const focus =
+    product.categoryId && isPadelReviewCategory(product.categoryId)
+      ? padelTopicBuyerFocus(topic)
+      : formatPublicSpecKey(topic);
   if (pass <= 1) {
-    return `For this ${topic} read on the ${name}, keep the weekly-session filter in view before you chase extras.`;
+    return `On the ${name}, keep ${focus} in view before you chase extras.`;
   }
   if (pass === 2) {
-    return `Pass ${pass} check for ${name}: if this ${topic} section does not change a real session decision, skim the alternatives instead of re-reading specs.`;
+    return `If this section on the ${name} does not change a real session decision, skim the alternatives instead of re-reading specs.`;
   }
-  return `Final ${topic} note on the ${name}: buy for the job you will repeat, not for a one-off edge case.`;
+  return `Final note on the ${name}: buy for the job you will repeat, not for a one-off edge case.`;
 }
 
 export function enrichReviewSummary(

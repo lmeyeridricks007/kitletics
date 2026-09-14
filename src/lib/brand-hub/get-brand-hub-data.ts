@@ -509,8 +509,26 @@ export function getBrandHubPageData(input: {
 
   const pillars = editorial.pillars;
 
-  const allProductsHref =
-    featuredProducts.length > 0 && config.featuredCategoryId
+  const padelProductCount = products.filter((p) =>
+    p.categoryId.startsWith("cat-padel"),
+  ).length;
+  const isPadelMajority = padelProductCount > products.length / 2;
+  const isPadelFeatured =
+    Boolean(config.featuredCategoryId?.startsWith("cat-padel"));
+  const preferPadelHub = isPadelMajority || isPadelFeatured;
+
+  const preferredPadelCategoryId =
+    config.featuredCategoryId?.startsWith("cat-padel")
+      ? config.featuredCategoryId
+      : [...byCat.entries()]
+          .filter(([categoryId]) => categoryId.startsWith("cat-padel"))
+          .sort((a, b) => b[1].length - a[1].length)[0]?.[0];
+
+  const allProductsHref = preferPadelHub
+    ? preferredPadelCategoryId
+      ? categoryHref(preferredPadelCategoryId, brand.slug, options)
+      : `/search?q=${encodeURIComponent(brand.name)}`
+    : featuredProducts.length > 0 && config.featuredCategoryId
       ? categoryHref(config.featuredCategoryId, brand.slug, options)
       : `/search?q=${encodeURIComponent(brand.name)}`;
 
@@ -524,7 +542,9 @@ export function getBrandHubPageData(input: {
     (p) => p.categoryId === "cat-running-shoes",
   );
   const fitChips =
-    runningShoeProducts.length >= 2 && audienceSet.size > 0
+    !preferPadelHub &&
+    runningShoeProducts.length >= 2 &&
+    audienceSet.size > 0
       ? [
           {
             label: "All sizing",

@@ -15,7 +15,9 @@ const CONSUMER_SPEC_LABELS: Record<string, string> = {
   rideCharacter: "ride character",
   energyReturn: "energy return",
   plateMaterial: "plate material",
-  widthOptions: "width options",
+  widthOptions: "available widths",
+  weightMin: "minimum weight",
+  weightMax: "maximum weight",
   archSupport: "arch support",
   intendedJob: "intended job",
   skuSlug: "model",
@@ -24,6 +26,125 @@ const CONSUMER_SPEC_LABELS: Record<string, string> = {
   batteryLifeHours: "battery life",
   batteryLife: "battery life",
   displayType: "display",
+  balanceType: "balance",
+  balance: "balance",
+  surfaceMaterial: "face material",
+  faceMaterial: "face material",
+  frameMaterial: "frame",
+  frame: "frame",
+  coreType: "core",
+  core: "core",
+  playerLevel: "player level",
+  playStyle: "play style",
+  courtSurface: "court surface",
+  shapeType: "shape",
+  shape: "shape",
+  sweetSpot: "sweet spot",
+  powerScore: "power score",
+  controlScore: "control score",
+  maneuverabilityScore: "maneuverability score",
+  comfortScore: "comfort score",
+  // Padel soft goods — spoken labels (defs also supply display labels)
+  ballType: "ball type",
+  ballPositioning: "ball positioning",
+  pressurization: "pressurization",
+  packSize: "pack size",
+  ballsPerCan: "balls per can",
+  cansPerBox: "cans per box",
+  feltMaterial: "felt",
+  coreMaterial: "core",
+  bounceSpec: "bounce spec",
+  intendedConditions: "intended conditions",
+  manufacturerPositioning: "manufacturer positioning",
+  freshnessStatus: "market status",
+  racketCompartments: "racket capacity",
+  racketCapacity: "racket capacity",
+  thermalCompartments: "thermal compartments",
+  thermalProtection: "thermal protection",
+  thermalRacketCompartment: "thermal racket compartment",
+  shoeCompartment: "shoe storage",
+  wetCompartment: "wet compartment",
+  accessoryPockets: "accessory pockets",
+  laptopCompartment: "laptop compartment",
+  bottleStorage: "bottle storage",
+  carryStyle: "carry style",
+  carrySystem: "carry system",
+  backpackStraps: "backpack straps",
+  colorVariants: "color variants",
+  waterResistance: "water resistance",
+  gripType: "grip type",
+  packQuantity: "pack size",
+  perforated: "perforated",
+  installationMethod: "installation method",
+  handleThicknessEffect: "handle thickness effect",
+  claimedBenefits: "manufacturer claims",
+  capacityBalls: "ball capacity",
+  pressureSystem: "pressure system",
+  manualOrElectric: "manual or electric",
+  pressureRange: "pressure range",
+  powerSource: "power source",
+  transparentOrColored: "finish",
+  weightGrams: "weight",
+  frame_tape: "frame tape",
+  training_aid: "training aid",
+  grip_system: "grip system",
+  ball_basket: "ball basket",
+  customization_weight: "customization weight",
+  compatibility: "compatibility",
+  capacity: "capacity",
+  volume: "volume",
+  dimensions: "dimensions",
+  collection: "collection",
+  materials: "materials",
+  thickness: "thickness",
+  tack: "tack",
+  absorption: "absorption",
+  form: "bag type",
+  type: "type",
+  generation: "generation",
+  length: "length",
+  finish: "finish",
+  closure: "closure",
+  genderFit: "fit",
+  // Accessory type enum values (stored under specifications.type)
+  protector: "frame protector",
+  pressurizer: "ball pressurizer",
+  wristband: "wristband",
+  sweatband: "sweatband",
+  maintenance: "maintenance accessory",
+  other: "accessory",
+  training: "training aid",
+  "apparel-accessory": "apparel accessory",
+  accessory: "accessory",
+};
+
+const DISPLAY_LABEL_OVERRIDES: Record<string, string> = {
+  widthOptions: "Available widths",
+  weightMin: "Minimum weight",
+  weightMax: "Maximum weight",
+  frameMaterial: "Frame material",
+  faceMaterial: "Face material",
+  surfaceMaterial: "Face material",
+  racketCapacity: "Racket capacity",
+  racketCompartments: "Racket capacity",
+  thermalCompartments: "Thermal compartments",
+  thermalProtection: "Thermal protection",
+  thermalRacketCompartment: "Thermal racket compartment",
+  shoeCompartment: "Shoe compartment",
+  wetCompartment: "Wet compartment",
+  accessoryPockets: "Accessory pockets",
+  laptopCompartment: "Laptop compartment",
+  bottleStorage: "Bottle storage",
+  carrySystem: "Carry system",
+  backpackStraps: "Backpack straps",
+  capacityBalls: "Ball capacity",
+  pressureRange: "Pressure range",
+  packQuantity: "Pack size",
+  surfaceCompatibility: "Surface compatibility",
+  courtOutsole: "Court outsole",
+  gripType: "Grip type",
+  ballType: "Ball type",
+  genderFit: "Fit",
 };
 
 const LABEL_BY_KEY = new Map<string, string>();
@@ -57,6 +178,8 @@ export function formatPublicSpecKey(key: string): string {
 
 /** Spec-table / card label. Never the raw camelCase schema key. */
 export function formatPublicSpecDisplayLabel(key: string): string {
+  const displayOverride = DISPLAY_LABEL_OVERRIDES[key];
+  if (displayOverride) return displayOverride;
   const overlay = CONSUMER_SPEC_LABELS[key];
   if (overlay) return titleCaseLabel(overlay);
   const fromDef = LABEL_BY_KEY.get(key);
@@ -64,18 +187,72 @@ export function formatPublicSpecDisplayLabel(key: string): string {
   return titleCaseLabel(humanizeCamelCase(key));
 }
 
-/** "heel stack 41.5" — never `heelStack 41.5`. */
+/** "heel stack 41.5" — never `heelStack 41.5` or `type customization_weight`. */
 export function formatPublicSpecCue(
   key: string,
   value: string | number | boolean,
 ): string {
   const label = formatPublicSpecKey(key);
   if (typeof value === "boolean") return value ? label : `${label} no`;
+  if (typeof value === "string") {
+    return `${label} ${formatPublicSpecValueToken(value)}`;
+  }
   return `${label} ${value}`;
 }
 
+/** Speak enum / schema tokens used as specification values. */
+export function formatPublicSpecValueToken(value: string): string {
+  const trimmed = value.trim();
+  if (!trimmed) return trimmed;
+  if (trimmed.includes("_") || /^[a-z]+[A-Z]/.test(trimmed)) {
+    return formatPublicSpecKey(trimmed);
+  }
+  if (trimmed.includes("-")) {
+    return trimmed
+      .split("-")
+      .map((p) => p.toLowerCase())
+      .join(" ");
+  }
+  return trimmed;
+}
+
+/**
+ * Spoken noun for accessory `specifications.type` enum values in PDP prose.
+ * Prefer shopper language over enum formatting alone.
+ */
+export function formatPublicAccessoryTypeNoun(type: string): string {
+  const normalized = type.trim().toLowerCase().replace(/\s+/g, "_");
+  const contextual: Record<string, string> = {
+    customization_weight: "racket balance-adjustment accessory",
+    protector: "frame-protection accessory",
+    pressurizer: "ball-pressurizer accessory",
+    frame_tape: "frame-tape accessory",
+    training_aid: "training accessory",
+    grip_system: "grip-system accessory",
+    ball_basket: "ball-basket accessory",
+    wristband: "wristband",
+    sweatband: "sweatband",
+    maintenance: "maintenance accessory",
+    other: "padel accessory",
+    accessory: "padel accessory",
+    "apparel-accessory": "apparel accessory",
+    training: "training accessory",
+  };
+  if (contextual[normalized]) return contextual[normalized];
+  const spoken = formatPublicSpecKey(normalized);
+  if (spoken === normalized) return "padel accessory";
+  return /accessory$/i.test(spoken) ? spoken : `${spoken} accessory`;
+}
+
+/** Stable public row id for tables/React keys — never raw camelCase schema keys. */
+export function publicSpecRowKey(key: string): string {
+  return formatPublicSpecKey(key).replace(/\s+/g, "-");
+}
+
 export function isRawPublicSpecKey(text: string): boolean {
-  return /\b(heelStack|forefootStack|cushionLevel|cushionFeel|rideCharacter|energyReturn|plateMaterial|widthOptions|archSupport|intendedJob|skuSlug|skuId)\b/.test(
+  // Detect camelCase / snake schema keys only — never flag spoken English labels
+  // like "compatibility" or "balance" that are valid public copy.
+  return /\b(?:heelStack|forefootStack|cushionLevel|cushionFeel|rideCharacter|energyReturn|plateMaterial|widthOptions|weightMin|weightMax|archSupport|intendedJob|skuSlug|skuId|shapeType|balanceType|coreType|frameMaterial|surfaceMaterial|faceMaterial|playerLevel|playStyle|courtSurface|sweetSpot|ballType|gripType|racketCapacity|racketCompartments|thermalCompartments|thermalProtection|thermalRacketCompartment|shoeCompartment|wetCompartment|accessoryPockets|laptopCompartment|bottleStorage|carryStyle|carrySystem|backpackStraps|packSize|ballsPerCan|cansPerBox|feltMaterial|coreMaterial|bounceSpec|freshnessStatus|officialApproval|manufacturerPositioning|surfaceCompatibility|courtOutsole|lateralStability|courtFeel|genderFit|capacityBalls|pressureSystem|manualOrElectric|pressureRange|powerSource|transparentOrColored|weightGrams|packQuantity|installationMethod|handleThicknessEffect|claimedBenefits|thicknessMm|surfaceTexture|faceCarbonWeave|manufacturerCoreName|tractionPattern|intendedConditions|waterResistance|[a-z]+_[a-z]+|[a-z][A-Za-z]*Score)\b/.test(
     text,
   );
 }

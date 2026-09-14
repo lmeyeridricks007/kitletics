@@ -1,6 +1,6 @@
 import type { BestGuide } from "@/domain/editorial/types";
 import { publishedMeta } from "@/content/config";
-import { padelBestGuides } from "@/content/padel/seed";
+import { padelBestGuides } from "@/content/padel/best-guides";
 import { fitnessBestGuides } from "@/content/fitness";
 import { racketBestGuides } from "@/content/racket";
 import { runningBestGuides } from "@/content/running/best-guides";

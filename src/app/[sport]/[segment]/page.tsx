@@ -27,6 +27,10 @@ import {
   hasNonCanonicalQueryState,
   NOINDEX_FOLLOW,
 } from "@/lib/seo/query-state";
+import {
+  getLaunchEligibility,
+  isIndexableEligibility,
+} from "@/domain/launch";
 
 
 /** Request-time / heavy catalog pages — skip SSG to keep builds healthy. */
@@ -63,6 +67,12 @@ export async function generateMetadata({
   const sp = await searchParams;
   const sport = getSportBySlug(sportSlug);
   if (!sport) return { title: "Not found" };
+  const sportIndexable = isIndexableEligibility(
+    getLaunchEligibility(
+      { kind: "sport", entity: sport },
+      { isDev: false },
+    ),
+  );
 
   const discipline = getDisciplineBySlug(sportSlug, segment);
   if (discipline) {
@@ -90,7 +100,10 @@ export async function generateMetadata({
       alternates: {
         canonical: `${siteConfig.url}/${sportSlug}/${segment}`,
       },
-      robots: hasNonCanonicalQueryState(sp) ? NOINDEX_FOLLOW : undefined,
+      robots:
+        hasNonCanonicalQueryState(sp) || !sportIndexable
+          ? NOINDEX_FOLLOW
+          : undefined,
     };
   }
 
@@ -116,7 +129,8 @@ export async function generateMetadata({
       alternates: {
         canonical: `${siteConfig.url}/${sport.slug}/${category.pathSegment}`,
       },
-      robots: queryBlocked ? NOINDEX_FOLLOW : undefined,
+      robots:
+        queryBlocked || !sportIndexable ? NOINDEX_FOLLOW : undefined,
       openGraph: {
         title: "Running Shoes: Compare Trainers, Race & Trail Shoes",
         description:
@@ -134,7 +148,9 @@ export async function generateMetadata({
       canonical: `${siteConfig.url}${canonicalHref}`,
     },
     robots:
-      queryBlocked || nonCanonicalShell || softGated ? NOINDEX_FOLLOW : undefined,
+      queryBlocked || nonCanonicalShell || softGated || !sportIndexable
+        ? NOINDEX_FOLLOW
+        : undefined,
     openGraph: {
       title,
       description,

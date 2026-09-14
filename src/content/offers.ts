@@ -31,7 +31,7 @@ export const offers: Offer[] = [
   o({ id: "offer-nb5-nl", productId: "prod-novablast-5", retailerId: "ret-asics-direct", region: "NL", url: "https://www.asics.com/nl/nl-nl/", currency: "EUR", price: 130, originalPrice: 150, availability: "in-stock", lastChecked: checked }),
   o({ id: "offer-nb5-uk", productId: "prod-novablast-5", retailerId: "ret-amazon-uk", region: "UK", url: "https://www.amazon.co.uk/", currency: "GBP", price: 115, availability: "in-stock", lastChecked: checked }),
   o({ id: "offer-nb5-us", productId: "prod-novablast-5", retailerId: "ret-amazon-us", region: "US", url: "https://www.amazon.com/", currency: "USD", price: 130, availability: "in-stock", lastChecked: checked }),
-  o({ id: "offer-nb4-nl", productId: "prod-novablast-4", retailerId: "ret-decathlon", region: "NL", url: "https://www.decathlon.nl/", currency: "EUR", price: 99, originalPrice: 140, availability: "in-stock", lastChecked: checked }),
+  o({ id: "offer-nb4-nl", productId: "prod-novablast-4", retailerId: "ret-decathlon", region: "NL", url: "https://www.decathlon.nl/search?Ntt=asics+novablast+4", currency: "EUR", price: 99, originalPrice: 140, availability: "in-stock", lastChecked: checked }),
   o({ id: "offer-nimbus-nl", productId: "prod-nimbus-27", retailerId: "ret-asics-direct", region: "NL", url: "https://www.asics.com/nl/nl-nl/", currency: "EUR", price: 190, availability: "in-stock", lastChecked: checked }),
   o({ id: "offer-nimbus-uk", productId: "prod-nimbus-27", retailerId: "ret-amazon-uk", region: "UK", url: "https://www.amazon.co.uk/", currency: "GBP", price: 165, availability: "in-stock", lastChecked: checked }),
   o({ id: "offer-pegasus41-nl", productId: "prod-pegasus-41", retailerId: "ret-amazon-nl", region: "NL", url: "https://www.amazon.nl/", currency: "EUR", price: 120, originalPrice: 140, availability: "in-stock", lastChecked: checked }),
@@ -41,7 +41,7 @@ export const offers: Offer[] = [
   o({ id: "offer-boston-nl", productId: "prod-boston-12", retailerId: "ret-amazon-nl", region: "NL", url: "https://www.amazon.nl/", currency: "EUR", price: 160, availability: "in-stock", lastChecked: checked }),
   o({ id: "offer-boston-uk", productId: "prod-boston-12", retailerId: "ret-amazon-uk", region: "UK", url: "https://www.amazon.co.uk/", currency: "GBP", price: 140, availability: "in-stock", lastChecked: checked }),
   o({ id: "offer-boston-de", productId: "prod-boston-12", retailerId: "ret-amazon-de", region: "DE", url: "https://www.amazon.de/", currency: "EUR", price: 160, availability: "in-stock", lastChecked: checked }),
-  o({ id: "offer-fr965-nl", productId: "prod-forerunner-965", retailerId: "ret-garmin-direct", region: "NL", url: "https://www.garmin.com/", currency: "EUR", price: 549, originalPrice: 649, availability: "in-stock", lastChecked: checked }),
+  o({ id: "offer-fr965-nl", productId: "prod-forerunner-965", retailerId: "ret-garmin-direct", region: "NL", url: "https://www.garmin.com/nl-NL/", currency: "EUR", price: 549, originalPrice: 649, availability: "in-stock", lastChecked: checked }),
   o({ id: "offer-fr255-nl", productId: "prod-forerunner-255", retailerId: "ret-garmin-direct", region: "NL", url: "https://www.garmin.com/", currency: "EUR", price: 349, availability: "in-stock", lastChecked: checked }),
   o({ id: "offer-pace3-nl", productId: "prod-coros-pace-3", retailerId: "ret-amazon-nl", region: "NL", url: "https://www.amazon.nl/", currency: "EUR", price: 229, originalPrice: 249, availability: "in-stock", lastChecked: checked }),
   o({ id: "offer-hrm-nl", productId: "prod-hrm-pro-plus", retailerId: "ret-garmin-direct", region: "NL", url: "https://www.garmin.com/", currency: "EUR", price: 139, availability: "in-stock", lastChecked: checked }),
@@ -50,7 +50,7 @@ export const offers: Offer[] = [
 
   // Wave2 flagships — NL primary region
   o({ id: "offer-nb6-nl-asics", productId: "prod-novablast-6", retailerId: "ret-asics-direct", region: "NL", url: "https://www.asics.com/nl/nl-nl/", currency: "EUR", price: 160, availability: "in-stock", lastChecked: checked }),
-  o({ id: "offer-nb6-nl-a4r", productId: "prod-novablast-6", retailerId: "ret-all4running", region: "NL", url: "https://www.all4running.nl/", currency: "EUR", price: 154, availability: "in-stock", shipping: "From €4.95", shippingCost: 4.95, lastChecked: checked }),
+  o({ id: "offer-nb6-nl-a4r", productId: "prod-novablast-6", retailerId: "ret-all4running", region: "NL", url: "https://www.all4running.nl/hardloopschoenen/asics/asics-novablast", currency: "EUR", price: 154, availability: "in-stock", shipping: "From €4.95", shippingCost: 4.95, lastChecked: checked }),
   o({ id: "offer-nb6-nl-amz", productId: "prod-novablast-6", retailerId: "ret-amazon-nl", region: "NL", url: "https://www.amazon.nl/", currency: "EUR", price: 159, availability: "in-stock", lastChecked: checked }),
   o({ id: "offer-nb6-de", productId: "prod-novablast-6", retailerId: "ret-amazon-de", region: "DE", url: "https://www.amazon.de/", currency: "EUR", price: 159, availability: "in-stock", lastChecked: checked }),
   o({ id: "offer-nb6-uk", productId: "prod-novablast-6", retailerId: "ret-amazon-uk", region: "UK", url: "https://www.amazon.co.uk/", currency: "GBP", price: 140, availability: "in-stock", lastChecked: checked }),
@@ -73,7 +73,7 @@ export const offers: Offer[] = [
   o({ id: "offer-speed5-nl-amz", productId: "prod-endorphin-speed-5", retailerId: "ret-amazon-nl", region: "NL", url: "https://www.amazon.nl/", currency: "EUR", price: 175, availability: "in-stock", lastChecked: checked }),
 
   o({ id: "offer-vf4-nl", productId: "prod-vaporfly-4", retailerId: "ret-amazon-nl", region: "NL", url: "https://www.amazon.nl/", currency: "EUR", price: 250, availability: "in-stock", lastChecked: checked }),
-  o({ id: "offer-vf4-nl-a4r", productId: "prod-vaporfly-4", retailerId: "ret-all4running", region: "NL", url: "https://www.all4running.nl/", currency: "EUR", price: 245, availability: "in-stock", lastChecked: checked }),
+  o({ id: "offer-vf4-nl-a4r", productId: "prod-vaporfly-4", retailerId: "ret-all4running", region: "NL", url: "https://www.all4running.nl/hardloopschoenen/nike/nike-vaporfly", currency: "EUR", price: 245, availability: "in-stock", lastChecked: checked }),
   o({ id: "offer-alphafly3-nl", productId: "prod-alphafly-3", retailerId: "ret-amazon-nl", region: "NL", url: "https://www.amazon.nl/", currency: "EUR", price: 300, availability: "in-stock", lastChecked: checked }),
 
   o({ id: "offer-kayano-nl", productId: "prod-kayano-32", retailerId: "ret-asics-direct", region: "NL", url: "https://www.asics.com/nl/nl-nl/", currency: "EUR", price: 190, availability: "in-stock", lastChecked: checked }),
@@ -90,7 +90,7 @@ export const offers: Offer[] = [
   o({ id: "offer-vaporair-nl", productId: "prod-nathan-vaporair-2", retailerId: "ret-runnersworld-nl", region: "NL", url: "https://www.runnersworldshop.nl/", currency: "EUR", price: 120, availability: "in-stock", lastChecked: checked }),
 
   // Explicit non-affiliate cheaper vs affiliate-pricier pair for independence tests
-  o({ id: "offer-nb6-nl-rws", productId: "prod-novablast-6", retailerId: "ret-runnersworld-nl", region: "NL", url: "https://www.runnersworldshop.nl/", currency: "EUR", price: 149, availability: "in-stock", lastChecked: checked }),
+  o({ id: "offer-nb6-nl-rws", productId: "prod-novablast-6", retailerId: "ret-runnersworld-nl", region: "NL", url: "https://www.runnersworldshop.nl/asics", currency: "EUR", price: 149, availability: "in-stock", lastChecked: checked }),
 
   ...padelAllOffers.map((p) =>
     o({

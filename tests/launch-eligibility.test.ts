@@ -132,7 +132,7 @@ describe("launch eligibility", () => {
     expect(shouldPromotePublicly(elig)).toBe(false);
   });
 
-  it("keeps running enabled and fitness/racket held for deep entities", () => {
+  it("indexes selective padel hub without opening other racket sports", () => {
     expect(
       verticalLaunchStrategy.sports.find((s) => s.slug === "running")?.mode,
     ).toBe("enabled");
@@ -141,7 +141,21 @@ describe("launch eligibility", () => {
     ).toBe("selective");
     expect(
       verticalLaunchStrategy.sports.find((s) => s.slug === "padel")?.mode,
-    ).toBe("disabled");
+    ).toBe("selective");
+
+    const padel = getSportBySlug("padel", PROD);
+    expect(padel).toBeTruthy();
+    expect(
+      getLaunchEligibility({ kind: "sport", entity: padel! }, PROD)
+        .disposition,
+    ).toBe("INDEXABLE");
+
+    const tennis = getSportBySlug("tennis", PROD);
+    expect(tennis).toBeTruthy();
+    expect(
+      getLaunchEligibility({ kind: "sport", entity: tennis! }, PROD)
+        .disposition,
+    ).toBe("PUBLIC_NOINDEX");
 
     const fitness = getSportBySlug("fitness", PROD);
     expect(fitness).toBeTruthy();
@@ -262,14 +276,23 @@ describe("launch eligibility", () => {
     );
   });
 
-  it("does not index held-vertical tools / finders", () => {
+  it("indexes allowed padel tools but keeps tennis tools held", () => {
     const tools = getTools(PROD);
     const padel = tools.find((t) => t.slug === "padel-racket-finder");
     const tennis = tools.find((t) => t.slug === "tennis-racket-finder");
-    for (const t of [padel, tennis].filter(Boolean)) {
-      const elig = getLaunchEligibility({ kind: "tool", entity: t! }, PROD);
-      expect(isIndexableEligibility(elig)).toBe(false);
-      expect(elig.reasons.some((r) => r.code === "vertical_hold")).toBe(true);
-    }
+    expect(padel).toBeTruthy();
+    expect(
+      getLaunchEligibility({ kind: "tool", entity: padel! }, PROD)
+        .disposition,
+    ).toBe("INDEXABLE");
+    expect(tennis).toBeTruthy();
+    const tennisElig = getLaunchEligibility(
+      { kind: "tool", entity: tennis! },
+      PROD,
+    );
+    expect(isIndexableEligibility(tennisElig)).toBe(false);
+    expect(tennisElig.reasons.some((r) => r.code === "vertical_hold")).toBe(
+      true,
+    );
   });
 });

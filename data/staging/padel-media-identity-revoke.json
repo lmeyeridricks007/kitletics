@@ -1,0 +1,657 @@
+{
+  "asOf": "2026-09-14",
+  "count": 72,
+  "kept": 157,
+  "ids": [
+    "prod-adidas-pro-bounce",
+    "prod-babolat-short",
+    "prod-drop-shot-tournament-speed-pro",
+    "prod-fila-premium",
+    "prod-siux-neo-speed",
+    "prod-tecnifibre-x-one",
+    "prod-sane-core",
+    "prod-4on-pro-t1",
+    "prod-kuikma-paletero",
+    "prod-siux-paletero",
+    "prod-adidas-metalbone-bag",
+    "prod-bullpadel-advance-bpp26014",
+    "prod-bullpadel-hack-bpm26002",
+    "prod-bullpadel-vertex-bpp26001",
+    "prod-bullpadel-vertex-geo-premier-bpm26008",
+    "prod-bullpadel-flow-bpp26006",
+    "prod-bullpadel-hack-bpp26012",
+    "prod-drop-shot-lcp",
+    "prod-joma-pro",
+    "prod-oxdog-cube",
+    "prod-oxdog-hyper-pro-thermo",
+    "prod-head-hydrosorb",
+    "prod-adidas-tacky-feeling",
+    "prod-babolat-pro-tour",
+    "prod-enebe-enebe-smooth",
+    "prod-head-prestige-pro",
+    "prod-head-padel-pro",
+    "prod-head-padel-pro-perforated",
+    "prod-hesacore-carbon",
+    "prod-joma-club-cushion",
+    "prod-nox-custom-grip",
+    "prod-shockout-shockout-overgrip",
+    "prod-siux-elite",
+    "prod-tecnifibre-contact-pro",
+    "prod-tourna-tourna-grip-original-xl",
+    "prod-tourna-mega-tac",
+    "prod-dunlop-tour-dry",
+    "prod-bullpadel-gb-1201-perforated",
+    "prod-osaka-osaka-overgrip",
+    "prod-noene-anti-shock-grip-padel",
+    "prod-noene-undergrip-anti-shock",
+    "prod-head-wristband",
+    "prod-nox-wristband",
+    "prod-bullpadel-wristband",
+    "prod-head-smartsorb",
+    "prod-adidas-adidas-protector",
+    "prod-adidas-adidas-wristband",
+    "prod-alacran-alacran-basket",
+    "prod-babolat-babolat-protector",
+    "prod-babolat-babolat-wristband",
+    "prod-black-crown-vibranium-transparent",
+    "prod-bullpadel-bpmu252-bpmu253",
+    "prod-bullpadel-bullpadel-headband",
+    "prod-bullpadel-metalshield",
+    "prod-head-pick-up-tube",
+    "prod-head-coaching-kit",
+    "prod-head-dome-cones",
+    "prod-nox-nox-color-pack",
+    "prod-pascal-box-compressor",
+    "prod-softee-softee-basket",
+    "prod-softee-cube-pro",
+    "prod-bounce-filtertech-padel",
+    "prod-varlion-summum-backpack",
+    "prod-wilson-bela-backpack",
+    "prod-adidas-weekend-bag-martita-ortega-2026",
+    "prod-osaka-sports-padel-bag",
+    "prod-osaka-sports-backpack",
+    "prod-wilson-wristband",
+    "prod-wilson-wilson-weight-tape",
+    "prod-alacran-wide-ancha",
+    "prod-hesacore-pink-w",
+    "prod-tuboplus-r3play"
+  ],
+  "rows": [
+    {
+      "productId": "prod-adidas-pro-bounce",
+      "slug": "adidas-pro-bounce",
+      "category": "balls",
+      "heroSrc": "/images/padel/balls/adidas-pro-bounce-hero.jpg",
+      "sourceUrl": "https://www.padelmq.com/products/next-pro-doos-24-tubes-72-ballen?_pos=1&_psq=adidas+Pro+Bounce&_psid=f2705646d&_ss=e",
+      "reasons": "source_foreign_model:tubes,ballen|source_pathname_identity_weak"
+    },
+    {
+      "productId": "prod-babolat-short",
+      "slug": "babolat-short",
+      "category": "balls",
+      "heroSrc": "/images/padel/balls/babolat-short-hero.jpg",
+      "sourceUrl": "https://www.padelmq.com/products/short-bullpadel-marace-groen?_pos=1&_psq=babolat+Short&_psid=bd202bbee&_ss=e",
+      "reasons": "source_other_brand:bullpadel"
+    },
+    {
+      "productId": "prod-drop-shot-tournament-speed-pro",
+      "slug": "drop-shot-tournament-speed-pro",
+      "category": "balls",
+      "heroSrc": "/images/padel/balls/drop-shot-tournament-speed-pro-hero.jpg",
+      "sourceUrl": "https://www.padelmq.com/products/head-speed-pro-2025?_pos=1&_psq=drop-shot+Tournament+Speed+Pro&_psid=a3a168ad4&_ss=e",
+      "reasons": "source_other_brand:head"
+    },
+    {
+      "productId": "prod-fila-premium",
+      "slug": "fila-premium",
+      "category": "balls",
+      "heroSrc": "/images/padel/balls/fila-premium-hero.jpg",
+      "sourceUrl": "https://www.padelmq.com/products/fila-logo-10-atm-horloge?_pos=1&_psq=fila+Premium&_psid=71939c6c5&_ss=e",
+      "reasons": "source_wrong_category|source_foreign_model:horloge|source_pathname_model_weak"
+    },
+    {
+      "productId": "prod-siux-neo-speed",
+      "slug": "siux-neo-speed",
+      "category": "balls",
+      "heroSrc": "/images/padel/balls/siux-neo-speed-hero.jpg",
+      "sourceUrl": "https://www.padelmq.com/products/siux-fenix-pro-black-2026-leo-augsburger?_pos=1&_psq=siux+Neo+Speed&_psid=de606ad75&_ss=e",
+      "reasons": "source_foreign_model:fenix,augsburger|source_pathname_model_weak"
+    },
+    {
+      "productId": "prod-tecnifibre-x-one",
+      "slug": "tecnifibre-x-one",
+      "category": "balls",
+      "heroSrc": "/images/padel/balls/tecnifibre-x-one-hero.jpg",
+      "sourceUrl": "https://www.padelmq.com/products/tecnifibre-bomba-speed-2026-padelracket?_pos=1&_psq=tecnifibre+X-One&_psid=20c9ae06d&_ss=e",
+      "reasons": "source_wrong_category|source_foreign_model:bomba,speed,padelracket|source_pathname_model_weak"
+    },
+    {
+      "productId": "prod-sane-core",
+      "slug": "sane-core",
+      "category": "balls",
+      "heroSrc": "/images/padel/balls/sane-core-hero.jpg",
+      "sourceUrl": "https://www.padelmq.com/products/hesacore-tour-grip-gel?_pos=1&_psq=sane+Core&_psid=51755b83e&_ss=e",
+      "reasons": "source_other_brand:hesacore"
+    },
+    {
+      "productId": "prod-4on-pro-t1",
+      "slug": "4on-pro-t1",
+      "category": "balls",
+      "heroSrc": "/images/padel/balls/4on-pro-t1-hero.jpg",
+      "sourceUrl": "https://www.padelmq.com/products/totalgrip-spray-200ml?_pos=1&_psq=4on+Pro+T1&_psid=8f39ecc56&_ss=e",
+      "reasons": "source_foreign_model:totalgrip,spray,200ml|source_pathname_identity_weak"
+    },
+    {
+      "productId": "prod-kuikma-paletero",
+      "slug": "kuikma-padel-paletero",
+      "category": "bags",
+      "heroSrc": "/images/padel/bags/kuikma-paletero-hero.jpg",
+      "sourceUrl": "https://www.padelmq.com/products/bullpadel-hack-padeltas-2025-paquito-navarro?_pos=1&_psq=kuikma+Kuikma+Paletero&_psid=daedcc881&_ss=e",
+      "reasons": "source_other_brand:bullpadel|source_foreign_model:bullpadel,padeltas,paquito|source_pathname_identity_weak"
+    },
+    {
+      "productId": "prod-siux-paletero",
+      "slug": "siux-padel-paletero",
+      "category": "bags",
+      "heroSrc": "/images/padel/bags/siux-paletero-hero.jpg",
+      "sourceUrl": "https://www.padelmq.com/products/siux-pro-tour-blauwe-padeltas?_pos=1&_psq=siux+Siux+Paletero&_psid=8948e986b&_ss=e",
+      "reasons": "source_foreign_model:blauwe,padeltas|source_pathname_model_weak"
+    },
+    {
+      "productId": "prod-adidas-metalbone-bag",
+      "slug": "adidas-metalbone-bag",
+      "category": "bags",
+      "heroSrc": "/images/padel/bags/adidas-metalbone-bag-hero.jpg",
+      "sourceUrl": "https://www.padelmq.com/products/adidas-metalbone-3-5-2026?_pos=1&_psq=adidas+Metalbone+Bag&_psid=6a094c8bc&_ss=e",
+      "reasons": "source_looks_like_racket_not_bag"
+    },
+    {
+      "productId": "prod-bullpadel-advance-bpp26014",
+      "slug": "bullpadel-advance-bpp26014",
+      "category": "bags",
+      "heroSrc": "/images/padel/bags/bullpadel-advance-bpp26014-hero.jpg",
+      "sourceUrl": "https://www.padelmq.com/products/bullpadel-hack-advance-2026?_pos=1&_psq=bullpadel+Advance+BPP26014&_psid=59596fd01&_ss=e",
+      "reasons": "source_looks_like_racket_not_bag"
+    },
+    {
+      "productId": "prod-bullpadel-hack-bpm26002",
+      "slug": "bullpadel-hack-bpm26002",
+      "category": "bags",
+      "heroSrc": "/images/padel/bags/bullpadel-hack-bpm26002-hero.jpg",
+      "sourceUrl": "https://www.padelmq.com/products/bullpadel-hack-04-hybrid-2026?_pos=1&_psq=bullpadel+Hack+BPM26002&_psid=eb324fd34&_ss=e",
+      "reasons": "source_looks_like_racket_not_bag"
+    },
+    {
+      "productId": "prod-bullpadel-vertex-bpp26001",
+      "slug": "bullpadel-vertex-bpp26001",
+      "category": "bags",
+      "heroSrc": "/images/padel/bags/bullpadel-vertex-bpp26001-hero.jpg",
+      "sourceUrl": "https://www.padelmq.com/products/bullpadel-vertex-vibram-26v-schoenen-blauw?_pos=1&_psq=bullpadel+Vertex+BPP26001&_psid=09c74c56e&_ss=e",
+      "reasons": "source_looks_like_racket_not_bag"
+    },
+    {
+      "productId": "prod-bullpadel-vertex-geo-premier-bpm26008",
+      "slug": "bullpadel-vertex-geo-premier-bpm26008",
+      "category": "bags",
+      "heroSrc": "/images/padel/bags/bullpadel-vertex-geo-premier-bpm26008-hero.jpg",
+      "sourceUrl": "https://www.padelmq.com/products/bullpadel-vertex-05-geo-premier-2026?_pos=1&_psq=bullpadel+Vertex+Geo+Premier+BPM26008&_psid=25fc1133d&_ss=e",
+      "reasons": "source_looks_like_racket_not_bag"
+    },
+    {
+      "productId": "prod-bullpadel-flow-bpp26006",
+      "slug": "bullpadel-flow-bpp26006",
+      "category": "bags",
+      "heroSrc": "/images/padel/bags/bullpadel-flow-bpp26006-hero.jpg",
+      "sourceUrl": "https://www.padelmq.com/products/bullpadel-bp266-hueso-lila-pomelo-sokken-3-paar?_pos=1&_psq=bullpadel+Flow+BPP26006&_psid=98f642bc1&_ss=e",
+      "reasons": "source_wrong_category|source_foreign_model:bp266,hueso,pomelo|source_pathname_model_weak"
+    },
+    {
+      "productId": "prod-bullpadel-hack-bpp26012",
+      "slug": "bullpadel-hack-bpp26012",
+      "category": "bags",
+      "heroSrc": "/images/padel/bags/bullpadel-hack-bpp26012-hero.jpg",
+      "sourceUrl": "https://www.padelmq.com/products/bullpadel-hack-04-2026?_pos=1&_psq=bullpadel+Hack+BPP26012&_psid=033d27217&_ss=e",
+      "reasons": "source_looks_like_racket_not_bag"
+    },
+    {
+      "productId": "prod-drop-shot-lcp",
+      "slug": "drop-shot-lcp",
+      "category": "bags",
+      "heroSrc": "/images/padel/bags/drop-shot-lcp-hero.jpg",
+      "sourceUrl": "https://www.padelmq.com/products/drop-shot-lucas-campagnolo-explorer-pro-control-1-0-2025?_pos=1&_psq=drop-shot+LCP&_psid=712be4aae&_ss=e",
+      "reasons": "source_looks_like_racket_not_bag"
+    },
+    {
+      "productId": "prod-joma-pro",
+      "slug": "joma-pro",
+      "category": "bags",
+      "heroSrc": "/images/padel/bags/joma-pro-hero.jpg",
+      "sourceUrl": "https://www.padelmq.com/products/joma-hyper-pro-hrd-padelracket?_pos=1&_psq=joma+Pro&_psid=0ead0acd5&_ss=e",
+      "reasons": "source_wrong_category"
+    },
+    {
+      "productId": "prod-oxdog-cube",
+      "slug": "oxdog-cube",
+      "category": "bags",
+      "heroSrc": "/images/padel/bags/oxdog-cube-hero.jpg",
+      "sourceUrl": "https://www.padelmq.com/products/ultimate-court?_pos=1&_psq=oxdog+Cube&_psid=3dfd4c0ec&_ss=e",
+      "reasons": "source_foreign_model:ultimate,court|source_pathname_identity_weak"
+    },
+    {
+      "productId": "prod-oxdog-hyper-pro-thermo",
+      "slug": "oxdog-hyper-pro-thermo",
+      "category": "bags",
+      "heroSrc": "/images/padel/bags/oxdog-hyper-pro-thermo-hero.jpg",
+      "sourceUrl": "https://www.tradeinn.com/smashinn/en/oxdog-hyper-pro-thermo-padel-racket-bag/140678829/p",
+      "reasons": "source_other_brand:nox"
+    },
+    {
+      "productId": "prod-head-hydrosorb",
+      "slug": "head-hydrosorb-replacement-grip",
+      "category": "grips",
+      "heroSrc": "/images/padel/grips/head-hydrosorb-hero.jpg",
+      "sourceUrl": "https://www.padelmq.com/products/head-coello-motion-2025?_pos=1&_psq=head+Hydrosorb&_psid=ef21a1027&_ss=e",
+      "reasons": "source_foreign_model:coello,motion|source_pathname_model_weak"
+    },
+    {
+      "productId": "prod-adidas-tacky-feeling",
+      "slug": "adidas-tacky-feeling",
+      "category": "grips",
+      "heroSrc": "/images/padel/grips/adidas-tacky-feeling-hero.jpg",
+      "sourceUrl": "https://padellifeshop.com/product/adidas-overgrip-perforated-x3-white/",
+      "reasons": "source_foreign_model:overgrip,perforated|source_pathname_model_weak"
+    },
+    {
+      "productId": "prod-babolat-pro-tour",
+      "slug": "babolat-pro-tour",
+      "category": "grips",
+      "heroSrc": "/images/padel/grips/babolat-pro-tour-hero.jpg",
+      "sourceUrl": "https://www.padelmq.com/products/babolat-court-padel-ballen-tube?_pos=1&_psq=babolat+Pro+Tour&_psid=878625e48&_ss=e",
+      "reasons": "source_wrong_category|source_foreign_model:court,ballen|source_pathname_model_weak"
+    },
+    {
+      "productId": "prod-enebe-enebe-smooth",
+      "slug": "enebe-enebe-smooth",
+      "category": "grips",
+      "heroSrc": "/images/padel/grips/enebe-enebe-smooth-hero.jpg",
+      "sourceUrl": "https://www.padelmq.com/products/enebe-point-light-2026?_pos=1&_psq=enebe+Enebe+Smooth&_psid=7ce114a5e&_ss=e",
+      "reasons": "source_foreign_model:point,light|source_pathname_model_weak"
+    },
+    {
+      "productId": "prod-head-prestige-pro",
+      "slug": "head-prestige-pro",
+      "category": "grips",
+      "heroSrc": "/images/padel/grips/head-prestige-pro-hero.jpg",
+      "sourceUrl": "https://www.padelmq.com/products/head-pro-doos-24-tubes?_pos=1&_psq=head+Prestige+Pro&_psid=2754b0dfb&_ss=e",
+      "reasons": "source_wrong_category|source_foreign_model:tubes|source_pathname_model_weak"
+    },
+    {
+      "productId": "prod-head-padel-pro",
+      "slug": "head-padel-pro",
+      "category": "grips",
+      "heroSrc": "/images/padel/grips/head-padel-pro-hero.jpg",
+      "sourceUrl": "https://www.padelkiwi.com/en-lt/products/starvie-overgrips-tacky-touch-box-25",
+      "reasons": "source_other_brand:starvie|source_foreign_model:starvie,overgrips,tacky|source_pathname_identity_weak"
+    },
+    {
+      "productId": "prod-head-padel-pro-perforated",
+      "slug": "head-padel-pro-perforated",
+      "category": "grips",
+      "heroSrc": "/images/padel/grips/head-padel-pro-perforated-hero.jpg",
+      "sourceUrl": "https://www.padelmq.com/products/head-coello-pro-2025?_pos=1&_psq=head+Padel+Pro+Perforated&_psid=8c53d8669&_ss=e",
+      "reasons": "source_foreign_model:coello|source_pathname_model_weak"
+    },
+    {
+      "productId": "prod-hesacore-carbon",
+      "slug": "hesacore-carbon",
+      "category": "grips",
+      "heroSrc": "/images/padel/grips/hesacore-carbon-hero.jpg",
+      "sourceUrl": "https://padelmarket.com/en-gb/products/bullpadel-hesacore-carbon-tour-grip-black",
+      "reasons": "source_other_brand:bullpadel"
+    },
+    {
+      "productId": "prod-joma-club-cushion",
+      "slug": "joma-club-cushion",
+      "category": "grips",
+      "heroSrc": "/images/padel/grips/joma-club-cushion-hero.jpg",
+      "sourceUrl": "https://www.padelmq.com/products/joma-blauwe-compressiekousen-2-stuks?_pos=1&_psq=joma+Club+Cushion&_psid=00ae87c3f&_ss=e",
+      "reasons": "source_wrong_category|source_foreign_model:blauwe,compressiekousen,stuks|source_pathname_model_weak"
+    },
+    {
+      "productId": "prod-nox-custom-grip",
+      "slug": "nox-custom-grip",
+      "category": "grips",
+      "heroSrc": "/images/padel/grips/nox-custom-grip-hero.jpg",
+      "sourceUrl": "https://www.stockpadel.com/blog/en/comparison-hesacore-vs-nox-custom-grip/",
+      "reasons": "source_other_brand:hesacore"
+    },
+    {
+      "productId": "prod-shockout-shockout-overgrip",
+      "slug": "shockout-shockout-overgrip",
+      "category": "grips",
+      "heroSrc": "/images/padel/grips/shockout-shockout-overgrip-hero.jpg",
+      "sourceUrl": "https://www.padelmq.com/products/shock-out-protector-comic?_pos=1&_psq=shockout+ShockOut+Overgrip&_psid=8277fed37&_ss=e",
+      "reasons": "source_foreign_model:protector,comic|source_pathname_identity_weak"
+    },
+    {
+      "productId": "prod-siux-elite",
+      "slug": "siux-elite",
+      "category": "grips",
+      "heroSrc": "/images/padel/grips/siux-elite-hero.jpg",
+      "sourceUrl": "https://www.padelmq.com/products/siux-diablo-elite-2026-testracket?_pos=1&_psq=siux+Elite&_psid=8c6685fb7&_ss=e",
+      "reasons": "source_wrong_category"
+    },
+    {
+      "productId": "prod-tecnifibre-contact-pro",
+      "slug": "tecnifibre-contact-pro",
+      "category": "grips",
+      "heroSrc": "/images/padel/grips/tecnifibre-contact-pro-hero.jpg",
+      "sourceUrl": "https://www.padelmq.com/products/tecnifibre-bomba-max-2026?_pos=1&_psq=tecnifibre+Contact+Pro&_psid=b5efafff7&_ss=e",
+      "reasons": "source_foreign_model:bomba|source_pathname_model_weak"
+    },
+    {
+      "productId": "prod-tourna-tourna-grip-original-xl",
+      "slug": "tourna-tourna-grip-original-xl",
+      "category": "grips",
+      "heroSrc": "/images/padel/grips/tourna-tourna-grip-original-xl-hero.jpg",
+      "sourceUrl": "https://www.padelmq.com/products/bullpadel-ale-salazar-flow-2027?_pos=1&_psq=tourna+Tourna+Grip+Original+XL&_psid=1ff98aa44&_ss=e",
+      "reasons": "source_other_brand:bullpadel|source_foreign_model:bullpadel,salazar|source_pathname_identity_weak"
+    },
+    {
+      "productId": "prod-tourna-mega-tac",
+      "slug": "tourna-mega-tac",
+      "category": "grips",
+      "heroSrc": "/images/padel/grips/tourna-mega-tac-hero.jpg",
+      "sourceUrl": "https://www.padelmq.com/products/joma-tournament-pro-iconic-padelracket?_pos=1&_psq=tourna+Mega+Tac&_psid=05480bc4b&_ss=e",
+      "reasons": "source_other_brand:joma|source_wrong_category|source_foreign_model:tournament,iconic,padelracket|source_pathname_model_weak"
+    },
+    {
+      "productId": "prod-dunlop-tour-dry",
+      "slug": "dunlop-tour-dry",
+      "category": "grips",
+      "heroSrc": "/images/padel/grips/dunlop-tour-dry-hero.jpg",
+      "sourceUrl": "https://www.padelmq.com/products/dunlop-zwart-blauw-horloge?_pos=1&_psq=dunlop+Tour+Dry&_psid=e89d4f944&_ss=e",
+      "reasons": "source_wrong_category|source_foreign_model:horloge|source_pathname_model_weak"
+    },
+    {
+      "productId": "prod-bullpadel-gb-1201-perforated",
+      "slug": "bullpadel-gb-1201-perforated",
+      "category": "grips",
+      "heroSrc": "/images/padel/grips/bullpadel-gb-1201-perforated-hero.jpg",
+      "sourceUrl": "https://www.padelmq.com/products/bullpadel-overgrips-zwart-geperforeerd?_pos=1&_psq=bullpadel+GB-1201+Perforated&_psid=eb55c6465&_ss=e",
+      "reasons": "source_foreign_model:overgrips,geperforeerd|source_pathname_model_weak"
+    },
+    {
+      "productId": "prod-osaka-osaka-overgrip",
+      "slug": "osaka-osaka-overgrip",
+      "category": "grips",
+      "heroSrc": "/images/padel/grips/osaka-osaka-overgrip-hero.jpg",
+      "sourceUrl": "https://www.padelmq.com/products/adidas-overgrip-wit?_pos=1&_psq=osaka+Osaka+Overgrip&_psid=e0a5d07d3&_ss=e",
+      "reasons": "source_other_brand:adidas"
+    },
+    {
+      "productId": "prod-noene-anti-shock-grip-padel",
+      "slug": "noene-anti-shock-grip-padel",
+      "category": "grips",
+      "heroSrc": "/images/padel/grips/noene-anti-shock-grip-padel-hero.jpg",
+      "sourceUrl": "https://www.padelmq.com/products/nox-at10-genius-12k-2025?_pos=1&_psq=noene+Anti+Shock+Grip+Padel&_psid=4b4ce3662&_ss=e",
+      "reasons": "source_other_brand:nox|source_foreign_model:genius|source_pathname_identity_weak"
+    },
+    {
+      "productId": "prod-noene-undergrip-anti-shock",
+      "slug": "noene-undergrip-anti-shock",
+      "category": "grips",
+      "heroSrc": "/images/padel/grips/noene-undergrip-anti-shock-hero.jpg",
+      "sourceUrl": "https://www.padelmq.com/products/grip-helix-pro-zwart?_pos=1&_psq=noene+Undergrip+Anti-shock&_psid=63a8a15a7&_ss=e",
+      "reasons": "source_foreign_model:helix|source_pathname_identity_weak"
+    },
+    {
+      "productId": "prod-head-wristband",
+      "slug": "head-padel-wristband",
+      "category": "accessories",
+      "heroSrc": "/images/padel/accessories/head-wristband-hero.jpg",
+      "sourceUrl": "https://www.padelmq.com/products/bandana-wilson-zwart?_pos=1&_psq=head+HEAD+Wristband&_psid=e287cd5e1&_ss=e",
+      "reasons": "source_other_brand:wilson|source_foreign_model:bandana,wilson|source_pathname_identity_weak"
+    },
+    {
+      "productId": "prod-nox-wristband",
+      "slug": "nox-padel-wristband",
+      "category": "accessories",
+      "heroSrc": "/images/padel/accessories/nox-wristband-hero.jpg",
+      "sourceUrl": "https://www.padelmq.com/products/nox-smartstrap-zwart?_pos=2&_psq=nox+Nox+Wristband&_psid=29a04184e&_ss=e",
+      "reasons": "source_foreign_model:smartstrap|source_pathname_model_weak"
+    },
+    {
+      "productId": "prod-bullpadel-wristband",
+      "slug": "bullpadel-padel-wristband",
+      "category": "accessories",
+      "heroSrc": "/images/padel/accessories/bullpadel-wristband-hero.jpg",
+      "sourceUrl": "https://www.padelmq.com/products/bullpadel-bpmu263-zweetbanden-naranja-pastel-pomelo?_pos=1&_psq=bullpadel+Bullpadel+Wristband&_psid=d92e11c56&_ss=e",
+      "reasons": "source_foreign_model:bpmu263,zweetbanden,naranja|source_pathname_model_weak"
+    },
+    {
+      "productId": "prod-head-smartsorb",
+      "slug": "head-smartsorb",
+      "category": "accessories",
+      "heroSrc": "/images/padel/accessories/head-smartsorb-hero.jpg",
+      "sourceUrl": "https://www.padelmq.com/products/head-pro-s-doos-24-tubes?_pos=1&_psq=head+Smartsorb&_psid=b34d26dca&_ss=e",
+      "reasons": "source_wrong_category|source_foreign_model:tubes|source_pathname_model_weak"
+    },
+    {
+      "productId": "prod-adidas-adidas-protector",
+      "slug": "adidas-adidas-protector",
+      "category": "accessories",
+      "heroSrc": "/images/padel/accessories/adidas-adidas-protector-hero.jpg",
+      "sourceUrl": "https://www.padelmq.com/products/protection-tape-transparant?_pos=1&_psq=adidas+Adidas+Protector&_psid=afd38963a&_ss=e",
+      "reasons": "source_foreign_model:protection,transparant|source_pathname_identity_weak"
+    },
+    {
+      "productId": "prod-adidas-adidas-wristband",
+      "slug": "adidas-adidas-wristband",
+      "category": "accessories",
+      "heroSrc": "/images/padel/accessories/adidas-adidas-wristband-hero.jpg",
+      "sourceUrl": "https://www.padelmq.com/products/adidas-lange-zweetbanden-zwart-zilver-2-stuks?_pos=1&_psq=adidas+Adidas+Wristband&_psid=af79c1905&_ss=e",
+      "reasons": "source_foreign_model:lange,zweetbanden,zilver|source_pathname_model_weak"
+    },
+    {
+      "productId": "prod-alacran-alacran-basket",
+      "slug": "alacran-alacran-basket",
+      "category": "accessories",
+      "heroSrc": "/images/padel/accessories/alacran-alacran-basket-hero.jpg",
+      "sourceUrl": "https://www.padelmq.com/products/alacr-cesto-bolas-alacran?_pos=1&_psq=alacran+Alacran+Basket&_psid=b6cecbe6c&_ss=e",
+      "reasons": "source_foreign_model:cesto,bolas|source_pathname_model_weak"
+    },
+    {
+      "productId": "prod-babolat-babolat-protector",
+      "slug": "babolat-babolat-protector",
+      "category": "accessories",
+      "heroSrc": "/images/padel/accessories/babolat-babolat-protector-hero.jpg",
+      "sourceUrl": "https://www.padelmq.com/products/nox-protector-zwart-framebeschermer?_pos=1&_psq=babolat+Babolat+Protector&_psid=d1380c142&_ss=e",
+      "reasons": "source_other_brand:nox"
+    },
+    {
+      "productId": "prod-babolat-babolat-wristband",
+      "slug": "babolat-babolat-wristband",
+      "category": "accessories",
+      "heroSrc": "/images/padel/accessories/babolat-babolat-wristband-hero.jpg",
+      "sourceUrl": "https://www.padelmq.com/products/adiddas-polsband-small-wit?_pos=1&_psq=babolat+Babolat+Wristband&_psid=9af3c6f69&_ss=e",
+      "reasons": "source_foreign_model:adiddas,polsband,small|source_pathname_identity_weak"
+    },
+    {
+      "productId": "prod-black-crown-vibranium-transparent",
+      "slug": "black-crown-vibranium-transparent",
+      "category": "accessories",
+      "heroSrc": "/images/padel/accessories/black-crown-vibranium-transparent-hero.jpg",
+      "sourceUrl": "https://www.padelmq.com/products/black-crown-transparante-padelballen-15-stuks?_pos=1&_psq=black-crown+Vibranium+Transparent&_psid=b9b05bec3&_ss=e",
+      "reasons": "source_wrong_category"
+    },
+    {
+      "productId": "prod-bullpadel-bpmu252-bpmu253",
+      "slug": "bullpadel-bpmu252-bpmu253",
+      "category": "accessories",
+      "heroSrc": "/images/padel/accessories/bullpadel-bpmu252-bpmu253-hero.jpg",
+      "sourceUrl": "https://www.padelmq.com/products/bullpadel-bp252-zwarte-sokken-3-paar?_pos=1&_psq=bullpadel+BPMU252+%2F+BPMU253&_psid=008070ad5&_ss=e",
+      "reasons": "source_wrong_category|source_foreign_model:bp252,zwarte,sokken|source_pathname_model_weak"
+    },
+    {
+      "productId": "prod-bullpadel-bullpadel-headband",
+      "slug": "bullpadel-bullpadel-headband",
+      "category": "accessories",
+      "heroSrc": "/images/padel/accessories/bullpadel-bullpadel-headband-hero.jpg",
+      "sourceUrl": "https://www.padelmq.com/products/bullpadel-bpmu262-zweetbanden-wit-mandarijn?_pos=1&_psq=bullpadel+Bullpadel+Headband&_psid=b17aa1a7e&_ss=e",
+      "reasons": "source_foreign_model:bpmu262,zweetbanden,mandarijn|source_pathname_model_weak"
+    },
+    {
+      "productId": "prod-bullpadel-metalshield",
+      "slug": "bullpadel-metalshield",
+      "category": "accessories",
+      "heroSrc": "/images/padel/accessories/bullpadel-metalshield-hero.jpg",
+      "sourceUrl": "https://www.padelmq.com/products/bullpadel-frame-pro-protector-transparant-2-stuks?_pos=1&_psq=bullpadel+Metalshield&_psid=d5bd7e86f&_ss=e",
+      "reasons": "source_foreign_model:frame,protector,transparant|source_pathname_model_weak"
+    },
+    {
+      "productId": "prod-head-pick-up-tube",
+      "slug": "head-pick-up-tube",
+      "category": "accessories",
+      "heroSrc": "/images/padel/accessories/head-pick-up-tube-hero.jpg",
+      "sourceUrl": "https://www.padelmq.com/products/head-pro-tube?_pos=1&_psq=head+Pick+Up+Tube&_psid=2d6235de9&_ss=e",
+      "reasons": "source_wrong_category"
+    },
+    {
+      "productId": "prod-head-coaching-kit",
+      "slug": "head-coaching-kit",
+      "category": "accessories",
+      "heroSrc": "/images/padel/accessories/head-coaching-kit-hero.jpg",
+      "sourceUrl": "https://www.padelmq.com/products/starters-trainsers-pakket?_pos=1&_psq=head+Coaching+Kit&_psid=c7e2aca7f&_ss=e",
+      "reasons": "source_foreign_model:starters,trainsers,pakket|source_pathname_identity_weak"
+    },
+    {
+      "productId": "prod-head-dome-cones",
+      "slug": "head-dome-cones",
+      "category": "accessories",
+      "heroSrc": "/images/padel/accessories/head-dome-cones-hero.jpg",
+      "sourceUrl": "https://www.padelmq.com/products/kegels-head-20-stuks?_pos=1&_psq=head+Dome+Cones&_psid=a55969dc9&_ss=e",
+      "reasons": "source_foreign_model:kegels,stuks|source_pathname_model_weak"
+    },
+    {
+      "productId": "prod-nox-nox-color-pack",
+      "slug": "nox-nox-color-pack",
+      "category": "accessories",
+      "heroSrc": "/images/padel/accessories/nox-nox-color-pack-hero.jpg",
+      "sourceUrl": "https://www.racketworld.co.uk/products/nox-padel-protector-tape-blue",
+      "reasons": "source_foreign_model:protector|source_pathname_model_weak"
+    },
+    {
+      "productId": "prod-pascal-box-compressor",
+      "slug": "pascal-box-compressor",
+      "category": "accessories",
+      "heroSrc": "/images/padel/accessories/pascal-box-compressor-hero.jpg",
+      "sourceUrl": "https://www.padelmq.com/products/pascal-box-switch-automatische-drukregelaar?_pos=1&_psq=pascal-box+Compressor&_psid=18fcb502c&_ss=e",
+      "reasons": "source_foreign_model:switch,automatische,drukregelaar|source_pathname_model_weak"
+    },
+    {
+      "productId": "prod-softee-softee-basket",
+      "slug": "softee-softee-basket",
+      "category": "accessories",
+      "heroSrc": "/images/padel/accessories/softee-softee-basket-hero.jpg",
+      "sourceUrl": "https://www.padelmq.com/products/softee-autorugzak-fluorescerend-oranje?_pos=1&_psq=softee+Softee+Basket&_psid=90a7bc765&_ss=e",
+      "reasons": "source_foreign_model:autorugzak,fluorescerend,oranje|source_pathname_model_weak"
+    },
+    {
+      "productId": "prod-softee-cube-pro",
+      "slug": "softee-cube-pro",
+      "category": "accessories",
+      "heroSrc": "/images/padel/accessories/softee-cube-pro-hero.jpg",
+      "sourceUrl": "https://www.padelmq.com/products/softee-speed-gold-power-4-0-nano-mesh-2025?_pos=1&_psq=softee+Cube+Pro&_psid=1bd8d9ca3&_ss=e",
+      "reasons": "source_foreign_model:speed,power|source_pathname_model_weak"
+    },
+    {
+      "productId": "prod-bounce-filtertech-padel",
+      "slug": "bounce-filtertech-padel",
+      "category": "accessories",
+      "heroSrc": "/images/padel/accessories/bounce-filtertech-padel-hero.jpg",
+      "sourceUrl": "https://bouncesports.co/products/bounce-tube-filtertech-padel",
+      "reasons": "source_wrong_category"
+    },
+    {
+      "productId": "prod-varlion-summum-backpack",
+      "slug": "varlion-summum-backpack",
+      "category": "bags",
+      "heroSrc": "/images/padel/bags/varlion-summum-backpack-hero.jpg",
+      "sourceUrl": "https://www.padelmq.com/products/siux-stupa-electra-rugzak-zwart-rood-2026?_pos=1&_psq=varlion+Summum+Backpack&_psid=1a1b84d3f&_ss=e",
+      "reasons": "source_other_brand:siux|source_foreign_model:stupa,electra,rugzak|source_pathname_identity_weak"
+    },
+    {
+      "productId": "prod-wilson-bela-backpack",
+      "slug": "wilson-bela-backpack",
+      "category": "bags",
+      "heroSrc": "/images/padel/bags/wilson-bela-backpack-hero.jpg",
+      "sourceUrl": "https://www.padelboost.co.uk/blogs/news/built-by-the-best-inside-the-wilson-bela-padel-collection",
+      "reasons": "source_looks_like_racket_not_bag"
+    },
+    {
+      "productId": "prod-adidas-weekend-bag-martita-ortega-2026",
+      "slug": "adidas-weekend-bag-martita-ortega-2026",
+      "category": "bags",
+      "heroSrc": "/images/padel/bags/adidas-weekend-bag-martita-ortega-2026-hero.jpg",
+      "sourceUrl": "https://www.padelmq.com/products/adidas-control-bronze-grey-padel-bag-2026?_pos=1&_psq=adidas+Weekend+Bag+Martita+Ortega+2026&_psid=58d360035&_ss=e",
+      "reasons": "source_foreign_model:control|source_pathname_model_weak"
+    },
+    {
+      "productId": "prod-osaka-sports-padel-bag",
+      "slug": "osaka-sports-padel-bag",
+      "category": "bags",
+      "heroSrc": "/images/padel/bags/osaka-sports-padel-bag-hero.jpg",
+      "sourceUrl": "https://www.padelmq.com/products/adidas-control-black-gold-padel-bag-2026?_pos=1&_psq=osaka+Sports+Padel+Bag&_psid=6a58b6e2a&_ss=e",
+      "reasons": "source_other_brand:adidas"
+    },
+    {
+      "productId": "prod-osaka-sports-backpack",
+      "slug": "osaka-sports-backpack",
+      "category": "bags",
+      "heroSrc": "/images/padel/bags/osaka-sports-backpack-hero.jpg",
+      "sourceUrl": "https://www.padelmq.com/products/adidas-protour-3-5-blue-backpack-2026?_pos=1&_psq=osaka+Sports+Backpack&_psid=e83105a5f&_ss=e",
+      "reasons": "source_other_brand:adidas"
+    },
+    {
+      "productId": "prod-wilson-wristband",
+      "slug": "wilson-padel-wristband",
+      "category": "accessories",
+      "heroSrc": "/images/padel/accessories/wilson-wristband-hero.jpg",
+      "sourceUrl": "https://www.padelmq.com/products/wilson-wide-terry-zweetbanden-zwart-2-stuks?_pos=1&_psq=wilson+Wilson+Wristband&_psid=11c40ef6f&_ss=e",
+      "reasons": "source_foreign_model:terry,zweetbanden,stuks|source_pathname_model_weak"
+    },
+    {
+      "productId": "prod-wilson-wilson-weight-tape",
+      "slug": "wilson-wilson-weight-tape",
+      "category": "accessories",
+      "heroSrc": "/images/padel/accessories/wilson-wilson-weight-tape-hero.jpg",
+      "sourceUrl": "https://www.padelmq.com/products/wilson-pro-overgrip-box-60st?_pos=1&_psq=wilson+Wilson+Weight+Tape&_psid=26adc0bf3&_ss=e",
+      "reasons": "source_wrong_category|source_foreign_model:overgrip|source_pathname_model_weak"
+    },
+    {
+      "productId": "prod-alacran-wide-ancha",
+      "slug": "alacran-wide-ancha",
+      "category": "accessories",
+      "heroSrc": "/images/padel/accessories/alacran-wide-ancha-hero.jpg",
+      "sourceUrl": "https://www.padelmq.com/nl-nl/products/alacran-polsband-breed-rood-wit",
+      "reasons": "source_foreign_model:polsband,breed|source_pathname_model_weak"
+    },
+    {
+      "productId": "prod-hesacore-pink-w",
+      "slug": "hesacore-pink-w",
+      "category": "grips",
+      "heroSrc": "/images/padel/grips/hesacore-pink-w-hero.jpg",
+      "sourceUrl": "https://www.padelmq.com/products/hesacore-w?_pos=1&_psq=hesacore+Pink+%2F+W&_psid=96df5ebbe&_ss=e",
+      "reasons": "source_pathname_model_weak"
+    },
+    {
+      "productId": "prod-tuboplus-r3play",
+      "slug": "tuboplus-r3play",
+      "category": "accessories",
+      "heroSrc": "/images/padel/accessories/tuboplus-r3play-hero.jpg",
+      "sourceUrl": "https://tubo.plus/en/comparador/",
+      "reasons": "source_foreign_model:comparador|source_pathname_identity_weak"
+    }
+  ]
+}

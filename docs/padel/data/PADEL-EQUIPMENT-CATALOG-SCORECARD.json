@@ -1,0 +1,338 @@
+{
+  "generatedAt": "2026-09-13",
+  "before_this_discovery_pass": {
+    "balls": 46,
+    "bags": 104,
+    "grips": 47,
+    "accessories": 65,
+    "total": 262
+  },
+  "after": {
+    "balls": 62,
+    "bags": 124,
+    "grips": 85,
+    "accessories": 84,
+    "total": 355
+  },
+  "metrics": {
+    "discovery_completeness_pct": 100,
+    "catalog_capture_pct": 100,
+    "brands_fully_researched": 37,
+    "brands_incomplete": 0,
+    "brand_cells_blocked_external": 0,
+    "candidates_excluded": 45,
+    "unresolved_candidates": 0,
+    "known_current_missing": 0,
+    "research_queue_count": 0
+  },
+  "classifications": {
+    "MARKET_DISCOVERY": "COMPLETE",
+    "DISCOVERY_COMPLETENESS_PCT": "100",
+    "CATALOG_CAPTURE_PCT": "100",
+    "CATALOG_COVERAGE": "COMPLETE",
+    "MEDIA_COVERAGE": "INCOMPLETE",
+    "COMMERCE_RESEARCH": "COMPLETE",
+    "COMMERCE_COVERAGE": "INCOMPLETE",
+    "EDITORIAL_COVERAGE": "INCOMPLETE",
+    "PUBLICATION_READINESS": "PARTIAL",
+    "CATEGORY_COMPLETE": false
+  },
+  "brand_discovery": {
+    "HEAD": {
+      "balls": "COMPLETE",
+      "bags": "COMPLETE",
+      "grips": "COMPLETE",
+      "accessories": "COMPLETE"
+    },
+    "Bullpadel": {
+      "balls": "COMPLETE",
+      "bags": "COMPLETE",
+      "grips": "COMPLETE",
+      "accessories": "COMPLETE"
+    },
+    "Nox": {
+      "balls": "COMPLETE",
+      "bags": "COMPLETE",
+      "grips": "COMPLETE",
+      "accessories": "COMPLETE"
+    },
+    "Adidas": {
+      "balls": "COMPLETE",
+      "bags": "COMPLETE",
+      "grips": "COMPLETE",
+      "accessories": "COMPLETE"
+    },
+    "Babolat": {
+      "balls": "COMPLETE",
+      "bags": "COMPLETE",
+      "grips": "COMPLETE",
+      "accessories": "COMPLETE"
+    },
+    "Wilson": {
+      "balls": "COMPLETE",
+      "bags": "COMPLETE",
+      "grips": "COMPLETE",
+      "accessories": "COMPLETE"
+    },
+    "Kuikma": {
+      "balls": "COMPLETE",
+      "bags": "COMPLETE",
+      "grips": "COMPLETE",
+      "accessories": "COMPLETE"
+    },
+    "Siux": {
+      "balls": "COMPLETE",
+      "bags": "COMPLETE",
+      "grips": "COMPLETE",
+      "accessories": "COMPLETE"
+    },
+    "StarVie": {
+      "balls": "COMPLETE",
+      "bags": "COMPLETE",
+      "grips": "COMPLETE",
+      "accessories": "COMPLETE"
+    },
+    "Tecnifibre": {
+      "balls": "COMPLETE",
+      "bags": "COMPLETE",
+      "grips": "COMPLETE",
+      "accessories": "NOT_APPLICABLE"
+    },
+    "Dunlop": {
+      "balls": "COMPLETE",
+      "bags": "COMPLETE",
+      "grips": "COMPLETE",
+      "accessories": "COMPLETE"
+    },
+    "Varlion": {
+      "balls": "COMPLETE",
+      "bags": "COMPLETE",
+      "grips": "COMPLETE",
+      "accessories": "NOT_APPLICABLE"
+    },
+    "Drop Shot": {
+      "balls": "COMPLETE",
+      "bags": "COMPLETE",
+      "grips": "COMPLETE",
+      "accessories": "NOT_APPLICABLE"
+    },
+    "Joma": {
+      "balls": "COMPLETE",
+      "bags": "COMPLETE",
+      "grips": "COMPLETE",
+      "accessories": "NOT_APPLICABLE"
+    },
+    "Oxdog": {
+      "balls": "COMPLETE",
+      "bags": "COMPLETE",
+      "grips": "COMPLETE",
+      "accessories": "COMPLETE"
+    },
+    "Black Crown": {
+      "balls": "COMPLETE",
+      "bags": "COMPLETE",
+      "grips": "COMPLETE",
+      "accessories": "COMPLETE"
+    },
+    "Royal Padel": {
+      "balls": "NOT_APPLICABLE",
+      "bags": "COMPLETE",
+      "grips": "COMPLETE",
+      "accessories": "NOT_APPLICABLE"
+    },
+    "Lok": {
+      "balls": "NOT_APPLICABLE",
+      "bags": "COMPLETE",
+      "grips": "NOT_APPLICABLE",
+      "accessories": "NOT_APPLICABLE"
+    },
+    "Sane": {
+      "balls": "COMPLETE",
+      "bags": "COMPLETE",
+      "grips": "COMPLETE",
+      "accessories": "NOT_APPLICABLE"
+    },
+    "Volt": {
+      "balls": "COMPLETE",
+      "bags": "COMPLETE",
+      "grips": "COMPLETE",
+      "accessories": "NOT_APPLICABLE"
+    },
+    "Slazenger": {
+      "balls": "COMPLETE",
+      "bags": "NOT_APPLICABLE",
+      "grips": "NOT_APPLICABLE",
+      "accessories": "NOT_APPLICABLE"
+    },
+    "Prince": {
+      "balls": "COMPLETE",
+      "bags": "NOT_APPLICABLE",
+      "grips": "NOT_APPLICABLE",
+      "accessories": "NOT_APPLICABLE"
+    },
+    "Tretorn": {
+      "balls": "COMPLETE",
+      "bags": "NOT_APPLICABLE",
+      "grips": "NOT_APPLICABLE",
+      "accessories": "NOT_APPLICABLE"
+    },
+    "RS": {
+      "balls": "COMPLETE",
+      "bags": "COMPLETE",
+      "grips": "COMPLETE",
+      "accessories": "NOT_APPLICABLE"
+    },
+    "Osaka": {
+      "balls": "COMPLETE",
+      "bags": "COMPLETE",
+      "grips": "COMPLETE",
+      "accessories": "NOT_APPLICABLE"
+    },
+    "Fila": {
+      "balls": "COMPLETE",
+      "bags": "NOT_APPLICABLE",
+      "grips": "NOT_APPLICABLE",
+      "accessories": "NOT_APPLICABLE"
+    },
+    "Pallap": {
+      "balls": "COMPLETE",
+      "bags": "NOT_APPLICABLE",
+      "grips": "NOT_APPLICABLE",
+      "accessories": "NOT_APPLICABLE"
+    },
+    "Softee": {
+      "balls": "NOT_APPLICABLE",
+      "bags": "NOT_APPLICABLE",
+      "grips": "NOT_APPLICABLE",
+      "accessories": "COMPLETE"
+    },
+    "Pascal Box": {
+      "balls": "NOT_APPLICABLE",
+      "bags": "NOT_APPLICABLE",
+      "grips": "NOT_APPLICABLE",
+      "accessories": "COMPLETE"
+    },
+    "Ball Rescuer": {
+      "balls": "NOT_APPLICABLE",
+      "bags": "NOT_APPLICABLE",
+      "grips": "NOT_APPLICABLE",
+      "accessories": "COMPLETE"
+    },
+    "TuboPlus": {
+      "balls": "NOT_APPLICABLE",
+      "bags": "NOT_APPLICABLE",
+      "grips": "NOT_APPLICABLE",
+      "accessories": "COMPLETE"
+    },
+    "Hesacore": {
+      "balls": "NOT_APPLICABLE",
+      "bags": "NOT_APPLICABLE",
+      "grips": "COMPLETE",
+      "accessories": "NOT_APPLICABLE"
+    },
+    "ShockOut": {
+      "balls": "NOT_APPLICABLE",
+      "bags": "NOT_APPLICABLE",
+      "grips": "COMPLETE",
+      "accessories": "COMPLETE"
+    },
+    "Tourna": {
+      "balls": "NOT_APPLICABLE",
+      "bags": "NOT_APPLICABLE",
+      "grips": "COMPLETE",
+      "accessories": "NOT_APPLICABLE"
+    },
+    "Bounce Tube": {
+      "balls": "NOT_APPLICABLE",
+      "bags": "NOT_APPLICABLE",
+      "grips": "NOT_APPLICABLE",
+      "accessories": "COMPLETE"
+    },
+    "4ON": {
+      "balls": "COMPLETE",
+      "bags": "NOT_APPLICABLE",
+      "grips": "COMPLETE",
+      "accessories": "COMPLETE"
+    },
+    "Noene": {
+      "balls": "NOT_APPLICABLE",
+      "bags": "NOT_APPLICABLE",
+      "grips": "COMPLETE",
+      "accessories": "NOT_APPLICABLE"
+    }
+  },
+  "categories": {
+    "balls": {
+      "market_discovered": 62,
+      "catalog_products": 62,
+      "current": 60,
+      "previous_generation": 0,
+      "ready": 48,
+      "media_pending": 14,
+      "no_kitletics_offer": 47,
+      "commerce_research_pending": 0,
+      "brands": 23,
+      "catalog_capture_pct": 100,
+      "missing_current": []
+    },
+    "bags": {
+      "market_discovered": 125,
+      "catalog_products": 124,
+      "current": 124,
+      "previous_generation": 0,
+      "ready": 78,
+      "media_pending": 46,
+      "no_kitletics_offer": 105,
+      "commerce_research_pending": 0,
+      "brands": 22,
+      "catalog_capture_pct": 100,
+      "missing_current": []
+    },
+    "grips": {
+      "market_discovered": 86,
+      "catalog_products": 85,
+      "current": 85,
+      "previous_generation": 0,
+      "ready": 48,
+      "media_pending": 37,
+      "no_kitletics_offer": 78,
+      "commerce_research_pending": 0,
+      "brands": 27,
+      "catalog_capture_pct": 100,
+      "missing_current": []
+    },
+    "accessories": {
+      "market_discovered": 87,
+      "catalog_products": 84,
+      "current": 84,
+      "previous_generation": 0,
+      "ready": 44,
+      "media_pending": 40,
+      "no_kitletics_offer": 76,
+      "commerce_research_pending": 0,
+      "brands": 21,
+      "catalog_capture_pct": 100,
+      "missing_current": []
+    }
+  },
+  "commerce": {
+    "COMMERCE_RESEARCH": "COMPLETE",
+    "COMMERCE_COVERAGE": "INCOMPLETE",
+    "note": "Catalog inclusion \u2260 retail availability. Products without Kitletics Offers remain in catalog; UI shows regional empty-offer copy rather than dropping recommendations."
+  },
+  "media": {
+    "MEDIA_VERIFIED": 230,
+    "MEDIA_CANDIDATE": 0,
+    "MEDIA_MISSING": 123,
+    "MEDIA_BLOCKED": 2,
+    "MEDIA_AMBIGUOUS": 0,
+    "coverage_pct_verified": 65,
+    "triage_note": "2026-09-13: candidates approved/rejected with visual identity gate; logos/shared-hero/wrong-product rejected; remaining MISSING need distinct manufacturer PDPs."
+  },
+  "reconciliation": {
+    "market_discovered_total": 360,
+    "canonical_products_total": 355,
+    "publication_ready": 218,
+    "note": "See PADEL-PRODUCT-COUNT-RECONCILIATION.csv and PADEL-MEDIA-ENRICHMENT-AUDIT.md"
+  }
+}

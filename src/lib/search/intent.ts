@@ -18,7 +18,7 @@ export function detectSearchIntent(query: string): SearchIntent {
   if (/\breview\b/.test(q)) return "product";
   if (/\bbest\b/.test(q)) return "recommendation";
   if (/\bhow to (choose|pick|buy)\b|\bguide\b/.test(q)) return "guide";
-  if (/^(asics|nike|garmin|brooks|hoka|saucony|coros|rogue|bullpadel|adidas)\b/.test(q) && q.split(/\s+/).length <= 2)
+  if (/^(asics|nike|garmin|brooks|hoka|saucony|coros|rogue|bullpadel|adidas|nox|wilson|babolat|head|siux|starvie)\b/.test(q) && q.split(/\s+/).length <= 2)
     return "brand";
   return "general";
 }
@@ -90,11 +90,16 @@ export function relatedSearchesForQuery(query: string): {
       { label: "Men's running shoes", href: "/running/shoes?gender=men" },
     ];
   }
-  if (q.includes("padel")) {
+  if (q.includes("padel") || q.includes("overgrip") || q.includes("paletero") || q.includes("at10")) {
     return [
-      { label: "Padel rackets", href: "/search?q=padel+rackets" },
-      { label: "Padel shoes", href: "/search?q=padel+shoes" },
+      { label: "Padel rackets", href: "/padel/rackets" },
+      { label: "Padel shoes", href: "/padel/shoes" },
+      { label: "Padel balls", href: "/padel/balls" },
+      { label: "Padel bags", href: "/padel/bags" },
+      { label: "Padel grips", href: "/padel/grips" },
       { label: "Padel racket finder", href: "/tools/padel-racket-finder" },
+      { label: "Best padel rackets", href: "/best/padel-rackets" },
+      { label: "Racket database", href: "/padel/rackets/database" },
     ];
   }
   if (q.includes("watch") || q.includes("garmin") || q.includes("coros")) {

@@ -1,4 +1,6 @@
 import type { MediaAsset } from "@/domain/shared/types";
+import { PADEL_RACKET_PRODUCT_MEDIA } from "@/content/padel/rackets/product-media";
+import { PADEL_SECONDARY_PRODUCT_MEDIA } from "@/content/padel/soft-goods/product-media";
 
 /** Licensed manufacturer / authorized-retailer hero assets for non-shoe catalog products. */
 export interface CatalogProductMediaSource {
@@ -10,6 +12,8 @@ export interface CatalogProductMediaSource {
   attribution: string;
   width: number;
   height: number;
+  /** Optional provenance timestamp for soft-goods media enrichment. */
+  retrievedAt?: string;
 }
 
 export const CATALOG_PRODUCT_MEDIA: Record<string, CatalogProductMediaSource> = {
@@ -33,36 +37,9 @@ export const CATALOG_PRODUCT_MEDIA: Record<string, CatalogProductMediaSource> = 
     width: 1000,
     height: 1000,
   },
-  "prod-tecnifibre-t-fight-padel": {
-    productId: "prod-tecnifibre-t-fight-padel",
-    src: "/images/padel/products/tecnifibre-wall-shooter-hero.jpg",
-    sourceUrl: "https://www.zonadepadel.es/busca?controller=search&s=zapatillas%20Tecnifibre",
-    source: "Zona de Padel authorized product photography",
-    licence: "retailer-authorized",
-    attribution: "© Brand — official / authorized product photography",
-    width: 1000,
-    height: 1000,
-  },
-  "prod-varlion-bourne-padel-shoe": {
-    productId: "prod-varlion-bourne-padel-shoe",
-    src: "/images/padel/products/varlion-bourne-padel-hero.jpg",
-    sourceUrl: "https://www.zonadepadel.es/busca?controller=search&s=Varlion%20Bourne%20zapatillas",
-    source: "Zona de Padel authorized product photography",
-    licence: "retailer-authorized",
-    attribution: "© Brand — official / authorized product photography",
-    width: 1000,
-    height: 1000,
-  },
-  "prod-oxdog-hyper-court": {
-    productId: "prod-oxdog-hyper-court",
-    src: "/images/padel/products/oxdog-hyper-court-hero.jpg",
-    sourceUrl: "https://www.zonadepadel.es/busca?controller=search&s=Oxdog%20Hyper%20Court",
-    source: "Zona de Padel authorized product photography",
-    licence: "retailer-authorized",
-    attribution: "© Brand — official / authorized product photography",
-    width: 1000,
-    height: 1000,
-  },
+  // Unregistered: tecnifibre-t-fight-padel hero was a Tecnifibre backpack.
+  // Unregistered: varlion-bourne-padel-shoe hero was a Bullpadel Vertex-W shoe.
+  // Unregistered: oxdog-hyper-court hero was a Joma Hyper Pro HRD racket.
   "prod-nike-court-vapor-pro-3": {
     productId: "prod-nike-court-vapor-pro-3",
     src: "/images/tennis/products/nike-court-vapor-pro-3-hero.jpg",
@@ -422,12 +399,14 @@ export const CATALOG_PRODUCT_MEDIA: Record<string, CatalogProductMediaSource> = 
   "prod-adidas-courtstabil": {
     productId: "prod-adidas-courtstabil",
     src: "/images/padel/products/adidas-courtquick-padel-hero.jpg",
-    sourceUrl: "https://www.zonadepadel.es/busca?controller=search&s=zapatillas",
-    source: "Zona de Padel authorized product photography",
+    sourceUrl:
+      "https://www.zonadepadel.es/adidas-padel/11668-zapatillas-adidas-courtquick-padel-m-ftwr-white-core-black-2025.html",
+    source: "Zona de Padel — Adidas Courtquick Padel M specialist PDP",
     licence: "retailer-authorized",
     attribution: "© Brand — official / authorized product photography",
     width: 1000,
     height: 1000,
+    retrievedAt: "2026-09-14",
   },
   "prod-adidas-crazyquick-boost-m": {
     productId: "prod-adidas-crazyquick-boost-m",
@@ -719,16 +698,6 @@ export const CATALOG_PRODUCT_MEDIA: Record<string, CatalogProductMediaSource> = 
     width: 3000,
     height: 2000,
   },
-  "prod-adidas-metalbone-3-3-2026": {
-    productId: "prod-adidas-metalbone-3-3-2026",
-    src: "/images/padel/products/adidas-metalbone-2026-hero.jpg",
-    sourceUrl: "https://www.paddlepro.com/padel/paddles/adidas/",
-    source: "PaddlePro BigCommerce CDN",
-    licence: "retailer-authorized",
-    attribution: "© Brand — official / authorized product photography",
-    width: 1000,
-    height: 1000,
-  },
   "prod-adidas-metalbone-hrd": {
     productId: "prod-adidas-metalbone-hrd",
     src: "/images/padel/products/adidas-metalbone-hrd-hero.png",
@@ -751,7 +720,7 @@ export const CATALOG_PRODUCT_MEDIA: Record<string, CatalogProductMediaSource> = 
   },
   "prod-asics-gel-challenger-court": {
     productId: "prod-asics-gel-challenger-court",
-    src: "/images/fitness/products/asics-gel-challenger-court-hero.jpg",
+    src: "/images/padel/products/asics-gel-challenger-court-hero.jpg",
     sourceUrl: "https://www.zonadepadel.es/asics/14103-zapatillas-asics-gel-challenger-15-padel-white-guava-2026.html",
     source: "Zona de Padel",
     licence: "retailer-authorized",
@@ -821,7 +790,7 @@ export const CATALOG_PRODUCT_MEDIA: Record<string, CatalogProductMediaSource> = 
   },
   "prod-babolat-jet-premura": {
     productId: "prod-babolat-jet-premura",
-    src: "/images/fitness/products/babolat-jet-premura-hero.jpg",
+    src: "/images/padel/products/babolat-jet-premura-hero.jpg",
     sourceUrl: "https://www.zonadepadel.es/babolat/15856-zapatillas-babolat-jet-premura-2-men-cream-orange-2026.html",
     source: "scraped CDN",
     licence: "retailer-authorized",
@@ -874,16 +843,6 @@ export const CATALOG_PRODUCT_MEDIA: Record<string, CatalogProductMediaSource> = 
     src: "/images/padel/products/babolat-technical-viper-hero.png",
     sourceUrl: "https://padelusa.com/products/babolat-technical-viper-3-0-padel-racket?variant=46771757383843&_pos=1&_sid=cf28e5b12&_ss=r",
     source: "Shopify CDN",
-    licence: "retailer-authorized",
-    attribution: "© Brand — official / authorized product photography",
-    width: 1000,
-    height: 1000,
-  },
-  "prod-black-crown-special-one-soft": {
-    productId: "prod-black-crown-special-one-soft",
-    src: "/images/padel/products/black-crown-special-one-soft-hero.jpg",
-    sourceUrl: "https://www.zonadepadel.com/black-crown/8073-black-crown-special-soft-2023.html",
-    source: "Zona de Padel CDN (Black Crown Special Soft 2023 — closest commercial Special Soft line packshot)",
     licence: "retailer-authorized",
     attribution: "© Brand — official / authorized product photography",
     width: 1000,
@@ -1025,16 +984,6 @@ export const CATALOG_PRODUCT_MEDIA: Record<string, CatalogProductMediaSource> = 
     sourceUrl: "https://www.coros.com/pacepro",
     source: "COROS Shopify CDN",
     licence: "manufacturer-marketing",
-    attribution: "© Brand — official / authorized product photography",
-    width: 1000,
-    height: 1000,
-  },
-  "prod-drop-shot-canyon-pro": {
-    productId: "prod-drop-shot-canyon-pro",
-    src: "/images/padel/products/drop-shot-canyon-pro-hero.jpg",
-    sourceUrl: "https://www.zonadepadel.es/drop-shot/14427-drop-shot-canyon-pro-confort-20-2026.html",
-    source: "scraped CDN",
-    licence: "retailer-authorized",
     attribution: "© Brand — official / authorized product photography",
     width: 1000,
     height: 1000,
@@ -1191,7 +1140,7 @@ export const CATALOG_PRODUCT_MEDIA: Record<string, CatalogProductMediaSource> = 
   },
   "prod-head-revolt-pro-court": {
     productId: "prod-head-revolt-pro-court",
-    src: "/images/fitness/products/head-revolt-pro-court-hero.jpg",
+    src: "/images/padel/products/head-revolt-pro-court-hero.jpg",
     sourceUrl: "https://www.zonadepadel.es/head-padel/9520-zapatillas-head-revolt-pro-45-clay-banana-black-2024.html",
     source: "scraped CDN",
     licence: "retailer-authorized",
@@ -1326,20 +1275,10 @@ export const CATALOG_PRODUCT_MEDIA: Record<string, CatalogProductMediaSource> = 
   },
   "prod-joma-t-slam": {
     productId: "prod-joma-t-slam",
-    src: "/images/fitness/products/joma-t-slam-hero.jpg",
+    src: "/images/padel/products/joma-t-slam-hero.jpg",
     sourceUrl: "https://www.zonadepadel.es/joma/15127-zapatillas-joma-slam-men-2602-white-royal-2026.html",
     source: "scraped CDN",
     licence: "retailer-authorized",
-    attribution: "© Brand — official / authorized product photography",
-    width: 1000,
-    height: 1000,
-  },
-  "prod-kuikma-pr-soft-500": {
-    productId: "prod-kuikma-pr-soft-500",
-    src: "/images/padel/products/kuikma-pr-soft-500-hero.jpg",
-    sourceUrl: "https://en.decathlon.com.sa/products/padel-racket-pr-comfort-soft",
-    source: "Decathlon SA Shopify CDN (Kuikma PR Comfort Soft — current Soft/PR Soft line successor to PR Soft 500)",
-    licence: "manufacturer-marketing",
     attribution: "© Brand — official / authorized product photography",
     width: 1000,
     height: 1000,
@@ -1479,7 +1418,7 @@ export const CATALOG_PRODUCT_MEDIA: Record<string, CatalogProductMediaSource> = 
   },
   "prod-nox-at10-12k-2026": {
     productId: "prod-nox-at10-12k-2026",
-    src: "/images/padel/products/nox-at10-12k-2026-hero.png",
+    src: "/images/padel/products/nox-at10-genius-12k-alum-xtrem-2026-hero.jpg",
     sourceUrl: "https://padelusa.com/products/nox-at10-genius-12k-alum-xtreme-padel-racket?variant=47301729747107&_pos=1&_sid=ac7bdb158&_ss=r",
     source: "Shopify CDN",
     licence: "retailer-authorized",
@@ -1489,13 +1428,13 @@ export const CATALOG_PRODUCT_MEDIA: Record<string, CatalogProductMediaSource> = 
   },
   "prod-nox-at10-18k-2026": {
     productId: "prod-nox-at10-18k-2026",
-    src: "/images/padel/products/nox-at10-genius-18k-2026-hero.png",
-    sourceUrl: "https://www.paddlepro.com/nox-at10-genius-18k-2026-by-agustin-tapia-padel-racquet/",
-    source: "PaddlePro BigCommerce",
-    licence: "retailer-authorized",
+    src: "/images/padel/products/nox-at10-genius-18k-2026-hero.jpg",
+    sourceUrl: "https://noxsport.com/en/products/pala-at10-genius-18k-alum-2026-by-agustin-tapia",
+    source: "NOX (noxsport.com) AT10 Luxury Genius 18K Alum 2026",
+    licence: "manufacturer-marketing",
     attribution: "© Brand — official / authorized product photography",
-    width: 1000,
-    height: 1000,
+    width: 1200,
+    height: 1200,
   },
   "prod-nox-ml10-pro-cup": {
     productId: "prod-nox-ml10-pro-cup",
@@ -1868,16 +1807,6 @@ export const CATALOG_PRODUCT_MEDIA: Record<string, CatalogProductMediaSource> = 
     width: 1000,
     height: 1000,
   },
-  "prod-starvie-titania-kepler": {
-    productId: "prod-starvie-titania-kepler",
-    src: "/images/padel/products/starvie-titania-kepler-hero.jpg",
-    sourceUrl: "https://www.zonadepadel.es/star-vie/8032-star-vie-titania-kepler-pro-20.html",
-    source: "scraped CDN",
-    licence: "retailer-authorized",
-    attribution: "© Brand — official / authorized product photography",
-    width: 1000,
-    height: 1000,
-  },
   "prod-suunto-race": {
     productId: "prod-suunto-race",
     src: "/images/watches/products/suunto-race-hero.png",
@@ -1963,16 +1892,6 @@ export const CATALOG_PRODUCT_MEDIA: Record<string, CatalogProductMediaSource> = 
     src: "/images/tennis/products/tecnifibre-tfight-300s-2025-hero.jpg",
     sourceUrl: "https://www.tennis-warehouse.com/descpage-TF300S.html",
     source: "Tennis Warehouse CDN",
-    licence: "retailer-authorized",
-    attribution: "© Brand — official / authorized product photography",
-    width: 1000,
-    height: 1000,
-  },
-  "prod-tecnifibre-wall-breaker-365-2026": {
-    productId: "prod-tecnifibre-wall-breaker-365-2026",
-    src: "/images/padel/products/tecnifibre-wall-breaker-365-hero.jpg",
-    sourceUrl: "https://www.greavessports.com/products/wall-breaker-365-padel-racket-black-yellow",
-    source: "Greaves Sports Shopify CDN",
     licence: "retailer-authorized",
     attribution: "© Brand — official / authorized product photography",
     width: 1000,
@@ -2206,7 +2125,7 @@ export const CATALOG_PRODUCT_MEDIA: Record<string, CatalogProductMediaSource> = 
   },
   "prod-wilson-overgrip": {
     productId: "prod-wilson-overgrip",
-    src: "/images/fitness/products/wilson-overgrip-hero.jpg",
+    src: "/images/padel/products/wilson-padel-overgrip-hero.jpg",
     sourceUrl: "https://www.zonadepadel.es/wilson-padel/8056-overgrip-wilson-pro-padel-3pk-blanco.html",
     source: "scraped CDN",
     licence: "retailer-authorized",
@@ -5076,16 +4995,7 @@ export const CATALOG_PRODUCT_MEDIA: Record<string, CatalogProductMediaSource> = 
   // prod-siux-diablo-pro shoe intentionally unregistered — Diablo Pro is a racket
   // line; wave28 keeps that shoe SKU draft until a verified shoe packshot exists.
 
-  "prod-siux-comodo-woman": {
-    productId: "prod-siux-comodo-woman",
-    src: "/images/padel/products/siux-comodo-woman-hero.jpg",
-    sourceUrl: "https://www.zonadepadel.es/busca?controller=search&s=Siux%20Comodo%20Woman",
-    source: "Zona de Padel authorized product photography",
-    licence: "retailer-authorized",
-    attribution: "© Brand — official / authorized product photography",
-    width: 800,
-    height: 800,
-  },
+  // Unregistered: siux-comodo-woman hero was a Siux t-shirt, not a shoe.
 
   "prod-asics-gel-resolution-padel-w": {
     productId: "prod-asics-gel-resolution-padel-w",
@@ -5109,16 +5019,7 @@ export const CATALOG_PRODUCT_MEDIA: Record<string, CatalogProductMediaSource> = 
     height: 800,
   },
 
-  "prod-wilson-bela-pro-padel": {
-    productId: "prod-wilson-bela-pro-padel",
-    src: "/images/padel/products/wilson-bela-pro-padel-hero.jpg",
-    sourceUrl: "https://www.zonadepadel.es/busca?controller=search&s=Wilson%20Bela%20Pro",
-    source: "Zona de Padel authorized product photography",
-    licence: "retailer-authorized",
-    attribution: "© Brand — official / authorized product photography",
-    width: 800,
-    height: 800,
-  },
+  // Unregistered: wilson-bela-pro-padel shoe hero was a Bela Pro racket.
 
   "prod-joma-spin-lady": {
     productId: "prod-joma-spin-lady",
@@ -5131,27 +5032,8 @@ export const CATALOG_PRODUCT_MEDIA: Record<string, CatalogProductMediaSource> = 
     height: 800,
   },
 
-  "prod-bullpadel-hack-hybrid": {
-    productId: "prod-bullpadel-hack-hybrid",
-    src: "/images/padel/products/bullpadel-hack-hybrid-hero.jpg",
-    sourceUrl: "https://www.zonadepadel.es/busca?controller=search&s=Bullpadel%20Hack%20Hybrid",
-    source: "Zona de Padel authorized product photography",
-    licence: "retailer-authorized",
-    attribution: "© Brand — official / authorized product photography",
-    width: 800,
-    height: 800,
-  },
-
-  "prod-nox-at10-pro-shoe": {
-    productId: "prod-nox-at10-pro-shoe",
-    src: "/images/padel/products/nox-at10-pro-hero.jpg",
-    sourceUrl: "https://www.zonadepadel.es/busca?controller=search&s=Nox%20AT10%20Pro",
-    source: "Zona de Padel authorized product photography",
-    licence: "retailer-authorized",
-    attribution: "© Brand — official / authorized product photography",
-    width: 800,
-    height: 800,
-  },
+  // Unregistered: bullpadel-hack-hybrid shoe hero was a Cloud racket.
+  // Unregistered: nox-at10-pro-shoe hero was an AT10 Pro Cup Soft racket.
 
   "prod-babolat-jet-premura-2-men": {
     productId: "prod-babolat-jet-premura-2-men",
@@ -5164,16 +5046,7 @@ export const CATALOG_PRODUCT_MEDIA: Record<string, CatalogProductMediaSource> = 
     height: 800,
   },
 
-  "prod-lok-padel-one": {
-    productId: "prod-lok-padel-one",
-    src: "/images/padel/products/lok-padel-one-hero.jpg",
-    sourceUrl: "https://www.zonadepadel.es/busca?controller=search&s=LOK%20Padel%20One",
-    source: "Zona de Padel authorized product photography",
-    licence: "retailer-authorized",
-    attribution: "© Brand — official / authorized product photography",
-    width: 800,
-    height: 800,
-  },
+  // Unregistered: lok-padel-one hero was a LOK Generation One t-shirt.
 
   "prod-babolat-jet-tere": {
     productId: "prod-babolat-jet-tere",
@@ -5819,7 +5692,10 @@ export function getCatalogProductHeroMedia(
   productId: string,
   alt: string,
 ): MediaAsset[] | undefined {
-  const entry = CATALOG_PRODUCT_MEDIA[productId];
+  const entry =
+    CATALOG_PRODUCT_MEDIA[productId] ??
+    PADEL_RACKET_PRODUCT_MEDIA[productId] ??
+    PADEL_SECONDARY_PRODUCT_MEDIA[productId];
   if (!entry) return undefined;
   return [{
     id: `media-${productId}-hero`,

@@ -1,0 +1,193 @@
+{
+  "asOf": "2026-09-14",
+  "base": "http://127.0.0.1:3012",
+  "pathCount": 105,
+  "inspectionCount": 210,
+  "quotas": {
+    "rackets": 10,
+    "shoes": 5,
+    "balls": 15,
+    "bags": 20,
+    "grips": 15,
+    "accessories": 15,
+    "reviews": 0,
+    "best": 5,
+    "comparisons": 5,
+    "alternatives": 5,
+    "guides": 5,
+    "hubs": 5
+  },
+  "checks": {
+    "status_non_200": 0,
+    "token_leak": 2,
+    "schema_leak_visible": 8,
+    "machine_copy": 0,
+    "fake_testing": 0,
+    "wrong_sport_media": 10,
+    "mobile_overflow": 0,
+    "errors": []
+  },
+  "fail": true,
+  "failing": [
+    {
+      "path": "/products/bullpadel-protector-custom-weight",
+      "viewport": "desktop",
+      "status": 200,
+      "issues": [
+        "SCHEMA_LEAK_VISIBLE"
+      ]
+    },
+    {
+      "path": "/products/bullpadel-protector-custom-weight",
+      "viewport": "mobile",
+      "status": 200,
+      "issues": [
+        "SCHEMA_LEAK_VISIBLE"
+      ]
+    },
+    {
+      "path": "/products/bullpadel-custom-weight-grip",
+      "viewport": "desktop",
+      "status": 200,
+      "issues": [
+        "SCHEMA_LEAK_VISIBLE"
+      ]
+    },
+    {
+      "path": "/products/bullpadel-custom-weight-grip",
+      "viewport": "mobile",
+      "status": 200,
+      "issues": [
+        "SCHEMA_LEAK_VISIBLE"
+      ]
+    },
+    {
+      "path": "/products/nox-weight-balancer-2-4g",
+      "viewport": "desktop",
+      "status": 200,
+      "issues": [
+        "SCHEMA_LEAK_VISIBLE"
+      ]
+    },
+    {
+      "path": "/products/nox-weight-balancer-2-4g",
+      "viewport": "mobile",
+      "status": 200,
+      "issues": [
+        "SCHEMA_LEAK_VISIBLE"
+      ]
+    },
+    {
+      "path": "/products/shockout-gravity",
+      "viewport": "desktop",
+      "status": 200,
+      "issues": [
+        "SCHEMA_LEAK_VISIBLE"
+      ]
+    },
+    {
+      "path": "/products/shockout-gravity",
+      "viewport": "mobile",
+      "status": 200,
+      "issues": [
+        "SCHEMA_LEAK_VISIBLE"
+      ]
+    },
+    {
+      "path": "/products/asics-novablast-5/alternatives",
+      "viewport": "desktop",
+      "status": 200,
+      "issues": [
+        "WRONG_SPORT_MEDIA"
+      ]
+    },
+    {
+      "path": "/products/asics-novablast-5/alternatives",
+      "viewport": "mobile",
+      "status": 200,
+      "issues": [
+        "WRONG_SPORT_MEDIA"
+      ]
+    },
+    {
+      "path": "/products/asics-novablast-4/alternatives",
+      "viewport": "desktop",
+      "status": 200,
+      "issues": [
+        "WRONG_SPORT_MEDIA"
+      ]
+    },
+    {
+      "path": "/products/asics-novablast-4/alternatives",
+      "viewport": "mobile",
+      "status": 200,
+      "issues": [
+        "WRONG_SPORT_MEDIA"
+      ]
+    },
+    {
+      "path": "/products/asics-gel-nimbus-27/alternatives",
+      "viewport": "desktop",
+      "status": 200,
+      "issues": [
+        "WRONG_SPORT_MEDIA"
+      ]
+    },
+    {
+      "path": "/products/asics-gel-nimbus-27/alternatives",
+      "viewport": "mobile",
+      "status": 200,
+      "issues": [
+        "WRONG_SPORT_MEDIA"
+      ]
+    },
+    {
+      "path": "/products/nike-pegasus-41/alternatives",
+      "viewport": "desktop",
+      "status": 200,
+      "issues": [
+        "WRONG_SPORT_MEDIA"
+      ]
+    },
+    {
+      "path": "/products/nike-pegasus-41/alternatives",
+      "viewport": "mobile",
+      "status": 200,
+      "issues": [
+        "WRONG_SPORT_MEDIA"
+      ]
+    },
+    {
+      "path": "/products/brooks-ghost-16/alternatives",
+      "viewport": "desktop",
+      "status": 200,
+      "issues": [
+        "WRONG_SPORT_MEDIA"
+      ]
+    },
+    {
+      "path": "/products/brooks-ghost-16/alternatives",
+      "viewport": "mobile",
+      "status": 200,
+      "issues": [
+        "WRONG_SPORT_MEDIA"
+      ]
+    },
+    {
+      "path": "/padel/rackets/database",
+      "viewport": "desktop",
+      "status": 200,
+      "issues": [
+        "TOKEN_LEAK"
+      ]
+    },
+    {
+      "path": "/padel/rackets/database",
+      "viewport": "mobile",
+      "status": 200,
+      "issues": [
+        "TOKEN_LEAK"
+      ]
+    }
+  ]
+}

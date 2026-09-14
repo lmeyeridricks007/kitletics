@@ -7,6 +7,7 @@ import { SkipLink } from "@/components/layout/SkipLink";
 import { SiteHeader } from "@/components/layout/SiteHeader";
 import { SiteFooterGate } from "@/components/layout/SiteFooterGate";
 import { SiteFooter } from "@/components/layout/SiteFooter";
+import { PublicChromeGate } from "@/components/layout/PublicChromeGate";
 import { Analytics } from "@vercel/analytics/next";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import { AnalyticsScripts } from "@/components/analytics/AnalyticsScripts";
@@ -85,25 +86,33 @@ export default function RootLayout({
             <CompareTrayProvider>
               <SkipLink />
               <div className="flex min-h-svh flex-col">
-                <SiteHeader />
+                <PublicChromeGate>
+                  <SiteHeader />
+                </PublicChromeGate>
                 <main id="main-content" tabIndex={-1} className="flex-1 outline-none scroll-mt-[var(--header-height)]">
                   {children}
                 </main>
-                <SiteFooterGate footer={<SiteFooter />} />
+                <PublicChromeGate>
+                  <SiteFooterGate footer={<SiteFooter />} />
+                </PublicChromeGate>
               </div>
-              <GlobalCompareTray />
+              <PublicChromeGate>
+                <GlobalCompareTray />
+              </PublicChromeGate>
             </CompareTrayProvider>
           </AnalyticsProvider>
         </ThemeProvider>
-        <AnalyticsScripts
-          enabled={analyticsConfig.enabled}
-          measurementId={analyticsConfig.measurementId}
-          ahrefsEnabled={analyticsConfig.ahrefsEnabled}
-          ahrefsKey={analyticsConfig.ahrefsKey}
-          initialAnalyticsConsent={null}
-        />
-        <Analytics />
-        <SpeedInsights />
+        <PublicChromeGate>
+          <AnalyticsScripts
+            enabled={analyticsConfig.enabled}
+            measurementId={analyticsConfig.measurementId}
+            ahrefsEnabled={analyticsConfig.ahrefsEnabled}
+            ahrefsKey={analyticsConfig.ahrefsKey}
+            initialAnalyticsConsent={null}
+          />
+          <Analytics />
+          <SpeedInsights />
+        </PublicChromeGate>
       </body>
     </html>
   );

@@ -7,6 +7,7 @@ import type {
   FinderNormalizedProfile,
   FinderScoringProfile,
 } from "@/domain/finders/types";
+import { getPadelRacketDecisionAttributes } from "@/content/padel/rackets";
 
 function asArray(value: SpecValue | undefined): string[] {
   if (value === undefined || value === null) return [];
@@ -96,7 +97,7 @@ export function resolveProfileUseCaseIds(
     const hasStyleContexts =
       prefix === "uc-padel" || prefix === "uc-tennis";
     if (hasStyleContexts) {
-      if (style === "control" || style === "control-focused") {
+      if (style === "control" || style === "control-focused" || style === "defensive") {
         ids.add(`${prefix}-control`);
       } else if (
         style === "power" ||
@@ -104,7 +105,11 @@ export function resolveProfileUseCaseIds(
         style === "aggressive"
       ) {
         ids.add(`${prefix}-power`);
-      } else if (style === "balanced" || style === "figuring-out") {
+      } else if (
+        style === "balanced" ||
+        style === "all-round" ||
+        style === "figuring-out"
+      ) {
         ids.add(`${prefix}-balanced`);
       } else if (style === "spin" && prefix === "uc-tennis") {
         ids.add(`${prefix}-spin`);
@@ -147,11 +152,22 @@ export function racketSpecsScore(
   product: Product,
 ): { score: number; confidence: FactorConfidence; explanation: string } {
   const specs = product.specifications;
+  const padelAttrs = getPadelRacketDecisionAttributes(product.id);
+  const attr = (key: string) => padelAttrs?.find((a) => a.key === key)?.score;
   const parts: { score: number; known: boolean; note: string }[] = [];
 
-  const power = specs.powerPositioning != null ? String(specs.powerPositioning) : undefined;
+  const power =
+    attr("power") != null
+      ? undefined
+      : specs.powerPositioning != null
+        ? String(specs.powerPositioning)
+        : undefined;
   const control =
-    specs.controlPositioning != null ? String(specs.controlPositioning) : undefined;
+    attr("control") != null
+      ? undefined
+      : specs.controlPositioning != null
+        ? String(specs.controlPositioning)
+        : undefined;
   const sweet =
     specs.sweetSpot != null ? String(specs.sweetSpot) : undefined;
   const balance = specs.balance != null ? String(specs.balance) : undefined;
@@ -173,7 +189,8 @@ export function racketSpecsScore(
     profile.playingStyle === "aggressive";
   const wantsControl =
     profile.priorities.includes("control") ||
-    profile.playingStyle === "control";
+    profile.playingStyle === "control" ||
+    profile.playingStyle === "defensive";
   const wantsForgive =
     profile.priorities.includes("forgiveness") ||
     profile.priorities.includes("comfort") ||
@@ -183,7 +200,14 @@ export function racketSpecsScore(
     profile.balancePreference === "low";
 
   if (wantsPower) {
-    if (!power) {
+    const powerScore = attr("power");
+    if (powerScore != null) {
+      parts.push({
+        score: powerScore,
+        known: true,
+        note: "Padel power attribute (not a lab measurement)",
+      });
+    } else if (!power) {
       parts.push({
         score: 55,
         known: false,
@@ -201,7 +225,14 @@ export function racketSpecsScore(
   }
 
   if (wantsControl) {
-    if (!control) {
+    const controlScore = attr("control");
+    if (controlScore != null) {
+      parts.push({
+        score: controlScore,
+        known: true,
+        note: "Padel control attribute (not a lab measurement)",
+      });
+    } else if (!control) {
       parts.push({
         score: 55,
         known: false,
@@ -219,7 +250,14 @@ export function racketSpecsScore(
   }
 
   if (wantsForgive) {
-    if (profile.categoryId === "cat-tennis-rackets") {
+    const forgiveScore = attr("forgiveness") ?? attr("comfort");
+    if (forgiveScore != null) {
+      parts.push({
+        score: forgiveScore,
+        known: true,
+        note: "Padel forgiveness/comfort attribute (not a lab measurement)",
+      });
+    } else if (profile.categoryId === "cat-tennis-rackets") {
       const head =
         typeof specs.headSizeSqIn === "number" ? specs.headSizeSqIn : undefined;
       if (head === undefined) {
@@ -379,6 +417,27 @@ export function racketSpecsScore(
         score: ok ? 88 : soft || firm ? 50 : 60,
         known: true,
         note: `Core ${core} vs feel preference ${want}`,
+      });
+    }
+  }
+
+  if (profile.armComfortPriority) {
+    if (!core) {
+      parts.push({
+        score: 58,
+        known: false,
+        note: "Arm comfort requested but core/feel not verified",
+      });
+    } else {
+      const soft = ["soft-EVA", "foam", "soft", "comfort"].some((c) =>
+        core.toLowerCase().includes(c.toLowerCase()),
+      );
+      parts.push({
+        score: soft ? 92 : 48,
+        known: true,
+        note: soft
+          ? `Softer core (${core}) aligns with arm/elbow comfort priority`
+          : `Firmer core (${core}) is a trade-off when arm comfort matters`,
       });
     }
   }

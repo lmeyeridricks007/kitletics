@@ -16,6 +16,28 @@ const EUR_BUDGETS = {
   ],
 };
 
+const GBP_BUDGETS = {
+  region: "UK" as const,
+  currency: "GBP",
+  bands: [
+    { id: "under-100", label: "Under £100", max: 100, currency: "GBP" },
+    { id: "100-180", label: "£100–£180", min: 100, max: 180, currency: "GBP" },
+    { id: "180-280", label: "£180–£280", min: 180, max: 280, currency: "GBP" },
+    { id: "280-plus", label: "£280+", min: 280, currency: "GBP" },
+  ],
+};
+
+const USD_BUDGETS = {
+  region: "US" as const,
+  currency: "USD",
+  bands: [
+    { id: "under-100", label: "Under $100", max: 100, currency: "USD" },
+    { id: "100-180", label: "$100–$180", min: 100, max: 180, currency: "USD" },
+    { id: "180-280", label: "$180–$280", min: 180, max: 280, currency: "USD" },
+    { id: "280-plus", label: "$280+", min: 280, currency: "USD" },
+  ],
+};
+
 const DEFAULT_RESULT = {
   maxResults: 8,
   minMatchForDisplay: 40,
@@ -86,9 +108,9 @@ export const padelRacketFinderDefinition: FinderDefinition = {
   categoryId: "cat-padel-rackets",
   title: "Padel Racket Finder",
   description:
-    "Find the right balance of control, power and maneuverability for how you play.",
-  version: "v1",
-  priorityKey: "priorities",
+    "Match padel rackets to your level, priorities and feel — with clear reasons for every pick. Affiliate commission never ranks results.",
+  version: "v2",
+  priorityKey: "primaryPriority",
   budgetKey: "budget",
   questions: [
     {
@@ -96,14 +118,101 @@ export const padelRacketFinderDefinition: FinderDefinition = {
       key: "primaryUse",
       type: "single-select",
       title: "What is your experience level?",
+      description: "Be honest — this is the strongest filter for forgiveness vs finishing power.",
       required: true,
       options: [
-        { id: "e-start", value: "beginner", label: "Just starting / beginner" },
-        { id: "e-int", value: "intermediate", label: "Intermediate" },
-        { id: "e-adv", value: "advanced", label: "Advanced" },
-        { id: "e-comp", value: "competitive", label: "Competitive" },
+        { id: "e-beg", value: "beginner", label: "Beginner", description: "Still building consistent contact" },
+        { id: "e-int", value: "intermediate", label: "Intermediate", description: "Place balls; exploring attack" },
+        { id: "e-adv", value: "advanced", label: "Advanced", description: "Reliable timing and point construction" },
       ],
       affects: ["useCases", "experience"],
+    },
+    {
+      id: "q-priority",
+      key: "primaryPriority",
+      type: "single-select",
+      title: "What matters most in your next racket?",
+      required: true,
+      options: [
+        { id: "pp-ctrl", value: "control", label: "Control", description: "Placement and defence first" },
+        { id: "pp-bal", value: "balanced", label: "Balanced", description: "Attack and defend in equal measure" },
+        { id: "pp-pow", value: "power", label: "Power", description: "Finishing and smash authority" },
+        { id: "pp-com", value: "comfort", label: "Comfort", description: "Arm-friendly / softer response" },
+        { id: "pp-man", value: "maneuverability", label: "Maneuverability", description: "Quick preparation and handling" },
+      ],
+      affects: ["priorities"],
+    },
+    {
+      id: "q-style",
+      key: "playingStyle",
+      type: "single-select",
+      title: "How do you like to play?",
+      required: false,
+      showWhen: {
+        key: "primaryUse",
+        anyOf: ["intermediate", "advanced"],
+      },
+      options: [
+        { id: "s-def", value: "defensive", label: "Defensive", description: "Counter-punch and glass defence" },
+        { id: "s-all", value: "all-round", label: "All-round", description: "Mixed attack and defence" },
+        { id: "s-agg", value: "aggressive", label: "Aggressive", description: "Finish points at the net" },
+        { id: "s-dk", value: "dont-know", label: "Don't know" },
+      ],
+    },
+    {
+      id: "q-position",
+      key: "courtPosition",
+      type: "single-select",
+      title: "Which side do you usually play?",
+      description: "Soft preference only — not a hard filter.",
+      required: false,
+      showWhen: {
+        key: "primaryUse",
+        anyOf: ["intermediate", "advanced"],
+      },
+      options: [
+        { id: "pos-l", value: "left", label: "Left", description: "Often more finishing responsibility" },
+        { id: "pos-r", value: "right", label: "Right", description: "Often more construction / defence" },
+        { id: "pos-b", value: "both", label: "Both" },
+        { id: "pos-dk", value: "dont-know", label: "Don't know" },
+      ],
+    },
+    {
+      id: "q-feel",
+      key: "feelPreference",
+      type: "single-select",
+      title: "Preferred feel",
+      required: false,
+      options: [
+        { id: "f-soft", value: "softer", label: "Soft" },
+        { id: "f-med", value: "balanced", label: "Medium" },
+        { id: "f-firm", value: "firmer", label: "Firm" },
+        { id: "f-dk", value: "dont-know", label: "Don't know" },
+      ],
+    },
+    {
+      id: "q-weight",
+      key: "weightPreference",
+      type: "single-select",
+      title: "Racket weight preference",
+      required: true,
+      options: [
+        { id: "w-light", value: "light", label: "Light", description: "Easier recovery between balls" },
+        { id: "w-med", value: "medium", label: "Medium" },
+        { id: "w-heavy", value: "heavy", label: "Heavy", description: "More planted on hard contact" },
+        { id: "w-dk", value: "dont-know", label: "Don't know" },
+      ],
+    },
+    {
+      id: "q-arm",
+      key: "armComfortPriority",
+      type: "single-select",
+      title: "Is arm or elbow comfort a priority?",
+      required: true,
+      options: [
+        { id: "arm-yes", value: "yes", label: "Yes", description: "Bias toward softer / more forgiving packages" },
+        { id: "arm-no", value: "no", label: "No" },
+      ],
     },
     {
       id: "q-current",
@@ -111,6 +220,10 @@ export const padelRacketFinderDefinition: FinderDefinition = {
       type: "single-select",
       title: "Do you already have a racket?",
       required: false,
+      showWhen: {
+        key: "primaryUse",
+        anyOf: ["intermediate", "advanced"],
+      },
       options: [
         { id: "cur-yes", value: "yes", label: "Yes — I want to improve on it" },
         { id: "cur-no", value: "no", label: "No / starting fresh" },
@@ -127,83 +240,10 @@ export const padelRacketFinderDefinition: FinderDefinition = {
       options: [
         { id: "c-pow", value: "more-power", label: "More power" },
         { id: "c-ctrl", value: "more-control", label: "More control" },
-        { id: "c-light", value: "lighter", label: "Lighter / easier handling" },
+        { id: "c-light", value: "lighter", label: "Easier handling" },
         { id: "c-for", value: "more-forgiving", label: "More forgiving" },
-        { id: "c-spin", value: "more-spin", label: "More spin" },
+        { id: "c-soft", value: "softer-feel", label: "Softer feel" },
         { id: "c-sim", value: "similar-newer", label: "Similar but newer" },
-      ],
-    },
-    {
-      id: "q-style",
-      key: "playingStyle",
-      type: "single-select",
-      title: "How do you like to play?",
-      required: true,
-      options: [
-        { id: "s-ctrl", value: "control", label: "I prioritize control" },
-        { id: "s-bal", value: "balanced", label: "Balanced" },
-        { id: "s-pow", value: "power", label: "I like attacking / power" },
-        { id: "s-fig", value: "figuring-out", label: "I'm still figuring it out" },
-      ],
-      showWhen: {
-        key: "primaryUse",
-        anyOf: ["intermediate", "advanced", "competitive"],
-      },
-    },
-    {
-      id: "q-priority",
-      key: "priorities",
-      type: "multi-select",
-      title: "What matters most?",
-      required: true,
-      maxSelections: 3,
-      options: [
-        { id: "p-ctrl", value: "control", label: "Control" },
-        { id: "p-pow", value: "power", label: "Power" },
-        { id: "p-for", value: "forgiveness", label: "Forgiveness / sweet spot" },
-        { id: "p-man", value: "maneuverability", label: "Maneuverability" },
-        { id: "p-com", value: "comfort", label: "Comfort / easier handling" },
-        { id: "p-spin", value: "spin", label: "Spin" },
-        { id: "p-val", value: "value", label: "Value" },
-      ],
-    },
-    {
-      id: "q-weight",
-      key: "weightPreference",
-      type: "single-select",
-      title: "Weight preference",
-      required: true,
-      options: [
-        { id: "w-light", value: "light", label: "Light" },
-        { id: "w-med", value: "medium", label: "Medium" },
-        { id: "w-heavy", value: "heavy", label: "Heavy" },
-        { id: "w-any", value: "any", label: "No preference" },
-      ],
-    },
-    {
-      id: "q-balance",
-      key: "balancePreference",
-      type: "single-select",
-      title: "Balance preference",
-      required: false,
-      options: [
-        { id: "b-easy", value: "low", label: "Easy to maneuver" },
-        { id: "b-bal", value: "medium", label: "Balanced" },
-        { id: "b-head", value: "head-heavy", label: "More weight through the shot" },
-        { id: "b-any", value: "any", label: "No preference" },
-      ],
-    },
-    {
-      id: "q-feel",
-      key: "feelPreference",
-      type: "single-select",
-      title: "Preferred feel",
-      required: false,
-      options: [
-        { id: "f-soft", value: "softer", label: "Softer" },
-        { id: "f-bal", value: "balanced", label: "Balanced" },
-        { id: "f-firm", value: "firmer", label: "Firmer" },
-        { id: "f-any", value: "any", label: "No preference" },
       ],
     },
     {
@@ -211,17 +251,18 @@ export const padelRacketFinderDefinition: FinderDefinition = {
       key: "budget",
       type: "single-select",
       title: "Budget",
+      description: "Uses live regional offer prices when available — not MSRP folklore.",
       required: true,
-      options: EUR_BUDGETS.bands.map((b) => ({
-        id: b.id,
-        value: b.id,
-        label: b.label,
-      })),
+      options: [], // filled from regionalBudgets at runtime
     },
   ],
   scoringProfile: PADEL_SCORING,
-  resultConfig: DEFAULT_RESULT,
-  regionalBudgets: [EUR_BUDGETS],
+  resultConfig: {
+    ...DEFAULT_RESULT,
+    catalogCoverageMessage:
+      "Matches use published catalog specs and decision attributes. Unknown fields score neutrally — we never invent balance or sweet-spot data.",
+  },
+  regionalBudgets: [EUR_BUDGETS, GBP_BUDGETS, USD_BUDGETS],
 };
 
 export const tennisRacketFinderDefinition: FinderDefinition = {

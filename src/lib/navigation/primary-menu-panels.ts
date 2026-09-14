@@ -79,7 +79,7 @@ export const PRIMARY_MENU_PANELS: Record<string, Omit<PrimaryMenuPanel, "navHref
       {
         title: "Sports",
         links: [
-          { label: "Padel", href: "/padel", badge: "Soon" },
+          { label: "Padel", href: "/padel" },
           { label: "Tennis", href: "/tennis", badge: "Soon" },
           { label: "Pickleball", href: "/pickleball", badge: "Soon" },
           { label: "Badminton", href: "/badminton", badge: "Soon" },
@@ -89,7 +89,7 @@ export const PRIMARY_MENU_PANELS: Record<string, Omit<PrimaryMenuPanel, "navHref
       {
         title: "Learn",
         links: [
-          { label: "Padel guides", href: "/guides?sport=padel", badge: "Soon" },
+          { label: "Padel guides", href: "/guides?sport=padel" },
           { label: "Tennis guides", href: "/guides?sport=tennis", badge: "Soon" },
           { label: "Racket sports hub", href: "/racket" },
         ],

@@ -1,0 +1,439 @@
+{
+  "rows": [
+    {
+      "id": "prod-kuikma-pb-speed",
+      "slug": "kuikma-pb-speed",
+      "sourceUrl": "https://www.decathlon.ph/p/pressurised-padel-balls-kuikma-pb-speed-pack-of-3-kuikma-8788980.html",
+      "status": "READY",
+      "imageUrl": "https://contents.mediadecathlon.com/p3114672/k$84407111f9979d1a4f1eda720671cf5a/pressurised-padel-balls-kuikma-pb-speed-pack-of-3-kuikma-8788980.jpg",
+      "bytes": 48481
+    },
+    {
+      "id": "prod-nox-at10-team-bag",
+      "slug": "nox-at10-team-paletero",
+      "sourceUrl": "https://noxsport.com/en/products/paletero-at10-team-grey-black",
+      "status": "READY",
+      "imageUrl": "http://noxsport.com/cdn/shop/files/paletero-at10-team-grisnegro-bpat10tegrbl-8436603198127-244358_1200x1200.jpg?v=1719556056",
+      "bytes": 159346
+    },
+    {
+      "id": "prod-babolat-rh-pro-padel",
+      "slug": "babolat-rh-pro-padel",
+      "sourceUrl": "https://www.babolat.com/us/rh-pro/759020.html",
+      "status": "READY",
+      "imageUrl": "https://media.babolat.com/image/upload/v1708347227/Product_Media/2025/Padel/BAGS/759020-RH_PRO_PADEL-105-1-3_4_Face.png",
+      "bytes": 166868
+    },
+    {
+      "id": "prod-bullpadel-gb1200",
+      "slug": "bullpadel-hac-overgrip",
+      "sourceUrl": "https://www.zonadepadel.uk/bullpadel/1390-overgrips-gb1200-blancos.html",
+      "status": "BLOCKED",
+      "imageUrl": "https://www.zonadepadel.uk/2306-zdp_customer/overgrips-gb1200-blancos.jpg",
+      "error": "shared-hero hash collision for prod-bullpadel-gb1200-jpeg: same bytes as /images/padel/products/bullpadel-gb1200-overgrip-hero.jpg"
+    },
+    {
+      "id": "prod-head-padel-pro-plus",
+      "slug": "head-padel-pro-plus",
+      "sourceUrl": "https://www.zonadepadel.es/head-padel/11333-bote-pelotas-head-padel-pro.html",
+      "status": "READY",
+      "imageUrl": "https://www.zonadepadel.es/21141-zdp_customer/bote-pelotas-head-padel-pro.jpg",
+      "bytes": 37013
+    },
+    {
+      "id": "prod-head-padel-team",
+      "slug": "head-padel-team",
+      "sourceUrl": "https://padelmarket.com/en-eu/products/head-padel-team-3-tubes-of-3-balls",
+      "status": "READY",
+      "imageUrl": "https://padelmarket.com/cdn/shop/files/7566.jpg?v=1725947911",
+      "bytes": 72599
+    },
+    {
+      "id": "prod-head-padel-one",
+      "slug": "head-padel-one",
+      "sourceUrl": "https://padelmarket.com/en-gb/products/head-padel-one-tube-of-3-balls",
+      "status": "READY",
+      "imageUrl": "https://padelmarket.com/cdn/shop/files/7560.jpg?v=1725950334",
+      "bytes": 29620
+    },
+    {
+      "id": "prod-kuikma-pb-control",
+      "slug": "kuikma-pb-control",
+      "sourceUrl": "https://www.decathlon.in/p/8750703/pressurised-padel-balls-kuikma-pb-control-pack-of-3",
+      "status": "READY",
+      "imageUrl": "https://contents.mediadecathlon.com/p3114707/7ab55b812deccb613d8812c30f4fd529/p3114707.jpg",
+      "bytes": 50387
+    },
+    {
+      "id": "prod-wilson-padel-premier",
+      "slug": "wilson-padel-premier",
+      "sourceUrl": "https://padelmarket.com/en-eu/products/wilson-premier-padel-3-ball-tin",
+      "status": "READY",
+      "imageUrl": "https://padelmarket.com/cdn/shop/files/10390.jpg?v=1725951130",
+      "bytes": 33073
+    },
+    {
+      "id": "prod-wilson-padel-premier-speed",
+      "slug": "wilson-padel-premier-speed",
+      "sourceUrl": "https://padelmarket.com/en-worldwide/products/wilson-premier-padel-speed-3-ball-set",
+      "status": "READY",
+      "imageUrl": "https://padelmarket.com/cdn/shop/files/10301.jpg?v=1725951119",
+      "bytes": 43396
+    },
+    {
+      "id": "prod-bullpadel-premium-pro",
+      "slug": "bullpadel-premium-pro",
+      "sourceUrl": "https://padelmarket.com/en-eu/products/bullpadel-premium-pro-tube-of-3-balls",
+      "status": "READY",
+      "imageUrl": "https://padelmarket.com/cdn/shop/files/10575.jpg?v=1725947950",
+      "bytes": 50810
+    },
+    {
+      "id": "prod-babolat-court-padel-balls",
+      "slug": "babolat-court-padel-balls",
+      "sourceUrl": "https://www.babolat.com/gb/court-x3/501098.html",
+      "status": "READY",
+      "imageUrl": "https://media.babolat.com/image/upload/v1672847680/Product_Media/2023/501098-COURT_PADELX3-113-1-Face.png",
+      "bytes": 62756
+    },
+    {
+      "id": "prod-dunlop-pro-padel",
+      "slug": "dunlop-pro-padel",
+      "sourceUrl": "https://www.zonadepadel.uk/dunlop-padel/11377-bottle-balls-dunlop-fort-padel.html",
+      "status": "READY",
+      "imageUrl": "https://www.zonadepadel.uk/21162-zdp_customer/bottle-balls-dunlop-fort-padel.jpg",
+      "bytes": 44668
+    },
+    {
+      "id": "prod-bullpadel-vertex-backpack",
+      "slug": "bullpadel-vertex-geo-backpack",
+      "sourceUrl": "https://padelmarket.com/en/products/bullpadel-bpm-26008-vertex-geo-blue-2026-pablo-cardona-backpack",
+      "status": "READY",
+      "imageUrl": "https://padelmarket.com/cdn/shop/files/VERTEXGEO_2.jpg?v=1774350538",
+      "bytes": 68344
+    },
+    {
+      "id": "prod-babolat-court-backpack",
+      "slug": "babolat-court-backpack",
+      "sourceUrl": "https://www.babolat.com/us/court-s/102-759022.html",
+      "status": "READY",
+      "imageUrl": "https://media.babolat.com/image/upload/v1720615409/Product_Media/2025/Padel/BAGS/759022-COURT_S-102-1-3_4_Face.png",
+      "bytes": 166754
+    },
+    {
+      "id": "prod-adidas-protour-padel",
+      "slug": "adidas-protour-padel-bag",
+      "sourceUrl": "https://momentum-sports.co.uk/products/racket-bag-protour-black-3-4",
+      "status": "READY",
+      "imageUrl": "https://momentum-sports.co.uk/cdn/shop/files/racket-bag-adidas-protour-black-34.png?v=1750179304",
+      "bytes": 43884
+    },
+    {
+      "id": "prod-head-elite-backpack",
+      "slug": "head-elite-padel-backpack",
+      "sourceUrl": "https://www.tennis-point.co.uk/products/head-tour-team-elite-backpack-limeblue-00637502591000",
+      "status": "READY",
+      "imageUrl": "https://www.tennis-point.co.uk/cdn/shop/files/0063750259100000.jpg?v=1775049293",
+      "bytes": 178214
+    },
+    {
+      "id": "prod-wilson-super-tour-padel",
+      "slug": "wilson-super-tour-padel-bag",
+      "sourceUrl": "https://global.e-padel.com/wilson-super-tour-padel-bag-wr8913001.html",
+      "status": "READY",
+      "imageUrl": "https://global.e-padel.com/media/catalog/product/cache/e3f192febd5085c1042f4a34b66cbefd/w/r/wr8913001_1_.jpg",
+      "bytes": 9652
+    },
+    {
+      "id": "prod-kuikma-overgrip",
+      "slug": "kuikma-padel-overgrip",
+      "sourceUrl": "https://www.decathlon.sg/p/padel-overgrip-pro-kuikma-8981669.html",
+      "status": "READY",
+      "imageUrl": "https://contents.mediadecathlon.com/p3034884/k$930bf149a819c5326e40a5a1e8333d64/padel-overgrip-pro-kuikma-8981669.jpg",
+      "bytes": 74446
+    },
+    {
+      "id": "prod-nox-pro-overgrip",
+      "slug": "nox-pro-overgrip",
+      "sourceUrl": "https://noxsport.com/en/products/bote-overgrips-pro-60-unidades-blanco",
+      "status": "READY",
+      "imageUrl": "http://noxsport.com/cdn/shop/files/bote-overgrips-pro-blanco-liso-60-uds-overgrips-ovpro60blnox-5360132_1200x1200.png?v=1766162910",
+      "bytes": 123970
+    },
+    {
+      "id": "prod-babolat-pro-response",
+      "slug": "babolat-pro-response-overgrip",
+      "sourceUrl": "https://www.babolat.com/gb/pro-response-x3/653048.html",
+      "status": "READY",
+      "imageUrl": "https://media.babolat.com/image/upload/v1728905770/Product_Media/2024/653048-PRO_RESPONSE_x3-101-1-Pack_Recto.png",
+      "bytes": 199742
+    },
+    {
+      "id": "prod-babolat-syntec-pro",
+      "slug": "babolat-syntec-pro-replacement-grip",
+      "sourceUrl": "https://www.babolat.com/us/syntec-pro/670051.html",
+      "status": "READY",
+      "imageUrl": "https://media.babolat.com/image/upload/v1728897362/Product_Media/2024/Tennis/Grips%20Surgrips/670051-SYNTEC_PRO_X1-101-1-Pack_Recto.png",
+      "bytes": 228266
+    },
+    {
+      "id": "prod-hesacore-padel",
+      "slug": "hesacore-padel-grip",
+      "sourceUrl": "https://shop.hesacore.com/products/padel-hesacore-tour-grip-1",
+      "status": "READY",
+      "imageUrl": "http://shop.hesacore.com/cdn/shop/files/Original-Hesacore-Padel.webp?v=1780361751",
+      "bytes": 40040
+    },
+    {
+      "id": "prod-bullpadel-frame-protector",
+      "slug": "bullpadel-frame-protector-3-pack",
+      "sourceUrl": "https://padelmarket.com/en/products/protector-tape-bullpadel-frame-pro-black-2-pcs",
+      "status": "READY",
+      "imageUrl": "https://padelmarket.com/cdn/shop/files/ProtectoresBullpadel.jpg?v=1760601985",
+      "bytes": 66993
+    },
+    {
+      "id": "prod-head-x3-pressurizer",
+      "slug": "head-x3-ball-pressurizer",
+      "sourceUrl": "https://www.zonadepadel.es/head-padel/7813-bote-presurizador-head-x-3-pump.html",
+      "status": "READY",
+      "imageUrl": "https://www.zonadepadel.es/16642-zdp_customer/bote-presurizador-head-x-3-pump.jpg",
+      "bytes": 57938
+    },
+    {
+      "id": "prod-nox-at10-xxl-bag",
+      "slug": "nox-at10-xxl-padel-bag",
+      "sourceUrl": "https://noxsport.com/en/products/padel-bag-at10-xxl",
+      "status": "READY",
+      "imageUrl": "http://noxsport.com/cdn/shop/files/paletero-at10-xxl-bpat10xxl24-8436603198097-985705_1200x1200.jpg?v=1719556072",
+      "bytes": 147738
+    }
+  ],
+  "mediaEntries": [
+    {
+      "productId": "prod-kuikma-pb-speed",
+      "src": "/images/padel/products/kuikma-pb-speed-hero.jpg",
+      "sourceUrl": "https://www.decathlon.ph/p/pressurised-padel-balls-kuikma-pb-speed-pack-of-3-kuikma-8788980.html",
+      "source": "Decathlon Kuikma PB Speed",
+      "licence": "manufacturer-marketing",
+      "width": 1200,
+      "height": 1200
+    },
+    {
+      "productId": "prod-nox-at10-team-bag",
+      "src": "/images/padel/products/nox-at10-team-paletero-hero.jpg",
+      "sourceUrl": "https://noxsport.com/en/products/paletero-at10-team-grey-black",
+      "source": "NOX AT10 TEAM GREY/BLACK",
+      "licence": "manufacturer-marketing",
+      "width": 1200,
+      "height": 1200
+    },
+    {
+      "productId": "prod-babolat-rh-pro-padel",
+      "src": "/images/padel/products/babolat-rh-pro-padel-hero.jpg",
+      "sourceUrl": "https://www.babolat.com/us/rh-pro/759020.html",
+      "source": "Babolat RH Pro",
+      "licence": "manufacturer-marketing",
+      "width": 1200,
+      "height": 1200
+    },
+    {
+      "productId": "prod-head-padel-pro-plus",
+      "src": "/images/padel/products/head-padel-pro-plus-hero.jpg",
+      "sourceUrl": "https://www.zonadepadel.es/head-padel/11333-bote-pelotas-head-padel-pro.html",
+      "source": "Zona de Padel HEAD Padel Pro+",
+      "licence": "manufacturer-marketing",
+      "width": 900,
+      "height": 900
+    },
+    {
+      "productId": "prod-head-padel-team",
+      "src": "/images/padel/products/head-padel-team-hero.jpg",
+      "sourceUrl": "https://padelmarket.com/en-eu/products/head-padel-team-3-tubes-of-3-balls",
+      "source": "Padel Market HEAD Team 3-tube pack",
+      "licence": "manufacturer-marketing",
+      "width": 1000,
+      "height": 1000
+    },
+    {
+      "productId": "prod-head-padel-one",
+      "src": "/images/padel/products/head-padel-one-hero.jpg",
+      "sourceUrl": "https://padelmarket.com/en-gb/products/head-padel-one-tube-of-3-balls",
+      "source": "Padel Market HEAD Padel One",
+      "licence": "manufacturer-marketing",
+      "width": 1000,
+      "height": 1000
+    },
+    {
+      "productId": "prod-kuikma-pb-control",
+      "src": "/images/padel/products/kuikma-pb-control-hero.jpg",
+      "sourceUrl": "https://www.decathlon.in/p/8750703/pressurised-padel-balls-kuikma-pb-control-pack-of-3",
+      "source": "Decathlon Kuikma PB Control",
+      "licence": "manufacturer-marketing",
+      "width": 1200,
+      "height": 1200
+    },
+    {
+      "productId": "prod-wilson-padel-premier",
+      "src": "/images/padel/products/wilson-padel-premier-hero.jpg",
+      "sourceUrl": "https://padelmarket.com/en-eu/products/wilson-premier-padel-3-ball-tin",
+      "source": "Padel Market Wilson Premier",
+      "licence": "manufacturer-marketing",
+      "width": 1000,
+      "height": 1000
+    },
+    {
+      "productId": "prod-wilson-padel-premier-speed",
+      "src": "/images/padel/products/wilson-padel-premier-speed-hero.jpg",
+      "sourceUrl": "https://padelmarket.com/en-worldwide/products/wilson-premier-padel-speed-3-ball-set",
+      "source": "Padel Market Wilson Premier Speed",
+      "licence": "manufacturer-marketing",
+      "width": 1000,
+      "height": 1000
+    },
+    {
+      "productId": "prod-bullpadel-premium-pro",
+      "src": "/images/padel/products/bullpadel-premium-pro-hero.jpg",
+      "sourceUrl": "https://padelmarket.com/en-eu/products/bullpadel-premium-pro-tube-of-3-balls",
+      "source": "Padel Market Bullpadel Premium Pro",
+      "licence": "manufacturer-marketing",
+      "width": 1000,
+      "height": 1000
+    },
+    {
+      "productId": "prod-babolat-court-padel-balls",
+      "src": "/images/padel/products/babolat-court-padel-balls-hero.jpg",
+      "sourceUrl": "https://www.babolat.com/gb/court-x3/501098.html",
+      "source": "Babolat Court x3",
+      "licence": "manufacturer-marketing",
+      "width": 1016,
+      "height": 1016
+    },
+    {
+      "productId": "prod-dunlop-pro-padel",
+      "src": "/images/padel/products/dunlop-pro-padel-hero.jpg",
+      "sourceUrl": "https://www.zonadepadel.uk/dunlop-padel/11377-bottle-balls-dunlop-fort-padel.html",
+      "source": "Zona de Padel Dunlop Fort Padel",
+      "licence": "manufacturer-marketing",
+      "width": 900,
+      "height": 900
+    },
+    {
+      "productId": "prod-bullpadel-vertex-backpack",
+      "src": "/images/padel/products/bullpadel-vertex-geo-backpack-hero.jpg",
+      "sourceUrl": "https://padelmarket.com/en/products/bullpadel-bpm-26008-vertex-geo-blue-2026-pablo-cardona-backpack",
+      "source": "Padel Market Bullpadel Vertex GEO 2026",
+      "licence": "manufacturer-marketing",
+      "width": 1000,
+      "height": 1000
+    },
+    {
+      "productId": "prod-babolat-court-backpack",
+      "src": "/images/padel/products/babolat-court-backpack-hero.jpg",
+      "sourceUrl": "https://www.babolat.com/us/court-s/102-759022.html",
+      "source": "Babolat Court S (Court line padel bag)",
+      "licence": "manufacturer-marketing",
+      "width": 1039,
+      "height": 1039
+    },
+    {
+      "productId": "prod-adidas-protour-padel",
+      "src": "/images/padel/products/adidas-protour-padel-bag-hero.jpg",
+      "sourceUrl": "https://momentum-sports.co.uk/products/racket-bag-protour-black-3-4",
+      "source": "Momentum Adidas Protour Black 3.4",
+      "licence": "manufacturer-marketing",
+      "width": 900,
+      "height": 900
+    },
+    {
+      "productId": "prod-head-elite-backpack",
+      "src": "/images/padel/products/head-elite-padel-backpack-hero.jpg",
+      "sourceUrl": "https://www.tennis-point.co.uk/products/head-tour-team-elite-backpack-limeblue-00637502591000",
+      "source": "Tennis-Point HEAD Tour Team Elite Backpack",
+      "licence": "manufacturer-marketing",
+      "width": 1200,
+      "height": 1200
+    },
+    {
+      "productId": "prod-wilson-super-tour-padel",
+      "src": "/images/padel/products/wilson-super-tour-padel-bag-hero.jpg",
+      "sourceUrl": "https://global.e-padel.com/wilson-super-tour-padel-bag-wr8913001.html",
+      "source": "e-padel Wilson Super Tour Padel Bag",
+      "licence": "manufacturer-marketing",
+      "width": 265,
+      "height": 265
+    },
+    {
+      "productId": "prod-kuikma-overgrip",
+      "src": "/images/padel/products/kuikma-padel-overgrip-hero.jpg",
+      "sourceUrl": "https://www.decathlon.sg/p/padel-overgrip-pro-kuikma-8981669.html",
+      "source": "Decathlon Kuikma Padel Overgrip Pro",
+      "licence": "manufacturer-marketing",
+      "width": 1200,
+      "height": 1200
+    },
+    {
+      "productId": "prod-nox-pro-overgrip",
+      "src": "/images/padel/products/nox-pro-overgrip-hero.jpg",
+      "sourceUrl": "https://noxsport.com/en/products/bote-overgrips-pro-60-unidades-blanco",
+      "source": "NOX PRO Overgrips white can",
+      "licence": "manufacturer-marketing",
+      "width": 1200,
+      "height": 1200
+    },
+    {
+      "productId": "prod-babolat-pro-response",
+      "src": "/images/padel/products/babolat-pro-response-overgrip-hero.jpg",
+      "sourceUrl": "https://www.babolat.com/gb/pro-response-x3/653048.html",
+      "source": "Babolat Pro Response X3",
+      "licence": "manufacturer-marketing",
+      "width": 1010,
+      "height": 1011
+    },
+    {
+      "productId": "prod-babolat-syntec-pro",
+      "src": "/images/padel/products/babolat-syntec-pro-replacement-grip-hero.jpg",
+      "sourceUrl": "https://www.babolat.com/us/syntec-pro/670051.html",
+      "source": "Babolat Syntec Pro",
+      "licence": "manufacturer-marketing",
+      "width": 1200,
+      "height": 1200
+    },
+    {
+      "productId": "prod-hesacore-padel",
+      "src": "/images/padel/products/hesacore-padel-grip-hero.jpg",
+      "sourceUrl": "https://shop.hesacore.com/products/padel-hesacore-tour-grip-1",
+      "source": "Hesacore Original Padel Grip",
+      "licence": "manufacturer-marketing",
+      "width": 1200,
+      "height": 1200
+    },
+    {
+      "productId": "prod-bullpadel-frame-protector",
+      "src": "/images/padel/products/bullpadel-frame-protector-3-pack-hero.jpg",
+      "sourceUrl": "https://padelmarket.com/en/products/protector-tape-bullpadel-frame-pro-black-2-pcs",
+      "source": "Padel Market Bullpadel Frame Pro protector",
+      "licence": "manufacturer-marketing",
+      "width": 1000,
+      "height": 1000
+    },
+    {
+      "productId": "prod-head-x3-pressurizer",
+      "src": "/images/padel/products/head-x3-ball-pressurizer-hero.jpg",
+      "sourceUrl": "https://www.zonadepadel.es/head-padel/7813-bote-presurizador-head-x-3-pump.html",
+      "source": "Zona de Padel HEAD X3 Pump",
+      "licence": "manufacturer-marketing",
+      "width": 900,
+      "height": 900
+    },
+    {
+      "productId": "prod-nox-at10-xxl-bag",
+      "src": "/images/padel/products/nox-at10-xxl-padel-bag-hero.jpg",
+      "sourceUrl": "https://noxsport.com/en/products/padel-bag-at10-xxl",
+      "source": "NOX AT10 XXL Competition bag",
+      "licence": "manufacturer-marketing",
+      "width": 1200,
+      "height": 1200
+    }
+  ]
+}

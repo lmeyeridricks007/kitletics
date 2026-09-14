@@ -91,6 +91,24 @@ export function normalizeFinderResponses(
   );
   const priorityList = [...priorities];
 
+  // Expand single primary priority into scoring priorities
+  if (priorityList.includes("balanced")) {
+    priorityList.push("control", "power");
+  }
+  if (priorityList.includes("comfort")) {
+    priorityList.push("forgiveness");
+  }
+  if (priorityList.includes("maneuverability")) {
+    priorityList.push("forgiveness");
+  }
+  // Beginners: always keep forgiveness on the table unless they chose pure power
+  if (
+    (primaryUses.includes("beginner") || experience === "beginner") &&
+    !priorityList.includes("power")
+  ) {
+    priorityList.push("forgiveness", "comfort");
+  }
+
   let weightKg: number | undefined;
   const weightRaw = responses.weight;
   if (
@@ -125,20 +143,42 @@ export function normalizeFinderResponses(
     ["beginner", "intermediate", "advanced", "competitive", "elite"].includes(u),
   ) as FinderNormalizedProfile["experienceLevel"] | undefined;
 
-  const playingStyle = responses.playingStyle
+  const playingStyleRaw = responses.playingStyle
     ? String(responses.playingStyle)
     : experienceFromPrimary === "beginner" || primaryUses.includes("beginner")
       ? "figuring-out"
       : undefined;
-  const weightPreference = responses.weightPreference
+  const playingStyle =
+    playingStyleRaw === "defensive"
+      ? "control"
+      : playingStyleRaw === "all-round"
+        ? "balanced"
+        : playingStyleRaw === "aggressive"
+          ? "aggressive"
+          : playingStyleRaw === "dont-know"
+            ? "figuring-out"
+            : playingStyleRaw;
+  const weightPreferenceRaw = responses.weightPreference
     ? String(responses.weightPreference)
     : undefined;
-  const balancePreference = responses.balancePreference
+  const weightPreference =
+    weightPreferenceRaw === "dont-know" || weightPreferenceRaw === "any"
+      ? undefined
+      : weightPreferenceRaw;
+  const balancePreferenceRaw = responses.balancePreference
     ? String(responses.balancePreference)
     : undefined;
-  const feelPreference = responses.feelPreference
+  const balancePreference =
+    balancePreferenceRaw === "dont-know" || balancePreferenceRaw === "any"
+      ? undefined
+      : balancePreferenceRaw;
+  const feelPreferenceRaw = responses.feelPreference
     ? String(responses.feelPreference)
     : undefined;
+  const feelPreference =
+    feelPreferenceRaw === "dont-know" || feelPreferenceRaw === "any"
+      ? undefined
+      : feelPreferenceRaw;
   const currentEquipmentId = responses.currentEquipmentId
     ? String(responses.currentEquipmentId)
     : undefined;
@@ -150,9 +190,35 @@ export function normalizeFinderResponses(
       priorityList.push("maneuverability");
       priorityList.push("forgiveness");
     }
+    if (g === "softer-feel") {
+      priorityList.push("comfort");
+      priorityList.push("forgiveness");
+    }
     if (g === "more-spin") priorityList.push("spin");
   }
-  const uniquePriorities = [...new Set(priorityList)].slice(0, 3);
+  const armComfortRaw = responses.armComfortPriority;
+  const armComfortPriority =
+    armComfortRaw === undefined || armComfortRaw === null
+      ? undefined
+      : String(armComfortRaw) === "yes" || armComfortRaw === true;
+  if (armComfortPriority) {
+    priorityList.push("comfort", "forgiveness");
+  }
+  const courtPositionRaw = responses.courtPosition
+    ? String(responses.courtPosition)
+    : undefined;
+  const courtPosition =
+    courtPositionRaw === "dont-know" ? undefined : courtPositionRaw;
+  // Soft position bias — never a hard filter
+  if (courtPosition === "left" && !priorityList.includes("power")) {
+    priorityList.push("power");
+  }
+  if (courtPosition === "right" && !priorityList.includes("control")) {
+    priorityList.push("control");
+  }
+  const uniquePriorities = [...new Set(priorityList)]
+    .filter((p) => p !== "balanced")
+    .slice(0, 4);
 
   const needsMapsRaw = responses.needsMaps;
   const needsMaps =
@@ -202,6 +268,8 @@ export function normalizeFinderResponses(
     feelPreference,
     currentEquipmentId,
     changeGoals: changeGoals.length > 0 ? changeGoals : undefined,
+    courtPosition,
+    armComfortPriority,
   };
 }
 

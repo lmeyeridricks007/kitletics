@@ -75,7 +75,8 @@ describe("Padel Racket Finder golden scenarios", () => {
       products: cats,
       responses: {
         primaryUse: "beginner",
-        priorities: ["control", "forgiveness"],
+        primaryPriority: "control",
+        armComfortPriority: "yes",
         weightPreference: "light",
         budget: "100-180",
       },
@@ -99,7 +100,8 @@ describe("Padel Racket Finder golden scenarios", () => {
       products: cats,
       responses: {
         primaryUse: "beginner",
-        priorities: ["control", "forgiveness"],
+        primaryPriority: "control",
+        armComfortPriority: "yes",
         weightPreference: "light",
         budget: "100-180",
       },
@@ -112,8 +114,9 @@ describe("Padel Racket Finder golden scenarios", () => {
       products: cats,
       responses: {
         primaryUse: "advanced",
-        playingStyle: "power",
-        priorities: ["power"],
+        playingStyle: "aggressive",
+        primaryPriority: "power",
+        armComfortPriority: "no",
         weightPreference: "heavy",
         feelPreference: "firmer",
         budget: "280-plus",
@@ -142,9 +145,10 @@ describe("Padel Racket Finder golden scenarios", () => {
       responses: {
         primaryUse: "intermediate",
         playingStyle: "balanced",
-        priorities: ["maneuverability"],
+        primaryPriority: "maneuverability",
+        armComfortPriority: "no",
         balancePreference: "low",
-        weightPreference: "any",
+        weightPreference: "dont-know",
         budget: "180-280",
       },
       region: "NL",
@@ -168,8 +172,9 @@ describe("Padel Racket Finder golden scenarios", () => {
       products: cats,
       responses: {
         primaryUse: "intermediate",
-        playingStyle: "control",
-        priorities: ["control"],
+        playingStyle: "defensive",
+        primaryPriority: "control",
+        armComfortPriority: "no",
         weightPreference: "medium",
         budget: "180-280",
       },
@@ -182,8 +187,9 @@ describe("Padel Racket Finder golden scenarios", () => {
       products: cats,
       responses: {
         primaryUse: "intermediate",
-        playingStyle: "power",
-        priorities: ["power"],
+        playingStyle: "aggressive",
+        primaryPriority: "power",
+        armComfortPriority: "no",
         weightPreference: "medium",
         budget: "180-280",
       },
@@ -204,8 +210,9 @@ describe("Padel Racket Finder golden scenarios", () => {
       responses: {
         primaryUse: "intermediate",
         playingStyle: "balanced",
-        priorities: ["value"],
-        weightPreference: "any",
+        primaryPriority: "balanced",
+        armComfortPriority: "no",
+        weightPreference: "dont-know",
         budget: "180-280",
       },
       region: "NL",
@@ -218,8 +225,9 @@ describe("Padel Racket Finder golden scenarios", () => {
       responses: {
         primaryUse: "intermediate",
         playingStyle: "balanced",
-        priorities: ["value"],
-        weightPreference: "any",
+        primaryPriority: "balanced",
+        armComfortPriority: "no",
+        weightPreference: "dont-know",
         budget: "180-280",
       },
       region: "NL",
@@ -257,8 +265,9 @@ describe("Tennis Racket Finder", () => {
       products: cats,
       responses: {
         primaryUse: "beginner",
-        playingStyle: "power",
-        priorities: ["forgiveness"],
+        playingStyle: "aggressive",
+        primaryPriority: "comfort",
+        armComfortPriority: "yes",
         weightPreference: "light",
         budget: "under-150",
       },
@@ -297,15 +306,21 @@ describe("Current equipment deltas", () => {
 });
 
 describe("Racket search", () => {
-  it("does not promote held padel vertical as launch-active", () => {
+  it("surfaces live padel vertical while keeping other racket sports held", () => {
     const res = searchKitletics("padel racquet", { isDev: false });
-    expect(res.every((h) => !h.href.startsWith("/padel"))).toBe(true);
-    expect(res.every((h) => h.href !== "/tools/padel-racket-finder")).toBe(
+    expect(res.some((h) => h.href.startsWith("/padel") || h.href.includes("padel"))).toBe(
       true,
     );
     expect(
-      res.every((h) => h.type !== "product" || !/padel/i.test(h.title)),
+      res.some(
+        (h) =>
+          h.href === "/tools/padel-racket-finder" ||
+          h.href.startsWith("/products/") ||
+          h.href.startsWith("/best/padel"),
+      ),
     ).toBe(true);
+    // Tennis remains held — no live tennis hub promotion from this query path
+    expect(res.every((h) => !h.href.startsWith("/tennis"))).toBe(true);
   });
 });
 

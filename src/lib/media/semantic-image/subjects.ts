@@ -45,6 +45,9 @@ const CATEGORY_TOPIC: Record<string, EditorialTopic> = {
   "cat-recovery-gear": "recovery",
   "cat-padel-rackets": "padel_rackets",
   "cat-padel-grips": "padel_rackets",
+  "cat-padel-balls": "padel_rackets",
+  "cat-padel-bags": "padel_rackets",
+  "cat-padel-accessories": "padel_rackets",
   "cat-tennis-rackets": "tennis_rackets",
   "cat-power-racks": "fitness",
   "cat-adjustable-dumbbells": "fitness",
@@ -81,7 +84,12 @@ export function inferEditorialTopic(input: {
 
   const hay = `${input.slug ?? ""} ${input.title ?? ""}`.toLowerCase();
 
-  if (/padel/.test(hay)) return "padel_rackets";
+  // Padel category IDs are handled above. Never let Drop Shot / shoe-bag /
+  // Trail backpack titles fall through to running_shoes topic inference.
+  if (input.categoryId?.startsWith("cat-padel-") || /\bpadel\b/.test(hay)) {
+    return "padel_rackets";
+  }
+
   if (/tennis/.test(hay)) return "tennis_rackets";
   if (/headphone|open-ear|in-ear|earbuds|bone.?conduction/.test(hay)) {
     return "headphones";
@@ -157,6 +165,8 @@ export function classifyImageSubject(src: string): ImageSubject {
   if (path.includes("/running/accessories/") && /jacket|shirt|tight/i.test(path)) {
     return "clothing";
   }
+  // Any remaining /images/running/ path is running-sport photography.
+  if (path.includes("/images/running/")) return "running_shoes";
 
   return "unknown";
 }

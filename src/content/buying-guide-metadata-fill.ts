@@ -24,6 +24,36 @@ export const buyingGuideMetadataFill: Record<
     quickAnswer:
       "Most players refresh overgrips often for sweat and tack; replace the base grip when the handle diameter or underlayer is worn.",
   },
+  "guide-beginner-padel-gear": {
+    shortDescription:
+      "A forgiving first kit: round/soft racket, court shoes, fresh balls and overgrips — without copying pro diamonds.",
+    quickAnswer:
+      "Start with Indiga CTR / Comfort Soft class, gripping court shoes, a pressurized can and spare overgrips. Skip attack diamonds until contact is consistent.",
+  },
+  "guide-complete-padel-gear-checklist": {
+    shortDescription:
+      "Required vs optional padel kit for club nights and tournament travel.",
+    quickAnswer:
+      "Required: racket, court shoes, balls, overgrip, water. Useful: spare overgrips, thermo bag in heat. Optional: second racket and backup shoes.",
+  },
+  "guide-padel-racket-shapes": {
+    shortDescription:
+      "Round, teardrop and diamond silhouettes mapped to sweet-spot and play roles.",
+    quickAnswer:
+      "Round for forgiveness, teardrop/hybrid for all-court, diamond for attackers with reliable timing — confirm balance and core.",
+  },
+  "guide-choose-padel-balls": {
+    shortDescription:
+      "How to pick pressurized padel cans with honest catalog limits.",
+    quickAnswer:
+      "Use pressurized competition cans for matches. Published catalog options today are both fast (HEAD Pro S, Kuikma Speed) — freshness beats a fake control ranking.",
+  },
+  "guide-choose-padel-bag": {
+    shortDescription:
+      "Paletero volume, thermo needs and commute form factors for padel bags.",
+    quickAnswer:
+      "Match form first: club paletero (~42 L AT10 Team) vs tournament volume (~62 L RH Pro) vs backpack commute.",
+  },
   "guide-choose-tennis-racket": {
     shortDescription:
       "Head size, weight, power vs control vs spin, and grip sizing for club and competitive players.",

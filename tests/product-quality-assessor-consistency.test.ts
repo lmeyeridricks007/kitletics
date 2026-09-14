@@ -32,7 +32,7 @@ describe("product quality assessor consistency (Fix 34)", () => {
   });
 
   it("soft-gated overlay changes disposition only, not quality class inventively", () => {
-    expect(isSoftGatedCategory("padel-accessories")).toBe(true);
+    expect(isSoftGatedCategory("padel-accessories")).toBe(false);
     expect(isSoftGatedCategory("padel-clothing")).toBe(true);
 
     const product = getProductBySlug("body-glide-original", PROD);

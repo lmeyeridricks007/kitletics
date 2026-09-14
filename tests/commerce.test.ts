@@ -319,7 +319,7 @@ describe("Region & currency", () => {
     expect(REGION_COMMERCE_COVERAGE.UK).toBe("partial");
     expect(REGION_COMMERCE_COVERAGE.US).toBe("limited");
     expect(REGION_COMMERCE_COVERAGE.BE).toBe("none");
-    expect(REGION_COMMERCE_COVERAGE.FR).toBe("none");
+    expect(REGION_COMMERCE_COVERAGE.FR).toBe("limited");
     expect(REGION_COMMERCE_COVERAGE.ZA).toBe("none");
     expect(NO_REGIONAL_OFFERS_MESSAGE).toMatch(/your region/i);
   });
