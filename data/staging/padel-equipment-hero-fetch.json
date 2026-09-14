@@ -1,0 +1,305 @@
+{
+  "generatedAt": "2026-09-13T15:05:48.998Z",
+  "rows": [
+    {
+      "id": "prod-head-padel-pro-plus",
+      "slug": "head-padel-pro-plus",
+      "sourceUrl": "https://www.padelmq.com/en-nl/products/head-pro-tube",
+      "status": "OK",
+      "src": "/images/padel/products/head-padel-pro-plus-hero.jpg",
+      "bytes": 36186,
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0881/5132/7069/files/HEADPADELPRO_-TUBE-PadeLMQ-1.jpg?v=1729535083"
+    },
+    {
+      "id": "prod-head-padel-pro-s",
+      "slug": "head-padel-pro-s",
+      "sourceUrl": "https://www.padelmq.com/en-nl/products/head-pro-s",
+      "status": "SKIP_EXISTS"
+    },
+    {
+      "id": "prod-wilson-padel-premier",
+      "slug": "wilson-padel-premier",
+      "sourceUrl": "https://www.padelmq.com/en-nl/products/wilson-premier-tube",
+      "status": "OK",
+      "src": "/images/padel/products/wilson-padel-premier-hero.jpg",
+      "bytes": 26491,
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0881/5132/7069/files/bote-de-3-pelotas-wilson-padel-premier-tube-2.jpg?v=1735659685"
+    },
+    {
+      "id": "prod-wilson-padel-premier-speed",
+      "slug": "wilson-padel-premier-speed",
+      "sourceUrl": "https://www.padelmq.com/en-nl/products/wilson-padel-premier-speed-tube",
+      "status": "OK",
+      "src": "/images/padel/products/wilson-padel-premier-speed-hero.jpg",
+      "bytes": 20320,
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0881/5132/7069/files/Wilsonpadelbaltube-1.jpg?v=1735656139"
+    },
+    {
+      "id": "prod-bullpadel-premium-pro",
+      "slug": "bullpadel-premium-pro",
+      "sourceUrl": "https://www.padelmq.com/en-nl/products/premium-pro-tube",
+      "status": "OK",
+      "src": "/images/padel/products/bullpadel-premium-pro-hero.jpg",
+      "bytes": 30388,
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0881/5132/7069/files/ballen-bullpadel-premiumtube1.jpg?v=1724579948"
+    },
+    {
+      "id": "prod-dunlop-pro-padel",
+      "slug": "dunlop-pro-padel",
+      "sourceUrl": "https://www.padelmq.com/en-nl/products/dunlop-pro-padel-ball-tube",
+      "status": "OK",
+      "src": "/images/padel/products/dunlop-pro-padel-hero.jpg",
+      "bytes": 47566,
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0881/5132/7069/files/dunlop-pro-padel-ball-tube..jpg?v=1759690183"
+    },
+    {
+      "id": "prod-babolat-court-padel-balls",
+      "slug": "babolat-court-padel-balls",
+      "sourceUrl": "https://www.padelmq.com/en-nl/products/babolat-court-padel-ballen-tube",
+      "status": "OK",
+      "src": "/images/padel/products/babolat-court-padel-balls-hero.jpg",
+      "bytes": 29480,
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0881/5132/7069/files/Babolat-Padelbal-court-tube-padeLMQ-1.jpg?v=1724579940"
+    },
+    {
+      "id": "prod-kuikma-pb-control",
+      "slug": "kuikma-pb-control",
+      "sourceUrl": "https://www.decathlon.ph/p/pressurised-padel-balls-kuikma-pb-control-pack-of-3-kuikma-8788981.html",
+      "status": "OPTIONAL_FAIL",
+      "error": "HTTP 410"
+    },
+    {
+      "id": "prod-bullpadel-vertex-backpack",
+      "slug": "bullpadel-vertex-geo-backpack",
+      "sourceUrl": "https://www.padelmq.com/en-nl/products/bullpadel-vertex-geo-rugzak-intense-blue-2026",
+      "status": "OK",
+      "src": "/images/padel/products/bullpadel-vertex-geo-backpack-hero.jpg",
+      "bytes": 80398,
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0881/5132/7069/files/bullpadel-vertex-geo-rugzak-bpm26008-blauw-2026.1.jpg?v=1773200000"
+    },
+    {
+      "id": "prod-adidas-protour-padel",
+      "slug": "adidas-protour-padel-bag",
+      "sourceUrl": "https://www.padelmq.com/en-nl/products/adidas-padeltas-protour-3-5-blauw-brons-2026",
+      "status": "OK",
+      "src": "/images/padel/products/adidas-protour-padel-bag-hero.jpg",
+      "bytes": 83499,
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0881/5132/7069/files/adidas-protour-padeltas-blauw-brons-2026.1.jpg?v=1772800000"
+    },
+    {
+      "id": "prod-wilson-super-tour-padel",
+      "slug": "wilson-super-tour-padel-bag",
+      "sourceUrl": "https://www.padelmq.com/en-nl/products/wilson-bela-super-tour-padel-tas-rood",
+      "status": "OK",
+      "src": "/images/padel/products/wilson-super-tour-padel-bag-hero.jpg",
+      "bytes": 39108,
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0881/5132/7069/files/paletero-wilson-bela-super-tour-padel-rojo.jpg?v=1775900000"
+    },
+    {
+      "id": "prod-nox-at10-xxl-bag",
+      "slug": "nox-at10-xxl-padel-bag",
+      "sourceUrl": "https://www.padelmq.com/en-eu/products/nox-at10-xxl-padel-bag-black-red-agustin-tapia",
+      "status": "OK",
+      "src": "/images/padel/products/nox-at10-xxl-padel-bag-hero.jpg",
+      "bytes": 73840,
+      "imageUrl": "https://www.padelmq.com/cdn/shop/files/nox-at10-xxl-padeltas-agustin-tapia.1_1200x1200.jpg?v=1773509181"
+    },
+    {
+      "id": "prod-tecnifibre-tour-endurance-backpack",
+      "slug": "tecnifibre-tour-endurance-padel-backpack",
+      "sourceUrl": "https://www.padelmq.com/en-nl/products/tecnifibre-tour-endurance-rugzak-caqui",
+      "status": "OK",
+      "src": "/images/padel/products/tecnifibre-tour-endurance-padel-backpack-hero.jpg",
+      "bytes": 62591,
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0881/5132/7069/files/mochila-tecnifibre-tour-endurance-caqui.jpg?v=1775900000"
+    },
+    {
+      "id": "prod-nox-pro-overgrip",
+      "slug": "nox-pro-overgrip",
+      "sourceUrl": "https://www.padelmq.com/en-nl/products/nox-pro-overgrip-wit-3-pack",
+      "status": "OK",
+      "src": "/images/padel/products/nox-pro-overgrip-hero.jpg",
+      "bytes": 53794,
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0881/5132/7069/files/nox-pro-overgrip-3-pack-padel-racket-grip-wit-vochtabsorberend.1.jpg?v=1734797850"
+    },
+    {
+      "id": "prod-head-xtreme-soft",
+      "slug": "head-xtreme-soft-overgrip",
+      "sourceUrl": "https://www.padelmq.com/en-nl/products/head-xtreme-soft-overgrip-wit",
+      "status": "OK",
+      "src": "/images/padel/products/head-xtreme-soft-overgrip-hero.jpg",
+      "bytes": 11389,
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0881/5132/7069/files/overgrips-head-xtreme-soft-blanco-3-unidades-550x550.jpg?v=1770747018"
+    },
+    {
+      "id": "prod-hesacore-padel",
+      "slug": "hesacore-padel-grip",
+      "sourceUrl": "https://www.padelmq.com/en-nl/products/hesacore-grip",
+      "status": "OK",
+      "src": "/images/padel/products/hesacore-padel-grip-hero.jpg",
+      "bytes": 18125,
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0881/5132/7069/files/bullpadel-hexacore-bullpadel-hexacore.jpg?v=1724578990"
+    },
+    {
+      "id": "prod-bullpadel-frame-protector",
+      "slug": "bullpadel-frame-protector-3-pack",
+      "sourceUrl": "https://www.padelmq.com/en-nl/products/bullpadel-frame-protector-zwart-3-stuks",
+      "status": "OK",
+      "src": "/images/padel/products/bullpadel-frame-protector-3-pack-hero.jpg",
+      "bytes": 42068,
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0881/5132/7069/files/bullpadel-frame-guard-protector-zwart-verbeterde-productafbeelding_19794d68-3551-4aaa-b506-306c8221b8f6.png?v=1782804432"
+    },
+    {
+      "id": "prod-nox-frame-protector",
+      "slug": "nox-transparent-frame-protector",
+      "sourceUrl": "https://www.padelmq.com/en-nl/products/nox-protection-tape-transparant-framebeschermer",
+      "status": "OK",
+      "src": "/images/padel/products/nox-transparent-frame-protector-hero.jpg",
+      "bytes": 16776,
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0881/5132/7069/files/image_e14ec456-c943-41ae-9e6e-225264593abe.png?v=1770913476"
+    },
+    {
+      "id": "prod-bullpadel-pascal-box",
+      "slug": "bullpadel-pascal-box-3b",
+      "sourceUrl": "https://www.padelmq.com/en-nl/products/pascal-box-3b",
+      "status": "OK",
+      "src": "/images/padel/products/bullpadel-pascal-box-3b-hero.jpg",
+      "bytes": 84259,
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0881/5132/7069/files/cargador-de-presion-pelotas-pascal-box-1000x1000.jpg?v=1772312313"
+    },
+    {
+      "id": "prod-head-x3-pressurizer",
+      "slug": "head-x3-ball-pressurizer",
+      "sourceUrl": "https://padelproshop.com/en/products/pressurizer-head-x3-pump",
+      "status": "OK",
+      "src": "/images/padel/products/head-x3-ball-pressurizer-hero.jpg",
+      "bytes": 30213,
+      "imageUrl": "https://padelproshop.com/cdn/shop/files/34098-tm_large_default.webp?v=1760950046"
+    },
+    {
+      "id": "prod-bullpadel-custom-weight",
+      "slug": "bullpadel-protector-custom-weight",
+      "sourceUrl": "https://www.padelmq.com/en-nl/products/bullpadel-protector-custom-weight-4-stuks",
+      "status": "OK",
+      "src": "/images/padel/products/bullpadel-protector-custom-weight-hero.jpg",
+      "bytes": 54774,
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0881/5132/7069/files/protector-bullpadel-custom-weight-4x3gr.1.jpg?v=1745740026"
+    }
+  ],
+  "mediaEntries": [
+    {
+      "id": "prod-head-padel-pro-plus",
+      "src": "/images/padel/products/head-padel-pro-plus-hero.jpg",
+      "sourceUrl": "https://www.padelmq.com/en-nl/products/head-pro-tube",
+      "source": "PadeLMQ HEAD Pro+ tube"
+    },
+    {
+      "id": "prod-wilson-padel-premier",
+      "src": "/images/padel/products/wilson-padel-premier-hero.jpg",
+      "sourceUrl": "https://www.padelmq.com/en-nl/products/wilson-premier-tube",
+      "source": "PadeLMQ Wilson Premier tube"
+    },
+    {
+      "id": "prod-wilson-padel-premier-speed",
+      "src": "/images/padel/products/wilson-padel-premier-speed-hero.jpg",
+      "sourceUrl": "https://www.padelmq.com/en-nl/products/wilson-padel-premier-speed-tube",
+      "source": "PadeLMQ Wilson Premier Speed tube"
+    },
+    {
+      "id": "prod-bullpadel-premium-pro",
+      "src": "/images/padel/products/bullpadel-premium-pro-hero.jpg",
+      "sourceUrl": "https://www.padelmq.com/en-nl/products/premium-pro-tube",
+      "source": "PadeLMQ Bullpadel Premium Pro tube"
+    },
+    {
+      "id": "prod-dunlop-pro-padel",
+      "src": "/images/padel/products/dunlop-pro-padel-hero.jpg",
+      "sourceUrl": "https://www.padelmq.com/en-nl/products/dunlop-pro-padel-ball-tube",
+      "source": "PadeLMQ Dunlop Pro Padel tube"
+    },
+    {
+      "id": "prod-babolat-court-padel-balls",
+      "src": "/images/padel/products/babolat-court-padel-balls-hero.jpg",
+      "sourceUrl": "https://www.padelmq.com/en-nl/products/babolat-court-padel-ballen-tube",
+      "source": "PadeLMQ Babolat Court Padel tube"
+    },
+    {
+      "id": "prod-bullpadel-vertex-backpack",
+      "src": "/images/padel/products/bullpadel-vertex-geo-backpack-hero.jpg",
+      "sourceUrl": "https://www.padelmq.com/en-nl/products/bullpadel-vertex-geo-rugzak-intense-blue-2026",
+      "source": "PadeLMQ Bullpadel Vertex Geo backpack 2026"
+    },
+    {
+      "id": "prod-adidas-protour-padel",
+      "src": "/images/padel/products/adidas-protour-padel-bag-hero.jpg",
+      "sourceUrl": "https://www.padelmq.com/en-nl/products/adidas-padeltas-protour-3-5-blauw-brons-2026",
+      "source": "PadeLMQ Adidas ProTour 3.5 bag"
+    },
+    {
+      "id": "prod-wilson-super-tour-padel",
+      "src": "/images/padel/products/wilson-super-tour-padel-bag-hero.jpg",
+      "sourceUrl": "https://www.padelmq.com/en-nl/products/wilson-bela-super-tour-padel-tas-rood",
+      "source": "PadeLMQ Wilson Bela Super Tour bag"
+    },
+    {
+      "id": "prod-nox-at10-xxl-bag",
+      "src": "/images/padel/products/nox-at10-xxl-padel-bag-hero.jpg",
+      "sourceUrl": "https://www.padelmq.com/en-eu/products/nox-at10-xxl-padel-bag-black-red-agustin-tapia",
+      "source": "PadeLMQ Nox AT10 XXL"
+    },
+    {
+      "id": "prod-tecnifibre-tour-endurance-backpack",
+      "src": "/images/padel/products/tecnifibre-tour-endurance-padel-backpack-hero.jpg",
+      "sourceUrl": "https://www.padelmq.com/en-nl/products/tecnifibre-tour-endurance-rugzak-caqui",
+      "source": "PadeLMQ Tecnifibre Tour Endurance backpack"
+    },
+    {
+      "id": "prod-nox-pro-overgrip",
+      "src": "/images/padel/products/nox-pro-overgrip-hero.jpg",
+      "sourceUrl": "https://www.padelmq.com/en-nl/products/nox-pro-overgrip-wit-3-pack",
+      "source": "PadeLMQ Nox Pro Overgrip 3-pack"
+    },
+    {
+      "id": "prod-head-xtreme-soft",
+      "src": "/images/padel/products/head-xtreme-soft-overgrip-hero.jpg",
+      "sourceUrl": "https://www.padelmq.com/en-nl/products/head-xtreme-soft-overgrip-wit",
+      "source": "PadeLMQ HEAD Xtreme Soft white"
+    },
+    {
+      "id": "prod-hesacore-padel",
+      "src": "/images/padel/products/hesacore-padel-grip-hero.jpg",
+      "sourceUrl": "https://www.padelmq.com/en-nl/products/hesacore-grip",
+      "source": "PadeLMQ Bullpadel Hesacore Grip Tour"
+    },
+    {
+      "id": "prod-bullpadel-frame-protector",
+      "src": "/images/padel/products/bullpadel-frame-protector-3-pack-hero.jpg",
+      "sourceUrl": "https://www.padelmq.com/en-nl/products/bullpadel-frame-protector-zwart-3-stuks",
+      "source": "PadeLMQ Bullpadel Frame Protector black 3-pack"
+    },
+    {
+      "id": "prod-nox-frame-protector",
+      "src": "/images/padel/products/nox-transparent-frame-protector-hero.jpg",
+      "sourceUrl": "https://www.padelmq.com/en-nl/products/nox-protection-tape-transparant-framebeschermer",
+      "source": "PadeLMQ Nox transparent protection tape"
+    },
+    {
+      "id": "prod-bullpadel-pascal-box",
+      "src": "/images/padel/products/bullpadel-pascal-box-3b-hero.jpg",
+      "sourceUrl": "https://www.padelmq.com/en-nl/products/pascal-box-3b",
+      "source": "PadeLMQ Pascal Box 3B"
+    },
+    {
+      "id": "prod-head-x3-pressurizer",
+      "src": "/images/padel/products/head-x3-ball-pressurizer-hero.jpg",
+      "sourceUrl": "https://padelproshop.com/en/products/pressurizer-head-x3-pump",
+      "source": "PadelPROShop HEAD X3 PUMP"
+    },
+    {
+      "id": "prod-bullpadel-custom-weight",
+      "src": "/images/padel/products/bullpadel-protector-custom-weight-hero.jpg",
+      "sourceUrl": "https://www.padelmq.com/en-nl/products/bullpadel-protector-custom-weight-4-stuks",
+      "source": "PadeLMQ Bullpadel Protector Custom Weight"
+    }
+  ]
+}

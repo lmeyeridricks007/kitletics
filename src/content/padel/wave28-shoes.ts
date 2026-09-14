@@ -11,7 +11,6 @@ import { hasRegisteredProductHero } from "@/content/running/products/media-publi
 
 const pub = publishedMeta();
 const padelSportId = "sport-padel" as const;
-const tennisSportId = "sport-tennis" as const;
 
 function offerRegions(
   productId: string,
@@ -474,7 +473,7 @@ export const wave28PadelShoeProducts: Product[] = DRAFTS.map((d) => ({
   fullName: d.fullName,
   shortDescription: d.shortDescription,
   lifecycleStatus: "current" as const,
-  sportIds: [padelSportId, tennisSportId],
+  sportIds: [padelSportId],
   disciplineIds: [],
   categoryId: "cat-padel-shoes",
   subcategoryIds: [],

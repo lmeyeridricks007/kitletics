@@ -1,0 +1,459 @@
+productId,categoryId,brandId,name,lifecycleStatus,publicationStatus,availabilityClass,offerPresence,researchState,nlOfferCount,euOfferCount,affiliateMapped,freshOfferCount,staleOfferCount,anyOffer,evidenceUrlCount,packUnitLabel,notes
+prod-nox-at10-18k-2026,cat-padel-rackets,brand-nox,AT10 Genius 18K Alum 2026,current,published,NL_AVAILABLE,NL_OFFER,RESEARCHED,2,0,true,2,0,true,0,,
+prod-bullpadel-vertex-04,cat-padel-rackets,brand-bullpadel,Vertex 04,previous-generation,published,NL_AVAILABLE,NL_OFFER,RESEARCHED,1,0,true,1,0,true,0,,
+prod-babolat-technical-viper,cat-padel-rackets,brand-babolat-padel,Technical Viper 3.0,current,published,NL_AVAILABLE,NL_OFFER,RESEARCHED,1,0,true,1,0,true,0,,
+prod-head-coello-pro,cat-padel-rackets,brand-head-padel,Coello Pro,current,published,NL_AVAILABLE,NL_OFFER,RESEARCHED,1,0,true,1,0,true,0,,
+prod-siux-diablo,cat-padel-rackets,brand-siux,Diablo Pro,current,published,NL_AVAILABLE,NL_OFFER,RESEARCHED,1,0,true,1,0,true,0,,
+prod-adidas-courtstabil,cat-padel-shoes,brand-adidas-padel,Courtquick Padel,current,published,NL_AVAILABLE,NL_OFFER,RESEARCHED,1,0,true,1,0,true,0,,
+prod-head-padel-pro-s,cat-padel-balls,brand-head-padel,Padel Pro S+,current,published,NL_AVAILABLE,NL_OFFER,RESEARCHED,2,0,true,2,0,true,0,€6.95 / 24 cans · €0.29 / can · €0.10 / ball,
+prod-wilson-overgrip,cat-padel-grips,brand-wilson-padel,Pro Padel Overgrip,current,published,NL_AVAILABLE,NL_OFFER,RESEARCHED,1,0,true,1,0,true,1,€9.95 / 3-pack · €3.32 / grip,
+prod-nox-bag-10,cat-padel-bags,brand-nox,Thermo Bag 10,current,draft,NL_AVAILABLE,NL_OFFER,RESEARCHED,1,0,true,1,0,true,0,,
+prod-wilson-bela-pro,cat-padel-rackets,brand-wilson-padel,Bela Pro V3,current,published,NL_AVAILABLE,NL_OFFER,RESEARCHED,1,0,true,1,0,true,0,,
+prod-starvie-titania-kepler,cat-padel-rackets,brand-starvie,Titania Kepler,previous-generation,published,NL_AVAILABLE,NL_OFFER,RESEARCHED,1,1,true,3,0,true,0,,
+prod-adidas-metalbone-hrd,cat-padel-rackets,brand-adidas-padel,Metalbone HRD+,current,published,NL_AVAILABLE,NL_OFFER,RESEARCHED,1,1,true,3,0,true,0,,
+prod-kuikma-pr-soft-500,cat-padel-rackets,brand-kuikma,PR Soft 500,current,draft,NL_AVAILABLE,NL_OFFER,RESEARCHED,1,1,true,3,0,true,0,,
+prod-drop-shot-canyon-pro,cat-padel-rackets,brand-drop-shot,Canyon Pro,current,draft,NL_AVAILABLE,NL_OFFER,RESEARCHED,1,1,true,3,0,true,0,,
+prod-varlion-lw-carbon-difusor,cat-padel-rackets,brand-varlion,LW Carbon Difusor,current,published,NL_AVAILABLE,NL_OFFER,RESEARCHED,1,1,true,3,0,true,0,,
+prod-nox-ml10-pro-cup,cat-padel-rackets,brand-nox,ML10 Pro Cup,current,published,NL_AVAILABLE,NL_OFFER,RESEARCHED,1,1,true,3,0,true,0,,
+prod-bullpadel-hack-03,cat-padel-rackets,brand-bullpadel,Hack 03,previous-generation,published,NL_AVAILABLE,NL_OFFER,RESEARCHED,1,1,true,3,0,true,0,,
+prod-babolat-counter-viper,cat-padel-rackets,brand-babolat-padel,Counter Viper,current,published,NL_AVAILABLE,NL_OFFER,RESEARCHED,1,1,true,3,0,true,0,,
+prod-head-extreme-pro-padel,cat-padel-rackets,brand-head-padel,Extreme Pro,current,published,NL_AVAILABLE,NL_OFFER,RESEARCHED,1,1,true,3,0,true,0,,
+prod-wilson-blade-pro-padel,cat-padel-rackets,brand-wilson-padel,Blade Pro V3,current,published,NL_AVAILABLE,NL_OFFER,RESEARCHED,1,1,true,3,0,true,0,,
+prod-starvie-basalto-osiris,cat-padel-rackets,brand-starvie,Basalto Osiris,previous-generation,published,NL_AVAILABLE,NL_OFFER,RESEARCHED,1,1,true,3,0,true,0,,
+prod-bullpadel-vertex-05,cat-padel-rackets,brand-bullpadel,Vertex 05,current,published,NL_AVAILABLE,NL_OFFER,RESEARCHED,1,1,true,3,0,true,0,,
+prod-bullpadel-hack-04,cat-padel-rackets,brand-bullpadel,Hack 04,current,published,NL_AVAILABLE,NL_OFFER,RESEARCHED,1,1,true,3,0,true,0,,
+prod-nox-at10-12k-2026,cat-padel-rackets,brand-nox,AT10 Genius 12K Alum XTREM 2026,current,published,NL_AVAILABLE,NL_OFFER,RESEARCHED,1,1,true,3,0,true,0,,
+prod-adidas-metalbone-3-3-2026,cat-padel-rackets,brand-adidas-padel,Metalbone 3.3,previous-generation,published,NL_AVAILABLE,NL_OFFER,RESEARCHED,1,1,true,3,0,true,0,,
+prod-head-extreme-motion-2026,cat-padel-rackets,brand-head-padel,Extreme Motion,current,published,NL_AVAILABLE,NL_OFFER,RESEARCHED,1,1,true,3,0,true,0,,
+prod-tecnifibre-wall-breaker-365-2026,cat-padel-rackets,brand-tecnifibre-padel,Wall Breaker 365,current,published,NL_AVAILABLE,NL_OFFER,RESEARCHED,1,1,true,3,0,true,0,,
+prod-oxdog-sense-pro-2026,cat-padel-rackets,brand-oxdog,Sense Pro,current,published,NL_AVAILABLE,NL_OFFER,RESEARCHED,1,1,true,3,0,true,0,,
+prod-royal-padel-rp-m27-2026,cat-padel-rackets,brand-royal-padel,M27 Poly,current,published,NL_AVAILABLE,NL_OFFER,RESEARCHED,1,1,true,3,0,true,0,,
+prod-black-crown-special-one-soft,cat-padel-rackets,brand-black-crown,Special One Soft,current,draft,NL_AVAILABLE,NL_OFFER,RESEARCHED,2,1,true,4,0,true,0,,
+prod-lok-maxx-flow,cat-padel-rackets,brand-lok,Maxx Flow,current,published,NL_AVAILABLE,NL_OFFER,RESEARCHED,2,1,true,4,0,true,0,,
+prod-asics-gel-resolution-padel,cat-padel-shoes,brand-asics,Gel-Resolution Padel,current,published,NL_AVAILABLE,NL_OFFER,RESEARCHED,1,1,true,3,0,true,0,,
+prod-asics-gel-challenger-court,cat-padel-shoes,brand-asics,Gel-Challenger Court,current,published,NL_AVAILABLE,NL_OFFER,RESEARCHED,2,1,true,4,0,true,0,,
+prod-babolat-jet-premura,cat-padel-shoes,brand-babolat-padel,Jet Premura,current,published,NL_AVAILABLE,NL_OFFER,RESEARCHED,1,1,true,3,0,true,0,,
+prod-joma-t-slam,cat-padel-shoes,brand-joma,T.Slam,current,published,NL_AVAILABLE,NL_OFFER,RESEARCHED,2,1,true,4,0,true,0,,
+prod-head-revolt-pro-court,cat-padel-shoes,brand-head-padel,Revolt Pro Court,current,published,NL_AVAILABLE,NL_OFFER,RESEARCHED,1,1,true,3,0,true,0,,
+prod-adidas-crazyquick-boost-m,cat-padel-shoes,brand-adidas-padel,Crazyquick Boost Padel,current,published,NL_AVAILABLE,NL_OFFER,RESEARCHED,1,1,true,3,0,true,0,,
+prod-adidas-courtquick-w,cat-padel-shoes,brand-adidas-padel,Courtquick Padel Women,current,published,NL_AVAILABLE,NL_OFFER,RESEARCHED,2,1,true,4,0,true,0,,
+prod-adidas-crazyquick-boost-w,cat-padel-shoes,brand-adidas-padel,Crazyquick Boost Padel Women,current,published,NL_AVAILABLE,NL_OFFER,RESEARCHED,1,1,true,3,0,true,0,,
+prod-asics-gel-dedicate-8-padel,cat-padel-shoes,brand-asics,Gel-Dedicate 8 Padel,current,published,NL_AVAILABLE,NL_OFFER,RESEARCHED,2,1,true,4,0,true,0,,
+prod-asics-game-ff-padel,cat-padel-shoes,brand-asics,Game FF Padel,current,published,NL_AVAILABLE,NL_OFFER,RESEARCHED,1,1,true,3,0,true,0,,
+prod-asics-solution-swift-ff2-padel,cat-padel-shoes,brand-asics,Solution Swift FF 2 Padel,current,published,NL_AVAILABLE,NL_OFFER,RESEARCHED,1,1,true,3,0,true,0,,
+prod-bullpadel-hybrid-fly,cat-padel-shoes,brand-bullpadel,Fastgear,current,published,NL_AVAILABLE,NL_OFFER,RESEARCHED,1,1,true,3,0,true,0,,
+prod-bullpadel-ionic-woman,cat-padel-shoes,brand-bullpadel,Ionic Woman,current,published,NL_AVAILABLE,NL_OFFER,RESEARCHED,1,1,true,3,0,true,0,,
+prod-nox-at10-lux,cat-padel-shoes,brand-nox,AT10 Lux,current,published,NL_AVAILABLE,NL_OFFER,RESEARCHED,1,1,true,3,0,true,0,,
+prod-nox-ml10-hexa,cat-padel-shoes,brand-nox,ML10 Hexa,current,published,NL_AVAILABLE,NL_OFFER,RESEARCHED,1,1,true,3,0,true,0,,
+prod-babolat-movea-2,cat-padel-shoes,brand-babolat-padel,Movea 2,current,published,NL_AVAILABLE,NL_OFFER,RESEARCHED,1,1,true,3,0,true,0,,
+prod-babolat-sensa-women,cat-padel-shoes,brand-babolat-padel,Sensa Women,current,published,NL_AVAILABLE,NL_OFFER,RESEARCHED,1,1,true,3,0,true,0,,
+prod-joma-slam-lady,cat-padel-shoes,brand-joma,Slam Lady,current,published,NL_AVAILABLE,NL_OFFER,RESEARCHED,2,1,true,4,0,true,0,,
+prod-joma-spin-men,cat-padel-shoes,brand-joma,Spin Men,current,published,NL_AVAILABLE,NL_OFFER,RESEARCHED,1,1,true,3,0,true,0,,
+prod-head-sprint-pro-4-padel,cat-padel-shoes,brand-head-padel,Sprint Pro 4.0 Padel,current,published,NL_AVAILABLE,NL_OFFER,RESEARCHED,1,1,true,3,0,true,0,,
+prod-wilson-rush-pro-5-padel,cat-padel-shoes,brand-wilson-padel,Rush Pro 5 Padel,current,published,NL_AVAILABLE,NL_OFFER,RESEARCHED,1,1,true,3,0,true,0,,
+prod-siux-diablo-pro,cat-padel-shoes,brand-siux,Diablo Pro,current,draft,NL_AVAILABLE,NL_OFFER,RESEARCHED,1,1,true,3,0,true,0,,
+prod-siux-comodo-woman,cat-padel-shoes,brand-siux,Comodo Woman,current,draft,NL_AVAILABLE,NL_OFFER,RESEARCHED,1,1,true,3,0,true,0,,
+prod-starvie-absolute-padel,cat-padel-shoes,brand-starvie,Absolute Padel,current,draft,NL_AVAILABLE,NL_OFFER,RESEARCHED,1,1,true,3,0,true,0,,
+prod-kuikma-ps-990,cat-padel-shoes,brand-kuikma,PS 990,current,published,NL_AVAILABLE,NL_OFFER,RESEARCHED,1,1,true,3,0,true,0,,
+prod-kuikma-ps-560-women,cat-padel-shoes,brand-kuikma,PS 560 Women,current,draft,NL_AVAILABLE,NL_OFFER,RESEARCHED,1,1,true,3,0,true,0,,
+prod-oxdog-hyper-court,cat-padel-shoes,brand-oxdog,Hyper Court,current,draft,NL_AVAILABLE,NL_OFFER,RESEARCHED,1,1,true,3,0,true,0,,
+prod-asics-gel-resolution-padel-w,cat-padel-shoes,brand-asics,Gel-Resolution Padel Women,current,published,NL_AVAILABLE,NL_OFFER,RESEARCHED,1,1,true,3,0,true,0,,
+prod-asics-solution-swift-padel-w,cat-padel-shoes,brand-asics,Solution Swift FF Padel Women,current,published,NL_AVAILABLE,NL_OFFER,RESEARCHED,1,1,true,3,0,true,0,,
+prod-adidas-solecourt-boost-padel,cat-padel-shoes,brand-adidas-padel,Solecourt Boost Padel,current,draft,NL_AVAILABLE,NL_OFFER,RESEARCHED,1,1,true,3,0,true,0,,
+prod-head-revolt-court,cat-padel-shoes,brand-head-padel,Revolt Court,current,draft,NL_AVAILABLE,NL_OFFER,RESEARCHED,1,1,true,3,0,true,0,,
+prod-wilson-bela-pro-padel,cat-padel-shoes,brand-wilson-padel,Bela Pro Padel,current,draft,NL_AVAILABLE,NL_OFFER,RESEARCHED,1,1,true,3,0,true,0,,
+prod-joma-spin-lady,cat-padel-shoes,brand-joma,Spin Lady,current,published,NL_AVAILABLE,NL_OFFER,RESEARCHED,1,1,true,3,0,true,0,,
+prod-bullpadel-hack-hybrid,cat-padel-shoes,brand-bullpadel,Hack Hybrid,current,draft,NL_AVAILABLE,NL_OFFER,RESEARCHED,1,1,true,3,0,true,0,,
+prod-nox-at10-pro-shoe,cat-padel-shoes,brand-nox,AT10 Pro,current,draft,NL_AVAILABLE,NL_OFFER,RESEARCHED,1,1,true,3,0,true,0,,
+prod-babolat-jet-premura-2-men,cat-padel-shoes,brand-babolat-padel,Jet Premura 2,current,published,NL_AVAILABLE,NL_OFFER,RESEARCHED,1,1,true,3,0,true,0,,
+prod-tecnifibre-t-fight-padel,cat-padel-shoes,brand-tecnifibre-padel,Wall Shooter,current,draft,NL_AVAILABLE,NL_OFFER,RESEARCHED,1,1,true,3,0,true,0,,
+prod-varlion-bourne-padel-shoe,cat-padel-shoes,brand-varlion,Bourne Padel,current,draft,NL_AVAILABLE,NL_OFFER,RESEARCHED,1,1,true,3,0,true,0,,
+prod-lok-padel-one,cat-padel-shoes,brand-lok,Padel One,current,draft,NL_AVAILABLE,NL_OFFER,RESEARCHED,1,1,true,3,0,true,0,,
+prod-nox-at10-attack-18k-2026,cat-padel-rackets,brand-nox,AT10 Genius Attack 18K Alum 2026,current,published,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,
+prod-nox-equation-soft-2026,cat-padel-rackets,brand-nox,Equation Soft Advanced 2026,current,published,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,
+prod-bullpadel-vertex-05-hybrid,cat-padel-rackets,brand-bullpadel,Vertex 05 Hybrid,current,published,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,
+prod-bullpadel-vertex-05-w,cat-padel-rackets,brand-bullpadel,Vertex 05 W,current,published,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,
+prod-bullpadel-hack-04-hybrid,cat-padel-rackets,brand-bullpadel,Hack 04 Hybrid,current,published,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,
+prod-bullpadel-hack-04-comfort,cat-padel-rackets,brand-bullpadel,Hack 04 Comfort,current,published,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,
+prod-bullpadel-neuron-02,cat-padel-rackets,brand-bullpadel,Neuron 02,current,published,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,
+prod-bullpadel-neuron-02-edge,cat-padel-rackets,brand-bullpadel,Neuron 02 Edge,current,published,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,
+prod-bullpadel-xplo,cat-padel-rackets,brand-bullpadel,XPLO,current,published,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,
+prod-bullpadel-xplo-comfort,cat-padel-rackets,brand-bullpadel,XPLO Comfort,current,published,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,
+prod-bullpadel-ionic-light,cat-padel-rackets,brand-bullpadel,Ionic Light,current,published,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,
+prod-bullpadel-indiga-ctr,cat-padel-rackets,brand-bullpadel,Indiga CTR,current,published,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,
+prod-bullpadel-vertex-advance,cat-padel-rackets,brand-bullpadel,Vertex Advance,current,published,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,
+prod-adidas-metalbone-3-5-2026,cat-padel-rackets,brand-adidas-padel,Metalbone 3.5,current,published,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,
+prod-adidas-metalbone-ctrl,cat-padel-rackets,brand-adidas-padel,Metalbone CTRL,current,published,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,
+prod-adidas-metalbone-team-light,cat-padel-rackets,brand-adidas-padel,Metalbone Team Light,current,published,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,
+prod-adidas-cross-it-light,cat-padel-rackets,brand-adidas-padel,Cross It Light,current,published,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,
+prod-adidas-cross-it-ctrl,cat-padel-rackets,brand-adidas-padel,Cross It CTRL,current,published,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,
+prod-adidas-arrow-hit-ctrl,cat-padel-rackets,brand-adidas-padel,Arrow Hit CTRL,current,published,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,
+prod-adidas-arrow-hit-attk,cat-padel-rackets,brand-adidas-padel,Arrow Hit,current,published,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,
+prod-adidas-match-light,cat-padel-rackets,brand-adidas-padel,Match Light,current,published,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,
+prod-head-coello-motion,cat-padel-rackets,brand-head-padel,Coello Motion,current,published,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,
+prod-head-coello-team,cat-padel-rackets,brand-head-padel,Coello Team,current,published,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,
+prod-head-gravity-pro,cat-padel-rackets,brand-head-padel,Gravity Pro,current,published,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,
+prod-head-gravity-motion,cat-padel-rackets,brand-head-padel,Gravity Motion,current,published,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,
+prod-head-speed-pro,cat-padel-rackets,brand-head-padel,Speed Pro,current,published,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,
+prod-head-one-ultralight,cat-padel-rackets,brand-head-padel,One Ultralight,current,published,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,
+prod-babolat-air-viper,cat-padel-rackets,brand-babolat-padel,Air Viper,current,published,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,
+prod-babolat-air-veron,cat-padel-rackets,brand-babolat-padel,Air Veron,current,published,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,
+prod-siux-electra,cat-padel-rackets,brand-siux,Electra Pro,current,published,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,
+prod-siux-fenix,cat-padel-rackets,brand-siux,Fenix Pro,current,published,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,
+prod-starvie-astrum,cat-padel-rackets,brand-starvie,Astrum+,current,published,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,
+prod-nox-at10-attack-12k-2026,cat-padel-rackets,brand-nox,AT10 Genius Attack 12K Alum XTREM 2026,current,draft,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,
+prod-kuikma-pr-hybrid-carbon,cat-padel-rackets,brand-kuikma,PR Hybrid Carbon,current,published,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,
+prod-kuikma-pr-comfort-soft,cat-padel-rackets,brand-kuikma,PR Comfort Soft,current,published,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,
+prod-head-padel-pro-plus,cat-padel-balls,brand-head-padel,Padel Pro+,current,published,NL_AVAILABLE,NL_OFFER,RESEARCHED,1,0,false,1,0,true,0,€5.79 / 24 cans · €0.24 / can · €0.08 / ball,
+prod-head-padel-team,cat-padel-balls,brand-head-padel,Padel Team,current,published,EU_AVAILABLE_TO_NL,NO_OFFER,RESEARCHED,0,0,false,0,0,false,2,,Product listing URL researched in inventory — Kitletics Offer price not yet verified (no invented price).; Inventory NL_available=yes without priced Kitletics Offer.
+prod-head-padel-one,cat-padel-balls,brand-head-padel,Padel One,current,published,EU_AVAILABLE_TO_NL,NO_OFFER,RESEARCHED,0,0,false,0,0,false,2,,Product listing URL researched in inventory — Kitletics Offer price not yet verified (no invented price).
+prod-kuikma-pb-speed,cat-padel-balls,brand-kuikma,Padel Speed,current,published,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,Inventory NL_available=yes without priced Kitletics Offer.
+prod-kuikma-pb-control,cat-padel-balls,brand-kuikma,PB Control,current,published,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,Inventory NL_available=yes without priced Kitletics Offer.
+prod-kuikma-pb-club,cat-padel-balls,brand-kuikma,PB Club,current,published,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,Inventory NL_available=yes without priced Kitletics Offer.
+prod-wilson-padel-premier,cat-padel-balls,brand-wilson-padel,Padel Premier,current,published,NL_AVAILABLE,NL_OFFER,RESEARCHED,1,0,false,1,0,true,0,€6.25 / 24 cans · €0.26 / can · €0.09 / ball,
+prod-wilson-padel-premier-speed,cat-padel-balls,brand-wilson-padel,Premier Padel Speed,current,published,NL_AVAILABLE,NL_OFFER,RESEARCHED,1,0,false,1,0,true,2,€6.19 / 24 cans · €0.26 / can · €0.09 / ball,
+prod-bullpadel-premium-pro,cat-padel-balls,brand-bullpadel,Premium Pro,current,published,NL_AVAILABLE,NL_OFFER,RESEARCHED,1,0,false,1,0,true,0,€5.95 / 3-ball can · €1.98 / ball,
+prod-adidas-speed-rx,cat-padel-balls,brand-adidas-padel,Speed RX,current,published,NL_AVAILABLE,NL_OFFER,RESEARCHED,1,0,false,1,0,true,0,€5.89 / 24 cans · €0.25 / can · €0.08 / ball,
+prod-babolat-court-padel-balls,cat-padel-balls,brand-babolat-padel,Court Padel,current,published,NL_AVAILABLE,NL_OFFER,RESEARCHED,1,0,false,1,0,true,0,€5.45 / 3-ball can · €1.82 / ball,
+prod-dunlop-pro-padel,cat-padel-balls,brand-dunlop-padel,Fort Padel,current,published,NL_AVAILABLE,NL_OFFER,RESEARCHED,1,0,false,1,0,true,0,€5.99 / 3-ball can · €2.00 / ball,
+prod-tecnifibre-padel-team,cat-padel-balls,brand-tecnifibre-padel,Padel Team,current,published,NL_AVAILABLE,NL_OFFER,RESEARCHED,1,0,false,1,0,true,1,€4.90 / 24 cans · €0.20 / can · €0.07 / ball,
+prod-nox-at10-team-bag,cat-padel-bags,brand-nox,AT10 Team Paletero,current,published,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,
+prod-babolat-rh-pro-padel,cat-padel-bags,brand-babolat-padel,RH Pro Padel,current,published,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,
+prod-bullpadel-vertex-backpack,cat-padel-bags,brand-bullpadel,Vertex Geo Backpack,current,published,NL_AVAILABLE,NL_OFFER,RESEARCHED,1,0,false,1,0,true,0,,
+prod-tecnifibre-tour-endurance-backpack,cat-padel-bags,brand-tecnifibre-padel,Tour Endurance Backpack,current,published,NL_AVAILABLE,NL_OFFER,RESEARCHED,1,0,false,1,0,true,0,,
+prod-babolat-court-backpack,cat-padel-bags,brand-babolat-padel,Court S,current,published,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,Inventory NL_available=yes without priced Kitletics Offer.
+prod-adidas-protour-padel,cat-padel-bags,brand-adidas-padel,ProTour 3.5,current,published,NL_AVAILABLE,NL_OFFER,RESEARCHED,1,0,false,1,0,true,1,,
+prod-head-tour-team-padel,cat-padel-bags,brand-head-padel,Tour Team Padel,current,published,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,
+prod-head-elite-backpack,cat-padel-bags,brand-head-padel,Elite Backpack,current,published,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,
+prod-wilson-super-tour-padel,cat-padel-bags,brand-wilson-padel,Bela Super Tour,current,published,NL_AVAILABLE,NL_OFFER,RESEARCHED,1,0,false,1,0,true,4,,
+prod-kuikma-paletero,cat-padel-bags,brand-kuikma,Kuikma Paletero,current,published,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,
+prod-nox-pro-series-bag,cat-padel-bags,brand-nox,Pro Series Bag,current,draft,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,
+prod-nox-at10-xxl-bag,cat-padel-bags,brand-nox,AT10 XXL,current,published,NL_AVAILABLE,NL_OFFER,RESEARCHED,1,0,false,1,0,true,1,,
+prod-siux-paletero,cat-padel-bags,brand-siux,Siux Paletero,current,published,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,
+prod-bullpadel-gb1200,cat-padel-grips,brand-bullpadel,HaC,current,published,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,
+prod-nox-pro-overgrip,cat-padel-grips,brand-nox,Pro Overgrip,current,published,NL_AVAILABLE,NL_OFFER,RESEARCHED,1,0,false,1,0,true,2,€9.95 / 3-pack · €3.32 / grip,
+prod-head-xtreme-soft,cat-padel-grips,brand-head-padel,Xtreme Soft,current,published,NL_AVAILABLE,NL_OFFER,RESEARCHED,1,0,false,1,0,true,0,€2.29 / 1-pack · €2.29 / grip,
+prod-babolat-pro-response,cat-padel-grips,brand-babolat-padel,Pro Response,current,published,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,Inventory NL_available=yes without priced Kitletics Offer.
+prod-kuikma-overgrip,cat-padel-grips,brand-kuikma,Kuikma Overgrip Pro,current,published,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,
+prod-head-hydrosorb,cat-padel-grips,brand-head-padel,Hydrosorb,current,published,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,
+prod-babolat-syntec-pro,cat-padel-grips,brand-babolat-padel,Syntec Pro,current,published,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,Inventory NL_available=yes without priced Kitletics Offer.
+prod-hesacore-padel,cat-padel-grips,brand-hesacore,Hesacore,current,published,NL_AVAILABLE,NL_OFFER,RESEARCHED,1,0,false,1,0,true,0,€17.99 / 1-pack · €17.99 / grip,
+prod-adidas-padel-overgrip,cat-padel-grips,brand-adidas-padel,Adidas Padel Overgrip,current,published,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,
+prod-bullpadel-frame-protector,cat-padel-accessories,brand-bullpadel,Frame Protector,current,published,NL_AVAILABLE,NL_OFFER,RESEARCHED,1,0,false,1,0,true,0,,
+prod-nox-frame-protector,cat-padel-accessories,brand-nox,Transparent Protector,current,published,NL_AVAILABLE,NL_OFFER,RESEARCHED,1,0,false,1,0,true,0,,
+prod-bullpadel-pascal-box,cat-padel-accessories,brand-bullpadel,Pascal Box 3B,current,published,NL_AVAILABLE,NL_OFFER,RESEARCHED,1,0,false,1,0,true,1,,
+prod-head-x3-pressurizer,cat-padel-accessories,brand-head-padel,X3 Pressurizer,current,published,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,
+prod-bullpadel-custom-weight,cat-padel-accessories,brand-bullpadel,Protector Custom Weight,current,published,NL_AVAILABLE,NL_OFFER,RESEARCHED,1,0,false,1,0,true,0,,
+prod-head-wristband,cat-padel-accessories,brand-head-padel,HEAD Wristband,current,published,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,
+prod-wilson-wristband,cat-padel-accessories,brand-wilson-padel,Wilson Wristband,current,published,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,
+prod-nox-wristband,cat-padel-accessories,brand-nox,Nox Wristband,current,published,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,
+prod-bullpadel-wristband,cat-padel-accessories,brand-bullpadel,Bullpadel Wristband,current,published,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,
+prod-head-smartsorb,cat-padel-accessories,brand-head-padel,Smartsorb,current,published,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,1,,Product listing URL researched in inventory — Kitletics Offer price not yet verified (no invented price).; Inventory NL_available=yes without priced Kitletics Offer.
+prod-4on-totalgrip,cat-padel-accessories,brand-4on,TotalGrip,current,published,BRAND_DIRECT,NO_OFFER,RESEARCHED,0,0,false,0,0,false,1,,Product listing URL researched in inventory — Kitletics Offer price not yet verified (no invented price).; Inventory NL_available=yes without priced Kitletics Offer.
+prod-adidas-adidas-protector,cat-padel-accessories,brand-adidas-padel,Adidas Protector,current,published,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,
+prod-adidas-adidas-wristband,cat-padel-accessories,brand-adidas-padel,Adidas Wristband,current,published,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,
+prod-alacran-alacran-basket,cat-padel-accessories,brand-alacran,Alacran Basket,current,published,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,Inventory NL_available=yes without priced Kitletics Offer.
+prod-alacran-wide-ancha,cat-padel-accessories,brand-alacran,Wide / Ancha,current,draft,NL_AVAILABLE,NL_OFFER,RESEARCHED,1,0,false,1,0,true,1,,
+prod-babolat-babolat-protector,cat-padel-accessories,brand-babolat-padel,Babolat Protector,current,published,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,
+prod-babolat-babolat-wristband,cat-padel-accessories,brand-babolat-padel,Babolat Wristband,current,published,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,
+prod-ball-rescuer-ball-rescuer,cat-padel-accessories,brand-ball-rescuer,Ball Rescuer,current,published,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,Inventory NL_available=yes without priced Kitletics Offer.
+prod-ball-rescuer-premium,cat-padel-accessories,brand-ball-rescuer,Premium,current,draft,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,Inventory NL_available=yes without priced Kitletics Offer.
+prod-black-crown-vibranium-transparent,cat-padel-accessories,brand-black-crown,Vibranium Transparent,current,published,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,Inventory NL_available=yes without priced Kitletics Offer.
+prod-black-crown-black-crown-wristband,cat-padel-accessories,brand-black-crown,Black Crown Wristband,current,published,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,Inventory NL_available=yes without priced Kitletics Offer.
+prod-bounce-bounce-padel-x4,cat-padel-accessories,brand-bounce-tube,Bounce Padel X4,current,draft,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,Inventory NL_available=yes without priced Kitletics Offer.
+prod-bullpadel-bpmu252-bpmu253,cat-padel-accessories,brand-bullpadel,BPMU252 / BPMU253,current,published,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,Inventory NL_available=yes without priced Kitletics Offer.
+prod-bullpadel-pascal-box-switch-3b,cat-padel-accessories,brand-bullpadel,Pascal Box Switch 3B,current,draft,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,
+prod-bullpadel-custom-weight-grip,cat-padel-accessories,brand-bullpadel,Custom Weight Grip,current,published,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,Inventory NL_available=yes without priced Kitletics Offer.
+prod-bullpadel-frame-protector-uni,cat-padel-accessories,brand-bullpadel,Frame Protector Uni,current,published,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,
+prod-bullpadel-bullpadel-headband,cat-padel-accessories,brand-bullpadel,Bullpadel Headband,current,published,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,
+prod-bullpadel-metalshield,cat-padel-accessories,brand-bullpadel,Metalshield,current,published,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,Inventory NL_available=yes without priced Kitletics Offer.
+prod-bullpadel-pascal-box-4b,cat-padel-accessories,brand-bullpadel,Pascal Box 4B,current,draft,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,Inventory NL_available=yes without priced Kitletics Offer.
+prod-bullpadel-pascal-box-pro,cat-padel-accessories,brand-bullpadel,Pascal Box PRO,current,draft,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,
+prod-bullpadel-pascal-box-switch,cat-padel-accessories,brand-bullpadel,Pascal Box SWITCH,current,draft,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,Inventory NL_available=yes without priced Kitletics Offer.
+prod-bullpadel-custom-weight-protector,cat-padel-accessories,brand-bullpadel,Custom Weight Protector,current,draft,NL_AVAILABLE,NL_OFFER,RESEARCHED,1,0,false,1,0,true,1,,
+prod-enebe-enebe-protector-line,cat-padel-accessories,brand-enebe,Enebe Protector line,current,published,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,Inventory NL_available=yes without priced Kitletics Offer.
+prod-head-antishock-skin,cat-padel-accessories,brand-head-padel,Antishock Skin,current,published,BRAND_DIRECT,NO_OFFER,RESEARCHED,0,0,false,0,0,false,1,,Product listing URL researched in inventory — Kitletics Offer price not yet verified (no invented price).; Inventory NL_available=yes without priced Kitletics Offer.
+prod-head-head-ball-cart,cat-padel-accessories,brand-head-padel,HEAD Ball Cart,current,draft,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,Inventory NL_available=yes without priced Kitletics Offer.
+prod-head-pick-up-tube,cat-padel-accessories,brand-head-padel,Pick Up Tube,current,published,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,Inventory NL_available=yes without priced Kitletics Offer.
+prod-head-court-basket-70,cat-padel-accessories,brand-head-padel,Court Basket 70,current,draft,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,Inventory NL_available=yes without priced Kitletics Offer.
+prod-head-ball-basket,cat-padel-accessories,brand-head-padel,Ball Basket,current,draft,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,
+prod-head-protector-tape,cat-padel-accessories,brand-head-padel,Protector Tape,current,draft,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,
+prod-head-headband,cat-padel-accessories,brand-head-padel,Headband,current,draft,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,
+prod-head-x100,cat-padel-accessories,brand-head-padel,X100,current,draft,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,
+prod-head-head-logo-wristband,cat-padel-accessories,brand-head-padel,HEAD Logo Wristband,current,draft,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,Inventory NL_available=yes without priced Kitletics Offer.
+prod-head-coaching-kit,cat-padel-accessories,brand-head-padel,Coaching Kit,current,published,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,Inventory NL_available=yes without priced Kitletics Offer.
+prod-head-dome-cones,cat-padel-accessories,brand-head-padel,Dome Cones,current,published,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,Inventory NL_available=yes without priced Kitletics Offer.
+prod-head-performance-headband,cat-padel-accessories,brand-head-padel,Performance HEADband,current,draft,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,Inventory NL_available=yes without priced Kitletics Offer.
+prod-head-head-targets,cat-padel-accessories,brand-head-padel,HEAD Targets,current,draft,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,Inventory NL_available=yes without priced Kitletics Offer.
+prod-head-x3-pump,cat-padel-accessories,brand-head-padel,X3 Pump,current,published,EU_AVAILABLE_TO_NL,NO_OFFER,RESEARCHED,0,0,false,0,0,false,1,,Product listing URL researched in inventory — Kitletics Offer price not yet verified (no invented price).; Inventory NL_available=yes without priced Kitletics Offer.
+prod-head-x4-pump,cat-padel-accessories,brand-head-padel,X4 Pump,current,draft,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,Inventory NL_available=yes without priced Kitletics Offer.
+prod-nox-nox-pickup-tube,cat-padel-accessories,brand-nox,Nox Pickup Tube,current,draft,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,
+prod-nox-nox-color-pack,cat-padel-accessories,brand-nox,Nox Color Pack,current,published,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,1,,Product listing URL researched in inventory — Kitletics Offer price not yet verified (no invented price).; Inventory NL_available=yes without priced Kitletics Offer.
+prod-nox-texture-protector,cat-padel-accessories,brand-nox,Texture Protector,current,draft,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,
+prod-nox-transparent-protection-tape,cat-padel-accessories,brand-nox,Transparent / Protection Tape,current,draft,NL_AVAILABLE,NL_OFFER,RESEARCHED,1,0,false,1,0,true,2,,
+prod-nox-weight-balancer-2-4g,cat-padel-accessories,brand-nox,Weight Balancer 2-4g,current,published,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,1,,Product listing URL researched in inventory — Kitletics Offer price not yet verified (no invented price).; Inventory NL_available=yes without priced Kitletics Offer.
+prod-pascal-box-compressor,cat-padel-accessories,brand-pascal-box,Compressor,current,published,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,
+prod-pascal-box-compressor-pro,cat-padel-accessories,brand-pascal-box,Compressor Pro,current,draft,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,
+prod-shockout-gravity,cat-padel-accessories,brand-shockout,Gravity+,current,published,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,Inventory NL_available=yes without priced Kitletics Offer.
+prod-shockout-shockout-protector,cat-padel-accessories,brand-shockout,ShockOut Protector,current,draft,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,Inventory NL_available=yes without priced Kitletics Offer.
+prod-shockout-padel-balls-design,cat-padel-accessories,brand-shockout,Padel Balls design,current,draft,NL_AVAILABLE,NL_OFFER,RESEARCHED,1,0,false,1,0,true,1,,
+prod-siux-siux-logo-transparent,cat-padel-accessories,brand-siux,Siux Logo Transparent,current,draft,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,Inventory NL_available=yes without priced Kitletics Offer.
+prod-softee-softee-basket,cat-padel-accessories,brand-softee,Softee Basket,current,published,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,Inventory NL_available=yes without priced Kitletics Offer.
+prod-softee-cube-pro,cat-padel-accessories,brand-softee,Cube Pro,current,published,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,
+prod-softee-max-tube,cat-padel-accessories,brand-softee,Max Tube,current,draft,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,
+prod-softee-press-pro-x3,cat-padel-accessories,brand-softee,Press Pro X3,current,draft,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,
+prod-softee-softee-protector,cat-padel-accessories,brand-softee,Softee Protector,current,published,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,Inventory NL_available=yes without priced Kitletics Offer.
+prod-starvie-transparent-protector-2026,cat-padel-accessories,brand-starvie,Transparent Protector 2026,current,published,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,1,,Product listing URL researched in inventory — Kitletics Offer price not yet verified (no invented price).
+prod-tuboplus-tuboplus-29psi-x3,cat-padel-accessories,brand-tuboplus,TuboPlus 29PSI X3,current,draft,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,Inventory NL_available=yes without priced Kitletics Offer.
+prod-tuboplus-29psi-x3e,cat-padel-accessories,brand-tuboplus,29PSI X3e,current,draft,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,
+prod-tuboplus-29psi-x4e,cat-padel-accessories,brand-tuboplus,29PSI X4e,current,draft,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,
+prod-tuboplus-boost,cat-padel-accessories,brand-tuboplus,BOOST,current,draft,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,
+prod-tuboplus-r3play,cat-padel-accessories,brand-tuboplus,R3PLAY,current,draft,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,
+prod-tuboplus-r3set,cat-padel-accessories,brand-tuboplus,R3SET,current,draft,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,
+prod-tuboplus-repl4y,cat-padel-accessories,brand-tuboplus,REPL4Y,current,draft,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,
+prod-tuboplus-tuboplus-x4,cat-padel-accessories,brand-tuboplus,TuboPlus X4,current,draft,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,Inventory NL_available=yes without priced Kitletics Offer.
+prod-tuboplus-tubox3,cat-padel-accessories,brand-tuboplus,TuboX3,current,draft,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,Inventory NL_available=yes without priced Kitletics Offer.
+prod-vibora-vibor-a-transparent,cat-padel-accessories,brand-vibora,Vibor-A Transparent,current,published,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,Inventory NL_available=yes without priced Kitletics Offer.
+prod-wilson-wilson-weight-tape,cat-padel-accessories,brand-wilson-padel,Wilson Weight Tape,current,published,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,
+prod-wilson-wilson-protector,cat-padel-accessories,brand-wilson-padel,Wilson Protector,current,draft,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,
+prod-adidas-control-2026,cat-padel-bags,brand-adidas-padel,Control 2026,current,published,EU_AVAILABLE_TO_NL,NO_OFFER,RESEARCHED,0,0,false,0,0,false,1,,Product listing URL researched in inventory — Kitletics Offer price not yet verified (no invented price).
+prod-adidas-metalbone-bag,cat-padel-bags,brand-adidas-padel,Metalbone Bag,current,published,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,
+prod-adidas-multigame-backpack-2026,cat-padel-bags,brand-adidas-padel,Multigame Backpack 2026,current,draft,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,
+prod-adidas-multigame-2026,cat-padel-bags,brand-adidas-padel,Multigame 2026,current,draft,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,
+prod-adidas-protour-backpack-2026,cat-padel-bags,brand-adidas-padel,ProTour Backpack 2026,current,published,EU_AVAILABLE_TO_NL,NO_OFFER,RESEARCHED,0,0,false,0,0,false,1,,Product listing URL researched in inventory — Kitletics Offer price not yet verified (no invented price).
+prod-adidas-tour,cat-padel-bags,brand-adidas-padel,Tour,current,published,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,
+prod-adidas-weekend,cat-padel-bags,brand-adidas-padel,Weekend,current,draft,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,Inventory NL_available=yes without priced Kitletics Offer.
+prod-babolat-backpack-kids,cat-padel-bags,brand-babolat-padel,Backpack Kids,current,draft,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,Inventory NL_available=yes without priced Kitletics Offer.
+prod-babolat-court-backpack-lite,cat-padel-bags,brand-babolat-padel,Court Backpack Lite,current,draft,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,Inventory NL_available=yes without priced Kitletics Offer.
+prod-babolat-rh-perf,cat-padel-bags,brand-babolat-padel,RH Perf,current,published,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,Inventory NL_available=yes without priced Kitletics Offer.
+prod-black-crown-spartan,cat-padel-bags,brand-black-crown,Spartan,current,published,NL_AVAILABLE,NL_OFFER,RESEARCHED,1,0,false,1,0,true,1,,
+prod-black-crown-thunder,cat-padel-bags,brand-black-crown,Thunder,current,published,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,1,,Product listing URL researched in inventory — Kitletics Offer price not yet verified (no invented price).; Inventory NL_available=yes without priced Kitletics Offer.
+prod-black-crown-ultimate-pro-2-0,cat-padel-bags,brand-black-crown,Ultimate Pro 2.0,current,published,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,1,,Product listing URL researched in inventory — Kitletics Offer price not yet verified (no invented price).; Inventory NL_available=yes without priced Kitletics Offer.
+prod-bullpadel-advance-bpp26014,cat-padel-bags,brand-bullpadel,Advance BPP26014,current,published,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,
+prod-bullpadel-casual-bpp26016,cat-padel-bags,brand-bullpadel,Casual BPP26016,current,published,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,
+prod-bullpadel-elite-bpp26019,cat-padel-bags,brand-bullpadel,Elite BPP26019,current,published,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,
+prod-bullpadel-hack-bpm26002,cat-padel-bags,brand-bullpadel,Hack BPM26002,current,published,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,
+prod-bullpadel-icon-bpp26023,cat-padel-bags,brand-bullpadel,Icon BPP26023,current,published,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,
+prod-bullpadel-ionic-bpp26005,cat-padel-bags,brand-bullpadel,Ionic BPP26005,current,published,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,
+prod-bullpadel-neuron-bpm26020,cat-padel-bags,brand-bullpadel,Neuron BPM26020,current,published,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,
+prod-bullpadel-neuron-bpp26020,cat-padel-bags,brand-bullpadel,Neuron BPP26020,current,draft,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,
+prod-bullpadel-pearl-bpm27017,cat-padel-bags,brand-bullpadel,Pearl BPM27017,current,published,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,
+prod-bullpadel-pearl-bpp26021,cat-padel-bags,brand-bullpadel,Pearl BPP26021,current,draft,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,
+prod-bullpadel-tour-bpp26015,cat-padel-bags,brand-bullpadel,Tour BPP26015,current,published,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,
+prod-bullpadel-trolley-bpp26011,cat-padel-bags,brand-bullpadel,Trolley BPP26011,current,draft,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,
+prod-bullpadel-vertex-bpp26001,cat-padel-bags,brand-bullpadel,Vertex BPP26001,current,published,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,
+prod-bullpadel-vertex-geo-premier-bpm26008,cat-padel-bags,brand-bullpadel,Vertex Geo Premier BPM26008,current,published,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,
+prod-bullpadel-wonder-bpp26024,cat-padel-bags,brand-bullpadel,Wonder BPP26024,current,published,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,
+prod-bullpadel-xplo-bpp26022,cat-padel-bags,brand-bullpadel,Xplo BPP26022,current,published,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,
+prod-bullpadel-flow-bpp26006,cat-padel-bags,brand-bullpadel,Flow BPP26006,current,published,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,1,,Product listing URL researched in inventory — Kitletics Offer price not yet verified (no invented price).; Inventory NL_available=yes without priced Kitletics Offer.
+prod-bullpadel-bpm26002-hack,cat-padel-bags,brand-bullpadel,BPM26002 Hack,current,draft,NL_AVAILABLE,NL_OFFER,RESEARCHED,1,0,false,1,0,true,1,,
+prod-bullpadel-hack-bpp26012,cat-padel-bags,brand-bullpadel,Hack BPP26012,current,published,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,Inventory NL_available=yes without priced Kitletics Offer.
+prod-bullpadel-bpp26005-ionic,cat-padel-bags,brand-bullpadel,BPP26005 Ionic,current,draft,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,Inventory NL_available=yes without priced Kitletics Offer.
+prod-bullpadel-bpm26007-bpm26008-vertex,cat-padel-bags,brand-bullpadel,BPM26007 / BPM26008 Vertex,current,published,NL_AVAILABLE,NL_OFFER,RESEARCHED,1,0,false,1,0,true,3,,
+prod-bullpadel-bpp26001-vertex,cat-padel-bags,brand-bullpadel,BPP26001 Vertex,current,draft,EU_AVAILABLE_TO_NL,NO_OFFER,RESEARCHED,0,0,false,0,0,false,1,,Product listing URL researched in inventory — Kitletics Offer price not yet verified (no invented price).; Inventory NL_available=yes without priced Kitletics Offer.
+prod-bullpadel-bpm26022-xplo,cat-padel-bags,brand-bullpadel,BPM26022 XPLO,current,draft,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,Inventory NL_available=yes without priced Kitletics Offer.
+prod-bullpadel-bpp26022-xplo,cat-padel-bags,brand-bullpadel,BPP26022 XPLO,current,draft,NL_AVAILABLE,NL_OFFER,RESEARCHED,1,0,false,1,0,true,1,,
+prod-drop-shot-axion-backpack,cat-padel-bags,brand-drop-shot,Axion Backpack,current,draft,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,Inventory NL_available=yes without priced Kitletics Offer.
+prod-drop-shot-axion,cat-padel-bags,brand-drop-shot,Axion,current,draft,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,Inventory NL_available=yes without priced Kitletics Offer.
+prod-drop-shot-blitz,cat-padel-bags,brand-drop-shot,Blitz,current,published,EU_AVAILABLE_TO_NL,NO_OFFER,RESEARCHED,0,0,false,0,0,false,1,,Product listing URL researched in inventory — Kitletics Offer price not yet verified (no invented price).; Inventory NL_available=yes without priced Kitletics Offer.
+prod-drop-shot-fenix,cat-padel-bags,brand-drop-shot,Fenix,current,draft,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,Inventory NL_available=yes without priced Kitletics Offer.
+prod-drop-shot-lcp,cat-padel-bags,brand-drop-shot,LCP,current,published,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,Inventory NL_available=yes without priced Kitletics Offer.
+prod-head-coello-pro-x-backpack,cat-padel-bags,brand-head-padel,Coello Pro X Backpack,current,published,BRAND_DIRECT,NO_OFFER,RESEARCHED,0,0,false,0,0,false,1,,Product listing URL researched in inventory — Kitletics Offer price not yet verified (no invented price).; Inventory NL_available=yes without priced Kitletics Offer.
+prod-head-coello-pro-x-duffle-l,cat-padel-bags,brand-head-padel,Coello Pro X Duffle L,current,published,BRAND_DIRECT,NO_OFFER,RESEARCHED,0,0,false,0,0,false,1,,Product listing URL researched in inventory — Kitletics Offer price not yet verified (no invented price).; Inventory NL_available=yes without priced Kitletics Offer.
+prod-head-coello-tour-backpack,cat-padel-bags,brand-head-padel,Coello Tour Backpack,current,published,BRAND_DIRECT,NO_OFFER,RESEARCHED,0,0,false,0,0,false,1,,Product listing URL researched in inventory — Kitletics Offer price not yet verified (no invented price).; Inventory NL_available=yes without priced Kitletics Offer.
+prod-head-coello-tour-bag,cat-padel-bags,brand-head-padel,Coello Tour Bag,current,published,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,1,,Product listing URL researched in inventory — Kitletics Offer price not yet verified (no invented price).; Inventory NL_available=yes without priced Kitletics Offer.
+prod-head-elite-supercombi,cat-padel-bags,brand-head-padel,Elite Supercombi,current,draft,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,
+prod-head-tour-backpack-25l,cat-padel-bags,brand-head-padel,Tour Backpack 25L,current,published,EU_AVAILABLE_TO_NL,NO_OFFER,RESEARCHED,0,0,false,0,0,false,1,,Product listing URL researched in inventory — Kitletics Offer price not yet verified (no invented price).
+prod-head-tour-team-cb-2026,cat-padel-bags,brand-head-padel,Tour Team CB 2026,current,draft,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,
+prod-head-pro-x-bag-l,cat-padel-bags,brand-head-padel,Pro X Bag L,current,published,BRAND_DIRECT,NO_OFFER,RESEARCHED,0,0,false,0,0,false,2,,Product listing URL researched in inventory — Kitletics Offer price not yet verified (no invented price).; Inventory NL_available=yes without priced Kitletics Offer.
+prod-head-pro-x-duffle-l,cat-padel-bags,brand-head-padel,Pro X Duffle L,current,draft,BRAND_DIRECT,NO_OFFER,RESEARCHED,0,0,false,0,0,false,1,,Product listing URL researched in inventory — Kitletics Offer price not yet verified (no invented price).; Inventory NL_available=yes without priced Kitletics Offer.
+prod-head-tour-padel-bag-l,cat-padel-bags,brand-head-padel,Tour Padel Bag L,current,draft,BRAND_DIRECT,NO_OFFER,RESEARCHED,0,0,false,0,0,false,2,,Product listing URL researched in inventory — Kitletics Offer price not yet verified (no invented price).; Inventory NL_available=yes without priced Kitletics Offer.
+prod-head-tour-team-elite,cat-padel-bags,brand-head-padel,Tour Team Elite,current,draft,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,1,,Product listing URL researched in inventory — Kitletics Offer price not yet verified (no invented price).; Inventory NL_available=yes without priced Kitletics Offer.
+prod-joma-pro,cat-padel-bags,brand-joma,Pro,current,published,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,Inventory NL_available=yes without priced Kitletics Offer.
+prod-kuikma-pl-900-elite,cat-padel-bags,brand-kuikma,PL 900 Elite,current,draft,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,Inventory NL_available=yes without priced Kitletics Offer.
+prod-kuikma-backpack,cat-padel-bags,brand-kuikma,Backpack,current,draft,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,
+prod-kuikma-pbp-elite,cat-padel-bags,brand-kuikma,PBP Elite,current,draft,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,Inventory NL_available=yes without priced Kitletics Offer.
+prod-lok-aventure-gen-2,cat-padel-bags,brand-lok,Aventure Gen 2,current,published,EU_AVAILABLE_TO_NL,NO_OFFER,RESEARCHED,0,0,false,0,0,false,1,,Product listing URL researched in inventory — Kitletics Offer price not yet verified (no invented price).; Inventory NL_available=yes without priced Kitletics Offer.
+prod-lok-maxx-gen-2,cat-padel-bags,brand-lok,Maxx Gen 2 Paletero,current,published,EU_AVAILABLE_TO_NL,NO_OFFER,RESEARCHED,0,0,false,0,0,false,2,,Product listing URL researched in inventory — Kitletics Offer price not yet verified (no invented price).; Inventory NL_available=yes without priced Kitletics Offer.
+prod-nox-at10-competition-trolley,cat-padel-bags,brand-nox,AT10 Competition Trolley,current,published,BRAND_DIRECT,NO_OFFER,RESEARCHED,0,0,false,0,0,false,2,,Product listing URL researched in inventory — Kitletics Offer price not yet verified (no invented price).; Inventory NL_available=yes without priced Kitletics Offer.
+prod-nox-at10-team-backpack,cat-padel-bags,brand-nox,AT10 Team Backpack,current,draft,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,Inventory NL_available=yes without priced Kitletics Offer.
+prod-nox-at10-team,cat-padel-bags,brand-nox,AT10 Team,current,published,BRAND_DIRECT,NO_OFFER,RESEARCHED,0,0,false,0,0,false,1,,Product listing URL researched in inventory — Kitletics Offer price not yet verified (no invented price).; Inventory NL_available=yes without priced Kitletics Offer.
+prod-nox-luxury-master-backpack,cat-padel-bags,brand-nox,Luxury Master Backpack,current,published,BRAND_DIRECT,NO_OFFER,RESEARCHED,0,0,false,0,0,false,1,,Product listing URL researched in inventory — Kitletics Offer price not yet verified (no invented price).; Inventory NL_available=yes without priced Kitletics Offer.
+prod-nox-luxury-master-series,cat-padel-bags,brand-nox,Luxury Master Series,current,published,NL_AVAILABLE,NL_OFFER,RESEARCHED,1,0,false,1,0,true,1,,
+prod-nox-luxury-open-backpack,cat-padel-bags,brand-nox,Luxury Open Backpack,current,published,BRAND_DIRECT,NO_OFFER,RESEARCHED,0,0,false,0,0,false,1,,Product listing URL researched in inventory — Kitletics Offer price not yet verified (no invented price).; Inventory NL_available=yes without priced Kitletics Offer.
+prod-nox-luxury-open-series,cat-padel-bags,brand-nox,Luxury Open Series,current,published,NL_AVAILABLE,NL_OFFER,RESEARCHED,1,0,false,1,0,true,1,,
+prod-nox-ml10-competition-xl-compact,cat-padel-bags,brand-nox,ML10 Competition XL Compact,current,draft,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,Inventory NL_available=yes without priced Kitletics Offer.
+prod-nox-ml10-team-backpack,cat-padel-bags,brand-nox,ML10 Team Backpack,current,draft,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,Inventory NL_available=yes without priced Kitletics Offer.
+prod-nox-ml10-team,cat-padel-bags,brand-nox,ML10 Team,current,draft,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,Inventory NL_available=yes without priced Kitletics Offer.
+prod-nox-at10-competition-xl-compact,cat-padel-bags,brand-nox,AT10 Competition XL Compact,current,draft,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,
+prod-nox-pro-series-backpack,cat-padel-bags,brand-nox,Pro Series Backpack,current,published,EU_AVAILABLE_TO_NL,NO_OFFER,RESEARCHED,0,0,false,0,0,false,2,,Product listing URL researched in inventory — Kitletics Offer price not yet verified (no invented price).; Inventory NL_available=yes without priced Kitletics Offer.
+prod-nox-pro-series,cat-padel-bags,brand-nox,Pro Series,current,draft,EU_AVAILABLE_TO_NL,NO_OFFER,RESEARCHED,0,0,false,0,0,false,1,,Product listing URL researched in inventory — Kitletics Offer price not yet verified (no invented price).; Inventory NL_available=yes without priced Kitletics Offer.
+prod-nox-street-series,cat-padel-bags,brand-nox,Street Series,current,draft,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,Inventory NL_available=yes without priced Kitletics Offer.
+prod-oxdog-cube,cat-padel-bags,brand-oxdog,Cube,current,published,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,Inventory NL_available=yes without priced Kitletics Offer.
+prod-oxdog-hyper-pro-thermo,cat-padel-bags,brand-oxdog,Hyper Pro Thermo,current,published,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,Inventory NL_available=yes without priced Kitletics Offer.
+prod-oxdog-hyper-tour-thermo-backpack,cat-padel-bags,brand-oxdog,Hyper Tour Thermo Backpack,current,published,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,Inventory NL_available=yes without priced Kitletics Offer.
+prod-oxdog-x-padel-pro-thermo,cat-padel-bags,brand-oxdog,X Padel Pro Thermo,current,draft,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,Inventory NL_available=yes without priced Kitletics Offer.
+prod-royal-padel-force,cat-padel-bags,brand-royal-padel,Force,current,published,NL_AVAILABLE,NL_OFFER,RESEARCHED,1,0,false,1,0,true,1,,
+prod-siux-nomad,cat-padel-bags,brand-siux,Nomad,current,published,NL_AVAILABLE,NL_OFFER,RESEARCHED,1,0,false,1,0,true,1,,
+prod-siux-electra-stupa-2026,cat-padel-bags,brand-siux,Electra Stupa 2026,current,published,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,1,,Product listing URL researched in inventory — Kitletics Offer price not yet verified (no invented price).
+prod-siux-tour,cat-padel-bags,brand-siux,Tour,current,published,NL_AVAILABLE,NL_OFFER,RESEARCHED,1,0,false,1,0,true,2,,
+prod-siux-trail,cat-padel-bags,brand-siux,Trail,current,published,NL_AVAILABLE,NL_OFFER,RESEARCHED,1,0,false,1,0,true,1,,
+prod-starvie-hard-eva,cat-padel-bags,brand-starvie,Hard Eva,current,published,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,1,,Product listing URL researched in inventory — Kitletics Offer price not yet verified (no invented price).; Inventory NL_available=yes without priced Kitletics Offer.
+prod-starvie-hard-eva-backpack,cat-padel-bags,brand-starvie,Hard Eva Backpack,current,published,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,Inventory NL_available=yes without priced Kitletics Offer.
+prod-starvie-pro-master,cat-padel-bags,brand-starvie,Pro Master,current,published,NL_AVAILABLE,NL_OFFER,RESEARCHED,1,0,false,1,0,true,3,,
+prod-starvie-tactic-pro,cat-padel-bags,brand-starvie,Tactic Pro,current,published,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,1,,Product listing URL researched in inventory — Kitletics Offer price not yet verified (no invented price).; Inventory NL_available=yes without priced Kitletics Offer.
+prod-tecnifibre-tour-endurance-bag,cat-padel-bags,brand-tecnifibre-padel,Tour Endurance Bag,current,published,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,
+prod-tecnifibre-tour-endurance-ultra,cat-padel-bags,brand-tecnifibre-padel,Tour Endurance Ultra,current,draft,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,Inventory NL_available=yes without priced Kitletics Offer.
+prod-varlion-ambassador,cat-padel-bags,brand-varlion,Ambassador,current,draft,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,Inventory NL_available=yes without priced Kitletics Offer.
+prod-varlion-summum-backpack,cat-padel-bags,brand-varlion,Summum Backpack,current,published,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,Inventory NL_available=yes without priced Kitletics Offer.
+prod-varlion-summum-pro,cat-padel-bags,brand-varlion,Summum Pro,current,draft,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,Inventory NL_available=yes without priced Kitletics Offer.
+prod-wilson-bela-super-tour-backpack,cat-padel-bags,brand-wilson-padel,Bela Super Tour Backpack,current,published,NL_AVAILABLE,NL_OFFER,RESEARCHED,1,0,false,1,0,true,1,,
+prod-wilson-bela-backpack,cat-padel-bags,brand-wilson-padel,Bela Backpack,current,published,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,
+prod-wilson-super-tour-2026,cat-padel-bags,brand-wilson-padel,Super Tour 2026,current,published,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,1,,Product listing URL researched in inventory — Kitletics Offer price not yet verified (no invented price).
+prod-adidas-pro-bounce,cat-padel-balls,brand-adidas-padel,Pro Bounce,current,published,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,
+prod-adidas-serie-tour,cat-padel-balls,brand-adidas-padel,Serie+ Tour,current,draft,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,
+prod-babolat-ace,cat-padel-balls,brand-babolat-padel,Ace,current,draft,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,
+prod-babolat-court,cat-padel-balls,brand-babolat-padel,Court,current,published,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,Inventory NL_available=yes without priced Kitletics Offer.
+prod-babolat-short,cat-padel-balls,brand-babolat-padel,Short,current,published,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,
+prod-black-crown-one,cat-padel-balls,brand-black-crown,One,current,published,NL_AVAILABLE,NL_OFFER,RESEARCHED,1,0,false,1,0,true,1,€74.95 / 3-ball can · €24.98 / ball,
+prod-black-crown-pro,cat-padel-balls,brand-black-crown,Pro,current,published,NL_AVAILABLE,NL_OFFER,RESEARCHED,1,0,false,1,0,true,1,€4.95 / 3-ball can · €1.65 / ball,
+prod-bullpadel-fip-next,cat-padel-balls,brand-bullpadel,FIP Next,current,draft,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,Inventory NL_available=yes without priced Kitletics Offer.
+prod-bullpadel-fip-next-pro,cat-padel-balls,brand-bullpadel,FIP Next Pro,current,published,EU_AVAILABLE_TO_NL,NO_OFFER,RESEARCHED,0,0,false,0,0,false,1,,Product listing URL researched in inventory — Kitletics Offer price not yet verified (no invented price).; Inventory NL_available=yes without priced Kitletics Offer.
+prod-bullpadel-next,cat-padel-balls,brand-bullpadel,Next,current,published,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,
+prod-bullpadel-next-pro,cat-padel-balls,brand-bullpadel,Next Pro,current,draft,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,
+prod-drop-shot-speed-tech,cat-padel-balls,brand-drop-shot,Speed Tech,current,published,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,
+prod-drop-shot-tournament-speed-pro,cat-padel-balls,brand-drop-shot,Tournament Speed Pro,current,published,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,
+prod-drop-shot-tournament-tech,cat-padel-balls,brand-drop-shot,Tournament Tech,current,draft,EU_AVAILABLE_TO_NL,NO_OFFER,RESEARCHED,0,0,false,0,0,false,1,,Product listing URL researched in inventory — Kitletics Offer price not yet verified (no invented price).
+prod-drop-shot-training-tech,cat-padel-balls,brand-drop-shot,Training Tech,current,published,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,
+prod-dunlop-eco,cat-padel-balls,brand-dunlop-padel,Eco,current,published,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,Inventory NL_available=yes without priced Kitletics Offer.
+prod-dunlop-pro,cat-padel-balls,brand-dunlop-padel,Pro,current,published,NL_AVAILABLE,NL_OFFER,RESEARCHED,1,0,false,1,0,true,2,€5.99 / 3-ball can · €2.00 / ball,
+prod-dunlop-team,cat-padel-balls,brand-dunlop-padel,Team,current,draft,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,Inventory NL_available=yes without priced Kitletics Offer.
+prod-fila-premium,cat-padel-balls,brand-fila-padel,Premium,current,published,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,
+prod-fila-premium-pro,cat-padel-balls,brand-fila-padel,Premium Pro,current,published,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,
+prod-nox-nerbo,cat-padel-balls,brand-nox,Nerbo,current,published,BRAND_DIRECT,NO_OFFER,RESEARCHED,0,0,false,0,0,false,1,,Product listing URL researched in inventory — Kitletics Offer price not yet verified (no invented price).; Inventory NL_available=yes without priced Kitletics Offer.
+prod-nox-nerbo-speed,cat-padel-balls,brand-nox,Nerbo+ Speed,current,published,BRAND_DIRECT,NO_OFFER,RESEARCHED,0,0,false,0,0,false,1,,Product listing URL researched in inventory — Kitletics Offer price not yet verified (no invented price).; Inventory NL_available=yes without priced Kitletics Offer.
+prod-nox-pro-titanium,cat-padel-balls,brand-nox,Pro Titanium,current,published,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,Inventory NL_available=yes without priced Kitletics Offer.
+prod-osaka-pro-tour,cat-padel-balls,brand-osaka-padel,Pro Tour,current,published,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,1,,Product listing URL researched in inventory — Kitletics Offer price not yet verified (no invented price).
+prod-osaka-vision,cat-padel-balls,brand-osaka-padel,Vision,current,published,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,2,,Product listing URL researched in inventory — Kitletics Offer price not yet verified (no invented price).; Inventory NL_available=yes without priced Kitletics Offer.
+prod-oxdog-boost,cat-padel-balls,brand-oxdog,Boost,current,published,NL_AVAILABLE,NL_OFFER,RESEARCHED,1,0,false,1,0,true,1,€6.95 / 3-ball can · €2.32 / ball,
+prod-pallap-competition-01,cat-padel-balls,brand-pallap,Competition 01,current,draft,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,
+prod-rs-champions-choice,cat-padel-balls,brand-rs-padel,Champions Choice,current,published,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,2,,Product listing URL researched in inventory — Kitletics Offer price not yet verified (no invented price).
+prod-rs-nova-x,cat-padel-balls,brand-rs-padel,Nova X,current,published,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,3,,Product listing URL researched in inventory — Kitletics Offer price not yet verified (no invented price).
+prod-siux-neo,cat-padel-balls,brand-siux,Neo,current,published,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,
+prod-siux-neo-speed,cat-padel-balls,brand-siux,Neo Speed,current,published,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,Inventory NL_available=yes without priced Kitletics Offer.
+prod-siux-neo-speed-neo-s,cat-padel-balls,brand-siux,Neo Speed (Neo S),current,published,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,1,,Product listing URL researched in inventory — Kitletics Offer price not yet verified (no invented price).
+prod-slazenger-challenge-no-1,cat-padel-balls,brand-slazenger-padel,Challenge No.1,current,draft,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,1,,Product listing URL researched in inventory — Kitletics Offer price not yet verified (no invented price).
+prod-tecnifibre-padel-tour,cat-padel-balls,brand-tecnifibre-padel,Padel Tour,current,published,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,
+prod-tecnifibre-x-one,cat-padel-balls,brand-tecnifibre-padel,X-One,current,published,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,
+prod-tretorn-serie-padel-control,cat-padel-balls,brand-tretorn-padel,Serie+ Padel Control,current,published,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,
+prod-tretorn-serie-padel-tour,cat-padel-balls,brand-tretorn-padel,Serie+ Padel Tour,current,published,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,Inventory NL_available=yes without priced Kitletics Offer.
+prod-varlion-summum-pro-s,cat-padel-balls,brand-varlion,Summum Pro S,current,draft,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,
+prod-varlion-summum-pro-w,cat-padel-balls,brand-varlion,Summum Pro W,current,draft,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,
+prod-volt-premium,cat-padel-balls,brand-volt-padel,Premium,current,published,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,
+prod-wilson-premier-padel,cat-padel-balls,brand-wilson-padel,Premier Padel,current,published,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,3,,Product listing URL researched in inventory — Kitletics Offer price not yet verified (no invented price).; Inventory NL_available=yes without priced Kitletics Offer.
+prod-wilson-rush-100,cat-padel-balls,brand-wilson-padel,Rush 100,current,published,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,
+prod-adidas-perforated-ac2ba1wh,cat-padel-grips,brand-adidas-padel,Perforated / AC2BA1WH,current,draft,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,1,,Product listing URL researched in inventory — Kitletics Offer price not yet verified (no invented price).; Inventory NL_available=yes without priced Kitletics Offer.
+prod-adidas-tacky-feeling,cat-padel-grips,brand-adidas-padel,Tacky Feeling,current,published,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,1,,Product listing URL researched in inventory — Kitletics Offer price not yet verified (no invented price).
+prod-babolat-pro-tour,cat-padel-grips,brand-babolat-padel,Pro Tour,current,published,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,Inventory NL_available=yes without priced Kitletics Offer.
+prod-babolat-syntec-team,cat-padel-grips,brand-babolat-padel,Syntec Team,current,draft,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,
+prod-babolat-vs-original,cat-padel-grips,brand-babolat-padel,VS Original,current,published,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,Inventory NL_available=yes without priced Kitletics Offer.
+prod-black-crown-black-crown-perforated,cat-padel-grips,brand-black-crown,Black Crown Perforated,current,published,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,Inventory NL_available=yes without priced Kitletics Offer.
+prod-bullpadel-comfort-overgrip,cat-padel-grips,brand-bullpadel,Comfort Overgrip,current,published,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,
+prod-bullpadel-gb-1705,cat-padel-grips,brand-bullpadel,GB-1705,current,draft,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,Inventory NL_available=yes without priced Kitletics Offer.
+prod-bullpadel-gb1201,cat-padel-grips,brand-bullpadel,GB1201,current,draft,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,Inventory NL_available=yes without priced Kitletics Offer.
+prod-bullpadel-gb1200-hac,cat-padel-grips,brand-bullpadel,GB1200 HaC,current,draft,NL_AVAILABLE,NL_OFFER,RESEARCHED,1,0,false,1,0,true,1,€1.59 / 1-pack · €1.59 / grip,
+prod-drop-shot-club,cat-padel-grips,brand-drop-shot,Club,current,published,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,Inventory NL_available=yes without priced Kitletics Offer.
+prod-drop-shot-super-dry,cat-padel-grips,brand-drop-shot,Super Dry,current,draft,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,
+prod-drop-shot-super-tacky,cat-padel-grips,brand-drop-shot,Super Tacky,current,published,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,1,,Product listing URL researched in inventory — Kitletics Offer price not yet verified (no invented price).; Inventory NL_available=yes without priced Kitletics Offer.
+prod-enebe-enebe-smooth,cat-padel-grips,brand-enebe,Enebe Smooth,current,published,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,Inventory NL_available=yes without priced Kitletics Offer.
+prod-head-prestige-pro,cat-padel-grips,brand-head-padel,Prestige Pro,current,published,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,
+prod-head-hydrosorb-comfort,cat-padel-grips,brand-head-padel,Hydrosorb Comfort,current,draft,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,Inventory NL_available=yes without priced Kitletics Offer.
+prod-head-hydrosorb-family,cat-padel-grips,brand-head-padel,Hydrosorb family,current,draft,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,
+prod-head-padel-pro,cat-padel-grips,brand-head-padel,Padel Pro,current,published,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,1,,Product listing URL researched in inventory — Kitletics Offer price not yet verified (no invented price).; Inventory NL_available=yes without priced Kitletics Offer.
+prod-head-padel-pro-perforated,cat-padel-grips,brand-head-padel,Padel Pro Perforated,current,published,BRAND_DIRECT,NO_OFFER,RESEARCHED,0,0,false,0,0,false,1,,Product listing URL researched in inventory — Kitletics Offer price not yet verified (no invented price).
+prod-head-xtreme-soft-xtremesoft,cat-padel-grips,brand-head-padel,Xtreme Soft / XtremeSoft,current,published,NL_AVAILABLE,NL_OFFER,RESEARCHED,1,0,false,1,0,true,1,€2.29 / 1-pack · €2.29 / grip,
+prod-hesacore-carbon,cat-padel-grips,brand-hesacore,Carbon,current,published,EU_AVAILABLE_TO_NL,NO_OFFER,RESEARCHED,0,0,false,0,0,false,2,,Product listing URL researched in inventory — Kitletics Offer price not yet verified (no invented price).; Inventory NL_available=yes without priced Kitletics Offer.
+prod-hesacore-gel,cat-padel-grips,brand-hesacore,Gel,current,draft,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,2,,Product listing URL researched in inventory — Kitletics Offer price not yet verified (no invented price).; Inventory NL_available=yes without priced Kitletics Offer.
+prod-hesacore-pro-carbon,cat-padel-grips,brand-hesacore,Pro Carbon,current,published,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,
+prod-hesacore-tour,cat-padel-grips,brand-hesacore,Tour,current,draft,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,Inventory NL_available=yes without priced Kitletics Offer.
+prod-hesacore-tour-w,cat-padel-grips,brand-hesacore,Tour W,current,draft,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,
+prod-hesacore-pink-w,cat-padel-grips,brand-hesacore,Pink / W,current,draft,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,1,,Product listing URL researched in inventory — Kitletics Offer price not yet verified (no invented price).; Inventory NL_available=yes without priced Kitletics Offer.
+prod-hesacore-tour-original,cat-padel-grips,brand-hesacore,Tour / Original,current,published,NL_AVAILABLE,NL_OFFER,RESEARCHED,1,0,false,1,0,true,2,€17.99 / 1-pack · €17.99 / grip,
+prod-joma-club-cushion,cat-padel-grips,brand-joma,Club Cushion,current,published,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,
+prod-kuikma-antislip,cat-padel-grips,brand-kuikma,Antislip,current,draft,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,Inventory NL_available=yes without priced Kitletics Offer.
+prod-kuikma-overgrip-pro-adherence,cat-padel-grips,brand-kuikma,Overgrip Pro / Adherence,current,draft,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,Inventory NL_available=yes without priced Kitletics Offer.
+prod-nox-custom-grip,cat-padel-grips,brand-nox,Custom Grip,current,published,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,Inventory NL_available=yes without priced Kitletics Offer.
+prod-nox-luxury-pro,cat-padel-grips,brand-nox,Luxury Pro,current,draft,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,
+prod-nox-h-dri,cat-padel-grips,brand-nox,H-Dri,current,draft,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,
+prod-shockout-shockout-overgrip,cat-padel-grips,brand-shockout,ShockOut Overgrip,current,published,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,Inventory NL_available=yes without priced Kitletics Offer.
+prod-shockout-100-0062-combo,cat-padel-grips,brand-shockout,100-0062 Combo,current,draft,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,Inventory NL_available=yes without priced Kitletics Offer.
+prod-shockout-shockout,cat-padel-grips,brand-shockout,ShockOut,current,draft,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,
+prod-siux-elite,cat-padel-grips,brand-siux,Elite,current,published,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,Inventory NL_available=yes without priced Kitletics Offer.
+prod-siux-elite-overgrip,cat-padel-grips,brand-siux,Elite Overgrip,current,published,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,
+prod-starvie-premier-soft,cat-padel-grips,brand-starvie,Premier Soft,current,published,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,
+prod-starvie-tacky-touch,cat-padel-grips,brand-starvie,Tacky Touch,current,draft,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,1,,Product listing URL researched in inventory — Kitletics Offer price not yet verified (no invented price).; Inventory NL_available=yes without priced Kitletics Offer.
+prod-tecnifibre-contact-pro,cat-padel-grips,brand-tecnifibre-padel,Contact Pro,current,published,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,
+prod-tecnifibre-players-pro-feel,cat-padel-grips,brand-tecnifibre-padel,Players Pro Feel,current,published,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,Inventory NL_available=yes without priced Kitletics Offer.
+prod-tecnifibre-pro-contact,cat-padel-grips,brand-tecnifibre-padel,Pro Contact,current,draft,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,
+prod-tourna-tourna-grip-ii,cat-padel-grips,brand-tourna,Tourna Grip II,current,draft,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,
+prod-tourna-tourna-grip-original-xl,cat-padel-grips,brand-tourna,Tourna Grip Original XL,current,published,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,1,,Product listing URL researched in inventory — Kitletics Offer price not yet verified (no invented price).; Inventory NL_available=yes without priced Kitletics Offer.
+prod-tourna-grip-xl,cat-padel-grips,brand-tourna,Grip XL,current,draft,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,
+prod-tourna-mega-tac,cat-padel-grips,brand-tourna,Mega Tac,current,published,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,
+prod-wilson-wilson-replacement-grip,cat-padel-grips,brand-wilson-padel,Wilson Replacement Grip,current,published,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,
+prod-wilson-pro-overgrip-perforated,cat-padel-grips,brand-wilson-padel,Pro Overgrip Perforated,current,draft,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,Inventory NL_available=yes without priced Kitletics Offer.
+prod-wilson-profile-padel,cat-padel-grips,brand-wilson-padel,Profile Padel,current,published,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,Inventory NL_available=yes without priced Kitletics Offer.
+prod-yonex-super-grap,cat-padel-grips,brand-yonex-padel,Super Grap,current,draft,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,1,,Product listing URL researched in inventory — Kitletics Offer price not yet verified (no invented price).; Inventory NL_available=yes without priced Kitletics Offer.
+prod-kuikma-insulated-backpack-pro-40-l,cat-padel-bags,brand-kuikma,Insulated Backpack Pro 40 L,current,draft,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,Inventory NL_available=yes without priced Kitletics Offer.
+prod-adidas-weekend-bag-martita-ortega-2026,cat-padel-bags,brand-adidas-padel,Weekend Bag Martita Ortega 2026,current,published,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,Inventory NL_available=yes without priced Kitletics Offer.
+prod-adidas-accessory-pouch-2026,cat-padel-accessories,brand-adidas-padel,Accessory Pouch 2026,current,published,EU_AVAILABLE_TO_NL,NO_OFFER,RESEARCHED,0,0,false,0,0,false,1,,Product listing URL researched in inventory — Kitletics Offer price not yet verified (no invented price).; Inventory NL_available=yes without priced Kitletics Offer.
+prod-adidas-shoe-bag-ale-gal-n,cat-padel-accessories,brand-adidas-padel,Shoe Bag Ale Galán,current,published,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,Inventory NL_available=yes without priced Kitletics Offer.
+prod-dunlop-elite-thermo,cat-padel-bags,brand-dunlop-padel,Elite Thermo,current,draft,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,
+prod-dunlop-tour-pro,cat-padel-grips,brand-dunlop-padel,Tour Pro,current,draft,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,
+prod-dunlop-tour-dry,cat-padel-grips,brand-dunlop-padel,Tour Dry,current,published,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,
+prod-dunlop-protection-tape,cat-padel-accessories,brand-dunlop-padel,Protection Tape,current,draft,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,
+prod-joma-vero-virseda-2026,cat-padel-bags,brand-joma,Vero Virseda 2026,current,draft,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,
+prod-babolat-rh-perf-padel,cat-padel-bags,brand-babolat-padel,RH Perf Padel,current,draft,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,
+prod-bullpadel-gb-1201-perforated,cat-padel-grips,brand-bullpadel,GB-1201 Perforated,current,published,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,Inventory NL_available=yes without priced Kitletics Offer.
+prod-bullpadel-gb-1202-fixogrip-pro,cat-padel-grips,brand-bullpadel,GB-1202 FixoGrip Pro,current,draft,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,Inventory NL_available=yes without priced Kitletics Offer.
+prod-bullpadel-gb-1705-sensogrip-pro,cat-padel-grips,brand-bullpadel,GB-1705 SensoGrip Pro,current,draft,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,Inventory NL_available=yes without priced Kitletics Offer.
+prod-nox-pro-overgrip-perforated,cat-padel-grips,brand-nox,Pro Overgrip Perforated,current,draft,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,Inventory NL_available=yes without priced Kitletics Offer.
+prod-wilson-profile-padel-overgrip,cat-padel-grips,brand-wilson-padel,Profile Padel Overgrip,current,draft,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,
+prod-oxdog-gold-pro,cat-padel-grips,brand-oxdog,Gold Pro,current,published,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,1,,Product listing URL researched in inventory — Kitletics Offer price not yet verified (no invented price).; Inventory NL_available=yes without priced Kitletics Offer.
+prod-oxdog-gold-sticky,cat-padel-grips,brand-oxdog,Gold Sticky,current,published,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,1,,Product listing URL researched in inventory — Kitletics Offer price not yet verified (no invented price).; Inventory NL_available=yes without priced Kitletics Offer.
+prod-oxdog-no1,cat-padel-accessories,brand-oxdog,No1,current,draft,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,1,,Product listing URL researched in inventory — Kitletics Offer price not yet verified (no invented price).; Inventory NL_available=yes without priced Kitletics Offer.
+prod-black-crown-plus,cat-padel-bags,brand-black-crown,Plus,current,published,NL_AVAILABLE,NL_OFFER,RESEARCHED,1,0,false,1,0,true,2,,
+prod-lok-one-gen-2,cat-padel-bags,brand-lok,One Gen 2,current,published,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,1,,Product listing URL researched in inventory — Kitletics Offer price not yet verified (no invented price).; Inventory NL_available=yes without priced Kitletics Offer.
+prod-lok-accessory-bag-gen-2,cat-padel-bags,brand-lok,Accessory Bag Gen 2,current,published,EU_AVAILABLE_TO_NL,NO_OFFER,RESEARCHED,0,0,false,0,0,false,1,,Product listing URL researched in inventory — Kitletics Offer price not yet verified (no invented price).; Inventory NL_available=yes without priced Kitletics Offer.
+prod-sane-nitro,cat-padel-balls,brand-sane,Nitro,current,draft,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,
+prod-sane-core,cat-padel-balls,brand-sane,Core,current,published,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,
+prod-sane-spin-premium,cat-padel-balls,brand-sane,Spin Premium,current,draft,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,
+prod-sane-feel,cat-padel-grips,brand-sane,Feel+,current,draft,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,
+prod-sane-pro-elegance,cat-padel-bags,brand-sane,Pro Elegance,current,draft,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,
+prod-sane-pro-sport,cat-padel-bags,brand-sane,Pro Sport,current,draft,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,
+prod-sane-everyday,cat-padel-bags,brand-sane,Everyday,current,draft,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,
+prod-volt-volt-padelbag,cat-padel-bags,brand-volt-padel,Volt Padelbag,current,published,EU_AVAILABLE_TO_NL,NO_OFFER,RESEARCHED,0,0,false,0,0,false,1,,Product listing URL researched in inventory — Kitletics Offer price not yet verified (no invented price).; Inventory NL_available=yes without priced Kitletics Offer.
+prod-volt-volt-premium,cat-padel-grips,brand-volt-padel,Volt Premium,current,published,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,
+prod-osaka-sports-padel-bag,cat-padel-bags,brand-osaka-padel,Sports Padel Bag,current,published,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,Inventory NL_available=yes without priced Kitletics Offer.
+prod-osaka-sports-backpack,cat-padel-bags,brand-osaka-padel,Sports Backpack,current,published,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,Inventory NL_available=yes without priced Kitletics Offer.
+prod-osaka-pro-tour-duffel,cat-padel-bags,brand-osaka-padel,Pro Tour Duffel,current,draft,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,
+prod-osaka-osaka-overgrip,cat-padel-grips,brand-osaka-padel,Osaka Overgrip,current,published,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,Inventory NL_available=yes without priced Kitletics Offer.
+prod-royal-padel-royal-overgrip,cat-padel-grips,brand-royal-padel,Royal Overgrip,current,published,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,1,,Product listing URL researched in inventory — Kitletics Offer price not yet verified (no invented price).; Inventory NL_available=yes without priced Kitletics Offer.
+prod-rs-pro-padel-bag,cat-padel-bags,brand-rs-padel,Pro Padel Bag,current,draft,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,
+prod-rs-pro-tour-overgrip,cat-padel-grips,brand-rs-padel,Pro Tour Overgrip,current,draft,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,
+prod-bounce-filtertech-padel,cat-padel-accessories,brand-bounce-tube,FilterTech Padel,current,published,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,1,,Product listing URL researched in inventory — Kitletics Offer price not yet verified (no invented price).; Inventory NL_available=yes without priced Kitletics Offer.
+prod-4on-totalgrip-paste,cat-padel-accessories,brand-4on,TotalGrip Paste,current,published,BRAND_DIRECT,NO_OFFER,RESEARCHED,0,0,false,0,0,false,2,,Product listing URL researched in inventory — Kitletics Offer price not yet verified (no invented price).; Inventory NL_available=yes without priced Kitletics Offer.
+prod-4on-totaldry,cat-padel-accessories,brand-4on,TotalDry,current,draft,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,Inventory NL_available=yes without priced Kitletics Offer.
+prod-4on-swiftgrip,cat-padel-grips,brand-4on,SwiftGrip,current,published,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,
+prod-4on-premium-comfort,cat-padel-grips,brand-4on,Premium Comfort,current,draft,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,Inventory NL_available=yes without priced Kitletics Offer.
+prod-4on-pro-t1,cat-padel-balls,brand-4on,Pro T1,current,published,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,
+prod-shockout-dual-pro,cat-padel-grips,brand-shockout,Dual Pro,current,draft,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,Inventory NL_available=yes without priced Kitletics Offer.
+prod-shockout-shockout-perforated,cat-padel-grips,brand-shockout,ShockOut Perforated,current,draft,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,Inventory NL_available=yes without priced Kitletics Offer.
+prod-tourna-tourna-tac-xl,cat-padel-grips,brand-tourna,Tourna Tac XL,current,draft,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,1,,Product listing URL researched in inventory — Kitletics Offer price not yet verified (no invented price).; Inventory NL_available=yes without priced Kitletics Offer.
+prod-tourna-tourna-tuff,cat-padel-grips,brand-tourna,Tourna Tuff,current,draft,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,1,,Product listing URL researched in inventory — Kitletics Offer price not yet verified (no invented price).
+prod-sane-core-overgrip,cat-padel-grips,brand-sane,Core Overgrip,current,draft,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,
+prod-noene-anti-shock-grip-padel,cat-padel-grips,brand-noene,Anti Shock Grip Padel,current,published,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,1,,Product listing URL researched in inventory — Kitletics Offer price not yet verified (no invented price).; Inventory NL_available=yes without priced Kitletics Offer.
+prod-noene-undergrip-anti-shock,cat-padel-grips,brand-noene,Undergrip Anti-shock,current,published,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,Inventory NL_available=yes without priced Kitletics Offer.
+prod-head-prime-tour,cat-padel-grips,brand-head-padel,Prime Tour,current,published,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,
+prod-bullpadel-vertex-w,cat-padel-shoes,brand-bullpadel,Vertex-W,current,published,NO_CURRENT_OFFER_FOUND,NO_OFFER,RESEARCHED,0,0,false,0,0,false,0,,
+prod-bullpadel-premium-gold,cat-padel-balls,brand-bullpadel,Premium Gold,discontinued,draft,NO_CURRENT_OFFER_FOUND,NO_OFFER,BLOCKED,0,0,false,0,0,false,0,,Discontinued — commerce enrichment blocked.
+prod-adidas-aditour-padel,cat-padel-balls,brand-adidas-padel,Aditour,discontinued,draft,NO_CURRENT_OFFER_FOUND,NO_OFFER,BLOCKED,0,0,false,0,0,false,0,,Discontinued — commerce enrichment blocked.

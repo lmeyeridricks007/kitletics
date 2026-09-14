@@ -80,6 +80,36 @@ const CATEGORY_MIRROR_PATCHES: Record<string, IntentRolePatch> = {
       " This page shortlists handheld bottles. For the learning framework (when handhelds beat vests/belts, strap fatigue, volume), read Handheld Bottles for Running — then return here to pick a product.",
     siblingBestSlugs: ["running-hydration-vests", "running-belts"],
   },
+  "padel-rackets": {
+    introSuffix:
+      " This page is not the Padel Rackets category catalog: browse and filter the full grid there. Stay here for role winners (beginner, control, power, hybrid, comfort, lightweight, maneuverability, women’s line).",
+    categoryBrowseHref: "/padel/rackets",
+    categoryBrowseLabel: "Browse all padel rackets",
+    siblingBestSlugs: [
+      "padel-rackets-beginners",
+      "padel-rackets-intermediate",
+      "padel-rackets-advanced",
+      "padel-rackets-control",
+      "padel-rackets-power",
+      "padel-rackets-all-round",
+      "padel-rackets-lightweight",
+      "padel-rackets-comfort",
+      "padel-rackets-maneuverability",
+      "padel-rackets-women",
+    ],
+  },
+  "padel-shoes": {
+    introSuffix:
+      " This page is not the Padel Shoes category catalog: browse the full court-shoe grid there. Stay here for role winners (men’s last, women’s last, stability, comfort).",
+    categoryBrowseHref: "/padel/shoes",
+    categoryBrowseLabel: "Browse all padel shoes",
+    siblingBestSlugs: [
+      "padel-shoes-men",
+      "padel-shoes-women",
+      "padel-shoes-stability",
+      "padel-shoes-comfort",
+    ],
+  },
 };
 
 /**

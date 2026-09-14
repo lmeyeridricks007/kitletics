@@ -82,7 +82,7 @@ import {
   resolveDecisionCopyForProduct,
   type CanonicalDecisionCopy,
 } from "@/lib/decision-copy";
-import { formatPublicSpecDisplayLabel } from "@/lib/specs/public-label";
+import { formatPublicSpecDisplayLabel, formatPublicSpecValueToken, publicSpecRowKey } from "@/lib/specs/public-label";
 
 export { REVIEW_TYPE_META, PRODUCT_SOURCE_LABELS };
 
@@ -232,13 +232,13 @@ function formatSpec(
   else if (typeof raw === "object" && raw !== null && "min" in raw) {
     const r = raw as { min: number; max: number };
     value = `${r.min}–${r.max}`;
-  } else value = String(raw);
+  }   else value = formatPublicSpecValueToken(String(raw));
   return {
-    key,
+    key: publicSpecRowKey(key),
     label: formatPublicSpecDisplayLabel(key),
     value,
     unit: typeof raw === "number" ? def?.unit : undefined,
-    raw: raw as SpecDisplayRow["raw"],
+    raw: typeof raw === "string" ? undefined : (raw as SpecDisplayRow["raw"]),
   };
 }
 
@@ -767,7 +767,12 @@ export function getReviewPageData(
     brand,
     author,
     category,
-    config,
+    config: {
+      ...config,
+      defaultSectionKeys: config.defaultSectionKeys.map(publicSpecRowKey),
+      keySpecKeys: config.keySpecKeys.map(publicSpecRowKey),
+      glanceKeys: config.glanceKeys.map(publicSpecRowKey),
+    },
     displayScore,
     scoreBandLabel: getScoreBand(displayScore).label,
     scoreBreakdown,

@@ -204,10 +204,21 @@ describe("rendered quality zero-debt canaries", () => {
   it("public spec labels never emit camelCase keys", () => {
     expect(formatPublicSpecKey("heelStack")).toBe("heel stack");
     expect(formatPublicSpecKey("cushionLevel")).toBe("cushioning");
+    expect(formatPublicSpecKey("widthOptions")).toBe("available widths");
+    expect(formatPublicSpecKey("weightMin")).toBe("minimum weight");
+    expect(formatPublicSpecKey("faceMaterial")).toBe("face material");
+    expect(formatPublicSpecKey("maneuverabilityScore")).toBe(
+      "maneuverability score",
+    );
     expect(formatPublicSpecDisplayLabel("heelStack")).toBe("Heel Stack");
+    expect(formatPublicSpecDisplayLabel("widthOptions")).toBe(
+      "Available widths",
+    );
+    expect(formatPublicSpecDisplayLabel("weightMax")).toBe("Maximum weight");
     expect(formatPublicSpecCue("heelStack", 41.5)).toBe("heel stack 41.5");
     expect(isRawPublicSpecKey("heel stack 41.5")).toBe(false);
     expect(isRawPublicSpecKey("drop 8, heelStack 41.5")).toBe(true);
+    expect(isRawPublicSpecKey("published weightMin and powerScore")).toBe(true);
   });
 
   it("best-guide bodies that used to carry pause-if-not are rewritten", () => {

@@ -72,7 +72,6 @@ export function isCategoryEmpty(
  * Running accessories ungated after Fix 58 anti-chafe decision content.
  */
 export const SOFT_GATED_CATEGORY_SLUGS = new Set([
-  "padel-accessories",
   "padel-clothing",
 ]);
 

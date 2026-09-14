@@ -1,0 +1,24 @@
+{
+  "revokedWrongProduct": [
+    "prod-nox-bag-10",
+    "prod-nox-nox-pickup-tube",
+    "prod-shockout-padel-balls-design",
+    "prod-babolat-backpack-kids",
+    "prod-head-tour-team-elite",
+    "prod-slazenger-challenge-no-1",
+    "prod-oxdog-no1",
+    "prod-tuboplus-tuboplus-29psi-x3",
+    "prod-dunlop-team",
+    "prod-tuboplus-repl4y"
+  ],
+  "keptAfterVisual": [
+    "prod-alacran-wide-ancha",
+    "prod-bullpadel-bpm26002-hack",
+    "prod-bullpadel-bpp26001-vertex",
+    "prod-bullpadel-bpp26022-xplo",
+    "prod-kuikma-pl-900-elite",
+    "prod-drop-shot-tournament-tech",
+    "prod-hesacore-pink-w",
+    "prod-tuboplus-r3play"
+  ]
+}

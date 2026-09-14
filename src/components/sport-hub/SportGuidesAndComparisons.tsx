@@ -33,7 +33,7 @@ export function SportGuidesAndComparisons({
                   <div className="relative aspect-[4/3] overflow-hidden bg-surface-muted">
                     <Image
                       src={guide.imageSrc}
-                      alt=""
+                      alt={guide.title}
                       fill
                       sizes="(max-width: 640px) 100vw, 20vw"
                       className="object-cover transition-transform duration-500 group-hover:scale-[1.03]"
@@ -103,7 +103,7 @@ function Thumb({
       {product.image ? (
         <Image
           src={product.image.src}
-          alt=""
+          alt={product.image.alt || product.name}
           fill
           sizes="40px"
           className="object-contain p-0.5"

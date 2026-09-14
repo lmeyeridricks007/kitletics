@@ -1,0 +1,318 @@
+{
+  "asOf": "2026-09-14",
+  "base": "http://127.0.0.1:3012",
+  "pages": 18,
+  "axeSeriousTotal": 0,
+  "axeCriticalTotal": 0,
+  "mobileOverflowPages": 0,
+  "genderFitPages": 0,
+  "genderFitInSourcePages": 4,
+  "results": [
+    {
+      "path": "/padel",
+      "status": 200,
+      "axeSerious": 0,
+      "axeCritical": 0,
+      "axeIds": [],
+      "mobileOverflow": false,
+      "mobileOffenders": 12,
+      "genderFitLeak": false,
+      "keyboardActive": {
+        "tag": "BUTTON",
+        "role": "",
+        "text": "NL / EUR"
+      },
+      "error": "",
+      "genderFitInSource": false
+    },
+    {
+      "path": "/padel/rackets",
+      "status": 200,
+      "axeSerious": 0,
+      "axeCritical": 0,
+      "axeIds": [],
+      "mobileOverflow": false,
+      "mobileOffenders": 7,
+      "genderFitLeak": false,
+      "keyboardActive": {
+        "tag": "BUTTON",
+        "role": "",
+        "text": "NL / EUR"
+      },
+      "error": "",
+      "genderFitInSource": false
+    },
+    {
+      "path": "/padel/shoes",
+      "status": 200,
+      "axeSerious": 0,
+      "axeCritical": 0,
+      "axeIds": [],
+      "mobileOverflow": false,
+      "mobileOffenders": 7,
+      "genderFitLeak": false,
+      "keyboardActive": {
+        "tag": "BUTTON",
+        "role": "",
+        "text": "NL / EUR"
+      },
+      "error": "",
+      "genderFitInSource": false
+    },
+    {
+      "path": "/padel/balls",
+      "status": 200,
+      "axeSerious": 0,
+      "axeCritical": 0,
+      "axeIds": [],
+      "mobileOverflow": false,
+      "mobileOffenders": 7,
+      "genderFitLeak": false,
+      "keyboardActive": {
+        "tag": "BUTTON",
+        "role": "",
+        "text": "NL / EUR"
+      },
+      "error": "",
+      "genderFitInSource": false
+    },
+    {
+      "path": "/padel/bags",
+      "status": 200,
+      "axeSerious": 0,
+      "axeCritical": 0,
+      "axeIds": [],
+      "mobileOverflow": false,
+      "mobileOffenders": 6,
+      "genderFitLeak": false,
+      "keyboardActive": {
+        "tag": "BUTTON",
+        "role": "",
+        "text": "NL / EUR"
+      },
+      "error": "",
+      "genderFitInSource": false
+    },
+    {
+      "path": "/padel/grips",
+      "status": 200,
+      "axeSerious": 0,
+      "axeCritical": 0,
+      "axeIds": [],
+      "mobileOverflow": false,
+      "mobileOffenders": 5,
+      "genderFitLeak": false,
+      "keyboardActive": {
+        "tag": "BUTTON",
+        "role": "",
+        "text": "NL / EUR"
+      },
+      "error": "",
+      "genderFitInSource": false
+    },
+    {
+      "path": "/padel/accessories",
+      "status": 200,
+      "axeSerious": 0,
+      "axeCritical": 0,
+      "axeIds": [],
+      "mobileOverflow": false,
+      "mobileOffenders": 4,
+      "genderFitLeak": false,
+      "keyboardActive": {
+        "tag": "BUTTON",
+        "role": "",
+        "text": "NL / EUR"
+      },
+      "error": "",
+      "genderFitInSource": false
+    },
+    {
+      "path": "/padel/collections",
+      "status": 200,
+      "axeSerious": 0,
+      "axeCritical": 0,
+      "axeIds": [],
+      "mobileOverflow": false,
+      "mobileOffenders": 0,
+      "genderFitLeak": false,
+      "keyboardActive": {
+        "tag": "BUTTON",
+        "role": "",
+        "text": "NL / EUR"
+      },
+      "error": "",
+      "genderFitInSource": false
+    },
+    {
+      "path": "/padel/rackets/database",
+      "status": 200,
+      "axeSerious": 0,
+      "axeCritical": 0,
+      "axeIds": [],
+      "mobileOverflow": false,
+      "mobileOffenders": 2,
+      "genderFitLeak": false,
+      "keyboardActive": {
+        "tag": "BUTTON",
+        "role": "",
+        "text": "NL / EUR"
+      },
+      "error": "",
+      "genderFitInSource": false
+    },
+    {
+      "path": "/tools/padel-racket-finder",
+      "status": 200,
+      "axeSerious": 0,
+      "axeCritical": 0,
+      "axeIds": [],
+      "mobileOverflow": false,
+      "mobileOffenders": 0,
+      "genderFitLeak": false,
+      "keyboardActive": {
+        "tag": "BUTTON",
+        "role": "",
+        "text": "NL / EUR"
+      },
+      "error": "",
+      "genderFitInSource": false
+    },
+    {
+      "path": "/best/padel-rackets",
+      "status": 200,
+      "axeSerious": 0,
+      "axeCritical": 0,
+      "axeIds": [],
+      "mobileOverflow": false,
+      "mobileOffenders": 12,
+      "genderFitLeak": false,
+      "keyboardActive": {
+        "tag": "BUTTON",
+        "role": "",
+        "text": "NL / EUR"
+      },
+      "error": "",
+      "genderFitInSource": false
+    },
+    {
+      "path": "/best/padel-shoes",
+      "status": 200,
+      "axeSerious": 0,
+      "axeCritical": 0,
+      "axeIds": [],
+      "mobileOverflow": false,
+      "mobileOffenders": 12,
+      "genderFitLeak": false,
+      "keyboardActive": {
+        "tag": "BUTTON",
+        "role": "",
+        "text": "NL / EUR"
+      },
+      "error": "",
+      "genderFitInSource": true
+    },
+    {
+      "path": "/products/bullpadel-vertex-04",
+      "status": 200,
+      "axeSerious": 0,
+      "axeCritical": 0,
+      "axeIds": [],
+      "mobileOverflow": false,
+      "mobileOffenders": 4,
+      "genderFitLeak": false,
+      "keyboardActive": {
+        "tag": "BUTTON",
+        "role": "",
+        "text": "NL / EUR"
+      },
+      "error": "",
+      "genderFitInSource": false
+    },
+    {
+      "path": "/products/adidas-courtquick-padel",
+      "status": 200,
+      "axeSerious": 0,
+      "axeCritical": 0,
+      "axeIds": [],
+      "mobileOverflow": false,
+      "mobileOffenders": 12,
+      "genderFitLeak": false,
+      "keyboardActive": {
+        "tag": "BUTTON",
+        "role": "",
+        "text": "NL / EUR"
+      },
+      "error": "",
+      "genderFitInSource": true
+    },
+    {
+      "path": "/reviews/adidas-courtquick-padel",
+      "status": 200,
+      "axeSerious": 0,
+      "axeCritical": 0,
+      "axeIds": [],
+      "mobileOverflow": false,
+      "mobileOffenders": 12,
+      "genderFitLeak": false,
+      "keyboardActive": {
+        "tag": "BUTTON",
+        "role": "",
+        "text": "NL / EUR"
+      },
+      "error": "",
+      "genderFitInSource": true
+    },
+    {
+      "path": "/compare?category=padel-rackets",
+      "status": 200,
+      "axeSerious": 0,
+      "axeCritical": 0,
+      "axeIds": [],
+      "mobileOverflow": false,
+      "mobileOffenders": 1,
+      "genderFitLeak": false,
+      "keyboardActive": {
+        "tag": "BUTTON",
+        "role": "",
+        "text": "NL / EUR"
+      },
+      "error": "",
+      "genderFitInSource": true
+    },
+    {
+      "path": "/guides/how-to-choose-a-padel-racket",
+      "status": 200,
+      "axeSerious": 0,
+      "axeCritical": 0,
+      "axeIds": [],
+      "mobileOverflow": false,
+      "mobileOffenders": 12,
+      "genderFitLeak": false,
+      "keyboardActive": {
+        "tag": "BUTTON",
+        "role": "",
+        "text": "NL / EUR"
+      },
+      "error": "",
+      "genderFitInSource": false
+    },
+    {
+      "path": "/brands/bullpadel",
+      "status": 200,
+      "axeSerious": 0,
+      "axeCritical": 0,
+      "axeIds": [],
+      "mobileOverflow": false,
+      "mobileOffenders": 12,
+      "genderFitLeak": false,
+      "keyboardActive": {
+        "tag": "BUTTON",
+        "role": "",
+        "text": "NL / EUR"
+      },
+      "error": "",
+      "genderFitInSource": false
+    }
+  ]
+}

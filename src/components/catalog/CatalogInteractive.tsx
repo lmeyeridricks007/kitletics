@@ -90,6 +90,10 @@ export function CatalogInteractive({
         filter_count: filterCount,
         filter_key: "facet",
       });
+      track("category_filter", {
+        filter_count: filterCount,
+        filter_key: "facet",
+      });
       // Keep locked eligibility in navigation state by merging back on parse server-side;
       // URL only carries user refinements for listing pages.
       if (lockedTypes.length === 0 && lockedUseCases.length === 0) {
@@ -214,8 +218,8 @@ export function CatalogInteractive({
     />
   );
 
-  const genderFacet = facets.find((f) => f.key === "genderFit");
-  const activeGender = filters.specs.genderFit?.[0] as AudienceFit | undefined;
+  const genderFacet = facets.find((f) => f.key === "genderFit" || f.key === "fit");
+  const activeGender = (filters.specs.genderFit?.[0] ?? filters.specs.fit?.[0]) as AudienceFit | undefined;
   const fitOptions = genderFacet
     ? [
         {

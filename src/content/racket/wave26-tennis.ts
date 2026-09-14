@@ -19,7 +19,6 @@ import { hasRegisteredProductHero } from "@/content/running/products/media-publi
 
 const pub = publishedMeta();
 const sportTennis = "sport-tennis" as const;
-const sportPadel = "sport-padel" as const;
 
 const RACKET_PLACEHOLDERS = [
   "/images/padel/products/racket-1.svg",
@@ -619,7 +618,7 @@ const shoeDrafts: Draft[] = [
     shortDescription:
       "Lightweight tennis shoe for players who want speed and court feel over max stability.",
     categoryId: "cat-tennis-shoes",
-    sportIds: [sportTennis, sportPadel],
+    sportIds: [sportTennis],
     useCaseIds: ["uc-tennis-beginner", "uc-tennis-balanced"],
     specifications: {
       courtSurface: "hard",
@@ -645,7 +644,7 @@ const shoeDrafts: Draft[] = [
     shortDescription:
       "Stable hard-court tennis shoe with Geofit lock-down for aggressive baseliners.",
     categoryId: "cat-tennis-shoes",
-    sportIds: [sportTennis, sportPadel],
+    sportIds: [sportTennis],
     useCaseIds: ["uc-tennis-beginner", "uc-tennis-control"],
     specifications: {
       courtSurface: "hard",
@@ -670,7 +669,7 @@ const shoeDrafts: Draft[] = [
     shortDescription:
       "Light court shoe for all-court movement — shared tennis/padel court use where surfaces allow.",
     categoryId: "cat-tennis-shoes",
-    sportIds: [sportTennis, sportPadel],
+    sportIds: [sportTennis],
     useCaseIds: ["uc-tennis-beginner", "uc-tennis-balanced"],
     specifications: {
       courtSurface: "hard-clay",
@@ -696,7 +695,7 @@ const shoeDrafts: Draft[] = [
     shortDescription:
       "Value-oriented ASICS court shoe — stability-biased alternative when Gel-Resolution is over budget.",
     categoryId: "cat-tennis-shoes",
-    sportIds: [sportTennis, sportPadel],
+    sportIds: [sportTennis],
     useCaseIds: ["uc-tennis-beginner"],
     specifications: {
       courtSurface: "hard",
@@ -722,7 +721,7 @@ const shoeDrafts: Draft[] = [
     shortDescription:
       "Current Rush Pro court shoe balancing cushion and court feel (succeeds Rush Pro 4.0 in seed).",
     categoryId: "cat-tennis-shoes",
-    sportIds: [sportTennis, sportPadel],
+    sportIds: [sportTennis],
     useCaseIds: ["uc-tennis-beginner", "uc-tennis-balanced"],
     specifications: {
       courtSurface: "hard",

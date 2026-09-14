@@ -37,7 +37,6 @@ import {
   wave26Evidence,
   wave26Recommendations,
   wave26Alternatives,
-  wave26Families,
   wave26Comparisons,
   wave26Relationships,
 } from "@/content/padel/wave26";
@@ -51,6 +50,30 @@ import {
   wave28PadelShoeOffers,
   wave28PadelShoeEvidence,
 } from "@/content/padel/wave28-shoes";
+import {
+  padelRacketCatalogPatches,
+  padelRacketCatalogProducts,
+  padelRacketCatalogEvidence,
+  padelRacketCatalogRecommendations,
+  padelRacketCatalogAlternatives,
+  padelRacketCatalogFamilies,
+  padelRacketMediaPendingIds,
+} from "@/content/padel/rackets";
+import {
+  padelSoftGoodsBrands,
+  padelSoftGoodsPatches,
+  padelSoftGoodsProducts,
+  padelSoftGoodsEvidence,
+  padelSoftGoodsOffers,
+  padelCommerceWaveOffers,
+  padelShoeCatalogPatches,
+  padelSecondaryMediaPendingIds,
+  padelSoftGoodsAlternatives,
+} from "@/content/padel/soft-goods";
+import { applyMediaPublishGate } from "@/content/running/products/media-publish-gate";
+import { stripDeprecatedRacketSpecs } from "@/content/padel/rackets/build";
+import { applySpecEnrichmentToProducts } from "@/content/padel/spec-enrichment";
+import { applyPadelPdpEditorialToProducts } from "@/content/padel/pdp-editorial";
 
 function applyPatches(
   products: Product[],
@@ -70,48 +93,110 @@ function applyPatches(
   });
 }
 
-const mergedBase = applyPatches(
-  applyPatches([...seedProducts, ...wave25Products], wave26ProductPatches),
-  wave27ProductPatches,
+function hygienePadelRackets(product: Product): Product {
+  if (product.categoryId !== "cat-padel-rackets") return product;
+  return {
+    ...product,
+    specifications: stripDeprecatedRacketSpecs(product.specifications),
+    recommendationScore: padelRacketMediaPendingIds.has(product.id)
+      ? undefined
+      : product.recommendationScore,
+  };
+}
+
+function applyPadelCatalogPatches(products: Product[]): Product[] {
+  return applyPatches(
+    applyPatches(
+      applyPatches(products, padelRacketCatalogPatches),
+      padelShoeCatalogPatches,
+    ),
+    padelSoftGoodsPatches,
+  );
+}
+
+const padelMediaPendingIds = new Set([
+  ...padelRacketMediaPendingIds,
+  ...padelSecondaryMediaPendingIds,
+]);
+
+const mergedBase = applyPadelCatalogPatches(
+  applyPatches(
+    applyPatches([...seedProducts, ...wave25Products], wave26ProductPatches),
+    wave27ProductPatches,
+  ),
 );
 
 export const padelAllBrands = [
   ...seedBrands,
   ...wave25Brands,
   ...wave26Brands,
+  ...padelSoftGoodsBrands,
 ];
-export const padelAllProducts = [
-  ...mergedBase,
-  // Also apply wave27 patches to wave26 products (genderFit etc.)
-  ...applyPatches(wave26Products, wave27ProductPatches),
-  ...wave27Products,
-  ...wave28PadelShoeProducts,
-];
+
+/** Catalog before field-level spec enrichment (used by enrich scripts). */
+export const padelAllProductsBeforeSpecEnrichment = applyMediaPublishGate(
+  [
+    ...mergedBase,
+    ...applyPadelCatalogPatches(
+      applyPatches(wave26Products, wave27ProductPatches),
+    ),
+    ...applyPadelCatalogPatches(wave27Products),
+    ...applyPadelCatalogPatches(wave28PadelShoeProducts),
+    ...padelRacketCatalogProducts,
+    ...padelSoftGoodsProducts,
+  ].map(hygienePadelRackets),
+  padelMediaPendingIds,
+);
+
+export const padelAllProducts = applyPadelPdpEditorialToProducts(
+  applySpecEnrichmentToProducts(padelAllProductsBeforeSpecEnrichment),
+);
+
+/** Offers merge into the canonical commerce pipeline — listing-URL gate lives in repositories/commerce.ts */
 export const padelAllOffers = [
   ...seedOffers,
   ...wave25Offers,
   ...wave26Offers,
   ...wave27Offers,
   ...wave28PadelShoeOffers,
+  ...padelSoftGoodsOffers,
+  ...padelCommerceWaveOffers,
 ];
+
 export const padelAllComparisons = [
   ...seedComparisons,
   ...wave26Comparisons,
 ];
-export const padelAllFamilies = wave26Families;
-export const padelAllAlternatives = wave26Alternatives;
+export const padelAllFamilies = padelRacketCatalogFamilies;
+export const padelAllAlternatives = [
+  ...wave26Alternatives.filter(
+    (a) =>
+      !padelRacketCatalogAlternatives.some(
+        (n) =>
+          n.sourceProductId === a.sourceProductId &&
+          n.alternativeProductId === a.alternativeProductId,
+      ),
+  ),
+  ...padelRacketCatalogAlternatives,
+  ...padelSoftGoodsAlternatives,
+];
 export const padelAllRelationships = wave26Relationships;
+
+const catalogProductIds = new Set(padelRacketMediaPendingIds);
 
 export const wave25EvidenceMerged = [
   ...padelSeedEvidence,
   ...wave25Evidence,
   ...wave26Evidence,
   ...wave28PadelShoeEvidence,
+  ...padelRacketCatalogEvidence,
+  ...padelSoftGoodsEvidence,
 ];
 export const wave25RecommendationsMerged = [
-  ...padelSeedRecommendations,
-  ...wave25Recommendations,
-  ...wave26Recommendations,
+  ...padelSeedRecommendations.filter((r) => !catalogProductIds.has(r.productId)),
+  ...wave25Recommendations.filter((r) => !catalogProductIds.has(r.productId)),
+  ...wave26Recommendations.filter((r) => !catalogProductIds.has(r.productId)),
+  ...padelRacketCatalogRecommendations,
 ];
 export {
   wave25EvidenceMerged as wave25Evidence,

@@ -93,6 +93,15 @@ export interface SportHubFinderPreview {
   fields: SportHubFinderField[];
 }
 
+export interface SportHubReviewCard {
+  id: string;
+  title: string;
+  productName: string;
+  href: string;
+  summary: string;
+  image?: { src: string; alt: string };
+}
+
 export interface SportHubPageData {
   sportSlug: string;
   sportName: string;
@@ -134,6 +143,12 @@ export interface SportHubPageData {
     title: string;
     href: string;
     items: SportHubComparisonRow[];
+  };
+  /** Latest promote-able reviews for the sport (padel hub + future verticals). */
+  reviews?: {
+    title: string;
+    href: string;
+    items: SportHubReviewCard[];
   };
   starterKit?: {
     title: string;

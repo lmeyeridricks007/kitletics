@@ -1,7 +1,7 @@
 import type { Product } from "@/domain/products/types";
 import type { Brand } from "@/domain/products/types";
 import type { ProductCategory } from "@/domain/sports/types";
-import type { BestGuide, BuyingGuide, Comparison, GearSetup } from "@/domain/editorial/types";
+import type { GearSetup } from "@/domain/editorial/types";
 import type { Tool } from "@/domain/tools/types";
 import type { Offer } from "@/domain/commerce/types";
 import { publishedMeta } from "@/content/config";
@@ -302,11 +302,12 @@ export const padelProducts: Product[] = [
   },
   {
     id: "prod-adidas-courtstabil",
-    slug: "adidas-courtstabil-padel",
+    slug: "adidas-courtquick-padel",
     brandId: "brand-adidas-padel",
-    name: "CourtStabil Padel",
-    fullName: "Adidas CourtStabil Padel",
-    shortDescription: "Stable padel court shoe for lateral movement.",
+    name: "Courtquick Padel",
+    fullName: "Adidas Courtquick Padel",
+    shortDescription:
+      "Current Adidas Courtquick padel court shoe for stable lateral movement.",
     lifecycleStatus: "current",
     sportIds: [padelSportId],
     disciplineIds: [],
@@ -319,7 +320,7 @@ export const padelProducts: Product[] = [
     recommendationScore: 84,
     valueScore: 80,
     experienceLevels: ["beginner", "intermediate"],
-    images: [img("img-shoes", "/images/padel/products/shoes.svg", "Adidas CourtStabil padel shoes")],
+    images: [img("img-shoes", "/images/padel/products/shoes.svg", "Adidas Courtquick padel shoes")],
     videos: [],
     offerIds: ["offer-shoes-nl"],
     evidenceIds: [],
@@ -460,368 +461,138 @@ export const padelOffers: Offer[] = [
   { id: "offer-bela-nl", productId: "prod-wilson-bela-pro", retailerId: "ret-amazon-nl", region: "NL", url: "https://www.amazon.nl/", currency: "EUR", price: 249.95, availability: "in-stock", lastChecked: pub.lastVerifiedAt! },
 ];
 
-export const padelBestGuides: BestGuide[] = [
-  {
-    id: "best-padel-rackets",
-    slug: "padel-rackets",
-    title: "Best Padel Rackets",
-    sportId: padelSportId,
-    categoryId: "cat-padel-rackets",
-    useCaseIds: [],
-    rankingMode: "category-picks",
-    intro:
-      "A structured shortlist of padel rackets mapped to play style — not a generic top-10 list.",
-    selectionMethodology:
-      "Products are scored via explainable recommendation factors (control, power, maneuverability, value) against play profiles. Specs load from Product entities.",
-    selectionCriteria: [
-      {
-        key: "shape",
-        label: "Shape",
-        description: "Round, teardrop or diamond play profile.",
-      },
-      {
-        key: "balance",
-        label: "Balance",
-        description: "Maneuverability vs power bias.",
-      },
-      {
-        key: "value",
-        label: "Value",
-        description: "Performance relative to street price.",
-      },
-    ],
-    recommendations: [
-      {
-        productId: "prod-bullpadel-vertex-05",
-        rank: 1,
-        awardType: "best-overall",
-        rationale:
-          "Balanced diamond attack with a more forgiving sweet spot than most pure power frames — strong all-court pick for advanced intermediates.",
-        evidenceIds: ["ev-wave26-editorial"],
-      },
-      {
-        productId: "prod-nox-at10-12k-2026",
-        rank: 2,
-        badge: "Best Premium Attack",
-        rationale:
-          "2026 AT10 Genius 12K Alum Xtrem — refined diamond power with Weight Balance tuning for advanced finishers.",
-        evidenceIds: ["ev-wave26-editorial"],
-      },
-      {
-        productId: "prod-siux-diablo",
-        rank: 3,
-        badge: "Best Beginner / Maneuverability",
-        rationale: "Round, low-balance frame for easier handling and forgiveness.",
-      },
-      {
-        productId: "prod-babolat-counter-viper",
-        rank: 4,
-        badge: "Best Control",
-        rationale: "Control-oriented Viper line for placement-first intermediates.",
-      },
-      {
-        productId: "prod-bullpadel-hack-04",
-        rank: 5,
-        badge: "Best Power",
-        rationale: "Direct attacking Hack 04 for advanced net finishers.",
-        evidenceIds: ["ev-wave26-editorial"],
-      },
-      {
-        productId: "prod-head-coello-pro",
-        rank: 6,
-        awardType: "best-value",
-        rationale: "Approachable hybrid performance without flagship pricing.",
-      },
-      {
-        productId: "prod-adidas-metalbone-hrd",
-        rank: 7,
-        badge: "Best Premium Power",
-        rationale: "High-rigidity Metalbone for players who prioritize finishing authority.",
-      },
-    ],
-    comparisonProductIds: [
-      "prod-bullpadel-vertex-05",
-      "prod-nox-at10-12k-2026",
-      "prod-siux-diablo",
-      "prod-babolat-counter-viper",
-      "prod-bullpadel-hack-04",
-      "prod-head-coello-pro",
-      "prod-adidas-metalbone-hrd",
-    ],
-    buyingAdvice:
-      "Match shape and balance to your level first, then refine by feel and budget.",
-    faqIds: [],
-    relatedToolSlugs: ["padel-racket-finder"],
-    ...pub,
-  },
-];
+export { padelBestGuides } from "@/content/padel/best-guides";
 
-export const padelComparisons: Comparison[] = [
-  {
-    id: "cmp-nox-bullpadel",
-    slug: "nox-at10-genius-18k-2026-vs-bullpadel-vertex-04-2026",
-    title: "Nox AT10 Genius 18K 2026 vs Bullpadel Vertex 04 2026",
-    productIds: ["prod-nox-at10-18k-2026", "prod-bullpadel-vertex-04"],
-    categoryId: "cat-padel-rackets",
-    comparisonType: "hybrid",
-    summary: "Hybrid versatility versus control-first diamond geometry.",
-    criteria: [
-      { key: "control", label: "Control", winnerProductId: "prod-bullpadel-vertex-04" },
-      { key: "power", label: "Power", winnerProductId: "prod-nox-at10-18k-2026" },
-    ],
-    recommendationsByUseCase: [
-      {
-        useCaseId: "uc-padel-control",
-        productId: "prod-bullpadel-vertex-04",
-        rationale: "Control-first diamond geometry for placement and defence.",
-      },
-      {
-        useCaseId: "uc-padel-balanced",
-        productId: "prod-nox-at10-18k-2026",
-        rationale: "Hybrid all-court versatility when you attack and defend equally.",
-      },
-      {
-        useCaseId: "uc-padel-power",
-        productId: "prod-nox-at10-18k-2026",
-        rationale: "More finishing bias than Vertex while staying all-court usable.",
-      },
-    ],
-    chooseProductReasons: [
-      { productId: "prod-bullpadel-vertex-04", reason: "You prioritise control." },
-      { productId: "prod-nox-at10-18k-2026", reason: "You want all-court hybrid play." },
-    ],
-    verdict: "Choose Vertex for control; AT10 for all-court hybrid play.",
-    faqIds: [],
-    ...pub,
-  },
-  {
-    id: "cmp-babolat-wilson",
-    slug: "babolat-technical-viper-2026-vs-wilson-bela-pro-v2-2026",
-    title: "Babolat Technical Viper 2026 vs Wilson Bela Pro V2 2026",
-    productIds: ["prod-babolat-technical-viper", "prod-wilson-bela-pro"],
-    categoryId: "cat-padel-rackets",
-    comparisonType: "editorial",
-    summary: "Two attacking rackets for advanced power players.",
-    criteria: [{ key: "power", label: "Power" }],
-    recommendationsByUseCase: [
-      {
-        useCaseId: "uc-padel-power",
-        productId: "prod-babolat-technical-viper",
-        rationale: "Pure attacking bias for finishers who already generate head speed.",
-      },
-      {
-        useCaseId: "uc-padel-balanced",
-        productId: "prod-wilson-bela-pro",
-        rationale: "Still attack-capable with a different stiffness/head-feel profile.",
-      },
-    ],
-    verdict: "Both favour attackers; pick by preference for stiffness and head feel.",
-    faqIds: [],
-    ...pub,
-  },
-  {
-    id: "cmp-head-siux",
-    slug: "head-coello-pro-2026-vs-siux-diablo-revolution-2026",
-    title: "Head Coello Pro 2026 vs Siux Diablo Revolution 2026",
-    productIds: ["prod-head-coello-pro", "prod-siux-diablo"],
-    categoryId: "cat-padel-rackets",
-    comparisonType: "editorial",
-    summary: "Value hybrid versus maneuverable round control.",
-    criteria: [{ key: "value", label: "Value", winnerProductId: "prod-head-coello-pro" }],
-    recommendationsByUseCase: [
-      {
-        useCaseId: "uc-padel-balanced",
-        productId: "prod-head-coello-pro",
-        rationale: "Value hybrid versatility for intermediate all-court play.",
-      },
-      {
-        useCaseId: "uc-padel-control",
-        productId: "prod-siux-diablo",
-        rationale: "Rounder, quicker handling for defensive and counter-punch play.",
-      },
-      {
-        useCaseId: "uc-padel-beginner",
-        productId: "prod-siux-diablo",
-        rationale: "More maneuverable shape class for developing timing.",
-      },
-    ],
-    verdict: "Coello for value versatility; Diablo for quick defensive handling.",
-    faqIds: [],
-    ...pub,
-  },
-  {
-    id: "cmp-nox-babolat",
-    slug: "nox-at10-genius-18k-2026-vs-babolat-technical-viper-2026",
-    title: "Nox AT10 Genius 18K 2026 vs Babolat Technical Viper 2026",
-    productIds: ["prod-nox-at10-18k-2026", "prod-babolat-technical-viper"],
-    categoryId: "cat-padel-rackets",
-    comparisonType: "editorial",
-    summary: "Hybrid all-court racket versus pure power attacker.",
-    criteria: [{ key: "power", label: "Power", winnerProductId: "prod-babolat-technical-viper" }],
-    recommendationsByUseCase: [
-      {
-        useCaseId: "uc-padel-balanced",
-        productId: "prod-nox-at10-18k-2026",
-        rationale: "Hybrid all-court balance when you need attack and defence.",
-      },
-      {
-        useCaseId: "uc-padel-power",
-        productId: "prod-babolat-technical-viper",
-        rationale: "Finishing power when smash output is the priority.",
-      },
-    ],
-    verdict: "AT10 for balance; Viper when finishing power is the priority.",
-    faqIds: [],
-    ...pub,
-  },
-];
+export { padelComparisons } from "@/content/padel/comparisons";
 
-export const padelBuyingGuides: BuyingGuide[] = [
-  {
-    id: "guide-choose-padel-racket",
-    slug: "how-to-choose-a-padel-racket",
-    title: "How to Choose a Padel Racket",
-    sportId: padelSportId,
-    categoryId: "cat-padel-rackets",
-    relatedProductIds: [
-      "prod-bullpadel-vertex-05",
-      "prod-nox-at10-12k-2026",
-      "prod-nox-ml10-pro-cup",
-      "prod-head-coello-pro",
-    ],
-    relatedUseCaseIds: [
-      "uc-padel-beginner",
-      "uc-padel-control",
-      "uc-padel-balanced",
-      "uc-padel-power",
-    ],
-    quickAnswer:
-      "Start with your level and whether you need control, balance, or power — then use shape, weight, and balance as secondary filters. Carbon K-count alone is not a quality ranking.",
-    relatedBestGuideIds: ["best-padel-rackets"],
-    relatedToolSlugs: ["padel-racket-finder"],
-    sections: [
-      {
-        id: "s-quick",
-        heading: "Quick answer",
-        body: "Beginners usually do better with lighter, more forgiving rackets (often round or soft teardrop) that keep the sweet spot accessible. Intermediate players can move toward teardrop / hybrid balance. Advanced attackers often choose diamond or high-balance molds — but only when timing and preparation already support that head weight.",
-      },
-      {
-        id: "s-level",
-        heading: "Start with your level",
-        body: "Level is the strongest filter. A diamond flagship will not teach timing; it will punish late preparation. If you are still building consistency, prioritise forgiveness and maneuverability over peak smash power. Kitletics Recommendation contexts (beginner / intermediate / advanced) encode this explicitly — do not rely on shape stereotypes alone.",
-      },
-      {
-        id: "s-power-control",
-        heading: "Power vs control",
-        body: "Power-oriented rackets typically combine higher balance, stiffer faces, and smaller sweet zones that reward clean contact. Control-oriented rackets keep mass lower or more centred, often with softer cores, so you can place the ball without overhitting. Balanced options sit between — useful when you attack and defend in equal measure.",
-      },
-      {
-        id: "s-shape",
-        heading: "Shape",
-        body: "Manufacturers describe shapes as round, teardrop, diamond, or hybrid. Round often correlates with larger sweet spots; diamond with higher sweet spots and power potential; teardrop / hybrid with middle-ground play. Treat shape as one signal among weight, balance, and core — never as a complete decision.",
-      },
-      {
-        id: "s-weight",
-        heading: "Weight",
-        body: "Adult padel rackets commonly sit roughly in the 350–380 g band. Prefer published ranges (e.g. 360–375 g) over a single invented midpoint. Lighter racks swing faster and ease defence; heavier racks can feel more stable on hard contact if you can accelerate them.",
-      },
-      {
-        id: "s-balance",
-        heading: "Balance",
-        body: "Low / mid-low balance helps manoeuvre at the net and on defence. Mid-high / high balance shifts mass toward the head for smash leverage — at the cost of late-swing forgiveness. Do not infer balance from shape alone; verify manufacturer or measured balance when available.",
-      },
-      {
-        id: "s-core",
-        heading: "Core / feel",
-        body: "Soft EVA tends to feel more cushioned and forgiving; harder EVA returns energy more abruptly. Multi-density constructions mix zones. Keep manufacturer core names as marketing labels and use Kitletics normalized core classes for comparison.",
-      },
-      {
-        id: "s-surface",
-        heading: "Surface",
-        body: "Fiberglass faces are often softer and more accessible; carbon faces (3K–24K and hybrids) vary widely. K-count is not a universal quality hierarchy — construction, resin, and core matter more than marketing weave numbers.",
-      },
-      {
-        id: "s-sweet",
-        heading: "Sweet spot",
-        body: "A larger, more central sweet spot helps inconsistent contact. Smaller, higher sweet spots reward clean attackers. Pair sweet-spot claims with independent evidence when possible; marketing diagrams alone are weak evidence.",
-      },
-      {
-        id: "s-style",
-        heading: "Playing style",
-        body: "Defenders and counter-punchers usually want control and maneuverability. All-court players want balance. Finishers who already generate racket-head speed can justify power molds. Use the Padel Racket Finder when you have a current racket and want a structured delta (e.g. less head-heavy, more control).",
-      },
-      {
-        id: "s-budget",
-        heading: "Budget",
-        body: "Set a regional budget band and let live Offers decide availability — not MSRP folklore. Previous-generation flagships can be strong value when construction still fits your profile. Kitletics never ranks by affiliate commission.",
-      },
-      {
-        id: "s-mistakes",
-        heading: "Common mistakes",
-        body: "Buying a pro’s diamond racket as a beginner; treating carbon weave as a quality ladder; ignoring weight ranges; assuming shape equals balance; attaching an old generation’s retailer listing to a new model year.",
-      },
-      {
-        id: "s-finder",
-        heading: "Use the Finder next",
-        body: "When you know level, style, and budget, run the Padel Racket Finder for explainable matches, then compare top options and check regional Offers. Pair with the Best Padel Rackets shortlist when you want editorial awards rather than personalized scoring.",
-      },
-    ],
-    faqIds: [],
-    ...pub,
-  },
-  {
-    id: "guide-choose-padel-shoes",
-    slug: "how-to-choose-padel-shoes",
-    title: "How to Choose Padel Shoes",
-    sportId: padelSportId,
-    categoryId: "cat-padel-shoes",
-    relatedProductIds: ["prod-adidas-courtstabil"],
-    relatedUseCaseIds: [],
-    sections: [
-      {
-        id: "s1",
-        heading: "Grip and lateral support",
-        body: "Padel movement is sharp and sideways. Prioritise court outsoles and stable uppers over running-shoe cushion.",
-      },
-    ],
-    faqIds: [],
-    ...pub,
-  },
-  {
-    id: "guide-padel-grips",
-    slug: "padel-grips-overgrips-explained",
-    title: "Padel Grips & Overgrips Explained",
-    sportId: padelSportId,
-    categoryId: "cat-padel-grips",
-    relatedProductIds: ["prod-wilson-overgrip"],
-    relatedUseCaseIds: [],
-    sections: [
-      {
-        id: "s1",
-        heading: "Grip stack and feel",
-        body: "Replacement grips set diameter; overgrips fine-tune tack and moisture control between sessions.",
-      },
-    ],
-    faqIds: [],
-    ...pub,
-  },
-];
+export { padelBuyingGuides } from "@/content/padel/buying-guides";
 
 export const padelSetups: GearSetup[] = [
   {
     id: "setup-padel-starter",
     slug: "padel-starter-kit",
-    title: "Padel Starter Kit",
+    title: "Padel Essentials Starter Kit",
     sportId: padelSportId,
     description:
-      "A practical starter kit: racket, shoes, balls and overgrips. Add a thermo bag when you start carrying shoes and extras.",
+      "Core essentials for first regular sessions: forgiving racket, court shoes, pressurized balls and overgrips. Add a bag when you start carrying shoes and extras.",
     useCaseIds: [],
     budgetRange: { min: 200, max: 450, currency: "EUR" },
     items: [
-      { productId: "prod-head-coello-pro", role: "Padel Racket", notes: "Essential — forgiving enough for new players while still current." },
+      { productId: "prod-bullpadel-indiga-ctr", role: "Padel Racket", notes: "Essential — forgiving SoftEva round for developing contact (not a pro diamond)." },
       { productId: "prod-adidas-courtstabil", role: "Padel Shoes", notes: "Essential — court outsole and lateral support." },
       { productId: "prod-head-padel-pro-s", role: "Padel Balls", notes: "Essential — pressurized competition/training cans." },
       { productId: "prod-wilson-overgrip", role: "Overgrips", notes: "Useful — refresh tack every few sessions." },
+    ],
+    ...pub,
+  },
+  {
+    id: "setup-padel-beginner",
+    slug: "padel-beginner-kit",
+    title: "Beginner Padel Kit",
+    sportId: padelSportId,
+    description:
+      "First months on court: forgiving racket, proper shoes, match + training ball options, overgrips, and an optional compact club bag when you stop borrowing pockets.",
+    useCaseIds: ["uc-padel-beginner"],
+    budgetRange: { min: 220, max: 520, currency: "EUR" },
+    items: [
+      { productId: "prod-bullpadel-indiga-ctr", role: "Padel Racket", notes: "Essential — SoftEva round for contact learning." },
+      { productId: "prod-adidas-courtstabil", role: "Padel Shoes", notes: "Essential — lateral court grip." },
+      { productId: "prod-head-padel-pro-s", role: "Competition Balls", notes: "Essential — fresh cans for honest bounce." },
+      { productId: "prod-kuikma-pb-speed", role: "Training / Value Balls", notes: "Useful — value FIP fast can for practice crates." },
+      { productId: "prod-wilson-overgrip", role: "Overgrips", notes: "Essential — spare wraps in the bag." },
+      { productId: "prod-nox-at10-team-bag", role: "Club Bag", notes: "Optional — add when you carry shoes + a second frame." },
+    ],
+    ...pub,
+  },
+  {
+    id: "setup-padel-club",
+    slug: "padel-club-player-kit",
+    title: "Regular Club Player Kit",
+    sportId: padelSportId,
+    description:
+      "Weekly club nights: all-court racket, stable shoes, competition cans, overgrips, and a 42 L thermo paletero.",
+    useCaseIds: ["uc-padel-balanced"],
+    budgetRange: { min: 350, max: 750, currency: "EUR" },
+    items: [
+      { productId: "prod-nox-at10-12k-2026", role: "Padel Racket", notes: "Essential — Genius teardrop all-court for mixed club weeks." },
+      { productId: "prod-asics-gel-resolution-padel", role: "Padel Shoes", notes: "Essential — high lateral stability for glass cuts." },
+      { productId: "prod-head-padel-pro-s", role: "Padel Balls", notes: "Essential — competition cans for league nights." },
+      { productId: "prod-wilson-overgrip", role: "Overgrips", notes: "Essential — refresh before match night." },
+      { productId: "prod-nox-at10-team-bag", role: "Club Bag", notes: "Essential — ~42 L thermo paletero with shoe slot." },
+    ],
+    ...pub,
+  },
+  {
+    id: "setup-padel-competitive",
+    slug: "padel-competitive-player-kit",
+    title: "Competitive Player Kit",
+    sportId: padelSportId,
+    description:
+      "League and competitive club play: current attack/all-court frame, Resolution-class shoes, match cans, overgrips, tournament-capable bag, and rim protection.",
+    useCaseIds: ["uc-padel-power", "uc-padel-balanced"],
+    budgetRange: { min: 450, max: 950, currency: "EUR" },
+    items: [
+      { productId: "prod-bullpadel-vertex-05", role: "Padel Racket", notes: "Essential — current diamond with usable attack zone (Hack 04 if finishing leads)." },
+      { productId: "prod-asics-gel-resolution-padel", role: "Padel Shoes", notes: "Essential — plush stability for hard weeks." },
+      { productId: "prod-head-padel-pro-s", role: "Padel Balls", notes: "Essential — match cans only." },
+      { productId: "prod-wilson-overgrip", role: "Overgrips", notes: "Essential — start each match with tack." },
+      { productId: "prod-babolat-rh-pro-padel", role: "Tournament Bag", notes: "Essential — ~62 L / multi-racket weekend volume." },
+      { productId: "prod-bullpadel-frame-protector", role: "Frame Protector", notes: "Useful — glass/mesh scrape insurance." },
+    ],
+    ...pub,
+  },
+  {
+    id: "setup-padel-tournament-day",
+    slug: "padel-tournament-day-kit",
+    title: "Tournament Day Kit",
+    sportId: padelSportId,
+    description:
+      "Match-day travel: primary frame, stable shoes, unopened competition cans, spare overgrips, large thermo bag, rim protector — pressurizer only if you stretch cans across a multi-day event.",
+    useCaseIds: ["uc-padel-power"],
+    budgetRange: { min: 500, max: 1100, currency: "EUR" },
+    items: [
+      { productId: "prod-bullpadel-vertex-05", role: "Primary Racket", notes: "Essential — current competitive frame you already trust." },
+      { productId: "prod-asics-gel-resolution-padel", role: "Padel Shoes", notes: "Essential — broken-in match shoes." },
+      { productId: "prod-head-padel-pro-s", role: "Competition Balls", notes: "Essential — unopened cans for match bounce." },
+      { productId: "prod-wilson-overgrip", role: "Spare Overgrips", notes: "Essential — mid-match swaps." },
+      { productId: "prod-nox-at10-xxl-bag", role: "Tournament Bag", notes: "Essential — ~90 L / multi-racket travel volume." },
+      { productId: "prod-bullpadel-frame-protector", role: "Frame Protector", notes: "Useful — spare tape for weekend scrapes." },
+      { productId: "prod-head-x3-pressurizer", role: "Pressurizer", notes: "Optional — only if you stretch cans across a multi-day event." },
+    ],
+    ...pub,
+  },
+  {
+    id: "setup-padel-commuter",
+    slug: "padel-commuter-kit",
+    title: "Padel Commuter Kit",
+    sportId: padelSportId,
+    description:
+      "Hands-free desk-to-court days: forgiving-enough racket, court shoes, a can of balls, overgrips, and a backpack — not a 90 L tournament cavern.",
+    useCaseIds: [],
+    budgetRange: { min: 250, max: 550, currency: "EUR" },
+    items: [
+      { productId: "prod-bullpadel-indiga-ctr", role: "Padel Racket", notes: "Essential — one frame you can carry daily." },
+      { productId: "prod-adidas-courtstabil", role: "Padel Shoes", notes: "Essential — court outsole in the shoe well." },
+      { productId: "prod-head-padel-pro-s", role: "Padel Balls", notes: "Essential — one fresh can." },
+      { productId: "prod-wilson-overgrip", role: "Overgrips", notes: "Useful — spare wrap in a side pocket." },
+      { productId: "prod-tecnifibre-tour-endurance-backpack", role: "Backpack", notes: "Essential — commute-first day pack with shoe well." },
+    ],
+    ...pub,
+  },
+  {
+    id: "setup-padel-budget",
+    slug: "padel-budget-starter-kit",
+    title: "Budget Starter Kit",
+    sportId: padelSportId,
+    description:
+      "Lowest sensible spend to start properly: value Kuikma comfort racket and shoes, value fast balls, overgrips — skip bags and pressurizers until you play enough to need them.",
+    useCaseIds: ["uc-padel-beginner"],
+    budgetRange: { min: 150, max: 350, currency: "EUR" },
+    items: [
+      { productId: "prod-kuikma-pr-comfort-soft", role: "Padel Racket", notes: "Essential — soft round value on-ramp." },
+      { productId: "prod-kuikma-ps-990", role: "Padel Shoes", notes: "Essential — value padel court shoe." },
+      { productId: "prod-kuikma-pb-speed", role: "Padel Balls", notes: "Essential — value FIP fast competition can." },
+      { productId: "prod-kuikma-overgrip", role: "Overgrips", notes: "Useful — replace often; do not stretch dead wraps." },
     ],
     ...pub,
   },
@@ -832,7 +603,8 @@ export const padelTools: Tool[] = [
     id: "tool-padel-racket-finder",
     name: "Padel Racket Finder",
     slug: "padel-racket-finder",
-    description: "Answer questions about level, style and budget to get structured racket matches.",
+    description:
+      "Flagship adaptive matcher for padel rackets — best match plus control, power, comfort and value alternatives with clear reasons. Affiliate commission never ranks results.",
     type: "finder",
     sportIds: [padelSportId],
     categoryIds: ["cat-padel-rackets"],

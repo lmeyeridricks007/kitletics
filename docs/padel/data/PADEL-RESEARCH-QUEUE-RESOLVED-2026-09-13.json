@@ -1,0 +1,875 @@
+{
+  "date": "2026-09-13",
+  "primary_commerce": "NL",
+  "discovery_markets": ["ES", "NL", "BE", "DE", "FR", "EU"],
+  "rule": "Every research-queue row resolved to a terminal outcome; no NEEDS_VERIFY remaining.",
+  "items": [
+    {
+      "queue_id": 1,
+      "queue_label": "Babolat Frame Protector",
+      "outcome": "CONFIRMED_CURRENT",
+      "product_name_canonical": "Babolat ProtecPro 2.0 Frame Protection Tape",
+      "brand": "Babolat",
+      "category": "accessories/protector",
+      "manufacturer_url": "https://www.babolat.com",
+      "retailer_urls": [
+        "https://allthingstennis.co.uk/products/babolat-protecpro-2-0-15-pack-padel-protection-tape",
+        "https://www.stringersworld.com/product/babolat-protecpro-20-frame-protection-tape-white-15-pack/",
+        "https://www.totalpadel.com/catpage-TPACCFRPRO-EN.html"
+      ],
+      "NL_available": "limited",
+      "EU_available": true,
+      "catalog": "yes",
+      "suggested_kitletics_id": "prod-babolat-protecpro-2-0",
+      "duplicates": null,
+      "evidence_summary": "Current commercial SKU is ProtecPro 2.0 (MPN 710233 / GTIN 3324922292761), sold as single and 15-pack across UK/EU specialists. Older generic 'Frame Protector' / X15 listings are prior naming/pack variants — collapse colors/packs to one product family."
+    },
+    {
+      "queue_id": 2,
+      "queue_label": "Bullpadel Ball Basket / Cart",
+      "outcome": "CONFIRMED_CURRENT",
+      "product_name_canonical": "Bullpadel Ball Basket",
+      "brand": "Bullpadel",
+      "category": "accessories/ball_basket",
+      "manufacturer_url": "https://www.bullpadel.com/gb/1103-cesto-pelotas-bullpadel-ball-basket.html",
+      "retailer_urls": [
+        "https://www.bullpadel.com/gb/1103-cesto-pelotas-bullpadel-ball-basket.html",
+        "https://www.stringersworld.com/product/bullpadel-wheeled-ball-basket/",
+        "https://megadeportes.es/gb/padel/202868-bullpadel-ball-basket-8434417848818.html"
+      ],
+      "NL_available": "limited",
+      "EU_available": true,
+      "catalog": "yes",
+      "suggested_kitletics_id": "prod-bullpadel-ball-basket",
+      "duplicates": null,
+      "evidence_summary": "Official Bullpadel accessory W385000000 / EAN 8434417848818 / MPN 458540. Wheeled ~100-ball training cart, 35×33×32 cm. Live on manufacturer + EU specialists (some OOS). Club/training aid, commercially distinct."
+    },
+    {
+      "queue_id": 3,
+      "queue_label": "Siux Protector",
+      "outcome": "CONFIRMED_CURRENT",
+      "product_name_canonical": "Siux Transparent Protector",
+      "brand": "Siux",
+      "category": "accessories/protector",
+      "manufacturer_url": "https://www.siuxpadel.com",
+      "retailer_urls": [
+        "https://originalpadel.com/en/protective-siux-transparent-en",
+        "https://padelmania.com/en/pro/7775-siux-transparent-protector-black-logo-siux-8435536711069.html",
+        "https://padelmania.com/en/pro/13352-siux-transparent-protectors-drum-50-units-siux-8435536725158.html",
+        "https://padelmania.com/en/padel-accessories/7786-protection-tape-siux-pegasus-grafeno-silver-siux-8435536735201.html"
+      ],
+      "NL_available": "limited",
+      "EU_available": true,
+      "catalog": "yes",
+      "suggested_kitletics_id": "prod-siux-transparent-protector",
+      "duplicates": null,
+      "evidence_summary": "Core current SKU is transparent universal protector (single + 50-unit drum). Logo/black and Pegasus Grafeno Silver tapes are design/collection variants — catalog transparent as primary; treat logo/Pegasus as variants not separate products unless editorial needs them."
+    },
+    {
+      "queue_id": 4,
+      "queue_label": "Softee Press Pro X3 + Pump",
+      "outcome": "COMMERCE_BUNDLE",
+      "product_name_canonical": "Softee Press Pro X3 + Pump (bundle offer of Press Pro X3)",
+      "brand": "Softee",
+      "category": "accessories/pressurizer",
+      "manufacturer_url": null,
+      "retailer_urls": [
+        "https://www.time2padel.com/en/paddle-accessories/31611-ball-pressurizer-softee-press-pro-pump-x3-softee-8437028855237.html",
+        "https://www.padelnuestro.com/int/ball-pressurizer-softee-press-pro-pump-x3",
+        "https://www.time2padel.com/en/padel-ball-pressurizers/31612-ball-pressurizer-softee-press-pro-x3-softee-8437028855244.html"
+      ],
+      "NL_available": "limited",
+      "EU_available": true,
+      "catalog": "no",
+      "suggested_kitletics_id": null,
+      "duplicates": "prod-softee-press-pro-x3",
+      "evidence_summary": "Distinct retail EAN 8437028855237 (with pump) vs 8437028855244 (X3 alone, no pump). Same pressurizer body; pump is bundled accessory. Do not seed a second product — keep prod-softee-press-pro-x3 and model +Pump as offer/bundle variant."
+    },
+    {
+      "queue_id": 5,
+      "queue_label": "StarVie Protector",
+      "outcome": "CONFIRMED_CURRENT",
+      "product_name_canonical": "StarVie Transparent PVC Protector (PTC)",
+      "brand": "StarVie",
+      "category": "accessories/protector",
+      "manufacturer_url": "https://www.starvie.com",
+      "retailer_urls": [
+        "https://www.padelshack.com/product/starvie-transparent-protector-2026/",
+        "https://www.time2padel.com/en/professional-padel-racket/29475-protection-tape-starvie-transparent-ptc-star-vie-8436612940953.html",
+        "https://www.padelmq.com/en/products/starvie-pvc-protector-wit",
+        "https://originalpadel.com/en/protector-starvie-pvc-transparent-en"
+      ],
+      "NL_available": true,
+      "EU_available": true,
+      "catalog": "yes",
+      "suggested_kitletics_id": "prod-starvie-transparent-protector",
+      "duplicates": null,
+      "evidence_summary": "2026 PTC transparent PVC protector GTIN 8436612940953 stocked on UK/ES specialists and NL PadeLMQ (white/logo colorways). Color variants collapse to one product."
+    },
+    {
+      "queue_id": 6,
+      "queue_label": "Wilson Padel Frame Protector",
+      "outcome": "CONFIRMED_CURRENT",
+      "product_name_canonical": "Wilson Padel Guard",
+      "brand": "Wilson",
+      "category": "accessories/protector",
+      "manufacturer_url": "https://www.wilson.com",
+      "retailer_urls": [
+        "https://www.tenniswarehouse-europe.com/Wilson_Padel_Guard/descpageWILPADS-WPASHSHOPG-EN.html",
+        "https://www.padelmq.com/en/products/wilson-padel-guard-protector",
+        "https://www.extreme-tennis.eu/padel-protections/17170-wilson-padel-guard-racket-protector-white.html",
+        "https://houseofbontin.dk/en/products/wilson-padel-guard-protection-tape-frame-protection-for-padel-rackets"
+      ],
+      "NL_available": true,
+      "EU_available": true,
+      "catalog": "yes",
+      "suggested_kitletics_id": "prod-wilson-padel-guard",
+      "duplicates": null,
+      "evidence_summary": "Canonical name is Wilson Padel Guard (model WRR940100 class), 3.3×41 cm adhesive tape, transparent/white. Strong NL (PadeLMQ) + EU (TWE, Extreme Tennis) stock. Not Bullpadel protector."
+    },
+    {
+      "queue_id": 7,
+      "queue_label": "Adidas Control / Cross It Bag",
+      "outcome": "CONFIRMED_CURRENT",
+      "product_name_canonical": "Adidas Control Racquet Bag (Cross It bag does not exist)",
+      "brand": "Adidas",
+      "category": "bags",
+      "manufacturer_url": "https://allforpadel.com/en/138-new-bag-collection",
+      "retailer_urls": [
+        "https://allforpadel.com/en/138-new-bag-collection",
+        "https://www.zonadepadel.nl/adidas-padel/14461-adidas-padeltas-control-zwart-blauw-2026.html",
+        "https://padellife.nl/products/adidas-multigame-padel-bag-2026-black",
+        "https://padellife.nl/products/adidas-pro-tour-padel-bag-2026-blue-bronze"
+      ],
+      "NL_available": true,
+      "EU_available": true,
+      "catalog": "yes",
+      "suggested_kitletics_id": "prod-adidas-control",
+      "duplicates": null,
+      "cross_it_bag_outcome": "NOT_A_DISTINCT_PRODUCT",
+      "cross_it_note": "Cross It is a 2026 racket line (Control/Light), not a bag SKU. No Cross It paletero/backpack found on official Adidas padel bag category.",
+      "all_current_distinct_adidas_padel_bags": [
+        {
+          "name": "Adidas Control Racquet Bag 2026",
+          "form": "PADEL_RACKET_BAG",
+          "suggested_id": "prod-adidas-control",
+          "notes": "Entry tier; Black/Blue colorways collapsed; already draft-seeded"
+        },
+        {
+          "name": "Adidas Multigame Racquet Bag 2026",
+          "form": "PADEL_RACKET_BAG",
+          "suggested_id": "prod-adidas-multigame",
+          "notes": "~58 L thermo; Galán colorways are variants; already draft-seeded"
+        },
+        {
+          "name": "Adidas Multigame Backpack 2026",
+          "form": "BACKPACK",
+          "suggested_id": "prod-adidas-multigame-backpack",
+          "notes": "External thermal; already draft-seeded"
+        },
+        {
+          "name": "Adidas Pro Tour Racquet Bag 2026",
+          "form": "PADEL_RACKET_BAG",
+          "suggested_id": "prod-adidas-protour-padel",
+          "notes": "Tournament tier incl. Martita Ortega Pink / Bronze; already cataloged family"
+        },
+        {
+          "name": "Adidas Pro Tour Backpack 2026",
+          "form": "BACKPACK",
+          "suggested_id": "prod-adidas-protour-backpack",
+          "notes": "Distinct from ProTour racket bag; catalog if not yet seeded"
+        },
+        {
+          "name": "Adidas Weekend Backpack",
+          "form": "BACKPACK",
+          "suggested_id": "prod-adidas-weekend-backpack",
+          "notes": "Lifestyle/soft carry still on NL PadelShop; lower priority"
+        },
+        {
+          "name": "Adidas Martita Ortega Accessory Pouch 2026",
+          "form": "ACCESSORY_POUCH",
+          "suggested_id": null,
+          "notes": "Official small pouch — NOT_COMMERCIALLY_MEANINGFUL as bag catalog row"
+        }
+      ],
+      "evidence_summary": "Official All For Padel 2026 bag category confirms Control, Multigame, Pro Tour racket bags + Multigame/Pro Tour backpacks. Control confirmed current on NL. Cross It bag = not a product."
+    },
+    {
+      "queue_id": 8,
+      "queue_label": "Babolat Juan Lebron Collection Bag",
+      "outcome": "CONFIRMED_CURRENT",
+      "product_name_canonical": "Babolat RH Pro Padel Juan Lebrón",
+      "brand": "Babolat",
+      "category": "bags/PADEL_RACKET_BAG",
+      "manufacturer_url": "https://www.babolat.com/gb/rh-pro-padel-juan-lebron/759025.html",
+      "retailer_urls": [
+        "https://www.babolat.com/gb/rh-pro-padel-juan-lebron/759025.html",
+        "https://www.babolat.com/gb/juan-lebron-collection-2026.html"
+      ],
+      "NL_available": "limited",
+      "EU_available": true,
+      "catalog": "yes",
+      "suggested_kitletics_id": "prod-babolat-rh-pro-juan-lebron",
+      "duplicates": "Related to prod-babolat-rh-pro-padel (standard RH Pro) — Lebrón is signature colorway/collection SKU 759025, treat as distinct signature variant or merge as colorway of RH Pro depending on editorial policy",
+      "evidence_summary": "Official 2026 Juan Lebrón collection includes RH Pro Padel Juan Lebrón: 62 L, 4 rackets, 63×37×30 cm. Same architecture as standard RH Pro with Lebrón Viper DNA styling. No separate Lebrón backpack found in collection."
+    },
+    {
+      "queue_id": 9,
+      "queue_label": "Siux Electra / Trilogy Collection Bag",
+      "outcome": "CONFIRMED_CURRENT",
+      "product_name_canonical": "Siux Electra Stupa Paletero 2026 (Trilogy bag = prior gen)",
+      "brand": "Siux",
+      "category": "bags",
+      "manufacturer_url": "https://www.siuxpadel.com/collections/coleccion-2026",
+      "retailer_urls": [
+        "https://padelproshop.com/en/products/padel-bag-siux-electra-stupa-2026",
+        "https://www.padeliberico.es/en/siux-electra-stupa-backpack-2026.html",
+        "https://www.runningwarehouse.eu/catpage-SIUXBAG-EN.html",
+        "https://www.zonadepadel.es/161-paleteros-siux"
+      ],
+      "NL_available": "limited",
+      "EU_available": true,
+      "catalog": "yes",
+      "suggested_kitletics_id": "prod-siux-electra-stupa-paletero",
+      "duplicates": "prod-siux-paletero is generic seed — replace/expand with specific models below",
+      "trilogy_bag_outcome": "CONFIRMED_PREVIOUS",
+      "trilogy_note": "Trilogy 2024 paletero still on some EU clearance; Trilogy 2026 is racket range, not a current flagship bag line.",
+      "all_current_distinct_siux_bags": [
+        {
+          "name": "Siux Electra Stupa Paletero 2026",
+          "form": "PADEL_RACKET_BAG",
+          "suggested_id": "prod-siux-electra-stupa-paletero",
+          "notes": "63 L flagship Stupa; thermal; 4 rackets"
+        },
+        {
+          "name": "Siux Electra Stupa Backpack 2026",
+          "form": "BACKPACK",
+          "suggested_id": "prod-siux-electra-stupa-backpack",
+          "notes": "~39 L; 2 rackets; shoe compartment"
+        },
+        {
+          "name": "Siux Electra Stupa Neceser 2026",
+          "form": "TOILETRY",
+          "suggested_id": null,
+          "notes": "NOT_COMMERCIALLY_MEANINGFUL as bag catalog row"
+        },
+        {
+          "name": "Siux Tour Paletero 2026",
+          "form": "PADEL_RACKET_BAG",
+          "suggested_id": "prod-siux-tour-paletero",
+          "notes": "Current mid/pro tier"
+        },
+        {
+          "name": "Siux Tour Backpack 2026",
+          "form": "BACKPACK",
+          "suggested_id": "prod-siux-tour-backpack",
+          "notes": "Current"
+        },
+        {
+          "name": "Siux Trail Paletero 2026",
+          "form": "PADEL_RACKET_BAG",
+          "suggested_id": "prod-siux-trail-paletero",
+          "notes": "Current; colorways Grey/Black"
+        },
+        {
+          "name": "Siux Trail Backpack 2026",
+          "form": "BACKPACK",
+          "suggested_id": "prod-siux-trail-backpack",
+          "notes": "Current"
+        },
+        {
+          "name": "Siux Edge Paletero 2026",
+          "form": "PADEL_RACKET_BAG",
+          "suggested_id": "prod-siux-edge-paletero",
+          "notes": "Current; Green/White/Grey"
+        },
+        {
+          "name": "Siux Edge Backpack 2026",
+          "form": "BACKPACK",
+          "suggested_id": "prod-siux-edge-backpack",
+          "notes": "Current"
+        },
+        {
+          "name": "Siux Pulse Paletero 2026",
+          "form": "PADEL_RACKET_BAG",
+          "suggested_id": "prod-siux-pulse-paletero",
+          "notes": "Current entry/mid"
+        },
+        {
+          "name": "Siux Pulse Backpack 2026",
+          "form": "BACKPACK",
+          "suggested_id": "prod-siux-pulse-backpack",
+          "notes": "Current"
+        },
+        {
+          "name": "Siux The Queen Bag 2026",
+          "form": "SPORTS_BAG",
+          "suggested_id": "prod-siux-the-queen",
+          "notes": "37 L lifestyle/pro carry; optional catalog"
+        },
+        {
+          "name": "Siux Street Backpack 2026",
+          "form": "BACKPACK",
+          "suggested_id": "prod-siux-street-backpack",
+          "notes": "Lifestyle; lower priority"
+        },
+        {
+          "name": "Siux Trilogy Paletero 2024",
+          "form": "PADEL_RACKET_BAG",
+          "suggested_id": null,
+          "notes": "CONFIRMED_PREVIOUS — do not catalog as current"
+        }
+      ],
+      "evidence_summary": "Official Siux 2026 + Running Warehouse / Zona de Padel list Electra Stupa, Tour, Trail, Edge, Pulse paletero+backpack families. Trilogy bag is prior; Electra is current collection bag hero."
+    },
+    {
+      "queue_id": 10,
+      "queue_label": "Wilson Super Tour Padel Bag (non-Bela)",
+      "outcome": "DUPLICATE",
+      "product_name_canonical": "Wilson Bela Super Tour Padel Bag",
+      "brand": "Wilson",
+      "category": "bags/TOURNAMENT_BAG",
+      "manufacturer_url": "https://www.wilson.com/en-us/product/bela-v3-padel-racket-bag-wr8910800",
+      "retailer_urls": [
+        "https://www.padelshack.com/product/wilson-bela-super-tour-padel-racket-bag-black-2025/",
+        "https://tennisexpress.com/products/wilson-bela-super-tour-padel-bag-black-110538",
+        "https://www.extreme-tennis.eu/wilson-padel-bags/19208-wilson-bela-super-tour-black-gold-padel-bag.html"
+      ],
+      "NL_available": true,
+      "EU_available": true,
+      "catalog": "no",
+      "suggested_kitletics_id": null,
+      "duplicates": "prod-wilson-super-tour-padel (Bela Super Tour / Bela DNA Super Tour; SKUs WR8907201 / WR8910800 family)",
+      "evidence_summary": "No distinct non-Bela Wilson Super Tour padel racket bag found. 'Super Tour' in padel is the Belasteguín/Bela DNA tournament bag line. Tennis Super Tour bags are tennis SKUs, not padel. Queue row is a naming duplicate of existing Bela Super Tour."
+    },
+    {
+      "queue_id": 11,
+      "queue_label": "Babolat Soft / Short",
+      "outcome": "CONFIRMED_CURRENT",
+      "product_name_canonical": "Babolat Soft (training/junior soft ball)",
+      "brand": "Babolat",
+      "category": "balls/training",
+      "manufacturer_url": "https://www.babolat.com",
+      "retailer_urls": [
+        "https://www.misterpadel.com/en/babolat-soft-36-padel-balls-bag-511005.html",
+        "https://padelproshop.com/en/collections/padel-balls-babolat"
+      ],
+      "NL_available": "limited",
+      "EU_available": true,
+      "catalog": "yes",
+      "suggested_kitletics_id": "prod-babolat-soft",
+      "duplicates": null,
+      "short_outcome": "NOT_A_DISTINCT_PRODUCT",
+      "short_note": "'Babolat Short' in 2026 magazine guides is a descriptive nickname for a slow learning ball — no commercial Short tube found. Map guide mentions to Soft (junior soft) or Court (standard softer feel), not a separate SKU. Soft Foam is a foam training variant (optional separate if cataloging foam aids).",
+      "evidence_summary": "Babolat Soft sold as 36-ball training bag (slower/softer for beginners). Current pressurized match line remains Court X3 + Ace X3 on manufacturer site."
+    },
+    {
+      "queue_id": 12,
+      "queue_label": "Drop Shot Tournament Pro",
+      "outcome": "CONFIRMED_CURRENT",
+      "product_name_canonical": "Drop Shot Tournament Pro",
+      "brand": "Drop Shot",
+      "category": "balls/competition",
+      "manufacturer_url": "https://www.drop-shot.com",
+      "retailer_urls": [
+        "https://padelproshop.com/en/products/can-of-drop-shot-padel-balls-tournament-pro",
+        "https://www.mistertennis.com/en/drop-shot-tournament-pro-padel-3-ball-can-da124002.html",
+        "https://www.tradeinn.com/smashinn/en/drop-shot-tournament-padel-balls/1266000/p"
+      ],
+      "NL_available": "limited",
+      "EU_available": true,
+      "catalog": "yes",
+      "suggested_kitletics_id": "prod-drop-shot-tournament-pro",
+      "duplicates": "Likely same commercial family as draft prod-drop-shot-tournament-speed-pro — consolidate naming to retailer-canonical Tournament Pro",
+      "evidence_summary": "Active EU specialist cans (PadelPROShop, MisterTennis, Tradeinn). Manufacturer PDP weak but multi-market retail + Juan Martin Diaz association sufficient for CONFIRMED_CURRENT."
+    },
+    {
+      "queue_id": 13,
+      "queue_label": "Fila Premium / Premium Pro",
+      "outcome": "CONFIRMED_CURRENT",
+      "product_name_canonical": "Fila Premium Pro",
+      "brand": "Fila",
+      "category": "balls/competition",
+      "manufacturer_url": null,
+      "retailer_urls": [
+        "https://originalpadel.com/en/pack-of-3-canisters-of-balls-fila-padel-premium-pro-en",
+        "https://www.totalpadel.com/descpagePROKENP-FILPABAPP-EN.html",
+        "https://www.racketspecialisten.se/artikel/fila-premium-padel-pro-ball/"
+      ],
+      "NL_available": "limited",
+      "EU_available": true,
+      "catalog": "yes",
+      "suggested_kitletics_id": "prod-fila-premium-pro",
+      "duplicates": null,
+      "evidence_summary": "Commercial name is Premium Pro (PBA011-Pro). Yellow/white are colorways not distinct products. EU specialist stock (ES/Nordics/Total Padel). Niche vs HEAD/Wilson but commercially real."
+    },
+    {
+      "queue_id": 14,
+      "queue_label": "Osaka Pro Tour",
+      "outcome": "CONFIRMED_CURRENT",
+      "product_name_canonical": "Osaka Pro Tour Padel Ball",
+      "brand": "Osaka",
+      "category": "balls/competition",
+      "manufacturer_url": "https://osakaworld.com/products/osaka-pro-tour-padel-ball-3-ball-can-no-color-1",
+      "retailer_urls": [
+        "https://osakaworld.com/products/osaka-pro-tour-padel-ball-3-ball-can-no-color-1",
+        "https://osakaworld.com/collections/the-padel-essentials"
+      ],
+      "NL_available": "limited",
+      "EU_available": true,
+      "catalog": "yes",
+      "suggested_kitletics_id": "prod-osaka-pro-tour",
+      "duplicates": null,
+      "evidence_summary": "Official Osaka World PDP (premium English felt / natural rubber, 3-ball can). Included in Jul 2026 32-ball market tests. EU shipping from manufacturer."
+    },
+    {
+      "queue_id": 15,
+      "queue_label": "Osaka Vision",
+      "outcome": "CONFIRMED_CURRENT",
+      "product_name_canonical": "Osaka Vision Padel Ball",
+      "brand": "Osaka",
+      "category": "balls/club",
+      "manufacturer_url": "https://osakaworld.com/pages/osaka-padel",
+      "retailer_urls": [
+        "https://osakaworld.com/collections/the-padel-essentials",
+        "https://osakaworld.com/pages/osaka-padel"
+      ],
+      "NL_available": "limited",
+      "EU_available": true,
+      "catalog": "yes",
+      "suggested_kitletics_id": "prod-osaka-vision",
+      "duplicates": null,
+      "evidence_summary": "Official Osaka Vision 3-ball can on manufacturer essentials (~€6.50–7.50). Distinct slower/feel training tier vs Pro Tour."
+    },
+    {
+      "queue_id": 16,
+      "queue_label": "Pallap Competition 01",
+      "outcome": "CONFIRMED_CURRENT",
+      "product_name_canonical": "Pallap Competition 01",
+      "brand": "Pallap",
+      "category": "balls/competition",
+      "manufacturer_url": null,
+      "retailer_urls": [
+        "https://www.padelreference.com/en/padel-balls/p/pallap-competition-01",
+        "https://esprit-padel-shop.com/en/products/tripack-de-3-balles-pallap-competition-1",
+        "https://www.tennispro.eu/box-of-24-tubes-of-3-pallap-padel-balls-828192.html"
+      ],
+      "NL_available": false,
+      "EU_available": true,
+      "catalog": "yes",
+      "suggested_kitletics_id": "prod-pallap-competition-01",
+      "duplicates": null,
+      "evidence_summary": "Niche FR/EU brand with active FR specialist PDPs and Tennispro 24-tube boxes. 57% wool felt claims. Commercially smaller than HEAD/Wilson but distinct current product — catalog at low priority."
+    },
+    {
+      "queue_id": 17,
+      "queue_label": "Prince Padel Club",
+      "outcome": "CONFIRMED_CURRENT",
+      "product_name_canonical": "Prince Club Padel Ball",
+      "brand": "Prince",
+      "category": "balls/club",
+      "manufacturer_url": null,
+      "retailer_urls": [
+        "https://megango.com/ball-padel-club-3-pcs-prince.html",
+        "https://www.tradeinn.com/smashinn/en/prince-club-padel-balls/135908057/p",
+        "https://padeltennisguiden.se/produkt/prince-padel-club-ball/"
+      ],
+      "NL_available": "limited",
+      "EU_available": true,
+      "catalog": "yes",
+      "suggested_kitletics_id": "prod-prince-club",
+      "duplicates": null,
+      "evidence_summary": "Club/artificial-grass pressurized 3-ball cans on Megango (EU ship) + Tradeinn Smashinn + Nordics. Weak manufacturer padel PDP; still commercially available. Low priority."
+    },
+    {
+      "queue_id": 18,
+      "queue_label": "RS Padel Tour X",
+      "outcome": "DISCONTINUED",
+      "product_name_canonical": "RS Padel Tour X",
+      "brand": "RS",
+      "category": "balls/club",
+      "manufacturer_url": "https://rs-sports.com/en-global/products/rs-padel-nova-x",
+      "retailer_urls": [
+        "https://rs-sports.com/en-global/products/rs-padel-nova-x",
+        "https://www.racketspesialisten.no/artikkel/rs-padel-tour-x/"
+      ],
+      "NL_available": false,
+      "EU_available": false,
+      "catalog": "no",
+      "suggested_kitletics_id": null,
+      "duplicates": "Succeeded by prod-rs-padel-nova-x (if/when cataloged) — official Nova X copy calls Tour X a predecessor",
+      "evidence_summary": "Racketspesialisten marks Tour X as utgått (discontinued). Official RS Nova X PDP explicitly positions Nova X between predecessors Tour X and Champions Choice. Do not catalog Tour X as current."
+    },
+    {
+      "queue_id": 19,
+      "queue_label": "Slazenger Padel Ball (Challenge No.1?)",
+      "outcome": "CONFIRMED_CURRENT",
+      "product_name_canonical": "Slazenger Challenge No.1",
+      "brand": "Slazenger",
+      "category": "balls/competition",
+      "manufacturer_url": "https://www.slazenger.com/slazenger-padel-balls-3-balls-738846",
+      "retailer_urls": [
+        "https://cropadel.hr/proizvod/challenge-no-1-padel-ball-3-pack/",
+        "https://www.expresspadel.co.uk/products/slazenger-white-overgrip-pack-3-copy",
+        "https://nottennis.com/products/slazenger-challenge-no-1-padel-ball"
+      ],
+      "NL_available": "limited",
+      "EU_available": true,
+      "catalog": "yes",
+      "suggested_kitletics_id": "prod-slazenger-challenge-no-1",
+      "duplicates": null,
+      "evidence_summary": "Canonical padel ball is Challenge No.1 (FIP-approved; Hexagon Cup association). EU/UK retail tubes and cases exist though manufacturer stock often thin. Already draft-seeded in market-wave."
+    },
+    {
+      "queue_id": 20,
+      "queue_label": "StarVie Padel Ball / Master",
+      "outcome": "CONFIRMED_PREVIOUS",
+      "product_name_canonical": "StarVie Padel Master",
+      "brand": "StarVie",
+      "category": "balls/competition",
+      "manufacturer_url": "https://www.starvie.com",
+      "retailer_urls": [
+        "https://www.zonadepadel.com/star-vie/7644-box-starvie-padel-master-ball-24-x-3.html",
+        "https://www.tradeinn.com/smashinn/en/star-vie-padel-master-padel-balls-box/139884906/p",
+        "https://padelpointcy.com/product/starvie-padel-master-ball-box-pack-of-24/"
+      ],
+      "NL_available": false,
+      "EU_available": "limited",
+      "catalog": "no",
+      "suggested_kitletics_id": null,
+      "duplicates": null,
+      "evidence_summary": "Historical National Padel Series official ball. Zona de Padel marks Master box deprecated; residual Tradeinn/Cyprus stock only. No strong current StarVie ball on manufacturer primary assortment — do not catalog as current."
+    },
+    {
+      "queue_id": 21,
+      "queue_label": "Tecnifibre Padel Tour (vs Team / X-One)",
+      "outcome": "CONFIRMED_PREVIOUS",
+      "product_name_canonical": "Tecnifibre Padel Tour",
+      "brand": "Tecnifibre",
+      "category": "balls/competition",
+      "manufacturer_url": "https://www.tecnifibre.com/en/collections/balles-de-padel",
+      "retailer_urls": [
+        "https://www.tecnifibre.com/en/collections/balles-de-padel",
+        "https://www.squashgearpro.com/shop/140-padel-tennis-balls/1907-tecnifibre-padel-tour-padel-balls---1-tube/",
+        "https://padel-magazine.co.uk/Guide-and-comparison-2025%3A-How-to-choose-your-padel-ball-from-32-options/"
+      ],
+      "NL_available": "limited",
+      "EU_available": "limited",
+      "catalog": "no",
+      "suggested_kitletics_id": null,
+      "duplicates": null,
+      "current_tecnifibre_balls": [
+        {
+          "name": "Tecnifibre Padel Team",
+          "outcome": "CONFIRMED_CURRENT",
+          "suggested_id": "prod-tecnifibre-padel-team",
+          "catalog": "yes",
+          "notes": "On official collection; already cataloged"
+        },
+        {
+          "name": "Tecnifibre X-One",
+          "outcome": "CONFIRMED_CURRENT",
+          "suggested_id": "prod-tecnifibre-x-one",
+          "catalog": "yes",
+          "notes": "Premium current official ball"
+        }
+      ],
+      "evidence_summary": "Official Tecnifibre padel balls collection currently lists only Team and X-One. Tour appears in 2026 comparison guides and remnant specialist listings — previous generation / cleared from manufacturer current range. Prefer Team + X-One for catalog."
+    },
+    {
+      "queue_id": 22,
+      "queue_label": "Varlion Summum Ball / Summum Pro W",
+      "outcome": "CONFIRMED_CURRENT",
+      "product_name_canonical": "Varlion Summum Pro W",
+      "brand": "Varlion",
+      "category": "balls/competition",
+      "manufacturer_url": "https://www.varlion.com/gb/padel/balls/summum-pro-w-ball-box-24-units.html",
+      "retailer_urls": [
+        "https://www.varlion.com/gb/balls/",
+        "https://www.varlion.com/gb/padel/balls/summum-pro-w-ball-box-24-units.html",
+        "https://www.sportit.com/en/products/padel-summum-pro-w-ball-tube",
+        "https://sportnetit.com/en_EN/varlion-summum-pro-w-ballpa200200306-tu.html"
+      ],
+      "NL_available": "limited",
+      "EU_available": true,
+      "catalog": "yes",
+      "suggested_kitletics_id": "prod-varlion-summum-pro-w",
+      "duplicates": null,
+      "sibling_current": {
+        "name": "Varlion Summum Pro S",
+        "outcome": "CONFIRMED_CURRENT",
+        "suggested_id": "prod-varlion-summum-pro-s",
+        "notes": "Summer/low-pressure sibling also on official Varlion balls page — distinct climate SKU"
+      },
+      "evidence_summary": "Official Varlion balls page sells Summum Pro W and Summum Pro S boxes. W = higher pressure for cold/sea-level/winter. FIP approved; ES/IT specialist tubes. 'Summum Ball' generic = this Pro W/S range. Already draft-seeded Pro W."
+    },
+    {
+      "queue_id": 23,
+      "queue_label": "Drop Shot Overgrip",
+      "outcome": "CONFIRMED_CURRENT",
+      "product_name_canonical": "Drop Shot overgrip range (multiple models)",
+      "brand": "Drop Shot",
+      "category": "grips/overgrip",
+      "manufacturer_url": "https://es.dropshotstore.com/collections/overgrip",
+      "retailer_urls": [
+        "https://es.dropshotstore.com/collections/overgrip",
+        "https://www.padelnuestro.com/int/tub-of-drop-shot-super-tacky-x60-overgrips-30041-p",
+        "https://www.padelnuestro.com/int/3-pack-of-drop-shot-super-dry-overgrips",
+        "https://www.tradeinn.com/smashinn/en/drop-shot-club-padel-overgrip-60-units/137831704/p"
+      ],
+      "NL_available": true,
+      "EU_available": true,
+      "catalog": "yes",
+      "suggested_kitletics_id": null,
+      "duplicates": null,
+      "distinct_models": [
+        {
+          "name": "Drop Shot Super Tacky",
+          "outcome": "CONFIRMED_CURRENT",
+          "suggested_id": "prod-drop-shot-super-tacky",
+          "catalog": "yes",
+          "notes": "Already draft-seeded; x3/x60 packs are offers"
+        },
+        {
+          "name": "Drop Shot Super Dry Pro",
+          "outcome": "CONFIRMED_CURRENT",
+          "suggested_id": "prod-drop-shot-super-dry",
+          "catalog": "yes",
+          "notes": "Already draft-seeded"
+        },
+        {
+          "name": "Drop Shot Club",
+          "outcome": "CONFIRMED_CURRENT",
+          "suggested_id": "prod-drop-shot-club",
+          "catalog": "yes",
+          "notes": "Already draft-seeded; club/value bulk"
+        },
+        {
+          "name": "Drop Shot Competition Pro",
+          "outcome": "CONFIRMED_CURRENT",
+          "suggested_id": "prod-drop-shot-competition-pro-overgrip",
+          "catalog": "yes",
+          "notes": "Official store x12; optional additional model"
+        },
+        {
+          "name": "Drop Shot Pro Elite",
+          "outcome": "CONFIRMED_CURRENT",
+          "suggested_id": "prod-drop-shot-pro-elite-overgrip",
+          "catalog": "yes",
+          "notes": "Official store x60 tub — distinct from PadeLMQ house 'Pro Elite' brand"
+        }
+      ],
+      "evidence_summary": "Official Drop Shot España overgrip collection lists Super Tacky, Super Dry Pro, Club, Competition Pro, Pro Elite. Core three (Tacky/Dry/Club) already in market-wave drafts."
+    },
+    {
+      "queue_id": 24,
+      "queue_label": "NOX Custom Grip / Soft Overgrip / H-Dri",
+      "outcome": "CONFIRMED_CURRENT",
+      "product_name_canonical": "NOX Custom Grip (+ Pro overgrip variants)",
+      "brand": "Nox",
+      "category": "grips",
+      "manufacturer_url": "https://noxsport.com/en/products/nox-custom-grip",
+      "retailer_urls": [
+        "https://noxsport.com/en/products/nox-custom-grip",
+        "https://noxsport.com/en/collections/overgrips",
+        "https://www.padelmq.com/en-eu/products/custom-grip",
+        "https://www.padelmq.com/en-nl/products/nox-pro-overgrip-wit-3-pack"
+      ],
+      "NL_available": true,
+      "EU_available": true,
+      "catalog": "yes",
+      "suggested_kitletics_id": "prod-nox-custom-grip",
+      "duplicates": null,
+      "sub_outcomes": [
+        {
+          "name": "NOX Custom Grip",
+          "outcome": "CONFIRMED_CURRENT",
+          "category": "grips/ergonomic",
+          "suggested_id": "prod-nox-custom-grip",
+          "catalog": "yes",
+          "notes": "Silicone-ring custom handle system; NOT an overgrip. Official + NL PadeLMQ. Already draft-seeded."
+        },
+        {
+          "name": "NOX Soft Overgrip",
+          "outcome": "NOT_A_DISTINCT_PRODUCT",
+          "suggested_id": null,
+          "catalog": "no",
+          "notes": "No Soft SKU on noxsport.com. Soft feel describes PRO smooth/perforated overgrips."
+        },
+        {
+          "name": "NOX H-Dri",
+          "outcome": "INSUFFICIENT_EVIDENCE",
+          "suggested_id": null,
+          "catalog": "no",
+          "notes": "Named only in third-party sweaty-hands guides. No manufacturer PDP or retailer buy page found. Absorption job covered by PRO perforated (Moisture Absorption)."
+        },
+        {
+          "name": "NOX PRO Overgrip (smooth / perforated / colors)",
+          "outcome": "CONFIRMED_CURRENT",
+          "suggested_id": "prod-nox-pro-overgrip",
+          "catalog": "yes",
+          "notes": "Official current overgrip family beyond Custom Grip; pack/finish variants collapse. Already cataloged."
+        }
+      ],
+      "evidence_summary": "Beyond Pro: only Custom Grip is a distinct current Nox grip SKU. Soft/H-Dri are not catalogable distinct products."
+    },
+    {
+      "queue_id": 25,
+      "queue_label": "Pro Elite / House Premium Perforated",
+      "outcome": "CONFIRMED_CURRENT",
+      "product_name_canonical": "Pro Elite Premium Perforated",
+      "brand": "Pro Elite",
+      "category": "grips/overgrip",
+      "manufacturer_url": null,
+      "retailer_urls": [
+        "https://www.padelmq.com/en-nl/products/pro-elite-premium-perforated-white-overgrip-buy-individually",
+        "https://www.padelmq.com/en/products/pro-elite-premium-perforated-white-30-overgrips",
+        "https://www.internationalpadelshop.com/grips-palas-de-padel-en/overgrips-pro-elite-premium-perforated-white-6-units-en"
+      ],
+      "NL_available": true,
+      "EU_available": true,
+      "catalog": "yes",
+      "suggested_kitletics_id": "prod-pro-elite-premium-perforated",
+      "duplicates": null,
+      "evidence_summary": "Brand identity is Pro Elite (EAN 8436613561768 on 6-pack). Heavily NL-facing via PadeLMQ (house/private-label channel) with Smooth sibling also listed. 0.6 mm PU perforated, sold individually and 6/30 packs. Commercially meaningful for NL price ladder — catalog as Pro Elite brand, not PadeLMQ."
+    },
+    {
+      "queue_id": 26,
+      "queue_label": "Siux Overgrip",
+      "outcome": "CONFIRMED_CURRENT",
+      "product_name_canonical": "Siux overgrip range (multiple models)",
+      "brand": "Siux",
+      "category": "grips/overgrip",
+      "manufacturer_url": "https://www.siuxpadel.com",
+      "retailer_urls": [
+        "https://siuxusa.com/products/pro-overgrip-perforated-x12",
+        "https://www.padelnuestro.com/int/overgrip-siux-pro-perforated-x60-white-105956-p",
+        "https://padelproshop.com/en-int/products/overgrip-siux-pro-comfort-plain-white-pack-x12",
+        "https://padelmania.com/en/padel-accesaios/30708-3-pack-blister-overgrip-siux-elite-black-siux-8436625200594.html"
+      ],
+      "NL_available": "limited",
+      "EU_available": true,
+      "catalog": "yes",
+      "suggested_kitletics_id": null,
+      "duplicates": null,
+      "distinct_models": [
+        {
+          "name": "Siux Pro Perforated",
+          "outcome": "CONFIRMED_CURRENT",
+          "suggested_id": "prod-siux-pro-perforated",
+          "catalog": "yes",
+          "notes": "Primary current Pro line; x3/x12/x60"
+        },
+        {
+          "name": "Siux Pro Comfort Plain",
+          "outcome": "CONFIRMED_CURRENT",
+          "suggested_id": "prod-siux-pro-comfort",
+          "catalog": "yes",
+          "notes": "Smooth comfort sibling"
+        },
+        {
+          "name": "Siux Elite",
+          "outcome": "CONFIRMED_CURRENT",
+          "suggested_id": "prod-siux-elite-overgrip",
+          "catalog": "yes",
+          "notes": "Black smooth 3-pack; already noted verified in inventory"
+        }
+      ],
+      "evidence_summary": "Current Siux overgrips resolve to Pro Perforated, Pro Comfort Plain, and Elite — not a single generic 'Siux Overgrip'."
+    },
+    {
+      "queue_id": 27,
+      "queue_label": "StarVie Overgrip (Tacky Touch, Premier Soft etc.)",
+      "outcome": "CONFIRMED_CURRENT",
+      "product_name_canonical": "StarVie overgrip range (Tacky Touch + Premier Soft)",
+      "brand": "StarVie",
+      "category": "grips/overgrip",
+      "manufacturer_url": "https://www.starvie.com",
+      "retailer_urls": [
+        "https://www.stringersworld.com/product/starvie-premier-soft-padel-overgrip-60-tub/",
+        "https://www.tradeinn.com/smashinn/en/star-vie-tacky-touch-padel-overgrip-25-units/142482937/p",
+        "https://www.padelkiwi.com/en-lt/products/starvie-overgrips-tacky-touch-box-25"
+      ],
+      "NL_available": "limited",
+      "EU_available": true,
+      "catalog": "yes",
+      "suggested_kitletics_id": null,
+      "duplicates": null,
+      "distinct_models": [
+        {
+          "name": "StarVie Tacky Touch",
+          "outcome": "CONFIRMED_CURRENT",
+          "suggested_id": "prod-starvie-tacky-touch",
+          "catalog": "yes",
+          "notes": "High-tack; box-25; already draft-seeded"
+        },
+        {
+          "name": "StarVie Premier Soft",
+          "outcome": "CONFIRMED_CURRENT",
+          "suggested_id": "prod-starvie-premier-soft",
+          "catalog": "yes",
+          "notes": "Smooth soft comfort; tub-60 (TG60 / GTIN 8402000000318)"
+        }
+      ],
+      "evidence_summary": "Two distinct current StarVie overgrip models: Tacky Touch (tack-first) and Premier Soft (comfort/soft). Pack sizes are offers not products."
+    }
+  ],
+  "normalized_other_needs_verify_like": [
+    {
+      "label": "Nox Luxury Pro Grip",
+      "outcome": "INSUFFICIENT_EVIDENCE",
+      "notes": "Buyer-guide name only; official overgrips are PRO smooth/perforated/colors. Do not catalog."
+    },
+    {
+      "label": "Adidas Metalbone Padel Bag (inventory probable)",
+      "outcome": "CONFIRMED_PREVIOUS",
+      "notes": "Metalbone is racket/collection branding; current bags are Control/Multigame/ProTour. Older Multigame Arena Metalbone packs are prior gen — prefer 2026 bag families."
+    },
+    {
+      "label": "Adidas Tour Padel Bag Bronze",
+      "outcome": "DUPLICATE",
+      "duplicates": "prod-adidas-protour-padel / Pro Tour Bronze naming",
+      "notes": "Retail 'Tour Bronze' aligns with Pro Tour Bronze 2026 racket bag — not a separate mid-line SKU."
+    },
+    {
+      "label": "Babolat Court / Ace",
+      "outcome": "CONFIRMED_CURRENT",
+      "notes": "Official current pressurized match balls; already cataloged Court. Ace is distinct current competition sibling if not yet seeded."
+    },
+    {
+      "label": "Varlion Summum Pro S",
+      "outcome": "CONFIRMED_CURRENT",
+      "suggested_id": "prod-varlion-summum-pro-s",
+      "notes": "Climate sibling to Pro W on official Varlion balls page — catalog if expanding Varlion balls."
+    }
+  ],
+  "summary_counts": {
+    "CONFIRMED_CURRENT": 18,
+    "CONFIRMED_PREVIOUS": 2,
+    "DISCONTINUED": 1,
+    "DUPLICATE": 1,
+    "COMMERCE_BUNDLE": 1,
+    "NOT_A_DISTINCT_PRODUCT": 0,
+    "rows_with_nested_not_distinct_or_insufficient": ["7 Cross It bag", "11 Short", "24 Soft Overgrip", "24 H-Dri"],
+    "catalog_yes_primary_new_seeds_priority": [
+      "prod-babolat-protecpro-2-0",
+      "prod-bullpadel-ball-basket",
+      "prod-siux-transparent-protector",
+      "prod-starvie-transparent-protector",
+      "prod-wilson-padel-guard",
+      "prod-babolat-rh-pro-juan-lebron",
+      "prod-siux-electra-stupa-paletero",
+      "prod-babolat-soft",
+      "prod-drop-shot-tournament-pro",
+      "prod-fila-premium-pro",
+      "prod-osaka-pro-tour",
+      "prod-osaka-vision",
+      "prod-pallap-competition-01",
+      "prod-prince-club",
+      "prod-pro-elite-premium-perforated",
+      "prod-siux-pro-perforated",
+      "prod-siux-pro-comfort",
+      "prod-starvie-premier-soft"
+    ]
+  }
+}

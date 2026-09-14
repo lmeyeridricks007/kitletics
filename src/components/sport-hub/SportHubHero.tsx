@@ -31,7 +31,7 @@ export function SportHubHero({
       <div className="absolute inset-0">
         <Image
           src={hero.imageSrc}
-          alt=""
+          alt={hero.imageAlt}
           fill
           priority
           sizes="100vw"

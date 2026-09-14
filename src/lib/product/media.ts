@@ -1,48 +1,39 @@
 import type { Product } from "@/domain/products/types";
 import type { MediaAsset } from "@/domain/shared/types";
 import { getRunningProductHeroMedia } from "@/content/running/product-media";
-import { isLogoOrWordmarkMedia } from "@/lib/product/logo-media";
+import { isAuthenticProductMedia } from "@/lib/product/media-authentic";
+import {
+  isPadelCatalogProduct,
+  isPadelMediaVerified,
+} from "@/lib/product/media-identity";
 
-/** True when media is a real product photograph (not Kitletics illustration / SVG fallback / brand logo). */
-export function isAuthenticProductMedia(
-  media: MediaAsset | undefined | null,
-): boolean {
-  if (!media?.src) return false;
-  if (media.src.includes("/fallbacks/")) return false;
-  if (media.src.endsWith(".svg")) return false;
-  if (media.licence === "kitletics-owned") return false;
-  if (isLogoOrWordmarkMedia(media)) return false;
-  if (
-    media.attribution?.toLowerCase().includes("not a product photograph") ||
-    media.attribution?.toLowerCase().includes("illustration")
-  ) {
-    return false;
-  }
-  return (
-    media.src.includes("-hero.") ||
-    media.licence === "manufacturer-marketing" ||
-    media.licence === "retailer-authorized" ||
-    Boolean(media.sourceUrl)
-  );
-}
+export { isAuthenticProductMedia } from "@/lib/product/media-authentic";
 
 /**
  * Canonical primary product image for cards, rails, comparisons, search.
  * Prefers licensed running hero media, then authentic product.images[0].
  * Returns undefined when only placeholders exist — callers must show Image unavailable.
+ *
+ * Padel: never returns another product's hero. Exact-product MEDIA_VERIFIED only.
  */
 export function getPrimaryProductMedia(
   product: Product,
 ): MediaAsset | undefined {
   const fromRegistry = getRunningProductHeroMedia(product.id, product.fullName);
-  if (fromRegistry?.[0] && isAuthenticProductMedia(fromRegistry[0])) {
-    return fromRegistry[0];
+  const registryHit =
+    fromRegistry?.[0] && isAuthenticProductMedia(fromRegistry[0])
+      ? fromRegistry[0]
+      : undefined;
+  const primary = product.images[0];
+  const primaryHit = isAuthenticProductMedia(primary) ? primary : undefined;
+  const candidate = registryHit ?? primaryHit;
+  if (!candidate) return undefined;
+
+  if (isPadelCatalogProduct(product)) {
+    if (!isPadelMediaVerified(product, candidate)) return undefined;
   }
 
-  const primary = product.images[0];
-  if (isAuthenticProductMedia(primary)) return primary;
-
-  return undefined;
+  return candidate;
 }
 
 /**

@@ -12,3 +12,4 @@ export { runningDensityConfigs } from "./running-density-plans";
 export { runningFuelRecoveryConfigs } from "./running-fuel-recovery-plans";
 export { hyroxConfigs } from "./hyrox-plans";
 export { racketConfigs } from "./racket-plans";
+export { padelKnowledgeConfigs } from "./padel-knowledge-plans";

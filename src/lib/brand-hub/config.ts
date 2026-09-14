@@ -1,5 +1,6 @@
 import type { BrandHubConfig } from "@/lib/brand-hub/types";
 import { brandHubP56Configs } from "@/content/brand-hub-p56-editorial";
+import { padelBrandHubConfigs } from "@/lib/brand-hub/padel-brand-configs";
 
 export const asicsBrandHubConfig: BrandHubConfig = {
   brandSlug: "asics",
@@ -327,6 +328,7 @@ const CONFIGS: Record<string, BrandHubConfig> = {
   adidas: adidasBrandHubConfig,
   tecnifibre: tecnifibreBrandHubConfig,
   ...brandHubP56Configs,
+  ...padelBrandHubConfigs,
 };
 
 export function getBrandHubConfig(brandSlug: string): BrandHubConfig | undefined {

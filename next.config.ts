@@ -106,6 +106,21 @@ const nextConfig: NextConfig = {
         permanent: true,
       },
       {
+        source: "/products/adidas-courtstabil-padel",
+        destination: "/products/adidas-courtquick-padel",
+        permanent: true,
+      },
+      {
+        source: "/products/adidas-courtstabil-padel/alternatives",
+        destination: "/products/adidas-courtquick-padel/alternatives",
+        permanent: true,
+      },
+      {
+        source: "/reviews/adidas-courtstabil-padel",
+        destination: "/reviews/adidas-courtquick-padel",
+        permanent: true,
+      },
+      {
         source: "/finders",
         destination: "/tools?type=finder",
         permanent: false,

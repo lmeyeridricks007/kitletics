@@ -25,7 +25,7 @@ export interface VerticalSportPolicy {
  * Update here when opening fitness / racket / etc. — do not scatter flags.
  */
 export const verticalLaunchStrategy = {
-  asOf: "2026-09-06",
+  asOf: "2026-09-13",
   /** Sports not listed inherit defaultMode */
   defaultMode: "disabled" as VerticalLaunchMode,
   sports: [
@@ -57,8 +57,24 @@ export const verticalLaunchStrategy = {
     {
       sportId: "sport-padel",
       slug: "padel",
-      mode: "disabled",
-      notes: "Racket vertical held",
+      mode: "selective",
+      /**
+       * Public padel experience — deep kinds may index when quality gates pass.
+       * Tennis / pickleball / badminton / squash remain disabled.
+       */
+      indexableKinds: [
+        "sport",
+        "product",
+        "review",
+        "best-guide",
+        "buying-guide",
+        "comparison",
+        "tool",
+        "setup",
+        "alternatives",
+      ],
+      notes:
+        "Padel hub + catalog live 2026-09-13; quality/eligibility still gate each entity. Soft goods stay thin.",
     },
     {
       sportId: "sport-tennis",

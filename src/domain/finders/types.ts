@@ -155,6 +155,10 @@ export interface FinderNormalizedProfile {
   currentEquipmentId?: string;
   /** What the user wants to change vs current equipment */
   changeGoals?: string[];
+  /** Padel — court side preference (soft signal) */
+  courtPosition?: string;
+  /** Padel — arm/elbow comfort is a hard priority */
+  armComfortPriority?: boolean;
 }
 
 export type FactorConfidence =

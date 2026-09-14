@@ -87,6 +87,11 @@ export function ProductDetailPage({ data }: { data: ProductPageData }) {
     heroTags,
     quickFacts,
     variants,
+    padelEditorial,
+    padelSoftEditorial,
+    notIdealFor,
+    buyIf,
+    skipIf,
   } = data;
 
   const detailConfig = getProductDetailConfig(product.categoryId);
@@ -129,6 +134,10 @@ export function ProductDetailPage({ data }: { data: ProductPageData }) {
 
   const anchorItems = [
     { id: "overview", label: "Overview" },
+    padelEditorial ? { id: "how-it-plays", label: "How it plays" } : null,
+    padelSoftEditorial && !padelEditorial
+      ? { id: "how-to-choose", label: "How to choose" }
+      : null,
     featuredSpecs.length > 0 || specGroups.length > 0
       ? { id: "specs", label: "Specs" }
       : null,
@@ -521,17 +530,222 @@ export function ProductDetailPage({ data }: { data: ProductPageData }) {
           )}
         </section>
 
+        {padelEditorial && (
+          <section
+            id="how-it-plays"
+            className="scroll-mt-[calc(var(--site-chrome-height)+3.25rem)] space-y-6"
+          >
+            <h2 className="heading-section">How to think about this racket</h2>
+            <div className="grid gap-4 md:grid-cols-2">
+              {(
+                [
+                  ["What it is", padelEditorial.whatItIs],
+                  ["Who it's for", padelEditorial.whoItsFor],
+                  ["How it plays", padelEditorial.howItPlays],
+                  ["Power vs control", padelEditorial.powerVsControl],
+                  ["Handling", padelEditorial.handling],
+                  ["Comfort", padelEditorial.comfort],
+                  ["Sweet spot / forgiveness", padelEditorial.forgiveness],
+                  ["Materials", padelEditorial.construction],
+                ] as const
+              ).map(([title, body]) => (
+                <div
+                  key={title}
+                  className="rounded-lg border border-border bg-white p-4 sm:p-5"
+                >
+                  <h3 className="text-[13px] font-bold text-foreground">
+                    {title}
+                  </h3>
+                  <p className="mt-2 text-[14px] leading-relaxed text-muted">
+                    {body}
+                  </p>
+                </div>
+              ))}
+            </div>
+            {(buyIf.length > 0 || skipIf.length > 0) && (
+              <div className="grid gap-4 md:grid-cols-2">
+                {buyIf.length > 0 && (
+                  <div className="rounded-lg border border-border bg-white p-4 sm:p-5">
+                    <h3 className="text-[13px] font-bold text-foreground">
+                      Buy if
+                    </h3>
+                    <ul className="mt-3 space-y-2">
+                      {buyIf.map((line) => (
+                        <li
+                          key={line}
+                          className="flex gap-2 text-[13px] text-foreground"
+                        >
+                          <Check
+                            className="mt-0.5 size-4 shrink-0 text-accent"
+                            strokeWidth={2.5}
+                          />
+                          <span>{line}</span>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                )}
+                {skipIf.length > 0 && (
+                  <div className="rounded-lg border border-border bg-white p-4 sm:p-5">
+                    <h3 className="text-[13px] font-bold text-foreground">
+                      Skip if
+                    </h3>
+                    <ul className="mt-3 space-y-2">
+                      {skipIf.map((line) => (
+                        <li
+                          key={line}
+                          className="flex gap-2 text-[13px] text-foreground"
+                        >
+                          <span className="mt-0.5 flex size-3.5 shrink-0 items-center justify-center rounded-full bg-red-500/15 text-red-600">
+                            <X className="size-2.5" strokeWidth={3} />
+                          </span>
+                          <span>{line}</span>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                )}
+              </div>
+            )}
+            {notIdealFor.length > 0 && (
+              <p className="text-[13px] text-muted">
+                Not ideal for: {notIdealFor.join(" · ")}
+              </p>
+            )}
+          </section>
+        )}
+
+        {padelSoftEditorial && !padelEditorial && (
+          <section
+            id="how-to-choose"
+            className="scroll-mt-[calc(var(--site-chrome-height)+3.25rem)] space-y-6"
+          >
+            <h2 className="heading-section">
+              {padelSoftEditorial.category === "shoes"
+                ? "How to think about this shoe"
+                : padelSoftEditorial.category === "balls"
+                  ? "How to think about this ball"
+                  : padelSoftEditorial.category === "bags"
+                    ? "How to think about this bag"
+                    : padelSoftEditorial.category === "grips"
+                      ? "How to think about this grip"
+                      : "How to think about this accessory"}
+            </h2>
+            <div className="grid gap-4 md:grid-cols-2">
+              {(
+                [
+                  ["What it is", padelSoftEditorial.whatItIs],
+                  ["Who it's for", padelSoftEditorial.whoItsFor],
+                  ["Why choose it", padelSoftEditorial.whyChooseIt],
+                  ["What to pick instead", padelSoftEditorial.chooseInstead],
+                  ...padelSoftEditorial.topicBlocks.map(
+                    (b) => [b.title, b.body] as [string, string],
+                  ),
+                ] as const
+              ).map(([title, body]) => (
+                <div
+                  key={title}
+                  className="rounded-lg border border-border bg-white p-4 sm:p-5"
+                >
+                  <h3 className="text-[13px] font-bold text-foreground">
+                    {title}
+                  </h3>
+                  <p className="mt-2 text-[14px] leading-relaxed text-muted">
+                    {body}
+                  </p>
+                </div>
+              ))}
+            </div>
+            {padelSoftEditorial.strengthsNarrative.length > 0 && (
+              <div className="rounded-lg border border-border bg-white p-4 sm:p-5">
+                <h3 className="text-[13px] font-bold text-foreground">
+                  Meaningful strengths
+                </h3>
+                <ul className="mt-3 list-disc space-y-1 pl-5 text-[13px] text-muted">
+                  {padelSoftEditorial.strengthsNarrative.map((line) => (
+                    <li key={line}>{line}</li>
+                  ))}
+                </ul>
+              </div>
+            )}
+            {padelSoftEditorial.tradeoffsNarrative.length > 0 && (
+              <div className="rounded-lg border border-border bg-white p-4 sm:p-5">
+                <h3 className="text-[13px] font-bold text-foreground">
+                  Trade-offs that matter
+                </h3>
+                <ul className="mt-3 list-disc space-y-1 pl-5 text-[13px] text-muted">
+                  {padelSoftEditorial.tradeoffsNarrative.map((line) => (
+                    <li key={line}>{line}</li>
+                  ))}
+                </ul>
+              </div>
+            )}
+            {(buyIf.length > 0 || skipIf.length > 0) && (
+              <div className="grid gap-4 md:grid-cols-2">
+                {buyIf.length > 0 && (
+                  <div className="rounded-lg border border-border bg-white p-4 sm:p-5">
+                    <h3 className="text-[13px] font-bold text-foreground">
+                      Buy if
+                    </h3>
+                    <ul className="mt-3 space-y-2">
+                      {buyIf.map((line) => (
+                        <li
+                          key={line}
+                          className="flex gap-2 text-[13px] text-foreground"
+                        >
+                          <Check
+                            className="mt-0.5 size-4 shrink-0 text-accent"
+                            strokeWidth={2.5}
+                          />
+                          <span>{line}</span>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                )}
+                {skipIf.length > 0 && (
+                  <div className="rounded-lg border border-border bg-white p-4 sm:p-5">
+                    <h3 className="text-[13px] font-bold text-foreground">
+                      Skip if
+                    </h3>
+                    <ul className="mt-3 space-y-2">
+                      {skipIf.map((line) => (
+                        <li
+                          key={line}
+                          className="flex gap-2 text-[13px] text-foreground"
+                        >
+                          <span className="mt-0.5 flex size-3.5 shrink-0 items-center justify-center rounded-full bg-red-500/15 text-red-600">
+                            <X className="size-2.5" strokeWidth={3} />
+                          </span>
+                          <span>{line}</span>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                )}
+              </div>
+            )}
+            {notIdealFor.length > 0 && (
+              <p className="text-[13px] text-muted">
+                Not ideal for: {notIdealFor.join(" · ")}
+              </p>
+            )}
+          </section>
+        )}
+
         {/* Performance / Pros / Tech */}
         <section
           id="performance"
           className="scroll-mt-[calc(var(--site-chrome-height)+3.25rem)] grid gap-4 lg:grid-cols-3"
         >
-          {factors.length > 0 && score !== undefined && (
+          {factors.length > 0 && (score !== undefined || padelEditorial) && (
             <div className="rounded-lg border border-border bg-white p-4 sm:p-5">
               <h2 className="heading-section">
                 {hasPersonalTest
                   ? "Test results"
-                  : detailConfig.performanceSectionTitle}
+                  : padelEditorial
+                    ? "How it decides"
+                    : detailConfig.performanceSectionTitle}
               </h2>
               <ul className="mt-4 space-y-2.5">
                 {factors.map((f) => (
@@ -548,12 +762,24 @@ export function ProductDetailPage({ data }: { data: ProductPageData }) {
                         style={{ width: `${Math.min(100, f.score)}%` }}
                       />
                     </div>
+                    {f.explanation ? (
+                      <p className="mt-1 text-[11px] leading-snug text-muted">
+                        {f.explanation}
+                      </p>
+                    ) : null}
                   </li>
                 ))}
               </ul>
-              <p className="mt-4 inline-flex rounded-md bg-accent px-2.5 py-1.5 text-[12px] font-bold text-accent-foreground">
-                Overall score: {displayScore(score)}
-              </p>
+              {score !== undefined ? (
+                <p className="mt-4 inline-flex rounded-md bg-accent px-2.5 py-1.5 text-[12px] font-bold text-accent-foreground">
+                  Overall score: {displayScore(score)}
+                </p>
+              ) : (
+                <p className="mt-4 text-[11px] leading-snug text-muted">
+                  These are explainable buying attributes with source type, not
+                  laboratory measurements or a Kitletics overall score.
+                </p>
+              )}
             </div>
           )}
 

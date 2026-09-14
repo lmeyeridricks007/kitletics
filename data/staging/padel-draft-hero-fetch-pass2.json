@@ -1,0 +1,260 @@
+[
+  {
+    "id": "prod-bullpadel-hack-04-comfort",
+    "dest": "bullpadel-hack-04-comfort-hero.jpg",
+    "page": "https://www.zonadepadel.es/bullpadel/13555-bullpadel-hack-04-comfort-2026.html",
+    "status": "READY_REVIEW",
+    "imageUrl": "https://www.zonadepadel.es/27761-zdp_customer/bullpadel-hack-04-comfort-2026.jpg",
+    "width": 900,
+    "height": 900,
+    "bytes": 66806
+  },
+  {
+    "id": "prod-bullpadel-neuron-02-edge",
+    "dest": "bullpadel-neuron-02-edge-hero.jpg",
+    "page": "https://www.zonadepadel.com/bullpadel/13558-bullpadel-neuron-02-edge-2026.html",
+    "status": "READY_REVIEW",
+    "imageUrl": "https://www.zonadepadel.com/27772-zdp_customer/bullpadel-neuron-02-edge-2026.jpg",
+    "width": 900,
+    "height": 900,
+    "bytes": 79640
+  },
+  {
+    "id": "prod-bullpadel-xplo",
+    "dest": "bullpadel-xplo-hero.jpg",
+    "page": "https://www.zonadepadel.com/bullpadel/13559-bullpadel-xplo-2026.html",
+    "status": "READY_REVIEW",
+    "imageUrl": "https://www.zonadepadel.com/27775-zdp_customer/bullpadel-xplo-2026.jpg",
+    "width": 900,
+    "height": 900,
+    "bytes": 91782
+  },
+  {
+    "id": "prod-bullpadel-xplo-comfort",
+    "dest": "bullpadel-xplo-comfort-hero.jpg",
+    "page": "https://www.zonadepadel.es/bullpadel/13560-bullpadel-xplo-comfort-2026.html",
+    "status": "READY_REVIEW",
+    "imageUrl": "https://www.zonadepadel.es/27779-zdp_customer/bullpadel-xplo-comfort-2026.jpg",
+    "width": 900,
+    "height": 900,
+    "bytes": 63851
+  },
+  {
+    "id": "prod-bullpadel-ionic-light",
+    "dest": "bullpadel-ionic-light-hero.jpg",
+    "page": "https://www.zonadepadel.com/bullpadel/13575-bullpadel-ionic-light-2026.html",
+    "status": "READY_REVIEW",
+    "imageUrl": "https://www.zonadepadel.com/28634-zdp_customer/bullpadel-ionic-light-2026.jpg",
+    "width": 900,
+    "height": 900,
+    "bytes": 80345
+  },
+  {
+    "id": "prod-bullpadel-vertex-advance",
+    "dest": "bullpadel-vertex-advance-hero.jpg",
+    "page": "https://www.zonadepadel.com/bullpadel/14397-bullpadel-vertex-advance-2026.html",
+    "status": "READY_REVIEW",
+    "imageUrl": "https://www.zonadepadel.com/29910-zdp_customer/bullpadel-vertex-advance-2026.jpg",
+    "width": 900,
+    "height": 900,
+    "bytes": 76567
+  },
+  {
+    "id": "prod-adidas-metalbone-3-3-2026",
+    "dest": "adidas-metalbone-3-3-hero.jpg",
+    "page": "https://www.zonadepadel.com/adidas-padel/9362-adidas-metalbone-33.html",
+    "status": "READY_REVIEW",
+    "imageUrl": "https://www.zonadepadel.com/16817-zdp_customer/adidas-metalbone-33.jpg",
+    "width": 900,
+    "height": 900,
+    "bytes": 67939
+  },
+  {
+    "id": "prod-head-gravity-pro",
+    "dest": "head-gravity-pro-hero.jpg",
+    "page": "https://www.padelreference.com/en/padel-rackets/p/head-gravity-pro-2024",
+    "status": "READY_REVIEW",
+    "imageUrl": "https://www.padelreference.com/storage/10576/yYat6gjXpwQuaztfz5D7jIkbzYLDQo-metaMjI0MDA0X0dyYXZpdHkgUHJvIDIwMjRfMl8xLnBuZw%3D%3D-.webp",
+    "width": 1200,
+    "height": 1200,
+    "bytes": 77650
+  },
+  {
+    "id": "prod-head-gravity-motion",
+    "dest": "head-gravity-motion-hero.jpg",
+    "page": "https://www.padelreference.com/en/padel-rackets/p/head-gravity-motion-2024",
+    "status": "COLLISION",
+    "imageUrl": "https://www.padelreference.com/storage/10581/F0VNQM7BvkzP4U8HJ7Sh95sC4uMfCk-metaMjI0MDE0X0dyYXZpdHkgTW90aW9uIDIwMjRfMl8xLnBuZw%3D%3D-.webp",
+    "uniqueJpegError": "shared-hero hash collision for prod-head-gravity-motion-jpeg: same bytes as /images/padel/products/_draft-review/head-gravity-pro-hero.jpg",
+    "width": 1200,
+    "height": 1200,
+    "bytes": 74618
+  },
+  {
+    "id": "prod-head-coello-team",
+    "dest": "head-coello-team-hero.jpg",
+    "page": "https://www.padelreference.com/en/raquettes-de-padel/p/head-coello-team-2026",
+    "status": "COLLISION",
+    "imageUrl": "https://www.padelreference.com/storage/22260/ioncCgSenppyBT8Aiad5rlghmeVVhp-metaMS5wbmc%3D-.webp",
+    "uniqueJpegError": "shared-hero hash collision for prod-head-coello-team-jpeg: same bytes as /images/padel/products/_draft-review/head-coello-motion-hero.jpg",
+    "width": 600,
+    "height": 600,
+    "bytes": 30512
+  },
+  {
+    "id": "prod-head-coello-motion",
+    "dest": "head-coello-motion-hero.jpg",
+    "page": "https://padelusa.com/products/head-coello-motion-2026-padel-racket",
+    "status": "READY_REVIEW",
+    "pageStatus": 200,
+    "candidates": [
+      "https://padelusa.com/cdn/shop/files/Head-Coello_Motion_2026_Padel_Racket_PadelUSA_store_1.webp?v=1770669574",
+      "https://padelusa.com/cdn/shop/files/Head-Coello_Motion_2026_Padel_Racket_PadelUSA_store_1_grande.webp?v=1770669574",
+      "https://padelusa.com/cdn/shop/files/padel_usa_line_black_bc6e2cfa-8851-4185-a2fc-7ab6f6985daa.png?v=1752220516\\u0026width=500",
+      "https://padelusa.com/cdn/shop/files/Head-Coello_Motion_2026_Padel_Racket_PadelUSA_store_1.webp?v=1770669574\\u0026width=1400",
+      "https://padelusa.com/cdn/shop/files/Head-Coello_Motion_2026_Padel_Racket_PadelUSA_store_2.webp?v=1770669607\\u0026width=1400",
+      "https://padelusa.com/cdn/shop/files/Head-Coello_Motion_2026_Padel_Racket_PadelUSA_store_3.webp?v=1770669574\\u0026width=1400",
+      "https://padelusa.com/cdn/shop/files/Head-Coello_Motion_2026_Padel_Racket_PadelUSA_store_4.webp?v=1770669574\\u0026width=1400",
+      "https://padelusa.com/cdn/shop/files/Head-Coello_Motion_2026_Padel_Racket_PadelUSA_store_5.webp?v=1770669574\\u0026width=1400",
+      "https://padelusa.com/cdn/shop/files/padel_usa_line_black_bc6e2cfa-8851-4185-a2fc-7ab6f6985daa.png?height=30&v=1752220516",
+      "https://padelusa.com/cdn/shop/files/Babolat-Jet-Movea-2-Padel-Men_s-Shoes-2025-PadelUSA-1.webp?v=1755885962&width=800"
+    ],
+    "imageUrl": "https://padelusa.com/cdn/shop/files/Head-Coello_Motion_2026_Padel_Racket_PadelUSA_store_1.webp?v=1770669574",
+    "width": 1200,
+    "height": 1200,
+    "bytes": 75990
+  },
+  {
+    "id": "prod-head-one-ultralight",
+    "dest": "head-one-ultralight-hero.jpg",
+    "page": "https://www.padelreference.com/en/padel-rackets/p/head-one-ultralight-black-2025",
+    "status": "READY_REVIEW",
+    "pageStatus": 200,
+    "candidates": [
+      "https://www.padelreference.com/storage/11297/DgQkREz63XgXNRyQuMlIGGVIwPo1yF-metaNjcucG5n-.webp",
+      "https://www.padelreference.com/storage/11298/KoqR497bsqSM4ZVRPE2Bf6gALKL1a0-metaNjgucG5n-.webp",
+      "https://www.padelreference.com/img/favicon.png",
+      "https://www.padelreference.com/storage/15993/5cHcZtXb7NOY3TZMjwBkhVIgHwEeww-metacmcucG5n-.webp",
+      "https://www.padelreference.com/storage/767/surgrip-padel-reference-blanc.webp",
+      "https://www.padelreference.com/storage/20919/pZKBwMDCGxvPc2Uy59QnfJb03gVGAY-metaR2VtaW5pX0dlbmVyYXRlZF9JbWFnZV90ZGI4ZHRkYjhkdGRiOGR0LnBuZw%3D%3D-.webp",
+      "https://www.padelreference.com/storage/11292/X4PqN2YrX3x0czeqV2hdqpfoykdVri-metaNjMucG5n-.webp",
+      "https://www.padelreference.com/storage/24210/J5LeG1tDZzSxYy8POtUUvioP0bDg9o-metaRGVzaWduIHNhbnMgdGl0cmUucG5n-.webp",
+      "https://www.padelreference.com/storage/13955/fwYiNOVUYJ6GRLp4wblQTON1kQluOQ-metaVmlzdWVscyByYXF1ZXR0ZXMuanBn-.webp",
+      "https://www.padelreference.com/storage/750/4-on-total-grip-spray-.webp"
+    ],
+    "imageUrl": "https://www.padelreference.com/storage/11297/DgQkREz63XgXNRyQuMlIGGVIwPo1yF-metaNjcucG5n-.webp",
+    "width": 500,
+    "height": 500,
+    "bytes": 14706
+  },
+  {
+    "id": "prod-bullpadel-indiga-ctr",
+    "dest": "bullpadel-indiga-ctr-hero.jpg",
+    "page": "https://padelmarket.com/en/products/bullpadel-indiga-ctr-2026-racket-1",
+    "status": "READY_REVIEW",
+    "pageStatus": 200,
+    "candidates": [
+      "https://padelmarket.com/cdn/shop/files/PalaBullpadelIndigaCTR2026_1.jpg?v=1759479301",
+      "https://padelmarket.com/cdn/shop/files/PalaBullpadelIndigaCTR2026_1_grande.jpg?v=1759479301",
+      "http://pinterest.com/pin/create/link/?url=https://padelmarket.com/en/products/bullpadel-indiga-ctr-2026-racket-1&media=//padelmarket.com/cdn/shop/files/PalaBullpadelIndigaCTR2026_1.jpg?crop=center&height=1024&v=1759479301&width=1024&description=Bullpadel%20Indiga%20CTR%202026%20Racket",
+      "https://cdn.shopify.com/s/files/1/0646/3671/5163/files/PalaBullpadelIndigaCTR2026_1.jpg?v=1759479301",
+      "https://cdn.shopify.com/s/files/1/0286/0892/1660/products/globo-logo-center.png?v=1618467872",
+      "https://cdn.shopify.com/s/files/1/0286/0892/1660/products/globo-logo-left.png?v=1618468454",
+      "https://cdn.shopify.com/s/files/1/0286/0892/1660/products/globo-logo-right.png?v=1618468450",
+      "https://padelmarket.com/cdn/shop/files/logo_padelmarket_1.png?v=1773329268\\u0026width=1353",
+      "https://padelmarket.com/cdn/shop/files/PalaBullpadelIndigaCTR2026_1.jpg?v=1759479301\\u0026width=1920",
+      "https://padelmarket.com/cdn/shop/files/PALAS.png?v=1788943067&width=360"
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0646/3671/5163/files/PalaBullpadelIndigaCTR2026_1.jpg?v=1759479301",
+    "width": 1000,
+    "height": 1000,
+    "bytes": 55489
+  },
+  {
+    "id": "prod-bullpadel-indiga-ctr-alt",
+    "dest": "bullpadel-indiga-ctr-hero.jpg",
+    "page": "https://www.padelreference.com/en/padel-rackets/p/bullpadel-indiga-ctr-26",
+    "status": "READY_REVIEW",
+    "pageStatus": 200,
+    "candidates": [
+      "https://www.padelreference.com/storage/20320/48WrYSzZ79xIerUtyK2fMvRLwgTjwV-metacmFxdWV0dGUtcGFkZWwtYnVsbHBhZGVsLWluZGlnYS1jdHItMjAyNi5qcGc%3D-.webp",
+      "https://www.padelreference.com/storage/20321/1GcrmDvMZG4gE6zUYs37Ejkg3BIoJ5-metacmFxdWV0dGUtcGFkZWwtYnVsbHBhZGVsLWluZGlnYS1jdHItMjAyNi1jb3RlLmpwZw%3D%3D-.webp",
+      "https://www.padelreference.com/img/favicon.png",
+      "https://www.padelreference.com/storage/15993/5cHcZtXb7NOY3TZMjwBkhVIgHwEeww-metacmcucG5n-.webp",
+      "https://www.padelreference.com/storage/767/surgrip-padel-reference-blanc.webp",
+      "https://www.padelreference.com/storage/20919/pZKBwMDCGxvPc2Uy59QnfJb03gVGAY-metaR2VtaW5pX0dlbmVyYXRlZF9JbWFnZV90ZGI4ZHRkYjhkdGRiOGR0LnBuZw%3D%3D-.webp",
+      "https://www.padelreference.com/storage/11292/X4PqN2YrX3x0czeqV2hdqpfoykdVri-metaNjMucG5n-.webp",
+      "https://www.padelreference.com/storage/24210/J5LeG1tDZzSxYy8POtUUvioP0bDg9o-metaRGVzaWduIHNhbnMgdGl0cmUucG5n-.webp",
+      "https://www.padelreference.com/storage/13955/fwYiNOVUYJ6GRLp4wblQTON1kQluOQ-metaVmlzdWVscyByYXF1ZXR0ZXMuanBn-.webp",
+      "https://www.padelreference.com/storage/750/4-on-total-grip-spray-.webp"
+    ],
+    "imageUrl": "https://www.padelreference.com/storage/20320/48WrYSzZ79xIerUtyK2fMvRLwgTjwV-metacmFxdWV0dGUtcGFkZWwtYnVsbHBhZGVsLWluZGlnYS1jdHItMjAyNi5qcGc%3D-.webp",
+    "width": 800,
+    "height": 800,
+    "bytes": 39948
+  },
+  {
+    "id": "prod-kuikma-pr-hybrid-carbon",
+    "dest": "kuikma-pr-hybrid-carbon-hero.jpg",
+    "page": "https://en.decathlon.com.sa/search?q=kuikma%20hybrid%20carbon",
+    "status": "READY_REVIEW",
+    "pageStatus": 200,
+    "candidates": [
+      "https://en.decathlon.com.sa/cdn/shop/t/17/assets/logo.png?v=180814178483981050711782724378",
+      "https://en.decathlon.com.sa/cdn/shop/files/pic_d69b6aa9-0b19-4919-bb06-e40847617f88.jpg?v=1789265274&width=1100",
+      "https://en.decathlon.com.sa/cdn/shop/files/pic_f27b7b80-cbd0-422e-aca8-00799abb9fd4.jpg?v=1789265274&width=1100",
+      "https://en.decathlon.com.sa/cdn/shop/files/pic_d2fb2455-2a57-47a0-9e31-94073eb0ff8f.jpg?v=1789263583&width=1100",
+      "https://en.decathlon.com.sa/cdn/shop/files/pic_e5777a25-6deb-462c-a48c-6334f39f3c9a.jpg?v=1789263583&width=1100",
+      "https://en.decathlon.com.sa/cdn/shop/files/pic_b673c69e-41f8-4575-a39c-ed9991cdf75d.jpg?v=1789266988&width=1100",
+      "https://en.decathlon.com.sa/cdn/shop/files/pic_63042189-fba1-42e0-bd1f-44fb93831b45.jpg?v=1789266988&width=1100",
+      "https://en.decathlon.com.sa/cdn/shop/files/pic_5f6db4bb-58c5-4068-9062-e647cd748fcb.jpg?v=1789263592&width=1100",
+      "https://en.decathlon.com.sa/cdn/shop/files/pic_4fb79a7a-15ac-4d99-a419-d86646be20a8.jpg?v=1789263592&width=1100",
+      "https://en.decathlon.com.sa/cdn/shop/files/pic_d9585996-0df7-4e70-80e7-b9fb5d09c911.jpg?v=1789263324&width=1100"
+    ],
+    "imageUrl": "https://en.decathlon.com.sa/cdn/shop/files/pic_d69b6aa9-0b19-4919-bb06-e40847617f88.jpg?v=1789265274&width=1100",
+    "width": 1100,
+    "height": 1100,
+    "bytes": 85925
+  },
+  {
+    "id": "prod-kuikma-pr-soft-500",
+    "dest": "kuikma-pr-soft-500-hero.jpg",
+    "page": "https://en.decathlon.com.sa/search?q=kuikma%20pr%20soft",
+    "status": "READY_REVIEW",
+    "pageStatus": 200,
+    "candidates": [
+      "https://en.decathlon.com.sa/cdn/shop/t/17/assets/logo.png?v=180814178483981050711782724378",
+      "https://en.decathlon.com.sa/cdn/shop/files/pic_46ffb3cb-32e4-4e7b-9bd7-a740502e7083.jpg?v=1789264203&width=1100",
+      "https://en.decathlon.com.sa/cdn/shop/files/pic_66c632a5-8845-45f1-864b-bf03e00b7d99.jpg?v=1789264203&width=1100",
+      "https://en.decathlon.com.sa/cdn/shop/files/pic_17077611-d376-4242-9711-308b89efd521.jpg?v=1789263802&width=1100",
+      "https://en.decathlon.com.sa/cdn/shop/files/pic_034fef99-7815-4277-ab17-37ac98c0ad79.jpg?v=1789263802&width=1100",
+      "https://en.decathlon.com.sa/cdn/shop/files/pic_f112f102-6869-4c73-b261-3958daaa2477.jpg?v=1789266000&width=1100",
+      "https://en.decathlon.com.sa/cdn/shop/files/pic_0f340a5c-986f-4b32-b52d-6a4d21005253.jpg?v=1789266000&width=1100",
+      "https://en.decathlon.com.sa/cdn/shop/files/pic_fe82f1be-5974-45f4-abf8-85f7dc525db4.jpg?v=1789264749&width=1100",
+      "https://en.decathlon.com.sa/cdn/shop/files/pic_5df9f01c-a350-4a6e-841e-df9c0364f53a.jpg?v=1789264748&width=1100",
+      "https://en.decathlon.com.sa/cdn/shop/files/pic_df9e577d-5aa8-4b32-ab7e-b669483bfa35.jpg?v=1789265647&width=1100"
+    ],
+    "imageUrl": "https://en.decathlon.com.sa/cdn/shop/files/pic_46ffb3cb-32e4-4e7b-9bd7-a740502e7083.jpg?v=1789264203&width=1100",
+    "width": 1100,
+    "height": 1100,
+    "bytes": 70321
+  },
+  {
+    "id": "prod-black-crown-special-one-soft",
+    "dest": "black-crown-special-one-soft-hero.jpg",
+    "page": "https://www.padelnuestro.com/int/search?q=special+one+soft",
+    "status": "BLOCKED",
+    "pageStatus": 404,
+    "error": "page HTTP 404"
+  },
+  {
+    "id": "prod-nox-at10-attack-12k-alt",
+    "dest": "nox-at10-genius-attack-12k-2026-alt.jpg",
+    "page": "https://www.zonadepadel.com/nox/13772-nox-at10-luxury-genius-attack-12k-alum-xtrem-2026.html",
+    "status": "READY_REVIEW",
+    "imageUrl": "https://www.zonadepadel.com/27991-large_default/nox-at10-luxury-genius-attack-12k-alum-xtrem-2026.jpg",
+    "width": 800,
+    "height": 800,
+    "bytes": 41194
+  }
+]

@@ -140,17 +140,13 @@ const CATEGORY_FEATURE_DEFS: Record<
       id: "control",
       label: "Control",
       value: "control",
-      match: (p) =>
-        p.specifications?.playStyle === "control" ||
-        p.specifications?.balance === "head-light",
+      match: (p) => p.useCaseIds.includes("uc-padel-control"),
     },
     {
       id: "power",
       label: "Power",
       value: "power",
-      match: (p) =>
-        p.specifications?.playStyle === "power" ||
-        p.specifications?.balance === "head-heavy",
+      match: (p) => p.useCaseIds.includes("uc-padel-power"),
     },
   ],
 };

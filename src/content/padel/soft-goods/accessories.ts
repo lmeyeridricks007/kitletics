@@ -1,0 +1,225 @@
+import type { SoftDraft } from "@/content/padel/soft-goods/build";
+
+export function accessoryDrafts(): SoftDraft[] {
+  return [
+    {
+      id: "prod-bullpadel-frame-protector",
+      slug: "bullpadel-frame-protector-3-pack",
+      brandId: "brand-bullpadel",
+      name: "Frame Protector",
+      fullName: "Bullpadel Frame Protector 3-Pack",
+      categoryId: "cat-padel-accessories",
+      sourceUrl:
+        "https://www.padelmq.com/en-nl/products/bullpadel-frame-protector-zwart-3-stuks",
+      sourceName: "PadeLMQ Bullpadel Frame Protector black 3-pack",
+      shortDescription:
+        "Adhesive polyurethane frame protector tape, black, 3-pack. Protects the racket head from glass and mesh scrapes.",
+      verdict:
+        "I’d keep a 3-pack in the bag. Protection adds a little tip weight — fine for club play, worth noticing if you chase a specific balance.",
+      specifications: {
+        type: "protector",
+        material: "polyurethane adhesive tape",
+        packQuantity: "3",
+        transparentOrColored: "colored",
+      },
+      strengths: ["Dedicated protector model", "3-pack spares"],
+      weaknesses: ["Adds a little head mass vs bare frame"],
+      relatedProductIds: ["prod-nox-frame-protector", "prod-bullpadel-custom-weight"],
+      alternativeProductIds: ["prod-nox-frame-protector"],
+    },
+    {
+      id: "prod-nox-frame-protector",
+      slug: "nox-transparent-frame-protector",
+      brandId: "brand-nox",
+      name: "Transparent Protector",
+      fullName: "Nox Transparent Frame Protector",
+      categoryId: "cat-padel-accessories",
+      sourceUrl:
+        "https://www.padelmq.com/en-nl/products/nox-protection-tape-transparant-framebeschermer",
+      sourceName: "PadeLMQ Nox transparent protection tape",
+      shortDescription:
+        "Nox transparent frame protection tape — discrete on coloured faces, adhesive frame coverage for glass/mesh scrapes.",
+      verdict:
+        "I’d pick transparent when I don’t want a black stripe on a light face. Same protection vs weight trade-off as any frame tape.",
+      specifications: {
+        type: "protector",
+        material: "adhesive protection tape",
+        packQuantity: "1",
+        transparentOrColored: "transparent",
+      },
+      strengths: ["Typed protector", "Transparent finish"],
+      weaknesses: ["Single unit vs multi-packs"],
+      relatedProductIds: ["prod-bullpadel-frame-protector"],
+      alternativeProductIds: ["prod-bullpadel-frame-protector"],
+    },
+    {
+      id: "prod-bullpadel-pascal-box",
+      slug: "bullpadel-pascal-box-3b",
+      brandId: "brand-bullpadel",
+      name: "Pascal Box 3B",
+      fullName: "Bullpadel Pascal Box 3B",
+      categoryId: "cat-padel-accessories",
+      sourceUrl: "https://www.padelmq.com/en-nl/products/pascal-box-3b",
+      sourceName: "PadeLMQ / Bullpadel Pascal Box 3B",
+      shortDescription:
+        "Manual 3-ball pressurizer with precision manometer, hermetic cup, inflation valve and safety valve. Includes hand pump. Works for padel, tennis and frontenis pressure targets.",
+      verdict:
+        "I’d buy this if I open multiple cans a week and hate demoting balls after two sessions. It maintains chamber pressure — it does not magically restore shredded felt.",
+      specifications: {
+        type: "pressurizer",
+        capacityBalls: 3,
+        pressureSystem: "manual pump + manometer + safety valve",
+        manualOrElectric: "manual",
+        packQuantity: "1",
+      },
+      strengths: ["Manometer regulation", "3-ball club capacity", "Includes pump"],
+      weaknesses: ["Upfront cost vs casual players who open one can a month"],
+      relatedProductIds: ["prod-head-x3-pressurizer", "prod-head-padel-pro-plus"],
+      alternativeProductIds: ["prod-head-x3-pressurizer"],
+    },
+    {
+      id: "prod-head-x3-pressurizer",
+      slug: "head-x3-ball-pressurizer",
+      brandId: "brand-head-padel",
+      name: "X3 Pressurizer",
+      fullName: "HEAD X3 Ball Pressurizer",
+      categoryId: "cat-padel-accessories",
+      sourceUrl: "https://padelproshop.com/en/products/pressurizer-head-x3-pump",
+      sourceName: "PadelPROShop HEAD X3 PUMP",
+      shortDescription:
+        "Compact HEAD X3 PUMP canister for up to three pressurized balls. Manual valve system to raise chamber pressure between sessions; pump included on this listing.",
+      verdict:
+        "I’d take X3 when I want a lighter travel pressurizer than Pascal Box. Same honest limit: pressure retention helps bounce; it cannot rebuild worn felt.",
+      specifications: {
+        type: "pressurizer",
+        capacityBalls: 3,
+        pressureSystem: "manual valve + pump",
+        manualOrElectric: "manual",
+        packQuantity: "1",
+      },
+      strengths: ["Portable 3-ball capacity", "Widely stocked"],
+      weaknesses: ["Does not fix felt wear; economics only for frequent players"],
+      relatedProductIds: ["prod-bullpadel-pascal-box"],
+      alternativeProductIds: ["prod-bullpadel-pascal-box"],
+    },
+    {
+      id: "prod-bullpadel-custom-weight",
+      slug: "bullpadel-protector-custom-weight",
+      brandId: "brand-bullpadel",
+      name: "Protector Custom Weight",
+      fullName: "Bullpadel Protector Custom Weight",
+      categoryId: "cat-padel-accessories",
+      sourceUrl:
+        "https://www.padelmq.com/en-nl/products/bullpadel-protector-custom-weight-4-stuks",
+      sourceName: "PadeLMQ Bullpadel Protector Custom Weight 4-pack",
+      shortDescription:
+        "Bullpadel frame protector plates with integrated custom weights (4 × ~3 g class). Combines edge protection with small balance customization.",
+      verdict:
+        "I’d use these when I want protection and a touch more tip mass in one accessory — not as a medical or injury-prevention product.",
+      specifications: {
+        type: "customization_weight",
+        packQuantity: "4",
+        material: "weighted protector plates",
+      },
+      strengths: ["Protection + small weight adjustment", "4-pack"],
+      weaknesses: ["Changes balance — test before a match"],
+      relatedProductIds: ["prod-bullpadel-frame-protector"],
+      alternativeProductIds: ["prod-bullpadel-frame-protector"],
+    },
+    {
+      id: "prod-head-wristband",
+      slug: "head-padel-wristband",
+      brandId: "brand-head-padel",
+      name: "HEAD Wristband",
+      fullName: "HEAD Padel Wristband",
+      categoryId: "cat-padel-accessories",
+      sourceUrl: "https://www.head.com",
+      sourceName: "HEAD (brand)",
+      shortDescription:
+        "HEAD terry wristband used on padel. Brand homepage is not a model-specific product page — kept draft until a current PDP + packshot exist.",
+      specifications: {
+        type: "wristband",
+      },
+      strengths: ["Typed wrist accessory"],
+      weaknesses: ["No verified PDP / packshot"],
+      relatedProductIds: ["prod-wilson-wristband", "prod-nox-wristband"],
+      alternativeProductIds: ["prod-bullpadel-wristband"],
+    },
+    {
+      id: "prod-wilson-wristband",
+      slug: "wilson-padel-wristband",
+      brandId: "brand-wilson-padel",
+      name: "Wilson Wristband",
+      fullName: "Wilson Padel Wristband",
+      categoryId: "cat-padel-accessories",
+      sourceUrl: "https://www.wilson.com",
+      sourceName: "Wilson (brand)",
+      shortDescription:
+        "Wilson wristband sold into padel. Brand homepage is not a product page — kept draft.",
+      specifications: {
+        type: "wristband",
+      },
+      strengths: ["Typed wrist accessory"],
+      weaknesses: ["No verified PDP / packshot"],
+      relatedProductIds: ["prod-head-wristband"],
+      alternativeProductIds: ["prod-head-wristband"],
+    },
+    {
+      id: "prod-nox-wristband",
+      slug: "nox-padel-wristband",
+      brandId: "brand-nox",
+      name: "Nox Wristband",
+      fullName: "Nox Padel Wristband",
+      categoryId: "cat-padel-accessories",
+      sourceUrl: "https://noxsport.com/en/collections/accessories",
+      sourceName: "NOX accessories collection",
+      shortDescription:
+        "Nox wrist/sweat accessory. Collection page is not a model-specific product page — kept draft.",
+      specifications: {
+        type: "wristband",
+      },
+      strengths: ["Typed wrist accessory"],
+      weaknesses: ["Collection URL only"],
+      relatedProductIds: ["prod-head-wristband"],
+      alternativeProductIds: ["prod-bullpadel-wristband"],
+    },
+    {
+      id: "prod-bullpadel-wristband",
+      slug: "bullpadel-padel-wristband",
+      brandId: "brand-bullpadel",
+      name: "Bullpadel Wristband",
+      fullName: "Bullpadel Padel Wristband",
+      categoryId: "cat-padel-accessories",
+      sourceUrl: "https://www.bullpadel.com",
+      sourceName: "Bullpadel (brand)",
+      shortDescription:
+        "Bullpadel wristband. Brand homepage is not a product page — kept draft.",
+      specifications: {
+        type: "wristband",
+      },
+      strengths: ["Typed wrist accessory"],
+      weaknesses: ["No verified PDP / packshot"],
+      relatedProductIds: ["prod-head-wristband"],
+      alternativeProductIds: ["prod-nox-wristband"],
+    },
+    {
+      id: "prod-head-smartsorb",
+      slug: "head-smartsorb",
+      brandId: "brand-head-padel",
+      name: "Smartsorb",
+      fullName: "HEAD Smartsorb",
+      categoryId: "cat-padel-accessories",
+      sourceUrl: "https://www.totalpadel.com/descpageHEAD-HSZVIB-EN.html",
+      sourceName: "Total Padel HEAD Smartsorb",
+      shortDescription:
+        "String-bed vibration dampener used on padel as well as tennis. Comfort preference accessory — not a frame protector.",
+      specifications: {
+        type: "other",
+      },
+      strengths: ["Commercially distinct model"],
+      weaknesses: ["Packshot / publish gate pending; not a protector/pressurizer"],
+      relatedProductIds: ["prod-bullpadel-frame-protector"],
+      alternativeProductIds: ["prod-bullpadel-frame-protector"],
+    },
+  ];
+}

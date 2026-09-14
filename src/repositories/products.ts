@@ -9,6 +9,7 @@ import { productFamilies as rawFamilies } from "@/content/families";
 import { products as rawProducts } from "@/content/products";
 import { applyProductSpecFill } from "@/content/specs/product-spec-fill";
 import { applyRunningAudienceVariants } from "@/content/running/audience-variants";
+import { padelRacketVariants } from "@/content/padel/rackets";
 import { allSpecificationDefinitions } from "@/content/specs/definitions";
 import { isNonSpecCategory } from "@/content/specs/category-spec-policy";
 import type {
@@ -62,7 +63,7 @@ const filled = applyProductSpecFill(rawProducts);
 const { products: productsWithAudience, variants: audienceVariants } =
   applyRunningAudienceVariants(filled);
 const variantsByProductId = new Map<string, ProductVariant[]>();
-for (const v of audienceVariants) {
+for (const v of [...audienceVariants, ...padelRacketVariants]) {
   const list = variantsByProductId.get(v.productId) ?? [];
   list.push(v);
   variantsByProductId.set(v.productId, list);
@@ -71,15 +72,18 @@ for (const v of audienceVariants) {
 const productsWithSpecFill = productsWithAudience;
 
 export function getProductVariants(): ProductVariant[] {
-  return audienceVariants;
+  return [...audienceVariants, ...padelRacketVariants];
+}
+
+export function getVariantById(id: string): ProductVariant | undefined {
+  return (
+    audienceVariants.find((v) => v.id === id) ??
+    padelRacketVariants.find((v) => v.id === id)
+  );
 }
 
 export function getVariantsForProduct(productId: string): ProductVariant[] {
   return variantsByProductId.get(productId) ?? [];
-}
-
-export function getVariantById(id: string): ProductVariant | undefined {
-  return audienceVariants.find((v) => v.id === id);
 }
 
 export function getProducts(options?: PublishResolverOptions): Product[] {

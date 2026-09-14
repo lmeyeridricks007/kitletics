@@ -1,0 +1,3 @@
+productId,category,brandId,brand,model,generation,variant,identityKey,lifecycleStatus,publicationStatus,currentHero,currentHeroSource,status,candidateSource,candidateImage,identityConfidence,semanticChecks,hasOffer,notes
+prod-bullpadel-premium-gold,balls,brand-bullpadel,bullpadel,Premium Gold,previous,speed,padel|balls|bullpadel|premium-gold|previous|speed,discontinued,draft,,,MEDIA_BLOCKED,,,0,,no,Lifecycle discontinued — media acquisition deferred; not CURRENT market target.
+prod-adidas-aditour-padel,balls,brand-adidas-padel,adidas,Aditour,discontinued,,padel|balls|adidas|aditour|discontinued,discontinued,draft,,,MEDIA_BLOCKED,,,0,,no,Lifecycle discontinued — media acquisition deferred; not CURRENT market target.

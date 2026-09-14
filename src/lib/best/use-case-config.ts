@@ -152,6 +152,75 @@ const TEMPO_TABLE_COLUMNS: BestGuideTableColumn[] = [
   { key: "price", label: "Price", source: "price" },
 ];
 
+const PADEL_RACKET_USE_TABLE: BestGuideTableColumn[] = [
+  { key: "bestFor", label: "Best for", source: "bestFor" },
+  { key: "shape", label: "Shape", source: "spec", specKey: "shape" },
+  { key: "balance", label: "Balance", source: "spec", specKey: "balance" },
+  { key: "weight", label: "Weight", source: "spec", specKey: "weightMin" },
+  { key: "score", label: "Score", source: "score" },
+  { key: "price", label: "Price", source: "price" },
+];
+
+const PADEL_SHOE_USE_TABLE: BestGuideTableColumn[] = [
+  { key: "bestFor", label: "Best for", source: "bestFor" },
+  { key: "gender", label: "Last", source: "spec", specKey: "genderFit" },
+  {
+    key: "lateral",
+    label: "Lateral",
+    source: "spec",
+    specKey: "lateralStability",
+  },
+  { key: "cushion", label: "Cushioning", source: "spec", specKey: "cushioning" },
+  { key: "score", label: "Score", source: "score" },
+  { key: "price", label: "Price", source: "price" },
+];
+
+function padelRacketUse(
+  quickPicksTitle: string,
+  buyingHelpTitle: string,
+  heroImageSrc: string,
+): UseCaseGuideConfig {
+  return {
+    quickPicksTitle,
+    comparisonTitle: "How they compare",
+    comparisonFootnote:
+      "Scores are Kitletics Product scores. This page awards the job in the title — not a global ranking.",
+    methodologyTitle: "How we research & score",
+    buyingHelpTitle,
+    heroImageSrc,
+    tableColumns: PADEL_RACKET_USE_TABLE,
+    buyingHelpLinks: [
+      {
+        label: "How to choose a padel racket",
+        href: "/guides/how-to-choose-a-padel-racket",
+      },
+    ],
+  };
+}
+
+function padelShoeUse(
+  quickPicksTitle: string,
+  buyingHelpTitle: string,
+  heroImageSrc: string,
+): UseCaseGuideConfig {
+  return {
+    quickPicksTitle,
+    comparisonTitle: "How they compare",
+    comparisonFootnote:
+      "Scores are Kitletics Product scores. Last, outsole, and lateral listing matter more than a running-shoe score.",
+    methodologyTitle: "How we research & score",
+    buyingHelpTitle,
+    heroImageSrc,
+    tableColumns: PADEL_SHOE_USE_TABLE,
+    buyingHelpLinks: [
+      {
+        label: "How to choose padel shoes",
+        href: "/guides/how-to-choose-padel-shoes",
+      },
+    ],
+  };
+}
+
 const BY_GUIDE_ID: Record<string, UseCaseGuideConfig> = {
   "best-running-shoes-heavy": {
     quickPicksTitle: "Top picks for heavier runners",
@@ -277,29 +346,96 @@ const BY_GUIDE_ID: Record<string, UseCaseGuideConfig> = {
       priorities: ["responsiveness", "lightweight", "energy-return"],
     },
   },
-  "best-padel-rackets-control": {
-    quickPicksTitle: "Top picks for control",
+  "best-padel-rackets-beginners": padelRacketUse(
+    "Top picks for beginners",
+    "How to choose a first racket",
+    "/images/padel/products/bullpadel-indiga-ctr-hero.jpg",
+  ),
+  "best-padel-rackets-intermediate": padelRacketUse(
+    "Top picks for intermediate players",
+    "How to choose a step-up racket",
+    "/images/padel/products/bullpadel-ionic-light-hero.jpg",
+  ),
+  "best-padel-rackets-advanced": padelRacketUse(
+    "Top picks for advanced players",
+    "How to choose an advanced racket",
+    "/images/padel/products/bullpadel-vertex-05-hero.png",
+  ),
+  "best-padel-rackets-control": padelRacketUse(
+    "Top picks for control",
+    "How to choose for control",
+    "/images/padel/products/nox-ml10-pro-cup-2026-hero.jpg",
+  ),
+  "best-padel-rackets-power": padelRacketUse(
+    "Top picks for power",
+    "How to choose for power",
+    "/images/padel/products/bullpadel-hack-04-hero.png",
+  ),
+  "best-padel-rackets-all-round": padelRacketUse(
+    "Top picks for all-round play",
+    "How to choose an all-round racket",
+    "/images/padel/products/bullpadel-vertex-05-hybrid-hero.jpg",
+  ),
+  "best-padel-rackets-lightweight": padelRacketUse(
+    "Top picks for lightweight rackets",
+    "How to choose by weight band",
+    "/images/padel/products/head-one-ultralight-hero.jpg",
+  ),
+  "best-padel-rackets-comfort": padelRacketUse(
+    "Top picks for comfort",
+    "How to choose a comfort racket",
+    "/images/padel/products/kuikma-pr-comfort-soft-hero.jpg",
+  ),
+  "best-padel-rackets-maneuverability": padelRacketUse(
+    "Top picks for maneuverability",
+    "How to choose for handling",
+    "/images/padel/products/babolat-air-viper-hero.jpg",
+  ),
+  "best-padel-rackets-women": padelRacketUse(
+    "Top picks for women’s lines",
+    "How to choose a women’s-line racket",
+    "/images/padel/products/bullpadel-vertex-05-w-hero.jpg",
+  ),
+  "best-padel-shoes-men": padelShoeUse(
+    "Top picks for men’s lasts",
+    "How to choose a men’s padel last",
+    "/images/padel/products/adidas-courtquick-padel-hero.jpg",
+  ),
+  "best-padel-shoes-women": padelShoeUse(
+    "Top picks for women’s lasts",
+    "How to choose a women’s padel last",
+    "/images/padel/products/adidas-courtquick-padel-women-hero.jpg",
+  ),
+  "best-padel-shoes-stability": padelShoeUse(
+    "Top picks for lateral stability",
+    "How to choose a stable padel shoe",
+    "/images/padel/products/joma-t-slam-hero.jpg",
+  ),
+  "best-padel-shoes-comfort": padelShoeUse(
+    "Top picks for court comfort",
+    "How to choose a cushioned padel shoe",
+    "/images/padel/products/adidas-crazyquick-boost-padel-hero.jpg",
+  ),
+  "best-padel-overgrips": {
+    quickPicksTitle: "Top picks for overgrips",
     comparisonTitle: "How they compare",
     comparisonFootnote:
-      "Scores are Kitletics Product scores; control-oriented weighting emphasises manoeuvrability, sweet spot and balance.",
+      "Two jobs: thin tack versus absorption. Not a replacement grip ranking.",
     methodologyTitle: "How we research & score",
-    buyingHelpTitle: "How to choose for control",
-    heroImageSrc: "/images/padel/hero.jpg",
-    tableColumns: [
-      { key: "bestFor", label: "Best for", source: "bestFor" },
-      { key: "shape", label: "Shape", source: "spec", specKey: "shape" },
-      { key: "balance", label: "Balance", source: "spec", specKey: "balance" },
-      { key: "weight", label: "Weight", source: "spec", specKey: "weightMin" },
-      {
-        key: "control",
-        label: "Control",
-        source: "breakdown",
-        breakdownKey: "control",
-        factorKeys: ["control"],
-      },
-      { key: "score", label: "Score", source: "score" },
-      { key: "price", label: "Price", source: "price" },
+    buyingHelpTitle: "How to choose an overgrip",
+    heroImageSrc: "/images/padel/guides/grips.jpg",
+    buyingHelpLinks: [
+      { label: "Grips and overgrips explained", href: "/guides/padel-grips-overgrips-explained" },
     ],
+  },
+  "best-padel-bags": {
+    quickPicksTitle: "Top picks by carry job",
+    comparisonTitle: "How they compare",
+    comparisonFootnote:
+      "Club paletero, tournament volume, and day backpack are different jobs.",
+    methodologyTitle: "How we research & score",
+    buyingHelpTitle: "How to choose a padel bag",
+    heroImageSrc: "/images/padel/products/nox-at10-team-paletero-hero.jpg",
   },
 };
 

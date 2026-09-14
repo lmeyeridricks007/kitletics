@@ -173,9 +173,58 @@ export const gpsWatchProductPageConfig: ProductPageCategoryConfig = {
   relatedToolSlugs: ["fitness-watch-finder"],
 };
 
+export const padelRacketsProductPageConfig: ProductPageCategoryConfig = {
+  categoryId: "cat-padel-rackets",
+  featuredSpecificationKeys: [
+    "shape",
+    "weightMin",
+    "weightMax",
+    "balance",
+    "core",
+    "face",
+    "thicknessMm",
+  ],
+  specificationGroups: [
+    {
+      id: "geometry",
+      label: "Shape & weight",
+      keys: ["shape", "balance", "weightMin", "weightMax", "thicknessMm", "sweetSpot"],
+    },
+    {
+      id: "construction",
+      label: "Construction",
+      keys: [
+        "frameMaterial",
+        "face",
+        "faceMaterial",
+        "faceCarbonWeave",
+        "core",
+        "manufacturerCoreName",
+        "surfaceTexture",
+        "feel",
+        "technologies",
+      ],
+    },
+    {
+      id: "use",
+      label: "Positioning",
+      keys: ["playerLevel", "manufacturerPositioning"],
+    },
+  ],
+  comparisonPriorityKeys: ["shape", "balance", "weightMin", "core", "face"],
+  classificationSpecKeys: ["shape", "playerLevel"],
+  optionalSections: {
+    family: true,
+    rotation: false,
+    tools: true,
+  },
+  relatedToolSlugs: ["padel-racket-finder"],
+};
+
 export const PRODUCT_PAGE_CONFIGS: Record<string, ProductPageCategoryConfig> = {
   "cat-running-shoes": runningShoesProductPageConfig,
   "cat-gps-watches": gpsWatchProductPageConfig,
+  "cat-padel-rackets": padelRacketsProductPageConfig,
 };
 
 export function getProductPageCategoryConfig(

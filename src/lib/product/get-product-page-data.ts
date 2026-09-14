@@ -7,7 +7,7 @@ import {
   type ProductPageCategoryConfig,
   type SpecGroupId,
 } from "@/lib/product/category-config";
-import { formatPublicSpecDisplayLabel } from "@/lib/specs/public-label";
+import { formatPublicSpecDisplayLabel, formatPublicSpecValueToken, publicSpecRowKey } from "@/lib/specs/public-label";
 import { resolveBreadcrumbs } from "@/lib/navigation/breadcrumbs";
 import {
   getProductBySlug,
@@ -47,9 +47,18 @@ import { containsPublicContentCorruption } from "@/lib/review/public-content-cor
 import { rewriteUniquenessEraSkipProse } from "@/lib/review/rewrite-uniqueness-era-skip";
 import { resolveDecisionCopyForProduct } from "@/lib/decision-copy";
 import {
+  getPadelRacketDecisionAttributes,
+  getPadelRacketPdpCopy,
+} from "@/content/padel/rackets";
+import { getPadelSoftPdpCopy } from "@/content/padel/pdp-editorial";
+import { PADEL_DECISION_LABELS } from "@/domain/padel/racket-decision";
+import type { PadelDecisionAttribute, PadelRacketPdpCopy } from "@/domain/padel/racket-decision";
+import type { PadelSoftPdpCopy } from "@/domain/padel/soft-pdp-copy";
+import {
   getPrimaryProductMedia,
   isAuthenticProductMedia,
 } from "@/lib/product/media";
+import { isPadelMediaVerified } from "@/lib/product/media-identity";
 import type { MediaAsset } from "@/domain/shared/types";
 
 export interface SpecDisplayRow {
@@ -57,7 +66,8 @@ export interface SpecDisplayRow {
   label: string;
   value: string;
   unit?: string;
-  raw: SpecValue;
+  /** Omitted for string enums so raw schema tokens never reach the client. */
+  raw?: SpecValue;
 }
 
 export interface SpecDisplayGroup {
@@ -140,6 +150,10 @@ export interface ProductPageData {
   quickFacts: { id: string; label: string; value: string }[];
   /** Audience / fit-sizing variants (men / women / unisex) */
   variants: ProductVariant[];
+  padelEditorial?: PadelRacketPdpCopy;
+  /** Soft PDP copy without internal evidenceBasis labels. */
+  padelSoftEditorial?: Omit<PadelSoftPdpCopy, "evidenceBasis">;
+  padelDecisionAttributes: PadelDecisionAttribute[];
 }
 
 const ALT_LABELS: Record<string, string> = {
@@ -176,9 +190,9 @@ function formatSpecValue(
     return def?.unit ? `${value}` : String(value);
   }
   if (typeof value === "string") {
-    return value
-      .split("-")
-      .map((p) => p.charAt(0).toUpperCase() + p.slice(1))
+    return formatPublicSpecValueToken(value)
+      .split(" ")
+      .map((p) => (p ? p.charAt(0).toUpperCase() + p.slice(1) : p))
       .join(" ");
   }
   if (Array.isArray(value)) {
@@ -211,11 +225,12 @@ function buildSpecRow(
   const formatted = formatSpecValue(raw, def);
   if (!formatted) return undefined;
   return {
-    key,
+    key: publicSpecRowKey(key),
     label: formatPublicSpecDisplayLabel(key),
     value: formatted,
     unit: typeof raw === "number" ? def?.unit : undefined,
-    raw,
+    // Never ship raw schema/enum tokens to the client payload.
+    raw: typeof raw === "string" ? undefined : (raw as SpecDisplayRow["raw"]),
   };
 }
 
@@ -343,14 +358,28 @@ export function getProductPageData(
     graph.review && !containsPublicContentCorruption(graph.review)
       ? graph.review
       : undefined;
+  const padelEditorial = getPadelRacketPdpCopy(product.id);
+  const padelSoftEditorial = getPadelSoftPdpCopy(product.id);
+  const padelDecisionAttributes =
+    getPadelRacketDecisionAttributes(product.id) ?? [];
   const decisionCopy = resolveDecisionCopyForProduct({
     product,
     review,
+    bestFor: padelEditorial?.bestFor ?? padelSoftEditorial?.bestFor,
+    notIdealFor: padelEditorial?.notIdealFor ?? padelSoftEditorial?.notIdealFor,
   });
   const bestFor = decisionCopy.bestFor;
   const notIdealFor = decisionCopy.notIdealFor;
-  const buyIf = decisionCopy.buyIf;
-  const skipIf = decisionCopy.skipIf;
+  const buyIf = padelEditorial?.buyIf?.length
+    ? padelEditorial.buyIf
+    : padelSoftEditorial?.buyIf?.length
+      ? padelSoftEditorial.buyIf
+      : decisionCopy.buyIf;
+  const skipIf = padelEditorial?.skipIf?.length
+    ? padelEditorial.skipIf
+    : padelSoftEditorial?.skipIf?.length
+      ? padelSoftEditorial.skipIf
+      : decisionCopy.skipIf;
 
   const regionalOffers = sortOffers(graph.offers);
   const offers: OfferRow[] = regionalOffers.map((offer) => ({
@@ -466,13 +495,26 @@ export function getProductPageData(
     classifications: [...new Set(classifications)].slice(0, 5),
     useCases: graph.useCases.filter((u): u is UseCase => Boolean(u)),
     config,
-    specDefs,
+    specDefs: specDefs.map((def) => ({
+      ...def,
+      key: publicSpecRowKey(def.key),
+      enumValues: def.enumValues?.map((v) => formatPublicSpecValueToken(v)),
+    })),
     featuredSpecs,
     specGroups,
     recommendations,
     hasStructuredRecommendations,
     showScore,
-    scoreExplainFactors: [...factorMap.values()],
+    scoreExplainFactors:
+      padelDecisionAttributes.length > 0
+        ? padelDecisionAttributes.map((a) => ({
+            label: PADEL_DECISION_LABELS[a.key],
+            score: a.score,
+            // Shopper-facing rationale only — never dump evidenceKind enums
+            // like "manufacturer claim" into public score blurbs.
+            explanation: a.reasoning.trim(),
+          }))
+        : [...factorMap.values()],
     bestFor,
     notIdealFor,
     buyIf,
@@ -501,6 +543,14 @@ export function getProductPageData(
     heroTags,
     quickFacts,
     variants: getVariantsForProduct(product.id),
+    padelEditorial,
+    // Drop internal evidenceBasis labels from the public page payload.
+    padelSoftEditorial: padelSoftEditorial
+      ? (({ evidenceBasis: _evidenceBasis, ...publicCopy }) => publicCopy)(
+          padelSoftEditorial,
+        )
+      : undefined,
+    padelDecisionAttributes,
   };
 }
 
@@ -514,6 +564,12 @@ function buildGalleryImages(product: Product): MediaAsset[] {
   }
   for (const img of product.images ?? []) {
     if (!isAuthenticProductMedia(img)) continue;
+    if (
+      product.categoryId.startsWith("cat-padel-") &&
+      !isPadelMediaVerified(product, img)
+    ) {
+      continue;
+    }
     if (seen.has(img.src)) continue;
     out.push(img);
     seen.add(img.src);

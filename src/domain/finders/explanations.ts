@@ -38,10 +38,12 @@ export function buildCurrentEquipmentDeltas(
   const curBal = cur.balance != null ? String(cur.balance) : undefined;
   const nextBal = next.balance != null ? String(next.balance) : undefined;
   if (curBal && nextBal && curBal !== nextBal) {
-    const easier = ["low", "mid-low"].includes(nextBal) &&
+    const easier =
+      ["low", "mid-low", "medium"].includes(nextBal) &&
       ["high", "head-heavy", "mid-high"].includes(curBal);
     if (easier) lines.push("+ easier to maneuver (lower balance)");
-    const heavier = ["high", "head-heavy"].includes(nextBal) &&
+    const heavier =
+      ["high", "head-heavy", "mid-high"].includes(nextBal) &&
       ["low", "mid-low", "medium"].includes(curBal);
     if (heavier) lines.push("+ more weight through the shot");
   }

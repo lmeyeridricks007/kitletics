@@ -15,6 +15,7 @@ import { gpsWatchFlagshipReviews } from "@/content/running/reviews/gps-watch-fla
 import { gearCoreLaunchReviews } from "@/content/running/gear-core-launch-ready";
 import { weakCatLaunchReviews } from "@/content/running/weak-cats-launch-ready";
 import { nmwCompletionReviews } from "@/content/running/nmw-completion-launch-ready";
+import { padelEstateReviews, isLegacyPadelBackfillReview } from "@/content/padel/reviews";
 import {
   selectWinningReviewDecisions,
   type RankedReviewCandidate,
@@ -22,6 +23,10 @@ import {
 } from "@/content/review-source-precedence";
 
 const pub = publishedMeta();
+
+function withoutLegacyPadel(items: Review[]) {
+  return items.filter((review) => !isLegacyPadelBackfillReview(review));
+}
 
 function tag(
   source: ReviewSourceKind,
@@ -35,12 +40,12 @@ function tag(
  * `selectWinningReviewDecisions` — not by array order / first-wins.
  */
 export const rankedReviewCandidates: RankedReviewCandidate[] = [
-  ...tag("handwritten", reviewsP75CatalogGaps),
-  ...tag("uniqueness_overlay", reviewsP54HeldFinalized),
-  ...tag("genuine_rewrite", reviewsP62FinalRunning),
-  ...tag("editorial_rebuild", reviewsEditorialRebuild),
-  ...tag("uniqueness_overlay", reviewsP53Differentiation),
-  ...tag("generated_research", reviewsUniqueRewrite),
+  ...tag("handwritten", withoutLegacyPadel(reviewsP75CatalogGaps)),
+  ...tag("uniqueness_overlay", withoutLegacyPadel(reviewsP54HeldFinalized)),
+  ...tag("genuine_rewrite", withoutLegacyPadel(reviewsP62FinalRunning)),
+  ...tag("editorial_rebuild", withoutLegacyPadel(reviewsEditorialRebuild)),
+  ...tag("uniqueness_overlay", withoutLegacyPadel(reviewsP53Differentiation)),
+  ...tag("generated_research", withoutLegacyPadel(reviewsUniqueRewrite)),
   ...tag("handwritten", [
     peregrine15Review,
     ...hrmFlagshipReviews,
@@ -342,7 +347,11 @@ export const rankedReviewCandidates: RankedReviewCandidate[] = [
   ...tag("handwritten", weakCatLaunchReviews),
   ...tag("handwritten", nmwCompletionReviews),
   ...tag("handwritten", reviewsWatchesWave2),
-  ...tag("handwritten", reviewsBackfill),
+  ...tag("handwritten", padelEstateReviews),
+  ...tag(
+    "handwritten",
+    reviewsBackfill.filter((review) => !isLegacyPadelBackfillReview(review)),
+  ),
 ];
 
 export const reviewMergeDecisions = selectWinningReviewDecisions(

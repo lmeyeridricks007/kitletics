@@ -47,6 +47,17 @@ const AGENT_LANGUAGE: Array<{ name: string; re: RegExp }> = [
   { name: "staging_path", re: /staging\// },
   { name: "product_review_agent", re: /\bproduct review agent\b/i },
   { name: "research_agent", re: /\bresearch agent\b/i },
+  { name: "stays_null", re: /\bstays null\b/i },
+  { name: "remains_null", re: /\bremains null\b/i },
+  { name: "null_until", re: /\bnull until\b/i },
+  { name: "schema_field", re: /\bschema field\b/i },
+  { name: "internal_field", re: /\binternal field\b/i },
+  { name: "stored_as", re: /\bstored as\b/i },
+  { name: "fallback_value", re: /\bfallback value\b/i },
+  { name: "updated_on_field", re: /\bupdatedOn\b/ },
+  { name: "intentional_stamp", re: /\bintentional stamp\b/i },
+  { name: "catalog_role", re: /\bcatalog role\b/i },
+  { name: "internal_id", re: /\binternal ID\b/i },
 ];
 
 export type PublicCorruptionHit =
@@ -103,8 +114,9 @@ function tokenLooksLikeSpecStamp(token: string): boolean {
       /[a-z]{4,}/.test(after) ||
       /[a-z]+\d+/.test(before) ||
       /[a-z]+\d+/.test(after);
+    // Require a digit — otherwise everyday words like "teardrop" / "medium"
+    // false-positive on the embedded "drop" field key.
     if (hasDigit && slugish) return true;
-    if (before.length >= 4 && after.length >= 4) return true;
   }
   return false;
 }

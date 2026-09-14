@@ -275,12 +275,20 @@ export function getCatalogProducts(
   const filters: CatalogFilterState = {
     type: input.filters?.type ?? [],
     brand: input.filters?.brand ?? [],
-    specs: input.filters?.specs ?? {},
+    specs: { ...(input.filters?.specs ?? {}) },
     useCase: input.filters?.useCase ?? [],
     priceMin: input.filters?.priceMin,
     priceMax: input.filters?.priceMax,
     sort: input.filters?.sort ?? "recommended",
   };
+
+  // Public facet key "fit" maps to canonical genderFit spec.
+  if (filters.specs.fit?.length) {
+    filters.specs.genderFit = [
+      ...new Set([...(filters.specs.genderFit ?? []), ...filters.specs.fit]),
+    ];
+    delete filters.specs.fit;
+  }
 
   const products = getProductsByCategory(input.categoryId, options).filter(
     (p) =>
@@ -640,9 +648,10 @@ export function getCatalogProducts(
         })
         .filter((o) => (def.key === "genderFit" ? o.count > 0 : o.count > 0));
       if (options.length > 0) {
+        const publicKey = def.key === "genderFit" ? "fit" : def.key;
         availableFilters.push({
-          id: def.key,
-          key: def.key,
+          id: publicKey,
+          key: publicKey,
           label: def.label,
           control: "multi-select",
           options,
@@ -695,17 +704,18 @@ export function getCatalogProducts(
   }
   for (const [key, values] of Object.entries(filters.specs)) {
     for (const value of values) {
+      const publicKey = key === "genderFit" ? "fit" : key;
       const bucket = buckets[key]?.find((b) => b.id === value);
-      const facet = availableFilters.find((f) => f.key === key);
+      const facet = availableFilters.find((f) => f.key === publicKey || f.key === key);
       const optionLabel =
         bucket?.label ??
         facet?.options.find((o) => o.value === value)?.label ??
         labelForValue(value);
       activeFilters.push({
-        id: `${key}:${value}`,
-        group: key,
+        id: `${publicKey}:${value}`,
+        group: publicKey,
         value,
-        label: `${facet?.label ?? key}: ${optionLabel}`,
+        label: `${facet?.label ?? (key === "genderFit" ? "Fit" : key)}: ${optionLabel}`,
       });
     }
   }

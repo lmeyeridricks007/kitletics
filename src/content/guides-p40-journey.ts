@@ -165,13 +165,112 @@ export const GUIDE_P40_JOURNEY_BY_SLUG: Record<string, GuideP40JourneyLink> = {
     relatedToolSlugs: ["running-recovery-finder"],
   },
   "how-to-choose-padel-shoes": {
-    relatedBestGuideIds: ["best-padel-rackets"],
+    relatedBestGuideIds: ["best-padel-shoes", "best-padel-shoes-stability", "best-padel-shoes-comfort"],
+    bestSlugs: ["padel-shoes"],
+    bestLabels: ["Best padel shoes →"],
+  },
+  "padel-grips-overgrips-explained": {
+    relatedBestGuideIds: ["best-padel-overgrips"],
+    bestSlugs: ["padel-overgrips"],
+    bestLabels: ["Best padel overgrips →"],
+  },
+  "padel-racket-shapes-explained": {
+    relatedBestGuideIds: ["best-padel-rackets", "best-padel-rackets-control", "best-padel-rackets-power"],
     bestSlugs: ["padel-rackets"],
     bestLabels: ["Best padel rackets →"],
     relatedToolSlugs: ["padel-racket-finder"],
   },
-  "padel-grips-overgrips-explained": {
-    relatedBestGuideIds: ["best-padel-rackets"],
+  "round-vs-teardrop-vs-diamond-padel-rackets": {
+    relatedBestGuideIds: ["best-padel-rackets-beginners", "best-padel-rackets-all-round", "best-padel-rackets-power"],
+    bestSlugs: ["padel-rackets-all-round"],
+    bestLabels: ["Best all-round padel rackets →"],
+    relatedToolSlugs: ["padel-racket-finder"],
+  },
+  "padel-racket-balance-explained": {
+    relatedBestGuideIds: ["best-padel-rackets-maneuverability", "best-padel-rackets-lightweight"],
+    bestSlugs: ["padel-rackets-maneuverability"],
+    bestLabels: ["Best maneuverable padel rackets →"],
+    relatedToolSlugs: ["padel-racket-finder"],
+  },
+  "padel-racket-weight-explained": {
+    relatedBestGuideIds: ["best-padel-rackets-lightweight", "best-padel-rackets-maneuverability"],
+    bestSlugs: ["padel-rackets-lightweight"],
+    bestLabels: ["Best lightweight padel rackets →"],
+    relatedToolSlugs: ["padel-racket-finder"],
+  },
+  "padel-racket-materials-explained": {
+    relatedBestGuideIds: ["best-padel-rackets", "best-padel-rackets-comfort"],
+    bestSlugs: ["padel-rackets"],
+    bestLabels: ["Best padel rackets →"],
+    relatedToolSlugs: ["padel-racket-finder"],
+  },
+  "carbon-vs-fiberglass-padel-rackets": {
+    relatedBestGuideIds: ["best-padel-rackets-comfort", "best-padel-rackets-beginners"],
+    bestSlugs: ["padel-rackets-comfort"],
+    bestLabels: ["Best comfort padel rackets →"],
+    relatedToolSlugs: ["padel-racket-finder"],
+  },
+  "padel-racket-cores-eva-foam-explained": {
+    relatedBestGuideIds: ["best-padel-rackets-comfort", "best-padel-rackets-power"],
+    bestSlugs: ["padel-rackets-comfort"],
+    bestLabels: ["Best comfort padel rackets →"],
+    relatedToolSlugs: ["padel-racket-finder"],
+  },
+  "soft-vs-hard-padel-rackets": {
+    relatedBestGuideIds: ["best-padel-rackets-comfort", "best-padel-rackets-power"],
+    bestSlugs: ["padel-rackets-comfort"],
+    bestLabels: ["Best comfort padel rackets →"],
+    relatedToolSlugs: ["padel-racket-finder"],
+  },
+  "how-padel-racket-sweet-spots-work": {
+    relatedBestGuideIds: ["best-padel-rackets-control", "best-padel-rackets-beginners"],
+    bestSlugs: ["padel-rackets-control"],
+    bestLabels: ["Best control padel rackets →"],
+    relatedToolSlugs: ["padel-racket-finder"],
+  },
+  "padel-vs-tennis-shoes": {
+    relatedBestGuideIds: ["best-padel-shoes", "best-padel-shoes-stability"],
+    bestSlugs: ["padel-shoes"],
+    bestLabels: ["Best padel shoes →"],
+  },
+  "padel-shoe-outsoles-explained": {
+    relatedBestGuideIds: ["best-padel-shoes", "best-padel-shoes-stability"],
+    bestSlugs: ["padel-shoes"],
+    bestLabels: ["Best padel shoes →"],
+  },
+  "how-long-do-padel-balls-last": {
+    relatedBestGuideIds: [],
+    bestSlugs: [],
+    bestLabels: [],
+  },
+  "how-to-choose-padel-balls": {
+    relatedBestGuideIds: [],
+    bestSlugs: [],
+    bestLabels: [],
+  },
+  "how-to-choose-a-padel-bag": {
+    relatedBestGuideIds: ["best-padel-bags"],
+    bestSlugs: ["padel-bags"],
+    bestLabels: ["Best padel bags →"],
+  },
+  "padel-grip-vs-overgrip": {
+    relatedBestGuideIds: ["best-padel-overgrips"],
+    bestSlugs: ["padel-overgrips"],
+    bestLabels: ["Best padel overgrips →"],
+  },
+  "how-often-should-you-replace-a-padel-overgrip": {
+    relatedBestGuideIds: ["best-padel-overgrips"],
+    bestSlugs: ["padel-overgrips"],
+    bestLabels: ["Best padel overgrips →"],
+  },
+  "beginner-padel-gear-guide": {
+    relatedBestGuideIds: ["best-padel-rackets-beginners", "best-padel-shoes", "best-padel-overgrips"],
+    bestSlugs: ["padel-rackets-beginners"],
+    bestLabels: ["Best beginner padel rackets →"],
+    relatedToolSlugs: ["padel-racket-finder"],
+  },
+  "complete-padel-gear-checklist": {
+    relatedBestGuideIds: ["best-padel-rackets", "best-padel-shoes", "best-padel-bags"],
     bestSlugs: ["padel-rackets"],
     bestLabels: ["Best padel rackets →"],
     relatedToolSlugs: ["padel-racket-finder"],
@@ -428,6 +527,14 @@ const EXTRA_DECISION_BEST_BY_SLUG: Record<
     bestLabels: ["Best running recovery gear →"],
   },
   "how-to-choose-a-padel-racket": {
+    bestSlugs: ["padel-rackets"],
+    bestLabels: ["Best padel rackets →"],
+  },
+  "beginner-padel-gear-guide": {
+    bestSlugs: ["padel-rackets-beginners"],
+    bestLabels: ["Best beginner padel rackets →"],
+  },
+  "complete-padel-gear-checklist": {
     bestSlugs: ["padel-rackets"],
     bestLabels: ["Best padel rackets →"],
   },

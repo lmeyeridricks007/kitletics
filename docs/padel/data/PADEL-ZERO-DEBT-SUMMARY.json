@@ -1,0 +1,285 @@
+{
+  "asOf": "2026-09-14",
+  "generatedAt": "2026-09-14T15:28:55.496Z",
+  "auditMode": "zero-debt",
+  "siteConfigUrl": "https://kitletics.com",
+  "crawlBase": "http://127.0.0.1:3012",
+  "crawl_default": "http://127.0.0.1:3012",
+  "crawl_skipped": false,
+  "crawl_skip_note": null,
+  "inventory_count": 1093,
+  "inventory_indexable": 415,
+  "inventory_public_noindex": 180,
+  "inventory_hidden_404": 498,
+  "inventory_in_sitemap": 415,
+  "inventory_includes_collections": true,
+  "crawled_count": 595,
+  "issue_count": 20,
+  "blocker_count": 6,
+  "high_count": 14,
+  "token_leak": 0,
+  "machine_like": 0,
+  "broken_decision": 0,
+  "wrong_sport_images": 0,
+  "wrong_product_images": 0,
+  "wrong_brand_images": 0,
+  "raw_schema_keys": 14,
+  "fake_testing": 0,
+  "fake_ratings": 0,
+  "broken_indexable_urls": 0,
+  "invalid_sitemap_urls": [
+    "/setups/padel-beginner-kit",
+    "/setups/padel-club-player-kit",
+    "/setups/padel-competitive-player-kit",
+    "/setups/padel-tournament-day-kit",
+    "/setups/padel-commuter-kit",
+    "/setups/padel-budget-starter-kit"
+  ],
+  "identity_mismatch": 0,
+  "required_zeros": {
+    "BLOCKER": 6,
+    "HIGH": 14,
+    "token_leakage": 0,
+    "raw_schema_leakage": 14,
+    "machine_copy": 0,
+    "broken_copy": 0,
+    "WRONG_SPORT": 0,
+    "WRONG_PRODUCT": 0,
+    "WRONG_BRAND": 0,
+    "fake_testing": 0,
+    "fake_ratings": 0,
+    "broken_indexable_URL": 0,
+    "invalid_sitemap_URL": 6,
+    "review_product_identity_mismatch": 0,
+    "a11y_serious": 0,
+    "a11y_critical": 0,
+    "test_failures": 0
+  },
+  "required_zero_pass": false,
+  "verdict": "NO-GO",
+  "canary_notes": [
+    "/best/padel-bags [200; INDEXABLE] Best Padel Bags: Top Picks by Use Case · Kitletics — Skip to content Unbiased. Data-driven. Expert sport gear recommendations. NL / EUR About Journal Help KITLETICS KITLETICS KITLETICS menu Search Kitletics… ⌘K Running All gear Tools Sports Gear Tools Compare Brands KITLETICS Home Padel Padel Bags Best Padel Bags Decision Guide Best Padel Bags A pade…",
+    "/best/padel-ball-pressurizers [200; INDEXABLE] Best Padel Ball Pressurizers: Top Picks by Use Case · Kitletics — Skip to content Unbiased. Data-driven. Expert sport gear recommendations. NL / EUR About Journal Help KITLETICS KITLETICS KITLETICS menu Search Kitletics… ⌘K Running All gear Tools Sports Gear Tools Compare Brands KITLETICS Home Padel Accessories Best Padel Ball Pressurizers Decision Guide Best Pad…",
+    "/best/padel-balls [200; INDEXABLE] Best Padel Balls: Top Picks by Use Case · Kitletics — Skip to content Unbiased. Data-driven. Expert sport gear recommendations. NL / EUR About Journal Help KITLETICS KITLETICS KITLETICS menu Search Kitletics… ⌘K Running All gear Tools Sports Gear Tools Compare Brands KITLETICS Home Padel Padel Balls Best Padel Balls Decision Guide Best Padel Balls Pad…",
+    "/brands/4on [200; INDEXABLE] 4ON Products, Reviews & Buying Guides · Kitletics — Skip to content Unbiased. Data-driven. Expert sport gear recommendations. NL / EUR About Journal Help KITLETICS KITLETICS KITLETICS menu Search Kitletics… ⌘K Running All gear Tools Sports Gear Tools Compare Brands KITLETICS Home › Brands › 4ON Brand hub 4ON 4ON on Kitletics covers Accessories, Grip…",
+    "/compare/babolat-rh-pro-vs-nox-at10-xxl [200; INDEXABLE] Babolat RH Pro vs Nox AT10 XXL: Which Is Better? | Kitletics · Kitletics — Babolat RH Pro vs Nox AT10 XXL: Which Is Better? | Kitletics · Kitletics Skip to content Unbiased. Data-driven. Expert sport gear recommendations. NL / EUR About Journal Help KITLETICS KITLETICS KITLETICS menu Search Kitletics… ⌘K Running All gear Tools Sports Gear Tools Compare Brands KITLETICS Ho…",
+    "/compare/babolat-technical-viper-2026-vs-wilson-bela-pro-v2-2026 [200; INDEXABLE] Babolat Technical Viper vs Wilson Bela Pro: Which Is Better? | Kitletics · Kitletics — Babolat Technical Viper vs Wilson Bela Pro: Which Is Better? | Kitletics · Kitletics Skip to content Unbiased. Data-driven. Expert sport gear recommendations. NL / EUR About Journal Help KITLETICS KITLETICS KITLETICS menu Search Kitletics… ⌘K Running All gear Tools Sports Gear Tools Compare Brands …",
+    "/compare/babolat-technical-viper-vs-counter-viper [200; INDEXABLE] Babolat Technical Viper vs Counter Viper: Which Is Better? | Kitletics · Kitletics — Babolat Technical Viper vs Counter Viper: Which Is Better? | Kitletics · Kitletics Skip to content Unbiased. Data-driven. Expert sport gear recommendations. NL / EUR About Journal Help KITLETICS KITLETICS KITLETICS menu Search Kitletics… ⌘K Running All gear Tools Sports Gear Tools Compare Brands KI…",
+    "/guides/beginner-padel-gear-guide [200; INDEXABLE] Beginner Padel Gear Guide | Complete Buying Guide · Kitletics — Beginner Padel Gear Guide | Complete Buying Guide · Kitletics Skip to content Unbiased. Data-driven. Expert sport gear recommendations. NL / EUR About Journal Help KITLETICS KITLETICS KITLETICS menu Search Kitletics… ⌘K Running All gear Tools Sports Gear Tools Compare Brands KITLETICS Home Guides P…",
+    "/padel [200; INDEXABLE] Padel Gear, Rackets, Shoes & Equipment | Kitletics · Kitletics — Skip to content Unbiased. Data-driven. Expert sport gear recommendations. NL / EUR About Journal Help KITLETICS KITLETICS KITLETICS menu Search Kitletics… ⌘K Running All gear Tools Sports Gear Tools Compare Brands KITLETICS Home › Racket Sports › Padel PADEL GEAR Rackets, shoes, balls, bags, grips …",
+    "/padel/rackets [200; INDEXABLE] Padel Rackets: Compare Control, Power & Hybrid Frames · Kitletics — Skip to content Unbiased. Data-driven. Expert sport gear recommendations. NL / EUR About Journal Help KITLETICS KITLETICS KITLETICS menu Search Kitletics… ⌘K Running All gear Tools Sports Gear Tools Compare Brands KITLETICS Home Padel Padel Rackets Padel Padel Rackets Shortlist frames by shape, bal…",
+    "/padel/rackets/database [200; INDEXABLE] Padel Racket Database 2026 | Compare 57 Rackets | Kitletics · Kitletics — Skip to content Unbiased. Data-driven. Expert sport gear recommendations. NL / EUR About Journal Help KITLETICS KITLETICS KITLETICS menu Search Kitletics… ⌘K Running All gear Tools Sports Gear Tools Compare Brands KITLETICS Home › Padel › Rackets › Database Kitletics data product Padel Racket Datab…",
+    "/padel/shoes [200; INDEXABLE] Padel Shoes: Compare & Find the Right Gear · Kitletics — Skip to content Unbiased. Data-driven. Expert sport gear recommendations. NL / EUR About Journal Help KITLETICS KITLETICS KITLETICS menu Search Kitletics… ⌘K Running All gear Tools Sports Gear Tools Compare Brands KITLETICS Home Padel Padel Shoes Padel Padel Shoes Court shoes built for lateral cuts…",
+    "/products/adidas-accessory-pouch-2026 [200; INDEXABLE] Adidas Accessory Pouch 2026: Specs, Performance & Best Uses · Kitletics — Skip to content Unbiased. Data-driven. Expert sport gear recommendations. NL / EUR About Journal Help KITLETICS KITLETICS KITLETICS menu Search Kitletics… ⌘K Running All gear Tools Sports Gear Tools Compare Brands KITLETICS Home Padel Accessories Adidas Accessory Pouch 2026 Compare Adidas Padel Acc…",
+    "/products/adidas-arrow-hit-2026/alternatives [200; INDEXABLE] Best Alternatives to Adidas Arrow Hit 2026 · Kitletics — Skip to content Unbiased. Data-driven. Expert sport gear recommendations. NL / EUR About Journal Help KITLETICS KITLETICS KITLETICS menu Search Kitletics… ⌘K Running All gear Tools Sports Gear Tools Compare Brands KITLETICS Home Padel Padel Rackets Adidas Arrow Hit 2026 Alternatives Alternatives gu…",
+    "/products/adidas-arrow-hit-ctrl-2026/alternatives [200; INDEXABLE] Best Alternatives to Adidas Arrow Hit CTRL 2026 · Kitletics — Skip to content Unbiased. Data-driven. Expert sport gear recommendations. NL / EUR About Journal Help KITLETICS KITLETICS KITLETICS menu Search Kitletics… ⌘K Running All gear Tools Sports Gear Tools Compare Brands KITLETICS Home Padel Padel Rackets Adidas Arrow Hit CTRL 2026 Alternatives Alternativ…",
+    "/products/adidas-courtquick-padel/alternatives [200; INDEXABLE] Best Alternatives to Adidas Courtquick Padel · Kitletics — Skip to content Unbiased. Data-driven. Expert sport gear recommendations. NL / EUR About Journal Help KITLETICS KITLETICS KITLETICS menu Search Kitletics… ⌘K Running All gear Tools Sports Gear Tools Compare Brands KITLETICS Home Padel Padel Shoes Adidas Courtquick Padel Alternatives Alternatives gu…",
+    "/products/bullpadel-bpm26002-hack [200; INDEXABLE] Hack Backpack: Specs, Performance & Best Uses · Kitletics — Skip to content Unbiased. Data-driven. Expert sport gear recommendations. NL / EUR About Journal Help KITLETICS KITLETICS KITLETICS menu Search Kitletics… ⌘K Running All gear Tools Sports Gear Tools Compare Brands KITLETICS Home Padel Padel Bags Hack Backpack Compare Bullpadel BPM26002 Hack Bullpad…",
+    "/products/nox-at10-competition-trolley [200; INDEXABLE] AT10 Competition Trolley: Specs, Performance & Best Uses · Kitletics — Skip to content Unbiased. Data-driven. Expert sport gear recommendations. NL / EUR About Journal Help KITLETICS KITLETICS KITLETICS menu Search Kitletics… ⌘K Running All gear Tools Sports Gear Tools Compare Brands KITLETICS Home Padel Padel Bags AT10 Competition Trolley Compare Nox AT10 Competition…",
+    "/research/padel-racket-market-2026 [200; INDEXABLE] Padel racket market snapshot 2026 (Kitletics cohort) | Kitletics Research · Kitletics — Padel racket market snapshot 2026 (Kitletics cohort) | Kitletics Research · Kitletics Skip to content Unbiased. Data-driven. Expert sport gear recommendations. NL / EUR About Journal Help KITLETICS KITLETICS KITLETICS menu Search Kitletics… ⌘K Running All gear Tools Sports Gear Tools Compare Brands…",
+    "/reviews/adidas-courtquick-padel [200; INDEXABLE] Adidas Courtquick Padel Review: Court Traction, Fit & Verdict | Kitletics · Kitletics — Skip to content Unbiased. Data-driven. Expert sport gear recommendations. NL / EUR About Journal Help KITLETICS KITLETICS KITLETICS menu Search Kitletics… ⌘K Running All gear Tools Sports Gear Tools Compare Brands KITLETICS Home Reviews Padel Shoes reviews Adidas Courtquick Padel Review Expert Rese…",
+    "/reviews/adidas-metalbone-3-5-2026 [200; INDEXABLE] Adidas Metalbone 3.5 2026 Review: Verdict, Who It's For & Specs | Kitletics · Kitletics — Skip to content Unbiased. Data-driven. Expert sport gear recommendations. NL / EUR About Journal Help KITLETICS KITLETICS KITLETICS menu Search Kitletics… ⌘K Running All gear Tools Sports Gear Tools Compare Brands KITLETICS Home Reviews Padel Rackets reviews Adidas Metalbone 3.5 2026 Review Expert …",
+    "/reviews/asics-gel-resolution-padel [200; INDEXABLE] ASICS Gel-Resolution Padel Review: Court Traction, Fit & Verdict | Kitletics · Kitletics — Skip to content Unbiased. Data-driven. Expert sport gear recommendations. NL / EUR About Journal Help KITLETICS KITLETICS KITLETICS menu Search Kitletics… ⌘K Running All gear Tools Sports Gear Tools Compare Brands KITLETICS Home Reviews Padel Shoes reviews ASICS Gel-Resolution Padel Review Expert R…",
+    "/tools/padel-racket-finder [200; INDEXABLE] Padel Racket Finder · Kitletics — Skip to content Unbiased. Data-driven. Expert sport gear recommendations. NL / EUR About Journal Help KITLETICS KITLETICS KITLETICS menu Search Kitletics… ⌘K Running All gear Tools Sports Gear Tools Compare Brands KITLETICS Your progress Step 1 of 4 1 Level 2 Feel 3 Budget 4 Results Your summary Ed…"
+  ],
+  "catalog": {
+    "asOf": "2026-09-14",
+    "sportId": "sport-padel",
+    "categories": {
+      "rackets": {
+        "categoryId": "cat-padel-rackets",
+        "total": 62,
+        "ready_published": 57,
+        "indexable": 57,
+        "blocked_or_hidden": 5,
+        "with_hero": 57,
+        "with_source": 62,
+        "spec_complete_est": 62
+      },
+      "shoes": {
+        "categoryId": "cat-padel-shoes",
+        "total": 41,
+        "ready_published": 7,
+        "indexable": 7,
+        "blocked_or_hidden": 34,
+        "with_hero": 7,
+        "with_source": 41,
+        "spec_complete_est": 41
+      },
+      "balls": {
+        "categoryId": "cat-padel-balls",
+        "total": 62,
+        "ready_published": 44,
+        "indexable": 44,
+        "blocked_or_hidden": 18,
+        "with_hero": 44,
+        "with_source": 62,
+        "spec_complete_est": 62
+      },
+      "bags": {
+        "categoryId": "cat-padel-bags",
+        "total": 124,
+        "ready_published": 65,
+        "indexable": 65,
+        "blocked_or_hidden": 59,
+        "with_hero": 65,
+        "with_source": 124,
+        "spec_complete_est": 124
+      },
+      "grips": {
+        "categoryId": "cat-padel-grips",
+        "total": 85,
+        "ready_published": 29,
+        "indexable": 29,
+        "blocked_or_hidden": 56,
+        "with_hero": 29,
+        "with_source": 85,
+        "spec_complete_est": 85
+      },
+      "accessories": {
+        "categoryId": "cat-padel-accessories",
+        "total": 84,
+        "ready_published": 21,
+        "indexable": 21,
+        "blocked_or_hidden": 63,
+        "with_hero": 21,
+        "with_source": 84,
+        "spec_complete_est": 84
+      },
+      "clothing": {
+        "categoryId": "cat-padel-clothing",
+        "total": 0,
+        "ready_published": 0,
+        "indexable": 0,
+        "blocked_or_hidden": 0,
+        "with_hero": 0,
+        "with_source": 0,
+        "spec_complete_est": 0
+      }
+    },
+    "brands": {
+      "total_padel_brand_entities": 42,
+      "indexable": 20
+    },
+    "editorial": {
+      "reviews": {
+        "total": 26,
+        "indexable": 22,
+        "blocked": 4
+      },
+      "bestGuides": {
+        "total": 39,
+        "indexable": 26
+      },
+      "buyingGuides": {
+        "total": 26,
+        "indexable": 19
+      },
+      "comparisons": {
+        "total": 21,
+        "indexable": 21
+      },
+      "alternatives_indexable": 63,
+      "research": {
+        "shapes": "published",
+        "weight": "published",
+        "prices": "withheld",
+        "market": "published"
+      }
+    },
+    "commerce_nl": {
+      "products_with_from_price": 70,
+      "products_indexable": 223,
+      "sample": [
+        {
+          "productId": "prod-nox-at10-18k-2026",
+          "slug": "nox-at10-genius-18k-2026",
+          "price": 219.95,
+          "currency": "EUR",
+          "offerId": "offer-nox-at10-nl"
+        },
+        {
+          "productId": "prod-bullpadel-vertex-04",
+          "slug": "bullpadel-vertex-04",
+          "price": 259.95,
+          "currency": "EUR",
+          "offerId": "offer-vertex-nl"
+        },
+        {
+          "productId": "prod-babolat-technical-viper",
+          "slug": "babolat-technical-viper-3-0",
+          "price": 279.95,
+          "currency": "EUR",
+          "offerId": "offer-viper-nl"
+        },
+        {
+          "productId": "prod-head-coello-pro",
+          "slug": "head-coello-pro-2026",
+          "price": 149.95,
+          "currency": "EUR",
+          "offerId": "offer-head-coello-pro-nl-amzn-aff"
+        },
+        {
+          "productId": "prod-siux-diablo",
+          "slug": "siux-diablo-pro-2026",
+          "price": 189.95,
+          "currency": "EUR",
+          "offerId": "offer-diablo-nl"
+        },
+        {
+          "productId": "prod-adidas-courtstabil",
+          "slug": "adidas-courtquick-padel",
+          "price": 89.95,
+          "currency": "EUR",
+          "offerId": "offer-shoes-nl"
+        },
+        {
+          "productId": "prod-head-padel-pro-s",
+          "slug": "head-padel-pro-s-balls",
+          "price": 5.79,
+          "currency": "EUR",
+          "offerId": "offer-head-pro-s-padelmq-nl"
+        },
+        {
+          "productId": "prod-wilson-overgrip",
+          "slug": "wilson-padel-overgrip-pack",
+          "price": 9.95,
+          "currency": "EUR",
+          "offerId": "offer-grips-nl"
+        },
+        {
+          "productId": "prod-wilson-bela-pro",
+          "slug": "wilson-bela-pro-v3",
+          "price": 249.95,
+          "currency": "EUR",
+          "offerId": "offer-bela-nl"
+        },
+        {
+          "productId": "prod-starvie-titania-kepler",
+          "slug": "starvie-titania-kepler",
+          "price": 229,
+          "currency": "EUR",
+          "offerId": "offer-starvie-titania-kepler-2026-nl"
+        },
+        {
+          "productId": "prod-adidas-metalbone-hrd",
+          "slug": "adidas-metalbone-hrd-2026",
+          "price": 289,
+          "currency": "EUR",
+          "offerId": "offer-adidas-metalbone-hrd-2026-nl"
+        },
+        {
+          "productId": "prod-varlion-lw-carbon-difusor",
+          "slug": "varlion-lw-carbon-difusor",
+          "price": 249,
+          "currency": "EUR",
+          "offerId": "offer-varlion-lw-carbon-difusor-2026-nl"
+        }
+      ]
+    },
+    "diagnostic": {
+      "production_visible_products": 223,
+      "launch_ready_quality_products": 223
+    }
+  }
+}

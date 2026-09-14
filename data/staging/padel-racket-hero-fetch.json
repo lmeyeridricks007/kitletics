@@ -1,0 +1,468 @@
+{
+  "generatedAt": "2026-09-13T06:18:08.894Z",
+  "rows": [
+    {
+      "id": "prod-nox-at10-18k-2026",
+      "slug": "nox-at10-genius-18k-2026",
+      "sourceUrl": "https://noxsport.com/en/products/pala-at10-genius-18k-alum-2026-by-agustin-tapia",
+      "status": "READY",
+      "imageUrl": "http://noxsport.com/cdn/shop/files/at10-luxury-genius-18k-alum-2026-by-agustin-tapia-pat10genius1826-8435778902621-2175122_1200x1200.png?v=1758604499",
+      "bytes": 139238
+    },
+    {
+      "id": "prod-nox-at10-12k-2026",
+      "slug": "nox-at10-genius-12k-alum-xtrem-2026",
+      "sourceUrl": "https://noxsport.com/en/products/pala-at10-genius-12k-alum-xtrem-2026-by-agustin-tapia",
+      "status": "READY",
+      "imageUrl": "http://noxsport.com/cdn/shop/files/at10-luxury-genius-12k-alum-xtrem-2026-by-agustin-tapia-pat10genius1226-8435778902645-9466941_1200x1200.png?v=1758604499",
+      "bytes": 96384
+    },
+    {
+      "id": "prod-nox-at10-attack-18k-2026",
+      "slug": "nox-at10-genius-attack-18k-2026",
+      "sourceUrl": "https://noxsport.com/en/products/pala-at10-genius-attack-18k-alum-2026-by-agustin-tapia",
+      "status": "READY",
+      "imageUrl": "http://noxsport.com/cdn/shop/files/at10-luxury-genius-attack-18k-alum-2026-by-agustin-tapia-pat10geniusat1826-8435778902638-4015240_1200x1200.png?v=1758604501",
+      "bytes": 129447
+    },
+    {
+      "id": "prod-nox-equation-soft-2026",
+      "slug": "nox-equation-soft-advanced-2026",
+      "sourceUrl": "https://noxsport.com/en/products/pala-equation-soft-advanced",
+      "status": "READY",
+      "imageUrl": "http://noxsport.com/cdn/shop/files/equation-soft-advanced-pequsadv26-8435778902751-4653383_1200x1200.png?v=1758604424",
+      "bytes": 108640
+    },
+    {
+      "id": "prod-nox-ml10-pro-cup",
+      "slug": "nox-ml10-pro-cup",
+      "sourceUrl": "https://noxsport.com",
+      "status": "READY",
+      "imageUrl": "http://noxsport.com/cdn/shop/files/logo_nox_1200x1200.png?v=1737392034",
+      "bytes": 18912
+    },
+    {
+      "id": "prod-bullpadel-vertex-05",
+      "slug": "bullpadel-vertex-05-2026",
+      "sourceUrl": "https://www.bullpadel.com/gb/5677-racket-bullpadel-vertex-05.html",
+      "status": "BLOCKED",
+      "error": "page HTTP 403"
+    },
+    {
+      "id": "prod-bullpadel-vertex-05-hybrid",
+      "slug": "bullpadel-vertex-05-hybrid-2026",
+      "sourceUrl": "https://www.bullpadel.com/gb/5679-racket-bullpadel-vertex-05-hyb.html",
+      "status": "BLOCKED",
+      "error": "page HTTP 403"
+    },
+    {
+      "id": "prod-bullpadel-vertex-05-w",
+      "slug": "bullpadel-vertex-05-w-2026",
+      "sourceUrl": "https://www.bullpadel.com/gb/proline/5681-racket-bullpadel-vertex-05-w.html",
+      "status": "BLOCKED",
+      "error": "page HTTP 403"
+    },
+    {
+      "id": "prod-bullpadel-hack-04",
+      "slug": "bullpadel-hack-04-2026",
+      "sourceUrl": "https://www.bullpadel.com/gb/5674-racket-bullpadel-hack-04-26.html",
+      "status": "BLOCKED",
+      "error": "page HTTP 403"
+    },
+    {
+      "id": "prod-bullpadel-hack-04-hybrid",
+      "slug": "bullpadel-hack-04-hybrid-2026",
+      "sourceUrl": "https://www.bullpadel.com/gb/5675-racket-bullpadel-hack-04-hyb-26.html",
+      "status": "BLOCKED",
+      "error": "page HTTP 403"
+    },
+    {
+      "id": "prod-bullpadel-hack-04-comfort",
+      "slug": "bullpadel-hack-04-comfort-2026",
+      "sourceUrl": "https://www.bullpadel.com/gb/5676-racket-bullpadel-hack-04-cmf-26.html",
+      "status": "BLOCKED",
+      "error": "page HTTP 403"
+    },
+    {
+      "id": "prod-bullpadel-neuron-02",
+      "slug": "bullpadel-neuron-02-2026",
+      "sourceUrl": "https://www.bullpadel.com/gb/5684-racket-bullpadel-neuron-02.html",
+      "status": "BLOCKED",
+      "error": "page HTTP 403"
+    },
+    {
+      "id": "prod-bullpadel-neuron-02-edge",
+      "slug": "bullpadel-neuron-02-edge-2026",
+      "sourceUrl": "https://www.bullpadel.com/gb/5685-racket-bullpadel-neuron-02-edge.html",
+      "status": "BLOCKED",
+      "error": "page HTTP 403"
+    },
+    {
+      "id": "prod-bullpadel-xplo",
+      "slug": "bullpadel-xplo-2026",
+      "sourceUrl": "https://www.bullpadel.com/gb/5682-racket-bullpadel-xplo-26.html",
+      "status": "BLOCKED",
+      "error": "page HTTP 403"
+    },
+    {
+      "id": "prod-bullpadel-xplo-comfort",
+      "slug": "bullpadel-xplo-comfort-2026",
+      "sourceUrl": "https://www.bullpadel.com/gb/5683-racket-bullpadel-xplo-cmf-26.html",
+      "status": "BLOCKED",
+      "error": "page HTTP 403"
+    },
+    {
+      "id": "prod-bullpadel-ionic-light",
+      "slug": "bullpadel-ionic-light-2026",
+      "sourceUrl": "https://www.bullpadel.com/gb/5693-racket-bullpadel-ionic-light-26.html",
+      "status": "BLOCKED",
+      "error": "page HTTP 403"
+    },
+    {
+      "id": "prod-bullpadel-indiga-ctr",
+      "slug": "bullpadel-indiga-ctr-2026",
+      "sourceUrl": "https://www.bullpadel.com/gb/5697-racket-bullpadel-indiga-ctr-26.html",
+      "status": "BLOCKED",
+      "error": "page HTTP 403"
+    },
+    {
+      "id": "prod-bullpadel-vertex-advance",
+      "slug": "bullpadel-vertex-advance-2026",
+      "sourceUrl": "https://www.bullpadel.com/gb/5694-racket-bullpadel-vertex-advance.html",
+      "status": "BLOCKED",
+      "error": "page HTTP 403"
+    },
+    {
+      "id": "prod-bullpadel-vertex-04",
+      "slug": "bullpadel-vertex-04",
+      "sourceUrl": "https://www.bullpadel.com/gb/5677-racket-bullpadel-vertex-05.html",
+      "status": "BLOCKED",
+      "error": "page HTTP 403"
+    },
+    {
+      "id": "prod-bullpadel-hack-03",
+      "slug": "bullpadel-hack-03",
+      "sourceUrl": "https://www.bullpadel.com/gb/5674-racket-bullpadel-hack-04-26.html",
+      "status": "BLOCKED",
+      "error": "page HTTP 403"
+    },
+    {
+      "id": "prod-adidas-metalbone-3-5-2026",
+      "slug": "adidas-metalbone-3-5-2026",
+      "sourceUrl": "https://allforpadel.com/en/padel-rackets/7521-padel-racket-adidas-metalbone-2026-ale-galan-8435739405802.html",
+      "status": "READY",
+      "imageUrl": "https://allforpadel.com/9079-thickbox_default/padel-racket-adidas-metalbone-2026-ale-galan.jpg",
+      "bytes": 82531
+    },
+    {
+      "id": "prod-adidas-metalbone-hrd",
+      "slug": "adidas-metalbone-hrd-2026",
+      "sourceUrl": "https://allforpadel.com/en/padel-rackets/7522-padel-racket-adidas-metalbone-hrd-2026-ale-galan-8435739405826.html",
+      "status": "READY",
+      "imageUrl": "https://allforpadel.com/9090-thickbox_default/padel-racket-adidas-metalbone-hrd-2026-ale-galan.jpg",
+      "bytes": 92320
+    },
+    {
+      "id": "prod-adidas-metalbone-ctrl",
+      "slug": "adidas-metalbone-ctrl-2026",
+      "sourceUrl": "https://allforpadel.com/en/padel-rackets/7525-padel-racket-adidas-metalbone-ctrl-2026-8435739405819.html",
+      "status": "READY",
+      "imageUrl": "https://allforpadel.com/9109-thickbox_default/padel-racket-adidas-metalbone-ctrl-2026.jpg",
+      "bytes": 83262
+    },
+    {
+      "id": "prod-adidas-metalbone-team-light",
+      "slug": "adidas-metalbone-team-light-2026",
+      "sourceUrl": "https://allforpadel.com/en/padel-rackets/7535-padel-racket-adidas-metalbone-team-light-2026-8435739405864.html",
+      "status": "READY",
+      "imageUrl": "https://allforpadel.com/9200-thickbox_default/padel-racket-adidas-metalbone-team-light-2026.jpg",
+      "bytes": 73367
+    },
+    {
+      "id": "prod-adidas-cross-it-light",
+      "slug": "adidas-cross-it-light-2026",
+      "sourceUrl": "https://allforpadel.com/en/110-new-collection",
+      "status": "BLOCKED",
+      "imageUrl": "https://allforpadel.com/img/cms/home/logo_iso.jpg",
+      "error": "too small 3885"
+    },
+    {
+      "id": "prod-adidas-cross-it-ctrl",
+      "slug": "adidas-cross-it-ctrl-2026",
+      "sourceUrl": "https://allforpadel.com/en/54-padel-rackets",
+      "status": "READY",
+      "imageUrl": "https://allforpadel.com/c/54-category_default/padel-rackets.jpg",
+      "bytes": 18369
+    },
+    {
+      "id": "prod-adidas-arrow-hit-ctrl",
+      "slug": "adidas-arrow-hit-ctrl-2026",
+      "sourceUrl": "https://allforpadel.com/en/padel-rackets/7526-padel-racket-adidas-arrow-hit-ctrl-8435739405895.html",
+      "status": "READY",
+      "imageUrl": "https://allforpadel.com/9384-thickbox_default/padel-racket-adidas-arrow-hit-ctrl.jpg",
+      "bytes": 89283
+    },
+    {
+      "id": "prod-adidas-arrow-hit-attk",
+      "slug": "adidas-arrow-hit-2026",
+      "sourceUrl": "https://allforpadel.com/en/110-new-collection",
+      "status": "BLOCKED",
+      "imageUrl": "https://allforpadel.com/img/cms/home/logo_iso.jpg",
+      "error": "too small 3885"
+    },
+    {
+      "id": "prod-adidas-match-light",
+      "slug": "adidas-match-light-2026",
+      "sourceUrl": "https://allforpadel.com/en/padel-rackets/7495-padel-racket-adidas-match-light-2026-8435739406076.html",
+      "status": "READY",
+      "imageUrl": "https://allforpadel.com/9069-thickbox_default/padel-racket-adidas-match-light-2026.jpg",
+      "bytes": 72728
+    },
+    {
+      "id": "prod-adidas-metalbone-3-3-2026",
+      "slug": "adidas-metalbone-3-3",
+      "sourceUrl": "https://allforpadel.com/en/54-padel-rackets",
+      "status": "BLOCKED",
+      "imageUrl": "https://allforpadel.com/c/54-category_default/padel-rackets.jpg",
+      "error": "shared-hero hash collision for prod-adidas-metalbone-3-3-2026-jpeg: same bytes as /images/padel/products/adidas-cross-it-ctrl-2026-hero.jpg"
+    },
+    {
+      "id": "prod-head-coello-pro",
+      "slug": "head-coello-pro-2026",
+      "sourceUrl": "https://www.head.com/en/product/coello-pro-2026-225036",
+      "status": "BLOCKED",
+      "error": "page HTTP 429"
+    },
+    {
+      "id": "prod-head-coello-motion",
+      "slug": "head-coello-motion-2026",
+      "sourceUrl": "https://www.head.com/product/coello-motion-2026-225046",
+      "status": "BLOCKED",
+      "error": "page HTTP 429"
+    },
+    {
+      "id": "prod-head-coello-team",
+      "slug": "head-coello-team-2026",
+      "sourceUrl": "https://www.head.com/product/coello-team-2026-225056",
+      "status": "BLOCKED",
+      "error": "page HTTP 429"
+    },
+    {
+      "id": "prod-head-extreme-pro-padel",
+      "slug": "head-extreme-pro-padel",
+      "sourceUrl": "https://www.head.com/en/product/extreme-pro-2025-223125",
+      "status": "BLOCKED",
+      "error": "page HTTP 429"
+    },
+    {
+      "id": "prod-head-extreme-motion-2026",
+      "slug": "head-extreme-motion",
+      "sourceUrl": "https://www.head.com/en_GB/product/extreme-motion-2025-223135",
+      "status": "BLOCKED",
+      "error": "page HTTP 429"
+    },
+    {
+      "id": "prod-head-gravity-pro",
+      "slug": "head-gravity-pro",
+      "sourceUrl": "https://www.head.com/product/gravity-pro-2024-224004",
+      "status": "BLOCKED",
+      "error": "page HTTP 429"
+    },
+    {
+      "id": "prod-head-gravity-motion",
+      "slug": "head-gravity-motion",
+      "sourceUrl": "https://www.head.com/en_GB/product/gravity-motion-2024-224014",
+      "status": "BLOCKED",
+      "error": "page HTTP 429"
+    },
+    {
+      "id": "prod-head-speed-pro",
+      "slug": "head-speed-pro",
+      "sourceUrl": "https://www.head.com/en/product/speed-pro-2025-221065",
+      "status": "BLOCKED",
+      "error": "page HTTP 429"
+    },
+    {
+      "id": "prod-head-one-ultralight",
+      "slug": "head-one-ultralight",
+      "sourceUrl": "https://www.head.com/product/one-ultralight-white-225014",
+      "status": "BLOCKED",
+      "error": "page HTTP 429"
+    },
+    {
+      "id": "prod-babolat-technical-viper",
+      "slug": "babolat-technical-viper-3-0",
+      "sourceUrl": "https://www.babolat.com/us/technical-viper-3.0/150175.html",
+      "status": "READY",
+      "imageUrl": "https://media.babolat.com/image/upload/v1741095799/Product_Media/2026/Padel/RACQUETS/150175-TECHNICAL_VIPER_3.0-100-1-Face.png",
+      "bytes": 157037
+    },
+    {
+      "id": "prod-babolat-counter-viper",
+      "slug": "babolat-counter-viper",
+      "sourceUrl": "https://www.babolat.com/us/padel/racquets.html",
+      "status": "BLOCKED",
+      "imageUrl": "https://www.babolat.com/on/demandware.static/Sites-babolateu-Site/-/default/dwfa354e25/images/logo.svg",
+      "error": "too small 4966"
+    },
+    {
+      "id": "prod-babolat-air-viper",
+      "slug": "babolat-air-viper-2-6",
+      "sourceUrl": "https://www.babolat.com/us/padel/racquets.html",
+      "status": "BLOCKED",
+      "imageUrl": "https://www.babolat.com/on/demandware.static/Sites-babolateu-Site/-/default/dwfa354e25/images/logo.svg",
+      "error": "too small 4966"
+    },
+    {
+      "id": "prod-babolat-air-veron",
+      "slug": "babolat-air-veron-2-6",
+      "sourceUrl": "https://www.babolat.com/us/padel/racquets.html",
+      "status": "BLOCKED",
+      "imageUrl": "https://www.babolat.com/on/demandware.static/Sites-babolateu-Site/-/default/dwfa354e25/images/logo.svg",
+      "error": "too small 4966"
+    },
+    {
+      "id": "prod-siux-diablo",
+      "slug": "siux-diablo-pro-2026",
+      "sourceUrl": "https://siuxusa.com/products/diablo-pro-2026-night-blue",
+      "status": "READY",
+      "imageUrl": "http://siuxusa.com/cdn/shop/files/DiabloPro26NightBlue.1.png?v=1770101611",
+      "bytes": 81412
+    },
+    {
+      "id": "prod-siux-electra",
+      "slug": "siux-electra-pro-2026",
+      "sourceUrl": "https://www.siuxpadel.com",
+      "status": "BLOCKED",
+      "error": "no og:image"
+    },
+    {
+      "id": "prod-siux-fenix",
+      "slug": "siux-fenix-pro-2026",
+      "sourceUrl": "https://www.siuxpadel.com",
+      "status": "BLOCKED",
+      "error": "no og:image"
+    },
+    {
+      "id": "prod-wilson-bela-pro",
+      "slug": "wilson-bela-pro-v3",
+      "sourceUrl": "https://www.wilson.com/en-us/padel/racquets",
+      "status": "BLOCKED",
+      "imageUrl": "https://www.wilson.com/default-meta-image.png?width=1200&#x26;format=pjpg&#x26;optimize=medium",
+      "error": "HTTP 404"
+    },
+    {
+      "id": "prod-wilson-blade-pro-padel",
+      "slug": "wilson-blade-pro-v3-padel",
+      "sourceUrl": "https://www.wilson.com/en-us/padel/racquets",
+      "status": "BLOCKED",
+      "imageUrl": "https://www.wilson.com/default-meta-image.png?width=1200&#x26;format=pjpg&#x26;optimize=medium",
+      "error": "HTTP 404"
+    },
+    {
+      "id": "prod-starvie-titania-kepler",
+      "slug": "starvie-titania-kepler",
+      "sourceUrl": "https://starvie.com/en/products/astrum",
+      "status": "READY",
+      "imageUrl": "http://starvie.com/cdn/shop/files/ASTRUM_EN.png?v=1782393157",
+      "bytes": 141021
+    },
+    {
+      "id": "prod-starvie-basalto-osiris",
+      "slug": "starvie-basalto-osiris",
+      "sourceUrl": "https://starvie.com/en/products/astrum",
+      "status": "BLOCKED",
+      "imageUrl": "http://starvie.com/cdn/shop/files/ASTRUM_EN.png?v=1782393157",
+      "error": "shared-hero hash collision for prod-starvie-basalto-osiris-jpeg: same bytes as /images/padel/products/starvie-titania-kepler-hero.jpg"
+    },
+    {
+      "id": "prod-starvie-astrum",
+      "slug": "starvie-astrum-plus-2026",
+      "sourceUrl": "https://starvie.com/en/products/astrum",
+      "status": "BLOCKED",
+      "imageUrl": "http://starvie.com/cdn/shop/files/ASTRUM_EN.png?v=1782393157",
+      "error": "shared-hero hash collision for prod-starvie-astrum-jpeg: same bytes as /images/padel/products/starvie-titania-kepler-hero.jpg"
+    },
+    {
+      "id": "prod-tecnifibre-wall-breaker-365-2026",
+      "slug": "tecnifibre-wall-breaker-365",
+      "sourceUrl": "https://www.tecnifibre.com",
+      "status": "READY",
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0907/5425/3144/files/Tecnifibre_LOGO_COMPACT_RVB.jpg?v=1764928617",
+      "bytes": 8970
+    },
+    {
+      "id": "prod-kuikma-pr-soft-500",
+      "slug": "kuikma-pr-soft-500",
+      "sourceUrl": "https://www.decathlon.nl",
+      "status": "BLOCKED",
+      "error": "page HTTP 403"
+    },
+    {
+      "id": "prod-drop-shot-canyon-pro",
+      "slug": "drop-shot-canyon-pro",
+      "sourceUrl": "https://www.drop-shot.com",
+      "status": "BLOCKED",
+      "error": "no og:image"
+    },
+    {
+      "id": "prod-varlion-lw-carbon-difusor",
+      "slug": "varlion-lw-carbon-difusor",
+      "sourceUrl": "https://www.varlion.com",
+      "status": "BLOCKED",
+      "error": "no og:image"
+    },
+    {
+      "id": "prod-oxdog-sense-pro-2026",
+      "slug": "oxdog-sense-pro",
+      "sourceUrl": "https://oxdogpadel.com",
+      "status": "BLOCKED",
+      "error": "no og:image"
+    },
+    {
+      "id": "prod-royal-padel-rp-m27-2026",
+      "slug": "royal-padel-m27-poly-2026",
+      "sourceUrl": "https://www.royalpadel.com",
+      "status": "BLOCKED",
+      "error": "no og:image"
+    },
+    {
+      "id": "prod-black-crown-special-one-soft",
+      "slug": "black-crown-special-one-soft",
+      "sourceUrl": "https://blackcrown.es",
+      "status": "READY",
+      "imageUrl": "https://blackcrown.es/wp-content/uploads/2026/04/jugadors-70-scaled.jpg",
+      "bytes": 99304
+    },
+    {
+      "id": "prod-lok-maxx-flow",
+      "slug": "lok-maxx-flow",
+      "sourceUrl": "https://www.lokpadel.com",
+      "status": "BLOCKED",
+      "error": "fetch failed"
+    },
+    {
+      "id": "prod-nox-at10-attack-12k-2026",
+      "slug": "nox-at10-genius-attack-12k-2026",
+      "sourceUrl": "https://noxsport.com/en/blogs/making-you-improve/serie-at10-2026-comparativa-nuevas-palas-agustin-tapia",
+      "status": "READY",
+      "imageUrl": "http://noxsport.com/cdn/shop/articles/serie-at10-luxury-2026-comparativa-de-las-nuevas-palas-de-agustin-tapia-6015243_1200x1200.png?v=1758603437",
+      "bytes": 39393
+    },
+    {
+      "id": "prod-kuikma-pr-hybrid-carbon",
+      "slug": "kuikma-pr-hybrid-carbon",
+      "sourceUrl": "https://www.decathlon.fr/p/raquette-de-padel-kuikma-pr-hybrid-carbon-coki-nieto/341828/m8979558",
+      "status": "BLOCKED",
+      "error": "page HTTP 403"
+    },
+    {
+      "id": "prod-kuikma-pr-comfort-soft",
+      "slug": "kuikma-pr-comfort-soft",
+      "sourceUrl": "https://actu-padel.com/en/kuikma-revamps-its-padel-project-players-2026-range-and-international-focus/",
+      "status": "BLOCKED",
+      "imageUrl": "https://cdn.actu-padel.com/wp-content/uploads/2026/05/kuikma-muscle-projet-padel-joueurs-gamme-2026-cap-international.jpg?strip=all&#038;sharp=1",
+      "error": "HTTP 400"
+    }
+  ]
+}

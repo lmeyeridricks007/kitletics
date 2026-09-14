@@ -19,6 +19,11 @@ import sharp from "sharp";
 import { getBrandById, getProductById, getReviews } from "@/repositories";
 import { getPrimaryProductMedia } from "@/lib/product/media";
 import { enrichReviewForPage } from "@/lib/review/enrich-review-for-page";
+import {
+  PADEL_GRIP_SECTION_IMAGE_TOPICS,
+  PADEL_RACKET_SECTION_IMAGE_TOPICS,
+  PADEL_SHOE_SECTION_IMAGE_TOPICS,
+} from "@/lib/review/padel-review-outline";
 
 type Family = "running" | "watches" | "racket" | "fitness" | "general";
 
@@ -266,6 +271,7 @@ function flag(name: string): boolean {
 function categoryFamily(categoryId: string): Family {
   // Keep in sync with src/lib/review/resolve-section-visuals.ts
   if (/watch|gps|hrm|heart.?rate/i.test(categoryId)) return "watches";
+  if (/cat-padel-|padel/i.test(categoryId)) return "racket";
   if (
     /running|shoe|sock|belt|light|headphone|pack|hydrat|sunglass|recovery|safety/i.test(
       categoryId,
@@ -274,7 +280,7 @@ function categoryFamily(categoryId: string): Family {
     return "running";
   }
   if (
-    /padel|tennis|squash|badminton|pickleball|racket|paddle|grip|ball/i.test(
+    /tennis|squash|badminton|pickleball|racket|paddle|grip|ball/i.test(
       categoryId,
     )
   ) {
@@ -309,6 +315,15 @@ function sportFoldersFor(family: Family, heroSrc?: string): string[] {
 
 function topicsFor(family: Family, categoryId: string): Topic[] {
   if (family === "watches") return [...WATCH_TOPICS];
+  if (categoryId === "cat-padel-rackets") {
+    return [...PADEL_RACKET_SECTION_IMAGE_TOPICS];
+  }
+  if (categoryId === "cat-padel-shoes") {
+    return [...PADEL_SHOE_SECTION_IMAGE_TOPICS];
+  }
+  if (categoryId === "cat-padel-grips") {
+    return [...PADEL_GRIP_SECTION_IMAGE_TOPICS];
+  }
   if (family === "racket") return [...RACKET_TOPICS];
   if (family === "fitness") return [...FITNESS_TOPICS];
   if (/shoe/i.test(categoryId)) return [...SHOE_TOPICS];

@@ -30,6 +30,7 @@ type VisualFamily =
   | "fuel"
   | "recovery"
   | "fitness"
+  | "padel"
   | "general";
 
 const SHOE_VARIANTS = new Set<ExplainerDiagramVariant>([
@@ -107,6 +108,8 @@ const FAMILY_FALLBACK_POOL: Record<VisualFamily, ExplainerDiagramVariant[]> = {
   fuel: ["fuel-gels", "running-belt", "soft-flask"],
   recovery: ["massage-gun", "recovery-sandal"],
   fitness: ["cross-training-shoe", "gps-watch-run"],
+  /** Padel guides never inherit running/tennis concept art. */
+  padel: [],
   general: [
     "gps-watch-run",
     "hydration-vest",
@@ -118,6 +121,14 @@ const FAMILY_FALLBACK_POOL: Record<VisualFamily, ExplainerDiagramVariant[]> = {
 
 export function guideVisualFamily(slug: string): VisualFamily {
   const s = slug.toLowerCase();
+  // Padel first — "shoe" / "drop" tokens in padel slugs must not inherit running art
+  if (
+    /padel|round-vs-teardrop|teardrop-vs-diamond|carbon-vs-fiberglass-padel|soft-vs-hard-padel/.test(
+      s,
+    )
+  ) {
+    return "padel";
+  }
   if (
     /heart-rate|hrm|optical-wrist|chest-strap|verity|tickr/.test(s)
   ) {
@@ -187,6 +198,7 @@ export function resolveSectionVisualCandidates(
   const hay = `${slug} ${title} ${blockId} ${blockType}`.toLowerCase();
   const out: ExplainerSectionDiagram[] = [];
   const push = (variant: ExplainerDiagramVariant, caption: string) => {
+    if (family === "padel") return;
     if (family !== "shoes" && SHOE_VARIANTS.has(variant)) return;
     if (!out.some((v) => v.variant === variant)) {
       out.push(visual(variant, caption));
@@ -744,6 +756,37 @@ function attachDiagram<T extends ExplainerBlock>(
   used: Set<ExplainerDiagramVariant>,
   family: VisualFamily,
 ): T {
+  // Padel explainers: never stamp running/tennis concept diagrams.
+  if (family === "padel") {
+    if (block.diagram && SHOE_VARIANTS.has(block.diagram.variant)) {
+      const { diagram: _drop, ...rest } = block as T & {
+        diagram?: ExplainerSectionDiagram;
+      };
+      return rest as T;
+    }
+    if (!block.diagram) return block;
+    // Drop any variant that resolves to running/fitness lifestyle art
+    const forbidden = new Set([
+      "running-belt",
+      "fuel-gels",
+      "hydration-vest",
+      "vest-vs-belt",
+      "gps-watch-run",
+      "hrm-chest-vs-wrist",
+      "daily-trainer",
+      "easy-miles",
+      "tempo-session",
+      ...SHOE_VARIANTS,
+    ]);
+    if (forbidden.has(block.diagram.variant)) {
+      const { diagram: _drop, ...rest } = block as T & {
+        diagram?: ExplainerSectionDiagram;
+      };
+      return rest as T;
+    }
+    used.add(block.diagram.variant);
+    return block;
+  }
   if (SKIP_VISUAL_TYPES.has(block.type)) return block;
   if (block.diagram) {
     // Reject pre-set shoe diagrams on non-shoe guides

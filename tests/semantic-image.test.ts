@@ -134,7 +134,10 @@ describe("semantic image resolver", () => {
       title: "How to Choose a Running Watch",
       categoryId: "cat-gps-watches",
     });
-    expect(cls.class).toBe("UNKNOWN");
+    // Running-folder paths classify as running photography; on a watch guide
+    // that must never upgrade to CORRECT (WRONG_CONTENT_TYPE / WRONG_SPORT / UNKNOWN).
+    expect(cls.class).not.toBe("CORRECT");
+    expect(["UNKNOWN", "WRONG_CONTENT_TYPE", "WRONG_SPORT"]).toContain(cls.class);
   });
 
   it("resolver never returns padel for a watch topic", () => {

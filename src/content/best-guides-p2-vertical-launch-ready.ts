@@ -913,6 +913,7 @@ export function applyBestGuideP2VerticalLaunchReadyEnrichment(
   guides: BestGuide[],
 ): BestGuide[] {
   return guides.map((guide) => {
+    if (guide.sportId === "sport-padel") return guide;
     const patch = P2_PATCHES[guide.slug];
     if (!patch) return guide;
 

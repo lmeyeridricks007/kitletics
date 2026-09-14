@@ -5,12 +5,14 @@ import { DEFAULT_REGION, REGIONS } from "@/domain/shared/types";
  * Launch commerce posture from pre-launch audit (06-media-offers-trust).
  * Do not invent parity across markets — NL is primary until Offer data improves.
  *
- * | Region | Offer rows (audit) | Displayable % |
- * | NL     | 738                | ~100          |
- * | DE     | 274                | ~40           |
- * | UK     | 278                | ~41           |
- * | US     | 3                  | ~0            |
- * | BE/FR/ZA | 0                | 0             |
+ * Update when Offer inventory materially changes (see docs/padel/PADEL-COMMERCE-AUDIT.md).
+ *
+ * | Region | Posture |
+ * | NL     | primary |
+ * | DE/UK  | partial |
+ * | US     | limited |
+ * | FR     | limited (Amazon.fr retailer ready; listings sparse) |
+ * | BE/ZA  | none until verified listing Offers exist |
  */
 export type RegionCommerceCoverage =
   | "primary"
@@ -29,7 +31,7 @@ export const REGION_COMMERCE_COVERAGE: Record<
   DE: "partial",
   UK: "partial",
   US: "limited",
-  FR: "none",
+  FR: "limited",
   BE: "none",
   ZA: "none",
 };

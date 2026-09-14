@@ -1,0 +1,400 @@
+path,page_type,entity_id,entity_slug,launch_disposition,robots_expectation,in_sitemap_expected,notes
+/best/padel-bags,best-guide,best-padel-bags,padel-bags,INDEXABLE,"index,follow",yes,contextualDepth=high|editorial_ready
+/best/padel-overgrips,best-guide,best-padel-overgrips,padel-overgrips,INDEXABLE,"index,follow",yes,contextualDepth=high|editorial_ready
+/best/padel-rackets,best-guide,best-padel-rackets,padel-rackets,INDEXABLE,"index,follow",yes,contextualDepth=high|editorial_ready
+/best/padel-rackets-advanced,best-guide,best-padel-rackets-advanced,padel-rackets-advanced,INDEXABLE,"index,follow",yes,contextualDepth=high|editorial_ready
+/best/padel-rackets-all-round,best-guide,best-padel-rackets-all-round,padel-rackets-all-round,INDEXABLE,"index,follow",yes,contextualDepth=high|editorial_ready
+/best/padel-rackets-beginners,best-guide,best-padel-rackets-beginners,padel-rackets-beginners,INDEXABLE,"index,follow",yes,contextualDepth=high|editorial_ready
+/best/padel-rackets-comfort,best-guide,best-padel-rackets-comfort,padel-rackets-comfort,INDEXABLE,"index,follow",yes,contextualDepth=high|editorial_ready
+/best/padel-rackets-control,best-guide,best-padel-rackets-control,padel-rackets-control,INDEXABLE,"index,follow",yes,contextualDepth=high|editorial_ready
+/best/padel-rackets-intermediate,best-guide,best-padel-rackets-intermediate,padel-rackets-intermediate,INDEXABLE,"index,follow",yes,contextualDepth=high|editorial_ready
+/best/padel-rackets-lightweight,best-guide,best-padel-rackets-lightweight,padel-rackets-lightweight,INDEXABLE,"index,follow",yes,contextualDepth=high|editorial_ready
+/best/padel-rackets-maneuverability,best-guide,best-padel-rackets-maneuverability,padel-rackets-maneuverability,INDEXABLE,"index,follow",yes,contextualDepth=high|editorial_ready
+/best/padel-rackets-power,best-guide,best-padel-rackets-power,padel-rackets-power,INDEXABLE,"index,follow",yes,contextualDepth=high|editorial_ready
+/best/padel-rackets-women,best-guide,best-padel-rackets-women,padel-rackets-women,INDEXABLE,"index,follow",yes,contextualDepth=high|editorial_ready
+/best/padel-shoes,best-guide,best-padel-shoes,padel-shoes,INDEXABLE,"index,follow",yes,contextualDepth=high|editorial_ready
+/best/padel-shoes-comfort,best-guide,best-padel-shoes-comfort,padel-shoes-comfort,INDEXABLE,"index,follow",yes,contextualDepth=high|editorial_ready
+/best/padel-shoes-men,best-guide,best-padel-shoes-men,padel-shoes-men,INDEXABLE,"index,follow",yes,contextualDepth=high|editorial_ready
+/best/padel-shoes-stability,best-guide,best-padel-shoes-stability,padel-shoes-stability,INDEXABLE,"index,follow",yes,contextualDepth=high|editorial_ready
+/best/padel-shoes-women,best-guide,best-padel-shoes-women,padel-shoes-women,INDEXABLE,"index,follow",yes,contextualDepth=high|editorial_ready
+/brands/adidas-padel,brand,brand-adidas-padel,adidas-padel,INDEXABLE,"index,follow",yes,brand_hub_ok
+/brands/asics,brand,brand-asics,asics,INDEXABLE,"index,follow",yes,brand_hub_ok
+/brands/babolat,brand,brand-babolat-padel,babolat,INDEXABLE,"index,follow",yes,brand_hub_ok
+/brands/black-crown,brand,brand-black-crown,black-crown,HIDDEN_404,"noindex,nofollow",no,brand_hub_no_products
+/brands/bullpadel,brand,brand-bullpadel,bullpadel,INDEXABLE,"index,follow",yes,brand_hub_ok
+/brands/drop-shot,brand,brand-drop-shot,drop-shot,HIDDEN_404,"noindex,nofollow",no,brand_hub_no_products
+/brands/head,brand,brand-head-padel,head,INDEXABLE,"index,follow",yes,brand_hub_ok
+/brands/hesacore,brand,brand-hesacore,hesacore,HIDDEN_404,"noindex,nofollow",no,brand_hub_no_products
+/brands/joma,brand,brand-joma,joma,INDEXABLE,"index,follow",yes,brand_hub_ok
+/brands/kuikma,brand,brand-kuikma,kuikma,INDEXABLE,"index,follow",yes,brand_hub_ok
+/brands/lok,brand,brand-lok,lok,HIDDEN_404,"noindex,nofollow",no,brand_hub_insufficient_depth
+/brands/nox,brand,brand-nox,nox,INDEXABLE,"index,follow",yes,brand_hub_ok
+/brands/oxdog,brand,brand-oxdog,oxdog,HIDDEN_404,"noindex,nofollow",no,brand_hub_insufficient_depth
+/brands/royal-padel,brand,brand-royal-padel,royal-padel,HIDDEN_404,"noindex,nofollow",no,brand_hub_insufficient_depth
+/brands/siux,brand,brand-siux,siux,INDEXABLE,"index,follow",yes,brand_hub_ok
+/brands/starvie,brand,brand-starvie,starvie,INDEXABLE,"index,follow",yes,brand_hub_ok
+/brands/tecnifibre-padel,brand,brand-tecnifibre-padel,tecnifibre-padel,HIDDEN_404,"noindex,nofollow",no,brand_hub_insufficient_depth
+/brands/varlion,brand,brand-varlion,varlion,HIDDEN_404,"noindex,nofollow",no,brand_hub_insufficient_depth
+/brands/wilson,brand,brand-wilson-padel,wilson,INDEXABLE,"index,follow",yes,brand_hub_ok
+/compare/babolat-technical-viper-2026-vs-wilson-bela-pro-v2-2026,comparison,cmp-babolat-wilson,babolat-technical-viper-2026-vs-wilson-bela-pro-v2-2026,INDEXABLE,"index,follow",yes,meaningful_decision_page|editorial_ready
+/compare/babolat-technical-viper-vs-counter-viper,comparison,cmp-technical-vs-counter-viper,babolat-technical-viper-vs-counter-viper,INDEXABLE,"index,follow",yes,meaningful_decision_page|editorial_ready
+/compare/bullpadel-hack-04-vs-adidas-metalbone-3-5,comparison,cmp-hack04-vs-metalbone35,bullpadel-hack-04-vs-adidas-metalbone-3-5,INDEXABLE,"index,follow",yes,meaningful_decision_page|editorial_ready
+/compare/bullpadel-vertex-04-vs-vertex-05,comparison,cmp-vertex04-vs-vertex05,bullpadel-vertex-04-vs-vertex-05,INDEXABLE,"index,follow",yes,meaningful_decision_page|editorial_ready
+/compare/bullpadel-vertex-05-vs-hack-04-2026,comparison,cmp-vertex05-vs-hack04,bullpadel-vertex-05-vs-hack-04-2026,INDEXABLE,"index,follow",yes,meaningful_decision_page|editorial_ready
+/compare/bullpadel-vertex-05-vs-nox-at10-12k-2026,comparison,cmp-vertex05-vs-at10-12k,bullpadel-vertex-05-vs-nox-at10-12k-2026,INDEXABLE,"index,follow",yes,meaningful_decision_page|editorial_ready
+/compare/bullpadel-vertex-05-vs-vertex-05-hybrid,comparison,cmp-vertex05-vs-hybrid,bullpadel-vertex-05-vs-vertex-05-hybrid,INDEXABLE,"index,follow",yes,meaningful_decision_page|editorial_ready
+/compare/head-coello-pro-vs-babolat-technical-viper,comparison,cmp-coello-vs-technical-viper,head-coello-pro-vs-babolat-technical-viper,INDEXABLE,"index,follow",yes,meaningful_decision_page|editorial_ready
+/compare/nox-at10-12k-vs-adidas-metalbone-2026,comparison,cmp-at10-12k-vs-metalbone,nox-at10-12k-vs-adidas-metalbone-2026,INDEXABLE,"index,follow",yes,meaningful_decision_page|editorial_ready
+/compare/nox-at10-genius-12k-vs-at10-attack-18k-2026,comparison,cmp-at10-genius-vs-attack,nox-at10-genius-12k-vs-at10-attack-18k-2026,INDEXABLE,"index,follow",yes,meaningful_decision_page|editorial_ready
+/compare/nox-at10-genius-18k-2026-vs-babolat-technical-viper-2026,comparison,cmp-nox-babolat,nox-at10-genius-18k-2026-vs-babolat-technical-viper-2026,INDEXABLE,"index,follow",yes,meaningful_decision_page|editorial_ready
+/compare/nox-ml10-pro-cup-vs-bullpadel-indiga-ctr,comparison,cmp-ml10-vs-indiga,nox-ml10-pro-cup-vs-bullpadel-indiga-ctr,INDEXABLE,"index,follow",yes,meaningful_decision_page|editorial_ready
+/guides/beginner-padel-gear-guide,buying-guide,guide-beginner-padel-gear,beginner-padel-gear-guide,INDEXABLE,"index,follow",yes,guide_complete|editorial_ready
+/guides/carbon-vs-fiberglass-padel-rackets,buying-guide,guide-carbon-vs-fiberglass-padel,carbon-vs-fiberglass-padel-rackets,INDEXABLE,"index,follow",yes,guide_complete|editorial_ready
+/guides/complete-padel-gear-checklist,buying-guide,guide-complete-padel-gear-checklist,complete-padel-gear-checklist,INDEXABLE,"index,follow",yes,guide_complete|editorial_ready
+/guides/how-long-do-padel-balls-last,buying-guide,guide-how-long-padel-balls-last,how-long-do-padel-balls-last,INDEXABLE,"index,follow",yes,guide_complete|editorial_ready
+/guides/how-often-should-you-replace-a-padel-overgrip,buying-guide,guide-how-often-replace-padel-overgrip,how-often-should-you-replace-a-padel-overgrip,INDEXABLE,"index,follow",yes,guide_complete|editorial_ready
+/guides/how-padel-racket-sweet-spots-work,buying-guide,guide-padel-racket-sweet-spots,how-padel-racket-sweet-spots-work,INDEXABLE,"index,follow",yes,guide_complete|editorial_ready
+/guides/how-to-choose-a-padel-bag,buying-guide,guide-choose-padel-bag,how-to-choose-a-padel-bag,INDEXABLE,"index,follow",yes,guide_complete|editorial_ready
+/guides/how-to-choose-a-padel-racket,buying-guide,guide-choose-padel-racket,how-to-choose-a-padel-racket,INDEXABLE,"index,follow",yes,guide_complete|editorial_ready
+/guides/how-to-choose-padel-balls,buying-guide,guide-choose-padel-balls,how-to-choose-padel-balls,INDEXABLE,"index,follow",yes,guide_complete|editorial_ready
+/guides/how-to-choose-padel-shoes,buying-guide,guide-choose-padel-shoes,how-to-choose-padel-shoes,INDEXABLE,"index,follow",yes,guide_complete|editorial_ready
+/guides/padel-grip-vs-overgrip,buying-guide,guide-padel-grip-vs-overgrip,padel-grip-vs-overgrip,INDEXABLE,"index,follow",yes,guide_complete|editorial_ready
+/guides/padel-grips-overgrips-explained,buying-guide,guide-padel-grips,padel-grips-overgrips-explained,INDEXABLE,"index,follow",yes,guide_complete|editorial_ready
+/guides/padel-racket-balance-explained,buying-guide,guide-padel-racket-balance,padel-racket-balance-explained,INDEXABLE,"index,follow",yes,guide_complete|editorial_ready
+/guides/padel-racket-cores-eva-foam-explained,buying-guide,guide-padel-racket-cores-eva,padel-racket-cores-eva-foam-explained,INDEXABLE,"index,follow",yes,guide_complete|editorial_ready
+/guides/padel-racket-materials-explained,buying-guide,guide-padel-racket-materials,padel-racket-materials-explained,INDEXABLE,"index,follow",yes,guide_complete|editorial_ready
+/guides/padel-racket-shapes-explained,buying-guide,guide-padel-racket-shapes,padel-racket-shapes-explained,INDEXABLE,"index,follow",yes,guide_complete|editorial_ready
+/guides/padel-racket-weight-explained,buying-guide,guide-padel-racket-weight,padel-racket-weight-explained,INDEXABLE,"index,follow",yes,guide_complete|editorial_ready
+/guides/padel-shoe-outsoles-explained,buying-guide,guide-padel-shoe-outsoles,padel-shoe-outsoles-explained,INDEXABLE,"index,follow",yes,guide_complete|editorial_ready
+/guides/padel-vs-tennis-shoes,buying-guide,guide-padel-vs-tennis-shoes,padel-vs-tennis-shoes,INDEXABLE,"index,follow",yes,guide_complete|editorial_ready
+/guides/round-vs-teardrop-vs-diamond-padel-rackets,buying-guide,guide-round-vs-teardrop-vs-diamond,round-vs-teardrop-vs-diamond-padel-rackets,INDEXABLE,"index,follow",yes,few-products|editorial_ready
+/guides/soft-vs-hard-padel-rackets,buying-guide,guide-soft-vs-hard-padel-rackets,soft-vs-hard-padel-rackets,INDEXABLE,"index,follow",yes,guide_complete|editorial_ready
+/padel,sport-hub,sport-padel,padel,PUBLIC_NOINDEX,"noindex,follow",no,vertical_hub_hold:padel:selective
+/padel/accessories,category,cat-padel-accessories,padel-accessories,PUBLIC_NOINDEX,"noindex,follow",no,soft_gated_category|padel_vertical_not_indexable
+/padel/bags,category,cat-padel-bags,padel-bags,PUBLIC_NOINDEX,"noindex,follow",no,category_under_padel_sport|padel_vertical_not_indexable
+/padel/balls,category,cat-padel-balls,padel-balls,PUBLIC_NOINDEX,"noindex,follow",no,category_under_padel_sport|padel_vertical_not_indexable
+/padel/clothing,category,cat-padel-clothing,padel-clothing,PUBLIC_NOINDEX,"noindex,follow",no,soft_gated_category|padel_vertical_not_indexable
+/padel/grips,category,cat-padel-grips,padel-grips,PUBLIC_NOINDEX,"noindex,follow",no,category_under_padel_sport|padel_vertical_not_indexable
+/padel/rackets,category,cat-padel-rackets,padel-rackets,PUBLIC_NOINDEX,"noindex,follow",no,category_under_padel_sport|padel_vertical_not_indexable
+/padel/rackets/database,database,padel-racket-database,padel-racket-database,PUBLIC_NOINDEX,"noindex,follow",no,public database; noindex while padel vertical is disabled
+/padel/shoes,category,cat-padel-shoes,padel-shoes,PUBLIC_NOINDEX,"noindex,follow",no,category_under_padel_sport|padel_vertical_not_indexable
+/products/adidas-aditour-padel-balls,product,prod-adidas-aditour-padel,adidas-aditour-padel-balls,HIDDEN_404,"noindex,nofollow",no,not_production_exposed:draft
+/products/adidas-aditour-padel-balls/alternatives,alternatives,prod-adidas-aditour-padel,adidas-aditour-padel-balls,HIDDEN_404,"noindex,nofollow",no,alternatives_graph_gate:source product not published|need ≥3 alternatives (have 0)|need ≥2 distinct alternative types|need meaningful unique reasons on ≥3 alts|need switch/trade-off decision shape on ≥2 alts
+/products/adidas-arrow-hit-2026,product,prod-adidas-arrow-hit-attk,adidas-arrow-hit-2026,PUBLIC_NOINDEX,"noindex,follow",no,decisionScore=90|missing:canBuy|publish:missing required spec: balance|minor_work_held
+/products/adidas-arrow-hit-2026/alternatives,alternatives,prod-adidas-arrow-hit-attk,adidas-arrow-hit-2026,PUBLIC_NOINDEX,"noindex,follow",no,parent_product_not_indexable|decisionScore=90|missing:canBuy|publish:missing required spec: balance|minor_work_held
+/products/adidas-arrow-hit-ctrl-2026,product,prod-adidas-arrow-hit-ctrl,adidas-arrow-hit-ctrl-2026,INDEXABLE,"index,follow",yes,decisionScore=90
+/products/adidas-arrow-hit-ctrl-2026/alternatives,alternatives,prod-adidas-arrow-hit-ctrl,adidas-arrow-hit-ctrl-2026,INDEXABLE,"index,follow",yes,alternatives_ok|editorial_ready
+/products/adidas-courtquick-padel-women,product,prod-adidas-courtquick-w,adidas-courtquick-padel-women,INDEXABLE,"index,follow",yes,decisionScore=100
+/products/adidas-courtquick-padel-women/alternatives,alternatives,prod-adidas-courtquick-w,adidas-courtquick-padel-women,INDEXABLE,"index,follow",yes,alternatives_ok|editorial_ready
+/products/adidas-courtstabil-padel,product,prod-adidas-courtstabil,adidas-courtstabil-padel,INDEXABLE,"index,follow",yes,decisionScore=100
+/products/adidas-courtstabil-padel/alternatives,alternatives,prod-adidas-courtstabil,adidas-courtstabil-padel,INDEXABLE,"index,follow",yes,alternatives_ok|editorial_ready
+/products/adidas-crazyquick-boost-padel,product,prod-adidas-crazyquick-boost-m,adidas-crazyquick-boost-padel,INDEXABLE,"index,follow",yes,decisionScore=100
+/products/adidas-crazyquick-boost-padel-women,product,prod-adidas-crazyquick-boost-w,adidas-crazyquick-boost-padel-women,INDEXABLE,"index,follow",yes,decisionScore=100
+/products/adidas-crazyquick-boost-padel-women/alternatives,alternatives,prod-adidas-crazyquick-boost-w,adidas-crazyquick-boost-padel-women,INDEXABLE,"index,follow",yes,alternatives_ok|editorial_ready
+/products/adidas-crazyquick-boost-padel/alternatives,alternatives,prod-adidas-crazyquick-boost-m,adidas-crazyquick-boost-padel,INDEXABLE,"index,follow",yes,alternatives_ok|editorial_ready
+/products/adidas-cross-it-ctrl-2026,product,prod-adidas-cross-it-ctrl,adidas-cross-it-ctrl-2026,PUBLIC_NOINDEX,"noindex,follow",no,decisionScore=90|missing:canBuy|publish:missing required spec: balance|minor_work_held
+/products/adidas-cross-it-ctrl-2026/alternatives,alternatives,prod-adidas-cross-it-ctrl,adidas-cross-it-ctrl-2026,PUBLIC_NOINDEX,"noindex,follow",no,parent_product_not_indexable|decisionScore=90|missing:canBuy|publish:missing required spec: balance|minor_work_held
+/products/adidas-cross-it-light-2026,product,prod-adidas-cross-it-light,adidas-cross-it-light-2026,PUBLIC_NOINDEX,"noindex,follow",no,decisionScore=90|missing:canBuy|publish:missing required spec: shape|minor_work_held
+/products/adidas-cross-it-light-2026/alternatives,alternatives,prod-adidas-cross-it-light,adidas-cross-it-light-2026,PUBLIC_NOINDEX,"noindex,follow",no,parent_product_not_indexable|decisionScore=90|missing:canBuy|publish:missing required spec: shape|minor_work_held
+/products/adidas-match-light-2026,product,prod-adidas-match-light,adidas-match-light-2026,INDEXABLE,"index,follow",yes,decisionScore=90
+/products/adidas-match-light-2026/alternatives,alternatives,prod-adidas-match-light,adidas-match-light-2026,INDEXABLE,"index,follow",yes,alternatives_ok|editorial_ready
+/products/adidas-metalbone-3-3,product,prod-adidas-metalbone-3-3-2026,adidas-metalbone-3-3,INDEXABLE,"index,follow",yes,decisionScore=100
+/products/adidas-metalbone-3-3/alternatives,alternatives,prod-adidas-metalbone-3-3-2026,adidas-metalbone-3-3,INDEXABLE,"index,follow",yes,alternatives_ok|editorial_ready
+/products/adidas-metalbone-3-5-2026,product,prod-adidas-metalbone-3-5-2026,adidas-metalbone-3-5-2026,INDEXABLE,"index,follow",yes,decisionScore=90
+/products/adidas-metalbone-3-5-2026/alternatives,alternatives,prod-adidas-metalbone-3-5-2026,adidas-metalbone-3-5-2026,INDEXABLE,"index,follow",yes,alternatives_ok|editorial_ready
+/products/adidas-metalbone-ctrl-2026,product,prod-adidas-metalbone-ctrl,adidas-metalbone-ctrl-2026,INDEXABLE,"index,follow",yes,decisionScore=90
+/products/adidas-metalbone-ctrl-2026/alternatives,alternatives,prod-adidas-metalbone-ctrl,adidas-metalbone-ctrl-2026,INDEXABLE,"index,follow",yes,alternatives_ok|editorial_ready
+/products/adidas-metalbone-hrd-2026,product,prod-adidas-metalbone-hrd,adidas-metalbone-hrd-2026,INDEXABLE,"index,follow",yes,decisionScore=100
+/products/adidas-metalbone-hrd-2026/alternatives,alternatives,prod-adidas-metalbone-hrd,adidas-metalbone-hrd-2026,INDEXABLE,"index,follow",yes,alternatives_ok|editorial_ready
+/products/adidas-metalbone-team-light-2026,product,prod-adidas-metalbone-team-light,adidas-metalbone-team-light-2026,PUBLIC_NOINDEX,"noindex,follow",no,decisionScore=90|missing:canBuy|publish:missing required spec: balance|minor_work_held
+/products/adidas-metalbone-team-light-2026/alternatives,alternatives,prod-adidas-metalbone-team-light,adidas-metalbone-team-light-2026,PUBLIC_NOINDEX,"noindex,follow",no,parent_product_not_indexable|decisionScore=90|missing:canBuy|publish:missing required spec: balance|minor_work_held
+/products/adidas-padel-overgrip,product,prod-adidas-padel-overgrip,adidas-padel-overgrip,HIDDEN_404,"noindex,nofollow",no,not_production_exposed:draft
+/products/adidas-padel-overgrip/alternatives,alternatives,prod-adidas-padel-overgrip,adidas-padel-overgrip,HIDDEN_404,"noindex,nofollow",no,alternatives_graph_gate:source product not published|need ≥3 alternatives (have 0)|need ≥2 distinct alternative types|need meaningful unique reasons on ≥3 alts|need switch/trade-off decision shape on ≥2 alts
+/products/adidas-protour-padel-bag,product,prod-adidas-protour-padel,adidas-protour-padel-bag,HIDDEN_404,"noindex,nofollow",no,not_production_exposed:draft
+/products/adidas-protour-padel-bag/alternatives,alternatives,prod-adidas-protour-padel,adidas-protour-padel-bag,HIDDEN_404,"noindex,nofollow",no,alternatives_graph_gate:source product not published|need ≥3 alternatives (have 0)|need ≥2 distinct alternative types|need meaningful unique reasons on ≥3 alts|need switch/trade-off decision shape on ≥2 alts
+/products/adidas-solecourt-boost-padel,product,prod-adidas-solecourt-boost-padel,adidas-solecourt-boost-padel,HIDDEN_404,"noindex,nofollow",no,not_production_exposed:draft
+/products/adidas-solecourt-boost-padel/alternatives,alternatives,prod-adidas-solecourt-boost-padel,adidas-solecourt-boost-padel,HIDDEN_404,"noindex,nofollow",no,alternatives_graph_gate:source product not published|need ≥3 alternatives (have 0)|need ≥2 distinct alternative types|need meaningful unique reasons on ≥3 alts|need switch/trade-off decision shape on ≥2 alts
+/products/asics-game-ff-padel,product,prod-asics-game-ff-padel,asics-game-ff-padel,INDEXABLE,"index,follow",yes,decisionScore=100
+/products/asics-game-ff-padel/alternatives,alternatives,prod-asics-game-ff-padel,asics-game-ff-padel,INDEXABLE,"index,follow",yes,alternatives_ok|editorial_ready
+/products/asics-gel-challenger-court,product,prod-asics-gel-challenger-court,asics-gel-challenger-court,INDEXABLE,"index,follow",yes,decisionScore=100
+/products/asics-gel-challenger-court/alternatives,alternatives,prod-asics-gel-challenger-court,asics-gel-challenger-court,INDEXABLE,"index,follow",yes,alternatives_ok|editorial_ready
+/products/asics-gel-dedicate-8-padel,product,prod-asics-gel-dedicate-8-padel,asics-gel-dedicate-8-padel,INDEXABLE,"index,follow",yes,decisionScore=100
+/products/asics-gel-dedicate-8-padel/alternatives,alternatives,prod-asics-gel-dedicate-8-padel,asics-gel-dedicate-8-padel,INDEXABLE,"index,follow",yes,alternatives_ok|editorial_ready
+/products/asics-gel-resolution-padel,product,prod-asics-gel-resolution-padel,asics-gel-resolution-padel,INDEXABLE,"index,follow",yes,decisionScore=100
+/products/asics-gel-resolution-padel-women,product,prod-asics-gel-resolution-padel-w,asics-gel-resolution-padel-women,INDEXABLE,"index,follow",yes,decisionScore=100
+/products/asics-gel-resolution-padel-women/alternatives,alternatives,prod-asics-gel-resolution-padel-w,asics-gel-resolution-padel-women,INDEXABLE,"index,follow",yes,alternatives_ok|editorial_ready
+/products/asics-gel-resolution-padel/alternatives,alternatives,prod-asics-gel-resolution-padel,asics-gel-resolution-padel,INDEXABLE,"index,follow",yes,alternatives_ok|editorial_ready
+/products/asics-solution-swift-ff-padel-women,product,prod-asics-solution-swift-padel-w,asics-solution-swift-ff-padel-women,INDEXABLE,"index,follow",yes,decisionScore=100
+/products/asics-solution-swift-ff-padel-women/alternatives,alternatives,prod-asics-solution-swift-padel-w,asics-solution-swift-ff-padel-women,INDEXABLE,"index,follow",yes,alternatives_ok|editorial_ready
+/products/asics-solution-swift-ff2-padel,product,prod-asics-solution-swift-ff2-padel,asics-solution-swift-ff2-padel,INDEXABLE,"index,follow",yes,decisionScore=100
+/products/asics-solution-swift-ff2-padel/alternatives,alternatives,prod-asics-solution-swift-ff2-padel,asics-solution-swift-ff2-padel,INDEXABLE,"index,follow",yes,alternatives_ok|editorial_ready
+/products/babolat-air-veron-2-6,product,prod-babolat-air-veron,babolat-air-veron-2-6,PUBLIC_NOINDEX,"noindex,follow",no,decisionScore=90|missing:canBuy|publish:missing required spec: balance|minor_work_held
+/products/babolat-air-veron-2-6/alternatives,alternatives,prod-babolat-air-veron,babolat-air-veron-2-6,PUBLIC_NOINDEX,"noindex,follow",no,parent_product_not_indexable|decisionScore=90|missing:canBuy|publish:missing required spec: balance|minor_work_held
+/products/babolat-air-viper-2-6,product,prod-babolat-air-viper,babolat-air-viper-2-6,PUBLIC_NOINDEX,"noindex,follow",no,decisionScore=90|missing:canBuy|publish:missing required spec: balance|minor_work_held
+/products/babolat-air-viper-2-6/alternatives,alternatives,prod-babolat-air-viper,babolat-air-viper-2-6,PUBLIC_NOINDEX,"noindex,follow",no,parent_product_not_indexable|decisionScore=90|missing:canBuy|publish:missing required spec: balance|minor_work_held
+/products/babolat-counter-viper,product,prod-babolat-counter-viper,babolat-counter-viper,INDEXABLE,"index,follow",yes,decisionScore=100
+/products/babolat-counter-viper/alternatives,alternatives,prod-babolat-counter-viper,babolat-counter-viper,INDEXABLE,"index,follow",yes,alternatives_ok|editorial_ready
+/products/babolat-court-backpack,product,prod-babolat-court-backpack,babolat-court-backpack,HIDDEN_404,"noindex,nofollow",no,not_production_exposed:draft
+/products/babolat-court-backpack/alternatives,alternatives,prod-babolat-court-backpack,babolat-court-backpack,HIDDEN_404,"noindex,nofollow",no,alternatives_graph_gate:source product not published|need ≥3 alternatives (have 0)|need ≥2 distinct alternative types|need meaningful unique reasons on ≥3 alts|need switch/trade-off decision shape on ≥2 alts
+/products/babolat-court-padel-balls,product,prod-babolat-court-padel-balls,babolat-court-padel-balls,HIDDEN_404,"noindex,nofollow",no,not_production_exposed:draft
+/products/babolat-court-padel-balls/alternatives,alternatives,prod-babolat-court-padel-balls,babolat-court-padel-balls,HIDDEN_404,"noindex,nofollow",no,alternatives_graph_gate:source product not published|need ≥3 alternatives (have 0)|need ≥2 distinct alternative types|need meaningful unique reasons on ≥3 alts|need switch/trade-off decision shape on ≥2 alts
+/products/babolat-jet-premura,product,prod-babolat-jet-premura,babolat-jet-premura,INDEXABLE,"index,follow",yes,decisionScore=100
+/products/babolat-jet-premura-2,product,prod-babolat-jet-premura-2-men,babolat-jet-premura-2,INDEXABLE,"index,follow",yes,decisionScore=100
+/products/babolat-jet-premura-2/alternatives,alternatives,prod-babolat-jet-premura-2-men,babolat-jet-premura-2,INDEXABLE,"index,follow",yes,alternatives_ok|editorial_ready
+/products/babolat-jet-premura/alternatives,alternatives,prod-babolat-jet-premura,babolat-jet-premura,INDEXABLE,"index,follow",yes,alternatives_ok|editorial_ready
+/products/babolat-movea-2,product,prod-babolat-movea-2,babolat-movea-2,INDEXABLE,"index,follow",yes,decisionScore=100
+/products/babolat-movea-2/alternatives,alternatives,prod-babolat-movea-2,babolat-movea-2,INDEXABLE,"index,follow",yes,alternatives_ok|editorial_ready
+/products/babolat-pro-response-overgrip,product,prod-babolat-pro-response,babolat-pro-response-overgrip,HIDDEN_404,"noindex,nofollow",no,not_production_exposed:draft
+/products/babolat-pro-response-overgrip/alternatives,alternatives,prod-babolat-pro-response,babolat-pro-response-overgrip,HIDDEN_404,"noindex,nofollow",no,alternatives_graph_gate:source product not published|need ≥3 alternatives (have 0)|need ≥2 distinct alternative types|need meaningful unique reasons on ≥3 alts|need switch/trade-off decision shape on ≥2 alts
+/products/babolat-rh-pro-padel,product,prod-babolat-rh-pro-padel,babolat-rh-pro-padel,PUBLIC_NOINDEX,"noindex,follow",no,decisionScore=70|missing:alternatives|missing:canCompare|missing:canBuy|minor_work_held
+/products/babolat-rh-pro-padel/alternatives,alternatives,prod-babolat-rh-pro-padel,babolat-rh-pro-padel,HIDDEN_404,"noindex,nofollow",no,alternatives_graph_gate:need ≥3 alternatives (have 0)|need ≥2 distinct alternative types|need meaningful unique reasons on ≥3 alts|need switch/trade-off decision shape on ≥2 alts
+/products/babolat-sensa-women,product,prod-babolat-sensa-women,babolat-sensa-women,INDEXABLE,"index,follow",yes,decisionScore=100
+/products/babolat-sensa-women/alternatives,alternatives,prod-babolat-sensa-women,babolat-sensa-women,INDEXABLE,"index,follow",yes,alternatives_ok|editorial_ready
+/products/babolat-syntec-pro-replacement-grip,product,prod-babolat-syntec-pro,babolat-syntec-pro-replacement-grip,HIDDEN_404,"noindex,nofollow",no,not_production_exposed:draft
+/products/babolat-syntec-pro-replacement-grip/alternatives,alternatives,prod-babolat-syntec-pro,babolat-syntec-pro-replacement-grip,HIDDEN_404,"noindex,nofollow",no,alternatives_graph_gate:source product not published|need ≥3 alternatives (have 0)|need ≥2 distinct alternative types|need meaningful unique reasons on ≥3 alts|need switch/trade-off decision shape on ≥2 alts
+/products/babolat-technical-viper-3-0,product,prod-babolat-technical-viper,babolat-technical-viper-3-0,INDEXABLE,"index,follow",yes,decisionScore=100
+/products/babolat-technical-viper-3-0/alternatives,alternatives,prod-babolat-technical-viper,babolat-technical-viper-3-0,INDEXABLE,"index,follow",yes,alternatives_ok|editorial_ready
+/products/black-crown-special-one-soft,product,prod-black-crown-special-one-soft,black-crown-special-one-soft,HIDDEN_404,"noindex,nofollow",no,not_production_exposed:draft
+/products/black-crown-special-one-soft/alternatives,alternatives,prod-black-crown-special-one-soft,black-crown-special-one-soft,HIDDEN_404,"noindex,nofollow",no,alternatives_graph_gate:source product not published
+/products/bullpadel-frame-protector-3-pack,product,prod-bullpadel-frame-protector,bullpadel-frame-protector-3-pack,HIDDEN_404,"noindex,nofollow",no,not_production_exposed:draft
+/products/bullpadel-frame-protector-3-pack/alternatives,alternatives,prod-bullpadel-frame-protector,bullpadel-frame-protector-3-pack,HIDDEN_404,"noindex,nofollow",no,alternatives_graph_gate:source product not published|need ≥3 alternatives (have 0)|need ≥2 distinct alternative types|need meaningful unique reasons on ≥3 alts|need switch/trade-off decision shape on ≥2 alts
+/products/bullpadel-hac-overgrip,product,prod-bullpadel-gb1200,bullpadel-hac-overgrip,PUBLIC_NOINDEX,"noindex,follow",no,decisionScore=70|missing:alternatives|missing:canCompare|missing:canBuy|minor_work_held
+/products/bullpadel-hac-overgrip/alternatives,alternatives,prod-bullpadel-gb1200,bullpadel-hac-overgrip,HIDDEN_404,"noindex,nofollow",no,alternatives_graph_gate:need ≥3 alternatives (have 0)|need ≥2 distinct alternative types|need meaningful unique reasons on ≥3 alts|need switch/trade-off decision shape on ≥2 alts
+/products/bullpadel-hack-03,product,prod-bullpadel-hack-03,bullpadel-hack-03,INDEXABLE,"index,follow",yes,decisionScore=100
+/products/bullpadel-hack-03/alternatives,alternatives,prod-bullpadel-hack-03,bullpadel-hack-03,INDEXABLE,"index,follow",yes,alternatives_ok|editorial_ready
+/products/bullpadel-hack-04-2026,product,prod-bullpadel-hack-04,bullpadel-hack-04-2026,INDEXABLE,"index,follow",yes,decisionScore=100
+/products/bullpadel-hack-04-2026/alternatives,alternatives,prod-bullpadel-hack-04,bullpadel-hack-04-2026,INDEXABLE,"index,follow",yes,alternatives_ok|editorial_ready
+/products/bullpadel-hack-04-comfort-2026,product,prod-bullpadel-hack-04-comfort,bullpadel-hack-04-comfort-2026,INDEXABLE,"index,follow",yes,decisionScore=90
+/products/bullpadel-hack-04-comfort-2026/alternatives,alternatives,prod-bullpadel-hack-04-comfort,bullpadel-hack-04-comfort-2026,INDEXABLE,"index,follow",yes,alternatives_ok|editorial_ready
+/products/bullpadel-hack-04-hybrid-2026,product,prod-bullpadel-hack-04-hybrid,bullpadel-hack-04-hybrid-2026,INDEXABLE,"index,follow",yes,decisionScore=90
+/products/bullpadel-hack-04-hybrid-2026/alternatives,alternatives,prod-bullpadel-hack-04-hybrid,bullpadel-hack-04-hybrid-2026,INDEXABLE,"index,follow",yes,alternatives_ok|editorial_ready
+/products/bullpadel-hack-hybrid,product,prod-bullpadel-hack-hybrid,bullpadel-hack-hybrid,HIDDEN_404,"noindex,nofollow",no,not_production_exposed:draft
+/products/bullpadel-hack-hybrid/alternatives,alternatives,prod-bullpadel-hack-hybrid,bullpadel-hack-hybrid,HIDDEN_404,"noindex,nofollow",no,alternatives_graph_gate:source product not published|need ≥3 alternatives (have 0)|need ≥2 distinct alternative types|need meaningful unique reasons on ≥3 alts|need switch/trade-off decision shape on ≥2 alts
+/products/bullpadel-hybrid-fly,product,prod-bullpadel-hybrid-fly,bullpadel-hybrid-fly,INDEXABLE,"index,follow",yes,decisionScore=100
+/products/bullpadel-hybrid-fly/alternatives,alternatives,prod-bullpadel-hybrid-fly,bullpadel-hybrid-fly,INDEXABLE,"index,follow",yes,alternatives_ok|editorial_ready
+/products/bullpadel-indiga-ctr-2026,product,prod-bullpadel-indiga-ctr,bullpadel-indiga-ctr-2026,INDEXABLE,"index,follow",yes,decisionScore=90
+/products/bullpadel-indiga-ctr-2026/alternatives,alternatives,prod-bullpadel-indiga-ctr,bullpadel-indiga-ctr-2026,INDEXABLE,"index,follow",yes,alternatives_ok|editorial_ready
+/products/bullpadel-ionic-light-2026,product,prod-bullpadel-ionic-light,bullpadel-ionic-light-2026,INDEXABLE,"index,follow",yes,decisionScore=90
+/products/bullpadel-ionic-light-2026/alternatives,alternatives,prod-bullpadel-ionic-light,bullpadel-ionic-light-2026,INDEXABLE,"index,follow",yes,alternatives_ok|editorial_ready
+/products/bullpadel-ionic-woman,product,prod-bullpadel-ionic-woman,bullpadel-ionic-woman,INDEXABLE,"index,follow",yes,decisionScore=100
+/products/bullpadel-ionic-woman/alternatives,alternatives,prod-bullpadel-ionic-woman,bullpadel-ionic-woman,INDEXABLE,"index,follow",yes,alternatives_ok|editorial_ready
+/products/bullpadel-neuron-02-2026,product,prod-bullpadel-neuron-02,bullpadel-neuron-02-2026,PUBLIC_NOINDEX,"noindex,follow",no,decisionScore=90|missing:canBuy|publish:missing required spec: weightMin|minor_work_held
+/products/bullpadel-neuron-02-2026/alternatives,alternatives,prod-bullpadel-neuron-02,bullpadel-neuron-02-2026,PUBLIC_NOINDEX,"noindex,follow",no,parent_product_not_indexable|decisionScore=90|missing:canBuy|publish:missing required spec: weightMin|minor_work_held
+/products/bullpadel-neuron-02-edge-2026,product,prod-bullpadel-neuron-02-edge,bullpadel-neuron-02-edge-2026,INDEXABLE,"index,follow",yes,decisionScore=90
+/products/bullpadel-neuron-02-edge-2026/alternatives,alternatives,prod-bullpadel-neuron-02-edge,bullpadel-neuron-02-edge-2026,INDEXABLE,"index,follow",yes,alternatives_ok|editorial_ready
+/products/bullpadel-padel-wristband,product,prod-bullpadel-wristband,bullpadel-padel-wristband,HIDDEN_404,"noindex,nofollow",no,not_production_exposed:draft
+/products/bullpadel-padel-wristband/alternatives,alternatives,prod-bullpadel-wristband,bullpadel-padel-wristband,HIDDEN_404,"noindex,nofollow",no,alternatives_graph_gate:source product not published|need ≥3 alternatives (have 0)|need ≥2 distinct alternative types|need meaningful unique reasons on ≥3 alts|need switch/trade-off decision shape on ≥2 alts
+/products/bullpadel-pascal-box-3b,product,prod-bullpadel-pascal-box,bullpadel-pascal-box-3b,HIDDEN_404,"noindex,nofollow",no,not_production_exposed:draft
+/products/bullpadel-pascal-box-3b/alternatives,alternatives,prod-bullpadel-pascal-box,bullpadel-pascal-box-3b,HIDDEN_404,"noindex,nofollow",no,alternatives_graph_gate:source product not published|need ≥3 alternatives (have 0)|need ≥2 distinct alternative types|need meaningful unique reasons on ≥3 alts|need switch/trade-off decision shape on ≥2 alts
+/products/bullpadel-premium-gold,product,prod-bullpadel-premium-gold,bullpadel-premium-gold,HIDDEN_404,"noindex,nofollow",no,not_production_exposed:draft
+/products/bullpadel-premium-gold/alternatives,alternatives,prod-bullpadel-premium-gold,bullpadel-premium-gold,HIDDEN_404,"noindex,nofollow",no,alternatives_graph_gate:source product not published|need ≥3 alternatives (have 0)|need ≥2 distinct alternative types|need meaningful unique reasons on ≥3 alts|need switch/trade-off decision shape on ≥2 alts
+/products/bullpadel-vertex-04,product,prod-bullpadel-vertex-04,bullpadel-vertex-04,INDEXABLE,"index,follow",yes,decisionScore=100
+/products/bullpadel-vertex-04/alternatives,alternatives,prod-bullpadel-vertex-04,bullpadel-vertex-04,INDEXABLE,"index,follow",yes,alternatives_ok|editorial_ready
+/products/bullpadel-vertex-05-2026,product,prod-bullpadel-vertex-05,bullpadel-vertex-05-2026,INDEXABLE,"index,follow",yes,decisionScore=100
+/products/bullpadel-vertex-05-2026/alternatives,alternatives,prod-bullpadel-vertex-05,bullpadel-vertex-05-2026,INDEXABLE,"index,follow",yes,alternatives_ok|editorial_ready
+/products/bullpadel-vertex-05-hybrid-2026,product,prod-bullpadel-vertex-05-hybrid,bullpadel-vertex-05-hybrid-2026,INDEXABLE,"index,follow",yes,decisionScore=90
+/products/bullpadel-vertex-05-hybrid-2026/alternatives,alternatives,prod-bullpadel-vertex-05-hybrid,bullpadel-vertex-05-hybrid-2026,INDEXABLE,"index,follow",yes,alternatives_ok|editorial_ready
+/products/bullpadel-vertex-05-w-2026,product,prod-bullpadel-vertex-05-w,bullpadel-vertex-05-w-2026,INDEXABLE,"index,follow",yes,decisionScore=90
+/products/bullpadel-vertex-05-w-2026/alternatives,alternatives,prod-bullpadel-vertex-05-w,bullpadel-vertex-05-w-2026,INDEXABLE,"index,follow",yes,alternatives_ok|editorial_ready
+/products/bullpadel-vertex-advance-2026,product,prod-bullpadel-vertex-advance,bullpadel-vertex-advance-2026,PUBLIC_NOINDEX,"noindex,follow",no,decisionScore=90|missing:canBuy|publish:missing required spec: balance|minor_work_held
+/products/bullpadel-vertex-advance-2026/alternatives,alternatives,prod-bullpadel-vertex-advance,bullpadel-vertex-advance-2026,PUBLIC_NOINDEX,"noindex,follow",no,parent_product_not_indexable|decisionScore=90|missing:canBuy|publish:missing required spec: balance|minor_work_held
+/products/bullpadel-vertex-geo-backpack,product,prod-bullpadel-vertex-backpack,bullpadel-vertex-geo-backpack,HIDDEN_404,"noindex,nofollow",no,not_production_exposed:draft
+/products/bullpadel-vertex-geo-backpack/alternatives,alternatives,prod-bullpadel-vertex-backpack,bullpadel-vertex-geo-backpack,HIDDEN_404,"noindex,nofollow",no,alternatives_graph_gate:source product not published|need ≥3 alternatives (have 0)|need ≥2 distinct alternative types|need meaningful unique reasons on ≥3 alts|need switch/trade-off decision shape on ≥2 alts
+/products/bullpadel-vertex-w,product,prod-bullpadel-vertex-w,bullpadel-vertex-w,INDEXABLE,"index,follow",yes,decisionScore=90
+/products/bullpadel-vertex-w/alternatives,alternatives,prod-bullpadel-vertex-w,bullpadel-vertex-w,INDEXABLE,"index,follow",yes,alternatives_ok|editorial_ready
+/products/bullpadel-xplo-2026,product,prod-bullpadel-xplo,bullpadel-xplo-2026,INDEXABLE,"index,follow",yes,decisionScore=90
+/products/bullpadel-xplo-2026/alternatives,alternatives,prod-bullpadel-xplo,bullpadel-xplo-2026,INDEXABLE,"index,follow",yes,alternatives_ok|editorial_ready
+/products/bullpadel-xplo-comfort-2026,product,prod-bullpadel-xplo-comfort,bullpadel-xplo-comfort-2026,PUBLIC_NOINDEX,"noindex,follow",no,decisionScore=90|missing:canBuy|publish:missing required spec: balance|minor_work_held
+/products/bullpadel-xplo-comfort-2026/alternatives,alternatives,prod-bullpadel-xplo-comfort,bullpadel-xplo-comfort-2026,PUBLIC_NOINDEX,"noindex,follow",no,parent_product_not_indexable|decisionScore=90|missing:canBuy|publish:missing required spec: balance|minor_work_held
+/products/drop-shot-canyon-pro,product,prod-drop-shot-canyon-pro,drop-shot-canyon-pro,HIDDEN_404,"noindex,nofollow",no,not_production_exposed:draft
+/products/drop-shot-canyon-pro/alternatives,alternatives,prod-drop-shot-canyon-pro,drop-shot-canyon-pro,HIDDEN_404,"noindex,nofollow",no,alternatives_graph_gate:source product not published
+/products/head-coello-motion-2026,product,prod-head-coello-motion,head-coello-motion-2026,INDEXABLE,"index,follow",yes,decisionScore=90
+/products/head-coello-motion-2026/alternatives,alternatives,prod-head-coello-motion,head-coello-motion-2026,INDEXABLE,"index,follow",yes,alternatives_ok|editorial_ready
+/products/head-coello-pro-2026,product,prod-head-coello-pro,head-coello-pro-2026,INDEXABLE,"index,follow",yes,decisionScore=100
+/products/head-coello-pro-2026/alternatives,alternatives,prod-head-coello-pro,head-coello-pro-2026,INDEXABLE,"index,follow",yes,alternatives_ok|editorial_ready
+/products/head-coello-team-2026,product,prod-head-coello-team,head-coello-team-2026,INDEXABLE,"index,follow",yes,decisionScore=90
+/products/head-coello-team-2026/alternatives,alternatives,prod-head-coello-team,head-coello-team-2026,INDEXABLE,"index,follow",yes,alternatives_ok|editorial_ready
+/products/head-elite-padel-backpack,product,prod-head-elite-backpack,head-elite-padel-backpack,HIDDEN_404,"noindex,nofollow",no,not_production_exposed:draft
+/products/head-elite-padel-backpack/alternatives,alternatives,prod-head-elite-backpack,head-elite-padel-backpack,HIDDEN_404,"noindex,nofollow",no,alternatives_graph_gate:source product not published|need ≥3 alternatives (have 0)|need ≥2 distinct alternative types|need meaningful unique reasons on ≥3 alts|need switch/trade-off decision shape on ≥2 alts
+/products/head-extreme-motion,product,prod-head-extreme-motion-2026,head-extreme-motion,INDEXABLE,"index,follow",yes,decisionScore=100
+/products/head-extreme-motion/alternatives,alternatives,prod-head-extreme-motion-2026,head-extreme-motion,INDEXABLE,"index,follow",yes,alternatives_ok|editorial_ready
+/products/head-extreme-pro-padel,product,prod-head-extreme-pro-padel,head-extreme-pro-padel,INDEXABLE,"index,follow",yes,decisionScore=100
+/products/head-extreme-pro-padel/alternatives,alternatives,prod-head-extreme-pro-padel,head-extreme-pro-padel,INDEXABLE,"index,follow",yes,alternatives_ok|editorial_ready
+/products/head-gravity-motion,product,prod-head-gravity-motion,head-gravity-motion,PUBLIC_NOINDEX,"noindex,follow",no,decisionScore=90|missing:canBuy|publish:missing required spec: shape|minor_work_held
+/products/head-gravity-motion/alternatives,alternatives,prod-head-gravity-motion,head-gravity-motion,PUBLIC_NOINDEX,"noindex,follow",no,parent_product_not_indexable|decisionScore=90|missing:canBuy|publish:missing required spec: shape|minor_work_held
+/products/head-gravity-pro,product,prod-head-gravity-pro,head-gravity-pro,PUBLIC_NOINDEX,"noindex,follow",no,decisionScore=90|missing:canBuy|publish:missing required spec: shape|minor_work_held
+/products/head-gravity-pro/alternatives,alternatives,prod-head-gravity-pro,head-gravity-pro,PUBLIC_NOINDEX,"noindex,follow",no,parent_product_not_indexable|decisionScore=90|missing:canBuy|publish:missing required spec: shape|minor_work_held
+/products/head-hydrosorb-replacement-grip,product,prod-head-hydrosorb,head-hydrosorb-replacement-grip,HIDDEN_404,"noindex,nofollow",no,not_production_exposed:draft
+/products/head-hydrosorb-replacement-grip/alternatives,alternatives,prod-head-hydrosorb,head-hydrosorb-replacement-grip,HIDDEN_404,"noindex,nofollow",no,alternatives_graph_gate:source product not published|need ≥3 alternatives (have 0)|need ≥2 distinct alternative types|need meaningful unique reasons on ≥3 alts|need switch/trade-off decision shape on ≥2 alts
+/products/head-one-ultralight,product,prod-head-one-ultralight,head-one-ultralight,PUBLIC_NOINDEX,"noindex,follow",no,decisionScore=90|missing:canBuy|publish:missing required spec: shape|minor_work_held
+/products/head-one-ultralight/alternatives,alternatives,prod-head-one-ultralight,head-one-ultralight,PUBLIC_NOINDEX,"noindex,follow",no,parent_product_not_indexable|decisionScore=90|missing:canBuy|publish:missing required spec: shape|minor_work_held
+/products/head-padel-one,product,prod-head-padel-one,head-padel-one,HIDDEN_404,"noindex,nofollow",no,not_production_exposed:draft
+/products/head-padel-one/alternatives,alternatives,prod-head-padel-one,head-padel-one,HIDDEN_404,"noindex,nofollow",no,alternatives_graph_gate:source product not published|need ≥3 alternatives (have 0)|need ≥2 distinct alternative types|need meaningful unique reasons on ≥3 alts|need switch/trade-off decision shape on ≥2 alts
+/products/head-padel-pro-plus,product,prod-head-padel-pro-plus,head-padel-pro-plus,HIDDEN_404,"noindex,nofollow",no,not_production_exposed:draft
+/products/head-padel-pro-plus/alternatives,alternatives,prod-head-padel-pro-plus,head-padel-pro-plus,HIDDEN_404,"noindex,nofollow",no,alternatives_graph_gate:source product not published|need ≥3 alternatives (have 0)|need ≥2 distinct alternative types|need meaningful unique reasons on ≥3 alts|need switch/trade-off decision shape on ≥2 alts
+/products/head-padel-pro-s-balls,product,prod-head-padel-pro-s,head-padel-pro-s-balls,INDEXABLE,"index,follow",yes,decisionScore=90
+/products/head-padel-pro-s-balls/alternatives,alternatives,prod-head-padel-pro-s,head-padel-pro-s-balls,HIDDEN_404,"noindex,nofollow",no,alternatives_graph_gate:need ≥3 alternatives (have 1)|need ≥2 distinct alternative types|need meaningful unique reasons on ≥3 alts|need switch/trade-off decision shape on ≥2 alts
+/products/head-padel-team,product,prod-head-padel-team,head-padel-team,HIDDEN_404,"noindex,nofollow",no,not_production_exposed:draft
+/products/head-padel-team/alternatives,alternatives,prod-head-padel-team,head-padel-team,HIDDEN_404,"noindex,nofollow",no,alternatives_graph_gate:source product not published|need ≥3 alternatives (have 0)|need ≥2 distinct alternative types|need meaningful unique reasons on ≥3 alts|need switch/trade-off decision shape on ≥2 alts
+/products/head-padel-wristband,product,prod-head-wristband,head-padel-wristband,HIDDEN_404,"noindex,nofollow",no,not_production_exposed:draft
+/products/head-padel-wristband/alternatives,alternatives,prod-head-wristband,head-padel-wristband,HIDDEN_404,"noindex,nofollow",no,alternatives_graph_gate:source product not published|need ≥3 alternatives (have 0)|need ≥2 distinct alternative types|need meaningful unique reasons on ≥3 alts|need switch/trade-off decision shape on ≥2 alts
+/products/head-revolt-court-padel,product,prod-head-revolt-court,head-revolt-court-padel,HIDDEN_404,"noindex,nofollow",no,not_production_exposed:draft
+/products/head-revolt-court-padel/alternatives,alternatives,prod-head-revolt-court,head-revolt-court-padel,HIDDEN_404,"noindex,nofollow",no,alternatives_graph_gate:source product not published|need ≥3 alternatives (have 0)|need ≥2 distinct alternative types|need meaningful unique reasons on ≥3 alts|need switch/trade-off decision shape on ≥2 alts
+/products/head-revolt-pro-court,product,prod-head-revolt-pro-court,head-revolt-pro-court,INDEXABLE,"index,follow",yes,decisionScore=100
+/products/head-revolt-pro-court/alternatives,alternatives,prod-head-revolt-pro-court,head-revolt-pro-court,PUBLIC_NOINDEX,"noindex,follow",no,need ≥3 substantive decision alts (have 0)|need ≥2 reason groups on ranked list (have 1)|need distinct pair-specific decision copy across alts|alternatives_ok_render
+/products/head-smartsorb,product,prod-head-smartsorb,head-smartsorb,HIDDEN_404,"noindex,nofollow",no,not_production_exposed:draft
+/products/head-smartsorb/alternatives,alternatives,prod-head-smartsorb,head-smartsorb,HIDDEN_404,"noindex,nofollow",no,alternatives_graph_gate:source product not published|need ≥3 alternatives (have 0)|need ≥2 distinct alternative types|need meaningful unique reasons on ≥3 alts|need switch/trade-off decision shape on ≥2 alts
+/products/head-speed-pro,product,prod-head-speed-pro,head-speed-pro,PUBLIC_NOINDEX,"noindex,follow",no,decisionScore=80|missing:canCompare|missing:canBuy|publish:missing required spec: shape|minor_work_held
+/products/head-speed-pro/alternatives,alternatives,prod-head-speed-pro,head-speed-pro,PUBLIC_NOINDEX,"noindex,follow",no,parent_product_not_indexable|decisionScore=80|missing:canCompare|missing:canBuy|publish:missing required spec: shape|minor_work_held
+/products/head-sprint-pro-4-padel,product,prod-head-sprint-pro-4-padel,head-sprint-pro-4-padel,INDEXABLE,"index,follow",yes,decisionScore=100
+/products/head-sprint-pro-4-padel/alternatives,alternatives,prod-head-sprint-pro-4-padel,head-sprint-pro-4-padel,INDEXABLE,"index,follow",yes,alternatives_ok|editorial_ready
+/products/head-tour-team-padel-bag,product,prod-head-tour-team-padel,head-tour-team-padel-bag,HIDDEN_404,"noindex,nofollow",no,not_production_exposed:draft
+/products/head-tour-team-padel-bag/alternatives,alternatives,prod-head-tour-team-padel,head-tour-team-padel-bag,HIDDEN_404,"noindex,nofollow",no,alternatives_graph_gate:source product not published|need ≥3 alternatives (have 0)|need ≥2 distinct alternative types|need meaningful unique reasons on ≥3 alts|need switch/trade-off decision shape on ≥2 alts
+/products/head-x3-ball-pressurizer,product,prod-head-x3-pressurizer,head-x3-ball-pressurizer,HIDDEN_404,"noindex,nofollow",no,not_production_exposed:draft
+/products/head-x3-ball-pressurizer/alternatives,alternatives,prod-head-x3-pressurizer,head-x3-ball-pressurizer,HIDDEN_404,"noindex,nofollow",no,alternatives_graph_gate:source product not published|need ≥3 alternatives (have 0)|need ≥2 distinct alternative types|need meaningful unique reasons on ≥3 alts|need switch/trade-off decision shape on ≥2 alts
+/products/head-xtreme-soft-overgrip,product,prod-head-xtreme-soft,head-xtreme-soft-overgrip,HIDDEN_404,"noindex,nofollow",no,not_production_exposed:draft
+/products/head-xtreme-soft-overgrip/alternatives,alternatives,prod-head-xtreme-soft,head-xtreme-soft-overgrip,HIDDEN_404,"noindex,nofollow",no,alternatives_graph_gate:source product not published|need ≥3 alternatives (have 0)|need ≥2 distinct alternative types|need meaningful unique reasons on ≥3 alts|need switch/trade-off decision shape on ≥2 alts
+/products/hesacore-padel-grip,product,prod-hesacore-padel,hesacore-padel-grip,HIDDEN_404,"noindex,nofollow",no,not_production_exposed:draft
+/products/hesacore-padel-grip/alternatives,alternatives,prod-hesacore-padel,hesacore-padel-grip,HIDDEN_404,"noindex,nofollow",no,alternatives_graph_gate:source product not published|need ≥3 alternatives (have 0)|need ≥2 distinct alternative types|need meaningful unique reasons on ≥3 alts|need switch/trade-off decision shape on ≥2 alts
+/products/joma-slam-lady,product,prod-joma-slam-lady,joma-slam-lady,INDEXABLE,"index,follow",yes,decisionScore=100
+/products/joma-slam-lady/alternatives,alternatives,prod-joma-slam-lady,joma-slam-lady,PUBLIC_NOINDEX,"noindex,follow",no,need ≥3 substantive decision alts (have 0)|need ≥2 reason groups on ranked list (have 1)|need distinct pair-specific decision copy across alts|alternatives_ok_render
+/products/joma-spin-lady,product,prod-joma-spin-lady,joma-spin-lady,INDEXABLE,"index,follow",yes,decisionScore=100
+/products/joma-spin-lady/alternatives,alternatives,prod-joma-spin-lady,joma-spin-lady,INDEXABLE,"index,follow",yes,alternatives_ok|editorial_ready
+/products/joma-spin-men,product,prod-joma-spin-men,joma-spin-men,INDEXABLE,"index,follow",yes,decisionScore=100
+/products/joma-spin-men/alternatives,alternatives,prod-joma-spin-men,joma-spin-men,INDEXABLE,"index,follow",yes,alternatives_ok|editorial_ready
+/products/joma-t-slam,product,prod-joma-t-slam,joma-t-slam,INDEXABLE,"index,follow",yes,decisionScore=100
+/products/joma-t-slam/alternatives,alternatives,prod-joma-t-slam,joma-t-slam,INDEXABLE,"index,follow",yes,alternatives_ok|editorial_ready
+/products/kuikma-padel-overgrip,product,prod-kuikma-overgrip,kuikma-padel-overgrip,HIDDEN_404,"noindex,nofollow",no,not_production_exposed:draft
+/products/kuikma-padel-overgrip/alternatives,alternatives,prod-kuikma-overgrip,kuikma-padel-overgrip,HIDDEN_404,"noindex,nofollow",no,alternatives_graph_gate:source product not published|need ≥3 alternatives (have 0)|need ≥2 distinct alternative types|need meaningful unique reasons on ≥3 alts|need switch/trade-off decision shape on ≥2 alts
+/products/kuikma-padel-paletero,product,prod-kuikma-paletero,kuikma-padel-paletero,HIDDEN_404,"noindex,nofollow",no,not_production_exposed:draft
+/products/kuikma-padel-paletero/alternatives,alternatives,prod-kuikma-paletero,kuikma-padel-paletero,HIDDEN_404,"noindex,nofollow",no,alternatives_graph_gate:source product not published|need ≥3 alternatives (have 0)|need ≥2 distinct alternative types|need meaningful unique reasons on ≥3 alts|need switch/trade-off decision shape on ≥2 alts
+/products/kuikma-pb-club,product,prod-kuikma-pb-club,kuikma-pb-club,HIDDEN_404,"noindex,nofollow",no,not_production_exposed:draft
+/products/kuikma-pb-club/alternatives,alternatives,prod-kuikma-pb-club,kuikma-pb-club,HIDDEN_404,"noindex,nofollow",no,alternatives_graph_gate:source product not published|need ≥3 alternatives (have 0)|need ≥2 distinct alternative types|need meaningful unique reasons on ≥3 alts|need switch/trade-off decision shape on ≥2 alts
+/products/kuikma-pb-control,product,prod-kuikma-pb-control,kuikma-pb-control,HIDDEN_404,"noindex,nofollow",no,not_production_exposed:draft
+/products/kuikma-pb-control/alternatives,alternatives,prod-kuikma-pb-control,kuikma-pb-control,HIDDEN_404,"noindex,nofollow",no,alternatives_graph_gate:source product not published|need ≥3 alternatives (have 0)|need ≥2 distinct alternative types|need meaningful unique reasons on ≥3 alts|need switch/trade-off decision shape on ≥2 alts
+/products/kuikma-pb-speed,product,prod-kuikma-pb-speed,kuikma-pb-speed,INDEXABLE,"index,follow",yes,decisionScore=80
+/products/kuikma-pb-speed/alternatives,alternatives,prod-kuikma-pb-speed,kuikma-pb-speed,HIDDEN_404,"noindex,nofollow",no,alternatives_graph_gate:need ≥3 alternatives (have 1)|need ≥2 distinct alternative types|need meaningful unique reasons on ≥3 alts|need switch/trade-off decision shape on ≥2 alts
+/products/kuikma-pr-comfort-soft,product,prod-kuikma-pr-comfort-soft,kuikma-pr-comfort-soft,INDEXABLE,"index,follow",yes,decisionScore=90
+/products/kuikma-pr-comfort-soft/alternatives,alternatives,prod-kuikma-pr-comfort-soft,kuikma-pr-comfort-soft,INDEXABLE,"index,follow",yes,alternatives_ok|editorial_ready
+/products/kuikma-pr-hybrid-carbon,product,prod-kuikma-pr-hybrid-carbon,kuikma-pr-hybrid-carbon,INDEXABLE,"index,follow",yes,decisionScore=90
+/products/kuikma-pr-hybrid-carbon/alternatives,alternatives,prod-kuikma-pr-hybrid-carbon,kuikma-pr-hybrid-carbon,PUBLIC_NOINDEX,"noindex,follow",no,need ≥3 substantive decision alts (have 0)|need ≥2 reason groups on ranked list (have 1)|need distinct pair-specific decision copy across alts|alternatives_ok_render
+/products/kuikma-pr-soft-500,product,prod-kuikma-pr-soft-500,kuikma-pr-soft-500,HIDDEN_404,"noindex,nofollow",no,not_production_exposed:draft
+/products/kuikma-pr-soft-500/alternatives,alternatives,prod-kuikma-pr-soft-500,kuikma-pr-soft-500,HIDDEN_404,"noindex,nofollow",no,alternatives_graph_gate:source product not published
+/products/kuikma-ps-560-women,product,prod-kuikma-ps-560-women,kuikma-ps-560-women,HIDDEN_404,"noindex,nofollow",no,not_production_exposed:draft
+/products/kuikma-ps-560-women/alternatives,alternatives,prod-kuikma-ps-560-women,kuikma-ps-560-women,HIDDEN_404,"noindex,nofollow",no,alternatives_graph_gate:source product not published|need ≥3 alternatives (have 0)|need ≥2 distinct alternative types|need meaningful unique reasons on ≥3 alts|need switch/trade-off decision shape on ≥2 alts
+/products/kuikma-ps-990,product,prod-kuikma-ps-990,kuikma-ps-990,INDEXABLE,"index,follow",yes,decisionScore=100
+/products/kuikma-ps-990/alternatives,alternatives,prod-kuikma-ps-990,kuikma-ps-990,INDEXABLE,"index,follow",yes,alternatives_ok|editorial_ready
+/products/lok-maxx-flow,product,prod-lok-maxx-flow,lok-maxx-flow,INDEXABLE,"index,follow",yes,decisionScore=100
+/products/lok-maxx-flow/alternatives,alternatives,prod-lok-maxx-flow,lok-maxx-flow,INDEXABLE,"index,follow",yes,alternatives_ok|editorial_ready
+/products/lok-padel-one,product,prod-lok-padel-one,lok-padel-one,HIDDEN_404,"noindex,nofollow",no,not_production_exposed:draft
+/products/lok-padel-one/alternatives,alternatives,prod-lok-padel-one,lok-padel-one,HIDDEN_404,"noindex,nofollow",no,alternatives_graph_gate:source product not published|need ≥3 alternatives (have 0)|need ≥2 distinct alternative types|need meaningful unique reasons on ≥3 alts|need switch/trade-off decision shape on ≥2 alts
+/products/nox-at10-genius-12k-alum-xtrem-2026,product,prod-nox-at10-12k-2026,nox-at10-genius-12k-alum-xtrem-2026,INDEXABLE,"index,follow",yes,decisionScore=100
+/products/nox-at10-genius-12k-alum-xtrem-2026/alternatives,alternatives,prod-nox-at10-12k-2026,nox-at10-genius-12k-alum-xtrem-2026,INDEXABLE,"index,follow",yes,alternatives_ok|editorial_ready
+/products/nox-at10-genius-18k-2026,product,prod-nox-at10-18k-2026,nox-at10-genius-18k-2026,INDEXABLE,"index,follow",yes,decisionScore=100
+/products/nox-at10-genius-18k-2026/alternatives,alternatives,prod-nox-at10-18k-2026,nox-at10-genius-18k-2026,INDEXABLE,"index,follow",yes,alternatives_ok|editorial_ready
+/products/nox-at10-genius-attack-12k-2026,product,prod-nox-at10-attack-12k-2026,nox-at10-genius-attack-12k-2026,HIDDEN_404,"noindex,nofollow",no,not_production_exposed:draft
+/products/nox-at10-genius-attack-12k-2026/alternatives,alternatives,prod-nox-at10-attack-12k-2026,nox-at10-genius-attack-12k-2026,HIDDEN_404,"noindex,nofollow",no,alternatives_graph_gate:source product not published|need ≥3 alternatives (have 2)|need meaningful unique reasons on ≥3 alts
+/products/nox-at10-genius-attack-18k-2026,product,prod-nox-at10-attack-18k-2026,nox-at10-genius-attack-18k-2026,INDEXABLE,"index,follow",yes,decisionScore=90
+/products/nox-at10-genius-attack-18k-2026/alternatives,alternatives,prod-nox-at10-attack-18k-2026,nox-at10-genius-attack-18k-2026,INDEXABLE,"index,follow",yes,alternatives_ok|editorial_ready
+/products/nox-at10-lux,product,prod-nox-at10-lux,nox-at10-lux,INDEXABLE,"index,follow",yes,decisionScore=100
+/products/nox-at10-lux/alternatives,alternatives,prod-nox-at10-lux,nox-at10-lux,INDEXABLE,"index,follow",yes,alternatives_ok|editorial_ready
+/products/nox-at10-pro,product,prod-nox-at10-pro-shoe,nox-at10-pro,HIDDEN_404,"noindex,nofollow",no,not_production_exposed:draft
+/products/nox-at10-pro/alternatives,alternatives,prod-nox-at10-pro-shoe,nox-at10-pro,HIDDEN_404,"noindex,nofollow",no,alternatives_graph_gate:source product not published|need ≥3 alternatives (have 0)|need ≥2 distinct alternative types|need meaningful unique reasons on ≥3 alts|need switch/trade-off decision shape on ≥2 alts
+/products/nox-at10-team-paletero,product,prod-nox-at10-team-bag,nox-at10-team-paletero,INDEXABLE,"index,follow",yes,decisionScore=80
+/products/nox-at10-team-paletero/alternatives,alternatives,prod-nox-at10-team-bag,nox-at10-team-paletero,HIDDEN_404,"noindex,nofollow",no,alternatives_graph_gate:need ≥3 alternatives (have 1)|need ≥2 distinct alternative types|need meaningful unique reasons on ≥3 alts|need switch/trade-off decision shape on ≥2 alts
+/products/nox-equation-soft-advanced-2026,product,prod-nox-equation-soft-2026,nox-equation-soft-advanced-2026,INDEXABLE,"index,follow",yes,decisionScore=90
+/products/nox-equation-soft-advanced-2026/alternatives,alternatives,prod-nox-equation-soft-2026,nox-equation-soft-advanced-2026,INDEXABLE,"index,follow",yes,alternatives_ok|editorial_ready
+/products/nox-ml10-hexa,product,prod-nox-ml10-hexa,nox-ml10-hexa,INDEXABLE,"index,follow",yes,decisionScore=100
+/products/nox-ml10-hexa/alternatives,alternatives,prod-nox-ml10-hexa,nox-ml10-hexa,INDEXABLE,"index,follow",yes,alternatives_ok|editorial_ready
+/products/nox-ml10-pro-cup,product,prod-nox-ml10-pro-cup,nox-ml10-pro-cup,INDEXABLE,"index,follow",yes,decisionScore=100
+/products/nox-ml10-pro-cup/alternatives,alternatives,prod-nox-ml10-pro-cup,nox-ml10-pro-cup,INDEXABLE,"index,follow",yes,alternatives_ok|editorial_ready
+/products/nox-padel-wristband,product,prod-nox-wristband,nox-padel-wristband,HIDDEN_404,"noindex,nofollow",no,not_production_exposed:draft
+/products/nox-padel-wristband/alternatives,alternatives,prod-nox-wristband,nox-padel-wristband,HIDDEN_404,"noindex,nofollow",no,alternatives_graph_gate:source product not published|need ≥3 alternatives (have 0)|need ≥2 distinct alternative types|need meaningful unique reasons on ≥3 alts|need switch/trade-off decision shape on ≥2 alts
+/products/nox-pro-overgrip,product,prod-nox-pro-overgrip,nox-pro-overgrip,HIDDEN_404,"noindex,nofollow",no,not_production_exposed:draft
+/products/nox-pro-overgrip/alternatives,alternatives,prod-nox-pro-overgrip,nox-pro-overgrip,HIDDEN_404,"noindex,nofollow",no,alternatives_graph_gate:source product not published|need ≥3 alternatives (have 0)|need ≥2 distinct alternative types|need meaningful unique reasons on ≥3 alts|need switch/trade-off decision shape on ≥2 alts
+/products/nox-pro-series-padel-bag,product,prod-nox-pro-series-bag,nox-pro-series-padel-bag,HIDDEN_404,"noindex,nofollow",no,not_production_exposed:draft
+/products/nox-pro-series-padel-bag/alternatives,alternatives,prod-nox-pro-series-bag,nox-pro-series-padel-bag,HIDDEN_404,"noindex,nofollow",no,alternatives_graph_gate:source product not published|need ≥3 alternatives (have 0)|need ≥2 distinct alternative types|need meaningful unique reasons on ≥3 alts|need switch/trade-off decision shape on ≥2 alts
+/products/nox-thermo-bag-10,product,prod-nox-bag-10,nox-thermo-bag-10,HIDDEN_404,"noindex,nofollow",no,not_production_exposed:draft
+/products/nox-thermo-bag-10/alternatives,alternatives,prod-nox-bag-10,nox-thermo-bag-10,HIDDEN_404,"noindex,nofollow",no,alternatives_graph_gate:source product not published|need ≥3 alternatives (have 0)|need ≥2 distinct alternative types|need meaningful unique reasons on ≥3 alts|need switch/trade-off decision shape on ≥2 alts
+/products/nox-transparent-frame-protector,product,prod-nox-frame-protector,nox-transparent-frame-protector,HIDDEN_404,"noindex,nofollow",no,not_production_exposed:draft
+/products/nox-transparent-frame-protector/alternatives,alternatives,prod-nox-frame-protector,nox-transparent-frame-protector,HIDDEN_404,"noindex,nofollow",no,alternatives_graph_gate:source product not published|need ≥3 alternatives (have 0)|need ≥2 distinct alternative types|need meaningful unique reasons on ≥3 alts|need switch/trade-off decision shape on ≥2 alts
+/products/oxdog-hyper-court,product,prod-oxdog-hyper-court,oxdog-hyper-court,HIDDEN_404,"noindex,nofollow",no,not_production_exposed:draft
+/products/oxdog-hyper-court/alternatives,alternatives,prod-oxdog-hyper-court,oxdog-hyper-court,HIDDEN_404,"noindex,nofollow",no,alternatives_graph_gate:source product not published|need ≥3 alternatives (have 0)|need ≥2 distinct alternative types|need meaningful unique reasons on ≥3 alts|need switch/trade-off decision shape on ≥2 alts
+/products/oxdog-sense-pro,product,prod-oxdog-sense-pro-2026,oxdog-sense-pro,INDEXABLE,"index,follow",yes,decisionScore=100
+/products/oxdog-sense-pro/alternatives,alternatives,prod-oxdog-sense-pro-2026,oxdog-sense-pro,INDEXABLE,"index,follow",yes,alternatives_ok|editorial_ready
+/products/royal-padel-m27-poly-2026,product,prod-royal-padel-rp-m27-2026,royal-padel-m27-poly-2026,INDEXABLE,"index,follow",yes,decisionScore=100
+/products/royal-padel-m27-poly-2026/alternatives,alternatives,prod-royal-padel-rp-m27-2026,royal-padel-m27-poly-2026,INDEXABLE,"index,follow",yes,alternatives_ok|editorial_ready
+/products/siux-comodo-woman,product,prod-siux-comodo-woman,siux-comodo-woman,HIDDEN_404,"noindex,nofollow",no,not_production_exposed:draft
+/products/siux-comodo-woman/alternatives,alternatives,prod-siux-comodo-woman,siux-comodo-woman,HIDDEN_404,"noindex,nofollow",no,alternatives_graph_gate:source product not published|need ≥3 alternatives (have 0)|need ≥2 distinct alternative types|need meaningful unique reasons on ≥3 alts|need switch/trade-off decision shape on ≥2 alts
+/products/siux-diablo-pro-2026,product,prod-siux-diablo,siux-diablo-pro-2026,INDEXABLE,"index,follow",yes,decisionScore=100
+/products/siux-diablo-pro-2026/alternatives,alternatives,prod-siux-diablo,siux-diablo-pro-2026,INDEXABLE,"index,follow",yes,alternatives_ok|editorial_ready
+/products/siux-diablo-pro-padel,product,prod-siux-diablo-pro,siux-diablo-pro-padel,HIDDEN_404,"noindex,nofollow",no,not_production_exposed:draft
+/products/siux-diablo-pro-padel/alternatives,alternatives,prod-siux-diablo-pro,siux-diablo-pro-padel,HIDDEN_404,"noindex,nofollow",no,alternatives_graph_gate:source product not published|need ≥3 alternatives (have 0)|need ≥2 distinct alternative types|need meaningful unique reasons on ≥3 alts|need switch/trade-off decision shape on ≥2 alts
+/products/siux-electra-pro-2026,product,prod-siux-electra,siux-electra-pro-2026,PUBLIC_NOINDEX,"noindex,follow",no,decisionScore=90|missing:canBuy|publish:missing required spec: weightMin|minor_work_held
+/products/siux-electra-pro-2026/alternatives,alternatives,prod-siux-electra,siux-electra-pro-2026,PUBLIC_NOINDEX,"noindex,follow",no,parent_product_not_indexable|decisionScore=90|missing:canBuy|publish:missing required spec: weightMin|minor_work_held
+/products/siux-fenix-pro-2026,product,prod-siux-fenix,siux-fenix-pro-2026,PUBLIC_NOINDEX,"noindex,follow",no,decisionScore=90|missing:canBuy|publish:missing required spec: weightMin|minor_work_held
+/products/siux-fenix-pro-2026/alternatives,alternatives,prod-siux-fenix,siux-fenix-pro-2026,PUBLIC_NOINDEX,"noindex,follow",no,parent_product_not_indexable|decisionScore=90|missing:canBuy|publish:missing required spec: weightMin|minor_work_held
+/products/siux-padel-paletero,product,prod-siux-paletero,siux-padel-paletero,HIDDEN_404,"noindex,nofollow",no,not_production_exposed:draft
+/products/siux-padel-paletero/alternatives,alternatives,prod-siux-paletero,siux-padel-paletero,HIDDEN_404,"noindex,nofollow",no,alternatives_graph_gate:source product not published|need ≥3 alternatives (have 0)|need ≥2 distinct alternative types|need meaningful unique reasons on ≥3 alts|need switch/trade-off decision shape on ≥2 alts
+/products/starvie-absolute-padel,product,prod-starvie-absolute-padel,starvie-absolute-padel,HIDDEN_404,"noindex,nofollow",no,not_production_exposed:draft
+/products/starvie-absolute-padel/alternatives,alternatives,prod-starvie-absolute-padel,starvie-absolute-padel,HIDDEN_404,"noindex,nofollow",no,alternatives_graph_gate:source product not published|need ≥3 alternatives (have 0)|need ≥2 distinct alternative types|need meaningful unique reasons on ≥3 alts|need switch/trade-off decision shape on ≥2 alts
+/products/starvie-astrum-plus-2026,product,prod-starvie-astrum,starvie-astrum-plus-2026,INDEXABLE,"index,follow",yes,decisionScore=90
+/products/starvie-astrum-plus-2026/alternatives,alternatives,prod-starvie-astrum,starvie-astrum-plus-2026,INDEXABLE,"index,follow",yes,alternatives_ok|editorial_ready
+/products/starvie-basalto-osiris,product,prod-starvie-basalto-osiris,starvie-basalto-osiris,INDEXABLE,"index,follow",yes,decisionScore=100
+/products/starvie-basalto-osiris/alternatives,alternatives,prod-starvie-basalto-osiris,starvie-basalto-osiris,INDEXABLE,"index,follow",yes,alternatives_ok|editorial_ready
+/products/starvie-titania-kepler,product,prod-starvie-titania-kepler,starvie-titania-kepler,INDEXABLE,"index,follow",yes,decisionScore=100
+/products/starvie-titania-kepler/alternatives,alternatives,prod-starvie-titania-kepler,starvie-titania-kepler,INDEXABLE,"index,follow",yes,alternatives_ok|editorial_ready
+/products/tecnifibre-tour-endurance-padel-backpack,product,prod-tecnifibre-tour-endurance-backpack,tecnifibre-tour-endurance-padel-backpack,INDEXABLE,"index,follow",yes,decisionScore=80
+/products/tecnifibre-tour-endurance-padel-backpack/alternatives,alternatives,prod-tecnifibre-tour-endurance-backpack,tecnifibre-tour-endurance-padel-backpack,HIDDEN_404,"noindex,nofollow",no,alternatives_graph_gate:need ≥3 alternatives (have 1)|need ≥2 distinct alternative types|need meaningful unique reasons on ≥3 alts|need switch/trade-off decision shape on ≥2 alts
+/products/tecnifibre-wall-breaker-365,product,prod-tecnifibre-wall-breaker-365-2026,tecnifibre-wall-breaker-365,INDEXABLE,"index,follow",yes,decisionScore=100
+/products/tecnifibre-wall-breaker-365/alternatives,alternatives,prod-tecnifibre-wall-breaker-365-2026,tecnifibre-wall-breaker-365,INDEXABLE,"index,follow",yes,alternatives_ok|editorial_ready
+/products/tecnifibre-wall-shooter,product,prod-tecnifibre-t-fight-padel,tecnifibre-wall-shooter,HIDDEN_404,"noindex,nofollow",no,not_production_exposed:draft
+/products/tecnifibre-wall-shooter/alternatives,alternatives,prod-tecnifibre-t-fight-padel,tecnifibre-wall-shooter,HIDDEN_404,"noindex,nofollow",no,alternatives_graph_gate:source product not published|need ≥3 alternatives (have 0)|need ≥2 distinct alternative types|need meaningful unique reasons on ≥3 alts|need switch/trade-off decision shape on ≥2 alts
+/products/varlion-bourne-padel,product,prod-varlion-bourne-padel-shoe,varlion-bourne-padel,HIDDEN_404,"noindex,nofollow",no,not_production_exposed:draft
+/products/varlion-bourne-padel/alternatives,alternatives,prod-varlion-bourne-padel-shoe,varlion-bourne-padel,HIDDEN_404,"noindex,nofollow",no,alternatives_graph_gate:source product not published|need ≥3 alternatives (have 0)|need ≥2 distinct alternative types|need meaningful unique reasons on ≥3 alts|need switch/trade-off decision shape on ≥2 alts
+/products/varlion-lw-carbon-difusor,product,prod-varlion-lw-carbon-difusor,varlion-lw-carbon-difusor,INDEXABLE,"index,follow",yes,decisionScore=100
+/products/varlion-lw-carbon-difusor/alternatives,alternatives,prod-varlion-lw-carbon-difusor,varlion-lw-carbon-difusor,INDEXABLE,"index,follow",yes,alternatives_ok|editorial_ready
+/products/wilson-bela-pro-padel,product,prod-wilson-bela-pro-padel,wilson-bela-pro-padel,HIDDEN_404,"noindex,nofollow",no,not_production_exposed:draft
+/products/wilson-bela-pro-padel/alternatives,alternatives,prod-wilson-bela-pro-padel,wilson-bela-pro-padel,HIDDEN_404,"noindex,nofollow",no,alternatives_graph_gate:source product not published|need ≥3 alternatives (have 0)|need ≥2 distinct alternative types|need meaningful unique reasons on ≥3 alts|need switch/trade-off decision shape on ≥2 alts
+/products/wilson-bela-pro-v3,product,prod-wilson-bela-pro,wilson-bela-pro-v3,INDEXABLE,"index,follow",yes,decisionScore=100
+/products/wilson-bela-pro-v3/alternatives,alternatives,prod-wilson-bela-pro,wilson-bela-pro-v3,INDEXABLE,"index,follow",yes,alternatives_ok|editorial_ready
+/products/wilson-blade-pro-v3-padel,product,prod-wilson-blade-pro-padel,wilson-blade-pro-v3-padel,INDEXABLE,"index,follow",yes,decisionScore=100
+/products/wilson-blade-pro-v3-padel/alternatives,alternatives,prod-wilson-blade-pro-padel,wilson-blade-pro-v3-padel,INDEXABLE,"index,follow",yes,alternatives_ok|editorial_ready
+/products/wilson-padel-overgrip-pack,product,prod-wilson-overgrip,wilson-padel-overgrip-pack,INDEXABLE,"index,follow",yes,decisionScore=80
+/products/wilson-padel-overgrip-pack/alternatives,alternatives,prod-wilson-overgrip,wilson-padel-overgrip-pack,HIDDEN_404,"noindex,nofollow",no,alternatives_graph_gate:need ≥3 alternatives (have 0)|need ≥2 distinct alternative types|need meaningful unique reasons on ≥3 alts|need switch/trade-off decision shape on ≥2 alts
+/products/wilson-padel-premier,product,prod-wilson-padel-premier,wilson-padel-premier,HIDDEN_404,"noindex,nofollow",no,not_production_exposed:draft
+/products/wilson-padel-premier/alternatives,alternatives,prod-wilson-padel-premier,wilson-padel-premier,HIDDEN_404,"noindex,nofollow",no,alternatives_graph_gate:source product not published|need ≥3 alternatives (have 0)|need ≥2 distinct alternative types|need meaningful unique reasons on ≥3 alts|need switch/trade-off decision shape on ≥2 alts
+/products/wilson-padel-wristband,product,prod-wilson-wristband,wilson-padel-wristband,HIDDEN_404,"noindex,nofollow",no,not_production_exposed:draft
+/products/wilson-padel-wristband/alternatives,alternatives,prod-wilson-wristband,wilson-padel-wristband,HIDDEN_404,"noindex,nofollow",no,alternatives_graph_gate:source product not published|need ≥3 alternatives (have 0)|need ≥2 distinct alternative types|need meaningful unique reasons on ≥3 alts|need switch/trade-off decision shape on ≥2 alts
+/products/wilson-rush-pro-5-padel,product,prod-wilson-rush-pro-5-padel,wilson-rush-pro-5-padel,INDEXABLE,"index,follow",yes,decisionScore=100
+/products/wilson-rush-pro-5-padel/alternatives,alternatives,prod-wilson-rush-pro-5-padel,wilson-rush-pro-5-padel,INDEXABLE,"index,follow",yes,alternatives_ok|editorial_ready
+/products/wilson-super-tour-padel-bag,product,prod-wilson-super-tour-padel,wilson-super-tour-padel-bag,HIDDEN_404,"noindex,nofollow",no,not_production_exposed:draft
+/products/wilson-super-tour-padel-bag/alternatives,alternatives,prod-wilson-super-tour-padel,wilson-super-tour-padel-bag,HIDDEN_404,"noindex,nofollow",no,alternatives_graph_gate:source product not published|need ≥3 alternatives (have 0)|need ≥2 distinct alternative types|need meaningful unique reasons on ≥3 alts|need switch/trade-off decision shape on ≥2 alts
+/research/padel-racket-market-2026,research,padel-racket-market-2026,padel-racket-market-2026,PUBLIC_NOINDEX,"noindex,follow",no,published|Coverage thresholds met for this Kitletics cohort.
+/research/padel-racket-prices,research,padel-racket-prices,padel-racket-prices,PUBLIC_NOINDEX,"noindex,follow",no,withheld|price: 24 known (need ≥25)
+/research/padel-racket-shapes,research,padel-racket-shapes,padel-racket-shapes,PUBLIC_NOINDEX,"noindex,follow",no,published|Coverage thresholds met for this Kitletics cohort.
+/research/padel-racket-weight,research,padel-racket-weight,padel-racket-weight,PUBLIC_NOINDEX,"noindex,follow",no,published|Coverage thresholds met for this Kitletics cohort.
+/reviews/adidas-courtstabil-padel,review,review-adidas-courtstabil,adidas-courtstabil-padel,INDEXABLE,"index,follow",yes,decisionScore=100|words=3882|editorial_ready
+/reviews/adidas-crazyquick-boost-padel,review,review-adidas-crazyquick-boost-m,adidas-crazyquick-boost-padel,INDEXABLE,"index,follow",yes,decisionScore=100|words=3958|editorial_ready
+/reviews/adidas-metalbone-3-5-2026,review,review-adidas-metalbone-3-5-2026,adidas-metalbone-3-5-2026,INDEXABLE,"index,follow",yes,decisionScore=100|words=3958|editorial_ready
+/reviews/asics-gel-resolution-padel,review,review-asics-gel-resolution-padel,asics-gel-resolution-padel,HIDDEN_404,"noindex,nofollow",no,MACHINE_TEMPLATE_COPY
+/reviews/babolat-jet-premura,review,review-babolat-jet-premura,babolat-jet-premura,INDEXABLE,"index,follow",yes,decisionScore=100|words=3827|editorial_ready
+/reviews/babolat-technical-viper-3-0,review,review-babolat-technical-viper,babolat-technical-viper-3-0,HIDDEN_404,"noindex,nofollow",no,MACHINE_TEMPLATE_COPY
+/reviews/bullpadel-hack-04-2026,review,review-bullpadel-hack-04,bullpadel-hack-04-2026,INDEXABLE,"index,follow",yes,decisionScore=100|words=3956|editorial_ready
+/reviews/bullpadel-indiga-ctr-2026,review,review-bullpadel-indiga-ctr,bullpadel-indiga-ctr-2026,INDEXABLE,"index,follow",yes,decisionScore=100|words=3967|editorial_ready
+/reviews/bullpadel-vertex-05-2026,review,review-bullpadel-vertex-05,bullpadel-vertex-05-2026,INDEXABLE,"index,follow",yes,decisionScore=100|words=3940|editorial_ready
+/reviews/bullpadel-vertex-05-hybrid-2026,review,review-bullpadel-vertex-05-hybrid,bullpadel-vertex-05-hybrid-2026,HIDDEN_404,"noindex,nofollow",no,MACHINE_TEMPLATE_COPY
+/reviews/head-coello-pro-2026,review,review-head-coello-pro,head-coello-pro-2026,INDEXABLE,"index,follow",yes,decisionScore=100|words=4013|editorial_ready
+/reviews/head-gravity-pro,review,review-head-gravity-pro,head-gravity-pro,INDEXABLE,"index,follow",yes,decisionScore=100|words=3936|editorial_ready
+/reviews/head-sprint-pro-4-padel,review,review-head-sprint-pro-4-padel,head-sprint-pro-4-padel,INDEXABLE,"index,follow",yes,decisionScore=100|words=3904|editorial_ready
+/reviews/hesacore-padel-grip,review,review-hesacore-padel,hesacore-padel-grip,HIDDEN_404,"noindex,nofollow",no,vertical_hold:unknown:disabled
+/reviews/joma-t-slam,review,review-joma-t-slam,joma-t-slam,INDEXABLE,"index,follow",yes,decisionScore=100|words=3725|editorial_ready
+/reviews/kuikma-pr-comfort-soft,review,review-kuikma-pr-comfort-soft,kuikma-pr-comfort-soft,INDEXABLE,"index,follow",yes,decisionScore=100|words=3973|editorial_ready
+/reviews/kuikma-ps-990,review,review-kuikma-ps-990,kuikma-ps-990,INDEXABLE,"index,follow",yes,decisionScore=100|words=3802|editorial_ready
+/reviews/nox-at10-genius-12k-alum-xtrem-2026,review,review-nox-at10-12k-2026,nox-at10-genius-12k-alum-xtrem-2026,INDEXABLE,"index,follow",yes,decisionScore=100|words=3968|editorial_ready
+/reviews/nox-at10-genius-18k-2026,review,review-nox-at10-18k-2026,nox-at10-genius-18k-2026,INDEXABLE,"index,follow",yes,decisionScore=100|words=3983|editorial_ready
+/reviews/nox-at10-lux,review,review-nox-at10-lux,nox-at10-lux,INDEXABLE,"index,follow",yes,decisionScore=100|words=3906|editorial_ready
+/reviews/nox-ml10-pro-cup,review,review-nox-ml10-pro-cup,nox-ml10-pro-cup,HIDDEN_404,"noindex,nofollow",no,MACHINE_TEMPLATE_COPY
+/reviews/wilson-padel-overgrip-pack,review,review-wilson-overgrip,wilson-padel-overgrip-pack,INDEXABLE,"index,follow",yes,decisionScore=100|words=2869|editorial_ready
+/setups/padel-starter-kit,setup,setup-padel-starter,padel-starter-kit,INDEXABLE,"index,follow",yes,setup_published
+/tools/padel-racket-finder,finder,tool-padel-racket-finder,padel-racket-finder,INDEXABLE,"index,follow",yes,tool_available

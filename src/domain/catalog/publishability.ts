@@ -116,6 +116,48 @@ export const PUBLISH_REQUIREMENTS: PublishRequirement[] = [
     requireHeroImage: true,
     requireShortDescription: true,
   },
+  {
+    categoryId: "cat-padel-rackets",
+    requiredSpecKeys: ["shape", "balance", "weightMin"],
+    requireEvidence: true,
+    requireHeroImage: true,
+    requireShortDescription: true,
+  },
+  {
+    categoryId: "cat-padel-shoes",
+    requiredSpecKeys: ["surfaceCompatibility"],
+    requireEvidence: true,
+    requireHeroImage: true,
+    requireShortDescription: true,
+  },
+  {
+    categoryId: "cat-padel-balls",
+    requiredSpecKeys: ["use", "pressurization", "packSize"],
+    requireEvidence: true,
+    requireHeroImage: true,
+    requireShortDescription: true,
+  },
+  {
+    categoryId: "cat-padel-bags",
+    requiredSpecKeys: ["form"],
+    requireEvidence: true,
+    requireHeroImage: true,
+    requireShortDescription: true,
+  },
+  {
+    categoryId: "cat-padel-grips",
+    requiredSpecKeys: ["gripType"],
+    requireEvidence: true,
+    requireHeroImage: true,
+    requireShortDescription: true,
+  },
+  {
+    categoryId: "cat-padel-accessories",
+    requiredSpecKeys: ["type"],
+    requireEvidence: true,
+    requireHeroImage: true,
+    requireShortDescription: true,
+  },
 ];
 
 export interface PublishCheckResult {

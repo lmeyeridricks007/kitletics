@@ -107,6 +107,7 @@ export function ComparisonPage({ data }: { data: ComparisonPageData }) {
   for (const b of products) {
     productLabels[b.product.id] = b.product.name;
   }
+  const noun = data.config.productNounSingular ?? "product";
 
   const summary =
     comparison?.summary ??
@@ -427,7 +428,7 @@ export function ComparisonPage({ data }: { data: ComparisonPageData }) {
           <Container size="wide">
             <h2 className="heading-section">Decision guide</h2>
             <p className="mt-2 max-w-3xl text-[15px] leading-relaxed text-muted">
-              When each shoe is the better buy — by training mix and conditions,
+              When each {noun} is the better buy — by playing mix and conditions,
               not overall score alone.
             </p>
 
@@ -1066,7 +1067,7 @@ export function ComparisonPage({ data }: { data: ComparisonPageData }) {
           <Container size="wide">
             <h2 className="heading-section mb-2">Alternatives</h2>
             <p className="mb-4 max-w-2xl text-[14px] text-muted">
-              Prefer a different shoe than either side of this matchup? Open the
+              Prefer a different {noun} than either side of this matchup? Open the
               full replace-X shortlists.
             </p>
             <div className="flex flex-wrap gap-3 text-[13px]">
@@ -1101,7 +1102,7 @@ export function ComparisonPage({ data }: { data: ComparisonPageData }) {
                 <h2 className="heading-section">FAQ</h2>
                 <p className="mt-2 max-w-2xl text-[14px] leading-relaxed text-muted">
                   Practical answers for this pair — open a question for the
-                  short call and which shoe it points to.
+                  short call and which {noun} it points to.
                 </p>
                 <div className="mt-6 divide-y divide-border border border-border bg-white">
                   {faq.map((f, index) => {

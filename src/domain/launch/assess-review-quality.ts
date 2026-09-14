@@ -155,17 +155,17 @@ export function assessReviewLaunchQuality(
     bestFor: (assessedReview.whoShouldBuy?.length ?? 0) >= 2,
     skipIf: (assessedReview.whoShouldAvoid?.length ?? 0) >= 2,
     specAnalysis: (assessedReview.sections ?? []).some((s) =>
-      /spec|geometry|stack|drop|weight|cushion|foam|plate|display|battery/i.test(
+      /spec|geometry|stack|drop|weight|cushion|foam|plate|display|battery|shape|core|face|outsole|traction/i.test(
         `${s.id} ${s.heading}`,
       ),
     ),
     useCaseAnalysis: (assessedReview.sections ?? []).some((s) =>
-      /use case|best for|who should|training|race|daily|long run/i.test(
+      /use case|best for|who should|training|race|daily|long run|who it is/i.test(
         `${s.id} ${s.heading} ${s.body.slice(0, 200)}`,
       ),
     ),
     performance: (assessedReview.sections ?? []).some((s) =>
-      /ride|performance|cushion|grip|stabil|feel|tech|sensor|gps/i.test(
+      /ride|performance|cushion|grip|stabil|feel|tech|sensor|gps|power|control|traction|court/i.test(
         `${s.id} ${s.heading}`,
       ),
     ),

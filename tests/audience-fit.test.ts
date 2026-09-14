@@ -19,8 +19,9 @@ describe("audience / fit sizing UX data", () => {
       categoryId: "cat-running-shoes",
       filters: { specs: { genderFit: ["unisex"] } },
     });
-    const facet = all.availableFilters.find((f) => f.key === "genderFit");
+    const facet = all.availableFilters.find((f) => f.key === "fit" || f.key === "genderFit");
     expect(facet?.label).toMatch(/Fit/i);
+    expect(facet?.key).toBe("fit");
     expect(women.total).toBeGreaterThan(50);
     expect(unisex.total).toBeGreaterThan(0);
     expect(unisex.total).toBeLessThan(women.total);

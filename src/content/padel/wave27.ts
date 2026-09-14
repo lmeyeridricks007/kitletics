@@ -9,7 +9,6 @@ import { publishedMeta, SEED_DATES } from "@/content/config";
 
 const pub = publishedMeta();
 const padelSportId = "sport-padel" as const;
-const tennisSportId = "sport-tennis" as const;
 
 function offerRegions(
   productId: string,
@@ -448,7 +447,7 @@ export const wave27Products: Product[] = wave27ShoeDrafts.map((d) => ({
   fullName: d.fullName,
   shortDescription: d.shortDescription,
   lifecycleStatus: "current" as const,
-  sportIds: [padelSportId, tennisSportId],
+  sportIds: [padelSportId],
   disciplineIds: [],
   categoryId: "cat-padel-shoes",
   subcategoryIds: [],
@@ -492,10 +491,11 @@ export const wave27Offers: Offer[] = wave27ShoeDrafts.flatMap((d) =>
 /** Overlay patches for earlier padel shoes — gender + normalised specs + CourtStabil refresh. */
 export const wave27ProductPatches: Record<string, Partial<Product>> = {
   "prod-adidas-courtstabil": {
+    slug: "adidas-courtquick-padel",
     name: "Courtquick Padel",
     fullName: "Adidas Courtquick Padel",
     shortDescription:
-      "Current Adidas Courtquick padel court shoe for stable lateral movement — replaces the retired CourtStabil naming in catalog.",
+      "Current Adidas Courtquick padel court shoe for stable lateral movement.",
     specifications: {
       genderFit: "men",
       cushioning: "moderate",

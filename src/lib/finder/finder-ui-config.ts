@@ -128,37 +128,60 @@ export const FINDER_UI_BY_SLUG: Record<string, FinderUiConfig> = {
     eyebrow: "PADEL RACKET FINDER",
     headline: "Find the right padel racket for your game",
     supportingCopy:
-      "Answer a few questions about your level, style and preferences — we'll match rackets that fit how you play.",
+      "Adaptive questions about level, priorities and feel — every match explains why. Affiliate commission never ranks results.",
     estimatedTimeMinutes: 2,
-    helpGuideHref: "/guides/how-to-choose-padel-shoes",
-    helpGuideLabel: "Related padel guides",
+    heroProductIds: [
+      "prod-bullpadel-indiga-ctr",
+      "prod-nox-at10-12k-2026",
+      "prod-adidas-metalbone-3-5-2026",
+    ],
+    helpGuideHref: "/guides/how-to-choose-a-padel-racket",
+    helpGuideLabel: "How to choose a padel racket",
     previewMinAnswered: 2,
     productNoun: "rackets",
     resultsSupportingCopy:
-      "Based on your answers, we found the rackets that best match your game.",
+      "Best match first, then distinct alternatives for more control, power, comfort, or value — each with reasons and trade-offs.",
+    relatedGuideSlugs: [
+      {
+        slug: "how-to-choose-a-padel-racket",
+        type: "buying",
+      },
+      {
+        slug: "padel-rackets",
+        type: "best",
+      },
+      {
+        slug: "padel-racket-shapes-explained",
+        type: "buying",
+      },
+    ],
     steps: [
       {
         id: "level",
         title: "Your level",
         shortTitle: "Level",
+        questionKeys: ["primaryUse", "primaryPriority"],
+      },
+      {
+        id: "style",
+        title: "How you play",
+        shortTitle: "Style",
         questionKeys: [
-          "primaryUse",
+          "playingStyle",
+          "courtPosition",
           "currentEquipment",
           "changeGoals",
-          "playingStyle",
         ],
       },
       {
-        id: "priorities",
-        title: "Priorities",
-        shortTitle: "Priorities",
-        questionKeys: ["priorities"],
-      },
-      {
         id: "feel",
-        title: "Feel & balance",
+        title: "Feel & comfort",
         shortTitle: "Feel",
-        questionKeys: ["weightPreference", "balancePreference", "feelPreference"],
+        questionKeys: [
+          "feelPreference",
+          "weightPreference",
+          "armComfortPriority",
+        ],
       },
       {
         id: "budget",
@@ -175,8 +198,10 @@ export const FINDER_UI_BY_SLUG: Record<string, FinderUiConfig> = {
     ],
     summaryFields: [
       { key: "primaryUse", label: "Level", icon: "User" },
-      { key: "playingStyle", label: "Style", icon: "Target" },
-      { key: "balancePreference", label: "Balance", icon: "Layers" },
+      { key: "primaryPriority", label: "Priority", icon: "Target" },
+      { key: "playingStyle", label: "Style", icon: "Layers" },
+      { key: "weightPreference", label: "Weight", icon: "Footprints" },
+      { key: "armComfortPriority", label: "Arm comfort", icon: "Shield" },
       { key: "budget", label: "Budget", icon: "Map" },
     ],
   },

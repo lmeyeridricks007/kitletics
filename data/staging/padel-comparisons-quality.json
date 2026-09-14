@@ -1,0 +1,574 @@
+{
+  "generatedAt": "2026-09-13T11:03:48.582Z",
+  "comparisons": {
+    "total": 12,
+    "meaningful": 12,
+    "thin": 0,
+    "missingProducts": [],
+    "retired": [
+      {
+        "id": "cmp-nox-bullpadel",
+        "reason": "Paired current AT10 18K with previous-gen Vertex 04 as if both were current peers."
+      },
+      {
+        "id": "cmp-head-siux",
+        "reason": "Misframed Coello Pro as value hybrid and Diablo as beginner round control."
+      }
+    ],
+    "rows": [
+      {
+        "id": "cmp-babolat-wilson",
+        "slug": "babolat-technical-viper-2026-vs-wilson-bela-pro-v2-2026",
+        "title": "Babolat Technical Viper vs Wilson Bela Pro",
+        "products": [
+          "prod-babolat-technical-viper",
+          "prod-wilson-bela-pro"
+        ],
+        "missing": [],
+        "meaningful": true,
+        "criteria": 5,
+        "keyDifferences": 2,
+        "chooseReasons": 3,
+        "useCases": 2,
+        "summaryWords": 51,
+        "isGeneration": false,
+        "dimKeys": [
+          "explosive",
+          "attack-profile",
+          "feel",
+          "level",
+          "forgiveness"
+        ],
+        "winners": {
+          "power": null,
+          "control": null,
+          "comfort": null,
+          "maneuverability": null
+        },
+        "hasBiggestDiff": true
+      },
+      {
+        "id": "cmp-technical-vs-counter-viper",
+        "slug": "babolat-technical-viper-vs-counter-viper",
+        "title": "Babolat Technical Viper vs Counter Viper",
+        "products": [
+          "prod-babolat-technical-viper",
+          "prod-babolat-counter-viper"
+        ],
+        "missing": [],
+        "meaningful": true,
+        "criteria": 10,
+        "keyDifferences": 1,
+        "chooseReasons": 3,
+        "useCases": 3,
+        "summaryWords": 38,
+        "isGeneration": false,
+        "dimKeys": [
+          "shape",
+          "power",
+          "control",
+          "forgiveness",
+          "comfort",
+          "maneuverability",
+          "play-style",
+          "player-level",
+          "spin",
+          "price"
+        ],
+        "winners": {
+          "power": "prod-babolat-technical-viper",
+          "control": "prod-babolat-counter-viper",
+          "comfort": "prod-babolat-counter-viper",
+          "maneuverability": "prod-babolat-counter-viper"
+        },
+        "hasBiggestDiff": true
+      },
+      {
+        "id": "cmp-hack04-vs-metalbone35",
+        "slug": "bullpadel-hack-04-vs-adidas-metalbone-3-5",
+        "title": "Bullpadel Hack 04 vs Adidas Metalbone 3.5",
+        "products": [
+          "prod-bullpadel-hack-04",
+          "prod-adidas-metalbone-3-5-2026"
+        ],
+        "missing": [],
+        "meaningful": true,
+        "criteria": 12,
+        "keyDifferences": 1,
+        "chooseReasons": 3,
+        "useCases": 3,
+        "summaryWords": 45,
+        "isGeneration": false,
+        "dimKeys": [
+          "shape",
+          "power",
+          "control",
+          "forgiveness",
+          "comfort",
+          "maneuverability",
+          "core",
+          "feel",
+          "frame",
+          "play-style",
+          "player-level",
+          "price"
+        ],
+        "winners": {
+          "power": null,
+          "control": null,
+          "comfort": "prod-adidas-metalbone-3-5-2026",
+          "maneuverability": null
+        },
+        "hasBiggestDiff": true
+      },
+      {
+        "id": "cmp-vertex04-vs-vertex05",
+        "slug": "bullpadel-vertex-04-vs-vertex-05",
+        "title": "Bullpadel Vertex 04 vs Vertex 05",
+        "products": [
+          "prod-bullpadel-vertex-04",
+          "prod-bullpadel-vertex-05"
+        ],
+        "missing": [],
+        "meaningful": true,
+        "criteria": 10,
+        "keyDifferences": 1,
+        "chooseReasons": 3,
+        "useCases": 2,
+        "summaryWords": 51,
+        "isGeneration": true,
+        "dimKeys": [
+          "player-level",
+          "play-style",
+          "power",
+          "control",
+          "forgiveness",
+          "comfort",
+          "maneuverability",
+          "price",
+          "frame",
+          "shape"
+        ],
+        "winners": {
+          "power": null,
+          "control": null,
+          "comfort": null,
+          "maneuverability": null
+        },
+        "hasBiggestDiff": true
+      },
+      {
+        "id": "cmp-vertex05-vs-hack04",
+        "slug": "bullpadel-vertex-05-vs-hack-04-2026",
+        "title": "Bullpadel Vertex 05 vs Hack 04",
+        "products": [
+          "prod-bullpadel-vertex-05",
+          "prod-bullpadel-hack-04"
+        ],
+        "missing": [],
+        "meaningful": true,
+        "criteria": 11,
+        "keyDifferences": 2,
+        "chooseReasons": 4,
+        "useCases": 3,
+        "summaryWords": 59,
+        "isGeneration": false,
+        "dimKeys": [
+          "shape",
+          "power",
+          "control",
+          "forgiveness",
+          "comfort",
+          "maneuverability",
+          "core",
+          "feel",
+          "player-level",
+          "play-style",
+          "price"
+        ],
+        "winners": {
+          "power": "prod-bullpadel-hack-04",
+          "control": "prod-bullpadel-vertex-05",
+          "comfort": null,
+          "maneuverability": null
+        },
+        "hasBiggestDiff": true
+      },
+      {
+        "id": "cmp-vertex05-vs-at10-12k",
+        "slug": "bullpadel-vertex-05-vs-nox-at10-12k-2026",
+        "title": "Bullpadel Vertex 05 vs Nox AT10 Genius 12K",
+        "products": [
+          "prod-bullpadel-vertex-05",
+          "prod-nox-at10-12k-2026"
+        ],
+        "missing": [],
+        "meaningful": true,
+        "criteria": 12,
+        "keyDifferences": 2,
+        "chooseReasons": 4,
+        "useCases": 3,
+        "summaryWords": 51,
+        "isGeneration": false,
+        "dimKeys": [
+          "shape",
+          "balance",
+          "surface",
+          "power",
+          "control",
+          "forgiveness",
+          "comfort",
+          "maneuverability",
+          "core",
+          "play-style",
+          "player-level",
+          "price"
+        ],
+        "winners": {
+          "power": null,
+          "control": "prod-bullpadel-vertex-05",
+          "comfort": null,
+          "maneuverability": null
+        },
+        "hasBiggestDiff": true
+      },
+      {
+        "id": "cmp-vertex05-vs-hybrid",
+        "slug": "bullpadel-vertex-05-vs-vertex-05-hybrid",
+        "title": "Bullpadel Vertex 05 vs Vertex 05 Hybrid",
+        "products": [
+          "prod-bullpadel-vertex-05",
+          "prod-bullpadel-vertex-05-hybrid"
+        ],
+        "missing": [],
+        "meaningful": true,
+        "criteria": 9,
+        "keyDifferences": 1,
+        "chooseReasons": 3,
+        "useCases": 3,
+        "summaryWords": 48,
+        "isGeneration": false,
+        "dimKeys": [
+          "shape",
+          "power",
+          "control",
+          "forgiveness",
+          "maneuverability",
+          "comfort",
+          "play-style",
+          "player-level",
+          "price"
+        ],
+        "winners": {
+          "power": "prod-bullpadel-vertex-05",
+          "control": "prod-bullpadel-vertex-05-hybrid",
+          "comfort": null,
+          "maneuverability": "prod-bullpadel-vertex-05-hybrid"
+        },
+        "hasBiggestDiff": true
+      },
+      {
+        "id": "cmp-coello-vs-technical-viper",
+        "slug": "head-coello-pro-vs-babolat-technical-viper",
+        "title": "HEAD Coello Pro vs Babolat Technical Viper",
+        "products": [
+          "prod-head-coello-pro",
+          "prod-babolat-technical-viper"
+        ],
+        "missing": [],
+        "meaningful": true,
+        "criteria": 11,
+        "keyDifferences": 1,
+        "chooseReasons": 3,
+        "useCases": 3,
+        "summaryWords": 48,
+        "isGeneration": false,
+        "dimKeys": [
+          "shape",
+          "power",
+          "control",
+          "forgiveness",
+          "comfort",
+          "maneuverability",
+          "spin",
+          "play-style",
+          "player-level",
+          "surface",
+          "price"
+        ],
+        "winners": {
+          "power": null,
+          "control": null,
+          "comfort": null,
+          "maneuverability": null
+        },
+        "hasBiggestDiff": true
+      },
+      {
+        "id": "cmp-at10-12k-vs-metalbone",
+        "slug": "nox-at10-12k-vs-adidas-metalbone-2026",
+        "title": "Nox AT10 Genius 12K vs Adidas Metalbone 3.5",
+        "products": [
+          "prod-nox-at10-12k-2026",
+          "prod-adidas-metalbone-3-5-2026"
+        ],
+        "missing": [],
+        "meaningful": true,
+        "criteria": 12,
+        "keyDifferences": 2,
+        "chooseReasons": 4,
+        "useCases": 3,
+        "summaryWords": 46,
+        "isGeneration": false,
+        "dimKeys": [
+          "shape",
+          "surface",
+          "core",
+          "power",
+          "control",
+          "forgiveness",
+          "comfort",
+          "maneuverability",
+          "feel",
+          "play-style",
+          "frame",
+          "price"
+        ],
+        "winners": {
+          "power": null,
+          "control": "prod-nox-at10-12k-2026",
+          "comfort": "prod-adidas-metalbone-3-5-2026",
+          "maneuverability": null
+        },
+        "hasBiggestDiff": true
+      },
+      {
+        "id": "cmp-at10-genius-vs-attack",
+        "slug": "nox-at10-genius-12k-vs-at10-attack-18k-2026",
+        "title": "Nox AT10 Genius 12K vs AT10 Attack 18K",
+        "products": [
+          "prod-nox-at10-12k-2026",
+          "prod-nox-at10-attack-18k-2026"
+        ],
+        "missing": [],
+        "meaningful": true,
+        "criteria": 10,
+        "keyDifferences": 1,
+        "chooseReasons": 3,
+        "useCases": 3,
+        "summaryWords": 44,
+        "isGeneration": false,
+        "dimKeys": [
+          "shape",
+          "power",
+          "control",
+          "forgiveness",
+          "comfort",
+          "maneuverability",
+          "surface",
+          "play-style",
+          "player-level",
+          "price"
+        ],
+        "winners": {
+          "power": "prod-nox-at10-attack-18k-2026",
+          "control": "prod-nox-at10-12k-2026",
+          "comfort": null,
+          "maneuverability": "prod-nox-at10-12k-2026"
+        },
+        "hasBiggestDiff": true
+      },
+      {
+        "id": "cmp-nox-babolat",
+        "slug": "nox-at10-genius-18k-2026-vs-babolat-technical-viper-2026",
+        "title": "Nox AT10 Genius 18K vs Babolat Technical Viper",
+        "products": [
+          "prod-nox-at10-18k-2026",
+          "prod-babolat-technical-viper"
+        ],
+        "missing": [],
+        "meaningful": true,
+        "criteria": 5,
+        "keyDifferences": 2,
+        "chooseReasons": 3,
+        "useCases": 2,
+        "summaryWords": 45,
+        "isGeneration": false,
+        "dimKeys": [
+          "hybrid",
+          "explosive",
+          "stiffness",
+          "forgiveness",
+          "level"
+        ],
+        "winners": {
+          "power": null,
+          "control": null,
+          "comfort": null,
+          "maneuverability": null
+        },
+        "hasBiggestDiff": true
+      },
+      {
+        "id": "cmp-ml10-vs-indiga",
+        "slug": "nox-ml10-pro-cup-vs-bullpadel-indiga-ctr",
+        "title": "Nox ML10 Pro Cup vs Bullpadel Indiga CTR",
+        "products": [
+          "prod-nox-ml10-pro-cup",
+          "prod-bullpadel-indiga-ctr"
+        ],
+        "missing": [],
+        "meaningful": true,
+        "criteria": 10,
+        "keyDifferences": 1,
+        "chooseReasons": 3,
+        "useCases": 3,
+        "summaryWords": 53,
+        "isGeneration": false,
+        "dimKeys": [
+          "shape",
+          "power",
+          "control",
+          "forgiveness",
+          "comfort",
+          "maneuverability",
+          "player-level",
+          "play-style",
+          "core",
+          "price"
+        ],
+        "winners": {
+          "power": null,
+          "control": "prod-nox-ml10-pro-cup",
+          "comfort": "prod-bullpadel-indiga-ctr",
+          "maneuverability": "prod-bullpadel-indiga-ctr"
+        },
+        "hasBiggestDiff": true
+      }
+    ]
+  },
+  "alternatives": {
+    "flagships": [
+      {
+        "id": "prod-bullpadel-vertex-05",
+        "name": "Vertex 05",
+        "missing": false,
+        "altCount": 8,
+        "substantiveCount": 8,
+        "reasonGroups": 5,
+        "distinctCopy": true,
+        "canPublish": true,
+        "contentIndexable": true,
+        "contentReasons": []
+      },
+      {
+        "id": "prod-bullpadel-hack-04",
+        "name": "Hack 04",
+        "missing": false,
+        "altCount": 8,
+        "substantiveCount": 8,
+        "reasonGroups": 5,
+        "distinctCopy": true,
+        "canPublish": true,
+        "contentIndexable": true,
+        "contentReasons": []
+      },
+      {
+        "id": "prod-nox-at10-12k-2026",
+        "name": "AT10 Genius 12K Alum XTREM 2026",
+        "missing": false,
+        "altCount": 4,
+        "substantiveCount": 4,
+        "reasonGroups": 3,
+        "distinctCopy": true,
+        "canPublish": true,
+        "contentIndexable": true,
+        "contentReasons": []
+      },
+      {
+        "id": "prod-nox-at10-18k-2026",
+        "name": "AT10 Genius 18K Alum 2026",
+        "missing": false,
+        "altCount": 8,
+        "substantiveCount": 8,
+        "reasonGroups": 3,
+        "distinctCopy": true,
+        "canPublish": true,
+        "contentIndexable": true,
+        "contentReasons": []
+      },
+      {
+        "id": "prod-adidas-metalbone-3-5-2026",
+        "name": "Metalbone 3.5",
+        "missing": false,
+        "altCount": 8,
+        "substantiveCount": 8,
+        "reasonGroups": 4,
+        "distinctCopy": true,
+        "canPublish": true,
+        "contentIndexable": true,
+        "contentReasons": []
+      },
+      {
+        "id": "prod-babolat-technical-viper",
+        "name": "Technical Viper 3.0",
+        "missing": false,
+        "altCount": 7,
+        "substantiveCount": 7,
+        "reasonGroups": 3,
+        "distinctCopy": true,
+        "canPublish": true,
+        "contentIndexable": true,
+        "contentReasons": []
+      },
+      {
+        "id": "prod-head-coello-pro",
+        "name": "Coello Pro",
+        "missing": false,
+        "altCount": 8,
+        "substantiveCount": 8,
+        "reasonGroups": 2,
+        "distinctCopy": true,
+        "canPublish": true,
+        "contentIndexable": true,
+        "contentReasons": []
+      },
+      {
+        "id": "prod-nox-ml10-pro-cup",
+        "name": "ML10 Pro Cup",
+        "missing": false,
+        "altCount": 6,
+        "substantiveCount": 6,
+        "reasonGroups": 3,
+        "distinctCopy": true,
+        "canPublish": true,
+        "contentIndexable": true,
+        "contentReasons": []
+      },
+      {
+        "id": "prod-bullpadel-indiga-ctr",
+        "name": "Indiga CTR",
+        "missing": false,
+        "altCount": 5,
+        "substantiveCount": 5,
+        "reasonGroups": 2,
+        "distinctCopy": true,
+        "canPublish": true,
+        "contentIndexable": true,
+        "contentReasons": []
+      },
+      {
+        "id": "prod-babolat-counter-viper",
+        "name": "Counter Viper",
+        "missing": false,
+        "altCount": 5,
+        "substantiveCount": 5,
+        "reasonGroups": 4,
+        "distinctCopy": true,
+        "canPublish": true,
+        "contentIndexable": true,
+        "contentReasons": []
+      }
+    ]
+  }
+}

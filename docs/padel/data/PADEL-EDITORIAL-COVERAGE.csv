@@ -1,0 +1,459 @@
+productId,slug,name,categoryId,brandId,reviewCount,bestGuideCount,buyingGuideCount,comparisonCount,alternativeCount,gearSetupCount,compatibleAccessoryCount,relationshipKinds,relationshipCount,coverageBand
+prod-nox-at10-18k-2026,nox-at10-genius-18k-2026,AT10 Genius 18K Alum 2026,cat-padel-rackets,brand-nox,1,3,0,1,5,0,0,alternative|best-guide|comparison|review,4,strong
+prod-bullpadel-vertex-04,bullpadel-vertex-04,Vertex 04,cat-padel-rackets,brand-bullpadel,0,2,0,1,2,0,0,alternative|best-guide|comparison,3,moderate
+prod-babolat-technical-viper,babolat-technical-viper-3-0,Technical Viper 3.0,cat-padel-rackets,brand-babolat-padel,1,3,1,4,4,0,0,alternative|best-guide|buying-guide|comparison|review,5,strong
+prod-head-coello-pro,head-coello-pro-2026,Coello Pro,cat-padel-rackets,brand-head-padel,1,7,0,1,4,0,0,alternative|best-guide|comparison|review,4,strong
+prod-siux-diablo,siux-diablo-pro-2026,Diablo Pro,cat-padel-rackets,brand-siux,0,6,0,0,2,0,0,alternative|best-guide,2,moderate
+prod-adidas-courtstabil,adidas-courtstabil-padel,Courtquick Padel,cat-padel-shoes,brand-adidas-padel,1,6,4,0,4,3,0,alternative|best-guide|buying-guide|gear-setup|review,5,strong
+prod-head-padel-pro-s,head-padel-pro-s-balls,Padel Pro S+,cat-padel-balls,brand-head-padel,1,5,5,2,7,6,2,alternative|best-guide|buying-guide|comparison|compatible-accessory|gear-setup|review,7,strong
+prod-wilson-overgrip,wilson-padel-overgrip-pack,Pro Padel Overgrip,cat-padel-grips,brand-wilson-padel,1,6,9,1,6,6,2,alternative|best-guide|buying-guide|comparison|compatible-accessory|gear-setup|review,7,strong
+prod-nox-bag-10,nox-thermo-bag-10,Thermo Bag 10,cat-padel-bags,brand-nox,0,3,0,0,0,0,0,best-guide|compatible-accessory,2,moderate
+prod-wilson-bela-pro,wilson-bela-pro-v3,Bela Pro V3,cat-padel-rackets,brand-wilson-padel,0,0,0,1,2,0,0,alternative|comparison,2,moderate
+prod-starvie-titania-kepler,starvie-titania-kepler,Titania Kepler,cat-padel-rackets,brand-starvie,0,1,0,0,2,0,0,alternative|best-guide,2,moderate
+prod-adidas-metalbone-hrd,adidas-metalbone-hrd-2026,Metalbone HRD+,cat-padel-rackets,brand-adidas-padel,0,2,0,0,3,0,0,alternative|best-guide,2,moderate
+prod-kuikma-pr-soft-500,kuikma-pr-soft-500,PR Soft 500,cat-padel-rackets,brand-kuikma,0,3,0,0,3,0,0,alternative|best-guide,2,moderate
+prod-drop-shot-canyon-pro,drop-shot-canyon-pro,Canyon Pro,cat-padel-rackets,brand-drop-shot,0,1,0,0,2,0,0,alternative|best-guide,2,moderate
+prod-varlion-lw-carbon-difusor,varlion-lw-carbon-difusor,LW Carbon Difusor,cat-padel-rackets,brand-varlion,0,0,0,0,2,0,0,alternative,1,thin
+prod-nox-ml10-pro-cup,nox-ml10-pro-cup,ML10 Pro Cup,cat-padel-rackets,brand-nox,1,2,2,1,4,0,0,alternative|best-guide|buying-guide|comparison|review,5,strong
+prod-bullpadel-hack-03,bullpadel-hack-03,Hack 03,cat-padel-rackets,brand-bullpadel,0,1,0,0,2,0,0,alternative|best-guide,2,moderate
+prod-babolat-counter-viper,babolat-counter-viper,Counter Viper,cat-padel-rackets,brand-babolat-padel,0,2,0,1,2,0,0,alternative|best-guide|comparison,3,moderate
+prod-head-extreme-pro-padel,head-extreme-pro-padel,Extreme Pro,cat-padel-rackets,brand-head-padel,0,0,0,0,2,0,0,alternative,1,thin
+prod-wilson-blade-pro-padel,wilson-blade-pro-v3-padel,Blade Pro V3,cat-padel-rackets,brand-wilson-padel,0,2,0,0,2,0,0,alternative|best-guide,2,moderate
+prod-starvie-basalto-osiris,starvie-basalto-osiris,Basalto Osiris,cat-padel-rackets,brand-starvie,0,1,0,0,2,0,0,alternative|best-guide,2,moderate
+prod-bullpadel-vertex-05,bullpadel-vertex-05-2026,Vertex 05,cat-padel-rackets,brand-bullpadel,1,7,4,4,7,2,0,alternative|best-guide|buying-guide|comparison|gear-setup|review,6,strong
+prod-bullpadel-hack-04,bullpadel-hack-04-2026,Hack 04,cat-padel-rackets,brand-bullpadel,1,7,8,2,6,0,0,alternative|best-guide|buying-guide|comparison|review,5,strong
+prod-nox-at10-12k-2026,nox-at10-genius-12k-alum-xtrem-2026,AT10 Genius 12K Alum XTREM 2026,cat-padel-rackets,brand-nox,1,3,4,3,6,1,0,alternative|best-guide|buying-guide|comparison|gear-setup|review,6,strong
+prod-adidas-metalbone-3-3-2026,adidas-metalbone-3-3,Metalbone 3.3,cat-padel-rackets,brand-adidas-padel,0,2,0,0,2,0,0,alternative|best-guide,2,moderate
+prod-head-extreme-motion-2026,head-extreme-motion,Extreme Motion,cat-padel-rackets,brand-head-padel,0,1,2,0,2,0,0,alternative|best-guide|buying-guide,3,moderate
+prod-tecnifibre-wall-breaker-365-2026,tecnifibre-wall-breaker-365,Wall Breaker 365,cat-padel-rackets,brand-tecnifibre-padel,0,0,0,0,2,0,0,alternative,1,thin
+prod-oxdog-sense-pro-2026,oxdog-sense-pro,Sense Pro,cat-padel-rackets,brand-oxdog,0,0,0,0,2,0,0,alternative,1,thin
+prod-royal-padel-rp-m27-2026,royal-padel-m27-poly-2026,M27 Poly,cat-padel-rackets,brand-royal-padel,0,0,0,0,3,0,0,alternative,1,thin
+prod-black-crown-special-one-soft,black-crown-special-one-soft,Special One Soft,cat-padel-rackets,brand-black-crown,0,1,0,0,3,0,0,alternative|best-guide,2,moderate
+prod-lok-maxx-flow,lok-maxx-flow,Maxx Flow,cat-padel-rackets,brand-lok,0,0,0,0,2,0,0,alternative,1,thin
+prod-asics-gel-resolution-padel,asics-gel-resolution-padel,Gel-Resolution Padel,cat-padel-shoes,brand-asics,1,6,4,0,4,3,0,alternative|best-guide|buying-guide|gear-setup|review,5,strong
+prod-asics-gel-challenger-court,asics-gel-challenger-court,Gel-Challenger Court,cat-padel-shoes,brand-asics,0,0,0,0,1,0,0,alternative,1,thin
+prod-babolat-jet-premura,babolat-jet-premura,Jet Premura,cat-padel-shoes,brand-babolat-padel,1,6,3,0,4,0,0,alternative|best-guide|buying-guide|review,4,strong
+prod-joma-t-slam,joma-t-slam,T.Slam,cat-padel-shoes,brand-joma,1,7,2,0,4,0,0,alternative|best-guide|buying-guide|review,4,strong
+prod-head-revolt-pro-court,head-revolt-pro-court,Revolt Pro Court,cat-padel-shoes,brand-head-padel,0,5,1,0,0,0,0,best-guide|buying-guide,2,moderate
+prod-adidas-crazyquick-boost-m,adidas-crazyquick-boost-padel,Crazyquick Boost Padel,cat-padel-shoes,brand-adidas-padel,1,7,0,0,3,0,0,alternative|best-guide|review,3,moderate
+prod-adidas-courtquick-w,adidas-courtquick-padel-women,Courtquick Padel Women,cat-padel-shoes,brand-adidas-padel,0,3,0,0,0,0,0,best-guide,1,thin
+prod-adidas-crazyquick-boost-w,adidas-crazyquick-boost-padel-women,Crazyquick Boost Padel Women,cat-padel-shoes,brand-adidas-padel,0,1,0,0,0,0,0,best-guide,1,thin
+prod-asics-gel-dedicate-8-padel,asics-gel-dedicate-8-padel,Gel-Dedicate 8 Padel,cat-padel-shoes,brand-asics,0,0,0,0,0,0,0,alternative,1,thin
+prod-asics-game-ff-padel,asics-game-ff-padel,Game FF Padel,cat-padel-shoes,brand-asics,0,0,0,0,0,0,0,,0,zero
+prod-asics-solution-swift-ff2-padel,asics-solution-swift-ff2-padel,Solution Swift FF 2 Padel,cat-padel-shoes,brand-asics,0,0,0,0,0,0,0,,0,zero
+prod-bullpadel-hybrid-fly,bullpadel-hybrid-fly,Fastgear,cat-padel-shoes,brand-bullpadel,0,0,0,0,0,0,0,,0,zero
+prod-bullpadel-ionic-woman,bullpadel-ionic-woman,Ionic Woman,cat-padel-shoes,brand-bullpadel,0,1,0,0,0,0,0,best-guide,1,thin
+prod-nox-at10-lux,nox-at10-lux,AT10 Lux,cat-padel-shoes,brand-nox,1,3,0,0,3,0,0,best-guide|review,2,moderate
+prod-nox-ml10-hexa,nox-ml10-hexa,ML10 Hexa,cat-padel-shoes,brand-nox,0,0,0,0,0,0,0,,0,zero
+prod-babolat-movea-2,babolat-movea-2,Movea 2,cat-padel-shoes,brand-babolat-padel,0,0,0,0,0,0,0,,0,zero
+prod-babolat-sensa-women,babolat-sensa-women,Sensa Women,cat-padel-shoes,brand-babolat-padel,0,1,0,0,0,0,0,best-guide,1,thin
+prod-joma-slam-lady,joma-slam-lady,Slam Lady,cat-padel-shoes,brand-joma,0,1,0,0,0,0,0,best-guide,1,thin
+prod-joma-spin-men,joma-spin-men,Spin Men,cat-padel-shoes,brand-joma,0,0,0,0,0,0,0,,0,zero
+prod-head-sprint-pro-4-padel,head-sprint-pro-4-padel,Sprint Pro 4.0 Padel,cat-padel-shoes,brand-head-padel,1,3,0,0,3,0,0,alternative|best-guide|review,3,moderate
+prod-wilson-rush-pro-5-padel,wilson-rush-pro-5-padel,Rush Pro 5 Padel,cat-padel-shoes,brand-wilson-padel,0,0,0,0,0,0,0,,0,zero
+prod-siux-diablo-pro,siux-diablo-pro-padel,Diablo Pro,cat-padel-shoes,brand-siux,0,0,0,0,0,0,0,,0,zero
+prod-siux-comodo-woman,siux-comodo-woman,Comodo Woman,cat-padel-shoes,brand-siux,0,2,0,0,0,0,0,best-guide,1,thin
+prod-starvie-absolute-padel,starvie-absolute-padel,Absolute Padel,cat-padel-shoes,brand-starvie,0,0,0,0,0,0,0,,0,zero
+prod-kuikma-ps-990,kuikma-ps-990,PS 990,cat-padel-shoes,brand-kuikma,1,3,0,0,3,1,0,alternative|best-guide|gear-setup|review,4,strong
+prod-kuikma-ps-560-women,kuikma-ps-560-women,PS 560 Women,cat-padel-shoes,brand-kuikma,0,0,0,0,0,0,0,,0,zero
+prod-oxdog-hyper-court,oxdog-hyper-court,Hyper Court,cat-padel-shoes,brand-oxdog,0,0,0,0,0,0,0,,0,zero
+prod-asics-gel-resolution-padel-w,asics-gel-resolution-padel-women,Gel-Resolution Padel Women,cat-padel-shoes,brand-asics,0,1,0,0,0,0,0,best-guide,1,thin
+prod-asics-solution-swift-padel-w,asics-solution-swift-ff-padel-women,Solution Swift FF Padel Women,cat-padel-shoes,brand-asics,0,0,0,0,0,0,0,,0,zero
+prod-adidas-solecourt-boost-padel,adidas-solecourt-boost-padel,Solecourt Boost Padel,cat-padel-shoes,brand-adidas-padel,0,0,0,0,0,0,0,,0,zero
+prod-head-revolt-court,head-revolt-court-padel,Revolt Court,cat-padel-shoes,brand-head-padel,0,0,0,0,0,0,0,,0,zero
+prod-wilson-bela-pro-padel,wilson-bela-pro-padel,Bela Pro Padel,cat-padel-shoes,brand-wilson-padel,0,0,0,0,0,0,0,,0,zero
+prod-joma-spin-lady,joma-spin-lady,Spin Lady,cat-padel-shoes,brand-joma,0,0,0,0,0,0,0,,0,zero
+prod-bullpadel-hack-hybrid,bullpadel-hack-hybrid,Hack Hybrid,cat-padel-shoes,brand-bullpadel,0,0,0,0,0,0,0,,0,zero
+prod-nox-at10-pro-shoe,nox-at10-pro,AT10 Pro,cat-padel-shoes,brand-nox,0,0,0,0,0,0,0,,0,zero
+prod-babolat-jet-premura-2-men,babolat-jet-premura-2,Jet Premura 2,cat-padel-shoes,brand-babolat-padel,0,0,0,0,0,0,0,,0,zero
+prod-tecnifibre-t-fight-padel,tecnifibre-wall-shooter,Wall Shooter,cat-padel-shoes,brand-tecnifibre-padel,0,0,0,0,0,0,0,,0,zero
+prod-varlion-bourne-padel-shoe,varlion-bourne-padel,Bourne Padel,cat-padel-shoes,brand-varlion,0,0,0,0,0,0,0,,0,zero
+prod-lok-padel-one,lok-padel-one,Padel One,cat-padel-shoes,brand-lok,0,0,0,0,0,0,0,,0,zero
+prod-nox-at10-attack-18k-2026,nox-at10-genius-attack-18k-2026,AT10 Genius Attack 18K Alum 2026,cat-padel-rackets,brand-nox,0,2,0,1,2,0,0,alternative|best-guide|comparison,3,moderate
+prod-nox-equation-soft-2026,nox-equation-soft-advanced-2026,Equation Soft Advanced 2026,cat-padel-rackets,brand-nox,0,4,3,0,2,0,0,alternative|best-guide|buying-guide,3,moderate
+prod-bullpadel-vertex-05-hybrid,bullpadel-vertex-05-hybrid-2026,Vertex 05 Hybrid,cat-padel-rackets,brand-bullpadel,1,2,1,1,4,0,0,alternative|best-guide|buying-guide|comparison|review,5,strong
+prod-bullpadel-vertex-05-w,bullpadel-vertex-05-w-2026,Vertex 05 W,cat-padel-rackets,brand-bullpadel,0,3,0,0,2,0,0,alternative|best-guide,2,moderate
+prod-bullpadel-hack-04-hybrid,bullpadel-hack-04-hybrid-2026,Hack 04 Hybrid,cat-padel-rackets,brand-bullpadel,0,1,0,0,2,0,0,alternative|best-guide,2,moderate
+prod-bullpadel-hack-04-comfort,bullpadel-hack-04-comfort-2026,Hack 04 Comfort,cat-padel-rackets,brand-bullpadel,0,2,1,0,2,0,0,alternative|best-guide|buying-guide,3,moderate
+prod-bullpadel-neuron-02,bullpadel-neuron-02-2026,Neuron 02,cat-padel-rackets,brand-bullpadel,0,0,0,0,2,0,0,alternative,1,thin
+prod-bullpadel-neuron-02-edge,bullpadel-neuron-02-edge-2026,Neuron 02 Edge,cat-padel-rackets,brand-bullpadel,0,0,0,0,2,0,0,alternative,1,thin
+prod-bullpadel-xplo,bullpadel-xplo-2026,XPLO,cat-padel-rackets,brand-bullpadel,0,0,0,0,2,0,0,alternative,1,thin
+prod-bullpadel-xplo-comfort,bullpadel-xplo-comfort-2026,XPLO Comfort,cat-padel-rackets,brand-bullpadel,0,0,0,0,2,0,0,alternative,1,thin
+prod-bullpadel-ionic-light,bullpadel-ionic-light-2026,Ionic Light,cat-padel-rackets,brand-bullpadel,0,5,1,0,2,0,0,alternative|best-guide|buying-guide,3,moderate
+prod-bullpadel-indiga-ctr,bullpadel-indiga-ctr-2026,Indiga CTR,cat-padel-rackets,brand-bullpadel,1,7,7,1,4,3,0,alternative|best-guide|buying-guide|comparison|gear-setup|review,6,strong
+prod-bullpadel-vertex-advance,bullpadel-vertex-advance-2026,Vertex Advance,cat-padel-rackets,brand-bullpadel,0,1,0,0,2,0,0,alternative|best-guide,2,moderate
+prod-adidas-metalbone-3-5-2026,adidas-metalbone-3-5-2026,Metalbone 3.5,cat-padel-rackets,brand-adidas-padel,1,4,3,2,6,0,0,alternative|best-guide|buying-guide|comparison|review,5,strong
+prod-adidas-metalbone-ctrl,adidas-metalbone-ctrl-2026,Metalbone CTRL,cat-padel-rackets,brand-adidas-padel,0,0,0,0,2,0,0,alternative,1,thin
+prod-adidas-metalbone-team-light,adidas-metalbone-team-light-2026,Metalbone Team Light,cat-padel-rackets,brand-adidas-padel,0,0,0,0,2,0,0,alternative,1,thin
+prod-adidas-cross-it-light,adidas-cross-it-light-2026,Cross It Light,cat-padel-rackets,brand-adidas-padel,0,0,0,0,2,0,0,alternative,1,thin
+prod-adidas-cross-it-ctrl,adidas-cross-it-ctrl-2026,Cross It CTRL,cat-padel-rackets,brand-adidas-padel,0,0,0,0,2,0,0,alternative,1,thin
+prod-adidas-arrow-hit-ctrl,adidas-arrow-hit-ctrl-2026,Arrow Hit CTRL,cat-padel-rackets,brand-adidas-padel,0,0,0,0,2,0,0,alternative,1,thin
+prod-adidas-arrow-hit-attk,adidas-arrow-hit-2026,Arrow Hit,cat-padel-rackets,brand-adidas-padel,0,0,0,0,2,0,0,alternative,1,thin
+prod-adidas-match-light,adidas-match-light-2026,Match Light,cat-padel-rackets,brand-adidas-padel,0,3,0,0,2,0,0,alternative|best-guide,2,moderate
+prod-head-coello-motion,head-coello-motion-2026,Coello Motion,cat-padel-rackets,brand-head-padel,0,1,0,0,2,0,0,alternative|best-guide,2,moderate
+prod-head-coello-team,head-coello-team-2026,Coello Team,cat-padel-rackets,brand-head-padel,0,3,0,0,2,0,0,alternative|best-guide,2,moderate
+prod-head-gravity-pro,head-gravity-pro,Gravity Pro,cat-padel-rackets,brand-head-padel,1,2,0,0,4,0,0,alternative|best-guide|review,3,moderate
+prod-head-gravity-motion,head-gravity-motion,Gravity Motion,cat-padel-rackets,brand-head-padel,0,1,0,0,2,0,0,alternative|best-guide,2,moderate
+prod-head-speed-pro,head-speed-pro,Speed Pro,cat-padel-rackets,brand-head-padel,0,1,0,0,2,0,0,alternative|best-guide,2,moderate
+prod-head-one-ultralight,head-one-ultralight,One Ultralight,cat-padel-rackets,brand-head-padel,0,5,0,0,2,0,0,alternative|best-guide,2,moderate
+prod-babolat-air-viper,babolat-air-viper-2-6,Air Viper,cat-padel-rackets,brand-babolat-padel,0,1,0,0,2,0,0,alternative|best-guide,2,moderate
+prod-babolat-air-veron,babolat-air-veron-2-6,Air Veron,cat-padel-rackets,brand-babolat-padel,0,2,0,0,2,0,0,alternative|best-guide,2,moderate
+prod-siux-electra,siux-electra-pro-2026,Electra Pro,cat-padel-rackets,brand-siux,0,0,0,0,2,0,0,alternative,1,thin
+prod-siux-fenix,siux-fenix-pro-2026,Fenix Pro,cat-padel-rackets,brand-siux,0,0,0,0,2,0,0,alternative,1,thin
+prod-starvie-astrum,starvie-astrum-plus-2026,Astrum+,cat-padel-rackets,brand-starvie,0,0,0,0,2,0,0,alternative,1,thin
+prod-nox-at10-attack-12k-2026,nox-at10-genius-attack-12k-2026,AT10 Genius Attack 12K Alum XTREM 2026,cat-padel-rackets,brand-nox,0,2,0,0,2,0,0,alternative|best-guide,2,moderate
+prod-kuikma-pr-hybrid-carbon,kuikma-pr-hybrid-carbon,PR Hybrid Carbon,cat-padel-rackets,brand-kuikma,0,2,0,0,2,0,0,alternative|best-guide,2,moderate
+prod-kuikma-pr-comfort-soft,kuikma-pr-comfort-soft,PR Comfort Soft,cat-padel-rackets,brand-kuikma,1,6,4,0,4,1,0,alternative|best-guide|buying-guide|gear-setup|review,5,strong
+prod-head-padel-pro-plus,head-padel-pro-plus,Padel Pro+,cat-padel-balls,brand-head-padel,0,5,2,1,1,0,2,alternative|best-guide|buying-guide|comparison|compatible-accessory,5,strong
+prod-head-padel-team,head-padel-team,Padel Team,cat-padel-balls,brand-head-padel,0,4,0,0,0,0,2,alternative|best-guide|compatible-accessory,3,moderate
+prod-head-padel-one,head-padel-one,Padel One,cat-padel-balls,brand-head-padel,0,1,0,0,0,0,2,best-guide|compatible-accessory,2,moderate
+prod-kuikma-pb-speed,kuikma-pb-speed,Padel Speed,cat-padel-balls,brand-kuikma,0,5,3,1,3,2,2,alternative|best-guide|buying-guide|comparison|compatible-accessory|gear-setup,6,strong
+prod-kuikma-pb-control,kuikma-pb-control,PB Control,cat-padel-balls,brand-kuikma,0,4,1,0,1,0,2,alternative|best-guide|buying-guide|compatible-accessory,4,strong
+prod-kuikma-pb-club,kuikma-pb-club,PB Club,cat-padel-balls,brand-kuikma,0,1,0,0,0,0,2,alternative|best-guide|compatible-accessory,3,moderate
+prod-wilson-padel-premier,wilson-padel-premier,Padel Premier,cat-padel-balls,brand-wilson-padel,0,4,0,1,0,0,2,best-guide|comparison|compatible-accessory,3,moderate
+prod-wilson-padel-premier-speed,wilson-padel-premier-speed,Premier Padel Speed,cat-padel-balls,brand-wilson-padel,0,4,2,1,0,0,2,alternative|best-guide|buying-guide|comparison|compatible-accessory,5,strong
+prod-bullpadel-premium-pro,bullpadel-premium-pro,Premium Pro,cat-padel-balls,brand-bullpadel,0,2,0,0,0,0,2,best-guide|compatible-accessory,2,moderate
+prod-bullpadel-premium-gold,bullpadel-premium-gold,Premium Gold,cat-padel-balls,brand-bullpadel,0,2,0,0,0,0,1,best-guide|compatible-accessory,2,moderate
+prod-adidas-aditour-padel,adidas-aditour-padel-balls,Aditour,cat-padel-balls,brand-adidas-padel,0,2,0,0,0,0,1,best-guide|compatible-accessory,2,moderate
+prod-adidas-speed-rx,adidas-speed-rx-padel-balls,Speed RX,cat-padel-balls,brand-adidas-padel,0,2,0,0,0,0,2,best-guide|compatible-accessory,2,moderate
+prod-babolat-court-padel-balls,babolat-court-padel-balls,Court Padel,cat-padel-balls,brand-babolat-padel,0,1,0,0,0,0,2,best-guide|compatible-accessory,2,moderate
+prod-dunlop-pro-padel,dunlop-pro-padel,Fort Padel,cat-padel-balls,brand-dunlop-padel,0,2,0,0,0,0,2,best-guide|compatible-accessory,2,moderate
+prod-tecnifibre-padel-team,tecnifibre-padel-team-balls,Padel Team,cat-padel-balls,brand-tecnifibre-padel,0,4,0,0,0,0,2,best-guide|compatible-accessory,2,moderate
+prod-nox-at10-team-bag,nox-at10-team-paletero,AT10 Team Paletero,cat-padel-bags,brand-nox,1,7,3,2,6,2,2,alternative|best-guide|buying-guide|comparison|compatible-accessory|gear-setup|review,7,strong
+prod-babolat-rh-pro-padel,babolat-rh-pro-padel,RH Pro Padel,cat-padel-bags,brand-babolat-padel,0,7,2,2,2,1,2,alternative|best-guide|buying-guide|comparison|compatible-accessory|gear-setup,6,strong
+prod-bullpadel-vertex-backpack,bullpadel-vertex-geo-backpack,Vertex Geo Backpack,cat-padel-bags,brand-bullpadel,0,5,1,0,0,0,2,best-guide|buying-guide|compatible-accessory,3,moderate
+prod-tecnifibre-tour-endurance-backpack,tecnifibre-tour-endurance-padel-backpack,Tour Endurance Backpack,cat-padel-bags,brand-tecnifibre-padel,0,7,2,1,1,1,2,alternative|best-guide|buying-guide|comparison|compatible-accessory|gear-setup,6,strong
+prod-babolat-court-backpack,babolat-court-backpack,Court S,cat-padel-bags,brand-babolat-padel,0,1,0,0,0,0,1,best-guide|compatible-accessory,2,moderate
+prod-adidas-protour-padel,adidas-protour-padel-bag,ProTour 3.5,cat-padel-bags,brand-adidas-padel,0,1,0,0,0,0,2,best-guide|compatible-accessory,2,moderate
+prod-head-tour-team-padel,head-tour-team-padel-bag,Tour Team Padel,cat-padel-bags,brand-head-padel,0,0,0,0,0,0,1,compatible-accessory,1,thin
+prod-head-elite-backpack,head-elite-padel-backpack,Elite Backpack,cat-padel-bags,brand-head-padel,0,1,0,0,0,0,1,best-guide|compatible-accessory,2,moderate
+prod-wilson-super-tour-padel,wilson-super-tour-padel-bag,Bela Super Tour,cat-padel-bags,brand-wilson-padel,0,3,0,0,0,0,2,best-guide|compatible-accessory,2,moderate
+prod-kuikma-paletero,kuikma-padel-paletero,Kuikma Paletero,cat-padel-bags,brand-kuikma,0,0,0,0,0,1,1,alternative|compatible-accessory|gear-setup,3,moderate
+prod-nox-pro-series-bag,nox-pro-series-padel-bag,Pro Series Bag,cat-padel-bags,brand-nox,0,1,0,0,0,0,2,best-guide|compatible-accessory,2,moderate
+prod-nox-at10-xxl-bag,nox-at10-xxl-padel-bag,AT10 XXL,cat-padel-bags,brand-nox,0,6,1,1,1,1,2,alternative|best-guide|buying-guide|comparison|compatible-accessory|gear-setup,6,strong
+prod-siux-paletero,siux-padel-paletero,Siux Paletero,cat-padel-bags,brand-siux,0,0,0,0,0,0,1,compatible-accessory,1,thin
+prod-bullpadel-gb1200,bullpadel-hac-overgrip,HaC,cat-padel-grips,brand-bullpadel,1,6,3,1,4,0,2,alternative|best-guide|buying-guide|comparison|compatible-accessory|review,6,strong
+prod-nox-pro-overgrip,nox-pro-overgrip,Pro Overgrip,cat-padel-grips,brand-nox,0,6,0,0,0,0,2,alternative|best-guide|compatible-accessory,3,moderate
+prod-head-xtreme-soft,head-xtreme-soft-overgrip,Xtreme Soft,cat-padel-grips,brand-head-padel,0,4,0,0,0,0,2,best-guide|compatible-accessory,2,moderate
+prod-babolat-pro-response,babolat-pro-response-overgrip,Pro Response,cat-padel-grips,brand-babolat-padel,0,2,0,0,0,0,1,best-guide|compatible-accessory,2,moderate
+prod-kuikma-overgrip,kuikma-padel-overgrip,Kuikma Overgrip Pro,cat-padel-grips,brand-kuikma,0,3,0,0,0,1,1,alternative|best-guide|compatible-accessory|gear-setup,4,strong
+prod-head-hydrosorb,head-hydrosorb-replacement-grip,Hydrosorb,cat-padel-grips,brand-head-padel,0,2,0,0,0,0,1,alternative|best-guide|compatible-accessory,3,moderate
+prod-babolat-syntec-pro,babolat-syntec-pro-replacement-grip,Syntec Pro,cat-padel-grips,brand-babolat-padel,0,0,0,0,0,0,1,compatible-accessory,1,thin
+prod-hesacore-padel,hesacore-padel-grip,Hesacore,cat-padel-grips,brand-hesacore,1,6,1,0,3,0,2,alternative|best-guide|buying-guide|compatible-accessory|review,5,strong
+prod-adidas-padel-overgrip,adidas-padel-overgrip,Adidas Padel Overgrip,cat-padel-grips,brand-adidas-padel,0,0,0,0,0,0,1,compatible-accessory,1,thin
+prod-bullpadel-frame-protector,bullpadel-frame-protector-3-pack,Frame Protector,cat-padel-accessories,brand-bullpadel,0,1,2,1,2,2,2,alternative|best-guide|buying-guide|comparison|compatible-accessory|gear-setup,6,strong
+prod-nox-frame-protector,nox-transparent-frame-protector,Transparent Protector,cat-padel-accessories,brand-nox,0,1,1,1,1,0,1,alternative|best-guide|buying-guide|comparison|compatible-accessory,5,strong
+prod-bullpadel-pascal-box,bullpadel-pascal-box-3b,Pascal Box 3B,cat-padel-accessories,brand-bullpadel,1,1,1,1,3,0,2,alternative|best-guide|buying-guide|comparison|compatible-accessory|review,6,strong
+prod-head-x3-pressurizer,head-x3-ball-pressurizer,X3 Pressurizer,cat-padel-accessories,brand-head-padel,0,1,1,1,1,1,1,alternative|best-guide|buying-guide|comparison|compatible-accessory|gear-setup,6,strong
+prod-bullpadel-custom-weight,bullpadel-protector-custom-weight,Protector Custom Weight,cat-padel-accessories,brand-bullpadel,0,1,2,0,0,0,1,alternative|best-guide|buying-guide|compatible-accessory,4,strong
+prod-head-wristband,head-padel-wristband,HEAD Wristband,cat-padel-accessories,brand-head-padel,0,0,0,0,0,0,2,compatible-accessory,1,thin
+prod-wilson-wristband,wilson-padel-wristband,Wilson Wristband,cat-padel-accessories,brand-wilson-padel,0,0,0,0,0,0,1,compatible-accessory,1,thin
+prod-nox-wristband,nox-padel-wristband,Nox Wristband,cat-padel-accessories,brand-nox,0,0,0,0,0,0,1,compatible-accessory,1,thin
+prod-bullpadel-wristband,bullpadel-padel-wristband,Bullpadel Wristband,cat-padel-accessories,brand-bullpadel,0,0,0,0,0,0,1,compatible-accessory,1,thin
+prod-head-smartsorb,head-smartsorb,Smartsorb,cat-padel-accessories,brand-head-padel,0,0,0,0,0,0,1,compatible-accessory,1,thin
+prod-4on-totalgrip,4on-totalgrip,TotalGrip,cat-padel-accessories,brand-4on,0,0,0,0,0,0,0,,0,zero
+prod-adidas-adidas-protector,adidas-adidas-protector,Adidas Protector,cat-padel-accessories,brand-adidas-padel,0,0,0,0,0,0,0,,0,zero
+prod-adidas-adidas-wristband,adidas-adidas-wristband,Adidas Wristband,cat-padel-accessories,brand-adidas-padel,0,0,0,0,0,0,0,,0,zero
+prod-alacran-alacran-basket,alacran-alacran-basket,Alacran Basket,cat-padel-accessories,brand-alacran,0,0,0,0,0,0,0,,0,zero
+prod-alacran-wide-ancha,alacran-wide-ancha,Wide / Ancha,cat-padel-accessories,brand-alacran,0,0,0,0,0,0,0,,0,zero
+prod-babolat-babolat-protector,babolat-babolat-protector,Babolat Protector,cat-padel-accessories,brand-babolat-padel,0,0,0,0,0,0,0,,0,zero
+prod-babolat-babolat-wristband,babolat-babolat-wristband,Babolat Wristband,cat-padel-accessories,brand-babolat-padel,0,0,0,0,0,0,0,,0,zero
+prod-ball-rescuer-ball-rescuer,ball-rescuer-ball-rescuer,Ball Rescuer,cat-padel-accessories,brand-ball-rescuer,0,0,0,0,0,0,0,,0,zero
+prod-ball-rescuer-premium,ball-rescuer-premium,Premium,cat-padel-accessories,brand-ball-rescuer,0,0,0,0,0,0,0,,0,zero
+prod-black-crown-vibranium-transparent,black-crown-vibranium-transparent,Vibranium Transparent,cat-padel-accessories,brand-black-crown,0,0,0,0,0,0,0,,0,zero
+prod-black-crown-black-crown-wristband,black-crown-black-crown-wristband,Black Crown Wristband,cat-padel-accessories,brand-black-crown,0,0,0,0,0,0,0,,0,zero
+prod-bounce-bounce-padel-x4,bounce-bounce-padel-x4,Bounce Padel X4,cat-padel-accessories,brand-bounce-tube,0,0,0,0,0,0,0,,0,zero
+prod-bullpadel-bpmu252-bpmu253,bullpadel-bpmu252-bpmu253,BPMU252 / BPMU253,cat-padel-accessories,brand-bullpadel,0,0,0,0,0,0,0,,0,zero
+prod-bullpadel-pascal-box-switch-3b,bullpadel-pascal-box-switch-3b,Pascal Box Switch 3B,cat-padel-accessories,brand-bullpadel,0,0,0,0,0,0,0,,0,zero
+prod-bullpadel-custom-weight-grip,bullpadel-custom-weight-grip,Custom Weight Grip,cat-padel-accessories,brand-bullpadel,0,0,0,0,0,0,0,,0,zero
+prod-bullpadel-frame-protector-uni,bullpadel-frame-protector-uni,Frame Protector Uni,cat-padel-accessories,brand-bullpadel,0,1,0,0,0,0,0,best-guide,1,thin
+prod-bullpadel-bullpadel-headband,bullpadel-bullpadel-headband,Bullpadel Headband,cat-padel-accessories,brand-bullpadel,0,0,0,0,0,0,0,,0,zero
+prod-bullpadel-metalshield,bullpadel-metalshield,Metalshield,cat-padel-accessories,brand-bullpadel,0,0,0,0,0,0,0,,0,zero
+prod-bullpadel-pascal-box-4b,bullpadel-pascal-box-4b,Pascal Box 4B,cat-padel-accessories,brand-bullpadel,0,1,0,0,0,0,0,best-guide,1,thin
+prod-bullpadel-pascal-box-pro,bullpadel-pascal-box-pro,Pascal Box PRO,cat-padel-accessories,brand-bullpadel,0,1,0,0,0,0,0,best-guide,1,thin
+prod-bullpadel-pascal-box-switch,bullpadel-pascal-box-switch,Pascal Box SWITCH,cat-padel-accessories,brand-bullpadel,0,1,0,0,0,0,0,best-guide,1,thin
+prod-bullpadel-custom-weight-protector,bullpadel-custom-weight-protector,Custom Weight Protector,cat-padel-accessories,brand-bullpadel,0,0,0,0,0,0,0,,0,zero
+prod-enebe-enebe-protector-line,enebe-enebe-protector-line,Enebe Protector line,cat-padel-accessories,brand-enebe,0,0,0,0,0,0,0,,0,zero
+prod-head-antishock-skin,head-antishock-skin,Antishock Skin,cat-padel-accessories,brand-head-padel,0,0,0,0,0,0,0,,0,zero
+prod-head-head-ball-cart,head-head-ball-cart,HEAD Ball Cart,cat-padel-accessories,brand-head-padel,0,0,0,0,0,0,0,,0,zero
+prod-head-pick-up-tube,head-pick-up-tube,Pick Up Tube,cat-padel-accessories,brand-head-padel,0,0,0,0,0,0,0,,0,zero
+prod-head-court-basket-70,head-court-basket-70,Court Basket 70,cat-padel-accessories,brand-head-padel,0,0,0,0,0,0,0,,0,zero
+prod-head-ball-basket,head-ball-basket,Ball Basket,cat-padel-accessories,brand-head-padel,0,0,0,0,0,0,0,,0,zero
+prod-head-protector-tape,head-protector-tape,Protector Tape,cat-padel-accessories,brand-head-padel,0,0,0,0,0,0,0,,0,zero
+prod-head-headband,head-headband,Headband,cat-padel-accessories,brand-head-padel,0,0,0,0,0,0,0,,0,zero
+prod-head-x100,head-x100,X100,cat-padel-accessories,brand-head-padel,0,0,0,0,0,0,0,,0,zero
+prod-head-head-logo-wristband,head-head-logo-wristband,HEAD Logo Wristband,cat-padel-accessories,brand-head-padel,0,0,0,0,0,0,0,,0,zero
+prod-head-coaching-kit,head-coaching-kit,Coaching Kit,cat-padel-accessories,brand-head-padel,0,0,0,0,0,0,0,,0,zero
+prod-head-dome-cones,head-dome-cones,Dome Cones,cat-padel-accessories,brand-head-padel,0,0,0,0,0,0,0,,0,zero
+prod-head-performance-headband,head-performance-headband,Performance HEADband,cat-padel-accessories,brand-head-padel,0,0,0,0,0,0,0,,0,zero
+prod-head-head-targets,head-head-targets,HEAD Targets,cat-padel-accessories,brand-head-padel,0,0,0,0,0,0,0,,0,zero
+prod-head-x3-pump,head-x3-pump,X3 Pump,cat-padel-accessories,brand-head-padel,0,0,0,0,0,0,0,,0,zero
+prod-head-x4-pump,head-x4-pump,X4 Pump,cat-padel-accessories,brand-head-padel,0,0,0,0,0,0,0,,0,zero
+prod-nox-nox-pickup-tube,nox-nox-pickup-tube,Nox Pickup Tube,cat-padel-accessories,brand-nox,0,0,0,0,0,0,0,,0,zero
+prod-nox-nox-color-pack,nox-nox-color-pack,Nox Color Pack,cat-padel-accessories,brand-nox,0,0,0,0,0,0,0,,0,zero
+prod-nox-texture-protector,nox-texture-protector,Texture Protector,cat-padel-accessories,brand-nox,0,0,0,0,0,0,0,,0,zero
+prod-nox-transparent-protection-tape,nox-transparent-protection-tape,Transparent / Protection Tape,cat-padel-accessories,brand-nox,0,0,0,0,0,0,0,,0,zero
+prod-nox-weight-balancer-2-4g,nox-weight-balancer-2-4g,Weight Balancer 2-4g,cat-padel-accessories,brand-nox,0,0,0,0,0,0,0,,0,zero
+prod-pascal-box-compressor,pascal-box-compressor,Compressor,cat-padel-accessories,brand-pascal-box,0,0,0,0,0,0,0,,0,zero
+prod-pascal-box-compressor-pro,pascal-box-compressor-pro,Compressor Pro,cat-padel-accessories,brand-pascal-box,0,0,0,0,0,0,0,,0,zero
+prod-shockout-gravity,shockout-gravity,Gravity+,cat-padel-accessories,brand-shockout,0,0,0,0,0,0,0,,0,zero
+prod-shockout-shockout-protector,shockout-shockout-protector,ShockOut Protector,cat-padel-accessories,brand-shockout,0,0,0,0,0,0,0,,0,zero
+prod-shockout-padel-balls-design,shockout-padel-balls-design,Padel Balls design,cat-padel-accessories,brand-shockout,0,0,0,0,0,0,0,,0,zero
+prod-siux-siux-logo-transparent,siux-siux-logo-transparent,Siux Logo Transparent,cat-padel-accessories,brand-siux,0,0,0,0,0,0,0,,0,zero
+prod-softee-softee-basket,softee-softee-basket,Softee Basket,cat-padel-accessories,brand-softee,0,0,0,0,0,0,0,,0,zero
+prod-softee-cube-pro,softee-cube-pro,Cube Pro,cat-padel-accessories,brand-softee,0,0,0,0,0,0,0,,0,zero
+prod-softee-max-tube,softee-max-tube,Max Tube,cat-padel-accessories,brand-softee,0,0,0,0,0,0,0,,0,zero
+prod-softee-press-pro-x3,softee-press-pro-x3,Press Pro X3,cat-padel-accessories,brand-softee,0,0,0,0,0,0,0,,0,zero
+prod-softee-softee-protector,softee-softee-protector,Softee Protector,cat-padel-accessories,brand-softee,0,0,0,0,0,0,0,,0,zero
+prod-starvie-transparent-protector-2026,starvie-transparent-protector-2026,Transparent Protector 2026,cat-padel-accessories,brand-starvie,0,0,0,0,0,0,0,,0,zero
+prod-tuboplus-tuboplus-29psi-x3,tuboplus-tuboplus-29psi-x3,TuboPlus 29PSI X3,cat-padel-accessories,brand-tuboplus,0,0,0,0,0,0,0,,0,zero
+prod-tuboplus-29psi-x3e,tuboplus-29psi-x3e,29PSI X3e,cat-padel-accessories,brand-tuboplus,0,0,0,0,0,0,0,,0,zero
+prod-tuboplus-29psi-x4e,tuboplus-29psi-x4e,29PSI X4e,cat-padel-accessories,brand-tuboplus,0,0,0,0,0,0,0,,0,zero
+prod-tuboplus-boost,tuboplus-boost,BOOST,cat-padel-accessories,brand-tuboplus,0,0,0,0,0,0,0,,0,zero
+prod-tuboplus-r3play,tuboplus-r3play,R3PLAY,cat-padel-accessories,brand-tuboplus,0,0,0,0,0,0,0,,0,zero
+prod-tuboplus-r3set,tuboplus-r3set,R3SET,cat-padel-accessories,brand-tuboplus,0,0,0,0,0,0,0,,0,zero
+prod-tuboplus-repl4y,tuboplus-repl4y,REPL4Y,cat-padel-accessories,brand-tuboplus,0,0,0,0,0,0,0,,0,zero
+prod-tuboplus-tuboplus-x4,tuboplus-tuboplus-x4,TuboPlus X4,cat-padel-accessories,brand-tuboplus,0,0,0,0,0,0,0,,0,zero
+prod-tuboplus-tubox3,tuboplus-tubox3,TuboX3,cat-padel-accessories,brand-tuboplus,0,0,0,0,0,0,0,,0,zero
+prod-vibora-vibor-a-transparent,vibora-vibor-a-transparent,Vibor-A Transparent,cat-padel-accessories,brand-vibora,0,0,0,0,0,0,0,,0,zero
+prod-wilson-wilson-weight-tape,wilson-wilson-weight-tape,Wilson Weight Tape,cat-padel-accessories,brand-wilson-padel,0,0,0,0,0,0,0,,0,zero
+prod-wilson-wilson-protector,wilson-wilson-protector,Wilson Protector,cat-padel-accessories,brand-wilson-padel,0,0,0,0,0,0,0,,0,zero
+prod-adidas-control-2026,adidas-control-2026,Control 2026,cat-padel-bags,brand-adidas-padel,0,0,0,0,0,0,0,,0,zero
+prod-adidas-metalbone-bag,adidas-metalbone-bag,Metalbone Bag,cat-padel-bags,brand-adidas-padel,0,0,0,0,0,0,0,,0,zero
+prod-adidas-multigame-backpack-2026,adidas-multigame-backpack-2026,Multigame Backpack 2026,cat-padel-bags,brand-adidas-padel,0,0,0,0,0,0,0,,0,zero
+prod-adidas-multigame-2026,adidas-multigame-2026,Multigame 2026,cat-padel-bags,brand-adidas-padel,0,0,0,0,0,0,0,,0,zero
+prod-adidas-protour-backpack-2026,adidas-protour-backpack-2026,ProTour Backpack 2026,cat-padel-bags,brand-adidas-padel,0,0,0,0,0,0,0,,0,zero
+prod-adidas-tour,adidas-tour,Tour,cat-padel-bags,brand-adidas-padel,0,0,0,0,0,0,0,,0,zero
+prod-adidas-weekend,adidas-weekend,Weekend,cat-padel-bags,brand-adidas-padel,0,0,0,0,0,0,0,,0,zero
+prod-babolat-backpack-kids,babolat-backpack-kids,Backpack Kids,cat-padel-bags,brand-babolat-padel,0,0,0,0,0,0,0,,0,zero
+prod-babolat-court-backpack-lite,babolat-court-backpack-lite,Court Backpack Lite,cat-padel-bags,brand-babolat-padel,0,0,0,0,0,0,0,,0,zero
+prod-babolat-rh-perf,babolat-rh-perf,RH Perf,cat-padel-bags,brand-babolat-padel,0,0,0,0,0,0,0,,0,zero
+prod-black-crown-spartan,black-crown-spartan,Spartan,cat-padel-bags,brand-black-crown,0,1,0,0,0,0,0,best-guide,1,thin
+prod-black-crown-thunder,black-crown-thunder,Thunder,cat-padel-bags,brand-black-crown,0,0,0,0,0,0,0,,0,zero
+prod-black-crown-ultimate-pro-2-0,black-crown-ultimate-pro-2-0,Ultimate Pro 2.0,cat-padel-bags,brand-black-crown,0,0,0,0,0,0,0,,0,zero
+prod-bullpadel-advance-bpp26014,bullpadel-advance-bpp26014,Advance BPP26014,cat-padel-bags,brand-bullpadel,0,0,0,0,0,0,0,,0,zero
+prod-bullpadel-casual-bpp26016,bullpadel-casual-bpp26016,Casual BPP26016,cat-padel-bags,brand-bullpadel,0,0,0,0,0,0,0,,0,zero
+prod-bullpadel-elite-bpp26019,bullpadel-elite-bpp26019,Elite BPP26019,cat-padel-bags,brand-bullpadel,0,0,0,0,0,0,0,,0,zero
+prod-bullpadel-hack-bpm26002,bullpadel-hack-bpm26002,Hack BPM26002,cat-padel-bags,brand-bullpadel,0,1,0,0,0,0,0,best-guide,1,thin
+prod-bullpadel-icon-bpp26023,bullpadel-icon-bpp26023,Icon BPP26023,cat-padel-bags,brand-bullpadel,0,0,0,0,0,0,0,,0,zero
+prod-bullpadel-ionic-bpp26005,bullpadel-ionic-bpp26005,Ionic BPP26005,cat-padel-bags,brand-bullpadel,0,0,0,0,0,0,0,,0,zero
+prod-bullpadel-neuron-bpm26020,bullpadel-neuron-bpm26020,Neuron BPM26020,cat-padel-bags,brand-bullpadel,0,0,0,0,0,0,0,,0,zero
+prod-bullpadel-neuron-bpp26020,bullpadel-neuron-bpp26020,Neuron BPP26020,cat-padel-bags,brand-bullpadel,0,0,0,0,0,0,0,,0,zero
+prod-bullpadel-pearl-bpm27017,bullpadel-pearl-bpm27017,Pearl BPM27017,cat-padel-bags,brand-bullpadel,0,0,0,0,0,0,0,,0,zero
+prod-bullpadel-pearl-bpp26021,bullpadel-pearl-bpp26021,Pearl BPP26021,cat-padel-bags,brand-bullpadel,0,0,0,0,0,0,0,,0,zero
+prod-bullpadel-tour-bpp26015,bullpadel-tour-bpp26015,Tour BPP26015,cat-padel-bags,brand-bullpadel,0,0,0,0,0,0,0,,0,zero
+prod-bullpadel-trolley-bpp26011,bullpadel-trolley-bpp26011,Trolley BPP26011,cat-padel-bags,brand-bullpadel,0,0,0,0,0,0,0,,0,zero
+prod-bullpadel-vertex-bpp26001,bullpadel-vertex-bpp26001,Vertex BPP26001,cat-padel-bags,brand-bullpadel,0,0,0,0,0,0,0,,0,zero
+prod-bullpadel-vertex-geo-premier-bpm26008,bullpadel-vertex-geo-premier-bpm26008,Vertex Geo Premier BPM26008,cat-padel-bags,brand-bullpadel,0,0,0,0,0,0,0,,0,zero
+prod-bullpadel-wonder-bpp26024,bullpadel-wonder-bpp26024,Wonder BPP26024,cat-padel-bags,brand-bullpadel,0,0,0,0,0,0,0,,0,zero
+prod-bullpadel-xplo-bpp26022,bullpadel-xplo-bpp26022,Xplo BPP26022,cat-padel-bags,brand-bullpadel,0,0,0,0,0,0,0,,0,zero
+prod-bullpadel-flow-bpp26006,bullpadel-flow-bpp26006,Flow BPP26006,cat-padel-bags,brand-bullpadel,0,0,0,0,0,0,0,,0,zero
+prod-bullpadel-bpm26002-hack,bullpadel-bpm26002-hack,BPM26002 Hack,cat-padel-bags,brand-bullpadel,0,2,0,0,0,0,0,best-guide,1,thin
+prod-bullpadel-hack-bpp26012,bullpadel-hack-bpp26012,Hack BPP26012,cat-padel-bags,brand-bullpadel,0,1,0,0,0,0,0,best-guide,1,thin
+prod-bullpadel-bpp26005-ionic,bullpadel-bpp26005-ionic,BPP26005 Ionic,cat-padel-bags,brand-bullpadel,0,0,0,0,0,0,0,,0,zero
+prod-bullpadel-bpm26007-bpm26008-vertex,bullpadel-bpm26007-bpm26008-vertex,BPM26007 / BPM26008 Vertex,cat-padel-bags,brand-bullpadel,0,0,0,0,0,0,0,,0,zero
+prod-bullpadel-bpp26001-vertex,bullpadel-bpp26001-vertex,BPP26001 Vertex,cat-padel-bags,brand-bullpadel,0,0,0,0,0,0,0,,0,zero
+prod-bullpadel-bpm26022-xplo,bullpadel-bpm26022-xplo,BPM26022 XPLO,cat-padel-bags,brand-bullpadel,0,0,0,0,0,0,0,,0,zero
+prod-bullpadel-bpp26022-xplo,bullpadel-bpp26022-xplo,BPP26022 XPLO,cat-padel-bags,brand-bullpadel,0,0,0,0,0,0,0,,0,zero
+prod-drop-shot-axion-backpack,drop-shot-axion-backpack,Axion Backpack,cat-padel-bags,brand-drop-shot,0,0,0,0,0,0,0,,0,zero
+prod-drop-shot-axion,drop-shot-axion,Axion,cat-padel-bags,brand-drop-shot,0,0,0,0,0,0,0,,0,zero
+prod-drop-shot-blitz,drop-shot-blitz,Blitz,cat-padel-bags,brand-drop-shot,0,0,0,0,0,0,0,,0,zero
+prod-drop-shot-fenix,drop-shot-fenix,Fenix,cat-padel-bags,brand-drop-shot,0,0,0,0,0,0,0,,0,zero
+prod-drop-shot-lcp,drop-shot-lcp,LCP,cat-padel-bags,brand-drop-shot,0,0,0,0,0,0,0,,0,zero
+prod-head-coello-pro-x-backpack,head-coello-pro-x-backpack,Coello Pro X Backpack,cat-padel-bags,brand-head-padel,0,0,0,0,0,0,0,,0,zero
+prod-head-coello-pro-x-duffle-l,head-coello-pro-x-duffle-l,Coello Pro X Duffle L,cat-padel-bags,brand-head-padel,0,0,0,0,0,0,0,,0,zero
+prod-head-coello-tour-backpack,head-coello-tour-backpack,Coello Tour Backpack,cat-padel-bags,brand-head-padel,0,0,0,0,0,0,0,,0,zero
+prod-head-coello-tour-bag,head-coello-tour-bag,Coello Tour Bag,cat-padel-bags,brand-head-padel,0,0,0,0,0,0,0,,0,zero
+prod-head-elite-supercombi,head-elite-supercombi,Elite Supercombi,cat-padel-bags,brand-head-padel,0,0,0,0,0,0,0,,0,zero
+prod-head-tour-backpack-25l,head-tour-backpack-25l,Tour Backpack 25L,cat-padel-bags,brand-head-padel,0,4,0,0,0,0,0,best-guide,1,thin
+prod-head-tour-team-cb-2026,head-tour-team-cb-2026,Tour Team CB 2026,cat-padel-bags,brand-head-padel,0,0,0,0,0,0,0,,0,zero
+prod-head-pro-x-bag-l,head-pro-x-bag-l,Pro X Bag L,cat-padel-bags,brand-head-padel,0,0,0,0,0,0,0,,0,zero
+prod-head-pro-x-duffle-l,head-pro-x-duffle-l,Pro X Duffle L,cat-padel-bags,brand-head-padel,0,0,0,0,0,0,0,,0,zero
+prod-head-tour-padel-bag-l,head-tour-padel-bag-l,Tour Padel Bag L,cat-padel-bags,brand-head-padel,0,0,0,0,0,0,0,,0,zero
+prod-head-tour-team-elite,head-tour-team-elite,Tour Team Elite,cat-padel-bags,brand-head-padel,0,0,0,0,0,0,0,,0,zero
+prod-joma-pro,joma-pro,Pro,cat-padel-bags,brand-joma,0,0,0,0,0,0,0,,0,zero
+prod-kuikma-pl-900-elite,kuikma-pl-900-elite,PL 900 Elite,cat-padel-bags,brand-kuikma,0,0,0,0,0,0,0,,0,zero
+prod-kuikma-backpack,kuikma-backpack,Backpack,cat-padel-bags,brand-kuikma,0,0,0,0,0,0,0,,0,zero
+prod-kuikma-pbp-elite,kuikma-pbp-elite,PBP Elite,cat-padel-bags,brand-kuikma,0,0,0,0,0,0,0,,0,zero
+prod-lok-aventure-gen-2,lok-aventure-gen-2,Aventure Gen 2,cat-padel-bags,brand-lok,0,0,0,0,0,0,0,,0,zero
+prod-lok-maxx-gen-2,lok-maxx-gen-2-paletero,Maxx Gen 2 Paletero,cat-padel-bags,brand-lok,0,0,0,0,0,0,0,,0,zero
+prod-nox-at10-competition-trolley,nox-at10-competition-trolley,AT10 Competition Trolley,cat-padel-bags,brand-nox,0,3,0,0,0,0,0,best-guide,1,thin
+prod-nox-at10-team-backpack,nox-at10-team-backpack,AT10 Team Backpack,cat-padel-bags,brand-nox,0,0,0,0,0,0,0,,0,zero
+prod-nox-at10-team,nox-at10-team,AT10 Team,cat-padel-bags,brand-nox,0,0,0,0,0,0,0,,0,zero
+prod-nox-luxury-master-backpack,nox-luxury-master-backpack,Luxury Master Backpack,cat-padel-bags,brand-nox,0,0,0,0,0,0,0,,0,zero
+prod-nox-luxury-master-series,nox-luxury-master-series,Luxury Master Series,cat-padel-bags,brand-nox,0,0,0,0,0,0,0,,0,zero
+prod-nox-luxury-open-backpack,nox-luxury-open-backpack,Luxury Open Backpack,cat-padel-bags,brand-nox,0,0,0,0,0,0,0,,0,zero
+prod-nox-luxury-open-series,nox-luxury-open-series,Luxury Open Series,cat-padel-bags,brand-nox,0,0,0,0,0,0,0,,0,zero
+prod-nox-ml10-competition-xl-compact,nox-ml10-competition-xl-compact,ML10 Competition XL Compact,cat-padel-bags,brand-nox,0,0,0,0,0,0,0,,0,zero
+prod-nox-ml10-team-backpack,nox-ml10-team-backpack,ML10 Team Backpack,cat-padel-bags,brand-nox,0,0,0,0,0,0,0,,0,zero
+prod-nox-ml10-team,nox-ml10-team,ML10 Team,cat-padel-bags,brand-nox,0,0,0,0,0,0,0,,0,zero
+prod-nox-at10-competition-xl-compact,nox-at10-competition-xl-compact,AT10 Competition XL Compact,cat-padel-bags,brand-nox,0,0,0,0,0,0,0,,0,zero
+prod-nox-pro-series-backpack,nox-pro-series-backpack,Pro Series Backpack,cat-padel-bags,brand-nox,0,0,0,0,0,0,0,,0,zero
+prod-nox-pro-series,nox-pro-series,Pro Series,cat-padel-bags,brand-nox,0,0,0,0,0,0,0,,0,zero
+prod-nox-street-series,nox-street-series,Street Series,cat-padel-bags,brand-nox,0,0,0,0,0,0,0,,0,zero
+prod-oxdog-cube,oxdog-cube,Cube,cat-padel-bags,brand-oxdog,0,0,0,0,0,0,0,,0,zero
+prod-oxdog-hyper-pro-thermo,oxdog-hyper-pro-thermo,Hyper Pro Thermo,cat-padel-bags,brand-oxdog,0,0,0,0,0,0,0,,0,zero
+prod-oxdog-hyper-tour-thermo-backpack,oxdog-hyper-tour-thermo-backpack,Hyper Tour Thermo Backpack,cat-padel-bags,brand-oxdog,0,0,0,0,0,0,0,,0,zero
+prod-oxdog-x-padel-pro-thermo,oxdog-x-padel-pro-thermo,X Padel Pro Thermo,cat-padel-bags,brand-oxdog,0,0,0,0,0,0,0,,0,zero
+prod-royal-padel-force,royal-padel-force,Force,cat-padel-bags,brand-royal-padel,0,0,0,0,0,0,0,,0,zero
+prod-siux-nomad,siux-nomad,Nomad,cat-padel-bags,brand-siux,0,0,0,0,0,0,0,,0,zero
+prod-siux-electra-stupa-2026,siux-electra-stupa-2026,Electra Stupa 2026,cat-padel-bags,brand-siux,0,0,0,0,0,0,0,,0,zero
+prod-siux-tour,siux-tour,Tour,cat-padel-bags,brand-siux,0,0,0,0,0,0,0,,0,zero
+prod-siux-trail,siux-trail,Trail,cat-padel-bags,brand-siux,0,0,0,0,0,0,0,,0,zero
+prod-starvie-hard-eva,starvie-hard-eva,Hard Eva,cat-padel-bags,brand-starvie,0,0,0,0,0,0,0,,0,zero
+prod-starvie-hard-eva-backpack,starvie-hard-eva-backpack,Hard Eva Backpack,cat-padel-bags,brand-starvie,0,0,0,0,0,0,0,,0,zero
+prod-starvie-pro-master,starvie-pro-master,Pro Master,cat-padel-bags,brand-starvie,0,0,0,0,0,0,0,,0,zero
+prod-starvie-tactic-pro,starvie-tactic-pro,Tactic Pro,cat-padel-bags,brand-starvie,0,0,0,0,0,0,0,,0,zero
+prod-tecnifibre-tour-endurance-bag,tecnifibre-tour-endurance-bag,Tour Endurance Bag,cat-padel-bags,brand-tecnifibre-padel,0,0,0,0,0,0,0,,0,zero
+prod-tecnifibre-tour-endurance-ultra,tecnifibre-tour-endurance-ultra,Tour Endurance Ultra,cat-padel-bags,brand-tecnifibre-padel,0,0,0,0,0,0,0,,0,zero
+prod-varlion-ambassador,varlion-ambassador,Ambassador,cat-padel-bags,brand-varlion,0,0,0,0,0,0,0,,0,zero
+prod-varlion-summum-backpack,varlion-summum-backpack,Summum Backpack,cat-padel-bags,brand-varlion,0,0,0,0,0,0,0,,0,zero
+prod-varlion-summum-pro,varlion-summum-pro,Summum Pro,cat-padel-bags,brand-varlion,0,0,0,0,0,0,0,,0,zero
+prod-wilson-bela-super-tour-backpack,wilson-bela-super-tour-backpack,Bela Super Tour Backpack,cat-padel-bags,brand-wilson-padel,0,0,0,0,0,0,0,,0,zero
+prod-wilson-bela-backpack,wilson-bela-backpack,Bela Backpack,cat-padel-bags,brand-wilson-padel,0,2,0,0,0,0,0,best-guide,1,thin
+prod-wilson-super-tour-2026,wilson-super-tour-2026,Super Tour 2026,cat-padel-bags,brand-wilson-padel,0,0,0,0,0,0,0,,0,zero
+prod-adidas-pro-bounce,adidas-pro-bounce,Pro Bounce,cat-padel-balls,brand-adidas-padel,0,0,0,0,0,0,0,,0,zero
+prod-adidas-serie-tour,adidas-serie-tour,Serie+ Tour,cat-padel-balls,brand-adidas-padel,0,1,0,0,0,0,0,best-guide,1,thin
+prod-babolat-ace,babolat-ace,Ace,cat-padel-balls,brand-babolat-padel,0,1,0,0,0,0,0,best-guide,1,thin
+prod-babolat-court,babolat-court,Court,cat-padel-balls,brand-babolat-padel,0,0,0,0,0,0,0,,0,zero
+prod-babolat-short,babolat-short,Short,cat-padel-balls,brand-babolat-padel,0,0,0,0,0,0,0,,0,zero
+prod-black-crown-one,black-crown-one,One,cat-padel-balls,brand-black-crown,0,0,0,0,0,0,0,,0,zero
+prod-black-crown-pro,black-crown-pro,Pro,cat-padel-balls,brand-black-crown,0,1,0,0,0,0,0,best-guide,1,thin
+prod-bullpadel-fip-next,bullpadel-fip-next,FIP Next,cat-padel-balls,brand-bullpadel,0,0,0,0,0,0,0,,0,zero
+prod-bullpadel-fip-next-pro,bullpadel-fip-next-pro,FIP Next Pro,cat-padel-balls,brand-bullpadel,0,0,0,0,0,0,0,,0,zero
+prod-bullpadel-next,bullpadel-next,Next,cat-padel-balls,brand-bullpadel,0,1,0,0,0,0,0,best-guide,1,thin
+prod-bullpadel-next-pro,bullpadel-next-pro,Next Pro,cat-padel-balls,brand-bullpadel,0,1,0,0,0,0,0,best-guide,1,thin
+prod-drop-shot-speed-tech,drop-shot-speed-tech,Speed Tech,cat-padel-balls,brand-drop-shot,0,0,0,0,0,0,0,,0,zero
+prod-drop-shot-tournament-speed-pro,drop-shot-tournament-speed-pro,Tournament Speed Pro,cat-padel-balls,brand-drop-shot,0,0,0,0,0,0,0,,0,zero
+prod-drop-shot-tournament-tech,drop-shot-tournament-tech,Tournament Tech,cat-padel-balls,brand-drop-shot,0,1,0,0,0,0,0,best-guide,1,thin
+prod-drop-shot-training-tech,drop-shot-training-tech,Training Tech,cat-padel-balls,brand-drop-shot,0,0,0,0,0,0,0,,0,zero
+prod-dunlop-eco,dunlop-eco,Eco,cat-padel-balls,brand-dunlop-padel,0,0,0,0,0,0,0,,0,zero
+prod-dunlop-pro,dunlop-pro,Pro,cat-padel-balls,brand-dunlop-padel,0,0,0,0,0,0,0,,0,zero
+prod-dunlop-team,dunlop-team,Team,cat-padel-balls,brand-dunlop-padel,0,2,0,0,0,0,0,best-guide,1,thin
+prod-fila-premium,fila-premium,Premium,cat-padel-balls,brand-fila-padel,0,0,0,0,0,0,0,,0,zero
+prod-fila-premium-pro,fila-premium-pro,Premium Pro,cat-padel-balls,brand-fila-padel,0,0,0,0,0,0,0,,0,zero
+prod-nox-nerbo,nox-nerbo,Nerbo,cat-padel-balls,brand-nox,0,0,0,0,0,0,0,,0,zero
+prod-nox-nerbo-speed,nox-nerbo-speed,Nerbo+ Speed,cat-padel-balls,brand-nox,0,0,0,0,0,0,0,,0,zero
+prod-nox-pro-titanium,nox-pro-titanium,Pro Titanium,cat-padel-balls,brand-nox,0,2,0,0,0,0,0,best-guide,1,thin
+prod-osaka-pro-tour,osaka-pro-tour,Pro Tour,cat-padel-balls,brand-osaka-padel,0,0,0,0,0,0,0,,0,zero
+prod-osaka-vision,osaka-vision,Vision,cat-padel-balls,brand-osaka-padel,0,0,0,0,0,0,0,,0,zero
+prod-oxdog-boost,oxdog-boost,Boost,cat-padel-balls,brand-oxdog,0,0,0,0,0,0,0,,0,zero
+prod-pallap-competition-01,pallap-competition-01,Competition 01,cat-padel-balls,brand-pallap,0,0,0,0,0,0,0,,0,zero
+prod-rs-champions-choice,rs-champions-choice,Champions Choice,cat-padel-balls,brand-rs-padel,0,0,0,0,0,0,0,,0,zero
+prod-rs-nova-x,rs-nova-x,Nova X,cat-padel-balls,brand-rs-padel,0,0,0,0,0,0,0,,0,zero
+prod-siux-neo,siux-neo,Neo,cat-padel-balls,brand-siux,0,1,0,0,0,0,0,best-guide,1,thin
+prod-siux-neo-speed,siux-neo-speed,Neo Speed,cat-padel-balls,brand-siux,0,1,0,0,0,0,0,best-guide,1,thin
+prod-siux-neo-speed-neo-s,siux-neo-speed-neo-s,Neo Speed (Neo S),cat-padel-balls,brand-siux,0,0,0,0,0,0,0,,0,zero
+prod-slazenger-challenge-no-1,slazenger-challenge-no-1,Challenge No.1,cat-padel-balls,brand-slazenger-padel,0,1,0,0,0,0,0,best-guide,1,thin
+prod-tecnifibre-padel-tour,tecnifibre-padel-tour,Padel Tour,cat-padel-balls,brand-tecnifibre-padel,0,1,0,0,0,0,0,best-guide,1,thin
+prod-tecnifibre-x-one,tecnifibre-x-one,X-One,cat-padel-balls,brand-tecnifibre-padel,0,0,0,0,0,0,0,,0,zero
+prod-tretorn-serie-padel-control,tretorn-serie-padel-control,Serie+ Padel Control,cat-padel-balls,brand-tretorn-padel,0,0,0,0,0,0,0,,0,zero
+prod-tretorn-serie-padel-tour,tretorn-serie-padel-tour,Serie+ Padel Tour,cat-padel-balls,brand-tretorn-padel,0,1,0,0,0,0,0,best-guide,1,thin
+prod-varlion-summum-pro-s,varlion-summum-pro-s,Summum Pro S,cat-padel-balls,brand-varlion,0,1,0,0,0,0,0,best-guide,1,thin
+prod-varlion-summum-pro-w,varlion-summum-pro-w,Summum Pro W,cat-padel-balls,brand-varlion,0,2,0,0,0,0,0,best-guide,1,thin
+prod-volt-premium,volt-premium,Premium,cat-padel-balls,brand-volt-padel,0,0,0,0,0,0,0,,0,zero
+prod-wilson-premier-padel,wilson-premier-padel,Premier Padel,cat-padel-balls,brand-wilson-padel,0,0,0,0,0,0,0,,0,zero
+prod-wilson-rush-100,wilson-rush-100,Rush 100,cat-padel-balls,brand-wilson-padel,0,0,0,0,0,0,0,,0,zero
+prod-adidas-perforated-ac2ba1wh,adidas-perforated-ac2ba1wh,Perforated / AC2BA1WH,cat-padel-grips,brand-adidas-padel,0,0,0,0,0,0,0,,0,zero
+prod-adidas-tacky-feeling,adidas-tacky-feeling,Tacky Feeling,cat-padel-grips,brand-adidas-padel,0,0,0,0,0,0,0,,0,zero
+prod-babolat-pro-tour,babolat-pro-tour,Pro Tour,cat-padel-grips,brand-babolat-padel,0,0,0,0,0,0,0,,0,zero
+prod-babolat-syntec-team,babolat-syntec-team,Syntec Team,cat-padel-grips,brand-babolat-padel,0,0,0,0,0,0,0,,0,zero
+prod-babolat-vs-original,babolat-vs-original,VS Original,cat-padel-grips,brand-babolat-padel,0,0,0,0,0,0,0,,0,zero
+prod-black-crown-black-crown-perforated,black-crown-black-crown-perforated,Black Crown Perforated,cat-padel-grips,brand-black-crown,0,0,0,0,0,0,0,,0,zero
+prod-bullpadel-comfort-overgrip,bullpadel-comfort-overgrip,Comfort Overgrip,cat-padel-grips,brand-bullpadel,0,0,0,0,0,0,0,,0,zero
+prod-bullpadel-gb-1705,bullpadel-gb-1705,GB-1705,cat-padel-grips,brand-bullpadel,0,0,0,0,0,0,0,,0,zero
+prod-bullpadel-gb1201,bullpadel-gb1201,GB1201,cat-padel-grips,brand-bullpadel,0,0,0,0,0,0,0,,0,zero
+prod-bullpadel-gb1200-hac,bullpadel-gb1200-hac,GB1200 HaC,cat-padel-grips,brand-bullpadel,0,0,0,0,0,0,0,,0,zero
+prod-drop-shot-club,drop-shot-club,Club,cat-padel-grips,brand-drop-shot,0,0,0,0,0,0,0,,0,zero
+prod-drop-shot-super-dry,drop-shot-super-dry,Super Dry,cat-padel-grips,brand-drop-shot,0,0,0,0,0,0,0,,0,zero
+prod-drop-shot-super-tacky,drop-shot-super-tacky,Super Tacky,cat-padel-grips,brand-drop-shot,0,0,0,0,0,0,0,,0,zero
+prod-enebe-enebe-smooth,enebe-enebe-smooth,Enebe Smooth,cat-padel-grips,brand-enebe,0,0,0,0,0,0,0,,0,zero
+prod-head-prestige-pro,head-prestige-pro,Prestige Pro,cat-padel-grips,brand-head-padel,0,0,0,0,0,0,0,,0,zero
+prod-head-hydrosorb-comfort,head-hydrosorb-comfort,Hydrosorb Comfort,cat-padel-grips,brand-head-padel,0,0,0,0,0,0,0,,0,zero
+prod-head-hydrosorb-family,head-hydrosorb-family,Hydrosorb family,cat-padel-grips,brand-head-padel,0,0,0,0,0,0,0,,0,zero
+prod-head-padel-pro,head-padel-pro,Padel Pro,cat-padel-grips,brand-head-padel,0,0,0,0,0,0,0,,0,zero
+prod-head-padel-pro-perforated,head-padel-pro-perforated,Padel Pro Perforated,cat-padel-grips,brand-head-padel,0,0,0,0,0,0,0,,0,zero
+prod-head-xtreme-soft-xtremesoft,head-xtreme-soft-xtremesoft,Xtreme Soft / XtremeSoft,cat-padel-grips,brand-head-padel,0,0,0,0,0,0,0,,0,zero
+prod-hesacore-carbon,hesacore-carbon,Carbon,cat-padel-grips,brand-hesacore,0,1,0,0,0,0,0,best-guide,1,thin
+prod-hesacore-gel,hesacore-gel,Gel,cat-padel-grips,brand-hesacore,0,2,0,0,0,0,0,best-guide,1,thin
+prod-hesacore-pro-carbon,hesacore-pro-carbon,Pro Carbon,cat-padel-grips,brand-hesacore,0,1,0,0,0,0,0,best-guide,1,thin
+prod-hesacore-tour,hesacore-tour,Tour,cat-padel-grips,brand-hesacore,0,0,0,0,0,0,0,,0,zero
+prod-hesacore-tour-w,hesacore-tour-w,Tour W,cat-padel-grips,brand-hesacore,0,0,0,0,0,0,0,,0,zero
+prod-hesacore-pink-w,hesacore-pink-w,Pink / W,cat-padel-grips,brand-hesacore,0,0,0,0,0,0,0,,0,zero
+prod-hesacore-tour-original,hesacore-tour-original,Tour / Original,cat-padel-grips,brand-hesacore,0,1,0,0,0,0,0,best-guide,1,thin
+prod-joma-club-cushion,joma-club-cushion,Club Cushion,cat-padel-grips,brand-joma,0,0,0,0,0,0,0,,0,zero
+prod-kuikma-antislip,kuikma-antislip,Antislip,cat-padel-grips,brand-kuikma,0,0,0,0,0,0,0,,0,zero
+prod-kuikma-overgrip-pro-adherence,kuikma-overgrip-pro-adherence,Overgrip Pro / Adherence,cat-padel-grips,brand-kuikma,0,0,0,0,0,0,0,,0,zero
+prod-nox-custom-grip,nox-custom-grip,Custom Grip,cat-padel-grips,brand-nox,0,0,0,0,0,0,0,,0,zero
+prod-nox-luxury-pro,nox-luxury-pro,Luxury Pro,cat-padel-grips,brand-nox,0,0,0,0,0,0,0,,0,zero
+prod-nox-h-dri,nox-h-dri,H-Dri,cat-padel-grips,brand-nox,0,0,0,0,0,0,0,,0,zero
+prod-shockout-shockout-overgrip,shockout-shockout-overgrip,ShockOut Overgrip,cat-padel-grips,brand-shockout,0,0,0,0,0,0,0,,0,zero
+prod-shockout-100-0062-combo,shockout-100-0062-combo,100-0062 Combo,cat-padel-grips,brand-shockout,0,0,0,0,0,0,0,,0,zero
+prod-shockout-shockout,shockout-shockout,ShockOut,cat-padel-grips,brand-shockout,0,0,0,0,0,0,0,,0,zero
+prod-siux-elite,siux-elite,Elite,cat-padel-grips,brand-siux,0,0,0,0,0,0,0,,0,zero
+prod-siux-elite-overgrip,siux-elite-overgrip,Elite Overgrip,cat-padel-grips,brand-siux,0,0,0,0,0,0,0,,0,zero
+prod-starvie-premier-soft,starvie-premier-soft,Premier Soft,cat-padel-grips,brand-starvie,0,0,0,0,0,0,0,,0,zero
+prod-starvie-tacky-touch,starvie-tacky-touch,Tacky Touch,cat-padel-grips,brand-starvie,0,0,0,0,0,0,0,,0,zero
+prod-tecnifibre-contact-pro,tecnifibre-contact-pro,Contact Pro,cat-padel-grips,brand-tecnifibre-padel,0,0,0,0,0,0,0,,0,zero
+prod-tecnifibre-players-pro-feel,tecnifibre-players-pro-feel,Players Pro Feel,cat-padel-grips,brand-tecnifibre-padel,0,0,0,0,0,0,0,,0,zero
+prod-tecnifibre-pro-contact,tecnifibre-pro-contact,Pro Contact,cat-padel-grips,brand-tecnifibre-padel,0,0,0,0,0,0,0,,0,zero
+prod-tourna-tourna-grip-ii,tourna-tourna-grip-ii,Tourna Grip II,cat-padel-grips,brand-tourna,0,0,0,0,0,0,0,,0,zero
+prod-tourna-tourna-grip-original-xl,tourna-tourna-grip-original-xl,Tourna Grip Original XL,cat-padel-grips,brand-tourna,0,1,0,0,0,0,0,best-guide,1,thin
+prod-tourna-grip-xl,tourna-grip-xl,Grip XL,cat-padel-grips,brand-tourna,0,3,0,0,0,0,0,best-guide,1,thin
+prod-tourna-mega-tac,tourna-mega-tac,Mega Tac,cat-padel-grips,brand-tourna,0,2,0,0,0,0,0,best-guide,1,thin
+prod-wilson-wilson-replacement-grip,wilson-wilson-replacement-grip,Wilson Replacement Grip,cat-padel-grips,brand-wilson-padel,0,0,0,0,0,0,0,,0,zero
+prod-wilson-pro-overgrip-perforated,wilson-pro-overgrip-perforated,Pro Overgrip Perforated,cat-padel-grips,brand-wilson-padel,0,0,0,0,0,0,0,,0,zero
+prod-wilson-profile-padel,wilson-profile-padel,Profile Padel,cat-padel-grips,brand-wilson-padel,0,0,0,0,0,0,0,,0,zero
+prod-yonex-super-grap,yonex-super-grap,Super Grap,cat-padel-grips,brand-yonex-padel,0,0,0,0,0,0,0,,0,zero
+prod-kuikma-insulated-backpack-pro-40-l,kuikma-insulated-backpack-pro-40-l,Insulated Backpack Pro 40 L,cat-padel-bags,brand-kuikma,0,0,0,0,0,0,0,,0,zero
+prod-adidas-weekend-bag-martita-ortega-2026,adidas-weekend-bag-martita-ortega-2026,Weekend Bag Martita Ortega 2026,cat-padel-bags,brand-adidas-padel,0,0,0,0,0,0,0,,0,zero
+prod-adidas-accessory-pouch-2026,adidas-accessory-pouch-2026,Accessory Pouch 2026,cat-padel-accessories,brand-adidas-padel,0,0,0,0,0,0,0,,0,zero
+prod-adidas-shoe-bag-ale-gal-n,adidas-shoe-bag-ale-gal-n,Shoe Bag Ale Galán,cat-padel-accessories,brand-adidas-padel,0,0,0,0,0,0,0,,0,zero
+prod-dunlop-elite-thermo,dunlop-elite-thermo,Elite Thermo,cat-padel-bags,brand-dunlop-padel,0,0,0,0,0,0,0,,0,zero
+prod-dunlop-tour-pro,dunlop-tour-pro,Tour Pro,cat-padel-grips,brand-dunlop-padel,0,0,0,0,0,0,0,,0,zero
+prod-dunlop-tour-dry,dunlop-tour-dry,Tour Dry,cat-padel-grips,brand-dunlop-padel,0,0,0,0,0,0,0,,0,zero
+prod-dunlop-protection-tape,dunlop-protection-tape,Protection Tape,cat-padel-accessories,brand-dunlop-padel,0,0,0,0,0,0,0,,0,zero
+prod-joma-vero-virseda-2026,joma-vero-virseda-2026,Vero Virseda 2026,cat-padel-bags,brand-joma,0,0,0,0,0,0,0,,0,zero
+prod-babolat-rh-perf-padel,babolat-rh-perf-padel,RH Perf Padel,cat-padel-bags,brand-babolat-padel,0,0,0,0,0,0,0,,0,zero
+prod-bullpadel-gb-1201-perforated,bullpadel-gb-1201-perforated,GB-1201 Perforated,cat-padel-grips,brand-bullpadel,0,0,0,0,0,0,0,,0,zero
+prod-bullpadel-gb-1202-fixogrip-pro,bullpadel-gb-1202-fixogrip-pro,GB-1202 FixoGrip Pro,cat-padel-grips,brand-bullpadel,0,0,0,0,0,0,0,,0,zero
+prod-bullpadel-gb-1705-sensogrip-pro,bullpadel-gb-1705-sensogrip-pro,GB-1705 SensoGrip Pro,cat-padel-grips,brand-bullpadel,0,0,0,0,0,0,0,,0,zero
+prod-nox-pro-overgrip-perforated,nox-pro-overgrip-perforated,Pro Overgrip Perforated,cat-padel-grips,brand-nox,0,0,0,0,0,0,0,,0,zero
+prod-wilson-profile-padel-overgrip,wilson-profile-padel-overgrip,Profile Padel Overgrip,cat-padel-grips,brand-wilson-padel,0,0,0,0,0,0,0,,0,zero
+prod-oxdog-gold-pro,oxdog-gold-pro,Gold Pro,cat-padel-grips,brand-oxdog,0,0,0,0,0,0,0,,0,zero
+prod-oxdog-gold-sticky,oxdog-gold-sticky,Gold Sticky,cat-padel-grips,brand-oxdog,0,0,0,0,0,0,0,,0,zero
+prod-oxdog-no1,oxdog-no1,No1,cat-padel-accessories,brand-oxdog,0,0,0,0,0,0,0,,0,zero
+prod-black-crown-plus,black-crown-plus,Plus,cat-padel-bags,brand-black-crown,0,0,0,0,0,0,0,,0,zero
+prod-lok-one-gen-2,lok-one-gen-2,One Gen 2,cat-padel-bags,brand-lok,0,0,0,0,0,0,0,,0,zero
+prod-lok-accessory-bag-gen-2,lok-accessory-bag-gen-2,Accessory Bag Gen 2,cat-padel-bags,brand-lok,0,0,0,0,0,0,0,,0,zero
+prod-sane-nitro,sane-nitro,Nitro,cat-padel-balls,brand-sane,0,0,0,0,0,0,0,,0,zero
+prod-sane-core,sane-core,Core,cat-padel-balls,brand-sane,0,0,0,0,0,0,0,,0,zero
+prod-sane-spin-premium,sane-spin-premium,Spin Premium,cat-padel-balls,brand-sane,0,0,0,0,0,0,0,,0,zero
+prod-sane-feel,sane-feel,Feel+,cat-padel-grips,brand-sane,0,0,0,0,0,0,0,,0,zero
+prod-sane-pro-elegance,sane-pro-elegance,Pro Elegance,cat-padel-bags,brand-sane,0,0,0,0,0,0,0,,0,zero
+prod-sane-pro-sport,sane-pro-sport,Pro Sport,cat-padel-bags,brand-sane,0,0,0,0,0,0,0,,0,zero
+prod-sane-everyday,sane-everyday,Everyday,cat-padel-bags,brand-sane,0,0,0,0,0,0,0,,0,zero
+prod-volt-volt-padelbag,volt-volt-padelbag,Volt Padelbag,cat-padel-bags,brand-volt-padel,0,0,0,0,0,0,0,,0,zero
+prod-volt-volt-premium,volt-volt-premium,Volt Premium,cat-padel-grips,brand-volt-padel,0,0,0,0,0,0,0,,0,zero
+prod-osaka-sports-padel-bag,osaka-sports-padel-bag,Sports Padel Bag,cat-padel-bags,brand-osaka-padel,0,0,0,0,0,0,0,,0,zero
+prod-osaka-sports-backpack,osaka-sports-backpack,Sports Backpack,cat-padel-bags,brand-osaka-padel,0,0,0,0,0,0,0,,0,zero
+prod-osaka-pro-tour-duffel,osaka-pro-tour-duffel,Pro Tour Duffel,cat-padel-bags,brand-osaka-padel,0,0,0,0,0,0,0,,0,zero
+prod-osaka-osaka-overgrip,osaka-osaka-overgrip,Osaka Overgrip,cat-padel-grips,brand-osaka-padel,0,0,0,0,0,0,0,,0,zero
+prod-royal-padel-royal-overgrip,royal-padel-royal-overgrip,Royal Overgrip,cat-padel-grips,brand-royal-padel,0,0,0,0,0,0,0,,0,zero
+prod-rs-pro-padel-bag,rs-pro-padel-bag,Pro Padel Bag,cat-padel-bags,brand-rs-padel,0,0,0,0,0,0,0,,0,zero
+prod-rs-pro-tour-overgrip,rs-pro-tour-overgrip,Pro Tour Overgrip,cat-padel-grips,brand-rs-padel,0,0,0,0,0,0,0,,0,zero
+prod-bounce-filtertech-padel,bounce-filtertech-padel,FilterTech Padel,cat-padel-accessories,brand-bounce-tube,0,0,0,0,0,0,0,,0,zero
+prod-4on-totalgrip-paste,4on-totalgrip-paste,TotalGrip Paste,cat-padel-accessories,brand-4on,0,0,0,0,0,0,0,,0,zero
+prod-4on-totaldry,4on-totaldry,TotalDry,cat-padel-accessories,brand-4on,0,0,0,0,0,0,0,,0,zero
+prod-4on-swiftgrip,4on-swiftgrip,SwiftGrip,cat-padel-grips,brand-4on,0,0,0,0,0,0,0,,0,zero
+prod-4on-premium-comfort,4on-premium-comfort,Premium Comfort,cat-padel-grips,brand-4on,0,0,0,0,0,0,0,,0,zero
+prod-4on-pro-t1,4on-pro-t1,Pro T1,cat-padel-balls,brand-4on,0,1,0,0,0,0,0,best-guide,1,thin
+prod-shockout-dual-pro,shockout-dual-pro,Dual Pro,cat-padel-grips,brand-shockout,0,0,0,0,0,0,0,,0,zero
+prod-shockout-shockout-perforated,shockout-shockout-perforated,ShockOut Perforated,cat-padel-grips,brand-shockout,0,0,0,0,0,0,0,,0,zero
+prod-tourna-tourna-tac-xl,tourna-tourna-tac-xl,Tourna Tac XL,cat-padel-grips,brand-tourna,0,0,0,0,0,0,0,,0,zero
+prod-tourna-tourna-tuff,tourna-tourna-tuff,Tourna Tuff,cat-padel-grips,brand-tourna,0,0,0,0,0,0,0,,0,zero
+prod-sane-core-overgrip,sane-core-overgrip,Core Overgrip,cat-padel-grips,brand-sane,0,0,0,0,0,0,0,,0,zero
+prod-noene-anti-shock-grip-padel,noene-anti-shock-grip-padel,Anti Shock Grip Padel,cat-padel-grips,brand-noene,0,0,0,0,0,0,0,,0,zero
+prod-noene-undergrip-anti-shock,noene-undergrip-anti-shock,Undergrip Anti-shock,cat-padel-grips,brand-noene,0,0,0,0,0,0,0,,0,zero
+prod-head-prime-tour,head-prime-tour,Prime Tour,cat-padel-grips,brand-head-padel,0,0,0,0,0,0,0,,0,zero
+prod-bullpadel-vertex-w,bullpadel-vertex-w,Vertex-W,cat-padel-shoes,brand-bullpadel,0,0,0,0,0,0,0,,0,zero

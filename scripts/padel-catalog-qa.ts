@@ -60,9 +60,8 @@ const specs = specCoverage(PADEL_RACKET, [
   "balance",
   "core",
   "face",
-  "powerPositioning",
-  "controlPositioning",
-  "sweetSpot",
+  "feel",
+  "playerLevel",
 ]);
 for (const [k, v] of Object.entries(specs)) {
   log(`- ${k}: ${v.n}/${rackets.length} (${v.pct}%)`);
@@ -95,9 +94,9 @@ if (!vertex05) p0.push("Missing Bullpadel Vertex 05 2026");
 if (vertex04?.lifecycleStatus !== "previous-generation") {
   p1.push("Vertex 04 should be previous-generation");
 }
-if (at1018?.specifications.shape !== "diamond") {
-  p0.push("AT10 18K must be diamond (not teardrop) per 2026 research");
-}
+  if (at1018?.specifications.shape !== "teardrop") {
+    p0.push("AT10 18K must be teardrop/drop per NOX 2026 (Genius is not Attack diamond)");
+  }
 
 if (rackets.length < 20) p1.push(`Padel racket catalog thin (${rackets.length})`);
 if (eligible.length < 15) p1.push(`Finder eligible thin (${eligible.length})`);

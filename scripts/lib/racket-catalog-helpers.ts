@@ -65,9 +65,7 @@ export function isFinderEligible(p: Product): boolean {
     return (
       s.shape != null &&
       (s.weightMin != null || s.weight != null) &&
-      (s.balance != null ||
-        s.powerPositioning != null ||
-        s.controlPositioning != null)
+      s.balance != null
     );
   }
   if (p.categoryId === TENNIS_RACKET) {
@@ -89,8 +87,7 @@ export function isHighConfidence(p: Product): boolean {
     return (
       hasEv &&
       p.specifications.core != null &&
-      p.specifications.face != null &&
-      p.specifications.powerPositioning != null
+      p.specifications.face != null
     );
   }
   return hasEv && p.specifications.powerPositioning != null;

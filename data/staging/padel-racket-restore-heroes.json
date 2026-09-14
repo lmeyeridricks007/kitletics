@@ -1,0 +1,43 @@
+{
+  "generatedAt": "2026-09-13T06:25:53.210Z",
+  "report": [
+    {
+      "id": "prod-starvie-titania-kepler",
+      "page": "https://www.zonadepadel.es/star-vie/8032-star-vie-titania-kepler-pro-20.html",
+      "status": "READY",
+      "candidates": 48,
+      "imageUrl": "https://www.zonadepadel.es/13868-zdp_customer/star-vie-titania-kepler-pro-20.jpg",
+      "bytes": 84111
+    },
+    {
+      "id": "prod-tecnifibre-wall-breaker-365-2026",
+      "page": "https://www.greavessports.com/products/wall-breaker-365-padel-racket-black-yellow",
+      "status": "READY",
+      "candidates": 10,
+      "imageUrl": "http://www.greavessports.com/cdn/shop/files/1_77018f1c-c33e-40db-91bc-1e793bf83928_1024x1024.jpg?v=1728485737",
+      "bytes": 74216
+    },
+    {
+      "id": "prod-black-crown-special-one-soft",
+      "page": "https://www.zonadepadel.com/black-crown/8073-black-crown-special-soft-2023.html",
+      "status": "READY",
+      "candidates": 46,
+      "imageUrl": "https://www.zonadepadel.com/14040-zdp_customer/black-crown-special-soft-2023.jpg",
+      "bytes": 77495
+    },
+    {
+      "id": "prod-nox-at10-attack-12k-2026",
+      "page": "https://noxsport.com/en/products/pala-at10-genius-attack-12k-alum-xtrem-2026-by-agustin-tapia",
+      "status": "READY",
+      "candidates": 33,
+      "imageUrl": "http://noxsport.com/cdn/shop/files/at10-luxury-genius-attack-12k-alum-xtrem-2026-by-agustin-tapia-pat10geniusat1226-8435778902669-3810595_1200x1200.png?v=1758604503",
+      "bytes": 90710
+    },
+    {
+      "id": "prod-kuikma-pr-hybrid-carbon",
+      "page": "https://www.decathlon.fr/p/raquette-de-padel-kuikma-pr-hybrid-carbon-coki-nieto/341828/m8979558",
+      "status": "BLOCKED",
+      "error": "page HTTP 403"
+    }
+  ]
+}

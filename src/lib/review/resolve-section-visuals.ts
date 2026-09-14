@@ -15,6 +15,11 @@ type TopicKey =
   | "overview"
   | "specs"
   | "strengths"
+  | "weaknesses"
+  | "bestFor"
+  | "notIdeal"
+  | "alternatives"
+  | "comparisons"
   | "fit"
   | "cushioning"
   | "ride"
@@ -29,6 +34,23 @@ type TopicKey =
   | "assessment"
   | "tech"
   | "performance"
+  | "construction"
+  | "shape"
+  | "power"
+  | "control"
+  | "sweetspot"
+  | "maneuverability"
+  | "comfort"
+  | "spin"
+  | "defense"
+  | "net"
+  | "attack"
+  | "serve"
+  | "methodology"
+  | "sources"
+  | "traction"
+  | "courtFeel"
+  | "support"
   | "generic";
 
 type CategoryFamily =
@@ -268,7 +290,7 @@ const MASTER_POOL: SectionVisual[] = [
   ),
 ];
 
-const TOPIC_PREFERENCES: Record<TopicKey, string[]> = {
+const TOPIC_PREFERENCES: Partial<Record<TopicKey, string[]>> = {
   overview: [
     "/images/home/hero-gear-composite.png",
     "/images/running/category/use-daily.jpg",
@@ -359,11 +381,9 @@ const RACKET_TOPIC_PREFERENCES: Partial<Record<TopicKey, string[]>> = {
   strengths: [
     "/images/padel/guides/choose-racket.jpg",
     "/images/padel/hero.jpg",
-    "/images/home/guide-tennis.jpg",
   ],
   performance: [
     "/images/padel/hero.jpg",
-    "/images/home/guide-tennis.jpg",
     "/images/padel/guides/choose-shoes.jpg",
   ],
   grip: [
@@ -372,17 +392,15 @@ const RACKET_TOPIC_PREFERENCES: Partial<Record<TopicKey, string[]>> = {
   ],
   fit: [
     "/images/padel/guides/choose-shoes.jpg",
-    "/images/running/reviews/review-shoe-fit-lockdown.jpg",
   ],
   overview: [
     "/images/padel/hero.jpg",
-    "/images/home/guide-tennis.jpg",
+    "/images/padel/guides/choose-racket.jpg",
     "/images/home/guide-how-to-choose.jpg",
   ],
   assessment: [
-    "/images/home/guide-how-to-choose.jpg",
     "/images/padel/guides/choose-racket.jpg",
-    "/images/running/reviews/review-research-assessment.jpg",
+    "/images/home/guide-how-to-choose.jpg",
   ],
 };
 
@@ -423,7 +441,6 @@ const FAMILY_BONUS: Record<CategoryFamily, string[]> = {
   racket: [
     "/images/padel/hero.jpg",
     "/images/padel/guides/choose-racket.jpg",
-    "/images/home/guide-tennis.jpg",
     "/images/padel/guides/choose-shoes.jpg",
   ],
   fitness: [
@@ -441,6 +458,8 @@ function categoryFamily(categoryId?: string): CategoryFamily {
   if (!categoryId) return "general";
   // Watches / HRMs before the broad "running" sport hub match (e.g. cat-gps-watches).
   if (/watch|gps|hrm|heart.?rate/i.test(categoryId)) return "watches";
+  // Padel court categories before the generic /shoe/ match.
+  if (/cat-padel-|padel/i.test(categoryId)) return "racket";
   if (
     /running|shoe|sock|belt|light|headphone|pack|hydrat|sunglass|recovery/i.test(
       categoryId,
@@ -449,7 +468,7 @@ function categoryFamily(categoryId?: string): CategoryFamily {
     return "running";
   }
   if (
-    /padel|tennis|squash|badminton|pickleball|racket|paddle|grip|ball/i.test(
+    /tennis|squash|badminton|pickleball|racket|paddle|grip|ball/i.test(
       categoryId,
     )
   ) {
@@ -515,18 +534,42 @@ function topicPreferences(
 
 function topicFromSection(id: string, heading: string): TopicKey {
   const hay = `${id} ${heading}`.toLowerCase();
-  if (/overview|what it is|intro/.test(hay)) return "overview";
+  if (/sec-weaknesses|\bweaknesses\b/.test(hay)) return "weaknesses";
+  if (/sec-best-for|\bbest for\b/.test(hay)) return "bestFor";
+  if (/sec-not-ideal|not ideal for/.test(hay)) return "notIdeal";
+  if (/sec-alternatives|\balternatives\b/.test(hay)) return "alternatives";
+  if (/sec-comparisons|\bcomparisons\b/.test(hay)) return "comparisons";
+  if (/method/.test(hay)) return "methodology";
+  if (/\bsources?\b/.test(hay)) return "sources";
+  if (/construction|materials|setup/.test(hay) && /construct|material|setup/.test(hay)) {
+    return "construction";
+  }
+  if (/sweet.?spot|forgiv/.test(hay)) return "sweetspot";
+  if (/maneuver/.test(hay)) return "maneuverability";
+  if (/\bpower\b/.test(hay)) return "power";
+  if (/\bcontrol\b/.test(hay)) return "control";
+  if (/\bspin\b/.test(hay)) return "spin";
+  if (/defens/.test(hay)) return "defense";
+  if (/\bnet\b|volley/.test(hay)) return "net";
+  if (/smash|attack/.test(hay)) return "attack";
+  if (/serve|return/.test(hay)) return "serve";
+  if (/shape|balance/.test(hay)) return "shape";
+  if (/traction/.test(hay)) return "traction";
+  if (/court.?feel/.test(hay)) return "courtFeel";
+  if (/\bsupport\b/.test(hay) && !/who should/.test(hay)) return "support";
+  if (/overview|what it is|intro|verdict/.test(hay)) return "overview";
   if (/verified|spec|design &|measurements|key specs/.test(hay)) return "specs";
   if (/strength|strongest|best at/.test(hay)) return "strengths";
   if (/trade|limit|weak|avoid|not ideal/.test(hay)) return "tradeoffs";
   if (/use case|who it is|performance by|when to/.test(hay)) return "usecase";
   if (/value|price|position/.test(hay)) return "value";
   if (/upper|mesh|knit/.test(hay)) return "upper";
-  if (/fit|comfort|sizing|lockdown|wrist|on.?wrist/.test(hay)) return "fit";
+  if (/fit|sizing|lockdown|wrist|on.?wrist/.test(hay)) return "fit";
+  if (/sec-comfort|(?:^|\s)comfort(?:\s|$)/.test(hay)) return "comfort";
   if (/cushion|midsole|foam|stack/.test(hay)) return "cushioning";
   if (/ride|feel|transition/.test(hay)) return "ride";
   if (/stabil/.test(hay)) return "stability";
-  if (/grip|traction|lug/.test(hay)) return "grip";
+  if (/grip|lug/.test(hay)) return "grip";
   if (/outsole|tread/.test(hay)) return "outsole";
   if (/durab/.test(hay)) return "durability";
   if (
@@ -537,7 +580,7 @@ function topicFromSection(id: string, heading: string): TopicKey {
   }
   if (/\bperformance\b|playability|everyday performance/.test(hay))
     return "performance";
-  if (/assess|method|how we/.test(hay)) return "assessment";
+  if (/assess|how we/.test(hay)) return "assessment";
   return "generic";
 }
 
@@ -610,6 +653,23 @@ const TOPIC_CAPTIONS: Partial<Record<TopicKey, string>> = {
   outsole: "Outsole on this product.",
   performance: "Everyday training and race-day use.",
   tech: "Maps, GPS, sensors, and training tools in play.",
+  construction: "Frame, face, core, and named systems on the sheet.",
+  shape: "Shape and balance for this racket.",
+  power: "Power from published shape and construction.",
+  control: "Control and placement for this racket.",
+  sweetspot: "Sweet spot and off-centre forgiveness.",
+  maneuverability: "Handling speed at the net and on defence.",
+  comfort: "Touch and vibration claims — not a medical diagnosis.",
+  spin: "Face texture and slice access.",
+  defense: "Defensive play from the back glass.",
+  net: "Volley and net exchanges.",
+  attack: "Smashes and attacking windows.",
+  serve: "Serve and return geometry.",
+  methodology: "How this expert-research guide was assembled.",
+  sources: "Manufacturer and specialist sources for this model.",
+  traction: "Court traction on padel turf.",
+  courtFeel: "How connected the shoe feels to the court.",
+  support: "Lateral support for split-steps and cuts.",
   assessment: "How we assess this product.",
   generic: "The product under review.",
 };
@@ -659,6 +719,23 @@ const TOPIC_FILE_ALIASES: Partial<Record<TopicKey, TopicKey[]>> = {
   performance: ["tech", "overview"],
   // assessment has its own file; do not alias to specs (already used on Key specs)
   generic: ["overview"],
+  construction: ["tech", "specs"],
+  shape: ["specs", "overview"],
+  power: ["performance", "overview"],
+  control: ["performance", "overview"],
+  sweetspot: ["fit", "overview"],
+  maneuverability: ["fit", "performance"],
+  comfort: ["fit"],
+  spin: ["grip", "performance"],
+  defense: ["performance", "usecase"],
+  net: ["performance", "fit"],
+  attack: ["performance", "strengths"],
+  serve: ["performance", "usecase"],
+  methodology: ["assessment"],
+  sources: ["assessment", "specs"],
+  traction: ["grip", "outsole"],
+  courtFeel: ["ride", "performance"],
+  support: ["stability", "fit"],
 };
 
 function productSectionFileVisual(
@@ -698,7 +775,7 @@ function productSectionFileVisual(
 
 function shouldSkipSectionImage(id: string, heading: string): boolean {
   const hay = `${id} ${heading}`.toLowerCase();
-  return /buying checklist|before you buy|decision guide|who should/.test(hay);
+  return /buying checklist|before you buy|decision guide|who should|best for|not ideal|alternatives|comparisons|\bweaknesses\b/.test(hay);
 }
 
 /**

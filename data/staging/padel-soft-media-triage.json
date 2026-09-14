@@ -1,0 +1,1473 @@
+{
+  "generatedAt": "2026-09-13T17:50:15.902Z",
+  "dryRun": false,
+  "summary": {
+    "approved": 18,
+    "rejected": 91,
+    "stillMissing": 26,
+    "hold": 0,
+    "dry": 0
+  },
+  "decisions": [
+    {
+      "productId": "prod-nox-bag-10",
+      "category": "bags",
+      "brand": "nox",
+      "model": "Thermo Bag 10",
+      "priorScore": 59,
+      "candidateImage": "https://cdn.shopify.com/s/files/1/0881/5132/7069/files/nox-at10-luxury-genius-18k-alum-2026-padelracket..jpg?v=1758804944",
+      "decision": "APPROVED",
+      "reason": "reresearch_score_99",
+      "src": "/images/padel/bags/nox-bag-10-hero.jpg"
+    },
+    {
+      "productId": "prod-nox-pro-series-bag",
+      "category": "bags",
+      "brand": "nox",
+      "model": "Pro Series Bag",
+      "priorScore": 24,
+      "candidateImage": "https://padelmarket.com/cdn/shop/collections/BOLSAS-MARCAS-NOX.png?v=1782894650",
+      "decision": "REJECT",
+      "reason": "low_score_24_logo_or_junk"
+    },
+    {
+      "productId": "prod-alacran-wide-ancha",
+      "category": "accessories",
+      "brand": "alacran",
+      "model": "Wide / Ancha",
+      "priorScore": 82,
+      "candidateImage": "https://www.padelmq.com/cdn/shop/files/munyequera-alacran-ancha-rojo-blanco_1200x1200.jpg?v=1777310480",
+      "decision": "APPROVED",
+      "reason": "score_82_product_cdn",
+      "src": "/images/padel/accessories/alacran-wide-ancha-hero.jpg"
+    },
+    {
+      "productId": "prod-bounce-bounce-padel-x4",
+      "category": "accessories",
+      "brand": "bounce-tube",
+      "model": "Bounce Padel X4",
+      "priorScore": 99,
+      "candidateImage": "https://cdn.shopify.com/s/files/1/0881/5132/7069/files/Bullpadel-Next-Pro-Box-24Tubes-PadeLMQ.jpg?v=1786267928",
+      "decision": "REJECT",
+      "reason": "shared-hero_collision"
+    },
+    {
+      "productId": "prod-bullpadel-pascal-box-switch-3b",
+      "category": "accessories",
+      "brand": "bullpadel",
+      "model": "Pascal Box Switch 3B",
+      "priorScore": 99,
+      "candidateImage": "https://cdn.shopify.com/s/files/1/0881/5132/7069/files/cargador-de-presion-pelotas-pascal-box-1000x1000.jpg?v=1772312313",
+      "decision": "REJECT",
+      "reason": "shared-hero_collision"
+    },
+    {
+      "productId": "prod-bullpadel-pascal-box-4b",
+      "category": "accessories",
+      "brand": "bullpadel",
+      "model": "Pascal Box 4B",
+      "priorScore": 0,
+      "candidateImage": "https://www.zonadepadel.com/blog/wp-content/uploads/sites/3/2026/05/Portada-Blog-Presurizadores-en.jpg",
+      "decision": "REJECT",
+      "reason": "low_score_0_logo_or_junk"
+    },
+    {
+      "productId": "prod-bullpadel-pascal-box-pro",
+      "category": "accessories",
+      "brand": "bullpadel",
+      "model": "Pascal Box PRO",
+      "priorScore": 99,
+      "candidateImage": "https://cdn.shopify.com/s/files/1/0881/5132/7069/files/cargador-de-presion-pelotas-pascal-box-1000x1000.jpg?v=1772312313",
+      "decision": "REJECT",
+      "reason": "shared-hero_collision"
+    },
+    {
+      "productId": "prod-bullpadel-pascal-box-switch",
+      "category": "accessories",
+      "brand": "bullpadel",
+      "model": "Pascal Box SWITCH",
+      "priorScore": 0,
+      "candidateImage": "https://www.zonadepadel.com/blog/wp-content/uploads/sites/3/2026/05/Portada-Blog-Presurizadores-en.jpg",
+      "decision": "REJECT",
+      "reason": "low_score_0_logo_or_junk"
+    },
+    {
+      "productId": "prod-bullpadel-custom-weight-protector",
+      "category": "accessories",
+      "brand": "bullpadel",
+      "model": "Custom Weight Protector",
+      "priorScore": 99,
+      "candidateImage": "https://cdn.shopify.com/s/files/1/0881/5132/7069/files/protector-bullpadel-custom-weight-4x3gr.1.jpg?v=1745740026",
+      "decision": "REJECT",
+      "reason": "shared-hero_collision"
+    },
+    {
+      "productId": "prod-head-head-ball-cart",
+      "category": "accessories",
+      "brand": "head",
+      "model": "HEAD Ball Cart",
+      "priorScore": 99,
+      "candidateImage": "https://cdn.shopify.com/s/files/1/0881/5132/7069/files/box-24-cans-of-3-head-padel-pro-balls-PadeLMQ-1.jpg?v=1729588444",
+      "decision": "REJECT",
+      "reason": "shared-hero_collision"
+    },
+    {
+      "productId": "prod-head-court-basket-70",
+      "category": "accessories",
+      "brand": "head",
+      "model": "Court Basket 70",
+      "priorScore": 99,
+      "candidateImage": "https://cdn.shopify.com/s/files/1/0881/5132/7069/files/cesto-bolas-alacran.jpg?v=1777619570",
+      "decision": "REJECT",
+      "reason": "shared-hero_collision"
+    },
+    {
+      "productId": "prod-head-ball-basket",
+      "category": "accessories",
+      "brand": "head",
+      "model": "Ball Basket",
+      "priorScore": 99,
+      "candidateImage": "https://cdn.shopify.com/s/files/1/0881/5132/7069/files/box-24-cans-of-3-head-padel-pro-balls-PadeLMQ-1.jpg?v=1729588444",
+      "decision": "REJECT",
+      "reason": "shared-hero_collision"
+    },
+    {
+      "productId": "prod-head-protector-tape",
+      "category": "accessories",
+      "brand": "head",
+      "model": "Protector Tape",
+      "priorScore": 99,
+      "candidateImage": "https://cdn.shopify.com/s/files/1/0881/5132/7069/files/head-protector-transparant-padel-bescherming.1.jpg?v=1742321924",
+      "decision": "REJECT",
+      "reason": "shared-hero_collision"
+    },
+    {
+      "productId": "prod-head-headband",
+      "category": "accessories",
+      "brand": "head",
+      "model": "Headband",
+      "priorScore": 99,
+      "candidateImage": "https://cdn.shopify.com/s/files/1/0881/5132/7069/files/bandana-wilson-negro.jpg?v=1777621148",
+      "decision": "REJECT",
+      "reason": "shared-hero_collision"
+    },
+    {
+      "productId": "prod-head-head-logo-wristband",
+      "category": "accessories",
+      "brand": "head",
+      "model": "HEAD Logo Wristband",
+      "priorScore": 99,
+      "candidateImage": "https://cdn.shopify.com/s/files/1/0881/5132/7069/files/adidas-polsband-klein-wit-1.jpg?v=1724577867",
+      "decision": "REJECT",
+      "reason": "shared-hero_collision"
+    },
+    {
+      "productId": "prod-head-performance-headband",
+      "category": "accessories",
+      "brand": "head",
+      "model": "Performance HEADband",
+      "priorScore": 99,
+      "candidateImage": "https://cdn.shopify.com/s/files/1/0881/5132/7069/files/bandana-wilson-negro.jpg?v=1777621148",
+      "decision": "REJECT",
+      "reason": "shared-hero_collision"
+    },
+    {
+      "productId": "prod-head-head-targets",
+      "category": "accessories",
+      "brand": "head",
+      "model": "HEAD Targets",
+      "priorScore": 99,
+      "candidateImage": "https://cdn.shopify.com/s/files/1/0881/5132/7069/files/box-24-cans-of-3-head-padel-pro-s-balls-PadeLMQ.jpg?v=1729600888",
+      "decision": "REJECT",
+      "reason": "shared-hero_collision"
+    },
+    {
+      "productId": "prod-head-x4-pump",
+      "category": "accessories",
+      "brand": "head",
+      "model": "X4 Pump",
+      "priorScore": 44,
+      "candidateImage": "https://cdn.actu-padel.com/wp-content/uploads/2026/01/actu-padel-top-3-pressurisateurs-balles-padel-2026.jpg?strip=all&#038;sharp=1",
+      "decision": "REJECT",
+      "reason": "logo_or_banner_url"
+    },
+    {
+      "productId": "prod-nox-nox-pickup-tube",
+      "category": "accessories",
+      "brand": "nox",
+      "model": "Nox Pickup Tube",
+      "priorScore": 82,
+      "candidateImage": "https://cdn.shopify.com/s/files/1/0881/5132/7069/files/nox-nerbo-tube.1.jpg?v=1745741468",
+      "decision": "APPROVED",
+      "reason": "reresearch_score_99",
+      "src": "/images/padel/accessories/nox-nox-pickup-tube-hero.jpg"
+    },
+    {
+      "productId": "prod-nox-texture-protector",
+      "category": "accessories",
+      "brand": "nox",
+      "model": "Texture Protector",
+      "priorScore": 99,
+      "candidateImage": "https://cdn.shopify.com/s/files/1/0881/5132/7069/files/image_e14ec456-c943-41ae-9e6e-225264593abe.png?v=1770913476",
+      "decision": "REJECT",
+      "reason": "shared-hero_collision"
+    },
+    {
+      "productId": "prod-nox-transparent-protection-tape",
+      "category": "accessories",
+      "brand": "nox",
+      "model": "Transparent / Protection Tape",
+      "priorScore": 92,
+      "candidateImage": "https://cdn.shopify.com/s/files/1/0881/5132/7069/files/image_e14ec456-c943-41ae-9e6e-225264593abe.png?v=1770913476",
+      "decision": "REJECT",
+      "reason": "shared-hero_collision"
+    },
+    {
+      "productId": "prod-pascal-box-compressor-pro",
+      "category": "accessories",
+      "brand": "pascal-box",
+      "model": "Compressor Pro",
+      "priorScore": 99,
+      "candidateImage": "https://cdn.shopify.com/s/files/1/0881/5132/7069/files/cargador-de-presion-pelotas-pascal-box-1000x1000.jpg?v=1772312313",
+      "decision": "REJECT",
+      "reason": "shared-hero_collision"
+    },
+    {
+      "productId": "prod-shockout-shockout-protector",
+      "category": "accessories",
+      "brand": "shockout",
+      "model": "ShockOut Protector",
+      "priorScore": 99,
+      "candidateImage": "https://cdn.shopify.com/s/files/1/0881/5132/7069/files/protector-shockout-comic.jpg?v=1777626568",
+      "decision": "REJECT",
+      "reason": "shared-hero_collision"
+    },
+    {
+      "productId": "prod-shockout-padel-balls-design",
+      "category": "accessories",
+      "brand": "shockout",
+      "model": "Padel Balls design",
+      "priorScore": 62,
+      "candidateImage": "https://cdn.shopify.com/s/files/1/0881/5132/7069/files/adidas-speed-rx-box.jpg?v=1724577861",
+      "decision": "APPROVED",
+      "reason": "reresearch_score_99",
+      "src": "/images/padel/accessories/shockout-padel-balls-design-hero.jpg"
+    },
+    {
+      "productId": "prod-siux-siux-logo-transparent",
+      "category": "accessories",
+      "brand": "siux",
+      "model": "Siux Logo Transparent",
+      "priorScore": 99,
+      "candidateImage": "https://cdn.shopify.com/s/files/1/0881/5132/7069/files/siux-fenix-pro-black-2026-leo-augsburger-front.1.jpg?v=1771332725",
+      "decision": "REJECT",
+      "reason": "shared-hero_collision"
+    },
+    {
+      "productId": "prod-tuboplus-boost",
+      "category": "accessories",
+      "brand": "tuboplus",
+      "model": "BOOST",
+      "priorScore": 99,
+      "candidateImage": "https://cdn.shopify.com/s/files/1/0881/5132/7069/files/oxdog-boost-plus-padel-ball-tube.1.jpg?v=1759687251",
+      "decision": "REJECT",
+      "reason": "shared-hero_collision"
+    },
+    {
+      "productId": "prod-wilson-wilson-protector",
+      "category": "accessories",
+      "brand": "wilson",
+      "model": "Wilson Protector",
+      "priorScore": 44,
+      "candidateImage": "https://cache.tradeinn.com/web/web/inn.jpg",
+      "decision": "REJECT",
+      "reason": "logo_or_banner_url"
+    },
+    {
+      "productId": "prod-adidas-multigame-backpack-2026",
+      "category": "bags",
+      "brand": "adidas",
+      "model": "Multigame Backpack 2026",
+      "priorScore": 9,
+      "candidateImage": "http://www.megapadel.store/cdn/shop/collections/adidasbolso.jpg?crop=center&height=1200&v=1738783608&width=1200",
+      "decision": "REJECT",
+      "reason": "low_score_9_logo_or_junk"
+    },
+    {
+      "productId": "prod-adidas-multigame-2026",
+      "category": "bags",
+      "brand": "adidas",
+      "model": "Multigame 2026",
+      "priorScore": 9,
+      "candidateImage": "http://www.megapadel.store/cdn/shop/collections/adidasbolso.jpg?crop=center&height=1200&v=1738783608&width=1200",
+      "decision": "REJECT",
+      "reason": "low_score_9_logo_or_junk"
+    },
+    {
+      "productId": "prod-adidas-weekend",
+      "category": "bags",
+      "brand": "adidas",
+      "model": "Weekend",
+      "priorScore": 9,
+      "candidateImage": "http://padelshop.com/cdn/shop/files/OG_image.png?v=1784186775",
+      "decision": "REJECT",
+      "reason": "low_score_9_logo_or_junk"
+    },
+    {
+      "productId": "prod-babolat-backpack-kids",
+      "category": "bags",
+      "brand": "babolat",
+      "model": "Backpack Kids",
+      "priorScore": 59,
+      "candidateImage": "https://cdn.shopify.com/s/files/1/0881/5132/7069/files/bullpadel-xplo-rugzak-bpm26022-zwart-2026.1.jpg?v=1773200472",
+      "decision": "APPROVED",
+      "reason": "reresearch_score_99",
+      "src": "/images/padel/bags/babolat-backpack-kids-hero.jpg"
+    },
+    {
+      "productId": "prod-babolat-court-backpack-lite",
+      "category": "bags",
+      "brand": "babolat",
+      "model": "Court Backpack Lite",
+      "priorScore": 59,
+      "candidateImage": "https://www.babolat.com/on/demandware.static/Sites-babolateu-Site/-/default/dwfa354e25/images/logo.svg",
+      "decision": "REJECT",
+      "reason": "reresearch_failed_shared-hero hash collision for prod-babolat-court-backpack-lite: same bytes as /images/padel/grips/babolat-pro-tour-hero"
+    },
+    {
+      "productId": "prod-bullpadel-neuron-bpp26020",
+      "category": "bags",
+      "brand": "bullpadel",
+      "model": "Neuron BPP26020",
+      "priorScore": 99,
+      "candidateImage": "https://cdn.shopify.com/s/files/1/0881/5132/7069/files/bullpadel-neuron-2025-padelracket-pro.1.jpg?v=1754740471",
+      "decision": "REJECT",
+      "reason": "shared-hero_collision"
+    },
+    {
+      "productId": "prod-bullpadel-pearl-bpp26021",
+      "category": "bags",
+      "brand": "bullpadel",
+      "model": "Pearl BPP26021",
+      "priorScore": 99,
+      "candidateImage": "https://cdn.shopify.com/s/files/1/0881/5132/7069/files/bullpadel-pearl-2026-padelracket.1.jpg?v=1757109141",
+      "decision": "REJECT",
+      "reason": "shared-hero_collision"
+    },
+    {
+      "productId": "prod-bullpadel-bpm26002-hack",
+      "category": "bags",
+      "brand": "bullpadel",
+      "model": "BPM26002 Hack",
+      "priorScore": 82,
+      "candidateImage": "https://www.padelmq.com/cdn/shop/files/bullpadel-hack-backpack-paquito-navarro-green.1_1200x1200.jpg?v=1773199386",
+      "decision": "APPROVED",
+      "reason": "score_82_product_cdn",
+      "src": "/images/padel/bags/bullpadel-bpm26002-hack-hero.jpg"
+    },
+    {
+      "productId": "prod-bullpadel-bpp26005-ionic",
+      "category": "bags",
+      "brand": "bullpadel",
+      "model": "BPP26005 Ionic",
+      "priorScore": 99,
+      "candidateImage": "https://cdn.shopify.com/s/files/1/0881/5132/7069/files/bullpadel-ionic-control-2025.1.jpg?v=1736087369",
+      "decision": "REJECT",
+      "reason": "shared-hero_collision"
+    },
+    {
+      "productId": "prod-bullpadel-bpp26001-vertex",
+      "category": "bags",
+      "brand": "bullpadel",
+      "model": "BPP26001 Vertex",
+      "priorScore": 82,
+      "candidateImage": "https://padelmarket.com/cdn/shop/files/VERTEXJuanTello_1.jpg?v=1764082053",
+      "decision": "APPROVED",
+      "reason": "score_82_product_cdn",
+      "src": "/images/padel/bags/bullpadel-bpp26001-vertex-hero.jpg"
+    },
+    {
+      "productId": "prod-bullpadel-bpm26022-xplo",
+      "category": "bags",
+      "brand": "bullpadel",
+      "model": "BPM26022 XPLO",
+      "priorScore": 99,
+      "candidateImage": "https://cdn.shopify.com/s/files/1/0881/5132/7069/files/bullpadel-xplo-2025-padelracket.1_d25cc0d2-8ff9-4a35-8fd4-b2a9f75c2ea7.jpg?v=1755069847",
+      "decision": "REJECT",
+      "reason": "shared-hero_collision"
+    },
+    {
+      "productId": "prod-bullpadel-bpp26022-xplo",
+      "category": "bags",
+      "brand": "bullpadel",
+      "model": "BPP26022 XPLO",
+      "priorScore": 82,
+      "candidateImage": "https://www.padelmq.com/cdn/shop/files/bullpadel-xplo-padeltas-zwart-2026.1_1200x1200.jpg?v=1773193424",
+      "decision": "APPROVED",
+      "reason": "score_82_product_cdn",
+      "src": "/images/padel/bags/bullpadel-bpp26022-xplo-hero.jpg"
+    },
+    {
+      "productId": "prod-drop-shot-axion-backpack",
+      "category": "bags",
+      "brand": "drop-shot",
+      "model": "Axion Backpack",
+      "priorScore": 99,
+      "candidateImage": "https://cdn.shopify.com/s/files/1/0881/5132/7069/files/drop-shot-jon-sanz-axion-attack-1-5-2025-padelracket-padelmq.1.jpg?v=1760872728",
+      "decision": "REJECT",
+      "reason": "shared-hero_collision"
+    },
+    {
+      "productId": "prod-drop-shot-axion",
+      "category": "bags",
+      "brand": "drop-shot",
+      "model": "Axion",
+      "priorScore": 99,
+      "candidateImage": "https://cdn.shopify.com/s/files/1/0881/5132/7069/files/drop-shot-jon-sanz-axion-attack-1-5-2025-padelracket-padelmq.1.jpg?v=1760872728",
+      "decision": "REJECT",
+      "reason": "shared-hero_collision"
+    },
+    {
+      "productId": "prod-drop-shot-fenix",
+      "category": "bags",
+      "brand": "drop-shot",
+      "model": "Fenix",
+      "priorScore": 99,
+      "candidateImage": "https://cdn.shopify.com/s/files/1/0881/5132/7069/files/siux-fenix-pro-black-2026-leo-augsburger-front.1.jpg?v=1771332725",
+      "decision": "REJECT",
+      "reason": "shared-hero_collision"
+    },
+    {
+      "productId": "prod-head-tour-team-cb-2026",
+      "category": "bags",
+      "brand": "head",
+      "model": "Tour Team CB 2026",
+      "priorScore": 99,
+      "candidateImage": "https://cdn.shopify.com/s/files/1/0881/5132/7069/files/head-tour-padel-l-blue-bag-2026.1.jpg?v=1773260185",
+      "decision": "REJECT",
+      "reason": "shared-hero_collision"
+    },
+    {
+      "productId": "prod-head-pro-x-duffle-l",
+      "category": "bags",
+      "brand": "head",
+      "model": "Pro X Duffle L",
+      "priorScore": 99,
+      "candidateImage": "https://cdn.shopify.com/s/files/1/0881/5132/7069/files/head-coello-pro-x-duffle-padeltas-2026.1.jpg?v=1773207524",
+      "decision": "REJECT",
+      "reason": "shared-hero_collision"
+    },
+    {
+      "productId": "prod-head-tour-padel-bag-l",
+      "category": "bags",
+      "brand": "head",
+      "model": "Tour Padel Bag L",
+      "priorScore": 99,
+      "candidateImage": "https://cdn.shopify.com/s/files/1/0881/5132/7069/files/head-tour-padel-l-blue-bag-2026.1.jpg?v=1773260185",
+      "decision": "REJECT",
+      "reason": "shared-hero_collision"
+    },
+    {
+      "productId": "prod-head-tour-team-elite",
+      "category": "bags",
+      "brand": "head",
+      "model": "Tour Team Elite",
+      "priorScore": 67,
+      "candidateImage": "https://cdn.shopify.com/s/files/1/0881/5132/7069/files/head-extreme-team-2025-padelracket-vooraanzicht..jpg?v=1758786742",
+      "decision": "APPROVED",
+      "reason": "reresearch_score_99",
+      "src": "/images/padel/bags/head-tour-team-elite-hero.jpg"
+    },
+    {
+      "productId": "prod-kuikma-pl-900-elite",
+      "category": "bags",
+      "brand": "kuikma",
+      "model": "PL 900 Elite",
+      "priorScore": 82,
+      "candidateImage": "https://contents.mediadecathlon.com/p2637907/k$b64d437c4771e3afa1a4649366a2cc83/picture.jpg?format=auto&#038;f=900x0",
+      "decision": "APPROVED",
+      "reason": "reresearch_score_99",
+      "src": "/images/padel/bags/kuikma-pl-900-elite-hero.jpg"
+    },
+    {
+      "productId": "prod-kuikma-backpack",
+      "category": "bags",
+      "brand": "kuikma",
+      "model": "Backpack",
+      "priorScore": 99,
+      "candidateImage": "https://cdn.shopify.com/s/files/1/0881/5132/7069/files/mochila-tecnifibre-tour-endurance-caqui.jpg?v=1774792197",
+      "decision": "REJECT",
+      "reason": "shared-hero_collision"
+    },
+    {
+      "productId": "prod-nox-at10-team-backpack",
+      "category": "bags",
+      "brand": "nox",
+      "model": "AT10 Team Backpack",
+      "priorScore": 9,
+      "candidateImage": "http://noxsport.com/cdn/shop/files/logo_nox_1200x1200.png?v=1737392034",
+      "decision": "REJECT",
+      "reason": "low_score_9_logo_or_junk"
+    },
+    {
+      "productId": "prod-nox-ml10-competition-xl-compact",
+      "category": "bags",
+      "brand": "nox",
+      "model": "ML10 Competition XL Compact",
+      "priorScore": 9,
+      "candidateImage": "http://noxsport.com/cdn/shop/files/logo_nox_1200x1200.png?v=1737392034",
+      "decision": "REJECT",
+      "reason": "low_score_9_logo_or_junk"
+    },
+    {
+      "productId": "prod-nox-ml10-team-backpack",
+      "category": "bags",
+      "brand": "nox",
+      "model": "ML10 Team Backpack",
+      "priorScore": 9,
+      "candidateImage": "http://noxsport.com/cdn/shop/files/logo_nox_1200x1200.png?v=1737392034",
+      "decision": "REJECT",
+      "reason": "low_score_9_logo_or_junk"
+    },
+    {
+      "productId": "prod-nox-ml10-team",
+      "category": "bags",
+      "brand": "nox",
+      "model": "ML10 Team",
+      "priorScore": 9,
+      "candidateImage": "http://noxsport.com/cdn/shop/files/logo_nox_1200x1200.png?v=1737392034",
+      "decision": "REJECT",
+      "reason": "low_score_9_logo_or_junk"
+    },
+    {
+      "productId": "prod-nox-at10-competition-xl-compact",
+      "category": "bags",
+      "brand": "nox",
+      "model": "AT10 Competition XL Compact",
+      "priorScore": 9,
+      "candidateImage": "https://padelmarket.com/cdn/shop/collections/BOLSAS-MARCAS-NOX.png?v=1782894650",
+      "decision": "REJECT",
+      "reason": "low_score_9_logo_or_junk"
+    },
+    {
+      "productId": "prod-nox-pro-series",
+      "category": "bags",
+      "brand": "nox",
+      "model": "Pro Series",
+      "priorScore": 99,
+      "candidateImage": "https://cdn.shopify.com/s/files/1/0556/5736/5640/files/5_040e5f52-7bd1-49c7-af10-6a6f4e46f6fa.png?v=1764327851",
+      "decision": "REJECT",
+      "reason": "shared-hero_collision"
+    },
+    {
+      "productId": "prod-nox-street-series",
+      "category": "bags",
+      "brand": "nox",
+      "model": "Street Series",
+      "priorScore": 9,
+      "candidateImage": "http://noxsport.com/cdn/shop/files/logo_nox_1200x1200.png?v=1737392034",
+      "decision": "REJECT",
+      "reason": "low_score_9_logo_or_junk"
+    },
+    {
+      "productId": "prod-oxdog-x-padel-pro-thermo",
+      "category": "bags",
+      "brand": "oxdog",
+      "model": "X Padel Pro Thermo",
+      "priorScore": 99,
+      "candidateImage": "https://cdn.shopify.com/s/files/1/0881/5132/7069/files/oxdoghyperpro-thermobag2.jpg?v=1724579081",
+      "decision": "REJECT",
+      "reason": "shared-hero_collision"
+    },
+    {
+      "productId": "prod-tecnifibre-tour-endurance-ultra",
+      "category": "bags",
+      "brand": "tecnifibre",
+      "model": "Tour Endurance Ultra",
+      "priorScore": 99,
+      "candidateImage": "https://cdn.shopify.com/s/files/1/0881/5132/7069/files/bolso-tecnifibre-tour-endurance-blanco-azul.jpg?v=1774793687",
+      "decision": "REJECT",
+      "reason": "shared-hero_collision"
+    },
+    {
+      "productId": "prod-adidas-serie-tour",
+      "category": "balls",
+      "brand": "adidas",
+      "model": "Serie+ Tour",
+      "priorScore": 9,
+      "candidateImage": "http://padelshop.com/cdn/shop/files/OG_image.png?v=1784186775",
+      "decision": "REJECT",
+      "reason": "low_score_9_logo_or_junk"
+    },
+    {
+      "productId": "prod-babolat-ace",
+      "category": "balls",
+      "brand": "babolat",
+      "model": "Ace",
+      "priorScore": 44,
+      "candidateImage": "https://padelmagazine.fr/wp-content/uploads/2026/07/Guide-et-Comparatif-2025-Comment-choisir-votre-balle-de-padel-parmi-32-references-.jpg",
+      "decision": "REJECT",
+      "reason": "logo_or_banner_url"
+    },
+    {
+      "productId": "prod-bullpadel-fip-next",
+      "category": "balls",
+      "brand": "bullpadel",
+      "model": "FIP Next",
+      "priorScore": 99,
+      "candidateImage": "https://cdn.shopify.com/s/files/1/0881/5132/7069/files/Bullpadel-Next-Pro-Box-24Tubes-PadeLMQ.jpg?v=1786267928",
+      "decision": "REJECT",
+      "reason": "shared-hero_collision"
+    },
+    {
+      "productId": "prod-bullpadel-next-pro",
+      "category": "balls",
+      "brand": "bullpadel",
+      "model": "Next Pro",
+      "priorScore": 99,
+      "candidateImage": "http://mrhsport.com/cdn/shop/articles/Untitled_design_99.png?v=1772124835",
+      "decision": "REJECT",
+      "reason": "shared-hero_collision"
+    },
+    {
+      "productId": "prod-drop-shot-tournament-tech",
+      "category": "balls",
+      "brand": "drop-shot",
+      "model": "Tournament Tech",
+      "priorScore": 82,
+      "candidateImage": "http://padelproshop.com/cdn/shop/files/Bote_de_Pelotas_Drop_Shot_Tournament_Pro.webp?v=1779787042",
+      "decision": "APPROVED",
+      "reason": "score_82_product_cdn",
+      "src": "/images/padel/balls/drop-shot-tournament-tech-hero.jpg"
+    },
+    {
+      "productId": "prod-dunlop-team",
+      "category": "balls",
+      "brand": "dunlop",
+      "model": "Team",
+      "priorScore": 59,
+      "candidateImage": "https://cdn.shopify.com/s/files/1/0881/5132/7069/files/dunlop-padelballen-collectie.1.jpg?v=1759689480",
+      "decision": "APPROVED",
+      "reason": "reresearch_score_99",
+      "src": "/images/padel/balls/dunlop-team-hero.jpg"
+    },
+    {
+      "productId": "prod-pallap-competition-01",
+      "category": "balls",
+      "brand": "pallap",
+      "model": "Competition 01",
+      "priorScore": 44,
+      "candidateImage": "https://padelmagazine.fr/wp-content/uploads/2026/07/Guide-et-Comparatif-2025-Comment-choisir-votre-balle-de-padel-parmi-32-references-.jpg",
+      "decision": "REJECT",
+      "reason": "logo_or_banner_url"
+    },
+    {
+      "productId": "prod-slazenger-challenge-no-1",
+      "category": "balls",
+      "brand": "slazenger",
+      "model": "Challenge No.1",
+      "priorScore": 62,
+      "candidateImage": "https://cdn.shopify.com/s/files/1/0881/5132/7069/files/chaqueta-slazenger-diego-ii-azul-1.jpg?v=1777637319",
+      "decision": "APPROVED",
+      "reason": "reresearch_score_99",
+      "src": "/images/padel/balls/slazenger-challenge-no-1-hero.jpg"
+    },
+    {
+      "productId": "prod-adidas-perforated-ac2ba1wh",
+      "category": "grips",
+      "brand": "adidas",
+      "model": "Perforated / AC2BA1WH",
+      "priorScore": 82,
+      "candidateImage": "https://padellifeshop.com/wp-content/uploads/2026/03/ADIDAS-Padel-Overgrip-Tacky-Feeling-White-x3.webp",
+      "decision": "REJECT",
+      "reason": "approve_failed_shared-hero hash collision for prod-adidas-perforated-ac2ba1wh: same bytes as /images/padel/grips/adidas-tacky-feeling-h"
+    },
+    {
+      "productId": "prod-babolat-syntec-team",
+      "category": "grips",
+      "brand": "babolat",
+      "model": "Syntec Team",
+      "priorScore": 99,
+      "candidateImage": "https://cdn.shopify.com/s/files/1/0881/5132/7069/files/Babolat-Padelbal-court-tube-padeLMQ-1.jpg?v=1731854351",
+      "decision": "REJECT",
+      "reason": "shared-hero_collision"
+    },
+    {
+      "productId": "prod-bullpadel-gb1201",
+      "category": "grips",
+      "brand": "bullpadel",
+      "model": "GB1201",
+      "priorScore": 99,
+      "candidateImage": "https://cdn.shopify.com/s/files/1/0881/5132/7069/files/three-lime-green-bullpadel-grip-tapes-side-by-side.png?v=1770752842",
+      "decision": "REJECT",
+      "reason": "shared-hero_collision"
+    },
+    {
+      "productId": "prod-bullpadel-gb1200-hac",
+      "category": "grips",
+      "brand": "bullpadel",
+      "model": "GB1200 HaC",
+      "priorScore": 59,
+      "candidateImage": "https://www.padelmq.com/cdn/shop/files/three-white-bullpadel-grip-tapes-side-by-side_1200x800.png?v=1770745017",
+      "decision": "REJECT",
+      "reason": "reresearch_failed_shared-hero hash collision for prod-bullpadel-gb1200-hac: same bytes as /images/padel/grips/bullpadel-comfort-overgrip-h"
+    },
+    {
+      "productId": "prod-head-hydrosorb-comfort",
+      "category": "grips",
+      "brand": "head",
+      "model": "Hydrosorb Comfort",
+      "priorScore": 64,
+      "candidateImage": "https://tennisshot.gr/image/cache/catalog/Replacement%20grips/Head/head_hydrosorb_comfort_black_285313_bk-750x975.jpg",
+      "decision": "REJECT",
+      "reason": "reresearch_failed_shared-hero hash collision for prod-head-hydrosorb-comfort: same bytes as /images/padel/grips/head-hydrosorb-hero.jpg"
+    },
+    {
+      "productId": "prod-hesacore-gel",
+      "category": "grips",
+      "brand": "hesacore",
+      "model": "Gel",
+      "priorScore": 99,
+      "candidateImage": "https://cdn.shopify.com/s/files/1/0881/5132/7069/files/grip-hesacore-bullpadel-gel-azul-claro-1100x1100.jpg?v=1777053989",
+      "decision": "REJECT",
+      "reason": "shared-hero_collision"
+    },
+    {
+      "productId": "prod-hesacore-tour",
+      "category": "grips",
+      "brand": "hesacore",
+      "model": "Tour",
+      "priorScore": 0,
+      "candidateImage": "http://padelshop.com/cdn/shop/files/OG_image.png?v=1784186775",
+      "decision": "REJECT",
+      "reason": "low_score_0_logo_or_junk"
+    },
+    {
+      "productId": "prod-hesacore-tour-w",
+      "category": "grips",
+      "brand": "hesacore",
+      "model": "Tour W",
+      "priorScore": 99,
+      "candidateImage": "https://cdn.shopify.com/s/files/1/0881/5132/7069/files/grip-hesacore-bullpadel-gel-azul-claro-1100x1100.jpg?v=1777053989",
+      "decision": "REJECT",
+      "reason": "shared-hero_collision"
+    },
+    {
+      "productId": "prod-hesacore-pink-w",
+      "category": "grips",
+      "brand": "hesacore",
+      "model": "Pink / W",
+      "priorScore": 62,
+      "candidateImage": "https://cdn.shopify.com/s/files/1/0881/5132/7069/files/hesacore-bullpadel-w-grip2.jpg?v=1724579001",
+      "decision": "APPROVED",
+      "reason": "reresearch_score_99",
+      "src": "/images/padel/grips/hesacore-pink-w-hero.jpg"
+    },
+    {
+      "productId": "prod-kuikma-overgrip-pro-adherence",
+      "category": "grips",
+      "brand": "kuikma",
+      "model": "Overgrip Pro / Adherence",
+      "priorScore": 89,
+      "candidateImage": "https://contents.mediadecathlon.com/p3034884/k$930bf149a819c5326e40a5a1e8333d64/padel-overgrip-pro-kuikma-8981669.jpg",
+      "decision": "REJECT",
+      "reason": "shared-hero_collision"
+    },
+    {
+      "productId": "prod-nox-luxury-pro",
+      "category": "grips",
+      "brand": "nox",
+      "model": "Luxury Pro",
+      "priorScore": 59,
+      "candidateImage": "https://image-optimizer.salessquad.co.uk/images/json-ld/29685b9a0af4c153828b779bfd4d56d0.png",
+      "decision": "REJECT",
+      "reason": "reresearch_failed_shared-hero hash collision for prod-nox-luxury-pro: same bytes as /images/padel/accessories/babolat-babolat-protector-he"
+    },
+    {
+      "productId": "prod-nox-h-dri",
+      "category": "grips",
+      "brand": "nox",
+      "model": "H-Dri",
+      "priorScore": 44,
+      "candidateImage": "https://padelmad.co.uk/wp-content/uploads/2026/02/best-padel-grips-sweaty-hands-2026.jpg",
+      "decision": "REJECT",
+      "reason": "logo_or_banner_url"
+    },
+    {
+      "productId": "prod-shockout-shockout",
+      "category": "grips",
+      "brand": "shockout",
+      "model": "ShockOut",
+      "priorScore": 99,
+      "candidateImage": "https://cdn.shopify.com/s/files/1/0881/5132/7069/files/protector-shockout-comic.jpg?v=1777626568",
+      "decision": "REJECT",
+      "reason": "shared-hero_collision"
+    },
+    {
+      "productId": "prod-starvie-tacky-touch",
+      "category": "grips",
+      "brand": "starvie",
+      "model": "Tacky Touch",
+      "priorScore": 99,
+      "candidateImage": "https://cdn.shopify.com/s/files/1/0608/2376/5229/files/OVERGRIP25UNITS.MAIN_Comprimido_Comprimido_Comprimido.webp?v=1763397979",
+      "decision": "REJECT",
+      "reason": "shared-hero_collision"
+    },
+    {
+      "productId": "prod-tourna-tourna-grip-ii",
+      "category": "grips",
+      "brand": "tourna",
+      "model": "Tourna Grip II",
+      "priorScore": 99,
+      "candidateImage": "https://cdn.shopify.com/s/files/1/0881/5132/7069/files/hesacore-carbon5.jpg?v=1724578994",
+      "decision": "REJECT",
+      "reason": "shared-hero_collision"
+    },
+    {
+      "productId": "prod-tourna-grip-xl",
+      "category": "grips",
+      "brand": "tourna",
+      "model": "Grip XL",
+      "priorScore": 99,
+      "candidateImage": "https://cdn.shopify.com/s/files/1/0881/5132/7069/files/grip-hesacore-bullpadel-gel-azul-claro-1100x1100.jpg?v=1777053989",
+      "decision": "REJECT",
+      "reason": "shared-hero_collision"
+    },
+    {
+      "productId": "prod-wilson-pro-overgrip-perforated",
+      "category": "grips",
+      "brand": "wilson",
+      "model": "Pro Overgrip Perforated",
+      "priorScore": 99,
+      "candidateImage": "https://cdn.shopify.com/s/files/1/0881/5132/7069/files/three-perforated-grip-tape-rolls-side-by-side.png?v=1770744098",
+      "decision": "REJECT",
+      "reason": "shared-hero_collision"
+    },
+    {
+      "productId": "prod-kuikma-insulated-backpack-pro-40-l",
+      "category": "bags",
+      "brand": "kuikma",
+      "model": "Insulated Backpack Pro 40 L",
+      "priorScore": 0,
+      "candidateImage": "http://www.decathlon.com/cdn/shop/files/DECATHLON_logo_lockup_stacked_blue_rgb_---_Expires_on_31-12-2100.jpg?v=1744260897",
+      "decision": "REJECT",
+      "reason": "low_score_0_logo_or_junk"
+    },
+    {
+      "productId": "prod-dunlop-tour-pro",
+      "category": "grips",
+      "brand": "dunlop",
+      "model": "Tour Pro",
+      "priorScore": 99,
+      "candidateImage": "https://cdn.shopify.com/s/files/1/0881/5132/7069/files/dunlop-pro-padel-ball-tube..jpg?v=1759690183",
+      "decision": "REJECT",
+      "reason": "shared-hero_collision"
+    },
+    {
+      "productId": "prod-dunlop-protection-tape",
+      "category": "accessories",
+      "brand": "dunlop",
+      "model": "Protection Tape",
+      "priorScore": 99,
+      "candidateImage": "https://cdn.shopify.com/s/files/1/0881/5132/7069/files/image_e14ec456-c943-41ae-9e6e-225264593abe.png?v=1770913476",
+      "decision": "REJECT",
+      "reason": "shared-hero_collision"
+    },
+    {
+      "productId": "prod-joma-vero-virseda-2026",
+      "category": "bags",
+      "brand": "joma",
+      "model": "Vero Virseda 2026",
+      "priorScore": 44,
+      "candidateImage": "http://padelproshop.com/cdn/shop/files/Diseno_sin_titulo_4_b852f3e1-f640-49e7-a950-26f04a879663.png?v=1767778111",
+      "decision": "REJECT",
+      "reason": "low_score_44"
+    },
+    {
+      "productId": "prod-babolat-rh-perf-padel",
+      "category": "bags",
+      "brand": "babolat",
+      "model": "RH Perf Padel",
+      "priorScore": 99,
+      "candidateImage": "https://cdn.shopify.com/s/files/1/0881/5132/7069/files/Babolat-Padelbal-court-tube-padeLMQ-1.jpg?v=1731854351",
+      "decision": "REJECT",
+      "reason": "shared-hero_collision"
+    },
+    {
+      "productId": "prod-nox-pro-overgrip-perforated",
+      "category": "grips",
+      "brand": "nox",
+      "model": "Pro Overgrip Perforated",
+      "priorScore": 24,
+      "candidateImage": "http://noxsport.com/cdn/shop/collections/overgrips-para-padel-pickleball-y-beach-tennis-7684915_1200x1200.png?v=1771422971",
+      "decision": "REJECT",
+      "reason": "low_score_24_logo_or_junk"
+    },
+    {
+      "productId": "prod-wilson-profile-padel-overgrip",
+      "category": "grips",
+      "brand": "wilson",
+      "model": "Profile Padel Overgrip",
+      "priorScore": 99,
+      "candidateImage": "https://www.tradeinn.com/f/13987/139879280/wilson-profile-padel-overgrip.webp",
+      "decision": "REJECT",
+      "reason": "shared-hero_collision"
+    },
+    {
+      "productId": "prod-oxdog-no1",
+      "category": "accessories",
+      "brand": "oxdog",
+      "model": "No1",
+      "priorScore": 62,
+      "candidateImage": "https://cdn.shopify.com/s/files/1/0881/5132/7069/files/oxdog-ultimate-pro-plus-2026-front.1.png?v=1771527116",
+      "decision": "APPROVED",
+      "reason": "reresearch_score_99",
+      "src": "/images/padel/accessories/oxdog-no1-hero.jpg"
+    },
+    {
+      "productId": "prod-sane-nitro",
+      "category": "balls",
+      "brand": "sane",
+      "model": "Nitro",
+      "priorScore": 9,
+      "candidateImage": "http://padelsane.com/cdn/shop/files/SANE_aligned_black_b78bd445-7da9-40ac-bd20-e66bcebc0a2d.png?v=1750690092",
+      "decision": "REJECT",
+      "reason": "low_score_9_logo_or_junk"
+    },
+    {
+      "productId": "prod-sane-spin-premium",
+      "category": "balls",
+      "brand": "sane",
+      "model": "Spin Premium",
+      "priorScore": 9,
+      "candidateImage": "http://padelsane.com/cdn/shop/files/SANE_aligned_black_b78bd445-7da9-40ac-bd20-e66bcebc0a2d.png?v=1750690092",
+      "decision": "REJECT",
+      "reason": "low_score_9_logo_or_junk"
+    },
+    {
+      "productId": "prod-sane-feel",
+      "category": "grips",
+      "brand": "sane",
+      "model": "Feel+",
+      "priorScore": 59,
+      "candidateImage": "http://padelsane.com/cdn/shop/files/SANE_aligned_black_b78bd445-7da9-40ac-bd20-e66bcebc0a2d.png?v=1750690092",
+      "decision": "REJECT",
+      "reason": "reresearch_no_safe_hero_best_59"
+    },
+    {
+      "productId": "prod-sane-pro-elegance",
+      "category": "bags",
+      "brand": "sane",
+      "model": "Pro Elegance",
+      "priorScore": 59,
+      "candidateImage": "http://padelsane.com/cdn/shop/files/SANE_aligned_black_b78bd445-7da9-40ac-bd20-e66bcebc0a2d.png?v=1750690092",
+      "decision": "REJECT",
+      "reason": "reresearch_no_safe_hero_best_59"
+    },
+    {
+      "productId": "prod-sane-pro-sport",
+      "category": "bags",
+      "brand": "sane",
+      "model": "Pro Sport",
+      "priorScore": 59,
+      "candidateImage": "http://padelsane.com/cdn/shop/files/SANE_aligned_black_b78bd445-7da9-40ac-bd20-e66bcebc0a2d.png?v=1750690092",
+      "decision": "REJECT",
+      "reason": "reresearch_no_safe_hero_best_59"
+    },
+    {
+      "productId": "prod-sane-everyday",
+      "category": "bags",
+      "brand": "sane",
+      "model": "Everyday",
+      "priorScore": 59,
+      "candidateImage": "http://padelsane.com/cdn/shop/files/SANE_aligned_black_b78bd445-7da9-40ac-bd20-e66bcebc0a2d.png?v=1750690092",
+      "decision": "REJECT",
+      "reason": "reresearch_no_safe_hero_best_59"
+    },
+    {
+      "productId": "prod-osaka-pro-tour-duffel",
+      "category": "bags",
+      "brand": "osaka",
+      "model": "Pro Tour Duffel",
+      "priorScore": 99,
+      "candidateImage": "https://cdn.shopify.com/s/files/1/0881/5132/7069/files/head-coello-pro-x-duffle-padeltas-2026.1.jpg?v=1773207524",
+      "decision": "REJECT",
+      "reason": "shared-hero_collision"
+    },
+    {
+      "productId": "prod-rs-pro-padel-bag",
+      "category": "bags",
+      "brand": "rs",
+      "model": "Pro Padel Bag",
+      "priorScore": 9,
+      "candidateImage": "http://rs-sports.com/cdn/shop/files/1200x628_Shopify.jpg?v=1692196668",
+      "decision": "REJECT",
+      "reason": "low_score_9_logo_or_junk"
+    },
+    {
+      "productId": "prod-rs-pro-tour-overgrip",
+      "category": "grips",
+      "brand": "rs",
+      "model": "Pro Tour Overgrip",
+      "priorScore": 9,
+      "candidateImage": "http://rs-sports.com/cdn/shop/files/1200x628_Shopify.jpg?v=1692196668",
+      "decision": "REJECT",
+      "reason": "low_score_9_logo_or_junk"
+    },
+    {
+      "productId": "prod-4on-totaldry",
+      "category": "accessories",
+      "brand": "4on",
+      "model": "TotalDry",
+      "priorScore": 99,
+      "candidateImage": "https://cdn.shopify.com/s/files/1/0881/5132/7069/files/4OnTotalGripSprayPadeLMQ1.jpg?v=1771078673",
+      "decision": "REJECT",
+      "reason": "shared-hero_collision"
+    },
+    {
+      "productId": "prod-4on-premium-comfort",
+      "category": "grips",
+      "brand": "4on",
+      "model": "Premium Comfort",
+      "priorScore": 99,
+      "candidateImage": "https://cdn.shopify.com/s/files/1/0881/5132/7069/files/4OnTotalGripSprayPadeLMQ1.jpg?v=1771078673",
+      "decision": "REJECT",
+      "reason": "shared-hero_collision"
+    },
+    {
+      "productId": "prod-shockout-dual-pro",
+      "category": "grips",
+      "brand": "shockout",
+      "model": "Dual Pro",
+      "priorScore": 99,
+      "candidateImage": "https://cdn.shopify.com/s/files/1/0881/5132/7069/files/protector-shockout-comic.jpg?v=1777626568",
+      "decision": "REJECT",
+      "reason": "shared-hero_collision"
+    },
+    {
+      "productId": "prod-shockout-shockout-perforated",
+      "category": "grips",
+      "brand": "shockout",
+      "model": "ShockOut Perforated",
+      "priorScore": 99,
+      "candidateImage": "https://cdn.shopify.com/s/files/1/0881/5132/7069/files/protector-shockout-comic.jpg?v=1777626568",
+      "decision": "REJECT",
+      "reason": "shared-hero_collision"
+    },
+    {
+      "productId": "prod-tourna-tourna-tac-xl",
+      "category": "grips",
+      "brand": "tourna",
+      "model": "Tourna Tac XL",
+      "priorScore": 99,
+      "candidateImage": "https://cdn.shopify.com/s/files/1/0881/5132/7069/files/pala-joma-tournament-pro-iconic-negro-rojo.jpg?v=1774644297",
+      "decision": "REJECT",
+      "reason": "shared-hero_collision"
+    },
+    {
+      "productId": "prod-tourna-tourna-tuff",
+      "category": "grips",
+      "brand": "tourna",
+      "model": "Tourna Tuff",
+      "priorScore": 32,
+      "candidateImage": "http://www.tourna.com/cdn/shop/files/Tourna-logo_png.png?height=628&pad_color=ffffff&v=1747668807&width=1200",
+      "decision": "REJECT",
+      "reason": "low_score_32_logo_or_junk"
+    },
+    {
+      "productId": "prod-sane-core-overgrip",
+      "category": "grips",
+      "brand": "sane",
+      "model": "Core Overgrip",
+      "priorScore": 9,
+      "candidateImage": "http://padelsane.com/cdn/shop/files/SANE_aligned_black_b78bd445-7da9-40ac-bd20-e66bcebc0a2d.png?v=1750690092",
+      "decision": "REJECT",
+      "reason": "low_score_9_logo_or_junk"
+    },
+    {
+      "productId": "prod-ball-rescuer-premium",
+      "category": "accessories",
+      "brand": "ball-rescuer",
+      "model": "Premium",
+      "priorScore": 0,
+      "candidateImage": "",
+      "decision": "MISSING",
+      "reason": "no_safe_distinct_image"
+    },
+    {
+      "productId": "prod-head-x100",
+      "category": "accessories",
+      "brand": "head",
+      "model": "X100",
+      "priorScore": 0,
+      "candidateImage": "",
+      "decision": "MISSING",
+      "reason": "no_safe_distinct_image"
+    },
+    {
+      "productId": "prod-softee-max-tube",
+      "category": "accessories",
+      "brand": "softee",
+      "model": "Max Tube",
+      "priorScore": 0,
+      "candidateImage": "",
+      "decision": "MISSING",
+      "reason": "no_safe_distinct_image"
+    },
+    {
+      "productId": "prod-softee-press-pro-x3",
+      "category": "accessories",
+      "brand": "softee",
+      "model": "Press Pro X3",
+      "priorScore": 0,
+      "candidateImage": "",
+      "decision": "MISSING",
+      "reason": "no_safe_distinct_image"
+    },
+    {
+      "productId": "prod-tuboplus-tuboplus-29psi-x3",
+      "category": "accessories",
+      "brand": "tuboplus",
+      "model": "TuboPlus 29PSI X3",
+      "priorScore": 82,
+      "candidateImage": "https://tubo.plus/wp-content/uploads/2026/08/tuboplus.jpg",
+      "decision": "APPROVED",
+      "reason": "missing_fetch_score_82",
+      "src": "/images/padel/accessories/tuboplus-tuboplus-29psi-x3-hero.jpg"
+    },
+    {
+      "productId": "prod-tuboplus-29psi-x3e",
+      "category": "accessories",
+      "brand": "tuboplus",
+      "model": "29PSI X3e",
+      "priorScore": 0,
+      "candidateImage": "",
+      "decision": "MISSING",
+      "reason": "no_safe_distinct_image"
+    },
+    {
+      "productId": "prod-tuboplus-29psi-x4e",
+      "category": "accessories",
+      "brand": "tuboplus",
+      "model": "29PSI X4e",
+      "priorScore": 0,
+      "candidateImage": "",
+      "decision": "MISSING",
+      "reason": "no_safe_distinct_image"
+    },
+    {
+      "productId": "prod-tuboplus-r3play",
+      "category": "accessories",
+      "brand": "tuboplus",
+      "model": "R3PLAY",
+      "priorScore": 89,
+      "candidateImage": "https://tubo.plus/wp-content/uploads/2024/01/r3play-e1785855582242.png",
+      "decision": "APPROVED",
+      "reason": "missing_fetch_score_89",
+      "src": "/images/padel/accessories/tuboplus-r3play-hero.jpg"
+    },
+    {
+      "productId": "prod-tuboplus-r3set",
+      "category": "accessories",
+      "brand": "tuboplus",
+      "model": "R3SET",
+      "priorScore": 0,
+      "candidateImage": "",
+      "decision": "MISSING",
+      "reason": "no_safe_distinct_image"
+    },
+    {
+      "productId": "prod-tuboplus-repl4y",
+      "category": "accessories",
+      "brand": "tuboplus",
+      "model": "REPL4Y",
+      "priorScore": 89,
+      "candidateImage": "https://tubo.plus/wp-content/uploads/2024/06/repl4y_pump_pro-300x300.png",
+      "decision": "APPROVED",
+      "reason": "missing_fetch_score_89",
+      "src": "/images/padel/accessories/tuboplus-repl4y-hero.jpg"
+    },
+    {
+      "productId": "prod-tuboplus-tuboplus-x4",
+      "category": "accessories",
+      "brand": "tuboplus",
+      "model": "TuboPlus X4",
+      "priorScore": 99,
+      "candidateImage": "https://tubo.plus/wp-content/uploads/2026/08/tuboplus.jpg",
+      "decision": "MISSING",
+      "reason": "shared-hero hash collision for prod-tuboplus-tuboplus-x4: same bytes as /images/padel/accessories/tuboplus-tuboplus-29psi-x3-hero.jpg"
+    },
+    {
+      "productId": "prod-tuboplus-tubox3",
+      "category": "accessories",
+      "brand": "tuboplus",
+      "model": "TuboX3",
+      "priorScore": 0,
+      "candidateImage": "",
+      "decision": "MISSING",
+      "reason": "no_safe_distinct_image"
+    },
+    {
+      "productId": "prod-bullpadel-trolley-bpp26011",
+      "category": "bags",
+      "brand": "bullpadel",
+      "model": "Trolley BPP26011",
+      "priorScore": 0,
+      "candidateImage": "",
+      "decision": "MISSING",
+      "reason": "no_safe_distinct_image"
+    },
+    {
+      "productId": "prod-head-elite-supercombi",
+      "category": "bags",
+      "brand": "head",
+      "model": "Elite Supercombi",
+      "priorScore": 0,
+      "candidateImage": "",
+      "decision": "MISSING",
+      "reason": "no_safe_distinct_image"
+    },
+    {
+      "productId": "prod-kuikma-pbp-elite",
+      "category": "bags",
+      "brand": "kuikma",
+      "model": "PBP Elite",
+      "priorScore": 0,
+      "candidateImage": "",
+      "decision": "MISSING",
+      "reason": "no_safe_distinct_image"
+    },
+    {
+      "productId": "prod-varlion-ambassador",
+      "category": "bags",
+      "brand": "varlion",
+      "model": "Ambassador",
+      "priorScore": 0,
+      "candidateImage": "",
+      "decision": "MISSING",
+      "reason": "no_safe_distinct_image"
+    },
+    {
+      "productId": "prod-varlion-summum-pro",
+      "category": "bags",
+      "brand": "varlion",
+      "model": "Summum Pro",
+      "priorScore": 0,
+      "candidateImage": "",
+      "decision": "MISSING",
+      "reason": "no_safe_distinct_image"
+    },
+    {
+      "productId": "prod-varlion-summum-pro-s",
+      "category": "balls",
+      "brand": "varlion",
+      "model": "Summum Pro S",
+      "priorScore": 0,
+      "candidateImage": "",
+      "decision": "MISSING",
+      "reason": "no_safe_distinct_image"
+    },
+    {
+      "productId": "prod-varlion-summum-pro-w",
+      "category": "balls",
+      "brand": "varlion",
+      "model": "Summum Pro W",
+      "priorScore": 0,
+      "candidateImage": "",
+      "decision": "MISSING",
+      "reason": "no_safe_distinct_image"
+    },
+    {
+      "productId": "prod-bullpadel-gb-1705",
+      "category": "grips",
+      "brand": "bullpadel",
+      "model": "GB-1705",
+      "priorScore": 0,
+      "candidateImage": "",
+      "decision": "MISSING",
+      "reason": "no_safe_distinct_image"
+    },
+    {
+      "productId": "prod-drop-shot-super-dry",
+      "category": "grips",
+      "brand": "drop-shot",
+      "model": "Super Dry",
+      "priorScore": 0,
+      "candidateImage": "",
+      "decision": "MISSING",
+      "reason": "no_safe_distinct_image"
+    },
+    {
+      "productId": "prod-head-hydrosorb-family",
+      "category": "grips",
+      "brand": "head",
+      "model": "Hydrosorb family",
+      "priorScore": 0,
+      "candidateImage": "",
+      "decision": "MISSING",
+      "reason": "no_safe_distinct_image"
+    },
+    {
+      "productId": "prod-kuikma-antislip",
+      "category": "grips",
+      "brand": "kuikma",
+      "model": "Antislip",
+      "priorScore": 0,
+      "candidateImage": "",
+      "decision": "MISSING",
+      "reason": "no_safe_distinct_image"
+    },
+    {
+      "productId": "prod-shockout-100-0062-combo",
+      "category": "grips",
+      "brand": "shockout",
+      "model": "100-0062 Combo",
+      "priorScore": 0,
+      "candidateImage": "",
+      "decision": "MISSING",
+      "reason": "no_safe_distinct_image"
+    },
+    {
+      "productId": "prod-tecnifibre-pro-contact",
+      "category": "grips",
+      "brand": "tecnifibre",
+      "model": "Pro Contact",
+      "priorScore": 0,
+      "candidateImage": "",
+      "decision": "MISSING",
+      "reason": "no_safe_distinct_image"
+    },
+    {
+      "productId": "prod-yonex-super-grap",
+      "category": "grips",
+      "brand": "yonex",
+      "model": "Super Grap",
+      "priorScore": 0,
+      "candidateImage": "",
+      "decision": "MISSING",
+      "reason": "no_safe_distinct_image"
+    },
+    {
+      "productId": "prod-dunlop-elite-thermo",
+      "category": "bags",
+      "brand": "dunlop",
+      "model": "Elite Thermo",
+      "priorScore": 0,
+      "candidateImage": "",
+      "decision": "MISSING",
+      "reason": "no_safe_distinct_image"
+    },
+    {
+      "productId": "prod-bullpadel-gb-1202-fixogrip-pro",
+      "category": "grips",
+      "brand": "bullpadel",
+      "model": "GB-1202 FixoGrip Pro",
+      "priorScore": 0,
+      "candidateImage": "",
+      "decision": "MISSING",
+      "reason": "no_safe_distinct_image"
+    },
+    {
+      "productId": "prod-bullpadel-gb-1705-sensogrip-pro",
+      "category": "grips",
+      "brand": "bullpadel",
+      "model": "GB-1705 SensoGrip Pro",
+      "priorScore": 0,
+      "candidateImage": "",
+      "decision": "MISSING",
+      "reason": "no_safe_distinct_image"
+    }
+  ],
+  "registryEntries": [
+    {
+      "id": "prod-nox-bag-10",
+      "src": "/images/padel/bags/nox-bag-10-hero.jpg",
+      "sourceUrl": "https://www.padelmq.com/products/nox-at10-luxury-genius-18k-alum-2026?_pos=1&_psq=nox+Thermo+Bag+10&_psid=e3c4ee900&_ss=e"
+    },
+    {
+      "id": "prod-alacran-wide-ancha",
+      "src": "/images/padel/accessories/alacran-wide-ancha-hero.jpg",
+      "sourceUrl": "https://www.padelmq.com/nl-nl/products/alacran-polsband-breed-rood-wit"
+    },
+    {
+      "id": "prod-nox-nox-pickup-tube",
+      "src": "/images/padel/accessories/nox-nox-pickup-tube-hero.jpg",
+      "sourceUrl": "https://www.padelmq.com/products/nox-nerbo-tube?_pos=1&_psq=nox+Nox+Pickup+Tube&_psid=ed4fd5ea8&_ss=e"
+    },
+    {
+      "id": "prod-shockout-padel-balls-design",
+      "src": "/images/padel/accessories/shockout-padel-balls-design-hero.jpg",
+      "sourceUrl": "https://www.padelmq.com/products/adidas-speed-rx-bal-2023-doos-24-tubes-72-ballen?_pos=1&_psq=shockout+Padel+Balls+design&_psid=8bb50661e&_ss=e"
+    },
+    {
+      "id": "prod-babolat-backpack-kids",
+      "src": "/images/padel/bags/babolat-backpack-kids-hero.jpg",
+      "sourceUrl": "https://www.padelmq.com/products/bullpadel-xplo-rugzak-zwart-2026-di-nenno?_pos=1&_psq=babolat+Backpack+Kids&_psid=1be6ab891&_ss=e"
+    },
+    {
+      "id": "prod-bullpadel-bpm26002-hack",
+      "src": "/images/padel/bags/bullpadel-bpm26002-hack-hero.jpg",
+      "sourceUrl": "https://www.padelmq.com/nl-nl/products/bullpadel-hack-rugzak-grijsgroen-2026"
+    },
+    {
+      "id": "prod-bullpadel-bpp26001-vertex",
+      "src": "/images/padel/bags/bullpadel-bpp26001-vertex-hero.jpg",
+      "sourceUrl": "https://padelmarket.com/en-eu/products/bullpadel-bpp-26001-vertex-black-2026-juan-tello-racket-bag"
+    },
+    {
+      "id": "prod-bullpadel-bpp26022-xplo",
+      "src": "/images/padel/bags/bullpadel-bpp26022-xplo-hero.jpg",
+      "sourceUrl": "https://www.padelmq.com/nl-nl/products/bullpadel-padeltas-xplo-zwart-2026-martin-di-nenno"
+    },
+    {
+      "id": "prod-head-tour-team-elite",
+      "src": "/images/padel/bags/head-tour-team-elite-hero.jpg",
+      "sourceUrl": "https://www.padelmq.com/products/head-extreme-team-2025?_pos=1&_psq=head+Tour+Team+Elite&_psid=befd01f0a&_ss=e"
+    },
+    {
+      "id": "prod-kuikma-pl-900-elite",
+      "src": "/images/padel/bags/kuikma-pl-900-elite-hero.jpg",
+      "sourceUrl": "https://padelmad.co.uk/equipment/accessories/kuikma-insulated-padel-bag-elite-review/"
+    },
+    {
+      "id": "prod-drop-shot-tournament-tech",
+      "src": "/images/padel/balls/drop-shot-tournament-tech-hero.jpg",
+      "sourceUrl": "https://padelproshop.com/en-mtcy/products/can-of-drop-shot-padel-balls-tournament-pro"
+    },
+    {
+      "id": "prod-dunlop-team",
+      "src": "/images/padel/balls/dunlop-team-hero.jpg",
+      "sourceUrl": "https://www.padelmq.com/products/dunlop-pro-padel-ball-box?_pos=1&_psq=dunlop+Team&_psid=d7d9ee46b&_ss=e"
+    },
+    {
+      "id": "prod-slazenger-challenge-no-1",
+      "src": "/images/padel/balls/slazenger-challenge-no-1-hero.jpg",
+      "sourceUrl": "https://www.padelmq.com/products/slazenger-diego-ii-blauwe-jas?_pos=1&_psq=slazenger+Challenge+No.1&_psid=2eb91ed16&_ss=e"
+    },
+    {
+      "id": "prod-hesacore-pink-w",
+      "src": "/images/padel/grips/hesacore-pink-w-hero.jpg",
+      "sourceUrl": "https://www.padelmq.com/products/hesacore-w?_pos=1&_psq=hesacore+Pink+%2F+W&_psid=96df5ebbe&_ss=e"
+    },
+    {
+      "id": "prod-oxdog-no1",
+      "src": "/images/padel/accessories/oxdog-no1-hero.jpg",
+      "sourceUrl": "https://www.padelmq.com/products/oxdog-ultimate-pro-2026?_pos=1&_psq=oxdog+No1&_psid=d82980889&_ss=e"
+    },
+    {
+      "id": "prod-tuboplus-tuboplus-29psi-x3",
+      "src": "/images/padel/accessories/tuboplus-tuboplus-29psi-x3-hero.jpg",
+      "sourceUrl": "https://tubo.plus/"
+    },
+    {
+      "id": "prod-tuboplus-r3play",
+      "src": "/images/padel/accessories/tuboplus-r3play-hero.jpg",
+      "sourceUrl": "https://tubo.plus/en/comparador/"
+    },
+    {
+      "id": "prod-tuboplus-repl4y",
+      "src": "/images/padel/accessories/tuboplus-repl4y-hero.jpg",
+      "sourceUrl": "https://tubo.plus/en/comparador/"
+    }
+  ]
+}

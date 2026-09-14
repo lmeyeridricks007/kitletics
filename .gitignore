@@ -90,3 +90,6 @@ public/images/**/*.WRONG*.bak
 /data/media-originals/**
 !/data/media-originals/README.md
 !/data/media-originals/manifest.json
+
+# Internal growth workspace (mutable; seed is in src/domain/growth/backlinks/seed.ts)
+/data/growth/backlinks/workspace.json

@@ -12,7 +12,6 @@ import { hasRegisteredProductHero } from "@/content/running/products/media-publi
 
 const pub = publishedMeta();
 const sportTennis = "sport-tennis" as const;
-const sportPadel = "sport-padel" as const;
 
 function offerTriplet(
   productId: string,
@@ -102,7 +101,7 @@ function toProduct(d: Draft): Product {
     fullName: d.fullName,
     shortDescription: d.shortDescription,
     lifecycleStatus: "current",
-    sportIds: [sportTennis, sportPadel],
+    sportIds: [sportTennis],
     disciplineIds: [],
     categoryId: "cat-tennis-shoes",
     subcategoryIds: [],

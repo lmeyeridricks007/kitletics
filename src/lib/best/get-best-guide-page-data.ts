@@ -107,7 +107,7 @@ import { getRecommendationsForProduct } from "@/repositories/recommendations";
 import { getPrimaryProductMedia } from "@/lib/product/media";
 import type { MediaAsset } from "@/domain/shared/types";
 import { formatPrice } from "@/lib/utils";
-import { formatPublicSpecDisplayLabel } from "@/lib/specs/public-label";
+import { formatPublicSpecDisplayLabel, publicSpecRowKey } from "@/lib/specs/public-label";
 
 function sortOffers(offers: Offer[]): Offer[] {
   const retailersById = new Map<string, Retailer>();
@@ -761,7 +761,7 @@ export function getBestGuidePageData(
             .map((key) => engineDiff.allSpecs.find((r) => r.key === key))
             .filter((r): r is NonNullable<typeof r> => Boolean(r));
     comparisonRows = finalRows.map((row) => ({
-      key: row.key,
+      key: publicSpecRowKey(row.key),
       label: row.label,
       unit: row.unit,
       values: row.valuesByProduct,
@@ -776,7 +776,7 @@ export function getBestGuidePageData(
         );
       }
       return {
-        key,
+        key: publicSpecRowKey(key),
         label: formatPublicSpecDisplayLabel(key),
         unit: def?.unit,
         values,
