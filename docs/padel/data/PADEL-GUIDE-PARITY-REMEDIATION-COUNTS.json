@@ -1,0 +1,49 @@
+{
+  "date": "2026-09-14",
+  "guidesAudited": 65,
+  "bestAudited": 39,
+  "buyingAudited": 26,
+  "guidesRewrittenOrDeepened": {
+    "bestSoftGoodsUnblocked": 4,
+    "buyingPlansDiagramEnrichment": 26,
+    "sharedBestChrome": true
+  },
+  "heroesAddedOrFixed": 13,
+  "inlineMediaDiagramVariants": 9,
+  "productVisualsExpandedBestAwards": [
+    "best-padel-overgrips",
+    "best-padel-overgrips-sweaty",
+    "best-padel-dry-feel-overgrips",
+    "best-padel-racket-protectors"
+  ],
+  "diagramsAdded": [
+    "padel-racket-shapes",
+    "padel-racket-balance",
+    "padel-racket-weight",
+    "padel-bag-forms",
+    "padel-grip-vs-overgrip",
+    "padel-ball-types",
+    "padel-pressurizer",
+    "padel-decision-steps",
+    "padel-shoe-outsole"
+  ],
+  "commerceBuyingHelpLinksWired": [
+    "cat-padel-rackets",
+    "cat-padel-shoes",
+    "cat-padel-grips",
+    "cat-padel-bags"
+  ],
+  "funnelLabels": ["eligible", "considered", "shortlisted", "recommended"],
+  "parityReady": [
+    "buying-visual-pipeline",
+    "best-category-commerce-links",
+    "best-funnel-ux",
+    "soft-goods-award-depth"
+  ],
+  "stillBlocked": [
+    "full-live-visual-review-needs-fresh-next-build",
+    "fragile-soft-goods-packshots-shortlisted-only",
+    "limited-dedicated-padel-guide-raster-photos",
+    "some-knowledge-unique-copy-still-template-adjacent"
+  ]
+}

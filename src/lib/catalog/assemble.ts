@@ -7,6 +7,7 @@ import {
 } from "@/lib/catalog/running-shoes";
 import { getCatalogProducts } from "@/lib/catalog/query";
 import { parseCatalogSearchParams } from "@/lib/catalog/params";
+import { isListableCatalogProduct } from "@/lib/catalog/listable-products";
 import { resolveBreadcrumbs } from "@/lib/navigation/breadcrumbs";
 import {
   getSportBySlug,
@@ -28,7 +29,6 @@ import type { Sport, ProductCategory, ProductSubcategory, UseCase } from "@/doma
 import type { BestGuide, BuyingGuide, Comparison, FAQ } from "@/domain/editorial/types";
 import type { Tool } from "@/domain/tools/types";
 import type { Brand, Product } from "@/domain/products/types";
-import { canFeatureProduct } from "@/lib/product/media";
 import {
   getLaunchEligibility,
   isIndexableEligibility,
@@ -157,7 +157,9 @@ export function assembleCategoryPage(input: {
   );
 
   const allProducts = getProductsByCategory(category.id, input.options).filter(
-    (p) => p.sportIds.includes(sport.id) && canFeatureProduct(p),
+    (p) =>
+      p.sportIds.includes(sport.id) &&
+      isListableCatalogProduct(p, input.options),
   );
 
   const subcategories = getSubcategoriesByCategory(category.id);

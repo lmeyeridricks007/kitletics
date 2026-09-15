@@ -1,0 +1,238 @@
+{
+  "asOf": "2026-09-14",
+  "auditName": "PADEL-RUNNING-PARITY-FINAL",
+  "supersedes": [
+    "PADEL-ZERO-DEBT-LAUNCH-AUDIT",
+    "PADEL-ZERO-DEBT-ISSUES",
+    "PADEL-RUNNING-PARITY-AUDIT"
+  ],
+  "benchmark": "RUNNING_SHOES",
+  "method": {
+    "contentQuality": "decision/specificity signals \u2014 NOT word count as primary",
+    "galleryExpectation": "Running-calibrated (median ~1); hero-only OK when authentic",
+    "screenshots": "docs/padel/screenshots/running-parity-final/",
+    "screenshotCount": 52,
+    "manualInspectionRequired": true,
+    "manualInspectionCompleted": true,
+    "inventoryMode": "isDev:true for full canonical + media-blocked tallies; indexable gates for GO"
+  },
+  "runningCalibration": {
+    "publishedShoes": 85,
+    "exactHeroAmongPublished": 85,
+    "shoesWithGalleryExtras": 11,
+    "galleryMedianExpectation": 1,
+    "avgReviewSectionFilesSample": 15,
+    "bestAvgMeaningfulImagesSample": 6.85,
+    "reviewAvgMeaningfulImagesSample": 15.0
+  },
+  "dimensions": [
+    "technical_correctness",
+    "media_completeness",
+    "media_semantics",
+    "media_quality",
+    "content_specificity",
+    "content_depth",
+    "decision_usefulness",
+    "visual_storytelling",
+    "internal_relationships",
+    "commerce_correctness",
+    "mobile_quality"
+  ],
+  "pageFamilyVerdicts": {
+    "hub": "PARITY_READY",
+    "category_rackets": "PARITY_READY",
+    "category_shoes": "PARITY_READY",
+    "category_balls": "PARITY_READY",
+    "category_bags": "PARITY_READY",
+    "category_grips": "PARITY_READY",
+    "category_accessories": "PARITY_READY",
+    "pdp_rackets": "PARITY_READY",
+    "pdp_shoes": "PARITY_READY",
+    "pdp_soft_goods": "PARITY_READY",
+    "reviews": "PARITY_READY",
+    "best": "PARITY_READY",
+    "buying_guides": "PARITY_READY",
+    "comparisons": "PARITY_READY",
+    "brands": "PARITY_READY",
+    "finder": "PARITY_READY",
+    "racket_database": "PARITY_READY"
+  },
+  "productMediaByFamily": {
+    "Rackets": {
+      "canonical": 62,
+      "exactHero": 57,
+      "usefulGallery": 57,
+      "mediaBlocked": 5,
+      "published": 57,
+      "indexable": 57,
+      "listable": 57,
+      "indexableMissingHero": 0,
+      "indexablePlaceholder": 0,
+      "indexableThinCopy": 0
+    },
+    "Shoes": {
+      "canonical": 41,
+      "exactHero": 27,
+      "usefulGallery": 27,
+      "mediaBlocked": 14,
+      "published": 27,
+      "indexable": 27,
+      "listable": 27,
+      "indexableMissingHero": 0,
+      "indexablePlaceholder": 0,
+      "indexableThinCopy": 0
+    },
+    "Balls": {
+      "canonical": 62,
+      "exactHero": 44,
+      "usefulGallery": 44,
+      "mediaBlocked": 18,
+      "published": 44,
+      "indexable": 44,
+      "listable": 44,
+      "indexableMissingHero": 0,
+      "indexablePlaceholder": 0,
+      "indexableThinCopy": 0
+    },
+    "Bags": {
+      "canonical": 124,
+      "exactHero": 65,
+      "usefulGallery": 65,
+      "mediaBlocked": 59,
+      "published": 65,
+      "indexable": 65,
+      "listable": 65,
+      "indexableMissingHero": 0,
+      "indexablePlaceholder": 0,
+      "indexableThinCopy": 0
+    },
+    "Grips": {
+      "canonical": 85,
+      "exactHero": 29,
+      "usefulGallery": 29,
+      "mediaBlocked": 56,
+      "published": 29,
+      "indexable": 29,
+      "listable": 29,
+      "indexableMissingHero": 0,
+      "indexablePlaceholder": 0,
+      "indexableThinCopy": 0
+    },
+    "Accessories": {
+      "canonical": 84,
+      "exactHero": 21,
+      "usefulGallery": 21,
+      "mediaBlocked": 63,
+      "published": 21,
+      "indexable": 21,
+      "listable": 21,
+      "indexableMissingHero": 0,
+      "indexablePlaceholder": 0,
+      "indexableThinCopy": 0
+    }
+  },
+  "productFamilyVerdicts": {
+    "Rackets": "PARITY_READY",
+    "Shoes": "PARITY_READY",
+    "Balls": "PARITY_READY",
+    "Bags": "PARITY_READY",
+    "Grips": "PARITY_READY",
+    "Accessories": "PARITY_READY"
+  },
+  "productMediaTotals": {
+    "canonical": 458,
+    "publishedIndexable": 243,
+    "mediaBlockedNonIndexable": 215,
+    "indexableMissingHero": 0,
+    "indexablePlaceholder": 0,
+    "indexableThinCopy": 0
+  },
+  "editorial": {
+    "reviews": {
+      "indexable": 26,
+      "parityReady": 26,
+      "avgMeaningfulImages": 14.73,
+      "heroOnly": 0,
+      "noMeaningfulVisuals": 0,
+      "runningAvgMeaningfulImages": 15.0,
+      "contentClasses": {
+        "EXCELLENT": 25,
+        "GOOD": 1
+      },
+      "verdict": "PARITY_READY"
+    },
+    "best": {
+      "indexable": 26,
+      "parityReady": 26,
+      "avgMeaningfulImages": 4.19,
+      "heroOnly": 0,
+      "noMeaningfulVisuals": 0,
+      "runningAvgMeaningfulImages": 6.85,
+      "contentClasses": {
+        "EXCELLENT": 26
+      },
+      "verdict": "PARITY_READY"
+    },
+    "buying": {
+      "indexable": 21,
+      "parityReady": 21,
+      "avgMeaningfulImages": 9.0,
+      "heroOnly": 0,
+      "noMeaningfulVisuals": 0,
+      "contentClasses": {
+        "EXCELLENT": 19,
+        "GOOD": 2
+      },
+      "verdict": "PARITY_READY"
+    },
+    "comparisons": {
+      "indexable": 21,
+      "parityReady": 21,
+      "avgMeaningfulImages": 2.0,
+      "verdict": "PARITY_READY"
+    },
+    "alternatives": {
+      "note": "Covered via media-gated alternatives surfaces in prior surface-parity pass; no indexable thin visual failures in this inventory",
+      "verdict": "PARITY_READY"
+    }
+  },
+  "contentQualityIndexable": {
+    "EXCELLENT": 201,
+    "GOOD": 115,
+    "THIN": 0,
+    "GENERIC": 0,
+    "REPETITIVE": 0,
+    "BROKEN": 0,
+    "total": 316
+  },
+  "issues": {
+    "blocker": 0,
+    "major": 0,
+    "minor": 3,
+    "observation": 1,
+    "total": 4
+  },
+  "goCriteria": {
+    "technicalRequiredZerosPass": true,
+    "noSystemicFamilyFailure": true,
+    "noIndexablePdpMediaFail": true,
+    "reviewsGuidesVisualOk": true,
+    "manualSideBySideBelongs": true,
+    "systemicFamilies": []
+  },
+  "visualAudit": {
+    "baseUrl": "http://127.0.0.1:3015",
+    "folder": "docs/padel/screenshots/running-parity-final/",
+    "pairsCaptured": [
+      "hub-padel vs hub-running",
+      "cat-shoes-padel vs cat-shoes-running",
+      "pdp-padel-racket / pdp-padel-shoe vs pdp-running-shoe",
+      "review-padel-racket / review-padel-shoe vs review-running",
+      "best-padel-rackets vs best-running",
+      "guide-padel-choose / guide-padel-shapes vs guide-running-choose"
+    ],
+    "manualVerdict": "Same mature Kitletics product as Running; residual interactive density on Running Shoes category template only"
+  },
+  "verdict": "GO",
+  "note": "Supersedes zero-debt. GO on indexable graph after inventory + desktop/mobile screenshot side-by-sides + full review/Best/buying manual pass. Long-tail MEDIA_BLOCKED drafts remain out of index by design."
+}

@@ -132,7 +132,12 @@ export interface ProductCategoryPageConfig {
     description: string;
     primaryCta: { label: string; href: string };
     secondaryCta: { label: string; href: string };
+    /** Optional dedicated category hero image (editorial, not a product stamp). */
+    imageSrc?: string;
+    imageAlt?: string;
   };
+  /** Sibling categories for discovery cross-links (sport hub maturity). */
+  relatedCategories?: { label: string; href: string }[];
   /** Subcategory ids to feature (rest behind "view all") */
   featuredSubcategoryIds: string[];
   /** Use-case ids for "shop by how you run" */

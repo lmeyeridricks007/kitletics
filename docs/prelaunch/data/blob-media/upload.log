@@ -1,0 +1,111 @@
+
+> kitletics@0.1.0 media:blob-upload
+> tsx --tsconfig tsconfig.json scripts/upload-images-to-blob.ts --concurrency=16
+
+Uploading 9482 files (concurrency=16, dryRun=false, skipExisting=true)
+… uploaded 100, skipped 5, failed 0
+… uploaded 200, skipped 5, failed 0
+… uploaded 300, skipped 5, failed 0
+… uploaded 400, skipped 5, failed 0
+… uploaded 500, skipped 5, failed 0
+… uploaded 600, skipped 5, failed 0
+… uploaded 700, skipped 5, failed 0
+… uploaded 800, skipped 5, failed 0
+… uploaded 900, skipped 5, failed 0
+… uploaded 1000, skipped 5, failed 0
+… uploaded 1100, skipped 5, failed 0
+… uploaded 1200, skipped 5, failed 0
+… uploaded 1300, skipped 5, failed 0
+… uploaded 1400, skipped 5, failed 0
+… uploaded 1500, skipped 5, failed 0
+… uploaded 1600, skipped 5, failed 0
+… uploaded 1700, skipped 5, failed 0
+… uploaded 1800, skipped 5, failed 0
+… uploaded 1900, skipped 5, failed 0
+… uploaded 2000, skipped 5, failed 0
+… uploaded 2100, skipped 5, failed 0
+… uploaded 2200, skipped 5, failed 0
+… uploaded 2300, skipped 5, failed 0
+… uploaded 2400, skipped 5, failed 0
+… uploaded 2500, skipped 5, failed 0
+… uploaded 2600, skipped 5, failed 0
+… uploaded 2700, skipped 5, failed 0
+… uploaded 2800, skipped 5, failed 0
+… uploaded 2900, skipped 5, failed 0
+… uploaded 3000, skipped 5, failed 0
+… uploaded 3100, skipped 5, failed 0
+… uploaded 3200, skipped 5, failed 0
+… uploaded 3300, skipped 5, failed 0
+… uploaded 3400, skipped 5, failed 0
+… uploaded 3500, skipped 5, failed 0
+… uploaded 3600, skipped 5, failed 0
+… uploaded 3700, skipped 5, failed 0
+… uploaded 3800, skipped 5, failed 0
+… uploaded 3900, skipped 5, failed 0
+… uploaded 4000, skipped 5, failed 0
+… uploaded 4100, skipped 5, failed 0
+… uploaded 4200, skipped 5, failed 0
+… uploaded 4300, skipped 5, failed 0
+… uploaded 4400, skipped 5, failed 0
+… uploaded 4500, skipped 5, failed 0
+… uploaded 4600, skipped 5, failed 0
+… uploaded 4700, skipped 5, failed 0
+… uploaded 4800, skipped 5, failed 0
+… uploaded 4900, skipped 5, failed 0
+… uploaded 5000, skipped 5, failed 0
+… uploaded 5100, skipped 5, failed 0
+… uploaded 5200, skipped 5, failed 0
+… uploaded 5300, skipped 5, failed 0
+… uploaded 5400, skipped 5, failed 0
+… uploaded 5500, skipped 5, failed 0
+… uploaded 5600, skipped 5, failed 0
+… uploaded 5700, skipped 5, failed 0
+… uploaded 5800, skipped 5, failed 0
+… uploaded 5900, skipped 5, failed 0
+… uploaded 6000, skipped 5, failed 0
+… uploaded 6100, skipped 5, failed 0
+… uploaded 6200, skipped 5, failed 0
+… uploaded 6300, skipped 5, failed 0
+… uploaded 6400, skipped 5, failed 0
+… uploaded 6500, skipped 5, failed 0
+… uploaded 6600, skipped 5, failed 0
+… uploaded 6700, skipped 5, failed 0
+… uploaded 6800, skipped 5, failed 0
+… uploaded 6900, skipped 5, failed 0
+… uploaded 7000, skipped 5, failed 0
+… uploaded 7100, skipped 5, failed 0
+… uploaded 7200, skipped 5, failed 0
+… uploaded 7300, skipped 5, failed 0
+… uploaded 7400, skipped 5, failed 0
+… uploaded 7500, skipped 5, failed 0
+… uploaded 7600, skipped 5, failed 0
+… uploaded 7700, skipped 5, failed 0
+… uploaded 7800, skipped 5, failed 0
+… uploaded 7900, skipped 5, failed 0
+… uploaded 8000, skipped 5, failed 0
+… uploaded 8100, skipped 5, failed 0
+… uploaded 8200, skipped 5, failed 0
+… uploaded 8300, skipped 5, failed 0
+… uploaded 8400, skipped 5, failed 0
+… uploaded 8500, skipped 5, failed 0
+… uploaded 8600, skipped 5, failed 0
+… uploaded 8700, skipped 5, failed 0
+… uploaded 8800, skipped 5, failed 0
+… uploaded 8900, skipped 5, failed 0
+… uploaded 9000, skipped 5, failed 0
+… uploaded 9100, skipped 5, failed 0
+… uploaded 9200, skipped 5, failed 0
+… uploaded 9300, skipped 5, failed 0
+… uploaded 9400, skipped 5, failed 0
+{
+  "uploadedAt": "2026-09-11T11:28:48.477Z",
+  "total": 9482,
+  "uploaded": 9477,
+  "skipped": 5,
+  "failed": 0,
+  "baseUrl": "https://7ulvvexjky4ctpnj.public.blob.vercel-storage.com",
+  "dryRun": false
+}
+Wrote /Users/LMeyeridricks/Documents/coding/kitletics/docs/prelaunch/data/blob-media/upload-manifest.json
+
+Set MEDIA_BLOB_BASE_URL=https://7ulvvexjky4ctpnj.public.blob.vercel-storage.com

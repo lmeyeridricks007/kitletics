@@ -1,0 +1,114 @@
+{
+  "asOf": "2026-09-14",
+  "benchmark": "RUNNING_SHOES",
+  "method": {
+    "codeReverseEngineering": true,
+    "quantitativeScripts": "scripts/tmp/padel-running-parity-audit.ts",
+    "liveHttpProbes": true,
+    "fullPageScreenshots": false,
+    "screenshotBlocker": "browser-automation skill could not resolve patchright in this environment; evidence is code + CSV + live HTTP/HTML probes instead",
+    "calibrationNotes": [
+      "Running shoe PDP gallery median is 1 — do not treat single-hero PDPs as a Padel-only failure",
+      "MEDIA_INSUFFICIENT in PADEL-PRODUCT-MEDIA-GAPS.csv means galleryCount<=1 with hero present; interpret against Running median=1",
+      "True media crisis is MEDIA_MISSING / PLACEHOLDER on soft goods"
+    ]
+  },
+  "running": {
+    "shoeProductCount": 85,
+    "galleryAvg": 1.4,
+    "galleryMedian": 1,
+    "shoesWithGalleryExtras": 11,
+    "reviewSample": 25,
+    "avgReviewSectionFiles": 15,
+    "categoryShell": "RunningShoesCategoryPage (dedicated)",
+    "reviewTemplate": "nike-vomero-18 section image set"
+  },
+  "padel": {
+    "productCount": 458,
+    "byFamily": {
+      "RACKETS": {
+        "total": 62,
+        "exactHero": 57,
+        "missing": 5,
+        "singleHeroWithFile": 57,
+        "galleryAvg": 1
+      },
+      "SHOES": {
+        "total": 41,
+        "exactHero": 7,
+        "missing": 34,
+        "galleryAvg": 0.68
+      },
+      "BALLS": {
+        "total": 62,
+        "exactHero": 44,
+        "missing": 18,
+        "galleryAvg": 1
+      },
+      "BAGS": {
+        "total": 124,
+        "exactHero": 65,
+        "missing": 59,
+        "galleryAvg": 1
+      },
+      "GRIPS": {
+        "total": 85,
+        "exactHero": 29,
+        "missing": 56,
+        "galleryAvg": 1
+      },
+      "ACCESSORIES": {
+        "total": 84,
+        "exactHero": 21,
+        "missing": 63,
+        "galleryAvg": 0.25
+      }
+    },
+    "galleryAvg": 0.83,
+    "galleryMedian": 1,
+    "pdpZeroUsableHero": 235,
+    "reviews": {
+      "total": 26,
+      "avgSectionFiles": 16.5,
+      "withZeroSectionFiles": 5,
+      "flagshipSectionFilesOften": "18-24"
+    },
+    "bestGuides": 39,
+    "buyingGuides": 26,
+    "guideHeroFilesOnDisk": 3,
+    "categoryShell": "generic CategoryPage (no RunningShoes analog)"
+  },
+  "familyVerdicts": {
+    "hub": "MAJOR_PARITY_GAPS",
+    "category_rackets": "MAJOR_PARITY_GAPS",
+    "category_soft_goods": "SYSTEMIC_PARITY_FAILURE",
+    "pdp_rackets": "MAJOR_PARITY_GAPS",
+    "pdp_soft_goods": "SYSTEMIC_PARITY_FAILURE",
+    "reviews": "MAJOR_PARITY_GAPS",
+    "best_guides": "MAJOR_PARITY_GAPS",
+    "buying_guides": "SYSTEMIC_PARITY_FAILURE",
+    "comparisons": "MAJOR_PARITY_GAPS",
+    "alternatives": "MAJOR_PARITY_GAPS",
+    "brands": "MAJOR_PARITY_GAPS",
+    "finder": "FUNCTIONALLY_READY_BUT_THIN",
+    "database": "PARITY_READY"
+  },
+  "priorAuditBlindSpots": [
+    "Image file exists ≠ useful public media (Blob deploy lag broke live heroes)",
+    "Hero not wrong-brand ≠ Running-quality visual system (category collage, guide visuals, review storytelling)",
+    "Character count / not machine-like ≠ product-specific buyer guidance",
+    "INDEXABLE / READY ≠ Running parity of layout modules",
+    "Token leakage zero ≠ editorial richness",
+    "Jaccard uniqueness can be gamed with paraphrased templates",
+    "Single-hero PDP flagged as insufficient while Running median is also 1"
+  ],
+  "replacementGatesProposed": [
+    "Public listable product must have authentic hero file present on Blob (HTTP 200 via /images rewrite)",
+    "Primary category page must use Running-equivalent experiential shell (collage/type storytelling), not generic CategoryPage alone",
+    "Flagship reviews must resolve >= Running-template section image count with unique srcs rendered",
+    "Buying guides must have distinct hero + inline product/diagram visuals (not only reused choose-racket.jpg)",
+    "Soft categories with <X% authentic hero coverage must stay NOINDEX / not look live",
+    "Gauge notes must be product-specific; ban methodology labels in public UI",
+    "Manual visual QA checklist against Running pair screenshots before flipping READY"
+  ]
+}

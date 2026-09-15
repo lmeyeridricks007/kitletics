@@ -15,7 +15,7 @@ export const CONTENT_UNIQUENESS_REVIEW_HOLDS = new Set<string>([
   "adidas-barricade-13",
   "adidas-courtjam-control-3",
   "adidas-courtquick-padel-women",
-  "adidas-courtstabil-padel",
+  "adidas-courtquick-padel",
   "adidas-crazyquick-boost-padel",
   "adidas-crazyquick-boost-padel-women",
   "adidas-dropset-2",

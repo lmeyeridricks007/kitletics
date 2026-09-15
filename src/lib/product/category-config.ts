@@ -221,10 +221,193 @@ export const padelRacketsProductPageConfig: ProductPageCategoryConfig = {
   relatedToolSlugs: ["padel-racket-finder"],
 };
 
+/** Court shoes — same PDP chrome as running; padel court fields, not road geometry. */
+export const padelShoesProductPageConfig: ProductPageCategoryConfig = {
+  categoryId: "cat-padel-shoes",
+  featuredSpecificationKeys: [
+    "surfaceCompatibility",
+    "courtOutsole",
+    "lateralStability",
+    "courtFeel",
+    "tractionPattern",
+    "durability",
+    "fit",
+  ],
+  specificationGroups: [
+    {
+      id: "use",
+      label: "Court use",
+      keys: [
+        "surfaceCompatibility",
+        "courtOutsole",
+        "tractionPattern",
+        "durability",
+      ],
+    },
+    {
+      id: "fit",
+      label: "Support & fit",
+      keys: ["lateralStability", "courtFeel", "fit", "width", "upper"],
+    },
+    {
+      id: "construction",
+      label: "Construction",
+      keys: ["upper", "courtOutsole", "tractionPattern"],
+    },
+  ],
+  comparisonPriorityKeys: [
+    "surfaceCompatibility",
+    "lateralStability",
+    "courtOutsole",
+    "courtFeel",
+  ],
+  classificationSpecKeys: ["surfaceCompatibility", "lateralStability"],
+  optionalSections: {
+    family: true,
+    rotation: false,
+    tools: true,
+  },
+};
+
+export const padelBallsProductPageConfig: ProductPageCategoryConfig = {
+  categoryId: "cat-padel-balls",
+  featuredSpecificationKeys: [
+    "speed",
+    "pressurization",
+    "ballType",
+    "use",
+    "packSize",
+  ],
+  specificationGroups: [
+    {
+      id: "use",
+      label: "Play character",
+      keys: ["speed", "ballType", "pressurization", "use", "officialApproval"],
+    },
+    {
+      id: "construction",
+      label: "Construction & pack",
+      keys: ["durability", "packSize", "ballsPerCan", "feltType"],
+    },
+  ],
+  comparisonPriorityKeys: ["speed", "pressurization", "ballType", "use"],
+  classificationSpecKeys: ["speed", "ballType"],
+  optionalSections: {
+    family: true,
+    rotation: false,
+    tools: false,
+  },
+};
+
+export const padelBagsProductPageConfig: ProductPageCategoryConfig = {
+  categoryId: "cat-padel-bags",
+  featuredSpecificationKeys: [
+    "racketCompartments",
+    "thermalProtection",
+    "shoeCompartment",
+    "form",
+    "volumeL",
+  ],
+  specificationGroups: [
+    {
+      id: "use",
+      label: "Capacity & carry",
+      keys: [
+        "racketCompartments",
+        "form",
+        "volumeL",
+        "carrySystem",
+        "capacity",
+      ],
+    },
+    {
+      id: "features",
+      label: "Storage features",
+      keys: ["thermalProtection", "shoeCompartment", "compartments"],
+    },
+  ],
+  comparisonPriorityKeys: [
+    "racketCompartments",
+    "thermalProtection",
+    "shoeCompartment",
+    "form",
+  ],
+  classificationSpecKeys: ["form", "thermalProtection"],
+  optionalSections: {
+    family: true,
+    rotation: false,
+    tools: false,
+  },
+};
+
+export const padelGripsProductPageConfig: ProductPageCategoryConfig = {
+  categoryId: "cat-padel-grips",
+  featuredSpecificationKeys: [
+    "gripType",
+    "thickness",
+    "tack",
+    "absorption",
+    "packQuantity",
+  ],
+  specificationGroups: [
+    {
+      id: "features",
+      label: "Grip character",
+      keys: ["gripType", "thickness", "tack", "absorption", "feel"],
+    },
+    {
+      id: "use",
+      label: "Pack & install",
+      keys: ["packQuantity", "installationMethod", "handleThicknessEffect"],
+    },
+  ],
+  comparisonPriorityKeys: ["gripType", "tack", "absorption", "thickness"],
+  classificationSpecKeys: ["gripType", "tack"],
+  optionalSections: {
+    family: false,
+    rotation: false,
+    tools: false,
+  },
+};
+
+export const padelAccessoriesProductPageConfig: ProductPageCategoryConfig = {
+  categoryId: "cat-padel-accessories",
+  featuredSpecificationKeys: [
+    "type",
+    "compatibility",
+    "pressureSystem",
+    "packQuantity",
+  ],
+  specificationGroups: [
+    {
+      id: "features",
+      label: "What it does",
+      keys: ["type", "pressureSystem", "manualOrElectric", "compatibility"],
+    },
+    {
+      id: "use",
+      label: "Use context",
+      keys: ["packQuantity", "capacityBalls", "compatibility"],
+    },
+  ],
+  comparisonPriorityKeys: ["type", "compatibility", "pressureSystem"],
+  classificationSpecKeys: ["type"],
+  optionalSections: {
+    family: false,
+    rotation: false,
+    tools: false,
+  },
+};
+
 export const PRODUCT_PAGE_CONFIGS: Record<string, ProductPageCategoryConfig> = {
   "cat-running-shoes": runningShoesProductPageConfig,
   "cat-gps-watches": gpsWatchProductPageConfig,
   "cat-padel-rackets": padelRacketsProductPageConfig,
+  "cat-padel-shoes": padelShoesProductPageConfig,
+  "cat-padel-balls": padelBallsProductPageConfig,
+  "cat-padel-bags": padelBagsProductPageConfig,
+  "cat-padel-grips": padelGripsProductPageConfig,
+  "cat-padel-accessories": padelAccessoriesProductPageConfig,
 };
 
 export function getProductPageCategoryConfig(

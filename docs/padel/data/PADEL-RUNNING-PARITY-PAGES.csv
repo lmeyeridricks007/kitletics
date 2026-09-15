@@ -1,0 +1,12 @@
+pageType,url,vertical,MEDIA_COMPLETENESS,MEDIA_QUALITY,CONTENT_DEPTH,PRODUCT_SPECIFICITY,DECISION_SUPPORT,VISUAL_STORYTELLING,COMMERCE,INTERNAL_LINKING,RUNNING_PARITY,readiness,notes
+hub,/running,running,HIGH,HIGH,HIGH,HIGH,HIGH,HIGH,HIGH,HIGH,BENCHMARK,RUNNING_PARITY_READY,"Declarative SportHubPage with fit links, best+finder, more bests, guides, reviews, brands"
+hub,/padel,padel,MED,MED,MED,MED,MED,LOW,MED,MED,MAJOR_PARITY_GAPS,FUNCTIONALLY_READY_BUT_THIN,Same stack as Running but thinner visuals; blob media gaps historically; fewer unique guide images
+category,/running/shoes,running,HIGH,HIGH,HIGH,HIGH,HIGH,HIGH,HIGH,HIGH,BENCHMARK,RUNNING_PARITY_READY,"Dedicated RunningShoesCategoryPage with collage hero, type nav, how-you-run, brand strip"
+category,/padel/rackets,padel,HIGH,MED,MED,MED,MED,LOW,MED,MED,MAJOR_PARITY_GAPS,FUNCTIONALLY_READY_BUT_THIN,Generic CategoryPage (not RunningShoes shell). Hero file coverage 57/62
+category,/padel/shoes,padel,LOW,LOW,LOW,LOW,LOW,LOW,MED,MED,MAJOR_PARITY_GAPS,MEDIA_BLOCKED,Generic CategoryPage (not RunningShoes shell). Hero file coverage 7/41
+category,/padel/balls,padel,MED,LOW,LOW,LOW,LOW,LOW,MED,MED,MAJOR_PARITY_GAPS,CONTENT_BLOCKED,Generic CategoryPage (not RunningShoes shell). Hero file coverage 44/62
+category,/padel/bags,padel,LOW,LOW,LOW,LOW,LOW,LOW,MED,MED,MAJOR_PARITY_GAPS,CONTENT_BLOCKED,Generic CategoryPage (not RunningShoes shell). Hero file coverage 65/124
+category,/padel/grips,padel,LOW,LOW,LOW,LOW,LOW,LOW,MED,MED,MAJOR_PARITY_GAPS,MEDIA_BLOCKED,Generic CategoryPage (not RunningShoes shell). Hero file coverage 29/85
+category,/padel/accessories,padel,LOW,LOW,LOW,LOW,LOW,LOW,MED,MED,MAJOR_PARITY_GAPS,MEDIA_BLOCKED,Generic CategoryPage (not RunningShoes shell). Hero file coverage 21/84
+review_family,/reviews/*,running,HIGH,HIGH,HIGH,HIGH,HIGH,HIGH,HIGH,HIGH,BENCHMARK,RUNNING_PARITY_READY,Vomero-standard section images under public/images/running/products/<slug>/sections/
+review_family,/reviews/* (padel),padel,MED,MED,MED,MED,MED,MED,MED,MED,MAJOR_PARITY_GAPS,FUNCTIONALLY_READY_BUT_THIN,5/26 padel reviews with 0 section image files; gauge notes were methodology labels

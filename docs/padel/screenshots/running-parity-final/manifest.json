@@ -1,0 +1,461 @@
+[
+  {
+    "key": "hub-padel",
+    "path": "/padel",
+    "viewport": "desktop",
+    "status": 200,
+    "file": "hub-padel-desktop.png",
+    "h1": "PADEL GEAR",
+    "imgs": 61
+  },
+  {
+    "key": "hub-padel",
+    "path": "/padel",
+    "viewport": "mobile",
+    "status": 200,
+    "file": "hub-padel-mobile.png",
+    "h1": "PADEL GEAR",
+    "imgs": 61
+  },
+  {
+    "key": "hub-running",
+    "path": "/running",
+    "viewport": "desktop",
+    "status": 200,
+    "file": "hub-running-desktop.png",
+    "h1": "RUNNING GEAR",
+    "imgs": 65
+  },
+  {
+    "key": "hub-running",
+    "path": "/running",
+    "viewport": "mobile",
+    "status": 200,
+    "file": "hub-running-mobile.png",
+    "h1": "RUNNING GEAR",
+    "imgs": 65
+  },
+  {
+    "key": "cat-rackets",
+    "path": "/padel/rackets",
+    "viewport": "desktop",
+    "error": "page.goto: Timeout 90000ms exceeded.\nCall log:\n  - navigating to \"http://127.0.0.1:3015/padel/rackets\", waiting until \"domcontentloaded\"\n"
+  },
+  {
+    "key": "cat-rackets",
+    "path": "/padel/rackets",
+    "viewport": "mobile",
+    "status": 200,
+    "file": "cat-rackets-mobile.png",
+    "h1": "Padel Rackets",
+    "imgs": 84
+  },
+  {
+    "key": "cat-shoes-padel",
+    "path": "/padel/shoes",
+    "viewport": "desktop",
+    "status": 200,
+    "file": "cat-shoes-padel-desktop.png",
+    "h1": "Padel Shoes",
+    "imgs": 44
+  },
+  {
+    "key": "cat-shoes-padel",
+    "path": "/padel/shoes",
+    "viewport": "mobile",
+    "status": 200,
+    "file": "cat-shoes-padel-mobile.png",
+    "h1": "Padel Shoes",
+    "imgs": 44
+  },
+  {
+    "key": "cat-balls",
+    "path": "/padel/balls",
+    "viewport": "desktop",
+    "status": 200,
+    "file": "cat-balls-desktop.png",
+    "h1": "Padel Balls",
+    "imgs": 44
+  },
+  {
+    "key": "cat-balls",
+    "path": "/padel/balls",
+    "viewport": "mobile",
+    "status": 200,
+    "file": "cat-balls-mobile.png",
+    "h1": "Padel Balls",
+    "imgs": 44
+  },
+  {
+    "key": "cat-bags",
+    "path": "/padel/bags",
+    "viewport": "desktop",
+    "status": 200,
+    "file": "cat-bags-desktop.png",
+    "h1": "Padel Bags",
+    "imgs": 44
+  },
+  {
+    "key": "cat-bags",
+    "path": "/padel/bags",
+    "viewport": "mobile",
+    "status": 200,
+    "file": "cat-bags-mobile.png",
+    "h1": "Padel Bags",
+    "imgs": 44
+  },
+  {
+    "key": "cat-grips",
+    "path": "/padel/grips",
+    "viewport": "desktop",
+    "status": 200,
+    "file": "cat-grips-desktop.png",
+    "h1": "Padel Grips & Overgrips",
+    "imgs": 45
+  },
+  {
+    "key": "cat-grips",
+    "path": "/padel/grips",
+    "viewport": "mobile",
+    "status": 200,
+    "file": "cat-grips-mobile.png",
+    "h1": "Padel Grips & Overgrips",
+    "imgs": 45
+  },
+  {
+    "key": "cat-accessories",
+    "path": "/padel/accessories",
+    "viewport": "desktop",
+    "status": 200,
+    "file": "cat-accessories-desktop.png",
+    "h1": "Padel Accessories",
+    "imgs": 34
+  },
+  {
+    "key": "cat-accessories",
+    "path": "/padel/accessories",
+    "viewport": "mobile",
+    "status": 200,
+    "file": "cat-accessories-mobile.png",
+    "h1": "Padel Accessories",
+    "imgs": 34
+  },
+  {
+    "key": "cat-shoes-running",
+    "path": "/running/shoes",
+    "viewport": "desktop",
+    "status": 200,
+    "file": "cat-shoes-running-desktop.png",
+    "h1": "Running Shoes",
+    "imgs": 57
+  },
+  {
+    "key": "cat-shoes-running",
+    "path": "/running/shoes",
+    "viewport": "mobile",
+    "status": 200,
+    "file": "cat-shoes-running-mobile.png",
+    "h1": "Running Shoes",
+    "imgs": 57
+  },
+  {
+    "key": "pdp-padel-racket",
+    "path": "/products/bullpadel-vertex-05-2026",
+    "viewport": "desktop",
+    "status": 200,
+    "file": "pdp-padel-racket-desktop.png",
+    "h1": "Vertex 05",
+    "imgs": 15
+  },
+  {
+    "key": "pdp-padel-racket",
+    "path": "/products/bullpadel-vertex-05-2026",
+    "viewport": "mobile",
+    "status": 200,
+    "file": "pdp-padel-racket-mobile.png",
+    "h1": "Vertex 05",
+    "imgs": 15
+  },
+  {
+    "key": "pdp-padel-shoe",
+    "path": "/products/asics-gel-resolution-padel",
+    "viewport": "desktop",
+    "status": 200,
+    "file": "pdp-padel-shoe-desktop.png",
+    "h1": "Gel-Resolution Padel",
+    "imgs": 11
+  },
+  {
+    "key": "pdp-padel-shoe",
+    "path": "/products/asics-gel-resolution-padel",
+    "viewport": "mobile",
+    "status": 200,
+    "file": "pdp-padel-shoe-mobile.png",
+    "h1": "Gel-Resolution Padel",
+    "imgs": 11
+  },
+  {
+    "key": "pdp-running-shoe",
+    "path": "/products/nike-vomero-18",
+    "viewport": "desktop",
+    "status": 200,
+    "file": "pdp-running-shoe-desktop.png",
+    "h1": "Vomero 18",
+    "imgs": 6
+  },
+  {
+    "key": "pdp-running-shoe",
+    "path": "/products/nike-vomero-18",
+    "viewport": "mobile",
+    "status": 200,
+    "file": "pdp-running-shoe-mobile.png",
+    "h1": "Vomero 18",
+    "imgs": 6
+  },
+  {
+    "key": "review-padel-racket",
+    "path": "/reviews/bullpadel-vertex-05-2026",
+    "viewport": "desktop",
+    "status": 200,
+    "file": "review-padel-racket-desktop.png",
+    "h1": "Bullpadel Vertex 05 2026 Review",
+    "imgs": 30
+  },
+  {
+    "key": "review-padel-racket",
+    "path": "/reviews/bullpadel-vertex-05-2026",
+    "viewport": "mobile",
+    "status": 200,
+    "file": "review-padel-racket-mobile.png",
+    "h1": "Bullpadel Vertex 05 2026 Review",
+    "imgs": 30
+  },
+  {
+    "key": "review-padel-shoe",
+    "path": "/reviews/asics-gel-resolution-padel",
+    "viewport": "desktop",
+    "status": 200,
+    "file": "review-padel-shoe-desktop.png",
+    "h1": "ASICS Gel-Resolution Padel Review",
+    "imgs": 26
+  },
+  {
+    "key": "review-padel-shoe",
+    "path": "/reviews/asics-gel-resolution-padel",
+    "viewport": "mobile",
+    "status": 200,
+    "file": "review-padel-shoe-mobile.png",
+    "h1": "ASICS Gel-Resolution Padel Review",
+    "imgs": 26
+  },
+  {
+    "key": "review-running",
+    "path": "/reviews/nike-vomero-18",
+    "viewport": "desktop",
+    "status": 200,
+    "file": "review-running-desktop.png",
+    "h1": "Nike Vomero 18 Review",
+    "imgs": 25
+  },
+  {
+    "key": "review-running",
+    "path": "/reviews/nike-vomero-18",
+    "viewport": "mobile",
+    "status": 200,
+    "file": "review-running-mobile.png",
+    "h1": "Nike Vomero 18 Review",
+    "imgs": 25
+  },
+  {
+    "key": "best-padel-rackets",
+    "path": "/best/padel-rackets",
+    "viewport": "desktop",
+    "status": 200,
+    "file": "best-padel-rackets-desktop.png",
+    "h1": "Best Padel Rackets",
+    "imgs": 36
+  },
+  {
+    "key": "best-padel-rackets",
+    "path": "/best/padel-rackets",
+    "viewport": "mobile",
+    "status": 200,
+    "file": "best-padel-rackets-mobile.png",
+    "h1": "Best Padel Rackets",
+    "imgs": 36
+  },
+  {
+    "key": "best-padel-shoes",
+    "path": "/best/padel-shoes",
+    "viewport": "desktop",
+    "status": 200,
+    "file": "best-padel-shoes-desktop.png",
+    "h1": "Best Padel Shoes",
+    "imgs": 30
+  },
+  {
+    "key": "best-padel-shoes",
+    "path": "/best/padel-shoes",
+    "viewport": "mobile",
+    "status": 200,
+    "file": "best-padel-shoes-mobile.png",
+    "h1": "Best Padel Shoes",
+    "imgs": 30
+  },
+  {
+    "key": "best-padel-overgrips",
+    "path": "/best/padel-overgrips",
+    "viewport": "desktop",
+    "status": 200,
+    "file": "best-padel-overgrips-desktop.png",
+    "h1": "Best Padel Overgrips",
+    "imgs": 20
+  },
+  {
+    "key": "best-padel-overgrips",
+    "path": "/best/padel-overgrips",
+    "viewport": "mobile",
+    "error": "page.goto: Timeout 90000ms exceeded.\nCall log:\n  - navigating to \"http://127.0.0.1:3015/best/padel-overgrips\", waiting until \"domcontentloaded\"\n"
+  },
+  {
+    "key": "best-running",
+    "path": "/best/daily-trainers",
+    "viewport": "desktop",
+    "status": 200,
+    "file": "best-running-desktop.png",
+    "h1": "Best Daily Trainers",
+    "imgs": 36
+  },
+  {
+    "key": "best-running",
+    "path": "/best/daily-trainers",
+    "viewport": "mobile",
+    "status": 200,
+    "file": "best-running-mobile.png",
+    "h1": "Best Daily Trainers",
+    "imgs": 36
+  },
+  {
+    "key": "guide-padel-choose",
+    "path": "/guides/how-to-choose-a-padel-racket",
+    "viewport": "desktop",
+    "error": "page.goto: Timeout 90000ms exceeded.\nCall log:\n  - navigating to \"http://127.0.0.1:3015/guides/how-to-choose-a-padel-racket\", waiting until \"domcontentloaded\"\n"
+  },
+  {
+    "key": "guide-padel-choose",
+    "path": "/guides/how-to-choose-a-padel-racket",
+    "viewport": "mobile",
+    "status": 200,
+    "file": "guide-padel-choose-mobile.png",
+    "h1": "How to Choose a Padel Racket",
+    "imgs": 23
+  },
+  {
+    "key": "guide-padel-shapes",
+    "path": "/guides/padel-racket-shapes-explained",
+    "viewport": "desktop",
+    "status": 200,
+    "file": "guide-padel-shapes-desktop.png",
+    "h1": "Padel Racket Shapes Explained",
+    "imgs": 19
+  },
+  {
+    "key": "guide-padel-shapes",
+    "path": "/guides/padel-racket-shapes-explained",
+    "viewport": "mobile",
+    "status": 200,
+    "file": "guide-padel-shapes-mobile.png",
+    "h1": "Padel Racket Shapes Explained",
+    "imgs": 19
+  },
+  {
+    "key": "guide-running-choose",
+    "path": "/guides/how-to-choose-running-shoes",
+    "viewport": "desktop",
+    "status": 200,
+    "file": "guide-running-choose-desktop.png",
+    "h1": "How to Choose Running Shoes: The Complete Guide",
+    "imgs": 20
+  },
+  {
+    "key": "guide-running-choose",
+    "path": "/guides/how-to-choose-running-shoes",
+    "viewport": "mobile",
+    "status": 200,
+    "file": "guide-running-choose-mobile.png",
+    "h1": "How to Choose Running Shoes: The Complete Guide",
+    "imgs": 20
+  },
+  {
+    "key": "compare-padel",
+    "path": "/compare?category=padel-rackets",
+    "viewport": "desktop",
+    "status": 200,
+    "file": "compare-padel-desktop.png",
+    "h1": "Compare Padel Rackets",
+    "imgs": 16
+  },
+  {
+    "key": "compare-padel",
+    "path": "/compare?category=padel-rackets",
+    "viewport": "mobile",
+    "status": 200,
+    "file": "compare-padel-mobile.png",
+    "h1": "Compare Padel Rackets",
+    "imgs": 16
+  },
+  {
+    "key": "brands-padel",
+    "path": "/brands?sport=padel",
+    "viewport": "desktop",
+    "status": 200,
+    "file": "brands-padel-desktop.png",
+    "h1": "Browse padel brands",
+    "imgs": 14
+  },
+  {
+    "key": "brands-padel",
+    "path": "/brands?sport=padel",
+    "viewport": "mobile",
+    "status": 200,
+    "file": "brands-padel-mobile.png",
+    "h1": "Browse padel brands",
+    "imgs": 14
+  },
+  {
+    "key": "finder-padel",
+    "path": "/tools/padel-racket-finder",
+    "viewport": "desktop",
+    "status": 200,
+    "file": "finder-padel-desktop.png",
+    "h1": "Find the right padel racket for your game",
+    "imgs": 3
+  },
+  {
+    "key": "finder-padel",
+    "path": "/tools/padel-racket-finder",
+    "viewport": "mobile",
+    "status": 200,
+    "file": "finder-padel-mobile.png",
+    "h1": "Find the right padel racket for your game",
+    "imgs": 3
+  },
+  {
+    "key": "db-padel",
+    "path": "/padel/rackets/database",
+    "viewport": "desktop",
+    "status": 200,
+    "file": "db-padel-desktop.png",
+    "h1": "Padel Racket Database",
+    "imgs": 57
+  },
+  {
+    "key": "db-padel",
+    "path": "/padel/rackets/database",
+    "viewport": "mobile",
+    "status": 200,
+    "file": "db-padel-mobile.png",
+    "h1": "Padel Racket Database",
+    "imgs": 57
+  }
+]

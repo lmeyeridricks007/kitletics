@@ -66,7 +66,7 @@ const DEFAULT_TRUST_PILLARS: BestGuideTrustPillar[] = [
   {
     icon: "database",
     title: "Data Driven",
-    description: "{count} products considered",
+    description: "{count} products evaluated",
   },
   {
     icon: "research",
@@ -440,7 +440,24 @@ export const padelRacketBestGuideConfig: BestGuideCategoryConfig = {
   productNoun: "Padel Rackets",
   finderCtaLabel: "Find my padel racket →",
   trustPillars: DEFAULT_TRUST_PILLARS,
-  buyingHelpLinks: [],
+  buyingHelpLinks: [
+    {
+      label: "How to choose a padel racket",
+      href: "/guides/how-to-choose-a-padel-racket",
+    },
+    {
+      label: "Racket shapes explained",
+      href: "/guides/padel-racket-shapes-explained",
+    },
+    {
+      label: "Padel racket finder",
+      href: "/tools/padel-racket-finder",
+    },
+    {
+      label: "Browse padel rackets",
+      href: "/padel/rackets",
+    },
+  ],
   tableColumns: [
     { key: "bestFor", label: "Best for", source: "bestFor" },
     { key: "shape", label: "Shape", source: "spec", specKey: "shape" },
@@ -514,7 +531,24 @@ export const padelShoeBestGuideConfig: BestGuideCategoryConfig = {
   quickPickLimit: 9,
   productNoun: "Padel Shoes",
   trustPillars: DEFAULT_TRUST_PILLARS,
-  buyingHelpLinks: [],
+  buyingHelpLinks: [
+    {
+      label: "How to choose padel shoes",
+      href: "/guides/how-to-choose-padel-shoes",
+    },
+    {
+      label: "Padel vs tennis shoes",
+      href: "/guides/padel-vs-tennis-shoes",
+    },
+    {
+      label: "Outsoles explained",
+      href: "/guides/padel-shoe-outsoles-explained",
+    },
+    {
+      label: "Browse padel shoes",
+      href: "/padel/shoes",
+    },
+  ],
   tableColumns: [
     { key: "bestFor", label: "Best for", source: "bestFor" },
     { key: "gender", label: "Last", source: "spec", specKey: "genderFit" },
@@ -554,7 +588,24 @@ export const padelGripBestGuideConfig: BestGuideCategoryConfig = {
   quickPickLimit: 6,
   productNoun: "Padel Overgrips",
   trustPillars: DEFAULT_TRUST_PILLARS,
-  buyingHelpLinks: [],
+  buyingHelpLinks: [
+    {
+      label: "Grip vs overgrip",
+      href: "/guides/padel-grip-vs-overgrip",
+    },
+    {
+      label: "Grips & overgrips explained",
+      href: "/guides/padel-grips-overgrips-explained",
+    },
+    {
+      label: "When to replace an overgrip",
+      href: "/guides/how-often-should-you-replace-a-padel-overgrip",
+    },
+    {
+      label: "Browse grips",
+      href: "/padel/grips",
+    },
+  ],
   tableColumns: [
     { key: "bestFor", label: "Best for", source: "bestFor" },
     { key: "type", label: "Type", source: "spec", specKey: "gripType" },
@@ -595,7 +646,20 @@ export const padelBagBestGuideConfig: BestGuideCategoryConfig = {
   quickPickLimit: 6,
   productNoun: "Padel Bags",
   trustPillars: DEFAULT_TRUST_PILLARS,
-  buyingHelpLinks: [],
+  buyingHelpLinks: [
+    {
+      label: "How to choose a padel bag",
+      href: "/guides/how-to-choose-a-padel-bag",
+    },
+    {
+      label: "Complete gear checklist",
+      href: "/guides/complete-padel-gear-checklist",
+    },
+    {
+      label: "Browse padel bags",
+      href: "/padel/bags",
+    },
+  ],
   tableColumns: [
     { key: "bestFor", label: "Best for", source: "bestFor" },
     { key: "form", label: "Form", source: "spec", specKey: "form" },

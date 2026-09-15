@@ -2,8 +2,9 @@ import Link from "next/link";
 import { Section } from "@/components/layout/Section";
 import { SportPageHeader } from "@/components/headers/PageHeaders";
 import { resolveBreadcrumbs } from "@/lib/navigation/breadcrumbs";
-import { getSports, getSportBySlug } from "@/repositories";
+import { getSportBySlug } from "@/repositories";
 import { notFound } from "next/navigation";
+import { sportHasPublicCatalog } from "@/lib/catalog/listable-products";
 
 const RACKET_CHILD_SLUGS = [
   "padel",
@@ -26,6 +27,9 @@ export function RacketSportsFamilyHub() {
       Boolean(s) && s!.contentStatus === "live",
   );
 
+  const live = children.filter((s) => sportHasPublicCatalog(s.id));
+  const soon = children.filter((s) => !sportHasPublicCatalog(s.id));
+
   return (
     <>
       <SportPageHeader
@@ -36,19 +40,19 @@ export function RacketSportsFamilyHub() {
       />
 
       <Section
-        eyebrow="Choose your sport"
+        eyebrow="Live now"
         title="Where do you play?"
-        description="Padel and Tennis are deepest today. Pickleball, Badminton and Squash share the same Product architecture."
+        description="Padel is fully open. Other racket sports stay linked here as Soon until their catalogs are launch-ready."
       >
         <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-          {children.map((s) => (
+          {live.map((s) => (
             <Link
               key={s.id}
               href={`/${s.slug}`}
               className="rounded-xl border border-border bg-surface p-6 transition-all hover:border-accent hover:shadow-md"
             >
-              <p className="text-xs font-medium tracking-wide text-muted uppercase">
-                {s.featured ? "Featured" : "Catalog"}
+              <p className="text-xs font-medium tracking-wide text-accent uppercase">
+                Live catalog
               </p>
               <h3 className="mt-2 font-display text-xl font-semibold text-foreground">
                 {s.name}
@@ -59,32 +63,50 @@ export function RacketSportsFamilyHub() {
               </p>
             </Link>
           ))}
-        </div>
-      </Section>
-
-      <Section
-        muted
-        eyebrow="Choose a sport"
-        title="Start on a sport hub"
-        description="Padel and Tennis hubs are live. Finders and deep catalog pages stay on those hubs when the vertical is open."
-      >
-        <div className="grid gap-4 sm:grid-cols-2">
-          {children.slice(0, 2).map((s) => (
+          {soon.map((s) => (
             <Link
               key={s.id}
               href={`/${s.slug}`}
-              className="rounded-xl border border-border bg-surface p-5 hover:border-accent"
+              className="rounded-xl border border-dashed border-border bg-surface/70 p-6 transition-all hover:border-accent"
             >
-              <h3 className="font-display text-base font-semibold">
-                {s.name} hub
+              <p className="text-xs font-medium tracking-wide text-muted uppercase">
+                Soon
+              </p>
+              <h3 className="mt-2 font-display text-xl font-semibold text-foreground">
+                {s.name}
               </h3>
-              <p className="mt-1 text-sm text-muted">{s.description}</p>
+              <p className="mt-2 text-sm text-muted">{s.description}</p>
+              <p className="mt-4 text-sm font-medium text-muted">
+                Coming soon →
+              </p>
             </Link>
           ))}
         </div>
       </Section>
+
+      {live.length > 0 ? (
+        <Section
+          muted
+          eyebrow="Start here"
+          title="Open a live sport hub"
+          description="Deep catalog pages, Best picks and Finders stay on sports that are launch-ready."
+        >
+          <div className="grid gap-4 sm:grid-cols-2">
+            {live.map((s) => (
+              <Link
+                key={s.id}
+                href={`/${s.slug}`}
+                className="rounded-xl border border-border bg-surface p-5 hover:border-accent"
+              >
+                <h3 className="font-display text-base font-semibold">
+                  {s.name} hub
+                </h3>
+                <p className="mt-1 text-sm text-muted">{s.description}</p>
+              </Link>
+            ))}
+          </div>
+        </Section>
+      ) : null}
     </>
   );
 }
-
-void getSports;

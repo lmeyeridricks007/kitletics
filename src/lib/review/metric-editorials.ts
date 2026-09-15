@@ -47,18 +47,27 @@ export function friendlyScoreNote(note: string, key = ""): string {
   const n = note.trim();
   if (!n) return "";
   const lower = n.toLowerCase();
-  if (lower.includes("neutral platform")) {
-    return "Neutral — not a guidance shoe.";
-  }
   if (
+    lower === "manufacturer sheet" ||
+    lower === "manufacturer sheet." ||
+    lower === "inferred from specs" ||
+    lower === "inferred from specs." ||
+    lower.includes("manufacturer sheet") ||
+    lower.includes("inferred from specs") ||
     lower.includes("research estimate") ||
     lower.includes("wear-logged") ||
+    lower.includes("street price lives in offers") ||
+    lower.includes("not a popularity rank") ||
+    lower.includes("generic glossary") ||
     (key === "durability" && /estimate|research/i.test(n))
   ) {
     // Never show methodology disclaimers under the gauges.
     return "";
   }
-  return n.endsWith(".") ? n : `${n}.`;
+  if (lower.includes("neutral platform")) {
+    return "Neutral — not a guidance shoe.";
+  }
+  return n.endsWith(".") || n.endsWith("…") ? n : `${n}.`;
 }
 
 function findRelated(
@@ -94,6 +103,16 @@ function findRelated(
                               ? /interface|button|touch|menu|usability|complex/
                               : key === "smartwatch-features"
                                 ? /music|payment|notification|smart|ecosystem|connect/
+                                : key === "power"
+                                  ? /power|pace|smash|attack|diamond|finish/
+                                  : key === "control"
+                                    ? /control|placement|precision|touch|drop/
+                                    : key === "forgiveness"
+                                      ? /forgiv|sweet|mishit|round|off-?centre|off-?center/
+                                      : key === "maneuverability"
+                                        ? /maneuver|handling|light|recovery|quick|tip/
+                                        : key === "spin"
+                                          ? /spin|texture|brush|3d|silica/
                   : null;
   if (!hay) return {};
   return {

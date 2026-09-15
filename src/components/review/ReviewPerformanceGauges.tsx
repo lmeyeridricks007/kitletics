@@ -129,8 +129,8 @@ export function ReviewPerformanceGauges({ data }: { data: ReviewPageData }) {
 
   const intro =
     visibleReviewType === "expert-research"
-      ? "Scores are out of 10 for this product’s job — not a claim it wins every category. Each note below is about this product, not a generic glossary."
-      : "Scores are out of 10 from our testing and comparisons for this product’s intended use. Each note below explains why the score landed where it did for this product.";
+      ? "Scores are out of 10 for this product’s job — not a claim it wins every category."
+      : "Scores are out of 10 from our testing and comparisons for this product’s intended use.";
 
   return (
     <section id="performance" className={SCROLL}>

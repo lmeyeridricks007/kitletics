@@ -557,6 +557,12 @@ function topicFromSection(id: string, heading: string): TopicKey {
   if (/traction/.test(hay)) return "traction";
   if (/court.?feel/.test(hay)) return "courtFeel";
   if (/\bsupport\b/.test(hay) && !/who should/.test(hay)) return "support";
+  if (/capacity|racket storage/.test(hay)) return "performance";
+  if (/thermal|shoe storage/.test(hay)) return "tech";
+  if (/carry system/.test(hay)) return "fit";
+  if (/how it works|mechanism/.test(hay)) return "tech";
+  if (/speed and court/.test(hay)) return "performance";
+  if (/match vs training/.test(hay)) return "fit";
   if (/overview|what it is|intro|verdict/.test(hay)) return "overview";
   if (/verified|spec|design &|measurements|key specs/.test(hay)) return "specs";
   if (/strength|strongest|best at/.test(hay)) return "strengths";

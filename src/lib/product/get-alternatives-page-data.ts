@@ -365,6 +365,7 @@ function buildAlternativesPageData(
         ? alt.recommendationScore
         : undefined;
     const media = getPrimaryProductMedia(alt);
+    if (!media) continue;
     const price = getLowestOfferPrice(alt.id, region, options);
     const offers = getOffersForProduct(alt.id, region);
     const review = getReviewByProduct(alt.id, options);

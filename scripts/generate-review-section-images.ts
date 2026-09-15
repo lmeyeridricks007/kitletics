@@ -23,6 +23,7 @@ import {
   PADEL_GRIP_SECTION_IMAGE_TOPICS,
   PADEL_RACKET_SECTION_IMAGE_TOPICS,
   PADEL_SHOE_SECTION_IMAGE_TOPICS,
+  PADEL_SOFT_SECTION_IMAGE_TOPICS,
 } from "@/lib/review/padel-review-outline";
 
 type Family = "running" | "watches" | "racket" | "fitness" | "general";
@@ -323,6 +324,13 @@ function topicsFor(family: Family, categoryId: string): Topic[] {
   }
   if (categoryId === "cat-padel-grips") {
     return [...PADEL_GRIP_SECTION_IMAGE_TOPICS];
+  }
+  if (
+    categoryId === "cat-padel-bags" ||
+    categoryId === "cat-padel-balls" ||
+    categoryId === "cat-padel-accessories"
+  ) {
+    return [...PADEL_SOFT_SECTION_IMAGE_TOPICS];
   }
   if (family === "racket") return [...RACKET_TOPICS];
   if (family === "fitness") return [...FITNESS_TOPICS];

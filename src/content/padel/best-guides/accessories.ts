@@ -15,7 +15,7 @@ export const padelOvergripsGuide: BestGuide = baseGuide({
   title: "Best Padel Overgrips",
   subtitle: "Thin tack versus absorption — not a replacement grip and not Hesacore",
   shortDescription:
-    "Two published overgrips with distinct jobs. Comfort sleeves and draft products do not win.",
+    "Three published overgrips with distinct jobs: thin tack, absorption, and a padel-native absorbent alternative. Comfort sleeves do not win.",
   sportId: PADEL_SPORT,
   categoryId: "cat-padel-grips",
   guideKind: "use-case",
@@ -61,17 +61,19 @@ export const padelOvergripsGuide: BestGuide = baseGuide({
       explanation: "Hesacore-type sleeves are a different job and currently unpublished.",
     },
     {
-      label: "Intentionally two",
-      explanation: "The catalog supports tack versus absorption. It does not support a fake third winner.",
+      label: "Three clear roles",
+      explanation: "Thin tack, absorption default, and a second absorbent lane — not three near-identical tack wraps.",
     },
   ],
   quickTake: [
     "Choose Wilson Pro if you want a thin, lightly tacky padel-length overgrip as the default wrap.",
     "Choose Bullpadel HaC if Wilson feels slippery and you need absorption first.",
+    "Choose Nox Pro when you want a padel-native absorbent 3-pack alternative to HaC.",
   ],
   decisionShortcuts: [
     { need: "Thin tack default", productId: "prod-wilson-overgrip", reason: "Wilson Pro Padel Overgrip." },
     { need: "Absorption first", productId: "prod-bullpadel-gb1200", reason: "Bullpadel HaC." },
+    { need: "Nox absorbent 3-pack", productId: "prod-nox-pro-overgrip", reason: "Nox Pro." },
   ],
   recommendations: [
     pick({
@@ -81,16 +83,17 @@ export const padelOvergripsGuide: BestGuide = baseGuide({
       role: "Thin tack default",
       summary: "Wilson Pro Padel Overgrip — thin stretch felt, lightly tacky 3-pack.",
       whyWon:
-        "Wilson Pro is the default overgrip because it is a published padel-length wrap with a thin, lightly tacky job and an authentic packshot. HaC wins absorption. Hesacore cannot win.",
+        "Wilson Pro is the default overgrip because it is a published padel-length wrap with a thin, lightly tacky job and an authentic packshot. HaC wins absorption. Nox Pro is the absorbent alternative. Hesacore cannot win.",
       whyFits: [
         "Thin enough that it does not jump a grip size. Replace it when tack dies — that is the product, not a seasonal event.",
-        "I'd wrap this as the default. I'd switch to HaC when sweat kills this wrap mid-set.",
+        "I'd wrap this as the default. I'd switch to HaC or Nox Pro when sweat kills this wrap mid-set.",
       ],
       bestFor: ["Default thin overgrip", "Feel and tack", "Padel-length wrap"],
-      tradeoff: "Not the driest option for heavy sweat — that is HaC’s job.",
-      avoid: ["Players who need a shaped comfort sleeve (Hesacore is unpublished)", "Replacement-grip shoppers"],
+      tradeoff: "Not the driest option for heavy sweat — that is HaC’s or Nox Pro’s job.",
+      avoid: ["Players who need a shaped comfort sleeve", "Replacement-grip shoppers"],
       instead: [
         { productId: "prod-bullpadel-gb1200", when: "sweat kills tack and you need absorption", label: "Bullpadel HaC" },
+        { productId: "prod-nox-pro-overgrip", when: "you want a Nox absorbent 3-pack", label: "Nox Pro" },
       ],
     }),
     pick({
@@ -110,6 +113,28 @@ export const padelOvergripsGuide: BestGuide = baseGuide({
       avoid: ["Players who want Wilson’s tack as the whole point"],
       instead: [
         { productId: "prod-wilson-overgrip", when: "you want thin tack as the default", label: "Wilson Pro" },
+        { productId: "prod-nox-pro-overgrip", when: "you want Nox absorbent instead", label: "Nox Pro" },
+      ],
+    }),
+    pick({
+      productId: "prod-nox-pro-overgrip",
+      rank: 3,
+      awardType: "editors-pick",
+      badge: "Best absorbent alternative",
+      role: "Padel-native absorbent 3-pack",
+      summary: "Nox Pro overgrip — absorbent padel wrap in a ready 3-pack.",
+      whyWon:
+        "Distinct absorbent lane from HaC without inventing a third tack clone. Published padel-native packshot and moisture job.",
+      whyFits: [
+        "I'd shortlist Nox Pro when the bag is already Nox or HaC is out of stock.",
+        "I'd skip it if Wilson’s thin tack is already enough for my climate.",
+      ],
+      bestFor: ["Absorbent alternative", "Nox kit cohesion", "3-pack convenience"],
+      tradeoff: "Overlaps HaC’s absorption story — pick one absorbent wrap, not both as defaults.",
+      avoid: ["Players who only wanted Wilson’s thin tack"],
+      instead: [
+        { productId: "prod-bullpadel-gb1200", when: "HaC is the absorption default you already trust", label: "HaC" },
+        { productId: "prod-wilson-overgrip", when: "you want tack, not absorption", label: "Wilson Pro" },
       ],
     }),
   ],
@@ -119,12 +144,6 @@ export const padelOvergripsGuide: BestGuide = baseGuide({
       "Comfort sleeve / ergonomic cushion system — not an overgrip. Different job; see Hesacore Gel/Pro/W as related systems.",
       "rejected",
       { reasonCode: "context-mismatch" },
-    ),
-    considered(
-      "prod-nox-pro-overgrip",
-      "Padel-native absorbent 3-pack with authentic packshot — shortlisted as HaC alternative, not a third award to avoid duplicating absorption.",
-      "shortlisted",
-      { reasonCode: "overlap", closestRecommendedProductId: "prod-bullpadel-gb1200" },
     ),
     considered(
       "prod-head-xtreme-soft",
@@ -163,7 +182,11 @@ export const padelOvergripsGuide: BestGuide = baseGuide({
       { reasonCode: "context-mismatch" },
     ),
   ],
-  comparisonProductIds: ["prod-wilson-overgrip", "prod-bullpadel-gb1200"],
+  comparisonProductIds: [
+    "prod-wilson-overgrip",
+    "prod-bullpadel-gb1200",
+    "prod-nox-pro-overgrip",
+  ],
   buyingAdvice:
     "Replace overgrips often. If you need a thicker handle, that is a replacement grip or a sleeve — different products. Hesacore Tour/Gel/Pro/W stay in the ergonomic system lane, not this overgrip ranking.",
   relatedGuideIds: [

@@ -238,7 +238,16 @@ export type ExplainerDiagramVariant =
   | "comparing-shoes"
   | "decision-steps"
   | "mistakes-notes"
-  | "product-shortlist";
+  | "product-shortlist"
+  | "padel-racket-shapes"
+  | "padel-racket-balance"
+  | "padel-racket-weight"
+  | "padel-bag-forms"
+  | "padel-grip-vs-overgrip"
+  | "padel-ball-types"
+  | "padel-pressurizer"
+  | "padel-decision-steps"
+  | "padel-shoe-outsole";
 
 export interface ExplainerCtaBlock extends ExplainerBlockBase {
   type: "cta";

@@ -158,16 +158,19 @@ export const padelSportHubConfig: SportHubConfig = {
       bestGuideSlug: "padel-rackets-beginners",
       title: "Best Beginner Padel Rackets",
       productLimit: 4,
+      finderToolSlug: "padel-racket-finder",
     },
     {
       bestGuideSlug: "padel-rackets-control",
       title: "Best Control Padel Rackets",
       productLimit: 4,
+      finderToolSlug: "padel-racket-finder",
     },
     {
       bestGuideSlug: "padel-rackets-power",
       title: "Best Power Padel Rackets",
       productLimit: 4,
+      finderToolSlug: "padel-racket-finder",
     },
     {
       bestGuideSlug: "padel-shoes",
@@ -218,6 +221,20 @@ export const padelSportHubConfig: SportHubConfig = {
       description: "Shape, balance, weight",
       href: "/guides/how-to-choose-a-padel-racket",
       icon: "guide",
+    },
+    {
+      id: "collections",
+      title: "COLLECTIONS",
+      description: "Verified product families",
+      href: "/padel/collections",
+      icon: "guide",
+    },
+    {
+      id: "brands",
+      title: "PADEL BRANDS",
+      description: "Nox · Bullpadel · Adidas · more",
+      href: "/brands?sport=padel",
+      icon: "compare",
     },
   ],
   shopCategories: [
