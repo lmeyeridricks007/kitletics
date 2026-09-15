@@ -8,10 +8,23 @@ import {
   EDITORIAL_DISCLOSURE,
   EXPERT_RESEARCH_METHODOLOGY,
 } from "@/domain/review-agent/category-config";
-import { PADEL_GRIP_BLUEPRINT } from "@/lib/review/padel-review-outline";
+import {
+  PADEL_ACCESSORY_BLUEPRINT,
+  PADEL_BAG_BLUEPRINT,
+  PADEL_BALL_BLUEPRINT,
+  type PadelSectionBlueprint,
+} from "@/lib/review/padel-review-outline";
 import { sanitizePadelReview } from "@/lib/review/padel-review-copy";
 
 const pub = publishedMeta();
+
+type SoftCategory = "ball" | "bag" | "accessory";
+
+function blueprintFor(category: SoftCategory): PadelSectionBlueprint[] {
+  if (category === "bag") return PADEL_BAG_BLUEPRINT;
+  if (category === "ball") return PADEL_BALL_BLUEPRINT;
+  return PADEL_ACCESSORY_BLUEPRINT;
+}
 
 function softReview(input: {
   reviewId: string;
@@ -19,12 +32,14 @@ function softReview(input: {
   productId: string;
   fullName: string;
   subtitle: string;
-  categoryLabel: string;
+  categoryLabel: SoftCategory;
   whatItIs: string;
   verdict: string;
   specs: string[];
-  feel: string;
-  comfort: string;
+  /** Category-specific construction / feel / mechanism body. */
+  design: string;
+  /** Second depth block (thermal/carry, speed context, workflow). */
+  secondary: string;
   durability: string;
   value: string;
   pros: string[];
@@ -40,11 +55,13 @@ function softReview(input: {
     `ev-${input.productId}-editorial`,
     "ev-catalog-editorial",
   ];
+  const blueprint = blueprintFor(input.categoryLabel);
+
   const bodies: Record<string, string> = {
     "sec-overview": [
       input.whatItIs,
       input.verdict,
-      `This is an expert-research ${input.categoryLabel} note — not a first-hand lab or match test.`,
+      `Expert-research ${input.categoryLabel} note — not a first-hand lab or match test.`,
       `Bottom line: ${input.verdict}`,
     ].join("\n\n"),
     "sec-verified-specs": [
@@ -52,8 +69,12 @@ function softReview(input: {
       input.specs.map((s) => `• ${s}`).join("\n"),
       `We do not invent bounce hours, capacity magic, or medical claims.`,
     ].join("\n\n"),
-    "sec-fit": input.feel,
-    "sec-comfort": input.comfort,
+    "sec-speed": input.design,
+    "sec-capacity": input.design,
+    "sec-mechanism": input.design,
+    "sec-thermal": input.secondary,
+    "sec-carry": input.secondary,
+    "sec-fit": input.secondary,
     "sec-durability": input.durability,
     "sec-strengths": input.pros.map((p) => `• ${p}`).join("\n"),
     "sec-tradeoffs": [
@@ -66,12 +87,14 @@ function softReview(input: {
     "sec-sources":
       "Manufacturer and specialist listing evidence on the product evidence list. No fake user scores or invented first-hand sessions.",
   };
-  const sections: ContentSection[] = PADEL_GRIP_BLUEPRINT.map((slot) => ({
+
+  const sections: ContentSection[] = blueprint.map((slot) => ({
     id: slot.id,
     heading: slot.heading,
     body: bodies[slot.id] ?? input.whatItIs,
     evidenceIds,
   }));
+
   return sanitizePadelReview({
     id: input.reviewId,
     slug: input.slug,
@@ -122,17 +145,26 @@ export const padelSoftDecisionReviews: Review[] = [
       "Type: pressurized competition can",
       "Personality: faster / livelier HEAD match can",
       "Sibling: HEAD Pro+ (control)",
+      "Published association: Premier Padel Valencia P1 2026 (women’s draw) where listed",
     ],
-    feel:
-      "Manufacturer positioning is pace-first versus Pro+. Expect a livelier bounce story — exact court feel still depends on temperature, altitude, and can freshness.",
-    comfort:
-      "Comfort here means predictable match bounce while the can is fresh. Once open, demote tired cans to practice rather than forcing dead match balls.",
+    design:
+      "Manufacturer positioning is pace-first versus Pro+. Expect a livelier bounce story on slow or cool courts; on already-fast outdoor glass it can feel too quick for control-first players. Exact court feel still depends on temperature, altitude, and can freshness — we are not inventing lab bounce curves.",
+    secondary:
+      "Match-can role, not training-crate economics. If you demote opened cans after two sessions, Pro S+ still only earns its keep while fresh. For practice volume, Tecnifibre Team / HEAD Team sit in a different job class.",
     durability:
       "Opened pressurized cans lose bounce over sessions. Plan rotation. A pressurizer can slow bounce drop; it cannot rebuild shredded felt.",
     value:
       "Match-can pricing. Compare per can against Wilson Premier Speed and Kuikma PB Speed before calling anything 'best value.'",
-    pros: ["Clear faster HEAD match job", "Current competition positioning", "Obvious sibling fork with Pro+"],
-    cons: ["Too lively for some control players", "Not a training crate", "Freshness dominates any brand story"],
+    pros: [
+      "Clear faster HEAD match job",
+      "Current competition positioning",
+      "Obvious sibling fork with Pro+",
+    ],
+    cons: [
+      "Too lively for some control players",
+      "Not a training crate",
+      "Freshness dominates any brand story",
+    ],
     buy: [
       "You want HEAD’s faster competition can for slow or cold courts.",
       "You already know Pro+ sits too long for your match pace.",
@@ -143,7 +175,11 @@ export const padelSoftDecisionReviews: Review[] = [
       "You only need practice volume — look at Tecnifibre Team / HEAD Team.",
       "You expected a universal best ball across every court.",
     ],
-    alts: ["prod-head-padel-pro-plus", "prod-kuikma-pb-speed", "prod-wilson-padel-premier-speed"],
+    alts: [
+      "prod-head-padel-pro-plus",
+      "prod-kuikma-pb-speed",
+      "prod-wilson-padel-premier-speed",
+    ],
     relatedBuyingGuideIds: [
       "guide-choose-padel-balls",
       "guide-fast-vs-standard-padel-balls",
@@ -166,17 +202,26 @@ export const padelSoftDecisionReviews: Review[] = [
       "Form: club paletero",
       "Published volume class: ~42 L",
       "Jobs: thermo + shoe isolation for club carry",
+      "Not: AT10 XXL / RH Pro tournament volume",
     ],
-    feel:
-      "Paletero carry with straps — not a daypack. Expect club volume: enough for frames, shoes, and extras without the empty cavern of an XXL tournament duffel.",
-    comfort:
-      "Comfort is haul comfort for club nights. If you bike or train daily, a backpack form usually wins even when thermo is nicer on paper.",
+    design:
+      "Published capacity sits in the club-night band: enough for one–two frames plus shoes and extras without the empty cavern of an XXL tournament duffel. Confirm live retailer racket-bay counts before assuming four-frame packing.",
+    secondary:
+      "Thermo pocket plus shoe isolation is the weekly problem this bag is meant to solve for hot-car club nights. Paletero carry with straps — not a daypack. If you bike or train daily, a backpack form (Tour Endurance / Vertex backpack class) usually wins even when thermo is nicer on paper.",
     durability:
       "Zippers and thermo liners fail before marketing copy does. Treat it as kit luggage — don’t drag it like a suitcase on stairs every day if a backpack fits your transit.",
     value:
       "Worth it when thermo + shoe isolation is the weekly problem. Not value if you only carry one racket and hate paletero bulk.",
-    pros: ["Club thermo job", "Shoe vent / isolation story", "Clear size vs RH Pro / XXL"],
-    cons: ["Not tournament 62 L", "Not a commute backpack", "Empty volume still weighs"],
+    pros: [
+      "Club thermo job",
+      "Shoe vent / isolation story",
+      "Clear size vs RH Pro / XXL",
+    ],
+    cons: [
+      "Not tournament 62 L",
+      "Not a commute backpack",
+      "Empty volume still weighs",
+    ],
     buy: [
       "Weekly club nights with one–two frames and shoes in a hot car.",
       "You want published thermo rather than a fashion duffel.",
@@ -192,7 +237,10 @@ export const padelSoftDecisionReviews: Review[] = [
       "prod-tecnifibre-tour-endurance-backpack",
       "prod-nox-at10-xxl-bag",
     ],
-    relatedBuyingGuideIds: ["guide-choose-padel-bag", "guide-padel-bag-vs-backpack"],
+    relatedBuyingGuideIds: [
+      "guide-choose-padel-bag",
+      "guide-padel-bag-vs-backpack",
+    ],
     score: 85,
   }),
   softReview({
@@ -210,17 +258,26 @@ export const padelSoftDecisionReviews: Review[] = [
       "Type: manual pressurizer",
       "Capacity: 3 balls",
       "System: pump + manometer + safety valve",
+      "Job: retain chamber pressure on opened cans",
     ],
-    feel:
-      "Home regulation story versus compact travel canisters like HEAD X3. Same job class — pick by gauge precision vs packability.",
-    comfort:
-      "Comfort is workflow comfort: less dead bounce mid-week when you actually use it. Drawer clutter if you don’t.",
+    design:
+      "Pump the hermetic cup and watch the manometer — that is the whole mechanism. Same job class as compact travel canisters like HEAD X3; pick by gauge precision and home capacity vs packability. Pressure retention is not new felt.",
+    secondary:
+      "Workflow comfort for players who open multiple cans weekly. Drawer clutter if you don’t. Compatible with standard pressurized padel balls; not a substitute for buying fresher cans when you play rarely.",
     durability:
       "Seals and valves matter more than brand stickers. Felt wear still ends a ball’s useful life even when pressure looks fine.",
     value:
       "Economics only for frequent players. Casual players should buy balls more often instead of another pressurizer body.",
-    pros: ["Manometer regulation", "3-ball club capacity", "Pump included on listing"],
-    cons: ["Upfront cost for casual players", "Does not fix felt wear", "Larger than travel canisters"],
+    pros: [
+      "Manometer regulation",
+      "3-ball club capacity",
+      "Pump included on listing",
+    ],
+    cons: [
+      "Upfront cost for casual players",
+      "Does not fix felt wear",
+      "Larger than travel canisters",
+    ],
     buy: [
       "You open multiple cans weekly and hate demoting balls after two sessions.",
       "You want regulated manometer control at home more than a tiny travel can.",
@@ -241,6 +298,5 @@ export const padelSoftDecisionReviews: Review[] = [
   }),
 ];
 
-export const PADEL_SOFT_DECISION_REVIEW_PRODUCT_IDS = padelSoftDecisionReviews.map(
-  (r) => r.productId,
-);
+export const PADEL_SOFT_DECISION_REVIEW_PRODUCT_IDS =
+  padelSoftDecisionReviews.map((r) => r.productId);

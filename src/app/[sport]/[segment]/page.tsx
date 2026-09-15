@@ -8,6 +8,7 @@ import { ProductCard } from "@/components/cards/ProductCard";
 import { Badge } from "@/components/ui/Badge";
 import { CategoryPage } from "@/components/catalog/CategoryPage";
 import { assembleCategoryPage } from "@/lib/catalog";
+import { countListableCategoryProducts } from "@/lib/catalog/listable-products";
 import { siteConfig } from "@/content/config";
 import {
   getSportBySlug,
@@ -17,7 +18,6 @@ import {
   getCategoryByPathSegment,
   getCategoriesBySport,
   getProductsByDiscipline,
-  getProductsByCategory,
   getBrandById,
   getLowestOfferPrice,
 } from "@/repositories";
@@ -50,7 +50,7 @@ export async function generateStaticParams() {
       params.push({ sport: sport.slug, segment: d.slug });
     }
     for (const c of getCategoriesBySport(sport.id)) {
-      if (getProductsByCategory(c.id).length === 0) continue;
+      if (countListableCategoryProducts(c.id, sport.id) === 0) continue;
       const canonical = getCategoryHref(c);
       if (canonical !== `/${sport.slug}/${c.pathSegment}`) continue;
       params.push({ sport: sport.slug, segment: c.pathSegment });
@@ -214,8 +214,8 @@ export default async function SportSegmentPage({
   const category = getCategoryByPathSegment(sport.id, segment);
   if (!category) notFound();
 
-  // Empty / future shells are not indexable surfaces
-  if (getProductsByCategory(category.id).length === 0) {
+  // Empty / held vertical shells are not public catalog surfaces
+  if (countListableCategoryProducts(category.id, sport.id) === 0) {
     notFound();
   }
 
@@ -257,7 +257,7 @@ export default async function SportSegmentPage({
     pathSegment: segment,
     searchParams: sp,
   });
-  if (!data) notFound();
+  if (!data || data.productCount === 0) notFound();
 
   return <CategoryPage data={data} />;
 }

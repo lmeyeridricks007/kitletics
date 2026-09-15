@@ -619,22 +619,43 @@ function accessoryCopy(p: Product): ReturnType<typeof ballCopy> {
 function shoeCopy(p: Product): ReturnType<typeof ballCopy> {
   const brand = brandLabel(p.brandId);
   const surface = spec(p, "surfaceCompatibility") || spec(p, "surface");
-  const outsole = spec(p, "outsole") || spec(p, "outsoleType");
+  const outsole =
+    spec(p, "courtOutsole") ||
+    spec(p, "outsole") ||
+    spec(p, "outsoleType");
+  const traction = spec(p, "tractionPattern");
   const lateral = spec(p, "lateralSupport") || spec(p, "lateralStability");
-  const cushion = spec(p, "cushioning") || spec(p, "cushioningLevel");
-  const fit = spec(p, "fit") || spec(p, "fitNotes");
+  const courtFeel = spec(p, "courtFeel");
+  const cushion =
+    spec(p, "cushioning") ||
+    spec(p, "cushioningLevel") ||
+    (courtFeel === "plush" ? "plush" : courtFeel === "connected" ? "firm/connected" : "");
+  const fit = spec(p, "fit") || spec(p, "fitNotes") || spec(p, "width");
   const weight = spec(p, "weightG") || spec(p, "weight");
   const dur = spec(p, "durability");
+  const upper = spec(p, "upper");
 
   const shortDescription = cleanSentence(
-    `${brand} ${p.name} — padel/court shoe${
-      surface && surface !== "unknown" ? ` for ${surface.replace(/-/g, " ")} use` : ""
-    }${outsole && outsole !== "unknown" ? ` with ${outsole} outsole cues` : ""}. Focus on lateral stops and court traction, not running-shoe mileage stories.`,
+    `${brand} ${p.name} is a padel court shoe${
+      surface && surface !== "unknown"
+        ? ` positioned for ${surface.replace(/-/g, " ")} play`
+        : ""
+    }${
+      outsole && outsole !== "unknown" ? ` with ${outsole} outsole cues` : ""
+    }${
+      lateral && lateral !== "unknown" ? ` and ${lateral} lateral-stability research` : ""
+    }. Built around split-steps and abrasive sand — not road-mileage foam stories.`,
   );
 
   const verdict = cleanSentence(
     surface === "padel-specific"
-      ? `I’d shortlist this when you want a padel-oriented court shoe and the published traction/support cues match your movement. Skip running shoes dressed up as court shoes.`
+      ? `I’d shortlist ${p.name} when you want a padel-oriented court shoe and the published traction/support cues (${[
+          outsole && outsole !== "unknown" && outsole,
+          lateral && lateral !== "unknown" && `lateral ${lateral}`,
+          courtFeel && courtFeel !== "unknown" && `${courtFeel} court feel`,
+        ]
+          .filter(Boolean)
+          .join(", ") || "court geometry"}) match how you move. Skip running shoes dressed up as court shoes.`
       : surface === "tennis-padel-crossover"
         ? `A tennis/padel crossover: workable on many padel clubs, but check outsole rules if your club is picky. Not the same as a padel-only mould.`
         : `Court shoe candidate — confirm surface compatibility before assuming padel-specific traction. Avoid treating it like a daily trainer.`,
@@ -644,20 +665,31 @@ function shoeCopy(p: Product): ReturnType<typeof ballCopy> {
     shortDescription,
     verdict,
     whatItIs: cleanSentence(
-      `${brand} ${p.name} is a court shoe aimed at padel or shared racket-sport use. ${
+      `${brand} ${p.name} sits in the padel/court-shoe range as a lateral-movement shoe${
         surface && surface !== "unknown"
-          ? `Surface compatibility research: ${surface.replace(/-/g, " ")}.`
-          : "Surface compatibility is not fully verified in-catalog — check the manufacturer PDP."
-      }`,
+          ? ` with ${surface.replace(/-/g, " ")} surface research`
+          : ""
+      }. ${
+        traction
+          ? `Traction pattern cue: ${traction}.`
+          : outsole && outsole !== "unknown"
+            ? `Outsole family cue: ${outsole}.`
+            : "Confirm the outsole family on the manufacturer or specialist PDP before club play."
+      } ${
+        upper ? `Upper construction cue: ${upper}.` : ""
+      }`.trim(),
     ),
     whoItsFor: cleanSentence(
-      "Players who need lateral stability and court grip for split-steps, not long-run cushioning stacks.",
+      lateral === "high"
+        ? "Players who plant hard on split-steps and want published high lateral-stability cues more than max stack height."
+        : "Players who need court grip and sideways support for padel movement, not long-run cushioning stacks.",
     ),
     whyChooseIt: cleanSentence(
       `Choose it when published cues (${[
         outsole && outsole !== "unknown" && outsole,
+        traction,
         lateral && lateral !== "unknown" && `lateral ${lateral}`,
-        cushion && cushion !== "unknown" && `${cushion} cushioning`,
+        cushion && cushion !== "unknown" && `${cushion} cushioning/feel`,
       ]
         .filter(Boolean)
         .join(", ") || "court geometry"}) beat whatever running shoe you currently slide in.`,
@@ -669,24 +701,35 @@ function shoeCopy(p: Product): ReturnType<typeof ballCopy> {
       lateral && lateral !== "unknown"
         ? `Lateral support cue: ${lateral}.`
         : "Built for side-to-side court movement.",
-      weight ? `Published weight cue: ${weight} g.` : "Weight varies by size — check the size chart.",
-    ],
+      courtFeel && courtFeel !== "unknown"
+        ? `Court-feel cue: ${courtFeel}.`
+        : weight
+          ? `Published weight cue: ${weight} g.`
+          : "Weight varies by size — check the size chart.",
+      dur && dur !== "unknown" ? `Durability cue: ${dur}.` : "",
+    ].filter(Boolean),
     tradeoffsNarrative: [
-      cushion === "plush"
+      cushion === "plush" || courtFeel === "plush"
         ? "Plush cushioning can feel less connected on sharp cuts."
-        : "Connected court shoes can feel firm if you expect max stack height.",
+        : courtFeel === "connected"
+          ? "Connected court feel can read firm if you expect max stack height."
+          : "Connected court shoes can feel firm if you expect max stack height.",
       dur === "low"
         ? "Durability cue is modest — expect outsole wear on abrasive sand."
-        : "Abrasive padel sand still eats any outsole eventually.",
+        : "Abrasive padel sand still eats any outsole eventually — plan replacement cycles.",
     ],
     chooseInstead: cleanSentence(
       surface === "tennis-padel-crossover"
         ? "If your club demands padel-specific soles, pick a padel-labelled model instead."
-        : "If you need max cushioning for knee comfort, compare plush court models — don’t default to road shoes.",
+        : courtFeel === "connected"
+          ? "If you want a plush landing first, compare softer court models rather than defaulting to road shoes."
+          : "If you need max cushioning for knee comfort, compare plush court models — don’t default to road shoes.",
     ),
     bestFor: [
       "Padel lateral movement and split-steps",
-      outsole && outsole !== "unknown" ? `${outsole} outsole contexts` : "Indoor/outdoor club courts (confirm rules)",
+      outsole && outsole !== "unknown"
+        ? `${outsole} outsole contexts`
+        : "Indoor/outdoor club courts (confirm rules)",
     ],
     notIdealFor: [
       "Road running and gym mileage",
@@ -697,11 +740,15 @@ function shoeCopy(p: Product): ReturnType<typeof ballCopy> {
     buyIf: [
       cleanSentence(
         `You want a ${brand} court shoe for padel movement${
-          surface && surface !== "unknown" ? ` with ${surface.replace(/-/g, " ")} positioning` : ""
+          surface && surface !== "unknown"
+            ? ` with ${surface.replace(/-/g, " ")} positioning`
+            : ""
+        }${
+          lateral && lateral !== "unknown" ? ` and ${lateral} lateral-stability cues` : ""
         }.`,
       ),
       fit
-        ? `The published fit notes (${fit}) match how you lace court shoes.`
+        ? `The published fit/width notes (${fit}) match how you lace court shoes.`
         : "You can try size and width in a store or accept a clear retailer return policy.",
     ],
     skipIf: [

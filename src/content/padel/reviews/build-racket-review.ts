@@ -22,6 +22,33 @@ const SCORE_LABEL: Record<PadelDecisionKey, string> = {
   spin: "Spin",
 };
 
+/** Short buyer-facing gauge note — never methodology labels. */
+function gaugeNoteFromReasoning(reasoning: string, key: PadelDecisionKey): string {
+  const cleaned = reasoning
+    .replace(/\b(inferred from[^.]*|manufacturer claim[^.]*|not a lab[^.]*|we do not treat[^.]*\.?)/gi, "")
+    .replace(/\s+/g, " ")
+    .trim();
+  const first =
+    cleaned.split(/(?<=\.)\s+/).find((s) => s.trim().length > 12) ?? cleaned;
+  let note = first.replace(/\.$/, "").trim();
+  if (note.length > 90) {
+    note = `${note.slice(0, 87).replace(/\s+\S*$/, "")}…`;
+  }
+  if (note.length < 12) {
+    const fallback: Record<PadelDecisionKey, string> = {
+      power: "Pace comes from mould and face, not marketing watts",
+      control: "Placement and repeatable contact for its mould class",
+      forgiveness: "How playable off-centre hits stay for this shape",
+      maneuverability: "How quickly the tip recovers between balls",
+      comfort: "Arm-friendly contact for this core and weight band",
+      stability: "How planted the platform feels through the hit",
+      spin: "Texture and face help when your brush is already clean",
+    };
+    return fallback[key];
+  }
+  return note;
+}
+
 function specLine(draft: RacketDraft): string {
   const s = draft.specifications;
   const bits = [
@@ -281,7 +308,7 @@ export function racketReviewFromDraft(input: {
       label: SCORE_LABEL[key as PadelDecisionKey] ?? key,
       score: row.score,
       max: 100,
-      note: row.kind === "SPEC_INFERENCE" ? "Inferred from specs" : "Manufacturer sheet",
+      note: gaugeNoteFromReasoning(row.reasoning, key as PadelDecisionKey),
     }),
   );
   scores.push({
@@ -297,7 +324,7 @@ export function racketReviewFromDraft(input: {
         ) - 4,
       ),
     ),
-    note: "Street price lives in offers — not a popularity rank",
+    note: `Worth it when the ${draft.name} mould matches your week — check live street price`,
   });
 
   const overall = Math.round(

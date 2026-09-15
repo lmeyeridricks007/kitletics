@@ -22,3 +22,10 @@ export type {
   ActiveFilterChip,
 } from "@/lib/catalog/types";
 export type { AssembledCategoryPage } from "@/lib/catalog/assemble";
+export {
+  countListableCategoryProducts,
+  countListableSportProducts,
+  isListableCatalogProduct,
+  sportHasPublicCatalog,
+  isHeldSportHub,
+} from "@/lib/catalog/listable-products";

@@ -171,38 +171,46 @@ export function SportHubBestStrip({
   href,
   products,
   finder,
+  hideEmptyProductColumn = false,
 }: {
   title: string;
   href: string;
   products: SportHubProductCard[];
   finder?: FinderData;
+  /** When true and products are empty, only render the finder (no blank left column). */
+  hideEmptyProductColumn?: boolean;
 }) {
   const productCols =
     products.length >= 5 ? "lg:grid-cols-5" : "lg:grid-cols-4";
+  const showProducts = !(hideEmptyProductColumn && products.length === 0);
 
   return (
     <div
       className={
-        finder
+        finder && showProducts
           ? "grid gap-6 lg:grid-cols-[minmax(0,1.7fr)_minmax(280px,0.7fr)]"
-          : undefined
+          : finder
+            ? "mx-auto max-w-md"
+            : undefined
       }
     >
-      <div className="min-w-0">
-        <div className="mb-5 flex items-end justify-between gap-4">
-          <h2 className="heading-section">{title}</h2>
-          <Link href={href} className="link-accent shrink-0">
-            View all best picks →
-          </Link>
+      {showProducts ? (
+        <div className="min-w-0">
+          <div className="mb-5 flex items-end justify-between gap-4">
+            <h2 className="heading-section">{title}</h2>
+            <Link href={href} className="link-accent shrink-0">
+              View all best picks →
+            </Link>
+          </div>
+          <div
+            className={`flex gap-3 overflow-x-auto pb-1 lg:grid lg:overflow-visible ${productCols} [-ms-overflow-style:none] [scrollbar-width:none] [&::-webkit-scrollbar]:hidden`}
+          >
+            {products.map((product) => (
+              <ProductCard key={product.id} product={product} />
+            ))}
+          </div>
         </div>
-        <div
-          className={`flex gap-3 overflow-x-auto pb-1 lg:grid lg:overflow-visible ${productCols} [-ms-overflow-style:none] [scrollbar-width:none] [&::-webkit-scrollbar]:hidden`}
-        >
-          {products.map((product) => (
-            <ProductCard key={product.id} product={product} />
-          ))}
-        </div>
-      </div>
+      ) : null}
       {finder ? <InlineFinder finder={finder} /> : null}
     </div>
   );

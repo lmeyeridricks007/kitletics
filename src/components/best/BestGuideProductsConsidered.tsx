@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import { Fragment } from "react";
 import { Container } from "@/components/layout/Container";
 import { GuideEvaluatedProductsDisclosure } from "@/components/best/GuideEvaluatedProductsDisclosure";
 import type { BestGuidePageData } from "@/lib/best/get-best-guide-page-data";
@@ -77,7 +78,8 @@ export function BestGuideProductsConsidered({
         </p>
 
         <GuideSelectionFunnel
-          evaluated={coverage.consideredCount}
+          eligible={coverage.candidateUniverseCount}
+          considered={coverage.consideredCount}
           shortlisted={coverage.shortlistedCount}
           recommended={coverage.recommendedCount}
           productNoun={singular}
@@ -213,55 +215,71 @@ export function BestGuideProductsConsidered({
 }
 
 function GuideSelectionFunnel({
-  evaluated,
+  eligible,
+  considered,
   shortlisted,
   recommended,
   productNoun,
 }: {
-  evaluated: number;
+  eligible: number;
+  considered: number;
   shortlisted: number;
   recommended: number;
   productNoun: string;
 }) {
+  const steps = [
+    {
+      count: eligible > 0 ? eligible : considered,
+      label: "Eligible",
+      detail: `Current ${productNoun} in catalog`,
+      emphasize: false,
+    },
+    {
+      count: considered,
+      label: "Considered",
+      detail: "Reviewed against this guide’s job",
+      emphasize: false,
+    },
+    {
+      count: shortlisted,
+      label: "Shortlisted",
+      detail: "Passed our core criteria",
+      emphasize: false,
+    },
+    {
+      count: recommended,
+      label: "Recommended",
+      detail: "Distinct picks worth buying for",
+      emphasize: true,
+    },
+  ];
+
   return (
     <div
       className="mt-6"
       role="group"
-      aria-label={`${evaluated} evaluated, ${shortlisted} shortlisted, ${recommended} recommended`}
+      aria-label={`${steps[0]!.count} eligible, ${considered} considered, ${shortlisted} shortlisted, ${recommended} recommended`}
     >
-      <ol className="grid gap-3 sm:grid-cols-[1fr_auto_1fr_auto_1fr] sm:items-stretch">
-        <FunnelStep
-          count={evaluated}
-          label="Evaluated"
-          detail={`Current eligible ${productNoun}s`}
-          emphasize={false}
-        />
-        <li
-          className="hidden items-center justify-center text-subtle sm:flex"
-          aria-hidden
-        >
-          →
-        </li>
-        <FunnelStep
-          count={shortlisted}
-          label="Shortlisted"
-          detail="Passed our core criteria"
-          emphasize={false}
-        />
-        <li
-          className="hidden items-center justify-center text-subtle sm:flex"
-          aria-hidden
-        >
-          →
-        </li>
-        <FunnelStep
-          count={recommended}
-          label="Recommended"
-          detail="Distinct picks worth considering"
-          emphasize
-        />
+      <ol className="grid gap-3 sm:grid-cols-[1fr_auto_1fr_auto_1fr_auto_1fr] sm:items-stretch">
+        {steps.map((step, index) => (
+          <Fragment key={step.label}>
+            {index > 0 ? (
+              <li
+                className="hidden items-center justify-center text-subtle sm:flex"
+                aria-hidden
+              >
+                →
+              </li>
+            ) : null}
+            <FunnelStep
+              count={step.count}
+              label={step.label}
+              detail={step.detail}
+              emphasize={step.emphasize}
+            />
+          </Fragment>
+        ))}
       </ol>
-      {/* Screen-reader friendly linear summary already via aria-label */}
     </div>
   );
 }

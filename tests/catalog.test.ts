@@ -330,3 +330,64 @@ describe("Running Shoes catalog", () => {
     }
   });
 });
+
+describe("Padel rackets catalog", () => {
+  it("assembles /padel/rackets with matching header and grid counts", () => {
+    const page = assembleCategoryPage({
+      sportSlug: "padel",
+      pathSegment: "rackets",
+      options: { isDev: false },
+    });
+    expect(page).toBeTruthy();
+    expect(page!.basePath).toBe("/padel/rackets");
+    expect(page!.catalog.total).toBeGreaterThan(0);
+    expect(page!.productCount).toBe(page!.catalog.total);
+    expect(page!.config.hero.primaryCta.label).not.toMatch(/^Browse /);
+  });
+
+  it("does not zero the catalog on shoe-style weight= query params", () => {
+    const page = assembleCategoryPage({
+      sportSlug: "padel",
+      pathSegment: "rackets",
+      searchParams: { weight: "light" },
+      options: { isDev: false },
+    });
+    expect(page!.catalog.total).toBeGreaterThan(0);
+    expect(page!.catalog.total).toBe(page!.productCount);
+  });
+
+  it("filters padel frames by weightMin buckets", () => {
+    const result = getCatalogProducts(
+      {
+        sportId: "sport-padel",
+        categoryId: "cat-padel-rackets",
+        filters: {
+          type: [],
+          brand: [],
+          specs: { weightMin: ["350-365"] },
+          useCase: [],
+          sort: "recommended",
+        },
+        unpaginated: true,
+      },
+      { isDev: false },
+    );
+    expect(result.total).toBeGreaterThan(0);
+    expect(
+      result.availableFilters.some(
+        (f) => f.key === "weightMin" && f.options.length > 0,
+      ),
+    ).toBe(true);
+  });
+
+  it("does not assemble empty held-vertical tennis catalogs", () => {
+    const page = assembleCategoryPage({
+      sportSlug: "tennis",
+      pathSegment: "rackets",
+      options: { isDev: false },
+    });
+    expect(page).toBeTruthy();
+    expect(page!.productCount).toBe(0);
+    expect(page!.catalog.total).toBe(0);
+  });
+});

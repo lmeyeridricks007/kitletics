@@ -24,6 +24,62 @@ type PadelKnowledgeSpec = {
   browseHref: string;
 };
 
+/** Dedicated editorial heroes where we have authentic padel guide photography. */
+const PADEL_GUIDE_HEROES: Record<string, { src: string; alt: string }> = {
+  "how-to-choose-a-padel-racket": {
+    src: "/images/padel/guides/choose-racket.jpg",
+    alt: "Padel racket selection — shapes and frames for choosing a racket",
+  },
+  "padel-racket-shapes-explained": {
+    src: "/images/padel/guides/choose-racket.jpg",
+    alt: "Padel racket shapes for round, teardrop and diamond buying decisions",
+  },
+  "round-vs-teardrop-vs-diamond-padel-rackets": {
+    src: "/images/padel/guides/choose-racket.jpg",
+    alt: "Comparing round, teardrop and diamond padel racket silhouettes",
+  },
+  "padel-racket-balance-explained": {
+    src: "/images/padel/guides/choose-racket.jpg",
+    alt: "Padel rackets illustrating balance and handling differences",
+  },
+  "padel-racket-weight-explained": {
+    src: "/images/padel/guides/choose-racket.jpg",
+    alt: "Padel rackets for comparing published weight bands",
+  },
+  "how-to-choose-padel-shoes": {
+    src: "/images/padel/guides/choose-shoes.jpg",
+    alt: "Padel court shoes for grip and lateral stability decisions",
+  },
+  "padel-vs-tennis-shoes": {
+    src: "/images/padel/guides/choose-shoes.jpg",
+    alt: "Court shoes compared for padel vs tennis use",
+  },
+  "padel-shoe-outsoles-explained": {
+    src: "/images/padel/guides/choose-shoes.jpg",
+    alt: "Padel shoe outsoles for clay and hard-court grip",
+  },
+  "padel-grips-overgrips-explained": {
+    src: "/images/padel/guides/grips.jpg",
+    alt: "Padel grips and overgrips for tack versus absorption",
+  },
+  "padel-grip-vs-overgrip": {
+    src: "/images/padel/guides/grips.jpg",
+    alt: "Base grip versus overgrip layers on a padel handle",
+  },
+  "how-often-should-you-replace-a-padel-overgrip": {
+    src: "/images/padel/guides/grips.jpg",
+    alt: "Padel overgrips showing when to replace a worn wrap",
+  },
+  "beginner-padel-gear-guide": {
+    src: "/images/padel/guides/choose-racket.jpg",
+    alt: "Beginner padel gear — forgiving racket and court kit",
+  },
+  "complete-padel-gear-checklist": {
+    src: "/images/padel/guides/choose-racket.jpg",
+    alt: "Complete padel gear checklist — racket, shoes, bag and consumables",
+  },
+};
+
 const PADEL_KNOWLEDGE_SPECS: PadelKnowledgeSpec[] = [
   {
     slug: "how-to-choose-a-padel-racket",
@@ -297,17 +353,24 @@ function makePlan(spec: PadelKnowledgeSpec): CompactExplainerPlan {
     tradeoff: u.exampleTradeoffs[index] ?? "Verify fit and the complete setup.",
   }));
 
+  const dedicatedHero = PADEL_GUIDE_HEROES[spec.slug];
+  const hero = dedicatedHero
+    ? {
+        heroImageSrc: dedicatedHero.src,
+        heroImageAlt: dedicatedHero.alt,
+      }
+    : resolveHeroFromProductIds(
+        spec.products,
+        "/images/padel/hero.jpg",
+        `Padel equipment: ${spec.subject}`,
+      );
+
   return {
     slug: spec.slug,
     displayTitle: spec.title,
     deck: u.deck,
     eyebrow: "Buying Guide",
-    ...resolveHeroFromProductIds(
-      spec.products,
-      "/images/padel/hero.jpg",
-      `Padel equipment: ${spec.subject}`,
-    ),
-    quickAnswerBullets: u.quickAnswerBullets,
+    ...hero,    quickAnswerBullets: u.quickAnswerBullets,
     methodologyNote:
       "Needs-research guide: manufacturer specifications and normalized catalog fields establish the comparison. Unverified marketing claims are treated as claims rather than measured performance. Catalog examples are roles, not affiliate rankings.",
     finder: spec.tool
@@ -324,6 +387,10 @@ function makePlan(spec: PadelKnowledgeSpec): CompactExplainerPlan {
         href: toolHref,
       },
       { label: "See related recommendations →", href: spec.bestHref },
+      {
+        label: "Browse the padel catalog →",
+        href: spec.browseHref,
+      },
     ],
     definition: {
       title: u.definitionTitle,

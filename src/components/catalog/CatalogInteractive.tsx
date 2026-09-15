@@ -759,29 +759,38 @@ function EmptyFilterState({
   onClear: () => void;
   finderHref?: string;
 }) {
+  const hasChips = activeFilters.length > 0;
   return (
     <div className="rounded-xl border border-dashed border-border bg-surface-muted/40 px-6 py-12 text-center">
       <p className="font-display text-lg font-semibold text-foreground">
-        No products match all these filters.
+        {hasChips
+          ? "No products match all these filters."
+          : "No products available in this catalog yet."}
       </p>
-      <p className="mt-2 text-sm text-muted">Try removing:</p>
-      <div className="mt-4 flex flex-wrap justify-center gap-2">
-        {activeFilters.map((chip) => (
-          <button
-            key={chip.id}
-            type="button"
-            onClick={() => onRemove(chip.group, chip.value)}
-            className="inline-flex items-center gap-1.5 rounded-md border border-border bg-surface px-2.5 py-1.5 text-xs font-medium"
-          >
-            {chip.label}
-            <X className="size-3.5" aria-hidden />
-          </button>
-        ))}
-      </div>
+      {hasChips ? (
+        <>
+          <p className="mt-2 text-sm text-muted">Try removing:</p>
+          <div className="mt-4 flex flex-wrap justify-center gap-2">
+            {activeFilters.map((chip) => (
+              <button
+                key={chip.id}
+                type="button"
+                onClick={() => onRemove(chip.group, chip.value)}
+                className="inline-flex items-center gap-1.5 rounded-md border border-border bg-surface px-2.5 py-1.5 text-xs font-medium"
+              >
+                {chip.label}
+                <X className="size-3.5" aria-hidden />
+              </button>
+            ))}
+          </div>
+        </>
+      ) : null}
       <div className="mt-6 flex flex-wrap justify-center gap-3">
-        <Button variant="outline" onClick={onClear}>
-          Clear Filters
-        </Button>
+        {hasChips ? (
+          <Button variant="outline" onClick={onClear}>
+            Clear Filters
+          </Button>
+        ) : null}
         {finderHref && <ButtonLink href={finderHref}>Use Finder</ButtonLink>}
       </div>
     </div>

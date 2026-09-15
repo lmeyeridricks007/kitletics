@@ -17,7 +17,6 @@ import {
   getSportGraph,
   getBrandById,
   getLowestOfferPrice,
-  getProductsByCategory,
 } from "@/repositories";
 import { sportMetadata } from "@/lib/seo/metadata";
 import { getCategoryHref } from "@/lib/navigation/category-href";
@@ -29,8 +28,16 @@ import { Section } from "@/components/layout/Section";
 import { CategoryCard } from "@/components/cards/CategoryCard";
 import { ToolCard } from "@/components/cards/ToolCard";
 import { ProductCard } from "@/components/cards/ProductCard";
-import { getLaunchEligibility } from "@/domain/launch";
+import {
+  getLaunchEligibility,
+  isLaunchListable,
+} from "@/domain/launch";
 import { withLaunchRobots } from "@/lib/launch/apply-eligibility";
+import {
+  countListableCategoryProducts,
+  isListableCatalogProduct,
+  sportHasPublicCatalog,
+} from "@/lib/catalog/listable-products";
 
 interface PageProps {
   params: Promise<{ sport: string }>;
@@ -114,8 +121,54 @@ export default async function SportPage({ params, searchParams }: PageProps) {
     return <SportHub data={hub} />;
   }
 
-  // Generic live sport fallback (future sports before they get a hub config)
+  // Held racket verticals (tennis / pickleball / …) — no fake empty catalogs
+  if (!sportHasPublicCatalog(sport.id)) {
+    return <ComingSoonSportHub sportSlug={slug} />;
+  }
+
   return <GenericLiveSportHub sportSlug={slug} />;
+}
+
+function ComingSoonSportHub({ sportSlug }: { sportSlug: string }) {
+  const sport = getSportBySlug(sportSlug);
+  if (!sport) notFound();
+
+  return (
+    <>
+      <SportPageHeader
+        breadcrumbs={resolveBreadcrumbs({ type: "sport", sportSlug })}
+        eyebrow={sport.name}
+        title={`${sport.name} gear — coming soon`}
+        description={`${sport.name} is on the Kitletics roadmap. Padel is live today with rackets, shoes, bags and finders.`}
+      />
+      <Section
+        eyebrow="Live now"
+        title="Explore Padel gear"
+        description="Full racket catalog, Best picks and the Padel Racket Finder."
+      >
+        <div className="flex flex-wrap gap-3">
+          <Link
+            href="/padel"
+            className="rounded-xl border border-border bg-surface px-5 py-3 text-sm font-semibold text-foreground transition-colors hover:border-accent"
+          >
+            Padel hub →
+          </Link>
+          <Link
+            href="/padel/rackets"
+            className="rounded-xl border border-border bg-surface px-5 py-3 text-sm font-semibold text-foreground transition-colors hover:border-accent"
+          >
+            Padel rackets →
+          </Link>
+          <Link
+            href="/racket"
+            className="rounded-xl border border-border bg-surface px-5 py-3 text-sm font-medium text-muted transition-colors hover:border-accent"
+          >
+            All racket sports
+          </Link>
+        </div>
+      </Section>
+    </>
+  );
 }
 
 async function GenericLiveSportHub({ sportSlug }: { sportSlug: string }) {
@@ -126,8 +179,12 @@ async function GenericLiveSportHub({ sportSlug }: { sportSlug: string }) {
   if (!graph) notFound();
 
   const disciplines = getDisciplinesBySport(sport.id);
-  const categories = getCategoriesBySport(sport.id);
-  const products = graph.products.slice(0, 8);
+  const categories = getCategoriesBySport(sport.id).filter(
+    (category) => countListableCategoryProducts(category.id, sport.id) > 0,
+  );
+  const products = graph.products
+    .filter((product) => isListableCatalogProduct(product))
+    .slice(0, 8);
 
   return (
     <>
@@ -174,20 +231,22 @@ async function GenericLiveSportHub({ sportSlug }: { sportSlug: string }) {
         >
           <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
             {categories
-              .filter((category) => getProductsByCategory(category.id).length > 0)
               .filter(
                 (category) =>
                   getCategoryHref(category) ===
                   `/${sport.slug}/${category.pathSegment}`,
               )
               .map((category) => (
-              <CategoryCard
-                key={category.id}
-                category={category}
-                href={getCategoryHref(category)}
-                productCount={getProductsByCategory(category.id).length}
-              />
-            ))}
+                <CategoryCard
+                  key={category.id}
+                  category={category}
+                  href={getCategoryHref(category)}
+                  productCount={countListableCategoryProducts(
+                    category.id,
+                    sport.id,
+                  )}
+                />
+              ))}
           </div>
         </Section>
       )}
@@ -210,12 +269,19 @@ async function GenericLiveSportHub({ sportSlug }: { sportSlug: string }) {
       {graph.tools.length > 0 && (
         <Section muted eyebrow="Tools" title={`${sport.name} tools`}>
           <div className="grid gap-4 sm:grid-cols-2">
-            {graph.tools.map((tool) => (
-              <ToolCard key={tool.id} tool={tool} />
-            ))}
+            {graph.tools
+              .filter((tool) =>
+                isLaunchListable(
+                  getLaunchEligibility({ kind: "tool", entity: tool }),
+                ),
+              )
+              .map((tool) => (
+                <ToolCard key={tool.id} tool={tool} />
+              ))}
           </div>
         </Section>
       )}
     </>
   );
 }
+

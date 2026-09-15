@@ -1,0 +1,236 @@
+[
+  {
+    "key": "hub-padel",
+    "viewport": "desktop",
+    "file": "hub-padel-desktop.png",
+    "status": 200,
+    "h1": "PADEL GEAR",
+    "imgApprox": 61,
+    "label": "Padel hub (after)"
+  },
+  {
+    "key": "hub-padel",
+    "viewport": "mobile",
+    "file": "hub-padel-mobile.png",
+    "status": 200,
+    "h1": "PADEL GEAR",
+    "imgApprox": 61,
+    "label": "Padel hub (after)"
+  },
+  {
+    "key": "hub-running",
+    "viewport": "desktop",
+    "file": "hub-running-desktop.png",
+    "status": 200,
+    "h1": "RUNNING GEAR",
+    "imgApprox": 65,
+    "label": "Running hub (benchmark)"
+  },
+  {
+    "key": "hub-running",
+    "viewport": "mobile",
+    "file": "hub-running-mobile.png",
+    "status": 200,
+    "h1": "RUNNING GEAR",
+    "imgApprox": 65,
+    "label": "Running hub (benchmark)"
+  },
+  {
+    "key": "cat-rackets",
+    "viewport": "desktop",
+    "file": "cat-rackets-desktop.png",
+    "status": 200,
+    "h1": "Padel Rackets",
+    "imgApprox": 84,
+    "label": "Padel rackets category (after)"
+  },
+  {
+    "key": "cat-rackets",
+    "viewport": "mobile",
+    "file": "cat-rackets-mobile.png",
+    "status": 200,
+    "h1": "Padel Rackets",
+    "imgApprox": 84,
+    "label": "Padel rackets category (after)"
+  },
+  {
+    "key": "cat-shoes-running",
+    "viewport": "desktop",
+    "file": "cat-shoes-running-desktop.png",
+    "status": 200,
+    "h1": "Running Shoes",
+    "imgApprox": 57,
+    "label": "Running shoes category (benchmark)"
+  },
+  {
+    "key": "cat-shoes-running",
+    "viewport": "mobile",
+    "file": "cat-shoes-running-mobile.png",
+    "status": 200,
+    "h1": "Running Shoes",
+    "imgApprox": 57,
+    "label": "Running shoes category (benchmark)"
+  },
+  {
+    "key": "cat-shoes-padel",
+    "viewport": "desktop",
+    "file": "cat-shoes-padel-desktop.png",
+    "status": 200,
+    "h1": "Padel Shoes",
+    "imgApprox": 44,
+    "label": "Padel shoes category (after)"
+  },
+  {
+    "key": "cat-shoes-padel",
+    "viewport": "mobile",
+    "file": "cat-shoes-padel-mobile.png",
+    "status": 200,
+    "h1": "Padel Shoes",
+    "imgApprox": 44,
+    "label": "Padel shoes category (after)"
+  },
+  {
+    "key": "cat-grips",
+    "viewport": "desktop",
+    "file": "cat-grips-desktop.png",
+    "status": 200,
+    "h1": "Padel Grips & Overgrips",
+    "imgApprox": 45,
+    "label": "Padel grips category (after)"
+  },
+  {
+    "key": "cat-grips",
+    "viewport": "mobile",
+    "file": "cat-grips-mobile.png",
+    "status": 200,
+    "h1": "Padel Grips & Overgrips",
+    "imgApprox": 45,
+    "label": "Padel grips category (after)"
+  },
+  {
+    "key": "brands-padel",
+    "viewport": "desktop",
+    "file": "brands-padel-desktop.png",
+    "status": 200,
+    "h1": "Browse padel brands",
+    "imgApprox": 14,
+    "label": "Padel brands (after)"
+  },
+  {
+    "key": "brands-padel",
+    "viewport": "mobile",
+    "file": "brands-padel-mobile.png",
+    "status": 200,
+    "h1": "Browse padel brands",
+    "imgApprox": 14,
+    "label": "Padel brands (after)"
+  },
+  {
+    "key": "brands-running",
+    "viewport": "desktop",
+    "file": "brands-running-desktop.png",
+    "status": 200,
+    "h1": "Browse shoe brands",
+    "imgApprox": 24,
+    "label": "Running brands (benchmark)"
+  },
+  {
+    "key": "brands-running",
+    "viewport": "mobile",
+    "file": "brands-running-mobile.png",
+    "status": 200,
+    "h1": "Browse shoe brands",
+    "imgApprox": 24,
+    "label": "Running brands (benchmark)"
+  },
+  {
+    "key": "compare-padel",
+    "viewport": "desktop",
+    "file": "compare-padel-desktop.png",
+    "status": 200,
+    "h1": "Compare Padel Rackets",
+    "imgApprox": 16,
+    "label": "Padel compare entry (after)"
+  },
+  {
+    "key": "compare-padel",
+    "viewport": "mobile",
+    "file": "compare-padel-mobile.png",
+    "status": 200,
+    "h1": "Compare Padel Rackets",
+    "imgApprox": 16,
+    "label": "Padel compare entry (after)"
+  },
+  {
+    "key": "compare-running",
+    "viewport": "desktop",
+    "file": "compare-running-desktop.png",
+    "status": 200,
+    "h1": "Compare Running Shoes",
+    "imgApprox": 16,
+    "label": "Running compare entry (benchmark)"
+  },
+  {
+    "key": "compare-running",
+    "viewport": "mobile",
+    "file": "compare-running-mobile.png",
+    "status": 200,
+    "h1": "Compare Running Shoes",
+    "imgApprox": 16,
+    "label": "Running compare entry (benchmark)"
+  },
+  {
+    "key": "finder-padel",
+    "viewport": "desktop",
+    "file": "finder-padel-desktop.png",
+    "status": 200,
+    "h1": "Find the right padel racket for your game",
+    "imgApprox": 3,
+    "label": "Padel finder (after)"
+  },
+  {
+    "key": "finder-padel",
+    "viewport": "mobile",
+    "file": "finder-padel-mobile.png",
+    "status": 200,
+    "h1": "Find the right padel racket for your game",
+    "imgApprox": 3,
+    "label": "Padel finder (after)"
+  },
+  {
+    "key": "db-padel",
+    "viewport": "desktop",
+    "file": "db-padel-desktop.png",
+    "status": 200,
+    "h1": "Padel Racket Database",
+    "imgApprox": 57,
+    "label": "Padel racket database (after)"
+  },
+  {
+    "key": "db-padel",
+    "viewport": "mobile",
+    "file": "db-padel-mobile.png",
+    "status": 200,
+    "h1": "Padel Racket Database",
+    "imgApprox": 57,
+    "label": "Padel racket database (after)"
+  },
+  {
+    "key": "collections",
+    "viewport": "desktop",
+    "file": "collections-desktop.png",
+    "status": 200,
+    "h1": "Racket families with verified kit links",
+    "imgApprox": 0,
+    "label": "Padel collections (after)"
+  },
+  {
+    "key": "collections",
+    "viewport": "mobile",
+    "file": "collections-mobile.png",
+    "status": 200,
+    "h1": "Racket families with verified kit links",
+    "imgApprox": 0,
+    "label": "Padel collections (after)"
+  }
+]

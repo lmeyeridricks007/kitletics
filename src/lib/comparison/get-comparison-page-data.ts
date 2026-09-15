@@ -475,6 +475,7 @@ function assembleFromProducts(input: {
       if (seen.has(alt.alternativeProductId)) continue;
       const altProduct = getProductById(alt.alternativeProductId, options);
       if (!altProduct || altProduct.categoryId !== categoryId) continue;
+      if (!getPrimaryProductMedia(altProduct)) continue;
       seen.add(altProduct.id);
       alternatives.push({
         product: altProduct,
@@ -490,6 +491,7 @@ function assembleFromProducts(input: {
       if (seen.has(id)) continue;
       const altProduct = getProductById(id, options);
       if (!altProduct || altProduct.categoryId !== categoryId) continue;
+      if (!getPrimaryProductMedia(altProduct)) continue;
       seen.add(id);
       alternatives.push({
         product: altProduct,
@@ -735,6 +737,7 @@ export function getDynamicComparisonData(
     const bySlug = getProductBySlug(ref, options);
     const byId = bySlug ?? getProductById(ref, options);
     if (!byId) return undefined;
+    if (!getPrimaryProductMedia(byId)) return undefined;
     products.push(byId);
   }
 
@@ -803,6 +806,12 @@ export function getFeaturedComparisonsByCategory(
     const products = cmp.productIds
       .map((id) => getProductById(id, options))
       .filter((p): p is Product => Boolean(p));
+    if (
+      products.length !== cmp.productIds.length ||
+      products.some((p) => !getPrimaryProductMedia(p))
+    ) {
+      continue;
+    }
     const categoryId =
       cmp.categoryId ?? products[0]?.categoryId ?? "unknown";
     const list = byCat.get(categoryId) ?? [];

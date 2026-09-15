@@ -43,7 +43,7 @@ export function UseCaseRecommendationHero({
   } = data;
 
   const coverageLine = coverage.hasAuthenticConsideredSet
-    ? `${coverage.consideredCount} evaluated · ${coverage.shortlistedCount} shortlisted · ${coverage.recommendedCount} recommended`
+    ? `${coverage.candidateUniverseCount || coverage.consideredCount} eligible · ${coverage.consideredCount} considered · ${coverage.shortlistedCount} shortlisted · ${coverage.recommendedCount} recommended`
     : undefined;
 
   return (

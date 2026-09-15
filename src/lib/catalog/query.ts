@@ -53,6 +53,14 @@ const DEFAULT_WEIGHT_BUCKETS = [
   { id: "300+", label: "300 g+", min: 300, max: undefined },
 ];
 
+/** Padel frames publish weightMin (~345–385 g) — shoe gram buckets must not apply. */
+const PADEL_RACKET_WEIGHT_MIN_BUCKETS = [
+  { id: "under-350", label: "Under 350 g", min: undefined, max: 349 },
+  { id: "350-365", label: "350–365 g", min: 350, max: 365 },
+  { id: "365-375", label: "365–375 g", min: 365, max: 375 },
+  { id: "375-plus", label: "375 g+", min: 375, max: undefined },
+];
+
 function asNumber(value: SpecValue | undefined): number | undefined {
   return typeof value === "number" ? value : undefined;
 }
@@ -344,6 +352,13 @@ export function getCatalogProducts(
     drop: DEFAULT_DROP_BUCKETS,
     weight: DEFAULT_WEIGHT_BUCKETS,
   };
+
+  if (input.categoryId === "cat-padel-rackets") {
+    // Shoe-style `weight=` query aliases are not padel specs — drop them so
+    // they cannot zero the catalog. Expose weightMin buckets instead.
+    delete filters.specs.weight;
+    buckets.weightMin = PADEL_RACKET_WEIGHT_MIN_BUCKETS;
+  }
 
   const priceByProductId: Record<string, { price: number; currency: string }> =
     {};

@@ -7,6 +7,7 @@ import {
   type ProductPageCategoryConfig,
   type SpecGroupId,
 } from "@/lib/product/category-config";
+import { getProductDetailConfig } from "@/lib/product/product-detail-config";
 import { formatPublicSpecDisplayLabel, formatPublicSpecValueToken, publicSpecRowKey } from "@/lib/specs/public-label";
 import { resolveBreadcrumbs } from "@/lib/navigation/breadcrumbs";
 import {
@@ -591,14 +592,52 @@ function buildHeroTags(
     if (!tags.includes(cleaned)) tags.push(cleaned);
     if (tags.length >= 3) break;
   }
-  const drop = featuredSpecs.find((s) => s.key === "drop");
-  if (drop) tags.push(`${drop.value}mm Drop`);
-  const weight = featuredSpecs.find((s) => s.key === "weight");
-  if (weight) {
-    const unit = weight.unit ?? "g";
-    // Preserve sample context when only a single reference weight exists
-    tags.push(`${weight.value}${unit}`);
+
+  const detail = getProductDetailConfig(product.categoryId);
+  const preferKeys =
+    detail.heroTagKeys.length > 0
+      ? detail.heroTagKeys
+      : featuredSpecs.map((s) => s.key);
+
+  const findSpec = (key: string) =>
+    featuredSpecs.find(
+      (s) => s.key === key || s.key === publicSpecRowKey(key),
+    );
+
+  for (const key of preferKeys) {
+    if (key === "classification") continue;
+    const row = findSpec(key);
+    if (!row) continue;
+    let tag: string;
+    if (key === "drop" || row.key === "drop") {
+      tag = `${row.value}mm Drop`;
+    } else if (
+      key === "weight" ||
+      key === "weightMin" ||
+      row.key === "weight" ||
+      row.key === "weight-min"
+    ) {
+      const unit = row.unit ?? (key.startsWith("weight") ? "g" : undefined);
+      tag = unit ? `${row.value}${unit}` : row.value;
+    } else {
+      tag = row.value;
+    }
+    if (!tags.includes(tag)) tags.push(tag);
+    if (tags.length >= 5) break;
   }
+
+  // Running fallback when classifications + drop/weight were the only historical tags.
+  if (product.categoryId === "cat-running-shoes" && tags.length < 2) {
+    const drop = featuredSpecs.find((s) => s.key === "drop");
+    if (drop && !tags.some((t) => t.includes("Drop"))) {
+      tags.push(`${drop.value}mm Drop`);
+    }
+    const weight = featuredSpecs.find((s) => s.key === "weight");
+    if (weight) {
+      tags.push(`${weight.value}${weight.unit ?? "g"}`);
+    }
+  }
+
   return tags.slice(0, 5);
 }
 
@@ -610,6 +649,7 @@ function buildQuickFacts(
   _recommendations: UseCaseScoreRow[] = [],
 ): { id: string; label: string; value: string }[] {
   const facts: { id: string; label: string; value: string }[] = [];
+  const detail = getProductDetailConfig(product.categoryId);
   const isShoe = product.categoryId === "cat-running-shoes";
   const isWatch = product.categoryId === "cat-gps-watches";
 
@@ -657,12 +697,36 @@ function buildQuickFacts(
     if (maps) {
       facts.push({ id: "maps", label: "Maps", value: maps.value });
     }
-  } else if (category) {
-    facts.push({
-      id: "category",
-      label: "Category",
-      value: category.name,
-    });
+  } else {
+    // Padel + other categories: drive quick facts from detail glance keys
+    // (same density pattern as Running), not a bare category label.
+    const glanceKeys =
+      detail.glanceKeys.length > 0
+        ? detail.glanceKeys
+        : featuredSpecs.map((s) => s.key);
+    const findSpec = (key: string) =>
+      featuredSpecs.find(
+        (s) => s.key === key || s.key === publicSpecRowKey(key),
+      );
+    for (const key of glanceKeys) {
+      const row = findSpec(key);
+      if (!row) continue;
+      // Skip empty / not-published tokens for glance density.
+      if (/^not published$/i.test(row.value)) continue;
+      facts.push({
+        id: row.key,
+        label: row.label,
+        value: row.unit ? `${row.value} ${row.unit}` : row.value,
+      });
+      if (facts.length >= 3) break;
+    }
+    if (facts.length < 2 && category) {
+      facts.push({
+        id: "category",
+        label: "Category",
+        value: category.name,
+      });
+    }
   }
 
   if (product.releaseDate) {

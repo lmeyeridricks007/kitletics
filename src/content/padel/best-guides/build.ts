@@ -57,7 +57,7 @@ export function pick(input: {
     whyRecommended: input.whyWon,
     whyItWon: input.whyWon,
     whyItFits: input.whyFits,
-    rationale: input.summary,
+    rationale: input.whyWon,
     decisionRole: input.role,
     useCaseStrengths: input.bestFor.slice(0, 3),
     strengths: input.bestFor.slice(0, 3),
@@ -88,7 +88,7 @@ export function method(intent: string): {
   selectionMethodology: string;
   methodologySummary: string;
 } {
-  const selectionMethodology = `Considered: published current padel products whose specs and manufacturer job match ${intent}. Previous-generation and photo-blocked drafts stay labelled, not awarded. Shortlist requires a distinct role in this guide — not a clone of another pick. Recommended products won that specific use case on shape, balance, weight band, face/core, and honest skip signals. Affiliate commission does not influence considered, shortlisted, recommended, rank, or award decisions.`;
+  const selectionMethodology = `We evaluate current published padel products whose specs and manufacturer job match ${intent}. Previous-generation or media-incomplete drafts stay labelled, not awarded. The shortlist requires a distinct role in this guide — not a clone of another pick. Recommended products won that specific use case on shape, balance, weight band, face/core, and honest skip signals. Affiliate commission does not influence eligible, considered, shortlisted, recommended, rank, or award decisions.`;
   return {
     selectionMethodology,
     methodologySummary: selectionMethodology,

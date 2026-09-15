@@ -242,14 +242,28 @@ export const padelRacketProtectorsGuide: BestGuide = baseGuide({
         { productId: "prod-bullpadel-frame-protector", when: "Bullpadel tape is enough", label: "Bullpadel protector" },
       ],
     }),
+    pick({
+      productId: "prod-bullpadel-frame-protector-uni",
+      rank: 3,
+      awardType: "editors-pick",
+      badge: "Best universal fit option",
+      role: "Universal-fit protector sibling",
+      summary: "Bullpadel uni frame protector — same bumper job with a wider-fit positioning.",
+      whyWon:
+        "Third protector lane for frames where the standard tip wrap fights curvature — still consumable tape, not armour.",
+      whyFits: [
+        "I'd try the uni cut when the standard Bullpadel tape peels at the tip corners.",
+        "I'd skip it if the standard Bullpadel or Nox protector already sits clean.",
+      ],
+      bestFor: ["Awkward tip curves", "Replacement consumable tape"],
+      tradeoff: "Still peels if applied dirty or cold; not a performance upgrade.",
+      avoid: ["Players expecting weighted custom protectors"],
+      instead: [
+        { productId: "prod-bullpadel-frame-protector", when: "standard Bullpadel tape already fits", label: "Bullpadel protector" },
+      ],
+    }),
   ],
   consideredProducts: [
-    considered(
-      "prod-bullpadel-frame-protector-uni",
-      "Uni protector sibling — shortlisted; do not invent a third overall winner.",
-      "shortlisted",
-      { reasonCode: "overlap", closestRecommendedProductId: "prod-bullpadel-frame-protector" },
-    ),
     considered(
       "prod-bullpadel-custom-weight",
       "Custom weight — different job from clear bumper protection.",
@@ -260,7 +274,11 @@ export const padelRacketProtectorsGuide: BestGuide = baseGuide({
   buyingAdvice:
     "Clean the frame, apply warm, and expect to replace protectors. Thickness is a caveat, not a ranking bonus.",
   relatedGuideIds: ["best-padel-ball-pressurizers", "best-padel-bags", "best-padel-overgrips"],
-  comparisonProductIds: ["prod-bullpadel-frame-protector", "prod-nox-frame-protector"],
+  comparisonProductIds: [
+    "prod-bullpadel-frame-protector",
+    "prod-nox-frame-protector",
+    "prod-bullpadel-frame-protector-uni",
+  ],
   hubImageSrc: "/images/padel/products/bullpadel-frame-protector-3-pack-hero.jpg",
   hubImageAlt: "Bullpadel padel racket frame protector",
 });

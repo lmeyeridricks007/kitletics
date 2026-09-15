@@ -37,6 +37,9 @@ const concurrency = Number(
 const limit = Number(
   process.argv.find((a) => a.startsWith("--limit="))?.split("=")[1] ?? 0,
 );
+const onlyPrefix = (
+  process.argv.find((a) => a.startsWith("--only="))?.split("=")[1] ?? ""
+).replace(/^\/+|\/+$/g, "");
 const skipExisting = !process.argv.includes("--force");
 
 function loadToken(): string {
@@ -101,10 +104,19 @@ async function main() {
 
   let files = await walk(IMAGES_DIR);
   files.sort();
+  if (onlyPrefix) {
+    const needle = onlyPrefix.startsWith("images/")
+      ? onlyPrefix
+      : `images/${onlyPrefix}`;
+    files = files.filter((abs) => {
+      const pathname = relative(join(ROOT, "public"), abs).split("\\").join("/");
+      return pathname === needle || pathname.startsWith(`${needle}/`);
+    });
+  }
   if (limit > 0) files = files.slice(0, limit);
 
   console.log(
-    `Uploading ${files.length} files (concurrency=${concurrency}, dryRun=${dryRun}, skipExisting=${skipExisting})`,
+    `Uploading ${files.length} files (concurrency=${concurrency}, dryRun=${dryRun}, skipExisting=${skipExisting}${onlyPrefix ? `, only=${onlyPrefix}` : ""})`,
   );
 
   const rows: Array<{

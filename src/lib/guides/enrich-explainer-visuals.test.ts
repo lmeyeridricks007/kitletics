@@ -176,6 +176,37 @@ describe("enrichExplainerBlocksWithVisuals", () => {
       "fuel-gels",
     );
   });
+
+  it("attaches padel teaching diagrams and never shoe concept art", () => {
+    const out = enrichExplainerBlocksWithVisuals(
+      [
+        {
+          id: "shapes",
+          type: "prose",
+          title: "Round vs teardrop vs diamond",
+          paragraphs: ["Shape shifts the sweet spot."],
+        },
+        {
+          id: "decide",
+          type: "decision-flow",
+          title: "How to choose next",
+          steps: [
+            { id: "a", title: "Job", body: "Level and style." },
+            { id: "b", title: "Geometry", body: "Shape and balance." },
+          ],
+        },
+      ],
+      "padel-racket-shapes-explained",
+    );
+    const variants = out
+      .map((b) => ("diagram" in b ? b.diagram?.variant : undefined))
+      .filter(Boolean) as string[];
+    expect(variants.length).toBeGreaterThan(0);
+    expect(variants).toContain("padel-racket-shapes");
+    for (const v of variants) {
+      expect(v.startsWith("padel-")).toBe(true);
+    }
+  });
 });
 
 describe("resolveSectionVisual", () => {

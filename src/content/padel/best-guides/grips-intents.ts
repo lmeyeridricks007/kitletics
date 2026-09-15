@@ -107,6 +107,26 @@ export const padelOvergripsSweatyGuide: BestGuide = baseGuide({
         { productId: "prod-bullpadel-gb1200", when: "HaC already solves sweat", label: "HaC" },
       ],
     }),
+    pick({
+      productId: "prod-kuikma-overgrip",
+      rank: 3,
+      awardType: "best-value",
+      badge: "Best value absorbent",
+      role: "Value absorbent multipack",
+      summary: "Kuikma overgrip — absorbent wrap when price-per-grip matters on humid weeks.",
+      whyWon:
+        "Value absorbent lane for sweaty hands without inventing another premium HaC clone. Distinct from Nox kit cohesion.",
+      whyFits: [
+        "I'd shortlist Kuikma when I'm burning through wraps every week and want absorbent feel without premium branding.",
+        "I'd skip it if HaC or Nox Pro already covers absorption in the bag.",
+      ],
+      bestFor: ["Humid volume practice", "Price-per-grip absorption"],
+      tradeoff: "Less brand-native packshot story than HaC/Nox — verify current stock identity.",
+      avoid: ["Players who only wanted Wilson’s thin tack"],
+      instead: [
+        { productId: "prod-bullpadel-gb1200", when: "you want the absorption default packshot", label: "HaC" },
+      ],
+    }),
   ],
   consideredProducts: [
     considered(
@@ -123,27 +143,21 @@ export const padelOvergripsSweatyGuide: BestGuide = baseGuide({
     ),
     considered(
       "prod-wilson-overgrip",
-      "Thin tack default — rejected from sweaty-hands awards (opposite job).",
+      "Thin tack default — out of sweaty-hands awards (opposite job).",
       "rejected",
       { reasonCode: "context-mismatch", closestRecommendedProductId: "prod-bullpadel-gb1200" },
     ),
     considered(
       "prod-hesacore-padel",
-      "Ergonomic cushion system — not an absorbent overgrip. Rejected as context-mismatch.",
+      "Ergonomic cushion system — not an absorbent overgrip. Out as context-mismatch.",
       "rejected",
       { reasonCode: "context-mismatch" },
     ),
     considered(
       "prod-head-xtreme-soft",
-      "Soft tacky wrap — rejected as sweaty-hands primary (tack lane).",
+      "Soft tacky wrap — out as sweaty-hands primary (tack lane).",
       "rejected",
       { reasonCode: "context-mismatch", closestRecommendedProductId: "prod-wilson-overgrip" },
-    ),
-    considered(
-      "prod-kuikma-overgrip",
-      "Value absorbent wrap — shortlisted; awarded on the value multipack guide.",
-      "shortlisted",
-      { reasonCode: "overlap", closestRecommendedProductId: "prod-bullpadel-gb1200" },
     ),
   ],
   buyingAdvice:
@@ -154,7 +168,11 @@ export const padelOvergripsSweatyGuide: BestGuide = baseGuide({
     "best-padel-tacky-overgrips",
     "best-padel-value-overgrips",
   ],
-  comparisonProductIds: ["prod-bullpadel-gb1200", "prod-nox-pro-overgrip"],
+  comparisonProductIds: [
+    "prod-bullpadel-gb1200",
+    "prod-nox-pro-overgrip",
+    "prod-kuikma-overgrip",
+  ],
   hubImageSrc: "/images/padel/guides/grips.jpg",
   hubImageAlt: "Padel overgrips for sweaty hands",
 });
@@ -396,6 +414,26 @@ export const padelDryFeelOvergripsGuide: BestGuide = baseGuide({
         { productId: "prod-bullpadel-gb1200", when: "HaC is enough", label: "HaC" },
       ],
     }),
+    pick({
+      productId: "prod-kuikma-overgrip",
+      rank: 3,
+      awardType: "best-value",
+      badge: "Best value dry wrap",
+      role: "Value dry absorbent wrap",
+      summary: "Kuikma overgrip — dry/absorbent multipack when you replace wraps often.",
+      whyWon:
+        "Third dry-feel lane for volume buyers without treating Hesacore as dry-feel or inventing a fake Tourna primary while media stays fragile.",
+      whyFits: [
+        "I'd shortlist Kuikma when humidity is weekly and I burn through wraps.",
+        "I'd skip it if HaC or Nox Pro already covers dry absorbent feel.",
+      ],
+      bestFor: ["Volume dry wraps", "Humid practice blocks"],
+      tradeoff: "Less distinct brand story than HaC/Nox — still an absorbent wrap job.",
+      avoid: ["Hesacore shoppers confusing dry-feel with ergonomic sleeves"],
+      instead: [
+        { productId: "prod-bullpadel-gb1200", when: "you want the dry absorbent default", label: "HaC" },
+      ],
+    }),
   ],
   consideredProducts: [
     considered(
@@ -406,7 +444,7 @@ export const padelDryFeelOvergripsGuide: BestGuide = baseGuide({
     ),
     considered(
       "prod-hesacore-padel",
-      "Ergonomic sleeve — dry-feel ≠ Hesacore. Rejected from dry-feel overgrip awards.",
+      "Ergonomic sleeve — dry-feel ≠ Hesacore. Out of dry-feel overgrip awards.",
       "rejected",
       { reasonCode: "context-mismatch" },
     ),
@@ -430,7 +468,11 @@ export const padelDryFeelOvergripsGuide: BestGuide = baseGuide({
     "best-padel-overgrips",
     "best-padel-ergonomic-grips",
   ],
-  comparisonProductIds: ["prod-bullpadel-gb1200", "prod-nox-pro-overgrip"],
+  comparisonProductIds: [
+    "prod-bullpadel-gb1200",
+    "prod-nox-pro-overgrip",
+    "prod-kuikma-overgrip",
+  ],
   hubImageSrc: "/images/padel/products/bullpadel-hac-overgrip-hero.jpg",
   hubImageAlt: "Bullpadel HaC dry-feel overgrip",
 });

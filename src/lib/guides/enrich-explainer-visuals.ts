@@ -33,6 +33,18 @@ type VisualFamily =
   | "padel"
   | "general";
 
+const PADEL_VARIANTS = new Set<ExplainerDiagramVariant>([
+  "padel-racket-shapes",
+  "padel-racket-balance",
+  "padel-racket-weight",
+  "padel-bag-forms",
+  "padel-grip-vs-overgrip",
+  "padel-ball-types",
+  "padel-pressurizer",
+  "padel-decision-steps",
+  "padel-shoe-outsole",
+]);
+
 const SHOE_VARIANTS = new Set<ExplainerDiagramVariant>([
   "comparing-shoes",
   "decision-steps",
@@ -108,8 +120,18 @@ const FAMILY_FALLBACK_POOL: Record<VisualFamily, ExplainerDiagramVariant[]> = {
   fuel: ["fuel-gels", "running-belt", "soft-flask"],
   recovery: ["massage-gun", "recovery-sandal"],
   fitness: ["cross-training-shoe", "gps-watch-run"],
-  /** Padel guides never inherit running/tennis concept art. */
-  padel: [],
+  /** Padel-only teaching diagrams — never inherit running shoe concept art. */
+  padel: [
+    "padel-racket-shapes",
+    "padel-racket-balance",
+    "padel-racket-weight",
+    "padel-bag-forms",
+    "padel-grip-vs-overgrip",
+    "padel-ball-types",
+    "padel-pressurizer",
+    "padel-decision-steps",
+    "padel-shoe-outsole",
+  ],
   general: [
     "gps-watch-run",
     "hydration-vest",
@@ -198,8 +220,13 @@ export function resolveSectionVisualCandidates(
   const hay = `${slug} ${title} ${blockId} ${blockType}`.toLowerCase();
   const out: ExplainerSectionDiagram[] = [];
   const push = (variant: ExplainerDiagramVariant, caption: string) => {
-    if (family === "padel") return;
-    if (family !== "shoes" && SHOE_VARIANTS.has(variant)) return;
+    if (family === "padel") {
+      if (!PADEL_VARIANTS.has(variant)) return;
+    } else if (PADEL_VARIANTS.has(variant)) {
+      return;
+    } else if (family !== "shoes" && SHOE_VARIANTS.has(variant)) {
+      return;
+    }
     if (!out.some((v) => v.variant === variant)) {
       out.push(visual(variant, caption));
     }
@@ -249,6 +276,11 @@ export function resolveSectionVisualCandidates(
         "fuel-gels",
         "Unrehearsed fuel plans on race day are a frequent GI and energy mistake.",
       );
+    } else if (family === "padel") {
+      push(
+        "padel-decision-steps",
+        "Common padel buying mistakes: copying pro diamonds, ignoring balance, or shopping one spec in isolation.",
+      );
     }
   }
 
@@ -297,6 +329,11 @@ export function resolveSectionVisualCandidates(
         "running-jacket",
         "Match apparel to weather and intensity — not a single marketing fabric claim.",
       );
+    } else if (family === "padel") {
+      push(
+        "padel-decision-steps",
+        "Lock the job, filter geometry, then verify two distinct roles — not a pro copy.",
+      );
     }
   }
 
@@ -322,6 +359,11 @@ export function resolveSectionVisualCandidates(
       push(
         "amoled-vs-mip",
         "Display and feature density trade against GPS battery in the real world.",
+      );
+    } else if (family === "padel") {
+      push(
+        "padel-racket-shapes",
+        "Shape trades forgiveness against finishing reward — confirm with balance and weight.",
       );
     }
   }
@@ -657,6 +699,58 @@ export function resolveSectionVisualCandidates(
     );
   }
 
+  // ── Padel topic matches ────────────────────────────────────────────────
+  if (family === "padel") {
+    if (/shape|round|teardrop|diamond|silhouette|sweet.?spot/.test(hay)) {
+      push(
+        "padel-racket-shapes",
+        "Round, teardrop and diamond shift sweet-spot height and forgiveness — not the whole racket decision.",
+      );
+    }
+    if (/balance|head.?heavy|handle.?bias|maneuver/.test(hay)) {
+      push(
+        "padel-racket-balance",
+        "Low vs high balance changes preparation speed and tip mass through the ball.",
+      );
+    }
+    if (/weight|grams|lightweight|heavy frame/.test(hay)) {
+      push(
+        "padel-racket-weight",
+        "Published weight bands matter before carbon marketing — feel them with balance.",
+      );
+    }
+    if (/bag|paletero|backpack|thermo|compartment/.test(hay)) {
+      push(
+        "padel-bag-forms",
+        "Paletero volume vs commute backpack — racket wells, thermo and shoe pocket first.",
+      );
+    }
+    if (/grip|overgrip|tack|absorption|handle/.test(hay)) {
+      push(
+        "padel-grip-vs-overgrip",
+        "Base grip is the foundation; overgrips are thin consumable refreshes.",
+      );
+    }
+    if (/ball|pressur|can\b|bounce/.test(hay)) {
+      push(
+        "padel-ball-types",
+        "Fresh pressurized cans vs tired training balls change bounce and timing.",
+      );
+      if (/pressur/.test(hay)) {
+        push(
+          "padel-pressurizer",
+          "A pressurizer only earns its keep if you reseal balls between sessions.",
+        );
+      }
+    }
+    if (/shoe|outsole|herringbone|clay|court surface/.test(hay)) {
+      push(
+        "padel-shoe-outsole",
+        "Match outsole pattern to dusty outdoor courts vs connected indoor hard courts.",
+      );
+    }
+  }
+
   // ── Guide-topic soft defaults (only if nothing stronger matched) ────────
   if (out.length === 0) {
     const defaults = FAMILY_FALLBACK_POOL[family] ?? FAMILY_FALLBACK_POOL.general;
@@ -702,6 +796,24 @@ export function resolveSectionVisualCandidates(
         "Use recovery tools for comfort preference — not miracle claims.",
       "recovery-sandal":
         "Soft post-run footwear helps walking comfort after hard days.",
+      "padel-racket-shapes":
+        "Shape families shift sweet-spot height and forgiveness.",
+      "padel-racket-balance":
+        "Balance point changes how heavy the tip feels in preparation.",
+      "padel-racket-weight":
+        "Wearable weight bands before carbon marketing claims.",
+      "padel-bag-forms":
+        "Paletero vs backpack is a commute and capacity decision.",
+      "padel-grip-vs-overgrip":
+        "Replacement grips rebuild; overgrips refresh tack and moisture control.",
+      "padel-ball-types":
+        "Fresh cans vs tired balls change bounce expectations.",
+      "padel-pressurizer":
+        "Pressurizers extend usable pressure only with consistent use.",
+      "padel-decision-steps":
+        "Job → geometry → verify two roles.",
+      "padel-shoe-outsole":
+        "Outsole pattern should match your club’s court surface.",
     };
     for (const variant of defaults.slice(0, 3)) {
       push(
@@ -756,36 +868,33 @@ function attachDiagram<T extends ExplainerBlock>(
   used: Set<ExplainerDiagramVariant>,
   family: VisualFamily,
 ): T {
-  // Padel explainers: never stamp running/tennis concept diagrams.
+  // Padel explainers: only padel teaching diagrams — never Running shoe/lifestyle art.
   if (family === "padel") {
-    if (block.diagram && SHOE_VARIANTS.has(block.diagram.variant)) {
-      const { diagram: _drop, ...rest } = block as T & {
-        diagram?: ExplainerSectionDiagram;
-      };
-      return rest as T;
+    if (SKIP_VISUAL_TYPES.has(block.type)) return block;
+    if (block.diagram) {
+      if (!PADEL_VARIANTS.has(block.diagram.variant)) {
+        const { diagram: _drop, ...rest } = block as T & {
+          diagram?: ExplainerSectionDiagram;
+        };
+        return rest as T;
+      }
+      used.add(block.diagram.variant);
+      return block;
     }
-    if (!block.diagram) return block;
-    // Drop any variant that resolves to running/fitness lifestyle art
-    const forbidden = new Set([
-      "running-belt",
-      "fuel-gels",
-      "hydration-vest",
-      "vest-vs-belt",
-      "gps-watch-run",
-      "hrm-chest-vs-wrist",
-      "daily-trainer",
-      "easy-miles",
-      "tempo-session",
-      ...SHOE_VARIANTS,
-    ]);
-    if (forbidden.has(block.diagram.variant)) {
-      const { diagram: _drop, ...rest } = block as T & {
-        diagram?: ExplainerSectionDiagram;
-      };
-      return rest as T;
-    }
-    used.add(block.diagram.variant);
-    return block;
+    const candidates = resolveSectionVisualCandidates(
+      slug,
+      block.title,
+      block.id,
+      block.type,
+    );
+    const resolved = pickUniqueVisual(
+      candidates,
+      used,
+      family,
+      "Use this visual as context for the decision — verify against published specs and feel.",
+    );
+    if (!resolved) return block;
+    return { ...block, diagram: resolved };
   }
   if (SKIP_VISUAL_TYPES.has(block.type)) return block;
   if (block.diagram) {
@@ -865,6 +974,9 @@ function lookForIntroForSlug(
   slug: string,
   family: ReturnType<typeof guideVisualFamily>,
 ): string {
+  if (family === "padel") {
+    return `Check each factor against your level, court surface and what fails in your current kit — not against pro silhouettes or weave marketing alone.`;
+  }
   if (/foam|massage|recovery|sandal/.test(slug)) {
     return `Check each recovery factor against comfort, session length and what you will actually use after hard runs — not against clinic marketing claims.`;
   }

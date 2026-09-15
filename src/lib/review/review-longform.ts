@@ -8,6 +8,9 @@ import {
   isPadelRacketCategory,
   isPadelShoeCategory,
   padelTopicFromSection,
+  PADEL_ACCESSORY_BLUEPRINT,
+  PADEL_BAG_BLUEPRINT,
+  PADEL_BALL_BLUEPRINT,
   PADEL_GRIP_BLUEPRINT,
   PADEL_RACKET_BLUEPRINT,
   PADEL_SHOE_BLUEPRINT,
@@ -209,6 +212,15 @@ function blueprintForCategory(categoryId: string): SectionBlueprint[] {
   }
   if (isPadelGripCategory(categoryId)) {
     return PADEL_GRIP_BLUEPRINT as SectionBlueprint[];
+  }
+  if (categoryId === "cat-padel-bags") {
+    return PADEL_BAG_BLUEPRINT as SectionBlueprint[];
+  }
+  if (categoryId === "cat-padel-balls") {
+    return PADEL_BALL_BLUEPRINT as SectionBlueprint[];
+  }
+  if (categoryId === "cat-padel-accessories") {
+    return PADEL_ACCESSORY_BLUEPRINT as SectionBlueprint[];
   }
   if (isShoeFamily(categoryId)) return SHOE_BLUEPRINT;
   if (isRacketFamily(categoryId)) return RACKET_BLUEPRINT;

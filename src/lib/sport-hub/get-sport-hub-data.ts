@@ -13,7 +13,6 @@ import {
   getOffersForProductInRegion,
   getToolBySlug,
   getGearSetupBySlug,
-  getProductsByCategory,
   getReviews,
 } from "@/repositories";
 import type { Product } from "@/domain/products/types";
@@ -33,6 +32,7 @@ import {
   shouldPromotePublicly,
   isLaunchListable,
 } from "@/domain/launch";
+import { countListableCategoryProducts } from "@/lib/catalog/listable-products";
 
 export { hasMockupSportHub, getMockupSportHubConfig };
 
@@ -404,7 +404,7 @@ export function getSportHubData(input: {
     href: item.href,
     icon: item.icon,
     productCount: item.categoryId
-      ? getProductsByCategory(item.categoryId, options).length
+      ? countListableCategoryProducts(item.categoryId, sport.id, options)
       : undefined,
   });
 

@@ -2,7 +2,6 @@ import Link from "next/link";
 import { Suspense } from "react";
 import { Container } from "@/components/layout/Container";
 import { Section } from "@/components/layout/Section";
-import { Breadcrumbs } from "@/components/layout/Breadcrumbs";
 import { ButtonLink } from "@/components/ui/Button";
 import { Badge } from "@/components/ui/Badge";
 import {
@@ -14,6 +13,7 @@ import { ToolCard } from "@/components/cards/ToolCard";
 import { CatalogInteractive } from "@/components/catalog/CatalogInteractive";
 import { ShopByTypeChips } from "@/components/catalog/ShopByTypeChips";
 import { CategoryDecisionSection } from "@/components/catalog/CategoryDecisionSection";
+import { CategoryVisualHero } from "@/components/catalog/CategoryVisualHero";
 import { BrandMark } from "@/components/brands/BrandMark";
 import {
   JsonLdScript,
@@ -24,6 +24,7 @@ import {
 } from "@/lib/seo/jsonld";
 import type { AssembledCategoryPage } from "@/lib/catalog/assemble";
 import { brandAccentHex } from "@/lib/brands/brand-colors";
+import { getPrimaryProductMedia } from "@/lib/product/media";
 import { siteConfig } from "@/content/config";
 
 export function CategoryPage({ data }: { data: AssembledCategoryPage }) {
@@ -54,6 +55,28 @@ export function CategoryPage({ data }: { data: AssembledCategoryPage }) {
     year: "numeric",
   });
 
+  const heroProducts = catalog.products
+    .filter((row) => row.image?.src)
+    .slice(0, 3)
+    .map((row) => ({
+      id: row.id,
+      name: row.name,
+      href: `/products/${row.slug}`,
+      imageSrc: row.image!.src,
+      imageAlt: row.image!.alt || row.fullName,
+      brandName: row.brandName,
+    }));
+
+  const pickCards = picks.filter((pick) =>
+    Boolean(getPrimaryProductMedia(pick.product)),
+  );
+
+  const typeNoun = /shoe/i.test(category.slug)
+    ? "shoe types"
+    : /racket/i.test(category.slug)
+      ? "racket roles"
+      : "types";
+
   return (
     <>
       <JsonLdScript
@@ -77,45 +100,25 @@ export function CategoryPage({ data }: { data: AssembledCategoryPage }) {
         ]}
       />
 
-      {/* Compact hero */}
-      <section className="border-b border-border bg-mesh">
-        <Container className="py-6 sm:py-8">
-          <Breadcrumbs items={data.breadcrumbs} className="mb-4" />
-          <div className="max-w-2xl space-y-3">
-            <p className="text-[11px] font-bold tracking-[0.14em] text-accent-ink uppercase">
-              {sport.name}
-            </p>
-            <h1 className="font-display text-3xl font-semibold tracking-tight text-foreground sm:text-4xl">
-              {config.hero.title}
-            </h1>
-            <p className="text-[15px] text-muted">{config.hero.description}</p>
-            <div className="flex flex-wrap gap-3 pt-1">
-              <ButtonLink href={config.hero.primaryCta.href}>
-                {config.hero.primaryCta.label}
-              </ButtonLink>
-              <ButtonLink href={config.hero.secondaryCta.href} variant="outline">
-                {config.hero.secondaryCta.label}
-              </ButtonLink>
-            </div>
-          </div>
+      <CategoryVisualHero
+        breadcrumbs={data.breadcrumbs}
+        sportName={sport.name}
+        title={config.hero.title}
+        description={config.hero.description}
+        primaryCta={config.hero.primaryCta}
+        secondaryCta={config.hero.secondaryCta}
+        productCount={productCount}
+        typeCount={subcategoryCount}
+        typeNoun={typeNoun}
+        updatedLabel={updatedLabel}
+        heroImageSrc={config.hero.imageSrc}
+        heroImageAlt={config.hero.imageAlt}
+        heroProducts={heroProducts}
+      />
 
-          <div className="mt-4 flex flex-wrap gap-x-5 gap-y-1 text-[13px] text-muted">
-            <span>
-              <strong className="font-medium text-foreground">{productCount}</strong>{" "}
-              products in current catalog
-            </span>
-            {subcategoryCount > 0 && (
-              <span>
-                <strong className="font-medium text-foreground">
-                  {subcategoryCount}
-                </strong>{" "}
-                shoe types
-              </span>
-            )}
-            <span>Updated {updatedLabel}</span>
-          </div>
-
-          {featuredSubcategories.length > 0 && (
+      {featuredSubcategories.length > 0 && (
+        <section className="border-b border-border bg-white">
+          <Container className="py-4">
             <Suspense fallback={null}>
               <ShopByTypeChips
                 basePath={data.basePath}
@@ -129,9 +132,9 @@ export function CategoryPage({ data }: { data: AssembledCategoryPage }) {
                 )}
               />
             </Suspense>
-          )}
-        </Container>
-      </section>
+          </Container>
+        </section>
+      )}
 
       {/* Catalog first — products are the page job */}
       <Section
@@ -164,7 +167,7 @@ export function CategoryPage({ data }: { data: AssembledCategoryPage }) {
         <Section
           muted
           title="Shop by goal"
-          description="Prefilter the catalog by how you train."
+          description="Prefilter the catalog by how you play."
         >
           <div className="flex flex-wrap gap-2">
             {goalUseCases.map((uc) => (
@@ -182,7 +185,7 @@ export function CategoryPage({ data }: { data: AssembledCategoryPage }) {
 
       {runnerUseCases.length > 0 && (
         <Section
-          title="Find shoes for you"
+          title="Find gear for you"
           description="Jump to shortlists or prefiltered catalog views."
         >
           <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
@@ -231,20 +234,32 @@ export function CategoryPage({ data }: { data: AssembledCategoryPage }) {
         </Section>
       )}
 
-      {picks.length > 0 && (
+      {pickCards.length > 0 && (
         <Section
           muted
           title="Kitletics Picks"
           description="Structured recommendation labels — not inferred from scores alone."
         >
           <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
-            {picks.map((pick) => (
+            {pickCards.map((pick) => {
+              const media = getPrimaryProductMedia(pick.product);
+              return (
               <Link
                 key={pick.label}
                 href={`/products/${pick.product.slug}`}
                 className="border border-border bg-surface p-5 transition-colors hover:border-foreground"
               >
                 <Badge variant="accent">{pick.label}</Badge>
+                {media ? (
+                  <div className="relative mt-3 aspect-[4/3] overflow-hidden bg-surface-muted">
+                    {/* eslint-disable-next-line @next/next/no-img-element */}
+                    <img
+                      src={media.src}
+                      alt={media.alt || pick.product.fullName}
+                      className="h-full w-full object-contain p-2"
+                    />
+                  </div>
+                ) : null}
                 {pick.brandName && (
                   <p className="mt-3 text-xs font-medium tracking-wide text-muted uppercase">
                     {pick.brandName}
@@ -257,7 +272,8 @@ export function CategoryPage({ data }: { data: AssembledCategoryPage }) {
                   <p className="mt-2 text-sm text-muted">{pick.rationale}</p>
                 )}
               </Link>
-            ))}
+              );
+            })}
           </div>
         </Section>
       )}
@@ -361,6 +377,25 @@ export function CategoryPage({ data }: { data: AssembledCategoryPage }) {
           <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
             {buyingGuides.map((guide) => (
               <BuyingGuideCard key={guide.id} guide={guide} />
+            ))}
+          </div>
+        </Section>
+      )}
+
+      {(config.relatedCategories?.length ?? 0) > 0 && (
+        <Section
+          title="Related categories"
+          description="Continue into adjacent equipment and decision pages."
+        >
+          <div className="flex flex-wrap gap-2">
+            {config.relatedCategories!.map((rel) => (
+              <Link
+                key={rel.href}
+                href={rel.href}
+                className="border border-border bg-surface px-3.5 py-2 text-sm font-medium transition-colors hover:border-foreground"
+              >
+                {rel.label}
+              </Link>
             ))}
           </div>
         </Section>

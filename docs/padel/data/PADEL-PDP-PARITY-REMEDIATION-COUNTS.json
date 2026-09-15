@@ -1,0 +1,116 @@
+{
+  "asOf": "2026-09-14",
+  "productsProcessed": 458,
+  "totals": {
+    "published": 243,
+    "verifiedHero": 243,
+    "featureable": 243,
+    "mediaBlocked": 215,
+    "draftHidden": 215
+  },
+  "byFamily": [
+    {
+      "family": "RACKETS",
+      "total": 62,
+      "published": 57,
+      "verifiedHero": 57,
+      "featureable": 57,
+      "mediaBlocked": 5,
+      "draft": 5,
+      "featuredSpecKeys": 7,
+      "softEditorialReady": 0
+    },
+    {
+      "family": "SHOES",
+      "total": 41,
+      "published": 27,
+      "verifiedHero": 27,
+      "featureable": 27,
+      "mediaBlocked": 14,
+      "draft": 14,
+      "featuredSpecKeys": 7,
+      "softEditorialReady": 41
+    },
+    {
+      "family": "BALLS",
+      "total": 62,
+      "published": 44,
+      "verifiedHero": 44,
+      "featureable": 44,
+      "mediaBlocked": 18,
+      "draft": 18,
+      "featuredSpecKeys": 5,
+      "softEditorialReady": 60
+    },
+    {
+      "family": "BAGS",
+      "total": 124,
+      "published": 65,
+      "verifiedHero": 65,
+      "featureable": 65,
+      "mediaBlocked": 59,
+      "draft": 59,
+      "featuredSpecKeys": 5,
+      "softEditorialReady": 124
+    },
+    {
+      "family": "GRIPS",
+      "total": 85,
+      "published": 29,
+      "verifiedHero": 29,
+      "featureable": 29,
+      "mediaBlocked": 56,
+      "draft": 56,
+      "featuredSpecKeys": 5,
+      "softEditorialReady": 85
+    },
+    {
+      "family": "ACCESSORIES",
+      "total": 84,
+      "published": 21,
+      "verifiedHero": 21,
+      "featureable": 21,
+      "mediaBlocked": 63,
+      "draft": 63,
+      "featuredSpecKeys": 4,
+      "softEditorialReady": 84
+    }
+  ],
+  "exactHeroesUnlockedThisPass": 20,
+  "exactHeroProductIds": [
+    "prod-adidas-crazyquick-boost-m",
+    "prod-adidas-courtquick-w",
+    "prod-adidas-crazyquick-boost-w",
+    "prod-asics-gel-dedicate-8-padel",
+    "prod-asics-game-ff-padel",
+    "prod-asics-solution-swift-ff2-padel",
+    "prod-bullpadel-hybrid-fly",
+    "prod-bullpadel-ionic-woman",
+    "prod-nox-at10-lux",
+    "prod-nox-ml10-hexa",
+    "prod-babolat-movea-2",
+    "prod-babolat-sensa-women",
+    "prod-joma-slam-lady",
+    "prod-joma-spin-men",
+    "prod-head-sprint-pro-4-padel",
+    "prod-wilson-rush-pro-5-padel",
+    "prod-joma-t-slam",
+    "prod-asics-gel-resolution-padel-w",
+    "prod-joma-spin-lady",
+    "prod-babolat-jet-premura-2-men"
+  ],
+  "revokedWrongCategoryOrIdentity": [
+    "prod-siux-diablo-pro",
+    "prod-siux-comodo-woman",
+    "prod-oxdog-hyper-court",
+    "prod-wilson-bela-pro-padel",
+    "prod-bullpadel-hack-hybrid",
+    "prod-nox-at10-pro-shoe",
+    "prod-tecnifibre-t-fight-padel",
+    "prod-varlion-bourne-padel-shoe",
+    "prod-lok-padel-one",
+    "prod-asics-solution-swift-padel-w"
+  ],
+  "galleriesAdded": 0,
+  "noteGalleries": "Running shoe PDP median gallery=1; no synthetic multi-angle galleries manufactured from single crops."
+}

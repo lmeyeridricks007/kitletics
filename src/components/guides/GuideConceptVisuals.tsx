@@ -18,6 +18,17 @@ import {
 } from "lucide-react";
 import { cn } from "@/lib/utils";
 import type { ExplainerDiagramVariant } from "@/lib/guides/explainer-blocks";
+import {
+  PadelBagFormsDiagram,
+  PadelBallTypesDiagram,
+  PadelDecisionStepsDiagram,
+  PadelGripVsOvergripDiagram,
+  PadelPressurizerDiagram,
+  PadelRacketBalanceDiagram,
+  PadelRacketShapesDiagram,
+  PadelRacketWeightDiagram,
+  PadelShoeOutsoleDiagram,
+} from "@/components/guides/PadelConceptDiagrams";
 
 export type ConceptDiagramVariant = ExplainerDiagramVariant;
 
@@ -277,6 +288,33 @@ export function ConceptDiagram({
         break;
       case "platform-width":
         body = <PlatformWidthInline />;
+        break;
+      case "padel-racket-shapes":
+        body = <PadelRacketShapesDiagram />;
+        break;
+      case "padel-racket-balance":
+        body = <PadelRacketBalanceDiagram />;
+        break;
+      case "padel-racket-weight":
+        body = <PadelRacketWeightDiagram />;
+        break;
+      case "padel-bag-forms":
+        body = <PadelBagFormsDiagram />;
+        break;
+      case "padel-grip-vs-overgrip":
+        body = <PadelGripVsOvergripDiagram />;
+        break;
+      case "padel-ball-types":
+        body = <PadelBallTypesDiagram />;
+        break;
+      case "padel-pressurizer":
+        body = <PadelPressurizerDiagram />;
+        break;
+      case "padel-decision-steps":
+        body = <PadelDecisionStepsDiagram />;
+        break;
+      case "padel-shoe-outsole":
+        body = <PadelShoeOutsoleDiagram />;
         break;
       default:
         body = null;

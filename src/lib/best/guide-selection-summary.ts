@@ -62,7 +62,7 @@ export function narrowingNarrative(input: {
   const use =
     input.useCaseLabel?.toLowerCase() ??
     "this use case";
-  return `We started with ${input.consideredCount} current ${noun} that match ${use} in our catalog. ${input.shortlistedCount} were strong enough to make the shortlist. ${input.recommendedCount} ultimately earned a place in this guide because they cover meaningfully different needs — not simply the highest overall scores.`;
+  return `We started from ${input.consideredCount} current ${noun} that match ${use} in our catalog. ${input.shortlistedCount} were strong enough to make the shortlist. ${input.recommendedCount} earned a place in this guide because they cover meaningfully different needs — not simply the highest overall scores.`;
 }
 
 export function diversityNarrative(
