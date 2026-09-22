@@ -1,4 +1,8 @@
 import type { CatalogFilterState, CatalogSort } from "@/lib/catalog/types";
+import {
+  publicSpecRowKey,
+  resolveCanonicalSpecKey,
+} from "@/lib/specs/public-label";
 
 const SORTS = new Set<CatalogSort>([
   "recommended",
@@ -142,7 +146,7 @@ export function parseCatalogSearchParams(
   // Also accept raw spec.* params for future categories
   for (const [key, value] of Object.entries(params)) {
     if (!key.startsWith("spec.")) continue;
-    const specKey = key.slice(5);
+    const specKey = resolveCanonicalSpecKey(key.slice(5));
     const values = splitCsv(value);
     if (values.length > 0) specs[specKey] = values;
   }
@@ -262,7 +266,9 @@ export function serializeCatalogSearchParams(
 
   for (const [specKey, values] of Object.entries(state.specs)) {
     if (!values.length) continue;
-    const alias = reverseAlias[specKey] ?? `spec.${specKey}`;
+    const canonical = resolveCanonicalSpecKey(specKey);
+    const alias =
+      reverseAlias[canonical] ?? `spec.${publicSpecRowKey(canonical)}`;
     params.set(alias, values.join(","));
   }
 

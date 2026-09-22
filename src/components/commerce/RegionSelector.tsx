@@ -4,32 +4,14 @@ import { useEffect, useRef, useState } from "react";
 import { ChevronDown } from "lucide-react";
 import type { RegionCode } from "@/domain/shared/types";
 import { REGION_META } from "@/domain/shared/types";
-import {
-  REGION_COOKIE,
-  allRegionsForSelector,
-} from "@/lib/region/resolve";
+import { allRegionsForSelector } from "@/lib/region/resolve";
 import {
   regionCommerceCoverage,
   regionCommerceCoverageHint,
 } from "@/lib/region/commerce-readiness";
 import { trackCommercialEvent } from "@/domain/commerce/analytics";
+import { useRegionPreference } from "@/components/region/RegionPreferenceProvider";
 import { cn } from "@/lib/utils";
-
-const MAX_AGE = 60 * 60 * 24 * 365; // 1 year
-
-function readCookieRegion(): RegionCode | null {
-  if (typeof document === "undefined") return null;
-  const match = document.cookie
-    .split("; ")
-    .find((row) => row.startsWith(`${REGION_COOKIE}=`));
-  if (!match) return null;
-  const value = match.split("=")[1];
-  return value && value in REGION_META ? (value as RegionCode) : null;
-}
-
-function writeCookieRegion(code: RegionCode): void {
-  document.cookie = `${REGION_COOKIE}=${code};path=/;max-age=${MAX_AGE};samesite=lax`;
-}
 
 interface RegionSelectorProps {
   /** Server-resolved region used for initial paint */
@@ -40,20 +22,14 @@ interface RegionSelectorProps {
 }
 
 export function RegionSelector({
-  initialRegion,
+  initialRegion: _initialRegion,
   className,
   variant = "utility",
 }: RegionSelectorProps) {
   const [open, setOpen] = useState(false);
-  const [region, setRegion] = useState<RegionCode>(initialRegion);
+  const { region, setRegion } = useRegionPreference();
   const rootRef = useRef<HTMLDivElement>(null);
   const options = allRegionsForSelector();
-
-  useEffect(() => {
-    const fromCookie = readCookieRegion();
-    if (fromCookie && fromCookie !== region) setRegion(fromCookie);
-    // eslint-disable-next-line react-hooks/exhaustive-deps -- hydrate from cookie once
-  }, []);
 
   useEffect(() => {
     function onDocClick(e: MouseEvent) {
@@ -68,11 +44,9 @@ export function RegionSelector({
       setOpen(false);
       return;
     }
-    writeCookieRegion(code);
     trackCommercialEvent("region_changed", { region: code });
     setRegion(code);
     setOpen(false);
-    window.location.reload();
   }
 
   const meta = REGION_META[region];

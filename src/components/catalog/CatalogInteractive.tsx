@@ -1,7 +1,7 @@
 "use client";
 
 import { useCallback, useId, useMemo, useRef, useState } from "react";
-import { useRouter } from "next/navigation";
+import { useRouter, useSearchParams } from "next/navigation";
 import { List, SlidersHorizontal, X } from "lucide-react";
 import type {
   ActiveFilterChip,
@@ -13,12 +13,22 @@ import type {
 import {
   catalogHref,
   clearCatalogFilters,
+  parseCatalogSearchParams,
   removeFilterValue,
 } from "@/lib/catalog/params";
+import {
+  CATALOG_PAGE_SIZE,
+  chipsFromCatalogFilters,
+  filterAndSortCatalogRows,
+  mergeLockedCatalogFilters,
+  paginateCatalogRows,
+  recountFacets,
+} from "@/lib/catalog/client-filter";
 import { CatalogProductCard } from "@/components/catalog/CatalogProductCard";
 import { ShopByFitChips } from "@/components/catalog/ShopByFitChips";
 import { Button, ButtonLink } from "@/components/ui/Button";
 import { useCompareTray } from "@/components/compare/CompareTrayProvider";
+import { useCatalogPriceViewOptional } from "@/components/commerce/CatalogPriceIsland";
 import type { AudienceFit } from "@/lib/product/audience";
 import { AUDIENCE_LABELS } from "@/lib/product/audience";
 import { useModalFocus } from "@/lib/a11y/use-modal-focus";
@@ -50,11 +60,9 @@ interface CatalogInteractiveProps {
 export function CatalogInteractive({
   basePath,
   categoryName,
-  filters,
-  facets,
-  activeFilters,
-  products,
-  total,
+  filters: defaultFilters,
+  facets: serverFacets,
+  products: allProducts,
   availableSorts,
   primaryFilterKeys,
   finderHref,
@@ -64,15 +72,61 @@ export function CatalogInteractive({
   listingLayout,
   lockedTypes = [],
   lockedUseCases = [],
-  page = 1,
-  totalPages = 1,
 }: CatalogInteractiveProps) {
   const router = useRouter();
+  const searchParams = useSearchParams();
   const tray = useCompareTray();
+  const priceView = useCatalogPriceViewOptional();
   const [drawerOpen, setDrawerOpen] = useState(false);
   const titleId = useId();
   const drawerRef = useRef<HTMLDivElement>(null);
   const closeDrawer = useCallback(() => setDrawerOpen(false), []);
+
+  const priceBySlug = useMemo(() => {
+    const out: Record<string, number | undefined> = {};
+    if (!priceView?.map) return out;
+    for (const [slug, row] of Object.entries(priceView.map.products)) {
+      out[slug] = row.lowestPrice?.amount;
+    }
+    return out;
+  }, [priceView]);
+
+  const parsedFromUrl = useMemo(() => {
+    const rec: Record<string, string | string[] | undefined> = {};
+    searchParams.forEach((value, key) => {
+      rec[key] = value;
+    });
+    return parseCatalogSearchParams(rec, defaultFilters.sort);
+  }, [searchParams, defaultFilters.sort]);
+
+  const filters = useMemo(
+    () => mergeLockedCatalogFilters(parsedFromUrl, lockedTypes, lockedUseCases),
+    [parsedFromUrl, lockedTypes, lockedUseCases],
+  );
+
+  const matched = useMemo(
+    () => filterAndSortCatalogRows(allProducts, filters, priceBySlug),
+    [allProducts, filters, priceBySlug],
+  );
+
+  const pageRaw = Number(searchParams.get("page") ?? "1");
+  const requestedPage =
+    Number.isFinite(pageRaw) && pageRaw > 0 ? Math.floor(pageRaw) : 1;
+  const paged = paginateCatalogRows(matched, requestedPage, CATALOG_PAGE_SIZE);
+  const page = paged.page;
+  const totalPages = paged.totalPages;
+  const products = paged.products;
+  const total = matched.length;
+
+  const facets = useMemo(
+    () => recountFacets(serverFacets, allProducts, filters, priceBySlug),
+    [serverFacets, allProducts, filters, priceBySlug],
+  );
+  const activeFilters = useMemo(
+    () =>
+      chipsFromCatalogFilters(filters, facets, lockedTypes, lockedUseCases),
+    [filters, facets, lockedTypes, lockedUseCases],
+  );
 
   const pushState = useCallback(
     (next: CatalogFilterState) => {

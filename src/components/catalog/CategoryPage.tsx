@@ -142,6 +142,7 @@ export function CategoryPage({ data }: { data: AssembledCategoryPage }) {
         title={`All ${category.name}`}
         description={`Filterable catalog · ${productCount} products`}
       >
+        <Suspense fallback={null}>
         <CatalogInteractive
           basePath={data.basePath}
           categoryName={category.name}
@@ -161,6 +162,7 @@ export function CategoryPage({ data }: { data: AssembledCategoryPage }) {
           page={catalog.page}
           totalPages={catalog.totalPages}
         />
+        </Suspense>
       </Section>
 
       {goalUseCases.length > 0 && (

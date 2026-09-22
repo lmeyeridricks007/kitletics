@@ -33,6 +33,16 @@ import {
   getLaunchEligibility,
   isIndexableEligibility,
 } from "@/domain/launch";
+import {
+  toPublicSpecifications,
+  toPublicSpecKeyList,
+  publicSpecRowKey,
+} from "@/lib/specs/public-label";
+import {
+  toPublicCatalogFilterState,
+  toPublicComparisonCriteria,
+  toPublicEditorialGuide,
+} from "@/lib/specs/public-payload";
 
 export interface AssembledCategoryPage {
   sport: Sport;
@@ -138,11 +148,6 @@ export function assembleCategoryPage(input: {
     input.searchParams ?? {},
     config.defaultSort,
   );
-  const pageRaw =
-    typeof input.searchParams?.page === "string"
-      ? Number(input.searchParams.page)
-      : 1;
-  const page = Number.isFinite(pageRaw) && pageRaw > 0 ? Math.floor(pageRaw) : 1;
 
   const catalog = getCatalogProducts(
     {
@@ -150,8 +155,7 @@ export function assembleCategoryPage(input: {
       categoryId: category.id,
       filters,
       region,
-      page,
-      pageSize: 24,
+      unpaginated: true,
     },
     input.options,
   );
@@ -281,25 +285,44 @@ export function assembleCategoryPage(input: {
   return {
     sport,
     category,
-    config,
+    config: {
+      ...config,
+      primaryFilterKeys: toPublicSpecKeyList(config.primaryFilterKeys),
+      numericBuckets: config.numericBuckets
+        ? Object.fromEntries(
+            Object.entries(config.numericBuckets).map(([k, v]) => [
+              publicSpecRowKey(k),
+              v,
+            ]),
+          )
+        : config.numericBuckets,
+    },
     basePath: `/${sport.slug}/${category.pathSegment}`,
     breadcrumbs: resolveBreadcrumbs({
       type: "sport-segment",
       sportSlug: sport.slug,
       segment: category.pathSegment,
     }),
-    filters,
+    filters: toPublicCatalogFilterState(filters),
     catalog,
     subcategories,
     featuredSubcategories,
     otherSubcategories,
     goalUseCases,
     runnerUseCases,
-    picks,
-    bestGuides,
-    comparisons,
+    picks: picks.map((p) => ({
+      ...p,
+      product: {
+        ...p.product,
+        specifications: toPublicSpecifications(
+          p.product.specifications as Record<string, unknown>,
+        ) as typeof p.product.specifications,
+      },
+    })),
+    bestGuides: bestGuides.map(toPublicEditorialGuide),
+    comparisons: comparisons.map(toPublicComparisonCriteria),
     comparisonNames,
-    buyingGuides,
+    buyingGuides: buyingGuides.map(toPublicEditorialGuide),
     tools,
     brands,
     faqs,

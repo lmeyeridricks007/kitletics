@@ -2,8 +2,7 @@ import Image from "next/image";
 import type { ContentSection } from "@/domain/editorial/types";
 import { LinkifiedText } from "@/components/editorial/LinkifiedText";
 import type { CatalogMentionOptions } from "@/lib/editorial/catalog-mentions";
-import { ReviewAmazonCta } from "@/components/review/ReviewAmazonCta";
-import type { OfferRow } from "@/lib/product/get-product-page-data";
+import { ReviewMidArticleCommerce } from "@/components/review/ReviewCommerceCtas";
 import { cn } from "@/lib/utils";
 
 const SCROLL =
@@ -23,12 +22,10 @@ function layoutFor(heading: string, index: number): SectionLayout {
 export function ReviewEditorialSections({
   sections,
   mentionOptions,
-  amazonOffer,
   productName,
 }: {
   sections: ContentSection[];
   mentionOptions?: CatalogMentionOptions;
-  amazonOffer?: OfferRow;
   productName?: string;
 }) {
   const substantive = sections.filter((s) => s.body.trim().length >= MIN_BODY);
@@ -152,23 +149,8 @@ export function ReviewEditorialSections({
               )}
             </section>
 
-            {amazonOffer && productName && index === midIndex ? (
-              <aside className="flex flex-col gap-3 border border-border bg-[#fff8f0] px-5 py-4 sm:flex-row sm:items-center sm:justify-between sm:px-6">
-                <div className="min-w-0">
-                  <p className="text-[11px] font-bold tracking-[0.12em] text-foreground uppercase">
-                    Ready to buy?
-                  </p>
-                  <p className="mt-1 text-[14px] text-muted">
-                    Check current {productName} pricing on Amazon.
-                  </p>
-                </div>
-                <ReviewAmazonCta
-                  offer={amazonOffer}
-                  productName={productName}
-                  placement="review"
-                  variant="banner"
-                />
-              </aside>
+            {productName && index === midIndex ? (
+              <ReviewMidArticleCommerce productName={productName} />
             ) : null}
           </div>
         );

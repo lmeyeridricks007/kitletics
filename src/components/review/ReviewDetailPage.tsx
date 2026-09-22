@@ -1,6 +1,5 @@
 import Link from "next/link";
 import { Container } from "@/components/layout/Container";
-import { OfferPanel } from "@/components/product/OfferPanel";
 import { TrustRow } from "@/components/home/TrustRow";
 import { LinkifiedText } from "@/components/editorial/LinkifiedText";
 import { ReviewHero } from "@/components/review/ReviewHero";
@@ -12,7 +11,9 @@ import { ReviewEditorialSections } from "@/components/review/ReviewEditorialSect
 import { ReviewComparisonTable } from "@/components/review/ReviewComparisonTable";
 import { ReviewRelatedLinks } from "@/components/review/ReviewRelatedLinks";
 import { ReviewVerdictCard } from "@/components/review/ReviewVerdictCard";
-import { pickAmazonOffer } from "@/lib/review/amazon-offer";
+import { ProductCommerceIsland } from "@/components/product/ProductCommerceIsland";
+import { CommerceOfferPanel } from "@/components/product/CommerceOfferPanel";
+import { reviewPageDataToCommerce } from "@/lib/review/review-commerce-from-page";
 import {
   JsonLdScript,
   reviewJsonLd,
@@ -25,9 +26,6 @@ import {
   type ReviewPageData,
 } from "@/lib/review/get-review-page-data";
 import { formatVerifiedDate } from "@/lib/product/score";
-
-const SCROLL =
-  "scroll-mt-[calc(var(--site-chrome-height)+3.25rem)]";
 
 function sourceDisclosure(data: ReviewPageData): string | undefined {
   const source =
@@ -55,8 +53,6 @@ export function ReviewDetailPage({ data }: { data: ReviewPageData }) {
     brand,
     author,
     offers,
-    offersOtherRegions,
-    regionLabel,
     faqs,
     newerGeneration,
     sectionNav,
@@ -68,7 +64,6 @@ export function ReviewDetailPage({ data }: { data: ReviewPageData }) {
 
   const disclosure = sourceDisclosure(data);
   const showAssessment = showResearchModule && !showTestingModule;
-  const amazonOffer = pickAmazonOffer(offers);
   const mentionOptions = {
     excludeProductIds: [product.id],
     preferProductIds: [
@@ -76,6 +71,8 @@ export function ReviewDetailPage({ data }: { data: ReviewPageData }) {
       ...comparisonTable.map((row) => row.product.id),
     ].filter((id) => id !== product.id),
   };
+
+  const initialCommerce = reviewPageDataToCommerce(data);
 
   return (
     <>
@@ -92,6 +89,10 @@ export function ReviewDetailPage({ data }: { data: ReviewPageData }) {
         ]}
       />
 
+      <ProductCommerceIsland
+        slug={product.slug}
+        initialCommerce={initialCommerce}
+      >
       <ReviewHero data={data} />
       <ReviewSectionNav items={sectionNav} />
 
@@ -102,7 +103,6 @@ export function ReviewDetailPage({ data }: { data: ReviewPageData }) {
         <ReviewEditorialSections
           sections={review.sections}
           mentionOptions={mentionOptions}
-          amazonOffer={amazonOffer}
           productName={product.fullName}
         />
         <ReviewComparisonTable
@@ -221,11 +221,7 @@ export function ReviewDetailPage({ data }: { data: ReviewPageData }) {
           )}
         </div>
 
-        <section id="offers" className={SCROLL}>
-          <OfferPanel
-            offers={offers}
-            otherRegionOffers={offersOtherRegions}
-            regionLabel={regionLabel}
+          <CommerceOfferPanel
             productName={product.fullName}
             placement="review"
           />
@@ -237,10 +233,10 @@ export function ReviewDetailPage({ data }: { data: ReviewPageData }) {
               View full specifications and product details →
             </Link>
           </p>
-        </section>
       </Container>
 
       <TrustRow />
+      </ProductCommerceIsland>
     </>
   );
 }

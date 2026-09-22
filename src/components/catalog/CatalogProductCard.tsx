@@ -3,7 +3,7 @@ import Link from "next/link";
 import { cn } from "@/lib/utils";
 import { getScoreBand } from "@/lib/product/score";
 import { ProductImageFallback } from "@/components/media/ProductImageFallback";
-import { PriceBadge } from "@/components/content/PriceBadge";
+import { CatalogFromPrice } from "@/components/commerce/CatalogPriceIsland";
 import type { CatalogProductRow } from "@/lib/catalog/types";
 import { IMAGE_QUALITY, IMAGE_SIZES } from "@/lib/media/image-delivery";
 
@@ -169,9 +169,14 @@ export function CatalogProductCard({
                 {score.toFixed(1)}
               </span>
             )}
-            {price && (
-              <PriceBadge amount={price.price} currency={price.currency} from />
-            )}
+            <CatalogFromPrice
+              slug={slug}
+              fallback={
+                price
+                  ? { price: price.price, currency: price.currency }
+                  : null
+              }
+            />
           </div>
           {onToggleCompare && (
             <label className="flex cursor-pointer items-center gap-1.5 text-[11px] text-muted">

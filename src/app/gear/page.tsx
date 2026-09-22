@@ -1,15 +1,17 @@
 import type { Metadata } from "next";
 import { siteConfig } from "@/content/config";
-import { getRequestRegion } from "@/lib/region/server";
-import {
-  getGearHubData,
-  parseGearHubFilters,
-} from "@/lib/gear-hub";
+import { getGearHubData } from "@/lib/gear-hub";
 import { GearHubPage } from "@/components/gear-hub/GearHubPage";
+import { DEFAULT_REGION } from "@/domain/shared/types";
+import { CatalogPriceIsland } from "@/components/commerce/CatalogPriceIsland";
+import { getGearHubCatalogPrices } from "@/lib/commerce/get-scoped-catalog-prices";
 
+/**
+ * Canonical /gear hub — ISR. Filters are client URL state.
+ * Regional prices hydrate from GET /api/gear/commerce/[region].
+ */
+export const revalidate = 86400;
 
-/** Request-time / heavy catalog pages — skip SSG to keep builds healthy. */
-export const dynamic = "force-dynamic";
 export const metadata: Metadata = {
   title: "Sports Gear & Equipment",
   description:
@@ -19,15 +21,13 @@ export const metadata: Metadata = {
   },
 };
 
-interface PageProps {
-  searchParams: Promise<Record<string, string | string[] | undefined>>;
-}
+export default function GearRoutePage() {
+  const data = getGearHubData({ region: DEFAULT_REGION, filters: {} });
+  const initialMap = getGearHubCatalogPrices(DEFAULT_REGION);
 
-export default async function GearRoutePage({ searchParams }: PageProps) {
-  const sp = await searchParams;
-  const region = await getRequestRegion();
-  const filters = parseGearHubFilters(sp);
-  const data = getGearHubData({ region, filters });
-
-  return <GearHubPage data={data} />;
+  return (
+    <CatalogPriceIsland endpoint="/api/gear/commerce" initialMap={initialMap}>
+      <GearHubPage data={data} />
+    </CatalogPriceIsland>
+  );
 }

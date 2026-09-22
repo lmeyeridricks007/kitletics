@@ -82,7 +82,12 @@ import {
   resolveDecisionCopyForProduct,
   type CanonicalDecisionCopy,
 } from "@/lib/decision-copy";
-import { formatPublicSpecDisplayLabel, formatPublicSpecValueToken, publicSpecRowKey } from "@/lib/specs/public-label";
+import { formatPublicSpecDisplayLabel, formatPublicSpecValueToken, publicSpecRowKey, toPublicSpecifications } from "@/lib/specs/public-label";
+import {
+  toPublicComparisonCriteria,
+  toPublicEditorialGuide,
+  toPublicProduct,
+} from "@/lib/specs/public-payload";
 
 export { REVIEW_TYPE_META, PRODUCT_SOURCE_LABELS };
 
@@ -417,7 +422,7 @@ function buildComparisonTable(
       },
     );
     return {
-      product: p,
+      product: toPublicProduct(p),
       brandName: brand?.name,
       href: `/products/${p.slug}`,
       image: getPrimaryProductMedia(p),
@@ -566,7 +571,7 @@ export function getReviewPageData(
     seenAlt.add(alt.id);
     alternatives.push({
       relationship,
-      product: alt,
+      product: toPublicProduct(alt),
       brand: getBrandById(alt.brandId, options),
       reasonLabel:
         ALT_LABELS[relationship.relationshipType] ??
@@ -588,7 +593,7 @@ export function getReviewPageData(
         reasons: ["Listed alternative"],
         relationshipType: "better-value",
       },
-      product: alt,
+      product: toPublicProduct(alt),
       brand: getBrandById(alt.brandId, options),
       reasonLabel: "Alternative",
     });
@@ -604,7 +609,7 @@ export function getReviewPageData(
       if (!byId.has(c.id)) byId.set(c.id, c);
     }
     return [...byId.values()].slice(0, 4).map((comparison) => ({
-      comparison,
+      comparison: toPublicComparisonCriteria(comparison),
       productNames: comparison.productIds
         .map((id) => getProductById(id, options)?.name)
         .filter((n): n is string => Boolean(n)),
@@ -642,8 +647,8 @@ export function getReviewPageData(
       if (!cur && !prev) continue;
       if (cur?.value === prev?.value) continue;
       familyDiffs.push({
-        key,
-        label: cur?.label ?? prev?.label ?? key,
+        key: publicSpecRowKey(key),
+        label: cur?.label ?? prev?.label ?? formatPublicSpecDisplayLabel(key),
         current: cur
           ? `${cur.value}${cur.unit ? ` ${cur.unit}` : ""}`
           : undefined,
@@ -763,7 +768,12 @@ export function getReviewPageData(
 
   return {
     review: enrichedReview,
-    product,
+    product: {
+      ...product,
+      specifications: toPublicSpecifications(
+        product.specifications as Record<string, unknown>,
+      ) as typeof product.specifications,
+    },
     brand,
     author,
     category,
@@ -772,6 +782,11 @@ export function getReviewPageData(
       defaultSectionKeys: config.defaultSectionKeys.map(publicSpecRowKey),
       keySpecKeys: config.keySpecKeys.map(publicSpecRowKey),
       glanceKeys: config.glanceKeys.map(publicSpecRowKey),
+      comparisonColumns: config.comparisonColumns.map((col) =>
+        col.specKey
+          ? { ...col, specKey: publicSpecRowKey(col.specKey) }
+          : col,
+      ),
     },
     displayScore,
     scoreBandLabel: getScoreBand(displayScore).label,
@@ -793,11 +808,15 @@ export function getReviewPageData(
     comparisons,
     comparisonTable,
     family,
-    previousGeneration,
-    newerGeneration,
+    previousGeneration: previousGeneration
+      ? toPublicProduct(previousGeneration)
+      : previousGeneration,
+    newerGeneration: newerGeneration
+      ? toPublicProduct(newerGeneration)
+      : newerGeneration,
     familyDiffs,
-    bestGuides,
-    buyingGuides,
+    bestGuides: bestGuides.map(toPublicEditorialGuide),
+    buyingGuides: buyingGuides.map(toPublicEditorialGuide),
     faqs,
     breadcrumbs: [
       { label: "Home", href: "/" },

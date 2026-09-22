@@ -1,0 +1,63 @@
+---
+description: Local-first deploy workflow — never use Vercel as tsc; batch changes; report cost impact.
+alwaysApply: true
+---
+
+# Deployment workflow
+
+Vercel is production hosting. It is **not** the compiler, linter, test runner, or `next build`. Failed production builds still bill **Build CPU** (Kitletics turbo, often 4–12 min). Agent loops that push “to see if Vercel builds” caused 16 Kitletics production deploys in ~6 days.
+
+Until the user says **Deploy this now.**: do not `git push`, do not deploy, do not create commits merely to trigger a Vercel build.
+
+## Required
+
+```text
+PLAN
+→ IMPLEMENT LOCALLY
+→ LINT
+→ TYPECHECK
+→ TEST
+→ PRODUCTION BUILD
+→ COST CHECK
+→ REVIEW DIFF
+→ COMMIT
+→ PUSH
+```
+
+```bash
+npm run validate:local          # lint, typecheck, test, next build
+npm run audit:vercel-cost       # cost anti-patterns — do not “fix” by deploying
+```
+
+Fix lint / type / test / build failures **locally**. Batch related application changes into **one** deployment candidate. Docs, reports, `.cursor/`, and other non-app files must not rebuild production (`vercel.json` `ignoreCommand` → `node scripts/vercel-ignored-build.mjs`; exit 0 = skip, exit 1 = build).
+
+## Forbidden
+
+```text
+CHANGE → PUSH → WAIT FOR VERCEL → FIX → PUSH
+```
+
+Do not use Vercel to discover TypeScript, lint, test, or `next build` errors. Do not auto-push or auto-deploy.
+
+## Mandatory completion output (implementation tasks)
+
+```text
+LOCAL VALIDATION:
+Lint:
+Types:
+Tests:
+Production build:
+
+VERCEL COST IMPACT
+Build CPU: LOWER / NEUTRAL / HIGHER
+Fluid CPU: LOWER / NEUTRAL / HIGHER
+Origin Transfer: LOWER / NEUTRAL / HIGHER
+ISR: LOWER / NEUTRAL / HIGHER
+Images: LOWER / NEUTRAL / HIGHER
+Observability: LOWER / NEUTRAL / HIGHER
+
+DEPLOYMENT REQUIRED: YES/NO
+SAFE TO DEPLOY: YES/NO
+```
+
+Any **HIGHER** cost line must be explained. `SAFE TO DEPLOY: YES` only after lint, typecheck, tests, and production build passed locally. Push/deploy only when the user says **Deploy this now.**

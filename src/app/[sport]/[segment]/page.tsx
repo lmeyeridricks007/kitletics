@@ -1,3 +1,5 @@
+import { cache } from "react";
+import type { ReactNode } from "react";
 import { notFound, permanentRedirect } from "next/navigation";
 import type { Metadata } from "next";
 import Link from "next/link";
@@ -12,59 +14,53 @@ import { countListableCategoryProducts } from "@/lib/catalog/listable-products";
 import { siteConfig } from "@/content/config";
 import {
   getSportBySlug,
-  getSports,
   getDisciplineBySlug,
-  getDisciplinesBySport,
   getCategoryByPathSegment,
-  getCategoriesBySport,
   getProductsByDiscipline,
   getBrandById,
   getLowestOfferPrice,
 } from "@/repositories";
 import { getCategoryHref, isSoftGatedCategory } from "@/lib/navigation/category-href";
 import { resolveChildSportRedirect } from "@/lib/seo/category-canonical";
-import {
-  hasNonCanonicalQueryState,
-  NOINDEX_FOLLOW,
-} from "@/lib/seo/query-state";
+import { NOINDEX_FOLLOW } from "@/lib/seo/query-state";
 import {
   getLaunchEligibility,
   isIndexableEligibility,
 } from "@/domain/launch";
+import { DEFAULT_REGION } from "@/domain/shared/types";
+import { CatalogPriceIsland } from "@/components/commerce/CatalogPriceIsland";
+import { getCategoryCatalogPrices } from "@/lib/commerce/get-scoped-catalog-prices";
+import { emptyCatalogPriceMap } from "@/lib/commerce/catalog-price-map";
 
+/**
+ * Canonical sport/category shell — on-demand ISR.
+ * Facets live in the client. Regional card prices hydrate from
+ * GET /api/catalog/[sport]/[segment]/commerce/[region].
+ * Running-shoes entry redirects are handled in middleware.
+ */
+export const revalidate = 86400;
+export const dynamicParams = true;
 
-/** Request-time / heavy catalog pages — skip SSG to keep builds healthy. */
-export const dynamic = "force-dynamic";
 interface PageProps {
   params: Promise<{ sport: string; segment: string }>;
-  searchParams: Promise<Record<string, string | string[] | undefined>>;
 }
 
-export async function generateStaticParams() {
-  const params: { sport: string; segment: string }[] = [];
-  for (const sport of getSports()) {
-    if (sport.contentStatus !== "live") continue;
-    for (const d of getDisciplinesBySport(sport.id)) {
-      // Child-sport disciplines (e.g. /racket/padel) redirect to /padel
-      if (resolveChildSportRedirect(sport, d.slug)) continue;
-      params.push({ sport: sport.slug, segment: d.slug });
-    }
-    for (const c of getCategoriesBySport(sport.id)) {
-      if (countListableCategoryProducts(c.id, sport.id) === 0) continue;
-      const canonical = getCategoryHref(c);
-      if (canonical !== `/${sport.slug}/${c.pathSegment}`) continue;
-      params.push({ sport: sport.slug, segment: c.pathSegment });
-    }
-  }
-  return params;
+export function generateStaticParams() {
+  return [];
 }
+
+const getCachedCategoryPage = cache((sportSlug: string, pathSegment: string) =>
+  assembleCategoryPage({
+    sportSlug,
+    pathSegment,
+    region: DEFAULT_REGION,
+  }),
+);
 
 export async function generateMetadata({
   params,
-  searchParams,
 }: PageProps): Promise<Metadata> {
   const { sport: sportSlug, segment } = await params;
-  const sp = await searchParams;
   const sport = getSportBySlug(sportSlug);
   if (!sport) return { title: "Not found" };
   const sportIndexable = isIndexableEligibility(
@@ -100,10 +96,7 @@ export async function generateMetadata({
       alternates: {
         canonical: `${siteConfig.url}/${sportSlug}/${segment}`,
       },
-      robots:
-        hasNonCanonicalQueryState(sp) || !sportIndexable
-          ? NOINDEX_FOLLOW
-          : undefined,
+      robots: !sportIndexable ? NOINDEX_FOLLOW : undefined,
     };
   }
 
@@ -117,7 +110,6 @@ export async function generateMetadata({
   const description =
     category.seoDescription ??
     `Compare ${category.name.toLowerCase()} for ${sport.name.toLowerCase()}. Filter by specs, use finders and browse structured recommendations.`;
-  const queryBlocked = hasNonCanonicalQueryState(sp);
   const nonCanonicalShell = canonicalHref !== `/${sport.slug}/${category.pathSegment}`;
   const softGated = isSoftGatedCategory(category);
 
@@ -129,8 +121,7 @@ export async function generateMetadata({
       alternates: {
         canonical: `${siteConfig.url}/${sport.slug}/${category.pathSegment}`,
       },
-      robots:
-        queryBlocked || !sportIndexable ? NOINDEX_FOLLOW : undefined,
+      robots: !sportIndexable ? NOINDEX_FOLLOW : undefined,
       openGraph: {
         title: "Running Shoes: Compare Trainers, Race & Trail Shoes",
         description:
@@ -148,7 +139,7 @@ export async function generateMetadata({
       canonical: `${siteConfig.url}${canonicalHref}`,
     },
     robots:
-      queryBlocked || nonCanonicalShell || softGated || !sportIndexable
+      nonCanonicalShell || softGated || !sportIndexable
         ? NOINDEX_FOLLOW
         : undefined,
     openGraph: {
@@ -160,12 +151,8 @@ export async function generateMetadata({
   };
 }
 
-export default async function SportSegmentPage({
-  params,
-  searchParams,
-}: PageProps) {
+export default async function SportSegmentPage({ params }: PageProps) {
   const { sport: sportSlug, segment } = await params;
-  const sp = await searchParams;
   const sport = getSportBySlug(sportSlug);
   if (!sport) notFound();
 
@@ -185,12 +172,10 @@ export default async function SportSegmentPage({
       "@/lib/discipline-hub"
     );
     if (hasMockupDisciplineHub(sportSlug, segment)) {
-      const { getRequestRegion } = await import("@/lib/region/server");
-      const region = await getRequestRegion();
       const data = getDisciplineHubData({
         sportSlug,
         disciplineSlug: segment,
-        region,
+        region: DEFAULT_REGION,
       });
       if (!data) notFound();
       const { DisciplineHubPage } = await import(
@@ -214,7 +199,6 @@ export default async function SportSegmentPage({
   const category = getCategoryByPathSegment(sport.id, segment);
   if (!category) notFound();
 
-  // Empty / held vertical shells are not public catalog surfaces
   if (countListableCategoryProducts(category.id, sport.id) === 0) {
     notFound();
   }
@@ -225,19 +209,19 @@ export default async function SportSegmentPage({
     permanentRedirect(canonicalHref);
   }
 
+  const initialMap =
+    getCategoryCatalogPrices(sportSlug, segment, DEFAULT_REGION) ??
+    emptyCatalogPriceMap(DEFAULT_REGION);
+  const island = (children: ReactNode) => (
+    <CatalogPriceIsland
+      endpoint={`/api/catalog/${encodeURIComponent(sportSlug)}/${encodeURIComponent(segment)}/commerce`}
+      initialMap={initialMap}
+    >
+      {children}
+    </CatalogPriceIsland>
+  );
+
   if (sportSlug === "running" && segment === "shoes") {
-    const { getRequestRegion } = await import("@/lib/region/server");
-    const region = await getRequestRegion();
-
-    const { resolveRunningShoesEntryRedirect } = await import(
-      "@/lib/catalog/params"
-    );
-    const entryRedirect = resolveRunningShoesEntryRedirect(sp);
-    if (entryRedirect) {
-      const { redirect } = await import("next/navigation");
-      redirect(entryRedirect);
-    }
-
     const { getRunningShoesCategoryPage } = await import(
       "@/lib/catalog/get-running-shoes-category-page"
     );
@@ -245,21 +229,16 @@ export default async function SportSegmentPage({
       "@/components/catalog/running-shoes/RunningShoesCategoryPage"
     );
     const shoesData = getRunningShoesCategoryPage({
-      searchParams: sp,
-      region,
+      region: DEFAULT_REGION,
     });
     if (!shoesData) notFound();
-    return <RunningShoesCategoryPage data={shoesData} />;
+    return island(<RunningShoesCategoryPage data={shoesData} />);
   }
 
-  const data = assembleCategoryPage({
-    sportSlug,
-    pathSegment: segment,
-    searchParams: sp,
-  });
+  const data = getCachedCategoryPage(sportSlug, segment);
   if (!data || data.productCount === 0) notFound();
 
-  return <CategoryPage data={data} />;
+  return island(<CategoryPage data={data} />);
 }
 
 function DisciplineLayout({

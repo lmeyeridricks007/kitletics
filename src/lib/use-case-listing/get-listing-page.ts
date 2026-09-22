@@ -12,6 +12,8 @@ import type {
   CatalogProductRow,
   CatalogSort,
 } from "@/lib/catalog/types";
+import { toPublicSpecKeyList, publicSpecRowKey } from "@/lib/specs/public-label";
+import { toPublicCatalogFilterState } from "@/lib/specs/public-payload";
 import {
   getBestGuideBySlug,
   getBrandById,
@@ -154,16 +156,7 @@ export function getUseCaseListingPageData(input: {
       categoryId: category.id,
       filters,
       region,
-      page: (() => {
-        const pageRaw =
-          typeof input.searchParams?.page === "string"
-            ? Number(input.searchParams.page)
-            : 1;
-        return Number.isFinite(pageRaw) && pageRaw > 0
-          ? Math.floor(pageRaw)
-          : 1;
-      })(),
-      pageSize: 24,
+      unpaginated: true,
     },
     options,
   );
@@ -317,7 +310,18 @@ export function getUseCaseListingPageData(input: {
   });
 
   return {
-    config,
+    config: {
+      ...config,
+      primaryFilterKeys: toPublicSpecKeyList(config.primaryFilterKeys),
+      defaultSpecs: config.defaultSpecs
+        ? Object.fromEntries(
+            Object.entries(config.defaultSpecs).map(([k, v]) => [
+              publicSpecRowKey(k),
+              v,
+            ]),
+          )
+        : config.defaultSpecs,
+    },
     sportName: sport.name,
     categoryName: category.name,
     categorySlug: category.slug,
@@ -325,7 +329,7 @@ export function getUseCaseListingPageData(input: {
     breadcrumbs,
     productCount: total,
     verifiedLabel,
-    filters,
+    filters: toPublicCatalogFilterState(filters),
     lockedType,
     lockedUseCase,
     facets,
@@ -355,14 +359,20 @@ export function listingBrandName(
 const LISTING_FACET_LABELS: Record<string, string> = {
   type: "Shoe Type",
   recommendedDistance: "Distance",
+  "recommended-distance": "Distance",
   cushionLevel: "Cushioning",
+  cushioning: "Cushioning",
   drop: "Drop (mm)",
   weight: "Weight (g)",
   brand: "Brand",
   price: "Price",
   widthOptions: "Width",
+  "available-widths": "Width",
   stability: "Stability",
   terrain: "Terrain",
+  fit: "Fit",
+  "minimum-weight": "Minimum weight",
+  weightMin: "Minimum weight",
 };
 
 function shapeListingFacets(input: {
@@ -405,10 +415,13 @@ function shapeListingFacets(input: {
     if (
       facet.key === "brand" ||
       facet.key === "recommendedDistance" ||
+      facet.key === "recommended-distance" ||
       facet.key === "cushionLevel" ||
+      facet.key === "cushioning" ||
       facet.key === "terrain" ||
       facet.key === "stability" ||
-      facet.key === "widthOptions"
+      facet.key === "widthOptions" ||
+      facet.key === "available-widths"
     ) {
       const options = facet.options.filter((o) => o.count > 0);
       return { ...facet, label, options };
@@ -420,7 +433,9 @@ function shapeListingFacets(input: {
   void listingProducts;
 
   if (primaryFilterKeys.length === 0) return shaped;
-  const rank = new Map(primaryFilterKeys.map((k, i) => [k, i]));
+  // Facet keys are public-safe; config primaryFilterKeys may still be canonical.
+  const publicPrimary = toPublicSpecKeyList(primaryFilterKeys);
+  const rank = new Map(publicPrimary.map((k, i) => [k, i]));
   return shaped
     .filter((f) => rank.has(f.key) || f.key === "price")
     .sort(

@@ -1,33 +1,48 @@
+import { cache } from "react";
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import { ProductAlternativesPage } from "@/components/alternatives/ProductAlternativesPage";
-import { getProducts, getProductBySlug } from "@/repositories";
+import { getProductBySlug } from "@/repositories";
 import {
   alternativesCanonicalPath,
   getAlternativesPageData,
 } from "@/lib/product/get-alternatives-page-data";
+import { DEFAULT_REGION } from "@/domain/shared/types";
 import {
   getLaunchEligibility,
   isIndexableEligibility,
 } from "@/domain/launch";
 import { siteConfig } from "@/content/config";
 
+/**
+ * Canonical alternatives — on-demand ISR.
+ * One cached HTML document per pathname; default-region (NL) prices in the
+ * server document. Do not walk the catalog at build. Do not read cookies here.
+ */
+export const revalidate = 86400;
+export const dynamicParams = true;
 
-/** Request-time / heavy catalog pages — skip SSG to keep builds healthy. */
-export const dynamic = "force-dynamic";
 interface PageProps {
   params: Promise<{ slug: string }>;
 }
 
-export async function generateStaticParams() {
-  return getProducts().map((p) => ({ slug: p.slug }));
+/** Empty list → first legitimate request generates, then Incremental Cache. */
+export function generateStaticParams() {
+  return [];
 }
+
+const getCachedAlternativesPageData = cache((slug: string) =>
+  getAlternativesPageData(slug, {
+    isDev: false,
+    region: DEFAULT_REGION,
+  }),
+);
 
 export async function generateMetadata({
   params,
 }: PageProps): Promise<Metadata> {
   const { slug } = await params;
-  const data = getAlternativesPageData(slug, { isDev: false });
+  const data = getCachedAlternativesPageData(slug);
   if (!data) return { title: "Alternatives" };
 
   // Fix 82 — robots consume the same canonical policy as sitemap eligibility.
@@ -65,7 +80,7 @@ export async function generateMetadata({
 
 export default async function ProductAlternativesRoute({ params }: PageProps) {
   const { slug } = await params;
-  const data = getAlternativesPageData(slug, { isDev: false });
+  const data = getCachedAlternativesPageData(slug);
   if (!data) notFound();
 
   return <ProductAlternativesPage data={data} />;

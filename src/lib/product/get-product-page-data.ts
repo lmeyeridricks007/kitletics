@@ -8,7 +8,12 @@ import {
   type SpecGroupId,
 } from "@/lib/product/category-config";
 import { getProductDetailConfig } from "@/lib/product/product-detail-config";
-import { formatPublicSpecDisplayLabel, formatPublicSpecValueToken, publicSpecRowKey } from "@/lib/specs/public-label";
+import { formatPublicSpecDisplayLabel, formatPublicSpecValueToken, publicSpecRowKey, toPublicSpecifications } from "@/lib/specs/public-label";
+import {
+  toPublicComparisonCriteria,
+  toPublicEditorialGuide,
+  toPublicProduct,
+} from "@/lib/specs/public-payload";
 import { resolveBreadcrumbs } from "@/lib/navigation/breadcrumbs";
 import {
   getProductBySlug,
@@ -244,6 +249,23 @@ function sortOffers(offers: Offer[]): Offer[] {
   return rankOffersForProduct(offers, retailersById);
 }
 
+/** Public page payload must not ship raw camelCase/snake schema keys in config arrays. */
+function toPublicPageConfig(
+  config: ProductPageCategoryConfig,
+): ProductPageCategoryConfig {
+  const mapKeys = (keys: string[]) => keys.map((k) => publicSpecRowKey(k));
+  return {
+    ...config,
+    featuredSpecificationKeys: mapKeys(config.featuredSpecificationKeys),
+    comparisonPriorityKeys: mapKeys(config.comparisonPriorityKeys),
+    classificationSpecKeys: mapKeys(config.classificationSpecKeys),
+    specificationGroups: config.specificationGroups.map((group) => ({
+      ...group,
+      keys: mapKeys(group.keys),
+    })),
+  };
+}
+
 /**
  * Assembles everything the Product Detail page needs via repositories.
  */
@@ -407,7 +429,7 @@ export function getProductPageData(
     .map((id) => getProductById(id, options))
     .filter((p): p is Product => Boolean(p))
     .map((p) => ({
-      product: p,
+      product: toPublicProduct(p),
       isCurrent: p.id === product.id,
     }));
 
@@ -426,7 +448,7 @@ export function getProductPageData(
       return [
         {
           relationship,
-          product: alt,
+          product: toPublicProduct(alt),
           brand: getBrandById(alt.brandId, options),
           reasonLabel:
             ALT_LABELS[relationship.relationshipType] ??
@@ -484,7 +506,12 @@ export function getProductPageData(
   );
 
   return {
-    product,
+    product: {
+      ...product,
+      specifications: toPublicSpecifications(
+        product.specifications as Record<string, unknown>,
+      ) as Product["specifications"],
+    },
     brand,
     family,
     familyMembers,
@@ -495,7 +522,7 @@ export function getProductPageData(
     subcategories,
     classifications: [...new Set(classifications)].slice(0, 5),
     useCases: graph.useCases.filter((u): u is UseCase => Boolean(u)),
-    config,
+    config: toPublicPageConfig(config),
     specDefs: specDefs.map((def) => ({
       ...def,
       key: publicSpecRowKey(def.key),
@@ -528,11 +555,11 @@ export function getProductPageData(
     region,
     regionLabel: REGION_META[region].label,
     review,
-    comparisons: graph.comparisons,
+    comparisons: graph.comparisons.map(toPublicComparisonCriteria),
     comparisonNames,
     alternatives,
-    bestGuides: graph.bestGuides,
-    buyingGuides: graph.buyingGuides,
+    bestGuides: graph.bestGuides.map(toPublicEditorialGuide),
+    buyingGuides: graph.buyingGuides.map(toPublicEditorialGuide),
     tools,
     faqs,
     breadcrumbs,

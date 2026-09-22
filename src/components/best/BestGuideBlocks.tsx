@@ -3,6 +3,7 @@ import Image from "next/image";
 import { cn } from "@/lib/utils";
 import type { GuideRecommendationBlock } from "@/lib/best/get-best-guide-page-data";
 import { PriceBadge } from "@/components/content/PriceBadge";
+import { CatalogFromPrice } from "@/components/commerce/CatalogPriceIsland";
 import { RatingBadge } from "@/components/content/RatingBadge";
 import { Badge } from "@/components/ui/Badge";
 import { ScrollableTableRegion } from "@/components/ui/ScrollableTableRegion";
@@ -54,10 +55,12 @@ export function QuickPicks({
                 <RatingBadge score={rec.product.recommendationScore} />
               )}
               {rec.lowestPrice && (
-                <PriceBadge
-                  amount={rec.lowestPrice.price}
-                  currency={rec.lowestPrice.currency}
-                  from
+                <CatalogFromPrice
+                  slug={rec.product.slug}
+                  fallback={{
+                    price: rec.lowestPrice.price,
+                    currency: rec.lowestPrice.currency,
+                  }}
                 />
               )}
             </div>
@@ -347,10 +350,12 @@ export function RecommendationBlock({
           ) : null}
           {rec.lowestPrice && (
             <div className="absolute bottom-3 left-3">
-              <PriceBadge
-                amount={rec.lowestPrice.price}
-                currency={rec.lowestPrice.currency}
-                from
+              <CatalogFromPrice
+                slug={rec.product.slug}
+                fallback={{
+                  price: rec.lowestPrice.price,
+                  currency: rec.lowestPrice.currency,
+                }}
               />
             </div>
           )}

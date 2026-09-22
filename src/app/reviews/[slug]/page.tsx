@@ -1,10 +1,11 @@
+import { cache } from "react";
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import { ReviewDetailPage } from "@/components/review/ReviewDetailPage";
 import { getReviewPageData } from "@/lib/review/get-review-page-data";
-import { getReviewBySlug, getReviews, getProductById } from "@/repositories";
+import { getReviewBySlug, getProductById } from "@/repositories";
 import { reviewMetadata } from "@/lib/seo/metadata";
-import { getRequestRegion } from "@/lib/region/server";
+import { DEFAULT_REGION } from "@/domain/shared/types";
 import {
   getLaunchEligibility,
   isLaunchPreviewContext,
@@ -15,22 +16,43 @@ import {
 } from "@/lib/launch/apply-eligibility";
 import { LaunchEligibilityDebug } from "@/components/launch/LaunchEligibilityDebug";
 
+/**
+ * Canonical review — on-demand ISR.
+ * Editorial HTML is DEFAULT_REGION (NL). Regional prices hydrate from
+ * GET /api/products/[productSlug]/commerce/[region]. Do not read cookies here.
+ */
+export const revalidate = 86400;
+export const dynamicParams = true;
 
-/** Request-time / heavy catalog pages — skip SSG to keep builds healthy. */
-export const dynamic = "force-dynamic";
 interface PageProps {
   params: Promise<{ slug: string }>;
 }
 
-export async function generateStaticParams() {
-  return getReviews().map((r) => ({ slug: r.slug }));
+/** Empty list → first legitimate request generates, then Incremental Cache. */
+export function generateStaticParams() {
+  return [];
 }
+
+function reviewPublishOptions() {
+  return { isDev: process.env.NODE_ENV !== "production" } as const;
+}
+
+const getCachedReview = cache((slug: string) =>
+  getReviewBySlug(slug, reviewPublishOptions()),
+);
+
+const getCachedReviewPageData = cache((slug: string) =>
+  getReviewPageData(slug, {
+    region: DEFAULT_REGION,
+    ...reviewPublishOptions(),
+  }),
+);
 
 export async function generateMetadata({
   params,
 }: PageProps): Promise<Metadata> {
   const { slug } = await params;
-  const review = getReviewBySlug(slug);
+  const review = getCachedReview(slug);
   if (!review) return { title: "Review" };
   const product = getProductById(review.productId);
   const elig = getLaunchEligibility({ kind: "review", entity: review });
@@ -42,19 +64,13 @@ export async function generateMetadata({
 
 export default async function ReviewPage({ params }: PageProps) {
   const { slug } = await params;
-  const review = getReviewBySlug(slug, {
-    isDev: process.env.NODE_ENV !== "production",
-  });
+  const review = getCachedReview(slug);
   if (!review) notFound();
 
   const elig = getLaunchEligibility({ kind: "review", entity: review });
   enforceLaunchEligibility(elig);
 
-  const region = await getRequestRegion();
-  const data = getReviewPageData(slug, {
-    region,
-    isDev: process.env.NODE_ENV !== "production",
-  });
+  const data = getCachedReviewPageData(slug);
   if (!data) notFound();
 
   return (

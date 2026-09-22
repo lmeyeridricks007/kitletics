@@ -106,6 +106,11 @@ const CONSUMER_SPEC_LABELS: Record<string, string> = {
   finish: "finish",
   closure: "closure",
   genderFit: "fit",
+  courtFeel: "court feel",
+  lateralStability: "lateral stability",
+  tractionPattern: "traction pattern",
+  surfaceCompatibility: "surface compatibility",
+  courtOutsole: "court outsole",
   // Accessory type enum values (stored under specifications.type)
   protector: "frame protector",
   pressurizer: "ball pressurizer",
@@ -145,6 +150,9 @@ const DISPLAY_LABEL_OVERRIDES: Record<string, string> = {
   gripType: "Grip type",
   ballType: "Ball type",
   genderFit: "Fit",
+  courtFeel: "Court feel",
+  lateralStability: "Lateral stability",
+  tractionPattern: "Traction pattern",
 };
 
 const LABEL_BY_KEY = new Map<string, string>();
@@ -246,13 +254,130 @@ export function formatPublicAccessoryTypeNoun(type: string): string {
 
 /** Stable public row id for tables/React keys — never raw camelCase schema keys. */
 export function publicSpecRowKey(key: string): string {
+  // Facet / filter public key: genderFit → fit (matches catalog facet remap).
+  if (key === "genderFit") return "fit";
   return formatPublicSpecKey(key).replace(/\s+/g, "-");
 }
 
+/**
+ * Remap canonical specification object keys to public-safe keys for RSC/page
+ * payloads. Values stay canonical (filter URLs / matching still use enum tokens).
+ */
+export function toPublicSpecifications(
+  specs: Record<string, unknown> | undefined | null,
+): Record<string, unknown> {
+  if (!specs) return {};
+  const out: Record<string, unknown> = {};
+  for (const [key, value] of Object.entries(specs)) {
+    out[publicSpecRowKey(key)] = value;
+  }
+  return out;
+}
+
+/** Public filter / config key lists — never ship raw camelCase schema names. */
+export function toPublicSpecKeyList(keys: string[]): string[] {
+  return keys.map((k) => publicSpecRowKey(k));
+}
+
+/**
+ * Canonical Kitletics catalog/editorial schema keys that must never appear as
+ * public JSON object keys or shopper-facing copy.
+ */
+export const KITLETICS_INTERNAL_SCHEMA_KEYS = [
+  "genderFit",
+  "courtFeel",
+  "cushionLevel",
+  "cushionFeel",
+  "weightMin",
+  "weightMax",
+  "heelStack",
+  "forefootStack",
+  "heelToToeDrop",
+  "rideCharacter",
+  "widthOptions",
+  "customization_weight",
+  "lateralStability",
+  "tractionPattern",
+  "surfaceCompatibility",
+  "courtOutsole",
+  "faceMaterial",
+  "playerLevel",
+  "surfaceTexture",
+  "frame_tape",
+  "grip_system",
+  "training_aid",
+  "ball_basket",
+  "pressureSystem",
+  "packQuantity",
+] as const;
+
+export type KitleticsInternalSchemaKey =
+  (typeof KITLETICS_INTERNAL_SCHEMA_KEYS)[number];
+
+const INTERNAL_SCHEMA_KEY_SET = new Set<string>(KITLETICS_INTERNAL_SCHEMA_KEYS);
+
+const PUBLIC_TO_CANONICAL_SPEC_KEY: Record<string, string> = {};
+for (const key of KITLETICS_INTERNAL_SCHEMA_KEYS) {
+  PUBLIC_TO_CANONICAL_SPEC_KEY[publicSpecRowKey(key)] = key;
+}
+
+export function isInternalSchemaKey(key: string): boolean {
+  return INTERNAL_SCHEMA_KEY_SET.has(key);
+}
+
+/** Map a public/alias spec key back to the canonical catalog field. */
+export function resolveCanonicalSpecKey(key: string): string {
+  if (INTERNAL_SCHEMA_KEY_SET.has(key)) return key;
+  return PUBLIC_TO_CANONICAL_SPEC_KEY[key] ?? key;
+}
+
+export function readPublicSpecValue(
+  specs: Record<string, unknown> | undefined | null,
+  canonicalKey: string,
+): unknown {
+  if (!specs) return undefined;
+  const publicKey = publicSpecRowKey(canonicalKey);
+  if (publicKey in specs) return specs[publicKey];
+  if (canonicalKey in specs) return specs[canonicalKey];
+  return undefined;
+}
+
+/** True when a shopper-facing label still looks like a schema identifier. */
+export function isMachinePublicLabel(text: string): boolean {
+  const trimmed = text.trim();
+  if (!trimmed) return false;
+  if (INTERNAL_SCHEMA_KEY_SET.has(trimmed)) return true;
+  const lower = trimmed.toLowerCase();
+  for (const schemaKey of KITLETICS_INTERNAL_SCHEMA_KEYS) {
+    if (lower.includes(schemaKey.toLowerCase())) return true;
+  }
+  if (/^[a-z]+(?:_[a-z0-9]+)+$/.test(trimmed)) return true;
+  if (/^[a-z]+[A-Z][A-Za-z0-9]*$/.test(trimmed)) return true;
+  return /[a-z][A-Z]/.test(trimmed) && isRawPublicSpecKey(trimmed);
+}
+
+/** Rewrite a criterion/filter label so it never prints camelCase or snake_case. */
+export function toPublicCriterionLabel(label: string, key?: string): string {
+  const trimmed = label.trim();
+  if (!trimmed) return key ? formatPublicSpecDisplayLabel(key) : trimmed;
+  if (!isMachinePublicLabel(trimmed) && !isRawPublicSpecKey(trimmed)) {
+    return trimmed;
+  }
+  let out = trimmed;
+  for (const schemaKey of KITLETICS_INTERNAL_SCHEMA_KEYS) {
+    if (out.toLowerCase().includes(schemaKey.toLowerCase())) {
+      out = out.replace(new RegExp(schemaKey, "gi"), formatPublicSpecDisplayLabel(schemaKey));
+    }
+  }
+  if (!isMachinePublicLabel(out) && !isRawPublicSpecKey(out)) return out;
+  if (key) return formatPublicSpecDisplayLabel(key);
+  return titleCaseLabel(humanizeCamelCase(out));
+}
+
 export function isRawPublicSpecKey(text: string): boolean {
-  // Detect camelCase / snake schema keys only — never flag spoken English labels
-  // like "compatibility" or "balance" that are valid public copy.
-  return /\b(?:heelStack|forefootStack|cushionLevel|cushionFeel|rideCharacter|energyReturn|plateMaterial|widthOptions|weightMin|weightMax|archSupport|intendedJob|skuSlug|skuId|shapeType|balanceType|coreType|frameMaterial|surfaceMaterial|faceMaterial|playerLevel|playStyle|courtSurface|sweetSpot|ballType|gripType|racketCapacity|racketCompartments|thermalCompartments|thermalProtection|thermalRacketCompartment|shoeCompartment|wetCompartment|accessoryPockets|laptopCompartment|bottleStorage|carryStyle|carrySystem|backpackStraps|packSize|ballsPerCan|cansPerBox|feltMaterial|coreMaterial|bounceSpec|freshnessStatus|officialApproval|manufacturerPositioning|surfaceCompatibility|courtOutsole|lateralStability|courtFeel|genderFit|capacityBalls|pressureSystem|manualOrElectric|pressureRange|powerSource|transparentOrColored|weightGrams|packQuantity|installationMethod|handleThicknessEffect|claimedBenefits|thicknessMm|surfaceTexture|faceCarbonWeave|manufacturerCoreName|tractionPattern|intendedConditions|waterResistance|[a-z]+_[a-z]+|[a-z][A-Za-z]*Score)\b/.test(
+  // Detect known camelCase / snake schema keys only — never flag spoken English
+  // labels, and never treat retailer URL path segments (large_default) as leaks.
+  return /\b(?:heelStack|forefootStack|cushionLevel|cushionFeel|rideCharacter|energyReturn|plateMaterial|widthOptions|weightMin|weightMax|archSupport|intendedJob|skuSlug|skuId|shapeType|balanceType|coreType|frameMaterial|surfaceMaterial|faceMaterial|playerLevel|playStyle|courtSurface|sweetSpot|ballType|gripType|racketCapacity|racketCompartments|thermalCompartments|thermalProtection|thermalRacketCompartment|shoeCompartment|wetCompartment|accessoryPockets|laptopCompartment|bottleStorage|carryStyle|carrySystem|backpackStraps|packSize|ballsPerCan|cansPerBox|feltMaterial|coreMaterial|bounceSpec|freshnessStatus|officialApproval|manufacturerPositioning|surfaceCompatibility|courtOutsole|lateralStability|courtFeel|genderFit|capacityBalls|pressureSystem|manualOrElectric|pressureRange|powerSource|transparentOrColored|weightGrams|packQuantity|installationMethod|handleThicknessEffect|claimedBenefits|thicknessMm|surfaceTexture|faceCarbonWeave|manufacturerCoreName|tractionPattern|intendedConditions|waterResistance|customization_weight|frame_tape|grip_system|training_aid|ball_basket|curated_seed|[a-z][A-Za-z]*Score)\b/.test(
     text,
   );
 }

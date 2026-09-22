@@ -1,7 +1,8 @@
 import Link from "next/link";
 import Image from "next/image";
 import { Check, Minus, ArrowRight, Info } from "lucide-react";
-import { cn, formatPrice } from "@/lib/utils";
+import { cn } from "@/lib/utils";
+import { CommercePeerPrice } from "@/components/product/ProductCommerceIsland";
 import { formatVerifiedDate } from "@/lib/product/score";
 import type { ProductReviewSummaryData } from "@/lib/product/get-product-review-summary";
 import { REVIEW_TYPE_META } from "@/lib/review/review-meta";
@@ -388,11 +389,12 @@ export function ProductReviewSection({
                       {alt.scoreLabel ? ` · ${alt.scoreLabel}` : ""}
                     </span>
                   )}
-                  {alt.price && (
-                    <span className="text-[12px] text-muted">
-                      From {formatPrice(alt.price.amount, alt.price.currency)}
-                    </span>
-                  )}
+                  <span className="text-[12px] text-muted">
+                    <CommercePeerPrice
+                      productId={alt.productId}
+                      fallback={alt.price ?? null}
+                    />
+                  </span>
                 </div>
                 <Link
                   href={alt.compareHref}

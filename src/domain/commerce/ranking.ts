@@ -207,14 +207,16 @@ export function buildPriceSummary(
   retailersById: Map<string, Retailer>,
   region: RegionCode,
   hasActiveAffiliateProgram: (offer: Offer) => boolean,
+  now = new Date(),
 ): ProductPriceSummary {
   const regional = offers.filter((o) => o.region === region && isOfferActive(o));
-  const ranked = rankOffersForProduct(regional, retailersById);
+  const ranked = rankOffersForProduct(regional, retailersById, undefined, now);
   const best = ranked[0];
   const inStock = regional.filter(
     (o) => o.availability === "in-stock" || o.availability === "low-stock",
   );
-  const fromOffer = pickLowestDisplayableOffer(regional);
+  // From-price uses fresh/recent only — aging may still win CTA ranking.
+  const fromOffer = pickLowestDisplayableOffer(regional, now);
 
   return {
     lowestPrice: fromOffer?.price,
@@ -226,9 +228,9 @@ export function buildPriceSummary(
     inStockCount: inStock.length,
     lastChecked: fromOffer?.lastChecked ?? best?.lastChecked,
     freshness: fromOffer
-      ? getOfferFreshness(fromOffer.lastChecked)
+      ? getOfferFreshness(fromOffer.lastChecked, now)
       : best
-        ? getOfferFreshness(best.lastChecked)
+        ? getOfferFreshness(best.lastChecked, now)
         : undefined,
     hasAffiliateOffers: regional.some(hasActiveAffiliateProgram),
     bestOfferId: best?.id,

@@ -30,6 +30,13 @@ import {
   type AudienceFit,
   variantDisplayWeight,
 } from "@/lib/product/audience";
+import {
+  formatPublicSpecDisplayLabel,
+  isInternalSchemaKey,
+  publicSpecRowKey,
+  resolveCanonicalSpecKey,
+} from "@/lib/specs/public-label";
+import { toPublicCatalogProductRow } from "@/lib/specs/public-payload";
 
 const CUSHION_RANK: Record<string, number> = {
   minimal: 1,
@@ -81,6 +88,74 @@ function asBoolean(value: SpecValue | undefined): boolean | undefined {
   return typeof value === "boolean" ? value : undefined;
 }
 
+function uniqueTokens(values: string[]): string[] {
+  return [...new Set(values.filter(Boolean))];
+}
+
+function buildFilterTokens(
+  product: Product,
+  options: {
+    brandSlugById: Record<string, string>;
+    useCaseSlugById: Record<string, string>;
+    subcategorySlugById: Record<string, string>;
+    buckets: Record<
+      string,
+      { id: string; label: string; min?: number; max?: number }[]
+    >;
+  },
+): NonNullable<CatalogProductRow["filterTokens"]> {
+  const specs: Record<string, string[]> = {};
+  const add = (key: string, values: string[]) => {
+    const next = uniqueTokens(
+      values.map((value) =>
+        isInternalSchemaKey(value) ? publicSpecRowKey(value) : value,
+      ),
+    );
+    if (!next.length) return;
+    const pub = publicSpecRowKey(key);
+    specs[pub] = uniqueTokens([...(specs[pub] ?? []), ...next]);
+  };
+
+  for (const [key, raw] of Object.entries(product.specifications)) {
+    const buckets = options.buckets[key];
+    if (buckets?.length) {
+      const num = asNumber(raw);
+      add(
+        key,
+        buckets.filter((bucket) => inBucket(num, bucket)).map((b) => b.id),
+      );
+      continue;
+    }
+    if (typeof raw === "boolean") {
+      add(key, [raw ? "true" : "false"]);
+      continue;
+    }
+    const list = asStringList(raw);
+    if (list.length) add(key, list);
+    else {
+      const single = asString(raw);
+      if (single) add(key, [single]);
+    }
+  }
+
+  return {
+    brandSlug: options.brandSlugById[product.brandId],
+    typeSlugs: uniqueTokens(
+      product.subcategoryIds
+        .map((id) => options.subcategorySlugById[id])
+        .filter(Boolean),
+    ),
+    useCaseSlugs: uniqueTokens(
+      product.useCaseIds
+        .map((id) => options.useCaseSlugById[id])
+        .filter(Boolean),
+    ),
+    specs,
+    cushionRank:
+      CUSHION_RANK[asString(product.specifications.cushionLevel) ?? ""],
+  };
+}
+
 function inBucket(
   value: number | undefined,
   bucket: { min?: number; max?: number },
@@ -98,7 +173,9 @@ function matchesSpecFilter(
   buckets?: { id: string; label: string; min?: number; max?: number }[],
 ): boolean {
   if (selected.length === 0) return true;
-  const raw = product.specifications[key];
+  const canonicalKey = resolveCanonicalSpecKey(key);
+  const raw =
+    product.specifications[canonicalKey] ?? product.specifications[key];
 
   if (buckets && buckets.length > 0) {
     const num = asNumber(raw);
@@ -163,7 +240,15 @@ function productMatchesFilters(
   }
 
   for (const [key, values] of Object.entries(filters.specs)) {
-    if (!matchesSpecFilter(product, key, values, options.buckets[key])) {
+    const canonicalKey = resolveCanonicalSpecKey(key);
+    if (
+      !matchesSpecFilter(
+        product,
+        canonicalKey,
+        values,
+        options.buckets[canonicalKey] ?? options.buckets[key],
+      )
+    ) {
       return false;
     }
   }
@@ -202,10 +287,12 @@ function buildBadges(
   return [...new Set(badges)].slice(0, 3);
 }
 
+type CatalogRowInternal = CatalogProductRow & { cushionRank?: number };
+
 function sortProducts(
-  rows: CatalogProductRow[],
+  rows: CatalogRowInternal[],
   sort: CatalogSort,
-): CatalogProductRow[] {
+): CatalogRowInternal[] {
   const copy = [...rows];
   switch (sort) {
     case "score":
@@ -240,11 +327,9 @@ function sortProducts(
         return a.weight - b.weight;
       });
     case "most-cushioned":
-      return copy.sort((a, b) => {
-        const ar = CUSHION_RANK[a.cushionLevel ?? ""] ?? -1;
-        const br = CUSHION_RANK[b.cushionLevel ?? ""] ?? -1;
-        return br - ar;
-      });
+      return copy.sort(
+        (a, b) => (b.cushionRank ?? -1) - (a.cushionRank ?? -1),
+      );
     case "recommended":
     default:
       // Deterministic: Kitletics score, then newest release, then name
@@ -265,6 +350,11 @@ function labelForValue(value: string): string {
   if (value === "men") return "Men's";
   if (value === "women") return "Women's";
   if (value === "unisex") return "Unisex";
+  // Route snake/camel schema tokens through the canonical public formatter
+  // so facet options never render as Customization_weight / genderFit.
+  if (value.includes("_") || /[a-z][A-Z]/.test(value)) {
+    return formatPublicSpecDisplayLabel(value);
+  }
   return value
     .split("-")
     .map((part) => part.charAt(0).toUpperCase() + part.slice(1))
@@ -290,14 +380,6 @@ export function getCatalogProducts(
     sort: input.filters?.sort ?? "recommended",
   };
 
-  // Public facet key "fit" maps to canonical genderFit spec.
-  if (filters.specs.fit?.length) {
-    filters.specs.genderFit = [
-      ...new Set([...(filters.specs.genderFit ?? []), ...filters.specs.fit]),
-    ];
-    delete filters.specs.fit;
-  }
-
   const products = getProductsByCategory(input.categoryId, options).filter(
     (p) =>
       p.sportIds.includes(input.sportId) &&
@@ -309,9 +391,27 @@ export function getCatalogProducts(
 
   const subcategories =
     input.subcategories ?? getSubcategoriesByCategory(input.categoryId);
+  const allCategoryDefs = getSpecificationDefinitions(input.categoryId);
   const specDefs =
-    input.specDefs ??
-    getSpecificationDefinitions(input.categoryId).filter((d) => d.filterable);
+    input.specDefs ?? allCategoryDefs.filter((d) => d.filterable);
+
+  // Public facet keys (fit, minimum-weight, …) → canonical schema keys for matching.
+  {
+    const publicToCanonical = new Map<string, string>();
+    for (const def of allCategoryDefs) {
+      publicToCanonical.set(publicSpecRowKey(def.key), def.key);
+    }
+    publicToCanonical.set("fit", "genderFit");
+    const remapped: Record<string, string[]> = {};
+    for (const [key, values] of Object.entries(filters.specs)) {
+      if (!values?.length) continue;
+      const canonical = publicToCanonical.get(key) ?? key;
+      remapped[canonical] = [
+        ...new Set([...(remapped[canonical] ?? []), ...values]),
+      ];
+    }
+    filters.specs = remapped;
+  }
 
   const subcategorySlugById = Object.fromEntries(
     subcategories.map((s) => [s.id, s.slug]),
@@ -381,7 +481,7 @@ export function getCatalogProducts(
     }),
   );
 
-  const activeGender = filters.specs.genderFit ?? [];
+  const activeGender = filters.specs.genderFit ?? filters.specs.fit ?? [];
   const activeAudience: AudienceFit | undefined =
     activeGender.length === 1 &&
     (activeGender[0] === "men" ||
@@ -390,7 +490,7 @@ export function getCatalogProducts(
       ? activeGender[0]
       : undefined;
 
-  const rows: CatalogProductRow[] = matched.map((product) => {
+  const rows: CatalogRowInternal[] = matched.map((product) => {
     const brand = getBrandById(product.brandId, options);
     const subcategoryLabels = product.subcategoryIds
       .map((id) => subcategoryNameById[id])
@@ -431,8 +531,14 @@ export function getCatalogProducts(
       weightContext: weightInfo.label,
       drop: asNumber(product.specifications.drop),
       stability: asString(product.specifications.stability),
-      cushionLevel: asString(product.specifications.cushionLevel),
+      cushionRank: CUSHION_RANK[asString(product.specifications.cushionLevel) ?? ""],
       price: priceByProductId[product.id],
+      filterTokens: buildFilterTokens(product, {
+        brandSlugById,
+        useCaseSlugById,
+        subcategorySlugById,
+        buckets,
+      }),
       audiences,
       activeAudience,
       audienceLabel,
@@ -575,9 +681,9 @@ export function getCatalogProducts(
         .filter((o) => o.count > 0);
       if (options.length > 0) {
         availableFilters.push({
-          id: def.key,
-          key: def.key,
-          label: def.label,
+          id: publicSpecRowKey(def.key),
+          key: publicSpecRowKey(def.key),
+          label: formatPublicSpecDisplayLabel(def.key),
           control: "multi-select",
           options,
           unit: def.unit,
@@ -612,9 +718,9 @@ export function getCatalogProducts(
         .filter((o) => o.count > 0);
       if (options.length > 0) {
         availableFilters.push({
-          id: def.key,
-          key: def.key,
-          label: def.label,
+          id: publicSpecRowKey(def.key),
+          key: publicSpecRowKey(def.key),
+          label: formatPublicSpecDisplayLabel(def.key),
           control: "boolean",
           options,
         });
@@ -663,11 +769,11 @@ export function getCatalogProducts(
         })
         .filter((o) => (def.key === "genderFit" ? o.count > 0 : o.count > 0));
       if (options.length > 0) {
-        const publicKey = def.key === "genderFit" ? "fit" : def.key;
+        const publicKey = publicSpecRowKey(def.key);
         availableFilters.push({
           id: publicKey,
           key: publicKey,
-          label: def.label,
+          label: formatPublicSpecDisplayLabel(def.key),
           control: "multi-select",
           options,
         });
@@ -719,9 +825,11 @@ export function getCatalogProducts(
   }
   for (const [key, values] of Object.entries(filters.specs)) {
     for (const value of values) {
-      const publicKey = key === "genderFit" ? "fit" : key;
+      const publicKey = publicSpecRowKey(key);
       const bucket = buckets[key]?.find((b) => b.id === value);
-      const facet = availableFilters.find((f) => f.key === publicKey || f.key === key);
+      const facet = availableFilters.find(
+        (f) => f.key === publicKey || f.key === key,
+      );
       const optionLabel =
         bucket?.label ??
         facet?.options.find((o) => o.value === value)?.label ??
@@ -730,7 +838,7 @@ export function getCatalogProducts(
         id: `${publicKey}:${value}`,
         group: publicKey,
         value,
-        label: `${facet?.label ?? (key === "genderFit" ? "Fit" : key)}: ${optionLabel}`,
+        label: `${facet?.label ?? formatPublicSpecDisplayLabel(key)}: ${optionLabel}`,
       });
     }
   }
@@ -745,7 +853,9 @@ export function getCatalogProducts(
 
   const hasPrices = rows.some((r) => r.price !== undefined);
   const hasWeights = rows.some((r) => r.weight !== undefined);
-  const hasCushion = rows.some((r) => r.cushionLevel !== undefined);
+  const hasCushion = matched.some(
+    (p) => asString(p.specifications.cushionLevel) !== undefined,
+  );
   const hasScores = rows.some((r) => r.score !== undefined);
 
   const availableSorts: { value: CatalogSort; label: string }[] = [
@@ -772,7 +882,7 @@ export function getCatalogProducts(
   }
 
   return {
-    products: paged,
+    products: paged.map((row) => toPublicCatalogProductRow(row)),
     total: sorted.length,
     availableFilters,
     activeFilters,

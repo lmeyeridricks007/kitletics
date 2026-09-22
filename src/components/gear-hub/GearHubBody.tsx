@@ -12,7 +12,7 @@ import {
   ArrowRight,
   type LucideIcon,
 } from "lucide-react";
-import { formatPrice } from "@/lib/utils";
+import { CatalogFromPrice } from "@/components/commerce/CatalogPriceIsland";
 import { resolveToolIcon } from "@/lib/tools/icons";
 import {
   GearHubMobileFilters,
@@ -332,22 +332,20 @@ function PicksPanel({
                   </div>
                 )}
                 <p className="mt-0.5 text-[11px] text-muted">{pick.role}</p>
-                {pick.price ? (
-                  <p className="mt-1 text-[12px] font-semibold text-foreground">
-                    From{" "}
-                    {formatPrice(
-                      pick.price.amount,
-                      pick.price.currency,
-                      "nl-NL",
-                    )}
-                    {pick.offerCount > 0 ? ` · ${pick.offerCount} offers` : ""}
-                  </p>
-                ) : (
-                  <p className="mt-1 text-[12px] text-muted">
-                    Check prices
-                    {pick.offerCount > 0 ? ` · ${pick.offerCount} offers` : ""}
-                  </p>
-                )}
+                <p className="mt-1 text-[12px] font-semibold text-foreground">
+                  <CatalogFromPrice
+                    slug={pick.href.replace(/^\/products\//, "")}
+                    fallback={
+                      pick.price
+                        ? {
+                            amount: pick.price.amount,
+                            currency: pick.price.currency,
+                          }
+                        : null
+                    }
+                  />
+                  {pick.offerCount > 0 ? ` · ${pick.offerCount} offers` : ""}
+                </p>
               </div>
             </Link>
           </li>

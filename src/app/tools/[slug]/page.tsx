@@ -5,7 +5,6 @@ import {
   JsonLdScript,
   webApplicationJsonLd,
 } from "@/lib/seo/jsonld";
-import { getRequestRegion } from "@/lib/region/server";
 import { siteConfig } from "@/content/config";
 import { Container } from "@/components/layout/Container";
 import { Breadcrumbs } from "@/components/layout/Breadcrumbs";
@@ -14,28 +13,26 @@ import { getCalculatorDefinition } from "@/domain/calculators/registry";
 import { getToolHref } from "@/lib/tools/href";
 import { isFinderToolSlug } from "@/lib/tools/finder-slugs";
 
+/**
+ * Calculator / tool landings — ISR. Inputs are client state.
+ * Do not read cookies or searchParams in this RSC.
+ */
+export const revalidate = 86400;
+export const dynamicParams = true;
 
-/** Request-time / heavy catalog pages — skip SSG to keep builds healthy. */
-export const dynamic = "force-dynamic";
 interface PageProps {
   params: Promise<{ slug: string }>;
-  searchParams: Promise<Record<string, string | string[] | undefined>>;
 }
 
-function firstParam(
-  value: string | string[] | undefined,
-): string | undefined {
-  return Array.isArray(value) ? value[0] : value;
+export function generateStaticParams() {
+  return [];
 }
 
 export async function generateMetadata({
   params,
-  searchParams,
 }: PageProps): Promise<Metadata> {
   const { slug } = await params;
   if (isFinderToolSlug(slug)) {
-    // Public Finder URLs are rewritten to /tools/finder/[slug]; this leaf
-    // must not claim Finder metadata if middleware is bypassed.
     const tool = getToolBySlug(slug);
     if (!tool) return { title: "Tool" };
     return {
@@ -54,14 +51,10 @@ export async function generateMetadata({
   }
   const tool = getToolBySlug(slug);
   if (!tool) return { title: "Tool" };
-  const sp = await searchParams;
-  const hasUserBuild =
-    slug === "home-gym-builder" && Boolean(firstParam(sp.build));
   return {
     title: tool.seoTitle ?? tool.name,
     description: tool.seoDescription ?? tool.description,
     alternates: { canonical: `${siteConfig.url}/tools/${tool.slug}` },
-    robots: hasUserBuild ? { index: false, follow: false } : undefined,
   };
 }
 
@@ -69,11 +62,10 @@ export async function generateMetadata({
  * Non-Finder tools only. Finders live at `/tools/finder/[slug]` (rewritten
  * from `/tools/<slug>`) so their client graph never includes Home Gym catalogs.
  */
-export default async function ToolPage({ params, searchParams }: PageProps) {
+export default async function ToolPage({ params }: PageProps) {
   const { slug } = await params;
 
   if (isFinderToolSlug(slug)) {
-    // Middleware should rewrite Finders away from this route. Hard-stop if not.
     notFound();
   }
 
@@ -87,17 +79,16 @@ export default async function ToolPage({ params, searchParams }: PageProps) {
     permanentRedirect(canonicalHref);
   }
 
-  await getRequestRegion();
-  const sp = await searchParams;
+  const emptyParams = {} as Record<string, string | string[] | undefined>;
 
   if (slug === "running-pace-calculator") {
     const { renderPaceCalculatorPage } = await import("./render-calculators");
-    return renderPaceCalculatorPage({ slug, searchParams: sp });
+    return renderPaceCalculatorPage({ slug, searchParams: emptyParams });
   }
 
   if (slug === "race-time-predictor") {
     const { renderRacePredictorPage } = await import("./render-calculators");
-    return renderRacePredictorPage({ slug, searchParams: sp });
+    return renderRacePredictorPage({ slug, searchParams: emptyParams });
   }
 
   if (slug === "shoe-rotation-planner") {
@@ -105,7 +96,7 @@ export default async function ToolPage({ params, searchParams }: PageProps) {
     return renderShoeRotationPlannerPage({
       slug,
       toolDescription: tool.description,
-      searchParams: sp,
+      searchParams: emptyParams,
     });
   }
 

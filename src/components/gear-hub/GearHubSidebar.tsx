@@ -56,21 +56,27 @@ export function GearHubSidebar({
           Browse gear
         </h2>
         <ul className="mt-3 space-y-0.5">
-          {browse.map((item) => (
-            <li key={item.id}>
-              <a
-                href={item.href}
-                className={cn(
-                  "block rounded-md px-2.5 py-2 text-[13px] font-medium transition-colors",
-                  item.isActive
-                    ? "bg-accent/25 text-foreground"
-                    : "text-muted hover:bg-surface-muted hover:text-foreground",
-                )}
-              >
-                {item.label}
-              </a>
-            </li>
-          ))}
+          {browse.map((item) => {
+            const sport = searchParams.get("sport");
+            const isActive = item.sportFilter
+              ? item.sportFilter === sport
+              : !sport;
+            return (
+              <li key={item.id}>
+                <a
+                  href={item.href}
+                  className={cn(
+                    "block rounded-md px-2.5 py-2 text-[13px] font-medium transition-colors",
+                    isActive
+                      ? "bg-accent/25 text-foreground"
+                      : "text-muted hover:bg-surface-muted hover:text-foreground",
+                  )}
+                >
+                  {item.label}
+                </a>
+              </li>
+            );
+          })}
         </ul>
       </section>
 

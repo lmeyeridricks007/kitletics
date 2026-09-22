@@ -1,4 +1,5 @@
 import { FinderFlow } from "@/components/finder/FinderFlow";
+import { Suspense } from "react";
 import { getFinderDefinition } from "@/domain/finders/repository";
 import { decodeFinderShareState } from "@/domain/finders/share-state";
 import { getProductById, getToolBySlug } from "@/repositories";
@@ -63,27 +64,29 @@ export async function renderFinderToolPage(input: {
           }),
         ]}
       />
-      <FinderFlow
-        definition={finder}
-        uiConfig={uiConfig}
-        initialResponses={initialResponses}
-        startAtSummary={startAtSummary}
-        region={region}
-        enableVisualFixture={enableVisualFixture}
-        heroProducts={(uiConfig.heroProductIds ?? [])
-          .map((id) => {
-            const product = getProductById(id, { isDev: false });
-            if (!product) return null;
-            const media = getPrimaryProductMedia(product);
-            if (!media) return null;
-            return {
-              id: product.id,
-              src: media.src,
-              alt: media.alt || product.fullName,
-            };
-          })
-          .filter((x): x is NonNullable<typeof x> => Boolean(x))}
-      />
+      <Suspense fallback={null}>
+        <FinderFlow
+          definition={finder}
+          uiConfig={uiConfig}
+          initialResponses={initialResponses}
+          startAtSummary={startAtSummary}
+          region={region}
+          enableVisualFixture={enableVisualFixture}
+          heroProducts={(uiConfig.heroProductIds ?? [])
+            .map((id) => {
+              const product = getProductById(id, { isDev: false });
+              if (!product) return null;
+              const media = getPrimaryProductMedia(product);
+              if (!media) return null;
+              return {
+                id: product.id,
+                src: media.src,
+                alt: media.alt || product.fullName,
+              };
+            })
+            .filter((x): x is NonNullable<typeof x> => Boolean(x))}
+        />
+      </Suspense>
     </>
   );
 }

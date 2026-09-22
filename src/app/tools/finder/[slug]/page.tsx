@@ -2,18 +2,21 @@ import type { Metadata } from "next";
 import { notFound, permanentRedirect } from "next/navigation";
 import { getFinderDefinition } from "@/domain/finders/repository";
 import { getToolBySlug } from "@/repositories";
-import { getRequestRegion } from "@/lib/region/server";
 import { siteConfig } from "@/content/config";
 import { getToolHref } from "@/lib/tools/href";
 import { FINDER_TOOL_SLUGS, isFinderToolSlug } from "@/lib/tools/finder-slugs";
 import { renderFinderToolPage } from "@/app/tools/[slug]/render-finder";
+import { DEFAULT_REGION } from "@/domain/shared/types";
 
+/**
+ * Canonical finder landing — ISR NL HTML.
+ * Share/edit/region wizard state is client-side.
+ */
+export const revalidate = 86400;
+export const dynamicParams = true;
 
-/** Request-time / heavy catalog pages — skip SSG to keep builds healthy. */
-export const dynamic = "force-dynamic";
 interface PageProps {
   params: Promise<{ slug: string }>;
-  searchParams: Promise<Record<string, string | string[] | undefined>>;
 }
 
 export async function generateStaticParams() {
@@ -37,10 +40,7 @@ export async function generateMetadata({
  * Internal Finder route (rewritten from `/tools/<slug>`).
  * Must not import Home Gym / calculator / Hyrox clients.
  */
-export default async function FinderToolPage({
-  params,
-  searchParams,
-}: PageProps) {
+export default async function FinderToolPage({ params }: PageProps) {
   const { slug } = await params;
   if (!isFinderToolSlug(slug)) notFound();
 
@@ -54,14 +54,12 @@ export default async function FinderToolPage({
     permanentRedirect(canonicalHref);
   }
 
-  const region = await getRequestRegion();
-  if (!getFinderDefinition(slug, region)) notFound();
+  if (!getFinderDefinition(slug, DEFAULT_REGION)) notFound();
 
-  const sp = await searchParams;
   const view = await renderFinderToolPage({
     slug,
-    region,
-    searchParams: sp,
+    region: DEFAULT_REGION,
+    searchParams: {},
   });
   if (!view) notFound();
   return view;

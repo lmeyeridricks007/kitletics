@@ -16,7 +16,7 @@ import { ALTERNATIVES_P64_UNIQUE_INTROS } from "@/content/alternatives-p64-uniqu
 import { ALTERNATIVES_P65_UNIQUE_INTROS } from "@/content/alternatives-p65-completion";
 import { buildAccessoryAlternativeCopy } from "@/lib/product/alternatives-p64-decision-copy";
 import { containsPublicContentCorruption } from "@/lib/review/public-content-corruption";
-import { formatPublicSpecCue, formatPublicSpecKey } from "@/lib/specs/public-label";
+import { formatPublicSpecCue, formatPublicSpecKey, readPublicSpecValue } from "@/lib/specs/public-label";
 
 /** Categories where alternatives pages can earn indexation when substantive. */
 export const ALTERNATIVES_INDEXABLE_CATEGORIES = new Set([
@@ -75,7 +75,10 @@ function hashPair(a: string, b: string): number {
 }
 
 function numSpec(product: Product, key: string): number | undefined {
-  const v = product.specifications?.[key];
+  const v = readPublicSpecValue(
+    product.specifications as Record<string, unknown>,
+    key,
+  );
   if (typeof v === "number" && Number.isFinite(v)) return v;
   if (typeof v === "string") {
     const n = parseFloat(v.replace(/[^\d.-]/g, ""));
@@ -87,7 +90,10 @@ function numSpec(product: Product, key: string): number | undefined {
 function specBit(product: Product, key: string): string | undefined {
   const n = numSpec(product, key);
   if (n != null) return formatPublicSpecCue(key, n);
-  const v = product.specifications?.[key];
+  const v = readPublicSpecValue(
+    product.specifications as Record<string, unknown>,
+    key,
+  );
   if (typeof v === "string" && v.trim()) return formatPublicSpecCue(key, v.trim());
   if (typeof v === "boolean") return v ? formatPublicSpecKey(key) : undefined;
   return undefined;

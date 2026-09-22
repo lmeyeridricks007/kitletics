@@ -48,25 +48,27 @@ export function ProductUseCaseListingPage({
 
       <section id="catalog" className="bg-white py-7 sm:py-8">
         <Container size="wide">
-          <CatalogInteractive
-            basePath={data.basePath}
-            categoryName={data.config.countLabel}
-            filters={data.filters}
-            facets={data.facets}
-            activeFilters={data.activeFilters}
-            products={data.products}
-            total={data.total}
-            availableSorts={data.availableSorts}
-            primaryFilterKeys={data.config.primaryFilterKeys}
-            compareCategorySlug={data.categorySlug}
-            compact
-            mockupLayout
-            listingLayout
-            lockedTypes={data.lockedType}
-            lockedUseCases={data.lockedUseCase}
-            page={data.page}
-            totalPages={data.totalPages}
-          />
+          <Suspense fallback={null}>
+            <CatalogInteractive
+              basePath={data.basePath}
+              categoryName={data.config.countLabel}
+              filters={data.filters}
+              facets={data.facets}
+              activeFilters={data.activeFilters}
+              products={data.products}
+              total={data.total}
+              availableSorts={data.availableSorts}
+              primaryFilterKeys={data.config.primaryFilterKeys}
+              compareCategorySlug={data.categorySlug}
+              compact
+              mockupLayout
+              listingLayout
+              lockedTypes={data.lockedType}
+              lockedUseCases={data.lockedUseCase}
+              page={data.page}
+              totalPages={data.totalPages}
+            />
+          </Suspense>
         </Container>
       </section>
 

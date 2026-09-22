@@ -57,6 +57,8 @@ import {
 import { promotableReviewSlug } from "@/domain/launch/get-launch-eligibility";
 import { containsPublicContentCorruption } from "@/lib/review/public-content-corruption";
 import type { MediaAsset } from "@/domain/shared/types";
+import { publicSpecRowKey } from "@/lib/specs/public-label";
+import { toPublicProduct } from "@/lib/specs/public-payload";
 
 export interface AlternativeItem {
   relationship: ProductRelationship;
@@ -376,7 +378,7 @@ function buildAlternativesPageData(
 
     const item: AlternativeItem = {
       relationship,
-      product: alt,
+      product: toPublicProduct(alt),
       brand: getBrandById(alt.brandId),
       media,
       score,
@@ -578,11 +580,18 @@ function buildAlternativesPageData(
   const next = genRels.find((r) => r.type === "next-generation");
 
   return {
-    product,
+    product: toPublicProduct(product),
     brand,
     category,
     sport,
-    config,
+    config: {
+      ...config,
+      comparisonColumns: config.comparisonColumns.map((col) =>
+        col.specKey
+          ? { ...col, specKey: publicSpecRowKey(col.specKey) }
+          : col,
+      ),
+    },
     breadcrumbs: crumbs,
     alternatives,
     reasonGroups,
@@ -615,7 +624,10 @@ function buildAlternativesPageData(
           : undefined,
     },
     comparisonRows,
-    comparisonSpecRows: matrix?.allSpecs ?? [],
+    comparisonSpecRows: (matrix?.allSpecs ?? []).map((row) => ({
+      ...row,
+      key: publicSpecRowKey(row.key),
+    })),
     publishedComparisons: getComparisonsForProduct(product.id, options),
     generation: {
       previous: previous

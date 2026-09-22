@@ -7,15 +7,57 @@ import {
   isAdminGrowthPath,
   should404Admin,
 } from "@/lib/admin/growth-gate";
+import { resolveRunningShoesEntryRedirect } from "@/lib/catalog/params";
 
 const APEX_HOST = "kitletics.com";
 
+function searchParamsRecord(
+  searchParams: URLSearchParams,
+): Record<string, string> {
+  const out: Record<string, string> = {};
+  searchParams.forEach((value, key) => {
+    out[key] = value;
+  });
+  return out;
+}
+
+function shouldNoindexQuery(
+  pathname: string,
+  searchParams: URLSearchParams,
+): boolean {
+  if (searchParams.size === 0) return false;
+  if (pathname === "/gear" || pathname === "/search") return true;
+  if (pathname.startsWith("/tools/")) return true;
+  const parts = pathname.split("/").filter(Boolean);
+  if (parts.length < 2) return false;
+  const reserved = new Set([
+    "products",
+    "reviews",
+    "best",
+    "brands",
+    "guides",
+    "compare",
+    "authors",
+    "blog",
+    "api",
+    "admin",
+    "preview",
+    "go",
+    "tools",
+  ]);
+  if (reserved.has(parts[0])) return false;
+  return true;
+}
+
 /**
- * - Canonical host: www → apex (308) so Ahrefs/Google don't split equity
+ * - Canonical host: www → apex (308)
  * - IndexNow `/{key}.txt` → `/indexnow-key.txt`
  * - Finder URL rewrite for SEO-stable /tools/<slug>
- * - /images/* → Vercel Blob when MEDIA_BLOB_BASE_URL is set
+ * - /running/shoes entry intents → canonical listing paths
+ * - Facet/query HTML gets X-Robots-Tag noindex without dynamizing RSC
  * - /admin/* basic auth + X-Robots-Tag noindex
+ *
+ * Image Blob delivery is next.config rewrites, not this matcher.
  */
 export function middleware(request: NextRequest) {
   const host = request.headers.get("host")?.split(":")[0]?.toLowerCase();
@@ -58,37 +100,54 @@ export function middleware(request: NextRequest) {
     return NextResponse.rewrite(url);
   }
 
-  const blobBase = process.env.MEDIA_BLOB_BASE_URL?.replace(/\/$/, "");
-  if (blobBase && pathname.startsWith("/images/")) {
-    return NextResponse.rewrite(new URL(pathname, `${blobBase}/`));
+  if (pathname === "/running/shoes") {
+    const dest = resolveRunningShoesEntryRedirect(
+      searchParamsRecord(request.nextUrl.searchParams),
+    );
+    if (dest) {
+      const url = request.nextUrl.clone();
+      const [path, qs] = dest.split("?");
+      url.pathname = path;
+      url.search = qs ? `?${qs}` : "";
+      return NextResponse.redirect(url, 307);
+    }
   }
 
-  const match = pathname.match(/^\/tools\/([^/]+)\/?$/);
-  if (!match) return NextResponse.next();
-
-  const slug = match[1];
-  if (
-    slug === "finder" ||
-    slug === "workspace" ||
-    slug === "page" ||
-    !isFinderToolSlug(slug)
-  ) {
-    return NextResponse.next();
+  const finderMatch = pathname.match(/^\/tools\/([^/]+)\/?$/);
+  if (finderMatch) {
+    const slug = finderMatch[1];
+    if (
+      slug !== "finder" &&
+      slug !== "workspace" &&
+      slug !== "page" &&
+      isFinderToolSlug(slug)
+    ) {
+      const url = request.nextUrl.clone();
+      url.pathname = `/tools/finder/${slug}`;
+      const rewritten = NextResponse.rewrite(url);
+      if (shouldNoindexQuery(pathname, request.nextUrl.searchParams)) {
+        rewritten.headers.set("X-Robots-Tag", "noindex, follow");
+      }
+      return rewritten;
+    }
   }
 
-  const url = request.nextUrl.clone();
-  url.pathname = `/tools/finder/${slug}`;
-  return NextResponse.rewrite(url);
+  if (shouldNoindexQuery(pathname, request.nextUrl.searchParams)) {
+    const next = NextResponse.next();
+    next.headers.set("X-Robots-Tag", "noindex, follow");
+    return next;
+  }
+
+  return NextResponse.next();
 }
 
 export const config = {
   matcher: [
     /*
-     * Host redirect + IndexNow key file + existing rewrites.
-     * Allow `.txt` through (IndexNow); still skip common static assets.
+     * Host redirect + IndexNow + finder rewrite + catalog query noindex.
+     * Image files skip middleware (extension exclusion). Blob is next.config.
      */
     "/((?!_next/static|_next/image|favicon.ico|.*\\.(?:js|css|png|jpe?g|gif|webp|avif|ico|woff2?|map)$).*)",
-    "/images/:path*",
     "/indexnow-key.txt",
   ],
 };

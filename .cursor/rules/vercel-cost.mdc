@@ -1,0 +1,48 @@
+---
+description: Vercel cost rules — public SEO pages stay STATIC/ISR; identify new compute before shipping.
+alwaysApply: true
+---
+
+# Vercel cost
+
+Canonical standard: `docs/VERCEL-COST-GUARDRAILS.md`. Detector: `npm run audit:vercel-cost`. Audit: `reports/vercel-cost-audit/`.
+
+Kitletics bills **Build CPU** (turbo after OOM) and **Fluid CPU** (crawler HTML that is not static). Do not add either while shipping. Do not SSG every SKU to “save Fluid” — that is what forced turbo.
+
+## Public SEO pages default to STATIC or ISR
+
+Catalog, review, guide, brand, listing, and similar sitemap’d HTML must be **STATIC or ISR**.
+
+`force-dynamic`, `cache: "no-store"`, and `revalidate = 0` on those routes require an **ADR or explicit comment in-repo** explaining why request-time freshness is required. Exceptions already justified: `/go` (affiliate hops), `/admin`, `/preview`, authenticated `/app`.
+
+```tsx
+// ❌ BAD — Googlebot pays Fluid CPU on every PDP
+export const dynamic = "force-dynamic";
+
+// ✅ GOOD — default region / ISR; prices can be a client island
+export const revalidate = 86400;
+```
+
+## Do not accidentally dynamize SEO HTML
+
+`cookies()`, `headers()`, `draftMode()`, `connection()`, `unstable_noStore()`, and `getRequestRegion()` must not appear in public App Router pages, layouts, or `generateMetadata`. Next 15 treats them as fully dynamic. Preview belongs on `/preview`, not on the crawl URL.
+
+Do not `await searchParams` on a sitemap-facing index. Filter with a **client island** (`useSearchParams`) after a static shell.
+
+Do not pair `generateStaticParams` with `force-dynamic`.
+
+## Caching / ISR
+
+Evergreen public content: `revalidate` **≥ 86400** unless the data actually changes more often than daily (then prefer a client island or tagged cache, not a short page TTL).
+
+Arbitrary search/compare query strings (`/search?q=*`) must **not** use ISR — that creates unbounded Incremental Cache keys (ISR Reads).
+
+## Middleware, images, Blob
+
+- Middleware **must** have a narrow `matcher`. Exclude `_next/static`, `_next/image`, `favicon.ico`, and static extensions. Do **not** match `/images/:path*` to proxy Blob.
+- Keep `next/image`. No `hostname: "**"`. Use shared `sizes`/`quality` presets (`src/lib/media/image-delivery.ts`). Target ≤ 8 practical variants per source; do not add unused widths/qualities.
+- Prefer the Blob **public hostname** as `src`. Do not proxy Blob through the app (middleware rewrite / origin hop bills Origin Transfer + Blob transfer).
+
+## Identify new Vercel compute while implementing
+
+Before writing the change, name any new or expanded: `force-dynamic`, dynamic APIs on public RSC, middleware, Cron, Server Actions on HTML, `maxDuration`, Fluid memory, Image Optimization variants, Web Analytics / Speed Insights, or extra production deploys. Report them in **VERCEL COST IMPACT**. If any line is HIGHER, explain why it is required.

@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Outfit, DM_Sans } from "next/font/google";
 import { ThemeProvider } from "@/components/providers/ThemeProvider";
 import { CompareTrayProvider } from "@/components/compare/CompareTrayProvider";
+import { RegionPreferenceProvider } from "@/components/region/RegionPreferenceProvider";
 import { GlobalCompareTray } from "@/components/compare/GlobalCompareTray";
 import { SkipLink } from "@/components/layout/SkipLink";
 import { SiteHeader } from "@/components/layout/SiteHeader";
@@ -84,6 +85,7 @@ export default function RootLayout({
         <ThemeProvider>
           <AnalyticsProvider config={analyticsConfig}>
             <CompareTrayProvider>
+            <RegionPreferenceProvider>
               <SkipLink />
               <div className="flex min-h-svh flex-col">
                 <PublicChromeGate>
@@ -99,6 +101,7 @@ export default function RootLayout({
               <PublicChromeGate>
                 <GlobalCompareTray />
               </PublicChromeGate>
+            </RegionPreferenceProvider>
             </CompareTrayProvider>
           </AnalyticsProvider>
         </ThemeProvider>
@@ -111,7 +114,7 @@ export default function RootLayout({
             initialAnalyticsConsent={null}
           />
           <Analytics />
-          <SpeedInsights />
+          <SpeedInsights sampleRate={0.1} />
         </PublicChromeGate>
       </body>
     </html>

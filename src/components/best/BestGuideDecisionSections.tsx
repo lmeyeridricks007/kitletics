@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { Container } from "@/components/layout/Container";
 import { GuideContextComparisonInline } from "@/components/best/BestGuideDetailedPicks";
 import type { BestGuidePageData } from "@/lib/best/get-best-guide-page-data";
@@ -65,32 +66,48 @@ export function BestGuideDecisionShortcuts({
             return (
               <li
                 key={`${s.need}-${s.productId}`}
-                className="border border-border bg-surface px-4 py-4"
+                className="flex gap-3 border border-border bg-surface px-4 py-4"
               >
-                <p className="text-[12px] font-bold tracking-wide text-subtle uppercase">
-                  If you want
-                </p>
-                <p className="mt-1 text-[15px] font-semibold text-foreground">
-                  {s.need}
-                </p>
-                <p className="mt-2 text-[14px] text-foreground">
-                  →{" "}
-                  {href ? (
-                    <Link
-                      href={href}
-                      className="font-medium text-link hover:underline"
-                    >
-                      {name}
-                    </Link>
-                  ) : (
-                    name
-                  )}
-                </p>
-                {s.reason && (
-                  <p className="mt-1.5 text-[12px] leading-snug text-muted">
-                    {s.reason}
+                {rec?.media?.src ? (
+                  <Link
+                    href={href ?? `/products/${rec.product.slug}`}
+                    className="relative h-16 w-16 shrink-0 border border-border bg-surface-muted"
+                  >
+                    <Image
+                      src={rec.media.src}
+                      alt={rec.media.alt || name}
+                      fill
+                      className="object-contain p-1"
+                      sizes="64px"
+                    />
+                  </Link>
+                ) : null}
+                <div className="min-w-0 flex-1">
+                  <p className="text-[12px] font-bold tracking-wide text-subtle uppercase">
+                    If you want
                   </p>
-                )}
+                  <p className="mt-1 text-[15px] font-semibold text-foreground">
+                    {s.need}
+                  </p>
+                  <p className="mt-2 text-[14px] text-foreground">
+                    →{" "}
+                    {href ? (
+                      <Link
+                        href={href}
+                        className="font-medium text-link hover:underline"
+                      >
+                        {name}
+                      </Link>
+                    ) : (
+                      name
+                    )}
+                  </p>
+                  {s.reason && (
+                    <p className="mt-1.5 text-[12px] leading-snug text-muted">
+                      {s.reason}
+                    </p>
+                  )}
+                </div>
               </li>
             );
           })}
@@ -102,7 +119,7 @@ export function BestGuideDecisionShortcuts({
               href={finderHref}
               className="font-medium text-link hover:underline"
             >
-              Use the Running Shoe Finder →
+              Use the product finder →
             </Link>
           </p>
         )}

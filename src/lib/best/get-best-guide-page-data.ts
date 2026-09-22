@@ -107,7 +107,26 @@ import { getRecommendationsForProduct } from "@/repositories/recommendations";
 import { getPrimaryProductMedia } from "@/lib/product/media";
 import type { MediaAsset } from "@/domain/shared/types";
 import { formatPrice } from "@/lib/utils";
-import { formatPublicSpecDisplayLabel, publicSpecRowKey } from "@/lib/specs/public-label";
+import { formatPublicSpecDisplayLabel, isInternalSchemaKey, publicSpecRowKey, toPublicSpecKeyList } from "@/lib/specs/public-label";
+import {
+  toPublicComparisonCriteria,
+  toPublicEditorialGuide,
+  toPublicProduct,
+} from "@/lib/specs/public-payload";
+
+function toPublicBestGuideConfig(
+  config: BestGuideCategoryConfig,
+): BestGuideCategoryConfig {
+  return {
+    ...config,
+    comparisonKeys: toPublicSpecKeyList(config.comparisonKeys),
+    tableColumns: config.tableColumns.map((col) =>
+      col.specKey
+        ? { ...col, specKey: publicSpecRowKey(col.specKey) }
+        : col,
+    ),
+  };
+}
 
 function sortOffers(offers: Offer[]): Offer[] {
   const retailersById = new Map<string, Retailer>();
@@ -1004,23 +1023,43 @@ export function getBestGuidePageData(
         { label: guide.title },
       ];
 
+  const publicRecommendations = recommendations.map((block) => ({
+    ...block,
+    product: toPublicProduct(block.product),
+    comparisons: block.comparisons.map(toPublicComparisonCriteria),
+    considerInstead: block.considerInstead.map((c) => ({
+      ...c,
+      product: toPublicProduct(c.product),
+    })),
+  }));
+
   return {
-    guide,
+    guide: toPublicEditorialGuide(guide),
     author,
     sport,
     category,
-    config,
-    recommendations,
+    config: toPublicBestGuideConfig(config),
+    recommendations: publicRecommendations,
     comparisonRows,
-    comparisonProducts,
-    relatedGuides,
-    relatedComparisons,
-    buyingGuides,
+    comparisonProducts: comparisonProducts.map((c) => ({
+      ...c,
+      product: toPublicProduct(c.product),
+    })),
+    relatedGuides: relatedGuides.map(toPublicEditorialGuide),
+    relatedComparisons: relatedComparisons.map(toPublicComparisonCriteria),
+    buyingGuides: buyingGuides.map(toPublicEditorialGuide),
     tools,
     faqs,
-    considered,
+    considered: considered.map((c) =>
+      c.product
+        ? { ...c, product: toPublicProduct(c.product) }
+        : c,
+    ),
     coverage,
-    candidateEvaluations,
+    candidateEvaluations: candidateEvaluations.map((ev) => ({
+      ...ev,
+      product: ev.product ? toPublicProduct(ev.product) : ev.product,
+    })),
     evidence,
     regionLabel: REGION_META[region].label,
     compareHref,
@@ -1033,8 +1072,21 @@ export function getBestGuidePageData(
     breadcrumbs,
     heroImageSrc: resolveBestGuideImage(guide).src,
     methodologyImageSrc: resolveBestGuideMethodologyImage(guide),
-    quickPicks,
-    tableProductRows,
+    quickPicks: publicRecommendations
+      .filter((r) => Boolean(getPrimaryProductMedia(r.product)))
+      .slice(0, quickPickLimit),
+    tableProductRows: tableProductRows.map((row) => ({
+      ...row,
+      rec: {
+        ...row.rec,
+        product: toPublicProduct(row.rec.product),
+        comparisons: row.rec.comparisons.map(toPublicComparisonCriteria),
+        considerInstead: row.rec.considerInstead.map((c) => ({
+          ...c,
+          product: toPublicProduct(c.product),
+        })),
+      },
+    })),
     resolvedTrustPillars,
     nextReviewLabel,
     methodologyBullets,
@@ -1046,11 +1098,21 @@ export function getBestGuidePageData(
     quickPicksTitle,
     comparisonTitle,
     comparisonFootnote,
-    contextConfig,
+    contextConfig: {
+      ...contextConfig,
+      comparisonColumns: contextConfig.comparisonColumns.map((col) => ({
+        ...col,
+        source: (isInternalSchemaKey(col.source)
+          ? publicSpecRowKey(col.source)
+          : col.source) as typeof col.source,
+      })),
+    },
     contextComparisonRows,
     methodologyCardTitle,
     buyingHelpTitle,
-    tableColumns,
+    tableColumns: tableColumns.map((col) =>
+      col.specKey ? { ...col, specKey: publicSpecRowKey(col.specKey) } : col,
+    ),
   };
 }
 
@@ -1092,7 +1154,7 @@ export function getBuyingGuidePageData(
     .map((id) => {
       const product = getProductById(id, options);
       if (!product) return undefined;
-      return { product, brand: getBrandById(product.brandId, options) };
+      return { product: toPublicProduct(product), brand: getBrandById(product.brandId, options) };
     })
     .filter((x): x is NonNullable<typeof x> => Boolean(x));
 
@@ -1169,15 +1231,15 @@ export function getBuyingGuidePageData(
   })();
 
   return {
-    guide,
+    guide: toPublicEditorialGuide(guide),
     author,
     sport,
     category,
     relatedProducts,
-    relatedComparisons,
-    relatedPeerGuides,
+    relatedComparisons: relatedComparisons.map(toPublicComparisonCriteria),
+    relatedPeerGuides: relatedPeerGuides.map(toPublicEditorialGuide),
     useCases,
-    bestGuides,
+    bestGuides: bestGuides.map(toPublicEditorialGuide),
     tools,
     faqs: getFaqsByIds(mergeGuideFaqIds(guide.faqIds, guide.slug)),
     breadcrumbs: [

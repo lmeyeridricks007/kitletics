@@ -9,8 +9,9 @@ import {
   type GuideRecommendationBlock,
 } from "@/lib/best/get-best-guide-page-data";
 import { getScoreBand } from "@/lib/product/score";
-import { cn, formatPrice } from "@/lib/utils";
+import { cn } from "@/lib/utils";
 import { AudienceAvailability } from "@/components/catalog/ShopByFitChips";
+import { CatalogFromPrice } from "@/components/commerce/CatalogPriceIsland";
 import { ScrollableTableRegion } from "@/components/ui/ScrollableTableRegion";
 
 /**
@@ -283,7 +284,13 @@ function ProductIdentityColumn({
           )}
           {rec.lowestPrice ? (
             <span className="font-display text-lg font-bold text-foreground">
-              {formatPrice(rec.lowestPrice.price, rec.lowestPrice.currency)}
+              <CatalogFromPrice
+                slug={rec.product.slug}
+                fallback={{
+                  price: rec.lowestPrice.price,
+                  currency: rec.lowestPrice.currency,
+                }}
+              />
             </span>
           ) : (
             <span className="text-[13px] text-muted">
@@ -585,9 +592,20 @@ export function GuideContextComparisonInline({
                   <td className="py-3 pr-3 font-medium text-foreground">
                     <Link
                       href={`#rec-${rec.product.slug}`}
-                      className="hover:text-link"
+                      className="flex items-center gap-2.5 hover:text-link"
                     >
-                      {name}
+                      {rec.media?.src ? (
+                        <span className="relative h-11 w-11 shrink-0 border border-border bg-surface-muted">
+                          <Image
+                            src={rec.media.src}
+                            alt={rec.media.alt || name}
+                            fill
+                            className="object-contain p-0.5"
+                            sizes="44px"
+                          />
+                        </span>
+                      ) : null}
+                      <span>{name}</span>
                     </Link>
                   </td>
                   {contextComparisonRows.map((col) => (

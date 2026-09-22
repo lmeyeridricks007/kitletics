@@ -82,8 +82,18 @@ export interface CatalogProductRow {
   weightContext?: string;
   drop?: number;
   stability?: string;
-  cushionLevel?: string;
   price?: { price: number; currency: string };
+  /**
+   * Compact tokens so ISR catalog shells can filter client-side without
+   * shipping the full Product graph.
+   */
+  filterTokens?: {
+    brandSlug?: string;
+    typeSlugs: string[];
+    useCaseSlugs: string[];
+    specs: Record<string, string[]>;
+    cushionRank?: number;
+  };
   /** Fit / sizing audiences this model is sold in */
   audiences: Array<"men" | "women" | "unisex">;
   /** Active catalog genderFit filter when single-valued */

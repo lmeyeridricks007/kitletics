@@ -2,12 +2,14 @@
 
 import { useCallback, useEffect, useMemo, useState, useTransition } from "react";
 import Image from "next/image";
-import { useRouter } from "next/navigation";
+import { useRouter, useSearchParams } from "next/navigation";
 import { ArrowLeft, ArrowRight, Clock3, ShieldCheck } from "lucide-react";
 import type { FinderDefinition, FinderResponses } from "@/domain/finders/types";
 import type { RegionCode } from "@/domain/shared/types";
 import { getVisibleQuestions } from "@/domain/finders/normalization";
-import { encodeFinderShareStateBrowser } from "@/domain/finders/share-state";
+import { encodeFinderShareStateBrowser, decodeFinderShareStateBrowser } from "@/domain/finders/share-state";
+import { withRegionalBudgetOptions } from "@/domain/finders/configs/running-shoe-finder";
+import { useRegionPreference } from "@/components/region/RegionPreferenceProvider";
 import { trackFinderEvent } from "@/domain/finders/analytics";
 import type { FinderUiConfig } from "@/lib/finder/finder-ui-config";
 import {
@@ -40,7 +42,7 @@ export function FinderFlow({
   initialResponses = {},
   startAtSummary = false,
   heroProducts = [],
-  region = "NL",
+  region: initialRegion = "NL",
   enableVisualFixture = false,
 }: {
   definition: FinderDefinition;
@@ -58,26 +60,57 @@ export function FinderFlow({
   enableVisualFixture?: boolean;
 }) {
   const router = useRouter();
+  const searchParams = useSearchParams();
+  const { region: preferredRegion } = useRegionPreference();
+  const region = preferredRegion || initialRegion;
   const ui = uiConfig;
 
-  const [responses, setResponses] = useState<FinderResponses>(() =>
-    enableVisualFixture
-      ? { ...VISUAL_FIXTURE_RESPONSES, ...initialResponses }
-      : initialResponses,
+  const shareFromUrl = useMemo(() => {
+    const s = searchParams.get("s");
+    if (!s) return null;
+    const decoded = decodeFinderShareStateBrowser(s, definition.slug);
+    return decoded.ok ? decoded : null;
+  }, [searchParams, definition.slug]);
+
+  const regionalDefinition = useMemo(
+    () => withRegionalBudgetOptions(definition, region),
+    [definition, region],
   );
+
+  const [responses, setResponses] = useState<FinderResponses>(() => {
+    const fromShare = shareFromUrl?.responses ?? initialResponses;
+    return enableVisualFixture
+      ? { ...VISUAL_FIXTURE_RESPONSES, ...fromShare }
+      : fromShare;
+  });
   const [stepIndex, setStepIndex] = useState(() =>
-    enableVisualFixture ? 2 : startAtSummary ? 999 : 0,
+    enableVisualFixture ? 2 : startAtSummary || searchParams.get("edit") === "1"
+      ? 999
+      : 0,
   );
   const [phase, setPhase] = useState<"flow" | "summary">(
-    startAtSummary && !enableVisualFixture ? "summary" : "flow",
+    (startAtSummary || searchParams.get("edit") === "1") && !enableVisualFixture
+      ? "summary"
+      : "flow",
   );
   const [errors, setErrors] = useState<Record<string, string>>({});
   const [preview, setPreview] = useState<FinderPreviewPayload | null>(null);
   const [previewPending, startPreviewTransition] = useTransition();
 
+  useEffect(() => {
+    if (!shareFromUrl) return;
+    setResponses((prev) =>
+      Object.keys(prev).length ? prev : shareFromUrl.responses,
+    );
+    if (searchParams.get("edit") === "1") {
+      setPhase("summary");
+      setStepIndex(999);
+    }
+  }, [shareFromUrl, searchParams]);
+
   const steps = useMemo(
-    () => resolveFinderSteps(definition, responses, ui),
-    [definition, responses, ui],
+    () => resolveFinderSteps(regionalDefinition, responses, ui),
+    [regionalDefinition, responses, ui],
   );
 
   // Clamp step when visible steps change
@@ -94,10 +127,10 @@ export function FinderFlow({
   const questionStepCount = questionSteps.length;
 
   const requiredKeys = useMemo(() => {
-    return getVisibleQuestions(definition, responses)
+    return getVisibleQuestions(regionalDefinition, responses)
       .filter((q) => q.required)
       .map((q) => q.key);
-  }, [definition, responses]);
+  }, [regionalDefinition, responses]);
 
   const refreshPreview = useCallback(() => {
     startPreviewTransition(async () => {

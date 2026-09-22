@@ -20,6 +20,7 @@ import {
   LookForPanels,
   factorIconForId,
 } from "@/components/guides/GuideConceptVisuals";
+import { readPublicSpecValue } from "@/lib/specs/public-label";
 
 function displayScore(score: number): string {
   return (score / 10).toFixed(1);
@@ -810,19 +811,23 @@ function StabilityComparisonTable({
         <tbody>
           {rows.map((row) => {
             const specs = row.product.specifications as Record<string, unknown>;
-            const widths = Array.isArray(specs.widthOptions)
-              ? (specs.widthOptions as string[]).join(", ")
+            const widthsRaw = readPublicSpecValue(specs, "widthOptions");
+            const widths = Array.isArray(widthsRaw)
+              ? (widthsRaw as string[]).join(", ")
               : "—";
             const midsole =
-              typeof specs.midsole === "string" ? specs.midsole : "—";
-            const cushion =
-              typeof specs.cushionLevel === "string"
-                ? specs.cushionLevel
+              typeof readPublicSpecValue(specs, "midsole") === "string"
+                ? String(readPublicSpecValue(specs, "midsole"))
                 : "—";
+            const cushionRaw = readPublicSpecValue(specs, "cushionLevel");
+            const cushion =
+              typeof cushionRaw === "string" ? cushionRaw : "—";
+            const dropRaw = readPublicSpecValue(specs, "drop");
             const drop =
-              typeof specs.drop === "number" ? `${specs.drop} mm` : "—";
+              typeof dropRaw === "number" ? `${dropRaw} mm` : "—";
+            const stabilityRaw = readPublicSpecValue(specs, "stability");
             const stability =
-              typeof specs.stability === "string" ? specs.stability : "—";
+              typeof stabilityRaw === "string" ? stabilityRaw : "—";
             const tradeoff = row.product.weaknesses?.[0] ?? "—";
             const bestUse = row.roleLabel ?? "Daily / easy";
             return (

@@ -9,7 +9,7 @@ import {
 import { DEFAULT_REGION } from "@/domain/shared/types";
 import { products } from "@/content/products";
 import { isPubliclyVisible } from "@/lib/publishing/resolver";
-import { getLowestOfferPrice, getCategoryBySlug } from "@/repositories";
+import { getLowestOfferPrice, getCategoryBySlug, getProductById } from "@/repositories";
 
 describe("Running Shoes catalog", () => {
   it("assembles /running/shoes successfully", () => {
@@ -79,8 +79,12 @@ describe("Running Shoes catalog", () => {
     );
     expect(result.total).toBeGreaterThan(0);
     expect(
-      result.products.every((r) => r.cushionLevel === "high"),
+      result.products.every((r) => {
+        const product = getProductById(r.id, { isDev: false });
+        return product?.specifications.cushionLevel === "high";
+      }),
     ).toBe(true);
+    expect(result.products.every((r) => !("cushionLevel" in r))).toBe(true);
   });
 
   it("combines multiple filters", () => {
@@ -101,7 +105,8 @@ describe("Running Shoes catalog", () => {
     );
     for (const row of result.products) {
       expect((row.brandName ?? "").toLowerCase()).toContain("asics");
-      expect(row.cushionLevel).toBe("high");
+      expect(getProductById(row.id, { isDev: false })?.specifications.cushionLevel).toBe("high");
+      expect("cushionLevel" in row).toBe(false);
       expect(
         row.subcategoryLabels.some((l) =>
           l.toLowerCase().includes("daily"),
@@ -375,7 +380,9 @@ describe("Padel rackets catalog", () => {
     expect(result.total).toBeGreaterThan(0);
     expect(
       result.availableFilters.some(
-        (f) => f.key === "weightMin" && f.options.length > 0,
+        (f) =>
+          (f.key === "weightMin" || f.key === "minimum-weight") &&
+          f.options.length > 0,
       ),
     ).toBe(true);
   });

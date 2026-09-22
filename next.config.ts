@@ -45,22 +45,37 @@ const nextConfig: NextConfig = {
     remotePatterns: [
       {
         protocol: "https",
-        hostname: "**",
-      },
-      {
-        protocol: "https",
         hostname: "*.public.blob.vercel-storage.com",
       },
       {
         protocol: "https",
         hostname: "*.blob.vercel-storage.com",
       },
+      // Hosts that appear as live/fixture image URLs (not retailer homepages).
+      { protocol: "https", hostname: "www.asics.com" },
+      { protocol: "https", hostname: "images.asics.com" },
+      { protocol: "https", hostname: "cdn.shopify.com" },
+      { protocol: "https", hostname: "images.ctfassets.net" },
+      { protocol: "https", hostname: "img.runningwarehouse.com" },
+      { protocol: "https", hostname: "res.garmin.com" },
+      { protocol: "https", hostname: "cdn.runrepeat.com" },
+      { protocol: "https", hostname: "cdn11.bigcommerce.com" },
+      { protocol: "https", hostname: "staticcn.coros.com" },
+      { protocol: "https", hostname: "nb.scene7.com" },
+      { protocol: "https", hostname: "images.samsung.com" },
+      { protocol: "https", hostname: "media.eleiko.com" },
+      { protocol: "https", hostname: "images.prismic.io" },
+      { protocol: "https", hostname: "cdn.sportsshoes.com" },
+      { protocol: "https", hostname: "static.nike.com" },
+      { protocol: "https", hostname: "assets.tracksmith.com" },
+      { protocol: "https", hostname: "media.babolat.com" },
+      { protocol: "https", hostname: "contents.mediadecathlon.com" },
     ],
   },
   async rewrites() {
     const blobBase = process.env.MEDIA_BLOB_BASE_URL?.replace(/\/$/, "");
     if (!blobBase) return [];
-    // Proxy /images/* → Vercel Blob (middleware does the same at the edge).
+    // Proxy /images/* → Vercel Blob. Edge middleware does not match image files.
     return [
       {
         source: "/images/:path*",

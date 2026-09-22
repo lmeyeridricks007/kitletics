@@ -4,7 +4,7 @@ import { Footprints } from "lucide-react";
 import { Container } from "@/components/layout/Container";
 import { Breadcrumbs } from "@/components/layout/Breadcrumbs";
 import { ReviewScorePanel } from "@/components/review/ReviewScorePanel";
-import { pickAmazonOffer } from "@/lib/review/amazon-offer";
+import { ReviewHeroPriceLink } from "@/components/review/ReviewCommerceCtas";
 import { formatVerifiedDate } from "@/lib/product/score";
 import type { ReviewPageData } from "@/lib/review/get-review-page-data";
 
@@ -50,14 +50,12 @@ export function ReviewHero({ data }: { data: ReviewPageData }) {
     heroImage,
     breadcrumbs,
     showTestingModule,
-    offers,
   } = data;
 
   const published =
     review.publishedAt ?? review.updatedAt ?? review.lastVerifiedAt;
   const testingLine = testingSummaryLine(data);
   const atmosphereSrc = config.heroAtmosphereSrc;
-  const amazon = pickAmazonOffer(offers);
 
   return (
     <section className="border-b border-border bg-[#f4f4f2]">
@@ -184,14 +182,7 @@ export function ReviewHero({ data }: { data: ReviewPageData }) {
               >
                 View product details →
               </Link>
-              {!amazon && offers.length > 0 ? (
-                <Link
-                  href="#offers"
-                  className="text-[13px] font-semibold text-accent-ink hover:underline"
-                >
-                  View prices →
-                </Link>
-              ) : null}
+              <ReviewHeroPriceLink />
             </p>
           </div>
 
@@ -201,10 +192,7 @@ export function ReviewHero({ data }: { data: ReviewPageData }) {
               displayScore={displayScore}
               scoreBandLabel={scoreBandLabel}
               heroCriteria={heroCriteria}
-              amazonOffer={amazon}
               productName={product.fullName}
-              lowestPrice={data.lowestPrice}
-              hasRegionalOffers={offers.length > 0}
             />
           </div>
         </div>

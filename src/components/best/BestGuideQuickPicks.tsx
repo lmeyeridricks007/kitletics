@@ -6,8 +6,8 @@ import {
   type GuideRecommendationBlock,
 } from "@/lib/best/get-best-guide-page-data";
 import { getScoreBand } from "@/lib/product/score";
-import { formatPrice } from "@/lib/utils";
 import { AudienceAvailability } from "@/components/catalog/ShopByFitChips";
+import { CatalogFromPrice } from "@/components/commerce/CatalogPriceIsland";
 
 export function BestGuideQuickPicks({
   quickPicks,
@@ -104,8 +104,13 @@ function QuickPickCard({ rec }: { rec: GuideRecommendationBlock }) {
 
         {rec.lowestPrice && (
           <p className="text-[13px] font-semibold text-foreground">
-            From{" "}
-            {formatPrice(rec.lowestPrice.price, rec.lowestPrice.currency)}
+            <CatalogFromPrice
+              slug={rec.product.slug}
+              fallback={{
+                price: rec.lowestPrice.price,
+                currency: rec.lowestPrice.currency,
+              }}
+            />
           </p>
         )}
 

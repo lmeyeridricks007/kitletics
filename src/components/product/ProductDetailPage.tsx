@@ -12,11 +12,22 @@ import { Container } from "@/components/layout/Container";
 import { Breadcrumbs } from "@/components/layout/Breadcrumbs";
 import { ProductMediaGallery } from "@/components/product/ProductMediaGallery";
 import { AddToCompareButton } from "@/components/compare/AddToCompareButton";
+import { readPublicSpecValue } from "@/lib/specs/public-label";
 import {
   SpecificationSummary,
   SpecificationGroup,
 } from "@/components/product/SpecificationBlocks";
-import { OfferPanel } from "@/components/product/OfferPanel";
+import {
+  ProductCommerceIsland,
+  CommercePeerPrice,
+} from "@/components/product/ProductCommerceIsland";
+import { ProductHeroCommerce } from "@/components/product/ProductHeroCommerce";
+import {
+  CommerceOfferPanel,
+  CommercePricesChecked,
+} from "@/components/product/CommerceOfferPanel";
+import { productPageDataToCommerce } from "@/lib/product/product-commerce-from-page";
+import type { CommercePrice } from "@/lib/product/product-commerce";
 import {
   ProductAudienceSummary,
   ProductFitSizingPanel,
@@ -49,7 +60,7 @@ import {
 import { formatVerifiedDate, getScoreBand } from "@/lib/product/score";
 import { getPrimaryProductMedia, canFeatureProduct } from "@/lib/product/media";
 import { getLowestOfferPrice, getProductById, getBrandById } from "@/repositories";
-import { cn, formatPrice } from "@/lib/utils";
+import { cn } from "@/lib/utils";
 import { getProductDetailConfig } from "@/lib/product/product-detail-config";
 import type { ProductPageData } from "@/lib/product/get-product-page-data";
 
@@ -68,8 +79,6 @@ export function ProductDetailPage({ data }: { data: ProductPageData }) {
     recommendations,
     bestFor,
     offers,
-    offersOtherRegions,
-    lowestPrice,
     review,
     alternatives,
     family,
@@ -101,11 +110,6 @@ export function ProductDetailPage({ data }: { data: ProductPageData }) {
       : detailConfig.mediaAspect === "square"
         ? "aspect-square"
         : undefined;
-
-  const canBuy =
-    product.lifecycleStatus !== "upcoming" &&
-    product.lifecycleStatus !== "discontinued" &&
-    offers.length > 0;
 
   const compareProduct = {
     slug: product.slug,
@@ -158,8 +162,8 @@ export function ProductDetailPage({ data }: { data: ProductPageData }) {
     faqs.length > 0 ? { id: "faq", label: "FAQ" } : null,
   ].filter(Boolean) as { id: string; label: string }[];
 
-  const midsole = String(product.specifications.midsole ?? "");
-  const outsole = String(product.specifications.outsole ?? "");
+  const midsole = String(readPublicSpecValue(product.specifications, "midsole") ?? "");
+  const outsole = String(readPublicSpecValue(product.specifications, "outsole") ?? "");
   const techItems = [
     midsole
       ? {
@@ -175,10 +179,12 @@ export function ProductDetailPage({ data }: { data: ProductPageData }) {
           body: outsole,
         }
       : null,
-    product.specifications.plate
+    readPublicSpecValue(product.specifications, "plate")
       ? {
           id: "plate",
-          title: String(product.specifications.plateMaterial ?? "Plate"),
+          title: String(
+            readPublicSpecValue(product.specifications, "plateMaterial") ?? "Plate",
+          ),
           body: "Structured plate for stiffness and ride character.",
         }
       : null,
@@ -199,6 +205,22 @@ export function ProductDetailPage({ data }: { data: ProductPageData }) {
     if (uniqueAlts.length >= 3) break;
   }
 
+  const peerPrices: Record<string, CommercePrice | null> = {};
+  for (const id of new Set([
+    ...product.alternativeProductIds,
+    ...product.relatedProductIds,
+  ])) {
+    const price = getLowestOfferPrice(id, data.region);
+    peerPrices[id] = price
+      ? {
+          amount: price.price,
+          currency: price.currency,
+          offerId: price.offerId,
+        }
+      : null;
+  }
+  const initialCommerce = productPageDataToCommerce(data, peerPrices);
+
   return (
     <>
       <JsonLdScript
@@ -210,6 +232,10 @@ export function ProductDetailPage({ data }: { data: ProductPageData }) {
         ]}
       />
 
+      <ProductCommerceIsland
+        slug={product.slug}
+        initialCommerce={initialCommerce}
+      >
       {/* Hero */}
       <section className="border-b border-border bg-white">
         <Container size="wide" className="py-5 sm:py-6">
@@ -347,56 +373,14 @@ export function ProductDetailPage({ data }: { data: ProductPageData }) {
                 </div>
               )}
 
-              <div className="rounded-lg border border-border bg-white p-4">
-                {lowestPrice && canBuy ? (
-                  <>
-                    <p className="font-display text-xl font-bold tracking-tight text-foreground uppercase">
-                      From {formatPrice(lowestPrice.price, lowestPrice.currency)}
-                    </p>
-                    <p className="mt-1 text-[12px] text-muted">
-                      Price may vary by size and colour.
-                    </p>
-                    <Link
-                      href="#offers"
-                      className="mt-3 flex h-11 w-full items-center justify-center rounded-md bg-accent text-[13px] font-bold tracking-wide text-accent-foreground uppercase transition-opacity hover:opacity-90"
-                    >
-                      View prices ({offers.length}) →
-                    </Link>
-                  </>
-                ) : product.lifecycleStatus === "discontinued" ? (
-                  <p className="text-sm font-semibold text-foreground">
-                    No longer widely available
-                    {newerGeneration && (
-                      <>
-                        {" "}
-                        — see{" "}
-                        <Link
-                          href={`/products/${newerGeneration.slug}`}
-                          className="text-link hover:underline"
-                        >
-                          {newerGeneration.name}
-                        </Link>
-                      </>
-                    )}
-                  </p>
-                ) : (
-                  <>
-                    <p className="text-[15px] font-bold text-foreground">
-                      Regional pricing
-                    </p>
-                    <p className="mt-1 text-[12px] text-muted">
-                      No verified retailer offers currently available in your
-                      region.
-                    </p>
-                    <Link
-                      href="#offers"
-                      className="mt-3 flex h-11 w-full items-center justify-center rounded-md border border-border text-[13px] font-medium tracking-wide text-muted"
-                    >
-                      Pricing details →
-                    </Link>
-                  </>
-                )}
-              </div>
+              <ProductHeroCommerce
+                lifecycleStatus={product.lifecycleStatus}
+                newerGeneration={
+                  newerGeneration
+                    ? { slug: newerGeneration.slug, name: newerGeneration.name }
+                    : undefined
+                }
+              />
             </aside>
           </div>
         </Container>
@@ -927,13 +911,13 @@ export function ProductDetailPage({ data }: { data: ProductPageData }) {
                             </span>
                           </span>
                         )}
-                        {item.price && (
-                          <span className="mt-1 text-[11px] text-muted">
-                            From{" "}
-                            {item.price.currency === "EUR" ? "€" : ""}
-                            {item.price.amount}
-                          </span>
-                        )}
+                      <span className="mt-1 text-[11px] text-muted">
+                        <CommercePeerPrice
+                          productId={item.id}
+                          fallback={item.price}
+                          self={item.current}
+                        />
+                      </span>
                       </Link>
                     </li>
                   ))}
@@ -979,8 +963,13 @@ export function ProductDetailPage({ data }: { data: ProductPageData }) {
                               )}
                               {price && (
                                 <span>
-                                  From {price.currency === "EUR" ? "€" : ""}
-                                  {price.price}
+                                  <CommercePeerPrice
+                                    productId={alt.product.id}
+                                    fallback={{
+                                      amount: price.price,
+                                      currency: price.currency,
+                                    }}
+                                  />
                                 </span>
                               )}
                             </span>
@@ -1029,14 +1018,7 @@ export function ProductDetailPage({ data }: { data: ProductPageData }) {
           />
         )}
 
-        <section id="offers" className="scroll-mt-[calc(var(--site-chrome-height)+3.25rem)]">
-          <OfferPanel
-            offers={offers}
-            otherRegionOffers={offersOtherRegions}
-            regionLabel={data.regionLabel}
-            productName={product.fullName}
-          />
-        </section>
+        <CommerceOfferPanel productName={product.fullName} />
 
         {/* Sources & Evidence — supporting transparency (after prices) */}
         {reviewSummary ? (
@@ -1100,16 +1082,12 @@ export function ProductDetailPage({ data }: { data: ProductPageData }) {
               {formatVerifiedDate(product.lastVerifiedAt)}.{" "}
             </>
           )}
-          {offers[0]?.offer.lastChecked && (
-            <>
-              Prices checked{" "}
-              {formatVerifiedDate(offers[0].offer.lastChecked)}.
-            </>
-          )}
+          <CommercePricesChecked />
         </p>
       </Container>
 
       <TrustRow />
+      </ProductCommerceIsland>
     </>
   );
 }

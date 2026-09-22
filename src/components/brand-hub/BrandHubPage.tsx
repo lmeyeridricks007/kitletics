@@ -21,7 +21,7 @@ import {
   Map,
   type LucideIcon,
 } from "lucide-react";
-import { formatPrice } from "@/lib/utils";
+import { CatalogFromPrice } from "@/components/commerce/CatalogPriceIsland";
 import { BrandLocalNav } from "@/components/brand-hub/BrandLocalNav";
 import type { BrandHubPageData } from "@/lib/brand-hub/types";
 import { IMAGE_QUALITY, IMAGE_SIZES } from "@/lib/media/image-delivery";
@@ -574,18 +574,20 @@ function ProductCard({
           </div>
         )}
         <p className="text-[11px] text-muted">{product.role}</p>
-        {product.price ? (
-          <p className="text-[12px] font-semibold text-foreground">
-            From{" "}
-            {formatPrice(product.price.amount, product.price.currency, "nl-NL")}
-            {product.offerCount > 0 ? ` · ${product.offerCount} offers` : ""}
-          </p>
-        ) : (
-          <p className="text-[12px] text-muted">
-            Check prices
-            {product.offerCount > 0 ? ` · ${product.offerCount} offers` : ""}
-          </p>
-        )}
+        <p className="text-[12px] font-semibold text-foreground">
+          <CatalogFromPrice
+            slug={product.slug}
+            fallback={
+              product.price
+                ? {
+                    amount: product.price.amount,
+                    currency: product.price.currency,
+                  }
+                : null
+            }
+          />
+          {product.offerCount > 0 ? ` · ${product.offerCount} offers` : ""}
+        </p>
         <Link
           href={product.href}
           className="mt-auto pt-0.5 text-[12px] font-medium text-link hover:underline"

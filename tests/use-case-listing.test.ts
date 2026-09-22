@@ -43,7 +43,8 @@ describe("Product use-case listing pages", () => {
     )).toBe(true);
     expect(typeFacet?.options.some((o) => o.value === "race")).toBe(true);
     const distanceFacet = data!.facets.find(
-      (f) => f.key === "recommendedDistance",
+      (f) =>
+        f.key === "recommendedDistance" || f.key === "recommended-distance",
     );
     expect(distanceFacet?.label).toBe("Distance");
   });

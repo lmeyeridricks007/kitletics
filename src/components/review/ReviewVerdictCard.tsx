@@ -3,9 +3,8 @@ import Link from "next/link";
 import { Check, Minus } from "lucide-react";
 import { AddToCompareButton } from "@/components/compare/AddToCompareButton";
 import { LinkifiedText } from "@/components/editorial/LinkifiedText";
-import { ReviewAmazonCta } from "@/components/review/ReviewAmazonCta";
 import type { CatalogMentionOptions } from "@/lib/editorial/catalog-mentions";
-import { pickAmazonOffer } from "@/lib/review/amazon-offer";
+import { ReviewVerdictCommerce } from "@/components/review/ReviewCommerceCtas";
 import type { ReviewPageData } from "@/lib/review/get-review-page-data";
 
 const SCROLL =
@@ -29,7 +28,6 @@ export function ReviewVerdictCard({
     category,
     displayScore,
     scoreBandLabel,
-    offers,
     heroImage,
     heroCriteria,
     bottomLine,
@@ -39,7 +37,6 @@ export function ReviewVerdictCard({
   const skipSignals = data.decisionCopy.skipIf.slice(0, 3);
   const topCriteria = heroCriteria.slice(0, 4);
   const verdictCopy = bottomLine?.trim() || review.verdict;
-  const amazon = pickAmazonOffer(offers);
 
   return (
     <section id="verdict" className={SCROLL}>
@@ -196,29 +193,10 @@ export function ReviewVerdictCard({
             )}
 
             <div className="mt-auto flex flex-col gap-2.5 pt-6 sm:flex-row sm:flex-wrap sm:items-center">
-              {amazon ? (
-                <ReviewAmazonCta
-                  offer={amazon}
-                  productName={product.fullName}
-                  placement="review"
-                  variant="primary"
-                />
-              ) : null}
-              {offers.length > 0 ? (
-                <Link
-                  href="#offers"
-                  className="inline-flex h-11 items-center justify-center border border-border bg-white px-5 text-[12px] font-bold tracking-[0.08em] text-foreground uppercase transition-colors hover:border-foreground/40 sm:min-w-[11rem]"
-                >
-                  All prices ({offers.length}) →
-                </Link>
-              ) : (
-                <Link
-                  href={`/products/${product.slug}`}
-                  className="inline-flex h-11 items-center justify-center bg-accent px-5 text-[12px] font-bold tracking-[0.08em] text-accent-foreground uppercase transition-opacity hover:opacity-90 sm:min-w-[11rem]"
-                >
-                  View product →
-                </Link>
-              )}
+              <ReviewVerdictCommerce
+                productName={product.fullName}
+                productHref={`/products/${product.slug}`}
+              />
               <AddToCompareButton
                 product={{
                   slug: product.slug,

@@ -251,8 +251,11 @@ describe("pickLowestDisplayableOffer — From-price semantics", () => {
       retailers,
       "NL",
       (o) => Boolean(o.affiliateUrl),
+      now,
     );
+    // Aging is excluded from From-price; fresh €160 is the displayable low.
     expect(summary.lowestPrice).toBe(160);
+    // Ranking may still surface the cheaper aging offer as CTA.
     expect(summary.bestOfferId).toBe("o-cheap-aging");
   });
 });

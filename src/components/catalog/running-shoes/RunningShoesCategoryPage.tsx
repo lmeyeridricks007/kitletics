@@ -86,6 +86,7 @@ export function RunningShoesCategoryPage({
               before browsing the grid.
             </p>
           </div>
+          <Suspense fallback={null}>
           <CatalogInteractive
             basePath={data.basePath}
             categoryName={data.category.name}
@@ -103,6 +104,7 @@ export function RunningShoesCategoryPage({
             page={data.catalog.page}
             totalPages={data.catalog.totalPages}
           />
+          </Suspense>
         </Container>
       </section>
 

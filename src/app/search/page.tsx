@@ -1,12 +1,14 @@
 import type { Metadata } from "next";
-import { SearchResultsPage } from "@/components/search/SearchResultsPage";
-import { getSearchPageData } from "@/lib/search/get-search-page-data";
-import { getRequestRegion } from "@/lib/region/server";
+import { Suspense } from "react";
+import { SearchResultsClient } from "@/components/search/SearchResultsClient";
 import { siteConfig } from "@/content/config";
 
+/**
+ * Empty search shell — ISR. Query state is client-only.
+ * Do not ISR `/search?q=*`. robots.txt disallows /search.
+ */
+export const revalidate = 86400;
 
-/** Request-time / heavy catalog pages — skip SSG to keep builds healthy. */
-export const dynamic = "force-dynamic";
 export const metadata: Metadata = {
   title: "Search",
   description: "Search Kitletics products, brands, guides and tools.",
@@ -14,51 +16,10 @@ export const metadata: Metadata = {
   alternates: { canonical: `${siteConfig.url}/search` },
 };
 
-interface PageProps {
-  searchParams: Promise<{
-    q?: string;
-    type?: string;
-    brand?: string;
-    minPrice?: string;
-    maxPrice?: string;
-    feature?: string | string[];
-  }>;
-}
-
-function parseFeatures(feature?: string | string[]): string[] {
-  if (!feature) return [];
-  const list = Array.isArray(feature) ? feature : [feature];
-  return list
-    .flatMap((f) => f.split(","))
-    .map((f) => f.trim())
-    .filter(Boolean);
-}
-
-export default async function SearchPage({ searchParams }: PageProps) {
-  const {
-    q = "",
-    type,
-    brand,
-    minPrice: minRaw,
-    maxPrice: maxRaw,
-    feature,
-  } = await searchParams;
-  const region = await getRequestRegion();
-  const minPrice = minRaw != null ? Number(minRaw) : undefined;
-  const maxPrice = maxRaw != null ? Number(maxRaw) : undefined;
-
-  const data = getSearchPageData({
-    query: q,
-    type,
-    brand,
-    minPrice:
-      minPrice != null && Number.isFinite(minPrice) ? minPrice : undefined,
-    maxPrice:
-      maxPrice != null && Number.isFinite(maxPrice) ? maxPrice : undefined,
-    features: parseFeatures(feature),
-    region,
-    preview: process.env.NODE_ENV === "development",
-  });
-
-  return <SearchResultsPage data={data} />;
+export default function SearchPage() {
+  return (
+    <Suspense fallback={null}>
+      <SearchResultsClient />
+    </Suspense>
+  );
 }

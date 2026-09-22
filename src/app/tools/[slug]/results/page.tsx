@@ -13,7 +13,10 @@ import { getRequestRegion } from "@/lib/region/server";
 import { Container } from "@/components/layout/Container";
 
 
-/** Request-time / heavy catalog pages — skip SSG to keep builds healthy. */
+/**
+ * Finder / rotation results are share-state + region-dependent and noindex.
+ * Keep Architecture E / controlled dynamic — do not ISR this route.
+ */
 export const dynamic = "force-dynamic";
 interface PageProps {
   params: Promise<{ slug: string }>;
