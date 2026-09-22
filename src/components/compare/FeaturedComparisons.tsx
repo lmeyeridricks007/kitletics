@@ -1,15 +1,15 @@
 import Link from "next/link";
 import Image from "next/image";
 import { ProductImageFallback } from "@/components/media/ProductImageFallback";
-import type { Comparison } from "@/domain/editorial/types";
 import type { CompareProductIndexItem } from "@/lib/comparison/product-index";
 import { IMAGE_QUALITY, IMAGE_SIZES } from "@/lib/media/image-delivery";
 import { cn } from "@/lib/utils";
+import type { FeaturedCompareCard } from "@/lib/comparison/compare-index-shared";
 
 type FeaturedGroup = {
   categoryId: string;
   categoryName: string;
-  items: Comparison[];
+  items: FeaturedCompareCard[];
 };
 
 /** Cap featured cards so empty /compare does not paint dozens of product thumbs. */

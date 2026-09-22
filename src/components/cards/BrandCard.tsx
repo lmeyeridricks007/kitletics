@@ -1,10 +1,9 @@
 import Link from "next/link";
 import { cn } from "@/lib/utils";
-import type { Brand } from "@/domain/products/types";
 import { brandAccentCss, brandAccentHex } from "@/lib/brands/brand-colors";
 
 interface BrandCardProps {
-  brand: Brand;
+  brand: { name: string; slug: string; logo?: string; country?: string; description?: string };
   href?: string;
   productCount?: number;
   className?: string;

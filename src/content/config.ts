@@ -19,7 +19,7 @@ export const SEED_DATES = {
    * Fixture lastChecked for seed/manual offers is lifted to this clock
    * in materializeOffers — do not widen FRESHNESS_THRESHOLDS_HOURS.
    */
-  verified: "2026-09-13T12:00:00.000Z",
+  verified: "2026-09-22T12:00:00.000Z",
   scheduledFuture: "2027-06-01T10:00:00.000Z",
 } as const;
 

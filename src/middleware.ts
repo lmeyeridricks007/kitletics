@@ -27,6 +27,16 @@ function shouldNoindexQuery(
 ): boolean {
   if (searchParams.size === 0) return false;
   if (pathname === "/gear" || pathname === "/search") return true;
+  if (
+    pathname === "/best" ||
+    pathname === "/brands" ||
+    pathname === "/reviews" ||
+    pathname === "/guides" ||
+    pathname === "/compare" ||
+    pathname === "/setups"
+  ) {
+    return true;
+  }
   if (pathname.startsWith("/tools/")) return true;
   const parts = pathname.split("/").filter(Boolean);
   if (parts.length < 2) return false;

@@ -12,7 +12,7 @@ import type { PublishResolverOptions } from "@/lib/publishing/resolver";
 import { isPubliclyVisible } from "@/lib/publishing/resolver";
 import { canPublishAlternativesPage } from "@/domain/relationships/eligibility";
 import { getAllProductRelationships } from "@/repositories/relationships";
-import { getProducts } from "@/repositories/products";
+import { getProducts, getProductById } from "@/repositories/products";
 import { getCategoryById } from "@/repositories/sports";
 import { isSoftGatedCategory } from "@/lib/navigation/category-href";
 import {
@@ -203,20 +203,24 @@ function isParentProductIndexable(
   const hit = parentIndexableCache.get(key);
   if (hit !== undefined) return hit;
 
+  // Prefer the catalog entity. Page DTOs may run through toPublicProduct
+  // (kebab-case specs) which would falsely fail required-spec quality checks.
+  const canonical = getProductById(product.id, options) ?? product;
+
   let ok = true;
-  if (!isPubliclyVisible(product, options) || product.noindex) ok = false;
+  if (!isPubliclyVisible(canonical, options) || canonical.noindex) ok = false;
   else {
-    const vertical = resolveEntityVerticalPolicy(product.sportIds);
+    const vertical = resolveEntityVerticalPolicy(canonical.sportIds);
     if (verticalHidesDeepEntities(vertical, "product")) ok = false;
     else {
-      const category = getCategoryById(product.categoryId, options);
+      const category = getCategoryById(canonical.categoryId, options);
       if (category && isSoftGatedCategory(category)) ok = false;
       else {
-        const assessed = assessProductLaunchQuality(product, options);
+        const assessed = assessProductLaunchQuality(canonical, options);
         if (assessed.quality === "LAUNCH_READY") ok = true;
         else if (
           assessed.quality === "NEEDS_MINOR_WORK" &&
-          isMinorWorkProductApproved(product.slug)
+          isMinorWorkProductApproved(canonical.slug)
         ) {
           ok = true;
         } else {

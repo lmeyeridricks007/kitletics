@@ -1,39 +1,17 @@
 import { runningSportHubConfig } from "@/lib/sport-hub/config";
 import { withRunningGender } from "@/lib/running/gender-links";
-import {
-  parseAudienceParam,
-  type AudienceFit,
-} from "@/lib/product/audience";
+import { parseAudienceParam } from "@/lib/product/audience";
 import { getProductsByCategory } from "@/repositories/products";
+import type {
+  RunningGearHubData,
+  RunningGearHubGroup,
+} from "@/lib/running-gear/running-gear-hub-types";
 
-export interface RunningGearHubItem {
-  id: string;
-  label: string;
-  href: string;
-  icon: string;
-  categoryId?: string;
-  productCount: number;
-  /** True when this category supports genderFit filtering */
-  genderFilterable: boolean;
-}
-
-export interface RunningGearHubGroup {
-  id: string;
-  label: string;
-  items: RunningGearHubItem[];
-}
-
-export interface RunningGearHubData {
-  title: string;
-  description: string;
-  backHref: string;
-  gender?: AudienceFit;
-  groups: RunningGearHubGroup[];
-  ctas: {
-    shoeFinder: { label: string; href: string };
-    hydrationFinder: { label: string; href: string };
-  };
-}
+export type {
+  RunningGearHubData,
+  RunningGearHubGroup,
+  RunningGearHubItem,
+} from "@/lib/running-gear/running-gear-hub-types";
 
 /** Running categories with a filterable genderFit spec. */
 const GENDER_FILTERABLE_CATEGORY_IDS = new Set([

@@ -41,7 +41,6 @@ import {
 
 interface PageProps {
   params: Promise<{ sport: string }>;
-  searchParams: Promise<{ gender?: string }>;
 }
 
 const RESERVED = new Set([
@@ -90,7 +89,7 @@ export async function generateMetadata({
   return withLaunchRobots(sportMetadata(sport), elig);
 }
 
-export default async function SportPage({ params, searchParams }: PageProps) {
+export default async function SportPage({ params }: PageProps) {
   const { sport: slug } = await params;
   if (RESERVED.has(slug)) notFound();
 
@@ -110,8 +109,7 @@ export default async function SportPage({ params, searchParams }: PageProps) {
   if (hasDeclarativeSportHub(slug)) {
     const data = getSportHubData({ sportSlug: slug, region: "NL" });
     if (!data) notFound();
-    const { gender: genderRaw } = await searchParams;
-    return <SportHubPage data={data} genderRaw={genderRaw} />;
+    return <SportHubPage data={data} />;
   }
 
   // Assemble hubs (fitness) — keep until migrated to declarative stack

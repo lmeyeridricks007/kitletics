@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { cn } from "@/lib/utils";
-import type { GuidesHubCardData } from "@/lib/guides/get-guides-hub-data";
+import type { CompactGuidesHubCard } from "@/lib/guides/guides-index-shared";
 
 type GuideHubCardSize =
   | "featured"
@@ -11,7 +11,7 @@ type GuideHubCardSize =
   | "compact";
 
 interface GuideHubCardProps {
-  card: GuidesHubCardData;
+  card: CompactGuidesHubCard;
   size?: GuideHubCardSize;
   priority?: boolean;
   className?: string;
@@ -168,7 +168,7 @@ export function GuideHubListCard({
   card,
   className,
 }: {
-  card: GuidesHubCardData;
+  card: CompactGuidesHubCard;
   className?: string;
 }) {
   return (

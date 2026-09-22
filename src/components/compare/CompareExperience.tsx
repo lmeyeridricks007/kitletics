@@ -26,7 +26,7 @@ import {
 } from "@/lib/comparison/selection";
 import { loadDynamicComparisonAction } from "@/lib/comparison/compare-action";
 import type { ComparisonPageData } from "@/lib/comparison/get-comparison-page-data";
-import type { Comparison } from "@/domain/editorial/types";
+import type { FeaturedCompareGroup } from "@/lib/comparison/compare-index-shared";
 import { trackCompareEvent } from "@/lib/comparison/analytics";
 import { getComparisonCategoryConfig } from "@/lib/comparison/category-config";
 import type { BreadcrumbItem } from "@/components/layout/Breadcrumbs";
@@ -34,7 +34,7 @@ import type { BreadcrumbItem } from "@/components/layout/Breadcrumbs";
 export interface CompareExperienceProps {
   index: CompareProductIndexItem[];
   categories: CompareCategoryOption[];
-  featured: { categoryId: string; categoryName: string; items: Comparison[] }[];
+  featured: FeaturedCompareGroup[];
   initialCategorySlug?: string;
   initialProductSlugs: string[];
   /** Server-resolved comparison when URL has ≥2 valid products */
@@ -156,6 +156,13 @@ export function CompareExperience({
       }
     });
   }, []);
+
+  useEffect(() => {
+    if (initialComparison) return;
+    if (crossCategoryError) return;
+    if (resolvedInitial.length < COMPARE_MIN_PRODUCTS) return;
+    recompute(resolvedInitial.map((i) => i.slug));
+  }, [initialComparison, crossCategoryError, resolvedInitial, recompute]);
 
   function onCategoryChange(slug: string) {
     const next = categories.find((c) => c.slug === slug);

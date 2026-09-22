@@ -1,4 +1,7 @@
+"use client";
+
 import Link from "next/link";
+import { useSearchParams } from "next/navigation";
 import { Container } from "@/components/layout/Container";
 import {
   parseAudienceParam,
@@ -19,12 +22,9 @@ export const RUNNING_FIT_CATEGORIES: { label: string; href: string }[] = [
  * Fit toggle on the Running hub — stays on /running and links straight into
  * gender-filtered category catalogs (not the All Gear index).
  */
-export function RunningFitLinks({
-  genderRaw,
-}: {
-  genderRaw?: string | null;
-}) {
-  const gender = parseAudienceParam(genderRaw);
+export function RunningFitLinks() {
+  const searchParams = useSearchParams();
+  const gender = parseAudienceParam(searchParams.get("gender"));
 
   const fitOptions: {
     value: AudienceFit | "all";

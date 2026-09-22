@@ -26,7 +26,7 @@ import {
   getToolBySlug,
   getSportById,
 } from "@/repositories";
-import { getScoreBand } from "@/lib/product/score";
+import type { Product } from "@/domain/products/types";
 import { canFeatureProduct, getPrimaryProductMedia } from "@/lib/product/media";
 import { getCategoryHref } from "@/lib/navigation/category-href";
 import {
@@ -39,6 +39,7 @@ import {
   type SearchFeatureFacet,
   type SearchPriceFacet,
 } from "@/lib/search/facets";
+import { getScoreBand } from "@/lib/product/score";
 
 export type SearchGroupKey =
   | "product"
@@ -311,9 +312,22 @@ export function getSearchPageData(input: {
       : undefined;
 
   const intent = detectSearchIntent(query);
+  /**
+   * Safety ceiling over the in-memory catalog (~900 products + editorial).
+   * Hits are lightweight SearchHit records; only displayed cards hydrate
+   * media/prices. Facets use cached Product lookups, not a second catalog scan.
+   */
   const hits = query
     ? searchKitletics(query, { ...options, filter, limit: 5000 })
     : [];
+
+  const productCache = new Map<string, Product | null>();
+  const productOf = (id: string): Product | undefined => {
+    if (productCache.has(id)) return productCache.get(id) ?? undefined;
+    const found = getProductById(id, options) ?? null;
+    productCache.set(id, found);
+    return found ?? undefined;
+  };
 
   let working = hits;
   if (input.brand) {
@@ -322,7 +336,7 @@ export function getSearchPageData(input: {
       working = working.filter((h) => {
         if (h.type === "brand") return h.id === brand.id;
         if (h.type === "product") {
-          const p = getProductById(h.id, options);
+          const p = productOf(h.id);
           return p?.brandId === brand.id;
         }
         return filter !== "products";
@@ -333,8 +347,8 @@ export function getSearchPageData(input: {
   // Resolve product entities for facet dominance + product-only filters
   const productEntities = working
     .filter((h) => h.type === "product")
-    .map((h) => getProductById(h.id, options))
-    .filter((p): p is NonNullable<typeof p> => Boolean(p));
+    .map((h) => productOf(h.id))
+    .filter((p): p is Product => Boolean(p));
   const dominantCategoryId = detectDominantCategoryId(productEntities);
   const featureFacets = buildFeatureFacets(productEntities, dominantCategoryId);
   const priceScope = dominantCategoryId
@@ -356,7 +370,7 @@ export function getSearchPageData(input: {
   if (priceOrFeatureActive) {
     working = working.filter((h) => {
       if (h.type !== "product") return true;
-      const p = getProductById(h.id, options);
+      const p = productOf(h.id);
       if (!p) return false;
       if (
         !productMatchesFeatures(p, activeFeatures, dominantCategoryId)
@@ -426,7 +440,7 @@ export function getSearchPageData(input: {
     { name: string; slug: string; count: number }
   >();
   for (const hit of working.filter((h) => h.type === "product")) {
-    const p = getProductById(hit.id, options);
+    const p = productOf(hit.id);
     if (!p) continue;
     const brand = getBrandById(p.brandId, options);
     if (!brand) continue;
@@ -460,7 +474,7 @@ export function getSearchPageData(input: {
     { name: string; slug: string; count: number }
   >();
   for (const hit of working.filter((h) => h.type === "product")) {
-    const p = getProductById(hit.id, options);
+    const p = productOf(hit.id);
     if (!p) continue;
     const cat = getCategoryById(p.categoryId, options);
     if (!cat) continue;
@@ -487,7 +501,7 @@ export function getSearchPageData(input: {
     { name: string; slug: string; count: number }
   >();
   for (const hit of working.filter((h) => h.type === "product")) {
-    const p = getProductById(hit.id, options);
+    const p = productOf(hit.id);
     if (!p) continue;
     for (const sid of p.sportIds) {
       const sport = getSportById(sid, options);

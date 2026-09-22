@@ -6,6 +6,7 @@ import {
   isPadelCatalogProduct,
   isPadelMediaVerified,
 } from "@/lib/product/media-identity";
+import { resolveProductImageSource } from "@/lib/media/resolve-media-url";
 
 export { isAuthenticProductMedia } from "@/lib/product/media-authentic";
 
@@ -33,7 +34,10 @@ export function getPrimaryProductMedia(
     if (!isPadelMediaVerified(product, candidate)) return undefined;
   }
 
-  return candidate;
+  const resolved = resolveProductImageSource(candidate.src);
+  return resolved && resolved !== candidate.src
+    ? { ...candidate, src: resolved }
+    : candidate;
 }
 
 /**

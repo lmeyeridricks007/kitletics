@@ -1,19 +1,24 @@
+"use client";
+
 import Image from "next/image";
 import Link from "next/link";
 import type { ReactNode } from "react";
 import { Breadcrumbs } from "@/components/layout/Breadcrumbs";
 import { Container } from "@/components/layout/Container";
 import { TrustRow } from "@/components/home/TrustRow";
-import { BestGuideCard, ReviewCard } from "@/components/cards/ContentCards";
+import {
+  IndexBestGuideCard,
+  IndexReviewCard,
+} from "@/components/cards/IndexHubCards";
 import {
   GuideHubCard,
   GuideHubListCard,
 } from "@/components/guides-hub/GuideHubCard";
 import { cn } from "@/lib/utils";
-import type { GuidesHubPageData } from "@/lib/guides/get-guides-hub-data";
+import type { CompactGuidesHubPageData } from "@/lib/guides/guides-index-shared";
 
 interface GuidesHubPageProps {
-  data: GuidesHubPageData;
+  data: CompactGuidesHubPageData;
 }
 
 function HubSection({
@@ -70,7 +75,7 @@ function HubSection({
   );
 }
 
-function GuidesHubHero({ data }: { data: GuidesHubPageData }) {
+function GuidesHubHero({ data }: { data: CompactGuidesHubPageData }) {
   const config = data.config;
   const shoesDomain = data.domain === "shoes";
   const eyebrow =
@@ -359,7 +364,14 @@ export function GuidesHubPage({ data }: GuidesHubPageProps) {
         >
           <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
             {data.relatedBestGuides.map((guide) => (
-              <BestGuideCard key={guide.id} guide={guide} />
+              <IndexBestGuideCard
+                key={guide.id}
+                href={`/best/${guide.slug}`}
+                title={guide.title}
+                description={guide.description}
+                recCount={guide.recCount}
+                image={guide.image}
+              />
             ))}
           </div>
         </HubSection>
@@ -445,14 +457,16 @@ export function GuidesHubPage({ data }: GuidesHubPageProps) {
           }}
         >
           <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
-            {data.reviews.map(({ review, brand, href, product }) => (
-              <ReviewCard
+            {data.reviews.map((review) => (
+              <IndexReviewCard
                 key={review.id}
-                title={product?.name ?? review.title}
-                review={review}
-                href={href}
-                brandName={brand?.name}
-                product={product}
+                href={review.href}
+                title={review.productName}
+                summary={review.summary}
+                brandName={review.brandName}
+                reviewType={review.reviewType}
+                displayScore={review.score}
+                image={review.image}
               />
             ))}
           </div>

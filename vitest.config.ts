@@ -34,6 +34,10 @@ export default defineConfig({
             "tests/launch-eligibility.test.ts",
             "tests/editorial-readiness.test.ts",
             "tests/catalog.test.ts",
+            "tests/padel-schema-zero-remediation.test.ts",
+            "tests/rendered-quality-gate.test.ts",
+            "tests/padel-final-20-issue-remediation.test.ts",
+            "tests/deferred-optimizations.catalog.test.ts",
           ],
           // Contended catalog assemblies can approach ~60s under load; keep 120s
           // (previous default). Do NOT raise to 300s globally.
@@ -57,6 +61,10 @@ export default defineConfig({
             "tests/launch-eligibility.test.ts",
             "tests/editorial-readiness.test.ts",
             "tests/catalog.test.ts",
+            "tests/padel-schema-zero-remediation.test.ts",
+            "tests/rendered-quality-gate.test.ts",
+            "tests/padel-final-20-issue-remediation.test.ts",
+            "tests/deferred-optimizations.catalog.test.ts",
           ],
           setupFiles: ["./tests/helpers/warm-sitemap-setup.ts"],
           // One worker + no isolation: share immutable sitemap / signals caches

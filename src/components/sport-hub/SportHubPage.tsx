@@ -12,13 +12,12 @@ import { SportLatestReviews } from "@/components/sport-hub/SportLatestReviews";
 import { SportStarterKit } from "@/components/sport-hub/SportStarterKit";
 import { SportBrands } from "@/components/sport-hub/SportBrands";
 import { SportHubFooter } from "@/components/sport-hub/SportHubFooter";
+import { Suspense } from "react";
 
 export function SportHubPage({
   data,
-  genderRaw,
 }: {
   data: SportHubPageData;
-  genderRaw?: string | null;
 }) {
   const crumbLd = breadcrumbJsonLd(data.breadcrumbs);
 
@@ -44,7 +43,9 @@ export function SportHubPage({
         quickActions={data.quickActions}
       />
       {data.sportSlug === "running" && (
-        <RunningFitLinks genderRaw={genderRaw} />
+        <Suspense fallback={null}>
+          <RunningFitLinks />
+        </Suspense>
       )}
       {data.sportSlug === "padel" && <PadelChooseLinks />}
       <SportCategoryNav
