@@ -14,6 +14,7 @@
 
 import type { Product } from "@/domain/products/types";
 import type { MediaAsset } from "@/domain/shared/types";
+import { isAllowedDeliverableRemoteUrl } from "@/lib/media/deliverable-media-src";
 import { isAuthenticProductMedia } from "@/lib/product/media-authentic";
 
 export type HeroReuseClass =
@@ -337,7 +338,10 @@ export function evaluatePadelHeroIdentity(
       reuse: "INVALID",
     };
   }
-  if (!media.src.includes("/images/padel/")) {
+  const isPadelLocal = media.src.includes("/images/padel/");
+  const isDeliverableRemote =
+    /^https:\/\//i.test(media.src) && isAllowedDeliverableRemoteUrl(media.src);
+  if (!isPadelLocal && !isDeliverableRemote) {
     return {
       verified: false,
       reasons: ["wrong_sport_namespace"],

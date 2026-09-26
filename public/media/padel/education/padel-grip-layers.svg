@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 220" role="img" aria-label="Bare handle, base grip, and overgrip layers">
+  <rect width="560" height="220" fill="#fafaf8"/>
+  <g transform="translate(40,20)">
+    <rect x="50" y="10" width="40" height="140" rx="6" fill="#eeebe4" stroke="#1a1a1a" stroke-width="2"/>
+    <rect x="42" y="80" width="56" height="40" rx="4" fill="#c8c4ba" stroke="#1a1a1a" stroke-width="1.5"/>
+    <text x="70" y="180" text-anchor="middle" fill="#333" font-size="12" font-family="system-ui">Bare</text>
+  </g>
+  <g transform="translate(200,20)">
+    <rect x="50" y="10" width="40" height="140" rx="6" fill="#eeebe4" stroke="#1a1a1a" stroke-width="2"/>
+    <rect x="42" y="80" width="56" height="40" rx="4" fill="#c8c4ba" stroke="#1a1a1a" stroke-width="1.5"/>
+    <rect x="42" y="68" width="56" height="18" rx="4" fill="#8a8580" stroke="#1a1a1a" stroke-width="1.5"/>
+    <text x="70" y="180" text-anchor="middle" fill="#333" font-size="12" font-family="system-ui">Base grip</text>
+  </g>
+  <g transform="translate(360,20)">
+    <rect x="50" y="10" width="40" height="140" rx="6" fill="#eeebe4" stroke="#1a1a1a" stroke-width="2"/>
+    <rect x="42" y="80" width="56" height="40" rx="4" fill="#c8c4ba" stroke="#1a1a1a" stroke-width="1.5"/>
+    <rect x="42" y="68" width="56" height="16" rx="4" fill="#8a8580" stroke="#1a1a1a" stroke-width="1.5"/>
+    <rect x="42" y="56" width="56" height="14" rx="4" fill="#b8f000" stroke="#1a1a1a" stroke-width="1.5"/>
+    <text x="70" y="180" text-anchor="middle" fill="#333" font-size="12" font-family="system-ui">+ Overgrip</text>
+  </g>
+</svg>

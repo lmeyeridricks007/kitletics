@@ -2,6 +2,7 @@ import type { Product } from "@/domain/products/types";
 import type { MediaAsset } from "@/domain/shared/types";
 import { getRunningProductHeroMedia } from "@/content/running/product-media";
 import { getProductGalleryMedia } from "@/content/product-gallery-media";
+import { toDeliverableMediaAsset } from "@/lib/media/deliverable-media-src";
 import { isAuthenticProductMedia } from "@/lib/product/media";
 
 /**
@@ -100,24 +101,29 @@ export function resolveRunningProductImages(product: Product): Product {
   const seen = new Set<string>();
 
   if (primary) {
-    out.push(primary);
-    seen.add(primary.src);
+    const deliverablePrimary = toDeliverableMediaAsset(primary) ?? primary;
+    out.push(deliverablePrimary);
+    seen.add(deliverablePrimary.src);
   }
 
   for (const img of gallery) {
-    if (seen.has(img.src)) continue;
     if (!isAuthenticProductMedia(img)) continue;
-    out.push(img);
-    seen.add(img.src);
+    const deliverable = toDeliverableMediaAsset(img);
+    if (!deliverable) continue;
+    if (seen.has(deliverable.src)) continue;
+    out.push(deliverable);
+    seen.add(deliverable.src);
   }
 
   // Keep any other authentic seed images that aren't placeholders / hero dupes.
   for (const img of product.images ?? []) {
-    if (seen.has(img.src)) continue;
     if (!isAuthenticProductMedia(img)) continue;
     if (img.usageType === "hero") continue;
-    out.push(img);
-    seen.add(img.src);
+    const deliverable = toDeliverableMediaAsset(img);
+    if (!deliverable) continue;
+    if (seen.has(deliverable.src)) continue;
+    out.push(deliverable);
+    seen.add(deliverable.src);
   }
 
   // No change if we only have the same single primary already on the product.

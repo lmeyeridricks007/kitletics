@@ -2,6 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import type { Evidence } from "@/domain/recommendations/types";
 import type { ReviewPageData } from "@/lib/review/get-review-page-data";
+import { isRenderableReviewMediaSrc } from "@/lib/media/deliverable-media-src";
 import { assessmentVisual } from "@/lib/review/resolve-section-visuals";
 
 const SCROLL =
@@ -40,6 +41,9 @@ export function ReviewAssessment({ data }: { data: ReviewPageData }) {
     heroSrc: product.images?.[0]?.src,
     productImages: product.images,
   });
+  const showVisual = Boolean(
+    visual?.src && isRenderableReviewMediaSrc(visual.src),
+  );
 
   const isWatchOrHrm = /watch|gps|hrm|heart.?rate/i.test(
     product.categoryId ?? "",
@@ -49,23 +53,31 @@ export function ReviewAssessment({ data }: { data: ReviewPageData }) {
   return (
     <section id="assessment" className={SCROLL}>
       <h2 className="heading-section">How we wrote this review</h2>
-      <div className="mt-5 grid gap-6 lg:grid-cols-2 lg:items-start lg:gap-10">
-        <figure className="overflow-hidden border border-border bg-surface-muted">
-          <div className="relative aspect-[4/3]">
-            <Image
-              src={visual.src}
-              alt={visual.alt}
-              fill
-              className="object-cover"
-              sizes="(max-width: 1024px) 100vw, 40vw"
-            />
-          </div>
-          {visual.caption ? (
-            <figcaption className="border-t border-border px-3.5 py-2.5 text-[12px] leading-snug text-muted">
-              {visual.caption}
-            </figcaption>
-          ) : null}
-        </figure>
+      <div
+        className={
+          showVisual
+            ? "mt-5 grid gap-6 lg:grid-cols-2 lg:items-start lg:gap-10"
+            : "mt-5 max-w-3xl"
+        }
+      >
+        {showVisual && visual ? (
+          <figure className="overflow-hidden border border-border bg-surface-muted">
+            <div className="relative aspect-[4/3]">
+              <Image
+                src={visual.src}
+                alt={visual.alt}
+                fill
+                className="object-cover"
+                sizes="(max-width: 1024px) 100vw, 40vw"
+              />
+            </div>
+            {visual.caption ? (
+              <figcaption className="border-t border-border px-3.5 py-2.5 text-[12px] leading-snug text-muted">
+                {visual.caption}
+              </figcaption>
+            ) : null}
+          </figure>
+        ) : null}
 
         <div className="space-y-4">
           <p className="text-[15px] leading-relaxed text-muted">

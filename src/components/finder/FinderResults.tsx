@@ -191,7 +191,7 @@ function FinderResultCard({
             </Link>
           </h2>
           <div className="mt-2 flex flex-wrap items-center gap-2">
-            <span className="inline-flex items-center rounded bg-[#123524] px-2 py-0.5 text-[11px] font-bold text-accent">
+            <span className="inline-flex items-center rounded bg-accent px-2 py-0.5 text-[11px] font-bold tracking-wide text-[#0b1220]">
               {match}% MATCH
             </span>
             <span className="text-[12px] font-medium text-muted">

@@ -6,6 +6,10 @@ import { ChevronLeft, ChevronRight } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { ProductImageFallback } from "@/components/media/ProductImageFallback";
 import type { MediaAsset } from "@/domain/shared/types";
+import {
+  isRenderableReviewMediaSrc,
+  toDeliverableMediaAsset,
+} from "@/lib/media/deliverable-media-src";
 import { IMAGE_QUALITY, IMAGE_SIZES } from "@/lib/media/image-delivery";
 
 interface ProductMediaGalleryProps {
@@ -29,21 +33,24 @@ export function ProductMediaGallery({
   layout = "default",
   mainAspectClass,
 }: ProductMediaGalleryProps) {
+  const safeImages = images
+    .map((img) => toDeliverableMediaAsset(img))
+    .filter((img): img is MediaAsset => Boolean(img?.src && isRenderableReviewMediaSrc(img.src)));
   const [active, setActive] = useState(0);
-  const current = images[active];
+  const current = safeImages[Math.min(active, Math.max(0, safeImages.length - 1))];
   const fitClass =
     imageFit === "contain" ? "object-contain p-4 sm:p-6" : "object-cover";
 
   const go = useCallback(
     (dir: -1 | 1) => {
-      if (images.length === 0) return;
-      setActive((i) => (i + dir + images.length) % images.length);
+      if (safeImages.length === 0) return;
+      setActive((i) => (i + dir + safeImages.length) % safeImages.length);
     },
-    [images.length],
+    [safeImages.length],
   );
 
   function onGalleryKeyDown(e: KeyboardEvent<HTMLDivElement>) {
-    if (images.length < 2) return;
+    if (safeImages.length < 2) return;
     if (e.key === "ArrowLeft") {
       e.preventDefault();
       go(-1);
@@ -54,7 +61,7 @@ export function ProductMediaGallery({
     }
   }
 
-  if (images.length === 0) {
+  if (safeImages.length === 0 || !current) {
     return (
       <div
         className={cn(
@@ -73,7 +80,7 @@ export function ProductMediaGallery({
   }
 
   if (layout === "pdp") {
-    const multi = images.length > 1;
+    const multi = safeImages.length > 1;
     return (
       <div
         className={cn(
@@ -86,7 +93,7 @@ export function ProductMediaGallery({
       >
         {multi && (
           <div className="order-2 flex min-w-0 max-w-full gap-2 overflow-x-auto sm:order-1 sm:flex-col sm:overflow-visible">
-            {images.map((image, index) => (
+            {safeImages.map((image, index) => (
               <button
                 key={image.id}
                 type="button"
@@ -171,9 +178,9 @@ export function ProductMediaGallery({
           />
         </div>
       </div>
-      {images.length > 1 && (
+      {safeImages.length > 1 && (
         <div className="flex gap-2 overflow-x-auto pb-1 min-w-0 max-w-full">
-          {images.map((image, index) => (
+          {safeImages.map((image, index) => (
             <button
               key={image.id}
               type="button"

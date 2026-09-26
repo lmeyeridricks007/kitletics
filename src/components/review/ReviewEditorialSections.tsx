@@ -3,6 +3,7 @@ import type { ContentSection } from "@/domain/editorial/types";
 import { LinkifiedText } from "@/components/editorial/LinkifiedText";
 import type { CatalogMentionOptions } from "@/lib/editorial/catalog-mentions";
 import { ReviewMidArticleCommerce } from "@/components/review/ReviewCommerceCtas";
+import { isRenderableReviewMediaSrc } from "@/lib/media/deliverable-media-src";
 import { cn } from "@/lib/utils";
 
 const SCROLL =
@@ -43,7 +44,9 @@ export function ReviewEditorialSections({
           .split(/\n\n+/)
           .map((p) => p.trim())
           .filter(Boolean);
-        const hasImage = Boolean(section.image?.src);
+        const hasImage = Boolean(
+          section.image?.src && isRenderableReviewMediaSrc(section.image.src),
+        );
         const sticky = layout === "split" && index < 3;
 
         return (

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 260" role="img" aria-label="Centred versus higher sweet-spot zones on a generic racket outline">
+  <rect width="560" height="260" fill="#fafaf8"/>
+  <g transform="translate(40,30)">
+    <path d="M100 10 C138 10 158 40 158 82 C158 130 128 154 100 154 C72 154 42 130 42 82 C42 40 62 10 100 10 Z" fill="#f3f1eb" stroke="#1a1a1a" stroke-width="2.5"/>
+    <rect x="88" y="154" width="24" height="18" rx="3" fill="#2a2a2a"/>
+    <circle cx="100" cy="92" r="22" fill="rgba(184,240,0,0.25)" stroke="#7a9e3a" stroke-width="2"/>
+    <text x="100" y="210" text-anchor="middle" fill="#333" font-size="13" font-family="system-ui">Centred zone</text>
+  </g>
+  <g transform="translate(300,30)">
+    <path d="M100 10 C138 10 158 40 158 82 C158 130 128 154 100 154 C72 154 42 130 42 82 C42 40 62 10 100 10 Z" fill="#f3f1eb" stroke="#1a1a1a" stroke-width="2.5"/>
+    <rect x="88" y="154" width="24" height="18" rx="3" fill="#2a2a2a"/>
+    <circle cx="100" cy="64" r="14" fill="rgba(184,240,0,0.25)" stroke="#7a9e3a" stroke-width="2"/>
+    <text x="100" y="210" text-anchor="middle" fill="#333" font-size="13" font-family="system-ui">Higher zone</text>
+  </g>
+</svg>

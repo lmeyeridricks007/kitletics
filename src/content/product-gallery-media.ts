@@ -4,6 +4,10 @@ import type { MediaAsset } from "@/domain/shared/types";
  * Secondary PDP gallery media (non-hero). Primaries stay in
  * `running/product-media.ts` / `catalog-product-media.ts` and must not be replaced.
  * Fix 21 + Fix 87 depth passes.
+ *
+ * Gallery `src` paths under `/images/.../gallery/` are often absent from Vercel
+ * Blob (public/images is gitignored). Always keep `sourceUrl` and remap via
+ * `resolveDeliverableMediaSrc` before rendering.
  */
 export interface ProductGalleryMediaSource {
   productId: string;
@@ -2862,6 +2866,8 @@ export function getProductGalleryMedia(
   if (!entries?.length) return [];
   return entries.map((entry, index) => ({
     id: `media-${productId}-gallery-${entry.usageType}-${index}`,
+    // Keep catalog-local src for identity checks. Renderers must call
+    // resolveDeliverableMediaSrc — /images/.../gallery/ is often missing from Blob.
     src: entry.src,
     alt: entry.alt ?? `${productName} — ${entry.usageType} view`,
     width: entry.width,

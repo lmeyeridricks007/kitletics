@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 200" role="img" aria-label="Power to control continuum from soft round to stiff diamond">
+  <rect width="640" height="200" fill="#fafaf8"/>
+  <defs><linearGradient id="g" x1="0" x2="1"><stop offset="0%" stop-color="#b8f000"/><stop offset="100%" stop-color="#1a1a1a"/></linearGradient></defs>
+  <text x="320" y="36" text-anchor="middle" fill="#555" font-size="13" font-family="system-ui" font-weight="700">POWER ↔ CONTROL</text>
+  <rect x="80" y="90" width="480" height="14" rx="7" fill="url(#g)"/>
+  <circle cx="120" cy="97" r="9" fill="#fff" stroke="#1a1a1a" stroke-width="2"/>
+  <circle cx="320" cy="97" r="9" fill="#fff" stroke="#1a1a1a" stroke-width="2"/>
+  <circle cx="520" cy="97" r="9" fill="#fff" stroke="#1a1a1a" stroke-width="2"/>
+  <text x="120" y="140" text-anchor="middle" fill="#333" font-size="13" font-family="system-ui">Soft round</text>
+  <text x="320" y="140" text-anchor="middle" fill="#333" font-size="13" font-family="system-ui">Hybrid</text>
+  <text x="520" y="140" text-anchor="middle" fill="#333" font-size="13" font-family="system-ui">Stiff diamond</text>
+</svg>

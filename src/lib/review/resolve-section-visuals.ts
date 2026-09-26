@@ -2,6 +2,10 @@ import { existsSync } from "node:fs";
 import path from "node:path";
 import type { ContentSection } from "@/domain/editorial/types";
 import type { MediaAsset } from "@/domain/shared/types";
+import {
+  isRenderableReviewMediaSrc,
+  resolveDeliverableMediaSrc,
+} from "@/lib/media/deliverable-media-src";
 import { isDerivedHeroCrop } from "@/lib/media/semantic-role";
 
 export type SectionVisual = {
@@ -793,36 +797,49 @@ function shouldSkipSectionImage(id: string, heading: string): boolean {
 const PADEL_EDUCATION_BY_TOPIC: Partial<
   Record<TopicKey, SectionVisual>
 > = {
+  // Tracked under /public/media (not gitignored /images) so production can serve them.
   shape: V(
-    "/images/padel/education/padel-racket-shapes.svg",
+    "/media/padel/education/padel-racket-shapes.svg",
     "Round, teardrop and diamond padel outlines with sweet-spot markers",
   ),
   sweetspot: V(
-    "/images/padel/education/padel-sweet-spot.svg",
+    "/media/padel/education/padel-sweet-spot.svg",
     "Centred versus higher sweet-spot zones on a generic racket outline",
   ),
   power: V(
-    "/images/padel/education/padel-power-control.svg",
+    "/media/padel/education/padel-power-control.svg",
     "Power to control continuum from soft round to stiff diamond",
   ),
   control: V(
-    "/images/padel/education/padel-power-control.svg",
+    "/media/padel/education/padel-power-control.svg",
     "Power to control continuum from soft round to stiff diamond",
   ),
   grip: V(
-    "/images/padel/education/padel-grip-layers.svg",
+    "/media/padel/education/padel-grip-layers.svg",
     "Bare handle, base grip and overgrip layers",
   ),
 };
+
+function deliverableAssetSrc(img: MediaAsset): string | undefined {
+  const src = resolveDeliverableMediaSrc({
+    src: img.src,
+    sourceUrl: img.sourceUrl,
+  });
+  return isRenderableReviewMediaSrc(src) ? src : undefined;
+}
 
 function assignPadelPhotographicStory(
   sections: ContentSection[],
   images: MediaAsset[],
   heroSrc?: string,
 ): Map<string, SectionVisual> {
-  const story = images.filter(
-    (img) => img?.src && img.src !== heroSrc && !isDerivedHeroCrop(img.src),
-  );
+  const story = images
+    .map((img) => {
+      const src = deliverableAssetSrc(img);
+      if (!src || src === heroSrc || isDerivedHeroCrop(src)) return null;
+      return { ...img, src };
+    })
+    .filter((img): img is MediaAsset => Boolean(img?.src));
   const taken = new Set<string>();
   const assigned = new Map<string, SectionVisual>();
   const prefs: Partial<
@@ -866,7 +883,9 @@ function assignPadelPhotographicStory(
     const topic = topicFromSection(section.id, section.heading);
     if (!educationTopics.includes(topic)) continue;
     const edu = PADEL_EDUCATION_BY_TOPIC[topic];
-    if (!edu || taken.has(edu.src)) continue;
+    if (!edu || !isRenderableReviewMediaSrc(edu.src) || taken.has(edu.src)) {
+      continue;
+    }
     // Prefer education for shape / sweetspot / power continuum; skip if we already
     // assigned that teaching asset via a sibling topic (power shares with control).
     taken.add(edu.src);
@@ -958,7 +977,7 @@ export function resolveReviewSectionVisuals(
       // Padel: only distinct photographs. Section crops of the hero do not count.
       if (padelStoryBySection) {
         const story = padelStoryBySection.get(section.id);
-        if (story) {
+        if (story && isRenderableReviewMediaSrc(story.src)) {
           used.add(story.src);
           return { ...section, image: story };
         }
@@ -1047,15 +1066,19 @@ export function assessmentVisual(input?: {
   categoryId?: string;
   heroSrc?: string;
   productImages?: MediaAsset[];
-}): SectionVisual {
+}): SectionVisual | undefined {
   const seedInput = input?.seedInput ?? "assessment";
   const family = categoryFamily(input?.categoryId);
   const caption = TOPIC_CAPTIONS.assessment;
 
   if (family === "racket") {
-    const photos = (input?.productImages ?? []).filter(
-      (img) => img?.src && img.src !== input?.heroSrc && !isDerivedHeroCrop(img.src),
-    );
+    const photos = (input?.productImages ?? [])
+      .map((img) => {
+        const src = deliverableAssetSrc(img);
+        if (!src || src === input?.heroSrc || isDerivedHeroCrop(src)) return null;
+        return { ...img, src };
+      })
+      .filter((img): img is MediaAsset => Boolean(img?.src));
     const photo = photos.find((img) => img.usageType === "other") ?? photos[0];
     if (photo) {
       return {
@@ -1064,7 +1087,7 @@ export function assessmentVisual(input?: {
         caption,
       };
     }
-    if (input?.heroSrc) {
+    if (input?.heroSrc && isRenderableReviewMediaSrc(input.heroSrc)) {
       return { src: input.heroSrc, alt: "Product photograph", caption };
     }
     return {
@@ -1081,14 +1104,17 @@ export function assessmentVisual(input?: {
       "assessment",
       caption,
     );
-    if (fromProduct) return fromProduct;
+    if (fromProduct && isRenderableReviewMediaSrc(fromProduct.src)) {
+      return fromProduct;
+    }
   }
 
   const pool = candidateList("assessment", family, hashSeed(seedInput));
-  return (
+  const candidate =
     pool[0] ??
     candidateList("assessment", "general", hashSeed(seedInput))[0] ??
     MASTER_POOL.find((v) => v.src.includes("review-research-assessment")) ??
-    MASTER_POOL[0]!
-  );
+    MASTER_POOL[0];
+  if (candidate && isRenderableReviewMediaSrc(candidate.src)) return candidate;
+  return undefined;
 }

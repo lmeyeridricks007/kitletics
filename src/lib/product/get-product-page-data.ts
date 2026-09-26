@@ -65,6 +65,7 @@ import {
   isAuthenticProductMedia,
 } from "@/lib/product/media";
 import { isPadelMediaVerified } from "@/lib/product/media-identity";
+import { toDeliverableMediaAsset } from "@/lib/media/deliverable-media-src";
 import type { MediaAsset } from "@/domain/shared/types";
 
 export interface SpecDisplayRow {
@@ -598,9 +599,11 @@ function buildGalleryImages(product: Product): MediaAsset[] {
     ) {
       continue;
     }
-    if (seen.has(img.src)) continue;
-    out.push(img);
-    seen.add(img.src);
+    const deliverable = toDeliverableMediaAsset(img);
+    if (!deliverable) continue;
+    if (seen.has(deliverable.src)) continue;
+    out.push(deliverable);
+    seen.add(deliverable.src);
   }
   return out;
 }

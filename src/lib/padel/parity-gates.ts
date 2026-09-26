@@ -248,6 +248,10 @@ export const TEACHING_VISUAL_CONCEPT_MAP: Record<string, string[]> = {
   "/images/padel/education/padel-sweet-spot.svg": ["sweet-spot"],
   "/images/padel/education/padel-power-control.svg": ["power-control"],
   "/images/padel/education/padel-grip-layers.svg": ["grip-layers"],
+  "/media/padel/education/padel-racket-shapes.svg": ["racket-shapes"],
+  "/media/padel/education/padel-sweet-spot.svg": ["sweet-spot"],
+  "/media/padel/education/padel-power-control.svg": ["power-control"],
+  "/media/padel/education/padel-grip-layers.svg": ["grip-layers"],
 };
 
 export function classifyTeachingVisualKind(
@@ -263,7 +267,11 @@ export function classifyTeachingVisualKind(
   ) {
     return "educational-diagram";
   }
-  if (s.includes("/images/padel/education/") || s.includes("/education/padel-")) {
+  if (
+    s.includes("/images/padel/education/") ||
+    s.includes("/media/padel/education/") ||
+    s.includes("/education/padel-")
+  ) {
     return "education-asset";
   }
   if (

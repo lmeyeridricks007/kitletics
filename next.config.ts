@@ -70,6 +70,13 @@ const nextConfig: NextConfig = {
       { protocol: "https", hostname: "assets.tracksmith.com" },
       { protocol: "https", hostname: "media.babolat.com" },
       { protocol: "https", hostname: "contents.mediadecathlon.com" },
+      // Padel retailer CDNs used as gallery sourceUrl fallbacks when Blob
+      // gallery packs are absent (public/images is gitignored).
+      { protocol: "https", hostname: "allforpadel.com" },
+      { protocol: "https", hostname: "www.extreme-tennis.eu" },
+      { protocol: "https", hostname: "www.onlytenis.com" },
+      { protocol: "https", hostname: "www.zonadepadel.es" },
+      { protocol: "https", hostname: "au.wilson.com" },
     ],
   },
   async rewrites() {

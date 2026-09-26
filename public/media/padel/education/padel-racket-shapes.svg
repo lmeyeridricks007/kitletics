@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 280" role="img" aria-label="Round, teardrop and diamond padel racket outlines with sweet-spot markers">
+  <rect width="640" height="280" fill="#fafaf8"/>
+  <g transform="translate(20,30)">
+    <path d="M90 10 C128 10 148 40 148 82 C148 130 118 154 90 154 C62 154 32 130 32 82 C32 40 52 10 90 10 Z" fill="#f3f1eb" stroke="#1a1a1a" stroke-width="2.5"/>
+    <rect x="78" y="154" width="24" height="18" rx="3" fill="#2a2a2a"/>
+    <circle cx="90" cy="90" r="16" fill="none" stroke="#7a9e3a" stroke-width="2" stroke-dasharray="4 3"/>
+    <text x="90" y="200" text-anchor="middle" fill="#333" font-size="14" font-family="system-ui">Round</text>
+  </g>
+  <g transform="translate(220,30)">
+    <path d="M90 6 C122 10 146 44 144 90 C140 132 116 154 90 154 C64 154 40 132 36 90 C34 44 58 10 90 6 Z" fill="#f3f1eb" stroke="#1a1a1a" stroke-width="2.5"/>
+    <rect x="78" y="154" width="24" height="18" rx="3" fill="#2a2a2a"/>
+    <circle cx="90" cy="78" r="14" fill="none" stroke="#7a9e3a" stroke-width="2" stroke-dasharray="4 3"/>
+    <text x="90" y="200" text-anchor="middle" fill="#333" font-size="14" font-family="system-ui">Teardrop</text>
+  </g>
+  <g transform="translate(420,30)">
+    <path d="M90 4 L138 60 L128 150 L52 150 L42 60 Z" fill="#f3f1eb" stroke="#1a1a1a" stroke-width="2.5"/>
+    <rect x="78" y="150" width="24" height="18" rx="3" fill="#2a2a2a"/>
+    <circle cx="90" cy="64" r="12" fill="none" stroke="#7a9e3a" stroke-width="2" stroke-dasharray="4 3"/>
+    <text x="90" y="200" text-anchor="middle" fill="#333" font-size="14" font-family="system-ui">Diamond</text>
+  </g>
+</svg>
