@@ -65,7 +65,7 @@ export const padelRacketsValueGuide: BestGuide = racketGuide({
       ],
       bestFor: ["Budget soft round", "First contact on a value path", "Replaceable club frames"],
       tradeoff: "Lower finishing ceiling than Vertex / Hack — that is why it is value.",
-      avoid: ["Advanced attackers", "Photo-blocked PR Soft 500 shoppers"],
+      avoid: ["Advanced attackers who need finishing power this season", "Photo-blocked PR Soft 500 shoppers"],
       instead: [
         { productId: "prod-bullpadel-indiga-ctr", when: "you want Bullpadel’s named beginner round", label: "Indiga CTR" },
         { productId: "prod-kuikma-pr-hybrid-carbon", when: "you outgrew the soft round", label: "PR Hybrid Carbon" },
@@ -212,6 +212,6 @@ export const padelRacketsValueGuide: BestGuide = racketGuide({
   buyingAdvice:
     "Buy the soft/round or light entry you will actually rally with. Do not buy Coello Pro or Metalbone because an old page called them value. When the soft round’s ceiling is obvious in matches, step to PR Hybrid Carbon or Ionic Light — not straight to 18K.",
   relatedGuideIds: [...RACKET_RELATED],
-  hubImageSrc: "/images/padel/products/kuikma-pr-comfort-soft-hero.jpg",
-  hubImageAlt: "Kuikma PR Comfort Soft — value padel racket",
+  hubImageSrc: "/images/padel/products/kuikma-pr-hybrid-carbon-hero.jpg",
+  hubImageAlt: "Kuikma PR Hybrid Carbon — value step-up racket",
 });

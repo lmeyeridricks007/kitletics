@@ -177,12 +177,17 @@ export const padelRacketsProductPageConfig: ProductPageCategoryConfig = {
   categoryId: "cat-padel-rackets",
   featuredSpecificationKeys: [
     "shape",
+    "balance",
     "weightMin",
     "weightMax",
-    "balance",
-    "core",
-    "face",
     "thicknessMm",
+    "face",
+    "core",
+    "frameMaterial",
+    "surfaceTexture",
+    "feel",
+    "sweetSpot",
+    "playerLevel",
   ],
   specificationGroups: [
     {

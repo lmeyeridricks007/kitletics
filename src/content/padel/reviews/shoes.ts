@@ -42,12 +42,7 @@ type ShoeDraft = {
 function shoeReview(d: ShoeDraft): Review {
   const evidenceIds = d.evidenceIds;
   const bodies: Record<string, string> = {
-    "sec-overview": [
-      d.whatItIs,
-      d.verdict,
-      `This is a padel court shoe, not a daily trainer. I'd judge it on traction, lateral hold and whether the last survives split-step and recovery steps on sand-filled turf.`,
-      `Bottom line: ${d.verdict}`,
-    ].join("\n\n"),
+    "sec-overview": [d.whatItIs, d.verdict].join("\n\n"),
     "sec-verified-specs": [
       `Published court-shoe markers for the ${d.fullName}:`,
       d.specs.map((s) => `• ${s}`).join("\n"),
@@ -61,19 +56,11 @@ function shoeReview(d: ShoeDraft): Review {
     "sec-fit": d.fit,
     "sec-durability": d.durability,
     "sec-comfort": d.comfort,
-    "sec-strengths": [
-      d.pros.map((p) => `• ${p}`).join("\n"),
-      `I'd buy it when those jobs match most of your padel week — not when you also wanted a road daily.`,
-    ].join("\n\n"),
-    "sec-tradeoffs": [
-      d.skip.join("\n\n"),
-      d.cons.map((c) => `• ${c}`).join("\n"),
-      `Skip it if you needed a running shoe, or a clay-only tennis last without padel evidence.`,
-    ].join("\n\n"),
-    "sec-usecase": [
-      d.buy.join("\n\n"),
-      `Best on sand-filled padel turf and indoor court sessions.`,
-    ].join("\n\n"),
+    "sec-strengths": d.pros.map((p) => `• ${p}`).join("\n"),
+    "sec-tradeoffs": [d.skip.join("\n\n"), d.cons.map((c) => `• ${c}`).join("\n")]
+      .filter(Boolean)
+      .join("\n\n"),
+    "sec-usecase": d.buy.join("\n\n"),
     "sec-value": d.value,
     "sec-methodology": [
       EXPERT_RESEARCH_METHODOLOGY,

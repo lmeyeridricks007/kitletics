@@ -194,7 +194,7 @@ export function GearSetupItemRow({ item }: GearSetupItemRowProps) {
             </p>
           ) : (
             <p className="text-[13px] font-medium text-muted">
-              No verified retailer offers in your region
+              No verified Netherlands-shipping retailer is currently available.
             </p>
           )}
           {offerCount > 0 ? (

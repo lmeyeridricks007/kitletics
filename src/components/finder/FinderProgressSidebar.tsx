@@ -9,6 +9,7 @@ import {
   Target,
   User,
   BookOpen,
+  Shield,
   type LucideIcon,
 } from "lucide-react";
 import { cn } from "@/lib/utils";
@@ -22,6 +23,7 @@ const SUMMARY_ICONS: Record<string, LucideIcon> = {
   User,
   Layers,
   Target,
+  Shield,
 };
 
 interface FinderProgressSidebarProps {

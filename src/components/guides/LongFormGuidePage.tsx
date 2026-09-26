@@ -305,51 +305,12 @@ function ExplainerGuideLayout({ data }: { data: LongFormGuidePageData }) {
   const { guide, config, author, faqs } = data;
   if (!config?.explainer) return null;
 
-  const heroIsProduct =
-    Boolean(config.heroImageSrc) &&
-    !config.heroImageSrc.includes("/fallbacks/") &&
-    !config.heroImageSrc.endsWith(".svg") &&
-    !config.heroImageSrc.includes("/brands/heroes/");
-
   return (
     <>
       <JsonLd data={data} />
       <div id="top" />
 
       <div className="relative border-b border-border bg-white">
-        {config.heroImageSrc && heroIsProduct && (
-          <div
-            className="pointer-events-none absolute inset-y-0 left-[42%] right-[8%] hidden max-h-[460px] xl:block"
-            aria-hidden
-          >
-            <Image
-              src={config.heroImageSrc}
-              alt=""
-              fill
-              className="object-contain object-center p-6 opacity-90"
-              sizes="45vw"
-              priority
-            />
-            <div className="absolute inset-0 bg-gradient-to-r from-white via-white/70 to-transparent" />
-          </div>
-        )}
-        {config.heroImageSrc && !heroIsProduct && (
-          <div
-            className="pointer-events-none absolute inset-y-0 left-[18%] right-[32%] hidden max-h-[440px] opacity-45 xl:block"
-            aria-hidden
-          >
-            <Image
-              src={config.heroImageSrc}
-              alt=""
-              fill
-              className="object-contain object-center p-8"
-              sizes="42vw"
-              priority
-            />
-            <div className="absolute inset-0 bg-gradient-to-r from-white via-white/80 to-white" />
-          </div>
-        )}
-
         <div className="relative mx-auto grid max-w-[var(--container)] gap-10 px-4 py-8 sm:px-6 lg:grid-cols-[minmax(0,1.15fr)_minmax(280px,340px)] lg:gap-12 lg:px-8 lg:py-10">
           <div className="min-w-0">
             <Breadcrumbs items={data.breadcrumbs} className="mb-5" />
@@ -366,13 +327,13 @@ function ExplainerGuideLayout({ data }: { data: LongFormGuidePageData }) {
             )}
             <MetaRow data={data} />
             {config.heroImageSrc && (
-              <div className="relative mt-8 aspect-[16/10] w-full overflow-hidden bg-surface-muted/30 xl:hidden">
+              <div className="relative mt-8 aspect-[16/10] w-full overflow-hidden bg-surface-muted/30">
                 <Image
                   src={config.heroImageSrc}
                   alt={config.heroImageAlt}
                   fill
                   className="object-contain p-6"
-                  sizes="100vw"
+                  sizes="(max-width: 1024px) 100vw, 42vw"
                   priority
                 />
               </div>

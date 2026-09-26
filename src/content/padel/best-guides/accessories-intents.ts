@@ -85,7 +85,11 @@ export const padelBallPressurizersGuide: BestGuide = baseGuide({
         "I’d use Pascal Box when I open cans mid-week and want to push pressure back into the tube.",
         "I’d skip it if I only wanted a sealed HEAD X3-style hold without pump rituals.",
       ],
-      bestFor: ["Manual re-pressurize", "Open-can mid-week storage", "Bullpadel accessory kit"],
+      bestFor: [
+        "Players who want to restore pressure to opened ball cans",
+        "Open-can mid-week storage between club sessions",
+        "Bullpadel accessory kit with a manual pump tube",
+      ],
       tradeoff: "Pump ritual — unused tubes help nobody.",
       avoid: ["Players who will not actually pump after sessions"],
       instead: [
@@ -104,7 +108,10 @@ export const padelBallPressurizersGuide: BestGuide = baseGuide({
         "I’d shortlist X3 when HEAD cans and a three-ball pressurizer form match the bag.",
         "I’d skip it if I specifically wanted a pump-equipped Pascal Box.",
       ],
-      bestFor: ["HEAD X3 form", "Three-ball pressurizer storage"],
+      bestFor: [
+        "Players who prefer HEAD’s three-ball pressurizer form",
+        "Three-ball pressurizer storage without a pump ritual",
+      ],
       tradeoff: "Not the same pump workflow as Pascal Box.",
       avoid: ["Players who need manual pump re-pressurize as the whole point"],
       instead: [

@@ -77,4 +77,9 @@ describe("finder shell QA", () => {
       expect(keys.has(f.key)).toBe(true);
     }
   });
+
+  it("padel summary heading is not running profile", () => {
+    const ui = getFinderUiConfig("padel-racket-finder");
+    expect(ui.summaryHeading).toBe("Your racket profile");
+  });
 });

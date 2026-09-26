@@ -1,0 +1,76 @@
+{
+  "date": "2026-09-24",
+  "timezone": "Europe/Amsterdam",
+  "apply_after": "Lee confirms send of DO THESE TODAY",
+  "nextFollowUpAt": "2026-10-01T08:00:00+02:00",
+  "actionStatus": "CONTACTED",
+  "contact_keys": [
+    "Active.comEditors@activenetwork.com",
+    "guru@runningshoesguru.com",
+    "editor@fellrunner.org.uk",
+    "redaction@outsidemedia.fr",
+    "correre@sportivi.it",
+    "aktiv-laufen@rfw-koeln.de",
+    "run@nasweb.info",
+    "enquiry@runmagazine.asia"
+  ],
+  "items": [
+    {
+      "contact_key": "Active.comEditors@activenetwork.com",
+      "desk": "ACTIVE.com",
+      "region": "US",
+      "target": "https://www.active.com/running/articles/nike-2025-fall-shoe-guide",
+      "kitletics": "https://kitletics.com/guides/how-to-choose-running-shoes"
+    },
+    {
+      "contact_key": "guru@runningshoesguru.com",
+      "desk": "Running Shoes Guru",
+      "region": "US",
+      "target": "https://www.runningshoesguru.com/top/best-running-shoes-right-now/",
+      "kitletics": "https://kitletics.com/tools/running-shoe-finder"
+    },
+    {
+      "contact_key": "editor@fellrunner.org.uk",
+      "desk": "The Fellrunner / FRA",
+      "region": "UK",
+      "target": "https://www.fellrunner.org.uk/faq/frequently-asked-questions",
+      "kitletics": "https://kitletics.com/best/trail-running-shoes"
+    },
+    {
+      "contact_key": "redaction@outsidemedia.fr",
+      "desk": "Outside.fr",
+      "region": "EU",
+      "target": "https://www.outside.fr/tests-les-meilleures-chaussures-de-trail-2026/",
+      "kitletics": "https://kitletics.com/best/trail-running-shoes"
+    },
+    {
+      "contact_key": "correre@sportivi.it",
+      "desk": "Correre.it",
+      "region": "EU",
+      "target": "https://correre.it/drop-scarpe-da-running/",
+      "kitletics": "https://kitletics.com/guides/running-shoe-drop"
+    },
+    {
+      "contact_key": "aktiv-laufen@rfw-koeln.de",
+      "desk": "Aktiv Laufen",
+      "region": "EU",
+      "target": "https://aktiv-laufen.de/die-neuen-kiprun-laufschuhe-praesentiert-von-decathlon/",
+      "kitletics": "https://kitletics.com/guides/how-to-choose-running-shoes"
+    },
+    {
+      "contact_key": "run@nasweb.info",
+      "desk": "RUN Magazine CZ",
+      "region": "EU",
+      "target": "https://run-magazine.cz/hlavni/vybava/salomon-genesis-test-recenze",
+      "kitletics": "https://kitletics.com/best/trail-running-shoes"
+    },
+    {
+      "contact_key": "enquiry@runmagazine.asia",
+      "desk": "RUN Singapore",
+      "region": "OTHER",
+      "target": "https://www.runmagazine.asia/hoka-speedgoat-6-review/",
+      "kitletics": "https://kitletics.com/best/trail-running-shoes"
+    }
+  ],
+  "notes": "Do not mark Sep 20 or Sep 23 pending as contacted unless Lee confirms those sends. Sep 23 keys remain held regardless."
+}

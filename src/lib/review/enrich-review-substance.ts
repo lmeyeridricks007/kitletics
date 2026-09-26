@@ -8,11 +8,12 @@ import type { Brand, Product } from "@/domain/products/types";
 import { getReviewAgentCategoryConfig } from "@/domain/review-agent/category-config";
 import { getReviewPageCategoryConfig } from "@/lib/review/category-config";
 import { ensureAudienceSignals } from "@/lib/review/audience-signals";
-import { resolveDecisionCopyForProduct } from "@/lib/decision-copy";
 import {
-  skipSentenceFromLimitation,
-  rewriteUniquenessEraSkipProse,
-} from "@/lib/review/rewrite-uniqueness-era-skip";
+  resolveDecisionCopyForProduct,
+  composeBuyIfSentence,
+  composeSkipIfSentence,
+} from "@/lib/decision-copy";
+import { rewriteUniquenessEraSkipProse } from "@/lib/review/rewrite-uniqueness-era-skip";
 import { getReviewCriteriaDefinitions, getProducts } from "@/repositories";
 
 function prettyLabel(key: string): string {
@@ -275,18 +276,18 @@ export function ensureSubstantiveVerdict(
   const avoid = (review.whoShouldAvoid ?? [])[0];
 
   const shortlist = strengths[0]
-    ? `I'd shortlist it when you want ${strengths[0].toLowerCase()}.`
-    : `I'd shortlist it when this role is most of your week.`;
+    ? composeBuyIfSentence(strengths[0])
+    : `You want a clear weekly role for this product.`;
   const pause = weaknesses[0]
-    ? skipSentenceFromLimitation(weaknesses[0])
+    ? composeSkipIfSentence(weaknesses[0])
     : avoid
-      ? skipSentenceFromLimitation(avoid)
+      ? composeSkipIfSentence(avoid)
       : "Skip it if you need a different specialty.";
 
   const base =
     current ||
     buy ||
-    `Buy the ${product.name} when it fits the role you actually run most weeks.`;
+    `Buy the ${product.name} when it fits the role you actually use most weeks.`;
 
   const verdict = [base.replace(/\.\s*$/, ""), shortlist, pause]
     .filter(Boolean)

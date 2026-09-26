@@ -1,0 +1,88 @@
+{
+  "audit": "PADEL-FINAL-REVIEW-SIGNOFF",
+  "date": "2026-09-26",
+  "method": "enrichReviewForPage + resolveReviewSectionVisuals + resolveDecisionCopyForProduct; evaluateReviewTemplateGlue; no Playwright estate crawl",
+  "readOnly": true,
+  "estateReviewCount": 26,
+  "gates": {
+    "KNOWN_OLD_TEMPLATE_GLUE": 0,
+    "SYSTEMIC_TEMPLATE_GLUE_GROUPS": 0,
+    "GENERIC_SECTION_OPENERS": 0,
+    "KNOWN_DECISION_GRAMMAR_DEFECTS": 1,
+    "CATEGORY_INAPPROPRIATE_REVIEW_COPY": 0,
+    "PUBLIC_EDITORIAL_INSTRUCTION_LANGUAGE": 0,
+    "PUBLIC_INTERNAL_SENTINELS": 0,
+    "MANUAL_REVIEW_SAMPLE": "7/8",
+    "PRODUCT_DIFFERENTIATION": "PASS",
+    "REVIEW_PARITY": "FAIL",
+    "CLEAN_CI": "FAIL",
+    "OVERALL_RUNNING_PADEL_PARITY": "FAIL",
+    "residualClass": "RESIDUAL_FIX_ONLY"
+  },
+  "templateGlueGate": {
+    "failPadelReviewParity": false,
+    "hits": [],
+    "totalWords": 23092
+  },
+  "residualIssues": [
+    {
+      "id": "FR-REV-001",
+      "url": "/reviews/bullpadel-vertex-05-2026",
+      "example": "Skip it if you prefer the lower balance of the Vertex Hybrid should look elsewhere.",
+      "classification": "DECISION_GRAMMAR",
+      "systemic": false
+    }
+  ],
+  "manualSample": [
+    { "slug": "bullpadel-vertex-05-2026", "result": "FAIL", "reason": "mashed Skip-if clause" },
+    { "slug": "kuikma-pr-comfort-soft", "result": "PASS" },
+    { "slug": "bullpadel-indiga-ctr-2026", "result": "PASS" },
+    { "slug": "bullpadel-hack-04-2026", "result": "PASS" },
+    { "slug": "joma-t-slam", "result": "PASS" },
+    { "slug": "head-padel-pro-s", "result": "PASS", "role": "ball" },
+    { "slug": "nox-at10-team-bag", "result": "PASS", "role": "bag" },
+    { "slug": "wilson-padel-overgrip-pack", "result": "PASS", "role": "grip" }
+  ],
+  "differentiation": {
+    "pass": true,
+    "signals": {
+      "vertex": ["diamond", "12K", "Multieva", "Total Play / versatile"],
+      "kuikma": ["round", "Soft EVA", "fiberglass", "comfort / beginner"],
+      "indiga": ["Polyglass", "SoftEva", "control starter"],
+      "hack": ["Tricarbon 18K", "attack diamond", "Total Channel"]
+    }
+  },
+  "prompt189Effect": {
+    "oldScaffoldCaptionsRemoved": true,
+    "doublePersonBuyIfRemoved": true,
+    "shoeDurabilityBleedOnNonShoesRemoved": true,
+    "googleFontBuildErrorAbsent": true
+  },
+  "ci": {
+    "lint": { "exit": 0, "result": "PASS", "errors": 0, "warnings": 30 },
+    "typecheck": { "exit": 0, "result": "PASS" },
+    "test": {
+      "exit": 1,
+      "result": "FAIL",
+      "filesPassed": 91,
+      "filesFailed": 11,
+      "testsPassed": 1015,
+      "testsFailed": 22,
+      "timeouts": 0,
+      "failureClass": "APPLICATION_FAILURE",
+      "failureTheme": "NL From-price / lowestPrice undefined across commerce/PDP/review ISR tests"
+    },
+    "build": {
+      "exit": 0,
+      "result": "PASS",
+      "note": "Compiled successfully; no next/font Google DM_Sans loader TypeError"
+    }
+  },
+  "wordCountsInformational": {
+    "count": 26,
+    "total": 34068,
+    "mean": 1310,
+    "note": "Not a quality gate; shorter after scaffold removal is expected"
+  },
+  "priorPassAreasNotReaudited": ["PDP", "GUIDE", "MEDIA", "COMMERCE", "MOBILE"]
+}

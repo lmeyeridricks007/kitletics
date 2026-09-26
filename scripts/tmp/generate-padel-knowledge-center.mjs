@@ -806,6 +806,62 @@ const rest = [
 
 for (const g of rest) add({ ...g, unique: g.unique || null });
 
+/**
+ * Decision-facing openers — never the old "You are solving for … marketing labels" template.
+ * Keep in sync with src/lib/guides/explainers/padel-knowledge-unique.ts.
+ */
+const DEFINITION_INTROS_BY_SLUG = {
+  "how-to-choose-a-padel-racket":
+    "You are matching geometry and response to how you already play — not copying a World Padel Tour bag.",
+  "padel-racket-shapes-explained":
+    "Round, teardrop and diamond move the sweet spot and tip mass — use shape to shortlist, then confirm balance and weight before you buy.",
+  "round-vs-teardrop-vs-diamond-padel-rackets":
+    "Pick the silhouette that matches your mishit rate and finishing ability: round when contact is messy, diamond only when you already place overheads.",
+  "padel-racket-balance-explained":
+    "Balance tells you whether the tip feels light in preparation or heavy through the ball — measure it instead of inferring it from a shape label.",
+  "padel-racket-weight-explained":
+    "Choose a published weight band you can swing for two hours before you compare carbon weave marketing.",
+  "padel-racket-materials-explained":
+    "Face and frame materials change feel and durability — read them as response inputs, not a prestige ladder.",
+  "carbon-vs-fiberglass-padel-rackets":
+    "Fiberglass usually forgives off-centre hits; carbon firms the exit — pick the fibre for the contact quality you actually have.",
+  "padel-racket-cores-eva-foam-explained":
+    "Soft vs hard EVA (and multi-density cores) set forgiveness and ball exit — treat core density as a feel filter, not a power guarantee.",
+  "soft-vs-hard-padel-rackets":
+    "Soft packages help when your contact is still developing; hard packages reward clean timing with a crisper exit — choose for today’s consistency.",
+  "how-padel-racket-sweet-spots-work":
+    "Sweet-spot claims describe forgiveness geometry, not a free power map — judge where usable contact sits for your mishit pattern.",
+  "how-to-choose-padel-shoes":
+    "Court grip and lateral lockdown matter more than upper colour — shortlist shoes that hold cuts on your club’s surface.",
+  "padel-vs-tennis-shoes":
+    "A tennis court shoe can work; a padel-specific last earns the upgrade when lateral cuts and dusty outdoor grip keep failing.",
+  "padel-shoe-outsoles-explained":
+    "Match herringbone, clay and hard-court compounds to the surface you play on every week — not to a catalogue lifestyle shot.",
+  "how-long-do-padel-balls-last":
+    "Pressurized cans lose bounce across sessions faster than many tennis habits suggest — plan can life from match feel, not the print date alone.",
+  "how-to-choose-padel-balls":
+    "Choose a pressurized competition can for the court speed you want, within what the catalog actually lists — speed preference first, brand second.",
+  "how-to-choose-a-padel-bag":
+    "Size paletero volume, thermo wells and commute style to how you actually get to court — capacity without a racket job is wasted weight.",
+  "padel-grips-overgrips-explained":
+    "Build a comfortable handle diameter first, then pick tack versus absorption for how you sweat — feel beats packaging claims.",
+  "padel-grip-vs-overgrip":
+    "Rebuild the base grip when the foundation is gone; refresh an overgrip when tack or moisture control fails mid-session.",
+  "how-often-should-you-replace-a-padel-overgrip":
+    "Replace overgrips when tack dies or sweat slips the handle — session failure beats any calendar rule of thumb.",
+  "beginner-padel-gear-guide":
+    "Build a forgiving first kit around a round/soft frame, court shoes and fresh balls — skip copying pro diamonds until contact is reliable.",
+  "complete-padel-gear-checklist":
+    "Separate must-have match kit from nice-to-have extras so you pack for the session without overspending on unused accessories.",
+};
+
+function definitionIntroFor(g) {
+  if (DEFINITION_INTROS_BY_SLUG[g.slug]) return DEFINITION_INTROS_BY_SLUG[g.slug];
+  // Fallback: decision-facing sentence from subject + first factor — never the marketing-labels template.
+  const lead = g.factors?.[0] ? g.factors[0].toLowerCase() : "the real constraint";
+  return `Decide ${g.subject} from ${lead} and how you actually play — then verify catalog specs before you buy.`;
+}
+
 function buildUnique(g) {
   if (g.unique) return g.unique;
   const [a, b] = g.comparison;
@@ -819,7 +875,7 @@ function buildUnique(g) {
       `Catalog examples stay role-based — verify current generation and offers.`,
     ].map((s) => (s.length > 180 ? s.slice(0, 177) + "…" : s)),
     definitionTitle: `What ${g.subject} decisions are really about`,
-    definitionIntro: `You are solving for ${g.outcome} — not collecting marketing labels.`,
+    definitionIntro: definitionIntroFor(g),
     definitionParas: [
       g.sections.find((s) => s.id.includes("tech") || s.heading.includes("Technical"))?.body ||
         g.sections[0].body,

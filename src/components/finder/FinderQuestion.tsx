@@ -228,10 +228,13 @@ export function FinderAnswerSummary({
   definition,
   responses,
   onEdit,
+  heading = "Your profile",
 }: {
   definition: { questions: FinderQuestion[]; priorityKey: string; budgetKey: string };
   responses: FinderResponses;
   onEdit: (key: string) => void;
+  /** From FinderUiConfig.summaryHeading — must not default to Running copy */
+  heading?: string;
 }) {
   const items: { key: string; label: string; display: string }[] = [];
   for (const q of definition.questions) {
@@ -254,7 +257,7 @@ export function FinderAnswerSummary({
 
   return (
     <div className="rounded-2xl border border-border bg-surface p-5">
-      <h2 className="font-display text-lg font-semibold">Your running profile</h2>
+      <h2 className="font-display text-lg font-semibold">{heading}</h2>
       <ul className="mt-4 space-y-3">
         {items.map((item) => (
           <li

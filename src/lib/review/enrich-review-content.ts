@@ -15,7 +15,10 @@ import {
 } from "@/lib/review/review-longform";
 import { isReportOrJunkVoice } from "@/lib/review/review-voice";
 import { isConsumerEditorialReady } from "@/lib/review/consumer-copy-quality";
-import { skipSentenceFromLimitation } from "@/lib/review/rewrite-uniqueness-era-skip";
+import {
+  composeBuyIfSentence,
+  composeSkipIfSentence,
+} from "@/lib/decision-copy/transform";
 import { isPadelReviewCategory } from "@/lib/review/padel-review-outline";
 import { padelTopicBuyerFocus } from "@/lib/review/padel-longform";
 import { formatPublicSpecKey } from "@/lib/specs/public-label";
@@ -29,7 +32,7 @@ const FORMAL_VOICE =
 
 /** Meta “how to read this review” filler — never keep; rewrite the section. */
 const META_PADDING =
-  /Keep the product.?s strengths in view|Also keep the trade-offs in view|When you finish this section|Here.?s what matters in this section|Still deciding on the |Optional stress test:|Think of it as a friend who|not a checklist to memorise|jump to the alternatives before you talk yourself|those pages turn impressions into a clear yes\/no|Use this section as a final decision pass|Before you add the .+ to cart, walk this checklist|Re-check the strengths you would actually use|Want the process behind the scores|A last practical note: buy for the next training block/i;
+  /Keep the product.?s strengths in view|Also keep the trade-offs in view|When you finish this section|Here.?s what matters in this section|Still deciding on the |Optional stress test:|Think of it as a friend who|not a checklist to memorise|jump to the alternatives before you talk yourself|those pages turn impressions into a clear yes\/no|Use this section as a final decision pass|Before you add the .+ to cart, walk this checklist|Re-check the strengths you would actually use|Want the process behind the scores|A last practical note: buy for the next training block|I'?d only keep the |If this section still feels generic|If this section on the .+ does not change a real session decision|On the .+?, keep .+ in view before you chase extras|Final note on the .+: buy for the job you will repeat|When .+ is not why you would pay for the |A sibling that wins a different court problem is the cleaner buy/i;
 
 function isMetaPaddingPara(p: string): boolean {
   return (
@@ -48,6 +51,10 @@ function isMetaPaddingPara(p: string): boolean {
     /^Fit decides whether/i.test(p) ||
     /^Practical tip:/i.test(p) ||
     /^Unless this page says/i.test(p) ||
+    /^I'?d only keep the /i.test(p) ||
+    /^If this section still feels generic/i.test(p) ||
+    /^On the .+?, keep .+ in view before you chase extras/i.test(p) ||
+    /^Final note on the .+: buy for the job you will repeat/i.test(p) ||
     /^Unless we disclose personal testing/i.test(p) ||
     /^Bottom of this section:/i.test(p) ||
     /^If fit is the main reason/i.test(p) ||
@@ -307,58 +314,65 @@ export function enrichReviewSectionBodies(
       ...sections.map((s) => `${s.heading} ${s.body}`),
     ]);
 
-  // Deepen shortest sections until we clear the long-form floor, then keep
-  // going toward the ideal band so pages are deep — not merely readable.
-  const deepenPasses = new Map<string, number>();
-  let deepenGuard = 0;
-  const deepenCeiling = Math.min(REVIEW_TARGET_WORDS, REVIEW_MAX_WORDS - 200);
-  while (measure() < deepenCeiling && deepenGuard < 140) {
-    deepenGuard += 1;
-    let shortestIdx = -1;
-    let shortestWords = Number.POSITIVE_INFINITY;
-    // After the floor, allow longer sections before saturating.
-    const sectionCap = measure() < REVIEW_MIN_WORDS ? 520 : 720;
-    for (let i = 0; i < sections.length; i++) {
-      const section = sections[i]!;
-      if (section.id === "sec-buying-checklist") continue;
-      const w = countWords(section.body);
-      if (w < shortestWords && w < sectionCap) {
-        shortestWords = w;
-        shortestIdx = i;
-      }
-    }
-    if (shortestIdx < 0) break;
-    const section = sections[shortestIdx]!;
-    const topic = topicFromSection(section.id, section.heading);
-    const pass = (deepenPasses.get(section.id) ?? 0) + 1;
-    deepenPasses.set(section.id, pass);
-    const extra = extendLongformSectionBody(
-      topic,
-      product,
-      review,
-      brand?.name,
-      pass,
-    );
-    // Topic-tagged closer so repeated deepen passes stay unique after dedupe.
-    const tagged = joinUniqueParas(section.body, extra, deepenCloser(topic, product, pass));
-    if (countWords(tagged) <= countWords(section.body) + 6) {
-      // Section cannot grow further — mark as saturated.
-      deepenPasses.set(section.id, 99);
-      if ([...deepenPasses.values()].every((v) => v >= 99)) break;
-      continue;
-    }
-    sections[shortestIdx] = { ...section, body: tagged };
-  }
+  // Padel: quality over word count. Do not pad sections with interchangeable
+  // deepen glue ("I'd only keep…", "feels generic…") to hit REVIEW_TARGET_WORDS.
+  // Running reviews reach depth via authored sections; Padel must do the same.
+  const skipDeepenPad = isPadelReviewCategory(product.categoryId);
 
-  // Only add a short product-focused close if still under the floor — never meta lectures.
-  if (
-    measure() < REVIEW_MIN_WORDS &&
-    !sections.some((s) => s.id === "sec-buying-checklist")
-  ) {
-    sections = [
-      ...sections,
-      buildLengthPadding(product, review, brand, "checklist"),
-    ];
+  if (!skipDeepenPad) {
+    // Deepen shortest sections until we clear the long-form floor, then keep
+    // going toward the ideal band so pages are deep — not merely readable.
+    const deepenPasses = new Map<string, number>();
+    let deepenGuard = 0;
+    const deepenCeiling = Math.min(REVIEW_TARGET_WORDS, REVIEW_MAX_WORDS - 200);
+    while (measure() < deepenCeiling && deepenGuard < 140) {
+      deepenGuard += 1;
+      let shortestIdx = -1;
+      let shortestWords = Number.POSITIVE_INFINITY;
+      // After the floor, allow longer sections before saturating.
+      const sectionCap = measure() < REVIEW_MIN_WORDS ? 520 : 720;
+      for (let i = 0; i < sections.length; i++) {
+        const section = sections[i]!;
+        if (section.id === "sec-buying-checklist") continue;
+        const w = countWords(section.body);
+        if (w < shortestWords && w < sectionCap) {
+          shortestWords = w;
+          shortestIdx = i;
+        }
+      }
+      if (shortestIdx < 0) break;
+      const section = sections[shortestIdx]!;
+      const topic = topicFromSection(section.id, section.heading);
+      const pass = (deepenPasses.get(section.id) ?? 0) + 1;
+      deepenPasses.set(section.id, pass);
+      const extra = extendLongformSectionBody(
+        topic,
+        product,
+        review,
+        brand?.name,
+        pass,
+      );
+      // Topic-tagged closer so repeated deepen passes stay unique after dedupe.
+      const tagged = joinUniqueParas(section.body, extra, deepenCloser(topic, product, pass));
+      if (countWords(tagged) <= countWords(section.body) + 6) {
+        // Section cannot grow further — mark as saturated.
+        deepenPasses.set(section.id, 99);
+        if ([...deepenPasses.values()].every((v) => v >= 99)) break;
+        continue;
+      }
+      sections[shortestIdx] = { ...section, body: tagged };
+    }
+
+    // Only add a short product-focused close if still under the floor — never meta lectures.
+    if (
+      measure() < REVIEW_MIN_WORDS &&
+      !sections.some((s) => s.id === "sec-buying-checklist")
+    ) {
+      sections = [
+        ...sections,
+        buildLengthPadding(product, review, brand, "checklist"),
+      ];
+    }
   }
 
   if (measure() > REVIEW_MAX_WORDS) {
@@ -453,24 +467,21 @@ export function enrichReviewSummary(
     : review.cons;
   const desc = product.shortDescription?.trim() || summary;
 
-  const soft = (items: string[]) =>
-    items
-      .slice(0, 3)
-      .map((s) => s.charAt(0).toLowerCase() + s.slice(1))
-      .join(", ")
-      .replace(/, ([^,]*)$/, " or $1");
+  const buyLines = strengths
+    .slice(0, 2)
+    .map((s) => composeBuyIfSentence(s, product.fullName));
+  const skipLines = weaknesses
+    .slice(0, 2)
+    .map((s) => composeSkipIfSentence(s, product.fullName));
 
   return [
     `${desc} Here's a practical take on the ${product.fullName} — what it's for, who it suits, and when to pick something else.`,
-    strengths.length
-      ? `I'd shortlist it if you want ${soft(strengths)}.`
-      : `Match it to the sessions you'll use it for most weeks.`,
-    weaknesses.length
-      ? skipSentenceFromLimitation(soft(weaknesses))
-      : `Every shoe in this category trades something away — the sections below spell out where.`,
+    buyLines[0] ?? `Match it to the sessions you'll use it for most weeks.`,
+    skipLines[0] ??
+      `Every product in this category trades something away — the sections below spell out where.`,
     review.bottomLine?.trim() ||
       review.verdict?.trim() ||
-      `Skim fit, ride and value before you buy on brand name alone.`,
+      `Skim the decision sections before you buy on brand name alone.`,
   ]
     .filter(Boolean)
     .join(" ");

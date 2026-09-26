@@ -8,7 +8,6 @@ import {
   buildExplainerFromPlan,
   type CompactExplainerPlan,
 } from "@/lib/guides/build-explainer-from-plan";
-import { resolveHeroFromProductIds } from "@/lib/guides/guide-product-hero";
 import { PADEL_KNOWLEDGE_UNIQUE } from "@/lib/guides/explainers/padel-knowledge-unique";
 
 type PadelKnowledgeSpec = {
@@ -24,59 +23,96 @@ type PadelKnowledgeSpec = {
   browseHref: string;
 };
 
-/** Dedicated editorial heroes where we have authentic padel guide photography. */
+/**
+ * One intentional visual per knowledge guide.
+ * Paths are catalog media identities — resolved here, not via getProductById,
+ * so guide plans can load before the product repository finishes initializing.
+ * The same file must not be assigned to two guides.
+ */
 const PADEL_GUIDE_HEROES: Record<string, { src: string; alt: string }> = {
   "how-to-choose-a-padel-racket": {
     src: "/images/padel/guides/choose-racket.jpg",
-    alt: "Padel racket selection — shapes and frames for choosing a racket",
+    alt: "Padel racket and ball on court — choosing a frame",
   },
   "padel-racket-shapes-explained": {
-    src: "/images/padel/guides/choose-racket.jpg",
-    alt: "Padel racket shapes for round, teardrop and diamond buying decisions",
+    src: "/images/padel/products/bullpadel-vertex-05-hybrid-hero.jpg",
+    alt: "Bullpadel Vertex 05 Hybrid — teardrop racket shape",
   },
   "round-vs-teardrop-vs-diamond-padel-rackets": {
-    src: "/images/padel/guides/choose-racket.jpg",
-    alt: "Comparing round, teardrop and diamond padel racket silhouettes",
+    src: "/images/padel/products/bullpadel-hack-04-hero.png",
+    alt: "Bullpadel Hack 04 — diamond racket silhouette",
   },
   "padel-racket-balance-explained": {
-    src: "/images/padel/guides/choose-racket.jpg",
-    alt: "Padel rackets illustrating balance and handling differences",
+    src: "/images/padel/products/adidas-metalbone-3-5-2026-hero.jpg",
+    alt: "adidas Metalbone 3.5 — head-heavy balance example",
   },
   "padel-racket-weight-explained": {
-    src: "/images/padel/guides/choose-racket.jpg",
-    alt: "Padel rackets for comparing published weight bands",
+    src: "/images/padel/products/bullpadel-ionic-light-hero.jpg",
+    alt: "Bullpadel Ionic Light — lighter racket weight",
+  },
+  "padel-racket-materials-explained": {
+    src: "/images/padel/products/kuikma-pr-comfort-soft-hero.jpg",
+    alt: "Kuikma PR Comfort Soft — fiberglass face example",
+  },
+  "carbon-vs-fiberglass-padel-rackets": {
+    src: "/images/padel/products/bullpadel-hack-04-comfort-hero.jpg",
+    alt: "Bullpadel Hack 04 Comfort — softer face construction",
+  },
+  "padel-racket-cores-eva-foam-explained": {
+    src: "/images/padel/products/nox-equation-soft-advanced-2026-hero.jpg",
+    alt: "NOX Equation Soft Advanced — soft core example",
+  },
+  "soft-vs-hard-padel-rackets": {
+    src: "/images/padel/products/adidas-metalbone-hrd-hero.png",
+    alt: "adidas Metalbone HRD — harder racket feel",
+  },
+  "how-padel-racket-sweet-spots-work": {
+    src: "/images/padel/products/nox-ml10-pro-cup-2026-hero.jpg",
+    alt: "NOX ML10 Pro Cup — round sweet-spot example",
   },
   "how-to-choose-padel-shoes": {
     src: "/images/padel/guides/choose-shoes.jpg",
     alt: "Padel court shoes for grip and lateral stability decisions",
   },
   "padel-vs-tennis-shoes": {
-    src: "/images/padel/guides/choose-shoes.jpg",
-    alt: "Court shoes compared for padel vs tennis use",
+    src: "/images/padel/products/head-revolt-pro-court-hero.jpg",
+    alt: "HEAD Revolt Pro — court shoe for padel and tennis",
   },
   "padel-shoe-outsoles-explained": {
-    src: "/images/padel/guides/choose-shoes.jpg",
-    alt: "Padel shoe outsoles for clay and hard-court grip",
+    src: "/images/padel/products/joma-t-slam-hero.jpg",
+    alt: "Joma T.Slam — padel shoe outsole",
+  },
+  "how-long-do-padel-balls-last": {
+    src: "/images/padel/products/head-padel-pro-s-hero.jpg",
+    alt: "HEAD Padel Pro S ball can",
+  },
+  "how-to-choose-padel-balls": {
+    src: "/images/padel/products/kuikma-pb-speed-hero.jpg",
+    alt: "Kuikma PB Speed padel ball can",
+  },
+  "how-to-choose-a-padel-bag": {
+    src: "/images/padel/products/nox-at10-team-paletero-hero.jpg",
+    alt: "NOX AT10 Team paletero",
   },
   "padel-grips-overgrips-explained": {
     src: "/images/padel/guides/grips.jpg",
     alt: "Padel grips and overgrips for tack versus absorption",
   },
   "padel-grip-vs-overgrip": {
-    src: "/images/padel/guides/grips.jpg",
-    alt: "Base grip versus overgrip layers on a padel handle",
+    src: "/images/padel/products/hesacore-padel-grip-hero.jpg",
+    alt: "Hesacore replacement grip",
   },
   "how-often-should-you-replace-a-padel-overgrip": {
-    src: "/images/padel/guides/grips.jpg",
-    alt: "Padel overgrips showing when to replace a worn wrap",
+    src: "/images/padel/products/bullpadel-hac-overgrip-hero.jpg",
+    alt: "Bullpadel HaC overgrip pack",
   },
   "beginner-padel-gear-guide": {
-    src: "/images/padel/guides/choose-racket.jpg",
-    alt: "Beginner padel gear — forgiving racket and court kit",
+    src: "/images/padel/products/bullpadel-indiga-ctr-hero.jpg",
+    alt: "Bullpadel Indiga CTR — beginner control racket",
   },
   "complete-padel-gear-checklist": {
-    src: "/images/padel/guides/choose-racket.jpg",
-    alt: "Complete padel gear checklist — racket, shoes, bag and consumables",
+    src: "/images/padel/products/babolat-rh-pro-padel-hero.jpg",
+    alt: "Babolat RH Pro padel bag — full kit storage",
   },
 };
 
@@ -244,7 +280,7 @@ const PADEL_KNOWLEDGE_SPECS: PadelKnowledgeSpec[] = [
     outcome: "set realistic session expectations for pressurized cans instead of guessing from tennis habits alone",
     factors: ["Pressure loss","Felt wear","Court abrasion","Temperature/humidity","Match vs training use"],
     comparison: ["Fresh pressurized can","Tired training ball"],
-    products: ["prod-head-padel-pro-s","prod-kuikma-pb-speed","prod-head-padel-pro-s"],
+    products: ["prod-head-padel-pro-s","prod-kuikma-pb-speed","prod-head-padel-pro-plus","prod-wilson-padel-premier-speed"],
     
     bestHref: "/padel/gear?category=padel-balls",
     browseHref: "/padel/gear?category=padel-balls",
@@ -256,7 +292,7 @@ const PADEL_KNOWLEDGE_SPECS: PadelKnowledgeSpec[] = [
     outcome: "pick a pressurized competition can that matches court speed preference with honest catalog limits",
     factors: ["Speed/control preference","Official vs training","Court conditions","Pack format","Freshness"],
     comparison: ["Faster competition can","Control-oriented competition can"],
-    products: ["prod-head-padel-pro-s","prod-kuikma-pb-speed","prod-head-padel-pro-s"],
+    products: ["prod-head-padel-pro-s","prod-kuikma-pb-speed","prod-head-padel-pro-plus","prod-wilson-padel-premier-speed"],
     
     bestHref: "/padel/gear?category=padel-balls",
     browseHref: "/padel/gear?category=padel-balls",
@@ -268,7 +304,7 @@ const PADEL_KNOWLEDGE_SPECS: PadelKnowledgeSpec[] = [
     outcome: "match paletero volume, thermo needs and commute style to how you actually travel to court",
     factors: ["Form factor","Volume / racket count","Thermo compartment","Shoe pocket","Carry comfort"],
     comparison: ["Club paletero","Tournament volume bag"],
-    products: ["prod-nox-at10-team-bag","prod-babolat-rh-pro-padel","prod-nox-at10-team-bag"],
+    products: ["prod-nox-at10-team-bag","prod-babolat-rh-pro-padel","prod-adidas-metalbone-bag","prod-head-tour-padel-bag-l"],
     
     bestHref: "/best/padel-bags",
     browseHref: "/padel/gear?category=padel-bags",
@@ -340,7 +376,9 @@ function makePlan(spec: PadelKnowledgeSpec): CompactExplainerPlan {
   if (!u) throw new Error(`Missing PADEL_KNOWLEDGE_UNIQUE for ${spec.slug}`);
 
   const toolHref = spec.tool ? `/tools/${spec.tool}` : spec.browseHref;
-  const examples = spec.products.slice(0, Math.min(4, spec.products.length)).map((productId, index) => ({
+  const examples = Array.from(new Set(spec.products))
+    .slice(0, Math.min(4, spec.products.length))
+    .map((productId, index) => ({
     productId,
     approachLabel: u.exampleLabels[index] ?? `Approach ${index + 1}`,
     whyIllustrates:
@@ -354,23 +392,21 @@ function makePlan(spec: PadelKnowledgeSpec): CompactExplainerPlan {
   }));
 
   const dedicatedHero = PADEL_GUIDE_HEROES[spec.slug];
-  const hero = dedicatedHero
-    ? {
-        heroImageSrc: dedicatedHero.src,
-        heroImageAlt: dedicatedHero.alt,
-      }
-    : resolveHeroFromProductIds(
-        spec.products,
-        "/images/padel/hero.jpg",
-        `Padel equipment: ${spec.subject}`,
-      );
+  if (!dedicatedHero) {
+    throw new Error(`Missing unique padel guide hero for ${spec.slug}`);
+  }
+  const hero = {
+    heroImageSrc: dedicatedHero.src,
+    heroImageAlt: dedicatedHero.alt,
+  };
 
   return {
     slug: spec.slug,
     displayTitle: spec.title,
     deck: u.deck,
     eyebrow: "Buying Guide",
-    ...hero,    quickAnswerBullets: u.quickAnswerBullets,
+    ...hero,
+    quickAnswerBullets: u.quickAnswerBullets,
     methodologyNote:
       "Needs-research guide: manufacturer specifications and normalized catalog fields establish the comparison. Unverified marketing claims are treated as claims rather than measured performance. Catalog examples are roles, not affiliate rankings.",
     finder: spec.tool
@@ -402,7 +438,7 @@ function makePlan(spec: PadelKnowledgeSpec): CompactExplainerPlan {
       paragraphs: [...u.whyParas],
     },
     factors: {
-      title: `${spec.factors.length} factors that should drive the choice`,
+      title: `Factors that should drive the choice`,
       intro:
         "Use these as connected filters for this guide’s job — not a generic equipment checklist.",
       cards: spec.factors.map((title, index) => ({
@@ -447,12 +483,12 @@ function makePlan(spec: PadelKnowledgeSpec): CompactExplainerPlan {
       },
     },
     examples: {
-      title: `${examples.length} approaches for this decision`,
+      title: `Approaches for this decision`,
       disclaimer:
         "These products demonstrate distinct roles rather than a ranking. Verify current specifications and availability.",
       items: examples,
     },
-    compareProductIds: spec.products,
+    compareProductIds: Array.from(new Set(spec.products)),
     bestGuideHref: spec.bestHref,
     bestGuideLabel: "See related recommendations →",
     mistakes: u.mistakes,

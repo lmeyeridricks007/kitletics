@@ -19,15 +19,22 @@ import {
 import { cn } from "@/lib/utils";
 import type { ExplainerDiagramVariant } from "@/lib/guides/explainer-blocks";
 import {
+  PadelBagAnatomyDiagram,
   PadelBagFormsDiagram,
   PadelBallTypesDiagram,
+  PadelBeginnerKitDiagram,
+  PadelCoreFeelDiagram,
   PadelDecisionStepsDiagram,
+  PadelGripLayersDiagram,
   PadelGripVsOvergripDiagram,
+  PadelPowerControlDiagram,
   PadelPressurizerDiagram,
   PadelRacketBalanceDiagram,
   PadelRacketShapesDiagram,
   PadelRacketWeightDiagram,
   PadelShoeOutsoleDiagram,
+  PadelShoeSupportDiagram,
+  PadelSweetSpotDiagram,
 } from "@/components/guides/PadelConceptDiagrams";
 
 export type ConceptDiagramVariant = ExplainerDiagramVariant;
@@ -315,6 +322,27 @@ export function ConceptDiagram({
         break;
       case "padel-shoe-outsole":
         body = <PadelShoeOutsoleDiagram />;
+        break;
+      case "padel-sweet-spot":
+        body = <PadelSweetSpotDiagram />;
+        break;
+      case "padel-power-control":
+        body = <PadelPowerControlDiagram />;
+        break;
+      case "padel-core-feel":
+        body = <PadelCoreFeelDiagram />;
+        break;
+      case "padel-shoe-support":
+        body = <PadelShoeSupportDiagram />;
+        break;
+      case "padel-bag-anatomy":
+        body = <PadelBagAnatomyDiagram />;
+        break;
+      case "padel-grip-layers":
+        body = <PadelGripLayersDiagram />;
+        break;
+      case "padel-beginner-kit":
+        body = <PadelBeginnerKitDiagram />;
         break;
       default:
         body = null;

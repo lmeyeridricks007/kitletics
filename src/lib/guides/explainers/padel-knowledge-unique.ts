@@ -210,7 +210,7 @@ export const PADEL_KNOWLEDGE_UNIQUE: Record<string, RacketUnique> = {
       "Catalog examples stay role-based — verify current generation and offers."
     ],
     "definitionTitle": "What padel racket shapes decisions are really about",
-    "definitionIntro": "You are solving for map round, teardrop and diamond silhouettes to sweet-spot and play roles without treating shape as the whole decision — not collecting marketing labels.",
+    "definitionIntro": "Round, teardrop and diamond move the sweet spot and tip mass — use shape to shortlist, then confirm balance and weight before you buy.",
     "definitionParas": [
       "A round outline typically places more foam area around a lower/centred sweet zone. Diamond outlines push usable mass and sweet-spot diagrams higher toward the tip. Hybrids blend the silhouette so the racket can attack without fully committing to tip-heavy geometry — still verify published balance.",
       "Ask: (1) How often do I miss the centre? (2) Do I already finish overheads? (3) Is my problem power or placement? If mishits dominate, stay round/soft. If you place well but need finishers, open hybrid before diamond.",
@@ -397,7 +397,7 @@ export const PADEL_KNOWLEDGE_UNIQUE: Record<string, RacketUnique> = {
       "Catalog examples stay role-based — verify current generation and offers."
     ],
     "definitionTitle": "What round vs teardrop vs diamond padel rackets decisions are really about",
-    "definitionIntro": "You are solving for pick the silhouette family that matches your mishit rate and finishing ability — not collecting marketing labels.",
+    "definitionIntro": "Pick the silhouette that matches your mishit rate and finishing ability: round when contact is messy, diamond only when you already place overheads.",
     "definitionParas": [
       "As the outline lengthens toward the tip, usable mass and marketing sweet-spot diagrams climb. That raises smash potential and reduces the area that forgives late or off-centre contact — especially with firm cores.",
       "Score yourself honestly: mishits per set, bandeja timing under fatigue, and whether unfinished overheads are a technique or power problem. Technique problems rarely get fixed by a stiffer diamond.",
@@ -581,7 +581,7 @@ export const PADEL_KNOWLEDGE_UNIQUE: Record<string, RacketUnique> = {
       "Catalog examples stay role-based — verify current generation and offers."
     ],
     "definitionTitle": "What padel racket balance decisions are really about",
-    "definitionIntro": "You are solving for use low vs high balance as a handling filter instead of inferring it from shape marketing alone — not collecting marketing labels.",
+    "definitionIntro": "Balance tells you whether the tip feels light in preparation or heavy through the ball — measure it instead of inferring it from a shape label.",
     "definitionParas": [
       "Balance is often discussed as low / medium / high relative to the handle. Static weight and balance together approximate how heavy the tip feels in motion (a rough swingweight idea without claiming lab numbers we have not measured).",
       "If you lose points to late preparation, bias low/mid balance. If overheads die because you cannot load the tip, consider higher balance only after timing is honest. Pair with weight — a light high-balance frame feels different from a heavy high-balance frame.",
@@ -768,7 +768,7 @@ export const PADEL_KNOWLEDGE_UNIQUE: Record<string, RacketUnique> = {
       "Catalog examples stay role-based — verify current generation and offers."
     ],
     "definitionTitle": "What padel racket weight decisions are really about",
-    "definitionIntro": "You are solving for choose a wearable published weight range before comparing carbon marketing — not collecting marketing labels.",
+    "definitionIntro": "Choose a published weight band you can swing for two hours before you compare carbon weave marketing.",
     "definitionParas": [
       "Manufacturers usually publish ranges because foam and layup vary. Static grams are not swingweight. Balance and distribution decide how heavy the tip feels in motion.",
       "Set a wearable window first (for many club players mid-360s with balance awareness). Then choose shape/core inside that window. Do not buy a stiff diamond that only fits if you ignore the weight range.",
@@ -955,7 +955,7 @@ export const PADEL_KNOWLEDGE_UNIQUE: Record<string, RacketUnique> = {
       "Catalog examples stay role-based — verify current generation and offers."
     ],
     "definitionTitle": "What padel racket materials decisions are really about",
-    "definitionIntro": "You are solving for read face and frame materials as feel inputs rather than a prestige ladder — not collecting marketing labels.",
+    "definitionIntro": "Face and frame materials change feel and durability — read them as response inputs, not a prestige ladder.",
     "definitionParas": [
       "Glass fibres generally flex more for a given construction; carbon can be laid up stiffer. Hybrid faces try to blend. Resin systems and layer counts change outcomes as much as the fibre name on the box.",
       "Choose feel goal first (comfort vs precision). Then shortlist materials that support that goal. Only then compare weave marketing inside the shortlist.",
@@ -1142,7 +1142,7 @@ export const PADEL_KNOWLEDGE_UNIQUE: Record<string, RacketUnique> = {
       "Catalog examples stay role-based — verify current generation and offers."
     ],
     "definitionTitle": "What carbon vs fiberglass padel rackets decisions are really about",
-    "definitionIntro": "You are solving for choose face fibre for feel and forgiveness goals instead of prestige — not collecting marketing labels.",
+    "definitionIntro": "Fiberglass usually forgives off-centre hits; carbon firms the exit — pick the fibre for the contact quality you actually have.",
     "definitionParas": [
       "Fiberglass typically allows more face flex in entry constructions. Carbon weaves (3K–24K and hybrids) can raise stiffness and change vibration, but weave count is not a linear power scale.",
       "If contact is inconsistent, bias accessible glass/soft packages. If you already place viboras and want a firmer exit, open carbon flagships. Always read core class alongside fibre.",
@@ -1329,7 +1329,7 @@ export const PADEL_KNOWLEDGE_UNIQUE: Record<string, RacketUnique> = {
       "Catalog examples stay role-based — verify current generation and offers."
     ],
     "definitionTitle": "What padel racket cores and EVA foam decisions are really about",
-    "definitionIntro": "You are solving for treat soft vs hard EVA (and multi-density cores) as feel and forgiveness filters — not collecting marketing labels.",
+    "definitionIntro": "Soft vs hard EVA (and multi-density cores) set forgiveness and ball exit — treat core density as a feel filter, not a power guarantee.",
     "definitionParas": [
       "EVA and related foams vary by density and layering. Multi-density constructions mix zones. Without lab compression data, treat published soft/medium/hard and feel notes as relative, not absolute SI units.",
       "Arm comfort or mishit kindness first → soft/medium. Explosive exit with clean contact → firmer cores. Cold halls can make soft cores feel dead and hard cores harsher — adjust expectations by season.",
@@ -1516,7 +1516,7 @@ export const PADEL_KNOWLEDGE_UNIQUE: Record<string, RacketUnique> = {
       "Catalog examples stay role-based — verify current generation and offers."
     ],
     "definitionTitle": "What soft vs hard padel rackets decisions are really about",
-    "definitionIntro": "You are solving for choose soft packages for forgiveness and hard packages for crisp exit when contact quality supports it — not collecting marketing labels.",
+    "definitionIntro": "Soft packages help when your contact is still developing; hard packages reward clean timing with a crisper exit — choose for today’s consistency.",
     "definitionParas": [
       "Hardness is mostly core-driven, modulated by face stiffness. A soft core under a stiff carbon skin can still feel firmer than a soft glass package.",
       "High mishit rate or elbow/shoulder caution → soft. Clean contact seeking finishing pop → hard. If unsure, soft/medium hybrid first.",
@@ -1698,7 +1698,7 @@ export const PADEL_KNOWLEDGE_UNIQUE: Record<string, RacketUnique> = {
       "Catalog examples stay role-based — verify current generation and offers."
     ],
     "definitionTitle": "What padel racket sweet spots decisions are really about",
-    "definitionIntro": "You are solving for interpret sweet-spot claims as forgiveness geometry rather than guaranteed power maps — not collecting marketing labels.",
+    "definitionIntro": "Sweet-spot claims describe forgiveness geometry, not a free power map — judge where usable contact sits for your mishit pattern.",
     "definitionParas": [
       "Foam thickness, face stiffness and outline interact. Without independent mapping, Kitletics treats manufacturer sweet-spot claims as needs-research signals paired with shape/balance evidence.",
       "Track where you miss for two weeks. Off-centre and late → centred/forgiving. Clean high contact seeking finishers → higher sweet-spot attack molds.",
@@ -1880,7 +1880,7 @@ export const PADEL_KNOWLEDGE_UNIQUE: Record<string, RacketUnique> = {
       "Catalog examples stay role-based — verify current generation and offers."
     ],
     "definitionTitle": "What padel shoes decisions are really about",
-    "definitionIntro": "You are solving for get predictable court grip and lateral support without sacrificing lockdown — not collecting marketing labels.",
+    "definitionIntro": "Court grip and lateral lockdown matter more than upper colour — shortlist shoes that hold cuts on your club’s surface.",
     "definitionParas": [
       "Herringbone and omni outsoles manage sand and dust differently. Lateral TPU/heel counters resist rollover. Cushion foams matter less than a planted platform for most players.",
       "Surface first → stability need → fit/last → cushion preference. Wide feet: catalog width options are limited — do not invent a wide award; try lasts carefully (T.Slam often noted narrow).",
@@ -2067,7 +2067,7 @@ export const PADEL_KNOWLEDGE_UNIQUE: Record<string, RacketUnique> = {
       "Catalog examples stay role-based — verify current generation and offers."
     ],
     "definitionTitle": "What padel vs tennis shoes decisions are really about",
-    "definitionIntro": "You are solving for decide when a tennis court shoe is enough and when a padel-specific model is the better tool — not collecting marketing labels.",
+    "definitionIntro": "A tennis court shoe can work; a padel-specific last earns the upgrade when lateral cuts and dusty outdoor grip keep failing.",
     "definitionParas": [
       "Outsole compound and pattern dominate. Upper lockdown and lateral posts matter next. Cushion stacks marketed for tennis baseline pounding are secondary for padel’s shorter cuts.",
       "If your tennis shoes grip and plant, keep them. If you slip on bandeja plants or fear ankles on glass recovery, shortlist padel-specific outsoles.",
@@ -2249,7 +2249,7 @@ export const PADEL_KNOWLEDGE_UNIQUE: Record<string, RacketUnique> = {
       "Catalog examples stay role-based — verify current generation and offers."
     ],
     "definitionTitle": "What padel shoe outsoles decisions are really about",
-    "definitionIntro": "You are solving for match outsole pattern and compound to your club’s surface instead of buying by upper colour — not collecting marketing labels.",
+    "definitionIntro": "Match herringbone, clay and hard-court compounds to the surface you play on every week — not to a catalogue lifestyle shot.",
     "definitionParas": [
       "Herringbone channels help on clay-like dressings. Omni/modified patterns balance multi-direction cuts. Rubber compounds trade bite vs wear.",
       "Name your surface → pick grip priority → then stability/fit. Do not reverse the order.",
@@ -2431,7 +2431,7 @@ export const PADEL_KNOWLEDGE_UNIQUE: Record<string, RacketUnique> = {
       "Catalog examples stay role-based — verify current generation and offers."
     ],
     "definitionTitle": "What padel ball lifespan decisions are really about",
-    "definitionIntro": "You are solving for set realistic session expectations for pressurized cans instead of guessing from tennis habits alone — not collecting marketing labels.",
+    "definitionIntro": "Pressurized cans lose bounce across sessions faster than many tennis habits suggest — plan can life from match feel, not the print date alone.",
     "definitionParas": [
       "Pressurized balls lose internal pressure through the core and valve over time once opened (and slowly even sealed). Felt wear changes aerodynamics and bounce character.",
       "Match day → freshest can. Training → demoted cans. Extreme heat/humidity → expect faster fade. Abrasion courts → felt dies before pressure sometimes.",
@@ -2615,7 +2615,7 @@ export const PADEL_KNOWLEDGE_UNIQUE: Record<string, RacketUnique> = {
       "Catalog examples stay role-based — verify current generation and offers."
     ],
     "definitionTitle": "What padel balls decisions are really about",
-    "definitionIntro": "You are solving for pick a pressurized competition can that matches court speed preference with honest catalog limits — not collecting marketing labels.",
+    "definitionIntro": "Choose a pressurized competition can for the court speed you want, within what the catalog actually lists — speed preference first, brand second.",
     "definitionParas": [
       "Core rubber and felt construction change pressure retention and pace. Kitletics does not invent bounce lab numbers; we use manufacturer positioning and catalog fields.",
       "Match vs training → preferred pace → brand familiarity for your club’s official ball if required → freshness.",
@@ -2794,7 +2794,7 @@ export const PADEL_KNOWLEDGE_UNIQUE: Record<string, RacketUnique> = {
       "Catalog examples stay role-based — verify current generation and offers."
     ],
     "definitionTitle": "What a padel bag decisions are really about",
-    "definitionIntro": "You are solving for match paletero volume, thermo needs and commute style to how you actually travel to court — not collecting marketing labels.",
+    "definitionIntro": "Size paletero volume, thermo wells and commute style to how you actually get to court — capacity without a racket job is wasted weight.",
     "definitionParas": [
       "Paleteros organise racket tunnels and pockets differently from duffels. Thermo linings slow heat transfer; they are not refrigerators.",
       "Commute mode → racket count → thermo yes/no → shoe separation → litre reality check.",
@@ -2973,7 +2973,7 @@ export const PADEL_KNOWLEDGE_UNIQUE: Record<string, RacketUnique> = {
       "Catalog examples stay role-based — verify current generation and offers."
     ],
     "definitionTitle": "What padel grips and overgrips decisions are really about",
-    "definitionIntro": "You are solving for set a comfortable handle diameter while maintaining tack and moisture control — not collecting marketing labels.",
+    "definitionIntro": "Build a comfortable handle diameter first, then pick tack versus absorption for how you sweat — feel beats packaging claims.",
     "definitionParas": [
       "Overgrips are thin wraps; replacement grips are thicker foundations. Stacking endless overgrips without rebuilding creates a mushy, oversized handle.",
       "Uneven ridges → rebuild base. Lost tack mid-match → overgrip swap. Heavy sweat → absorption-first overgrip. Dry halls → tack-first.",
@@ -3154,7 +3154,7 @@ export const PADEL_KNOWLEDGE_UNIQUE: Record<string, RacketUnique> = {
       "Catalog examples stay role-based — verify current generation and offers."
     ],
     "definitionTitle": "What padel grip vs overgrip decisions are really about",
-    "definitionIntro": "You are solving for know when to rebuild the base grip versus refreshing an overgrip — not collecting marketing labels.",
+    "definitionIntro": "Rebuild the base grip when the foundation is gone; refresh an overgrip when tack or moisture control fails mid-session.",
     "definitionParas": [
       "Base grips are thicker polyurethane/synthetic wraps. Overgrips are thinner sacrificial layers for tack and moisture.",
       "Structural issues → base grip. Surface tack/sweat → overgrip. Diameter up slightly → extra overgrip. Diameter down → thinner stack or new thinner base.",
@@ -3330,7 +3330,7 @@ export const PADEL_KNOWLEDGE_UNIQUE: Record<string, RacketUnique> = {
       "Catalog examples stay role-based — verify current generation and offers."
     ],
     "definitionTitle": "What padel overgrip replacement frequency decisions are really about",
-    "definitionIntro": "You are solving for replace overgrips based on tack and sweat failure, not an arbitrary calendar myth — not collecting marketing labels.",
+    "definitionIntro": "Replace overgrips when tack dies or sweat slips the handle — session failure beats any calendar rule of thumb.",
     "definitionParas": [
       "Oils, sweat and dust glaze porous wraps. Absorption wraps saturate. Neither fails on a fixed timer.",
       "After each session: still tacky? still dry enough? still even? Any no → replace. Tournament days: start fresh.",
@@ -3509,7 +3509,7 @@ export const PADEL_KNOWLEDGE_UNIQUE: Record<string, RacketUnique> = {
       "Catalog examples stay role-based — verify current generation and offers."
     ],
     "definitionTitle": "What beginner padel gear decisions are really about",
-    "definitionIntro": "You are solving for build a forgiving first kit without copying pro diamonds — not collecting marketing labels.",
+    "definitionIntro": "Build a forgiving first kit around a round/soft frame, court shoes and fresh balls — skip copying pro diamonds until contact is reliable.",
     "definitionParas": [
       "Soft round frames enlarge usable contact. Court outsoles protect ankles. Pressurized balls keep bounce honest so you learn real trajectories.",
       "Racket forgiveness → shoe grip → balls freshness → overgrips → bag last. Use the Finder only after you know you want a racket upgrade path.",
@@ -3701,7 +3701,7 @@ export const PADEL_KNOWLEDGE_UNIQUE: Record<string, RacketUnique> = {
       "Catalog examples stay role-based — verify current generation and offers."
     ],
     "definitionTitle": "What a complete padel gear checklist decisions are really about",
-    "definitionIntro": "You are solving for verify required vs optional kit before a match or trip without overspending — not collecting marketing labels.",
+    "definitionIntro": "Separate must-have match kit from nice-to-have extras so you pack for the session without overspending on unused accessories.",
     "definitionParas": [
       "Consumables (balls, overgrips) degrade. Durable goods (racket, shoes, bag) should be chosen for role and replaced on wear/injury signals.",
       "Club night vs tournament travel vs hot-car storage each change the optional tier. Level changes racket role, not whether shoes matter.",

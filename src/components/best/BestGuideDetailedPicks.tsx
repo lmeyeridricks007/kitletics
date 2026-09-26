@@ -294,7 +294,7 @@ function ProductIdentityColumn({
             </span>
           ) : (
             <span className="text-[13px] text-muted">
-              No verified retailer offers in your region
+              No verified Netherlands-shipping retailer is currently available.
             </span>
           )}
         </div>

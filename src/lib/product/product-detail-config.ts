@@ -53,7 +53,7 @@ const BY_CATEGORY: Record<string, Partial<ProductDetailConfig>> = {
   "cat-padel-rackets": {
     mediaAspect: "tall",
     quickFactPriority: ["best-for", "shape", "weight", "release"],
-    heroTagKeys: ["shape", "weight", "balance", "level"],
+    heroTagKeys: ["shape", "weightMin", "balance", "playerLevel"],
     glanceKeys: [
       "shape",
       "weightMin",

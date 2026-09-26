@@ -1,0 +1,76 @@
+{
+  "date": "2026-09-26",
+  "timezone": "Europe/Amsterdam",
+  "apply_after": "Lee confirms send of DO THESE TODAY",
+  "nextFollowUpAt": "2026-10-03T08:00:00+02:00",
+  "actionStatus": "CONTACTED",
+  "contact_keys": [
+    "editor@shoefitlab.com",
+    "https://runtothefinish.com/contact/",
+    "jack@zone2.uk",
+    "trailrun@slib.es",
+    "info@therunningclub.it",
+    "redaktion@trailrunningworld.net",
+    "info@hardloopinfo.nl",
+    "hello@runnersmag.hu"
+  ],
+  "items": [
+    {
+      "contact_key": "editor@shoefitlab.com",
+      "desk": "ShoeFitLab editorial desk",
+      "region": "US",
+      "target": "https://shoefitlab.com/blog/heel-drop-stack-height-study-2026",
+      "kitletics": "https://kitletics.com/guides/running-shoe-drop"
+    },
+    {
+      "contact_key": "https://runtothefinish.com/contact/",
+      "desk": "Amanda Brooks / RunToTheFinish editorial",
+      "region": "US",
+      "target": "https://runtothefinish.com/best-high-drop-running-shoes/",
+      "kitletics": "https://kitletics.com/tools/running-shoe-finder"
+    },
+    {
+      "contact_key": "jack@zone2.uk",
+      "desk": "Jack \u2014 Zone2 editor",
+      "region": "UK",
+      "target": "https://zone2.uk/shoe-finder/",
+      "kitletics": "https://kitletics.com/tools/running-shoe-finder"
+    },
+    {
+      "contact_key": "trailrun@slib.es",
+      "desk": "Trail Run (Sport Life Ib\u00e9rica) redacci\u00f3n \u2014 Francisco Jes\u00fas Chico / Elena Moro",
+      "region": "EU",
+      "target": "https://www.trailrun.es/material/preparate-nuevo-curso-trail-con-nuestra-guia-material-2025_315473_102.html",
+      "kitletics": "https://kitletics.com/best/trail-running-shoes"
+    },
+    {
+      "contact_key": "info@therunningclub.it",
+      "desk": "The Running Club redazione (Paolo Emilio Corsini / Andrea Soffientini)",
+      "region": "EU",
+      "target": "https://www.therunningclub.it/2026/09/18/recensione-puma-velocity-nitro-5/",
+      "kitletics": "https://kitletics.com/best/daily-trainers"
+    },
+    {
+      "contact_key": "redaktion@trailrunningworld.net",
+      "desk": "Trail Running World Redaktion (Egon Theiner / Klaus Molidor)",
+      "region": "EU",
+      "target": "https://www.trailrunningworld.net/remi-bonnet-und-co-athleten-know-how-fuer-trail-schuhe-und-equipment/",
+      "kitletics": "https://kitletics.com/best/trail-running-shoes"
+    },
+    {
+      "contact_key": "info@hardloopinfo.nl",
+      "desk": "Hardloopinfo.nl redactie",
+      "region": "NL",
+      "target": "https://hardloopinfo.nl/www-hardloopinfo-nl-hardloopschoenen-kiezen/",
+      "kitletics": "https://kitletics.com/guides/how-to-choose-running-shoes"
+    },
+    {
+      "contact_key": "hello@runnersmag.hu",
+      "desk": "Runner\u2019s Mag Hungary szerkeszt\u0151s\u00e9g (Nedjalkov Bea)",
+      "region": "OTHER",
+      "target": "https://runnersmag.hu/hoka-skyward-x-2-teszt/",
+      "kitletics": "https://kitletics.com/best/max-cushion-running-shoes"
+    }
+  ],
+  "notes": "Do not mark Sep 20 or Sep 24 pending as contacted unless Lee confirms those sends. Sep 25 already CONTACTED."
+}

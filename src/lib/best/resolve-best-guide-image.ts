@@ -82,12 +82,15 @@ const SLUG_IMAGES: Record<string, string> = {
     "/images/running/accessories/therabody-theragun-mini-2-hero.jpg",
   "handheld-running-bottles":
     "/images/hydration/products/hydrapak-skyflask-speed-500-hero.jpg",
-  "padel-rackets": "/images/padel/hero.jpg",
+  // Padel Best guides — one unique product/hero src per public intent.
+  // Prefer authentic product photography over shared category stock
+  // (/images/padel/hero.jpg, choose-shoes.jpg, grips.jpg).
+  "padel-rackets": "/images/padel/products/bullpadel-vertex-05-hero.png",
   "padel-rackets-beginners": "/images/padel/products/bullpadel-indiga-ctr-hero.jpg",
   "padel-rackets-intermediate":
     "/images/padel/products/bullpadel-ionic-light-hero.jpg",
   "padel-rackets-advanced":
-    "/images/padel/products/bullpadel-vertex-05-hero.png",
+    "/images/padel/products/adidas-metalbone-3-5-2026-hero.jpg",
   "padel-rackets-control":
     "/images/padel/products/nox-ml10-pro-cup-2026-hero.jpg",
   "padel-rackets-power": "/images/padel/products/bullpadel-hack-04-hero.png",
@@ -101,15 +104,53 @@ const SLUG_IMAGES: Record<string, string> = {
     "/images/padel/products/babolat-air-viper-hero.jpg",
   "padel-rackets-women":
     "/images/padel/products/bullpadel-vertex-05-w-hero.jpg",
-  "padel-shoes": "/images/padel/guides/choose-shoes.jpg",
+  "padel-rackets-value":
+    "/images/padel/products/kuikma-pr-hybrid-carbon-hero.jpg",
+  "padel-shoes": "/images/padel/products/asics-gel-resolution-padel-hero.jpg",
   "padel-shoes-men": "/images/padel/products/adidas-courtquick-padel-hero.jpg",
   "padel-shoes-women":
     "/images/padel/products/adidas-courtquick-padel-women-hero.jpg",
   "padel-shoes-stability": "/images/padel/products/joma-t-slam-hero.jpg",
   "padel-shoes-comfort":
     "/images/padel/products/adidas-crazyquick-boost-padel-hero.jpg",
-  "padel-overgrips": "/images/padel/guides/grips.jpg",
-  "padel-bags": "/images/padel/products/nox-at10-team-paletero-hero.jpg",
+  "padel-shoes-lightweight":
+    "/images/padel/products/babolat-jet-premura-hero.jpg",
+  "padel-shoes-value": "/images/padel/products/kuikma-ps-990-hero.jpg",
+  "padel-balls": "/images/padel/products/head-padel-pro-s-hero.jpg",
+  "padel-competition-balls":
+    "/images/padel/products/head-padel-pro-plus-hero.jpg",
+  "padel-training-balls":
+    "/images/padel/products/tecnifibre-padel-team-balls-hero.jpg",
+  "padel-fast-balls":
+    "/images/padel/balls/drop-shot-tournament-tech-hero.jpg",
+  "padel-value-balls": "/images/padel/products/kuikma-pb-speed-hero.jpg",
+  "padel-overgrips": "/images/padel/products/wilson-padel-overgrip-hero.jpg",
+  "padel-overgrips-sweaty-hands":
+    "/images/padel/products/nox-pro-overgrip-hero.jpg",
+  "padel-tacky-overgrips":
+    "/images/padel/products/head-xtreme-soft-overgrip-hero.jpg",
+  "padel-dry-feel-overgrips":
+    "/images/padel/products/bullpadel-hac-overgrip-hero.jpg",
+  "padel-value-overgrips-multipacks":
+    "/images/padel/products/kuikma-padel-overgrip-hero.jpg",
+  "padel-ergonomic-grip-systems":
+    "/images/padel/products/hesacore-padel-grip-hero.jpg",
+  "padel-bags": "/images/padel/products/adidas-protour-padel-bag-hero.jpg",
+  "padel-backpacks":
+    "/images/padel/products/tecnifibre-tour-endurance-padel-backpack-hero.jpg",
+  "large-padel-bags": "/images/padel/products/babolat-rh-pro-padel-hero.jpg",
+  "padel-tournament-bags":
+    "/images/padel/products/nox-at10-xxl-padel-bag-hero.jpg",
+  "padel-bags-commuting":
+    "/images/padel/products/bullpadel-vertex-geo-backpack-hero.jpg",
+  "padel-bags-with-shoe-compartments":
+    "/images/padel/products/nox-at10-team-paletero-hero.jpg",
+  "compact-padel-bags":
+    "/images/padel/bags/head-tour-team-elite-hero.jpg",
+  "padel-ball-pressurizers":
+    "/images/padel/products/bullpadel-pascal-box-3b-hero.jpg",
+  "padel-racket-protectors":
+    "/images/padel/products/bullpadel-frame-protector-3-pack-hero.jpg",
   "tennis-rackets": "/images/home/guide-tennis.jpg",
   "training-shoes":
     "/images/training/guides/concepts/cross-training-shoe-gym.jpg",
@@ -128,7 +169,12 @@ export function resolveBestGuideImage(guide: BestGuide): {
     categoryId: guide.categoryId,
   });
 
+  // Prefer per-guide hub art (unique per intent) before slug map / category pool.
   const dedicated =
+    (guide.hubImageSrc &&
+    isSemanticallyCompatible(guide.hubImageSrc, topic, "hero")
+      ? guide.hubImageSrc
+      : undefined) ??
     SLUG_IMAGES[guide.slug] ??
     (useCase?.heroImageSrc &&
     isSemanticallyCompatible(useCase.heroImageSrc, topic, "hero")

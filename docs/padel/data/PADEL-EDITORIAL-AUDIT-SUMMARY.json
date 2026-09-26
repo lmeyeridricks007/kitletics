@@ -1,0 +1,21 @@
+{
+  "reviewCount": 26,
+  "glueBefore": {
+    "onlyKeep": 98,
+    "feelsGeneric": 20
+  },
+  "glueAfter": {
+    "onlyKeep": 0,
+    "feelsGeneric": 0,
+    "editorialInstruction": 0
+  },
+  "wordCounts": {
+    "bullpadel-vertex-05-2026": 1456,
+    "bullpadel-hack-04-2026": 1561,
+    "bullpadel-vertex-05-hybrid-2026": 1400,
+    "bullpadel-indiga-ctr-2026": 1423,
+    "kuikma-pr-comfort-soft": 1241,
+    "joma-t-slam": 1094,
+    "kuikma-ps-990": 1023
+  }
+}

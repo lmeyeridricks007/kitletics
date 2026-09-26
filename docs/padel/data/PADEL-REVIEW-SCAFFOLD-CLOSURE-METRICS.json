@@ -1,0 +1,334 @@
+{
+  "KNOWN_REVIEW_TEMPLATE_GLUE": 0,
+  "KNOWN_DECISION_GRAMMAR_DEFECTS": 0,
+  "CATEGORY_INAPPROPRIATE_REVIEW_COPY": 0,
+  "PUBLIC_EDITORIAL_INSTRUCTION_LANGUAGE": 0,
+  "PUBLIC_INTERNAL_SENTINELS": 0,
+  "templateGlueGateFail": false,
+  "templateGlueHits": 0,
+  "crossProductTriplePlus": 7,
+  "topCrossNonStructural": [
+    {
+      "productCount": 26,
+      "occurrenceCount": 26,
+      "products": "adidas-courtquick-padel|adidas-crazyquick-boost-padel|adidas-metalbone-3-5-2026|asics-gel-resolution-padel|babolat-jet-premura|babolat-technical-viper-3-0|bullpadel-hac-overgrip|bullpadel-hack-04-2026|bullpadel-indiga-ctr-2026|bullpadel-pascal-box-3b|bullpadel-vertex-05-2026|bullpadel-vertex-05-hybrid-2026|head-coello-pro-2026|head-gravity-pro|head-padel-pro-s|head-sprint-pro-4-padel|hesacore-padel-grip|joma-t-slam|kuikma-pr-comfort-soft|kuikma-ps-990|nox-at10-genius-12k-alum-xtrem-2026|nox-at10-genius-18k-2026|nox-at10-lux|nox-at10-team-bag|nox-ml10-pro-cup|wilson-padel-overgrip-pack",
+      "sections": "sec-methodology",
+      "pattern": "we put this guide together from published specs and similar products in the same job"
+    },
+    {
+      "productCount": 26,
+      "occurrenceCount": 26,
+      "products": "adidas-courtquick-padel|adidas-crazyquick-boost-padel|adidas-metalbone-3-5-2026|asics-gel-resolution-padel|babolat-jet-premura|babolat-technical-viper-3-0|bullpadel-hac-overgrip|bullpadel-hack-04-2026|bullpadel-indiga-ctr-2026|bullpadel-pascal-box-3b|bullpadel-vertex-05-2026|bullpadel-vertex-05-hybrid-2026|head-coello-pro-2026|head-gravity-pro|head-padel-pro-s|head-sprint-pro-4-padel|hesacore-padel-grip|joma-t-slam|kuikma-pr-comfort-soft|kuikma-ps-990|nox-at10-genius-12k-alum-xtrem-2026|nox-at10-genius-18k-2026|nox-at10-lux|nox-at10-team-bag|nox-ml10-pro-cup|wilson-padel-overgrip-pack",
+      "sections": "sec-methodology",
+      "pattern": "we have not personally tested this product unless the page says we did"
+    },
+    {
+      "productCount": 26,
+      "occurrenceCount": 26,
+      "products": "adidas-courtquick-padel|adidas-crazyquick-boost-padel|adidas-metalbone-3-5-2026|asics-gel-resolution-padel|babolat-jet-premura|babolat-technical-viper-3-0|bullpadel-hac-overgrip|bullpadel-hack-04-2026|bullpadel-indiga-ctr-2026|bullpadel-pascal-box-3b|bullpadel-vertex-05-2026|bullpadel-vertex-05-hybrid-2026|head-coello-pro-2026|head-gravity-pro|head-padel-pro-s|head-sprint-pro-4-padel|hesacore-padel-grip|joma-t-slam|kuikma-pr-comfort-soft|kuikma-ps-990|nox-at10-genius-12k-alum-xtrem-2026|nox-at10-genius-18k-2026|nox-at10-lux|nox-at10-team-bag|nox-ml10-pro-cup|wilson-padel-overgrip-pack",
+      "sections": "sec-methodology",
+      "pattern": "scores are meant to help you decide affiliate links do not change the verdict"
+    },
+    {
+      "productCount": 8,
+      "occurrenceCount": 8,
+      "products": "adidas-courtquick-padel|adidas-crazyquick-boost-padel|asics-gel-resolution-padel|babolat-jet-premura|head-sprint-pro-4-padel|joma-t-slam|kuikma-ps-990|nox-at10-lux",
+      "sections": "sec-verified-specs",
+      "pattern": "if a listing only says court rubber treat that as a category tag not a traction map"
+    },
+    {
+      "productCount": 8,
+      "occurrenceCount": 8,
+      "products": "adidas-courtquick-padel|adidas-crazyquick-boost-padel|asics-gel-resolution-padel|babolat-jet-premura|head-sprint-pro-4-padel|joma-t-slam|kuikma-ps-990|nox-at10-lux",
+      "sections": "sec-sources",
+      "pattern": "manufacturer and specialist court listings for the entity on the product evidence list"
+    },
+    {
+      "productCount": 3,
+      "occurrenceCount": 3,
+      "products": "adidas-courtquick-padel|adidas-crazyquick-boost-padel|kuikma-ps-990",
+      "sections": "sec-durability",
+      "pattern": "durability on the entity is padel court rubber pods plus overlay wear from sand and lunges we have not logged a mileage diary"
+    },
+    {
+      "productCount": 3,
+      "occurrenceCount": 3,
+      "products": "bullpadel-hac-overgrip|hesacore-padel-grip|wilson-padel-overgrip-pack",
+      "sections": "sec-durability",
+      "pattern": "replace when tack dies or the wrap rolls often every few humid sessions"
+    }
+  ],
+  "estateReviewCount": 26,
+  "wordCounts": [
+    {
+      "slug": "bullpadel-vertex-05-2026",
+      "words": 1701,
+      "categoryId": "cat-padel-rackets"
+    },
+    {
+      "slug": "bullpadel-hack-04-2026",
+      "words": 1564,
+      "categoryId": "cat-padel-rackets"
+    },
+    {
+      "slug": "bullpadel-vertex-05-hybrid-2026",
+      "words": 1607,
+      "categoryId": "cat-padel-rackets"
+    },
+    {
+      "slug": "bullpadel-indiga-ctr-2026",
+      "words": 1473,
+      "categoryId": "cat-padel-rackets"
+    },
+    {
+      "slug": "nox-at10-genius-18k-2026",
+      "words": 1850,
+      "categoryId": "cat-padel-rackets"
+    },
+    {
+      "slug": "nox-at10-genius-12k-alum-xtrem-2026",
+      "words": 1587,
+      "categoryId": "cat-padel-rackets"
+    },
+    {
+      "slug": "nox-ml10-pro-cup",
+      "words": 1598,
+      "categoryId": "cat-padel-rackets"
+    },
+    {
+      "slug": "adidas-metalbone-3-5-2026",
+      "words": 1601,
+      "categoryId": "cat-padel-rackets"
+    },
+    {
+      "slug": "head-coello-pro-2026",
+      "words": 1510,
+      "categoryId": "cat-padel-rackets"
+    },
+    {
+      "slug": "head-gravity-pro",
+      "words": 1225,
+      "categoryId": "cat-padel-rackets"
+    },
+    {
+      "slug": "babolat-technical-viper-3-0",
+      "words": 1388,
+      "categoryId": "cat-padel-rackets"
+    },
+    {
+      "slug": "kuikma-pr-comfort-soft",
+      "words": 1370,
+      "categoryId": "cat-padel-rackets"
+    },
+    {
+      "slug": "asics-gel-resolution-padel",
+      "words": 1344,
+      "categoryId": "cat-padel-shoes"
+    },
+    {
+      "slug": "adidas-crazyquick-boost-padel",
+      "words": 1249,
+      "categoryId": "cat-padel-shoes"
+    },
+    {
+      "slug": "adidas-courtquick-padel",
+      "words": 1083,
+      "categoryId": "cat-padel-shoes"
+    },
+    {
+      "slug": "joma-t-slam",
+      "words": 988,
+      "categoryId": "cat-padel-shoes"
+    },
+    {
+      "slug": "babolat-jet-premura",
+      "words": 974,
+      "categoryId": "cat-padel-shoes"
+    },
+    {
+      "slug": "nox-at10-lux",
+      "words": 1021,
+      "categoryId": "cat-padel-shoes"
+    },
+    {
+      "slug": "head-sprint-pro-4-padel",
+      "words": 996,
+      "categoryId": "cat-padel-shoes"
+    },
+    {
+      "slug": "kuikma-ps-990",
+      "words": 977,
+      "categoryId": "cat-padel-shoes"
+    },
+    {
+      "slug": "wilson-padel-overgrip-pack",
+      "words": 907,
+      "categoryId": "cat-padel-grips"
+    },
+    {
+      "slug": "hesacore-padel-grip",
+      "words": 928,
+      "categoryId": "cat-padel-grips"
+    },
+    {
+      "slug": "bullpadel-hac-overgrip",
+      "words": 886,
+      "categoryId": "cat-padel-grips"
+    },
+    {
+      "slug": "head-padel-pro-s",
+      "words": 892,
+      "categoryId": "cat-padel-balls"
+    },
+    {
+      "slug": "nox-at10-team-bag",
+      "words": 1014,
+      "categoryId": "cat-padel-bags"
+    },
+    {
+      "slug": "bullpadel-pascal-box-3b",
+      "words": 886,
+      "categoryId": "cat-padel-accessories"
+    }
+  ],
+  "openings": {
+    "bullpadel-vertex-05-2026": {
+      "buyIf": [
+        "You already play at a high club or tournament level and want Tello’s 2026 diamond Vertex with published 12K and Multieva.",
+        "You want the current Vertex.",
+        "You want the current Tello Vertex diamond with 12K and Multieva.",
+        "You want Total Play versatility rather than a smash-only mould."
+      ],
+      "skipIf": [
+        "You are still developing consistent contact and need Indiga CTR or Ionic Light first.",
+        "You specifically want the Hybrid mould or the 350–360 g W."
+      ],
+      "powerOpen": "Diamond + 12K + 365–375 g sit in Bullpadel’s versatile Vertex slot, below XPLO’s manufacturer power rating.",
+      "shapeOpen": "Vertex 05: diamond mould, high balance, 365–375 g, 38 mm, X-Tend Carbon 12K, Multieva.",
+      "powerCaption": null,
+      "words": 1701
+    },
+    "bullpadel-hack-04-2026": {
+      "buyIf": [
+        "You want Paquito’s current diamond with Tricarbon 18K and Total Channel.",
+        "You already attack and can live with a compact sweet spot.",
+        "You want Offensive with Tricarbon 18K.",
+        "You want Distinct from Hybrid (hybrid, ~25 cm) and Comfort (Fibrix)."
+      ],
+      "skipIf": [
+        "You need Hybrid’s ~25 cm hybrid counter-attack setup.",
+        "You prefer compact sweet spot and stiff 18K face.",
+        "You prefer wrong racket if you want Hack’s counter-attack Hybrid."
+      ],
+      "powerOpen": "This is the stiff 18K Hack.",
+      "shapeOpen": "Hack 04: diamond mould, high balance, 365–375 g, 38 mm, Tricarbon 18K, Multieva.",
+      "powerCaption": null,
+      "words": 1564
+    },
+    "bullpadel-indiga-ctr-2026": {
+      "buyIf": [
+        "You are learning and want a round with low balance, SoftEva and Polyglass.",
+        "You care more about keeping the ball in play than finishing overheads.",
+        "You want a beginner / defensive Tour racket with a control-first job.",
+        "You want round + low balance + SoftEva + Polyglass as a first-racket recipe."
+      ],
+      "skipIf": [
+        "You already generate pace and want Vertex or Hack.",
+        "You want a sub-330 g ultralight."
+      ],
+      "powerOpen": "Control and placement.",
+      "shapeOpen": "Indiga CTR: round mould, low balance, 360–370 g, 38 mm, Polyglass, SoftEva.",
+      "powerCaption": null,
+      "words": 1473
+    },
+    "kuikma-pr-comfort-soft": {
+      "buyIf": [
+        "You want a ~350 g round Kuikma with Soft EVA for learning and comfort.",
+        "You are choosing between Comfort Soft and PR Soft 500 on forgiveness versus response.",
+        "You want a ~350 g round with Soft EVA and fiberglass for learning.",
+        "You want Kuikma’s arm-comfort / beginner job beside PR Soft 500."
+      ],
+      "skipIf": [
+        "You already generate pace and want Hybrid Carbon or a tour diamond.",
+        "You need a carbon step-up rather than Soft EVA forgiveness.",
+        "You need carbon finishing racket.",
+        "You prefer face and core stay in the Soft EVA / fiberglass comfort lane."
+      ],
+      "powerOpen": "Control and comfort.",
+      "shapeOpen": "PR Comfort Soft: round mould, low balance, 345–355 g, fiberglass, Soft EVA.",
+      "powerCaption": null,
+      "words": 1370
+    },
+    "joma-t-slam": {
+      "buyIf": [
+        "You want a padel-specific court shoe you can actually replace at club prices.",
+        "You play often enough to wear out outsole pods and you do not need Boost.",
+        "You can try the last, because some feet find narrow."
+      ],
+      "skipIf": [
+        "You know you need a wide last.",
+        "You wanted GEL or Boost as the cushioning identity.",
+        "You needed a running shoe.",
+        "You prefer fit can run narrow for some feet."
+      ],
+      "powerOpen": "",
+      "shapeOpen": "",
+      "powerCaption": null,
+      "words": 988
+    },
+    "wilson-padel-overgrip-pack": {
+      "buyIf": [
+        "You want a thin padel overgrip you can replace every few sessions without changing handle size.",
+        "You already have a replacement grip you like and only need tack on top.",
+        "You will actually replace it — a dead overgrip is a worse spend than a 3-pack.",
+        "You want Authentic 3-pack packshot."
+      ],
+      "skipIf": [
+        "You wanted a structured cushion that changes handle shape — Hesacore is that job, with the usual personal-fit caveat.",
+        "You needed the driest possible wrap for heavy sweat — look at a more absorbent overgrip in this category.",
+        "You needed a replacement base grip, not an overgrip.",
+        "You prefer not the driest option for heavy sweat."
+      ],
+      "powerOpen": "",
+      "shapeOpen": "",
+      "powerCaption": null,
+      "words": 907
+    },
+    "head-padel-pro-s": {
+      "buyIf": [
+        "You want HEAD’s faster competition can for slow or cold courts.",
+        "You already know Pro+ sits too long for your match pace.",
+        "You will rotate cans instead of playing half-dead match balls.",
+        "You want Faster bounce than Pro+."
+      ],
+      "skipIf": [
+        "You want the control-first HEAD can — that is Pro+.",
+        "You only need practice volume — look at Tecnifibre Team / HEAD Team.",
+        "You expected a universal best ball across every court.",
+        "You prefer too lively for some beginner sessions."
+      ],
+      "powerOpen": "",
+      "shapeOpen": "",
+      "powerCaption": null,
+      "words": 892
+    },
+    "nox-at10-team-bag": {
+      "buyIf": [
+        "You want Weekly club nights with one–two frames and shoes in a hot car.",
+        "You want published thermo rather than a fashion duffel.",
+        "You do not need four-racket tournament packing every weekend.",
+        "You want ThermoTech + shoe vent."
+      ],
+      "skipIf": [
+        "You pack four frames for tournament weekends — look at RH Pro / AT10 XXL.",
+        "You need hands-free bike/train commute — look at Tour Endurance / Vertex backpack.",
+        "You want the absolute smallest 25 L backpack.",
+        "You need 4+ racket travel duffel."
+      ],
+      "powerOpen": "",
+      "shapeOpen": "",
+      "powerCaption": null,
+      "words": 1014
+    }
+  }
+}

@@ -7,11 +7,52 @@ import {
   toDecisionLine,
   salvageDecisionLine,
   decisionCopyIsIndexable,
+  composeBuyIfSentence,
+  composeSkipIfSentence,
 } from "@/lib/decision-copy";
 import { getReviewPageData } from "@/lib/review/get-review-page-data";
 import { getProductPageData } from "@/lib/product/get-product-page-data";
 import { getProductReviewSummary } from "@/lib/product/get-product-review-summary";
 import { getProductBySlug } from "@/repositories";
+
+describe("composeBuyIfSentence / composeSkipIfSentence", () => {
+  it("does not wrap Players-who seeds inside I'd shortlist if you want", () => {
+    expect(
+      composeBuyIfSentence(
+        "Players who want the current Tello Vertex diamond with 12K and Multieva",
+      ),
+    ).toBe("You want the current Tello Vertex diamond with 12K and Multieva.");
+    expect(composeBuyIfSentence("Players who want a ~350 g round")).toBe(
+      "You want a ~350 g round.",
+    );
+    expect(composeBuyIfSentence("You want a high-balance diamond")).toBe(
+      "You want a high-balance diamond.",
+    );
+  });
+
+  it("does not append is most of your week to long skip clauses", () => {
+    expect(
+      composeSkipIfSentence(
+        "Official power rating is 1.5 — you supply the pace",
+      ),
+    ).toMatch(/^Skip it if/i);
+    expect(
+      composeSkipIfSentence(
+        "Official power rating is 1.5 — you supply the pace",
+      ),
+    ).not.toMatch(/is most of your week/i);
+  });
+
+  it("does not mash prefer-clause with trailing should look elsewhere", () => {
+    expect(
+      composeSkipIfSentence(
+        "Players who prefer the lower balance of the Vertex Hybrid should look elsewhere",
+      ),
+    ).toBe(
+      "Skip it if you prefer the lower balance of the Vertex Hybrid.",
+    );
+  });
+});
 
 describe("decision-copy classifier", () => {
   it("flags forensic machine templates as MACHINE_LIKE", () => {
@@ -91,6 +132,69 @@ describe("decision-copy transforms", () => {
     expect(
       salvageDecisionLine("Not a fully waterproof storm shell.", "notIdealFor"),
     ).not.toMatch(/looking for not a/i);
+  });
+  it("does not emit It when / Those looking for stem residue from editorial wrappers", () => {
+    expect(
+      toSituationLabel(
+        "I'd shortlist it when you already play at a high club or tournament level.",
+        "buy",
+      ),
+    ).not.toMatch(/^It when/i);
+    expect(
+      toSituationLabel(
+        "I'd shortlist it when you already play at a high club or tournament level.",
+        "buy",
+      ),
+    ).toMatch(/^Players who already play/i);
+    expect(
+      toSituationLabel("Advanced attackers", "skip"),
+    ).not.toMatch(/^Those looking for Advanced/i);
+    expect(
+      toSituationLabel(
+        "Not the Hybrid if you want a lower ~25 cm balance",
+        "skip",
+      ),
+    ).not.toMatch(/Those looking for Not/i);
+    expect(
+      toSituationLabel(
+        "I'd skip it if you are still building contact consistency.",
+        "skip",
+      ),
+    ).not.toMatch(/Those looking for it if/i);
+    expect(
+      toSituationLabel(
+        "You are choosing between PR Soft 500 and the 2026 Comfort Soft on-ramp.",
+        "buy",
+      ),
+    ).toMatch(/^Players who are choosing/i);
+    expect(
+      toSituationLabel(
+        "You are still building contact and need Indiga CTR.",
+        "skip",
+      ),
+    ).toMatch(/^Players who are still building/i);
+    expect(
+      toSituationLabel("You specifically want the Hybrid mould.", "skip"),
+    ).toMatch(/^Players who specifically want/i);
+    expect(
+      toSituationLabel("You specifically want the Hybrid mould.", "skip"),
+    ).not.toMatch(/prefer specifically want/i);
+    expect(
+      classifyDecisionLine("Those looking for Advanced attackers."),
+    ).toBe("BROKEN");
+    expect(
+      classifyDecisionLine("It when you already play at a high club level."),
+    ).toBe("BROKEN");
+    expect(
+      classifyDecisionLine(
+        "Live NL product URL should still be attached for offers",
+      ),
+    ).toBe("BROKEN");
+    expect(
+      classifyDecisionLine(
+        "Players who want Faster match pace who want a clear this use case pick.",
+      ),
+    ).toBe("BROKEN");
   });
 });
 

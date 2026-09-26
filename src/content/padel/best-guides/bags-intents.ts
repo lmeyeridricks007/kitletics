@@ -302,8 +302,8 @@ export const padelBagsTournamentGuide: BestGuide = baseGuide({
   ],
   buyingAdvice: "Tournament bags earn their keep on event weekends — not as daily fashion luggage.",
   relatedGuideIds: ["best-large-padel-bags", "best-padel-bags"],
-  hubImageSrc: "/images/padel/products/babolat-rh-pro-padel-hero.jpg",
-  hubImageAlt: "Tournament padel bag",
+  hubImageSrc: "/images/padel/products/nox-at10-xxl-padel-bag-hero.jpg",
+  hubImageAlt: "Nox AT10 XXL tournament padel bag",
 });
 
 export const padelBagsCommutingGuide: BestGuide = baseGuide({
@@ -398,8 +398,8 @@ export const padelBagsCommutingGuide: BestGuide = baseGuide({
   ],
   buyingAdvice: "Commute bags should survive your transit mode. Empty XXL volume is dead weight.",
   relatedGuideIds: ["best-padel-backpacks", "best-padel-bags"],
-  hubImageSrc: "/images/padel/products/tecnifibre-tour-endurance-padel-backpack-hero.jpg",
-  hubImageAlt: "Commute padel backpack",
+  hubImageSrc: "/images/padel/products/bullpadel-vertex-geo-backpack-hero.jpg",
+  hubImageAlt: "Bullpadel Vertex thermo commute backpack",
 });
 
 export const padelBagsShoeGuide: BestGuide = baseGuide({

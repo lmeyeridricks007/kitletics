@@ -321,12 +321,12 @@ export function extraRacketDrafts(): RacketDraft[] {
         sweetSpot: "large",
       },
       strengths: [
-        "2026 range notes: 350 g, round, low balance, fiberglass, Soft EVA",
-        "The Kuikma arm-comfort / beginner job alongside PR Soft 500",
+        "Players who want a ~350 g round with Soft EVA and fiberglass for learning",
+        "Players who want Kuikma’s arm-comfort / beginner job beside PR Soft 500",
       ],
       weaknesses: [
         "Not a carbon finishing racket",
-        "Live NL product URL should still be attached for offers",
+        "Face and core stay in the Soft EVA / fiberglass comfort lane — not Hybrid Carbon pace",
       ],
       relatedProductIds: ["prod-kuikma-pr-soft-500", "prod-kuikma-pr-hybrid-carbon"],
       alternativeProductIds: [
@@ -349,22 +349,22 @@ export function extraRacketDrafts(): RacketDraft[] {
         forgiveness:
           "Round + soft is the forgiving Kuikma.",
         construction:
-          "Fiberglass face, Soft EVA, round, ~350 g. Attach the live Decathlon sheet for frame tech names.",
+          "Fiberglass face, Soft EVA, round, ~350 g per Kuikma 2026 range notes.",
         bestFor: [
           "Beginners who want a current Kuikma round",
           "Arm-comfort shoppers on a Decathlon budget",
         ],
         notIdealFor: [
           "Players who already want 12K carbon",
-          "Diamond attackers",
+          "Diamond attackers who need finishing geometry beyond a soft round",
         ],
         buyIf: [
           "You want a ~350 g round Kuikma with Soft EVA for learning and comfort.",
-          "You are choosing between PR Soft 500 and the 2026 Comfort Soft on-ramp.",
+          "You are choosing between Comfort Soft and PR Soft 500 on forgiveness versus response.",
         ],
         skipIf: [
           "You already generate pace and want Hybrid Carbon or a tour diamond.",
-          "You need a verified NL offer URL in this catalog row today.",
+          "You need a carbon step-up rather than Soft EVA forgiveness.",
         ],
       },
       attributes: attrs({

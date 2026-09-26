@@ -1,0 +1,4569 @@
+{
+  "capturedAt": "2026-09-24T10:58:01.259Z",
+  "base": "http://127.0.0.1:3457",
+  "guideCount": 21,
+  "bestCount": 26,
+  "duplicateHeroes": [
+    {
+      "identity": "1bd2616aeb66",
+      "paths": [
+        "/best/padel-rackets-beginners",
+        "/guides/beginner-padel-gear-guide"
+      ],
+      "count": 2
+    },
+    {
+      "identity": "0015e4ef3bf4",
+      "paths": [
+        "/best/padel-rackets-intermediate",
+        "/guides/padel-racket-weight-explained"
+      ],
+      "count": 2
+    },
+    {
+      "identity": "03dc0d74eea8",
+      "paths": [
+        "/best/padel-rackets-advanced",
+        "/guides/padel-racket-balance-explained"
+      ],
+      "count": 2
+    },
+    {
+      "identity": "11f55cf21806",
+      "paths": [
+        "/best/padel-rackets-control",
+        "/guides/how-padel-racket-sweet-spots-work"
+      ],
+      "count": 2
+    },
+    {
+      "identity": "5885d124088f",
+      "paths": [
+        "/best/padel-rackets-power",
+        "/guides/round-vs-teardrop-vs-diamond-padel-rackets"
+      ],
+      "count": 2
+    },
+    {
+      "identity": "b75e7b85fadd",
+      "paths": [
+        "/best/padel-rackets-all-round",
+        "/guides/padel-racket-shapes-explained"
+      ],
+      "count": 2
+    },
+    {
+      "identity": "86618866bf88",
+      "paths": [
+        "/best/padel-rackets-comfort",
+        "/guides/padel-racket-materials-explained"
+      ],
+      "count": 2
+    },
+    {
+      "identity": "c0e397ed92d5",
+      "paths": [
+        "/best/padel-shoes-stability",
+        "/guides/padel-shoe-outsoles-explained"
+      ],
+      "count": 2
+    },
+    {
+      "identity": "1e6ed26aa26d",
+      "paths": [
+        "/best/padel-balls",
+        "/guides/how-long-do-padel-balls-last"
+      ],
+      "count": 2
+    },
+    {
+      "identity": "ba0e19710aa5",
+      "paths": [
+        "/best/padel-ergonomic-grip-systems",
+        "/guides/padel-grip-vs-overgrip"
+      ],
+      "count": 2
+    }
+  ],
+  "pages": [
+    {
+      "path": "/best/padel-rackets",
+      "kind": "best",
+      "title": "Best Padel Rackets: Top Picks by Use Case · Kitletics",
+      "wordCount": 4352,
+      "scrollHeight": 14886,
+      "imgCount": 50,
+      "uniqueImgCount": 14,
+      "uniqueImgs": [
+        "/images/padel/products/bullpadel-vertex-05-hero.png",
+        "/images/padel/products/bullpadel-indiga-ctr-hero.jpg",
+        "/images/padel/products/nox-ml10-pro-cup-2026-hero.jpg",
+        "/images/padel/products/bullpadel-hack-04-hero.png",
+        "/images/padel/products/bullpadel-vertex-05-hybrid-hero.jpg",
+        "/images/padel/products/kuikma-pr-comfort-soft-hero.jpg",
+        "/images/padel/products/adidas-metalbone-3-5-2026-hero.jpg",
+        "/images/padel/products/babolat-counter-viper-hero.png",
+        "/images/padel/products/nox-at10-genius-18k-2026-hero.jpg",
+        "/images/padel/products/nox-at10-genius-12k-alum-xtrem-2026-hero.jpg",
+        "/images/padel/products/babolat-technical-viper-hero.png",
+        "/images/padel/products/head-coello-pro-2026-hero.png",
+        "/images/padel/guides/choose-racket.jpg",
+        "/images/padel/products/bullpadel-ionic-light-hero.jpg"
+      ],
+      "galleryPaths": [],
+      "sectionPaths": [],
+      "productPaths": [
+        "/images/padel/products/bullpadel-vertex-05-hero.png",
+        "/images/padel/products/bullpadel-indiga-ctr-hero.jpg",
+        "/images/padel/products/nox-ml10-pro-cup-2026-hero.jpg",
+        "/images/padel/products/bullpadel-hack-04-hero.png",
+        "/images/padel/products/bullpadel-vertex-05-hybrid-hero.jpg",
+        "/images/padel/products/kuikma-pr-comfort-soft-hero.jpg",
+        "/images/padel/products/adidas-metalbone-3-5-2026-hero.jpg",
+        "/images/padel/products/babolat-counter-viper-hero.png",
+        "/images/padel/products/nox-at10-genius-18k-2026-hero.jpg",
+        "/images/padel/products/nox-at10-genius-12k-alum-xtrem-2026-hero.jpg",
+        "/images/padel/products/babolat-technical-viper-hero.png",
+        "/images/padel/products/head-coello-pro-2026-hero.png",
+        "/images/padel/products/bullpadel-ionic-light-hero.jpg"
+      ],
+      "repeats": [
+        {
+          "src": "/images/padel/products/bullpadel-vertex-05-hero.png",
+          "count": 9
+        },
+        {
+          "src": "/images/padel/products/bullpadel-indiga-ctr-hero.jpg",
+          "count": 7
+        },
+        {
+          "src": "/images/padel/products/nox-ml10-pro-cup-2026-hero.jpg",
+          "count": 6
+        },
+        {
+          "src": "/images/padel/products/bullpadel-hack-04-hero.png",
+          "count": 6
+        },
+        {
+          "src": "/images/padel/products/bullpadel-vertex-05-hybrid-hero.jpg",
+          "count": 5
+        },
+        {
+          "src": "/images/padel/products/kuikma-pr-comfort-soft-hero.jpg",
+          "count": 5
+        },
+        {
+          "src": "/images/padel/products/adidas-metalbone-3-5-2026-hero.jpg",
+          "count": 5
+        }
+      ],
+      "h2s": [
+        "Quick Picks",
+        "Our quick take",
+        "What makes a good padel beginner padel racket?",
+        "Recommendations",
+        "How the top picks differ",
+        "Compare these picks",
+        "Which padel beginner Padel Racket should you choose?",
+        "Raw product specs",
+        "How we narrowed the field",
+        "How we research & score",
+        "How to choose",
+        "Find your perfect match",
+        "More guides"
+      ],
+      "headingGlue": [],
+      "priceHints": [
+        "From € 319",
+        "From € 84,99",
+        "From € 179",
+        "From € 309",
+        "From € 223,98",
+        "From € 44,99",
+        "€ 319",
+        "€ 84,99",
+        "€ 179",
+        "€ 309",
+        "€ 223,98",
+        "€ 44,99"
+      ],
+      "hasEmptyCommerce": true,
+      "whoForSample": [
+        "I'd shortlist it when timing already exists and you want one current Bullpadel flagship. I'd pause if you are still spraying the glass on defensive blocks — start with Indiga or ML10 instead.",
+        "Players who want maximum smash stiffness (Hack 04 / Metalbone 3.5)",
+        "Players who specifically want the 350–360 g Vertex 05 W last",
+        "I'd shortlist it for new players and anyone returning from a long break. I'd skip it once you are already attacking on purpose and the round ceiling is the weekly complaint.",
+        "I'd shortlist it when you already play and your miss is over-hitting, not under-hitting. I'd skip it if you need a first-week SoftEva round or a finishing diamond.",
+        "Players who prefer placement-first club players.",
+        "You give up smash mass versus Hack 04 and Metalbone 3.5 — that is the point of this role.",
+        "I'd shortlist it when your week is bandejas that you want to finish and overheads you can already time. I'd skip it if off-centre blocks are still your match.",
+        "I'd shortlist it when you play both sides of the court and the diamond Vertex felt late on defence. I'd skip it if you already want Hack-level smash mass.",
+        "Players who already know they want a finishing diamond",
+        "I'd shortlist it when arm comfort and budget are the weekly constraints. I'd skip it once you are ready for a hybrid step-up like Ionic Light or PR Hybrid Carbon.",
+        "I'd shortlist it when you want to tune balance and you already play at an advanced attacking level. I'd skip it if you needed Metalbone CTRL’s round sweet spot or HRD+ High Memory stiffness.",
+        "Players who specifically want HRD+ High Memory EVA"
+      ],
+      "residueHits": [],
+      "hasAmazonCta": false,
+      "retailerNames": [
+        "Decathlon"
+      ],
+      "hasDecisionTable": true,
+      "hasSvgDiagram": true,
+      "statusHint": "ok",
+      "httpStatus": 200,
+      "hero": "/images/padel/products/bullpadel-vertex-05-hero.png",
+      "heroIdentity": "caf5714cd634"
+    },
+    {
+      "path": "/best/padel-rackets-beginners",
+      "kind": "best",
+      "title": "Best Padel Rackets for Beginners: Top Picks by Use Case · Kitletics",
+      "wordCount": 2633,
+      "scrollHeight": 10278,
+      "imgCount": 30,
+      "uniqueImgCount": 8,
+      "uniqueImgs": [
+        "/images/padel/products/bullpadel-indiga-ctr-hero.jpg",
+        "/images/padel/products/kuikma-pr-comfort-soft-hero.jpg",
+        "/images/padel/products/nox-equation-soft-advanced-2026-hero.jpg",
+        "/images/padel/products/adidas-match-light-2026-hero.jpg",
+        "/images/padel/products/head-one-ultralight-hero.jpg",
+        "/images/padel/guides/choose-racket.jpg",
+        "/images/padel/products/bullpadel-vertex-05-hero.png",
+        "/images/padel/products/bullpadel-ionic-light-hero.jpg"
+      ],
+      "galleryPaths": [],
+      "sectionPaths": [],
+      "productPaths": [
+        "/images/padel/products/bullpadel-indiga-ctr-hero.jpg",
+        "/images/padel/products/kuikma-pr-comfort-soft-hero.jpg",
+        "/images/padel/products/nox-equation-soft-advanced-2026-hero.jpg",
+        "/images/padel/products/adidas-match-light-2026-hero.jpg",
+        "/images/padel/products/head-one-ultralight-hero.jpg",
+        "/images/padel/products/bullpadel-vertex-05-hero.png",
+        "/images/padel/products/bullpadel-ionic-light-hero.jpg"
+      ],
+      "repeats": [
+        {
+          "src": "/images/padel/products/bullpadel-indiga-ctr-hero.jpg",
+          "count": 8
+        },
+        {
+          "src": "/images/padel/products/kuikma-pr-comfort-soft-hero.jpg",
+          "count": 6
+        },
+        {
+          "src": "/images/padel/products/nox-equation-soft-advanced-2026-hero.jpg",
+          "count": 6
+        },
+        {
+          "src": "/images/padel/products/adidas-match-light-2026-hero.jpg",
+          "count": 6
+        }
+      ],
+      "h2s": [
+        "Why the criteria change",
+        "Top picks for beginners",
+        "Our quick take",
+        "What makes a good padel beginner padel racket?",
+        "Recommendations",
+        "How the top picks differ",
+        "Compare these picks",
+        "Which padel beginner Padel Racket should you choose?",
+        "Raw product specs",
+        "How we narrowed the field",
+        "How we research & score",
+        "How to choose a first racket",
+        "Find your perfect match",
+        "More guides"
+      ],
+      "headingGlue": [],
+      "priceHints": [
+        "From € 84,99",
+        "From € 44,99",
+        "From € 58,50",
+        "€ 84,99",
+        "€ 44,99",
+        "€ 58,50"
+      ],
+      "hasEmptyCommerce": true,
+      "whoForSample": [
+        "I'd shortlist it for anyone still spraying defensive blocks. I'd skip it once you are attacking on purpose and the round ceiling is the weekly complaint.",
+        "Players who prefer brand-new padel players.",
+        "You will outgrow the power ceiling if you keep attacking — that is success, not a defect.",
+        "I'd shortlist it when budget and arm comfort dominate. I'd skip it if you specifically wanted Bullpadel’s Indiga pathway into Ionic / Vertex.",
+        "Players who want a soft round they can replace without guilt",
+        "Players who prefer budget-first beginners.",
+        "Players who want a soft round they can replace without guilt",
+        "I'd shortlist it when you want Nox in the bag from week one without borrowing a Genius. I'd skip it if you needed Indiga’s rounder Tour beginner or ML10’s classic control cup.",
+        "Players who need AT10 Genius 18K already",
+        "I'd shortlist it when you want Adidas from the start and Metalbone would be a joke. I'd skip it if you needed a round SoftEva or you were shopping One Ultralight’s 300 g specialist.",
+        "Players who found Metalbone listings first and need a redirect",
+        "Players who prefer found Metalbone listings first and need a redirect."
+      ],
+      "residueHits": [],
+      "hasAmazonCta": false,
+      "retailerNames": [],
+      "hasDecisionTable": true,
+      "hasSvgDiagram": true,
+      "statusHint": "ok",
+      "httpStatus": 200,
+      "hero": "/images/padel/products/bullpadel-indiga-ctr-hero.jpg",
+      "heroIdentity": "1bd2616aeb66"
+    },
+    {
+      "path": "/best/padel-rackets-intermediate",
+      "kind": "best",
+      "title": "Best Padel Rackets for Intermediate Players: Top Picks by Use Case · Kitletics",
+      "wordCount": 2850,
+      "scrollHeight": 11133,
+      "imgCount": 34,
+      "uniqueImgCount": 8,
+      "uniqueImgs": [
+        "/images/padel/products/bullpadel-ionic-light-hero.jpg",
+        "/images/padel/products/kuikma-pr-hybrid-carbon-hero.jpg",
+        "/images/padel/products/babolat-air-veron-hero.jpg",
+        "/images/padel/products/head-coello-team-hero.jpg",
+        "/images/padel/products/bullpadel-vertex-advance-hero.jpg",
+        "/images/padel/guides/choose-racket.jpg",
+        "/images/padel/products/bullpadel-vertex-05-hero.png",
+        "/images/padel/products/bullpadel-indiga-ctr-hero.jpg"
+      ],
+      "galleryPaths": [],
+      "sectionPaths": [],
+      "productPaths": [
+        "/images/padel/products/bullpadel-ionic-light-hero.jpg",
+        "/images/padel/products/kuikma-pr-hybrid-carbon-hero.jpg",
+        "/images/padel/products/babolat-air-veron-hero.jpg",
+        "/images/padel/products/head-coello-team-hero.jpg",
+        "/images/padel/products/bullpadel-vertex-advance-hero.jpg",
+        "/images/padel/products/bullpadel-vertex-05-hero.png",
+        "/images/padel/products/bullpadel-indiga-ctr-hero.jpg"
+      ],
+      "repeats": [
+        {
+          "src": "/images/padel/products/bullpadel-ionic-light-hero.jpg",
+          "count": 8
+        },
+        {
+          "src": "/images/padel/products/kuikma-pr-hybrid-carbon-hero.jpg",
+          "count": 6
+        },
+        {
+          "src": "/images/padel/products/babolat-air-veron-hero.jpg",
+          "count": 6
+        },
+        {
+          "src": "/images/padel/products/head-coello-team-hero.jpg",
+          "count": 6
+        },
+        {
+          "src": "/images/padel/products/bullpadel-vertex-advance-hero.jpg",
+          "count": 5
+        }
+      ],
+      "h2s": [
+        "Why the criteria change",
+        "Top picks for intermediate players",
+        "Our quick take",
+        "What makes a good padel intermediate padel racket?",
+        "Recommendations",
+        "How the top picks differ",
+        "Compare these picks",
+        "Which padel intermediate Padel Racket should you choose?",
+        "Raw product specs",
+        "How we narrowed the field",
+        "How we research & score",
+        "How to choose a step-up racket",
+        "Find your perfect match",
+        "More guides"
+      ],
+      "headingGlue": [],
+      "priceHints": [
+        "From € 129,99",
+        "From € 142,95",
+        "From € 99,49",
+        "€ 129,99",
+        "€ 142,95",
+        "€ 99,49"
+      ],
+      "hasEmptyCommerce": true,
+      "whoForSample": [
+        "I'd shortlist it when rallies are already real and Indiga’s ceiling showed up. I'd skip it if you still mishit the round frame — stay on Indiga.",
+        "Players who want a light hybrid, not Vertex 05 12K",
+        "Players who also see this frame on the women’s guide for last/segment reasons",
+        "Players who want a light hybrid, not Vertex 05 12K",
+        "Players who prefer also see this frame on the women’s guide for last/segment reasons.",
+        "Players who prefer advanced 12K Vertex shoppers.",
+        "Players who are Still more than a first-week Indiga.",
+        "I'd shortlist it on a Decathlon path. I'd skip it if you wanted Bullpadel’s Ionic-to-Vertex ladder.",
+        "Players who prefer value-minded intermediates.",
+        "I'd shortlist Air Veron when its role matches your week better than Ionic Light or PR Hybrid Carbon. Skip it if not 16K X-EVA Air Viper is a deal-breaker — then jump to the alternative that fixes that first.",
+        "Players who found Viper first and need a step-down",
+        "Players who prefer babolat-system intermediates.",
+        "Players who prefer found Viper first and need a step-down.",
+        "I'd shortlist Coello Team when its role matches your week better than Ionic Light or PR Hybrid Carbon. Skip it if high balance 270 on a diamond — not a round beginner is a deal-breaker — then jump to the alternative that fixes that first.",
+        "Players who prefer team-line all-court.",
+        "I'd shortlist Vertex Advance when its role matches your week better than Ionic Light or PR Hybrid Carbon. Skip it if not Multieva 12K Vertex 05 is a deal-breaker — then jump to the alternative that fixes that first."
+      ],
+      "residueHits": [],
+      "hasAmazonCta": false,
+      "retailerNames": [
+        "Decathlon"
+      ],
+      "hasDecisionTable": true,
+      "hasSvgDiagram": true,
+      "statusHint": "ok",
+      "httpStatus": 200,
+      "hero": "/images/padel/products/bullpadel-ionic-light-hero.jpg",
+      "heroIdentity": "0015e4ef3bf4"
+    },
+    {
+      "path": "/best/padel-rackets-advanced",
+      "kind": "best",
+      "title": "Best Padel Rackets for Advanced Players: Top Picks by Use Case · Kitletics",
+      "wordCount": 2783,
+      "scrollHeight": 11238,
+      "imgCount": 36,
+      "uniqueImgCount": 11,
+      "uniqueImgs": [
+        "/images/padel/products/adidas-metalbone-3-5-2026-hero.jpg",
+        "/images/padel/products/bullpadel-vertex-05-hero.png",
+        "/images/padel/products/nox-at10-genius-18k-2026-hero.jpg",
+        "/images/padel/products/head-gravity-pro-hero.jpg",
+        "/images/padel/products/siux-diablo-hero.png",
+        "/images/padel/products/bullpadel-hack-04-hybrid-hero.jpg",
+        "/images/padel/products/bullpadel-hack-04-hero.png",
+        "/images/padel/products/head-coello-pro-2026-hero.png",
+        "/images/padel/guides/choose-racket.jpg",
+        "/images/padel/products/bullpadel-indiga-ctr-hero.jpg",
+        "/images/padel/products/bullpadel-ionic-light-hero.jpg"
+      ],
+      "galleryPaths": [],
+      "sectionPaths": [],
+      "productPaths": [
+        "/images/padel/products/adidas-metalbone-3-5-2026-hero.jpg",
+        "/images/padel/products/bullpadel-vertex-05-hero.png",
+        "/images/padel/products/nox-at10-genius-18k-2026-hero.jpg",
+        "/images/padel/products/head-gravity-pro-hero.jpg",
+        "/images/padel/products/siux-diablo-hero.png",
+        "/images/padel/products/bullpadel-hack-04-hybrid-hero.jpg",
+        "/images/padel/products/bullpadel-hack-04-hero.png",
+        "/images/padel/products/head-coello-pro-2026-hero.png",
+        "/images/padel/products/bullpadel-indiga-ctr-hero.jpg",
+        "/images/padel/products/bullpadel-ionic-light-hero.jpg"
+      ],
+      "repeats": [
+        {
+          "src": "/images/padel/products/bullpadel-vertex-05-hero.png",
+          "count": 7
+        },
+        {
+          "src": "/images/padel/products/nox-at10-genius-18k-2026-hero.jpg",
+          "count": 6
+        },
+        {
+          "src": "/images/padel/products/head-gravity-pro-hero.jpg",
+          "count": 6
+        },
+        {
+          "src": "/images/padel/products/siux-diablo-hero.png",
+          "count": 6
+        },
+        {
+          "src": "/images/padel/products/bullpadel-hack-04-hybrid-hero.jpg",
+          "count": 5
+        }
+      ],
+      "h2s": [
+        "Why the criteria change",
+        "Top picks for advanced players",
+        "Our quick take",
+        "What makes a good padel advanced padel racket?",
+        "Recommendations",
+        "How the top picks differ",
+        "Compare these picks",
+        "Which padel advanced Padel Racket should you choose?",
+        "Raw product specs",
+        "How we narrowed the field",
+        "How we research & score",
+        "How to choose an advanced racket",
+        "Find your perfect match",
+        "More guides"
+      ],
+      "headingGlue": [],
+      "priceHints": [
+        "From € 319",
+        "From € 219,95",
+        "From € 149,95",
+        "From € 189,95",
+        "From € 212,93",
+        "€ 319",
+        "€ 219,95",
+        "€ 149,95",
+        "€ 189,95",
+        "€ 212,93"
+      ],
+      "hasEmptyCommerce": false,
+      "whoForSample": [
+        "I'd shortlist it when you play both phases of the point at an advanced level. I'd skip it if you wanted Gravity Pro’s control or Hack’s smash-only week.",
+        "Players who prefer advanced all-court.",
+        "Players who prefer current Vertex family.",
+        "Players who want W’s 350–360 g last specifically.",
+        "I'd shortlist it when you want Nox Genius, not Vertex diamond. I'd skip it if you wanted Attack 18K smash geometry.",
+        "Players who prefer teardrop all-court at professional level.",
+        "Players who prefer Manufacturer drop/tear mould keeps more usable face than the Attack diamond.",
+        "Players who prefer 18K Alum + MLD Black Eva is a current Tapia construction, not a club fiberglass.",
+        "Players who prefer Dual Spin (3D + sand) is a manufacturer spin system, not a marketing sticker only.",
+        "Players who prefer the easiest racket in the Nox line for round sweet spot.",
+        "Players who prefer thought 12K Genius was the Attack diamond.",
+        "I'd shortlist it when Vertex diamond feels too high and you still play at Pro level. I'd skip it if you wanted Coello’s smash diamond.",
+        "Players who over-hit Vertex/Hack",
+        "Players who prefer advanced control HEAD.",
+        "Players who prefer over-hit Vertex/Hack.",
+        "I'd shortlist Diablo Pro when its role matches your week better than Vertex 05 or AT10 Genius 18K Alum 2026. Skip it if advanced/pro positioning — not a first racket is a deal-breaker — then jump to the alternative that fixes that first."
+      ],
+      "residueHits": [],
+      "hasAmazonCta": false,
+      "retailerNames": [],
+      "hasDecisionTable": true,
+      "hasSvgDiagram": true,
+      "statusHint": "ok",
+      "httpStatus": 200,
+      "hero": "/images/padel/products/adidas-metalbone-3-5-2026-hero.jpg",
+      "heroIdentity": "03dc0d74eea8"
+    },
+    {
+      "path": "/best/padel-rackets-control",
+      "kind": "best",
+      "title": "Best Control Padel Rackets: Top Picks by Use Case · Kitletics",
+      "wordCount": 2612,
+      "scrollHeight": 10581,
+      "imgCount": 34,
+      "uniqueImgCount": 9,
+      "uniqueImgs": [
+        "/images/padel/products/nox-ml10-pro-cup-2026-hero.jpg",
+        "/images/padel/products/head-gravity-pro-hero.jpg",
+        "/images/padel/products/nox-equation-soft-advanced-2026-hero.jpg",
+        "/images/padel/products/wilson-blade-pro-padel-hero.png",
+        "/images/padel/products/babolat-counter-viper-hero.png",
+        "/images/padel/guides/choose-racket.jpg",
+        "/images/padel/products/bullpadel-vertex-05-hero.png",
+        "/images/padel/products/bullpadel-indiga-ctr-hero.jpg",
+        "/images/padel/products/bullpadel-ionic-light-hero.jpg"
+      ],
+      "galleryPaths": [],
+      "sectionPaths": [],
+      "productPaths": [
+        "/images/padel/products/nox-ml10-pro-cup-2026-hero.jpg",
+        "/images/padel/products/head-gravity-pro-hero.jpg",
+        "/images/padel/products/nox-equation-soft-advanced-2026-hero.jpg",
+        "/images/padel/products/wilson-blade-pro-padel-hero.png",
+        "/images/padel/products/babolat-counter-viper-hero.png",
+        "/images/padel/products/bullpadel-vertex-05-hero.png",
+        "/images/padel/products/bullpadel-indiga-ctr-hero.jpg",
+        "/images/padel/products/bullpadel-ionic-light-hero.jpg"
+      ],
+      "repeats": [
+        {
+          "src": "/images/padel/products/nox-ml10-pro-cup-2026-hero.jpg",
+          "count": 7
+        },
+        {
+          "src": "/images/padel/products/head-gravity-pro-hero.jpg",
+          "count": 6
+        },
+        {
+          "src": "/images/padel/products/nox-equation-soft-advanced-2026-hero.jpg",
+          "count": 6
+        },
+        {
+          "src": "/images/padel/products/wilson-blade-pro-padel-hero.png",
+          "count": 6
+        },
+        {
+          "src": "/images/padel/products/babolat-counter-viper-hero.png",
+          "count": 5
+        }
+      ],
+      "h2s": [
+        "Why the criteria change",
+        "Top picks for control",
+        "Our quick take",
+        "What makes a good padel control padel racket?",
+        "Recommendations",
+        "How the top picks differ",
+        "Compare these picks",
+        "Which padel control Padel Racket should you choose?",
+        "Raw product specs",
+        "How we narrowed the field",
+        "How we research & score",
+        "How to choose for control",
+        "Find your perfect match",
+        "More guides"
+      ],
+      "headingGlue": [],
+      "priceHints": [
+        "From € 179",
+        "From € 149,95",
+        "From € 239",
+        "From € 269",
+        "€ 179",
+        "€ 149,95",
+        "€ 239",
+        "€ 269"
+      ],
+      "hasEmptyCommerce": true,
+      "whoForSample": [
+        "I'd shortlist it when your miss is over-hitting. I'd skip it if you already finish overheads and the cup leaves you short at the net — that is Vertex/Hack, on other pages.",
+        "Players who prefer placement-first players.",
+        "Players who prefer defensive partners.",
+        "Players who prefer classic Nox cup.",
+        "I'd shortlist it when you play at Pro level and still want the ball to stay honest. I'd skip it if you wanted Coello’s smash diamond.",
+        "Players who over-hit Coello/Vertex",
+        "Players who prefer advanced HEAD control.",
+        "Players who prefer over-hit Coello/Vertex.",
+        "I'd shortlist it when ML10 feels too classic-firm. I'd skip it if you already belong on ML10 or Genius.",
+        "Players who prefer softer Nox control.",
+        "Players who are Developing placement.",
+        "I'd shortlist it when you want Wilson and Bela would be the wrong job. I'd skip it if you wanted Bela’s attack profile.",
+        "Players who prefer wilson control players.",
+        "I'd shortlist it when you want Babolat and you live in the counter. I'd skip it if you wanted Technical Viper’s striker diamond or Air Viper’s handling.",
+        "Players who prefer babolat counter players.",
+        "Players who prefer technical Viper strikers."
+      ],
+      "residueHits": [],
+      "hasAmazonCta": false,
+      "retailerNames": [],
+      "hasDecisionTable": true,
+      "hasSvgDiagram": true,
+      "statusHint": "ok",
+      "httpStatus": 200,
+      "hero": "/images/padel/products/nox-ml10-pro-cup-2026-hero.jpg",
+      "heroIdentity": "11f55cf21806"
+    },
+    {
+      "path": "/best/padel-rackets-power",
+      "kind": "best",
+      "title": "Best Power Padel Rackets: Top Picks by Use Case · Kitletics",
+      "wordCount": 2820,
+      "scrollHeight": 10981,
+      "imgCount": 34,
+      "uniqueImgCount": 9,
+      "uniqueImgs": [
+        "/images/padel/products/bullpadel-hack-04-hero.png",
+        "/images/padel/products/adidas-metalbone-3-5-2026-hero.jpg",
+        "/images/padel/products/babolat-technical-viper-hero.png",
+        "/images/padel/products/head-coello-pro-2026-hero.png",
+        "/images/padel/products/nox-at10-genius-attack-18k-2026-hero.jpg",
+        "/images/padel/guides/choose-racket.jpg",
+        "/images/padel/products/bullpadel-vertex-05-hero.png",
+        "/images/padel/products/bullpadel-indiga-ctr-hero.jpg",
+        "/images/padel/products/bullpadel-ionic-light-hero.jpg"
+      ],
+      "galleryPaths": [],
+      "sectionPaths": [],
+      "productPaths": [
+        "/images/padel/products/bullpadel-hack-04-hero.png",
+        "/images/padel/products/adidas-metalbone-3-5-2026-hero.jpg",
+        "/images/padel/products/babolat-technical-viper-hero.png",
+        "/images/padel/products/head-coello-pro-2026-hero.png",
+        "/images/padel/products/nox-at10-genius-attack-18k-2026-hero.jpg",
+        "/images/padel/products/bullpadel-vertex-05-hero.png",
+        "/images/padel/products/bullpadel-indiga-ctr-hero.jpg",
+        "/images/padel/products/bullpadel-ionic-light-hero.jpg"
+      ],
+      "repeats": [
+        {
+          "src": "/images/padel/products/bullpadel-hack-04-hero.png",
+          "count": 7
+        },
+        {
+          "src": "/images/padel/products/adidas-metalbone-3-5-2026-hero.jpg",
+          "count": 6
+        },
+        {
+          "src": "/images/padel/products/babolat-technical-viper-hero.png",
+          "count": 6
+        },
+        {
+          "src": "/images/padel/products/head-coello-pro-2026-hero.png",
+          "count": 6
+        },
+        {
+          "src": "/images/padel/products/nox-at10-genius-attack-18k-2026-hero.jpg",
+          "count": 5
+        }
+      ],
+      "h2s": [
+        "Why the criteria change",
+        "Top picks for power",
+        "Our quick take",
+        "What makes a good padel power padel racket?",
+        "Recommendations",
+        "How the top picks differ",
+        "Compare these picks",
+        "Which padel power Padel Racket should you choose?",
+        "Raw product specs",
+        "How we narrowed the field",
+        "How we research & score",
+        "How to choose for power",
+        "Find your perfect match",
+        "More guides"
+      ],
+      "headingGlue": [],
+      "priceHints": [
+        "From € 309",
+        "From € 279,95",
+        "From € 149,95",
+        "€ 309",
+        "€ 279,95",
+        "€ 149,95"
+      ],
+      "hasEmptyCommerce": true,
+      "whoForSample": [
+        "I'd shortlist Hack 04 when its role matches your week better than Metalbone 3.5 or Technical Viper 3.0. Skip it if compact sweet spot and stiff 18K face is a deal-breaker — then jump to the alternative that fixes that first.",
+        "Players who prefer advanced smash.",
+        "Players who prefer current Hack family.",
+        "Players who prefer right-side finishers.",
+        "I'd shortlist Metalbone 3.5 when its role matches your week better than Hack 04 or Technical Viper 3.0. Skip it if still a pro diamond; adjustable weights can push it toward 371 g is a deal-breaker — then jump to the alternative that fixes that first.",
+        "Players who prefer Official 2026 Metalbone with Weight & Balance.",
+        "Players who prefer soft Performance EVA.",
+        "Players who prefer 16K aluminised carbon and diamond attack mould.",
+        "Players who prefer adidas attackers.",
+        "I'd shortlist Technical Viper 3.0 when its role matches your week better than Hack 04 or Metalbone 3.5. Skip it if hard EVA + diamond is demanding is a deal-breaker — then jump to the alternative that fixes that first.",
+        "Players who prefer technical strikers.",
+        "Players who prefer babolat attack diamonds.",
+        "Players who prefer Not Counter (round) or Air.",
+        "I'd shortlist Coello Pro when its role matches your week better than Hack 04 or Metalbone 3.5. Skip it if 370 g + 272 mm balance is slow if your smash is late is a deal-breaker — then jump to the alternative that fixes that first.",
+        "Players who prefer hEAD attackers.",
+        "Players who prefer Not Coello Motion (360 g) or Team."
+      ],
+      "residueHits": [],
+      "hasAmazonCta": false,
+      "retailerNames": [],
+      "hasDecisionTable": true,
+      "hasSvgDiagram": true,
+      "statusHint": "ok",
+      "httpStatus": 200,
+      "hero": "/images/padel/products/bullpadel-hack-04-hero.png",
+      "heroIdentity": "5885d124088f"
+    },
+    {
+      "path": "/best/padel-rackets-all-round",
+      "kind": "best",
+      "title": "Best All-Round Padel Rackets: Top Picks by Use Case · Kitletics",
+      "wordCount": 2761,
+      "scrollHeight": 10804,
+      "imgCount": 34,
+      "uniqueImgCount": 9,
+      "uniqueImgs": [
+        "/images/padel/products/bullpadel-vertex-05-hybrid-hero.jpg",
+        "/images/padel/products/nox-at10-genius-12k-alum-xtrem-2026-hero.jpg",
+        "/images/padel/products/nox-at10-genius-18k-2026-hero.jpg",
+        "/images/padel/products/siux-diablo-hero.png",
+        "/images/padel/products/head-speed-pro-hero.jpg",
+        "/images/padel/guides/choose-racket.jpg",
+        "/images/padel/products/bullpadel-vertex-05-hero.png",
+        "/images/padel/products/bullpadel-indiga-ctr-hero.jpg",
+        "/images/padel/products/bullpadel-ionic-light-hero.jpg"
+      ],
+      "galleryPaths": [],
+      "sectionPaths": [],
+      "productPaths": [
+        "/images/padel/products/bullpadel-vertex-05-hybrid-hero.jpg",
+        "/images/padel/products/nox-at10-genius-12k-alum-xtrem-2026-hero.jpg",
+        "/images/padel/products/nox-at10-genius-18k-2026-hero.jpg",
+        "/images/padel/products/siux-diablo-hero.png",
+        "/images/padel/products/head-speed-pro-hero.jpg",
+        "/images/padel/products/bullpadel-vertex-05-hero.png",
+        "/images/padel/products/bullpadel-indiga-ctr-hero.jpg",
+        "/images/padel/products/bullpadel-ionic-light-hero.jpg"
+      ],
+      "repeats": [
+        {
+          "src": "/images/padel/products/bullpadel-vertex-05-hybrid-hero.jpg",
+          "count": 7
+        },
+        {
+          "src": "/images/padel/products/nox-at10-genius-12k-alum-xtrem-2026-hero.jpg",
+          "count": 6
+        },
+        {
+          "src": "/images/padel/products/nox-at10-genius-18k-2026-hero.jpg",
+          "count": 6
+        },
+        {
+          "src": "/images/padel/products/siux-diablo-hero.png",
+          "count": 6
+        },
+        {
+          "src": "/images/padel/products/head-speed-pro-hero.jpg",
+          "count": 5
+        }
+      ],
+      "h2s": [
+        "Why the criteria change",
+        "Top picks for all-round play",
+        "Our quick take",
+        "What makes a good padel balanced padel racket?",
+        "Recommendations",
+        "How the top picks differ",
+        "Compare these picks",
+        "Which padel balanced Padel Racket should you choose?",
+        "Raw product specs",
+        "How we narrowed the field",
+        "How we research & score",
+        "How to choose an all-round racket",
+        "Find your perfect match",
+        "More guides"
+      ],
+      "headingGlue": [],
+      "priceHints": [
+        "From € 223,98",
+        "From € 329",
+        "From € 219,95",
+        "From € 189,95",
+        "€ 223,98",
+        "€ 329",
+        "€ 219,95",
+        "€ 189,95"
+      ],
+      "hasEmptyCommerce": true,
+      "whoForSample": [
+        "I'd shortlist Vertex 05 Hybrid when its role matches your week better than AT10 Genius 12K Alum XTREM 2026 or AT10 Genius 18K Alum 2026. Skip it if still 365–375 g and professional level is a deal-breaker — then jump to the alternative that fixes that first.",
+        "Players who prefer all-court Vertex.",
+        "Players who prefer defence-to-attack in one mould.",
+        "Players who are Still 365–375 g and professional level.",
+        "I'd shortlist it when you want Genius with a stiffer face. I'd skip it if you wanted Attack 18K.",
+        "Players who prefer firmer Genius all-court.",
+        "Players who prefer nox teardrop players.",
+        "Players who prefer players who wanted Attack geometry.",
+        "Players who are Still a 360–375 g professional mould.",
+        "Players who prefer wanted Attack geometry.",
+        "I'd shortlist AT10 Genius 18K Alum 2026 when its role matches your week better than Vertex 05 Hybrid or AT10 Genius 12K Alum XTREM 2026. Skip it if 360–375 g and a pro-level mould still punish a late swing is a deal-breaker — then jump to the alternative that fixes that first.",
+        "Players who prefer 18K Genius all-court.",
+        "Players who prefer tapia teardrop.",
+        "Players who prefer the easiest racket in the Nox line for round sweet spot.",
+        "I'd shortlist Diablo Pro when its role matches your week better than Vertex 05 Hybrid or AT10 Genius 12K Alum XTREM 2026. Skip it if advanced/pro positioning — not a first racket is a deal-breaker — then jump to the alternative that fixes that first.",
+        "Players who prefer advanced Siux all-court."
+      ],
+      "residueHits": [],
+      "hasAmazonCta": false,
+      "retailerNames": [],
+      "hasDecisionTable": true,
+      "hasSvgDiagram": true,
+      "statusHint": "ok",
+      "httpStatus": 200,
+      "hero": "/images/padel/products/bullpadel-vertex-05-hybrid-hero.jpg",
+      "heroIdentity": "b75e7b85fadd"
+    },
+    {
+      "path": "/best/padel-rackets-lightweight",
+      "kind": "best",
+      "title": "Best Lightweight Padel Rackets: Top Picks by Use Case · Kitletics",
+      "wordCount": 2495,
+      "scrollHeight": 10093,
+      "imgCount": 30,
+      "uniqueImgCount": 8,
+      "uniqueImgs": [
+        "/images/padel/products/head-one-ultralight-hero.jpg",
+        "/images/padel/products/bullpadel-vertex-05-w-hero.jpg",
+        "/images/padel/products/bullpadel-ionic-light-hero.jpg",
+        "/images/padel/products/babolat-air-veron-hero.jpg",
+        "/images/padel/products/adidas-match-light-2026-hero.jpg",
+        "/images/padel/guides/choose-racket.jpg",
+        "/images/padel/products/bullpadel-vertex-05-hero.png",
+        "/images/padel/products/bullpadel-indiga-ctr-hero.jpg"
+      ],
+      "galleryPaths": [],
+      "sectionPaths": [],
+      "productPaths": [
+        "/images/padel/products/head-one-ultralight-hero.jpg",
+        "/images/padel/products/bullpadel-vertex-05-w-hero.jpg",
+        "/images/padel/products/bullpadel-ionic-light-hero.jpg",
+        "/images/padel/products/babolat-air-veron-hero.jpg",
+        "/images/padel/products/adidas-match-light-2026-hero.jpg",
+        "/images/padel/products/bullpadel-vertex-05-hero.png",
+        "/images/padel/products/bullpadel-indiga-ctr-hero.jpg"
+      ],
+      "repeats": [
+        {
+          "src": "/images/padel/products/head-one-ultralight-hero.jpg",
+          "count": 7
+        },
+        {
+          "src": "/images/padel/products/bullpadel-ionic-light-hero.jpg",
+          "count": 7
+        },
+        {
+          "src": "/images/padel/products/bullpadel-vertex-05-w-hero.jpg",
+          "count": 6
+        },
+        {
+          "src": "/images/padel/products/babolat-air-veron-hero.jpg",
+          "count": 6
+        }
+      ],
+      "h2s": [
+        "Why the criteria change",
+        "Top picks for lightweight rackets",
+        "Our quick take",
+        "What makes a good padel maneuverability padel racket?",
+        "Recommendations",
+        "How the top picks differ",
+        "Compare these picks",
+        "Which padel maneuverability Padel Racket should you choose?",
+        "Raw product specs",
+        "How we narrowed the field",
+        "How we research & score",
+        "How to choose by weight band",
+        "Find your perfect match",
+        "More guides"
+      ],
+      "headingGlue": [],
+      "priceHints": [
+        "From € 167,95",
+        "From € 129,99",
+        "€ 167,95",
+        "€ 129,99"
+      ],
+      "hasEmptyCommerce": true,
+      "whoForSample": [
+        "I'd shortlist it when mass is the weekly fight. I'd skip it if you wanted a 350 g hybrid with more plow-through, or if high balance worries you.",
+        "Players who prefer lowest published adult mass.",
+        "Players who prefer casual and beginner handling.",
+        "I'd shortlist it when Vertex geometry is the job and 365–375 g is too slow. I'd skip it if you needed Ionic Light’s hybrid, or Indiga as a first racket.",
+        "Players who prefer players who wanted men’s 12K Vertex 05.",
+        "Players who prefer wanted men’s 12K Vertex 05.",
+        "I'd shortlist Ionic Light when its role matches your week better than One Ultralight or Vertex 05 W. Skip it if not a Pro Line Vertex if you want 12K Total Play is a deal-breaker — then jump to the alternative that fixes that first.",
+        "Players who prefer light hybrid all-court.",
+        "Players who prefer intermediate handling.",
+        "I'd shortlist Air Veron when its role matches your week better than One Ultralight or Vertex 05 W. Skip it if not 16K X-EVA Air Viper is a deal-breaker — then jump to the alternative that fixes that first.",
+        "Players who prefer light Babolat all-court.",
+        "Players who prefer Official : 355±10 g teardrop, Carbon Flex, Black EVA.",
+        "Players who prefer babolat tags maneuverability, playability, comfort.",
+        "Players who prefer technical Viper strikers.",
+        "Players who prefer Not 16K X-EVA Air Viper.",
+        "Players who are Still not a Vertuo beginner."
+      ],
+      "residueHits": [],
+      "hasAmazonCta": false,
+      "retailerNames": [],
+      "hasDecisionTable": true,
+      "hasSvgDiagram": true,
+      "statusHint": "ok",
+      "httpStatus": 200,
+      "hero": "/images/padel/products/head-one-ultralight-hero.jpg",
+      "heroIdentity": "e6986dc22c64"
+    },
+    {
+      "path": "/best/padel-rackets-comfort",
+      "kind": "best",
+      "title": "Best Padel Rackets for Comfort: Top Picks by Use Case · Kitletics",
+      "wordCount": 2787,
+      "scrollHeight": 10741,
+      "imgCount": 34,
+      "uniqueImgCount": 8,
+      "uniqueImgs": [
+        "/images/padel/products/kuikma-pr-comfort-soft-hero.jpg",
+        "/images/padel/products/nox-equation-soft-advanced-2026-hero.jpg",
+        "/images/padel/products/bullpadel-indiga-ctr-hero.jpg",
+        "/images/padel/products/bullpadel-hack-04-comfort-hero.jpg",
+        "/images/padel/products/head-coello-team-hero.jpg",
+        "/images/padel/guides/choose-racket.jpg",
+        "/images/padel/products/bullpadel-vertex-05-hero.png",
+        "/images/padel/products/bullpadel-ionic-light-hero.jpg"
+      ],
+      "galleryPaths": [],
+      "sectionPaths": [],
+      "productPaths": [
+        "/images/padel/products/kuikma-pr-comfort-soft-hero.jpg",
+        "/images/padel/products/nox-equation-soft-advanced-2026-hero.jpg",
+        "/images/padel/products/bullpadel-indiga-ctr-hero.jpg",
+        "/images/padel/products/bullpadel-hack-04-comfort-hero.jpg",
+        "/images/padel/products/head-coello-team-hero.jpg",
+        "/images/padel/products/bullpadel-vertex-05-hero.png",
+        "/images/padel/products/bullpadel-ionic-light-hero.jpg"
+      ],
+      "repeats": [
+        {
+          "src": "/images/padel/products/kuikma-pr-comfort-soft-hero.jpg",
+          "count": 7
+        },
+        {
+          "src": "/images/padel/products/bullpadel-indiga-ctr-hero.jpg",
+          "count": 7
+        },
+        {
+          "src": "/images/padel/products/nox-equation-soft-advanced-2026-hero.jpg",
+          "count": 6
+        },
+        {
+          "src": "/images/padel/products/bullpadel-hack-04-comfort-hero.jpg",
+          "count": 6
+        },
+        {
+          "src": "/images/padel/products/head-coello-team-hero.jpg",
+          "count": 5
+        }
+      ],
+      "h2s": [
+        "Why the criteria change",
+        "Top picks for comfort",
+        "Our quick take",
+        "What makes a good padel arm comfort padel racket?",
+        "Recommendations",
+        "How the top picks differ",
+        "Compare these picks",
+        "Which padel arm comfort Padel Racket should you choose?",
+        "Raw product specs",
+        "How we narrowed the field",
+        "How we research & score",
+        "How to choose a comfort racket",
+        "Find your perfect match",
+        "More guides"
+      ],
+      "headingGlue": [],
+      "priceHints": [
+        "From € 44,99",
+        "From € 84,99",
+        "From € 204,99",
+        "From € 142,95",
+        "€ 44,99",
+        "€ 84,99",
+        "€ 204,99",
+        "€ 142,95"
+      ],
+      "hasEmptyCommerce": true,
+      "whoForSample": [
+        "I'd shortlist it when the week is arm comfort and budget. I'd skip it if you wanted Fibrix Hack geometry.",
+        "Players who prefer soft-core club play.",
+        "Players who prefer value comfort.",
+        "Players who prefer should not start on 18K.",
+        "I'd shortlist Equation Soft Advanced 2026 when its role matches your week better than PR Comfort Soft or Indiga CTR. Skip it if still 360–375 g — not an ultralight is a deal-breaker — then jump to the alternative that fixes that first.",
+        "Players who prefer Nox comfort",
+        "Players who prefer Soft Advanced",
+        "Players who are Still 360–375 g.",
+        "I'd shortlist Indiga CTR when its role matches your week better than PR Comfort Soft or Equation Soft Advanced 2026. Skip it if official power rating is 1.5 — you supply the pace is a deal-breaker — then jump to the alternative that fixes that first.",
+        "Players who prefer beginner SoftEva.",
+        "Players who prefer bullpadel comfort on-ramp.",
+        "Players who prefer advanced 12K shoppers.",
+        "I'd shortlist it when 18K Hack is too harsh and you still want Hack. I'd skip it if you needed a round soft core.",
+        "Players who prefer hack family without 18K.",
+        "Players who prefer players who wanted Hack 04 18K.",
+        "Players who prefer still an attacking diamond."
+      ],
+      "residueHits": [],
+      "hasAmazonCta": false,
+      "retailerNames": [],
+      "hasDecisionTable": true,
+      "hasSvgDiagram": true,
+      "statusHint": "ok",
+      "httpStatus": 200,
+      "hero": "/images/padel/products/kuikma-pr-comfort-soft-hero.jpg",
+      "heroIdentity": "86618866bf88"
+    },
+    {
+      "path": "/best/padel-rackets-maneuverability",
+      "kind": "best",
+      "title": "Best Padel Rackets for Maneuverability: Top Picks by Use Case · Kitletics",
+      "wordCount": 2621,
+      "scrollHeight": 10820,
+      "imgCount": 36,
+      "uniqueImgCount": 10,
+      "uniqueImgs": [
+        "/images/padel/products/babolat-air-viper-hero.jpg",
+        "/images/padel/products/bullpadel-ionic-light-hero.jpg",
+        "/images/padel/products/head-coello-motion-hero.jpg",
+        "/images/padel/products/head-gravity-motion-hero.jpg",
+        "/images/padel/products/head-extreme-motion-2026-hero.png",
+        "/images/padel/products/head-one-ultralight-hero.jpg",
+        "/images/padel/products/bullpadel-vertex-05-w-hero.jpg",
+        "/images/padel/guides/choose-racket.jpg",
+        "/images/padel/products/bullpadel-vertex-05-hero.png",
+        "/images/padel/products/bullpadel-indiga-ctr-hero.jpg"
+      ],
+      "galleryPaths": [],
+      "sectionPaths": [],
+      "productPaths": [
+        "/images/padel/products/babolat-air-viper-hero.jpg",
+        "/images/padel/products/bullpadel-ionic-light-hero.jpg",
+        "/images/padel/products/head-coello-motion-hero.jpg",
+        "/images/padel/products/head-gravity-motion-hero.jpg",
+        "/images/padel/products/head-extreme-motion-2026-hero.png",
+        "/images/padel/products/head-one-ultralight-hero.jpg",
+        "/images/padel/products/bullpadel-vertex-05-w-hero.jpg",
+        "/images/padel/products/bullpadel-vertex-05-hero.png",
+        "/images/padel/products/bullpadel-indiga-ctr-hero.jpg"
+      ],
+      "repeats": [
+        {
+          "src": "/images/padel/products/babolat-air-viper-hero.jpg",
+          "count": 7
+        },
+        {
+          "src": "/images/padel/products/bullpadel-ionic-light-hero.jpg",
+          "count": 7
+        },
+        {
+          "src": "/images/padel/products/head-coello-motion-hero.jpg",
+          "count": 6
+        },
+        {
+          "src": "/images/padel/products/head-gravity-motion-hero.jpg",
+          "count": 6
+        },
+        {
+          "src": "/images/padel/products/head-extreme-motion-2026-hero.png",
+          "count": 5
+        }
+      ],
+      "h2s": [
+        "Why the criteria change",
+        "Top picks for maneuverability",
+        "Our quick take",
+        "What makes a good padel maneuverability padel racket?",
+        "Recommendations",
+        "How the top picks differ",
+        "Compare these picks",
+        "Which padel maneuverability Padel Racket should you choose?",
+        "Raw product specs",
+        "How we narrowed the field",
+        "How we research & score",
+        "How to choose for handling",
+        "Find your perfect match",
+        "More guides"
+      ],
+      "headingGlue": [],
+      "priceHints": [
+        "From € 129,99",
+        "From € 213,49",
+        "From € 209",
+        "€ 129,99",
+        "€ 213,49",
+        "€ 209"
+      ],
+      "hasEmptyCommerce": true,
+      "whoForSample": [
+        "I'd shortlist it as the default handling hybrid. I'd skip it if you wanted a Motion-named HEAD or Air Viper.",
+        "Players who prefer hybrid handling.",
+        "Players who prefer intermediate net speed.",
+        "Players who prefer high-balance smash shoppers.",
+        "Players who are Still more than a first-week Indiga.",
+        "I'd shortlist Air Viper when its role matches your week better than Ionic Light or Coello Motion. Skip it if still a Viper carbon is a deal-breaker — then jump to the alternative that fixes that first.",
+        "Players who prefer babolat handling.",
+        "Players who prefer viper without Technical mass.",
+        "I'd shortlist Coello Motion when its role matches your week better than Ionic Light or Air Viper. Skip it if still a hard diamond is a deal-breaker — then jump to the alternative that fixes that first.",
+        "Players who prefer coello handling.",
+        "Players who prefer hEAD Motion net speed.",
+        "Players who prefer coello Pro finishers.",
+        "Players who prefer still a hard diamond.",
+        "Players who prefer not Team’s soft fiberglass.",
+        "I'd shortlist Gravity Motion when its role matches your week better than Ionic Light or Air Viper. Skip it if not Coello power is a deal-breaker — then jump to the alternative that fixes that first.",
+        "Players who prefer gravity handling."
+      ],
+      "residueHits": [],
+      "hasAmazonCta": false,
+      "retailerNames": [],
+      "hasDecisionTable": true,
+      "hasSvgDiagram": true,
+      "statusHint": "ok",
+      "httpStatus": 200,
+      "hero": "/images/padel/products/babolat-air-viper-hero.jpg",
+      "heroIdentity": "dbee3e5414b3"
+    },
+    {
+      "path": "/best/padel-rackets-women",
+      "kind": "best",
+      "title": "Best Padel Rackets for Women: Top Picks by Use Case · Kitletics",
+      "wordCount": 2103,
+      "scrollHeight": 8370,
+      "imgCount": 17,
+      "uniqueImgCount": 5,
+      "uniqueImgs": [
+        "/images/padel/products/bullpadel-vertex-05-w-hero.jpg",
+        "/images/padel/products/bullpadel-ionic-light-hero.jpg",
+        "/images/padel/guides/choose-racket.jpg",
+        "/images/padel/products/bullpadel-vertex-05-hero.png",
+        "/images/padel/products/bullpadel-indiga-ctr-hero.jpg"
+      ],
+      "galleryPaths": [],
+      "sectionPaths": [],
+      "productPaths": [
+        "/images/padel/products/bullpadel-vertex-05-w-hero.jpg",
+        "/images/padel/products/bullpadel-ionic-light-hero.jpg",
+        "/images/padel/products/bullpadel-vertex-05-hero.png",
+        "/images/padel/products/bullpadel-indiga-ctr-hero.jpg"
+      ],
+      "repeats": [
+        {
+          "src": "/images/padel/products/bullpadel-vertex-05-w-hero.jpg",
+          "count": 7
+        },
+        {
+          "src": "/images/padel/products/bullpadel-ionic-light-hero.jpg",
+          "count": 7
+        }
+      ],
+      "h2s": [
+        "Why the criteria change",
+        "Top picks for women’s lines",
+        "Our quick take",
+        "What makes a good use case padel racket?",
+        "Recommendations",
+        "How the top picks differ",
+        "Compare these picks",
+        "Which use case Padel Racket should you choose?",
+        "Raw product specs",
+        "How we narrowed the field",
+        "How we research & score",
+        "How to choose a women’s-line racket",
+        "Find your perfect match",
+        "More guides"
+      ],
+      "headingGlue": [],
+      "priceHints": [
+        "From € 167,95",
+        "From € 129,99",
+        "€ 167,95",
+        "€ 129,99"
+      ],
+      "hasEmptyCommerce": false,
+      "whoForSample": [
+        "Players who found men’s Vertex 05 365–375 g too slow and want the W construction, not a random light frame",
+        "Players who prefer found men’s Vertex 05 365–375 g too slow and want the W construction, not.",
+        "Players who want the 12K men’s Vertex 05",
+        "I'd shortlist it when you want a women’s-segment hybrid at intermediate level. I'd skip it if you already belong on Vertex 05 W, or if you are a beginner — Indiga remains the first racket for anyone still learning contact."
+      ],
+      "residueHits": [],
+      "hasAmazonCta": false,
+      "retailerNames": [],
+      "hasDecisionTable": true,
+      "hasSvgDiagram": true,
+      "statusHint": "ok",
+      "httpStatus": 200,
+      "hero": "/images/padel/products/bullpadel-vertex-05-w-hero.jpg",
+      "heroIdentity": "2e57dae94b3c"
+    },
+    {
+      "path": "/best/padel-rackets-value",
+      "kind": "best",
+      "title": "Best Value Padel Rackets: Top Picks by Use Case · Kitletics",
+      "wordCount": 2894,
+      "scrollHeight": 11309,
+      "imgCount": 37,
+      "uniqueImgCount": 10,
+      "uniqueImgs": [
+        "/images/padel/products/kuikma-pr-hybrid-carbon-hero.jpg",
+        "/images/padel/products/kuikma-pr-comfort-soft-hero.jpg",
+        "/images/padel/products/bullpadel-indiga-ctr-hero.jpg",
+        "/images/padel/products/nox-equation-soft-advanced-2026-hero.jpg",
+        "/images/padel/products/adidas-match-light-2026-hero.jpg",
+        "/images/padel/products/head-one-ultralight-hero.jpg",
+        "/images/padel/products/bullpadel-ionic-light-hero.jpg",
+        "/images/padel/products/bullpadel-hack-04-comfort-hero.jpg",
+        "/images/padel/guides/choose-racket.jpg",
+        "/images/padel/products/bullpadel-vertex-05-hero.png"
+      ],
+      "galleryPaths": [],
+      "sectionPaths": [],
+      "productPaths": [
+        "/images/padel/products/kuikma-pr-hybrid-carbon-hero.jpg",
+        "/images/padel/products/kuikma-pr-comfort-soft-hero.jpg",
+        "/images/padel/products/bullpadel-indiga-ctr-hero.jpg",
+        "/images/padel/products/nox-equation-soft-advanced-2026-hero.jpg",
+        "/images/padel/products/adidas-match-light-2026-hero.jpg",
+        "/images/padel/products/head-one-ultralight-hero.jpg",
+        "/images/padel/products/bullpadel-ionic-light-hero.jpg",
+        "/images/padel/products/bullpadel-hack-04-comfort-hero.jpg",
+        "/images/padel/products/bullpadel-vertex-05-hero.png"
+      ],
+      "repeats": [
+        {
+          "src": "/images/padel/products/bullpadel-indiga-ctr-hero.jpg",
+          "count": 7
+        },
+        {
+          "src": "/images/padel/products/kuikma-pr-hybrid-carbon-hero.jpg",
+          "count": 6
+        },
+        {
+          "src": "/images/padel/products/kuikma-pr-comfort-soft-hero.jpg",
+          "count": 6
+        },
+        {
+          "src": "/images/padel/products/nox-equation-soft-advanced-2026-hero.jpg",
+          "count": 6
+        },
+        {
+          "src": "/images/padel/products/adidas-match-light-2026-hero.jpg",
+          "count": 6
+        }
+      ],
+      "h2s": [
+        "Why the criteria change",
+        "Top picks for padel beginner",
+        "Our quick take",
+        "What makes a good padel beginner padel racket?",
+        "Recommendations",
+        "How the top picks differ",
+        "Compare these picks",
+        "Which padel beginner Padel Racket should you choose?",
+        "Raw product specs",
+        "How we narrowed the field",
+        "How we research & score",
+        "How to choose",
+        "Find your perfect match",
+        "More guides"
+      ],
+      "headingGlue": [],
+      "priceHints": [
+        "From € 44,99",
+        "From € 84,99",
+        "From € 58,50",
+        "€ 44,99",
+        "€ 84,99",
+        "€ 58,50"
+      ],
+      "hasEmptyCommerce": true,
+      "whoForSample": [
+        "I'd shortlist PR Comfort Soft when its role matches your week better than Indiga CTR or Equation Soft Advanced 2026. Skip it if not a carbon finishing racket is a deal-breaker — then jump to the alternative that fixes that first.",
+        "Players who prefer budget soft round.",
+        "Players who prefer replaceable club frames.",
+        "Players who prefer bullpadel beginner value.",
+        "I'd shortlist Equation Soft Advanced 2026 when its role matches your week better than PR Comfort Soft or Indiga CTR. Skip it if still 360–375 g — not an ultralight is a deal-breaker — then jump to the alternative that fixes that first.",
+        "Players who prefer nox soft on-ramp.",
+        "Players who prefer value versus Genius carbon.",
+        "Players who are Still 360–375 g.",
+        "I'd shortlist Match Light when its role matches your week better than PR Comfort Soft or Indiga CTR. Skip it if official weight 360–375 g and slightly head-heavy — not an ultralight is a deal-breaker — then jump to the alternative that fixes that first.",
+        "Players who prefer adidas entry value.",
+        "Players who prefer light on-ramp vs Metalbone.",
+        "I'd shortlist PR Hybrid Carbon when its role matches your week better than PR Comfort Soft or Indiga CTR. Skip it if not as soft as PR Comfort Soft / PR Soft 500 is a deal-breaker — then jump to the alternative that fixes that first.",
+        "Players who prefer value intermediate hybrid.",
+        "Players who prefer step-up from Comfort Soft.",
+        "Players who prefer Not as soft as PR Comfort Soft / PR Soft 500."
+      ],
+      "residueHits": [],
+      "hasAmazonCta": false,
+      "retailerNames": [
+        "Decathlon"
+      ],
+      "hasDecisionTable": true,
+      "hasSvgDiagram": true,
+      "statusHint": "ok",
+      "httpStatus": 200,
+      "hero": "/images/padel/products/kuikma-pr-hybrid-carbon-hero.jpg",
+      "heroIdentity": "afa4843df00d"
+    },
+    {
+      "path": "/best/padel-shoes",
+      "kind": "best",
+      "title": "Best Padel Shoes: Top Picks by Use Case · Kitletics",
+      "wordCount": 2922,
+      "scrollHeight": 12076,
+      "imgCount": 42,
+      "uniqueImgCount": 10,
+      "uniqueImgs": [
+        "/images/padel/products/asics-gel-resolution-padel-hero.jpg",
+        "/images/padel/products/adidas-courtquick-padel-hero.jpg",
+        "/images/padel/products/joma-t-slam-hero.jpg",
+        "/images/padel/products/adidas-crazyquick-boost-padel-hero.jpg",
+        "/images/padel/products/babolat-jet-premura-hero.jpg",
+        "/images/padel/products/kuikma-ps-990-hero.jpg",
+        "/images/padel/products/nox-at10-lux-hero.jpg",
+        "/images/padel/products/head-sprint-pro-4-padel-hero.jpg",
+        "/images/padel/guides/choose-shoes.jpg",
+        "/images/padel/products/adidas-courtquick-padel-women-hero.jpg"
+      ],
+      "galleryPaths": [],
+      "sectionPaths": [],
+      "productPaths": [
+        "/images/padel/products/asics-gel-resolution-padel-hero.jpg",
+        "/images/padel/products/adidas-courtquick-padel-hero.jpg",
+        "/images/padel/products/joma-t-slam-hero.jpg",
+        "/images/padel/products/adidas-crazyquick-boost-padel-hero.jpg",
+        "/images/padel/products/babolat-jet-premura-hero.jpg",
+        "/images/padel/products/kuikma-ps-990-hero.jpg",
+        "/images/padel/products/nox-at10-lux-hero.jpg",
+        "/images/padel/products/head-sprint-pro-4-padel-hero.jpg",
+        "/images/padel/products/adidas-courtquick-padel-women-hero.jpg"
+      ],
+      "repeats": [
+        {
+          "src": "/images/padel/products/asics-gel-resolution-padel-hero.jpg",
+          "count": 9
+        },
+        {
+          "src": "/images/padel/products/adidas-courtquick-padel-hero.jpg",
+          "count": 7
+        },
+        {
+          "src": "/images/padel/products/joma-t-slam-hero.jpg",
+          "count": 6
+        },
+        {
+          "src": "/images/padel/products/adidas-crazyquick-boost-padel-hero.jpg",
+          "count": 6
+        },
+        {
+          "src": "/images/padel/products/babolat-jet-premura-hero.jpg",
+          "count": 5
+        },
+        {
+          "src": "/images/padel/products/kuikma-ps-990-hero.jpg",
+          "count": 5
+        }
+      ],
+      "h2s": [
+        "Quick Picks",
+        "Our quick take",
+        "What makes a good use case padel shoe?",
+        "Recommendations",
+        "How the top picks differ",
+        "Which use case Padel Shoe should you choose?",
+        "Raw product specs",
+        "How we narrowed the field",
+        "How we research & score",
+        "How to choose",
+        "Find your perfect match",
+        "More guides"
+      ],
+      "headingGlue": [],
+      "priceHints": [
+        "From € 139",
+        "From € 89,95",
+        "From € 109",
+        "From € 149",
+        "From € 129",
+        "From € 89",
+        "€ 139",
+        "€ 89,95",
+        "€ 109",
+        "€ 149",
+        "€ 129",
+        "€ 89"
+      ],
+      "hasEmptyCommerce": false,
+      "whoForSample": [
+        "I'd shortlist it when you want armour and GEL on padel turf. I'd skip it if you wanted Boost’s different plush, or a cheaper Joma last you have actually tried.",
+        "Players who want ASICS court armour",
+        "Players who prefer planted high-lateral play.",
+        "Players who want ASICS court armour",
+        "Players who prefer wanted women’s Resolution last.",
+        "I'd shortlist it for club volume. I'd skip it if you needed Crazyquick’s foam or the women’s Courtquick last.",
+        "Players who prefer club Adidas.",
+        "Players who prefer stable everyday padel.",
+        "Players who prefer value versus Boost.",
+        "I'd shortlist it for frequent club play. I'd skip it if you need a guaranteed wide last, or Slam Lady’s women’s last.",
+        "Players who prefer eU club volume.",
+        "Players who prefer value lateral support.",
+        "Players who need a documented wide last",
+        "I'd shortlist it when landing protection on court is the spend. I'd skip it if you wanted a firmer planted last.",
+        "Players who prefer plush padel sessions.",
+        "Players who want a connected racer"
+      ],
+      "residueHits": [],
+      "hasAmazonCta": false,
+      "retailerNames": [],
+      "hasDecisionTable": true,
+      "hasSvgDiagram": true,
+      "statusHint": "ok",
+      "httpStatus": 200,
+      "hero": "/images/padel/products/asics-gel-resolution-padel-hero.jpg",
+      "heroIdentity": "f8ee53a62da1"
+    },
+    {
+      "path": "/best/padel-shoes-men",
+      "kind": "best",
+      "title": "Best Padel Shoes for Men: Top Picks by Use Case · Kitletics",
+      "wordCount": 2399,
+      "scrollHeight": 10356,
+      "imgCount": 35,
+      "uniqueImgCount": 8,
+      "uniqueImgs": [
+        "/images/padel/products/adidas-courtquick-padel-hero.jpg",
+        "/images/padel/products/adidas-crazyquick-boost-padel-hero.jpg",
+        "/images/padel/products/joma-t-slam-hero.jpg",
+        "/images/padel/products/babolat-jet-premura-hero.jpg",
+        "/images/padel/products/head-sprint-pro-4-padel-hero.jpg",
+        "/images/padel/products/asics-gel-resolution-padel-hero.jpg",
+        "/images/padel/guides/choose-shoes.jpg",
+        "/images/padel/products/adidas-courtquick-padel-women-hero.jpg"
+      ],
+      "galleryPaths": [],
+      "sectionPaths": [],
+      "productPaths": [
+        "/images/padel/products/adidas-courtquick-padel-hero.jpg",
+        "/images/padel/products/adidas-crazyquick-boost-padel-hero.jpg",
+        "/images/padel/products/joma-t-slam-hero.jpg",
+        "/images/padel/products/babolat-jet-premura-hero.jpg",
+        "/images/padel/products/head-sprint-pro-4-padel-hero.jpg",
+        "/images/padel/products/asics-gel-resolution-padel-hero.jpg",
+        "/images/padel/products/adidas-courtquick-padel-women-hero.jpg"
+      ],
+      "repeats": [
+        {
+          "src": "/images/padel/products/adidas-courtquick-padel-hero.jpg",
+          "count": 8
+        },
+        {
+          "src": "/images/padel/products/adidas-crazyquick-boost-padel-hero.jpg",
+          "count": 6
+        },
+        {
+          "src": "/images/padel/products/joma-t-slam-hero.jpg",
+          "count": 6
+        },
+        {
+          "src": "/images/padel/products/babolat-jet-premura-hero.jpg",
+          "count": 6
+        },
+        {
+          "src": "/images/padel/products/head-sprint-pro-4-padel-hero.jpg",
+          "count": 5
+        }
+      ],
+      "h2s": [
+        "Why the criteria change",
+        "Top picks for men’s lasts",
+        "Our quick take",
+        "What makes a good use case padel shoe?",
+        "Recommendations",
+        "How the top picks differ",
+        "Which use case Padel Shoe should you choose?",
+        "Raw product specs",
+        "How we narrowed the field",
+        "How we research & score",
+        "How to choose a men’s padel last",
+        "Find your perfect match",
+        "More guides"
+      ],
+      "headingGlue": [],
+      "priceHints": [
+        "From € 89,95",
+        "From € 149",
+        "From € 109",
+        "From € 129",
+        "€ 89,95",
+        "€ 149",
+        "€ 109",
+        "€ 129"
+      ],
+      "hasEmptyCommerce": false,
+      "whoForSample": [
+        "I'd shortlist it as the men’s club starting point. I'd skip it if you needed Boost or a women’s last.",
+        "Players who prefer Men’s club Adidas",
+        "Players who prefer Everyday padel",
+        "Players who prefer women’s Courtquick shoppers.",
+        "I'd shortlist Crazyquick Boost Padel when its role matches your week better than Courtquick Padel or T.Slam. Skip it if premium vs club value shoes is a deal-breaker — then jump to the alternative that fixes that first.",
+        "Players who prefer Men’s Boost padel",
+        "Players who prefer Plush Adidas",
+        "Players who prefer women’s Crazyquick last.",
+        "I'd shortlist T.Slam when its role matches your week better than Courtquick Padel or Crazyquick Boost Padel. Skip it if fit can run narrow for some feet is a deal-breaker — then jump to the alternative that fixes that first.",
+        "Players who prefer men’s club value.",
+        "I'd shortlist Jet Premura when its role matches your week better than Courtquick Padel or Crazyquick Boost Padel. Skip it if premium vs club value shoes is a deal-breaker — then jump to the alternative that fixes that first.",
+        "Players who prefer men’s connected racer.",
+        "Players who prefer michelin padel.",
+        "I'd shortlist Sprint Pro 4.0 Padel when its role matches your week better than Courtquick Padel or Crazyquick Boost Padel. Skip it if less plush than Revolt on long match days is a deal-breaker — then jump to the alternative that fixes that first.",
+        "Players who prefer HEAD men’s padel",
+        "Players who prefer Lighter racer"
+      ],
+      "residueHits": [],
+      "hasAmazonCta": false,
+      "retailerNames": [],
+      "hasDecisionTable": true,
+      "hasSvgDiagram": true,
+      "statusHint": "ok",
+      "httpStatus": 200,
+      "hero": "/images/padel/products/adidas-courtquick-padel-hero.jpg",
+      "heroIdentity": "848862450f05"
+    },
+    {
+      "path": "/best/padel-shoes-women",
+      "kind": "best",
+      "title": "Best Padel Shoes for Women: Top Picks by Use Case · Kitletics",
+      "wordCount": 2641,
+      "scrollHeight": 11183,
+      "imgCount": 38,
+      "uniqueImgCount": 9,
+      "uniqueImgs": [
+        "/images/padel/products/adidas-courtquick-padel-women-hero.jpg",
+        "/images/padel/products/adidas-crazyquick-boost-padel-women-hero.jpg",
+        "/images/padel/products/asics-gel-resolution-padel-women-hero.jpg",
+        "/images/padel/products/joma-slam-lady-hero.jpg",
+        "/images/padel/products/babolat-sensa-women-hero.jpg",
+        "/images/padel/products/bullpadel-ionic-woman-hero.jpg",
+        "/images/padel/guides/choose-shoes.jpg",
+        "/images/padel/products/asics-gel-resolution-padel-hero.jpg",
+        "/images/padel/products/adidas-courtquick-padel-hero.jpg"
+      ],
+      "galleryPaths": [],
+      "sectionPaths": [],
+      "productPaths": [
+        "/images/padel/products/adidas-courtquick-padel-women-hero.jpg",
+        "/images/padel/products/adidas-crazyquick-boost-padel-women-hero.jpg",
+        "/images/padel/products/asics-gel-resolution-padel-women-hero.jpg",
+        "/images/padel/products/joma-slam-lady-hero.jpg",
+        "/images/padel/products/babolat-sensa-women-hero.jpg",
+        "/images/padel/products/bullpadel-ionic-woman-hero.jpg",
+        "/images/padel/products/asics-gel-resolution-padel-hero.jpg",
+        "/images/padel/products/adidas-courtquick-padel-hero.jpg"
+      ],
+      "repeats": [
+        {
+          "src": "/images/padel/products/adidas-courtquick-padel-women-hero.jpg",
+          "count": 8
+        },
+        {
+          "src": "/images/padel/products/adidas-crazyquick-boost-padel-women-hero.jpg",
+          "count": 6
+        },
+        {
+          "src": "/images/padel/products/asics-gel-resolution-padel-women-hero.jpg",
+          "count": 6
+        },
+        {
+          "src": "/images/padel/products/joma-slam-lady-hero.jpg",
+          "count": 6
+        },
+        {
+          "src": "/images/padel/products/babolat-sensa-women-hero.jpg",
+          "count": 5
+        },
+        {
+          "src": "/images/padel/products/bullpadel-ionic-woman-hero.jpg",
+          "count": 4
+        }
+      ],
+      "h2s": [
+        "Why the criteria change",
+        "Top picks for women’s lasts",
+        "Our quick take",
+        "What makes a good use case padel shoe?",
+        "Recommendations",
+        "How the top picks differ",
+        "Which use case Padel Shoe should you choose?",
+        "Raw product specs",
+        "How we narrowed the field",
+        "How we research & score",
+        "How to choose a women’s padel last",
+        "Find your perfect match",
+        "More guides"
+      ],
+      "headingGlue": [],
+      "priceHints": [
+        "From € 99",
+        "From € 149",
+        "From € 160",
+        "From € 119",
+        "From € 109",
+        "€ 99",
+        "€ 149",
+        "€ 160",
+        "€ 119",
+        "€ 109"
+      ],
+      "hasEmptyCommerce": false,
+      "whoForSample": [
+        "I'd shortlist it as the women’s club Adidas default. I'd skip it if you needed Boost or Resolution Women armour.",
+        "Players who prefer Women’s club Adidas",
+        "Players who prefer Everyday padel last",
+        "I'd shortlist Crazyquick Boost Padel Women when its role matches your week better than Courtquick Padel Women or Gel-Resolution Padel Women. Skip it if higher price than Courtquick is a deal-breaker — then jump to the alternative that fixes that first.",
+        "Players who prefer Women’s Boost",
+        "Players who prefer Plush Adidas last",
+        "Players who prefer higher price than Courtquick.",
+        "I'd shortlist Gel-Resolution Padel Women when its role matches your week better than Courtquick Padel Women or Crazyquick Boost Padel Women. Skip it if premium price is a deal-breaker — then jump to the alternative that fixes that first.",
+        "Players who prefer women’s planted last.",
+        "Players who prefer aSICS court armour.",
+        "Players who prefer heavier than Swift models.",
+        "I'd shortlist Slam Lady when its role matches your week better than Courtquick Padel Women or Crazyquick Boost Padel Women. Skip it if can feel firm initially is a deal-breaker — then jump to the alternative that fixes that first.",
+        "Players who prefer Women’s club Joma",
+        "Players who prefer Slam last",
+        "Players who prefer can feel firm initially.",
+        "Players who Can feel firm initially."
+      ],
+      "residueHits": [],
+      "hasAmazonCta": false,
+      "retailerNames": [],
+      "hasDecisionTable": true,
+      "hasSvgDiagram": true,
+      "statusHint": "ok",
+      "httpStatus": 200,
+      "hero": "/images/padel/products/adidas-courtquick-padel-women-hero.jpg",
+      "heroIdentity": "e7a7f13b80d3"
+    },
+    {
+      "path": "/best/padel-shoes-stability",
+      "kind": "best",
+      "title": "Best Padel Shoes for Stability: Top Picks by Use Case · Kitletics",
+      "wordCount": 2125,
+      "scrollHeight": 9335,
+      "imgCount": 29,
+      "uniqueImgCount": 6,
+      "uniqueImgs": [
+        "/images/padel/products/joma-t-slam-hero.jpg",
+        "/images/padel/products/asics-gel-resolution-padel-hero.jpg",
+        "/images/padel/products/adidas-courtquick-padel-hero.jpg",
+        "/images/padel/products/nox-at10-lux-hero.jpg",
+        "/images/padel/guides/choose-shoes.jpg",
+        "/images/padel/products/adidas-courtquick-padel-women-hero.jpg"
+      ],
+      "galleryPaths": [],
+      "sectionPaths": [],
+      "productPaths": [
+        "/images/padel/products/joma-t-slam-hero.jpg",
+        "/images/padel/products/asics-gel-resolution-padel-hero.jpg",
+        "/images/padel/products/adidas-courtquick-padel-hero.jpg",
+        "/images/padel/products/nox-at10-lux-hero.jpg",
+        "/images/padel/products/adidas-courtquick-padel-women-hero.jpg"
+      ],
+      "repeats": [
+        {
+          "src": "/images/padel/products/joma-t-slam-hero.jpg",
+          "count": 7
+        },
+        {
+          "src": "/images/padel/products/asics-gel-resolution-padel-hero.jpg",
+          "count": 7
+        },
+        {
+          "src": "/images/padel/products/adidas-courtquick-padel-hero.jpg",
+          "count": 7
+        },
+        {
+          "src": "/images/padel/products/nox-at10-lux-hero.jpg",
+          "count": 6
+        }
+      ],
+      "h2s": [
+        "Why the criteria change",
+        "Top picks for lateral stability",
+        "Our quick take",
+        "What makes a good stability padel shoe?",
+        "Recommendations",
+        "How the top picks differ",
+        "Which stability Padel Shoe should you choose?",
+        "Raw product specs",
+        "How we narrowed the field",
+        "How we research & score",
+        "How to choose a stable padel shoe",
+        "Find your perfect match",
+        "More guides"
+      ],
+      "headingGlue": [],
+      "priceHints": [
+        "From € 139",
+        "From € 109",
+        "From € 89,95",
+        "€ 139",
+        "€ 109",
+        "€ 89,95"
+      ],
+      "hasEmptyCommerce": false,
+      "whoForSample": [
+        "I'd shortlist Gel-Resolution Padel when its role matches your week better than T.Slam or Courtquick Padel. Skip it if heavier than race-light court shoes is a deal-breaker — then jump to the alternative that fixes that first.",
+        "Players who prefer High-lateral plants",
+        "Players who prefer Match-play cuts",
+        "I'd shortlist T.Slam when its role matches your week better than Gel-Resolution Padel or Courtquick Padel. Skip it if fit can run narrow for some feet is a deal-breaker — then jump to the alternative that fixes that first.",
+        "Players who prefer Club high lateral",
+        "Players who prefer Value stability",
+        "I'd shortlist Courtquick Padel when its role matches your week better than Gel-Resolution Padel or T.Slam. Skip it if less Boost cushioning than Crazyquick is a deal-breaker — then jump to the alternative that fixes that first.",
+        "Players who prefer Adidas high lateral",
+        "Players who prefer Club plant",
+        "I'd shortlist AT10 Lux when its role matches your week better than Gel-Resolution Padel or T.Slam. Skip it if fit can feel firm out of box is a deal-breaker — then jump to the alternative that fixes that first.",
+        "Players who prefer Nox high lateral",
+        "Players who prefer nox-system players.",
+        "Players who prefer wanted ML10 Hexa as a different Nox last without trying Lux."
+      ],
+      "residueHits": [],
+      "hasAmazonCta": false,
+      "retailerNames": [],
+      "hasDecisionTable": true,
+      "hasSvgDiagram": true,
+      "statusHint": "ok",
+      "httpStatus": 200,
+      "hero": "/images/padel/products/joma-t-slam-hero.jpg",
+      "heroIdentity": "c0e397ed92d5"
+    },
+    {
+      "path": "/best/padel-shoes-comfort",
+      "kind": "best",
+      "title": "Best Padel Shoes for Comfort: Top Picks by Use Case · Kitletics",
+      "wordCount": 1958,
+      "scrollHeight": 8482,
+      "imgCount": 23,
+      "uniqueImgCount": 6,
+      "uniqueImgs": [
+        "/images/padel/products/adidas-crazyquick-boost-padel-hero.jpg",
+        "/images/padel/products/asics-gel-resolution-padel-hero.jpg",
+        "/images/padel/products/nox-at10-lux-hero.jpg",
+        "/images/padel/guides/choose-shoes.jpg",
+        "/images/padel/products/adidas-courtquick-padel-hero.jpg",
+        "/images/padel/products/adidas-courtquick-padel-women-hero.jpg"
+      ],
+      "galleryPaths": [],
+      "sectionPaths": [],
+      "productPaths": [
+        "/images/padel/products/adidas-crazyquick-boost-padel-hero.jpg",
+        "/images/padel/products/asics-gel-resolution-padel-hero.jpg",
+        "/images/padel/products/nox-at10-lux-hero.jpg",
+        "/images/padel/products/adidas-courtquick-padel-hero.jpg",
+        "/images/padel/products/adidas-courtquick-padel-women-hero.jpg"
+      ],
+      "repeats": [
+        {
+          "src": "/images/padel/products/adidas-crazyquick-boost-padel-hero.jpg",
+          "count": 7
+        },
+        {
+          "src": "/images/padel/products/asics-gel-resolution-padel-hero.jpg",
+          "count": 7
+        },
+        {
+          "src": "/images/padel/products/nox-at10-lux-hero.jpg",
+          "count": 6
+        }
+      ],
+      "h2s": [
+        "Why the criteria change",
+        "Top picks for court comfort",
+        "Our quick take",
+        "What makes a good use case padel shoe?",
+        "Recommendations",
+        "How the top picks differ",
+        "Which use case Padel Shoe should you choose?",
+        "Raw product specs",
+        "How we narrowed the field",
+        "How we research & score",
+        "How to choose a cushioned padel shoe",
+        "Find your perfect match",
+        "More guides"
+      ],
+      "headingGlue": [],
+      "priceHints": [
+        "From € 149",
+        "From € 139",
+        "€ 149",
+        "€ 139"
+      ],
+      "hasEmptyCommerce": false,
+      "whoForSample": [
+        "I'd shortlist Crazyquick Boost Padel when its role matches your week better than Gel-Resolution Padel or AT10 Lux. Skip it if premium vs club value shoes is a deal-breaker — then jump to the alternative that fixes that first.",
+        "Players who prefer plush padel sessions.",
+        "Players who prefer boost on court.",
+        "I'd shortlist Gel-Resolution Padel when its role matches your week better than Crazyquick Boost Padel or AT10 Lux. Skip it if heavier than race-light court shoes is a deal-breaker — then jump to the alternative that fixes that first.",
+        "Players who prefer gEL court protection.",
+        "Players who prefer comfort with plant.",
+        "Players who prefer players who only wanted a connected racer.",
+        "Players who prefer only wanted a connected racer.",
+        "I'd shortlist AT10 Lux when its role matches your week better than Crazyquick Boost Padel or Gel-Resolution Padel. Skip it if fit can feel firm out of box is a deal-breaker — then jump to the alternative that fixes that first.",
+        "Players who prefer nox comfort-leaning plant.",
+        "Players who prefer padel-native brand.",
+        "Players who prefer high support.",
+        "Players who prefer tour-inspired styling."
+      ],
+      "residueHits": [],
+      "hasAmazonCta": false,
+      "retailerNames": [],
+      "hasDecisionTable": true,
+      "hasSvgDiagram": true,
+      "statusHint": "ok",
+      "httpStatus": 200,
+      "hero": "/images/padel/products/adidas-crazyquick-boost-padel-hero.jpg",
+      "heroIdentity": "4ead85d3d4c5"
+    },
+    {
+      "path": "/best/padel-shoes-lightweight",
+      "kind": "best",
+      "title": "Best Lightweight Padel Shoes: Top Picks by Use Case · Kitletics",
+      "wordCount": 1947,
+      "scrollHeight": 8674,
+      "imgCount": 25,
+      "uniqueImgCount": 8,
+      "uniqueImgs": [
+        "/images/padel/products/babolat-jet-premura-hero.jpg",
+        "/images/padel/products/head-sprint-pro-4-padel-hero.jpg",
+        "/images/padel/products/adidas-courtquick-padel-hero.jpg",
+        "/images/padel/products/kuikma-ps-990-hero.jpg",
+        "/images/padel/products/joma-t-slam-hero.jpg",
+        "/images/padel/guides/choose-shoes.jpg",
+        "/images/padel/products/asics-gel-resolution-padel-hero.jpg",
+        "/images/padel/products/adidas-courtquick-padel-women-hero.jpg"
+      ],
+      "galleryPaths": [],
+      "sectionPaths": [],
+      "productPaths": [
+        "/images/padel/products/babolat-jet-premura-hero.jpg",
+        "/images/padel/products/head-sprint-pro-4-padel-hero.jpg",
+        "/images/padel/products/adidas-courtquick-padel-hero.jpg",
+        "/images/padel/products/kuikma-ps-990-hero.jpg",
+        "/images/padel/products/joma-t-slam-hero.jpg",
+        "/images/padel/products/asics-gel-resolution-padel-hero.jpg",
+        "/images/padel/products/adidas-courtquick-padel-women-hero.jpg"
+      ],
+      "repeats": [
+        {
+          "src": "/images/padel/products/babolat-jet-premura-hero.jpg",
+          "count": 7
+        },
+        {
+          "src": "/images/padel/products/adidas-courtquick-padel-hero.jpg",
+          "count": 7
+        },
+        {
+          "src": "/images/padel/products/head-sprint-pro-4-padel-hero.jpg",
+          "count": 6
+        }
+      ],
+      "h2s": [
+        "Why the criteria change",
+        "Top picks — Padel Shoes",
+        "Our quick take",
+        "What makes a good use case padel shoe?",
+        "Recommendations",
+        "How the top picks differ",
+        "Which use case Padel Shoe should you choose?",
+        "Raw product specs",
+        "How we narrowed the field",
+        "How we research & score",
+        "How to choose",
+        "Find your perfect match",
+        "More guides"
+      ],
+      "headingGlue": [],
+      "priceHints": [
+        "From € 129",
+        "From € 89,95",
+        "€ 129",
+        "€ 89,95"
+      ],
+      "hasEmptyCommerce": false,
+      "whoForSample": [
+        "I'd shortlist Jet Premura when its role matches your week better than Sprint Pro 4.0 Padel or Courtquick Padel. Skip it if premium vs club value shoes is a deal-breaker — then jump to the alternative that fixes that first.",
+        "Players who prefer connected court feel.",
+        "Players who prefer lighter match nights.",
+        "Players who prefer michelin padel traction.",
+        "Players who need max cushion armour.",
+        "I'd shortlist Sprint Pro 4.0 Padel when its role matches your week better than Jet Premura or Courtquick Padel. Skip it if less plush than Revolt on long match days is a deal-breaker — then jump to the alternative that fixes that first.",
+        "Players who prefer hEAD light racer.",
+        "Players who prefer lighter padel sessions.",
+        "I'd shortlist Courtquick Padel when its role matches your week better than Jet Premura or Sprint Pro 4.0 Padel. Skip it if less Boost cushioning than Crazyquick is a deal-breaker — then jump to the alternative that fixes that first.",
+        "Players who prefer lighter club Adidas.",
+        "Players who prefer everyday padel without Boost."
+      ],
+      "residueHits": [],
+      "hasAmazonCta": false,
+      "retailerNames": [],
+      "hasDecisionTable": true,
+      "hasSvgDiagram": true,
+      "statusHint": "ok",
+      "httpStatus": 200,
+      "hero": "/images/padel/products/babolat-jet-premura-hero.jpg",
+      "heroIdentity": "81aa93ea32a6"
+    },
+    {
+      "path": "/best/padel-shoes-value",
+      "kind": "best",
+      "title": "Best Value Padel Shoes: Top Picks by Use Case · Kitletics",
+      "wordCount": 1878,
+      "scrollHeight": 8531,
+      "imgCount": 24,
+      "uniqueImgCount": 7,
+      "uniqueImgs": [
+        "/images/padel/products/kuikma-ps-990-hero.jpg",
+        "/images/padel/products/joma-t-slam-hero.jpg",
+        "/images/padel/products/adidas-courtquick-padel-hero.jpg",
+        "/images/padel/products/babolat-jet-premura-hero.jpg",
+        "/images/padel/guides/choose-shoes.jpg",
+        "/images/padel/products/asics-gel-resolution-padel-hero.jpg",
+        "/images/padel/products/adidas-courtquick-padel-women-hero.jpg"
+      ],
+      "galleryPaths": [],
+      "sectionPaths": [],
+      "productPaths": [
+        "/images/padel/products/kuikma-ps-990-hero.jpg",
+        "/images/padel/products/joma-t-slam-hero.jpg",
+        "/images/padel/products/adidas-courtquick-padel-hero.jpg",
+        "/images/padel/products/babolat-jet-premura-hero.jpg",
+        "/images/padel/products/asics-gel-resolution-padel-hero.jpg",
+        "/images/padel/products/adidas-courtquick-padel-women-hero.jpg"
+      ],
+      "repeats": [
+        {
+          "src": "/images/padel/products/kuikma-ps-990-hero.jpg",
+          "count": 7
+        },
+        {
+          "src": "/images/padel/products/adidas-courtquick-padel-hero.jpg",
+          "count": 7
+        },
+        {
+          "src": "/images/padel/products/joma-t-slam-hero.jpg",
+          "count": 6
+        }
+      ],
+      "h2s": [
+        "Why the criteria change",
+        "Top picks — Padel Shoes",
+        "Our quick take",
+        "What makes a good use case padel shoe?",
+        "Recommendations",
+        "How the top picks differ",
+        "Which use case Padel Shoe should you choose?",
+        "Raw product specs",
+        "How we narrowed the field",
+        "How we research & score",
+        "How to choose",
+        "Find your perfect match",
+        "More guides"
+      ],
+      "headingGlue": [],
+      "priceHints": [
+        "From € 89",
+        "From € 109",
+        "From € 89,95",
+        "€ 89",
+        "€ 109",
+        "€ 89,95"
+      ],
+      "hasEmptyCommerce": false,
+      "whoForSample": [
+        "I'd shortlist PS 990 when its role matches your week better than T.Slam or Courtquick Padel. Skip it if less premium foam than Adidas Boost lines is a deal-breaker — then jump to the alternative that fixes that first.",
+        "Players who prefer kuikma club value.",
+        "Players who prefer replaceable pairs.",
+        "Players who prefer budget padel court rubber.",
+        "I'd shortlist T.Slam when its role matches your week better than PS 990 or Courtquick Padel. Skip it if fit can run narrow for some feet is a deal-breaker — then jump to the alternative that fixes that first.",
+        "Players who prefer eU club volume.",
+        "I'd shortlist Courtquick Padel when its role matches your week better than PS 990 or T.Slam. Skip it if less Boost cushioning than Crazyquick is a deal-breaker — then jump to the alternative that fixes that first.",
+        "Players who prefer adidas club value.",
+        "Players who prefer stable everyday padel."
+      ],
+      "residueHits": [],
+      "hasAmazonCta": false,
+      "retailerNames": [
+        "Decathlon"
+      ],
+      "hasDecisionTable": true,
+      "hasSvgDiagram": true,
+      "statusHint": "ok",
+      "httpStatus": 200,
+      "hero": "/images/padel/products/kuikma-ps-990-hero.jpg",
+      "heroIdentity": "9afa51881efc"
+    },
+    {
+      "path": "/best/padel-balls",
+      "kind": "best",
+      "title": "Best Padel Balls: Top Picks by Use Case · Kitletics",
+      "wordCount": 2699,
+      "scrollHeight": 11048,
+      "imgCount": 39,
+      "uniqueImgCount": 12,
+      "uniqueImgs": [
+        "/images/padel/products/head-padel-pro-s-hero.jpg",
+        "/images/padel/products/head-padel-pro-plus-hero.jpg",
+        "/images/padel/products/wilson-padel-premier-speed-hero.jpg",
+        "/images/padel/products/kuikma-pb-speed-hero.jpg",
+        "/images/padel/products/tecnifibre-padel-team-balls-hero.jpg",
+        "/images/padel/products/wilson-padel-premier-hero.jpg",
+        "/images/padel/products/bullpadel-premium-pro-hero.jpg",
+        "/images/padel/products/dunlop-pro-padel-hero.jpg",
+        "/images/padel/products/kuikma-pb-control-hero.jpg",
+        "/images/padel/products/head-padel-team-hero.jpg",
+        "/images/padel/hero.jpg",
+        "/images/padel/balls/drop-shot-tournament-tech-hero.jpg"
+      ],
+      "galleryPaths": [],
+      "sectionPaths": [],
+      "productPaths": [
+        "/images/padel/products/head-padel-pro-s-hero.jpg",
+        "/images/padel/products/head-padel-pro-plus-hero.jpg",
+        "/images/padel/products/wilson-padel-premier-speed-hero.jpg",
+        "/images/padel/products/kuikma-pb-speed-hero.jpg",
+        "/images/padel/products/tecnifibre-padel-team-balls-hero.jpg",
+        "/images/padel/products/wilson-padel-premier-hero.jpg",
+        "/images/padel/products/bullpadel-premium-pro-hero.jpg",
+        "/images/padel/products/dunlop-pro-padel-hero.jpg",
+        "/images/padel/products/kuikma-pb-control-hero.jpg",
+        "/images/padel/products/head-padel-team-hero.jpg"
+      ],
+      "repeats": [
+        {
+          "src": "/images/padel/products/head-padel-pro-s-hero.jpg",
+          "count": 7
+        },
+        {
+          "src": "/images/padel/products/head-padel-pro-plus-hero.jpg",
+          "count": 7
+        },
+        {
+          "src": "/images/padel/products/wilson-padel-premier-speed-hero.jpg",
+          "count": 6
+        },
+        {
+          "src": "/images/padel/products/kuikma-pb-speed-hero.jpg",
+          "count": 6
+        },
+        {
+          "src": "/images/padel/products/tecnifibre-padel-team-balls-hero.jpg",
+          "count": 6
+        }
+      ],
+      "h2s": [
+        "Why the criteria change",
+        "Top picks — Padel Balls",
+        "Our quick take",
+        "What makes a good use case product?",
+        "Recommendations",
+        "How the top picks differ",
+        "Compare these picks",
+        "Which use case product should you choose?",
+        "Raw product specs",
+        "How we narrowed the field",
+        "How we research & score",
+        "How to choose",
+        "Find your perfect match",
+        "More guides"
+      ],
+      "headingGlue": [],
+      "priceHints": [
+        "From € 5,79",
+        "From € 6,19",
+        "From € 4,90",
+        "€ 5,79",
+        "€ 6,19",
+        "€ 4,90"
+      ],
+      "hasEmptyCommerce": true,
+      "whoForSample": [
+        "I'd shortlist Padel Pro S+ when its role matches your week better than Padel Pro+ or Premier Padel Speed. Skip it if too lively for some beginner sessions is a deal-breaker — then jump to the alternative that fixes that first.",
+        "Players who want a faster match pace on slow or cool courts",
+        "Players who want a faster match pace on slow or cool courts",
+        "Players who want Pro+’s longer sit.",
+        "I'd shortlist Padel Pro+ when its role matches your week better than Padel Pro S+ or Premier Padel Speed. Skip it if not the fastest HEAD can is a deal-breaker — then jump to the alternative that fixes that first.",
+        "Players who prefer control-first match play at club pace",
+        "Players who prefer control-first match play at club pace",
+        "Players who prefer players who explicitly want maximum pace.",
+        "Players who specifically want the fastest HEAD can.",
+        "Players who prefer explicitly want maximum pace.",
+        "I'd shortlist Premier Padel Speed when its role matches your week better than Padel Pro S+ or Padel Pro+. Skip it if too lively for already-fast summer outdoors is a deal-breaker — then jump to the alternative that fixes that first.",
+        "Players who need extra pop in cold climates and slow courts",
+        "Players who need extra pop in cold climates and slow courts",
+        "Players who prefer heat/altitude players wanting control.",
+        "I'd shortlist Padel Speed when its role matches your week better than Padel Pro S+ or Padel Pro+. Skip it if not the control can for heat/altitude is a deal-breaker — then jump to the alternative that fixes that first.",
+        "Players who want value competition pace on cool Dutch evenings"
+      ],
+      "residueHits": [],
+      "hasAmazonCta": false,
+      "retailerNames": [],
+      "hasDecisionTable": true,
+      "hasSvgDiagram": true,
+      "statusHint": "ok",
+      "httpStatus": 200,
+      "hero": "/images/padel/products/head-padel-pro-s-hero.jpg",
+      "heroIdentity": "1e6ed26aa26d"
+    },
+    {
+      "path": "/best/padel-overgrips",
+      "kind": "best",
+      "title": "Best Padel Overgrips: Top Picks by Use Case · Kitletics",
+      "wordCount": 1989,
+      "scrollHeight": 8798,
+      "imgCount": 26,
+      "uniqueImgCount": 7,
+      "uniqueImgs": [
+        "/images/padel/products/wilson-padel-overgrip-hero.jpg",
+        "/images/padel/products/bullpadel-hac-overgrip-hero.jpg",
+        "/images/padel/products/nox-pro-overgrip-hero.jpg",
+        "/images/padel/products/head-xtreme-soft-overgrip-hero.jpg",
+        "/images/padel/products/babolat-pro-response-overgrip-hero.jpg",
+        "/images/padel/products/kuikma-padel-overgrip-hero.jpg",
+        "/images/padel/guides/grips.jpg"
+      ],
+      "galleryPaths": [],
+      "sectionPaths": [],
+      "productPaths": [
+        "/images/padel/products/wilson-padel-overgrip-hero.jpg",
+        "/images/padel/products/bullpadel-hac-overgrip-hero.jpg",
+        "/images/padel/products/nox-pro-overgrip-hero.jpg",
+        "/images/padel/products/head-xtreme-soft-overgrip-hero.jpg",
+        "/images/padel/products/babolat-pro-response-overgrip-hero.jpg",
+        "/images/padel/products/kuikma-padel-overgrip-hero.jpg"
+      ],
+      "repeats": [
+        {
+          "src": "/images/padel/products/wilson-padel-overgrip-hero.jpg",
+          "count": 7
+        },
+        {
+          "src": "/images/padel/products/bullpadel-hac-overgrip-hero.jpg",
+          "count": 7
+        },
+        {
+          "src": "/images/padel/products/nox-pro-overgrip-hero.jpg",
+          "count": 7
+        }
+      ],
+      "h2s": [
+        "Why the criteria change",
+        "Top picks for overgrips",
+        "Our quick take",
+        "What makes a good use case padel overgrip?",
+        "Recommendations",
+        "How the top picks differ",
+        "Compare these picks",
+        "Which use case Padel Overgrip should you choose?",
+        "Raw product specs",
+        "How we narrowed the field",
+        "How we research & score",
+        "How to choose an overgrip",
+        "Find your perfect match",
+        "More guides"
+      ],
+      "headingGlue": [],
+      "priceHints": [
+        "From € 9,95",
+        "€ 9,95"
+      ],
+      "hasEmptyCommerce": true,
+      "whoForSample": [
+        "Players who prefer a thin, familiar overgrip feel",
+        "Players who prefer a thin, familiar overgrip feel",
+        "Players who prefer default thin padel-length 3-pack.",
+        "Players who need a shaped comfort sleeve",
+        "Players who need sweat absorption more than max tack",
+        "Players who need sweat absorption more than max tack",
+        "Players who prefer specialist PDP, not bullpadel.com.",
+        "I'd shortlist Pro Overgrip when its role matches your week better than Pro Padel Overgrip or HaC. Skip it if less of a tack-first story than Wilson Pro is a deal-breaker — then jump to the alternative that fixes that first.",
+        "Players who prefer absorbent alternative.",
+        "Players who prefer nox kit cohesion.",
+        "Players who prefer 3-pack convenience.",
+        "Players who prefer players who only wanted Wilson’s thin tack.",
+        "Players who prefer only wanted Wilson’s thin tack."
+      ],
+      "residueHits": [],
+      "hasAmazonCta": false,
+      "retailerNames": [],
+      "hasDecisionTable": true,
+      "hasSvgDiagram": true,
+      "statusHint": "ok",
+      "httpStatus": 200,
+      "hero": "/images/padel/products/wilson-padel-overgrip-hero.jpg",
+      "heroIdentity": "f621453e1105"
+    },
+    {
+      "path": "/best/padel-overgrips-sweaty-hands",
+      "kind": "best",
+      "title": "Best Padel Overgrips for Sweaty Hands: Top Picks by Use Case · Kitletics",
+      "wordCount": 1832,
+      "scrollHeight": 8410,
+      "imgCount": 22,
+      "uniqueImgCount": 6,
+      "uniqueImgs": [
+        "/images/padel/products/nox-pro-overgrip-hero.jpg",
+        "/images/padel/products/bullpadel-hac-overgrip-hero.jpg",
+        "/images/padel/products/kuikma-padel-overgrip-hero.jpg",
+        "/images/padel/guides/grips.jpg",
+        "/images/padel/products/wilson-padel-overgrip-hero.jpg",
+        "/images/padel/products/head-xtreme-soft-overgrip-hero.jpg"
+      ],
+      "galleryPaths": [],
+      "sectionPaths": [],
+      "productPaths": [
+        "/images/padel/products/nox-pro-overgrip-hero.jpg",
+        "/images/padel/products/bullpadel-hac-overgrip-hero.jpg",
+        "/images/padel/products/kuikma-padel-overgrip-hero.jpg",
+        "/images/padel/products/wilson-padel-overgrip-hero.jpg",
+        "/images/padel/products/head-xtreme-soft-overgrip-hero.jpg"
+      ],
+      "repeats": [
+        {
+          "src": "/images/padel/products/nox-pro-overgrip-hero.jpg",
+          "count": 7
+        },
+        {
+          "src": "/images/padel/products/bullpadel-hac-overgrip-hero.jpg",
+          "count": 7
+        },
+        {
+          "src": "/images/padel/products/kuikma-padel-overgrip-hero.jpg",
+          "count": 5
+        }
+      ],
+      "h2s": [
+        "Why the criteria change",
+        "Top picks — Padel Overgrips",
+        "Our quick take",
+        "What makes a good use case padel overgrip?",
+        "Recommendations",
+        "How the top picks differ",
+        "Compare these picks",
+        "Which use case Padel Overgrip should you choose?",
+        "Raw product specs",
+        "How we narrowed the field",
+        "How we research & score",
+        "How to choose",
+        "Find your perfect match",
+        "More guides"
+      ],
+      "headingGlue": [],
+      "priceHints": [
+        "From € 9,95",
+        "€ 9,95"
+      ],
+      "hasEmptyCommerce": true,
+      "whoForSample": [
+        "I'd shortlist HaC when its role matches your week better than Pro Overgrip or Kuikma Overgrip Pro. Skip it if specialist PDP, not bullpadel.com is a deal-breaker — then jump to the alternative that fixes that first.",
+        "Players who prefer humid club nights.",
+        "Players who prefer sweat kills tack.",
+        "Players who prefer padel-native absorbent wrap.",
+        "Players who want thin tack as the whole point",
+        "I'd shortlist Pro Overgrip when its role matches your week better than HaC or Kuikma Overgrip Pro. Skip it if less of a tack-first story than Wilson Pro is a deal-breaker — then jump to the alternative that fixes that first.",
+        "Players who prefer Nox absorbent wrap",
+        "Players who prefer Humid sessions",
+        "Players who already settled on HaC.",
+        "I'd shortlist Kuikma Overgrip Pro when its role matches your week better than HaC or Pro Overgrip. Skip it if sold as single/club packs — confirm local pack count is a deal-breaker — then jump to the alternative that fixes that first.",
+        "Players who prefer humid volume practice.",
+        "Players who prefer price-per-grip absorption.",
+        "Players who prefer players who only wanted Wilson’s thin tack.",
+        "Players who prefer only wanted Wilson’s thin tack."
+      ],
+      "residueHits": [],
+      "hasAmazonCta": false,
+      "retailerNames": [],
+      "hasDecisionTable": true,
+      "hasSvgDiagram": true,
+      "statusHint": "ok",
+      "httpStatus": 200,
+      "hero": "/images/padel/products/nox-pro-overgrip-hero.jpg",
+      "heroIdentity": "99ea2e627ecc"
+    },
+    {
+      "path": "/best/padel-tacky-overgrips",
+      "kind": "best",
+      "title": "Best Tacky Padel Overgrips: Top Picks by Use Case · Kitletics",
+      "wordCount": 1839,
+      "scrollHeight": 8521,
+      "imgCount": 22,
+      "uniqueImgCount": 6,
+      "uniqueImgs": [
+        "/images/padel/products/head-xtreme-soft-overgrip-hero.jpg",
+        "/images/padel/products/wilson-padel-overgrip-hero.jpg",
+        "/images/padel/products/babolat-pro-response-overgrip-hero.jpg",
+        "/images/padel/guides/grips.jpg",
+        "/images/padel/products/nox-pro-overgrip-hero.jpg",
+        "/images/padel/products/bullpadel-hac-overgrip-hero.jpg"
+      ],
+      "galleryPaths": [],
+      "sectionPaths": [],
+      "productPaths": [
+        "/images/padel/products/head-xtreme-soft-overgrip-hero.jpg",
+        "/images/padel/products/wilson-padel-overgrip-hero.jpg",
+        "/images/padel/products/babolat-pro-response-overgrip-hero.jpg",
+        "/images/padel/products/nox-pro-overgrip-hero.jpg",
+        "/images/padel/products/bullpadel-hac-overgrip-hero.jpg"
+      ],
+      "repeats": [
+        {
+          "src": "/images/padel/products/head-xtreme-soft-overgrip-hero.jpg",
+          "count": 7
+        },
+        {
+          "src": "/images/padel/products/wilson-padel-overgrip-hero.jpg",
+          "count": 7
+        },
+        {
+          "src": "/images/padel/products/babolat-pro-response-overgrip-hero.jpg",
+          "count": 5
+        }
+      ],
+      "h2s": [
+        "Why the criteria change",
+        "Top picks — Padel Overgrips",
+        "Our quick take",
+        "What makes a good use case padel overgrip?",
+        "Recommendations",
+        "How the top picks differ",
+        "Compare these picks",
+        "Which use case Padel Overgrip should you choose?",
+        "Raw product specs",
+        "How we narrowed the field",
+        "How we research & score",
+        "How to choose",
+        "Find your perfect match",
+        "More guides"
+      ],
+      "headingGlue": [],
+      "priceHints": [
+        "From € 9,95",
+        "From € 2,29",
+        "€ 9,95",
+        "€ 2,29"
+      ],
+      "hasEmptyCommerce": true,
+      "whoForSample": [
+        "I'd shortlist Pro Padel Overgrip when its role matches your week better than Xtreme Soft or Pro Response. Skip it if not the driest option for heavy sweat is a deal-breaker — then jump to the alternative that fixes that first.",
+        "Players who prefer a thin, familiar overgrip feel",
+        "Players who prefer a thin, familiar overgrip feel",
+        "Players who prefer padel-length thin tack 3-pack.",
+        "Players who need absorption-first wraps as the whole point.",
+        "Players who specifically want the driest option for heavy sweat.",
+        "I'd shortlist Xtreme Soft when its role matches your week better than Pro Padel Overgrip or Pro Response. Skip it if sold per grip on this listing — buy multipacks for value is a deal-breaker — then jump to the alternative that fixes that first.",
+        "Players who prefer Soft tacky feel",
+        "Players who prefer HEAD wrap lane",
+        "Players who prefer only wanted Wilson’s thinner light tack.",
+        "I'd shortlist Pro Response when its role matches your week better than Pro Padel Overgrip or Xtreme Soft. Skip it if shared racket-sports grip, not padel-exclusive is a deal-breaker — then jump to the alternative that fixes that first.",
+        "Players who prefer thin tacky multipack.",
+        "Players who prefer babolat wrap lane."
+      ],
+      "residueHits": [],
+      "hasAmazonCta": false,
+      "retailerNames": [],
+      "hasDecisionTable": true,
+      "hasSvgDiagram": true,
+      "statusHint": "ok",
+      "httpStatus": 200,
+      "hero": "/images/padel/products/head-xtreme-soft-overgrip-hero.jpg",
+      "heroIdentity": "3a65f7eee92c"
+    },
+    {
+      "path": "/best/padel-ergonomic-grip-systems",
+      "kind": "best",
+      "title": "Best Ergonomic Padel Grip Systems: Top Picks by Use Case · Kitletics",
+      "wordCount": 1917,
+      "scrollHeight": 8835,
+      "imgCount": 24,
+      "uniqueImgCount": 7,
+      "uniqueImgs": [
+        "/images/padel/products/hesacore-padel-grip-hero.jpg",
+        "/images/padel/grips/hesacore-tour-original-hero.jpg",
+        "/images/padel/grips/hesacore-pro-carbon-hero.jpg",
+        "/images/padel/products/wilson-padel-overgrip-hero.jpg",
+        "/images/padel/guides/grips.jpg",
+        "/images/padel/products/bullpadel-hac-overgrip-hero.jpg",
+        "/images/padel/products/nox-pro-overgrip-hero.jpg"
+      ],
+      "galleryPaths": [],
+      "sectionPaths": [],
+      "productPaths": [
+        "/images/padel/products/hesacore-padel-grip-hero.jpg",
+        "/images/padel/products/wilson-padel-overgrip-hero.jpg",
+        "/images/padel/products/bullpadel-hac-overgrip-hero.jpg",
+        "/images/padel/products/nox-pro-overgrip-hero.jpg"
+      ],
+      "repeats": [
+        {
+          "src": "/images/padel/products/hesacore-padel-grip-hero.jpg",
+          "count": 7
+        },
+        {
+          "src": "/images/padel/grips/hesacore-tour-original-hero.jpg",
+          "count": 6
+        },
+        {
+          "src": "/images/padel/grips/hesacore-pro-carbon-hero.jpg",
+          "count": 6
+        }
+      ],
+      "h2s": [
+        "Why the criteria change",
+        "Top picks — Padel Overgrips",
+        "Our quick take",
+        "What makes a good use case padel overgrip?",
+        "Recommendations",
+        "How the top picks differ",
+        "Compare these picks",
+        "Which use case Padel Overgrip should you choose?",
+        "Raw product specs",
+        "How we narrowed the field",
+        "How we research & score",
+        "How to choose",
+        "Find your perfect match",
+        "More guides"
+      ],
+      "headingGlue": [],
+      "priceHints": [
+        "From € 17,99",
+        "€ 17,99"
+      ],
+      "hasEmptyCommerce": true,
+      "whoForSample": [
+        "I'd shortlist Hesacore when its role matches your week better than Tour / Original or Pro Carbon. Skip it if not a thin overgrip; fit is personal is a deal-breaker — then jump to the alternative that fixes that first.",
+        "Players who prefer ergonomic cushion.",
+        "Players who prefer system players.",
+        "Players who prefer only wanted a thin overgrip multipack.",
+        "I'd shortlist Tour / Original when its role matches your week better than Hesacore or Pro Carbon. Skip it if overgrips wear out; budget for regular replacement. is a deal-breaker — then jump to the alternative that fixes that first.",
+        "Players who prefer tour Original SKU.",
+        "Players who prefer manufacturer Hesacore path.",
+        "I'd shortlist Pro Carbon when its role matches your week better than Hesacore or Tour / Original. Skip it if overgrips wear out; budget for regular replacement. is a deal-breaker — then jump to the alternative that fixes that first.",
+        "Players who prefer Firmer Hesacore",
+        "Players who prefer Pro Carbon lane",
+        "Players who prefer players who wanted Wilson thin tack.",
+        "Players who prefer wanted Wilson thin tack."
+      ],
+      "residueHits": [],
+      "hasAmazonCta": false,
+      "retailerNames": [],
+      "hasDecisionTable": true,
+      "hasSvgDiagram": true,
+      "statusHint": "ok",
+      "httpStatus": 200,
+      "hero": "/images/padel/products/hesacore-padel-grip-hero.jpg",
+      "heroIdentity": "ba0e19710aa5"
+    },
+    {
+      "path": "/best/padel-bags",
+      "kind": "best",
+      "title": "Best Padel Bags: Top Picks by Use Case · Kitletics",
+      "wordCount": 2116,
+      "scrollHeight": 9001,
+      "imgCount": 28,
+      "uniqueImgCount": 10,
+      "uniqueImgs": [
+        "/images/padel/products/adidas-protour-padel-bag-hero.jpg",
+        "/images/padel/products/nox-at10-team-paletero-hero.jpg",
+        "/images/padel/products/babolat-rh-pro-padel-hero.jpg",
+        "/images/padel/products/tecnifibre-tour-endurance-padel-backpack-hero.jpg",
+        "/images/padel/products/bullpadel-vertex-geo-backpack-hero.jpg",
+        "/images/padel/products/nox-at10-xxl-padel-bag-hero.jpg",
+        "/images/padel/products/wilson-super-tour-padel-bag-hero.jpg",
+        "/images/padel/bags/nox-at10-competition-trolley-hero.jpg",
+        "/images/padel/bags/head-tour-backpack-25l-hero.jpg",
+        "/images/padel/bags/head-tour-team-elite-hero.jpg"
+      ],
+      "galleryPaths": [],
+      "sectionPaths": [],
+      "productPaths": [
+        "/images/padel/products/adidas-protour-padel-bag-hero.jpg",
+        "/images/padel/products/nox-at10-team-paletero-hero.jpg",
+        "/images/padel/products/babolat-rh-pro-padel-hero.jpg",
+        "/images/padel/products/tecnifibre-tour-endurance-padel-backpack-hero.jpg",
+        "/images/padel/products/bullpadel-vertex-geo-backpack-hero.jpg",
+        "/images/padel/products/nox-at10-xxl-padel-bag-hero.jpg",
+        "/images/padel/products/wilson-super-tour-padel-bag-hero.jpg"
+      ],
+      "repeats": [
+        {
+          "src": "/images/padel/products/nox-at10-team-paletero-hero.jpg",
+          "count": 7
+        },
+        {
+          "src": "/images/padel/products/babolat-rh-pro-padel-hero.jpg",
+          "count": 7
+        },
+        {
+          "src": "/images/padel/products/tecnifibre-tour-endurance-padel-backpack-hero.jpg",
+          "count": 7
+        }
+      ],
+      "h2s": [
+        "Why the criteria change",
+        "Top picks by carry job",
+        "Our quick take",
+        "What makes a good use case padel bag?",
+        "Recommendations",
+        "How the top picks differ",
+        "Compare these picks",
+        "Which use case Padel Bag should you choose?",
+        "Raw product specs",
+        "How we narrowed the field",
+        "How we research & score",
+        "How to choose a padel bag",
+        "Find your perfect match",
+        "More guides"
+      ],
+      "headingGlue": [],
+      "priceHints": [
+        "From € 44,96",
+        "From € 41,95",
+        "€ 44,96",
+        "€ 41,95"
+      ],
+      "hasEmptyCommerce": true,
+      "whoForSample": [
+        "Players who prefer club paletero.",
+        "Players who prefer thermo plus shoes.",
+        "Players who prefer backpack-strap nights.",
+        "Players who need RH Pro volume",
+        "I'd shortlist RH Pro Padel when its role matches your week better than AT10 Team Paletero or Tour Endurance Backpack. Skip it if large for bike/commute is a deal-breaker — then jump to the alternative that fixes that first.",
+        "Players who prefer tournament weekends.",
+        "Players who prefer four-racket capacity.",
+        "Players who prefer insulated plus shoes.",
+        "Players who prefer large for bike/commute.",
+        "Players who prefer only carry two frames to the club.",
+        "Players who prefer commute backpack.",
+        "Players who need listed thermo and racket counts."
+      ],
+      "residueHits": [],
+      "hasAmazonCta": false,
+      "retailerNames": [],
+      "hasDecisionTable": true,
+      "hasSvgDiagram": true,
+      "statusHint": "ok",
+      "httpStatus": 200,
+      "hero": "/images/padel/products/adidas-protour-padel-bag-hero.jpg",
+      "heroIdentity": "16cda4dd45fb"
+    },
+    {
+      "path": "/best/padel-ball-pressurizers",
+      "kind": "best",
+      "title": "Best Padel Ball Pressurizers: Top Picks by Use Case · Kitletics",
+      "wordCount": 1568,
+      "scrollHeight": 7514,
+      "imgCount": 16,
+      "uniqueImgCount": 5,
+      "uniqueImgs": [
+        "/images/padel/products/bullpadel-pascal-box-3b-hero.jpg",
+        "/images/padel/products/head-x3-ball-pressurizer-hero.jpg",
+        "/images/padel/hero.jpg",
+        "/images/padel/products/head-padel-pro-s-hero.jpg",
+        "/images/padel/products/bullpadel-frame-protector-3-pack-hero.jpg"
+      ],
+      "galleryPaths": [],
+      "sectionPaths": [],
+      "productPaths": [
+        "/images/padel/products/bullpadel-pascal-box-3b-hero.jpg",
+        "/images/padel/products/head-x3-ball-pressurizer-hero.jpg",
+        "/images/padel/products/head-padel-pro-s-hero.jpg",
+        "/images/padel/products/bullpadel-frame-protector-3-pack-hero.jpg"
+      ],
+      "repeats": [
+        {
+          "src": "/images/padel/products/bullpadel-pascal-box-3b-hero.jpg",
+          "count": 7
+        },
+        {
+          "src": "/images/padel/products/head-x3-ball-pressurizer-hero.jpg",
+          "count": 6
+        }
+      ],
+      "h2s": [
+        "Why the criteria change",
+        "Top picks — Accessories",
+        "Our quick take",
+        "What makes a good use case product?",
+        "Recommendations",
+        "How the top picks differ",
+        "Compare these picks",
+        "Which use case product should you choose?",
+        "Raw product specs",
+        "How we narrowed the field",
+        "How we research & score",
+        "How to choose",
+        "Find your perfect match",
+        "More guides"
+      ],
+      "headingGlue": [],
+      "priceHints": [
+        "From € 58,49",
+        "€ 58,49"
+      ],
+      "hasEmptyCommerce": true,
+      "whoForSample": [
+        "Players who want to restore pressure to opened ball cans",
+        "Players who want to restore pressure to opened ball cans",
+        "Players who will not actually pump after sessions.",
+        "Players who prefer HEAD’s three-ball pressurizer form",
+        "Players who prefer HEAD’s three-ball pressurizer form",
+        "Players who need manual pump re-pressurize as the whole point."
+      ],
+      "residueHits": [],
+      "hasAmazonCta": false,
+      "retailerNames": [],
+      "hasDecisionTable": true,
+      "hasSvgDiagram": true,
+      "statusHint": "ok",
+      "httpStatus": 200,
+      "hero": "/images/padel/products/bullpadel-pascal-box-3b-hero.jpg",
+      "heroIdentity": "fb22f475cf08"
+    },
+    {
+      "path": "/guides/how-to-choose-a-padel-racket",
+      "kind": "guide",
+      "title": "How to Choose a Padel Racket | Complete Buying Guide · Kitletics",
+      "wordCount": 2396,
+      "scrollHeight": 11797,
+      "imgCount": 22,
+      "uniqueImgCount": 6,
+      "uniqueImgs": [
+        "/images/padel/guides/choose-racket.jpg",
+        "/images/padel/products/bullpadel-indiga-ctr-hero.jpg",
+        "/images/padel/products/nox-ml10-pro-cup-2026-hero.jpg",
+        "/images/padel/products/bullpadel-vertex-05-hero.png",
+        "/images/padel/products/bullpadel-hack-04-hero.png",
+        "/images/padel/products/nox-at10-genius-12k-alum-xtrem-2026-hero.jpg"
+      ],
+      "galleryPaths": [],
+      "sectionPaths": [],
+      "productPaths": [
+        "/images/padel/products/bullpadel-indiga-ctr-hero.jpg",
+        "/images/padel/products/nox-ml10-pro-cup-2026-hero.jpg",
+        "/images/padel/products/bullpadel-vertex-05-hero.png",
+        "/images/padel/products/bullpadel-hack-04-hero.png",
+        "/images/padel/products/nox-at10-genius-12k-alum-xtrem-2026-hero.jpg"
+      ],
+      "repeats": [
+        {
+          "src": "/images/padel/products/bullpadel-vertex-05-hero.png",
+          "count": 6
+        },
+        {
+          "src": "/images/padel/products/bullpadel-indiga-ctr-hero.jpg",
+          "count": 5
+        },
+        {
+          "src": "/images/padel/products/nox-ml10-pro-cup-2026-hero.jpg",
+          "count": 5
+        },
+        {
+          "src": "/images/padel/products/bullpadel-hack-04-hero.png",
+          "count": 4
+        }
+      ],
+      "h2s": [
+        "Find a padel racket",
+        "On this page",
+        "The short version",
+        "1 What a padel racket decision really is",
+        "2 Why forgiveness usually compounds faster",
+        "3 Factors that should drive the choice",
+        "4 What to look for in each factor",
+        "5 Forgiving control frame vs Power-focused frame",
+        "6 What you gain — and give up",
+        "7 Approaches for this decision",
+        "8 How current options differ",
+        "9 Decision steps for this guide",
+        "10 Common mistakes",
+        "11 Frequently asked questions",
+        "Examples for this a padel racket decision",
+        "Head-to-head comparisons",
+        "How we research",
+        "Find a padel racket",
+        "On this page",
+        "Need help deciding?",
+        "Recommended shortlists",
+        "Related guides",
+        "Need help deciding?",
+        "Recommended shortlists",
+        "Related guides"
+      ],
+      "headingGlue": [
+        "10 Common mistakes",
+        "11 Frequently asked questions"
+      ],
+      "priceHints": [
+        "From € 84,99",
+        "From € 179",
+        "From € 319",
+        "From € 309",
+        "€ 84,99",
+        "€ 179",
+        "€ 319",
+        "€ 309"
+      ],
+      "hasEmptyCommerce": false,
+      "whoForSample": [
+        "You are matching geometry and response to how you already play — not copying a World Padel Tour bag."
+      ],
+      "residueHits": [],
+      "hasAmazonCta": false,
+      "retailerNames": [],
+      "hasDecisionTable": true,
+      "hasSvgDiagram": true,
+      "statusHint": "ok",
+      "httpStatus": 200,
+      "hero": "/images/padel/guides/choose-racket.jpg",
+      "heroIdentity": "39c3e9373ef4"
+    },
+    {
+      "path": "/guides/padel-racket-shapes-explained",
+      "kind": "guide",
+      "title": "Padel Racket Shapes Explained | Complete Buying Guide · Kitletics",
+      "wordCount": 2653,
+      "scrollHeight": 12995,
+      "imgCount": 18,
+      "uniqueImgCount": 5,
+      "uniqueImgs": [
+        "/images/padel/products/bullpadel-vertex-05-hybrid-hero.jpg",
+        "/images/padel/products/bullpadel-indiga-ctr-hero.jpg",
+        "/images/padel/products/bullpadel-hack-04-hero.png",
+        "/images/padel/products/nox-at10-genius-12k-alum-xtrem-2026-hero.jpg",
+        "/images/padel/products/bullpadel-vertex-05-hero.png"
+      ],
+      "galleryPaths": [],
+      "sectionPaths": [],
+      "productPaths": [
+        "/images/padel/products/bullpadel-vertex-05-hybrid-hero.jpg",
+        "/images/padel/products/bullpadel-indiga-ctr-hero.jpg",
+        "/images/padel/products/bullpadel-hack-04-hero.png",
+        "/images/padel/products/nox-at10-genius-12k-alum-xtrem-2026-hero.jpg",
+        "/images/padel/products/bullpadel-vertex-05-hero.png"
+      ],
+      "repeats": [
+        {
+          "src": "/images/padel/products/bullpadel-vertex-05-hybrid-hero.jpg",
+          "count": 5
+        },
+        {
+          "src": "/images/padel/products/bullpadel-hack-04-hero.png",
+          "count": 5
+        },
+        {
+          "src": "/images/padel/products/bullpadel-indiga-ctr-hero.jpg",
+          "count": 4
+        },
+        {
+          "src": "/images/padel/products/nox-at10-genius-12k-alum-xtrem-2026-hero.jpg",
+          "count": 3
+        }
+      ],
+      "h2s": [
+        "Find padel racket shapes",
+        "On this page",
+        "The short version",
+        "1 What padel racket shapes decisions are really about",
+        "2 Why shape matters",
+        "3 Factors that should drive the choice",
+        "4 What to look for in each factor",
+        "5 Round control shape vs Diamond attack shape",
+        "6 What you gain — and give up",
+        "7 Approaches for this decision",
+        "8 How current options differ",
+        "9 Decision steps for this guide",
+        "10 Common mistakes",
+        "11 Frequently asked questions",
+        "Examples for this padel racket shapes decision",
+        "Head-to-head comparisons",
+        "How we research",
+        "Find padel racket shapes",
+        "On this page",
+        "Need help deciding?",
+        "Recommended shortlists",
+        "Related guides",
+        "Need help deciding?",
+        "Recommended shortlists",
+        "Related guides"
+      ],
+      "headingGlue": [
+        "10 Common mistakes",
+        "11 Frequently asked questions"
+      ],
+      "priceHints": [
+        "From € 84,99",
+        "From € 223,98",
+        "From € 309",
+        "From € 329",
+        "€ 84,99",
+        "€ 223,98",
+        "€ 309",
+        "€ 329"
+      ],
+      "hasEmptyCommerce": false,
+      "whoForSample": [],
+      "residueHits": [],
+      "hasAmazonCta": false,
+      "retailerNames": [],
+      "hasDecisionTable": true,
+      "hasSvgDiagram": true,
+      "statusHint": "ok",
+      "httpStatus": 200,
+      "hero": "/images/padel/products/bullpadel-vertex-05-hybrid-hero.jpg",
+      "heroIdentity": "b75e7b85fadd"
+    },
+    {
+      "path": "/guides/round-vs-teardrop-vs-diamond-padel-rackets",
+      "kind": "guide",
+      "title": "Round vs Teardrop vs Diamond Padel Rackets | Complete Buying Guide · Kitletics",
+      "wordCount": 2591,
+      "scrollHeight": 12751,
+      "imgCount": 17,
+      "uniqueImgCount": 5,
+      "uniqueImgs": [
+        "/images/padel/products/bullpadel-hack-04-hero.png",
+        "/images/padel/products/bullpadel-indiga-ctr-hero.jpg",
+        "/images/padel/products/nox-at10-genius-12k-alum-xtrem-2026-hero.jpg",
+        "/images/padel/products/bullpadel-vertex-05-hero.png",
+        "/images/padel/products/adidas-metalbone-3-5-2026-hero.jpg"
+      ],
+      "galleryPaths": [],
+      "sectionPaths": [],
+      "productPaths": [
+        "/images/padel/products/bullpadel-hack-04-hero.png",
+        "/images/padel/products/bullpadel-indiga-ctr-hero.jpg",
+        "/images/padel/products/nox-at10-genius-12k-alum-xtrem-2026-hero.jpg",
+        "/images/padel/products/bullpadel-vertex-05-hero.png",
+        "/images/padel/products/adidas-metalbone-3-5-2026-hero.jpg"
+      ],
+      "repeats": [
+        {
+          "src": "/images/padel/products/bullpadel-hack-04-hero.png",
+          "count": 6
+        },
+        {
+          "src": "/images/padel/products/nox-at10-genius-12k-alum-xtrem-2026-hero.jpg",
+          "count": 5
+        },
+        {
+          "src": "/images/padel/products/bullpadel-indiga-ctr-hero.jpg",
+          "count": 4
+        }
+      ],
+      "h2s": [
+        "Find round vs teardrop vs diamond padel rackets",
+        "On this page",
+        "The short version",
+        "1 What round vs teardrop vs diamond padel rackets decisions are really about",
+        "2 Why the comparison matters",
+        "3 Factors that should drive the choice",
+        "4 What to look for in each factor",
+        "5 Round / soft control vs Diamond attack",
+        "6 What you gain — and give up",
+        "7 Approaches for this decision",
+        "8 How current options differ",
+        "9 Decision steps for this guide",
+        "10 Common mistakes",
+        "11 Frequently asked questions",
+        "Examples for this round vs teardrop vs diamond padel rackets decision",
+        "Head-to-head comparisons",
+        "How we research",
+        "Find round vs teardrop vs diamond padel rackets",
+        "On this page",
+        "Need help deciding?",
+        "Recommended shortlists",
+        "Related guides",
+        "Need help deciding?",
+        "Recommended shortlists",
+        "Related guides"
+      ],
+      "headingGlue": [
+        "10 Common mistakes",
+        "11 Frequently asked questions"
+      ],
+      "priceHints": [
+        "From € 84,99",
+        "From € 329",
+        "From € 309",
+        "€ 84,99",
+        "€ 329",
+        "€ 309"
+      ],
+      "hasEmptyCommerce": false,
+      "whoForSample": [],
+      "residueHits": [],
+      "hasAmazonCta": false,
+      "retailerNames": [],
+      "hasDecisionTable": true,
+      "hasSvgDiagram": true,
+      "statusHint": "ok",
+      "httpStatus": 200,
+      "hero": "/images/padel/products/bullpadel-hack-04-hero.png",
+      "heroIdentity": "5885d124088f"
+    },
+    {
+      "path": "/guides/padel-racket-balance-explained",
+      "kind": "guide",
+      "title": "Padel Racket Balance Explained | Complete Buying Guide · Kitletics",
+      "wordCount": 2709,
+      "scrollHeight": 12997,
+      "imgCount": 18,
+      "uniqueImgCount": 4,
+      "uniqueImgs": [
+        "/images/padel/products/adidas-metalbone-3-5-2026-hero.jpg",
+        "/images/padel/products/bullpadel-indiga-ctr-hero.jpg",
+        "/images/padel/products/head-extreme-motion-2026-hero.png",
+        "/images/padel/products/bullpadel-hack-04-hero.png"
+      ],
+      "galleryPaths": [],
+      "sectionPaths": [],
+      "productPaths": [
+        "/images/padel/products/adidas-metalbone-3-5-2026-hero.jpg",
+        "/images/padel/products/bullpadel-indiga-ctr-hero.jpg",
+        "/images/padel/products/head-extreme-motion-2026-hero.png",
+        "/images/padel/products/bullpadel-hack-04-hero.png"
+      ],
+      "repeats": [
+        {
+          "src": "/images/padel/products/adidas-metalbone-3-5-2026-hero.jpg",
+          "count": 5
+        },
+        {
+          "src": "/images/padel/products/bullpadel-hack-04-hero.png",
+          "count": 5
+        },
+        {
+          "src": "/images/padel/products/bullpadel-indiga-ctr-hero.jpg",
+          "count": 4
+        },
+        {
+          "src": "/images/padel/products/head-extreme-motion-2026-hero.png",
+          "count": 4
+        }
+      ],
+      "h2s": [
+        "Find padel racket balance",
+        "On this page",
+        "The short version",
+        "1 What padel racket balance decisions are really about",
+        "2 Why balance matters",
+        "3 Factors that should drive the choice",
+        "4 What to look for in each factor",
+        "5 Low / mid-low balance vs Mid-high / high balance",
+        "6 What you gain — and give up",
+        "7 Approaches for this decision",
+        "8 How current options differ",
+        "9 Decision steps for this guide",
+        "10 Common mistakes",
+        "11 Frequently asked questions",
+        "Examples for this padel racket balance decision",
+        "Head-to-head comparisons",
+        "How we research",
+        "Find padel racket balance",
+        "On this page",
+        "Need help deciding?",
+        "Recommended shortlists",
+        "Related guides",
+        "Need help deciding?",
+        "Recommended shortlists",
+        "Related guides"
+      ],
+      "headingGlue": [
+        "10 Common mistakes",
+        "11 Frequently asked questions"
+      ],
+      "priceHints": [
+        "From € 84,99",
+        "From € 209",
+        "From € 309",
+        "€ 84,99",
+        "€ 209",
+        "€ 309"
+      ],
+      "hasEmptyCommerce": false,
+      "whoForSample": [],
+      "residueHits": [],
+      "hasAmazonCta": true,
+      "retailerNames": [],
+      "hasDecisionTable": true,
+      "hasSvgDiagram": true,
+      "statusHint": "ok",
+      "httpStatus": 200,
+      "hero": "/images/padel/products/adidas-metalbone-3-5-2026-hero.jpg",
+      "heroIdentity": "03dc0d74eea8"
+    },
+    {
+      "path": "/guides/padel-racket-weight-explained",
+      "kind": "guide",
+      "title": "Padel Racket Weight Explained | Complete Buying Guide · Kitletics",
+      "wordCount": 2662,
+      "scrollHeight": 13288,
+      "imgCount": 22,
+      "uniqueImgCount": 6,
+      "uniqueImgs": [
+        "/images/padel/products/bullpadel-ionic-light-hero.jpg",
+        "/images/padel/products/head-extreme-motion-2026-hero.png",
+        "/images/padel/products/bullpadel-vertex-05-hero.png",
+        "/images/padel/products/adidas-metalbone-3-5-2026-hero.jpg",
+        "/images/padel/products/bullpadel-hack-04-hero.png",
+        "/images/padel/products/nox-at10-genius-12k-alum-xtrem-2026-hero.jpg"
+      ],
+      "galleryPaths": [],
+      "sectionPaths": [],
+      "productPaths": [
+        "/images/padel/products/bullpadel-ionic-light-hero.jpg",
+        "/images/padel/products/head-extreme-motion-2026-hero.png",
+        "/images/padel/products/bullpadel-vertex-05-hero.png",
+        "/images/padel/products/adidas-metalbone-3-5-2026-hero.jpg",
+        "/images/padel/products/bullpadel-hack-04-hero.png",
+        "/images/padel/products/nox-at10-genius-12k-alum-xtrem-2026-hero.jpg"
+      ],
+      "repeats": [
+        {
+          "src": "/images/padel/products/bullpadel-vertex-05-hero.png",
+          "count": 6
+        },
+        {
+          "src": "/images/padel/products/bullpadel-ionic-light-hero.jpg",
+          "count": 5
+        },
+        {
+          "src": "/images/padel/products/head-extreme-motion-2026-hero.png",
+          "count": 4
+        },
+        {
+          "src": "/images/padel/products/adidas-metalbone-3-5-2026-hero.jpg",
+          "count": 4
+        }
+      ],
+      "h2s": [
+        "Find padel racket weight",
+        "On this page",
+        "The short version",
+        "1 What padel racket weight decisions are really about",
+        "2 Why weight matters",
+        "3 Factors that should drive the choice",
+        "4 What to look for in each factor",
+        "5 Lighter handling frame vs Heavier stable frame",
+        "6 What you gain — and give up",
+        "7 Approaches for this decision",
+        "8 How current options differ",
+        "9 Decision steps for this guide",
+        "10 Common mistakes",
+        "11 Frequently asked questions",
+        "Examples for this padel racket weight decision",
+        "Head-to-head comparisons",
+        "How we research",
+        "Find padel racket weight",
+        "On this page",
+        "Need help deciding?",
+        "Recommended shortlists",
+        "Related guides",
+        "Need help deciding?",
+        "Recommended shortlists",
+        "Related guides"
+      ],
+      "headingGlue": [
+        "10 Common mistakes",
+        "11 Frequently asked questions"
+      ],
+      "priceHints": [
+        "From € 129,99",
+        "From € 209",
+        "From € 319",
+        "€ 129,99",
+        "€ 209",
+        "€ 319"
+      ],
+      "hasEmptyCommerce": false,
+      "whoForSample": [],
+      "residueHits": [],
+      "hasAmazonCta": true,
+      "retailerNames": [],
+      "hasDecisionTable": true,
+      "hasSvgDiagram": true,
+      "statusHint": "ok",
+      "httpStatus": 200,
+      "hero": "/images/padel/products/bullpadel-ionic-light-hero.jpg",
+      "heroIdentity": "0015e4ef3bf4"
+    },
+    {
+      "path": "/guides/padel-racket-materials-explained",
+      "kind": "guide",
+      "title": "Padel Racket Materials Explained | Complete Buying Guide · Kitletics",
+      "wordCount": 2634,
+      "scrollHeight": 13286,
+      "imgCount": 22,
+      "uniqueImgCount": 6,
+      "uniqueImgs": [
+        "/images/padel/products/kuikma-pr-comfort-soft-hero.jpg",
+        "/images/padel/products/bullpadel-hack-04-comfort-hero.jpg",
+        "/images/padel/products/nox-at10-genius-12k-alum-xtrem-2026-hero.jpg",
+        "/images/padel/products/bullpadel-hack-04-hero.png",
+        "/images/padel/products/bullpadel-vertex-05-hero.png",
+        "/images/padel/products/adidas-metalbone-3-5-2026-hero.jpg"
+      ],
+      "galleryPaths": [],
+      "sectionPaths": [],
+      "productPaths": [
+        "/images/padel/products/kuikma-pr-comfort-soft-hero.jpg",
+        "/images/padel/products/bullpadel-hack-04-comfort-hero.jpg",
+        "/images/padel/products/nox-at10-genius-12k-alum-xtrem-2026-hero.jpg",
+        "/images/padel/products/bullpadel-hack-04-hero.png",
+        "/images/padel/products/bullpadel-vertex-05-hero.png",
+        "/images/padel/products/adidas-metalbone-3-5-2026-hero.jpg"
+      ],
+      "repeats": [
+        {
+          "src": "/images/padel/products/nox-at10-genius-12k-alum-xtrem-2026-hero.jpg",
+          "count": 6
+        },
+        {
+          "src": "/images/padel/products/kuikma-pr-comfort-soft-hero.jpg",
+          "count": 5
+        },
+        {
+          "src": "/images/padel/products/bullpadel-hack-04-comfort-hero.jpg",
+          "count": 4
+        },
+        {
+          "src": "/images/padel/products/bullpadel-hack-04-hero.png",
+          "count": 4
+        }
+      ],
+      "h2s": [
+        "Find padel racket materials",
+        "On this page",
+        "The short version",
+        "1 What padel racket materials decisions are really about",
+        "2 Why materials matter",
+        "3 Factors that should drive the choice",
+        "4 What to look for in each factor",
+        "5 Accessible glass face vs Stiffer carbon face",
+        "6 What you gain — and give up",
+        "7 Approaches for this decision",
+        "8 How current options differ",
+        "9 Decision steps for this guide",
+        "10 Common mistakes",
+        "11 Frequently asked questions",
+        "Examples for this padel racket materials decision",
+        "Head-to-head comparisons",
+        "How we research",
+        "Find padel racket materials",
+        "On this page",
+        "Need help deciding?",
+        "Recommended shortlists",
+        "Related guides",
+        "Need help deciding?",
+        "Recommended shortlists",
+        "Related guides"
+      ],
+      "headingGlue": [
+        "10 Common mistakes",
+        "11 Frequently asked questions"
+      ],
+      "priceHints": [
+        "From € 44,99",
+        "From € 204,99",
+        "From € 329",
+        "From € 309",
+        "€ 44,99",
+        "€ 204,99",
+        "€ 329",
+        "€ 309"
+      ],
+      "hasEmptyCommerce": false,
+      "whoForSample": [],
+      "residueHits": [],
+      "hasAmazonCta": false,
+      "retailerNames": [],
+      "hasDecisionTable": true,
+      "hasSvgDiagram": true,
+      "statusHint": "ok",
+      "httpStatus": 200,
+      "hero": "/images/padel/products/kuikma-pr-comfort-soft-hero.jpg",
+      "heroIdentity": "86618866bf88"
+    },
+    {
+      "path": "/guides/carbon-vs-fiberglass-padel-rackets",
+      "kind": "guide",
+      "title": "Carbon vs Fiberglass Padel Rackets | Complete Buying Guide · Kitletics",
+      "wordCount": 2645,
+      "scrollHeight": 13322,
+      "imgCount": 22,
+      "uniqueImgCount": 8,
+      "uniqueImgs": [
+        "/images/padel/products/bullpadel-hack-04-comfort-hero.jpg",
+        "/images/padel/products/kuikma-pr-comfort-soft-hero.jpg",
+        "/images/padel/products/nox-equation-soft-advanced-2026-hero.jpg",
+        "/images/padel/products/nox-at10-genius-12k-alum-xtrem-2026-hero.jpg",
+        "/images/padel/products/babolat-technical-viper-hero.png",
+        "/images/padel/products/bullpadel-vertex-05-hero.png",
+        "/images/padel/products/bullpadel-hack-04-hero.png",
+        "/images/padel/products/adidas-metalbone-3-5-2026-hero.jpg"
+      ],
+      "galleryPaths": [],
+      "sectionPaths": [],
+      "productPaths": [
+        "/images/padel/products/bullpadel-hack-04-comfort-hero.jpg",
+        "/images/padel/products/kuikma-pr-comfort-soft-hero.jpg",
+        "/images/padel/products/nox-equation-soft-advanced-2026-hero.jpg",
+        "/images/padel/products/nox-at10-genius-12k-alum-xtrem-2026-hero.jpg",
+        "/images/padel/products/babolat-technical-viper-hero.png",
+        "/images/padel/products/bullpadel-vertex-05-hero.png",
+        "/images/padel/products/bullpadel-hack-04-hero.png",
+        "/images/padel/products/adidas-metalbone-3-5-2026-hero.jpg"
+      ],
+      "repeats": [
+        {
+          "src": "/images/padel/products/nox-at10-genius-12k-alum-xtrem-2026-hero.jpg",
+          "count": 6
+        },
+        {
+          "src": "/images/padel/products/kuikma-pr-comfort-soft-hero.jpg",
+          "count": 4
+        },
+        {
+          "src": "/images/padel/products/nox-equation-soft-advanced-2026-hero.jpg",
+          "count": 4
+        },
+        {
+          "src": "/images/padel/products/babolat-technical-viper-hero.png",
+          "count": 3
+        }
+      ],
+      "h2s": [
+        "Find carbon vs fiberglass padel rackets",
+        "On this page",
+        "The short version",
+        "1 What carbon vs fiberglass padel rackets decisions are really about",
+        "2 Why the comparison matters",
+        "3 Factors that should drive the choice",
+        "4 What to look for in each factor",
+        "5 Fiberglass-accessible face vs Carbon performance face",
+        "6 What you gain — and give up",
+        "7 Approaches for this decision",
+        "8 How current options differ",
+        "9 Decision steps for this guide",
+        "10 Common mistakes",
+        "11 Frequently asked questions",
+        "Examples for this carbon vs fiberglass padel rackets decision",
+        "Head-to-head comparisons",
+        "How we research",
+        "Find carbon vs fiberglass padel rackets",
+        "On this page",
+        "Need help deciding?",
+        "Recommended shortlists",
+        "Related guides",
+        "Need help deciding?",
+        "Recommended shortlists",
+        "Related guides"
+      ],
+      "headingGlue": [
+        "10 Common mistakes",
+        "11 Frequently asked questions"
+      ],
+      "priceHints": [
+        "From € 44,99",
+        "From € 329",
+        "From € 279,95",
+        "€ 44,99",
+        "€ 329",
+        "€ 279,95"
+      ],
+      "hasEmptyCommerce": false,
+      "whoForSample": [],
+      "residueHits": [],
+      "hasAmazonCta": true,
+      "retailerNames": [],
+      "hasDecisionTable": true,
+      "hasSvgDiagram": true,
+      "statusHint": "ok",
+      "httpStatus": 200,
+      "hero": "/images/padel/products/bullpadel-hack-04-comfort-hero.jpg",
+      "heroIdentity": "24bf6d55d853"
+    },
+    {
+      "path": "/guides/padel-racket-cores-eva-foam-explained",
+      "kind": "guide",
+      "title": "Padel Racket Cores / EVA Foam Explained | Complete Buying Guide · Kitletics",
+      "wordCount": 2641,
+      "scrollHeight": 13042,
+      "imgCount": 18,
+      "uniqueImgCount": 4,
+      "uniqueImgs": [
+        "/images/padel/products/nox-equation-soft-advanced-2026-hero.jpg",
+        "/images/padel/products/kuikma-pr-comfort-soft-hero.jpg",
+        "/images/padel/products/bullpadel-vertex-05-hero.png",
+        "/images/padel/products/bullpadel-hack-04-hero.png"
+      ],
+      "galleryPaths": [],
+      "sectionPaths": [],
+      "productPaths": [
+        "/images/padel/products/nox-equation-soft-advanced-2026-hero.jpg",
+        "/images/padel/products/kuikma-pr-comfort-soft-hero.jpg",
+        "/images/padel/products/bullpadel-vertex-05-hero.png",
+        "/images/padel/products/bullpadel-hack-04-hero.png"
+      ],
+      "repeats": [
+        {
+          "src": "/images/padel/products/nox-equation-soft-advanced-2026-hero.jpg",
+          "count": 5
+        },
+        {
+          "src": "/images/padel/products/bullpadel-vertex-05-hero.png",
+          "count": 5
+        },
+        {
+          "src": "/images/padel/products/kuikma-pr-comfort-soft-hero.jpg",
+          "count": 4
+        },
+        {
+          "src": "/images/padel/products/bullpadel-hack-04-hero.png",
+          "count": 4
+        }
+      ],
+      "h2s": [
+        "Find padel racket cores and EVA foam",
+        "On this page",
+        "The short version",
+        "1 What padel racket cores and EVA foam decisions are really about",
+        "2 Why cores matter",
+        "3 Factors that should drive the choice",
+        "4 What to look for in each factor",
+        "5 Soft EVA package vs Harder EVA package",
+        "6 What you gain — and give up",
+        "7 Approaches for this decision",
+        "8 How current options differ",
+        "9 Decision steps for this guide",
+        "10 Common mistakes",
+        "11 Frequently asked questions",
+        "Examples for this padel racket cores and EVA foam decision",
+        "Head-to-head comparisons",
+        "How we research",
+        "Find padel racket cores and EVA foam",
+        "On this page",
+        "Need help deciding?",
+        "Recommended shortlists",
+        "Related guides",
+        "Need help deciding?",
+        "Recommended shortlists",
+        "Related guides"
+      ],
+      "headingGlue": [
+        "10 Common mistakes",
+        "11 Frequently asked questions"
+      ],
+      "priceHints": [
+        "From € 44,99",
+        "From € 319",
+        "From € 309",
+        "€ 44,99",
+        "€ 319",
+        "€ 309"
+      ],
+      "hasEmptyCommerce": false,
+      "whoForSample": [],
+      "residueHits": [],
+      "hasAmazonCta": true,
+      "retailerNames": [],
+      "hasDecisionTable": true,
+      "hasSvgDiagram": true,
+      "statusHint": "ok",
+      "httpStatus": 200,
+      "hero": "/images/padel/products/nox-equation-soft-advanced-2026-hero.jpg",
+      "heroIdentity": "d0057f41415f"
+    },
+    {
+      "path": "/guides/soft-vs-hard-padel-rackets",
+      "kind": "guide",
+      "title": "Soft vs Hard Padel Rackets | Complete Buying Guide · Kitletics",
+      "wordCount": 2596,
+      "scrollHeight": 12817,
+      "imgCount": 18,
+      "uniqueImgCount": 5,
+      "uniqueImgs": [
+        "/images/padel/products/adidas-metalbone-hrd-hero.png",
+        "/images/padel/products/nox-equation-soft-advanced-2026-hero.jpg",
+        "/images/padel/products/kuikma-pr-comfort-soft-hero.jpg",
+        "/images/padel/products/bullpadel-hack-04-hero.png",
+        "/images/padel/products/adidas-metalbone-3-5-2026-hero.jpg"
+      ],
+      "galleryPaths": [],
+      "sectionPaths": [],
+      "productPaths": [
+        "/images/padel/products/adidas-metalbone-hrd-hero.png",
+        "/images/padel/products/nox-equation-soft-advanced-2026-hero.jpg",
+        "/images/padel/products/kuikma-pr-comfort-soft-hero.jpg",
+        "/images/padel/products/bullpadel-hack-04-hero.png",
+        "/images/padel/products/adidas-metalbone-3-5-2026-hero.jpg"
+      ],
+      "repeats": [
+        {
+          "src": "/images/padel/products/bullpadel-hack-04-hero.png",
+          "count": 5
+        },
+        {
+          "src": "/images/padel/products/nox-equation-soft-advanced-2026-hero.jpg",
+          "count": 4
+        },
+        {
+          "src": "/images/padel/products/kuikma-pr-comfort-soft-hero.jpg",
+          "count": 4
+        },
+        {
+          "src": "/images/padel/products/adidas-metalbone-3-5-2026-hero.jpg",
+          "count": 4
+        }
+      ],
+      "h2s": [
+        "Find soft vs hard padel rackets",
+        "On this page",
+        "The short version",
+        "1 What soft vs hard padel rackets decisions are really about",
+        "2 Why soft vs hard matters",
+        "3 Factors that should drive the choice",
+        "4 What to look for in each factor",
+        "5 Soft forgiving package vs Hard crisp package",
+        "6 What you gain — and give up",
+        "7 Approaches for this decision",
+        "8 How current options differ",
+        "9 Decision steps for this guide",
+        "10 Common mistakes",
+        "11 Frequently asked questions",
+        "Examples for this soft vs hard padel rackets decision",
+        "Head-to-head comparisons",
+        "How we research",
+        "Find soft vs hard padel rackets",
+        "On this page",
+        "Need help deciding?",
+        "Recommended shortlists",
+        "Related guides",
+        "Need help deciding?",
+        "Recommended shortlists",
+        "Related guides"
+      ],
+      "headingGlue": [
+        "10 Common mistakes",
+        "11 Frequently asked questions"
+      ],
+      "priceHints": [
+        "From € 44,99",
+        "From € 309",
+        "€ 44,99",
+        "€ 309"
+      ],
+      "hasEmptyCommerce": false,
+      "whoForSample": [],
+      "residueHits": [],
+      "hasAmazonCta": true,
+      "retailerNames": [],
+      "hasDecisionTable": true,
+      "hasSvgDiagram": true,
+      "statusHint": "ok",
+      "httpStatus": 200,
+      "hero": "/images/padel/products/adidas-metalbone-hrd-hero.png",
+      "heroIdentity": "3e35c4cbbba1"
+    },
+    {
+      "path": "/guides/how-padel-racket-sweet-spots-work",
+      "kind": "guide",
+      "title": "How Padel Racket Sweet Spots Work | Complete Buying Guide · Kitletics",
+      "wordCount": 2659,
+      "scrollHeight": 12870,
+      "imgCount": 20,
+      "uniqueImgCount": 4,
+      "uniqueImgs": [
+        "/images/padel/products/nox-ml10-pro-cup-2026-hero.jpg",
+        "/images/padel/products/bullpadel-indiga-ctr-hero.jpg",
+        "/images/padel/products/bullpadel-vertex-05-hero.png",
+        "/images/padel/products/bullpadel-hack-04-hero.png"
+      ],
+      "galleryPaths": [],
+      "sectionPaths": [],
+      "productPaths": [
+        "/images/padel/products/nox-ml10-pro-cup-2026-hero.jpg",
+        "/images/padel/products/bullpadel-indiga-ctr-hero.jpg",
+        "/images/padel/products/bullpadel-vertex-05-hero.png",
+        "/images/padel/products/bullpadel-hack-04-hero.png"
+      ],
+      "repeats": [
+        {
+          "src": "/images/padel/products/nox-ml10-pro-cup-2026-hero.jpg",
+          "count": 6
+        },
+        {
+          "src": "/images/padel/products/bullpadel-indiga-ctr-hero.jpg",
+          "count": 5
+        },
+        {
+          "src": "/images/padel/products/bullpadel-vertex-05-hero.png",
+          "count": 5
+        },
+        {
+          "src": "/images/padel/products/bullpadel-hack-04-hero.png",
+          "count": 4
+        }
+      ],
+      "h2s": [
+        "Find padel racket sweet spots",
+        "On this page",
+        "The short version",
+        "1 What padel racket sweet spots decisions are really about",
+        "2 Why sweet spots matter",
+        "3 Factors that should drive the choice",
+        "4 What to look for in each factor",
+        "5 Centred forgiving sweet zone vs Higher attacking sweet zone",
+        "6 What you gain — and give up",
+        "7 Approaches for this decision",
+        "8 How current options differ",
+        "9 Decision steps for this guide",
+        "10 Common mistakes",
+        "11 Frequently asked questions",
+        "Examples for this padel racket sweet spots decision",
+        "Head-to-head comparisons",
+        "How we research",
+        "Find padel racket sweet spots",
+        "On this page",
+        "Need help deciding?",
+        "Recommended shortlists",
+        "Related guides",
+        "Need help deciding?",
+        "Recommended shortlists",
+        "Related guides"
+      ],
+      "headingGlue": [
+        "10 Common mistakes",
+        "11 Frequently asked questions"
+      ],
+      "priceHints": [
+        "From € 84,99",
+        "From € 179",
+        "From € 319",
+        "From € 309",
+        "€ 84,99",
+        "€ 179",
+        "€ 319",
+        "€ 309"
+      ],
+      "hasEmptyCommerce": false,
+      "whoForSample": [],
+      "residueHits": [],
+      "hasAmazonCta": false,
+      "retailerNames": [],
+      "hasDecisionTable": true,
+      "hasSvgDiagram": true,
+      "statusHint": "ok",
+      "httpStatus": 200,
+      "hero": "/images/padel/products/nox-ml10-pro-cup-2026-hero.jpg",
+      "heroIdentity": "11f55cf21806"
+    },
+    {
+      "path": "/guides/how-to-choose-padel-shoes",
+      "kind": "guide",
+      "title": "How to Choose Padel Shoes | Complete Buying Guide · Kitletics",
+      "wordCount": 2481,
+      "scrollHeight": 12530,
+      "imgCount": 16,
+      "uniqueImgCount": 5,
+      "uniqueImgs": [
+        "/images/padel/guides/choose-shoes.jpg",
+        "/images/padel/products/asics-gel-resolution-padel-hero.jpg",
+        "/images/padel/products/adidas-courtquick-padel-hero.jpg",
+        "/images/padel/products/babolat-jet-premura-hero.jpg",
+        "/images/padel/products/joma-t-slam-hero.jpg"
+      ],
+      "galleryPaths": [],
+      "sectionPaths": [],
+      "productPaths": [
+        "/images/padel/products/asics-gel-resolution-padel-hero.jpg",
+        "/images/padel/products/adidas-courtquick-padel-hero.jpg",
+        "/images/padel/products/babolat-jet-premura-hero.jpg",
+        "/images/padel/products/joma-t-slam-hero.jpg"
+      ],
+      "repeats": [
+        {
+          "src": "/images/padel/products/asics-gel-resolution-padel-hero.jpg",
+          "count": 4
+        },
+        {
+          "src": "/images/padel/products/adidas-courtquick-padel-hero.jpg",
+          "count": 4
+        },
+        {
+          "src": "/images/padel/products/babolat-jet-premura-hero.jpg",
+          "count": 4
+        },
+        {
+          "src": "/images/padel/products/joma-t-slam-hero.jpg",
+          "count": 3
+        }
+      ],
+      "h2s": [
+        "On this page",
+        "The short version",
+        "1 What padel shoes decisions are really about",
+        "2 Why it matters",
+        "3 Factors that should drive the choice",
+        "4 What to look for in each factor",
+        "5 Stable court shoe vs Lighter speed shoe",
+        "6 What you gain — and give up",
+        "7 Approaches for this decision",
+        "8 How current options differ",
+        "9 Decision steps for this guide",
+        "10 Common mistakes",
+        "11 Frequently asked questions",
+        "Examples for this padel shoes decision",
+        "How we research",
+        "On this page",
+        "Need help deciding?",
+        "Recommended shortlists",
+        "Related guides",
+        "Need help deciding?",
+        "Recommended shortlists",
+        "Related guides"
+      ],
+      "headingGlue": [
+        "10 Common mistakes",
+        "11 Frequently asked questions"
+      ],
+      "priceHints": [
+        "From € 139",
+        "From € 89,95",
+        "From € 129",
+        "From € 109",
+        "€ 139",
+        "€ 89,95",
+        "€ 129",
+        "€ 109"
+      ],
+      "hasEmptyCommerce": false,
+      "whoForSample": [],
+      "residueHits": [],
+      "hasAmazonCta": false,
+      "retailerNames": [],
+      "hasDecisionTable": true,
+      "hasSvgDiagram": true,
+      "statusHint": "ok",
+      "httpStatus": 200,
+      "hero": "/images/padel/guides/choose-shoes.jpg",
+      "heroIdentity": "7f89762874e5"
+    },
+    {
+      "path": "/guides/padel-vs-tennis-shoes",
+      "kind": "guide",
+      "title": "Padel vs Tennis Shoes | Complete Buying Guide · Kitletics",
+      "wordCount": 2496,
+      "scrollHeight": 12461,
+      "imgCount": 16,
+      "uniqueImgCount": 4,
+      "uniqueImgs": [
+        "/images/padel/products/head-revolt-pro-court-hero.jpg",
+        "/images/padel/products/asics-gel-resolution-padel-hero.jpg",
+        "/images/padel/products/adidas-courtquick-padel-hero.jpg",
+        "/images/padel/products/babolat-jet-premura-hero.jpg"
+      ],
+      "galleryPaths": [],
+      "sectionPaths": [],
+      "productPaths": [
+        "/images/padel/products/head-revolt-pro-court-hero.jpg",
+        "/images/padel/products/asics-gel-resolution-padel-hero.jpg",
+        "/images/padel/products/adidas-courtquick-padel-hero.jpg",
+        "/images/padel/products/babolat-jet-premura-hero.jpg"
+      ],
+      "repeats": [
+        {
+          "src": "/images/padel/products/head-revolt-pro-court-hero.jpg",
+          "count": 5
+        },
+        {
+          "src": "/images/padel/products/asics-gel-resolution-padel-hero.jpg",
+          "count": 4
+        },
+        {
+          "src": "/images/padel/products/adidas-courtquick-padel-hero.jpg",
+          "count": 4
+        },
+        {
+          "src": "/images/padel/products/babolat-jet-premura-hero.jpg",
+          "count": 3
+        }
+      ],
+      "h2s": [
+        "On this page",
+        "The short version",
+        "1 What padel vs tennis shoes decisions are really about",
+        "2 Why the distinction matters",
+        "3 Factors that should drive the choice",
+        "4 What to look for in each factor",
+        "5 Padel-specific court shoe vs Tennis crossover shoe",
+        "6 What you gain — and give up",
+        "7 Approaches for this decision",
+        "8 How current options differ",
+        "9 Decision steps for this guide",
+        "10 Common mistakes",
+        "11 Frequently asked questions",
+        "Examples for this padel vs tennis shoes decision",
+        "How we research",
+        "On this page",
+        "Need help deciding?",
+        "Recommended shortlists",
+        "Related guides",
+        "Need help deciding?",
+        "Recommended shortlists",
+        "Related guides"
+      ],
+      "headingGlue": [
+        "10 Common mistakes",
+        "11 Frequently asked questions"
+      ],
+      "priceHints": [
+        "From € 139",
+        "From € 119",
+        "From € 89,95",
+        "From € 129",
+        "€ 139",
+        "€ 119",
+        "€ 89,95",
+        "€ 129"
+      ],
+      "hasEmptyCommerce": false,
+      "whoForSample": [],
+      "residueHits": [],
+      "hasAmazonCta": false,
+      "retailerNames": [],
+      "hasDecisionTable": true,
+      "hasSvgDiagram": true,
+      "statusHint": "ok",
+      "httpStatus": 200,
+      "hero": "/images/padel/products/head-revolt-pro-court-hero.jpg",
+      "heroIdentity": "ce61ebdafea4"
+    },
+    {
+      "path": "/guides/padel-shoe-outsoles-explained",
+      "kind": "guide",
+      "title": "Padel Shoe Outsoles Explained | Complete Buying Guide · Kitletics",
+      "wordCount": 2404,
+      "scrollHeight": 12383,
+      "imgCount": 16,
+      "uniqueImgCount": 4,
+      "uniqueImgs": [
+        "/images/padel/products/joma-t-slam-hero.jpg",
+        "/images/padel/products/adidas-courtquick-padel-hero.jpg",
+        "/images/padel/products/asics-gel-resolution-padel-hero.jpg",
+        "/images/padel/products/babolat-jet-premura-hero.jpg"
+      ],
+      "galleryPaths": [],
+      "sectionPaths": [],
+      "productPaths": [
+        "/images/padel/products/joma-t-slam-hero.jpg",
+        "/images/padel/products/adidas-courtquick-padel-hero.jpg",
+        "/images/padel/products/asics-gel-resolution-padel-hero.jpg",
+        "/images/padel/products/babolat-jet-premura-hero.jpg"
+      ],
+      "repeats": [
+        {
+          "src": "/images/padel/products/joma-t-slam-hero.jpg",
+          "count": 4
+        },
+        {
+          "src": "/images/padel/products/adidas-courtquick-padel-hero.jpg",
+          "count": 4
+        },
+        {
+          "src": "/images/padel/products/asics-gel-resolution-padel-hero.jpg",
+          "count": 4
+        },
+        {
+          "src": "/images/padel/products/babolat-jet-premura-hero.jpg",
+          "count": 4
+        }
+      ],
+      "h2s": [
+        "On this page",
+        "The short version",
+        "1 What padel shoe outsoles decisions are really about",
+        "2 Why outsoles matter",
+        "3 Factors that should drive the choice",
+        "4 What to look for in each factor",
+        "5 High-grip sand-ready outsole vs Faster connected outsole",
+        "6 What you gain — and give up",
+        "7 Approaches for this decision",
+        "8 How current options differ",
+        "9 Decision steps for this guide",
+        "10 Common mistakes",
+        "11 Frequently asked questions",
+        "Examples for this padel shoe outsoles decision",
+        "How we research",
+        "On this page",
+        "Need help deciding?",
+        "Recommended shortlists",
+        "Related guides",
+        "Need help deciding?",
+        "Recommended shortlists",
+        "Related guides"
+      ],
+      "headingGlue": [
+        "10 Common mistakes",
+        "11 Frequently asked questions"
+      ],
+      "priceHints": [
+        "From € 89,95",
+        "From € 139",
+        "From € 129",
+        "From € 109",
+        "€ 89,95",
+        "€ 139",
+        "€ 129",
+        "€ 109"
+      ],
+      "hasEmptyCommerce": false,
+      "whoForSample": [],
+      "residueHits": [],
+      "hasAmazonCta": false,
+      "retailerNames": [],
+      "hasDecisionTable": true,
+      "hasSvgDiagram": true,
+      "statusHint": "ok",
+      "httpStatus": 200,
+      "hero": "/images/padel/products/joma-t-slam-hero.jpg",
+      "heroIdentity": "c0e397ed92d5"
+    },
+    {
+      "path": "/guides/how-long-do-padel-balls-last",
+      "kind": "guide",
+      "title": "How Long Do Padel Balls Last? | Complete Buying Guide · Kitletics",
+      "wordCount": 2553,
+      "scrollHeight": 12894,
+      "imgCount": 20,
+      "uniqueImgCount": 4,
+      "uniqueImgs": [
+        "/images/padel/products/head-padel-pro-s-hero.jpg",
+        "/images/padel/products/kuikma-pb-speed-hero.jpg",
+        "/images/padel/products/head-padel-pro-plus-hero.jpg",
+        "/images/padel/products/wilson-padel-premier-speed-hero.jpg"
+      ],
+      "galleryPaths": [],
+      "sectionPaths": [],
+      "productPaths": [
+        "/images/padel/products/head-padel-pro-s-hero.jpg",
+        "/images/padel/products/kuikma-pb-speed-hero.jpg",
+        "/images/padel/products/head-padel-pro-plus-hero.jpg",
+        "/images/padel/products/wilson-padel-premier-speed-hero.jpg"
+      ],
+      "repeats": [
+        {
+          "src": "/images/padel/products/head-padel-pro-s-hero.jpg",
+          "count": 7
+        },
+        {
+          "src": "/images/padel/products/kuikma-pb-speed-hero.jpg",
+          "count": 5
+        },
+        {
+          "src": "/images/padel/products/head-padel-pro-plus-hero.jpg",
+          "count": 5
+        },
+        {
+          "src": "/images/padel/products/wilson-padel-premier-speed-hero.jpg",
+          "count": 3
+        }
+      ],
+      "h2s": [
+        "On this page",
+        "The short version",
+        "1 What padel ball lifespan decisions are really about",
+        "2 Why lifespan matters",
+        "3 Factors that should drive the choice",
+        "4 What to look for in each factor",
+        "5 Fresh pressurized can vs Tired training ball",
+        "6 What you gain — and give up",
+        "7 Approaches for this decision",
+        "8 How current options differ",
+        "9 Decision steps for this guide",
+        "10 Common mistakes",
+        "11 Frequently asked questions",
+        "Examples for this padel ball lifespan decision",
+        "Head-to-head comparisons",
+        "How we research",
+        "On this page",
+        "Need help deciding?",
+        "Recommended shortlists",
+        "Related guides",
+        "Need help deciding?",
+        "Recommended shortlists",
+        "Related guides"
+      ],
+      "headingGlue": [
+        "10 Common mistakes",
+        "11 Frequently asked questions"
+      ],
+      "priceHints": [
+        "From € 5,79",
+        "From € 6,19",
+        "€ 5,79",
+        "€ 6,19"
+      ],
+      "hasEmptyCommerce": false,
+      "whoForSample": [],
+      "residueHits": [],
+      "hasAmazonCta": true,
+      "retailerNames": [],
+      "hasDecisionTable": true,
+      "hasSvgDiagram": true,
+      "statusHint": "ok",
+      "httpStatus": 200,
+      "hero": "/images/padel/products/head-padel-pro-s-hero.jpg",
+      "heroIdentity": "1e6ed26aa26d"
+    },
+    {
+      "path": "/guides/how-to-choose-padel-balls",
+      "kind": "guide",
+      "title": "How to Choose Padel Balls | Complete Buying Guide · Kitletics",
+      "wordCount": 2536,
+      "scrollHeight": 13186,
+      "imgCount": 22,
+      "uniqueImgCount": 5,
+      "uniqueImgs": [
+        "/images/padel/products/kuikma-pb-speed-hero.jpg",
+        "/images/padel/products/head-padel-pro-s-hero.jpg",
+        "/images/padel/products/head-padel-pro-plus-hero.jpg",
+        "/images/padel/products/wilson-padel-premier-speed-hero.jpg",
+        "/images/padel/products/wilson-padel-premier-hero.jpg"
+      ],
+      "galleryPaths": [],
+      "sectionPaths": [],
+      "productPaths": [
+        "/images/padel/products/kuikma-pb-speed-hero.jpg",
+        "/images/padel/products/head-padel-pro-s-hero.jpg",
+        "/images/padel/products/head-padel-pro-plus-hero.jpg",
+        "/images/padel/products/wilson-padel-premier-speed-hero.jpg",
+        "/images/padel/products/wilson-padel-premier-hero.jpg"
+      ],
+      "repeats": [
+        {
+          "src": "/images/padel/products/kuikma-pb-speed-hero.jpg",
+          "count": 6
+        },
+        {
+          "src": "/images/padel/products/head-padel-pro-s-hero.jpg",
+          "count": 6
+        },
+        {
+          "src": "/images/padel/products/head-padel-pro-plus-hero.jpg",
+          "count": 5
+        },
+        {
+          "src": "/images/padel/products/wilson-padel-premier-speed-hero.jpg",
+          "count": 4
+        }
+      ],
+      "h2s": [
+        "On this page",
+        "The short version",
+        "1 What padel balls decisions are really about",
+        "2 Why ball choice matters",
+        "3 Factors that should drive the choice",
+        "4 What to look for in each factor",
+        "5 Faster competition can vs Control-oriented competition can",
+        "6 What you gain — and give up",
+        "7 Approaches for this decision",
+        "8 How current options differ",
+        "9 Decision steps for this guide",
+        "10 Common mistakes",
+        "11 Frequently asked questions",
+        "Examples for this padel balls decision",
+        "Head-to-head comparisons",
+        "How we research",
+        "On this page",
+        "Need help deciding?",
+        "Recommended shortlists",
+        "Related guides",
+        "Need help deciding?",
+        "Recommended shortlists",
+        "Related guides"
+      ],
+      "headingGlue": [
+        "10 Common mistakes",
+        "11 Frequently asked questions"
+      ],
+      "priceHints": [
+        "From € 5,79",
+        "From € 6,19",
+        "€ 5,79",
+        "€ 6,19"
+      ],
+      "hasEmptyCommerce": false,
+      "whoForSample": [],
+      "residueHits": [],
+      "hasAmazonCta": true,
+      "retailerNames": [],
+      "hasDecisionTable": true,
+      "hasSvgDiagram": true,
+      "statusHint": "ok",
+      "httpStatus": 200,
+      "hero": "/images/padel/products/kuikma-pb-speed-hero.jpg",
+      "heroIdentity": "16cf5483e384"
+    },
+    {
+      "path": "/guides/how-to-choose-a-padel-bag",
+      "kind": "guide",
+      "title": "How to Choose a Padel Bag | Complete Buying Guide · Kitletics",
+      "wordCount": 2394,
+      "scrollHeight": 12412,
+      "imgCount": 15,
+      "uniqueImgCount": 4,
+      "uniqueImgs": [
+        "/images/padel/products/nox-at10-team-paletero-hero.jpg",
+        "/images/padel/products/babolat-rh-pro-padel-hero.jpg",
+        "/images/padel/products/tecnifibre-tour-endurance-padel-backpack-hero.jpg",
+        "/images/padel/products/nox-at10-xxl-padel-bag-hero.jpg"
+      ],
+      "galleryPaths": [],
+      "sectionPaths": [],
+      "productPaths": [
+        "/images/padel/products/nox-at10-team-paletero-hero.jpg",
+        "/images/padel/products/babolat-rh-pro-padel-hero.jpg",
+        "/images/padel/products/tecnifibre-tour-endurance-padel-backpack-hero.jpg",
+        "/images/padel/products/nox-at10-xxl-padel-bag-hero.jpg"
+      ],
+      "repeats": [
+        {
+          "src": "/images/padel/products/nox-at10-team-paletero-hero.jpg",
+          "count": 7
+        },
+        {
+          "src": "/images/padel/products/babolat-rh-pro-padel-hero.jpg",
+          "count": 6
+        }
+      ],
+      "h2s": [
+        "On this page",
+        "The short version",
+        "1 What a padel bag decisions are really about",
+        "2 Why bag choice matters",
+        "3 Factors that should drive the choice",
+        "4 What to look for in each factor",
+        "5 Club paletero vs Tournament volume bag",
+        "6 What you gain — and give up",
+        "7 Approaches for this decision",
+        "8 How current options differ",
+        "9 Decision steps for this guide",
+        "10 Common mistakes",
+        "11 Frequently asked questions",
+        "Examples for this a padel bag decision",
+        "Head-to-head comparisons",
+        "How we research",
+        "On this page",
+        "Need help deciding?",
+        "Recommended shortlists",
+        "Related guides",
+        "Need help deciding?",
+        "Recommended shortlists",
+        "Related guides"
+      ],
+      "headingGlue": [
+        "10 Common mistakes",
+        "11 Frequently asked questions"
+      ],
+      "priceHints": [
+        "From € 44,96",
+        "€ 44,96"
+      ],
+      "hasEmptyCommerce": false,
+      "whoForSample": [],
+      "residueHits": [],
+      "hasAmazonCta": true,
+      "retailerNames": [],
+      "hasDecisionTable": true,
+      "hasSvgDiagram": true,
+      "statusHint": "ok",
+      "httpStatus": 200,
+      "hero": "/images/padel/products/nox-at10-team-paletero-hero.jpg",
+      "heroIdentity": "6d06dff089fc"
+    },
+    {
+      "path": "/guides/padel-grips-overgrips-explained",
+      "kind": "guide",
+      "title": "Padel Grips & Overgrips Explained | Complete Buying Guide · Kitletics",
+      "wordCount": 2187,
+      "scrollHeight": 11937,
+      "imgCount": 11,
+      "uniqueImgCount": 3,
+      "uniqueImgs": [
+        "/images/padel/guides/grips.jpg",
+        "/images/padel/products/wilson-padel-overgrip-hero.jpg",
+        "/images/padel/products/bullpadel-hac-overgrip-hero.jpg"
+      ],
+      "galleryPaths": [],
+      "sectionPaths": [],
+      "productPaths": [
+        "/images/padel/products/wilson-padel-overgrip-hero.jpg",
+        "/images/padel/products/bullpadel-hac-overgrip-hero.jpg"
+      ],
+      "repeats": [
+        {
+          "src": "/images/padel/products/wilson-padel-overgrip-hero.jpg",
+          "count": 5
+        },
+        {
+          "src": "/images/padel/products/bullpadel-hac-overgrip-hero.jpg",
+          "count": 5
+        }
+      ],
+      "h2s": [
+        "On this page",
+        "The short version",
+        "1 What padel grips and overgrips decisions are really about",
+        "2 Why it matters",
+        "3 Factors that should drive the choice",
+        "4 What to look for in each factor",
+        "5 Replacement grip vs Overgrip",
+        "6 What you gain — and give up",
+        "7 Approaches for this decision",
+        "8 How current options differ",
+        "9 Decision steps for this guide",
+        "10 Common mistakes",
+        "11 Frequently asked questions",
+        "Examples for this padel grips and overgrips decision",
+        "Head-to-head comparisons",
+        "How we research",
+        "On this page",
+        "Need help deciding?",
+        "Recommended shortlists",
+        "Related guides",
+        "Need help deciding?",
+        "Recommended shortlists",
+        "Related guides"
+      ],
+      "headingGlue": [
+        "10 Common mistakes",
+        "11 Frequently asked questions"
+      ],
+      "priceHints": [
+        "From € 9,95",
+        "€ 9,95"
+      ],
+      "hasEmptyCommerce": false,
+      "whoForSample": [],
+      "residueHits": [],
+      "hasAmazonCta": true,
+      "retailerNames": [],
+      "hasDecisionTable": true,
+      "hasSvgDiagram": true,
+      "statusHint": "ok",
+      "httpStatus": 200,
+      "hero": "/images/padel/guides/grips.jpg",
+      "heroIdentity": "7b9264db307f"
+    },
+    {
+      "path": "/guides/padel-grip-vs-overgrip",
+      "kind": "guide",
+      "title": "Padel Grip vs Overgrip | Complete Buying Guide · Kitletics",
+      "wordCount": 2256,
+      "scrollHeight": 11838,
+      "imgCount": 11,
+      "uniqueImgCount": 3,
+      "uniqueImgs": [
+        "/images/padel/products/hesacore-padel-grip-hero.jpg",
+        "/images/padel/products/wilson-padel-overgrip-hero.jpg",
+        "/images/padel/products/bullpadel-hac-overgrip-hero.jpg"
+      ],
+      "galleryPaths": [],
+      "sectionPaths": [],
+      "productPaths": [
+        "/images/padel/products/hesacore-padel-grip-hero.jpg",
+        "/images/padel/products/wilson-padel-overgrip-hero.jpg",
+        "/images/padel/products/bullpadel-hac-overgrip-hero.jpg"
+      ],
+      "repeats": [
+        {
+          "src": "/images/padel/products/wilson-padel-overgrip-hero.jpg",
+          "count": 5
+        },
+        {
+          "src": "/images/padel/products/bullpadel-hac-overgrip-hero.jpg",
+          "count": 5
+        }
+      ],
+      "h2s": [
+        "On this page",
+        "The short version",
+        "1 What padel grip vs overgrip decisions are really about",
+        "2 Why the distinction matters",
+        "3 Factors that should drive the choice",
+        "4 What to look for in each factor",
+        "5 Base replacement grip vs Overgrip refresh",
+        "6 What you gain — and give up",
+        "7 Approaches for this decision",
+        "8 How current options differ",
+        "9 Decision steps for this guide",
+        "10 Common mistakes",
+        "11 Frequently asked questions",
+        "Examples for this padel grip vs overgrip decision",
+        "Head-to-head comparisons",
+        "How we research",
+        "On this page",
+        "Need help deciding?",
+        "Recommended shortlists",
+        "Related guides",
+        "Need help deciding?",
+        "Recommended shortlists",
+        "Related guides"
+      ],
+      "headingGlue": [
+        "10 Common mistakes",
+        "11 Frequently asked questions"
+      ],
+      "priceHints": [
+        "From € 9,95",
+        "€ 9,95"
+      ],
+      "hasEmptyCommerce": false,
+      "whoForSample": [],
+      "residueHits": [],
+      "hasAmazonCta": true,
+      "retailerNames": [],
+      "hasDecisionTable": true,
+      "hasSvgDiagram": true,
+      "statusHint": "ok",
+      "httpStatus": 200,
+      "hero": "/images/padel/products/hesacore-padel-grip-hero.jpg",
+      "heroIdentity": "ba0e19710aa5"
+    },
+    {
+      "path": "/guides/how-often-should-you-replace-a-padel-overgrip",
+      "kind": "guide",
+      "title": "How Often Should You Replace a Padel Overgrip? | Complete Buying Guide · Kitletics",
+      "wordCount": 2252,
+      "scrollHeight": 12082,
+      "imgCount": 11,
+      "uniqueImgCount": 2,
+      "uniqueImgs": [
+        "/images/padel/products/bullpadel-hac-overgrip-hero.jpg",
+        "/images/padel/products/wilson-padel-overgrip-hero.jpg"
+      ],
+      "galleryPaths": [],
+      "sectionPaths": [],
+      "productPaths": [
+        "/images/padel/products/bullpadel-hac-overgrip-hero.jpg",
+        "/images/padel/products/wilson-padel-overgrip-hero.jpg"
+      ],
+      "repeats": [
+        {
+          "src": "/images/padel/products/bullpadel-hac-overgrip-hero.jpg",
+          "count": 6
+        },
+        {
+          "src": "/images/padel/products/wilson-padel-overgrip-hero.jpg",
+          "count": 5
+        }
+      ],
+      "h2s": [
+        "On this page",
+        "The short version",
+        "1 What padel overgrip replacement frequency decisions are really about",
+        "2 Why frequency matters",
+        "3 Factors that should drive the choice",
+        "4 What to look for in each factor",
+        "5 Tack-first overgrip vs Absorption-first overgrip",
+        "6 What you gain — and give up",
+        "7 Approaches for this decision",
+        "8 How current options differ",
+        "9 Decision steps for this guide",
+        "10 Common mistakes",
+        "11 Frequently asked questions",
+        "Examples for this padel overgrip replacement frequency decision",
+        "Head-to-head comparisons",
+        "How we research",
+        "On this page",
+        "Need help deciding?",
+        "Recommended shortlists",
+        "Related guides",
+        "Need help deciding?",
+        "Recommended shortlists",
+        "Related guides"
+      ],
+      "headingGlue": [
+        "10 Common mistakes",
+        "11 Frequently asked questions"
+      ],
+      "priceHints": [
+        "From € 9,95",
+        "€ 9,95"
+      ],
+      "hasEmptyCommerce": false,
+      "whoForSample": [],
+      "residueHits": [],
+      "hasAmazonCta": true,
+      "retailerNames": [],
+      "hasDecisionTable": true,
+      "hasSvgDiagram": true,
+      "statusHint": "ok",
+      "httpStatus": 200,
+      "hero": "/images/padel/products/bullpadel-hac-overgrip-hero.jpg",
+      "heroIdentity": "756b39ed4bb0"
+    },
+    {
+      "path": "/guides/beginner-padel-gear-guide",
+      "kind": "guide",
+      "title": "Beginner Padel Gear Guide | Complete Buying Guide · Kitletics",
+      "wordCount": 2602,
+      "scrollHeight": 13248,
+      "imgCount": 22,
+      "uniqueImgCount": 8,
+      "uniqueImgs": [
+        "/images/padel/products/bullpadel-indiga-ctr-hero.jpg",
+        "/images/padel/products/adidas-courtquick-padel-hero.jpg",
+        "/images/padel/products/head-padel-pro-s-hero.jpg",
+        "/images/padel/products/wilson-padel-overgrip-hero.jpg",
+        "/images/padel/products/bullpadel-vertex-05-hero.png",
+        "/images/padel/products/bullpadel-hack-04-hero.png",
+        "/images/padel/products/nox-at10-genius-12k-alum-xtrem-2026-hero.jpg",
+        "/images/padel/products/adidas-metalbone-3-5-2026-hero.jpg"
+      ],
+      "galleryPaths": [],
+      "sectionPaths": [],
+      "productPaths": [
+        "/images/padel/products/bullpadel-indiga-ctr-hero.jpg",
+        "/images/padel/products/adidas-courtquick-padel-hero.jpg",
+        "/images/padel/products/head-padel-pro-s-hero.jpg",
+        "/images/padel/products/wilson-padel-overgrip-hero.jpg",
+        "/images/padel/products/bullpadel-vertex-05-hero.png",
+        "/images/padel/products/bullpadel-hack-04-hero.png",
+        "/images/padel/products/nox-at10-genius-12k-alum-xtrem-2026-hero.jpg",
+        "/images/padel/products/adidas-metalbone-3-5-2026-hero.jpg"
+      ],
+      "repeats": [
+        {
+          "src": "/images/padel/products/bullpadel-indiga-ctr-hero.jpg",
+          "count": 5
+        },
+        {
+          "src": "/images/padel/products/adidas-courtquick-padel-hero.jpg",
+          "count": 4
+        },
+        {
+          "src": "/images/padel/products/head-padel-pro-s-hero.jpg",
+          "count": 4
+        },
+        {
+          "src": "/images/padel/products/wilson-padel-overgrip-hero.jpg",
+          "count": 3
+        }
+      ],
+      "h2s": [
+        "Find beginner padel gear",
+        "On this page",
+        "The short version",
+        "1 What beginner padel gear decisions are really about",
+        "2 Why a beginner kit differs",
+        "3 Factors that should drive the choice",
+        "4 What to look for in each factor",
+        "5 Forgiving starter kit vs Pro-copy kit",
+        "6 What you gain — and give up",
+        "7 Approaches for this decision",
+        "8 How current options differ",
+        "9 Decision steps for this guide",
+        "10 Common mistakes",
+        "11 Frequently asked questions",
+        "Examples for this beginner padel gear decision",
+        "Head-to-head comparisons",
+        "How we research",
+        "Find beginner padel gear",
+        "On this page",
+        "Need help deciding?",
+        "Recommended shortlists",
+        "Related guides",
+        "Need help deciding?",
+        "Recommended shortlists",
+        "Related guides"
+      ],
+      "headingGlue": [
+        "10 Common mistakes",
+        "11 Frequently asked questions"
+      ],
+      "priceHints": [
+        "From € 84,99",
+        "From € 89,95",
+        "From € 5,79",
+        "From € 9,95",
+        "€ 84,99",
+        "€ 89,95",
+        "€ 5,79",
+        "€ 9,95"
+      ],
+      "hasEmptyCommerce": false,
+      "whoForSample": [],
+      "residueHits": [],
+      "hasAmazonCta": false,
+      "retailerNames": [],
+      "hasDecisionTable": true,
+      "hasSvgDiagram": true,
+      "statusHint": "ok",
+      "httpStatus": 200,
+      "hero": "/images/padel/products/bullpadel-indiga-ctr-hero.jpg",
+      "heroIdentity": "1bd2616aeb66"
+    },
+    {
+      "path": "/guides/complete-padel-gear-checklist",
+      "kind": "guide",
+      "title": "Complete Padel Gear Checklist | Complete Buying Guide · Kitletics",
+      "wordCount": 2598,
+      "scrollHeight": 13264,
+      "imgCount": 22,
+      "uniqueImgCount": 9,
+      "uniqueImgs": [
+        "/images/padel/products/babolat-rh-pro-padel-hero.jpg",
+        "/images/padel/products/bullpadel-indiga-ctr-hero.jpg",
+        "/images/padel/products/asics-gel-resolution-padel-hero.jpg",
+        "/images/padel/products/nox-at10-team-paletero-hero.jpg",
+        "/images/padel/products/wilson-padel-overgrip-hero.jpg",
+        "/images/padel/products/bullpadel-vertex-05-hero.png",
+        "/images/padel/products/bullpadel-hack-04-hero.png",
+        "/images/padel/products/nox-at10-genius-12k-alum-xtrem-2026-hero.jpg",
+        "/images/padel/products/adidas-metalbone-3-5-2026-hero.jpg"
+      ],
+      "galleryPaths": [],
+      "sectionPaths": [],
+      "productPaths": [
+        "/images/padel/products/babolat-rh-pro-padel-hero.jpg",
+        "/images/padel/products/bullpadel-indiga-ctr-hero.jpg",
+        "/images/padel/products/asics-gel-resolution-padel-hero.jpg",
+        "/images/padel/products/nox-at10-team-paletero-hero.jpg",
+        "/images/padel/products/wilson-padel-overgrip-hero.jpg",
+        "/images/padel/products/bullpadel-vertex-05-hero.png",
+        "/images/padel/products/bullpadel-hack-04-hero.png",
+        "/images/padel/products/nox-at10-genius-12k-alum-xtrem-2026-hero.jpg",
+        "/images/padel/products/adidas-metalbone-3-5-2026-hero.jpg"
+      ],
+      "repeats": [
+        {
+          "src": "/images/padel/products/bullpadel-indiga-ctr-hero.jpg",
+          "count": 4
+        },
+        {
+          "src": "/images/padel/products/asics-gel-resolution-padel-hero.jpg",
+          "count": 4
+        },
+        {
+          "src": "/images/padel/products/nox-at10-team-paletero-hero.jpg",
+          "count": 4
+        },
+        {
+          "src": "/images/padel/products/wilson-padel-overgrip-hero.jpg",
+          "count": 3
+        }
+      ],
+      "h2s": [
+        "On this page",
+        "The short version",
+        "1 What a complete padel gear checklist decisions are really about",
+        "2 Why a checklist helps",
+        "3 Factors that should drive the choice",
+        "4 What to look for in each factor",
+        "5 Essential match kit vs Expanded tournament kit",
+        "6 What you gain — and give up",
+        "7 Approaches for this decision",
+        "8 How current options differ",
+        "9 Decision steps for this guide",
+        "10 Common mistakes",
+        "11 Frequently asked questions",
+        "Examples for this a complete padel gear checklist decision",
+        "Head-to-head comparisons",
+        "How we research",
+        "On this page",
+        "Need help deciding?",
+        "Recommended shortlists",
+        "Related guides",
+        "Need help deciding?",
+        "Recommended shortlists",
+        "Related guides"
+      ],
+      "headingGlue": [
+        "10 Common mistakes",
+        "11 Frequently asked questions"
+      ],
+      "priceHints": [
+        "From € 84,99",
+        "From € 139",
+        "From € 44,96",
+        "From € 9,95",
+        "€ 84,99",
+        "€ 139",
+        "€ 44,96",
+        "€ 9,95"
+      ],
+      "hasEmptyCommerce": false,
+      "whoForSample": [],
+      "residueHits": [],
+      "hasAmazonCta": false,
+      "retailerNames": [],
+      "hasDecisionTable": true,
+      "hasSvgDiagram": true,
+      "statusHint": "ok",
+      "httpStatus": 200,
+      "hero": "/images/padel/products/babolat-rh-pro-padel-hero.jpg",
+      "heroIdentity": "52258d3b43ed"
+    }
+  ]
+}

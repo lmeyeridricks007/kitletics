@@ -55,7 +55,7 @@ export function StickyBuyPanel({
           />
         ) : (
           <p className="text-sm text-muted">
-            No verified retailer offers currently available in your region.
+            No verified Netherlands-shipping retailer is currently available.
           </p>
         )}
         <div className="flex flex-col gap-2">

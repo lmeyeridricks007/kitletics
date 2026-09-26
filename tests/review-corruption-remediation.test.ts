@@ -89,6 +89,13 @@ describe("containsPublicContentCorruption", () => {
       true,
     );
     expect(
+      containsPublicContentCorruption("Listed thickness is NOT_PUBLISHED mm"),
+    ).toBe(true);
+    expect(
+      containsPublicContentCorruption("Named systems: NOT_PUBLISHED"),
+    ).toBe(true);
+    expect(containsPublicContentCorruption("Status UNKNOWN")).toBe(true);
+    expect(
       containsPublicContentCorruption(
         "Adidas Adipower Weightlifting 2 is a lifting shoe.",
       ),

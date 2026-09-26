@@ -43,6 +43,13 @@ const PADEL_VARIANTS = new Set<ExplainerDiagramVariant>([
   "padel-pressurizer",
   "padel-decision-steps",
   "padel-shoe-outsole",
+  "padel-sweet-spot",
+  "padel-power-control",
+  "padel-core-feel",
+  "padel-shoe-support",
+  "padel-bag-anatomy",
+  "padel-grip-layers",
+  "padel-beginner-kit",
 ]);
 
 const SHOE_VARIANTS = new Set<ExplainerDiagramVariant>([
@@ -125,12 +132,19 @@ const FAMILY_FALLBACK_POOL: Record<VisualFamily, ExplainerDiagramVariant[]> = {
     "padel-racket-shapes",
     "padel-racket-balance",
     "padel-racket-weight",
+    "padel-sweet-spot",
+    "padel-power-control",
+    "padel-core-feel",
     "padel-bag-forms",
+    "padel-bag-anatomy",
     "padel-grip-vs-overgrip",
+    "padel-grip-layers",
     "padel-ball-types",
     "padel-pressurizer",
     "padel-decision-steps",
     "padel-shoe-outsole",
+    "padel-shoe-support",
+    "padel-beginner-kit",
   ],
   general: [
     "gps-watch-run",
@@ -140,6 +154,66 @@ const FAMILY_FALLBACK_POOL: Record<VisualFamily, ExplainerDiagramVariant[]> = {
     "open-ear-vs-inear",
   ],
 };
+
+/** Existing PadelConceptDiagrams for the racket choose guide — no bag/grip/ball fillers. */
+const PADEL_RACKET_CHOOSE_POOL: ExplainerDiagramVariant[] = [
+  "padel-decision-steps",
+  "padel-racket-shapes",
+  "padel-racket-balance",
+  "padel-racket-weight",
+  "padel-sweet-spot",
+  "padel-power-control",
+  "padel-core-feel",
+];
+
+/** Wired teaching diagrams per major padel guide — used by pages and parity gates. */
+export const PADEL_GUIDE_TEACHING_POOLS: Record<
+  string,
+  ExplainerDiagramVariant[]
+> = {
+  "how-to-choose-a-padel-racket": PADEL_RACKET_CHOOSE_POOL,
+  "how-to-choose-padel-shoes": [
+    "padel-shoe-outsole",
+    "padel-shoe-support",
+    "padel-decision-steps",
+  ],
+  "how-to-choose-a-padel-bag": [
+    "padel-bag-anatomy",
+    "padel-bag-forms",
+    "padel-decision-steps",
+  ],
+  "how-to-choose-padel-balls": [
+    "padel-ball-types",
+    "padel-pressurizer",
+    "padel-decision-steps",
+  ],
+  "padel-grips-overgrips-explained": [
+    "padel-grip-vs-overgrip",
+    "padel-grip-layers",
+    "padel-decision-steps",
+  ],
+  "beginner-padel-gear-guide": [
+    "padel-beginner-kit",
+    "padel-racket-shapes",
+    "padel-decision-steps",
+    "padel-grip-vs-overgrip",
+  ],
+};
+
+const PADEL_GUIDE_POOLS = PADEL_GUIDE_TEACHING_POOLS;
+
+function fallbackPoolFor(
+  family: VisualFamily,
+  slug: string,
+): ExplainerDiagramVariant[] {
+  if (PADEL_GUIDE_POOLS[slug]) {
+    return PADEL_GUIDE_POOLS[slug]!;
+  }
+  if (slug === "how-to-choose-a-padel-racket") {
+    return PADEL_RACKET_CHOOSE_POOL;
+  }
+  return FAMILY_FALLBACK_POOL[family] ?? FAMILY_FALLBACK_POOL.general;
+}
 
 export function guideVisualFamily(slug: string): VisualFamily {
   const s = slug.toLowerCase();
@@ -701,10 +775,28 @@ export function resolveSectionVisualCandidates(
 
   // ── Padel topic matches ────────────────────────────────────────────────
   if (family === "padel") {
-    if (/shape|round|teardrop|diamond|silhouette|sweet.?spot/.test(hay)) {
+    if (/shape|round|teardrop|diamond|silhouette/.test(hay)) {
       push(
         "padel-racket-shapes",
         "Round, teardrop and diamond shift sweet-spot height and forgiveness — not the whole racket decision.",
+      );
+    }
+    if (/sweet.?spot|forgiv/.test(hay)) {
+      push(
+        "padel-sweet-spot",
+        "Centred zones forgive late contact; higher zones reward clean tip strikes.",
+      );
+    }
+    if (/power|control|continuum|attack.?vs|forgiv/.test(hay)) {
+      push(
+        "padel-power-control",
+        "Soft rounds trade finishing for forgiveness; stiff diamonds reverse that trade.",
+      );
+    }
+    if (/core|eva|foam|soft.?vs.?hard|feel/.test(hay)) {
+      push(
+        "padel-core-feel",
+        "Softer cores trampoline at club pace; firmer stacks connect when you already generate speed.",
       );
     }
     if (/balance|head.?heavy|handle.?bias|maneuver/.test(hay)) {
@@ -719,16 +811,40 @@ export function resolveSectionVisualCandidates(
         "Published weight bands matter before carbon marketing — feel them with balance.",
       );
     }
-    if (/bag|paletero|backpack|thermo|compartment/.test(hay)) {
+    if (/bag|paletero|backpack|thermo|compartment|anatomy/.test(hay)) {
+      push(
+        "padel-bag-anatomy",
+        "Count racket wells, thermo volume, shoe pocket and carry straps against your commute.",
+      );
       push(
         "padel-bag-forms",
         "Paletero volume vs commute backpack — racket wells, thermo and shoe pocket first.",
       );
     }
-    if (/grip|overgrip|tack|absorption|handle/.test(hay)) {
+    if (/grip|overgrip|tack|absorption|handle|layer/.test(hay)) {
+      push(
+        "padel-grip-layers",
+        "Bare handle → base grip → overgrip. Replace the outer wrap when tack dies.",
+      );
       push(
         "padel-grip-vs-overgrip",
         "Base grip is the foundation; overgrips are thin consumable refreshes.",
+      );
+    }
+    if (/shoe|lateral|lockdown|outsole|court movement|support/.test(hay)) {
+      push(
+        "padel-shoe-support",
+        "Heel lockdown, lateral wall and forefoot flex are the padel shoe jobs — not running stability posts.",
+      );
+      push(
+        "padel-shoe-outsole",
+        "Herringbone clears dust; omni patterns often feel more connected indoors.",
+      );
+    }
+    if (/beginner|first.?racket|starter.?kit|gear checklist/.test(hay)) {
+      push(
+        "padel-beginner-kit",
+        "Round racket, court shoes, fresh balls, overgrips and a bag — optional protectors later.",
       );
     }
     if (/ball|pressur|can\b|bounce/.test(hay)) {
@@ -753,7 +869,7 @@ export function resolveSectionVisualCandidates(
 
   // ── Guide-topic soft defaults (only if nothing stronger matched) ────────
   if (out.length === 0) {
-    const defaults = FAMILY_FALLBACK_POOL[family] ?? FAMILY_FALLBACK_POOL.general;
+    const defaults = fallbackPoolFor(family, slug);
     const captions: Partial<Record<ExplainerDiagramVariant, string>> = {
       "daily-trainer":
         "Start from the job the shoe must do, then compare geometry and foam.",
@@ -841,6 +957,7 @@ function pickUniqueVisual(
   used: Set<ExplainerDiagramVariant>,
   family: VisualFamily,
   captionFallback?: string,
+  slug = "",
 ): ExplainerSectionDiagram | undefined {
   for (const c of candidates) {
     if (!used.has(c.variant)) {
@@ -848,7 +965,7 @@ function pickUniqueVisual(
       return c;
     }
   }
-  const pool = FAMILY_FALLBACK_POOL[family] ?? FAMILY_FALLBACK_POOL.general;
+  const pool = fallbackPoolFor(family, slug);
   for (const variant of pool) {
     if (!used.has(variant)) {
       used.add(variant);
@@ -892,6 +1009,7 @@ function attachDiagram<T extends ExplainerBlock>(
       used,
       family,
       "Use this visual as context for the decision — verify against published specs and feel.",
+      slug,
     );
     if (!resolved) return block;
     return { ...block, diagram: resolved };
@@ -900,7 +1018,13 @@ function attachDiagram<T extends ExplainerBlock>(
   if (block.diagram) {
     // Reject pre-set shoe diagrams on non-shoe guides
     if (family !== "shoes" && SHOE_VARIANTS.has(block.diagram.variant)) {
-      const replacement = pickUniqueVisual([], used, family, block.diagram.caption);
+      const replacement = pickUniqueVisual(
+        [],
+        used,
+        family,
+        block.diagram.caption,
+        slug,
+      );
       if (replacement) return { ...block, diagram: replacement };
       const { diagram: _drop, ...rest } = block as T & {
         diagram?: ExplainerSectionDiagram;
@@ -916,7 +1040,7 @@ function attachDiagram<T extends ExplainerBlock>(
     block.id,
     block.type,
   );
-  const resolved = pickUniqueVisual(candidates, used, family);
+  const resolved = pickUniqueVisual(candidates, used, family, undefined, slug);
   if (!resolved) return block;
   return { ...block, diagram: resolved };
 }

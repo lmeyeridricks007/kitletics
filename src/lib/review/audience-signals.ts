@@ -7,6 +7,7 @@ import type { Review } from "@/domain/editorial/types";
 import type { Brand, Product } from "@/domain/products/types";
 import { getBrandById, getProductById } from "@/repositories";
 import { classifyDecisionLine, countDecisionWords } from "@/lib/decision-copy";
+import { composeBuyIfSentence, composeSkipIfSentence } from "@/lib/decision-copy";
 
 const MIN_LINES = 2;
 
@@ -96,13 +97,13 @@ function buildBuyLines(
   const lines: string[] = [];
 
   if (s0) {
-    lines.push(`You're looking for ${lowerLead(s0)}.`);
+    lines.push(composeBuyIfSentence(s0, product.fullName));
   } else {
-    lines.push(`You're looking for a clear weekly training role.`);
+    lines.push(`You want a clear weekly training role.`);
   }
 
   if (s1) {
-    lines.push(`You want ${lowerLead(s1)}.`);
+    lines.push(composeBuyIfSentence(s1, product.fullName));
   } else if (peer) {
     lines.push(`You prefer this over ${peer} when that role matches most weeks.`);
   } else {
@@ -146,7 +147,16 @@ function buildAvoidLines(
     } else if (/race/i.test(w0)) {
       lines.push(`You're primarily looking for the lightest race-day option.`);
     } else {
-      lines.push(`You need ${lowerLead(w0)}.`);
+      const skip = composeSkipIfSentence(w0, product.fullName);
+      if (/^Skip it if you /i.test(skip)) {
+        lines.push(
+          `${skip.replace(/^Skip it if you /i, "You ").replace(/\.$/, "")}.`,
+        );
+      } else if (/^You\b/i.test(skip)) {
+        lines.push(skip);
+      } else {
+        lines.push(`You need ${lowerLead(w0)}.`);
+      }
     }
   }
 
@@ -189,7 +199,29 @@ function polishExisting(
 ): string[] {
   return lines.map((line) => {
     const t = line.trim();
-    if (!isThinLine(t)) return t;
+    if (!t) return t;
+
+    // Always normalize person-phrase seeds into You-sentences for Buy/Skip.
+    if (mode === "buy" && /^(?:players|runners|anyone|people|those|buyers)\s+who\b/i.test(t)) {
+      return composeBuyIfSentence(t, product.fullName);
+    }
+    if (mode === "avoid" && /^(?:players|runners|anyone|people|those|buyers)\s+who\b/i.test(t)) {
+      const skip = composeSkipIfSentence(t, product.fullName);
+      return /^Skip it if you /i.test(skip)
+        ? `${skip.replace(/^Skip it if you /i, "You ").replace(/\.$/, "")}.`
+        : skip;
+    }
+
+    if (!isThinLine(t)) {
+      // Prefer simple You-want over I'd-shortlist wrappers when already complete.
+      if (mode === "buy" && /^i['’]d\s+shortlist\s+it\s+(?:if|when)\s+you\s+want\s+/i.test(t)) {
+        return composeBuyIfSentence(
+          t.replace(/^i['’]d\s+shortlist\s+it\s+(?:if|when)\s+/i, ""),
+          product.fullName,
+        );
+      }
+      return t;
+    }
     const peer = peers[0];
     // Expand telegram labels into decision lines
     if (/^trail runners?/i.test(t)) {

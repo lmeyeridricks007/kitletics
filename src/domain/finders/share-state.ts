@@ -112,6 +112,15 @@ export function encodeFinderShareStateBrowser(
   return btoa(binary).replace(/\+/g, "-").replace(/\//g, "_").replace(/=+$/, "");
 }
 
+/** Results URL for a completed Finder session (client-safe). */
+export function buildFinderResultsHref(
+  definition: FinderDefinition,
+  responses: FinderResponses,
+): string {
+  const encoded = encodeFinderShareStateBrowser(definition, responses);
+  return `/tools/${definition.slug}/results?s=${encodeURIComponent(encoded)}`;
+}
+
 export function decodeFinderShareStateBrowser(
   encoded: string,
   expectedSlug?: string,

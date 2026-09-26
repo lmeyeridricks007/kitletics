@@ -31,6 +31,20 @@ function softLead(s: string): string {
   return t.charAt(0).toLowerCase() + t.slice(1);
 }
 
+/** Avoid "Best when you are players who…" double-person glue. */
+function bestForClause(profile: string): string {
+  const t = profile.trim();
+  if (!t) return t;
+  if (/^best (for|when)\b/i.test(t)) return t;
+  if (/^(players|runners|anyone|those|people) who\b/i.test(t)) {
+    return `Best for ${softLead(t)}`;
+  }
+  if (/^(players|runners|anyone|those|people)\b/i.test(t)) {
+    return `Best for ${softLead(t)}`;
+  }
+  return `Best for players who ${softLead(t)}`;
+}
+
 function widthStory(product: Product): string | undefined {
   const raw = product.specifications?.widthOptions;
   if (!raw) return undefined;
@@ -194,7 +208,7 @@ function buildWhyItFits(input: {
   // P2 — how it behaves / who it suits
   const whoBits: string[] = [];
   if (entry.bestForProfiles?.[0]) {
-    whoBits.push(`Best when you are ${softLead(entry.bestForProfiles[0])}`);
+    whoBits.push(bestForClause(entry.bestForProfiles[0]));
   } else if (s1) {
     whoBits.push(`It also brings ${softLead(s1)}`);
   }
@@ -329,19 +343,23 @@ function buildBestFor(
   const existing = (entry.bestForProfiles ?? [])
     .map((s) => s.trim())
     .filter(Boolean);
-  if (existing.length >= 1 && existing.some((s) => s.length >= 24)) {
-    return existing.slice(0, 4);
+  // Prefer authored labels — expand short telegrams into complete situations
+  // without the old "X who want a clear this use case pick…" glue.
+  if (existing.length >= 1) {
+    return existing
+      .map((label) => {
+        if (label.length >= 28 || /\b(who|when|players|runners|anyone)\b/i.test(label)) {
+          return label;
+        }
+        const noun = label.replace(/^(a |an |the )/i, "").trim();
+        return `Players who prefer ${noun}`;
+      })
+      .slice(0, 4);
   }
   const out: string[] = [];
-  if (existing[0] && existing[0].length < 24) {
-    out.push(
-      `${existing[0]} who want a clear ${contextLabel} pick without overcomplicating the rotation`,
-    );
-  } else {
-    out.push(
-      `Runners shopping for ${contextLabel} who want ${softLead(product.strengths?.[0] ?? "a dependable primary shoe")}`,
-    );
-  }
+  out.push(
+    `Players who need a clear ${contextLabel} pick and prefer ${softLead(product.strengths?.[0] ?? "a dependable primary option")}`,
+  );
   if (widthStory(product)) {
     out.push("Anyone who needs official width options to get fit right early");
   }

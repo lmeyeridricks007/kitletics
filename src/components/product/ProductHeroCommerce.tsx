@@ -65,7 +65,7 @@ export function ProductHeroCommerce({
             Regional pricing
           </p>
           <p className="mt-1 text-[12px] text-muted">
-            No verified retailer offers currently available in your region.
+            No verified Netherlands-shipping retailer is currently available.
           </p>
           <Link
             href="#offers"

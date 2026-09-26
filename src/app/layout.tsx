@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import { Outfit, DM_Sans } from "next/font/google";
 import { ThemeProvider } from "@/components/providers/ThemeProvider";
 import { CompareTrayProvider } from "@/components/compare/CompareTrayProvider";
 import { RegionPreferenceProvider } from "@/components/region/RegionPreferenceProvider";
@@ -17,19 +16,12 @@ import { getServerAnalyticsConfig } from "@/lib/analytics";
 import { siteConfig } from "@/content/config";
 import "./globals.css";
 
-const display = Outfit({
-  variable: "--font-display",
-  subsets: ["latin"],
-  weight: ["600", "700"],
-  display: "swap",
-});
-
-const body = DM_Sans({
-  variable: "--font-body",
-  subsets: ["latin"],
-  weight: ["400", "500", "600"],
-  display: "swap",
-});
+/**
+ * Deterministic typography tokens — no next/font/google network fetch at build.
+ * Prefer DM Sans / Outfit when present on the device; otherwise system UI sans.
+ * CSS variables keep the existing design-system classNames (font-body / font-display).
+ */
+const fontVariables = "font-kitletics";
 
 const googleVerification = process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION?.trim();
 const bingVerification = process.env.NEXT_PUBLIC_BING_SITE_VERIFICATION?.trim();
@@ -80,7 +72,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <body
-        className={`${display.variable} ${body.variable} min-h-svh bg-background font-sans text-foreground antialiased`}
+        className={`${fontVariables} min-h-svh bg-background font-sans text-foreground antialiased`}
       >
         <ThemeProvider>
           <AnalyticsProvider config={analyticsConfig}>

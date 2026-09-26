@@ -409,7 +409,7 @@ export const padelRacketsCategoryGuide: BestGuide = racketGuide({
       tradeoff:
         "Lower finishing ceiling and less prestige construction than Vertex / Hack — that is why it is the value role.",
       avoid: [
-        "Advanced attackers",
+        "Advanced attackers who need a finishing diamond this season",
         "Anyone expecting photo-blocked PR Soft 500 to appear as a current award",
       ],
       instead: [
@@ -522,8 +522,8 @@ export const padelRacketsCategoryGuide: BestGuide = racketGuide({
   buyingAdvice:
     "Buy from the job, not from a leaderboard. If you cannot yet hit a consistent bandeja, do not buy Hack 04 because it “won best power” on another page. If you already finish overheads, Indiga will feel like a ceiling, not a bargain. Use the dedicated beginner, control, power, all-round, comfort, lightweight, maneuverability, and women’s guides when that constraint is already known. This page exists so those roles do not collapse into one fake overall ranking.",
   relatedGuideIds: [...RACKET_RELATED],
-  hubImageSrc: "/images/padel/hero.jpg",
-  hubImageAlt: "Padel racket on court — category Best Guide hub",
+  hubImageSrc: "/images/padel/products/bullpadel-vertex-05-hero.png",
+  hubImageAlt: "Bullpadel Vertex 05 — flagship racket for the category Best Guide hub",
   criteriaChangePoints: [
     {
       label: "Role before rank",

@@ -38,8 +38,10 @@ function softReview(input: {
   specs: string[];
   /** Category-specific construction / feel / mechanism body. */
   design: string;
-  /** Second depth block (thermal/carry, speed context, workflow). */
+  /** Second depth block (thermal, speed context, workflow). */
   secondary: string;
+  /** Bag carry section. Falls back to secondary for balls and accessories. */
+  carry?: string;
   durability: string;
   value: string;
   pros: string[];
@@ -58,12 +60,7 @@ function softReview(input: {
   const blueprint = blueprintFor(input.categoryLabel);
 
   const bodies: Record<string, string> = {
-    "sec-overview": [
-      input.whatItIs,
-      input.verdict,
-      `Expert-research ${input.categoryLabel} note — not a first-hand lab or match test.`,
-      `Bottom line: ${input.verdict}`,
-    ].join("\n\n"),
+    "sec-overview": [input.whatItIs, input.verdict].join("\n\n"),
     "sec-verified-specs": [
       `Published markers:`,
       input.specs.map((s) => `• ${s}`).join("\n"),
@@ -73,7 +70,7 @@ function softReview(input: {
     "sec-capacity": input.design,
     "sec-mechanism": input.design,
     "sec-thermal": input.secondary,
-    "sec-carry": input.secondary,
+    "sec-carry": input.carry ?? input.secondary,
     "sec-fit": input.secondary,
     "sec-durability": input.durability,
     "sec-strengths": input.pros.map((p) => `• ${p}`).join("\n"),
@@ -207,7 +204,9 @@ export const padelSoftDecisionReviews: Review[] = [
     design:
       "Published capacity sits in the club-night band: enough for one–two frames plus shoes and extras without the empty cavern of an XXL tournament duffel. Confirm live retailer racket-bay counts before assuming four-frame packing.",
     secondary:
-      "Thermo pocket plus shoe isolation is the weekly problem this bag is meant to solve for hot-car club nights. Paletero carry with straps — not a daypack. If you bike or train daily, a backpack form (Tour Endurance / Vertex backpack class) usually wins even when thermo is nicer on paper.",
+      "Thermo pocket plus shoe isolation is the weekly problem this bag is meant to solve for hot-car club nights. Confirm the shoe well is a separate compartment on the listing you buy.",
+    carry:
+      "Paletero carry with straps — not a daypack. If you bike or train daily, a backpack form (Tour Endurance / Vertex backpack class) usually wins even when the thermo pocket is nicer on paper.",
     durability:
       "Zippers and thermo liners fail before marketing copy does. Treat it as kit luggage — don’t drag it like a suitcase on stairs every day if a backpack fits your transit.",
     value:
@@ -228,8 +227,8 @@ export const padelSoftDecisionReviews: Review[] = [
       "You do not need four-racket tournament packing every weekend.",
     ],
     skip: [
-      "Tournament weekends with four frames — look at RH Pro / AT10 XXL.",
-      "Hands-free bike/train commute — look at Tour Endurance / Vertex backpack.",
+      "You pack four frames for tournament weekends — look at RH Pro / AT10 XXL.",
+      "You need hands-free bike/train commute — look at Tour Endurance / Vertex backpack.",
       "You want the absolute smallest 25 L backpack.",
     ],
     alts: [

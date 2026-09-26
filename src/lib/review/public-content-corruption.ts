@@ -58,6 +58,22 @@ const AGENT_LANGUAGE: Array<{ name: string; re: RegExp }> = [
   { name: "intentional_stamp", re: /\bintentional stamp\b/i },
   { name: "catalog_role", re: /\bcatalog role\b/i },
   { name: "internal_id", re: /\binternal ID\b/i },
+  { name: "live_nl_url", re: /live nl product url/i },
+  { name: "url_should_attach", re: /should still be attached/i },
+  { name: "url_should", re: /\burl should\b/i },
+  { name: "todo_token", re: /\bTODO\b/ },
+  { name: "fixme_token", re: /\bFIXME\b/ },
+  { name: "editor_note", re: /\beditor note\b/i },
+  { name: "internal_note", re: /\binternal note\b/i },
+  { name: "not_published", re: /\bNOT_PUBLISHED\b/ },
+  { name: "not_available", re: /\bNOT_AVAILABLE\b/ },
+  { name: "not_applicable", re: /\bNOT_APPLICABLE\b/ },
+  { name: "n_a_internal", re: /\bN\/A_INTERNAL\b/ },
+  { name: "unverified_token", re: /\bUNVERIFIED\b/ },
+  { name: "missing_token", re: /\bMISSING\b/ },
+  // Bare UNKNOWN as a whole token (not "unknown until…" prose)
+  { name: "unknown_sentinel", re: /(?:^|[^\w.])UNKNOWN(?:[^\w.]|$)/ },
+  { name: "tbd_token", re: /\bTBD\b/ },
 ];
 
 export type PublicCorruptionHit =

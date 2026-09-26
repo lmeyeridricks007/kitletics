@@ -386,7 +386,7 @@ export function noxDrafts(): RacketDraft[] {
         sweetSpot: "compact",
       },
       strengths: [
-        "Manufacturer diamond + high balance + aggressive style — the Attack identity",
+        "Diamond geometry with high balance and an aggressive Attack identity",
         "Same 18K Alum + MLD Black Eva construction language as Genius 18K, different mould",
         "Dual Spin plus Oversize Grip listed for the attacking Tapia spec",
       ],
@@ -722,7 +722,7 @@ export function noxDrafts(): RacketDraft[] {
         ],
         notIdealFor: [
           "Anyone needing verified 2026 carbon-weave figures today",
-          "Diamond attackers",
+          "Diamond attackers who want Tapia’s Attack mould instead",
         ],
         buyIf: [
           "You want the ML10 Pro Cup name and a control-oriented Nox, not an AT10 Genius.",

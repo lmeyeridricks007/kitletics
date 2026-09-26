@@ -1,0 +1,42 @@
+---
+description: Padel vs Running parity audit hard rules — template glue FAILs review parity; teaching media is concept coverage not img count.
+alwaysApply: true
+---
+
+# Padel parity audit rules
+
+Apply on every **independent** Padel↔Running parity audit and any remediation that claims review/guide/media parity.
+
+## REVIEW TEMPLATE-GLUE RULE
+
+**Automatically FAIL `PADEL_REVIEW_PARITY`** if the same non-structural reader-facing paragraph/sentence pattern appears systematically across multiple unrelated review sections/products without product-specific decision value.
+
+- Scrub product/brand names before comparing patterns.
+- Known stems (e.g. “I'd only keep…”, “If this section still feels generic…”) are always FAIL.
+- Cross-product reuse of scrubbed prose (≥2 products) is FAIL.
+- Same product, ≥3 unrelated sections sharing scrubbed filler is FAIL.
+- Legitimate structural copy may be shared: affiliate disclosure, methodology one-liners, “Published numbers for…”, manufacturer source lines.
+- **Do not allow word count to compensate** for repeated editorial filler. A 5,000-word review full of glue still FAILs.
+
+Detector: `src/lib/padel/parity-gates.ts` → `evaluateReviewTemplateGlue` / `evaluatePadelEditorialParityGates`.
+
+## TEACHING-MEDIA RULE
+
+**Do not compare total `<img>` counts** when judging `PADEL_GUIDE_PARITY` or `PADEL_MEDIA_PARITY`.
+
+Evaluate whether each **major educational concept** that materially benefits from visualization has an **intentional teaching visual**.
+
+- Product cards and repeated product packshots **do NOT** count as educational teaching media.
+- Educational diagrams / `public/images/padel/education/*` **do** count.
+- Intentional reuse of the same concept diagram across guides is allowed.
+- A guide may PASS with fewer images than Running if every required concept is covered.
+- A guide with many packshots and missing concept diagrams FAILs.
+
+Required concepts: `MAJOR_PADEL_GUIDE_TEACHING_CONCEPTS` in `src/lib/padel/parity-gates.ts`.
+Detector: `evaluateTeachingMediaCoverage`.
+
+## What these rules do not change
+
+- Different section sets than Running are fine.
+- PDP / commerce / mobile gates stay separate.
+- Do not declare overall parity PASS from remediation alone — independent audit still decides after these automatic FAILs are clear.

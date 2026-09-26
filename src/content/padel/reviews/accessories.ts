@@ -35,12 +35,7 @@ function gripReview(input: {
     "ev-catalog-editorial",
   ];
   const bodies: Record<string, string> = {
-    "sec-overview": [
-      input.whatItIs,
-      input.verdict,
-      `This is a grip — not a racket review and not a medical device.`,
-      `Bottom line: ${input.verdict}`,
-    ].join("\n\n"),
+    "sec-overview": [input.whatItIs, input.verdict].join("\n\n"),
     "sec-verified-specs": [
       `Published wrap markers:`,
       input.specs.map((s) => `• ${s}`).join("\n"),

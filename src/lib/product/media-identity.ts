@@ -112,6 +112,18 @@ const COLORWAY_TOKENS = new Set([
   "silver",
   "gold",
   "bronze",
+  "royal",
+  "coral",
+  "aqua",
+  "lime",
+  "teal",
+  "maroon",
+  "burgundy",
+  "ivory",
+  "charcoal",
+  "graphite",
+  "beige",
+  "cream",
   "zwart",
   "wit",
   "blauw",
@@ -191,6 +203,8 @@ function otherBrandInHaystack(
   for (const stem of PADEL_BRAND_STEMS) {
     const normalized = stem.replace(/-/g, "");
     if (normalized === ownStem.replace(/-/g, "")) continue;
+    // Colorway tokens that collide with brand stems (e.g. "royal" vs Royal Padel).
+    if (COLORWAY_TOKENS.has(stem) || COLORWAY_TOKENS.has(normalized)) continue;
     // Product slug may legitimately include another brand token (e.g. Bullpadel Pascal Box).
     if (slug.includes(stem) || slug.replace(/-/g, "").includes(normalized)) continue;
     if (normalized.length < 3) continue;
@@ -281,10 +295,24 @@ function modelOrAliasHit(tokens: string[], productSlug: string, hay: string): bo
   );
 }
 
+function isOpaqueCdnPath(path: string): boolean {
+  // Shopify / CDN UUID filenames carry no brand/model identity — rely on local src.
+  return (
+    /\/cdn\/shop\/files\/(?:pic_)?[0-9a-f]{8,}(?:-[0-9a-f]{4,})*/i.test(path) ||
+    /(?:^|\/)(?:pic_)?[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}(?:\.[a-z]+)?$/i.test(
+      path,
+    )
+  );
+}
+
 function isThinSourcePath(path: string | null): boolean {
   if (!path) return true;
+  if (isOpaqueCdnPath(path)) return true;
   const meaningful = tokenizeMediaIdentity(path).filter(
-    (t) => !["products", "en", "nl", "uk", "shop", "collections"].includes(t),
+    (t) =>
+      !["products", "en", "nl", "uk", "shop", "collections", "files", "cdn"].includes(
+        t,
+      ),
   );
   return meaningful.length === 0;
 }

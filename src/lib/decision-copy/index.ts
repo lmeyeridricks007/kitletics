@@ -16,6 +16,8 @@ export {
   toDecisionLine,
   toTraitBullet,
   salvageDecisionLine,
+  composeBuyIfSentence,
+  composeSkipIfSentence,
 } from "@/lib/decision-copy/transform";
 export {
   resolveCanonicalDecisionCopy,

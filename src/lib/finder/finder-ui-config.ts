@@ -20,6 +20,8 @@ export interface FinderUiConfig {
   eyebrow: string;
   headline: string;
   supportingCopy: string;
+  /** Summary card title — e.g. "Your racket profile" (never hardcode Running) */
+  summaryHeading?: string;
   estimatedTimeMinutes?: number;
   /** Decorative category products — not recommendations */
   heroProductIds?: EntityId[];
@@ -42,6 +44,7 @@ export const FINDER_UI_BY_SLUG: Record<string, FinderUiConfig> = {
     headline: "Find your perfect running shoes",
     supportingCopy:
       "Answer a few quick questions and we'll match you with shoes that fit your running, goals and preferences.",
+    summaryHeading: "Your running profile",
     estimatedTimeMinutes: 2,
     heroProductIds: [
       "prod-novablast-6",
@@ -129,6 +132,7 @@ export const FINDER_UI_BY_SLUG: Record<string, FinderUiConfig> = {
     headline: "Find the right padel racket for your game",
     supportingCopy:
       "Adaptive questions about level, priorities and feel — every match explains why. Affiliate commission never ranks results.",
+    summaryHeading: "Your racket profile",
     estimatedTimeMinutes: 2,
     heroProductIds: [
       "prod-bullpadel-indiga-ctr",
@@ -200,7 +204,7 @@ export const FINDER_UI_BY_SLUG: Record<string, FinderUiConfig> = {
       { key: "primaryUse", label: "Level", icon: "User" },
       { key: "primaryPriority", label: "Priority", icon: "Target" },
       { key: "playingStyle", label: "Style", icon: "Layers" },
-      { key: "weightPreference", label: "Weight", icon: "Footprints" },
+      { key: "weightPreference", label: "Weight", icon: "Layers" },
       { key: "armComfortPriority", label: "Arm comfort", icon: "Shield" },
       { key: "budget", label: "Budget", icon: "Map" },
     ],
@@ -210,6 +214,7 @@ export const FINDER_UI_BY_SLUG: Record<string, FinderUiConfig> = {
     headline: "Find training shoes for how you lift and condition",
     supportingCopy:
       "Tell us about your training and preferences — we'll match shoes suited to gym work and conditioning.",
+    summaryHeading: "Your training profile",
     estimatedTimeMinutes: 2,
     previewMinAnswered: 2,
     productNoun: "shoes",
@@ -258,6 +263,7 @@ export const FINDER_UI_BY_SLUG: Record<string, FinderUiConfig> = {
     headline: "Find a power rack that fits your space",
     supportingCopy:
       "Answer questions about room, mounting and goals — we'll match racks that fit your constraints.",
+    summaryHeading: "Your rack profile",
     estimatedTimeMinutes: 2,
     previewMinAnswered: 2,
     productNoun: "racks",
@@ -313,6 +319,7 @@ export const FINDER_UI_BY_SLUG: Record<string, FinderUiConfig> = {
     headline: "Find the right GPS watch",
     supportingCopy:
       "Answer a few questions about training, maps and budget — get explainable watch matches.",
+    summaryHeading: "Your watch profile",
     estimatedTimeMinutes: 2,
     heroProductIds: [
       "prod-forerunner-970",
@@ -374,6 +381,7 @@ export const FINDER_UI_BY_SLUG: Record<string, FinderUiConfig> = {
     headline: "Find the right hydration carry",
     supportingCopy:
       "Answer a few questions about distance, terrain and carry style — get explainable vest, belt and flask matches.",
+    summaryHeading: "Your hydration profile",
     estimatedTimeMinutes: 2,
     heroProductIds: [
       "prod-adv-skin-12",
@@ -435,6 +443,7 @@ export const FINDER_UI_BY_SLUG: Record<string, FinderUiConfig> = {
     headline: "Find the right running HRM",
     supportingCopy:
       "Answer a few questions about form factor, dynamics and budget — get explainable chest strap and armband matches.",
+    summaryHeading: "Your HRM profile",
     estimatedTimeMinutes: 2,
     heroProductIds: [
       "prod-polar-h10",
@@ -490,6 +499,7 @@ export const FINDER_UI_BY_SLUG: Record<string, FinderUiConfig> = {
     headline: "Find the right running kit",
     supportingCopy:
       "Answer a few questions about training context and fit — get explainable clothing and sock matches.",
+    summaryHeading: "Your apparel profile",
     estimatedTimeMinutes: 2,
     previewMinAnswered: 2,
     productNoun: "apparel picks",
@@ -521,6 +531,7 @@ export const FINDER_UI_BY_SLUG: Record<string, FinderUiConfig> = {
     headline: "Find the right race fuel",
     supportingCopy:
       "Answer a few questions about distance and format — get explainable gel, chew and drink-mix matches.",
+    summaryHeading: "Your fuel profile",
     estimatedTimeMinutes: 2,
     previewMinAnswered: 2,
     productNoun: "fuel options",
@@ -552,6 +563,7 @@ export const FINDER_UI_BY_SLUG: Record<string, FinderUiConfig> = {
     headline: "Find the right recovery tools",
     supportingCopy:
       "Answer a few questions about recovery needs and budget — get explainable massage and mobility matches.",
+    summaryHeading: "Your recovery profile",
     estimatedTimeMinutes: 2,
     previewMinAnswered: 2,
     productNoun: "recovery tools",
@@ -583,6 +595,7 @@ export const FINDER_UI_BY_SLUG: Record<string, FinderUiConfig> = {
     headline: "Find the right running accessories",
     supportingCopy:
       "Answer a few questions about audio, eyewear, lights and safety — get explainable accessory matches.",
+    summaryHeading: "Your accessories profile",
     estimatedTimeMinutes: 2,
     previewMinAnswered: 2,
     productNoun: "accessories",
@@ -621,6 +634,7 @@ export function getFinderUiConfig(slug: string): FinderUiConfig {
     headline: "Find the right gear for you",
     supportingCopy:
       "Answer a few quick questions and we'll match products to your needs.",
+    summaryHeading: "Your profile",
     previewMinAnswered: 2,
     steps: [],
     summaryFields: [],

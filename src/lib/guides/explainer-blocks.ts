@@ -247,7 +247,14 @@ export type ExplainerDiagramVariant =
   | "padel-ball-types"
   | "padel-pressurizer"
   | "padel-decision-steps"
-  | "padel-shoe-outsole";
+  | "padel-shoe-outsole"
+  | "padel-sweet-spot"
+  | "padel-power-control"
+  | "padel-core-feel"
+  | "padel-shoe-support"
+  | "padel-bag-anatomy"
+  | "padel-grip-layers"
+  | "padel-beginner-kit";
 
 export interface ExplainerCtaBlock extends ExplainerBlockBase {
   type: "cta";

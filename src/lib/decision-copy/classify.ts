@@ -32,6 +32,12 @@ const MACHINE_RES: RegExp[] = [
   /forcing the .+ into that job/i,
   /must-haves conflict with a .+ trade-off/i,
   /more than a generic category pick/i,
+  /^players who prefer manufacturer\b/i,
+  /^players who prefer official\b/i,
+  /^players who prefer \d{4} range notes\b/i,
+  /^players who prefer default\b/i,
+  /best when you are players who\b/i,
+  /want the official\s*:/i,
 ];
 
 const BROKEN_RES: RegExp[] = [
@@ -40,6 +46,41 @@ const BROKEN_RES: RegExp[] = [
   /i'd pause if not /i,
   /you need not [a-z]/i,
   /\[object Object\]/,
+  /^it when\b/i,
+  /^it if\b/i,
+  /those looking for\s+(it|if|not)\b/i,
+  /those looking for\s+not\b/i,
+  // Telegram glue: "Those looking for Advanced attackers." (requires a capital after "for ")
+  /looking for [A-Z][A-Za-z]*(?:\s+[a-z]+){0,3}\.?$/,
+  // Double-prefixed editorial stems
+  /i['’]d shortlist it when:?\s*i['’]d shortlist/i,
+  /i['’]d pause if:?\s*i['’]d (?:pause|skip)/i,
+  /i['’]d pause if:?\s*i['’]d skip/i,
+  /for players who\s+for\b/i,
+  // Verb-less "Players who <noun…>" and peer-template glue
+  /who need finishing power or a different geometry/i,
+  /who match this product'?s primary job/i,
+  /^players who (?!(?:need|want|prefer|looking|already|still|primarily|care|match|live|generate|play|pack|know|are|can|will|specifically|understand)\b)[a-z]/i,
+  // Missing auxiliary / double-want glue
+  /^players who (?:still|already|primarily) \w+ing\b/i,
+  /^players who want \w+ing\b/i,
+  /\bprefer specifically want\b/i,
+  /\bprefer understand\b/i,
+  /\bwant choosing\b/i,
+  /\bwho want .+\bwho want\b/i,
+  /clear this use case pick/i,
+  /live nl product url/i,
+  /should still be attached/i,
+  /\burl should\b/i,
+  /\bTODO\b/,
+  /\bFIXME\b/,
+  /\bplaceholder\b/i,
+  /research needed/i,
+  /needs research/i,
+  /internal note/i,
+  /editor note/i,
+  /if this section still feels generic/i,
+  /i'?d only keep the /i,
 ];
 
 const CONFUSING_RES: RegExp[] = [

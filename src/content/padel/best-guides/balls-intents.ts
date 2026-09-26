@@ -291,8 +291,8 @@ export const padelBallsTrainingGuide: BestGuide = baseGuide({
   ],
   buyingAdvice: "Buy training cans for baskets. Save competition cans for match nights.",
   relatedGuideIds: ["best-padel-balls", "best-padel-competition-balls", "best-padel-value-balls"],
-  hubImageSrc: "/images/padel/products/kuikma-pb-speed-hero.jpg",
-  hubImageAlt: "Value padel training balls",
+  hubImageSrc: "/images/padel/products/tecnifibre-padel-team-balls-hero.jpg",
+  hubImageAlt: "Tecnifibre Team — training-volume padel balls",
 });
 
 export const padelBallsFastGuide: BestGuide = baseGuide({

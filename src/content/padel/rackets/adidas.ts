@@ -1357,7 +1357,7 @@ export function adidasDrafts(): RacketDraft[] {
         sweetSpot: "medium",
       },
       strengths: [
-        "Official beginner Match with fiberglass and Soft Performance EVA",
+        "Beginner Match with fiberglass and Soft Performance EVA",
         "Allround shape and middle sweet spot",
         "Honest discovery racket — not a fake Metalbone",
       ],

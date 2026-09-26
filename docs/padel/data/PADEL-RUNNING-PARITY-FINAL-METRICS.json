@@ -1,0 +1,4495 @@
+{
+  "capturedAt": "2026-09-25T10:10:02.686Z",
+  "base": "http://127.0.0.1:3460",
+  "cleanCi": {
+    "sequence": "rm -rf .next → npm run lint → npm run typecheck → npm test → npm run build",
+    "lint": {
+      "exit": 0,
+      "note": "0 errors, 27 warnings"
+    },
+    "typecheck": {
+      "exit": 0
+    },
+    "test": {
+      "exit": 0,
+      "filesPassed": 102,
+      "testsPassed": 1035,
+      "filesFailed": 0,
+      "testsFailed": 0,
+      "timeouts": 0,
+      "durationSec": 881.38
+    },
+    "build": {
+      "exit": 1,
+      "error": "next/font Google loader TypeError in src/app/layout.tsx (DM_Sans)",
+      "log": "/tmp/parity-final-build.log"
+    },
+    "buildRetryForExperienceAudit": {
+      "exit": 0,
+      "note": "Isolated retry after sequential FAIL — does NOT clear CLEAN_CI",
+      "log": "/tmp/parity-final-build-retry.log"
+    },
+    "CLEAN_CI": "FAIL"
+  },
+  "pdps": {
+    "running-novablast": {
+      "url": "/products/asics-novablast-6",
+      "status": 200,
+      "words": 2060,
+      "uniqueImgs": 11,
+      "gallery": [
+        "/images/running/products/novablast-6/gallery/side.jpg",
+        "/images/running/products/novablast-6/gallery/outsole.webp"
+      ],
+      "galleryCount": 2,
+      "price": "FROM € 149",
+      "hasCta": true,
+      "retailers": [
+        "Runner's World",
+        "All4running",
+        "Amazon.nl"
+      ],
+      "brokenCount": 14,
+      "title": "ASICS Novablast 6: Specs, Performance & Best Uses · Kitletics",
+      "h2": [
+        "Overview",
+        "Performance scores",
+        "Pros & cons",
+        "Key technologies",
+        "How it fits different uses",
+        "Kitletics Review",
+        "Compare with",
+        "Top alternatives",
+        "Specifications",
+        "Novablast family",
+        "Where to buy",
+        "Sources & evidence"
+      ]
+    },
+    "padel-vertex": {
+      "url": "/products/bullpadel-vertex-05-2026",
+      "status": 200,
+      "words": 2432,
+      "uniqueImgs": 13,
+      "gallery": [
+        "/images/padel/products/bullpadel-vertex-05/gallery/bullpadel-vertex-05-angle.webp",
+        "/images/padel/products/bullpadel-vertex-05/gallery/bullpadel-vertex-05-profile.webp",
+        "/images/padel/products/bullpadel-vertex-05/gallery/bullpadel-vertex-05-head.webp",
+        "/images/padel/products/bullpadel-vertex-05/gallery/bullpadel-vertex-05-texture.webp",
+        "/images/padel/products/bullpadel-vertex-05/gallery/bullpadel-vertex-05-throat.webp"
+      ],
+      "galleryCount": 5,
+      "price": "FROM € 319",
+      "hasCta": true,
+      "retailers": [
+        "Amazon.nl"
+      ],
+      "brokenCount": 14,
+      "title": "Bullpadel Vertex 05 2026: Specs, Performance & Best Uses · Kitletics",
+      "h2": [
+        "Overview",
+        "How to think about this racket",
+        "How it decides",
+        "Pros & cons",
+        "How it fits different uses",
+        "Kitletics Review",
+        "Compare with",
+        "Top alternatives",
+        "Specifications",
+        "Vertex family",
+        "Where to buy",
+        "Sources & evidence"
+      ]
+    },
+    "padel-kuikma": {
+      "url": "/products/kuikma-pr-comfort-soft",
+      "status": 200,
+      "words": 2013,
+      "uniqueImgs": 11,
+      "gallery": [
+        "/images/padel/products/kuikma-pr-comfort-soft/gallery/kuikma-pr-comfort-soft-angle.jpg",
+        "/images/padel/products/kuikma-pr-comfort-soft/gallery/kuikma-pr-comfort-soft-profile.jpg",
+        "/images/padel/products/kuikma-pr-comfort-soft/gallery/kuikma-pr-comfort-soft-detail.jpg",
+        "/images/padel/products/kuikma-pr-comfort-soft/gallery/kuikma-pr-comfort-soft-head.jpg",
+        "/images/padel/products/kuikma-pr-comfort-soft/gallery/kuikma-pr-comfort-soft-throat.jpg"
+      ],
+      "galleryCount": 5,
+      "price": "FROM € 44,99",
+      "hasCta": true,
+      "retailers": [
+        "Decathlon"
+      ],
+      "brokenCount": 7,
+      "title": "Kuikma PR Comfort Soft: Specs, Performance & Best Uses · Kitletics",
+      "h2": [
+        "Overview",
+        "How to think about this racket",
+        "How it decides",
+        "Pros & cons",
+        "How it fits different uses",
+        "Kitletics Review",
+        "Top alternatives",
+        "Specifications",
+        "PR family",
+        "Where to buy",
+        "Sources & evidence"
+      ]
+    },
+    "padel-indiga": {
+      "url": "/products/bullpadel-indiga-ctr-2026",
+      "status": 200,
+      "words": 2090,
+      "uniqueImgs": 13,
+      "gallery": [
+        "/images/padel/products/bullpadel-indiga-ctr/gallery/bullpadel-indiga-ctr-angle.jpg",
+        "/images/padel/products/bullpadel-indiga-ctr/gallery/bullpadel-indiga-ctr-profile.jpg",
+        "/images/padel/products/bullpadel-indiga-ctr/gallery/bullpadel-indiga-ctr-side.jpg",
+        "/images/padel/products/bullpadel-indiga-ctr/gallery/bullpadel-indiga-ctr-detail.jpg",
+        "/images/padel/products/bullpadel-indiga-ctr/gallery/bullpadel-indiga-ctr-throat.jpg"
+      ],
+      "galleryCount": 5,
+      "price": "FROM € 84,99",
+      "hasCta": true,
+      "retailers": [
+        "Chef Padel",
+        "Bespanracket"
+      ],
+      "brokenCount": 8,
+      "title": "Bullpadel Indiga CTR 26: Specs, Performance & Best Uses · Kitletics",
+      "h2": [
+        "Overview",
+        "How to think about this racket",
+        "How it decides",
+        "Pros & cons",
+        "How it fits different uses",
+        "Kitletics Review",
+        "Compare with",
+        "Top alternatives",
+        "Specifications",
+        "Where to buy",
+        "Sources & evidence"
+      ]
+    },
+    "padel-joma": {
+      "url": "/products/joma-t-slam",
+      "status": 200,
+      "words": 1662,
+      "uniqueImgs": 8,
+      "gallery": [
+        "/images/padel/products/joma-t-slam/gallery/joma-t-slam-lateral.jpg",
+        "/images/padel/products/joma-t-slam/gallery/joma-t-slam-pair.jpg"
+      ],
+      "galleryCount": 2,
+      "price": "FROM € 109",
+      "hasCta": true,
+      "retailers": [
+        "Amazon.nl"
+      ],
+      "brokenCount": 7,
+      "title": "Joma T.Slam: Specs, Performance & Best Uses · Kitletics",
+      "h2": [
+        "Overview",
+        "How to think about this shoe",
+        "Pros & cons",
+        "Key technologies",
+        "Kitletics Review",
+        "Top alternatives",
+        "Specifications",
+        "Where to buy",
+        "Sources & evidence"
+      ]
+    },
+    "padel-asics-shoe": {
+      "url": "/products/asics-gel-resolution-padel",
+      "status": 200,
+      "words": 1778,
+      "uniqueImgs": 8,
+      "gallery": [],
+      "galleryCount": 0,
+      "price": "FROM € 139",
+      "hasCta": true,
+      "retailers": [
+        "Amazon.nl"
+      ],
+      "brokenCount": 7,
+      "title": "ASICS Gel-Resolution Padel: Specs, Performance & Best Uses · Kitletics",
+      "h2": [
+        "Overview",
+        "How to think about this shoe",
+        "Pros & cons",
+        "Key technologies",
+        "Kitletics Review",
+        "Top alternatives",
+        "Specifications",
+        "Where to buy",
+        "Sources & evidence"
+      ]
+    },
+    "padel-head-balls": {
+      "url": "/products/head-padel-pro-s-balls",
+      "status": 200,
+      "words": 1059,
+      "uniqueImgs": 6,
+      "gallery": [
+        "/images/padel/products/head-padel-pro-s-balls/gallery/head-padel-pro-s-detail.jpg",
+        "/images/padel/products/head-padel-pro-s-balls/gallery/head-padel-pro-s-packaging.jpg"
+      ],
+      "galleryCount": 2,
+      "price": "FROM € 5,79",
+      "hasCta": true,
+      "retailers": [
+        "PadeLMQ",
+        "Amazon.nl"
+      ],
+      "brokenCount": 2,
+      "title": "HEAD Padel Pro S+: Specs, Performance & Best Uses · Kitletics",
+      "h2": [
+        "Overview",
+        "How to think about this ball",
+        "Pros & cons",
+        "Compare with",
+        "Top alternatives",
+        "Specifications",
+        "Where to buy",
+        "Sources & evidence",
+        "How we assessed this product"
+      ]
+    },
+    "padel-nox-bag": {
+      "url": "/products/nox-at10-team-paletero",
+      "status": 200,
+      "words": 1842,
+      "uniqueImgs": 12,
+      "gallery": [
+        "/images/padel/products/nox-at10-team-paletero/gallery/nox-at10-team-angle.jpg",
+        "/images/padel/products/nox-at10-team-paletero/gallery/nox-at10-team-detail.jpg",
+        "/images/padel/products/nox-at10-team-paletero/gallery/nox-at10-team-side.jpg",
+        "/images/padel/products/nox-at10-team-paletero/gallery/nox-at10-team-rear.jpg",
+        "/images/padel/products/nox-at10-team-paletero/gallery/nox-at10-team-in-use.jpg"
+      ],
+      "galleryCount": 5,
+      "price": "FROM € 44,96",
+      "hasCta": true,
+      "retailers": [],
+      "brokenCount": 12,
+      "title": "Nox AT10 Team Paletero: Specs, Performance & Best Uses · Kitletics",
+      "h2": [
+        "Overview",
+        "How to think about this bag",
+        "Pros & cons",
+        "Kitletics Review",
+        "Compare with",
+        "Top alternatives",
+        "Specifications",
+        "Where to buy",
+        "Sources & evidence"
+      ]
+    },
+    "padel-wilson-grip": {
+      "url": "/products/wilson-padel-overgrip-pack",
+      "status": 200,
+      "words": 1828,
+      "uniqueImgs": 9,
+      "gallery": [
+        "/images/padel/products/wilson-padel-overgrip-pack/gallery/wilson-padel-overgrip-material.jpg"
+      ],
+      "galleryCount": 1,
+      "price": "FROM € 9,95",
+      "hasCta": true,
+      "retailers": [
+        "Amazon.nl"
+      ],
+      "brokenCount": 11,
+      "title": "Wilson Pro Padel Overgrip 3-Pack: Specs, Performance & Best Uses · Kitletics",
+      "h2": [
+        "Overview",
+        "How to think about this grip",
+        "Pros & cons",
+        "Kitletics Review",
+        "Compare with",
+        "Top alternatives",
+        "Specifications",
+        "Where to buy",
+        "Sources & evidence"
+      ]
+    },
+    "padel-frame-protector": {
+      "url": "/products/bullpadel-frame-protector-uni",
+      "status": 200,
+      "words": 792,
+      "uniqueImgs": 5,
+      "gallery": [],
+      "galleryCount": 0,
+      "price": "From €7.95",
+      "hasCta": false,
+      "retailers": [],
+      "brokenCount": 1,
+      "title": "Frame Protector: Specs, Performance & Best Uses · Kitletics",
+      "h2": [
+        "Overview",
+        "How to think about this accessory",
+        "Pros & cons",
+        "Top alternatives",
+        "Specifications",
+        "Where to buy",
+        "Sources & evidence",
+        "How we assessed this product"
+      ]
+    }
+  },
+  "reviews": {
+    "/reviews/bullpadel-vertex-05-2026": {
+      "status": 200,
+      "title": "Bullpadel Vertex 05 2026 Review: Verdict, Who It's For & Specs | Kitletics · Kitletics",
+      "productName": "Bullpadel Vertex 05 2026 Review",
+      "words": 3086,
+      "h2": [
+        "Review summary",
+        "How it scores",
+        "How we wrote this review",
+        "Verdict",
+        "Who should buy",
+        "Who should avoid it",
+        "Construction",
+        "Shape and balance",
+        "Power",
+        "Control",
+        "Sweet spot / forgiveness",
+        "Maneuverability",
+        "Comfort",
+        "Spin",
+        "Defensive play",
+        "Net play",
+        "Smashes / attacking play",
+        "Serve / return",
+        "Strengths",
+        "Weaknesses",
+        "Best For",
+        "Not Ideal For",
+        "Alternatives",
+        "Comparisons",
+        "Specifications",
+        "Value",
+        "Methodology",
+        "Sources",
+        "How it compares",
+        "Keep reading",
+        "Should you buy the Vertex 05?",
+        "About this review",
+        "Where to buy"
+      ],
+      "uniqueImgs": 12,
+      "mediaKinds": {
+        "PRODUCT_HERO": 11,
+        "PRODUCT_GALLERY": 6,
+        "SECTION_MEDIA": 0,
+        "EDUCATIONAL_DIAGRAM": 3,
+        "PRODUCT_CARD": 0,
+        "OTHER": 0
+      },
+      "educationSrcs": [
+        "http://127.0.0.1:3460/images/padel/education/padel-racket-shapes.svg",
+        "/images/padel/education/padel-power-control.svg",
+        "/images/padel/education/padel-sweet-spot.svg"
+      ],
+      "sectionMediaSrcs": [],
+      "brokenCount": 7,
+      "glueHits": [],
+      "instructionHits": [],
+      "grammarHits": [
+        "who want .+ who want"
+      ],
+      "hasPrice": true,
+      "hasCta": true,
+      "testTypeHints": {
+        "firstHand": true,
+        "expertResearch": true
+      },
+      "opening": "Skip to content Unbiased. Data-driven. Expert sport gear recommendations. NL / EUR About Journal Help KITLETICS Shoes Racket Sports Running Fitness More Search Kitletics Home Reviews Padel Rackets reviews Bullpadel Vertex 05 2026 Review EXPERT RESEARCH REVIEW Bullpadel Vertex 05 2026 Review The Vertex 05 is Bullpadel’s 2026 Tello diamond: CarbonTube frame, X-Tend Carbon 12K face, three-layer Multieva and Top Spin grain. KE By Kitletics Editorial Editorial desk · 1 February 2026 REVIEW TYPE How w"
+    },
+    "/reviews/bullpadel-hack-04-2026": {
+      "status": 200,
+      "title": "Bullpadel Hack 04 2026 Review: Verdict, Who It's For & Specs | Kitletics · Kitletics",
+      "productName": "Bullpadel Hack 04 2026 Review",
+      "words": 2885,
+      "h2": [
+        "Review summary",
+        "How it scores",
+        "How we wrote this review",
+        "Verdict",
+        "Who should buy",
+        "Who should avoid it",
+        "Construction",
+        "Shape and balance",
+        "Power",
+        "Control",
+        "Sweet spot / forgiveness",
+        "Maneuverability",
+        "Comfort",
+        "Spin",
+        "Defensive play",
+        "Net play",
+        "Smashes / attacking play",
+        "Serve / return",
+        "Strengths",
+        "Weaknesses",
+        "Best For",
+        "Not Ideal For",
+        "Alternatives",
+        "Comparisons",
+        "Specifications",
+        "Value",
+        "Methodology",
+        "Sources",
+        "How it compares",
+        "Keep reading",
+        "Should you buy the Hack 04?",
+        "About this review",
+        "Where to buy"
+      ],
+      "uniqueImgs": 12,
+      "mediaKinds": {
+        "PRODUCT_HERO": 11,
+        "PRODUCT_GALLERY": 6,
+        "SECTION_MEDIA": 0,
+        "EDUCATIONAL_DIAGRAM": 3,
+        "PRODUCT_CARD": 0,
+        "OTHER": 0
+      },
+      "educationSrcs": [
+        "http://127.0.0.1:3460/images/padel/education/padel-racket-shapes.svg",
+        "/images/padel/education/padel-power-control.svg",
+        "/images/padel/education/padel-sweet-spot.svg"
+      ],
+      "sectionMediaSrcs": [],
+      "brokenCount": 9,
+      "glueHits": [],
+      "instructionHits": [],
+      "grammarHits": [],
+      "hasPrice": true,
+      "hasCta": true,
+      "testTypeHints": {
+        "firstHand": false,
+        "expertResearch": true
+      },
+      "opening": "Skip to content Unbiased. Data-driven. Expert sport gear recommendations. NL / EUR About Journal Help KITLETICS Shoes Racket Sports Running Fitness More Search Kitletics Home Reviews Padel Rackets reviews Bullpadel Hack 04 2026 Review EXPERT RESEARCH REVIEW Bullpadel Hack 04 2026 Review Hack 04 2026 is Bullpadel’s Paquito attack diamond: Tricarbon 18K, Multieva, Total Channel around the frame and Air React Channel through the Tricore heart. KE By Kitletics Editorial Editorial desk · 1 February 2"
+    },
+    "/reviews/bullpadel-vertex-05-hybrid-2026": {
+      "status": 200,
+      "title": "Bullpadel Vertex 05 Hybrid 2026 Review: Verdict, Who It's For & Specs | Kitletics · Kitletics",
+      "productName": "Bullpadel Vertex 05 Hybrid 2026 Review",
+      "words": 2959,
+      "h2": [
+        "Review summary",
+        "How it scores",
+        "How we wrote this review",
+        "Verdict",
+        "Who should buy",
+        "Who should avoid it",
+        "Construction",
+        "Shape and balance",
+        "Power",
+        "Control",
+        "Sweet spot / forgiveness",
+        "Maneuverability",
+        "Comfort",
+        "Spin",
+        "Defensive play",
+        "Net play",
+        "Smashes / attacking play",
+        "Serve / return",
+        "Strengths",
+        "Weaknesses",
+        "Best For",
+        "Not Ideal For",
+        "Alternatives",
+        "Comparisons",
+        "Specifications",
+        "Value",
+        "Methodology",
+        "Sources",
+        "How it compares",
+        "Keep reading",
+        "Should you buy the Vertex 05 Hybrid?",
+        "About this review",
+        "Where to buy"
+      ],
+      "uniqueImgs": 12,
+      "mediaKinds": {
+        "PRODUCT_HERO": 11,
+        "PRODUCT_GALLERY": 6,
+        "SECTION_MEDIA": 0,
+        "EDUCATIONAL_DIAGRAM": 3,
+        "PRODUCT_CARD": 0,
+        "OTHER": 0
+      },
+      "educationSrcs": [
+        "http://127.0.0.1:3460/images/padel/education/padel-racket-shapes.svg",
+        "/images/padel/education/padel-power-control.svg",
+        "/images/padel/education/padel-sweet-spot.svg"
+      ],
+      "sectionMediaSrcs": [],
+      "brokenCount": 9,
+      "glueHits": [],
+      "instructionHits": [],
+      "grammarHits": [],
+      "hasPrice": true,
+      "hasCta": true,
+      "testTypeHints": {
+        "firstHand": false,
+        "expertResearch": true
+      },
+      "opening": "Skip to content Unbiased. Data-driven. Expert sport gear recommendations. NL / EUR About Journal Help KITLETICS Shoes Racket Sports Running Fitness More Search Kitletics Home Reviews Padel Rackets reviews Bullpadel Vertex 05 Hybrid 2026 Review EXPERT RESEARCH REVIEW Bullpadel Vertex 05 Hybrid 2026 Review Vertex 05 Hybrid is a distinct 2026 model: hybrid shape, 531 cm² face, low balance around 25 cm, 365–375 g, X-Tend Carbon 12K and Multieva. KE By Kitletics Editorial Editorial desk · 1 February "
+    },
+    "/reviews/bullpadel-indiga-ctr-2026": {
+      "status": 200,
+      "title": "Bullpadel Indiga CTR 26 Review: Verdict, Who It's For & Specs | Kitletics · Kitletics",
+      "productName": "Bullpadel Indiga CTR 26 Review",
+      "words": 2896,
+      "h2": [
+        "Review summary",
+        "How it scores",
+        "How we wrote this review",
+        "Verdict",
+        "Who should buy",
+        "Who should avoid it",
+        "Construction",
+        "Shape and balance",
+        "Power",
+        "Control",
+        "Sweet spot / forgiveness",
+        "Maneuverability",
+        "Comfort",
+        "Spin",
+        "Defensive play",
+        "Net play",
+        "Smashes / attacking play",
+        "Serve / return",
+        "Strengths",
+        "Weaknesses",
+        "Best For",
+        "Not Ideal For",
+        "Alternatives",
+        "Comparisons",
+        "Specifications",
+        "Value",
+        "Methodology",
+        "Sources",
+        "How it compares",
+        "Keep reading",
+        "Should you buy the Indiga CTR?",
+        "About this review",
+        "Where to buy"
+      ],
+      "uniqueImgs": 12,
+      "mediaKinds": {
+        "PRODUCT_HERO": 11,
+        "PRODUCT_GALLERY": 6,
+        "SECTION_MEDIA": 0,
+        "EDUCATIONAL_DIAGRAM": 3,
+        "PRODUCT_CARD": 0,
+        "OTHER": 0
+      },
+      "educationSrcs": [
+        "http://127.0.0.1:3460/images/padel/education/padel-racket-shapes.svg",
+        "/images/padel/education/padel-power-control.svg",
+        "/images/padel/education/padel-sweet-spot.svg"
+      ],
+      "sectionMediaSrcs": [],
+      "brokenCount": 9,
+      "glueHits": [],
+      "instructionHits": [],
+      "grammarHits": [
+        "who want .+ who want"
+      ],
+      "hasPrice": true,
+      "hasCta": true,
+      "testTypeHints": {
+        "firstHand": false,
+        "expertResearch": true
+      },
+      "opening": "Skip to content Unbiased. Data-driven. Expert sport gear recommendations. NL / EUR About Journal Help KITLETICS Shoes Racket Sports Running Fitness More Search Kitletics Home Reviews Padel Rackets reviews Bullpadel Indiga CTR 26 Review EXPERT RESEARCH REVIEW Bullpadel Indiga CTR 26 Review Indiga CTR 26 is Bullpadel’s Tour control starter: round, low balance, 360–370 g, 38 mm, Polyglass face, SoftEva core. KE By Kitletics Editorial Editorial desk · 1 February 2026 REVIEW TYPE How we assessed this"
+    },
+    "/reviews/nox-at10-genius-18k-2026": {
+      "status": 200,
+      "title": "Nox AT10 Genius 18K Alum 2026 Review: Verdict, Who It's For & Specs | Kitletics · Kitletics",
+      "productName": "Nox AT10 Genius 18K Alum 2026 Review",
+      "words": 3179,
+      "h2": [
+        "Review summary",
+        "How it scores",
+        "How we wrote this review",
+        "Verdict",
+        "Who should buy",
+        "Who should avoid it",
+        "Construction",
+        "Shape and balance",
+        "Power",
+        "Control",
+        "Sweet spot / forgiveness",
+        "Maneuverability",
+        "Comfort",
+        "Spin",
+        "Defensive play",
+        "Net play",
+        "Smashes / attacking play",
+        "Serve / return",
+        "Strengths",
+        "Weaknesses",
+        "Best For",
+        "Not Ideal For",
+        "Alternatives",
+        "Comparisons",
+        "Specifications",
+        "Value",
+        "Methodology",
+        "Sources",
+        "How it compares",
+        "Keep reading",
+        "Should you buy the AT10 Genius 18K Alum 2026?",
+        "About this review",
+        "Where to buy"
+      ],
+      "uniqueImgs": 7,
+      "mediaKinds": {
+        "PRODUCT_HERO": 12,
+        "PRODUCT_GALLERY": 0,
+        "SECTION_MEDIA": 0,
+        "EDUCATIONAL_DIAGRAM": 3,
+        "PRODUCT_CARD": 0,
+        "OTHER": 0
+      },
+      "educationSrcs": [
+        "http://127.0.0.1:3460/images/padel/education/padel-racket-shapes.svg",
+        "/images/padel/education/padel-power-control.svg",
+        "/images/padel/education/padel-sweet-spot.svg"
+      ],
+      "sectionMediaSrcs": [],
+      "brokenCount": 4,
+      "glueHits": [],
+      "instructionHits": [],
+      "grammarHits": [],
+      "hasPrice": true,
+      "hasCta": true,
+      "testTypeHints": {
+        "firstHand": true,
+        "expertResearch": true
+      },
+      "opening": "Skip to content Unbiased. Data-driven. Expert sport gear recommendations. NL / EUR About Journal Help KITLETICS Shoes Racket Sports Running Fitness More Search Kitletics Home Reviews Padel Rackets reviews Nox AT10 Genius 18K Alum 2026 Review EXPERT RESEARCH REVIEW Nox AT10 Genius 18K Alum 2026 Review The 2026 AT10 Genius 18K Alum is Tapia’s multi-purpose racket: a drop/tear face, carbon frame, 18K aluminised carbon and Nox’s multilayer black EVA. KE By Kitletics Editorial Editorial desk · 1 Febr"
+    },
+    "/reviews/nox-at10-genius-12k-alum-xtrem-2026": {
+      "status": 200,
+      "title": "Nox AT10 Genius 12K Alum XTREM 2026 Review: Verdict, Who It's For & Specs | Kitletics · Kitletics",
+      "productName": "Nox AT10 Genius 12K Alum XTREM 2026 Review",
+      "words": 2941,
+      "h2": [
+        "Review summary",
+        "How it scores",
+        "How we wrote this review",
+        "Verdict",
+        "Who should buy",
+        "Who should avoid it",
+        "Construction",
+        "Shape and balance",
+        "Power",
+        "Control",
+        "Sweet spot / forgiveness",
+        "Maneuverability",
+        "Comfort",
+        "Spin",
+        "Defensive play",
+        "Net play",
+        "Smashes / attacking play",
+        "Serve / return",
+        "Strengths",
+        "Weaknesses",
+        "Best For",
+        "Not Ideal For",
+        "Alternatives",
+        "Comparisons",
+        "Specifications",
+        "Value",
+        "Methodology",
+        "Sources",
+        "How it compares",
+        "Keep reading",
+        "Should you buy the AT10 Genius 12K Alum XTREM 2026?",
+        "About this review",
+        "Where to buy"
+      ],
+      "uniqueImgs": 12,
+      "mediaKinds": {
+        "PRODUCT_HERO": 11,
+        "PRODUCT_GALLERY": 6,
+        "SECTION_MEDIA": 0,
+        "EDUCATIONAL_DIAGRAM": 3,
+        "PRODUCT_CARD": 0,
+        "OTHER": 0
+      },
+      "educationSrcs": [
+        "http://127.0.0.1:3460/images/padel/education/padel-racket-shapes.svg",
+        "/images/padel/education/padel-power-control.svg",
+        "/images/padel/education/padel-sweet-spot.svg"
+      ],
+      "sectionMediaSrcs": [],
+      "brokenCount": 7,
+      "glueHits": [],
+      "instructionHits": [],
+      "grammarHits": [],
+      "hasPrice": true,
+      "hasCta": true,
+      "testTypeHints": {
+        "firstHand": false,
+        "expertResearch": true
+      },
+      "opening": "Skip to content Unbiased. Data-driven. Expert sport gear recommendations. NL / EUR About Journal Help KITLETICS Shoes Racket Sports Running Fitness More Search Kitletics Home Reviews Padel Rackets reviews Nox AT10 Genius 12K Alum XTREM 2026 Review EXPERT RESEARCH REVIEW Nox AT10 Genius 12K Alum XTREM 2026 Review The 2026 AT10 Genius 12K Alum XTREM is Tapia’s firmer Genius: drop/tear, carbon frame, 12K Alum XTREM carbon and HR3 Black Eva, with Dual Spin and Weight Balance. KE By Kitletics Editori"
+    },
+    "/reviews/nox-ml10-pro-cup": {
+      "status": 200,
+      "title": "Nox ML10 Pro Cup Review: Verdict, Who It's For & Specs | Kitletics · Kitletics",
+      "productName": "Nox ML10 Pro Cup Review",
+      "words": 2840,
+      "h2": [
+        "Review summary",
+        "How it scores",
+        "How we wrote this review",
+        "Verdict",
+        "Who should buy",
+        "Who should avoid it",
+        "Construction",
+        "Shape and balance",
+        "Power",
+        "Control",
+        "Sweet spot / forgiveness",
+        "Maneuverability",
+        "Comfort",
+        "Spin",
+        "Defensive play",
+        "Net play",
+        "Smashes / attacking play",
+        "Serve / return",
+        "Strengths",
+        "Weaknesses",
+        "Best For",
+        "Not Ideal For",
+        "Alternatives",
+        "Comparisons",
+        "Specifications",
+        "Value",
+        "Methodology",
+        "Sources",
+        "How it compares",
+        "Keep reading",
+        "Should you buy the ML10 Pro Cup?",
+        "About this review",
+        "Where to buy"
+      ],
+      "uniqueImgs": 7,
+      "mediaKinds": {
+        "PRODUCT_HERO": 12,
+        "PRODUCT_GALLERY": 0,
+        "SECTION_MEDIA": 0,
+        "EDUCATIONAL_DIAGRAM": 3,
+        "PRODUCT_CARD": 0,
+        "OTHER": 0
+      },
+      "educationSrcs": [
+        "http://127.0.0.1:3460/images/padel/education/padel-racket-shapes.svg",
+        "/images/padel/education/padel-power-control.svg",
+        "/images/padel/education/padel-sweet-spot.svg"
+      ],
+      "sectionMediaSrcs": [],
+      "brokenCount": 6,
+      "glueHits": [],
+      "instructionHits": [],
+      "grammarHits": [],
+      "hasPrice": true,
+      "hasCta": true,
+      "testTypeHints": {
+        "firstHand": true,
+        "expertResearch": true
+      },
+      "opening": "Skip to content Unbiased. Data-driven. Expert sport gear recommendations. NL / EUR About Journal Help KITLETICS Shoes Racket Sports Running Fitness More Search Kitletics Home Reviews Padel Rackets reviews Nox ML10 Pro Cup Review EXPERT RESEARCH REVIEW Nox ML10 Pro Cup Review ML10 Pro Cup is Nox’s Lamperti-line classic in this catalog — a control-oriented cup identity separate from AT10 Genius. KE By Kitletics Editorial Editorial desk · 1 February 2026 REVIEW TYPE How we assessed this product How"
+    },
+    "/reviews/adidas-metalbone-3-5-2026": {
+      "status": 200,
+      "title": "Adidas Metalbone 3.5 2026 Review: Verdict, Who It's For & Specs | Kitletics · Kitletics",
+      "productName": "Adidas Metalbone 3.5 2026 Review",
+      "words": 2733,
+      "h2": [
+        "Review summary",
+        "How it scores",
+        "How we wrote this review",
+        "Verdict",
+        "Who should buy",
+        "Who should avoid it",
+        "Construction",
+        "Shape and balance",
+        "Power",
+        "Control",
+        "Sweet spot / forgiveness",
+        "Maneuverability",
+        "Comfort",
+        "Spin",
+        "Defensive play",
+        "Net play",
+        "Smashes / attacking play",
+        "Serve / return",
+        "Strengths",
+        "Weaknesses",
+        "Best For",
+        "Not Ideal For",
+        "Alternatives",
+        "Comparisons",
+        "Specifications",
+        "Value",
+        "Methodology",
+        "Sources",
+        "How it compares",
+        "Keep reading",
+        "Should you buy the Metalbone 3.5?",
+        "About this review",
+        "Where to buy"
+      ],
+      "uniqueImgs": 7,
+      "mediaKinds": {
+        "PRODUCT_HERO": 12,
+        "PRODUCT_GALLERY": 0,
+        "SECTION_MEDIA": 0,
+        "EDUCATIONAL_DIAGRAM": 3,
+        "PRODUCT_CARD": 0,
+        "OTHER": 0
+      },
+      "educationSrcs": [
+        "http://127.0.0.1:3460/images/padel/education/padel-racket-shapes.svg",
+        "/images/padel/education/padel-power-control.svg",
+        "/images/padel/education/padel-sweet-spot.svg"
+      ],
+      "sectionMediaSrcs": [],
+      "brokenCount": 4,
+      "glueHits": [],
+      "instructionHits": [],
+      "grammarHits": [],
+      "hasPrice": false,
+      "hasCta": false,
+      "testTypeHints": {
+        "firstHand": false,
+        "expertResearch": true
+      },
+      "opening": "Skip to content Unbiased. Data-driven. Expert sport gear recommendations. NL / EUR About Journal Help KITLETICS Shoes Racket Sports Running Fitness More Search Kitletics Home Reviews Padel Rackets reviews Adidas Metalbone 3.5 2026 Review EXPERT RESEARCH REVIEW Adidas Metalbone 3.5 2026 Review Adidas lists this as Metalbone 2026 by Ale Galán — the current Metalbone 3.5 generation. KE By Kitletics Editorial Editorial desk · 1 February 2026 REVIEW TYPE How we assessed this product How we assessed t"
+    },
+    "/reviews/head-coello-pro-2026": {
+      "status": 200,
+      "title": "HEAD Coello Pro 2026 Review: Verdict, Who It's For & Specs | Kitletics · Kitletics",
+      "productName": "HEAD Coello Pro 2026 Review",
+      "words": 2802,
+      "h2": [
+        "Review summary",
+        "How it scores",
+        "How we wrote this review",
+        "Verdict",
+        "Who should buy",
+        "Who should avoid it",
+        "Construction",
+        "Shape and balance",
+        "Power",
+        "Control",
+        "Sweet spot / forgiveness",
+        "Maneuverability",
+        "Comfort",
+        "Spin",
+        "Defensive play",
+        "Net play",
+        "Smashes / attacking play",
+        "Serve / return",
+        "Strengths",
+        "Weaknesses",
+        "Best For",
+        "Not Ideal For",
+        "Alternatives",
+        "Comparisons",
+        "Specifications",
+        "Value",
+        "Methodology",
+        "Sources",
+        "How it compares",
+        "Keep reading",
+        "Should you buy the Coello Pro?",
+        "About this review",
+        "Where to buy"
+      ],
+      "uniqueImgs": 12,
+      "mediaKinds": {
+        "PRODUCT_HERO": 11,
+        "PRODUCT_GALLERY": 6,
+        "SECTION_MEDIA": 0,
+        "EDUCATIONAL_DIAGRAM": 3,
+        "PRODUCT_CARD": 0,
+        "OTHER": 0
+      },
+      "educationSrcs": [
+        "http://127.0.0.1:3460/images/padel/education/padel-racket-shapes.svg",
+        "/images/padel/education/padel-power-control.svg",
+        "/images/padel/education/padel-sweet-spot.svg"
+      ],
+      "sectionMediaSrcs": [],
+      "brokenCount": 9,
+      "glueHits": [],
+      "instructionHits": [],
+      "grammarHits": [],
+      "hasPrice": true,
+      "hasCta": true,
+      "testTypeHints": {
+        "firstHand": false,
+        "expertResearch": true
+      },
+      "opening": "Skip to content Unbiased. Data-driven. Expert sport gear recommendations. NL / EUR About Journal Help KITLETICS Shoes Racket Sports Running Fitness More Search Kitletics Home Reviews Padel Rackets reviews HEAD Coello Pro 2026 Review EXPERT RESEARCH REVIEW HEAD Coello Pro 2026 Review HEAD’s Coello Pro 2026 page is unambiguous: tournament/expert, finisher, explosive power, diamond, hard. KE By Kitletics Editorial Editorial desk · 1 February 2026 REVIEW TYPE How we assessed this product How we asse"
+    },
+    "/reviews/head-gravity-pro": {
+      "status": 200,
+      "title": "HEAD Gravity Pro Review: Verdict, Who It's For & Specs | Kitletics · Kitletics",
+      "productName": "HEAD Gravity Pro Review",
+      "words": 2415,
+      "h2": [
+        "Review summary",
+        "How it scores",
+        "How we wrote this review",
+        "Verdict",
+        "Who should buy",
+        "Who should avoid it",
+        "Construction",
+        "Shape and balance",
+        "Power",
+        "Control",
+        "Sweet spot / forgiveness",
+        "Maneuverability",
+        "Comfort",
+        "Spin",
+        "Defensive play",
+        "Net play",
+        "Smashes / attacking play",
+        "Serve / return",
+        "Strengths",
+        "Weaknesses",
+        "Best For",
+        "Not Ideal For",
+        "Alternatives",
+        "Comparisons",
+        "Specifications",
+        "Value",
+        "Methodology",
+        "Sources",
+        "How it compares",
+        "Keep reading",
+        "Should you buy the Gravity Pro?",
+        "About this review",
+        "Where to buy"
+      ],
+      "uniqueImgs": 7,
+      "mediaKinds": {
+        "PRODUCT_HERO": 12,
+        "PRODUCT_GALLERY": 0,
+        "SECTION_MEDIA": 0,
+        "EDUCATIONAL_DIAGRAM": 3,
+        "PRODUCT_CARD": 0,
+        "OTHER": 0
+      },
+      "educationSrcs": [
+        "http://127.0.0.1:3460/images/padel/education/padel-racket-shapes.svg",
+        "/images/padel/education/padel-power-control.svg",
+        "/images/padel/education/padel-sweet-spot.svg"
+      ],
+      "sectionMediaSrcs": [],
+      "brokenCount": 8,
+      "glueHits": [],
+      "instructionHits": [],
+      "grammarHits": [],
+      "hasPrice": true,
+      "hasCta": true,
+      "testTypeHints": {
+        "firstHand": false,
+        "expertResearch": true
+      },
+      "opening": "Skip to content Unbiased. Data-driven. Expert sport gear recommendations. NL / EUR About Journal Help KITLETICS Shoes Racket Sports Running Fitness More Search Kitletics Home Reviews Padel Rackets reviews HEAD Gravity Pro Review EXPERT RESEARCH REVIEW HEAD Gravity Pro Review HEAD Gravity Pro is sold for tournament players who want to control the game. KE By Kitletics Editorial Editorial desk · 1 February 2026 REVIEW TYPE How we assessed this product How we assessed this product: published specs,"
+    },
+    "/reviews/babolat-technical-viper-3-0": {
+      "status": 200,
+      "title": "Babolat Technical Viper 3.0 Review: Verdict, Who It's For & Specs | Kitletics · Kitletics",
+      "productName": "Babolat Technical Viper 3.0 Review",
+      "words": 2597,
+      "h2": [
+        "Review summary",
+        "How it scores",
+        "How we wrote this review",
+        "Verdict",
+        "Who should buy",
+        "Who should avoid it",
+        "Construction",
+        "Shape and balance",
+        "Power",
+        "Control",
+        "Sweet spot / forgiveness",
+        "Maneuverability",
+        "Comfort",
+        "Spin",
+        "Defensive play",
+        "Net play",
+        "Smashes / attacking play",
+        "Serve / return",
+        "Strengths",
+        "Weaknesses",
+        "Best For",
+        "Not Ideal For",
+        "Alternatives",
+        "Comparisons",
+        "Specifications",
+        "Value",
+        "Methodology",
+        "Sources",
+        "How it compares",
+        "Keep reading",
+        "Should you buy the Technical Viper 3.0?",
+        "About this review",
+        "Where to buy"
+      ],
+      "uniqueImgs": 10,
+      "mediaKinds": {
+        "PRODUCT_HERO": 11,
+        "PRODUCT_GALLERY": 4,
+        "SECTION_MEDIA": 0,
+        "EDUCATIONAL_DIAGRAM": 3,
+        "PRODUCT_CARD": 0,
+        "OTHER": 0
+      },
+      "educationSrcs": [
+        "http://127.0.0.1:3460/images/padel/education/padel-racket-shapes.svg",
+        "/images/padel/education/padel-power-control.svg",
+        "/images/padel/education/padel-sweet-spot.svg"
+      ],
+      "sectionMediaSrcs": [],
+      "brokenCount": 6,
+      "glueHits": [],
+      "instructionHits": [],
+      "grammarHits": [],
+      "hasPrice": true,
+      "hasCta": true,
+      "testTypeHints": {
+        "firstHand": false,
+        "expertResearch": true
+      },
+      "opening": "Skip to content Unbiased. Data-driven. Expert sport gear recommendations. NL / EUR About Journal Help KITLETICS Shoes Racket Sports Running Fitness More Search Kitletics Home Reviews Padel Rackets reviews Babolat Technical Viper 3.0 Review EXPERT RESEARCH REVIEW Babolat Technical Viper 3.0 Review Babolat Technical Viper 3.0: technical striker, diamond, 3K carbon surface, carbon frame, Hard EVA, 370 g ±10, 38 mm, balance 270 mm, rough finish. KE By Kitletics Editorial Editorial desk · 1 February "
+    },
+    "/reviews/kuikma-pr-comfort-soft": {
+      "status": 200,
+      "title": "Kuikma PR Comfort Soft Review: Verdict, Who It's For & Specs | Kitletics · Kitletics",
+      "productName": "Kuikma PR Comfort Soft Review",
+      "words": 2653,
+      "h2": [
+        "Review summary",
+        "How it scores",
+        "How we wrote this review",
+        "Verdict",
+        "Who should buy",
+        "Who should avoid it",
+        "Construction",
+        "Shape and balance",
+        "Power",
+        "Control",
+        "Sweet spot / forgiveness",
+        "Maneuverability",
+        "Comfort",
+        "Spin",
+        "Defensive play",
+        "Net play",
+        "Smashes / attacking play",
+        "Serve / return",
+        "Strengths",
+        "Weaknesses",
+        "Best For",
+        "Not Ideal For",
+        "Alternatives",
+        "Comparisons",
+        "Specifications",
+        "Value",
+        "Methodology",
+        "Sources",
+        "How it compares",
+        "Keep reading",
+        "Should you buy the PR Comfort Soft?",
+        "About this review",
+        "Where to buy"
+      ],
+      "uniqueImgs": 12,
+      "mediaKinds": {
+        "PRODUCT_HERO": 11,
+        "PRODUCT_GALLERY": 6,
+        "SECTION_MEDIA": 0,
+        "EDUCATIONAL_DIAGRAM": 3,
+        "PRODUCT_CARD": 0,
+        "OTHER": 0
+      },
+      "educationSrcs": [
+        "http://127.0.0.1:3460/images/padel/education/padel-racket-shapes.svg",
+        "/images/padel/education/padel-power-control.svg",
+        "/images/padel/education/padel-sweet-spot.svg"
+      ],
+      "sectionMediaSrcs": [],
+      "brokenCount": 9,
+      "glueHits": [],
+      "instructionHits": [],
+      "grammarHits": [
+        "who want .+ who want"
+      ],
+      "hasPrice": true,
+      "hasCta": true,
+      "testTypeHints": {
+        "firstHand": false,
+        "expertResearch": true
+      },
+      "opening": "Skip to content Unbiased. Data-driven. Expert sport gear recommendations. NL / EUR About Journal Help KITLETICS Shoes Racket Sports Running Fitness More Search Kitletics Home Reviews Padel Rackets reviews Kuikma PR Comfort Soft Review EXPERT RESEARCH REVIEW Kuikma PR Comfort Soft Review PR Comfort Soft is Kuikma’s 2026 comfort round: around 350 g, low balance, fiberglass, Soft EVA. KE By Kitletics Editorial Editorial desk · 1 February 2026 REVIEW TYPE How we assessed this product How we assessed"
+    },
+    "/reviews/asics-gel-resolution-padel": {
+      "status": 200,
+      "title": "ASICS Gel-Resolution Padel Review: Court Traction, Fit & Verdict | Kitletics · Kitletics",
+      "productName": "ASICS Gel-Resolution Padel Review",
+      "words": 2343,
+      "h2": [
+        "Review summary",
+        "How it scores",
+        "How we wrote this review",
+        "Verdict",
+        "Specifications",
+        "Traction",
+        "Lateral stability",
+        "Court feel",
+        "Cushioning",
+        "Support",
+        "Fit",
+        "Durability",
+        "Comfort",
+        "Strengths",
+        "Who should avoid it",
+        "Who should buy",
+        "Value",
+        "Methodology",
+        "Sources",
+        "How it compares",
+        "Keep reading",
+        "Should you buy the Gel-Resolution Padel?",
+        "About this review",
+        "Where to buy"
+      ],
+      "uniqueImgs": 4,
+      "mediaKinds": {
+        "PRODUCT_HERO": 12,
+        "PRODUCT_GALLERY": 0,
+        "SECTION_MEDIA": 0,
+        "EDUCATIONAL_DIAGRAM": 0,
+        "PRODUCT_CARD": 0,
+        "OTHER": 0
+      },
+      "educationSrcs": [],
+      "sectionMediaSrcs": [],
+      "brokenCount": 2,
+      "glueHits": [],
+      "instructionHits": [],
+      "grammarHits": [],
+      "hasPrice": true,
+      "hasCta": true,
+      "testTypeHints": {
+        "firstHand": true,
+        "expertResearch": true
+      },
+      "opening": "Skip to content Unbiased. Data-driven. Expert sport gear recommendations. NL / EUR About Journal Help KITLETICS Shoes Racket Sports Running Fitness More Search Kitletics Home Reviews Padel Shoes reviews ASICS Gel-Resolution Padel Review EXPERT RESEARCH REVIEW ASICS Gel-Resolution Padel Review The Resolution last sold as a padel model for lateral load on sand-filled courts. KE By Kitletics Editorial Editorial desk · 1 February 2026 REVIEW TYPE How we assessed this product How we assessed this pro"
+    },
+    "/reviews/adidas-crazyquick-boost-padel": {
+      "status": 200,
+      "title": "Adidas Crazyquick Boost Padel Review: Court Traction, Fit & Verdict | Kitletics · Kitletics",
+      "productName": "Adidas Crazyquick Boost Padel Review",
+      "words": 2343,
+      "h2": [
+        "Review summary",
+        "How it scores",
+        "How we wrote this review",
+        "Verdict",
+        "Specifications",
+        "Traction",
+        "Lateral stability",
+        "Court feel",
+        "Cushioning",
+        "Support",
+        "Fit",
+        "Durability",
+        "Comfort",
+        "Strengths",
+        "Who should avoid it",
+        "Who should buy",
+        "Value",
+        "Methodology",
+        "Sources",
+        "How it compares",
+        "Keep reading",
+        "Should you buy the Crazyquick Boost Padel?",
+        "About this review",
+        "Where to buy"
+      ],
+      "uniqueImgs": 4,
+      "mediaKinds": {
+        "PRODUCT_HERO": 12,
+        "PRODUCT_GALLERY": 0,
+        "SECTION_MEDIA": 0,
+        "EDUCATIONAL_DIAGRAM": 0,
+        "PRODUCT_CARD": 0,
+        "OTHER": 0
+      },
+      "educationSrcs": [],
+      "sectionMediaSrcs": [],
+      "brokenCount": 2,
+      "glueHits": [],
+      "instructionHits": [],
+      "grammarHits": [],
+      "hasPrice": true,
+      "hasCta": true,
+      "testTypeHints": {
+        "firstHand": true,
+        "expertResearch": true
+      },
+      "opening": "Skip to content Unbiased. Data-driven. Expert sport gear recommendations. NL / EUR About Journal Help KITLETICS Shoes Racket Sports Running Fitness More Search Kitletics Home Reviews Padel Shoes reviews Adidas Crazyquick Boost Padel Review EXPERT RESEARCH REVIEW Adidas Crazyquick Boost Padel Review Boost-cushioned Adidas padel shoe for first-step speed on court. KE By Kitletics Editorial Editorial desk · 1 February 2026 REVIEW TYPE How we assessed this product How we assessed this product: publi"
+    },
+    "/reviews/adidas-courtquick-padel": {
+      "status": 200,
+      "title": "Adidas Courtquick Padel Review: Court Traction, Fit & Verdict | Kitletics · Kitletics",
+      "productName": "Adidas Courtquick Padel Review",
+      "words": 2184,
+      "h2": [
+        "Review summary",
+        "How it scores",
+        "How we wrote this review",
+        "Verdict",
+        "Specifications",
+        "Traction",
+        "Lateral stability",
+        "Court feel",
+        "Cushioning",
+        "Support",
+        "Fit",
+        "Durability",
+        "Comfort",
+        "Strengths",
+        "Who should avoid it",
+        "Who should buy",
+        "Value",
+        "Methodology",
+        "Sources",
+        "How it compares",
+        "Keep reading",
+        "Should you buy the Courtquick Padel?",
+        "About this review",
+        "Where to buy"
+      ],
+      "uniqueImgs": 4,
+      "mediaKinds": {
+        "PRODUCT_HERO": 12,
+        "PRODUCT_GALLERY": 0,
+        "SECTION_MEDIA": 0,
+        "EDUCATIONAL_DIAGRAM": 0,
+        "PRODUCT_CARD": 0,
+        "OTHER": 0
+      },
+      "educationSrcs": [],
+      "sectionMediaSrcs": [],
+      "brokenCount": 4,
+      "glueHits": [],
+      "instructionHits": [],
+      "grammarHits": [],
+      "hasPrice": true,
+      "hasCta": true,
+      "testTypeHints": {
+        "firstHand": true,
+        "expertResearch": true
+      },
+      "opening": "Skip to content Unbiased. Data-driven. Expert sport gear recommendations. NL / EUR About Journal Help KITLETICS Shoes Racket Sports Running Fitness More Search Kitletics Home Reviews Padel Shoes reviews Adidas Courtquick Padel Review EXPERT RESEARCH REVIEW Adidas Courtquick Padel Review Adidas club court shoe for padel turf — herringbone grip without Boost money. KE By Kitletics Editorial Editorial desk · 1 February 2026 REVIEW TYPE How we assessed this product How we assessed this product: publ"
+    },
+    "/reviews/joma-t-slam": {
+      "status": 200,
+      "title": "Joma T.Slam Review: Court Traction, Fit & Verdict | Kitletics · Kitletics",
+      "productName": "Joma T.Slam Review",
+      "words": 2112,
+      "h2": [
+        "Review summary",
+        "How it scores",
+        "How we wrote this review",
+        "Verdict",
+        "Specifications",
+        "Traction",
+        "Lateral stability",
+        "Court feel",
+        "Cushioning",
+        "Support",
+        "Fit",
+        "Durability",
+        "Comfort",
+        "Strengths",
+        "Who should avoid it",
+        "Who should buy",
+        "Value",
+        "Methodology",
+        "Sources",
+        "How it compares",
+        "Keep reading",
+        "Should you buy the T.Slam?",
+        "About this review",
+        "Where to buy"
+      ],
+      "uniqueImgs": 6,
+      "mediaKinds": {
+        "PRODUCT_HERO": 11,
+        "PRODUCT_GALLERY": 3,
+        "SECTION_MEDIA": 0,
+        "EDUCATIONAL_DIAGRAM": 0,
+        "PRODUCT_CARD": 0,
+        "OTHER": 0
+      },
+      "educationSrcs": [],
+      "sectionMediaSrcs": [],
+      "brokenCount": 2,
+      "glueHits": [],
+      "instructionHits": [],
+      "grammarHits": [],
+      "hasPrice": true,
+      "hasCta": true,
+      "testTypeHints": {
+        "firstHand": true,
+        "expertResearch": true
+      },
+      "opening": "Skip to content Unbiased. Data-driven. Expert sport gear recommendations. NL / EUR About Journal Help KITLETICS Shoes Racket Sports Running Fitness More Search Kitletics Home Reviews Padel Shoes reviews Joma T.Slam Review EXPERT RESEARCH REVIEW Joma T.Slam Review EU club workhorse with a padel-specific lateral brief. KE By Kitletics Editorial Editorial desk · 1 February 2026 REVIEW TYPE How we assessed this product How we assessed this product: published specs, catalog comparisons, and editorial"
+    },
+    "/reviews/babolat-jet-premura": {
+      "status": 200,
+      "title": "Babolat Jet Premura Review: Court Traction, Fit & Verdict | Kitletics · Kitletics",
+      "productName": "Babolat Jet Premura Review",
+      "words": 2060,
+      "h2": [
+        "Review summary",
+        "How it scores",
+        "How we wrote this review",
+        "Verdict",
+        "Specifications",
+        "Traction",
+        "Lateral stability",
+        "Court feel",
+        "Cushioning",
+        "Support",
+        "Fit",
+        "Durability",
+        "Comfort",
+        "Strengths",
+        "Who should avoid it",
+        "Who should buy",
+        "Value",
+        "Methodology",
+        "Sources",
+        "How it compares",
+        "Keep reading",
+        "Should you buy the Jet Premura?",
+        "About this review",
+        "Where to buy"
+      ],
+      "uniqueImgs": 4,
+      "mediaKinds": {
+        "PRODUCT_HERO": 12,
+        "PRODUCT_GALLERY": 0,
+        "SECTION_MEDIA": 0,
+        "EDUCATIONAL_DIAGRAM": 0,
+        "PRODUCT_CARD": 0,
+        "OTHER": 0
+      },
+      "educationSrcs": [],
+      "sectionMediaSrcs": [],
+      "brokenCount": 2,
+      "glueHits": [],
+      "instructionHits": [],
+      "grammarHits": [],
+      "hasPrice": true,
+      "hasCta": true,
+      "testTypeHints": {
+        "firstHand": true,
+        "expertResearch": true
+      },
+      "opening": "Skip to content Unbiased. Data-driven. Expert sport gear recommendations. NL / EUR About Journal Help KITLETICS Shoes Racket Sports Running Fitness More Search Kitletics Home Reviews Padel Shoes reviews Babolat Jet Premura Review EXPERT RESEARCH REVIEW Babolat Jet Premura Review Padel-focused Jet with Michelin outsole heritage. KE By Kitletics Editorial Editorial desk · 1 February 2026 REVIEW TYPE How we assessed this product How we assessed this product: published specs, catalog comparisons, an"
+    },
+    "/reviews/nox-at10-lux": {
+      "status": 200,
+      "title": "Nox AT10 Lux Review: Court Traction, Fit & Verdict | Kitletics · Kitletics",
+      "productName": "Nox AT10 Lux Review",
+      "words": 2151,
+      "h2": [
+        "Review summary",
+        "How it scores",
+        "How we wrote this review",
+        "Verdict",
+        "Specifications",
+        "Traction",
+        "Lateral stability",
+        "Court feel",
+        "Cushioning",
+        "Support",
+        "Fit",
+        "Durability",
+        "Comfort",
+        "Strengths",
+        "Who should avoid it",
+        "Who should buy",
+        "Value",
+        "Methodology",
+        "Sources",
+        "How it compares",
+        "Keep reading",
+        "Should you buy the AT10 Lux?",
+        "About this review",
+        "Where to buy"
+      ],
+      "uniqueImgs": 4,
+      "mediaKinds": {
+        "PRODUCT_HERO": 12,
+        "PRODUCT_GALLERY": 0,
+        "SECTION_MEDIA": 0,
+        "EDUCATIONAL_DIAGRAM": 0,
+        "PRODUCT_CARD": 0,
+        "OTHER": 0
+      },
+      "educationSrcs": [],
+      "sectionMediaSrcs": [],
+      "brokenCount": 0,
+      "glueHits": [],
+      "instructionHits": [],
+      "grammarHits": [],
+      "hasPrice": true,
+      "hasCta": true,
+      "testTypeHints": {
+        "firstHand": true,
+        "expertResearch": true
+      },
+      "opening": "Skip to content Unbiased. Data-driven. Expert sport gear recommendations. NL / EUR About Journal Help KITLETICS Shoes Racket Sports Running Fitness More Search Kitletics Home Reviews Padel Shoes reviews Nox AT10 Lux Review EXPERT RESEARCH REVIEW Nox AT10 Lux Review Nox padel court shoe in the AT10 line — herringbone, high lateral listing. KE By Kitletics Editorial Editorial desk · 1 February 2026 REVIEW TYPE How we assessed this product How we assessed this product: published specs, catalog comp"
+    },
+    "/reviews/head-sprint-pro-4-padel": {
+      "status": 200,
+      "title": "HEAD Sprint Pro 4.0 Padel Review: Court Traction, Fit & Verdict | Kitletics · Kitletics",
+      "productName": "HEAD Sprint Pro 4.0 Padel Review",
+      "words": 2087,
+      "h2": [
+        "Review summary",
+        "How it scores",
+        "How we wrote this review",
+        "Verdict",
+        "Specifications",
+        "Traction",
+        "Lateral stability",
+        "Court feel",
+        "Cushioning",
+        "Support",
+        "Fit",
+        "Durability",
+        "Comfort",
+        "Strengths",
+        "Who should avoid it",
+        "Who should buy",
+        "Value",
+        "Methodology",
+        "Sources",
+        "How it compares",
+        "Keep reading",
+        "Should you buy the Sprint Pro 4.0 Padel?",
+        "About this review",
+        "Where to buy"
+      ],
+      "uniqueImgs": 4,
+      "mediaKinds": {
+        "PRODUCT_HERO": 12,
+        "PRODUCT_GALLERY": 0,
+        "SECTION_MEDIA": 0,
+        "EDUCATIONAL_DIAGRAM": 0,
+        "PRODUCT_CARD": 0,
+        "OTHER": 0
+      },
+      "educationSrcs": [],
+      "sectionMediaSrcs": [],
+      "brokenCount": 4,
+      "glueHits": [],
+      "instructionHits": [],
+      "grammarHits": [],
+      "hasPrice": true,
+      "hasCta": true,
+      "testTypeHints": {
+        "firstHand": true,
+        "expertResearch": true
+      },
+      "opening": "Skip to content Unbiased. Data-driven. Expert sport gear recommendations. NL / EUR About Journal Help KITLETICS Shoes Racket Sports Running Fitness More Search Kitletics Home Reviews Padel Shoes reviews HEAD Sprint Pro 4.0 Padel Review EXPERT RESEARCH REVIEW HEAD Sprint Pro 4.0 Padel Review Lighter HEAD padel court shoe with Hybrasion+ traction listing. KE By Kitletics Editorial Editorial desk · 1 February 2026 REVIEW TYPE How we assessed this product How we assessed this product: published spec"
+    },
+    "/reviews/kuikma-ps-990": {
+      "status": 200,
+      "title": "Kuikma PS 990 Review: Court Traction, Fit & Verdict | Kitletics · Kitletics",
+      "productName": "Kuikma PS 990 Review",
+      "words": 2033,
+      "h2": [
+        "Review summary",
+        "How it scores",
+        "How we wrote this review",
+        "Verdict",
+        "Specifications",
+        "Traction",
+        "Lateral stability",
+        "Court feel",
+        "Cushioning",
+        "Support",
+        "Fit",
+        "Durability",
+        "Comfort",
+        "Strengths",
+        "Who should avoid it",
+        "Who should buy",
+        "Value",
+        "Methodology",
+        "Sources",
+        "How it compares",
+        "Keep reading",
+        "Should you buy the PS 990?",
+        "About this review",
+        "Where to buy"
+      ],
+      "uniqueImgs": 4,
+      "mediaKinds": {
+        "PRODUCT_HERO": 12,
+        "PRODUCT_GALLERY": 0,
+        "SECTION_MEDIA": 0,
+        "EDUCATIONAL_DIAGRAM": 0,
+        "PRODUCT_CARD": 0,
+        "OTHER": 0
+      },
+      "educationSrcs": [],
+      "sectionMediaSrcs": [],
+      "brokenCount": 4,
+      "glueHits": [],
+      "instructionHits": [],
+      "grammarHits": [],
+      "hasPrice": true,
+      "hasCta": true,
+      "testTypeHints": {
+        "firstHand": true,
+        "expertResearch": true
+      },
+      "opening": "Skip to content Unbiased. Data-driven. Expert sport gear recommendations. NL / EUR About Journal Help KITLETICS Shoes Racket Sports Running Fitness More Search Kitletics Home Reviews Padel Shoes reviews Kuikma PS 990 Review EXPERT RESEARCH REVIEW Kuikma PS 990 Review Decathlon performance padel shoe for frequent club play. KE By Kitletics Editorial Editorial desk · 1 February 2026 REVIEW TYPE How we assessed this product How we assessed this product: published specs, catalog comparisons, and edi"
+    },
+    "/reviews/wilson-padel-overgrip-pack": {
+      "status": 200,
+      "title": "Wilson Pro Padel Overgrip 3-Pack Review: Feel, Wrap & When to Replace | Kitletics · Kitletics",
+      "productName": "Wilson Pro Padel Overgrip 3-Pack Review",
+      "words": 1802,
+      "h2": [
+        "Review summary",
+        "How it scores",
+        "How we wrote this review",
+        "Verdict",
+        "Specifications",
+        "Feel and wrap",
+        "Comfort",
+        "Replacement cycle",
+        "Strengths",
+        "Who should avoid it",
+        "Who should buy",
+        "Value",
+        "Methodology",
+        "Sources",
+        "How it compares",
+        "Keep reading",
+        "Should you buy the Pro Padel Overgrip?",
+        "About this review",
+        "Where to buy"
+      ],
+      "uniqueImgs": 5,
+      "mediaKinds": {
+        "PRODUCT_HERO": 11,
+        "PRODUCT_GALLERY": 2,
+        "SECTION_MEDIA": 0,
+        "EDUCATIONAL_DIAGRAM": 0,
+        "PRODUCT_CARD": 0,
+        "OTHER": 0
+      },
+      "educationSrcs": [],
+      "sectionMediaSrcs": [],
+      "brokenCount": 4,
+      "glueHits": [],
+      "instructionHits": [],
+      "grammarHits": [],
+      "hasPrice": true,
+      "hasCta": true,
+      "testTypeHints": {
+        "firstHand": false,
+        "expertResearch": true
+      },
+      "opening": "Skip to content Unbiased. Data-driven. Expert sport gear recommendations. NL / EUR About Journal Help KITLETICS Shoes Racket Sports Running Fitness More Search Kitletics Home Reviews Grips & Overgrips reviews Wilson Pro Padel Overgrip 3-Pack Review EXPERT RESEARCH REVIEW Wilson Pro Padel Overgrip 3-Pack Review Thin padel-length overgrip — the default wrap, not a cushion replacement. KE By Kitletics Editorial Editorial desk · 1 February 2026 REVIEW TYPE How we assessed this product How we assesse"
+    },
+    "/reviews/hesacore-padel-grip": {
+      "status": 200,
+      "title": "Hesacore Padel Grip Review: Feel, Wrap & When to Replace | Kitletics · Kitletics",
+      "productName": "Hesacore Padel Grip Review",
+      "words": 1820,
+      "h2": [
+        "Review summary",
+        "How it scores",
+        "How we wrote this review",
+        "Verdict",
+        "Specifications",
+        "Feel and wrap",
+        "Comfort",
+        "Replacement cycle",
+        "Strengths",
+        "Who should avoid it",
+        "Who should buy",
+        "Value",
+        "Methodology",
+        "Sources",
+        "How it compares",
+        "Keep reading",
+        "Should you buy the Hesacore?",
+        "About this review",
+        "Where to buy"
+      ],
+      "uniqueImgs": 4,
+      "mediaKinds": {
+        "PRODUCT_HERO": 12,
+        "PRODUCT_GALLERY": 0,
+        "SECTION_MEDIA": 0,
+        "EDUCATIONAL_DIAGRAM": 0,
+        "PRODUCT_CARD": 0,
+        "OTHER": 0
+      },
+      "educationSrcs": [],
+      "sectionMediaSrcs": [],
+      "brokenCount": 2,
+      "glueHits": [],
+      "instructionHits": [],
+      "grammarHits": [],
+      "hasPrice": true,
+      "hasCta": true,
+      "testTypeHints": {
+        "firstHand": false,
+        "expertResearch": true
+      },
+      "opening": "Skip to content Unbiased. Data-driven. Expert sport gear recommendations. NL / EUR About Journal Help KITLETICS Shoes Racket Sports Running Fitness More Search Kitletics Home Reviews Grips & Overgrips reviews Hesacore Padel Grip Review EXPERT RESEARCH REVIEW Hesacore Padel Grip Review Structured cushion replacement — comfort geometry, not a medical device. KE By Kitletics Editorial Editorial desk · 1 February 2026 REVIEW TYPE How we assessed this product How we assessed this product: published s"
+    },
+    "/reviews/bullpadel-hac-overgrip": {
+      "status": 200,
+      "title": "Bullpadel HaC Overgrip Review: Feel, Wrap & When to Replace | Kitletics · Kitletics",
+      "productName": "Bullpadel HaC Overgrip Review",
+      "words": 1792,
+      "h2": [
+        "Review summary",
+        "How it scores",
+        "How we wrote this review",
+        "Verdict",
+        "Specifications",
+        "Feel and wrap",
+        "Comfort",
+        "Replacement cycle",
+        "Strengths",
+        "Who should avoid it",
+        "Who should buy",
+        "Value",
+        "Methodology",
+        "Sources",
+        "How it compares",
+        "Keep reading",
+        "Should you buy the HaC?",
+        "About this review",
+        "Where to buy"
+      ],
+      "uniqueImgs": 4,
+      "mediaKinds": {
+        "PRODUCT_HERO": 12,
+        "PRODUCT_GALLERY": 0,
+        "SECTION_MEDIA": 0,
+        "EDUCATIONAL_DIAGRAM": 0,
+        "PRODUCT_CARD": 0,
+        "OTHER": 0
+      },
+      "educationSrcs": [],
+      "sectionMediaSrcs": [],
+      "brokenCount": 4,
+      "glueHits": [],
+      "instructionHits": [],
+      "grammarHits": [],
+      "hasPrice": false,
+      "hasCta": false,
+      "testTypeHints": {
+        "firstHand": false,
+        "expertResearch": true
+      },
+      "opening": "Skip to content Unbiased. Data-driven. Expert sport gear recommendations. NL / EUR About Journal Help KITLETICS Shoes Racket Sports Running Fitness More Search Kitletics Home Reviews Grips & Overgrips reviews Bullpadel HaC Overgrip Review EXPERT RESEARCH REVIEW Bullpadel HaC Overgrip Review Absorption-first padel wrap — when thin tack turns slippery. KE By Kitletics Editorial Editorial desk · 1 February 2026 REVIEW TYPE How we assessed this product How we assessed this product: published specs, "
+    },
+    "/reviews/head-padel-pro-s": {
+      "status": 200,
+      "title": "HEAD Padel Pro S+ Review: Who It's For | Kitletics · Kitletics",
+      "productName": "HEAD Padel Pro S+ Review",
+      "words": 1956,
+      "h2": [
+        "Review summary",
+        "How it scores",
+        "How we wrote this review",
+        "Verdict",
+        "Specifications",
+        "Speed and court context",
+        "Match vs training role",
+        "Freshness and durability",
+        "Strengths",
+        "Who should avoid it",
+        "Who should buy",
+        "Value",
+        "Methodology",
+        "Sources",
+        "How it compares",
+        "Keep reading",
+        "Should you buy the Padel Pro S+?",
+        "About this review",
+        "Where to buy"
+      ],
+      "uniqueImgs": 6,
+      "mediaKinds": {
+        "PRODUCT_HERO": 11,
+        "PRODUCT_GALLERY": 3,
+        "SECTION_MEDIA": 0,
+        "EDUCATIONAL_DIAGRAM": 0,
+        "PRODUCT_CARD": 0,
+        "OTHER": 0
+      },
+      "educationSrcs": [],
+      "sectionMediaSrcs": [],
+      "brokenCount": 6,
+      "glueHits": [],
+      "instructionHits": [],
+      "grammarHits": [],
+      "hasPrice": true,
+      "hasCta": true,
+      "testTypeHints": {
+        "firstHand": false,
+        "expertResearch": true
+      },
+      "opening": "Skip to content Unbiased. Data-driven. Expert sport gear recommendations. NL / EUR About Journal Help KITLETICS Shoes Racket Sports Running Fitness More Search Kitletics Home Reviews Padel Balls reviews HEAD Padel Pro S+ Review EXPERT RESEARCH REVIEW HEAD Padel Pro S+ Review Faster HEAD competition can — not the control sibling. KE By Kitletics Editorial Editorial desk · 1 February 2026 REVIEW TYPE How we assessed this product How we assessed this product: published specs, catalog comparisons, a"
+    },
+    "/reviews/nox-at10-team-bag": {
+      "status": 200,
+      "title": "Nox AT10 Team Bag Review: Who It's For | Kitletics · Kitletics",
+      "productName": "Nox AT10 Team Bag Review",
+      "words": 2012,
+      "h2": [
+        "Review summary",
+        "How it scores",
+        "How we wrote this review",
+        "Verdict",
+        "Specifications",
+        "Capacity and racket storage",
+        "Thermal and shoe storage",
+        "Carry system",
+        "Build and wear points",
+        "Strengths",
+        "Who should avoid it",
+        "Who should buy",
+        "Value",
+        "Methodology",
+        "Sources",
+        "How it compares",
+        "Keep reading",
+        "Should you buy the AT10 Team Paletero?",
+        "About this review",
+        "Where to buy"
+      ],
+      "uniqueImgs": 9,
+      "mediaKinds": {
+        "PRODUCT_HERO": 11,
+        "PRODUCT_GALLERY": 6,
+        "SECTION_MEDIA": 0,
+        "EDUCATIONAL_DIAGRAM": 0,
+        "PRODUCT_CARD": 0,
+        "OTHER": 0
+      },
+      "educationSrcs": [],
+      "sectionMediaSrcs": [],
+      "brokenCount": 9,
+      "glueHits": [],
+      "instructionHits": [],
+      "grammarHits": [],
+      "hasPrice": true,
+      "hasCta": true,
+      "testTypeHints": {
+        "firstHand": false,
+        "expertResearch": true
+      },
+      "opening": "Skip to content Unbiased. Data-driven. Expert sport gear recommendations. NL / EUR About Journal Help KITLETICS Shoes Racket Sports Running Fitness More Search Kitletics Home Reviews Padel Bags reviews Nox AT10 Team Bag Review EXPERT RESEARCH REVIEW Nox AT10 Team Bag Review 42 L club thermo paletero — not tournament XXL luggage. KE By Kitletics Editorial Editorial desk · 1 February 2026 REVIEW TYPE How we assessed this product How we assessed this product: published specs, catalog comparisons, a"
+    },
+    "/reviews/bullpadel-pascal-box-3b": {
+      "status": 200,
+      "title": "Bullpadel Pascal Box 3B Review: Who It's For | Kitletics · Kitletics",
+      "productName": "Bullpadel Pascal Box 3B Review",
+      "words": 1857,
+      "h2": [
+        "Review summary",
+        "How it scores",
+        "How we wrote this review",
+        "Verdict",
+        "Specifications",
+        "How it works",
+        "Compatibility and workflow",
+        "Limits and wear",
+        "Strengths",
+        "Who should avoid it",
+        "Who should buy",
+        "Value",
+        "Methodology",
+        "Sources",
+        "How it compares",
+        "Keep reading",
+        "Should you buy the Pascal Box 3B?",
+        "About this review",
+        "Where to buy"
+      ],
+      "uniqueImgs": 4,
+      "mediaKinds": {
+        "PRODUCT_HERO": 12,
+        "PRODUCT_GALLERY": 0,
+        "SECTION_MEDIA": 0,
+        "EDUCATIONAL_DIAGRAM": 0,
+        "PRODUCT_CARD": 0,
+        "OTHER": 0
+      },
+      "educationSrcs": [],
+      "sectionMediaSrcs": [],
+      "brokenCount": 6,
+      "glueHits": [],
+      "instructionHits": [],
+      "grammarHits": [],
+      "hasPrice": true,
+      "hasCta": true,
+      "testTypeHints": {
+        "firstHand": false,
+        "expertResearch": true
+      },
+      "opening": "Skip to content Unbiased. Data-driven. Expert sport gear recommendations. NL / EUR About Journal Help KITLETICS Shoes Racket Sports Running Fitness More Search Kitletics Home Reviews Accessories reviews Bullpadel Pascal Box 3B Review EXPERT RESEARCH REVIEW Bullpadel Pascal Box 3B Review Manual 3-ball pressurizer with manometer — not a felt regenerator. KE By Kitletics Editorial Editorial desk · 1 February 2026 REVIEW TYPE How we assessed this product How we assessed this product: published specs"
+    }
+  },
+  "guides": {
+    "running-shoes-guide": {
+      "url": "/guides/how-to-choose-running-shoes",
+      "status": 200,
+      "words": 1773,
+      "uniqueImgs": 14,
+      "imgCount": 20,
+      "educationalDiagramImgs": [],
+      "educationalCount": 0,
+      "productLikeImgs": 17,
+      "svgCount": 49,
+      "brokenCount": 10,
+      "diagramSignals": {
+        "hasRoundTeardropDiamond": true,
+        "hasBalance": false,
+        "hasSweetSpot": false,
+        "hasPowerControl": false,
+        "hasGripLayers": false,
+        "hasOutsole": true,
+        "hasBagAnatomy": false,
+        "hasPressure": false,
+        "svgEducational": 49,
+        "eduImgPaths": []
+      },
+      "h2": [
+        "Find your perfect shoes",
+        "On this page",
+        "1 Know your running needs",
+        "2 Shoe anatomy 101",
+        "3 Key factors explained",
+        "4 What to look for while comparing",
+        "5 Understanding fit",
+        "6 Terrain & conditions",
+        "7 How much should you spend?",
+        "8 Common mistakes to avoid",
+        "9 FAQ",
+        "Examples: shoes that fit different needs",
+        "Head-to-head comparisons",
+        "Find your perfect shoes",
+        "On this page",
+        "Need help deciding?",
+        "Key terms explained",
+        "Recommended shortlists",
+        "Related guides",
+        "Get better gear advice",
+        "Need help deciding?",
+        "Key terms explained",
+        "Recommended shortlists",
+        "Related guides",
+        "Get better gear advice"
+      ],
+      "opening": "Skip to content Unbiased. Data-driven. Expert sport gear recommendations. NL / EUR About Journal Help KITLETICS Shoes Racket Sports Running Fitness More Search Kitletics Home Guides Running Shoes How to Choose Running Shoes BUYING GUIDE How to Choose Running Shoes: The Complete Guide Finding the right running shoes can transform your runs. This guide explains the key factors that matter most — so "
+    },
+    "padel-racket-guide": {
+      "url": "/guides/how-to-choose-a-padel-racket",
+      "status": 200,
+      "words": 2538,
+      "uniqueImgs": 6,
+      "imgCount": 22,
+      "educationalDiagramImgs": [],
+      "educationalCount": 0,
+      "productLikeImgs": 21,
+      "svgCount": 47,
+      "brokenCount": 1,
+      "diagramSignals": {
+        "hasRoundTeardropDiamond": true,
+        "hasBalance": true,
+        "hasSweetSpot": true,
+        "hasPowerControl": true,
+        "hasGripLayers": true,
+        "hasOutsole": false,
+        "hasBagAnatomy": false,
+        "hasPressure": true,
+        "svgEducational": 47,
+        "eduImgPaths": []
+      },
+      "h2": [
+        "Find a padel racket",
+        "On this page",
+        "The short version",
+        "1 What a padel racket decision really is",
+        "2 Why forgiveness usually compounds faster",
+        "3 Factors that should drive the choice",
+        "4 What to look for in each factor",
+        "5 Forgiving control frame vs Power-focused frame",
+        "6 What you gain — and give up",
+        "7 Approaches for this decision",
+        "8 How current options differ",
+        "9 Decision steps for this guide",
+        "10 Common mistakes",
+        "11 Frequently asked questions",
+        "Examples for this a padel racket decision",
+        "Head-to-head comparisons",
+        "How we research",
+        "Find a padel racket",
+        "On this page",
+        "Need help deciding?",
+        "Recommended shortlists",
+        "Related guides",
+        "Need help deciding?",
+        "Recommended shortlists",
+        "Related guides"
+      ],
+      "opening": "Skip to content Unbiased. Data-driven. Expert sport gear recommendations. NL / EUR About Journal Help KITLETICS Shoes Racket Sports Running Fitness More Search Kitletics Home Guides Padel Rackets How to Choose a Padel Racket BUYING GUIDE How to Choose a Padel Racket Match padel frame shape, balance and face response to your level — forgiveness first, smash power second. Expert Guide Researched & w"
+    },
+    "padel-shoes-guide": {
+      "url": "/guides/how-to-choose-padel-shoes",
+      "status": 200,
+      "words": 2380,
+      "uniqueImgs": 5,
+      "imgCount": 16,
+      "educationalDiagramImgs": [],
+      "educationalCount": 0,
+      "productLikeImgs": 15,
+      "svgCount": 44,
+      "brokenCount": 0,
+      "diagramSignals": {
+        "hasRoundTeardropDiamond": true,
+        "hasBalance": true,
+        "hasSweetSpot": true,
+        "hasPowerControl": true,
+        "hasGripLayers": false,
+        "hasOutsole": true,
+        "hasBagAnatomy": false,
+        "hasPressure": false,
+        "svgEducational": 44,
+        "eduImgPaths": []
+      },
+      "h2": [
+        "On this page",
+        "The short version",
+        "1 What padel shoes decisions are really about",
+        "2 Why it matters",
+        "3 Factors that should drive the choice",
+        "4 What to look for in each factor",
+        "5 Stable court shoe vs Lighter speed shoe",
+        "6 What you gain — and give up",
+        "7 Approaches for this decision",
+        "8 How current options differ",
+        "9 Decision steps for this guide",
+        "10 Common mistakes",
+        "11 Frequently asked questions",
+        "Examples for this padel shoes decision",
+        "How we research",
+        "On this page",
+        "Need help deciding?",
+        "Recommended shortlists",
+        "Related guides",
+        "Need help deciding?",
+        "Recommended shortlists",
+        "Related guides"
+      ],
+      "opening": "Skip to content Unbiased. Data-driven. Expert sport gear recommendations. NL / EUR About Journal Help KITLETICS Shoes Racket Sports Running Fitness More Search Kitletics Home Guides Padel Shoes How to Choose Padel Shoes BUYING GUIDE How to Choose Padel Shoes Prioritise court outsoles and lateral lockdown over running-shoe cushion. Resolution-class stability, Courtquick/Courtstabil grip, and Jet P…"
+    },
+    "padel-bag-guide": {
+      "url": "/guides/how-to-choose-a-padel-bag",
+      "status": 200,
+      "words": 2269,
+      "uniqueImgs": 4,
+      "imgCount": 15,
+      "educationalDiagramImgs": [],
+      "educationalCount": 0,
+      "productLikeImgs": 15,
+      "svgCount": 42,
+      "brokenCount": 8,
+      "diagramSignals": {
+        "hasRoundTeardropDiamond": true,
+        "hasBalance": true,
+        "hasSweetSpot": true,
+        "hasPowerControl": true,
+        "hasGripLayers": true,
+        "hasOutsole": false,
+        "hasBagAnatomy": true,
+        "hasPressure": false,
+        "svgEducational": 42,
+        "eduImgPaths": []
+      },
+      "h2": [
+        "On this page",
+        "The short version",
+        "1 What a padel bag decisions are really about",
+        "2 Why bag choice matters",
+        "3 Factors that should drive the choice",
+        "4 What to look for in each factor",
+        "5 Club paletero vs Tournament volume bag",
+        "6 What you gain — and give up",
+        "7 Approaches for this decision",
+        "8 How current options differ",
+        "9 Decision steps for this guide",
+        "10 Common mistakes",
+        "11 Frequently asked questions",
+        "Examples for this a padel bag decision",
+        "Head-to-head comparisons",
+        "How we research",
+        "On this page",
+        "Need help deciding?",
+        "Recommended shortlists",
+        "Related guides",
+        "Need help deciding?",
+        "Recommended shortlists",
+        "Related guides"
+      ],
+      "opening": "Skip to content Unbiased. Data-driven. Expert sport gear recommendations. NL / EUR About Journal Help KITLETICS Shoes Racket Sports Running Fitness More Search Kitletics Home Guides Padel Bags How to Choose a Padel Bag BUYING GUIDE How to Choose a Padel Bag Pick form first: club paletero (AT10 Team ~42 L) vs tournament volume (RH Pro ~62 L) vs backpack commute. Thermo compartments matter if you … "
+    },
+    "padel-balls-guide": {
+      "url": "/guides/how-to-choose-padel-balls",
+      "status": 200,
+      "words": 2432,
+      "uniqueImgs": 5,
+      "imgCount": 22,
+      "educationalDiagramImgs": [],
+      "educationalCount": 0,
+      "productLikeImgs": 22,
+      "svgCount": 44,
+      "brokenCount": 6,
+      "diagramSignals": {
+        "hasRoundTeardropDiamond": true,
+        "hasBalance": true,
+        "hasSweetSpot": true,
+        "hasPowerControl": true,
+        "hasGripLayers": false,
+        "hasOutsole": false,
+        "hasBagAnatomy": false,
+        "hasPressure": true,
+        "svgEducational": 44,
+        "eduImgPaths": []
+      },
+      "h2": [
+        "On this page",
+        "The short version",
+        "1 What padel balls decisions are really about",
+        "2 Why ball choice matters",
+        "3 Factors that should drive the choice",
+        "4 What to look for in each factor",
+        "5 Faster competition can vs Control-oriented competition can",
+        "6 What you gain — and give up",
+        "7 Approaches for this decision",
+        "8 How current options differ",
+        "9 Decision steps for this guide",
+        "10 Common mistakes",
+        "11 Frequently asked questions",
+        "Examples for this padel balls decision",
+        "Head-to-head comparisons",
+        "How we research",
+        "On this page",
+        "Need help deciding?",
+        "Recommended shortlists",
+        "Related guides",
+        "Need help deciding?",
+        "Recommended shortlists",
+        "Related guides"
+      ],
+      "opening": "Skip to content Unbiased. Data-driven. Expert sport gear recommendations. NL / EUR About Journal Help KITLETICS Shoes Racket Sports Running Fitness More Search Kitletics Home Guides Padel Balls How to Choose Padel Balls BUYING GUIDE How to Choose Padel Balls Choose pressurized competition cans for matches. In the current published catalog, HEAD Pro S leans faster and Pro+ leans more control-orien…"
+    },
+    "padel-grips-guide": {
+      "url": "/guides/padel-grips-overgrips-explained",
+      "status": 200,
+      "words": 2069,
+      "uniqueImgs": 3,
+      "imgCount": 11,
+      "educationalDiagramImgs": [],
+      "educationalCount": 0,
+      "productLikeImgs": 10,
+      "svgCount": 43,
+      "brokenCount": 1,
+      "diagramSignals": {
+        "hasRoundTeardropDiamond": true,
+        "hasBalance": true,
+        "hasSweetSpot": true,
+        "hasPowerControl": true,
+        "hasGripLayers": true,
+        "hasOutsole": false,
+        "hasBagAnatomy": true,
+        "hasPressure": false,
+        "svgEducational": 43,
+        "eduImgPaths": []
+      },
+      "h2": [
+        "On this page",
+        "The short version",
+        "1 What padel grips and overgrips decisions are really about",
+        "2 Why it matters",
+        "3 Factors that should drive the choice",
+        "4 What to look for in each factor",
+        "5 Replacement grip vs Overgrip",
+        "6 What you gain — and give up",
+        "7 Approaches for this decision",
+        "8 How current options differ",
+        "9 Decision steps for this guide",
+        "10 Common mistakes",
+        "11 Frequently asked questions",
+        "Examples for this padel grips and overgrips decision",
+        "Head-to-head comparisons",
+        "How we research",
+        "On this page",
+        "Need help deciding?",
+        "Recommended shortlists",
+        "Related guides",
+        "Need help deciding?",
+        "Recommended shortlists",
+        "Related guides"
+      ],
+      "opening": "Skip to content Unbiased. Data-driven. Expert sport gear recommendations. NL / EUR About Journal Help KITLETICS Shoes Racket Sports Running Fitness More Search Kitletics Home Guides Grips & Overgrips Padel Grips & Overgrips Explained BUYING GUIDE Padel Grips & Overgrips Explained Replacement grips rebuild the handle; overgrips fine-tune tack, sweat control and small diameter changes. Most club pla"
+    },
+    "padel-beginner-guide": {
+      "url": "/guides/beginner-padel-gear-guide",
+      "status": 200,
+      "words": 2519,
+      "uniqueImgs": 8,
+      "imgCount": 22,
+      "educationalDiagramImgs": [],
+      "educationalCount": 0,
+      "productLikeImgs": 22,
+      "svgCount": 43,
+      "brokenCount": 0,
+      "diagramSignals": {
+        "hasRoundTeardropDiamond": true,
+        "hasBalance": true,
+        "hasSweetSpot": true,
+        "hasPowerControl": true,
+        "hasGripLayers": true,
+        "hasOutsole": true,
+        "hasBagAnatomy": false,
+        "hasPressure": true,
+        "svgEducational": 43,
+        "eduImgPaths": []
+      },
+      "h2": [
+        "Find beginner padel gear",
+        "On this page",
+        "The short version",
+        "1 What beginner padel gear decisions are really about",
+        "2 Why a beginner kit differs",
+        "3 Factors that should drive the choice",
+        "4 What to look for in each factor",
+        "5 Forgiving starter kit vs Pro-copy kit",
+        "6 What you gain — and give up",
+        "7 Approaches for this decision",
+        "8 How current options differ",
+        "9 Decision steps for this guide",
+        "10 Common mistakes",
+        "11 Frequently asked questions",
+        "Examples for this beginner padel gear decision",
+        "Head-to-head comparisons",
+        "How we research",
+        "Find beginner padel gear",
+        "On this page",
+        "Need help deciding?",
+        "Recommended shortlists",
+        "Related guides",
+        "Need help deciding?",
+        "Recommended shortlists",
+        "Related guides"
+      ],
+      "opening": "Skip to content Unbiased. Data-driven. Expert sport gear recommendations. NL / EUR About Journal Help KITLETICS Shoes Racket Sports Running Fitness More Search Kitletics Home Guides Padel Rackets Beginner Padel Gear Guide BUYING GUIDE Beginner Padel Gear Guide Start with a forgiving round/soft racket (Indiga CTR or Comfort Soft class), court shoes with real lateral grip, a fresh pressurized can, a"
+    }
+  },
+  "best": {
+    "best-rackets": {
+      "url": "/best/padel-rackets",
+      "title": "Best Padel Rackets: Top Picks by Use Case · Kitletics",
+      "chips": [
+        "Best for Beginners",
+        "I'd shortlist it when timing already exists and you want one current Bullpadel flagship. I'd pause if you are still spraying the glass on defensive blocks — start with Indiga or ML10 instead.",
+        "Players who want maximum smash stiffness (Hack 04 / Metalbone 3.5)",
+        "Players who specifically want the 350–360 g Vertex 05 W last",
+        "I'd shortlist it for new players and anyone returning from a long break. I'd skip it once you are already attacking on purpose and the round ceiling is the weekly complaint.",
+        "New padel players who need the sweet spot in the middle of the face",
+        "ML10 Pro Cup is the control reference in the Nox range: a classic cup for players who want the ball to stay on the face through blocks, chiquitas, and lobs.",
+        "I'd shortlist it when you already play and your miss is over-hitting, not under-hitting. I'd skip it if you need a first-week SoftEva round or a finishing diamond.",
+        "Players who prefer placement-first club players.",
+        "Brand-new players who need Indiga’s softer Tour round",
+        "Hack 04 is the 2026 attacking Hack: diamond, high structural stiffness, and a manufacturer job aimed at players who already generate head speed.",
+        "I'd shortlist it when your week is bandejas that you want to finish and overheads you can already time. I'd skip it if off-centre blocks are still your match.",
+        "I'd shortlist it when you play both sides of the court and the diamond Vertex felt late on defence. I'd skip it if you already want Hack-level smash mass.",
+        "All-court players who like Vertex but not a pure diamond",
+        "Left-side players who still defend a lot",
+        "Players who already know they want a finishing diamond",
+        "PR Comfort Soft is the catalog’s honest value comfort round: a soft core for players who want the ball to stay on the face without buying Pro Line carbon.",
+        "I'd shortlist it when arm comfort and budget are the weekly constraints. I'd skip it once you are ready for a hybrid step-up like Ionic Light or PR Hybrid Carbon.",
+        "Club players who want a soft round without flagship pricing",
+        "Arm-sensitive players who should not start on 18K diamonds",
+        "I'd shortlist it when you want to tune balance and you already play at an advanced attacking level. I'd skip it if you needed Metalbone CTRL’s round sweet spot or HRD+ High Memory stiffness.",
+        "Adidas-system players who do not want HRD+ High Memory",
+        "Players who specifically want HRD+ High Memory EVA",
+        "New padel players who need the sweet spot in the middle of the face, Club beginners who should not buy a professional diamond first, Anyone who was about to buy Diablo or Coello Pro as a “starter”",
+        "Players who prefer placement-first club players., Defensive partners who live on the glass, Buyers who want a control classic rather than a textured attack face",
+        "All-court players who like Vertex but not a pure diamond, Advanced intermediates stepping out of round frames, Left-side players who still defend a lot",
+        "Club players who want a soft round without flagship pricing, Arm-sensitive players who should not start on 18K diamonds, Buyers comparing value comfort, not Pro Line Vertex",
+        "Advanced attackers who want to tune Metalbone balance, Players replacing Metalbone 3.3 with the current generation, Adidas-system players who do not want HRD+ High Memory",
+        "Step-up frames for players who have outgrown a beginner round and are not ready for a professional diamond."
+      ],
+      "words": 4352,
+      "hero": "/images/padel/products/bullpadel-vertex-05-hero.png",
+      "defects": []
+    },
+    "best-balls": {
+      "url": "/best/padel-balls",
+      "title": "Best Padel Balls: Top Picks by Use Case · Kitletics",
+      "chips": [
+        "Best for players who want a faster match pace on slow or cool courts. The trade-off to accept: too lively for some beginner sessions.",
+        "Players who want a faster match pace on slow or cool courts",
+        "Works: Players who want a faster match pace on slow or cool courts",
+        "Less suited: Players who want Pro+’s longer sit",
+        "Players who want Pro+’s longer sit",
+        "Best for players who prefer control-first match play at club pace. The trade-off to accept: not the fastest HEAD can.",
+        "Players who prefer control-first match play at club pace",
+        "Works: Players who prefer control-first match play at club pace",
+        "Less suited: Players who explicitly want maximum pace",
+        "Players who prefer players who explicitly want maximum pace.",
+        "Players who specifically want the fastest HEAD can.",
+        "Best for players who need extra pop in cold climates and slow courts. The trade-off to accept: too lively for already-fast summer outdoors.",
+        "Players who need extra pop in cold climates and slow courts",
+        "Works: Players who need extra pop in cold climates and slow courts",
+        "Players who prefer heat/altitude players wanting control.",
+        "Best for players who want value competition pace on cool Dutch evenings. The trade-off to accept: not the control can for heat/altitude.",
+        "Players who want value competition pace on cool Dutch evenings",
+        "Works: Players who want value competition pace on cool Dutch evenings",
+        "Less suited: Players who need published control sibling today",
+        "Players who need published control sibling today",
+        "Players who specifically want the control can for heat/altitude.",
+        "Best for players who need training-volume cans for coaching crates. The trade-off to accept: not a tournament flagship.",
+        "Players who need training-volume cans for coaching crates",
+        "Works: Players who need training-volume cans for coaching crates",
+        "Players who need tournament flagship",
+        "Players who want a faster match pace on slow or cool courts, Competition cans when the glass feels dead",
+        "Players who prefer control-first match play at club pace, Standard club sessions without extra pop",
+        "Players who need extra pop in cold climates and slow courts, Low-altitude speed when the ball dies early",
+        "Players who want value competition pace on cool Dutch evenings, Budget FIP fast cans versus flagship HEAD pricing",
+        "Players who need training-volume cans for coaching crates, High-volume practice without match-can spend"
+      ],
+      "words": 2687,
+      "hero": "/images/padel/products/head-padel-pro-s-hero.jpg",
+      "defects": []
+    },
+    "best-pressurizers": {
+      "url": "/best/padel-ball-pressurizers",
+      "title": "Best Padel Ball Pressurizers: Top Picks by Use Case · Kitletics",
+      "chips": [
+        "Best for players who want to restore pressure to opened ball cans. The trade-off to accept: upfront cost vs casual players who open one can a month.",
+        "Choose Pascal Box 3B over X3 Pressurizer when manometer regulation matters more to you than the other option’s strengths. Skip it if you are players who will not actually pump after sessions.",
+        "Players who want to restore pressure to opened ball cans",
+        "Works: Players who want to restore pressure to opened ball cans",
+        "Less suited: Players who will not actually pump after sessions",
+        "Players who will not actually pump after sessions",
+        "Players looking for Upfront cost vs casual players who open one can a month.",
+        "Best for players who prefer HEAD’s three-ball pressurizer form. The trade-off to accept: does not fix felt wear; economics only for frequent players.",
+        "Players who prefer HEAD’s three-ball pressurizer form",
+        "Works: Players who prefer HEAD’s three-ball pressurizer form",
+        "Less suited: Players who need manual pump re-pressurize as the whole point",
+        "Players who need manual pump re-pressurize as the whole point",
+        "Players who want to restore pressure to opened ball cans, Open-can mid-week storage between club sessions, Bullpadel accessory kit with a manual pump tube",
+        "Players who prefer HEAD’s three-ball pressurizer form, Three-ball pressurizer storage without a pump ritual"
+      ],
+      "words": 1564,
+      "hero": "/images/padel/products/bullpadel-pascal-box-3b-hero.jpg",
+      "defects": []
+    },
+    "best-overgrips": {
+      "url": "/best/padel-overgrips",
+      "title": "Best Padel Overgrips: Top Picks by Use Case · Kitletics",
+      "chips": [
+        "I'd wrap this as the default. I'd switch to HaC or Nox Pro when sweat kills this wrap mid-set.",
+        "Players who prefer a thin, familiar overgrip feel",
+        "Players who want a thin padel-length 3-pack as the default wrap",
+        "Works: Players who prefer a thin, familiar overgrip feel",
+        "Works: Players who want a thin padel-length 3-pack as the default wrap",
+        "Less suited: Players who need a shaped comfort sleeve",
+        "Players who need a shaped comfort sleeve",
+        "I'd pick this mid-summer or if Wilson feels like soap. I'd skip it if you wanted maximum tacky feel.",
+        "Players who need sweat absorption more than max tack",
+        "Works: Players who need sweat absorption more than max tack",
+        "Less suited: Players who want Wilson’s tack as the whole point",
+        "Players who prefer specialist PDP, not bullpadel.com.",
+        "Best for players who absorbent alternative. The trade-off to accept: less of a tack-first story than Wilson Pro.",
+        "Less suited: Players who only wanted Wilson’s thin tack",
+        "Players who prefer absorbent alternative.",
+        "Players who prefer nox kit cohesion.",
+        "Players who prefer 3-pack convenience.",
+        "Players who prefer players who only wanted Wilson’s thin tack.",
+        "Players who prefer a thin, familiar overgrip feel, Feel-first tack for padel-length wraps, Players who want a thin padel-length 3-pack as the default wrap",
+        "Players who need sweat absorption more than max tack, Padel-native absorbent wraps for humid sessions",
+        "Players who prefer absorbent alternative., Players who prefer nox kit cohesion., Players who prefer 3-pack convenience."
+      ],
+      "words": 2003,
+      "hero": "/images/padel/products/wilson-padel-overgrip-hero.jpg",
+      "defects": []
+    },
+    "best-shoes": {
+      "url": "/best/padel-shoes",
+      "title": "Best Padel Shoes: Top Picks by Use Case · Kitletics",
+      "chips": [
+        "I'd shortlist it when you want armour and GEL on padel turf. I'd skip it if you wanted Boost’s different plush, or a cheaper Joma last you have actually tried.",
+        "Players who want ASICS court armour",
+        "Works: Players who want ASICS court armour",
+        "Less suited: Players who wanted women’s Resolution last",
+        "Players who prefer planted high-lateral play.",
+        "Players who prefer players who wanted women’s Resolution last.",
+        "I'd shortlist it for club volume. I'd skip it if you needed Crazyquick’s foam or the women’s Courtquick last.",
+        "Players who prefer club Adidas.",
+        "Players who prefer stable everyday padel.",
+        "Players who prefer value versus Boost.",
+        "I'd shortlist it for frequent club play. I'd skip it if you need a guaranteed wide last, or Slam Lady’s women’s last.",
+        "Less suited: Players who need a documented wide last",
+        "Players who prefer eU club volume.",
+        "Players who prefer value lateral support.",
+        "Players who need a documented wide last",
+        "I'd shortlist it when landing protection on court is the spend. I'd skip it if you wanted a firmer planted last.",
+        "Adidas players who want Boost",
+        "Works: Adidas players who want Boost",
+        "Less suited: Players who want a connected racer",
+        "Players who prefer plush padel sessions.",
+        "Players who want a connected racer",
+        "Jet Premura is the connected court-feel award. Resolution and Crazyquick are more cushioned. This is for players who want to feel the turf.",
+        "Best for players who connected court feel. The trade-off to accept: premium vs club value shoes.",
+        "Less suited: Players who need max cushion",
+        "Players who prefer connected court feel.",
+        "Players who prefer michelin padel traction.",
+        "Players who need max cushion",
+        "Best for players who kuikma club value. The trade-off to accept: less premium foam than Adidas Boost lines.",
+        "Players who prefer kuikma club value.",
+        "Players who prefer replaceable club pairs.",
+        "Players who prefer planted high-lateral play., Frequent club and match volume, Players who want ASICS court armour",
+        "Players who prefer club Adidas., Players who prefer stable everyday padel., Players who prefer value versus Boost.",
+        "Players who prefer eU club volume., Players who prefer value lateral support.",
+        "Players who prefer plush padel sessions., Adidas players who want Boost",
+        "Players who prefer connected court feel., Players who prefer michelin padel traction.",
+        "Players who prefer kuikma club value., Players who prefer replaceable club pairs."
+      ],
+      "words": 2938,
+      "hero": "/images/padel/products/asics-gel-resolution-padel-hero.jpg",
+      "defects": []
+    }
+  },
+  "estate": {
+    "padelReviewUrls": [
+      "/reviews/bullpadel-vertex-05-2026",
+      "/reviews/bullpadel-hack-04-2026",
+      "/reviews/bullpadel-vertex-05-hybrid-2026",
+      "/reviews/bullpadel-indiga-ctr-2026",
+      "/reviews/nox-at10-genius-18k-2026",
+      "/reviews/nox-at10-genius-12k-alum-xtrem-2026",
+      "/reviews/nox-ml10-pro-cup",
+      "/reviews/adidas-metalbone-3-5-2026",
+      "/reviews/head-coello-pro-2026",
+      "/reviews/head-gravity-pro",
+      "/reviews/babolat-technical-viper-3-0",
+      "/reviews/kuikma-pr-comfort-soft",
+      "/reviews/asics-gel-resolution-padel",
+      "/reviews/adidas-crazyquick-boost-padel",
+      "/reviews/adidas-courtquick-padel",
+      "/reviews/joma-t-slam",
+      "/reviews/babolat-jet-premura",
+      "/reviews/nox-at10-lux",
+      "/reviews/head-sprint-pro-4-padel",
+      "/reviews/kuikma-ps-990",
+      "/reviews/wilson-padel-overgrip-pack",
+      "/reviews/hesacore-padel-grip",
+      "/reviews/bullpadel-hac-overgrip",
+      "/reviews/head-padel-pro-s",
+      "/reviews/nox-at10-team-bag",
+      "/reviews/bullpadel-pascal-box-3b"
+    ],
+    "padelKnowledgeGuides": [
+      "/guides/how-to-choose-a-padel-racket",
+      "/guides/padel-racket-shapes-explained",
+      "/guides/round-vs-teardrop-vs-diamond-padel-rackets",
+      "/guides/padel-racket-balance-explained",
+      "/guides/padel-racket-weight-explained",
+      "/guides/padel-racket-materials-explained",
+      "/guides/carbon-vs-fiberglass-padel-rackets",
+      "/guides/padel-racket-cores-eva-foam-explained",
+      "/guides/soft-vs-hard-padel-rackets",
+      "/guides/how-padel-racket-sweet-spots-work",
+      "/guides/how-to-choose-padel-shoes",
+      "/guides/padel-vs-tennis-shoes",
+      "/guides/padel-shoe-outsoles-explained",
+      "/guides/how-long-do-padel-balls-last",
+      "/guides/how-to-choose-padel-balls",
+      "/guides/fast-vs-standard-padel-balls",
+      "/guides/padel-ball-pressurizers",
+      "/guides/how-to-choose-a-padel-bag",
+      "/guides/padel-bag-vs-backpack",
+      "/guides/padel-racket-frame-protectors",
+      "/guides/padel-racket-customization",
+      "/guides/padel-grips-overgrips-explained",
+      "/guides/padel-grip-vs-overgrip",
+      "/guides/how-often-should-you-replace-a-padel-overgrip",
+      "/guides/beginner-padel-gear-guide",
+      "/guides/complete-padel-gear-checklist"
+    ],
+    "padelBestGuides": [
+      "/best/padel-rackets",
+      "/best/padel-rackets-beginners",
+      "/best/padel-rackets-intermediate",
+      "/best/padel-rackets-advanced",
+      "/best/padel-rackets-control",
+      "/best/padel-rackets-power",
+      "/best/padel-rackets-all-round",
+      "/best/padel-rackets-lightweight",
+      "/best/padel-rackets-comfort",
+      "/best/padel-rackets-maneuverability",
+      "/best/padel-rackets-women",
+      "/best/padel-rackets-value",
+      "/best/padel-shoes",
+      "/best/padel-shoes-men",
+      "/best/padel-shoes-women",
+      "/best/padel-shoes-stability",
+      "/best/padel-shoes-comfort",
+      "/best/padel-shoes-lightweight",
+      "/best/padel-shoes-value",
+      "/best/padel-balls",
+      "/best/padel-competition-balls",
+      "/best/padel-training-balls",
+      "/best/padel-fast-balls",
+      "/best/padel-value-balls",
+      "/best/padel-overgrips",
+      "/best/padel-overgrips-sweaty-hands",
+      "/best/padel-tacky-overgrips",
+      "/best/padel-dry-feel-overgrips",
+      "/best/padel-value-overgrips-multipacks",
+      "/best/padel-ergonomic-grip-systems",
+      "/best/padel-bags",
+      "/best/padel-backpacks",
+      "/best/large-padel-bags",
+      "/best/compact-padel-bags",
+      "/best/padel-bags-with-shoe-compartments",
+      "/best/padel-tournament-bags",
+      "/best/padel-bags-commuting",
+      "/best/padel-ball-pressurizers",
+      "/best/padel-racket-protectors"
+    ],
+    "hubCurl": {
+      "/padel": {
+        "status": 200,
+        "ms": 37
+      },
+      "/reviews": {
+        "status": 200,
+        "ms": 15
+      },
+      "/guides": {
+        "status": 200,
+        "ms": 7
+      },
+      "/best": {
+        "status": 200,
+        "ms": 11
+      }
+    },
+    "counts": {
+      "padelReviews": 26,
+      "padelKnowledgeGuides": 26,
+      "padelBestGuides": 39,
+      "allReviewLinksSeen": 26
+    }
+  },
+  "glue": {
+    "historical": {
+      "I'?d only keep the ": 0,
+      "If this section still feels generic": 0,
+      "A sibling that wins a different court problem": 0,
+      "buy for the job you will repeat": 0,
+      "keep .+ in view before you chase extras": 0
+    },
+    "replacementPatterns": []
+  },
+  "similarity": {
+    "topCrossProduct": [
+      {
+        "products": [
+          "/reviews/adidas-courtquick-padel",
+          "/reviews/adidas-crazyquick-boost-padel",
+          "/reviews/adidas-metalbone-3-5-2026",
+          "/reviews/asics-gel-resolution-padel",
+          "/reviews/babolat-jet-premura",
+          "/reviews/babolat-technical-viper-3-0",
+          "/reviews/bullpadel-hac-overgrip",
+          "/reviews/bullpadel-hack-04-2026",
+          "/reviews/bullpadel-indiga-ctr-2026",
+          "/reviews/bullpadel-pascal-box-3b",
+          "/reviews/bullpadel-vertex-05-2026",
+          "/reviews/bullpadel-vertex-05-hybrid-2026",
+          "/reviews/head-coello-pro-2026",
+          "/reviews/head-gravity-pro",
+          "/reviews/head-padel-pro-s",
+          "/reviews/head-sprint-pro-4-padel",
+          "/reviews/hesacore-padel-grip",
+          "/reviews/joma-t-slam",
+          "/reviews/kuikma-pr-comfort-soft",
+          "/reviews/kuikma-ps-990",
+          "/reviews/nox-at10-genius-12k-alum-xtrem-2026",
+          "/reviews/nox-at10-genius-18k-2026",
+          "/reviews/nox-at10-lux",
+          "/reviews/nox-at10-team-bag",
+          "/reviews/nox-ml10-pro-cup",
+          "/reviews/wilson-padel-overgrip-pack"
+        ],
+        "productCount": 26,
+        "scrubbed": "we start with the numbers that shape the buy — shape, balance, weight, face, core and the level the mould is built for — then place it against rackets that solve a similar court jo",
+        "sample": "We start with the numbers that shape the buy — shape, balance, weight, face, core and the level the mould is built for — then place it against rackets that solv"
+      },
+      {
+        "products": [
+          "/reviews/adidas-courtquick-padel",
+          "/reviews/adidas-crazyquick-boost-padel",
+          "/reviews/adidas-metalbone-3-5-2026",
+          "/reviews/asics-gel-resolution-padel",
+          "/reviews/babolat-jet-premura",
+          "/reviews/babolat-technical-viper-3-0",
+          "/reviews/bullpadel-hac-overgrip",
+          "/reviews/bullpadel-hack-04-2026",
+          "/reviews/bullpadel-indiga-ctr-2026",
+          "/reviews/bullpadel-pascal-box-3b",
+          "/reviews/bullpadel-vertex-05-2026",
+          "/reviews/bullpadel-vertex-05-hybrid-2026",
+          "/reviews/head-coello-pro-2026",
+          "/reviews/head-gravity-pro",
+          "/reviews/head-padel-pro-s",
+          "/reviews/head-sprint-pro-4-padel",
+          "/reviews/hesacore-padel-grip",
+          "/reviews/joma-t-slam",
+          "/reviews/kuikma-pr-comfort-soft",
+          "/reviews/kuikma-ps-990",
+          "/reviews/nox-at10-genius-12k-alum-xtrem-2026",
+          "/reviews/nox-at10-genius-18k-2026",
+          "/reviews/nox-at10-lux",
+          "/reviews/nox-at10-team-bag",
+          "/reviews/nox-ml10-pro-cup",
+          "/reviews/wilson-padel-overgrip-pack"
+        ],
+        "productCount": 26,
+        "scrubbed": "running shoe finder fitness watch finder running pace calculator race time predictor all tools",
+        "sample": "Running Shoe Finder Fitness Watch Finder Running Pace Calculator Race Time Predictor All tools"
+      },
+      {
+        "products": [
+          "/reviews/adidas-courtquick-padel",
+          "/reviews/adidas-crazyquick-boost-padel",
+          "/reviews/adidas-metalbone-3-5-2026",
+          "/reviews/asics-gel-resolution-padel",
+          "/reviews/babolat-jet-premura",
+          "/reviews/babolat-technical-viper-3-0",
+          "/reviews/bullpadel-hac-overgrip",
+          "/reviews/bullpadel-hack-04-2026",
+          "/reviews/bullpadel-indiga-ctr-2026",
+          "/reviews/bullpadel-pascal-box-3b",
+          "/reviews/bullpadel-vertex-05-2026",
+          "/reviews/bullpadel-vertex-05-hybrid-2026",
+          "/reviews/head-coello-pro-2026",
+          "/reviews/head-gravity-pro",
+          "/reviews/head-padel-pro-s",
+          "/reviews/head-sprint-pro-4-padel",
+          "/reviews/hesacore-padel-grip",
+          "/reviews/joma-t-slam",
+          "/reviews/kuikma-pr-comfort-soft",
+          "/reviews/kuikma-ps-990",
+          "/reviews/nox-at10-genius-12k-alum-xtrem-2026",
+          "/reviews/nox-at10-genius-18k-2026",
+          "/reviews/nox-at10-lux",
+          "/reviews/nox-at10-team-bag",
+          "/reviews/nox-ml10-pro-cup",
+          "/reviews/wilson-padel-overgrip-pack"
+        ],
+        "productCount": 26,
+        "scrubbed": "whether the strengths are worth the price for how often you will use them.",
+        "sample": "Whether the strengths are worth the price for how often you will use them."
+      },
+      {
+        "products": [
+          "/reviews/adidas-courtquick-padel",
+          "/reviews/adidas-crazyquick-boost-padel",
+          "/reviews/adidas-metalbone-3-5-2026",
+          "/reviews/asics-gel-resolution-padel",
+          "/reviews/babolat-jet-premura",
+          "/reviews/babolat-technical-viper-3-0",
+          "/reviews/bullpadel-hac-overgrip",
+          "/reviews/bullpadel-hack-04-2026",
+          "/reviews/bullpadel-indiga-ctr-2026",
+          "/reviews/bullpadel-pascal-box-3b",
+          "/reviews/bullpadel-vertex-05-2026",
+          "/reviews/bullpadel-vertex-05-hybrid-2026",
+          "/reviews/hesacore-padel-grip",
+          "/reviews/joma-t-slam",
+          "/reviews/kuikma-pr-comfort-soft",
+          "/reviews/kuikma-ps-990",
+          "/reviews/nox-at10-genius-12k-alum-xtrem-2026",
+          "/reviews/nox-at10-genius-18k-2026",
+          "/reviews/nox-at10-lux",
+          "/reviews/nox-at10-team-bag",
+          "/reviews/nox-ml10-pro-cup",
+          "/reviews/wilson-padel-overgrip-pack"
+        ],
+        "productCount": 22,
+        "scrubbed": "use the paths below when you want alternatives, head-to-heads, shortlists, or how-to choose frameworks.",
+        "sample": "Use the paths below when you want alternatives, head-to-heads, shortlists, or how-to choose frameworks."
+      },
+      {
+        "products": [
+          "/reviews/adidas-courtquick-padel",
+          "/reviews/adidas-crazyquick-boost-padel",
+          "/reviews/adidas-metalbone-3-5-2026",
+          "/reviews/asics-gel-resolution-padel",
+          "/reviews/babolat-jet-premura",
+          "/reviews/babolat-technical-viper-3-0",
+          "/reviews/bullpadel-hac-overgrip",
+          "/reviews/bullpadel-hack-04-2026",
+          "/reviews/bullpadel-indiga-ctr-2026",
+          "/reviews/bullpadel-pascal-box-3b",
+          "/reviews/bullpadel-vertex-05-2026",
+          "/reviews/bullpadel-vertex-05-hybrid-2026",
+          "/reviews/hesacore-padel-grip",
+          "/reviews/joma-t-slam",
+          "/reviews/kuikma-pr-comfort-soft",
+          "/reviews/kuikma-ps-990",
+          "/reviews/nox-at10-genius-12k-alum-xtrem-2026",
+          "/reviews/nox-at10-genius-18k-2026",
+          "/reviews/nox-at10-lux",
+          "/reviews/nox-at10-team-bag"
+        ],
+        "productCount": 20,
+        "scrubbed": "how we assessed this product: published specs, catalog comparisons, and editorial research — not hands-on testing unless the page says otherwise.",
+        "sample": "How we assessed this product: published specs, catalog comparisons, and editorial research — not hands-on testing unless the page says otherwise."
+      },
+      {
+        "products": [
+          "/reviews/adidas-courtquick-padel",
+          "/reviews/adidas-crazyquick-boost-padel",
+          "/reviews/adidas-metalbone-3-5-2026",
+          "/reviews/asics-gel-resolution-padel",
+          "/reviews/babolat-jet-premura",
+          "/reviews/babolat-technical-viper-3-0",
+          "/reviews/bullpadel-hac-overgrip",
+          "/reviews/bullpadel-hack-04-2026",
+          "/reviews/bullpadel-indiga-ctr-2026",
+          "/reviews/bullpadel-pascal-box-3b",
+          "/reviews/bullpadel-vertex-05-2026",
+          "/reviews/bullpadel-vertex-05-hybrid-2026",
+          "/reviews/hesacore-padel-grip",
+          "/reviews/joma-t-slam",
+          "/reviews/kuikma-pr-comfort-soft",
+          "/reviews/kuikma-ps-990",
+          "/reviews/nox-at10-genius-12k-alum-xtrem-2026",
+          "/reviews/nox-at10-genius-18k-2026",
+          "/reviews/nox-at10-lux",
+          "/reviews/nox-at10-team-bag"
+        ],
+        "productCount": 20,
+        "scrubbed": "we put this guide together from published specs and similar products in the same job.",
+        "sample": "We put this guide together from published specs and similar products in the same job."
+      },
+      {
+        "products": [
+          "/reviews/adidas-courtquick-padel",
+          "/reviews/adidas-crazyquick-boost-padel",
+          "/reviews/adidas-metalbone-3-5-2026",
+          "/reviews/asics-gel-resolution-padel",
+          "/reviews/babolat-jet-premura",
+          "/reviews/babolat-technical-viper-3-0",
+          "/reviews/bullpadel-hac-overgrip",
+          "/reviews/bullpadel-hack-04-2026",
+          "/reviews/bullpadel-indiga-ctr-2026",
+          "/reviews/bullpadel-pascal-box-3b",
+          "/reviews/bullpadel-vertex-05-2026",
+          "/reviews/bullpadel-vertex-05-hybrid-2026",
+          "/reviews/hesacore-padel-grip",
+          "/reviews/joma-t-slam",
+          "/reviews/kuikma-pr-comfort-soft",
+          "/reviews/kuikma-ps-990",
+          "/reviews/nox-at10-genius-12k-alum-xtrem-2026",
+          "/reviews/nox-at10-genius-18k-2026",
+          "/reviews/nox-at10-lux",
+          "/reviews/nox-at10-team-bag"
+        ],
+        "productCount": 20,
+        "scrubbed": "scores are out of 10 for this product’s job — not a claim it wins every category.",
+        "sample": "Scores are out of 10 for this product’s job — not a claim it wins every category."
+      },
+      {
+        "products": [
+          "/reviews/adidas-courtquick-padel",
+          "/reviews/adidas-metalbone-3-5-2026",
+          "/reviews/babolat-technical-viper-3-0",
+          "/reviews/bullpadel-hac-overgrip",
+          "/reviews/bullpadel-hack-04-2026",
+          "/reviews/bullpadel-indiga-ctr-2026",
+          "/reviews/bullpadel-vertex-05-2026",
+          "/reviews/bullpadel-vertex-05-hybrid-2026",
+          "/reviews/head-coello-pro-2026",
+          "/reviews/head-gravity-pro",
+          "/reviews/head-padel-pro-s",
+          "/reviews/head-sprint-pro-4-padel",
+          "/reviews/hesacore-padel-grip",
+          "/reviews/kuikma-pr-comfort-soft",
+          "/reviews/nox-at10-genius-12k-alum-xtrem-2026",
+          "/reviews/nox-at10-genius-18k-2026",
+          "/reviews/nox-at10-lux",
+          "/reviews/nox-at10-team-bag",
+          "/reviews/nox-ml10-pro-cup",
+          "/reviews/wilson-padel-overgrip-pack"
+        ],
+        "productCount": 20,
+        "scrubbed": "check live street price; skip it if a cheaper peer covers the same sessions.",
+        "sample": "Check live street price; skip it if a cheaper peer covers the same sessions."
+      },
+      {
+        "products": [
+          "/reviews/adidas-courtquick-padel",
+          "/reviews/adidas-crazyquick-boost-padel",
+          "/reviews/asics-gel-resolution-padel",
+          "/reviews/babolat-jet-premura",
+          "/reviews/bullpadel-hac-overgrip",
+          "/reviews/bullpadel-pascal-box-3b",
+          "/reviews/head-padel-pro-s",
+          "/reviews/head-sprint-pro-4-padel",
+          "/reviews/hesacore-padel-grip",
+          "/reviews/joma-t-slam",
+          "/reviews/kuikma-ps-990",
+          "/reviews/nox-at10-lux",
+          "/reviews/wilson-padel-overgrip-pack"
+        ],
+        "productCount": 13,
+        "scrubbed": "how the foam, upper and outsole are likely to hold up with real use.",
+        "sample": "How the foam, upper and outsole are likely to hold up with real use."
+      },
+      {
+        "products": [
+          "/reviews/adidas-metalbone-3-5-2026",
+          "/reviews/babolat-technical-viper-3-0",
+          "/reviews/bullpadel-hack-04-2026",
+          "/reviews/bullpadel-indiga-ctr-2026",
+          "/reviews/bullpadel-vertex-05-2026",
+          "/reviews/bullpadel-vertex-05-hybrid-2026",
+          "/reviews/head-coello-pro-2026",
+          "/reviews/head-gravity-pro",
+          "/reviews/kuikma-pr-comfort-soft",
+          "/reviews/nox-at10-genius-12k-alum-xtrem-2026",
+          "/reviews/nox-at10-genius-18k-2026",
+          "/reviews/nox-ml10-pro-cup"
+        ],
+        "productCount": 12,
+        "scrubbed": "shape and balance shape changes where the usable face sits — not a brand rendering.",
+        "sample": "SHAPE AND BALANCE Shape changes where the usable face sits — not a brand rendering."
+      },
+      {
+        "products": [
+          "/reviews/adidas-metalbone-3-5-2026",
+          "/reviews/babolat-technical-viper-3-0",
+          "/reviews/bullpadel-hack-04-2026",
+          "/reviews/bullpadel-indiga-ctr-2026",
+          "/reviews/bullpadel-vertex-05-2026",
+          "/reviews/bullpadel-vertex-05-hybrid-2026",
+          "/reviews/head-coello-pro-2026",
+          "/reviews/head-gravity-pro",
+          "/reviews/kuikma-pr-comfort-soft",
+          "/reviews/nox-at10-genius-12k-alum-xtrem-2026",
+          "/reviews/nox-at10-genius-18k-2026",
+          "/reviews/nox-ml10-pro-cup"
+        ],
+        "productCount": 12,
+        "scrubbed": "power generic continuum — match the mould to the job you play most weeks.",
+        "sample": "POWER Generic continuum — match the mould to the job you play most weeks."
+      },
+      {
+        "products": [
+          "/reviews/adidas-courtquick-padel",
+          "/reviews/adidas-crazyquick-boost-padel",
+          "/reviews/bullpadel-hac-overgrip",
+          "/reviews/bullpadel-pascal-box-3b",
+          "/reviews/head-padel-pro-s",
+          "/reviews/head-sprint-pro-4-padel",
+          "/reviews/hesacore-padel-grip",
+          "/reviews/joma-t-slam",
+          "/reviews/kuikma-ps-990",
+          "/reviews/nox-at10-lux",
+          "/reviews/wilson-padel-overgrip-pack"
+        ],
+        "productCount": 11,
+        "scrubbed": "soft dailies usually fade in the foam before the upper looks worn — rotate when you can.",
+        "sample": "Soft dailies usually fade in the foam before the upper looks worn — rotate when you can."
+      },
+      {
+        "products": [
+          "/reviews/adidas-metalbone-3-5-2026",
+          "/reviews/babolat-technical-viper-3-0",
+          "/reviews/bullpadel-hack-04-2026",
+          "/reviews/bullpadel-indiga-ctr-2026",
+          "/reviews/bullpadel-vertex-05-2026",
+          "/reviews/bullpadel-vertex-05-hybrid-2026",
+          "/reviews/kuikma-pr-comfort-soft",
+          "/reviews/nox-at10-genius-12k-alum-xtrem-2026",
+          "/reviews/nox-at10-genius-18k-2026"
+        ],
+        "productCount": 9,
+        "scrubbed": "sweet spot / forgiveness sweet-spot height is a teaching idea — verify published notes on the product sheet.",
+        "sample": "SWEET SPOT / FORGIVENESS Sweet-spot height is a teaching idea — verify published notes on the product sheet."
+      },
+      {
+        "products": [
+          "/reviews/adidas-crazyquick-boost-padel",
+          "/reviews/asics-gel-resolution-padel",
+          "/reviews/babolat-jet-premura",
+          "/reviews/bullpadel-hac-overgrip",
+          "/reviews/head-padel-pro-s",
+          "/reviews/head-sprint-pro-4-padel",
+          "/reviews/hesacore-padel-grip",
+          "/reviews/nox-at10-lux",
+          "/reviews/wilson-padel-overgrip-pack"
+        ],
+        "productCount": 9,
+        "scrubbed": "retire it when the ride goes dead, not when the colourway still looks fine.",
+        "sample": "Retire it when the ride goes dead, not when the colourway still looks fine."
+      },
+      {
+        "products": [
+          "/reviews/adidas-courtquick-padel",
+          "/reviews/adidas-crazyquick-boost-padel",
+          "/reviews/asics-gel-resolution-padel",
+          "/reviews/babolat-jet-premura",
+          "/reviews/head-sprint-pro-4-padel",
+          "/reviews/joma-t-slam",
+          "/reviews/kuikma-ps-990",
+          "/reviews/nox-at10-lux",
+          "/reviews/wilson-padel-overgrip-pack"
+        ],
+        "productCount": 9,
+        "scrubbed": "check price on amazon all prices (1) → add to compare about this ENTITY",
+        "sample": "CHECK PRICE ON AMAZON ALL PRICES (1) → ADD TO COMPARE ABOUT THIS REVIEW"
+      },
+      {
+        "products": [
+          "/reviews/adidas-courtquick-padel",
+          "/reviews/adidas-crazyquick-boost-padel",
+          "/reviews/asics-gel-resolution-padel",
+          "/reviews/babolat-jet-premura",
+          "/reviews/head-sprint-pro-4-padel",
+          "/reviews/joma-t-slam",
+          "/reviews/kuikma-ps-990",
+          "/reviews/nox-at10-lux"
+        ],
+        "productCount": 8,
+        "scrubbed": "catalog weights are usually a men’s us 9 reference unless a women’s weight is verified; we do not invent women’s figures.",
+        "sample": "Catalog weights are usually a Men’s US 9 reference unless a Women’s weight is verified; we do not invent Women’s figures."
+      },
+      {
+        "products": [
+          "/reviews/adidas-courtquick-padel",
+          "/reviews/adidas-crazyquick-boost-padel",
+          "/reviews/asics-gel-resolution-padel",
+          "/reviews/babolat-jet-premura",
+          "/reviews/head-sprint-pro-4-padel",
+          "/reviews/joma-t-slam",
+          "/reviews/kuikma-ps-990",
+          "/reviews/nox-at10-lux"
+        ],
+        "productCount": 8,
+        "scrubbed": "if a listing only says court rubber, treat that as a category tag, not a traction map.",
+        "sample": "If a listing only says court rubber, treat that as a category tag, not a traction map."
+      },
+      {
+        "products": [
+          "/reviews/adidas-courtquick-padel",
+          "/reviews/adidas-crazyquick-boost-padel",
+          "/reviews/asics-gel-resolution-padel",
+          "/reviews/babolat-jet-premura",
+          "/reviews/joma-t-slam",
+          "/reviews/kuikma-ps-990",
+          "/reviews/nox-at10-lux"
+        ],
+        "productCount": 7,
+        "scrubbed": "this ENTITY is research-based, not a first-hand wear test of a specific men’s or women’s last — confirm fit on the product page.",
+        "sample": "This review is research-based, not a first-hand wear test of a specific Men’s or Women’s last — confirm fit on the product page."
+      },
+      {
+        "products": [
+          "/reviews/head-coello-pro-2026",
+          "/reviews/head-gravity-pro",
+          "/reviews/head-padel-pro-s",
+          "/reviews/head-sprint-pro-4-padel",
+          "/reviews/nox-ml10-pro-cup",
+          "/reviews/wilson-padel-overgrip-pack"
+        ],
+        "productCount": 6,
+        "scrubbed": "how we assessed this ENTITYduct: published specs, catalog comparisons, and editorial research — not hands-on testing unless the page says otherwise.",
+        "sample": "How we assessed this product: published specs, catalog comparisons, and editorial research — not hands-on testing unless the page says otherwise."
+      },
+      {
+        "products": [
+          "/reviews/adidas-courtquick-padel",
+          "/reviews/asics-gel-resolution-padel",
+          "/reviews/babolat-jet-premura",
+          "/reviews/head-gravity-pro",
+          "/reviews/hesacore-padel-grip",
+          "/reviews/nox-at10-lux"
+        ],
+        "productCount": 6,
+        "scrubbed": "here's a practical take on the ENTITY ENTITY ENTITY — what it's for, who it suits, and when to pick something else.",
+        "sample": "Here's a practical take on the HEAD Gravity Pro — what it's for, who it suits, and when to pick something else."
+      },
+      {
+        "products": [
+          "/reviews/head-coello-pro-2026",
+          "/reviews/head-gravity-pro",
+          "/reviews/head-padel-pro-s",
+          "/reviews/head-sprint-pro-4-padel",
+          "/reviews/nox-ml10-pro-cup",
+          "/reviews/wilson-padel-overgrip-pack"
+        ],
+        "productCount": 6,
+        "scrubbed": "we put this guide together from published specs and similar ENTITYducts in the same job.",
+        "sample": "We put this guide together from published specs and similar products in the same job."
+      },
+      {
+        "products": [
+          "/reviews/head-coello-pro-2026",
+          "/reviews/head-gravity-pro",
+          "/reviews/head-padel-pro-s",
+          "/reviews/head-sprint-pro-4-padel",
+          "/reviews/nox-ml10-pro-cup",
+          "/reviews/wilson-padel-overgrip-pack"
+        ],
+        "productCount": 6,
+        "scrubbed": "scores are out of 10 for this ENTITYduct’s job — not a claim it wins every category.",
+        "sample": "Scores are out of 10 for this product’s job — not a claim it wins every category."
+      },
+      {
+        "products": [
+          "/reviews/adidas-metalbone-3-5-2026",
+          "/reviews/babolat-technical-viper-3-0",
+          "/reviews/head-coello-pro-2026",
+          "/reviews/nox-ml10-pro-cup"
+        ],
+        "productCount": 4,
+        "scrubbed": "nl / eur about journal help kitletics shoes racket sports running fitness more search kitletics home ENTITYs padel rackets ENTITYs ENTITY ENTITY ENTITY ENTITY ENTITY",
+        "sample": "NL / EUR About Journal Help KITLETICS Shoes Racket Sports Running Fitness More Search Kitletics Home Reviews Padel Rackets reviews Nox ML10 Pro Cup Review"
+      },
+      {
+        "products": [
+          "/reviews/head-coello-pro-2026",
+          "/reviews/head-gravity-pro",
+          "/reviews/head-padel-pro-s",
+          "/reviews/head-sprint-pro-4-padel"
+        ],
+        "productCount": 4,
+        "scrubbed": "use the paths below when you want alternatives, ENTITY-to-ENTITYs, shortlists, or how-to choose frameworks.",
+        "sample": "Use the paths below when you want alternatives, head-to-heads, shortlists, or how-to choose frameworks."
+      },
+      {
+        "products": [
+          "/reviews/adidas-courtquick-padel",
+          "/reviews/asics-gel-resolution-padel",
+          "/reviews/babolat-jet-premura",
+          "/reviews/nox-at10-lux"
+        ],
+        "productCount": 4,
+        "scrubbed": "manufacturer and specialist court listings for the ENTITY ENTITY ENTITY on the product evidence list.",
+        "sample": "Manufacturer and specialist court listings for the ASICS Gel-Resolution Padel on the product evidence list."
+      },
+      {
+        "products": [
+          "/reviews/adidas-metalbone-3-5-2026",
+          "/reviews/bullpadel-indiga-ctr-2026",
+          "/reviews/head-coello-pro-2026",
+          "/reviews/head-gravity-pro"
+        ],
+        "productCount": 4,
+        "scrubbed": "worth it when the ENTITY ENTITY mould matches your week — check live street price.",
+        "sample": "Worth it when the Indiga CTR mould matches your week — check live street price."
+      },
+      {
+        "products": [
+          "/reviews/adidas-crazyquick-boost-padel",
+          "/reviews/head-coello-pro-2026",
+          "/reviews/nox-ml10-pro-cup"
+        ],
+        "productCount": 3,
+        "scrubbed": "here's a practical take on the ENTITY ENTITY ENTITY ENTITY — what it's for, who it suits, and when to pick something else.",
+        "sample": "Here's a practical take on the Nox ML10 Pro Cup — what it's for, who it suits, and when to pick something else."
+      },
+      {
+        "products": [
+          "/reviews/head-coello-pro-2026",
+          "/reviews/head-gravity-pro",
+          "/reviews/nox-ml10-pro-cup"
+        ],
+        "productCount": 3,
+        "scrubbed": "sweet spot / forgiveness sweet-spot height is a teaching idea — verify published notes on the ENTITYduct sheet.",
+        "sample": "SWEET SPOT / FORGIVENESS Sweet-spot height is a teaching idea — verify published notes on the product sheet."
+      },
+      {
+        "products": [
+          "/reviews/bullpadel-hac-overgrip",
+          "/reviews/hesacore-padel-grip",
+          "/reviews/wilson-padel-overgrip-pack"
+        ],
+        "productCount": 3,
+        "scrubbed": "replace when tack dies or the wrap rolls — often every few humid sessions.",
+        "sample": "Replace when tack dies or the wrap rolls — often every few humid sessions."
+      },
+      {
+        "products": [
+          "/reviews/bullpadel-hack-04-2026",
+          "/reviews/bullpadel-vertex-05-2026"
+        ],
+        "productCount": 2,
+        "scrubbed": "with diamond mould, high balance, 365–375 g published band, preparation comes later on fast glass balls than on a low-balance round — reaction volleys need earlier setup.",
+        "sample": "With diamond mould, high balance, 365–375 g published band, preparation comes later on fast glass balls than on a low-balance round — reaction volleys need earl"
+      },
+      {
+        "products": [
+          "/reviews/adidas-courtquick-padel",
+          "/reviews/asics-gel-resolution-padel"
+        ],
+        "productCount": 2,
+        "scrubbed": "nl / eur about journal help kitletics shoes racket sports running fitness more search kitletics home ENTITYs ENTITY shoes ENTITYs ENTITY ENTITY ENTITY ENTITY",
+        "sample": "NL / EUR About Journal Help KITLETICS Shoes Racket Sports Running Fitness More Search Kitletics Home Reviews Padel Shoes reviews ASICS Gel-Resolution Padel Revi"
+      },
+      {
+        "products": [
+          "/reviews/babolat-jet-premura",
+          "/reviews/nox-at10-lux"
+        ],
+        "productCount": 2,
+        "scrubbed": "nl / eur about journal help kitletics shoes racket sports running fitness more search kitletics home ENTITYs padel shoes ENTITYs ENTITY ENTITY ENTITY ENTITY",
+        "sample": "NL / EUR About Journal Help KITLETICS Shoes Racket Sports Running Fitness More Search Kitletics Home Reviews Padel Shoes reviews Babolat Jet Premura Review"
+      },
+      {
+        "products": [
+          "/reviews/joma-t-slam",
+          "/reviews/kuikma-ps-990"
+        ],
+        "productCount": 2,
+        "scrubbed": "weaker value if less premium foam than boost / gel flagships is your reality — compare peers before paying the premium.",
+        "sample": "Weaker value if less premium foam than Boost / GEL flagships is your reality — compare peers before paying the premium."
+      },
+      {
+        "products": [
+          "/reviews/bullpadel-hac-overgrip",
+          "/reviews/wilson-padel-overgrip-pack"
+        ],
+        "productCount": 2,
+        "scrubbed": "a hesacore-type replacement is a different spend — buy it for handle shape, not because it is 'premium.'",
+        "sample": "A Hesacore-type replacement is a different spend — buy it for handle shape, not because it is 'premium.'"
+      },
+      {
+        "products": [
+          "/reviews/bullpadel-hac-overgrip",
+          "/reviews/hesacore-padel-grip"
+        ],
+        "productCount": 2,
+        "scrubbed": "comfort here is tack, sweat and whether the handle still feels like the same size after 40 minutes.",
+        "sample": "Comfort here is tack, sweat and whether the handle still feels like the same size after 40 minutes."
+      },
+      {
+        "products": [
+          "/reviews/bullpadel-vertex-05-2026",
+          "/reviews/nox-at10-genius-18k-2026"
+        ],
+        "productCount": 2,
+        "scrubbed": "advanced and competitive players who already build the point and still want a finishing window.",
+        "sample": "Advanced and competitive players who already build the point and still want a finishing window."
+      },
+      {
+        "products": [
+          "/reviews/adidas-metalbone-3-5-2026",
+          "/reviews/bullpadel-hac-overgrip"
+        ],
+        "productCount": 2,
+        "scrubbed": "shopping region can be changed in the site header — coverage is not equal in every market.",
+        "sample": "Shopping region can be changed in the site header — coverage is not equal in every market."
+      },
+      {
+        "products": [
+          "/reviews/babolat-technical-viper-3-0",
+          "/reviews/nox-ml10-pro-cup"
+        ],
+        "productCount": 2,
+        "scrubbed": "worth it when the ENTITY ENTITY ENTITY mould matches your week — check live street price.",
+        "sample": "Worth it when the ML10 Pro Cup mould matches your week — check live street price."
+      },
+      {
+        "products": [
+          "/reviews/bullpadel-hack-04-2026",
+          "/reviews/nox-at10-genius-12k-alum-xtrem-2026"
+        ],
+        "productCount": 2,
+        "scrubbed": "adidas padel metalbone 3.5 7.3 diamond — high official ENTITY metalbone with weight &…",
+        "sample": "Adidas Padel Metalbone 3.5 7.3 diamond — high Official 2026 Metalbone with Weight &…"
+      },
+      {
+        "products": [
+          "/reviews/head-coello-pro-2026",
+          "/reviews/nox-at10-genius-18k-2026"
+        ],
+        "productCount": 2,
+        "scrubbed": "babolat technical viper 3.0 6.4 diamond — high official 3.0 sheet: diamond, 370±10 g,…",
+        "sample": "Babolat Technical Viper 3.0 6.4 diamond — high Official 3.0 sheet: diamond, 370±10 g,…"
+      }
+    ],
+    "crossProductPairCount": 14,
+    "crossProductTriplePlus": 29
+  },
+  "teaching": {
+    "padel-racket-guide": {
+      "textConceptsCovered": [
+        "round|teardrop|diamond",
+        "balance",
+        "sweet.?spot",
+        "weight",
+        "power|control",
+        "core|eva|foam"
+      ],
+      "textConceptsMissing": [],
+      "hasTeachingVisual": true,
+      "educationalCount": 0,
+      "svgCount": 47,
+      "productLikeImgs": 21,
+      "failHint": false
+    },
+    "padel-shoes-guide": {
+      "textConceptsCovered": [
+        "lateral|support",
+        "outsole|grip|herringbone|omni",
+        "cushion|foam",
+        "fit|lockdown|heel"
+      ],
+      "textConceptsMissing": [],
+      "hasTeachingVisual": true,
+      "educationalCount": 0,
+      "svgCount": 44,
+      "productLikeImgs": 15,
+      "failHint": false
+    },
+    "padel-bag-guide": {
+      "textConceptsCovered": [
+        "thermo|thermal",
+        "shoe",
+        "compartment|well|capacity",
+        "paletero|backpack|carry"
+      ],
+      "textConceptsMissing": [],
+      "hasTeachingVisual": true,
+      "educationalCount": 0,
+      "svgCount": 42,
+      "productLikeImgs": 15,
+      "failHint": false
+    },
+    "padel-balls-guide": {
+      "textConceptsCovered": [
+        "pressure",
+        "bounce|speed",
+        "pressurizer|can"
+      ],
+      "textConceptsMissing": [
+        "durability|wear"
+      ],
+      "hasTeachingVisual": true,
+      "educationalCount": 0,
+      "svgCount": 44,
+      "productLikeImgs": 22,
+      "failHint": false
+    },
+    "padel-grips-guide": {
+      "textConceptsCovered": [
+        "replacement|base grip",
+        "overgrip",
+        "layer|tack|thickness",
+        "install|overlap|wrap"
+      ],
+      "textConceptsMissing": [],
+      "hasTeachingVisual": true,
+      "educationalCount": 0,
+      "svgCount": 43,
+      "productLikeImgs": 10,
+      "failHint": false
+    },
+    "padel-beginner-guide": {
+      "textConceptsCovered": [
+        "racket",
+        "shoe",
+        "ball",
+        "grip",
+        "bag"
+      ],
+      "textConceptsMissing": [],
+      "hasTeachingVisual": true,
+      "educationalCount": 0,
+      "svgCount": 43,
+      "productLikeImgs": 22,
+      "failHint": false
+    }
+  },
+  "mediaIntegrity": {
+    "broken": [
+      {
+        "url": "/products/asics-novablast-6",
+        "src": "/images/running/products/ghost-18-hero.png"
+      },
+      {
+        "url": "/products/asics-novablast-6",
+        "src": "/images/running/products/clifton-10-hero.jpg"
+      },
+      {
+        "url": "/products/asics-novablast-6",
+        "src": "/images/running/products/ride-18-hero.jpg"
+      },
+      {
+        "url": "/products/asics-novablast-6",
+        "src": "/images/running/products/novablast-6-hero.jpg"
+      },
+      {
+        "url": "/products/asics-novablast-6",
+        "src": "/images/running/products/nimbus-27-hero.jpg"
+      },
+      {
+        "url": "/products/asics-novablast-6",
+        "src": "/images/running/products/novablast-5-hero.jpg"
+      },
+      {
+        "url": "/products/asics-novablast-6",
+        "src": "/images/running/products/ghost-18-hero.png"
+      },
+      {
+        "url": "/products/asics-novablast-6",
+        "src": "/images/running/products/novablast-5-hero.jpg"
+      },
+      {
+        "url": "/products/asics-novablast-6",
+        "src": "/images/running/products/endorphin-speed-5-hero.jpg"
+      },
+      {
+        "url": "/products/asics-novablast-6",
+        "src": "/images/running/products/clifton-10-hero.jpg"
+      },
+      {
+        "url": "/products/asics-novablast-6",
+        "src": "/images/home/guide-running-shoes.jpg"
+      },
+      {
+        "url": "/products/asics-novablast-6",
+        "src": "/images/running/category/use-daily.jpg"
+      },
+      {
+        "url": "/products/asics-novablast-6",
+        "src": "/images/home/guide-running-shoes.jpg"
+      },
+      {
+        "url": "/products/asics-novablast-6",
+        "src": "/images/running/products/clifton-10-hero.jpg"
+      },
+      {
+        "url": "/products/bullpadel-vertex-05-2026",
+        "src": "/images/padel/products/bullpadel-vertex-05/gallery/bullpadel-vertex-05-texture.webp"
+      },
+      {
+        "url": "/products/bullpadel-vertex-05-2026",
+        "src": "/images/padel/products/bullpadel-vertex-05/gallery/bullpadel-vertex-05-throat.webp"
+      },
+      {
+        "url": "/products/bullpadel-vertex-05-2026",
+        "src": "/images/padel/products/bullpadel-vertex-05-hybrid-hero.jpg"
+      },
+      {
+        "url": "/products/bullpadel-vertex-05-2026",
+        "src": "/images/padel/products/adidas-metalbone-3-5-2026-hero.jpg"
+      },
+      {
+        "url": "/products/bullpadel-vertex-05-2026",
+        "src": "/images/padel/products/bullpadel-hack-04-hero.png"
+      },
+      {
+        "url": "/products/bullpadel-vertex-05-2026",
+        "src": "/images/padel/products/bullpadel-vertex-05-hero.png"
+      },
+      {
+        "url": "/products/bullpadel-vertex-05-2026",
+        "src": "/images/padel/products/bullpadel-hack-04-hero.png"
+      },
+      {
+        "url": "/products/bullpadel-vertex-05-2026",
+        "src": "/images/padel/products/nox-at10-genius-12k-alum-xtrem-2026-hero.jpg"
+      },
+      {
+        "url": "/products/bullpadel-vertex-05-2026",
+        "src": "/images/padel/products/bullpadel-vertex-05-hybrid-hero.jpg"
+      },
+      {
+        "url": "/products/bullpadel-vertex-05-2026",
+        "src": "/images/padel/products/bullpadel-hack-04-hero.png"
+      },
+      {
+        "url": "/products/bullpadel-vertex-05-2026",
+        "src": "/images/padel/products/bullpadel-vertex-04-hero.png"
+      },
+      {
+        "url": "/products/bullpadel-vertex-05-2026",
+        "src": "/images/padel/products/bullpadel-vertex-05-hybrid-hero.jpg"
+      },
+      {
+        "url": "/products/bullpadel-vertex-05-2026",
+        "src": "/images/padel/guides/choose-racket.jpg"
+      },
+      {
+        "url": "/products/bullpadel-vertex-05-2026",
+        "src": "/images/padel/products/bullpadel-ionic-light-hero.jpg"
+      },
+      {
+        "url": "/products/kuikma-pr-comfort-soft",
+        "src": "/images/padel/products/bullpadel-indiga-ctr-hero.jpg"
+      },
+      {
+        "url": "/products/kuikma-pr-comfort-soft",
+        "src": "/images/padel/products/nox-equation-soft-advanced-2026-hero.jpg"
+      },
+      {
+        "url": "/products/kuikma-pr-comfort-soft",
+        "src": "/images/padel/products/adidas-match-light-2026-hero.jpg"
+      },
+      {
+        "url": "/products/kuikma-pr-comfort-soft",
+        "src": "/images/padel/products/nox-equation-soft-advanced-2026-hero.jpg"
+      },
+      {
+        "url": "/products/kuikma-pr-comfort-soft",
+        "src": "/images/padel/products/bullpadel-indiga-ctr-hero.jpg"
+      },
+      {
+        "url": "/products/kuikma-pr-comfort-soft",
+        "src": "/images/padel/products/adidas-match-light-2026-hero.jpg"
+      },
+      {
+        "url": "/products/kuikma-pr-comfort-soft",
+        "src": "/images/padel/products/bullpadel-hack-04-comfort-hero.jpg"
+      },
+      {
+        "url": "/products/bullpadel-indiga-ctr-2026",
+        "src": "/images/padel/products/head-one-ultralight-hero.jpg"
+      },
+      {
+        "url": "/products/bullpadel-indiga-ctr-2026",
+        "src": "/images/padel/products/nox-equation-soft-advanced-2026-hero.jpg"
+      },
+      {
+        "url": "/products/bullpadel-indiga-ctr-2026",
+        "src": "/images/padel/products/kuikma-pr-comfort-soft-hero.jpg"
+      },
+      {
+        "url": "/products/bullpadel-indiga-ctr-2026",
+        "src": "/images/padel/products/bullpadel-indiga-ctr-hero.jpg"
+      },
+      {
+        "url": "/products/bullpadel-indiga-ctr-2026",
+        "src": "/images/padel/products/nox-ml10-pro-cup-2026-hero.jpg"
+      },
+      {
+        "url": "/products/bullpadel-indiga-ctr-2026",
+        "src": "/images/padel/products/nox-equation-soft-advanced-2026-hero.jpg"
+      },
+      {
+        "url": "/products/bullpadel-indiga-ctr-2026",
+        "src": "/images/padel/products/head-one-ultralight-hero.jpg"
+      },
+      {
+        "url": "/products/bullpadel-indiga-ctr-2026",
+        "src": "/images/padel/guides/choose-racket.jpg"
+      },
+      {
+        "url": "/products/joma-t-slam",
+        "src": "/images/padel/products/kuikma-ps-990-hero.jpg"
+      },
+      {
+        "url": "/products/joma-t-slam",
+        "src": "/images/padel/products/adidas-courtquick-padel-hero.jpg"
+      },
+      {
+        "url": "/products/joma-t-slam",
+        "src": "/images/padel/products/asics-gel-resolution-padel-hero.jpg"
+      },
+      {
+        "url": "/products/joma-t-slam",
+        "src": "/images/padel/products/asics-gel-resolution-padel-hero.jpg"
+      },
+      {
+        "url": "/products/joma-t-slam",
+        "src": "/images/padel/products/adidas-courtquick-padel-hero.jpg"
+      },
+      {
+        "url": "/products/joma-t-slam",
+        "src": "/images/padel/products/head-revolt-pro-court-hero.jpg"
+      },
+      {
+        "url": "/products/joma-t-slam",
+        "src": "/images/padel/guides/choose-shoes.jpg"
+      },
+      {
+        "url": "/products/asics-gel-resolution-padel",
+        "src": "/images/padel/products/joma-t-slam-hero.jpg"
+      },
+      {
+        "url": "/products/asics-gel-resolution-padel",
+        "src": "/images/padel/products/babolat-jet-premura-hero.jpg"
+      },
+      {
+        "url": "/products/asics-gel-resolution-padel",
+        "src": "/images/padel/products/adidas-crazyquick-boost-padel-hero.jpg"
+      },
+      {
+        "url": "/products/asics-gel-resolution-padel",
+        "src": "/images/padel/products/asics-gel-challenger-court-hero.jpg"
+      },
+      {
+        "url": "/products/asics-gel-resolution-padel",
+        "src": "/images/padel/products/adidas-courtquick-padel-hero.jpg"
+      },
+      {
+        "url": "/products/asics-gel-resolution-padel",
+        "src": "/images/padel/guides/choose-shoes.jpg"
+      },
+      {
+        "url": "/products/asics-gel-resolution-padel",
+        "src": "/images/padel/products/head-revolt-pro-court-hero.jpg"
+      },
+      {
+        "url": "/products/head-padel-pro-s-balls",
+        "src": "/images/padel/products/head-padel-pro-plus-hero.jpg"
+      },
+      {
+        "url": "/products/head-padel-pro-s-balls",
+        "src": "/images/padel/products/kuikma-pb-speed-hero.jpg"
+      },
+      {
+        "url": "/products/nox-at10-team-paletero",
+        "src": "/images/padel/products/babolat-rh-pro-padel-hero.jpg"
+      },
+      {
+        "url": "/products/nox-at10-team-paletero",
+        "src": "/images/padel/products/tecnifibre-tour-endurance-padel-backpack-hero.jpg"
+      },
+      {
+        "url": "/products/nox-at10-team-paletero",
+        "src": "/images/padel/products/nox-at10-xxl-padel-bag-hero.jpg"
+      },
+      {
+        "url": "/products/nox-at10-team-paletero",
+        "src": "/images/padel/products/nox-at10-team-paletero-hero.jpg"
+      },
+      {
+        "url": "/products/nox-at10-team-paletero",
+        "src": "/images/padel/products/babolat-rh-pro-padel-hero.jpg"
+      },
+      {
+        "url": "/products/nox-at10-team-paletero",
+        "src": "/images/padel/products/tecnifibre-tour-endurance-padel-backpack-hero.jpg"
+      },
+      {
+        "url": "/products/nox-at10-team-paletero",
+        "src": "/images/padel/products/babolat-rh-pro-padel-hero.jpg"
+      },
+      {
+        "url": "/products/nox-at10-team-paletero",
+        "src": "/images/padel/products/bullpadel-vertex-geo-backpack-hero.jpg"
+      },
+      {
+        "url": "/products/nox-at10-team-paletero",
+        "src": "/images/padel/products/tecnifibre-tour-endurance-padel-backpack-hero.jpg"
+      },
+      {
+        "url": "/products/nox-at10-team-paletero",
+        "src": "/images/padel/products/adidas-protour-padel-bag-hero.jpg"
+      },
+      {
+        "url": "/products/nox-at10-team-paletero",
+        "src": "/images/padel/bags/head-tour-team-elite-hero.jpg"
+      },
+      {
+        "url": "/products/nox-at10-team-paletero",
+        "src": "/images/padel/products/tecnifibre-tour-endurance-padel-backpack-hero.jpg"
+      },
+      {
+        "url": "/products/wilson-padel-overgrip-pack",
+        "src": "/images/padel/products/bullpadel-hac-overgrip-hero.jpg"
+      },
+      {
+        "url": "/products/wilson-padel-overgrip-pack",
+        "src": "/images/padel/products/nox-pro-overgrip-hero.jpg"
+      },
+      {
+        "url": "/products/wilson-padel-overgrip-pack",
+        "src": "/images/padel/products/hesacore-padel-grip-hero.jpg"
+      },
+      {
+        "url": "/products/wilson-padel-overgrip-pack",
+        "src": "/images/padel/products/wilson-padel-overgrip-hero.jpg"
+      },
+      {
+        "url": "/products/wilson-padel-overgrip-pack",
+        "src": "/images/padel/products/bullpadel-hac-overgrip-hero.jpg"
+      },
+      {
+        "url": "/products/wilson-padel-overgrip-pack",
+        "src": "/images/padel/products/bullpadel-hac-overgrip-hero.jpg"
+      },
+      {
+        "url": "/products/wilson-padel-overgrip-pack",
+        "src": "/images/padel/products/kuikma-padel-overgrip-hero.jpg"
+      },
+      {
+        "url": "/products/wilson-padel-overgrip-pack",
+        "src": "/images/padel/products/nox-pro-overgrip-hero.jpg"
+      },
+      {
+        "url": "/products/wilson-padel-overgrip-pack",
+        "src": "/images/padel/products/head-xtreme-soft-overgrip-hero.jpg"
+      },
+      {
+        "url": "/products/wilson-padel-overgrip-pack",
+        "src": "/images/padel/products/bullpadel-protector-custom-weight-hero.jpg"
+      },
+      {
+        "url": "/products/wilson-padel-overgrip-pack",
+        "src": "/images/padel/guides/grips.jpg"
+      },
+      {
+        "url": "/products/bullpadel-frame-protector-uni",
+        "src": "/images/padel/products/bullpadel-frame-protector-3-pack-hero.jpg"
+      },
+      {
+        "url": "/reviews/bullpadel-vertex-05-2026",
+        "src": "/images/padel/products/bullpadel-vertex-05/gallery/bullpadel-vertex-05-head.webp"
+      },
+      {
+        "url": "/reviews/bullpadel-vertex-05-2026",
+        "src": "/images/padel/education/padel-power-control.svg"
+      },
+      {
+        "url": "/reviews/bullpadel-vertex-05-2026",
+        "src": "/images/padel/education/padel-sweet-spot.svg"
+      },
+      {
+        "url": "/reviews/bullpadel-vertex-05-2026",
+        "src": "/images/padel/products/bullpadel-vertex-05/gallery/bullpadel-vertex-05-profile.webp"
+      },
+      {
+        "url": "/reviews/bullpadel-vertex-05-2026",
+        "src": "/images/padel/products/bullpadel-vertex-05/gallery/bullpadel-vertex-05-texture.webp"
+      },
+      {
+        "url": "/reviews/bullpadel-vertex-05-2026",
+        "src": "/images/padel/products/bullpadel-vertex-04-hero.png"
+      },
+      {
+        "url": "/reviews/bullpadel-vertex-05-2026",
+        "src": "/images/padel/products/bullpadel-vertex-04-hero.png"
+      },
+      {
+        "url": "/reviews/bullpadel-hack-04-2026",
+        "src": "/images/padel/products/bullpadel-hack-04/gallery/bullpadel-hack-04-head.webp"
+      },
+      {
+        "url": "/reviews/bullpadel-hack-04-2026",
+        "src": "/images/padel/education/padel-power-control.svg"
+      },
+      {
+        "url": "/reviews/bullpadel-hack-04-2026",
+        "src": "/images/padel/education/padel-sweet-spot.svg"
+      },
+      {
+        "url": "/reviews/bullpadel-hack-04-2026",
+        "src": "/images/padel/products/bullpadel-hack-04/gallery/bullpadel-hack-04-profile.webp"
+      },
+      {
+        "url": "/reviews/bullpadel-hack-04-2026",
+        "src": "/images/padel/products/bullpadel-hack-04/gallery/bullpadel-hack-04-texture.webp"
+      },
+      {
+        "url": "/reviews/bullpadel-hack-04-2026",
+        "src": "/images/padel/products/bullpadel-hack-03-hero.jpg"
+      },
+      {
+        "url": "/reviews/bullpadel-hack-04-2026",
+        "src": "/images/padel/products/bullpadel-hack-04-comfort-hero.jpg"
+      },
+      {
+        "url": "/reviews/bullpadel-hack-04-2026",
+        "src": "/images/padel/products/bullpadel-hack-03-hero.jpg"
+      },
+      {
+        "url": "/reviews/bullpadel-hack-04-2026",
+        "src": "/images/padel/products/bullpadel-hack-04-comfort-hero.jpg"
+      },
+      {
+        "url": "/reviews/bullpadel-vertex-05-hybrid-2026",
+        "src": "/images/padel/products/bullpadel-vertex-05-hybrid/gallery/bullpadel-vertex-05-hybrid-head.webp"
+      },
+      {
+        "url": "/reviews/bullpadel-vertex-05-hybrid-2026",
+        "src": "/images/padel/education/padel-power-control.svg"
+      },
+      {
+        "url": "/reviews/bullpadel-vertex-05-hybrid-2026",
+        "src": "/images/padel/education/padel-sweet-spot.svg"
+      },
+      {
+        "url": "/reviews/bullpadel-vertex-05-hybrid-2026",
+        "src": "/images/padel/products/bullpadel-vertex-05-hybrid/gallery/bullpadel-vertex-05-hybrid-profile.webp"
+      },
+      {
+        "url": "/reviews/bullpadel-vertex-05-hybrid-2026",
+        "src": "/images/padel/products/bullpadel-vertex-05-hybrid/gallery/bullpadel-vertex-05-hybrid-texture.webp"
+      },
+      {
+        "url": "/reviews/bullpadel-vertex-05-hybrid-2026",
+        "src": "/images/padel/products/siux-diablo-hero.png"
+      },
+      {
+        "url": "/reviews/bullpadel-vertex-05-hybrid-2026",
+        "src": "/images/padel/products/bullpadel-hack-04-hybrid-hero.jpg"
+      },
+      {
+        "url": "/reviews/bullpadel-vertex-05-hybrid-2026",
+        "src": "/images/padel/products/siux-diablo-hero.png"
+      },
+      {
+        "url": "/reviews/bullpadel-vertex-05-hybrid-2026",
+        "src": "/images/padel/products/bullpadel-hack-04-hybrid-hero.jpg"
+      },
+      {
+        "url": "/reviews/bullpadel-indiga-ctr-2026",
+        "src": "/images/padel/products/bullpadel-indiga-ctr/gallery/bullpadel-indiga-ctr-side.jpg"
+      },
+      {
+        "url": "/reviews/bullpadel-indiga-ctr-2026",
+        "src": "/images/padel/education/padel-power-control.svg"
+      },
+      {
+        "url": "/reviews/bullpadel-indiga-ctr-2026",
+        "src": "/images/padel/education/padel-sweet-spot.svg"
+      },
+      {
+        "url": "/reviews/bullpadel-indiga-ctr-2026",
+        "src": "/images/padel/products/bullpadel-indiga-ctr/gallery/bullpadel-indiga-ctr-profile.jpg"
+      },
+      {
+        "url": "/reviews/bullpadel-indiga-ctr-2026",
+        "src": "/images/padel/products/bullpadel-indiga-ctr/gallery/bullpadel-indiga-ctr-detail.jpg"
+      },
+      {
+        "url": "/reviews/bullpadel-indiga-ctr-2026",
+        "src": "/images/padel/products/nox-equation-soft-advanced-2026-hero.jpg"
+      },
+      {
+        "url": "/reviews/bullpadel-indiga-ctr-2026",
+        "src": "/images/padel/products/head-one-ultralight-hero.jpg"
+      },
+      {
+        "url": "/reviews/bullpadel-indiga-ctr-2026",
+        "src": "/images/padel/products/nox-equation-soft-advanced-2026-hero.jpg"
+      },
+      {
+        "url": "/reviews/bullpadel-indiga-ctr-2026",
+        "src": "/images/padel/products/head-one-ultralight-hero.jpg"
+      },
+      {
+        "url": "/reviews/nox-at10-genius-18k-2026",
+        "src": "/images/padel/education/padel-power-control.svg"
+      },
+      {
+        "url": "/reviews/nox-at10-genius-18k-2026",
+        "src": "/images/padel/education/padel-sweet-spot.svg"
+      },
+      {
+        "url": "/reviews/nox-at10-genius-18k-2026",
+        "src": "/images/padel/products/nox-at10-genius-attack-18k-2026-hero.jpg"
+      },
+      {
+        "url": "/reviews/nox-at10-genius-18k-2026",
+        "src": "/images/padel/products/nox-at10-genius-attack-18k-2026-hero.jpg"
+      },
+      {
+        "url": "/reviews/nox-at10-genius-12k-alum-xtrem-2026",
+        "src": "/images/padel/products/nox-at10-12k/gallery/nox-at10-12k-head.webp"
+      },
+      {
+        "url": "/reviews/nox-at10-genius-12k-alum-xtrem-2026",
+        "src": "/images/padel/education/padel-power-control.svg"
+      },
+      {
+        "url": "/reviews/nox-at10-genius-12k-alum-xtrem-2026",
+        "src": "/images/padel/education/padel-sweet-spot.svg"
+      },
+      {
+        "url": "/reviews/nox-at10-genius-12k-alum-xtrem-2026",
+        "src": "/images/padel/products/nox-at10-12k/gallery/nox-at10-12k-profile.webp"
+      },
+      {
+        "url": "/reviews/nox-at10-genius-12k-alum-xtrem-2026",
+        "src": "/images/padel/products/nox-at10-12k/gallery/nox-at10-12k-texture.webp"
+      },
+      {
+        "url": "/reviews/nox-at10-genius-12k-alum-xtrem-2026",
+        "src": "/images/padel/products/nox-at10-genius-attack-18k-2026-hero.jpg"
+      },
+      {
+        "url": "/reviews/nox-at10-genius-12k-alum-xtrem-2026",
+        "src": "/images/padel/products/nox-at10-genius-attack-18k-2026-hero.jpg"
+      },
+      {
+        "url": "/reviews/nox-ml10-pro-cup",
+        "src": "/images/padel/education/padel-power-control.svg"
+      },
+      {
+        "url": "/reviews/nox-ml10-pro-cup",
+        "src": "/images/padel/education/padel-sweet-spot.svg"
+      },
+      {
+        "url": "/reviews/nox-ml10-pro-cup",
+        "src": "/images/padel/products/nox-equation-soft-advanced-2026-hero.jpg"
+      },
+      {
+        "url": "/reviews/nox-ml10-pro-cup",
+        "src": "/images/padel/products/oxdog-sense-pro-hero.jpg"
+      },
+      {
+        "url": "/reviews/nox-ml10-pro-cup",
+        "src": "/images/padel/products/nox-equation-soft-advanced-2026-hero.jpg"
+      },
+      {
+        "url": "/reviews/nox-ml10-pro-cup",
+        "src": "/images/padel/products/oxdog-sense-pro-hero.jpg"
+      },
+      {
+        "url": "/reviews/adidas-metalbone-3-5-2026",
+        "src": "/images/padel/education/padel-power-control.svg"
+      },
+      {
+        "url": "/reviews/adidas-metalbone-3-5-2026",
+        "src": "/images/padel/education/padel-sweet-spot.svg"
+      },
+      {
+        "url": "/reviews/adidas-metalbone-3-5-2026",
+        "src": "/images/padel/products/adidas-metalbone-hrd-hero.png"
+      },
+      {
+        "url": "/reviews/adidas-metalbone-3-5-2026",
+        "src": "/images/padel/products/adidas-metalbone-hrd-hero.png"
+      },
+      {
+        "url": "/reviews/head-coello-pro-2026",
+        "src": "/images/padel/products/head-coello-pro/gallery/head-coello-pro-head.webp"
+      },
+      {
+        "url": "/reviews/head-coello-pro-2026",
+        "src": "/images/padel/education/padel-power-control.svg"
+      },
+      {
+        "url": "/reviews/head-coello-pro-2026",
+        "src": "/images/padel/education/padel-sweet-spot.svg"
+      },
+      {
+        "url": "/reviews/head-coello-pro-2026",
+        "src": "/images/padel/products/head-coello-pro/gallery/head-coello-pro-profile.webp"
+      },
+      {
+        "url": "/reviews/head-coello-pro-2026",
+        "src": "/images/padel/products/head-coello-pro/gallery/head-coello-pro-texture.webp"
+      },
+      {
+        "url": "/reviews/head-coello-pro-2026",
+        "src": "/images/padel/products/bullpadel-xplo-hero.jpg"
+      },
+      {
+        "url": "/reviews/head-coello-pro-2026",
+        "src": "/images/padel/products/adidas-metalbone-hrd-hero.png"
+      },
+      {
+        "url": "/reviews/head-coello-pro-2026",
+        "src": "/images/padel/products/bullpadel-xplo-hero.jpg"
+      },
+      {
+        "url": "/reviews/head-coello-pro-2026",
+        "src": "/images/padel/products/adidas-metalbone-hrd-hero.png"
+      },
+      {
+        "url": "/reviews/head-gravity-pro",
+        "src": "/images/padel/education/padel-power-control.svg"
+      },
+      {
+        "url": "/reviews/head-gravity-pro",
+        "src": "/images/padel/education/padel-sweet-spot.svg"
+      },
+      {
+        "url": "/reviews/head-gravity-pro",
+        "src": "/images/padel/products/babolat-counter-viper-hero.png"
+      },
+      {
+        "url": "/reviews/head-gravity-pro",
+        "src": "/images/padel/products/adidas-cross-it-ctrl-2026-hero.jpg"
+      },
+      {
+        "url": "/reviews/head-gravity-pro",
+        "src": "/images/padel/products/head-gravity-motion-hero.jpg"
+      },
+      {
+        "url": "/reviews/head-gravity-pro",
+        "src": "/images/padel/products/babolat-counter-viper-hero.png"
+      },
+      {
+        "url": "/reviews/head-gravity-pro",
+        "src": "/images/padel/products/adidas-cross-it-ctrl-2026-hero.jpg"
+      },
+      {
+        "url": "/reviews/head-gravity-pro",
+        "src": "/images/padel/products/head-gravity-motion-hero.jpg"
+      },
+      {
+        "url": "/reviews/babolat-technical-viper-3-0",
+        "src": "/images/padel/products/babolat-technical-viper/gallery/babolat-technical-viper-head.webp"
+      },
+      {
+        "url": "/reviews/babolat-technical-viper-3-0",
+        "src": "/images/padel/education/padel-power-control.svg"
+      },
+      {
+        "url": "/reviews/babolat-technical-viper-3-0",
+        "src": "/images/padel/education/padel-sweet-spot.svg"
+      },
+      {
+        "url": "/reviews/babolat-technical-viper-3-0",
+        "src": "/images/padel/products/babolat-technical-viper/gallery/babolat-technical-viper-profile.webp"
+      },
+      {
+        "url": "/reviews/babolat-technical-viper-3-0",
+        "src": "/images/padel/products/babolat-counter-viper-hero.png"
+      },
+      {
+        "url": "/reviews/babolat-technical-viper-3-0",
+        "src": "/images/padel/products/babolat-counter-viper-hero.png"
+      },
+      {
+        "url": "/reviews/kuikma-pr-comfort-soft",
+        "src": "/images/padel/products/kuikma-pr-comfort-soft/gallery/kuikma-pr-comfort-soft-detail.jpg"
+      },
+      {
+        "url": "/reviews/kuikma-pr-comfort-soft",
+        "src": "/images/padel/education/padel-power-control.svg"
+      },
+      {
+        "url": "/reviews/kuikma-pr-comfort-soft",
+        "src": "/images/padel/products/kuikma-pr-comfort-soft/gallery/kuikma-pr-comfort-soft-head.jpg"
+      },
+      {
+        "url": "/reviews/kuikma-pr-comfort-soft",
+        "src": "/images/padel/education/padel-sweet-spot.svg"
+      },
+      {
+        "url": "/reviews/kuikma-pr-comfort-soft",
+        "src": "/images/padel/products/kuikma-pr-comfort-soft/gallery/kuikma-pr-comfort-soft-profile.jpg"
+      },
+      {
+        "url": "/reviews/kuikma-pr-comfort-soft",
+        "src": "/images/padel/products/nox-equation-soft-advanced-2026-hero.jpg"
+      },
+      {
+        "url": "/reviews/kuikma-pr-comfort-soft",
+        "src": "/images/padel/products/adidas-match-light-2026-hero.jpg"
+      },
+      {
+        "url": "/reviews/kuikma-pr-comfort-soft",
+        "src": "/images/padel/products/nox-equation-soft-advanced-2026-hero.jpg"
+      },
+      {
+        "url": "/reviews/kuikma-pr-comfort-soft",
+        "src": "/images/padel/products/adidas-match-light-2026-hero.jpg"
+      },
+      {
+        "url": "/reviews/asics-gel-resolution-padel",
+        "src": "/images/padel/products/asics-gel-challenger-court-hero.jpg"
+      },
+      {
+        "url": "/reviews/asics-gel-resolution-padel",
+        "src": "/images/padel/products/asics-gel-challenger-court-hero.jpg"
+      },
+      {
+        "url": "/reviews/adidas-crazyquick-boost-padel",
+        "src": "/images/padel/products/asics-gel-resolution-padel-women-hero.jpg"
+      },
+      {
+        "url": "/reviews/adidas-crazyquick-boost-padel",
+        "src": "/images/padel/products/asics-gel-resolution-padel-women-hero.jpg"
+      },
+      {
+        "url": "/reviews/adidas-courtquick-padel",
+        "src": "/images/padel/products/asics-gel-challenger-court-hero.jpg"
+      },
+      {
+        "url": "/reviews/adidas-courtquick-padel",
+        "src": "/images/padel/products/babolat-movea-2-hero.jpg"
+      },
+      {
+        "url": "/reviews/adidas-courtquick-padel",
+        "src": "/images/padel/products/asics-gel-challenger-court-hero.jpg"
+      },
+      {
+        "url": "/reviews/adidas-courtquick-padel",
+        "src": "/images/padel/products/babolat-movea-2-hero.jpg"
+      },
+      {
+        "url": "/reviews/joma-t-slam",
+        "src": "/images/padel/products/head-revolt-pro-court-hero.jpg"
+      },
+      {
+        "url": "/reviews/joma-t-slam",
+        "src": "/images/padel/products/head-revolt-pro-court-hero.jpg"
+      },
+      {
+        "url": "/reviews/babolat-jet-premura",
+        "src": "/images/padel/products/head-revolt-pro-court-hero.jpg"
+      },
+      {
+        "url": "/reviews/babolat-jet-premura",
+        "src": "/images/padel/products/head-revolt-pro-court-hero.jpg"
+      },
+      {
+        "url": "/reviews/head-sprint-pro-4-padel",
+        "src": "/images/padel/products/asics-game-ff-padel-hero.jpg"
+      },
+      {
+        "url": "/reviews/head-sprint-pro-4-padel",
+        "src": "/images/padel/products/wilson-rush-pro-5-padel-hero.jpg"
+      },
+      {
+        "url": "/reviews/head-sprint-pro-4-padel",
+        "src": "/images/padel/products/asics-game-ff-padel-hero.jpg"
+      },
+      {
+        "url": "/reviews/head-sprint-pro-4-padel",
+        "src": "/images/padel/products/wilson-rush-pro-5-padel-hero.jpg"
+      },
+      {
+        "url": "/reviews/kuikma-ps-990",
+        "src": "/images/padel/products/asics-gel-dedicate-8-padel-hero.jpg"
+      },
+      {
+        "url": "/reviews/kuikma-ps-990",
+        "src": "/images/padel/products/babolat-movea-2-hero.jpg"
+      },
+      {
+        "url": "/reviews/kuikma-ps-990",
+        "src": "/images/padel/products/asics-gel-dedicate-8-padel-hero.jpg"
+      },
+      {
+        "url": "/reviews/kuikma-ps-990",
+        "src": "/images/padel/products/babolat-movea-2-hero.jpg"
+      },
+      {
+        "url": "/reviews/wilson-padel-overgrip-pack",
+        "src": "/images/padel/products/kuikma-padel-overgrip-hero.jpg"
+      },
+      {
+        "url": "/reviews/wilson-padel-overgrip-pack",
+        "src": "/images/padel/products/nox-pro-overgrip-hero.jpg"
+      },
+      {
+        "url": "/reviews/wilson-padel-overgrip-pack",
+        "src": "/images/padel/products/kuikma-padel-overgrip-hero.jpg"
+      },
+      {
+        "url": "/reviews/wilson-padel-overgrip-pack",
+        "src": "/images/padel/products/nox-pro-overgrip-hero.jpg"
+      },
+      {
+        "url": "/reviews/hesacore-padel-grip",
+        "src": "/images/padel/products/nox-pro-overgrip-hero.jpg"
+      },
+      {
+        "url": "/reviews/hesacore-padel-grip",
+        "src": "/images/padel/products/nox-pro-overgrip-hero.jpg"
+      },
+      {
+        "url": "/reviews/bullpadel-hac-overgrip",
+        "src": "/images/padel/products/head-xtreme-soft-overgrip-hero.jpg"
+      },
+      {
+        "url": "/reviews/bullpadel-hac-overgrip",
+        "src": "/images/padel/products/nox-pro-overgrip-hero.jpg"
+      },
+      {
+        "url": "/reviews/bullpadel-hac-overgrip",
+        "src": "/images/padel/products/head-xtreme-soft-overgrip-hero.jpg"
+      },
+      {
+        "url": "/reviews/bullpadel-hac-overgrip",
+        "src": "/images/padel/products/nox-pro-overgrip-hero.jpg"
+      },
+      {
+        "url": "/reviews/head-padel-pro-s",
+        "src": "/images/padel/products/head-padel-pro-plus-hero.jpg"
+      },
+      {
+        "url": "/reviews/head-padel-pro-s",
+        "src": "/images/padel/products/kuikma-pb-speed-hero.jpg"
+      },
+      {
+        "url": "/reviews/head-padel-pro-s",
+        "src": "/images/padel/products/wilson-padel-premier-speed-hero.jpg"
+      },
+      {
+        "url": "/reviews/head-padel-pro-s",
+        "src": "/images/padel/products/head-padel-pro-plus-hero.jpg"
+      },
+      {
+        "url": "/reviews/head-padel-pro-s",
+        "src": "/images/padel/products/kuikma-pb-speed-hero.jpg"
+      },
+      {
+        "url": "/reviews/head-padel-pro-s",
+        "src": "/images/padel/products/wilson-padel-premier-speed-hero.jpg"
+      },
+      {
+        "url": "/reviews/nox-at10-team-bag",
+        "src": "/images/padel/products/nox-at10-team-paletero/gallery/nox-at10-team-rear.jpg"
+      },
+      {
+        "url": "/reviews/nox-at10-team-bag",
+        "src": "/images/padel/products/nox-at10-team-paletero/gallery/nox-at10-team-side.jpg"
+      },
+      {
+        "url": "/reviews/nox-at10-team-bag",
+        "src": "/images/padel/products/nox-at10-team-paletero/gallery/nox-at10-team-in-use.jpg"
+      },
+      {
+        "url": "/reviews/nox-at10-team-bag",
+        "src": "/images/padel/products/babolat-rh-pro-padel-hero.jpg"
+      },
+      {
+        "url": "/reviews/nox-at10-team-bag",
+        "src": "/images/padel/products/bullpadel-vertex-geo-backpack-hero.jpg"
+      },
+      {
+        "url": "/reviews/nox-at10-team-bag",
+        "src": "/images/padel/products/tecnifibre-tour-endurance-padel-backpack-hero.jpg"
+      },
+      {
+        "url": "/reviews/nox-at10-team-bag",
+        "src": "/images/padel/products/babolat-rh-pro-padel-hero.jpg"
+      },
+      {
+        "url": "/reviews/nox-at10-team-bag",
+        "src": "/images/padel/products/bullpadel-vertex-geo-backpack-hero.jpg"
+      },
+      {
+        "url": "/reviews/nox-at10-team-bag",
+        "src": "/images/padel/products/tecnifibre-tour-endurance-padel-backpack-hero.jpg"
+      },
+      {
+        "url": "/reviews/bullpadel-pascal-box-3b",
+        "src": "/images/padel/products/bullpadel-frame-protector-3-pack-hero.jpg"
+      },
+      {
+        "url": "/reviews/bullpadel-pascal-box-3b",
+        "src": "/images/padel/products/nox-transparent-frame-protector-hero.jpg"
+      },
+      {
+        "url": "/reviews/bullpadel-pascal-box-3b",
+        "src": "/images/padel/products/head-x3-ball-pressurizer-hero.jpg"
+      },
+      {
+        "url": "/reviews/bullpadel-pascal-box-3b",
+        "src": "/images/padel/products/bullpadel-frame-protector-3-pack-hero.jpg"
+      },
+      {
+        "url": "/reviews/bullpadel-pascal-box-3b",
+        "src": "/images/padel/products/nox-transparent-frame-protector-hero.jpg"
+      },
+      {
+        "url": "/reviews/bullpadel-pascal-box-3b",
+        "src": "/images/padel/products/head-x3-ball-pressurizer-hero.jpg"
+      }
+    ]
+  },
+  "chips": {
+    "defects": []
+  },
+  "mobile": {
+    "padel-vertex": {
+      "url": "/products/bullpadel-vertex-05-2026",
+      "status": 200,
+      "words": 2431,
+      "overflow": false,
+      "docW": 390,
+      "viewW": 390,
+      "svgCount": 65,
+      "tinySvgs": [
+        {
+          "w": 14,
+          "h": 14
+        },
+        {
+          "w": 14,
+          "h": 14
+        },
+        {
+          "w": 16,
+          "h": 16
+        },
+        {
+          "w": 22,
+          "h": 22
+        },
+        {
+          "w": 16,
+          "h": 16
+        },
+        {
+          "w": 22,
+          "h": 22
+        },
+        {
+          "w": 16,
+          "h": 16
+        },
+        {
+          "w": 16,
+          "h": 16
+        },
+        {
+          "w": 16,
+          "h": 16
+        },
+        {
+          "w": 16,
+          "h": 16
+        }
+      ]
+    },
+    "running-novablast": {
+      "url": "/products/asics-novablast-6",
+      "status": 200,
+      "words": 2019,
+      "overflow": false,
+      "docW": 390,
+      "viewW": 390,
+      "svgCount": 69,
+      "tinySvgs": [
+        {
+          "w": 14,
+          "h": 14
+        },
+        {
+          "w": 14,
+          "h": 14
+        },
+        {
+          "w": 16,
+          "h": 16
+        },
+        {
+          "w": 22,
+          "h": 22
+        },
+        {
+          "w": 16,
+          "h": 16
+        },
+        {
+          "w": 22,
+          "h": 22
+        },
+        {
+          "w": 16,
+          "h": 16
+        },
+        {
+          "w": 16,
+          "h": 16
+        },
+        {
+          "w": 16,
+          "h": 16
+        },
+        {
+          "w": 16,
+          "h": 16
+        }
+      ]
+    },
+    "review-vertex": {
+      "url": "/reviews/bullpadel-vertex-05-2026",
+      "status": 200,
+      "words": 3104,
+      "overflow": false,
+      "docW": 390,
+      "viewW": 390,
+      "svgCount": 45,
+      "tinySvgs": [
+        {
+          "w": 14,
+          "h": 14
+        },
+        {
+          "w": 14,
+          "h": 14
+        },
+        {
+          "w": 16,
+          "h": 16
+        },
+        {
+          "w": 22,
+          "h": 22
+        },
+        {
+          "w": 16,
+          "h": 16
+        },
+        {
+          "w": 22,
+          "h": 22
+        },
+        {
+          "w": 16,
+          "h": 16
+        },
+        {
+          "w": 16,
+          "h": 16
+        },
+        {
+          "w": 16,
+          "h": 16
+        },
+        {
+          "w": 16,
+          "h": 16
+        }
+      ]
+    },
+    "guide-racket": {
+      "url": "/guides/how-to-choose-a-padel-racket",
+      "status": 200,
+      "words": 2540,
+      "overflow": false,
+      "docW": 390,
+      "viewW": 390,
+      "svgCount": 47,
+      "tinySvgs": [
+        {
+          "w": 14,
+          "h": 14
+        },
+        {
+          "w": 14,
+          "h": 14
+        },
+        {
+          "w": 16,
+          "h": 16
+        },
+        {
+          "w": 22,
+          "h": 22
+        },
+        {
+          "w": 16,
+          "h": 16
+        },
+        {
+          "w": 22,
+          "h": 22
+        },
+        {
+          "w": 16,
+          "h": 16
+        },
+        {
+          "w": 16,
+          "h": 16
+        },
+        {
+          "w": 16,
+          "h": 16
+        },
+        {
+          "w": 16,
+          "h": 16
+        }
+      ]
+    },
+    "best-rackets": {
+      "url": "/best/padel-rackets",
+      "status": 200,
+      "words": 4351,
+      "overflow": false,
+      "docW": 390,
+      "viewW": 390,
+      "svgCount": 62,
+      "tinySvgs": [
+        {
+          "w": 14,
+          "h": 14
+        },
+        {
+          "w": 14,
+          "h": 14
+        },
+        {
+          "w": 16,
+          "h": 16
+        },
+        {
+          "w": 22,
+          "h": 22
+        },
+        {
+          "w": 16,
+          "h": 16
+        },
+        {
+          "w": 22,
+          "h": 22
+        },
+        {
+          "w": 16,
+          "h": 16
+        },
+        {
+          "w": 16,
+          "h": 16
+        },
+        {
+          "w": 16,
+          "h": 16
+        },
+        {
+          "w": 16,
+          "h": 16
+        }
+      ]
+    }
+  },
+  "heroCollisions": [],
+  "integrity": {
+    "PUBLIC_EDITORIAL_INSTRUCTION_LANGUAGE": 0,
+    "PUBLIC_INTERNAL_SENTINELS": 0,
+    "KNOWN_DECISION_GRAMMAR_DEFECTS": 3,
+    "BEST_CHIP_GRAMMAR_DEFECTS": 0,
+    "BROKEN_SECTION_MEDIA": 0,
+    "HISTORICAL_GLUE_TOTAL": 0,
+    "CROSS_PRODUCT_TRIPLE_PLUS": 29,
+    "BROKEN_SECTION_MEDIA_INITIAL_LAZY": 221,
+    "KNOWN_DECISION_GRAMMAR_DEFECTS_CONFIRMED": 3
+  },
+  "mediaIntegrityRecheck": {
+    "method": "scroll entire page then measure naturalWidth; HTTP 200 on education SVG + gallery samples",
+    "note": "Initial BROKEN_SECTION_MEDIA=221 was largely lazy-load false positive before scroll",
+    "samples": {
+      "/reviews/bullpadel-vertex-05-2026": {
+        "ok": 9,
+        "brokenComplete": 0,
+        "eduOk": 3
+      },
+      "/reviews/kuikma-pr-comfort-soft": {
+        "ok": 10,
+        "brokenComplete": 0,
+        "eduOk": 3
+      },
+      "/reviews/asics-novablast-6": {
+        "ok": 12,
+        "brokenComplete": 0,
+        "eduOk": 0
+      }
+    },
+    "BROKEN_SECTION_MEDIA_CORRECTED": 0
+  },
+  "verdicts": {
+    "PADEL_PDP_PARITY": "PASS",
+    "PADEL_REVIEW_PARITY": "FAIL",
+    "PADEL_GUIDE_PARITY": "PASS",
+    "PADEL_MEDIA_PARITY": "PASS",
+    "PADEL_COMMERCE_PRESENTATION_PARITY": "PASS",
+    "MOBILE_PARITY": "PASS",
+    "CLEAN_CI": "FAIL",
+    "OVERALL_RUNNING_PADEL_PARITY": "FAIL"
+  },
+  "systemic": {
+    "SYSTEMIC_EDITORIAL_GAP": "YES",
+    "SYSTEMIC_MEDIA_GAP": "NO",
+    "INDIVIDUAL_RESIDUAL_COUNT": 6
+  },
+  "replacementGlueConfirmed": [
+    {
+      "pattern": "Shape changes where the usable face sits — not a brand rendering.",
+      "products": 12,
+      "surface": "review Shape and balance"
+    },
+    {
+      "pattern": "POWER Generic continuum — match the mould to the job you play most weeks.",
+      "products": 12,
+      "surface": "review Power"
+    },
+    {
+      "pattern": "Sweet-spot height is a teaching idea — verify published notes on the product sheet.",
+      "products": 9,
+      "surface": "review Sweet spot"
+    },
+    {
+      "pattern": "How the foam, upper and outsole are likely to hold up with real use.",
+      "products": 13,
+      "surface": "cross-category durability opener (includes non-shoes)"
+    },
+    {
+      "pattern": "Soft dailies usually fade in the foam before the upper looks worn — rotate when you can.",
+      "products": 11,
+      "surface": "cross-category durability"
+    }
+  ]
+}

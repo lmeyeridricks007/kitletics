@@ -2,6 +2,7 @@ import { existsSync } from "node:fs";
 import path from "node:path";
 import type { ContentSection } from "@/domain/editorial/types";
 import type { MediaAsset } from "@/domain/shared/types";
+import { isDerivedHeroCrop } from "@/lib/media/semantic-role";
 
 export type SectionVisual = {
   src: string;
@@ -785,6 +786,132 @@ function shouldSkipSectionImage(id: string, heading: string): boolean {
 }
 
 /**
+ * Non-branded teaching assets — intentional reuse across reviews when the concept is shared.
+ * Alt only: do NOT caption with generic concept lectures. Review body must start with
+ * product-specific analysis; diagrams already teach the concept.
+ */
+const PADEL_EDUCATION_BY_TOPIC: Partial<
+  Record<TopicKey, SectionVisual>
+> = {
+  shape: V(
+    "/images/padel/education/padel-racket-shapes.svg",
+    "Round, teardrop and diamond padel outlines with sweet-spot markers",
+  ),
+  sweetspot: V(
+    "/images/padel/education/padel-sweet-spot.svg",
+    "Centred versus higher sweet-spot zones on a generic racket outline",
+  ),
+  power: V(
+    "/images/padel/education/padel-power-control.svg",
+    "Power to control continuum from soft round to stiff diamond",
+  ),
+  control: V(
+    "/images/padel/education/padel-power-control.svg",
+    "Power to control continuum from soft round to stiff diamond",
+  ),
+  grip: V(
+    "/images/padel/education/padel-grip-layers.svg",
+    "Bare handle, base grip and overgrip layers",
+  ),
+};
+
+function assignPadelPhotographicStory(
+  sections: ContentSection[],
+  images: MediaAsset[],
+  heroSrc?: string,
+): Map<string, SectionVisual> {
+  const story = images.filter(
+    (img) => img?.src && img.src !== heroSrc && !isDerivedHeroCrop(img.src),
+  );
+  const taken = new Set<string>();
+  const assigned = new Map<string, SectionVisual>();
+  const prefs: Partial<
+    Record<TopicKey, Array<NonNullable<MediaAsset["usageType"]>>>
+  > = {
+    overview: ["side", "other"],
+    // Prefer face-filling angles — "rear"/edge-profile shots are too sparse on
+    // the grey object-contain plate and read as empty placeholders.
+    construction: ["side", "detail", "top"],
+    shape: ["side", "other"],
+    power: ["top", "other"],
+    attack: ["top", "other"],
+    control: ["side", "top"],
+    spin: ["detail", "top"],
+    comfort: ["detail", "rear"],
+    sweetspot: ["top", "detail"],
+    maneuverability: ["side", "other"],
+    durability: ["detail", "rear"],
+    tech: ["detail", "rear"],
+    performance: ["top", "side"],
+    value: ["other", "side"],
+    grip: ["detail"],
+    traction: ["detail", "side"],
+    stability: ["side", "rear"],
+    fit: ["side", "detail"],
+    upper: ["side", "detail"],
+    cushioning: ["detail", "side"],
+    ride: ["side", "other"],
+    courtFeel: ["side", "detail"],
+    support: ["side", "rear"],
+  };
+
+  const eligible = sections.filter(
+    (section) => !shouldSkipSectionImage(section.id, section.heading),
+  );
+
+  // Pass 0: conceptual topics get educational diagrams when they teach better
+  // than another packshot. One unique education src per page.
+  const educationTopics: TopicKey[] = ["shape", "sweetspot", "power", "control", "grip"];
+  for (const section of eligible) {
+    const topic = topicFromSection(section.id, section.heading);
+    if (!educationTopics.includes(topic)) continue;
+    const edu = PADEL_EDUCATION_BY_TOPIC[topic];
+    if (!edu || taken.has(edu.src)) continue;
+    // Prefer education for shape / sweetspot / power continuum; skip if we already
+    // assigned that teaching asset via a sibling topic (power shares with control).
+    taken.add(edu.src);
+    assigned.set(section.id, edu);
+  }
+
+  // Pass 1: preferred usageType per topic (authentic product photos)
+  for (const section of eligible) {
+    if (assigned.has(section.id)) continue;
+    const topic = topicFromSection(section.id, section.heading);
+    const want = prefs[topic] ?? ["side", "detail", "top", "rear", "other"];
+    const hit = story.find(
+      (img) =>
+        !taken.has(img.src) &&
+        img.usageType != null &&
+        want.includes(img.usageType),
+    );
+    if (!hit) continue;
+    taken.add(hit.src);
+    assigned.set(section.id, {
+      src: hit.src,
+      alt: hit.alt || "Product photograph",
+      caption: hit.alt || TOPIC_CAPTIONS[topic] || "Product photograph",
+    });
+  }
+
+  // Pass 2: round-robin remaining authentic gallery onto uncovered major sections
+  const leftover = story.filter((img) => !taken.has(img.src));
+  let li = 0;
+  for (const section of eligible) {
+    if (assigned.has(section.id) || li >= leftover.length) continue;
+    const topic = topicFromSection(section.id, section.heading);
+    const hit = leftover[li++]!;
+    taken.add(hit.src);
+    assigned.set(section.id, {
+      src: hit.src,
+      alt: hit.alt || "Product photograph",
+      caption: hit.alt || TOPIC_CAPTIONS[topic] || "Product photograph",
+    });
+  }
+
+  return assigned;
+}
+
+/**
  * Attach images to each editorial section.
  *
  * Product reviews:
@@ -814,6 +941,10 @@ export function resolveReviewSectionVisuals(
   const productSlug = options?.productSlug;
   const sportFolders = sportFoldersToSearch(family, options?.productHero?.src);
   const isProductReview = ownProduct.length > 0 || Boolean(productSlug);
+  const padelStory = (options?.categoryId ?? "").startsWith("cat-padel-");
+  const padelStoryBySection = padelStory
+    ? assignPadelPhotographicStory(sections, options?.productImages ?? [], options?.productHero?.src)
+    : undefined;
 
   return sections.map((section, index) => {
     if (shouldSkipSectionImage(section.id, section.heading)) {
@@ -824,6 +955,16 @@ export function resolveReviewSectionVisuals(
     const caption = TOPIC_CAPTIONS[topic] ?? TOPIC_CAPTIONS.generic;
 
     if (isProductReview) {
+      // Padel: only distinct photographs. Section crops of the hero do not count.
+      if (padelStoryBySection) {
+        const story = padelStoryBySection.get(section.id);
+        if (story) {
+          used.add(story.src);
+          return { ...section, image: story };
+        }
+        return { ...section, image: undefined };
+      }
+
       // Dedicated product section files always win over seed stock / hero stamps.
       if (productSlug) {
         const sectionFile = productSectionFileVisual(
@@ -905,10 +1046,33 @@ export function assessmentVisual(input?: {
   productSlug?: string;
   categoryId?: string;
   heroSrc?: string;
+  productImages?: MediaAsset[];
 }): SectionVisual {
   const seedInput = input?.seedInput ?? "assessment";
   const family = categoryFamily(input?.categoryId);
   const caption = TOPIC_CAPTIONS.assessment;
+
+  if (family === "racket") {
+    const photos = (input?.productImages ?? []).filter(
+      (img) => img?.src && img.src !== input?.heroSrc && !isDerivedHeroCrop(img.src),
+    );
+    const photo = photos.find((img) => img.usageType === "other") ?? photos[0];
+    if (photo) {
+      return {
+        src: photo.src,
+        alt: photo.alt || "Product photograph",
+        caption,
+      };
+    }
+    if (input?.heroSrc) {
+      return { src: input.heroSrc, alt: "Product photograph", caption };
+    }
+    return {
+      src: "/images/padel/guides/choose-racket.jpg",
+      alt: "Padel racket on court",
+      caption,
+    };
+  }
 
   if (input?.productSlug) {
     const fromProduct = productSectionFileVisual(

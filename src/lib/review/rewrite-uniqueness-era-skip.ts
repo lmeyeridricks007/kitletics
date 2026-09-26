@@ -11,6 +11,18 @@ import type { Review } from "@/domain/editorial/types";
 const UNIQUENESS_ERA_SKIP =
   /i['’]d pause if not\b|look elsewhere if not\b|shows up often in your week|shows up every week|look elsewhere if that is most of your week|i['’]d pause if you need a different specialty lane/i;
 
+/**
+ * Weakness seeds are often already complete advice
+ * ("…prefer the Hybrid should look elsewhere"). Strip the trailing
+ * look-elsewhere so "Skip it if you …" does not mash two endings.
+ */
+function stripLookElsewhereTail(clause: string): string {
+  return clause
+    .replace(/\s+should look elsewhere\.?$/i, "")
+    .replace(/\s+look elsewhere\.?$/i, "")
+    .trim();
+}
+
 /** Known limitations → one clear skip reason. Not a generic stamp. */
 function skipIfYouNeed(thing: string): string {
   const t = thing.replace(/\s+/g, " ").trim().replace(/[.,;:]+$/g, "");
@@ -93,7 +105,30 @@ export function skipSentenceFromLimitation(limitation: string): string {
   if (/^you /i.test(raw)) {
     return `Skip it if ${lower}.`;
   }
-  return `Skip it if ${lower} is most of your week.`;
+
+  const playersWant =
+    /^(?:players|runners|anyone|people|those)\s+who\s+want\s+(.+)$/i.exec(raw);
+  if (playersWant) {
+    return `Skip it if you want ${stripLookElsewhereTail(playersWant[1]!.trim())}.`;
+  }
+  const playersPrefer =
+    /^(?:players|runners|anyone|people|those)\s+who\s+prefer\s+(.+)$/i.exec(raw);
+  if (playersPrefer) {
+    return `Skip it if you prefer ${stripLookElsewhereTail(playersPrefer[1]!.trim())}.`;
+  }
+  const playersWho =
+    /^(?:players|runners|anyone|people|those)\s+who\s+(.+)$/i.exec(raw);
+  if (playersWho) {
+    return `Skip it if you ${stripLookElsewhereTail(playersWho[1]!.trim())}.`;
+  }
+
+  // Short trait labels may use the weekly-role framing; longer clauses are the condition.
+  // Never append "is most of your week" to multi-clause or already-complete conditions.
+  const words = raw.split(/\s+/).filter(Boolean).length;
+  if (words <= 6 && !/[;,]/.test(raw) && !/\bif\b|\bwhen\b|\bwho\b/i.test(raw)) {
+    return `Skip it if ${lower} is most of your week.`;
+  }
+  return `Skip it if ${lower}.`;
 }
 
 function extractLimitation(chunk: string): string {

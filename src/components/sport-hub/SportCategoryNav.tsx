@@ -58,7 +58,7 @@ function CategoryTile({
         <Icon className="size-4" strokeWidth={1.75} />
       </span>
       <span className="min-w-0 flex-1">
-        <span className="block truncate text-[13px] font-semibold text-foreground transition-colors group-hover:text-link">
+        <span className="block text-[13px] font-semibold leading-snug text-foreground transition-colors group-hover:text-link whitespace-normal break-words">
           {label}
         </span>
         {typeof productCount === "number" && productCount > 0 ? (
@@ -122,12 +122,12 @@ export function SportCategoryNav({
   }
 
   return (
-    <div className="overflow-x-hidden border-b border-border bg-[linear-gradient(180deg,#f4f7f6_0%,#ffffff_88%)]">
+    <div className="border-b border-border bg-[linear-gradient(180deg,#f4f7f6_0%,#ffffff_88%)]">
       <Container
         size="wide"
         className="overflow-x-auto py-4 [-ms-overflow-style:none] [scrollbar-width:none] [&::-webkit-scrollbar]:hidden"
       >
-        <ul className="flex min-w-max items-stretch gap-2">
+        <ul className="flex min-w-max items-stretch gap-2 px-0.5">
           {categories.map((cat) => (
             <li key={cat.id} className="w-[220px] shrink-0 sm:w-[240px]">
               <CategoryTile

@@ -220,7 +220,7 @@ export function valueAndSpecialistDrafts(): RacketDraft[] {
           "Players who care about price and a soft face",
         ],
         notIdealFor: [
-          "Advanced attackers",
+          "Advanced attackers who prioritize finishing power over forgiveness",
           "Anyone shopping Vertex by name",
         ],
         buyIf: [

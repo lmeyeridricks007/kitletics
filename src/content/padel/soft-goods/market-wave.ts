@@ -285,7 +285,7 @@ export function marketWaveDrafts(): SoftDraft[] {
     "lifecycle": "current",
     "sourceUrl": "https://www.bullpadel.com",
     "sourceName": "Bullpadel manufacturer / specialist",
-    "shortDescription": "Frame Protector — researched as a current commercially meaningful accessories SKU (protector). Adhesive PU frame edge protector; Kitletics 3-pack seeded. Color/pack variants collapsed.",
+    "shortDescription": "Frame Protector Uni — single-unit adhesive PU frame edge protector (Frame Protector TR pack). Distinct from the separate Bullpadel Frame Protector multi-pack SKU.",
     "specifications": {
       "type": "protector",
       "generation": "current"
@@ -5843,7 +5843,7 @@ export const marketWaveInventoryMeta = {
     "research_status": "verified",
     "NL_available": "yes",
     "EU_available": "yes",
-    "evidence": "Adhesive PU frame edge protector; Kitletics 3-pack seeded. Color/pack variants collapsed."
+    "evidence": "Single-unit Frame Protector Uni / Frame Protector TR (EAN 8445402973828). Distinct from prod-bullpadel-frame-protector multi-pack."
   },
   "prod-bullpadel-bullpadel-headband": {
     "subcategory": "sweatband",

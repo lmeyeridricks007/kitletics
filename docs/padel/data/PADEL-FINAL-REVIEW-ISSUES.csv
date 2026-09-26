@@ -1,0 +1,2 @@
+issue_id,urls,category,example,classification,root_cause,systemic,inspect
+FR-REV-001,/reviews/bullpadel-vertex-05-2026,racket,"Skip it if you prefer the lower balance of the Vertex Hybrid should look elsewhere.",DECISION_GRAMMAR,Skip-if composition mashed two endings (prefer Hybrid + should look elsewhere),isolated,src/lib/decision-copy/transform.ts composeSkipIfSentence / enrich decision salvage

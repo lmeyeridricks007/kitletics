@@ -88,7 +88,11 @@ export const padelOvergripsGuide: BestGuide = baseGuide({
         "Thin enough that it does not jump a grip size. Replace it when tack dies — that is the product, not a seasonal event.",
         "I'd wrap this as the default. I'd switch to HaC or Nox Pro when sweat kills this wrap mid-set.",
       ],
-      bestFor: ["Default thin overgrip", "Feel and tack", "Padel-length wrap"],
+      bestFor: [
+        "Players who prefer a thin, familiar overgrip feel",
+        "Feel-first tack for padel-length wraps",
+        "Players who want a thin padel-length 3-pack as the default wrap",
+      ],
       tradeoff: "Not the driest option for heavy sweat — that is HaC’s or Nox Pro’s job.",
       avoid: ["Players who need a shaped comfort sleeve", "Replacement-grip shoppers"],
       instead: [
@@ -108,7 +112,10 @@ export const padelOvergripsGuide: BestGuide = baseGuide({
         "Absorption-first overgrip with an authentic HaC packshot. Use it when tack is not the problem — moisture is.",
         "I'd pick this mid-summer or if Wilson feels like soap. I'd skip it if you wanted maximum tacky feel.",
       ],
-      bestFor: ["Sweat / absorption", "Padel-native wrap"],
+      bestFor: [
+        "Players who need sweat absorption more than max tack",
+        "Padel-native absorbent wraps for humid sessions",
+      ],
       tradeoff: "Less of a tack-first story than Wilson Pro.",
       avoid: ["Players who want Wilson’s tack as the whole point"],
       instead: [
@@ -197,8 +204,8 @@ export const padelOvergripsGuide: BestGuide = baseGuide({
     "best-padel-ergonomic-grips",
     "best-padel-bags",
   ],
-  hubImageSrc: "/images/padel/guides/grips.jpg",
-  hubImageAlt: "Padel overgrips — tack versus absorption",
+  hubImageSrc: "/images/padel/products/wilson-padel-overgrip-hero.jpg",
+  hubImageAlt: "Wilson Pro padel overgrip — tack versus absorption",
 });
 
 export const padelBagsGuide: BestGuide = baseGuide({
@@ -399,6 +406,6 @@ export const padelBagsGuide: BestGuide = baseGuide({
     "best-padel-bags-commuting",
     "best-padel-overgrips",
   ],
-  hubImageSrc: "/images/padel/products/nox-at10-team-paletero-hero.jpg",
-  hubImageAlt: "Nox AT10 Team paletero — padel bag",
+  hubImageSrc: "/images/padel/products/adidas-protour-padel-bag-hero.jpg",
+  hubImageAlt: "Adidas Protour padel bag — category Best Guide hub",
 });

@@ -20,10 +20,17 @@ export function GuideNumberedHeading({
         className,
       )}
     >
-      <span className="inline-flex size-8 shrink-0 items-center justify-center rounded-full bg-accent text-[14px] font-bold text-accent-foreground">
+      <span
+        aria-hidden="true"
+        className="inline-flex size-8 shrink-0 items-center justify-center rounded-full bg-accent text-[14px] font-bold text-accent-foreground"
+      >
         {number}
       </span>
-      {title}
+      {/* Separate text node so badge digits never glue to a title that starts with a number */}
+      <span className="min-w-0">
+        {" "}
+        {title}
+      </span>
     </h2>
   );
 }

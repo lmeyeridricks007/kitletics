@@ -46,13 +46,13 @@ export function bullpadelDrafts(): RacketDraft[] {
         sweetSpot: "medium-large",
       },
       strengths: [
-        "Manufacturer diamond + 12K + Multieva is the current Tello Vertex, not last year’s 04",
-        "Bullpadel lists versatile / Total Play rather than a pure smash-only mould",
-        "Custom Weight and Top Spin are specified systems, not a colourway change",
+        "Players who want the current Tello Vertex diamond with 12K and Multieva",
+        "Players who want Total Play versatility rather than a smash-only mould",
+        "Players who will use Custom Weight and Top Spin as published systems",
       ],
       weaknesses: [
         "365–375 g diamond still punishes a late swing",
-        "Not the Hybrid if you want a lower ~25 cm balance",
+        "Players who prefer the lower balance of the Vertex Hybrid should look elsewhere",
       ],
       relatedProductIds: [
         "prod-bullpadel-vertex-05-hybrid",
@@ -93,7 +93,7 @@ export function bullpadelDrafts(): RacketDraft[] {
           "You want the current Vertex — not the previous 04 and not a Tour Advance fiberglass.",
         ],
         skipIf: [
-          "You are still building contact and need Indiga CTR or Ionic Light.",
+          "You are still developing consistent contact and need Indiga CTR or Ionic Light first.",
           "You specifically want the Hybrid mould or the 350–360 g Vertex 05 W.",
         ],
       },
@@ -545,7 +545,7 @@ export function bullpadelDrafts(): RacketDraft[] {
         sweetSpot: "compact",
       },
       strengths: [
-        "Official offensive Hack 04 with Tricarbon 18K — not Hack 03",
+        "Offensive Hack 04 with Tricarbon 18K — not Hack 03",
         "Total Channel + Air React Channel are the 2026 aero/attack story",
         "Distinct from Hack 04 Hybrid (hybrid, ~25 cm) and Comfort (Fibrix)",
       ],
@@ -1839,9 +1839,9 @@ export function bullpadelDrafts(): RacketDraft[] {
         sweetSpot: "large",
       },
       strengths: [
-        "Official beginner / defensive Tour racket",
-        "Round + low balance + SoftEva + Polyglass is a real first-racket recipe",
-        "Not a fake ‘light’ diamond",
+        "Players who want a beginner / defensive Tour racket with a control-first job",
+        "Players who want round + low balance + SoftEva + Polyglass as a first-racket recipe",
+        "Players who need an honest starter rather than a disguised diamond",
       ],
       weaknesses: [
         "Official power rating is 1.5 — you supply the pace",
@@ -1871,11 +1871,11 @@ export function bullpadelDrafts(): RacketDraft[] {
           "Players prioritising placement and a soft face",
         ],
         notIdealFor: [
-          "Advanced attackers",
+          "Advanced attackers who prioritize finishing power over forgiveness",
           "Anyone shopping Vertex or Hack by name only",
         ],
         buyIf: [
-          "You are learning and want the official Indiga CTR: round, low balance, SoftEva and Polyglass.",
+          "You are learning and want a round Indiga CTR with low balance, SoftEva and Polyglass — not a Vertex diamond.",
           "You care more about keeping the ball in play than finishing overheads.",
         ],
         skipIf: [

@@ -173,8 +173,8 @@ export const padelOvergripsSweatyGuide: BestGuide = baseGuide({
     "prod-nox-pro-overgrip",
     "prod-kuikma-overgrip",
   ],
-  hubImageSrc: "/images/padel/guides/grips.jpg",
-  hubImageAlt: "Padel overgrips for sweaty hands",
+  hubImageSrc: "/images/padel/products/nox-pro-overgrip-hero.jpg",
+  hubImageAlt: "Nox Pro absorbent padel overgrip for sweaty hands",
 });
 
 export const padelTackyOvergripsGuide: BestGuide = baseGuide({
@@ -237,7 +237,11 @@ export const padelTackyOvergripsGuide: BestGuide = baseGuide({
         "I’d wrap Wilson as the default tacky feel for most club weeks.",
         "I’d skip it when sweat kills tack mid-set — switch to the sweaty-hands guide.",
       ],
-      bestFor: ["Default thin tack", "Feel-first wraps", "Padel-length 3-pack"],
+      bestFor: [
+        "Players who prefer a thin, familiar overgrip feel",
+        "Feel-first wraps for regular club weeks",
+        "Padel-length thin tack 3-pack",
+      ],
       tradeoff: "Not the driest option for heavy sweat.",
       avoid: ["Players who need absorption-first wraps as the whole point"],
       instead: [
@@ -324,8 +328,8 @@ export const padelTackyOvergripsGuide: BestGuide = baseGuide({
     "prod-head-xtreme-soft",
     "prod-babolat-pro-response",
   ],
-  hubImageSrc: "/images/padel/products/wilson-padel-overgrip-hero.jpg",
-  hubImageAlt: "Wilson Pro tacky padel overgrip",
+  hubImageSrc: "/images/padel/products/head-xtreme-soft-overgrip-hero.jpg",
+  hubImageAlt: "HEAD Xtreme Soft tacky padel overgrip",
 });
 
 export const padelDryFeelOvergripsGuide: BestGuide = baseGuide({

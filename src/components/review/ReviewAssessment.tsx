@@ -38,11 +38,13 @@ export function ReviewAssessment({ data }: { data: ReviewPageData }) {
     productSlug: product.slug,
     categoryId: product.categoryId,
     heroSrc: product.images?.[0]?.src,
+    productImages: product.images,
   });
 
   const isWatchOrHrm = /watch|gps|hrm|heart.?rate/i.test(
     product.categoryId ?? "",
   );
+  const isPadel = (product.categoryId ?? "").startsWith("cat-padel-");
 
   return (
     <section id="assessment" className={SCROLL}>
@@ -79,7 +81,9 @@ export function ReviewAssessment({ data }: { data: ReviewPageData }) {
           <p className="text-[15px] leading-relaxed text-muted">
             {isWatchOrHrm
               ? "We start with the numbers that shape the buy — case size, weight, display, GNSS, maps, battery claims and sensors — then place the product against alternatives that solve a similar training job. Feel claims only show up when the sources support them."
-              : "We start with the numbers that shape the buy — weight, stack, drop, surface intent, stability class and materials — then place the product against alternatives that solve a similar job. Feel claims only show up when the sources support them."}
+              : isPadel
+                ? "We start with the numbers that shape the buy — shape, balance, weight, face, core and the level the mould is built for — then place it against rackets that solve a similar court job. Feel claims only show up when the sources support them. This is expert research, not a Kitletics hitting test."
+                : "We start with the numbers that shape the buy — weight, stack, drop, surface intent, stability class and materials — then place the product against alternatives that solve a similar job. Feel claims only show up when the sources support them."}
           </p>
           {typeLabels.length > 0 && (
             <div>

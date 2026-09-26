@@ -7,7 +7,10 @@ import { ArrowLeft, ArrowRight, Clock3, ShieldCheck } from "lucide-react";
 import type { FinderDefinition, FinderResponses } from "@/domain/finders/types";
 import type { RegionCode } from "@/domain/shared/types";
 import { getVisibleQuestions } from "@/domain/finders/normalization";
-import { encodeFinderShareStateBrowser, decodeFinderShareStateBrowser } from "@/domain/finders/share-state";
+import {
+  decodeFinderShareStateBrowser,
+  buildFinderResultsHref,
+} from "@/domain/finders/share-state";
 import { withRegionalBudgetOptions } from "@/domain/finders/configs/running-shoe-finder";
 import { useRegionPreference } from "@/components/region/RegionPreferenceProvider";
 import { trackFinderEvent } from "@/domain/finders/analytics";
@@ -96,6 +99,9 @@ export function FinderFlow({
   const [errors, setErrors] = useState<Record<string, string>>({});
   const [preview, setPreview] = useState<FinderPreviewPayload | null>(null);
   const [previewPending, startPreviewTransition] = useTransition();
+
+  const [navPending, setNavPending] = useState(false);
+  const [navError, setNavError] = useState<string | null>(null);
 
   useEffect(() => {
     if (!shareFromUrl) return;
@@ -239,11 +245,24 @@ export function FinderFlow({
   }
 
   function seeResults() {
-    const encoded = encodeFinderShareStateBrowser(definition, responses);
-    trackFinderEvent("finder_completed", { finderId: definition.id });
-    router.push(
-      `/tools/${definition.slug}/results?s=${encodeURIComponent(encoded)}`,
-    );
+    if (navPending) return;
+    setNavError(null);
+    setNavPending(true);
+    try {
+      const href = buildFinderResultsHref(definition, responses);
+      trackFinderEvent("finder_completed", { finderId: definition.id });
+      // Hard navigate: App Router soft nav from middleware-rewritten
+      // `/tools/<slug>` (→ `/tools/finder/<slug>`) to `/tools/<slug>/results`
+      // can no-op and leave the user on the summary screen.
+      if (typeof window !== "undefined") {
+        window.location.assign(href);
+        return;
+      }
+      router.push(href);
+    } catch {
+      setNavPending(false);
+      setNavError("Could not open your matches. Please try again.");
+    }
   }
 
   function editKey(key: string) {
@@ -294,7 +313,13 @@ export function FinderFlow({
               definition={definition}
               responses={responses}
               onEdit={editKey}
+              heading={ui.summaryHeading ?? "Your profile"}
             />
+            {navError && (
+              <p className="mt-3 text-sm text-red-700" role="alert">
+                {navError}
+              </p>
+            )}
             <div className="mt-6 flex flex-wrap gap-3">
               <button
                 type="button"
@@ -307,9 +332,11 @@ export function FinderFlow({
               <button
                 type="button"
                 onClick={seeResults}
-                className="ml-auto inline-flex items-center gap-2 bg-accent px-5 py-2.5 text-sm font-bold text-[#0b1220] uppercase"
+                disabled={navPending}
+                aria-busy={navPending}
+                className="ml-auto inline-flex items-center gap-2 bg-accent px-5 py-2.5 text-sm font-bold text-[#0b1220] uppercase disabled:opacity-60"
               >
-                See my matches
+                {navPending ? "Loading matches…" : "See my matches"}
                 <ArrowRight className="size-4" />
               </button>
             </div>

@@ -73,7 +73,6 @@ export function ProductDetailPage({ data }: { data: ProductPageData }) {
     product,
     brand,
     category,
-    showScore,
     featuredSpecs,
     specGroups,
     recommendations,
@@ -125,9 +124,14 @@ export function ProductDetailPage({ data }: { data: ProductPageData }) {
       r.recommendation.useCaseId?.includes("hyrox"),
   );
 
-  const score = product.recommendationScore;
-  const band = score !== undefined ? getScoreBand(score) : undefined;
-  const factors = data.scoreExplainFactors.slice(0, 6);
+  const catalogScore = product.recommendationScore;
+  const heroScore = catalogScore ?? review?.score;
+  const band = heroScore !== undefined ? getScoreBand(heroScore) : undefined;
+  const showHeroScore = heroScore !== undefined && Boolean(band);
+  const factors = data.scoreExplainFactors.slice(
+    0,
+    data.padelDecisionAttributes.length > 0 ? 7 : 6,
+  );
   const reviewSummary = review
     ? getProductReviewSummary({
         productSlug: product.slug,
@@ -266,15 +270,15 @@ export function ProductDetailPage({ data }: { data: ProductPageData }) {
               <h1 className="font-display text-[clamp(1.75rem,3.5vw,2.5rem)] leading-[1.05] font-bold tracking-tight text-foreground">
                 {product.name}
               </h1>
-              {showScore && score !== undefined && band && (
+              {showHeroScore && heroScore !== undefined && band && (
                 <div className="mb-1 flex flex-wrap items-center gap-2">
                   <span className="inline-flex h-8 min-w-9 items-center justify-center rounded-[4px] bg-score px-1.5 text-[14px] font-bold text-score-foreground tabular-nums">
-                    {displayScore(score)}
+                    {displayScore(heroScore)}
                   </span>
                   <span className="text-[12px] font-bold tracking-wide text-foreground uppercase">
                     {band.label}
                   </span>
-                  {score >= 90 && (
+                  {heroScore >= 90 && (
                     <>
                       <span className="text-border" aria-hidden>
                         |
@@ -329,11 +333,11 @@ export function ProductDetailPage({ data }: { data: ProductPageData }) {
                   />
                 </Suspense>
               )}
-              {showScore && score !== undefined && band && (
+              {showHeroScore && heroScore !== undefined && band && (
                 <div className="rounded-lg border border-border bg-white p-4">
                   <div className="flex items-end gap-2.5">
                     <span className="font-display text-4xl font-bold tabular-nums text-foreground">
-                      {displayScore(score)}
+                      {displayScore(heroScore)}
                     </span>
                     <div className="pb-1">
                       <p className="text-[11px] font-bold tracking-wide text-foreground uppercase">
@@ -722,7 +726,7 @@ export function ProductDetailPage({ data }: { data: ProductPageData }) {
           id="performance"
           className="scroll-mt-[calc(var(--site-chrome-height)+3.25rem)] grid gap-4 lg:grid-cols-3"
         >
-          {factors.length > 0 && (score !== undefined || padelEditorial) && (
+          {factors.length > 0 && (heroScore !== undefined || padelEditorial) && (
             <div className="rounded-lg border border-border bg-white p-4 sm:p-5">
               <h2 className="heading-section">
                 {hasPersonalTest
@@ -754,10 +758,17 @@ export function ProductDetailPage({ data }: { data: ProductPageData }) {
                   </li>
                 ))}
               </ul>
-              {score !== undefined ? (
-                <p className="mt-4 inline-flex rounded-md bg-accent px-2.5 py-1.5 text-[12px] font-bold text-accent-foreground">
-                  Overall score: {displayScore(score)}
-                </p>
+              {heroScore !== undefined ? (
+                <>
+                  <p className="mt-4 inline-flex rounded-md bg-accent px-2.5 py-1.5 text-[12px] font-bold text-accent-foreground">
+                    Overall score: {displayScore(heroScore)}
+                  </p>
+                  {catalogScore === undefined && padelEditorial ? (
+                    <p className="mt-2 text-[11px] leading-snug text-muted">
+                      Research score from published specs and manufacturer positioning, not a hitting test.
+                    </p>
+                  ) : null}
+                </>
               ) : (
                 <p className="mt-4 text-[11px] leading-snug text-muted">
                   These are explainable buying attributes with source type, not

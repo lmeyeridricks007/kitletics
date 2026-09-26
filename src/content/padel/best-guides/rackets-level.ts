@@ -145,7 +145,7 @@ export const padelRacketsBeginnersGuide: BestGuide = racketGuide({
         "Players who want a soft round they can replace without guilt",
       ],
       tradeoff: "Less of a named development pathway than Indiga into Ionic / Vertex.",
-      avoid: ["Advanced attackers", "Photo-blocked PR Soft 500 shoppers expecting this to be that frame"],
+      avoid: ["Advanced attackers who need finishing power this season", "Photo-blocked PR Soft 500 shoppers expecting this to be that frame"],
       instead: [
         {
           productId: "prod-bullpadel-indiga-ctr",
@@ -590,6 +590,6 @@ export const padelRacketsAdvancedGuide: BestGuide = racketGuide({
   buyingAdvice:
     "If you cannot yet choose when to finish, this page will sell you a problem. Use beginners or intermediate first. If you already live in diamonds, compare Vertex 05, Hack 04 (power guide), and Metalbone 3.5 rather than collecting every advanced badge.",
   relatedGuideIds: [...RACKET_RELATED],
-  hubImageSrc: "/images/padel/products/bullpadel-vertex-05-hero.png",
-  hubImageAlt: "Bullpadel Vertex 05 — advanced padel racket",
+  hubImageSrc: "/images/padel/products/adidas-metalbone-3-5-2026-hero.jpg",
+  hubImageAlt: "Adidas Metalbone 3.5 — advanced padel racket",
 });

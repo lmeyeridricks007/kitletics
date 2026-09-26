@@ -109,7 +109,7 @@ function makePlan(spec: RacketSpec): CompactExplainerPlan {
       paragraphs: [...u.whyParas],
     },
     factors: {
-      title: `${spec.factors.length} factors that should drive the choice`,
+      title: `Factors that should drive the choice`,
       intro:
         "Use these as connected filters for this guide’s job — not a generic equipment checklist.",
       cards: spec.factors.map((title, index) => ({
@@ -155,7 +155,7 @@ function makePlan(spec: RacketSpec): CompactExplainerPlan {
       },
     },
     examples: {
-      title: `${examples.length} approaches for this decision`,
+      title: `Approaches for this decision`,
       disclaimer:
         "These products demonstrate distinct roles rather than a ranking. Verify current specifications and availability.",
       items: examples,

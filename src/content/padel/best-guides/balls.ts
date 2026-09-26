@@ -93,7 +93,10 @@ export const padelBallsGuide: BestGuide = baseGuide({
         "I’d open this on slow courts when I want the ball through the glass.",
         "I’d skip it if Pro+ already feels plenty lively.",
       ],
-      bestFor: ["Faster match pace", "Slow/cool courts", "Competition cans"],
+      bestFor: [
+        "Players who want a faster match pace on slow or cool courts",
+        "Competition cans when the glass feels dead",
+      ],
       tradeoff: "Too lively for some beginners and control-first players.",
       avoid: ["Players who want Pro+’s longer sit"],
       instead: [
@@ -113,7 +116,10 @@ export const padelBallsGuide: BestGuide = baseGuide({
         "I’d pick Pro+ when I want the ball to sit a fraction longer than Pro S+.",
         "I’d skip it if the court is already dead slow — that is Pro S+/Speed territory.",
       ],
-      bestFor: ["Control match play", "Standard club pace"],
+      bestFor: [
+        "Players who prefer control-first match play at club pace",
+        "Standard club sessions without extra pop",
+      ],
       tradeoff: "Not the fastest HEAD can.",
       avoid: ["Players who explicitly want maximum pace"],
       instead: [
@@ -133,7 +139,10 @@ export const padelBallsGuide: BestGuide = baseGuide({
         "I’d pack Speed for cold Dutch evenings and slow glass.",
         "I’d skip it on hot outdoor courts — standard Premier or Pro+ fit better.",
       ],
-      bestFor: ["Cold climates", "Slow courts", "Low altitude speed"],
+      bestFor: [
+        "Players who need extra pop in cold climates and slow courts",
+        "Low-altitude speed when the ball dies early",
+      ],
       tradeoff: "Too lively when the court is already fast.",
       avoid: ["Heat/altitude players wanting control"],
       instead: [
@@ -153,7 +162,10 @@ export const padelBallsGuide: BestGuide = baseGuide({
         "I’d open PB Speed when HEAD Pro S+ is overkill on price.",
         "I’d skip it in heat/altitude — that is PB Control’s job.",
       ],
-      bestFor: ["Value competition", "Cool Dutch evenings"],
+      bestFor: [
+        "Players who want value competition pace on cool Dutch evenings",
+        "Budget FIP fast cans versus flagship HEAD pricing",
+      ],
       tradeoff: "Not the control can for heat/altitude.",
       avoid: ["Players who need published control sibling today"],
       instead: [
@@ -172,7 +184,10 @@ export const padelBallsGuide: BestGuide = baseGuide({
         "I’d buy Team by the crate for coaching.",
         "I’d skip it for match day — open Pro+/Pro S+ or Premier instead.",
       ],
-      bestFor: ["Training volume", "Coaching crates"],
+      bestFor: [
+        "Players who need training-volume cans for coaching crates",
+        "High-volume practice without match-can spend",
+      ],
       tradeoff: "Not a tournament flagship.",
       avoid: ["Match-night shoppers"],
       instead: [
@@ -299,6 +314,6 @@ export const padelBallsGuide: BestGuide = baseGuide({
     "best-padel-bags",
     "best-padel-overgrips",
   ],
-  hubImageSrc: "/images/padel/products/head-padel-pro-plus-hero.jpg",
-  hubImageAlt: "HEAD Pro+ padel balls tube",
+  hubImageSrc: "/images/padel/products/head-padel-pro-s-hero.jpg",
+  hubImageAlt: "HEAD Padel Pro S+ — faster match ball can",
 });

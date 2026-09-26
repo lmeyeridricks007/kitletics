@@ -134,4 +134,33 @@ describe("Padel media identity gate", () => {
     const b = getProductBySlug("4on-swiftgrip", DEV)!;
     expect(classifySharedHeroReuse(a, b)).toBe("INVALID");
   });
+
+  it("filename-strong gallery with opaque Shopify CDN sourceUrl stays verified", () => {
+    const p = getProductBySlug("kuikma-pr-comfort-soft", DEV)!;
+    expect(p).toBeTruthy();
+    const identity = evaluatePadelHeroIdentity(
+      p,
+      {
+        src: "/images/padel/products/kuikma-pr-comfort-soft/gallery/kuikma-pr-comfort-soft-angle.jpg",
+        sourceUrl:
+          "https://en.decathlon.com.sa/cdn/shop/files/pic_34ab91ee-5ec8-48fc-adff-f9d7b554eb92.jpg",
+        licence: "manufacturer-marketing",
+        attribution: "test",
+      },
+      { brandSlug: brands[p.brandId]?.slug },
+    );
+    expect(identity.verified, identity.reasons.join(",")).toBe(true);
+  });
+
+  it("Joma T.Slam white-royal colorway is not mistaken for Royal Padel", () => {
+    const p = getProductBySlug("joma-t-slam", DEV)!;
+    expect(p).toBeTruthy();
+    const media = registered(p.id, p.fullName);
+    expect(media?.src).toContain("joma-t-slam");
+    const identity = evaluatePadelHeroIdentity(p, media, {
+      brandSlug: brands[p.brandId]?.slug,
+    });
+    expect(identity.verified, identity.reasons.join(",")).toBe(true);
+    expect(getProductBySlug("joma-t-slam", PROD)?.status).toBe("published");
+  });
 });

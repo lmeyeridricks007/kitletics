@@ -176,6 +176,15 @@
 }
 
 /* ─── Base ──────────────────────────────────────────────────── */
+/* Deterministic font tokens (no Google Fonts fetch at build). Prefer
+   DM Sans / Outfit when installed; otherwise system UI sans. */
+.font-kitletics {
+  --font-body: "DM Sans", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --font-display: "Outfit", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
 html {
   scroll-behavior: smooth;
 }

@@ -1301,13 +1301,15 @@ export const PADEL_SECONDARY_PRODUCT_MEDIA: Record<
   "prod-bullpadel-frame-protector-uni": {
     productId: "prod-bullpadel-frame-protector-uni",
     src: "/images/padel/accessories/bullpadel-frame-protector-uni-hero.jpg",
-    sourceUrl: "https://www.padelmq.com/products/bullpadel-frame-guard-transparant-3-stuks?_pos=1&_psq=bullpadel+Frame+Protector+Uni&_psid=e92e20b70&_ss=e",
-    source: "padelmq-suggest · bullpadel Frame Protector Uni",
+    sourceUrl:
+      "https://www.padelnuestro.com/protector-bullpadel-frame-uni-820-494320-smu",
+    source:
+      "Pādel Nuestro CDN — Bullpadel Frame Protector Uni (single / Frame Protector TR packshot, EAN 8445402973828)",
     licence: "retailer-authorized",
     attribution: "© Brand — official / authorized product photography",
-    width: 800,
-    height: 800,
-    retrievedAt: "2026-09-13",
+    width: 1200,
+    height: 1200,
+    retrievedAt: "2026-09-24",
   },
   "prod-enebe-enebe-protector-line": {
     productId: "prod-enebe-enebe-protector-line",
@@ -1909,8 +1911,9 @@ export const PADEL_SECONDARY_PRODUCT_MEDIA: Record<
   "prod-joma-t-slam": {
     productId: "prod-joma-t-slam",
     src: "/images/padel/products/joma-t-slam-hero.jpg",
-    sourceUrl: "https://www.zonadepadel.es/",
-    source: "Zona de Padel — Joma T.Slam padel shoe packshot (local verified)",
+    sourceUrl:
+      "https://www.zonadepadel.es/31898-large_default/zapatillas-joma-slam-men-2602-white-royal-2026.jpg",
+    source: "Zona de Padel — Joma Slam Men 2602 white/royal packshot",
     licence: "retailer-authorized",
     attribution: "© Brand — official / authorized product photography",
     width: 1200,

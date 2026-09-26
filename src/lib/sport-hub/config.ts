@@ -149,9 +149,10 @@ export const padelSportHubConfig: SportHubConfig = {
     "how-to-choose-a-padel-racket": "/images/padel/guides/choose-racket.jpg",
     "how-to-choose-padel-shoes": "/images/padel/guides/choose-shoes.jpg",
     "padel-grips-overgrips-explained": "/images/padel/guides/grips.jpg",
-    "padel-racket-shapes-explained": "/images/padel/guides/choose-racket.jpg",
+    "padel-racket-shapes-explained":
+      "/images/padel/products/bullpadel-vertex-05-hybrid-hero.jpg",
     "round-vs-teardrop-vs-diamond-padel-rackets":
-      "/images/padel/guides/choose-racket.jpg",
+      "/images/padel/products/bullpadel-hack-04-hero.png",
   },
   moreBestSections: [
     {

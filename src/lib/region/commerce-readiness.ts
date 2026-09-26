@@ -73,4 +73,4 @@ export function allRegionsWithCommerceHints(): {
 
 /** Neutral empty-state copy when the active region has no Offer rows. */
 export const NO_REGIONAL_OFFERS_MESSAGE =
-  "No verified retailer offers currently available in your region.";
+  "No verified Netherlands-shipping retailer is currently available.";

@@ -66,32 +66,30 @@ function specLine(draft: RacketDraft): string {
   return bits.join(", ");
 }
 
-function expandBuy(lines: string[], fallback: string, kind: "buy" | "skip"): string[] {
-  const raw = [...lines.map((l) => l.trim()).filter(Boolean)];
-  if (raw.length === 0) raw.push(fallback);
-  const out = raw.map((line) => {
-    if (kind === "buy") {
-      if (/^(you want|you need|you(?:'re| are) looking|i(?:'d| would) (?:shortlist|pause|rotate))/i.test(line)) {
-        return line;
-      }
-      return `I'd shortlist it when ${line.charAt(0).toLowerCase()}${line.slice(1)}`.replace(
-        /\.\.$/,
-        ".",
-      );
-    }
-    if (/^(you need|you want|i(?:'d| would) (?:skip|pause|rotate))/i.test(line)) {
-      return line;
-    }
-    return `I'd skip it if ${line.charAt(0).toLowerCase()}${line.slice(1)}`;
-  });
-  while (out.length < 3) {
-    out.push(
-      kind === "buy"
-        ? `I'd shortlist it when that job shows up most weeks — not as a one-racket closet filler.`
-        : `I'd skip it if you cannot name the weekly session this mould has to win.`,
-    );
-  }
-  return out.slice(0, 4);
+function decisionLines(lines: string[], kind: "buy" | "skip"): string[] {
+  return lines
+    .map((line) => line.trim())
+    .filter(Boolean)
+    .map((line) => {
+      const bare = line.replace(/\.$/, "");
+      if (/^i(?:'d| would)\b/i.test(bare)) return `${bare}.`;
+      const rest = bare.replace(/^you\s+/i, "you ");
+      const sentence = `${rest.charAt(0).toLowerCase()}${rest.slice(1)}`;
+      return kind === "buy"
+        ? `I'd shortlist it when ${sentence}.`
+        : `I'd skip it if ${sentence}.`;
+    });
+}
+
+function bullets(lines: string[] | undefined): string {
+  return (lines ?? []).map((line) => line.trim()).filter(Boolean).map((line) => `• ${line}`).join("\n");
+}
+
+function parts(...chunks: Array<string | undefined | null | false>): string {
+  return chunks
+    .map((chunk) => (typeof chunk === "string" ? chunk.trim() : ""))
+    .filter(Boolean)
+    .join("\n\n");
 }
 
 const COMPARISON_BLURBS: Record<string, string> = {
@@ -127,152 +125,80 @@ export function racketReviewFromDraft(input: {
   const copy = draft.copy;
   const evidenceIds = [`ev-${draft.id}-mfr`, `ev-${draft.id}-editorial`];
   const geometry = specLine(draft);
+  const weight =
+    draft.specifications.weightMin != null && draft.specifications.weightMax != null
+      ? `${draft.specifications.weightMin}–${draft.specifications.weightMax} g`
+      : draft.specifications.weightMin != null
+        ? `${draft.specifications.weightMin} g`
+        : undefined;
+  const shape = draft.specifications.shape ? String(draft.specifications.shape) : undefined;
+  const balance = draft.specifications.balance ? String(draft.specifications.balance) : undefined;
   const attr = (key: PadelDecisionKey) => draft.attributes[key];
+  const peers = peerNames(draft.alternativeProductIds ?? []);
+  const comparisonBlurbs = (input.comparisonIds ?? [])
+    .map((id) => COMPARISON_BLURBS[id])
+    .filter(Boolean);
 
   const bodies: Record<string, string> = {
-    "sec-overview": [
-      copy.whatItIs,
-      draft.verdict,
-      copy.whoItsFor,
-      `Bottom line: ${draft.verdict}`,
-    ].join("\n\n"),
-    "sec-usecase": [
-      copy.whoItsFor,
-      copy.bestFor.map((b) => `• ${b}`).join("\n"),
-      copy.howItPlays,
-      `I'd buy this mould when that week is already true — not because the name is on a poster.`,
-    ].join("\n\n"),
-    "sec-tradeoffs": [
-      copy.skipIf.join("\n\n"),
-      copy.notIdealFor.map((b) => `• ${b}`).join("\n"),
-      draft.weaknesses.map((w) => `• ${w}`).join("\n"),
-      `I'd rather switch families than force the ${draft.name} into a beginner round job or a pure smash job it is not.`,
-    ].join("\n\n"),
-    "sec-construction": [
-      copy.construction,
-      geometry ? `Published stack: ${geometry}.` : "",
-      `Those names are manufacturer systems. They help you tell Vertex from Hack, Genius from Attack, Metalbone from Cross It. They are not a Kitletics lab list.`,
-    ]
-      .filter(Boolean)
-      .join("\n\n"),
-    "sec-shape": [
-      geometry
-        ? `Shape and balance: ${geometry}.`
-        : `Confirm shape and balance against what you play now.`,
+    "sec-overview": parts(copy.whatItIs, draft.verdict),
+    "sec-usecase": parts(copy.whoItsFor, copy.howItPlays),
+    "sec-tradeoffs": parts(bullets(copy.notIdealFor)),
+    "sec-construction": copy.construction,
+    "sec-shape": parts(
+      geometry ? `${draft.name}: ${geometry}.` : undefined,
       copy.handling,
-      copy.powerVsControl,
-      `Diamond usually means a higher hitting zone and a later swing tax. Round or hybrid usually means more usable face when you are defending. Teardrop sits between those jobs.`,
-    ].join("\n\n"),
-    "sec-power": [
-      copy.powerVsControl,
-      attr("power").reasoning,
-      `Power here is inferred from shape, face, core and weight — not a smash-speed test. If finishing is the whole identity, compare the dedicated attack sibling in the same brand.`,
-    ].join("\n\n"),
-    "sec-control": [
-      copy.powerVsControl,
-      attr("control").reasoning,
-      `Control on padel is placement off the glass, bandeja height and whether you can keep the ball on your terms at the net. A stiff flagship can still 'control' if you already time it; it will not teach timing.`,
-    ].join("\n\n"),
-    "sec-sweetspot": [
-      copy.forgiveness,
-      attr("forgiveness").reasoning,
-      `If you need a large, low, soft face, look at Indiga, Comfort Soft, Equation Soft or an ML10-class round — not a professional diamond unless this model is that job.`,
-    ].join("\n\n"),
-    "sec-maneuverability": [
-      copy.handling,
-      attr("maneuverability").reasoning,
-      `Maneuverability on padel is reaction volleys and getting the face on a fast glass ball. A 365 g diamond can still feel late if the balance is high.`,
-    ].join("\n\n"),
-    "sec-comfort": [
-      copy.comfort,
-      attr("comfort").reasoning,
-      `If elbow or shoulder already complains after hard weeks, start with a comfort / round option and a sensible overgrip. Do not buy a stiff 12K diamond to 'get used to it.'`,
-    ].join("\n\n"),
-    "sec-spin": [
+    ),
+    "sec-power": attr("power").reasoning,
+    "sec-control": attr("control").reasoning,
+    "sec-sweetspot": parts(copy.forgiveness, attr("forgiveness").reasoning),
+    "sec-maneuverability": attr("maneuverability").reasoning,
+    "sec-comfort": parts(copy.comfort, attr("comfort").reasoning),
+    "sec-spin": parts(
       draft.specifications.surfaceTexture
         ? `Published face texture: ${String(draft.specifications.surfaceTexture)}.`
-        : copy.construction,
+        : undefined,
       attr("spin").reasoning,
-      `Rough grain helps slice and bandeja bite when the swing is already clean. It will not create spin on a flat amateur contact.`,
-    ].join("\n\n"),
-    "sec-defense": [
-      copy.howItPlays,
-      copy.forgiveness,
-      String(draft.specifications.shape) === "diamond"
-        ? `A diamond attacker is usually the wrong first pick if you live two metres behind the glass. Look at the round or hybrid sibling in this family.`
-        : `This mould is the more usable defensive shape in its family. I'd still check the published weight — a heavy hybrid is not an Indiga.`,
-      `Defence is getting the ball back with height and time. If that is most of your points, buy forgiveness before smash rating.`,
-    ].join("\n\n"),
-    "sec-net": [
-      copy.handling,
-      copy.howItPlays,
-      `Net play is volley preparation, block returns and the first finishing window. High-balance diamonds can feel late unless you already sit on the line.`,
-      `I'd demo a few games at the net if you can — catalog weight will not tell you whether the head comes around on a fast body volley.`,
-    ].join("\n\n"),
-    "sec-attack": [
-      copy.powerVsControl,
-      attr("power").reasoning,
-      String(draft.specifications.shape) === "diamond"
-        ? `This is the attacking shape in the family. I'd still match it to a player who already finishes — a diamond does not teach the smash.`
-        : `If smashes are the whole identity, compare the diamond attacker in this brand. This mould is the more all-court or control sibling.`,
-      `Attacking play is also the bandeja and víbora, not only the match-ball smash. Read the manufacturer style line before you buy a power sticker.`,
-    ].join("\n\n"),
-    "sec-serve": [
-      `Serve and return follow the same geometry as the rest of the court: ${geometry || "published shape, balance and weight"}.`,
-      copy.handling,
-      `A high-balance diamond can help a heavy serve if you already throw the ball up and hit up. It will punish a short toss. Returns want a usable face — another reason beginners should not start on a professional diamond unless this model is the comfort/round exception.`,
-      `This page does not log Kitletics serve speeds.`,
-    ].join("\n\n"),
-    "sec-strengths": [
-      draft.strengths.map((s) => `• ${s}`).join("\n"),
-      copy.bestFor.map((b) => `• ${b}`).join("\n"),
-      `If none of those jobs show up most weeks, a cheaper or more forgiving peer will feel like a better buy even when this is the flagship name.`,
-    ].join("\n\n"),
-    "sec-weaknesses": [
-      draft.weaknesses.map((w) => `• ${w}`).join("\n"),
-      copy.notIdealFor.map((b) => `• ${b}`).join("\n"),
-      `I'd rather switch families than pretend the ${draft.name} covers a beginner round job and a pure smash job at once.`,
-    ].join("\n\n"),
-    "sec-best-for": [
-      copy.bestFor.map((b) => `• ${b}`).join("\n"),
-      copy.whoItsFor,
-    ].join("\n\n"),
-    "sec-not-ideal": [
-      copy.notIdealFor.map((b) => `• ${b}`).join("\n"),
-      copy.skipIf.join("\n\n"),
-    ].join("\n\n"),
-    "sec-alternatives": [
-      peerNames(draft.alternativeProductIds ?? []).length
-        ? peerNames(draft.alternativeProductIds ?? [])
-            .map((n) => `• ${n}`)
-            .join("\n")
-        : `• A more forgiving round or hybrid in this brand\n• A dedicated attacker if finishing is the whole identity`,
-      `I'd buy a linked peer when the weekly session is already a different job — not because a sale made this flagship look cheap.`,
-    ].join("\n\n"),
-    "sec-comparisons": [
-      (input.comparisonIds ?? [])
-        .map((id) => COMPARISON_BLURBS[id])
+    ),
+    "sec-defense": shape
+      ? `On the ${draft.name} (${[shape, balance, weight].filter(Boolean).join(", ")}), defensive usefulness follows that published outline — late glass contact is harder on tip-heavy diamonds than on centred rounds.`
+      : copy.forgiveness,
+    "sec-net": attr("stability").reasoning,
+    "sec-attack": copy.powerVsControl,
+    "sec-serve": (() => {
+      const setup = [
+        shape && `${shape} shape`,
+        balance && `${balance} balance`,
+        weight,
+      ]
         .filter(Boolean)
-        .join("\n\n") ||
-        `There is no dedicated comparison page attached to this review yet. Read the alternatives and the peer product pages rather than inventing a universal winner.`,
-      `Previous-gen Vertex 04, Hack 03 and Metalbone 3.3 stay labelled as previous generation when they appear as shopper context — they are not current peers.`,
-    ].join("\n\n"),
-    "sec-verified-specs": [
+        .join(", ");
+      return setup
+        ? `Serve and return on the ${draft.name} follow the published ${setup}. This review does not log serve speeds.`
+        : `This review does not log serve speeds for the ${draft.name}.`;
+    })(),
+    "sec-strengths": bullets(draft.strengths),
+    "sec-weaknesses": bullets(draft.weaknesses),
+    "sec-best-for": parts(bullets(copy.bestFor), copy.buyIf.join("\n\n")),
+    "sec-not-ideal": copy.skipIf.join("\n\n"),
+    "sec-alternatives": peers.length
+      ? peers.map((name) => `• ${name}`).join("\n")
+      : `No catalog alternative is linked on this model yet.`,
+    "sec-comparisons": comparisonBlurbs.length
+      ? comparisonBlurbs.join("\n\n")
+      : `No comparison page is attached. Use the linked alternatives rather than a made-up winner.`,
+    "sec-verified-specs": parts(
       `Published numbers for the ${draft.fullName}:`,
       [
-        draft.specifications.shape && `• Shape: ${draft.specifications.shape}`,
-        draft.specifications.balance && `• Balance: ${draft.specifications.balance}`,
-        draft.specifications.weightMin != null &&
-          `• Weight: ${draft.specifications.weightMin}${
-            draft.specifications.weightMax != null
-              ? `–${draft.specifications.weightMax}`
-              : ""
-          } g`,
+        shape && `• Shape: ${shape}`,
+        balance && `• Balance: ${balance}`,
+        weight && `• Weight: ${weight}`,
         draft.specifications.thicknessMm != null &&
           `• Thickness: ${draft.specifications.thicknessMm} mm`,
         draft.specifications.face && `• Face: ${draft.specifications.face}`,
         (draft.specifications.manufacturerCoreName || draft.specifications.core) &&
           `• Core: ${draft.specifications.manufacturerCoreName ?? draft.specifications.core}`,
+        draft.specifications.frameMaterial &&
+          `• Frame: ${draft.specifications.frameMaterial}`,
         draft.specifications.feel && `• Feel: ${draft.specifications.feel}`,
         draft.specifications.sweetSpot &&
           `• Sweet spot: ${draft.specifications.sweetSpot}`,
@@ -281,21 +207,13 @@ export function racketReviewFromDraft(input: {
       ]
         .filter(Boolean)
         .join("\n"),
-      `Weight, balance, shape, core and face are filters. They will not tell you whether you time a diamond after two hours. Demo when you can, or buy somewhere returns are easy.`,
-    ].join("\n\n"),
-    "sec-value": [
-      `You are paying for the current ${draft.name} job — not last year's paint and not a beginner round unless that is this model.`,
-      copy.skipIf[0],
-      `Check live street price in the offers module. I'd pay flagship money when the mould matches your week; otherwise compare the linked alternatives.`,
-    ].join("\n\n"),
-    "sec-methodology": [
+    ),
+    "sec-value": `Check the live offers for the ${draft.name}. ${copy.skipIf[0] ?? draft.verdict}`,
+    "sec-methodology": parts(
       EXPERT_RESEARCH_METHODOLOGY,
-      `Manufacturer marketing alone is not treated as comfort, durability or on-court proof. Scores are decision aids, not a lab measurement.`,
-    ].join("\n\n"),
-    "sec-sources": [
-      `Primary listing for this model: ${draft.sourceName}. ${draft.sourceUrl}`,
-      `Independent hitting notes from other sites are not copied as if they were ours. If a claim is only marketing, the copy says so.`,
-    ].join("\n\n"),
+      `Scores are decision aids from published specs and manufacturer positioning. They are not a Kitletics hitting test.`,
+    ),
+    "sec-sources": `Primary listing: ${draft.sourceName}. ${draft.sourceUrl}`,
   };
 
   const sections = PADEL_RACKET_BLUEPRINT.map((slot) =>
@@ -349,12 +267,8 @@ export function racketReviewFromDraft(input: {
     sections,
     pros: draft.strengths.slice(0, 5),
     cons: draft.weaknesses.slice(0, 4),
-    whoShouldBuy: expandBuy(copy.buyIf, copy.whoItsFor, "buy"),
-    whoShouldAvoid: expandBuy(
-      copy.skipIf,
-      copy.notIdealFor[0] ?? draft.weaknesses[0] ?? "",
-      "skip",
-    ),
+    whoShouldBuy: decisionLines(copy.buyIf, "buy"),
+    whoShouldAvoid: decisionLines(copy.skipIf, "skip"),
     scoreBreakdown: scores,
     evidenceIds,
     alternativeProductIds: draft.alternativeProductIds ?? [],

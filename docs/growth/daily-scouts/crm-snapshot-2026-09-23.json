@@ -1,0 +1,923 @@
+{
+  "extractedAt": "2026-09-23T09:03:00+02:00",
+  "source": "/Users/LMeyeridricks/Documents/coding/kitletics/data/growth/backlinks/workspace.json",
+  "workspaceUpdatedAt_field": "2026-09-13T11:10:21.824Z",
+  "file_mtime_local": "2026-09-22T14:27:25+02:00",
+  "counts": {
+    "opportunities_total": 107,
+    "contacted_like_opps": 56,
+    "unique_contact_keys_hold": 46,
+    "outreachStatus_contacted": 53,
+    "actionStatus_CONTACTED": 48,
+    "actionStatus_RESPONDED_SOFT": 2,
+    "actionStatus_RESPONDED": 1
+  },
+  "batch_verification": {
+    "sep22_all_CONTACTED_followup_2026-09-29": true,
+    "sep21_all_CONTACTED_followup_2026-09-28": true,
+    "hardlopen_RESPONDED_SOFT_dec": true,
+    "sep20_none_marked_contacted": true,
+    "details": {
+      "sep22": {
+        "https://www.irunfar.com/contact/": {
+          "actionStatuses": [
+            "CONTACTED"
+          ],
+          "nextFollowUpAt": "2026-09-29T08:00:00+02:00"
+        },
+        "support@strengthrunning.com": {
+          "actionStatuses": [
+            "CONTACTED"
+          ],
+          "nextFollowUpAt": "2026-09-29T08:00:00+02:00"
+        },
+        "hello@therunningchannel.com": {
+          "actionStatuses": [
+            "CONTACTED"
+          ],
+          "nextFollowUpAt": "2026-09-29T08:00:00+02:00"
+        },
+        "redakcja@bieganie.pl": {
+          "actionStatuses": [
+            "CONTACTED"
+          ],
+          "nextFollowUpAt": "2026-09-29T08:00:00+02:00"
+        },
+        "redaktion@laufzeit.de": {
+          "actionStatuses": [
+            "CONTACTED"
+          ],
+          "nextFollowUpAt": "2026-09-29T08:00:00+02:00"
+        },
+        "info@selectmedialtd.com": {
+          "actionStatuses": [
+            "CONTACTED"
+          ],
+          "nextFollowUpAt": "2026-09-29T08:00:00+02:00"
+        },
+        "mike@qbfagency.co.za": {
+          "actionStatuses": [
+            "CONTACTED"
+          ],
+          "nextFollowUpAt": "2026-09-29T08:00:00+02:00"
+        }
+      },
+      "sep21": {
+        "https://www.switchbacktravel.com/contact": {
+          "actionStatuses": [
+            "CONTACTED"
+          ],
+          "nextFollowUpAt": "2026-09-28T08:00:00+02:00"
+        },
+        "editor@marathonhandbook.com": {
+          "actionStatuses": [
+            "CONTACTED"
+          ],
+          "nextFollowUpAt": "2026-09-28T08:00:00+02:00"
+        },
+        "letters@triathlete.com": {
+          "actionStatuses": [
+            "CONTACTED"
+          ],
+          "nextFollowUpAt": "2026-09-28T08:00:00+02:00"
+        },
+        "runners@hearst.es": {
+          "actionStatuses": [
+            "CONTACTED"
+          ],
+          "nextFollowUpAt": "2026-09-28T08:00:00+02:00"
+        },
+        "redazione_runners-world@hearst.it": {
+          "actionStatuses": [
+            "CONTACTED"
+          ],
+          "nextFollowUpAt": "2026-09-28T08:00:00+02:00"
+        },
+        "info@hardloopnetwerk.nl": {
+          "actionStatuses": [
+            "CONTACTED"
+          ],
+          "nextFollowUpAt": "2026-09-28T08:00:00+02:00"
+        },
+        "kate@trailrunmag.com": {
+          "actionStatuses": [
+            "CONTACTED"
+          ],
+          "nextFollowUpAt": "2026-09-28T08:00:00+02:00"
+        }
+      },
+      "sep17": {
+        "info@hardlopendnederland.nl": {
+          "actionStatuses": [
+            "CONTACTED"
+          ],
+          "nextFollowUpAt": "2026-09-23T08:00:00+02:00"
+        },
+        "redactie@runners.nl": {
+          "actionStatuses": [
+            "CONTACTED"
+          ],
+          "nextFollowUpAt": "2026-09-23T08:00:00+02:00"
+        },
+        "redactie@prorun.nl": {
+          "actionStatuses": [
+            "CONTACTED"
+          ],
+          "nextFollowUpAt": "2026-09-23T08:00:00+02:00"
+        },
+        "https://running.nl/contact/": {
+          "actionStatuses": [
+            "CONTACTED"
+          ],
+          "nextFollowUpAt": "2026-09-23T08:00:00+02:00"
+        },
+        "gearpitch@outsideinc.com": {
+          "actionStatuses": [
+            "CONTACTED"
+          ],
+          "nextFollowUpAt": "2026-09-23T08:00:00+02:00"
+        }
+      },
+      "sep20": {
+        "editorial@womensrunning.com": null,
+        "https://believeintherun.com/contact/": null,
+        "editorial@runnersworld.co.uk": null,
+        "redaktion@laufen.de": null,
+        "info@distances.plus": null,
+        "info@runnersworld.se": null,
+        "sara@runnersworld.no": null
+      },
+      "hardlopen": {
+        "actionStatuses": [
+          "RESPONDED_SOFT"
+        ],
+        "nextFollowUpAt": "2026-12-15T09:00:00+01:00"
+      }
+    }
+  },
+  "contacted_keys": [
+    {
+      "contact_key": "https://www.reddit.com/r/AdvancedRunning/comments/1waewdl/tuesday_shoesday/",
+      "actionStatuses": [
+        "NOT_ACTIONABLE"
+      ],
+      "outreachStatuses": [
+        "contacted"
+      ],
+      "opp_ids": [
+        "opp-forum-advanced-shoesday-clifton"
+      ],
+      "domains": [
+        "reddit.com"
+      ],
+      "nextFollowUpAt": null,
+      "lastContactedAt": "2026-09-13T11:09:45.852Z"
+    },
+    {
+      "contact_key": "https://www.reddit.com/r/RunningShoeGeeks/comments/1weejd4/asics_gt2000_15_review/",
+      "actionStatuses": [
+        "NOT_ACTIONABLE"
+      ],
+      "outreachStatuses": [
+        "contacted"
+      ],
+      "opp_ids": [
+        "opp-forum-rsg-gt2000-15"
+      ],
+      "domains": [
+        "reddit.com"
+      ],
+      "nextFollowUpAt": null,
+      "lastContactedAt": "2026-09-13T11:09:45.852Z"
+    },
+    {
+      "contact_key": "https://www.reddit.com/r/running/comments/1waeweg/tuesday_shoesday/",
+      "actionStatuses": [
+        "NOT_ACTIONABLE"
+      ],
+      "outreachStatuses": [
+        "contacted"
+      ],
+      "opp_ids": [
+        "opp-forum-running-shoesday-novablast-arch"
+      ],
+      "domains": [
+        "reddit.com"
+      ],
+      "nextFollowUpAt": null,
+      "lastContactedAt": "2026-09-13T11:09:45.852Z"
+    },
+    {
+      "contact_key": "https://www.reddit.com/r/trailrunning/comments/1wdj291/la_sportiva_shoe_question_padding_vs_no_padding/",
+      "actionStatuses": [
+        "NOT_ACTIONABLE"
+      ],
+      "outreachStatuses": [
+        "contacted"
+      ],
+      "opp_ids": [
+        "opp-forum-trail-lasportiva-padding"
+      ],
+      "domains": [
+        "reddit.com"
+      ],
+      "nextFollowUpAt": null,
+      "lastContactedAt": "2026-09-13T11:09:45.852Z"
+    },
+    {
+      "contact_key": "https://www.reddit.com/r/trailrunning/comments/1wf1nmo/mafate_5_vs_speedgoat_7_vs_zegama_2_looking_for_a/",
+      "actionStatuses": [
+        "NOT_ACTIONABLE"
+      ],
+      "outreachStatuses": [
+        "contacted"
+      ],
+      "opp_ids": [
+        "opp-forum-trail-mafate-speedgoat-zegama"
+      ],
+      "domains": [
+        "reddit.com"
+      ],
+      "nextFollowUpAt": null,
+      "lastContactedAt": "2026-09-13T11:09:45.852Z"
+    },
+    {
+      "contact_key": "contact@fellrnr.com",
+      "actionStatuses": [
+        "CONTACTED"
+      ],
+      "outreachStatuses": [
+        "contacted"
+      ],
+      "opp_ids": [
+        "opp-fellrnr-table"
+      ],
+      "domains": [
+        "fellrnr.com"
+      ],
+      "nextFollowUpAt": "2026-09-19T11:06:22.000Z",
+      "lastContactedAt": "2026-09-13T11:06:22.829Z"
+    },
+    {
+      "contact_key": "laura@lauranorrisrunning.com",
+      "actionStatuses": [
+        "CONTACTED"
+      ],
+      "outreachStatuses": [
+        "contacted"
+      ],
+      "opp_ids": [
+        "opp-laura-norris-rotation"
+      ],
+      "domains": [
+        "lauranorrisrunning.com"
+      ],
+      "nextFollowUpAt": "2026-09-19T11:06:22.000Z",
+      "lastContactedAt": "2026-09-13T11:06:22.829Z"
+    },
+    {
+      "contact_key": "bas@prorun.nl",
+      "actionStatuses": [
+        "CONTACTED"
+      ],
+      "outreachStatuses": [
+        "contacted"
+      ],
+      "opp_ids": [
+        "opp-prorun-bas"
+      ],
+      "domains": [
+        "prorun.nl"
+      ],
+      "nextFollowUpAt": "2026-09-23T08:00:00+02:00",
+      "lastContactedAt": "2026-09-17T12:00:00+02:00"
+    },
+    {
+      "contact_key": "gearpitch@outsideinc.com",
+      "actionStatuses": [
+        "CONTACTED"
+      ],
+      "outreachStatuses": [
+        "contacted"
+      ],
+      "opp_ids": [
+        "opp-outside-gear-pitch-2026-09-17"
+      ],
+      "domains": [],
+      "nextFollowUpAt": "2026-09-23T08:00:00+02:00",
+      "lastContactedAt": "2026-09-17T12:00:00+02:00"
+    },
+    {
+      "contact_key": "https://running.nl/contact/",
+      "actionStatuses": [
+        "CONTACTED"
+      ],
+      "outreachStatuses": [
+        "contacted"
+      ],
+      "opp_ids": [
+        "opp-running-nl-ideale-maatje-2026-09-17"
+      ],
+      "domains": [],
+      "nextFollowUpAt": "2026-09-23T08:00:00+02:00",
+      "lastContactedAt": "2026-09-17T12:00:00+02:00"
+    },
+    {
+      "contact_key": "https://www.alexhutchinson.net/contact",
+      "actionStatuses": [
+        "CONTACTED"
+      ],
+      "outreachStatuses": [
+        "contacted"
+      ],
+      "opp_ids": [
+        "opp-sweat-science"
+      ],
+      "domains": [
+        "sweatscience.substack.com"
+      ],
+      "nextFollowUpAt": "2026-09-23T08:00:00+02:00",
+      "lastContactedAt": "2026-09-17"
+    },
+    {
+      "contact_key": "info@hardlopendnederland.nl",
+      "actionStatuses": [
+        "CONTACTED"
+      ],
+      "outreachStatuses": [
+        "contacted"
+      ],
+      "opp_ids": [
+        "opp-hardlopendnederland-beste-2026-09-17"
+      ],
+      "domains": [],
+      "nextFollowUpAt": "2026-09-23T08:00:00+02:00",
+      "lastContactedAt": "2026-09-17T12:00:00+02:00"
+    },
+    {
+      "contact_key": "redactie@prorun.nl",
+      "actionStatuses": [
+        "CONTACTED"
+      ],
+      "outreachStatuses": [
+        "contacted"
+      ],
+      "opp_ids": [
+        "opp-prorun-kies",
+        "opp-prorun-advies",
+        "opp-prorun-data-schoen"
+      ],
+      "domains": [
+        "prorun.nl"
+      ],
+      "nextFollowUpAt": "2026-09-23T08:00:00+02:00",
+      "lastContactedAt": "2026-09-17T12:00:00+02:00"
+    },
+    {
+      "contact_key": "redactie@runners.nl",
+      "actionStatuses": [
+        "CONTACTED"
+      ],
+      "outreachStatuses": [
+        "contacted"
+      ],
+      "opp_ids": [
+        "opp-runners-nl-drop",
+        "opp-runners-nl-faq",
+        "opp-runners-nl-marathon",
+        "opp-runners-nl-ideale-schoen"
+      ],
+      "domains": [
+        "runners.nl"
+      ],
+      "nextFollowUpAt": "2026-09-23T08:00:00+02:00",
+      "lastContactedAt": "2026-09-17T12:00:00+02:00"
+    },
+    {
+      "contact_key": "info@actionfitness.nl",
+      "actionStatuses": [
+        "CONTACTED"
+      ],
+      "outreachStatuses": [
+        "contacted"
+      ],
+      "opp_ids": [
+        "opp-actionfitness-beste-2026-09-18"
+      ],
+      "domains": [
+        "fellrnr.com"
+      ],
+      "nextFollowUpAt": "2026-09-24T08:00:00+02:00",
+      "lastContactedAt": "2026-09-18T10:00:00+02:00"
+    },
+    {
+      "contact_key": "info@hardlooptrainers.nl",
+      "actionStatuses": [
+        "RESPONDED"
+      ],
+      "outreachStatuses": [
+        "responded"
+      ],
+      "opp_ids": [
+        "opp-hardlooptrainers-tip-2026-09-18"
+      ],
+      "domains": [
+        "fellrnr.com"
+      ],
+      "nextFollowUpAt": "2026-09-24T08:00:00+02:00",
+      "lastContactedAt": "2026-09-18T10:16:00+02:00"
+    },
+    {
+      "contact_key": "info@sportzorg.nl",
+      "actionStatuses": [
+        "CONTACTED"
+      ],
+      "outreachStatuses": [
+        "contacted"
+      ],
+      "opp_ids": [
+        "opp-sportzorg-schoenen-2026-09-18"
+      ],
+      "domains": [
+        "fellrnr.com"
+      ],
+      "nextFollowUpAt": "2026-09-24T08:00:00+02:00",
+      "lastContactedAt": "2026-09-18T10:00:00+02:00"
+    },
+    {
+      "contact_key": "doctorsofrunning@gmail.com",
+      "actionStatuses": [
+        "CONTACTED"
+      ],
+      "outreachStatuses": [
+        "contacted"
+      ],
+      "opp_ids": [
+        "opp-dor-resources"
+      ],
+      "domains": [
+        "doctorsofrunning.com"
+      ],
+      "nextFollowUpAt": "2026-09-25T08:00:00+02:00",
+      "lastContactedAt": "2026-09-18T18:00:00+02:00"
+    },
+    {
+      "contact_key": "info@runningmagazine.ca",
+      "actionStatuses": [
+        "CONTACTED"
+      ],
+      "outreachStatuses": [
+        "contacted"
+      ],
+      "opp_ids": [
+        "opp-canadian-running-drop"
+      ],
+      "domains": [
+        "runningmagazine.ca"
+      ],
+      "nextFollowUpAt": "2026-09-25T08:00:00+02:00",
+      "lastContactedAt": "2026-09-18T18:00:00+02:00"
+    },
+    {
+      "contact_key": "officemanager@athleticsweekly.com",
+      "actionStatuses": [
+        "CONTACTED"
+      ],
+      "outreachStatuses": [
+        "contacted"
+      ],
+      "opp_ids": [
+        "opp-athletics-weekly-choose"
+      ],
+      "domains": [
+        "athleticsweekly.com"
+      ],
+      "nextFollowUpAt": "2026-09-25T08:00:00+02:00",
+      "lastContactedAt": "2026-09-18T18:00:00+02:00"
+    },
+    {
+      "contact_key": "redactie@running.be",
+      "actionStatuses": [
+        "CONTACTED"
+      ],
+      "outreachStatuses": [
+        "contacted"
+      ],
+      "opp_ids": [
+        "opp-running-be-2026-09-18"
+      ],
+      "domains": [],
+      "nextFollowUpAt": "2026-09-25T08:00:00+02:00",
+      "lastContactedAt": "2026-09-18T18:00:00+02:00"
+    },
+    {
+      "contact_key": "redactie@trail-running.eu",
+      "actionStatuses": [
+        "CONTACTED"
+      ],
+      "outreachStatuses": [
+        "contacted"
+      ],
+      "opp_ids": [
+        "opp-trail-running-eu-2026-09-18"
+      ],
+      "domains": [],
+      "nextFollowUpAt": "2026-09-25T08:00:00+02:00",
+      "lastContactedAt": "2026-09-18T18:00:00+02:00"
+    },
+    {
+      "contact_key": "rwgear@hearst.com",
+      "actionStatuses": [
+        "CONTACTED"
+      ],
+      "outreachStatuses": [
+        "contacted"
+      ],
+      "opp_ids": [
+        "opp-rw-us-buy",
+        "opp-rw-us-best"
+      ],
+      "domains": [
+        "runnersworld.com"
+      ],
+      "nextFollowUpAt": "2026-09-25T08:00:00+02:00",
+      "lastContactedAt": "2026-09-18T18:00:00+02:00"
+    },
+    {
+      "contact_key": "usermail@runnersworld.de",
+      "actionStatuses": [
+        "CONTACTED"
+      ],
+      "outreachStatuses": [
+        "contacted"
+      ],
+      "opp_ids": [
+        "opp-rw-de-2026-09-18"
+      ],
+      "domains": [],
+      "nextFollowUpAt": "2026-09-25T08:00:00+02:00",
+      "lastContactedAt": "2026-09-18T18:00:00+02:00"
+    },
+    {
+      "contact_key": "contact@gearjunkie.com",
+      "actionStatuses": [
+        "CONTACTED"
+      ],
+      "outreachStatuses": [
+        "contacted"
+      ],
+      "opp_ids": [
+        "opp-gearjunkie-2026-09-19"
+      ],
+      "domains": [],
+      "nextFollowUpAt": "2026-09-26T08:00:00+02:00",
+      "lastContactedAt": "2026-09-19T18:40:00+02:00"
+    },
+    {
+      "contact_key": "contact@runnersworld.fr",
+      "actionStatuses": [
+        "CONTACTED"
+      ],
+      "outreachStatuses": [
+        "contacted"
+      ],
+      "opp_ids": [
+        "opp-rw-fr-2026-09-19"
+      ],
+      "domains": [],
+      "nextFollowUpAt": "2026-09-26T08:00:00+02:00",
+      "lastContactedAt": "2026-09-19T18:40:00+02:00"
+    },
+    {
+      "contact_key": "editorial@solemotive.com",
+      "actionStatuses": [
+        "CONTACTED"
+      ],
+      "outreachStatuses": [
+        "contacted"
+      ],
+      "opp_ids": [
+        "opp-sole-motive-2026-09-19"
+      ],
+      "domains": [],
+      "nextFollowUpAt": "2026-09-26T08:00:00+02:00",
+      "lastContactedAt": "2026-09-19T18:40:00+02:00"
+    },
+    {
+      "contact_key": "esther.newman@anthem.co.uk",
+      "actionStatuses": [
+        "CONTACTED"
+      ],
+      "outreachStatuses": [
+        "contacted"
+      ],
+      "opp_ids": [
+        "opp-womens-running-trail"
+      ],
+      "domains": [
+        "womensrunning.co.uk"
+      ],
+      "nextFollowUpAt": "2026-09-26T08:00:00+02:00",
+      "lastContactedAt": "2026-09-19T18:40:00+02:00"
+    },
+    {
+      "contact_key": "info@runnerstribe.com",
+      "actionStatuses": [
+        "CONTACTED"
+      ],
+      "outreachStatuses": [
+        "contacted"
+      ],
+      "opp_ids": [
+        "opp-runners-tribe-2026-09-19"
+      ],
+      "domains": [],
+      "nextFollowUpAt": "2026-09-26T08:00:00+02:00",
+      "lastContactedAt": "2026-09-19T18:40:00+02:00"
+    },
+    {
+      "contact_key": "redaktion@trail-magazin.de",
+      "actionStatuses": [
+        "CONTACTED"
+      ],
+      "outreachStatuses": [
+        "contacted"
+      ],
+      "opp_ids": [
+        "opp-trail-magazin-de-2026-09-19"
+      ],
+      "domains": [],
+      "nextFollowUpAt": "2026-09-26T08:00:00+02:00",
+      "lastContactedAt": "2026-09-19T18:40:00+02:00"
+    },
+    {
+      "contact_key": "zrom@outsideinc.com",
+      "actionStatuses": [
+        "CONTACTED"
+      ],
+      "outreachStatuses": [
+        "contacted"
+      ],
+      "opp_ids": [
+        "opp-trail-runner-tips"
+      ],
+      "domains": [
+        "trailrunnermag.com"
+      ],
+      "nextFollowUpAt": "2026-09-26T08:00:00+02:00",
+      "lastContactedAt": "2026-09-19T18:40:00+02:00"
+    },
+    {
+      "contact_key": "editor@marathonhandbook.com",
+      "actionStatuses": [
+        "CONTACTED"
+      ],
+      "outreachStatuses": [
+        "contacted"
+      ],
+      "opp_ids": [
+        "opp-marathon-handbook-2026-09-21"
+      ],
+      "domains": [],
+      "nextFollowUpAt": "2026-09-28T08:00:00+02:00",
+      "lastContactedAt": "2026-09-21T09:13:00+02:00"
+    },
+    {
+      "contact_key": "https://www.switchbacktravel.com/contact",
+      "actionStatuses": [
+        "CONTACTED"
+      ],
+      "outreachStatuses": [
+        "contacted"
+      ],
+      "opp_ids": [
+        "opp-switchback-travel-2026-09-21"
+      ],
+      "domains": [],
+      "nextFollowUpAt": "2026-09-28T08:00:00+02:00",
+      "lastContactedAt": "2026-09-21T09:13:00+02:00"
+    },
+    {
+      "contact_key": "info@hardloopnetwerk.nl",
+      "actionStatuses": [
+        "CONTACTED"
+      ],
+      "outreachStatuses": [
+        "contacted"
+      ],
+      "opp_ids": [
+        "opp-hardloopnetwerk-2026-09-21"
+      ],
+      "domains": [],
+      "nextFollowUpAt": "2026-09-28T08:00:00+02:00",
+      "lastContactedAt": "2026-09-21T09:13:00+02:00"
+    },
+    {
+      "contact_key": "kate@trailrunmag.com",
+      "actionStatuses": [
+        "CONTACTED"
+      ],
+      "outreachStatuses": [
+        "contacted"
+      ],
+      "opp_ids": [
+        "opp-trail-run-mag-2026-09-21"
+      ],
+      "domains": [],
+      "nextFollowUpAt": "2026-09-28T08:00:00+02:00",
+      "lastContactedAt": "2026-09-21T09:13:00+02:00"
+    },
+    {
+      "contact_key": "letters@triathlete.com",
+      "actionStatuses": [
+        "CONTACTED"
+      ],
+      "outreachStatuses": [
+        "contacted"
+      ],
+      "opp_ids": [
+        "opp-triathlete-2026-09-21"
+      ],
+      "domains": [],
+      "nextFollowUpAt": "2026-09-28T08:00:00+02:00",
+      "lastContactedAt": "2026-09-21T09:13:00+02:00"
+    },
+    {
+      "contact_key": "redazione_runners-world@hearst.it",
+      "actionStatuses": [
+        "CONTACTED"
+      ],
+      "outreachStatuses": [
+        "contacted"
+      ],
+      "opp_ids": [
+        "opp-rw-it-2026-09-21"
+      ],
+      "domains": [],
+      "nextFollowUpAt": "2026-09-28T08:00:00+02:00",
+      "lastContactedAt": "2026-09-21T09:13:00+02:00"
+    },
+    {
+      "contact_key": "runners@hearst.es",
+      "actionStatuses": [
+        "CONTACTED"
+      ],
+      "outreachStatuses": [
+        "contacted"
+      ],
+      "opp_ids": [
+        "opp-rw-es-2026-09-21"
+      ],
+      "domains": [],
+      "nextFollowUpAt": "2026-09-28T08:00:00+02:00",
+      "lastContactedAt": "2026-09-21T09:13:00+02:00"
+    },
+    {
+      "contact_key": "hello@therunningchannel.com",
+      "actionStatuses": [
+        "CONTACTED"
+      ],
+      "outreachStatuses": [
+        "contacted"
+      ],
+      "opp_ids": [
+        "opp-running-channel-stack"
+      ],
+      "domains": [
+        "therunningchannel.com"
+      ],
+      "nextFollowUpAt": "2026-09-29T08:00:00+02:00",
+      "lastContactedAt": "2026-09-22"
+    },
+    {
+      "contact_key": "https://www.irunfar.com/contact/",
+      "actionStatuses": [
+        "CONTACTED"
+      ],
+      "outreachStatuses": [
+        "contacted"
+      ],
+      "opp_ids": [
+        "opp-irunfar-best-trail",
+        "opp-irunfar-index"
+      ],
+      "domains": [
+        "irunfar.com"
+      ],
+      "nextFollowUpAt": "2026-09-29T08:00:00+02:00",
+      "lastContactedAt": "2026-09-22"
+    },
+    {
+      "contact_key": "info@selectmedialtd.com",
+      "actionStatuses": [
+        "CONTACTED"
+      ],
+      "outreachStatuses": [
+        "contacted"
+      ],
+      "opp_ids": [
+        "opp-irish-runner-2026-09-22"
+      ],
+      "domains": [
+        "irishrunner.ie"
+      ],
+      "nextFollowUpAt": "2026-09-29T08:00:00+02:00",
+      "lastContactedAt": "2026-09-22"
+    },
+    {
+      "contact_key": "mike@qbfagency.co.za",
+      "actionStatuses": [
+        "CONTACTED"
+      ],
+      "outreachStatuses": [
+        "contacted"
+      ],
+      "opp_ids": [
+        "opp-rw-sa-2026-09-22"
+      ],
+      "domains": [
+        "runnersworld.co.za"
+      ],
+      "nextFollowUpAt": "2026-09-29T08:00:00+02:00",
+      "lastContactedAt": "2026-09-22"
+    },
+    {
+      "contact_key": "redakcja@bieganie.pl",
+      "actionStatuses": [
+        "CONTACTED"
+      ],
+      "outreachStatuses": [
+        "contacted"
+      ],
+      "opp_ids": [
+        "opp-bieganie-pl-2026-09-22"
+      ],
+      "domains": [
+        "bieganie.pl"
+      ],
+      "nextFollowUpAt": "2026-09-29T08:00:00+02:00",
+      "lastContactedAt": "2026-09-22"
+    },
+    {
+      "contact_key": "redaktion@laufzeit.de",
+      "actionStatuses": [
+        "CONTACTED"
+      ],
+      "outreachStatuses": [
+        "contacted"
+      ],
+      "opp_ids": [
+        "opp-laufzeit-de-2026-09-22"
+      ],
+      "domains": [
+        "laufzeit.de"
+      ],
+      "nextFollowUpAt": "2026-09-29T08:00:00+02:00",
+      "lastContactedAt": "2026-09-22"
+    },
+    {
+      "contact_key": "support@strengthrunning.com",
+      "actionStatuses": [
+        "CONTACTED"
+      ],
+      "outreachStatuses": [
+        "contacted"
+      ],
+      "opp_ids": [
+        "opp-strength-running-choose",
+        "opp-strength-running-klein",
+        "opp-strength-running-podcast"
+      ],
+      "domains": [
+        "strengthrunning.com"
+      ],
+      "nextFollowUpAt": "2026-09-29T08:00:00+02:00",
+      "lastContactedAt": "2026-09-22"
+    },
+    {
+      "contact_key": "info@hardlopen.nl",
+      "actionStatuses": [
+        "RESPONDED_SOFT"
+      ],
+      "outreachStatuses": [
+        "responded"
+      ],
+      "opp_ids": [
+        "opp-hardlopen-jargon",
+        "opp-hardlopen-schoenen"
+      ],
+      "domains": [
+        "hardlopen.nl"
+      ],
+      "nextFollowUpAt": "2026-12-15T09:00:00+01:00",
+      "lastContactedAt": "2026-09-18T10:00:00+02:00"
+    }
+  ],
+  "journalists_hardlopen_related": [],
+  "notes": [
+    "Sep 20 pending-crm still open — Lee has NOT confirmed send; do NOT mark contacted.",
+    "Sep 17 follow-up due ~2026-09-23 — note only; do not invent follow-up sends.",
+    "ACTIONABLE-BACKLINK-QUEUE.md appears stale vs workspace.json (still lists Hardlopen as Ready); workspace.json is source of truth.",
+    "No CRM write applied this run — all confirmed batches already synced."
+  ]
+}

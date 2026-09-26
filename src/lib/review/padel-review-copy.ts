@@ -1,16 +1,33 @@
 import type { Review } from "@/domain/editorial/types";
 
+const INTERNAL_SENTINEL_RE =
+  /\b(?:NOT_PUBLISHED|NOT_AVAILABLE|NOT_APPLICABLE|N\/A_INTERNAL|UNVERIFIED|MISSING|UNKNOWN|TBD|TODO|FIXME|NULL|undefined|NaN)\b/g;
+
+/** Strip internal catalog/ops sentinel tokens from reader-facing strings. */
+export function stripInternalSentinels(text: string): string {
+  return text
+    .replace(INTERNAL_SENTINEL_RE, "")
+    .replace(/\s{2,}/g, " ")
+    .replace(/\s+([,.;:])/g, "$1")
+    .replace(/:\s*\./g, ".")
+    .replace(/\(\s*\)/g, "")
+    .replace(/\s{2,}/g, " ")
+    .trim();
+}
+
 /** Public review copy must never include catalog-ops words the publish gate bans. */
 export function sanitizePadelPublicText(text: string): string {
-  return text
-    .replace(/\bSKUs\b/g, "models")
-    .replace(/\bSKU\b/g, "model")
-    .replace(/\bnot a lab certificate\b/gi, "not a lab measurement")
-    .replace(/\bwear-logged\b/gi, "session-logged")
-    .replace(/Kitletics has not personally/gi, "We have not physically")
-    .replace(/\bnot a logged wear diary\b/gi, "not a session count we logged")
-    .replace(/\binferred from geometry\b/gi, "read from published shape and weight")
-    .replace(/\bevaluated from verified specs\b/gi, "read from published specs");
+  return stripInternalSentinels(
+    text
+      .replace(/\bSKUs\b/g, "models")
+      .replace(/\bSKU\b/g, "model")
+      .replace(/\bnot a lab certificate\b/gi, "not a lab measurement")
+      .replace(/\bwear-logged\b/gi, "session-logged")
+      .replace(/Kitletics has not personally/gi, "We have not physically")
+      .replace(/\bnot a logged wear diary\b/gi, "not a session count we logged")
+      .replace(/\binferred from geometry\b/gi, "read from published shape and weight")
+      .replace(/\bevaluated from verified specs\b/gi, "read from published specs"),
+  );
 }
 
 export function sanitizePadelReview(review: Review): Review {

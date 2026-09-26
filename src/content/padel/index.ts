@@ -70,6 +70,7 @@ import {
   padelSecondaryMediaPendingIds,
   padelSoftGoodsAlternatives,
 } from "@/content/padel/soft-goods";
+import { padelFinalParityOffers } from "@/content/padel/final-parity-offers";
 import { applyMediaPublishGate } from "@/content/running/products/media-publish-gate";
 import { stripDeprecatedRacketSpecs } from "@/content/padel/rackets/build";
 import { applySpecEnrichmentToProducts } from "@/content/padel/spec-enrichment";
@@ -161,6 +162,7 @@ export const padelAllOffers = [
   ...wave28PadelShoeOffers,
   ...padelSoftGoodsOffers,
   ...padelCommerceWaveOffers,
+  ...padelFinalParityOffers,
 ];
 
 export const padelAllComparisons = [

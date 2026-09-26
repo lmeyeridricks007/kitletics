@@ -435,3 +435,267 @@ export function PadelShoeOutsoleDiagram() {
     </div>
   );
 }
+
+export function PadelSweetSpotDiagram() {
+  return (
+    <div className="grid gap-3 sm:grid-cols-2">
+      {[
+        {
+          label: "Centred / larger zone",
+          note: "More usable face when contact is late or off-centre — typical of round comfort moulds.",
+          cy: 108,
+          r: 22,
+        },
+        {
+          label: "Higher / smaller zone",
+          note: "Rewards clean tip contact for finishing — typical of diamond attack moulds.",
+          cy: 78,
+          r: 14,
+        },
+      ].map((col) => (
+        <div key={col.label} className="border border-border bg-white p-3">
+          <p className="text-[11px] font-bold tracking-wide text-subtle uppercase">
+            {col.label}
+          </p>
+          <svg viewBox="0 0 220 200" className="mt-2 w-full" aria-hidden>
+            <path
+              d="M110 28 C148 28 168 58 168 100 C168 148 138 172 110 172 C82 172 52 148 52 100 C52 58 72 28 110 28 Z"
+              fill="#f3f1eb"
+              stroke="#1a1a1a"
+              strokeWidth="2.5"
+            />
+            <rect x="98" y="172" width="24" height="18" rx="3" fill="#2a2a2a" />
+            <circle
+              cx={110}
+              cy={col.cy}
+              r={col.r}
+              fill="rgba(184,240,0,0.25)"
+              stroke="#7a9e3a"
+              strokeWidth="2"
+            />
+          </svg>
+          <p className="mt-1 text-[12px] leading-snug text-muted">{col.note}</p>
+        </div>
+      ))}
+    </div>
+  );
+}
+
+export function PadelPowerControlDiagram() {
+  return (
+    <div className="border border-border bg-white p-4">
+      <p className="text-[11px] font-bold tracking-wide text-subtle uppercase">
+        Power ↔ control continuum
+      </p>
+      <svg viewBox="0 0 480 120" className="mt-4 w-full" aria-hidden>
+        <defs>
+          <linearGradient id="pcGrad" x1="0" x2="1" y1="0" y2="0">
+            <stop offset="0%" stopColor="#b8f000" />
+            <stop offset="100%" stopColor="#1a1a1a" />
+          </linearGradient>
+        </defs>
+        <rect x="40" y="48" width="400" height="12" rx="6" fill="url(#pcGrad)" />
+        <circle cx="90" cy="54" r="8" fill="#fff" stroke="#1a1a1a" strokeWidth="2" />
+        <circle cx="240" cy="54" r="8" fill="#fff" stroke="#1a1a1a" strokeWidth="2" />
+        <circle cx="400" cy="54" r="8" fill="#fff" stroke="#1a1a1a" strokeWidth="2" />
+        <text x="90" y="88" textAnchor="middle" fill="#333" fontSize="12" fontFamily="ui-sans-serif, system-ui">
+          Soft round
+        </text>
+        <text x="240" y="88" textAnchor="middle" fill="#333" fontSize="12" fontFamily="ui-sans-serif, system-ui">
+          Hybrid / teardrop
+        </text>
+        <text x="400" y="88" textAnchor="middle" fill="#333" fontSize="12" fontFamily="ui-sans-serif, system-ui">
+          Stiff diamond
+        </text>
+        <text x="90" y="30" textAnchor="middle" fill="#555" fontSize="11" fontFamily="ui-sans-serif, system-ui">
+          forgiveness
+        </text>
+        <text x="400" y="30" textAnchor="middle" fill="#555" fontSize="11" fontFamily="ui-sans-serif, system-ui">
+          finishing
+        </text>
+      </svg>
+      <p className="mt-2 text-[12px] leading-snug text-muted">
+        Generic teaching continuum — not a score for any one brand. Match the mould to the job you play most weeks.
+      </p>
+    </div>
+  );
+}
+
+export function PadelCoreFeelDiagram() {
+  return (
+    <div className="grid gap-px bg-border sm:grid-cols-2">
+      {[
+        {
+          label: "Softer core",
+          note: "More trampoline at moderate pace; easier on the arm; less plow-through for hard finishers.",
+          fill: "#d4e85a",
+        },
+        {
+          label: "Firmer / multi-density",
+          note: "More connected response when you already generate pace; less forgiveness on mishits.",
+          fill: "#9aa08a",
+        },
+      ].map((col) => (
+        <div key={col.label} className="bg-[#fafaf8] p-4">
+          <p className="text-[11px] font-bold tracking-wide text-subtle uppercase">
+            {col.label}
+          </p>
+          <svg viewBox="0 0 220 140" className="mt-3 w-full" aria-hidden>
+            <path
+              d="M110 18 C142 22 158 52 156 88 C152 120 132 132 110 132 C88 132 68 120 64 88 C62 52 78 22 110 18 Z"
+              fill="#eeebe4"
+              stroke="#1a1a1a"
+              strokeWidth="2"
+            />
+            <ellipse cx="110" cy="78" rx="36" ry="28" fill={col.fill} stroke="#1a1a1a" strokeWidth="1.5" opacity="0.85" />
+            <rect x="100" y="132" width="20" height="16" rx="2" fill="#2a2a2a" />
+          </svg>
+          <p className="mt-2 text-[12px] leading-snug text-muted">{col.note}</p>
+        </div>
+      ))}
+    </div>
+  );
+}
+
+export function PadelShoeSupportDiagram() {
+  return (
+    <div className="grid gap-px bg-border sm:grid-cols-3">
+      {[
+        { label: "Heel lockdown", note: "Holds the heel on plant-and-cut — reduces slip inside the shoe." },
+        { label: "Lateral wall", note: "Side support for glass-court cuts — not the same as running stability posts." },
+        { label: "Forefoot flex", note: "Enough bend for split-step and push — too stiff feels planted but slow." },
+      ].map((col, i) => (
+        <div key={col.label} className="bg-[#fafaf8] p-4">
+          <p className="text-[11px] font-bold tracking-wide text-subtle uppercase">
+            {col.label}
+          </p>
+          <svg viewBox="0 0 160 120" className="mt-3 w-full" aria-hidden>
+            <path
+              d="M30 70 C40 40 70 28 100 32 C130 36 140 55 138 78 C136 98 110 108 80 106 C50 104 28 92 30 70 Z"
+              fill="#ebe8e0"
+              stroke="#1a1a1a"
+              strokeWidth="2"
+            />
+            {i === 0 ? (
+              <ellipse cx="48" cy="78" rx="14" ry="18" fill="none" stroke="#b8f000" strokeWidth="3" />
+            ) : null}
+            {i === 1 ? (
+              <path d="M100 40 L118 70 L100 95" fill="none" stroke="#b8f000" strokeWidth="3" />
+            ) : null}
+            {i === 2 ? (
+              <path d="M110 55 Q130 70 118 90" fill="none" stroke="#b8f000" strokeWidth="3" />
+            ) : null}
+          </svg>
+          <p className="mt-2 text-[12px] leading-snug text-muted">{col.note}</p>
+        </div>
+      ))}
+    </div>
+  );
+}
+
+export function PadelBagAnatomyDiagram() {
+  return (
+    <div className="border border-border bg-white p-4">
+      <p className="text-[11px] font-bold tracking-wide text-subtle uppercase">
+        Paletero anatomy
+      </p>
+      <svg viewBox="0 0 480 200" className="mt-3 w-full" aria-hidden>
+        <rect x="40" y="40" width="400" height="120" rx="12" fill="#ebe8e0" stroke="#1a1a1a" strokeWidth="2" />
+        <rect x="60" y="58" width="100" height="84" rx="6" fill="#f7f5ef" stroke="#888" strokeWidth="1.5" />
+        <text x="78" y="105" fill="#555" fontSize="12" fontFamily="ui-sans-serif, system-ui">
+          racket wells
+        </text>
+        <rect x="180" y="58" width="90" height="84" rx="6" fill="#c5d4a0" stroke="#1a1a1a" strokeWidth="1.5" />
+        <text x="195" y="100" fill="#333" fontSize="11" fontFamily="ui-sans-serif, system-ui">
+          thermo
+        </text>
+        <rect x="290" y="58" width="70" height="50" rx="6" fill="#f7f5ef" stroke="#888" strokeWidth="1.5" />
+        <text x="300" y="88" fill="#555" fontSize="11" fontFamily="ui-sans-serif, system-ui">
+          shoes
+        </text>
+        <rect x="375" y="58" width="45" height="84" rx="6" fill="#f0efe8" stroke="#888" strokeWidth="1.5" />
+        <text x="382" y="105" fill="#555" fontSize="10" fontFamily="ui-sans-serif, system-ui">
+          kit
+        </text>
+      </svg>
+      <p className="mt-2 text-[12px] leading-snug text-muted">
+        Generic layout — count racket wells, thermo volume, shoe pocket and carry straps against how you actually travel to court.
+      </p>
+    </div>
+  );
+}
+
+export function PadelGripLayersDiagram() {
+  return (
+    <div className="grid gap-px bg-border sm:grid-cols-3">
+      {[
+        {
+          label: "Bare handle",
+          note: "Carbon / foam core — rarely played bare.",
+          layers: [{ y: 70, h: 40, fill: "#c8c4ba" }],
+        },
+        {
+          label: "Base grip on",
+          note: "Sets diameter and foundation feel.",
+          layers: [
+            { y: 70, h: 40, fill: "#c8c4ba" },
+            { y: 58, h: 18, fill: "#8a8580" },
+          ],
+        },
+        {
+          label: "Overgrip on top",
+          note: "Thin refresh layer — replace when tack dies.",
+          layers: [
+            { y: 70, h: 40, fill: "#c8c4ba" },
+            { y: 58, h: 16, fill: "#8a8580" },
+            { y: 48, h: 14, fill: "#b8f000" },
+          ],
+        },
+      ].map((col) => (
+        <div key={col.label} className="bg-[#fafaf8] p-4">
+          <p className="text-[11px] font-bold tracking-wide text-subtle uppercase">
+            {col.label}
+          </p>
+          <svg viewBox="0 0 160 140" className="mt-3 w-full" aria-hidden>
+            <rect x="60" y="16" width="40" height="110" rx="6" fill="#eeebe4" stroke="#1a1a1a" strokeWidth="2" />
+            {col.layers.map((layer, i) => (
+              <rect
+                key={i}
+                x="52"
+                y={layer.y}
+                width="56"
+                height={layer.h}
+                rx="4"
+                fill={layer.fill}
+                stroke="#1a1a1a"
+                strokeWidth="1.5"
+              />
+            ))}
+          </svg>
+          <p className="mt-2 text-[12px] leading-snug text-muted">{col.note}</p>
+        </div>
+      ))}
+    </div>
+  );
+}
+
+export function PadelBeginnerKitDiagram() {
+  const items = [
+    { label: "Round racket", note: "Forgiving face first" },
+    { label: "Court shoes", note: "Lateral grip, not runners" },
+    { label: "Fresh balls", note: "Match bounce for timing" },
+    { label: "Overgrips", note: "Replace when tack dies" },
+    { label: "Bag", note: "Racket + shoe carry" },
+    { label: "Optional", note: "Protector / pressurizer" },
+  ];
+  return (
+    <div className="grid gap-2 sm:grid-cols-3">
+      {items.map((item) => (
+        <div key={item.label} className="border border-border bg-white p-3">
+          <p className="text-[13px] font-semibold text-foreground">{item.label}</p>
+          <p className="mt-1 text-[12px] text-muted">{item.note}</p>
+        </div>
+      ))}
+    </div>
+  );
+}

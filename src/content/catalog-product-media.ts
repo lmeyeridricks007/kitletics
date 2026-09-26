@@ -1276,8 +1276,8 @@ export const CATALOG_PRODUCT_MEDIA: Record<string, CatalogProductMediaSource> = 
   "prod-joma-t-slam": {
     productId: "prod-joma-t-slam",
     src: "/images/padel/products/joma-t-slam-hero.jpg",
-    sourceUrl: "https://www.zonadepadel.es/15127-large_default/zapatillas-joma-t-slam-men-2602-white-2026.jpg",
-    source: "Zona de Padel CDN — Joma T.Slam men packshot",
+    sourceUrl: "https://www.zonadepadel.es/31898-large_default/zapatillas-joma-slam-men-2602-white-royal-2026.jpg",
+    source: "Zona de Padel CDN — Joma Slam Men 2602 white/royal packshot",
     licence: "retailer-authorized",
     attribution: "© Brand — official / authorized product photography",
     width: 1000,

@@ -1,11 +1,15 @@
 import type { ContentSection, Review } from "@/domain/editorial/types";
 import type { Brand, Product, SpecValue } from "@/domain/products/types";
 import { getSpecificationDefinitions } from "@/repositories";
-import { skipSentenceFromLimitation } from "@/lib/review/rewrite-uniqueness-era-skip";
+import {
+  composeBuyIfSentence,
+  composeSkipIfSentence,
+} from "@/lib/decision-copy/transform";
 import { formatPublicSpecDisplayLabel } from "@/lib/specs/public-label";
 import {
   isPadelGripCategory,
   isPadelRacketCategory,
+  isPadelReviewCategory,
   isPadelShoeCategory,
   padelTopicFromSection,
   PADEL_ACCESSORY_BLUEPRINT,
@@ -475,11 +479,7 @@ export function expandHumanEditorialSeed(
   product: Product,
   review: Review,
 ): string {
-  if (
-    isPadelRacketCategory(product.categoryId) ||
-    isPadelShoeCategory(product.categoryId) ||
-    isPadelGripCategory(product.categoryId)
-  ) {
+  if (isPadelReviewCategory(product.categoryId)) {
     const generated = buildPadelLongformSectionBody(topic, product, review);
     const cleanPadel = seed.trim();
     if (!cleanPadel) return generated;
@@ -567,11 +567,7 @@ export function buildLongformSectionBody(
   review: Review,
   brandName?: string,
 ): string {
-  if (
-    isPadelRacketCategory(product.categoryId) ||
-    isPadelShoeCategory(product.categoryId) ||
-    isPadelGripCategory(product.categoryId)
-  ) {
+  if (isPadelReviewCategory(product.categoryId)) {
     return buildPadelLongformSectionBody(topic as PadelLongformTopic, product, review);
   }
   const name = product.fullName;
@@ -598,10 +594,10 @@ export function buildLongformSectionBody(
           ? product.verdict
           : `${brandLead}${name} is built for a specific job in the category — use that job as your first filter.`,
         strengths.length
-          ? `I'd shortlist it when you want ${softList(strengths)}.`
+          ? composeBuyIfSentence(strengths[0]!, name)
           : `Match it to the sessions you'll use it for most weeks.`,
         weaknesses.length
-          ? skipSentenceFromLimitation(softList(weaknesses))
+          ? composeSkipIfSentence(weaknesses[0]!, name)
           : undefined,
         buy.length
           ? `The clearest buyer profile: ${buy.slice(0, 3).join("; ")}.`
@@ -1323,11 +1319,7 @@ export function extendLongformSectionBody(
   brandName?: string,
   pass = 1,
 ): string {
-  if (
-    isPadelRacketCategory(product.categoryId) ||
-    isPadelShoeCategory(product.categoryId) ||
-    isPadelGripCategory(product.categoryId)
-  ) {
+  if (isPadelReviewCategory(product.categoryId)) {
     return extendPadelLongformSectionBody(
       topic as PadelLongformTopic,
       product,

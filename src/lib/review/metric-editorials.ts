@@ -2,32 +2,104 @@ import type { Review, ScoreBreakdownItem } from "@/domain/editorial/types";
 import type { Product } from "@/domain/products/types";
 import { getReviewCriteriaDefinitions } from "@/repositories";
 
+function isRunningShoeLike(categoryId?: string, product?: Product): boolean {
+  const cat = categoryId ?? product?.categoryId ?? "";
+  if (/padel|tennis|court/i.test(cat)) return false;
+  return /cat-running|running.?shoe/i.test(cat) || /shoe|footwear/i.test(cat);
+}
+
+function isCourtShoeLike(categoryId?: string, product?: Product): boolean {
+  const cat = categoryId ?? product?.categoryId ?? "";
+  return /padel.?shoe|tennis.?shoe|court.?shoe|cat-padel-shoes|cat-tennis-shoes/i.test(
+    cat,
+  );
+}
+
+function isRacketLike(categoryId?: string, product?: Product): boolean {
+  const cat = categoryId ?? product?.categoryId ?? "";
+  return /racket|racquet/i.test(cat);
+}
+
+function isGripLike(categoryId?: string, product?: Product): boolean {
+  const cat = categoryId ?? product?.categoryId ?? "";
+  return /grip|overgrip/i.test(cat);
+}
+
+function isBallLike(categoryId?: string, product?: Product): boolean {
+  const cat = categoryId ?? product?.categoryId ?? "";
+  return /ball/i.test(cat);
+}
+
+function isBagLike(categoryId?: string, product?: Product): boolean {
+  const cat = categoryId ?? product?.categoryId ?? "";
+  return /bag|paletero|backpack/i.test(cat);
+}
+
 /** One-line metric framing — keep short; the product note does the real work. */
-const METRIC_MEANING: Record<string, string> = {
-  cushioning: "Softness and protection underfoot for the miles this shoe is built for.",
-  ride: "How it feels once you are moving — smooth, soft, lively, or firm.",
-  comfort: "Everyday fit comfort in the sessions this shoe is meant for.",
-  fit: "Length, width, lockdown and how the last matches your foot.",
-  stability: "How planted it feels — neutral daily versus guidance/support.",
-  durability: "How the foam, upper and outsole are likely to hold up with real use.",
-  value: "Whether the strengths are worth the price for how often you will use them.",
-  responsiveness: "Snap when you pick up the pace.",
-  versatility: "How many different session types it can handle well.",
-  grip: "Outsole traction for the surfaces it is meant for.",
-  "gps-accuracy": "How consistently it tracks pace, distance and route shape.",
-  battery: "Smartwatch and GPS endurance for the sessions this watch is built for.",
-  maps: "On-device mapping and navigation usefulness on the run.",
-  "training-features": "Workouts, dynamics and coaching tools you will actually use.",
-  "recovery-features": "Readiness, sleep and recovery metrics between hard days.",
-  interface: "Buttons, touchscreen and daily usability under training stress.",
-  "smartwatch-features": "Notifications, music, payments and everyday phone pairing.",
-  control: "How precisely it places the ball or shot.",
-  power: "How easily it helps generate pace or force.",
-  spin: "How readily it helps add spin.",
-  forgiveness: "How playable it stays on off-centre hits.",
-  maneuverability: "How quickly it lets you change direction.",
-  noise: "How loud it is in normal home or gym use.",
-};
+function metricMeaning(
+  key: string,
+  categoryId?: string,
+  product?: Product,
+): string | undefined {
+  const running = isRunningShoeLike(categoryId, product);
+  const court = isCourtShoeLike(categoryId, product);
+  const shoe = running || court;
+  const racket = isRacketLike(categoryId, product);
+  const grip = isGripLike(categoryId, product);
+  const ball = isBallLike(categoryId, product);
+  const bag = isBagLike(categoryId, product);
+
+  const meanings: Record<string, string> = {
+    cushioning: court
+      ? "Underfoot cushioning for court sessions this shoe is built for."
+      : "Softness and protection underfoot for the miles this shoe is built for.",
+    ride: "How it feels once you are moving — smooth, soft, lively, or firm.",
+    comfort: shoe
+      ? "Everyday fit comfort in the sessions this shoe is meant for."
+      : grip
+        ? "How the wrap feels after sweat and a long set."
+        : "Everyday comfort in the sessions this product is meant for.",
+    fit: "Length, width, lockdown and how the last matches your foot.",
+    stability: shoe
+      ? court
+        ? "How planted it feels on lateral cuts and split-steps."
+        : "How planted it feels — neutral daily versus guidance/support."
+      : "How planted and stable it feels in its intended role.",
+    durability: running
+      ? "How the foam, upper and outsole are likely to hold up with real use."
+      : court
+        ? "How the outsole and upper are likely to hold up on court."
+        : racket
+          ? "How the frame, face and bumper are likely to hold up with real use."
+          : grip
+            ? "How long tack and wrap integrity last before you replace it."
+            : ball
+              ? "How long bounce and felt stay playable in normal club use."
+              : bag
+                ? "How zippers, seams and thermo pockets hold up with club travel."
+                : "How the product is likely to hold up with real use.",
+    value: "Whether the strengths are worth the price for how often you will use them.",
+    responsiveness: "Snap when you pick up the pace.",
+    versatility: "How many different session types it can handle well.",
+    grip: shoe
+      ? "Outsole traction for the surfaces it is meant for."
+      : "How securely it holds in the hand through a sweaty set.",
+    "gps-accuracy": "How consistently it tracks pace, distance and route shape.",
+    battery: "Smartwatch and GPS endurance for the sessions this watch is built for.",
+    maps: "On-device mapping and navigation usefulness on the run.",
+    "training-features": "Workouts, dynamics and coaching tools you will actually use.",
+    "recovery-features": "Readiness, sleep and recovery metrics between hard days.",
+    interface: "Buttons, touchscreen and daily usability under training stress.",
+    "smartwatch-features": "Notifications, music, payments and everyday phone pairing.",
+    control: "How precisely it places the ball or shot.",
+    power: "How easily it helps generate pace or force.",
+    spin: "How readily it helps add spin.",
+    forgiveness: "How playable it stays on off-centre hits.",
+    maneuverability: "How quickly it lets you change direction.",
+    noise: "How loud it is in normal home or gym use.",
+  };
+  return meanings[key];
+}
 
 function scoreBand(score: number): string {
   if (score >= 92) return "Excellent";
@@ -84,7 +156,7 @@ function findRelated(
           : key === "stability"
             ? /stabil|guidance|neutral|support|planted|tippy/
             : key === "durability"
-              ? /durab|wear|upper|outsole|rotate|foam/
+              ? /durab|wear|upper|outsole|rotate|foam|frame|face|tack|wrap/
               : key === "value"
                 ? /price|value|premium|cost|pegasus/
                 : key === "versatility"
@@ -125,11 +197,19 @@ function productInsight(
   item: ScoreBreakdownItem,
   review: Review,
   productName: string,
+  categoryId?: string,
+  product?: Product,
 ): string {
   const { pro, con } = findRelated(review, item.key);
   const note = item.note ? friendlyScoreNote(item.note, item.key) : "";
   const short = productName.replace(/ Review$/i, "");
   const band = scoreBand(item.score);
+  const running = isRunningShoeLike(categoryId, product);
+  const court = isCourtShoeLike(categoryId, product);
+  const racket = isRacketLike(categoryId, product);
+  const grip = isGripLike(categoryId, product);
+  const ball = isBallLike(categoryId, product);
+  const bag = isBagLike(categoryId, product);
 
   switch (item.key) {
     case "cushioning":
@@ -184,13 +264,73 @@ function productInsight(
         .join(" ");
 
     case "durability":
+      if (running) {
+        return [
+          pro
+            ? `Durability outlook is solid when ${soft(pro)}.`
+            : `Soft dailies usually fade in the foam before the upper looks worn — rotate when you can.`,
+          con
+            ? `Watch: ${soft(con)}.`
+            : `Retire it when the ride goes dead, not when the colourway still looks fine.`,
+        ]
+          .filter(Boolean)
+          .join(" ");
+      }
+      if (court) {
+        return [
+          pro
+            ? `Durability outlook is solid when ${soft(pro)}.`
+            : `${band} court durability — replace when the outsole pods polish or the upper opens at the flex points.`,
+          con ? `Watch: ${soft(con)}.` : undefined,
+        ]
+          .filter(Boolean)
+          .join(" ");
+      }
+      if (racket) {
+        return [
+          pro
+            ? `Durability outlook is solid when ${soft(pro)}.`
+            : `${band} durability for published frame and face materials — replace when the bumper or face is compromised.`,
+          con ? `Watch: ${soft(con)}.` : undefined,
+        ]
+          .filter(Boolean)
+          .join(" ");
+      }
+      if (grip) {
+        return [
+          pro
+            ? `Durability outlook is solid when ${soft(pro)}.`
+            : `${band} as a consumable wrap — replace when tack dies or the wrap rolls.`,
+          con ? `Watch: ${soft(con)}.` : undefined,
+        ]
+          .filter(Boolean)
+          .join(" ");
+      }
+      if (ball) {
+        return [
+          pro
+            ? `Durability outlook is solid when ${soft(pro)}.`
+            : `${band} for club bounce life — retire cans when pressure and felt fade.`,
+          con ? `Watch: ${soft(con)}.` : undefined,
+        ]
+          .filter(Boolean)
+          .join(" ");
+      }
+      if (bag) {
+        return [
+          pro
+            ? `Durability outlook is solid when ${soft(pro)}.`
+            : `${band} for club travel — watch zippers, thermo seals and strap stitching.`,
+          con ? `Watch: ${soft(con)}.` : undefined,
+        ]
+          .filter(Boolean)
+          .join(" ");
+      }
       return [
         pro
           ? `Durability outlook is solid when ${soft(pro)}.`
-          : `Soft dailies usually fade in the foam before the upper looks worn — rotate when you can.`,
-        con
-          ? `Watch: ${soft(con)}.`
-          : `Retire it when the ride goes dead, not when the colourway still looks fine.`,
+          : `${band} durability for how often you will use ${short}.`,
+        con ? `Watch: ${soft(con)}.` : undefined,
       ]
         .filter(Boolean)
         .join(" ");
@@ -199,7 +339,7 @@ function productInsight(
       return [
         pro
           ? `Worth it when you will actually use ${soft(pro)} most weeks.`
-          : `${band} value if the shoe's main job matches your week.`,
+          : `${band} value if the product's main job matches your week.`,
         con
           ? `Weaker value if ${soft(con)} is your reality — compare peers before paying the premium.`
           : `Check live street price; skip it if a cheaper peer covers the same sessions.`,
@@ -209,7 +349,7 @@ function productInsight(
 
     case "versatility":
       return [
-        `${band} as a do-one-job tool more than a do-everything shoe.`,
+        `${band} as a do-one-job tool more than a do-everything product.`,
         con
           ? `${soft(con)} — that is why the score is not higher.`
           : pro
@@ -257,7 +397,7 @@ export function buildMetricEditorials(
   return items.map((item) => {
     const def = defByKey.get(item.key);
     const meaning =
-      METRIC_MEANING[item.key] ??
+      metricMeaning(item.key, categoryId, product) ??
       def?.description ??
       `How this product performs on ${item.label.toLowerCase()}.`;
 
@@ -267,7 +407,7 @@ export function buildMetricEditorials(
       displayScore: (item.score / 10).toFixed(1),
       band: scoreBand(item.score),
       meaning,
-      why: productInsight(item, review, productName),
+      why: productInsight(item, review, productName, categoryId, product),
     };
   });
 }

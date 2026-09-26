@@ -1,0 +1,76 @@
+{
+  "date": "2026-09-23",
+  "timezone": "Europe/Amsterdam",
+  "apply_after": "Lee confirms send of DO THESE TODAY",
+  "nextFollowUpAt": "2026-09-30T08:00:00+02:00",
+  "actionStatus": "CONTACTED",
+  "contact_keys": [
+    "jamil@ultrarunning.com",
+    "support@trailrunnernation.com",
+    "info@ultrarunnermagazine.co.uk",
+    "redaktion@alleslaufbar.de",
+    "redaktion@sportimpuls.at",
+    "pena@juoksija-lehti.fi",
+    "info@trailrunning-szene.at",
+    "paul@electricink.co.za"
+  ],
+  "items": [
+    {
+      "contact_key": "jamil@ultrarunning.com",
+      "desk": "UltraRunning Magazine",
+      "region": "US",
+      "target": "https://ultrarunning.com/featured/review-brooks-ghost-trail-shoe/",
+      "kitletics": "https://kitletics.com/best/trail-running-shoes"
+    },
+    {
+      "contact_key": "support@trailrunnernation.com",
+      "desk": "Trail Runner Nation",
+      "region": "US",
+      "target": "https://trailrunnernation.com/2026/02/ep-767-duct-tape-is-dead-modern-foot-care-for-long-miles/",
+      "kitletics": "https://kitletics.com/tools/running-shoe-finder"
+    },
+    {
+      "contact_key": "info@ultrarunnermagazine.co.uk",
+      "desk": "Ultra Runner Mag UK",
+      "region": "UK",
+      "target": "https://www.ultrarunnermagazine.co.uk/361-lynx-running-shoes-review/",
+      "kitletics": "https://kitletics.com/best/trail-running-shoes"
+    },
+    {
+      "contact_key": "redaktion@alleslaufbar.de",
+      "desk": "alles-laufbar.de",
+      "region": "EU",
+      "target": "https://alles-laufbar.de/wissen/superschuhe-auf-dem-trail-was-sie-koennen-was-nicht-wann-sie-dir-helfen/",
+      "kitletics": "https://kitletics.com/guides/how-to-choose-running-shoes"
+    },
+    {
+      "contact_key": "redaktion@sportimpuls.at",
+      "desk": "RunUp / SportImPuls",
+      "region": "EU",
+      "target": "https://www.runup.eu/ghost-trail-der-vertraute-ghost-lernt-gelande/",
+      "kitletics": "https://kitletics.com/best/trail-running-shoes"
+    },
+    {
+      "contact_key": "pena@juoksija-lehti.fi",
+      "desk": "Juoksija",
+      "region": "EU",
+      "target": "https://juoksija.fi/juoksu/yleisjuoksukengat-testissa-kuusi-monipuolista-vaihtoehtoa-arjen-lenkeille/",
+      "kitletics": "https://kitletics.com/best/daily-trainers"
+    },
+    {
+      "contact_key": "info@trailrunning-szene.at",
+      "desk": "Trailrunning Szene",
+      "region": "EU",
+      "target": "https://www.trailrunning-szene.at/dynafit-trail-schuh-neuheiten-fuer-den-laufsommer-2025/",
+      "kitletics": "https://kitletics.com/best/trail-running-shoes"
+    },
+    {
+      "contact_key": "paul@electricink.co.za",
+      "desk": "RUN Mag / Bike Run Tri ZA",
+      "region": "OTHER",
+      "target": "https://www.bikeruntri.co.za/post/best-race-day-carbon-trail-shoes-tested",
+      "kitletics": "https://kitletics.com/guides/how-to-choose-running-shoes"
+    }
+  ],
+  "notes": "Do not mark Sep 20 pending as contacted. Sep 17 follow-ups are separate nudges — if Lee sends those, update follow-up dates rather than new tip cycles."
+}
