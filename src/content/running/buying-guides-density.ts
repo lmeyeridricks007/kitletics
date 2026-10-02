@@ -117,6 +117,9 @@ const RELATED_GUIDES_BY_SLUG: Record<string, string[]> = {
     "guide-density-running-jackets-explained",
     "guide-density-hot-weather-running-apparel",
   ],
+  "how-to-choose-running-socks": [
+    "guide-density-anti-chafe-for-runners",
+  ],
   "when-to-use-a-massage-gun": [
     "guide-massage-guns-explained",
     "guide-foam-rolling-runners",

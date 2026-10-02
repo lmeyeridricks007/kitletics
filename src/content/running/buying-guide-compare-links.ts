@@ -36,6 +36,7 @@ const MANUAL_GUIDE_COMPARE: Record<string, string[]> = {
     "cmp-fenix8-fr970",
     "cmp-pace4-fr165",
     "cmp-fr970-pacepro",
+    "cmp-fr970-fr965",
   ],
   "how-to-choose-heart-rate-monitor": [
     "cmp-hrm600-h10",

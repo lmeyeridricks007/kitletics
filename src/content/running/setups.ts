@@ -18,6 +18,8 @@ export const runningGearSetups: GearSetup[] = [
     eyebrow: "GEAR KIT",
     goalLabel: "First marathon training",
     experienceLevel: "First-time marathoners",
+    relatedGuideIds: ["guide-density-first-marathon-gear-checklist"],
+    relatedBestGuideIds: ["best-marathon-shoes"],
     items: [
       {
         productId: "prod-novablast-6",
@@ -285,6 +287,8 @@ export const runningGearSetups: GearSetup[] = [
     eyebrow: "STARTER KIT",
     goalLabel: "Start running consistently",
     experienceLevel: "Beginners",
+    relatedGuideIds: ["guide-choose-shoes"],
+    relatedBestGuideIds: ["best-running-shoes-beginners"],
     items: [
       {
         productId: "prod-ghost-18",
@@ -406,6 +410,8 @@ export const runningGearSetups: GearSetup[] = [
     eyebrow: "STARTER KIT",
     goalLabel: "Trail running starter",
     experienceLevel: "Beginner to intermediate trail",
+    relatedGuideIds: ["guide-road-vs-trail"],
+    relatedBestGuideIds: ["best-trail-running-shoes"],
     items: [
       {
         productId: "prod-speedgoat-6",

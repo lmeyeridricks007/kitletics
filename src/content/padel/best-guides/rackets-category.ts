@@ -522,6 +522,7 @@ export const padelRacketsCategoryGuide: BestGuide = racketGuide({
   buyingAdvice:
     "Buy from the job, not from a leaderboard. If you cannot yet hit a consistent bandeja, do not buy Hack 04 because it “won best power” on another page. If you already finish overheads, Indiga will feel like a ceiling, not a bargain. Use the dedicated beginner, control, power, all-round, comfort, lightweight, maneuverability, and women’s guides when that constraint is already known. This page exists so those roles do not collapse into one fake overall ranking.",
   relatedGuideIds: [...RACKET_RELATED],
+  relatedComparisonIds: ["cmp-vertex05-vs-hybrid"],
   hubImageSrc: "/images/padel/products/bullpadel-vertex-05-hero.png",
   hubImageAlt: "Bullpadel Vertex 05 — flagship racket for the category Best Guide hub",
   criteriaChangePoints: [
