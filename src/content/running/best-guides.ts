@@ -296,6 +296,7 @@ export const runningBestGuides: BestGuide[] = [
       "best-trail-running-shoes",
       "best-running-shoes-heavy",
       "best-running-shoes-beginners",
+      "best-running-shoes-wide",
     ],
     relatedBuyingGuideIds: [
       "guide-choose-shoes",

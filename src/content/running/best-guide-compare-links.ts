@@ -23,7 +23,7 @@ const MANUAL_BEST_COMPARE: Record<string, string[]> = {
   "running-shoes-long-runs": ["cmp-nb6-clifton10", "cmp-nb6-nimbus27"],
   "marathon-shoes": ["cmp-vaporfly4-alphafly3", "cmp-speed5-boston12"],
   "stability-running-shoes": ["cmp-kayano-adrenaline"],
-  "running-watches": ["cmp-fenix8-fr970", "cmp-pace4-fr165", "cmp-fr970-pacepro"],
+  "running-watches": ["cmp-fenix8-fr970", "cmp-pace4-fr165", "cmp-fr970-pacepro", "cmp-fr970-fr965"],
   "running-shoes-beginners": ["cmp-nb6-ghost18", "cmp-ghost18-peg42"],
   "running-hydration-vests": ["cmp-advskin12-udrace6", "cmp-advskin12-advskin5"],
   "heart-rate-monitors-running": ["cmp-hrm600-h10", "cmp-h10-h9", "cmp-coros-verity"],

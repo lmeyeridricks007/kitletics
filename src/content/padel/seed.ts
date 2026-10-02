@@ -477,6 +477,7 @@ export const padelSetups: GearSetup[] = [
       "Core essentials for first regular sessions: forgiving racket, court shoes, pressurized balls and overgrips. Add a bag when you start carrying shoes and extras.",
     useCaseIds: [],
     budgetRange: { min: 200, max: 450, currency: "EUR" },
+    relatedBestGuideIds: ["best-padel-rackets-beginners"],
     items: [
       { productId: "prod-bullpadel-indiga-ctr", role: "Padel Racket", notes: "Essential — forgiving SoftEva round for developing contact (not a pro diamond)." },
       { productId: "prod-adidas-courtstabil", role: "Padel Shoes", notes: "Essential — court outsole and lateral support." },
@@ -494,6 +495,8 @@ export const padelSetups: GearSetup[] = [
       "First months on court: forgiving racket, proper shoes, match + training ball options, overgrips, and an optional compact club bag when you stop borrowing pockets.",
     useCaseIds: ["uc-padel-beginner"],
     budgetRange: { min: 220, max: 520, currency: "EUR" },
+    relatedGuideIds: ["guide-beginner-padel-gear"],
+    relatedBestGuideIds: ["best-padel-rackets-beginners"],
     items: [
       { productId: "prod-bullpadel-indiga-ctr", role: "Padel Racket", notes: "Essential — SoftEva round for contact learning." },
       { productId: "prod-adidas-courtstabil", role: "Padel Shoes", notes: "Essential — lateral court grip." },

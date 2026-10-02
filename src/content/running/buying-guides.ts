@@ -71,7 +71,7 @@ export const runningBuyingGuides: BuyingGuide[] = [
       {
         id: "s-fit",
         heading: "Fit and width",
-        body: "Length, width and lockdown beat foam marketing. Prefer official width options when you need wide or narrow lasts.",
+        body: "Length, width and lockdown beat foam marketing. Prefer official width options when you need wide or narrow lasts, then shortlist from Best Running Shoes for Wide Feet.",
       },
       {
         id: "s-budget",
@@ -95,7 +95,9 @@ export const runningBuyingGuides: BuyingGuide[] = [
       "best-running-shoes",
       "best-daily-trainers",
       "best-running-shoes-beginners",
+      "best-running-shoes-wide",
     ],
+    relatedGuideIds: ["guide-cushioning"],
     relatedToolSlugs: ["running-shoe-finder", "shoe-rotation-planner"],
     seoTitle: "How to Choose Running Shoes | Kitletics",
     seoDescription:
@@ -646,6 +648,7 @@ export const runningBuyingGuides: BuyingGuide[] = [
     ],
     authorId: "author-kitletics-editorial",
     relatedBestGuideIds: ["best-running-watches"],
+    relatedComparisonIds: ["cmp-fr970-fr965"],
     relatedToolSlugs: ["fitness-watch-finder"],
     seoTitle: "How to Choose a Running Watch | Kitletics",
     seoDescription:
@@ -966,6 +969,7 @@ export const runningBuyingGuides: BuyingGuide[] = [
     faqIds: [],
     authorId: "author-kitletics-editorial",
     relatedBestGuideIds: ["best-running-race-fuel"],
+    relatedGuideIds: ["guide-carry-fuel-long-runs"],
     relatedToolSlugs: [],
     seoTitle: "Running Gels Explained | Kitletics",
     seoDescription:

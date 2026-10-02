@@ -334,6 +334,7 @@ export const padelRacketsPowerGuide: BestGuide = racketGuide({
   buyingAdvice:
     "If you cannot already generate head speed, a power diamond will make you miss. Buy intermediate or control first. If you can already finish, do not buy Genius 12K thinking it is Attack, and do not buy Metalbone 3.3 as current.",
   relatedGuideIds: [...RACKET_RELATED],
+  relatedComparisonIds: ["cmp-technical-vs-counter-viper"],
   hubImageSrc: "/images/padel/products/bullpadel-hack-04-hero.png",
   hubImageAlt: "Bullpadel Hack 04 — power padel racket",
 });

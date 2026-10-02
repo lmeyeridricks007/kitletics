@@ -221,6 +221,12 @@ function padelShoeUse(
   };
 }
 
+const PADEL_RACKETS_BEGINNERS_USE_CASE = padelRacketUse(
+  "Top picks for beginners",
+  "How to choose a first racket",
+  "/images/padel/products/bullpadel-indiga-ctr-hero.jpg",
+);
+
 const BY_GUIDE_ID: Record<string, UseCaseGuideConfig> = {
   "best-running-shoes-heavy": {
     quickPicksTitle: "Top picks for heavier runners",
@@ -307,6 +313,10 @@ const BY_GUIDE_ID: Record<string, UseCaseGuideConfig> = {
         label: "Best race day shoes",
         href: "/best/race-day-shoes",
       },
+      {
+        label: "Full marathon race-day kit",
+        href: "/setups/marathon-race-day-kit",
+      },
     ],
     finderPrefill: {
       primaryUse: "long-runs",
@@ -346,11 +356,16 @@ const BY_GUIDE_ID: Record<string, UseCaseGuideConfig> = {
       priorities: ["responsiveness", "lightweight", "energy-return"],
     },
   },
-  "best-padel-rackets-beginners": padelRacketUse(
-    "Top picks for beginners",
-    "How to choose a first racket",
-    "/images/padel/products/bullpadel-indiga-ctr-hero.jpg",
-  ),
+  "best-padel-rackets-beginners": {
+    ...PADEL_RACKETS_BEGINNERS_USE_CASE,
+    buyingHelpLinks: [
+      ...(PADEL_RACKETS_BEGINNERS_USE_CASE.buyingHelpLinks ?? []),
+      {
+        label: "Complete beginner padel kit",
+        href: "/setups/padel-beginner-kit",
+      },
+    ],
+  },
   "best-padel-rackets-intermediate": padelRacketUse(
     "Top picks for intermediate players",
     "How to choose a step-up racket",

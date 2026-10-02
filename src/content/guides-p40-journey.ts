@@ -93,9 +93,9 @@ export const GUIDE_P40_JOURNEY_BY_SLUG: Record<string, GuideP40JourneyLink> = {
     relatedToolSlugs: ["running-hydration-finder"],
   },
   "how-to-choose-running-socks": {
-    relatedBestGuideIds: ["best-running-socks"],
-    bestSlugs: ["running-socks"],
-    bestLabels: ["Best running socks →"],
+    relatedBestGuideIds: ["best-running-socks", "best-running-anti-chafe"],
+    bestSlugs: ["running-socks", "running-anti-chafe"],
+    bestLabels: ["Best running socks →", "Best anti-chafe for runners →"],
     relatedToolSlugs: ["running-clothing-finder"],
   },
   "running-jackets-explained": {
@@ -282,9 +282,9 @@ export const GUIDE_P40_JOURNEY_BY_SLUG: Record<string, GuideP40JourneyLink> = {
     relatedToolSlugs: ["tennis-racket-finder"],
   },
   "how-to-build-a-home-gym": {
-    relatedBestGuideIds: ["best-home-gym-equipment"],
-    bestSlugs: ["home-gym-equipment"],
-    bestLabels: ["Best home gym equipment →"],
+    relatedBestGuideIds: ["best-home-gym-equipment", "best-air-bikes"],
+    bestSlugs: ["home-gym-equipment", "air-bikes"],
+    bestLabels: ["Best home gym equipment →", "Best air bikes →"],
     relatedToolSlugs: ["home-gym-builder"],
   },
   "how-to-choose-training-shoes": {
@@ -540,6 +540,42 @@ const EXTRA_DECISION_BEST_BY_SLUG: Record<
   },
 };
 
+const EXTRA_DECISION_LINKS_BY_SLUG: Record<
+  string,
+  { label: string; href: string }[]
+> = {
+  "how-to-choose-running-shoes": [
+    { label: "Beginner running gear setup →", href: "/setups/beginner-running-setup" },
+  ],
+  "road-vs-trail-running-shoes": [
+    { label: "Trail running starter kit →", href: "/setups/trail-running-starter-kit" },
+  ],
+  "first-marathon-gear-checklist": [
+    { label: "First marathon kit setup →", href: "/setups/first-marathon-kit" },
+  ],
+  "running-gels-explained": [
+    { label: "How to carry fuel on long runs →", href: "/guides/how-to-carry-fuel-on-long-runs" },
+  ],
+  "hydration-for-marathon-training": [
+    { label: "Best hydration for marathon training →", href: "/best/hydration-marathon-training" },
+  ],
+  "how-to-choose-running-watch": [
+    { label: "Forerunner 970 vs 965 comparison →", href: "/compare/garmin-forerunner-970-vs-garmin-forerunner-965" },
+  ],
+  "how-to-choose-a-padel-racket": [
+    { label: "Browse the Padel Racket Database →", href: "/padel/rackets/database" },
+  ],
+  "beginner-padel-gear-guide": [
+    { label: "Beginner padel kit setup →", href: "/setups/padel-beginner-kit" },
+  ],
+  "how-to-build-a-home-gym": [
+    { label: "Beginner home gym setup →", href: "/setups/beginner-home-gym" },
+  ],
+  "hyrox-home-training-setup": [
+    { label: "HYROX home training kit setup →", href: "/setups/hyrox-home-training" },
+  ],
+};
+
 function decisionBestForSlug(slug: string): {
   bestSlugs: string[];
   bestLabels: string[];
@@ -598,19 +634,34 @@ export function enrichLongFormDecisionLinks<T extends DecisionLinkConfig>(
   config: T,
 ): T {
   const mapping = decisionBestForSlug(config.guideSlug);
-  if (!mapping || mapping.bestSlugs.length === 0) return config;
-
   const existing = config.decisionLinks ?? [];
-  const haveBest = existing.some((l) => l.href.startsWith("/best/"));
-  if (haveBest) return config;
+  let enriched = existing;
 
-  const added = mapping.bestSlugs.map((slug, i) => ({
-    label: mapping.bestLabels[i] ?? `Best ${slug.replace(/-/g, " ")} →`,
-    href: `/best/${slug}`,
-  }));
+  if (mapping && mapping.bestSlugs.length > 0) {
+    const haveBest = existing.some((l) => l.href.startsWith("/best/"));
+    if (!haveBest) {
+      const addedBest = mapping.bestSlugs.map((slug, i) => ({
+        label: mapping.bestLabels[i] ?? `Best ${slug.replace(/-/g, " ")} →`,
+        href: `/best/${slug}`,
+      }));
+      enriched = [...enriched, ...addedBest];
+    }
+  }
+
+  const extraLinks = EXTRA_DECISION_LINKS_BY_SLUG[config.guideSlug] ?? [];
+  if (extraLinks.length > 0) {
+    const seen = new Set(enriched.map((link) => link.href));
+    for (const link of extraLinks) {
+      if (seen.has(link.href)) continue;
+      seen.add(link.href);
+      enriched = [...enriched, link];
+    }
+  }
+
+  if (enriched === existing) return config;
 
   return {
     ...config,
-    decisionLinks: [...existing, ...added],
+    decisionLinks: enriched,
   };
 }

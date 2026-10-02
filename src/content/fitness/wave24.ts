@@ -1123,6 +1123,8 @@ export const wave24GearSetups: GearSetup[] = [
       "Capability-based home HYROX practice: rower or ski, wall ball path, and race shoes — sled only when space allows.",
     useCaseIds: ["uc-hyrox-home-training", "uc-hyrox-training"],
     budgetRange: { min: 1500, max: 4000, currency: "EUR" },
+    relatedGuideIds: ["guide-hyrox-home-setup"],
+    relatedBestGuideIds: ["best-hyrox-shoes", "best-home-gym-equipment"],
     items: [
       { productId: "prod-concept2-rowerg", role: "Rower" },
       { productId: "prod-concept2-skierg-pm5-bundle", role: "SkiErg (no wall)", optional: true },

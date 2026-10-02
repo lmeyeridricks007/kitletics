@@ -4146,6 +4146,7 @@ export const fitnessBestGuides: BestGuide[] = [
     ],
     buyingAdvice: "If you squat heavy weekly, bias stability; if sessions mix run intervals, bias hybrid trainers.",
     faqIds: [],
+    relatedComparisonIds: ["cmp-metcon-dropset"],
     relatedToolSlugs: ["training-shoe-finder"],
     ...pub,
   },
@@ -4187,6 +4188,7 @@ export const fitnessBestGuides: BestGuide[] = [
     ],
     buyingAdvice: "Garmin watches live in the running catalog — pair HYROX shoes with your existing GPS watch rather than buying a training-only device.",
     faqIds: [],
+    relatedBuyingGuideIds: ["guide-choose-hyrox-shoes"],
     relatedToolSlugs: ["hyrox-shoe-finder"],
     ...pub,
   },
@@ -4271,6 +4273,7 @@ export const fitnessBestGuides: BestGuide[] = [
     comparisonProductIds: ["prod-rep-pr-4000", "prod-nuobell-80", "prod-rep-ab-5000", "prod-rogue-ohio"],
     buyingAdvice: "Build in order: flooring → rack/bench → bar/plates → conditioning. Pair with a Garmin watch from the running catalog for heart-rate work.",
     faqIds: [],
+    relatedBuyingGuideIds: ["guide-build-home-gym"],
     relatedToolSlugs: ["home-gym-builder"],
     ...pub,
   },
@@ -4285,6 +4288,7 @@ export const fitnessBuyingGuides: BuyingGuide[] = [
     categoryId: "cat-power-racks",
     relatedProductIds: ["prod-rep-pr-4000", "prod-nuobell-80", "prod-rep-ab-5000"],
     relatedUseCaseIds: ["uc-home-gym", "uc-garage-gym", "uc-beginner-strength"],
+    relatedBestGuideIds: ["best-home-gym-equipment", "best-air-bikes"],
     sections: [
       { id: "s1", heading: "Measure the room first", body: "Ceiling height, rack depth and neighbour noise matter more than brand hype. Confirm upright height and pull-up clearance before ordering." },
       { id: "s2", heading: "Buy in layers", body: "Flooring and a safe squat/bench setup unlock more progress than collecting accessories. Add a bar, bumpers, then conditioning." },
@@ -4334,6 +4338,7 @@ export const fitnessBuyingGuides: BuyingGuide[] = [
     categoryId: "cat-rowing-machines",
     relatedProductIds: ["prod-concept2-rowerg", "prod-concept2-skierg", "prod-rogue-echo-bike", "prod-tyr-cxt-2"],
     relatedUseCaseIds: ["uc-hyrox-training", "uc-hyrox-race"],
+    relatedBestGuideIds: ["best-hyrox-shoes"],
     sections: [
       { id: "s1", heading: "Station specificity first", body: "RowErg and SkiErg practice transfers directly. Sled work needs space and surface — simulate with a dog sled only if you have room." },
       { id: "s2", heading: "Shoes and watch", body: "Pick HYROX shoes for race day. Use your existing Garmin (running catalog) for pacing and heart-rate — do not buy a second watch solely for HYROX." },
@@ -4383,6 +4388,8 @@ export const fitnessGearSetups: GearSetup[] = [
     description: "Compact starter strength setup: adjustable dumbbells, bench and recovery essentials.",
     useCaseIds: ["uc-beginner-strength", "uc-home-gym", "uc-apartment-gym"],
     budgetRange: { min: 400, max: 900, currency: "EUR" },
+    relatedGuideIds: ["guide-build-home-gym"],
+    relatedBestGuideIds: ["best-home-gym-equipment", "best-air-bikes"],
     items: [
       { productId: "prod-bowflex-552", role: "Adjustable Dumbbells" },
       { productId: "prod-mirafit-fid-bench", role: "Bench" },
